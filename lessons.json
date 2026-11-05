@@ -1,0 +1,414 @@
+[
+  {
+    "id": "g10-sets-01",
+    "grade": 10,
+    "category": "Tập hợp và khoảng",
+    "title": "Tập hợp và khoảng",
+    "description": "Học ký hiệu tập hợp, các phép toán trên tập hợp và cách viết khoảng, đoạn, nửa khoảng, kèm thuật ngữ tiếng Anh.",
+    "level": "Beginner",
+    "estimatedMinutes": 45,
+    "prerequisites": [],
+    "path": "lessons/grade10/sets-and-intervals/sets-and-intervals.html",
+    "tags": [
+      "tập hợp",
+      "khoảng",
+      "biểu đồ Venn",
+      "từ vựng"
+    ]
+  },
+  {
+    "id": "g10-sets-02",
+    "grade": 10,
+    "category": "Tập hợp và khoảng",
+    "title": "Đếm bằng biểu đồ Venn",
+    "description": "Đếm số phần tử của hai tập hợp bằng biểu đồ Venn và công thức tính số phần tử của hợp.",
+    "level": "Intermediate",
+    "estimatedMinutes": 50,
+    "prerequisites": [
+      "g10-sets-01"
+    ],
+    "path": "lessons/grade10/sets-and-intervals/counting-with-venn-diagrams.html",
+    "tags": [
+      "biểu đồ Venn",
+      "đếm",
+      "hợp",
+      "giao"
+    ]
+  },
+  {
+    "id": "g10-algebra-01",
+    "grade": 10,
+    "category": "Biểu thức đại số",
+    "title": "Làm quen với đại số",
+    "description": "Đọc, viết và rút gọn biểu thức đại số, kèm cách nói bằng tiếng Anh.",
+    "level": "Beginner",
+    "estimatedMinutes": 45,
+    "prerequisites": [],
+    "path": "lessons/grade10/algebra/introduction.html",
+    "tags": [
+      "đại số",
+      "biểu thức",
+      "hạng tử đồng dạng",
+      "từ vựng"
+    ]
+  },
+  {
+    "id": "g11-functions-01",
+    "grade": 11,
+    "category": "Hàm số và đồ thị",
+    "title": "Đồ thị hàm số",
+    "description": "Đọc và vẽ đồ thị hàm số: tập xác định, giao điểm với trục, đồng biến – nghịch biến, tiệm cận.",
+    "level": "Intermediate",
+    "estimatedMinutes": 50,
+    "prerequisites": [],
+    "path": "lessons/grade11/functions-and-graphs/graphs-of-functions.html",
+    "tags": [
+      "hàm số",
+      "đồ thị",
+      "tập xác định",
+      "giao điểm",
+      "đồng biến",
+      "nghịch biến",
+      "tiệm cận"
+    ]
+  },
+  {
+    "id": "g11-trigf-01",
+    "grade": 11,
+    "category": "Hàm số lượng giác",
+    "title": "Giá trị lượng giác của góc lượng giác",
+    "description": "Bài 1 – Góc lượng giác, radian, độ dài cung; sin, cos, tan, cot, các hệ thức cơ bản và góc liên quan đặc biệt.",
+    "level": "Intermediate",
+    "estimatedMinutes": 60,
+    "prerequisites": [
+      "g11-functions-01"
+    ],
+    "path": "lessons/grade11/trigonometric-functions/radians-and-trigonometric-functions.html",
+    "tags": [
+      "góc lượng giác",
+      "radian",
+      "đường tròn lượng giác",
+      "sin",
+      "cos",
+      "tan",
+      "cot",
+      "độ dài cung"
+    ]
+  },
+  {
+    "id": "g11-trigf-03",
+    "grade": 11,
+    "category": "Hàm số lượng giác",
+    "title": "Công thức lượng giác",
+    "description": "Bài 2 – Công thức cộng, nhân đôi, hạ bậc, biến đổi tích thành tổng và tổng thành tích.",
+    "level": "Intermediate",
+    "estimatedMinutes": 60,
+    "prerequisites": [
+      "g11-trigf-01"
+    ],
+    "path": "lessons/grade11/trigonometric-functions/trigonometric-formulas.html",
+    "tags": [
+      "công thức cộng",
+      "công thức nhân đôi",
+      "hạ bậc",
+      "tích thành tổng",
+      "tổng thành tích",
+      "rút gọn",
+      "chứng minh đẳng thức"
+    ]
+  },
+  {
+    "id": "g11-trigf-02",
+    "grade": 11,
+    "category": "Hàm số lượng giác",
+    "title": "Hàm số lượng giác",
+    "description": "Bài 3 – Tập xác định, tập giá trị, chu kì, tính chẵn lẻ, đồ thị và tính đơn điệu của sin, cos, tan, cot; mô hình hóa hiện tượng tuần hoàn.",
+    "level": "Intermediate",
+    "estimatedMinutes": 65,
+    "prerequisites": [
+      "g11-trigf-03"
+    ],
+    "path": "lessons/grade11/trigonometric-functions/graphs-and-properties.html",
+    "tags": [
+      "hàm số lượng giác",
+      "chu kì",
+      "đồ thị",
+      "sin",
+      "cos",
+      "tan",
+      "cot",
+      "đồng biến",
+      "nghịch biến",
+      "thủy triều"
+    ]
+  },
+  {
+    "id": "g11-trige-01",
+    "grade": 11,
+    "category": "Phương trình lượng giác",
+    "title": "Phương trình lượng giác cơ bản",
+    "description": "Bài 4 – Giải phương trình sin x = m, cos x = m, tan x = m, cot x = m; họ nghiệm và nghiệm trong một khoảng.",
+    "level": "Intermediate",
+    "estimatedMinutes": 65,
+    "prerequisites": [
+      "g11-trigf-02"
+    ],
+    "path": "lessons/grade11/trigonometric-equations/basic-trigonometric-equations.html",
+    "tags": [
+      "phương trình lượng giác",
+      "họ nghiệm",
+      "nghiệm trong khoảng",
+      "sin x = m",
+      "cos x = m",
+      "tan x = m"
+    ]
+  },
+  {
+    "id": "g11-sequences-01",
+    "grade": 11,
+    "category": "Dãy số",
+    "title": "Dãy số",
+    "description": "Bài 5 – Dãy số: cho bằng công thức, truy hồi; dãy số tăng, giảm; dãy số bị chặn.",
+    "level": "Intermediate",
+    "estimatedMinutes": 60,
+    "prerequisites": [
+      "g11-functions-01"
+    ],
+    "path": "lessons/grade11/sequences/sequences.html",
+    "tags": [
+      "dãy số",
+      "số hạng tổng quát",
+      "công thức truy hồi",
+      "dãy số tăng",
+      "dãy số giảm",
+      "dãy số bị chặn"
+    ]
+  },
+  {
+    "id": "g11-limits-02",
+    "grade": 11,
+    "category": "Giới hạn",
+    "title": "Giới hạn của hàm số",
+    "description": "Giới hạn của hàm số: giới hạn một bên, phân tích nhân tử, giới hạn tại vô cực và tiệm cận.",
+    "level": "Intermediate",
+    "estimatedMinutes": 55,
+    "prerequisites": [
+      "g11-functions-01"
+    ],
+    "path": "lessons/grade11/limits/limits-of-functions.html",
+    "tags": [
+      "giới hạn",
+      "giới hạn một bên",
+      "vô cực",
+      "tiệm cận",
+      "dạng 0/0"
+    ]
+  },
+  {
+    "id": "g11-derivatives-01",
+    "grade": 11,
+    "category": "Đạo hàm",
+    "title": "Đạo hàm: định nghĩa và tiếp tuyến",
+    "description": "Đạo hàm là giới hạn của tỉ số biến thiên và là hệ số góc của tiếp tuyến.",
+    "level": "Intermediate",
+    "estimatedMinutes": 55,
+    "prerequisites": [
+      "g11-limits-02"
+    ],
+    "path": "lessons/grade11/derivatives/derivative-definition.html",
+    "tags": [
+      "đạo hàm",
+      "tiếp tuyến",
+      "hệ số góc",
+      "định nghĩa",
+      "cát tuyến"
+    ]
+  },
+  {
+    "id": "g11-exp-02",
+    "grade": 11,
+    "category": "Hàm số mũ",
+    "title": "Hàm số mũ và phương trình mũ",
+    "description": "Đồ thị và tính chất của hàm số y = a^x, giải phương trình mũ.",
+    "level": "Intermediate",
+    "estimatedMinutes": 50,
+    "prerequisites": [
+      "g11-functions-01"
+    ],
+    "path": "lessons/grade11/exponential-functions/exponential-functions-and-equations.html",
+    "tags": [
+      "hàm số mũ",
+      "phương trình mũ",
+      "lũy thừa",
+      "cơ số",
+      "đồng biến",
+      "nghịch biến"
+    ]
+  },
+  {
+    "id": "g11-space-02",
+    "grade": 11,
+    "category": "Đường thẳng và mặt phẳng trong không gian",
+    "title": "Đường thẳng và mặt phẳng song song",
+    "description": "Hai đường thẳng song song, đường thẳng song song với mặt phẳng và hai mặt phẳng song song, kèm hình 3D xoay được.",
+    "level": "Intermediate",
+    "estimatedMinutes": 55,
+    "prerequisites": [],
+    "path": "lessons/grade11/lines-and-planes-in-space/parallel-lines-and-planes.html",
+    "tags": [
+      "song song",
+      "chéo nhau",
+      "mặt phẳng",
+      "hình chóp",
+      "hình lập phương",
+      "đường trung bình"
+    ]
+  },
+  {
+    "id": "g11-space-03",
+    "grade": 11,
+    "category": "Đường thẳng và mặt phẳng trong không gian",
+    "title": "Quan hệ vuông góc",
+    "description": "Đường thẳng và mặt phẳng vuông góc, góc giữa đường thẳng và mặt phẳng, kèm hình dựng chính xác và hình 3D.",
+    "level": "Intermediate",
+    "estimatedMinutes": 60,
+    "prerequisites": [
+      "g11-space-02"
+    ],
+    "path": "lessons/grade11/lines-and-planes-in-space/perpendicularity.html",
+    "tags": [
+      "vuông góc",
+      "góc giữa đường thẳng và mặt phẳng",
+      "hình chiếu",
+      "tiếp tuyến",
+      "hình chóp"
+    ]
+  },
+  {
+    "id": "g12-deriv-app-01",
+    "grade": 12,
+    "category": "Ứng dụng của đạo hàm",
+    "title": "Đường tiệm cận của đồ thị",
+    "description": "Tìm tiệm cận đứng, tiệm cận ngang và tiệm cận xiên của đồ thị hàm số.",
+    "level": "Intermediate",
+    "estimatedMinutes": 40,
+    "prerequisites": [],
+    "path": "lessons/grade12/derivative-applications/asymptotes-of-graphs.html",
+    "tags": [
+      "tiệm cận",
+      "tiệm cận đứng",
+      "tiệm cận ngang",
+      "tiệm cận xiên",
+      "hàm phân thức",
+      "giới hạn"
+    ]
+  },
+  {
+    "id": "g12-deriv-app-02",
+    "grade": 12,
+    "category": "Ứng dụng của đạo hàm",
+    "title": "Khảo sát và vẽ đồ thị hàm số",
+    "description": "Khảo sát hàm số và vẽ đồ thị theo từng bước.",
+    "level": "Intermediate",
+    "estimatedMinutes": 60,
+    "prerequisites": [
+      "g12-deriv-app-01"
+    ],
+    "path": "lessons/grade12/derivative-applications/sketching-graphs.html",
+    "tags": [
+      "đồ thị",
+      "khảo sát hàm số",
+      "tính đối xứng",
+      "tiệm cận"
+    ]
+  },
+  {
+    "id": "g12-mono-01",
+    "grade": 12,
+    "category": "Tính đơn điệu và cực trị",
+    "title": "Tính đơn điệu của hàm số",
+    "description": "Dùng đạo hàm để tìm khoảng đồng biến, nghịch biến của hàm số.",
+    "level": "Intermediate",
+    "estimatedMinutes": 45,
+    "prerequisites": [],
+    "path": "lessons/grade12/monotonicity-extrema/monotonicity-of-functions.html",
+    "tags": [
+      "đơn điệu",
+      "đồng biến",
+      "nghịch biến",
+      "đạo hàm"
+    ]
+  },
+  {
+    "id": "g12-mono-02",
+    "grade": 12,
+    "category": "Tính đơn điệu và cực trị",
+    "title": "Cực trị của hàm số",
+    "description": "Tìm điểm cực đại, cực tiểu bằng dấu của đạo hàm và đạo hàm cấp hai.",
+    "level": "Intermediate",
+    "estimatedMinutes": 45,
+    "prerequisites": [
+      "g12-mono-01"
+    ],
+    "path": "lessons/grade12/monotonicity-extrema/local-extrema.html",
+    "tags": [
+      "cực trị",
+      "cực đại",
+      "cực tiểu",
+      "đạo hàm"
+    ]
+  },
+  {
+    "id": "g12-mono-03",
+    "grade": 12,
+    "category": "Tính đơn điệu và cực trị",
+    "title": "Giá trị lớn nhất và nhỏ nhất",
+    "description": "Tìm giá trị lớn nhất, nhỏ nhất của hàm số trên một đoạn hoặc khoảng.",
+    "level": "Intermediate",
+    "estimatedMinutes": 50,
+    "prerequisites": [
+      "g12-mono-02"
+    ],
+    "path": "lessons/grade12/monotonicity-extrema/maximum-and-minimum-values.html",
+    "tags": [
+      "giá trị lớn nhất",
+      "giá trị nhỏ nhất",
+      "tối ưu",
+      "đoạn"
+    ]
+  },
+  {
+    "id": "g12-antider-01",
+    "grade": 12,
+    "category": "Nguyên hàm",
+    "title": "Nguyên hàm",
+    "description": "Học khái niệm nguyên hàm, bảng nguyên hàm cơ bản và điều kiện ban đầu.",
+    "level": "Intermediate",
+    "estimatedMinutes": 45,
+    "prerequisites": [],
+    "path": "lessons/grade12/antiderivatives/antiderivatives.html",
+    "tags": [
+      "nguyên hàm",
+      "tích phân",
+      "hằng số tích phân"
+    ]
+  },
+  {
+    "id": "g12-antider-02",
+    "grade": 12,
+    "category": "Nguyên hàm",
+    "title": "Các phương pháp tìm nguyên hàm",
+    "description": "Dùng phép thế tuyến tính, đổi biến số và nguyên hàm từng phần.",
+    "level": "Intermediate",
+    "estimatedMinutes": 50,
+    "prerequisites": [
+      "g12-antider-01"
+    ],
+    "path": "lessons/grade12/antiderivatives/techniques-of-antiderivatives.html",
+    "tags": [
+      "đổi biến",
+      "nguyên hàm từng phần",
+      "nguyên hàm"
+    ]
+  }
+]

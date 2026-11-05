@@ -1,0 +1,189 @@
+# Bản đồ chương trình ToánvàTA – Toán 10, 11, 12 (Giai đoạn 1)
+
+> **Lưu ý:** đây là chương trình đề xuất, tham khảo cấu trúc sách Toán THPT hiện hành nhưng **chưa được đối chiếu với văn bản chính thức** của Bộ Giáo dục và Đào tạo. Giáo viên cần kiểm tra lại trước khi công bố là chương trình chuẩn.
+
+## Điều chỉnh so với danh mục gợi ý trong đề bài
+
+- Lớp 10: thêm chủ đề *Counting* vào *Probability* (tổ hợp là nền cho xác suất); đổi tên *Probability* thành *Counting and Probability*.
+- Lớp 12: bỏ mục *Exponential and Logarithmic Functions* (đã có ở lớp 11 để các lớp kế thừa, không lặp); đổi *Three-Dimensional Geometry* thành *Coordinates in Space* (phương trình mặt phẳng, đường thẳng, mặt cầu trong Oxyz); tách *Statistics* và *Probability*.
+
+## Quy ước
+
+- Mã bài: `g<lớp>-<mã chủ đề ngắn>-<số thứ tự 2 chữ số>`; thư mục: `lessons/grade<lớp>/<thư-mục-chủ-đề>/<tên-bài>.html`.
+- Trạng thái: **BUILT** = đã viết đầy đủ; **TEST** = bài kiểm thử kỹ thuật của AI số 1, sẽ được thay bằng nội dung thật ở cùng `id`; **PLANNED** = đã lập kế hoạch, chưa viết. Chỉ bài BUILT/TEST có trong `lessons.json` (tránh liên kết đến file chưa có).
+- `prerequisites` của mỗi bài PLANNED mặc định là bài liền trước trong cùng chủ đề; bài đầu chủ đề trỏ đến bài cuối của chủ đề nền tương ứng khi triển khai.
+
+## Grade 10 – Toán lớp 10
+
+| # | Topic – Chủ đề | Mã bài | Bài học | Trạng thái |
+|---|---|---|---|---|
+| 1 | Sets and Intervals – Tập hợp và khoảng | `g10-sets-01` | Sets and Intervals | BUILT (v2) |
+| 1 | Sets and Intervals – Tập hợp và khoảng | `g10-sets-02` | Counting with Venn Diagrams | BUILT (v2) |
+| 2 | Algebraic Expressions – Biểu thức đại số | `g10-algebra-01` | Introduction to Algebra | BUILT (v2) |
+| 2 | Algebraic Expressions – Biểu thức đại số | `g10-algebra-02` | Expanding and Factoring | PLANNED |
+| 2 | Algebraic Expressions – Biểu thức đại số | `g10-algebra-03` | Rational Expressions | PLANNED |
+| 3 | Equations and Inequalities – Phương trình và bất phương trình | `g10-equations-01` | Linear Equations | PLANNED |
+| 3 | Equations and Inequalities – Phương trình và bất phương trình | `g10-equations-02` | Systems of Equations | PLANNED |
+| 3 | Equations and Inequalities – Phương trình và bất phương trình | `g10-equations-03` | Linear Inequalities | PLANNED |
+| 4 | Functions – Hàm số | `g10-functions-01` | Function Notation, Domain and Range | PLANNED |
+| 4 | Functions – Hàm số | `g10-functions-02` | Graphs of Functions | PLANNED |
+| 4 | Functions – Hàm số | `g10-functions-03` | Increasing and Decreasing Functions | PLANNED |
+| 5 | Quadratic Functions – Hàm số bậc hai | `g10-quad-01` | Parabolas and Quadratic Functions | PLANNED |
+| 5 | Quadratic Functions – Hàm số bậc hai | `g10-quad-02` | Quadratic Equations | PLANNED |
+| 5 | Quadratic Functions – Hàm số bậc hai | `g10-quad-03` | Quadratic Inequalities | PLANNED |
+| 6 | Coordinate Geometry – Hình học tọa độ | `g10-coord-01` | Coordinates in the Plane | PLANNED |
+| 6 | Coordinate Geometry – Hình học tọa độ | `g10-coord-02` | Equations of Lines | PLANNED |
+| 6 | Coordinate Geometry – Hình học tọa độ | `g10-coord-03` | Circles | PLANNED |
+| 7 | Vectors – Vectơ | `g10-vectors-01` | Vectors and Their Operations | PLANNED |
+| 7 | Vectors – Vectơ | `g10-vectors-02` | The Dot Product | PLANNED |
+| 8 | Basic Trigonometry – Lượng giác cơ bản | `g10-trig-01` | Trigonometric Ratios of Angles from 0° to 180° | PLANNED |
+| 8 | Basic Trigonometry – Lượng giác cơ bản | `g10-trig-02` | Law of Sines and Law of Cosines | PLANNED |
+| 9 | Statistics – Thống kê | `g10-statistics-01` | Measures of Central Tendency | PLANNED |
+| 9 | Statistics – Thống kê | `g10-statistics-02` | Measures of Spread | PLANNED |
+| 10 | Counting and Probability – Đếm và xác suất | `g10-probability-01` | Counting Rules | PLANNED |
+| 10 | Counting and Probability – Đếm và xác suất | `g10-probability-02` | Permutations and Combinations | PLANNED |
+| 10 | Counting and Probability – Đếm và xác suất | `g10-probability-03` | Probability of Events | PLANNED |
+
+## Grade 11 – Toán lớp 11
+
+| # | Topic – Chủ đề | Mã bài | Bài học | Trạng thái |
+|---|---|---|---|---|
+| 1 | Trigonometric Functions – Hàm số lượng giác | `g11-trigf-01` | Bài 1 (KNTT). Trigonometric Values of Oriented Angles – Giá trị lượng giác của góc lượng giác | BUILT (viết lại theo SGK) |
+| 1 | Trigonometric Functions – Hàm số lượng giác | `g11-trigf-03` | Bài 2 (KNTT). Trigonometric Formulas – Công thức lượng giác | BUILT (mới) |
+| 1 | Trigonometric Functions – Hàm số lượng giác | `g11-trigf-02` | Bài 3 (KNTT). Graphs and Properties – Hàm số lượng giác | BUILT (viết lại theo SGK) |
+| 2 | Trigonometric Equations – Phương trình lượng giác | `g11-trige-01` | Bài 4 (KNTT). Basic Trigonometric Equations – Phương trình lượng giác cơ bản | BUILT (mới) |
+| 2 | Trigonometric Equations – Phương trình lượng giác | `g11-trige-02` | Solving Trigonometric Equations | PLANNED |
+| 3 | Sequences – Dãy số | `g11-sequences-01` | Bài 5 (KNTT). Sequences – Dãy số (gồm tăng/giảm, bị chặn) | BUILT (mới) |
+| 3 | Sequences – Dãy số | `g11-sequences-02` | Monotonic and Bounded Sequences | PLANNED |
+| 4 | Arithmetic Progressions – Cấp số cộng | `g11-arith-01` | Arithmetic Progressions | PLANNED |
+| 4 | Arithmetic Progressions – Cấp số cộng | `g11-arith-02` | Sum of an Arithmetic Progression | PLANNED |
+| 5 | Geometric Progressions – Cấp số nhân | `g11-geom-01` | Geometric Progressions | PLANNED |
+| 5 | Geometric Progressions – Cấp số nhân | `g11-geom-02` | Sum of a Geometric Progression | PLANNED |
+| 6 | Limits – Giới hạn | `g11-limits-01` | Limits of Sequences | PLANNED |
+| 6 | Limits – Giới hạn | `g11-limits-02` | Limits of Functions | BUILT |
+| 6 | Limits – Giới hạn | `g11-limits-03` | Continuity | PLANNED |
+| 7 | Derivatives – Đạo hàm | `g11-derivatives-01` | The Derivative: Definition | BUILT |
+| 7 | Derivatives – Đạo hàm | `g11-derivatives-02` | Rules of Differentiation | PLANNED |
+| 7 | Derivatives – Đạo hàm | `g11-derivatives-03` | Higher-order Derivatives | PLANNED |
+| 8 | Exponential Functions – Hàm số mũ | `g11-exp-01` | Powers and Exponents | PLANNED |
+| 8 | Exponential Functions – Hàm số mũ | `g11-exp-02` | Exponential Functions and Equations | BUILT |
+| 9 | Logarithmic Functions – Hàm số logarit | `g11-log-01` | Logarithms | PLANNED |
+| 9 | Logarithmic Functions – Hàm số logarit | `g11-log-02` | Logarithmic Functions and Equations | PLANNED |
+| 10 | Lines and Planes in Space – Đường thẳng và mặt phẳng trong không gian | `g11-space-01` | Points, Lines and Planes in Space | PLANNED |
+| 10 | Lines and Planes in Space – Đường thẳng và mặt phẳng trong không gian | `g11-space-02` | Parallel Lines and Planes | BUILT |
+| 10 | Lines and Planes in Space – Đường thẳng và mặt phẳng trong không gian | `g11-space-03` | Perpendicularity | BUILT |
+| 11 | Statistics and Probability – Thống kê và xác suất | `g11-statprob-01` | Grouped Data and Measures of Spread | PLANNED |
+| 11 | Statistics and Probability – Thống kê và xác suất | `g11-statprob-02` | Probability of Compound Events | PLANNED |
+
+## Grade 12 – Toán lớp 12
+
+| # | Topic – Chủ đề | Mã bài | Bài học | Trạng thái |
+|---|---|---|---|---|
+| 1 | Applications of Derivatives – Ứng dụng đạo hàm | `g12-deriv-app-01` | Asymptotes of Graphs | BUILT |
+| 1 | Applications of Derivatives – Ứng dụng đạo hàm | `g12-deriv-app-02` | Sketching Graphs of Functions | BUILT |
+| 2 | Monotonicity and Extrema – Tính đơn điệu và cực trị | `g12-mono-01` | Monotonicity of Functions | BUILT |
+| 2 | Monotonicity and Extrema – Tính đơn điệu và cực trị | `g12-mono-02` | Local Extrema | BUILT |
+| 2 | Monotonicity and Extrema – Tính đơn điệu và cực trị | `g12-mono-03` | Maximum and Minimum Values | BUILT |
+| 3 | Antiderivatives – Nguyên hàm | `g12-antider-01` | Antiderivatives | BUILT |
+| 3 | Antiderivatives – Nguyên hàm | `g12-antider-02` | Techniques of Finding Antiderivatives | BUILT |
+| 4 | Integrals – Tích phân | `g12-integrals-01` | Definite Integrals | PLANNED |
+| 4 | Integrals – Tích phân | `g12-integrals-02` | Properties and Calculation of Integrals | PLANNED |
+| 5 | Applications of Integrals – Ứng dụng tích phân | `g12-int-app-01` | Area of a Plane Region | PLANNED |
+| 5 | Applications of Integrals – Ứng dụng tích phân | `g12-int-app-02` | Volume of a Solid | PLANNED |
+| 6 | Vectors in Space – Vectơ trong không gian | `g12-vecspace-01` | Vectors in Space | PLANNED |
+| 6 | Vectors in Space – Vectơ trong không gian | `g12-vecspace-02` | Coordinates of Vectors | PLANNED |
+| 7 | Coordinates in Space – Tọa độ trong không gian | `g12-oxyz-01` | Equation of a Plane | PLANNED |
+| 7 | Coordinates in Space – Tọa độ trong không gian | `g12-oxyz-02` | Equation of a Line in Space | PLANNED |
+| 7 | Coordinates in Space – Tọa độ trong không gian | `g12-oxyz-03` | Equation of a Sphere | PLANNED |
+| 8 | Statistics – Thống kê | `g12-statistics-01` | Range and Interquartile Range | PLANNED |
+| 8 | Statistics – Thống kê | `g12-statistics-02` | Variance and Standard Deviation | PLANNED |
+| 9 | Probability – Xác suất | `g12-probability-01` | Conditional Probability | PLANNED |
+| 9 | Probability – Xác suất | `g12-probability-02` | Total Probability and Bayes' Formula | PLANNED |
+
+**Tổng cộng: 71 bài** (đợt lớp 10 – 1: g10-sets-01 (chuyển sang v2), g10-sets-02, g10-algebra-01 đã BUILT; lớp 12 có 7 bài BUILT; lớp 11 có 11 bài BUILT: `g11-functions-01` (đã thay bài TEST cũ, ngoài bản đồ), `g11-trigf-01`, `g11-trigf-03`, `g11-trigf-02`, `g11-trige-01`, `g11-sequences-01`, `g11-limits-02`, `g11-derivatives-01`, `g11-exp-02`, `g11-space-02`, `g11-space-03`; các bài lớp 11 có đồ thị/hình tương tác (xem `docs/GRAPH.md`) và bài tập riêng cho từng mức).
+
+> Bài TEST `g12-calculus-01` đã được xóa theo yêu cầu. Các bài TEST của AI số 1 (`g10-algebra-01`, `g11-functions-01`) đều đã được viết lại thành bài thật. Khi viết bài thật, giữ nguyên các `id` này nếu muốn tiếp tục dùng; hoặc thay bằng id mới của bản đồ trên và cập nhật `lessons.json`. Bản đồ này chưa xếp `g11-functions-01` vào chủ đề nào, vì chủ đề *Functions* lớp 11 được bao hàm trong *Trigonometric Functions*/*Exponential Functions*; cần AI số 1 hoặc giáo viên quyết định giữ hay xóa.
+
+## Cấu trúc thư mục
+```
+mathbridge/
+├─ css/lesson-kit.css      (MỚI – thành phần bài học, tiền tố mbl-)
+├─ js/lesson-kit.js        (MỚI – tương tác: hiện/ẩn lời giải, chấm câu hỏi, điểm, tự chỉnh chiều cao iframe)
+├─ lessons.json            (đã thêm g10-sets-01)
+├─ data/vocab.json         (đã thêm 12 thuật ngữ Sets and Intervals)
+└─ lessons/grade10/sets-and-intervals/sets-and-intervals.html   (BÀI MẪU HOÀN CHỈNH)
+```
+Đường dẫn đầy đủ dự kiến của các bài còn lại:
+```
+lessons/grade10/sets-and-intervals/sets-and-intervals.html
+lessons/grade10/sets-and-intervals/counting-with-venn-diagrams.html
+lessons/grade10/algebra/introduction-to-algebra.html
+lessons/grade10/algebra/expanding-and-factoring.html
+lessons/grade10/algebra/rational-expressions.html
+lessons/grade10/equations/linear-equations.html
+lessons/grade10/equations/systems-of-equations.html
+lessons/grade10/equations/linear-inequalities.html
+lessons/grade10/functions/function-notation-domain-and-range.html
+lessons/grade10/functions/graphs-of-functions.html
+lessons/grade10/functions/increasing-and-decreasing-functions.html
+lessons/grade10/quadratic/parabolas-and-quadratic-functions.html
+lessons/grade10/quadratic/quadratic-equations.html
+lessons/grade10/quadratic/quadratic-inequalities.html
+lessons/grade10/coordinate-geometry/coordinates-in-the-plane.html
+lessons/grade10/coordinate-geometry/equations-of-lines.html
+lessons/grade10/coordinate-geometry/circles.html
+lessons/grade10/vectors/vectors-and-their-operations.html
+lessons/grade10/vectors/the-dot-product.html
+lessons/grade10/trigonometry/trigonometric-ratios-of-angles-from-0-to-180.html
+lessons/grade10/trigonometry/law-of-sines-and-law-of-cosines.html
+lessons/grade10/statistics/measures-of-central-tendency.html
+lessons/grade10/statistics/measures-of-spread.html
+lessons/grade10/probability/counting-rules.html
+lessons/grade10/probability/permutations-and-combinations.html
+lessons/grade10/probability/probability-of-events.html
+lessons/grade11/trig-functions/radians-and-trigonometric-functions.html
+lessons/grade11/trig-functions/graphs-and-properties.html
+lessons/grade11/trig-equations/basic-trigonometric-equations.html
+lessons/grade11/trig-equations/solving-trigonometric-equations.html
+lessons/grade11/sequences/sequences-and-their-terms.html
+lessons/grade11/sequences/monotonic-and-bounded-sequences.html
+lessons/grade11/arithmetic-progressions/arithmetic-progressions.html
+lessons/grade11/arithmetic-progressions/sum-of-an-arithmetic-progression.html
+lessons/grade11/geometric-progressions/geometric-progressions.html
+lessons/grade11/geometric-progressions/sum-of-a-geometric-progression.html
+lessons/grade11/limits/limits-of-sequences.html
+lessons/grade11/limits/limits-of-functions.html
+lessons/grade11/limits/continuity.html
+lessons/grade11/derivatives/the-derivative-definition.html
+lessons/grade11/derivatives/rules-of-differentiation.html
+lessons/grade11/derivatives/higher-order-derivatives.html
+lessons/grade11/exponential-functions/powers-and-exponents.html
+lessons/grade11/exponential-functions/exponential-functions-and-equations.html
+lessons/grade11/logarithmic-functions/logarithms.html
+lessons/grade11/logarithmic-functions/logarithmic-functions-and-equations.html
+lessons/grade11/space-geometry/points-lines-and-planes-in-space.html
+lessons/grade11/space-geometry/parallel-lines-and-planes.html
+lessons/grade11/space-geometry/perpendicularity.html
+lessons/grade11/statistics-probability/grouped-data-and-measures-of-spread.html
+lessons/grade11/statistics-probability/probability-of-compound-events.html
+lessons/grade12/derivative-applications/asymptotes-of-graphs.html
+lessons/grade12/derivative-applications/sketching-graphs-of-functions.html
+lessons/grade12/monotonicity-extrema/monotonicity-of-functions.html
+lessons/grade12/monotonicity-extrema/local-extrema.html
+lessons/grade12/monotonicity-extrema/maximum-and-minimum-values.html
+lessons/grade12/antiderivatives/antiderivatives.html
+lessons/grade12/antiderivatives/techniques-of-finding-antiderivatives.html
+lessons/grade12/integrals/definite-integrals.html
+lessons/grade12/integrals/properties-and-calculation-of-integrals.html
+lessons/grade12/integral-applications/area-of-a-plane-region.html
+lessons/grade12/integral-applications/volume-of-a-solid.html
+lessons/grade12/vectors-in-space/vectors-in-space.html
+lessons/grade12/vectors-in-space/coordinates-of-vectors.html
+lessons/grade12/coordinates-in-space/equation-of-a-plane.html
+lessons/grade12/coordinates-in-space/equation-of-a-line-in-space.html
+lessons/grade12/coordinates-in-space/equation-of-a-sphere.html
+lessons/grade12/statistics/range-and-interquartile-range.html
+lessons/grade12/statistics/variance-and-standard-deviation.html
+lessons/grade12/probability/conditional-probability.html
+lessons/grade12/probability/total-probability-and-bayes-formula.html
+```

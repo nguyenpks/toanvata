@@ -1,0 +1,20 @@
+/* MathBridge – khung đồ thị và hình vẽ Toán học (js/mb-graph.js). Màu theo bảng xanh lá của site. */
+.mbg-fig{margin:18px 0}
+.mbg{position:relative;border:1px solid #bfe3d1;border-radius:14px;background:#fff;padding:8px 8px 10px;box-shadow:0 1px 3px rgba(4,107,77,.08)}
+.mbg-stage{width:100%;height:var(--mbg-h,360px);min-height:220px;border-radius:10px;background:#fff;overflow:hidden;touch-action:pan-y}
+.mbg-tools{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 8px}
+.mbg-btn{min-width:40px;min-height:36px;padding:4px 10px;border:1px solid #86e0bd;border-radius:8px;background:#f1fbf6;color:#123428;font:600 14px/1 system-ui,Segoe UI,Arial,sans-serif;cursor:pointer}
+.mbg-btn:hover{background:#d5f3e4}
+.mbg-btn:focus-visible{outline:3px solid #046b4d;outline-offset:2px}
+.mbg-legend{display:flex;flex-wrap:wrap;gap:6px 16px;margin:8px 2px 0;font-size:.95rem;color:#123428}
+.mbg-key i{display:inline-block;width:22px;height:4px;border-radius:2px;margin-right:6px;vertical-align:middle}
+.mbg-side{display:grid;gap:6px;margin:8px 2px 0}
+.mbg-slider{display:grid;grid-template-columns:minmax(90px,auto) 1fr;align-items:center;gap:10px;font-size:.95rem}
+.mbg-slider input[type=range]{width:100%;accent-color:#046b4d;min-height:28px}
+.mbg-val{font-weight:700;color:#046b4d;font-variant-numeric:tabular-nums}
+.mbg-read{font-variant-numeric:tabular-nums;color:#123428;background:#f1fbf6;border-radius:8px;padding:6px 10px}
+.mbg-hint{margin:6px 2px 0;font-size:.85rem;color:#4b6b5c}
+.mbg-error{padding:14px;border:1px dashed #c2410c;border-radius:10px;background:#fff7ed;color:#7c2d12}
+.mbg-fig figcaption{margin-top:6px;font-size:.95rem;color:#123428}
+@media (max-width:560px){.mbg-stage{height:var(--mbg-hm,300px)}.mbg-slider{grid-template-columns:1fr}}
+@media print{.mbg-tools,.mbg-hint,.mbg-side{display:none}}

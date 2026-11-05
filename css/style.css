@@ -1,0 +1,128 @@
+/* Bảng màu lấy từ ảnh xanh lá pastel của nhóm. Tên biến giữ nguyên để các bài học cũ vẫn chạy. */
+:root{--blue:#ddf1ea;--mint:#d5f3e4;--lavender:#e5f2ec;--pink:#fbe4e8;--yellow:#fff3d1;
+--bg:#f3f9f6;--surface:#fff;--text:#123428;--muted:#4b675c;--line:#d3e5dc;
+--accent:#046b4d;--accent-deep:#00503a;--accent-soft:#86e0bd;--accent-ink:#fff;--ok:#077b55;
+--r:12px;--hh:60px;--ease:cubic-bezier(.22,.8,.24,1)}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 "Segoe UI","Be Vietnam Pro",system-ui,-apple-system,Roboto,Arial,sans-serif}
+a{color:var(--accent)}
+h1{font-size:clamp(24px,4vw,32px);line-height:1.25;margin:0 0 10px;letter-spacing:-.01em}
+h2{font-size:20px;margin:26px 0 10px}
+h3{font-size:16.5px;margin:0 0 4px}
+h3.cat{margin:14px 0 8px;color:var(--muted);font-size:15px}
+p{margin:0 0 8px;max-width:70ch}
+small,.muted{color:var(--muted)}
+.skip{position:absolute;left:-999px}.skip:focus{left:8px;top:8px;background:#fff;padding:8px;z-index:20}
+:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+
+.top{position:sticky;top:0;z-index:10;height:var(--hh);display:flex;align-items:center;gap:12px;padding:0 16px;background:rgba(255,255,255,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.brand{display:flex;flex-direction:column;font-weight:800;font-size:19px;line-height:1.15;text-decoration:none;color:var(--accent-deep)}
+.brand small{font-size:12px;font-weight:500;color:var(--muted)}
+#searchForm{margin-left:auto;display:flex;gap:6px;min-width:0}
+#searchForm input{width:min(240px,40vw)}
+input,select{font:inherit;padding:8px 12px;min-height:44px;border:1px solid var(--line);border-radius:10px;background:var(--surface);color:var(--text);max-width:100%;transition:border-color .2s var(--ease),box-shadow .2s var(--ease)}
+input:hover,select:hover{border-color:var(--accent-soft)}
+input:focus,select:focus{border-color:var(--accent);box-shadow:0 0 0 3px rgba(134,224,189,.5);outline:none}
+.icon-btn{display:none;min-width:44px;min-height:44px;border:1px solid var(--line);border-radius:10px;background:var(--surface);font-size:20px;cursor:pointer;transition:background .2s}
+.icon-btn:hover{background:var(--blue)}
+
+.layout{display:flex;max-width:1180px;margin:0 auto}
+#side{width:232px;flex:none;padding:16px 10px;position:sticky;top:var(--hh);align-self:flex-start;height:calc(100vh - var(--hh));overflow:auto}
+#side a{display:block;padding:9px 14px;border-radius:10px;text-decoration:none;color:var(--text);min-height:42px;transition:background-color .2s var(--ease),box-shadow .2s var(--ease),color .2s}
+#side a:hover{background:var(--blue)}
+#side a.on{background:var(--blue);font-weight:700;color:var(--accent-deep);box-shadow:inset 3px 0 0 var(--accent)}
+.side-sep{margin:16px 14px 6px;color:var(--muted);font-size:13px;text-transform:uppercase;letter-spacing:.05em}
+main{flex:1;min-width:0;padding:22px 20px 44px}
+
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(224px,1fr));gap:12px}
+.card{display:block;background:var(--surface);border-radius:var(--r);padding:14px 16px;color:var(--text);text-decoration:none;border:1px solid var(--line);min-width:0}
+a.card{transition:transform .28s var(--ease),box-shadow .28s var(--ease),border-color .28s var(--ease)}
+a.card:hover{transform:translateY(-3px);box-shadow:0 12px 24px -14px rgba(4,107,77,.45);border-color:var(--accent-soft)}
+a.card:active{transform:translateY(-1px)}
+.card.blue{background:var(--blue);border-top:3px solid #3ba383}
+.card.mint{background:var(--mint);border-top:3px solid #42c494}
+.card.lavender{background:var(--lavender);border-top:3px solid #32836d}
+.card.pink{background:var(--pink)}.card.yellow{background:var(--yellow)}
+
+.card.hero{padding:26px 22px;margin-bottom:6px;color:#fff;border:0;background:linear-gradient(135deg,var(--accent) 0%,var(--accent-deep) 100%)}
+.hero h1{color:#fff}
+.hero h1.slogan{font-size:clamp(36px,7vw,56px);line-height:1.1;font-weight:800;letter-spacing:-.02em;margin-bottom:10px}
+.hero .lead{font-size:clamp(17px,2.4vw,21px);font-weight:600;color:#fff;margin-bottom:6px}
+.hero .steps-line{font-size:16px;color:var(--accent-soft);font-weight:600;margin-bottom:4px}
+.hero p{color:rgba(255,255,255,.93)}
+.hero .btn{background:#fff;border-color:#fff;color:var(--accent-deep)}
+.hero .btn:hover{background:var(--mint);border-color:var(--mint)}
+.hero .btn.ghost{background:transparent;color:#fff;border-color:rgba(255,255,255,.75)}
+.hero .btn.ghost:hover{background:rgba(255,255,255,.14)}
+.row{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:12px 0}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:8px 20px;border:2px solid var(--accent);border-radius:10px;background:var(--accent);color:var(--accent-ink);font:inherit;font-weight:600;text-decoration:none;cursor:pointer;transition:background-color .2s var(--ease),border-color .2s var(--ease),color .2s,transform .15s var(--ease),box-shadow .2s var(--ease)}
+.btn:hover{background:var(--accent-deep);border-color:var(--accent-deep);box-shadow:0 6px 14px -8px rgba(0,80,58,.7)}
+.btn:active{transform:scale(.97);box-shadow:none}
+.btn.ghost{background:transparent;color:var(--accent)}
+.btn.ghost:hover{background:var(--blue);color:var(--accent-deep);border-color:var(--accent)}
+.btn.small{padding:6px 14px}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 8px}
+.chip{display:inline-block;padding:1px 10px;border-radius:999px;background:rgba(255,255,255,.8);border:1px solid var(--line);font-size:13px}
+.chip.ok{background:var(--mint);color:var(--ok);font-weight:600;border-color:var(--accent-soft)}.chip.big{font-size:15px;padding:5px 14px}
+.bar{height:8px;border-radius:99px;background:rgba(255,255,255,.85);overflow:hidden;margin:8px 0}
+.bar span{display:block;height:100%;background:linear-gradient(90deg,#30c28d,var(--accent));border-radius:99px;transform-origin:left;animation:grow .9s var(--ease) .15s both}
+.stat{font-size:32px;font-weight:700;line-height:1.2}
+.filters{display:flex;flex-wrap:wrap;gap:10px;align-items:flex-end;margin-bottom:10px}
+.field{display:flex;flex-direction:column;gap:4px;font-size:14px;color:var(--muted)}
+.crumb{font-size:14px;color:var(--muted);margin-bottom:8px}
+.empty{padding:16px;border:2px dashed var(--line);border-radius:var(--r);color:var(--muted);background:var(--surface)}
+.note{background:var(--yellow);border-radius:10px;padding:10px 14px;margin-bottom:12px}
+.steps{padding-left:22px}.hist{padding-left:20px}
+#lessonFrame{width:100%;min-height:70vh;border:1px solid var(--line);border-radius:var(--r);background:var(--surface)}
+.pager{justify-content:space-between}
+.foot{border-top:1px solid var(--line);padding:16px 20px;color:var(--muted);font-size:14px;text-align:center}
+.foot p{margin:0 auto}
+
+/* ===== Chuyển động ===== */
+@keyframes fade{from{opacity:0}to{opacity:1}}
+@keyframes rise{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+@keyframes grow{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+#view>*{animation:fade .35s var(--ease) both}
+.grid>.card,.hero{animation:rise .5s var(--ease) both}
+.grid>.card:nth-child(2){animation-delay:.05s}.grid>.card:nth-child(3){animation-delay:.1s}
+.grid>.card:nth-child(4){animation-delay:.15s}.grid>.card:nth-child(5){animation-delay:.2s}
+.grid>.card:nth-child(n+6){animation-delay:.25s}
+#scrim{position:fixed;inset:var(--hh) 0 0 0;background:rgba(0,40,30,.38);opacity:0;pointer-events:none;transition:opacity .3s var(--ease);z-index:8}
+
+@media (max-width:899px){
+ .icon-btn{display:inline-block}
+ #side{position:fixed;left:0;top:var(--hh);bottom:0;height:auto;width:min(280px,85vw);background:var(--surface);border-right:1px solid var(--line);transform:translateX(-105%);visibility:hidden;z-index:9;transition:transform .32s var(--ease),visibility 0s linear .32s;box-shadow:none}
+ body.menu-open #side{transform:none;visibility:visible;transition-delay:0s;box-shadow:12px 0 30px -18px rgba(0,40,30,.5)}
+ body.menu-open #scrim{opacity:1;pointer-events:auto}
+ #side a{min-height:44px}
+}
+@media (max-width:520px){.grid{grid-template-columns:1fr}#searchForm{flex:1}#searchForm input{flex:1;min-width:0;width:auto}.top{gap:8px}.brand{font-size:17px}.filters .field,.filters .btn{width:100%}.brand small{display:none}main{padding:18px 14px 40px}}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+
+/* ===== Ba cấp học và hình Toán học nền chìm ===== */
+#side a small{display:block;font-size:12.5px;color:var(--muted);line-height:1.3}
+h4.cat{margin:14px 0 8px;color:var(--muted);font-size:15px}
+.stage-h{margin:30px 0 4px;padding-bottom:6px;border-bottom:2px solid var(--accent-soft)}
+.stage-h small{font-size:14px;font-weight:400;color:var(--muted);margin-left:8px}
+.grade-h{margin:16px 0 0;font-size:17.5px;color:var(--accent-deep)}
+.home{position:relative;isolation:isolate;overflow-x:clip}
+.home-art{position:absolute;inset:-22px -20px 0;z-index:-1;overflow:hidden;pointer-events:none}
+.home-art svg{position:absolute;inset:0;width:100%;height:100%;opacity:.11}
+.card.hero{position:relative;overflow:hidden}
+.hero-art{position:absolute;inset:0;pointer-events:none}
+.hero-art svg{position:absolute;right:0;top:0;height:100%;width:52%;opacity:.24}
+.hero-text{position:relative;z-index:1}
+.stages .card.stage{position:relative;overflow:hidden;padding-bottom:16px}
+.stage h3 a{color:var(--accent-deep);text-decoration:none;font-size:19px}
+.stage h3 a:hover{text-decoration:underline}
+.stage .range{font-weight:600;color:var(--muted);margin-bottom:6px}
+.stage-art{position:absolute;right:10px;bottom:8px;width:84px;opacity:.28;pointer-events:none}
+.stage-art svg{width:100%;height:auto;display:block}
+.gchips{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0 6px}
+.gchip{display:inline-flex;align-items:center;gap:4px;min-height:36px;padding:3px 12px;border-radius:99px;background:#fff;border:1px solid var(--accent-soft);color:var(--accent-deep);font-size:14px;font-weight:600;text-decoration:none;transition:background-color .2s var(--ease),transform .15s var(--ease)}
+.gchip:hover{background:var(--accent);color:#fff;border-color:var(--accent)}
+.gchip i{font-style:normal;font-weight:400;font-size:11.5px;color:var(--muted)}
+.gchip:hover i{color:#fff}
+.gchip.soon{background:rgba(255,255,255,.55);font-weight:500}
+@media (max-width:620px){.hero-art svg{width:100%;opacity:.16}.stage-art{width:70px}.home-art svg{opacity:.1}}

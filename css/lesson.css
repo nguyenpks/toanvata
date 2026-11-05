@@ -1,0 +1,16 @@
+/* Giao diện chung cho bài học nhúng. AI số 2 nên dùng file này. */
+:root{--blue:#ddf1ea;--mint:#d5f3e4;--lavender:#e5f2ec;--pink:#fbe4e8;--yellow:#fff3d1;--text:#123428;--muted:#4b675c;--accent:#046b4d;--accent-deep:#00503a;--accent-soft:#86e0bd;--ease:cubic-bezier(.22,.8,.24,1)}
+body{margin:0;padding:20px;background:#fff;color:var(--text);font:17px/1.7 "Segoe UI",system-ui,Arial,sans-serif}
+article{max-width:760px;margin:0 auto}
+h1{font-size:28px;margin:0 0 10px}h2{font-size:21px;margin:24px 0 8px}
+.vi{color:var(--muted)}
+.box{border-radius:12px;padding:12px 16px;margin:14px 0}
+.box.blue{background:var(--blue)}.box.mint{background:var(--mint)}.box.yellow{background:var(--yellow)}.box.pink{background:var(--pink)}.box.lavender{background:var(--lavender)}
+mjx-container[display="true"]{overflow-x:auto;overflow-y:hidden;max-width:100%}
+.mb-complete{max-width:760px;margin:28px auto 0;display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+.mb-complete button{min-height:44px;padding:8px 18px;border:0;border-radius:10px;background:var(--accent);color:#fff;font:inherit;font-weight:600;cursor:pointer}
+
+.mb-complete button{transition:background-color .2s var(--ease),transform .15s var(--ease)}
+.mb-complete button:hover{background:var(--accent-deep)}
+.mb-complete button:active{transform:scale(.97)}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}}

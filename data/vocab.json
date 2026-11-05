@@ -1,0 +1,1336 @@
+[
+  {
+    "id": "v-equation",
+    "term": "equation",
+    "vi": "phương trình",
+    "category": "Đại số",
+    "example": "Solve the equation.",
+    "symbol": "\\(ax+b=0\\)"
+  },
+  {
+    "id": "v-fraction",
+    "term": "fraction",
+    "vi": "phân số",
+    "category": "Đại số",
+    "example": "Write the answer as a fraction.",
+    "symbol": "\\(\\frac{a}{b}\\)"
+  },
+  {
+    "id": "v-square-root",
+    "term": "square root",
+    "vi": "căn bậc hai",
+    "category": "Đại số",
+    "example": "Find the square root of nine.",
+    "symbol": "\\(\\sqrt{x}\\)"
+  },
+  {
+    "id": "v-function",
+    "term": "function",
+    "vi": "hàm số",
+    "category": "Hàm số",
+    "example": "Let f be a function.",
+    "symbol": "\\(f(x)\\)"
+  },
+  {
+    "id": "v-set",
+    "term": "set",
+    "vi": "tập hợp",
+    "category": "Tập hợp và khoảng",
+    "example": "Let A be a set.",
+    "symbol": "\\(A=\\{1,2,3\\}\\)"
+  },
+  {
+    "id": "v-element",
+    "term": "element",
+    "vi": "phần tử",
+    "category": "Tập hợp và khoảng",
+    "example": "2 is an element of A.",
+    "symbol": "\\(2\\in A\\)"
+  },
+  {
+    "id": "v-subset",
+    "term": "subset",
+    "vi": "tập con",
+    "category": "Tập hợp và khoảng",
+    "example": "A is a subset of B.",
+    "symbol": "\\(A\\subset B\\)"
+  },
+  {
+    "id": "v-empty-set",
+    "term": "empty set",
+    "vi": "tập rỗng",
+    "category": "Tập hợp và khoảng",
+    "example": "The empty set has no elements.",
+    "symbol": "\\(\\varnothing\\)"
+  },
+  {
+    "id": "v-union",
+    "term": "union",
+    "vi": "hợp",
+    "category": "Tập hợp và khoảng",
+    "example": "Find the union of A and B.",
+    "symbol": "\\(A\\cup B\\)"
+  },
+  {
+    "id": "v-intersection",
+    "term": "intersection",
+    "vi": "giao",
+    "category": "Tập hợp và khoảng",
+    "example": "Find the intersection of A and B.",
+    "symbol": "\\(A\\cap B\\)"
+  },
+  {
+    "id": "v-difference",
+    "term": "difference",
+    "vi": "hiệu",
+    "category": "Tập hợp và khoảng",
+    "example": "Find the difference A minus B.",
+    "symbol": "\\(A\\setminus B\\)"
+  },
+  {
+    "id": "v-complement",
+    "term": "complement",
+    "vi": "phần bù",
+    "category": "Tập hợp và khoảng",
+    "example": "Find the complement of A in R.",
+    "symbol": "\\(C_E A\\)"
+  },
+  {
+    "id": "v-interval",
+    "term": "interval",
+    "vi": "khoảng",
+    "category": "Tập hợp và khoảng",
+    "example": "Write the answer as an interval.",
+    "symbol": "\\((a,b)\\)"
+  },
+  {
+    "id": "v-open-interval",
+    "term": "open interval",
+    "vi": "khoảng (không chứa đầu mút)",
+    "category": "Tập hợp và khoảng",
+    "example": "The open interval does not include 1.",
+    "symbol": "\\((1,3)\\)"
+  },
+  {
+    "id": "v-closed-interval",
+    "term": "closed interval",
+    "vi": "đoạn (chứa hai đầu mút)",
+    "category": "Tập hợp và khoảng",
+    "example": "The closed interval includes 3.",
+    "symbol": "\\([1,3]\\)"
+  },
+  {
+    "id": "v-infinity",
+    "term": "infinity",
+    "vi": "vô cực",
+    "category": "Tập hợp và khoảng",
+    "example": "x goes to infinity.",
+    "symbol": "\\(+\\infty\\)"
+  },
+  {
+    "id": "v-asymptote",
+    "term": "asymptote",
+    "vi": "đường tiệm cận",
+    "category": "Ứng dụng của đạo hàm",
+    "example": "The graph has an asymptote."
+  },
+  {
+    "id": "v-vertical-asymptote",
+    "term": "vertical asymptote",
+    "vi": "tiệm cận đứng",
+    "category": "Ứng dụng của đạo hàm",
+    "example": "The line x = 3 is a vertical asymptote.",
+    "symbol": "\\(x=a\\)"
+  },
+  {
+    "id": "v-horizontal-asymptote",
+    "term": "horizontal asymptote",
+    "vi": "tiệm cận ngang",
+    "category": "Ứng dụng của đạo hàm",
+    "example": "The line y = 2 is a horizontal asymptote.",
+    "symbol": "\\(y=b\\)"
+  },
+  {
+    "id": "v-oblique-asymptote",
+    "term": "oblique asymptote",
+    "vi": "tiệm cận xiên",
+    "category": "Ứng dụng của đạo hàm",
+    "example": "The line y = x - 1 is an oblique asymptote.",
+    "symbol": "\\(y=ax+b\\)"
+  },
+  {
+    "id": "v-graph",
+    "term": "graph",
+    "vi": "đồ thị",
+    "category": "Ứng dụng của đạo hàm",
+    "example": "Sketch the graph of the function."
+  },
+  {
+    "id": "v-limit",
+    "term": "limit",
+    "vi": "giới hạn",
+    "category": "Ứng dụng của đạo hàm",
+    "example": "Find the limit as x approaches 3.",
+    "symbol": "\\(\\lim_{x\\to a}f(x)\\)"
+  },
+  {
+    "id": "v-rational-function",
+    "term": "rational function",
+    "vi": "hàm phân thức",
+    "category": "Ứng dụng của đạo hàm",
+    "example": "A rational function is a quotient of two polynomials.",
+    "symbol": "\\(\\dfrac{P(x)}{Q(x)}\\)"
+  },
+  {
+    "id": "v-numerator",
+    "term": "numerator",
+    "vi": "tử số",
+    "category": "Ứng dụng của đạo hàm",
+    "example": "The numerator is P(x)."
+  },
+  {
+    "id": "v-denominator",
+    "term": "denominator",
+    "vi": "mẫu số",
+    "category": "Ứng dụng của đạo hàm",
+    "example": "The denominator is zero at x = 3."
+  },
+  {
+    "id": "v-degree",
+    "term": "degree",
+    "vi": "bậc",
+    "category": "Ứng dụng của đạo hàm",
+    "example": "The degree of x^2 + 1 is 2.",
+    "symbol": "\\(\\deg P\\)"
+  },
+  {
+    "id": "v-leading-coefficient",
+    "term": "leading coefficient",
+    "vi": "hệ số cao nhất",
+    "category": "Ứng dụng của đạo hàm",
+    "example": "The leading coefficient is 4."
+  },
+  {
+    "id": "v-polynomial-division",
+    "term": "polynomial division",
+    "vi": "phép chia đa thức",
+    "category": "Ứng dụng của đạo hàm",
+    "example": "Use polynomial division."
+  },
+  {
+    "id": "v-quotient",
+    "term": "quotient",
+    "vi": "thương",
+    "category": "Ứng dụng của đạo hàm",
+    "example": "The quotient is x - 1."
+  },
+  {
+    "id": "v-remainder",
+    "term": "remainder",
+    "vi": "số dư",
+    "category": "Ứng dụng của đạo hàm",
+    "example": "The remainder is -1."
+  },
+  {
+    "id": "v-removable-discontinuity",
+    "term": "hole",
+    "vi": "điểm hổng",
+    "category": "Ứng dụng của đạo hàm",
+    "example": "The graph has a hole at x = 1."
+  },
+  {
+    "id": "v-derivative",
+    "term": "derivative",
+    "vi": "đạo hàm",
+    "category": "Tính đơn điệu và cực trị",
+    "example": "Find the derivative of f.",
+    "symbol": "\\(f'(x)\\)"
+  },
+  {
+    "id": "v-increasing",
+    "term": "increasing function",
+    "vi": "hàm số đồng biến",
+    "category": "Tính đơn điệu và cực trị",
+    "example": "The function is increasing on (0, 2)."
+  },
+  {
+    "id": "v-decreasing",
+    "term": "decreasing function",
+    "vi": "hàm số nghịch biến",
+    "category": "Tính đơn điệu và cực trị",
+    "example": "The function is decreasing on (-1, 1)."
+  },
+  {
+    "id": "v-monotonicity",
+    "term": "monotonicity",
+    "vi": "tính đơn điệu",
+    "category": "Tính đơn điệu và cực trị",
+    "example": "Study the monotonicity of the function."
+  },
+  {
+    "id": "v-critical-point",
+    "term": "critical point",
+    "vi": "điểm tới hạn",
+    "category": "Tính đơn điệu và cực trị",
+    "example": "Find the critical points of f."
+  },
+  {
+    "id": "v-sign-table",
+    "term": "sign table",
+    "vi": "bảng xét dấu",
+    "category": "Tính đơn điệu và cực trị",
+    "example": "Make a sign table for f'."
+  },
+  {
+    "id": "v-variation-table",
+    "term": "variation table",
+    "vi": "bảng biến thiên",
+    "category": "Tính đơn điệu và cực trị",
+    "example": "Complete the variation table."
+  },
+  {
+    "id": "v-extremum",
+    "term": "extremum",
+    "vi": "cực trị",
+    "category": "Tính đơn điệu và cực trị",
+    "example": "Find the extrema of the function."
+  },
+  {
+    "id": "v-local-maximum",
+    "term": "local maximum",
+    "vi": "cực đại",
+    "category": "Tính đơn điệu và cực trị",
+    "example": "The function has a local maximum at x = 0."
+  },
+  {
+    "id": "v-local-minimum",
+    "term": "local minimum",
+    "vi": "cực tiểu",
+    "category": "Tính đơn điệu và cực trị",
+    "example": "The function has a local minimum at x = 2."
+  },
+  {
+    "id": "v-second-derivative",
+    "term": "second derivative",
+    "vi": "đạo hàm cấp hai",
+    "category": "Tính đơn điệu và cực trị",
+    "example": "Use the second derivative test.",
+    "symbol": "\\(f''(x)\\)"
+  },
+  {
+    "id": "v-discriminant",
+    "term": "discriminant",
+    "vi": "biệt thức",
+    "category": "Tính đơn điệu và cực trị",
+    "example": "The discriminant is negative.",
+    "symbol": "\\(\\Delta\\)"
+  },
+  {
+    "id": "v-parameter",
+    "term": "parameter",
+    "vi": "tham số",
+    "category": "Tính đơn điệu và cực trị",
+    "example": "Find the values of the parameter m."
+  },
+  {
+    "id": "v-domain",
+    "term": "domain",
+    "vi": "tập xác định",
+    "category": "Tính đơn điệu và cực trị",
+    "example": "State the domain of the function."
+  },
+  {
+    "id": "v-maximum-value",
+    "term": "maximum value",
+    "vi": "giá trị lớn nhất",
+    "category": "Tính đơn điệu và cực trị",
+    "example": "Find the maximum value of f on [0, 2]."
+  },
+  {
+    "id": "v-minimum-value",
+    "term": "minimum value",
+    "vi": "giá trị nhỏ nhất",
+    "category": "Tính đơn điệu và cực trị",
+    "example": "Find the minimum value of f on [0, 2]."
+  },
+  {
+    "id": "v-endpoint",
+    "term": "endpoint",
+    "vi": "đầu mút",
+    "category": "Tính đơn điệu và cực trị",
+    "example": "Evaluate f at the endpoints."
+  },
+  {
+    "id": "v-continuous",
+    "term": "continuous function",
+    "vi": "hàm số liên tục",
+    "category": "Tính đơn điệu và cực trị",
+    "example": "A continuous function on a closed interval."
+  },
+  {
+    "id": "v-sketching",
+    "term": "sketching a graph",
+    "vi": "khảo sát và vẽ đồ thị",
+    "category": "Ứng dụng của đạo hàm",
+    "example": "Sketch the graph of the function."
+  },
+  {
+    "id": "v-even-function",
+    "term": "even function",
+    "vi": "hàm số chẵn",
+    "category": "Ứng dụng của đạo hàm",
+    "example": "An even function is symmetric about the y-axis."
+  },
+  {
+    "id": "v-odd-function",
+    "term": "odd function",
+    "vi": "hàm số lẻ",
+    "category": "Ứng dụng của đạo hàm",
+    "example": "An odd function is symmetric about the origin."
+  },
+  {
+    "id": "v-center-symmetry",
+    "term": "center of symmetry",
+    "vi": "tâm đối xứng",
+    "category": "Ứng dụng của đạo hàm",
+    "example": "The center of symmetry is (-1, 2)."
+  },
+  {
+    "id": "v-intercept",
+    "term": "intercept",
+    "vi": "giao điểm với trục",
+    "category": "Ứng dụng của đạo hàm",
+    "example": "Find the x-intercepts."
+  },
+  {
+    "id": "v-antiderivative",
+    "term": "antiderivative",
+    "vi": "nguyên hàm",
+    "category": "Nguyên hàm",
+    "example": "F is an antiderivative of f.",
+    "symbol": "\\(\\int f(x)\\,dx\\)"
+  },
+  {
+    "id": "v-constant-integration",
+    "term": "constant of integration",
+    "vi": "hằng số tích phân",
+    "category": "Nguyên hàm",
+    "example": "Do not forget the constant C.",
+    "symbol": "\\(C\\)"
+  },
+  {
+    "id": "v-initial-condition",
+    "term": "initial condition",
+    "vi": "điều kiện ban đầu",
+    "category": "Nguyên hàm",
+    "example": "Use the initial condition F(1) = 4."
+  },
+  {
+    "id": "v-substitution",
+    "term": "substitution",
+    "vi": "phép đổi biến",
+    "category": "Nguyên hàm",
+    "example": "Use the substitution u = x^2 + 1."
+  },
+  {
+    "id": "v-integration-parts",
+    "term": "integration by parts",
+    "vi": "nguyên hàm từng phần",
+    "category": "Nguyên hàm",
+    "example": "Use integration by parts."
+  },
+  {
+    "id": "v-linear-expression",
+    "term": "linear expression",
+    "vi": "biểu thức bậc nhất",
+    "category": "Nguyên hàm",
+    "example": "Replace x by the linear expression ax + b."
+  },
+  {
+    "id": "v-natural-numbers",
+    "term": "natural numbers",
+    "vi": "số tự nhiên",
+    "category": "Tập hợp và khoảng",
+    "example": "The set of natural numbers includes 0.",
+    "symbol": "\\(\\mathbb{N}\\)"
+  },
+  {
+    "id": "v-integers",
+    "term": "integers",
+    "vi": "số nguyên",
+    "category": "Tập hợp và khoảng",
+    "example": "Every integer is a rational number.",
+    "symbol": "\\(\\mathbb{Z}\\)"
+  },
+  {
+    "id": "v-rational-numbers",
+    "term": "rational numbers",
+    "vi": "số hữu tỉ",
+    "category": "Tập hợp và khoảng",
+    "example": "One half is a rational number.",
+    "symbol": "\\(\\mathbb{Q}\\)"
+  },
+  {
+    "id": "v-real-numbers",
+    "term": "real numbers",
+    "vi": "số thực",
+    "category": "Tập hợp và khoảng",
+    "example": "Every point on the number line is a real number.",
+    "symbol": "\\(\\mathbb{R}\\)"
+  },
+  {
+    "id": "v-number-line",
+    "term": "number line",
+    "vi": "trục số",
+    "category": "Tập hợp và khoảng",
+    "example": "Show the interval on a number line."
+  },
+  {
+    "id": "v-half-open-interval",
+    "term": "half-open interval",
+    "vi": "nửa khoảng",
+    "category": "Tập hợp và khoảng",
+    "example": "[1, 3) is a half-open interval."
+  },
+  {
+    "id": "v-listing-method",
+    "term": "listing method",
+    "vi": "liệt kê",
+    "category": "Tập hợp và khoảng",
+    "example": "Write the set by the listing method."
+  },
+  {
+    "id": "v-set-builder",
+    "term": "set-builder notation",
+    "vi": "nêu tính chất đặc trưng",
+    "category": "Tập hợp và khoảng",
+    "example": "Use set-builder notation to describe the set.",
+    "symbol": "\\(\\{x\\mid\\dots\\}\\)"
+  },
+  {
+    "id": "v-belongs-to",
+    "term": "belongs to",
+    "vi": "thuộc",
+    "category": "Tập hợp và khoảng",
+    "example": "The number 2 belongs to the set A.",
+    "symbol": "\\(\\in\\)"
+  },
+  {
+    "id": "v-venn-diagram",
+    "term": "Venn diagram",
+    "vi": "biểu đồ Venn",
+    "category": "Tập hợp và khoảng",
+    "example": "Draw a Venn diagram of the two sets."
+  },
+  {
+    "id": "v-number-of-elements",
+    "term": "number of elements",
+    "vi": "số phần tử",
+    "category": "Tập hợp và khoảng",
+    "example": "Find the number of elements of A.",
+    "symbol": "\\(n(A)\\)"
+  },
+  {
+    "id": "v-variable",
+    "term": "variable",
+    "vi": "biến số",
+    "category": "Đại số",
+    "example": "The letter x is a variable."
+  },
+  {
+    "id": "v-constant",
+    "term": "constant",
+    "vi": "hằng số",
+    "category": "Đại số",
+    "example": "In 2x + 5, the number 5 is a constant."
+  },
+  {
+    "id": "v-algebraic-expression",
+    "term": "algebraic expression",
+    "vi": "biểu thức đại số",
+    "category": "Đại số",
+    "example": "Simplify the algebraic expression."
+  },
+  {
+    "id": "v-term",
+    "term": "term",
+    "vi": "hạng tử",
+    "category": "Đại số",
+    "example": "The expression 3x + 5 has two terms."
+  },
+  {
+    "id": "v-coefficient",
+    "term": "coefficient",
+    "vi": "hệ số",
+    "category": "Đại số",
+    "example": "The coefficient of x in 3x is 3."
+  },
+  {
+    "id": "v-like-terms",
+    "term": "like terms",
+    "vi": "các hạng tử đồng dạng",
+    "category": "Đại số",
+    "example": "Combine like terms."
+  },
+  {
+    "id": "v-exponent",
+    "term": "exponent",
+    "vi": "số mũ",
+    "category": "Đại số",
+    "example": "In x^3, the exponent is 3.",
+    "symbol": "\\(x^n\\)"
+  },
+  {
+    "id": "v-base",
+    "term": "base",
+    "vi": "cơ số",
+    "category": "Đại số",
+    "example": "In 2^5, the base is 2."
+  },
+  {
+    "id": "v-power",
+    "term": "power",
+    "vi": "lũy thừa",
+    "category": "Đại số",
+    "example": "x^3 is the third power of x."
+  },
+  {
+    "id": "v-simplify",
+    "term": "simplify",
+    "vi": "rút gọn",
+    "category": "Đại số",
+    "example": "Simplify the expression."
+  },
+  {
+    "id": "v-evaluate",
+    "term": "evaluate",
+    "vi": "tính giá trị",
+    "category": "Đại số",
+    "example": "Evaluate the expression when x = 3."
+  },
+  {
+    "id": "v-substitute",
+    "term": "substitute",
+    "vi": "thay vào",
+    "category": "Đại số",
+    "example": "Substitute x = 2 into the expression."
+  },
+  {
+    "id": "v-expand",
+    "term": "expand",
+    "vi": "khai triển",
+    "category": "Đại số",
+    "example": "Expand the brackets."
+  },
+  {
+    "id": "v-distributive-property",
+    "term": "distributive property",
+    "vi": "tính chất phân phối",
+    "category": "Đại số",
+    "example": "Use the distributive property.",
+    "symbol": "\\(a(b+c)=ab+ac\\)"
+  },
+  {
+    "id": "v-order-of-operations",
+    "term": "order of operations",
+    "vi": "thứ tự thực hiện các phép tính",
+    "category": "Đại số",
+    "example": "Follow the order of operations."
+  },
+  {
+    "id": "v-region",
+    "term": "region",
+    "vi": "vùng",
+    "category": "Tập hợp và khoảng",
+    "example": "Write a number in each region."
+  },
+  {
+    "id": "v-disjoint-sets",
+    "term": "disjoint sets",
+    "vi": "hai tập rời nhau",
+    "category": "Tập hợp và khoảng",
+    "example": "A and B are disjoint sets.",
+    "symbol": "\\(A\\cap B=\\varnothing\\)"
+  },
+  {
+    "id": "v-inclusion-exclusion",
+    "term": "inclusion–exclusion formula",
+    "vi": "công thức bao hàm – loại trừ",
+    "category": "Tập hợp và khoảng",
+    "example": "Use the inclusion–exclusion formula for three sets."
+  },
+  {
+    "id": "v-range",
+    "term": "range",
+    "vi": "tập giá trị",
+    "category": "Hàm số và đồ thị",
+    "example": "The range of f is [-4, +infinity)."
+  },
+  {
+    "id": "v-zero",
+    "term": "zero (root)",
+    "vi": "nghiệm",
+    "category": "Hàm số và đồ thị",
+    "example": "The zeros of f are x = -1 and x = 3."
+  },
+  {
+    "id": "v-x-intercept",
+    "term": "x-intercept",
+    "vi": "giao điểm với trục hoành",
+    "category": "Hàm số và đồ thị",
+    "example": "Find the x-intercepts of the graph."
+  },
+  {
+    "id": "v-y-intercept",
+    "term": "y-intercept",
+    "vi": "giao điểm với trục tung",
+    "category": "Hàm số và đồ thị",
+    "example": "The y-intercept is (0, f(0))."
+  },
+  {
+    "id": "v-piecewise",
+    "term": "piecewise function",
+    "vi": "hàm số từng đoạn",
+    "category": "Hàm số và đồ thị",
+    "example": "A piecewise function has different rules on different intervals."
+  },
+  {
+    "id": "v-absolute-value",
+    "term": "absolute value",
+    "vi": "giá trị tuyệt đối",
+    "category": "Hàm số và đồ thị",
+    "example": "The absolute value of -3 is 3.",
+    "symbol": "\\(|x|\\)"
+  },
+  {
+    "id": "v-vertical-line-test",
+    "term": "vertical line test",
+    "vi": "phép thử đường thẳng đứng",
+    "category": "Hàm số và đồ thị",
+    "example": "Use the vertical line test."
+  },
+  {
+    "id": "g11-radian",
+    "term": "radian",
+    "vi": "radian",
+    "category": "Hàm số lượng giác",
+    "example": "Convert 180 degrees to radians.",
+    "symbol": "\\(\\text{rad}\\)"
+  },
+  {
+    "id": "g11-degree",
+    "term": "degree",
+    "vi": "độ",
+    "category": "Hàm số lượng giác",
+    "example": "A full turn is 360 degrees.",
+    "symbol": "\\(^\\circ\\)"
+  },
+  {
+    "id": "g11-unit-circle",
+    "term": "unit circle",
+    "vi": "đường tròn đơn vị",
+    "category": "Hàm số lượng giác",
+    "example": "The unit circle has radius 1."
+  },
+  {
+    "id": "g11-arc-length",
+    "term": "arc length",
+    "vi": "độ dài cung",
+    "category": "Hàm số lượng giác",
+    "example": "Find the arc length."
+  },
+  {
+    "id": "g11-central-angle",
+    "term": "central angle",
+    "vi": "góc ở tâm",
+    "category": "Hàm số lượng giác",
+    "example": "The central angle is 2 radians."
+  },
+  {
+    "id": "g11-sine",
+    "term": "sine",
+    "vi": "sin",
+    "category": "Hàm số lượng giác",
+    "example": "The sine of the angle is the y-coordinate.",
+    "symbol": "\\(\\sin\\alpha\\)"
+  },
+  {
+    "id": "g11-cosine",
+    "term": "cosine",
+    "vi": "cos",
+    "category": "Hàm số lượng giác",
+    "example": "The cosine of the angle is the x-coordinate.",
+    "symbol": "\\(\\cos\\alpha\\)"
+  },
+  {
+    "id": "g11-tangent-trig",
+    "term": "tangent",
+    "vi": "tan",
+    "category": "Hàm số lượng giác",
+    "example": "The tangent is sine divided by cosine.",
+    "symbol": "\\(\\tan\\alpha\\)"
+  },
+  {
+    "id": "g11-quadrant",
+    "term": "quadrant",
+    "vi": "góc phần tư",
+    "category": "Hàm số lượng giác",
+    "example": "The angle is in the second quadrant."
+  },
+  {
+    "id": "g11-periodic",
+    "term": "periodic function",
+    "vi": "hàm số tuần hoàn",
+    "category": "Hàm số lượng giác",
+    "example": "The sine function is periodic."
+  },
+  {
+    "id": "g11-period",
+    "term": "period",
+    "vi": "chu kì",
+    "category": "Hàm số lượng giác",
+    "example": "The period of sine is 2 pi."
+  },
+  {
+    "id": "g11-amplitude",
+    "term": "amplitude",
+    "vi": "biên độ",
+    "category": "Hàm số lượng giác",
+    "example": "The amplitude of 3 sin x is 3."
+  },
+  {
+    "id": "g11-graph-trig",
+    "term": "sinusoidal curve",
+    "vi": "đường hình sin",
+    "category": "Hàm số lượng giác",
+    "example": "The graph of sine is a sinusoidal curve."
+  },
+  {
+    "id": "g11-approaches",
+    "term": "approaches",
+    "vi": "tiến tới",
+    "category": "Giới hạn",
+    "example": "x approaches 2.",
+    "symbol": "\\(x\\to 2\\)"
+  },
+  {
+    "id": "g11-left-limit",
+    "term": "left-hand limit",
+    "vi": "giới hạn bên trái",
+    "category": "Giới hạn",
+    "example": "Find the left-hand limit at 1.",
+    "symbol": "\\(\\lim_{x\\to a^-}\\)"
+  },
+  {
+    "id": "g11-right-limit",
+    "term": "right-hand limit",
+    "vi": "giới hạn bên phải",
+    "category": "Giới hạn",
+    "example": "Find the right-hand limit at 1.",
+    "symbol": "\\(\\lim_{x\\to a^+}\\)"
+  },
+  {
+    "id": "g11-one-sided",
+    "term": "one-sided limit",
+    "vi": "giới hạn một bên",
+    "category": "Giới hạn",
+    "example": "A one-sided limit looks from one side only."
+  },
+  {
+    "id": "g11-direct-subst",
+    "term": "substitution",
+    "vi": "thay trực tiếp",
+    "category": "Giới hạn",
+    "example": "Use direct substitution."
+  },
+  {
+    "id": "g11-factor",
+    "term": "factor",
+    "vi": "phân tích thành nhân tử",
+    "category": "Giới hạn",
+    "example": "Factor the numerator."
+  },
+  {
+    "id": "g11-discontinuity",
+    "term": "discontinuity",
+    "vi": "điểm gián đoạn",
+    "category": "Giới hạn",
+    "example": "The graph has a discontinuity at x = 1."
+  },
+  {
+    "id": "g11-tangent-line",
+    "term": "tangent line",
+    "vi": "tiếp tuyến",
+    "category": "Đạo hàm",
+    "example": "Find the equation of the tangent line."
+  },
+  {
+    "id": "g11-slope",
+    "term": "slope",
+    "vi": "hệ số góc",
+    "category": "Đạo hàm",
+    "example": "The slope of the line is 2."
+  },
+  {
+    "id": "g11-secant-line",
+    "term": "secant line",
+    "vi": "cát tuyến",
+    "category": "Đạo hàm",
+    "example": "A secant line meets the curve at two points."
+  },
+  {
+    "id": "g11-difference-quotient",
+    "term": "difference quotient",
+    "vi": "tỉ số biến thiên",
+    "category": "Đạo hàm",
+    "example": "The difference quotient is the slope of a secant line.",
+    "symbol": "\\(\\dfrac{f(x_0+h)-f(x_0)}{h}\\)"
+  },
+  {
+    "id": "g11-tangent-point",
+    "term": "point of tangency",
+    "vi": "tiếp điểm",
+    "category": "Đạo hàm",
+    "example": "The point of tangency is (1; 1)."
+  },
+  {
+    "id": "g11-differentiable",
+    "term": "differentiable",
+    "vi": "có đạo hàm",
+    "category": "Đạo hàm",
+    "example": "The function is differentiable at x = 2."
+  },
+  {
+    "id": "g11-rate-of-change",
+    "term": "rate of change",
+    "vi": "tốc độ thay đổi",
+    "category": "Đạo hàm",
+    "example": "The derivative is an instantaneous rate of change."
+  },
+  {
+    "id": "g11-exp-function",
+    "term": "exponential function",
+    "vi": "hàm số mũ",
+    "category": "Hàm số mũ",
+    "example": "The graph of an exponential function passes through (0, 1).",
+    "symbol": "\\(y=a^x\\)"
+  },
+  {
+    "id": "g11-exp-equation",
+    "term": "exponential equation",
+    "vi": "phương trình mũ",
+    "category": "Hàm số mũ",
+    "example": "Solve the exponential equation."
+  },
+  {
+    "id": "g11-substitution-var",
+    "term": "substitution",
+    "vi": "đặt ẩn phụ",
+    "category": "Hàm số mũ",
+    "example": "Use the substitution t = 2^x."
+  },
+  {
+    "id": "g11-positive-only",
+    "term": "positive",
+    "vi": "dương",
+    "category": "Hàm số mũ",
+    "example": "The base must be positive."
+  },
+  {
+    "id": "g11-plane",
+    "term": "plane",
+    "vi": "mặt phẳng",
+    "category": "Hình học không gian",
+    "example": "A plane has no thickness."
+  },
+  {
+    "id": "g11-parallel",
+    "term": "parallel",
+    "vi": "song song",
+    "category": "Hình học không gian",
+    "example": "The two lines are parallel.",
+    "symbol": "\\(a\\parallel b\\)"
+  },
+  {
+    "id": "g11-skew-lines",
+    "term": "skew lines",
+    "vi": "hai đường thẳng chéo nhau",
+    "category": "Hình học không gian",
+    "example": "Skew lines do not meet and are not parallel."
+  },
+  {
+    "id": "g11-intersecting-lines",
+    "term": "intersecting lines",
+    "vi": "hai đường thẳng cắt nhau",
+    "category": "Hình học không gian",
+    "example": "Intersecting lines have one common point."
+  },
+  {
+    "id": "g11-edge",
+    "term": "edge",
+    "vi": "cạnh",
+    "category": "Hình học không gian",
+    "example": "A cube has 12 edges."
+  },
+  {
+    "id": "g11-face",
+    "term": "face",
+    "vi": "mặt",
+    "category": "Hình học không gian",
+    "example": "A cube has 6 faces."
+  },
+  {
+    "id": "g11-midline",
+    "term": "midline",
+    "vi": "đường trung bình",
+    "category": "Hình học không gian",
+    "example": "The midline is parallel to the third side."
+  },
+  {
+    "id": "g11-pyramid",
+    "term": "pyramid",
+    "vi": "hình chóp",
+    "category": "Hình học không gian",
+    "example": "The pyramid has a square base."
+  },
+  {
+    "id": "g11-prism",
+    "term": "prism",
+    "vi": "hình lăng trụ",
+    "category": "Hình học không gian",
+    "example": "A triangular prism has 9 edges."
+  },
+  {
+    "id": "g11-cube",
+    "term": "cube",
+    "vi": "hình lập phương",
+    "category": "Hình học không gian",
+    "example": "A cube has equal edges."
+  },
+  {
+    "id": "g11-common-point",
+    "term": "common point",
+    "vi": "điểm chung",
+    "category": "Hình học không gian",
+    "example": "The line and the plane have no common point."
+  },
+  {
+    "id": "g11-perpendicular",
+    "term": "perpendicular",
+    "vi": "vuông góc",
+    "category": "Hình học không gian",
+    "example": "The line is perpendicular to the plane.",
+    "symbol": "\\(a\\perp b\\)"
+  },
+  {
+    "id": "g11-foot",
+    "term": "foot of the perpendicular",
+    "vi": "chân đường vuông góc",
+    "category": "Hình học không gian",
+    "example": "H is the foot of the perpendicular from P."
+  },
+  {
+    "id": "g11-projection",
+    "term": "projection",
+    "vi": "hình chiếu",
+    "category": "Hình học không gian",
+    "example": "The projection of S on the base is A."
+  },
+  {
+    "id": "g11-angle-line-plane",
+    "term": "angle between a line and a plane",
+    "vi": "góc giữa đường thẳng và mặt phẳng",
+    "category": "Hình học không gian",
+    "example": "Find the angle between the line and the plane."
+  },
+  {
+    "id": "g11-perp-planes",
+    "term": "perpendicular planes",
+    "vi": "hai mặt phẳng vuông góc",
+    "category": "Hình học không gian",
+    "example": "The two planes are perpendicular."
+  },
+  {
+    "id": "g11-diagonal",
+    "term": "diagonal",
+    "vi": "đường chéo",
+    "category": "Hình học không gian",
+    "example": "The diagonals of a square are perpendicular."
+  },
+  {
+    "id": "g11-tangent-circle",
+    "term": "tangent to a circle",
+    "vi": "tiếp tuyến của đường tròn",
+    "category": "Hình học không gian",
+    "example": "A tangent is perpendicular to the radius."
+  },
+  {
+    "id": "g11-height",
+    "term": "height",
+    "vi": "chiều cao",
+    "category": "Hình học không gian",
+    "example": "SA is the height of the pyramid."
+  },
+  {
+    "id": "g11-oriented-angle",
+    "term": "oriented angle",
+    "vi": "góc lượng giác",
+    "category": "Hàm số lượng giác",
+    "example": "An oriented angle has a direction of rotation.",
+    "symbol": "\\((Ou,Ov)\\)"
+  },
+  {
+    "id": "g11-initial-side",
+    "term": "initial side",
+    "vi": "tia đầu",
+    "category": "Hàm số lượng giác",
+    "example": "The ray Ou is the initial side."
+  },
+  {
+    "id": "g11-terminal-side",
+    "term": "terminal side",
+    "vi": "tia cuối",
+    "category": "Hàm số lượng giác",
+    "example": "The ray Ov is the terminal side."
+  },
+  {
+    "id": "g11-trig-circle",
+    "term": "trigonometric circle",
+    "vi": "đường tròn lượng giác",
+    "category": "Hàm số lượng giác",
+    "example": "Points on the trigonometric circle are given by angles."
+  },
+  {
+    "id": "g11-cotangent",
+    "term": "cotangent",
+    "vi": "cot",
+    "category": "Hàm số lượng giác",
+    "example": "The cotangent is cosine divided by sine.",
+    "symbol": "\\(\\cot\\alpha\\)"
+  },
+  {
+    "id": "g11-trig-value",
+    "term": "trigonometric value",
+    "vi": "giá trị lượng giác",
+    "category": "Hàm số lượng giác",
+    "example": "Find the trigonometric values of the angle."
+  },
+  {
+    "id": "g11-opposite-angles",
+    "term": "opposite angles",
+    "vi": "góc đối",
+    "category": "Hàm số lượng giác",
+    "example": "The angles alpha and minus alpha are opposite angles."
+  },
+  {
+    "id": "g11-supplementary",
+    "term": "supplementary angles",
+    "vi": "góc bù",
+    "category": "Hàm số lượng giác",
+    "example": "Supplementary angles add up to pi."
+  },
+  {
+    "id": "g11-complementary",
+    "term": "complementary angles",
+    "vi": "góc phụ",
+    "category": "Hàm số lượng giác",
+    "example": "Complementary angles add up to pi over 2."
+  },
+  {
+    "id": "g11-addition-formula",
+    "term": "addition formula",
+    "vi": "công thức cộng",
+    "category": "Hàm số lượng giác",
+    "example": "Use the addition formula for sine."
+  },
+  {
+    "id": "g11-double-angle",
+    "term": "double-angle formula",
+    "vi": "công thức nhân đôi",
+    "category": "Hàm số lượng giác",
+    "example": "Use the double-angle formula.",
+    "symbol": "\\(\\sin 2\\alpha\\)"
+  },
+  {
+    "id": "g11-power-reducing",
+    "term": "power-reducing formula",
+    "vi": "công thức hạ bậc",
+    "category": "Hàm số lượng giác",
+    "example": "The power-reducing formula removes the square."
+  },
+  {
+    "id": "g11-product-to-sum",
+    "term": "product-to-sum formula",
+    "vi": "công thức biến đổi tích thành tổng",
+    "category": "Hàm số lượng giác",
+    "example": "Turn the product into a sum."
+  },
+  {
+    "id": "g11-sum-to-product",
+    "term": "sum-to-product formula",
+    "vi": "công thức biến đổi tổng thành tích",
+    "category": "Hàm số lượng giác",
+    "example": "Turn the sum into a product."
+  },
+  {
+    "id": "g11-trig-identity",
+    "term": "identity",
+    "vi": "đẳng thức",
+    "category": "Hàm số lượng giác",
+    "example": "Prove the identity."
+  },
+  {
+    "id": "g11-trig-function",
+    "term": "trigonometric function",
+    "vi": "hàm số lượng giác",
+    "category": "Hàm số lượng giác",
+    "example": "Sine and cosine are trigonometric functions.",
+    "symbol": "\\(y=\\sin x\\)"
+  },
+  {
+    "id": "g11-increasing",
+    "term": "increasing",
+    "vi": "đồng biến",
+    "category": "Hàm số lượng giác",
+    "example": "The sine function is increasing on this interval."
+  },
+  {
+    "id": "g11-decreasing",
+    "term": "decreasing",
+    "vi": "nghịch biến",
+    "category": "Hàm số lượng giác",
+    "example": "The cosine function is decreasing on this interval."
+  },
+  {
+    "id": "g11-trig-equation",
+    "term": "trigonometric equation",
+    "vi": "phương trình lượng giác",
+    "category": "Phương trình lượng giác",
+    "example": "Solve the trigonometric equation.",
+    "symbol": "\\(\\sin x=\\dfrac12\\)"
+  },
+  {
+    "id": "g11-basic-trig-eq",
+    "term": "basic trigonometric equation",
+    "vi": "phương trình lượng giác cơ bản",
+    "category": "Phương trình lượng giác",
+    "example": "This is a basic trigonometric equation.",
+    "symbol": "\\(\\cos x=m\\)"
+  },
+  {
+    "id": "g11-general-solution",
+    "term": "general solution",
+    "vi": "họ nghiệm",
+    "category": "Phương trình lượng giác",
+    "example": "Write the general solution.",
+    "symbol": "\\(x=\\alpha+k2\\pi\\)"
+  },
+  {
+    "id": "g11-arcsine",
+    "term": "arcsine",
+    "vi": "arcsin",
+    "category": "Phương trình lượng giác",
+    "example": "The arcsine of 1/2 is pi/6.",
+    "symbol": "\\(\\arcsin m\\)"
+  },
+  {
+    "id": "g11-no-solution",
+    "term": "no solution",
+    "vi": "vô nghiệm",
+    "category": "Phương trình lượng giác",
+    "example": "The equation has no solution."
+  },
+  {
+    "id": "g11-integer-k",
+    "term": "integer k",
+    "vi": "số nguyên k",
+    "category": "Phương trình lượng giác",
+    "example": "Here k is any integer.",
+    "symbol": "\\(k\\in\\mathbb{Z}\\)"
+  },
+  {
+    "id": "g11-sequence",
+    "term": "sequence",
+    "vi": "dãy số",
+    "category": "Dãy số",
+    "example": "A sequence is a list of numbers in order.",
+    "symbol": "\\((u_n)\\)"
+  },
+  {
+    "id": "g11-term",
+    "term": "term",
+    "vi": "số hạng",
+    "category": "Dãy số",
+    "example": "Find the fifth term.",
+    "symbol": "\\(u_5\\)"
+  },
+  {
+    "id": "g11-general-term",
+    "term": "general term",
+    "vi": "số hạng tổng quát",
+    "category": "Dãy số",
+    "example": "The general term is u_n = 2n + 1.",
+    "symbol": "\\(u_n\\)"
+  },
+  {
+    "id": "g11-recursive",
+    "term": "recursive formula",
+    "vi": "công thức truy hồi",
+    "category": "Dãy số",
+    "example": "Use the recursive formula to find the next term.",
+    "symbol": "\\(u_{n+1}=u_n+3\\)"
+  },
+  {
+    "id": "g11-finite-seq",
+    "term": "finite sequence",
+    "vi": "dãy số hữu hạn",
+    "category": "Dãy số",
+    "example": "A finite sequence has a last term."
+  },
+  {
+    "id": "g11-infinite-seq",
+    "term": "infinite sequence",
+    "vi": "dãy số vô hạn",
+    "category": "Dãy số",
+    "example": "An infinite sequence has no last term."
+  },
+  {
+    "id": "g11-increasing-seq",
+    "term": "increasing sequence",
+    "vi": "dãy số tăng",
+    "category": "Dãy số",
+    "example": "Each term is greater than the one before.",
+    "symbol": "\\(u_{n+1}>u_n\\)"
+  },
+  {
+    "id": "g11-decreasing-seq",
+    "term": "decreasing sequence",
+    "vi": "dãy số giảm",
+    "category": "Dãy số",
+    "example": "Each term is smaller than the one before.",
+    "symbol": "\\(u_{n+1}<u_n\\)"
+  },
+  {
+    "id": "g11-bounded-above",
+    "term": "bounded above",
+    "vi": "bị chặn trên",
+    "category": "Dãy số",
+    "example": "The sequence is bounded above by 2.",
+    "symbol": "\\(u_n\\le M\\)"
+  },
+  {
+    "id": "g11-bounded-below",
+    "term": "bounded below",
+    "vi": "bị chặn dưới",
+    "category": "Dãy số",
+    "example": "The sequence is bounded below by 0.",
+    "symbol": "\\(u_n\\ge m\\)"
+  },
+  {
+    "id": "g11-bounded-seq",
+    "term": "bounded sequence",
+    "vi": "dãy số bị chặn",
+    "category": "Dãy số",
+    "example": "A sequence bounded above and below is a bounded sequence."
+  }
+]

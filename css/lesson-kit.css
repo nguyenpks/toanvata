@@ -1,0 +1,117 @@
+/* MathBridge – bộ thành phần bài học (AI số 2). Bổ sung cho css/lesson.css, không ghi đè lớp chung.
+   Mọi lớp mới đều có tiền tố "mbl-". Dùng lại biến màu pastel của lesson.css. */
+:root{--mbl-line:#d3e5dc;--mbl-ok:#077b55;--mbl-bad:#b4415a;--mbl-bg:#f3f9f6}
+article{--gap:14px}
+article h2{display:flex;gap:10px;align-items:baseline;border-top:1px solid var(--mbl-line);padding-top:18px;margin-top:34px}
+article h2 .mbl-no{flex:none;min-width:28px;height:28px;border-radius:50%;background:var(--lavender);color:var(--accent);font-size:15px;display:inline-flex;align-items:center;justify-content:center;font-weight:700}
+body[data-level="2"] article h2 .en+.vi{font-weight:400;font-size:16px}
+article h3{font-size:18px;margin:22px 0 6px}
+.mbl-sub{margin:0 0 12px;color:var(--muted)}
+.mbl-meta{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin:14px 0}
+.mbl-meta div{background:var(--mbl-bg);border:1px solid var(--mbl-line);border-radius:10px;padding:8px 12px;font-size:15px}
+.mbl-meta b{display:block;font-size:12px;letter-spacing:.04em;text-transform:uppercase;color:var(--muted)}
+.mbl-toc{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0;padding:0;list-style:none}
+.mbl-toc a{display:inline-block;padding:4px 12px;border-radius:99px;background:var(--blue);color:var(--text);text-decoration:none;font-size:14px}
+.mbl-toc a:focus-visible,.mbl-btn:focus-visible,.mbl-opts label:focus-within,.mbl-input:focus-visible,textarea:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+.box p{margin:6px 0}
+.box .t{font-weight:700;margin:0 0 4px}
+.mbl-tablewrap{overflow-x:auto;margin:12px 0;border:1px solid var(--mbl-line);border-radius:12px}
+.mbl-table{border-collapse:collapse;width:100%;min-width:560px;font-size:15.5px;line-height:1.5}
+.mbl-table th{background:var(--blue);text-align:left;padding:8px 12px;font-size:14px}
+.mbl-table td{padding:8px 12px;border-top:1px solid var(--mbl-line);vertical-align:top}
+.mbl-table tr:nth-child(even) td{background:var(--mbl-bg)}
+.mbl-table .ipa{display:block;font-size:13px;color:var(--muted)}
+.mbl-table .vi,.mbl-vi{color:var(--muted)}
+.mbl-btn{min-height:44px;padding:8px 16px;border:0;border-radius:10px;background:var(--accent);color:#fff;font:inherit;font-size:15.5px;font-weight:600;cursor:pointer}
+.mbl-btn.ghost{background:var(--blue);color:var(--text)}
+.mbl-btn[disabled]{opacity:.5;cursor:not-allowed}
+.mbl-reveal{margin:10px 0}
+.mbl-panel{background:var(--mbl-bg);border:1px solid var(--mbl-line);border-left:5px solid var(--accent);border-radius:10px;padding:10px 16px;margin:10px 0}
+.mbl-panel[hidden],.mbl-fb[hidden],.mbl-explain[hidden],.mbl-result[hidden]{display:none}
+.mbl-ex{border:1px solid var(--mbl-line);border-radius:14px;padding:6px 18px 14px;margin:18px 0}
+.mbl-ex>h3{margin-top:12px}
+.mbl-tag{display:inline-block;font-size:12px;font-weight:700;padding:2px 10px;border-radius:99px;background:var(--yellow);margin-left:8px;vertical-align:middle}
+.mbl-steps{padding-left:22px;margin:6px 0}
+.mbl-steps li{margin:6px 0}
+.mbl-steps .vi{display:block;font-size:15.5px}
+.mbl-answer{background:var(--mint);border-radius:10px;padding:8px 14px;margin:10px 0;font-weight:600}
+.mbl-keyvocab{font-size:15px;color:var(--muted)}
+.mbl-fig{margin:14px 0;text-align:center}
+.mbl-fig svg{max-width:100%;height:auto}
+.mbl-fig figcaption{font-size:14px;color:var(--muted)}
+/* Bài tập */
+.mbl-quiz{margin:12px 0}
+.mbl-group{margin:22px 0 6px;font-size:17px;font-weight:700}
+.mbl-item{border:1px solid var(--mbl-line);border-radius:12px;padding:12px 16px;margin:12px 0;background:#fff}
+.mbl-item[data-state="correct"]{border-color:#9ed1b0;background:#f3fbf6}
+.mbl-item[data-state="wrong"]{border-color:#e6a9b7;background:#fff7f9}
+.mbl-qtext{margin:0 0 8px}
+.mbl-opts{display:grid;gap:8px}
+.mbl-opts label{display:flex;gap:10px;align-items:center;min-height:44px;padding:6px 12px;border:1px solid var(--mbl-line);border-radius:10px;cursor:pointer}
+.mbl-opts label.is-picked{background:var(--blue);border-color:var(--accent)}
+.mbl-opts label.is-right{background:var(--mint);border-color:#5cb892}
+.mbl-opts label.is-wrong{background:var(--pink);border-color:#d9899d}
+.mbl-opts input{width:20px;height:20px;flex:none}
+.mbl-opts.tf{grid-template-columns:repeat(auto-fit,minmax(120px,1fr))}
+.mbl-input{min-height:44px;width:min(100%,260px);padding:6px 12px;border:1px solid #b7d1c5;border-radius:10px;font:inherit}
+.mbl-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:10px}
+.mbl-fb{margin:10px 0 0;font-weight:700}
+.mbl-fb.ok{color:var(--mbl-ok)}.mbl-fb.bad{color:var(--mbl-bad)}.mbl-fb.neutral{color:var(--muted)}
+.mbl-explain{margin-top:8px;padding:8px 14px;border-radius:10px;background:var(--yellow)}
+.mbl-score{display:inline-block;padding:4px 14px;border-radius:99px;background:var(--lavender);font-weight:700;font-size:15px}
+.mbl-result{margin:14px 0;padding:14px 18px;border-radius:14px;background:var(--mint)}
+.mbl-result .big{font-size:26px;font-weight:700}
+textarea.mbl-input{width:100%;min-height:96px;box-sizing:border-box}
+.mbl-checks{list-style:none;padding:0;margin:10px 0}
+.mbl-checks li{margin:6px 0}
+.mbl-checks label{display:flex;gap:10px;align-items:flex-start;min-height:44px;padding:6px 8px;cursor:pointer}
+.mbl-checks input{width:20px;height:20px;margin-top:6px;flex:none}
+.mbl-checks .vi{display:block;font-size:15px}
+@media (max-width:520px){body{padding:14px}h1{font-size:24px}.mbl-ex{padding:4px 12px 12px}}
+@media print{.mbl-btn,.mbl-complete{display:none}.mbl-panel[hidden]{display:block}}
+
+/* ===== Ba mức ngôn ngữ =====
+   body[data-level] = 1 | 2 | 3.   .en = tiếng Anh, .vi = tiếng Việt, .inl = cặp en/vi nằm trên một dòng.
+   Mức 1: chỉ .vi (thuật ngữ <abbr class="mbl-term"> giữ tiếng Anh, rê chuột/chạm để xem nghĩa).
+   Mức 2: .en rồi .vi (bản dịch bên dưới).   Mức 3: chỉ .en. */
+.en,.vi{display:block}
+.inl .en,.inl .vi{display:inline}
+td.en,td.vi,th.en,th.vi{display:table-cell}
+body[data-level="1"] .en{display:none!important}
+body[data-level="3"] .vi{display:none!important}
+body[data-level="1"] .vi{color:var(--text)}
+body[data-level="2"] .en+.vi{font-size:.94em}
+body[data-level="2"] .inl .en+.vi::before{content:" \2013  "}
+body[data-level="2"] .mbl-btn .inl .en+.vi::before{content:" / "}
+.mbl-btn .vi,.mbl-btn .en{color:inherit}
+abbr.mbl-term{text-decoration:underline dotted var(--accent);text-underline-offset:3px;cursor:help;font-style:normal;color:#00503a;border-radius:3px}
+abbr.mbl-term:focus-visible{outline:2px solid var(--accent)}
+.mbl-tip{position:absolute;z-index:50;max-width:240px;padding:4px 10px;border-radius:8px;background:#123428;color:#fff;font-size:14px;line-height:1.4;pointer-events:none;box-shadow:0 2px 8px rgba(0,0,0,.2)}
+.mbl-tip[hidden]{display:none}
+.mbl-levels{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0 4px}
+.mbl-levels button{min-height:44px;padding:6px 14px;border:2px solid var(--mbl-line);border-radius:10px;background:#fff;color:var(--text);font:inherit;font-size:15px;cursor:pointer;text-align:left}
+.mbl-levels button[aria-checked="true"]{border-color:var(--accent);background:var(--blue);font-weight:700}
+.mbl-levels button:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+.mbl-levels small{display:block;font-weight:400;color:var(--muted);font-size:12.5px}
+.mbl-levelnote{margin:2px 0 8px;font-size:14px;color:var(--muted)}
+
+/* Đề bài Mức 1 trộn từ tiếng Anh (.mx); bản dịch thuần Việt (.vi.l2) chỉ dùng ở Mức 2 */
+.mx{display:none}
+body[data-level="1"] .mx{display:inline}
+body[data-level="1"] .vi.l2{display:none!important}
+/* Chú thích khi rê chuột chỉ có ở Mức 1 */
+body:not([data-level="1"]) abbr.mbl-term{text-decoration:none;cursor:inherit;color:inherit}
+/* Mức bị khóa */
+.mbl-levels button.is-locked{opacity:.55;cursor:not-allowed;background:var(--mbl-bg)}
+.mbl-levels button.is-locked::after{content:" \1F512"}
+
+/* ===== Chuyển động nhẹ cho thành phần bài học ===== */
+.mbl-btn,.mbl-opts label,.mbl-toc a,.mbl-levels button{transition:background-color .2s var(--ease,ease),border-color .2s var(--ease,ease),transform .15s var(--ease,ease),box-shadow .2s var(--ease,ease)}
+.mbl-btn:hover{background:var(--accent-deep)}
+.mbl-btn.ghost:hover{background:var(--mint)}
+.mbl-btn:active{transform:scale(.97)}
+.mbl-toc a:hover{background:var(--mint)}
+.mbl-opts label:hover{border-color:var(--accent-soft);background:var(--blue)}
+.mbl-panel:not([hidden]),.mbl-fb,.mbl-result,.mbl-explain{animation:mblfade .32s var(--ease,ease) both}
+@keyframes mblfade{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}}

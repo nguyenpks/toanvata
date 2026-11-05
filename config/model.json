@@ -1,0 +1,259 @@
+{
+  "_doc": "MÔ HÌNH BÀI HỌC DUY NHẤT của MathBridge. Sửa file này rồi chạy: python tools/build_all.py  -> mọi bài của mọi khối lớp được dựng lại theo mô hình mới.",
+  "stages": [
+    {
+      "id": "th",
+      "name": "Tiểu học",
+      "range": "Lớp 1 – Lớp 5",
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "color": "mint",
+      "desc": "Làm quen số, phép tính và hình học đầu tiên, cùng những từ Toán tiếng Anh đơn giản.",
+      "hideSections": []
+    },
+    {
+      "id": "thcs",
+      "name": "Trung học cơ sở",
+      "range": "Lớp 6 – Lớp 9",
+      "grades": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "color": "blue",
+      "desc": "Xây nền đại số, hình học và thống kê, chuẩn bị bước vào chương trình trung học phổ thông.",
+      "hideSections": []
+    },
+    {
+      "id": "thpt",
+      "name": "Trung học phổ thông",
+      "range": "Lớp 10 – Lớp 12",
+      "grades": [
+        10,
+        11,
+        12
+      ],
+      "color": "lavender",
+      "desc": "Hàm số, giải tích, vectơ, thống kê và xác suất, học song song tiếng Việt và tiếng Anh.",
+      "hideSections": []
+    }
+  ],
+  "gradeOverrides": {
+    "_doc": "Ngoại lệ cho riêng một lớp, ví dụ: \"3\": { \"hideSections\": [\"phrases\"] }. Để trống thì mọi lớp theo mô hình chung.",
+    "_example": {
+      "hideSections": []
+    }
+  },
+  "levels": [
+    {
+      "id": 1,
+      "label": "Mức 1 – Tiếng Việt"
+    },
+    {
+      "id": 2,
+      "label": "Mức 2 – Song ngữ"
+    },
+    {
+      "id": 3,
+      "label": "Mức 3 – English Only"
+    }
+  ],
+  "levelBarLabel": "Chọn mức học tập",
+  "defaultLevel": 1,
+  "page": {
+    "template": "config/page-template.html",
+    "css": [
+      "css/lesson.css",
+      "css/lesson-kit-v2.css"
+    ],
+    "scriptsBeforeBody": [
+      "js/mathjax-config.js"
+    ],
+    "scriptsAfterBody": [
+      "js/progress.js",
+      "js/lesson-kit-v2.js",
+      "js/lesson-bridge.js"
+    ],
+    "mathjax": "https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-chtml.js",
+    "subtitle": {
+      "en": "Grade {grade} · Topic: {topic_en}",
+      "vi": "Lớp {grade} · Chủ đề: {topic_vi}"
+    },
+    "optional": [
+      {
+        "_doc": "Nạp thêm khi trang bài có hình tương tác (chuỗi trigger xuất hiện trong nội dung). Thư viện JSXGraph chỉ tải ở các bài có hình.",
+        "trigger": "data-mbg=",
+        "css": [
+          "https://cdn.jsdelivr.net/npm/jsxgraph@1.9.2/distrib/jsxgraph.css",
+          "css/mb-graph.css"
+        ],
+        "scripts": [
+          "https://cdn.jsdelivr.net/npm/jsxgraph@1.9.2/distrib/jsxgraphcore.js",
+          "js/mb-graph-core.js",
+          "js/mb-graph.js"
+        ],
+        "meta": {
+          "mbg-desmos-key": ""
+        }
+      }
+    ]
+  },
+  "meta": {
+    "_doc": "Bốn ô thông tin ở đầu bài (mục Giới thiệu).",
+    "grade": {
+      "en": "Grade",
+      "vi": "Khối"
+    },
+    "level": {
+      "en": "Level",
+      "vi": "Mức độ"
+    },
+    "time": {
+      "en": "Time",
+      "vi": "Thời gian"
+    },
+    "before": {
+      "en": "Before this lesson",
+      "vi": "Cần biết trước"
+    }
+  },
+  "sections": [
+    {
+      "key": "intro",
+      "type": "intro",
+      "required": true,
+      "en": "Lesson Introduction",
+      "vi": "Giới thiệu bài học",
+      "toc": [
+        "Introduction",
+        "Giới thiệu"
+      ],
+      "goalsTitle": {
+        "en": "Learning goals",
+        "vi": "Mục tiêu bài học"
+      },
+      "goalsLead": {
+        "en": "By the end of this lesson you can:",
+        "vi": "Sau bài học này, em có thể:"
+      }
+    },
+    {
+      "key": "vocab",
+      "type": "vocab",
+      "required": true,
+      "en": "Mathematical Vocabulary",
+      "vi": "Từ vựng Toán học",
+      "toc": [
+        "Vocabulary",
+        "Từ vựng"
+      ]
+    },
+    {
+      "key": "phrases",
+      "type": "phrases",
+      "levels": [
+        2,
+        3
+      ],
+      "en": "Useful English Phrases",
+      "vi": "Cụm từ tiếng Anh thường gặp",
+      "toc": [
+        "Phrases",
+        "Cụm từ"
+      ]
+    },
+    {
+      "key": "review",
+      "type": "html",
+      "en": "Prerequisite Review",
+      "vi": "Ôn tập kiến thức nền",
+      "toc": [
+        "Review",
+        "Ôn tập"
+      ]
+    },
+    {
+      "key": "theory",
+      "type": "html",
+      "required": true,
+      "en": "Theory",
+      "vi": "Lý thuyết",
+      "toc": [
+        "Theory",
+        "Lý thuyết"
+      ]
+    },
+    {
+      "key": "examples",
+      "type": "html",
+      "required": true,
+      "en": "Worked Examples",
+      "vi": "Ví dụ có lời giải",
+      "toc": [
+        "Examples",
+        "Ví dụ"
+      ]
+    },
+    {
+      "key": "practice",
+      "type": "quiz",
+      "required": true,
+      "en": "Practice",
+      "vi": "Bài tập luyện tập",
+      "toc": [
+        "Practice",
+        "Luyện tập"
+      ]
+    },
+    {
+      "key": "mistakes",
+      "type": "mistakes",
+      "en": "Common Mistakes",
+      "vi": "Lỗi thường gặp",
+      "toc": [
+        "Mistakes",
+        "Lỗi thường gặp"
+      ]
+    },
+    {
+      "key": "summary",
+      "type": "bullets",
+      "required": true,
+      "en": "Lesson Summary",
+      "vi": "Tổng kết",
+      "toc": [
+        "Summary",
+        "Tổng kết"
+      ]
+    },
+    {
+      "key": "checks",
+      "type": "checks",
+      "en": "Self-assessment",
+      "vi": "Tự đánh giá",
+      "toc": [
+        "Self-check",
+        "Tự đánh giá"
+      ]
+    }
+  ],
+  "catalog": {
+    "_doc": "Ngôn ngữ hiển thị của lessons.json (title, category, description, tags). 'vi' = tiếng Việt. categoryVi: đổi tên chủ đề tiếng Anh cũ trong data/vocab.json sang tiếng Việt.",
+    "language": "vi",
+    "categoryVi": {
+      "Sets and Intervals": "Tập hợp và khoảng",
+      "Algebraic Expressions": "Biểu thức đại số",
+      "Algebra": "Đại số",
+      "Functions": "Hàm số",
+      "Applications of Derivatives": "Ứng dụng của đạo hàm",
+      "Monotonicity and Extrema": "Tính đơn điệu và cực trị",
+      "Antiderivatives": "Nguyên hàm"
+    }
+  }
+}
