@@ -1887,5 +1887,399 @@
     "category": "Vectơ và các phép toán trong không gian",
     "example": "The angle is \\(60^\\circ\\).",
     "symbol": "\\((\\vec a,\\vec b)\\)"
+  },
+  {
+    "id": "q-vec2",
+    "term": "vector",
+    "vi": "vectơ",
+    "category": "Các khái niệm mở đầu về vectơ",
+    "example": "The vector \\(\\overrightarrow{AB}\\) starts at \\(A\\).",
+    "symbol": "\\(\\overrightarrow{AB}\\)"
+  },
+  {
+    "id": "q-zerov",
+    "term": "zero vector",
+    "vi": "vectơ-không",
+    "category": "Các khái niệm mở đầu về vectơ",
+    "example": "\\(\\overrightarrow{AA}=\\vec0\\).",
+    "symbol": "\\(\\vec0\\)"
+  },
+  {
+    "id": "q-dirv",
+    "term": "direction",
+    "vi": "hướng của vectơ",
+    "category": "Các khái niệm mở đầu về vectơ",
+    "example": "The two vectors have the same direction."
+  },
+  {
+    "id": "q-collin",
+    "term": "collinear vectors",
+    "vi": "cùng phương",
+    "category": "Các khái niệm mở đầu về vectơ",
+    "example": "\\(\\overrightarrow{AB}\\) and \\(\\overrightarrow{CD}\\) are collinear."
+  },
+  {
+    "id": "q-samedir",
+    "term": "same direction",
+    "vi": "cùng hướng",
+    "category": "Các khái niệm mở đầu về vectơ",
+    "example": "They have the same direction."
+  },
+  {
+    "id": "q-oppdir",
+    "term": "opposite directions",
+    "vi": "ngược hướng",
+    "category": "Các khái niệm mở đầu về vectơ",
+    "example": "They have opposite directions."
+  },
+  {
+    "id": "q-opp2",
+    "term": "opposite vector",
+    "vi": "vectơ đối",
+    "category": "Các khái niệm mở đầu về vectơ",
+    "example": "\\(\\overrightarrow{BA}\\) is opposite to \\(\\overrightarrow{AB}\\).",
+    "symbol": "\\(-\\vec a\\)"
+  },
+  {
+    "id": "q-eqv2",
+    "term": "equal vectors",
+    "vi": "vectơ bằng nhau",
+    "category": "Các khái niệm mở đầu về vectơ",
+    "example": "\\(\\overrightarrow{AB}=\\overrightarrow{DC}\\).",
+    "symbol": "\\(\\vec a=\\vec b\\)"
+  },
+  {
+    "id": "q-tri",
+    "term": "triangle rule",
+    "vi": "quy tắc ba điểm",
+    "category": "Tổng và hiệu của hai vectơ",
+    "example": "Use the triangle rule."
+  },
+  {
+    "id": "q-pgm",
+    "term": "parallelogram rule",
+    "vi": "quy tắc hình bình hành",
+    "category": "Tổng và hiệu của hai vectơ",
+    "example": "Use the parallelogram rule."
+  },
+  {
+    "id": "q-diff2",
+    "term": "difference of two vectors",
+    "vi": "hiệu của hai vectơ",
+    "category": "Tổng và hiệu của hai vectơ",
+    "example": "Find the difference.",
+    "symbol": "\\(\\vec a-\\vec b\\)"
+  },
+  {
+    "id": "q-resultant",
+    "term": "resultant force",
+    "vi": "hợp lực",
+    "category": "Tổng và hiệu của hai vectơ",
+    "example": "Find the resultant force."
+  },
+  {
+    "id": "q-midp",
+    "term": "midpoint",
+    "vi": "trung điểm",
+    "category": "Tổng và hiệu của hai vectơ",
+    "example": "\\(I\\) is the midpoint of \\(AB\\)."
+  },
+  {
+    "id": "q-scal",
+    "term": "scalar multiple",
+    "vi": "tích của vectơ với một số",
+    "category": "Tích của một vectơ với một số",
+    "example": "Find \\(3\\vec a\\).",
+    "symbol": "\\(k\\vec a\\)"
+  },
+  {
+    "id": "q-scalar",
+    "term": "scalar (a real number)",
+    "vi": "số thực (vô hướng)",
+    "category": "Tích của một vectơ với một số",
+    "example": "The scalar is 3.",
+    "symbol": "\\(k\\)"
+  },
+  {
+    "id": "q-collin3",
+    "term": "collinear points",
+    "vi": "ba điểm thẳng hàng",
+    "category": "Tích của một vectơ với một số",
+    "example": "Prove that \\(A,B,C\\) are collinear."
+  },
+  {
+    "id": "q-centroid",
+    "term": "centroid",
+    "vi": "trọng tâm",
+    "category": "Tích của một vectơ với một số",
+    "example": "\\(G\\) is the centroid of triangle \\(ABC\\).",
+    "symbol": "\\(G\\)"
+  },
+  {
+    "id": "q-median",
+    "term": "median",
+    "vi": "trung tuyến",
+    "category": "Tích của một vectơ với một số",
+    "example": "\\(AM\\) is a median."
+  },
+  {
+    "id": "q-express",
+    "term": "express in terms of",
+    "vi": "biểu diễn theo",
+    "category": "Tích của một vectơ với một số",
+    "example": "Express \\(\\overrightarrow{AG}\\) in terms of \\(\\overrightarrow{AB}\\), \\(\\overrightarrow{AC}\\)."
+  },
+  {
+    "id": "q-gmean",
+    "term": "mean",
+    "vi": "số trung bình",
+    "category": "Các số đặc trưng đo xu thế trung tâm của mẫu số liệu ghép nhóm",
+    "example": "The mean is 20.5.",
+    "symbol": "\\(\\bar x\\)"
+  },
+  {
+    "id": "q-gmed",
+    "term": "median",
+    "vi": "trung vị",
+    "category": "Các số đặc trưng đo xu thế trung tâm của mẫu số liệu ghép nhóm",
+    "example": "The median is in the group \\([20;30)\\).",
+    "symbol": "\\(M_e\\)"
+  },
+  {
+    "id": "q-gmode",
+    "term": "mode",
+    "vi": "mốt",
+    "category": "Các số đặc trưng đo xu thế trung tâm của mẫu số liệu ghép nhóm",
+    "example": "The modal group is \\([30;40)\\).",
+    "symbol": "\\(M_o\\)"
+  },
+  {
+    "id": "q-modalg",
+    "term": "modal group",
+    "vi": "nhóm chứa mốt",
+    "category": "Các số đặc trưng đo xu thế trung tâm của mẫu số liệu ghép nhóm",
+    "example": "Find the modal group first."
+  },
+  {
+    "id": "q-medg",
+    "term": "median group",
+    "vi": "nhóm chứa trung vị",
+    "category": "Các số đặc trưng đo xu thế trung tâm của mẫu số liệu ghép nhóm",
+    "example": "Which group is the median group?"
+  },
+  {
+    "id": "q-central",
+    "term": "measure of central tendency",
+    "vi": "số đặc trưng đo xu thế trung tâm",
+    "category": "Các số đặc trưng đo xu thế trung tâm của mẫu số liệu ghép nhóm",
+    "example": "The mean is a measure of central tendency."
+  },
+  {
+    "id": "q-compare",
+    "term": "compare",
+    "vi": "so sánh",
+    "category": "Các số đặc trưng đo xu thế trung tâm của mẫu số liệu ghép nhóm",
+    "example": "Compare the two classes."
+  },
+  {
+    "id": "q-copl",
+    "term": "coplanar",
+    "vi": "đồng phẳng",
+    "category": "Đường thẳng và mặt phẳng trong không gian",
+    "example": "Four coplanar points."
+  },
+  {
+    "id": "q-lieson",
+    "term": "lies in",
+    "vi": "nằm trong",
+    "category": "Đường thẳng và mặt phẳng trong không gian",
+    "example": "The line lies in the plane.",
+    "symbol": "\\(a\\subset(P)\\)"
+  },
+  {
+    "id": "q-inters",
+    "term": "line of intersection",
+    "vi": "giao tuyến",
+    "category": "Đường thẳng và mặt phẳng trong không gian",
+    "example": "Find the line of intersection of \\((SAC)\\) and \\((SBD)\\)."
+  },
+  {
+    "id": "q-tetra",
+    "term": "tetrahedron",
+    "vi": "tứ diện",
+    "category": "Đường thẳng và mặt phẳng trong không gian",
+    "example": "Tetrahedron \\(ABCD\\)."
+  },
+  {
+    "id": "q-section",
+    "term": "cross-section",
+    "vi": "thiết diện",
+    "category": "Đường thẳng và mặt phẳng trong không gian",
+    "example": "Find the cross-section."
+  },
+  {
+    "id": "q-parl",
+    "term": "parallel lines",
+    "vi": "hai đường thẳng song song",
+    "category": "Hai đường thẳng song song",
+    "example": "\\(AB\\parallel CD\\).",
+    "symbol": "\\(a\\parallel b\\)"
+  },
+  {
+    "id": "q-midline",
+    "term": "midline of a triangle",
+    "vi": "đường trung bình của tam giác",
+    "category": "Hai đường thẳng song song",
+    "example": "\\(MN\\) is a midline."
+  },
+  {
+    "id": "q-trans",
+    "term": "transitive property",
+    "vi": "tính chất bắc cầu",
+    "category": "Hai đường thẳng song song",
+    "example": "Use the transitive property."
+  },
+  {
+    "id": "q-prove",
+    "term": "prove",
+    "vi": "chứng minh",
+    "category": "Hai đường thẳng song song",
+    "example": "Prove that \\(MN\\parallel CD\\)."
+  },
+  {
+    "id": "q-prlgm",
+    "term": "parallelogram",
+    "vi": "hình bình hành",
+    "category": "Hai đường thẳng song song",
+    "example": "\\(MNPQ\\) is a parallelogram."
+  },
+  {
+    "id": "q-oxyz",
+    "term": "coordinate system Oxyz",
+    "vi": "hệ trục tọa độ Oxyz",
+    "category": "Hệ trục tọa độ trong không gian",
+    "example": "The point \\(M(1;2;3)\\) in the system \\(Oxyz\\).",
+    "symbol": "\\(Oxyz\\)"
+  },
+  {
+    "id": "q-pcoord",
+    "term": "coordinates of a point",
+    "vi": "tọa độ của điểm",
+    "category": "Hệ trục tọa độ trong không gian",
+    "example": "The coordinates of \\(M\\) are \\((1;2;3)\\).",
+    "symbol": "\\(M(x;y;z)\\)"
+  },
+  {
+    "id": "q-vcoord",
+    "term": "coordinates of a vector",
+    "vi": "tọa độ của vectơ",
+    "category": "Hệ trục tọa độ trong không gian",
+    "example": "\\(\\overrightarrow{AB}=(2;0;-1)\\).",
+    "symbol": "\\(\\vec a=(x;y;z)\\)"
+  },
+  {
+    "id": "q-orig",
+    "term": "origin",
+    "vi": "gốc tọa độ",
+    "category": "Hệ trục tọa độ trong không gian",
+    "example": "The origin is \\(O(0;0;0)\\).",
+    "symbol": "\\(O\\)"
+  },
+  {
+    "id": "q-proj",
+    "term": "projection",
+    "vi": "hình chiếu vuông góc",
+    "category": "Hệ trục tọa độ trong không gian",
+    "example": "The projection of \\(M(1;2;3)\\) onto \\((Oxy)\\) is \\((1;2;0)\\)."
+  },
+  {
+    "id": "q-symm",
+    "term": "symmetric point",
+    "vi": "điểm đối xứng",
+    "category": "Hệ trục tọa độ trong không gian",
+    "example": "The point symmetric to \\(M\\) about \\(O\\)."
+  },
+  {
+    "id": "q-cvsum",
+    "term": "sum and difference by coordinates",
+    "vi": "tổng và hiệu theo tọa độ",
+    "category": "Biểu thức tọa độ của các phép toán vectơ",
+    "example": "\\((1;2;3)+(0;1;1)=(1;3;4)\\)."
+  },
+  {
+    "id": "q-cscal",
+    "term": "scalar multiple",
+    "vi": "tích của một số với một vectơ",
+    "category": "Biểu thức tọa độ của các phép toán vectơ",
+    "example": "\\(2(1;2;3)=(2;4;6)\\).",
+    "symbol": "\\(k\\vec a\\)"
+  },
+  {
+    "id": "q-cdot",
+    "term": "dot product by coordinates",
+    "vi": "biểu thức tọa độ của tích vô hướng",
+    "category": "Biểu thức tọa độ của các phép toán vectơ",
+    "example": "\\((1;2;3)\\cdot(2;0;1)=5\\)."
+  },
+  {
+    "id": "q-clen",
+    "term": "length of a vector",
+    "vi": "độ dài của vectơ (tọa độ)",
+    "category": "Biểu thức tọa độ của các phép toán vectơ",
+    "example": "\\(|(2;3;6)|=7\\).",
+    "symbol": "\\(|\\vec a|\\)"
+  },
+  {
+    "id": "q-cang",
+    "term": "angle between two vectors",
+    "vi": "góc giữa hai vectơ bằng tọa độ",
+    "category": "Biểu thức tọa độ của các phép toán vectơ",
+    "example": "The cosine is \\(\\frac12\\), so the angle is \\(60^\\circ\\)."
+  },
+  {
+    "id": "q-cperp",
+    "term": "perpendicular vectors",
+    "vi": "hai vectơ vuông góc",
+    "category": "Biểu thức tọa độ của các phép toán vectơ",
+    "example": "\\((1;2;2)\\perp(2;-2;1)\\).",
+    "symbol": "\\(\\vec a\\perp\\vec b\\)"
+  },
+  {
+    "id": "q-ccol",
+    "term": "collinear vectors",
+    "vi": "hai vectơ cùng phương",
+    "category": "Biểu thức tọa độ của các phép toán vectơ",
+    "example": "\\((1;2;3)\\) and \\((2;4;6)\\) are collinear."
+  },
+  {
+    "id": "q-range",
+    "term": "range",
+    "vi": "khoảng biến thiên",
+    "category": "Khoảng biến thiên và khoảng tứ phân vị",
+    "example": "The range is \\(R=40-0=40\\).",
+    "symbol": "\\(R\\)"
+  },
+  {
+    "id": "q-quart",
+    "term": "quartile",
+    "vi": "tứ phân vị",
+    "category": "Khoảng biến thiên và khoảng tứ phân vị",
+    "example": "\\(Q_2\\) is the median.",
+    "symbol": "\\(Q_1,Q_2,Q_3\\)"
+  },
+  {
+    "id": "q-iqr",
+    "term": "interquartile range",
+    "vi": "khoảng tứ phân vị",
+    "category": "Khoảng biến thiên và khoảng tứ phân vị",
+    "example": "The interquartile range is 15.",
+    "symbol": "\\(\\Delta_Q\\)"
+  },
+  {
+    "id": "q-disp",
+    "term": "dispersion (spread)",
+    "vi": "độ phân tán",
+    "category": "Khoảng biến thiên và khoảng tứ phân vị",
+    "example": "A larger range means a larger spread."
   }
 ]

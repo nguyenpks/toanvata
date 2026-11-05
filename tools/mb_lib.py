@@ -115,6 +115,7 @@ def say_text(en):
 
 def T(en, vi, tag='p', auto=False):
     """Khối văn bản: Mức 1 = vi; Mức 2 = en + nút dịch + nút nghe; Mức 3 = en + nút nghe."""
+    if '<table' in en or '<table' in vi: tag = 'div'
     return '<div class="tx"><%s class="en" data-say="%s">%s</%s>%s%s<%s class="vi">%s</%s></div>' % (tag, say_text(plain(en)), plain(en), tag, SAY, BTN, tag, autoterms(terms(vi)) if auto else terms(vi), tag)
 
 def VOC(en, vi):
@@ -265,7 +266,7 @@ def MCQ(n, q, opts, ans, expl, raw=False):
     """raw=True: các phương án là văn bản/HTML (không bọc công thức), ví dụ câu hỏi chọn câu lệnh tiếng Anh."""
     _qid[0] += 1
     name = 'q%d' % _qid[0]
-    o = ''.join('<label><input type="radio" name="%s" value="%s"><span>%s</span></label>' % (name, 'abcd'[i], t if raw else '\\(%s\\)' % t) for i, t in enumerate(opts))
+    o = ''.join('<label><input type="radio" name="%s" value="%s"><span>%s</span></label>' % (name, 'abcd'[i], t if raw else (t if (t.startswith('\\(') and t.endswith('\\)') and t.count('\\(') == 1) else '\\(%s\\)' % t)) for i, t in enumerate(opts))
     return ('<div class="mbl-item" data-type="mcq" data-answer="%s"><div class="mbl-qtext"><b>%d.</b></div>%s<div class="mbl-opts">%s</div>%s'
             '<div class="mbl-explain" hidden>%s</div></div>') % (ans, n, T(*q, auto=True), o, _actions(), T(*expl, auto=True))
 

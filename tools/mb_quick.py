@@ -68,3 +68,12 @@ def vertices(cons):
     return sorted(pts)
 
 def GE(cfg, en, vi, h=320): return GEO(cfg, cap=(en, vi), alt=(en, ''), height=h)
+
+def LL(id, title_en, cv, topic, folder, file, order, level, minutes, before, desc, desc_vi, tags, tags_vi, goals, vocab, phrases, review, theory, examples, practice, mistakes, summary, checks, prerequisites=()):
+    """Gọi lesson() với giá trị chung; level: 'Beginner'|'Intermediate'|'Advanced'; before = (en, vi)."""
+    LV = {'Beginner': ('Beginner', 'Cơ bản'), 'Intermediate': ('Intermediate', 'Trung bình'), 'Advanced': ('Advanced', 'Nâng cao')}
+    lesson(id=id, title_en=title_en, title_vi=cv, topic=topic, folder=folder, file=file, catalog_title_vi=cv,
+      meta=dict(level=LV[level], time=('about %d minutes' % minutes, 'khoảng %d phút' % minutes), before=before),
+      goals=goals, vocab=vocab, phrases=phrases, review=review, theory=theory, examples=examples, practice=practice, mistakes=mistakes, summary=summary,
+      checks=list(checks) + [STD_SUMMARY_CHECK_EN()], description=desc, level=level, minutes=minutes, description_vi=desc_vi, tags_vi=tags_vi,
+      prerequisites=list(prerequisites), tags=tags, order=order)

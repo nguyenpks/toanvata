@@ -342,7 +342,7 @@ build('g12-antider-02', 'Techniques of Finding Antiderivatives', 'Các phương 
   ENTRY('g12-antider-02', 'Techniques of Finding Antiderivatives', 'Use linear substitution, change of variable and integration by parts.', 'Intermediate', 50, ['g12-antider-01'], 'lessons/grade12/antiderivatives/techniques-of-antiderivatives.html', ['substitution', 'integration by parts', 'antiderivative'], order=70))
 
 # sắp xếp lại các bài lớp 12 theo bản đồ chương trình
-order = ['g12-deriv-app-01','g12-deriv-app-02','g12-mono-01','g12-mono-02','g12-mono-03','g12-optim-01','g12-vec-01','g12-antider-01','g12-antider-02']
+order = ['g12-deriv-app-01','g12-deriv-app-02','g12-mono-01','g12-mono-02','g12-mono-03','g12-optim-01','g12-vec-01','g12-coord-01','g12-coord-02','g12-stats-01','g12-antider-01','g12-antider-02']
 p = os.path.join(ROOT, 'lessons.json'); d = json.load(open(p, encoding='utf-8'))
 g12 = sorted([x for x in d if x['grade'] == 12], key=lambda x: order.index(x['id']) if x['id'] in order else 99)
 first = next(i for i, x in enumerate(d) if x['grade'] == 12)

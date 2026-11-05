@@ -227,3 +227,19 @@ Lớp 11 Bài 1–5 đã được đánh số: `g11-trigf-01`=1, `g11-trigf-03` 
 **Ẩn cấp học.** Trong `config/model.json`, cấp `th` (Tiểu học) và `thcs` (THCS) có `"hidden": true`; `js/app.js` (`applyStages`) bỏ các cấp này nên không hiện ở trang chủ, bộ lọc, tìm kiếm và thống kê. Muốn mở lại: xóa `hidden` ở cả `config/model.json` và bản dự phòng `STAGES` trong `js/app.js`.
 
 Mã nguồn bài tự luyện: `tools/sp_g10b.py`, `tools/sp_g11.py`, `tools/sp_g12.py`; công cụ chung `tools/mb_quick.py`, `tools/trigval.py`.
+
+## Đợt 6 — 9 bài mới (3 bài mỗi khối, theo thứ tự SGK Kết nối tri thức)
+
+| Lớp | Bài | Mã bài | Nội dung |
+|---|---|---|---|
+| 10 | 7 | g10-vec-01 | Các khái niệm mở đầu về vectơ |
+| 10 | 8 | g10-vec-02 | Tổng và hiệu của hai vectơ |
+| 10 | 9 | g10-vec-03 | Tích của một vectơ với một số |
+| 11 | 9 | g11-stats-02 | Các số đặc trưng đo xu thế trung tâm (số liệu ghép nhóm) |
+| 11 | 10 | g11-space-04 | Đường thẳng và mặt phẳng trong không gian |
+| 11 | 11 | g11-space-05 | Hai đường thẳng song song |
+| 12 | 7 | g12-coord-01 | Hệ trục tọa độ trong không gian |
+| 12 | 8 | g12-coord-02 | Biểu thức tọa độ của các phép toán vectơ |
+| 12 | 9 | g12-stats-01 | Khoảng biến thiên, khoảng tứ phân vị |
+
+Mỗi bài có 15 câu/mức (7 câu bài + 8 câu tự luyện trắc nghiệm). Sinh câu tự luyện: `tools/sp_g10c.py`, `sp_g11b.py`, `sp_g11c.py`, `sp_g12b.py`; số liệu ghép nhóm: `tools/gdata.py`.

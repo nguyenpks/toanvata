@@ -10,23 +10,23 @@ def T12(seed): return nice(seed, need=('q1', 'q3', 'median'))
 def _t(r): return T12(r.randint(300, 460))
 def gd_range(r, lv):
     t = _t(r); v = t.rng()
-    return dict(en='A frequency table: \\(%s\\). The range is…' % t.text(), vi='Bảng tần số ghép nhóm: \\(%s\\). Khoảng biến thiên là…' % t.text(),
+    return dict(en='A frequency table: %s. The range is…' % t.html(), vi='Bảng tần số ghép nhóm: %s. Khoảng biến thiên là…' % t.html(),
       opts=pick_opts(r, dec(v), [dec(t.edge(t.k)), dec(v - t.h), dec(v + t.h), dec(t.edge(t.k - 1) - t.edge(0))], fill=lambda k: dec(v + 3 * k)), ans=0, ee='\\(R=\\)(right end of the last group)\\(-\\)(left end of the first group)\\(=%s\\).' % dec(v), ev='\\(R=\\)(đầu mút phải nhóm cuối)\\(-\\)(đầu mút trái nhóm đầu)\\(=%s\\).' % dec(v))
 def gd_q1(r, lv):
     t = _t(r); i, v = t.quant(1, 4)
-    return dict(en='A frequency table: \\(%s\\). The first quartile \\(Q_1\\) is…' % t.text(), vi='Bảng tần số ghép nhóm: \\(%s\\). Tứ phân vị thứ nhất \\(Q_1\\) là…' % t.text(),
+    return dict(en='A frequency table: %s. The first quartile \\(Q_1\\) is…' % t.html(), vi='Bảng tần số ghép nhóm: %s. Tứ phân vị thứ nhất \\(Q_1\\) là…' % t.html(),
       opts=pick_opts(r, dec(v), [dec(t.edge(i)), dec(t.mid(i)), dec(v + 1), dec(t.median())], fill=lambda k: dec(v + 2 * k)), ans=0, ee='\\(\\frac n4=%s\\) lies in %s; \\(Q_1=u+\\dfrac{n/4-C}{n_m}h=%s\\).' % (dec(F(t.n, 4)), t.label(i), dec(v)), ev='\\(\\frac n4=%s\\) thuộc nhóm %s; \\(Q_1=u+\\dfrac{n/4-C}{n_m}h=%s\\).' % (dec(F(t.n, 4)), t.label(i), dec(v)))
 def gd_q3(r, lv):
     t = _t(r); i, v = t.quant(3, 4)
-    return dict(en='A frequency table: \\(%s\\). The third quartile \\(Q_3\\) is…' % t.text(), vi='Bảng tần số ghép nhóm: \\(%s\\). Tứ phân vị thứ ba \\(Q_3\\) là…' % t.text(),
+    return dict(en='A frequency table: %s. The third quartile \\(Q_3\\) is…' % t.html(), vi='Bảng tần số ghép nhóm: %s. Tứ phân vị thứ ba \\(Q_3\\) là…' % t.html(),
       opts=pick_opts(r, dec(v), [dec(t.edge(i)), dec(t.mid(i)), dec(v + 1), dec(t.median())], fill=lambda k: dec(v + 2 * k)), ans=0, ee='\\(\\frac{3n}4=%s\\) lies in %s; \\(Q_3=u+\\dfrac{3n/4-C}{n_m}h=%s\\).' % (dec(F(3 * t.n, 4)), t.label(i), dec(v)), ev='\\(\\frac{3n}4=%s\\) thuộc nhóm %s; \\(Q_3=u+\\dfrac{3n/4-C}{n_m}h=%s\\).' % (dec(F(3 * t.n, 4)), t.label(i), dec(v)))
 def gd_iqr(r, lv):
     t = _t(r); v = t.iqr()
-    return dict(en='A frequency table: \\(%s\\). The interquartile range \\(\\Delta_Q\\) is…' % t.text(), vi='Bảng tần số ghép nhóm: \\(%s\\). Khoảng tứ phân vị \\(\\Delta_Q\\) là…' % t.text(),
+    return dict(en='A frequency table: %s. The interquartile range \\(\\Delta_Q\\) is…' % t.html(), vi='Bảng tần số ghép nhóm: %s. Khoảng tứ phân vị \\(\\Delta_Q\\) là…' % t.html(),
       opts=pick_opts(r, dec(v), [dec(t.q3()), dec(t.q3() + t.q1()), dec(t.rng()), dec(v + 1)], fill=lambda k: dec(v + 2 * k)), ans=0, ee='\\(\\Delta_Q=Q_3-Q_1=%s-%s=%s\\).' % (dec(t.q3()), dec(t.q1()), dec(v)), ev='\\(\\Delta_Q=Q_3-Q_1=%s-%s=%s\\).' % (dec(t.q3()), dec(t.q1()), dec(v)))
 def gd_group(r, lv):
     t = _t(r); i, _ = t.quant(r.choice([1, 3]), 4) if False else t.quant(1, 4)
-    return dict(en='A frequency table: \\(%s\\). Which group contains \\(Q_1\\)?' % t.text(), vi='Bảng tần số ghép nhóm: \\(%s\\). Nhóm nào chứa \\(Q_1\\)?' % t.text(),
+    return dict(en='A frequency table: %s. Which group contains \\(Q_1\\)?' % t.html(), vi='Bảng tần số ghép nhóm: %s. Nhóm nào chứa \\(Q_1\\)?' % t.html(),
       opts=pick_opts(r, t.label(i), [t.label(j) for j in range(t.k) if j != i]), ans=0, ee='\\(\\frac n4=%s\\); the cumulative frequency first reaches it in %s.' % (dec(F(t.n, 4)), t.label(i)), ev='\\(\\frac n4=%s\\); tần số tích lũy lần đầu đạt giá trị này ở nhóm %s.' % (dec(F(t.n, 4)), t.label(i)))
 def gd_more(r, lv):
     a, b = _t(r), _t(r)

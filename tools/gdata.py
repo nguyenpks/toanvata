@@ -25,6 +25,9 @@ class GT:
     def iqr(s): return s.q3() - s.q1()
     def label(s, i): return '[%d;%d)' % (s.edge(i), s.edge(i + 1))
     def text(s): return ';\\ '.join('%s: %d' % (s.label(i), f) for i, f in enumerate(s.fs))
+    def html(s):
+        h = '<div class="mbl-tablewrap"><table class="mbl-table mbl-freq"><thead><tr><th>Nhóm / Group</th>' + ''.join('<th>%s</th>' % s.label(i).replace('[', '\\([').replace(')', ')\\)') for i in range(s.k)) + '</tr></thead>'
+        return h + '<tbody><tr><td>Tần số / Frequency</td>' + ''.join('<td>%d</td>' % f for f in s.fs) + '</tr></tbody></table></div>'
     def var(s): m = s.mean(); return sum(f * (s.mid(i) - m) ** 2 for i, f in enumerate(s.fs)) / s.n
 
 def half(x): return (2 * x).denominator == 1

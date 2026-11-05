@@ -151,3 +151,9 @@ body[data-level="1"] b.mbl-en,.no-tts b.mbl-en::after{cursor:inherit}
 mjx-container[display="true"]{max-width:100%}
 mjx-container.mbl-wide-inline{display:block!important;max-width:100%;overflow-x:auto;overflow-y:hidden;margin:4px 0;-webkit-overflow-scrolling:touch}
 .mbl-box,.mbl-ex,.mbl-card{min-width:0}
+
+/* bảng tần số trong đề bài: kẻ đủ đường, gọn trên điện thoại */
+.mbl-table.mbl-freq{min-width:0;width:auto;max-width:100%;font-size:14.5px;border-collapse:collapse;margin:0}
+.mbl-table.mbl-freq th,.mbl-table.mbl-freq td{border:1px solid var(--mbl-line,#b6c2d4);padding:6px 10px;text-align:center;white-space:nowrap}
+.mbl-table.mbl-freq th:first-child,.mbl-table.mbl-freq td:first-child{text-align:left;font-weight:700}
+.mbl-tablewrap:has(.mbl-freq){display:inline-block;max-width:100%;margin:8px 0}
