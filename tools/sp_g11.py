@@ -68,7 +68,8 @@ B7 = [gp_term, gp_q, gp_sum, gp_mid, gp_money, gp_count, gp_term, gp_sum]
 
 # ---------- Bài 8: mẫu số liệu ghép nhóm ----------
 def _tab(edges, fs):
-    return ';\\ '.join('[%d;%d): %d' % (edges[i], edges[i + 1], fs[i]) for i in range(len(fs)))
+    from freqtable import FREQ
+    return FREQ(edges, fs)
 def _mk(r):
     w = r.choice([2, 5, 10]); a = r.choice([0, w, 2 * w]); k = r.choice([4, 5]); edges = [a + i * w for i in range(k + 1)]; fs = [r.randint(2, 12) for _ in range(k)]
     return w, edges, fs
@@ -78,28 +79,28 @@ def st_width(r, lv):
       opts=pick_opts(r, fr(mid), [str(edges[i]), str(edges[i + 1]), fr(mid + 1), str(w)], fill=lambda k: fr(mid + k + 2)), ans=0, ee='The midpoint is \\(\\dfrac{%d+%d}{2}=%s\\).' % (edges[i], edges[i + 1], fr(mid)), ev='Giá trị đại diện là \\(\\dfrac{%d+%d}{2}=%s\\).' % (edges[i], edges[i + 1], fr(mid)))
 def st_total(r, lv):
     w, edges, fs = _mk(r); n = sum(fs)
-    return dict(en='A frequency table: \\(%s\\). How many data values are there in total?' % _tab(edges, fs), vi='Bảng tần số: \\(%s\\). Mẫu số liệu có tất cả bao nhiêu giá trị?' % _tab(edges, fs),
+    return dict(en='A frequency table: %s. How many data values are there in total?' % _tab(edges, fs), vi='Bảng tần số: %s. Mẫu số liệu có tất cả bao nhiêu giá trị?' % _tab(edges, fs),
       opts=pick_opts(r, str(n), [str(n + 1), str(n - 1), str(max(fs)), str(n + 3)], fill=lambda k: str(n + 5 + k)), ans=0, ee='Add all the frequencies: %s = %d.' % ('+'.join(map(str, fs)), n), ev='Cộng mọi tần số: %s = %d.' % ('+'.join(map(str, fs)), n))
 def st_rel(r, lv):
     while True:
         w, edges, fs = _mk(r); n = sum(fs)
         if 100 % n == 0 or n in (8, 16, 20, 25, 40, 50): break
     i = r.randrange(len(fs)); v = F(100 * fs[i], n)
-    return dict(en='A frequency table: \\(%s\\). What is the relative frequency of the group \\([%d;%d)\\) (in %%)?' % (_tab(edges, fs), edges[i], edges[i + 1]), vi='Bảng tần số: \\(%s\\). Tần suất của nhóm \\([%d;%d)\\) là bao nhiêu phần trăm?' % (_tab(edges, fs), edges[i], edges[i + 1]),
+    return dict(en='A frequency table: %s. What is the relative frequency of the group \\([%d;%d)\\) (in %%)?' % (_tab(edges, fs), edges[i], edges[i + 1]), vi='Bảng tần số: %s. Tần suất của nhóm \\([%d;%d)\\) là bao nhiêu phần trăm?' % (_tab(edges, fs), edges[i], edges[i + 1]),
       opts=pick_opts(r, fr(v), [fr(v + 5), fr(v - 5), fr(v * 2), fr(F(fs[i]))], fill=lambda k: fr(v + 7 + k)), ans=0, ee='\\(\\dfrac{%d}{%d}\\cdot100\\%%=%s\\%%\\).' % (fs[i], n, fr(v)), ev='\\(\\dfrac{%d}{%d}\\cdot100\\%%=%s\\%%\\).' % (fs[i], n, fr(v)))
 def st_cum(r, lv):
     w, edges, fs = _mk(r); j = r.randint(1, len(fs) - 1); c = sum(fs[:j])
-    return dict(en='A frequency table: \\(%s\\). How many values are less than \\(%d\\)?' % (_tab(edges, fs), edges[j]), vi='Bảng tần số: \\(%s\\). Có bao nhiêu giá trị nhỏ hơn \\(%d\\)?' % (_tab(edges, fs), edges[j]),
+    return dict(en='A frequency table: %s. How many values are less than \\(%d\\)?' % (_tab(edges, fs), edges[j]), vi='Bảng tần số: %s. Có bao nhiêu giá trị nhỏ hơn \\(%d\\)?' % (_tab(edges, fs), edges[j]),
       opts=pick_opts(r, str(c), [str(c + fs[j]), str(c - fs[0]) if c != fs[0] else str(c + 2), str(fs[j - 1]), str(c + 1)], fill=lambda k: str(c + 4 + k)), ans=0, ee='Add the frequencies of the groups before %d: %d.' % (edges[j], c), ev='Cộng tần số của các nhóm đứng trước %d: %d.' % (edges[j], c))
 def st_mode(r, lv):
     while True:
         w, edges, fs = _mk(r)
         if fs.count(max(fs)) == 1: break
     i = fs.index(max(fs))
-    return dict(en='A frequency table: \\(%s\\). Which group has the highest frequency?' % _tab(edges, fs), vi='Bảng tần số: \\(%s\\). Nhóm nào có tần số lớn nhất?' % _tab(edges, fs),
+    return dict(en='A frequency table: %s. Which group has the highest frequency?' % _tab(edges, fs), vi='Bảng tần số: %s. Nhóm nào có tần số lớn nhất?' % _tab(edges, fs),
       opts=['[%d;%d)' % (edges[i], edges[i + 1])] + ['[%d;%d)' % (edges[k], edges[k + 1]) for k in range(len(fs)) if k != i][:3], ans=0, ee='The largest frequency is %d, in the group \\([%d;%d)\\).' % (fs[i], edges[i], edges[i + 1]), ev='Tần số lớn nhất là %d, thuộc nhóm \\([%d;%d)\\).' % (fs[i], edges[i], edges[i + 1]))
 def st_mean(r, lv):
     w, edges, fs = _mk(r); n = sum(fs); mids = [F(edges[i] + edges[i + 1], 2) for i in range(len(fs))]; m = sum(mi * f for mi, f in zip(mids, fs)) / n
-    return dict(en='A frequency table: \\(%s\\). Estimate the mean using the midpoints of the groups.' % _tab(edges, fs), vi='Bảng tần số: \\(%s\\). Ước tính số trung bình bằng giá trị đại diện của các nhóm.' % _tab(edges, fs),
+    return dict(en='A frequency table: %s. Estimate the mean using the midpoints of the groups.' % _tab(edges, fs), vi='Bảng tần số: %s. Ước tính số trung bình bằng giá trị đại diện của các nhóm.' % _tab(edges, fs),
       opts=pick_opts(r, fr(m), [fr(m + 1), fr(m - 1), fr(m + w), fr(sum(mids) / len(mids))], fill=lambda k: fr(m + k + 2)), ans=0, ee='\\(\\bar x=\\dfrac{\\sum f_ix_i}{n}=%s\\).' % fr(m), ev='\\(\\bar x=\\dfrac{\\sum f_ix_i}{n}=%s\\).' % fr(m))
 B8 = [st_width, st_total, st_rel, st_cum, st_mode, st_mean, st_total, st_cum]

@@ -30,7 +30,7 @@ theory += '<h3>5.4 %s</h3>' % TI('Comparing data sets', 'So sánh hai mẫu số
 # kiểm tra bằng tính trực tiếp
 assert t1.mean() == F(41, 2) and t1.median() == 20 and t1.mode() == F(65, 2)
 assert t2.mean() == 20 and t2.median() == F(35, 2) and t2.mode() == 14 and t3.median() == 38.75 if False else True
-def tb(t): return TBL(['Group', 'Frequency \\(n_i\\)', 'Midpoint \\(x_i\\)', 'Cumulative'], [['\\(%s\\)' % t.label(i), str(f), dec(t.mid(i)), str(t.cum(i + 1))] for i, f in enumerate(t.fs)])
+def tb(t): return t.html(rows=('group', 'mid', 'freq', 'cum'))
 examples = EXAMPLE(1, ('Basic', 'Cơ bản'), ('Mean', 'Số trung bình'), T('Test scores: %s. Find the mean.' % t1.html(), 'Điểm kiểm tra: %s. Tính số trung bình.' % t1.html()),
   T('Midpoints: 5, 15, 25, 35.', 'Giá trị đại diện: 5, 15, 25, 35.'), [T('\\(n=%d\\).' % t1.n, '\\(n=%d\\).' % t1.n), T('\\(\\bar x=\\dfrac{5\\cdot5+5\\cdot15+4\\cdot25+6\\cdot35}{20}=\\dfrac{410}{20}\\).', '\\(\\bar x=\\dfrac{5\\cdot5+5\\cdot15+4\\cdot25+6\\cdot35}{20}=\\dfrac{410}{20}\\).')], T('\\(\\bar x=%s\\).' % dec(t1.mean()), '\\(\\bar x=%s\\).' % dec(t1.mean())))
 assert 5 * 5 + 5 * 15 + 4 * 25 + 6 * 35 == 410
