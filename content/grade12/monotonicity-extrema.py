@@ -3,6 +3,12 @@
 import os, sys
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..', 'tools'))
 from mb_std import *
+from mb_selfpractice import SELF
+import sp_g12, re
+_cap = {}
+_real_build = build
+def build(lid, *a, **k):               # ghi nhận ba bài cũ; cuối tệp dựng lại theo danh mục SGK (Bài 1, Bài 2)
+    _cap[lid] = (list(a), k)
 
 # ---- Bài tập riêng từng mức: Mức 1 giữ bộ cũ; Mức 2 và Mức 3 là bộ mới, cùng dạng, khác số liệu ----
 # Chuỗi 'tiếng Anh§tiếng Việt'; nếu không có § thì dùng chung cho cả hai ngôn ngữ.
@@ -63,6 +69,10 @@ theory = ('<h3>5.1 %s</h3>' % TI('Increasing and decreasing functions', 'Hàm s�
   '<h3>5.3 %s</h3>' % TI('Method', 'Các bước xét tính đơn điệu') +
   OL([T('Find the domain.', 'Tìm [[tập xác định]].'), T('Compute \\(f\'(x)\\) and find where \\(f\'(x)=0\\) or \\(f\'(x)\\) does not exist.', 'Tính \\(f\'(x)\\); tìm các điểm \\(f\'(x)=0\\) hoặc \\(f\'(x)\\) không xác định.'),
       T('Make a sign table of \\(f\'\\) (a variation table).', 'Lập [[bảng xét dấu]] của \\(f\'\\) (hoặc [[bảng biến thiên]]).'), T('Read the intervals where \\(f\\) increases and decreases.', 'Đọc các khoảng đồng biến, nghịch biến.')]))
+
+theory += GRAPH({'view': [-1.8, 4.6, -4.2, 3.2], 'functions': [{'f': 'x^3-3x^2+1', 'label': 'y = x³ − 3x² + 1'}], 'mark': {'extrema': [0]}, 'monotone': {'f': 0}},
+  cap=('Green: the function is increasing. Orange: decreasing. The dots are the local extrema, where the derivative changes sign.', 'Màu xanh: hàm số đồng biến. Màu cam: nghịch biến. Các chấm là điểm cực trị, nơi đạo hàm đổi dấu.'),
+  alt=('Graph of a cubic with colored increasing and decreasing parts', ''), height=340)
 
 ex = EXAMPLE(1, ('Basic', 'Cơ bản'), ('A cubic function', 'Hàm số bậc ba'),
   T('Find the intervals on which \\(f(x)=x^3-3x^2+1\\) is increasing or decreasing.', 'Tìm các khoảng đồng biến, nghịch biến của hàm số \\(f(x)=x^3-3x^2+1\\).'),
@@ -213,87 +223,92 @@ theory2 = ('<h3>5.1 %s</h3>' % TI('Local maximum and local minimum', 'Cực đ�
   BOX('mint', ('Theorem', 'Định lí'), T('Suppose \\(f\'(x_0)=0\\) and \\(f\'\'(x_0)\\) exists.', 'Giả sử \\(f\'(x_0)=0\\) và tồn tại \\(f\'\'(x_0)\\).'),
     UL([T('If \\(f\'\'(x_0)<0\\), then \\(x_0\\) is a local maximum.', 'Nếu \\(f\'\'(x_0)<0\\) thì \\(x_0\\) là điểm cực đại.'), T('If \\(f\'\'(x_0)>0\\), then \\(x_0\\) is a local minimum.', 'Nếu \\(f\'\'(x_0)>0\\) thì \\(x_0\\) là điểm cực tiểu.'),
         T('If \\(f\'\'(x_0)=0\\), the test fails; use the first derivative test.', 'Nếu \\(f\'\'(x_0)=0\\) thì không kết luận được; dùng điều kiện đủ thứ nhất.')])))
-ex2 = EXAMPLE(1, ('Basic', 'Cơ bản'), ('Sign change of the derivative', 'Đổi dấu của đạo hàm'),
+theory2 += GRAPH({'view': [-1.8, 4.6, -4.2, 3.2], 'functions': [{'f': 'x^3-3x^2+1', 'label': 'y = x³ − 3x² + 1'}], 'mark': {'extrema': [0]},
+  'tangent': {'f': 0, 'at': 1, 'min': -1, 'max': 3.5}},
+  cap=('Move the slider x₀. At the extrema (x = 0 and x = 2) the tangent is horizontal, so f′(x₀) = 0.', 'Kéo thanh trượt x₀. Tại hai điểm cực trị (x = 0 và x = 2) tiếp tuyến nằm ngang nên f′(x₀) = 0.'),
+  alt=('Cubic graph with a moving tangent line', ''), height=340)
+
+ex2 = EXAMPLE(5, ('Basic', 'Cơ bản'), ('Sign change of the derivative', 'Đổi dấu của đạo hàm'),
   T('Find the extrema of \\(f(x)=x^3-3x^2+1\\).', 'Tìm cực trị của hàm số \\(f(x)=x^3-3x^2+1\\).'),
   ('Find the roots of \\(f\'\\), then check the sign change.', 'Tìm nghiệm của \\(f\'\\), rồi xét đổi dấu.'),
   [T('\\(f\'(x)=3x(x-2)\\), zero at \\(x=0\\) and \\(x=2\\).', '\\(f\'(x)=3x(x-2)\\), bằng 0 tại \\(x=0\\) và \\(x=2\\).'),
    T('\\(f\'\\) changes from \\(+\\) to \\(-\\) at \\(x=0\\): local maximum, \\(f(0)=1\\).', '\\(f\'\\) đổi dấu từ \\(+\\) sang \\(-\\) tại \\(x=0\\): cực đại, \\(f(0)=1\\).'),
    T('\\(f\'\\) changes from \\(-\\) to \\(+\\) at \\(x=2\\): local minimum, \\(f(2)=8-12+1=-3\\).', '\\(f\'\\) đổi dấu từ \\(-\\) sang \\(+\\) tại \\(x=2\\): cực tiểu, \\(f(2)=8-12+1=-3\\).')],
   'local maximum \\(f(0)=1\\); local minimum \\(f(2)=-3\\)')
-ex2 += EXAMPLE(2, ('Intermediate', 'Trung bình'), ('The second derivative test', 'Dùng đạo hàm cấp hai'),
+ex2 += EXAMPLE(6, ('Intermediate', 'Trung bình'), ('The second derivative test', 'Dùng đạo hàm cấp hai'),
   T('Find the extrema of \\(f(x)=x^4-2x^2+3\\).', 'Tìm cực trị của hàm số \\(f(x)=x^4-2x^2+3\\).'),
   ('Find \\(f\'\\) and \\(f\'\'\\), then test each critical point.', 'Tính \\(f\'\\) và \\(f\'\'\\), rồi xét từng điểm tới hạn.'),
   [T('\\(f\'(x)=4x(x^2-1)\\), zero at \\(x=-1,\\ 0,\\ 1\\). Also \\(f\'\'(x)=12x^2-4\\).', '\\(f\'(x)=4x(x^2-1)\\), bằng 0 tại \\(x=-1,\\ 0,\\ 1\\). Và \\(f\'\'(x)=12x^2-4\\).'),
    T('\\(f\'\'(0)=-4<0\\): local maximum, \\(f(0)=3\\).', '\\(f\'\'(0)=-4<0\\): cực đại, \\(f(0)=3\\).'),
    T('\\(f\'\'(\\pm1)=8>0\\): local minima, \\(f(\\pm1)=2\\).', '\\(f\'\'(\\pm1)=8>0\\): cực tiểu, \\(f(\\pm1)=2\\).')],
   'local maximum \\(f(0)=3\\); local minima \\(f(\\pm1)=2\\)')
-ex2 += EXAMPLE(3, ('Intermediate', 'Trung bình'), ('Zero derivative, no extremum', 'Đạo hàm bằng 0 nhưng không có cực trị'),
+ex2 += EXAMPLE(7, ('Intermediate', 'Trung bình'), ('Zero derivative, no extremum', 'Đạo hàm bằng 0 nhưng không có cực trị'),
   T('Does \\(f(x)=x^3\\) have an extremum at \\(x=0\\)?', 'Hàm số \\(f(x)=x^3\\) có cực trị tại \\(x=0\\) không?'),
   ('Check the sign of \\(f\'\\) on both sides of 0.', 'Xét dấu của \\(f\'\\) ở hai phía của 0.'),
   [T('\\(f\'(x)=3x^2\\), so \\(f\'(0)=0\\).', '\\(f\'(x)=3x^2\\) nên \\(f\'(0)=0\\).'),
    T('But \\(f\'(x)>0\\) for \\(x<0\\) and for \\(x>0\\). It does not change sign.', 'Nhưng \\(f\'(x)>0\\) khi \\(x<0\\) và khi \\(x>0\\). Nó không đổi dấu.'),
    T('So there is no extremum. \\(f\'(x_0)=0\\) is necessary, not sufficient.', 'Vậy không có cực trị. Điều kiện \\(f\'(x_0)=0\\) là cần, chưa đủ.')],
   'No extremum at \\(x=0\\)')
-ex2 += EXAMPLE(4, ('Advanced', 'Nâng cao'), ('A parameter', 'Bài toán tham số'),
+ex2 += EXAMPLE(8, ('Advanced', 'Nâng cao'), ('A parameter', 'Bài toán tham số'),
   T('Find all values of \\(m\\) such that \\(f(x)=x^3-3x^2+mx\\) has two extreme points.', 'Tìm tất cả giá trị của \\(m\\) để hàm số \\(f(x)=x^3-3x^2+mx\\) có hai điểm cực trị.'),
   ('Two extreme points need \\(f\'\\) to have two different roots and to change sign at them.', 'Có hai điểm cực trị khi \\(f\'\\) có hai nghiệm phân biệt và đổi dấu tại đó.'),
   [T('\\(f\'(x)=3x^2-6x+m\\) is a quadratic.', '\\(f\'(x)=3x^2-6x+m\\) là tam thức bậc hai.'),
    T('Two distinct roots: \\(\\Delta\'=9-3m>0\\), so \\(m<3\\).', 'Hai nghiệm phân biệt: \\(\\Delta\'=9-3m>0\\) nên \\(m<3\\).')],
   '\\(m<3\\)')
 pr2 = [(('A. Multiple Choice', 'A. Trắc nghiệm nhiều lựa chọn'), [
-  MCQ(1, ('At which \\(x\\) does \\(f(x)=x^2-4x+1\\) have a local minimum?', 'Hàm số \\(f(x)=x^2-4x+1\\) đạt cực tiểu tại \\(x\\) bằng bao nhiêu?'), ['x=-2', 'x=2', 'x=4', 'x=1'], 'b', ('Answer: b. \\(f\'(x)=2x-4=0\\) at \\(x=2\\) and \\(f\'\'=2>0\\).', 'Đáp án b. \\(f\'(x)=2x-4=0\\) tại \\(x=2\\) và \\(f\'\'=2>0\\).')),
-  MCQ(2, ('At which \\(x\\) does \\(f(x)=-x^3+3x\\) have a local maximum?', 'Hàm số \\(f(x)=-x^3+3x\\) đạt cực đại tại \\(x\\) bằng bao nhiêu?'), ['x=-1', 'x=0', 'x=1', 'x=3'], 'c', ('Answer: c. \\(f\'(x)=-3x^2+3=0\\) at \\(x=\\pm1\\), and \\(f\'\'(1)=-6<0\\).', 'Đáp án c. \\(f\'(x)=-3x^2+3=0\\) tại \\(x=\\pm1\\), và \\(f\'\'(1)=-6<0\\).')),
-  MCQ(3, ('Let \\(f\'(x)=x(x-1)^2(x+2)\\). How many extreme points does \\(f\\) have?', 'Cho \\(f\'(x)=x(x-1)^2(x+2)\\). Hàm số \\(f\\) có bao nhiêu điểm cực trị?'), ['1', '2', '3', '4'], 'b', ('Answer: b. \\(f\'\\) changes sign at \\(x=0\\) and \\(x=-2\\), but not at \\(x=1\\) because \\((x-1)^2\\ge0\\).', 'Đáp án b. \\(f\'\\) đổi dấu tại \\(x=0\\) và \\(x=-2\\), nhưng không đổi dấu tại \\(x=1\\) vì \\((x-1)^2\\ge0\\).'))]),
+  MCQ(11, ('At which \\(x\\) does \\(f(x)=x^2-4x+1\\) have a local minimum?', 'Hàm số \\(f(x)=x^2-4x+1\\) đạt cực tiểu tại \\(x\\) bằng bao nhiêu?'), ['x=-2', 'x=2', 'x=4', 'x=1'], 'b', ('Answer: b. \\(f\'(x)=2x-4=0\\) at \\(x=2\\) and \\(f\'\'=2>0\\).', 'Đáp án b. \\(f\'(x)=2x-4=0\\) tại \\(x=2\\) và \\(f\'\'=2>0\\).')),
+  MCQ(12, ('At which \\(x\\) does \\(f(x)=-x^3+3x\\) have a local maximum?', 'Hàm số \\(f(x)=-x^3+3x\\) đạt cực đại tại \\(x\\) bằng bao nhiêu?'), ['x=-1', 'x=0', 'x=1', 'x=3'], 'c', ('Answer: c. \\(f\'(x)=-3x^2+3=0\\) at \\(x=\\pm1\\), and \\(f\'\'(1)=-6<0\\).', 'Đáp án c. \\(f\'(x)=-3x^2+3=0\\) tại \\(x=\\pm1\\), và \\(f\'\'(1)=-6<0\\).')),
+  MCQ(13, ('Let \\(f\'(x)=x(x-1)^2(x+2)\\). How many extreme points does \\(f\\) have?', 'Cho \\(f\'(x)=x(x-1)^2(x+2)\\). Hàm số \\(f\\) có bao nhiêu điểm cực trị?'), ['1', '2', '3', '4'], 'b', ('Answer: b. \\(f\'\\) changes sign at \\(x=0\\) and \\(x=-2\\), but not at \\(x=1\\) because \\((x-1)^2\\ge0\\).', 'Đáp án b. \\(f\'\\) đổi dấu tại \\(x=0\\) và \\(x=-2\\), nhưng không đổi dấu tại \\(x=1\\) vì \\((x-1)^2\\ge0\\).'))]),
  (('B. True or False', 'B. Đúng hoặc sai'), [
-  TF(4, ('True or false: if \\(f\'(x_0)=0\\), then \\(x_0\\) is an extreme point.', 'Đúng hay sai: nếu \\(f\'(x_0)=0\\) thì \\(x_0\\) là điểm cực trị.'), 'false', ('False. For \\(f(x)=x^3\\), \\(f\'(0)=0\\) but there is no extremum.', 'Sai. Với \\(f(x)=x^3\\), \\(f\'(0)=0\\) nhưng không có cực trị.')),
-  TF(5, ('True or false: \\(f(x)=|x|\\) has a local minimum at \\(x=0\\), although \\(f\'(0)\\) does not exist.', 'Đúng hay sai: \\(f(x)=|x|\\) đạt cực tiểu tại \\(x=0\\) dù không tồn tại \\(f\'(0)\\).'), 'true', ('True. \\(f(x)\\ge0=f(0)\\) near 0, and \\(f\'\\) changes from \\(-1\\) to \\(1\\).', 'Đúng. \\(f(x)\\ge0=f(0)\\) gần 0, và \\(f\'\\) đổi từ \\(-1\\) sang \\(1\\).')),
-  TF(6, ('True or false: \\(f(x)=x^4\\) has a local minimum at \\(x=0\\) even though \\(f\'\'(0)=0\\).', 'Đúng hay sai: \\(f(x)=x^4\\) đạt cực tiểu tại \\(x=0\\) dù \\(f\'\'(0)=0\\).'), 'true', ('True. \\(f\'(x)=4x^3\\) changes from negative to positive at 0. The second derivative test simply fails here.', 'Đúng. \\(f\'(x)=4x^3\\) đổi dấu từ âm sang dương tại 0. Điều kiện đủ thứ hai không kết luận được ở đây.'))]),
+  TF(14, ('True or false: if \\(f\'(x_0)=0\\), then \\(x_0\\) is an extreme point.', 'Đúng hay sai: nếu \\(f\'(x_0)=0\\) thì \\(x_0\\) là điểm cực trị.'), 'false', ('False. For \\(f(x)=x^3\\), \\(f\'(0)=0\\) but there is no extremum.', 'Sai. Với \\(f(x)=x^3\\), \\(f\'(0)=0\\) nhưng không có cực trị.')),
+  TF(15, ('True or false: \\(f(x)=|x|\\) has a local minimum at \\(x=0\\), although \\(f\'(0)\\) does not exist.', 'Đúng hay sai: \\(f(x)=|x|\\) đạt cực tiểu tại \\(x=0\\) dù không tồn tại \\(f\'(0)\\).'), 'true', ('True. \\(f(x)\\ge0=f(0)\\) near 0, and \\(f\'\\) changes from \\(-1\\) to \\(1\\).', 'Đúng. \\(f(x)\\ge0=f(0)\\) gần 0, và \\(f\'\\) đổi từ \\(-1\\) sang \\(1\\).')),
+  TF(16, ('True or false: \\(f(x)=x^4\\) has a local minimum at \\(x=0\\) even though \\(f\'\'(0)=0\\).', 'Đúng hay sai: \\(f(x)=x^4\\) đạt cực tiểu tại \\(x=0\\) dù \\(f\'\'(0)=0\\).'), 'true', ('True. \\(f\'(x)=4x^3\\) changes from negative to positive at 0. The second derivative test simply fails here.', 'Đúng. \\(f\'(x)=4x^3\\) đổi dấu từ âm sang dương tại 0. Điều kiện đủ thứ hai không kết luận được ở đây.'))]),
  (('C. Short Answer', 'C. Trả lời ngắn'), [
-  SHORT(7, ('Find the local minimum value of \\(f(x)=x^3-3x\\).', 'Tìm giá trị cực tiểu của hàm số \\(f(x)=x^3-3x\\).'), '-2', 'number', ('Enter a number.', 'Nhập một số.'), ('Answer: \\(-2\\). The local minimum is at \\(x=1\\): \\(f(1)=1-3=-2\\).', 'Đáp án: \\(-2\\). Cực tiểu tại \\(x=1\\): \\(f(1)=1-3=-2\\).')),
-  SHORT(8, ('How many extreme points does \\(f(x)=x^4-2x^2\\) have?', 'Hàm số \\(f(x)=x^4-2x^2\\) có bao nhiêu điểm cực trị?'), '3', 'number', ('Enter a whole number.', 'Nhập một số nguyên.'), ('Answer: 3 (two minima and one maximum).', 'Đáp án: 3 (hai cực tiểu và một cực đại).')),
-  SHORT(9, ('Find the largest integer \\(m\\) such that \\(f(x)=x^3-3x^2+mx\\) has two extreme points.', 'Tìm số nguyên \\(m\\) lớn nhất để \\(f(x)=x^3-3x^2+mx\\) có hai điểm cực trị.'), '2', 'number', ('Enter a whole number.', 'Nhập một số nguyên.'), ('Answer: 2. We need \\(m<3\\).', 'Đáp án: 2. Cần \\(m<3\\).')),
-  SHORT(10, ('Find the local minimum value of \\(f(x)=x+\\dfrac4x\\) for \\(x>0\\).', 'Tìm giá trị cực tiểu của \\(f(x)=x+\\dfrac4x\\) với \\(x>0\\).'), '4', 'number', ('Enter a number.', 'Nhập một số.'), ('Answer: 4. \\(f\'(x)=1-\\dfrac4{x^2}=0\\) at \\(x=2\\), \\(f\'\'(2)=1>0\\), and \\(f(2)=2+2=4\\).', 'Đáp án: 4. \\(f\'(x)=1-\\dfrac4{x^2}=0\\) tại \\(x=2\\), \\(f\'\'(2)=1>0\\) và \\(f(2)=2+2=4\\).'))])]
+  SHORT(17, ('Find the local minimum value of \\(f(x)=x^3-3x\\).', 'Tìm giá trị cực tiểu của hàm số \\(f(x)=x^3-3x\\).'), '-2', 'number', ('Enter a number.', 'Nhập một số.'), ('Answer: \\(-2\\). The local minimum is at \\(x=1\\): \\(f(1)=1-3=-2\\).', 'Đáp án: \\(-2\\). Cực tiểu tại \\(x=1\\): \\(f(1)=1-3=-2\\).')),
+  SHORT(18, ('How many extreme points does \\(f(x)=x^4-2x^2\\) have?', 'Hàm số \\(f(x)=x^4-2x^2\\) có bao nhiêu điểm cực trị?'), '3', 'number', ('Enter a whole number.', 'Nhập một số nguyên.'), ('Answer: 3 (two minima and one maximum).', 'Đáp án: 3 (hai cực tiểu và một cực đại).')),
+  SHORT(19, ('Find the largest integer \\(m\\) such that \\(f(x)=x^3-3x^2+mx\\) has two extreme points.', 'Tìm số nguyên \\(m\\) lớn nhất để \\(f(x)=x^3-3x^2+mx\\) có hai điểm cực trị.'), '2', 'number', ('Enter a whole number.', 'Nhập một số nguyên.'), ('Answer: 2. We need \\(m<3\\).', 'Đáp án: 2. Cần \\(m<3\\).')),
+  SHORT(20, ('Find the local minimum value of \\(f(x)=x+\\dfrac4x\\) for \\(x>0\\).', 'Tìm giá trị cực tiểu của \\(f(x)=x+\\dfrac4x\\) với \\(x>0\\).'), '4', 'number', ('Enter a number.', 'Nhập một số.'), ('Answer: 4. \\(f\'(x)=1-\\dfrac4{x^2}=0\\) at \\(x=2\\), \\(f\'\'(2)=1>0\\), and \\(f(2)=2+2=4\\).', 'Đáp án: 4. \\(f\'(x)=1-\\dfrac4{x^2}=0\\) tại \\(x=2\\), \\(f\'\'(2)=1>0\\) và \\(f(2)=2+2=4\\).'))])]
 S2 = [
- [_m(1, r'At which \(x\) does \(f(x)=x^2-6x+2\) have a local minimum?§Hàm số \(f(x)=x^2-6x+2\) đạt cực tiểu tại \(x\) bằng bao nhiêu?', ['x=6', 'x=-3', 'x=2', 'x=3'], 'd',
+ [_m(11, r'At which \(x\) does \(f(x)=x^2-6x+2\) have a local minimum?§Hàm số \(f(x)=x^2-6x+2\) đạt cực tiểu tại \(x\) bằng bao nhiêu?', ['x=6', 'x=-3', 'x=2', 'x=3'], 'd',
       r'\(f′(x)=2x-6=0\) at \(x=3\) and \(f″=2>0\).§\(f′(x)=2x-6=0\) tại \(x=3\) và \(f″=2>0\).'),
-  _m(2, r'At which \(x\) does \(f(x)=-x^3+12x\) have a local maximum?§Hàm số \(f(x)=-x^3+12x\) đạt cực đại tại \(x\) bằng bao nhiêu?', ['x=2', 'x=-2', 'x=0', 'x=12'], 'a',
+  _m(12, r'At which \(x\) does \(f(x)=-x^3+12x\) have a local maximum?§Hàm số \(f(x)=-x^3+12x\) đạt cực đại tại \(x\) bằng bao nhiêu?', ['x=2', 'x=-2', 'x=0', 'x=12'], 'a',
       r'\(f′(x)=-3x^2+12=0\) at \(x=\pm2\), and \(f″(2)=-12<0\).§\(f′(x)=-3x^2+12=0\) tại \(x=\pm2\), và \(f″(2)=-12<0\).'),
-  _m(3, r'Let \(f′(x)=x^2(x-1)(x+2)(x-3)\). How many extreme points does \(f\) have?§Cho \(f′(x)=x^2(x-1)(x+2)(x-3)\). Hàm số \(f\) có bao nhiêu điểm cực trị?', ['1', '2', '3', '4'], 'c',
+  _m(13, r'Let \(f′(x)=x^2(x-1)(x+2)(x-3)\). How many extreme points does \(f\) have?§Cho \(f′(x)=x^2(x-1)(x+2)(x-3)\). Hàm số \(f\) có bao nhiêu điểm cực trị?', ['1', '2', '3', '4'], 'c',
       r'\(f′\) changes sign at \(x=1\), \(x=-2\) and \(x=3\), but not at \(x=0\) because \(x^2\ge0\).§\(f′\) đổi dấu tại \(x=1\), \(x=-2\) và \(x=3\), nhưng không đổi dấu tại \(x=0\) vì \(x^2\ge0\).')],
- [_t(4, r'True or false: if \(f′(x_0)=0\) and \(f″(x_0)=0\), then \(x_0\) is never an extreme point.§Đúng hay sai: nếu \(f′(x_0)=0\) và \(f″(x_0)=0\) thì \(x_0\) không bao giờ là điểm cực trị.', 'false',
+ [_t(14, r'True or false: if \(f′(x_0)=0\) and \(f″(x_0)=0\), then \(x_0\) is never an extreme point.§Đúng hay sai: nếu \(f′(x_0)=0\) và \(f″(x_0)=0\) thì \(x_0\) không bao giờ là điểm cực trị.', 'false',
       r'For \(f(x)=x^4\), \(f′(0)=f″(0)=0\) but \(x=0\) is a local minimum.§Với \(f(x)=x^4\), \(f′(0)=f″(0)=0\) nhưng \(x=0\) là điểm cực tiểu.'),
-  _t(5, r'True or false: \(f(x)=|x-1|\) has a local minimum at \(x=1\), although \(f′(1)\) does not exist.§Đúng hay sai: \(f(x)=|x-1|\) đạt cực tiểu tại \(x=1\) dù không tồn tại \(f′(1)\).', 'true',
+  _t(15, r'True or false: \(f(x)=|x-1|\) has a local minimum at \(x=1\), although \(f′(1)\) does not exist.§Đúng hay sai: \(f(x)=|x-1|\) đạt cực tiểu tại \(x=1\) dù không tồn tại \(f′(1)\).', 'true',
       r'\(f(x)\ge0=f(1)\) near 1, and \(f′\) changes from \(-1\) to \(1\).§\(f(x)\ge0=f(1)\) gần 1, và \(f′\) đổi từ \(-1\) sang \(1\).'),
-  _t(6, r'True or false: \(f(x)=-x^4\) has a local maximum at \(x=0\) even though \(f″(0)=0\).§Đúng hay sai: \(f(x)=-x^4\) đạt cực đại tại \(x=0\) dù \(f″(0)=0\).', 'true',
+  _t(16, r'True or false: \(f(x)=-x^4\) has a local maximum at \(x=0\) even though \(f″(0)=0\).§Đúng hay sai: \(f(x)=-x^4\) đạt cực đại tại \(x=0\) dù \(f″(0)=0\).', 'true',
       r'\(f′(x)=-4x^3\) changes from positive to negative at 0. The second derivative test simply fails here.§\(f′(x)=-4x^3\) đổi dấu từ dương sang âm tại 0. Điều kiện đủ thứ hai không kết luận được ở đây.')],
- [_s(7, r'Find the local minimum value of \(f(x)=x^3-12x\).§Tìm giá trị cực tiểu của hàm số \(f(x)=x^3-12x\).', '-16', r'\(-16\)', 'n',
+ [_s(17, r'Find the local minimum value of \(f(x)=x^3-12x\).§Tìm giá trị cực tiểu của hàm số \(f(x)=x^3-12x\).', '-16', r'\(-16\)', 'n',
       r'The local minimum is at \(x=2\): \(f(2)=8-24=-16\).§Cực tiểu tại \(x=2\): \(f(2)=8-24=-16\).'),
-  _s(8, r'How many extreme points does \(f(x)=x^4+4x^2\) have?§Hàm số \(f(x)=x^4+4x^2\) có bao nhiêu điểm cực trị?', '1', '1', 'w',
+  _s(18, r'How many extreme points does \(f(x)=x^4+4x^2\) have?§Hàm số \(f(x)=x^4+4x^2\) có bao nhiêu điểm cực trị?', '1', '1', 'w',
       r'\(f′(x)=4x^3+8x=4x(x^2+2)\) is zero only at \(x=0\), and \(f′\) changes from negative to positive there.§\(f′(x)=4x^3+8x=4x(x^2+2)\) chỉ bằng 0 tại \(x=0\), và \(f′\) đổi dấu từ âm sang dương tại đó.'),
-  _s(9, r'Find the largest integer \(m\) such that \(f(x)=x^3-6x^2+mx\) has two extreme points.§Tìm số nguyên \(m\) lớn nhất để \(f(x)=x^3-6x^2+mx\) có hai điểm cực trị.', '11', '11', 'w',
+  _s(19, r'Find the largest integer \(m\) such that \(f(x)=x^3-6x^2+mx\) has two extreme points.§Tìm số nguyên \(m\) lớn nhất để \(f(x)=x^3-6x^2+mx\) có hai điểm cực trị.', '11', '11', 'w',
       r'\(f′(x)=3x^2-12x+m\). We need \(\Delta′=36-3m>0\), so \(m<12\).§\(f′(x)=3x^2-12x+m\). Cần \(\Delta′=36-3m>0\) nên \(m<12\).'),
-  _s(10, r'Find the local minimum value of \(f(x)=2x+\dfrac8x\) for \(x>0\).§Tìm giá trị cực tiểu của \(f(x)=2x+\dfrac8x\) với \(x>0\).', '8', '8', 'n',
+  _s(20, r'Find the local minimum value of \(f(x)=2x+\dfrac8x\) for \(x>0\).§Tìm giá trị cực tiểu của \(f(x)=2x+\dfrac8x\) với \(x>0\).', '8', '8', 'n',
       r'\(f′(x)=2-\dfrac8{x^2}=0\) at \(x=2\), \(f″(2)=2>0\), and \(f(2)=4+4=8\).§\(f′(x)=2-\dfrac8{x^2}=0\) tại \(x=2\), \(f″(2)=2>0\) và \(f(2)=4+4=8\).')]]
 S3 = [
- [_m(1, r'At which \(x\) does \(f(x)=x^2+2x-5\) have a local minimum?§Hàm số \(f(x)=x^2+2x-5\) đạt cực tiểu tại \(x\) bằng bao nhiêu?', ['x=1', 'x=-2', 'x=-1', 'x=2'], 'c',
+ [_m(11, r'At which \(x\) does \(f(x)=x^2+2x-5\) have a local minimum?§Hàm số \(f(x)=x^2+2x-5\) đạt cực tiểu tại \(x\) bằng bao nhiêu?', ['x=1', 'x=-2', 'x=-1', 'x=2'], 'c',
       r'\(f′(x)=2x+2=0\) at \(x=-1\) and \(f″=2>0\).§\(f′(x)=2x+2=0\) tại \(x=-1\) và \(f″=2>0\).'),
-  _m(2, r'At which \(x\) does \(f(x)=x^3-12x\) have a local maximum?§Hàm số \(f(x)=x^3-12x\) đạt cực đại tại \(x\) bằng bao nhiêu?', ['x=2', 'x=-2', 'x=0', 'x=4'], 'b',
+  _m(12, r'At which \(x\) does \(f(x)=x^3-12x\) have a local maximum?§Hàm số \(f(x)=x^3-12x\) đạt cực đại tại \(x\) bằng bao nhiêu?', ['x=2', 'x=-2', 'x=0', 'x=4'], 'b',
       r'\(f′(x)=3x^2-12=0\) at \(x=\pm2\), and \(f″(-2)=-12<0\).§\(f′(x)=3x^2-12=0\) tại \(x=\pm2\), và \(f″(-2)=-12<0\).'),
-  _m(3, r'Let \(f′(x)=(x-5)(x+1)^2(x-2)^2\). How many extreme points does \(f\) have?§Cho \(f′(x)=(x-5)(x+1)^2(x-2)^2\). Hàm số \(f\) có bao nhiêu điểm cực trị?', ['1', '2', '3', '4'], 'a',
+  _m(13, r'Let \(f′(x)=(x-5)(x+1)^2(x-2)^2\). How many extreme points does \(f\) have?§Cho \(f′(x)=(x-5)(x+1)^2(x-2)^2\). Hàm số \(f\) có bao nhiêu điểm cực trị?', ['1', '2', '3', '4'], 'a',
       r'\(f′\) changes sign only at \(x=5\); at \(x=-1\) and \(x=2\) the squared factors do not change sign.§\(f′\) chỉ đổi dấu tại \(x=5\); tại \(x=-1\) và \(x=2\) các thừa số bình phương không đổi dấu.')],
- [_t(4, r'True or false: \(f(x)=x^3+1\) has a local minimum at \(x=0\) because \(f′(0)=0\).§Đúng hay sai: \(f(x)=x^3+1\) đạt cực tiểu tại \(x=0\) vì \(f′(0)=0\).', 'false',
+ [_t(14, r'True or false: \(f(x)=x^3+1\) has a local minimum at \(x=0\) because \(f′(0)=0\).§Đúng hay sai: \(f(x)=x^3+1\) đạt cực tiểu tại \(x=0\) vì \(f′(0)=0\).', 'false',
       r'\(f′(x)=3x^2\ge0\) does not change sign at 0, so there is no extremum.§\(f′(x)=3x^2\ge0\) không đổi dấu tại 0 nên không có cực trị.'),
-  _t(5, r'True or false: \(f(x)=|x|+3\) has a local minimum at \(x=0\), although \(f′(0)\) does not exist.§Đúng hay sai: \(f(x)=|x|+3\) đạt cực tiểu tại \(x=0\) dù không tồn tại \(f′(0)\).', 'true',
+  _t(15, r'True or false: \(f(x)=|x|+3\) has a local minimum at \(x=0\), although \(f′(0)\) does not exist.§Đúng hay sai: \(f(x)=|x|+3\) đạt cực tiểu tại \(x=0\) dù không tồn tại \(f′(0)\).', 'true',
       r'\(f(x)\ge3=f(0)\) near 0, and \(f′\) changes from \(-1\) to \(1\).§\(f(x)\ge3=f(0)\) gần 0, và \(f′\) đổi từ \(-1\) sang \(1\).'),
-  _t(6, r'True or false: \(f(x)=(x-1)^4\) has a local minimum at \(x=1\) even though \(f″(1)=0\).§Đúng hay sai: \(f(x)=(x-1)^4\) đạt cực tiểu tại \(x=1\) dù \(f″(1)=0\).', 'true',
+  _t(16, r'True or false: \(f(x)=(x-1)^4\) has a local minimum at \(x=1\) even though \(f″(1)=0\).§Đúng hay sai: \(f(x)=(x-1)^4\) đạt cực tiểu tại \(x=1\) dù \(f″(1)=0\).', 'true',
       r'\(f′(x)=4(x-1)^3\) changes from negative to positive at 1. The second derivative test fails here.§\(f′(x)=4(x-1)^3\) đổi dấu từ âm sang dương tại 1. Điều kiện đủ thứ hai không kết luận được ở đây.')],
- [_s(7, r'Find the local minimum value of \(f(x)=x^3-3x^2\).§Tìm giá trị cực tiểu của hàm số \(f(x)=x^3-3x^2\).', '-4', r'\(-4\)', 'n',
+ [_s(17, r'Find the local minimum value of \(f(x)=x^3-3x^2\).§Tìm giá trị cực tiểu của hàm số \(f(x)=x^3-3x^2\).', '-4', r'\(-4\)', 'n',
       r'\(f′(x)=3x(x-2)\), \(f″(2)=6>0\), so the local minimum is \(f(2)=8-12=-4\).§\(f′(x)=3x(x-2)\), \(f″(2)=6>0\) nên giá trị cực tiểu là \(f(2)=8-12=-4\).'),
-  _s(8, r'How many extreme points does \(f(x)=x^3-3x\) have?§Hàm số \(f(x)=x^3-3x\) có bao nhiêu điểm cực trị?', '2', '2', 'w',
+  _s(18, r'How many extreme points does \(f(x)=x^3-3x\) have?§Hàm số \(f(x)=x^3-3x\) có bao nhiêu điểm cực trị?', '2', '2', 'w',
       r'\(f′(x)=3x^2-3=3(x-1)(x+1)\) changes sign at \(x=1\) and \(x=-1\).§\(f′(x)=3x^2-3=3(x-1)(x+1)\) đổi dấu tại \(x=1\) và \(x=-1\).'),
-  _s(9, r'Find the largest integer \(m\) such that \(f(x)=x^3+x^2+mx\) has two extreme points.§Tìm số nguyên \(m\) lớn nhất để \(f(x)=x^3+x^2+mx\) có hai điểm cực trị.', '0', '0', 'w',
+  _s(19, r'Find the largest integer \(m\) such that \(f(x)=x^3+x^2+mx\) has two extreme points.§Tìm số nguyên \(m\) lớn nhất để \(f(x)=x^3+x^2+mx\) có hai điểm cực trị.', '0', '0', 'w',
       r'\(f′(x)=3x^2+2x+m\). We need \(\Delta′=1-3m>0\), so \(m<\dfrac13\) and the largest integer is 0.§\(f′(x)=3x^2+2x+m\). Cần \(\Delta′=1-3m>0\) nên \(m<\dfrac13\), số nguyên lớn nhất là 0.'),
-  _s(10, r'Find the local minimum value of \(f(x)=x+\dfrac{25}{x}\) for \(x>0\).§Tìm giá trị cực tiểu của \(f(x)=x+\dfrac{25}{x}\) với \(x>0\).', '10', '10', 'n',
+  _s(20, r'Find the local minimum value of \(f(x)=x+\dfrac{25}{x}\) for \(x>0\).§Tìm giá trị cực tiểu của \(f(x)=x+\dfrac{25}{x}\) với \(x>0\).', '10', '10', 'n',
       r'\(f′(x)=1-\dfrac{25}{x^2}=0\) at \(x=5\), \(f″(5)>0\), and \(f(5)=5+5=10\).§\(f′(x)=1-\dfrac{25}{x^2}=0\) tại \(x=5\), \(f″(5)>0\) và \(f(5)=5+5=10\).')]]
 _T = [t for t, _ in pr2]
 S1 = [g for _, g in pr2]
@@ -328,6 +343,12 @@ theory3 = ('<h3>5.1 %s</h3>' % TI('Definitions', 'Định nghĩa') +
   OL([T('Find the critical points of \\(f\\) that lie inside \\((a,b)\\).', 'Tìm các [[điểm tới hạn]] của \\(f\\) nằm trong \\((a,b)\\).'), T('Compute \\(f\\) at these points and at the two <b>endpoints</b> \\(a\\) and \\(b\\).', 'Tính \\(f\\) tại các điểm đó và tại hai [[đầu mút]] \\(a\\), \\(b\\).'), T('The largest number is the maximum value; the smallest is the minimum value.', 'Số lớn nhất là giá trị lớn nhất; số nhỏ nhất là giá trị nhỏ nhất.')]) +
   '<h3>5.3 %s</h3>' % TI('On other intervals', 'Trên khoảng khác') +
   T('On \\((a,b)\\), \\((a,+\\infty)\\) and so on, make a variation table and look at the limits at the ends. A maximum or minimum may not exist.', 'Trên \\((a,b)\\), \\((a,+\\infty)\\),… hãy lập [[bảng biến thiên]] và xét giới hạn ở hai đầu. Giá trị lớn nhất hay nhỏ nhất có thể không tồn tại.'))
+theory3 += GRAPH({'view': [-1.8, 3.8, -4.6, 2.6], 'functions': [{'f': 'x^3-3x^2+1', 'label': 'y = x³ − 3x² + 1'}], 'highlights': [{'f': 0, 'x': [-1, 3], 'color': '#c2410c'}],
+  'points': [{'x': -1, 'y': -3, 'label': 'f(−1) = −3'}, {'x': 0, 'y': 1, 'label': 'f(0) = 1'}, {'x': 2, 'y': -3, 'label': 'f(2) = −3'}, {'x': 3, 'y': 1, 'label': 'f(3) = 1'}],
+  'guides': [{'type': 'h', 'y': 1}, {'type': 'h', 'y': -3}]},
+  cap=('On [−1, 3] (thick part) the greatest value is 1 and the smallest value is −3. Compare the values at the endpoints and at the critical points.', 'Trên [−1; 3] (phần đậm) giá trị lớn nhất là 1 và nhỏ nhất là −3. So sánh giá trị tại hai đầu mút và tại các điểm tới hạn.'),
+  alt=('Cubic graph on a closed interval with the greatest and smallest values', ''), height=340)
+
 ex3 = EXAMPLE(1, ('Basic', 'Cơ bản'), ('A closed interval', 'Trên một đoạn'),
   T('Find the maximum and minimum values of \\(f(x)=x^3-3x+1\\) on \\([0,2]\\).', 'Tìm giá trị lớn nhất và nhỏ nhất của \\(f(x)=x^3-3x+1\\) trên đoạn \\([0,2]\\).'),
   ('Use the three-step method on a closed interval.', 'Dùng phương pháp ba bước trên một đoạn.'),
@@ -427,3 +448,46 @@ build('g12-mono-03', 'Maximum and Minimum Values', 'Giá trị lớn nhất và 
   [('I can find max and min values on a closed interval.', 'Em tìm được giá trị lớn nhất, nhỏ nhất trên một đoạn.'), ('I can decide when a maximum or minimum does not exist.', 'Em biết khi nào không tồn tại giá trị lớn nhất hay nhỏ nhất.'), ('I can solve a simple optimization problem.', 'Em giải được bài toán tối ưu đơn giản.'), ('I understand the English instructions in this lesson.', 'Em hiểu các yêu cầu bằng tiếng Anh trong bài này.')],
   'lessons/grade12/monotonicity-extrema/maximum-and-minimum-values.html',
   ENTRY('g12-mono-03', 'Maximum and Minimum Values', 'Find the greatest and smallest values of a function on an interval.', 'Intermediate', 50, ['g12-mono-02'], 'lessons/grade12/monotonicity-extrema/maximum-and-minimum-values.html', ['maximum', 'minimum', 'optimization', 'closed interval'], order=50))
+
+
+# =====================================================================
+# DỰNG THEO DANH MỤC SGK: Bài 1 (gộp g12-mono-01 + g12-mono-02) và Bài 2 (g12-mono-03)
+# =====================================================================
+def _dedupe(L, key=lambda x: x[0]):
+    out, seen = [], set()
+    for x in L:
+        k = key(x)
+        if k not in seen: seen.add(k); out.append(x)
+    return out
+_term = lambda x: re.findall(r'<b>(.*?)</b>', x[0])[0] if '<b>' in x[0] else x[0]
+def _relabel(parts, shift, tag):
+    out = []
+    for (en, vi), items, lv in parts:
+        L_ = en[0]; nl = chr(ord(L_) + shift)
+        out.append(((nl + en[1:] + ' – ' + tag[0], nl + vi[1:] + ' – ' + tag[1]), items, lv))
+    return out
+def _add_self(practice, selfset, letter, title):
+    return practice + [((letter + '. ' + title[0], letter + '. ' + title[1]), selfset[lv], [lv]) for lv in (1, 2, 3)]
+SELF_T = ('Self-practice: Multiple Choice', 'Tự luyện: trắc nghiệm')
+TOPIC12 = ('Applications of Derivatives', 'Ứng dụng đạo hàm')
+
+(a1, _), (a2, _), (a3, _) = _cap['g12-mono-01'], _cap['g12-mono-02'], _cap['g12-mono-03']
+_pr = _relabel(a1[10], 0, ('monotonicity', 'tính đơn điệu')) + _relabel(a2[10], 3, ('extrema', 'cực trị'))
+_prac1 = _add_self(_pr, SELF(sp_g12.M1, start=21, avoid=[t[1] for t in _pr]), 'G', SELF_T)
+_prac1.sort(key=lambda t: t[2][0])         # giữ thứ tự theo mức học
+lesson(id='g12-mono-01', title_en='Monotonicity and Extrema of Functions', title_vi='Tính đơn điệu và cực trị của hàm số', topic=TOPIC12,
+  catalog_title_vi='Tính đơn điệu và cực trị của hàm số', description_vi='Bài 1 – Dùng đạo hàm xét chiều biến thiên, tìm cực trị bằng bảng xét dấu và đạo hàm cấp hai; bài toán tham số đơn giản.',
+  tags_vi=['tính đơn điệu', 'cực trị', 'đạo hàm', 'bảng xét dấu', 'tham số'],
+  meta={'level': ('Intermediate', 'Trung bình'), 'time': ('about 80 minutes', 'khoảng 80 phút'), 'before': ('derivative rules, sign of a quadratic, intervals, second derivative', 'quy tắc đạo hàm, dấu tam thức bậc hai, khoảng, đạo hàm cấp hai')},
+  goals=a1[4][:3] + a2[4][:3] + [a1[4][3]], vocab=_dedupe(a1[5] + a2[5], _term), phrases=_dedupe(a1[6] + a2[6]), review=a1[7],
+  theory=a1[8] + a2[8], examples=a1[9] + a2[9], practice=_prac1, mistakes=a1[11] + a2[11], summary=a1[12] + a2[12], checks=_dedupe(a1[13] + a2[13]),
+  path='lessons/grade12/monotonicity-extrema/monotonicity-of-functions.html',
+  description='Use the derivative to find where a function increases or decreases and to find its local extrema.', level='Intermediate', minutes=80,
+  prerequisites=[], tags=['monotonicity', 'extrema', 'derivative', 'sign table'], order=10)
+
+_prac2 = _add_self(a3[10], SELF(sp_g12.M2, start=11, avoid=[t[1] for t in a3[10]]), 'D', SELF_T)
+lesson(id='g12-mono-03', title_en='Maximum and Minimum Values', title_vi='Giá trị lớn nhất và giá trị nhỏ nhất của hàm số', topic=TOPIC12,
+  catalog_title_vi='Giá trị lớn nhất và giá trị nhỏ nhất của hàm số', description_vi='Bài 2 – Tìm giá trị lớn nhất, nhỏ nhất trên một đoạn bằng đạo hàm; bài toán tối ưu trong thực tế.',
+  tags_vi=['giá trị lớn nhất', 'giá trị nhỏ nhất', 'đoạn', 'tối ưu'],
+  meta=a3[3], goals=a3[4], vocab=a3[5], phrases=a3[6], review=a3[7], theory=a3[8], examples=a3[9], practice=_prac2, mistakes=a3[11], summary=a3[12], checks=a3[13],
+  path=a3[14], description=a3[15]['description'], level='Intermediate', minutes=50, prerequisites=['g12-mono-01'], tags=a3[15]['tags'], order=20)

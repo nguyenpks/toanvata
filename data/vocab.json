@@ -1332,5 +1332,954 @@
     "vi": "dãy số bị chặn",
     "category": "Dãy số",
     "example": "A sequence bounded above and below is a bounded sequence."
+  },
+  {
+    "id": "g10-proposition",
+    "term": "proposition",
+    "vi": "mệnh đề",
+    "category": "Mệnh đề và tập hợp",
+    "example": "A proposition is true or false."
+  },
+  {
+    "id": "g10-true-false",
+    "term": "true / false",
+    "vi": "đúng / sai",
+    "category": "Mệnh đề và tập hợp",
+    "example": "Is the statement true or false?"
+  },
+  {
+    "id": "g10-open-statement",
+    "term": "open statement",
+    "vi": "mệnh đề chứa biến",
+    "category": "Mệnh đề và tập hợp",
+    "example": "x + 1 = 3 is an open statement.",
+    "symbol": "\\(P(x)\\)"
+  },
+  {
+    "id": "g10-negation",
+    "term": "negation",
+    "vi": "mệnh đề phủ định",
+    "category": "Mệnh đề và tập hợp",
+    "example": "Write the negation of the statement.",
+    "symbol": "\\(\\overline{P}\\)"
+  },
+  {
+    "id": "g10-implication",
+    "term": "implication",
+    "vi": "mệnh đề kéo theo",
+    "category": "Mệnh đề và tập hợp",
+    "example": "If P, then Q is an implication.",
+    "symbol": "\\(P\\Rightarrow Q\\)"
+  },
+  {
+    "id": "g10-hypothesis",
+    "term": "hypothesis",
+    "vi": "giả thiết",
+    "category": "Mệnh đề và tập hợp",
+    "example": "P is the hypothesis."
+  },
+  {
+    "id": "g10-conclusion",
+    "term": "conclusion",
+    "vi": "kết luận",
+    "category": "Mệnh đề và tập hợp",
+    "example": "Q is the conclusion."
+  },
+  {
+    "id": "g10-converse",
+    "term": "converse",
+    "vi": "mệnh đề đảo",
+    "category": "Mệnh đề và tập hợp",
+    "example": "State the converse of the implication.",
+    "symbol": "\\(Q\\Rightarrow P\\)"
+  },
+  {
+    "id": "g10-equivalence",
+    "term": "equivalence",
+    "vi": "mệnh đề tương đương",
+    "category": "Mệnh đề và tập hợp",
+    "example": "P if and only if Q.",
+    "symbol": "\\(P\\Leftrightarrow Q\\)"
+  },
+  {
+    "id": "g10-universal",
+    "term": "for all (universal quantifier)",
+    "vi": "với mọi (kí hiệu ∀)",
+    "category": "Mệnh đề và tập hợp",
+    "example": "For all real numbers x, x squared is not negative.",
+    "symbol": "\\(\\forall\\)"
+  },
+  {
+    "id": "g10-existential",
+    "term": "there exists (existential quantifier)",
+    "vi": "tồn tại (kí hiệu ∃)",
+    "category": "Mệnh đề và tập hợp",
+    "example": "There exists a real number x such that x + 1 = 3.",
+    "symbol": "\\(\\exists\\)"
+  },
+  {
+    "id": "g10-counterexample",
+    "term": "counterexample",
+    "vi": "phản ví dụ",
+    "category": "Mệnh đề và tập hợp",
+    "example": "Give a counterexample."
+  },
+  {
+    "id": "g10-necessary-sufficient",
+    "term": "necessary and sufficient condition",
+    "vi": "điều kiện cần và đủ",
+    "category": "Mệnh đề và tập hợp",
+    "example": "P is a necessary and sufficient condition for Q."
+  },
+  {
+    "id": "g10-ineq2",
+    "term": "linear inequality in two variables",
+    "vi": "bất phương trình bậc nhất hai ẩn",
+    "category": "Bất phương trình bậc nhất hai ẩn",
+    "example": "ax + by ≤ c is a linear inequality in two variables.",
+    "symbol": "\\(ax+by\\le c\\)"
+  },
+  {
+    "id": "g10-solution-pair",
+    "term": "solution (ordered pair)",
+    "vi": "nghiệm (cặp số)",
+    "category": "Bất phương trình bậc nhất hai ẩn",
+    "example": "(1; 2) is a solution of the inequality.",
+    "symbol": "\\((x_0;y_0)\\)"
+  },
+  {
+    "id": "g10-boundary",
+    "term": "boundary line",
+    "vi": "đường thẳng biên",
+    "category": "Bất phương trình bậc nhất hai ẩn",
+    "example": "The boundary line is ax + by = c."
+  },
+  {
+    "id": "g10-half-plane",
+    "term": "half-plane",
+    "vi": "nửa mặt phẳng",
+    "category": "Bất phương trình bậc nhất hai ẩn",
+    "example": "The solution region is a half-plane."
+  },
+  {
+    "id": "g10-solution-region",
+    "term": "solution region",
+    "vi": "miền nghiệm",
+    "category": "Bất phương trình bậc nhất hai ẩn",
+    "example": "Shade the solution region."
+  },
+  {
+    "id": "g10-system-ineq",
+    "term": "system of inequalities",
+    "vi": "hệ bất phương trình",
+    "category": "Bất phương trình bậc nhất hai ẩn",
+    "example": "Solve the system of inequalities."
+  },
+  {
+    "id": "g10-test-point",
+    "term": "test point",
+    "vi": "điểm kiểm tra",
+    "category": "Bất phương trình bậc nhất hai ẩn",
+    "example": "Use (0; 0) as a test point."
+  },
+  {
+    "id": "g10-constraint",
+    "term": "constraint",
+    "vi": "ràng buộc",
+    "category": "Bất phương trình bậc nhất hai ẩn",
+    "example": "Each constraint gives one inequality."
+  },
+  {
+    "id": "q-sys",
+    "term": "system of inequalities",
+    "vi": "hệ bất phương trình bậc nhất hai ẩn",
+    "category": "Hệ bất phương trình bậc nhất hai ẩn",
+    "example": "The system has three inequalities."
+  },
+  {
+    "id": "q-sysol",
+    "term": "solution of a system",
+    "vi": "nghiệm của hệ",
+    "category": "Hệ bất phương trình bậc nhất hai ẩn",
+    "example": "(1; 1) is a solution of the system."
+  },
+  {
+    "id": "q-vertex",
+    "term": "vertex of the region",
+    "vi": "đỉnh của miền nghiệm",
+    "category": "Hệ bất phương trình bậc nhất hai ẩn",
+    "example": "Find the vertices of the region."
+  },
+  {
+    "id": "q-objective",
+    "term": "objective function",
+    "vi": "biểu thức mục tiêu",
+    "category": "Hệ bất phương trình bậc nhất hai ẩn",
+    "example": "Maximise the objective function."
+  },
+  {
+    "id": "q-maxim",
+    "term": "maximum / minimum",
+    "vi": "giá trị lớn nhất / nhỏ nhất",
+    "category": "Hệ bất phương trình bậc nhất hai ẩn",
+    "example": "Find the maximum value of F."
+  },
+  {
+    "id": "q-bounded",
+    "term": "bounded region",
+    "vi": "miền bị chặn",
+    "category": "Hệ bất phương trình bậc nhất hai ẩn",
+    "example": "The region is bounded."
+  },
+  {
+    "id": "q-semicircle",
+    "term": "unit semicircle",
+    "vi": "nửa đường tròn đơn vị",
+    "category": "Giá trị lượng giác của góc từ 0° đến 180°",
+    "example": "Draw a point on the unit semicircle."
+  },
+  {
+    "id": "q-sine",
+    "term": "sine",
+    "vi": "sin (sin của góc)",
+    "category": "Giá trị lượng giác của góc từ 0° đến 180°",
+    "example": "The sine of 30 degrees is one half.",
+    "symbol": "\\(\\sin\\alpha\\)"
+  },
+  {
+    "id": "q-cosine",
+    "term": "cosine",
+    "vi": "cos (cos của góc)",
+    "category": "Giá trị lượng giác của góc từ 0° đến 180°",
+    "example": "The cosine of 60 degrees is one half.",
+    "symbol": "\\(\\cos\\alpha\\)"
+  },
+  {
+    "id": "q-tangent",
+    "term": "tangent",
+    "vi": "tan (tang của góc)",
+    "category": "Giá trị lượng giác của góc từ 0° đến 180°",
+    "example": "The tangent of 45 degrees is 1.",
+    "symbol": "\\(\\tan\\alpha\\)"
+  },
+  {
+    "id": "q-cotangent",
+    "term": "cotangent",
+    "vi": "cot (cotang của góc)",
+    "category": "Giá trị lượng giác của góc từ 0° đến 180°",
+    "example": "The cotangent of 45 degrees is 1.",
+    "symbol": "\\(\\cot\\alpha\\)"
+  },
+  {
+    "id": "q-suppl",
+    "term": "supplementary angles",
+    "vi": "hai góc bù nhau",
+    "category": "Giá trị lượng giác của góc từ 0° đến 180°",
+    "example": "30 and 150 degrees are supplementary angles."
+  },
+  {
+    "id": "q-obtuse",
+    "term": "obtuse angle",
+    "vi": "góc tù",
+    "category": "Giá trị lượng giác của góc từ 0° đến 180°",
+    "example": "120 degrees is an obtuse angle."
+  },
+  {
+    "id": "q-identity",
+    "term": "identity",
+    "vi": "đẳng thức (hệ thức)",
+    "category": "Giá trị lượng giác của góc từ 0° đến 180°",
+    "example": "Use the identity sin squared plus cos squared equals 1."
+  },
+  {
+    "id": "q-lawcos",
+    "term": "law of cosines",
+    "vi": "định lí cô-sin",
+    "category": "Hệ thức lượng trong tam giác",
+    "example": "Use the law of cosines to find the third side.",
+    "symbol": "\\(a^2=b^2+c^2-2bc\\cos A\\)"
+  },
+  {
+    "id": "q-lawsin",
+    "term": "law of sines",
+    "vi": "định lí sin",
+    "category": "Hệ thức lượng trong tam giác",
+    "example": "Use the law of sines to find an angle.",
+    "symbol": "\\(\\dfrac{a}{\\sin A}=2R\\)"
+  },
+  {
+    "id": "q-circumradius",
+    "term": "circumradius",
+    "vi": "bán kính đường tròn ngoại tiếp",
+    "category": "Hệ thức lượng trong tam giác",
+    "example": "Find the circumradius of the triangle.",
+    "symbol": "\\(R\\)"
+  },
+  {
+    "id": "q-inradius",
+    "term": "inradius",
+    "vi": "bán kính đường tròn nội tiếp",
+    "category": "Hệ thức lượng trong tam giác",
+    "example": "The inradius is \\(r=S/p\\).",
+    "symbol": "\\(r\\)"
+  },
+  {
+    "id": "q-semiperim",
+    "term": "semi-perimeter",
+    "vi": "nửa chu vi",
+    "category": "Hệ thức lượng trong tam giác",
+    "example": "First find the semi-perimeter.",
+    "symbol": "\\(p\\)"
+  },
+  {
+    "id": "q-heron",
+    "term": "Heron's formula",
+    "vi": "công thức Heron",
+    "category": "Hệ thức lượng trong tam giác",
+    "example": "Use Heron's formula for the area."
+  },
+  {
+    "id": "q-area",
+    "term": "area of a triangle",
+    "vi": "diện tích tam giác",
+    "category": "Hệ thức lượng trong tam giác",
+    "example": "Find the area of the triangle.",
+    "symbol": "\\(S\\)"
+  },
+  {
+    "id": "q-solvetri",
+    "term": "solve a triangle",
+    "vi": "giải tam giác",
+    "category": "Hệ thức lượng trong tam giác",
+    "example": "Solve the triangle ABC."
+  },
+  {
+    "id": "q-ap",
+    "term": "arithmetic sequence",
+    "vi": "cấp số cộng",
+    "category": "Cấp số cộng",
+    "example": "The sequence 2, 5, 8, 11 is an arithmetic sequence.",
+    "symbol": "\\(u_{n+1}=u_n+d\\)"
+  },
+  {
+    "id": "q-cd",
+    "term": "common difference",
+    "vi": "công sai",
+    "category": "Cấp số cộng",
+    "example": "The common difference is 3.",
+    "symbol": "\\(d\\)"
+  },
+  {
+    "id": "q-sumn",
+    "term": "sum of the first n terms",
+    "vi": "tổng n số hạng đầu",
+    "category": "Cấp số cộng",
+    "example": "Find the sum of the first 10 terms.",
+    "symbol": "\\(S_n\\)"
+  },
+  {
+    "id": "q-consec",
+    "term": "consecutive terms",
+    "vi": "các số hạng liên tiếp",
+    "category": "Cấp số cộng",
+    "example": "Three consecutive terms."
+  },
+  {
+    "id": "q-gp",
+    "term": "geometric sequence",
+    "vi": "cấp số nhân",
+    "category": "Cấp số nhân",
+    "example": "The sequence 3, 6, 12, 24 is a geometric sequence.",
+    "symbol": "\\(u_{n+1}=u_nq\\)"
+  },
+  {
+    "id": "q-cr",
+    "term": "common ratio",
+    "vi": "công bội",
+    "category": "Cấp số nhân",
+    "example": "The common ratio is 2.",
+    "symbol": "\\(q\\)"
+  },
+  {
+    "id": "q-compound",
+    "term": "compound interest",
+    "vi": "lãi kép",
+    "category": "Cấp số nhân",
+    "example": "Compound interest of 8 percent per year.",
+    "symbol": "\\(A=P(1+r)^n\\)"
+  },
+  {
+    "id": "q-growth",
+    "term": "growth rate",
+    "vi": "tỉ lệ tăng trưởng",
+    "category": "Cấp số nhân",
+    "example": "The growth rate is 5 percent per year.",
+    "symbol": "\\(r\\)"
+  },
+  {
+    "id": "q-ratio",
+    "term": "ratio",
+    "vi": "tỉ số",
+    "category": "Cấp số nhân",
+    "example": "The ratio of two consecutive terms."
+  },
+  {
+    "id": "q-grouped",
+    "term": "grouped data",
+    "vi": "mẫu số liệu ghép nhóm",
+    "category": "Mẫu số liệu ghép nhóm",
+    "example": "The grouped data show students’ heights."
+  },
+  {
+    "id": "q-group",
+    "term": "group (class)",
+    "vi": "nhóm số liệu",
+    "category": "Mẫu số liệu ghép nhóm",
+    "example": "The first group is \\([0;10)\\).",
+    "symbol": "\\([a;b)\\)"
+  },
+  {
+    "id": "q-freq",
+    "term": "frequency",
+    "vi": "tần số",
+    "category": "Mẫu số liệu ghép nhóm",
+    "example": "The frequency of this group is 7.",
+    "symbol": "\\(n_i\\)"
+  },
+  {
+    "id": "q-relfreq",
+    "term": "relative frequency",
+    "vi": "tần suất",
+    "category": "Mẫu số liệu ghép nhóm",
+    "example": "The relative frequency is 25 percent.",
+    "symbol": "\\(f_i\\)"
+  },
+  {
+    "id": "q-freqtable",
+    "term": "frequency table",
+    "vi": "bảng tần số",
+    "category": "Mẫu số liệu ghép nhóm",
+    "example": "Make a frequency table."
+  },
+  {
+    "id": "q-midpoint",
+    "term": "midpoint (representative value)",
+    "vi": "giá trị đại diện",
+    "category": "Mẫu số liệu ghép nhóm",
+    "example": "The midpoint of [10; 20) is 15.",
+    "symbol": "\\(x_i\\)"
+  },
+  {
+    "id": "q-cumul",
+    "term": "cumulative frequency",
+    "vi": "tần số tích lũy",
+    "category": "Mẫu số liệu ghép nhóm",
+    "example": "Write the cumulative frequency."
+  },
+  {
+    "id": "q-histogram",
+    "term": "histogram",
+    "vi": "biểu đồ cột (biểu đồ tần số)",
+    "category": "Mẫu số liệu ghép nhóm",
+    "example": "Read the histogram."
+  },
+  {
+    "id": "q-sample",
+    "term": "sample size",
+    "vi": "cỡ mẫu",
+    "category": "Mẫu số liệu ghép nhóm",
+    "example": "The sample size is 40.",
+    "symbol": "\\(n\\)"
+  },
+  {
+    "id": "q-optim",
+    "term": "optimization problem",
+    "vi": "bài toán tối ưu",
+    "category": "Ứng dụng đạo hàm để giải quyết một số vấn đề thực tiễn",
+    "example": "This is an optimization problem."
+  },
+  {
+    "id": "q-constraint",
+    "term": "constraint",
+    "vi": "điều kiện ràng buộc",
+    "category": "Ứng dụng đạo hàm để giải quyết một số vấn đề thực tiễn",
+    "example": "The fence has a fixed length."
+  },
+  {
+    "id": "q-domain",
+    "term": "domain",
+    "vi": "tập xác định (miền của biến)",
+    "category": "Ứng dụng đạo hàm để giải quyết một số vấn đề thực tiễn",
+    "example": "Here \\(0\\lt x\\lt 10\\)."
+  },
+  {
+    "id": "q-fence",
+    "term": "fence",
+    "vi": "hàng rào",
+    "category": "Ứng dụng đạo hàm để giải quyết một số vấn đề thực tiễn",
+    "example": "We have 40 m of fence."
+  },
+  {
+    "id": "q-objfn",
+    "term": "objective function",
+    "vi": "hàm mục tiêu",
+    "category": "Ứng dụng đạo hàm để giải quyết một số vấn đề thực tiễn",
+    "example": "The area is the objective function.",
+    "symbol": "\\(f(x)\\)"
+  },
+  {
+    "id": "q-vecsp",
+    "term": "vector in space",
+    "vi": "vectơ trong không gian",
+    "category": "Vectơ và các phép toán trong không gian",
+    "example": "The vector \\(\\overrightarrow{AB}\\) goes from \\(A\\) to \\(B\\).",
+    "symbol": "\\(\\overrightarrow{AB}\\)"
+  },
+  {
+    "id": "q-magn",
+    "term": "magnitude (length)",
+    "vi": "độ dài của vectơ",
+    "category": "Vectơ và các phép toán trong không gian",
+    "example": "The length of \\(\\overrightarrow{AB}\\) is \\(|\\overrightarrow{AB}|\\).",
+    "symbol": "\\(|\\vec a|\\)"
+  },
+  {
+    "id": "q-eqvec",
+    "term": "equal vectors",
+    "vi": "hai vectơ bằng nhau",
+    "category": "Vectơ và các phép toán trong không gian",
+    "example": "In a cube, \\(\\overrightarrow{AB}=\\overrightarrow{DC}\\)."
+  },
+  {
+    "id": "q-oppvec",
+    "term": "opposite vectors",
+    "vi": "hai vectơ đối nhau",
+    "category": "Vectơ và các phép toán trong không gian",
+    "example": "\\(\\overrightarrow{BA}\\) is opposite to \\(\\overrightarrow{AB}\\).",
+    "symbol": "\\(-\\vec a\\)"
+  },
+  {
+    "id": "q-vsum",
+    "term": "sum of vectors",
+    "vi": "tổng của hai vectơ",
+    "category": "Vectơ và các phép toán trong không gian",
+    "example": "\\(\\overrightarrow{AB}+\\overrightarrow{BC}=\\overrightarrow{AC}\\)."
+  },
+  {
+    "id": "q-parlg",
+    "term": "parallelepiped rule",
+    "vi": "quy tắc hình hộp",
+    "category": "Vectơ và các phép toán trong không gian",
+    "example": "\\(\\overrightarrow{AB}+\\overrightarrow{AD}+\\overrightarrow{AA′}=\\overrightarrow{AC′}\\)."
+  },
+  {
+    "id": "q-dotp",
+    "term": "dot product",
+    "vi": "tích vô hướng của hai vectơ",
+    "category": "Vectơ và các phép toán trong không gian",
+    "example": "The dot product is 0.",
+    "symbol": "\\(\\vec a\\cdot\\vec b\\)"
+  },
+  {
+    "id": "q-angvec",
+    "term": "angle between vectors",
+    "vi": "góc giữa hai vectơ",
+    "category": "Vectơ và các phép toán trong không gian",
+    "example": "The angle is \\(60^\\circ\\).",
+    "symbol": "\\((\\vec a,\\vec b)\\)"
+  },
+  {
+    "id": "q-vec2",
+    "term": "vector",
+    "vi": "vectơ",
+    "category": "Các khái niệm mở đầu về vectơ",
+    "example": "The vector \\(\\overrightarrow{AB}\\) starts at \\(A\\).",
+    "symbol": "\\(\\overrightarrow{AB}\\)"
+  },
+  {
+    "id": "q-zerov",
+    "term": "zero vector",
+    "vi": "vectơ-không",
+    "category": "Các khái niệm mở đầu về vectơ",
+    "example": "\\(\\overrightarrow{AA}=\\vec0\\).",
+    "symbol": "\\(\\vec0\\)"
+  },
+  {
+    "id": "q-dirv",
+    "term": "direction",
+    "vi": "hướng của vectơ",
+    "category": "Các khái niệm mở đầu về vectơ",
+    "example": "The two vectors have the same direction."
+  },
+  {
+    "id": "q-collin",
+    "term": "collinear vectors",
+    "vi": "cùng phương",
+    "category": "Các khái niệm mở đầu về vectơ",
+    "example": "\\(\\overrightarrow{AB}\\) and \\(\\overrightarrow{CD}\\) are collinear."
+  },
+  {
+    "id": "q-samedir",
+    "term": "same direction",
+    "vi": "cùng hướng",
+    "category": "Các khái niệm mở đầu về vectơ",
+    "example": "They have the same direction."
+  },
+  {
+    "id": "q-oppdir",
+    "term": "opposite directions",
+    "vi": "ngược hướng",
+    "category": "Các khái niệm mở đầu về vectơ",
+    "example": "They have opposite directions."
+  },
+  {
+    "id": "q-opp2",
+    "term": "opposite vector",
+    "vi": "vectơ đối",
+    "category": "Các khái niệm mở đầu về vectơ",
+    "example": "\\(\\overrightarrow{BA}\\) is opposite to \\(\\overrightarrow{AB}\\).",
+    "symbol": "\\(-\\vec a\\)"
+  },
+  {
+    "id": "q-eqv2",
+    "term": "equal vectors",
+    "vi": "vectơ bằng nhau",
+    "category": "Các khái niệm mở đầu về vectơ",
+    "example": "\\(\\overrightarrow{AB}=\\overrightarrow{DC}\\).",
+    "symbol": "\\(\\vec a=\\vec b\\)"
+  },
+  {
+    "id": "q-tri",
+    "term": "triangle rule",
+    "vi": "quy tắc ba điểm",
+    "category": "Tổng và hiệu của hai vectơ",
+    "example": "Use the triangle rule."
+  },
+  {
+    "id": "q-pgm",
+    "term": "parallelogram rule",
+    "vi": "quy tắc hình bình hành",
+    "category": "Tổng và hiệu của hai vectơ",
+    "example": "Use the parallelogram rule."
+  },
+  {
+    "id": "q-diff2",
+    "term": "difference of two vectors",
+    "vi": "hiệu của hai vectơ",
+    "category": "Tổng và hiệu của hai vectơ",
+    "example": "Find the difference.",
+    "symbol": "\\(\\vec a-\\vec b\\)"
+  },
+  {
+    "id": "q-resultant",
+    "term": "resultant force",
+    "vi": "hợp lực",
+    "category": "Tổng và hiệu của hai vectơ",
+    "example": "Find the resultant force."
+  },
+  {
+    "id": "q-midp",
+    "term": "midpoint",
+    "vi": "trung điểm",
+    "category": "Tổng và hiệu của hai vectơ",
+    "example": "\\(I\\) is the midpoint of \\(AB\\)."
+  },
+  {
+    "id": "q-scal",
+    "term": "scalar multiple",
+    "vi": "tích của vectơ với một số",
+    "category": "Tích của một vectơ với một số",
+    "example": "Find \\(3\\vec a\\).",
+    "symbol": "\\(k\\vec a\\)"
+  },
+  {
+    "id": "q-scalar",
+    "term": "scalar (a real number)",
+    "vi": "số thực (vô hướng)",
+    "category": "Tích của một vectơ với một số",
+    "example": "The scalar is 3.",
+    "symbol": "\\(k\\)"
+  },
+  {
+    "id": "q-collin3",
+    "term": "collinear points",
+    "vi": "ba điểm thẳng hàng",
+    "category": "Tích của một vectơ với một số",
+    "example": "Prove that \\(A,B,C\\) are collinear."
+  },
+  {
+    "id": "q-centroid",
+    "term": "centroid",
+    "vi": "trọng tâm",
+    "category": "Tích của một vectơ với một số",
+    "example": "\\(G\\) is the centroid of triangle \\(ABC\\).",
+    "symbol": "\\(G\\)"
+  },
+  {
+    "id": "q-median",
+    "term": "median",
+    "vi": "trung tuyến",
+    "category": "Tích của một vectơ với một số",
+    "example": "\\(AM\\) is a median."
+  },
+  {
+    "id": "q-express",
+    "term": "express in terms of",
+    "vi": "biểu diễn theo",
+    "category": "Tích của một vectơ với một số",
+    "example": "Express \\(\\overrightarrow{AG}\\) in terms of \\(\\overrightarrow{AB}\\), \\(\\overrightarrow{AC}\\)."
+  },
+  {
+    "id": "q-gmean",
+    "term": "mean",
+    "vi": "số trung bình",
+    "category": "Các số đặc trưng đo xu thế trung tâm của mẫu số liệu ghép nhóm",
+    "example": "The mean is 20.5.",
+    "symbol": "\\(\\bar x\\)"
+  },
+  {
+    "id": "q-gmed",
+    "term": "median",
+    "vi": "trung vị",
+    "category": "Các số đặc trưng đo xu thế trung tâm của mẫu số liệu ghép nhóm",
+    "example": "The median is in the group \\([20;30)\\).",
+    "symbol": "\\(M_e\\)"
+  },
+  {
+    "id": "q-gmode",
+    "term": "mode",
+    "vi": "mốt",
+    "category": "Các số đặc trưng đo xu thế trung tâm của mẫu số liệu ghép nhóm",
+    "example": "The modal group is \\([30;40)\\).",
+    "symbol": "\\(M_o\\)"
+  },
+  {
+    "id": "q-modalg",
+    "term": "modal group",
+    "vi": "nhóm chứa mốt",
+    "category": "Các số đặc trưng đo xu thế trung tâm của mẫu số liệu ghép nhóm",
+    "example": "Find the modal group first."
+  },
+  {
+    "id": "q-medg",
+    "term": "median group",
+    "vi": "nhóm chứa trung vị",
+    "category": "Các số đặc trưng đo xu thế trung tâm của mẫu số liệu ghép nhóm",
+    "example": "Which group is the median group?"
+  },
+  {
+    "id": "q-central",
+    "term": "measure of central tendency",
+    "vi": "số đặc trưng đo xu thế trung tâm",
+    "category": "Các số đặc trưng đo xu thế trung tâm của mẫu số liệu ghép nhóm",
+    "example": "The mean is a measure of central tendency."
+  },
+  {
+    "id": "q-compare",
+    "term": "compare",
+    "vi": "so sánh",
+    "category": "Các số đặc trưng đo xu thế trung tâm của mẫu số liệu ghép nhóm",
+    "example": "Compare the two classes."
+  },
+  {
+    "id": "q-copl",
+    "term": "coplanar",
+    "vi": "đồng phẳng",
+    "category": "Đường thẳng và mặt phẳng trong không gian",
+    "example": "Four coplanar points."
+  },
+  {
+    "id": "q-lieson",
+    "term": "lies in",
+    "vi": "nằm trong",
+    "category": "Đường thẳng và mặt phẳng trong không gian",
+    "example": "The line lies in the plane.",
+    "symbol": "\\(a\\subset(P)\\)"
+  },
+  {
+    "id": "q-inters",
+    "term": "line of intersection",
+    "vi": "giao tuyến",
+    "category": "Đường thẳng và mặt phẳng trong không gian",
+    "example": "Find the line of intersection of \\((SAC)\\) and \\((SBD)\\)."
+  },
+  {
+    "id": "q-tetra",
+    "term": "tetrahedron",
+    "vi": "tứ diện",
+    "category": "Đường thẳng và mặt phẳng trong không gian",
+    "example": "Tetrahedron \\(ABCD\\)."
+  },
+  {
+    "id": "q-section",
+    "term": "cross-section",
+    "vi": "thiết diện",
+    "category": "Đường thẳng và mặt phẳng trong không gian",
+    "example": "Find the cross-section."
+  },
+  {
+    "id": "q-parl",
+    "term": "parallel lines",
+    "vi": "hai đường thẳng song song",
+    "category": "Hai đường thẳng song song",
+    "example": "\\(AB\\parallel CD\\).",
+    "symbol": "\\(a\\parallel b\\)"
+  },
+  {
+    "id": "q-midline",
+    "term": "midline of a triangle",
+    "vi": "đường trung bình của tam giác",
+    "category": "Hai đường thẳng song song",
+    "example": "\\(MN\\) is a midline."
+  },
+  {
+    "id": "q-trans",
+    "term": "transitive property",
+    "vi": "tính chất bắc cầu",
+    "category": "Hai đường thẳng song song",
+    "example": "Use the transitive property."
+  },
+  {
+    "id": "q-prove",
+    "term": "prove",
+    "vi": "chứng minh",
+    "category": "Hai đường thẳng song song",
+    "example": "Prove that \\(MN\\parallel CD\\)."
+  },
+  {
+    "id": "q-prlgm",
+    "term": "parallelogram",
+    "vi": "hình bình hành",
+    "category": "Hai đường thẳng song song",
+    "example": "\\(MNPQ\\) is a parallelogram."
+  },
+  {
+    "id": "q-oxyz",
+    "term": "coordinate system Oxyz",
+    "vi": "hệ trục tọa độ Oxyz",
+    "category": "Hệ trục tọa độ trong không gian",
+    "example": "The point \\(M(1;2;3)\\) in the system \\(Oxyz\\).",
+    "symbol": "\\(Oxyz\\)"
+  },
+  {
+    "id": "q-pcoord",
+    "term": "coordinates of a point",
+    "vi": "tọa độ của điểm",
+    "category": "Hệ trục tọa độ trong không gian",
+    "example": "The coordinates of \\(M\\) are \\((1;2;3)\\).",
+    "symbol": "\\(M(x;y;z)\\)"
+  },
+  {
+    "id": "q-vcoord",
+    "term": "coordinates of a vector",
+    "vi": "tọa độ của vectơ",
+    "category": "Hệ trục tọa độ trong không gian",
+    "example": "\\(\\overrightarrow{AB}=(2;0;-1)\\).",
+    "symbol": "\\(\\vec a=(x;y;z)\\)"
+  },
+  {
+    "id": "q-orig",
+    "term": "origin",
+    "vi": "gốc tọa độ",
+    "category": "Hệ trục tọa độ trong không gian",
+    "example": "The origin is \\(O(0;0;0)\\).",
+    "symbol": "\\(O\\)"
+  },
+  {
+    "id": "q-proj",
+    "term": "projection",
+    "vi": "hình chiếu vuông góc",
+    "category": "Hệ trục tọa độ trong không gian",
+    "example": "The projection of \\(M(1;2;3)\\) onto \\((Oxy)\\) is \\((1;2;0)\\)."
+  },
+  {
+    "id": "q-symm",
+    "term": "symmetric point",
+    "vi": "điểm đối xứng",
+    "category": "Hệ trục tọa độ trong không gian",
+    "example": "The point symmetric to \\(M\\) about \\(O\\)."
+  },
+  {
+    "id": "q-cvsum",
+    "term": "sum and difference by coordinates",
+    "vi": "tổng và hiệu theo tọa độ",
+    "category": "Biểu thức tọa độ của các phép toán vectơ",
+    "example": "\\((1;2;3)+(0;1;1)=(1;3;4)\\)."
+  },
+  {
+    "id": "q-cscal",
+    "term": "scalar multiple",
+    "vi": "tích của một số với một vectơ",
+    "category": "Biểu thức tọa độ của các phép toán vectơ",
+    "example": "\\(2(1;2;3)=(2;4;6)\\).",
+    "symbol": "\\(k\\vec a\\)"
+  },
+  {
+    "id": "q-cdot",
+    "term": "dot product by coordinates",
+    "vi": "biểu thức tọa độ của tích vô hướng",
+    "category": "Biểu thức tọa độ của các phép toán vectơ",
+    "example": "\\((1;2;3)\\cdot(2;0;1)=5\\)."
+  },
+  {
+    "id": "q-clen",
+    "term": "length of a vector",
+    "vi": "độ dài của vectơ (tọa độ)",
+    "category": "Biểu thức tọa độ của các phép toán vectơ",
+    "example": "\\(|(2;3;6)|=7\\).",
+    "symbol": "\\(|\\vec a|\\)"
+  },
+  {
+    "id": "q-cang",
+    "term": "angle between two vectors",
+    "vi": "góc giữa hai vectơ bằng tọa độ",
+    "category": "Biểu thức tọa độ của các phép toán vectơ",
+    "example": "The cosine is \\(\\frac12\\), so the angle is \\(60^\\circ\\)."
+  },
+  {
+    "id": "q-cperp",
+    "term": "perpendicular vectors",
+    "vi": "hai vectơ vuông góc",
+    "category": "Biểu thức tọa độ của các phép toán vectơ",
+    "example": "\\((1;2;2)\\perp(2;-2;1)\\).",
+    "symbol": "\\(\\vec a\\perp\\vec b\\)"
+  },
+  {
+    "id": "q-ccol",
+    "term": "collinear vectors",
+    "vi": "hai vectơ cùng phương",
+    "category": "Biểu thức tọa độ của các phép toán vectơ",
+    "example": "\\((1;2;3)\\) and \\((2;4;6)\\) are collinear."
+  },
+  {
+    "id": "q-range",
+    "term": "range",
+    "vi": "khoảng biến thiên",
+    "category": "Khoảng biến thiên và khoảng tứ phân vị",
+    "example": "The range is \\(R=40-0=40\\).",
+    "symbol": "\\(R\\)"
+  },
+  {
+    "id": "q-quart",
+    "term": "quartile",
+    "vi": "tứ phân vị",
+    "category": "Khoảng biến thiên và khoảng tứ phân vị",
+    "example": "\\(Q_2\\) is the median.",
+    "symbol": "\\(Q_1,Q_2,Q_3\\)"
+  },
+  {
+    "id": "q-iqr",
+    "term": "interquartile range",
+    "vi": "khoảng tứ phân vị",
+    "category": "Khoảng biến thiên và khoảng tứ phân vị",
+    "example": "The interquartile range is 15.",
+    "symbol": "\\(\\Delta_Q\\)"
+  },
+  {
+    "id": "q-disp",
+    "term": "dispersion (spread)",
+    "vi": "độ phân tán",
+    "category": "Khoảng biến thiên và khoảng tứ phân vị",
+    "example": "A larger range means a larger spread."
   }
 ]

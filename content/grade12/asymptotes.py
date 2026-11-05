@@ -3,6 +3,8 @@
 import os, sys
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..', 'tools'))
 from mb_std import *
+from mb_selfpractice import SELF
+import sp_g12
 
 # ---- Bài tập riêng từng mức: Mức 1 giữ bộ cũ; Mức 2 và Mức 3 là bộ mới, cùng dạng, khác số liệu ----
 # Chuỗi 'tiếng Anh§tiếng Việt'; nếu không có § thì dùng chung cho cả hai ngôn ngữ.
@@ -111,6 +113,12 @@ f3 = lambda x: (x * x - 3 * x + 1) / (x - 2)
 theory += FIG(svg_graph(f3, (-3, 7), (-6, 7), vlines=[2], lines=[(1, -1, 'y = x - 1')]),
           'The graph of \\(y=\\dfrac{x^2-3x+1}{x-2}\\) with \\(x=2\\) and the oblique asymptote \\(y=x-1\\).', 'Đồ thị của \\(y=\\dfrac{x^2-3x+1}{x-2}\\) với \\(x=2\\) và tiệm cận xiên \\(y=x-1\\).',
           'Graph of y = (x^2-3x+1)/(x-2) with vertical asymptote x = 2 and oblique asymptote y = x - 1', '')
+theory += GRAPH({'view': [-3.5, 9, -6, 9], 'functions': [{'f': '(2x+1)/(x-3)', 'label': 'y = (2x+1)/(x−3)'}], 'asymptotes': [{'type': 'v', 'x': 3}, {'type': 'h', 'y': 2}]},
+  cap=('Interactive graph of y = (2x+1)/(x−3): the dashed lines x = 3 and y = 2 are the asymptotes. Drag or zoom to see the curve get closer to them.', 'Đồ thị tương tác của y = (2x+1)/(x−3): hai đường nét đứt x = 3 và y = 2 là các tiệm cận. Kéo hoặc phóng to để thấy đường cong tiến sát chúng.'),
+  alt=('Graph of a rational function with a vertical and a horizontal asymptote', ''), height=340)
+theory += GRAPH({'view': [-3, 8, -7, 8], 'functions': [{'f': '(x^2-3x+1)/(x-2)', 'label': 'y = (x²−3x+1)/(x−2)'}], 'asymptotes': [{'type': 'v', 'x': 2}, {'type': 'oblique', 'm': 1, 'b': -1}]},
+  cap=('Interactive graph with the vertical asymptote x = 2 and the oblique asymptote y = x − 1.', 'Đồ thị tương tác với tiệm cận đứng x = 2 và tiệm cận xiên y = x − 1.'),
+  alt=('Graph of a rational function with an oblique asymptote', ''), height=340)
 examples = ''
 examples += EXAMPLE(1, ('Basic', 'Cơ bản'), ('One vertical and one horizontal asymptote', 'Một tiệm cận đứng và một tiệm cận ngang'),
     T('Find all asymptotes of the graph of \\(f(x)=\\dfrac{2x+1}{x-3}\\).', 'Tìm tất cả các đường tiệm cận của đồ thị hàm số \\(f(x)=\\dfrac{2x+1}{x-3}\\).'),
@@ -241,10 +249,14 @@ checks = [
     ('I understand the English instructions in this lesson.', 'Em hiểu các yêu cầu bằng tiếng Anh trong bài này.'),
 ]
 
+_SP = SELF(sp_g12.M3, start=11, avoid=[t[1] for t in practice])
+_L = chr(ord(practice[-1][0][0][0]) + 1)
 lesson(id=LID, title_en='Asymptotes of Graphs', title_vi='Đường tiệm cận của đồ thị hàm số', topic=(CAT, 'Ứng dụng đạo hàm'),
+       catalog_title_vi='Đường tiệm cận của đồ thị hàm số', description_vi='Bài 3 – Tìm tiệm cận đứng, tiệm cận ngang và tiệm cận xiên bằng giới hạn; phân biệt tiệm cận với điểm hổng.',
+       tags_vi=['tiệm cận đứng', 'tiệm cận ngang', 'tiệm cận xiên', 'giới hạn', 'hàm phân thức'],
        folder='derivative-applications', file='asymptotes-of-graphs',
        meta=meta, goals=goals, vocab=vocab, phrases=phrases, review=review, theory=theory, examples=examples,
-       practice=practice, mistakes=mistakes, summary=summary, checks=checks,
+       practice=practice + [(('%s. Self-practice: Multiple Choice' % _L, '%s. Tự luyện: trắc nghiệm' % _L), _SP[lv], [lv]) for lv in (1, 2, 3)], mistakes=mistakes, summary=summary, checks=checks,
        description='Find vertical, horizontal and oblique asymptotes of graphs of functions.', level='Intermediate', minutes=40,
        prerequisites=[], tags=['asymptote', 'vertical asymptote', 'horizontal asymptote', 'oblique asymptote', 'rational function', 'limits'],
-       order=10)
+       order=30)

@@ -126,3 +126,5 @@ h4.cat{margin:14px 0 8px;color:var(--muted);font-size:15px}
 .gchip:hover i{color:#fff}
 .gchip.soon{background:rgba(255,255,255,.55);font-weight:500}
 @media (max-width:620px){.hero-art svg{width:100%;opacity:.16}.stage-art{width:70px}.home-art svg{opacity:.1}}
+
+.card.locked{opacity:.62;filter:grayscale(.35);cursor:not-allowed;border-style:dashed}.chip.lock{background:#fff3cd;color:#7a5b00;border-color:#e6c45a;font-weight:600}

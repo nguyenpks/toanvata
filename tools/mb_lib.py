@@ -42,6 +42,21 @@ def terms(vi):
         return '<b class="mbl-term" tabindex="0" data-en="%s">%s</b>' % (_vocab[k], shown)
     return re.sub(r'\[\[(.+?)\]\]', rep, vi)
 
+_AUTO = {}
+def autoterms(html):
+    """Bọc tự động thuật ngữ trong vocab.json (từ 2 âm tiết trở lên) ở phần tiếng Việt của câu hỏi để Mức 1 có hover.
+    Bỏ qua công thức, thẻ HTML và thuật ngữ đã bọc."""
+    if _AUTO.get('n') != len(_vocab):
+        ks = sorted((k for k in _vocab if ' ' in k or len(k) >= 6), key=len, reverse=True)
+        _AUTO['n'] = len(_vocab); _AUTO['re'] = re.compile(r'(?<!\w)(' + '|'.join(re.escape(k) for k in ks) + r')(?!\w)', re.I) if ks else None
+    rx = _AUTO['re']
+    if not rx: return html
+    def rep(m):
+        k = m.group(1).lower(); _used_terms[k] = _vocab[k]
+        return '<b class="mbl-term" tabindex="0" data-en="%s">%s</b>' % (_vocab[k], m.group(1))
+    parts = re.split(r'(<b class="mbl-term".*?</b>|\\\(.*?\\\)|\\\[.*?\\\]|<[^>]*>)', html, flags=re.S)
+    return ''.join(x if i % 2 else rx.sub(rep, x) for i, x in enumerate(parts))
+
 def plain(en):
     if '[[' in en: raise ValueError('Không dùng [[ ]] trong tiếng Anh: ' + en)
     return en
@@ -98,9 +113,9 @@ def say_text(en):
     x = re.sub(r'\s+([,.;:?!])', r'\1', re.sub(r'\s+', ' ', x)).strip()
     return x.replace('"', '&quot;')
 
-def T(en, vi, tag='p'):
+def T(en, vi, tag='p', auto=False):
     """Khối văn bản: Mức 1 = vi; Mức 2 = en + nút dịch + nút nghe; Mức 3 = en + nút nghe."""
-    return '<div class="tx"><%s class="en" data-say="%s">%s</%s>%s%s<%s class="vi">%s</%s></div>' % (tag, say_text(plain(en)), plain(en), tag, SAY, BTN, tag, terms(vi), tag)
+    return '<div class="tx"><%s class="en" data-say="%s">%s</%s>%s%s<%s class="vi">%s</%s></div>' % (tag, say_text(plain(en)), plain(en), tag, SAY, BTN, tag, autoterms(terms(vi)) if auto else terms(vi), tag)
 
 def VOC(en, vi):
     """Mục từ vựng: từ in đậm tiếng Anh bấm để nghe."""
@@ -252,7 +267,7 @@ def MCQ(n, q, opts, ans, expl, raw=False):
     name = 'q%d' % _qid[0]
     o = ''.join('<label><input type="radio" name="%s" value="%s"><span>%s</span></label>' % (name, 'abcd'[i], t if raw else '\\(%s\\)' % t) for i, t in enumerate(opts))
     return ('<div class="mbl-item" data-type="mcq" data-answer="%s"><div class="mbl-qtext"><b>%d.</b></div>%s<div class="mbl-opts">%s</div>%s'
-            '<div class="mbl-explain" hidden>%s</div></div>') % (ans, n, T(*q), o, _actions(), T(*expl))
+            '<div class="mbl-explain" hidden>%s</div></div>') % (ans, n, T(*q, auto=True), o, _actions(), T(*expl, auto=True))
 
 def TF(n, q, ans, expl):
     _qid[0] += 1
@@ -260,12 +275,12 @@ def TF(n, q, ans, expl):
     o = ('<label><input type="radio" name="%s" value="true"><span>%s</span></label>'
          '<label><input type="radio" name="%s" value="false"><span>%s</span></label>') % (name, TI('True', 'Đúng'), name, TI('False', 'Sai'))
     return ('<div class="mbl-item" data-type="tf" data-answer="%s"><div class="mbl-qtext"><b>%d.</b></div>%s<div class="mbl-opts tf">%s</div>%s'
-            '<div class="mbl-explain" hidden>%s</div></div>') % (ans, n, T(*q), o, _actions(), T(*expl))
+            '<div class="mbl-explain" hidden>%s</div></div>') % (ans, n, T(*q, auto=True), o, _actions(), T(*expl, auto=True))
 
 def SHORT(n, q, key, kind, hint, expl):
     return ('<div class="mbl-item" data-type="short" data-kind="%s" data-answer="%s"><div class="mbl-qtext"><b>%d.</b></div>%s%s'
             '<p><input class="mbl-input" type="text" inputmode="text" autocomplete="off" aria-label="Answer"></p>%s'
-            '<div class="mbl-explain" hidden>%s</div></div>') % (kind, key, n, T(*q), T(*hint), _actions(), T(*expl))
+            '<div class="mbl-explain" hidden>%s</div></div>') % (kind, key, n, T(*q, auto=True), T(*hint), _actions(), T(*expl, auto=True))
 
 def QUIZ(groups):
     s = '<div class="mbl-quiz"><p class="mbl-scorebar"><span class="mbl-score" aria-live="polite"></span></p>'

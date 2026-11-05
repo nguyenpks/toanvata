@@ -143,3 +143,11 @@ body[data-level="1"] .mbl-say,.no-tts .mbl-say{display:none!important}
 b.mbl-en{cursor:pointer;border-bottom:1px dotted var(--accent)}
 b.mbl-en::after{content:"\1F50A";font-size:.75em;margin-left:3px}
 body[data-level="1"] b.mbl-en,.no-tts b.mbl-en::after{cursor:inherit}
+
+/* Nút: chữ trắng, tương phản rõ trên nền xanh đậm (kể cả khi chưa chọn đáp án) */
+.mbl-btn,.mbl-btn *{color:#fff!important}.mbl-btn{background:#035a41}.mbl-btn:hover{background:#024632}.mbl-btn[disabled]{opacity:1;background:#4b6f62}.mbl-btn.ghost,.mbl-btn.ghost *{color:#05382a!important}.mbl-btn.ghost{background:#cfeee0;border:1px solid #035a41}
+
+/* Chống tràn ngang trên màn hình hẹp (360 px) */
+mjx-container[display="true"]{max-width:100%}
+mjx-container.mbl-wide-inline{display:block!important;max-width:100%;overflow-x:auto;overflow-y:hidden;margin:4px 0;-webkit-overflow-scrolling:touch}
+.mbl-box,.mbl-ex,.mbl-card{min-width:0}

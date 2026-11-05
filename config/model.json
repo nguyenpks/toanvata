@@ -14,7 +14,8 @@
       ],
       "color": "mint",
       "desc": "Làm quen số, phép tính và hình học đầu tiên, cùng những từ Toán tiếng Anh đơn giản.",
-      "hideSections": []
+      "hideSections": [],
+      "hidden": true
     },
     {
       "id": "thcs",
@@ -28,7 +29,8 @@
       ],
       "color": "blue",
       "desc": "Xây nền đại số, hình học và thống kê, chuẩn bị bước vào chương trình trung học phổ thông.",
-      "hideSections": []
+      "hideSections": [],
+      "hidden": true
     },
     {
       "id": "thpt",
@@ -255,5 +257,78 @@
       "Monotonicity and Extrema": "Tính đơn điệu và cực trị",
       "Antiderivatives": "Nguyên hàm"
     }
+  },
+  "lockedLessons": {
+    "_doc": "Bài tạm khóa: không thuộc danh mục SGK Kết nối tri thức (Toan_<lớp>_Ket_noi_tri_thuc.md) hoặc đã được gộp vào bài khác. Nội dung và file HTML vẫn giữ để tái sử dụng; app chỉ hiện thẻ 'Tạm khóa', không mở được và không tính vào tiến độ. Muốn mở lại: xóa id khỏi danh sách rồi chạy tools/build_all.py.",
+    "g10-algebra-01": "Không thuộc danh mục Toán 10 KNTT (nội dung đại số lớp 8–9)",
+    "g10-sets-02": "Đã gộp vào Bài 2 (g10-sets-01)",
+    "g11-functions-01": "Không thuộc danh mục Toán 11 KNTT",
+    "g12-mono-02": "Đã gộp vào Bài 1 (g12-mono-01)"
+  },
+  "lessonOrder": {
+    "_doc": "Thứ tự bài trong mỗi lớp theo danh mục SGK (số nhỏ đứng trước). Bài không có trong danh sách giữ order khai báo trong tệp nội dung.",
+    "g10-logic-01": 10,
+    "g10-sets-01": 20,
+    "g10-ineq2-01": 30,
+    "g12-mono-01": 10,
+    "g12-mono-03": 20,
+    "g12-deriv-app-01": 30,
+    "g12-deriv-app-02": 40,
+    "g12-antider-01": 110,
+    "g12-antider-02": 120,
+    "g10-ineq-sys-01": 40,
+    "g10-trig-01": 50,
+    "g10-trig-02": 60,
+    "g11-trigf-01": 10,
+    "g11-trigf-02": 30,
+    "g11-trigf-03": 20,
+    "g11-trige-01": 40,
+    "g11-sequences-01": 50,
+    "g11-sequences-02": 60,
+    "g11-sequences-03": 70,
+    "g11-stats-01": 80,
+    "g12-optim-01": 50,
+    "g12-vec-01": 60,
+    "g10-vec-01": 70,
+    "g10-vec-02": 80,
+    "g10-vec-03": 90,
+    "g11-stats-02": 100,
+    "g11-space-04": 110,
+    "g11-space-05": 120,
+    "g12-coord-01": 70,
+    "g12-coord-02": 80,
+    "g12-stats-01": 90
+  },
+  "lessonNo": {
+    "_doc": "Số bài theo SGK (Toan_<lớp>_Ket_noi_tri_thuc.md); app hiển thị 'Bài N.' trước tên bài.",
+    "g10-logic-01": 1,
+    "g10-sets-01": 2,
+    "g10-ineq2-01": 3,
+    "g12-mono-01": 1,
+    "g12-mono-03": 2,
+    "g12-deriv-app-01": 3,
+    "g12-deriv-app-02": 4,
+    "g10-ineq-sys-01": 4,
+    "g10-trig-01": 5,
+    "g10-trig-02": 6,
+    "g11-sequences-02": 6,
+    "g11-sequences-03": 7,
+    "g11-stats-01": 8,
+    "g12-optim-01": 5,
+    "g12-vec-01": 6,
+    "g11-trigf-01": 1,
+    "g11-trigf-03": 2,
+    "g11-trigf-02": 3,
+    "g11-trige-01": 4,
+    "g11-sequences-01": 5,
+    "g10-vec-01": 7,
+    "g10-vec-02": 8,
+    "g10-vec-03": 9,
+    "g11-stats-02": 9,
+    "g11-space-04": 10,
+    "g11-space-05": 11,
+    "g12-coord-01": 7,
+    "g12-coord-02": 8,
+    "g12-stats-01": 9
   }
 }

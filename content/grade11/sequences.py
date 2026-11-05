@@ -8,7 +8,7 @@ from fractions import Fraction as F
 
 LID = 'g11-sequences-01'
 CAT = 'Sequences'
-TOPIC = (CAT, 'Dãy số')
+TOPIC = (CAT, 'Dãy số. Cấp số cộng và cấp số nhân')
 CV = 'Dãy số'
 
 ensure_vocab([

@@ -4,16 +4,17 @@
   const $ = (s) => document.querySelector(s);
   /* Ba cấp học. Bài học khai báo grade là số từ 1 đến 12 trong lessons.json. */
   let STAGES = [
-    { id: 'th', name: 'Tiểu học', range: 'Lớp 1 – Lớp 5', grades: [1, 2, 3, 4, 5], color: 'mint',
+    { id: 'th', name: 'Tiểu học', range: 'Lớp 1 – Lớp 5', grades: [1, 2, 3, 4, 5], color: 'mint', hidden: true,
       desc: 'Làm quen số, phép tính và hình học đầu tiên, cùng những từ Toán tiếng Anh đơn giản.' },
-    { id: 'thcs', name: 'Trung học cơ sở', range: 'Lớp 6 – Lớp 9', grades: [6, 7, 8, 9], color: 'blue',
+    { id: 'thcs', name: 'Trung học cơ sở', range: 'Lớp 6 – Lớp 9', grades: [6, 7, 8, 9], color: 'blue', hidden: true,
       desc: 'Xây nền đại số, hình học và thống kê, chuẩn bị bước vào chương trình trung học phổ thông.' },
     { id: 'thpt', name: 'Trung học phổ thông', range: 'Lớp 10 – Lớp 12', grades: [10, 11, 12], color: 'lavender',
       desc: 'Hàm số, giải tích, vectơ, thống kê và xác suất, học song song tiếng Việt và tiếng Anh.' }
   ]; /* Bản dự phòng. Nguồn chính: "stages" trong config/model.json (nạp ở init). */
   let GRADES = [], COLOR = {};
   const stageOf = (g) => STAGES.find((st) => st.grades.indexOf(g) >= 0);
-  const applyStages = (arr) => { STAGES = arr; GRADES = STAGES.reduce((a, st) => a.concat(st.grades), []); COLOR = {}; GRADES.forEach((g) => { COLOR[g] = stageOf(g).color; }); };
+  const applyStages = (arr) => { STAGES = arr.filter((st) => !st.hidden);   /* cấp học có "hidden": true (tạm khóa) không hiện trên web */
+    GRADES = STAGES.reduce((a, st) => a.concat(st.grades), []); COLOR = {}; GRADES.forEach((g) => { COLOR[g] = stageOf(g).color; }); };
   applyStages(STAGES);
   const gradeOptions = (cur, all) => (all ? '<option value="">Tất cả</option>' : '') + STAGES.map((st) =>
     `<optgroup label="${st.name}">${st.grades.map((x) => `<option value="${x}"${x === cur ? ' selected' : ''}>Lớp ${x}</option>`).join('')}</optgroup>`).join('');
@@ -23,17 +24,18 @@
   const esc = (s) => String(s == null ? '' : s).replace(/[&<>"']/g, (c) =>
     ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
   const fmt = (iso) => { try { return new Date(iso).toLocaleString('vi-VN'); } catch (e) { return iso; } };
-  const byGrade = (g) => lessons.filter((l) => l.grade === g);
+  const live = () => lessons.filter((l) => !l.locked);   // bài tạm khóa không tính vào tiến độ, gợi ý, điều hướng
+  const byGrade = (g) => live().filter((l) => l.grade === g);
   const byId = (id) => lessons.find((l) => l.id === id);
 
   function stats(g) {
-    const list = Array.isArray(g) ? lessons.filter((l) => g.indexOf(l.grade) >= 0) : g ? byGrade(g) : lessons;
+    const list = Array.isArray(g) ? live().filter((l) => g.indexOf(l.grade) >= 0) : g ? byGrade(g) : live();
     const done = list.filter((l) => P.isComplete(l.id)).length;
     return { total: list.length, done, pct: list.length ? Math.round(done / list.length * 100) : 0 };
   }
   const bar = (p) => `<div class="bar" role="progressbar" aria-valuenow="${p}" aria-valuemin="0" aria-valuemax="100"><span style="width:${p}%"></span></div>`;
   const box = (t) => `<div class="empty">${t}</div>`;
-  const link = (id) => { const l = byId(id); return l ? `<a href="#/lesson/${encodeURIComponent(id)}">${esc(l.title)}</a>` : esc(id); };
+  const link = (id) => { const l = byId(id); return l && l.locked ? esc(ttl(l)) + ' (tạm khóa)' : l ? `<a href="#/lesson/${encodeURIComponent(id)}">${esc(ttl(l))}</a>` : esc(id); };
 
   function go(path, params) {
     const q = new URLSearchParams();
@@ -42,11 +44,16 @@
     location.hash = '#' + path + (s ? '?' + s : '');
   }
 
+  const ttl = (l) => (l.no ? 'Bài ' + l.no + '. ' : '') + l.title;   // số bài theo SGK
   function lessonCard(l) {
+    if (l.locked) return `<div class="card locked" aria-disabled="true">
+      <span class="chips"><span class="chip">Lớp ${l.grade}</span><span class="chip lock">Tạm khóa</span></span>
+      <h3>${esc(l.title)}</h3><p>${esc(l.lockNote || 'Bài này tạm thời chưa mở.')}</p>
+      <small>${esc(l.category)}</small></div>`;
     const done = P.isComplete(l.id);
     return `<a class="card ${COLOR[l.grade] || 'blue'}" href="#/lesson/${encodeURIComponent(l.id)}">
       <span class="chips"><span class="chip">Lớp ${l.grade}</span><span class="chip">${esc(LEVEL[l.level] || l.level)}</span>${done ? '<span class="chip ok">Đã hoàn thành</span>' : ''}</span>
-      <h3>${esc(l.title)}</h3><p>${esc(l.description)}</p>
+      <h3>${esc(ttl(l))}</h3><p>${esc(l.description)}</p>
       <small>${esc(l.category)} – ${esc(l.estimatedMinutes)} phút</small></a>`;
   }
   function vocabCard(v) {
@@ -56,13 +63,14 @@
   }
   function nextFor(g) {
     const todo = byGrade(g).filter((l) => !P.isComplete(l.id));
-    return todo.find((l) => (l.prerequisites || []).every(P.isComplete)) || todo[0] || null;
+    const ok = (id) => { const q = byId(id); return !q || q.locked || P.isComplete(id); };   // bài tiên quyết tạm khóa coi như đã đạt
+    return todo.find((l) => (l.prerequisites || []).every(ok)) || todo[0] || null;
   }
 
   /* ===== CÁC TRANG ===== */
   function home() {
     const A = window.MathBridgeArt || { back: '', hero: '', stage: {} };
-    const cards = STAGES.map((st) => { const sx = stats(st.grades), has = lessons.filter((l) => st.grades.indexOf(l.grade) >= 0).length;
+    const cards = STAGES.map((st) => { const sx = stats(st.grades), has = live().filter((l) => st.grades.indexOf(l.grade) >= 0).length;
       const chips = st.grades.map((g) => `<a class="gchip${byGrade(g).length ? '' : ' soon'}" href="#/courses?grade=${g}">Lớp ${g}${byGrade(g).length ? '' : ' <i>sắp có</i>'}</a>`).join('');
       return `<div class="card stage ${st.color}"><span class="stage-art">${A.stage[st.id] || ''}</span>
         <h3><a href="#/courses?stage=${st.id}">${st.name}</a></h3><p class="range">${st.range}</p><p>${st.desc}</p>
@@ -86,7 +94,7 @@
   function dashboard() {
     const d = P.get(); const g = GRADES.includes(d.grade) ? d.grade : 10; const s = stats(g);
     const recent = [], seen = {};
-    d.history.forEach((h) => { if (h.type === 'view' && !seen[h.id] && byId(h.id) && recent.length < 4) { seen[h.id] = 1; recent.push(byId(h.id)); } });
+    d.history.forEach((h) => { if (h.type === 'view' && !seen[h.id] && byId(h.id) && !byId(h.id).locked && recent.length < 4) { seen[h.id] = 1; recent.push(byId(h.id)); } });
     const nx = nextFor(g);
     return `<h1>Tổng quan học tập</h1>
     <label class="field">Khối lớp đang học
@@ -104,9 +112,9 @@
     const g = +p.get('grade') || 0, cat = p.get('category') || '', q = (p.get('q') || '').trim();
     const stg = g ? stageOf(g) : STAGES.find((st) => st.id === p.get('stage'));
     const inScope = (l) => (g ? l.grade === g : stg ? stg.grades.indexOf(l.grade) >= 0 : true);
-    const cats = [...new Set(lessons.filter(inScope).map((l) => l.category))].sort();
+    const cats = [...new Set(live().filter(inScope).map((l) => l.category))];
     const ql = q.toLowerCase();
-    const list = lessons.filter((l) => inScope(l) && (!cat || l.category === cat) &&
+    const list = live().filter((l) => inScope(l) && (!cat || l.category === cat) &&
       (!ql || [l.title, l.description, l.category, (l.tags || []).join(' ')].join(' ').toLowerCase().includes(ql)));
     let out = `<nav class="crumb" aria-label="Breadcrumb"><a href="#/">Trang chủ</a> / <span>Chương trình học</span></nav><h1>Chương trình học</h1>
     <form id="filterForm" class="filters">
@@ -115,7 +123,7 @@
       <label class="field">Khối lớp<select name="grade">${gradeOptions(g, true)}</select></label>
       <label class="field">Chủ đề<select name="category"><option value="">Tất cả</option>${cats.map((c) => `<option${c === cat ? ' selected' : ''}>${esc(c)}</option>`).join('')}</select></label>
       <button class="btn" type="submit">Lọc</button></form>`;
-    if (!lessons.length) return out + box('Chưa có bài học nào trong lessons.json.');
+    if (!live().length) return out + box('Chưa có bài học nào trong lessons.json.');
     if (!list.length) return out + box(!q && !cat && (g || stg) ? `${g ? 'Lớp ' + g : stg.name} đang được biên soạn, chưa có bài học. <a href="#/courses">Xem tất cả bài học</a>.` : 'Không tìm thấy bài học phù hợp. Hãy thử từ khóa khác hoặc bỏ bớt bộ lọc.');
     STAGES.forEach((st) => {
       const sl = list.filter((l) => st.grades.indexOf(l.grade) >= 0); if (!sl.length) return;
@@ -124,7 +132,7 @@
         const gl = sl.filter((l) => l.grade === x); if (!gl.length) return;
         out += `<h3 class="grade-h">Toán lớp ${x}</h3>`;
         [...new Set(gl.map((l) => l.category))].forEach((c) => {
-          out += `<h4 class="cat">${esc(c)}</h4><div class="grid">${gl.filter((l) => l.category === c).map(lessonCard).join('')}</div>`; });
+          out += `<h4 class="cat">${esc(c)}</h4><div class="grid">${gl.filter((l) => l.category === c).sort((x, y) => (x.locked ? 1 : 0) - (y.locked ? 1 : 0)).map(lessonCard).join('')}</div>`; });
       });
     });
     return out;
@@ -132,12 +140,14 @@
 
   function lessonView(id) {
     const l = byId(id);
-    if (!l) return `<h1>Không tìm thấy bài học</h1>${box(`Không có bài học "${esc(id)}". <a href="#/courses">Quay lại chương trình học</a>.`)}`;
+    if (!l || l.locked) return `<h1>Không tìm thấy bài học</h1>${box(`Không có bài học "${esc(id)}". <a href="#/courses">Quay lại chương trình học</a>.`)}`;
+    if (l.locked) return `<nav class="crumb"><a href="#/">Trang chủ</a> / <a href="#/courses?grade=${l.grade}">Lớp ${l.grade}</a></nav><h1>${esc(l.title)}</h1>${box(`Bài này đang <b>tạm khóa</b>: ${esc(l.lockNote || '')}. <a href="#/courses?grade=${l.grade}">Quay lại danh sách bài</a>.`)}`;
     currentId = id;
     const sib = byGrade(l.grade), i = sib.indexOf(l), prev = sib[i - 1], next = sib[i + 1];
-    const pre = (l.prerequisites || []).length ? `<p><b>Cần học trước:</b> ${l.prerequisites.map(link).join(', ')}</p>` : '';
+    const preL = (l.prerequisites || []).filter((id) => { const q = byId(id); return q && !q.locked; });
+    const pre = preL.length ? `<p><b>Cần học trước:</b> ${preL.map(link).join(', ')}</p>` : '';
     return `<nav class="crumb" aria-label="Breadcrumb"><a href="#/">Trang chủ</a> / <a href="#/courses">Chương trình học</a> / <a href="#/courses?grade=${l.grade}">Lớp ${l.grade}</a> / <a href="#/courses?grade=${l.grade}&category=${encodeURIComponent(l.category)}">${esc(l.category)}</a></nav>
-    <h1>${esc(l.title)}</h1><p>${esc(l.description)}</p>
+    <h1>${esc(ttl(l))}</h1><p>${esc(l.description)}</p>
     <p class="chips"><span class="chip">${esc(LEVEL[l.level] || l.level)}</span><span class="chip">${esc(l.estimatedMinutes)} phút</span>${(l.tags || []).map((t) => `<span class="chip">${esc(t)}</span>`).join('')}</p>${pre}
     <div id="frameWrap"><iframe id="lessonFrame" src="${esc(l.path)}" title="${esc(l.title)}"></iframe></div>
     <div id="completeBox" class="row"></div>

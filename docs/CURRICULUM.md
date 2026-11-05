@@ -17,9 +17,9 @@
 
 | # | Topic – Chủ đề | Mã bài | Bài học | Trạng thái |
 |---|---|---|---|---|
-| 1 | Sets and Intervals – Tập hợp và khoảng | `g10-sets-01` | Sets and Intervals | BUILT (v2) |
-| 1 | Sets and Intervals – Tập hợp và khoảng | `g10-sets-02` | Counting with Venn Diagrams | BUILT (v2) |
-| 2 | Algebraic Expressions – Biểu thức đại số | `g10-algebra-01` | Introduction to Algebra | BUILT (v2) |
+| 2 | Mệnh đề và tập hợp – Bài 2 | `g10-sets-01` | Sets and Operations on Sets (gộp cả khoảng và đếm bằng biểu đồ Venn) | BUILT (v3, Bài 2 KNTT) |
+| – | (đã gộp vào Bài 2) | `g10-sets-02` | Counting with Venn Diagrams | LOCKED (tạm khóa; nội dung đã gộp vào `g10-sets-01`) |
+| – | Algebraic Expressions | `g10-algebra-01` | Introduction to Algebra | LOCKED (ngoài danh mục Toán 10 KNTT) |
 | 2 | Algebraic Expressions – Biểu thức đại số | `g10-algebra-02` | Expanding and Factoring | PLANNED |
 | 2 | Algebraic Expressions – Biểu thức đại số | `g10-algebra-03` | Rational Expressions | PLANNED |
 | 3 | Equations and Inequalities – Phương trình và bất phương trình | `g10-equations-01` | Linear Equations | PLANNED |
@@ -79,11 +79,11 @@
 
 | # | Topic – Chủ đề | Mã bài | Bài học | Trạng thái |
 |---|---|---|---|---|
-| 1 | Applications of Derivatives – Ứng dụng đạo hàm | `g12-deriv-app-01` | Asymptotes of Graphs | BUILT |
+| 3 | Đường tiệm cận | `g12-deriv-app-01` | Asymptotes of Graphs (Bài 3 KNTT) | BUILT (v2) |
 | 1 | Applications of Derivatives – Ứng dụng đạo hàm | `g12-deriv-app-02` | Sketching Graphs of Functions | BUILT |
-| 2 | Monotonicity and Extrema – Tính đơn điệu và cực trị | `g12-mono-01` | Monotonicity of Functions | BUILT |
-| 2 | Monotonicity and Extrema – Tính đơn điệu và cực trị | `g12-mono-02` | Local Extrema | BUILT |
-| 2 | Monotonicity and Extrema – Tính đơn điệu và cực trị | `g12-mono-03` | Maximum and Minimum Values | BUILT |
+| 1 | Tính đơn điệu và cực trị | `g12-mono-01` | Monotonicity and Extrema of Functions (Bài 1 KNTT, gộp mono-01 + mono-02) | BUILT (v2) |
+| – | (đã gộp vào Bài 1) | `g12-mono-02` | Local Extrema | LOCKED (tạm khóa) |
+| 2 | GTLN – GTNN | `g12-mono-03` | Maximum and Minimum Values (Bài 2 KNTT) | BUILT (v2) |
 | 3 | Antiderivatives – Nguyên hàm | `g12-antider-01` | Antiderivatives | BUILT |
 | 3 | Antiderivatives – Nguyên hàm | `g12-antider-02` | Techniques of Finding Antiderivatives | BUILT |
 | 4 | Integrals – Tích phân | `g12-integrals-01` | Definite Integrals | PLANNED |
@@ -187,3 +187,59 @@ lessons/grade12/statistics/variance-and-standard-deviation.html
 lessons/grade12/probability/conditional-probability.html
 lessons/grade12/probability/total-probability-and-bayes-formula.html
 ```
+
+
+## Đợt soạn lớp 10 và lớp 12 theo danh mục SGK Kết nối tri thức (đợt 4)
+
+Căn cứ: `Toan_10_Ket_noi_tri_thuc.md`, `Toan_12_Ket_noi_tri_thuc.md`. Soạn trước 3 bài mỗi khối.
+
+| Khối | Bài (SGK) | Mã bài | Ghi chú |
+|---|---|---|---|
+| 10 | Bài 1. Mệnh đề | `g10-logic-01` | Mới; nhóm D = 8 câu trắc nghiệm tự luyện |
+| 10 | Bài 2. Tập hợp và các phép toán trên tập hợp | `g10-sets-01` | Gộp `g10-sets-02` (Venn); nhóm F = 8 câu tự luyện |
+| 10 | Bài 3. Bất phương trình bậc nhất hai ẩn | `g10-ineq2-01` | Mới; 3 hình miền nghiệm (JSXGraph); nhóm D tự luyện |
+| 12 | Bài 1. Tính đơn điệu và cực trị | `g12-mono-01` | Gộp mono-01 + mono-02; thêm 3 đồ thị tương tác; nhóm G tự luyện |
+| 12 | Bài 2. GTLN – GTNN | `g12-mono-03` | Nhóm D tự luyện |
+| 12 | Bài 3. Đường tiệm cận | `g12-deriv-app-01` | Thêm 2 đồ thị; tự luyện câu 11–18 |
+
+**Cơ chế tạm khóa.** `config/model.json` có `lockedLessons` (mã bài → lý do) và `lessonOrder` (thứ tự theo SGK). Bài bị khóa vẫn còn trong thư mục, hiện thẻ mờ “Tạm khóa”, không mở được, không tính vào thống kê; bài khác coi tiên quyết bị khóa là đã thỏa. Danh sách khóa: `g10-algebra-01`, `g10-sets-02`, `g11-functions-01`, `g12-mono-02`. Bài nào dùng lại được thì gộp (như trên) thay vì xóa.
+
+**Trắc nghiệm tự luyện.** `tools/mb_selfpractice.py` (hàm `SELF`) cùng `tools/sp_g10.py`, `tools/sp_g12.py` sinh 8 câu/mức/bài, số liệu theo hạt giống cố định, đáp án tính bằng máy (phân số chính xác hoặc duyệt số), không trùng đề với bài tập sẵn có và không trùng giữa các mức.
+
+## Đợt 5 – 9 bài mới (lớp 10, 11, 12) và ẩn Tiểu học/THCS
+
+Thứ tự và số bài theo `Toan_<lớp>_Ket_noi_tri_thuc.md` (`lessonOrder`, `lessonNo` trong `config/model.json`). Mỗi bài có 3 mức học, mỗi mức 15 câu (A trắc nghiệm, B đúng/sai, C trả lời ngắn, D tự luyện 8 câu trắc nghiệm).
+
+| Lớp | Bài | Mã bài | Tên bài |
+|---|---|---|---|
+| 10 | 4 | `g10-ineq-sys-01` | Hệ bất phương trình bậc nhất hai ẩn |
+| 10 | 5 | `g10-trig-01` | Giá trị lượng giác của một góc từ 0° đến 180° |
+| 10 | 6 | `g10-trig-02` | Hệ thức lượng trong tam giác |
+| 11 | 6 | `g11-sequences-02` | Cấp số cộng |
+| 11 | 7 | `g11-sequences-03` | Cấp số nhân |
+| 11 | 8 | `g11-stats-01` | Mẫu số liệu ghép nhóm |
+| 12 | 4 | `g12-deriv-app-02` | Khảo sát và vẽ đồ thị hàm số (thêm 8 câu tự luyện) |
+| 12 | 5 | `g12-optim-01` | Ứng dụng đạo hàm để giải quyết một số vấn đề thực tiễn |
+| 12 | 6 | `g12-vec-01` | Vectơ và các phép toán trong không gian |
+
+Lớp 11 Bài 1–5 đã được đánh số: `g11-trigf-01`=1, `g11-trigf-03` (công thức lượng giác)=2, `g11-trigf-02` (hàm số lượng giác)=3, `g11-trige-01`=4, `g11-sequences-01`=5. Các bài lớp 11 cũ chưa soạn lại (`limits-02`, `derivatives-01`, `exp-02`, `space-02`, `space-03`) giữ nguyên, chưa đánh số, xếp sau các bài đã đánh số.
+
+**Ẩn cấp học.** Trong `config/model.json`, cấp `th` (Tiểu học) và `thcs` (THCS) có `"hidden": true`; `js/app.js` (`applyStages`) bỏ các cấp này nên không hiện ở trang chủ, bộ lọc, tìm kiếm và thống kê. Muốn mở lại: xóa `hidden` ở cả `config/model.json` và bản dự phòng `STAGES` trong `js/app.js`.
+
+Mã nguồn bài tự luyện: `tools/sp_g10b.py`, `tools/sp_g11.py`, `tools/sp_g12.py`; công cụ chung `tools/mb_quick.py`, `tools/trigval.py`.
+
+## Đợt 6 — 9 bài mới (3 bài mỗi khối, theo thứ tự SGK Kết nối tri thức)
+
+| Lớp | Bài | Mã bài | Nội dung |
+|---|---|---|---|
+| 10 | 7 | g10-vec-01 | Các khái niệm mở đầu về vectơ |
+| 10 | 8 | g10-vec-02 | Tổng và hiệu của hai vectơ |
+| 10 | 9 | g10-vec-03 | Tích của một vectơ với một số |
+| 11 | 9 | g11-stats-02 | Các số đặc trưng đo xu thế trung tâm (số liệu ghép nhóm) |
+| 11 | 10 | g11-space-04 | Đường thẳng và mặt phẳng trong không gian |
+| 11 | 11 | g11-space-05 | Hai đường thẳng song song |
+| 12 | 7 | g12-coord-01 | Hệ trục tọa độ trong không gian |
+| 12 | 8 | g12-coord-02 | Biểu thức tọa độ của các phép toán vectơ |
+| 12 | 9 | g12-stats-01 | Khoảng biến thiên, khoảng tứ phân vị |
+
+Mỗi bài có 15 câu/mức (7 câu bài + 8 câu tự luyện trắc nghiệm). Sinh câu tự luyện: `tools/sp_g10c.py`, `sp_g11b.py`, `sp_g11c.py`, `sp_g12b.py`; số liệu ghép nhóm: `tools/gdata.py`.

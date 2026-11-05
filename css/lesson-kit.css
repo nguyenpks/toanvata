@@ -115,3 +115,6 @@ body:not([data-level="1"]) abbr.mbl-term{text-decoration:none;cursor:inherit;col
 .mbl-panel:not([hidden]),.mbl-fb,.mbl-result,.mbl-explain{animation:mblfade .32s var(--ease,ease) both}
 @keyframes mblfade{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:none}}
 @media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}}
+
+/* Nút: chữ trắng, tương phản rõ trên nền xanh đậm (kể cả khi chưa chọn đáp án) */
+.mbl-btn,.mbl-btn *{color:#fff!important}.mbl-btn{background:#035a41}.mbl-btn:hover{background:#024632}.mbl-btn[disabled]{opacity:1;background:#4b6f62}.mbl-btn.ghost,.mbl-btn.ghost *{color:#05382a!important}.mbl-btn.ghost{background:#cfeee0;border:1px solid #035a41}

@@ -1,20 +1,23 @@
 [
   {
-    "id": "g10-sets-01",
+    "id": "g10-logic-01",
     "grade": 10,
-    "category": "Tập hợp và khoảng",
-    "title": "Tập hợp và khoảng",
-    "description": "Học ký hiệu tập hợp, các phép toán trên tập hợp và cách viết khoảng, đoạn, nửa khoảng, kèm thuật ngữ tiếng Anh.",
+    "category": "Mệnh đề và tập hợp",
+    "title": "Mệnh đề",
+    "description": "Bài 1 – Mệnh đề, mệnh đề phủ định, mệnh đề kéo theo, mệnh đề tương đương, kí hiệu ∀ và ∃.",
     "level": "Beginner",
-    "estimatedMinutes": 45,
+    "estimatedMinutes": 50,
     "prerequisites": [],
-    "path": "lessons/grade10/sets-and-intervals/sets-and-intervals.html",
+    "path": "lessons/grade10/propositions-and-sets/propositions.html",
     "tags": [
-      "tập hợp",
-      "khoảng",
-      "biểu đồ Venn",
-      "từ vựng"
-    ]
+      "mệnh đề",
+      "phủ định",
+      "kéo theo",
+      "tương đương",
+      "với mọi",
+      "tồn tại"
+    ],
+    "no": 1
   },
   {
     "id": "g10-sets-02",
@@ -33,7 +36,33 @@
       "đếm",
       "hợp",
       "giao"
-    ]
+    ],
+    "locked": true,
+    "lockNote": "Đã gộp vào Bài 2 (g10-sets-01)"
+  },
+  {
+    "id": "g10-sets-01",
+    "grade": 10,
+    "category": "Mệnh đề và tập hợp",
+    "title": "Tập hợp và các phép toán trên tập hợp",
+    "description": "Bài 2 – Tập hợp, tập con, hợp, giao, hiệu, phần bù; các tập hợp số (khoảng, đoạn, nửa khoảng) và bài toán đếm bằng biểu đồ Venn.",
+    "level": "Beginner",
+    "estimatedMinutes": 70,
+    "prerequisites": [
+      "g10-logic-01"
+    ],
+    "path": "lessons/grade10/sets-and-intervals/sets-and-intervals.html",
+    "tags": [
+      "tập hợp",
+      "tập con",
+      "hợp",
+      "giao",
+      "hiệu",
+      "phần bù",
+      "khoảng",
+      "biểu đồ Venn"
+    ],
+    "no": 2
   },
   {
     "id": "g10-algebra-01",
@@ -50,7 +79,148 @@
       "biểu thức",
       "hạng tử đồng dạng",
       "từ vựng"
-    ]
+    ],
+    "locked": true,
+    "lockNote": "Không thuộc danh mục Toán 10 KNTT (nội dung đại số lớp 8–9)"
+  },
+  {
+    "id": "g10-ineq2-01",
+    "grade": 10,
+    "category": "Bất phương trình bậc nhất hai ẩn",
+    "title": "Bất phương trình bậc nhất hai ẩn",
+    "description": "Bài 3 – Nghiệm và miền nghiệm của bất phương trình bậc nhất hai ẩn, hệ bất phương trình và bài toán thực tế.",
+    "level": "Intermediate",
+    "estimatedMinutes": 60,
+    "prerequisites": [
+      "g10-logic-01"
+    ],
+    "path": "lessons/grade10/propositions-and-sets/linear-inequalities-two-variables.html",
+    "tags": [
+      "bất phương trình",
+      "hai ẩn",
+      "miền nghiệm",
+      "hệ bất phương trình",
+      "nửa mặt phẳng"
+    ],
+    "no": 3
+  },
+  {
+    "id": "g10-ineq-sys-01",
+    "grade": 10,
+    "category": "Bất phương trình bậc nhất hai ẩn",
+    "title": "Hệ bất phương trình bậc nhất hai ẩn",
+    "description": "Bài 4 – Hệ bất phương trình bậc nhất hai ẩn: miền nghiệm, đỉnh của miền và bài toán tối ưu đơn giản.",
+    "level": "Intermediate",
+    "estimatedMinutes": 60,
+    "prerequisites": [
+      "g10-ineq2-01"
+    ],
+    "path": "lessons/grade10/propositions-and-sets/linear-inequality-systems.html",
+    "tags": [
+      "hệ bất phương trình",
+      "miền nghiệm",
+      "đỉnh",
+      "tối ưu"
+    ],
+    "no": 4
+  },
+  {
+    "id": "g10-trig-01",
+    "grade": 10,
+    "category": "Hệ thức lượng trong tam giác",
+    "title": "Giá trị lượng giác của một góc từ 0° đến 180°",
+    "description": "Bài 5 – Giá trị lượng giác của góc từ 0° đến 180°, giá trị đặc biệt, hai góc bù nhau và các hệ thức cơ bản.",
+    "level": "Intermediate",
+    "estimatedMinutes": 70,
+    "prerequisites": [],
+    "path": "lessons/grade10/trigonometry/trig-ratios-0-180.html",
+    "tags": [
+      "sin",
+      "cos",
+      "tan",
+      "cot",
+      "góc tù",
+      "hai góc bù nhau"
+    ],
+    "no": 5
+  },
+  {
+    "id": "g10-trig-02",
+    "grade": 10,
+    "category": "Hệ thức lượng trong tam giác",
+    "title": "Hệ thức lượng trong tam giác",
+    "description": "Bài 6 – Định lí cô-sin, định lí sin, công thức tính diện tích, giải tam giác và bài toán đo đạc.",
+    "level": "Intermediate",
+    "estimatedMinutes": 70,
+    "prerequisites": [
+      "g10-trig-01"
+    ],
+    "path": "lessons/grade10/trigonometry/triangle-relations.html",
+    "tags": [
+      "định lí sin",
+      "định lí cô-sin",
+      "diện tích tam giác",
+      "Heron",
+      "giải tam giác"
+    ],
+    "no": 6
+  },
+  {
+    "id": "g10-vec-01",
+    "grade": 10,
+    "category": "Vectơ",
+    "title": "Các khái niệm mở đầu về vectơ",
+    "description": "Bài 7 – Vectơ: điểm đầu, điểm cuối, hướng, độ dài, cùng phương, bằng nhau, vectơ đối.",
+    "level": "Beginner",
+    "estimatedMinutes": 45,
+    "prerequisites": [],
+    "path": "lessons/grade10/vectors/vector-concepts.html",
+    "tags": [
+      "vectơ",
+      "cùng phương",
+      "vectơ bằng nhau",
+      "độ dài"
+    ],
+    "no": 7
+  },
+  {
+    "id": "g10-vec-02",
+    "grade": 10,
+    "category": "Vectơ",
+    "title": "Tổng và hiệu của hai vectơ",
+    "description": "Bài 8 – Cộng, trừ hai vectơ: quy tắc ba điểm, quy tắc hình bình hành, hợp lực, chứng minh đẳng thức vectơ.",
+    "level": "Intermediate",
+    "estimatedMinutes": 55,
+    "prerequisites": [
+      "g10-vec-01"
+    ],
+    "path": "lessons/grade10/vectors/vector-sum-difference.html",
+    "tags": [
+      "tổng vectơ",
+      "hiệu vectơ",
+      "quy tắc ba điểm",
+      "hợp lực"
+    ],
+    "no": 8
+  },
+  {
+    "id": "g10-vec-03",
+    "grade": 10,
+    "category": "Vectơ",
+    "title": "Tích của một vectơ với một số",
+    "description": "Bài 9 – Tích của vectơ với một số: độ dài, hướng, trung điểm, trọng tâm, ba điểm thẳng hàng.",
+    "level": "Intermediate",
+    "estimatedMinutes": 60,
+    "prerequisites": [
+      "g10-vec-02"
+    ],
+    "path": "lessons/grade10/vectors/vector-scalar-multiple.html",
+    "tags": [
+      "tích vectơ với số",
+      "trọng tâm",
+      "ba điểm thẳng hàng"
+    ],
+    "no": 9
   },
   {
     "id": "g11-functions-01",
@@ -70,7 +240,9 @@
       "đồng biến",
       "nghịch biến",
       "tiệm cận"
-    ]
+    ],
+    "locked": true,
+    "lockNote": "Không thuộc danh mục Toán 11 KNTT"
   },
   {
     "id": "g11-trigf-01",
@@ -93,7 +265,8 @@
       "tan",
       "cot",
       "độ dài cung"
-    ]
+    ],
+    "no": 1
   },
   {
     "id": "g11-trigf-03",
@@ -115,7 +288,8 @@
       "tổng thành tích",
       "rút gọn",
       "chứng minh đẳng thức"
-    ]
+    ],
+    "no": 2
   },
   {
     "id": "g11-trigf-02",
@@ -140,49 +314,8 @@
       "đồng biến",
       "nghịch biến",
       "thủy triều"
-    ]
-  },
-  {
-    "id": "g11-trige-01",
-    "grade": 11,
-    "category": "Phương trình lượng giác",
-    "title": "Phương trình lượng giác cơ bản",
-    "description": "Bài 4 – Giải phương trình sin x = m, cos x = m, tan x = m, cot x = m; họ nghiệm và nghiệm trong một khoảng.",
-    "level": "Intermediate",
-    "estimatedMinutes": 65,
-    "prerequisites": [
-      "g11-trigf-02"
     ],
-    "path": "lessons/grade11/trigonometric-equations/basic-trigonometric-equations.html",
-    "tags": [
-      "phương trình lượng giác",
-      "họ nghiệm",
-      "nghiệm trong khoảng",
-      "sin x = m",
-      "cos x = m",
-      "tan x = m"
-    ]
-  },
-  {
-    "id": "g11-sequences-01",
-    "grade": 11,
-    "category": "Dãy số",
-    "title": "Dãy số",
-    "description": "Bài 5 – Dãy số: cho bằng công thức, truy hồi; dãy số tăng, giảm; dãy số bị chặn.",
-    "level": "Intermediate",
-    "estimatedMinutes": 60,
-    "prerequisites": [
-      "g11-functions-01"
-    ],
-    "path": "lessons/grade11/sequences/sequences.html",
-    "tags": [
-      "dãy số",
-      "số hạng tổng quát",
-      "công thức truy hồi",
-      "dãy số tăng",
-      "dãy số giảm",
-      "dãy số bị chặn"
-    ]
+    "no": 3
   },
   {
     "id": "g11-limits-02",
@@ -205,6 +338,28 @@
     ]
   },
   {
+    "id": "g11-trige-01",
+    "grade": 11,
+    "category": "Phương trình lượng giác",
+    "title": "Phương trình lượng giác cơ bản",
+    "description": "Bài 4 – Giải phương trình sin x = m, cos x = m, tan x = m, cot x = m; họ nghiệm và nghiệm trong một khoảng.",
+    "level": "Intermediate",
+    "estimatedMinutes": 65,
+    "prerequisites": [
+      "g11-trigf-02"
+    ],
+    "path": "lessons/grade11/trigonometric-equations/basic-trigonometric-equations.html",
+    "tags": [
+      "phương trình lượng giác",
+      "họ nghiệm",
+      "nghiệm trong khoảng",
+      "sin x = m",
+      "cos x = m",
+      "tan x = m"
+    ],
+    "no": 4
+  },
+  {
     "id": "g11-derivatives-01",
     "grade": 11,
     "category": "Đạo hàm",
@@ -223,6 +378,48 @@
       "định nghĩa",
       "cát tuyến"
     ]
+  },
+  {
+    "id": "g11-sequences-01",
+    "grade": 11,
+    "category": "Dãy số. Cấp số cộng và cấp số nhân",
+    "title": "Dãy số",
+    "description": "Bài 5 – Dãy số: cho bằng công thức, truy hồi; dãy số tăng, giảm; dãy số bị chặn.",
+    "level": "Intermediate",
+    "estimatedMinutes": 60,
+    "prerequisites": [
+      "g11-functions-01"
+    ],
+    "path": "lessons/grade11/sequences/sequences.html",
+    "tags": [
+      "dãy số",
+      "số hạng tổng quát",
+      "công thức truy hồi",
+      "dãy số tăng",
+      "dãy số giảm",
+      "dãy số bị chặn"
+    ],
+    "no": 5
+  },
+  {
+    "id": "g11-sequences-02",
+    "grade": 11,
+    "category": "Dãy số. Cấp số cộng và cấp số nhân",
+    "title": "Cấp số cộng",
+    "description": "Bài 6 – Cấp số cộng: công sai, số hạng tổng quát, tổng n số hạng đầu và bài toán tăng đều.",
+    "level": "Intermediate",
+    "estimatedMinutes": 60,
+    "prerequisites": [
+      "g11-sequences-01"
+    ],
+    "path": "lessons/grade11/sequences/arithmetic-progressions.html",
+    "tags": [
+      "cấp số cộng",
+      "công sai",
+      "số hạng tổng quát",
+      "tổng"
+    ],
+    "no": 6
   },
   {
     "id": "g11-exp-02",
@@ -246,6 +443,26 @@
     ]
   },
   {
+    "id": "g11-sequences-03",
+    "grade": 11,
+    "category": "Dãy số. Cấp số cộng và cấp số nhân",
+    "title": "Cấp số nhân",
+    "description": "Bài 7 – Cấp số nhân: công bội, số hạng tổng quát, tổng n số hạng đầu, lãi kép và tăng trưởng.",
+    "level": "Intermediate",
+    "estimatedMinutes": 60,
+    "prerequisites": [
+      "g11-sequences-02"
+    ],
+    "path": "lessons/grade11/sequences/geometric-progressions.html",
+    "tags": [
+      "cấp số nhân",
+      "công bội",
+      "lãi kép",
+      "tăng trưởng"
+    ],
+    "no": 7
+  },
+  {
     "id": "g11-space-02",
     "grade": 11,
     "category": "Đường thẳng và mặt phẳng trong không gian",
@@ -263,6 +480,24 @@
       "hình lập phương",
       "đường trung bình"
     ]
+  },
+  {
+    "id": "g11-stats-01",
+    "grade": 11,
+    "category": "Các số đặc trưng của mẫu số liệu ghép nhóm",
+    "title": "Mẫu số liệu ghép nhóm",
+    "description": "Bài 8 – Mẫu số liệu ghép nhóm: nhóm, tần số, tần suất, tần số tích lũy, giá trị đại diện, biểu đồ cột.",
+    "level": "Beginner",
+    "estimatedMinutes": 50,
+    "prerequisites": [],
+    "path": "lessons/grade11/statistics/grouped-data.html",
+    "tags": [
+      "số liệu ghép nhóm",
+      "tần số",
+      "tần suất",
+      "giá trị đại diện"
+    ],
+    "no": 8
   },
   {
     "id": "g11-space-03",
@@ -285,23 +520,119 @@
     ]
   },
   {
+    "id": "g11-stats-02",
+    "grade": 11,
+    "category": "Các số đặc trưng của mẫu số liệu ghép nhóm",
+    "title": "Các số đặc trưng đo xu thế trung tâm của mẫu số liệu ghép nhóm",
+    "description": "Bài 9 – Số trung bình, trung vị, mốt của mẫu số liệu ghép nhóm và so sánh hai mẫu số liệu.",
+    "level": "Intermediate",
+    "estimatedMinutes": 55,
+    "prerequisites": [
+      "g11-stats-01"
+    ],
+    "path": "lessons/grade11/statistics/grouped-central-tendency.html",
+    "tags": [
+      "số trung bình",
+      "trung vị",
+      "mốt",
+      "số liệu ghép nhóm"
+    ],
+    "no": 9
+  },
+  {
+    "id": "g11-space-04",
+    "grade": 11,
+    "category": "Quan hệ song song trong không gian",
+    "title": "Đường thẳng và mặt phẳng trong không gian",
+    "description": "Bài 10 – Điểm, đường thẳng, mặt phẳng trong không gian; giao tuyến; hình chóp, tứ diện; thiết diện đơn giản.",
+    "level": "Beginner",
+    "estimatedMinutes": 55,
+    "prerequisites": [],
+    "path": "lessons/grade11/lines-and-planes-in-space/lines-planes-basics.html",
+    "tags": [
+      "mặt phẳng",
+      "giao tuyến",
+      "hình chóp",
+      "tứ diện"
+    ],
+    "no": 10
+  },
+  {
+    "id": "g11-space-05",
+    "grade": 11,
+    "category": "Quan hệ song song trong không gian",
+    "title": "Hai đường thẳng song song",
+    "description": "Bài 11 – Hai đường thẳng song song, cắt nhau, chéo nhau; đường trung bình; tính chất bắc cầu.",
+    "level": "Intermediate",
+    "estimatedMinutes": 60,
+    "prerequisites": [
+      "g11-space-04"
+    ],
+    "path": "lessons/grade11/lines-and-planes-in-space/parallel-lines-in-space.html",
+    "tags": [
+      "đường thẳng song song",
+      "chéo nhau",
+      "đường trung bình"
+    ],
+    "no": 11
+  },
+  {
+    "id": "g12-mono-01",
+    "grade": 12,
+    "category": "Ứng dụng của đạo hàm",
+    "title": "Tính đơn điệu và cực trị của hàm số",
+    "description": "Bài 1 – Dùng đạo hàm xét chiều biến thiên, tìm cực trị bằng bảng xét dấu và đạo hàm cấp hai; bài toán tham số đơn giản.",
+    "level": "Intermediate",
+    "estimatedMinutes": 80,
+    "prerequisites": [],
+    "path": "lessons/grade12/monotonicity-extrema/monotonicity-of-functions.html",
+    "tags": [
+      "tính đơn điệu",
+      "cực trị",
+      "đạo hàm",
+      "bảng xét dấu",
+      "tham số"
+    ],
+    "no": 1
+  },
+  {
+    "id": "g12-mono-03",
+    "grade": 12,
+    "category": "Ứng dụng của đạo hàm",
+    "title": "Giá trị lớn nhất và giá trị nhỏ nhất của hàm số",
+    "description": "Bài 2 – Tìm giá trị lớn nhất, nhỏ nhất trên một đoạn bằng đạo hàm; bài toán tối ưu trong thực tế.",
+    "level": "Intermediate",
+    "estimatedMinutes": 50,
+    "prerequisites": [
+      "g12-mono-01"
+    ],
+    "path": "lessons/grade12/monotonicity-extrema/maximum-and-minimum-values.html",
+    "tags": [
+      "giá trị lớn nhất",
+      "giá trị nhỏ nhất",
+      "đoạn",
+      "tối ưu"
+    ],
+    "no": 2
+  },
+  {
     "id": "g12-deriv-app-01",
     "grade": 12,
     "category": "Ứng dụng của đạo hàm",
-    "title": "Đường tiệm cận của đồ thị",
-    "description": "Tìm tiệm cận đứng, tiệm cận ngang và tiệm cận xiên của đồ thị hàm số.",
+    "title": "Đường tiệm cận của đồ thị hàm số",
+    "description": "Bài 3 – Tìm tiệm cận đứng, tiệm cận ngang và tiệm cận xiên bằng giới hạn; phân biệt tiệm cận với điểm hổng.",
     "level": "Intermediate",
     "estimatedMinutes": 40,
     "prerequisites": [],
     "path": "lessons/grade12/derivative-applications/asymptotes-of-graphs.html",
     "tags": [
-      "tiệm cận",
       "tiệm cận đứng",
       "tiệm cận ngang",
       "tiệm cận xiên",
-      "hàm phân thức",
-      "giới hạn"
-    ]
+      "giới hạn",
+      "hàm phân thức"
+    ],
+    "no": 3
   },
   {
     "id": "g12-deriv-app-02",
@@ -320,62 +651,106 @@
       "khảo sát hàm số",
       "tính đối xứng",
       "tiệm cận"
-    ]
-  },
-  {
-    "id": "g12-mono-01",
-    "grade": 12,
-    "category": "Tính đơn điệu và cực trị",
-    "title": "Tính đơn điệu của hàm số",
-    "description": "Dùng đạo hàm để tìm khoảng đồng biến, nghịch biến của hàm số.",
-    "level": "Intermediate",
-    "estimatedMinutes": 45,
-    "prerequisites": [],
-    "path": "lessons/grade12/monotonicity-extrema/monotonicity-of-functions.html",
-    "tags": [
-      "đơn điệu",
-      "đồng biến",
-      "nghịch biến",
-      "đạo hàm"
-    ]
-  },
-  {
-    "id": "g12-mono-02",
-    "grade": 12,
-    "category": "Tính đơn điệu và cực trị",
-    "title": "Cực trị của hàm số",
-    "description": "Tìm điểm cực đại, cực tiểu bằng dấu của đạo hàm và đạo hàm cấp hai.",
-    "level": "Intermediate",
-    "estimatedMinutes": 45,
-    "prerequisites": [
-      "g12-mono-01"
     ],
-    "path": "lessons/grade12/monotonicity-extrema/local-extrema.html",
-    "tags": [
-      "cực trị",
-      "cực đại",
-      "cực tiểu",
-      "đạo hàm"
-    ]
+    "no": 4
   },
   {
-    "id": "g12-mono-03",
+    "id": "g12-optim-01",
     "grade": 12,
-    "category": "Tính đơn điệu và cực trị",
-    "title": "Giá trị lớn nhất và nhỏ nhất",
-    "description": "Tìm giá trị lớn nhất, nhỏ nhất của hàm số trên một đoạn hoặc khoảng.",
+    "category": "Ứng dụng của đạo hàm",
+    "title": "Ứng dụng đạo hàm để giải quyết một số vấn đề thực tiễn",
+    "description": "Bài 5 – Dùng đạo hàm giải bài toán tối ưu: diện tích, thể tích, chi phí, lợi nhuận.",
     "level": "Intermediate",
-    "estimatedMinutes": 50,
+    "estimatedMinutes": 70,
     "prerequisites": [
-      "g12-mono-02"
+      "g12-mono-03"
     ],
-    "path": "lessons/grade12/monotonicity-extrema/maximum-and-minimum-values.html",
+    "path": "lessons/grade12/derivative-applications/optimization-problems.html",
     "tags": [
+      "bài toán tối ưu",
       "giá trị lớn nhất",
       "giá trị nhỏ nhất",
-      "tối ưu",
-      "đoạn"
-    ]
+      "thực tiễn"
+    ],
+    "no": 5
+  },
+  {
+    "id": "g12-vec-01",
+    "grade": 12,
+    "category": "Vectơ và hệ tọa độ trong không gian",
+    "title": "Vectơ và các phép toán trong không gian",
+    "description": "Bài 6 – Vectơ trong không gian: vectơ bằng nhau, tổng, quy tắc hình hộp, tích vô hướng, góc giữa hai vectơ.",
+    "level": "Intermediate",
+    "estimatedMinutes": 70,
+    "prerequisites": [],
+    "path": "lessons/grade12/vectors-in-space/vectors-in-space.html",
+    "tags": [
+      "vectơ",
+      "không gian",
+      "tích vô hướng",
+      "quy tắc hình hộp"
+    ],
+    "no": 6
+  },
+  {
+    "id": "g12-coord-01",
+    "grade": 12,
+    "category": "Vectơ và hệ tọa độ trong không gian",
+    "title": "Hệ trục tọa độ trong không gian",
+    "description": "Bài 7 – Hệ trục tọa độ trong không gian: tọa độ điểm, hình chiếu, điểm đối xứng, khoảng cách, trung điểm, trọng tâm.",
+    "level": "Intermediate",
+    "estimatedMinutes": 65,
+    "prerequisites": [
+      "g12-vec-01"
+    ],
+    "path": "lessons/grade12/vectors-in-space/coordinate-system-oxyz.html",
+    "tags": [
+      "tọa độ",
+      "Oxyz",
+      "khoảng cách",
+      "trọng tâm"
+    ],
+    "no": 7
+  },
+  {
+    "id": "g12-coord-02",
+    "grade": 12,
+    "category": "Vectơ và hệ tọa độ trong không gian",
+    "title": "Biểu thức tọa độ của các phép toán vectơ",
+    "description": "Bài 8 – Biểu thức tọa độ của các phép toán vectơ: tổng, hiệu, tích với một số, tích vô hướng, độ dài, góc.",
+    "level": "Intermediate",
+    "estimatedMinutes": 65,
+    "prerequisites": [
+      "g12-coord-01"
+    ],
+    "path": "lessons/grade12/vectors-in-space/vector-coordinates.html",
+    "tags": [
+      "tọa độ vectơ",
+      "tích vô hướng",
+      "vuông góc",
+      "cùng phương"
+    ],
+    "no": 8
+  },
+  {
+    "id": "g12-stats-01",
+    "grade": 12,
+    "category": "Các số đặc trưng đo mức độ phân tán",
+    "title": "Khoảng biến thiên và khoảng tứ phân vị",
+    "description": "Bài 9 – Khoảng biến thiên, tứ phân vị và khoảng tứ phân vị của mẫu số liệu ghép nhóm; so sánh độ phân tán.",
+    "level": "Intermediate",
+    "estimatedMinutes": 55,
+    "prerequisites": [
+      "g11-stats-02"
+    ],
+    "path": "lessons/grade12/statistics/range-interquartile-range.html",
+    "tags": [
+      "khoảng biến thiên",
+      "tứ phân vị",
+      "khoảng tứ phân vị",
+      "độ phân tán"
+    ],
+    "no": 9
   },
   {
     "id": "g12-antider-01",
@@ -410,5 +785,26 @@
       "nguyên hàm từng phần",
       "nguyên hàm"
     ]
+  },
+  {
+    "id": "g12-mono-02",
+    "grade": 12,
+    "category": "Tính đơn điệu và cực trị",
+    "title": "Cực trị của hàm số",
+    "description": "Tìm điểm cực đại, cực tiểu bằng dấu của đạo hàm và đạo hàm cấp hai.",
+    "level": "Intermediate",
+    "estimatedMinutes": 45,
+    "prerequisites": [
+      "g12-mono-01"
+    ],
+    "path": "lessons/grade12/monotonicity-extrema/local-extrema.html",
+    "tags": [
+      "cực trị",
+      "cực đại",
+      "cực tiểu",
+      "đạo hàm"
+    ],
+    "locked": true,
+    "lockNote": "Đã gộp vào Bài 1 (g12-mono-01)"
   }
 ]

@@ -141,9 +141,17 @@ def _legacy_catalog():
     return _legacy[0]
 
 
+def fix_math_lt(html):
+    """Dấu < thô trong công thức \\( … \\) bị trình duyệt hiểu là thẻ HTML và làm mất công thức: đổi thành \\lt ."""
+    segs = re.split(r'(<script.*?</script>)', html, flags=re.S)
+    f = lambda m: m.group(0).replace('<', '\\lt ')
+    return ''.join(x if i % 2 else re.sub(r'(?<!\\)\\\((?:(?!\\\)).)*?\\\)', f, x, flags=re.S) for i, x in enumerate(segs))
+
+
 def lesson(**c):
     """Điểm nhập duy nhất của người viết nội dung. Dựng bài, ghi file; lessons.json do build_all tổng hợp."""
     html, entry = render(c)
+    html = fix_math_lt(html)
     out = os.path.join(ROOT, entry['path']); os.makedirs(os.path.dirname(out), exist_ok=True)
     open(out, 'w', encoding='utf-8').write(html)
     REGISTRY.append((c.get('order', 0), entry))
@@ -156,11 +164,18 @@ def sync_lessons_json():
     Thứ tự trong cùng một lớp: các bài đã viết theo mô hình xếp theo `order` (rồi theo thứ tự dựng), bài mẫu cũ chưa chuyển đứng sau."""
     p = os.path.join(ROOT, 'lessons.json')
     with open(p, encoding='utf-8') as fh: old = json.load(fh)
-    built = {e['id']: (o, i, e) for i, (o, e) in enumerate(REGISTRY)}
-    keep = [(1000, -1, x) for x in old if x['id'] not in built]   # bài mẫu cũ chưa chuyển: đứng sau các bài đã viết theo mô hình
-    allx = [((e['grade'], o, i), e) for (o, i, e) in built.values()] + [((x['grade'], 1000, k), x) for k, (_, _, x) in enumerate(keep)]
+    lo = {k: v for k, v in (model().get('lessonOrder') or {}).items() if not k.startswith('_')}
+    built = {e['id']: (lo.get(e['id'], o), i, e) for i, (o, e) in enumerate(REGISTRY)}
+    keep = [(lo.get(x['id'], 1000), -1, x) for x in old if x['id'] not in built]   # bài mẫu cũ chưa chuyển: đứng sau các bài đã viết theo mô hình
+    allx = [((e['grade'], o, i), e) for (o, i, e) in built.values()] + [((x['grade'], o_, k), x) for k, (o_, _, x) in enumerate(keep)]
     allx.sort(key=lambda t: t[0])
     res = [e for _, e in allx]
+    nos = {k: v for k, v in (model().get('lessonNo') or {}).items() if not k.startswith('_')}
+    locked = {k: v for k, v in (model().get('lockedLessons') or {}).items() if not k.startswith('_')}
+    for e in res:                          # tạm khóa theo config/model.json (lockedLessons)
+        e.pop('locked', None); e.pop('lockNote', None); e.pop('no', None)
+        if e['id'] in nos: e['no'] = nos[e['id']]
+        if e['id'] in locked: e['locked'] = True; e['lockNote'] = locked[e['id']]
     ids = [e['id'] for e in res]
     assert len(ids) == len(set(ids)), 'id bài học bị trùng'
     with open(p, 'w', encoding='utf-8') as fh: json.dump(res, fh, ensure_ascii=False, indent=2)

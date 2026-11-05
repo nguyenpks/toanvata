@@ -25,6 +25,15 @@
   }
   /* Xếp hàng các lần dựng công thức: MathJax không cho chạy chồng nhau, và lỗi phải được ghi lại chứ không nuốt mất. */
   var mjQueue = null;
+  /* Công thức trong dòng quá rộng so với khung chứa: cho thành khối cuộn ngang để không làm trang tràn ngang trên điện thoại. */
+  function wrapWide() {
+    var list = document.querySelectorAll('mjx-container:not([display="true"])');
+    for (var i = 0; i < list.length; i++) {
+      var m = list[i], host = m.parentElement;
+      while (host && host !== document.body && getComputedStyle(host).display.indexOf('inline') === 0) host = host.parentElement;
+      if (host && m.offsetWidth > host.clientWidth && host.clientWidth > 0) m.classList.add('mbl-wide-inline');
+    }
+  }
   function typeset(el) {
     var MJ = window.MathJax;
     if (!(MJ && MJ.typesetPromise)) return;
@@ -32,7 +41,7 @@
     mjQueue = base.then(function () {
       if (MJ.typesetClear && el) MJ.typesetClear([el]);
       return MJ.typesetPromise(el ? [el] : undefined);
-    }).then(fit).catch(function (e) {
+    }).then(function () { wrapWide(); fit(); }).catch(function (e) {
       if (window.console) console.warn('[MathJax]', e && e.message ? e.message : e);
       fit();
     });
@@ -42,7 +51,7 @@
   window.addEventListener('load', function () {
     fit();
     if (window.MathJax && window.MathJax.startup && window.MathJax.startup.promise) {
-      window.MathJax.startup.promise.then(fit).catch(function () {});
+      window.MathJax.startup.promise.then(function () { wrapWide(); fit(); }).catch(function () {});
     }
   });
 

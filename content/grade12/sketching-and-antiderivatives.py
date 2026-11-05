@@ -148,6 +148,11 @@ S3 = [
 _T = [t for t, _ in pr]
 S1 = [g for _, g in pr]
 pr = LEVEL_PRACTICE(_T, {1: S1, 2: S2, 3: S3})
+import sp_g12 as _spg
+from mb_selfpractice import SELF as _SELF
+_sf = _SELF(_spg.M4S, start=11, avoid=[t[1] for t in pr])
+pr = pr + [(('%s. Self-practice: Multiple Choice' % chr(ord('A') + len({t[0][0][0] for t in pr})), '%s. Tự luyện: trắc nghiệm' % chr(ord('A') + len({t[0][0][0] for t in pr}))), _sf[lv], [lv]) for lv in (1, 2, 3)]
+pr.sort(key=lambda t: t[2][0])
 
 build('g12-deriv-app-02', 'Sketching Graphs of Functions', 'Khảo sát và vẽ đồ thị hàm số', CAT1,
   {'level': ('Intermediate', 'Trung bình'), 'time': ('about 60 minutes', 'khoảng 60 phút'), 'before': ('asymptotes, monotonicity, extrema', 'tiệm cận, tính đơn điệu, cực trị')},
@@ -337,7 +342,7 @@ build('g12-antider-02', 'Techniques of Finding Antiderivatives', 'Các phương 
   ENTRY('g12-antider-02', 'Techniques of Finding Antiderivatives', 'Use linear substitution, change of variable and integration by parts.', 'Intermediate', 50, ['g12-antider-01'], 'lessons/grade12/antiderivatives/techniques-of-antiderivatives.html', ['substitution', 'integration by parts', 'antiderivative'], order=70))
 
 # sắp xếp lại các bài lớp 12 theo bản đồ chương trình
-order = ['g12-deriv-app-01','g12-deriv-app-02','g12-mono-01','g12-mono-02','g12-mono-03','g12-antider-01','g12-antider-02']
+order = ['g12-deriv-app-01','g12-deriv-app-02','g12-mono-01','g12-mono-02','g12-mono-03','g12-optim-01','g12-vec-01','g12-coord-01','g12-coord-02','g12-stats-01','g12-antider-01','g12-antider-02']
 p = os.path.join(ROOT, 'lessons.json'); d = json.load(open(p, encoding='utf-8'))
 g12 = sorted([x for x in d if x['grade'] == 12], key=lambda x: order.index(x['id']) if x['id'] in order else 99)
 first = next(i for i, x in enumerate(d) if x['grade'] == 12)

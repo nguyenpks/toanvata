@@ -5,6 +5,8 @@ HERE = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, HERE); sys
 from mb_std import *
 from mb_extra import *
 import _vocab
+from mb_selfpractice import SELF
+import sp_g10, runpy, re, mb_std, mb_extra, mb_lib
 figs = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), '_sets_figures.json'), encoding='utf-8'))
 CAT = ('Sets and Intervals', 'Tập hợp và khoảng')
 
@@ -243,8 +245,37 @@ checks = [
  (r'I can solve a counting problem with \(n(A\cup B)\).', r'Tôi giải được bài toán đếm bằng công thức \(n(A\cup B)\).'),
  STD_SUMMARY_CHECK_EN()]
 
-build('g10-sets-01', 'Sets and Intervals', 'Tập hợp và khoảng', CAT,
-  {'level': ('Beginner', 'Cơ bản'), 'time': ('about 45 minutes', 'khoảng 45 phút'), 'before': ('number types, comparing numbers, simple inequalities (grade 9)', 'các loại số, so sánh số, bất phương trình đơn giản (lớp 9)')},
-  goals, vocab, phrases, review, theory, ex, pr, mistakes, summary, checks,
-  'lessons/grade10/sets-and-intervals/sets-and-intervals.html',
-  ENTRY('g10-sets-01', 'Sets and Intervals', 'Learn set notation, set operations and interval notation in English.', 'Beginner', 45, [], 'lessons/grade10/sets-and-intervals/sets-and-intervals.html', ['sets', 'intervals', 'venn diagram', 'vocabulary'], grade=10, order=10), grade=10)
+
+# ---- Gộp nội dung đếm bằng biểu đồ Venn (g10-sets-02) vào Bài 2 theo danh mục SGK ----
+_cap2 = {}
+_off = [3]
+def _stub_build(lid, *a, **k): _cap2[lid] = a
+_ex_real = mb_std.EXAMPLE
+def _ex_shift(n, *a, **k): return _ex_real(n + _off[0], *a, **k)
+_saved = {}
+for _m in (mb_std, mb_extra, mb_lib):
+    for _nm, _fn in (('build', _stub_build), ('EXAMPLE', _ex_shift)):
+        if hasattr(_m, _nm): _saved[(_m, _nm)] = getattr(_m, _nm); setattr(_m, _nm, _fn)
+try:
+    runpy.run_path(os.path.join(HERE, 'counting-with-venn-diagrams.py'))
+finally:
+    for (_m, _nm), _fn in _saved.items(): setattr(_m, _nm, _fn)
+_b = _cap2['g10-sets-02']
+_th2 = _b[8].replace('<h3>5.1 ', '<h3>5.5 ').replace('<h3>5.2 ', '<h3>5.6 ').replace('<h3>5.3 ', '<h3>5.7 ')
+_ex2 = _b[9]
+_terms = lambda L: {re.findall(r'<b>(.*?)</b>', x[0])[0] for x in L if '<b>' in x[0]}
+_have = _terms(vocab)
+_vocab2 = [x for x in _b[5] if '<b>' not in x[0] or re.findall(r'<b>(.*?)</b>', x[0])[0] not in _have]
+_SP = SELF(sp_g10.B2, start=14, avoid=[t[1] for t in pr])
+_prac = pr + [(('F. Self-practice: Multiple Choice', 'F. Tự luyện: trắc nghiệm'), _SP[lv], [lv]) for lv in (1, 2, 3)]
+
+lesson(id='g10-sets-01', title_en='Sets and Operations on Sets', title_vi='Tập hợp và các phép toán trên tập hợp', topic=('Propositions and Sets', 'Mệnh đề và tập hợp'),
+  catalog_title_vi='Tập hợp và các phép toán trên tập hợp',
+  description_vi='Bài 2 – Tập hợp, tập con, hợp, giao, hiệu, phần bù; các tập hợp số (khoảng, đoạn, nửa khoảng) và bài toán đếm bằng biểu đồ Venn.',
+  tags_vi=['tập hợp', 'tập con', 'hợp', 'giao', 'hiệu', 'phần bù', 'khoảng', 'biểu đồ Venn'],
+  meta={'level': ('Beginner', 'Cơ bản'), 'time': ('about 70 minutes', 'khoảng 70 phút'), 'before': ('number types, comparing numbers, simple inequalities (grade 9)', 'các loại số, so sánh số, bất phương trình đơn giản (lớp 9)')},
+  goals=goals, vocab=vocab + _vocab2, phrases=phrases, review=review, theory=theory + _th2, examples=ex + _ex2, practice=_prac,
+  mistakes=mistakes, summary=summary, checks=checks,
+  path='lessons/grade10/sets-and-intervals/sets-and-intervals.html',
+  description='Learn set notation, set operations, intervals and Venn diagram counting in English.', level='Beginner', minutes=70,
+  prerequisites=['g10-logic-01'], tags=['sets', 'intervals', 'venn diagram', 'vocabulary'], order=20)

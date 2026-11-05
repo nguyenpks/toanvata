@@ -23,11 +23,11 @@ try:
         b = p.chromium.launch(); lessons = json.load(open(os.path.join(ROOT, 'lessons.json'), encoding='utf-8'))
         for L in lessons:
             for w in (360, 768, 1024):
-                pg = b.new_page(viewport={'width': w, 'height': 900}); errs = []; pg.on('pageerror', lambda e: errs.append(str(e)[:120])); route(pg)
+                pg = b.new_page(viewport={'width': w, 'height': 900}); errs = []; pg.on('pageerror', lambda e: errs.append(str(e)[:120])); pg.on('console', lambda m: errs.append(m.text[:160]) if m.type == 'error' else None); route(pg)
                 pg.goto('http://localhost:8785/' + L['path']); pg.wait_for_timeout(2500)
                 n = pg.evaluate("document.querySelectorAll('.mbg').length"); e = pg.evaluate("document.querySelectorAll('.mbg-error').length")
                 if n:
-                    ok(e == 0 and not errs, '%s @%d: %d hình, lỗi vẽ %d %s' % (L['path'].split('/')[-1], w, n, e, errs))
+                    ok(e == 0 and not errs, '%s @%d: %d hình, lỗi vẽ %d %s %s' % (L['path'].split('/')[-1], w, n, e, errs, pg.evaluate("[...document.querySelectorAll('.mbg-error')].map(x => x.textContent.slice(0, 200))")))
                     pg.screenshot(path=os.path.join(OUT, '%s-%d.png' % (os.path.basename(L['path'])[:-5], w)), full_page=True)
                 pg.close()
         # xoay hình khối thật
