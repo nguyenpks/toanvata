@@ -166,63 +166,6 @@
     "no": 6
   },
   {
-    "id": "g10-vec-01",
-    "grade": 10,
-    "category": "Vectơ",
-    "title": "Các khái niệm mở đầu về vectơ",
-    "description": "Bài 7 – Vectơ: điểm đầu, điểm cuối, hướng, độ dài, cùng phương, bằng nhau, vectơ đối.",
-    "level": "Beginner",
-    "estimatedMinutes": 45,
-    "prerequisites": [],
-    "path": "lessons/grade10/vectors/vector-concepts.html",
-    "tags": [
-      "vectơ",
-      "cùng phương",
-      "vectơ bằng nhau",
-      "độ dài"
-    ],
-    "no": 7
-  },
-  {
-    "id": "g10-vec-02",
-    "grade": 10,
-    "category": "Vectơ",
-    "title": "Tổng và hiệu của hai vectơ",
-    "description": "Bài 8 – Cộng, trừ hai vectơ: quy tắc ba điểm, quy tắc hình bình hành, hợp lực, chứng minh đẳng thức vectơ.",
-    "level": "Intermediate",
-    "estimatedMinutes": 55,
-    "prerequisites": [
-      "g10-vec-01"
-    ],
-    "path": "lessons/grade10/vectors/vector-sum-difference.html",
-    "tags": [
-      "tổng vectơ",
-      "hiệu vectơ",
-      "quy tắc ba điểm",
-      "hợp lực"
-    ],
-    "no": 8
-  },
-  {
-    "id": "g10-vec-03",
-    "grade": 10,
-    "category": "Vectơ",
-    "title": "Tích của một vectơ với một số",
-    "description": "Bài 9 – Tích của vectơ với một số: độ dài, hướng, trung điểm, trọng tâm, ba điểm thẳng hàng.",
-    "level": "Intermediate",
-    "estimatedMinutes": 60,
-    "prerequisites": [
-      "g10-vec-02"
-    ],
-    "path": "lessons/grade10/vectors/vector-scalar-multiple.html",
-    "tags": [
-      "tích vectơ với số",
-      "trọng tâm",
-      "ba điểm thẳng hàng"
-    ],
-    "no": 9
-  },
-  {
     "id": "g11-functions-01",
     "grade": 11,
     "category": "Hàm số và đồ thị",
@@ -520,63 +463,6 @@
     ]
   },
   {
-    "id": "g11-stats-02",
-    "grade": 11,
-    "category": "Các số đặc trưng của mẫu số liệu ghép nhóm",
-    "title": "Các số đặc trưng đo xu thế trung tâm của mẫu số liệu ghép nhóm",
-    "description": "Bài 9 – Số trung bình, trung vị, mốt của mẫu số liệu ghép nhóm và so sánh hai mẫu số liệu.",
-    "level": "Intermediate",
-    "estimatedMinutes": 55,
-    "prerequisites": [
-      "g11-stats-01"
-    ],
-    "path": "lessons/grade11/statistics/grouped-central-tendency.html",
-    "tags": [
-      "số trung bình",
-      "trung vị",
-      "mốt",
-      "số liệu ghép nhóm"
-    ],
-    "no": 9
-  },
-  {
-    "id": "g11-space-04",
-    "grade": 11,
-    "category": "Quan hệ song song trong không gian",
-    "title": "Đường thẳng và mặt phẳng trong không gian",
-    "description": "Bài 10 – Điểm, đường thẳng, mặt phẳng trong không gian; giao tuyến; hình chóp, tứ diện; thiết diện đơn giản.",
-    "level": "Beginner",
-    "estimatedMinutes": 55,
-    "prerequisites": [],
-    "path": "lessons/grade11/lines-and-planes-in-space/lines-planes-basics.html",
-    "tags": [
-      "mặt phẳng",
-      "giao tuyến",
-      "hình chóp",
-      "tứ diện"
-    ],
-    "no": 10
-  },
-  {
-    "id": "g11-space-05",
-    "grade": 11,
-    "category": "Quan hệ song song trong không gian",
-    "title": "Hai đường thẳng song song",
-    "description": "Bài 11 – Hai đường thẳng song song, cắt nhau, chéo nhau; đường trung bình; tính chất bắc cầu.",
-    "level": "Intermediate",
-    "estimatedMinutes": 60,
-    "prerequisites": [
-      "g11-space-04"
-    ],
-    "path": "lessons/grade11/lines-and-planes-in-space/parallel-lines-in-space.html",
-    "tags": [
-      "đường thẳng song song",
-      "chéo nhau",
-      "đường trung bình"
-    ],
-    "no": 11
-  },
-  {
     "id": "g12-mono-01",
     "grade": 12,
     "category": "Ứng dụng của đạo hàm",
@@ -691,66 +577,6 @@
       "quy tắc hình hộp"
     ],
     "no": 6
-  },
-  {
-    "id": "g12-coord-01",
-    "grade": 12,
-    "category": "Vectơ và hệ tọa độ trong không gian",
-    "title": "Hệ trục tọa độ trong không gian",
-    "description": "Bài 7 – Hệ trục tọa độ trong không gian: tọa độ điểm, hình chiếu, điểm đối xứng, khoảng cách, trung điểm, trọng tâm.",
-    "level": "Intermediate",
-    "estimatedMinutes": 65,
-    "prerequisites": [
-      "g12-vec-01"
-    ],
-    "path": "lessons/grade12/vectors-in-space/coordinate-system-oxyz.html",
-    "tags": [
-      "tọa độ",
-      "Oxyz",
-      "khoảng cách",
-      "trọng tâm"
-    ],
-    "no": 7
-  },
-  {
-    "id": "g12-coord-02",
-    "grade": 12,
-    "category": "Vectơ và hệ tọa độ trong không gian",
-    "title": "Biểu thức tọa độ của các phép toán vectơ",
-    "description": "Bài 8 – Biểu thức tọa độ của các phép toán vectơ: tổng, hiệu, tích với một số, tích vô hướng, độ dài, góc.",
-    "level": "Intermediate",
-    "estimatedMinutes": 65,
-    "prerequisites": [
-      "g12-coord-01"
-    ],
-    "path": "lessons/grade12/vectors-in-space/vector-coordinates.html",
-    "tags": [
-      "tọa độ vectơ",
-      "tích vô hướng",
-      "vuông góc",
-      "cùng phương"
-    ],
-    "no": 8
-  },
-  {
-    "id": "g12-stats-01",
-    "grade": 12,
-    "category": "Các số đặc trưng đo mức độ phân tán",
-    "title": "Khoảng biến thiên và khoảng tứ phân vị",
-    "description": "Bài 9 – Khoảng biến thiên, tứ phân vị và khoảng tứ phân vị của mẫu số liệu ghép nhóm; so sánh độ phân tán.",
-    "level": "Intermediate",
-    "estimatedMinutes": 55,
-    "prerequisites": [
-      "g11-stats-02"
-    ],
-    "path": "lessons/grade12/statistics/range-interquartile-range.html",
-    "tags": [
-      "khoảng biến thiên",
-      "tứ phân vị",
-      "khoảng tứ phân vị",
-      "độ phân tán"
-    ],
-    "no": 9
   },
   {
     "id": "g12-antider-01",
