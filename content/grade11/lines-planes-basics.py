@@ -21,7 +21,7 @@ goals[2] = ('find the common point of a line and a plane, and the line of inters
 goals[3] = ('describe pyramids and tetrahedra and find a simple cross-section.', 'mô tả [[hình chóp]], [[tứ diện]] và xác định [[thiết diện]] đơn giản.')
 phrases = [('<b>Find the line of intersection.</b>', 'Tìm giao tuyến.'), ('<b>The line lies in the plane.</b>', 'Đường thẳng nằm trong mặt phẳng.'), ('<b>The three points are not collinear.</b>', 'Ba điểm không thẳng hàng.'), ('<b>Find the common point.</b>', 'Tìm điểm chung.'), ('<b>Name the faces of the pyramid.</b>', 'Kể tên các mặt của hình chóp.')]
 review = T('In the plane: two points define one line; two lines meet in at most one point; two parallel lines have no common point. Triangle, parallelogram and midpoints are used often.', 'Trong mặt phẳng: hai điểm xác định một đường thẳng; hai đường thẳng cắt nhau nhiều nhất tại một điểm; hai đường thẳng song song không có điểm chung. Hay dùng tam giác, hình bình hành và trung điểm.')
-A, B, C, D, Sp = (-3, -2, 0), (1, -2, 0), (3, 2, 0), (-1, 2, 0), (0, 0, 3.2); O = (0, 0, 0); Mm = tuple((a + b) / 2 for a, b in zip(Sp, C))
+A, B, C, D, Sp = (-3, -2, 0), (2, -2, 0), (3, 2, 0), (-2, 2, 0), (0, 0, 3.2); O = (0, 0, 0); Mm = tuple((a + b) / 2 for a, b in zip(Sp, C))
 PYR = {'solid': ['S', 'A', 'B', 'C', 'D'], 'box': [[-4, 4], [-3, 3], [-1, 4]], 'points': {'A': A, 'B': B, 'C': C, 'D': D, 'S': Sp, 'O': O, 'M': Mm},
        'polygons': [['A', 'B', 'C', 'D']], 'segments': [['S', 'A'], ['S', 'B'], ['S', 'C'], ['S', 'D'], ['A', 'C', {'dash': True, 'color': '#64748b', 'width': 1.6}], ['B', 'D', {'dash': True, 'color': '#64748b', 'width': 1.6}], ['S', 'O', {'color': '#c2410c', 'width': 3.5, 'dash': True}], ['M', 'B', {'dash': True, 'color': '#7c3aed', 'width': 2.2}], ['M', 'D', {'dash': True, 'color': '#7c3aed', 'width': 2.2}]]}
 theory = '<h3>5.1 %s</h3>' % TI('Basic facts about points, lines and planes', 'Các tính chất cơ bản')
@@ -44,6 +44,12 @@ examples += EXAMPLE(4, ('Intermediate', 'Trung bình'), ('Common line with a poi
   T('\\(M\\) is in both planes; find one more common point.', '\\(M\\) thuộc cả hai mặt phẳng; tìm thêm một điểm chung.'), [T('\\(M\\in SC\\subset(SAC)\\) and \\(M\\in(MBD)\\).', '\\(M\\in SC\\subset(SAC)\\) và \\(M\\in(MBD)\\).'), T('\\(O\\in BD\\subset(MBD)\\) and \\(O\\in AC\\subset(SAC)\\).', '\\(O\\in BD\\subset(MBD)\\) và \\(O\\in AC\\subset(SAC)\\).')], T('\\((MBD)\\cap(SAC)=MO\\).', '\\((MBD)\\cap(SAC)=MO\\).'))
 examples += EXAMPLE(5, ('Advanced', 'Nâng cao'), ('A cross-section', 'Một thiết diện'), T('With the same figure, find the cross-section of the pyramid by the plane \\((MBD)\\). What polygon is it?', 'Với hình vẽ trên, tìm thiết diện của hình chóp cắt bởi mặt phẳng \\((MBD)\\). Đó là đa giác nào?'),
   T('Find where the plane meets each face.', 'Xác định giao tuyến của mặt phẳng với từng mặt của hình chóp.'), [T('On the base \\((ABCD)\\): the segment \\(BD\\).', 'Trên đáy \\((ABCD)\\): đoạn \\(BD\\).'), T('On the face \\((SBC)\\): \\(MB\\); on the face \\((SCD)\\): \\(MD\\).', 'Trên mặt \\((SBC)\\): \\(MB\\); trên mặt \\((SCD)\\): \\(MD\\).')], T('The cross-section is the triangle \\(MBD\\).', 'Thiết diện là tam giác \\(MBD\\).'))
+# ---- Hình vẽ cho ví dụ (TikZ -> SVG, tĩnh) ----
+from mb_solids import fig, FILL, HL, BL
+examples = EXFIG(examples, 3, GEO3D(fig('pyr', pts={'O': 'mid:A,C'}, seg=[['A', 'C'], ['B', 'D'], ['S', 'O', {'color': HL}]], poly=[FILL('SAC', '#fde68a', .4), FILL('SBD', '#86e0bd', .35)]), alt=('Pyramid S.ABCD with the planes SAC and SBD meeting along SO', '')))
+examples = EXFIG(examples, 4, GEO3D(fig('pyr', pts={'O': 'mid:A,C', 'M': 'mid:S,C'}, seg=[['A', 'C'], ['B', 'D'], ['M', 'B'], ['M', 'D'], ['O', 'M', {'color': HL}]]), alt=('Pyramid with M the midpoint of SC and the segment OM', '')))
+examples = EXFIG(examples, 5, GEO3D(fig('pyr', pts={'O': 'mid:A,C', 'M': 'mid:S,C'}, seg=[['A', 'C'], ['B', 'D']], poly=[FILL('MBD', '#fca5a5', .45)]), alt=('Cross-section MBD of the pyramid', '')))
+
 def lvl(P):
     n1, n2, n3 = P['n']; f = lambda x: str(x)
     c = n1 * (n1 - 1) * (n1 - 2) // 6

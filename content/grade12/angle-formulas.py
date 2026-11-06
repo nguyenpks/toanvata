@@ -63,6 +63,11 @@ examples += EXAMPLE(5, ('Advanced', 'Nâng cao'), ('Solar panel', 'Tấm pin m�
    T('\\(\\sin\\varphi=\\dfrac{|0-3-4|}{\\sqrt2\\cdot5}=\\dfrac{7}{5\\sqrt2}\\approx0{,}99\\Rightarrow\\varphi\\approx81{,}87^\\circ\\).', '\\(\\sin\\varphi=\\dfrac{|0-3-4|}{\\sqrt2\\cdot5}=\\dfrac{7}{5\\sqrt2}\\approx0{,}99\\Rightarrow\\varphi\\approx81{,}87^\\circ\\).')],
   T('The panel is tilted about \\(36{,}87^\\circ\\); the rays hit it at about \\(81{,}87^\\circ\\) – almost perpendicular, which is good for collecting energy.', 'Tấm pin nghiêng khoảng \\(36{,}87^\\circ\\); tia nắng tạo với tấm pin góc khoảng \\(81{,}87^\\circ\\) – gần vuông góc, thuận lợi để thu năng lượng.'))
 
+# ---- Hình vẽ cho ví dụ 4 (TikZ -> SVG, tĩnh) ----
+CUBE4 = dict(CUBE); CUBE4['segments'] = [['A′', 'C', {'color': '#c2410c', 'width': 3.6}], ['A', 'C'], ['A', 'B′', {'color': '#1d4ed8', 'width': 3.6}], ['B', 'C′', {'color': '#1d4ed8', 'width': 3.6}]]
+CUBE4['angles'] = [['A′', 'C', 'A']]; CUBE4['asize'] = 0.22
+examples = EXFIG(examples, 4, GEO3D(CUBE4, alt=('Cube with A′C, the plane A′BD and the face diagonals AB′, BC′', '')))
+
 def ang(a, b):
     c2 = F(dot(a, b) ** 2, n2(a) * n2(b)); return {F(0): 90, F(1, 4): 60, F(1, 2): 45, F(3, 4): 30}[c2]
 def lvl(P):

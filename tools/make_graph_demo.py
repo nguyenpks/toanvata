@@ -56,7 +56,7 @@ D.append(sec('10. Đường tròn và tiếp tuyến; đường song song', GEO(
     {'type': 'tangent', 'center': 'O', 'at': 'T', 'showRadius': True},
     {'type': 'point', 'id': 'P', 'at': [4, 3]}, {'type': 'point', 'id': 'Q', 'at': [7, 0]}, {'type': 'line', 'id': 'PQ', 'through': ['P', 'Q']},
     {'type': 'point', 'id': 'S', 'at': [4, -3]}, {'type': 'parallel', 'through': 'S', 'to': 'PQ'}]}, alt=('Circle tangent and parallel lines', ''))))
-D.append(sec('11. Hình không gian (JSXGraph 3D): chóp S.ABCD – kéo để xoay', GEO3D({
+D.append(sec('11. Hình không gian (TikZ → SVG, hình tĩnh): chóp S.ABCD', GEO3D({
   'box': [[-3, 3], [-3, 3], [-1, 4]], 'points': {'A': [-2, -2, 0], 'B': [2, -2, 0], 'C': [2, 2, 0], 'D': [-2, 2, 0], 'S': [0, 0, 3.2]},
   'polygons': [['A', 'B', 'C', 'D']], 'segments': [['S', 'A'], ['S', 'B'], ['S', 'C'], ['S', 'D']]}, alt=('Pyramid S.ABCD', ''))))
 page = '''<!DOCTYPE html>
@@ -71,5 +71,5 @@ page = '''<!DOCTYPE html>
 <script src="https://cdn.jsdelivr.net/npm/jsxgraph@1.9.2/distrib/jsxgraphcore.js"></script>
 <script src="../js/mb-graph-core.js"></script><script src="../js/mb-graph.js"></script></body></html>''' % ''.join(D)
 os.makedirs(os.path.join(ROOT, 'demo'), exist_ok=True)
-open(os.path.join(ROOT, 'demo', 'graph-demo.html'), 'w', encoding='utf-8').write(page)
+open(os.path.join(ROOT, 'demo', 'graph-demo.html'), 'w', encoding='utf-8').write(page.replace('../../../img/', '../img/'))
 print('demo/graph-demo.html', len(page))

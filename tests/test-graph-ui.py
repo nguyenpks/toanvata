@@ -23,7 +23,7 @@ try:
             id: b.id, types: b.created.reduce((m,o)=>{m[o.type]=(m[o.type]||0)+1;return m},{}), bb: b.bb,
             curves: b.created.filter(o=>o.type==='curve').map(o=>({x:o.dataX, y:o.dataY, color:o.attrs.strokeColor})) }))""")
         print('Số bảng vẽ đã khởi tạo:', len(info))
-        ok(len(info) >= 11, 'đủ 11 hình trong trang demo (nhận %d)' % len(info))
+        ok(len(info) >= 10, 'đủ 10 hình tương tác trong trang demo (nhận %d)' % len(info))
         def isnan(v): return v is None or v != v
         def nan_breaks(c): return sum(1 for v in c['x'] if isnan(v))
         def has_cross(c, x0):
@@ -60,9 +60,10 @@ try:
         # 10. tiếp tuyến đường tròn = vuông góc với bán kính; song song
         g2 = pg.evaluate("""() => { var b=window.__boards[9]; var t=b.created.reduce((a,o)=>{a[o.type]=(a[o.type]||0)+1;return a},{}); return t }""")
         ok(g2.get('perpendicular', 0) == 1 and g2.get('parallel', 0) == 1 and g2.get('glider', 0) == 1 and g2.get('circle', 0) == 1, 'tiếp tuyến = perpendicular(bán kính, tiếp điểm); song song = parallel; glider trên đường tròn ' + str(g2))
-        # 11. 3D
-        g3 = pg.evaluate("() => window.__boards[10].created.reduce((a,o)=>{a[o.type]=(a[o.type]||0)+1;return a},{})")
-        ok(g3.get('view3d') == 1 and g3.get('point3d') == 5 and g3.get('polygon3d') == 1 and g3.get('line3d') == 4, 'chóp S.ABCD: 5 điểm, 1 đáy, 4 cạnh bên ' + str(g3))
+        # 11. Hình không gian: nay là hình TĨNH (TikZ -> SVG, tools/mb_tikz3d.py), không còn bảng JSXGraph 3D
+        pg.evaluate("() => { var i = document.querySelector('figure.mbl-fig3d img'); if (i) { i.loading = 'eager'; i.scrollIntoView(); } }"); pg.wait_for_timeout(600)
+        img3 = pg.evaluate("() => { var i = document.querySelector('figure.mbl-fig3d img'); return i ? {ok: i.complete && i.naturalWidth > 0, src: i.getAttribute('src')} : null }")
+        ok(bool(img3 and img3['ok']), 'chóp S.ABCD: hình SVG tĩnh tải được ' + str(img3))
         # Thu phóng, tỉ lệ, đặt lại
         i = 0
         bb0 = pg.evaluate("() => window.__boards[0].bb.slice()")

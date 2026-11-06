@@ -28,7 +28,7 @@ load_vocab()
 def sub(p, q): return tuple(a - b for a, b in zip(p, q))
 def par(u, v): return all(abs(u[i] * v[j] - u[j] * v[i]) < 1e-9 for i in range(3) for j in range(3))
 mid = lambda p, q: tuple((a + b) / 2 for a, b in zip(p, q))
-A, B, C, D, S = (-3, -2, 0), (1, -2, 0), (3, 2, 0), (-1, 2, 0), (0, 0, 3.2)
+A, B, C, D, S = (-3, -2, 0), (2, -2, 0), (3, 2, 0), (-2, 2, 0), (0, 0, 3.2)
 assert sub(B, A) == sub(C, D) and mid(A, C) == (0, 0, 0)            # ABCD là hình bình hành tâm O
 O = (0, 0, 0); M = mid(S, C); assert par(sub(M, O), sub(S, A))     # OM // SA (đường trung bình tam giác SAC)
 cA, cB, cC, cD = (-2, -2, -2), (2, -2, -2), (2, 2, -2), (-2, 2, -2); cA1, cB1, cC1, cD1 = (-2, -2, 2), (2, -2, 2), (2, 2, 2), (-2, 2, 2)
@@ -41,7 +41,7 @@ goals = [
  ('describe the positions of two lines in space: parallel, intersecting or skew;', 'mô tả vị trí của hai đường thẳng trong không gian: [[song song]], cắt nhau hoặc chéo nhau;'),
  ('prove that a line is parallel to a plane;', 'chứng minh đường thẳng song song với [[mặt phẳng]];'),
  ('prove that two planes are parallel;', 'chứng minh hai mặt phẳng song song;'),
- ('read a 3D figure: rotate it and find edges and faces.', 'đọc hình không gian: xoay hình, tìm [[cạnh]] và [[mặt]].'),
+ ('read a 3D figure: find its edges, faces and hidden (dashed) lines.', 'đọc hình không gian: tìm [[cạnh]], [[mặt]] và các nét khuất (nét đứt).'),
 ]
 vocab = [
  ('<b>plane</b> – a flat surface that goes on without end.', '[[Mặt phẳng]] – bề mặt phẳng kéo dài vô hạn.'),
@@ -73,8 +73,8 @@ def cube(extra=None, color_edges=None):
     cfg.update(extra or {}); return cfg
 
 theory = '<h3>5.1 %s</h3>' % TI('Two lines in space', 'Hai đường thẳng trong không gian')
-theory += T(r'Two lines in space are in exactly one of three positions: <b>parallel</b> (same plane, no common point), <b>intersecting</b> (one common point), or <b>skew</b> (not in the same plane). Drag the figure to rotate the cube.',
-            r'Hai đường thẳng trong không gian ở đúng một trong ba vị trí: [[song song]] (cùng mặt phẳng, không có [[điểm chung]]), cắt nhau (có một điểm chung) hoặc chéo nhau (không cùng mặt phẳng). Hãy kéo hình để xoay hình lập phương.')
+theory += T(r'Two lines in space are in exactly one of three positions: <b>parallel</b> (same plane, no common point), <b>intersecting</b> (one common point), or <b>skew</b> (not in the same plane).',
+            r'Hai đường thẳng trong không gian ở đúng một trong ba vị trí: [[song song]] (cùng mặt phẳng, không có [[điểm chung]]), cắt nhau (có một điểm chung) hoặc chéo nhau (không cùng mặt phẳng).')
 HL, BL = {'color': '#c2410c', 'width': 4.5}, {'color': '#1d4ed8', 'width': 4.5}
 theory += GEO3D(cube(color_edges={('A', 'B'): HL, ('C', 'D'): HL, ('A', 'D'): BL, ('B′', 'C′'): {'color': '#7c3aed', 'width': 4.5}}),
                 cap=('Edge AB (orange). CD is parallel to AB; AD (blue) meets AB at A; B′C′ (purple) is skew to AB.', 'Cạnh AB (cam). CD song song với AB; AD (xanh) cắt AB tại A; B′C′ (tím) chéo nhau với AB.'),
@@ -162,7 +162,7 @@ checks = [
  ('I can tell if two lines in space are parallel, intersecting or skew.', 'Tôi nhận biết được hai đường thẳng trong không gian song song, cắt nhau hay chéo nhau.'),
  ('I can prove that a line is parallel to a plane.', 'Tôi chứng minh được đường thẳng song song với mặt phẳng.'),
  ('I can prove that two planes are parallel.', 'Tôi chứng minh được hai mặt phẳng song song.'),
- ('I can rotate a 3D figure and name its edges and faces.', 'Tôi xoay được hình không gian và gọi tên các cạnh, mặt.'),
+ ('I can read a 3D figure and name its edges and faces.', 'Tôi đọc được hình không gian và gọi tên các cạnh, mặt.'),
  STD_SUMMARY_CHECK_EN(),
 ]
 
@@ -171,6 +171,6 @@ lesson(id=LID, title_en='Parallel Lines and Planes', title_vi='Đường thẳng
        meta=meta, goals=goals, vocab=vocab, phrases=phrases, review=review, theory=theory, examples=examples,
        practice=practice, mistakes=mistakes, summary=summary, checks=checks,
        description='Parallel lines, parallel line and plane, and parallel planes in space, with 3D figures.', level='Intermediate', minutes=55,
-       description_vi='Hai đường thẳng song song, đường thẳng song song với mặt phẳng và hai mặt phẳng song song, kèm hình 3D xoay được.',
+       description_vi='Hai đường thẳng song song, đường thẳng song song với mặt phẳng và hai mặt phẳng song song, kèm hình vẽ không gian.',
        tags_vi=['song song', 'chéo nhau', 'mặt phẳng', 'hình chóp', 'hình lập phương', 'đường trung bình'],
        prerequisites=[], tags=['parallel', 'skew lines', 'plane', 'pyramid', 'cube'], order=70)

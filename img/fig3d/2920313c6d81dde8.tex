@@ -1,0 +1,41 @@
+\documentclass[tikz,border=3pt]{standalone}
+\usetikzlibrary{arrows.meta}
+\begin{document}
+\definecolor{c_ax}{HTML}{475569}
+\definecolor{c_hl}{HTML}{C2410C}
+\definecolor{c2}{HTML}{1F2937}
+\begin{tikzpicture}[x=0.8145cm,y=0.8145cm,line cap=round,line join=round]
+\draw[c_ax,line width=0.56pt,dash pattern=on 3pt off 2pt] (0.0000,0.0000) -- (-1.7366,-1.0026);
+\draw[c_ax,line width=0.70pt,-{Stealth[length=5pt]}] (-1.7366,-1.0026) -- (-2.3816,-1.3750);
+\node[anchor=north east,text=c_ax] at (-2.3816,-1.3750) {$x$};
+\draw[c_ax,line width=0.56pt,dash pattern=on 3pt off 2pt] (0.0000,0.0000) -- (2.9792,0.0000);
+\draw[c_ax,line width=0.70pt,-{Stealth[length=5pt]}] (2.9792,0.0000) -- (5.5000,0.0000);
+\node[anchor=west,text=c_ax] at (5.5000,0.0000) {$y$};
+\draw[c_ax,line width=0.56pt,dash pattern=on 3pt off 2pt] (0.0000,0.0000) -- (0.0000,1.9479);
+\draw[c_ax,line width=0.70pt,-{Stealth[length=5pt]}] (0.0000,1.9479) -- (0.0000,5.5000);
+\node[anchor=south,text=c_ax] at (0.0000,5.5000) {$z$};
+\draw[c2,line width=0.79pt,dash pattern=on 3pt off 2pt] (-1.7321,-1.0000) -- (0.0000,0.0000);
+\draw[c2,line width=0.79pt,dash pattern=on 3pt off 2pt] (3.0000,0.0000) -- (0.0000,0.0000);
+\draw[c2,line width=0.99pt] (1.2679,-1.0000) -- (3.0000,0.0000);
+\draw[c2,line width=0.99pt] (-1.7321,-1.0000) -- (1.2679,-1.0000);
+\draw[c2,line width=0.79pt,dash pattern=on 3pt off 2pt] (0.0000,0.0000) -- (0.0000,2.0000);
+\draw[c2,line width=0.99pt] (-1.7321,-1.0000) -- (-1.7321,1.0000);
+\draw[c2,line width=0.99pt] (-1.7321,1.0000) -- (0.0000,2.0000);
+\draw[c2,line width=0.99pt] (3.0000,2.0000) -- (0.0000,2.0000);
+\draw[c2,line width=0.99pt] (3.0000,0.0000) -- (3.0000,2.0000);
+\draw[c2,line width=0.99pt] (1.2679,-1.0000) -- (1.2679,1.0000);
+\draw[c2,line width=0.99pt] (-1.7321,1.0000) -- (1.2679,1.0000);
+\draw[c2,line width=0.99pt] (1.2679,1.0000) -- (3.0000,2.0000);
+\draw[c_hl,line width=1.30pt,dash pattern=on 3pt off 2pt] (0.0000,0.0000) -- (1.2679,1.0000);
+\node[anchor=north,inner sep=2pt] at (0.0000,0.0000) {$O$};
+\node[anchor=north,inner sep=2pt] at (-1.7321,-1.0000) {$A$};
+\node[anchor=north,inner sep=2pt] at (3.0000,0.0000) {$C$};
+\node[anchor=north west,inner sep=2pt] at (1.2679,-1.0000) {$B$};
+\node[anchor=south east,inner sep=2pt] at (0.0000,2.0000) {$O'$};
+\node[anchor=east,inner sep=2pt] at (-1.7321,1.0000) {$A'$};
+\node[anchor=south west,inner sep=2pt] at (3.0000,2.0000) {$C'$};
+\node[anchor=south,inner sep=2pt] at (1.2679,1.0000) {$B'$};
+\fill (0.6340,0.5000) circle[radius=1.3pt];
+\node[anchor=north west,inner sep=2pt] at (0.6340,0.5000) {$I$};
+\end{tikzpicture}
+\end{document}

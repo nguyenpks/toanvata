@@ -80,6 +80,13 @@ assert F(12, 30) * 50 == 20
 ST5 = [('In the cube \\(ABCD.A′B′C′D′\\), \\((A′BD)\\parallel(CB′D′)\\).', 'Trong hình lập phương \\(ABCD.A′B′C′D′\\), \\((A′BD)\\parallel(CB′D′)\\).', 'A′BD', 'CB′D′'),
        ('In the cube \\(ABCD.A′B′C′D′\\), \\((ABC′)\\parallel(A′B′C)\\).', 'Trong hình lập phương \\(ABCD.A′B′C′D′\\), \\((ABC′)\\parallel(A′B′C)\\).', 'ABC′', 'A′B′C'),
        ('In the cube \\(ABCD.A′B′C′D′\\), \\((ACD′)\\parallel(BA′C′)\\).', 'Trong hình lập phương \\(ABCD.A′B′C′D′\\), \\((ACD′)\\parallel(BA′C′)\\).', 'ACD′', 'BA′C′')]
+# ---- Hình vẽ cho ví dụ (TikZ -> SVG, tĩnh) ----
+from mb_solids import fig, FILL, HL, BL
+examples = EXFIG(examples, 1, GEO3D(fig('box', poly=[FILL(['A', 'B', 'B′', 'A′'], '#86e0bd', .35), FILL(['D', 'C', 'C′', 'D′'], '#fde68a', .45)]), alt=('Parallelepiped with two parallel faces shaded', '')))
+examples = EXFIG(examples, 2, GEO3D(fig('pyr', pts={'M': 'mid:S,A', 'N': 'mid:S,B', 'P': 'mid:S,C'}, poly=[FILL('MNP', '#fca5a5', .45), FILL('ABCD', '#86e0bd', .3)]), alt=('Pyramid with the plane MNP parallel to the base', '')))
+examples = EXFIG(examples, 3, GEO3D(fig('box', poly=[FILL(['B', 'A′', 'C′'], '#86e0bd', .4), FILL(['A', 'C', 'D′'], '#fde68a', .5)]), alt=('Parallelepiped with the planes BA′C′ and ACD′', '')))
+examples = EXFIG(examples, 5, GEO3D(fig('pyr', pts={'A′': 'on:S,A,2/5', 'B′': 'on:S,B,2/5', 'C′': 'on:S,C,2/5', 'D′': 'on:S,D,2/5'}, seg=[['A′', 'B′'], ['B′', 'C′'], ['C′', 'D′'], ['D′', 'A′']], poly=[FILL(['A′', 'B′', 'C′', 'D′'], '#fde68a', .5)]), alt=('Pyramid cut by a plane parallel to the base: the frustum is the lampshade', '')))
+
 def lvl(P):
     a, b, c = P['th']; x = F(b) * F(c) / a
     o1 = M4(1, 'Three parallel floors cut a straight cable at \\(A,B,C\\) and a straight rope at \\(A′,B′,C′\\). \\(AB=%s\\), \\(BC=%s\\), \\(A′B′=%s\\) (m). Then \\(B′C′=\\)…' % (fr(a), fr(b), fr(c)),

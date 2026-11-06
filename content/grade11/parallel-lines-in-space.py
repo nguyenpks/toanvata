@@ -46,6 +46,13 @@ examples += EXAMPLE(4, ('Intermediate', 'Trung bình'), ('Midpoints of a tetrahe
 examples += EXAMPLE(5, ('Advanced', 'Nâng cao'), ('Line of intersection parallel to a base side', 'Giao tuyến song song với cạnh đáy'), T('\\(S.ABCD\\) has a parallelogram base. Find the line of intersection of \\((SAB)\\) and \\((SCD)\\).', 'Cho hình chóp \\(S.ABCD\\) đáy là hình bình hành. Tìm giao tuyến của \\((SAB)\\) và \\((SCD)\\).'),
   T('\\(S\\) is a common point; find the direction using \\(AB\\parallel CD\\).', '\\(S\\) là điểm chung; tìm phương nhờ \\(AB\\parallel CD\\).'), [T('\\(AB\\subset(SAB)\\), \\(CD\\subset(SCD)\\) and \\(AB\\parallel CD\\).', '\\(AB\\subset(SAB)\\), \\(CD\\subset(SCD)\\) và \\(AB\\parallel CD\\).'), T('So the line of intersection passes through \\(S\\) and is parallel to \\(AB\\) and \\(CD\\).', 'Nên giao tuyến đi qua \\(S\\) và song song với \\(AB\\), \\(CD\\).')], T('The line through \\(S\\) parallel to \\(AB\\).', 'Đường thẳng qua \\(S\\) song song với \\(AB\\).'))
 KIND = {'par': ('parallel', 'song song'), 'skew': ('skew', 'chéo nhau'), 'int': ('intersecting', 'cắt nhau')}
+# ---- Hình vẽ cho ví dụ (TikZ -> SVG, tĩnh) ----
+from mb_solids import fig, FILL, HL, BL, GR, PU
+examples = EXFIG(examples, 1, GEO3D(fig('cube', hl={('A', 'B'): HL, ('C', 'D'): HL, ('A', 'D'): BL, ('C', 'C′'): PU}), alt=('Cube with the edges AB, CD, AD and CC′ highlighted', '')))
+examples = EXFIG(examples, 3, GEO3D(fig('pyr', pts={'M': 'mid:S,A', 'N': 'mid:S,B'}, seg=[['M', 'N', {'color': HL}]], hl={('C', 'D'): HL}), alt=('Pyramid with the midline MN parallel to CD', '')))
+examples = EXFIG(examples, 4, GEO3D(fig('tet', pts={'M': 'mid:A,B', 'N': 'mid:B,C', 'P': 'mid:C,D', 'Q': 'mid:D,A'}, seg=[['M', 'N', {'color': HL}], ['N', 'P', {'color': HL}], ['P', 'Q', {'color': HL}], ['Q', 'M', {'color': HL}]]), alt=('Tetrahedron with the parallelogram MNPQ', '')))
+examples = EXFIG(examples, 5, GEO3D(fig('pyr', pts={'d': (3.2, 0, 3.4), '_e': (-2.6, 0, 3.4)}, seg=[['_e', 'd', {'color': HL}]], hl={('A', 'B'): BL, ('C', 'D'): BL}), alt=('Pyramid with the line Sd through S parallel to AB and CD', '')))
+
 def lvl(P):
     nm, kd = P['sk']; c = S.count(nm, kd); f = str
     o1 = M4(1, 'How many pairs of edges of %s are %s?' % (S.NM[nm][0], S.KN[kd][0]), 'Có bao nhiêu cặp cạnh của %s %s?' % (S.NM[nm][1], S.KN[kd][1]), f(c), [f(c + 1), f(c - 1), f(2 * c)], 'Check each pair of edges.', 'Xét từng cặp cạnh.')

@@ -52,6 +52,15 @@ examples += EXAMPLE(5, ('Advanced', 'Nâng cao'), ('Perpendicular vectors', 'Hai
   T('Write both vectors with \\(\\vec a=\\overrightarrow{AB},\\vec b=\\overrightarrow{AD},\\vec c=\\overrightarrow{AA′}\\).', 'Viết cả hai vectơ theo \\(\\vec a=\\overrightarrow{AB},\\vec b=\\overrightarrow{AD},\\vec c=\\overrightarrow{AA′}\\).'), [T('\\(\\overrightarrow{AC′}=\\vec a+\\vec b+\\vec c\\), \\(\\overrightarrow{BD}=\\vec b-\\vec a\\).', '\\(\\overrightarrow{AC′}=\\vec a+\\vec b+\\vec c\\), \\(\\overrightarrow{BD}=\\vec b-\\vec a\\).'), T('\\(\\overrightarrow{AC′}\\cdot\\overrightarrow{BD}=|\\vec b|^2-|\\vec a|^2=0\\) (the cross terms are 0).', '\\(\\overrightarrow{AC′}\\cdot\\overrightarrow{BD}=|\\vec b|^2-|\\vec a|^2=0\\) (các tích chéo bằng 0).')], T('So \\(AC′\\perp BD\\).', 'Vậy \\(AC′\\perp BD\\).'))
 assert _dot(_vec('A', "C'"), _vec('B', 'D')) == 0
 
+# ---- Hình vẽ cho ví dụ (TikZ -> SVG, tĩnh) ----
+from mb_solids import fig, FILL, HL, BL, GR
+AR = lambda c: {'color': c, 'width': 3.6, 'arrow': True}
+examples = EXFIG(examples, 1, GEO3D(fig('cube', seg=[['A', 'B', AR(HL)], ['D', 'C', AR(BL)], ['A′', 'B′', AR(BL)], ['D′', 'C′', AR(BL)]]), alt=('Cube with four equal vectors', '')))
+examples = EXFIG(examples, 2, GEO3D(fig('cube', seg=[['A', 'B', AR(BL)], ['B', 'C', AR(BL)], ['C', 'C′', AR(BL)], ['A', 'C′', AR(HL)]]), alt=('Path A to B to C to C′ and the vector AC′', '')))
+examples = EXFIG(examples, 3, GEO3D(fig('cube', seg=[['A', 'C'], ['A', 'C′', AR(HL)]], right=[['C′', 'C', 'A']]), alt=('Cube with the diagonal AC′', '')))
+examples = EXFIG(examples, 4, GEO3D(fig('cube', seg=[['A', 'B', AR(HL)], ['A', 'C', AR(BL)]], angles=[['B', 'A', 'C']]), alt=('Vectors AB and AC in the base of the cube', '')))
+examples = EXFIG(examples, 5, GEO3D(fig('cube', seg=[['A', 'C′', {'color': HL, 'width': 3.6}], ['B', 'D', {'color': BL, 'width': 3.6}]]), alt=('The diagonal AC′ and the face diagonal BD', '')))
+
 def lvl(P):
     a, c1, c2, sm = P['a'], P['c1'], P['c2'], P['sm']; nm = lambda x: sp_g12._nm(x[0]) + sp_g12._nm(x[1])
     sums = {'A': ('AB', 'AD', "AA'", "AC'"), 'B': ('BA', 'BC', "BB'", "BD'"), 'C': ('CB', 'CD', "CC'", "CA'"), 'D': ('DA', 'DC', "DD'", "DB'")}

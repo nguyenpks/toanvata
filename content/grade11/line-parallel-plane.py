@@ -21,7 +21,7 @@ phrases = [('<b>Prove that the line \\(MN\\) is parallel to the plane \\((ABCD)\
            ('<b>Find the line of intersection of the two planes.</b>', 'Tìm giao tuyến của hai mặt phẳng.'), ('<b>Determine the cross-section of the pyramid.</b>', 'Xác định thiết diện của hình chóp.'), ('<b>The cross-section is a parallelogram.</b>', 'Thiết diện là hình bình hành.')]
 review = T('From Bài 10–11: two planes with a common point meet along a line; two lines are parallel when they lie in one plane and have no common point; a midline of a triangle is parallel to the third side and half of it; if two planes contain two parallel lines and meet, their line of intersection is parallel to both.',
            'Từ Bài 10–11: hai mặt phẳng có một điểm chung thì cắt nhau theo một giao tuyến; hai đường thẳng song song là hai đường thẳng cùng nằm trong một mặt phẳng và không có điểm chung; đường trung bình của tam giác song song với cạnh thứ ba và bằng nửa cạnh đó; hai mặt phẳng cắt nhau lần lượt chứa hai đường thẳng song song thì giao tuyến song song với hai đường thẳng đó.')
-A, B, C, D, Sp = (-3, -2, 0), (1, -2, 0), (3, 2, 0), (-1, 2, 0), (0, 0, 3.2)
+A, B, C, D, Sp = (-3, -2, 0), (2, -2, 0), (3, 2, 0), (-2, 2, 0), (0, 0, 3.2)
 mid = lambda P, Q: tuple((p + q) / 2 for p, q in zip(P, Q))
 M_, N_, Mc, Nd = mid(Sp, A), mid(Sp, B), mid(Sp, C), mid(Sp, D)
 assert all(abs((N_[i] - M_[i]) - (B[i] - A[i]) / 2) < 1e-12 for i in range(3)) and all(abs((Nd[i] - Mc[i]) - (D[i] - C[i]) / 2) < 1e-12 for i in range(3))
@@ -71,6 +71,14 @@ examples += EXAMPLE(5, ('Advanced', 'Nâng cao'), ('A plane through a base edge'
 assert all(abs((Nd[i] - Mc[i]) - (D[i] - C[i]) / 2) < 1e-12 for i in range(3))
 
 SOLNAME = S.NM
+# ---- Hình vẽ cho ví dụ (TikZ -> SVG, tĩnh) ----
+from mb_solids import fig, FILL, HL, BL
+examples = EXFIG(examples, 1, GEO3D(fig('cube', seg=[['A', 'C′', {'color': HL}]], poly=[FILL('ABCD', '#86e0bd', .3)], hl={('A′', 'B′'): BL, ('B′', 'C′'): BL, ('C′', 'D′'): BL, ('D′', 'A′'): BL}), alt=('Cube: the top edges are parallel to the base; AC′ cuts the base at A', '')))
+examples = EXFIG(examples, 2, GEO3D(fig('pyr', pts={'M': 'mid:S,A', 'N': 'mid:S,B'}, seg=[['M', 'N', {'color': HL}]], hl={('A', 'B'): BL, ('C', 'D'): BL}), alt=('Pyramid with MN parallel to AB and CD', '')))
+examples = EXFIG(examples, 3, GEO3D(fig('tet', pts={'I': 'mid:A,B', 'G_1': 'cen:A,B,C', 'G_2': 'cen:A,B,D'}, seg=[['C', 'I', {'color': '#64748b', 'width': 1.6}], ['D', 'I', {'color': '#64748b', 'width': 1.6}], ['G_1', 'G_2', {'color': HL}]]), alt=('Tetrahedron with the centroids G1 and G2', '')))
+examples = EXFIG(examples, 4, GEO3D(fig('tet', pts={'M': 'on:A,B,1/3', 'N': 'on:A,C,1/3', 'P': 'on:D,C,1/3', 'Q': 'on:D,B,1/3'}, poly=[FILL('MNPQ', '#fca5a5', .45)]), alt=('Tetrahedron with the cross-section MNPQ', '')))
+examples = EXFIG(examples, 5, GEO3D(fig('pyr', pts={'M': 'mid:S,C', 'N': 'mid:S,D'}, poly=[FILL(['A', 'B', 'M', 'N'], '#fca5a5', .45)]), alt=('Pyramid with the cross-section ABMN', '')))
+
 def lvl(P):
     sol, pl = P['cnt']; par, inn, cut = S.plane_rel(sol, pl)
     o1 = M4(1, 'How many edges of %s are parallel to the plane \\((%s)\\)?' % (SOLNAME[sol][0], pl), 'Có bao nhiêu cạnh của %s song song với mặt phẳng \\((%s)\\)?' % (SOLNAME[sol][1], pl), str(par), [str(par + inn), str(inn), str(cut + par), str(par + 1), str(par + 2)],

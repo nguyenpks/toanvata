@@ -23,7 +23,7 @@ review = T('From Bài 14: plane \\(Ax+By+Cz+D=0\\) with normal \\(\\vec n=(A;B;C
            'Từ Bài 14: mặt phẳng \\(Ax+By+Cz+D=0\\) có vectơ pháp tuyến \\(\\vec n=(A;B;C)\\); \\([\\vec u,\\vec v]\\) vuông góc với \\(\\vec u\\), \\(\\vec v\\); \\(\\vec u,\\vec v\\) cùng phương \\(\\iff[\\vec u,\\vec v]=\\vec0\\). Lớp 10: phương trình tham số của đường thẳng trong mặt phẳng.')
 # Hình: mặt phẳng x+y+z=4 và đường thẳng qua M vuông góc với nó
 Mf = (3, 3, 3); tH = F(5, 3); Hf = tuple(F(c) - tH for c in Mf); assert sum(Hf) == 4
-FIG = {'solid': ['O', 'A', 'B', 'C'], 'box': [[-0.5, 4.5], [-0.5, 4.5], [-0.5, 4.5]], 'points': {'O': (0, 0, 0), 'A': (4, 0, 0), 'B': (0, 4, 0), 'C': (0, 0, 4), 'M': Mf, 'H': tuple(float(c) for c in Hf)},
+FIG = {'proj': 'oxyz', 'axes': True, 'solid': ['O', 'A', 'B', 'C'], 'box': [[-0.5, 4.5], [-0.5, 4.5], [-0.5, 4.5]], 'points': {'O': (0, 0, 0), 'A': (4, 0, 0), 'B': (0, 4, 0), 'C': (0, 0, 4), 'M': Mf, 'H': tuple(float(c) for c in Hf)},
        'polygons': [{'points': ['A', 'B', 'C'], 'fill': '#86e0bd', 'opacity': .45}], 'segments': [['M', 'H', {'color': '#c2410c', 'width': 3}]]}
 theory = '<h3>15.1 %s</h3>' % TI('Direction vector. Equations of a line', 'Vectơ chỉ phương. Phương trình đường thẳng')
 theory += BOX('blue', ('Definitions', 'Định nghĩa'), UL([T('\\(\\vec u\\ne\\vec0\\) is a direction vector of \\(\\Delta\\) if it is parallel to \\(\\Delta\\) (or lies on it). Then \\(k\\vec u\\) (\\(k\\ne0\\)) is also a direction vector.', '\\(\\vec u\\ne\\vec0\\) là vectơ chỉ phương của \\(\\Delta\\) nếu giá của nó song song hoặc trùng với \\(\\Delta\\). Khi đó \\(k\\vec u\\) (\\(k\\ne0\\)) cũng là vectơ chỉ phương.'),

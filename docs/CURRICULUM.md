@@ -292,3 +292,17 @@ Sinh câu tự luyện: `tools/sp_g10e.py`, `tools/sp_g11e.py`, `tools/sp_g12d.p
 | 12 | 16 | g12-coord-05 | Công thức tính góc trong không gian (đường–đường, đường–mặt, mặt–mặt, góc trong hình lập phương) |
 
 Sinh câu tự luyện: `tools/sp_g10f.py`, `tools/sp_g11f.py`, `tools/sp_g12e.py`. Bài cũ `g11-exp-02` (Hàm số mũ và phương trình mũ) vẫn mở, xếp sau Bài 18 (`lessonOrder` = 200, chưa đánh số).
+
+## Hình không gian tĩnh (TikZ → SVG)
+
+Hình không gian không còn dùng JSXGraph 3D (xoay được nhưng hay lỗi khi tải). `GEO3D(cfg, …)` nay vẽ **hình tĩnh** bằng TikZ:
+
+- `tools/mb_tikz3d.py` dựng mã TikZ từ cấu hình cũ (`points`, `solid`, `segments`, `polygons`), biên dịch bằng `pdflatex`, chuyển sang SVG bằng `pdftocairo -svg`, lưu ở `img/fig3d/<mã băm>.svg` (kèm tệp `.tex`; mã TikZ không đổi thì không biên dịch lại).
+- Phép chiếu song song kiểu SGK: hộp/lập phương trục sâu 30°, hệ số 1/2; chóp, tứ diện 42°, hệ số 0,6; `'proj': 'oxyz'` cho hình trong hệ tọa độ (Ox hướng xuống trái, có thể thêm `'axes': True`).
+- **Nét khuất tự tính**: một điểm bị che nếu tia từ điểm đó về phía người nhìn đi qua khối; đoạn thẳng tự tách thành phần nét liền / nét đứt.
+- Tùy chọn thêm: `'right': [['S','A','B']]` (kí hiệu góc vuông tại A), `'angles': [['S','C','A']]` (cung góc tại C), `'nolabel'`, `'labelpos'`, `'arrow': True` cho đoạn thẳng.
+- `tools/mb_solids.py`: thư viện khối dựng sẵn (`fig('pyr' | 'pyrsq' | 'tet' | 'cube' | 'box', pts={'M': 'mid:S,C', 'G': 'cen:A,B,C', 'P': 'on:A,B,1/3'}, …)`).
+- `EXFIG(examples, n, GEO3D(...))` chèn hình vào đề của Ví dụ n. Đã thêm hình cho các ví dụ hình không gian lớp 11 (Bài 10–13, quan hệ vuông góc) và lớp 12 (hệ tọa độ, vectơ trong không gian, công thức tính góc).
+- Cần TeX Live có `pgf/tikz` và `poppler-utils` (`pdftocairo`) trên máy dựng bài; người học chỉ tải SVG.
+
+Sửa lỗi "Phân tích: d": khi phần phân tích của ví dụ được truyền dưới dạng khối `T(...)`, `EXAMPLE` trước đây chỉ lấy kí tự thứ hai ("d"). Nay chèn đúng nhãn "Phân tích:" vào khối đó; ví dụ không có phân tích thì không hiện dòng này.

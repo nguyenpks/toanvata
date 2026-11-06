@@ -1,0 +1,35 @@
+\documentclass[tikz,border=3pt]{standalone}
+\usetikzlibrary{arrows.meta}
+\begin{document}
+\definecolor{c_ax}{HTML}{475569}
+\definecolor{c_hl}{HTML}{C2410C}
+\definecolor{c2}{HTML}{FCA5A5}
+\definecolor{c3}{HTML}{86E0BD}
+\definecolor{c4}{HTML}{1F2937}
+\begin{tikzpicture}[x=0.8993cm,y=0.8993cm,line cap=round,line join=round]
+\fill[c3,fill opacity=0.30] (-3.8918,-0.8030) -- (1.1082,-0.8030) -- (3.8918,0.8030) -- (-1.1082,0.8030) -- cycle;
+\fill[c2,fill opacity=0.45] (-1.9459,1.2985) -- (0.5541,1.2985) -- (1.9459,2.1015) -- cycle;
+\draw[c4,line width=0.99pt] (1.1082,-0.8030) -- (0.0000,3.4000);
+\draw[c4,line width=0.99pt] (-3.8918,-0.8030) -- (0.0000,3.4000);
+\draw[c4,line width=0.99pt] (-3.8918,-0.8030) -- (1.1082,-0.8030);
+\draw[c4,line width=0.79pt,dash pattern=on 3pt off 2pt] (-1.1082,0.8030) -- (0.0000,3.4000);
+\draw[c4,line width=0.79pt,dash pattern=on 3pt off 2pt] (-3.8918,-0.8030) -- (-1.1082,0.8030);
+\draw[c4,line width=0.99pt] (3.8918,0.8030) -- (0.0000,3.4000);
+\draw[c4,line width=0.99pt] (1.1082,-0.8030) -- (3.8918,0.8030);
+\draw[c4,line width=0.79pt,dash pattern=on 3pt off 2pt] (3.8918,0.8030) -- (-1.1082,0.8030);
+\draw[c4,line width=0.80pt] (-1.9459,1.2985) -- (0.5541,1.2985);
+\draw[c4,line width=0.80pt] (0.5541,1.2985) -- (1.9459,2.1015);
+\draw[c4,line width=0.64pt,dash pattern=on 3pt off 2pt] (1.9459,2.1015) -- (-1.9459,1.2985);
+\node[anchor=north east,inner sep=2pt] at (-3.8918,-0.8030) {$A$};
+\node[anchor=north west,inner sep=2pt] at (1.1082,-0.8030) {$B$};
+\node[anchor=west,inner sep=2pt] at (3.8918,0.8030) {$C$};
+\node[anchor=south east,inner sep=2pt] at (-1.1082,0.8030) {$D$};
+\node[anchor=south,inner sep=2pt] at (0.0000,3.4000) {$S$};
+\fill (-1.9459,1.2985) circle[radius=1.3pt];
+\node[anchor=south east,inner sep=2pt] at (-1.9459,1.2985) {$M$};
+\fill (0.5541,1.2985) circle[radius=1.3pt];
+\node[anchor=west,inner sep=2pt] at (0.5541,1.2985) {$N$};
+\fill (1.9459,2.1015) circle[radius=1.3pt];
+\node[anchor=south west,inner sep=2pt] at (1.9459,2.1015) {$P$};
+\end{tikzpicture}
+\end{document}

@@ -1,0 +1,33 @@
+\documentclass[tikz,border=3pt]{standalone}
+\usetikzlibrary{arrows.meta}
+\begin{document}
+\definecolor{c_ax}{HTML}{475569}
+\definecolor{c_hl}{HTML}{C2410C}
+\definecolor{c2}{HTML}{86E0BD}
+\definecolor{c3}{HTML}{FDE68A}
+\definecolor{c4}{HTML}{1F2937}
+\begin{tikzpicture}[x=0.8163cm,y=0.8163cm,line cap=round,line join=round]
+\fill[c3,fill opacity=0.45] (-0.3505,0.3750) -- (3.6495,0.3750) -- (4.7093,3.5250) -- (0.7093,3.5250) -- cycle;
+\fill[c2,fill opacity=0.35] (-3.8660,-0.5000) -- (0.1340,-0.5000) -- (1.1938,2.6500) -- (-2.8062,2.6500) -- cycle;
+\draw[c4,line width=0.99pt] (0.1340,-0.5000) -- (3.6495,0.3750);
+\draw[c4,line width=0.99pt] (-3.8660,-0.5000) -- (0.1340,-0.5000);
+\draw[c4,line width=0.79pt,dash pattern=on 3pt off 2pt] (-3.8660,-0.5000) -- (-0.3505,0.3750);
+\draw[c4,line width=0.79pt,dash pattern=on 3pt off 2pt] (3.6495,0.3750) -- (-0.3505,0.3750);
+\draw[c4,line width=0.99pt] (-3.8660,-0.5000) -- (-2.8062,2.6500);
+\draw[c4,line width=0.99pt] (0.1340,-0.5000) -- (1.1938,2.6500);
+\draw[c4,line width=0.99pt] (-2.8062,2.6500) -- (1.1938,2.6500);
+\draw[c4,line width=0.99pt] (-2.8062,2.6500) -- (0.7093,3.5250);
+\draw[c4,line width=0.79pt,dash pattern=on 3pt off 2pt] (-0.3505,0.3750) -- (0.7093,3.5250);
+\draw[c4,line width=0.99pt] (1.1938,2.6500) -- (4.7093,3.5250);
+\draw[c4,line width=0.99pt] (3.6495,0.3750) -- (4.7093,3.5250);
+\draw[c4,line width=0.99pt] (4.7093,3.5250) -- (0.7093,3.5250);
+\node[anchor=north east,inner sep=2pt] at (-3.8660,-0.5000) {$A$};
+\node[anchor=north,inner sep=2pt] at (0.1340,-0.5000) {$B$};
+\node[anchor=west,inner sep=2pt] at (3.6495,0.3750) {$C$};
+\node[anchor=north,inner sep=2pt] at (-0.3505,0.3750) {$D$};
+\node[anchor=east,inner sep=2pt] at (-2.8062,2.6500) {$A'$};
+\node[anchor=south,inner sep=2pt] at (1.1938,2.6500) {$B'$};
+\node[anchor=south west,inner sep=2pt] at (4.7093,3.5250) {$C'$};
+\node[anchor=south,inner sep=2pt] at (0.7093,3.5250) {$D'$};
+\end{tikzpicture}
+\end{document}

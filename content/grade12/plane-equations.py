@@ -24,8 +24,8 @@ review = T('From Bài 7–8: in \\(Oxyz\\), \\(\\overrightarrow{AB}=(x_B-x_A;y_B
 A0, B0, C0 = (3, 0, 0), (0, 2, 0), (0, 0, 4); n0 = cross(sub(B0, A0), sub(C0, A0)); assert n0 == (8, 12, 6)
 G0 = (1, F(2, 3), F(4, 3)); assert dot((4, 6, 3), A0) == 12 and 4 * G0[0] + 6 * G0[1] + 3 * G0[2] == 12
 Nt = tuple(float(g) + 0.18 * c for g, c in zip(G0, (4, 6, 3)))
-FIG = {'solid': ['O', 'A', 'B', 'C'], 'box': [[-0.5, 4], [-0.5, 3.5], [-0.5, 5]], 'points': {'O': (0, 0, 0), 'A': A0, 'B': B0, 'C': C0, 'G': tuple(float(g) for g in G0), 'N': Nt},
-       'polygons': [{'points': ['A', 'B', 'C'], 'fill': '#86e0bd', 'opacity': .45}], 'segments': [['G', 'N', {'color': '#c2410c', 'width': 4}]]}
+FIG = {'proj': 'oxyz', 'axes': True, 'nolabel': ['G', 'N'], 'solid': ['O', 'A', 'B', 'C'], 'box': [[-0.5, 4], [-0.5, 3.5], [-0.5, 5]], 'points': {'O': (0, 0, 0), 'A': A0, 'B': B0, 'C': C0, 'G': tuple(float(g) for g in G0), 'N': Nt},
+       'polygons': [{'points': ['A', 'B', 'C'], 'fill': '#86e0bd', 'opacity': .45}], 'segments': [['G', 'N', {'color': '#c2410c', 'width': 4, 'arrow': True}]]}
 theory = '<h3>14.1 %s</h3>' % TI('Normal vector and direction vectors', 'Vectơ pháp tuyến và cặp vectơ chỉ phương')
 theory += BOX('blue', ('Definitions', 'Định nghĩa'), UL([T('\\(\\vec n\\ne\\vec0\\) is a normal vector of \\((P)\\) if it is perpendicular to \\((P)\\). Then \\(k\\vec n\\) (\\(k\\ne0\\)) is also a normal vector.', '\\(\\vec n\\ne\\vec0\\) là vectơ pháp tuyến của \\((P)\\) nếu giá của \\(\\vec n\\) vuông góc với \\((P)\\). Khi đó \\(k\\vec n\\) (\\(k\\ne0\\)) cũng là vectơ pháp tuyến.'),
   T('Two non-collinear vectors \\(\\vec u\\), \\(\\vec v\\) parallel to (or in) \\((P)\\) form a pair of direction vectors.', 'Hai vectơ không cùng phương \\(\\vec u\\), \\(\\vec v\\) có giá song song hoặc nằm trong \\((P)\\) là một cặp vectơ chỉ phương của \\((P)\\).')]))

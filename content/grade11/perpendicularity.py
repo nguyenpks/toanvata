@@ -117,6 +117,13 @@ examples += EXAMPLE(3, ('Advanced', 'Nâng cao'), ('Two perpendicular planes', '
    T(r'\(AC\) and \(SA\) intersect at \(A\) in \((SAC)\), so \(BD\perp(SAC)\).', r'\(AC\) và \(SA\) cắt nhau tại \(A\) trong \((SAC)\) nên \(BD\perp(SAC)\).'),
    T(r'The plane \((SBD)\) contains \(BD\perp(SAC)\), so \((SBD)\perp(SAC)\).', r'Mặt phẳng \((SBD)\) chứa \(BD\perp(SAC)\) nên \((SBD)\perp(SAC)\).')], TI('Proved.', 'Đã chứng minh.'))
 
+# ---- Hình vẽ cho ví dụ (TikZ -> SVG, tĩnh) ----
+from mb_solids import fig, FILL, HL, BL
+examples = EXFIG(examples, 1, GEO3D(fig('pyrsq', hl={('B', 'C'): HL}, poly=[FILL('SAB', '#86e0bd', .4)], right=[['S', 'A', 'B'], ['C', 'B', 'A']]), alt=('Pyramid with SA perpendicular to the base and BC perpendicular to SAB', '')))
+examples = EXFIG(examples, 2, GEO3D(fig('pyrsq', seg=[['A', 'C'], ['S', 'C', {'color': HL}]], angles=[['S', 'C', 'A']], right=[['S', 'A', 'C']]), alt=('The angle SCA between SC and the base', '')))
+examples = EXFIG(examples, 3, GEO3D(fig('pyrsq', pts={'O': 'mid:A,C'}, seg=[['A', 'C'], ['B', 'D', {'color': HL}], ['S', 'O']], poly=[FILL('SAC', '#fde68a', .45), FILL('SBD', '#86e0bd', .35)]), alt=('Planes SAC and SBD in the pyramid', '')))
+
+
 SQ = lambda a_, h_: r'In the pyramid \(S.ABCD\), \(ABCD\) is a square of side %s and \(SA\perp(ABCD)\), \(SA=%s\). ' % (a_, h_)
 SQV = lambda a_, h_: r'Trong hình chóp \(S.ABCD\), đáy \(ABCD\) là hình vuông cạnh %s, \(SA\perp(ABCD)\), \(SA=%s\). ' % (a_, h_)
 # A1 độ dài AC; A2 độ dài SB; A3 đường vuông góc với mặt phẳng; B nhận định; C5 tan của góc SB và đáy; C6 SC²

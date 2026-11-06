@@ -215,8 +215,15 @@ def GEO(cfg, cap=None, alt=None, height=360):
     return _mbg(cfg, 'geo', cap, alt, height)
 
 def GEO3D(cfg, cap=None, alt=None, height=380):
-    """Hình không gian (JSXGraph 3D): cfg = {box:[[x0,x1],[y0,y1],[z0,z1]], points:{A:[x,y,z]}, segments:[['A','B']], polygons:[['A','B','C']]}."""
-    return _mbg(cfg, '3d', cap, alt, height)
+    """Hình không gian TĨNH: vẽ bằng TikZ, biên dịch thành SVG (tools/mb_tikz3d.py). Nét khuất tự tính; không xoay."""
+    import html as _h
+    from mb_tikz3d import svg as _svg
+    fn = _svg(cfg)
+    drop = re.compile(r'\s*(Drag (the figure )?to rotate( the cube)?\.?|(Hãy )?[Kk]éo (hình )?để xoay hình( lập phương)?\.?)')
+    c = '<figcaption>%s</figcaption>' % TI(drop.sub('', cap[0]), drop.sub('', cap[1])) if cap else ''
+    a = _h.escape(alt[0] if alt else 'Figure', quote=True)
+    return ('<figure class="mbl-fig mbl-fig3d"><img src="../../../img/fig3d/%s" alt="%s" loading="lazy" '
+            'style="display:block;margin:0 auto;width:min(100%%,%dpx);height:auto"></figure>' % (fn, a, cfg.get('px', 440))).replace('</figure>', c + '</figure>')
 
 def LEVEL_PRACTICE(titles, sets):
     """Bài tập mỗi mức một bộ RIÊNG nhưng cùng dạng (khác số liệu/hàm số), không dịch lại cùng một bài.
@@ -253,7 +260,12 @@ def EXAMPLE(n, tag, title, problem, analysis, steps, answer_html):
     s = '<section class="mbl-ex" aria-label="Example %d">' % n
     s += '<h3>%s %d<span class="mbl-tag">%s</span> – %s</h3>' % (TI('Example', 'Ví dụ'), n, TI(*tag), TI(*title))
     s += '<div class="box blue">%s</div>' % problem
-    s += '<div class="tx"><p class="en"><b>Analysis:</b> %s</p>%s<p class="vi"><b>Phân tích:</b> %s</p></div>' % (plain(analysis[0]), BTN, terms(analysis[1]))
+    if isinstance(analysis, str):          # khối T(...) đã dựng sẵn: chèn nhãn "Phân tích" vào hai dòng en / vi
+        if re.sub(r'<[^>]+>|\s', '', analysis):
+            analysis = re.sub(r'(<(p|div) class="en"[^>]*>)', r'\1<b>Analysis:</b> ', analysis, count=1)
+            s += re.sub(r'(<(p|div) class="vi">)', r'\1<b>Phân tích:</b> ', analysis, count=1)
+    elif analysis and (analysis[0] or analysis[1]):
+        s += '<div class="tx"><p class="en"><b>Analysis:</b> %s</p>%s<p class="vi"><b>Phân tích:</b> %s</p></div>' % (plain(analysis[0]), BTN, terms(analysis[1]))
     s += REVEAL(OL(steps) + '<div class="mbl-answer">%s %s</div>' % (TI('Answer:', 'Đáp số:'), answer_html))
     return s + '</section>'
 
@@ -359,3 +371,11 @@ def title_pair(lid, en, _):
     return _titles[lid]
 def set_title(lid, en, vi):
     _titles[lid] = (en, vi)
+
+
+def EXFIG(examples, n, fig_html):
+    """Chèn hình vẽ vào đề của Ví dụ n (ngay sau đề bài, trong khung xanh)."""
+    tag = '<section class="mbl-ex" aria-label="Example %d">' % n
+    i = examples.index(tag); j = examples.index('<div class="box blue">', i) + len('<div class="box blue">')
+    k = examples.index('</div></div>', j) + len('</div>')       # hết khối T(...) của đề bài
+    return examples[:k] + fig_html + examples[k:]
