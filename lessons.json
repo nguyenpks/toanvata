@@ -284,6 +284,47 @@
     "no": 12
   },
   {
+    "id": "g10-stats-02",
+    "grade": 10,
+    "category": "Các số đặc trưng của mẫu số liệu không ghép nhóm",
+    "title": "Các số đặc trưng đo xu thế trung tâm",
+    "description": "Bài 13 – Số trung bình, trung vị, tứ phân vị, mốt của mẫu số liệu không ghép nhóm; chọn số đặc trưng phù hợp.",
+    "level": "Beginner",
+    "estimatedMinutes": 60,
+    "prerequisites": [
+      "g10-stats-01"
+    ],
+    "path": "lessons/grade10/statistics/central-tendency.html",
+    "tags": [
+      "số trung bình",
+      "trung vị",
+      "tứ phân vị",
+      "mốt"
+    ],
+    "no": 13
+  },
+  {
+    "id": "g10-stats-03",
+    "grade": 10,
+    "category": "Các số đặc trưng của mẫu số liệu không ghép nhóm",
+    "title": "Các số đặc trưng đo độ phân tán",
+    "description": "Bài 14 – Khoảng biến thiên, khoảng tứ phân vị, giá trị ngoại lai, phương sai, độ lệch chuẩn của mẫu số liệu không ghép nhóm.",
+    "level": "Intermediate",
+    "estimatedMinutes": 65,
+    "prerequisites": [
+      "g10-stats-02"
+    ],
+    "path": "lessons/grade10/statistics/dispersion.html",
+    "tags": [
+      "khoảng biến thiên",
+      "khoảng tứ phân vị",
+      "phương sai",
+      "độ lệch chuẩn",
+      "giá trị ngoại lai"
+    ],
+    "no": 14
+  },
+  {
     "id": "g11-functions-01",
     "grade": 11,
     "category": "Hàm số và đồ thị",
@@ -396,7 +437,9 @@
       "vô cực",
       "tiệm cận",
       "dạng 0/0"
-    ]
+    ],
+    "locked": true,
+    "lockNote": "Đã soạn lại thành Bài 16 (g11-limits-04)"
   },
   {
     "id": "g11-trige-01",
@@ -700,6 +743,46 @@
     "no": 14
   },
   {
+    "id": "g11-limits-03",
+    "grade": 11,
+    "category": "Giới hạn. Hàm số liên tục",
+    "title": "Giới hạn của dãy số",
+    "description": "Bài 15 – Giới hạn hữu hạn của dãy số, định lí về giới hạn, cấp số nhân lùi vô hạn, số thập phân tuần hoàn, giới hạn vô cực.",
+    "level": "Intermediate",
+    "estimatedMinutes": 70,
+    "prerequisites": [
+      "g11-space-08"
+    ],
+    "path": "lessons/grade11/limits/sequence-limits.html",
+    "tags": [
+      "giới hạn",
+      "dãy số",
+      "cấp số nhân lùi vô hạn",
+      "vô cực"
+    ],
+    "no": 15
+  },
+  {
+    "id": "g11-limits-04",
+    "grade": 11,
+    "category": "Giới hạn. Hàm số liên tục",
+    "title": "Giới hạn của hàm số",
+    "description": "Bài 16 – Giới hạn hữu hạn tại một điểm, giới hạn một phía, giới hạn tại vô cực, giới hạn vô cực; khử dạng 0/0.",
+    "level": "Intermediate",
+    "estimatedMinutes": 75,
+    "prerequisites": [
+      "g11-limits-03"
+    ],
+    "path": "lessons/grade11/limits/function-limits.html",
+    "tags": [
+      "giới hạn hàm số",
+      "giới hạn một phía",
+      "dạng vô định",
+      "vô cực"
+    ],
+    "no": 16
+  },
+  {
     "id": "g12-mono-01",
     "grade": 12,
     "category": "Ứng dụng của đạo hàm",
@@ -933,6 +1016,46 @@
       "tổng lượng biến thiên"
     ],
     "no": 12
+  },
+  {
+    "id": "g12-int-03",
+    "grade": 12,
+    "category": "Nguyên hàm và tích phân",
+    "title": "Ứng dụng hình học của tích phân",
+    "description": "Bài 13 – Diện tích hình phẳng, thể tích vật thể theo thiết diện, thể tích khối tròn xoay; bài toán thực tế.",
+    "level": "Intermediate",
+    "estimatedMinutes": 75,
+    "prerequisites": [
+      "g12-int-02"
+    ],
+    "path": "lessons/grade12/integrals/integral-applications.html",
+    "tags": [
+      "diện tích hình phẳng",
+      "thể tích",
+      "thiết diện",
+      "khối tròn xoay"
+    ],
+    "no": 13
+  },
+  {
+    "id": "g12-coord-03",
+    "grade": 12,
+    "category": "Phương pháp tọa độ trong không gian",
+    "title": "Phương trình mặt phẳng",
+    "description": "Bài 14 – Vectơ pháp tuyến, tích có hướng, phương trình mặt phẳng, điều kiện song song, vuông góc, khoảng cách từ điểm đến mặt phẳng.",
+    "level": "Intermediate",
+    "estimatedMinutes": 75,
+    "prerequisites": [
+      "g12-int-03"
+    ],
+    "path": "lessons/grade12/space-coordinates/plane-equations.html",
+    "tags": [
+      "mặt phẳng",
+      "vectơ pháp tuyến",
+      "tích có hướng",
+      "khoảng cách"
+    ],
+    "no": 14
   },
   {
     "id": "g12-antider-01",

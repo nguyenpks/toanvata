@@ -264,3 +264,18 @@ Sinh câu tự luyện: `tools/sp_g10d.py`, `tools/sp_g11d.py`, `tools/sp_g12c.p
 **Tạm khóa thêm:** `g11-space-02` (đã soạn lại thành Bài 12, 13), `g12-antider-01` (đã soạn lại thành Bài 11), `g12-antider-02` (đổi biến, từng phần – ngoài danh mục KNTT). Nội dung cũ vẫn giữ trong `content/`.
 
 **Thuật ngữ mới tự gắn vào bài cũ:** từ vựng mới (tung độ, hoành độ, cạnh bên, hình hộp, tích vô hướng, đường thẳng song song với mặt phẳng) được hệ thống tự bọc trong câu hỏi của một số bài cũ (chỉ thêm chú thích khi bấm, nội dung không đổi). Hai thuật ngữ dễ nhầm nghĩa được đặt khóa riêng: "số đúng (giá trị thật)", "góc nhọn (nhỏ hơn 90°)".
+
+## Đợt 8 — 6 bài mới (2 bài mỗi khối) và sửa ký hiệu dấu phẩy trên
+
+| Lớp | Bài | Mã bài | Nội dung |
+|---|---|---|---|
+| 10 | 13 | g10-stats-02 | Các số đặc trưng đo xu thế trung tâm |
+| 10 | 14 | g10-stats-03 | Các số đặc trưng đo độ phân tán |
+| 11 | 15 | g11-limits-03 | Giới hạn của dãy số |
+| 11 | 16 | g11-limits-04 | Giới hạn của hàm số |
+| 12 | 13 | g12-int-03 | Ứng dụng hình học của tích phân |
+| 12 | 14 | g12-coord-03 | Phương trình mặt phẳng |
+
+Sinh câu tự luyện: `tools/sp_g10e.py`, `tools/sp_g11e.py`, `tools/sp_g12d.py`. Tạm khóa thêm `g11-limits-02` (đã soạn lại thành Bài 16).
+
+**Ký hiệu dấu phẩy trên (A', B', f'(x)):** ký tự `′` (U+2032) trong công thức bị MathJax vẽ ở chân chữ ("Aı"). `tools/mb_model.py` (`fix_math_prime`) tự đổi `′` thành `'` bên trong `\( … \)` và `\[ … \]` khi dựng trang, nên người soạn vẫn có thể gõ `A′` trong nội dung; nhãn trên hình vẽ và chữ thường giữ nguyên `′`.

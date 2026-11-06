@@ -148,10 +148,19 @@ def fix_math_lt(html):
     return ''.join(x if i % 2 else re.sub(r'(?<!\\)\\\((?:(?!\\\)).)*?\\\)', f, x, flags=re.S) for i, x in enumerate(segs))
 
 
+def fix_math_prime(html):
+    """Trong công thức \\( … \\) / \\[ … \\], ký tự ′ (U+2032) bị MathJax vẽ ở chân chữ (A′ thành "Aı").
+    Đổi sang dấu nháy ' để TeX dựng dấu phẩy trên chuẩn SGK: A'B'C'D', f'(x). Chữ thường và nhãn hình vẽ giữ nguyên ′."""
+    segs = re.split(r'(<script.*?</script>)', html, flags=re.S)
+    f = lambda m: m.group(0).replace('″', "''").replace('′', "'")
+    pat = r'(?<!\\)\\\((?:(?!\\\)).)*?\\\)|(?<!\\)\\\[(?:(?!\\\]).)*?\\\]'
+    return ''.join(x if i % 2 else re.sub(pat, f, x, flags=re.S) for i, x in enumerate(segs))
+
+
 def lesson(**c):
     """Điểm nhập duy nhất của người viết nội dung. Dựng bài, ghi file; lessons.json do build_all tổng hợp."""
     html, entry = render(c)
-    html = fix_math_lt(html)
+    html = fix_math_prime(fix_math_lt(html))
     out = os.path.join(ROOT, entry['path']); os.makedirs(os.path.dirname(out), exist_ok=True)
     open(out, 'w', encoding='utf-8').write(html)
     REGISTRY.append((c.get('order', 0), entry))
