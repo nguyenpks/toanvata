@@ -223,6 +223,67 @@
     "no": 9
   },
   {
+    "id": "g10-vec-04",
+    "grade": 10,
+    "category": "Vectơ",
+    "title": "Vectơ trong mặt phẳng tọa độ",
+    "description": "Bài 10 – Tọa độ của điểm, vectơ; biểu thức tọa độ các phép toán vectơ; trung điểm, trọng tâm, ba điểm thẳng hàng.",
+    "level": "Intermediate",
+    "estimatedMinutes": 70,
+    "prerequisites": [
+      "g10-vec-03"
+    ],
+    "path": "lessons/grade10/vectors/vectors-coordinate-plane.html",
+    "tags": [
+      "tọa độ",
+      "vectơ",
+      "trung điểm",
+      "trọng tâm",
+      "thẳng hàng"
+    ],
+    "no": 10
+  },
+  {
+    "id": "g10-vec-05",
+    "grade": 10,
+    "category": "Vectơ",
+    "title": "Tích vô hướng của hai vectơ",
+    "description": "Bài 11 – Góc giữa hai vectơ, tích vô hướng theo định nghĩa và tọa độ, vectơ vuông góc, công của lực.",
+    "level": "Intermediate",
+    "estimatedMinutes": 70,
+    "prerequisites": [
+      "g10-vec-04"
+    ],
+    "path": "lessons/grade10/vectors/dot-product.html",
+    "tags": [
+      "tích vô hướng",
+      "góc giữa hai vectơ",
+      "vuông góc",
+      "công của lực"
+    ],
+    "no": 11
+  },
+  {
+    "id": "g10-stats-01",
+    "grade": 10,
+    "category": "Các số đặc trưng của mẫu số liệu không ghép nhóm",
+    "title": "Số gần đúng và sai số",
+    "description": "Bài 12 – Số gần đúng, sai số tuyệt đối, độ chính xác, sai số tương đối và quy tròn số gần đúng.",
+    "level": "Beginner",
+    "estimatedMinutes": 55,
+    "prerequisites": [
+      "g10-vec-05"
+    ],
+    "path": "lessons/grade10/statistics/approximate-numbers-errors.html",
+    "tags": [
+      "số gần đúng",
+      "sai số tuyệt đối",
+      "sai số tương đối",
+      "quy tròn"
+    ],
+    "no": 12
+  },
+  {
     "id": "g11-functions-01",
     "grade": 11,
     "category": "Hàm số và đồ thị",
@@ -479,7 +540,9 @@
       "hình chóp",
       "hình lập phương",
       "đường trung bình"
-    ]
+    ],
+    "locked": true,
+    "lockNote": "Đã soạn lại thành Bài 12 (g11-space-06) và Bài 13 (g11-space-07)"
   },
   {
     "id": "g11-stats-01",
@@ -575,6 +638,66 @@
       "đường trung bình"
     ],
     "no": 11
+  },
+  {
+    "id": "g11-space-06",
+    "grade": 11,
+    "category": "Quan hệ song song trong không gian",
+    "title": "Đường thẳng và mặt phẳng song song",
+    "description": "Bài 12 – Vị trí tương đối, điều kiện và tính chất của đường thẳng song song với mặt phẳng; thiết diện.",
+    "level": "Intermediate",
+    "estimatedMinutes": 70,
+    "prerequisites": [
+      "g11-space-05"
+    ],
+    "path": "lessons/grade11/lines-and-planes-in-space/line-parallel-plane.html",
+    "tags": [
+      "đường thẳng song song mặt phẳng",
+      "thiết diện",
+      "giao tuyến"
+    ],
+    "no": 12
+  },
+  {
+    "id": "g11-space-07",
+    "grade": 11,
+    "category": "Quan hệ song song trong không gian",
+    "title": "Hai mặt phẳng song song",
+    "description": "Bài 13 – Hai mặt phẳng song song: điều kiện, tính chất, định lí Thalès; hình lăng trụ, hình hộp, hình chóp cụt.",
+    "level": "Intermediate",
+    "estimatedMinutes": 70,
+    "prerequisites": [
+      "g11-space-06"
+    ],
+    "path": "lessons/grade11/lines-and-planes-in-space/parallel-planes.html",
+    "tags": [
+      "hai mặt phẳng song song",
+      "Thalès",
+      "lăng trụ",
+      "hình hộp",
+      "chóp cụt"
+    ],
+    "no": 13
+  },
+  {
+    "id": "g11-space-08",
+    "grade": 11,
+    "category": "Quan hệ song song trong không gian",
+    "title": "Phép chiếu song song",
+    "description": "Bài 14 – Phép chiếu song song: định nghĩa, tính chất, hình biểu diễn của hình không gian, bóng dưới ánh nắng.",
+    "level": "Intermediate",
+    "estimatedMinutes": 60,
+    "prerequisites": [
+      "g11-space-07"
+    ],
+    "path": "lessons/grade11/lines-and-planes-in-space/parallel-projection.html",
+    "tags": [
+      "phép chiếu song song",
+      "hình chiếu",
+      "hình biểu diễn",
+      "bóng"
+    ],
+    "no": 14
   },
   {
     "id": "g12-mono-01",
@@ -753,6 +876,65 @@
     "no": 9
   },
   {
+    "id": "g12-stats-02",
+    "grade": 12,
+    "category": "Các số đặc trưng đo mức độ phân tán",
+    "title": "Phương sai và độ lệch chuẩn",
+    "description": "Bài 10 – Phương sai, độ lệch chuẩn của mẫu số liệu ghép nhóm; ý nghĩa và so sánh độ ổn định.",
+    "level": "Intermediate",
+    "estimatedMinutes": 65,
+    "prerequisites": [
+      "g12-stats-01"
+    ],
+    "path": "lessons/grade12/statistics/variance-standard-deviation.html",
+    "tags": [
+      "phương sai",
+      "độ lệch chuẩn",
+      "độ phân tán",
+      "ổn định"
+    ],
+    "no": 10
+  },
+  {
+    "id": "g12-int-01",
+    "grade": 12,
+    "category": "Nguyên hàm và tích phân",
+    "title": "Nguyên hàm",
+    "description": "Bài 11 – Khái niệm nguyên hàm, tính chất, bảng nguyên hàm cơ bản, điều kiện ban đầu và bài toán chuyển động.",
+    "level": "Intermediate",
+    "estimatedMinutes": 70,
+    "prerequisites": [
+      "g12-stats-02"
+    ],
+    "path": "lessons/grade12/integrals/antiderivatives.html",
+    "tags": [
+      "nguyên hàm",
+      "họ nguyên hàm",
+      "hằng số C"
+    ],
+    "no": 11
+  },
+  {
+    "id": "g12-int-02",
+    "grade": 12,
+    "category": "Nguyên hàm và tích phân",
+    "title": "Tích phân",
+    "description": "Bài 12 – Tích phân: công thức Newton – Leibniz, tính chất, hàm chứa dấu giá trị tuyệt đối, diện tích, quãng đường, tổng lượng biến thiên.",
+    "level": "Intermediate",
+    "estimatedMinutes": 75,
+    "prerequisites": [
+      "g12-int-01"
+    ],
+    "path": "lessons/grade12/integrals/definite-integrals.html",
+    "tags": [
+      "tích phân",
+      "Newton – Leibniz",
+      "diện tích",
+      "tổng lượng biến thiên"
+    ],
+    "no": 12
+  },
+  {
     "id": "g12-antider-01",
     "grade": 12,
     "category": "Nguyên hàm",
@@ -766,7 +948,9 @@
       "nguyên hàm",
       "tích phân",
       "hằng số tích phân"
-    ]
+    ],
+    "locked": true,
+    "lockNote": "Đã soạn lại thành Bài 11 (g12-int-01)"
   },
   {
     "id": "g12-antider-02",
@@ -784,7 +968,9 @@
       "đổi biến",
       "nguyên hàm từng phần",
       "nguyên hàm"
-    ]
+    ],
+    "locked": true,
+    "lockNote": "Đổi biến số và nguyên hàm từng phần không thuộc danh mục Toán 12 KNTT; phần còn dùng được đã gộp vào Bài 11–12"
   },
   {
     "id": "g12-mono-02",

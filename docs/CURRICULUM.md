@@ -243,3 +243,24 @@ Mã nguồn bài tự luyện: `tools/sp_g10b.py`, `tools/sp_g11.py`, `tools/sp_
 | 12 | 9 | g12-stats-01 | Khoảng biến thiên, khoảng tứ phân vị |
 
 Mỗi bài có 15 câu/mức (7 câu bài + 8 câu tự luyện trắc nghiệm). Sinh câu tự luyện: `tools/sp_g10c.py`, `sp_g11b.py`, `sp_g11c.py`, `sp_g12b.py`; số liệu ghép nhóm: `tools/gdata.py`.
+
+## Đợt 7 — 9 bài mới (3 bài mỗi khối, theo thứ tự SGK Kết nối tri thức)
+
+| Lớp | Bài | Mã bài | Nội dung |
+|---|---|---|---|
+| 10 | 10 | g10-vec-04 | Vectơ trong mặt phẳng tọa độ |
+| 10 | 11 | g10-vec-05 | Tích vô hướng của hai vectơ |
+| 10 | 12 | g10-stats-01 | Số gần đúng và sai số |
+| 11 | 12 | g11-space-06 | Đường thẳng và mặt phẳng song song |
+| 11 | 13 | g11-space-07 | Hai mặt phẳng song song (gồm lăng trụ, hình hộp, chóp cụt) |
+| 11 | 14 | g11-space-08 | Phép chiếu song song |
+| 12 | 10 | g12-stats-02 | Phương sai và độ lệch chuẩn |
+| 12 | 11 | g12-int-01 | Nguyên hàm |
+| 12 | 12 | g12-int-02 | Tích phân |
+
+Mỗi bài 15 câu/mức (3 trắc nghiệm + 2 đúng/sai + 2 trả lời ngắn + 8 trắc nghiệm tự luyện), 5 ví dụ có lời giải; mọi đáp số được kiểm bằng `assert` hoặc tính bằng máy (Fraction).
+Sinh câu tự luyện: `tools/sp_g10d.py`, `tools/sp_g11d.py`, `tools/sp_g12c.py`.
+
+**Tạm khóa thêm:** `g11-space-02` (đã soạn lại thành Bài 12, 13), `g12-antider-01` (đã soạn lại thành Bài 11), `g12-antider-02` (đổi biến, từng phần – ngoài danh mục KNTT). Nội dung cũ vẫn giữ trong `content/`.
+
+**Thuật ngữ mới tự gắn vào bài cũ:** từ vựng mới (tung độ, hoành độ, cạnh bên, hình hộp, tích vô hướng, đường thẳng song song với mặt phẳng) được hệ thống tự bọc trong câu hỏi của một số bài cũ (chỉ thêm chú thích khi bấm, nội dung không đổi). Hai thuật ngữ dễ nhầm nghĩa được đặt khóa riêng: "số đúng (giá trị thật)", "góc nhọn (nhỏ hơn 90°)".
