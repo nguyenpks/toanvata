@@ -114,7 +114,7 @@ theory += FIG(svg_graph(f3, (-3, 7), (-6, 7), vlines=[2], lines=[(1, -1, 'y = x 
           'The graph of \\(y=\\dfrac{x^2-3x+1}{x-2}\\) with \\(x=2\\) and the oblique asymptote \\(y=x-1\\).', 'Đồ thị của \\(y=\\dfrac{x^2-3x+1}{x-2}\\) với \\(x=2\\) và tiệm cận xiên \\(y=x-1\\).',
           'Graph of y = (x^2-3x+1)/(x-2) with vertical asymptote x = 2 and oblique asymptote y = x - 1', '')
 theory += GRAPH({'view': [-3.5, 9, -6, 9], 'functions': [{'f': '(2x+1)/(x-3)', 'label': 'y = (2x+1)/(x−3)'}], 'asymptotes': [{'type': 'v', 'x': 3}, {'type': 'h', 'y': 2}]},
-  cap=('Interactive graph of y = (2x+1)/(x−3): the dashed lines x = 3 and y = 2 are the asymptotes. Drag or zoom to see the curve get closer to them.', 'Đồ thị tương tác của y = (2x+1)/(x−3): hai đường nét đứt x = 3 và y = 2 là các tiệm cận. Kéo hoặc phóng to để thấy đường cong tiến sát chúng.'),
+  cap=('Graph of y = (2x+1)/(x−3): the dashed lines x = 3 and y = 2 are the asymptotes; the curve gets closer and closer to them.', 'Đồ thị y = (2x+1)/(x−3): hai đường nét đứt x = 3 và y = 2 là các tiệm cận; đường cong tiến sát dần tới chúng.'),
   alt=('Graph of a rational function with a vertical and a horizontal asymptote', ''), height=340)
 theory += GRAPH({'view': [-3, 8, -7, 8], 'functions': [{'f': '(x^2-3x+1)/(x-2)', 'label': 'y = (x²−3x+1)/(x−2)'}], 'asymptotes': [{'type': 'v', 'x': 2}, {'type': 'oblique', 'm': 1, 'b': -1}]},
   cap=('Interactive graph with the vertical asymptote x = 2 and the oblique asymptote y = x − 1.', 'Đồ thị tương tác với tiệm cận đứng x = 2 và tiệm cận xiên y = x − 1.'),

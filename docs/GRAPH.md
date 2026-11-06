@@ -1,3 +1,21 @@
+# Hình vẽ Toán học bằng LaTeX (PGFPlots, tkz-euclide, TikZ) — từ Đợt 11
+
+> **Hiện hành:** mọi đồ thị và hình minh họa trong bài là **hình tĩnh** viết bằng LaTeX, biên dịch **XeLaTeX → PDF → SVG** (`pdftocairo -svg`), lưu đệm theo mã băm.
+>
+> | Loại hình | Gói LaTeX | Hàm Python | Thư mục |
+> |---|---|---|---|
+> | Đồ thị hàm số, dữ liệu | PGFPlots (+ pgfplotstable) | `GRAPH(cfg, …)`, `svg_graph(f, …)` | `img/tex/` |
+> | Hình học phẳng | tkz-euclide (+ TikZ angles, calc) | `GEO(cfg, …)`, `region(…)` | `img/tex/` |
+> | Hình học không gian | TikZ 3D (phép chiếu song song, nét khuất tự tính) | `GEO3D(cfg, …)` | `img/fig3d/` |
+> | Biểu đồ Venn, trục số | TikZ | `venn2(…)`, `mb_pgf.venn_ops_svg()`, `mb_pgf.numberline_svg(…)` | `img/tex/` |
+>
+> * Bộ chuyển: `tools/mb_pgf.py`; số liệu (nhánh đồ thị ngắt tại tiệm cận, nghiệm, cực trị, giao điểm, khoảng đơn điệu, tiếp tuyến) tính bằng chính lõi `js/mb-graph-core.js` qua `tools/graph_eval.js` (Node).
+> * **Tiệm cận luôn vẽ NÉT ĐỨT** (kiểu `asym`): cả tiệm cận khai báo trong `asymptotes` lẫn tiệm cận đứng/ngang/xiên **tự phát hiện** cho hàm có cực điểm. Đường dóng (`guides`) vẽ chấm mảnh để không nhầm với tiệm cận.
+> * Thay thanh trượt bằng **họ đồ thị**: `'family': [{'a': 2, '_label': 'y = 2ˣ'}, {'a': 0.5, …}]` vẽ mỗi bộ tham số một đường; `tangent.at` nhận danh sách để vẽ nhiều tiếp tuyến.
+> * Mỗi đồ thị có kèm `img/tex/<băm>.json` (cấu hình gốc) để `tests/test-lesson-graphs.js` kiểm tra toán học; `tests/test-tex-figures.py` kiểm tra đủ tệp và tiệm cận nét đứt. Tệp `.tex` nằm cạnh `.svg` để giáo viên chỉnh tay khi cần.
+>
+> Phần dưới đây mô tả cú pháp cấu hình (vẫn dùng nguyên) và bộ vẽ tương tác JSXGraph cũ (chỉ còn dùng trong `demo/graph-demo.html`).
+
 # Hệ thống đồ thị và hình vẽ Toán học (JSXGraph)
 
 Mỗi hình trong bài là một khối `<div class="mbg" data-mbg='{...}'>` do hàm `GRAPH`, `GEO`, `GEO3D` (trong `tools/mb_lib.py`) sinh ra từ một cấu hình Python. Thư viện **JSXGraph** chỉ được tải ở các bài có hình (`page.optional` trong `config/model.json`); các bài khác không bị ảnh hưởng.

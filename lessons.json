@@ -366,6 +366,66 @@
     "no": 16
   },
   {
+    "id": "g10-func-03",
+    "grade": 10,
+    "category": "Hàm số, đồ thị và ứng dụng",
+    "title": "Dấu của tam thức bậc hai",
+    "description": "Bài 17 – Định lí về dấu của tam thức bậc hai, bảng xét dấu, giải bất phương trình bậc hai và ứng dụng.",
+    "level": "Intermediate",
+    "estimatedMinutes": 70,
+    "prerequisites": [
+      "g10-func-02"
+    ],
+    "path": "lessons/grade10/functions/quadratic-sign.html",
+    "tags": [
+      "tam thức bậc hai",
+      "bảng xét dấu",
+      "bất phương trình bậc hai",
+      "biệt thức"
+    ],
+    "no": 17
+  },
+  {
+    "id": "g10-func-04",
+    "grade": 10,
+    "category": "Hàm số, đồ thị và ứng dụng",
+    "title": "Phương trình quy về phương trình bậc hai",
+    "description": "Bài 18 – Phương trình chứa căn \\(\\sqrt{f}=\\sqrt{g}\\), \\(\\sqrt f=g\\), phương trình trùng phương và bài toán thực tế.",
+    "level": "Intermediate",
+    "estimatedMinutes": 65,
+    "prerequisites": [
+      "g10-func-03"
+    ],
+    "path": "lessons/grade10/functions/equations-to-quadratic.html",
+    "tags": [
+      "phương trình chứa căn",
+      "nghiệm ngoại lai",
+      "trùng phương",
+      "bình phương hai vế"
+    ],
+    "no": 18
+  },
+  {
+    "id": "g10-coord-01",
+    "grade": 10,
+    "category": "Phương pháp tọa độ trong mặt phẳng",
+    "title": "Phương trình đường thẳng",
+    "description": "Bài 19 – Vectơ chỉ phương, vectơ pháp tuyến; phương trình tham số, tổng quát, đoạn chắn, hệ số góc; đường cao, trung tuyến; mô hình bậc nhất.",
+    "level": "Intermediate",
+    "estimatedMinutes": 70,
+    "prerequisites": [
+      "g10-vec-05"
+    ],
+    "path": "lessons/grade10/plane-coordinates/line-equations.html",
+    "tags": [
+      "đường thẳng",
+      "vectơ chỉ phương",
+      "vectơ pháp tuyến",
+      "phương trình tổng quát"
+    ],
+    "no": 19
+  },
+  {
     "id": "g11-functions-01",
     "grade": 11,
     "category": "Hàm số và đồ thị",
@@ -843,6 +903,66 @@
     "no": 18
   },
   {
+    "id": "g11-exp-04",
+    "grade": 11,
+    "category": "Hàm số mũ và hàm số lôgarit",
+    "title": "Lôgarit",
+    "description": "Bài 19 – Định nghĩa lôgarit, tính chất, đổi cơ số, lôgarit thập phân và tự nhiên, các thang đo lôgarit.",
+    "level": "Intermediate",
+    "estimatedMinutes": 70,
+    "prerequisites": [
+      "g11-exp-03"
+    ],
+    "path": "lessons/grade11/exponential-functions/logarithms.html",
+    "tags": [
+      "lôgarit",
+      "cơ số",
+      "đổi cơ số",
+      "lôgarit tự nhiên"
+    ],
+    "no": 19
+  },
+  {
+    "id": "g11-exp-05",
+    "grade": 11,
+    "category": "Hàm số mũ và hàm số lôgarit",
+    "title": "Hàm số mũ và hàm số lôgarit",
+    "description": "Bài 20 – Hàm số mũ và hàm số lôgarit: tập xác định, tính đơn điệu, đồ thị, so sánh, mô hình tăng trưởng.",
+    "level": "Intermediate",
+    "estimatedMinutes": 70,
+    "prerequisites": [
+      "g11-exp-04"
+    ],
+    "path": "lessons/grade11/exponential-functions/exp-log-functions.html",
+    "tags": [
+      "hàm số mũ",
+      "hàm số lôgarit",
+      "đồ thị",
+      "tăng trưởng"
+    ],
+    "no": 20
+  },
+  {
+    "id": "g11-exp-06",
+    "grade": 11,
+    "category": "Hàm số mũ và hàm số lôgarit",
+    "title": "Phương trình, bất phương trình mũ và lôgarit",
+    "description": "Bài 21 – Phương trình, bất phương trình mũ và lôgarit cơ bản; đưa về cùng cơ số, đặt ẩn phụ; bài toán thực tế.",
+    "level": "Intermediate",
+    "estimatedMinutes": 75,
+    "prerequisites": [
+      "g11-exp-05"
+    ],
+    "path": "lessons/grade11/exponential-functions/exp-log-equations.html",
+    "tags": [
+      "phương trình mũ",
+      "phương trình lôgarit",
+      "bất phương trình",
+      "lãi kép"
+    ],
+    "no": 21
+  },
+  {
     "id": "g11-exp-02",
     "grade": 11,
     "category": "Hàm số mũ",
@@ -861,7 +981,9 @@
       "cơ số",
       "đồng biến",
       "nghịch biến"
-    ]
+    ],
+    "locked": true,
+    "lockNote": "Đã soạn lại thành Bài 20 (g11-exp-05) và Bài 21 (g11-exp-06)"
   },
   {
     "id": "g12-mono-01",
@@ -1177,6 +1299,66 @@
       "góc nghiêng"
     ],
     "no": 16
+  },
+  {
+    "id": "g12-coord-06",
+    "grade": 12,
+    "category": "Phương pháp tọa độ trong không gian",
+    "title": "Phương trình mặt cầu",
+    "description": "Bài 17 – Phương trình mặt cầu (chính tắc, tổng quát); vị trí của điểm, mặt phẳng, đường thẳng với mặt cầu; tiếp diện, đường tròn giao tuyến.",
+    "level": "Intermediate",
+    "estimatedMinutes": 80,
+    "prerequisites": [
+      "g12-coord-05"
+    ],
+    "path": "lessons/grade12/space-coordinates/sphere-equations.html",
+    "tags": [
+      "mặt cầu",
+      "tâm",
+      "bán kính",
+      "tiếp diện"
+    ],
+    "no": 17
+  },
+  {
+    "id": "g12-prob-01",
+    "grade": 12,
+    "category": "Xác suất có điều kiện",
+    "title": "Xác suất có điều kiện",
+    "description": "Bài 18 – Xác suất có điều kiện (công thức, đếm trên không gian mẫu thu hẹp), công thức nhân, tính độc lập, bài toán khảo sát và xét nghiệm.",
+    "level": "Intermediate",
+    "estimatedMinutes": 80,
+    "prerequisites": [
+      "g12-stats-02"
+    ],
+    "path": "lessons/grade12/probability/conditional-probability.html",
+    "tags": [
+      "xác suất có điều kiện",
+      "công thức nhân",
+      "độc lập",
+      "không hoàn lại"
+    ],
+    "no": 18
+  },
+  {
+    "id": "g12-prob-02",
+    "grade": 12,
+    "category": "Xác suất có điều kiện",
+    "title": "Công thức xác suất toàn phần và công thức Bayes",
+    "description": "Bài 19 – Công thức xác suất toàn phần, công thức Bayes, sơ đồ hình cây; bài toán kiểm tra chất lượng, xét nghiệm, phân loại.",
+    "level": "Advanced",
+    "estimatedMinutes": 85,
+    "prerequisites": [
+      "g12-prob-01"
+    ],
+    "path": "lessons/grade12/probability/total-probability-bayes.html",
+    "tags": [
+      "xác suất toàn phần",
+      "công thức Bayes",
+      "sơ đồ hình cây",
+      "hệ biến cố đầy đủ"
+    ],
+    "no": 19
   },
   {
     "id": "g12-antider-01",

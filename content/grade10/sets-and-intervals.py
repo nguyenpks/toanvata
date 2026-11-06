@@ -7,7 +7,9 @@ from mb_extra import *
 import _vocab
 from mb_selfpractice import SELF
 import sp_g10, runpy, re, mb_std, mb_extra, mb_lib
-figs = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), '_sets_figures.json'), encoding='utf-8'))
+import mb_pgf   # hình vẽ bằng TikZ (XeLaTeX → SVG)
+figs = [mb_pgf.svg_img(mb_pgf.venn_ops_svg(), 'Venn diagrams: intersection, union, difference', 600),
+        mb_pgf.svg_img(mb_pgf.numberline_svg(-2, 3, True, False, label='[-2,3)'), 'Number line: interval from minus 2 included to 3 not included', 520)]
 CAT = ('Sets and Intervals', 'Tập hợp và khoảng')
 
 goals = [

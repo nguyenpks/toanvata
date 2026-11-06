@@ -224,9 +224,9 @@ theory2 = ('<h3>5.1 %s</h3>' % TI('Local maximum and local minimum', 'Cực đ�
     UL([T('If \\(f\'\'(x_0)<0\\), then \\(x_0\\) is a local maximum.', 'Nếu \\(f\'\'(x_0)<0\\) thì \\(x_0\\) là điểm cực đại.'), T('If \\(f\'\'(x_0)>0\\), then \\(x_0\\) is a local minimum.', 'Nếu \\(f\'\'(x_0)>0\\) thì \\(x_0\\) là điểm cực tiểu.'),
         T('If \\(f\'\'(x_0)=0\\), the test fails; use the first derivative test.', 'Nếu \\(f\'\'(x_0)=0\\) thì không kết luận được; dùng điều kiện đủ thứ nhất.')])))
 theory2 += GRAPH({'view': [-1.8, 4.6, -4.2, 3.2], 'functions': [{'f': 'x^3-3x^2+1', 'label': 'y = x³ − 3x² + 1'}], 'mark': {'extrema': [0]},
-  'tangent': {'f': 0, 'at': 1, 'min': -1, 'max': 3.5}},
-  cap=('Move the slider x₀. At the extrema (x = 0 and x = 2) the tangent is horizontal, so f′(x₀) = 0.', 'Kéo thanh trượt x₀. Tại hai điểm cực trị (x = 0 và x = 2) tiếp tuyến nằm ngang nên f′(x₀) = 0.'),
-  alt=('Cubic graph with a moving tangent line', ''), height=340)
+  'tangent': {'f': 0, 'at': [0, 1, 2], 'min': -1, 'max': 3.5}},
+  cap=('Tangent lines at x = 0, 1, 2. At the extrema (x = 0 and x = 2) the tangent is horizontal, so f′(x₀) = 0; at x = 1 the slope is f′(1) = −3.', 'Tiếp tuyến tại x = 0, 1, 2. Tại hai điểm cực trị (x = 0 và x = 2) tiếp tuyến nằm ngang nên f′(x₀) = 0; tại x = 1 hệ số góc là f′(1) = −3.'),
+  alt=('Cubic graph with three tangent lines', ''), height=340)
 
 ex2 = EXAMPLE(5, ('Basic', 'Cơ bản'), ('Sign change of the derivative', 'Đổi dấu của đạo hàm'),
   T('Find the extrema of \\(f(x)=x^3-3x^2+1\\).', 'Tìm cực trị của hàm số \\(f(x)=x^3-3x^2+1\\).'),

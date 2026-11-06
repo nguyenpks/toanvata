@@ -66,7 +66,8 @@ theory += TABLE([('Property', 'Tính chất'), (r'\(a\gt 1\)', r'\(a\gt 1\)'), (
   [TI('monotonicity', 'tính đơn điệu'), TI('increasing', 'đồng biến'), TI('decreasing', 'nghịch biến')],
   [TI('special points', 'điểm đặc biệt'), r'\((0;1)\), \((1;a)\)', r'\((0;1)\), \((1;a)\)'], [TI('asymptote', 'tiệm cận'), r'\(y=0\)', r'\(y=0\)']])
 theory += T(r'Try the slider: change the base \(a\) and watch the graph. At \(a=1\) the function is constant, which is why \(a=1\) is not allowed.', r'Thử kéo thanh trượt: đổi cơ số \(a\) và quan sát đồ thị. Tại \(a=1\) hàm số là hằng số, vì thế không cho phép \(a=1\).')
-theory += GRAPH({'view': [-4, 4, -1, 9], 'params': [{'name': 'a', 'min': 0.2, 'max': 4, 'value': 2, 'step': 0.05}], 'functions': [{'f': 'a^x', 'label': 'y = aˣ'}]}, alt=('Exponential graph controlled by the base a', ''), height=320)
+theory += GRAPH({'view': [-4, 4, -1, 9], 'params': [{'name': 'a', 'min': 0.2, 'max': 4, 'value': 2, 'step': 0.05}], 'family': [{'a': 3, '_label': 'y = 3ˣ'}, {'a': 2, '_label': 'y = 2ˣ'}, {'a': 0.5, '_label': 'y = (1/2)ˣ'}, {'a': 1/3, '_label': 'y = (1/3)ˣ'}], 'functions': [{'f': 'a^x', 'label': 'y = aˣ'}], 'asymptotes': [{'type': 'h', 'y': 0}]},
+  cap=('Graphs of y = aˣ for a = 3, 2, 1/2, 1/3: all pass through (0; 1) and lie above the asymptote y = 0 (dashed).', 'Đồ thị y = aˣ với a = 3, 2, 1/2, 1/3: đều đi qua (0; 1) và nằm phía trên tiệm cận y = 0 (nét đứt).'), alt=('Exponential graphs for several bases a', ''), height=320)
 theory += BOX('yellow', ('Watch out!', 'Lưu ý'), T(r'\(a^x\gt 0\) for every \(x\). So an equation such as \(2^x=-4\) has no solution.', r'\(a^x\gt 0\) với mọi \(x\). Vì vậy phương trình như \(2^x=-4\) vô nghiệm.'))
 
 theory += '<h3>5.2 %s</h3>' % TI('Exponential equations', 'Phương trình mũ')

@@ -146,58 +146,27 @@ def BOX(kind, title, *inner):
     t = '<p class="t">%s</p>' % TI(*title) if title else ''
     return '<div class="box %s">%s%s</div>' % (kind, t, ''.join(inner))
 
-# ---------- Hình vẽ đồ thị bằng SVG ----------
+# ---------- Đồ thị vẽ bằng PGFPlots (LaTeX) ----------
 def svg_graph(f, xr, yr, vlines=(), hlines=(), lines=(), w=340, h=250, label_pts=()):
-    (x0, x1), (y0, y1) = xr, yr
-    pad = 26
-    sx = lambda x: pad + (x - x0) / (x1 - x0) * (w - 2 * pad)
-    sy = lambda y: h - pad - (y - y0) / (y1 - y0) * (h - 2 * pad)
-    o = ['<svg viewBox="0 0 %d %d" role="img" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI,Arial,sans-serif" font-size="12">' % (w, h)]
-    o.append('<rect x="0" y="0" width="%d" height="%d" fill="#ffffff"/>' % (w, h))
-    if x0 < 0 < x1: o.append('<line x1="%.1f" y1="%d" x2="%.1f" y2="%d" stroke="#4b675c" stroke-width="1"/>' % (sx(0), pad - 8, sx(0), h - pad + 8))
-    if y0 < 0 < y1: o.append('<line x1="%d" y1="%.1f" x2="%d" y2="%.1f" stroke="#4b675c" stroke-width="1"/>' % (pad - 8, sy(0), w - pad + 8, sy(0)))
-    o.append('<text x="%d" y="%.1f" fill="#123428" font-style="italic">x</text>' % (w - pad + 10, (sy(0) if y0 < 0 < y1 else h - pad) + 4))
-    o.append('<text x="%.1f" y="%d" fill="#123428" font-style="italic">y</text>' % ((sx(0) if x0 < 0 < x1 else pad) + 6, pad - 10))
-    dash = 'stroke="#b4415a" stroke-width="1.6" stroke-dasharray="6 4"'
-    for a in vlines:
-        o.append('<line x1="%.1f" y1="%d" x2="%.1f" y2="%d" %s/>' % (sx(a), pad - 8, sx(a), h - pad + 8, dash))
-        o.append('<text x="%.1f" y="%d" fill="#b4415a">x = %s</text>' % (sx(a) + 4, pad - 2, ('%g' % a)))
-    for b in hlines:
-        o.append('<line x1="%d" y1="%.1f" x2="%d" y2="%.1f" %s/>' % (pad - 8, sy(b), w - pad + 8, sy(b), dash))
-        o.append('<text x="%d" y="%.1f" fill="#b4415a" text-anchor="end">y = %s</text>' % (w - pad, sy(b) - 5, ('%g' % b)))
-    for (m, c, lab) in lines:   # đường xiên y = m x + c
-        xa, xb = x0, x1
-        ya, yb = m * xa + c, m * xb + c
-        o.append('<line x1="%.1f" y1="%.1f" x2="%.1f" y2="%.1f" %s/>' % (sx(xa), sy(ya), sx(xb), sy(yb), dash))
-        o.append('<text x="%.1f" y="%.1f" fill="#b4415a">%s</text>' % (w - pad - 70, pad + 14, lab))
-    # đường cong: tách nhánh khi vượt khung hoặc không xác định
-    N = 900
-    seg, segs = [], []
-    for i in range(N + 1):
-        x = x0 + (x1 - x0) * i / N
-        try:
-            y = f(x)
-        except ZeroDivisionError:
-            y = None
-        if y is None or not math.isfinite(y) or y < y0 - 0.5 or y > y1 + 0.5:
-            if len(seg) > 1: segs.append(seg)
-            seg = []
-        else:
-            seg.append((x, y))
-    if len(seg) > 1: segs.append(seg)
-    for s in segs:
-        d = 'M' + ' L'.join('%.1f %.1f' % (sx(x), sy(y)) for x, y in s)
-        o.append('<path d="%s" fill="none" stroke="#046B4D" stroke-width="2.4" stroke-linejoin="round"/>' % d)
-    for (x, y, lab) in label_pts:
-        o.append('<circle cx="%.1f" cy="%.1f" r="4" fill="#ffffff" stroke="#046B4D" stroke-width="2"/>' % (sx(x), sy(y)))
-    o.append('</svg>')
-    return ''.join(o)
+    """Đồ thị hàm Python f bằng PGFPlots; tiệm cận đứng/ngang/xiên vẽ NÉT ĐỨT. Trả về thẻ <img> (dùng với FIG)."""
+    from mb_pgf import fn_svg, _USED
+    fn = fn_svg(f, xr, yr, vlines, hlines, lines, label_pts, w, h); _USED.append(fn)
+    return '<img src="../../../img/tex/%s" alt="" loading="lazy" style="display:block;margin:0 auto;width:min(100%%,%dpx);height:auto">' % (fn, int(w * 1.6))
 
 def FIG(svg, cap_en, cap_vi, alt_en, alt_vi):
-    return '<figure class="mbl-fig">%s<figcaption>%s</figcaption></figure>' % (svg.replace('role="img"', 'role="img" aria-label="%s"' % alt_en), TI(cap_en, cap_vi))
+    import html as _h
+    svg = svg.replace('alt=""', 'alt="%s"' % _h.escape(alt_en or 'Figure', quote=True), 1).replace('role="img"', 'role="img" aria-label="%s"' % alt_en)
+    return '<figure class="mbl-fig mbl-figtex">%s<figcaption>%s</figcaption></figure>' % (svg, TI(cap_en, cap_vi))
 
-# ---------- Đồ thị và hình vẽ tương tác (JSXGraph; xem docs/GRAPH.md) ----------
+# ---------- Đồ thị và hình học phẳng TĨNH bằng LaTeX (PGFPlots, tkz-euclide; xem tools/mb_pgf.py) ----------
+def _texfig(fn, cap, alt, px):
+    from mb_pgf import img as _img
+    drop = re.compile(r'\s*(Interactive |Tương tác )')
+    c = TI(cap[0], cap[1]) if cap else None
+    return _img(fn, alt[0] if alt else (re.sub(r'<[^>]+>|\\[()]', '', cap[0]) if cap else 'Figure'), px, c)
+
 def _mbg(cfg, kind, cap, alt, height):
+    """Bảng vẽ TƯƠNG TÁC JSXGraph (chỉ còn dùng cho demo/graph-demo.html; bài học dùng hình LaTeX tĩnh)."""
     import html as _h
     cfg = dict(cfg); cfg['kind'] = kind
     data = _h.escape(json.dumps(cfg, ensure_ascii=False, separators=(',', ':')), quote=True)
@@ -206,13 +175,19 @@ def _mbg(cfg, kind, cap, alt, height):
     return ('<figure class="mbl-fig mbg-fig"><div class="mbg" role="group"%s style="--mbg-h:%dpx" data-mbg="%s"></div>%s</figure>'
             % (label, height, data, c))
 
+def GRAPH_LIVE(cfg, cap=None, alt=None, height=360): return _mbg(cfg, 'graph', cap, alt, height)
+def GEO_LIVE(cfg, cap=None, alt=None, height=360): return _mbg(cfg, 'geo', cap, alt, height)
+
 def GRAPH(cfg, cap=None, alt=None, height=360):
-    """Đồ thị hàm số tương tác: cfg = {view:[xmin,xmax,ymin,ymax], functions:[{f:'x^2-1', label:'y = x² − 1'}], ...}."""
-    return _mbg(cfg, 'graph', cap, alt, height)
+    """Đồ thị hàm số TĨNH vẽ bằng PGFPlots (tools/mb_pgf.py), biên dịch XeLaTeX → SVG.
+    cfg = {view:[xmin,xmax,ymin,ymax], functions:[{f:'x^2-1', label:'y = x² − 1'}], asymptotes:[...] (nét đứt), family:[{tham số}] …}."""
+    from mb_pgf import graph_svg
+    return _texfig(graph_svg(cfg, height), cap, alt, 620)
 
 def GEO(cfg, cap=None, alt=None, height=360):
-    """Hình học phẳng dựng bằng quan hệ thật: cfg = {view:[...], steps:[{type:'point',...},{type:'perpendicular',...}]}."""
-    return _mbg(cfg, 'geo', cap, alt, height)
+    """Hình học phẳng TĨNH vẽ bằng tkz-euclide: cfg = {view:[...], steps:[{type:'point',...},{type:'perpendicular',...}]}."""
+    from mb_pgf import geo_svg
+    return _texfig(geo_svg(cfg, height), cap, alt, 520)
 
 def GEO3D(cfg, cap=None, alt=None, height=380):
     """Hình không gian TĨNH: vẽ bằng TikZ, biên dịch thành SVG (tools/mb_tikz3d.py). Nét khuất tự tính; không xoay."""

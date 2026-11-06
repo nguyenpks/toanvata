@@ -91,6 +91,9 @@ def tikz(cfg):
     if cfg.get('axes'):
         L = cfg.get('axislen') or max(max(abs(c) for c in p) for p in P.values()) * 1.25 + 0.5
         extra = [(L, 0, 0), (0, L, 0), (0, 0, L), (0, 0, 0)]
+    for sp in cfg.get('spheres', []):
+        C = P[sp['c']]; Rr = sp['R']
+        extra += [tuple(C[i] + Rr * e[i] for i in range(3)) for e in ((1, 0, 0), (-1, 0, 0), (0, 0, 1), (0, 0, -1))]
     xy = [pr(p) for p in list(P.values()) + extra]
     W_ = max(x for x, _ in xy) - min(x for x, _ in xy) or 1; H_ = max(y for _, y in xy) - min(y for _, y in xy) or 1
     s = min(cfg.get('width', 7.0) / W_, cfg.get('height', 5.6) / H_)
@@ -149,6 +152,21 @@ def tikz(cfg):
         e = frozenset((a, b))
         if e in done: continue
         done.add(e); seg(P[a], P[b], '1F2937', 0.8)
+    # mặt cầu (đường viền tròn) và đường tròn nằm ngang (nửa sau nét đứt)
+    for sp in cfg.get('spheres', []):
+        x, y = pr(P[sp['c']]); body.append('\\draw[line width=0.9pt] (%.4f,%.4f) circle[radius=%.4f];' % (x, y, sp['R']))
+        if sp.get('fill'): body.insert(0, '\\shade[ball color=%s!25!white,opacity=.35] (%.4f,%.4f) circle[radius=%.4f];' % (_col(sp['fill'], defs), x, y, sp['R']))
+    for hc in cfg.get('hcircles', []):
+        C = P[hc['c']]; Rr = hc['R']; N = 120; cn = _col(hc.get('color', '#1F2937'), defs)
+        pts = [(C[0] + Rr * math.cos(2 * math.pi * k / N), C[1] + Rr * math.sin(2 * math.pi * k / N), C[2]) for k in range(N + 1)]
+        back = [_dot(_sub(q, C), d) > 1e-9 for q in pts]
+        k = 0
+        while k < N:
+            j = k
+            while j < N and back[j] == back[k]: j += 1
+            path = ' -- '.join('(%.4f,%.4f)' % pr(pts[t]) for t in range(k, j + 1))
+            body.append('\\draw[%s,line width=%.2fpt%s] %s;' % (cn, 0.8 if back[k] else 1.0, ',dash pattern=on 3pt off 2pt' if back[k] else '', path))
+            k = j
     # góc vuông, góc
     for a, o_, b in cfg.get('right', []):
         A3, O3, B3 = P[a], P[o_], P[b]; r = cfg.get('rsize', 0.35)

@@ -111,8 +111,8 @@ theory += GEO({'view': [-1.8, 1.8, -1.4, 1.4], 'axes': True, 'equal': True, 'ste
     {'type': 'altitude', 'from': 'P', 'to': 'Ox', 'foot': 'H', 'footName': 'H', 'style': {'strokeColor': '#c2410c', 'strokeWidth': 3, 'dash': 0}},
     {'type': 'segment', 'through': ['O', 'H'], 'style': {'strokeColor': '#1d4ed8', 'strokeWidth': 3}},
     {'type': 'arc', 'points': ['O', 'I', 'P']}, {'type': 'angle', 'points': ['I', 'O', 'P'], 'radius': 0.3}]},
-  cap=('Drag P around the circle. OH = cos α (blue) and PH = sin α (orange); PH is a true perpendicular to the x-axis.', 'Kéo P quanh đường tròn. OH = cos α (xanh), PH = sin α (cam); PH là đường vuông góc thật với trục hoành.'),
-  alt=('Trigonometric circle with a movable point P and its projections on the axes', ''), height=380)
+  cap=('P is the point of angle α on the circle. OH = cos α (blue) and PH = sin α (orange); PH is a true perpendicular to the x-axis.', 'P là điểm biểu diễn góc α trên đường tròn. OH = cos α (xanh), PH = sin α (cam); PH là đường vuông góc thật với trục hoành.'),
+  alt=('Trigonometric circle with a point P and its projection H on the x-axis', ''), height=380)
 theory += TABLE([('Quadrant', 'Góc phần tư'), (r'sin', 'sin'), ('cos', 'cos'), ('tan, cot', 'tan, cot')], [
   [r'I \((0;\frac{\pi}{2})\)', '+', '+', '+'], [r'II \((\frac{\pi}{2};\pi)\)', '+', '−', '−'],
   [r'III \((\pi;\frac{3\pi}{2})\)', '−', '−', '+'], [r'IV \((\frac{3\pi}{2};2\pi)\)', '−', '+', '−']])

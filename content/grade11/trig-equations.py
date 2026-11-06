@@ -110,9 +110,9 @@ review = (
 theory = '<h3>5.1 %s</h3>' % TI('The equation sin x = m', 'Phương trình sin x = m')
 theory += T(r'A <b>basic trigonometric equation</b> has one of the forms \(\sin x=m\), \(\cos x=m\), \(\tan x=m\), \(\cot x=m\). Solving it means finding <b>all</b> \(x\) that make it true; because the functions repeat, there are infinitely many solutions in general.',
             r'[[Phương trình lượng giác cơ bản]] có một trong các dạng \(\sin x=m\), \(\cos x=m\), \(\tan x=m\), \(\cot x=m\). Giải phương trình là tìm <b>tất cả</b> các \(x\) thỏa mãn; vì các hàm số lặp lại nên nói chung có vô số nghiệm.')
-theory += GRAPH({'view': [-0.6, 6.9, -1.9, 1.9], 'pi': True, 'params': [{'name': 'm', 'min': -1.5, 'max': 1.5, 'value': 0.5, 'step': 0.05}],
+theory += GRAPH({'view': [-0.6, 6.9, -1.9, 1.9], 'pi': True, 'params': [{'name': 'm', 'min': -1.5, 'max': 1.5, 'value': 0.5, 'step': 0.05}], 'family': [{'m': 0.5, '_label': 'y = 0.5'}, {'m': 1.5, '_label': 'y = 1.5', '_color': '#7c3aed'}],
                  'functions': [{'f': 'sin(x)', 'label': 'y = sin x'}, {'f': 'm', 'label': 'y = m', 'color': '#c2410c', 'width': 1.8}], 'mark': {'intersections': [[0, 1]]}},
-                cap=('The solutions of sin x = m are the x-coordinates of the intersection points. Move the slider: for |m| > 1 there is no intersection.', 'Nghiệm của sin x = m là hoành độ các giao điểm. Kéo thanh trượt: khi |m| > 1 không có giao điểm nào.'),
+                cap=('The solutions of sin x = m are the x-coordinates of the intersection points. For m = 0.5 there are two solutions in [0; 2π]; the line y = 1.5 (|m| > 1) does not meet the curve.', 'Nghiệm của sin x = m là hoành độ các giao điểm. Với m = 0,5 có hai nghiệm trong [0; 2π]; đường y = 1,5 (|m| > 1) không cắt đồ thị.'),
                 alt=('Sine curve and a horizontal line y = m', ''), height=340)
 theory += BOX('blue', ('Solving sin x = m', 'Giải sin x = m'),
   T(r'If \(|m|>1\): no solution (because \(-1\le\sin x\le 1\)).', r'Nếu \(|m|>1\): [[vô nghiệm]] (vì \(-1\le\sin x\le 1\)).'),
@@ -129,7 +129,7 @@ theory += BOX('blue', ('Solving cos x = m', 'Giải cos x = m'),
 
 theory += '<h3>5.3 %s</h3>' % TI('The equations tan x = m and cot x = m', 'Phương trình tan x = m và cot x = m')
 theory += GRAPH({'view': [-1.7, 4.9, -5, 5], 'pi': True, 'params': [{'name': 'm', 'min': -4, 'max': 4, 'value': 1, 'step': 0.1}],
-                 'functions': [{'f': 'tan(x)', 'label': 'y = tan x'}, {'f': 'm', 'label': 'y = m', 'color': '#c2410c', 'width': 1.8}], 'mark': {'intersections': [[0, 1]]},
+                 'functions': [{'f': 'tan(x)', 'label': 'y = tan x'}, {'f': 'm', 'label': 'y = 1', 'color': '#c2410c', 'width': 1.8}], 'mark': {'intersections': [[0, 1]]},
                  'asymptotes': [{'type': 'v', 'x': PI / 2}, {'type': 'v', 'x': -PI / 2}, {'type': 'v', 'x': 3 * PI / 2}]},
                 cap=('For every real m the line meets each branch of tan x exactly once, so tan x = m always has solutions, spaced π apart.', 'Với mọi số thực m, đường thẳng cắt mỗi nhánh của tan x đúng một lần nên tan x = m luôn có nghiệm, cách nhau π.'),
                 alt=('Tangent curve and a horizontal line y = m', ''), height=340)

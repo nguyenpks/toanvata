@@ -306,3 +306,29 @@ Hình không gian không còn dùng JSXGraph 3D (xoay được nhưng hay lỗi 
 - Cần TeX Live có `pgf/tikz` và `poppler-utils` (`pdftocairo`) trên máy dựng bài; người học chỉ tải SVG.
 
 Sửa lỗi "Phân tích: d": khi phần phân tích của ví dụ được truyền dưới dạng khối `T(...)`, `EXAMPLE` trước đây chỉ lấy kí tự thứ hai ("d"). Nay chèn đúng nhãn "Phân tích:" vào khối đó; ví dụ không có phân tích thì không hiện dòng này.
+
+## Đợt 10 — 9 bài mới (3 bài mỗi khối)
+
+| Lớp | Bài | Mã bài | Nội dung | Số câu mỗi mức |
+|---|---|---|---|---|
+| 10 | 17 | g10-func-03 | Dấu của tam thức bậc hai, bất phương trình bậc hai | 15 |
+| 10 | 18 | g10-func-04 | Phương trình quy về phương trình bậc hai (chứa căn, trùng phương) | 15 |
+| 10 | 19 | g10-coord-01 | Phương trình đường thẳng (vectơ chỉ phương, pháp tuyến, tham số, tổng quát) | 15 |
+| 11 | 19 | g11-exp-04 | Lôgarit (định nghĩa, tính chất, đổi cơ số, thang đo pH/dB/Richter) | 15 |
+| 11 | 20 | g11-exp-05 | Hàm số mũ và hàm số lôgarit (đồ thị có thanh trượt cơ số \(a\)) | 15 |
+| 11 | 21 | g11-exp-06 | Phương trình, bất phương trình mũ và lôgarit | 15 |
+| 12 | 17 | g12-coord-06 | Phương trình mặt cầu (hình TikZ: mặt cầu và đường tròn giao tuyến) | **22** |
+| 12 | 18 | g12-prob-01 | Xác suất có điều kiện | **22** |
+| 12 | 19 | g12-prob-02 | Công thức xác suất toàn phần và công thức Bayes | **22** |
+
+- Lớp 12: theo đề nghị, mỗi mức có 22 câu = 7 câu soạn sẵn + 15 câu tự luyện (`tools/sp_g12f.py`: `M17S12`, `M18S12`, `M19S12`, mỗi bộ 15 dạng).
+- Sinh câu tự luyện lớp 10, 11: `tools/sp_g10g.py`, `tools/sp_g11g.py`.
+- Khóa `g11-exp-02` (Hàm số mũ và phương trình mũ): đã soạn lại thành Bài 20 và Bài 21.
+- `tools/mb_tikz3d.py` có thêm `spheres` (đường viền mặt cầu) và `hcircles` (đường tròn nằm ngang, nửa sau nét đứt).
+
+## Đợt 11 — Chuyển toàn bộ đồ thị, hình minh họa sang LaTeX
+* 38 đồ thị hàm số → **PGFPlots**; 17 hình học phẳng (vectơ, tam giác, đường tròn lượng giác, miền nghiệm…) → **tkz-euclide**; biểu đồ Venn và trục số → **TikZ**; 6 đồ thị vẽ tay (bài Tiệm cận, Khảo sát hàm số) → PGFPlots. Hình không gian giữ TikZ 3D (`img/fig3d`).
+* Biên dịch XeLaTeX → SVG tĩnh (`img/tex`), không còn bảng vẽ tương tác hay SVG viết tay trong bài.
+* **Mọi đường tiệm cận vẽ nét đứt**, kể cả tiệm cận tự phát hiện (đứng, ngang, xiên).
+* Các hình trước đây dùng thanh trượt/kéo điểm được soạn lại thành họ đồ thị hoặc hình cố định; chú thích đã viết lại (bỏ “kéo”, “thanh trượt”, “phóng to”).
+* Xem `docs/GRAPH.md` (mục đầu) và `tools/mb_pgf.py`.

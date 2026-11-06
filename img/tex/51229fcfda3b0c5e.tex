@@ -1,0 +1,57 @@
+\documentclass[border=4pt]{standalone}
+\usepackage{fontspec}
+\usepackage{amsmath}
+\usepackage{unicode-math}
+\setmainfont{Latin Modern Roman}
+\setmathfont{Latin Modern Math}
+\usepackage{pgfplots}
+\usepackage{pgfplotstable}
+\pgfplotsset{compat=1.18}
+\usepackage{tkz-euclide}
+\usetikzlibrary{arrows.meta,calc,angles,quotes,patterns,3d,backgrounds}
+\definecolor{ink}{HTML}{123428}
+\definecolor{asy}{HTML}{475569}
+\definecolor{mint}{HTML}{86e0bd}
+\tikzset{asym/.style={asy, line width=0.9pt, dash pattern=on 5pt off 3.5pt},
+         guide/.style={gray!70, line width=0.6pt, densely dotted},
+         dot/.style={circle, inner sep=0pt, minimum size=5pt, draw=white, line width=0.5pt},
+         odot/.style={circle, inner sep=0pt, minimum size=5.5pt, fill=white, line width=1pt},
+         lab/.style={font=\footnotesize, inner sep=1.5pt, text=ink}}
+\begin{document}
+\begin{tikzpicture}
+\begin{axis}[
+  scale only axis,
+  width=10.00cm,
+  height=5.33cm,
+  axis lines=middle,
+  xmin=-0.8, xmax=13.5, ymin=-0.3, ymax=2.6,
+  axis line style={draw=ink!85, line width=0.7pt, -{Stealth[length=2.4mm]}},
+  xlabel={$x$}, ylabel={$y$},
+  xlabel style={at={(ticklabel* cs:1)}, anchor=north east, inner sep=2pt},
+  ylabel style={at={(ticklabel* cs:1)}, anchor=north west, inner sep=3pt},
+  grid=major, major grid style={draw=gray!16, line width=0.4pt},
+  tick style={draw=ink!70},
+  ticklabel style={font=\footnotesize, text=ink!85},
+  xtick={2,4,6,8,10,12},
+  xticklabels={$2$,$4$,$6$,$8$,$10$,$12$},
+  ytick={0.5,1,1.5,2,2.5},
+  yticklabels={$0.5$,$1$,$1.5$,$2$,$2.5$},
+  clip mode=individual,
+  every axis plot/.append style={line join=round}]
+\node[lab, anchor=north east] at (axis cs:0,0) {$O$};
+\draw[guide] (axis cs:-0.8,2) -- (axis cs:13.5,2);
+\node[dot, fill={rgb,255:red,18;green,52;blue,40}] at (axis cs:1,1.5) {};
+\node[dot, fill={rgb,255:red,18;green,52;blue,40}] at (axis cs:2,1.666667) {};
+\node[dot, fill={rgb,255:red,18;green,52;blue,40}] at (axis cs:3,1.75) {};
+\node[dot, fill={rgb,255:red,18;green,52;blue,40}] at (axis cs:4,1.8) {};
+\node[dot, fill={rgb,255:red,18;green,52;blue,40}] at (axis cs:5,1.833333) {};
+\node[dot, fill={rgb,255:red,18;green,52;blue,40}] at (axis cs:6,1.857143) {};
+\node[dot, fill={rgb,255:red,18;green,52;blue,40}] at (axis cs:7,1.875) {};
+\node[dot, fill={rgb,255:red,18;green,52;blue,40}] at (axis cs:8,1.888889) {};
+\node[dot, fill={rgb,255:red,18;green,52;blue,40}] at (axis cs:9,1.9) {};
+\node[dot, fill={rgb,255:red,18;green,52;blue,40}] at (axis cs:10,1.909091) {};
+\node[dot, fill={rgb,255:red,18;green,52;blue,40}] at (axis cs:11,1.916667) {};
+\node[dot, fill={rgb,255:red,18;green,52;blue,40}] at (axis cs:12,1.923077) {};
+\end{axis}
+\end{tikzpicture}
+\end{document}

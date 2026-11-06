@@ -97,7 +97,7 @@ theory += '<h3>5.4 %s</h3>' % TI('Limits at infinity of rational functions', 'Gi
 theory += T(r'Divide the numerator and the denominator by the highest power of \(x\). Compare the degrees: if the degrees are equal, the limit is the ratio of the leading coefficients; if the numerator has the smaller degree, the limit is 0.',
             r'Chia tử và mẫu cho lũy thừa cao nhất của \(x\). So sánh bậc: nếu bậc bằng nhau, giới hạn bằng tỉ số hai hệ số cao nhất; nếu bậc tử nhỏ hơn bậc mẫu, giới hạn bằng 0.')
 theory += GRAPH({'view': [-8, 8, -6, 12], 'functions': [{'f': '(3x^2+1)/(x^2-2)', 'label': 'y = (3x² + 1)/(x² − 2)'}],
-                 'asymptotes': [{'type': 'h', 'y': 3}, {'type': 'v', 'x': math.sqrt(2)}, {'type': 'v', 'x': -math.sqrt(2)}]},
+                 'asymptotes': [{'type': 'h', 'y': 3}, {'type': 'v', 'x': math.sqrt(2), 'label': 'x = √2'}, {'type': 'v', 'x': -math.sqrt(2), 'label': 'x = −√2'}]},
                 cap=('The graph approaches y = 3 when x → ±∞.', 'Đồ thị tiến sát y = 3 khi x → ±∞.'), alt=('Rational function approaching the horizontal asymptote y = 3', ''), height=340)
 
 examples = EXAMPLE(1, ('Basic', 'Cơ bản'), ('The form 0/0', 'Dạng 0/0'),

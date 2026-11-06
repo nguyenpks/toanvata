@@ -4,6 +4,7 @@ Chạy:  python tools/make_graph_demo.py   rồi mở http://localhost:8000/demo
 import os, sys, html
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from mb_lib import *
+GRAPH, GEO = GRAPH_LIVE, GEO_LIVE    # demo của bộ vẽ tương tác JSXGraph (bài học dùng hình LaTeX tĩnh)
 import math
 
 def sec(title, *figs): return '<h2>%s</h2>' % title + ''.join(figs)

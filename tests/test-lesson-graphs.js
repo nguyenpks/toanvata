@@ -1,5 +1,6 @@
 /* Kiểm tra TOÁN HỌC cấu hình đồ thị trong các bài học:  node tests/test-lesson-graphs.js
-   Với mọi khối data-mbg kiểu graph: biểu thức đọc được; tiệm cận khai báo đúng với hàm; lỗ thủng khai báo đúng là gián đoạn bỏ được
+   Đồ thị nay là hình TĨNH vẽ bằng PGFPlots (img/tex/<băm>.svg); cấu hình gốc lưu kèm ở img/tex/<băm>.json.
+   Với mọi đồ thị (và khối data-mbg cũ nếu còn): biểu thức đọc được; tiệm cận khai báo đúng với hàm; lỗ thủng khai báo đúng là gián đoạn bỏ được
    với giá trị giới hạn đúng; đầu mút miền (○/●) có giá trị hữu hạn; chỉ số hàm trong mark/monotone hợp lệ; mọi điểm đặc biệt tính ra nằm trong khung nhìn. */
 const fs = require('fs'), path = require('path');
 const C = require('../js/mb-graph-core.js');
@@ -8,7 +9,7 @@ const unesc = s => s.replace(/&quot;/g, '"').replace(/&#x27;|&#39;/g, "'").repla
 function walk(d) { return fs.readdirSync(d, { withFileTypes: true }).flatMap(e => e.isDirectory() ? walk(path.join(d, e.name)) : e.name.endsWith('.html') ? [path.join(d, e.name)] : []); }
 let n = 0, bad = 0;
 function ok(c, m, f) { if (!c) { bad++; console.log('  ✗', path.relative(ROOT, f), '|', m); } }
-let n3 = 0;
+let n3 = 0, nt = 0;
 function check3d(cfg, file) {
   n3++; const P = cfg.points || {}, has = k => Array.isArray(P[k]) && P[k].length === 3 && P[k].every(Number.isFinite);
   const names = [].concat((cfg.segments || []).flatMap(s => [s[0], s[1]]), (cfg.lines || []).flatMap(s => [s[0], s[1]]), (cfg.polygons || []).flatMap(p => p.points || p));
@@ -31,8 +32,15 @@ function check3d(cfg, file) {
 }
 walk(path.join(ROOT, 'lessons')).forEach(file => {
   const html = fs.readFileSync(file, 'utf-8'), re = /data-mbg=(?:'([^']*)'|"([^"]*)")/g; let m;
-  while ((m = re.exec(html))) {
-    const cfg = JSON.parse(unesc(m[1] != null ? m[1] : m[2]));
+  const cfgs = [];
+  while ((m = re.exec(html))) cfgs.push(JSON.parse(unesc(m[1] != null ? m[1] : m[2])));
+  const ri = /img\/tex\/([0-9a-f]{16})\.svg/g;
+  while ((m = ri.exec(html))) {
+    const svg = path.join(ROOT, 'img', 'tex', m[1] + '.svg'), side = path.join(ROOT, 'img', 'tex', m[1] + '.json');
+    ok(fs.existsSync(svg), 'thiếu tệp hình ' + m[1] + '.svg', file); nt++;
+    if (fs.existsSync(side)) cfgs.push(JSON.parse(fs.readFileSync(side, 'utf-8')));
+  }
+  for (const cfg of cfgs) {
     if (cfg.kind === '3d') { check3d(cfg, file); continue; }
     if (cfg.kind !== 'graph') continue; n++;
     const names = (cfg.params || []).map(p => p.name), scope = {}; (cfg.params || []).forEach(p => scope[p.name] = p.value);
@@ -53,5 +61,5 @@ walk(path.join(ROOT, 'lessons')).forEach(file => {
     idx.forEach(i => ok(Number.isInteger(i) && i >= 0 && i < fns.length, 'chỉ số hàm ngoài phạm vi: ' + i, file));
   }
 });
-console.log((bad ? '✗' : '✓') + ' cấu hình hình vẽ trong bài học: ' + n + ' đồ thị, ' + n3 + ' hình khối, ' + bad + ' lỗi');
+console.log((bad ? '✗' : '✓') + ' cấu hình hình vẽ trong bài học: ' + n + ' đồ thị, ' + n3 + ' hình khối, ' + nt + ' hình LaTeX, ' + bad + ' lỗi');
 process.exit(bad ? 1 : 0);

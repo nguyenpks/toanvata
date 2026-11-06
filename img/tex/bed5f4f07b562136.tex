@@ -1,0 +1,51 @@
+\documentclass[border=4pt]{standalone}
+\usepackage{fontspec}
+\usepackage{amsmath}
+\usepackage{unicode-math}
+\setmainfont{Latin Modern Roman}
+\setmathfont{Latin Modern Math}
+\usepackage{pgfplots}
+\usepackage{pgfplotstable}
+\pgfplotsset{compat=1.18}
+\usepackage{tkz-euclide}
+\usetikzlibrary{arrows.meta,calc,angles,quotes,patterns,3d,backgrounds}
+\definecolor{ink}{HTML}{123428}
+\definecolor{asy}{HTML}{475569}
+\definecolor{mint}{HTML}{86e0bd}
+\tikzset{asym/.style={asy, line width=0.9pt, dash pattern=on 5pt off 3.5pt},
+         guide/.style={gray!70, line width=0.6pt, densely dotted},
+         dot/.style={circle, inner sep=0pt, minimum size=5pt, draw=white, line width=0.5pt},
+         odot/.style={circle, inner sep=0pt, minimum size=5.5pt, fill=white, line width=1pt},
+         lab/.style={font=\footnotesize, inner sep=1.5pt, text=ink}}
+\begin{document}
+\begin{tikzpicture}[x=3.2143cm, y=3.2143cm]
+\draw[gray!16, line width=0.4pt] (-1,-0.45) -- (-1,1.4) (0,-0.45) -- (0,1.4) (1,-0.45) -- (1,1.4);
+\draw[gray!16, line width=0.4pt] (-1.4,0) -- (1.4,0) (-1.4,1) -- (1.4,1);
+\draw[ink!85, line width=0.7pt, -{Stealth[length=2.4mm]}] (-1.4,0) -- (1.4,0) node[anchor=north east, lab, font=\normalsize] {$x$};
+\draw[ink!85, line width=0.7pt, -{Stealth[length=2.4mm]}] (0,-0.45) -- (0,1.4) node[anchor=north west, lab, font=\normalsize] {$y$};
+\draw[ink!70] (-1,0.024888888888888887) -- (-1,-0.024888888888888887) node[below, lab, font=\footnotesize] {$-1$};
+\draw[ink!70] (0.024888888888888887,1) -- (-0.024888888888888887,1) node[left, lab, font=\footnotesize] {$1$};
+\tkzDefPoint(0,0){O}
+\tkzDefPoint(1,0){tmp1}
+\tkzDefPoint(0.5,0.866025){P}
+\tkzDefPoint(0.5,0){H}
+\tkzDefPoint(1,0){A}
+\begin{scope}
+\clip (-1.4,-0.45) rectangle (1.4,1.4);
+\tkzDrawCircle[draw={rgb,255:red,4;green,107;blue,77}, line width=0.9pt](O,tmp1)
+\tkzDrawSegment[draw=ink, line width=0.90pt](O,P)
+\tkzDrawSegment[draw={rgb,255:red,194;green,65;blue,12}, line width=0.90pt, dash pattern=on 4pt off 3pt](P,H)
+\end{scope}
+\tkzFillAngle[size=0.25, fill={rgb,255:red,245;green,158;blue,11}, fill opacity=0.3](A,O,P)
+\tkzMarkAngle[size=0.25, draw={rgb,255:red,180;green,83;blue,9}, line width=0.7pt, mark=none](A,O,P)
+\tkzLabelAngle[pos=0.381, text={rgb,255:red,124;green,45;blue,18}, font=\footnotesize](A,O,P){$60^{\circ}$}
+\node[dot, fill={rgb,255:red,4;green,107;blue,77}] at (O) {};
+\node[dot, fill={rgb,255:red,4;green,107;blue,77}] at (P) {};
+\node[dot, fill={rgb,255:red,4;green,107;blue,77}] at (H) {};
+\node[dot, fill={rgb,255:red,4;green,107;blue,77}] at (A) {};
+\node[lab, font=\normalsize, anchor=north east] at (0,0) {$O$};
+\node[lab, font=\normalsize, anchor=south] at (0.5,0.86603) {$P$};
+\node[lab, font=\normalsize, anchor=north] at (0.5,0) {$H$};
+\node[lab, font=\normalsize, anchor=north west] at (1,0) {$A$};
+\end{tikzpicture}
+\end{document}

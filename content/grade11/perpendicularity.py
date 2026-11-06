@@ -62,13 +62,13 @@ phrases = [
  ('<b>Draw the altitude from \\(C\\).</b>', 'Vẽ đường cao hạ từ \\(C\\).'),
 ]
 review = (
- T(r'<b>Perpendicular in the plane.</b> From a point \(P\) not on a line \(AB\) there is exactly one perpendicular to \(AB\). Its foot is \(H\). The segment \(PH\) is the shortest segment from \(P\) to the line. Drag \(P\), \(A\) or \(B\): the right angle never changes.', r'<b>Vuông góc trong mặt phẳng.</b> Từ điểm \(P\) không thuộc đường thẳng \(AB\) có đúng một đường vuông góc với \(AB\); chân của nó là \(H\). Đoạn \(PH\) là đoạn ngắn nhất từ \(P\) đến đường thẳng. Hãy kéo \(P\), \(A\) hoặc \(B\): góc vuông không bao giờ đổi.') +
+ T(r'<b>Perpendicular in the plane.</b> From a point \(P\) not on a line \(AB\) there is exactly one perpendicular to \(AB\). Its foot is \(H\). The segment \(PH\) is the shortest segment from \(P\) to the line.', r'<b>Vuông góc trong mặt phẳng.</b> Từ điểm \(P\) không thuộc đường thẳng \(AB\) có đúng một đường vuông góc với \(AB\); chân của nó là \(H\). Đoạn \(PH\) là đoạn ngắn nhất từ \(P\) đến đường thẳng.') +
   GEO({'view': [-6, 6, -3, 5], 'steps': [
       {'type': 'point', 'id': 'A', 'at': [-4, 0]}, {'type': 'point', 'id': 'B', 'at': [4, 0]}, {'type': 'line', 'id': 'AB', 'through': ['A', 'B']},
       {'type': 'point', 'id': 'P', 'at': [1, 3.5]}, {'type': 'perpendicular', 'from': 'P', 'to': 'AB', 'foot': 'H', 'footName': 'H'},
       {'type': 'angle', 'points': ['B', 'H', 'P'], 'radius': 0.6}]},
-      cap=('PH is built as a true perpendicular, so the square right-angle mark stays correct when you drag the points.', 'PH được dựng bằng quan hệ vuông góc thật nên dấu góc vuông luôn đúng khi bạn kéo các điểm.'), alt=('A perpendicular from a point to a line', ''), height=320) +
- T(r'<b>Tangent to a circle.</b> The tangent at a point \(T\) of a circle with centre \(O\) is the line through \(T\) perpendicular to the radius \(OT\). Drag \(T\) around the circle.', r'<b>Tiếp tuyến của đường tròn.</b> Tiếp tuyến tại điểm \(T\) của đường tròn tâm \(O\) là đường thẳng qua \(T\) vuông góc với bán kính \(OT\). Hãy kéo \(T\) quanh đường tròn.') +
+      cap=('H is the foot of the perpendicular from P to AB; the square marks the right angle.', 'H là chân đường vuông góc hạ từ P xuống AB; ô vuông nhỏ kí hiệu góc vuông.'), alt=('A perpendicular from a point to a line', ''), height=320) +
+ T(r'<b>Tangent to a circle.</b> The tangent at a point \(T\) of a circle with centre \(O\) is the line through \(T\) perpendicular to the radius \(OT\).', r'<b>Tiếp tuyến của đường tròn.</b> Tiếp tuyến tại điểm \(T\) của đường tròn tâm \(O\) là đường thẳng qua \(T\) vuông góc với bán kính \(OT\).') +
   GEO({'view': [-6, 6, -4, 5], 'steps': [
       {'type': 'point', 'id': 'O', 'at': [-1, 0]}, {'type': 'point', 'id': 'R', 'at': [2, 0]}, {'type': 'circle', 'id': 'c', 'center': 'O', 'through': 'R'},
       {'type': 'glider', 'id': 'T', 'at': [-1, 3], 'on': 'c'}, {'type': 'tangent', 'center': 'O', 'at': 'T', 'showRadius': True}]},

@@ -71,8 +71,8 @@ theory += BOX('mint', ('Tangent line', 'Phương trình tiếp tuyến'),
   T(r'The slope of the tangent line at the point of tangency \((x_0;f(x_0))\) is \(f′(x_0)\). The tangent line is', r'[[Hệ số góc]] của tiếp tuyến tại [[tiếp điểm]] \((x_0;f(x_0))\) là \(f′(x_0)\). Phương trình tiếp tuyến là'),
   M(r"y=f'(x_0)\,(x-x_0)+f(x_0)."))
 theory += GRAPH({'view': [-4, 4, -2, 10], 'functions': [{'f': 'x^2', 'label': 'f(x) = x²'}], 'tangent': {'f': 0, 'at': 1, 'min': -3, 'max': 3}},
-                cap=('Move x₀: the orange line is the tangent line. Its slope is f′(x₀) = 2x₀.', 'Kéo x₀: đường màu cam là tiếp tuyến. Hệ số góc của nó là f′(x₀) = 2x₀.'),
-                alt=('Parabola with a movable tangent line', ''), height=340)
+                cap=('The orange line is the tangent line at M(1; 1). Its slope is f′(1) = 2; in general the slope at x₀ is f′(x₀) = 2x₀.', 'Đường màu cam là tiếp tuyến tại M(1; 1). Hệ số góc của nó là f′(1) = 2; tổng quát, hệ số góc tại x₀ là f′(x₀) = 2x₀.'),
+                alt=('Parabola with its tangent line at M(1; 1)', ''), height=340)
 
 theory += '<h3>5.2 %s</h3>' % TI('Quick rules', 'Một số quy tắc nhanh')
 theory += TABLE([('Function', 'Hàm số'), ('Derivative', 'Đạo hàm')], [
@@ -97,8 +97,9 @@ examples += EXAMPLE(2, ('Intermediate', 'Trung bình'), ('A tangent line', 'Vi�
   [T(r'\(f′(x)=3x^2\), so \(f′(1)=3\).', r'\(f′(x)=3x^2\) nên \(f′(1)=3\).'), T(r'\(y=3(x-1)+1=3x-2\).', r'\(y=3(x-1)+1=3x-2\).')], r'\(y=3x-2\)')
 examples += EXAMPLE(3, ('Advanced', 'Nâng cao'), ('Special tangent lines', 'Tiếp tuyến đặc biệt'),
   T(r'For \(f(x)=x^2-4x+3\): (a) find the point where the tangent line is horizontal; (b) find the tangent line parallel to \(y=2x+1\).', r'Cho \(f(x)=x^2-4x+3\): (a) tìm điểm mà tiếp tuyến nằm ngang; (b) viết tiếp tuyến song song với \(y=2x+1\).') +
-  GRAPH({'view': [-1, 5, -3, 5], 'functions': [{'f': 'x^2-4x+3', 'label': 'f(x) = x² − 4x + 3'}], 'mark': {'extrema': [0], 'roots': [0]}, 'tangent': {'f': 0, 'at': 0, 'min': -0.5, 'max': 4.5, 'step': 0.1}},
-        alt=('Parabola with a movable tangent line', ''), height=320),
+  GRAPH({'view': [-1, 5, -3, 5], 'functions': [{'f': 'x^2-4x+3', 'label': 'f(x) = x² − 4x + 3'}], 'mark': {'extrema': [0], 'roots': [0]}, 'tangent': {'f': 0, 'at': [2, 3], 'min': -0.5, 'max': 4.5, 'step': 0.1}},
+        cap=('The two tangent lines found in the solution: the horizontal one at (2; −1) and the one at (3; 0) with slope 2.', 'Hai tiếp tuyến tìm được trong lời giải: tiếp tuyến nằm ngang tại (2; −1) và tiếp tuyến tại (3; 0) có hệ số góc 2.'),
+        alt=('Parabola with two tangent lines', ''), height=320),
   (r'Here \(f′(x)=2x-4\). A horizontal line has slope 0, and parallel lines have the same slope.', r'Ở đây \(f′(x)=2x-4\). Đường nằm ngang có hệ số góc 0, hai đường song song có cùng hệ số góc.'),
   [T(r'(a) \(2x-4=0\Rightarrow x=2\), \(f(2)=-1\): the point is \((2;-1)\).', r'(a) \(2x-4=0\Rightarrow x=2\), \(f(2)=-1\): điểm cần tìm là \((2;-1)\).'),
    T(r'(b) The slope is 2: \(2x-4=2\Rightarrow x=3\), \(f(3)=0\).', r'(b) Hệ số góc bằng 2: \(2x-4=2\Rightarrow x=3\), \(f(3)=0\).'),

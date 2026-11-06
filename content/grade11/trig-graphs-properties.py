@@ -113,7 +113,7 @@ theory += BOX('mint', ('Even and odd functions', 'Hàm số chẵn, hàm số l�
 
 theory += '<h3>5.3 %s</h3>' % TI('The functions y = sin x and y = cos x', 'Hàm số y = sin x và y = cos x')
 theory += GRAPH({'view': [-7, 7, -2, 2], 'pi': True, 'functions': [{'f': 'sin(x)', 'label': 'y = sin x'}, {'f': 'cos(x)', 'label': 'y = cos x'}], 'mark': {'intersections': [[0, 1]]}},
-                cap=('The graphs of sin x and cos x are the same wave shifted by π/2. Zoom out to see more periods.', 'Đồ thị sin x và cos x là cùng một đường hình sin, lệch nhau π/2. Hãy thu nhỏ để thấy thêm nhiều chu kì.'),
+                cap=('The graphs of sin x and cos x are the same wave shifted by π/2. Two full periods are shown.', 'Đồ thị sin x và cos x là cùng một đường hình sin, lệch nhau π/2. Hình vẽ thể hiện hai chu kì.'),
                 alt=('Graphs of sine and cosine with intersection points', ''), height=340)
 theory += TABLE([('Property', 'Tính chất'), (r'\(y=\sin x\)', r'\(y=\sin x\)'), (r'\(y=\cos x\)', r'\(y=\cos x\)')], [
   [TI('domain', 'tập xác định'), r'\(\mathbb{R}\)', r'\(\mathbb{R}\)'], [TI('range', 'tập giá trị'), r'\([-1;1]\)', r'\([-1;1]\)'],
@@ -127,9 +127,9 @@ theory += BOX('mint', ('Effect of the numbers a, b, c, d', 'Ảnh hưởng của
   M(r'y=a\sin(bx+c)+d'),
   T(r'The amplitude is \(|a|\); the period is \(\dfrac{2\pi}{|b|}\); \(c\) shifts the wave horizontally; \(d\) shifts it vertically. The maximum value is \(|a|+d\) and the minimum value is \(-|a|+d\).',
     r'[[Biên độ]] là \(|a|\); [[chu kì]] là \(\dfrac{2\pi}{|b|}\); \(c\) dời đồ thị theo chiều ngang; \(d\) dời theo chiều dọc. [[Giá trị lớn nhất]] là \(|a|+d\), [[giá trị nhỏ nhất]] là \(-|a|+d\).'))
-theory += GRAPH({'view': [-7, 7, -6, 6], 'pi': True, 'params': [{'name': 'a', 'min': 0.5, 'max': 3, 'value': 2, 'step': 0.1}, {'name': 'b', 'min': 0.5, 'max': 3, 'value': 1, 'step': 0.1}, {'name': 'c', 'min': -3, 'max': 3, 'value': 0, 'step': 0.1}, {'name': 'd', 'min': -2, 'max': 2, 'value': 0, 'step': 0.1}],
+theory += GRAPH({'view': [-7, 7, -3, 3], 'pi': True, 'params': [{'name': 'a', 'min': 0.5, 'max': 3, 'value': 2, 'step': 0.1}, {'name': 'b', 'min': 0.5, 'max': 3, 'value': 1, 'step': 0.1}, {'name': 'c', 'min': -3, 'max': 3, 'value': 0, 'step': 0.1}, {'name': 'd', 'min': -2, 'max': 2, 'value': 0, 'step': 0.1}], 'family': [{'a': 1, 'b': 1, 'c': 0, 'd': 0, '_label': 'y = sin x'}, {'a': 2, 'b': 1, 'c': 0, 'd': 0, '_label': 'y = 2 sin x'}, {'a': 1, 'b': 2, 'c': 0, 'd': 0, '_label': 'y = sin 2x'}],
                  'functions': [{'f': 'a*sin(b*x+c)+d', 'label': 'y = a·sin(bx + c) + d'}]},
-                cap=('Move the sliders and watch the amplitude, the period and the position change.', 'Kéo các thanh trượt và quan sát biên độ, chu kì, vị trí đồ thị thay đổi.'), alt=('Sine wave controlled by four sliders', ''), height=360)
+                cap=('y = 2 sin x has amplitude 2 (period 2π); y = sin 2x keeps amplitude 1 but its period is π.', 'y = 2 sin x có biên độ 2 (chu kì 2π); y = sin 2x vẫn có biên độ 1 nhưng chu kì là π.'), alt=('Graphs of sin x, 2 sin x and sin 2x', ''), height=360)
 
 theory += '<h3>5.4 %s</h3>' % TI('The functions y = tan x and y = cot x', 'Hàm số y = tan x và y = cot x')
 theory += GRAPH({'view': [-5, 5, -6, 6], 'pi': True, 'functions': [{'f': 'tan(x)', 'label': 'y = tan x'}, {'f': '1/tan(x)', 'label': 'y = cot x'}],

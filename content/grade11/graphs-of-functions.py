@@ -101,13 +101,13 @@ theory += GRAPH({'view': [-5, 7, -3, 6],
                  'functions': [{'f': 'sqrt(x+1)', 'label': 'y = √(x + 1)'}, {'f': 'abs(x-2)', 'label': 'y = |x − 2|'}], 'mark': {'extrema': [1]}},
                 cap=('A radical function and an absolute value function on the same axes.', 'Hàm căn thức và hàm giá trị tuyệt đối trên cùng một hệ trục.'),
                 alt=('Graphs of square root and absolute value functions', ''), height=340)
-theory += BOX('blue', ('Try it: move the sliders', 'Thử nghiệm: kéo các thanh trượt'),
+theory += BOX('blue', ('Compare the graphs', 'So sánh các đồ thị'),
   T(r'In \(y=a(x-h)^2+k\), the number \(a\) changes the opening, \(h\) moves the graph left or right, and \(k\) moves it up or down.', r'Trong \(y=a(x-h)^2+k\), số \(a\) đổi độ mở, \(h\) dời đồ thị sang trái/phải, \(k\) dời lên/xuống.'))
-theory += GRAPH({'view': [-6, 6, -6, 8], 'params': [{'name': 'a', 'min': -3, 'max': 3, 'value': 1, 'step': 0.1}, {'name': 'h', 'min': -4, 'max': 4, 'value': 0, 'step': 0.1}, {'name': 'k', 'min': -4, 'max': 4, 'value': -2, 'step': 0.1}],
+theory += GRAPH({'view': [-6, 6, -6, 8], 'params': [{'name': 'a', 'min': -3, 'max': 3, 'value': 1, 'step': 0.1}, {'name': 'h', 'min': -4, 'max': 4, 'value': 0, 'step': 0.1}, {'name': 'k', 'min': -4, 'max': 4, 'value': -2, 'step': 0.1}], 'family': [{'a': 1, 'h': 0, 'k': 0, '_label': 'y = x²'}, {'a': 1, 'h': 2, 'k': -2, '_label': 'y = (x − 2)² − 2'}, {'a': -0.5, 'h': -2, 'k': 4, '_label': 'y = −0.5(x + 2)² + 4'}],
                  'functions': [{'f': 'a*(x-h)^2+k', 'label': 'y = a(x − h)² + k'}]},
-                cap=('Drag the sliders a, h and k.', 'Kéo các thanh trượt a, h và k.'), alt=('Parabola controlled by three sliders', ''), height=340)
-theory += BOX('yellow', ('Using the graph tool', 'Dùng công cụ đồ thị'),
-  T(r'Use the buttons to zoom and to stretch each axis. The button 1:1 gives both axes the same scale. Drag the picture to move it.', r'Dùng các nút để phóng, thu và giãn từng trục. Nút 1:1 đưa hai trục về cùng tỉ lệ. Kéo hình để di chuyển.'))
+                cap=('From y = x²: h = 2, k = −2 moves the graph 2 units right and 2 units down; a = −0.5 turns it upside down and makes it wider.', 'Từ y = x²: h = 2, k = −2 dời đồ thị sang phải 2 đơn vị và xuống dưới 2 đơn vị; a = −0,5 làm đồ thị quay xuống và mở rộng hơn.'), alt=('Three parabolas of the form y = a(x − h)² + k', ''), height=340)
+theory += BOX('yellow', ('Reading the figures', 'Đọc hình vẽ'),
+  T(r'All graphs are drawn with LaTeX (PGFPlots). Asymptotes are dashed lines; open dots are points that do not belong to the graph.', r'Mọi đồ thị được vẽ bằng LaTeX (PGFPlots). Đường tiệm cận vẽ nét đứt; chấm rỗng là điểm không thuộc đồ thị.'))
 
 examples = EXAMPLE(1, ('Basic', 'Cơ bản'), ('Reading a graph', 'Đọc đồ thị'),
   T(r'Use the graph of \(y=x^2-2x-3\) in section 5.1. Find the x-intercepts, the y-intercept, the intervals where the function increases and decreases, and the range.',
