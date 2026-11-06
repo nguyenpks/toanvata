@@ -279,3 +279,16 @@ Sinh câu tự luyện: `tools/sp_g10d.py`, `tools/sp_g11d.py`, `tools/sp_g12c.p
 Sinh câu tự luyện: `tools/sp_g10e.py`, `tools/sp_g11e.py`, `tools/sp_g12d.py`. Tạm khóa thêm `g11-limits-02` (đã soạn lại thành Bài 16).
 
 **Ký hiệu dấu phẩy trên (A', B', f'(x)):** ký tự `′` (U+2032) trong công thức bị MathJax vẽ ở chân chữ ("Aı"). `tools/mb_model.py` (`fix_math_prime`) tự đổi `′` thành `'` bên trong `\( … \)` và `\[ … \]` khi dựng trang, nên người soạn vẫn có thể gõ `A′` trong nội dung; nhãn trên hình vẽ và chữ thường giữ nguyên `′`.
+
+## Đợt 9 — 6 bài mới (2 bài mỗi khối)
+
+| Lớp | Bài | Mã bài | Nội dung |
+|---|---|---|---|
+| 10 | 15 | g10-func-01 | Hàm số (tập xác định, tập giá trị, đồ thị, đồng biến/nghịch biến, hàm cho bởi nhiều công thức) |
+| 10 | 16 | g10-func-02 | Hàm số bậc hai (đỉnh, trục đối xứng, bảng biến thiên, GTLN/GTNN, bài toán thực tế) |
+| 11 | 17 | g11-limits-05 | Hàm số liên tục (liên tục tại một điểm, trên một khoảng, tìm tham số, định lí giá trị trung gian) |
+| 11 | 18 | g11-exp-03 | Lũy thừa với số mũ thực (căn bậc n, số mũ hữu tỉ và thực, so sánh, lãi kép, chu kì bán rã) |
+| 12 | 15 | g12-coord-04 | Phương trình đường thẳng trong không gian (tham số, chính tắc, vị trí tương đối) |
+| 12 | 16 | g12-coord-05 | Công thức tính góc trong không gian (đường–đường, đường–mặt, mặt–mặt, góc trong hình lập phương) |
+
+Sinh câu tự luyện: `tools/sp_g10f.py`, `tools/sp_g11f.py`, `tools/sp_g12e.py`. Bài cũ `g11-exp-02` (Hàm số mũ và phương trình mũ) vẫn mở, xếp sau Bài 18 (`lessonOrder` = 200, chưa đánh số).

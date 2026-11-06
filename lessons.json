@@ -325,6 +325,47 @@
     "no": 14
   },
   {
+    "id": "g10-func-01",
+    "grade": 10,
+    "category": "Hàm số, đồ thị và ứng dụng",
+    "title": "Hàm số",
+    "description": "Bài 15 – Hàm số, tập xác định, tập giá trị, đồ thị, hàm số đồng biến, nghịch biến; hàm số cho bởi nhiều công thức.",
+    "level": "Beginner",
+    "estimatedMinutes": 60,
+    "prerequisites": [
+      "g10-stats-03"
+    ],
+    "path": "lessons/grade10/functions/functions.html",
+    "tags": [
+      "hàm số",
+      "tập xác định",
+      "tập giá trị",
+      "đồ thị",
+      "đồng biến"
+    ],
+    "no": 15
+  },
+  {
+    "id": "g10-func-02",
+    "grade": 10,
+    "category": "Hàm số, đồ thị và ứng dụng",
+    "title": "Hàm số bậc hai",
+    "description": "Bài 16 – Hàm số bậc hai: parabol, đỉnh, trục đối xứng, sự biến thiên, giá trị lớn nhất, nhỏ nhất, bài toán tối ưu.",
+    "level": "Intermediate",
+    "estimatedMinutes": 70,
+    "prerequisites": [
+      "g10-func-01"
+    ],
+    "path": "lessons/grade10/functions/quadratic-functions.html",
+    "tags": [
+      "hàm số bậc hai",
+      "parabol",
+      "đỉnh",
+      "trục đối xứng"
+    ],
+    "no": 16
+  },
+  {
     "id": "g11-functions-01",
     "grade": 11,
     "category": "Hàm số và đồ thị",
@@ -524,27 +565,6 @@
       "tổng"
     ],
     "no": 6
-  },
-  {
-    "id": "g11-exp-02",
-    "grade": 11,
-    "category": "Hàm số mũ",
-    "title": "Hàm số mũ và phương trình mũ",
-    "description": "Đồ thị và tính chất của hàm số y = a^x, giải phương trình mũ.",
-    "level": "Intermediate",
-    "estimatedMinutes": 50,
-    "prerequisites": [
-      "g11-functions-01"
-    ],
-    "path": "lessons/grade11/exponential-functions/exponential-functions-and-equations.html",
-    "tags": [
-      "hàm số mũ",
-      "phương trình mũ",
-      "lũy thừa",
-      "cơ số",
-      "đồng biến",
-      "nghịch biến"
-    ]
   },
   {
     "id": "g11-sequences-03",
@@ -781,6 +801,67 @@
       "vô cực"
     ],
     "no": 16
+  },
+  {
+    "id": "g11-limits-05",
+    "grade": 11,
+    "category": "Giới hạn. Hàm số liên tục",
+    "title": "Hàm số liên tục",
+    "description": "Bài 17 – Hàm số liên tục tại một điểm, trên một khoảng; tìm tham số; định lí giá trị trung gian và chứng minh phương trình có nghiệm.",
+    "level": "Intermediate",
+    "estimatedMinutes": 70,
+    "prerequisites": [
+      "g11-limits-04"
+    ],
+    "path": "lessons/grade11/limits/continuous-functions.html",
+    "tags": [
+      "hàm số liên tục",
+      "gián đoạn",
+      "định lí giá trị trung gian",
+      "hàm nhiều công thức"
+    ],
+    "no": 17
+  },
+  {
+    "id": "g11-exp-03",
+    "grade": 11,
+    "category": "Hàm số mũ và hàm số lôgarit",
+    "title": "Lũy thừa với số mũ thực",
+    "description": "Bài 18 – Lũy thừa với số mũ nguyên, hữu tỉ, thực; căn bậc n; tính chất; so sánh; lãi kép và chu kì bán rã.",
+    "level": "Intermediate",
+    "estimatedMinutes": 70,
+    "prerequisites": [
+      "g11-limits-05"
+    ],
+    "path": "lessons/grade11/exponential-functions/real-exponents.html",
+    "tags": [
+      "lũy thừa",
+      "căn bậc n",
+      "số mũ thực",
+      "chu kì bán rã"
+    ],
+    "no": 18
+  },
+  {
+    "id": "g11-exp-02",
+    "grade": 11,
+    "category": "Hàm số mũ",
+    "title": "Hàm số mũ và phương trình mũ",
+    "description": "Đồ thị và tính chất của hàm số y = a^x, giải phương trình mũ.",
+    "level": "Intermediate",
+    "estimatedMinutes": 50,
+    "prerequisites": [
+      "g11-functions-01"
+    ],
+    "path": "lessons/grade11/exponential-functions/exponential-functions-and-equations.html",
+    "tags": [
+      "hàm số mũ",
+      "phương trình mũ",
+      "lũy thừa",
+      "cơ số",
+      "đồng biến",
+      "nghịch biến"
+    ]
   },
   {
     "id": "g12-mono-01",
@@ -1056,6 +1137,46 @@
       "khoảng cách"
     ],
     "no": 14
+  },
+  {
+    "id": "g12-coord-04",
+    "grade": 12,
+    "category": "Phương pháp tọa độ trong không gian",
+    "title": "Phương trình đường thẳng trong không gian",
+    "description": "Bài 15 – Vectơ chỉ phương, phương trình tham số, phương trình chính tắc, vị trí tương đối của hai đường thẳng, giao điểm với mặt phẳng.",
+    "level": "Intermediate",
+    "estimatedMinutes": 75,
+    "prerequisites": [
+      "g12-coord-03"
+    ],
+    "path": "lessons/grade12/space-coordinates/line-equations.html",
+    "tags": [
+      "đường thẳng",
+      "vectơ chỉ phương",
+      "phương trình tham số",
+      "chéo nhau"
+    ],
+    "no": 15
+  },
+  {
+    "id": "g12-coord-05",
+    "grade": 12,
+    "category": "Phương pháp tọa độ trong không gian",
+    "title": "Công thức tính góc trong không gian",
+    "description": "Bài 16 – Công thức tính góc giữa hai đường thẳng, giữa đường thẳng và mặt phẳng, giữa hai mặt phẳng; góc trong hình lập phương; góc nghiêng thực tế.",
+    "level": "Intermediate",
+    "estimatedMinutes": 70,
+    "prerequisites": [
+      "g12-coord-04"
+    ],
+    "path": "lessons/grade12/space-coordinates/angle-formulas.html",
+    "tags": [
+      "góc",
+      "đường thẳng",
+      "mặt phẳng",
+      "góc nghiêng"
+    ],
+    "no": 16
   },
   {
     "id": "g12-antider-01",
