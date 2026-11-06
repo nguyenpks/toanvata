@@ -45,21 +45,12 @@ examples += EXAMPLE(5, ('Advanced', 'Nâng cao'), ('Compare two classes', 'So s�
   T('Find both means with the midpoints.', 'Tính hai số trung bình bằng giá trị đại diện.'), [T('Class A: \\(\\bar x=20.5\\).', 'Lớp A: \\(\\bar x=20.5\\).'), T('Class B: \\(\\bar x=\\dfrac{6\\cdot5+8\\cdot15+5\\cdot25+2\\cdot35+3\\cdot45}{24}=\\dfrac{480}{24}=20\\).', 'Lớp B: \\(\\bar x=\\dfrac{6\\cdot5+8\\cdot15+5\\cdot25+2\\cdot35+3\\cdot45}{24}=\\dfrac{480}{24}=20\\).')], T('Class A has the higher mean (20.5 > 20), but the difference is small.', 'Lớp A có số trung bình cao hơn (20,5 > 20) nhưng chênh lệch nhỏ.'))
 assert 6 * 5 + 8 * 15 + 5 * 25 + 2 * 35 + 3 * 45 == 480
 
-def lvl(P):
-    t, u = P['t'], P['u']; m = t.mean(); me = t.median(); mo = t.mode(); i = t.med_group(); j = t.mode_group()
-    o1 = M4(1, 'A frequency table: %s. The mean is…' % t.html(), 'Bảng tần số ghép nhóm: %s. Số trung bình là…' % t.html(), dec(m), [dec(m + 1), dec(m - 1), dec(t.mid(j)), dec(m + 2.5)], '\\(\\bar x=\\dfrac{\\sum n_ix_i}{n}=%s\\).' % dec(m), '\\(\\bar x=\\dfrac{\\sum n_ix_i}{n}=%s\\).' % dec(m))
-    o2 = M4(2, 'A frequency table: %s. The median group is…' % t.html(), 'Bảng tần số ghép nhóm: %s. Nhóm chứa trung vị là…' % t.html(), t.label(i), [t.label(x) for x in range(t.k) if x != i][:3], '\\(\\frac n2=%s\\); first cumulative frequency \\(\\ge\\) it is in %s.' % (dec(F(t.n, 2)), t.label(i)), '\\(\\frac n2=%s\\); tần số tích lũy đầu tiên không nhỏ hơn giá trị đó thuộc nhóm %s.' % (dec(F(t.n, 2)), t.label(i)))
-    o3 = M4(3, 'A frequency table: %s. The mode is…' % u.html(), 'Bảng tần số ghép nhóm: %s. Mốt là…' % u.html(), dec(u.mode()), [dec(u.mid(u.mode_group())), dec(u.mode() + 1), dec(u.edge(u.mode_group())), dec(u.mode() - 1)], '\\(M_o=%s\\).' % dec(u.mode()), '\\(M_o=%s\\).' % dec(u.mode()))
-    x = P['tv']; claim = me if x[0] else me + 2.5
-    t4 = tf(4, 'A frequency table: %s. The median is %s.' % (t.html(), dec(claim)), 'Bảng tần số ghép nhóm: %s. Trung vị bằng %s.' % (t.html(), dec(claim)), x[0], 'Use the median formula: \\(M_e=%s\\).' % dec(me), 'Dùng công thức trung vị: \\(M_e=%s\\).' % dec(me))
-    cj = u.label(u.mode_group()) if x[1] else u.label((u.mode_group() + 1) % u.k)
-    t5 = tf(5, 'A frequency table: %s. The modal group is %s.' % (u.html(), cj), 'Bảng tần số ghép nhóm: %s. Nhóm chứa mốt là %s.' % (u.html(), cj), x[1], 'The modal group has the highest frequency.', 'Nhóm chứa mốt có tần số lớn nhất.')
-    s6 = sh(6, 'A frequency table: %s. Find the median.' % u.html(), 'Bảng tần số ghép nhóm: %s. Tìm trung vị.' % u.html(), dec(u.median()), '\\(M_e=%s\\).' % dec(u.median()), '\\(M_e=%s\\).' % dec(u.median()))
-    s7 = sh(7, 'A frequency table: %s. Find the mean.' % P['v'].html(), 'Bảng tần số ghép nhóm: %s. Tìm số trung bình.' % P['v'].html(), dec(P['v'].mean()), '\\(\\bar x=%s\\).' % dec(P['v'].mean()), '\\(\\bar x=%s\\).' % dec(P['v'].mean()))
-    return [[o1, o2, o3], [t4, t5], [s6, s7]]
-PP = [dict(t=nice(11, need=('mean', 'median', 'mode')), u=nice(12), v=nice(13), tv=(True, True)), dict(t=nice(14), u=nice(15), v=nice(16), tv=(False, False)), dict(t=nice(17), u=nice(18), v=nice(19), tv=(True, False))]
-practice = three(lvl, PP)
-practice = with_self(practice, sp_g11b.M9G, start=8)
+import gq, gq_build
+from gq import *
+PLAN = [(21, [q_mean, q_median_meaning, q_mode], [tf_median_group, tf_mean_mode], [sh_median, sh_total]), (22, [q_median, q_cmp_mean, q_total], [tf_mean_mode, tf_median_group], [sh_mean, sh_shift]), (23, [q_shift, q_mode, q_median], [tf_median_group, tf_mean_mode], [sh_mode, sh_mean])]
+practice = gq_build.make_levels(PLAN)
+SELFQ = [q_mean, q_median, q_mode, q_median_meaning, q_cmp_mean, q_total, q_shift, q_mean]
+practice = with_self(practice, SELFQ, start=8)
 mistakes = [('<b>Using the group end instead of the midpoint.</b> The mean needs \\(x_i=\\dfrac{u_i+u_{i+1}}2\\).', '<b>Dùng đầu mút thay cho giá trị đại diện.</b> Số trung bình cần \\(x_i=\\dfrac{u_i+u_{i+1}}2\\).'), ('<b>Wrong median group.</b> Use \\(\\frac n2\\) and the cumulative frequency, not the highest frequency.', '<b>Chọn sai nhóm chứa trung vị.</b> Dùng \\(\\frac n2\\) và tần số tích lũy, không dùng tần số lớn nhất.'), ('<b>Forgetting \\(C\\).</b> In \\(M_e\\), \\(C\\) is the sum of the frequencies before the median group.', '<b>Quên \\(C\\).</b> Trong \\(M_e\\), \\(C\\) là tổng tần số các nhóm đứng trước nhóm chứa trung vị.'), ('<b>Wrong neighbours in the mode formula.</b> Use \\(n_{m-1}\\) before and \\(n_{m+1}\\) after the modal group.', '<b>Sai nhóm kề trong công thức mốt.</b> Dùng \\(n_{m-1}\\) (trước) và \\(n_{m+1}\\) (sau) nhóm chứa mốt.')]
 summary = [('Mean \\(\\bar x=\\dfrac{\\sum n_ix_i}{n}\\) with midpoints.', 'Số trung bình \\(\\bar x=\\dfrac{\\sum n_ix_i}{n}\\) với giá trị đại diện.'), ('Median \\(M_e=u_m+\\dfrac{n/2-C}{n_m}h\\).', 'Trung vị \\(M_e=u_m+\\dfrac{n/2-C}{n_m}h\\).'), ('Mode \\(M_o=u_m+\\dfrac{n_m-n_{m-1}}{(n_m-n_{m-1})+(n_m-n_{m+1})}h\\).', 'Mốt \\(M_o=u_m+\\dfrac{n_m-n_{m-1}}{(n_m-n_{m-1})+(n_m-n_{m+1})}h\\).'), ('Key English words: mean, median, mode, modal group.', 'Từ tiếng Anh cần nhớ: mean, median, mode, modal group.')]
 checks = [('I can find the mean of grouped data.', 'Tôi tính được số trung bình của số liệu ghép nhóm.'), ('I can find the median group and the median.', 'Tôi tìm được nhóm chứa trung vị và trung vị.'), ('I can find the modal group and the mode.', 'Tôi tìm được nhóm chứa mốt và mốt.'), ('I can compare two data sets in English.', 'Tôi so sánh được hai mẫu số liệu bằng tiếng Anh.')]

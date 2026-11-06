@@ -45,28 +45,12 @@ assert 4 + 12 + 16 + 8 == 40 and (16 + 8) / 40 == .6
 def tab(edges, fs):
     from freqtable import FREQ
     return FREQ(edges, fs)
-def lvl(P):
-    ed, fs, k = P['e'], P['f'], P['k']; n = sum(fs); T_ = tab(ed, fs)
-    mid = F(ed[k] + ed[k + 1], 2)
-    o1 = M4(1, 'The midpoint of the group \\([%d;%d)\\) is…' % (ed[k], ed[k + 1]), 'Giá trị đại diện của nhóm \\([%d;%d)\\) là…' % (ed[k], ed[k + 1]), fr(mid), [str(ed[k]), str(ed[k + 1]), fr(mid + 1), str(ed[k + 1] - ed[k])], '\\(\\dfrac{%d+%d}{2}=%s\\).' % (ed[k], ed[k + 1], fr(mid)), '\\(\\dfrac{%d+%d}{2}=%s\\).' % (ed[k], ed[k + 1], fr(mid)))
-    o2 = M4(2, 'A frequency table: %s. The sample size is…' % T_, 'Bảng tần số: %s. Cỡ mẫu là…' % T_, str(n), [str(n + 1), str(n - 1), str(max(fs)), str(n + 4)], 'Add all frequencies: %d.' % n, 'Cộng mọi tần số: %d.' % n)
-    j = P['j']; c = sum(fs[:j])
-    o3 = M4(3, 'A frequency table: %s. How many values are less than \\(%d\\)?' % (T_, ed[j]), 'Bảng tần số: %s. Có bao nhiêu giá trị nhỏ hơn \\(%d\\)?' % (T_, ed[j]), str(c), [str(c + fs[j]), str(c + 1), str(c - 1), str(fs[j - 1] + 5)], 'Add the frequencies of the groups before %d: %d.' % (ed[j], c), 'Cộng tần số các nhóm đứng trước %d: %d.' % (ed[j], c))
-    m = fs.index(max(fs)); claim = m if P['tv'][0] else (m + 1) % len(fs)
-    t4 = tf(4, 'A frequency table: %s. The group \\([%d;%d)\\) has the highest frequency.' % (T_, ed[claim], ed[claim + 1]), 'Bảng tần số: %s. Nhóm \\([%d;%d)\\) có tần số lớn nhất.' % (T_, ed[claim], ed[claim + 1]), claim == m, 'The highest frequency is %d.' % max(fs), 'Tần số lớn nhất là %d.' % max(fs))
-    cl = 100 * fs[k] // n if P['tv'][1] else 100 * fs[k] // n + 5
-    t5 = tf(5, 'For this table (%s) the relative frequency of \\([%d;%d)\\) is %d%%.' % (T_, ed[k], ed[k + 1], cl), 'Với bảng (%s), tần suất của nhóm \\([%d;%d)\\) là %d%%.' % (T_, ed[k], ed[k + 1], cl), P['tv'][1], 'It is \\(\\dfrac{%d}{%d}\\cdot100\\%%=%d\\%%\\).' % (fs[k], n, 100 * fs[k] // n), 'Tần suất là \\(\\dfrac{%d}{%d}\\cdot100\\%%=%d\\%%\\).' % (fs[k], n, 100 * fs[k] // n))
-    s6 = sh(6, 'A frequency table: %s. How many values are not less than \\(%d\\)?' % (T_, ed[P['s']]), 'Bảng tần số: %s. Có bao nhiêu giá trị không nhỏ hơn \\(%d\\)?' % (T_, ed[P['s']]), n - sum(fs[:P['s']]), '%d-%d=%d.' % (n, sum(fs[:P['s']]), n - sum(fs[:P['s']])), '%d-%d=%d.' % (n, sum(fs[:P['s']]), n - sum(fs[:P['s']])))
-    q = P['q']; v = 100 * fs[q] // n
-    s7 = sh(7, 'A frequency table: %s. Find the relative frequency of \\([%d;%d)\\) (in %%).' % (T_, ed[q], ed[q + 1]), 'Bảng tần số: %s. Tìm tần suất của nhóm \\([%d;%d)\\) (đơn vị %%).' % (T_, ed[q], ed[q + 1]), v, '\\(\\dfrac{%d}{%d}\\cdot100=%d\\).' % (fs[q], n, v), '\\(\\dfrac{%d}{%d}\\cdot100=%d\\).' % (fs[q], n, v))
-    return [[o1, o2, o3], [t4, t5], [s6, s7]]
-PP = [dict(e=[0, 10, 20, 30, 40], f=[4, 12, 40 // 2 + 4 - 4, 24 - 4], k=1, j=2, tv=(True, True), s=2, q=3), dict(e=[0, 5, 10, 15, 20], f=[3, 8, 10, 4], k=2, j=3, tv=(False, False), s=1, q=1), dict(e=[20, 30, 40, 50, 60], f=[5, 15, 20, 10], k=2, j=2, tv=(True, True), s=3, q=0)]
-PP[0]['f'] = [4, 12, 20, 14]
-for q in PP:
-    n = sum(q['f']); assert n % 2 == 0 or True
-assert 100 * 4 // 50 == 8 and sum(PP[0]['f']) == 50 and sum(PP[1]['f']) == 25 and sum(PP[2]['f']) == 50 and 100 * 8 // 25 == 32 and 100 * 5 // 50 == 10 and 100 * 14 // 50 == 28
-practice = LEVEL_PRACTICE(GRP, {lv: lvl(p) for lv, p in zip((1, 2, 3), PP)})
-practice = with_self(practice, sp_g11.B8, start=8)
+import gq, gq_build
+from gq import *
+PLAN = [(11, [q_count_lt, q_modal_group, q_raw2tab], [tf_edge, tf_count], [sh_pct, sh_missing]), (12, [q_pct_lt, q_valid_grouping, q_missing], [tf_pct, tf_edge], [sh_count_ge, sh_count_lt]), (13, [q_count_ge, q_mid, q_raw2tab], [tf_count, tf_pct], [sh_pct, sh_count_ge])]
+practice = gq_build.make_levels(PLAN)
+SELFQ = [q_count_lt, q_count_ge, q_pct_lt, q_modal_group, q_mid, q_missing, q_raw2tab, q_valid_grouping]
+practice = with_self(practice, SELFQ, start=8)
 mistakes = [('<b>Putting a value in the wrong group.</b> A value equal to the right end belongs to the next group.', '<b>Xếp sai nhóm.</b> Giá trị bằng đầu mút phải thuộc nhóm kế tiếp.'), ('<b>Mixing frequency and relative frequency.</b> Relative frequency is a percentage of the total.', '<b>Nhầm tần số với tần suất.</b> Tần suất là phần trăm so với tổng.'), ('<b>Cumulative frequency of the wrong group.</b> “Less than 15” means all groups before 15.', '<b>Sai tần số tích lũy.</b> “Nhỏ hơn 15” nghĩa là cộng mọi nhóm đứng trước 15.'), ('<b>Using an end value as the midpoint.</b> The midpoint is \\(\\dfrac{a+b}{2}\\).', '<b>Dùng đầu mút làm giá trị đại diện.</b> Giá trị đại diện là \\(\\dfrac{a+b}{2}\\).'), ('<b>Groups of different widths.</b> Keep equal widths when drawing a histogram.', '<b>Các nhóm có độ rộng khác nhau.</b> Khi vẽ biểu đồ cột nên giữ độ rộng bằng nhau.')]
 summary = [('Grouped data: groups \\([a;b)\\), frequency \\(n_i\\), sample size \\(n\\).', 'Số liệu ghép nhóm: nhóm \\([a;b)\\), tần số \\(n_i\\), cỡ mẫu \\(n\\).'), ('Relative frequency \\(f_i=\\dfrac{n_i}{n}\\cdot100\\%\\); cumulative frequency adds up.', 'Tần suất \\(f_i=\\dfrac{n_i}{n}\\cdot100\\%\\); tần số tích lũy là cộng dồn.'), ('Midpoint \\(x_i=\\dfrac{a+b}{2}\\).', 'Giá trị đại diện \\(x_i=\\dfrac{a+b}{2}\\).'), ('Key English words: grouped data, frequency, relative frequency, histogram.', 'Từ tiếng Anh cần nhớ: grouped data, frequency, relative frequency, histogram.')]
 checks = [('I can make a frequency table from data.', 'Tôi lập được bảng tần số từ số liệu.'), ('I can find relative and cumulative frequencies.', 'Tôi tìm được tần suất và tần số tích lũy.'), ('I can find the midpoint of a group.', 'Tôi tìm được giá trị đại diện của nhóm.'), ('I can describe data in a simple English sentence.', 'Tôi nhận xét được số liệu bằng một câu tiếng Anh đơn giản.'), STD_SUMMARY_CHECK_EN()]

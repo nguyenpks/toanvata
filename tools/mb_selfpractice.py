@@ -65,7 +65,10 @@ def SELF(builders, start=1, seeds=(101, 202, 303), avoid=()):
                 if q['en'] not in used and len(set(q['opts'])) == 4 and q['en'] not in old and _h.escape(q['en'], quote=False) not in old: break
             else: raise RuntimeError('không sinh được câu không trùng: ' + b.__name__)
             used.add(q['en'])
-            esc = lambda t: t.replace('<', '\\lt ').replace('>', '\\gt ')       # tránh < > thô trong HTML
+            def esc(t):                                  # tránh < > thô trong HTML, nhưng giữ nguyên bảng tần số và phương án văn bản '§'
+                if t.startswith('§'): return t
+                import re as _re
+                return ''.join(x if x.startswith('<div class="mbl-tablewrap') else x.replace('<', '\\lt ').replace('>', '\\gt ') for x in _re.split(r'(<div class="mbl-tablewrap.*?</table></div>)', t, flags=_re.S))
             q = dict(q, en=esc(q['en']), vi=esc(q['vi']), ee=esc(q['ee']), ev=esc(q['ev']), opts=[esc(o) for o in q['opts']])
             opts = list(q['opts']); correct = opts[q['ans']]; assert len(set(opts)) == 4, (b.__name__, opts)
             idx = list(range(4)); r.shuffle(idx); sh = [opts[i] for i in idx]; L = 'abcd'[sh.index(correct)]

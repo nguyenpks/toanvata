@@ -47,32 +47,12 @@ def W(ok, cands):
     for c in cands + [dec(float(str(ok).replace('-', '')) + k) if False else dec(F(ok) + F(k, 2)) for k in (5, -5, 7, -7, 9, 11, 13)]:
         if c != ok and c not in out: out.append(c)
     return out[:4]
-def lvl(P):
-    t, u, v, w = P['t'], P['u'], P['v'], P['w']
-    o1 = M4(1, 'A frequency table: %s. The range is…' % t.html(), 'Bảng tần số ghép nhóm: %s. Khoảng biến thiên là…' % t.html(), dec(t.rng()), W(dec(t.rng()), [dec(t.rng() - t.h), dec(t.rng() + t.h), dec(t.edge(t.k)), dec(t.h * t.k + t.h)]), '\\(R=u_{k+1}-u_1=%s\\).' % dec(t.rng()), '\\(R=u_{k+1}-u_1=%s\\).' % dec(t.rng()))
-    o2 = M4(2, 'A frequency table: %s. The first quartile \\(Q_1\\) is…' % u.html(), 'Bảng tần số ghép nhóm: %s. Tứ phân vị thứ nhất \\(Q_1\\) là…' % u.html(), dec(u.q1()), W(dec(u.q1()), [dec(u.q1() + 1), dec(u.median()), dec(u.edge(u.quant(1, 4)[0])), dec(u.q1() - 2.5)]), '\\(Q_1=%s\\) (group %s).' % (dec(u.q1()), u.label(u.quant(1, 4)[0])), '\\(Q_1=%s\\) (nhóm %s).' % (dec(u.q1()), u.label(u.quant(1, 4)[0])))
-    o3 = M4(3, 'A frequency table: %s. The interquartile range \\(\\Delta_Q\\) is…' % v.html(), 'Bảng tần số ghép nhóm: %s. Khoảng tứ phân vị \\(\\Delta_Q\\) là…' % v.html(), dec(v.iqr()), W(dec(v.iqr()), [dec(v.q3()), dec(v.rng()), dec(v.iqr() + 2.5), dec(v.q1())]), '\\(\\Delta_Q=Q_3-Q_1=%s-%s=%s\\).' % (dec(v.q3()), dec(v.q1()), dec(v.iqr())), '\\(\\Delta_Q=Q_3-Q_1=%s-%s=%s\\).' % (dec(v.q3()), dec(v.q1()), dec(v.iqr())))
-    cl = P['tv'][0]; claim = t.rng() if cl else t.rng() + t.h
-    t4 = tf(4, 'A frequency table: %s. The range is %s.' % (t.html(), dec(claim)), 'Bảng tần số ghép nhóm: %s. Khoảng biến thiên bằng %s.' % (t.html(), dec(claim)), cl, 'The range is %s.' % dec(t.rng()), 'Khoảng biến thiên bằng %s.' % dec(t.rng()))
-    a, b = P['cmp']; ia, ib = a.iqr(), b.iqr(); assert ia != ib
-    stm = 'Sample A is more spread out than sample B (by \\(\\Delta_Q\\)).'; ok = ia > ib
-    if not P['tv'][1]: ok = not ok; 
-    # câu phát biểu đúng/sai
-    claimtxt_en = 'Sample A: %s. Sample B: %s. Sample A is more concentrated than sample B (by \\(\\Delta_Q\\)).' % (a.html(), b.html())
-    claimtxt_vi = 'Mẫu A: %s. Mẫu B: %s. Mẫu A tập trung hơn mẫu B (xét theo \\(\\Delta_Q\\)).' % (a.html(), b.html())
-    truth = ia < ib
-    if not P['tv'][1]: pass
-    t5 = tf(5, claimtxt_en, claimtxt_vi, truth, '\\(\\Delta_Q(A)=%s\\), \\(\\Delta_Q(B)=%s\\); the smaller one is more concentrated.' % (dec(ia), dec(ib)), '\\(\\Delta_Q(A)=%s\\), \\(\\Delta_Q(B)=%s\\); số nhỏ hơn thì tập trung hơn.' % (dec(ia), dec(ib)))
-    s6 = sh(6, 'A frequency table: %s. Find \\(Q_3\\).' % w.html(), 'Bảng tần số ghép nhóm: %s. Tìm \\(Q_3\\).' % w.html(), dec(w.q3()), '\\(Q_3=%s\\).' % dec(w.q3()), '\\(Q_3=%s\\).' % dec(w.q3()))
-    x = P['x']
-    s7 = sh(7, 'A frequency table: %s. Find \\(\\Delta_Q\\).' % x.html(), 'Bảng tần số ghép nhóm: %s. Tìm \\(\\Delta_Q\\).' % x.html(), dec(x.iqr()), '\\(\\Delta_Q=%s\\).' % dec(x.iqr()), '\\(\\Delta_Q=%s\\).' % dec(x.iqr()))
-    return [[o1, o2, o3], [t4, t5], [s6, s7]]
-N = lambda s: nice(s, need=('q1', 'q3', 'median'))
-PP = [dict(t=N(501), u=N(502), v=N(503), w=N(504), x=N(505), cmp=(N(506), N(507)), tv=(True, True)),
-      dict(t=N(508), u=N(509), v=N(510), w=N(511), x=N(512), cmp=(N(513), N(514)), tv=(False, False)),
-      dict(t=N(515), u=N(516), v=N(517), w=N(518), x=N(519), cmp=(N(520), N(521)), tv=(True, False))]
-practice = three(lvl, PP)
-practice = with_self(practice, sp_g12b.M9S12, start=8)
+import gq, gq_build
+from gq import *
+PLAN = [(31, [q_range, q_q1, q_middle_half], [tf_cmp_spread, tf_range_extreme], [sh_iqr, sh_range]), (32, [q_iqr, q_cmp_spread, q_q3], [tf_range_extreme, tf_cmp_spread], [sh_q3, sh_q1]), (33, [q_outlier, q_q1, q_iqr], [tf_cmp_spread, tf_range_extreme], [sh_iqr, sh_q3])]
+practice = gq_build.make_levels(PLAN)
+SELFQ = [q_range, q_q1, q_q3, q_iqr, q_middle_half, q_cmp_spread, q_outlier, q_iqr]
+practice = with_self(practice, SELFQ, start=8)
 mistakes = [('<b>Using the group ends wrongly for \\(R\\).</b> \\(R\\) is the last right end minus the first left end.', '<b>Dùng sai đầu mút khi tính \\(R\\).</b> \\(R\\) là đầu mút phải nhóm cuối trừ đầu mút trái nhóm đầu.'), ('<b>Wrong group for \\(Q_j\\).</b> Compare \\(\\frac{jn}4\\) with the cumulative frequency, not with the frequency \\(n_i\\).', '<b>Chọn sai nhóm cho \\(Q_j\\).</b> So \\(\\frac{jn}4\\) với tần số tích lũy, không so với tần số \\(n_i\\).'), ('<b>Forgetting \\(C\\).</b> \\(C\\) is the cumulative frequency of the groups before the group of \\(Q_j\\).', '<b>Quên \\(C\\).</b> \\(C\\) là tần số tích lũy của các nhóm đứng trước nhóm chứa \\(Q_j\\).'), ('<b>Comparing in the wrong direction.</b> A smaller \\(\\Delta_Q\\) means more concentrated data.', '<b>Kết luận ngược.</b> \\(\\Delta_Q\\) nhỏ hơn thì số liệu tập trung hơn.')]
 summary = [('\\(R=u_{k+1}-u_1\\).', '\\(R=u_{k+1}-u_1\\).'), ('\\(Q_j=u_m+\\dfrac{jn/4-C}{n_m}h\\); \\(Q_2\\) is the median.', '\\(Q_j=u_m+\\dfrac{jn/4-C}{n_m}h\\); \\(Q_2\\) là trung vị.'), ('\\(\\Delta_Q=Q_3-Q_1\\): smaller means more concentrated.', '\\(\\Delta_Q=Q_3-Q_1\\): càng nhỏ thì càng tập trung.'), ('Key English words: range, quartile, interquartile range, spread.', 'Từ tiếng Anh cần nhớ: range, quartile, interquartile range, spread.')]
 checks = [('I can find the range of grouped data.', 'Tôi tìm được khoảng biến thiên của số liệu ghép nhóm.'), ('I can find \\(Q_1\\), \\(Q_2\\), \\(Q_3\\) with the formula.', 'Tôi tìm được \\(Q_1\\), \\(Q_2\\), \\(Q_3\\) bằng công thức.'), ('I can compute \\(\\Delta_Q\\) and compare two samples.', 'Tôi tính được \\(\\Delta_Q\\) và so sánh hai mẫu.'), ('I can write a conclusion about spread in English.', 'Tôi viết được nhận xét về độ phân tán bằng tiếng Anh.')]

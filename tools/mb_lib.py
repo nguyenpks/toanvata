@@ -266,7 +266,11 @@ def MCQ(n, q, opts, ans, expl, raw=False):
     """raw=True: các phương án là văn bản/HTML (không bọc công thức), ví dụ câu hỏi chọn câu lệnh tiếng Anh."""
     _qid[0] += 1
     name = 'q%d' % _qid[0]
-    o = ''.join('<label><input type="radio" name="%s" value="%s"><span>%s</span></label>' % (name, 'abcd'[i], t if raw else (t if (t.startswith('\\(') and t.endswith('\\)') and t.count('\\(') == 1) else '\\(%s\\)' % t)) for i, t in enumerate(opts))
+    def _o(t):
+        if t.startswith('§'): return t[1:]
+        if raw: return t
+        return t if (t.startswith('\\(') and t.endswith('\\)') and t.count('\\(') == 1) else '\\(%s\\)' % t
+    o = ''.join('<label><input type="radio" name="%s" value="%s"><span>%s</span></label>' % (name, 'abcd'[i], _o(t)) for i, t in enumerate(opts))
     return ('<div class="mbl-item" data-type="mcq" data-answer="%s"><div class="mbl-qtext"><b>%d.</b></div>%s<div class="mbl-opts">%s</div>%s'
             '<div class="mbl-explain" hidden>%s</div></div>') % (ans, n, T(*q, auto=True), o, _actions(), T(*expl, auto=True))
 

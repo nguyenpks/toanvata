@@ -45,21 +45,21 @@ class FT:
     def cum(s, i): return sum(s.f[:i + 1])
     def mean(s): return sum(s.f[i] * s.mid(i) for i in range(s.k)) / s.n
 
-def FREQ(edges, freqs, rows=('group', 'freq'), last_closed=False, rel='pct', total=True, cls='', caption=None):
+def FREQ(edges, freqs, rows=('group', 'freq'), last_closed=False, rel='pct', total=True, cls='', caption=None, labels=None, unknown=None):
     t = edges if isinstance(edges, FT) else FT(edges, freqs, last_closed)
     def relcell(i):
         v = t.rel(i)
         if rel == 'frac': return '\\(%s\\)' % (num(v) if v.denominator == 1 else '\\dfrac{%d}{%d}' % (t.f[i], t.n))
         if rel == 'dec': return '\\(%s\\)' % num(v)
         return '\\(%s\\%%\\)' % num(v * 100)
-    cells = {'group': lambda i: '\\(%s\\)' % t.group(i), 'mid': lambda i: '\\(%s\\)' % num(t.mid(i)), 'freq': lambda i: '\\(%d\\)' % t.f[i], 'rel': relcell, 'cum': lambda i: '\\(%d\\)' % t.cum(i)}
+    cells = {'group': lambda i: '\\(%s\\)' % t.group(i), 'mid': lambda i: '\\(%s\\)' % num(t.mid(i)), 'freq': lambda i: ('\\(x\\)' if i == unknown else '\\(%d\\)' % t.f[i]), 'rel': relcell, 'cum': lambda i: '\\(%d\\)' % t.cum(i)}
     tot = {'group': 'Cộng / Total', 'freq': '\\(n=%d\\)' % t.n, 'rel': '\\(%s\\)' % ('100\\%' if rel == 'pct' else '1'), 'mid': '', 'cum': ''}
     out = ['<div class="mbl-tablewrap mbl-freqwrap"><table class="mbl-table mbl-freq%s">' % (' ' + cls if cls else '')]
     if caption: out.append('<caption>%s</caption>' % caption)
     out.append('<tbody>')
     for r in rows:
         vi, en, sy = LABELS[r]
-        lab = '%s%s' % (vi, (' \\(%s\\)' % sy) if sy else '')
+        lab = (labels or {}).get(r) or '%s%s' % (vi, (' \\(%s\\)' % sy) if sy else '')
         row = '<tr><th scope="row">%s</th>' % lab
         row += ''.join(('<th scope="col">%s</th>' if r == 'group' else '<td>%s</td>') % cells[r](i) for i in range(t.k))
         if total: row += '<td class="mbl-freq-tot">%s</td>' % (tot[r] if r != 'group' else 'Cộng')
