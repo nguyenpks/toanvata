@@ -332,3 +332,33 @@ Sửa lỗi "Phân tích: d": khi phần phân tích của ví dụ được tru
 * **Mọi đường tiệm cận vẽ nét đứt**, kể cả tiệm cận tự phát hiện (đứng, ngang, xiên).
 * Các hình trước đây dùng thanh trượt/kéo điểm được soạn lại thành họ đồ thị hoặc hình cố định; chú thích đã viết lại (bỏ “kéo”, “thanh trượt”, “phóng to”).
 * Xem `docs/GRAPH.md` (mục đầu) và `tools/mb_pgf.py`.
+
+## Đợt 12 — Hoàn thành Toán 10 và Toán 11 (20 bài)
+
+| Lớp | Bài | Mã bài | Nội dung | Số câu mỗi mức |
+|---|---|---|---|---|
+| 10 | 20 | g10-coord-02 | Vị trí tương đối, góc, khoảng cách | 15 |
+| 10 | 21 | g10-coord-03 | Đường tròn trong mặt phẳng tọa độ | 15 |
+| 10 | 22 | g10-coord-04 | Ba đường conic | 15 |
+| 10 | 23 | g10-comb-01 | Quy tắc cộng, quy tắc nhân (sơ đồ cây TikZ) | 15 |
+| 10 | 24 | g10-comb-02 | Hoán vị, chỉnh hợp, tổ hợp | 15 |
+| 10 | 25 | g10-comb-03 | Nhị thức Newton (tam giác Pascal) | 15 |
+| 10 | 26 | g10-prob-01 | Xác suất theo định nghĩa cổ điển (bảng 36 ô) | 15 |
+| 10 | 27 | g10-prob-02 | Thực hành tính xác suất (sơ đồ cây, mô phỏng 600 lần gieo) | 15 |
+| 11 | 22 | g11-perp-01 | Hai đường thẳng vuông góc | 15 |
+| 11 | 23 | g11-perp-02 | Đường thẳng vuông góc với mặt phẳng | 15 |
+| 11 | 24 | g11-perp-03 | Phép chiếu vuông góc, góc giữa đường thẳng và mặt phẳng | 15 |
+| 11 | 25 | g11-perp-04 | Hai mặt phẳng vuông góc | 15 |
+| 11 | 26 | g11-perp-05 | Khoảng cách | 15 |
+| 11 | 27 | g11-perp-06 | Thể tích | 15 |
+| 11 | 28 | g11-prob-01 | Biến cố hợp, biến cố giao, biến cố độc lập (biểu đồ Venn) | 15 |
+| 11 | 29 | g11-prob-02 | Công thức cộng xác suất | 15 |
+| 11 | 30 | g11-prob-03 | Công thức nhân xác suất cho hai biến cố độc lập (sơ đồ cây, hệ nối tiếp/song song) | 15 |
+| 11 | 31 | g11-deriv-01 | Định nghĩa và ý nghĩa của đạo hàm | 15 |
+| 11 | 32 | g11-deriv-02 | Các quy tắc tính đạo hàm | 15 |
+| 11 | 33 | g11-deriv-03 | Đạo hàm cấp hai (đồ thị s, v, a) | 15 |
+
+- Mỗi mức: 7 câu soạn sẵn + 8 câu tự luyện. Bộ sinh câu: `tools/sp_g10h.py` … `sp_g10j.py`, `tools/sp_g11h.py` … `sp_g11k.py`.
+- Khóa `g11-space-03` (đã soạn lại thành Bài 22–27) và `g11-derivatives-01` (đã soạn lại thành Bài 31).
+- `tools/mb_pgf.py`: thêm đường cong tham số (`param`) cho elip, hipebol, parabol; tiệm cận xiên có nhãn.
+- Đến đợt này, Toán 10, 11, 12 đã có đủ các bài trong danh mục KNTT.

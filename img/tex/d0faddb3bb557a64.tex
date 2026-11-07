@@ -1,0 +1,67 @@
+\documentclass[border=4pt]{standalone}
+\usepackage{fontspec}
+\usepackage{amsmath}
+\usepackage{unicode-math}
+\setmainfont{Latin Modern Roman}
+\setmathfont{Latin Modern Math}
+\usepackage{pgfplots}
+\usepackage{pgfplotstable}
+\pgfplotsset{compat=1.18}
+\usepackage{tkz-euclide}
+\usetikzlibrary{arrows.meta,calc,angles,quotes,patterns,3d,backgrounds}
+\definecolor{ink}{HTML}{123428}
+\definecolor{asy}{HTML}{475569}
+\definecolor{mint}{HTML}{86e0bd}
+\tikzset{asym/.style={asy, line width=0.9pt, dash pattern=on 5pt off 3.5pt},
+         guide/.style={gray!70, line width=0.6pt, densely dotted},
+         dot/.style={circle, inner sep=0pt, minimum size=5pt, draw=white, line width=0.5pt},
+         odot/.style={circle, inner sep=0pt, minimum size=5.5pt, fill=white, line width=1pt},
+         lab/.style={font=\footnotesize, inner sep=1.5pt, text=ink}}
+\begin{document}
+\begin{tikzpicture}
+\node[draw=ink!35, minimum size=0.78cm, inner sep=0pt, fill=white, font=\small] at (0.8,-0.8) {$2$};
+\node[draw=ink!35, minimum size=0.78cm, inner sep=0pt, fill=white, font=\small] at (0.8,-1.6) {$3$};
+\node[draw=ink!35, minimum size=0.78cm, inner sep=0pt, fill=white, font=\small] at (0.8,-2.4000000000000004) {$4$};
+\node[draw=ink!35, minimum size=0.78cm, inner sep=0pt, fill=white, font=\small] at (0.8,-3.2) {$5$};
+\node[draw=ink!35, minimum size=0.78cm, inner sep=0pt, fill=white, font=\small] at (0.8,-4.0) {$6$};
+\node[draw=ink!35, minimum size=0.78cm, inner sep=0pt, fill=mint!80, font=\small] at (0.8,-4.800000000000001) {$7$};
+\node[draw=ink!35, minimum size=0.78cm, inner sep=0pt, fill=white, font=\small] at (1.6,-0.8) {$3$};
+\node[draw=ink!35, minimum size=0.78cm, inner sep=0pt, fill=white, font=\small] at (1.6,-1.6) {$4$};
+\node[draw=ink!35, minimum size=0.78cm, inner sep=0pt, fill=white, font=\small] at (1.6,-2.4000000000000004) {$5$};
+\node[draw=ink!35, minimum size=0.78cm, inner sep=0pt, fill=white, font=\small] at (1.6,-3.2) {$6$};
+\node[draw=ink!35, minimum size=0.78cm, inner sep=0pt, fill=mint!80, font=\small] at (1.6,-4.0) {$7$};
+\node[draw=ink!35, minimum size=0.78cm, inner sep=0pt, fill=white, font=\small] at (1.6,-4.800000000000001) {$8$};
+\node[draw=ink!35, minimum size=0.78cm, inner sep=0pt, fill=white, font=\small] at (2.4000000000000004,-0.8) {$4$};
+\node[draw=ink!35, minimum size=0.78cm, inner sep=0pt, fill=white, font=\small] at (2.4000000000000004,-1.6) {$5$};
+\node[draw=ink!35, minimum size=0.78cm, inner sep=0pt, fill=white, font=\small] at (2.4000000000000004,-2.4000000000000004) {$6$};
+\node[draw=ink!35, minimum size=0.78cm, inner sep=0pt, fill=mint!80, font=\small] at (2.4000000000000004,-3.2) {$7$};
+\node[draw=ink!35, minimum size=0.78cm, inner sep=0pt, fill=white, font=\small] at (2.4000000000000004,-4.0) {$8$};
+\node[draw=ink!35, minimum size=0.78cm, inner sep=0pt, fill=white, font=\small] at (2.4000000000000004,-4.800000000000001) {$9$};
+\node[draw=ink!35, minimum size=0.78cm, inner sep=0pt, fill=white, font=\small] at (3.2,-0.8) {$5$};
+\node[draw=ink!35, minimum size=0.78cm, inner sep=0pt, fill=white, font=\small] at (3.2,-1.6) {$6$};
+\node[draw=ink!35, minimum size=0.78cm, inner sep=0pt, fill=mint!80, font=\small] at (3.2,-2.4000000000000004) {$7$};
+\node[draw=ink!35, minimum size=0.78cm, inner sep=0pt, fill=white, font=\small] at (3.2,-3.2) {$8$};
+\node[draw=ink!35, minimum size=0.78cm, inner sep=0pt, fill=white, font=\small] at (3.2,-4.0) {$9$};
+\node[draw=ink!35, minimum size=0.78cm, inner sep=0pt, fill=white, font=\small] at (3.2,-4.800000000000001) {$10$};
+\node[draw=ink!35, minimum size=0.78cm, inner sep=0pt, fill=white, font=\small] at (4.0,-0.8) {$6$};
+\node[draw=ink!35, minimum size=0.78cm, inner sep=0pt, fill=mint!80, font=\small] at (4.0,-1.6) {$7$};
+\node[draw=ink!35, minimum size=0.78cm, inner sep=0pt, fill=white, font=\small] at (4.0,-2.4000000000000004) {$8$};
+\node[draw=ink!35, minimum size=0.78cm, inner sep=0pt, fill=white, font=\small] at (4.0,-3.2) {$9$};
+\node[draw=ink!35, minimum size=0.78cm, inner sep=0pt, fill=white, font=\small] at (4.0,-4.0) {$10$};
+\node[draw=ink!35, minimum size=0.78cm, inner sep=0pt, fill=white, font=\small] at (4.0,-4.800000000000001) {$11$};
+\node[draw=ink!35, minimum size=0.78cm, inner sep=0pt, fill=mint!80, font=\small] at (4.800000000000001,-0.8) {$7$};
+\node[draw=ink!35, minimum size=0.78cm, inner sep=0pt, fill=white, font=\small] at (4.800000000000001,-1.6) {$8$};
+\node[draw=ink!35, minimum size=0.78cm, inner sep=0pt, fill=white, font=\small] at (4.800000000000001,-2.4000000000000004) {$9$};
+\node[draw=ink!35, minimum size=0.78cm, inner sep=0pt, fill=white, font=\small] at (4.800000000000001,-3.2) {$10$};
+\node[draw=ink!35, minimum size=0.78cm, inner sep=0pt, fill=white, font=\small] at (4.800000000000001,-4.0) {$11$};
+\node[draw=ink!35, minimum size=0.78cm, inner sep=0pt, fill=white, font=\small] at (4.800000000000001,-4.800000000000001) {$12$};
+\node[font=\small\bfseries, text=ink] at (0.8,0) {1}; \node[font=\small\bfseries, text=ink] at (0,-0.8) {1};
+\node[font=\small\bfseries, text=ink] at (1.6,0) {2}; \node[font=\small\bfseries, text=ink] at (0,-1.6) {2};
+\node[font=\small\bfseries, text=ink] at (2.4000000000000004,0) {3}; \node[font=\small\bfseries, text=ink] at (0,-2.4000000000000004) {3};
+\node[font=\small\bfseries, text=ink] at (3.2,0) {4}; \node[font=\small\bfseries, text=ink] at (0,-3.2) {4};
+\node[font=\small\bfseries, text=ink] at (4.0,0) {5}; \node[font=\small\bfseries, text=ink] at (0,-4.0) {5};
+\node[font=\small\bfseries, text=ink] at (4.800000000000001,0) {6}; \node[font=\small\bfseries, text=ink] at (0,-4.800000000000001) {6};
+\node[font=\footnotesize, text=ink!70, anchor=south] at (2.8,0.35) {xúc xắc 1 / die 1};
+\node[font=\footnotesize, text=ink!70, rotate=90, anchor=south] at (-0.35,-2.8) {xúc xắc 2 / die 2};
+\end{tikzpicture}
+\end{document}

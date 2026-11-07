@@ -3232,5 +3232,468 @@
     "vi": "sơ đồ hình cây",
     "category": "Công thức xác suất toàn phần và công thức Bayes",
     "example": "Draw a tree diagram for the two machines."
+  },
+  {
+    "id": "q-relpos",
+    "term": "relative position of two lines",
+    "vi": "vị trí tương đối của hai đường thẳng",
+    "category": "Vị trí tương đối, góc và khoảng cách",
+    "example": "Find the relative position of the two lines."
+  },
+  {
+    "id": "q-angl2",
+    "term": "angle between two lines",
+    "vi": "góc giữa hai đường thẳng",
+    "category": "Vị trí tương đối, góc và khoảng cách",
+    "example": "The angle between the lines is 45°.",
+    "symbol": "\\(\\varphi\\)"
+  },
+  {
+    "id": "q-dptl",
+    "term": "distance from a point to a line",
+    "vi": "khoảng cách từ một điểm đến một đường thẳng",
+    "category": "Vị trí tương đối, góc và khoảng cách",
+    "example": "The distance from M to the line is 2.",
+    "symbol": "\\(d(M,\\Delta)\\)"
+  },
+  {
+    "id": "q-circeq",
+    "term": "equation of a circle",
+    "vi": "phương trình đường tròn",
+    "category": "Đường tròn trong mặt phẳng tọa độ",
+    "example": "Write the equation of the circle."
+  },
+  {
+    "id": "q-chord",
+    "term": "chord",
+    "vi": "dây cung",
+    "category": "Đường tròn trong mặt phẳng tọa độ",
+    "example": "The chord has length 8."
+  },
+  {
+    "id": "q-hyperb",
+    "term": "hyperbola",
+    "vi": "đường hypebol",
+    "category": "Ba đường conic",
+    "example": "A cooling tower has hyperbolic sides.",
+    "symbol": "\\((H)\\)"
+  },
+  {
+    "id": "q-parabc",
+    "term": "parabola (conic)",
+    "vi": "đường parabol (conic)",
+    "category": "Ba đường conic",
+    "example": "A satellite dish has a parabolic section.",
+    "symbol": "\\((P)\\)"
+  },
+  {
+    "id": "q-focus",
+    "term": "focus (plural foci)",
+    "vi": "tiêu điểm",
+    "category": "Ba đường conic",
+    "example": "The foci are F1 and F2.",
+    "symbol": "\\(F\\)"
+  },
+  {
+    "id": "q-directrix",
+    "term": "directrix",
+    "vi": "đường chuẩn",
+    "category": "Ba đường conic",
+    "example": "The directrix is x = −2.",
+    "symbol": "\\(\\Delta\\)"
+  },
+  {
+    "id": "q-anglsp",
+    "term": "angle between two lines in space",
+    "vi": "góc giữa hai đường thẳng trong không gian",
+    "category": "Hai đường thẳng vuông góc",
+    "example": "The angle between AB and B′C′ is 90°.",
+    "symbol": "\\((a,b)\\)"
+  },
+  {
+    "id": "q-perpl",
+    "term": "perpendicular lines (in space)",
+    "vi": "hai đường thẳng vuông góc (trong không gian)",
+    "category": "Hai đường thẳng vuông góc",
+    "example": "AB and B′C′ are perpendicular.",
+    "symbol": "\\(a\\perp b\\)"
+  },
+  {
+    "id": "q-lperpp",
+    "term": "line perpendicular to a plane",
+    "vi": "đường thẳng vuông góc với mặt phẳng",
+    "category": "Đường thẳng vuông góc với mặt phẳng",
+    "example": "SA is perpendicular to the plane (ABCD).",
+    "symbol": "\\(d\\perp(P)\\)"
+  },
+  {
+    "id": "q-perpbis",
+    "term": "perpendicular bisector plane",
+    "vi": "mặt phẳng trung trực",
+    "category": "Đường thẳng vuông góc với mặt phẳng",
+    "example": "M lies on the perpendicular bisector plane of AB."
+  },
+  {
+    "id": "q-critp",
+    "term": "criterion for perpendicularity",
+    "vi": "điều kiện vuông góc",
+    "category": "Đường thẳng vuông góc với mặt phẳng",
+    "example": "Use the criterion with AB and AD."
+  },
+  {
+    "id": "q-orthproj",
+    "term": "orthogonal projection",
+    "vi": "phép chiếu vuông góc",
+    "category": "Phép chiếu vuông góc. Góc giữa đường thẳng và mặt phẳng",
+    "example": "The orthogonal projection of S is A."
+  },
+  {
+    "id": "q-threeperp",
+    "term": "three perpendiculars theorem",
+    "vi": "định lí ba đường vuông góc",
+    "category": "Phép chiếu vuông góc. Góc giữa đường thẳng và mặt phẳng",
+    "example": "By the three perpendiculars theorem, SB ⊥ BC."
+  },
+  {
+    "id": "q-anglp2",
+    "term": "angle between a line and a plane",
+    "vi": "góc giữa đường thẳng và mặt phẳng (hình học)",
+    "category": "Phép chiếu vuông góc. Góc giữa đường thẳng và mặt phẳng",
+    "example": "The angle between SC and the base is 60°.",
+    "symbol": "\\((d,(P))\\)"
+  },
+  {
+    "id": "q-rsum",
+    "term": "rule of sum",
+    "vi": "quy tắc cộng",
+    "category": "Quy tắc đếm",
+    "example": "By the rule of sum there are 9 ways.",
+    "symbol": "\\(m+n\\)"
+  },
+  {
+    "id": "q-rprod",
+    "term": "rule of product",
+    "vi": "quy tắc nhân",
+    "category": "Quy tắc đếm",
+    "example": "By the rule of product there are 6 outfits.",
+    "symbol": "\\(m\\cdot n\\)"
+  },
+  {
+    "id": "q-perm",
+    "term": "permutation",
+    "vi": "hoán vị",
+    "category": "Hoán vị, chỉnh hợp và tổ hợp",
+    "example": "There are 5! permutations of 5 books.",
+    "symbol": "\\(P_n\\)"
+  },
+  {
+    "id": "q-arrang",
+    "term": "arrangement (k-permutation)",
+    "vi": "chỉnh hợp",
+    "category": "Hoán vị, chỉnh hợp và tổ hợp",
+    "example": "The podium is an arrangement of 3 of 8 runners.",
+    "symbol": "\\(A_n^k\\)"
+  },
+  {
+    "id": "q-combin",
+    "term": "combination",
+    "vi": "tổ hợp",
+    "category": "Hoán vị, chỉnh hợp và tổ hợp",
+    "example": "A team of 3 is a combination.",
+    "symbol": "\\(C_n^k\\)"
+  },
+  {
+    "id": "q-factorial",
+    "term": "factorial",
+    "vi": "giai thừa",
+    "category": "Hoán vị, chỉnh hợp và tổ hợp",
+    "example": "5! = 120.",
+    "symbol": "\\(n!\\)"
+  },
+  {
+    "id": "q-binthm",
+    "term": "binomial theorem",
+    "vi": "công thức nhị thức Newton",
+    "category": "Nhị thức Newton",
+    "example": "Expand (x + 2)^4 by the binomial theorem."
+  },
+  {
+    "id": "q-bincoef",
+    "term": "binomial coefficient",
+    "vi": "hệ số nhị thức",
+    "category": "Nhị thức Newton",
+    "example": "The binomial coefficients of n = 4 are 1, 4, 6, 4, 1.",
+    "symbol": "\\(C_n^k\\)"
+  },
+  {
+    "id": "q-pascal",
+    "term": "Pascal's triangle",
+    "vi": "tam giác Pascal",
+    "category": "Nhị thức Newton",
+    "example": "Read the coefficients from Pascal's triangle."
+  },
+  {
+    "id": "q-angpp2",
+    "term": "angle between two planes",
+    "vi": "góc giữa hai mặt phẳng (không gian)",
+    "category": "Hai mặt phẳng vuông góc",
+    "example": "The angle between (SBC) and (ABCD) is SBA."
+  },
+  {
+    "id": "q-dihed",
+    "term": "dihedral angle",
+    "vi": "góc nhị diện",
+    "category": "Hai mặt phẳng vuông góc",
+    "example": "The dihedral angle [S, BC, A] measures 60°."
+  },
+  {
+    "id": "q-regpyr",
+    "term": "regular pyramid",
+    "vi": "hình chóp đều",
+    "category": "Hai mặt phẳng vuông góc",
+    "example": "In a regular pyramid all lateral edges are equal."
+  },
+  {
+    "id": "q-dptp",
+    "term": "distance from a point to a plane",
+    "vi": "khoảng cách từ một điểm đến một mặt phẳng",
+    "category": "Khoảng cách trong không gian",
+    "example": "The distance from A to (SBC) is AH.",
+    "symbol": "\\(d(M,(P))\\)"
+  },
+  {
+    "id": "q-commperp",
+    "term": "common perpendicular",
+    "vi": "đường vuông góc chung",
+    "category": "Khoảng cách trong không gian",
+    "example": "AO is the common perpendicular of AA′ and BD."
+  },
+  {
+    "id": "q-dskew",
+    "term": "distance between two skew lines",
+    "vi": "khoảng cách giữa hai đường thẳng chéo nhau",
+    "category": "Khoảng cách trong không gian",
+    "example": "The distance between AB and CC′ is BC."
+  },
+  {
+    "id": "q-vpyr",
+    "term": "volume of a pyramid",
+    "vi": "thể tích khối chóp",
+    "category": "Thể tích khối chóp, khối lăng trụ",
+    "example": "The volume of the pyramid is 48.",
+    "symbol": "\\(V\\)"
+  },
+  {
+    "id": "q-vprism",
+    "term": "volume of a prism",
+    "vi": "thể tích khối lăng trụ",
+    "category": "Thể tích khối chóp, khối lăng trụ",
+    "example": "The volume of the prism is 60."
+  },
+  {
+    "id": "q-frustumv",
+    "term": "volume of a frustum",
+    "vi": "thể tích khối chóp cụt đều",
+    "category": "Thể tích khối chóp, khối lăng trụ",
+    "example": "A bucket shaped like a frustum holds 28 litres."
+  },
+  {
+    "id": "q-randexp",
+    "term": "random experiment",
+    "vi": "phép thử ngẫu nhiên",
+    "category": "Biến cố và định nghĩa cổ điển của xác suất",
+    "example": "Rolling a die is a random experiment."
+  },
+  {
+    "id": "q-samplesp",
+    "term": "sample space",
+    "vi": "không gian mẫu",
+    "category": "Biến cố và định nghĩa cổ điển của xác suất",
+    "example": "The sample space has 36 outcomes.",
+    "symbol": "\\(\\Omega\\)"
+  },
+  {
+    "id": "q-event10",
+    "term": "event",
+    "vi": "biến cố (phép thử)",
+    "category": "Biến cố và định nghĩa cổ điển của xác suất",
+    "example": "A is the event \"the sum is 7\".",
+    "symbol": "\\(A\\subset\\Omega\\)"
+  },
+  {
+    "id": "q-compev",
+    "term": "complementary event",
+    "vi": "biến cố đối",
+    "category": "Biến cố và định nghĩa cổ điển của xác suất",
+    "example": "The complement of \"at least one boy\" is \"all girls\".",
+    "symbol": "\\(\\overline A\\)"
+  },
+  {
+    "id": "q-classprob",
+    "term": "classical probability",
+    "vi": "định nghĩa cổ điển của xác suất",
+    "category": "Biến cố và định nghĩa cổ điển của xác suất",
+    "example": "The probability of a six is 1/6.",
+    "symbol": "\\(P(A)\\)"
+  },
+  {
+    "id": "q-relfreq2",
+    "term": "experimental frequency",
+    "vi": "tần suất thực nghiệm",
+    "category": "Thực hành tính xác suất",
+    "example": "The experimental frequency of a six is 0.165.",
+    "symbol": "\\(\\dfrac{k}{N}\\)"
+  },
+  {
+    "id": "q-simul",
+    "term": "simulation",
+    "vi": "mô phỏng",
+    "category": "Thực hành tính xác suất",
+    "example": "We simulate 600 rolls of a die."
+  },
+  {
+    "id": "q-equlik",
+    "term": "equally likely",
+    "vi": "đồng khả năng",
+    "category": "Thực hành tính xác suất",
+    "example": "The 36 outcomes are equally likely."
+  },
+  {
+    "id": "q-unionev",
+    "term": "union of events",
+    "vi": "biến cố hợp",
+    "category": "Biến cố hợp, giao, độc lập",
+    "example": "Rain or wind tomorrow is a union of events.",
+    "symbol": "\\(A\\cup B\\)"
+  },
+  {
+    "id": "q-interev",
+    "term": "intersection of events",
+    "vi": "biến cố giao",
+    "category": "Biến cố hợp, giao, độc lập",
+    "example": "Both shooters hit: an intersection.",
+    "symbol": "\\(AB\\)"
+  },
+  {
+    "id": "q-mutexcl",
+    "term": "mutually exclusive",
+    "vi": "xung khắc",
+    "category": "Biến cố hợp, giao, độc lập",
+    "example": "\"Even\" and \"odd\" are mutually exclusive.",
+    "symbol": "\\(AB=\\varnothing\\)"
+  },
+  {
+    "id": "q-indepev11",
+    "term": "independent events",
+    "vi": "biến cố độc lập",
+    "category": "Biến cố hợp, giao, độc lập",
+    "example": "Two different dice give independent events."
+  },
+  {
+    "id": "q-addrule",
+    "term": "addition rule",
+    "vi": "công thức cộng xác suất",
+    "category": "Công thức cộng xác suất",
+    "example": "Use the addition rule for \"A or B\".",
+    "symbol": "\\(P(A\\cup B)\\)"
+  },
+  {
+    "id": "q-atleast",
+    "term": "at least one",
+    "vi": "ít nhất một",
+    "category": "Công thức cộng xác suất",
+    "example": "P(at least one six) = 1 − P(no six)."
+  },
+  {
+    "id": "q-indtrial",
+    "term": "independent trials",
+    "vi": "phép thử độc lập",
+    "category": "Công thức nhân xác suất",
+    "example": "Repeated penalty kicks are modelled as independent trials."
+  },
+  {
+    "id": "q-reliab",
+    "term": "reliability",
+    "vi": "độ tin cậy",
+    "category": "Công thức nhân xác suất",
+    "example": "Two backup pumps increase the reliability."
+  },
+  {
+    "id": "q-deriv31",
+    "term": "derivative at a point",
+    "vi": "đạo hàm tại một điểm",
+    "category": "Định nghĩa và ý nghĩa của đạo hàm",
+    "example": "The derivative at 3 is 6.",
+    "symbol": "\\(f′(x_0)\\)"
+  },
+  {
+    "id": "q-instvel",
+    "term": "instantaneous velocity",
+    "vi": "vận tốc tức thời",
+    "category": "Định nghĩa và ý nghĩa của đạo hàm",
+    "example": "The instantaneous velocity at t = 2 s is 19.6 m/s.",
+    "symbol": "\\(s′(t_0)\\)"
+  },
+  {
+    "id": "q-avgvel",
+    "term": "average velocity",
+    "vi": "vận tốc trung bình",
+    "category": "Định nghĩa và ý nghĩa của đạo hàm",
+    "example": "The average velocity on [2; 3] is 24.5 m/s."
+  },
+  {
+    "id": "q-margcost",
+    "term": "marginal cost",
+    "vi": "chi phí biên",
+    "category": "Định nghĩa và ý nghĩa của đạo hàm",
+    "example": "The marginal cost at 100 items is 40 thousand đồng.",
+    "symbol": "\\(C′(x)\\)"
+  },
+  {
+    "id": "q-prodrule",
+    "term": "product rule",
+    "vi": "quy tắc đạo hàm của tích",
+    "category": "Các quy tắc tính đạo hàm",
+    "example": "Use the product rule for (x² + 1)(x − 3).",
+    "symbol": "\\((uv)′\\)"
+  },
+  {
+    "id": "q-quotrule",
+    "term": "quotient rule",
+    "vi": "quy tắc đạo hàm của thương",
+    "category": "Các quy tắc tính đạo hàm",
+    "example": "The quotient rule gives the derivative of (2x + 1)/(x − 1)."
+  },
+  {
+    "id": "q-compfn",
+    "term": "composite function",
+    "vi": "hàm số hợp",
+    "category": "Các quy tắc tính đạo hàm",
+    "example": "y = sin 3x is a composite function.",
+    "symbol": "\\(f(u(x))\\)"
+  },
+  {
+    "id": "q-chainrule",
+    "term": "chain rule",
+    "vi": "đạo hàm của hàm số hợp",
+    "category": "Các quy tắc tính đạo hàm",
+    "example": "By the chain rule, (sin 3x)′ = 3 cos 3x.",
+    "symbol": "\\(y′_u\\cdot u′_x\\)"
+  },
+  {
+    "id": "q-instacc",
+    "term": "instantaneous acceleration",
+    "vi": "gia tốc tức thời",
+    "category": "Đạo hàm cấp hai",
+    "example": "The instantaneous acceleration at t = 2 s is 0.",
+    "symbol": "\\(s″(t)\\)"
+  },
+  {
+    "id": "q-higherder",
+    "term": "higher-order derivative",
+    "vi": "đạo hàm cấp cao",
+    "category": "Đạo hàm cấp hai",
+    "example": "The fourth derivative of sin x is sin x.",
+    "symbol": "\\(f^{(n)}\\)"
   }
 ]

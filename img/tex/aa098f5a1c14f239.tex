@@ -1,0 +1,27 @@
+\documentclass[border=4pt]{standalone}
+\usepackage{fontspec}
+\usepackage{amsmath}
+\usepackage{unicode-math}
+\setmainfont{Latin Modern Roman}
+\setmathfont{Latin Modern Math}
+\usepackage{pgfplots}
+\usepackage{pgfplotstable}
+\pgfplotsset{compat=1.18}
+\usepackage{tkz-euclide}
+\usetikzlibrary{arrows.meta,calc,angles,quotes,patterns,3d,backgrounds}
+\definecolor{ink}{HTML}{123428}
+\definecolor{asy}{HTML}{475569}
+\definecolor{mint}{HTML}{86e0bd}
+\tikzset{asym/.style={asy, line width=0.9pt, dash pattern=on 5pt off 3.5pt},
+         guide/.style={gray!70, line width=0.6pt, densely dotted},
+         dot/.style={circle, inner sep=0pt, minimum size=5pt, draw=white, line width=0.5pt},
+         odot/.style={circle, inner sep=0pt, minimum size=5.5pt, fill=white, line width=1pt},
+         lab/.style={font=\footnotesize, inner sep=1.5pt, text=ink}}
+\begin{document}
+\begin{tikzpicture}[grow=right, level distance=2.3cm, level 1/.style={sibling distance=3.2cm}, level 2/.style={sibling distance=1.6cm}, level 3/.style={sibling distance=0.8cm},
+  every node/.style={font=\small, text=ink}, edge from parent/.style={draw=ink!60, line width=0.6pt}]
+\node[circle, fill=ink, inner sep=1.5pt] {}
+  child {node {N} child {node {N} child {node {N \quad NNN}} child {node {S \quad NNS}}} child {node {S} child {node {N \quad NSN}} child {node {S \quad NSS}}}}
+  child {node {S} child {node {N} child {node {N \quad SNN}} child {node {S \quad SNS}}} child {node {S} child {node {N \quad SSN}} child {node {S \quad SSS}}}};
+\end{tikzpicture}
+\end{document}

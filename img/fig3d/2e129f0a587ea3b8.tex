@@ -1,0 +1,36 @@
+\documentclass[tikz,border=3pt]{standalone}
+\usetikzlibrary{arrows.meta}
+\begin{document}
+\definecolor{c_ax}{HTML}{475569}
+\definecolor{c_hl}{HTML}{C2410C}
+\definecolor{c2}{HTML}{FDE68A}
+\definecolor{c3}{HTML}{1F2937}
+\begin{tikzpicture}[x=1.1102cm,y=1.1102cm,line cap=round,line join=round]
+\fill[c2,fill opacity=0.50] (-1.5763,2.3250) -- (0.6237,2.3250) -- (1.5763,2.8750) -- (-0.6237,2.8750) -- cycle;
+\draw[c3,line width=0.99pt] (-3.1526,-0.5500) -- (1.2474,-0.5500);
+\draw[c3,line width=0.79pt,dash pattern=on 3pt off 2pt] (-3.1526,-0.5500) -- (-1.2474,0.5500);
+\draw[c3,line width=0.79pt,dash pattern=on 3pt off 2pt] (3.1526,0.5500) -- (-1.2474,0.5500);
+\draw[c3,line width=0.99pt] (1.2474,-0.5500) -- (3.1526,0.5500);
+\draw[c3,line width=0.99pt] (-1.5763,2.3250) -- (0.6237,2.3250);
+\draw[c3,line width=0.99pt] (-3.1526,-0.5500) -- (-1.5763,2.3250);
+\draw[c3,line width=0.99pt] (1.2474,-0.5500) -- (0.6237,2.3250);
+\draw[c3,line width=0.99pt] (-1.5763,2.3250) -- (-0.6237,2.8750);
+\draw[c3,line width=0.79pt,dash pattern=on 3pt off 2pt] (-1.2474,0.5500) -- (-0.6237,2.8750);
+\draw[c3,line width=0.99pt] (0.6237,2.3250) -- (1.5763,2.8750);
+\draw[c3,line width=0.99pt] (3.1526,0.5500) -- (1.5763,2.8750);
+\draw[c3,line width=0.99pt] (1.5763,2.8750) -- (-0.6237,2.8750);
+\draw[c_hl,line width=0.79pt,dash pattern=on 3pt off 2pt] (0.0000,0.0000) -- (0.0000,2.6000);
+\node[anchor=north east,inner sep=2pt] at (-3.1526,-0.5500) {$A$};
+\node[anchor=north west,inner sep=2pt] at (1.2474,-0.5500) {$B$};
+\node[anchor=west,inner sep=2pt] at (3.1526,0.5500) {$C$};
+\node[anchor=north,inner sep=2pt] at (-1.2474,0.5500) {$D$};
+\node[anchor=south east,inner sep=2pt] at (-1.5763,2.3250) {$A'$};
+\node[anchor=south,inner sep=2pt] at (0.6237,2.3250) {$B'$};
+\node[anchor=south west,inner sep=2pt] at (1.5763,2.8750) {$C'$};
+\node[anchor=south,inner sep=2pt] at (-0.6237,2.8750) {$D'$};
+\fill (0.0000,0.0000) circle[radius=1.3pt];
+\node[anchor=north,inner sep=2pt] at (0.0000,0.0000) {$O$};
+\fill (0.0000,2.6000) circle[radius=1.3pt];
+\node[anchor=south,inner sep=2pt] at (0.0000,2.6000) {$O'$};
+\end{tikzpicture}
+\end{document}

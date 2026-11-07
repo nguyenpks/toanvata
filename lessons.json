@@ -426,6 +426,160 @@
     "no": 19
   },
   {
+    "id": "g10-coord-02",
+    "grade": 10,
+    "category": "Phương pháp tọa độ trong mặt phẳng",
+    "title": "Vị trí tương đối, góc và khoảng cách",
+    "description": "Bài 20 – Vị trí tương đối giữa hai đường thẳng; góc giữa hai đường thẳng; khoảng cách từ một điểm đến một đường thẳng.",
+    "level": "Intermediate",
+    "estimatedMinutes": 70,
+    "prerequisites": [
+      "g10-coord-01"
+    ],
+    "path": "lessons/grade10/plane-coordinates/lines-angle-distance.html",
+    "tags": [
+      "vị trí tương đối",
+      "góc giữa hai đường thẳng",
+      "khoảng cách"
+    ],
+    "no": 20
+  },
+  {
+    "id": "g10-coord-03",
+    "grade": 10,
+    "category": "Phương pháp tọa độ trong mặt phẳng",
+    "title": "Đường tròn trong mặt phẳng tọa độ",
+    "description": "Bài 21 – Phương trình đường tròn, tâm và bán kính, tiếp tuyến, vị trí tương đối giữa đường thẳng và đường tròn.",
+    "level": "Intermediate",
+    "estimatedMinutes": 70,
+    "prerequisites": [
+      "g10-coord-02"
+    ],
+    "path": "lessons/grade10/plane-coordinates/circles.html",
+    "tags": [
+      "đường tròn",
+      "tâm",
+      "bán kính",
+      "tiếp tuyến"
+    ],
+    "no": 21
+  },
+  {
+    "id": "g10-coord-04",
+    "grade": 10,
+    "category": "Phương pháp tọa độ trong mặt phẳng",
+    "title": "Ba đường conic",
+    "description": "Bài 22 – Elip, hypebol, parabol: định nghĩa, phương trình chính tắc, tiêu điểm, đỉnh, đường chuẩn; mô hình thực tế.",
+    "level": "Intermediate",
+    "estimatedMinutes": 75,
+    "prerequisites": [
+      "g10-coord-03"
+    ],
+    "path": "lessons/grade10/plane-coordinates/conics.html",
+    "tags": [
+      "elip",
+      "hypebol",
+      "parabol",
+      "tiêu điểm"
+    ],
+    "no": 22
+  },
+  {
+    "id": "g10-comb-01",
+    "grade": 10,
+    "category": "Đại số tổ hợp",
+    "title": "Quy tắc đếm",
+    "description": "Bài 23 – Quy tắc cộng, quy tắc nhân, sơ đồ hình cây; đếm số, mã, đường đi, ước số.",
+    "level": "Beginner",
+    "estimatedMinutes": 65,
+    "prerequisites": [
+      "g10-sets-01"
+    ],
+    "path": "lessons/grade10/combinatorics/counting-rules.html",
+    "tags": [
+      "quy tắc cộng",
+      "quy tắc nhân",
+      "sơ đồ hình cây"
+    ],
+    "no": 23
+  },
+  {
+    "id": "g10-comb-02",
+    "grade": 10,
+    "category": "Đại số tổ hợp",
+    "title": "Hoán vị, chỉnh hợp và tổ hợp",
+    "description": "Bài 24 – Hoán vị, chỉnh hợp, tổ hợp; chọn đúng công thức; xếp chỗ, lập đội, xổ số.",
+    "level": "Intermediate",
+    "estimatedMinutes": 75,
+    "prerequisites": [
+      "g10-comb-01"
+    ],
+    "path": "lessons/grade10/combinatorics/permutations-combinations.html",
+    "tags": [
+      "hoán vị",
+      "chỉnh hợp",
+      "tổ hợp"
+    ],
+    "no": 24
+  },
+  {
+    "id": "g10-comb-03",
+    "grade": 10,
+    "category": "Đại số tổ hợp",
+    "title": "Nhị thức Newton",
+    "description": "Bài 25 – Khai triển (a + b)^4, (a + b)^5; hệ số nhị thức, tam giác Pascal; hệ số của một số hạng; tính gần đúng.",
+    "level": "Intermediate",
+    "estimatedMinutes": 60,
+    "prerequisites": [
+      "g10-comb-02"
+    ],
+    "path": "lessons/grade10/combinatorics/binomial-theorem.html",
+    "tags": [
+      "nhị thức Newton",
+      "hệ số",
+      "tam giác Pascal"
+    ],
+    "no": 25
+  },
+  {
+    "id": "g10-prob-01",
+    "grade": 10,
+    "category": "Xác suất theo định nghĩa cổ điển",
+    "title": "Biến cố và định nghĩa cổ điển của xác suất",
+    "description": "Bài 26 – Phép thử, không gian mẫu, biến cố, biến cố đối; định nghĩa cổ điển của xác suất; xúc xắc, thẻ, xổ số.",
+    "level": "Intermediate",
+    "estimatedMinutes": 70,
+    "prerequisites": [
+      "g10-comb-02"
+    ],
+    "path": "lessons/grade10/probability/classical-probability.html",
+    "tags": [
+      "không gian mẫu",
+      "biến cố",
+      "xác suất"
+    ],
+    "no": 26
+  },
+  {
+    "id": "g10-prob-02",
+    "grade": 10,
+    "category": "Xác suất theo định nghĩa cổ điển",
+    "title": "Thực hành tính xác suất",
+    "description": "Bài 27 – Liệt kê kết quả bằng bảng, sơ đồ cây; dùng tổ hợp; mô phỏng và tần suất thực nghiệm; trò chơi công bằng.",
+    "level": "Intermediate",
+    "estimatedMinutes": 60,
+    "prerequisites": [
+      "g10-prob-01"
+    ],
+    "path": "lessons/grade10/probability/probability-practice.html",
+    "tags": [
+      "sơ đồ cây",
+      "mô phỏng",
+      "tần suất"
+    ],
+    "no": 27
+  },
+  {
     "id": "g11-functions-01",
     "grade": 11,
     "category": "Hàm số và đồ thị",
@@ -582,7 +736,9 @@
       "hệ số góc",
       "định nghĩa",
       "cát tuyến"
-    ]
+    ],
+    "locked": true,
+    "lockNote": "Đã soạn lại thành Bài 31 (g11-deriv-01)"
   },
   {
     "id": "g11-sequences-01",
@@ -684,26 +840,6 @@
       "giá trị đại diện"
     ],
     "no": 8
-  },
-  {
-    "id": "g11-space-03",
-    "grade": 11,
-    "category": "Đường thẳng và mặt phẳng trong không gian",
-    "title": "Quan hệ vuông góc",
-    "description": "Đường thẳng và mặt phẳng vuông góc, góc giữa đường thẳng và mặt phẳng, kèm hình dựng chính xác và hình 3D.",
-    "level": "Intermediate",
-    "estimatedMinutes": 60,
-    "prerequisites": [
-      "g11-space-02"
-    ],
-    "path": "lessons/grade11/lines-and-planes-in-space/perpendicularity.html",
-    "tags": [
-      "vuông góc",
-      "góc giữa đường thẳng và mặt phẳng",
-      "hình chiếu",
-      "tiếp tuyến",
-      "hình chóp"
-    ]
   },
   {
     "id": "g11-stats-02",
@@ -963,6 +1099,235 @@
     "no": 21
   },
   {
+    "id": "g11-perp-01",
+    "grade": 11,
+    "category": "Quan hệ vuông góc trong không gian",
+    "title": "Hai đường thẳng vuông góc",
+    "description": "Bài 22 – Góc giữa hai đường thẳng trong không gian; hai đường thẳng vuông góc (cắt nhau hoặc chéo nhau).",
+    "level": "Intermediate",
+    "estimatedMinutes": 70,
+    "prerequisites": [
+      "g11-space-05"
+    ],
+    "path": "lessons/grade11/perpendicularity-in-space/perpendicular-lines.html",
+    "tags": [
+      "góc giữa hai đường thẳng",
+      "vuông góc",
+      "chéo nhau"
+    ],
+    "no": 22
+  },
+  {
+    "id": "g11-perp-02",
+    "grade": 11,
+    "category": "Quan hệ vuông góc trong không gian",
+    "title": "Đường thẳng vuông góc với mặt phẳng",
+    "description": "Bài 23 – Định nghĩa, điều kiện đường thẳng vuông góc với mặt phẳng; tính chất; mặt phẳng trung trực; liên hệ song song – vuông góc.",
+    "level": "Intermediate",
+    "estimatedMinutes": 75,
+    "prerequisites": [
+      "g11-perp-01"
+    ],
+    "path": "lessons/grade11/perpendicularity-in-space/line-perpendicular-plane.html",
+    "tags": [
+      "vuông góc với mặt phẳng",
+      "điều kiện vuông góc",
+      "mặt phẳng trung trực"
+    ],
+    "no": 23
+  },
+  {
+    "id": "g11-perp-03",
+    "grade": 11,
+    "category": "Quan hệ vuông góc trong không gian",
+    "title": "Phép chiếu vuông góc. Góc giữa đường thẳng và mặt phẳng",
+    "description": "Bài 24 – Phép chiếu vuông góc, định lí ba đường vuông góc, góc giữa đường thẳng và mặt phẳng.",
+    "level": "Intermediate",
+    "estimatedMinutes": 75,
+    "prerequisites": [
+      "g11-perp-02"
+    ],
+    "path": "lessons/grade11/perpendicularity-in-space/projection-line-plane-angle.html",
+    "tags": [
+      "phép chiếu vuông góc",
+      "ba đường vuông góc",
+      "góc giữa đường thẳng và mặt phẳng"
+    ],
+    "no": 24
+  },
+  {
+    "id": "g11-perp-04",
+    "grade": 11,
+    "category": "Quan hệ vuông góc trong không gian",
+    "title": "Hai mặt phẳng vuông góc",
+    "description": "Bài 25 – Góc giữa hai mặt phẳng, góc nhị diện, hai mặt phẳng vuông góc; lăng trụ đứng, hình hộp, hình chóp đều, chóp cụt đều.",
+    "level": "Intermediate",
+    "estimatedMinutes": 75,
+    "prerequisites": [
+      "g11-perp-03"
+    ],
+    "path": "lessons/grade11/perpendicularity-in-space/perpendicular-planes.html",
+    "tags": [
+      "góc giữa hai mặt phẳng",
+      "góc nhị diện",
+      "hai mặt phẳng vuông góc"
+    ],
+    "no": 25
+  },
+  {
+    "id": "g11-perp-05",
+    "grade": 11,
+    "category": "Quan hệ vuông góc trong không gian",
+    "title": "Khoảng cách trong không gian",
+    "description": "Bài 26 – Khoảng cách từ điểm đến đường thẳng, mặt phẳng; giữa các đối tượng song song; đường vuông góc chung, khoảng cách giữa hai đường thẳng chéo nhau.",
+    "level": "Intermediate",
+    "estimatedMinutes": 80,
+    "prerequisites": [
+      "g11-perp-04"
+    ],
+    "path": "lessons/grade11/perpendicularity-in-space/distances-in-space.html",
+    "tags": [
+      "khoảng cách",
+      "đường vuông góc chung",
+      "chéo nhau"
+    ],
+    "no": 26
+  },
+  {
+    "id": "g11-perp-06",
+    "grade": 11,
+    "category": "Quan hệ vuông góc trong không gian",
+    "title": "Thể tích khối chóp, khối lăng trụ",
+    "description": "Bài 27 – Thể tích khối chóp, khối chóp cụt đều, khối lăng trụ, khối hộp, khối lập phương; tỉ số thể tích; sức chứa.",
+    "level": "Intermediate",
+    "estimatedMinutes": 70,
+    "prerequisites": [
+      "g11-perp-05"
+    ],
+    "path": "lessons/grade11/perpendicularity-in-space/volumes.html",
+    "tags": [
+      "thể tích",
+      "khối chóp",
+      "khối lăng trụ",
+      "chóp cụt"
+    ],
+    "no": 27
+  },
+  {
+    "id": "g11-prob-01",
+    "grade": 11,
+    "category": "Các quy tắc tính xác suất",
+    "title": "Biến cố hợp, giao, độc lập",
+    "description": "Bài 28 – Biến cố hợp, biến cố giao, biến cố xung khắc, biến cố độc lập qua các tình huống thực tế.",
+    "level": "Intermediate",
+    "estimatedMinutes": 60,
+    "prerequisites": [
+      "g10-prob-02"
+    ],
+    "path": "lessons/grade11/probability-rules/union-intersection-independence.html",
+    "tags": [
+      "biến cố hợp",
+      "biến cố giao",
+      "độc lập"
+    ],
+    "no": 28
+  },
+  {
+    "id": "g11-prob-02",
+    "grade": 11,
+    "category": "Các quy tắc tính xác suất",
+    "title": "Công thức cộng xác suất",
+    "description": "Bài 29 – Công thức cộng xác suất cho hai biến cố bất kì và hai biến cố xung khắc; biểu đồ Venn, số liệu khảo sát; bài toán \"ít nhất một\", \"đúng một\".",
+    "level": "Intermediate",
+    "estimatedMinutes": 60,
+    "prerequisites": [
+      "g11-prob-01"
+    ],
+    "path": "lessons/grade11/probability-rules/addition-rule.html",
+    "tags": [
+      "công thức cộng",
+      "biểu đồ Venn",
+      "xung khắc"
+    ],
+    "no": 29
+  },
+  {
+    "id": "g11-prob-03",
+    "grade": 11,
+    "category": "Các quy tắc tính xác suất",
+    "title": "Công thức nhân xác suất",
+    "description": "Bài 30 – Công thức nhân xác suất cho hai biến cố độc lập; sơ đồ cây; phép thử lặp; độ tin cậy của hệ nối tiếp, song song.",
+    "level": "Intermediate",
+    "estimatedMinutes": 60,
+    "prerequisites": [
+      "g11-prob-02"
+    ],
+    "path": "lessons/grade11/probability-rules/multiplication-rule.html",
+    "tags": [
+      "công thức nhân",
+      "sơ đồ cây",
+      "độ tin cậy"
+    ],
+    "no": 30
+  },
+  {
+    "id": "g11-deriv-01",
+    "grade": 11,
+    "category": "Đạo hàm",
+    "title": "Định nghĩa và ý nghĩa của đạo hàm",
+    "description": "Bài 31 – Định nghĩa đạo hàm tại một điểm; ý nghĩa hình học (tiếp tuyến), vật lí (vận tốc tức thời) và kinh tế (chi phí biên).",
+    "level": "Intermediate",
+    "estimatedMinutes": 60,
+    "prerequisites": [
+      "g11-limits-05"
+    ],
+    "path": "lessons/grade11/derivatives/derivative-meaning.html",
+    "tags": [
+      "đạo hàm",
+      "tiếp tuyến",
+      "vận tốc tức thời"
+    ],
+    "no": 31
+  },
+  {
+    "id": "g11-deriv-02",
+    "grade": 11,
+    "category": "Đạo hàm",
+    "title": "Các quy tắc tính đạo hàm",
+    "description": "Bài 32 – Đạo hàm của các hàm số thường gặp; quy tắc tổng, tích, thương; đạo hàm của hàm số hợp; tiếp tuyến và tốc độ thay đổi.",
+    "level": "Intermediate",
+    "estimatedMinutes": 70,
+    "prerequisites": [
+      "g11-deriv-01"
+    ],
+    "path": "lessons/grade11/derivatives/derivative-rules.html",
+    "tags": [
+      "đạo hàm của tích",
+      "đạo hàm của thương",
+      "hàm số hợp"
+    ],
+    "no": 32
+  },
+  {
+    "id": "g11-deriv-03",
+    "grade": 11,
+    "category": "Đạo hàm",
+    "title": "Đạo hàm cấp hai",
+    "description": "Bài 33 – Đạo hàm cấp hai, đạo hàm cấp cao; ý nghĩa cơ học (gia tốc tức thời); chuyển động nhanh dần, chậm dần; dao động.",
+    "level": "Intermediate",
+    "estimatedMinutes": 60,
+    "prerequisites": [
+      "g11-deriv-02"
+    ],
+    "path": "lessons/grade11/derivatives/second-derivative.html",
+    "tags": [
+      "đạo hàm cấp hai",
+      "gia tốc",
+      "chuyển động"
+    ],
+    "no": 33
+  },
+  {
     "id": "g11-exp-02",
     "grade": 11,
     "category": "Hàm số mũ",
@@ -984,6 +1349,28 @@
     ],
     "locked": true,
     "lockNote": "Đã soạn lại thành Bài 20 (g11-exp-05) và Bài 21 (g11-exp-06)"
+  },
+  {
+    "id": "g11-space-03",
+    "grade": 11,
+    "category": "Đường thẳng và mặt phẳng trong không gian",
+    "title": "Quan hệ vuông góc",
+    "description": "Đường thẳng và mặt phẳng vuông góc, góc giữa đường thẳng và mặt phẳng, kèm hình dựng chính xác và hình 3D.",
+    "level": "Intermediate",
+    "estimatedMinutes": 60,
+    "prerequisites": [
+      "g11-space-02"
+    ],
+    "path": "lessons/grade11/lines-and-planes-in-space/perpendicularity.html",
+    "tags": [
+      "vuông góc",
+      "góc giữa đường thẳng và mặt phẳng",
+      "hình chiếu",
+      "tiếp tuyến",
+      "hình chóp"
+    ],
+    "locked": true,
+    "lockNote": "Đã soạn lại thành Bài 22–27 (g11-perp-01 … g11-perp-06)"
   },
   {
     "id": "g12-mono-01",

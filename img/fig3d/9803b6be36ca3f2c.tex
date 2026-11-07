@@ -1,0 +1,27 @@
+\documentclass[tikz,border=3pt]{standalone}
+\usetikzlibrary{arrows.meta}
+\begin{document}
+\definecolor{c_ax}{HTML}{475569}
+\definecolor{c_hl}{HTML}{C2410C}
+\definecolor{c2}{HTML}{1F2937}
+\definecolor{c3}{HTML}{1D4ED8}
+\definecolor{c4}{HTML}{0F766E}
+\begin{tikzpicture}[x=1.2103cm,y=1.2103cm,line cap=round,line join=round]
+\draw[c_hl,line width=1.62pt] (1.1082,-0.8030) -- (-2.8918,2.7970);
+\draw[c2,line width=0.99pt] (-2.8918,-0.8030) -- (-2.8918,2.7970);
+\draw[c3,line width=1.62pt] (-2.8918,-0.8030) -- (1.1082,-0.8030);
+\draw[c2,line width=0.79pt,dash pattern=on 3pt off 2pt] (-1.1082,0.8030) -- (-2.8918,2.7970);
+\draw[c2,line width=0.79pt,dash pattern=on 3pt off 2pt] (-2.8918,-0.8030) -- (-1.1082,0.8030);
+\draw[c2,line width=0.99pt] (2.8918,0.8030) -- (-2.8918,2.7970);
+\draw[c4,line width=1.62pt] (1.1082,-0.8030) -- (2.8918,0.8030);
+\draw[c2,line width=0.79pt,dash pattern=on 3pt off 2pt] (2.8918,0.8030) -- (-1.1082,0.8030);
+\draw[line width=0.5pt] (0.8481,-0.5688) -- (1.0041,-0.4283) -- (1.2643,-0.6624);
+\draw[line width=0.5pt] (0.7582,-0.8030) -- (0.9143,-0.6624) -- (1.2643,-0.6624);
+\draw[c_hl,line width=0.7pt] (0.6622,-0.4016) arc[start angle=138.01,end angle=180.00,radius=0.600];
+\node[anchor=north east,inner sep=2pt] at (-2.8918,-0.8030) {$A$};
+\node[anchor=north west,inner sep=2pt] at (1.1082,-0.8030) {$B$};
+\node[anchor=west,inner sep=2pt] at (2.8918,0.8030) {$C$};
+\node[anchor=east,inner sep=2pt] at (-1.1082,0.8030) {$D$};
+\node[anchor=south east,inner sep=2pt] at (-2.8918,2.7970) {$S$};
+\end{tikzpicture}
+\end{document}

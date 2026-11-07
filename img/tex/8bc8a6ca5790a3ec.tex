@@ -1,0 +1,60 @@
+\documentclass[border=4pt]{standalone}
+\usepackage{fontspec}
+\usepackage{amsmath}
+\usepackage{unicode-math}
+\setmainfont{Latin Modern Roman}
+\setmathfont{Latin Modern Math}
+\usepackage{pgfplots}
+\usepackage{pgfplotstable}
+\pgfplotsset{compat=1.18}
+\usepackage{tkz-euclide}
+\usetikzlibrary{arrows.meta,calc,angles,quotes,patterns,3d,backgrounds}
+\definecolor{ink}{HTML}{123428}
+\definecolor{asy}{HTML}{475569}
+\definecolor{mint}{HTML}{86e0bd}
+\tikzset{asym/.style={asy, line width=0.9pt, dash pattern=on 5pt off 3.5pt},
+         guide/.style={gray!70, line width=0.6pt, densely dotted},
+         dot/.style={circle, inner sep=0pt, minimum size=5pt, draw=white, line width=0.5pt},
+         odot/.style={circle, inner sep=0pt, minimum size=5.5pt, fill=white, line width=1pt},
+         lab/.style={font=\footnotesize, inner sep=1.5pt, text=ink}}
+\begin{document}
+\begin{tikzpicture}[x=0.95cm, y=0.8cm]
+\node[text=ink!70, font=\footnotesize, anchor=east] at (-3.6,0) {$n=0$};
+\node[circle, minimum size=0.62cm, inner sep=0pt, fill=gray!12, font=\small] (n00) at (0.0,0) {$1$};
+\node[text=ink!70, font=\footnotesize, anchor=east] at (-3.6,-1) {$n=1$};
+\node[circle, minimum size=0.62cm, inner sep=0pt, fill=gray!12, font=\small] (n10) at (-0.5,-1) {$1$};
+\node[circle, minimum size=0.62cm, inner sep=0pt, fill=gray!12, font=\small] (n11) at (0.5,-1) {$1$};
+\node[text=ink!70, font=\footnotesize, anchor=east] at (-3.6,-2) {$n=2$};
+\node[circle, minimum size=0.62cm, inner sep=0pt, fill=gray!12, font=\small] (n20) at (-1.0,-2) {$1$};
+\node[circle, minimum size=0.62cm, inner sep=0pt, fill=gray!12, font=\small] (n21) at (0.0,-2) {$2$};
+\draw[-{Stealth[length=1.4mm]}, draw=ink!45] (n10) -- (n21); \draw[-{Stealth[length=1.4mm]}, draw=ink!45] (n11) -- (n21);
+\node[circle, minimum size=0.62cm, inner sep=0pt, fill=gray!12, font=\small] (n22) at (1.0,-2) {$1$};
+\node[text=ink!70, font=\footnotesize, anchor=east] at (-3.6,-3) {$n=3$};
+\node[circle, minimum size=0.62cm, inner sep=0pt, fill=gray!12, font=\small] (n30) at (-1.5,-3) {$1$};
+\node[circle, minimum size=0.62cm, inner sep=0pt, fill=gray!12, font=\small] (n31) at (-0.5,-3) {$3$};
+\draw[-{Stealth[length=1.4mm]}, draw=ink!45] (n20) -- (n31); \draw[-{Stealth[length=1.4mm]}, draw=ink!45] (n21) -- (n31);
+\node[circle, minimum size=0.62cm, inner sep=0pt, fill=gray!12, font=\small] (n32) at (0.5,-3) {$3$};
+\draw[-{Stealth[length=1.4mm]}, draw=ink!45] (n21) -- (n32); \draw[-{Stealth[length=1.4mm]}, draw=ink!45] (n22) -- (n32);
+\node[circle, minimum size=0.62cm, inner sep=0pt, fill=gray!12, font=\small] (n33) at (1.5,-3) {$1$};
+\node[text=ink!70, font=\footnotesize, anchor=east] at (-3.6,-4) {$n=4$};
+\node[circle, minimum size=0.62cm, inner sep=0pt, fill=mint!55, font=\small] (n40) at (-2.0,-4) {$1$};
+\node[circle, minimum size=0.62cm, inner sep=0pt, fill=mint!55, font=\small] (n41) at (-1.0,-4) {$4$};
+\draw[-{Stealth[length=1.4mm]}, draw=ink!45] (n30) -- (n41); \draw[-{Stealth[length=1.4mm]}, draw=ink!45] (n31) -- (n41);
+\node[circle, minimum size=0.62cm, inner sep=0pt, fill=mint!55, font=\small] (n42) at (0.0,-4) {$6$};
+\draw[-{Stealth[length=1.4mm]}, draw=ink!45] (n31) -- (n42); \draw[-{Stealth[length=1.4mm]}, draw=ink!45] (n32) -- (n42);
+\node[circle, minimum size=0.62cm, inner sep=0pt, fill=mint!55, font=\small] (n43) at (1.0,-4) {$4$};
+\draw[-{Stealth[length=1.4mm]}, draw=ink!45] (n32) -- (n43); \draw[-{Stealth[length=1.4mm]}, draw=ink!45] (n33) -- (n43);
+\node[circle, minimum size=0.62cm, inner sep=0pt, fill=mint!55, font=\small] (n44) at (2.0,-4) {$1$};
+\node[text=ink!70, font=\footnotesize, anchor=east] at (-3.6,-5) {$n=5$};
+\node[circle, minimum size=0.62cm, inner sep=0pt, fill=mint!55, font=\small] (n50) at (-2.5,-5) {$1$};
+\node[circle, minimum size=0.62cm, inner sep=0pt, fill=mint!55, font=\small] (n51) at (-1.5,-5) {$5$};
+\draw[-{Stealth[length=1.4mm]}, draw=ink!45] (n40) -- (n51); \draw[-{Stealth[length=1.4mm]}, draw=ink!45] (n41) -- (n51);
+\node[circle, minimum size=0.62cm, inner sep=0pt, fill=mint!55, font=\small] (n52) at (-0.5,-5) {$10$};
+\draw[-{Stealth[length=1.4mm]}, draw=ink!45] (n41) -- (n52); \draw[-{Stealth[length=1.4mm]}, draw=ink!45] (n42) -- (n52);
+\node[circle, minimum size=0.62cm, inner sep=0pt, fill=mint!55, font=\small] (n53) at (0.5,-5) {$10$};
+\draw[-{Stealth[length=1.4mm]}, draw=ink!45] (n42) -- (n53); \draw[-{Stealth[length=1.4mm]}, draw=ink!45] (n43) -- (n53);
+\node[circle, minimum size=0.62cm, inner sep=0pt, fill=mint!55, font=\small] (n54) at (1.5,-5) {$5$};
+\draw[-{Stealth[length=1.4mm]}, draw=ink!45] (n43) -- (n54); \draw[-{Stealth[length=1.4mm]}, draw=ink!45] (n44) -- (n54);
+\node[circle, minimum size=0.62cm, inner sep=0pt, fill=mint!55, font=\small] (n55) at (2.5,-5) {$1$};
+\end{tikzpicture}
+\end{document}

@@ -89,6 +89,7 @@ def tmath(s):
     if '\\quad' not in s: s = re.sub(r'(?<=\S) \((?=[^()]*[<>≤≥][^()]*\)$)', r' \\quad (', s)
     s = re.sub(r'√\(([^()]*)\)', r'\\sqrt{\1}', s)
     s = re.sub(r'√(\d+|[a-z])', r'\\sqrt{\1}', s)
+    s = re.sub(r'(\d*[a-z][²]?)/(\d+)', lambda m: '\\frac{%s}{%s}' % (m.group(1), m.group(2)), s)
     s = re.sub(r'\((\d+)/(\d+)\)', r'\\left(\\tfrac{\1}{\2}\\right)', s)
     s = re.sub(r'\(([^()]*)\)/\(([^()]*)\)', r'\\dfrac{\1}{\2}', s)
     for a, b in list(SUP.items()) + list(SUB.items()):
@@ -208,7 +209,7 @@ def graph_tex(cfg, height=360):
             'xtick={%s}' % ','.join(fmt(v, 6) for v in xt), 'xticklabels={%s}' % ','.join(xtl),
             'ytick={%s}' % ','.join(fmt(v, 6) for v in yt), 'yticklabels={%s}' % ','.join('$%s$' % fmt(v) for v in yt),
             'clip mode=individual', 'every axis plot/.append style={line join=round}']
-    labs = [s.get('label') for s in cfg.get('functions', []) if s.get('label')]
+    labs = [s.get('label') for s in cfg.get('functions', []) + cfg.get('param', []) if s.get('label')]
     nleg = len(labs) + (2 if cfg.get('monotone') else 0)
     if nleg and cfg.get('legend', True) is not False:
         L = [len(re.sub(r'[^\w=+<>]', '', x)) + 4 for x in labs] + ([24, 24] if cfg.get('monotone') else [])
@@ -261,7 +262,7 @@ def graph_tex(cfg, height=360):
                     if ye > y1: xe = (y1 - b) / m
                     if ye < y0: xe = (y0 - b) / m
                 ye = m * xe + b
-                t = 'y=%s' % fmt(b) if m == 0 else 'y=%s%s' % ('' if m == 1 else ('-' if m == -1 else fmt(m)), 'x' + ('' if b == 0 else ('+%s' % fmt(b) if b > 0 else fmt(b))))
+                t = tmath(a['label']) if a.get('label') else 'y=%s' % fmt(b) if m == 0 else 'y=%s%s' % ('' if m == 1 else ('-' if m == -1 else fmt(m)), 'x' + ('' if b == 0 else ('+%s' % fmt(b) if b > 0 else fmt(b))))
                 o.append('\\node[lab, text=asy, anchor=%s, font=\\scriptsize] at (axis cs:%s,%s) {$%s$};' % ('south east', fmt(xe, 6), fmt(ye, 6), t))
     # đồ thị
     for i, (s, F) in enumerate(zip(cfg.get('functions', []), R['functions'])):
@@ -277,6 +278,12 @@ def graph_tex(cfg, height=360):
         for e in F.get('ends', []):
             if not (x0 < e['x'] < x1 and y0 < e['y'] < y1): continue
             o.append('\\node[%s, %s] at (axis cs:%s,%s) {};' % ('odot, draw=' + c if e['open'] else 'dot, fill=' + c, '', fmt(e['x'], 6), fmt(e['y'], 6)))
+    # đường cong tham số (elip, hypebol, parabol, đường tròn…): {'x': '3*cos(t)', 'y': '2*sin(t)', 'range': [0, 360]} (góc tính bằng độ)
+    for j, c in enumerate(cfg.get('param', [])):
+        cc = col(c.get('color') or '#' + PALETTE[(len(cfg.get('functions', [])) + j) % len(PALETTE)])
+        lo_, hi_ = c.get('range', [0, 360]); leg = c.get('label') and cfg.get('legend', True) is not False
+        o.append('\\addplot[color=%s, line width=1.3pt, variable=\\t, domain=%s:%s, samples=%d, smooth%s] ({%s},{%s});' % (cc, lo_, hi_, c.get('samples', 160), '' if leg else ', forget plot', c['x'].replace('t', '\\t'), c['y'].replace('t', '\\t')))
+        if leg: o.append('\\addlegendentry{%s}' % lab(c['label']))
     if cfg.get('monotone') and cfg.get('legend', True) is not False:
         o.append('\\addlegendimage{color=%s, line width=5pt, opacity=0.4}\\addlegendentry{increasing (đồng biến)}' % col(UP))
         o.append('\\addlegendimage{color=%s, line width=5pt, opacity=0.4}\\addlegendentry{decreasing (nghịch biến)}' % col(DOWN))

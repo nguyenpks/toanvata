@@ -8,6 +8,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 GRADE = int(sys.argv[1]) if len(sys.argv) > 1 else 11
 MOCK = open(os.path.join(ROOT, 'tests', 'mock-jxg.js'), encoding='utf-8').read()
 lessons = [x for x in json.load(open(os.path.join(ROOT, 'lessons.json'), encoding='utf-8')) if x['grade'] == GRADE]
+if os.environ.get('ONLY'): lessons = [x for x in lessons if x['id'] in os.environ['ONLY'].split(',')]   # chỉ kiểm tra các bài nêu tên
 srv = subprocess.Popen([sys.executable, '-m', 'http.server', '8779', '--directory', ROOT], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL); time.sleep(1)
 fails = []
 def ok(c, m):

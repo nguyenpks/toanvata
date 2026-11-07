@@ -48,7 +48,12 @@ walk(path.join(ROOT, 'lessons')).forEach(file => {
     try { cfg.functions.forEach(s => { const c = C.compile(s.f, names); fns.push(x => c(x, scope)); }); } catch (e) { ok(false, 'biểu thức lỗi: ' + e.message, file); continue; }
     const tag = ' [' + cfg.functions.map(s => s.f).join('; ') + ']';
     (cfg.asymptotes || []).forEach(a => {
-      const any = fns.some(f => C.checkAsymptote(f, a));
+      let any = fns.some(f => C.checkAsymptote(f, a));
+      if (!any && cfg.param && a.type !== 'v') {        // đường cong tham số (hypebol…): điểm xa trên đường cong phải sát tiệm cận
+        const m = a.type === 'h' ? 0 : a.m, b = a.type === 'h' ? a.y : a.b;
+        any = cfg.param.some(c => { const X = C.compile(c.x.replace(/\bt\b/g, 'x'), []), Y = C.compile(c.y.replace(/\bt\b/g, 'x'), []);
+          return [-7, 7].some(t => { const px = X(t, {}), py = Y(t, {}); return isFinite(px) && Math.abs(py - (m * px + b)) / Math.sqrt(1 + m * m) < 1e-2 * Math.max(1, Math.abs(px)) / 10; }); });
+      }
       ok(any, 'tiệm cận khai báo SAI: ' + JSON.stringify(a) + tag, file);
     });
     (cfg.holes || []).forEach(h => {

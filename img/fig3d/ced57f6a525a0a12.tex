@@ -1,0 +1,26 @@
+\documentclass[tikz,border=3pt]{standalone}
+\usetikzlibrary{arrows.meta}
+\begin{document}
+\definecolor{c_ax}{HTML}{475569}
+\definecolor{c_hl}{HTML}{C2410C}
+\definecolor{c2}{HTML}{86E0BD}
+\definecolor{c3}{HTML}{1F2937}
+\definecolor{c4}{HTML}{1D4ED8}
+\begin{tikzpicture}[x=1.1450cm,y=1.1450cm,line cap=round,line join=round]
+\fill[c2,fill opacity=0.40] (-0.0662,3.5204) -- (3.5134,0.6424) -- (-1.3459,-0.4015) -- cycle;
+\draw[c3,line width=0.99pt] (-0.0662,3.5204) -- (-0.0918,-0.8030);
+\draw[c3,line width=0.99pt] (-0.0662,3.5204) -- (-2.6000,0.0000);
+\draw[c_hl,line width=1.62pt] (-2.6000,0.0000) -- (-0.0918,-0.8030);
+\draw[c3,line width=0.99pt] (-0.0662,3.5204) -- (3.5134,0.6424);
+\draw[c3,line width=0.79pt,dash pattern=on 3pt off 2pt] (-2.6000,0.0000) -- (3.5134,0.6424);
+\draw[c3,line width=0.99pt] (-0.0918,-0.8030) -- (3.5134,0.6424);
+\draw[c4,line width=1.62pt] (-0.0662,3.5204) -- (-1.3459,-0.4015);
+\draw[c4,line width=1.30pt,dash pattern=on 3pt off 2pt] (3.5134,0.6424) -- (-1.3459,-0.4015);
+\node[anchor=east,inner sep=2pt] at (-2.6000,0.0000) {$B$};
+\node[anchor=north,inner sep=2pt] at (-0.0918,-0.8030) {$C$};
+\node[anchor=west,inner sep=2pt] at (3.5134,0.6424) {$D$};
+\node[anchor=south,inner sep=2pt] at (-0.0662,3.5204) {$A$};
+\fill (-1.3459,-0.4015) circle[radius=1.3pt];
+\node[anchor=north,inner sep=2pt] at (-1.3459,-0.4015) {$M$};
+\end{tikzpicture}
+\end{document}
