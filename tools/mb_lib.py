@@ -256,6 +256,9 @@ def MCQ(n, q, opts, ans, expl, raw=False):
     def _o(t):
         if t.startswith('§'): return t[1:]
         if raw: return t
+        # Kiểm định 08/11/2026 (T-001/T-002): phương án đã là HTML (TI/TT…) hoặc đã chứa \( … \) thì không bọc thêm,
+        # nếu không MathJax nhận "\(<span…" / "\(\(10\) m/s\)" và báo lỗi đỏ. Phương án công thức thuần vẫn được bọc như cũ.
+        if t.lstrip().startswith('<') or '\\(' in t: return t
         return t if (t.startswith('\\(') and t.endswith('\\)') and t.count('\\(') == 1) else '\\(%s\\)' % t
     o = ''.join('<label><input type="radio" name="%s" value="%s"><span>%s</span></label>' % (name, 'abcd'[i], _o(t)) for i, t in enumerate(opts))
     return ('<div class="mbl-item" data-type="mcq" data-answer="%s"><div class="mbl-qtext"><b>%d.</b></div>%s<div class="mbl-opts">%s</div>%s'

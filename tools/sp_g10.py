@@ -157,9 +157,15 @@ def s_comp(r, lv):
     gr = [F(i, 2) for i in range(2 * (a - 3), 2 * (b + 3) + 1)]
     true = (a, not ac, b, not bc)      # phần bù: đầu mút a được lấy khi a không thuộc I
     assert all((not _inI(x, I)) == ((x < a or (not ac and x == a)) or (x > b or (not bc and x == b))) for x in gr)
-    opts = [cp(a, ac, b, bc)] + [cp(a, not ac, b, bc), cp(a, ac, b, not bc), cp(a, not ac, b, not bc)]
+    # Kiểm định 08/11/2026 (M-001): phương án đúng phải là phần bù thật, tức đảo tính đóng/mở ở mỗi đầu mút.
+    # Trước đây phương án đúng là cp(a, ac, b, bc) (giữ nguyên đầu mút như khoảng gốc) – sai.
+    inC = lambda x, fa, fb: x < a or (fa and x == a) or x > b or (fb and x == b)
+    assert all(inC(x, *true[1::2]) == (not _inI(x, I)) for x in gr)          # phương án đúng = phần bù
+    opts = [cp(*true)] + [cp(a, ac, b, bc), cp(a, not ac, b, bc), cp(a, ac, b, not bc)]
+    assert all(any(inC(x, fa, fb) != (not _inI(x, I)) for x in gr) for fa, fb in [(ac, bc), (not ac, bc), (ac, not bc)])  # nhiễu đều sai
     return dict(en='Find the complement of \\(%s\\) in \\(\\mathbb{R}\\).' % _iv(*I), vi='Tìm phần bù của \\(%s\\) trong \\(\\mathbb{R}\\).' % _iv(*I), opts=opts, ans=0,
-      ee='The complement is everything outside the interval; an endpoint belongs to the complement exactly when it does not belong to the interval.', ev='Phần bù gồm mọi số nằm ngoài khoảng; một đầu mút thuộc phần bù đúng khi nó không thuộc khoảng đã cho.') | {}
+      ee='The complement is everything outside the interval; an endpoint belongs to the complement exactly when it does not belong to the interval: \\(%s\\).' % cp(*true),
+      ev='Phần bù gồm mọi số nằm ngoài khoảng; một đầu mút thuộc phần bù đúng khi nó không thuộc khoảng đã cho: \\(%s\\).' % cp(*true)) | {}
 
 def s_count(r, lv):
     k = r.randint(5, 30); t = r.choice(['<', '\\le']); n = sum(1 for x in range(-10, 11) if (x * x < k if t == '<' else x * x <= k))

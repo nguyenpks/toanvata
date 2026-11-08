@@ -77,7 +77,7 @@ def e_words(r, lv):
     opts_en = [('"at least one hits"', '"có ít nhất một người bắn trúng"'), ('"all hit"', '"tất cả đều bắn trúng"'), ('"exactly one hits"', '"có đúng một người bắn trúng"'), ('"nobody hits"', '"không ai bắn trúng"')]
     kind = r.choice(['union', 'inter'])
     ok = opts_en[0] if kind == 'union' else opts_en[1]
-    sym = ('\\cup' if kind == 'union' else '\\cap').join('A_%d' % i for i in range(1, n + 1))
+    sym = ('\\cup ' if kind == 'union' else '\\cap ').join('A_%d' % i for i in range(1, n + 1))  # T-002: thiếu dấu cách tạo lệnh lạ \capA
     return dict(en='%d shooters fire once; \\(A_i\\): "shooter %s hits". The event \\(%s\\) is…' % (n, 'i', sym), vi='%d xạ thủ mỗi người bắn một phát; \\(A_i\\): "xạ thủ thứ \\(i\\) bắn trúng". Biến cố \\(%s\\) là…' % (n, sym),
       opts=[TT(ok[0], ok[1])] + [TT(*o) for o in opts_en if o != ok], ans=0, ee='Union = at least one; intersection = all.', ev='Hợp: ít nhất một biến cố xảy ra; giao: tất cả cùng xảy ra.')
 

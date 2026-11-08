@@ -192,11 +192,17 @@ def e_round_err(r, lv):
     return dict(en='The number \\(%s\\) is rounded to the %s. The absolute error of the rounded number is at most…' % (D(x), en), vi='Quy tròn số \\(%s\\) đến hàng %s. Sai số tuyệt đối của số quy tròn không vượt quá…' % (D(x), vi),
       opts=pick_opts(r, D(u / 2), [D(u), D(u / 10), D(u * 5), D(u / 5)]), ans=0,
       ee='Half a unit of the rounding place: \\(\\dfrac{%s}{2}=%s\\).' % (D(u), D(u / 2)), ev='Nửa đơn vị của hàng quy tròn: \\(\\dfrac{%s}{2}=%s\\).' % (D(u), D(u / 2)))
+def _sqrt_opts(r, n, a, d):
+    err = abs(math.sqrt(n) - float(a)); wrong = [d / 10, d / 20, d / 100, d / 50]
+    assert err < float(d) and all(float(w) < err for w in wrong), (n, a)   # khóa đúng, mọi nhiễu sai
+    return pick_opts(r, D(d), [D(w) for w in wrong])
 def e_sqrt(r, lv):
     n = r.choice([2, 3, 5, 7, 10, 11]); x = math.sqrt(n); lo = F(math.floor(x * 100), 100); hi = lo + F(1, 100); a = r.choice([lo, hi])
     d = F(1, 100)
     return dict(en='Given \\(%s\\lt\\sqrt{%d}\\lt%s\\). If we take \\(\\sqrt{%d}\\approx%s\\), the absolute error is less than…' % (D(lo), n, D(hi), n, D(a)), vi='Biết \\(%s\\lt\\sqrt{%d}\\lt%s\\). Nếu lấy \\(\\sqrt{%d}\\approx%s\\) thì sai số tuyệt đối nhỏ hơn…' % (D(lo), n, D(hi), n, D(a)),
-      opts=pick_opts(r, D(d), [D(d / 2), D(d / 10), D(F(1, 10)), D(lo)]), ans=0,
+      # Kiểm định 08/11/2026 (M-101): trước đây nhiễu 0,1 và lo luôn là cận đúng, d/2 có khi cũng đúng -> nhiều phương án đúng.
+      # Nay mọi nhiễu nhỏ hơn sai số thật |√n - a| (sai số thật luôn > 0,002 với các n dùng ở đây) nên đều sai.
+      opts=_sqrt_opts(r, n, a, d), ans=0,
       ee='\\(\\sqrt{%d}\\) and \\(%s\\) both lie in \\((%s;\\,%s)\\), whose length is \\(%s\\).' % (n, D(a), D(lo), D(hi), D(d)), ev='\\(\\sqrt{%d}\\) và \\(%s\\) cùng thuộc \\((%s;\\,%s)\\) có độ dài \\(%s\\).' % (n, D(a), D(lo), D(hi), D(d)))
 def e_area(r, lv):
     a = r.choice([10, 20, 25, 30, 40]); d = r.choice([F(1, 10), F(2, 10), F(1, 2)]); S = a * a; dS = (a + d) ** 2 - S

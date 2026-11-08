@@ -80,7 +80,7 @@ def dstr(x):
 
 
 def lvl(P):
-    (A, B, ae, av, be, bv) = P['sets']
+    (A, B, ae, be, av, bv) = P['sets']   # dữ liệu xếp (tên EN của A, tên EN của B, tên VI của A, tên VI của B) – sửa M-007
     o1 = M4(1, 'A die is rolled. \\(A\\): "%s", \\(B\\): "%s". The event \\(A\\cap B\\) is…' % (ae, be), 'Gieo một con xúc xắc. \\(A\\): "%s", \\(B\\): "%s". Biến cố \\(A\\cap B\\) là…' % (av, bv), '\\(%s\\)' % S.setstr(A & B),
             ['\\(%s\\)' % S.setstr(A | B), '\\(%s\\)' % S.setstr(A - B), '\\(%s\\)' % S.setstr(B - A)], 'Common outcomes.', 'Các kết quả thuộc cả \\(A\\) và \\(B\\).')
     p, q = P['pq']

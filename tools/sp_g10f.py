@@ -107,8 +107,12 @@ def q_mono(r, lv):
     a, h, k, b, c = _q(r); up = a > 0
     o1 = TT('decreasing on \\(%s\\), increasing on \\(%s\\)' % (iv(None, h, hi=')'), iv(h, None, lo='(')), 'nghịch biến trên \\(%s\\), đồng biến trên \\(%s\\)' % (iv(None, h, hi=')'), iv(h, None, lo='(')))
     o2 = TT('increasing on \\(%s\\), decreasing on \\(%s\\)' % (iv(None, h, hi=')'), iv(h, None, lo='(')), 'đồng biến trên \\(%s\\), nghịch biến trên \\(%s\\)' % (iv(None, h, hi=')'), iv(h, None, lo='(')))
-    o3 = TT('increasing on \\(%s\\)' % iv(-h, None, lo='('), 'đồng biến trên \\(%s\\)' % iv(-h, None, lo='(')) if h else TT('increasing on \\(\\mathbb R\\)', 'đồng biến trên \\(\\mathbb R\\)')
-    o4 = TT('decreasing on \\(%s\\)' % iv(None, k, hi=')'), 'nghịch biến trên \\(%s\\)' % iv(None, k, hi=')')) if k != h else TT('decreasing on \\(\\mathbb R\\)', 'nghịch biến trên \\(\\mathbb R\\)')
+    # Kiểm định 08/11/2026 (M-003): nhiễu không được là khoảng con của khoảng đơn điệu thật (vd a>0, h=-2: "đồng biến trên (2;+∞)" cũng đúng).
+    m3 = -h if (not up or -h < h) else h - 1          # đồng biến trên (m3;+∞) sai  <=>  a<0 hoặc m3<h
+    n4 = k if (not up or k > h) else h + 1            # nghịch biến trên (-∞;n4) sai <=>  a<0 hoặc n4>h
+    assert (not up or m3 < h) and (not up or n4 > h)
+    o3 = TT('increasing on \\(%s\\)' % iv(m3, None, lo='('), 'đồng biến trên \\(%s\\)' % iv(m3, None, lo='(')) if h else TT('increasing on \\(\\mathbb R\\)', 'đồng biến trên \\(\\mathbb R\\)')
+    o4 = TT('decreasing on \\(%s\\)' % iv(None, n4, hi=')'), 'nghịch biến trên \\(%s\\)' % iv(None, n4, hi=')')) if k != h else TT('decreasing on \\(\\mathbb R\\)', 'nghịch biến trên \\(\\mathbb R\\)')
     return dict(en='The function \\(y=%s\\) is…' % poly([a, b, c]), vi='Hàm số \\(y=%s\\)…' % poly([a, b, c]), opts=[o1 if up else o2, o2 if up else o1, o3, o4], ans=0,
       ee='\\(a%s0\\) and \\(-\\dfrac b{2a}=%s\\).' % ('\\gt' if up else '\\lt', fr(h)), ev='\\(a%s0\\) và \\(-\\dfrac b{2a}=%s\\).' % ('\\gt' if up else '\\lt', fr(h)))
 def q_ext(r, lv):

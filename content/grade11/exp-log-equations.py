@@ -57,7 +57,7 @@ examples += EXAMPLE(5, ('Advanced', 'Nâng cao'), ('How long to save?', 'Gửi t
 def lvl(P):
     a1, m1, n1, k1 = P['e1']; x1 = F(k1 - n1, m1); assert x1.denominator == 1; ex1 = poly([m1, n1]); R1 = frn(F(a1) ** k1)
     o1 = M4(1, 'Solve \\(%d^{%s}=%s\\).' % (a1, ex1, R1), 'Giải phương trình \\(%d^{%s}=%s\\).' % (a1, ex1, R1), '\\(x=%d\\)' % x1, ['\\(x=%d\\)' % (x1 + 1), '\\(x=%d\\)' % (-x1 if x1 else 2), '\\(x=%d\\)' % k1, '\\(x=%d\\)' % (x1 - 1)],
-            '\\(%s=%d\\).' % (ex1, k1), '\\(%s=%d^{%d}\\Rightarrow%s=%d\\).' % (R1, a1, k1, ex1, k1))
+            '\\(%s=%d\\).' % (ex1, k1), '\\(%s=%d^{%d}\\Rightarrow %s=%d\\).' % (R1, a1, k1, ex1, k1))  # T-002: thiếu dấu cách tạo \Rightarrowx
     a2, b2, c2 = P['l1']; x2 = a2 ** c2 - b2
     o2 = M4(2, 'Solve \\(\\log_{%d}(x%+d)=%d\\).' % (a2, b2, c2), 'Giải phương trình \\(\\log_{%d}(x%+d)=%d\\).' % (a2, b2, c2), '\\(x=%d\\)' % x2, ['\\(x=%d\\)' % (a2 * c2 - b2), '\\(x=%d\\)' % (c2 ** a2 - b2), '\\(x=%d\\)' % (a2 ** c2 + b2), '\\(x=%d\\)' % (x2 + 1), '\\(x=%d\\)' % (x2 - 1), '\\(x=%d\\)' % (a2 ** (c2 + 1) - b2)],
             '\\(x%+d=%d^{%d}\\).' % (b2, a2, c2), '\\(x%+d=%d^{%d}=%d\\Rightarrow x=%d\\).' % (b2, a2, c2, a2 ** c2, x2))

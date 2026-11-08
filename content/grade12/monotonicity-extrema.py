@@ -153,7 +153,7 @@ S2 = [
   _s(10, r'Find the smallest integer \(m\) such that \(f(x)=\dfrac{mx+4}{x+2}\) is increasing on each interval of its domain.§Tìm số nguyên \(m\) nhỏ nhất để \(f(x)=\dfrac{mx+4}{x+2}\) đồng biến trên từng khoảng xác định.', '3', '3', 'w',
       r'\(f′(x)=\dfrac{2m-4}{(x+2)^2}>0\) exactly when \(m>2\), so the smallest integer is 3.§\(f′(x)=\dfrac{2m-4}{(x+2)^2}>0\) đúng khi \(m>2\), nên số nguyên nhỏ nhất là 3.')]]
 S3 = [
- [_m(1, r'On which interval is \(f(x)=-x^2-4x\) increasing?§Hàm số \(f(x)=-x^2-4x\) đồng biến trên khoảng nào?', [r'(-2,+\infty)', r'(-\infty,-4)', r'(-4,0)', r'(-\infty,-2)'], 'd',
+ [_m(1, r'On which interval is \(f(x)=-x^2-4x\) increasing?§Hàm số \(f(x)=-x^2-4x\) đồng biến trên khoảng nào?', [r'(-2,+\infty)', r'(-3,-1)', r'(-4,0)', r'(-\infty,-2)'], 'd',  # M-107: thay (-inf,-4) (khoảng con của (-inf,-2), cũng đúng)
       r'\(f′(x)=-2x-4>0\) when \(x<-2\).§\(f′(x)=-2x-4>0\) khi \(x<-2\).'),
   _m(2, r'On which interval is \(f(x)=x^3-3x^2\) decreasing?§Hàm số \(f(x)=x^3-3x^2\) nghịch biến trên khoảng nào?', [r'(-\infty,0)', r'(0,2)', r'(2,+\infty)', r'(-2,0)'], 'b',
       r'\(f′(x)=3x(x-2)<0\) exactly when \(0<x<2\).§\(f′(x)=3x(x-2)<0\) đúng khi \(0<x<2\).'),

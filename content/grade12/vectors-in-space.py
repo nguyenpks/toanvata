@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """g12-vec-01 = Toán 12 KNTT, Bài 6: Vectơ và các phép toán trong không gian. Mã ngân hàng câu hỏi: TOAN12-C2-B06."""
-import os, sys, math
+import os, sys, math, re
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..', 'tools'))
 from mb_quick import *
 import sp_g12
@@ -62,7 +62,7 @@ examples = EXFIG(examples, 4, GEO3D(fig('cube', seg=[['A', 'B', AR(HL)], ['A', '
 examples = EXFIG(examples, 5, GEO3D(fig('cube', seg=[['A', 'C′', {'color': HL, 'width': 3.6}], ['B', 'D', {'color': BL, 'width': 3.6}]]), alt=('The diagonal AC′ and the face diagonal BD', '')))
 
 def lvl(P):
-    a, c1, c2, sm = P['a'], P['c1'], P['c2'], P['sm']; nm = lambda x: sp_g12._nm(x[0]) + sp_g12._nm(x[1])
+    a, c1, c2, sm = P['a'], P['c1'], P['c2'], P['sm']; nm = lambda x: ''.join(sp_g12._nm(p) for p in (re.findall(r"[A-Z]'?", x) if isinstance(x, str) else x))  # sửa M-008: giữ dấu phẩy (′) khi x là chuỗi như "AA'"
     sums = {'A': ('AB', 'AD', "AA'", "AC'"), 'B': ('BA', 'BC', "BB'", "BD'"), 'C': ('CB', 'CD', "CC'", "CA'"), 'D': ('DA', 'DC', "DD'", "DB'")}
     s = sums[sm]; ov = lambda x: '\\overrightarrow{%s}' % nm(x); allv = [x[3] for x in sums.values()] + ['AC', 'BD']
     o1 = M4(1, 'In a cube, \\(%s+%s+%s=\\)…' % (ov(s[0]), ov(s[1]), ov(s[2])), 'Trong hình lập phương, \\(%s+%s+%s=\\)…' % (ov(s[0]), ov(s[1]), ov(s[2])), ov(s[3]), [ov(x) for x in allv if x != s[3]][:3], 'Parallelepiped rule.', 'Quy tắc hình hộp.')

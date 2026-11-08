@@ -55,12 +55,23 @@ def m1_param(r, lv):
 def m1_sign(r, lv):
     a = r.randint(-4, 1); b = a + r.randint(1, 4); k = r.randint(1, 3); neg = r.choice([True, False])
     g = ('-' if neg else '') + ('' if k == 1 else str(k)) + xm(a) + xm(b)
-    ints = ['(%d,%d)' % (a, b), '(-\\infty,%d)\\cup(%d,+\\infty)' % (a, b), '(-\\infty,%d)' % a, '(%d,+\\infty)' % b]
-    # f' > 0 trong (a,b) nếu neg, ngoài [a,b] nếu không neg
-    ans = 0 if neg else 1
-    return dict(en='Let \\(f\'(x)=%s\\). Where is \\(f\\) increasing?' % g, vi='Cho \\(f\'(x)=%s\\). Hàm số \\(f\\) đồng biến ở đâu?' % g, opts=ints, ans=ans,
-      ee='%s' % ('The leading coefficient of \\(f\'\\) is negative, so \\(f\'>0\\) between the roots: \\((%d,%d)\\).' % (a, b) if neg else 'The leading coefficient of \\(f\'\\) is positive, so \\(f\'>0\\) outside the roots.'),
-      ev='%s' % ('Hệ số cao nhất của \\(f\'\\) âm nên \\(f\'>0\\) giữa hai nghiệm: \\((%d,%d)\\).' % (a, b) if neg else 'Hệ số cao nhất của \\(f\'\\) dương nên \\(f\'>0\\) ngoài hai nghiệm.'))
+    # Kiểm định 08/11/2026 (M-108): trước đây khi f' dương ngoài hai nghiệm, khóa là "(-inf,a) U (b,+inf)" – SAI
+    # (hàm không đồng biến trên hợp hai khoảng; SGK không viết như vậy) và hai phương án (-inf,a), (b,+inf) lại đúng.
+    # Nay mỗi phương án là MỘT khoảng; đúng một phương án nằm trọn trong miền f'>0 (kiểm bằng assert).
+    I = lambda lo, hi: ((lo, hi), '(%s,%s)' % ('-\\infty' if lo is None else '%d' % lo, '+\\infty' if hi is None else '%d' % hi))
+    if neg:   # f' > 0 trên (a,b)
+        cand = [I(a, b), I(None, a), I(b, None), I(a - 1, b)]
+    else:     # f' > 0 trên (-inf,a) và (b,+inf)
+        cand = [I(b, None), I(a, b), I(None, b), I(a, None)]
+    fp = lambda x: (-1 if neg else 1) * k * (x - a) * (x - b)
+    def inc_on(iv):
+        lo, hi = iv; lo = a - 50 if lo is None else lo; hi = b + 50 if hi is None else hi
+        return all(fp(lo + (hi - lo) * (i + 0.5) / 400) > 0 for i in range(400))
+    assert [inc_on(c[0]) for c in cand] == [True, False, False, False], (a, b, neg)
+    ints = [c[1] for c in cand]; ans = 0
+    return dict(en='Let \\(f\'(x)=%s\\). On which interval is \\(f\\) increasing?' % g, vi='Cho \\(f\'(x)=%s\\). Hàm số \\(f\\) đồng biến trên khoảng nào?' % g, opts=ints, ans=ans,
+      ee='%s' % ('The leading coefficient of \\(f\'\\) is negative, so \\(f\'>0\\) only between the roots: \\(f\\) is increasing on \\((%d,%d)\\).' % (a, b) if neg else 'The leading coefficient of \\(f\'\\) is positive, so \\(f\'>0\\) outside the roots: \\(f\\) is increasing on each interval \\((-\\infty,%d)\\) and \\((%d,+\\infty)\\) (not on their union). Among the options only \\((%d,+\\infty)\\) is such an interval.' % (a, b, b)),
+      ev='%s' % ('Hệ số cao nhất của \\(f\'\\) âm nên \\(f\'>0\\) chỉ giữa hai nghiệm: \\(f\\) đồng biến trên \\((%d,%d)\\).' % (a, b) if neg else 'Hệ số cao nhất của \\(f\'\\) dương nên \\(f\'>0\\) ngoài hai nghiệm: \\(f\\) đồng biến trên mỗi khoảng \\((-\\infty,%d)\\) và \\((%d,+\\infty)\\) (không viết là đồng biến trên hợp của chúng). Trong các phương án chỉ có \\((%d,+\\infty)\\) thỏa mãn.' % (a, b, b)))
 
 def m1_inv(r, lv):
     a = r.randint(2, 3 + lv); k = r.randint(2, 4); f = '%dx+\\dfrac{%d}{x}' % (a, a * k * k); val = 2 * a * k
