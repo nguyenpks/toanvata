@@ -84,7 +84,7 @@ phrases = [
  (r'<b>Draw the boundary line.</b>', r'Vẽ đường thẳng biên.'),
  (r'<b>Solid line / dashed line</b>', r'Nét liền / nét đứt'),
  (r'<b>at most / at least</b>', r'nhiều nhất (≤) / ít nhất (≥)')]
-review = (T(r'<b>A line.</b> \(ax+by=c\) is a straight line. Two points are enough to draw it, for example its intercepts \((c/a;0)\) and \((0;c/b)\).', r'<b>Đường thẳng.</b> \(ax+by=c\) là một đường thẳng. Chỉ cần hai điểm để vẽ, chẳng hạn giao điểm với hai trục \((c/a;0)\) và \((0;c/b)\).') +
+review = (T(r'<b>A line.</b> \(ax+by=c\) is a straight line. Two points are enough to draw it, for example its intercepts \((\dfrac{c}{a};0)\) and \((0;\dfrac{c}{b})\).', r'<b>Đường thẳng.</b> \(ax+by=c\) là một đường thẳng. Chỉ cần hai điểm để vẽ, chẳng hạn giao điểm với hai trục \((\dfrac{c}{a};0)\) và \((0;\dfrac{c}{b})\).') +
           T(r'<b>Substitution.</b> To test \((x_0;y_0)\), replace \(x\) by \(x_0\) and \(y\) by \(y_0\) and compare.', r'<b>Thay số.</b> Để kiểm tra \((x_0;y_0)\), thay \(x=x_0\), \(y=y_0\) rồi so sánh.'))
 
 G = lambda cfg, en, vi, h=330: GEO(cfg, cap=(en, vi), alt=(en, ''), height=h)

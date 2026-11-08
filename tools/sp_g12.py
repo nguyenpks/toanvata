@@ -3,6 +3,7 @@
 import math
 from fractions import Fraction as F
 from mb_selfpractice import *
+from mb_lib import TI as _TI
 
 def _ev(c, x):
     v = F(0)
@@ -327,8 +328,8 @@ def vc_sum(r, lv):
     cases = [("\\overrightarrow{AB}+\\overrightarrow{AD}+\\overrightarrow{AA′}", "\\overrightarrow{AC′}", "A", "C'"), ("\\overrightarrow{BA}+\\overrightarrow{BC}+\\overrightarrow{BB′}", "\\overrightarrow{BD′}", "B", "D'"),
              ("\\overrightarrow{CB}+\\overrightarrow{CD}+\\overrightarrow{CC′}", "\\overrightarrow{CA′}", "C", "A'"), ("\\overrightarrow{DA}+\\overrightarrow{DC}+\\overrightarrow{DD′}", "\\overrightarrow{DB′}", "D", "B'")]
     c = r.choice(cases); allv = ["\\overrightarrow{AC′}", "\\overrightarrow{BD′}", "\\overrightarrow{CA′}", "\\overrightarrow{DB′}", "\\overrightarrow{AC}", "\\overrightarrow{BD}"]
-    return dict(en='In a cube, \\(%s=\\;?\\)' % c[0], vi='Trong hình lập phương, \\(%s=\\;?\\)' % c[0], opts=pick_opts(r, c[1], [x for x in allv if x != c[1]]), ans=0,
-      ee='Parallelepiped rule: the sum of three edge vectors from one vertex is the space diagonal from that vertex.', ev='Quy tắc hình hộp: tổng ba vectơ cạnh xuất phát từ một đỉnh là vectơ đường chéo của hình lập phương xuất phát từ đỉnh đó.')
+    return dict(en='In the parallelepiped \\(ABCD.A′B′C′D′\\), \\(%s=\\;?\\)' % c[0], vi='Trong hình hộp \\(ABCD.A′B′C′D′\\), \\(%s=\\;?\\)' % c[0], opts=pick_opts(r, c[1], [x for x in allv if x != c[1]]), ans=0,
+      ee='Parallelepiped rule: the sum of three edge vectors from one vertex is the diagonal of the parallelepiped from that vertex.', ev='Quy tắc hình hộp: tổng ba vectơ cạnh xuất phát từ một đỉnh là vectơ đường chéo của hình hộp xuất phát từ đỉnh đó.')
 def vc_mid(r, lv):
     P, Q = r.choice([('A', 'B'), ('C', 'D'), ('M', 'N'), ('P', 'Q'), ('E', 'F'), ('S', 'T')]); I = r.choice('IKH'); O = r.choice('OGJ')
     return dict(en='\\(%s\\) is the midpoint of \\(%s%s\\) and \\(%s\\) is any point. Then \\(\\overrightarrow{%s%s}=\\)…' % (I, P, Q, O, O, I), vi='\\(%s\\) là trung điểm của \\(%s%s\\), \\(%s\\) là điểm bất kỳ. Khi đó \\(\\overrightarrow{%s%s}=\\)…' % (I, P, Q, O, O, I),
@@ -340,5 +341,40 @@ def vc_ortho(r, lv):
     import re as _re; pa = tuple(_re.findall(r"[A-D]'?", p)); qa = tuple(_re.findall(r"[A-D]'?", q)); d = _dot(_vec(*pa), _vec(*qa)); assert d == 0
     nm = lambda x: _nm(x[0]) + _nm(x[1])
     return dict(en='In the cube \\(ABCD.A′B′C′D′\\), \\(\\overrightarrow{%s}\\cdot\\overrightarrow{%s}=\\)…' % (nm(pa), nm(qa)), vi='Trong hình lập phương \\(ABCD.A′B′C′D′\\), \\(\\overrightarrow{%s}\\cdot\\overrightarrow{%s}=\\)…' % (nm(pa), nm(qa)),
-      opts=['0', '1', '-1', '\\text{depends on the edge}'], ans=0, ee='The two vectors are perpendicular, so the dot product is 0.', ev='Hai vectơ vuông góc nên tích vô hướng bằng 0.')
-M6S = [vc_dot, vc_len, vc_angle, vc_sum, vc_mid, vc_ortho, vc_dot, vc_angle]
+      opts=['0', '1', '-1', '§' + _TI('depends on the edge length', 'phụ thuộc độ dài cạnh')], ans=0, ee='The two vectors are perpendicular, so the dot product is 0.', ev='Hai vectơ vuông góc nên tích vô hướng bằng 0.')
+# Góp ý 08/11/2026: bài 6 quá nhiều câu về hình lập phương -> thêm tứ diện đều, lực trong không gian, hình chóp.
+_T4 = {'A': (1, 1, 1), 'B': (1, -1, -1), 'C': (-1, 1, -1), 'D': (-1, -1, 1)}   # tứ diện đều, cạnh 2√2 (cạnh² = 8)
+def _tv(p, q): return tuple(b - a for a, b in zip(_T4[p], _T4[q]))
+def vc_tet(r, lv):
+    a = r.choice([2, 4, 6, 8])
+    while True:
+        p = r.sample('ABCD', 2); q = r.sample('ABCD', 2)
+        if set(p) != set(q): break
+    d = F(_dot(_tv(*p), _tv(*q)) * a * a, 8); ok = fr(d)
+    assert d in (F(a * a, 2), F(-a * a, 2), 0)
+    cand = [fr(F(a * a, 2)), fr(F(-a * a, 2)), '0', str(a * a), str(-a * a)]
+    return dict(en='\\(ABCD\\) is a regular tetrahedron with edge %d. Find \\(\\overrightarrow{%s}\\cdot\\overrightarrow{%s}\\).' % (a, ''.join(p), ''.join(q)),
+      vi='Cho tứ diện đều \\(ABCD\\) cạnh %d. Tính \\(\\overrightarrow{%s}\\cdot\\overrightarrow{%s}\\).' % (a, ''.join(p), ''.join(q)),
+      opts=pick_opts(r, ok, [c for c in cand if c != ok]), ans=0,
+      ee='All faces are equilateral triangles: two edges from a common vertex make \\(60^\\circ\\); two opposite edges are perpendicular. Move the vectors to a common start before reading the angle.',
+      ev='Các mặt là tam giác đều: hai cạnh chung đỉnh tạo góc \\(60^\\circ\\); hai cạnh đối diện vuông góc. Dời hai vectơ về chung điểm đầu rồi mới xác định góc.')
+def vc_force(r, lv):
+    q = r.choice([(1, 2, 2, 3), (2, 3, 6, 7), (1, 4, 8, 9), (4, 4, 7, 9), (2, 6, 9, 11), (6, 6, 7, 11), (3, 4, 12, 13)]); k = r.choice([1, 2, 5, 10])
+    f1, f2, f3, s = [k * x for x in q]; assert f1 * f1 + f2 * f2 + f3 * f3 == s * s
+    return dict(en='Three forces \\(\\vec F_1,\\vec F_2,\\vec F_3\\) act on an object at one point; they are pairwise perpendicular with magnitudes %d N, %d N, %d N. The resultant force has magnitude…' % (f1, f2, f3),
+      vi='Ba lực \\(\\vec F_1,\\vec F_2,\\vec F_3\\) cùng tác dụng vào một vật tại một điểm, đôi một vuông góc, có độ lớn lần lượt %d N, %d N, %d N. Hợp lực có độ lớn bằng…' % (f1, f2, f3),
+      opts=pick_opts(r, '%d\\ \\text{N}' % s, ['%d\\ \\text{N}' % x for x in (f1 + f2 + f3, s * s, f1 + f2 + f3 - s, s + k)]), ans=0,
+      ee='The resultant is the space diagonal of the box built on the three forces: \\(|\\vec F|=\\sqrt{%d^2+%d^2+%d^2}=%d\\).' % (f1, f2, f3, s),
+      ev='Hợp lực là đường chéo của hình hộp chữ nhật dựng trên ba lực: \\(|\\vec F|=\\sqrt{%d^2+%d^2+%d^2}=%d\\).' % (f1, f2, f3, s))
+def vc_pyr(r, lv):
+    case = r.choice([('SA', 'SC', 2), ('SB', 'SD', 2), ('SA', 'SB', 'SC', 'SD', 4)])
+    lhs = '+'.join('\\overrightarrow{%s}' % v for v in case[:-1]); k = case[-1]
+    # kiểm tra bằng tọa độ: O là trung điểm hai đường chéo của hình bình hành
+    A, B, C = (0, 0, 0), (4, 1, 0), (5, 4, 0); D = tuple(a + c - b for a, b, c in zip(A, B, C)); S = (1, 2, 6); O = tuple((a + c) / 2 for a, c in zip(A, C))
+    pt = dict(A=A, B=B, C=C, D=D); tot = [sum(pt[v[1]][i] - S[i] for v in case[:-1]) for i in range(3)]; assert all(abs(tot[i] - k * (O[i] - S[i])) < 1e-9 for i in range(3))
+    cand = ['%s\\overrightarrow{SO}' % (k if k != 1 else ''), '\\overrightarrow{SO}', '%d\\overrightarrow{SO}' % (2 * k), '\\vec0', '\\dfrac12\\overrightarrow{SO}']
+    return dict(en='\\(S.ABCD\\) is a pyramid whose base is a parallelogram with centre \\(O\\). Then \\(%s=\\)…' % lhs, vi='Cho hình chóp \\(S.ABCD\\) có đáy là hình bình hành tâm \\(O\\). Khi đó \\(%s=\\)…' % lhs,
+      opts=pick_opts(r, cand[0], cand[1:]), ans=0,
+      ee='\\(O\\) is the midpoint of \\(AC\\) and of \\(BD\\), so \\(\\overrightarrow{SA}+\\overrightarrow{SC}=\\overrightarrow{SB}+\\overrightarrow{SD}=2\\overrightarrow{SO}\\).',
+      ev='\\(O\\) là trung điểm của \\(AC\\) và của \\(BD\\) nên \\(\\overrightarrow{SA}+\\overrightarrow{SC}=\\overrightarrow{SB}+\\overrightarrow{SD}=2\\overrightarrow{SO}\\).')
+M6S = [vc_dot, vc_tet, vc_angle, vc_sum, vc_mid, vc_force, vc_pyr, vc_ortho]

@@ -50,9 +50,11 @@ def p_count(r, lv):
     while True:
         items = [_stmt(r) for _ in range(4)]
         if len({t for t, _ in items}) == 4 and 1 <= sum(v for _, v in items) <= 3: break
-    c = sum(v for _, v in items); st = '; '.join('(%d)\\ %s' % (i + 1, t) for i, (t, _) in enumerate(items))
+    # Góp ý 08/11/2026: mỗi phát biểu một dòng, số thứ tự (1)…(4) nằm ngoài công thức.
+    # (không chèn <br> ở đây: văn bản tự luyện bị thoát dấu '<'; mb_model.fix_layout tự tách các ý (1) (2)… xuống dòng)
+    c = sum(v for _, v in items); st = '; '.join('(%d) \\(%s\\)' % (i + 1, t) for i, (t, _) in enumerate(items)) + '.'
     others = [x for x in range(0, 5) if x != c]; r.shuffle(others)
-    return dict(en='How many of these four statements are true? %s' % ('\\(' + st + '\\)'), vi='Trong bốn phát biểu sau có bao nhiêu phát biểu đúng? %s' % ('\\(' + st + '\\)'),
+    return dict(en='How many of these four statements are true? %s' % st, vi='Trong bốn phát biểu sau có bao nhiêu phát biểu đúng? %s' % st,
       opts=[str(c)] + [str(x) for x in others[:3]], ans=0, ee='Decide each statement separately: %d of them are true.' % c, ev='Xét từng phát biểu: có %d phát biểu đúng.' % c)
 
 PROPS = ['2^{10}=1024', '(-3)^2=-9', '\\sqrt{16}=4', '5-8>0', '7\\times8=56', '\\dfrac{1}{2}+\\dfrac{1}{3}=\\dfrac{2}{5}', '10^2<99', '3^3=27', '(-2)^3>0', '9-4=5']
@@ -81,8 +83,8 @@ def p_impl(r, lv):
         holds = _forall(range(1, 400), lambda n: (n % a != 0) or (n % b == 0)); assert holds == (a % b == 0)
     ans = [a % b == 0 for a, b in pairs].index(True); a0, b0 = pairs[ans]
     sq = _stem(r, ST_IMPL)
-    return dict(en=sq[0], vi=sq[1], opts=['%d\\mid n\\Rightarrow %d\\mid n' % (a, b) for a, b in pairs], ans=ans,
-      ee='\\(%d\\mid n\\Rightarrow %d\\mid n\\) is true because \\(%d\\) is a multiple of \\(%d\\). In the other options find a counterexample.' % (a0, b0, a0, b0), ev='\\(%d\\mid n\\Rightarrow %d\\mid n\\) đúng vì \\(%d\\) là bội của \\(%d\\). Ở các phương án còn lại hãy tìm phản ví dụ.' % (a0, b0, a0, b0))
+    return dict(en=sq[0], vi=sq[1], opts=['n\\,\\vdots\\,%d\\Rightarrow n\\,\\vdots\\,%d' % (a, b) for a, b in pairs], ans=ans,
+      ee='\\(n\\,\\vdots\\,%d\\Rightarrow n\\,\\vdots\\,%d\\) is true because \\(%d\\) is a multiple of \\(%d\\). In the other options find a counterexample.' % (a0, b0, a0, b0), ev='\\(n\\,\\vdots\\,%d\\Rightarrow n\\,\\vdots\\,%d\\) đúng vì \\(%d\\) là bội của \\(%d\\). Ở các phương án còn lại hãy tìm phản ví dụ.' % (a0, b0, a0, b0))
 
 def p_equiv(r, lv):
     a = r.randint(1, 7); b = r.randint(2, 9); k = r.randint(2, 6)

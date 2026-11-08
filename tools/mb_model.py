@@ -157,10 +157,85 @@ def fix_math_prime(html):
     return ''.join(x if i % 2 else re.sub(pat, f, x, flags=re.S) for i, x in enumerate(segs))
 
 
+_MATH_SEG = r'(?<!\\)\\\((?:(?!\\\)).)*?\\\)|(?<!\\)\\\[(?:(?!\\\]).)*?\\\]'
+
+def _dfrac_math(s):
+    """Trong một công thức: \\frac -> \\dfrac và a/b (số) -> \\dfrac{a}{b}, TRỪ khi nằm trong số mũ/chỉ số (^, _)
+    – ở đó giữ \\frac và dấu / cho gọn (ví dụ \\(2^{t/20}\\), \\(\\big|_0^{\\pi/2}\\), \\(16^{-\\frac34}\\))."""
+    out = []; stack = []; i = 0; n = len(s); after_script = False
+    while i < n:
+        ch = s[i]
+        if ch == '\\' and s.startswith('\\frac', i) and not s[i + 5:i + 6].isalpha():
+            out.append('\\frac' if (after_script or any(stack)) else '\\dfrac'); i += 5; after_script = False; continue
+        if ch == '\\' and i + 1 < n:            # lệnh khác: chép nguyên tên lệnh
+            j = i + 1
+            while j < n and s[j].isalpha(): j += 1
+            if j == i + 1: j += 1
+            out.append(s[i:j]); i = j; after_script = False; continue
+        if ch == '{':
+            stack.append(after_script or any(stack)); after_script = False; out.append(ch); i += 1; continue
+        if ch == '}':
+            if stack: stack.pop()
+            out.append(ch); i += 1; continue
+        if ch in '^_':
+            after_script = True; out.append(ch); i += 1; continue
+        if ch.isdigit() and not (after_script or any(stack)) and (i == 0 or not (s[i - 1].isalnum() or s[i - 1] in '.,' or s[max(0, i - 3):i] == '{,}')):
+            m = re.match(r'(\d+)/(\d+)(?![\d.,])', s[i:])
+            if m:
+                out.append('\\dfrac{%s}{%s}' % m.groups()); i += m.end(); continue
+        if not ch.isspace(): after_script = False
+        out.append(ch); i += 1
+    return ''.join(out)
+
+_ENUM_LET = re.compile(r'(?<![\w(\[])\(?([a-h])\)(?=\s)')       # a) b) … hoặc (a) (b) …
+_ENUM_NUM = re.compile(r'(?<![\w(\[])\((\d)\)(?=\s)')
+
+def _enum_breaks(content):
+    """Trong một đoạn văn: các ý a) b) c)… hoặc (1) (2)… viết liền một dòng thì mỗi ý xuống dòng (góp ý 08/11/2026).
+    Chỉ xét chữ ngoài công thức và ngoài thẻ; cần có ít nhất hai ý liên tiếp (a và b, hoặc 1 và 2)."""
+    parts = re.split('(' + _MATH_SEG + r'|<[^>]+>)', content, flags=re.S)
+    flat = ''.join(p if i % 2 == 0 else ('\x00' if p.startswith('<') else 'X') for i, p in enumerate(parts))   # vị trí để xét ký tự đứng trước
+    def marks(rx, first, second, strict):
+        found = []; want = first                       # các ý phải đi đúng thứ tự a, b, c… (hoặc 1, 2, 3…)
+        for m in rx.finditer(flat):
+            if m.group(1) != want: continue
+            prev = flat[:m.start()].rstrip(' \t\n\x00')
+            ok_prev = (not prev) or prev[-1] in ':;.?,' or (not strict and m.group(1) == first)
+            if ok_prev: found.append((m.start(), m.group(1))); want = chr(ord(want) + 1)
+        return found if len(found) >= 2 else []
+    pos = marks(_ENUM_LET, 'a', 'b', False) + marks(_ENUM_NUM, '1', '2', True)
+    if not pos: return content
+    ins = set(p for p, _ in pos if flat[:p].strip(' \t\n\x00'))
+    # ánh xạ vị trí trong flat về chuỗi gốc
+    out = []; k = 0
+    for i, p in enumerate(parts):
+        if i % 2 == 0:
+            for j, ch in enumerate(p):
+                if k + j in ins:
+                    while out and out[-1] in (' ', '\t', '\n'): out.pop()
+                    if not (out and re.fullmatch(r'<br\s*/?>', out[-1])): out.append('<br>')
+                out.append(ch)
+            k += len(p)
+        else:
+            out.append(p); k += 1
+    return ''.join(out)
+
+def fix_layout(html):
+    """Hậu xử lý trình bày (góp ý của chủ website 08/11/2026): phân số \\dfrac; các ý a) b)/(1) (2) xuống dòng;
+    câu hỏi '…?' kèm danh sách liệt kê thì danh sách xuống dòng dưới câu hỏi."""
+    segs = re.split(r'(<script.*?</script>|<style.*?</style>)', html, flags=re.S)
+    def body(x):
+        x = re.sub(_MATH_SEG, lambda m: _dfrac_math(m.group(0)), x, flags=re.S)
+        x = re.sub(r'(<(p|li)(?:\s[^>]*)?>)(.*?)(</\2>)', lambda m: m.group(1) + _enum_breaks(m.group(3)) + m.group(4), x, flags=re.S)
+        x = re.sub(r'\?\s+(?=\\\((?:(?!\\\)).)*?\\\)\s*[,;]\s*\\\()', '?<br>', x)
+        return x
+    return ''.join(x if i % 2 else body(x) for i, x in enumerate(segs))
+
+
 def lesson(**c):
     """Điểm nhập duy nhất của người viết nội dung. Dựng bài, ghi file; lessons.json do build_all tổng hợp."""
     html, entry = render(c)
-    html = fix_math_prime(fix_math_lt(html))
+    html = fix_layout(fix_math_prime(fix_math_lt(html)))
     out = os.path.join(ROOT, entry['path']); os.makedirs(os.path.dirname(out), exist_ok=True)
     open(out, 'w', encoding='utf-8').write(html)
     REGISTRY.append((c.get('order', 0), entry))

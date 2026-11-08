@@ -52,7 +52,7 @@ def v_cube(r, lv):
     a = r.randint(2, 9)
     return dict(en='Cube \\(%s\\) with edge %d. The angle \\(\\varphi\\) between \\((A\'BD)\\) and \\((ABCD)\\) satisfies…' % (CUBE, a), vi='Hình lập phương \\(%s\\) cạnh %d. Góc \\(\\varphi\\) giữa hai mặt phẳng \\((A\'BD)\\) và \\((ABCD)\\) thỏa mãn…' % (CUBE, a),
       opts=pick_opts(r, '\\tan\\varphi=\\sqrt2', ['\\tan\\varphi=\\dfrac{\\sqrt2}{2}', '\\varphi=45^\\circ', '\\varphi=60^\\circ', '\\tan\\varphi=\\sqrt3']), ans=0,
-      ee='With \\(O=AC\\cap BD\\): \\(\\varphi=\\widehat{A\'OA}\\), \\(\\tan\\varphi=\\dfrac{AA\'}{AO}\\).', ev='Gọi \\(O=AC\\cap BD\\): \\(BD\\perp(AA\'O)\\) nên \\(\\varphi=\\widehat{A\'OA}\\), \\(\\tan\\varphi=\\dfrac{a}{a\\sqrt2/2}=\\sqrt2\\).')
+      ee='With \\(O=AC\\cap BD\\): \\(\\varphi=\\widehat{A\'OA}\\), \\(\\tan\\varphi=\\dfrac{AA\'}{AO}\\).', ev='Gọi \\(O=AC\\cap BD\\): \\(BD\\perp(AA\'O)\\) nên \\(\\varphi=\\widehat{A\'OA}\\), \\(\\tan\\varphi=\\dfrac{a}{\\frac{a\\sqrt2}{2}}=\\sqrt2\\).')
 
 
 def v_roof(r, lv):

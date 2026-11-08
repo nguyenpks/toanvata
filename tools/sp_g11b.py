@@ -18,7 +18,7 @@ def gc_median(r, lv):
     t = _t(r); v = t.median(); i = t.med_group()
     return dict(en='A frequency table: %s. The median is…' % t.html(), vi='Bảng tần số ghép nhóm: %s. Trung vị là…' % t.html(),
       opts=pick_opts(r, dec(v), [dec(t.mid(i)), dec(t.edge(i)), dec(v + 1), dec(t.edge(i + 1))], fill=lambda k: dec(v + 2 * k)), ans=0,
-      ee='The median group is %s (it contains the \\(\\frac n2\\)-th value). \\(M_e=u+\\dfrac{n/2-C}{n_m}h=%s\\).' % (t.label(i), dec(v)), ev='Nhóm chứa trung vị là %s (chứa giá trị thứ \\(\\frac n2\\)). \\(M_e=u+\\dfrac{n/2-C}{n_m}h=%s\\).' % (t.label(i), dec(v)))
+      ee='The median group is %s (it contains the \\(\\frac n2\\)-th value). \\(M_e=u+\\dfrac{\\frac{n}{2}-C}{n_m}h=%s\\).' % (t.label(i), dec(v)), ev='Nhóm chứa trung vị là %s (chứa giá trị thứ \\(\\frac n2\\)). \\(M_e=u+\\dfrac{\\frac{n}{2}-C}{n_m}h=%s\\).' % (t.label(i), dec(v)))
 def gc_mode(r, lv):
     t = _t(r); v = t.mode(); i = t.mode_group()
     return dict(en='A frequency table: %s. The mode is…' % t.html(), vi='Bảng tần số ghép nhóm: %s. Mốt là…' % t.html(),

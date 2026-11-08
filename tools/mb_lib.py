@@ -92,7 +92,7 @@ def speak_math(tex):
     for k, v in [('0','zero'),('1','one'),('2','two'),('3','three')]:
         t = re.sub(r'_\{?%s\}?' % k, ' ' + v + ' ', t)
     t = re.sub(r'_\{?([a-zA-Z]+)\}?', r' sub \1 ', t)
-    rep = [('\\int', ' the integral of '), ('\\tan', ' tangent '), ('\\cot', ' cotangent '), ('\\ln', ' natural log of '), ('\\pm\\infty', ' plus or minus infinity '), ('+\\infty', ' positive infinity '), ('-\\infty', ' negative infinity '), ('\\infty', ' infinity '),
+    rep = [('\\not\\vdots', ' is not divisible by '), ('\\vdots', ' is divisible by '), ('\\int', ' the integral of '), ('\\tan', ' tangent '), ('\\cot', ' cotangent '), ('\\ln', ' natural log of '), ('\\pm\\infty', ' plus or minus infinity '), ('+\\infty', ' positive infinity '), ('-\\infty', ' negative infinity '), ('\\infty', ' infinity '),
            ('\\to', ' approaches '), ('\\le', ' is less than or equal to '), ('\\ge', ' is greater than or equal to '), ('\\ne', ' is not equal to '),
            ('\\lt', ' is less than '), ('\\gt', ' is greater than '), ('\\cdot', ' times '), ('\\pm', ' plus or minus '), ('\\cup', ' union '), ('\\cap', ' intersection '),
            ('\\setminus', ' without '), ('\\mid', ' such that '), ('\\in', ' belongs to '), ('\\mathbb{R}', ' the real numbers '), ('\\deg', ' degree of '),

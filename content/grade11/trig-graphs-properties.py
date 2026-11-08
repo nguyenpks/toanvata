@@ -177,7 +177,7 @@ examples += EXAMPLE(5, ('Advanced', 'Nâng cao'), ('Modelling the tide', 'Mô h�
   GRAPH({'view': [-0.5, 13, 1, 7], 'functions': [{'f': '4+1.5*sin(pi*x/6)', 'label': 'h(t) = 4 + 1.5 sin(πt/6)'}, {'f': '4.75', 'label': 'h = 4.75', 'color': '#c2410c', 'width': 1.8}], 'mark': {'extrema': [0], 'intersections': [[0, 1]]}, 'xname': 't', 'yname': 'h'},
         alt=('Tide curve crossing the level 4.75', ''), height=300),
   (r'It has the form \(a\sin(bt)+d\) with \(a=1.5\), \(b=\dfrac{\pi}{6}\), \(d=4\).', r'Hàm có dạng \(a\sin(bt)+d\) với \(a=1{,}5\), \(b=\dfrac{\pi}{6}\), \(d=4\).'),
-  [T(r'Period: \(\dfrac{2\pi}{\pi/6}=12\) hours.', r'Chu kì: \(\dfrac{2\pi}{\pi/6}=12\) giờ.'),
+  [T(r'Period: \(\dfrac{2\pi}{\frac{\pi}{6}}=12\) hours.', r'Chu kì: \(\dfrac{2\pi}{\frac{\pi}{6}}=12\) giờ.'),
    T(r'Highest: \(4+1.5=5.5\) m (at \(t=3\)); lowest: \(4-1.5=2.5\) m (at \(t=9\)).', r'Lớn nhất: \(4+1{,}5=5{,}5\) m (tại \(t=3\)); nhỏ nhất: \(4-1{,}5=2{,}5\) m (tại \(t=9\)).'),
    T(r'\(h=4.75\) means \(\sin\dfrac{\pi t}{6}=0.5\), so \(\dfrac{\pi t}{6}=\dfrac{\pi}{6}\) or \(\dfrac{5\pi}{6}\) (in \([0;2\pi]\)).', r'\(h=4{,}75\) nghĩa là \(\sin\dfrac{\pi t}{6}=0{,}5\), nên \(\dfrac{\pi t}{6}=\dfrac{\pi}{6}\) hoặc \(\dfrac{5\pi}{6}\) (trong \([0;2\pi]\)).'),
    T(r'So \(t=1\) or \(t=5\): the depth is 4.75 m at 1:00 and at 5:00.', r'Vậy \(t=1\) hoặc \(t=5\): độ sâu là 4,75 m lúc 1 giờ và lúc 5 giờ.')],

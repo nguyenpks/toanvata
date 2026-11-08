@@ -61,28 +61,49 @@ examples = EXFIG(examples, 3, GEO3D(fig('cube', seg=[['A', 'C'], ['A', 'C′', A
 examples = EXFIG(examples, 4, GEO3D(fig('cube', seg=[['A', 'B', AR(HL)], ['A', 'C', AR(BL)]], angles=[['B', 'A', 'C']]), alt=('Vectors AB and AC in the base of the cube', '')))
 examples = EXFIG(examples, 5, GEO3D(fig('cube', seg=[['A', 'C′', {'color': HL, 'width': 3.6}], ['B', 'D', {'color': BL, 'width': 3.6}]]), alt=('The diagonal AC′ and the face diagonal BD', '')))
 
+# Góp ý 08/11/2026: bài quá nhiều câu về hình lập phương. Mỗi mức nay gồm: quy tắc hình hộp (hình hộp bất kì), trung điểm
+# trong tứ diện, tích vô hướng trong tứ diện đều, hợp lực ba lực đôi một vuông góc, hình chóp đáy hình bình hành,
+# một câu tích vô hướng trong hình lập phương, góc giữa hai vectơ trong tứ diện đều. Mọi đáp án kiểm bằng tọa độ (assert).
+_T4 = sp_g12._T4; _tv = sp_g12._tv
+def _tet_dot(p, q, a): return sp_g12.F(_dot(_tv(*p), _tv(*q)) * a * a, 8)
+def _tet_ang(p, q):
+    u, v = _tv(*p), _tv(*q); return round(math.degrees(math.acos(_dot(u, v) / math.sqrt(_dot(u, u) * _dot(v, v)))))
 def lvl(P):
-    a, c1, c2, sm = P['a'], P['c1'], P['c2'], P['sm']; nm = lambda x: ''.join(sp_g12._nm(p) for p in (re.findall(r"[A-Z]'?", x) if isinstance(x, str) else x))  # sửa M-008: giữ dấu phẩy (′) khi x là chuỗi như "AA'"
+    a, sm = P['a'], P['sm']; nm = lambda x: ''.join(sp_g12._nm(p) for p in (re.findall(r"[A-Z]'?", x) if isinstance(x, str) else x))
     sums = {'A': ('AB', 'AD', "AA'", "AC'"), 'B': ('BA', 'BC', "BB'", "BD'"), 'C': ('CB', 'CD', "CC'", "CA'"), 'D': ('DA', 'DC', "DD'", "DB'")}
     s = sums[sm]; ov = lambda x: '\\overrightarrow{%s}' % nm(x); allv = [x[3] for x in sums.values()] + ['AC', 'BD']
-    o1 = M4(1, 'In a cube, \\(%s+%s+%s=\\)…' % (ov(s[0]), ov(s[1]), ov(s[2])), 'Trong hình lập phương, \\(%s+%s+%s=\\)…' % (ov(s[0]), ov(s[1]), ov(s[2])), ov(s[3]), [ov(x) for x in allv if x != s[3]][:3], 'Parallelepiped rule.', 'Quy tắc hình hộp.')
-    k, n2 = P['d']; o2 = M4(2, 'A cube has edge %d. Then \\(|%s|^2=\\)…' % (a, ov(k)), 'Hình lập phương có cạnh %d. Khi đó \\(|%s|^2=\\)…' % (a, ov(k)), str(n2 * a * a), [str(a * a), str((5 - n2) * a * a), str(6 * a * a), str(4 * a * a)], 'A %s: its square is %d·%d².' % ('face diagonal' if n2 == 2 else 'space diagonal', n2, a), '%s: bình phương độ dài là %d·%d².' % ('Đường chéo mặt' if n2 == 2 else 'Đường chéo hình lập phương', n2, a))
-    d3 = _dot(_vec(*c1[0]), _vec(*c1[1])) * a * a
-    o3 = M4(3, 'A cube has edge %d. \\(%s\\cdot%s=\\)…' % (a, ov(c1[0]), ov(c1[1])), 'Hình lập phương có cạnh %d. \\(%s\\cdot%s=\\)…' % (a, ov(c1[0]), ov(c1[1])), str(d3), [str(-d3) if d3 else str(a * a), str(d3 + a * a), str(2 * a * a + d3)], 'Write the vectors with the three perpendicular edges.', 'Phân tích hai vectơ theo ba cạnh đôi một vuông góc.')
-    t4 = tf(4, 'In a cube, \\(\\overrightarrow{AB}=\\overrightarrow{%s}\\).' % (nm(P['e'][0])), 'Trong hình lập phương, \\(\\overrightarrow{AB}=\\overrightarrow{%s}\\).' % (nm(P['e'][0])), _vec('A', 'B') == _vec(*P['e'][0]), 'Equal vectors have the same direction and length.', 'Hai vectơ bằng nhau phải cùng hướng và cùng độ dài.')
-    t5 = tf(5, 'In a cube, \\(\\overrightarrow{%s}\\perp\\overrightarrow{%s}\\).' % (nm(P['p'][0]), nm(P['p'][1])), 'Trong hình lập phương, \\(\\overrightarrow{%s}\\perp\\overrightarrow{%s}\\).' % (nm(P['p'][0]), nm(P['p'][1])), _dot(_vec(*P['p'][0]), _vec(*P['p'][1])) == 0, 'Check whether the dot product is 0.', 'Kiểm tra tích vô hướng có bằng 0 không.')
-    d6 = _dot(_vec(*c2[0]), _vec(*c2[1])) * a * a
-    s6 = sh(6, 'A cube has edge %d. Find \\(%s\\cdot%s\\).' % (a + 1, ov(c2[0]), ov(c2[1])), 'Hình lập phương có cạnh %d. Tính \\(%s\\cdot%s\\).' % (a + 1, ov(c2[0]), ov(c2[1])), d6 // (a * a) * (a + 1) ** 2, 'Use the edge vectors; the answer is %d·%d².' % (d6 // (a * a), a + 1), 'Dùng ba vectơ cạnh; đáp số là %d·%d².' % (d6 // (a * a), a + 1))
-    ang = P['ang']; 
-    s7 = sh(7, 'In a cube, find the angle (in degrees) between \\(%s\\) and \\(%s\\).' % (ov(ang[0]), ov(ang[1])), 'Trong hình lập phương, tìm góc (đơn vị độ) giữa \\(%s\\) và \\(%s\\).' % (ov(ang[0]), ov(ang[1])), P['deg'], 'Use \\(\\cos\\theta=\\dfrac{\\vec u\\cdot\\vec v}{|\\vec u||\\vec v|}\\).', 'Dùng \\(\\cos\\theta=\\dfrac{\\vec u\\cdot\\vec v}{|\\vec u||\\vec v|}\\).')
-    u, v = _vec(*ang[0]), _vec(*ang[1]); cs = _dot(u, v) / math.sqrt(_dot(u, u) * _dot(v, v)); assert abs(math.degrees(math.acos(cs)) - P['deg']) < 1e-9
+    o1 = M4(1, 'In the parallelepiped \\(ABCD.A\'B\'C\'D\'\\), \\(%s+%s+%s=\\)…' % (ov(s[0]), ov(s[1]), ov(s[2])), 'Trong hình hộp \\(ABCD.A\'B\'C\'D\'\\), \\(%s+%s+%s=\\)…' % (ov(s[0]), ov(s[1]), ov(s[2])), ov(s[3]), [ov(x) for x in allv if x != s[3]][:3], 'Parallelepiped rule: three edges from one vertex add up to the diagonal from that vertex.', 'Quy tắc hình hộp: tổng ba vectơ cạnh xuất phát từ một đỉnh là vectơ đường chéo xuất phát từ đỉnh đó.')
+    # tứ diện, M, N trung điểm AB, CD: MN = 1/2(AD+BC) = 1/2(AC+BD) – kiểm bằng tọa độ bất kì
+    X, Y = P['mn']; e1, e2 = P.get('mid', ('AB', 'CD')); T = dict(A=(0, 0, 0), B=(5, 1, 2), C=(2, 6, 1), D=(1, 2, 7)); Mp = [(T[e1[0]][i] + T[e1[1]][i]) / 2 for i in range(3)]; Np = [(T[e2[0]][i] + T[e2[1]][i]) / 2 for i in range(3)]
+    vv = lambda s2: [T[s2[1]][i] - T[s2[0]][i] for i in range(3)]; assert all(abs((Np[i] - Mp[i]) - 0.5 * (vv(X)[i] + vv(Y)[i])) < 1e-9 for i in range(3))
+    o2 = M4(2, 'In the tetrahedron \\(ABCD\\), \\(M\\), \\(N\\) are the midpoints of \\(%s\\), \\(%s\\). Then \\(\\overrightarrow{MN}=k(\\overrightarrow{%s}+\\overrightarrow{%s})\\) with \\(k=\\)…' % (e1, e2, X, Y),
+            'Cho tứ diện \\(ABCD\\), \\(M\\), \\(N\\) lần lượt là trung điểm của \\(%s\\), \\(%s\\). Khi đó \\(\\overrightarrow{MN}=k(\\overrightarrow{%s}+\\overrightarrow{%s})\\) với \\(k=\\)…' % (e1, e2, X, Y),
+            '\\dfrac12', ['1', '2', '-\\dfrac12'], '\\(\\overrightarrow{MN}=\\overrightarrow{M%s}+\\overrightarrow{%s}+\\overrightarrow{%sN}\\) and \\(\\overrightarrow{MN}=\\overrightarrow{M%s}+\\overrightarrow{%s}+\\overrightarrow{%sN}\\); add them (\\(\\overrightarrow{M%s}+\\overrightarrow{M%s}=\\vec0\\), likewise at \\(N\\)).' % (X[0], X, X[1], Y[0], Y, Y[1], X[0], Y[0]),
+            '\\(\\overrightarrow{MN}=\\overrightarrow{M%s}+\\overrightarrow{%s}+\\overrightarrow{%sN}\\) và \\(\\overrightarrow{MN}=\\overrightarrow{M%s}+\\overrightarrow{%s}+\\overrightarrow{%sN}\\); cộng vế (\\(\\overrightarrow{M%s}+\\overrightarrow{M%s}=\\vec0\\), tương tự tại \\(N\\)).' % (X[0], X, X[1], Y[0], Y, Y[1], X[0], Y[0]))
+    p3, q3 = P['tdot']; d3 = _tet_dot(p3, q3, a); assert d3 in (sp_g12.F(a * a, 2), sp_g12.F(-a * a, 2), 0)
+    c3 = [sp_g12.fr(sp_g12.F(a * a, 2)), sp_g12.fr(sp_g12.F(-a * a, 2)), '0', str(a * a)]; k3 = sp_g12.fr(d3)
+    o3 = M4(3, '\\(ABCD\\) is a regular tetrahedron with edge %d. \\(\\overrightarrow{%s}\\cdot\\overrightarrow{%s}=\\)…' % (a, p3, q3), 'Cho tứ diện đều \\(ABCD\\) cạnh %d. Khi đó \\(\\overrightarrow{%s}\\cdot\\overrightarrow{%s}=\\)…' % (a, p3, q3), k3, [c for c in c3 if c != k3],
+            'Move the vectors to a common start: two edges of an equilateral face make \\(60^\\circ\\) (or \\(120^\\circ\\) if one is reversed); opposite edges are perpendicular.', 'Dời hai vectơ về chung điểm đầu: hai cạnh của một mặt (tam giác đều) tạo góc \\(60^\\circ\\) (hoặc \\(120^\\circ\\) nếu một vectơ ngược hướng); hai cạnh đối diện vuông góc.')
+    f = P['force']; fs = math.isqrt(f[0] ** 2 + f[1] ** 2 + f[2] ** 2); assert fs * fs == f[0] ** 2 + f[1] ** 2 + f[2] ** 2
+    t4 = tf(4, 'Three pairwise perpendicular forces of %d N, %d N, %d N act at one point. The resultant force has magnitude %d N.' % (f[0], f[1], f[2], f[3]), 'Ba lực đôi một vuông góc có độ lớn %d N, %d N, %d N cùng tác dụng vào một điểm. Hợp lực có độ lớn %d N.' % (f[0], f[1], f[2], f[3]), f[3] == fs,
+            'The resultant is the diagonal of the box built on the forces: \\(\\sqrt{%d^2+%d^2+%d^2}=%d\\) N.' % (f[0], f[1], f[2], fs), 'Hợp lực là đường chéo hình hộp chữ nhật dựng trên ba lực: \\(\\sqrt{%d^2+%d^2+%d^2}=%d\\) N.' % (f[0], f[1], f[2], fs))
+    lhs, rhs, val = P['pyr']
+    t5 = tf(5, 'In the pyramid \\(S.ABCD\\) whose base is a parallelogram with centre \\(O\\): \\(%s=%s\\).' % (lhs, rhs), 'Hình chóp \\(S.ABCD\\) có đáy là hình bình hành tâm \\(O\\). Khi đó \\(%s=%s\\).' % (lhs, rhs), val,
+            '\\(O\\) is the midpoint of \\(AC\\) and \\(BD\\): \\(\\overrightarrow{SA}+\\overrightarrow{SC}=\\overrightarrow{SB}+\\overrightarrow{SD}=2\\overrightarrow{SO}\\).', '\\(O\\) là trung điểm của \\(AC\\) và \\(BD\\): \\(\\overrightarrow{SA}+\\overrightarrow{SC}=\\overrightarrow{SB}+\\overrightarrow{SD}=2\\overrightarrow{SO}\\).')
+    c2 = P['c2']; d6 = _dot(_vec(*c2[0]), _vec(*c2[1]))
+    s6 = sh(6, 'A cube \\(ABCD.A\'B\'C\'D\'\\) has edge %d. Find \\(%s\\cdot%s\\).' % (a + 1, ov(c2[0]), ov(c2[1])), 'Hình lập phương \\(ABCD.A\'B\'C\'D\'\\) có cạnh %d. Tính \\(%s\\cdot%s\\).' % (a + 1, ov(c2[0]), ov(c2[1])), d6 * (a + 1) ** 2, 'Use the edge vectors; the answer is %d·%d².' % (d6, a + 1), 'Dùng ba vectơ cạnh; đáp số là %d·%d².' % (d6, a + 1))
+    p7, q7 = P['tang']; g7 = _tet_ang(p7, q7)
+    s7 = sh(7, 'In the regular tetrahedron \\(ABCD\\), find the angle (in degrees) between \\(\\overrightarrow{%s}\\) and \\(\\overrightarrow{%s}\\).' % (p7, q7), 'Trong tứ diện đều \\(ABCD\\), tìm góc (đơn vị độ) giữa hai vectơ \\(\\overrightarrow{%s}\\) và \\(\\overrightarrow{%s}\\).' % (p7, q7), g7, 'Move the vectors to a common start point, then use the equilateral faces.', 'Dời hai vectơ về chung điểm đầu, rồi dùng tính chất các mặt là tam giác đều.')
     return [[o1, o2, o3], [t4, t5], [s6, s7]]
-PP = [dict(a=3, sm='A', d=(('A', "C'"), 3), c1=(('A', 'B'), ('A', 'C')), e=[('D', 'C')], p=[('A', 'B'), ('A', 'D')], c2=(('A', 'B'), ('A', 'C')), ang=(('A', 'B'), ('A', 'C')), deg=45),
-      dict(a=4, sm='C', d=(('B', 'D'), 2), c1=(('A', 'D'), ('A', 'C')), e=[('B', 'C')], p=[('A', 'C'), ('B', 'D')], c2=(('A', 'D'), ('A', 'C')), ang=(('A', "A'"), ('A', "C'")), deg=None),
-      dict(a=5, sm='D', d=(("A'", 'C'), 3), c1=(('A', 'B'), ("A'", "C'")), e=[("A'", "B'")], p=[('A', 'B'), ("A'", 'D')], c2=(('A', 'B'), ("A'", "C'")), ang=(('A', 'D'), ('D', "C'")), deg=135)]
-for P_, ang, deg in ((PP[0], (('A', 'B'), ('A', 'C')), 45), (PP[1], (('A', 'B'), ('C', 'A')), 135), (PP[2], (('B', 'D'), ('A', "A'")), 90)):
-    P_['ang'] = ang; P_['deg'] = deg
-PP[0]['c2'] = (('A', 'D'), ('A', "C'"))
+S2 = '\\overrightarrow{SO}'
+PP = [dict(a=4, sm='A', mn=('AD', 'BC'), tdot=('AB', 'AC'), force=(2, 3, 6, 7), pyr=('\\overrightarrow{SA}+\\overrightarrow{SC}', '\\overrightarrow{SB}+\\overrightarrow{SD}', True), c2=(('A', 'D'), ('A', "C'")), tang=('AB', 'AC')),
+      dict(a=6, sm='C', mn=('AC', 'BD'), tdot=('AB', 'CD'), force=(1, 2, 2, 5), pyr=('\\overrightarrow{SA}+\\overrightarrow{SB}', '\\overrightarrow{SC}+\\overrightarrow{SD}', False), c2=(('A', 'D'), ('A', 'C')), tang=('AB', 'CD')),
+      dict(a=8, sm='D', mn=('AB', 'DC'), mid=('AD', 'BC'), tdot=('AB', 'BC'), force=(4, 4, 7, 9), pyr=('\\overrightarrow{SA}+\\overrightarrow{SB}+\\overrightarrow{SC}+\\overrightarrow{SD}', '4' + S2, True), c2=(('A', 'B'), ("A'", "C'")), tang=('AB', 'BC'))]
+# kiểm tra Đ/S của câu hình chóp bằng tọa độ
+_A, _B, _C = (0, 0, 0), (4, 1, 0), (5, 4, 0); _D = tuple(x + z - y for x, y, z in zip(_A, _B, _C)); _S = (1, 2, 6); _O = tuple((x + z) / 2 for x, z in zip(_A, _C))
+_sv = lambda pt: tuple(q - s for q, s in zip(pt, _S)); _pt = dict(A=_A, B=_B, C=_C, D=_D)
+_add = lambda names: tuple(sum(_sv(_pt[n])[i] for n in names) for i in range(3))
+assert (_add('AC') == _add('BD')) is True and (_add('AB') == _add('CD')) is False and _add('ABCD') == tuple(4 * x for x in _sv(_O))
 practice = LEVEL_PRACTICE(GRP, {lv: lvl(p) for lv, p in zip((1, 2, 3), PP)})
 practice = with_self(practice, sp_g12.M6S, start=8)
 mistakes = [('<b>Adding lengths instead of vectors.</b> \\(|\\vec a+\\vec b|\\) is usually not \\(|\\vec a|+|\\vec b|\\).', '<b>Cộng độ dài thay vì cộng vectơ.</b> Nói chung \\(|\\vec a+\\vec b|\\ne|\\vec a|+|\\vec b|\\).'), ('<b>Wrong direction.</b> \\(\\overrightarrow{AB}\\) and \\(\\overrightarrow{BA}\\) are opposite vectors.', '<b>Nhầm hướng.</b> \\(\\overrightarrow{AB}\\) và \\(\\overrightarrow{BA}\\) là hai vectơ đối nhau.'), ('<b>Angle with different start points.</b> Move the vectors to a common start before using the angle.', '<b>Tính góc khi hai vectơ khác điểm đầu.</b> Cần dời về cùng điểm đầu trước khi tính góc.'), ('<b>Dot product is a number.</b> It is not a vector.', '<b>Tích vô hướng là một số.</b> Nó không phải là vectơ.')]
