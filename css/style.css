@@ -128,3 +128,17 @@ h4.cat{margin:14px 0 8px;color:var(--muted);font-size:15px}
 @media (max-width:620px){.hero-art svg{width:100%;opacity:.16}.stage-art{width:70px}.home-art svg{opacity:.1}}
 
 .card.locked{opacity:.62;filter:grayscale(.35);cursor:not-allowed;border-style:dashed}.chip.lock{background:#fff3cd;color:#7a5b00;border-color:#e6c45a;font-weight:600}
+
+/* ===== Tài khoản ===== */
+#acct{display:flex;align-items:center;flex-shrink:0}
+.acct-chip{display:flex;align-items:center;gap:6px;text-decoration:none;color:var(--accent-deep);font-weight:600;font-size:14px;padding:4px 10px 4px 4px;border:1px solid var(--line);border-radius:999px;background:#fff}
+.acct-dot{width:28px;height:28px;border-radius:50%;display:grid;place-items:center;background:var(--accent-deep);color:#fff;font-weight:700}
+.login-card{max-width:420px;display:flex;flex-direction:column;gap:10px}
+.login-card .field input{width:100%}
+.acct-card{max-width:520px}
+.err{color:#b42318;margin:0;min-height:1.2em}
+.tbl-wrap{overflow-x:auto}
+.tbl{border-collapse:collapse;width:100%;font-size:15px}
+.tbl th,.tbl td{border:1px solid var(--line);padding:6px 10px;text-align:left}
+.tbl th{background:#e9f5ee}
+@media (max-width:520px){.acct-name{display:none}.acct-chip{padding:2px;border:0}#acct .btn{display:none}}

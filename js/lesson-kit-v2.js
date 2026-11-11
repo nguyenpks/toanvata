@@ -254,6 +254,11 @@
                    : txb('Review the theory and try the questions again.', 'Hãy xem lại lý thuyết và làm lại các câu chưa đúng.'));
     box.innerHTML = '<p class="big">' + c.right + ' / ' + c.total + ' (' + pct + '%)</p>' + msg;
     box.hidden = false;
+    /* Gửi kết quả về tài khoản (nếu học sinh đã đăng nhập) */
+    var lid = document.body.getAttribute('data-lesson-id');
+    if (lid && c.done && window.MathBridgeProgress && window.MathBridgeProgress.recordQuiz) {
+      window.MathBridgeProgress.recordQuiz(lid, { level: parseInt(document.body.getAttribute('data-level'), 10) || 1, right: c.right, total: c.total, done: c.done, title: document.title });
+    }
     fit();
   }
 

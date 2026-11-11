@@ -1,6 +1,7 @@
 (function () {
   'use strict';
   const P = window.MathBridgeProgress;
+  const A = window.MathBridgeAccount;
   const $ = (s) => document.querySelector(s);
   /* Ba cấp học. Bài học khai báo grade là số từ 1 đến 12 trong lessons.json. */
   let STAGES = [
@@ -187,14 +188,44 @@
     const topics = [...new Set(done.map((l) => `Lớp ${l.grade} – ${l.category}`))];
     const seen = [...new Set(d.history.filter((h) => h.type === 'view').map((h) => h.id))].filter(byId).length;
     return `<h1>Tiến độ học tập</h1>
-    <div class="note">Tiến độ được lưu trên trình duyệt này của thiết bị này. Đổi trình duyệt, đổi máy hoặc xóa dữ liệu duyệt web sẽ mất tiến độ. Không có đồng bộ tài khoản trực tuyến.</div>
+    ${A.user() ? `<div class="note">Tiến độ đang lưu vào tài khoản <b>${esc(A.user().tk)}</b> (${esc(A.user().ten)}, lớp ${esc(A.user().lop)}). Đăng nhập ở máy khác sẽ thấy cùng tiến độ.${A.status ? ' ' + esc(A.status) : ''}${A.pending() ? ` Còn ${A.pending()} hoạt động chờ gửi.` : ''}</div>`
+      : `<div class="note">Bạn chưa đăng nhập: tiến độ chỉ lưu trên trình duyệt của thiết bị này.${A.enabled ? ' <a href="#/login">Đăng nhập</a> để lưu theo tài khoản và học tiếp trên máy khác.' : ''}</div>`}
     <div class="grid"><div class="card blue"><small>Số bài đã học (đã mở)</small><div class="stat">${seen}</div></div>
       <div class="card mint"><small>Số bài đã hoàn thành</small><div class="stat">${done.length}</div></div></div>
     <h2>Hoàn thành theo cấp học</h2><div class="grid">${STAGES.map((st) => { const s = stats(st.grades), gs = st.grades.filter((g) => byGrade(g).length).map((g) => { const t = stats(g); return `Lớp ${g}: ${t.done}/${t.total}`; }).join(' · ');
       return `<div class="card ${st.color}"><h3>${st.name}</h3><p class="range">${st.range}</p>${bar(s.pct)}<small>${s.total ? `${s.done}/${s.total} (${s.pct}%)` : 'Đang biên soạn'}</small>${gs ? `<p><small>${gs}</small></p>` : ''}</div>`; }).join('')}</div>
     <h2>Chủ đề đã học</h2>${topics.length ? `<p class="chips">${topics.map((t) => `<span class="chip">${esc(t)}</span>`).join('')}</p>` : box('Chưa có chủ đề nào hoàn thành.')}
+    ${quizTable(d)}
     <h2>Lịch sử học tập</h2>${d.history.length ? `<ul class="hist">${d.history.slice(0, 20).map((h) => `<li>${fmt(h.at)} – ${h.type === 'complete' ? 'Hoàn thành' : 'Đã mở'}: ${link(h.id)}</li>`).join('')}</ul>` : box('Chưa có lịch sử.')}
-    <p><button class="btn ghost" data-action="reset">Xóa toàn bộ tiến độ</button></p>`;
+    ${A.user() ? '' : '<p><button class="btn ghost" data-action="reset">Xóa toàn bộ tiến độ</button></p>'}`;
+  }
+  function quizTable(d) {
+    const rows = Object.keys(d.quiz || {}).map((k) => d.quiz[k]).sort((a, b) => (a.lastAt < b.lastAt ? 1 : -1));
+    if (!rows.length) return '';
+    return `<h2>Kết quả luyện tập</h2><div class="tbl-wrap"><table class="tbl"><thead><tr><th>Bài</th><th>Mức</th><th>Số lần nộp</th><th>Lần gần nhất</th><th>Cao nhất</th></tr></thead><tbody>${rows.map((q) =>
+      `<tr><td>${link(q.id)}</td><td>Mức ${esc(q.level)}</td><td>${q.attempts}</td><td>${q.last}%</td><td>${q.best}%</td></tr>`).join('')}</tbody></table></div>`;
+  }
+  function loginView() {
+    if (!A.enabled) return `<h1>Đăng nhập</h1>${box('Website chưa bật chức năng đăng nhập.')}`;
+    const u = A.user();
+    if (u) return `<h1>Tài khoản</h1><div class="card mint acct-card"><h3>${esc(u.ten)}</h3><p>Lớp ${esc(u.lop)} · Tên đăng nhập: <b>${esc(u.tk)}</b></p>
+      <p class="muted">${esc(A.status || 'Tiến độ học của bạn được lưu vào tài khoản.')}</p>
+      <div class="row"><a class="btn" href="#/dashboard">Vào học</a><a class="btn ghost" href="#/progress">Xem tiến độ</a><button class="btn ghost" data-action="logout">Đăng xuất</button></div></div>`;
+    return `<h1>Đăng nhập</h1>
+    <form id="loginForm" class="card login-card" autocomplete="on">
+      <label class="field">Tên đăng nhập<input name="user" required autocomplete="username" autocapitalize="none" spellcheck="false" placeholder="Ví dụ: MNNAnh10a1"></label>
+      <label class="field">Mật khẩu<input name="pass" type="password" required autocomplete="current-password" inputmode="numeric" placeholder="Mật khẩu do giáo viên cấp"></label>
+      <p id="loginMsg" class="err" role="alert"></p>
+      <button class="btn" type="submit">Đăng nhập</button>
+      <p class="muted"><small>Tài khoản do giáo viên cấp. Quên mật khẩu, hãy hỏi giáo viên. Trên máy dùng chung, nhớ bấm Đăng xuất khi học xong.</small></p>
+    </form>`;
+  }
+  function acctUI() {
+    const el = $('#acct'); if (!el) return;
+    if (!A.enabled) { el.innerHTML = ''; return; }
+    const u = A.user();
+    el.innerHTML = u ? `<a class="acct-chip" href="#/login" title="Tài khoản"><span class="acct-dot">${esc((u.ten.split(' ').pop() || '?')[0])}</span><span class="acct-name">${esc(u.ten.split(' ').slice(-2).join(' '))}</span></a>`
+      : '<a class="btn small ghost" href="#/login">Đăng nhập</a>';
   }
 
   /* ===== ĐIỀU HƯỚNG ===== */
@@ -208,6 +239,7 @@
     else if (route === 'courses') view.innerHTML = courses(params);
     else if (route === 'vocab') view.innerHTML = vocabView(params);
     else if (route === 'progress') view.innerHTML = progressView();
+    else if (route === 'login') view.innerHTML = loginView();
     else if (route === 'lesson') {
       const id = decodeURIComponent(parts[1] || ''), l = byId(id);
       view.innerHTML = lessonView(id);
@@ -221,6 +253,13 @@
 
   document.addEventListener('submit', (e) => {
     const f = e.target;
+    if (f.id === 'loginForm') {
+      e.preventDefault(); const d = new FormData(f), btn = f.querySelector('button[type=submit]'), msg = $('#loginMsg');
+      btn.disabled = true; btn.textContent = 'Đang đăng nhập…'; msg.textContent = '';
+      A.login(d.get('user').trim(), d.get('pass').trim()).then(() => { acctUI(); go('/dashboard'); })
+        .catch((err) => { msg.textContent = err.message; btn.disabled = false; btn.textContent = 'Đăng nhập'; });
+      return;
+    }
     if (f.id === 'searchForm') { e.preventDefault(); go('/courses', { q: $('#q').value.trim() }); }
     else if (f.id === 'filterForm') { e.preventDefault(); const d = new FormData(f); go('/courses', { q: d.get('q').trim(), stage: d.get('grade') ? '' : d.get('stage'), grade: d.get('grade'), category: d.get('category') }); }
     else if (f.id === 'vocabForm') { e.preventDefault(); const d = new FormData(f); go('/vocab', { q: d.get('q').trim(), category: d.get('category') }); }
@@ -237,6 +276,8 @@
     } else if (b.dataset.action === 'complete') {
       if (!P.markComplete(b.dataset.id)) alert('Không lưu được tiến độ. Trình duyệt có thể đang chặn LocalStorage.');
       completeUI();
+    } else if (b.dataset.action === 'logout') {
+      b.disabled = true; A.logout().then(() => { acctUI(); go('/login'); render(); });
     } else if (b.dataset.action === 'reset') {
       if (confirm('Xóa toàn bộ tiến độ đã lưu trên trình duyệt này?')) { P.reset(); render(); }
     }
@@ -252,6 +293,8 @@
   });
   window.addEventListener('hashchange', render);
   window.addEventListener('storage', (e) => { if (e.key === P.KEY && !currentId) render(); });
+  A.onChange(() => { acctUI(); const r = (location.hash.slice(1) || '/').split('?')[0].split('/')[1] || 'home';
+    if (currentId) completeUI(); else if (['dashboard', 'progress'].indexOf(r) >= 0 || (r === 'login' && !document.getElementById('loginForm'))) render(); });
 
   async function init() {
     try {
@@ -261,10 +304,11 @@
       lessons = await a.json();
       vocab = b.ok ? await b.json() : [];
       if (!Array.isArray(lessons)) throw new Error('lessons.json phải là một mảng');
+      const tmap = {}; lessons.forEach((l) => { tmap[l.id] = 'Lớp ' + l.grade + ' – ' + ttl(l); }); P.setTitles(tmap);
     } catch (e) {
       error = 'Hãy chạy website bằng máy chủ tĩnh (xem README.md), không mở trực tiếp file index.html. Chi tiết: ' + e.message;
     }
-    render();
+    acctUI(); render(); A.refresh();
   }
   init();
 })();
