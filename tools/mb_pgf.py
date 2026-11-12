@@ -511,6 +511,9 @@ def geo_tex(cfg, height=360):
             if abs(dx) < 1e-9 and abs(dy) < 1e-9: dx, dy = -1, -1
             n = math.hypot(dx, dy); dx, dy = dx / n * 9, dy / n * 9
             if cfg.get('axes') and abs(Y) < 1e-9: dy = -9
+        if cfg.get('shiftLabels') and off:          # Toán 9: nhãn đặt lệch hẳn theo vectơ off (pt), tâm nhãn, không đè lên đường
+            labels.append('\\node[lab, font=\\normalsize, anchor=center, xshift=%spt, yshift=%spt] at (%s,%s) {%s};' % (fmt(dx, 2), fmt(dy, 2), fmt(X, 5), fmt(Y, 5), lab(nm)))
+            continue
         labels.append('\\node[lab, font=\\normalsize, anchor=%s] at (%s,%s) {%s};' % (anchor_for(dx * 3, dy * 3), fmt(X, 5), fmt(Y, 5), lab(nm)))
     o = ['\\begin{tikzpicture}[x=%.4fcm, y=%.4fcm]' % (ux, uy)]
     if cfg.get('axes'):

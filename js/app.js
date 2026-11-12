@@ -229,6 +229,20 @@
   }
 
   /* ===== ĐIỀU HƯỚNG ===== */
+
+  /* Menu "Chọn nhanh" bên trái: dựng từ các cấp học đang mở (config/model.json) và các lớp đã có bài.
+     Mỗi cấp học là một liên kết; bên dưới là các lớp có bài (Lớp 9…), bấm vào mở thẳng danh sách bài của lớp. */
+  function quickMenu(route, params) {
+    const box = document.getElementById('quick'); if (!box) return;
+    const g = +params.get('grade') || 0, sid = params.get('stage') || '';
+    box.innerHTML = STAGES.map((st) => {
+      const gs = st.grades.filter((x) => byGrade(x).length);
+      const on = route === 'courses' && !g && sid === st.id;
+      const sub = gs.map((x) => `<a class="qg${route === 'courses' && g === x ? ' on' : ''}" href="#/courses?grade=${x}">Lớp ${x}<small>${byGrade(x).length} bài</small></a>`).join('');
+      return `<a class="qs${on ? ' on' : ''}" href="#/courses?stage=${st.id}">${st.name}<small>Lớp ${st.grades[0]} – ${st.grades[st.grades.length - 1]}</small></a>${sub}`;
+    }).join('');
+  }
+
   function render() {
     const [path, qs] = (location.hash.slice(1) || '/').split('?');
     const params = new URLSearchParams(qs || ''), parts = path.split('/').filter(Boolean), route = parts[0] || 'home';
@@ -245,7 +259,8 @@
       view.innerHTML = lessonView(id);
       if (l) { P.recordView(id); afterLesson(l); }
     } else view.innerHTML = `<h1>Không tìm thấy trang</h1>${box('<a href="#/">Về trang chủ</a>')}`;
-    document.querySelectorAll('#side [data-nav]').forEach((a) => a.classList.toggle('on', a.dataset.nav === (route === 'lesson' ? 'courses' : route)));
+    document.querySelectorAll('#side [data-nav]').forEach((a) => a.classList.toggle('on', a.dataset.nav === (route === 'lesson' ? 'courses' : route) && !(route === 'courses' && (params.get('stage') || params.get('grade')))));
+    if (!error) quickMenu(route, params);
     closeMenu(); window.scrollTo(0, 0);
     if (window.MathJax && MathJax.typesetPromise) MathJax.typesetPromise([view]).catch(() => {});
   }
@@ -296,9 +311,10 @@
   A.onChange(() => { acctUI(); const r = (location.hash.slice(1) || '/').split('?')[0].split('/')[1] || 'home';
     if (currentId) completeUI(); else if (['dashboard', 'progress'].indexOf(r) >= 0 || (r === 'login' && !document.getElementById('loginForm'))) render(); });
 
+  const NC = { cache: 'no-cache' };   /* luôn hỏi lại máy chủ: bài mới đẩy lên GitHub hiện ngay, không bị bản cũ trong bộ nhớ đệm */
   async function init() {
     try {
-      const [a, b, c] = await Promise.all([fetch('lessons.json'), fetch('data/vocab.json'), fetch('config/model.json')]);
+      const [a, b, c] = await Promise.all([fetch('lessons.json', NC), fetch('data/vocab.json', NC), fetch('config/model.json', NC)]);
       if (c.ok) { try { const m = await c.json(); if (Array.isArray(m.stages) && m.stages.length) applyStages(m.stages); } catch (e) { /* dùng bản dự phòng */ } }
       if (!a.ok) throw new Error('lessons.json (mã ' + a.status + ')');
       lessons = await a.json();

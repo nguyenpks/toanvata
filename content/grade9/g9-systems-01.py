@@ -63,7 +63,7 @@ phrases = [
 review = (T(r'<b>Linear equation in one variable.</b> \(ax+b=0\) with \(a\ne0\) has exactly one solution \(x=-\dfrac{b}{a}\). Example: \(2x-6=0\Leftrightarrow x=3\).', r'<b>Phương trình bậc nhất một ẩn.</b> \(ax+b=0\) với \(a\ne0\) có đúng một nghiệm \(x=-\dfrac{b}{a}\). Ví dụ: \(2x-6=0\Leftrightarrow x=3\).') +
           T(r'<b>Graph of \(y=ax+b\).</b> On the coordinate plane it is a straight line. Two points are enough to draw it, for example the points with \(x=0\) and \(y=0\).', r'<b>Đồ thị hàm số \(y=ax+b\).</b> Trên mặt phẳng tọa độ, đồ thị là một đường thẳng. Chỉ cần hai điểm để vẽ, chẳng hạn điểm có \(x=0\) và điểm có \(y=0\).'))
 
-G = lambda cfg, en, vi: GEO(cfg, cap=(en, vi), alt=(en, ''), height=320)
+G = lambda cfg, en, vi: GEO(sp_g9.auto_labels(cfg), cap=(en, vi), alt=(en, ''), height=320)
 def pt(i, x, y, name=None): return {'type': 'point', 'id': i, 'at': [x, y], 'name': name or i}
 
 theory = '<h3>5.1 %s</h3>' % TI('Linear equations in two variables', 'Phương trình bậc nhất hai ẩn')

@@ -8,7 +8,7 @@ Ba loại câu hỏi:
   tf    -> dict(en, vi, ans=True/False, ee, ev)
   short -> dict(en, vi, key, ee, ev)                (key là đáp số; ô trả lời nhận số nguyên hoặc thập phân)
 BANK(groups, start) -> {1: [[mục nhóm 1], [mục nhóm 2], ...], 2: [...], 3: [...]} dùng thẳng cho LEVEL_PRACTICE."""
-import random
+import random, math
 from fractions import Fraction as F
 from mb_selfpractice import fr, pick_opts
 from mb_lib import MCQ, TF, SHORT, TI
@@ -923,3 +923,665 @@ def b4_d4_gen(r, lv):
 L4_GROUPS = [[('mcq', b4_prod_solve), ('mcq', b4_dkxd), ('mcq', b4_common)], [('tf', b4_tf_root), ('tf', b4_tf_prod)], [('short', b4_short_sum), ('short', b4_short_frac)],
              [('mcq', b4_d1_zero), ('mcq', b4_d1_dk), ('mcq', b4_d1_which)], [('mcq', b4_d2_prod), ('mcq', b4_d2_common), ('mcq', b4_d2_dk2)],
              [('mcq', b4_d3_frac), ('mcq', b4_d3_extra), ('mcq', b4_d3_diffsq)], [('mcq', b4_d4_canoe), ('mcq', b4_d4_trucks), ('mcq', b4_d4_gen)]]
+
+# =====================================================================================================
+# Nhãn điểm trên hình: đặt vuông góc với các đường thẳng đi qua điểm, tránh trục tọa độ (không bị đè, không bị cắt)
+# =====================================================================================================
+import math as _m
+def auto_labels(cfg, dist=11):
+    """Tính 'off' cho mọi điểm có tên chưa đặt tay: chọn trong 8 hướng hướng xa nhất (theo góc) với các đường thẳng
+    đi qua điểm (lineeq, đoạn/đường qua điểm), với trục tọa độ nếu điểm nằm trên trục, và với các điểm có tên ở gần."""
+    cfg = dict(cfg); cfg['shiftLabels'] = True; steps = [dict(s) for s in cfg['steps']]
+    pts = {s['id']: tuple(s['at']) for s in steps if s['type'] in ('point', 'glider')}
+    for s in steps:
+        if s['type'] not in ('point', 'glider') or s.get('off') is not None: continue
+        X, Y = s['at']; dirs = []
+        for t in steps:
+            if t['type'] == 'lineeq' and abs(t['a'] * X + t['b'] * Y + t['c']) < 1e-9 * (abs(t['a']) + abs(t['b'])) + 1e-9:
+                dirs.append(_m.atan2(-t['a'], t['b']))
+            if t['type'] in ('segment', 'line') and s['id'] in [r for r in t['through'] if isinstance(r, str)]:
+                o = [r for r in t['through'] if r != s['id']][0]; Q = pts[o] if isinstance(o, str) else o
+                dirs.append(_m.atan2(Q[1] - Y, Q[0] - X))
+        if cfg.get('axes'):
+            if abs(Y) < 1e-9: dirs.append(0.0)
+            if abs(X) < 1e-9: dirs.append(_m.pi / 2)
+        near = [_m.atan2(q[1] - Y, q[0] - X) for i, q in pts.items() if i != s['id'] and _m.hypot(q[0] - X, q[1] - Y) < 1.6]
+        def score(a):
+            def ad(u, v, line=True):
+                d = abs((u - v + _m.pi) % (2 * _m.pi) - _m.pi)
+                return min(d, _m.pi - d) if line else d
+            sc = min([ad(a, d) for d in dirs] + [ad(a, d, False) * 0.8 for d in near] + [_m.pi])
+            return sc + 0.01 * _m.cos(a - _m.pi / 4)      # hòa thì ưu tiên phía trên bên phải
+        best = max((k * _m.pi / 8 for k in range(16)), key=score)
+        s['off'] = [round(dist * _m.cos(best), 2), round(dist * _m.sin(best), 2)]
+    cfg['steps'] = steps
+    return cfg
+
+def _gl(x):
+    return x
+
+REL = {'<': '\\lt ', '>': '\\gt ', '<=': '\\le ', '>=': '\\ge '}
+FLIP = {'<': '>', '>': '<', '<=': '>=', '>=': '<='}
+def holds(a, op, b):
+    return {'<': a < b, '>': a > b, '<=': a <= b, '>=': a >= b}[op]
+
+# =====================================================================================================
+# BÀI 5. Bất đẳng thức và tính chất
+# =====================================================================================================
+SIT = [('The age \\(a\\) of a viewer must be at least %d years.', 'Tuổi \\(a\\) của người xem phải ít nhất là %d tuổi.', 'a', '>='),
+       ('The load \\(m\\) (kg) of a lift must not exceed %d kg.', 'Khối lượng \\(m\\) (kg) chở trong thang máy không được vượt quá %d kg.', 'm', '<='),
+       ('The number of students \\(s\\) in a class is at most %d.', 'Số học sinh \\(s\\) của một lớp nhiều nhất là %d.', 's', '<='),
+       ('The height \\(h\\) (m) of a drone is greater than %d m.', 'Độ cao \\(h\\) (m) của một chiếc flycam lớn hơn %d m.', 'h', '>'),
+       ('The speed \\(v\\) (km/h) on this road must be less than %d km/h.', 'Tốc độ \\(v\\) (km/h) trên đoạn đường này phải nhỏ hơn %d km/h.', 'v', '<'),
+       ('The score \\(d\\) needed to pass is at least %d points.', 'Điểm \\(d\\) để đạt phải ít nhất là %d điểm.', 'd', '>=')]
+def b5_translate(r, lv):
+    en, vi, v, op = r.choice(SIT); n = r.randint(5, 900) if v in ('m', 'h') else r.randint(5, 60)
+    opts = ['%s%s %d' % (v, REL[o], n) for o in (op, '<', '>', '<=', '>=') ]
+    opts = [opts[0]] + [o for o in opts[1:] if o != opts[0]]
+    return dict(en=(en % n) + ' Which inequality describes this?', vi=(vi % n) + ' Bất đẳng thức nào mô tả điều đó?', opts=opts[:4], ans=0,
+                ee='“at least” → \\(\\ge\\); “at most”, “not exceed” → \\(\\le\\); “greater than” → \\(\\gt\\); “less than” → \\(\\lt\\).',
+                ev='“ít nhất” → \\(\\ge\\); “nhiều nhất”, “không vượt quá” → \\(\\le\\); “lớn hơn” → \\(\\gt\\); “nhỏ hơn” → \\(\\lt\\).')
+
+def b5_property(r, lv):
+    op = r.choice(['<', '>']); k = -r.randint(2, 6); c = nz(r, -9, 9)
+    good = '%da%s %s %db%s' % (k, mono(c, '', False), REL[FLIP[op]], k, mono(c, '', False))
+    bads = ['%da%s %s %db%s' % (k, mono(c, '', False), REL[op], k, mono(c, '', False)),
+            'a%s %s b%s' % (mono(c, '', False), REL[FLIP[op]], mono(c, '', False)),
+            '%da %s %db' % (-k, REL[FLIP[op]], -k)]
+    E1, E2 = lin((k, 'a'), (c, '')), lin((k, 'b'), (c, ''))
+    return dict(en='Given \\(a%sb\\). Compare \\(%s\\) and \\(%s\\): which inequality is true?' % (REL[op], E1, E2), vi='Cho \\(a%sb\\). So sánh \\(%s\\) và \\(%s\\): bất đẳng thức nào đúng?' % (REL[op], E1, E2), opts=[good] + bads, ans=0,
+                ee='Multiplying by the negative number \\(%d\\) reverses the sign; adding \\(%d\\) keeps it.' % (k, c),
+                ev='Nhân với số âm \\(%d\\) thì đổi chiều; cộng \\(%d\\) thì giữ nguyên chiều.' % (k, c))
+
+def b5_compare(r, lv):
+    while True:
+        a, b, c, d = r.randint(2, 40), r.randint(2, 40), r.randint(2, 40), r.randint(2, 40)
+        x, y = F(a, b), F(c, d)
+        if x.denominator == b and y.denominator == d and x != y and abs(x - y) < F(1, 3): break
+    sym = '\\lt' if x < y else '\\gt'
+    fx_, fy_ = '\\dfrac{%d}{%d}' % (a, b), '\\dfrac{%d}{%d}' % (c, d)
+    opts = ['%s%s%s' % (fx_, s_, fy_) for s_ in (sym, '\\gt' if sym == '\\lt' else '\\lt', '=', '\\ge')]
+    return dict(en='Compare \\(%s\\) and \\(%s\\).' % (fx_, fy_), vi='So sánh \\(%s\\) và \\(%s\\).' % (fx_, fy_), opts=opts, ans=0,
+                ee='Write with a common denominator: \\(\\dfrac{%d}{%d}\\) and \\(\\dfrac{%d}{%d}\\).' % (a * d, b * d, c * b, b * d),
+                ev='Quy đồng mẫu: \\(\\dfrac{%d}{%d}\\) và \\(\\dfrac{%d}{%d}\\).' % (a * d, b * d, c * b, b * d))
+
+def b5_tf_rule(r, lv):
+    op = r.choice(['<', '>']); k = nz(r, -6, 6); m = r.randint(-9, 9)
+    claim = r.choice([op, FLIP[op]]); truth = (claim == op) == (k > 0)
+    e = '%s%s %s %s%s' % (lin((k, 'a')), mono(m, '', False) if m else '', REL[claim], lin((k, 'b')), mono(m, '', False) if m else '')
+    return dict(en='If \\(a%sb\\) then \\(%s\\).' % (REL[op], e), vi='Nếu \\(a%sb\\) thì \\(%s\\).' % (REL[op], e), ans=truth,
+                ee='Multiplying by \\(%d\\) %s the sign.' % (k, 'keeps' if k > 0 else 'reverses'), ev='Nhân với \\(%d\\) thì %s chiều bất đẳng thức.' % (k, 'giữ nguyên' if k > 0 else 'đổi'))
+
+def b5_tf_square(r, lv):
+    k = r.randint(1, 9); strict = r.random() < 0.5
+    e = 'x^2+%d%s %dx' % (k * k, '\\gt' if strict else '\\ge', 2 * k)
+    return dict(en='\\(%s\\) for every real number \\(x\\).' % e, vi='\\(%s\\) với mọi số thực \\(x\\).' % e, ans=not strict,
+                ee='\\(x^2+%d-%dx=(x-%d)^2\\ge0\\); equality when \\(x=%d\\).' % (k * k, 2 * k, k, k), ev='\\(x^2+%d-%dx=(x-%d)^2\\ge0\\); dấu bằng xảy ra khi \\(x=%d\\).' % (k * k, 2 * k, k, k))
+
+def b5_short_min(r, lv):
+    a, p, q = r.randint(-5, 8), r.randint(2, 6), r.randint(-9, 9)
+    return dict(en='Given \\(x\\ge %d\\). What is the smallest possible value of \\(%s\\)?' % (a, lin((p, 'x'), (q, ''))), vi='Cho \\(x\\ge %d\\). Giá trị nhỏ nhất có thể của \\(%s\\) là bao nhiêu?' % (a, lin((p, 'x'), (q, ''))),
+                key=str(p * a + q), ee='\\(x\\ge %d\\Rightarrow %dx\\ge %d\\Rightarrow %s\\ge %d\\), reached at \\(x=%d\\).' % (a, p, p * a, lin((p, 'x'), (q, '')), p * a + q, a),
+                ev='\\(x\\ge %d\\Rightarrow %dx\\ge %d\\Rightarrow %s\\ge %d\\), đạt được khi \\(x=%d\\).' % (a, p, p * a, lin((p, 'x'), (q, '')), p * a + q, a))
+
+def b5_short_count(r, lv):
+    a = r.randint(-8, 10); b = a + r.randint(3, 12); sa, sb = r.choice([('\\le ', '\\le '), ('\\lt ', '\\le '), ('\\le ', '\\lt '), ('\\lt ', '\\lt ')])
+    n = len([t for t in range(a - 1, b + 2) if (t >= a if sa == '\\le ' else t > a) and (t <= b if sb == '\\le ' else t < b)])
+    return dict(en='The temperature \\(T\\) (°C) of a room satisfies \\(%d%sT%s%d\\). How many whole-number values can \\(T\\) take?' % (a, sa, sb, b),
+                vi='Nhiệt độ \\(T\\) (°C) của một căn phòng thỏa mãn \\(%d%sT%s%d\\). \\(T\\) có thể nhận bao nhiêu giá trị nguyên?' % (a, sa, sb, b), key=str(n),
+                ee='Count the integers in the range (watch the strict signs): %d values.' % n, ev='Đếm các số nguyên thỏa mãn (chú ý dấu không bằng): %d giá trị.' % n, hint=('Enter a whole number.', 'Nhập một số nguyên.'))
+
+def b5_d1_read(r, lv):
+    n = r.randint(-9, 20); op = r.choice(['<', '>', '<=', '>='])
+    T = {'<': ('\\(x\\) is less than %d', '\\(x\\) nhỏ hơn %d'), '>': ('\\(x\\) is greater than %d', '\\(x\\) lớn hơn %d'),
+         '<=': ('\\(x\\) is less than or equal to %d', '\\(x\\) nhỏ hơn hoặc bằng %d'), '>=': ('\\(x\\) is greater than or equal to %d', '\\(x\\) lớn hơn hoặc bằng %d')}
+    order = [op] + [o for o in ('<', '>', '<=', '>=') if o != op]
+    return dict(en='How do we read \\(x%s%d\\)?' % (REL[op], n), vi='Đọc \\(x%s%d\\) như thế nào?' % (REL[op], n), opts=[tx(T[o][0] % n, T[o][1] % n) for o in order], ans=0,
+                ee='\\(%s\\) means “%s”.' % (REL[op], T[op][0] % n), ev='\\(%s\\): %s.' % (REL[op], T[op][1] % n))
+
+def b5_d1_trans(r, lv):
+    op = r.choice(['<', '<=']); v = r.choice([('x', 'y', 'z'), ('a', 'b', 'c'), ('m', 'n', 'p'), ('u', 'v', 'w')]); x_, y_, z_ = v
+    good = '%s%s %s' % (x_, REL[op], z_)
+    return dict(en='Given \\(%s%s%s\\) and \\(%s%s%s\\). Which conclusion follows?' % (x_, REL[op], y_, y_, REL[op], z_),
+                vi='Cho \\(%s%s%s\\) và \\(%s%s%s\\). Kết luận nào đúng?' % (x_, REL[op], y_, y_, REL[op], z_),
+                opts=[good, '%s%s %s' % (x_, REL[FLIP[op]], z_), '%s%s %s' % (z_, REL[op], x_), '%s=%s' % (x_, z_)], ans=0, ee='Transitive property.', ev='Tính chất bắc cầu.')
+
+def b5_d1_side(r, lv):
+    p, q, m = nz(r, -9, 9), r.randint(1, 9), r.randint(-9, 9); side = r.choice(['left', 'right'])
+    L, R_ = lin((p, 'x'), (q, '')), lin((m, ''), (2, 'x'))
+    good = L if side == 'left' else R_
+    return dict(en='In the inequality \\(%s\\lt %s\\), what is the %s-hand side?' % (L, R_, side), vi='Trong bất đẳng thức \\(%s\\lt %s\\), vế %s là gì?' % (L, R_, 'trái' if side == 'left' else 'phải'),
+                opts=[good, R_ if side == 'left' else L, '%s\\lt %s' % (L, R_), '\\lt'], ans=0, ee='LHS is before the sign, RHS is after it.', ev='Vế trái đứng trước dấu, vế phải đứng sau dấu.')
+
+def b5_d2_add(r, lv):
+    op = r.choice(['<', '>', '<=', '>=']); c = nz(r, -12, 12)
+    return dict(en='Given \\(a%sb\\). Fill in: \\(a%s\\ \\square\\ b%s\\).' % (REL[op], mono(c, '', False), mono(c, '', False)), vi='Cho \\(a%sb\\). Điền dấu thích hợp: \\(a%s\\ \\square\\ b%s\\).' % (REL[op], mono(c, '', False), mono(c, '', False)),
+                opts=[REL[op]] + [REL[o] for o in ('<', '>', '<=', '>=') if o != op][:3], ans=0, ee='Adding the same number to both sides keeps the sign.', ev='Cộng cùng một số vào hai vế thì giữ nguyên chiều.')
+
+def b5_d2_mul(r, lv):
+    op = r.choice(['<', '>', '<=', '>=']); k = nz(r, -9, 9); assert abs(k) > 1
+    good = REL[op] if k > 0 else REL[FLIP[op]]
+    return dict(en='Given \\(x%sy\\). Fill in: \\(%dx\\ \\square\\ %dy\\).' % (REL[op], k, k), vi='Cho \\(x%sy\\). Điền dấu thích hợp: \\(%dx\\ \\square\\ %dy\\).' % (REL[op], k, k),
+                opts=[good] + [REL[o] for o in ('<', '>', '<=', '>=') if REL[o] != good][:3], ans=0,
+                ee='Multiplying by \\(%d\\) %s the sign.' % (k, 'keeps' if k > 0 else 'reverses'), ev='Nhân với \\(%d\\) thì %s chiều.' % (k, 'giữ nguyên' if k > 0 else 'đổi'))
+
+def b5_d2_diff(r, lv):
+    p, q = r.sample(range(-9, 10), 2); assert p != q
+    s = '\\lt ' if p < q else '\\gt '
+    A, B = 'a%s' % mono(p, '', False) if p else 'a', 'a%s' % mono(q, '', False) if q else 'a'
+    return dict(en='Compare \\(%s\\) and \\(%s\\) for any real number \\(a\\).' % (A, B), vi='So sánh \\(%s\\) và \\(%s\\) với mọi số thực \\(a\\).' % (A, B),
+                opts=['%s%s%s' % (A, s, B), '%s%s%s' % (A, '\\gt ' if s == '\\lt ' else '\\lt ', B), '%s=%s' % (A, B), tx('it depends on \\(a\\)', 'phụ thuộc vào \\(a\\)')], ans=0,
+                ee='Their difference is \\(%d\\), whatever \\(a\\) is.' % (p - q), ev='Hiệu của chúng bằng \\(%d\\) với mọi \\(a\\).' % (p - q))
+
+def b5_d3_infer(r, lv):
+    op = r.choice(['<', '>']); p = nz(r, -6, 6); q = nz(r, -9, 9); assert abs(p) > 1
+    s = op if p > 0 else FLIP[op]
+    L, R_ = lin((p, 'a'), (q, '')), lin((p, 'b'), (q, ''))
+    opts = ['%s%s%s' % (L, REL[s], R_), '%s%s%s' % (L, REL[FLIP[s]], R_), '%s%s%s' % (lin((p, 'a'), (-q, '')), REL[s], R_), '%s%s%s' % (lin((-p, 'a'), (q, '')), REL[s], lin((-p, 'b'), (q, '')))]
+    return dict(en='Given \\(a%sb\\). Which inequality about \\(%s\\) can we prove?' % (REL[op], L), vi='Cho \\(a%sb\\). Bất đẳng thức nào về \\(%s\\) chứng minh được?' % (REL[op], L), opts=opts, ans=0,
+                ee='Multiply by \\(%d\\) (%s), then add \\(%d\\).' % (p, 'keep the sign' if p > 0 else 'reverse the sign', q), ev='Nhân với \\(%d\\) (%s), rồi cộng \\(%d\\).' % (p, 'giữ chiều' if p > 0 else 'đổi chiều', q))
+
+def b5_d3_frac(r, lv):
+    n = r.randint(150, 2100); m = r.randint(50, 900)
+    a, b = 2 * n + r.randint(1, 9), n; c, d = 2 * m - r.randint(1, 9), m       # a/b > 2 > c/d
+    assert F(a, b) > 2 > F(c, d)
+    return dict(en='Compare \\(\\dfrac{%d}{%d}\\) and \\(\\dfrac{%d}{%d}\\) without a calculator.' % (a, b, c, d), vi='So sánh \\(\\dfrac{%d}{%d}\\) và \\(\\dfrac{%d}{%d}\\) mà không dùng máy tính.' % (a, b, c, d),
+                opts=['\\dfrac{%d}{%d}\\gt\\dfrac{%d}{%d}' % (a, b, c, d), '\\dfrac{%d}{%d}\\lt\\dfrac{%d}{%d}' % (a, b, c, d), '\\dfrac{%d}{%d}=\\dfrac{%d}{%d}' % (a, b, c, d), '\\dfrac{%d}{%d}\\le\\dfrac{%d}{%d}' % (a, b, c, d)], ans=0,
+                ee='\\(\\dfrac{%d}{%d}\\gt\\dfrac{%d}{%d}=2\\) and \\(\\dfrac{%d}{%d}\\lt\\dfrac{%d}{%d}=2\\); use 2 as a middle number.' % (a, b, 2 * b, b, c, d, 2 * d, d),
+                ev='\\(\\dfrac{%d}{%d}\\gt\\dfrac{%d}{%d}=2\\) và \\(\\dfrac{%d}{%d}\\lt\\dfrac{%d}{%d}=2\\); dùng số 2 làm trung gian (tính chất bắc cầu).' % (a, b, 2 * b, b, c, d, 2 * d, d))
+
+def b5_d3_double(r, lv):
+    lo = r.randint(10, 60); hi = lo + r.randint(20, 120)
+    c = r.choice([('The height \\(h\\) (m) of a drone must be greater than %d m and less than %d m.', 'Độ cao \\(h\\) (m) của flycam phải lớn hơn %d m và nhỏ hơn %d m.', 'h'),
+                  ('The water temperature \\(t\\) (°C) must be at least %d °C and at most %d °C.', 'Nhiệt độ nước \\(t\\) (°C) phải ít nhất %d °C và nhiều nhất %d °C.', 't')])
+    v = c[2]; strict = v == 'h'
+    S1, S2 = ('\\lt ', '\\le ') if strict else ('\\le ', '\\lt ')
+    good = '%d%s%s%s%d' % (lo, S1, v, S1, hi)
+    bads = ['%d%s%s%s%d' % (lo, S2, v, S2, hi), '%s\\lt %d' % (v, lo), '%d%s%s%s%d' % (hi, S1, v, S1, lo)]
+    return dict(en=(c[0] % (lo, hi)) + ' Which is correct?', vi=(c[1] % (lo, hi)) + ' Cách viết nào đúng?', opts=[good] + bads, ans=0,
+                ee='“greater/less than” → strict signs; “at least/at most” → \\(\\le\\).', ev='“lớn hơn/nhỏ hơn” → dấu \\(\\lt\\); “ít nhất/nhiều nhất” → dấu \\(\\le\\).')
+
+def b5_d4_equal(r, lv):
+    k = nz(r, -9, 9)
+    return dict(en='We have \\(a^2+%d\\ge %da\\) for every real \\(a\\). For which value of \\(a\\) does equality hold?' % (k * k, 2 * k), vi='Ta có \\(a^2+%d\\ge %da\\) với mọi số thực \\(a\\). Dấu bằng xảy ra khi \\(a\\) bằng bao nhiêu?' % (k * k, 2 * k),
+                opts=pick_opts(r, 'a=%d' % k, ['a=%d' % o for o in (-k, k * k, 2 * k, 0) if o != k]), ans=0,
+                ee='\\(a^2+%d-%da=(a%s)^2\\ge0\\); it is 0 when \\(a=%d\\).' % (k * k, 2 * k, mono(-k, '', False), k), ev='\\(a^2+%d-%da=(a%s)^2\\ge0\\); bằng 0 khi \\(a=%d\\).' % (k * k, 2 * k, mono(-k, '', False), k))
+
+def b5_d4_notalways(r, lv):
+    c, k = nz(r, -9, 9), r.randint(2, 7)
+    good = 'a^2\\ge b^2'
+    bads = ['a%s\\ge b%s' % (mono(c, '', False), mono(c, '', False)), '%da\\ge %db' % (k, k), '-%da\\le -%db' % (k, k)]
+    q = r.choice([('Given \\(a\\ge b\\). Which inequality is NOT always true?', 'Cho \\(a\\ge b\\). Bất đẳng thức nào KHÔNG phải lúc nào cũng đúng?'),
+                  ('Let \\(a\\ge b\\). Which statement can be false?', 'Cho \\(a\\ge b\\). Khẳng định nào có thể sai?'),
+                  ('Suppose \\(a\\ge b\\). Which of these does not always follow?', 'Giả sử \\(a\\ge b\\). Điều nào sau đây không luôn suy ra được?')])
+    return dict(en=q[0] + ' (\\(k=%d\\), \\(c=%d\\))' % (k, c), vi=q[1] + ' (\\(k=%d\\), \\(c=%d\\))' % (k, c), opts=[good] + bads, ans=0,
+                ee='Counterexample: \\(a=1,\\ b=-2\\): \\(a\\ge b\\) but \\(1\\lt 4\\).', ev='Phản ví dụ: \\(a=1,\\ b=-2\\): \\(a\\ge b\\) nhưng \\(1\\lt 4\\).')
+
+def b5_d4_consec(r, lv):
+    n = r.randint(5, 99)
+    return dict(en='For the three consecutive numbers %d, %d, %d, compute \\(%d^2-%d\\cdot%d\\).' % (n - 1, n, n + 1, n, n - 1, n + 1),
+                vi='Với ba số tự nhiên liên tiếp %d, %d, %d, hãy tính \\(%d^2-%d\\cdot%d\\).' % (n - 1, n, n + 1, n, n - 1, n + 1),
+                opts=['1', '0', '-1', str(2 * n)], ans=0, ee='\\(n^2-(n-1)(n+1)=n^2-(n^2-1)=1\\gt0\\): the middle number squared is always larger.', ev='\\(n^2-(n-1)(n+1)=n^2-(n^2-1)=1\\gt0\\): bình phương số ở giữa luôn lớn hơn tích hai số kia.')
+
+L5_GROUPS = [[('mcq', b5_translate), ('mcq', b5_property), ('mcq', b5_compare)], [('tf', b5_tf_rule), ('tf', b5_tf_square)], [('short', b5_short_min), ('short', b5_short_count)],
+             [('mcq', b5_d1_read), ('mcq', b5_d1_trans), ('mcq', b5_d1_side)], [('mcq', b5_d2_add), ('mcq', b5_d2_mul), ('mcq', b5_d2_diff)],
+             [('mcq', b5_d3_infer), ('mcq', b5_d3_frac), ('mcq', b5_d3_double)], [('mcq', b5_d4_equal), ('mcq', b5_d4_notalways), ('mcq', b5_d4_consec)]]
+
+# =====================================================================================================
+# BÀI 6. Bất phương trình bậc nhất một ẩn
+# =====================================================================================================
+def solve_lin_ineq(a, b, op):
+    """ax + b op 0  ->  (op', r): x op' r."""
+    rt = F(-b, a); o = op if a > 0 else FLIP[op]
+    return o, rt
+
+def ineq_tex(o, r_, v='x'):
+    return '%s%s%s' % (v, REL[o], fr(r_))
+
+def b6_which(r, lv):
+    a, b = nz(r, -9, 9), nz(r, -9, 9); op = r.choice(list(REL))
+    good = '%s%s0' % (lin((a, 'x'), (b, '')), REL[op])
+    bads = ['0x%s%s0' % (mono(b, '', False), REL[op]), '%s%s%s0' % (lin((1, 'x^2')), mono(-abs(b), '', False), REL[op]), '\\dfrac{%d}{x}%s%s0' % (abs(a), mono(b, '', False), REL[op]), 'xy%s%s0' % (mono(b, '', False), REL[op])]
+    r.shuffle(bads)
+    q = r.choice([('Which is a linear inequality in one variable?', 'Bất phương trình nào là bất phương trình bậc nhất một ẩn?'), ('Choose the linear inequality in one variable.', 'Chọn bất phương trình bậc nhất một ẩn.'),
+                  ('Only one of these is a linear inequality in one variable. Which one?', 'Chỉ có một bất phương trình bậc nhất một ẩn. Đó là bất phương trình nào?'), ('Identify the linear inequality in \\(x\\).', 'Chỉ ra bất phương trình bậc nhất ẩn \\(x\\).')])
+    return dict(en=q[0], vi=q[1], opts=[good] + bads[:3], ans=0, ee='It has the form \\(ax+b\\lt 0\\) (or \\(\\gt, \\le, \\ge\\)) with \\(a\\ne0\\).', ev='Bất phương trình có dạng \\(ax+b\\lt 0\\) (hoặc \\(\\gt, \\le, \\ge\\)) với \\(a\\ne0\\).')
+
+def _ineq(r, neg=None):
+    while True:
+        a = nz(r, -9, 9); 
+        if neg is not None and (a < 0) != neg: continue
+        x0 = r.randint(-8, 8); den = r.choice([1, 1, 1, abs(a)]); b = -a * x0 if den == 1 else -(a * x0 + r.choice([1, -1])) 
+        if a not in (1, -1): break
+    return a, b, r.choice(list(REL))
+
+def b6_solve(r, lv):
+    a, b, op = _ineq(r); c = r.randint(-9, 9); o, rt = solve_lin_ineq(a, b - c, op)
+    e = '%s%s%d' % (lin((a, 'x'), (b, '')), REL[op], c)
+    good = ineq_tex(o, rt); bads = [ineq_tex(FLIP[o], rt), ineq_tex(o, -rt) if rt else ineq_tex(o, F(1)), ineq_tex(FLIP[o], -rt) if rt else ineq_tex(FLIP[o], F(-1))]
+    return dict(en='Solve the inequality \\(%s\\).' % e, vi='Giải bất phương trình \\(%s\\).' % e, opts=pick_opts(r, good, bads, fill=lambda t: ineq_tex(o, rt + t)), ans=0,
+                ee='\\(%s%s%s\\)%s, so \\(%s\\).' % (lin((a, 'x')), REL[op], fr(c - b), ' (divide by \\(%d\\) and reverse the sign)' % a if a < 0 else '', good),
+                ev='\\(%s%s%s\\)%s, suy ra \\(%s\\).' % (lin((a, 'x')), REL[op], fr(c - b), ' (chia cho \\(%d\\) và đổi chiều)' % a if a < 0 else '', good))
+
+def b6_check(r, lv):
+    a, b, op = _ineq(r); c = r.randint(-9, 9)
+    sat = [v for v in range(-12, 13) if holds(a * v + b, op, c)]; uns = [v for v in range(-12, 13) if not holds(a * v + b, op, c)]
+    assert sat and len(uns) >= 3
+    g = r.choice(sat); bads = r.sample(uns, 3); e = '%s%s%d' % (lin((a, 'x'), (b, '')), REL[op], c)
+    return dict(en='Which value of \\(x\\) is a solution of \\(%s\\)?' % e, vi='Giá trị nào của \\(x\\) là nghiệm của bất phương trình \\(%s\\)?' % e,
+                opts=['x=%d' % g] + ['x=%d' % v for v in bads], ans=0, ee='Substitute: \\(%s=%d%s%d\\) is true.' % (lin((a, '\\cdot(%d)' % g), (b, '')).replace('\\cdot', '\\cdot') if False else '%d\\cdot(%d)%s' % (a, g, mono(b, '', False)), a * g + b, REL[op], c),
+                ev='Thay vào: \\(%d\\cdot(%d)%s=%d%s%d\\) đúng.' % (a, g, mono(b, '', False), a * g + b, REL[op], c))
+
+def b6_tf_sol(r, lv):
+    a, b, op = _ineq(r); c = r.randint(-9, 9); v = r.randint(-8, 8); truth = holds(a * v + b, op, c)
+    e = '%s%s%d' % (lin((a, 'x'), (b, '')), REL[op], c)
+    return dict(en='\\(x=%d\\) is a solution of the inequality \\(%s\\).' % (v, e), vi='\\(x=%d\\) là một nghiệm của bất phương trình \\(%s\\).' % (v, e), ans=truth,
+                ee='\\(%d\\cdot(%d)%s=%d\\); the statement \\(%d%s%d\\) is %s.' % (a, v, mono(b, '', False), a * v + b, a * v + b, REL[op], c, 'true' if truth else 'false'),
+                ev='\\(%d\\cdot(%d)%s=%d\\); mệnh đề \\(%d%s%d\\) %s.' % (a, v, mono(b, '', False), a * v + b, a * v + b, REL[op], c, 'đúng' if truth else 'sai'))
+
+def b6_tf_neg(r, lv):
+    k, m = r.randint(2, 9), r.randint(-20, 20); op = r.choice(['>=', '<=', '>', '<']); truth = r.random() < 0.5
+    o, rt = solve_lin_ineq(-k, m, op); claim = o if truth else FLIP[o]
+    e = '%s%s0' % (lin((-k, 'x'), (m, '')), REL[op])
+    return dict(en='The solution of \\(%s\\) is \\(%s\\).' % (e, ineq_tex(claim, rt)), vi='Nghiệm của bất phương trình \\(%s\\) là \\(%s\\).' % (e, ineq_tex(claim, rt)), ans=truth,
+                ee='Divide by \\(%d\\lt 0\\) and reverse the sign: \\(%s\\).' % (-k, ineq_tex(o, rt)), ev='Chia hai vế cho \\(%d\\lt 0\\) và đổi chiều: \\(%s\\).' % (-k, ineq_tex(o, rt)))
+
+def b6_short_max(r, lv):
+    while True:
+        a, c = r.randint(2, 9), r.randint(-6, 6); assert a != c
+        if a == c: continue
+        b, d = r.randint(-15, 15), r.randint(-15, 15); op = r.choice(['<=', '<'])
+        o, rt = solve_lin_ineq(a - c, b - d, op)
+        if o in ('<=', '<'): break
+    n = max(t for t in range(-60, 60) if holds(t, o, rt))
+    e = '%s%s%s' % (lin((a, 'x'), (b, '')), REL[op], lin((c, 'x'), (d, '')))
+    return dict(en='Find the largest integer \\(x\\) that satisfies \\(%s\\).' % e, vi='Tìm số nguyên \\(x\\) lớn nhất thỏa mãn \\(%s\\).' % e, key=str(n),
+                ee='The solution is \\(%s\\); the largest integer is %d.' % (ineq_tex(o, rt), n), ev='Nghiệm của bất phương trình là \\(%s\\); số nguyên lớn nhất là %d.' % (ineq_tex(o, rt), n))
+
+def b6_short_shop(r, lv):
+    M = r.choice([100, 120, 150, 200]); p = r.choice([25, 30, 35, 40, 45]); n = r.randint(3, 6); x = (M - p) // n
+    nm = r.choice(NAMES)
+    return dict(en='%s has %d thousand dong. %s buys a book for %d thousand dong and %d notebooks of the same price \\(x\\) (thousand dong, a whole number). What is the highest possible price of one notebook?' % (nm[0], M, 'She' if nm[0] in ('Lan', 'Hoa', 'Mai') else 'He', p, n),
+                vi='Bạn %s có %d nghìn đồng. Bạn mua một quyển sách giá %d nghìn đồng và %d quyển vở cùng giá \\(x\\) (nghìn đồng, là số nguyên). Giá mỗi quyển vở cao nhất có thể là bao nhiêu?' % (nm[1], M, p, n),
+                key=str(x), ee='\\(%dx+%d\\le %d\\Rightarrow x\\le %s\\), so the largest whole number is %d.' % (n, p, M, fr(F(M - p, n)), x), ev='\\(%dx+%d\\le %d\\Rightarrow x\\le %s\\), nên số nguyên lớn nhất là %d.' % (n, p, M, fr(F(M - p, n)), x), hint=('Enter a whole number.', 'Nhập một số nguyên.'))
+
+def b6_d1_rule(r, lv):
+    k = r.randint(2, 15)
+    o = [tx('reverse the inequality sign', 'đổi chiều bất phương trình'), tx('keep the inequality sign', 'giữ nguyên chiều bất phương trình'), tx('change it into an equation', 'đổi thành phương trình'), tx('add \\(%d\\) to the right-hand side only' % k, 'chỉ cộng \\(%d\\) vào vế phải' % k)]
+    return dict(en='When we divide both sides of an inequality by \\(-%d\\), we must…' % k, vi='Khi chia hai vế của một bất phương trình cho \\(-%d\\), ta phải…' % k, opts=o, ans=0,
+                ee='Multiplying or dividing by a negative number reverses the sign.', ev='Nhân hoặc chia hai vế cho số âm thì phải đổi chiều.')
+
+def b6_d1_ab(r, lv):
+    a, b = nz(r, -9, 9), nz(r, -9, 9); op = r.choice(list(REL)); assert a != b and a != -b
+    e = '%s%s0' % (lin((a, 'x'), (b, '')), REL[op])
+    return dict(en='In the inequality \\(%s\\), what are \\(a\\) and \\(b\\)?' % e, vi='Trong bất phương trình \\(%s\\), hệ số \\(a\\) và \\(b\\) là bao nhiêu?' % e,
+                opts=['a=%d,\\ b=%d' % (a, b), 'a=%d,\\ b=%d' % (b, a), 'a=%d,\\ b=%d' % (a, -b), 'a=%d,\\ b=%d' % (-a, b)], ans=0, ee='Compare with \\(ax+b\\).', ev='So sánh với dạng \\(ax+b\\).')
+
+def b6_d1_check(r, lv):
+    q = b6_check(r, lv); q['en'] = q['en'].replace('Which value of \\(x\\) is a solution of', 'Which number satisfies'); q['vi'] = q['vi'].replace('Giá trị nào của \\(x\\) là nghiệm của bất phương trình', 'Số nào thỏa mãn bất phương trình')
+    return q
+
+def b6_d2_neg(r, lv):
+    a, b, op = _ineq(r, neg=True); o, rt = solve_lin_ineq(a, b, op)
+    e = '%s%s0' % (lin((a, 'x'), (b, '')), REL[op])
+    return dict(en='Solve \\(%s\\).' % e, vi='Giải bất phương trình \\(%s\\).' % e, opts=pick_opts(r, ineq_tex(o, rt), [ineq_tex(FLIP[o], rt), ineq_tex(o, -rt) if rt else ineq_tex(o, F(2)), ineq_tex(FLIP[o], -rt) if rt else ineq_tex(FLIP[o], F(-2))]), ans=0,
+                ee='\\(%s%s%s\\); divide by \\(%d\\lt0\\) and reverse: \\(%s\\).' % (lin((a, 'x')), REL[op], fr(-b), a, ineq_tex(o, rt)), ev='\\(%s%s%s\\); chia cho \\(%d\\lt0\\) và đổi chiều: \\(%s\\).' % (lin((a, 'x')), REL[op], fr(-b), a, ineq_tex(o, rt)))
+
+def b6_d2_dot(r, lv):
+    v = r.randint(-9, 9); op = r.choice(list(REL)); closed = op in ('<=', '>=')
+    o = [tx('a filled (solid) dot', 'chấm tròn đặc (lấy điểm đó)'), tx('an open (hollow) dot', 'chấm tròn rỗng (bỏ điểm đó)'), tx('a dashed line', 'một đường nét đứt'), tx('nothing at that point', 'không đánh dấu gì')]
+    return dict(en='On a number line, the solutions \\(x%s%d\\) are shown. What do we draw at the point \\(%d\\)?' % (REL[op], v, v), vi='Biểu diễn nghiệm \\(x%s%d\\) trên trục số. Tại điểm \\(%d\\) ta vẽ gì?' % (REL[op], v, v),
+                opts=o, ans=0 if closed else 1, ee='%s' % ('The point belongs to the solutions (\\(\\le,\\ge\\)): filled dot.' if closed else 'The point is not a solution (\\(\\lt,\\gt\\)): open dot.'),
+                ev='%s' % ('Điểm đó là nghiệm (dấu \\(\\le,\\ge\\)): chấm đặc.' if closed else 'Điểm đó không là nghiệm (dấu \\(\\lt,\\gt\\)): chấm rỗng.'))
+
+def b6_d2_frac(r, lv):
+    p = r.choice([2, 3, 4, 5]); q, c = r.randint(-9, 9), r.randint(-9, 9); op = r.choice(list(REL)); rt = (c - q) * p
+    e = '\\dfrac{x}{%d}%s%s%d' % (p, mono(q, '', False) if q else '', REL[op], c)
+    return dict(en='Solve \\(%s\\).' % e, vi='Giải bất phương trình \\(%s\\).' % e, opts=pick_opts(r, ineq_tex(op, F(rt)), [ineq_tex(op, F(c - q)), ineq_tex(FLIP[op], F(rt)), ineq_tex(op, F(c - q, p))], fill=lambda t: ineq_tex(op, F(rt + t))), ans=0,
+                ee='\\(\\dfrac{x}{%d}%s%d\\); multiply by \\(%d\\gt0\\): \\(%s\\).' % (p, REL[op], c - q, p, ineq_tex(op, F(rt))), ev='\\(\\dfrac{x}{%d}%s%d\\); nhân hai vế với \\(%d\\gt0\\): \\(%s\\).' % (p, REL[op], c - q, p, ineq_tex(op, F(rt))))
+
+def b6_d3_both(r, lv):
+    while True:
+        a, c = nz(r, -8, 8), nz(r, -8, 8)
+        if a != c and abs(a - c) > 1: break
+    b, d = r.randint(-15, 15), r.randint(-15, 15); op = r.choice(list(REL)); o, rt = solve_lin_ineq(a - c, b - d, op)
+    e = '%s%s%s' % (lin((a, 'x'), (b, '')), REL[op], lin((c, 'x'), (d, '')))
+    return dict(en='Solve \\(%s\\).' % e, vi='Giải bất phương trình \\(%s\\).' % e, opts=pick_opts(r, ineq_tex(o, rt), [ineq_tex(FLIP[o], rt), ineq_tex(o, -rt) if rt else ineq_tex(o, F(3)), ineq_tex(o, F(d - b, a + c)) if a + c else ineq_tex(o, rt + 1)], fill=lambda t: ineq_tex(o, rt + t)), ans=0,
+                ee='Move terms: \\(%s%s%d\\Rightarrow %s\\).' % (lin((a - c, 'x')), REL[op], d - b, ineq_tex(o, rt)), ev='Chuyển vế: \\(%s%s%d\\Rightarrow %s\\).' % (lin((a - c, 'x')), REL[op], d - b, ineq_tex(o, rt)))
+
+def b6_d3_expand(r, lv):
+    a, b = nz(r, -6, 6), nz(r, -6, 6); c, d = r.randint(-8, 8), r.randint(-12, 12); op = r.choice(list(REL))
+    # (x+a)(2x+b) = 2x^2 + (b+2a)x + ab ; vế phải 2x^2 + c x + d  ->  (b+2a-c)x + ab - d op 0
+    k = b + 2 * a - c; assert k != 0 and abs(k) != 1
+    o, rt = solve_lin_ineq(k, a * b - d, op)
+    e = '(x%s)(2x%s)%s2x^2%s%s' % (mono(a, '', False), mono(b, '', False), REL[op], mono(c, 'x', False) if c else '', mono(d, '', False) if d else '')
+    return dict(en='Solve \\(%s\\).' % e, vi='Giải bất phương trình \\(%s\\).' % e, opts=pick_opts(r, ineq_tex(o, rt), [ineq_tex(FLIP[o], rt), ineq_tex(o, -rt) if rt else ineq_tex(o, F(1)), ineq_tex(o, rt + 1)]), ans=0,
+                ee='Expand: \\(2x^2%s%s\\); the \\(2x^2\\) terms cancel: \\(%s%s%d\\Rightarrow %s\\).' % (mono(b + 2 * a, 'x', False), mono(a * b, '', False), lin((k, 'x')), REL[op], d - a * b, ineq_tex(o, rt)),
+                ev='Khai triển: \\(2x^2%s%s\\); hai hạng tử \\(2x^2\\) triệt tiêu: \\(%s%s%d\\Rightarrow %s\\).' % (mono(b + 2 * a, 'x', False), mono(a * b, '', False), lin((k, 'x')), REL[op], d - a * b, ineq_tex(o, rt)))
+
+def b6_d3_min(r, lv):
+    while True:
+        a, b, op = _ineq(r); c = r.randint(-9, 9); o, rt = solve_lin_ineq(a, b - c, op)
+        if o in ('>', '>='): break
+    n = min(t for t in range(-60, 60) if holds(t, o, rt)); e = '%s%s%d' % (lin((a, 'x'), (b, '')), REL[op], c)
+    return dict(en='What is the smallest integer that satisfies \\(%s\\)?' % e, vi='Số nguyên nhỏ nhất thỏa mãn \\(%s\\) là số nào?' % e, opts=pick_opts(r, str(n), [str(n - 1), str(n + 1), str(-n) if n else '2']), ans=0,
+                ee='Solution: \\(%s\\); the smallest integer is %d.' % (ineq_tex(o, rt), n), ev='Nghiệm: \\(%s\\); số nguyên nhỏ nhất là %d.' % (ineq_tex(o, rt), n))
+
+def b6_d4_shop(r, lv):
+    M = r.choice([200, 250, 300, 500]); p = r.choice([15, 18, 20, 25]); f = r.choice([20, 30, 40, 50]); x = (M - f) // p
+    return dict(en='A class has %d thousand dong. They pay %d thousand dong for transport and buy drinks at %d thousand dong each. What is the greatest number of drinks they can buy?' % (M, f, p),
+                vi='Một lớp có %d nghìn đồng. Lớp trả %d nghìn đồng tiền xe và mua nước uống, mỗi chai %d nghìn đồng. Lớp mua được nhiều nhất bao nhiêu chai nước?' % (M, f, p),
+                opts=pick_opts(r, str(x), [str(x + 1), str(M // p), str(x - 1)]), ans=0,
+                ee='\\(%dx+%d\\le %d\\Rightarrow x\\le %s\\); \\(x\\) is a whole number, so \\(x=%d\\).' % (p, f, M, fr(F(M - f, p)), x), ev='\\(%dx+%d\\le %d\\Rightarrow x\\le %s\\); \\(x\\) là số tự nhiên nên \\(x=%d\\).' % (p, f, M, fr(F(M - f, p)), x))
+
+def b6_d4_triangle(r, lv):
+    while True:
+        a, b, c, d = r.randint(2, 5), r.randint(-3, 6), r.randint(1, 3), r.randint(2, 12)
+        if a > c: break
+    rt = F(d - b, a - c)
+    return dict(en='In triangle \\(DEF\\), \\(DF=%s\\) and \\(DE=%s\\) (cm), and \\(DF\\) is longer than \\(DE\\). Which condition on \\(x\\) is correct?' % (lin((a, 'x'), (b, '')), lin((c, 'x'), (d, ''))),
+                vi='Tam giác \\(DEF\\) có \\(DF=%s\\) và \\(DE=%s\\) (cm), trong đó \\(DF\\) dài hơn \\(DE\\). Điều kiện nào của \\(x\\) đúng?' % (lin((a, 'x'), (b, '')), lin((c, 'x'), (d, ''))),
+                opts=pick_opts(r, ineq_tex('>', rt), [ineq_tex('<', rt), ineq_tex('>', F(d + b, a + c)), ineq_tex('>=', rt)]), ans=0,
+                ee='\\(%s\\gt %s\\Rightarrow %s\\gt %d\\Rightarrow %s\\).' % (lin((a, 'x'), (b, '')), lin((c, 'x'), (d, '')), lin((a - c, 'x')), d - b, ineq_tex('>', rt)),
+                ev='\\(%s\\gt %s\\Rightarrow %s\\gt %d\\Rightarrow %s\\).' % (lin((a, 'x'), (b, '')), lin((c, 'x'), (d, '')), lin((a - c, 'x')), d - b, ineq_tex('>', rt)))
+
+def b6_d4_plan(r, lv):
+    while True:
+        fa, pa = r.choice([50, 60, 70, 80, 100]), r.choice([300, 400, 500, 600])   # gói A: phí cố định (nghìn đồng) + giá mỗi phút (đồng)
+        fb, pb = r.choice([0, 10, 20]), r.choice([800, 900, 1000, 1200])
+        if pb > pa and fa > fb: break
+    # chi phí (đồng): A = 1000fa + pa·t ; B = 1000fb + pb·t ; A rẻ hơn B  <=>  t > 1000(fa-fb)/(pb-pa)
+    rt = F(1000 * (fa - fb), pb - pa); n = int(rt) + 1
+    assert 1000 * fa + pa * n < 1000 * fb + pb * n and not (1000 * fa + pa * (n - 1) < 1000 * fb + pb * (n - 1))
+    return dict(en='Phone plan A costs %d thousand dong per month plus %d dong per minute. Plan B costs %d thousand dong per month plus %d dong per minute. From how many whole minutes per month is plan A cheaper?' % (fa, pa, fb, pb),
+                vi='Gói cước A: %d nghìn đồng mỗi tháng và %d đồng mỗi phút gọi. Gói B: %d nghìn đồng mỗi tháng và %d đồng mỗi phút gọi. Gọi từ bao nhiêu phút (số nguyên) trở lên trong tháng thì gói A rẻ hơn?' % (fa, pa, fb, pb),
+                opts=pick_opts(r, str(n), [str(n - 1), str(n + 1), str(int(F(1000 * (fa + fb), pb - pa)))], fill=lambda t: str(n + 2 * t + 1)), ans=0,
+                ee='\\(%d000+%dt\\lt %d+%dt\\Rightarrow t\\gt %s\\), so from %d minutes.' % (fa, pa, 1000 * fb, pb, fr(rt), n),
+                ev='\\(%d000+%dt\\lt %d+%dt\\Rightarrow t\\gt %s\\), nên từ %d phút trở lên.' % (fa, pa, 1000 * fb, pb, fr(rt), n))
+
+L6_GROUPS = [[('mcq', b6_which), ('mcq', b6_solve), ('mcq', b6_check)], [('tf', b6_tf_sol), ('tf', b6_tf_neg)], [('short', b6_short_max), ('short', b6_short_shop)],
+             [('mcq', b6_d1_rule), ('mcq', b6_d1_ab), ('mcq', b6_d1_check)], [('mcq', b6_d2_neg), ('mcq', b6_d2_dot), ('mcq', b6_d2_frac)],
+             [('mcq', b6_d3_both), ('mcq', b6_d3_expand), ('mcq', b6_d3_min)], [('mcq', b6_d4_shop), ('mcq', b6_d4_triangle), ('mcq', b6_d4_plan)]]
+
+def ray_svg(a, op, lo=None, hi=None):
+    """Trục số biểu diễn nghiệm x op a: tô phần nghiệm, chấm đặc (lấy a) / chấm rỗng (bỏ a); nhãn số đặt dưới, không đè lên đường tô."""
+    from mb_pgf import texsvg, col
+    a = F(a); lo = math.floor(a) - 4 if lo is None else lo; hi = math.floor(a) + 4 if hi is None else hi
+    right = op in ('>', '>='); closed = op in ('<=', '>=')
+    av = float(a); o = ['\\begin{tikzpicture}[x=0.9cm, y=1cm]',
+         '\\draw[ink, line width=0.8pt, -{Stealth[length=2.6mm]}] (%s,0) -- (%s,0) node[right] {$x$};' % (lo - 0.4, hi + 0.5),
+         '\\draw[%s, line width=5pt, opacity=0.75] (%s,0) -- (%s,0);' % ('mint', av, hi + 0.35 if right else lo - 0.35)]
+    for v in range(lo, hi + 1):
+        if abs(v - av) < 0.35: continue
+        o.append('\\draw[ink, line width=0.7pt] (%s,0.12) -- (%s,-0.12) node[below=3pt, font=\\small] {$%s$};' % (v, v, v))
+    o.append('\\node[circle, inner sep=0pt, minimum size=8pt, draw=%s, line width=1.2pt, fill=%s] at (%s,0) {};' % (col('046b4d'), col('046b4d') if closed else 'white', av))
+    o.append('\\node[font=\\small, fill=white, inner sep=1pt] at (%s,-0.48) {$%s$};' % (av, fr(a)))
+    o.append('\\end{tikzpicture}')
+    return texsvg('\n'.join(o))
+
+# =====================================================================================================
+# BÀI 7. Căn bậc hai và căn thức bậc hai
+# =====================================================================================================
+def sq_frac(r):
+    """Số chính phương (nguyên hoặc phân số) n và căn bậc hai số học s của nó."""
+    if r.random() < 0.6:
+        s = F(r.randint(2, 25)); return s * s, s
+    p, q = r.randint(1, 12), r.randint(2, 15); s = F(p, q)
+    assert s.denominator == q
+    return s * s, s
+
+def b7_roots(r, lv):
+    n2, s = sq_frac(r)
+    return dict(en='The square roots of \\(%s\\) are…' % fr(n2), vi='Các căn bậc hai của \\(%s\\) là…' % fr(n2),
+                opts=['\\pm %s' % fr(s), fr(s), '-%s' % fr(s), fr(n2 / 2) if n2 / 2 != s else fr(n2 * 2)], ans=0,
+                ee='Both \\(%s\\) and \\(-%s\\) squared give \\(%s\\): a positive number has two opposite square roots.' % (fr(s), fr(s), fr(n2)),
+                ev='Cả \\(%s\\) và \\(-%s\\) bình phương đều bằng \\(%s\\): số dương có hai căn bậc hai là hai số đối nhau.' % (fr(s), fr(s), fr(n2)))
+
+def b7_arith(r, lv):
+    n2, s = sq_frac(r)
+    return dict(en='Compute \\(\\sqrt{%s}\\).' % fr(n2), vi='Tính \\(\\sqrt{%s}\\).' % fr(n2), opts=pick_opts(r, fr(s), ['-%s' % fr(s), '\\pm %s' % fr(s), fr(n2 / 2)], fill=lambda t: fr(s + t)), ans=0,
+                ee='\\(\\sqrt{%s}\\) is the non-negative number whose square is \\(%s\\): \\(%s\\).' % (fr(n2), fr(n2), fr(s)), ev='\\(\\sqrt{%s}\\) là số không âm có bình phương bằng \\(%s\\): \\(%s\\).' % (fr(n2), fr(n2), fr(s)))
+
+def _dk(a, b):
+    """√(ax+b) xác định ⇔ ax+b ≥ 0 ⇔ x ≥ -b/a (a>0) hoặc x ≤ -b/a (a<0)."""
+    rt = F(-b, a); return ('>=' if a > 0 else '<='), rt
+
+def b7_dk(r, lv):
+    a, b = nz(r, -7, 7), nz(r, -12, 12); o, rt = _dk(a, b); E = lin((a, 'x'), (b, ''))
+    good = ineq_tex(o, rt); bads = [ineq_tex(FLIP[o], rt), ineq_tex(o, -rt), ineq_tex({'>=': '>', '<=': '<'}[o], rt)]
+    return dict(en='For which \\(x\\) is \\(\\sqrt{%s}\\) defined?' % E, vi='\\(\\sqrt{%s}\\) xác định khi nào?' % E, opts=pick_opts(r, good, bads), ans=0,
+                ee='We need \\(%s\\ge0\\), i.e. \\(%s\\).' % (E, good), ev='Cần \\(%s\\ge0\\), tức là \\(%s\\).' % (E, good))
+
+def b7_tf_abs(r, lv):
+    k = r.randint(2, 15); truth = r.random() < 0.5; rhs = k if truth else -k
+    return dict(en='\\(\\sqrt{(-%d)^2}=%d\\).' % (k, rhs), vi='\\(\\sqrt{(-%d)^2}=%d\\).' % (k, rhs), ans=truth,
+                ee='\\(\\sqrt{A^2}=|A|\\), so \\(\\sqrt{(-%d)^2}=|-%d|=%d\\).' % (k, k, k), ev='\\(\\sqrt{A^2}=|A|\\) nên \\(\\sqrt{(-%d)^2}=|-%d|=%d\\).' % (k, k, k))
+
+def b7_tf_def(r, lv):
+    a, b = nz(r, -6, 6), r.randint(-15, 15); v = r.randint(-6, 6); val = a * v + b; E = lin((a, 'x'), (b, ''))
+    return dict(en='The expression \\(\\sqrt{%s}\\) is defined at \\(x=%d\\).' % (E, v), vi='Biểu thức \\(\\sqrt{%s}\\) xác định tại \\(x=%d\\).' % (E, v), ans=val >= 0,
+                ee='At \\(x=%d\\) the radicand is \\(%d\\), which is %s.' % (v, val, 'non-negative' if val >= 0 else 'negative'), ev='Tại \\(x=%d\\), biểu thức dưới dấu căn bằng \\(%d\\) %s.' % (v, val, '(không âm)' if val >= 0 else '(âm)'))
+
+def b7_short_sum(r, lv):
+    a, b = r.randint(2, 20), r.randint(2, 20); k = r.choice([1, 2, 3, -1])
+    return dict(en='Compute \\(\\sqrt{%d}%s\\sqrt{%d}\\).' % (a * a, '+' if k == 1 else '-' if k == -1 else '+%d' % k, b * b), vi='Tính \\(\\sqrt{%d}%s\\sqrt{%d}\\).' % (a * a, '+' if k == 1 else '-' if k == -1 else '+%d' % k, b * b),
+                key=str(a + k * b), ee='\\(%d%s=%d\\).' % (a, lin((k * b, '')) if k * b < 0 else '+%d' % (k * b), a + k * b), ev='\\(%d%s=%d\\).' % (a, lin((k * b, '')) if k * b < 0 else '+%d' % (k * b), a + k * b))
+
+def b7_short_round(r, lv):
+    while True:
+        n = r.randint(2, 99)
+        if int(n ** 0.5) ** 2 != n: break
+    v = round(n ** 0.5 + 1e-12, 2); key = '%.2f' % v
+    assert abs(v - n ** 0.5) <= 0.005
+    return dict(en='Use a calculator to find \\(\\sqrt{%d}\\), rounded to two decimal places.' % n, vi='Dùng máy tính cầm tay tính \\(\\sqrt{%d}\\), làm tròn đến chữ số thập phân thứ hai.' % n,
+                key=key, ee='\\(\\sqrt{%d}\\approx %s\\).' % (n, key), ev='\\(\\sqrt{%d}\\approx %s\\).' % (n, key.replace('.', '{,}')), hint=('Enter a decimal number (e.g. 3.33).', 'Nhập một số thập phân (ví dụ 3,33).'))
+
+def b7_d1_none(r, lv):
+    vals = r.sample(range(1, 50), 3); neg = -r.randint(1, 49)
+    q = r.choice([('Which number has no square root?', 'Số nào không có căn bậc hai?'), ('Which of these numbers has no square root?', 'Số nào sau đây không có căn bậc hai?'), ('Choose the number that has no square root.', 'Chọn số không có căn bậc hai.'), ('Only one of these numbers has no square root. Which one?', 'Chỉ có một số không có căn bậc hai. Đó là số nào?')])
+    return dict(en=q[0], vi=q[1], opts=[str(neg)] + [str(v) for v in vals[:2]] + ['0'], ans=0, ee='A negative number has no square root.', ev='Số âm không có căn bậc hai.')
+
+def b7_d1_sq(r, lv):
+    k = r.randint(2, 30)
+    return dict(en='\\(\\sqrt{%d^2}\\) is equal to…' % k, vi='\\(\\sqrt{%d^2}\\) bằng…' % k, opts=[str(k), str(-k), '\\pm %d' % k, str(k * k)], ans=0,
+                ee='\\(\\sqrt{a^2}=a\\) for \\(a\\ge0\\).', ev='\\(\\sqrt{a^2}=a\\) với \\(a\\ge0\\).')
+
+def b7_d1_radicand(r, lv):
+    a, b, c = nz(r, -7, 7), r.randint(-9, 9), r.randint(2, 9)
+    E = lin((a, 'x'), (b, '')) if b else lin((a, 'x'))
+    return dict(en='What is the radicand of \\(%d\\sqrt{%s}\\)?' % (c, E), vi='Biểu thức lấy căn của \\(%d\\sqrt{%s}\\) là gì?' % (c, E), opts=[E, str(c), '%d(%s)' % (c, E), '\\sqrt{%s}' % E], ans=0,
+                ee='The radicand is the expression under the root sign.', ev='Biểu thức lấy căn là biểu thức nằm dưới dấu căn.')
+
+def b7_d2_abs(r, lv):
+    a, b = r.sample(range(1, 20), 2)
+    return dict(en='Compute \\(\\sqrt{(%d-%d)^2}\\).' % (a, b), vi='Tính \\(\\sqrt{(%d-%d)^2}\\).' % (a, b), opts=pick_opts(r, str(abs(a - b)), [str(a - b) if a - b != abs(a - b) else str(-(a - b)), str(a + b), str((a - b) ** 2)]), ans=0,
+                ee='\\(\\sqrt{(%d-%d)^2}=|%d|=%d\\).' % (a, b, a - b, abs(a - b)), ev='\\(\\sqrt{(%d-%d)^2}=|%d|=%d\\).' % (a, b, a - b, abs(a - b)))
+
+def b7_d2_xsq(r, lv):
+    n = r.choice([2, 3, 5, 6, 7, 10, 11, 13, 15, 17, 19, 21])
+    return dict(en='Solve \\(x^2=%d\\).' % n, vi='Giải phương trình \\(x^2=%d\\).' % n, opts=['x=\\pm\\sqrt{%d}' % n, 'x=\\sqrt{%d}' % n, 'x=\\pm %d' % (n * n), 'x=\\dfrac{%d}{2}' % n], ans=0,
+                ee='\\(x\\) is a square root of %d: \\(x=\\sqrt{%d}\\) or \\(x=-\\sqrt{%d}\\).' % (n, n, n), ev='\\(x\\) là căn bậc hai của %d: \\(x=\\sqrt{%d}\\) hoặc \\(x=-\\sqrt{%d}\\).' % (n, n, n))
+
+def b7_d2_dk2(r, lv):
+    k = r.randint(-9, 12)
+    return dict(en='For which \\(x\\) is \\(\\sqrt{%d-x}\\) defined?' % k, vi='Biểu thức \\(\\sqrt{%d-x}\\) xác định khi nào?' % k, opts=['x\\le %d' % k, 'x\\ge %d' % k, 'x\\le %d' % (-k) if k else 'x\\lt 0', 'x\\lt %d' % k], ans=0,
+                ee='\\(%d-x\\ge0\\Leftrightarrow x\\le %d\\).' % (k, k), ev='\\(%d-x\\ge0\\Leftrightarrow x\\le %d\\).' % (k, k))
+
+def b7_d3_simpl(r, lv):
+    a = r.randint(-6, 9); big = r.random() < 0.5
+    cond = 'x\\gt %d' % a if big else 'x\\lt %d' % a
+    good = lin((1, 'x'), (-a, '')) if big else lin((a, ''), (-1, 'x'))
+    other = lin((a, ''), (-1, 'x')) if big else lin((1, 'x'), (-a, ''))
+    return dict(en='Simplify \\(\\sqrt{(x%s)^2}\\) for \\(%s\\).' % (mono(-a, '', False) if a else '', cond), vi='Rút gọn \\(\\sqrt{(x%s)^2}\\) với \\(%s\\).' % (mono(-a, '', False) if a else '', cond),
+                opts=pick_opts(r, good, [other, lin((1, 'x'), (a, '')) if a else '-x', '(x%s)^2' % (mono(-a, '', False) if a else '')]), ans=0,
+                ee='\\(\\sqrt{A^2}=|A|\\); here \\(x%s\\) is %s.' % (mono(-a, '', False) if a else '', 'positive' if big else 'negative'), ev='\\(\\sqrt{A^2}=|A|\\); ở đây \\(x%s\\) %s.' % (mono(-a, '', False) if a else '', 'dương' if big else 'âm'))
+
+def b7_d3_compare(r, lv):
+    m = r.randint(2, 12); n = m * m + r.choice([-3, -2, -1, 1, 2, 3])
+    s = '\\gt ' if n > m * m else '\\lt '
+    return dict(en='Compare \\(%d\\) and \\(\\sqrt{%d}\\) without a calculator.' % (m, n), vi='So sánh \\(%d\\) và \\(\\sqrt{%d}\\) mà không dùng máy tính.' % (m, n),
+                opts=['%d%s\\sqrt{%d}' % (m, '\\lt ' if s == '\\gt ' else '\\gt ', n), '%d%s\\sqrt{%d}' % (m, s, n), '%d=\\sqrt{%d}' % (m, n), '%d\\ge\\sqrt{%d}' % (m, n) if s == '\\gt ' else '%d\\le\\sqrt{%d}' % (m, n)], ans=0,
+                ee='\\(%d=\\sqrt{%d}\\) and \\(%d%s%d\\).' % (m, m * m, m * m, '\\lt ' if s == '\\gt ' else '\\gt ', n), ev='\\(%d=\\sqrt{%d}\\) và \\(%d%s%d\\).' % (m, m * m, m * m, '\\lt ' if s == '\\gt ' else '\\gt ', n))
+
+def b7_d3_value(r, lv):
+    a, b = nz(r, -5, 6), r.randint(-10, 10); k = r.randint(1, 9); v = F(k * k - b, a)
+    assert v.denominator == 1
+    E = lin((a, 'x'), (b, ''))
+    return dict(en='Find the value of \\(\\sqrt{%s}\\) at \\(x=%s\\).' % (E, fr(v)), vi='Tính giá trị của \\(\\sqrt{%s}\\) tại \\(x=%s\\).' % (E, fr(v)), opts=pick_opts(r, str(k), [str(-k), str(k * k), str(k + 1)]), ans=0,
+                ee='The radicand equals \\(%d\\), so the value is \\(\\sqrt{%d}=%d\\).' % (k * k, k * k, k), ev='Biểu thức dưới dấu căn bằng \\(%d\\) nên giá trị là \\(\\sqrt{%d}=%d\\).' % (k * k, k * k, k))
+
+def b7_d4_square(r, lv):
+    s = r.randint(4, 40); S = s * s
+    return dict(en='A square garden has an area of %d m². How many meters of fence are needed to go around it?' % S, vi='Một mảnh vườn hình vuông có diện tích %d m². Cần bao nhiêu mét hàng rào để rào quanh mảnh vườn?' % S,
+                opts=pick_opts(r, '%d\\text{ m}' % (4 * s), ['%d\\text{ m}' % o for o in (s, 2 * s, S // 4 if S // 4 != 4 * s else S)]), ans=0,
+                ee='Side \\(=\\sqrt{%d}=%d\\) m; perimeter \\(=4\\cdot%d=%d\\) m.' % (S, s, s, 4 * s), ev='Cạnh \\(=\\sqrt{%d}=%d\\) m; chu vi \\(=4\\cdot%d=%d\\) m.' % (S, s, s, 4 * s))
+
+def b7_d4_poly(r, lv):
+    a = r.randint(1, 6); v = a + r.randint(1, 9)
+    E = 'x^2-%dx+%d' % (2 * a, a * a)
+    return dict(en='Given \\(A=\\sqrt{%s}\\) with \\(x\\gt %d\\). Find \\(A\\) at \\(x=%d\\).' % (E, a, v), vi='Cho \\(A=\\sqrt{%s}\\) với \\(x\\gt %d\\). Tính \\(A\\) tại \\(x=%d\\).' % (E, a, v),
+                opts=pick_opts(r, str(v - a), [str(a - v), str(v + a), str((v - a) ** 2)]), ans=0,
+                ee='\\(A=\\sqrt{(x-%d)^2}=|x-%d|=x-%d\\) (because \\(x\\gt %d\\)); at \\(x=%d\\): \\(A=%d\\).' % (a, a, a, a, v, v - a),
+                ev='\\(A=\\sqrt{(x-%d)^2}=|x-%d|=x-%d\\) (vì \\(x\\gt %d\\)); tại \\(x=%d\\): \\(A=%d\\).' % (a, a, a, a, v, v - a))
+
+def b7_d4_int(r, lv):
+    while True:
+        a, b = r.randint(1, 4), r.choice([2, 3, 5, 6, 7, 10, 11, 13])
+        if b > a * a: break
+    E = '\\sqrt{(%d+\\sqrt{%d})^2}-\\sqrt{(%d-\\sqrt{%d})^2}' % (a, b, a, b)
+    return dict(en='Compute \\(A=%s\\) without a calculator.' % E, vi='Tính \\(A=%s\\) mà không dùng máy tính.' % E, opts=[str(2 * a), '2\\sqrt{%d}' % b, '0', str(-2 * a)], ans=0,
+                ee='\\(%d-\\sqrt{%d}\\lt0\\) because \\(%d\\lt %d\\); so \\(A=(%d+\\sqrt{%d})-(\\sqrt{%d}-%d)=%d\\).' % (a, b, a * a, b, a, b, b, a, 2 * a),
+                ev='\\(%d-\\sqrt{%d}\\lt0\\) vì \\(%d\\lt %d\\); nên \\(A=(%d+\\sqrt{%d})-(\\sqrt{%d}-%d)=%d\\).' % (a, b, a * a, b, a, b, b, a, 2 * a))
+
+L7_GROUPS = [[('mcq', b7_roots), ('mcq', b7_arith), ('mcq', b7_dk)], [('tf', b7_tf_abs), ('tf', b7_tf_def)], [('short', b7_short_sum), ('short', b7_short_round)],
+             [('mcq', b7_d1_none), ('mcq', b7_d1_sq), ('mcq', b7_d1_radicand)], [('mcq', b7_d2_abs), ('mcq', b7_d2_xsq), ('mcq', b7_d2_dk2)],
+             [('mcq', b7_d3_simpl), ('mcq', b7_d3_compare), ('mcq', b7_d3_value)], [('mcq', b7_d4_square), ('mcq', b7_d4_poly), ('mcq', b7_d4_int)]]
+
+# =====================================================================================================
+# BÀI 8. Khai căn bậc hai với phép nhân và phép chia
+# =====================================================================================================
+SQF = [2, 3, 5, 6, 7, 10]
+def b8_mul(r, lv):
+    m = r.choice(SQF); p, q = r.randint(1, 6), r.randint(1, 6); a, b = m * p * p, m * q * q
+    assert a != b
+    return dict(en='Compute \\(\\sqrt{%d}\\cdot\\sqrt{%d}\\).' % (a, b), vi='Tính \\(\\sqrt{%d}\\cdot\\sqrt{%d}\\).' % (a, b), opts=pick_opts(r, str(m * p * q), ['\\sqrt{%d}' % (a + b), str(a * b), str(m * p * q + 1)]), ans=0,
+                ee='\\(\\sqrt{%d}\\cdot\\sqrt{%d}=\\sqrt{%d}=%d\\).' % (a, b, a * b, m * p * q), ev='\\(\\sqrt{%d}\\cdot\\sqrt{%d}=\\sqrt{%d}=%d\\).' % (a, b, a * b, m * p * q))
+
+def b8_quot(r, lv):
+    p, q = r.randint(1, 15), r.randint(2, 16); f = F(p, q); assert f.denominator == q and p != q
+    return dict(en='Compute \\(\\sqrt{\\dfrac{%d}{%d}}\\).' % (p * p, q * q), vi='Tính \\(\\sqrt{\\dfrac{%d}{%d}}\\).' % (p * p, q * q), opts=pick_opts(r, fr(f), [fr(F(p * p, q)), fr(F(q, p)), '-' + fr(f)]), ans=0,
+                ee='\\(\\sqrt{\\dfrac{%d}{%d}}=\\dfrac{\\sqrt{%d}}{\\sqrt{%d}}=%s\\).' % (p * p, q * q, p * p, q * q, fr(f)), ev='\\(\\sqrt{\\dfrac{%d}{%d}}=\\dfrac{\\sqrt{%d}}{\\sqrt{%d}}=%s\\).' % (p * p, q * q, p * p, q * q, fr(f)))
+
+def b8_div(r, lv):
+    m = r.choice(SQF); k = r.randint(2, 12); a = m * k * k
+    return dict(en='Compute \\(\\dfrac{\\sqrt{%d}}{\\sqrt{%d}}\\).' % (a, m), vi='Tính \\(\\dfrac{\\sqrt{%d}}{\\sqrt{%d}}\\).' % (a, m), opts=pick_opts(r, str(k), [str(k * k), '\\sqrt{%d}' % (a - m), str(a // m // 2) if a // m // 2 != k else str(k + 1)]), ans=0,
+                ee='\\(\\dfrac{\\sqrt{%d}}{\\sqrt{%d}}=\\sqrt{\\dfrac{%d}{%d}}=\\sqrt{%d}=%d\\).' % (a, m, a, m, k * k, k), ev='\\(\\dfrac{\\sqrt{%d}}{\\sqrt{%d}}=\\sqrt{\\dfrac{%d}{%d}}=\\sqrt{%d}=%d\\).' % (a, m, a, m, k * k, k))
+
+def b8_tf_num(r, lv):
+    p, q = r.randint(2, 12), r.randint(2, 12); truth = r.random() < 0.5; c = p * q if truth else r.choice([p + q, p * q + 1, p * q * 2])
+    assert truth or c != p * q
+    return dict(en='\\(\\sqrt{%d\\cdot%d}=%d\\).' % (p * p, q * q, c), vi='\\(\\sqrt{%d\\cdot%d}=%d\\).' % (p * p, q * q, c), ans=truth,
+                ee='\\(\\sqrt{%d}\\cdot\\sqrt{%d}=%d\\cdot%d=%d\\).' % (p * p, q * q, p, q, p * q), ev='\\(\\sqrt{%d}\\cdot\\sqrt{%d}=%d\\cdot%d=%d\\).' % (p * p, q * q, p, q, p * q))
+
+def b8_tf_abs(r, lv):
+    k = r.randint(2, 9); v = r.choice(['x', 'a', 'm']); truth = r.random() < 0.5
+    rhs = '%d|%s|y^2' % (k, v) if truth else '%d%sy^2' % (k, v)
+    return dict(en='\\(\\sqrt{%d%s^2y^4}=%s\\) for all real numbers \\(%s, y\\).' % (k * k, v, rhs, v), vi='\\(\\sqrt{%d%s^2y^4}=%s\\) với mọi số thực \\(%s, y\\).' % (k * k, v, rhs, v), ans=truth,
+                ee='\\(\\sqrt{%d}\\cdot\\sqrt{%s^2}\\cdot\\sqrt{y^4}=%d|%s|y^2\\) (\\(y^2\\ge0\\) but \\(%s\\) may be negative).' % (k * k, v, k, v, v),
+                ev='\\(\\sqrt{%d}\\cdot\\sqrt{%s^2}\\cdot\\sqrt{y^4}=%d|%s|y^2\\) (\\(y^2\\ge0\\) nhưng \\(%s\\) có thể âm).' % (k * k, v, k, v, v))
+
+def b8_short_mul(r, lv):
+    m = r.choice(SQF); p, q = r.randint(1, 7), r.randint(2, 7); a, b = m * p * p, m * q * q; c = r.randint(1, 30)
+    return dict(en='Compute \\(\\sqrt{%d}\\cdot\\sqrt{%d}+%d\\).' % (a, b, c), vi='Tính \\(\\sqrt{%d}\\cdot\\sqrt{%d}+%d\\).' % (a, b, c), key=str(m * p * q + c),
+                ee='\\(\\sqrt{%d}=%d\\), so the result is \\(%d\\).' % (a * b, m * p * q, m * p * q + c), ev='\\(\\sqrt{%d}=%d\\), nên kết quả là \\(%d\\).' % (a * b, m * p * q, m * p * q + c))
+
+def b8_short_volt(r, lv):
+    U = r.choice([6, 9, 10, 12, 20, 24, 30, 40, 50]); R = r.choice([2, 3, 4, 5, 6, 8, 10, 12, 20]); P = F(U * U, R)
+    assert P.denominator == 1
+    return dict(en='The power of a device is \\(P=\\dfrac{U^2}{R}\\). With \\(P=%d\\) W and \\(R=%d\\ \\Omega\\), the voltage is \\(U=\\sqrt{P\\cdot R}\\). Find \\(U\\) (in volts).' % (P, R),
+                vi='Công suất của một thiết bị là \\(P=\\dfrac{U^2}{R}\\). Với \\(P=%d\\) W và \\(R=%d\\ \\Omega\\), hiệu điện thế là \\(U=\\sqrt{P\\cdot R}\\). Tính \\(U\\) (vôn).' % (P, R),
+                key=str(U), ee='\\(U=\\sqrt{%d\\cdot%d}=\\sqrt{%d}=%d\\) V.' % (P, R, U * U, U), ev='\\(U=\\sqrt{%d\\cdot%d}=\\sqrt{%d}=%d\\) V.' % (P, R, U * U, U))
+
+def b8_d1_cond(r, lv):
+    v1, v2 = r.choice([('A', 'B'), ('a', 'b'), ('M', 'N'), ('x', 'y')])
+    o = [tx('\\(%s\\ge0\\) and \\(%s\\ge0\\)' % (v1, v2), '\\(%s\\ge0\\) và \\(%s\\ge0\\)' % (v1, v2)), tx('for all \\(%s, %s\\)' % (v1, v2), 'với mọi \\(%s, %s\\)' % (v1, v2)),
+         tx('only \\(%s\\gt0\\)' % v1, 'chỉ cần \\(%s\\gt0\\)' % v1), tx('\\(%s\\ne0\\)' % v2, '\\(%s\\ne0\\)' % v2)]
+    return dict(en='The rule \\(\\sqrt{%s%s}=\\sqrt{%s}\\cdot\\sqrt{%s}\\) holds when…' % (v1, v2, v1, v2), vi='Quy tắc \\(\\sqrt{%s%s}=\\sqrt{%s}\\cdot\\sqrt{%s}\\) đúng khi…' % (v1, v2, v1, v2), opts=o, ans=0,
+                ee='Both factors must be non-negative.', ev='Cả hai thừa số phải không âm.')
+
+def b8_d1_qcond(r, lv):
+    v1, v2 = r.choice([('A', 'B'), ('a', 'b'), ('M', 'N'), ('x', 'y')])
+    o = [tx('\\(%s\\ge0\\) and \\(%s\\gt0\\)' % (v1, v2), '\\(%s\\ge0\\) và \\(%s\\gt0\\)' % (v1, v2)), tx('\\(%s\\ge0\\) and \\(%s\\ge0\\)' % (v1, v2), '\\(%s\\ge0\\) và \\(%s\\ge0\\)' % (v1, v2)),
+         tx('for all \\(%s, %s\\)' % (v1, v2), 'với mọi \\(%s, %s\\)' % (v1, v2)), tx('\\(%s\\gt0\\) and \\(%s\\ge0\\)' % (v1, v2), '\\(%s\\gt0\\) và \\(%s\\ge0\\)' % (v1, v2))]
+    return dict(en='The rule \\(\\sqrt{\\dfrac{%s}{%s}}=\\dfrac{\\sqrt{%s}}{\\sqrt{%s}}\\) holds when…' % (v1, v2, v1, v2), vi='Quy tắc \\(\\sqrt{\\dfrac{%s}{%s}}=\\dfrac{\\sqrt{%s}}{\\sqrt{%s}}\\) đúng khi…' % (v1, v2, v1, v2), opts=o, ans=0,
+                ee='The numerator must be non-negative and the denominator positive.', ev='Tử không âm và mẫu dương.')
+
+def b8_d1_num(r, lv):
+    p, q = r.randint(2, 15), r.randint(2, 15); assert p != q
+    return dict(en='Compute \\(\\sqrt{%d\\cdot%d}\\).' % (p * p, q * q), vi='Tính \\(\\sqrt{%d\\cdot%d}\\).' % (p * p, q * q), opts=pick_opts(r, str(p * q), [str(p + q), str(p * p * q * q), str(p * q * 2)]), ans=0,
+                ee='\\(\\sqrt{%d}\\cdot\\sqrt{%d}=%d\\cdot%d=%d\\).' % (p * p, q * q, p, q, p * q), ev='\\(\\sqrt{%d}\\cdot\\sqrt{%d}=%d\\cdot%d=%d\\).' % (p * p, q * q, p, q, p * q))
+
+def b8_d2_three(r, lv):
+    p, q, s = r.sample([2, 3, 5, 7, 11], 3)
+    return dict(en='Compute \\(\\sqrt{%d^2\\cdot%d^2\\cdot%d^2}\\).' % (p, q, s), vi='Tính \\(\\sqrt{%d^2\\cdot%d^2\\cdot%d^2}\\).' % (p, q, s), opts=pick_opts(r, str(p * q * s), [str(p + q + s), str((p * q * s) ** 2), str(p * q * s * 2)]), ans=0,
+                ee='\\(%d\\cdot%d\\cdot%d=%d\\).' % (p, q, s, p * q * s), ev='\\(%d\\cdot%d\\cdot%d=%d\\).' % (p, q, s, p * q * s))
+
+def b8_d2_neg(r, lv):
+    k = r.randint(2, 12); sign = r.choice(['\\lt ', '\\gt '])
+    good = '%da' % (-k) if sign == '\\lt ' else '%da' % k
+    return dict(en='Simplify \\(\\sqrt{%da^2}\\) for \\(a%s0\\).' % (k * k, sign), vi='Rút gọn \\(\\sqrt{%da^2}\\) với \\(a%s0\\).' % (k * k, sign),
+                opts=[good, '%da' % k if good.startswith('-') else '%da' % (-k), '%da' % (k * k), '\\pm %da' % k], ans=0,
+                ee='\\(\\sqrt{%da^2}=%d|a|=%s\\).' % (k * k, k, good), ev='\\(\\sqrt{%da^2}=%d|a|=%s\\).' % (k * k, k, good))
+
+def b8_d2_bracket(r, lv):
+    m = r.choice([2, 3, 5, 6, 7]); p = r.randint(2, 6); q = r.randint(1, 4); assert p != q
+    a, b = m * p * p, m * q * q        # √m(√a + √b) = m(p + q)
+    return dict(en='Compute \\(\\sqrt{%d}\\left(\\sqrt{%d}+\\sqrt{%d}\\right)\\).' % (m, a, b), vi='Tính \\(\\sqrt{%d}\\left(\\sqrt{%d}+\\sqrt{%d}\\right)\\).' % (m, a, b),
+                opts=pick_opts(r, str(m * (p + q)), [str(m * p * q), str(p + q), '\\sqrt{%d}' % (m * (a + b))]), ans=0,
+                ee='\\(\\sqrt{%d}+\\sqrt{%d}=%d+%d=%d\\).' % (m * a, m * b, m * p, m * q, m * (p + q)), ev='\\(\\sqrt{%d}+\\sqrt{%d}=%d+%d=%d\\).' % (m * a, m * b, m * p, m * q, m * (p + q)))
+
+def b8_d3_var(r, lv):
+    m = r.choice([2, 3, 5, 6, 7]); k = r.randint(2, 7)
+    return dict(en='Simplify \\(\\dfrac{\\sqrt{%da^3}}{\\sqrt{%da}}\\) with \\(a\\gt0\\).' % (m * k * k, m), vi='Rút gọn \\(\\dfrac{\\sqrt{%da^3}}{\\sqrt{%da}}\\) với \\(a\\gt0\\).' % (m * k * k, m),
+                opts=['%da' % k, '%da^2' % k, '%da' % (k * k), '%d\\sqrt{a}' % k], ans=0,
+                ee='\\(\\sqrt{\\dfrac{%da^3}{%da}}=\\sqrt{%da^2}=%da\\) (\\(a\\gt0\\)).' % (m * k * k, m, k * k, k), ev='\\(\\sqrt{\\dfrac{%da^3}{%da}}=\\sqrt{%da^2}=%da\\) (\\(a\\gt0\\)).' % (m * k * k, m, k * k, k))
+
+def b8_d3_four(r, lv):
+    k = r.randint(2, 12)
+    return dict(en='Simplify \\(\\sqrt{%da^4}\\).' % (k * k), vi='Rút gọn \\(\\sqrt{%da^4}\\).' % (k * k), opts=['%da^2' % k, '%d|a|' % k, '%da^4' % k, '%da^2' % (-k)], ans=0,
+                ee='\\(\\sqrt{%d}\\cdot\\sqrt{(a^2)^2}=%da^2\\) because \\(a^2\\ge0\\).' % (k * k, k), ev='\\(\\sqrt{%d}\\cdot\\sqrt{(a^2)^2}=%da^2\\) vì \\(a^2\\ge0\\).' % (k * k, k))
+
+def b8_d3_rect(r, lv):
+    m = r.choice(SQF); p, q = r.randint(1, 6), r.randint(1, 6); a, b = m * p * p, m * q * q
+    assert a != b
+    return dict(en='A rectangle has sides \\(\\sqrt{%d}\\) cm and \\(\\sqrt{%d}\\) cm. Find its area.' % (a, b), vi='Một hình chữ nhật có hai cạnh \\(\\sqrt{%d}\\) cm và \\(\\sqrt{%d}\\) cm. Tính diện tích hình chữ nhật.' % (a, b),
+                opts=pick_opts(r, '%d\\text{ cm}^2' % (m * p * q), ['\\sqrt{%d}\\text{ cm}^2' % (a + b), '%d\\text{ cm}^2' % (a * b), '%d\\text{ cm}^2' % (2 * m * p * q)]), ans=0,
+                ee='\\(S=\\sqrt{%d}\\cdot\\sqrt{%d}=\\sqrt{%d}=%d\\) cm².' % (a, b, a * b, m * p * q), ev='\\(S=\\sqrt{%d}\\cdot\\sqrt{%d}=\\sqrt{%d}=%d\\) cm².' % (a, b, a * b, m * p * q))
+
+def b8_d4_volt(r, lv):
+    q = b8_short_volt(r, lv); U = int(q['key'])
+    q = dict(q, opts=pick_opts(r, '%d\\text{ V}' % U, ['%d\\text{ V}' % o for o in (U * U, U // 2 if U // 2 else U + 1, U + 2)]), ans=0)
+    q['en'] = q['en'].replace('Find \\(U\\) (in volts).', 'Which value is \\(U\\)?'); q['vi'] = q['vi'].replace('Tính \\(U\\) (vôn).', '\\(U\\) bằng bao nhiêu?')
+    del q['key']; return q
+
+def b8_d4_frac(r, lv):
+    k = r.choice([2, 3, 5, 6, 7, 10]); c = r.randint(1, 6)
+    return dict(en='Simplify \\((a-%d)\\sqrt{\\dfrac{%d}{(a-%d)^2}}\\) with \\(a\\gt %d\\).' % (c, k, c, c), vi='Rút gọn \\((a-%d)\\sqrt{\\dfrac{%d}{(a-%d)^2}}\\) với \\(a\\gt %d\\).' % (c, k, c, c),
+                opts=['\\sqrt{%d}' % k, '-\\sqrt{%d}' % k, '(a-%d)\\sqrt{%d}' % (c, k), str(k)], ans=0,
+                ee='\\(\\sqrt{\\dfrac{%d}{(a-%d)^2}}=\\dfrac{\\sqrt{%d}}{|a-%d|}=\\dfrac{\\sqrt{%d}}{a-%d}\\) since \\(a\\gt %d\\); multiply by \\(a-%d\\).' % (k, c, k, c, k, c, c, c),
+                ev='\\(\\sqrt{\\dfrac{%d}{(a-%d)^2}}=\\dfrac{\\sqrt{%d}}{|a-%d|}=\\dfrac{\\sqrt{%d}}{a-%d}\\) vì \\(a\\gt %d\\); nhân với \\(a-%d\\).' % (k, c, k, c, k, c, c, c))
+
+def b8_d4_combo(r, lv):
+    m1, k1 = r.choice([2, 3, 5]), r.randint(2, 9); m2, k2 = r.choice([2, 3, 5]), r.randint(2, 6)
+    v = k1 - m2 * k2
+    A = '\\dfrac{\\sqrt{%d}}{\\sqrt{%d}}-\\sqrt{%d}\\cdot\\sqrt{%d}' % (m1 * k1 * k1, m1, m2, m2 * k2 * k2)
+    return dict(en='Compute \\(%s\\).' % A, vi='Tính \\(%s\\).' % A, opts=pick_opts(r, str(v), [str(k1 + m2 * k2), str(k1 * k1 - m2 * k2), str(-v) if v else '1']), ans=0,
+                ee='\\(\\sqrt{%d}=%d\\) and \\(\\sqrt{%d}=%d\\), so the result is \\(%d\\).' % (k1 * k1, k1, m2 * m2 * k2 * k2, m2 * k2, v),
+                ev='\\(\\sqrt{%d}=%d\\) và \\(\\sqrt{%d}=%d\\), nên kết quả là \\(%d\\).' % (k1 * k1, k1, m2 * m2 * k2 * k2, m2 * k2, v))
+
+def _isq(n):
+    s = int(round(n ** 0.5)); assert s * s == n; return s
+
+L8_GROUPS = [[('mcq', b8_mul), ('mcq', b8_quot), ('mcq', b8_div)], [('tf', b8_tf_num), ('tf', b8_tf_abs)], [('short', b8_short_mul), ('short', b8_short_volt)],
+             [('mcq', b8_d1_cond), ('mcq', b8_d1_qcond), ('mcq', b8_d1_num)], [('mcq', b8_d2_three), ('mcq', b8_d2_neg), ('mcq', b8_d2_bracket)],
+             [('mcq', b8_d3_var), ('mcq', b8_d3_four), ('mcq', b8_d3_rect)], [('mcq', b8_d4_volt), ('mcq', b8_d4_frac), ('mcq', b8_d4_combo)]]

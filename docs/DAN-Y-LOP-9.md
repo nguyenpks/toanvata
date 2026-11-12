@@ -1,6 +1,6 @@
 # DÀN Ý KHỐI LỚP 9 – Website "Toán và Tiếng Anh"
 
-> **Trạng thái: ĐÃ DUYỆT (12/11/2026).** Soạn lần lượt theo thứ tự bài, mỗi lần 4 bài. Đã soạn: Bài 1–4.
+> **Trạng thái: ĐÃ DUYỆT (12/11/2026).** Soạn lần lượt theo thứ tự bài, mỗi lần 4 bài. Đã soạn: Bài 1–8.
 > Tài liệu chuyên ngành: *Tài liệu hướng dẫn triển khai dạy học cấp THCS bằng tiếng Anh – Môn Toán – Khối 9* (Bộ GD&ĐT, Hà Nội 2026), gọi tắt **TLTA**. Số trang ghi theo mục lục TLTA.
 > Sách giáo khoa: **Toán 9 – Kết nối tri thức với cuộc sống (KNTT)**. Thứ tự 32 bài, 10 chương của TLTA trùng khớp hoàn toàn với KNTT (xem điểm cần quyết định Q1).
 
@@ -460,6 +460,7 @@ Nguyên tắc: **kiến thức, ký hiệu theo SGK KNTT**; TLTA dùng cho tiế
 | E1 | Lesson 1, Key Vocabulary | Nói $(2;0)$ và $\left(x;\dfrac{2-x}{3}\right)$ là nghiệm của $x+3y=3$ | Sai: thực ra là nghiệm của $x+3y=2$. |
 | E2 | Lesson 3, Key Vocabulary | "system of equations = phương trình" | Đúng là **hệ phương trình**. |
 | E3 | Đáp án Ch. 1 (Ex 4) | Ghi "Cost of a bagel: $3" hai lần | Thiếu giá lon nước cam (đúng là 2 đô la). |
+| E5 | Lesson 6, Worked Example 1b | Khai triển \((x+1)(2x-1)=2x^2+x-2\), ra \(x\le\dfrac94\) | Đúng là \(2x^2+x-1\), nghiệm \(x\le2\) (đã sửa ở Ví dụ 4 Bài 6). |
 | E4 | Lesson 29, Exercise 6b | "A và C nằm cùng phía đối với BD" trong tứ giác lồi | Mâu thuẫn: tứ giác lồi thì A, C khác phía BD. Không dùng câu này. |
 
 ---
@@ -537,3 +538,43 @@ Mỗi bài có 19 câu cho mỗi mức ngôn ngữ (ba bộ cùng dạng, khác 
 - Từ "nghiệm" và "vận tốc" trong từ điển chung đang gắn với "zero (root)" và "velocity" (dùng cho lớp 11–12). Ở câu hỏi lớp 9, chú thích tiếng Anh được đổi thành "solution" và "speed".
 - Hình vẽ là hình tĩnh vẽ bằng LaTeX (theo hệ thống hiện hành của website), không phải hình kéo thả tương tác.
 - Bài 4 không đặt bài trước bắt buộc (kiến thức nền là phân tích nhân tử, phân thức của lớp 8).
+
+## Kết quả soạn Bài 5–8 (12/11/2026)
+
+| Bài | Mã bài | Ví dụ (B / H / VT / V) | A / B / C | D1–D4 | Hình vẽ | Kiểm thử |
+|---|---|---|---|---|---|---|
+| 5 | `g9-lineq-02` | 5 (1 / 2 / 1 / 1) | 3 / 2 / 2 | 3 / 3 / 3 / 3 | — | đạt |
+| 6 | `g9-lineq-03` | 5 (1 / 2 / 1 / 1) | 3 / 2 / 2 | 3 / 3 / 3 / 3 | 4 trục số (chấm đặc / chấm rỗng) | đạt |
+| 7 | `g9-roots-01` | 5 (1 / 2 / 1 / 1) | 3 / 2 / 2 | 3 / 3 / 3 / 3 | — | đạt |
+| 8 | `g9-roots-02` | 5 (1 / 2 / 1 / 1) | 3 / 2 / 2 | 3 / 3 / 3 / 3 | — | đạt |
+
+Hình vẽ: nhãn điểm trên hình tọa độ được đặt tự động theo hướng vuông góc với các đường thẳng đi qua điểm (`sp_g9.auto_labels`), không bị đè hay bị cắt; trục số đặt nhãn đầu mút dưới chấm, bỏ vạch chia trùng.
+
+### Thuật ngữ mới (Bài 5–8)
+
+| Bài | Tiếng Anh | Tiếng Việt | Câu ví dụ | Nguồn |
+|---|---|---|---|---|
+| g9-lineq-02 | inequality | bất đẳng thức | An inequality is a statement comparing two expressions, such as a < b. | TLTA Ch.2 L5, tr. 18–19 |
+| g9-lineq-02 | left-hand side (LHS) | vế trái | In the inequality a < b, a is the left-hand side. | TLTA Ch.2 L5, tr. 18–19 |
+| g9-lineq-02 | right-hand side (RHS) | vế phải | In the inequality a < b, b is the right-hand side. | TLTA Ch.2 L5, tr. 18–19 |
+| g9-lineq-02 | same direction | cùng chiều | a < b and c < d are inequalities of the same direction. | TLTA Ch.2 L5, tr. 18–19 |
+| g9-lineq-02 | opposite direction | ngược chiều | a < b and c > d are inequalities of the opposite direction. | TLTA Ch.2 L5, tr. 18–19 |
+| g9-lineq-02 | inequality sign | dấu bất đẳng thức | When multiplying by a negative number, reverse the inequality sign. | TLTA Ch.2 L5, tr. 18–19 |
+| g9-lineq-02 | reverse the inequality sign | đổi chiều bất đẳng thức | Multiply by −2 and reverse the inequality sign. | TLTA Ch.2 L5, tr. 18–19 |
+| g9-lineq-03 | inequality (with a variable) | bất phương trình | 3x − 1 < 5 is an inequality in the variable x. | TLTA Ch.2 L6, tr. 20–21 |
+| g9-lineq-03 | linear inequality in one variable | bất phương trình bậc nhất một ẩn | 3x − 1 < 0 is a linear inequality in one variable. | TLTA Ch.2 L6, tr. 20–21 |
+| g9-lineq-03 | solution of an inequality | nghiệm của bất phương trình | x = 0 is a solution of the inequality 3x − 6 < 0. | TLTA Ch.2 L6, tr. 20–21 |
+| g9-lineq-03 | solve an inequality | giải bất phương trình | Solve the following inequalities. | TLTA Ch.2 L6, tr. 20–21 |
+| g9-lineq-03 | move a term to the other side | chuyển vế | Move −2 to the right-hand side and change its sign. | TLTA Ch.2 L6, tr. 20–21 |
+| g9-roots-01 | principal square root | căn bậc hai số học | The principal square root of 81 is 9, written √81 = 9. | TLTA Ch.3 L7, tr. 25–28 |
+| g9-roots-01 | square root expression | căn thức bậc hai | √(2x + 1) is a square root expression. | TLTA Ch.3 L7, tr. 25–28 |
+| g9-roots-01 | radicand | biểu thức lấy căn | The radicand of √(5 − 2x) is 5 − 2x. | TLTA Ch.3 L7, tr. 25–28 |
+| g9-roots-01 | non-negative | không âm | √A is defined only when A is non-negative. | TLTA Ch.3 L7, tr. 25–28 |
+| g9-roots-01 | identity | hằng đẳng thức | Apply the identity √(A²) = |A|. | TLTA Ch.3 L7, tr. 25–28 |
+| g9-roots-01 | round to two decimal places | làm tròn đến chữ số thập phân thứ hai | Rounding to two decimal places, √11.1 ≈ 3.33. | TLTA Ch.3 L7, tr. 25–28 |
+| g9-roots-01 | perfect square | số chính phương | 49 is a perfect square: 49 = 7². | TLTA Ch.3 L7, tr. 25–28 |
+| g9-roots-02 | take the square root | khai căn bậc hai | Take the square root of each factor. | TLTA Ch.3 L8, tr. 29–32 |
+| g9-roots-02 | product | tích | The square root of a product equals the product of the square roots. | TLTA Ch.3 L8, tr. 29–32 |
+| g9-roots-02 | the rule holds when … | quy tắc đúng khi | The rule √(AB) = √A·√B holds when A ≥ 0 and B ≥ 0. | TLTA Ch.3 L8, tr. 29–32 |
+| g9-roots-02 | strictly positive | dương | The denominator B must be strictly positive: B > 0. | TLTA Ch.3 L8, tr. 29–32 |
+| g9-roots-02 | take out of the root sign | đưa ra ngoài dấu căn | √(25a²b²) = 5|ab|: take 5|ab| out of the root sign. | TLTA Ch.3 L8, tr. 29–32 |

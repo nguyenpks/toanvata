@@ -55,7 +55,7 @@ phrases = [
 review = (T(r'<b>Lesson 1.</b> A solution of a system satisfies <b>both</b> equations; it is a common point of the two lines.', r'<b>Bài 1.</b> Nghiệm của hệ thỏa mãn <b>cả hai</b> phương trình; đó là điểm chung của hai đường thẳng.') +
           T(r'<b>Moving a term.</b> When a term moves to the other side, its sign changes: \(x-2y=1\Leftrightarrow x=1+2y\).', r'<b>Chuyển vế.</b> Khi chuyển một hạng tử sang vế kia thì phải đổi dấu: \(x-2y=1\Leftrightarrow x=1+2y\).'))
 
-G = lambda cfg, en, vi: GEO(cfg, cap=(en, vi), alt=(en, ''), height=300)
+G = lambda cfg, en, vi: GEO(sp_g9.auto_labels(cfg), cap=(en, vi), alt=(en, ''), height=300)
 def pt(i, x, y): return {'type': 'point', 'id': i, 'at': [x, y], 'name': i}
 
 theory = '<h3>5.1 %s</h3>' % TI('The substitution method', 'Phương pháp thế')
