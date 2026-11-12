@@ -7,7 +7,7 @@
   let STAGES = [
     { id: 'th', name: 'Tiểu học', range: 'Lớp 1 – Lớp 5', grades: [1, 2, 3, 4, 5], color: 'mint', hidden: true,
       desc: 'Làm quen số, phép tính và hình học đầu tiên, cùng những từ Toán tiếng Anh đơn giản.' },
-    { id: 'thcs', name: 'Trung học cơ sở', range: 'Lớp 6 – Lớp 9', grades: [6, 7, 8, 9], color: 'blue', hidden: true,
+    { id: 'thcs', name: 'Trung học cơ sở', range: 'Lớp 6 – Lớp 9', grades: [6, 7, 8, 9], color: 'blue',
       desc: 'Xây nền đại số, hình học và thống kê, chuẩn bị bước vào chương trình trung học phổ thông.' },
     { id: 'thpt', name: 'Trung học phổ thông', range: 'Lớp 10 – Lớp 12', grades: [10, 11, 12], color: 'lavender',
       desc: 'Hàm số, giải tích, vectơ, thống kê và xác suất, học song song tiếng Việt và tiếng Anh.' }
