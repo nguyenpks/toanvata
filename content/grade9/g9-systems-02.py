@@ -82,20 +82,20 @@ theory += '<h3>5.4 %s</h3>' % TI('Using a calculator', 'Dùng máy tính cầm t
 theory += BOX('yellow', ('Calculator', 'Máy tính cầm tay'),
   T(r'Choose the mode for systems of two linear equations in two variables, enter \(a, b, c\) of the first equation and \(a′, b′, c′\) of the second, then press “=” to read \(x\) and \(y\). Use it to <b>check</b> your work, not to skip the method.', r'Chọn chương trình giải hệ hai phương trình bậc nhất hai ẩn, nhập lần lượt \(a, b, c\) của phương trình thứ nhất và \(a′, b′, c′\) của phương trình thứ hai, rồi nhấn “=” để đọc \(x\), \(y\). Dùng [[máy tính cầm tay]] để <b>kiểm tra</b> kết quả, không thay cho cách giải.'))
 
-examples = EXAMPLE(1, ('Remembering', 'Biết'), ('Substitution', 'Phương pháp thế'),
+examples = EXAMPLE(1, ('Remembering', 'Nhận biết'), ('Substitution', 'Phương pháp thế'),
   T(r'Solve the system \(\begin{cases}x-2y=1\\ 3x+y=10\end{cases}\) by the substitution method.', r'Giải hệ \(\begin{cases}x-2y=1\\ 3x+y=10\end{cases}\) bằng phương pháp thế.'),
   ('In the first equation \\(x\\) has coefficient 1, so express \\(x\\) in terms of \\(y\\).', 'Ở phương trình thứ nhất, \\(x\\) có hệ số 1 nên rút \\(x\\) theo \\(y\\).'),
   [T(r'From the first equation: \(x=1+2y\).', r'Từ phương trình thứ nhất: \(x=1+2y\).'),
    T(r'Substitute into the second: \(3(1+2y)+y=10\Rightarrow 7y=7\Rightarrow y=1\).', r'Thế vào phương trình thứ hai: \(3(1+2y)+y=10\Rightarrow 7y=7\Rightarrow y=1\).'),
    T(r'Then \(x=1+2\cdot1=3\). Check: \(3-2=1\) ✓, \(9+1=10\) ✓.', r'Suy ra \(x=1+2\cdot1=3\). Thử lại: \(3-2=1\) ✓, \(9+1=10\) ✓.')],
   T(r'The solution is \((3;\ 1)\).', r'Hệ có nghiệm \((3;\ 1)\).'))
-examples += EXAMPLE(2, ('Understanding', 'Hiểu'), ('Elimination (equal coefficients)', 'Cộng đại số (hệ số bằng nhau)'),
+examples += EXAMPLE(2, ('Understanding', 'Thông hiểu'), ('Elimination (equal coefficients)', 'Cộng đại số (hệ số bằng nhau)'),
   T(r'Solve \(\begin{cases}2x+3y=7\\ 2x-y=3\end{cases}\).', r'Giải hệ \(\begin{cases}2x+3y=7\\ 2x-y=3\end{cases}\).'),
   ('The coefficients of \\(x\\) are equal (both 2): subtract.', 'Hệ số của \\(x\\) bằng nhau (cùng bằng 2): trừ từng vế.'),
   [T(r'Subtract the equations: \((2x+3y)-(2x-y)=7-3\Rightarrow 4y=4\Rightarrow y=1\).', r'Trừ từng vế: \((2x+3y)-(2x-y)=7-3\Rightarrow 4y=4\Rightarrow y=1\).'),
    T(r'Substitute \(y=1\) into \(2x-y=3\): \(2x=4\Rightarrow x=2\).', r'Thay \(y=1\) vào \(2x-y=3\): \(2x=4\Rightarrow x=2\).')],
   T(r'\((2;\ 1)\).', r'\((2;\ 1)\).'))
-examples += EXAMPLE(3, ('Understanding', 'Hiểu'), ('Multiply first, then add', 'Nhân rồi cộng đại số'),
+examples += EXAMPLE(3, ('Understanding', 'Thông hiểu'), ('Multiply first, then add', 'Nhân rồi cộng đại số'),
   T(r'Solve \(\begin{cases}3x+2y=4\\ 2x-3y=7\end{cases}\).', r'Giải hệ \(\begin{cases}3x+2y=4\\ 2x-3y=7\end{cases}\).'),
   ('No coefficients are equal or opposite yet. Multiply to make the coefficients of \\(y\\) opposite.', 'Chưa có hệ số nào bằng nhau hay đối nhau. Nhân để hệ số của \\(y\\) đối nhau.'),
   [T(r'Multiply the first equation by 3 and the second by 2: \(\begin{cases}9x+6y=12\\ 4x-6y=14\end{cases}\).', r'Nhân hai vế phương trình thứ nhất với 3, phương trình thứ hai với 2: \(\begin{cases}9x+6y=12\\ 4x-6y=14\end{cases}\).'),

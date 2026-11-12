@@ -69,20 +69,20 @@ theory += T(r'Shade the part of the number line that contains the solutions. A <
 theory += NL(2, '>', r'The solutions \(x\gt2\): open dot at 2, shading to the right.', r'Tập nghiệm \(x\gt2\): chấm rỗng tại 2, tô phần bên phải.', 'Number line: x greater than 2')
 theory += NL(-1, '<=', r'The solutions \(x\le-1\): filled dot at \(-1\), shading to the left.', r'Tập nghiệm \(x\le-1\): chấm đặc tại \(-1\), tô phần bên trái.', 'Number line: x less than or equal to minus 1')
 
-examples = EXAMPLE(1, ('Remembering', 'Biết'), ('Recognize and check', 'Nhận biết và kiểm tra nghiệm'),
+examples = EXAMPLE(1, ('Remembering', 'Nhận biết'), ('Recognize and check', 'Nhận biết và kiểm tra nghiệm'),
   T(r'a) Which are linear inequalities in one variable: \(3x+10\ge0\); \(0x-4\lt0\); \(x^2-1\le0\); \(\dfrac{x}{3}+2\gt0\)? b) Is \(x=0\) a solution of \(3x-6\lt0\)?', r'a) Bất phương trình nào là bất phương trình bậc nhất một ẩn: \(3x+10\ge0\); \(0x-4\lt0\); \(x^2-1\le0\); \(\dfrac{x}{3}+2\gt0\)? b) \(x=0\) có là nghiệm của \(3x-6\lt0\) không?'),
   ('Check the form \\(ax+b\\) with \\(a\\ne0\\); then substitute.', 'Kiểm tra dạng \\(ax+b\\) với \\(a\\ne0\\); sau đó thay số.'),
   [T(r'a) \(3x+10\ge0\) (\(a=3\)) and \(\dfrac{x}{3}+2\gt0\) (\(a=\dfrac13\)) are. \(0x-4\lt0\) has \(a=0\); \(x^2-1\le0\) contains \(x^2\).', r'a) \(3x+10\ge0\) (\(a=3\)) và \(\dfrac{x}{3}+2\gt0\) (\(a=\dfrac13\)) là bất phương trình bậc nhất một ẩn. \(0x-4\lt0\) có \(a=0\); \(x^2-1\le0\) chứa \(x^2\).'),
    T(r'b) \(3\cdot0-6=-6\lt0\) is true, so \(x=0\) is a solution.', r'b) \(3\cdot0-6=-6\lt0\) đúng nên \(x=0\) là một nghiệm.')],
   T(r'a) \(3x+10\ge0\) and \(\dfrac{x}{3}+2\gt0\). b) Yes.', r'a) \(3x+10\ge0\) và \(\dfrac{x}{3}+2\gt0\). b) Có.'))
-examples += EXAMPLE(2, ('Understanding', 'Hiểu'), ('A negative coefficient', 'Hệ số âm'),
+examples += EXAMPLE(2, ('Understanding', 'Thông hiểu'), ('A negative coefficient', 'Hệ số âm'),
   T(r'Solve \(-2x+10\ge0\) and show the solutions on a number line.', r'Giải bất phương trình \(-2x+10\ge0\) và biểu diễn tập nghiệm trên trục số.'),
   ('After moving 10, divide by \\(-2\\): reverse the sign.', 'Sau khi chuyển vế, chia cho \\(-2\\) thì phải đổi chiều.'),
   [T(r'\(-2x\ge-10\).', r'\(-2x\ge-10\).'),
    T(r'Divide by \(-2\lt0\): \(x\le5\).', r'Chia hai vế cho \(-2\lt0\): \(x\le5\).'),
    NL(5, '<=', r'\(x\le5\): filled dot at 5.', r'\(x\le5\): chấm đặc tại 5.', 'Number line: x less than or equal to 5')],
   T(r'\(x\le5\).', r'Nghiệm của bất phương trình là \(x\le5\).'))
-examples += EXAMPLE(3, ('Understanding', 'Hiểu'), ('Variables on both sides', 'Ẩn ở hai vế'),
+examples += EXAMPLE(3, ('Understanding', 'Thông hiểu'), ('Variables on both sides', 'Ẩn ở hai vế'),
   T(r'Solve \(5x-2\gt -3x+14\).', r'Giải bất phương trình \(5x-2\gt -3x+14\).'),
   ('Move the \\(x\\)-terms to the left and the numbers to the right.', 'Chuyển các hạng tử chứa \\(x\\) sang vế trái, các số sang vế phải.'),
   [T(r'\(5x+3x\gt 14+2\Leftrightarrow 8x\gt16\Leftrightarrow x\gt2\).', r'\(5x+3x\gt 14+2\Leftrightarrow 8x\gt16\Leftrightarrow x\gt2\).'),

@@ -70,19 +70,19 @@ theory += BOX('blue', ('Identity', 'Hằng đẳng thức'),
 theory += BOX('yellow', ('Watch out!', 'Lưu ý'),
   T(r'\(\sqrt{A^2}=A\) is true only when \(A\ge0\). For \(A\lt0\), \(\sqrt{A^2}=-A\).', r'\(\sqrt{A^2}=A\) chỉ đúng khi \(A\ge0\). Khi \(A\lt0\) thì \(\sqrt{A^2}=-A\).'))
 
-examples = EXAMPLE(1, ('Remembering', 'Biết'), ('Square roots of a number', 'Căn bậc hai của một số'),
+examples = EXAMPLE(1, ('Remembering', 'Nhận biết'), ('Square roots of a number', 'Căn bậc hai của một số'),
   T(r'Find the square roots of \(81\), \(\dfrac{4}{9}\), \(0\) and \(-16\).', r'Tìm các căn bậc hai của \(81\), \(\dfrac{4}{9}\), \(0\) và \(-16\).'),
   ('Positive: two opposite roots; 0: one root; negative: none.', 'Số dương: hai căn đối nhau; số 0: một căn; số âm: không có.'),
   [T(r'\(81\): \(9\) and \(-9\). \(\dfrac49\): \(\dfrac23\) and \(-\dfrac23\).', r'\(81\): \(9\) và \(-9\). \(\dfrac49\): \(\dfrac23\) và \(-\dfrac23\).'),
    T(r'\(0\): only \(0\). \(-16\): no square root.', r'\(0\): chỉ có \(0\). \(-16\): không có căn bậc hai.')],
   T(r'\(\pm9\); \(\pm\dfrac23\); \(0\); none.', r'\(\pm9\); \(\pm\dfrac23\); \(0\); không có.'))
-examples += EXAMPLE(2, ('Understanding', 'Hiểu'), ('When is it defined?', 'Điều kiện xác định'),
+examples += EXAMPLE(2, ('Understanding', 'Thông hiểu'), ('When is it defined?', 'Điều kiện xác định'),
   T(r'Find the condition for each expression to be defined: a) \(\sqrt{2x+1}\); b) \(\sqrt{5-2x}\).', r'Tìm điều kiện xác định của mỗi căn thức: a) \(\sqrt{2x+1}\); b) \(\sqrt{5-2x}\).'),
   ('The radicand must be non-negative.', 'Biểu thức lấy căn phải không âm.'),
   [T(r'a) \(2x+1\ge0\Leftrightarrow x\ge-\dfrac12\).', r'a) \(2x+1\ge0\Leftrightarrow x\ge-\dfrac12\).'),
    T(r'b) \(5-2x\ge0\Leftrightarrow -2x\ge-5\Leftrightarrow x\le\dfrac52\) (dividing by \(-2\) reverses the sign).', r'b) \(5-2x\ge0\Leftrightarrow -2x\ge-5\Leftrightarrow x\le\dfrac52\) (chia cho \(-2\) thì đổi chiều).')],
   T(r'a) \(x\ge-\dfrac12\); b) \(x\le\dfrac52\).', r'a) \(x\ge-\dfrac12\); b) \(x\le\dfrac52\).'))
-examples += EXAMPLE(3, ('Understanding', 'Hiểu'), ('Using √(A²) = |A|', 'Áp dụng √(A²) = |A|'),
+examples += EXAMPLE(3, ('Understanding', 'Thông hiểu'), ('Using √(A²) = |A|', 'Áp dụng √(A²) = |A|'),
   T(r'Compute a) \(\sqrt{(-7)^2}\); b) \(\sqrt{(2-\sqrt5)^2}\).', r'Tính a) \(\sqrt{(-7)^2}\); b) \(\sqrt{(2-\sqrt5)^2}\).'),
   ('Decide the sign of the expression inside the square.', 'Xét dấu biểu thức bên trong bình phương.'),
   [T(r'a) \(\sqrt{(-7)^2}=|-7|=7\).', r'a) \(\sqrt{(-7)^2}=|-7|=7\).'),

@@ -67,14 +67,14 @@ theory += TABLE([('Type', 'Dạng bài'), ('Relation to use', 'Mối liên hệ 
 theory += BOX('yellow', ('Watch out!', 'Lưu ý'),
   T(r'Write the units, and remember: a number of people or objects must be a positive whole number; a length, a price or a speed must be positive.', r'Ghi rõ đơn vị. Số người, số đồ vật phải là số tự nhiên khác 0; độ dài, giá tiền, vận tốc phải là số dương.'))
 
-examples = EXAMPLE(1, ('Remembering', 'Biết'), ('Total and difference', 'Tổng và hiệu'),
+examples = EXAMPLE(1, ('Remembering', 'Nhận biết'), ('Total and difference', 'Tổng và hiệu'),
   T(r'Classes 9A and 9B have 85 students in total. Class 9A has 3 more students than class 9B. How many students does each class have?', r'Hai lớp 9A và 9B có tổng cộng 85 học sinh. Lớp 9A nhiều hơn lớp 9B 3 học sinh. Hỏi mỗi lớp có bao nhiêu học sinh?'),
   ('Two unknowns: the numbers of students of the two classes.', 'Hai ẩn: số học sinh của hai lớp.'),
   [T(r'Let \(x\) and \(y\) be the numbers of students of 9A and 9B, respectively (\(x, y\) natural numbers, \(x\gt y\)).', r'Gọi \(x\), \(y\) lần lượt là số học sinh lớp 9A và 9B (\(x, y\) là số tự nhiên, \(x\gt y\)).'),
    T(r'System: \(\begin{cases}x+y=85\\ x-y=3\end{cases}\). Add: \(2x=88\Rightarrow x=44\); \(y=41\).', r'Ta có hệ \(\begin{cases}x+y=85\\ x-y=3\end{cases}\). Cộng từng vế: \(2x=88\Rightarrow x=44\); \(y=41\).'),
    T(r'Both are natural numbers and \(44\gt41\): the conditions hold.', r'Hai số đều là số tự nhiên và \(44\gt41\): thỏa mãn điều kiện.')],
   T(r'Class 9A has 44 students, class 9B has 41 students.', r'Lớp 9A có 44 học sinh, lớp 9B có 41 học sinh.'))
-examples += EXAMPLE(2, ('Understanding', 'Hiểu'), ('Shopping', 'Mua bán'),
+examples += EXAMPLE(2, ('Understanding', 'Thông hiểu'), ('Shopping', 'Mua bán'),
   T(r'Two bread rolls and one box of milk cost 40 thousand dong. Three bread rolls and two boxes of milk cost 65 thousand dong. Find the price of each item.', r'Mua 2 ổ bánh mì và 1 hộp sữa hết 40 nghìn đồng; mua 3 ổ bánh mì và 2 hộp sữa hết 65 nghìn đồng. Tìm giá mỗi ổ bánh mì và mỗi hộp sữa.'),
   ('money = price × quantity.', 'Số tiền = đơn giá × số lượng.'),
   [T(r'Let \(x\), \(y\) (thousand dong) be the prices of a bread roll and a box of milk (\(x\gt0,\ y\gt0\)).', r'Gọi \(x\), \(y\) (nghìn đồng) lần lượt là giá một ổ bánh mì và một hộp sữa (\(x\gt0,\ y\gt0\)).'),

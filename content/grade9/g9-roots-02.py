@@ -58,19 +58,19 @@ theory += BOX('mint', ('Rule', 'Quy tắc'),
 theory += BOX('yellow', ('Watch out!', 'Lưu ý'),
   T(r'With letters, keep the sign: \(\sqrt{9a^2}=3|a|\). It equals \(3a\) if \(a\ge0\) and \(-3a\) if \(a\lt0\). Also \(\sqrt{a+b}\ne\sqrt a+\sqrt b\) in general: \(\sqrt{9+16}=5\ne7\).', r'Với biểu thức chứa chữ phải giữ dấu: \(\sqrt{9a^2}=3|a|\), bằng \(3a\) nếu \(a\ge0\) và bằng \(-3a\) nếu \(a\lt0\). Ngoài ra, nói chung \(\sqrt{a+b}\ne\sqrt a+\sqrt b\): \(\sqrt{9+16}=5\ne7\).'))
 
-examples = EXAMPLE(1, ('Remembering', 'Biết'), ('Apply the rules', 'Áp dụng quy tắc'),
+examples = EXAMPLE(1, ('Remembering', 'Nhận biết'), ('Apply the rules', 'Áp dụng quy tắc'),
   T(r'Compute a) \(\sqrt{2^2\cdot3^2\cdot5^2}\); b) \(\sqrt{\dfrac{25}{49}}\).', r'Tính a) \(\sqrt{2^2\cdot3^2\cdot5^2}\); b) \(\sqrt{\dfrac{25}{49}}\).'),
   ('Take the square root of each factor / of the numerator and the denominator.', 'Khai căn từng thừa số / khai căn tử và mẫu.'),
   [T(r'a) \(\sqrt{2^2}\cdot\sqrt{3^2}\cdot\sqrt{5^2}=2\cdot3\cdot5=30\).', r'a) \(\sqrt{2^2}\cdot\sqrt{3^2}\cdot\sqrt{5^2}=2\cdot3\cdot5=30\).'),
    T(r'b) \(\dfrac{\sqrt{25}}{\sqrt{49}}=\dfrac57\).', r'b) \(\dfrac{\sqrt{25}}{\sqrt{49}}=\dfrac57\).')],
   T(r'a) \(30\); b) \(\dfrac57\).', r'a) \(30\); b) \(\dfrac57\).'))
-examples += EXAMPLE(2, ('Understanding', 'Hiểu'), ('Multiply the radicands', 'Nhân các căn thức'),
+examples += EXAMPLE(2, ('Understanding', 'Thông hiểu'), ('Multiply the radicands', 'Nhân các căn thức'),
   T(r'Compute \(\sqrt5\left(\sqrt{125}+\sqrt5\right)\).', r'Tính \(\sqrt5\left(\sqrt{125}+\sqrt5\right)\).'),
   ('Distribute, then use \\(\\sqrt A\\cdot\\sqrt B=\\sqrt{AB}\\).', 'Nhân phân phối rồi dùng \\(\\sqrt A\\cdot\\sqrt B=\\sqrt{AB}\\).'),
   [T(r'\(\sqrt5\cdot\sqrt{125}+\sqrt5\cdot\sqrt5=\sqrt{625}+\sqrt{25}\).', r'\(\sqrt5\cdot\sqrt{125}+\sqrt5\cdot\sqrt5=\sqrt{625}+\sqrt{25}\).'),
    T(r'\(=25+5=30\).', r'\(=25+5=30\).')],
   T(r'\(30\).', r'\(30\).'))
-examples += EXAMPLE(3, ('Understanding', 'Hiểu'), ('Divide the radicands', 'Chia hai căn thức'),
+examples += EXAMPLE(3, ('Understanding', 'Thông hiểu'), ('Divide the radicands', 'Chia hai căn thức'),
   T(r'Compute a) \(\dfrac{\sqrt{50}}{\sqrt2}\); b) \(\dfrac{\sqrt{45}}{\sqrt{80}}\).', r'Tính a) \(\dfrac{\sqrt{50}}{\sqrt2}\); b) \(\dfrac{\sqrt{45}}{\sqrt{80}}\).'),
   ('Use \\(\\dfrac{\\sqrt A}{\\sqrt B}=\\sqrt{\\dfrac AB}\\) and simplify the fraction first.', 'Dùng \\(\\dfrac{\\sqrt A}{\\sqrt B}=\\sqrt{\\dfrac AB}\\) và rút gọn phân số trước.'),
   [T(r'a) \(\sqrt{\dfrac{50}{2}}=\sqrt{25}=5\).', r'a) \(\sqrt{\dfrac{50}{2}}=\sqrt{25}=5\).'),

@@ -111,7 +111,7 @@ def BANK(groups, start=1, seeds=(911, 922, 933)):
 
 def ABCD_TITLES(nd=4):
     t = [('A. Multiple Choice', 'A. Trắc nghiệm nhiều lựa chọn'), ('B. True or False', 'B. Đúng hoặc sai'), ('C. Short Answer', 'C. Trả lời ngắn')]
-    t += [('D1. Self-practice – Remembering', 'D1. Tự luyện – Mức Biết'), ('D2. Self-practice – Understanding', 'D2. Tự luyện – Mức Hiểu'),
+    t += [('D1. Self-practice – Remembering', 'D1. Tự luyện – Mức Nhận biết'), ('D2. Self-practice – Understanding', 'D2. Tự luyện – Mức Thông hiểu'),
           ('D3. Self-practice – Basic application', 'D3. Tự luyện – Mức Vận dụng thấp'), ('D4. Self-practice – Advanced application', 'D4. Tự luyện – Mức Vận dụng')]
     return t
 
@@ -936,6 +936,12 @@ def auto_labels(cfg, dist=11):
     for s in steps:
         if s['type'] not in ('point', 'glider') or s.get('off') is not None: continue
         X, Y = s['at']; dirs = []
+        poly = [t for t in steps if t['type'] == 'polygon' and s['id'] in t['through']]
+        if poly:                                   # đỉnh đa giác: đặt nhãn theo phân giác ngoài (ra ngoài hình)
+            th = poly[0]['through']; i = th.index(s['id']); Pp, Q = pts[th[i - 1]], pts[th[(i + 1) % len(th)]]
+            u = (Pp[0] - X, Pp[1] - Y); v = (Q[0] - X, Q[1] - Y); nu, nv = _m.hypot(*u), _m.hypot(*v)
+            w = (-(u[0] / nu + v[0] / nv), -(u[1] / nu + v[1] / nv)); nw = _m.hypot(*w) or 1
+            s['off'] = [round(dist * w[0] / nw, 2), round(dist * w[1] / nw, 2)]; continue
         for t in steps:
             if t['type'] == 'lineeq' and abs(t['a'] * X + t['b'] * Y + t['c']) < 1e-9 * (abs(t['a']) + abs(t['b'])) + 1e-9:
                 dirs.append(_m.atan2(-t['a'], t['b']))
@@ -1585,3 +1591,418 @@ def _isq(n):
 L8_GROUPS = [[('mcq', b8_mul), ('mcq', b8_quot), ('mcq', b8_div)], [('tf', b8_tf_num), ('tf', b8_tf_abs)], [('short', b8_short_mul), ('short', b8_short_volt)],
              [('mcq', b8_d1_cond), ('mcq', b8_d1_qcond), ('mcq', b8_d1_num)], [('mcq', b8_d2_three), ('mcq', b8_d2_neg), ('mcq', b8_d2_bracket)],
              [('mcq', b8_d3_var), ('mcq', b8_d3_four), ('mcq', b8_d3_rect)], [('mcq', b8_d4_volt), ('mcq', b8_d4_frac), ('mcq', b8_d4_combo)]]
+
+# =====================================================================================================
+# BÀI 9. Biến đổi đơn giản và rút gọn biểu thức chứa căn thức bậc hai
+# =====================================================================================================
+SQF2 = [2, 3, 5, 6, 7, 10, 11, 13, 14, 15]
+def rad(k, m):
+    """k√m dạng tex (k nguyên khác 0)."""
+    return ('' if k == 1 else '-' if k == -1 else str(k)) + '\\sqrt{%d}' % m
+
+def b9_out(r, lv):
+    k, m = r.randint(2, 9), r.choice(SQF2)
+    return dict(en='Take a factor out of the root sign: \\(\\sqrt{%d}\\).' % (k * k * m), vi='Đưa thừa số ra ngoài dấu căn: \\(\\sqrt{%d}\\).' % (k * k * m),
+                opts=pick_opts(r, rad(k, m), [rad(m, k) if m != k else rad(k + 1, m), rad(k * k, m), '\\sqrt{%d}' % (k * m)]), ans=0,
+                ee='\\(%d=%d^2\\cdot%d\\), so \\(\\sqrt{%d}=%s\\).' % (k * k * m, k, m, k * k * m, rad(k, m)), ev='\\(%d=%d^2\\cdot%d\\) nên \\(\\sqrt{%d}=%s\\).' % (k * k * m, k, m, k * k * m, rad(k, m)))
+
+def b9_in(r, lv):
+    k, m = nz(r, -9, 9), r.choice(SQF2); assert abs(k) > 1
+    good = ('-' if k < 0 else '') + '\\sqrt{%d}' % (k * k * m)
+    return dict(en='Take the factor into the root sign: \\(%s\\).' % rad(k, m), vi='Đưa thừa số vào trong dấu căn: \\(%s\\).' % rad(k, m),
+                opts=pick_opts(r, good, [('' if k < 0 else '-') + '\\sqrt{%d}' % (k * k * m), '\\sqrt{%d}' % (abs(k) * m) if k > 0 else '-\\sqrt{%d}' % (abs(k) * m), '\\sqrt{%d}' % (k * k * m) if k < 0 else '\\sqrt{%d}' % (k * m * m)]), ans=0,
+                ee='%s' % ('\\(%d\\gt0\\): \\(%s=\\sqrt{%d^2\\cdot%d}\\).' % (k, rad(k, m), k, m) if k > 0 else '\\(%d\\lt0\\): keep the minus sign outside: \\(%s=-\\sqrt{%d^2\\cdot%d}\\).' % (k, rad(k, m), -k, m)),
+                ev='%s' % ('\\(%d\\gt0\\): \\(%s=\\sqrt{%d^2\\cdot%d}\\).' % (k, rad(k, m), k, m) if k > 0 else '\\(%d\\lt0\\): giữ dấu trừ ở ngoài: \\(%s=-\\sqrt{%d^2\\cdot%d}\\).' % (k, rad(k, m), -k, m)))
+
+def b9_ratc(r, lv):
+    m = r.choice(SQF2); c = m * r.randint(1, 6) if r.random() < 0.5 else r.randint(1, 9)
+    f = F(c, m); num = ('' if f.numerator == 1 else str(f.numerator)) + '\\sqrt{%d}' % m
+    good = num if f.denominator == 1 else '\\dfrac{%s}{%d}' % (num, f.denominator)
+    bads = ['\\dfrac{%d}{%d}' % (c, m), '\\dfrac{%d\\sqrt{%d}}{%d}' % (c, m, m * m) if c != m else '\\dfrac{\\sqrt{%d}}{%d}' % (m, m), '%d\\sqrt{%d}' % (c * m, m)]
+    return dict(en='Rationalize the denominator: \\(\\dfrac{%d}{\\sqrt{%d}}\\).' % (c, m), vi='Trục căn thức ở mẫu: \\(\\dfrac{%d}{\\sqrt{%d}}\\).' % (c, m), opts=pick_opts(r, good, bads), ans=0,
+                ee='Multiply the numerator and the denominator by \\(\\sqrt{%d}\\): \\(\\dfrac{%d\\sqrt{%d}}{%d}\\), then simplify: \\(%s\\).' % (m, c, m, m, good), ev='Nhân cả tử và mẫu với \\(\\sqrt{%d}\\): \\(\\dfrac{%d\\sqrt{%d}}{%d}\\), rút gọn được \\(%s\\).' % (m, c, m, m, good))
+
+def b9_tf_cmp(r, lv):
+    a, b, c, d = r.randint(2, 7), r.choice(SQF2), r.randint(2, 7), r.choice(SQF2)
+    x, y = a * a * b, c * c * d; assert x != y
+    claim = r.choice(['\\gt ', '\\lt ']); truth = (x > y) == (claim == '\\gt ')
+    return dict(en='\\(%s%s%s\\).' % (rad(a, b), claim, rad(c, d)), vi='\\(%s%s%s\\).' % (rad(a, b), claim, rad(c, d)), ans=truth,
+                ee='\\(%s=\\sqrt{%d}\\), \\(%s=\\sqrt{%d}\\); compare \\(%d\\) and \\(%d\\).' % (rad(a, b), x, rad(c, d), y, x, y), ev='\\(%s=\\sqrt{%d}\\), \\(%s=\\sqrt{%d}\\); so sánh \\(%d\\) và \\(%d\\).' % (rad(a, b), x, rad(c, d), y, x, y))
+
+def b9_tf_neg(r, lv):
+    k, m = r.randint(2, 9), r.choice(SQF2); truth = r.random() < 0.5
+    rhs = rad(k, m) if truth else rad(-k, m)
+    return dict(en='\\(\\sqrt{(-%d)^2\\cdot%d}=%s\\).' % (k, m, rhs), vi='\\(\\sqrt{(-%d)^2\\cdot%d}=%s\\).' % (k, m, rhs), ans=truth,
+                ee='\\(\\sqrt{A^2B}=|A|\\sqrt{B}\\): \\(|-%d|\\sqrt{%d}=%s\\).' % (k, m, rad(k, m)), ev='\\(\\sqrt{A^2B}=|A|\\sqrt{B}\\): \\(|-%d|\\sqrt{%d}=%s\\).' % (k, m, rad(k, m)))
+
+def b9_short_comb(r, lv):
+    m = r.choice([2, 3, 5, 6, 7]); p, q, s_ = r.sample(range(1, 7), 3); a, b = r.randint(1, 4), nz(r, -3, 3)
+    t = a * p + b * q - s_
+    E = '%d\\sqrt{%d}%s\\sqrt{%d}-\\sqrt{%d}' % (a, p * p * m, ('+%d' % b if b > 0 else '%d' % b) if abs(b) != 1 else ('+' if b > 0 else '-'), q * q * m, s_ * s_ * m)
+    return dict(en='Write \\(%s\\) in the form \\(t\\sqrt{%d}\\). Find \\(t\\).' % (E, m), vi='Viết \\(%s\\) dưới dạng \\(t\\sqrt{%d}\\). Tìm \\(t\\).' % (E, m), key=str(t),
+                ee='\\(%d\\cdot%d%s%s-%d=%d\\).' % (a, p, '+' if b > 0 else '-', '%d\\cdot%d' % (abs(b), q), s_, t), ev='\\(%d\\cdot%d%s%s-%d=%d\\).' % (a, p, '+' if b > 0 else '-', '%d\\cdot%d' % (abs(b), q), s_, t))
+
+def b9_short_conj(r, lv):
+    while True:
+        k = r.randint(1, 5); n = r.choice(SQF2); d = n - k * k
+        if d != 0 and abs(d) <= 4: break
+    c = d * r.randint(1, 4); A, B = F(c * k, d), F(c, d)
+    return dict(en='Rationalize the denominator of \\(\\dfrac{%d}{\\sqrt{%d}-%d}\\) and write it as \\(a+b\\sqrt{%d}\\). Find \\(a+b\\).' % (c, n, k, n),
+                vi='Trục căn thức ở mẫu của \\(\\dfrac{%d}{\\sqrt{%d}-%d}\\) và viết dưới dạng \\(a+b\\sqrt{%d}\\). Tìm \\(a+b\\).' % (c, n, k, n), key=fr(A + B),
+                ee='Multiply by the conjugate \\(\\sqrt{%d}+%d\\): \\(\\dfrac{%d(\\sqrt{%d}+%d)}{%d}=%s+%s\\sqrt{%d}\\).' % (n, k, c, n, k, d, fr(A), fr(B), n),
+                ev='Nhân với biểu thức liên hợp \\(\\sqrt{%d}+%d\\): \\(\\dfrac{%d(\\sqrt{%d}+%d)}{%d}=%s+%s\\sqrt{%d}\\).' % (n, k, c, n, k, d, fr(A), fr(B), n))
+
+def b9_d1_abs(r, lv):
+    v = r.choice(['a', 'x', 'm']); m = r.choice(SQF2)
+    return dict(en='For \\(%s\\lt0\\), \\(\\sqrt{%s^2\\cdot%d}\\) is equal to…' % (v, v, m), vi='Với \\(%s\\lt0\\), \\(\\sqrt{%s^2\\cdot%d}\\) bằng…' % (v, v, m),
+                opts=['-%s\\sqrt{%d}' % (v, m), '%s\\sqrt{%d}' % (v, m), '%s^2\\sqrt{%d}' % (v, m), '\\sqrt{%d}%s' % (m, v)], ans=0,
+                ee='\\(\\sqrt{%s^2\\cdot%d}=|%s|\\sqrt{%d}=-%s\\sqrt{%d}\\) because \\(%s\\lt0\\).' % (v, m, v, m, v, m, v), ev='\\(\\sqrt{%s^2\\cdot%d}=|%s|\\sqrt{%d}=-%s\\sqrt{%d}\\) vì \\(%s\\lt0\\).' % (v, m, v, m, v, m, v))
+
+def b9_d1_conj(r, lv):
+    m, k = r.choice(SQF2), r.randint(1, 9); sign = r.choice(['-', '+'])
+    other = '+' if sign == '-' else '-'
+    return dict(en='What is the conjugate expression of \\(\\sqrt{%d}%s%d\\)?' % (m, sign, k), vi='Biểu thức liên hợp của \\(\\sqrt{%d}%s%d\\) là gì?' % (m, sign, k),
+                opts=['\\sqrt{%d}%s%d' % (m, other, k), '%d%s\\sqrt{%d}' % (k, sign, m), '\\sqrt{%d}%s%d' % (m, sign, k), '-\\sqrt{%d}%s%d' % (m, sign, k)], ans=0,
+                ee='Change the sign between the two terms; the product is \\(%d-%d\\).' % (m, k * k), ev='Đổi dấu giữa hai hạng tử; tích của chúng là \\(%d-%d\\).' % (m, k * k))
+
+def b9_d1_write(r, lv):
+    k, m = r.randint(2, 12), r.choice(SQF2)
+    return dict(en='Write \\(\\sqrt{%d}\\) in the form \\(a\\sqrt{b}\\) with \\(b=%d\\).' % (k * k * m, m), vi='Viết \\(\\sqrt{%d}\\) dưới dạng \\(a\\sqrt{b}\\) với \\(b=%d\\).' % (k * k * m, m),
+                opts=pick_opts(r, rad(k, m), [rad(k * k, m), rad(k + 1, m), rad(k - 1, m) if k > 2 else rad(k + 2, m)]), ans=0, ee='\\(\\sqrt{%d^2\\cdot%d}=%s\\).' % (k, m, rad(k, m)), ev='\\(\\sqrt{%d^2\\cdot%d}=%s\\).' % (k, m, rad(k, m)))
+
+def b9_d2_inneg(r, lv):
+    k, m = r.randint(2, 9), r.choice(SQF2)
+    return dict(en='Which expression equals \\(-%s\\)?' % rad(k, m), vi='Biểu thức nào bằng \\(-%s\\)?' % rad(k, m),
+                opts=['-\\sqrt{%d}' % (k * k * m), '\\sqrt{%d}' % (k * k * m), '\\sqrt{-%d}' % (k * k * m), '-\\sqrt{%d}' % (k * m)], ans=0,
+                ee='\\(%s=\\sqrt{%d}\\), so \\(-%s=-\\sqrt{%d}\\).' % (rad(k, m), k * k * m, rad(k, m), k * k * m), ev='\\(%s=\\sqrt{%d}\\) nên \\(-%s=-\\sqrt{%d}\\).' % (rad(k, m), k * k * m, rad(k, m), k * k * m))
+
+def b9_d2_clear(r, lv):
+    p, q = r.choice([(1, 2), (1, 3), (2, 3), (3, 5), (2, 5), (1, 5), (3, 7), (5, 6), (1, 6), (2, 7)])
+    return dict(en='Clear the fraction inside the root: \\(\\sqrt{\\dfrac{%d}{%d}}\\).' % (p, q), vi='Khử mẫu của biểu thức lấy căn: \\(\\sqrt{\\dfrac{%d}{%d}}\\).' % (p, q),
+                opts=['\\dfrac{\\sqrt{%d}}{%d}' % (p * q, q), '\\dfrac{\\sqrt{%d}}{%d}' % (p * q, q * q), '\\dfrac{\\sqrt{%d}}{%d}' % (p, q), '\\dfrac{%d\\sqrt{%d}}{%d}' % (p, q, q * q)], ans=0,
+                ee='\\(\\sqrt{\\dfrac{%d}{%d}}=\\sqrt{\\dfrac{%d\\cdot%d}{%d^2}}=\\dfrac{\\sqrt{%d}}{%d}\\).' % (p, q, p, q, q, p * q, q), ev='\\(\\sqrt{\\dfrac{%d}{%d}}=\\sqrt{\\dfrac{%d\\cdot%d}{%d^2}}=\\dfrac{\\sqrt{%d}}{%d}\\).' % (p, q, p, q, q, p * q, q))
+
+def b9_d2_like(r, lv):
+    m = r.choice(SQF2); a, b, c = r.randint(2, 9), nz(r, -8, 8), r.randint(1, 6)
+    t = a + b - c; E = '%d\\sqrt{%d}%s\\sqrt{%d}-%s' % (a, m, ('+%d' % b if b > 0 else '%d' % b) if abs(b) != 1 else ('+' if b > 0 else '-'), m, rad(c, m))
+    good = rad(t, m) if t else '0'
+    return dict(en='Simplify \\(%s\\).' % E, vi='Rút gọn \\(%s\\).' % E, opts=pick_opts(r, good, [rad(t + 2, m) if t + 2 else '0', rad(a + b + c, m) if a + b + c else '0', '\\sqrt{%d}' % (abs(t) * m) if t else rad(1, m)], fill=lambda u: rad(t + 3 * u, m) if t + 3 * u else '1'), ans=0,
+                ee='Combine like radicals: \\((%d%s-%d)\\sqrt{%d}=%s\\).' % (a, mono(b, '', False), c, m, good), ev='Cộng các căn đồng dạng: \\((%d%s-%d)\\sqrt{%d}=%s\\).' % (a, mono(b, '', False), c, m, good))
+
+def b9_d3_simpl(r, lv):
+    m = r.choice([2, 3, 5, 6, 7]); p, q, s_ = r.sample(range(1, 7), 3); t = p + q - s_
+    E = '\\sqrt{%d}+\\sqrt{%d}-\\sqrt{%d}' % (p * p * m, q * q * m, s_ * s_ * m); good = rad(t, m) if t else '0'
+    return dict(en='Simplify \\(%s\\).' % E, vi='Rút gọn \\(%s\\).' % E, opts=pick_opts(r, good, ['\\sqrt{%d}' % ((p * p + q * q - s_ * s_) * m) if p * p + q * q - s_ * s_ > 0 else rad(t + 1, m) if t + 1 else '1', rad(p + q + s_, m), rad(t - 1, m) if t - 1 else '0'], fill=lambda u: rad(t + 2 * u, m) if t + 2 * u else '2'), ans=0,
+                ee='\\(%s+%s-%s=%s\\).' % (rad(p, m), rad(q, m), rad(s_, m), good), ev='\\(%s+%s-%s=%s\\).' % (rad(p, m), rad(q, m), rad(s_, m), good))
+
+def b9_d3_conj(r, lv):
+    while True:
+        k = r.randint(1, 4); n = r.choice(SQF2); d = n - k * k
+        if 1 <= d <= 3: break
+    c = d * r.randint(1, 3); B = c // d; A = c * k // d
+    good = '%s\\sqrt{%d}-%d' % ('' if B == 1 else B, n, A)
+    return dict(en='Rationalize the denominator: \\(\\dfrac{%d}{\\sqrt{%d}+%d}\\).' % (c, n, k), vi='Trục căn thức ở mẫu: \\(\\dfrac{%d}{\\sqrt{%d}+%d}\\).' % (c, n, k),
+                opts=pick_opts(r, good, ['%s\\sqrt{%d}+%d' % ('' if B == 1 else B, n, A), '%d-%s\\sqrt{%d}' % (A, '' if B == 1 else B, n), '\\dfrac{%d\\sqrt{%d}}{%d}' % (c, n, n)]), ans=0,
+                ee='Multiply by \\(\\sqrt{%d}-%d\\): the denominator becomes \\(%d-%d=%d\\).' % (n, k, n, k * k, d), ev='Nhân tử và mẫu với \\(\\sqrt{%d}-%d\\): mẫu trở thành \\(%d-%d=%d\\).' % (n, k, n, k * k, d))
+
+def b9_d3_cmp(r, lv):
+    while True:
+        a, b, c, d = r.randint(2, 7), r.choice(SQF2[:6]), r.randint(2, 7), r.choice(SQF2[:6])
+        if a * a * b != c * c * d and b != d: break
+    s = '\\gt ' if a * a * b > c * c * d else '\\lt '; o = '\\lt ' if s == '\\gt ' else '\\gt '
+    return dict(en='Compare \\(%s\\) and \\(%s\\) without a calculator.' % (rad(a, b), rad(c, d)), vi='So sánh \\(%s\\) và \\(%s\\) mà không dùng máy tính.' % (rad(a, b), rad(c, d)),
+                opts=['%s%s%s' % (rad(a, b), s, rad(c, d)), '%s%s%s' % (rad(a, b), o, rad(c, d)), '%s=%s' % (rad(a, b), rad(c, d)), tx('cannot be compared', 'không so sánh được')], ans=0,
+                ee='Take the factors into the root: \\(\\sqrt{%d}\\) and \\(\\sqrt{%d}\\).' % (a * a * b, c * c * d), ev='Đưa thừa số vào trong dấu căn: \\(\\sqrt{%d}\\) và \\(\\sqrt{%d}\\).' % (a * a * b, c * c * d))
+
+def b9_d4_abs(r, lv):
+    m = r.choice([2, 3, 5, 6, 7]); p, q = r.randint(2, 6), r.randint(2, 6); assert p != q
+    E = '%d\\sqrt{%d}-\\sqrt{%d}+\\sqrt{(1-\\sqrt{%d})^2}' % (p, m, q * q * m, m); t = p - q + 1
+    good = '%s-1' % (rad(t, m) if t else '0') if t else '-1'
+    return dict(en='Simplify \\(A=%s\\).' % E, vi='Rút gọn \\(A=%s\\).' % E,
+                opts=pick_opts(r, good, ['%s+1' % rad(p - q - 1, m) if p - q - 1 else '1', '%s+1' % rad(t, m) if t else '1', '%s-1' % rad(p - q - 1, m) if p - q - 1 else '-1']), ans=0,
+                ee='\\(\\sqrt{%d}=%s\\); \\(1-\\sqrt{%d}\\lt0\\) so \\(\\sqrt{(1-\\sqrt{%d})^2}=\\sqrt{%d}-1\\).' % (q * q * m, rad(q, m), m, m, m),
+                ev='\\(\\sqrt{%d}=%s\\); \\(1-\\sqrt{%d}\\lt0\\) nên \\(\\sqrt{(1-\\sqrt{%d})^2}=\\sqrt{%d}-1\\).' % (q * q * m, rad(q, m), m, m, m))
+
+def b9_d4_rel(r, lv):
+    fr_, k = r.choice([((3, 5), F(5, 4)), ((4, 5), F(5, 3)), ((5, 13), F(13, 12)), ((12, 13), F(13, 5))])
+    m0 = (4 if k.denominator == 4 else 3 if k.denominator == 3 else 12 if k.denominator == 12 else 5) * r.randint(5, 20); m = m0 * k
+    return dict(en='In relativity, a body with rest mass \\(m_0\\) moving at speed \\(v\\) has mass \\(m=\\dfrac{m_0}{\\sqrt{1-\\frac{v^2}{c^2}}}\\) (\\(c\\) is the speed of light). Find \\(m\\) when \\(m_0=%d\\) kg and \\(v=\\dfrac{%d}{%d}c\\).' % (m0, fr_[0], fr_[1]),
+                vi='Theo thuyết tương đối, vật có khối lượng nghỉ \\(m_0\\) chuyển động với vận tốc \\(v\\) thì có khối lượng \\(m=\\dfrac{m_0}{\\sqrt{1-\\frac{v^2}{c^2}}}\\) (\\(c\\) là vận tốc ánh sáng). Tính \\(m\\) khi \\(m_0=%d\\) kg và \\(v=\\dfrac{%d}{%d}c\\).' % (m0, fr_[0], fr_[1]),
+                opts=pick_opts(r, '%s\\text{ kg}' % fr(m), ['%s\\text{ kg}' % fr(o) for o in (m0 * F(fr_[1], fr_[0]), m0 * (1 - F(fr_[0] ** 2, fr_[1] ** 2)), m0 / k)]), ans=0,
+                ee='\\(1-\\dfrac{v^2}{c^2}=1-\\dfrac{%d}{%d}=\\dfrac{%d}{%d}\\), whose square root is \\(%s\\); so \\(m=%d:%s=%s\\) kg.' % (fr_[0] ** 2, fr_[1] ** 2, fr_[1] ** 2 - fr_[0] ** 2, fr_[1] ** 2, fr(1 / k), m0, fr(1 / k), fr(m)),
+                ev='\\(1-\\dfrac{v^2}{c^2}=1-\\dfrac{%d}{%d}=\\dfrac{%d}{%d}\\), căn bậc hai bằng \\(%s\\); nên \\(m=%d:%s=%s\\) kg.' % (fr_[0] ** 2, fr_[1] ** 2, fr_[1] ** 2 - fr_[0] ** 2, fr_[1] ** 2, fr(1 / k), m0, fr(1 / k), fr(m)))
+
+def b9_d4_frac(r, lv):
+    a = r.randint(2, 6); x = r.choice([t for t in range(1, 50) if t != a * a and int(t ** 0.5) ** 2 == t])
+    val = F(2 * x, x - a * a); E = '\\sqrt{x}\\left(\\dfrac{1}{\\sqrt{x}+%d}-\\dfrac{1}{%d-\\sqrt{x}}\\right)' % (a, a)
+    return dict(en='Given \\(A=%s\\) (\\(x\\ge0,\\ x\\ne%d\\)). Simplify \\(A\\), then find \\(A\\) at \\(x=%d\\).' % (E, a * a, x), vi='Cho \\(A=%s\\) (\\(x\\ge0,\\ x\\ne%d\\)). Rút gọn \\(A\\) rồi tính \\(A\\) tại \\(x=%d\\).' % (E, a * a, x),
+                opts=pick_opts(r, fr(val), [fr(-val), fr(F(2 * x, x + a * a)), fr(F(x, x - a * a))]), ans=0,
+                ee='\\(A=\\dfrac{2x}{x-%d}\\); at \\(x=%d\\): \\(A=%s\\).' % (a * a, x, fr(val)), ev='\\(A=\\dfrac{2x}{x-%d}\\); tại \\(x=%d\\): \\(A=%s\\).' % (a * a, x, fr(val)))
+
+L9_GROUPS = [[('mcq', b9_out), ('mcq', b9_in), ('mcq', b9_ratc)], [('tf', b9_tf_cmp), ('tf', b9_tf_neg)], [('short', b9_short_comb), ('short', b9_short_conj)],
+             [('mcq', b9_d1_abs), ('mcq', b9_d1_conj), ('mcq', b9_d1_write)], [('mcq', b9_d2_inneg), ('mcq', b9_d2_clear), ('mcq', b9_d2_like)],
+             [('mcq', b9_d3_simpl), ('mcq', b9_d3_conj), ('mcq', b9_d3_cmp)], [('mcq', b9_d4_abs), ('mcq', b9_d4_rel), ('mcq', b9_d4_frac)]]
+
+# =====================================================================================================
+# BÀI 10. Căn bậc ba và căn thức bậc ba
+# =====================================================================================================
+def cube_frac(r):
+    if r.random() < 0.65:
+        s = F(nz(r, -12, 12)); return s ** 3, s
+    p, q = nz(r, -5, 5), r.randint(2, 6); s = F(p, q); assert s.denominator == q
+    return s ** 3, s
+
+def b10_val(r, lv):
+    c, s = cube_frac(r)
+    return dict(en='Compute \\(\\sqrt[3]{%s}\\).' % fr(c), vi='Tính \\(\\sqrt[3]{%s}\\).' % fr(c), opts=pick_opts(r, fr(s), [fr(-s), '\\pm ' + fr(abs(s)), fr(c / 3) if c / 3 not in (s, -s) else fr(s * 2)]), ans=0,
+                ee='\\((%s)^3=%s\\).' % (fr(s), fr(c)), ev='\\((%s)^3=%s\\).' % (fr(s), fr(c)))
+
+def b10_eq(r, lv):
+    s = nz(r, -10, 10); c = s ** 3
+    return dict(en='Solve \\(x^3=%d\\).' % c, vi='Giải phương trình \\(x^3=%d\\).' % c, opts=pick_opts(r, 'x=%d' % s, ['x=%d' % (-s), 'x=\\pm %d' % abs(s), 'x=%s' % fr(F(c, 3))]), ans=0,
+                ee='\\(x=\\sqrt[3]{%d}=%d\\).' % (c, s), ev='\\(x=\\sqrt[3]{%d}=%d\\).' % (c, s))
+
+def b10_dom(r, lv):
+    a, b = nz(r, -7, 7), r.randint(-9, 9); E = lin((a, 'x'), (b, '')) if b else lin((a, 'x'))
+    o = [tx('for every real number \\(x\\)', 'với mọi số thực \\(x\\)'), tx('only for \\(%s\\ge0\\)' % E, 'chỉ khi \\(%s\\ge0\\)' % E), tx('only for \\(x\\ge0\\)', 'chỉ khi \\(x\\ge0\\)'), tx('only for \\(%s\\ne0\\)' % E, 'chỉ khi \\(%s\\ne0\\)' % E)]
+    return dict(en='For which \\(x\\) is \\(\\sqrt[3]{%s}\\) defined?' % E, vi='\\(\\sqrt[3]{%s}\\) xác định khi nào?' % E, opts=o, ans=0,
+                ee='A cube root is defined for every real number (also negative ones).', ev='Căn bậc ba xác định với mọi số thực (kể cả số âm).')
+
+def b10_tf_neg(r, lv):
+    n = r.randint(2, 12); truth = r.random() < 0.5; rhs = -n if truth else n
+    return dict(en='\\(\\sqrt[3]{-%d}=%d\\).' % (n ** 3, rhs), vi='\\(\\sqrt[3]{-%d}=%d\\).' % (n ** 3, rhs), ans=truth, ee='\\((-%d)^3=-%d\\).' % (n, n ** 3), ev='\\((-%d)^3=-%d\\).' % (n, n ** 3))
+
+def b10_tf_cube(r, lv):
+    k = nz(r, -30, 30); truth = r.random() < 0.5; rhs = k if truth else k ** 3
+    assert truth or rhs != k
+    return dict(en='\\(\\left(\\sqrt[3]{%d}\\right)^3=%d\\).' % (k, rhs), vi='\\(\\left(\\sqrt[3]{%d}\\right)^3=%d\\).' % (k, rhs), ans=truth,
+                ee='\\(\\left(\\sqrt[3]{a}\\right)^3=a\\) for every \\(a\\).', ev='\\(\\left(\\sqrt[3]{a}\\right)^3=a\\) với mọi \\(a\\).')
+
+def b10_short_sum(r, lv):
+    a, b = nz(r, -9, 9), nz(r, -9, 9); k = r.choice([1, 2, -1])
+    E = '\\sqrt[3]{%d}%s\\sqrt[3]{%d}' % (a ** 3, '+' if k == 1 else '-' if k == -1 else '+2', b ** 3)
+    return dict(en='Compute \\(%s\\).' % E, vi='Tính \\(%s\\).' % E, key=str(a + k * b), ee='\\(%d%s=%d\\).' % (a, mono(k * b, '', False), a + k * b), ev='\\(%d%s=%d\\).' % (a, mono(k * b, '', False), a + k * b))
+
+def b10_short_calc(r, lv):
+    while True:
+        n = r.randint(2, 200)
+        if round(n ** (1 / 3)) ** 3 != n: break
+    v = n ** (1 / 3); key = '%.2f' % (math.floor(v * 100 + 0.5) / 100)
+    return dict(en='Use a calculator to find \\(\\sqrt[3]{%d}\\), rounded to two decimal places.' % n, vi='Dùng máy tính cầm tay tính \\(\\sqrt[3]{%d}\\), làm tròn đến chữ số thập phân thứ hai.' % n,
+                key=key, ee='\\(\\sqrt[3]{%d}\\approx %s\\).' % (n, key), ev='\\(\\sqrt[3]{%d}\\approx %s\\).' % (n, key.replace('.', '{,}')), hint=('Enter a decimal number (e.g. 2.29).', 'Nhập một số thập phân (ví dụ 2,29).'))
+
+def b10_d1_count(r, lv):
+    n = -r.randint(2, 99)
+    o = [tx('exactly one', 'đúng một'), tx('none', 'không có'), tx('two (opposite numbers)', 'hai (là hai số đối nhau)'), tx('three', 'ba')]
+    return dict(en='How many cube roots does the number \\(%d\\) have?' % n, vi='Số \\(%d\\) có bao nhiêu căn bậc ba?' % n, opts=o, ans=0, ee='Every real number has exactly one cube root.', ev='Mọi số thực đều có đúng một căn bậc ba.')
+
+def b10_d1_index(r, lv):
+    a = r.randint(2, 99)
+    return dict(en='In \\(\\sqrt[3]{%d}\\), what is the index of the root?' % a, vi='Trong \\(\\sqrt[3]{%d}\\), chỉ số của căn là bao nhiêu?' % a, opts=['3', '2', str(a), '1'], ans=0,
+                ee='The small number 3 is the index.', ev='Số 3 nhỏ phía trên là chỉ số của căn.')
+
+def b10_d1_def(r, lv):
+    s = nz(r, -15, 15)
+    return dict(en='\\(\\sqrt[3]{(%d)^3}\\) is equal to…' % s, vi='\\(\\sqrt[3]{(%d)^3}\\) bằng…' % s, opts=pick_opts(r, str(s), [str(-s), str(abs(s)) if abs(s) != s else str(s * 3), str(s ** 3)]), ans=0,
+                ee='\\(\\sqrt[3]{a^3}=a\\) for every \\(a\\).', ev='\\(\\sqrt[3]{a^3}=a\\) với mọi \\(a\\).')
+
+def b10_d2_frac(r, lv):
+    p, q = nz(r, -6, 6), r.randint(2, 7); s = F(p, q); assert s.denominator == q
+    return dict(en='Compute \\(\\sqrt[3]{%s}\\).' % fr(s ** 3), vi='Tính \\(\\sqrt[3]{%s}\\).' % fr(s ** 3), opts=pick_opts(r, fr(s), [fr(-s), fr(F(p ** 3, q)), fr(F(p, q ** 3))]), ans=0,
+                ee='\\(\\left(%s\\right)^3=%s\\).' % (fr(s), fr(s ** 3)), ev='\\(\\left(%s\\right)^3=%s\\).' % (fr(s), fr(s ** 3)))
+
+def b10_d2_value(r, lv):
+    a, b = nz(r, -5, 5), r.randint(-10, 10); s = nz(r, -5, 5); x = F(s ** 3 - b, a); assert x.denominator == 1
+    E = lin((a, 'x'), (b, '')) if b else lin((a, 'x'))
+    return dict(en='Find the value of \\(\\sqrt[3]{%s}\\) at \\(x=%s\\).' % (E, fr(x)), vi='Tính giá trị của \\(\\sqrt[3]{%s}\\) tại \\(x=%s\\).' % (E, fr(x)), opts=pick_opts(r, str(s), [str(-s), str(s ** 3), str(s + 1)]), ans=0,
+                ee='The radicand equals \\(%d\\), and \\(\\sqrt[3]{%d}=%d\\).' % (s ** 3, s ** 3, s), ev='Biểu thức dưới dấu căn bằng \\(%d\\), và \\(\\sqrt[3]{%d}=%d\\).' % (s ** 3, s ** 3, s))
+
+def b10_d2_cmp(r, lv):
+    m = nz(r, -8, 8); n = m ** 3 + r.choice([-2, -1, 1, 2]); s = '\\gt ' if m ** 3 > n else '\\lt '; o = '\\lt ' if s == '\\gt ' else '\\gt '
+    return dict(en='Compare \\(%d\\) and \\(\\sqrt[3]{%d}\\).' % (m, n), vi='So sánh \\(%d\\) và \\(\\sqrt[3]{%d}\\).' % (m, n),
+                opts=['%d%s\\sqrt[3]{%d}' % (m, s, n), '%d%s\\sqrt[3]{%d}' % (m, o, n), '%d=\\sqrt[3]{%d}' % (m, n), tx('cannot be compared', 'không so sánh được')], ans=0,
+                ee='\\(%d=\\sqrt[3]{%d}\\) and \\(%d%s%d\\).' % (m, m ** 3, m ** 3, s, n), ev='\\(%d=\\sqrt[3]{%d}\\) và \\(%d%s%d\\).' % (m, m ** 3, m ** 3, s, n))
+
+def b10_d3_eq(r, lv):
+    p, q = r.randint(-9, 9), nz(r, -5, 5)
+    return dict(en='Solve \\(\\sqrt[3]{x%s}=%d\\).' % (mono(p, '', False) if p else '', q), vi='Giải phương trình \\(\\sqrt[3]{x%s}=%d\\).' % (mono(p, '', False) if p else '', q),
+                opts=pick_opts(r, 'x=%d' % (q ** 3 - p), ['x=%d' % (q ** 3 + p), 'x=%d' % (q - p), 'x=%d' % (3 * q - p)]), ans=0,
+                ee='Cube both sides: \\(x%s=%d\\Rightarrow x=%d\\).' % (mono(p, '', False) if p else '', q ** 3, q ** 3 - p), ev='Lập phương hai vế: \\(x%s=%d\\Rightarrow x=%d\\).' % (mono(p, '', False) if p else '', q ** 3, q ** 3 - p))
+
+def b10_d3_edge(r, lv):
+    a = r.randint(2, 15); V = a ** 3
+    return dict(en='A cube has a volume of %d cm³. Find the length of its edge.' % V, vi='Một hình lập phương có thể tích %d cm³. Tính độ dài cạnh của nó.' % V,
+                opts=pick_opts(r, '%d\\text{ cm}' % a, ['%d\\text{ cm}' % o for o in (V // 3, a * a, a + 1)]), ans=0, ee='\\(a=\\sqrt[3]{%d}=%d\\) cm.' % (V, a), ev='\\(a=\\sqrt[3]{%d}=%d\\) cm.' % (V, a))
+
+def b10_d3_mix(r, lv):
+    p, q = nz(r, -20, 20), nz(r, -6, 6)
+    return dict(en='Compute \\(\\left(\\sqrt[3]{%d}\\right)^3+\\sqrt[3]{%d}\\).' % (p, q ** 3), vi='Tính \\(\\left(\\sqrt[3]{%d}\\right)^3+\\sqrt[3]{%d}\\).' % (p, q ** 3),
+                opts=pick_opts(r, str(p + q), [str(p + q ** 3), str(p - q), str(p * q)]), ans=0, ee='\\(%d+(%d)=%d\\).' % (p, q, p + q), ev='\\(%d+(%d)=%d\\).' % (p, q, p + q))
+
+def b10_d4_grow(r, lv):
+    a, b = r.sample(range(2, 12), 2); a, b = min(a, b), max(a, b)
+    return dict(en='A cubic tank is replaced by a bigger cubic tank. The volume increases from %d dm³ to %d dm³. By how many decimeters does the edge increase?' % (a ** 3, b ** 3),
+                vi='Một bể hình lập phương được thay bằng bể hình lập phương lớn hơn. Thể tích tăng từ %d dm³ lên %d dm³. Cạnh bể tăng thêm bao nhiêu đề-xi-mét?' % (a ** 3, b ** 3),
+                opts=pick_opts(r, str(b - a), [str(b ** 3 - a ** 3), str(b), str(b * b - a * a)]), ans=0, ee='\\(\\sqrt[3]{%d}-\\sqrt[3]{%d}=%d-%d=%d\\).' % (b ** 3, a ** 3, b, a, b - a), ev='\\(\\sqrt[3]{%d}-\\sqrt[3]{%d}=%d-%d=%d\\).' % (b ** 3, a ** 3, b, a, b - a))
+
+def b10_d4_eq2(r, lv):
+    k, s = r.choice([2, 3, 4, 5]), nz(r, -5, 5); m = r.randint(-20, 20); c = k * s ** 3 + m
+    return dict(en='Solve \\(%dx^3%s=%d\\).' % (k, mono(m, '', False) if m else '', c), vi='Giải phương trình \\(%dx^3%s=%d\\).' % (k, mono(m, '', False) if m else '', c),
+                opts=pick_opts(r, 'x=%d' % s, ['x=%d' % (-s), 'x=%d' % (s ** 3), 'x=%s' % fr(F(c - m, 3 * k))]), ans=0,
+                ee='\\(x^3=%d\\Rightarrow x=%d\\).' % (s ** 3, s), ev='\\(x^3=%d\\Rightarrow x=%d\\).' % (s ** 3, s))
+
+def b10_d4_box(r, lv):
+    a = r.choice([2, 3, 4, 5, 6, 8, 10]); L = a ** 3
+    return dict(en='A cube-shaped box holds exactly %d liters of water (1 liter = 1 dm³). What is the length of its edge in centimeters?' % L, vi='Một chiếc hộp hình lập phương chứa vừa đầy %d lít nước (1 lít = 1 dm³). Cạnh hộp dài bao nhiêu xăng-ti-mét?' % L,
+                opts=pick_opts(r, '%d\\text{ cm}' % (10 * a), ['%d\\text{ cm}' % o for o in (a, 100 * a, 10 * L // 3 if 10 * L // 3 != 10 * a else L)]), ans=0,
+                ee='Edge \\(=\\sqrt[3]{%d}=%d\\) dm \\(=%d\\) cm.' % (L, a, 10 * a), ev='Cạnh \\(=\\sqrt[3]{%d}=%d\\) dm \\(=%d\\) cm.' % (L, a, 10 * a))
+
+L10_GROUPS = [[('mcq', b10_val), ('mcq', b10_eq), ('mcq', b10_dom)], [('tf', b10_tf_neg), ('tf', b10_tf_cube)], [('short', b10_short_sum), ('short', b10_short_calc)],
+              [('mcq', b10_d1_count), ('mcq', b10_d1_index), ('mcq', b10_d1_def)], [('mcq', b10_d2_frac), ('mcq', b10_d2_value), ('mcq', b10_d2_cmp)],
+              [('mcq', b10_d3_eq), ('mcq', b10_d3_edge), ('mcq', b10_d3_mix)], [('mcq', b10_d4_grow), ('mcq', b10_d4_eq2), ('mcq', b10_d4_box)]]
+
+# =====================================================================================================
+# BÀI 11. Tỉ số lượng giác của góc nhọn
+# =====================================================================================================
+TRIPLES = [(3, 4, 5), (5, 12, 13), (8, 15, 17), (7, 24, 25), (20, 21, 29), (9, 40, 41)]
+def _tri(r):
+    a, b, c = r.choice(TRIPLES); k = r.choice([1, 1, 2, 3]); AB, AC = (a * k, b * k) if r.random() < 0.5 else (b * k, a * k)
+    return AB, AC, c * k          # tam giác ABC vuông tại A: AB, AC cạnh góc vuông, BC cạnh huyền
+
+RAT = {'sin': lambda AB, AC, BC: F(AC, BC), 'cos': lambda AB, AC, BC: F(AB, BC), 'tan': lambda AB, AC, BC: F(AC, AB), 'cot': lambda AB, AC, BC: F(AB, AC)}
+RATEN = {'sin': ('opposite / hypotenuse', 'cạnh đối / cạnh huyền'), 'cos': ('adjacent / hypotenuse', 'cạnh kề / cạnh huyền'), 'tan': ('opposite / adjacent', 'cạnh đối / cạnh kề'), 'cot': ('adjacent / opposite', 'cạnh kề / cạnh đối')}
+
+def b11_ratio(r, lv):
+    AB, AC, BC = _tri(r); f = r.choice(list(RAT)); v = RAT[f](AB, AC, BC)
+    others = [RAT[g](AB, AC, BC) for g in RAT if g != f]
+    return dict(en='Triangle \\(ABC\\) is right-angled at \\(A\\) with \\(AB=%d\\), \\(AC=%d\\), \\(BC=%d\\). Find \\(\\%s B\\).' % (AB, AC, BC, f), vi='Tam giác \\(ABC\\) vuông tại \\(A\\) có \\(AB=%d\\), \\(AC=%d\\), \\(BC=%d\\). Tính \\(\\%s B\\).' % (AB, AC, BC, f),
+                opts=pick_opts(r, fr(v), [fr(o) for o in others if o != v], fill=lambda t: fr(v + t)), ans=0,
+                ee='For angle \\(B\\): opposite side \\(AC\\), adjacent side \\(AB\\), hypotenuse \\(BC\\). \\(\\%s B=\\) %s \\(=%s\\).' % (f, RATEN[f][0], fr(v)),
+                ev='Với góc \\(B\\): cạnh đối \\(AC\\), cạnh kề \\(AB\\), cạnh huyền \\(BC\\). \\(\\%s B=\\) %s \\(=%s\\).' % (f, RATEN[f][1], fr(v)))
+
+SPECIAL = {('sin', 30): '\\dfrac{1}{2}', ('sin', 45): '\\dfrac{\\sqrt{2}}{2}', ('sin', 60): '\\dfrac{\\sqrt{3}}{2}', ('cos', 30): '\\dfrac{\\sqrt{3}}{2}', ('cos', 45): '\\dfrac{\\sqrt{2}}{2}', ('cos', 60): '\\dfrac{1}{2}',
+           ('tan', 30): '\\dfrac{\\sqrt{3}}{3}', ('tan', 45): '1', ('tan', 60): '\\sqrt{3}', ('cot', 30): '\\sqrt{3}', ('cot', 45): '1', ('cot', 60): '\\dfrac{\\sqrt{3}}{3}'}
+SPVAL = {'\\dfrac{1}{2}': 0.5, '\\dfrac{\\sqrt{2}}{2}': 2 ** 0.5 / 2, '\\dfrac{\\sqrt{3}}{2}': 3 ** 0.5 / 2, '\\dfrac{\\sqrt{3}}{3}': 3 ** 0.5 / 3, '1': 1.0, '\\sqrt{3}': 3 ** 0.5}
+def _trig(f, a):
+    x = math.radians(a); return {'sin': math.sin(x), 'cos': math.cos(x), 'tan': math.tan(x), 'cot': 1 / math.tan(x)}[f]
+
+def b11_special(r, lv):
+    f, a = r.choice(list(SPECIAL)); good = SPECIAL[(f, a)]; assert abs(SPVAL[good] - _trig(f, a)) < 1e-12
+    bads = [v for v in SPVAL if v != good]; r.shuffle(bads)
+    return dict(en='What is the exact value of \\(\\%s %d^\\circ\\)?' % (f, a), vi='Giá trị đúng của \\(\\%s %d^\\circ\\) là bao nhiêu?' % (f, a), opts=[good] + bads[:3], ans=0,
+                ee='From the table of special angles: \\(\\%s %d^\\circ=%s\\).' % (f, a, good), ev='Theo bảng giá trị lượng giác của các góc đặc biệt: \\(\\%s %d^\\circ=%s\\).' % (f, a, good))
+
+def b11_comp(r, lv):
+    a = r.randint(5, 85); assert a != 45; f = r.choice(['sin', 'cos', 'tan', 'cot']); g = {'sin': 'cos', 'cos': 'sin', 'tan': 'cot', 'cot': 'tan'}[f]
+    return dict(en='Which value is equal to \\(\\%s %d^\\circ\\)?' % (f, a), vi='Giá trị nào bằng \\(\\%s %d^\\circ\\)?' % (f, a),
+                opts=['\\%s %d^\\circ' % (g, 90 - a), '\\%s %d^\\circ' % (g, a), '\\%s %d^\\circ' % (f, 90 - a), '\\%s %d^\\circ' % (g, 180 - a)], ans=0,
+                ee='\\(%d^\\circ\\) and \\(%d^\\circ\\) are complementary angles, so \\(\\%s %d^\\circ=\\%s %d^\\circ\\).' % (a, 90 - a, f, a, g, 90 - a), ev='\\(%d^\\circ\\) và \\(%d^\\circ\\) là hai góc phụ nhau nên \\(\\%s %d^\\circ=\\%s %d^\\circ\\).' % (a, 90 - a, f, a, g, 90 - a))
+
+def b11_tf_def(r, lv):
+    f = r.choice(list(RAT)); V = r.choice(['B', 'C']); truth = r.random() < 0.5
+    # góc B: đối AC, kề AB; góc C: đối AB, kề AC
+    opp, adj = ('AC', 'AB') if V == 'B' else ('AB', 'AC')
+    cor = {'sin': (opp, 'BC'), 'cos': (adj, 'BC'), 'tan': (opp, adj), 'cot': (adj, opp)}[f]
+    wrong = {'sin': (adj, 'BC'), 'cos': (opp, 'BC'), 'tan': (adj, opp), 'cot': (opp, adj)}[f]
+    num, den = cor if truth else wrong; nm = r.choice(['ABC', 'ABC'])
+    return dict(en='Triangle \\(ABC\\) is right-angled at \\(A\\). Then \\(\\%s %s=\\dfrac{%s}{%s}\\).' % (f, V, num, den), vi='Tam giác \\(ABC\\) vuông tại \\(A\\). Khi đó \\(\\%s %s=\\dfrac{%s}{%s}\\).' % (f, V, num, den), ans=truth,
+                ee='For angle \\(%s\\), the opposite side is \\(%s\\) and the adjacent side is \\(%s\\): \\(\\%s %s=\\dfrac{%s}{%s}\\).' % (V, opp, adj, f, V, cor[0], cor[1]), ev='Với góc \\(%s\\), cạnh đối là \\(%s\\), cạnh kề là \\(%s\\): \\(\\%s %s=\\dfrac{%s}{%s}\\).' % (V, opp, adj, f, V, cor[0], cor[1]))
+
+def b11_tf_comp(r, lv):
+    a = r.randint(10, 80); truth = r.random() < 0.5; b = 90 - a if truth else 90 - a + r.choice([-10, -5, 5, 10])
+    return dict(en='\\(\\sin %d^\\circ=\\cos %d^\\circ\\).' % (a, b), vi='\\(\\sin %d^\\circ=\\cos %d^\\circ\\).' % (a, b), ans=truth,
+                ee='\\(\\sin\\alpha=\\cos(90^\\circ-\\alpha)\\); here \\(90^\\circ-%d^\\circ=%d^\\circ\\).' % (a, 90 - a), ev='\\(\\sin\\alpha=\\cos(90^\\circ-\\alpha)\\); ở đây \\(90^\\circ-%d^\\circ=%d^\\circ\\).' % (a, 90 - a))
+
+def b11_short_calc(r, lv):
+    f, a = r.choice(['sin', 'cos', 'tan']), r.randint(5, 85); v = _trig(f, a); key = '%.3f' % v
+    assert abs(float(key) - v) <= 0.0005
+    return dict(en='Use a calculator to find \\(\\%s %d^\\circ\\), rounded to three decimal places.' % (f, a), vi='Dùng máy tính cầm tay tính \\(\\%s %d^\\circ\\), làm tròn đến chữ số thập phân thứ ba.' % (f, a),
+                key=key, ee='\\(\\%s %d^\\circ\\approx %s\\) (calculator in degree mode).' % (f, a, key), ev='\\(\\%s %d^\\circ\\approx %s\\) (máy tính để ở chế độ độ).' % (f, a, key.replace('.', '{,}')), hint=('Enter a decimal number (e.g. 0.454).', 'Nhập một số thập phân (ví dụ 0,454).'))
+
+def b11_short_side(r, lv):
+    AB, AC, BC = _tri(r); f = r.choice(['sin', 'cos'])
+    v = RAT[f](AB, AC, BC); want, val = ('AC', AC) if f == 'sin' else ('AB', AB)
+    return dict(en='Triangle \\(ABC\\) is right-angled at \\(A\\), \\(BC=%d\\) cm and \\(\\%s B=%s\\). Find \\(%s\\) (cm).' % (BC, f, fr(v), want), vi='Tam giác \\(ABC\\) vuông tại \\(A\\), \\(BC=%d\\) cm và \\(\\%s B=%s\\). Tính \\(%s\\) (cm).' % (BC, f, fr(v), want),
+                key=str(val), ee='\\(%s=BC\\cdot\\%s B=%d\\cdot%s=%d\\) cm.' % (want, f, BC, fr(v), val), ev='\\(%s=BC\\cdot\\%s B=%d\\cdot%s=%d\\) cm.' % (want, f, BC, fr(v), val))
+
+def b11_d1_side(r, lv):
+    V = r.choice(['B', 'C']); kind = r.choice(['opposite', 'adjacent']); P_, Q_ = r.choice([('M', 'N'), ('D', 'E'), ('A', 'B')]) if False else ('', '')
+    opp, adj = ('AC', 'AB') if V == 'B' else ('AB', 'AC'); good = opp if kind == 'opposite' else adj
+    return dict(en='Triangle \\(ABC\\) is right-angled at \\(A\\). Which side is %s to angle \\(%s\\)?' % (kind, V), vi='Tam giác \\(ABC\\) vuông tại \\(A\\). Cạnh nào là cạnh %s của góc \\(%s\\)?' % ('đối' if kind == 'opposite' else 'kề', V),
+                opts=[good, adj if good == opp else opp, 'BC', tx('none of these', 'không có cạnh nào')], ans=0,
+                ee='The hypotenuse is \\(BC\\); for angle \\(%s\\) the opposite side is \\(%s\\) and the adjacent side is \\(%s\\).' % (V, opp, adj), ev='Cạnh huyền là \\(BC\\); với góc \\(%s\\), cạnh đối là \\(%s\\), cạnh kề là \\(%s\\).' % (V, opp, adj))
+
+def b11_d1_defn(r, lv):
+    f = r.choice(list(RAT)); al = r.choice(['\\alpha', '\\beta', 'B', 'C', 'x'])
+    order = [f] + [g for g in RAT if g != f]
+    return dict(en='\\(\\%s %s\\) of an acute angle \\(%s\\) in a right triangle is the ratio…' % (f, al, al), vi='\\(\\%s %s\\) của góc nhọn \\(%s\\) trong tam giác vuông là tỉ số…' % (f, al, al),
+                opts=[tx(RATEN[g][0], RATEN[g][1]) for g in order], ans=0, ee='\\(\\%s\\) = %s.' % (f, RATEN[f][0]), ev='\\(\\%s\\) = %s.' % (f, RATEN[f][1]))
+
+def b11_d1_tan45(r, lv):
+    f, a = r.choice([k for k in SPECIAL if SPECIAL[k] in ('1', '\\dfrac{1}{2}')]); good = SPECIAL[(f, a)]
+    return dict(en='\\(\\%s %d^\\circ\\) is equal to…' % (f, a), vi='\\(\\%s %d^\\circ\\) bằng…' % (f, a), opts=[good] + [v for v in ('\\dfrac{1}{2}', '1', '\\dfrac{\\sqrt{3}}{2}', '\\dfrac{\\sqrt{2}}{2}') if v != good][:3], ans=0,
+                ee='Table of special angles.', ev='Bảng giá trị lượng giác của các góc đặc biệt.')
+
+def b11_d2_cos(r, lv):
+    q = b11_ratio(r, lv); q['en'] = q['en'].replace('Find', 'Calculate'); q['vi'] = q['vi'].replace('Tính', 'Hãy tính'); return q
+
+def b11_d2_prod(r, lv):
+    a = r.randint(5, 85)
+    return dict(en='Compute \\(\\tan %d^\\circ\\cdot\\cot %d^\\circ\\).' % (a, a), vi='Tính \\(\\tan %d^\\circ\\cdot\\cot %d^\\circ\\).' % (a, a), opts=['1', '0', str(a), '\\tan^2 %d^\\circ' % a], ans=0,
+                ee='\\(\\tan\\alpha\\cdot\\cot\\alpha=\\dfrac{\\text{opp}}{\\text{adj}}\\cdot\\dfrac{\\text{adj}}{\\text{opp}}=1\\).', ev='\\(\\tan\\alpha\\cdot\\cot\\alpha=1\\) (hai tỉ số nghịch đảo nhau).')
+
+def b11_d2_cofn(r, lv):
+    a = r.randint(10, 80); p, q = r.randint(1, 7), r.randint(8, 15)
+    return dict(en='Given \\(\\sin %d^\\circ\\approx %s\\). What is \\(\\cos %d^\\circ\\)?' % (a, '%.4f' % math.sin(math.radians(a)), 90 - a), vi='Cho \\(\\sin %d^\\circ\\approx %s\\). Giá trị của \\(\\cos %d^\\circ\\) là bao nhiêu?' % (a, ('%.4f' % math.sin(math.radians(a))).replace('.', '{,}'), 90 - a),
+                opts=[tx('the same value, about %s' % ('%.4f' % math.sin(math.radians(a))), 'bằng đúng giá trị đó, khoảng %s' % ('%.4f' % math.sin(math.radians(a))).replace('.', ',')), tx('\\(1-\\sin %d^\\circ\\)' % a, '\\(1-\\sin %d^\\circ\\)' % a),
+                      tx('\\(\\dfrac{1}{\\sin %d^\\circ}\\)' % a, '\\(\\dfrac{1}{\\sin %d^\\circ}\\)' % a), tx('it cannot be found', 'không tính được')], ans=0,
+                ee='\\(%d^\\circ\\) and \\(%d^\\circ\\) are complementary: \\(\\cos %d^\\circ=\\sin %d^\\circ\\).' % (a, 90 - a, 90 - a, a), ev='\\(%d^\\circ\\) và \\(%d^\\circ\\) phụ nhau: \\(\\cos %d^\\circ=\\sin %d^\\circ\\).' % (a, 90 - a, 90 - a, a))
+
+def b11_d3_angle(r, lv):
+    AB, AC, BC = _tri(r); B = math.degrees(math.atan2(AC, AB)); n = round(B)
+    assert abs(B - n) < 0.45
+    return dict(en='Triangle \\(ABC\\) is right-angled at \\(A\\) with \\(AB=%d\\) and \\(AC=%d\\). Find angle \\(B\\), rounded to the nearest degree.' % (AB, AC), vi='Tam giác \\(ABC\\) vuông tại \\(A\\) có \\(AB=%d\\), \\(AC=%d\\). Tính góc \\(B\\) (làm tròn đến độ).' % (AB, AC),
+                opts=pick_opts(r, '%d^\\circ' % n, ['%d^\\circ' % (90 - n) if 90 - n != n else '%d^\\circ' % (n + 5), '%d^\\circ' % (n + 1), '%d^\\circ' % (n - 1)]), ans=0,
+                ee='\\(\\tan B=\\dfrac{AC}{AB}=%s\\Rightarrow B\\approx %d^\\circ\\).' % (fr(F(AC, AB)), n), ev='\\(\\tan B=\\dfrac{AC}{AB}=%s\\Rightarrow B\\approx %d^\\circ\\).' % (fr(F(AC, AB)), n))
+
+def b11_d3_spec(r, lv):
+    k = r.randint(2, 12); B = r.choice([30, 60])
+    AB = 'k' if False else None
+    # BC = 2k; B = 60° => AB = BC cos60 = k, AC = k√3 ; B = 30° => AB = k√3, AC = k
+    want = r.choice(['AB', 'AC']); val = {('AB', 60): str(k), ('AC', 60): '%d\\sqrt{3}' % k, ('AB', 30): '%d\\sqrt{3}' % k, ('AC', 30): str(k)}[(want, B)]
+    other = {('AB', 60): '%d\\sqrt{3}' % k, ('AC', 60): str(k), ('AB', 30): str(k), ('AC', 30): '%d\\sqrt{3}' % k}[(want, B)]
+    return dict(en='Triangle \\(ABC\\) is right-angled at \\(A\\), \\(BC=%d\\) cm and \\(\\widehat{B}=%d^\\circ\\). Find \\(%s\\).' % (2 * k, B, want), vi='Tam giác \\(ABC\\) vuông tại \\(A\\), \\(BC=%d\\) cm và \\(\\widehat{B}=%d^\\circ\\). Tính \\(%s\\).' % (2 * k, B, want),
+                opts=['%s\\text{ cm}' % val, '%s\\text{ cm}' % other, '%d\\text{ cm}' % (2 * k), '%d\\sqrt{2}\\text{ cm}' % k], ans=0,
+                ee='\\(%s=BC\\cdot\\%s %d^\\circ\\).' % (want, 'cos' if want == 'AB' else 'sin', B), ev='\\(%s=BC\\cdot\\%s %d^\\circ\\).' % (want, 'cos' if want == 'AB' else 'sin', B))
+
+def b11_d3_expr(r, lv):
+    c = r.choice([(30, 'sin', 'cos', '1'), (45, 'sin', 'cos', '1'), (60, 'sin', 'cos', '1')])
+    a = c[0]; k = r.randint(2, 5)
+    v = k * (math.sin(math.radians(a)) ** 2 + math.cos(math.radians(a)) ** 2); assert abs(v - k) < 1e-12
+    return dict(en='Compute \\(%d\\left(\\sin^2 %d^\\circ+\\cos^2 %d^\\circ\\right)\\).' % (k, a, a), vi='Tính \\(%d\\left(\\sin^2 %d^\\circ+\\cos^2 %d^\\circ\\right)\\).' % (k, a, a),
+                opts=[str(k), str(2 * k), '%d^2' % k, '0'], ans=0, ee='\\(\\sin^2 %d^\\circ+\\cos^2 %d^\\circ=1\\).' % (a, a), ev='\\(\\sin^2 %d^\\circ+\\cos^2 %d^\\circ=1\\).' % (a, a))
+
+def b11_d4_tan(r, lv):
+    a, b, c = r.choice(TRIPLES); f = r.choice(['tan', 'cot', 'cos'])
+    v = {'tan': F(a, b), 'cot': F(b, a), 'cos': F(b, c)}[f]
+    return dict(en='Given an acute angle \\(\\alpha\\) with \\(\\sin\\alpha=%s\\). Find \\(\\%s\\alpha\\).' % (fr(F(a, c)), f), vi='Cho góc nhọn \\(\\alpha\\) có \\(\\sin\\alpha=%s\\). Tính \\(\\%s\\alpha\\).' % (fr(F(a, c)), f),
+                opts=pick_opts(r, fr(v), [fr(o) for o in (F(a, b), F(b, a), F(b, c), F(c, b)) if o != v]), ans=0,
+                ee='Draw a right triangle with opposite side %d and hypotenuse %d; the adjacent side is \\(\\sqrt{%d^2-%d^2}=%d\\).' % (a, c, c, a, b), ev='Vẽ tam giác vuông có cạnh đối %d, cạnh huyền %d; cạnh kề bằng \\(\\sqrt{%d^2-%d^2}=%d\\).' % (a, c, c, a, b))
+
+def b11_d4_ladder(r, lv):
+    L = r.choice([4, 6, 8, 10]); ang = r.choice([30, 45, 60])
+    h = {30: '%d' % (L // 2), 45: '%d\\sqrt{2}' % (L // 2) if L // 2 != 1 else '\\sqrt{2}', 60: '%d\\sqrt{3}' % (L // 2) if L // 2 != 1 else '\\sqrt{3}'}[ang]
+    bad = [{30: '%d\\sqrt{3}' % (L // 2), 45: '%d' % (L // 2), 60: '%d' % (L // 2)}[ang], str(L), '%d\\sqrt{2}' % L]
+    return dict(en='A ladder %d m long leans against a wall and makes an angle of \\(%d^\\circ\\) with the horizontal ground. How high up the wall does it reach?' % (L, ang), vi='Một chiếc thang dài %d m dựa vào tường, tạo với mặt đất nằm ngang một góc \\(%d^\\circ\\). Đầu thang chạm tường ở độ cao bao nhiêu?' % (L, ang),
+                opts=pick_opts(r, '%s\\text{ m}' % h, ['%s\\text{ m}' % b for b in bad]), ans=0, ee='Height \\(=%d\\cdot\\sin %d^\\circ\\).' % (L, ang), ev='Độ cao \\(=%d\\cdot\\sin %d^\\circ\\).' % (L, ang))
+
+def b11_d4_cmp(r, lv):
+    a = r.randint(5, 85); assert a != 45
+    s = '\\lt ' if a < 45 else '\\gt '; o = '\\gt ' if s == '\\lt ' else '\\lt '
+    return dict(en='Compare \\(\\sin %d^\\circ\\) and \\(\\cos %d^\\circ\\) without a calculator.' % (a, a), vi='So sánh \\(\\sin %d^\\circ\\) và \\(\\cos %d^\\circ\\) mà không dùng máy tính.' % (a, a),
+                opts=['\\sin %d^\\circ%s\\cos %d^\\circ' % (a, s, a), '\\sin %d^\\circ%s\\cos %d^\\circ' % (a, o, a), '\\sin %d^\\circ=\\cos %d^\\circ' % (a, a), tx('cannot be compared', 'không so sánh được')], ans=0,
+                ee='\\(\\cos %d^\\circ=\\sin %d^\\circ\\), and the sine of an acute angle increases with the angle.' % (a, 90 - a), ev='\\(\\cos %d^\\circ=\\sin %d^\\circ\\); góc nhọn càng lớn thì sin càng lớn.' % (a, 90 - a))
+
+L11_GROUPS = [[('mcq', b11_ratio), ('mcq', b11_special), ('mcq', b11_comp)], [('tf', b11_tf_def), ('tf', b11_tf_comp)], [('short', b11_short_calc), ('short', b11_short_side)],
+              [('mcq', b11_d1_side), ('mcq', b11_d1_defn), ('mcq', b11_d1_tan45)], [('mcq', b11_d2_cos), ('mcq', b11_d2_prod), ('mcq', b11_d2_cofn)],
+              [('mcq', b11_d3_angle), ('mcq', b11_d3_spec), ('mcq', b11_d3_expr)], [('mcq', b11_d4_tan), ('mcq', b11_d4_ladder), ('mcq', b11_d4_cmp)]]

@@ -490,7 +490,8 @@ def geo_tex(cfg, height=360):
             else:
                 marks.append('\\tkzFillAngle[size=%s, fill=%s, fill opacity=0.3](%s,%s,%s)' % (fmt(r, 4), col('f59e0b'), a, v, b))
                 marks.append('\\tkzMarkAngle[size=%s, draw=%s, line width=0.7pt, mark=none](%s,%s,%s)' % (fmt(r, 4), col('b45309'), a, v, b))
-                marks.append('\\tkzLabelAngle[pos=%s, text=%s, font=\\footnotesize](%s,%s,%s){$%s^{\\circ}$}' % (fmt(r + 0.42 / ux * 1.0, 3), col('7c2d12'), a, v, b, fmt(ang, 1)))
+                if st.get('label', True) is not False:      # 'label': chữ thay cho số đo (ví dụ '\\alpha'); False = không ghi
+                    marks.append('\\tkzLabelAngle[pos=%s, text=%s, font=\\footnotesize](%s,%s,%s){$%s$}' % (fmt(r + 0.42 / ux * 1.0, 3), col('7c2d12'), a, v, b, st['label'] if isinstance(st.get('label'), str) else fmt(ang, 1) + '^{\\circ}'))
         elif t == 'text':
             labels.append('\\node[lab, font=\\normalsize] at (%s,%s) {%s};' % (fmt(st['at'][0], 5), fmt(st['at'][1], 5), lab(st['text'])))
         elif t == 'curve':

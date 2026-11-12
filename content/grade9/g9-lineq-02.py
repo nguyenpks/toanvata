@@ -63,18 +63,18 @@ theory += BOX('mint', ('Property', 'Tính chất'),
 theory += BOX('yellow', ('Watch out!', 'Lưu ý'),
   T(r'Dividing by \(c\) is multiplying by \(\dfrac{1}{c}\): divide by a negative number → reverse the sign. Example: \(-2x\lt 6\Leftrightarrow x\gt -3\).', r'Chia cho \(c\) là nhân với \(\dfrac{1}{c}\): chia cho số âm thì đổi chiều. Ví dụ: \(-2x\lt 6\Leftrightarrow x\gt -3\).'))
 
-examples = EXAMPLE(1, ('Remembering', 'Biết'), ('Describe a situation', 'Mô tả tình huống bằng bất đẳng thức'),
+examples = EXAMPLE(1, ('Remembering', 'Nhận biết'), ('Describe a situation', 'Mô tả tình huống bằng bất đẳng thức'),
   T(r'Write an inequality for each statement. a) The age \(a\) of a viewer must be at least 18. b) The load \(m\) (kg) of a lift cannot exceed 800 kg. c) The number of students \(s\) in a class is at most 45.', r'Viết bất đẳng thức mô tả mỗi câu. a) Tuổi \(a\) của người xem phải ít nhất là 18. b) Khối lượng \(m\) (kg) trong thang máy không được vượt quá 800 kg. c) Số học sinh \(s\) của một lớp nhiều nhất là 45.'),
   ('“at least” → \\(\\ge\\); “not exceed”, “at most” → \\(\\le\\).', '“ít nhất” → \\(\\ge\\); “không vượt quá”, “nhiều nhất” → \\(\\le\\).'),
   [T(r'a) \(a\ge 18\). b) \(m\le 800\). c) \(s\le 45\).', r'a) \(a\ge 18\). b) \(m\le 800\). c) \(s\le 45\).')],
   T(r'\(a\ge18\); \(m\le800\); \(s\le45\).', r'\(a\ge18\); \(m\le800\); \(s\le45\).'))
-examples += EXAMPLE(2, ('Understanding', 'Hiểu'), ('Compare using a middle number', 'So sánh nhờ số trung gian'),
+examples += EXAMPLE(2, ('Understanding', 'Thông hiểu'), ('Compare using a middle number', 'So sánh nhờ số trung gian'),
   T(r'Compare \(\dfrac{2026}{1012}\) and \(\dfrac{199}{100}\).', r'So sánh \(\dfrac{2026}{1012}\) và \(\dfrac{199}{100}\).'),
   ('Both fractions are close to 2. Compare each of them with 2.', 'Hai phân số đều gần bằng 2. So sánh từng phân số với 2.'),
   [T(r'\(\dfrac{2026}{1012}\gt\dfrac{2024}{1012}=2\) and \(\dfrac{199}{100}\lt\dfrac{200}{100}=2\).', r'\(\dfrac{2026}{1012}\gt\dfrac{2024}{1012}=2\) và \(\dfrac{199}{100}\lt\dfrac{200}{100}=2\).'),
    T(r'By the transitive property, \(\dfrac{199}{100}\lt2\lt\dfrac{2026}{1012}\).', r'Theo tính chất bắc cầu, \(\dfrac{199}{100}\lt2\lt\dfrac{2026}{1012}\).')],
   T(r'\(\dfrac{2026}{1012}\gt\dfrac{199}{100}\).', r'\(\dfrac{2026}{1012}\gt\dfrac{199}{100}\).'))
-examples += EXAMPLE(3, ('Understanding', 'Hiểu'), ('Use the properties', 'Vận dụng các tính chất'),
+examples += EXAMPLE(3, ('Understanding', 'Thông hiểu'), ('Use the properties', 'Vận dụng các tính chất'),
   T(r'Given \(a\lt b\). Prove that a) \(2a+3\lt 2b+3\); b) \(-2a-3b+1\gt -5b+1\).', r'Cho \(a\lt b\). Chứng minh: a) \(2a+3\lt 2b+3\); b) \(-2a-3b+1\gt -5b+1\).'),
   ('Multiply first, then add. Watch the sign of the number you multiply by.', 'Nhân trước rồi cộng. Chú ý dấu của số nhân vào.'),
   [T(r'a) \(a\lt b\) and \(2\gt0\): \(2a\lt 2b\). Add 3: \(2a+3\lt 2b+3\).', r'a) \(a\lt b\) và \(2\gt0\) nên \(2a\lt 2b\). Cộng 3 vào hai vế: \(2a+3\lt 2b+3\).'),

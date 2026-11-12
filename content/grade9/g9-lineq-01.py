@@ -79,19 +79,19 @@ theory += BOX('mint', ('Four steps', 'Bốn bước giải'),
       T(r'<b>Step 3.</b> Solve the new equation.', r'<b>Bước 3.</b> Giải phương trình vừa nhận được.'),
       T(r'<b>Step 4.</b> Conclude: only the values that satisfy the restriction are solutions.', r'<b>Bước 4.</b> Kết luận: trong các giá trị tìm được, chỉ những giá trị thỏa mãn điều kiện xác định mới là nghiệm.')]))
 
-examples = EXAMPLE(1, ('Remembering', 'Biết'), ('A product equation', 'Giải phương trình tích'),
+examples = EXAMPLE(1, ('Remembering', 'Nhận biết'), ('A product equation', 'Giải phương trình tích'),
   T(r'Solve \((2x+1)(3x-6)=0\).', r'Giải phương trình \((2x+1)(3x-6)=0\).'),
   ('Use the Zero-Product Property.', 'Dùng tính chất tích bằng 0.'),
   [T(r'\(2x+1=0\Rightarrow x=-\dfrac{1}{2}\).', r'\(2x+1=0\Rightarrow x=-\dfrac{1}{2}\).'),
    T(r'\(3x-6=0\Rightarrow x=2\).', r'\(3x-6=0\Rightarrow x=2\).')],
   T(r'\(x=-\dfrac{1}{2}\) or \(x=2\).', r'Phương trình có hai nghiệm \(x=-\dfrac{1}{2}\) và \(x=2\).'))
-examples += EXAMPLE(2, ('Understanding', 'Hiểu'), ('Factor first', 'Đưa về phương trình tích'),
+examples += EXAMPLE(2, ('Understanding', 'Thông hiểu'), ('Factor first', 'Đưa về phương trình tích'),
   T(r'Solve \((x^2-1)+(x+1)(x-2)=0\).', r'Giải phương trình \((x^2-1)+(x+1)(x-2)=0\).'),
   ('\\(x^2-1=(x+1)(x-1)\\), so \\(x+1\\) is a common factor.', '\\(x^2-1=(x+1)(x-1)\\) nên \\(x+1\\) là nhân tử chung.'),
   [T(r'\((x+1)(x-1)+(x+1)(x-2)=0\Leftrightarrow(x+1)(x-1+x-2)=0\Leftrightarrow(x+1)(2x-3)=0\).', r'\((x+1)(x-1)+(x+1)(x-2)=0\Leftrightarrow(x+1)(x-1+x-2)=0\Leftrightarrow(x+1)(2x-3)=0\).'),
    T(r'\(x+1=0\Rightarrow x=-1\); \(2x-3=0\Rightarrow x=\dfrac{3}{2}\).', r'\(x+1=0\Rightarrow x=-1\); \(2x-3=0\Rightarrow x=\dfrac{3}{2}\).')],
   T(r'\(x=-1\) or \(x=\dfrac{3}{2}\).', r'Phương trình có hai nghiệm \(x=-1\) và \(x=\dfrac{3}{2}\).'))
-examples += EXAMPLE(3, ('Understanding', 'Hiểu'), ('Four steps', 'Giải phương trình chứa ẩn ở mẫu'),
+examples += EXAMPLE(3, ('Understanding', 'Thông hiểu'), ('Four steps', 'Giải phương trình chứa ẩn ở mẫu'),
   T(r'Solve \(\dfrac{x+3}{x}=\dfrac{x+2}{x-2}\).', r'Giải phương trình \(\dfrac{x+3}{x}=\dfrac{x+2}{x-2}\).'),
   ('The denominators are \\(x\\) and \\(x-2\\).', 'Các mẫu thức là \\(x\\) và \\(x-2\\).'),
   [T(r'Restriction: \(x\ne0\) and \(x\ne2\).', r'Điều kiện xác định: \(x\ne0\) và \(x\ne2\).'),

@@ -26,7 +26,7 @@
 - Cấu trúc mỗi phần trong TLTA: *1. Key Vocabulary – 2. Useful Mathematical Expressions – 3. Worked Examples – 4. Worksheet*. Khai thác: mục 1 → **Từ vựng Toán học**; mục 2 → **Cụm từ tiếng Anh thường gặp**; mục 3–4 → dạng bài, tình huống thực tế (đổi số liệu, không chép nguyên).
 - Ngoài phần 1, TLTA còn có: **Part 2** – giáo án mẫu Bài 11, Bài 15; **Part 3** – đoạn giáo án *phương pháp thế* (Ch.1) và *bất phương trình bậc nhất hai ẩn* (thuộc lớp 10, không dùng); **Part 4** – 6 dự án nhỏ (Ch. 1, 4, 5, 8, 9, 10) → dùng làm tình huống cho mức **Vận dụng**.
 - Kiến thức nền ghi theo tên bài SGK lớp 8/9. Website hiện **chưa có bài lớp 6–8**, nên mục "Cần biết trước" chỉ ghi tên, chưa liên kết được.
-- Viết tắt 4 mức độ: **B** = Biết, **H** = Hiểu, **VT** = Vận dụng thấp, **V** = Vận dụng.
+- Viết tắt 4 mức độ: **NB** = Nhận biết, **TH** = Thông hiểu, **VT** = Vận dụng thấp, **V** = Vận dụng.
 
 ---
 
@@ -35,8 +35,8 @@
 
 ### Bài 1. Khái niệm phương trình và hệ hai phương trình bậc nhất hai ẩn — `g9-systems-01`
 *Linear Equations and Systems of Linear Equations in Two Variables*
-- **B:** nhận biết phương trình bậc nhất hai ẩn $ax+by=c$ (a, b không đồng thời bằng 0), hệ hai phương trình bậc nhất hai ẩn; chỉ ra hệ số a, b, c.
-- **H:** kiểm tra một cặp số có là nghiệm của phương trình/hệ; viết nghiệm tổng quát; biết tập nghiệm biểu diễn bởi một đường thẳng.
+- **NB:** nhận biết phương trình bậc nhất hai ẩn $ax+by=c$ (a, b không đồng thời bằng 0), hệ hai phương trình bậc nhất hai ẩn; chỉ ra hệ số a, b, c.
+- **TH:** kiểm tra một cặp số có là nghiệm của phương trình/hệ; viết nghiệm tổng quát; biết tập nghiệm biểu diễn bởi một đường thẳng.
 - **VT:** tìm m để cặp số cho trước là nghiệm; vẽ đường thẳng biểu diễn tập nghiệm trên mặt phẳng tọa độ.
 - **V:** lập hệ phương trình mô tả tình huống thực tế (chu vi mảnh vườn, mua vé hai loại).
 - **TLTA:** Lesson 1, tr. 6–7 (vocab, expressions, Example 1–2, Exercise 1–4).
@@ -46,8 +46,8 @@
 
 ### Bài 2. Giải hệ hai phương trình bậc nhất hai ẩn — `g9-systems-02`
 *Solving Systems of Linear Equations in Two Variables*
-- **B:** nêu các bước của phương pháp thế, phương pháp cộng đại số.
-- **H:** giải hệ đơn giản bằng phương pháp thế/cộng; nhận ra hệ có nghiệm duy nhất, vô nghiệm, vô số nghiệm.
+- **NB:** nêu các bước của phương pháp thế, phương pháp cộng đại số.
+- **TH:** giải hệ đơn giản bằng phương pháp thế/cộng; nhận ra hệ có nghiệm duy nhất, vô nghiệm, vô số nghiệm.
 - **VT:** giải hệ có hệ số phân số/thập phân; dùng máy tính cầm tay để tìm nghiệm.
 - **V:** tìm hệ số (đường thẳng đi qua hai điểm); hệ quy về bậc nhất bằng đặt ẩn phụ đơn giản; bài toán mua bán.
 - **TLTA:** Lesson 2, tr. 8–9; Part 3 – *Substitution Method* (tr. 130).
@@ -57,8 +57,8 @@
 
 ### Bài 3. Giải bài toán bằng cách lập hệ phương trình — `g9-systems-03`
 *Solving Word Problems Using Systems of Equations*
-- **B:** nêu các bước giải bài toán bằng cách lập hệ phương trình.
-- **H:** chọn ẩn, đặt điều kiện, biểu diễn các đại lượng theo ẩn.
+- **NB:** nêu các bước giải bài toán bằng cách lập hệ phương trình.
+- **TH:** chọn ẩn, đặt điều kiện, biểu diễn các đại lượng theo ẩn.
 - **VT:** giải bài toán quen thuộc: tổng – hiệu, mua bán, năng suất, chuyển động.
 - **V:** bài toán nhiều dữ kiện, phải đối chiếu điều kiện (dự án *The Smart Plan Choice* – chọn gói cước).
 - **TLTA:** Lesson 3, tr. 10–11; Mini project Ch.1 (tr. 135).
@@ -73,8 +73,8 @@
 
 ### Bài 4. Phương trình quy về phương trình bậc nhất một ẩn — `g9-lineq-01`
 *Equations Reducible to Linear Equations in One Variable*
-- **B:** nhận biết phương trình tích; tìm điều kiện xác định của phương trình chứa ẩn ở mẫu.
-- **H:** giải phương trình tích $(ax+b)(cx+d)=0$; nêu các bước giải phương trình chứa ẩn ở mẫu.
+- **NB:** nhận biết phương trình tích; tìm điều kiện xác định của phương trình chứa ẩn ở mẫu.
+- **TH:** giải phương trình tích $(ax+b)(cx+d)=0$; nêu các bước giải phương trình chứa ẩn ở mẫu.
 - **VT:** phân tích thành nhân tử rồi giải; giải phương trình chứa ẩn ở mẫu, loại nghiệm không thỏa điều kiện xác định.
 - **V:** bài toán thực tế dẫn đến phương trình chứa ẩn ở mẫu (năng suất, vận tốc).
 - **TLTA:** Lesson 4, tr. 15–17.
@@ -84,8 +84,8 @@
 
 ### Bài 5. Bất đẳng thức và tính chất — `g9-lineq-02`
 *Inequalities and Their Properties*
-- **B:** nhận biết bất đẳng thức, vế trái, vế phải; các kí hiệu $<, >, \le, \ge$.
-- **H:** phát biểu tính chất bắc cầu, liên hệ với phép cộng, phép nhân (số dương / số âm).
+- **NB:** nhận biết bất đẳng thức, vế trái, vế phải; các kí hiệu $<, >, \le, \ge$.
+- **TH:** phát biểu tính chất bắc cầu, liên hệ với phép cộng, phép nhân (số dương / số âm).
 - **VT:** dùng tính chất để so sánh hai biểu thức, chứng minh bất đẳng thức đơn giản.
 - **V:** chứng minh bất đẳng thức nhiều bước; tình huống so sánh chi phí.
 - **TLTA:** Lesson 5, tr. 18–19.
@@ -95,8 +95,8 @@
 
 ### Bài 6. Bất phương trình bậc nhất một ẩn — `g9-lineq-03`
 *Linear Inequalities in One Variable*
-- **B:** nhận biết bất phương trình bậc nhất một ẩn; kiểm tra một số có là nghiệm.
-- **H:** giải bất phương trình $ax+b>0$ (và các dạng $<,\le,\ge$).
+- **NB:** nhận biết bất phương trình bậc nhất một ẩn; kiểm tra một số có là nghiệm.
+- **TH:** giải bất phương trình $ax+b>0$ (và các dạng $<,\le,\ge$).
 - **VT:** giải bất phương trình đưa được về dạng bậc nhất; biểu diễn tập nghiệm.
 - **V:** bài toán thực tế (số tiền tối đa, số sản phẩm tối thiểu), tìm nghiệm nguyên lớn nhất/nhỏ nhất.
 - **TLTA:** Lesson 6, tr. 20–21.
@@ -111,8 +111,8 @@
 
 ### Bài 7. Căn bậc hai và căn thức bậc hai — `g9-roots-01`
 *Square Roots and Square Root Expressions*
-- **B:** định nghĩa căn bậc hai, căn bậc hai số học; nhận biết căn thức bậc hai, biểu thức lấy căn.
-- **H:** tìm điều kiện xác định của $\sqrt{A}$; áp dụng $\sqrt{A^2}=|A|$.
+- **NB:** định nghĩa căn bậc hai, căn bậc hai số học; nhận biết căn thức bậc hai, biểu thức lấy căn.
+- **TH:** tìm điều kiện xác định của $\sqrt{A}$; áp dụng $\sqrt{A^2}=|A|$.
 - **VT:** tính, so sánh căn bậc hai; dùng máy tính và làm tròn kết quả.
 - **V:** rút gọn biểu thức dạng $\sqrt{(a-b)^2}$ có điều kiện; tình huống thực tế (cạnh hình vuông, quãng đường rơi tự do).
 - **TLTA:** Lesson 7, tr. 25–28.
@@ -122,8 +122,8 @@
 
 ### Bài 8. Khai căn bậc hai với phép nhân và phép chia — `g9-roots-02`
 *Square Roots of Products and Quotients*
-- **B:** phát biểu $\sqrt{AB}=\sqrt{A}\cdot\sqrt{B}$ ($A,B\ge 0$), $\sqrt{\dfrac{A}{B}}=\dfrac{\sqrt{A}}{\sqrt{B}}$ ($A\ge0, B>0$).
-- **H:** áp dụng theo hai chiều để tính.
+- **NB:** phát biểu $\sqrt{AB}=\sqrt{A}\cdot\sqrt{B}$ ($A,B\ge 0$), $\sqrt{\dfrac{A}{B}}=\dfrac{\sqrt{A}}{\sqrt{B}}$ ($A\ge0, B>0$).
+- **TH:** áp dụng theo hai chiều để tính.
 - **VT:** rút gọn biểu thức chứa căn có điều kiện của biến.
 - **V:** tình huống vật lí (công suất – hiệu điện thế – điện trở), đường chéo hình chữ nhật.
 - **TLTA:** Lesson 8, tr. 29–32.
@@ -133,8 +133,8 @@
 
 ### Bài 9. Biến đổi đơn giản và rút gọn biểu thức chứa căn thức bậc hai — `g9-roots-03`
 *Simplifying Expressions Containing Square Roots*
-- **B:** nhận biết các phép đưa thừa số ra ngoài/vào trong dấu căn, khử mẫu, trục căn thức ở mẫu.
-- **H:** thực hiện từng phép biến đổi đơn giản.
+- **NB:** nhận biết các phép đưa thừa số ra ngoài/vào trong dấu căn, khử mẫu, trục căn thức ở mẫu.
+- **TH:** thực hiện từng phép biến đổi đơn giản.
 - **VT:** rút gọn biểu thức phối hợp nhiều phép biến đổi; so sánh không dùng máy tính.
 - **V:** bài toán rút gọn nhiều bước với biến; tình huống thực tế (xem Q9).
 - **TLTA:** Lesson 9, tr. 33–36.
@@ -144,8 +144,8 @@
 
 ### Bài 10. Căn bậc ba và căn thức bậc ba — `g9-roots-04`
 *Cube Roots and Cube Root Expressions*
-- **B:** định nghĩa căn bậc ba; mọi số thực có đúng một căn bậc ba.
-- **H:** tính căn bậc ba của số (kể cả số âm, phân số); $(\sqrt[3]{A})^3=\sqrt[3]{A^3}=A$.
+- **NB:** định nghĩa căn bậc ba; mọi số thực có đúng một căn bậc ba.
+- **TH:** tính căn bậc ba của số (kể cả số âm, phân số); $(\sqrt[3]{A})^3=\sqrt[3]{A^3}=A$.
 - **VT:** dùng máy tính, làm tròn; tìm điều kiện/giá trị của căn thức bậc ba.
 - **V:** tình huống thể tích hình lập phương (tìm cạnh khi biết thể tích).
 - **TLTA:** Lesson 10, tr. 37–39.
@@ -160,8 +160,8 @@
 
 ### Bài 11. Tỉ số lượng giác của góc nhọn — `g9-trig-01`
 *Trigonometric Ratios of Acute Angles*
-- **B:** nhận biết cạnh đối, cạnh kề, cạnh huyền; định nghĩa sin, cos, tan, cot.
-- **H:** tính tỉ số lượng giác khi biết độ dài cạnh; giá trị của góc đặc biệt 30°, 45°, 60°; tỉ số lượng giác của hai góc phụ nhau.
+- **NB:** nhận biết cạnh đối, cạnh kề, cạnh huyền; định nghĩa sin, cos, tan, cot.
+- **TH:** tính tỉ số lượng giác khi biết độ dài cạnh; giá trị của góc đặc biệt 30°, 45°, 60°; tỉ số lượng giác của hai góc phụ nhau.
 - **VT:** dùng máy tính tìm tỉ số lượng giác / tìm góc (độ, phút), làm tròn.
 - **V:** dựng góc khi biết một tỉ số lượng giác; so sánh tỉ số lượng giác.
 - **TLTA:** Lesson 11, tr. 41–43; Part 2 – Lesson plan Bài 11 (tr. 119).
@@ -171,8 +171,8 @@
 
 ### Bài 12. Một số hệ thức giữa cạnh, góc trong tam giác vuông và ứng dụng — `g9-trig-02`
 *Relationships Between Sides and Angles in a Right Triangle*
-- **B:** phát biểu hệ thức cạnh góc vuông = cạnh huyền × sin góc đối = cạnh huyền × cos góc kề; = cạnh góc vuông kia × tan góc đối = × cot góc kề.
-- **H:** áp dụng tính cạnh, góc.
+- **NB:** phát biểu hệ thức cạnh góc vuông = cạnh huyền × sin góc đối = cạnh huyền × cos góc kề; = cạnh góc vuông kia × tan góc đối = × cot góc kề.
+- **TH:** áp dụng tính cạnh, góc.
 - **VT:** giải tam giác vuông; đo chiều cao, khoảng cách.
 - **V:** bài toán nhiều bước (hai góc nhìn, đo khoảng cách qua sông – dự án *Measure the Unreachable*).
 - **TLTA:** Lesson 12, tr. 44–46; Mini project Ch.4 (tr. 138).
@@ -187,8 +187,8 @@
 
 ### Bài 13. Mở đầu về đường tròn — `g9-circles-01`
 *Introduction to Circles*
-- **B:** định nghĩa đường tròn, tâm, bán kính; vị trí của điểm với đường tròn.
-- **H:** tính đối xứng của đường tròn (tâm đối xứng, trục đối xứng).
+- **NB:** định nghĩa đường tròn, tâm, bán kính; vị trí của điểm với đường tròn.
+- **TH:** tính đối xứng của đường tròn (tâm đối xứng, trục đối xứng).
 - **VT:** xác định vị trí điểm bằng so sánh khoảng cách với bán kính; chứng minh các điểm cùng thuộc một đường tròn.
 - **V:** tình huống thực tế (phạm vi phủ sóng, vòng tưới nước).
 - **TLTA:** Lesson 13, tr. 49–51 — **chỉ lấy phần phù hợp** (xem D6).
@@ -198,8 +198,8 @@
 
 ### Bài 14. Cung và dây của một đường tròn — `g9-circles-02`
 *Arcs and Chords of a Circle*
-- **B:** nhận biết dây, đường kính, góc ở tâm, cung nhỏ, cung lớn, nửa đường tròn.
-- **H:** đường kính là dây lớn nhất; số đo cung nhỏ bằng góc ở tâm chắn cung đó; số đo cung lớn = 360° − cung nhỏ.
+- **NB:** nhận biết dây, đường kính, góc ở tâm, cung nhỏ, cung lớn, nửa đường tròn.
+- **TH:** đường kính là dây lớn nhất; số đo cung nhỏ bằng góc ở tâm chắn cung đó; số đo cung lớn = 360° − cung nhỏ.
 - **VT:** tính số đo cung, góc ở tâm; tính độ dài dây trong trường hợp đơn giản.
 - **V:** chứng minh, so sánh dây; tình huống (bánh xe, đồng hồ).
 - **TLTA:** Lesson 14, tr. 52–53.
@@ -209,8 +209,8 @@
 
 ### Bài 15. Độ dài của cung tròn. Diện tích hình quạt tròn và hình vành khuyên — `g9-circles-03`
 *Arc Length, Sectors and Annuli*
-- **B:** nêu công thức độ dài cung $l=\dfrac{\pi R n}{180}$, diện tích hình quạt $S=\dfrac{\pi R^2 n}{360}$, diện tích hình vành khuyên $S=\pi(R^2-r^2)$.
-- **H:** tính trực tiếp theo công thức.
+- **NB:** nêu công thức độ dài cung $l=\dfrac{\pi R n}{180}$, diện tích hình quạt $S=\dfrac{\pi R^2 n}{360}$, diện tích hình vành khuyên $S=\pi(R^2-r^2)$.
+- **TH:** tính trực tiếp theo công thức.
 - **VT:** bài toán ngược (biết độ dài cung → tìm bán kính / góc); làm tròn theo yêu cầu.
 - **V:** tình huống thực tế (lối đi quanh vườn, chi phí lát gạch, quạt giấy).
 - **TLTA:** Lesson 15, tr. 54–56; Part 2 – Lesson plan Bài 15 (tr. 122); Mini project Ch.5 (tr. 142).
@@ -220,8 +220,8 @@
 
 ### Bài 16. Vị trí tương đối của đường thẳng và đường tròn — `g9-circles-04`
 *Relative Positions of a Line and a Circle*
-- **B:** ba vị trí tương đối (cắt nhau, tiếp xúc, không giao nhau) và hệ thức giữa $d$ và $R$; tiếp tuyến, tiếp điểm.
-- **H:** dấu hiệu nhận biết tiếp tuyến; tính chất hai tiếp tuyến cắt nhau.
+- **NB:** ba vị trí tương đối (cắt nhau, tiếp xúc, không giao nhau) và hệ thức giữa $d$ và $R$; tiếp tuyến, tiếp điểm.
+- **TH:** dấu hiệu nhận biết tiếp tuyến; tính chất hai tiếp tuyến cắt nhau.
 - **VT:** xác định vị trí tương đối; tính độ dài tiếp tuyến, độ dài dây bằng định lí Pythagore.
 - **V:** chứng minh tiếp tuyến; bài toán thực tế (con đường cạnh công viên tròn).
 - **TLTA:** Lesson 16, tr. 57–59.
@@ -231,8 +231,8 @@
 
 ### Bài 17. Vị trí tương đối của hai đường tròn — `g9-circles-05`
 *Relative Positions of Two Circles*
-- **B:** các vị trí tương đối: cắt nhau, tiếp xúc ngoài, tiếp xúc trong, ngoài nhau, đựng nhau (đồng tâm).
-- **H:** liên hệ giữa đoạn nối tâm $d$ với $R+r$ và $R-r$.
+- **NB:** các vị trí tương đối: cắt nhau, tiếp xúc ngoài, tiếp xúc trong, ngoài nhau, đựng nhau (đồng tâm).
+- **TH:** liên hệ giữa đoạn nối tâm $d$ với $R+r$ và $R-r$.
 - **VT:** xác định vị trí tương đối, tìm bán kính để hai đường tròn tiếp xúc.
 - **V:** bài toán thực tế (hai đài phun nước, bánh răng).
 - **TLTA:** Lesson 17, tr. 60–62.
@@ -247,8 +247,8 @@
 
 ### Bài 18. Hàm số $y=ax^2\ (a\neq0)$ — `g9-quadratic-01`
 *The Function $y=ax^2\ (a\neq0)$*
-- **B:** nhận biết hàm số $y=ax^2$; lập bảng giá trị.
-- **H:** đồ thị là parabol đỉnh $O$, nhận $Oy$ làm trục đối xứng; nằm trên trục hoành khi $a>0$, dưới khi $a<0$.
+- **NB:** nhận biết hàm số $y=ax^2$; lập bảng giá trị.
+- **TH:** đồ thị là parabol đỉnh $O$, nhận $Oy$ làm trục đối xứng; nằm trên trục hoành khi $a>0$, dưới khi $a<0$.
 - **VT:** vẽ đồ thị; tìm $a$ khi biết một điểm thuộc đồ thị; tìm điểm có tung độ/hoành độ cho trước.
 - **V:** tình huống thực tế ($s=4{,}9t^2$, $S=\pi r^2$, cổng parabol).
 - **TLTA:** Lesson 18, tr. 64–67.
@@ -258,8 +258,8 @@
 
 ### Bài 19. Phương trình bậc hai một ẩn — `g9-quadratic-02`
 *Quadratic Equations in One Variable*
-- **B:** nhận biết phương trình bậc hai, các hệ số $a,b,c$; công thức biệt thức $\Delta$, $\Delta'$.
-- **H:** giải phương trình khuyết hạng tử; giải bằng công thức nghiệm, công thức nghiệm thu gọn.
+- **NB:** nhận biết phương trình bậc hai, các hệ số $a,b,c$; công thức biệt thức $\Delta$, $\Delta'$.
+- **TH:** giải phương trình khuyết hạng tử; giải bằng công thức nghiệm, công thức nghiệm thu gọn.
 - **VT:** giải bằng máy tính cầm tay; giải phương trình hệ số thập phân, có làm tròn.
 - **V:** tìm điều kiện của tham số để phương trình có nghiệm / vô nghiệm (mức đơn giản); bài toán thực tế.
 - **TLTA:** Lesson 19, tr. 68–71.
@@ -269,8 +269,8 @@
 
 ### Bài 20. Định lí Viète và ứng dụng — `g9-quadratic-03`
 *Viète's Theorem and Its Applications*
-- **B:** phát biểu định lí Viète: $x_1+x_2=-\dfrac{b}{a}$, $x_1x_2=\dfrac{c}{a}$.
-- **H:** tính tổng, tích các nghiệm không giải phương trình (khi $\Delta\ge0$); nhẩm nghiệm khi $a+b+c=0$ hoặc $a-b+c=0$.
+- **NB:** phát biểu định lí Viète: $x_1+x_2=-\dfrac{b}{a}$, $x_1x_2=\dfrac{c}{a}$.
+- **TH:** tính tổng, tích các nghiệm không giải phương trình (khi $\Delta\ge0$); nhẩm nghiệm khi $a+b+c=0$ hoặc $a-b+c=0$.
 - **VT:** tìm hai số biết tổng và tích; tính giá trị biểu thức đối xứng của nghiệm.
 - **V:** bài toán thực tế (kích thước hình chữ nhật biết chu vi, diện tích).
 - **TLTA:** Lesson 20, tr. 72–75.
@@ -280,8 +280,8 @@
 
 ### Bài 21. Giải bài toán bằng cách lập phương trình — `g9-quadratic-04`
 *Solving Problems by Setting Up Equations*
-- **B:** nêu các bước giải bài toán bằng cách lập phương trình.
-- **H:** chọn ẩn, đặt điều kiện, biểu diễn đại lượng theo ẩn.
+- **NB:** nêu các bước giải bài toán bằng cách lập phương trình.
+- **TH:** chọn ẩn, đặt điều kiện, biểu diễn đại lượng theo ẩn.
 - **VT:** bài toán diện tích, năng suất, chuyển động dẫn đến phương trình bậc hai.
 - **V:** bài toán xuôi/ngược dòng, tăng trưởng phần trăm qua hai năm.
 - **TLTA:** Lesson 21, tr. 76–79.
@@ -296,8 +296,8 @@
 
 ### Bài 22. Bảng tần số và biểu đồ tần số — `g9-frequency-01`
 *Frequency Tables and Frequency Charts*
-- **B:** nhận biết tần số, bảng tần số.
-- **H:** lập bảng tần số từ dãy dữ liệu.
+- **NB:** nhận biết tần số, bảng tần số.
+- **TH:** lập bảng tần số từ dãy dữ liệu.
 - **VT:** vẽ biểu đồ tần số dạng cột, dạng đoạn thẳng; đọc biểu đồ.
 - **V:** nhận xét, rút ra kết luận từ dữ liệu thực tế (chỉ số chất lượng không khí, chiều cao HS).
 - **TLTA:** Lesson 22, tr. 81–83.
@@ -307,8 +307,8 @@
 
 ### Bài 23. Bảng tần số tương đối và biểu đồ tần số tương đối — `g9-frequency-02`
 *Relative Frequency Tables and Relative Frequency Charts*
-- **B:** định nghĩa tần số tương đối $f=\dfrac{m}{n}\cdot100\%$.
-- **H:** lập bảng tần số tương đối.
+- **NB:** định nghĩa tần số tương đối $f=\dfrac{m}{n}\cdot100\%$.
+- **TH:** lập bảng tần số tương đối.
 - **VT:** vẽ biểu đồ tần số tương đối dạng cột, dạng hình quạt tròn.
 - **V:** so sánh hai mẫu có cỡ mẫu khác nhau (vì sao dùng tần số tương đối).
 - **TLTA:** Lesson 23, tr. 84–86.
@@ -318,8 +318,8 @@
 
 ### Bài 24. Bảng tần số, tần số tương đối ghép nhóm và biểu đồ — `g9-frequency-03`
 *Grouped Frequency and Relative Frequency Tables and Charts*
-- **B:** nhận biết mẫu số liệu ghép nhóm, nhóm $[a;b)$, độ dài nhóm.
-- **H:** lập bảng tần số, tần số tương đối ghép nhóm.
+- **NB:** nhận biết mẫu số liệu ghép nhóm, nhóm $[a;b)$, độ dài nhóm.
+- **TH:** lập bảng tần số, tần số tương đối ghép nhóm.
 - **VT:** vẽ biểu đồ tần số tương đối ghép nhóm dạng cột và dạng đoạn thẳng.
 - **V:** chọn cách chia nhóm, nhận xét dữ liệu thực tế (thời gian đến trường).
 - **TLTA:** Lesson 24, tr. 87–89.
@@ -334,8 +334,8 @@
 
 ### Bài 25. Phép thử ngẫu nhiên và không gian mẫu — `g9-probability-01`
 *Random Experiments and Sample Spaces*
-- **B:** nhận biết phép thử ngẫu nhiên, kết quả có thể, không gian mẫu $\Omega$.
-- **H:** liệt kê không gian mẫu của phép thử đơn giản (tung đồng xu, gieo xúc xắc, rút thẻ).
+- **NB:** nhận biết phép thử ngẫu nhiên, kết quả có thể, không gian mẫu $\Omega$.
+- **TH:** liệt kê không gian mẫu của phép thử đơn giản (tung đồng xu, gieo xúc xắc, rút thẻ).
 - **VT:** mô tả không gian mẫu của phép thử hai bước bằng bảng hoặc sơ đồ cây.
 - **V:** tình huống thực tế (chọn món ăn – đồ uống, mã bảo mật gồm chữ và số).
 - **TLTA:** Lesson 25, tr. 91–92.
@@ -345,8 +345,8 @@
 
 ### Bài 26. Xác suất của biến cố liên quan tới phép thử — `g9-probability-02`
 *Probability of Events Related to a Random Experiment*
-- **B:** nhận biết biến cố, kết quả thuận lợi, các kết quả đồng khả năng.
-- **H:** công thức $P(A)=\dfrac{n(A)}{n(\Omega)}$; tính xác suất phép thử một bước.
+- **NB:** nhận biết biến cố, kết quả thuận lợi, các kết quả đồng khả năng.
+- **TH:** công thức $P(A)=\dfrac{n(A)}{n(\Omega)}$; tính xác suất phép thử một bước.
 - **VT:** tính xác suất phép thử hai bước (hai xúc xắc, hai vòng quay).
 - **V:** dùng xác suất để ra quyết định (trò chơi ở hội chợ trường – dự án *Data, Chance and Decision Making*).
 - **TLTA:** Lesson 26, tr. 93–96; Mini project Ch.8 (tr. 147).
@@ -361,8 +361,8 @@
 
 ### Bài 27. Góc nội tiếp — `g9-inscribed-01`
 *Inscribed Angles*
-- **B:** nhận biết góc nội tiếp, cung bị chắn.
-- **H:** số đo góc nội tiếp bằng nửa số đo cung bị chắn; các góc nội tiếp cùng chắn một cung thì bằng nhau; góc nội tiếp chắn nửa đường tròn là góc vuông.
+- **NB:** nhận biết góc nội tiếp, cung bị chắn.
+- **TH:** số đo góc nội tiếp bằng nửa số đo cung bị chắn; các góc nội tiếp cùng chắn một cung thì bằng nhau; góc nội tiếp chắn nửa đường tròn là góc vuông.
 - **VT:** tính góc, chứng minh hai góc bằng nhau.
 - **V:** chứng minh nhiều bước; tình huống (vị trí đặt camera nhìn sân khấu dưới cùng một góc).
 - **TLTA:** Lesson 27, tr. 98–100.
@@ -372,8 +372,8 @@
 
 ### Bài 28. Đường tròn ngoại tiếp và đường tròn nội tiếp của một tam giác — `g9-inscribed-02`
 *Circumcircle and Incircle of a Triangle*
-- **B:** nhận biết đường tròn ngoại tiếp, nội tiếp tam giác; tâm là giao ba đường trung trực / ba đường phân giác.
-- **H:** tâm đường tròn ngoại tiếp tam giác vuông là trung điểm cạnh huyền; tam giác đều cạnh $a$: $R=\dfrac{a\sqrt3}{3}$, $r=\dfrac{a\sqrt3}{6}$.
+- **NB:** nhận biết đường tròn ngoại tiếp, nội tiếp tam giác; tâm là giao ba đường trung trực / ba đường phân giác.
+- **TH:** tâm đường tròn ngoại tiếp tam giác vuông là trung điểm cạnh huyền; tam giác đều cạnh $a$: $R=\dfrac{a\sqrt3}{3}$, $r=\dfrac{a\sqrt3}{6}$.
 - **VT:** tính bán kính trong tam giác vuông, tam giác đều.
 - **V:** tình huống (đặt đèn chiếu cách đều ba điểm; bồn hoa tròn lớn nhất trong sân tam giác).
 - **TLTA:** Lesson 28, tr. 101–103.
@@ -383,8 +383,8 @@
 
 ### Bài 29. Tứ giác nội tiếp — `g9-inscribed-03`
 *Cyclic Quadrilaterals*
-- **B:** nhận biết tứ giác nội tiếp.
-- **H:** tổng hai góc đối bằng 180°; đường tròn ngoại tiếp hình chữ nhật, hình vuông (tâm, bán kính).
+- **NB:** nhận biết tứ giác nội tiếp.
+- **TH:** tổng hai góc đối bằng 180°; đường tròn ngoại tiếp hình chữ nhật, hình vuông (tâm, bán kính).
 - **VT:** tính góc trong tứ giác nội tiếp; tính bán kính đường tròn ngoại tiếp hình chữ nhật, hình vuông.
 - **V:** chứng minh tứ giác nội tiếp; dự án *Smart Circular Theater & Garden*.
 - **TLTA:** Lesson 29, tr. 104–106; Mini project Ch.9 (tr. 151).
@@ -394,8 +394,8 @@
 
 ### Bài 30. Đa giác đều — `g9-inscribed-04`
 *Regular Polygons*
-- **B:** nhận biết đa giác đều; hình phẳng có dạng đa giác đều trong thực tế.
-- **H:** phép quay; các phép quay giữ nguyên tam giác đều, hình vuông, lục giác đều.
+- **NB:** nhận biết đa giác đều; hình phẳng có dạng đa giác đều trong thực tế.
+- **TH:** phép quay; các phép quay giữ nguyên tam giác đều, hình vuông, lục giác đều.
 - **VT:** tính góc ở tâm $\dfrac{360^\circ}{n}$, góc trong; xác định các phép quay giữ nguyên đa giác đều.
 - **V:** tính cạnh, chu vi, diện tích đa giác đều nội tiếp (lục giác đều); tình huống trang trí, hoa văn.
 - **TLTA:** Lesson 30, tr. 107–109.
@@ -410,8 +410,8 @@
 
 ### Bài 31. Hình trụ và hình nón — `g9-solids-01`
 *Cylinders and Cones*
-- **B:** nhận biết hình trụ, hình nón và các yếu tố: đáy, bán kính đáy, chiều cao, đường sinh, đỉnh.
-- **H:** công thức $S_{xq}=2\pi rh$, $V=\pi r^2h$ (hình trụ); $S_{xq}=\pi rl$, $V=\dfrac13\pi r^2h$ (hình nón).
+- **NB:** nhận biết hình trụ, hình nón và các yếu tố: đáy, bán kính đáy, chiều cao, đường sinh, đỉnh.
+- **TH:** công thức $S_{xq}=2\pi rh$, $V=\pi r^2h$ (hình trụ); $S_{xq}=\pi rl$, $V=\dfrac13\pi r^2h$ (hình nón).
 - **VT:** tính diện tích, thể tích; tính đường sinh bằng định lí Pythagore.
 - **V:** tình huống (bồn nước, nón lá, mũ sinh nhật cuộn từ hình quạt); dự án *Curved-Surface Design*.
 - **TLTA:** Lesson 31, tr. 111–113; Mini project Ch.10 (tr. 155).
@@ -421,8 +421,8 @@
 
 ### Bài 32. Hình cầu — `g9-solids-02`
 *Spheres*
-- **B:** nhận biết hình cầu, mặt cầu, tâm, bán kính; mặt cắt của hình cầu là hình tròn.
-- **H:** công thức $S=4\pi R^2$, $V=\dfrac43\pi R^3$.
+- **NB:** nhận biết hình cầu, mặt cầu, tâm, bán kính; mặt cắt của hình cầu là hình tròn.
+- **TH:** công thức $S=4\pi R^2$, $V=\dfrac43\pi R^3$.
 - **VT:** tính diện tích mặt cầu, thể tích hình cầu, nửa hình cầu.
 - **V:** bài toán kết hợp (viên bi trong hộp hình trụ, bồn chứa hình trụ + bán cầu).
 - **TLTA:** Lesson 32, tr. 114–116.
@@ -480,7 +480,7 @@ Nguyên tắc: **kiến thức, ký hiệu theo SGK KNTT**; TLTA dùng cho tiế
 
 ## Kết quả soạn Bài 1–4 (12/11/2026)
 
-| Bài | Mã bài | Ví dụ (B / H / VT / V) | Luyện tập A / B / C (mỗi mức ngôn ngữ) | Tự luyện D1–D4 (mỗi mức ngôn ngữ) | Hình vẽ | Kiểm thử |
+| Bài | Mã bài | Ví dụ (NB / TH / VT / V) | Luyện tập A / B / C (mỗi mức ngôn ngữ) | Tự luyện D1–D4 (mỗi mức ngôn ngữ) | Hình vẽ | Kiểm thử |
 |---|---|---|---|---|---|---|
 | 1 | `g9-systems-01` | 5 (1 / 2 / 1 / 1) | 3 / 2 / 2 | 3 / 3 / 3 / 3 | 3 hình (đường thẳng biểu diễn tập nghiệm, hai đường thẳng cắt nhau) | đạt |
 | 2 | `g9-systems-02` | 5 (1 / 2 / 1 / 1) | 3 / 2 / 2 | 3 / 3 / 3 / 3 | 2 hình (hai đường thẳng cắt nhau, song song) + bảng số nghiệm | đạt |
@@ -541,7 +541,7 @@ Mỗi bài có 19 câu cho mỗi mức ngôn ngữ (ba bộ cùng dạng, khác 
 
 ## Kết quả soạn Bài 5–8 (12/11/2026)
 
-| Bài | Mã bài | Ví dụ (B / H / VT / V) | A / B / C | D1–D4 | Hình vẽ | Kiểm thử |
+| Bài | Mã bài | Ví dụ (NB / TH / VT / V) | A / B / C | D1–D4 | Hình vẽ | Kiểm thử |
 |---|---|---|---|---|---|---|
 | 5 | `g9-lineq-02` | 5 (1 / 2 / 1 / 1) | 3 / 2 / 2 | 3 / 3 / 3 / 3 | — | đạt |
 | 6 | `g9-lineq-03` | 5 (1 / 2 / 1 / 1) | 3 / 2 / 2 | 3 / 3 / 3 / 3 | 4 trục số (chấm đặc / chấm rỗng) | đạt |
@@ -578,3 +578,37 @@ Hình vẽ: nhãn điểm trên hình tọa độ được đặt tự động t
 | g9-roots-02 | the rule holds when … | quy tắc đúng khi | The rule √(AB) = √A·√B holds when A ≥ 0 and B ≥ 0. | TLTA Ch.3 L8, tr. 29–32 |
 | g9-roots-02 | strictly positive | dương | The denominator B must be strictly positive: B > 0. | TLTA Ch.3 L8, tr. 29–32 |
 | g9-roots-02 | take out of the root sign | đưa ra ngoài dấu căn | √(25a²b²) = 5|ab|: take 5|ab| out of the root sign. | TLTA Ch.3 L8, tr. 29–32 |
+
+## Kết quả soạn Bài 9–11 (12/11/2026)
+
+Tên các mức (cả 11 bài): **Nhận biết – Thông hiểu – Vận dụng thấp – Vận dụng**.
+
+| Bài | Mã bài | Ví dụ (NB / TH / VT / V) | A / B / C | D1–D4 | Hình vẽ | Kiểm thử |
+|---|---|---|---|---|---|---|
+| 9 | `g9-roots-03` | 5 (1 / 2 / 1 / 1) | 3 / 2 / 2 | 3 / 3 / 3 / 3 | — | đạt |
+| 10 | `g9-roots-04` | 5 (1 / 2 / 1 / 1) | 3 / 2 / 2 | 3 / 3 / 3 / 3 | — | đạt |
+| 11 | `g9-trig-01` | 5 (1 / 2 / 1 / 1) | 3 / 2 / 2 | 3 / 3 / 3 / 3 | 2 (tam giác vuông có góc α; bài cái cây – góc nâng 40°) | đạt |
+
+- Kiểm đáp án độc lập (tính lại bằng số thực từ đề, không dùng mã sinh câu): 171 câu tự luyện/luyện tập của Bài 9–11, 0 câu sai (6 câu lời văn kiểm tay).
+- Ví dụ Bài 9 mức Vận dụng: công thức khối lượng tương đối tính, có giải thích ngắn (theo Q9).
+- Bài 11: tên điểm đặt theo phân giác ngoài của đỉnh tam giác, không bị cạnh cắt; số đo góc ghi bằng chữ α hoặc 40°.
+
+**Thuật ngữ mới**
+
+| Bài | Tiếng Anh | Tiếng Việt | Câu ví dụ | Nguồn |
+|---|---|---|---|---|
+| g9-roots-03 | bring into the root sign | đưa vào trong dấu căn | 4√3 = √(16·3) = √48. | TLTA Ch.3 L9 |
+| g9-roots-03 | rationalize the denominator | trục căn thức ở mẫu | 1/√5 = √5/5. | TLTA Ch.3 L9 |
+| g9-roots-03 | conjugate expression | biểu thức liên hợp | The conjugate of √5 − 2 is √5 + 2. | TLTA Ch.3 L9 |
+| g9-roots-03 | like radicals | căn thức đồng dạng | 2√3 and −5√3 are like radicals. | TLTA Ch.3 L9 |
+| g9-roots-03 | simplify an expression | rút gọn biểu thức | Simplify 2√3 − √75. | TLTA Ch.3 L9 |
+| g9-roots-04 | cube root | căn bậc ba | The cube root of −27 is −3. | TLTA Ch.3 L10 |
+| g9-roots-04 | index (of a root) | chỉ số của căn | In ∛a, 3 is the index. | TLTA Ch.3 L10 |
+| g9-roots-04 | cube root expression | căn thức bậc ba | ∛(2x + 5) is a cube root expression. | TLTA Ch.3 L10 |
+| g9-roots-04 | cube (of a number) | lập phương (của một số) | The cube of 4 is 64. | TLTA Ch.3 L10 |
+| g9-roots-04 | volume | thể tích | The volume of a cube with edge a is a³. | TLTA Ch.3 L10 |
+| g9-trig-01 | trigonometric ratio | tỉ số lượng giác | sin, cos, tan, cot are trigonometric ratios. | TLTA Ch.4 L11 |
+| g9-trig-01 | opposite side / adjacent side | cạnh đối / cạnh kề | For angle B, AC is opposite, AB is adjacent. | TLTA Ch.4 L11 |
+| g9-trig-01 | hypotenuse | cạnh huyền | The hypotenuse is opposite the right angle. | TLTA Ch.4 L11 |
+| g9-trig-01 | right triangle | tam giác vuông | ABC is a right triangle with the right angle at A. | TLTA Ch.4 L11 |
+| g9-trig-01 | angle of elevation / depression | góc nâng / góc hạ | The angle of elevation of the sun is 40°. | TLTA Ch.4 L11 (Q4) |

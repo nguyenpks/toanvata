@@ -92,14 +92,14 @@ theory += G({'view': [-2, 5, -2, 3], 'axes': True, 'steps': [{'type': 'lineeq', 
             r'The lines \(x+y=2\) and \(x+3y=2\) intersect at \(M(2;0)\): the system \(\begin{cases}x+y=2\\ x+3y=2\end{cases}\) has the solution \((2;\ 0)\).',
             r'Hai đường thẳng \(x+y=2\) và \(x+3y=2\) cắt nhau tại \(M(2;0)\): hệ \(\begin{cases}x+y=2\\ x+3y=2\end{cases}\) có nghiệm \((2;\ 0)\).')
 
-examples = EXAMPLE(1, ('Remembering', 'Biết'), ('Recognize the equation', 'Nhận biết phương trình bậc nhất hai ẩn'),
+examples = EXAMPLE(1, ('Remembering', 'Nhận biết'), ('Recognize the equation', 'Nhận biết phương trình bậc nhất hai ẩn'),
   T(r'Which equations are linear equations in two variables? Give \(a, b, c\). \(\ 2x-3y=5;\ \ 0x+4y=8;\ \ x^2+y=1;\ \ 0x+0y=3\).', r'Phương trình nào là phương trình bậc nhất hai ẩn? Chỉ ra \(a, b, c\). \(\ 2x-3y=5;\ \ 0x+4y=8;\ \ x^2+y=1;\ \ 0x+0y=3\).'),
   ('Compare each equation with \\(ax+by=c\\), where \\(a, b\\) are not both 0.', 'So sánh từng phương trình với dạng \\(ax+by=c\\), \\(a, b\\) không đồng thời bằng 0.'),
   [T(r'\(2x-3y=5\): yes, \(a=2,\ b=-3,\ c=5\).', r'\(2x-3y=5\): có, \(a=2,\ b=-3,\ c=5\).'),
    T(r'\(0x+4y=8\): yes, \(a=0,\ b=4,\ c=8\) (only \(a\) is 0).', r'\(0x+4y=8\): có, \(a=0,\ b=4,\ c=8\) (chỉ \(a\) bằng 0).'),
    T(r'\(x^2+y=1\): no, because of \(x^2\). \(0x+0y=3\): no, because \(a=b=0\).', r'\(x^2+y=1\): không, vì có \(x^2\). \(0x+0y=3\): không, vì \(a=b=0\).')],
   T(r'\(2x-3y=5\) and \(0x+4y=8\).', r'\(2x-3y=5\) và \(0x+4y=8\).'))
-examples += EXAMPLE(2, ('Understanding', 'Hiểu'), ('Check a solution, write the general solution', 'Kiểm tra nghiệm, viết nghiệm tổng quát'),
+examples += EXAMPLE(2, ('Understanding', 'Thông hiểu'), ('Check a solution, write the general solution', 'Kiểm tra nghiệm, viết nghiệm tổng quát'),
   T(r'a) Which of the pairs \((1;-2)\), \((2;1)\) is a solution of \(2x-y=4\)? b) Write the general solution of \(2x-y=4\).', r'a) Cặp số nào trong hai cặp \((1;-2)\), \((2;1)\) là nghiệm của phương trình \(2x-y=4\)? b) Viết nghiệm tổng quát của phương trình \(2x-y=4\).'),
   ('Substitute each pair. Then express \\(y\\) in terms of \\(x\\).', 'Thay từng cặp số vào phương trình. Sau đó biểu diễn \\(y\\) theo \\(x\\).'),
   [T(r'\((1;-2)\): \(2\cdot1-(-2)=4\). True, so it is a solution.', r'\((1;-2)\): \(2\cdot1-(-2)=4\). Đúng, nên là nghiệm.'),
@@ -107,7 +107,7 @@ examples += EXAMPLE(2, ('Understanding', 'Hiểu'), ('Check a solution, write th
    T(r'\(2x-y=4\Leftrightarrow y=2x-4\). The general solution is \((x;\ 2x-4)\) with \(x\in\mathbb{R}\).', r'\(2x-y=4\Leftrightarrow y=2x-4\). Nghiệm tổng quát là \((x;\ 2x-4)\) với \(x\in\mathbb{R}\).')],
   T(r'a) \((1;-2)\). b) \((x;\ 2x-4)\), \(x\in\mathbb{R}\).', r'a) \((1;-2)\). b) \((x;\ 2x-4)\), \(x\in\mathbb{R}\).'))
 assert 2 * 1 - (-2) == 4 and 2 * 2 - 1 == 3
-examples += EXAMPLE(3, ('Understanding', 'Hiểu'), ('Draw all solutions', 'Biểu diễn tập nghiệm'),
+examples += EXAMPLE(3, ('Understanding', 'Thông hiểu'), ('Draw all solutions', 'Biểu diễn tập nghiệm'),
   T(r'Write the general solution of \(x+2y=4\) and draw the line that represents its solutions.', r'Viết nghiệm tổng quát của phương trình \(x+2y=4\) và vẽ đường thẳng biểu diễn tập nghiệm.'),
   ('Solve for \\(y\\); find two easy points (with \\(x=0\\) and with \\(y=0\\)).', 'Rút \\(y\\) theo \\(x\\); tìm hai điểm dễ tính (với \\(x=0\\) và với \\(y=0\\)).'),
   [T(r'\(2y=4-x\Rightarrow y=\dfrac{4-x}{2}\). General solution: \(\left(x;\ \dfrac{4-x}{2}\right)\), \(x\in\mathbb{R}\).', r'\(2y=4-x\Rightarrow y=\dfrac{4-x}{2}\). Nghiệm tổng quát: \(\left(x;\ \dfrac{4-x}{2}\right)\), \(x\in\mathbb{R}\).'),
