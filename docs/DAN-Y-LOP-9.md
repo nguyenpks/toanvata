@@ -612,3 +612,24 @@ Tên các mức (cả 11 bài): **Nhận biết – Thông hiểu – Vận dụ
 | g9-trig-01 | hypotenuse | cạnh huyền | The hypotenuse is opposite the right angle. | TLTA Ch.4 L11 |
 | g9-trig-01 | right triangle | tam giác vuông | ABC is a right triangle with the right angle at A. | TLTA Ch.4 L11 |
 | g9-trig-01 | angle of elevation / depression | góc nâng / góc hạ | The angle of elevation of the sun is 40°. | TLTA Ch.4 L11 (Q4) |
+
+## Kết quả soạn Bài 12 (13/11/2026)
+
+| Bài | Mã bài | Ví dụ (NB / TH / VT / V) | A / B / C | D1–D4 | Hình vẽ | Kiểm thử |
+|---|---|---|---|---|---|---|
+| 12 | `g9-trig-02` | 5 (1 / 2 / 1 / 1) | 3 / 2 / 2 | 3 / 3 / 3 / 3 | 3 (tam giác vuông ghi a, b, c; tòa nhà – góc hạ 32°; tháp – hai góc nâng 30°, 45°) | đạt |
+
+- Kiểm đáp án độc lập (đọc đề, tự tính lại bằng lượng giác): 57/57 câu đúng.
+- Bài tập lấy từ TLTA Lesson 12 (cây – góc nâng, tòa nhà – góc hạ, máy bay bay lên, thang dựa tường) với số liệu mới; ví dụ mức Vận dụng theo dự án *Measure the Unreachable* (đo từ hai vị trí; giá trị đúng 10(√3 + 1) dùng trục căn thức của Bài 9); tự luyện D4 có bài cộng chiều cao tới mắt người quan sát.
+- Hình: nhãn đầu mút đoạn thẳng nay đặt theo tia (chỉ tránh phía có đoạn thẳng), nên không còn rơi vào ô góc vuông; các hình cũ không đổi.
+
+**Thuật ngữ mới (Bài 12)**
+
+| Bài | Tiếng Anh | Tiếng Việt | Câu ví dụ | Nguồn |
+|---|---|---|---|---|
+| g9-trig-02 | leg (of a right triangle) | cạnh góc vuông | AB and AC are the two legs of right triangle ABC. | TLTA Ch.4 L12 |
+| g9-trig-02 | solve a right triangle | giải tam giác vuông | Solving a right triangle is to find the unknown sides and angles. | TLTA Ch.4 L12 |
+| g9-trig-02 | horizontal | phương nằm ngang | The angle of elevation is measured from the horizontal line. | Mini project Ch.4 |
+| g9-trig-02 | line of sight | tia nhìn | The angle between the line of sight and the horizontal. | Mini project Ch.4 |
+| g9-trig-02 | round to the nearest tenth | làm tròn đến hàng phần mười | Round your answer to the nearest tenth of a meter. | TLTA Ch.4 L12 |
+| g9-trig-02 | observer's eye height | chiều cao tới mắt người quan sát | We added the observer's eye height to obtain the total height. | Mini project Ch.4 |

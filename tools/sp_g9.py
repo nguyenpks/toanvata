@@ -935,7 +935,7 @@ def auto_labels(cfg, dist=11):
     pts = {s['id']: tuple(s['at']) for s in steps if s['type'] in ('point', 'glider')}
     for s in steps:
         if s['type'] not in ('point', 'glider') or s.get('off') is not None: continue
-        X, Y = s['at']; dirs = []
+        X, Y = s['at']; dirs = []; rays = []
         poly = [t for t in steps if t['type'] == 'polygon' and s['id'] in t['through']]
         if poly:                                   # đỉnh đa giác: đặt nhãn theo phân giác ngoài (ra ngoài hình)
             th = poly[0]['through']; i = th.index(s['id']); Pp, Q = pts[th[i - 1]], pts[th[(i + 1) % len(th)]]
@@ -947,7 +947,8 @@ def auto_labels(cfg, dist=11):
                 dirs.append(_m.atan2(-t['a'], t['b']))
             if t['type'] in ('segment', 'line') and s['id'] in [r for r in t['through'] if isinstance(r, str)]:
                 o = [r for r in t['through'] if r != s['id']][0]; Q = pts[o] if isinstance(o, str) else o
-                dirs.append(_m.atan2(Q[1] - Y, Q[0] - X))
+                if t['type'] == 'segment': rays.append(_m.atan2(Q[1] - Y, Q[0] - X))   # đầu mút đoạn thẳng: chỉ một phía
+                else: dirs.append(_m.atan2(Q[1] - Y, Q[0] - X))
         if cfg.get('axes'):
             if abs(Y) < 1e-9: dirs.append(0.0)
             if abs(X) < 1e-9: dirs.append(_m.pi / 2)
@@ -956,7 +957,7 @@ def auto_labels(cfg, dist=11):
             def ad(u, v, line=True):
                 d = abs((u - v + _m.pi) % (2 * _m.pi) - _m.pi)
                 return min(d, _m.pi - d) if line else d
-            sc = min([ad(a, d) for d in dirs] + [ad(a, d, False) * 0.8 for d in near] + [_m.pi])
+            sc = min([ad(a, d) for d in dirs] + [ad(a, d, False) for d in rays] + [ad(a, d, False) * 0.8 for d in near] + [_m.pi])
             return sc + 0.01 * _m.cos(a - _m.pi / 4)      # hòa thì ưu tiên phía trên bên phải
         best = max((k * _m.pi / 8 for k in range(16)), key=score)
         s['off'] = [round(dist * _m.cos(best), 2), round(dist * _m.sin(best), 2)]
@@ -2006,3 +2007,221 @@ def b11_d4_cmp(r, lv):
 L11_GROUPS = [[('mcq', b11_ratio), ('mcq', b11_special), ('mcq', b11_comp)], [('tf', b11_tf_def), ('tf', b11_tf_comp)], [('short', b11_short_calc), ('short', b11_short_side)],
               [('mcq', b11_d1_side), ('mcq', b11_d1_defn), ('mcq', b11_d1_tan45)], [('mcq', b11_d2_cos), ('mcq', b11_d2_prod), ('mcq', b11_d2_cofn)],
               [('mcq', b11_d3_angle), ('mcq', b11_d3_spec), ('mcq', b11_d3_expr)], [('mcq', b11_d4_tan), ('mcq', b11_d4_ladder), ('mcq', b11_d4_cmp)]]
+
+# =====================================================================================================
+# BÀI 12. Một số hệ thức giữa cạnh, góc trong tam giác vuông và ứng dụng
+# =====================================================================================================
+def _r1(v):
+    """Làm tròn đến hàng phần mười; tránh giá trị sát ranh giới làm tròn (…,x5)."""
+    f = v * 10 - math.floor(v * 10); assert abs(f - 0.5) > 0.03
+    return '%.1f' % (math.floor(v * 10 + 0.5) / 10)
+
+def dopt(s, unit=''):
+    """Phương án số thập phân: dấu chấm (EN) / dấu phẩy (VI)."""
+    u = '\\text{ %s}' % unit if unit else ''
+    return tx('\\(%s%s\\)' % (s, u), '\\(%s%s\\)' % (s.replace('.', '{,}'), u))
+
+def dm(s): return s.replace('.', '{,}')
+HINT_D1 = ('Enter a decimal number (e.g. 7.7).', 'Nhập một số thập phân (ví dụ 7,7).')
+TRI_NAMES = [('A', 'B', 'C'), ('D', 'E', 'F'), ('M', 'N', 'P'), ('H', 'I', 'K')]   # đỉnh góc vuông, hai đỉnh còn lại
+def _ang(r): return r.choice([x for x in range(20, 71) if x != 45])
+def _dec_opts(r, good, bads, unit):
+    seen = [good]
+    for b in bads:
+        if b not in seen and float(b) > 0: seen.append(b)
+    k = 1
+    while len(seen) < 4:
+        c = '%.1f' % (float(good) + k * 0.7); k += 1
+        if c not in seen: seen.append(c)
+    return [dopt(s, unit) for s in seen[:4]]
+
+def b12_leg_sin(r, lv):
+    a, B = r.randint(6, 30), _ang(r); s = math.sin(math.radians(B)); c = math.cos(math.radians(B))
+    good = _r1(a * s); bads = []
+    for v in (a * c, a * math.tan(math.radians(B)), a / s):
+        try: bads.append(_r1(v))
+        except AssertionError: bads.append('%.1f' % v)
+    return dict(en='Triangle \\(ABC\\) is right-angled at \\(A\\), \\(BC=%d\\) cm and \\(\\widehat{B}=%d^\\circ\\). Find \\(AC\\), rounded to the nearest tenth of a centimeter.' % (a, B),
+                vi='Tam giác \\(ABC\\) vuông tại \\(A\\), \\(BC=%d\\) cm và \\(\\widehat{B}=%d^\\circ\\). Tính \\(AC\\) (làm tròn đến hàng phần mười của xăng-ti-mét).' % (a, B),
+                opts=_dec_opts(r, good, bads, 'cm'), ans=0,
+                ee='\\(AC\\) is opposite angle \\(B\\): \\(AC=BC\\cdot\\sin B=%d\\cdot\\sin %d^\\circ\\approx %s\\) cm.' % (a, B, good),
+                ev='\\(AC\\) là cạnh đối của góc \\(B\\): \\(AC=BC\\cdot\\sin B=%d\\cdot\\sin %d^\\circ\\approx %s\\) cm.' % (a, B, dm(good)))
+
+def b12_leg_tan(r, lv):
+    c, B = r.randint(4, 25), _ang(r); t = math.tan(math.radians(B))
+    good = _r1(c * t); bads = []
+    for v in (c / t, c * math.sin(math.radians(B)), c * math.cos(math.radians(B))):
+        try: bads.append(_r1(v))
+        except AssertionError: bads.append('%.1f' % v)
+    return dict(en='Triangle \\(ABC\\) is right-angled at \\(A\\), \\(AB=%d\\) m and \\(\\widehat{B}=%d^\\circ\\). Find \\(AC\\), rounded to the nearest tenth of a meter.' % (c, B),
+                vi='Tam giác \\(ABC\\) vuông tại \\(A\\), \\(AB=%d\\) m và \\(\\widehat{B}=%d^\\circ\\). Tính \\(AC\\) (làm tròn đến hàng phần mười của mét).' % (c, B),
+                opts=_dec_opts(r, good, bads, 'm'), ans=0,
+                ee='\\(AC\\) is opposite and \\(AB\\) is adjacent to angle \\(B\\): \\(AC=AB\\cdot\\tan B=%d\\cdot\\tan %d^\\circ\\approx %s\\) m.' % (c, B, good),
+                ev='\\(AC\\) là cạnh đối, \\(AB\\) là cạnh kề của góc \\(B\\): \\(AC=AB\\cdot\\tan B=%d\\cdot\\tan %d^\\circ\\approx %s\\) m.' % (c, B, dm(good)))
+
+def _rels(R, X, Y):
+    """Tam giác vuông tại R; hai đỉnh nhọn X, Y; cạnh huyền XY. Trả về (hệ thức đúng, hệ thức sai)."""
+    h = X + Y; lx = R + Y; ly = R + X   # lx: cạnh đối góc X; ly: cạnh đối góc Y
+    good = ['%s=%s\\cdot\\sin %s' % (lx, h, X), '%s=%s\\cdot\\cos %s' % (lx, h, Y), '%s=%s\\cdot\\tan %s' % (lx, ly, X), '%s=%s\\cdot\\cot %s' % (lx, ly, Y),
+            '%s=%s\\cdot\\sin %s' % (ly, h, Y), '%s=%s\\cdot\\cos %s' % (ly, h, X), '%s=%s\\cdot\\tan %s' % (ly, lx, Y), '%s=%s\\cdot\\cot %s' % (ly, lx, X)]
+    bad = ['%s=%s\\cdot\\cos %s' % (lx, h, X), '%s=%s\\cdot\\sin %s' % (lx, h, Y), '%s=%s\\cdot\\cot %s' % (lx, ly, X), '%s=%s\\cdot\\tan %s' % (lx, ly, Y),
+           '%s=%s\\cdot\\cos %s' % (ly, h, Y), '%s=%s\\cdot\\sin %s' % (ly, h, X), '%s=%s\\cdot\\cot %s' % (ly, lx, Y), '%s=%s\\cdot\\tan %s' % (ly, lx, X),
+           '%s=%s\\cdot\\sin %s' % (h, lx, X), '%s=%s\\cdot\\tan %s' % (h, ly, X)]
+    return good, bad
+
+def b12_formula(r, lv):
+    R, X, Y = r.choice(TRI_NAMES); g, b = _rels(R, X, Y); good = r.choice(g); bad = r.sample(b, 3)
+    return dict(en='Triangle \\(%s%s%s\\) is right-angled at \\(%s\\). Which relation is correct?' % (R, X, Y, R), vi='Tam giác \\(%s%s%s\\) vuông tại \\(%s\\). Hệ thức nào đúng?' % (R, X, Y, R),
+                opts=[good] + bad, ans=0,
+                ee='Each leg = hypotenuse × sine of the opposite angle = hypotenuse × cosine of the adjacent angle = other leg × tangent of the opposite angle = other leg × cotangent of the adjacent angle.',
+                ev='Mỗi cạnh góc vuông = cạnh huyền × sin góc đối = cạnh huyền × cos góc kề = cạnh góc vuông kia × tan góc đối = cạnh góc vuông kia × cot góc kề.')
+
+def b12_tf_rel(r, lv):
+    R, X, Y = r.choice(TRI_NAMES); g, b = _rels(R, X, Y); truth = r.random() < 0.5; s = r.choice(g if truth else b[:8])
+    return dict(en='Triangle \\(%s%s%s\\) is right-angled at \\(%s\\). Then \\(%s\\).' % (R, X, Y, R, s), vi='Tam giác \\(%s%s%s\\) vuông tại \\(%s\\). Khi đó \\(%s\\).' % (R, X, Y, R, s), ans=truth,
+                ee='The hypotenuse is \\(%s%s\\); \\(%s%s\\) is opposite angle \\(%s\\) and \\(%s%s\\) is opposite angle \\(%s\\).' % (X, Y, R, Y, X, R, X, Y),
+                ev='Cạnh huyền là \\(%s%s\\); \\(%s%s\\) là cạnh đối của góc \\(%s\\), \\(%s%s\\) là cạnh đối của góc \\(%s\\).' % (X, Y, R, Y, X, R, X, Y))
+
+def b12_tf_solve(r, lv):
+    a, B = r.randint(5, 20), _ang(r); truth = r.random() < 0.5
+    v = a * math.cos(math.radians(B)); good = _r1(v)
+    shown = good if truth else _r1(a * math.sin(math.radians(B)))
+    assert truth or shown != good
+    return dict(en='Triangle \\(ABC\\) is right-angled at \\(A\\), \\(BC=%d\\) and \\(\\widehat{B}=%d^\\circ\\). Then \\(\\widehat{C}=%d^\\circ\\) and \\(AB\\approx %s\\) (nearest tenth).' % (a, B, 90 - B, shown),
+                vi='Tam giác \\(ABC\\) vuông tại \\(A\\), \\(BC=%d\\) và \\(\\widehat{B}=%d^\\circ\\). Khi đó \\(\\widehat{C}=%d^\\circ\\) và \\(AB\\approx %s\\) (làm tròn đến hàng phần mười).' % (a, B, 90 - B, dm(shown)), ans=truth,
+                ee='\\(AB\\) is adjacent to \\(B\\): \\(AB=BC\\cdot\\cos B\\approx %s\\).' % good, ev='\\(AB\\) là cạnh kề của góc \\(B\\): \\(AB=BC\\cdot\\cos B\\approx %s\\).' % dm(good))
+
+def b12_short_hyp(r, lv):
+    c, B = r.randint(4, 30), _ang(r); key = _r1(c / math.cos(math.radians(B)))
+    return dict(en='Triangle \\(ABC\\) is right-angled at \\(A\\), \\(AB=%d\\) cm and \\(\\widehat{B}=%d^\\circ\\). Find \\(BC\\) in centimeters, rounded to the nearest tenth.' % (c, B),
+                vi='Tam giác \\(ABC\\) vuông tại \\(A\\), \\(AB=%d\\) cm và \\(\\widehat{B}=%d^\\circ\\). Tính \\(BC\\) theo xăng-ti-mét (làm tròn đến hàng phần mười).' % (c, B), key=key, hint=HINT_D1,
+                ee='\\(AB=BC\\cdot\\cos B\\Rightarrow BC=\\dfrac{%d}{\\cos %d^\\circ}\\approx %s\\) cm.' % (c, B, key), ev='\\(AB=BC\\cdot\\cos B\\Rightarrow BC=\\dfrac{%d}{\\cos %d^\\circ}\\approx %s\\) cm.' % (c, B, dm(key)))
+
+def b12_short_angle(r, lv):
+    while True:
+        p, q = r.randint(3, 20), r.randint(3, 20); B = math.degrees(math.atan2(q, p))
+        if p != q and abs(B - math.floor(B) - 0.5) > 0.05: break
+    n = round(B)
+    return dict(en='Triangle \\(ABC\\) is right-angled at \\(A\\), \\(AB=%d\\) cm and \\(AC=%d\\) cm. Find angle \\(B\\) in degrees, rounded to the nearest degree.' % (p, q),
+                vi='Tam giác \\(ABC\\) vuông tại \\(A\\), \\(AB=%d\\) cm và \\(AC=%d\\) cm. Tính số đo góc \\(B\\) (làm tròn đến độ).' % (p, q), key=str(n), hint=('Enter a whole number of degrees.', 'Nhập số đo theo độ (số nguyên).'),
+                ee='\\(\\tan B=\\dfrac{AC}{AB}=\\dfrac{%d}{%d}\\Rightarrow B\\approx %d^\\circ\\) (SHIFT tan).' % (q, p, n), ev='\\(\\tan B=\\dfrac{AC}{AB}=\\dfrac{%d}{%d}\\Rightarrow B\\approx %d^\\circ\\) (bấm SHIFT tan).' % (q, p, n))
+
+def b12_d1_hyp(r, lv):
+    R, X, Y = r.choice(TRI_NAMES)
+    return dict(en='Triangle \\(%s%s%s\\) is right-angled at \\(%s\\). Which side is the hypotenuse?' % (R, X, Y, R), vi='Tam giác \\(%s%s%s\\) vuông tại \\(%s\\). Cạnh huyền là cạnh nào?' % (R, X, Y, R),
+                opts=['%s%s' % (X, Y), '%s%s' % (R, X), '%s%s' % (R, Y), tx('none of them', 'không có cạnh nào')], ans=0,
+                ee='The hypotenuse is opposite the right angle \\(%s\\).' % R, ev='Cạnh huyền là cạnh đối diện với góc vuông \\(%s\\).' % R)
+
+def b12_d1_other(r, lv):
+    R, X, Y = r.choice(TRI_NAMES); b = r.randint(10, 80)
+    return dict(en='Triangle \\(%s%s%s\\) is right-angled at \\(%s\\) and \\(\\widehat{%s}=%d^\\circ\\). Find \\(\\widehat{%s}\\).' % (R, X, Y, R, X, b, Y), vi='Tam giác \\(%s%s%s\\) vuông tại \\(%s\\) và \\(\\widehat{%s}=%d^\\circ\\). Tính \\(\\widehat{%s}\\).' % (R, X, Y, R, X, b, Y),
+                opts=pick_opts(r, '%d^\\circ' % (90 - b), ['%d^\\circ' % v for v in (180 - b, b, 90 + b) if v != 90 - b], fill=lambda k: '%d^\\circ' % (90 - b + 10 * k)), ans=0,
+                ee='The two acute angles of a right triangle are complementary: \\(90^\\circ-%d^\\circ=%d^\\circ\\).' % (b, 90 - b), ev='Hai góc nhọn của tam giác vuông phụ nhau: \\(90^\\circ-%d^\\circ=%d^\\circ\\).' % (b, 90 - b))
+
+def b12_d1_rule(r, lv):
+    k = r.choice(['sin', 'cos', 'tan', 'cot'])
+    stem = {'sin': ('hypotenuse × sine of …', 'cạnh huyền × sin của …'), 'cos': ('hypotenuse × cosine of …', 'cạnh huyền × cos của …'),
+            'tan': ('the other leg × tangent of …', 'cạnh góc vuông kia × tan của …'), 'cot': ('the other leg × cotangent of …', 'cạnh góc vuông kia × cot của …')}[k]
+    good = k in ('sin', 'tan')
+    o = [tx('the opposite angle', 'góc đối'), tx('the adjacent angle', 'góc kề'), tx('the right angle', 'góc vuông'), tx('any angle of the triangle', 'góc bất kì của tam giác')]
+    if not good: o[0], o[1] = o[1], o[0]
+    return dict(en='In a right triangle, each leg equals %s' % stem[0], vi='Trong tam giác vuông, mỗi cạnh góc vuông bằng %s' % stem[1], opts=o, ans=0,
+                ee='sin, tan go with the opposite angle; cos, cot go with the adjacent angle.', ev='sin, tan đi với góc đối; cos, cot đi với góc kề.')
+
+def b12_d2_cos(r, lv):
+    a, C = r.randint(6, 30), _ang(r); good = _r1(a * math.cos(math.radians(C))); bads = []
+    for v in (a * math.sin(math.radians(C)), a / math.cos(math.radians(C)), a * math.tan(math.radians(C))):
+        try: bads.append(_r1(v))
+        except AssertionError: bads.append('%.1f' % v)
+    return dict(en='Triangle \\(ABC\\) is right-angled at \\(A\\), \\(BC=%d\\) cm and \\(\\widehat{C}=%d^\\circ\\). Find \\(AC\\) (nearest tenth).' % (a, C),
+                vi='Tam giác \\(ABC\\) vuông tại \\(A\\), \\(BC=%d\\) cm và \\(\\widehat{C}=%d^\\circ\\). Tính \\(AC\\) (làm tròn đến hàng phần mười).' % (a, C),
+                opts=_dec_opts(r, good, bads, 'cm'), ans=0, ee='\\(AC\\) is adjacent to \\(C\\): \\(AC=BC\\cdot\\cos C\\approx %s\\) cm.' % good, ev='\\(AC\\) là cạnh kề của góc \\(C\\): \\(AC=BC\\cdot\\cos C\\approx %s\\) cm.' % dm(good))
+
+def b12_d2_cot(r, lv):
+    b, B = r.randint(4, 25), _ang(r); good = _r1(b / math.tan(math.radians(B))); bads = []
+    for v in (b * math.tan(math.radians(B)), b * math.cos(math.radians(B)), b / math.sin(math.radians(B))):
+        try: bads.append(_r1(v))
+        except AssertionError: bads.append('%.1f' % v)
+    return dict(en='Triangle \\(ABC\\) is right-angled at \\(A\\), \\(AC=%d\\) m and \\(\\widehat{B}=%d^\\circ\\). Find \\(AB\\) (nearest tenth).' % (b, B),
+                vi='Tam giác \\(ABC\\) vuông tại \\(A\\), \\(AC=%d\\) m và \\(\\widehat{B}=%d^\\circ\\). Tính \\(AB\\) (làm tròn đến hàng phần mười).' % (b, B),
+                opts=_dec_opts(r, good, bads, 'm'), ans=0, ee='\\(AB=AC\\cdot\\cot B=\\dfrac{%d}{\\tan %d^\\circ}\\approx %s\\) m.' % (b, B, good), ev='\\(AB=AC\\cdot\\cot B=\\dfrac{%d}{\\tan %d^\\circ}\\approx %s\\) m.' % (b, B, dm(good)))
+
+def b12_d2_exact(r, lv):
+    k = r.randint(2, 15); B = r.choice([30, 60]); kind = r.choice(['AC', 'BC'])
+    # AB = k (cạnh kề góc B)
+    if kind == 'AC': good, bad = ('%d\\sqrt{3}' % k, '\\dfrac{%d\\sqrt{3}}{3}' % k) if B == 60 else ('\\dfrac{%d\\sqrt{3}}{3}' % k, '%d\\sqrt{3}' % k)
+    else: good, bad = ('%d' % (2 * k), '\\dfrac{%d\\sqrt{3}}{3}' % (2 * k)) if B == 60 else ('\\dfrac{%d\\sqrt{3}}{3}' % (2 * k), '%d' % (2 * k))
+    o = [good, bad, '%d\\sqrt{2}' % k, '%d' % k if good != '%d' % k else '%d' % (3 * k)]
+    return dict(en='Triangle \\(ABC\\) is right-angled at \\(A\\), \\(AB=%d\\) and \\(\\widehat{B}=%d^\\circ\\). Find the exact value of \\(%s\\).' % (k, B, kind),
+                vi='Tam giác \\(ABC\\) vuông tại \\(A\\), \\(AB=%d\\) và \\(\\widehat{B}=%d^\\circ\\). Tính giá trị đúng của \\(%s\\).' % (k, B, kind), opts=o, ans=0,
+                ee='\\(%s\\).' % ('AC=AB\\cdot\\tan %d^\\circ' % B if kind == 'AC' else 'BC=\\dfrac{AB}{\\cos %d^\\circ}' % B), ev='\\(%s\\).' % ('AC=AB\\cdot\\tan %d^\\circ' % B if kind == 'AC' else 'BC=\\dfrac{AB}{\\cos %d^\\circ}' % B))
+
+def b12_d3_solve(r, lv):
+    a, B = r.randint(6, 25), _ang(r); s, c = math.sin(math.radians(B)), math.cos(math.radians(B))
+    AC, AB = _r1(a * s), _r1(a * c)
+    trip = lambda C_, x, y: tx('\\(\\widehat{C}=%d^\\circ,\\ AB\\approx %s,\\ AC\\approx %s\\)' % (C_, x, y), '\\(\\widehat{C}=%d^\\circ,\\ AB\\approx %s,\\ AC\\approx %s\\)' % (C_, dm(x), dm(y)))
+    assert AC != AB
+    o = [trip(90 - B, AB, AC), trip(90 - B, AC, AB), trip(B, AB, AC), trip(180 - B, AB, AC)]
+    return dict(en='Solve the right triangle \\(ABC\\) (right angle at \\(A\\)) given \\(BC=%d\\) and \\(\\widehat{B}=%d^\\circ\\) (sides to the nearest tenth).' % (a, B),
+                vi='Giải tam giác \\(ABC\\) vuông tại \\(A\\), biết \\(BC=%d\\) và \\(\\widehat{B}=%d^\\circ\\) (cạnh làm tròn đến hàng phần mười).' % (a, B), opts=o, ans=0,
+                ee='\\(\\widehat{C}=90^\\circ-%d^\\circ\\); \\(AB=BC\\cos B\\), \\(AC=BC\\sin B\\).' % B, ev='\\(\\widehat{C}=90^\\circ-%d^\\circ\\); \\(AB=BC\\cos B\\), \\(AC=BC\\sin B\\).' % B)
+
+def b12_d3_ladder(r, lv):
+    L, a = r.choice([3, 4, 5, 6, 7, 8]), r.randint(55, 80); good = _r1(L * math.sin(math.radians(a))); bads = []
+    for v in (L * math.cos(math.radians(a)), L * math.tan(math.radians(a)) if L * math.tan(math.radians(a)) < 60 else L + 1.3, L / math.sin(math.radians(a))):
+        try: bads.append(_r1(v))
+        except AssertionError: bads.append('%.1f' % v)
+    return dict(en='A %d m ladder leans against a vertical wall and makes a \\(%d^\\circ\\) angle with the ground. How high up the wall does it reach (nearest tenth)?' % (L, a),
+                vi='Một chiếc thang dài %d m dựa vào bức tường thẳng đứng, tạo với mặt đất một góc \\(%d^\\circ\\). Đầu thang chạm tường ở độ cao bao nhiêu (làm tròn đến hàng phần mười)?' % (L, a),
+                opts=_dec_opts(r, good, bads, 'm'), ans=0, ee='Height \\(=%d\\cdot\\sin %d^\\circ\\approx %s\\) m.' % (L, a, good), ev='Độ cao \\(=%d\\cdot\\sin %d^\\circ\\approx %s\\) m.' % (L, a, dm(good)))
+
+def b12_d3_depr(r, lv):
+    h, d = r.randint(12, 60), r.randint(20, 50); good = _r1(h / math.tan(math.radians(d))); bads = []
+    for v in (h * math.tan(math.radians(d)), h * math.cos(math.radians(d)), h / math.sin(math.radians(d))):
+        try: bads.append(_r1(v))
+        except AssertionError: bads.append('%.1f' % v)
+    return dict(en='From the top of a %d m tall building, the angle of depression to a car on the ground is \\(%d^\\circ\\). Find the horizontal distance from the car to the foot of the building (nearest tenth).' % (h, d),
+                vi='Từ đỉnh một tòa nhà cao %d m, góc hạ nhìn xuống một chiếc ô tô trên mặt đất là \\(%d^\\circ\\). Tính khoảng cách từ ô tô đến chân tòa nhà (làm tròn đến hàng phần mười).' % (h, d),
+                opts=_dec_opts(r, good, bads, 'm'), ans=0,
+                ee='The angle of depression equals the angle of elevation from the car: distance \\(=\\dfrac{%d}{\\tan %d^\\circ}\\approx %s\\) m.' % (h, d, good),
+                ev='Góc hạ bằng góc nâng nhìn từ ô tô (so le trong): khoảng cách \\(=\\dfrac{%d}{\\tan %d^\\circ}\\approx %s\\) m.' % (h, d, dm(good)))
+
+def b12_d4_two(r, lv):
+    a1, a2 = r.choice([(30, 45), (30, 60), (45, 60)]); d = r.choice(range(10, 61, 2))
+    t1, t2 = math.tan(math.radians(a1)), math.tan(math.radians(a2)); h = d / (1 / t1 - 1 / t2); good = _r1(h); bads = []
+    for v in (d * t1, d * t2, d / (1 / t1 + 1 / t2)):
+        try: bads.append(_r1(v))
+        except AssertionError: bads.append('%.1f' % v)
+    return dict(en='From point \\(M\\) on level ground, the angle of elevation to the top of a tower is \\(%d^\\circ\\). After walking %d m straight towards the tower to point \\(N\\), the angle of elevation is \\(%d^\\circ\\). Find the height of the tower (nearest tenth).' % (a1, d, a2),
+                vi='Từ điểm \\(M\\) trên mặt đất phẳng, góc nâng nhìn lên đỉnh một tháp là \\(%d^\\circ\\). Đi thẳng về phía tháp %d m đến điểm \\(N\\) thì góc nâng là \\(%d^\\circ\\). Tính chiều cao của tháp (làm tròn đến hàng phần mười).' % (a1, d, a2),
+                opts=_dec_opts(r, good, bads, 'm'), ans=0,
+                ee='Let \\(h\\) be the height: \\(h\\cot %d^\\circ-h\\cot %d^\\circ=%d\\Rightarrow h=\\dfrac{%d}{\\cot %d^\\circ-\\cot %d^\\circ}\\approx %s\\) m.' % (a1, a2, d, d, a1, a2, good),
+                ev='Gọi \\(h\\) là chiều cao: \\(h\\cot %d^\\circ-h\\cot %d^\\circ=%d\\Rightarrow h=\\dfrac{%d}{\\cot %d^\\circ-\\cot %d^\\circ}\\approx %s\\) m.' % (a1, a2, d, d, a1, a2, dm(good)))
+
+def b12_d4_eye(r, lv):
+    e, d, a = r.choice([1.5, 1.6, 1.7]), r.randint(8, 40), r.randint(20, 60); good = _r1(e + d * math.tan(math.radians(a))); bads = []
+    for v in (d * math.tan(math.radians(a)), e + d * math.sin(math.radians(a)), e + d / math.tan(math.radians(a))):
+        try: bads.append(_r1(v))
+        except AssertionError: bads.append('%.1f' % v)
+    es = ('%g' % e)
+    return dict(en='A student whose eyes are %s m above the ground stands %d m from a flagpole and sees its top at an angle of elevation of \\(%d^\\circ\\). How tall is the flagpole (nearest tenth)?' % (es, d, a),
+                vi='Một bạn học sinh có mắt cách mặt đất %s m đứng cách cột cờ %d m, nhìn đỉnh cột cờ với góc nâng \\(%d^\\circ\\). Cột cờ cao bao nhiêu mét (làm tròn đến hàng phần mười)?' % (es.replace('.', ','), d, a),
+                opts=_dec_opts(r, good, bads, 'm'), ans=0,
+                ee='Height \\(=%s+%d\\cdot\\tan %d^\\circ\\approx %s\\) m (add the eye height).' % (es, d, a, good), ev='Chiều cao \\(=%s+%d\\cdot\\tan %d^\\circ\\approx %s\\) m (cộng thêm chiều cao tới mắt).' % (dm(es), d, a, dm(good)))
+
+def b12_d4_plane(r, lv):
+    v, a, t = r.choice([300, 360, 400, 450, 480, 500, 600]), r.choice([10, 12, 15, 20, 25, 30]), r.choice([1.2, 1.5, 2, 3])
+    dist = v * t / 60; assert abs(dist * 10 - round(dist * 10)) < 1e-9; dist = round(dist, 1); h = dist * math.sin(math.radians(a)); good = _r1(h); bads = []
+    for w in (dist * math.cos(math.radians(a)), dist * math.tan(math.radians(a)), dist):
+        try: bads.append(_r1(w))
+        except AssertionError: bads.append('%.1f' % w)
+    ts = '%g' % t
+    return dict(en='An airplane climbs at %d km/h along a path that makes a \\(%d^\\circ\\) angle with the horizontal. How many kilometers does it rise in %s minutes (nearest tenth)?' % (v, a, ts),
+                vi='Một máy bay bay lên với vận tốc %d km/h theo đường tạo với phương nằm ngang một góc \\(%d^\\circ\\). Sau %s phút máy bay lên cao được bao nhiêu ki-lô-mét (làm tròn đến hàng phần mười)?' % (v, a, ts.replace('.', ',')),
+                opts=_dec_opts(r, good, bads, 'km'), ans=0,
+                ee='Distance flown \\(=%d\\cdot\\dfrac{%s}{60}=%g\\) km; height \\(=%g\\cdot\\sin %d^\\circ\\approx %s\\) km.' % (v, ts, dist, dist, a, good),
+                ev='Quãng đường bay \\(=%d\\cdot\\dfrac{%s}{60}=%s\\) km; độ cao \\(=%s\\cdot\\sin %d^\\circ\\approx %s\\) km.' % (v, dm(ts), dm('%g' % dist), dm('%g' % dist), a, dm(good)))
+
+L12_GROUPS = [[('mcq', b12_leg_sin), ('mcq', b12_leg_tan), ('mcq', b12_formula)], [('tf', b12_tf_rel), ('tf', b12_tf_solve)], [('short', b12_short_hyp), ('short', b12_short_angle)],
+              [('mcq', b12_d1_hyp), ('mcq', b12_d1_other), ('mcq', b12_d1_rule)], [('mcq', b12_d2_cos), ('mcq', b12_d2_cot), ('mcq', b12_d2_exact)],
+              [('mcq', b12_d3_solve), ('mcq', b12_d3_ladder), ('mcq', b12_d3_depr)], [('mcq', b12_d4_two), ('mcq', b12_d4_eye), ('mcq', b12_d4_plane)]]
