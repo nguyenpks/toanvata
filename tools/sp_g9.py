@@ -88,6 +88,11 @@ def _render(kind, q, n, r):
                      ('Answer: %s. %s' % (q['key'], q['ee']), 'Đáp số: %s. %s' % (q['key'].replace('.', ','), q['ev'])))
     raise ValueError(kind)
 
+def _vcomma(h):
+    """Ngoài công thức, dấu phẩy thập phân viết thường (2,5) thay cho dạng TeX 2{,}5."""
+    parts = re.split(r'(\\\(.*?\\\)|\\\[.*?\\\])', h, flags=re.S)
+    return ''.join(x if i % 2 else x.replace('{,}', ',') for i, x in enumerate(parts))
+
 def BANK(groups, start=1, seeds=(911, 922, 933)):
     """groups: [[(kind, builder), ...], ...]. Không câu nào trùng nhau (kể cả giữa các mức)."""
     used = set(); out = {}
@@ -104,7 +109,7 @@ def BANK(groups, start=1, seeds=(911, 922, 933)):
                 assert '<' not in q['en'].replace('<b>', '').replace('</b>', '') and '<' not in q['vi'].replace('<b>', '').replace('</b>', ''), q['en']
                 # Từ "nghiệm" đứng riêng được gắn tự động với mục từ chung "zero (root)" (dùng cho hàm số lớp 11–12);
                 # ở lớp 9 đó là nghiệm của phương trình/hệ, nên chú thích tiếng Anh là "solution".
-                used.add(q['en']); items.append(_render(kind, q, n, r).replace('data-en="zero (root)">', 'data-en="solution">').replace('data-en="velocity">', 'data-en="speed">')); n += 1
+                used.add(q['en']); items.append(_vcomma(_render(kind, q, n, r)).replace('data-en="zero (root)">', 'data-en="solution">').replace('data-en="velocity">', 'data-en="speed">')); n += 1
             sets.append(items)
         out[lv] = sets
     return out
@@ -949,6 +954,20 @@ def auto_labels(cfg, dist=11):
                 o = [r for r in t['through'] if r != s['id']][0]; Q = pts[o] if isinstance(o, str) else o
                 if t['type'] == 'segment': rays.append(_m.atan2(Q[1] - Y, Q[0] - X))   # đầu mút đoạn thẳng: chỉ một phía
                 else: dirs.append(_m.atan2(Q[1] - Y, Q[0] - X))
+        for t in steps:                            # điểm nằm trên đường tròn: tránh tiếp tuyến và bán kính (nhãn ra phía ngoài)
+            if t['type'] == 'circle':
+                Cx, Cy = pts[t['center']]; rr = t['radius'] if 'radius' in t else _m.hypot(pts[t['through']][0] - Cx, pts[t['through']][1] - Cy)
+                if s['id'] != t['center'] and abs(_m.hypot(X - Cx, Y - Cy) - rr) < 1e-6:
+                    rays.append(_m.atan2(Cy - Y, Cx - X)); dirs.append(_m.atan2(Cy - Y, Cx - X) + _m.pi / 2)
+            if t['type'] == 'curve':                 # điểm nằm trên đồ thị: tránh hướng tiếp tuyến của đồ thị
+                fx = lambda x: eval(t['f'].replace('^', '**'), {'x': x, 'sqrt': _m.sqrt})
+                try:
+                    if abs(fx(X) - Y) < 1e-6:
+                        k = (fx(X + 1e-4) - fx(X - 1e-4)) / 2e-4; dirs.append(_m.atan(k))
+                        if abs(k) < 1e-6: rays.append(_m.pi / 2 if fx(X + 0.5) > Y else -_m.pi / 2)   # đỉnh parabol: tránh phía bề lõm
+                except Exception: pass
+            if t['type'] == 'tangent' and t['at'] == s['id']:
+                Cx, Cy = pts[t['center']]; dirs.append(_m.atan2(Cy - Y, Cx - X) + _m.pi / 2)
         if cfg.get('axes'):
             if abs(Y) < 1e-9: dirs.append(0.0)
             if abs(X) < 1e-9: dirs.append(_m.pi / 2)
@@ -2018,7 +2037,7 @@ def _r1(v):
 
 def dopt(s, unit=''):
     """Phương án số thập phân: dấu chấm (EN) / dấu phẩy (VI)."""
-    u = '\\text{ %s}' % unit if unit else ''
+    u = ('\\text{ %s}' % unit if '^' not in unit else '\\text{ %s}^%s' % tuple(unit.split('^'))) if unit else ''
     return tx('\\(%s%s\\)' % (s, u), '\\(%s%s\\)' % (s.replace('.', '{,}'), u))
 
 def dm(s): return s.replace('.', '{,}')
@@ -2225,3 +2244,1408 @@ def b12_d4_plane(r, lv):
 L12_GROUPS = [[('mcq', b12_leg_sin), ('mcq', b12_leg_tan), ('mcq', b12_formula)], [('tf', b12_tf_rel), ('tf', b12_tf_solve)], [('short', b12_short_hyp), ('short', b12_short_angle)],
               [('mcq', b12_d1_hyp), ('mcq', b12_d1_other), ('mcq', b12_d1_rule)], [('mcq', b12_d2_cos), ('mcq', b12_d2_cot), ('mcq', b12_d2_exact)],
               [('mcq', b12_d3_solve), ('mcq', b12_d3_ladder), ('mcq', b12_d3_depr)], [('mcq', b12_d4_two), ('mcq', b12_d4_eye), ('mcq', b12_d4_plane)]]
+
+# =====================================================================================================
+# CHƯƠNG V – tiện ích chung
+# =====================================================================================================
+PYT = [(3, 4, 5), (6, 8, 10), (5, 12, 13), (9, 12, 15), (8, 15, 17), (12, 16, 20), (7, 24, 25), (15, 20, 25), (20, 21, 29), (9, 40, 41)]
+POS = {'in': ('inside the circle', 'nằm trong đường tròn'), 'on': ('on the circle', 'nằm trên đường tròn'), 'out': ('outside the circle', 'nằm ngoài đường tròn')}
+def pos_opts(k):
+    o = [tx(*POS[k])] + [tx(*POS[j]) for j in ('in', 'on', 'out') if j != k]
+    return o + [tx('it cannot be determined', 'không xác định được')]
+def num(x):
+    """Số in ra: 2.5 / 3 (dạng tiếng Anh, dấu chấm)."""
+    return ('%g' % x)
+def pie(q):
+    """q·π dạng TeX với q phân số."""
+    q = F(q)
+    if q == 1: return '\\pi'
+    if q.denominator == 1: return '%d\\pi' % q.numerator
+    return '\\dfrac{%d}{%d}\\pi' % (q.numerator, q.denominator) if q > 0 else '-' + pie(-q)
+
+# =====================================================================================================
+# BÀI 13. Mở đầu về đường tròn
+# =====================================================================================================
+def _dist_case(r):
+    R = r.randint(3, 15); k = r.choice(['in', 'on', 'out'])
+    d = {'in': r.choice([x / 2 for x in range(1, 2 * R)]), 'on': R, 'out': r.choice([R + x / 2 for x in range(1, 12)])}[k]
+    return R, d, k
+
+def b13_pos(r, lv):
+    R, d, k = _dist_case(r); P = r.choice('MNPQ')
+    return dict(en='Circle \\((O;\\,%s\\text{ cm})\\) and a point \\(%s\\) with \\(O%s=%s\\) cm. Where does \\(%s\\) lie?' % (R, P, P, num(d), P),
+                vi='Cho đường tròn \\((O;\\,%s\\text{ cm})\\) và điểm \\(%s\\) với \\(O%s=%s\\) cm. Điểm \\(%s\\) nằm ở đâu?' % (R, P, P, dm(num(d)), P),
+                opts=pos_opts(k), ans=0, ee='Compare \\(O%s=%s\\) with \\(R=%d\\): %s.' % (P, num(d), R, {'in': 'smaller', 'on': 'equal', 'out': 'greater'}[k]),
+                ev='So sánh \\(O%s=%s\\) với \\(R=%d\\): %s.' % (P, dm(num(d)), R, {'in': 'nhỏ hơn', 'on': 'bằng', 'out': 'lớn hơn'}[k]))
+
+def b13_diam(r, lv):
+    if r.random() < 0.5:
+        R = r.randint(2, 40) / 2; good = num(2 * R); bads = [num(R / 2), num(R), num(4 * R)]
+        return dict(en='A circle has radius %s cm. What is the length of a diameter?' % num(R), vi='Một đường tròn có bán kính %s cm. Đường kính của nó dài bao nhiêu?' % dm(num(R)),
+                    opts=[dopt(x, 'cm') for x in [good] + bads], ans=0, ee='Diameter \\(=2R=%s\\) cm.' % good, ev='Đường kính \\(=2R=%s\\) cm.' % dm(good))
+    D = r.randint(3, 50); good = num(D / 2); bads = [num(2 * D), num(D), num(D / 4)]
+    return dict(en='A circle has a diameter of %d cm. What is its radius?' % D, vi='Một đường tròn có đường kính %d cm. Bán kính của nó bằng bao nhiêu?' % D,
+                opts=[dopt(x, 'cm') for x in [good] + bads], ans=0, ee='\\(R=\\dfrac{%d}{2}=%s\\) cm.' % (D, good), ev='\\(R=\\dfrac{%d}{2}=%s\\) cm.' % (D, dm(good)))
+
+def b13_sym(r, lv):
+    R = r.randint(2, 20); kind = r.choice(['axes', 'center'])
+    if kind == 'axes':
+        o = [tx('infinitely many; they are the lines through \\(O\\)', 'vô số; đó là các đường thẳng đi qua \\(O\\)'), tx('exactly one', 'đúng một'), tx('exactly two', 'đúng hai'), tx('none', 'không có')]
+        return dict(en='How many axes of symmetry does the circle \\((O;\\,%d\\text{ cm})\\) have?' % R, vi='Đường tròn \\((O;\\,%d\\text{ cm})\\) có bao nhiêu trục đối xứng?' % R, opts=o, ans=0,
+                    ee='Every line through the center (every diameter) is an axis of symmetry.', ev='Mỗi đường thẳng đi qua tâm (mỗi đường kính) là một trục đối xứng.')
+    o = [tx('its center \\(O\\)', 'tâm \\(O\\)'), tx('any point on the circle', 'mọi điểm trên đường tròn'), tx('it has no center of symmetry', 'không có tâm đối xứng'), tx('any point inside the circle', 'mọi điểm nằm trong đường tròn')]
+    return dict(en='What is the center of symmetry of the circle \\((O;\\,%d\\text{ cm})\\)?' % R, vi='Tâm đối xứng của đường tròn \\((O;\\,%d\\text{ cm})\\) là gì?' % R, opts=o, ans=0,
+                ee='A circle is symmetric about its center.', ev='Đường tròn có tâm đối xứng là tâm của nó.')
+
+def b13_tf_pos(r, lv):
+    R, d, k = _dist_case(r); claim = r.choice(['in', 'on', 'out']); P = r.choice('ABCDE')
+    return dict(en='The point \\(%s\\) with \\(O%s=%s\\) cm lies %s \\((O;\\,%d\\text{ cm})\\).' % (P, P, num(d), POS[claim][0].replace('the circle', 'the circle'), R),
+                vi='Điểm \\(%s\\) với \\(O%s=%s\\) cm %s \\((O;\\,%d\\text{ cm})\\).' % (P, P, dm(num(d)), POS[claim][1], R), ans=(claim == k),
+                ee='\\(O%s=%s\\) %s \\(R=%d\\), so the point lies %s.' % (P, num(d), {'in': '\\(\\lt\\)', 'on': '\\(=\\)', 'out': '\\(\\gt\\)'}[k], R, POS[k][0]),
+                ev='\\(O%s=%s\\) %s \\(R=%d\\) nên điểm %s.' % (P, dm(num(d)), {'in': '\\(\\lt\\)', 'on': '\\(=\\)', 'out': '\\(\\gt\\)'}[k], R, POS[k][1]))
+
+def b13_tf_sym(r, lv):
+    A = r.choice('ABCMN'); R = r.randint(2, 12); case = r.choice(['center', 'diam', 'line'])
+    st = {'center': ('the point symmetric to \\(%s\\) with respect to \\(O\\)' % A, 'điểm đối xứng với \\(%s\\) qua \\(O\\)' % A),
+          'diam': ('the point symmetric to \\(%s\\) with respect to a line through \\(O\\)' % A, 'điểm đối xứng với \\(%s\\) qua một đường thẳng đi qua \\(O\\)' % A),
+          'line': ('the point symmetric to \\(%s\\) with respect to any line \\(d\\)' % A, 'điểm đối xứng với \\(%s\\) qua một đường thẳng \\(d\\) bất kì' % A)}[case]
+    return dict(en='\\(%s\\) lies on \\((O;\\,%d\\text{ cm})\\). Then %s also lies on this circle.' % (A, R, st[0]), vi='\\(%s\\) nằm trên \\((O;\\,%d\\text{ cm})\\). Khi đó %s cũng nằm trên đường tròn này.' % (A, R, st[1]),
+                ans=(case != 'line'), ee='The circle is symmetric about \\(O\\) and about every line through \\(O\\), but not about a line that misses \\(O\\).',
+                ev='Đường tròn đối xứng qua tâm \\(O\\) và qua mọi đường thẳng đi qua \\(O\\), nhưng không đối xứng qua đường thẳng không đi qua \\(O\\).')
+
+def b13_short_rect(r, lv):
+    a, b, c = r.choice(PYT); 
+    return dict(en='Rectangle \\(ABCD\\) has \\(AB=%d\\) cm and \\(BC=%d\\) cm. Its four vertices lie on one circle. Find the radius of that circle (cm).' % (a, b),
+                vi='Hình chữ nhật \\(ABCD\\) có \\(AB=%d\\) cm, \\(BC=%d\\) cm. Bốn đỉnh của nó cùng nằm trên một đường tròn. Tính bán kính đường tròn đó (cm).' % (a, b),
+                key=num(c / 2), hint=('Enter a number (e.g. 6.5).', 'Nhập một số (ví dụ 6,5).'),
+                ee='The center is the intersection of the diagonals; \\(AC=\\sqrt{%d^2+%d^2}=%d\\), so \\(R=\\dfrac{%d}{2}=%s\\).' % (a, b, c, c, num(c / 2)),
+                ev='Tâm là giao điểm hai đường chéo; \\(AC=\\sqrt{%d^2+%d^2}=%d\\) nên \\(R=\\dfrac{%d}{2}=%s\\).' % (a, b, c, c, dm(num(c / 2))))
+
+def b13_short_count(r, lv):
+    R = r.randint(4, 20)
+    return dict(en='Point \\(M\\) lies inside \\((O;\\,%d\\text{ cm})\\), \\(M\\ne O\\), and \\(OM\\) is a whole number of centimeters. How many values can \\(OM\\) take?' % R,
+                vi='Điểm \\(M\\) nằm trong \\((O;\\,%d\\text{ cm})\\), \\(M\\ne O\\) và \\(OM\\) là một số nguyên xăng-ti-mét. \\(OM\\) có thể nhận bao nhiêu giá trị?' % R,
+                key=str(R - 1), ee='\\(0\\lt OM\\lt %d\\): \\(OM\\in\\{1;\\,2;\\,\\ldots;\\,%d\\}\\).' % (R, R - 1), ev='\\(0\\lt OM\\lt %d\\): \\(OM\\in\\{1;\\,2;\\,\\ldots;\\,%d\\}\\).' % (R, R - 1))
+
+def b13_d1_name(r, lv):
+    k = r.choice(['radius', 'diam']); A, B = r.sample('ABCDMN', 2)
+    if k == 'radius':
+        en, vi = 'Point \\(%s\\) lies on the circle with center \\(O\\). The segment \\(O%s\\) is called…' % (A, A), 'Điểm \\(%s\\) nằm trên đường tròn tâm \\(O\\). Đoạn thẳng \\(O%s\\) được gọi là…' % (A, A)
+        o = [tx('a radius', 'một bán kính'), tx('a diameter', 'một đường kính'), tx('an arc', 'một cung'), tx('a center', 'một tâm')]
+    else:
+        en, vi = 'Points \\(%s\\), \\(%s\\) lie on the circle with center \\(O\\), and \\(O\\) is the midpoint of \\(%s%s\\). The segment \\(%s%s\\) is called…' % (A, B, A, B, A, B), 'Hai điểm \\(%s\\), \\(%s\\) nằm trên đường tròn tâm \\(O\\) và \\(O\\) là trung điểm của \\(%s%s\\). Đoạn thẳng \\(%s%s\\) được gọi là…' % (A, B, A, B, A, B)
+        o = [tx('a diameter', 'một đường kính'), tx('a radius', 'một bán kính'), tx('an arc', 'một cung'), tx('a center', 'một tâm')]
+    return dict(en=en, vi=vi, opts=o, ans=0, ee='A radius joins the center to a point of the circle; a diameter passes through the center.', ev='Bán kính nối tâm với một điểm của đường tròn; đường kính đi qua tâm.')
+
+def b13_d1_on(r, lv):
+    R = r.randint(2, 30); P = r.choice('MNPQ')
+    o = ['O%s=%d' % (P, R), 'O%s\\lt %d' % (P, R), 'O%s\\gt %d' % (P, R), 'O%s=%d' % (P, 2 * R)]
+    return dict(en='Point \\(%s\\) lies on the circle \\((O;\\,%d)\\) exactly when…' % (P, R), vi='Điểm \\(%s\\) nằm trên đường tròn \\((O;\\,%d)\\) khi và chỉ khi…' % (P, R), opts=o, ans=0,
+                ee='The circle is the set of points at distance \\(R\\) from \\(O\\).', ev='Đường tròn gồm các điểm cách \\(O\\) đúng bằng \\(R\\).')
+
+def b13_d1_set(r, lv):
+    R = r.randint(2, 20)
+    o = [tx('all points at distance %d cm from \\(O\\)' % R, 'tất cả các điểm cách \\(O\\) đúng %d cm' % R), tx('all points at distance less than %d cm from \\(O\\)' % R, 'tất cả các điểm cách \\(O\\) chưa tới %d cm' % R),
+         tx('all points at distance %d cm from \\(O\\)' % (2 * R), 'tất cả các điểm cách \\(O\\) đúng %d cm' % (2 * R)), tx('only the point \\(O\\)', 'chỉ gồm điểm \\(O\\)')]
+    return dict(en='The circle \\((O;\\,%d\\text{ cm})\\) consists of…' % R, vi='Đường tròn \\((O;\\,%d\\text{ cm})\\) gồm…' % R, opts=o, ans=0, ee='Definition of a circle.', ev='Định nghĩa đường tròn.')
+
+def b13_d2_sym(r, lv):
+    R = r.randint(2, 30) / 2; A = r.choice('ABCM')
+    return dict(en='\\(%s\\) lies on \\((O;\\,%s\\text{ cm})\\) and \\(%s\'\\) is symmetric to \\(%s\\) with respect to \\(O\\). Find \\(%s%s\'\\).' % (A, num(R), A, A, A, A),
+                vi='\\(%s\\) nằm trên \\((O;\\,%s\\text{ cm})\\) và \\(%s\'\\) đối xứng với \\(%s\\) qua \\(O\\). Tính \\(%s%s\'\\).' % (A, dm(num(R)), A, A, A, A),
+                opts=[dopt(num(x), 'cm') for x in (2 * R, R, R / 2, 3 * R)], ans=0, ee='\\(%s%s\'\\) is a diameter: \\(2R=%s\\) cm.' % (A, A, num(2 * R)), ev='\\(%s%s\'\\) là một đường kính: \\(2R=%s\\) cm.' % (A, A, dm(num(2 * R))))
+
+def b13_d2_which(r, lv):
+    R = r.randint(4, 12); ds = r.sample([x for x in range(1, R)], 2) + [R]; out = r.randint(R + 1, R + 6); names = r.sample('ABCDEMNP', 4)
+    pts = list(zip(names, ds + [out])); r.shuffle(pts)
+    lst = ', '.join('\\(O%s=%d\\)' % p for p in pts); good = [n for n, d in pts if d == out][0]
+    return dict(en='Circle \\((O;\\,%d\\text{ cm})\\); %s (cm). Which point lies outside the circle?' % (R, lst), vi='Đường tròn \\((O;\\,%d\\text{ cm})\\); %s (cm). Điểm nào nằm ngoài đường tròn?' % (R, lst),
+                opts=[good] + [n for n, d in pts if n != good], ans=0, ee='Only \\(O%s=%d\\gt %d\\).' % (good, out, R), ev='Chỉ có \\(O%s=%d\\gt %d\\).' % (good, out, R))
+
+def b13_d2_isos(r, lv):
+    x = r.choice(range(20, 161, 2)); R = r.randint(2, 15)
+    return dict(en='\\(A\\), \\(B\\) lie on \\((O;\\,%d\\text{ cm})\\) and \\(\\widehat{AOB}=%d^\\circ\\). Find \\(\\widehat{OAB}\\).' % (R, x), vi='\\(A\\), \\(B\\) nằm trên \\((O;\\,%d\\text{ cm})\\) và \\(\\widehat{AOB}=%d^\\circ\\). Tính \\(\\widehat{OAB}\\).' % (R, x),
+                opts=pick_opts(r, '%d^\\circ' % ((180 - x) // 2), ['%d^\\circ' % v for v in (180 - x, x // 2, 90 - x // 4 if x % 4 == 0 else x)], fill=lambda k: '%d^\\circ' % ((180 - x) // 2 + 5 * k)), ans=0,
+                ee='\\(OA=OB\\) (radii), so triangle \\(OAB\\) is isosceles: \\(\\widehat{OAB}=\\dfrac{180^\\circ-%d^\\circ}{2}=%d^\\circ\\).' % (x, (180 - x) // 2),
+                ev='\\(OA=OB\\) (bán kính) nên tam giác \\(OAB\\) cân tại \\(O\\): \\(\\widehat{OAB}=\\dfrac{180^\\circ-%d^\\circ}{2}=%d^\\circ\\).' % (x, (180 - x) // 2))
+
+def b13_d3_tri(r, lv):
+    a, b, c = r.choice(PYT); A, B, C = r.choice([('A', 'B', 'C'), ('D', 'E', 'F'), ('M', 'N', 'P')])
+    return dict(en='Triangle \\(%s%s%s\\) is right-angled at \\(%s\\) with \\(%s%s=%d\\) cm, \\(%s%s=%d\\) cm. Find the radius of the circle through \\(%s\\), \\(%s\\), \\(%s\\).' % (A, B, C, A, A, B, a, A, C, b, A, B, C),
+                vi='Tam giác \\(%s%s%s\\) vuông tại \\(%s\\) có \\(%s%s=%d\\) cm, \\(%s%s=%d\\) cm. Tính bán kính đường tròn đi qua ba điểm \\(%s\\), \\(%s\\), \\(%s\\).' % (A, B, C, A, A, B, a, A, C, b, A, B, C),
+                opts=[dopt(num(x), 'cm') for x in (c / 2, c, (a + b) / 2, b / 2 if b / 2 != c / 2 else a)], ans=0,
+                ee='The center is the midpoint of the hypotenuse \\(%s%s=%d\\); \\(R=%s\\) cm.' % (B, C, c, num(c / 2)), ev='Tâm là trung điểm cạnh huyền \\(%s%s=%d\\); \\(R=%s\\) cm.' % (B, C, c, dm(num(c / 2))))
+
+def b13_d3_square(r, lv):
+    a = r.randint(2, 20)
+    return dict(en='The four vertices of a square with side %d cm lie on a circle. Find its radius.' % a, vi='Bốn đỉnh của hình vuông cạnh %d cm cùng nằm trên một đường tròn. Tính bán kính đường tròn đó.' % a,
+                opts=['\\dfrac{%d\\sqrt2}{2}\\text{ cm}' % a if a % 2 else '%s\\sqrt2\\text{ cm}' % ('' if a == 2 else a // 2), '%d\\sqrt2\\text{ cm}' % a, '%s\\text{ cm}' % fr(F(a, 2)), '%d\\text{ cm}' % a], ans=0,
+                ee='Diagonal \\(=%d\\sqrt2\\); radius = half of the diagonal.' % a, ev='Đường chéo \\(=%d\\sqrt2\\); bán kính bằng nửa đường chéo.' % a)
+
+def b13_d3_mid(r, lv):
+    R = r.randint(3, 15); P = r.choice('MNK'); k = r.choice([2, 3])
+    return dict(en='\\(AB\\) is a diameter of \\((O;\\,%d\\text{ cm})\\). Point \\(%s\\) is on segment \\(OA\\) with \\(O%s=\\dfrac{OA}{%d}\\). Where does \\(%s\\) lie?' % (R, P, P, k, P),
+                vi='\\(AB\\) là một đường kính của \\((O;\\,%d\\text{ cm})\\). Điểm \\(%s\\) thuộc đoạn \\(OA\\) với \\(O%s=\\dfrac{OA}{%d}\\). Điểm \\(%s\\) nằm ở đâu?' % (R, P, P, k, P),
+                opts=pos_opts('in'), ans=0, ee='\\(O%s=%s\\lt %d=R\\).' % (P, fr(F(R, k)), R), ev='\\(O%s=%s\\lt %d=R\\).' % (P, fr(F(R, k)), R))
+
+def b13_d4_wifi(r, lv):
+    a, b, c = r.choice(PYT); k = r.choice(['in', 'on', 'out']); R = {'in': c + r.randint(1, 8), 'on': c, 'out': c - r.randint(1, min(4, c - 1))}[k]
+    return dict(en='A Wi-Fi router covers a disk of radius %d m. A desk is %d m east and %d m north of the router. Where is the desk with respect to the boundary circle of coverage?' % (R, a, b),
+                vi='Một bộ phát Wi-Fi phủ sóng trong hình tròn bán kính %d m. Một chiếc bàn ở cách bộ phát %d m về phía đông và %d m về phía bắc. Chiếc bàn nằm ở đâu so với đường tròn giới hạn vùng phủ sóng?' % (R, a, b),
+                opts=pos_opts(k), ans=0, ee='Distance \\(=\\sqrt{%d^2+%d^2}=%d\\) m compared with \\(R=%d\\) m.' % (a, b, c, R), ev='Khoảng cách \\(=\\sqrt{%d^2+%d^2}=%d\\) m, so với \\(R=%d\\) m.' % (a, b, c, R))
+
+def b13_d4_lawn(r, lv):
+    a, b, c = r.choice(PYT); m = r.choice([1, 2])
+    a, b, c = a * m, b * m, c * m
+    return dict(en='A sprinkler stands at the center of a rectangular lawn %d m by %d m. What is the smallest watering radius that reaches all four corners?' % (a, b),
+                vi='Một vòi tưới đặt ở tâm một bãi cỏ hình chữ nhật kích thước %d m × %d m. Bán kính tưới nhỏ nhất bằng bao nhiêu để nước tới được cả bốn góc?' % (a, b),
+                opts=[dopt(num(x), 'm') for x in (c / 2, c, max(a, b) / 2, (a + b) / 2)], ans=0,
+                ee='The corners lie on the circle with radius half the diagonal: \\(\\dfrac{\\sqrt{%d^2+%d^2}}{2}=%s\\) m.' % (a, b, num(c / 2)), ev='Các góc nằm trên đường tròn có bán kính bằng nửa đường chéo: \\(\\dfrac{\\sqrt{%d^2+%d^2}}{2}=%s\\) m.' % (a, b, dm(num(c / 2))))
+
+def b13_d4_count(r, lv):
+    R = r.randint(5, 12); ds = sorted(r.sample(range(1, 2 * R), 5)); cnt = sum(d <= R for d in ds)
+    return dict(en='A lamp lights a disk of radius %d m around it. Five benches are %s m from the lamp. How many benches are lit (inside or on the boundary)?' % (R, ', '.join(map(str, ds))),
+                vi='Một ngọn đèn chiếu sáng một hình tròn bán kính %d m quanh nó. Năm chiếc ghế cách đèn lần lượt %s m. Có bao nhiêu chiếc ghế được chiếu sáng (nằm trong hoặc trên đường tròn giới hạn)?' % (R, '; '.join(map(str, ds))),
+                opts=pick_opts(r, str(cnt), [str(x) for x in range(6) if x != cnt]), ans=0, ee='Count distances \\(\\le %d\\).' % R, ev='Đếm các khoảng cách \\(\\le %d\\).' % R)
+
+L13_GROUPS = [[('mcq', b13_pos), ('mcq', b13_diam), ('mcq', b13_sym)], [('tf', b13_tf_pos), ('tf', b13_tf_sym)], [('short', b13_short_rect), ('short', b13_short_count)],
+              [('mcq', b13_d1_name), ('mcq', b13_d1_on), ('mcq', b13_d1_set)], [('mcq', b13_d2_sym), ('mcq', b13_d2_which), ('mcq', b13_d2_isos)],
+              [('mcq', b13_d3_tri), ('mcq', b13_d3_square), ('mcq', b13_d3_mid)], [('mcq', b13_d4_wifi), ('mcq', b13_d4_lawn), ('mcq', b13_d4_count)]]
+
+# =====================================================================================================
+# BÀI 14. Cung và dây của một đường tròn
+# =====================================================================================================
+def b14_arc(r, lv):
+    x = r.randint(20, 170); A, B = r.choice([('A', 'B'), ('M', 'N'), ('C', 'D')]); which = r.choice(['minor', 'major'])
+    good = x if which == 'minor' else 360 - x; bads = [360 - x if which == 'minor' else x, 180 - x, 2 * x]
+    return dict(en='In circle \\((O)\\), \\(\\widehat{%sO%s}=%d^\\circ\\). Find the measure of the %s arc \\(%s%s\\).' % (A, B, x, which, A, B),
+                vi='Trong đường tròn \\((O)\\), \\(\\widehat{%sO%s}=%d^\\circ\\). Tính số đo cung %s \\(%s%s\\).' % (A, B, x, 'nhỏ' if which == 'minor' else 'lớn', A, B),
+                opts=pick_opts(r, '%d^\\circ' % good, ['%d^\\circ' % v for v in bads if v != good], fill=lambda k: '%d^\\circ' % (good + 10 * k)), ans=0,
+                ee='Minor arc = central angle \\(=%d^\\circ\\); major arc \\(=360^\\circ-%d^\\circ=%d^\\circ\\).' % (x, x, 360 - x), ev='Cung nhỏ = góc ở tâm \\(=%d^\\circ\\); cung lớn \\(=360^\\circ-%d^\\circ=%d^\\circ\\).' % (x, x, 360 - x))
+
+def b14_maxchord(r, lv):
+    R = r.randint(3, 15); bad = 2 * R + r.randint(1, 5); oks = r.sample(range(1, 2 * R + 1), 3)
+    return dict(en='Circle \\((O;\\,%d\\text{ cm})\\). Which length CANNOT be the length of a chord?' % R, vi='Đường tròn \\((O;\\,%d\\text{ cm})\\). Độ dài nào KHÔNG thể là độ dài của một dây?' % R,
+                opts=['%d\\text{ cm}' % bad] + ['%d\\text{ cm}' % v for v in oks], ans=0, ee='Every chord is at most the diameter \\(2R=%d\\) cm.' % (2 * R), ev='Mọi dây đều không dài hơn đường kính \\(2R=%d\\) cm.' % (2 * R))
+
+def b14_equil(r, lv):
+    R = r.randint(2, 20); which = r.choice(['minor', 'major'])
+    good = 60 if which == 'minor' else 300
+    return dict(en='In \\((O;\\,%d\\text{ cm})\\), chord \\(AB=%d\\) cm. Find the measure of the %s arc \\(AB\\).' % (R, R, which), vi='Trong \\((O;\\,%d\\text{ cm})\\), dây \\(AB=%d\\) cm. Tính số đo cung %s \\(AB\\).' % (R, R, 'nhỏ' if which == 'minor' else 'lớn'),
+                opts=pick_opts(r, '%d^\\circ' % good, ['%d^\\circ' % v for v in (60, 300, 90, 120, 270) if v != good]), ans=0,
+                ee='\\(OA=OB=AB=%d\\): triangle \\(OAB\\) is equilateral, \\(\\widehat{AOB}=60^\\circ\\).' % R, ev='\\(OA=OB=AB=%d\\): tam giác \\(OAB\\) đều, \\(\\widehat{AOB}=60^\\circ\\).' % R)
+
+def b14_tf_major(r, lv):
+    x = r.randint(15, 175); truth = r.random() < 0.5; y = 360 - x if truth else r.choice([180 - x, 180 + x, 2 * x])
+    assert truth or y != 360 - x
+    return dict(en='In \\((O)\\), \\(\\widehat{AOB}=%d^\\circ\\). Then the major arc \\(AB\\) measures \\(%d^\\circ\\).' % (x, y), vi='Trong \\((O)\\), \\(\\widehat{AOB}=%d^\\circ\\). Khi đó cung lớn \\(AB\\) có số đo \\(%d^\\circ\\).' % (x, y), ans=truth,
+                ee='Major arc \\(=360^\\circ-%d^\\circ=%d^\\circ\\).' % (x, 360 - x), ev='Cung lớn \\(=360^\\circ-%d^\\circ=%d^\\circ\\).' % (x, 360 - x))
+
+def b14_tf_chord(r, lv):
+    R = r.randint(2, 12); L = r.choice([2 * R - r.randint(1, 3), 2 * R, 2 * R + r.randint(1, 4)]); truth = L <= 2 * R
+    return dict(en='The circle \\((O;\\,%d\\text{ cm})\\) has a chord of length %d cm.' % (R, L), vi='Đường tròn \\((O;\\,%d\\text{ cm})\\) có một dây dài %d cm.' % (R, L), ans=truth,
+                ee='A chord can have any length up to the diameter \\(%d\\) cm.' % (2 * R), ev='Dây có thể có độ dài bất kì không vượt quá đường kính \\(%d\\) cm.' % (2 * R))
+
+def b14_short_isos(r, lv):
+    x = r.choice(range(20, 161, 2)); R = r.randint(3, 20)
+    return dict(en='Chord \\(AB\\) of \\((O;\\,%d\\text{ cm})\\) subtends the minor arc \\(AB\\) of \\(%d^\\circ\\). Find \\(\\widehat{OAB}\\) in degrees.' % (R, x), vi='Dây \\(AB\\) của \\((O;\\,%d\\text{ cm})\\) căng cung nhỏ \\(AB\\) có số đo \\(%d^\\circ\\). Tính số đo \\(\\widehat{OAB}\\) (độ).' % (R, x),
+                key=str((180 - x) // 2), ee='\\(\\widehat{AOB}=%d^\\circ\\), \\(OA=OB\\): \\(\\widehat{OAB}=\\dfrac{180^\\circ-%d^\\circ}{2}=%d^\\circ\\).' % (x, x, (180 - x) // 2), ev='\\(\\widehat{AOB}=%d^\\circ\\), \\(OA=OB\\): \\(\\widehat{OAB}=\\dfrac{180^\\circ-%d^\\circ}{2}=%d^\\circ\\).' % (x, x, (180 - x) // 2))
+
+def b14_short_third(r, lv):
+    x, y = r.randint(40, 150), r.randint(40, 150); assert x + y < 330
+    return dict(en='Points \\(A\\), \\(B\\), \\(C\\) divide circle \\((O)\\) into three arcs \\(AB\\), \\(BC\\), \\(CA\\) (no overlap). Arc \\(AB\\) measures \\(%d^\\circ\\) and arc \\(BC\\) measures \\(%d^\\circ\\). Find arc \\(CA\\) in degrees.' % (x, y),
+                vi='Ba điểm \\(A\\), \\(B\\), \\(C\\) chia đường tròn \\((O)\\) thành ba cung \\(AB\\), \\(BC\\), \\(CA\\) (không chồng lên nhau). Cung \\(AB\\) có số đo \\(%d^\\circ\\), cung \\(BC\\) có số đo \\(%d^\\circ\\). Tính số đo cung \\(CA\\) (độ).' % (x, y),
+                key=str(360 - x - y), ee='The three arcs add up to \\(360^\\circ\\): \\(360-%d-%d=%d\\).' % (x, y, 360 - x - y), ev='Ba cung có tổng số đo \\(360^\\circ\\): \\(360-%d-%d=%d\\).' % (x, y, 360 - x - y))
+
+def b14_d1_name(r, lv):
+    k = r.choice(['chord', 'central', 'semi']); A, B = r.sample('ABCDMN', 2)
+    if k == 'chord':
+        en, vi = 'Points \\(%s\\), \\(%s\\) lie on circle \\((O)\\) and \\(%s%s\\) does not pass through \\(O\\). The segment \\(%s%s\\) is…' % (A, B, A, B, A, B), 'Hai điểm \\(%s\\), \\(%s\\) nằm trên đường tròn \\((O)\\) và \\(%s%s\\) không đi qua \\(O\\). Đoạn thẳng \\(%s%s\\) là…' % (A, B, A, B, A, B)
+        o = [tx('a chord', 'một dây'), tx('a diameter', 'một đường kính'), tx('a radius', 'một bán kính'), tx('an arc', 'một cung')]
+    elif k == 'central':
+        en, vi = '\\(%s\\), \\(%s\\) lie on circle \\((O)\\). The angle \\(%sO%s\\) is called…' % (A, B, A, B), '\\(%s\\), \\(%s\\) nằm trên đường tròn \\((O)\\). Góc \\(%sO%s\\) được gọi là…' % (A, B, A, B)
+        o = [tx('a central angle', 'góc ở tâm'), tx('a right angle', 'góc vuông'), tx('an arc', 'một cung'), tx('a straight angle', 'góc bẹt')]
+    else:
+        en, vi = '\\(%s%s\\) is a diameter of \\((O)\\). Each arc \\(%s%s\\) is…' % (A, B, A, B), '\\(%s%s\\) là một đường kính của \\((O)\\). Mỗi cung \\(%s%s\\) là…' % (A, B, A, B)
+        o = [tx('a semicircle (\\(180^\\circ\\))', 'một nửa đường tròn (\\(180^\\circ\\))'), tx('a minor arc of \\(90^\\circ\\)', 'một cung nhỏ \\(90^\\circ\\)'), tx('a major arc of \\(270^\\circ\\)', 'một cung lớn \\(270^\\circ\\)'), tx('a chord', 'một dây')]
+    return dict(en=en, vi=vi, opts=o, ans=0, ee='Definitions of chord, central angle and semicircle.', ev='Định nghĩa dây, góc ở tâm và nửa đường tròn.')
+
+def b14_d1_long(r, lv):
+    R = r.randint(2, 30)
+    return dict(en='What is the length of the longest chord of \\((O;\\,%d\\text{ cm})\\)?' % R, vi='Dây dài nhất của \\((O;\\,%d\\text{ cm})\\) dài bao nhiêu?' % R,
+                opts=['%d\\text{ cm}' % (2 * R), '%d\\text{ cm}' % R, '%d\\text{ cm}' % (4 * R), tx('there is no longest chord', 'không có dây dài nhất')], ans=0,
+                ee='The longest chord is a diameter: \\(2R=%d\\) cm.' % (2 * R), ev='Dây dài nhất là đường kính: \\(2R=%d\\) cm.' % (2 * R))
+
+def b14_d1_minor(r, lv):
+    x = r.randint(10, 179)
+    return dict(en='The central angle \\(\\widehat{AOB}\\) intercepts the minor arc \\(AB\\) of \\(%d^\\circ\\). Find \\(\\widehat{AOB}\\).' % x, vi='Góc ở tâm \\(\\widehat{AOB}\\) chắn cung nhỏ \\(AB\\) có số đo \\(%d^\\circ\\). Tính \\(\\widehat{AOB}\\).' % x,
+                opts=pick_opts(r, '%d^\\circ' % x, ['%d^\\circ' % v for v in (360 - x, 180 - x, x * 2) if v != x and v > 0], fill=lambda k: '%d^\\circ' % (x + 5 * k)), ans=0,
+                ee='The minor arc and its central angle have the same measure.', ev='Số đo cung nhỏ bằng số đo góc ở tâm chắn cung đó.')
+
+def b14_d2_major(r, lv):
+    y = r.randint(190, 350)
+    return dict(en='The major arc \\(MN\\) of \\((O)\\) measures \\(%d^\\circ\\). Find the central angle \\(\\widehat{MON}\\).' % y, vi='Cung lớn \\(MN\\) của \\((O)\\) có số đo \\(%d^\\circ\\). Tính góc ở tâm \\(\\widehat{MON}\\).' % y,
+                opts=pick_opts(r, '%d^\\circ' % (360 - y), ['%d^\\circ' % v for v in (y, y - 180, 180 - (360 - y) if (360 - y) < 180 else 1) if v > 0 and v != 360 - y], fill=lambda k: '%d^\\circ' % (360 - y + 10 * k)), ans=0,
+                ee='\\(\\widehat{MON}\\) = minor arc \\(=360^\\circ-%d^\\circ=%d^\\circ\\).' % (y, 360 - y), ev='\\(\\widehat{MON}\\) = số đo cung nhỏ \\(=360^\\circ-%d^\\circ=%d^\\circ\\).' % (y, 360 - y))
+
+def b14_d2_clock(r, lv):
+    h = r.randint(1, 11); a = 30 * min(h, 12 - h)
+    return dict(en='At exactly %d o\'clock, what is the (smaller) angle between the hour hand and the minute hand of a clock?' % h, vi='Lúc đúng %d giờ, góc (nhỏ hơn) giữa kim giờ và kim phút của đồng hồ bằng bao nhiêu?' % h,
+                opts=pick_opts(r, '%d^\\circ' % a, ['%d^\\circ' % v for v in (360 - a, 6 * h, 15 * h, a + 30) if v != a and 0 < v <= 360]), ans=0,
+                ee='The 12 numbers divide the circle into arcs of \\(30^\\circ\\); the hands are \\(%d\\cdot30^\\circ=%d^\\circ\\) apart.' % (min(h, 12 - h), a), ev='12 số chia mặt đồng hồ thành 12 cung \\(30^\\circ\\); cách nhau %d cung: \\(%d^\\circ\\).' % (min(h, 12 - h), a))
+
+def b14_d2_cmp(r, lv):
+    R = r.randint(4, 12); a, b = sorted(r.sample(range(1, 2 * R), 2))
+    o = [tx('\\(%d\\) cm is the longest possible chord length here; \\(%d\\) cm and \\(%d\\) cm are both shorter than it' % (2 * R, a, b), '\\(%d\\) cm là độ dài dây lớn nhất; \\(%d\\) cm và \\(%d\\) cm đều ngắn hơn' % (2 * R, a, b)),
+         tx('a chord of \\(%d\\) cm is longer than the diameter' % b, 'dây \\(%d\\) cm dài hơn đường kính' % b), tx('every chord has length \\(%d\\) cm' % R, 'mọi dây đều dài \\(%d\\) cm' % R), tx('no chord can be longer than \\(%d\\) cm' % R, 'không dây nào dài quá \\(%d\\) cm' % R)]
+    return dict(en='In \\((O;\\,%d\\text{ cm})\\), chords have lengths \\(%d\\) cm and \\(%d\\) cm. Which statement is correct?' % (R, a, b), vi='Trong \\((O;\\,%d\\text{ cm})\\), có hai dây dài \\(%d\\) cm và \\(%d\\) cm. Khẳng định nào đúng?' % (R, a, b),
+                opts=o, ans=0, ee='Every chord \\(\\le 2R=%d\\) cm.' % (2 * R), ev='Mọi dây đều \\(\\le 2R=%d\\) cm.' % (2 * R))
+
+SPEC_CH = {60: ('', 1), 90: ('\\sqrt2', 2), 120: ('\\sqrt3', 3), 180: ('', 4)}
+def _ch(R, ang):
+    s, _ = SPEC_CH[ang]; k = 2 * R if ang == 180 else R
+    return ('%d%s' % (k, s)) if k != 1 else (s or '1')
+
+def b14_d3_chord(r, lv):
+    R = r.randint(2, 15); ang = r.choice([60, 90, 120])
+    good = _ch(R, ang); others = [_ch(R, a) for a in (60, 90, 120, 180) if a != ang]
+    return dict(en='In \\((O;\\,%d\\text{ cm})\\), \\(\\widehat{AOB}=%d^\\circ\\). Find the chord \\(AB\\).' % (R, ang), vi='Trong \\((O;\\,%d\\text{ cm})\\), \\(\\widehat{AOB}=%d^\\circ\\). Tính độ dài dây \\(AB\\).' % (R, ang),
+                opts=['%s\\text{ cm}' % x for x in [good] + others], ans=0,
+                ee='Draw \\(OH\\perp AB\\): \\(AB=2R\\sin\\dfrac{\\widehat{AOB}}{2}=2\\cdot%d\\cdot\\sin %d^\\circ\\).' % (R, ang // 2), ev='Kẻ \\(OH\\perp AB\\): \\(AB=2R\\sin\\dfrac{\\widehat{AOB}}{2}=2\\cdot%d\\cdot\\sin %d^\\circ\\).' % (R, ang // 2))
+
+def b14_d3_angle(r, lv):
+    R = r.randint(2, 15); ang = r.choice([60, 90, 120]); ch = _ch(R, ang)
+    return dict(en='In \\((O;\\,%d\\text{ cm})\\), chord \\(AB=%s\\) cm. Find the minor arc \\(AB\\).' % (R, ch), vi='Trong \\((O;\\,%d\\text{ cm})\\), dây \\(AB=%s\\) cm. Tính số đo cung nhỏ \\(AB\\).' % (R, ch),
+                opts=['%d^\\circ' % x for x in [ang] + [a for a in (60, 90, 120, 150) if a != ang][:3]], ans=0,
+                ee='\\(\\sin\\dfrac{\\widehat{AOB}}{2}=\\dfrac{AB}{2R}\\Rightarrow \\widehat{AOB}=%d^\\circ\\).' % ang, ev='\\(\\sin\\dfrac{\\widehat{AOB}}{2}=\\dfrac{AB}{2R}\\Rightarrow \\widehat{AOB}=%d^\\circ\\).' % ang)
+
+def b14_d3_dist(r, lv):
+    a, b, c = r.choice(PYT); h, half = (a, b) if r.random() < 0.5 else (b, a)
+    return dict(en='A chord of \\((O;\\,%d\\text{ cm})\\) is at distance %d cm from \\(O\\). Find the length of the chord.' % (c, h), vi='Một dây của \\((O;\\,%d\\text{ cm})\\) cách tâm \\(O\\) một đoạn %d cm. Tính độ dài dây đó.' % (c, h),
+                opts=pick_opts(r, '%d\\text{ cm}' % (2 * half), ['%d\\text{ cm}' % v for v in (half, 2 * h, c + h, 2 * c)]), ans=0,
+                ee='\\(OH\\perp AB\\) bisects the chord: \\(AH=\\sqrt{%d^2-%d^2}=%d\\), \\(AB=%d\\) cm.' % (c, h, half, 2 * half), ev='\\(OH\\perp AB\\) thì \\(H\\) là trung điểm dây: \\(AH=\\sqrt{%d^2-%d^2}=%d\\), \\(AB=%d\\) cm.' % (c, h, half, 2 * half))
+
+def b14_d4_wheel(r, lv):
+    n = r.choice([5, 6, 8, 9, 10, 12, 15, 18, 20, 24, 36]); k = r.randint(2, n // 2)
+    a = 360 // n * k
+    return dict(en='A wheel has %d equally spaced spokes, numbered 1, 2, 3, … in order. What is the (smaller) central angle between spoke 1 and spoke %d?' % (n, k + 1), vi='Một bánh xe có %d nan hoa cách đều nhau, được đánh số 1, 2, 3, … theo thứ tự. Góc ở tâm (góc nhỏ hơn) giữa nan hoa số 1 và nan hoa số %d bằng bao nhiêu?' % (n, k + 1),
+                opts=pick_opts(r, '%d^\\circ' % a, ['%d^\\circ' % v for v in (360 // n, 360 - a, a + 360 // n, 180 // n * k) if v != a]), ans=0,
+                ee='Two neighboring spokes make \\(\\dfrac{360^\\circ}{%d}=%d^\\circ\\); \\(%d\\cdot%d^\\circ=%d^\\circ\\).' % (n, 360 // n, k, 360 // n, a), ev='Hai nan liên tiếp tạo góc \\(\\dfrac{360^\\circ}{%d}=%d^\\circ\\); \\(%d\\cdot%d^\\circ=%d^\\circ\\).' % (n, 360 // n, k, 360 // n, a))
+
+def b14_d4_clock(r, lv):
+    h, m = r.randint(1, 11), r.choice([10, 20, 30, 40, 50])
+    raw = abs(30 * h - 5.5 * m); a = min(raw, 360 - raw); assert a == int(a); a = int(a)
+    return dict(en='What is the smaller angle between the hands of a clock at %d:%02d?' % (h, m), vi='Lúc %d giờ %d phút, góc nhỏ hơn giữa kim giờ và kim phút bằng bao nhiêu?' % (h, m),
+                opts=pick_opts(r, '%d^\\circ' % a, ['%d^\\circ' % v for v in (abs(30 * h - 6 * m) % 360, 360 - a, a + 15, abs(a - 30) or 45) if v != a and v > 0]), ans=0,
+                ee='Minute hand: \\(6\\cdot%d=%d^\\circ\\); hour hand: \\(30\\cdot%d+0.5\\cdot%d=%s^\\circ\\); difference \\(%d^\\circ\\).' % (m, 6 * m, h, m, num(30 * h + 0.5 * m), a),
+                ev='Kim phút: \\(6\\cdot%d=%d^\\circ\\); kim giờ: \\(30\\cdot%d+0{,}5\\cdot%d=%s^\\circ\\); hiệu \\(%d^\\circ\\).' % (m, 6 * m, h, m, dm(num(30 * h + 0.5 * m)), a))
+
+def b14_d4_hex(r, lv):
+    R = r.randint(2, 20)
+    return dict(en='A regular hexagon is drawn with its six vertices on \\((O;\\,%d\\text{ cm})\\). Find the length of one side.' % R, vi='Một lục giác đều có sáu đỉnh nằm trên \\((O;\\,%d\\text{ cm})\\). Tính độ dài một cạnh của lục giác.' % R,
+                opts=['%d\\text{ cm}' % R, '%d\\text{ cm}' % (2 * R), '%d\\sqrt3\\text{ cm}' % R, '%d\\sqrt2\\text{ cm}' % R], ans=0,
+                ee='Each side subtends \\(\\dfrac{360^\\circ}{6}=60^\\circ\\); the triangle formed with \\(O\\) is equilateral, so the side equals \\(R\\).', ev='Mỗi cạnh căng cung \\(\\dfrac{360^\\circ}{6}=60^\\circ\\); tam giác tạo với \\(O\\) là tam giác đều nên cạnh bằng \\(R\\).')
+
+L14_GROUPS = [[('mcq', b14_arc), ('mcq', b14_maxchord), ('mcq', b14_equil)], [('tf', b14_tf_major), ('tf', b14_tf_chord)], [('short', b14_short_isos), ('short', b14_short_third)],
+              [('mcq', b14_d1_name), ('mcq', b14_d1_long), ('mcq', b14_d1_minor)], [('mcq', b14_d2_major), ('mcq', b14_d2_clock), ('mcq', b14_d2_cmp)],
+              [('mcq', b14_d3_chord), ('mcq', b14_d3_angle), ('mcq', b14_d3_dist)], [('mcq', b14_d4_wheel), ('mcq', b14_d4_clock), ('mcq', b14_d4_hex)]]
+
+# =====================================================================================================
+# BÀI 15. Độ dài cung tròn. Diện tích hình quạt tròn và hình vành khuyên
+# =====================================================================================================
+NS = [20, 30, 36, 40, 45, 60, 72, 80, 90, 100, 120, 135, 144, 150, 160, 180, 210, 240, 270, 300]
+def _pu(q, u): return '%s\\text{ %s}' % (pie(q), u) if '^' not in u else '%s\\text{ %s}^%s' % ((pie(q),) + tuple(u.split('^')))
+
+def b15_arc(r, lv):
+    R, n = r.randint(2, 24), r.choice(NS); q = F(R * n, 180)
+    bads = [F(R * n, 360), F(R * R * n, 180), F(R * n, 90)]
+    return dict(en='Find the length of an arc of \\(%d^\\circ\\) on a circle of radius %d cm.' % (n, R), vi='Tính độ dài cung \\(%d^\\circ\\) của đường tròn bán kính %d cm.' % (n, R),
+                opts=pick_opts(r, _pu(q, 'cm'), [_pu(b, 'cm') for b in bads if b != q], fill=lambda k: _pu(q + k, 'cm')), ans=0,
+                ee='\\(l=\\dfrac{\\pi Rn}{180}=\\dfrac{\\pi\\cdot%d\\cdot%d}{180}=%s\\) cm.' % (R, n, pie(q)), ev='\\(l=\\dfrac{\\pi Rn}{180}=\\dfrac{\\pi\\cdot%d\\cdot%d}{180}=%s\\) cm.' % (R, n, pie(q)))
+
+def b15_sector(r, lv):
+    R, n = r.randint(2, 20), r.choice(NS); q = F(R * R * n, 360)
+    bads = [F(R * n, 180), F(R * R * n, 180), F(R * n, 360)]
+    return dict(en='Find the area of a sector with radius %d cm and central angle \\(%d^\\circ\\).' % (R, n), vi='Tính diện tích hình quạt tròn bán kính %d cm, góc ở tâm \\(%d^\\circ\\).' % (R, n),
+                opts=pick_opts(r, _pu(q, 'cm^2'), [_pu(b, 'cm^2') for b in bads if b != q], fill=lambda k: _pu(q + k, 'cm^2')), ans=0,
+                ee='\\(S=\\dfrac{\\pi R^2n}{360}=\\dfrac{\\pi\\cdot%d^2\\cdot%d}{360}=%s\\) cm².' % (R, n, pie(q)), ev='\\(S=\\dfrac{\\pi R^2n}{360}=\\dfrac{\\pi\\cdot%d^2\\cdot%d}{360}=%s\\) cm².' % (R, n, pie(q)))
+
+def b15_annulus(r, lv):
+    rr = r.randint(1, 12); R = rr + r.randint(1, 8); q = R * R - rr * rr
+    bads = [(R - rr) ** 2, R * R + rr * rr, 2 * (R - rr)]
+    return dict(en='Two concentric circles have radii %d cm and %d cm. Find the area of the annulus between them.' % (R, rr), vi='Hai đường tròn đồng tâm có bán kính %d cm và %d cm. Tính diện tích hình vành khuyên giới hạn bởi chúng.' % (R, rr),
+                opts=pick_opts(r, _pu(q, 'cm^2'), [_pu(b, 'cm^2') for b in bads if b != q], fill=lambda k: _pu(q + k, 'cm^2')), ans=0,
+                ee='\\(S=\\pi\\left(R^2-r^2\\right)=\\pi\\left(%d^2-%d^2\\right)=%s\\) cm².' % (R, rr, pie(q)), ev='\\(S=\\pi\\left(R^2-r^2\\right)=\\pi\\left(%d^2-%d^2\\right)=%s\\) cm².' % (R, rr, pie(q)))
+
+def b15_tf_arc(r, lv):
+    R, n = r.randint(2, 20), r.choice(NS); q = F(R * n, 180); truth = r.random() < 0.5; shown = q if truth else F(R * n, 360)
+    return dict(en='An arc of \\(%d^\\circ\\) on a circle of radius %d cm has length \\(%s\\) cm.' % (n, R, pie(shown)), vi='Cung \\(%d^\\circ\\) của đường tròn bán kính %d cm có độ dài \\(%s\\) cm.' % (n, R, pie(shown)), ans=truth,
+                ee='\\(l=\\dfrac{\\pi\\cdot%d\\cdot%d}{180}=%s\\) cm.' % (R, n, pie(q)), ev='\\(l=\\dfrac{\\pi\\cdot%d\\cdot%d}{180}=%s\\) cm.' % (R, n, pie(q)))
+
+def b15_tf_double(r, lv):
+    R, n = r.randint(2, 15), r.choice([20, 30, 40, 45, 60, 72, 90, 120, 150, 180]); k = r.choice(['angle', 'radius']); truth = (k == 'angle')
+    en = {'angle': 'If the central angle of a sector (radius %d cm, angle \\(%d^\\circ\\)) is doubled and the radius is kept, its area is doubled.' % (R, n),
+          'radius': 'If the radius of a sector (radius %d cm, angle \\(%d^\\circ\\)) is doubled and the angle is kept, its area is doubled.' % (R, n)}[k]
+    vi = {'angle': 'Nếu tăng gấp đôi góc ở tâm của một hình quạt (bán kính %d cm, góc \\(%d^\\circ\\)) và giữ nguyên bán kính thì diện tích hình quạt tăng gấp đôi.' % (R, n),
+          'radius': 'Nếu tăng gấp đôi bán kính của một hình quạt (bán kính %d cm, góc \\(%d^\\circ\\)) và giữ nguyên góc thì diện tích hình quạt tăng gấp đôi.' % (R, n)}[k]
+    return dict(en=en, vi=vi, ans=truth, ee='\\(S=\\dfrac{\\pi R^2n}{360}\\) is proportional to \\(n\\), but it grows like \\(R^2\\): doubling \\(R\\) multiplies \\(S\\) by 4.', ev='\\(S=\\dfrac{\\pi R^2n}{360}\\) tỉ lệ thuận với \\(n\\) nhưng tỉ lệ với \\(R^2\\) (gấp đôi \\(R\\) thì \\(S\\) gấp 4).')
+
+def b15_short_round(r, lv):
+    while True:
+        R, n = r.randint(3, 30), r.randint(25, 175); v = math.pi * R * n / 180
+        if abs(v * 10 - math.floor(v * 10) - 0.5) > 0.05: break
+    key = '%.1f' % v
+    return dict(en='Find the length of an arc of \\(%d^\\circ\\) on a circle of radius %d cm, rounded to the nearest tenth (use the \\(\\pi\\) key).' % (n, R),
+                vi='Tính độ dài cung \\(%d^\\circ\\) của đường tròn bán kính %d cm (làm tròn đến hàng phần mười, dùng phím \\(\\pi\\)).' % (n, R), key=key, hint=HINT_D1,
+                ee='\\(l=\\dfrac{\\pi\\cdot%d\\cdot%d}{180}\\approx %s\\) cm.' % (R, n, key), ev='\\(l=\\dfrac{\\pi\\cdot%d\\cdot%d}{180}\\approx %s\\) cm.' % (R, n, dm(key)))
+
+def b15_short_rev(r, lv):
+    R, n = r.randint(2, 30), r.choice(NS); q = F(R * n, 180)
+    return dict(en='An arc of \\(%d^\\circ\\) has length \\(%s\\) cm. Find the radius of the circle (cm).' % (n, pie(q)), vi='Một cung \\(%d^\\circ\\) có độ dài \\(%s\\) cm. Tính bán kính đường tròn (cm).' % (n, pie(q)),
+                key=str(R), ee='\\(R=\\dfrac{180\\,l}{\\pi n}=\\dfrac{180\\cdot%s}{\\pi\\cdot%d}=%d\\).' % (pie(q), n, R), ev='\\(R=\\dfrac{180\\,l}{\\pi n}=\\dfrac{180\\cdot%s}{\\pi\\cdot%d}=%d\\).' % (pie(q), n, R))
+
+def b15_d1_formula(r, lv):
+    k = r.choice(['arc', 'sector', 'annulus']); R = r.randint(2, 20)
+    F_ = {'arc': '\\dfrac{\\pi Rn}{180}', 'sector': '\\dfrac{\\pi R^2n}{360}', 'annulus': '\\pi\\left(R^2-r^2\\right)', 'circ': '2\\pi R'}
+    nm = {'arc': ('the arc length \\(l\\) of an arc of \\(n^\\circ\\)', 'độ dài \\(l\\) của cung \\(n^\\circ\\)'), 'sector': ('the area of a sector with central angle \\(n^\\circ\\)', 'diện tích hình quạt tròn có góc ở tâm \\(n^\\circ\\)'),
+          'annulus': ('the area of the annulus between circles of radii \\(R\\gt r\\)', 'diện tích hình vành khuyên giới hạn bởi hai đường tròn bán kính \\(R\\gt r\\)')}[k]
+    o = [F_[k]] + [F_[j] for j in F_ if j != k]
+    return dict(en='Which formula gives %s (radius \\(R\\))?' % nm[0], vi='Công thức nào cho %s (bán kính \\(R\\))?' % nm[1], opts=o, ans=0,
+                ee='Arc: \\(\\dfrac{\\pi Rn}{180}\\); sector: \\(\\dfrac{\\pi R^2n}{360}\\); annulus: \\(\\pi(R^2-r^2)\\).', ev='Cung: \\(\\dfrac{\\pi Rn}{180}\\); hình quạt: \\(\\dfrac{\\pi R^2n}{360}\\); vành khuyên: \\(\\pi(R^2-r^2)\\).')
+
+def b15_d1_circ(r, lv):
+    R = r.randint(2, 40)
+    return dict(en='Find the circumference of a circle with radius %d cm.' % R, vi='Tính chu vi (độ dài đường tròn) của đường tròn bán kính %d cm.' % R,
+                opts=[_pu(2 * R, 'cm'), _pu(R, 'cm'), _pu(R * R, 'cm'), _pu(4 * R, 'cm')] if R != 2 else [_pu(4, 'cm'), _pu(2, 'cm'), _pu(8, 'cm'), _pu(1, 'cm')], ans=0,
+                ee='\\(C=2\\pi R=%s\\) cm.' % pie(2 * R), ev='\\(C=2\\pi R=%s\\) cm.' % pie(2 * R))
+
+def b15_d1_frac(r, lv):
+    n = r.choice(NS); f = F(n, 360)
+    return dict(en='A sector with central angle \\(%d^\\circ\\) is what fraction of the whole disk?' % n, vi='Hình quạt có góc ở tâm \\(%d^\\circ\\) chiếm bao nhiêu phần của cả hình tròn?' % n,
+                opts=pick_opts(r, fr(f), [fr(x) for x in (F(n, 180), F(n, 100), F(360 - n, 360)) if x != f], fill=lambda k: fr(f + F(k, 12))), ans=0,
+                ee='\\(\\dfrac{%d}{360}=%s\\).' % (n, fr(f)), ev='\\(\\dfrac{%d}{360}=%s\\).' % (n, fr(f)))
+
+def b15_d2_lr(r, lv):
+    R, n = r.randint(2, 20), r.choice(NS); l = F(R * n, 180); S = F(R * R * n, 360)
+    return dict(en='A sector has radius %d cm and arc length \\(%s\\) cm. Find its area.' % (R, pie(l)), vi='Một hình quạt có bán kính %d cm và độ dài cung \\(%s\\) cm. Tính diện tích hình quạt.' % (R, pie(l)),
+                opts=pick_opts(r, _pu(S, 'cm^2'), [_pu(x, 'cm^2') for x in (l * R, l, l * R * R / 2) if x != S], fill=lambda k: _pu(S + k, 'cm^2')), ans=0,
+                ee='\\(S=\\dfrac{lR}{2}=\\dfrac{%s\\cdot%d}{2}=%s\\) cm².' % (pie(l), R, pie(S)), ev='\\(S=\\dfrac{lR}{2}=\\dfrac{%s\\cdot%d}{2}=%s\\) cm².' % (pie(l), R, pie(S)))
+
+def b15_d2_diam(r, lv):
+    D, n = r.choice(range(4, 41, 2)), r.choice(NS); R = D // 2; q = F(R * n, 180)
+    return dict(en='A circle has diameter %d cm. Find the length of an arc of \\(%d^\\circ\\).' % (D, n), vi='Một đường tròn có đường kính %d cm. Tính độ dài cung \\(%d^\\circ\\).' % (D, n),
+                opts=pick_opts(r, _pu(q, 'cm'), [_pu(x, 'cm') for x in (F(D * n, 180), F(R * n, 360), F(D * n, 90)) if x != q], fill=lambda k: _pu(q + k, 'cm')), ans=0,
+                ee='\\(R=%d\\); \\(l=\\dfrac{\\pi\\cdot%d\\cdot%d}{180}=%s\\) cm.' % (R, R, n, pie(q)), ev='\\(R=%d\\); \\(l=\\dfrac{\\pi\\cdot%d\\cdot%d}{180}=%s\\) cm.' % (R, R, n, pie(q)))
+
+def b15_d2_disk(r, lv):
+    R, n = r.randint(2, 15), r.choice([90, 180, 270, 120, 240]); S = F(R * R * n, 360)
+    return dict(en='A disk of radius %d cm is cut along radii; the cut piece has central angle \\(%d^\\circ\\). Find its area.' % (R, n), vi='Cắt một hình tròn bán kính %d cm theo hai bán kính được một hình quạt có góc ở tâm \\(%d^\\circ\\). Tính diện tích hình quạt đó.' % (R, n),
+                opts=pick_opts(r, _pu(S, 'cm^2'), [_pu(x, 'cm^2') for x in (R * R, F(R * n, 180), F(R * R * (360 - n), 360)) if x != S], fill=lambda k: _pu(S + k, 'cm^2')), ans=0,
+                ee='\\(S=\\dfrac{%d}{360}\\cdot\\pi\\cdot%d^2=%s\\) cm².' % (n, R, pie(S)), ev='\\(S=\\dfrac{%d}{360}\\cdot\\pi\\cdot%d^2=%s\\) cm².' % (n, R, pie(S)))
+
+def b15_d3_angle(r, lv):
+    R, n = r.randint(2, 30), r.choice(NS); q = F(R * n, 180)
+    return dict(en='On a circle of radius %d cm, an arc has length \\(%s\\) cm. Find its measure.' % (R, pie(q)), vi='Trên đường tròn bán kính %d cm, một cung có độ dài \\(%s\\) cm. Tính số đo cung đó.' % (R, pie(q)),
+                opts=pick_opts(r, '%d^\\circ' % n, ['%d^\\circ' % x for x in (n // 2 if n % 2 == 0 else n * 2, 2 * n, 360 - n, n + 30) if x != n and 0 < x < 360]), ans=0,
+                ee='\\(n=\\dfrac{180\\,l}{\\pi R}=\\dfrac{180\\cdot%s}{\\pi\\cdot%d}=%d\\).' % (pie(q), R, n), ev='\\(n=\\dfrac{180\\,l}{\\pi R}=\\dfrac{180\\cdot%s}{\\pi\\cdot%d}=%d\\).' % (pie(q), R, n))
+
+def b15_d3_radius(r, lv):
+    R, n = r.randint(2, 24), r.choice([30, 36, 40, 45, 60, 72, 90, 120, 180]); S = F(R * R * n, 360)
+    return dict(en='A sector with central angle \\(%d^\\circ\\) has area \\(%s\\) cm². Find its radius.' % (n, pie(S)), vi='Một hình quạt có góc ở tâm \\(%d^\\circ\\) và diện tích \\(%s\\) cm². Tính bán kính hình quạt.' % (n, pie(S)),
+                opts=pick_opts(r, '%d\\text{ cm}' % R, ['%d\\text{ cm}' % x for x in (R * R, 2 * R, R + 1, R - 1) if x > 0 and x != R]), ans=0,
+                ee='\\(R^2=\\dfrac{360\\,S}{\\pi n}=%d\\Rightarrow R=%d\\) cm.' % (R * R, R), ev='\\(R^2=\\dfrac{360\\,S}{\\pi n}=%d\\Rightarrow R=%d\\) cm.' % (R * R, R))
+
+def b15_d3_path(r, lv):
+    while True:
+        a, w = r.choice([x / 2 for x in range(6, 25)]), r.choice([0.5, 1, 1.5, 2, 2.5])
+        S = 3.14 * ((a + w) ** 2 - a ** 2); key = math.floor(S * 100 + 0.5) / 100
+        if abs(S * 100 - round(S * 100)) < 1e-6: break
+    good = '%.2f' % key; bads = ['%.2f' % (3.14 * w * w), '%.2f' % (3.14 * (a + w) ** 2), '%.2f' % (2 * 3.14 * a * w)]
+    return dict(en='A circular garden has radius %s m. A path %s m wide is built all around its outside. Find the area of the path (use \\(\\pi\\approx3.14\\)).' % (num(a), num(w)),
+                vi='Một vườn hoa hình tròn bán kính %s m. Người ta làm một lối đi rộng %s m bao quanh bên ngoài vườn. Tính diện tích lối đi (lấy \\(\\pi\\approx3{,}14\\)).' % (dm(num(a)), dm(num(w))),
+                opts=_dec_opts(r, good, bads, 'm^2'), ans=0,
+                ee='Outer radius \\(%s\\) m; \\(S=3.14\\left(%s^2-%s^2\\right)=%s\\) m².' % (num(a + w), num(a + w), num(a), good), ev='Bán kính ngoài \\(%s\\) m; \\(S=3{,}14\\left(%s^2-%s^2\\right)=%s\\) m².' % (dm(num(a + w)), dm(num(a + w)), dm(num(a)), dm(good)))
+
+def b15_d4_hat(r, lv):
+    L, n = r.randint(6, 30), r.choice([60, 72, 90, 120, 144, 150, 180, 216, 240]); rb = F(L * n, 360)
+    return dict(en='A party hat is made by rolling a sector of radius %d cm and central angle \\(%d^\\circ\\) into a cone (no overlap). Find the radius of the base of the cone.' % (L, n),
+                vi='Một chiếc mũ sinh nhật được làm bằng cách cuộn hình quạt bán kính %d cm, góc ở tâm \\(%d^\\circ\\) thành hình nón (không chồng mép). Tính bán kính đáy của hình nón.' % (L, n),
+                opts=pick_opts(r, '%s\\text{ cm}' % fr(rb), ['%s\\text{ cm}' % fr(x) for x in (F(L * n, 180), F(L * n, 720), F(n, 360) * L * 2 + 1) if x != rb]), ans=0,
+                ee='Arc length \\(=\\dfrac{\\pi\\cdot%d\\cdot%d}{180}=2\\pi r\\Rightarrow r=%s\\) cm.' % (L, n, fr(rb)), ev='Độ dài cung \\(=\\dfrac{\\pi\\cdot%d\\cdot%d}{180}=2\\pi r\\Rightarrow r=%s\\) cm.' % (L, n, fr(rb)))
+
+def b15_d4_cost(r, lv):
+    while True:
+        a, w, p = r.choice(range(3, 11)), r.choice([1, 1.5, 2]), r.choice([150, 180, 200, 240, 250, 300])
+        S = 3.14 * ((a + w) ** 2 - a ** 2); cost = S * p
+        if abs(cost - round(cost)) < 1e-6: break
+    good = int(round(cost)); bads = [int(round(3.14 * (a + w) ** 2 * p)), int(round(3.14 * w * w * p)), int(round(2 * 3.14 * a * w * p))]
+    return dict(en='A circular pond of radius %d m is surrounded by a paved ring %s m wide. Paving costs %d thousand dong per m². How much does the paving cost (use \\(\\pi\\approx3.14\\), in thousand dong)?' % (a, num(w), p),
+                vi='Quanh một hồ nước hình tròn bán kính %d m người ta lát một vành đá rộng %s m. Chi phí lát là %d nghìn đồng/m². Tính chi phí lát (lấy \\(\\pi\\approx3{,}14\\), đơn vị nghìn đồng).' % (a, dm(num(w)), p),
+                opts=pick_opts(r, '%d' % good, ['%d' % x for x in bads if x != good]), ans=0,
+                ee='Area \\(=3.14\\left(%s^2-%d^2\\right)=%s\\) m²; cost \\(=%s\\cdot%d=%d\\) thousand dong.' % (num(a + w), a, num(round(S, 4)), num(round(S, 4)), p, good),
+                ev='Diện tích \\(=3{,}14\\left(%s^2-%d^2\\right)=%s\\) m²; chi phí \\(=%s\\cdot%d=%d\\) nghìn đồng.' % (dm(num(a + w)), a, dm(num(round(S, 4))), dm(num(round(S, 4))), p, good))
+
+def b15_d4_fan(r, lv):
+    rr, R, n = r.randint(4, 10), r.randint(15, 30), r.choice([90, 120, 135, 150, 180]); q = F((R * R - rr * rr) * n, 360)
+    bads = [F(R * R * n, 360), F((R - rr) ** 2 * n, 360), (R * R - rr * rr)]
+    return dict(en='A paper fan is a sector of radius %d cm and central angle \\(%d^\\circ\\); paper covers only the part outside the sector of radius %d cm with the same center. Find the paper area.' % (R, n, rr),
+                vi='Một chiếc quạt giấy có dạng hình quạt bán kính %d cm, góc ở tâm \\(%d^\\circ\\); giấy chỉ dán phần nằm ngoài hình quạt cùng tâm bán kính %d cm. Tính diện tích phần giấy.' % (R, n, rr),
+                opts=pick_opts(r, _pu(q, 'cm^2'), [_pu(b, 'cm^2') for b in bads if b != q], fill=lambda k: _pu(q + k, 'cm^2')), ans=0,
+                ee='\\(S=\\dfrac{\\pi\\left(%d^2-%d^2\\right)\\cdot%d}{360}=%s\\) cm².' % (R, rr, n, pie(q)), ev='\\(S=\\dfrac{\\pi\\left(%d^2-%d^2\\right)\\cdot%d}{360}=%s\\) cm².' % (R, rr, n, pie(q)))
+
+L15_GROUPS = [[('mcq', b15_arc), ('mcq', b15_sector), ('mcq', b15_annulus)], [('tf', b15_tf_arc), ('tf', b15_tf_double)], [('short', b15_short_round), ('short', b15_short_rev)],
+              [('mcq', b15_d1_formula), ('mcq', b15_d1_circ), ('mcq', b15_d1_frac)], [('mcq', b15_d2_lr), ('mcq', b15_d2_diam), ('mcq', b15_d2_disk)],
+              [('mcq', b15_d3_angle), ('mcq', b15_d3_radius), ('mcq', b15_d3_path)], [('mcq', b15_d4_hat), ('mcq', b15_d4_cost), ('mcq', b15_d4_fan)]]
+
+# =====================================================================================================
+# BÀI 16. Vị trí tương đối của đường thẳng và đường tròn
+# =====================================================================================================
+LPOS = {'sec': ('they intersect (two common points)', 'cắt nhau (có hai điểm chung)'), 'tan': ('they are tangent (one common point)', 'tiếp xúc nhau (có một điểm chung)'),
+        'dis': ('they do not intersect (no common point)', 'không giao nhau (không có điểm chung)')}
+def lpos_opts(k): return [tx(*LPOS[k])] + [tx(*LPOS[j]) for j in LPOS if j != k] + [tx('they have three common points', 'có ba điểm chung')]
+def _dR(r):
+    R = r.randint(3, 15); k = r.choice(['sec', 'tan', 'dis'])
+    d = {'sec': r.choice([x / 2 for x in range(0, 2 * R)]), 'tan': R, 'dis': R + r.choice([x / 2 for x in range(1, 12)])}[k]
+    return R, d, k
+
+def b16_pos(r, lv):
+    R, d, k = _dR(r)
+    return dict(en='Circle \\((O;\\,%d\\text{ cm})\\) and a line \\(a\\) at distance \\(d=%s\\) cm from \\(O\\). What is their relative position?' % (R, num(d)), vi='Cho đường tròn \\((O;\\,%d\\text{ cm})\\) và đường thẳng \\(a\\) cách \\(O\\) một đoạn \\(d=%s\\) cm. Vị trí tương đối của chúng là gì?' % (R, dm(num(d))),
+                opts=lpos_opts(k), ans=0, ee='Compare \\(d=%s\\) with \\(R=%d\\).' % (num(d), R), ev='So sánh \\(d=%s\\) với \\(R=%d\\).' % (dm(num(d)), R))
+
+def b16_tanlen(r, lv):
+    a, b, c = r.choice(PYT); R, t = (a, b) if r.random() < 0.5 else (b, a)
+    return dict(en='\\(PA\\) is tangent to \\((O;\\,%d\\text{ cm})\\) at \\(A\\) and \\(OP=%d\\) cm. Find \\(PA\\).' % (R, c), vi='\\(PA\\) là tiếp tuyến của \\((O;\\,%d\\text{ cm})\\) tại \\(A\\) và \\(OP=%d\\) cm. Tính \\(PA\\).' % (R, c),
+                opts=pick_opts(r, '%d\\text{ cm}' % t, ['%d\\text{ cm}' % x for x in (c - R, c + R, R) if x != t]), ans=0,
+                ee='\\(OA\\perp PA\\), so \\(PA=\\sqrt{OP^2-OA^2}=\\sqrt{%d^2-%d^2}=%d\\) cm.' % (c, R, t), ev='\\(OA\\perp PA\\) nên \\(PA=\\sqrt{OP^2-OA^2}=\\sqrt{%d^2-%d^2}=%d\\) cm.' % (c, R, t))
+
+def b16_sign(r, lv):
+    A = r.choice('ABMN'); R = r.randint(2, 20)
+    o = [tx('it passes through \\(%s\\) and is perpendicular to \\(O%s\\)' % (A, A), 'đi qua \\(%s\\) và vuông góc với \\(O%s\\)' % (A, A)), tx('it passes through \\(%s\\) and through \\(O\\)' % A, 'đi qua \\(%s\\) và đi qua \\(O\\)' % A),
+         tx('it passes through \\(%s\\) and is parallel to \\(O%s\\)' % (A, A), 'đi qua \\(%s\\) và song song với \\(O%s\\)' % (A, A)), tx('it is at distance %d cm from \\(%s\\)' % (R, A), 'cách \\(%s\\) một đoạn %d cm' % (A, R))]
+    return dict(en='\\(%s\\) lies on \\((O;\\,%d\\text{ cm})\\). A line \\(a\\) is tangent to the circle at \\(%s\\) when…' % (A, R, A), vi='\\(%s\\) nằm trên \\((O;\\,%d\\text{ cm})\\). Đường thẳng \\(a\\) là tiếp tuyến của đường tròn tại \\(%s\\) khi…' % (A, R, A),
+                opts=o, ans=0, ee='A line through a point of the circle, perpendicular to the radius at that point, is a tangent.', ev='Đường thẳng đi qua một điểm của đường tròn và vuông góc với bán kính đi qua điểm đó là tiếp tuyến.')
+
+def b16_tf_pos(r, lv):
+    R, d, k = _dR(r); claim = r.choice(['sec', 'tan', 'dis']); n = {'sec': 2, 'tan': 1, 'dis': 0}
+    return dict(en='Line \\(a\\) is at distance %s cm from the center of \\((O;\\,%d\\text{ cm})\\). Then \\(a\\) and the circle have exactly %d common point%s.' % (num(d), R, n[claim], '' if n[claim] == 1 else 's'),
+                vi='Đường thẳng \\(a\\) cách tâm của \\((O;\\,%d\\text{ cm})\\) một đoạn %s cm. Khi đó \\(a\\) và đường tròn có đúng %d điểm chung.' % (R, dm(num(d)), n[claim]), ans=(claim == k),
+                ee='\\(d=%s\\), \\(R=%d\\): %s.' % (num(d), R, {0: 'no common point', 1: 'exactly one common point', 2: 'two common points'}[n[k]]), ev='\\(d=%s\\), \\(R=%d\\): có %d điểm chung.' % (dm(num(d)), R, n[k]))
+
+def b16_tf_two(r, lv):
+    a, b, c = r.choice(PYT); truth = r.random() < 0.5; pb = a if truth else r.choice([b, c, a + 2])
+    if not truth: assert pb != a
+    return dict(en='From \\(P\\) outside \\((O;\\,%d\\text{ cm})\\), tangents \\(PA\\), \\(PB\\) are drawn (\\(A\\), \\(B\\) on the circle) and \\(PA=%d\\) cm. Then \\(PB=%d\\) cm.' % (b, a, pb),
+                vi='Từ điểm \\(P\\) nằm ngoài \\((O;\\,%d\\text{ cm})\\) kẻ hai tiếp tuyến \\(PA\\), \\(PB\\) (\\(A\\), \\(B\\) là tiếp điểm) và \\(PA=%d\\) cm. Khi đó \\(PB=%d\\) cm.' % (b, a, pb), ans=truth,
+                ee='The two tangent segments from one point are equal: \\(PB=PA=%d\\) cm.' % a, ev='Hai tiếp tuyến cắt nhau tại \\(P\\) thì \\(PA=PB=%d\\) cm.' % a)
+
+def b16_short_chord(r, lv):
+    a, b, c = r.choice(PYT); d, h = (a, b) if r.random() < 0.5 else (b, a)
+    return dict(en='Line \\(a\\) is at distance %d cm from the center of \\((O;\\,%d\\text{ cm})\\) and cuts it at \\(A\\), \\(B\\). Find \\(AB\\) (cm).' % (d, c), vi='Đường thẳng \\(a\\) cách tâm \\((O;\\,%d\\text{ cm})\\) một đoạn %d cm và cắt đường tròn tại \\(A\\), \\(B\\). Tính \\(AB\\) (cm).' % (c, d),
+                key=str(2 * h), ee='\\(H\\) is the foot of the perpendicular from \\(O\\): \\(AH=\\sqrt{%d^2-%d^2}=%d\\), \\(AB=2AH=%d\\).' % (c, d, h, 2 * h), ev='Gọi \\(H\\) là chân đường vuông góc kẻ từ \\(O\\): \\(AH=\\sqrt{%d^2-%d^2}=%d\\), \\(AB=2AH=%d\\).' % (c, d, h, 2 * h))
+
+def b16_short_op(r, lv):
+    a, b, c = r.choice(PYT); R, t = (a, b) if r.random() < 0.5 else (b, a)
+    return dict(en='\\(PA\\) is tangent to \\((O;\\,%d\\text{ cm})\\) at \\(A\\) and \\(PA=%d\\) cm. Find \\(OP\\) (cm).' % (R, t), vi='\\(PA\\) là tiếp tuyến của \\((O;\\,%d\\text{ cm})\\) tại \\(A\\) và \\(PA=%d\\) cm. Tính \\(OP\\) (cm).' % (R, t),
+                key=str(c), ee='\\(OP=\\sqrt{OA^2+PA^2}=\\sqrt{%d^2+%d^2}=%d\\).' % (R, t, c), ev='\\(OP=\\sqrt{OA^2+PA^2}=\\sqrt{%d^2+%d^2}=%d\\).' % (R, t, c))
+
+def b16_d1_name(r, lv):
+    k = r.choice(['tan', 'sec', 'pt']); A = r.choice('ABHK')
+    if k == 'tan':
+        en, vi = 'A line that has exactly one common point with a circle is called…', 'Đường thẳng có đúng một điểm chung với đường tròn được gọi là…'
+        o = [tx('a tangent', 'tiếp tuyến'), tx('a secant', 'cát tuyến'), tx('a diameter', 'đường kính'), tx('a chord', 'dây')]
+    elif k == 'sec':
+        en, vi = 'A line that has two common points with a circle is called…', 'Đường thẳng có hai điểm chung với đường tròn được gọi là…'
+        o = [tx('a secant', 'cát tuyến'), tx('a tangent', 'tiếp tuyến'), tx('a radius', 'bán kính'), tx('an arc', 'cung')]
+    else:
+        en, vi = 'Line \\(a\\) is tangent to \\((O)\\) and their common point is \\(%s\\). The point \\(%s\\) is called…' % (A, A), 'Đường thẳng \\(a\\) tiếp xúc với \\((O)\\), điểm chung của chúng là \\(%s\\). Điểm \\(%s\\) được gọi là…' % (A, A)
+        o = [tx('the point of tangency', 'tiếp điểm'), tx('the center', 'tâm'), tx('an intersection point of two secants', 'giao điểm của hai cát tuyến'), tx('the midpoint', 'trung điểm')]
+    return dict(en=en, vi=vi, opts=o, ans=0, ee='Definitions of tangent, secant and point of tangency.', ev='Định nghĩa tiếp tuyến, cát tuyến, tiếp điểm.')
+
+def b16_d1_rel(r, lv):
+    k = r.choice(['sec', 'tan', 'dis']); R = r.randint(2, 20)
+    o = {'sec': ['d\\lt %d' % R, 'd=%d' % R, 'd\\gt %d' % R, 'd=%d' % (2 * R)], 'tan': ['d=%d' % R, 'd\\lt %d' % R, 'd\\gt %d' % R, 'd=%d' % (2 * R)], 'dis': ['d\\gt %d' % R, 'd=%d' % R, 'd\\lt %d' % R, 'd=0']}[k]
+    return dict(en='Line \\(a\\) is at distance \\(d\\) from the center of \\((O;\\,%d)\\). %s exactly when…' % (R, {'sec': 'They intersect', 'tan': 'They are tangent', 'dis': 'They do not intersect'}[k]),
+                vi='Đường thẳng \\(a\\) cách tâm của \\((O;\\,%d)\\) một đoạn \\(d\\). Chúng %s khi và chỉ khi…' % (R, {'sec': 'cắt nhau', 'tan': 'tiếp xúc nhau', 'dis': 'không giao nhau'}[k]), opts=o, ans=0,
+                ee='Intersect: \\(d\\lt R\\); tangent: \\(d=R\\); no common point: \\(d\\gt R\\).', ev='Cắt nhau: \\(d\\lt R\\); tiếp xúc: \\(d=R\\); không giao nhau: \\(d\\gt R\\).')
+
+def b16_d1_perp(r, lv):
+    A = r.choice('ABCEH'); R = r.randint(2, 20)
+    return dict(en='Line \\(a\\) is tangent to \\((O;\\,%d\\text{ cm})\\) at \\(%s\\). What is the angle between \\(a\\) and \\(O%s\\)?' % (R, A, A), vi='Đường thẳng \\(a\\) tiếp xúc với \\((O;\\,%d\\text{ cm})\\) tại \\(%s\\). Góc giữa \\(a\\) và \\(O%s\\) bằng bao nhiêu?' % (R, A, A),
+                opts=['90^\\circ', '45^\\circ', '60^\\circ', '180^\\circ'], ans=0, ee='A tangent is perpendicular to the radius at the point of tangency.', ev='Tiếp tuyến vuông góc với bán kính đi qua tiếp điểm.')
+
+def b16_d2_count(r, lv):
+    R, d, k = _dR(r); n = {'sec': 2, 'tan': 1, 'dis': 0}[k]
+    return dict(en='How many common points do \\((O;\\,%d\\text{ cm})\\) and a line at distance %s cm from \\(O\\) have?' % (R, num(d)), vi='Đường tròn \\((O;\\,%d\\text{ cm})\\) và một đường thẳng cách \\(O\\) một đoạn %s cm có bao nhiêu điểm chung?' % (R, dm(num(d))),
+                opts=pick_opts(r, str(n), [str(x) for x in (0, 1, 2, 3) if x != n]), ans=0, ee='\\(d=%s\\), \\(R=%d\\).' % (num(d), R), ev='\\(d=%s\\), \\(R=%d\\).' % (dm(num(d)), R))
+
+def b16_d2_half(r, lv):
+    x = r.choice(range(20, 161, 2))
+    return dict(en='Tangents \\(PA\\), \\(PB\\) to \\((O)\\) are drawn from \\(P\\), and \\(\\widehat{APB}=%d^\\circ\\). Find \\(\\widehat{APO}\\).' % x, vi='Từ \\(P\\) kẻ hai tiếp tuyến \\(PA\\), \\(PB\\) tới \\((O)\\) và \\(\\widehat{APB}=%d^\\circ\\). Tính \\(\\widehat{APO}\\).' % x,
+                opts=pick_opts(r, '%d^\\circ' % (x // 2), ['%d^\\circ' % v for v in (x, 180 - x, 90 - x // 2) if v != x // 2], fill=lambda k: '%d^\\circ' % (x // 2 + 5 * k)), ans=0,
+                ee='\\(PO\\) bisects \\(\\widehat{APB}\\): \\(\\widehat{APO}=%d^\\circ\\).' % (x // 2), ev='\\(PO\\) là tia phân giác của \\(\\widehat{APB}\\): \\(\\widehat{APO}=%d^\\circ\\).' % (x // 2))
+
+def b16_d2_which(r, lv):
+    R = r.randint(4, 12); ds = [r.randint(0, R - 1), R, R + r.randint(1, 6)]; names = r.sample(['a', 'b', 'c', 'd', 'm'], 3)
+    pairs = list(zip(names, ds)); r.shuffle(pairs); good = [n for n, d in pairs if d == R][0]
+    return dict(en='Circle \\((O;\\,%d\\text{ cm})\\); the distances from \\(O\\) to lines %s are %s cm. Which line is a tangent?' % (R, ', '.join('\\(%s\\)' % n for n, _ in pairs), ', '.join(str(d) for _, d in pairs)),
+                vi='Đường tròn \\((O;\\,%d\\text{ cm})\\); khoảng cách từ \\(O\\) đến các đường thẳng %s lần lượt là %s cm. Đường thẳng nào là tiếp tuyến?' % (R, ', '.join('\\(%s\\)' % n for n, _ in pairs), '; '.join(str(d) for _, d in pairs)),
+                opts=[good] + [n for n, _ in pairs if n != good] + [tx('none of them', 'không có đường nào')], ans=0, ee='Tangent: \\(d=R=%d\\).' % R, ev='Tiếp tuyến: \\(d=R=%d\\).' % R)
+
+def b16_d3_aob(r, lv):
+    x = r.randint(20, 160)
+    return dict(en='Tangents \\(PA\\), \\(PB\\) to \\((O)\\) meet at \\(P\\) and \\(\\widehat{APB}=%d^\\circ\\). Find \\(\\widehat{AOB}\\).' % x, vi='Hai tiếp tuyến tại \\(A\\), \\(B\\) của \\((O)\\) cắt nhau tại \\(P\\) và \\(\\widehat{APB}=%d^\\circ\\). Tính \\(\\widehat{AOB}\\).' % x,
+                opts=pick_opts(r, '%d^\\circ' % (180 - x), ['%d^\\circ' % v for v in (x, 360 - x, 90 + x) if v != 180 - x and v < 360]), ans=0,
+                ee='In quadrilateral \\(OAPB\\): \\(\\widehat A=\\widehat B=90^\\circ\\), so \\(\\widehat{AOB}=360^\\circ-180^\\circ-%d^\\circ=%d^\\circ\\).' % (x, 180 - x), ev='Tứ giác \\(OAPB\\) có \\(\\widehat A=\\widehat B=90^\\circ\\) nên \\(\\widehat{AOB}=360^\\circ-180^\\circ-%d^\\circ=%d^\\circ\\).' % (x, 180 - x))
+
+def b16_d3_tan(r, lv):
+    a, b, c = r.choice(PYT); R, t = (a, b) if r.random() < 0.5 else (b, a)
+    return dict(en='From \\(P\\) with \\(OP=%d\\) cm, tangents \\(PA\\), \\(PB\\) to \\((O;\\,%d\\text{ cm})\\) are drawn. Find \\(PA+PB\\).' % (c, R), vi='Từ điểm \\(P\\) với \\(OP=%d\\) cm kẻ hai tiếp tuyến \\(PA\\), \\(PB\\) tới \\((O;\\,%d\\text{ cm})\\). Tính \\(PA+PB\\).' % (c, R),
+                opts=pick_opts(r, '%d\\text{ cm}' % (2 * t), ['%d\\text{ cm}' % v for v in (t, 2 * c, 2 * (c - R)) if v != 2 * t]), ans=0,
+                ee='\\(PA=PB=\\sqrt{%d^2-%d^2}=%d\\) cm.' % (c, R, t), ev='\\(PA=PB=\\sqrt{%d^2-%d^2}=%d\\) cm.' % (c, R, t))
+
+def b16_d3_area(r, lv):
+    a, b, c = r.choice(PYT); R, t = (a, b) if r.random() < 0.5 else (b, a)
+    return dict(en='Tangents \\(PA\\), \\(PB\\) are drawn from \\(P\\) to \\((O;\\,%d\\text{ cm})\\) and \\(OP=%d\\) cm. Find the area of quadrilateral \\(OAPB\\).' % (R, c), vi='Từ \\(P\\) kẻ hai tiếp tuyến \\(PA\\), \\(PB\\) tới \\((O;\\,%d\\text{ cm})\\), biết \\(OP=%d\\) cm. Tính diện tích tứ giác \\(OAPB\\).' % (R, c),
+                opts=pick_opts(r, '%d\\text{ cm}^2' % (R * t), ['%d\\text{ cm}^2' % v for v in (R * t // 2 if R * t % 2 == 0 else R * t * 2, R * c, c * t) if v != R * t]), ans=0,
+                ee='\\(PA=%d\\); \\(S_{OAPB}=2S_{OAP}=OA\\cdot PA=%d\\cdot%d=%d\\) cm².' % (t, R, t, R * t), ev='\\(PA=%d\\); \\(S_{OAPB}=2S_{OAP}=OA\\cdot PA=%d\\cdot%d=%d\\) cm².' % (t, R, t, R * t))
+
+def b16_d4_road(r, lv):
+    a, b, c = r.choice(PYT); d, h = (a, b) if r.random() < 0.5 else (b, a); m = r.choice([1, 2, 5, 10])
+    return dict(en='A circular park has radius %d m. A straight road passes %d m from the center of the park. How long is the part of the road inside the park?' % (c * m, d * m),
+                vi='Một công viên hình tròn bán kính %d m. Một con đường thẳng đi qua cách tâm công viên %d m. Đoạn đường nằm trong công viên dài bao nhiêu mét?' % (c * m, d * m),
+                opts=pick_opts(r, '%d\\text{ m}' % (2 * h * m), ['%d\\text{ m}' % v for v in (h * m, 2 * c * m, 2 * (c - d) * m) if v != 2 * h * m]), ans=0,
+                ee='Half of it is \\(\\sqrt{%d^2-%d^2}=%d\\) m; the road inside is \\(%d\\) m.' % (c * m, d * m, h * m, 2 * h * m), ev='Nửa đoạn đường là \\(\\sqrt{%d^2-%d^2}=%d\\) m; đoạn nằm trong công viên dài \\(%d\\) m.' % (c * m, d * m, h * m, 2 * h * m))
+
+def b16_d4_angle(r, lv):
+    R = r.randint(2, 15); k = r.choice([2, 'r2'])
+    if k == 2: OP, a = '%d' % (2 * R), 60      # cos AOP = 1/2
+    else: OP, a = '%d\\sqrt2' % R, 45
+    return dict(en='Tangents \\(PA\\), \\(PB\\) are drawn from \\(P\\) to \\((O;\\,%d\\text{ cm})\\) with \\(OP=%s\\) cm. Find \\(\\widehat{AOB}\\).' % (R, OP), vi='Từ \\(P\\) kẻ hai tiếp tuyến \\(PA\\), \\(PB\\) tới \\((O;\\,%d\\text{ cm})\\) với \\(OP=%s\\) cm. Tính \\(\\widehat{AOB}\\).' % (R, OP),
+                opts=pick_opts(r, '%d^\\circ' % (2 * a), ['%d^\\circ' % v for v in (a, 180 - 2 * a, 90 - a, 150) if v != 2 * a]), ans=0,
+                ee='\\(\\cos\\widehat{AOP}=\\dfrac{OA}{OP}\\Rightarrow\\widehat{AOP}=%d^\\circ\\), so \\(\\widehat{AOB}=%d^\\circ\\).' % (a, 2 * a), ev='\\(\\cos\\widehat{AOP}=\\dfrac{OA}{OP}\\Rightarrow\\widehat{AOP}=%d^\\circ\\) nên \\(\\widehat{AOB}=%d^\\circ\\).' % (a, 2 * a))
+
+def b16_d4_belt(r, lv):
+    a, b, c = r.choice(PYT); m = r.choice([1, 2, 3])
+    R, t, c = a * m, b * m, c * m
+    return dict(en='A straight wooden bar touches a circular wheel of radius %d dm only at point \\(A\\) (the bar is tangent to the wheel). The end \\(P\\) of the bar is %d dm from the center \\(O\\) of the wheel. Find \\(PA\\).' % (R, c),
+                vi='Một thanh gỗ thẳng tựa tiếp xúc với một bánh xe hình tròn bán kính %d dm tại điểm \\(A\\). Đầu thanh gỗ là điểm \\(P\\) cách tâm \\(O\\) của bánh xe %d dm. Tính \\(PA\\).' % (R, c),
+                opts=pick_opts(r, '%d\\text{ dm}' % t, ['%d\\text{ dm}' % v for v in (c - R, c + R, R + t) if v != t]), ans=0,
+                ee='\\(OA\\perp PA\\): \\(PA=\\sqrt{%d^2-%d^2}=%d\\) dm.' % (c, R, t), ev='\\(OA\\perp PA\\): \\(PA=\\sqrt{%d^2-%d^2}=%d\\) dm.' % (c, R, t))
+
+L16_GROUPS = [[('mcq', b16_pos), ('mcq', b16_tanlen), ('mcq', b16_sign)], [('tf', b16_tf_pos), ('tf', b16_tf_two)], [('short', b16_short_chord), ('short', b16_short_op)],
+              [('mcq', b16_d1_name), ('mcq', b16_d1_rel), ('mcq', b16_d1_perp)], [('mcq', b16_d2_count), ('mcq', b16_d2_half), ('mcq', b16_d2_which)],
+              [('mcq', b16_d3_aob), ('mcq', b16_d3_tan), ('mcq', b16_d3_area)], [('mcq', b16_d4_road), ('mcq', b16_d4_angle), ('mcq', b16_d4_belt)]]
+
+# =====================================================================================================
+# BÀI 17. Vị trí tương đối của hai đường tròn
+# =====================================================================================================
+CPOS = {'inter': ('they intersect (two common points)', 'cắt nhau (có hai điểm chung)'), 'ext': ('externally tangent', 'tiếp xúc ngoài'),
+        'int': ('internally tangent', 'tiếp xúc trong'), 'out': ('outside each other (no common point)', 'ở ngoài nhau (không có điểm chung)'),
+        'in': ('one lies inside the other (no common point)', 'đựng nhau (không có điểm chung)')}
+NCOM = {'inter': 2, 'ext': 1, 'int': 1, 'out': 0, 'in': 0}
+def cpos(R, r, d):
+    R, r = max(R, r), min(R, r)
+    if d > R + r: return 'out'
+    if d == R + r: return 'ext'
+    if d > R - r: return 'inter'
+    if d == R - r: return 'int'
+    return 'in'
+def cpos_opts(r, k):
+    others = [j for j in CPOS if j != k]; r.shuffle(others)
+    return [tx(*CPOS[k])] + [tx(*CPOS[j]) for j in others[:3]]
+def _two(r, want=None):
+    while True:
+        R = r.randint(4, 15); rr = r.randint(1, R - 1); k = want or r.choice(list(CPOS))
+        d = {'inter': r.randint(R - rr + 1, R + rr - 1) if R + rr - 1 >= R - rr + 1 else None, 'ext': R + rr, 'int': R - rr,
+             'out': R + rr + r.randint(1, 6), 'in': r.randint(0, R - rr - 1) if R - rr - 1 >= 0 else None}[k]
+        if d is not None and cpos(R, rr, d) == k: return R, rr, d, k
+
+def b17_pos(r, lv):
+    R, rr, d, k = _two(r)
+    return dict(en='Circles \\((O;\\,%d\\text{ cm})\\) and \\((O\';\\,%d\\text{ cm})\\) have \\(OO\'=%d\\) cm. What is their relative position?' % (R, rr, d),
+                vi='Hai đường tròn \\((O;\\,%d\\text{ cm})\\) và \\((O\';\\,%d\\text{ cm})\\) có \\(OO\'=%d\\) cm. Vị trí tương đối của chúng là gì?' % (R, rr, d),
+                opts=cpos_opts(r, k), ans=0, ee='\\(R+r=%d\\), \\(R-r=%d\\), \\(d=%d\\).' % (R + rr, R - rr, d), ev='\\(R+r=%d\\), \\(R-r=%d\\), \\(d=%d\\).' % (R + rr, R - rr, d))
+
+def b17_count(r, lv):
+    R, rr, d, k = _two(r)
+    return dict(en='Two circles have radii %d cm and %d cm, and their centers are %d cm apart. How many common points do they have?' % (R, rr, d),
+                vi='Hai đường tròn có bán kính %d cm và %d cm, khoảng cách giữa hai tâm là %d cm. Chúng có bao nhiêu điểm chung?' % (R, rr, d),
+                opts=pick_opts(r, str(NCOM[k]), [str(x) for x in (0, 1, 2, 3) if x != NCOM[k]]), ans=0,
+                ee='\\(R+r=%d\\), \\(R-r=%d\\), \\(d=%d\\): %s.' % (R + rr, R - rr, d, CPOS[k][0]), ev='\\(R+r=%d\\), \\(R-r=%d\\), \\(d=%d\\): %s.' % (R + rr, R - rr, d, CPOS[k][1]))
+
+def b17_findr(r, lv):
+    R, d = r.randint(3, 15), r.randint(4, 30)
+    if d <= R: d = R + r.randint(1, 10)
+    good = d - R
+    return dict(en='Circle \\((O)\\) has radius %d cm and circle \\((O\')\\) has radius \\(r\\). \\(OO\'=%d\\) cm and the circles are externally tangent. Find \\(r\\).' % (R, d),
+                vi='Đường tròn \\((O)\\) có bán kính %d cm, đường tròn \\((O\')\\) có bán kính \\(r\\). \\(OO\'=%d\\) cm và hai đường tròn tiếp xúc ngoài. Tính \\(r\\).' % (R, d),
+                opts=pick_opts(r, '%d\\text{ cm}' % good, ['%d\\text{ cm}' % x for x in (d + R, d, abs(good - 1) or 1) if x != good]), ans=0,
+                ee='Externally tangent: \\(d=R+r\\Rightarrow r=%d-%d=%d\\).' % (d, R, good), ev='Tiếp xúc ngoài: \\(d=R+r\\Rightarrow r=%d-%d=%d\\).' % (d, R, good))
+
+def b17_tf_pos(r, lv):
+    R, rr, d, k = _two(r); claim = r.choice(list(CPOS))
+    CW = {'inter': ('intersecting', 'cắt nhau'), 'ext': ('externally tangent', 'tiếp xúc ngoài'), 'int': ('internally tangent', 'tiếp xúc trong'), 'out': ('outside each other', 'ở ngoài nhau'), 'in': ('nested (one inside the other, no common point)', 'đựng nhau')}
+    return dict(en='Two circles with radii %d cm and %d cm whose centers are %d cm apart are %s.' % (R, rr, d, CW[claim][0]),
+                vi='Hai đường tròn có bán kính %d cm, %d cm và khoảng cách hai tâm %d cm thì %s.' % (R, rr, d, CW[claim][1]), ans=(claim == k),
+                ee='\\(R+r=%d\\), \\(R-r=%d\\), \\(d=%d\\): %s.' % (R + rr, R - rr, d, CPOS[k][0]), ev='\\(R+r=%d\\), \\(R-r=%d\\), \\(d=%d\\): %s.' % (R + rr, R - rr, d, CPOS[k][1]))
+
+def b17_tf_col(r, lv):
+    R = r.randint(3, 12); rr = r.randint(1, R - 1); kind = r.choice(['ext', 'int']); T = r.choice('ATKM'); truth = r.random() < 0.5
+    st = ('\\(O\\), \\(O\'\\) and \\(%s\\) are collinear' % T, '\\(O\\), \\(O\'\\), \\(%s\\) thẳng hàng' % T) if truth else ('\\(O%s\\perp O\'%s\\)' % (T, T), '\\(O%s\\perp O\'%s\\)' % (T, T))
+    return dict(en='\\((O;\\,%d\\text{ cm})\\) and \\((O\';\\,%d\\text{ cm})\\) are %s at \\(%s\\). Then %s.' % (R, rr, CPOS[kind][0], T, st[0]),
+                vi='\\((O;\\,%d\\text{ cm})\\) và \\((O\';\\,%d\\text{ cm})\\) %s tại \\(%s\\). Khi đó %s.' % (R, rr, CPOS[kind][1], T, st[1]), ans=truth,
+                ee='At a point of tangency, the two centers and the point of tangency are collinear.', ev='Khi hai đường tròn tiếp xúc, hai tâm và tiếp điểm thẳng hàng.')
+
+def b17_short_move(r, lv):
+    R = r.randint(4, 12); rr = r.randint(2, R - 1); d = r.randint(R - rr + 1, R + rr - 1); kind = r.choice(['away', 'towards'])
+    good = (R + rr - d) if kind == 'away' else (d - (R - rr))
+    en = {'away': 'directly away from \\(A\\) until the circles are externally tangent', 'towards': 'directly towards \\(A\\) until the circles are internally tangent'}[kind]
+    vi = {'away': 'thẳng ra xa \\(A\\) đến khi hai đường tròn tiếp xúc ngoài', 'towards': 'thẳng về phía \\(A\\) đến khi hai đường tròn tiếp xúc trong'}[kind]
+    return dict(en='Two circular fountains have radii %d m (center \\(A\\)) and %d m (center \\(B\\)), and \\(AB=%d\\) m. The smaller fountain is moved %s. How many meters does it move?' % (R, rr, d, en),
+                vi='Hai đài phun nước hình tròn có bán kính %d m (tâm \\(A\\)) và %d m (tâm \\(B\\)), \\(AB=%d\\) m. Dời đài nhỏ %s. Đài nhỏ phải dời bao nhiêu mét?' % (R, rr, d, vi),
+                key=str(good), ee='The new distance is \\(%s=%d\\); move \\(%d\\) m.' % ('R+r' if kind == 'away' else 'R-r', R + rr if kind == 'away' else R - rr, good),
+                ev='Khoảng cách mới là \\(%s=%d\\); dời \\(%d\\) m.' % ('R+r' if kind == 'away' else 'R-r', R + rr if kind == 'away' else R - rr, good))
+
+CHORD = [(15, 13, 9, 5, 12), (20, 13, 16, 5, 12), (20, 15, 16, 9, 12), (13, 5, 12, 3, 4), (5, 4, 3, 0, 4), (10, 6, 8, 0, 6), (25, 17, 20, 8, 15), (17, 10, 15, 6, 8), (25, 20, 24, 16, 7)]
+def b17_short_chord(r, lv):
+    R, rr, x, y, h = r.choice([c for c in CHORD if c[3] > 0]); k = r.choice([1, 2, 3]); R, rr, x, y, h = R * k, rr * k, x * k, y * k, h * k
+    assert x * x + h * h == R * R and y * y + h * h == rr * rr
+    return dict(en='Circles \\((O;\\,%d\\text{ cm})\\) and \\((O\';\\,%d\\text{ cm})\\) intersect at \\(A\\), \\(B\\), with \\(OO\'=%d\\) cm and the centers on opposite sides of \\(AB\\). Find the common chord \\(AB\\) (cm).' % (R, rr, x + y),
+                vi='Hai đường tròn \\((O;\\,%d\\text{ cm})\\) và \\((O\';\\,%d\\text{ cm})\\) cắt nhau tại \\(A\\), \\(B\\), \\(OO\'=%d\\) cm và hai tâm nằm khác phía đối với \\(AB\\). Tính độ dài dây chung \\(AB\\) (cm).' % (R, rr, x + y),
+                key=str(2 * h), ee='\\(OO\'\\perp AB\\) at the midpoint \\(M\\): \\(OM=x\\), \\(O\'M=%d-x\\), \\(%d^2-x^2=%d^2-(%d-x)^2\\Rightarrow x=%d\\), \\(AM=\\sqrt{%d^2-%d^2}=%d\\), \\(AB=%d\\).' % (x + y, R, rr, x + y, x, R, x, h, 2 * h),
+                ev='\\(OO\'\\perp AB\\) tại trung điểm \\(M\\): \\(OM=x\\), \\(O\'M=%d-x\\), \\(%d^2-x^2=%d^2-(%d-x)^2\\Rightarrow x=%d\\), \\(AM=\\sqrt{%d^2-%d^2}=%d\\), \\(AB=%d\\).' % (x + y, R, rr, x + y, x, R, x, h, 2 * h))
+
+def b17_d1_name(r, lv):
+    k = r.choice(['ext', 'int', 'in']); R = r.randint(3, 15); rr = r.randint(1, R - 1)
+    en = {'ext': 'Two circles have exactly one common point and each lies outside the other. They are…', 'int': 'Two circles have exactly one common point and one lies inside the other. They are…',
+          'in': 'Two circles with the same center and radii %d cm, %d cm are…' % (R, rr)}[k]
+    vi = {'ext': 'Hai đường tròn có đúng một điểm chung và mỗi đường tròn nằm ngoài đường tròn kia. Chúng…', 'int': 'Hai đường tròn có đúng một điểm chung và một đường tròn nằm trong đường tròn kia. Chúng…',
+          'in': 'Hai đường tròn cùng tâm, bán kính %d cm và %d cm thì…' % (R, rr)}[k]
+    o = [tx('externally tangent', 'tiếp xúc ngoài'), tx('internally tangent', 'tiếp xúc trong'), tx('intersecting', 'cắt nhau'), tx('concentric (one inside the other)', 'đồng tâm (đựng nhau)')]
+    good = {'ext': 0, 'int': 1, 'in': 3}[k]; o = [o[good]] + [o[i] for i in range(4) if i != good]
+    return dict(en=en, vi=vi, opts=o, ans=0, ee='Definitions of the relative positions of two circles.', ev='Định nghĩa các vị trí tương đối của hai đường tròn.')
+
+def b17_d1_rel(r, lv):
+    k = r.choice(['ext', 'int', 'inter', 'out']); R = r.randint(5, 20); rr = r.randint(1, R - 1)
+    o = {'ext': ['d=%d' % (R + rr), 'd=%d' % (R - rr), 'd\\gt %d' % (R + rr), 'd\\lt %d' % (R - rr)], 'int': ['d=%d' % (R - rr), 'd=%d' % (R + rr), 'd\\gt %d' % (R + rr), 'd=0'],
+         'inter': ['%d\\lt d\\lt %d' % (R - rr, R + rr), 'd=%d' % (R + rr), 'd\\gt %d' % (R + rr), 'd\\lt %d' % (R - rr)], 'out': ['d\\gt %d' % (R + rr), 'd=%d' % (R + rr), '%d\\lt d\\lt %d' % (R - rr, R + rr), 'd=%d' % (R - rr)]}[k]
+    return dict(en='Circles \\((O;\\,%d)\\) and \\((O\';\\,%d)\\), \\(d=OO\'\\). They are %s exactly when…' % (R, rr, {'ext': 'externally tangent', 'int': 'internally tangent', 'inter': 'intersecting', 'out': 'outside each other'}[k]),
+                vi='Hai đường tròn \\((O;\\,%d)\\) và \\((O\';\\,%d)\\), \\(d=OO\'\\). Chúng %s khi và chỉ khi…' % (R, rr, {'ext': 'tiếp xúc ngoài', 'int': 'tiếp xúc trong', 'inter': 'cắt nhau', 'out': 'ở ngoài nhau'}[k]),
+                opts=o, ans=0, ee='Compare \\(d\\) with \\(R+r=%d\\) and \\(R-r=%d\\).' % (R + rr, R - rr), ev='So sánh \\(d\\) với \\(R+r=%d\\) và \\(R-r=%d\\).' % (R + rr, R - rr))
+
+def b17_d1_conc(r, lv):
+    R = r.randint(3, 20); rr = r.randint(1, R - 1)
+    return dict(en='Two concentric circles have radii %d cm and %d cm. What is the distance between their centers?' % (R, rr), vi='Hai đường tròn đồng tâm có bán kính %d cm và %d cm. Khoảng cách giữa hai tâm bằng bao nhiêu?' % (R, rr),
+                opts=['0\\text{ cm}', '%d\\text{ cm}' % (R - rr), '%d\\text{ cm}' % (R + rr), '%d\\text{ cm}' % R], ans=0, ee='Concentric circles have the same center: \\(d=0\\).', ev='Hai đường tròn đồng tâm có chung tâm: \\(d=0\\).')
+
+def b17_d2_pos(r, lv):
+    while True:
+        R, rr = r.randint(3, 12), r.randint(1, 10) / 2 + 0.5
+        if rr < R: break
+    k = r.choice(['inter', 'ext', 'out', 'int', 'in']); d = {'inter': (R - rr + R + rr) / 2, 'ext': R + rr, 'out': R + rr + 1.5, 'int': R - rr, 'in': max(0, R - rr - 1.5)}[k]
+    if cpos(R, rr, d) != k: raise AssertionError
+    return dict(en='Circles \\((O;\\,%s\\text{ cm})\\) and \\((O\';\\,%s\\text{ cm})\\) have \\(OO\'=%s\\) cm. Their relative position is…' % (num(R), num(rr), num(d)),
+                vi='Hai đường tròn \\((O;\\,%s\\text{ cm})\\) và \\((O\';\\,%s\\text{ cm})\\) có \\(OO\'=%s\\) cm. Vị trí tương đối của chúng là…' % (dm(num(R)), dm(num(rr)), dm(num(d))),
+                opts=cpos_opts(r, k), ans=0, ee='\\(R+r=%s\\), \\(R-r=%s\\).' % (num(R + rr), num(R - rr)), ev='\\(R+r=%s\\), \\(R-r=%s\\).' % (dm(num(R + rr)), dm(num(R - rr))))
+
+def b17_d2_int(r, lv):
+    R, d = r.randint(6, 20), r.randint(2, 15); assert d < R
+    o = ['r=%d\\text{ or }r=%d' % (R - d, R + d), 'r=%d' % (R - d), 'r=%d' % (R + d), 'r=%d' % (d - R + 2 * R if d > R else d)]
+    o = [o[0].replace('\\text{ or }', '\\ \\text{or}\\ ')] + o[1:]
+    if len(set(o)) < 4: raise AssertionError
+    return dict(en='Circle \\((O)\\) has radius %d cm; circle \\((O\')\\) has radius \\(r\\) cm and \\(OO\'=%d\\) cm. Find all \\(r\\) for which the circles are internally tangent.' % (R, d),
+                vi='Đường tròn \\((O)\\) bán kính %d cm; đường tròn \\((O\')\\) bán kính \\(r\\) cm và \\(OO\'=%d\\) cm. Tìm mọi giá trị của \\(r\\) để hai đường tròn tiếp xúc trong.' % (R, d),
+                opts=o, ans=0, ee='\\(|%d-r|=%d\\Rightarrow r=%d\\) or \\(r=%d\\).' % (R, d, R - d, R + d), ev='\\(|%d-r|=%d\\Rightarrow r=%d\\) hoặc \\(r=%d\\).' % (R, d, R - d, R + d))
+
+def b17_d2_gear(r, lv):
+    a, b = r.sample(range(2, 31), 2)
+    return dict(en='Two gears are modeled by externally tangent circles of radii %d cm and %d cm. How far apart are their centers?' % (a, b), vi='Hai bánh răng được mô hình hóa bởi hai đường tròn tiếp xúc ngoài có bán kính %d cm và %d cm. Khoảng cách giữa hai tâm là bao nhiêu?' % (a, b),
+                opts=pick_opts(r, '%d\\text{ cm}' % (a + b), ['%d\\text{ cm}' % x for x in (abs(a - b), a * b, 2 * (a + b)) if x != a + b and x > 0], fill=lambda k: '%d\\text{ cm}' % (a + b + k)), ans=0,
+                ee='Externally tangent: \\(d=R+r=%d\\) cm.' % (a + b), ev='Tiếp xúc ngoài: \\(d=R+r=%d\\) cm.' % (a + b))
+
+def b17_d3_range(r, lv):
+    R, d = r.randint(4, 15), r.randint(6, 25)
+    lo, hi = abs(d - R), d + R
+    o = ['%d\\lt r\\lt %d' % (lo, hi), '0\\lt r\\lt %d' % hi, 'r\\gt %d' % lo, 'r=%d' % hi]
+    return dict(en='Circle \\(C_1\\) has radius %d cm, circle \\(C_2\\) has radius \\(r\\) cm and the centers are %d cm apart. For which \\(r\\) do the circles intersect at two points?' % (R, d),
+                vi='Đường tròn \\(C_1\\) bán kính %d cm, đường tròn \\(C_2\\) bán kính \\(r\\) cm, hai tâm cách nhau %d cm. Với giá trị nào của \\(r\\) thì hai đường tròn cắt nhau?' % (R, d),
+                opts=o, ans=0, ee='\\(|%d-r|\\lt %d\\lt %d+r\\Leftrightarrow %d\\lt r\\lt %d\\).' % (R, d, R, lo, hi), ev='\\(|%d-r|\\lt %d\\lt %d+r\\Leftrightarrow %d\\lt r\\lt %d\\).' % (R, d, R, lo, hi))
+
+def b17_d3_three(r, lv):
+    a, b, c = r.sample(range(1, 15), 3)
+    return dict(en='Three circles with radii %d cm, %d cm and %d cm are pairwise externally tangent. Find the perimeter of the triangle formed by their centers.' % (a, b, c), vi='Ba đường tròn bán kính %d cm, %d cm, %d cm đôi một tiếp xúc ngoài. Tính chu vi tam giác có ba đỉnh là ba tâm.' % (a, b, c),
+                opts=pick_opts(r, '%d\\text{ cm}' % (2 * (a + b + c)), ['%d\\text{ cm}' % x for x in (a + b + c, 3 * (a + b + c), 4 * (a + b + c))]), ans=0,
+                ee='Sides: \\(%d+%d\\), \\(%d+%d\\), \\(%d+%d\\); perimeter \\(=2(%d+%d+%d)=%d\\) cm.' % (a, b, b, c, c, a, a, b, c, 2 * (a + b + c)), ev='Các cạnh: \\(%d+%d\\), \\(%d+%d\\), \\(%d+%d\\); chu vi \\(=2(%d+%d+%d)=%d\\) cm.' % (a, b, b, c, c, a, a, b, c, 2 * (a + b + c)))
+
+def b17_d3_inside(r, lv):
+    R, rr = r.randint(8, 20), r.randint(2, 6); assert rr < R
+    return dict(en='\\((O;\\,%d\\text{ cm})\\) and \\((O\';\\,%d\\text{ cm})\\) are internally tangent at \\(T\\). Point \\(P\\) on the larger circle lies on line \\(OO\'\\), on the side opposite \\(T\\). Find \\(PO\'\\).' % (R, rr),
+                vi='\\((O;\\,%d\\text{ cm})\\) và \\((O\';\\,%d\\text{ cm})\\) tiếp xúc trong tại \\(T\\). Điểm \\(P\\) thuộc đường tròn lớn, nằm trên đường thẳng \\(OO\'\\), ở phía đối diện với \\(T\\). Tính \\(PO\'\\).' % (R, rr),
+                opts=pick_opts(r, '%d\\text{ cm}' % (2 * R - rr), ['%d\\text{ cm}' % x for x in (R - rr, R + rr, 2 * R)]), ans=0,
+                ee='\\(OO\'=%d-%d=%d\\), \\(PO\'=PO+OO\'=%d+%d=%d\\) cm.' % (R, rr, R - rr, R, R - rr, 2 * R - rr), ev='\\(OO\'=%d-%d=%d\\), \\(PO\'=PO+OO\'=%d+%d=%d\\) cm.' % (R, rr, R - rr, R, R - rr, 2 * R - rr))
+
+def b17_d4_param(r, lv):
+    c, d = r.randint(1, 4), r.randint(8, 16); R2 = r.randint(3, d - 2)   # bán kính k+c và R2, khoảng cách d
+    ke, ki = d - R2 - c, d + R2 - c   # tiếp xúc ngoài: k+c+R2=d ; tiếp xúc trong: k+c-R2=d
+    assert ke > 0
+    o = ['k=%d\\ \\text{or}\\ k=%d' % (ke, ki), 'k=%d' % ke, 'k=%d' % ki, 'k=%d\\ \\text{or}\\ k=%d' % (ke + c, ki + c)]
+    return dict(en='Two circles have radii \\(k+%d\\) and %d (\\(k\\gt0\\)), and their centers are %d units apart. Find all \\(k\\) for which the circles are tangent.' % (c, R2, d),
+                vi='Hai đường tròn có bán kính \\(k+%d\\) và %d (\\(k\\gt0\\)), hai tâm cách nhau %d đơn vị. Tìm mọi \\(k\\) để hai đường tròn tiếp xúc nhau.' % (c, R2, d),
+                opts=o, ans=0, ee='External: \\(k+%d+%d=%d\\Rightarrow k=%d\\); internal: \\(k+%d-%d=%d\\Rightarrow k=%d\\).' % (c, R2, d, ke, c, R2, d, ki),
+                ev='Tiếp xúc ngoài: \\(k+%d+%d=%d\\Rightarrow k=%d\\); tiếp xúc trong: \\(k+%d-%d=%d\\Rightarrow k=%d\\).' % (c, R2, d, ke, c, R2, d, ki))
+
+def b17_d4_chord(r, lv):
+    q = b17_short_chord(r, lv); h2 = int(q['key'])
+    q['opts'] = pick_opts(r, '%d\\text{ cm}' % h2, ['%d\\text{ cm}' % x for x in (h2 // 2, h2 + 2, h2 * 2)]); q['ans'] = 0; q.pop('key')
+    return q
+
+def b17_d4_move(r, lv):
+    R = r.randint(5, 14); rr = r.randint(2, R - 2); d = R + rr + r.randint(2, 9)
+    good = d - (R + rr)
+    return dict(en='Two circular flower beds have radii %d m and %d m; their centers are %d m apart. The smaller bed is moved straight towards the larger one until the beds are externally tangent. How far is it moved?' % (R, rr, d),
+                vi='Hai bồn hoa hình tròn có bán kính %d m và %d m, hai tâm cách nhau %d m. Dời bồn nhỏ thẳng về phía bồn lớn đến khi hai bồn tiếp xúc ngoài. Phải dời bao nhiêu mét?' % (R, rr, d),
+                opts=pick_opts(r, '%d\\text{ m}' % good, ['%d\\text{ m}' % x for x in (d - (R - rr), d - R, d - rr) if x != good]), ans=0,
+                ee='Externally tangent: \\(d=%d+%d=%d\\); move \\(%d-%d=%d\\) m.' % (R, rr, R + rr, d, R + rr, good), ev='Tiếp xúc ngoài khi \\(d=%d+%d=%d\\); dời \\(%d-%d=%d\\) m.' % (R, rr, R + rr, d, R + rr, good))
+
+L17_GROUPS = [[('mcq', b17_pos), ('mcq', b17_count), ('mcq', b17_findr)], [('tf', b17_tf_pos), ('tf', b17_tf_col)], [('short', b17_short_move), ('short', b17_short_chord)],
+              [('mcq', b17_d1_name), ('mcq', b17_d1_rel), ('mcq', b17_d1_conc)], [('mcq', b17_d2_pos), ('mcq', b17_d2_int), ('mcq', b17_d2_gear)],
+              [('mcq', b17_d3_range), ('mcq', b17_d3_three), ('mcq', b17_d3_inside)], [('mcq', b17_d4_param), ('mcq', b17_d4_chord), ('mcq', b17_d4_move)]]
+
+# =====================================================================================================
+# BÀI 18. Hàm số y = ax² (a ≠ 0)
+# =====================================================================================================
+AS = [F(1, 4), F(1, 3), F(1, 2), F(1), F(2), F(3), F(3, 2), F(-1, 4), F(-1, 3), F(-1, 2), F(-1), F(-2), F(-3), F(-3, 2)]
+def ax2(a): return '%sx^2' % ('' if a == 1 else '-' if a == -1 else fr(a))
+def Pt(x, y): return '(%s;\\,%s)' % (fr(x), fr(y))
+
+def b18_val(r, lv):
+    a = r.choice(AS); x = nz(r, -6, 6); y = a * x * x
+    return dict(en='For \\(y=%s\\), find \\(y\\) when \\(x=%d\\).' % (ax2(a), x), vi='Với hàm số \\(y=%s\\), tính \\(y\\) khi \\(x=%d\\).' % (ax2(a), x),
+                opts=pick_opts(r, fr(y), [fr(v) for v in (-y, a * 2 * x, a * x) if v != y], fill=lambda k: fr(y + k)), ans=0,
+                ee='\\(y=%s\\cdot(%d)^2=%s\\).' % (fr(a), x, fr(y)), ev='\\(y=%s\\cdot(%d)^2=%s\\).' % (fr(a), x, fr(y)))
+
+def b18_finda(r, lv):
+    a = r.choice(AS); x = nz(r, -4, 4); y = a * x * x
+    return dict(en='The graph of \\(y=ax^2\\) passes through \\(M%s\\). Find \\(a\\).' % Pt(x, y), vi='Đồ thị hàm số \\(y=ax^2\\) đi qua điểm \\(M%s\\). Tìm \\(a\\).' % Pt(x, y),
+                opts=pick_opts(r, fr(a), [fr(v) for v in (y / x, -a, y * x * x) if v != a], fill=lambda k: fr(a + k)), ans=0,
+                ee='\\(%s=a\\cdot(%d)^2\\Rightarrow a=%s\\).' % (fr(y), x, fr(a)), ev='\\(%s=a\\cdot(%d)^2\\Rightarrow a=%s\\).' % (fr(y), x, fr(a)))
+
+def b18_onpt(r, lv):
+    a = r.choice(AS); xs = r.sample([x for x in range(-5, 6) if x], 4); good = (xs[0], a * xs[0] ** 2)
+    bads = [(xs[1], -a * xs[1] ** 2), (xs[2], a * xs[2]), (xs[3], a * xs[3] ** 2 + 1)]
+    bads = [b for b in bads if b[1] != a * b[0] ** 2]
+    if len(bads) < 3: raise AssertionError
+    return dict(en='Which point lies on the graph of \\(y=%s\\)?' % ax2(a), vi='Điểm nào thuộc đồ thị hàm số \\(y=%s\\)?' % ax2(a),
+                opts=['%s' % Pt(*good)] + [Pt(*b) for b in bads], ans=0, ee='Check \\(y=%s\\cdot x^2\\) at each point.' % fr(a), ev='Thay tọa độ từng điểm vào \\(y=%s\\cdot x^2\\).' % fr(a))
+
+def b18_tf_side(r, lv):
+    a = r.choice(AS); claim = r.choice(['above', 'below'])
+    truth = (claim == 'above') == (a > 0)
+    return dict(en='Apart from the vertex \\(O\\), the graph of \\(y=%s\\) lies %s the \\(x\\)-axis.' % (ax2(a), claim), vi='Ngoài đỉnh \\(O\\), đồ thị hàm số \\(y=%s\\) nằm %s trục hoành.' % (ax2(a), 'phía trên' if claim == 'above' else 'phía dưới'), ans=truth,
+                ee='\\(a=%s\\) is %s, so the parabola lies %s the \\(x\\)-axis.' % (fr(a), 'positive' if a > 0 else 'negative', 'above' if a > 0 else 'below'), ev='\\(a=%s\\) %s nên parabol nằm %s trục hoành.' % (fr(a), 'dương' if a > 0 else 'âm', 'phía trên' if a > 0 else 'phía dưới'))
+
+def b18_tf_sym(r, lv):
+    a = r.choice(AS); x = nz(r, -5, 5); y = a * x * x; truth = r.random() < 0.5; Q = (-x, y) if truth else (-x, -y)
+    return dict(en='\\(A%s\\) lies on the graph of \\(y=%s\\). Then \\(B%s\\) also lies on this graph.' % (Pt(x, y), ax2(a), Pt(*Q)), vi='\\(A%s\\) thuộc đồ thị hàm số \\(y=%s\\). Khi đó \\(B%s\\) cũng thuộc đồ thị này.' % (Pt(x, y), ax2(a), Pt(*Q)), ans=truth,
+                ee='The graph is symmetric about \\(Oy\\): \\(%s\\) lies on it; \\(%s\\) does not.' % (Pt(-x, y), Pt(-x, -y)), ev='Đồ thị nhận \\(Oy\\) làm trục đối xứng: \\(%s\\) thuộc đồ thị, \\(%s\\) thì không.' % (Pt(-x, y), Pt(-x, -y)))
+
+def b18_short_a(r, lv):
+    a = r.choice([F(1, 4), F(1, 2), F(2), F(3), F(-1, 2), F(-2), F(-3), F(3, 2), F(-3, 2), F(5, 2)]); x = r.choice([2, -2, 4, -4, 1, -1, 3])
+    y = a * x * x; key = ('%g' % float(a))
+    return dict(en='The parabola \\(y=ax^2\\) passes through \\(%s\\). Find \\(a\\) (decimal answer).' % Pt(x, y), vi='Parabol \\(y=ax^2\\) đi qua điểm \\(%s\\). Tìm \\(a\\) (ghi dạng số thập phân).' % Pt(x, y),
+                key=key, hint=('Enter a number (e.g. -0.5).', 'Nhập một số (ví dụ -0,5).'), ee='\\(a=\\dfrac{%s}{%d}=%s\\).' % (fr(y), x * x, key), ev='\\(a=\\dfrac{%s}{%d}=%s\\).' % (fr(y), x * x, key.replace('.', '{,}')))
+
+def b18_short_x(r, lv):
+    a = r.choice([F(1, 2), F(1), F(2), F(3), F(1, 4), F(-1), F(-2), F(-1, 2)]); x = r.randint(1, 8); y = a * x * x
+    return dict(en='Find the positive abscissa of the point on the graph of \\(y=%s\\) whose ordinate is \\(%s\\).' % (ax2(a), fr(y)), vi='Tìm hoành độ dương của điểm thuộc đồ thị hàm số \\(y=%s\\) có tung độ bằng \\(%s\\).' % (ax2(a), fr(y)),
+                key=str(x), ee='\\(%s=%s\\Rightarrow x^2=%d\\Rightarrow x=\\pm%d\\); the positive one is \\(%d\\).' % (ax2(a), fr(y), x * x, x, x), ev='\\(%s=%s\\Rightarrow x^2=%d\\Rightarrow x=\\pm%d\\); hoành độ dương là \\(%d\\).' % (ax2(a), fr(y), x * x, x, x))
+
+def b18_d1_form(r, lv):
+    a = r.choice(AS); b = nz(r, -5, 5); v = r.choice(['x', 't', 'u', 'v', 'z'])
+    sq = lambda c: '%s%s^2' % ('' if c == 1 else '-' if c == -1 else fr(c), v)
+    good = 'y=%s' % sq(a); bads = ['y=%s' % lin((a, v), (b, '')), 'y=%s' % lin((a, v + '^3')), 'y=\\dfrac{%s}{%s^2}' % (fr(abs(a)), v)]
+    return dict(en='Which function of the variable \\(%s\\) has the form \\(y=a%s^2\\ (a\\ne0)\\)?' % (v, v), vi='Hàm số nào của biến \\(%s\\) có dạng \\(y=a%s^2\\ (a\\ne0)\\)?' % (v, v), opts=[good] + bads, ans=0,
+                ee='Only \\(%s\\) has this form, with \\(a=%s\\).' % (good, fr(a)), ev='Chỉ \\(%s\\) có dạng này, với \\(a=%s\\).' % (good, fr(a)))
+
+def b18_d1_vertex(r, lv):
+    a = r.choice(AS); k = r.choice(['vertex', 'axis'])
+    if k == 'vertex':
+        o = ['O(0;\\,0)', Pt(1, a), Pt(0, a), Pt(a, 0)]
+        if len(set(o)) < 4: raise AssertionError
+        return dict(en='What is the vertex of the parabola \\(y=%s\\)?' % ax2(a), vi='Đỉnh của parabol \\(y=%s\\) là điểm nào?' % ax2(a), opts=o, ans=0, ee='The graph of \\(y=ax^2\\) has vertex \\(O\\).', ev='Đồ thị hàm số \\(y=ax^2\\) có đỉnh là \\(O\\).')
+    o = [tx('the \\(y\\)-axis \\(Oy\\)', 'trục tung \\(Oy\\)'), tx('the \\(x\\)-axis \\(Ox\\)', 'trục hoành \\(Ox\\)'), tx('the line \\(y=x\\)', 'đường thẳng \\(y=x\\)'), tx('it has no axis of symmetry', 'không có trục đối xứng')]
+    return dict(en='What is the axis of symmetry of the parabola \\(y=%s\\)?' % ax2(a), vi='Trục đối xứng của parabol \\(y=%s\\) là gì?' % ax2(a), opts=o, ans=0, ee='The parabola is symmetric about \\(Oy\\).', ev='Parabol nhận \\(Oy\\) làm trục đối xứng.')
+
+def b18_d1_coef(r, lv):
+    a = r.choice(AS)
+    return dict(en='What is the coefficient \\(a\\) of the function \\(y=%s\\)?' % ax2(a), vi='Hệ số \\(a\\) của hàm số \\(y=%s\\) là bao nhiêu?' % ax2(a),
+                opts=pick_opts(r, fr(a), [fr(v) for v in (-a, 2 * a, 1 / a) if v != a]), ans=0, ee='\\(a=%s\\).' % fr(a), ev='\\(a=%s\\).' % fr(a))
+
+def b18_d2_table(r, lv):
+    a = r.choice(AS); xs = sorted(r.sample(range(-3, 4), 3)); ys = [a * x * x for x in xs]
+    good = '%s;\\ %s;\\ %s' % tuple(fr(y) for y in ys); bads = ['%s;\\ %s;\\ %s' % tuple(fr(a * x) for x in xs), '%s;\\ %s;\\ %s' % tuple(fr(-y) for y in ys), '%s;\\ %s;\\ %s' % tuple(fr((a * x) ** 2) for x in xs)]
+    if len({good, *bads}) < 4: raise AssertionError
+    return dict(en='For \\(y=%s\\), the values of \\(y\\) at \\(x=%d;\\ %d;\\ %d\\) are…' % ((ax2(a),) + tuple(xs)), vi='Với \\(y=%s\\), giá trị của \\(y\\) tại \\(x=%d;\\ %d;\\ %d\\) lần lượt là…' % ((ax2(a),) + tuple(xs)),
+                opts=[good] + bads, ans=0, ee='Compute \\(%s\\cdot x^2\\) for each \\(x\\).' % fr(a), ev='Tính \\(%s\\cdot x^2\\) với từng \\(x\\).' % fr(a))
+
+def b18_d2_cmp(r, lv):
+    a = r.choice(AS); x1, x2 = r.sample([x for x in range(-6, 7) if x], 2)
+    if abs(x1) == abs(x2): raise AssertionError
+    y1, y2 = a * x1 * x1, a * x2 * x2; s = '\\lt ' if y1 < y2 else '\\gt '; o = '\\gt ' if s == '\\lt ' else '\\lt '
+    return dict(en='For \\(y=%s\\), compare \\(y_1=y(%d)\\) and \\(y_2=y(%d)\\).' % (ax2(a), x1, x2), vi='Với \\(y=%s\\), so sánh \\(y_1=y(%d)\\) và \\(y_2=y(%d)\\).' % (ax2(a), x1, x2),
+                opts=['y_1%sy_2' % s, 'y_1%sy_2' % o, 'y_1=y_2', tx('cannot be compared', 'không so sánh được')], ans=0,
+                ee='\\(y_1=%s\\), \\(y_2=%s\\).' % (fr(y1), fr(y2)), ev='\\(y_1=%s\\), \\(y_2=%s\\).' % (fr(y1), fr(y2)))
+
+def b18_d2_sign(r, lv):
+    a = r.choice(AS); x0 = nz(r, -5, 5)
+    claim = r.choice(['up', 'down']); good = ('a\\gt 0' if a > 0 else 'a\\lt 0')
+    return dict(en='The parabola \\(y=ax^2\\) passes through \\(%s\\). Then…' % Pt(x0, a * x0 * x0), vi='Parabol \\(y=ax^2\\) đi qua điểm \\(%s\\). Khi đó…' % Pt(x0, a * x0 * x0),
+                opts=[good, 'a\\lt 0' if a > 0 else 'a\\gt 0', 'a=0', 'a=%s' % fr(-a)], ans=0,
+                ee='\\(a=%s\\).' % fr(a), ev='\\(a=%s\\).' % fr(a))
+
+def b18_d3_pts(r, lv):
+    a = r.choice([F(1, 2), F(1), F(2), F(-1), F(-2), F(-1, 2), F(1, 4), F(3)]); x = r.randint(1, 6); y = a * x * x
+    o = ['%s\\text{ and }%s' % (Pt(-x, y), Pt(x, y)), Pt(x, y), '%s\\text{ and }%s' % (Pt(x, y), Pt(x, -y)), '%s\\text{ and }%s' % (Pt(y, x), Pt(-y, x))]
+    o = [s.replace('\\text{ and }', ',\\ ') for s in o]
+    if len(set(o)) < 4: raise AssertionError
+    return dict(en='Find the points of the graph of \\(y=%s\\) whose ordinate is \\(%s\\).' % (ax2(a), fr(y)), vi='Tìm các điểm thuộc đồ thị hàm số \\(y=%s\\) có tung độ bằng \\(%s\\).' % (ax2(a), fr(y)),
+                opts=o, ans=0, ee='\\(x^2=%d\\Rightarrow x=\\pm%d\\); the two points are symmetric about \\(Oy\\).' % (x * x, x), ev='\\(x^2=%d\\Rightarrow x=\\pm%d\\); hai điểm đối xứng nhau qua \\(Oy\\).' % (x * x, x))
+
+def b18_d3_fall(r, lv):
+    t = r.choice([1, 2, 3, 4, 5, 6]); s = 4.9 * t * t
+    return dict(en='A stone falls a distance \\(s=4.9t^2\\) (m) after \\(t\\) seconds. How far has it fallen after %d s?' % t, vi='Một hòn đá rơi được quãng đường \\(s=4{,}9t^2\\) (m) sau \\(t\\) giây. Sau %d giây hòn đá rơi được bao nhiêu mét?' % t,
+                opts=_dec_opts(r, '%.1f' % s, ['%.1f' % (4.9 * t), '%.1f' % (9.8 * t), '%.1f' % (4.9 * (t + 1) ** 2)], 'm'), ans=0,
+                ee='\\(s=4.9\\cdot%d^2=%s\\) m.' % (t, '%.1f' % s), ev='\\(s=4{,}9\\cdot%d^2=%s\\) m.' % (t, ('%.1f' % s).replace('.', '{,}')))
+
+def b18_d3_arch(r, lv):
+    w, h = r.choice([(6, 4.5), (8, 4), (4, 4), (10, 5), (6, 3), (8, 8), (12, 9)]); a = -F(h).limit_denominator() / F(w // 2) ** 2
+    return dict(en='An arch has the shape of the parabola \\(y=ax^2\\) with its top at \\(O\\). Its base is %d m wide and it is %s m high. Find \\(a\\).' % (w, num(h)),
+                vi='Một cổng có dạng parabol \\(y=ax^2\\) với đỉnh cổng là gốc tọa độ \\(O\\). Chân cổng rộng %d m, cổng cao %s m. Tìm \\(a\\).' % (w, dm(num(h))),
+                opts=pick_opts(r, fr(a), [fr(v) for v in (-a, a * 2, F(h).limit_denominator() / w) if v != a]), ans=0,
+                ee='The foot of the arch is the point \\((%d;\\,-%s)\\): \\(-%s=a\\cdot%d^2\\Rightarrow a=%s\\).' % (w // 2, num(h), num(h), w // 2, fr(a)), ev='Chân cổng là điểm \\((%d;\\,-%s)\\): \\(-%s=a\\cdot%d^2\\Rightarrow a=%s\\).' % (w // 2, dm(num(h)), dm(num(h)), w // 2, fr(a)))
+
+def b18_d4_truck(r, lv):
+    w, h = r.choice([(6, 4.5), (8, 4), (10, 5), (8, 8), (12, 9), (6, 6)]); half = w / 2; a = -h / half ** 2
+    tw, th = r.choice([2, 2.4, 3]), r.choice([2.5, 3, 3.5, 4])
+    clear = h + a * (tw / 2) ** 2         # chiều cao cổng tại mép thùng xe
+    if abs(clear - th) < 0.05: raise AssertionError
+    ok = clear > th
+    o = [tx('yes', 'qua được'), tx('no', 'không qua được')] if ok else [tx('no', 'không qua được'), tx('yes', 'qua được')]
+    o += [tx('only if it drives on the edge of the road', 'chỉ qua được khi đi sát mép'), tx('it cannot be decided', 'không xác định được')]
+    return dict(en='A parabolic arch is %d m wide at the base and %s m high. A truck %s m wide and %s m high drives through the middle. Can it pass?' % (w, num(h), num(tw), num(th)),
+                vi='Một cổng hình parabol rộng %d m ở chân và cao %s m. Một xe tải rộng %s m, cao %s m đi vào chính giữa cổng. Xe có qua được không?' % (w, dm(num(h)), dm(num(tw)), dm(num(th))),
+                opts=o, ans=0, ee='With \\(y=ax^2\\), \\(a=-\\dfrac{%s}{%s^2}\\); at \\(x=%s\\) the arch is \\(%s+a\\cdot%s^2\\approx%s\\) m above the ground, %s %s m.' % (num(h), num(half), num(tw / 2), num(h), num(tw / 2), '%.2f' % clear, 'more than' if ok else 'less than', num(th)),
+                ev='Với \\(y=ax^2\\), \\(a=-\\dfrac{%s}{%s^2}\\); tại \\(x=%s\\) cổng cao \\(%s+a\\cdot%s^2\\approx%s\\) m so với mặt đất, %s %s m.' % (dm(num(h)), dm(num(half)), dm(num(tw / 2)), dm(num(h)), dm(num(tw / 2)), ('%.2f' % clear).replace('.', '{,}'), 'lớn hơn' if ok else 'nhỏ hơn', dm(num(th))))
+
+def b18_d4_cube(r, lv):
+    a = r.randint(2, 12); S = 6 * a * a
+    return dict(en='The total surface area of a cube is \\(S=6a^2\\) (cm²), where \\(a\\) is its edge. Find the edge of a cube with \\(S=%d\\) cm².' % S, vi='Diện tích toàn phần của hình lập phương cạnh \\(a\\) là \\(S=6a^2\\) (cm²). Tìm cạnh của hình lập phương có \\(S=%d\\) cm².' % S,
+                opts=pick_opts(r, '%d\\text{ cm}' % a, ['%d\\text{ cm}' % v for v in (a * a, S // 6, 2 * a, a + 1) if v != a]), ans=0,
+                ee='\\(6a^2=%d\\Rightarrow a^2=%d\\Rightarrow a=%d\\).' % (S, a * a, a), ev='\\(6a^2=%d\\Rightarrow a^2=%d\\Rightarrow a=%d\\).' % (S, a * a, a))
+
+def b18_d4_scale(r, lv):
+    k = r.choice([2, 3, 4, 5]); what = r.choice(['circle', 'prism'])
+    en = {'circle': 'The area of a circle is \\(S=\\pi r^2\\). If the radius is multiplied by %d, the area is multiplied by…' % k, 'prism': 'A prism on a square base of side \\(a\\) has volume \\(V=10a^2\\). If \\(a\\) is multiplied by %d, \\(V\\) is multiplied by…' % k}[what]
+    vi = {'circle': 'Diện tích hình tròn là \\(S=\\pi r^2\\). Nếu bán kính tăng %d lần thì diện tích tăng…' % k, 'prism': 'Hình lăng trụ đáy hình vuông cạnh \\(a\\) có thể tích \\(V=10a^2\\). Nếu \\(a\\) tăng %d lần thì \\(V\\) tăng…' % k}[what]
+    return dict(en=en, vi=vi, opts=pick_opts(r, str(k * k), [str(v) for v in (k, 2 * k, k ** 3) if v != k * k]), ans=0,
+                ee='The quantity is proportional to the square: \\(%d^2=%d\\).' % (k, k * k), ev='Đại lượng tỉ lệ với bình phương: \\(%d^2=%d\\).' % (k, k * k))
+
+L18_GROUPS = [[('mcq', b18_val), ('mcq', b18_finda), ('mcq', b18_onpt)], [('tf', b18_tf_side), ('tf', b18_tf_sym)], [('short', b18_short_a), ('short', b18_short_x)],
+              [('mcq', b18_d1_form), ('mcq', b18_d1_vertex), ('mcq', b18_d1_coef)], [('mcq', b18_d2_table), ('mcq', b18_d2_cmp), ('mcq', b18_d2_sign)],
+              [('mcq', b18_d3_pts), ('mcq', b18_d3_fall), ('mcq', b18_d3_arch)], [('mcq', b18_d4_truck), ('mcq', b18_d4_cube), ('mcq', b18_d4_scale)]]
+
+# =====================================================================================================
+# BÀI 19. Phương trình bậc hai một ẩn
+# =====================================================================================================
+def quad(a, b, c, v='x'):
+    return lin((a, v + '^2'), (b, v), (c, ''))
+def _roots_int(r, lo=-9, hi=9, a_choices=(1, 1, 1, 2, -1, 3)):
+    a = r.choice(a_choices); x1, x2 = r.randint(lo, hi), r.randint(lo, hi)
+    return a, -a * (x1 + x2), a * x1 * x2, x1, x2
+def Sset(*xs):
+    xs = sorted(set(F(x) for x in xs))
+    return 'S=\\{%s\\}' % ';\\ '.join(fr(x) for x in xs) if xs else 'S=\\varnothing'
+
+def b19_coef(r, lv):
+    a, b, c = nz(r, -6, 6), r.randint(-9, 9), r.randint(-9, 9)
+    # dạng chưa thu gọn: a x^2 + b x = -c + p x ... đưa về: thêm cùng p x vào hai vế
+    p = nz(r, -5, 5)
+    left = lin((a, 'x^2'), (b + p, 'x')); right = lin((p, 'x'), (-c, ''))
+    good = 'a=%d,\\ b=%d,\\ c=%d' % (a, b, c); bads = ['a=%d,\\ b=%d,\\ c=%d' % (a, b + p, -c), 'a=%d,\\ b=%d,\\ c=%d' % (a, b, -c), 'a=%d,\\ b=%d,\\ c=%d' % (-a, -b, -c)]
+    if len({good, *bads}) < 4: raise AssertionError
+    return dict(en='Write \\(%s=%s\\) in the form \\(ax^2+bx+c=0\\). Its coefficients are…' % (left, right), vi='Đưa phương trình \\(%s=%s\\) về dạng \\(ax^2+bx+c=0\\). Các hệ số là…' % (left, right),
+                opts=[good] + bads, ans=0, ee='Move every term to the left: \\(%s=0\\).' % quad(a, b, c), ev='Chuyển mọi hạng tử sang vế trái: \\(%s=0\\).' % quad(a, b, c))
+
+def b19_delta(r, lv):
+    a, b, c = nz(r, -6, 6), r.randint(-9, 9), r.randint(-9, 9); D = b * b - 4 * a * c
+    return dict(en='Compute the discriminant \\(\\Delta\\) of \\(%s=0\\).' % quad(a, b, c), vi='Tính biệt thức \\(\\Delta\\) của phương trình \\(%s=0\\).' % quad(a, b, c),
+                opts=pick_opts(r, str(D), [str(v) for v in (b * b + 4 * a * c, b * b - 2 * a * c, -b * b - 4 * a * c) if v != D], fill=lambda k: str(D + 4 * k)), ans=0,
+                ee='\\(\\Delta=b^2-4ac=(%d)^2-4\\cdot(%d)\\cdot(%d)=%d\\).' % (b, a, c, D), ev='\\(\\Delta=b^2-4ac=(%d)^2-4\\cdot(%d)\\cdot(%d)=%d\\).' % (b, a, c, D))
+
+def b19_count(r, lv):
+    a, b, c = nz(r, -5, 5), r.randint(-9, 9), r.randint(-9, 9)
+    if r.random() < 0.3:      # nghiệm kép
+        m = nz(r, -6, 6); k = r.choice([1, 2, 3, 4]); a, b, c = k * k, -2 * k * m, m * m
+    D = b * b - 4 * a * c; n = 2 if D > 0 else 1 if D == 0 else 0
+    o = [tx('two distinct roots', 'hai nghiệm phân biệt'), tx('a double root', 'nghiệm kép'), tx('no real roots', 'vô nghiệm'), tx('infinitely many roots', 'vô số nghiệm')]
+    good = {2: 0, 1: 1, 0: 2}[n]; o = [o[good]] + [o[i] for i in range(4) if i != good]
+    return dict(en='Without solving, how many roots does \\(%s=0\\) have?' % quad(a, b, c), vi='Không giải phương trình, cho biết \\(%s=0\\) có bao nhiêu nghiệm.' % quad(a, b, c),
+                opts=o, ans=0, ee='\\(\\Delta=%d\\).' % D, ev='\\(\\Delta=%d\\).' % D)
+
+def b19_tf_root(r, lv):
+    a, b, c, x1, x2 = _roots_int(r); truth = r.random() < 0.5; t = x1 if truth else r.choice([v for v in range(-9, 10) if v not in (x1, x2)])
+    return dict(en='\\(x=%d\\) is a root of \\(%s=0\\).' % (t, quad(a, b, c)), vi='\\(x=%d\\) là một nghiệm của phương trình \\(%s=0\\).' % (t, quad(a, b, c)), ans=truth,
+                ee='Substitute: \\(%s\\cdot(%d)^2%s\\cdot(%d)%s=%d\\).' % (a, t, mono(b, '', False) or '+0', t, mono(c, '', False) if c else '+0', a * t * t + b * t + c),
+                ev='Thay vào: \\(%s\\cdot(%d)^2%s\\cdot(%d)%s=%d\\).' % (a, t, mono(b, '', False) or '+0', t, mono(c, '', False) if c else '+0', a * t * t + b * t + c))
+
+def b19_tf_neg(r, lv):
+    a, b, c = nz(r, -6, 6), r.randint(-9, 9), r.randint(-9, 9); D = b * b - 4 * a * c; claim = r.choice(['two', 'none'])
+    truth = (D > 0) if claim == 'two' else (D < 0)
+    return dict(en='The equation \\(%s=0\\) has %s.' % (quad(a, b, c), 'two distinct roots' if claim == 'two' else 'no real roots'), vi='Phương trình \\(%s=0\\) %s.' % (quad(a, b, c), 'có hai nghiệm phân biệt' if claim == 'two' else 'vô nghiệm'),
+                ans=truth, ee='\\(\\Delta=%d\\).' % D, ev='\\(\\Delta=%d\\).' % D)
+
+def b19_short_inc(r, lv):
+    a = r.choice([1, 2, 3, 4, 5, -1, -2]); x = r.randint(1, 9); c = -a * x * x
+    return dict(en='Find the positive root of \\(%s=0\\).' % quad(a, 0, c), vi='Tìm nghiệm dương của phương trình \\(%s=0\\).' % quad(a, 0, c), key=str(x),
+                ee='\\(x^2=%d\\Rightarrow x=\\pm%d\\).' % (x * x, x), ev='\\(x^2=%d\\Rightarrow x=\\pm%d\\).' % (x * x, x))
+
+def b19_short_big(r, lv):
+    a, b, c, x1, x2 = _roots_int(r)
+    if x1 == x2: raise AssertionError
+    return dict(en='Find the larger root of \\(%s=0\\).' % quad(a, b, c), vi='Tìm nghiệm lớn hơn của phương trình \\(%s=0\\).' % quad(a, b, c), key=str(max(x1, x2)), hint=('Enter an integer.', 'Nhập một số nguyên.'),
+                ee='\\(\\Delta=%d\\), \\(x_{1,2}=\\dfrac{%d\\pm%d}{%d}\\): roots \\(%d\\) and \\(%d\\).' % (b * b - 4 * a * c, -b, math.isqrt(b * b - 4 * a * c), 2 * a, min(x1, x2), max(x1, x2)),
+                ev='\\(\\Delta=%d\\), \\(x_{1,2}=\\dfrac{%d\\pm%d}{%d}\\): hai nghiệm \\(%d\\) và \\(%d\\).' % (b * b - 4 * a * c, -b, math.isqrt(b * b - 4 * a * c), 2 * a, min(x1, x2), max(x1, x2)))
+
+def b19_d1_which(r, lv):
+    a, b, c = nz(r, -5, 5), r.randint(-9, 9), r.randint(-9, 9); v = r.choice(['x', 't', 'y', 'z'])
+    good = '%s=0' % quad(a, b, c, v); bads = ['%s=0' % lin((b if b else 1, v), (c, '')), '%s=0' % lin((a, v + '^3'), (b, v)), '\\dfrac{%s}{%s}=0' % (quad(a, b, c, v), v)]
+    return dict(en='Which of these is a quadratic equation in the unknown \\(%s\\)?' % v, vi='Phương trình nào là phương trình bậc hai một ẩn \\(%s\\)?' % v, opts=[good] + bads, ans=0,
+                ee='It has the form \\(a%s^2+b%s+c=0\\) with \\(a=%d\\ne0\\).' % (v, v, a), ev='Có dạng \\(a%s^2+b%s+c=0\\) với \\(a=%d\\ne0\\).' % (v, v, a))
+
+def b19_d1_formula(r, lv):
+    k = r.choice(['D', 'Dp', 'x']); a, b, c = nz(r, -5, 5), 2 * nz(r, -5, 5), r.randint(-9, 9)
+    if k == 'D':
+        o = ['b^2-4ac', 'b^2+4ac', 'b^2-2ac', '4ac-b^2']; en = vi = None
+        return dict(en='For \\(%s=0\\), the discriminant is \\(\\Delta=\\)…' % quad(a, b, c), vi='Với phương trình \\(%s=0\\), biệt thức \\(\\Delta=\\)…' % quad(a, b, c), opts=o, ans=0, ee='\\(\\Delta=b^2-4ac\\).', ev='\\(\\Delta=b^2-4ac\\).')
+    if k == 'Dp':
+        o = ["b'^2-ac", "b'^2-4ac", "b^2-ac", "b'^2+ac"]
+        return dict(en='For \\(%s=0\\) with \\(b=2b\'\\), the reduced discriminant is \\(\\Delta\'=\\)…' % quad(a, b, c), vi='Với phương trình \\(%s=0\\), \\(b=2b\'\\), biệt thức thu gọn \\(\\Delta\'=\\)…' % quad(a, b, c), opts=o, ans=0, ee="\\(\\Delta'=b'^2-ac\\).", ev="\\(\\Delta'=b'^2-ac\\).")
+    o = ['\\dfrac{-b\\pm\\sqrt\\Delta}{2a}', '\\dfrac{b\\pm\\sqrt\\Delta}{2a}', '\\dfrac{-b\\pm\\sqrt\\Delta}{a}', '\\dfrac{-b\\pm\\Delta}{2a}']
+    return dict(en='If \\(\\Delta\\gt0\\), the roots of \\(%s=0\\) are \\(x_{1,2}=\\)…' % quad(a, b, c), vi='Nếu \\(\\Delta\\gt0\\), phương trình \\(%s=0\\) có hai nghiệm \\(x_{1,2}=\\)…' % quad(a, b, c), opts=o, ans=0,
+                ee='Quadratic formula.', ev='Công thức nghiệm.')
+
+def b19_d1_abc(r, lv):
+    a, b, c = nz(r, -7, 7), r.randint(-9, 9), r.randint(-9, 9)
+    good = 'a=%d,\\ b=%d,\\ c=%d' % (a, b, c); bads = ['a=%d,\\ b=%d,\\ c=%d' % (b, a, c), 'a=%d,\\ b=%d,\\ c=%d' % (a, c, b), 'a=%d,\\ b=%d,\\ c=%d' % (a, -b, -c)]
+    if len({good, *bads}) < 4: raise AssertionError
+    return dict(en='State the coefficients of \\(%s=0\\).' % quad(a, b, c), vi='Xác định các hệ số của phương trình \\(%s=0\\).' % quad(a, b, c), opts=[good] + bads, ans=0,
+                ee='\\(a\\) goes with \\(x^2\\), \\(b\\) with \\(x\\), \\(c\\) is the constant term.', ev='\\(a\\) là hệ số của \\(x^2\\), \\(b\\) là hệ số của \\(x\\), \\(c\\) là hệ số tự do.')
+
+def b19_d2_bx(r, lv):
+    a, b = nz(r, -6, 6), nz(r, -12, 12); x2 = F(-b, a)
+    return dict(en='Solve \\(%s=0\\).' % quad(a, b, 0), vi='Giải phương trình \\(%s=0\\).' % quad(a, b, 0),
+                opts=[Sset(0, x2), Sset(x2), Sset(0, -x2), Sset(0)], ans=0, ee='\\(x\\left(%s\\right)=0\\Rightarrow x=0\\) or \\(x=%s\\).' % (lin((a, 'x'), (b, '')), fr(x2)), ev='\\(x\\left(%s\\right)=0\\Rightarrow x=0\\) hoặc \\(x=%s\\).' % (lin((a, 'x'), (b, '')), fr(x2)))
+
+def b19_d2_red(r, lv):
+    while True:
+        a = r.choice([1, 1, 2, 3, -1]); bp = nz(r, -8, 8); c = r.randint(-12, 12); Dp = bp * bp - a * c
+        if Dp > 0 and math.isqrt(Dp) ** 2 == Dp: break
+    s = math.isqrt(Dp); x1, x2 = F(-bp - s, a), F(-bp + s, a)
+    return dict(en='Use the reduced discriminant to solve \\(%s=0\\).' % quad(a, 2 * bp, c), vi='Dùng công thức nghiệm thu gọn giải phương trình \\(%s=0\\).' % quad(a, 2 * bp, c),
+                opts=[Sset(x1, x2), Sset(-x1, -x2), Sset(F(-2 * bp - s, a), F(-2 * bp + s, a)) if Sset(F(-2 * bp - s, a), F(-2 * bp + s, a)) != Sset(x1, x2) else Sset(x1 + 1, x2 + 1), Sset(F(-bp - s, 2 * a), F(-bp + s, 2 * a))], ans=0,
+                ee="\\(b'=%d\\), \\(\\Delta'=%d\\), \\(x_{1,2}=\\dfrac{%d\\pm%d}{%d}\\)." % (bp, Dp, -bp, s, a), ev="\\(b'=%d\\), \\(\\Delta'=%d\\), \\(x_{1,2}=\\dfrac{%d\\pm%d}{%d}\\)." % (bp, Dp, -bp, s, a))
+
+def b19_d2_double(r, lv):
+    k, m = r.choice([1, 2, 3]), nz(r, -7, 7); a, b, c = k * k, 2 * k * m, m * m; x = F(-m, k)
+    return dict(en='Solve \\(%s=0\\).' % quad(a, b, c), vi='Giải phương trình \\(%s=0\\).' % quad(a, b, c), opts=[Sset(x), Sset(-x), Sset(x, -x), 'S=\\varnothing'], ans=0,
+                ee='\\(\\Delta=0\\): double root \\(x=%s\\).' % fr(x), ev='\\(\\Delta=0\\): nghiệm kép \\(x=%s\\).' % fr(x))
+
+def b19_d3_calc(r, lv):
+    while True:
+        a, b, c = r.choice([0.1, 0.2, 0.5, 1.2, 1.5, 2.5]), r.choice([-3.5, -2.5, -1.2, 0.8, 1.5, 2.5, 3.1]), r.choice([-2.4, -1.5, -0.6, 0.3, 0.75])
+        D = b * b - 4 * a * c
+        if D <= 0: continue
+        x1, x2 = sorted([(-b - math.sqrt(D)) / (2 * a), (-b + math.sqrt(D)) / (2 * a)])
+        if all(abs(v * 100 - math.floor(v * 100) - 0.5) > 0.02 for v in (x1, x2)): break
+    f = lambda v: '%.2f' % v
+    good = '%s;\\ %s' % (f(x1), f(x2)); bads = ['%s;\\ %s' % (f(-x2), f(-x1)), '%s;\\ %s' % (f(x1 * 2), f(x2 * 2)), '%s;\\ %s' % (f(x1 / 2), f(x2 / 2))]
+    if len({good, *bads}) < 4: raise AssertionError
+    ex = lambda s: tx('\\(x_1\\approx %s\\)' % s.replace(';\\ ', ',\\ x_2\\approx '), '\\(x_1\\approx %s\\)' % s.replace(';\\ ', ',\\ x_2\\approx ').replace('.', '{,}'))
+    eqs = quad(F(a).limit_denominator(), F(b).limit_denominator(), F(c).limit_denominator())
+    eqen = '%s x^2 %s x %s' % (num(a), ('+ ' + num(b)) if b > 0 else ('- ' + num(-b)), ('+ ' + num(c)) if c > 0 else ('- ' + num(-c)))
+    eqen = eqen.replace(' ', '')
+    return dict(en='Use a calculator to solve \\(%s=0\\) (roots rounded to two decimal places, \\(x_1\\lt x_2\\)).' % eqen, vi='Dùng máy tính cầm tay giải phương trình \\(%s=0\\) (làm tròn nghiệm đến chữ số thập phân thứ hai, \\(x_1\\lt x_2\\)).' % dm(eqen),
+                opts=[ex(good)] + [ex(b_) for b_ in bads], ans=0, ee='\\(\\Delta=%s\\gt0\\); the calculator gives \\(x_1\\approx%s\\), \\(x_2\\approx%s\\).' % ('%.4g' % D, f(x1), f(x2)),
+                ev='\\(\\Delta=%s\\gt0\\); máy tính cho \\(x_1\\approx%s\\), \\(x_2\\approx%s\\).' % (dm('%.4g' % D), dm(f(x1)), dm(f(x2))))
+
+def b19_d3_sq(r, lv):
+    p, q, s = r.choice([1, 2, 3]), r.randint(-6, 6), r.choice([1, 4, 9, 16, 25])
+    rt = math.isqrt(s); x1, x2 = F(-q - rt, p), F(-q + rt, p)
+    return dict(en='Solve \\(\\left(%s\\right)^2=%d\\).' % (lin((p, 'x'), (q, '')), s), vi='Giải phương trình \\(\\left(%s\\right)^2=%d\\).' % (lin((p, 'x'), (q, '')), s),
+                opts=[Sset(x1, x2), Sset(x2), Sset(F(-q - s, p), F(-q + s, p)), Sset(-x1, -x2) if Sset(-x1, -x2) != Sset(x1, x2) else 'S=\\varnothing'], ans=0,
+                ee='\\(%s=\\pm%d\\).' % (lin((p, 'x'), (q, '')), rt), ev='\\(%s=\\pm%d\\).' % (lin((p, 'x'), (q, '')), rt))
+
+def b19_d3_m(r, lv):
+    b, c = 2 * nz(r, -6, 6), None; m = F(b * b, 4)
+    kind = r.choice(['double', 'two', 'none'])
+    q = {'double': 'm=%s' % fr(m), 'two': 'm\\lt %s' % fr(m), 'none': 'm\\gt %s' % fr(m)}
+    o = [q[kind]] + [q[k] for k in q if k != kind] + ['m=%s' % fr(-m)]
+    return dict(en='For which \\(m\\) does \\(x^2%sx+m=0\\) have %s?' % (mono(b, '', False), {'double': 'a double root', 'two': 'two distinct roots', 'none': 'no real roots'}[kind]),
+                vi='Với giá trị nào của \\(m\\) thì phương trình \\(x^2%sx+m=0\\) %s?' % (mono(b, '', False), {'double': 'có nghiệm kép', 'two': 'có hai nghiệm phân biệt', 'none': 'vô nghiệm'}[kind]),
+                opts=o, ans=0, ee='\\(\\Delta=%d-4m\\); compare it with 0.' % (b * b), ev='\\(\\Delta=%d-4m\\); so sánh với 0.' % (b * b))
+
+def b19_d4_garden(r, lv):
+    w, k = r.randint(5, 25), r.randint(2, 10); L = w + k; S = w * L
+    return dict(en='A rectangular garden has area %d m², and its width is %d m shorter than its length. Find its length.' % (S, k), vi='Một mảnh vườn hình chữ nhật có diện tích %d m², chiều rộng ngắn hơn chiều dài %d m. Tính chiều dài mảnh vườn.' % (S, k),
+                opts=pick_opts(r, '%d\\text{ m}' % L, ['%d\\text{ m}' % v for v in (w, L + k, S // k if S % k == 0 and S // k != L else L + 1) if v != L]), ans=0,
+                ee='\\(x(x-%d)=%d\\Leftrightarrow x^2-%dx-%d=0\\Rightarrow x=%d\\) (the negative root is rejected).' % (k, S, k, S, L), ev='\\(x(x-%d)=%d\\Leftrightarrow x^2-%dx-%d=0\\Rightarrow x=%d\\) (loại nghiệm âm).' % (k, S, k, S, L))
+
+def b19_d4_path(r, lv):
+    x = r.randint(1, 4); Lp, Wp = r.randint(10, 24), r.randint(6, 14); L, W = Lp + 2 * x, Wp + 2 * x; A = Lp * Wp
+    return dict(en='A rectangular plot %d m by %d m contains a pool with a path of constant width \\(x\\) m all around it. The pool has area %d m². Find \\(x\\).' % (L, W, A),
+                vi='Một khu đất hình chữ nhật %d m × %d m có một bể bơi ở giữa, xung quanh là lối đi rộng đều \\(x\\) m. Diện tích bể bơi là %d m². Tìm \\(x\\).' % (L, W, A),
+                opts=pick_opts(r, '%d\\text{ m}' % x, ['%d\\text{ m}' % v for v in (2 * x, x + 1, (L + W) // 2 - x if (L + W) // 2 - x != x else 9) if v != x]), ans=0,
+                ee='\\((%d-2x)(%d-2x)=%d\\); the root that keeps \\(%d-2x\\gt0\\) is \\(x=%d\\).' % (L, W, A, W, x), ev='\\((%d-2x)(%d-2x)=%d\\); nghiệm thỏa mãn \\(%d-2x\\gt0\\) là \\(x=%d\\).' % (L, W, A, W, x))
+
+def b19_d4_ac(r, lv):
+    a, c = nz(r, -9, 9), nz(r, -9, 9); b = r.randint(-9, 9)
+    if a * c >= 0: c = -c if c else -1
+    o = [tx('two distinct roots', 'hai nghiệm phân biệt'), tx('no real roots', 'vô nghiệm'), tx('a double root', 'nghiệm kép'), tx('it depends on \\(b\\)', 'tùy thuộc vào \\(b\\)')]
+    return dict(en='Without computing, how many roots does \\(%s=0\\) have? (Look at the signs of \\(a\\) and \\(c\\).)' % quad(a, b, c), vi='Không tính toán, phương trình \\(%s=0\\) có bao nhiêu nghiệm? (Xét dấu của \\(a\\) và \\(c\\).)' % quad(a, b, c),
+                opts=o, ans=0, ee='\\(ac=%d\\lt0\\), so \\(\\Delta=b^2-4ac\\gt0\\).' % (a * c), ev='\\(ac=%d\\lt0\\) nên \\(\\Delta=b^2-4ac\\gt0\\).' % (a * c))
+
+L19_GROUPS = [[('mcq', b19_coef), ('mcq', b19_delta), ('mcq', b19_count)], [('tf', b19_tf_root), ('tf', b19_tf_neg)], [('short', b19_short_inc), ('short', b19_short_big)],
+              [('mcq', b19_d1_which), ('mcq', b19_d1_formula), ('mcq', b19_d1_abc)], [('mcq', b19_d2_bx), ('mcq', b19_d2_red), ('mcq', b19_d2_double)],
+              [('mcq', b19_d3_calc), ('mcq', b19_d3_sq), ('mcq', b19_d3_m)], [('mcq', b19_d4_garden), ('mcq', b19_d4_path), ('mcq', b19_d4_ac)]]
+
+# =====================================================================================================
+# BÀI 20. Định lí Viète và ứng dụng
+# =====================================================================================================
+def _vq(r):
+    """Phương trình bậc hai có Δ ≥ 0, hệ số nguyên (nghiệm có thể vô tỉ)."""
+    while True:
+        a, b, c = nz(r, -6, 6), r.randint(-12, 12), r.randint(-12, 12)
+        if b * b - 4 * a * c >= 0 and c != 0: return a, b, c
+
+def b20_sum(r, lv):
+    a, b, c = _vq(r); S = F(-b, a); P = F(c, a); which = r.choice(['sum', 'prod'])
+    good = S if which == 'sum' else P; bads = [F(b, a), F(-c, a), P if which == 'sum' else S]
+    return dict(en='Without solving, find the %s of the roots of \\(%s=0\\).' % ('sum' if which == 'sum' else 'product', quad(a, b, c)),
+                vi='Không giải phương trình, tính %s các nghiệm của phương trình \\(%s=0\\).' % ('tổng' if which == 'sum' else 'tích', quad(a, b, c)),
+                opts=pick_opts(r, fr(good), [fr(v) for v in bads if v != good], fill=lambda k: fr(good + k)), ans=0,
+                ee='\\(\\Delta=%d\\ge0\\); \\(x_1+x_2=-\\dfrac ba=%s\\), \\(x_1x_2=\\dfrac ca=%s\\).' % (b * b - 4 * a * c, fr(S), fr(P)), ev='\\(\\Delta=%d\\ge0\\); \\(x_1+x_2=-\\dfrac ba=%s\\), \\(x_1x_2=\\dfrac ca=%s\\).' % (b * b - 4 * a * c, fr(S), fr(P)))
+
+def b20_insp(r, lv):
+    while True:
+        a, c = nz(r, -8, 8), nz(r, -12, 12); typ = r.choice(['plus', 'minus'])
+        b = -(a + c) if typ == 'plus' else a + c
+        if c != a and b != 0: break
+    x1, x2 = (1, F(c, a)) if typ == 'plus' else (-1, F(-c, a))
+    return dict(en='Solve by inspection: \\(%s=0\\).' % quad(a, b, c), vi='Nhẩm nghiệm phương trình \\(%s=0\\).' % quad(a, b, c),
+                opts=[Sset(x1, x2), Sset(-x1, -x2), Sset(x1, -x2), Sset(x1, 1 / x2 if x2 else 2)] if len({Sset(x1, x2), Sset(-x1, -x2), Sset(x1, -x2), Sset(x1, 1 / x2 if x2 else 2)}) == 4 else [Sset(x1, x2), Sset(-x1, -x2), Sset(x1, -x2), Sset(x1, x2 + 1)], ans=0,
+                ee='\\(a%sb+c=%d%s%d%s=0\\), so \\(x_1=%d\\), \\(x_2=%s\\).' % ('+' if typ == 'plus' else '-', a, mono(b if typ == 'plus' else -b, '', False), 0, mono(c, '', False), x1, fr(x2)) if False else
+                   ('\\(a%sb+c=0\\), so \\(x_1=%d\\), \\(x_2=%s\\).' % ('+' if typ == 'plus' else '-', x1, fr(x2))),
+                ev='\\(a%sb+c=0\\) nên \\(x_1=%d\\), \\(x_2=%s\\).' % ('+' if typ == 'plus' else '-', x1, fr(x2)))
+
+def b20_two(r, lv):
+    u, v = r.sample(range(-12, 15), 2); S, P = u + v, u * v
+    return dict(en='Find two numbers whose sum is \\(%d\\) and whose product is \\(%d\\).' % (S, P), vi='Tìm hai số có tổng bằng \\(%d\\) và tích bằng \\(%d\\).' % (S, P),
+                opts=pick_opts(r, '%s\\text{ and }%s' % tuple(map(str, sorted((u, v)))), ['%s\\text{ and }%s' % tuple(map(str, sorted(p))) for p in ((-u, -v), (u + 1, v - 1), (u - 1, v + 1)) if sorted(p) != sorted((u, v))]), ans=0,
+                ee='They are the roots of \\(x^2%sx%s=0\\): \\(%d\\) and \\(%d\\).' % (mono(-S, '', False) if S else '', mono(P, '', False) if P else '', min(u, v), max(u, v)),
+                ev='Hai số là nghiệm của \\(x^2%sx%s=0\\): \\(%d\\) và \\(%d\\).' % (mono(-S, '', False) if S else '', mono(P, '', False) if P else '', min(u, v), max(u, v)))
+
+def b20_tf_sum(r, lv):
+    a, b, c = _vq(r); which = r.choice(['sum', 'prod']); truth = r.random() < 0.5
+    real = F(-b, a) if which == 'sum' else F(c, a); shown = real if truth else (F(b, a) if which == 'sum' else F(-c, a))
+    if shown == real: truth = True
+    return dict(en='The %s of the roots of \\(%s=0\\) is \\(%s\\).' % ('sum' if which == 'sum' else 'product', quad(a, b, c), fr(shown)), vi='%s các nghiệm của phương trình \\(%s=0\\) bằng \\(%s\\).' % ('Tổng' if which == 'sum' else 'Tích', quad(a, b, c), fr(shown)),
+                ans=truth, ee='\\(\\Delta\\ge0\\) and the %s is \\(%s\\).' % ('sum' if which == 'sum' else 'product', fr(real)), ev='\\(\\Delta\\ge0\\) và %s bằng \\(%s\\).' % ('tổng' if which == 'sum' else 'tích', fr(real)))
+
+def b20_tf_noroot(r, lv):
+    while True:
+        a, b, c = nz(r, 1, 5), r.randint(-4, 4), r.randint(3, 12)
+        if b * b - 4 * a * c < 0 and b != 0: break
+    return dict(en='Without solving, the sum of the roots of \\(%s=0\\) is \\(%s\\).' % (quad(a, b, c), fr(F(-b, a))), vi='Không giải phương trình, ta có tổng các nghiệm của \\(%s=0\\) bằng \\(%s\\).' % (quad(a, b, c), fr(F(-b, a))), ans=False,
+                ee='\\(\\Delta=%d\\lt0\\): the equation has no real roots, so Viète\'s theorem cannot be used.' % (b * b - 4 * a * c), ev='\\(\\Delta=%d\\lt0\\): phương trình vô nghiệm nên không áp dụng định lí Viète.' % (b * b - 4 * a * c))
+
+def b20_short_sq(r, lv):
+    a, b, c = r.choice([1, 1, 1, 2]), r.randint(-10, 10), r.randint(-12, 12)
+    if b * b - 4 * a * c < 0 or (F(-b, a) ** 2 - 2 * F(c, a)).denominator != 1: raise AssertionError
+    S, P = F(-b, a), F(c, a); key = S * S - 2 * P
+    return dict(en='\\(x_1\\), \\(x_2\\) are the roots of \\(%s=0\\). Compute \\(x_1^2+x_2^2\\).' % quad(a, b, c), vi='Gọi \\(x_1\\), \\(x_2\\) là hai nghiệm của phương trình \\(%s=0\\). Tính \\(x_1^2+x_2^2\\).' % quad(a, b, c),
+                key=fr(key), ee='\\(x_1^2+x_2^2=(x_1+x_2)^2-2x_1x_2=%s^2-2\\cdot(%s)=%s\\).' % (fr(S) if S >= 0 else '(%s)' % fr(S), fr(P), fr(key)), ev='\\(x_1^2+x_2^2=(x_1+x_2)^2-2x_1x_2=%s^2-2\\cdot(%s)=%s\\).' % (fr(S) if S >= 0 else '(%s)' % fr(S), fr(P), fr(key)))
+
+def b20_short_other(r, lv):
+    a, b, c, x1, x2 = _roots_int(r, -9, 9, (1, 1, 2, 3, -1))
+    return dict(en='\\(%s=0\\) has the root \\(x_1=%d\\). Find the other root \\(x_2\\).' % (quad(a, b, c), x1), vi='Phương trình \\(%s=0\\) có một nghiệm \\(x_1=%d\\). Tìm nghiệm còn lại \\(x_2\\).' % (quad(a, b, c), x1),
+                key=str(x2), hint=('Enter an integer.', 'Nhập một số nguyên.'), ee='\\(x_1+x_2=%s\\Rightarrow x_2=%d\\).' % (fr(F(-b, a)), x2), ev='\\(x_1+x_2=%s\\Rightarrow x_2=%d\\).' % (fr(F(-b, a)), x2))
+
+def b20_d1_thm(r, lv):
+    k = r.choice(['sum', 'prod']); a, b, c = _vq(r)
+    o = ['-\\dfrac ba', '\\dfrac ba', '\\dfrac ca', '-\\dfrac ca'] if k == 'sum' else ['\\dfrac ca', '-\\dfrac ca', '-\\dfrac ba', '\\dfrac ab']
+    return dict(en='If \\(%s=0\\) has roots \\(x_1\\), \\(x_2\\), then \\(%s=\\)… (in terms of \\(a\\), \\(b\\), \\(c\\))' % (quad(a, b, c), 'x_1+x_2' if k == 'sum' else 'x_1x_2'),
+                vi='Nếu phương trình \\(%s=0\\) có hai nghiệm \\(x_1\\), \\(x_2\\) thì \\(%s=\\)… (theo \\(a\\), \\(b\\), \\(c\\))' % (quad(a, b, c), 'x_1+x_2' if k == 'sum' else 'x_1x_2'), opts=o, ans=0,
+                ee="Viète's theorem: \\(x_1+x_2=-\\dfrac ba\\), \\(x_1x_2=\\dfrac ca\\).", ev='Định lí Viète: \\(x_1+x_2=-\\dfrac ba\\), \\(x_1x_2=\\dfrac ca\\).')
+
+def b20_d1_prod(r, lv):
+    q = b20_sum(r, lv); return q
+
+def b20_d1_cond(r, lv):
+    a, b, c = nz(r, -6, 6), r.randint(-9, 9), r.randint(-9, 9)
+    o = ['\\Delta\\ge0', '\\Delta\\lt0', 'a\\gt0', 'c\\ne0']
+    return dict(en="Viète's theorem can be applied to \\(%s=0\\) only when…" % quad(a, b, c), vi='Chỉ áp dụng được định lí Viète cho phương trình \\(%s=0\\) khi…' % quad(a, b, c), opts=o, ans=0,
+                ee='The equation must have roots: \\(\\Delta\\ge0\\).', ev='Phương trình phải có nghiệm: \\(\\Delta\\ge0\\).')
+
+def b20_d2_minus(r, lv):
+    while True:
+        a, c = nz(r, -8, 8), nz(r, -12, 12); b = a + c
+        if c != a and b != 0: break
+    x2 = F(-c, a)
+    o = [Sset(-1, x2), Sset(1, -x2), Sset(-1, -x2), Sset(1, x2)]
+    if len(set(o)) < 4: raise AssertionError
+    return dict(en='Solve by inspection: \\(%s=0\\).' % quad(a, b, c), vi='Nhẩm nghiệm phương trình \\(%s=0\\).' % quad(a, b, c), opts=o, ans=0,
+                ee='\\(a-b+c=0\\): \\(x_1=-1\\), \\(x_2=-\\dfrac ca=%s\\).' % fr(x2), ev='\\(a-b+c=0\\): \\(x_1=-1\\), \\(x_2=-\\dfrac ca=%s\\).' % fr(x2))
+
+def b20_d2_other(r, lv):
+    a, b, c, x1, x2 = _roots_int(r, -8, 8, (1, 2, 3, 5))
+    if x1 == 0: raise AssertionError
+    return dict(en='\\(%s=0\\) has the root \\(x_1=%d\\). The other root is…' % (quad(a, b, c), x1), vi='Phương trình \\(%s=0\\) có nghiệm \\(x_1=%d\\). Nghiệm còn lại là…' % (quad(a, b, c), x1),
+                opts=pick_opts(r, 'x_2=%d' % x2, ['x_2=%s' % fr(v) for v in (-x2, F(c, a), F(-b, a)) if v != x2], fill=lambda k: 'x_2=%d' % (x2 + k)), ans=0,
+                ee='\\(x_1x_2=\\dfrac ca=%s\\Rightarrow x_2=%d\\).' % (fr(F(c, a)), x2), ev='\\(x_1x_2=\\dfrac ca=%s\\Rightarrow x_2=%d\\).' % (fr(F(c, a)), x2))
+
+def b20_d2_none(r, lv):
+    S, P = r.randint(-6, 6), r.randint(10, 30)
+    if S * S - 4 * P >= 0: raise AssertionError
+    o = [tx('no such numbers exist', 'không có hai số như vậy'), tx('\\(%d\\) and \\(%d\\)' % (S, 0), '\\(%d\\) và \\(%d\\)' % (S, 0)), tx('\\(1\\) and \\(%d\\)' % P, '\\(1\\) và \\(%d\\)' % P), tx('\\(%d\\) and \\(%d\\)' % (-S, -P), '\\(%d\\) và \\(%d\\)' % (-S, -P))]
+    return dict(en='Find two numbers with sum \\(%d\\) and product \\(%d\\).' % (S, P), vi='Tìm hai số có tổng bằng \\(%d\\) và tích bằng \\(%d\\).' % (S, P), opts=o, ans=0,
+                ee='\\(x^2%sx+%d=0\\) has \\(\\Delta=%d\\lt0\\).' % (mono(-S, '', False) if S else '', P, S * S - 4 * P), ev='\\(x^2%sx+%d=0\\) có \\(\\Delta=%d\\lt0\\).' % (mono(-S, '', False) if S else '', P, S * S - 4 * P))
+
+def b20_d3_inv(r, lv):
+    a, b, c = _vq(r); S, P = F(-b, a), F(c, a); good = S / P
+    return dict(en='\\(x_1\\), \\(x_2\\) are the roots of \\(%s=0\\). Compute \\(\\dfrac1{x_1}+\\dfrac1{x_2}\\).' % quad(a, b, c), vi='Gọi \\(x_1\\), \\(x_2\\) là hai nghiệm của \\(%s=0\\). Tính \\(\\dfrac1{x_1}+\\dfrac1{x_2}\\).' % quad(a, b, c),
+                opts=pick_opts(r, fr(good), [fr(v) for v in (P / S if S else 1 + good, -good, S * P) if v != good], fill=lambda k: fr(good + k)), ans=0,
+                ee='\\(\\dfrac{x_1+x_2}{x_1x_2}=\\dfrac{%s}{%s}=%s\\).' % (fr(S), fr(P), fr(good)), ev='\\(\\dfrac{x_1+x_2}{x_1x_2}=\\dfrac{%s}{%s}=%s\\).' % (fr(S), fr(P), fr(good)))
+
+def b20_d3_fact(r, lv):
+    a, b, c, x1, x2 = _roots_int(r, -7, 7, (1, 1, 2, 3))
+    if x1 == x2: raise AssertionError
+    fx = lambda t: '(x%s)' % mono(-t, '', False) if t else 'x'
+    pre = '' if a == 1 else str(a)
+    good = '%s%s%s' % (pre, fx(x1), fx(x2)); bads = ['%s%s%s' % (pre, fx(-x1), fx(-x2)), '%s%s' % (fx(x1), fx(x2)) if a != 1 else '2%s%s' % (fx(x1), fx(x2)), '%s%s%s' % (pre, fx(x1), fx(-x2))]
+    if len({good, *bads}) < 4: raise AssertionError
+    return dict(en='Factorise \\(%s\\).' % quad(a, b, c), vi='Phân tích \\(%s\\) thành nhân tử.' % quad(a, b, c), opts=[good] + bads, ans=0,
+                ee='Roots \\(%d\\), \\(%d\\): \\(ax^2+bx+c=a(x-x_1)(x-x_2)\\).' % (x1, x2), ev='Hai nghiệm \\(%d\\), \\(%d\\): \\(ax^2+bx+c=a(x-x_1)(x-x_2)\\).' % (x1, x2))
+
+def b20_d3_cube(r, lv):
+    a, b, c = r.choice([1, 1, 2]), r.randint(-8, 8), r.randint(-10, 10)
+    if b * b - 4 * a * c < 0: raise AssertionError
+    S, P = F(-b, a), F(c, a); good = S ** 3 - 3 * P * S
+    return dict(en='\\(x_1\\), \\(x_2\\) are the roots of \\(%s=0\\). Compute \\(x_1^3+x_2^3\\).' % quad(a, b, c), vi='Gọi \\(x_1\\), \\(x_2\\) là hai nghiệm của \\(%s=0\\). Tính \\(x_1^3+x_2^3\\).' % quad(a, b, c),
+                opts=pick_opts(r, fr(good), [fr(v) for v in (S ** 3 - P * S, S ** 3 + 3 * P * S, S ** 3) if v != good], fill=lambda k: fr(good + k)), ans=0,
+                ee='\\(x_1^3+x_2^3=S^3-3PS\\) with \\(S=%s\\), \\(P=%s\\).' % (fr(S), fr(P)), ev='\\(x_1^3+x_2^3=S^3-3PS\\) với \\(S=%s\\), \\(P=%s\\).' % (fr(S), fr(P)))
+
+def b20_d4_rect(r, lv):
+    w, L = sorted(r.sample(range(3, 30), 2)); p, A = 2 * (w + L), w * L
+    return dict(en='A rectangular garden is fenced with %d m of netting (all four sides) and has area %d m². Find its dimensions.' % (p, A), vi='Một mảnh vườn hình chữ nhật được rào bằng %d m lưới (đủ bốn cạnh) và có diện tích %d m². Tìm kích thước mảnh vườn.' % (p, A),
+                opts=pick_opts(r, '%d\\text{ m}\\times%d\\text{ m}' % (L, w), ['%d\\text{ m}\\times%d\\text{ m}' % q for q in ((L + 1, w - 1), (L - 1, w + 1), (L + 2, w - 2)) if q[1] > 0 and q != (L, w)]), ans=0,
+                ee='Length + width \\(=%d\\), length × width \\(=%d\\): roots of \\(x^2-%dx+%d=0\\).' % (p // 2, A, p // 2, A), ev='Dài + rộng \\(=%d\\), dài × rộng \\(=%d\\): là nghiệm của \\(x^2-%dx+%d=0\\).' % (p // 2, A, p // 2, A))
+
+def b20_d4_m(r, lv):
+    x1, m0 = nz(r, -6, 6), None; b = nz(r, -8, 8)
+    # x^2 + b x + m = 0 có nghiệm x1 → m = -x1^2 - b x1; x2 = -b - x1
+    m = -x1 * x1 - b * x1; x2 = -b - x1
+    return dict(en='The equation \\(x^2%sx+m=0\\) has the root \\(x_1=%d\\). Find \\(m\\) and the other root.' % (mono(b, '', False), x1), vi='Phương trình \\(x^2%sx+m=0\\) có một nghiệm \\(x_1=%d\\). Tìm \\(m\\) và nghiệm còn lại.' % (mono(b, '', False), x1),
+                opts=pick_opts(r, 'm=%d,\\ x_2=%d' % (m, x2), ['m=%d,\\ x_2=%d' % q for q in ((-m, x2), (m, -x2), (m, b - x1)) if q != (m, x2)], fill=lambda k: 'm=%d,\\ x_2=%d' % (m + k, x2)), ans=0,
+                ee='Substitute \\(x_1\\): \\(m=%d\\); \\(x_1+x_2=%d\\Rightarrow x_2=%d\\).' % (m, -b, x2), ev='Thay \\(x_1\\) vào: \\(m=%d\\); \\(x_1+x_2=%d\\Rightarrow x_2=%d\\).' % (m, -b, x2))
+
+def b20_d4_diff(r, lv):
+    a, b, c, x1, x2 = _roots_int(r, -9, 9, (1,))
+    if x1 == x2: raise AssertionError
+    good = abs(x1 - x2); S, P = x1 + x2, x1 * x2
+    return dict(en='\\(x_1\\), \\(x_2\\) are the roots of \\(%s=0\\). Compute \\(|x_1-x_2|\\) without solving.' % quad(a, b, c), vi='Gọi \\(x_1\\), \\(x_2\\) là hai nghiệm của \\(%s=0\\). Không giải phương trình, tính \\(|x_1-x_2|\\).' % quad(a, b, c),
+                opts=pick_opts(r, str(good), [str(v) for v in (good * good, abs(S), abs(P), good + 2) if v != good]), ans=0,
+                ee='\\((x_1-x_2)^2=S^2-4P=(%d)^2-4\\cdot(%d)=%d\\Rightarrow |x_1-x_2|=%d\\).' % (S, P, good * good, good), ev='\\((x_1-x_2)^2=S^2-4P=(%d)^2-4\\cdot(%d)=%d\\Rightarrow |x_1-x_2|=%d\\).' % (S, P, good * good, good))
+
+L20_GROUPS = [[('mcq', b20_sum), ('mcq', b20_insp), ('mcq', b20_two)], [('tf', b20_tf_sum), ('tf', b20_tf_noroot)], [('short', b20_short_sq), ('short', b20_short_other)],
+              [('mcq', b20_d1_thm), ('mcq', b20_d1_prod), ('mcq', b20_d1_cond)], [('mcq', b20_d2_minus), ('mcq', b20_d2_other), ('mcq', b20_d2_none)],
+              [('mcq', b20_d3_inv), ('mcq', b20_d3_fact), ('mcq', b20_d3_cube)], [('mcq', b20_d4_rect), ('mcq', b20_d4_m), ('mcq', b20_d4_diff)]]
+
+# =====================================================================================================
+# BÀI 21. Giải bài toán bằng cách lập phương trình
+# =====================================================================================================
+def _mopts(r, good, bads, unit=''):
+    u = '\\text{ %s}' % unit if unit else ''
+    return pick_opts(r, '%s%s' % (good, u), ['%s%s' % (b, u) for b in bads if str(b) != str(good) and (not isinstance(b, (int, float)) or b > 0)], fill=lambda k: '%s%s' % (good + k if isinstance(good, int) else good, u))
+
+def b21_plot(r, lv):
+    for _ in range(200):
+        y, a, b = r.randint(5, 30), r.randint(1, 6), r.randint(1, 6)
+        if (b * (y + a)) % a == 0:
+            x = b * (y + a) // a
+            if x > y and x - b > 0: break
+    else: raise AssertionError
+    S = x * y; assert (y + a) * (x - b) == S
+    return dict(en='A rectangular plot has area %d m². If its width is increased by %d m and its length is decreased by %d m, the area does not change. Find its length and width.' % (S, a, b),
+                vi='Một mảnh đất hình chữ nhật có diện tích %d m². Nếu tăng chiều rộng thêm %d m và giảm chiều dài đi %d m thì diện tích không đổi. Tìm chiều dài và chiều rộng của mảnh đất.' % (S, a, b),
+                opts=_mopts(r, '%d\\text{ m}\\times%d\\text{ m}' % (x, y), ['%d\\text{ m}\\times%d\\text{ m}' % q for q in ((x + b, y - a), (x - b, y + a), (x + 1, y)) if q[1] > 0]), ans=0,
+                ee='Let the width be \\(x\\) m: \\((x+%d)\\left(\\dfrac{%d}{x}-%d\\right)=%d\\Leftrightarrow %dx^2+%dx-%d=0\\Rightarrow x=%d\\) (the negative root is rejected).' % (a, S, b, S, b, a * b, a * S, y),
+                ev='Gọi chiều rộng là \\(x\\) m: \\((x+%d)\\left(\\dfrac{%d}{x}-%d\\right)=%d\\Leftrightarrow %dx^2+%dx-%d=0\\Rightarrow x=%d\\) (loại nghiệm âm).' % (a, S, b, S, b, a * b, a * S, y))
+
+def b21_growth(r, lv):
+    p, P0 = r.choice([5, 10, 20, 25, 30, 50, 4, 8, 15]), r.choice([100, 200, 400, 1000, 1200, 800, 2000]) * 1000
+    P2 = P0 * (100 + p) ** 2 // 10000; assert P2 * 10000 == P0 * (100 + p) ** 2
+    return dict(en='The population of a town grew from %s to %s in two years, by the same percentage each year. Find that percentage.' % ('{:,}'.format(P0), '{:,}'.format(P2)),
+                vi='Dân số một thị trấn tăng từ %s người lên %s người sau hai năm, mỗi năm tăng cùng một tỉ lệ phần trăm. Tìm tỉ lệ đó.' % ('{:,}'.format(P0).replace(',', ' '), '{:,}'.format(P2).replace(',', ' ')),
+                opts=_mopts(r, '%d\\%%' % p, ['%s\\%%' % v for v in (p * 2, p // 2 if p % 2 == 0 else p + 3, (P2 - P0) * 100 // P0)]), ans=0,
+                ee='\\(%d(1+x)^2=%d\\Rightarrow (1+x)^2=%s\\Rightarrow x=%s=%d\\%%\\).' % (P0, P2, num((100 + p) ** 2 / 10000), num(p / 100), p),
+                ev='\\(%d(1+x)^2=%d\\Rightarrow (1+x)^2=%s\\Rightarrow x=%s=%d\\%%\\).' % (P0, P2, dm(num((100 + p) ** 2 / 10000)), dm(num(p / 100)), p))
+
+def _river(r):
+    while True:
+        c, v = r.choice([1, 2, 3, 4, 5]), r.randint(8, 30)
+        if v <= c + 2: continue
+        d = r.choice([12, 15, 18, 20, 24, 30, 36, 40, 45, 48, 60, 72, 80, 90, 96, 120])
+        t = F(d, v + c) + F(d, v - c)
+        if t.denominator in (1, 2, 4) and F(d, v + c).denominator in (1, 2, 4, 3) : return c, v, d, t
+
+def b21_river(r, lv):
+    c, v, d, t = _river(r); stop = r.choice([F(0), F(1, 2), F(1)]); T = t + stop
+    st_en = '' if stop == 0 else ', stops there for %d minutes' % int(stop * 60)
+    st_vi = '' if stop == 0 else ', nghỉ tại B %d phút' % int(stop * 60)
+    return dict(en='Two river ports \\(A\\), \\(B\\) are %d km apart. A boat goes from \\(A\\) downstream to \\(B\\)%s and comes back to \\(A\\). The whole trip takes %s hours. The current is %d km/h. Find the speed of the boat in still water.' % (d, st_en, num(float(T)), c),
+                vi='Hai bến sông \\(A\\), \\(B\\) cách nhau %d km. Một ca nô xuôi dòng từ \\(A\\) đến \\(B\\)%s rồi ngược dòng về \\(A\\). Tổng thời gian là %s giờ. Vận tốc dòng nước là %d km/h. Tính vận tốc của ca nô khi nước yên lặng.' % (d, st_vi, dm(num(float(T))), c),
+                opts=_mopts(r, v, [v + c, v - c, v + 2 * c, 2 * v], 'km/h'), ans=0,
+                ee='\\(\\dfrac{%d}{x+%d}+\\dfrac{%d}{x-%d}=%s\\) (\\(x\\gt%d\\)) gives \\(x=%d\\).' % (d, c, d, c, fr(t), c, v), ev='\\(\\dfrac{%d}{x+%d}+\\dfrac{%d}{x-%d}=%s\\) (\\(x\\gt%d\\)) cho \\(x=%d\\).' % (d, c, d, c, fr(t), c, v))
+
+def b21_tf_reject(r, lv):
+    w, k = r.randint(4, 25), r.randint(2, 12); S = w * (w + k); truth = r.random() < 0.5; claim = w if truth else -(w + k)
+    return dict(en='A rectangle has area %d m² and its length is %d m more than its width \\(x\\). The equation \\(x(x+%d)=%d\\) has the roots \\(%d\\) and \\(%d\\), and the width is %d m.' % (S, k, k, S, w, -(w + k), claim),
+                vi='Một hình chữ nhật có diện tích %d m², chiều dài hơn chiều rộng \\(x\\) là %d m. Phương trình \\(x(x+%d)=%d\\) có hai nghiệm \\(%d\\) và \\(%d\\), và chiều rộng là %d m.' % (S, k, k, S, w, -(w + k), claim), ans=truth,
+                ee='The width must be positive: \\(x=%d\\); the root \\(%d\\) is rejected.' % (w, -(w + k)), ev='Chiều rộng phải dương: \\(x=%d\\); loại nghiệm \\(%d\\).' % (w, -(w + k)))
+
+def b21_tf_interest(r, lv):
+    p, P = r.choice([4, 5, 6, 8, 10, 12]), r.choice([10, 20, 50, 100, 200])
+    real = P * (100 + p) ** 2 / 10000; truth = r.random() < 0.5; shown = real if truth else P * (1 + 2 * p / 100)
+    if abs(shown - real) < 1e-9: truth = True
+    return dict(en='%d million dong is deposited at %d%% per year compound interest (the interest is added to the deposit after each year). After 2 years the total is %s million dong.' % (P, p, num(round(shown, 4))),
+                vi='Gửi %d triệu đồng với lãi suất %d%%/năm theo hình thức lãi kép (tiền lãi năm trước được cộng vào vốn). Sau 2 năm, tổng số tiền là %s triệu đồng.' % (P, p, dm(num(round(shown, 4)))), ans=truth,
+                ee='\\(%d\\cdot(1+%s)^2=%s\\).' % (P, num(p / 100), num(round(real, 4))), ev='\\(%d\\cdot(1+%s)^2=%s\\).' % (P, dm(num(p / 100)), dm(num(round(real, 4)))))
+
+def b21_short_workshop(r, lv):
+    while True:
+        x, d, e, k = r.choice(range(20, 101, 5)), r.randint(8, 30), r.choice([5, 10, 15, 20]), r.randint(1, 4)
+        N, N2 = x * d, (x + e) * (d - k)
+        if N2 < N and d - k > 0: break
+    return dict(en='A workshop planned to make %d shirts, the same number each day. In fact it made %d shirts a day more than planned, so %d day%s before the deadline it had made %d shirts. How many shirts a day did it plan to make?' % (N, e, k, 's' if k > 1 else '', N2),
+                vi='Một xưởng dự định may %d chiếc áo, mỗi ngày may như nhau. Thực tế mỗi ngày xưởng may nhiều hơn dự định %d chiếc nên %d ngày trước thời hạn đã may được %d chiếc. Theo kế hoạch mỗi ngày xưởng may bao nhiêu chiếc áo?' % (N, e, k, N2),
+                key=str(x), ee='\\((x+%d)\\left(\\dfrac{%d}{x}-%d\\right)=%d\\) gives \\(x=%d\\).' % (e, N, k, N2, x), ev='\\((x+%d)\\left(\\dfrac{%d}{x}-%d\\right)=%d\\) cho \\(x=%d\\).' % (e, N, k, N2, x))
+
+def b21_short_lorries(r, lv):
+    while True:
+        n, k, t = r.randint(4, 20), r.randint(1, 4), r.randint(1, 6)
+        if n - k < 2: continue
+        W = t * n * (n - k)
+        if W % k == 0: W //= k; break
+    return dict(en='A group of identical lorries has to carry %d tonnes of goods, equally shared. %d of the lorries %s sent elsewhere, so each remaining lorry carries %d tonnes more. How many lorries were in the group?' % (W, k, 'is' if k == 1 else 'are', t),
+                vi='Một đội xe tải cần chở %d tấn hàng, các xe chở như nhau. Có %d xe được điều đi làm việc khác nên mỗi xe còn lại phải chở thêm %d tấn. Hỏi lúc đầu đội có bao nhiêu xe?' % (W, k, t),
+                key=str(n), ee='\\(\\dfrac{%d}{x-%d}-\\dfrac{%d}{x}=%d\\) gives \\(x=%d\\).' % (W, k, W, t, n), ev='\\(\\dfrac{%d}{x-%d}-\\dfrac{%d}{x}=%d\\) cho \\(x=%d\\).' % (W, k, W, t, n))
+
+def b21_d1_steps(r, lv):
+    k = r.choice(['first', 'last', 'cond'])
+    if k == 'first':
+        o = [tx('choose the unknown and state its condition', 'chọn ẩn và đặt điều kiện cho ẩn'), tx('solve the equation', 'giải phương trình'), tx('check the roots against the condition', 'đối chiếu nghiệm với điều kiện'), tx('write the answer', 'kết luận')]
+        return dict(en='When solving a problem by setting up an equation, what is the first step?', vi='Khi giải bài toán bằng cách lập phương trình, bước đầu tiên là gì?', opts=o, ans=0,
+                    ee='Steps: choose the unknown and its condition; express the other quantities; set up the equation; solve; check and answer.', ev='Các bước: chọn ẩn, đặt điều kiện; biểu diễn các đại lượng; lập phương trình; giải; đối chiếu điều kiện và kết luận.')
+    if k == 'last':
+        o = [tx('check which roots satisfy the condition, then answer', 'kiểm tra nghiệm nào thỏa mãn điều kiện rồi kết luận'), tx('choose another unknown', 'chọn ẩn khác'), tx('add the two roots', 'cộng hai nghiệm'), tx('keep both roots as answers', 'giữ cả hai nghiệm làm đáp số')]
+        return dict(en='After solving the equation, what should we do?', vi='Sau khi giải xong phương trình, ta cần làm gì?', opts=o, ans=0, ee='Reject roots that do not satisfy the condition.', ev='Loại các nghiệm không thỏa mãn điều kiện.')
+    w = r.choice(['speed', 'width', 'number of workers'])
+    vi_w = {'speed': 'vận tốc', 'width': 'chiều rộng', 'number of workers': 'số công nhân'}[w]
+    o = ['x\\gt0' if w != 'number of workers' else 'x\\in\\mathbb N^*', 'x\\lt0', 'x\\ne0\\text{ only}' if w != 'number of workers' else 'x\\gt0\\text{ (any real)}', 'x\\le0']
+    return dict(en='Let \\(x\\) be the %s. A suitable condition for \\(x\\) is…' % w, vi='Gọi \\(x\\) là %s. Điều kiện thích hợp của \\(x\\) là…' % vi_w, opts=o, ans=0,
+                ee='A %s is %s.' % (w, 'a positive whole number' if w == 'number of workers' else 'positive'), ev='%s là %s.' % (vi_w.capitalize(), 'số nguyên dương' if w == 'number of workers' else 'số dương'))
+
+def b21_d1_express(r, lv):
+    k, S = r.randint(2, 15), r.choice([60, 72, 84, 96, 120, 150, 180, 240])
+    o = ['\\dfrac{%d}{x}' % S, '%dx' % S, 'x+%d' % k, '\\dfrac{x}{%d}' % S]
+    return dict(en='A rectangle has area %d m² and width \\(x\\) m. Express its length in terms of \\(x\\).' % S, vi='Một hình chữ nhật có diện tích %d m², chiều rộng \\(x\\) m. Biểu diễn chiều dài theo \\(x\\).' % S, opts=o, ans=0,
+                ee='Length \\(=\\dfrac{\\text{area}}{\\text{width}}=\\dfrac{%d}{x}\\).' % S, ev='Chiều dài \\(=\\dfrac{\\text{diện tích}}{\\text{chiều rộng}}=\\dfrac{%d}{x}\\).' % S)
+
+def b21_d1_speeds(r, lv):
+    c = r.randint(1, 6); kind = r.choice(['down', 'up'])
+    o = ['x+%d' % c, 'x-%d' % c, '%dx' % c, 'x'] if kind == 'down' else ['x-%d' % c, 'x+%d' % c, '%d-x' % c, 'x']
+    return dict(en='A boat has speed \\(x\\) km/h in still water and the current is %d km/h. Its speed %s is…' % (c, 'downstream' if kind == 'down' else 'upstream'),
+                vi='Một ca nô có vận tốc \\(x\\) km/h khi nước yên lặng, vận tốc dòng nước là %d km/h. Vận tốc %s của ca nô là…' % (c, 'xuôi dòng' if kind == 'down' else 'ngược dòng'), opts=o, ans=0,
+                ee='Downstream: \\(x+%d\\); upstream: \\(x-%d\\).' % (c, c), ev='Xuôi dòng: \\(x+%d\\); ngược dòng: \\(x-%d\\).' % (c, c))
+
+def b21_d2_consec(r, lv):
+    n = r.randint(5, 40); P = n * (n + 1)
+    return dict(en='The product of two consecutive positive integers is %d. Find the smaller one.' % P, vi='Tích của hai số nguyên dương liên tiếp bằng %d. Tìm số nhỏ hơn.' % P,
+                opts=_mopts(r, n, [n + 1, n - 1, P // 2 if P // 2 != n else n + 2]), ans=0, ee='\\(x(x+1)=%d\\Rightarrow x=%d\\) (the root \\(%d\\) is rejected).' % (P, n, -n - 1), ev='\\(x(x+1)=%d\\Rightarrow x=%d\\) (loại nghiệm \\(%d\\)).' % (P, n, -n - 1))
+
+def b21_d2_square(r, lv):
+    s, a = r.randint(3, 20), r.randint(1, 6); A = (s + a) ** 2
+    return dict(en='When each side of a square is increased by %d cm, its area becomes %d cm². Find the original side.' % (a, A), vi='Nếu tăng mỗi cạnh của một hình vuông thêm %d cm thì diện tích của nó bằng %d cm². Tìm cạnh hình vuông ban đầu.' % (a, A),
+                opts=_mopts(r, s, [s + a, s + 2 * a, s - 1 if s > 1 else s + 3], 'cm'), ans=0, ee='\\((x+%d)^2=%d\\Rightarrow x+%d=%d\\Rightarrow x=%d\\).' % (a, A, a, s + a, s), ev='\\((x+%d)^2=%d\\Rightarrow x+%d=%d\\Rightarrow x=%d\\).' % (a, A, a, s + a, s))
+
+def b21_d2_diff(r, lv):
+    x, k = r.randint(2, 25), r.randint(1, 12); P = x * (x + k)
+    return dict(en='Two positive numbers differ by %d and their product is %d. Find the larger number.' % (k, P), vi='Hai số dương hơn kém nhau %d đơn vị và có tích bằng %d. Tìm số lớn hơn.' % (k, P),
+                opts=_mopts(r, x + k, [x, x + 2 * k, P // k if P % k == 0 and P // k != x + k else x + k + 1]), ans=0,
+                ee='\\(x(x+%d)=%d\\Rightarrow x=%d\\); the larger number is \\(%d\\).' % (k, P, x, x + k), ev='\\(x(x+%d)=%d\\Rightarrow x=%d\\); số lớn hơn là \\(%d\\).' % (k, P, x, x + k))
+
+def b21_d3_diag(r, lv):
+    a, b, c = r.choice(PYT); m = r.choice([1, 2, 3])
+    a, b, c = a * m, b * m, c * m
+    return dict(en='A rectangle has perimeter %d cm and diagonal %d cm. Find its sides.' % (2 * (a + b), c), vi='Một hình chữ nhật có chu vi %d cm và đường chéo dài %d cm. Tìm độ dài các cạnh.' % (2 * (a + b), c),
+                opts=_mopts(r, '%d\\text{ cm and }%d\\text{ cm}' % (max(a, b), min(a, b)), ['%d\\text{ cm and }%d\\text{ cm}' % q for q in ((max(a, b) + 1, min(a, b) - 1), (c, a + b - c), (max(a, b) + 2, min(a, b) - 2)) if q[1] > 0]), ans=0,
+                ee='\\(x+y=%d\\), \\(x^2+y^2=%d\\Rightarrow xy=%d\\); \\(x\\), \\(y\\) are the roots of \\(t^2-%dt+%d=0\\).' % (a + b, c * c, a * b, a + b, a * b),
+                ev='\\(x+y=%d\\), \\(x^2+y^2=%d\\Rightarrow xy=%d\\); \\(x\\), \\(y\\) là nghiệm của \\(t^2-%dt+%d=0\\).' % (a + b, c * c, a * b, a + b, a * b))
+
+def b21_d3_car(r, lv):
+    while True:
+        v, k = r.choice(range(30, 81, 5)), r.choice([5, 10, 15, 20])
+        d = r.choice([60, 90, 100, 120, 150, 180, 200, 240, 300]); dt = F(d, v) - F(d, v + k)
+        if dt.denominator in (1, 2, 3, 4, 5, 6) and dt > 0: break
+    mins = dt * 60; assert mins.denominator == 1
+    return dict(en='Two cars travel %d km. The second car is %d km/h faster and arrives %d minutes earlier. Find the speed of the first car.' % (d, k, mins), vi='Hai ô tô cùng đi quãng đường %d km. Xe thứ hai đi nhanh hơn xe thứ nhất %d km/h nên đến sớm hơn %d phút. Tính vận tốc xe thứ nhất.' % (d, k, mins),
+                opts=_mopts(r, v, [v + k, v - k, v + 2 * k], 'km/h'), ans=0,
+                ee='\\(\\dfrac{%d}{x}-\\dfrac{%d}{x+%d}=%s\\) gives \\(x=%d\\).' % (d, d, k, fr(dt), v), ev='\\(\\dfrac{%d}{x}-\\dfrac{%d}{x+%d}=%s\\) cho \\(x=%d\\).' % (d, d, k, fr(dt), v))
+
+def b21_d3_legs(r, lv):
+    a, b, c = r.choice(PYT); a, b = min(a, b), max(a, b)
+    return dict(en='In a right triangle, one leg is %d cm longer than the other and the hypotenuse is %d cm. Find the shorter leg.' % (b - a, c), vi='Một tam giác vuông có một cạnh góc vuông dài hơn cạnh góc vuông kia %d cm, cạnh huyền dài %d cm. Tính cạnh góc vuông ngắn hơn.' % (b - a, c),
+                opts=_mopts(r, a, [b, c - b, a + 1], 'cm'), ans=0, ee='\\(x^2+(x+%d)^2=%d\\Rightarrow x=%d\\).' % (b - a, c * c, a), ev='\\(x^2+(x+%d)^2=%d\\Rightarrow x=%d\\).' % (b - a, c * c, a))
+
+def b21_d4_plane(r, lv):
+    while True:
+        v, D = r.choice(range(500, 901, 50)), r.choice([1000, 1200, 1500, 1800, 2000, 2400])
+        stop = r.choice([F(1), F(3, 2), F(8, 5), F(2)]); t = F(D, v) + F(D, v + 100) + stop
+        if t.denominator in (1, 2, 4, 5, 10): break
+    return dict(en='A plane flies %d km from city A to city B, stops %d minutes, then flies back 100 km/h faster. The whole journey takes %s hours. Find the speed on the outward flight.' % (D, stop * 60, num(float(t))),
+                vi='Một máy bay bay từ thành phố A đến thành phố B dài %d km, nghỉ %d phút rồi bay về A với vận tốc lớn hơn lúc đi 100 km/h. Tổng thời gian là %s giờ. Tính vận tốc lúc đi.' % (D, stop * 60, dm(num(float(t)))),
+                opts=_mopts(r, v, [v + 100, v - 100, v + 50], 'km/h'), ans=0,
+                ee='\\(\\dfrac{%d}{x}+\\dfrac{%d}{x+100}=%s\\) gives \\(x=%d\\).' % (D, D, fr(t - stop), v), ev='\\(\\dfrac{%d}{x}+\\dfrac{%d}{x+100}=%s\\) cho \\(x=%d\\).' % (D, D, fr(t - stop), v))
+
+def b21_d4_rate(r, lv):
+    p, P = r.choice([5, 6, 7, 8, 9, 10, 12]), r.choice([100, 200, 50])
+    A = P * (100 + p) ** 2 / 10000
+    return dict(en='%d million dong is deposited at compound interest. After 2 years the total is %s million dong. Find the yearly interest rate.' % (P, num(A)), vi='Gửi %d triệu đồng theo hình thức lãi kép. Sau 2 năm nhận được tổng cộng %s triệu đồng. Tìm lãi suất mỗi năm.' % (P, dm(num(A))),
+                opts=_mopts(r, '%d\\%%' % p, ['%d\\%%' % v for v in (p + 1, p - 1, 2 * p)]), ans=0,
+                ee='\\(%d(1+x)^2=%s\\Rightarrow 1+x=%s\\Rightarrow x=%d\\%%\\).' % (P, num(A), num(1 + p / 100), p), ev='\\(%d(1+x)^2=%s\\Rightarrow 1+x=%s\\Rightarrow x=%d\\%%\\).' % (P, dm(num(A)), dm(num(1 + p / 100)), p))
+
+def b21_d4_choc(r, lv):
+    while True:
+        L, W, x, h = r.randint(8, 16), r.randint(4, 9), r.randint(1, 3), r.choice([2, 3])
+        if W - x <= 0: continue
+        old, new = L * W, (L - x) * (W - x); pct = F(old - new, old) * 100
+        if pct.denominator == 1: break
+    return dict(en='A chocolate bar is a box %d cm × %d cm × %d cm. Its volume is reduced by %d%% by cutting the same length from its length and its width (thickness unchanged). How many cm are cut from each?' % (L, W, h, pct),
+                vi='Một thanh sô-cô-la có dạng hộp chữ nhật %d cm × %d cm × %d cm. Người ta giảm thể tích %d%% bằng cách giảm chiều dài và chiều rộng cùng một độ dài (giữ nguyên độ dày). Mỗi chiều giảm bao nhiêu xăng-ti-mét?' % (L, W, h, pct),
+                opts=_mopts(r, x, [x + 1, x + 2, 2 * x], 'cm'), ans=0,
+                ee='\\((%d-x)(%d-x)=%d\\cdot%s\\Rightarrow x=%d\\) (the other root is too large).' % (L, W, old, num(1 - float(pct) / 100), x), ev='\\((%d-x)(%d-x)=%d\\cdot%s\\Rightarrow x=%d\\) (nghiệm kia quá lớn, loại).' % (L, W, old, dm(num(1 - float(pct) / 100)), x))
+
+L21_GROUPS = [[('mcq', b21_plot), ('mcq', b21_growth), ('mcq', b21_river)], [('tf', b21_tf_reject), ('tf', b21_tf_interest)], [('short', b21_short_workshop), ('short', b21_short_lorries)],
+              [('mcq', b21_d1_steps), ('mcq', b21_d1_express), ('mcq', b21_d1_speeds)], [('mcq', b21_d2_consec), ('mcq', b21_d2_square), ('mcq', b21_d2_diff)],
+              [('mcq', b21_d3_diag), ('mcq', b21_d3_car), ('mcq', b21_d3_legs)], [('mcq', b21_d4_plane), ('mcq', b21_d4_rate), ('mcq', b21_d4_choc)]]

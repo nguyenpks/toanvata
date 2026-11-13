@@ -226,6 +226,173 @@
     "no": 12
   },
   {
+    "id": "g9-circles-01",
+    "grade": 9,
+    "category": "Đường tròn",
+    "title": "Mở đầu về đường tròn",
+    "description": "Bài 13 – Đường tròn; vị trí tương đối của điểm và đường tròn; tính đối xứng của đường tròn.",
+    "level": "Basic",
+    "estimatedMinutes": 60,
+    "prerequisites": [],
+    "path": "lessons/grade9/circles/introduction-to-circles.html",
+    "tags": [
+      "đường tròn",
+      "bán kính",
+      "đối xứng"
+    ],
+    "no": 13
+  },
+  {
+    "id": "g9-circles-02",
+    "grade": 9,
+    "category": "Đường tròn",
+    "title": "Cung và dây của một đường tròn",
+    "description": "Bài 14 – Dây và đường kính; góc ở tâm; cung nhỏ, cung lớn và số đo cung.",
+    "level": "Basic",
+    "estimatedMinutes": 60,
+    "prerequisites": [
+      "g9-circles-01"
+    ],
+    "path": "lessons/grade9/circles/arcs-and-chords.html",
+    "tags": [
+      "dây",
+      "cung",
+      "góc ở tâm"
+    ],
+    "no": 14
+  },
+  {
+    "id": "g9-circles-03",
+    "grade": 9,
+    "category": "Đường tròn",
+    "title": "Độ dài của cung tròn. Diện tích hình quạt tròn và hình vành khuyên",
+    "description": "Bài 15 – Độ dài cung tròn; diện tích hình quạt tròn; diện tích hình vành khuyên; bài toán thực tế.",
+    "level": "Intermediate",
+    "estimatedMinutes": 75,
+    "prerequisites": [
+      "g9-circles-02"
+    ],
+    "path": "lessons/grade9/circles/arc-length-sectors-annuli.html",
+    "tags": [
+      "độ dài cung",
+      "hình quạt",
+      "vành khuyên"
+    ],
+    "no": 15
+  },
+  {
+    "id": "g9-circles-04",
+    "grade": 9,
+    "category": "Đường tròn",
+    "title": "Vị trí tương đối của đường thẳng và đường tròn",
+    "description": "Bài 16 – Ba vị trí tương đối của đường thẳng và đường tròn; tiếp tuyến; tính chất hai tiếp tuyến cắt nhau.",
+    "level": "Intermediate",
+    "estimatedMinutes": 90,
+    "prerequisites": [
+      "g9-circles-02"
+    ],
+    "path": "lessons/grade9/circles/line-and-circle.html",
+    "tags": [
+      "tiếp tuyến",
+      "cát tuyến",
+      "vị trí tương đối"
+    ],
+    "no": 16
+  },
+  {
+    "id": "g9-circles-05",
+    "grade": 9,
+    "category": "Đường tròn",
+    "title": "Vị trí tương đối của hai đường tròn",
+    "description": "Bài 17 – Hai đường tròn cắt nhau, tiếp xúc, không giao nhau; đường nối tâm và dây chung.",
+    "level": "Intermediate",
+    "estimatedMinutes": 75,
+    "prerequisites": [
+      "g9-circles-04"
+    ],
+    "path": "lessons/grade9/circles/two-circles.html",
+    "tags": [
+      "hai đường tròn",
+      "tiếp xúc",
+      "dây chung"
+    ],
+    "no": 17
+  },
+  {
+    "id": "g9-quadratic-01",
+    "grade": 9,
+    "category": "Hàm số y = ax² (a ≠ 0). Phương trình bậc hai một ẩn",
+    "title": "Hàm số y = ax² (a ≠ 0)",
+    "description": "Bài 18 – Hàm số y = ax² (a ≠ 0); bảng giá trị; đồ thị là parabol đỉnh O; bài toán thực tế.",
+    "level": "Intermediate",
+    "estimatedMinutes": 75,
+    "prerequisites": [],
+    "path": "lessons/grade9/quadratic-functions-equations/function-y-ax2.html",
+    "tags": [
+      "hàm số bậc hai",
+      "parabol",
+      "đồ thị"
+    ],
+    "no": 18
+  },
+  {
+    "id": "g9-quadratic-02",
+    "grade": 9,
+    "category": "Hàm số y = ax² (a ≠ 0). Phương trình bậc hai một ẩn",
+    "title": "Phương trình bậc hai một ẩn",
+    "description": "Bài 19 – Phương trình bậc hai một ẩn; phương trình khuyết; biệt thức Δ, Δ'; công thức nghiệm; máy tính cầm tay.",
+    "level": "Intermediate",
+    "estimatedMinutes": 90,
+    "prerequisites": [
+      "g9-lineq-01"
+    ],
+    "path": "lessons/grade9/quadratic-functions-equations/quadratic-equations.html",
+    "tags": [
+      "phương trình bậc hai",
+      "biệt thức",
+      "công thức nghiệm"
+    ],
+    "no": 19
+  },
+  {
+    "id": "g9-quadratic-03",
+    "grade": 9,
+    "category": "Hàm số y = ax² (a ≠ 0). Phương trình bậc hai một ẩn",
+    "title": "Định lí Viète và ứng dụng",
+    "description": "Bài 20 – Định lí Viète; tổng và tích hai nghiệm; nhẩm nghiệm; tìm hai số biết tổng và tích.",
+    "level": "Intermediate",
+    "estimatedMinutes": 75,
+    "prerequisites": [
+      "g9-quadratic-02"
+    ],
+    "path": "lessons/grade9/quadratic-functions-equations/vietes-theorem.html",
+    "tags": [
+      "định lí Viète",
+      "tổng tích nghiệm",
+      "nhẩm nghiệm"
+    ],
+    "no": 20
+  },
+  {
+    "id": "g9-quadratic-04",
+    "grade": 9,
+    "category": "Hàm số y = ax² (a ≠ 0). Phương trình bậc hai một ẩn",
+    "title": "Giải bài toán bằng cách lập phương trình",
+    "description": "Bài 21 – Giải bài toán bằng cách lập phương trình bậc hai: diện tích, năng suất, chuyển động, xuôi – ngược dòng, tăng trưởng phần trăm.",
+    "level": "Intermediate",
+    "estimatedMinutes": 90,
+    "prerequisites": [
+      "g9-quadratic-02"
+    ],
+    "path": "lessons/grade9/quadratic-functions-equations/word-problems-quadratic.html",
+    "tags": [
+      "lập phương trình",
+      "bài toán thực tế",
+      "phương trình bậc hai"
+    ],
+    "no": 21
+  },
+  {
     "id": "g10-logic-01",
     "grade": 10,
     "category": "Mệnh đề và tập hợp",

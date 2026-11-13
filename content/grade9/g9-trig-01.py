@@ -18,6 +18,7 @@ ensure_vocab([
  ('g9-right-tri', 'right triangle', 'tam giác vuông', CH, 'Triangle ABC is a right triangle with the right angle at A.', ''),
  ('g9-elevation', 'angle of elevation', 'góc nâng', CH, 'The angle of elevation of the sun is 40°.', ''),
  ('g9-depression', 'angle of depression', 'góc hạ', CH, 'From the top of the tower, the angle of depression to the boat is 30°.', ''),
+ ('g9-trig-table', 'table of trigonometric values', 'bảng giá trị lượng giác', CH, 'The table of trigonometric values of special angles.', ''),
 ])
 load_vocab()
 

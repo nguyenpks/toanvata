@@ -1,0 +1,44 @@
+\documentclass[border=4pt]{standalone}
+\usepackage{fontspec}
+\usepackage{amsmath}
+\usepackage{unicode-math}
+\setmainfont{Latin Modern Roman}
+\setmathfont{Latin Modern Math}
+\usepackage{pgfplots}
+\usepackage{pgfplotstable}
+\pgfplotsset{compat=1.18}
+\usepackage{tkz-euclide}
+\usetikzlibrary{arrows.meta,calc,angles,quotes,patterns,3d,backgrounds}
+\definecolor{ink}{HTML}{123428}
+\definecolor{asy}{HTML}{475569}
+\definecolor{mint}{HTML}{86e0bd}
+\tikzset{asym/.style={asy, line width=0.9pt, dash pattern=on 5pt off 3.5pt},
+         guide/.style={gray!70, line width=0.6pt, densely dotted},
+         dot/.style={circle, inner sep=0pt, minimum size=5pt, draw=white, line width=0.5pt},
+         odot/.style={circle, inner sep=0pt, minimum size=5.5pt, fill=white, line width=1pt},
+         lab/.style={font=\footnotesize, inner sep=1.5pt, text=ink}}
+\begin{document}
+\begin{tikzpicture}[x=1.1538cm, y=1.1538cm]
+\tkzDefPoint(0,0){O}
+\tkzDefPoint(1.9151,1.607){N}
+\tkzDefPoint(-1.1,-0.6){M}
+\tkzDefPoint(3.3,-2){P}
+\tkzDefPoint(2.5,0){tmp1}
+\begin{scope}
+\clip (-3.4,-2.9) rectangle (4.4,3.0);
+\tkzDrawCircle[draw={rgb,255:red,4;green,107;blue,77}, line width=0.9pt](O,tmp1)
+\tkzDrawSegment[draw=ink, line width=0.90pt](O,N)
+\tkzDrawSegment[draw=ink, line width=0.90pt, dash pattern=on 4pt off 3pt](O,M)
+\tkzDrawSegment[draw=ink, line width=0.90pt, dash pattern=on 4pt off 3pt](O,P)
+\end{scope}
+\node[dot, fill={rgb,255:red,4;green,107;blue,77}] at (O) {};
+\node[dot, fill={rgb,255:red,4;green,107;blue,77}] at (N) {};
+\node[dot, fill={rgb,255:red,4;green,107;blue,77}] at (M) {};
+\node[dot, fill={rgb,255:red,4;green,107;blue,77}] at (P) {};
+\node[lab, font=\normalsize] at (0.62,1.05) {$R$};
+\node[lab, font=\normalsize, anchor=center, xshift=-4.21pt, yshift=10.16pt] at (0,0) {$O$};
+\node[lab, font=\normalsize, anchor=center, xshift=7.78pt, yshift=7.78pt] at (1.9151,1.607) {$N$};
+\node[lab, font=\normalsize, anchor=center, xshift=-10.16pt, yshift=-4.21pt] at (-1.1,-0.6) {$M$};
+\node[lab, font=\normalsize, anchor=center, xshift=10.16pt, yshift=-4.21pt] at (3.3,-2) {$P$};
+\end{tikzpicture}
+\end{document}

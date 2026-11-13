@@ -457,7 +457,7 @@ def geo_tex(cfg, height=360):
             circles[st.get('id', 'c')] = (O, r)
             sty = st.get('style') or {}
             th = pid((O[0] + r, O[1]))
-            draw.append('\\tkzDrawCircle[draw=%s, line width=0.9pt%s](%s,%s)' % (col('046b4d'), ', fill=mint, fill opacity=%s' % sty['fillOpacity'] if sty.get('fillOpacity') else '', st['center'], th))
+            draw.append('\\tkzDrawCircle[draw=%s, line width=0.9pt%s](%s,%s)' % (col('046b4d'), ', fill=%s, fill opacity=%s' % (col(sty['fillColor']) if sty.get('fillColor') else 'mint', sty['fillOpacity']) if sty.get('fillOpacity') else '', st['center'], th))
         elif t in ('perpendicular', 'altitude'):
             A, B = lines[st['to']] if isinstance(st['to'], str) else (P[st['to'][0]], P[st['to'][1]])
             Pp = P[st['from']]; H = _foot(Pp, A, B); hn = st.get('foot', 'H'); P[hn] = H
@@ -467,7 +467,7 @@ def geo_tex(cfg, height=360):
             else:
                 draw.append('\\tkzDrawSegment[%s](%s,%s)' % (lsty(dict({'strokeColor': '#c2410c', 'dash': 2}, **(st.get('style') or {}))), st['from'], hn))
             ref = pid(A if math.hypot(A[0] - H[0], A[1] - H[1]) > 1e-6 else B)
-            marks.append('\\tkzMarkRightAngle[size=%.2f, draw=%s, line width=0.7pt](%s,%s,%s)' % (0.3 / ux, col('7c2d12'), ref, hn, st['from'])); rmk.add(hn)
+            marks.append('\\tkzMarkRightAngle[size=%.2f, draw=%s, line width=0.7pt, fill=%s, fill opacity=0.3](%s,%s,%s)' % (0.3 / ux, col('b45309'), col('f59e0b'), ref, hn, st['from'])); rmk.add(hn)
             pts_draw.append((hn, 'c2410c'))
             if st.get('footName'): names[hn] = (st['footName'], [8, -12])
         elif t == 'tangent':
@@ -475,16 +475,19 @@ def geo_tex(cfg, height=360):
             d = (-(T[1] - O[1]), T[0] - O[0]); e = _clip_line(T, d, view)
             if st.get('showRadius'): draw.append('\\tkzDrawSegment[%s](%s,%s)' % (lsty({'dash': 2, 'strokeColor': '#475569'}), st['center'], st['at']))
             if e: draw.append('\\tkzDrawSegment[%s](%s,%s)' % (lsty({'strokeColor': '#c2410c', 'strokeWidth': 2.4}), pid(e[0]), pid(e[1])))
-            marks.append('\\tkzMarkRightAngle[size=%.2f, draw=%s, line width=0.7pt](%s,%s,%s)' % (0.3 / ux, col('7c2d12'), st['center'], st['at'], pid(e[1] if e else T))); rmk.add(st['at'])
+            marks.append('\\tkzMarkRightAngle[size=%.2f, draw=%s, line width=0.7pt, fill=%s, fill opacity=0.3](%s,%s,%s)' % (0.3 / ux, col('b45309'), col('f59e0b'), st['center'], st['at'], pid(e[1] if e else T))); rmk.add(st['at'])
         elif t == 'arc':
-            c, a, b = st['points']
-            draw.append('\\tkzDrawArc[draw=%s, line width=1.6pt](%s,%s)(%s)' % (col('c2410c'), c, a, b))
+            c, a, b = st['points']          # cung từ a đến b, ngược chiều kim đồng hồ, tâm c (vẽ bằng TikZ: tkzDrawArc lệch bán kính khi có x=…cm)
+            C0, A0, B0 = P[c], P[a], P[b]; rr = math.hypot(A0[0] - C0[0], A0[1] - C0[1])
+            a1 = math.degrees(math.atan2(A0[1] - C0[1], A0[0] - C0[0])); a2 = math.degrees(math.atan2(B0[1] - C0[1], B0[0] - C0[0]))
+            while a2 <= a1: a2 += 360
+            draw.append('\\draw[draw=%s, line width=1.6pt] (%s,%s) arc[start angle=%s, end angle=%s, radius=%scm];' % (col('c2410c'), fmt(A0[0], 5), fmt(A0[1], 5), fmt(a1, 4), fmt(a2, 4), fmt(rr * ux, 5)))
         elif t == 'angle':
             a, v, b = st['points']; A, V, B = P[a], P[v], P[b]
             ang = (math.degrees(math.atan2(B[1] - V[1], B[0] - V[0]) - math.atan2(A[1] - V[1], A[0] - V[0]))) % 360
             if ang > 180: a, b, ang = b, a, 360 - ang
             r = st.get('radius', 0.8)
-            if abs(ang - 90) < 1e-6:
+            if abs(ang - 90) < 1e-3:
                 if v in rmk: continue
                 marks.append('\\tkzMarkRightAngle[size=%.2f, draw=%s, line width=0.7pt, fill=%s, fill opacity=0.3](%s,%s,%s)' % (0.3 / ux, col('b45309'), col('f59e0b'), a, v, b))
             else:

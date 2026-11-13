@@ -1,0 +1,43 @@
+\documentclass[border=4pt]{standalone}
+\usepackage{fontspec}
+\usepackage{amsmath}
+\usepackage{unicode-math}
+\setmainfont{Latin Modern Roman}
+\setmathfont{Latin Modern Math}
+\usepackage{pgfplots}
+\usepackage{pgfplotstable}
+\pgfplotsset{compat=1.18}
+\usepackage{tkz-euclide}
+\usetikzlibrary{arrows.meta,calc,angles,quotes,patterns,3d,backgrounds}
+\definecolor{ink}{HTML}{123428}
+\definecolor{asy}{HTML}{475569}
+\definecolor{mint}{HTML}{86e0bd}
+\tikzset{asym/.style={asy, line width=0.9pt, dash pattern=on 5pt off 3.5pt},
+         guide/.style={gray!70, line width=0.6pt, densely dotted},
+         dot/.style={circle, inner sep=0pt, minimum size=5pt, draw=white, line width=0.5pt},
+         odot/.style={circle, inner sep=0pt, minimum size=5.5pt, fill=white, line width=1pt},
+         lab/.style={font=\footnotesize, inner sep=1.5pt, text=ink}}
+\begin{document}
+\begin{tikzpicture}[x=1.3636cm, y=1.3636cm]
+\tkzDefPoint(0,0){O}
+\tkzDefPoint(-2.2553,-0.8208){A}
+\tkzDefPoint(-0.4168,-2.3635){B}
+\tkzDefPoint(2.4,0){tmp1}
+\begin{scope}
+\clip (-3.3,-3.0) rectangle (3.3,3.0);
+\tkzFillPolygon[fill={rgb,255:red,134;green,224;blue,189}, fill opacity=0.28](O,A,B)
+\tkzDrawCircle[draw={rgb,255:red,4;green,107;blue,77}, line width=0.9pt](O,tmp1)
+\tkzDrawPolygon[draw={rgb,255:red,4;green,107;blue,77}, line width=0.9pt](O,A,B)
+\draw[draw={rgb,255:red,194;green,65;blue,12}, line width=1.6pt] (-2.2553,-0.8208) arc[start angle=-160.0014, end angle=-100.0012, radius=3.27275cm];
+\end{scope}
+\tkzFillAngle[size=0.6, fill={rgb,255:red,245;green,158;blue,11}, fill opacity=0.3](A,O,B)
+\tkzMarkAngle[size=0.6, draw={rgb,255:red,180;green,83;blue,9}, line width=0.7pt, mark=none](A,O,B)
+\tkzLabelAngle[pos=0.908, text={rgb,255:red,124;green,45;blue,18}, font=\footnotesize](A,O,B){$60^\circ$}
+\node[dot, fill={rgb,255:red,4;green,107;blue,77}] at (O) {};
+\node[dot, fill={rgb,255:red,4;green,107;blue,77}] at (A) {};
+\node[dot, fill={rgb,255:red,4;green,107;blue,77}] at (B) {};
+\node[lab, font=\normalsize, anchor=center, xshift=7.07pt, yshift=8.43pt] at (0,0) {$O$};
+\node[lab, font=\normalsize, anchor=center, xshift=-10.83pt, yshift=1.91pt] at (-2.2553,-0.8208) {$A$};
+\node[lab, font=\normalsize, anchor=center, xshift=3.76pt, yshift=-10.34pt] at (-0.4168,-2.3635) {$B$};
+\end{tikzpicture}
+\end{document}

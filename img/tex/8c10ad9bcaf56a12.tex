@@ -1,0 +1,48 @@
+\documentclass[border=4pt]{standalone}
+\usepackage{fontspec}
+\usepackage{amsmath}
+\usepackage{unicode-math}
+\setmainfont{Latin Modern Roman}
+\setmathfont{Latin Modern Math}
+\usepackage{pgfplots}
+\usepackage{pgfplotstable}
+\pgfplotsset{compat=1.18}
+\usepackage{tkz-euclide}
+\usetikzlibrary{arrows.meta,calc,angles,quotes,patterns,3d,backgrounds}
+\definecolor{ink}{HTML}{123428}
+\definecolor{asy}{HTML}{475569}
+\definecolor{mint}{HTML}{86e0bd}
+\tikzset{asym/.style={asy, line width=0.9pt, dash pattern=on 5pt off 3.5pt},
+         guide/.style={gray!70, line width=0.6pt, densely dotted},
+         dot/.style={circle, inner sep=0pt, minimum size=5pt, draw=white, line width=0.5pt},
+         odot/.style={circle, inner sep=0pt, minimum size=5.5pt, fill=white, line width=1pt},
+         lab/.style={font=\footnotesize, inner sep=1.5pt, text=ink}}
+\begin{document}
+\begin{tikzpicture}[x=1.1111cm, y=1.1111cm]
+\tkzDefPoint(0,0){O}
+\tkzDefPoint(3,0){O1}
+\tkzDefPoint(2.0017,1.4978){A}
+\tkzDefPoint(2.0017,-1.4978){B}
+\tkzDefPoint(2.0017,0){M}
+\tkzDefPoint(2.5,0){tmp1}
+\tkzDefPoint(4.8,0){tmp2}
+\begin{scope}
+\clip (-2.9,-2.8) rectangle (5.2,2.8);
+\tkzDrawCircle[draw={rgb,255:red,4;green,107;blue,77}, line width=0.9pt](O,tmp1)
+\tkzDrawCircle[draw={rgb,255:red,4;green,107;blue,77}, line width=0.9pt](O1,tmp2)
+\tkzDrawSegment[draw=ink, line width=0.90pt, dash pattern=on 4pt off 3pt](O,O1)
+\tkzDrawSegment[draw=ink, line width=0.90pt](A,B)
+\end{scope}
+\tkzMarkRightAngle[size=0.27, draw={rgb,255:red,180;green,83;blue,9}, line width=0.7pt, fill={rgb,255:red,245;green,158;blue,11}, fill opacity=0.3](O1,M,A)
+\node[dot, fill={rgb,255:red,4;green,107;blue,77}] at (O) {};
+\node[dot, fill={rgb,255:red,4;green,107;blue,77}] at (O1) {};
+\node[dot, fill={rgb,255:red,4;green,107;blue,77}] at (A) {};
+\node[dot, fill={rgb,255:red,4;green,107;blue,77}] at (B) {};
+\node[dot, fill={rgb,255:red,4;green,107;blue,77}] at (M) {};
+\node[lab, font=\normalsize, anchor=center, xshift=-11pt, yshift=0pt] at (0,0) {$O$};
+\node[lab, font=\normalsize, anchor=center, xshift=11pt, yshift=0pt] at (3,0) {$O'$};
+\node[lab, font=\normalsize, anchor=center, xshift=0pt, yshift=11pt] at (2.0017,1.4978) {$A$};
+\node[lab, font=\normalsize, anchor=center, xshift=0pt, yshift=-11pt] at (2.0017,-1.4978) {$B$};
+\node[lab, font=\normalsize, anchor=center, xshift=-8pt, yshift=-10pt] at (2.0017,0) {$M$};
+\end{tikzpicture}
+\end{document}

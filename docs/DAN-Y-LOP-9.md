@@ -633,3 +633,62 @@ Tên các mức (cả 11 bài): **Nhận biết – Thông hiểu – Vận dụ
 | g9-trig-02 | line of sight | tia nhìn | The angle between the line of sight and the horizontal. | Mini project Ch.4 |
 | g9-trig-02 | round to the nearest tenth | làm tròn đến hàng phần mười | Round your answer to the nearest tenth of a meter. | TLTA Ch.4 L12 |
 | g9-trig-02 | observer's eye height | chiều cao tới mắt người quan sát | We added the observer's eye height to obtain the total height. | Mini project Ch.4 |
+
+## Kết quả soạn Bài 13–16 (13/11/2026)
+
+| Bài | Mã bài | Ví dụ (NB / TH / VT / V) | A / B / C | D1–D4 | Hình vẽ | Kiểm thử |
+|---|---|---|---|---|---|---|
+| 13 | `g9-circles-01` | 5 (1 / 2 / 1 / 1) | 3 / 2 / 2 | 3 / 3 / 3 / 3 | 2 (vị trí điểm M, N, P; đối xứng qua tâm và qua trục d) | đạt |
+| 14 | `g9-circles-02` | 5 (1 / 2 / 1 / 1) | 3 / 2 / 2 | 3 / 3 / 3 / 3 | 2 (đường kính, dây, góc ở tâm và cung nhỏ tô màu; dây bằng bán kính – cung 60°) | đạt |
+| 15 | `g9-circles-03` | 5 (1 / 2 / 1 / 1) | 3 / 2 / 2 | 3 / 3 / 3 / 3 | 2 (hình quạt n°; hình vành khuyên tô màu) | đạt |
+| 16 | `g9-circles-04` | 5 (1 / 2 / 1 / 1) | 3 / 2 / 2 | 3 / 3 / 3 / 3 | 2 (ba vị trí tương đối a, b, c; hai tiếp tuyến PA, PB) | đạt |
+
+- Kiểm đáp án độc lập (đọc đề, tự tính lại): 228/228 câu đúng.
+- Theo D6: Bài 13 chỉ gồm đường tròn, vị trí điểm – đường tròn, tính đối xứng; ví dụ tiếp tuyến của TLTA Lesson 13 (OP = 13, R = 5, PA = 12) và bài tập Exercise 6 (R = 5, OP = 10) chuyển sang Bài 16.
+- Bài 15 dùng ví dụ của TLTA: lối đi quanh vườn (R = 5 m, rộng 1,5 m, 240 000 đ/m²), cung 72° dài 8π, mũ sinh nhật (R = 18 cm, 120°).
+- Kí hiệu số đo cung: tiếng Việt dùng sđ, tiếng Anh viết bằng lời (minor/major arc) hoặc \(m\overset{\frown}{AB}\), để Mức 3 không lẫn chữ Việt.
+- Công cụ vẽ: nhãn điểm nằm trên đường tròn được đặt ra phía ngoài (tránh bán kính và tiếp tuyến); cung tô màu vẽ lại bằng lệnh TikZ (lệnh cũ vẽ lệch bán kính khi hình có tỉ lệ); hình tròn tô được màu nền trắng (để vẽ vành khuyên); dấu góc vuông nhận cả góc 90° có sai số làm tròn tọa độ. Các hình của Bài 1–12 không đổi.
+
+**Thuật ngữ mới (Bài 13–16)**
+
+| Bài | Tiếng Anh | Tiếng Việt |
+|---|---|---|
+| g9-circles-01 | circle; center; radius (pl. radii); diameter; distance; lie on the same circle | đường tròn; tâm; bán kính; đường kính; khoảng cách; cùng nằm trên một đường tròn |
+| g9-circles-02 | chord; arc; minor arc; major arc; semicircle; measure of an arc; intercepted arc | dây; cung; cung nhỏ; cung lớn; nửa đường tròn; số đo cung; cung bị chắn |
+| g9-circles-03 | circumference; sector; sector area; annulus (pl. annuli); concentric circles; slant height | độ dài đường tròn; hình quạt tròn; diện tích hình quạt tròn; hình vành khuyên; hai đường tròn đồng tâm; đường sinh |
+| g9-circles-04 | secant; tangent; tangent segments from a point; perpendicular; have no common point | cát tuyến; tiếp tuyến; hai tiếp tuyến cắt nhau; vuông góc; không giao nhau |
+
+## Kết quả soạn Bài 17–20 (13/11/2026)
+
+| Bài | Mã bài | Ví dụ (NB / TH / VT / V) | A / B / C | D1–D4 | Hình vẽ | Kiểm thử |
+|---|---|---|---|---|---|---|
+| 17 | `g9-circles-05` | 5 (1 / 2 / 1 / 1) | 3 / 2 / 2 | 3 / 3 / 3 / 3 | 2 (hai đường tròn cắt nhau – dây chung; tiếp xúc ngoài và tiếp xúc trong) | đạt |
+| 18 | `g9-quadratic-01` | 5 (1 / 2 / 1 / 1) | 3 / 2 / 2 | 3 / 3 / 3 / 3 | 3 (đồ thị y = ½x², y = −2x², cổng parabol) | đạt |
+| 19 | `g9-quadratic-02` | 5 (1 / 2 / 1 / 1) | 3 / 2 / 2 | 3 / 3 / 3 / 3 | — (bảng quyết định theo dấu của Δ) | đạt |
+| 20 | `g9-quadratic-03` | 5 (1 / 2 / 1 / 1) | 3 / 2 / 2 | 3 / 3 / 3 / 3 | — | đạt |
+
+- Kiểm đáp án độc lập (đọc đề, tự tính lại bằng phân số chính xác): 228/228 câu đúng.
+- Ví dụ lấy theo TLTA: hai đài phun nước (6 m, 4 m, cách 8 m), tìm bán kính (8 cm, 13 cm), bài toán tham số k; y = −2x² và điểm có tung độ −1/2, parabol qua (2; 2), cổng parabol 6 m × 4,5 m và xe tải, cầu treo (trụ 75 m, cách 400 m); phương trình 3x² + 7x − 1 = 0, bể bơi 28 m × 16 m; hai số có tổng 9 tích 20, phân tích x² + 11x + 18 và 3x² + 5x − 2, mảnh vườn 40 m lưới – 96 m².
+- Từ điển: thêm "bảng giá trị lượng giác" để từ mới "bảng giá trị" (Bài 18) không gắn nhầm trong Bài 11 (trang Bài 11 dựng lại).
+- Công cụ vẽ: nhãn điểm nằm trên đồ thị hàm số tránh hướng tiếp tuyến của đồ thị.
+
+**Thuật ngữ mới (Bài 17–20)**
+
+| Bài | Tiếng Anh | Tiếng Việt |
+|---|---|---|
+| g9-circles-05 | distance between the centers; intersecting circles; externally / internally tangent; outside each other; one inside the other; common chord; collinear | đoạn nối tâm; hai đường tròn cắt nhau; tiếp xúc ngoài / trong; ở ngoài nhau; đựng nhau; dây chung; thẳng hàng |
+| g9-quadratic-01 | parabola; vertex; table of values; abscissa; ordinate; symmetric about; graph | parabol; đỉnh; bảng giá trị; hoành độ; tung độ; đối xứng nhau qua; đồ thị |
+| g9-quadratic-02 | quadratic equation in one unknown; incomplete equation; discriminant; reduced discriminant; two distinct roots; double root; no real roots; quadratic formula | phương trình bậc hai một ẩn; phương trình khuyết; biệt thức; biệt thức thu gọn; hai nghiệm phân biệt; nghiệm kép; vô nghiệm; công thức nghiệm |
+| g9-quadratic-03 | Viète's theorem; sum / product of the roots; solve by inspection; the remaining root; without solving the equation; factorise | định lí Viète; tổng / tích hai nghiệm; nhẩm nghiệm; nghiệm còn lại; không giải phương trình; phân tích thành nhân tử |
+
+## Kết quả soạn Bài 21 (13/11/2026)
+
+| Bài | Mã bài | Ví dụ (NB / TH / VT / V) | A / B / C | D1–D4 | Hình/bảng | Kiểm thử |
+|---|---|---|---|---|---|---|
+| 21 | `g9-quadratic-04` | 5 (1 / 2 / 1 / 1) | 3 / 2 / 2 | 3 / 3 / 3 / 3 | bảng các quan hệ thường dùng; bảng phân tích đại lượng (xuôi – ngược dòng) | đạt |
+
+- Kiểm đáp án độc lập (dò nghiệm thỏa đề, không dùng mã sinh câu): 57/57 câu đúng.
+- Ví dụ theo TLTA: sân bóng 7 người (1 800 m², rộng kém dài 30 m), mảnh đất 360 m² diện tích không đổi, dân số 1 200 000 → 1 452 000, ca nô 36 km nghỉ 30 phút tổng 5,5 giờ, xưởng may 1 500 áo. Bài tập có thêm: đội xe tải, lãi kép, máy bay đi – về, thanh sô-cô-la giảm thể tích.
+- Sửa chung cho phần luyện tập (Bài 13, 15, 16, 18): số thập phân trong câu chữ tiếng Việt trước đây có thể hiện dạng "4{,}5"; nay viết thường "4,5". Trang Bài 3 dựng lại vì từ "điều kiện thích hợp" nay có nghĩa tiếng Anh khi chạm vào.
+
+**Thuật ngữ mới (Bài 21)**: set up an equation – lập phương trình; suitable condition – điều kiện thích hợp; express … in terms of x – biểu diễn … theo x; reject (a root) – loại (nghiệm); downstream – xuôi dòng; upstream – ngược dòng; current – dòng nước; compound interest – lãi kép.
