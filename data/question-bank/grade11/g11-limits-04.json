@@ -1,0 +1,1563 @@
+{
+ "lesson": "g11-limits-04",
+ "grade": 11,
+ "no": 16,
+ "title": "Giới hạn của hàm số",
+ "path": "lessons/grade11/limits/function-limits.html",
+ "items": [
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(\\lim\\limits_{x\\to#}\\dfrac{\\sqrt{x+#}-#}{x}=\\)…",
+   "en": "\\(\\lim\\limits_{x\\to0}\\dfrac{\\sqrt{x+9}-3}{x}=\\)…",
+   "vi": "\\(\\lim\\limits_{x\\to0}\\dfrac{\\sqrt{x+9}-3}{x}=\\)…",
+   "options": [
+    "\\(0\\)",
+    "\\(\\dfrac{1}{3}\\)",
+    "\\(\\dfrac{1}{6}\\)",
+    "\\(+\\infty\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Conjugate: \\(\\dfrac{1}{\\sqrt{x+9}+3}\\to\\dfrac{1}{6}\\).",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"conjugate (multiply by)\">Nhân liên hợp</b>: \\(\\dfrac{1}{\\sqrt{x+9}+3}\\to\\dfrac{1}{6}\\).",
+   "images": [],
+   "id": "dcb63ae88b49",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(\\lim\\limits_{x\\to#}\\dfrac{x^{#}-#x+#}{x-#}=\\)…",
+   "en": "\\(\\lim\\limits_{x\\to2}\\dfrac{x^{2}-7x+10}{x-2}=\\)…",
+   "vi": "\\(\\lim\\limits_{x\\to2}\\dfrac{x^{2}-7x+10}{x-2}=\\)…",
+   "options": [
+    "\\(7\\)",
+    "\\(-3\\)",
+    "\\(3\\)",
+    "\\(0\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\dfrac{(x-2)(x-5)}{x-2}=x-5\\to-3\\).",
+   "explain_vi": "Đáp án b. \\(\\dfrac{(x-2)(x-5)}{x-2}=x-5\\to-3\\).",
+   "images": [],
+   "id": "9017f1b50771",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(\\lim\\limits_{x\\to+\\infty}\\dfrac{#x-#}{#x+#}=\\)…",
+   "en": "\\(\\lim\\limits_{x\\to+\\infty}\\dfrac{4x-1}{2x+3}=\\)…",
+   "vi": "\\(\\lim\\limits_{x\\to+\\infty}\\dfrac{4x-1}{2x+3}=\\)…",
+   "options": [
+    "\\(-\\dfrac{1}{3}\\)",
+    "\\(+\\infty\\)",
+    "\\(2\\)",
+    "\\(0\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Divide by \\(x^{1}\\): the ratio of leading coefficients.",
+   "explain_vi": "Đáp án c. Chia tử và mẫu cho \\(x^{1}\\): <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ratio\">tỉ số</b> các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b> bậc cao nhất.",
+   "images": [],
+   "id": "7e0647407cf3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(\\lim\\limits_{x\\to#^{-}}\\dfrac{#}{x-#}=+\\infty\\).",
+   "en": "\\(\\lim\\limits_{x\\to1^{-}}\\dfrac{3}{x-1}=+\\infty\\).",
+   "vi": "\\(\\lim\\limits_{x\\to1^{-}}\\dfrac{3}{x-1}=+\\infty\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "\\(x-1\\to0^{-}\\) and the numerator is \\(3\\): the limit is \\(-\\infty\\).",
+   "explain_vi": "\\(x-1\\to0^{-}\\), tử bằng \\(3\\): <b class=\"mbl-term\" tabindex=\"0\" data-en=\"limit\">giới hạn</b> là \\(-\\infty\\).",
+   "images": [],
+   "id": "cc18009d4f96",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(f(x)=#x+#\\) for \\(x\\lt#\\), \\(f(x)=x+#\\) for \\(x\\ge#\\). \\(\\lim\\limits_{x\\to#}f(x)\\) exists.",
+   "en": "\\(f(x)=2x+1\\) for \\(x\\lt2\\), \\(f(x)=x+3\\) for \\(x\\ge2\\). \\(\\lim\\limits_{x\\to2}f(x)\\) exists.",
+   "vi": "Cho \\(f(x)=2x+1\\) khi \\(x\\lt2\\), \\(f(x)=x+3\\) khi \\(x\\ge2\\). Tồn tại \\(\\lim\\limits_{x\\to2}f(x)\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "Left limit \\(5\\), right limit \\(5\\).",
+   "explain_vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"limit\">Giới hạn</b> trái \\(5\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"limit\">giới hạn</b> phải \\(5\\).",
+   "images": [],
+   "id": "40065a6ba195",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "A tank has \\(#\\) l of pure water. Salt water of \\(#\\) g/l is added at \\(#\\) l/min, so \\(C(t)=\\dfrac{#\\cdot# t}{#+#t}\\) (g/l). Find \\(\\lim\\limits_{t\\to+\\infty}C(t)\\).",
+   "en": "A tank has \\(100\\) l of pure water. Salt water of \\(20\\) g/l is added at \\(5\\) l/min, so \\(C(t)=\\dfrac{20\\cdot5 t}{100+5t}\\) (g/l). Find \\(\\lim\\limits_{t\\to+\\infty}C(t)\\).",
+   "vi": "Bể chứa \\(100\\) l nước tinh khiết. Bơm vào nước muối \\(20\\) g/l với tốc độ \\(5\\) l/phút, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"concentration\">nồng độ</b> \\(C(t)=\\dfrac{20\\cdot5 t}{100+5t}\\) (g/l). Tính \\(\\lim\\limits_{t\\to+\\infty}C(t)\\).",
+   "options": [],
+   "answer": "20",
+   "explain_en": "Divide by \\(t\\): \\(\\dfrac{100}{\\dfrac{100}t+5}\\to20\\).",
+   "explain_vi": "Chia tử và mẫu cho \\(t\\): \\(\\dfrac{100}{\\dfrac{100}t+5}\\to20\\).",
+   "images": [],
+   "id": "6c882a5507af",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "Find \\(\\lim\\limits_{x\\to#}\\dfrac{x^#-#}{x-#}\\).",
+   "en": "Find \\(\\lim\\limits_{x\\to2}\\dfrac{x^3-8}{x-2}\\).",
+   "vi": "Tính \\(\\lim\\limits_{x\\to2}\\dfrac{x^3-8}{x-2}\\).",
+   "options": [],
+   "answer": "12",
+   "explain_en": "\\(x^2+2x+4\\to3\\cdot4=12\\).",
+   "explain_vi": "\\(x^2+2x+4\\to3\\cdot4=12\\).",
+   "images": [],
+   "id": "4c05febf59e6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Given \\(\\lim\\limits_{x\\to(-#)}\\dfrac{x^#+ax+b}{x+#}=#\\). Find \\(ab\\).",
+   "en": "Given \\(\\lim\\limits_{x\\to(-1)}\\dfrac{x^2+ax+b}{x+1}=1\\). Find \\(ab\\).",
+   "vi": "Biết \\(\\lim\\limits_{x\\to(-1)}\\dfrac{x^2+ax+b}{x+1}=1\\). Tính \\(ab\\).",
+   "options": [
+    "\\(6\\)",
+    "\\(3\\)",
+    "\\(-5\\)",
+    "\\(1\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. The numerator must vanish at \\(x=-1\\) and \\(x^2+ax+b=(x+1)(x+2)\\); then the limit is \\(-1+2=1\\). So \\(a=3\\), \\(b=2\\).",
+   "explain_vi": "Đáp án a. Tử phải bằng 0 tại \\(x=-1\\) và \\(x^2+ax+b=(x+1)(x+2)\\); khi đó <b class=\"mbl-term\" tabindex=\"0\" data-en=\"limit\">giới hạn</b> bằng \\(-1+2=1\\). Vậy \\(a=3\\), \\(b=2\\).",
+   "images": [],
+   "id": "cfee5a3c0f20",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The figure shows the graph of \\(y=\\dfrac{#x+#}{x+#}\\) and its asymptotes (dashed). Find \\(\\lim\\limits_{x\\to(-#)^{+}}y\\).",
+   "en": "The figure shows the graph of \\(y=\\dfrac{2x+3}{x+1}\\) and its asymptotes (dashed). Find \\(\\lim\\limits_{x\\to(-1)^{+}}y\\).",
+   "vi": "Hình vẽ là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">đồ thị hàm số</b> \\(y=\\dfrac{2x+3}{x+1}\\) và các tiệm cận (nét đứt). Tìm \\(\\lim\\limits_{x\\to(-1)^{+}}y\\).",
+   "options": [
+    "\\(-\\infty\\)",
+    "\\(-1\\)",
+    "\\(2\\)",
+    "\\(+\\infty\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Near \\(x=-1\\) the numerator tends to \\(1\\) and the denominator to \\(0\\) with sign +; the graph goes up along the dashed line \\(x=-1\\).",
+   "explain_vi": "Đáp án d. Gần \\(x=-1\\), tử <b class=\"mbl-term\" tabindex=\"0\" data-en=\"approach (tend to)\">dần tới</b> \\(1\\), mẫu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"approach (tend to)\">dần tới</b> \\(0\\) và mang dấu +; <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> đi lên dọc theo đường nét đứt \\(x=-1\\).",
+   "images": [],
+   "id": "efbc8851ebf4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The figure shows the graph of \\(y=f(x)\\) (an open dot means the point is not on the graph). Find \\(\\lim\\limits_{x\\to#^{+}}f(x)\\).",
+   "en": "The figure shows the graph of \\(y=f(x)\\) (an open dot means the point is not on the graph). Find \\(\\lim\\limits_{x\\to3^{+}}f(x)\\).<img src=\"../../../img/tex/c42b6a634620457b.svg\" alt=\"Graph with a jump\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,330px);height:auto\">",
+   "vi": "Hình vẽ là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">đồ thị hàm số</b> \\(y=f(x)\\) (chấm rỗng là điểm không thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b>). Tìm \\(\\lim\\limits_{x\\to3^{+}}f(x)\\).<img src=\"../../../img/tex/c42b6a634620457b.svg\" alt=\"Đồ thị có bước nhảy\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,330px);height:auto\">",
+   "options": [
+    "\\(1\\)",
+    "\\(3\\)",
+    "\\(-1\\)",
+    "\\(0\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. As \\(x\\) approaches \\(3\\) from the right, the graph approaches the height \\(-1\\).",
+   "explain_vi": "Đáp án c. Khi \\(x\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"approach (tend to)\">dần tới</b> \\(3\\) từ bên phải, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"approach (tend to)\">dần tới</b> độ cao \\(-1\\).",
+   "images": [
+    "img/tex/c42b6a634620457b.svg"
+   ],
+   "id": "53f4f5d9c29a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The table gives some values of a function \\(f(x)\\) near \\(x=#\\) (\\(f\\) is not defined at \\(#\\)). Which is most likely \\(\\lim\\limits_{x\\to#}f(x)\\)?\\(x\\)\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(f(x)\\)\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(#\\)",
+   "en": "The table gives some values of a function \\(f(x)\\) near \\(x=1\\) (\\(f\\) is not defined at \\(1\\)). Which is most likely \\(\\lim\\limits_{x\\to1}f(x)\\)?<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">\\(x\\)</th><td>\\(0.9\\)</td><td>\\(0.99\\)</td><td>\\(0.999\\)</td><td>\\(1.001\\)</td><td>\\(1.01\\)</td><td>\\(1.1\\)</td></tr><tr><th scope=\"row\">\\(f(x)\\)</th><td>\\(1.2\\)</td><td>\\(1.02\\)</td><td>\\(1.002\\)</td><td>\\(0.998\\)</td><td>\\(0.98\\)</td><td>\\(0.8\\)</td></tr></tbody></table></div>",
+   "vi": "Bảng cho một số giá trị của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(f(x)\\) gần \\(x=1\\) (\\(f\\) không xác định tại \\(1\\)). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"limit\">Giới hạn</b> \\(\\lim\\limits_{x\\to1}f(x)\\) có khả năng bằng bao nhiêu nhất?<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">\\(x\\)</th><td>\\(0{,}9\\)</td><td>\\(0{,}99\\)</td><td>\\(0{,}999\\)</td><td>\\(1{,}001\\)</td><td>\\(1{,}01\\)</td><td>\\(1{,}1\\)</td></tr><tr><th scope=\"row\">\\(f(x)\\)</th><td>\\(1{,}2\\)</td><td>\\(1{,}02\\)</td><td>\\(1{,}002\\)</td><td>\\(0{,}998\\)</td><td>\\(0{,}98\\)</td><td>\\(0{,}8\\)</td></tr></tbody></table></div>",
+   "options": [
+    "\\(0\\)",
+    "\\(1\\)",
+    "\\(2\\)",
+    "<span class=\"txi\"><span class=\"en\">\\(0.8\\)</span><span class=\"vi\">\\(0{,}8\\)</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. From both sides, \\(f(x)\\) gets closer and closer to \\(1\\).",
+   "explain_vi": "Đáp án b. Từ cả hai phía, \\(f(x)\\) ngày càng gần \\(1\\).",
+   "images": [],
+   "id": "acf9a220384a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\lim\\limits_{x\\to(-#)^{+}}\\dfrac{x^#+#x}{|x+#|}=\\)…",
+   "en": "\\(\\lim\\limits_{x\\to(-3)^{+}}\\dfrac{x^2+3x}{|x+3|}=\\)…",
+   "vi": "\\(\\lim\\limits_{x\\to(-3)^{+}}\\dfrac{x^2+3x}{|x+3|}=\\)…",
+   "options": [
+    "\\(0\\)",
+    "\\(1\\)",
+    "\\(3\\)",
+    "\\(-3\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(x^2+3x=x(x+3)\\). For \\(x\\to(-3)^{+}\\), \\(|x+3|=(x+3)\\), so the quotient is \\(x\\to-3\\).",
+   "explain_vi": "Đáp án d. \\(x^2+3x=x(x+3)\\). Khi \\(x\\to(-3)^{+}\\), \\(|x+3|=(x+3)\\) nên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"quotient\">thương</b> bằng \\(x\\to-3\\).",
+   "images": [],
+   "id": "e42e9bdadc5d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\lim\\limits_{x\\to+\\infty}\\left(#x^#+#x^#-#\\right)=\\)…",
+   "en": "\\(\\lim\\limits_{x\\to+\\infty}\\left(2x^3+2x^2-4\\right)=\\)…",
+   "vi": "\\(\\lim\\limits_{x\\to+\\infty}\\left(2x^3+2x^2-4\\right)=\\)…",
+   "options": [
+    "\\(-\\infty\\)",
+    "\\(0\\)",
+    "\\(2\\)",
+    "\\(+\\infty\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(2x^3+2x^2-4=x^3\\left(2+\\dfrac{2}{x^1}+\\dfrac{-4}{x^3}\\right)\\); \\(x^3\\to+\\infty\\) and the bracket tends to \\(2\\), so the limit is \\(+\\infty\\).",
+   "explain_vi": "Đáp án d. \\(2x^3+2x^2-4=x^3\\left(2+\\dfrac{2}{x^1}+\\dfrac{-4}{x^3}\\right)\\); \\(x^3\\to+\\infty\\) và biểu thức trong ngoặc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"approach (tend to)\">dần tới</b> \\(2\\) nên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"limit\">giới hạn</b> là \\(+\\infty\\).",
+   "images": [],
+   "id": "8913072b1bf3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\lim\\limits_{x\\to+\\infty}\\left(\\sqrt{x^#+#x+#}-x\\right)=\\)…",
+   "en": "\\(\\lim\\limits_{x\\to+\\infty}\\left(\\sqrt{x^2+6x+3}-x\\right)=\\)…",
+   "vi": "\\(\\lim\\limits_{x\\to+\\infty}\\left(\\sqrt{x^2+6x+3}-x\\right)=\\)…",
+   "options": [
+    "\\(0\\)",
+    "\\(3\\)",
+    "\\(+\\infty\\)",
+    "\\(6\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Multiply by the conjugate: \\(\\dfrac{6x+3}{\\sqrt{x^2+6x+3}+x}\\to\\dfrac{6}{2}=3\\).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"conjugate (multiply by)\">Nhân liên hợp</b>: \\(\\dfrac{6x+3}{\\sqrt{x^2+6x+3}+x}\\to\\dfrac{6}{2}=3\\).",
+   "images": [],
+   "id": "80086dd3d02c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\lim\\limits_{x\\to-\\infty}\\dfrac{\\sqrt{#x^#+#}}{#x+#}=\\)…",
+   "en": "\\(\\lim\\limits_{x\\to-\\infty}\\dfrac{\\sqrt{9x^2+3}}{3x+1}=\\)…",
+   "vi": "\\(\\lim\\limits_{x\\to-\\infty}\\dfrac{\\sqrt{9x^2+3}}{3x+1}=\\)…",
+   "options": [
+    "\\(1\\)",
+    "\\(-1\\)",
+    "\\(3\\)",
+    "\\(-3\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. For \\(x\\lt0\\), \\(\\sqrt{x^2}=|x|=-x\\): the limit is \\(\\dfrac{-3}{3}=-1\\).",
+   "explain_vi": "Đáp án b. Với \\(x\\lt0\\), \\(\\sqrt{x^2}=|x|=-x\\): <b class=\"mbl-term\" tabindex=\"0\" data-en=\"limit\">giới hạn</b> bằng \\(\\dfrac{-3}{3}=-1\\).",
+   "images": [],
+   "id": "b13c1b5d69b9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(\\lim\\limits_{x\\to#}\\dfrac{\\sqrt{x+#}-#}{x}=\\)…",
+   "en": "\\(\\lim\\limits_{x\\to0}\\dfrac{\\sqrt{x+25}-5}{x}=\\)…",
+   "vi": "\\(\\lim\\limits_{x\\to0}\\dfrac{\\sqrt{x+25}-5}{x}=\\)…",
+   "options": [
+    "\\(0\\)",
+    "\\(\\dfrac{1}{5}\\)",
+    "\\(+\\infty\\)",
+    "\\(\\dfrac{1}{10}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Conjugate: \\(\\dfrac{1}{\\sqrt{x+25}+5}\\to\\dfrac{1}{10}\\).",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"conjugate (multiply by)\">Nhân liên hợp</b>: \\(\\dfrac{1}{\\sqrt{x+25}+5}\\to\\dfrac{1}{10}\\).",
+   "images": [],
+   "id": "0061dbf24c95",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(\\lim\\limits_{x\\to-#}\\dfrac{x^{#}-#x-#}{x+#}=\\)…",
+   "en": "\\(\\lim\\limits_{x\\to-1}\\dfrac{x^{2}-2x-3}{x+1}=\\)…",
+   "vi": "\\(\\lim\\limits_{x\\to-1}\\dfrac{x^{2}-2x-3}{x+1}=\\)…",
+   "options": [
+    "\\(2\\)",
+    "\\(-4\\)",
+    "\\(4\\)",
+    "\\(0\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\dfrac{(x+1)(x-3)}{x+1}=x-3\\to-4\\).",
+   "explain_vi": "Đáp án b. \\(\\dfrac{(x+1)(x-3)}{x+1}=x-3\\to-4\\).",
+   "images": [],
+   "id": "2f09237bfca3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(\\lim\\limits_{x\\to-\\infty}\\dfrac{-#x^{#}+#}{#x^{#}+#x-#}=\\)…",
+   "en": "\\(\\lim\\limits_{x\\to-\\infty}\\dfrac{-6x^{2}+1}{3x^{2}+2x-1}=\\)…",
+   "vi": "\\(\\lim\\limits_{x\\to-\\infty}\\dfrac{-6x^{2}+1}{3x^{2}+2x-1}=\\)…",
+   "options": [
+    "\\(-1\\)",
+    "\\(-\\infty\\)",
+    "\\(0\\)",
+    "\\(-2\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Divide by \\(x^{2}\\): the ratio of leading coefficients.",
+   "explain_vi": "Đáp án d. Chia tử và mẫu cho \\(x^{2}\\): <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ratio\">tỉ số</b> các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b> bậc cao nhất.",
+   "images": [],
+   "id": "72af1ee08ab1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(\\lim\\limits_{x\\to-#^{+}}\\dfrac{#}{x+#}=+\\infty\\).",
+   "en": "\\(\\lim\\limits_{x\\to-2^{+}}\\dfrac{5}{x+2}=+\\infty\\).",
+   "vi": "\\(\\lim\\limits_{x\\to-2^{+}}\\dfrac{5}{x+2}=+\\infty\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "\\(x+2\\to0^{+}\\) and the numerator is \\(5\\): the limit is \\(+\\infty\\).",
+   "explain_vi": "\\(x+2\\to0^{+}\\), tử bằng \\(5\\): <b class=\"mbl-term\" tabindex=\"0\" data-en=\"limit\">giới hạn</b> là \\(+\\infty\\).",
+   "images": [],
+   "id": "725fb1c6debe",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(f(x)=#x-#\\) for \\(x\\lt#\\), \\(f(x)=x+#\\) for \\(x\\ge#\\). \\(\\lim\\limits_{x\\to#}f(x)\\) exists.",
+   "en": "\\(f(x)=3x-2\\) for \\(x\\lt1\\), \\(f(x)=x+2\\) for \\(x\\ge1\\). \\(\\lim\\limits_{x\\to1}f(x)\\) exists.",
+   "vi": "Cho \\(f(x)=3x-2\\) khi \\(x\\lt1\\), \\(f(x)=x+2\\) khi \\(x\\ge1\\). Tồn tại \\(\\lim\\limits_{x\\to1}f(x)\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "Left limit \\(1\\), right limit \\(3\\).",
+   "explain_vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"limit\">Giới hạn</b> trái \\(1\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"limit\">giới hạn</b> phải \\(3\\).",
+   "images": [],
+   "id": "f1a01410f557",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "A tank has \\(#\\) l of pure water. Salt water of \\(#\\) g/l is added at \\(#\\) l/min, so \\(C(t)=\\dfrac{#\\cdot# t}{#+#t}\\) (g/l). Find \\(\\lim\\limits_{t\\to+\\infty}C(t)\\).",
+   "en": "A tank has \\(500\\) l of pure water. Salt water of \\(40\\) g/l is added at \\(10\\) l/min, so \\(C(t)=\\dfrac{40\\cdot10 t}{500+10t}\\) (g/l). Find \\(\\lim\\limits_{t\\to+\\infty}C(t)\\).",
+   "vi": "Bể chứa \\(500\\) l nước tinh khiết. Bơm vào nước muối \\(40\\) g/l với tốc độ \\(10\\) l/phút, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"concentration\">nồng độ</b> \\(C(t)=\\dfrac{40\\cdot10 t}{500+10t}\\) (g/l). Tính \\(\\lim\\limits_{t\\to+\\infty}C(t)\\).",
+   "options": [],
+   "answer": "40",
+   "explain_en": "Divide by \\(t\\): \\(\\dfrac{400}{\\dfrac{500}t+10}\\to40\\).",
+   "explain_vi": "Chia tử và mẫu cho \\(t\\): \\(\\dfrac{400}{\\dfrac{500}t+10}\\to40\\).",
+   "images": [],
+   "id": "0a2c523a6cc6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "Find \\(\\lim\\limits_{x\\to-#}\\dfrac{x^#+#}{x+#}\\).",
+   "en": "Find \\(\\lim\\limits_{x\\to-1}\\dfrac{x^3+1}{x+1}\\).",
+   "vi": "Tính \\(\\lim\\limits_{x\\to-1}\\dfrac{x^3+1}{x+1}\\).",
+   "options": [],
+   "answer": "3",
+   "explain_en": "\\(x^2-1x+1\\to3\\cdot1=3\\).",
+   "explain_vi": "\\(x^2-1x+1\\to3\\cdot1=3\\).",
+   "images": [],
+   "id": "8ba801c22870",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Given \\(\\lim\\limits_{x\\to#}\\dfrac{x^#+ax+b}{x-#}=#\\). Find \\(a+b\\).",
+   "en": "Given \\(\\lim\\limits_{x\\to2}\\dfrac{x^2+ax+b}{x-2}=3\\). Find \\(a+b\\).",
+   "vi": "Biết \\(\\lim\\limits_{x\\to2}\\dfrac{x^2+ax+b}{x-2}=3\\). Tính \\(a+b\\).",
+   "options": [
+    "\\(1\\)",
+    "\\(3\\)",
+    "\\(-3\\)",
+    "\\(-1\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The numerator must vanish at \\(x=2\\) and \\(x^2+ax+b=(x-2)(x+1)\\); then the limit is \\(2+1=3\\). So \\(a=-1\\), \\(b=-2\\).",
+   "explain_vi": "Đáp án c. Tử phải bằng 0 tại \\(x=2\\) và \\(x^2+ax+b=(x-2)(x+1)\\); khi đó <b class=\"mbl-term\" tabindex=\"0\" data-en=\"limit\">giới hạn</b> bằng \\(2+1=3\\). Vậy \\(a=-1\\), \\(b=-2\\).",
+   "images": [],
+   "id": "e986a4677c41",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The figure shows the graph of \\(y=\\dfrac{-x+#}{x+#}\\) and its asymptotes (dashed). Find \\(\\lim\\limits_{x\\to(-#)^{-}}y\\).",
+   "en": "The figure shows the graph of \\(y=\\dfrac{-x+3}{x+1}\\) and its asymptotes (dashed). Find \\(\\lim\\limits_{x\\to(-1)^{-}}y\\).",
+   "vi": "Hình vẽ là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">đồ thị hàm số</b> \\(y=\\dfrac{-x+3}{x+1}\\) và các tiệm cận (nét đứt). Tìm \\(\\lim\\limits_{x\\to(-1)^{-}}y\\).",
+   "options": [
+    "\\(-\\infty\\)",
+    "\\(-1\\)",
+    "\\(0\\)",
+    "\\(+\\infty\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Near \\(x=-1\\) the numerator tends to \\(4\\) and the denominator to \\(0\\) with sign −; the graph goes down along the dashed line \\(x=-1\\).",
+   "explain_vi": "Đáp án a. Gần \\(x=-1\\), tử <b class=\"mbl-term\" tabindex=\"0\" data-en=\"approach (tend to)\">dần tới</b> \\(4\\), mẫu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"approach (tend to)\">dần tới</b> \\(0\\) và mang dấu −; <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> đi xuống dọc theo đường nét đứt \\(x=-1\\).",
+   "images": [],
+   "id": "c70d0aad0ce5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The figure shows the graph of \\(y=f(x)\\) (an open dot means the point is not on the graph). Find \\(\\lim\\limits_{x\\to-#^{-}}f(x)\\).",
+   "en": "The figure shows the graph of \\(y=f(x)\\) (an open dot means the point is not on the graph). Find \\(\\lim\\limits_{x\\to-1^{-}}f(x)\\).<img src=\"../../../img/tex/0f05334e98c9f551.svg\" alt=\"Graph with a jump\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,330px);height:auto\">",
+   "vi": "Hình vẽ là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">đồ thị hàm số</b> \\(y=f(x)\\) (chấm rỗng là điểm không thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b>). Tìm \\(\\lim\\limits_{x\\to-1^{-}}f(x)\\).<img src=\"../../../img/tex/0f05334e98c9f551.svg\" alt=\"Đồ thị có bước nhảy\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,330px);height:auto\">",
+   "options": [
+    "\\(-1\\)",
+    "\\(0\\)",
+    "\\(-2\\)",
+    "\\(1\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. As \\(x\\) approaches \\(-1\\) from the left, the graph approaches the height \\(0\\).",
+   "explain_vi": "Đáp án b. Khi \\(x\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"approach (tend to)\">dần tới</b> \\(-1\\) từ bên trái, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"approach (tend to)\">dần tới</b> độ cao \\(0\\).",
+   "images": [
+    "img/tex/0f05334e98c9f551.svg"
+   ],
+   "id": "9b40cb46b886",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The table gives some values of a function \\(f(x)\\) near \\(x=#\\) (\\(f\\) is not defined at \\(#\\)). Which is most likely \\(\\lim\\limits_{x\\to#}f(x)\\)?\\(x\\)\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(f(x)\\)\\(-#\\)\\(-#\\)\\(-#\\)\\(-#\\)\\(-#\\)\\(-#\\)",
+   "en": "The table gives some values of a function \\(f(x)\\) near \\(x=2\\) (\\(f\\) is not defined at \\(2\\)). Which is most likely \\(\\lim\\limits_{x\\to2}f(x)\\)?<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">\\(x\\)</th><td>\\(1.9\\)</td><td>\\(1.99\\)</td><td>\\(1.999\\)</td><td>\\(2.001\\)</td><td>\\(2.01\\)</td><td>\\(2.1\\)</td></tr><tr><th scope=\"row\">\\(f(x)\\)</th><td>\\(-1.8\\)</td><td>\\(-1.98\\)</td><td>\\(-1.998\\)</td><td>\\(-2.002\\)</td><td>\\(-2.02\\)</td><td>\\(-2.2\\)</td></tr></tbody></table></div>",
+   "vi": "Bảng cho một số giá trị của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(f(x)\\) gần \\(x=2\\) (\\(f\\) không xác định tại \\(2\\)). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"limit\">Giới hạn</b> \\(\\lim\\limits_{x\\to2}f(x)\\) có khả năng bằng bao nhiêu nhất?<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">\\(x\\)</th><td>\\(1{,}9\\)</td><td>\\(1{,}99\\)</td><td>\\(1{,}999\\)</td><td>\\(2{,}001\\)</td><td>\\(2{,}01\\)</td><td>\\(2{,}1\\)</td></tr><tr><th scope=\"row\">\\(f(x)\\)</th><td>\\(-1{,}8\\)</td><td>\\(-1{,}98\\)</td><td>\\(-1{,}998\\)</td><td>\\(-2{,}002\\)</td><td>\\(-2{,}02\\)</td><td>\\(-2{,}2\\)</td></tr></tbody></table></div>",
+   "options": [
+    "\\(2\\)",
+    "\\(0\\)",
+    "<span class=\"txi\"><span class=\"en\">\\(-2.2\\)</span><span class=\"vi\">\\(-2{,}2\\)</span></span>",
+    "\\(-2\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. From both sides, \\(f(x)\\) gets closer and closer to \\(-2\\).",
+   "explain_vi": "Đáp án d. Từ cả hai phía, \\(f(x)\\) ngày càng gần \\(-2\\).",
+   "images": [],
+   "id": "44ecb46a3665",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\lim\\limits_{x\\to(-#)^{-}}\\dfrac{x^#+#x}{|x+#|}=\\)…",
+   "en": "\\(\\lim\\limits_{x\\to(-3)^{-}}\\dfrac{x^2+3x}{|x+3|}=\\)…",
+   "vi": "\\(\\lim\\limits_{x\\to(-3)^{-}}\\dfrac{x^2+3x}{|x+3|}=\\)…",
+   "options": [
+    "\\(1\\)",
+    "\\(0\\)",
+    "\\(-3\\)",
+    "\\(3\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(x^2+3x=x(x+3)\\). For \\(x\\to(-3)^{-}\\), \\(|x+3|=-(x+3)\\), so the quotient is \\(-x\\to3\\).",
+   "explain_vi": "Đáp án d. \\(x^2+3x=x(x+3)\\). Khi \\(x\\to(-3)^{-}\\), \\(|x+3|=-(x+3)\\) nên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"quotient\">thương</b> bằng \\(-x\\to3\\).",
+   "images": [],
+   "id": "8f33fb87583d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\lim\\limits_{x\\to+\\infty}\\left(\\sqrt{x^#+#x+#}-x\\right)=\\)…",
+   "en": "\\(\\lim\\limits_{x\\to+\\infty}\\left(\\sqrt{x^2+4x+1}-x\\right)=\\)…",
+   "vi": "\\(\\lim\\limits_{x\\to+\\infty}\\left(\\sqrt{x^2+4x+1}-x\\right)=\\)…",
+   "options": [
+    "\\(+\\infty\\)",
+    "\\(4\\)",
+    "\\(2\\)",
+    "\\(0\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Multiply by the conjugate: \\(\\dfrac{4x+1}{\\sqrt{x^2+4x+1}+x}\\to\\dfrac{4}{2}=2\\).",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"conjugate (multiply by)\">Nhân liên hợp</b>: \\(\\dfrac{4x+1}{\\sqrt{x^2+4x+1}+x}\\to\\dfrac{4}{2}=2\\).",
+   "images": [],
+   "id": "91039e31b873",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\lim\\limits_{x\\to-\\infty}\\dfrac{\\sqrt{#x^#+#}}{x+#}=\\)…",
+   "en": "\\(\\lim\\limits_{x\\to-\\infty}\\dfrac{\\sqrt{25x^2+3}}{x+5}=\\)…",
+   "vi": "\\(\\lim\\limits_{x\\to-\\infty}\\dfrac{\\sqrt{25x^2+3}}{x+5}=\\)…",
+   "options": [
+    "\\(-25\\)",
+    "\\(5\\)",
+    "\\(-5\\)",
+    "\\(25\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. For \\(x\\lt0\\), \\(\\sqrt{x^2}=|x|=-x\\): the limit is \\(\\dfrac{-5}{1}=-5\\).",
+   "explain_vi": "Đáp án c. Với \\(x\\lt0\\), \\(\\sqrt{x^2}=|x|=-x\\): <b class=\"mbl-term\" tabindex=\"0\" data-en=\"limit\">giới hạn</b> bằng \\(\\dfrac{-5}{1}=-5\\).",
+   "images": [],
+   "id": "cf1f5ef0b4b0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\lim\\limits_{x\\to-\\infty}\\left(x^#+#x^#-#\\right)=\\)…",
+   "en": "\\(\\lim\\limits_{x\\to-\\infty}\\left(x^3+7x^2-4\\right)=\\)…",
+   "vi": "\\(\\lim\\limits_{x\\to-\\infty}\\left(x^3+7x^2-4\\right)=\\)…",
+   "options": [
+    "\\(+\\infty\\)",
+    "\\(0\\)",
+    "\\(1\\)",
+    "\\(-\\infty\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(x^3+7x^2-4=x^3\\left(1+\\dfrac{7}{x^1}+\\dfrac{-4}{x^3}\\right)\\); \\(x^3\\to-\\infty\\) and the bracket tends to \\(1\\), so the limit is \\(-\\infty\\).",
+   "explain_vi": "Đáp án d. \\(x^3+7x^2-4=x^3\\left(1+\\dfrac{7}{x^1}+\\dfrac{-4}{x^3}\\right)\\); \\(x^3\\to-\\infty\\) và biểu thức trong ngoặc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"approach (tend to)\">dần tới</b> \\(1\\) nên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"limit\">giới hạn</b> là \\(-\\infty\\).",
+   "images": [],
+   "id": "883fa17b051f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(\\lim\\limits_{x\\to#}\\dfrac{\\sqrt{x+#}-#}{x}=\\)…",
+   "en": "\\(\\lim\\limits_{x\\to0}\\dfrac{\\sqrt{x+4}-2}{x}=\\)…",
+   "vi": "\\(\\lim\\limits_{x\\to0}\\dfrac{\\sqrt{x+4}-2}{x}=\\)…",
+   "options": [
+    "\\(0\\)",
+    "\\(\\dfrac{1}{2}\\)",
+    "\\(\\dfrac{1}{4}\\)",
+    "\\(+\\infty\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Conjugate: \\(\\dfrac{1}{\\sqrt{x+4}+2}\\to\\dfrac{1}{4}\\).",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"conjugate (multiply by)\">Nhân liên hợp</b>: \\(\\dfrac{1}{\\sqrt{x+4}+2}\\to\\dfrac{1}{4}\\).",
+   "images": [],
+   "id": "2053a9a4576e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(\\lim\\limits_{x\\to#}\\dfrac{x^{#}-#x-#}{x-#}=\\)…",
+   "en": "\\(\\lim\\limits_{x\\to4}\\dfrac{x^{2}-2x-8}{x-4}=\\)…",
+   "vi": "\\(\\lim\\limits_{x\\to4}\\dfrac{x^{2}-2x-8}{x-4}=\\)…",
+   "options": [
+    "\\(6\\)",
+    "\\(2\\)",
+    "\\(-6\\)",
+    "\\(0\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\dfrac{(x-4)(x+2)}{x-4}=x+2\\to6\\).",
+   "explain_vi": "Đáp án a. \\(\\dfrac{(x-4)(x+2)}{x-4}=x+2\\to6\\).",
+   "images": [],
+   "id": "4759b39fae05",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(\\lim\\limits_{x\\to+\\infty}\\dfrac{#x^{#}+#x}{#x^{#}+#}=\\)…",
+   "en": "\\(\\lim\\limits_{x\\to+\\infty}\\dfrac{5x^{2}+2x}{2x^{2}+7}=\\)…",
+   "vi": "\\(\\lim\\limits_{x\\to+\\infty}\\dfrac{5x^{2}+2x}{2x^{2}+7}=\\)…",
+   "options": [
+    "\\(0\\)",
+    "\\(\\dfrac{5}{2}\\)",
+    "\\(+\\infty\\)",
+    "\\(-\\dfrac{5}{2}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Divide by \\(x^{2}\\): the ratio of leading coefficients.",
+   "explain_vi": "Đáp án b. Chia tử và mẫu cho \\(x^{2}\\): <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ratio\">tỉ số</b> các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b> bậc cao nhất.",
+   "images": [],
+   "id": "06d8aa20782e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(\\lim\\limits_{x\\to#^{+}}\\dfrac{-#}{x-#}=+\\infty\\).",
+   "en": "\\(\\lim\\limits_{x\\to3^{+}}\\dfrac{-2}{x-3}=+\\infty\\).",
+   "vi": "\\(\\lim\\limits_{x\\to3^{+}}\\dfrac{-2}{x-3}=+\\infty\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "\\(x-3\\to0^{+}\\) and the numerator is \\(-2\\): the limit is \\(-\\infty\\).",
+   "explain_vi": "\\(x-3\\to0^{+}\\), tử bằng \\(-2\\): <b class=\"mbl-term\" tabindex=\"0\" data-en=\"limit\">giới hạn</b> là \\(-\\infty\\).",
+   "images": [],
+   "id": "4a80cff4de6b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(f(x)=x+#\\) for \\(x\\lt#\\), \\(f(x)=#x+#\\) for \\(x\\ge#\\). \\(\\lim\\limits_{x\\to#}f(x)\\) exists.",
+   "en": "\\(f(x)=x+4\\) for \\(x\\lt3\\), \\(f(x)=2x+1\\) for \\(x\\ge3\\). \\(\\lim\\limits_{x\\to3}f(x)\\) exists.",
+   "vi": "Cho \\(f(x)=x+4\\) khi \\(x\\lt3\\), \\(f(x)=2x+1\\) khi \\(x\\ge3\\). Tồn tại \\(\\lim\\limits_{x\\to3}f(x)\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "Left limit \\(7\\), right limit \\(7\\).",
+   "explain_vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"limit\">Giới hạn</b> trái \\(7\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"limit\">giới hạn</b> phải \\(7\\).",
+   "images": [],
+   "id": "93c5d4d92547",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "A tank has \\(#\\) l of pure water. Salt water of \\(#\\) g/l is added at \\(#\\) l/min, so \\(C(t)=\\dfrac{#\\cdot# t}{#+#t}\\) (g/l). Find \\(\\lim\\limits_{t\\to+\\infty}C(t)\\).",
+   "en": "A tank has \\(300\\) l of pure water. Salt water of \\(15\\) g/l is added at \\(6\\) l/min, so \\(C(t)=\\dfrac{15\\cdot6 t}{300+6t}\\) (g/l). Find \\(\\lim\\limits_{t\\to+\\infty}C(t)\\).",
+   "vi": "Bể chứa \\(300\\) l nước tinh khiết. Bơm vào nước muối \\(15\\) g/l với tốc độ \\(6\\) l/phút, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"concentration\">nồng độ</b> \\(C(t)=\\dfrac{15\\cdot6 t}{300+6t}\\) (g/l). Tính \\(\\lim\\limits_{t\\to+\\infty}C(t)\\).",
+   "options": [],
+   "answer": "15",
+   "explain_en": "Divide by \\(t\\): \\(\\dfrac{90}{\\dfrac{300}t+6}\\to15\\).",
+   "explain_vi": "Chia tử và mẫu cho \\(t\\): \\(\\dfrac{90}{\\dfrac{300}t+6}\\to15\\).",
+   "images": [],
+   "id": "b9d5005218fe",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Find \\(\\lim\\limits_{x\\to#}\\dfrac{x^#-#}{x-#}\\).",
+   "en": "Find \\(\\lim\\limits_{x\\to3}\\dfrac{x^3-27}{x-3}\\).",
+   "vi": "Tính \\(\\lim\\limits_{x\\to3}\\dfrac{x^3-27}{x-3}\\).",
+   "options": [],
+   "answer": "27",
+   "explain_en": "\\(x^2+3x+9\\to3\\cdot9=27\\).",
+   "explain_vi": "\\(x^2+3x+9\\to3\\cdot9=27\\).",
+   "images": [],
+   "id": "a6f7edef40c6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Given \\(\\lim\\limits_{x\\to(-#)}\\dfrac{x^#+ax+b}{x+#}=#\\). Find \\(a+b\\).",
+   "en": "Given \\(\\lim\\limits_{x\\to(-1)}\\dfrac{x^2+ax+b}{x+1}=1\\). Find \\(a+b\\).",
+   "vi": "Biết \\(\\lim\\limits_{x\\to(-1)}\\dfrac{x^2+ax+b}{x+1}=1\\). Tính \\(a+b\\).",
+   "options": [
+    "\\(-5\\)",
+    "\\(5\\)",
+    "\\(1\\)",
+    "\\(3\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. The numerator must vanish at \\(x=-1\\) and \\(x^2+ax+b=(x+1)(x+2)\\); then the limit is \\(-1+2=1\\). So \\(a=3\\), \\(b=2\\).",
+   "explain_vi": "Đáp án b. Tử phải bằng 0 tại \\(x=-1\\) và \\(x^2+ax+b=(x+1)(x+2)\\); khi đó <b class=\"mbl-term\" tabindex=\"0\" data-en=\"limit\">giới hạn</b> bằng \\(-1+2=1\\). Vậy \\(a=3\\), \\(b=2\\).",
+   "images": [],
+   "id": "ca92b04ec4d5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The figure shows the graph of \\(y=\\dfrac{x+#}{x-#}\\) and its asymptotes (dashed). Find \\(\\lim\\limits_{x\\to#^{+}}y\\).",
+   "en": "The figure shows the graph of \\(y=\\dfrac{x+2}{x-2}\\) and its asymptotes (dashed). Find \\(\\lim\\limits_{x\\to2^{+}}y\\).",
+   "vi": "Hình vẽ là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">đồ thị hàm số</b> \\(y=\\dfrac{x+2}{x-2}\\) và các tiệm cận (nét đứt). Tìm \\(\\lim\\limits_{x\\to2^{+}}y\\).",
+   "options": [
+    "\\(1\\)",
+    "\\(-\\infty\\)",
+    "\\(2\\)",
+    "\\(+\\infty\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Near \\(x=2\\) the numerator tends to \\(4\\) and the denominator to \\(0\\) with sign +; the graph goes up along the dashed line \\(x=2\\).",
+   "explain_vi": "Đáp án d. Gần \\(x=2\\), tử <b class=\"mbl-term\" tabindex=\"0\" data-en=\"approach (tend to)\">dần tới</b> \\(4\\), mẫu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"approach (tend to)\">dần tới</b> \\(0\\) và mang dấu +; <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> đi lên dọc theo đường nét đứt \\(x=2\\).",
+   "images": [],
+   "id": "d56cef898b61",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The figure shows the graph of \\(y=f(x)\\) (an open dot means the point is not on the graph). Find \\(\\lim\\limits_{x\\to#^{-}}f(x)\\).",
+   "en": "The figure shows the graph of \\(y=f(x)\\) (an open dot means the point is not on the graph). Find \\(\\lim\\limits_{x\\to1^{-}}f(x)\\).<img src=\"../../../img/tex/d25ffbd53cffc6cc.svg\" alt=\"Graph with a jump\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,330px);height:auto\">",
+   "vi": "Hình vẽ là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">đồ thị hàm số</b> \\(y=f(x)\\) (chấm rỗng là điểm không thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b>). Tìm \\(\\lim\\limits_{x\\to1^{-}}f(x)\\).<img src=\"../../../img/tex/d25ffbd53cffc6cc.svg\" alt=\"Đồ thị có bước nhảy\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,330px);height:auto\">",
+   "options": [
+    "\\(1\\)",
+    "\\(4\\)",
+    "\\(3\\)",
+    "\\(0\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. As \\(x\\) approaches \\(1\\) from the left, the graph approaches the height \\(3\\).",
+   "explain_vi": "Đáp án c. Khi \\(x\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"approach (tend to)\">dần tới</b> \\(1\\) từ bên trái, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"approach (tend to)\">dần tới</b> độ cao \\(3\\).",
+   "images": [
+    "img/tex/d25ffbd53cffc6cc.svg"
+   ],
+   "id": "017890f1bb6a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The table gives some values of a function \\(f(x)\\) near \\(x=#\\) (\\(f\\) is not defined at \\(#\\)). Which is most likely \\(\\lim\\limits_{x\\to#}f(x)\\)?\\(x\\)\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(f(x)\\)\\(-#\\)\\(-#\\)\\(-#\\)\\(-#\\)\\(-#\\)\\(-#\\)",
+   "en": "The table gives some values of a function \\(f(x)\\) near \\(x=3\\) (\\(f\\) is not defined at \\(3\\)). Which is most likely \\(\\lim\\limits_{x\\to3}f(x)\\)?<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">\\(x\\)</th><td>\\(2.9\\)</td><td>\\(2.99\\)</td><td>\\(2.999\\)</td><td>\\(3.001\\)</td><td>\\(3.01\\)</td><td>\\(3.1\\)</td></tr><tr><th scope=\"row\">\\(f(x)\\)</th><td>\\(-6.8\\)</td><td>\\(-6.98\\)</td><td>\\(-6.998\\)</td><td>\\(-7.002\\)</td><td>\\(-7.02\\)</td><td>\\(-7.2\\)</td></tr></tbody></table></div>",
+   "vi": "Bảng cho một số giá trị của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(f(x)\\) gần \\(x=3\\) (\\(f\\) không xác định tại \\(3\\)). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"limit\">Giới hạn</b> \\(\\lim\\limits_{x\\to3}f(x)\\) có khả năng bằng bao nhiêu nhất?<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">\\(x\\)</th><td>\\(2{,}9\\)</td><td>\\(2{,}99\\)</td><td>\\(2{,}999\\)</td><td>\\(3{,}001\\)</td><td>\\(3{,}01\\)</td><td>\\(3{,}1\\)</td></tr><tr><th scope=\"row\">\\(f(x)\\)</th><td>\\(-6{,}8\\)</td><td>\\(-6{,}98\\)</td><td>\\(-6{,}998\\)</td><td>\\(-7{,}002\\)</td><td>\\(-7{,}02\\)</td><td>\\(-7{,}2\\)</td></tr></tbody></table></div>",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(-7.2\\)</span><span class=\"vi\">\\(-7{,}2\\)</span></span>",
+    "\\(0\\)",
+    "\\(3\\)",
+    "\\(-7\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. From both sides, \\(f(x)\\) gets closer and closer to \\(-7\\).",
+   "explain_vi": "Đáp án d. Từ cả hai phía, \\(f(x)\\) ngày càng gần \\(-7\\).",
+   "images": [],
+   "id": "a21d90643cb0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\lim\\limits_{x\\to#^{-}}\\dfrac{x^#-#x}{|x-#|}=\\)…",
+   "en": "\\(\\lim\\limits_{x\\to4^{-}}\\dfrac{x^2-4x}{|x-4|}=\\)…",
+   "vi": "\\(\\lim\\limits_{x\\to4^{-}}\\dfrac{x^2-4x}{|x-4|}=\\)…",
+   "options": [
+    "\\(1\\)",
+    "\\(4\\)",
+    "\\(0\\)",
+    "\\(-4\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(x^2-4x=x(x-4)\\). For \\(x\\to4^{-}\\), \\(|x-4|=-(x-4)\\), so the quotient is \\(-x\\to-4\\).",
+   "explain_vi": "Đáp án d. \\(x^2-4x=x(x-4)\\). Khi \\(x\\to4^{-}\\), \\(|x-4|=-(x-4)\\) nên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"quotient\">thương</b> bằng \\(-x\\to-4\\).",
+   "images": [],
+   "id": "8e7cda22b51e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\lim\\limits_{x\\to+\\infty}\\left(\\sqrt{x^#+#x-#}-x\\right)=\\)…",
+   "en": "\\(\\lim\\limits_{x\\to+\\infty}\\left(\\sqrt{x^2+6x-5}-x\\right)=\\)…",
+   "vi": "\\(\\lim\\limits_{x\\to+\\infty}\\left(\\sqrt{x^2+6x-5}-x\\right)=\\)…",
+   "options": [
+    "\\(3\\)",
+    "\\(+\\infty\\)",
+    "\\(0\\)",
+    "\\(6\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Multiply by the conjugate: \\(\\dfrac{6x-5}{\\sqrt{x^2+6x-5}+x}\\to\\dfrac{6}{2}=3\\).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"conjugate (multiply by)\">Nhân liên hợp</b>: \\(\\dfrac{6x-5}{\\sqrt{x^2+6x-5}+x}\\to\\dfrac{6}{2}=3\\).",
+   "images": [],
+   "id": "d2f75085ac08",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\lim\\limits_{x\\to-\\infty}\\dfrac{\\sqrt{#x^#+#}}{#x+#}=\\)…",
+   "en": "\\(\\lim\\limits_{x\\to-\\infty}\\dfrac{\\sqrt{16x^2+3}}{3x+5}=\\)…",
+   "vi": "\\(\\lim\\limits_{x\\to-\\infty}\\dfrac{\\sqrt{16x^2+3}}{3x+5}=\\)…",
+   "options": [
+    "\\(\\dfrac{16}{3}\\)",
+    "\\(-\\dfrac{16}{3}\\)",
+    "\\(-\\dfrac{4}{3}\\)",
+    "\\(\\dfrac{4}{3}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. For \\(x\\lt0\\), \\(\\sqrt{x^2}=|x|=-x\\): the limit is \\(\\dfrac{-4}{3}=-\\dfrac{4}{3}\\).",
+   "explain_vi": "Đáp án c. Với \\(x\\lt0\\), \\(\\sqrt{x^2}=|x|=-x\\): <b class=\"mbl-term\" tabindex=\"0\" data-en=\"limit\">giới hạn</b> bằng \\(\\dfrac{-4}{3}=-\\dfrac{4}{3}\\).",
+   "images": [],
+   "id": "42f2959bd749",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\lim\\limits_{x\\to-\\infty}\\left(-#x^#-#x^#+#\\right)=\\)…",
+   "en": "\\(\\lim\\limits_{x\\to-\\infty}\\left(-2x^4-5x^2+1\\right)=\\)…",
+   "vi": "\\(\\lim\\limits_{x\\to-\\infty}\\left(-2x^4-5x^2+1\\right)=\\)…",
+   "options": [
+    "\\(+\\infty\\)",
+    "\\(0\\)",
+    "\\(-2\\)",
+    "\\(-\\infty\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(-2x^4-5x^2+1=x^4\\left(-2+\\dfrac{-5}{x^2}+\\dfrac{1}{x^4}\\right)\\); \\(x^4\\to+\\infty\\) and the bracket tends to \\(-2\\), so the limit is \\(-\\infty\\).",
+   "explain_vi": "Đáp án d. \\(-2x^4-5x^2+1=x^4\\left(-2+\\dfrac{-5}{x^2}+\\dfrac{1}{x^4}\\right)\\); \\(x^4\\to+\\infty\\) và biểu thức trong ngoặc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"approach (tend to)\">dần tới</b> \\(-2\\) nên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"limit\">giới hạn</b> là \\(-\\infty\\).",
+   "images": [],
+   "id": "a68ba349cdcc",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "A workshop spends \\(C(x)=#+#x\\) (thousand VND) to make \\(x\\) products. The average cost \\(\\dfrac{C(x)}{x}\\) when \\(x\\to+\\infty\\) tends to…",
+   "en": "A workshop spends \\(C(x)=50000+40x\\) (thousand VND) to make \\(x\\) products. The average cost \\(\\dfrac{C(x)}{x}\\) when \\(x\\to+\\infty\\) tends to…",
+   "vi": "Một xưởng sản xuất \\(x\\) sản phẩm hết \\(C(x)=50000+40x\\) (nghìn đồng). Chi phí trung bình mỗi sản phẩm \\(\\dfrac{C(x)}{x}\\) khi \\(x\\to+\\infty\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"approach (tend to)\">dần tới</b>…",
+   "options": [
+    "\\(0\\)",
+    "\\(40\\)",
+    "\\(+\\infty\\)",
+    "\\(50000\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\dfrac{50000}{x}+40\\to40\\): the fixed cost is shared by more and more products.",
+   "explain_vi": "Đáp án b. \\(\\dfrac{50000}{x}+40\\to40\\): chi phí cố định được chia cho ngày càng nhiều sản phẩm.",
+   "images": [],
+   "id": "1a91a847934c",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\lim\\limits_{x\\to#^{-}}\\dfrac{-#}{x}=\\)…",
+   "en": "\\(\\lim\\limits_{x\\to0^{-}}\\dfrac{-3}{x}=\\)…",
+   "vi": "\\(\\lim\\limits_{x\\to0^{-}}\\dfrac{-3}{x}=\\)…",
+   "options": [
+    "\\(0\\)",
+    "\\(-3\\)",
+    "\\(+\\infty\\)",
+    "\\(-\\infty\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The numerator tends to \\(-3\\); \\(x\\to0\\) with sign \\(-\\).",
+   "explain_vi": "Đáp án c. Tử <b class=\"mbl-term\" tabindex=\"0\" data-en=\"approach (tend to)\">dần tới</b> \\(-3\\); \\(x\\to0\\) và mang dấu \\(-\\).",
+   "images": [],
+   "id": "febce36c3f25",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\lim\\limits_{x\\to#}(#x^{#}+#x-#)=\\)…",
+   "en": "\\(\\lim\\limits_{x\\to1}(2x^{2}+3x-1)=\\)…",
+   "vi": "\\(\\lim\\limits_{x\\to1}(2x^{2}+3x-1)=\\)…",
+   "options": [
+    "\\(5\\)",
+    "\\(-4\\)",
+    "\\(4\\)",
+    "\\(-1\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. A polynomial is continuous: substitute \\(x=1\\).",
+   "explain_vi": "Đáp án c. Hàm đa thức: <b class=\"mbl-term\" tabindex=\"0\" data-en=\"substitution\">thay trực tiếp</b> \\(x=1\\).",
+   "images": [],
+   "id": "0914a74b721e",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\lim\\limits_{x\\to#}\\dfrac{\\sqrt{x+#}-#}{#x}=\\)…",
+   "en": "\\(\\lim\\limits_{x\\to0}\\dfrac{\\sqrt{x+9}-3}{4x}=\\)…",
+   "vi": "\\(\\lim\\limits_{x\\to0}\\dfrac{\\sqrt{x+9}-3}{4x}=\\)…",
+   "options": [
+    "\\(0\\)",
+    "\\(\\dfrac{3}{8}\\)",
+    "\\(\\dfrac{1}{12}\\)",
+    "\\(\\dfrac{1}{24}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Multiply by \\(\\sqrt{x+9}+3\\): \\(\\dfrac{1}{4(\\sqrt{x+9}+3)}\\to\\dfrac{1}{24}\\).",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"conjugate (multiply by)\">Nhân liên hợp</b> \\(\\sqrt{x+9}+3\\): \\(\\dfrac{1}{4(\\sqrt{x+9}+3)}\\to\\dfrac{1}{24}\\).",
+   "images": [],
+   "id": "1930343c39cf",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\lim\\limits_{x\\to#}\\dfrac{x^{#}-#x-#}{x-#}=\\)…",
+   "en": "\\(\\lim\\limits_{x\\to5}\\dfrac{x^{2}-4x-5}{x-5}=\\)…",
+   "vi": "\\(\\lim\\limits_{x\\to5}\\dfrac{x^{2}-4x-5}{x-5}=\\)…",
+   "options": [
+    "\\(0\\)",
+    "\\(6\\)",
+    "\\(4\\)",
+    "\\(-6\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\dfrac{(x-5)(x+1)}{x-5}=x+1\\to6\\).",
+   "explain_vi": "Đáp án b. \\(\\dfrac{(x-5)(x+1)}{x-5}=x+1\\to6\\).",
+   "images": [],
+   "id": "5a9d07f458e7",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\lim\\limits_{x\\to-#}\\dfrac{x^#+#}{x+#}=\\)…",
+   "en": "\\(\\lim\\limits_{x\\to-2}\\dfrac{x^3+8}{x+2}=\\)…",
+   "vi": "\\(\\lim\\limits_{x\\to-2}\\dfrac{x^3+8}{x+2}=\\)…",
+   "options": [
+    "\\(8\\)",
+    "\\(4\\)",
+    "\\(12\\)",
+    "\\(0\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(x^3-a^3=(x-a)(x^2+ax+a^2)\\); limit \\(=3a^2=12\\).",
+   "explain_vi": "Đáp án c. \\(x^3-a^3=(x-a)(x^2+ax+a^2)\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"limit\">giới hạn</b> \\(=3a^2=12\\).",
+   "images": [],
+   "id": "8fd80df675d1",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\lim\\limits_{x\\to-\\infty}\\dfrac{#x+#}{x+#}=\\)…",
+   "en": "\\(\\lim\\limits_{x\\to-\\infty}\\dfrac{3x+2}{x+3}=\\)…",
+   "vi": "\\(\\lim\\limits_{x\\to-\\infty}\\dfrac{3x+2}{x+3}=\\)…",
+   "options": [
+    "\\(3\\)",
+    "\\(-\\infty\\)",
+    "\\(-3\\)",
+    "\\(\\dfrac{2}{3}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Divide by \\(x\\): the answer is the ratio of the leading coefficients.",
+   "explain_vi": "Đáp án a. Chia tử và mẫu cho \\(x\\): kết quả là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ratio\">tỉ số</b> hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b> bậc cao nhất.",
+   "images": [],
+   "id": "c968b36720a5",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(f(x)=#x-#\\) for \\(x\\lt#\\) and \\(f(x)=-#x+c\\) for \\(x\\ge#\\). The value of \\(c\\) making \\(\\lim\\limits_{x\\to#}f(x)\\) exist is…",
+   "en": "\\(f(x)=3x-1\\) for \\(x\\lt1\\) and \\(f(x)=-3x+c\\) for \\(x\\ge1\\). The value of \\(c\\) making \\(\\lim\\limits_{x\\to1}f(x)\\) exist is…",
+   "vi": "Cho \\(f(x)=3x-1\\) khi \\(x\\lt1\\) và \\(f(x)=-3x+c\\) khi \\(x\\ge1\\). Giá trị \\(c\\) để tồn tại \\(\\lim\\limits_{x\\to1}f(x)\\) là…",
+   "options": [
+    "\\(5\\)",
+    "\\(2\\)",
+    "\\(-5\\)",
+    "\\(6\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Left limit \\(=2\\), right limit \\(=-3+c\\); equal when \\(c=5\\).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"limit\">Giới hạn</b> trái \\(=2\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"limit\">giới hạn</b> phải \\(=-3+c\\); bằng nhau khi \\(c=5\\).",
+   "images": [],
+   "id": "7282b38842dc",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "A workshop spends \\(C(x)=#+#x\\) (thousand VND) to make \\(x\\) products. The average cost \\(\\dfrac{C(x)}{x}\\) when \\(x\\to+\\infty\\) tends to…",
+   "en": "A workshop spends \\(C(x)=50000+20x\\) (thousand VND) to make \\(x\\) products. The average cost \\(\\dfrac{C(x)}{x}\\) when \\(x\\to+\\infty\\) tends to…",
+   "vi": "Một xưởng sản xuất \\(x\\) sản phẩm hết \\(C(x)=50000+20x\\) (nghìn đồng). Chi phí trung bình mỗi sản phẩm \\(\\dfrac{C(x)}{x}\\) khi \\(x\\to+\\infty\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"approach (tend to)\">dần tới</b>…",
+   "options": [
+    "\\(20\\)",
+    "\\(50000\\)",
+    "\\(+\\infty\\)",
+    "\\(0\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\dfrac{50000}{x}+20\\to20\\): the fixed cost is shared by more and more products.",
+   "explain_vi": "Đáp án a. \\(\\dfrac{50000}{x}+20\\to20\\): chi phí cố định được chia cho ngày càng nhiều sản phẩm.",
+   "images": [],
+   "id": "481e2e3d70bb",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\lim\\limits_{x\\to#}(#x^{#}+#x+#)=\\)…",
+   "en": "\\(\\lim\\limits_{x\\to3}(3x^{2}+5x+1)=\\)…",
+   "vi": "\\(\\lim\\limits_{x\\to3}(3x^{2}+5x+1)=\\)…",
+   "options": [
+    "\\(44\\)",
+    "\\(-43\\)",
+    "\\(43\\)",
+    "\\(1\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. A polynomial is continuous: substitute \\(x=3\\).",
+   "explain_vi": "Đáp án c. Hàm đa thức: <b class=\"mbl-term\" tabindex=\"0\" data-en=\"substitution\">thay trực tiếp</b> \\(x=3\\).",
+   "images": [],
+   "id": "b78d4724ad51",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\lim\\limits_{x\\to#}\\dfrac{\\sqrt{x+#}-#}{#x}=\\)…",
+   "en": "\\(\\lim\\limits_{x\\to0}\\dfrac{\\sqrt{x+1}-1}{3x}=\\)…",
+   "vi": "\\(\\lim\\limits_{x\\to0}\\dfrac{\\sqrt{x+1}-1}{3x}=\\)…",
+   "options": [
+    "\\(0\\)",
+    "\\(+\\infty\\)",
+    "\\(\\dfrac{1}{6}\\)",
+    "\\(\\dfrac{1}{3}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Multiply by \\(\\sqrt{x+1}+1\\): \\(\\dfrac{1}{3(\\sqrt{x+1}+1)}\\to\\dfrac{1}{6}\\).",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"conjugate (multiply by)\">Nhân liên hợp</b> \\(\\sqrt{x+1}+1\\): \\(\\dfrac{1}{3(\\sqrt{x+1}+1)}\\to\\dfrac{1}{6}\\).",
+   "images": [],
+   "id": "1f8c83f89333",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\lim\\limits_{x\\to#}\\dfrac{x^#-#}{x-#}=\\)…",
+   "en": "\\(\\lim\\limits_{x\\to4}\\dfrac{x^3-64}{x-4}=\\)…",
+   "vi": "\\(\\lim\\limits_{x\\to4}\\dfrac{x^3-64}{x-4}=\\)…",
+   "options": [
+    "\\(48\\)",
+    "\\(0\\)",
+    "\\(16\\)",
+    "\\(32\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(x^3-a^3=(x-a)(x^2+ax+a^2)\\); limit \\(=3a^2=48\\).",
+   "explain_vi": "Đáp án a. \\(x^3-a^3=(x-a)(x^2+ax+a^2)\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"limit\">giới hạn</b> \\(=3a^2=48\\).",
+   "images": [],
+   "id": "3d2b829a32d6",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\lim\\limits_{x\\to#}\\dfrac{x^{#}+#x-#}{x-#}=\\)…",
+   "en": "\\(\\lim\\limits_{x\\to2}\\dfrac{x^{2}+2x-8}{x-2}=\\)…",
+   "vi": "\\(\\lim\\limits_{x\\to2}\\dfrac{x^{2}+2x-8}{x-2}=\\)…",
+   "options": [
+    "\\(6\\)",
+    "\\(-6\\)",
+    "\\(-2\\)",
+    "\\(0\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\dfrac{(x-2)(x+4)}{x-2}=x+4\\to6\\).",
+   "explain_vi": "Đáp án a. \\(\\dfrac{(x-2)(x+4)}{x-2}=x+4\\to6\\).",
+   "images": [],
+   "id": "0135654fe38c",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\lim\\limits_{x\\to-#^{-}}\\dfrac{#}{x+#}=\\)…",
+   "en": "\\(\\lim\\limits_{x\\to-3^{-}}\\dfrac{2}{x+3}=\\)…",
+   "vi": "\\(\\lim\\limits_{x\\to-3^{-}}\\dfrac{2}{x+3}=\\)…",
+   "options": [
+    "\\(-\\infty\\)",
+    "\\(0\\)",
+    "\\(+\\infty\\)",
+    "\\(2\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. The numerator tends to \\(2\\); \\(x+3\\to0\\) with sign \\(-\\).",
+   "explain_vi": "Đáp án a. Tử <b class=\"mbl-term\" tabindex=\"0\" data-en=\"approach (tend to)\">dần tới</b> \\(2\\); \\(x+3\\to0\\) và mang dấu \\(-\\).",
+   "images": [],
+   "id": "d7f54a1f44d8",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\lim\\limits_{x\\to-\\infty}\\dfrac{#x+#}{#x}=\\)…",
+   "en": "\\(\\lim\\limits_{x\\to-\\infty}\\dfrac{6x+1}{2x}=\\)…",
+   "vi": "\\(\\lim\\limits_{x\\to-\\infty}\\dfrac{6x+1}{2x}=\\)…",
+   "options": [
+    "\\(3\\)",
+    "\\(-\\infty\\)",
+    "\\(-3\\)",
+    "\\(0\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Divide by \\(x\\): the answer is the ratio of the leading coefficients.",
+   "explain_vi": "Đáp án a. Chia tử và mẫu cho \\(x\\): kết quả là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ratio\">tỉ số</b> hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b> bậc cao nhất.",
+   "images": [],
+   "id": "3ffa2386ba2b",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(f(x)=x+#\\) for \\(x\\lt-#\\) and \\(f(x)=-#x+c\\) for \\(x\\ge-#\\). The value of \\(c\\) making \\(\\lim\\limits_{x\\to-#}f(x)\\) exist is…",
+   "en": "\\(f(x)=x+1\\) for \\(x\\lt-1\\) and \\(f(x)=-2x+c\\) for \\(x\\ge-1\\). The value of \\(c\\) making \\(\\lim\\limits_{x\\to-1}f(x)\\) exist is…",
+   "vi": "Cho \\(f(x)=x+1\\) khi \\(x\\lt-1\\) và \\(f(x)=-2x+c\\) khi \\(x\\ge-1\\). Giá trị \\(c\\) để tồn tại \\(\\lim\\limits_{x\\to-1}f(x)\\) là…",
+   "options": [
+    "\\(2\\)",
+    "\\(-2\\)",
+    "\\(-1\\)",
+    "\\(0\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Left limit \\(=0\\), right limit \\(=2+c\\); equal when \\(c=-2\\).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"limit\">Giới hạn</b> trái \\(=0\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"limit\">giới hạn</b> phải \\(=2+c\\); bằng nhau khi \\(c=-2\\).",
+   "images": [],
+   "id": "0a0f8eba7b81",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "A workshop spends \\(C(x)=#+#x\\) (thousand VND) to make \\(x\\) products. The average cost \\(\\dfrac{C(x)}{x}\\) when \\(x\\to+\\infty\\) tends to…",
+   "en": "A workshop spends \\(C(x)=5000+25x\\) (thousand VND) to make \\(x\\) products. The average cost \\(\\dfrac{C(x)}{x}\\) when \\(x\\to+\\infty\\) tends to…",
+   "vi": "Một xưởng sản xuất \\(x\\) sản phẩm hết \\(C(x)=5000+25x\\) (nghìn đồng). Chi phí trung bình mỗi sản phẩm \\(\\dfrac{C(x)}{x}\\) khi \\(x\\to+\\infty\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"approach (tend to)\">dần tới</b>…",
+   "options": [
+    "\\(+\\infty\\)",
+    "\\(5000\\)",
+    "\\(0\\)",
+    "\\(25\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\dfrac{5000}{x}+25\\to25\\): the fixed cost is shared by more and more products.",
+   "explain_vi": "Đáp án d. \\(\\dfrac{5000}{x}+25\\to25\\): chi phí cố định được chia cho ngày càng nhiều sản phẩm.",
+   "images": [],
+   "id": "518f56c9cb37",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\lim\\limits_{x\\to#}\\dfrac{\\sqrt{x+#}-#}{#x}=\\)…",
+   "en": "\\(\\lim\\limits_{x\\to0}\\dfrac{\\sqrt{x+36}-6}{4x}=\\)…",
+   "vi": "\\(\\lim\\limits_{x\\to0}\\dfrac{\\sqrt{x+36}-6}{4x}=\\)…",
+   "options": [
+    "\\(\\dfrac{1}{48}\\)",
+    "\\(0\\)",
+    "\\(\\dfrac{3}{4}\\)",
+    "\\(\\dfrac{1}{24}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Multiply by \\(\\sqrt{x+36}+6\\): \\(\\dfrac{1}{4(\\sqrt{x+36}+6)}\\to\\dfrac{1}{48}\\).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"conjugate (multiply by)\">Nhân liên hợp</b> \\(\\sqrt{x+36}+6\\): \\(\\dfrac{1}{4(\\sqrt{x+36}+6)}\\to\\dfrac{1}{48}\\).",
+   "images": [],
+   "id": "62a294c9473e",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\lim\\limits_{x\\to#}\\dfrac{x^#-#}{x-#}=\\)…",
+   "en": "\\(\\lim\\limits_{x\\to3}\\dfrac{x^3-27}{x-3}=\\)…",
+   "vi": "\\(\\lim\\limits_{x\\to3}\\dfrac{x^3-27}{x-3}=\\)…",
+   "options": [
+    "\\(9\\)",
+    "\\(27\\)",
+    "\\(0\\)",
+    "\\(18\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(x^3-a^3=(x-a)(x^2+ax+a^2)\\); limit \\(=3a^2=27\\).",
+   "explain_vi": "Đáp án b. \\(x^3-a^3=(x-a)(x^2+ax+a^2)\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"limit\">giới hạn</b> \\(=3a^2=27\\).",
+   "images": [],
+   "id": "2ce54fef3a71",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\lim\\limits_{x\\to+\\infty}\\dfrac{#x-#}{#x-#}=\\)…",
+   "en": "\\(\\lim\\limits_{x\\to+\\infty}\\dfrac{2x-1}{5x-5}=\\)…",
+   "vi": "\\(\\lim\\limits_{x\\to+\\infty}\\dfrac{2x-1}{5x-5}=\\)…",
+   "options": [
+    "\\(+\\infty\\)",
+    "\\(\\dfrac{2}{5}\\)",
+    "\\(-\\dfrac{2}{5}\\)",
+    "\\(\\dfrac{1}{5}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Divide by \\(x\\): the answer is the ratio of the leading coefficients.",
+   "explain_vi": "Đáp án b. Chia tử và mẫu cho \\(x\\): kết quả là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ratio\">tỉ số</b> hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b> bậc cao nhất.",
+   "images": [],
+   "id": "807340d46e3c",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\lim\\limits_{x\\to-#^{-}}\\dfrac{#}{x+#}=\\)…",
+   "en": "\\(\\lim\\limits_{x\\to-1^{-}}\\dfrac{2}{x+1}=\\)…",
+   "vi": "\\(\\lim\\limits_{x\\to-1^{-}}\\dfrac{2}{x+1}=\\)…",
+   "options": [
+    "\\(+\\infty\\)",
+    "\\(2\\)",
+    "\\(0\\)",
+    "\\(-\\infty\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. The numerator tends to \\(2\\); \\(x+1\\to0\\) with sign \\(-\\).",
+   "explain_vi": "Đáp án d. Tử <b class=\"mbl-term\" tabindex=\"0\" data-en=\"approach (tend to)\">dần tới</b> \\(2\\); \\(x+1\\to0\\) và mang dấu \\(-\\).",
+   "images": [],
+   "id": "af3f1fdd8256",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\lim\\limits_{x\\to-#}(#x^{#}-#x-#)=\\)…",
+   "en": "\\(\\lim\\limits_{x\\to-3}(2x^{2}-2x-5)=\\)…",
+   "vi": "\\(\\lim\\limits_{x\\to-3}(2x^{2}-2x-5)=\\)…",
+   "options": [
+    "\\(19\\)",
+    "\\(20\\)",
+    "\\(-5\\)",
+    "\\(-19\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. A polynomial is continuous: substitute \\(x=-3\\).",
+   "explain_vi": "Đáp án a. Hàm đa thức: <b class=\"mbl-term\" tabindex=\"0\" data-en=\"substitution\">thay trực tiếp</b> \\(x=-3\\).",
+   "images": [],
+   "id": "d536d604fdc4",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\lim\\limits_{x\\to-#}\\dfrac{x^{#}-#}{x+#}=\\)…",
+   "en": "\\(\\lim\\limits_{x\\to-2}\\dfrac{x^{2}-4}{x+2}=\\)…",
+   "vi": "\\(\\lim\\limits_{x\\to-2}\\dfrac{x^{2}-4}{x+2}=\\)…",
+   "options": [
+    "\\(0\\)",
+    "\\(-4\\)",
+    "\\(4\\)",
+    "\\(-2\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\dfrac{(x+2)(x-2)}{x+2}=x-2\\to-4\\).",
+   "explain_vi": "Đáp án b. \\(\\dfrac{(x+2)(x-2)}{x+2}=x-2\\to-4\\).",
+   "images": [],
+   "id": "cd2a89674b1e",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(f(x)=#x+#\\) for \\(x\\lt#\\) and \\(f(x)=-#x+c\\) for \\(x\\ge#\\). The value of \\(c\\) making \\(\\lim\\limits_{x\\to#}f(x)\\) exist is…",
+   "en": "\\(f(x)=3x+4\\) for \\(x\\lt3\\) and \\(f(x)=-2x+c\\) for \\(x\\ge3\\). The value of \\(c\\) making \\(\\lim\\limits_{x\\to3}f(x)\\) exist is…",
+   "vi": "Cho \\(f(x)=3x+4\\) khi \\(x\\lt3\\) và \\(f(x)=-2x+c\\) khi \\(x\\ge3\\). Giá trị \\(c\\) để tồn tại \\(\\lim\\limits_{x\\to3}f(x)\\) là…",
+   "options": [
+    "\\(-19\\)",
+    "\\(20\\)",
+    "\\(13\\)",
+    "\\(19\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Left limit \\(=13\\), right limit \\(=-6+c\\); equal when \\(c=19\\).",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"limit\">Giới hạn</b> trái \\(=13\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"limit\">giới hạn</b> phải \\(=-6+c\\); bằng nhau khi \\(c=19\\).",
+   "images": [],
+   "id": "c57f66e659c8",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,912 @@
+{
+ "lesson": "g10-sets-02",
+ "grade": 10,
+ "no": null,
+ "title": "Đếm bằng biểu đồ Venn",
+ "path": "lessons/grade10/sets-and-intervals/counting-with-venn-diagrams.html",
+ "items": [
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "If \\(n(A)=#\\), \\(n(B)=#\\) and \\(n(A\\cap B)=#\\), what is \\(n(A\\cup B)\\)?",
+   "en": "If \\(n(A)=14\\), \\(n(B)=9\\) and \\(n(A\\cap B)=4\\), what is \\(n(A\\cup B)\\)?",
+   "vi": "Nếu \\(n(A)=14\\), \\(n(B)=9\\), \\(n(A\\cap B)=4\\) thì \\(n(A\\cup B)\\) bằng bao nhiêu?",
+   "options": [
+    "\\(23\\)",
+    "\\(19\\)",
+    "\\(27\\)",
+    "\\(10\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(14+9-4=19\\).",
+   "explain_vi": "Đáp án b. \\(14+9-4=19\\).",
+   "images": [],
+   "id": "369e3f702890",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "If \\(n(A\\cup B)=#\\), \\(n(A)=#\\) and \\(n(B)=#\\), what is \\(n(A\\cap B)\\)?",
+   "en": "If \\(n(A\\cup B)=30\\), \\(n(A)=18\\) and \\(n(B)=17\\), what is \\(n(A\\cap B)\\)?",
+   "vi": "Nếu \\(n(A\\cup B)=30\\), \\(n(A)=18\\), \\(n(B)=17\\) thì \\(n(A\\cap B)\\) bằng bao nhiêu?",
+   "options": [
+    "\\(5\\)",
+    "\\(12\\)",
+    "\\(13\\)",
+    "\\(35\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(n(A\\cap B)=18+17-30=5\\).",
+   "explain_vi": "Đáp án a. \\(n(A\\cap B)=18+17-30=5\\).",
+   "images": [],
+   "id": "791fca26bcb0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "In a group of # students, # play chess, # draw and # do both. How many play chess only?",
+   "en": "In a group of 40 students, 24 play chess, 18 draw and 6 do both. How many play chess only?",
+   "vi": "Trong nhóm 40 học sinh, 24 em chơi cờ, 18 em vẽ và 6 em làm cả hai. Có bao nhiêu em chỉ chơi cờ?",
+   "options": [
+    "\\(6\\)",
+    "\\(12\\)",
+    "\\(18\\)",
+    "\\(24\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Chess only = \\(24-6=18\\).",
+   "explain_vi": "Đáp án c. Chỉ chơi cờ = \\(24-6=18\\).",
+   "images": [],
+   "id": "3bf1bfd55b8e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "In a group of #, \\(n(A\\cup B)=#\\). How many are in neither set?",
+   "en": "In a group of 60, \\(n(A\\cup B)=48\\). How many are in neither set?",
+   "vi": "Trong nhóm 60 người, \\(n(A\\cup B)=48\\). Có bao nhiêu người không thuộc tập nào?",
+   "options": [
+    "\\(12\\)",
+    "\\(48\\)",
+    "\\(108\\)",
+    "\\(18\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(60-48=12\\).",
+   "explain_vi": "Đáp án a. \\(60-48=12\\).",
+   "images": [],
+   "id": "1121d92f558e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Which expression gives the number of elements in \\(B\\) only?",
+   "en": "Which expression gives the number of elements in \\(B\\) only?",
+   "vi": "Biểu thức nào cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"number of elements\">số phần tử</b> chỉ thuộc \\(B\\)?",
+   "options": [
+    "\\(n(B)-n(A)\\)",
+    "\\(n(B)-n(A\\cap B)\\)",
+    "\\(n(A\\cup B)-n(B)\\)",
+    "\\(n(A\\cap B)-n(B)\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Remove the common part from \\(n(B)\\).",
+   "explain_vi": "Đáp án b. Bỏ phần chung khỏi \\(n(B)\\).",
+   "images": [],
+   "id": "4f2f4cff50f1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "True or false: \\(n(A\\cup B)=n(A)+n(B)\\) is always true.",
+   "en": "True or false: \\(n(A\\cup B)=n(A)+n(B)\\) is always true.",
+   "vi": "Đúng hay sai: \\(n(A\\cup B)=n(A)+n(B)\\) luôn đúng.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. It is true only when \\(A\\) and \\(B\\) have no common element.",
+   "explain_vi": "Sai. Công thức chỉ đúng khi \\(A\\) và \\(B\\) không có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"element\">phần tử</b> chung.",
+   "images": [],
+   "id": "d90fcec79d3b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "True or false: \\(n(A\\cup B)\\) can be smaller than \\(n(A)\\).",
+   "en": "True or false: \\(n(A\\cup B)\\) can be smaller than \\(n(A)\\).",
+   "vi": "Đúng hay sai: \\(n(A\\cup B)\\) có thể nhỏ hơn \\(n(A)\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. \\(A\\subset A\\cup B\\), so \\(A\\cup B\\) has at least as many elements as \\(A\\).",
+   "explain_vi": "Sai. \\(A\\subset A\\cup B\\) nên \\(A\\cup B\\) có ít nhất nhiều <b class=\"mbl-term\" tabindex=\"0\" data-en=\"element\">phần tử</b> bằng \\(A\\).",
+   "images": [],
+   "id": "bfebb82ddbcf",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "True or false: if \\(A\\cap B=\\varnothing\\), then \\(n(A\\cup B)=n(A)+n(B)\\).",
+   "en": "True or false: if \\(A\\cap B=\\varnothing\\), then \\(n(A\\cup B)=n(A)+n(B)\\).",
+   "vi": "Đúng hay sai: nếu \\(A\\cap B=\\varnothing\\) thì \\(n(A\\cup B)=n(A)+n(B)\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. Then \\(n(A\\cap B)=0\\).",
+   "explain_vi": "Đúng. Khi đó \\(n(A\\cap B)=0\\).",
+   "images": [],
+   "id": "91b04deb1c98",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "(Extension) Let \\(n(A)=#\\), \\(n(B)=#\\), \\(n(C)=#\\), \\(n(A\\cap B)=#\\), \\(n(A\\cap C)=#\\), \\(n(B\\cap C)=#\\) and \\(n(A\\cap B\\cap C)=#\\). Find \\(n(A\\cup B\\cup C)\\).",
+   "en": "(Extension) Let \\(n(A)=10\\), \\(n(B)=8\\), \\(n(C)=6\\), \\(n(A\\cap B)=3\\), \\(n(A\\cap C)=2\\), \\(n(B\\cap C)=1\\) and \\(n(A\\cap B\\cap C)=1\\). Find \\(n(A\\cup B\\cup C)\\).",
+   "vi": "(Mở rộng) Cho \\(n(A)=10\\), \\(n(B)=8\\), \\(n(C)=6\\), \\(n(A\\cap B)=3\\), \\(n(A\\cap C)=2\\), \\(n(B\\cap C)=1\\), \\(n(A\\cap B\\cap C)=1\\). Tìm \\(n(A\\cup B\\cup C)\\).",
+   "options": [],
+   "answer": "19",
+   "explain_en": "Answer: 19. \\(10+8+6-3-2-1+1=19\\).",
+   "explain_vi": "Đáp số: 19. \\(10+8+6-3-2-1+1=19\\).",
+   "images": [],
+   "id": "2dea25050f99",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "If \\(n(A)=#\\), \\(n(B)=#\\) and \\(n(A\\cup B)=#\\), find \\(n(A\\cap B)\\).",
+   "en": "If \\(n(A)=25\\), \\(n(B)=19\\) and \\(n(A\\cup B)=38\\), find \\(n(A\\cap B)\\).",
+   "vi": "Nếu \\(n(A)=25\\), \\(n(B)=19\\), \\(n(A\\cup B)=38\\), tìm \\(n(A\\cap B)\\).",
+   "options": [],
+   "answer": "6",
+   "explain_en": "Answer: 6. \\(25+19-38=6\\).",
+   "explain_vi": "Đáp số: 6. \\(25+19-38=6\\).",
+   "images": [],
+   "id": "c8df24543624",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "In a class of # students, # like tea and # like coffee. Every student likes at least one drink. How many like both?",
+   "en": "In a class of 36 students, 20 like tea and 22 like coffee. Every student likes at least one drink. How many like both?",
+   "vi": "Lớp có 36 học sinh, 20 em thích trà và 22 em thích cà phê. Mỗi em thích <b class=\"mbl-term\" tabindex=\"0\" data-en=\"at least one\">ít nhất một</b> loại. Có bao nhiêu em thích cả hai?",
+   "options": [],
+   "answer": "6",
+   "explain_en": "Answer: 6. \\(36=20+22-n(T\\cap C)\\), so \\(n(T\\cap C)=6\\).",
+   "explain_vi": "Đáp số: 6. \\(36=20+22-n(T\\cap C)\\) nên \\(n(T\\cap C)=6\\).",
+   "images": [],
+   "id": "2b7ac24eca8f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "In a group of # students, # study French, # study German and # study both. How many study neither language?",
+   "en": "In a group of 60 students, 35 study French, 28 study German and 10 study both. How many study neither language?",
+   "vi": "Trong nhóm 60 học sinh, 35 em học tiếng Pháp, 28 em học tiếng Đức và 10 em học cả hai. Có bao nhiêu em không học thứ tiếng nào?",
+   "options": [],
+   "answer": "7",
+   "explain_en": "Answer: 7. \\(35+28-10=53\\) study at least one language, so \\(60-53=7\\).",
+   "explain_vi": "Đáp số: 7. \\(35+28-10=53\\) em học <b class=\"mbl-term\" tabindex=\"0\" data-en=\"at least one\">ít nhất một</b> thứ tiếng nên \\(60-53=7\\).",
+   "images": [],
+   "id": "351ba0e12d0b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "In a Venn diagram, “neither” is the region:",
+   "en": "In a Venn diagram, “neither” is the region:",
+   "vi": "Trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"Venn diagram\">biểu đồ Venn</b>, “neither” là vùng:",
+   "options": [
+    "\\(\\text{inside circle A only}\\)",
+    "\\(\\text{inside both circles}\\)",
+    "\\(\\text{outside both circles}\\)",
+    "\\(\\text{inside circle B only}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. “Neither” means not in \\(A\\) and not in \\(B\\).",
+   "explain_vi": "Đáp án c. “Neither” nghĩa là không thuộc \\(A\\) và không thuộc \\(B\\).",
+   "images": [],
+   "id": "3f7e6bc8f16e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "“Find the number of students who like tea only” means:",
+   "en": "“Find the number of students who like tea only” means:",
+   "vi": "“Find the number of students who like tea only” có nghĩa là:",
+   "options": [
+    "\\(\\text{students who like tea but not coffee}\\)",
+    "\\(\\text{students who like both drinks}\\)",
+    "\\(\\text{students who like neither drink}\\)",
+    "\\(\\text{students who like at least one drink}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. “Only” means the difference: tea but not coffee.",
+   "explain_vi": "Đáp án a. “Only” nghĩa là hiệu: thích trà nhưng không thích cà phê.",
+   "images": [],
+   "id": "df7513f8b052",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "If \\(n(A)=#\\), \\(n(B)=#\\) and \\(n(A\\cap B)=#\\), what is \\(n(A\\cup B)\\)?",
+   "en": "If \\(n(A)=16\\), \\(n(B)=11\\) and \\(n(A\\cap B)=5\\), what is \\(n(A\\cup B)\\)?",
+   "vi": "Nếu \\(n(A)=16\\), \\(n(B)=11\\), \\(n(A\\cap B)=5\\) thì \\(n(A\\cup B)\\) bằng bao nhiêu?",
+   "options": [
+    "\\(27\\)",
+    "\\(32\\)",
+    "\\(22\\)",
+    "\\(11\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(16+11-5=22\\).",
+   "explain_vi": "Đáp án c. \\(16+11-5=22\\).",
+   "images": [],
+   "id": "3237f0c38ab5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "If \\(n(A\\cup B)=#\\), \\(n(A)=#\\) and \\(n(B)=#\\), what is \\(n(A\\cap B)\\)?",
+   "en": "If \\(n(A\\cup B)=34\\), \\(n(A)=21\\) and \\(n(B)=19\\), what is \\(n(A\\cap B)\\)?",
+   "vi": "Nếu \\(n(A\\cup B)=34\\), \\(n(A)=21\\), \\(n(B)=19\\) thì \\(n(A\\cap B)\\) bằng bao nhiêu?",
+   "options": [
+    "\\(40\\)",
+    "\\(15\\)",
+    "\\(13\\)",
+    "\\(6\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(n(A\\cap B)=21+19-34=6\\).",
+   "explain_vi": "Đáp án d. \\(n(A\\cap B)=21+19-34=6\\).",
+   "images": [],
+   "id": "0e7d0caf2d60",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "In a group of # students, # play badminton, # swim and # do both. How many play badminton only?",
+   "en": "In a group of 45 students, 27 play badminton, 20 swim and 8 do both. How many play badminton only?",
+   "vi": "Trong nhóm 45 học sinh, 27 em chơi cầu lông, 20 em bơi và 8 em làm cả hai. Có bao nhiêu em chỉ chơi cầu lông?",
+   "options": [
+    "\\(19\\)",
+    "\\(8\\)",
+    "\\(12\\)",
+    "\\(27\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Badminton only = \\(27-8=19\\).",
+   "explain_vi": "Đáp án a. Chỉ chơi cầu lông = \\(27-8=19\\).",
+   "images": [],
+   "id": "437d52b0e195",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "In a group of #, \\(n(A\\cup B)=#\\). How many are in neither set?",
+   "en": "In a group of 80, \\(n(A\\cup B)=65\\). How many are in neither set?",
+   "vi": "Trong nhóm 80 người, \\(n(A\\cup B)=65\\). Có bao nhiêu người không thuộc tập nào?",
+   "options": [
+    "\\(145\\)",
+    "\\(15\\)",
+    "\\(65\\)",
+    "\\(25\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(80-65=15\\).",
+   "explain_vi": "Đáp án b. \\(80-65=15\\).",
+   "images": [],
+   "id": "3a2aab4b4af5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Which expression gives the number of elements in \\(A\\) only?",
+   "en": "Which expression gives the number of elements in \\(A\\) only?",
+   "vi": "Biểu thức nào cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"number of elements\">số phần tử</b> chỉ thuộc \\(A\\)?",
+   "options": [
+    "\\(n(A)-n(B)\\)",
+    "\\(n(A\\cup B)-n(A)\\)",
+    "\\(n(A)-n(A\\cap B)\\)",
+    "\\(n(A\\cap B)-n(A)\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Remove the common part from \\(n(A)\\).",
+   "explain_vi": "Đáp án c. Bỏ phần chung khỏi \\(n(A)\\).",
+   "images": [],
+   "id": "9712bbb8f23e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "True or false: \\(n(A\\cap B)\\) can be larger than \\(n(A)\\).",
+   "en": "True or false: \\(n(A\\cap B)\\) can be larger than \\(n(A)\\).",
+   "vi": "Đúng hay sai: \\(n(A\\cap B)\\) có thể lớn hơn \\(n(A)\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. \\(A\\cap B\\subset A\\), so \\(A\\cap B\\) has at most as many elements as \\(A\\).",
+   "explain_vi": "Sai. \\(A\\cap B\\subset A\\) nên \\(A\\cap B\\) có nhiều nhất bằng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"number of elements\">số phần tử</b> của \\(A\\).",
+   "images": [],
+   "id": "e3a34f65652d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "True or false: \\(n(A\\cup B)=n(A)+n(B)-n(A\\cap B)\\) is always true.",
+   "en": "True or false: \\(n(A\\cup B)=n(A)+n(B)-n(A\\cap B)\\) is always true.",
+   "vi": "Đúng hay sai: \\(n(A\\cup B)=n(A)+n(B)-n(A\\cap B)\\) luôn đúng.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. This is the counting formula. It works for any two finite sets.",
+   "explain_vi": "Đúng. Đây là công thức đếm; nó đúng với hai tập hữu hạn bất kì.",
+   "images": [],
+   "id": "3a90430451e9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "True or false: if \\(A\\) and \\(B\\) have a common element, then \\(n(A\\cup B)=n(A)+n(B)\\).",
+   "en": "True or false: if \\(A\\) and \\(B\\) have a common element, then \\(n(A\\cup B)=n(A)+n(B)\\).",
+   "vi": "Đúng hay sai: nếu \\(A\\) và \\(B\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"element\">phần tử</b> chung thì \\(n(A\\cup B)=n(A)+n(B)\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. The common elements are counted twice, so we must subtract them once.",
+   "explain_vi": "Sai. Các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"element\">phần tử</b> chung bị đếm hai lần nên phải trừ đi một lần.",
+   "images": [],
+   "id": "8f56359d7ecf",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "(Extension) Let \\(n(A)=#\\), \\(n(B)=#\\), \\(n(C)=#\\), \\(n(A\\cap B)=#\\), \\(n(A\\cap C)=#\\), \\(n(B\\cap C)=#\\) and \\(n(A\\cap B\\cap C)=#\\). Find \\(n(A\\cup B\\cup C)\\).",
+   "en": "(Extension) Let \\(n(A)=12\\), \\(n(B)=9\\), \\(n(C)=7\\), \\(n(A\\cap B)=4\\), \\(n(A\\cap C)=3\\), \\(n(B\\cap C)=2\\) and \\(n(A\\cap B\\cap C)=1\\). Find \\(n(A\\cup B\\cup C)\\).",
+   "vi": "(Mở rộng) Cho \\(n(A)=12\\), \\(n(B)=9\\), \\(n(C)=7\\), \\(n(A\\cap B)=4\\), \\(n(A\\cap C)=3\\), \\(n(B\\cap C)=2\\), \\(n(A\\cap B\\cap C)=1\\). Tìm \\(n(A\\cup B\\cup C)\\).",
+   "options": [],
+   "answer": "20",
+   "explain_en": "Answer: 20. \\(12+9+7-4-3-2+1=20\\).",
+   "explain_vi": "Đáp số: 20. \\(12+9+7-4-3-2+1=20\\).",
+   "images": [],
+   "id": "50688ffb3fc5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "If \\(n(A)=#\\), \\(n(B)=#\\) and \\(n(A\\cup B)=#\\), find \\(n(A\\cap B)\\).",
+   "en": "If \\(n(A)=30\\), \\(n(B)=22\\) and \\(n(A\\cup B)=44\\), find \\(n(A\\cap B)\\).",
+   "vi": "Nếu \\(n(A)=30\\), \\(n(B)=22\\), \\(n(A\\cup B)=44\\), tìm \\(n(A\\cap B)\\).",
+   "options": [],
+   "answer": "8",
+   "explain_en": "Answer: 8. \\(30+22-44=8\\).",
+   "explain_vi": "Đáp số: 8. \\(30+22-44=8\\).",
+   "images": [],
+   "id": "6b6c63ef78ab",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "In a class of # students, # like pizza and # like noodles. Every student likes at least one food. How many like both?",
+   "en": "In a class of 42 students, 25 like pizza and 28 like noodles. Every student likes at least one food. How many like both?",
+   "vi": "Lớp có 42 học sinh, 25 em thích pizza và 28 em thích mì. Mỗi em thích <b class=\"mbl-term\" tabindex=\"0\" data-en=\"at least one\">ít nhất một</b> món. Có bao nhiêu em thích cả hai món?",
+   "options": [],
+   "answer": "11",
+   "explain_en": "Answer: 11. \\(42=25+28-n(P\\cap N)\\), so \\(n(P\\cap N)=11\\).",
+   "explain_vi": "Đáp số: 11. \\(42=25+28-n(P\\cap N)\\) nên \\(n(P\\cap N)=11\\).",
+   "images": [],
+   "id": "d486123e66ac",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "In a group of # students, # study Japanese, # study Korean and # study both. How many study neither language?",
+   "en": "In a group of 50 students, 30 study Japanese, 24 study Korean and 9 study both. How many study neither language?",
+   "vi": "Trong nhóm 50 học sinh, 30 em học tiếng Nhật, 24 em học tiếng Hàn và 9 em học cả hai. Có bao nhiêu em không học thứ tiếng nào?",
+   "options": [],
+   "answer": "5",
+   "explain_en": "Answer: 5. \\(30+24-9=45\\) study at least one language, so \\(50-45=5\\).",
+   "explain_vi": "Đáp số: 5. \\(30+24-9=45\\) em học <b class=\"mbl-term\" tabindex=\"0\" data-en=\"at least one\">ít nhất một</b> thứ tiếng nên \\(50-45=5\\).",
+   "images": [],
+   "id": "22e046cd26b7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "In a Venn diagram, “both” is the region:",
+   "en": "In a Venn diagram, “both” is the region:",
+   "vi": "Trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"Venn diagram\">biểu đồ Venn</b>, “both” là vùng:",
+   "options": [
+    "\\(\\text{outside both circles}\\)",
+    "\\(\\text{inside circle A only}\\)",
+    "\\(\\text{inside both circles}\\)",
+    "\\(\\text{inside circle B only}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. “Both” means in \\(A\\) and in \\(B\\): the overlap of the two circles.",
+   "explain_vi": "Đáp án c. “Both” nghĩa là thuộc \\(A\\) và thuộc \\(B\\): phần chung của hai hình tròn.",
+   "images": [],
+   "id": "bc418c7e0b58",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "“Find the number of students who play badminton only” means:",
+   "en": "“Find the number of students who play badminton only” means:",
+   "vi": "“Find the number of students who play badminton only” có nghĩa là:",
+   "options": [
+    "\\(\\text{students who play both sports}\\)",
+    "\\(\\text{students who play badminton but not swimming}\\)",
+    "\\(\\text{students who play neither sport}\\)",
+    "\\(\\text{students who play at least one sport}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. “Only” means the difference: badminton but not swimming.",
+   "explain_vi": "Đáp án b. “Only” nghĩa là hiệu: chơi cầu lông nhưng không bơi.",
+   "images": [],
+   "id": "a23b308f61b9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "If \\(n(A)=#\\), \\(n(B)=#\\) and \\(n(A\\cap B)=#\\), what is \\(n(A\\cup B)\\)?",
+   "en": "If \\(n(A)=18\\), \\(n(B)=13\\) and \\(n(A\\cap B)=6\\), what is \\(n(A\\cup B)\\)?",
+   "vi": "Nếu \\(n(A)=18\\), \\(n(B)=13\\), \\(n(A\\cap B)=6\\) thì \\(n(A\\cup B)\\) bằng bao nhiêu?",
+   "options": [
+    "\\(37\\)",
+    "\\(31\\)",
+    "\\(19\\)",
+    "\\(25\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(18+13-6=25\\).",
+   "explain_vi": "Đáp án d. \\(18+13-6=25\\).",
+   "images": [],
+   "id": "cf2bf4630532",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "If \\(n(A\\cup B)=#\\), \\(n(A)=#\\) and \\(n(B)=#\\), what is \\(n(A\\cap B)\\)?",
+   "en": "If \\(n(A\\cup B)=40\\), \\(n(A)=26\\) and \\(n(B)=24\\), what is \\(n(A\\cap B)\\)?",
+   "vi": "Nếu \\(n(A\\cup B)=40\\), \\(n(A)=26\\), \\(n(B)=24\\) thì \\(n(A\\cap B)\\) bằng bao nhiêu?",
+   "options": [
+    "\\(50\\)",
+    "\\(10\\)",
+    "\\(14\\)",
+    "\\(16\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(n(A\\cap B)=26+24-40=10\\).",
+   "explain_vi": "Đáp án b. \\(n(A\\cap B)=26+24-40=10\\).",
+   "images": [],
+   "id": "a8a117c6aefd",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "In a group of # students, # read comics, # play chess and # do both. How many read comics only?",
+   "en": "In a group of 50 students, 28 read comics, 19 play chess and 7 do both. How many read comics only?",
+   "vi": "Trong nhóm 50 học sinh, 28 em đọc truyện tranh, 19 em chơi cờ và 7 em làm cả hai. Có bao nhiêu em chỉ đọc truyện tranh?",
+   "options": [
+    "\\(7\\)",
+    "\\(28\\)",
+    "\\(12\\)",
+    "\\(21\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Comics only = \\(28-7=21\\).",
+   "explain_vi": "Đáp án d. Chỉ đọc truyện tranh = \\(28-7=21\\).",
+   "images": [],
+   "id": "9f42a818e1cd",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "In a group of #, \\(n(A\\cup B)=#\\). How many are in neither set?",
+   "en": "In a group of 90, \\(n(A\\cup B)=71\\). How many are in neither set?",
+   "vi": "Trong nhóm 90 người, \\(n(A\\cup B)=71\\). Có bao nhiêu người không thuộc tập nào?",
+   "options": [
+    "\\(161\\)",
+    "\\(71\\)",
+    "\\(19\\)",
+    "\\(29\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(90-71=19\\).",
+   "explain_vi": "Đáp án c. \\(90-71=19\\).",
+   "images": [],
+   "id": "f7b379725dde",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "In a group of \\(N\\) people, which expression gives the number of people in neither set?",
+   "en": "In a group of \\(N\\) people, which expression gives the number of people in neither set?",
+   "vi": "Trong nhóm \\(N\\) người, biểu thức nào cho số người không thuộc tập nào?",
+   "options": [
+    "\\(N-n(A\\cup B)\\)",
+    "\\(N-n(A)-n(B)\\)",
+    "\\(n(A\\cup B)-N\\)",
+    "\\(N+n(A\\cup B)\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Take away everyone who is in at least one set. (b) is wrong because it removes the common part twice.",
+   "explain_vi": "Đáp án a. Bỏ đi tất cả những người thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"at least one\">ít nhất một</b> tập. Câu b sai vì trừ phần chung hai lần.",
+   "images": [],
+   "id": "ad22bbad8d23",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "True or false: \\(n(A\\cap B)\\le n(A)\\) is always true.",
+   "en": "True or false: \\(n(A\\cap B)\\le n(A)\\) is always true.",
+   "vi": "Đúng hay sai: \\(n(A\\cap B)\\le n(A)\\) luôn đúng.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. \\(A\\cap B\\subset A\\), so \\(A\\cap B\\) cannot have more elements than \\(A\\).",
+   "explain_vi": "Đúng. \\(A\\cap B\\subset A\\) nên \\(A\\cap B\\) không thể có nhiều <b class=\"mbl-term\" tabindex=\"0\" data-en=\"element\">phần tử</b> hơn \\(A\\).",
+   "images": [],
+   "id": "b7dbe702ba5b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "True or false: \\(n(A\\cup B)\\) can be equal to \\(n(A)\\).",
+   "en": "True or false: \\(n(A\\cup B)\\) can be equal to \\(n(A)\\).",
+   "vi": "Đúng hay sai: \\(n(A\\cup B)\\) có thể bằng \\(n(A)\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. This happens when \\(B\\subset A\\). Example: \\(A=\\{1,2,3\\}\\), \\(B=\\{2\\}\\), so \\(A\\cup B=A\\).",
+   "explain_vi": "Đúng. Điều này xảy ra khi \\(B\\subset A\\). Ví dụ \\(A=\\{1,2,3\\}\\), \\(B=\\{2\\}\\) thì \\(A\\cup B=A\\).",
+   "images": [],
+   "id": "862a76ebe1f4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "True or false: if \\(n(A)=n(B)\\), then \\(A=B\\).",
+   "en": "True or false: if \\(n(A)=n(B)\\), then \\(A=B\\).",
+   "vi": "Đúng hay sai: nếu \\(n(A)=n(B)\\) thì \\(A=B\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. Two sets can have the same number of elements but different elements: \\(\\{1,2\\}\\) and \\(\\{3,4\\}\\).",
+   "explain_vi": "Sai. Hai tập có thể có cùng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"number of elements\">số phần tử</b> nhưng khác <b class=\"mbl-term\" tabindex=\"0\" data-en=\"element\">phần tử</b>: \\(\\{1,2\\}\\) và \\(\\{3,4\\}\\).",
+   "images": [],
+   "id": "0e38b58c350c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "(Extension) Let \\(n(A)=#\\), \\(n(B)=#\\), \\(n(C)=#\\), \\(n(A\\cap B)=#\\), \\(n(A\\cap C)=#\\), \\(n(B\\cap C)=#\\) and \\(n(A\\cap B\\cap C)=#\\). Find \\(n(A\\cup B\\cup C)\\).",
+   "en": "(Extension) Let \\(n(A)=15\\), \\(n(B)=11\\), \\(n(C)=9\\), \\(n(A\\cap B)=5\\), \\(n(A\\cap C)=4\\), \\(n(B\\cap C)=3\\) and \\(n(A\\cap B\\cap C)=2\\). Find \\(n(A\\cup B\\cup C)\\).",
+   "vi": "(Mở rộng) Cho \\(n(A)=15\\), \\(n(B)=11\\), \\(n(C)=9\\), \\(n(A\\cap B)=5\\), \\(n(A\\cap C)=4\\), \\(n(B\\cap C)=3\\), \\(n(A\\cap B\\cap C)=2\\). Tìm \\(n(A\\cup B\\cup C)\\).",
+   "options": [],
+   "answer": "25",
+   "explain_en": "Answer: 25. \\(15+11+9-5-4-3+2=25\\).",
+   "explain_vi": "Đáp số: 25. \\(15+11+9-5-4-3+2=25\\).",
+   "images": [],
+   "id": "82f1e78dc2a8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "If \\(n(A)=#\\), \\(n(B)=#\\) and \\(n(A\\cup B)=#\\), find \\(n(A\\cap B)\\).",
+   "en": "If \\(n(A)=33\\), \\(n(B)=27\\) and \\(n(A\\cup B)=51\\), find \\(n(A\\cap B)\\).",
+   "vi": "Nếu \\(n(A)=33\\), \\(n(B)=27\\), \\(n(A\\cup B)=51\\), tìm \\(n(A\\cap B)\\).",
+   "options": [],
+   "answer": "9",
+   "explain_en": "Answer: 9. \\(33+27-51=9\\).",
+   "explain_vi": "Đáp số: 9. \\(33+27-51=9\\).",
+   "images": [],
+   "id": "20b19a6f2ee0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "In a class of # students, # like cats and # like dogs. Every student likes at least one animal. How many like both?",
+   "en": "In a class of 48 students, 30 like cats and 26 like dogs. Every student likes at least one animal. How many like both?",
+   "vi": "Lớp có 48 học sinh, 30 em thích mèo và 26 em thích chó. Mỗi em thích <b class=\"mbl-term\" tabindex=\"0\" data-en=\"at least one\">ít nhất một</b> con vật. Có bao nhiêu em thích cả hai?",
+   "options": [],
+   "answer": "8",
+   "explain_en": "Answer: 8. \\(48=30+26-n(C\\cap D)\\), so \\(n(C\\cap D)=8\\).",
+   "explain_vi": "Đáp số: 8. \\(48=30+26-n(C\\cap D)\\) nên \\(n(C\\cap D)=8\\).",
+   "images": [],
+   "id": "6906500a51de",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "In a group of # students, # study English, # study Chinese and # study both. How many study neither language?",
+   "en": "In a group of 70 students, 40 study English, 32 study Chinese and 12 study both. How many study neither language?",
+   "vi": "Trong nhóm 70 học sinh, 40 em học tiếng Anh, 32 em học tiếng Trung và 12 em học cả hai. Có bao nhiêu em không học thứ tiếng nào?",
+   "options": [],
+   "answer": "10",
+   "explain_en": "Answer: 10. \\(40+32-12=60\\) study at least one language, so \\(70-60=10\\).",
+   "explain_vi": "Đáp số: 10. \\(40+32-12=60\\) em học <b class=\"mbl-term\" tabindex=\"0\" data-en=\"at least one\">ít nhất một</b> thứ tiếng nên \\(70-60=10\\).",
+   "images": [],
+   "id": "d69013f1c379",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "In a Venn diagram, “at least one” is the region:",
+   "en": "In a Venn diagram, “at least one” is the region:",
+   "vi": "Trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"Venn diagram\">biểu đồ Venn</b>, “at least one” là vùng:",
+   "options": [
+    "\\(\\text{outside both circles}\\)",
+    "\\(\\text{inside at least one circle}\\)",
+    "\\(\\text{the overlap only}\\)",
+    "\\(\\text{inside circle B only}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. “At least one” means in \\(A\\) or in \\(B\\) or in both: everything inside the two circles.",
+   "explain_vi": "Đáp án b. “At least one” nghĩa là thuộc \\(A\\), hoặc thuộc \\(B\\), hoặc thuộc cả hai: toàn bộ phần bên trong hai hình tròn.",
+   "images": [],
+   "id": "c8c8cf45096d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "“Find the number of students who like cats only” means:",
+   "en": "“Find the number of students who like cats only” means:",
+   "vi": "“Find the number of students who like cats only” có nghĩa là:",
+   "options": [
+    "\\(\\text{students who like both animals}\\)",
+    "\\(\\text{students who like dogs but not cats}\\)",
+    "\\(\\text{students who like cats but not dogs}\\)",
+    "\\(\\text{students who like neither animal}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. “Only” means the difference: cats but not dogs.",
+   "explain_vi": "Đáp án c. “Only” nghĩa là hiệu: thích mèo nhưng không thích chó.",
+   "images": [],
+   "id": "464b42d5540a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  }
+ ]
+}

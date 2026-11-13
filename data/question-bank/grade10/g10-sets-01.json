@@ -1,0 +1,1431 @@
+{
+ "lesson": "g10-sets-01",
+ "grade": 10,
+ "no": 2,
+ "title": "Tập hợp và các phép toán trên tập hợp",
+ "path": "lessons/grade10/sets-and-intervals/sets-and-intervals.html",
+ "items": [
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Let \\(A=\\{#,#\\}\\) and \\(B=\\{#,#\\}\\). What is \\(A\\cup B\\)?",
+   "en": "Let \\(A=\\{1,3,5\\}\\) and \\(B=\\{3,5,7\\}\\). What is \\(A\\cup B\\)?",
+   "vi": "Cho \\(A=\\{1,3,5\\}\\), \\(B=\\{3,5,7\\}\\). Tìm \\(A\\cup B\\).",
+   "options": [
+    "\\(\\{3,5\\}\\)",
+    "\\(\\{1,3,5,7\\}\\)",
+    "\\(\\{1,7\\}\\)",
+    "\\(\\{1,3,5,3,5,7\\}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. The union has all elements of both sets, each written once. (a) is the intersection; (d) repeats elements.",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"union\">Hợp</b> gồm mọi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"element\">phần tử</b> của hai tập, mỗi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"element\">phần tử</b> viết một lần. Đáp án a là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersection\">giao</b>; d sai vì viết lặp.",
+   "images": [],
+   "id": "12c625f67ff3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "What is \\([#]\\cap(#)\\)?",
+   "en": "What is \\([1,4]\\cap(3,6)\\)?",
+   "vi": "Tìm \\([1,4]\\cap(3,6)\\).",
+   "options": [
+    "\\((3,4]\\)",
+    "\\([3,4]\\)",
+    "\\((3,4)\\)",
+    "\\([1,6)\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. We need \\(1\\le x\\le4\\) and \\(3\\lt x\\lt6\\), so \\(3\\lt x\\le4\\). 3 is not included since \\(3\\notin(3,6)\\); 4 is included since it is in both sets.",
+   "explain_vi": "Đáp án a. Cần \\(1\\le x\\le4\\) và \\(3\\lt x\\lt6\\), nên \\(3\\lt x\\le4\\). Số 3 không lấy vì \\(3\\notin(3,6)\\); số 4 lấy vì thuộc cả hai tập.",
+   "images": [],
+   "id": "37a319c772cc",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Which set is the empty set?",
+   "en": "Which set is the empty set?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"set\">Tập hợp</b> nào là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"empty set\">tập rỗng</b>?",
+   "options": [
+    "\\(\\{0\\}\\)",
+    "\\(\\{x\\in\\mathbb{R}\\mid x^2=-1\\}\\)",
+    "\\(\\{x\\in\\mathbb{Z}\\mid |x|\\lt1\\}\\)",
+    "\\(\\{x\\in\\mathbb{R}\\mid x^2=0\\}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. No real number has a square equal to \\(-1\\). The sets in a, c, d are all \\(\\{0\\}\\), which has one element.",
+   "explain_vi": "Đáp án b. Không có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"real numbers\">số thực</b> nào có bình phương bằng \\(-1\\). Các tập ở a, c, d đều bằng \\(\\{0\\}\\), có một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"element\">phần tử</b>.",
+   "images": [],
+   "id": "70e4d309478d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Which set-builder notation describes the interval \\((-#]\\)?",
+   "en": "Which set-builder notation describes the interval \\((-2,5]\\)?",
+   "vi": "Cách viết nào mô tả <b class=\"mbl-term\" tabindex=\"0\" data-en=\"interval\">khoảng</b> \\((-2,5]\\) bằng tính chất đặc trưng?",
+   "options": [
+    "\\(\\{x\\in\\mathbb{R}\\mid-2\\le x\\le5\\}\\)",
+    "\\(\\{x\\in\\mathbb{R}\\mid-2\\lt x\\le5\\}\\)",
+    "\\(\\{x\\in\\mathbb{R}\\mid-2\\lt x\\lt5\\}\\)",
+    "\\(\\{x\\in\\mathbb{R}\\mid-2\\le x\\lt5\\}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. The round bracket at \\(-2\\) means not included (\\(\\lt\\)). The square bracket at 5 means included (\\(\\le\\)).",
+   "explain_vi": "Đáp án b. Ngoặc tròn ở \\(-2\\): không lấy (\\(\\lt\\)). Ngoặc vuông ở 5: lấy (\\(\\le\\)).",
+   "images": [],
+   "id": "408983f00ac6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Which statement is true?",
+   "en": "Which statement is true?",
+   "vi": "Khẳng định nào đúng?",
+   "options": [
+    "\\(3\\notin\\{1,2,3\\}\\)",
+    "\\(\\{2\\}\\in\\{1,2,3\\}\\)",
+    "\\(2\\in\\{1,2,3\\}\\)",
+    "\\(4\\in\\{1,2,3\\}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. 2 is an element of \\(\\{1,2,3\\}\\). In (b), \\(\\{2\\}\\) is a set, not an element.",
+   "explain_vi": "Đáp án c. 2 là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"element\">phần tử</b> của tập. Ở câu b, \\(\\{2\\}\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"set\">tập hợp</b> chứ không phải <b class=\"mbl-term\" tabindex=\"0\" data-en=\"element\">phần tử</b>; phải viết \\(\\{2\\}\\subset\\{1,2,3\\}\\).",
+   "images": [],
+   "id": "528040a00cdd",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "True or false: \\(\\mathbb{N}\\subset\\mathbb{Z}\\).",
+   "en": "True or false: \\(\\mathbb{N}\\subset\\mathbb{Z}\\).",
+   "vi": "Đúng hay sai: \\(\\mathbb{N}\\subset\\mathbb{Z}\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. Every natural number is an integer.",
+   "explain_vi": "Đúng. Mọi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"natural numbers\">số tự nhiên</b> đều là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"integers\">số nguyên</b>.",
+   "images": [],
+   "id": "c5d84a2d2d29",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "True or false: if \\(A\\subset B\\), then \\(A\\cap B=A\\).",
+   "en": "True or false: if \\(A\\subset B\\), then \\(A\\cap B=A\\).",
+   "vi": "Đúng hay sai: nếu \\(A\\subset B\\) thì \\(A\\cap B=A\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. Every element of \\(A\\) is in \\(B\\), so the common part is exactly \\(A\\). Example: \\(\\{1\\}\\subset\\{1,2\\}\\) gives \\(\\{1\\}\\).",
+   "explain_vi": "Đúng. Mọi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"element\">phần tử</b> của \\(A\\) đều thuộc \\(B\\), nên phần chung của hai tập chính là \\(A\\). Ví dụ \\(\\{1\\}\\subset\\{1,2\\}\\): giao là \\(\\{1\\}\\).",
+   "images": [],
+   "id": "4c772e51f0a1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "True or false: the interval \\([#,+\\infty]\\) is written correctly.",
+   "en": "True or false: the interval \\([2,+\\infty]\\) is written correctly.",
+   "vi": "Đúng hay sai: cách viết \\([2,+\\infty]\\) là đúng.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. \\(+\\infty\\) is not a number, so it needs a round bracket: \\([2,+\\infty)\\).",
+   "explain_vi": "Sai. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"infinity\">Vô cực</b> không phải là số nên luôn dùng ngoặc tròn: \\([2,+\\infty)\\).",
+   "images": [],
+   "id": "a6870d610b2b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "How many elements does \\(\\{x\\in\\mathbb{Z}\\mid-#\\le x\\lt#\\}\\) have?",
+   "en": "How many elements does \\(\\{x\\in\\mathbb{Z}\\mid-2\\le x\\lt3\\}\\) have?",
+   "vi": "Tập \\(\\{x\\in\\mathbb{Z}\\mid-2\\le x\\lt3\\}\\) có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"element\">phần tử</b>?",
+   "options": [],
+   "answer": "5",
+   "explain_en": "Answer: 5. The integers are \\(-2,-1,0,1,2\\). The number 3 is not included.",
+   "explain_vi": "Đáp số: 5. Các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"integers\">số nguyên</b> là \\(-2,-1,0,1,2\\); số 3 không được lấy.",
+   "images": [],
+   "id": "5fc8e036bafd",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "In a group of # students, # like Math, # like English and # like both. How many students like neither subject?",
+   "en": "In a group of 30 students, 18 like Math, 15 like English and 6 like both. How many students like neither subject?",
+   "vi": "Trong nhóm 30 học sinh, 18 em thích Toán, 15 em thích Tiếng Anh và 6 em thích cả hai. Có bao nhiêu em không thích môn nào?",
+   "options": [],
+   "answer": "3",
+   "explain_en": "Answer: 3. \\(n(M\\cup E)=18+15-6=27\\), so \\(30-27=3\\) students like neither.",
+   "explain_vi": "Đáp số: 3. \\(n(M\\cup E)=18+15-6=27\\), nên \\(30-27=3\\) em không thích môn nào.",
+   "images": [],
+   "id": "da02531997e5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "Write \\((-\\infty,#]\\cap[-#)\\) as one interval.",
+   "en": "Write \\((-\\infty,1]\\cap[-1,4)\\) as one interval.",
+   "vi": "Viết \\((-\\infty,1]\\cap[-1,4)\\) thành một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"interval\">khoảng</b>.",
+   "options": [],
+   "answer": "[-1,1]",
+   "explain_en": "Answer: \\([-1,1]\\). We need \\(x\\le1\\) and \\(-1\\le x\\lt4\\), so \\(-1\\le x\\le1\\).",
+   "explain_vi": "Đáp số: \\([-1,1]\\). Cần \\(x\\le1\\) và \\(-1\\le x\\lt4\\), nên \\(-1\\le x\\le1\\); cả hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"endpoint\">đầu mút</b> đều được lấy.",
+   "images": [],
+   "id": "81c213ab5c97",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "How do we read \\(x\\in A\\) in English?",
+   "en": "How do we read \\(x\\in A\\) in English?",
+   "vi": "Ký hiệu \\(x\\in A\\) đọc bằng tiếng Anh như thế nào?",
+   "options": [
+    "\\(\\text{x contains A}\\)",
+    "\\(\\text{x is a subset of A}\\)",
+    "\\(\\text{x belongs to A}\\)",
+    "\\(\\text{x equals A}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. “x belongs to A” or “x is an element of A”.",
+   "explain_vi": "Đáp án c. “x belongs to A” hoặc “x is an element of A” (x thuộc A).",
+   "images": [],
+   "id": "f76803e707f6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Which instruction means “Tìm giao của \\(A\\) và \\(B\\)”?",
+   "en": "Which instruction means “Tìm giao của \\(A\\) và \\(B\\)”?",
+   "vi": "Câu lệnh nào có nghĩa “Tìm giao của \\(A\\) và \\(B\\)”?",
+   "options": [
+    "\\(\\text{Find the union of }A\\text{ and }B.\\)",
+    "\\(\\text{Find the intersection of }A\\text{ and }B.\\)",
+    "\\(\\text{Find the difference of }A\\text{ and }B.\\)",
+    "\\(\\text{Find the complement of }A.\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Intersection = giao; union = hợp; difference = hiệu; complement = phần bù.",
+   "explain_vi": "Đáp án b. intersection = giao; union = hợp; difference = hiệu; complement = <b class=\"mbl-term\" tabindex=\"0\" data-en=\"complement\">phần bù</b>.",
+   "images": [],
+   "id": "93d384bce7ae",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "F",
+   "type": "mcq",
+   "form": "Find the complement of \\([#]\\) in \\(\\mathbb{R}\\).",
+   "en": "Find the complement of \\([0,2]\\) in \\(\\mathbb{R}\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"complement\">phần bù</b> của \\([0,2]\\) trong \\(\\mathbb{R}\\).",
+   "options": [
+    "\\((-\\infty,0]\\cup[2,+\\infty)\\)",
+    "\\((-\\infty,0)\\cup(2,+\\infty)\\)",
+    "\\((-\\infty,0]\\cup(2,+\\infty)\\)",
+    "\\((-\\infty,0)\\cup[2,+\\infty)\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. The complement is everything outside the interval; an endpoint belongs to the complement exactly when it does not belong to the interval: \\((-\\infty,0)\\cup(2,+\\infty)\\).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"complement\">Phần bù</b> gồm mọi số nằm ngoài <b class=\"mbl-term\" tabindex=\"0\" data-en=\"interval\">khoảng</b>; một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"endpoint\">đầu mút</b> thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"complement\">phần bù</b> đúng khi nó không thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"interval\">khoảng</b> đã cho: \\((-\\infty,0)\\cup(2,+\\infty)\\).",
+   "images": [],
+   "id": "ec3d7e2e9827",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "F",
+   "type": "mcq",
+   "form": "How many elements does \\(\\{x\\in\\mathbb{Z}\\mid x^#\\le#\\}\\) have?",
+   "en": "How many elements does \\(\\{x\\in\\mathbb{Z}\\mid x^2\\le6\\}\\) have?",
+   "vi": "Tập \\(\\{x\\in\\mathbb{Z}\\mid x^2\\le6\\}\\) có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"element\">phần tử</b>?",
+   "options": [
+    "\\(6\\)",
+    "\\(5\\)",
+    "\\(7\\)",
+    "\\(4\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. We need \\(|x|\\le\\sqrt{6}\\): there are 5 integers.",
+   "explain_vi": "Đáp án b. Cần \\(|x|\\le\\sqrt{6}\\): có 5 <b class=\"mbl-term\" tabindex=\"0\" data-en=\"integers\">số nguyên</b>.",
+   "images": [],
+   "id": "4dd802f0589e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "F",
+   "type": "mcq",
+   "form": "How many proper subsets does \\(\\{x\\in\\mathbb{Z}\\mid -#\\le x\\lt #\\}\\) have?",
+   "en": "How many proper subsets does \\(\\{x\\in\\mathbb{Z}\\mid -1\\le x\\lt 2\\}\\) have?",
+   "vi": "Tập \\(\\{x\\in\\mathbb{Z}\\mid -1\\le x\\lt 2\\}\\) có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"subset\">tập con</b> thực sự?",
+   "options": [
+    "\\(8\\)",
+    "\\(6\\)",
+    "\\(7\\)",
+    "\\(9\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The set has 3 elements, so it has \\(2^{3}=8\\) subsets (7 proper subsets, without the set itself).",
+   "explain_vi": "Đáp án c. Tập có 3 <b class=\"mbl-term\" tabindex=\"0\" data-en=\"element\">phần tử</b> nên có \\(2^{3}=8\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"subset\">tập con</b> (7 <b class=\"mbl-term\" tabindex=\"0\" data-en=\"subset\">tập con</b> thực sự, trừ chính nó).",
+   "images": [],
+   "id": "2ff53b1ffd44",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "F",
+   "type": "mcq",
+   "form": "In a class of # students, # like Math, # like English and # like both. How many students like neither subject?",
+   "en": "In a class of 39 students, 25 like Math, 12 like English and 6 like both. How many students like neither subject?",
+   "vi": "Một lớp có 39 học sinh, 25 em thích Toán, 12 em thích Tiếng Anh và 6 em thích cả hai. Có bao nhiêu em không thích môn nào?",
+   "options": [
+    "\\(37\\)",
+    "\\(32\\)",
+    "\\(8\\)",
+    "\\(20\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(n(M\\cup E)=25+12-6=31\\); so 39-31=8 like neither.",
+   "explain_vi": "Đáp án c. \\(n(M\\cup E)=25+12-6=31\\); nên 39-31=8 em không thích môn nào.",
+   "images": [],
+   "id": "6b96703b06b0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "F",
+   "type": "mcq",
+   "form": "Let \\(A=(#)\\) and \\(B=(#)\\). Find \\(A\\cap B\\).",
+   "en": "Let \\(A=(0,3)\\) and \\(B=(1,6)\\). Find \\(A\\cap B\\).",
+   "vi": "Cho \\(A=(0,3)\\), \\(B=(1,6)\\). Tìm \\(A\\cap B\\).",
+   "options": [
+    "\\((1,3)\\)",
+    "\\([1,3)\\)",
+    "\\((1,3]\\)",
+    "\\([1,3]\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Draw both intervals on a number line and check each endpoint: \\(A\\cap B=(1,3)\\).",
+   "explain_vi": "Đáp án a. Vẽ hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"interval\">khoảng</b> trên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"number line\">trục số</b> và xét từng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"endpoint\">đầu mút</b>: \\(A\\cap B=(1,3)\\).",
+   "images": [],
+   "id": "727d6303bfd1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "F",
+   "type": "mcq",
+   "form": "Let \\(A=[-#)\\) and \\(B=(-#)\\). Find \\(A\\cup B\\).",
+   "en": "Let \\(A=[-3,1)\\) and \\(B=(-1,2)\\). Find \\(A\\cup B\\).",
+   "vi": "Cho \\(A=[-3,1)\\), \\(B=(-1,2)\\). Tìm \\(A\\cup B\\).",
+   "options": [
+    "\\([-3,2]\\)",
+    "\\([-3,2)\\)",
+    "\\((-3,2)\\)",
+    "\\((-3,2]\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Draw both intervals on a number line and check each endpoint: \\(A\\cup B=[-3,2)\\).",
+   "explain_vi": "Đáp án b. Vẽ hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"interval\">khoảng</b> trên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"number line\">trục số</b> và xét từng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"endpoint\">đầu mút</b>: \\(A\\cup B=[-3,2)\\).",
+   "images": [],
+   "id": "a9bddbc37f0f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "F",
+   "type": "mcq",
+   "form": "Let \\(A=\\{#,#\\}\\) and \\(B=\\{#,#\\}\\). Find \\(A\\cap B\\).",
+   "en": "Let \\(A=\\{1,2,9,10\\}\\) and \\(B=\\{6,7,8,10\\}\\). Find \\(A\\cap B\\).",
+   "vi": "Cho \\(A=\\{1,2,9,10\\}\\), \\(B=\\{6,7,8,10\\}\\). Tìm \\(A\\cap B\\).",
+   "options": [
+    "\\(\\{1,2,6,7,8,9,10\\}\\)",
+    "\\(\\{10\\}\\)",
+    "\\(\\{1,2,9\\}\\)",
+    "\\(\\{6,7,8\\}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. The intersection: \\(A\\cap B=\\{10\\}\\).",
+   "explain_vi": "Đáp án b. Phép giao: \\(A\\cap B=\\{10\\}\\).",
+   "images": [],
+   "id": "ac7da3617d4c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "F",
+   "type": "mcq",
+   "form": "Let \\(A=\\{#,#\\}\\) and \\(B=\\{#,#\\}\\). Find \\(A\\setminus B\\).",
+   "en": "Let \\(A=\\{2,3,6,8\\}\\) and \\(B=\\{2,3,7,8\\}\\). Find \\(A\\setminus B\\).",
+   "vi": "Cho \\(A=\\{2,3,6,8\\}\\), \\(B=\\{2,3,7,8\\}\\). Tìm \\(A\\setminus B\\).",
+   "options": [
+    "\\(\\{7\\}\\)",
+    "\\(\\{2,3,8\\}\\)",
+    "\\(\\{6\\}\\)",
+    "\\(\\{2,3,6,7,8\\}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The difference: \\(A\\setminus B=\\{6\\}\\).",
+   "explain_vi": "Đáp án c. Phép hiệu: \\(A\\setminus B=\\{6\\}\\).",
+   "images": [],
+   "id": "465c60575e2e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Let \\(A=\\{#,#\\}\\) and \\(B=\\{#,#\\}\\). What is \\(A\\cap B\\)?",
+   "en": "Let \\(A=\\{2,4,6\\}\\) and \\(B=\\{4,6,8\\}\\). What is \\(A\\cap B\\)?",
+   "vi": "Cho \\(A=\\{2,4,6\\}\\), \\(B=\\{4,6,8\\}\\). Tìm \\(A\\cap B\\).",
+   "options": [
+    "\\(\\{2,4,6,8\\}\\)",
+    "\\(\\{4,6\\}\\)",
+    "\\(\\{2,8\\}\\)",
+    "\\(\\{4,6,4,6\\}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. The intersection has the elements that are in both sets: 4 and 6. (a) is the union; (d) repeats elements.",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersection\">Giao</b> gồm các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"element\">phần tử</b> thuộc cả hai tập: 4 và 6. Đáp án a là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"union\">hợp</b>; d sai vì viết lặp.",
+   "images": [],
+   "id": "c9bb972f6c2b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "What is \\([#)\\cap(#)\\)?",
+   "en": "What is \\([0,5)\\cap(2,9)\\)?",
+   "vi": "Tìm \\([0,5)\\cap(2,9)\\).",
+   "options": [
+    "\\((2,5)\\)",
+    "\\([2,5)\\)",
+    "\\((2,5]\\)",
+    "\\([0,9)\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. We need \\(0\\le x\\lt5\\) and \\(2\\lt x\\lt9\\), so \\(2\\lt x\\lt5\\). 2 is not included since \\(2\\notin(2,9)\\); 5 is not included since \\(5\\notin[0,5)\\).",
+   "explain_vi": "Đáp án a. Cần \\(0\\le x\\lt5\\) và \\(2\\lt x\\lt9\\), nên \\(2\\lt x\\lt5\\). Số 2 không lấy vì \\(2\\notin(2,9)\\); số 5 không lấy vì \\(5\\notin[0,5)\\).",
+   "images": [],
+   "id": "9f80c8a45274",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Which of these sets is empty?",
+   "en": "Which of these sets is empty?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"set\">Tập hợp</b> nào sau đây là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"empty set\">tập rỗng</b>?",
+   "options": [
+    "\\(\\{x\\in\\mathbb{Z}\\mid |x|\\le0\\}\\)",
+    "\\(\\{x\\in\\mathbb{R}\\mid x^2\\ge0\\}\\)",
+    "\\(\\{\\varnothing\\}\\)",
+    "\\(\\{x\\in\\mathbb{R}\\mid x^2\\lt0\\}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. The square of a real number is never negative. Set<br>(a) is \\(\\{0\\}\\),<br>(b) is \\(\\mathbb{R}\\), and (c) has one element.",
+   "explain_vi": "Đáp án d. Bình phương của một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"real numbers\">số thực</b> không bao giờ âm. Tập ở a bằng \\(\\{0\\}\\), tập ở b bằng \\(\\mathbb{R}\\), tập ở c có một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"element\">phần tử</b>.",
+   "images": [],
+   "id": "3be5b63aae88",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Which of these statements is correct?",
+   "en": "Which of these statements is correct?",
+   "vi": "Khẳng định nào sau đây là chính xác?",
+   "options": [
+    "\\(\\{4\\}\\in\\{2,4,6\\}\\)",
+    "\\(4\\notin\\{2,4,6\\}\\)",
+    "\\(6\\in\\{2,4\\}\\)",
+    "\\(4\\in\\{2,4,6\\}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. 4 is an element of \\(\\{2,4,6\\}\\). In (a), \\(\\{4\\}\\) is a set, not an element.",
+   "explain_vi": "Đáp án d. 4 là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"element\">phần tử</b> của tập \\(\\{2,4,6\\}\\). Ở câu a, \\(\\{4\\}\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"set\">tập hợp</b> chứ không phải <b class=\"mbl-term\" tabindex=\"0\" data-en=\"element\">phần tử</b>; phải viết \\(\\{4\\}\\subset\\{2,4,6\\}\\).",
+   "images": [],
+   "id": "d412729d1810",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Which set-builder notation describes the interval \\([-#)\\)?",
+   "en": "Which set-builder notation describes the interval \\([-3,4)\\)?",
+   "vi": "Cách viết nào mô tả đoạn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"half-open interval\">nửa khoảng</b> \\([-3,4)\\) bằng tính chất đặc trưng?",
+   "options": [
+    "\\(\\{x\\in\\mathbb{R}\\mid-3\\lt x\\lt4\\}\\)",
+    "\\(\\{x\\in\\mathbb{R}\\mid-3\\le x\\le4\\}\\)",
+    "\\(\\{x\\in\\mathbb{R}\\mid-3\\le x\\lt4\\}\\)",
+    "\\(\\{x\\in\\mathbb{R}\\mid-3\\lt x\\le4\\}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The square bracket at \\(-3\\) means included (\\(\\le\\)). The round bracket at 4 means not included (\\(\\lt\\)).",
+   "explain_vi": "Đáp án c. Ngoặc vuông ở \\(-3\\): lấy (\\(\\le\\)). Ngoặc tròn ở 4: không lấy (\\(\\lt\\)).",
+   "images": [],
+   "id": "081901b98b98",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "True or false: \\(\\mathbb{Z}\\subset\\mathbb{N}\\).",
+   "en": "True or false: \\(\\mathbb{Z}\\subset\\mathbb{N}\\).",
+   "vi": "Đúng hay sai: \\(\\mathbb{Z}\\subset\\mathbb{N}\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. \\(-1\\) is an integer but not a natural number. The correct statement is \\(\\mathbb{N}\\subset\\mathbb{Z}\\).",
+   "explain_vi": "Sai. \\(-1\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"integers\">số nguyên</b> nhưng không phải <b class=\"mbl-term\" tabindex=\"0\" data-en=\"natural numbers\">số tự nhiên</b>. Khẳng định đúng là \\(\\mathbb{N}\\subset\\mathbb{Z}\\).",
+   "images": [],
+   "id": "2ea36a4deecd",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "True or false: if \\(A\\subset B\\), then \\(A\\cup B=B\\).",
+   "en": "True or false: if \\(A\\subset B\\), then \\(A\\cup B=B\\).",
+   "vi": "Đúng hay sai: nếu \\(A\\subset B\\) thì \\(A\\cup B=B\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. Every element of \\(A\\) is already in \\(B\\), so putting the sets together adds nothing new. Example: \\(\\{1\\}\\subset\\{1,2\\}\\) gives \\(\\{1,2\\}\\).",
+   "explain_vi": "Đúng. Mọi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"element\">phần tử</b> của \\(A\\) đã có trong \\(B\\), nên gộp hai tập không thêm gì mới. Ví dụ \\(\\{1\\}\\subset\\{1,2\\}\\): hợp là \\(\\{1,2\\}\\).",
+   "images": [],
+   "id": "b9ac0d5813be",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "True or false: the interval \\((-\\infty,#]\\) is written correctly.",
+   "en": "True or false: the interval \\((-\\infty,4]\\) is written correctly.",
+   "vi": "Đúng hay sai: cách viết \\((-\\infty,4]\\) là đúng.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. \\(-\\infty\\) is not a number, so it has a round bracket. The endpoint 4 is included, so it has a square bracket.",
+   "explain_vi": "Đúng. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"infinity\">Vô cực</b> không phải là số nên dùng ngoặc tròn; <b class=\"mbl-term\" tabindex=\"0\" data-en=\"endpoint\">đầu mút</b> 4 được lấy nên dùng ngoặc vuông.",
+   "images": [],
+   "id": "c9ba219cd38d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "How many elements does \\(\\{x\\in\\mathbb{Z}\\mid-#\\le x\\lt#\\}\\) have?",
+   "en": "How many elements does \\(\\{x\\in\\mathbb{Z}\\mid-4\\le x\\lt3\\}\\) have?",
+   "vi": "Tập \\(\\{x\\in\\mathbb{Z}\\mid-4\\le x\\lt3\\}\\) có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"element\">phần tử</b>?",
+   "options": [],
+   "answer": "7",
+   "explain_en": "Answer: 7. The integers are \\(-4,-3,-2,-1,0,1,2\\). The number 3 is not included.",
+   "explain_vi": "Đáp số: 7. Các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"integers\">số nguyên</b> là \\(-4,-3,-2,-1,0,1,2\\); số 3 không được lấy.",
+   "images": [],
+   "id": "11f5e5999056",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "In a group of # students, # like Math, # like English and # like both. How many students like neither subject?",
+   "en": "In a group of 40 students, 22 like Math, 20 like English and 9 like both. How many students like neither subject?",
+   "vi": "Trong nhóm 40 học sinh, 22 em thích Toán, 20 em thích Tiếng Anh và 9 em thích cả hai. Có bao nhiêu em không thích môn nào?",
+   "options": [],
+   "answer": "7",
+   "explain_en": "Answer: 7. \\(n(M\\cup E)=22+20-9=33\\), so \\(40-33=7\\) students like neither.",
+   "explain_vi": "Đáp số: 7. \\(n(M\\cup E)=22+20-9=33\\), nên \\(40-33=7\\) em không thích môn nào.",
+   "images": [],
+   "id": "730f2c72d2f0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "Write \\((-\\infty,#)\\cap[-#]\\) as one interval.",
+   "en": "Write \\((-\\infty,3)\\cap[-2,5]\\) as one interval.",
+   "vi": "Viết \\((-\\infty,3)\\cap[-2,5]\\) thành một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"interval\">khoảng</b>.",
+   "options": [],
+   "answer": "[-2,3)",
+   "explain_en": "Answer: \\([-2,3)\\). We need \\(x\\lt3\\) and \\(-2\\le x\\le5\\), so \\(-2\\le x\\lt3\\).",
+   "explain_vi": "Đáp số: \\([-2,3)\\). Cần \\(x\\lt3\\) và \\(-2\\le x\\le5\\), nên \\(-2\\le x\\lt3\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"endpoint\">đầu mút</b> \\(-2\\) được lấy, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"endpoint\">đầu mút</b> 3 không lấy.",
+   "images": [],
+   "id": "5e4ca2e6c7f3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "How do we read \\(A\\subset B\\) in English?",
+   "en": "How do we read \\(A\\subset B\\) in English?",
+   "vi": "Ký hiệu \\(A\\subset B\\) đọc bằng tiếng Anh như thế nào?",
+   "options": [
+    "\\(\\text{A is a subset of B}\\)",
+    "\\(\\text{A belongs to B}\\)",
+    "\\(\\text{A contains B}\\)",
+    "\\(\\text{A equals B}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. “A is a subset of B”: every element of A is in B.",
+   "explain_vi": "Đáp án a. “A is a subset of B” (A là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"subset\">tập con</b> của B): mọi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"element\">phần tử</b> của A đều thuộc B.",
+   "images": [],
+   "id": "c13b48d9ac58",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Which instruction means “Tìm hợp của \\(A\\) và \\(B\\)”?",
+   "en": "Which instruction means “Tìm hợp của \\(A\\) và \\(B\\)”?",
+   "vi": "Câu lệnh nào có nghĩa “Tìm hợp của \\(A\\) và \\(B\\)”?",
+   "options": [
+    "\\(\\text{Find the intersection of }A\\text{ and }B.\\)",
+    "\\(\\text{Find the difference of }A\\text{ and }B.\\)",
+    "\\(\\text{Find the complement of }A.\\)",
+    "\\(\\text{Find the union of }A\\text{ and }B.\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Union = hợp; intersection = giao; difference = hiệu; complement = phần bù.",
+   "explain_vi": "Đáp án d. union = hợp; intersection = giao; difference = hiệu; complement = <b class=\"mbl-term\" tabindex=\"0\" data-en=\"complement\">phần bù</b>.",
+   "images": [],
+   "id": "b8fead8466c7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "F",
+   "type": "mcq",
+   "form": "Find the complement of \\((-#]\\) in \\(\\mathbb{R}\\).",
+   "en": "Find the complement of \\((-3,0]\\) in \\(\\mathbb{R}\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"complement\">phần bù</b> của \\((-3,0]\\) trong \\(\\mathbb{R}\\).",
+   "options": [
+    "\\((-\\infty,-3)\\cup(0,+\\infty)\\)",
+    "\\((-\\infty,-3]\\cup[0,+\\infty)\\)",
+    "\\((-\\infty,-3]\\cup(0,+\\infty)\\)",
+    "\\((-\\infty,-3)\\cup[0,+\\infty)\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The complement is everything outside the interval; an endpoint belongs to the complement exactly when it does not belong to the interval: \\((-\\infty,-3]\\cup(0,+\\infty)\\).",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"complement\">Phần bù</b> gồm mọi số nằm ngoài <b class=\"mbl-term\" tabindex=\"0\" data-en=\"interval\">khoảng</b>; một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"endpoint\">đầu mút</b> thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"complement\">phần bù</b> đúng khi nó không thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"interval\">khoảng</b> đã cho: \\((-\\infty,-3]\\cup(0,+\\infty)\\).",
+   "images": [],
+   "id": "0591914eea67",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "F",
+   "type": "mcq",
+   "form": "How many elements does \\(\\{x\\in\\mathbb{Z}\\mid x^#\\lt #\\}\\) have?",
+   "en": "How many elements does \\(\\{x\\in\\mathbb{Z}\\mid x^2\\lt 18\\}\\) have?",
+   "vi": "Tập \\(\\{x\\in\\mathbb{Z}\\mid x^2\\lt 18\\}\\) có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"element\">phần tử</b>?",
+   "options": [
+    "\\(9\\)",
+    "\\(8\\)",
+    "\\(11\\)",
+    "\\(10\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. We need \\(|x|\\lt \\sqrt{18}\\): there are 9 integers.",
+   "explain_vi": "Đáp án a. Cần \\(|x|\\lt \\sqrt{18}\\): có 9 <b class=\"mbl-term\" tabindex=\"0\" data-en=\"integers\">số nguyên</b>.",
+   "images": [],
+   "id": "b40b1cde7e2d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "F",
+   "type": "mcq",
+   "form": "How many subsets does \\(\\{x\\in\\mathbb{Z}\\mid #\\le x\\lt #\\}\\) have?",
+   "en": "How many subsets does \\(\\{x\\in\\mathbb{Z}\\mid 0\\le x\\lt 5\\}\\) have?",
+   "vi": "Tập \\(\\{x\\in\\mathbb{Z}\\mid 0\\le x\\lt 5\\}\\) có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"subset\">tập con</b>?",
+   "options": [
+    "\\(32\\)",
+    "\\(10\\)",
+    "\\(31\\)",
+    "\\(25\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. The set has 5 elements, so it has \\(2^{5}=32\\) subsets.",
+   "explain_vi": "Đáp án a. Tập có 5 <b class=\"mbl-term\" tabindex=\"0\" data-en=\"element\">phần tử</b> nên có \\(2^{5}=32\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"subset\">tập con</b>.",
+   "images": [],
+   "id": "c9025a7b8113",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "F",
+   "type": "mcq",
+   "form": "In a class of # students, # like Math, # like English and # like both. How many students like neither subject?",
+   "en": "In a class of 30 students, 20 like Math, 11 like English and 4 like both. How many students like neither subject?",
+   "vi": "Một lớp có 30 học sinh, 20 em thích Toán, 11 em thích Tiếng Anh và 4 em thích cả hai. Có bao nhiêu em không thích môn nào?",
+   "options": [
+    "\\(28\\)",
+    "\\(3\\)",
+    "\\(31\\)",
+    "\\(17\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(n(M\\cup E)=20+11-4=27\\); so 30-27=3 like neither.",
+   "explain_vi": "Đáp án b. \\(n(M\\cup E)=20+11-4=27\\); nên 30-27=3 em không thích môn nào.",
+   "images": [],
+   "id": "2f1492430abd",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "F",
+   "type": "mcq",
+   "form": "Let \\(A=(-#,-#)\\) and \\(B=[-#]\\). Find \\(A\\cap B\\).",
+   "en": "Let \\(A=(-5,-1)\\) and \\(B=[-3,1]\\). Find \\(A\\cap B\\).",
+   "vi": "Cho \\(A=(-5,-1)\\), \\(B=[-3,1]\\). Tìm \\(A\\cap B\\).",
+   "options": [
+    "\\([-3,-1)\\)",
+    "\\([-3,-1]\\)",
+    "\\((-3,-1]\\)",
+    "\\((-3,-1)\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Draw both intervals on a number line and check each endpoint: \\(A\\cap B=[-3,-1)\\).",
+   "explain_vi": "Đáp án a. Vẽ hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"interval\">khoảng</b> trên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"number line\">trục số</b> và xét từng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"endpoint\">đầu mút</b>: \\(A\\cap B=[-3,-1)\\).",
+   "images": [],
+   "id": "9b929d98bcdd",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "F",
+   "type": "mcq",
+   "form": "Let \\(A=(-#,-#)\\) and \\(B=[-#]\\). Find \\(A\\cup B\\).",
+   "en": "Let \\(A=(-5,-1)\\) and \\(B=[-3,2]\\). Find \\(A\\cup B\\).",
+   "vi": "Cho \\(A=(-5,-1)\\), \\(B=[-3,2]\\). Tìm \\(A\\cup B\\).",
+   "options": [
+    "\\((-5,2]\\)",
+    "\\((-5,2)\\)",
+    "\\([-5,2]\\)",
+    "\\([-5,2)\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Draw both intervals on a number line and check each endpoint: \\(A\\cup B=(-5,2]\\).",
+   "explain_vi": "Đáp án a. Vẽ hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"interval\">khoảng</b> trên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"number line\">trục số</b> và xét từng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"endpoint\">đầu mút</b>: \\(A\\cup B=(-5,2]\\).",
+   "images": [],
+   "id": "99e81c5635a4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "F",
+   "type": "mcq",
+   "form": "Let \\(A=\\{#,#,#\\}\\) and \\(B=\\{#,#,#\\}\\). Find \\(A\\setminus B\\).",
+   "en": "Let \\(A=\\{4,7,8,10,11\\}\\) and \\(B=\\{1,7,8,10,12,13\\}\\). Find \\(A\\setminus B\\).",
+   "vi": "Cho \\(A=\\{4,7,8,10,11\\}\\), \\(B=\\{1,7,8,10,12,13\\}\\). Tìm \\(A\\setminus B\\).",
+   "options": [
+    "\\(\\{7,8,10\\}\\)",
+    "\\(\\{1,12,13\\}\\)",
+    "\\(\\{4,11\\}\\)",
+    "\\(\\{1,4,7,8,10,11,12,13\\}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The difference: \\(A\\setminus B=\\{4,11\\}\\).",
+   "explain_vi": "Đáp án c. Phép hiệu: \\(A\\setminus B=\\{4,11\\}\\).",
+   "images": [],
+   "id": "ce1868001506",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "F",
+   "type": "mcq",
+   "form": "Let \\(A=\\{#,#,#\\}\\) and \\(B=\\{#,#\\}\\). Find \\(A\\cap B\\).",
+   "en": "Let \\(A=\\{3,6,7,10,11,13\\}\\) and \\(B=\\{2,6,9,12\\}\\). Find \\(A\\cap B\\).",
+   "vi": "Cho \\(A=\\{3,6,7,10,11,13\\}\\), \\(B=\\{2,6,9,12\\}\\). Tìm \\(A\\cap B\\).",
+   "options": [
+    "\\(\\{2,3,6,7,9,10,11,12,13\\}\\)",
+    "\\(\\{2,9,12\\}\\)",
+    "\\(\\{6\\}\\)",
+    "\\(\\{3,7,10,11,13\\}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The intersection: \\(A\\cap B=\\{6\\}\\).",
+   "explain_vi": "Đáp án c. Phép giao: \\(A\\cap B=\\{6\\}\\).",
+   "images": [],
+   "id": "db24967140f6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Let \\(A=\\{#,#\\}\\) and \\(B=\\{#,#\\}\\). What is \\(A\\setminus B\\)?",
+   "en": "Let \\(A=\\{1,2,3,4\\}\\) and \\(B=\\{3,4,5\\}\\). What is \\(A\\setminus B\\)?",
+   "vi": "Cho \\(A=\\{1,2,3,4\\}\\), \\(B=\\{3,4,5\\}\\). Tìm \\(A\\setminus B\\).",
+   "options": [
+    "\\(\\{1,2\\}\\)",
+    "\\(\\{5\\}\\)",
+    "\\(\\{3,4\\}\\)",
+    "\\(\\{1,2,5\\}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. The difference keeps the elements of \\(A\\) that are not in \\(B\\): 1 and 2. (c) is the intersection.",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"difference\">Hiệu</b> giữ các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"element\">phần tử</b> của \\(A\\) không thuộc \\(B\\): 1 và 2. Đáp án c là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersection\">giao</b>.",
+   "images": [],
+   "id": "b1e7bff6d762",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "What is \\((-#]\\cap[#]\\)?",
+   "en": "What is \\((-3,2]\\cap[0,7]\\)?",
+   "vi": "Tìm \\((-3,2]\\cap[0,7]\\).",
+   "options": [
+    "\\([0,2]\\)",
+    "\\((0,2]\\)",
+    "\\([0,2)\\)",
+    "\\((-3,7]\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. We need \\(-3\\lt x\\le2\\) and \\(0\\le x\\le7\\), so \\(0\\le x\\le2\\). 0 is included since it is in both sets; 2 is included since it is in both sets.",
+   "explain_vi": "Đáp án a. Cần \\(-3\\lt x\\le2\\) và \\(0\\le x\\le7\\), nên \\(0\\le x\\le2\\). Số 0 lấy vì thuộc cả hai tập; số 2 lấy vì thuộc cả hai tập.",
+   "images": [],
+   "id": "02f7953eaeda",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Which set has no elements?",
+   "en": "Which set has no elements?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"set\">Tập hợp</b> nào không có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"element\">phần tử</b> nào?",
+   "options": [
+    "\\(\\{x\\in\\mathbb{Z}\\mid x^2=1\\}\\)",
+    "\\(\\{x\\in\\mathbb{R}\\mid x^2=4\\}\\)",
+    "\\(\\{x\\in\\mathbb{N}\\mid x\\lt0\\}\\)",
+    "\\(\\{x\\in\\mathbb{Z}\\mid |x|\\lt1\\}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Every natural number is at least 0, so none is less than 0. Set<br>(a) is \\(\\{-1,1\\}\\),<br>(b) is \\(\\{-2,2\\}\\), and (d) is \\(\\{0\\}\\).",
+   "explain_vi": "Đáp án c. Mọi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"natural numbers\">số tự nhiên</b> đều không nhỏ hơn 0 nên không có số nào nhỏ hơn 0. Tập ở a bằng \\(\\{-1,1\\}\\), tập ở b bằng \\(\\{-2,2\\}\\), tập ở d bằng \\(\\{0\\}\\).",
+   "images": [],
+   "id": "c81e422596cc",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Which set-builder notation describes the interval \\((-#]\\)?",
+   "en": "Which set-builder notation describes the interval \\((-4,1]\\)?",
+   "vi": "Cách viết nào mô tả <b class=\"mbl-term\" tabindex=\"0\" data-en=\"half-open interval\">nửa khoảng</b> \\((-4,1]\\) bằng tính chất đặc trưng?",
+   "options": [
+    "\\(\\{x\\in\\mathbb{R}\\mid-4\\le x\\le1\\}\\)",
+    "\\(\\{x\\in\\mathbb{R}\\mid-4\\lt x\\lt1\\}\\)",
+    "\\(\\{x\\in\\mathbb{R}\\mid-4\\le x\\lt1\\}\\)",
+    "\\(\\{x\\in\\mathbb{R}\\mid-4\\lt x\\le1\\}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. The round bracket at \\(-4\\) means not included (\\(\\lt\\)). The square bracket at 1 means included (\\(\\le\\)).",
+   "explain_vi": "Đáp án d. Ngoặc tròn ở \\(-4\\): không lấy (\\(\\lt\\)). Ngoặc vuông ở 1: lấy (\\(\\le\\)).",
+   "images": [],
+   "id": "6bfb80b84c1a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Which statement is written correctly?",
+   "en": "Which statement is written correctly?",
+   "vi": "Khẳng định nào được viết đúng?",
+   "options": [
+    "\\(\\{1,4\\}\\in\\{1,2,4\\}\\)",
+    "\\(\\{1,4\\}\\subset\\{1,2,4\\}\\)",
+    "\\(3\\in\\{1,2,4\\}\\)",
+    "\\(\\{1,4\\}\\subset\\{1,2,3\\}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Every element of \\(\\{1,4\\}\\) is in \\(\\{1,2,4\\}\\). In (a), \\(\\{1,4\\}\\) is a set, so we use \\(\\subset\\), not \\(\\in\\). In (d), 4 is not in \\(\\{1,2,3\\}\\).",
+   "explain_vi": "Đáp án b. Mọi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"element\">phần tử</b> của \\(\\{1,4\\}\\) đều thuộc \\(\\{1,2,4\\}\\). Ở câu a, \\(\\{1,4\\}\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"set\">tập hợp</b> nên dùng \\(\\subset\\) chứ không dùng \\(\\in\\). Ở câu d, 4 không thuộc \\(\\{1,2,3\\}\\).",
+   "images": [],
+   "id": "76ec7cb3fcb9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "True or false: \\(\\mathbb{Z}\\subset\\mathbb{Q}\\).",
+   "en": "True or false: \\(\\mathbb{Z}\\subset\\mathbb{Q}\\).",
+   "vi": "Đúng hay sai: \\(\\mathbb{Z}\\subset\\mathbb{Q}\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. Every integer is a rational number: \\(3=\\dfrac{3}{1}\\).",
+   "explain_vi": "Đúng. Mọi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"integers\">số nguyên</b> đều là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"rational numbers\">số hữu tỉ</b>: \\(3=\\dfrac{3}{1}\\).",
+   "images": [],
+   "id": "ae76e56f6d0e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "True or false: if \\(A\\subset B\\), then \\(A\\setminus B=\\varnothing\\).",
+   "en": "True or false: if \\(A\\subset B\\), then \\(A\\setminus B=\\varnothing\\).",
+   "vi": "Đúng hay sai: nếu \\(A\\subset B\\) thì \\(A\\setminus B=\\varnothing\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. Every element of \\(A\\) is in \\(B\\), so no element of \\(A\\) is left after we remove the elements of \\(B\\). Example: \\(\\{1\\}\\setminus\\{1,2\\}=\\varnothing\\).",
+   "explain_vi": "Đúng. Mọi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"element\">phần tử</b> của \\(A\\) đều thuộc \\(B\\), nên bỏ các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"element\">phần tử</b> của \\(B\\) đi thì không còn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"element\">phần tử</b> nào của \\(A\\). Ví dụ \\(\\{1\\}\\setminus\\{1,2\\}=\\varnothing\\).",
+   "images": [],
+   "id": "d1524799bb3d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "True or false: the interval \\([-#,+\\infty]\\) is written correctly.",
+   "en": "True or false: the interval \\([-3,+\\infty]\\) is written correctly.",
+   "vi": "Đúng hay sai: cách viết \\([-3,+\\infty]\\) là đúng.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. \\(+\\infty\\) is not a number, so it needs a round bracket: \\([-3,+\\infty)\\).",
+   "explain_vi": "Sai. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"infinity\">Vô cực</b> không phải là số nên luôn dùng ngoặc tròn: \\([-3,+\\infty)\\).",
+   "images": [],
+   "id": "ed0f8b559cb9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "How many elements does \\(\\{x\\in\\mathbb{Z}\\mid-#\\le x\\lt#\\}\\) have?",
+   "en": "How many elements does \\(\\{x\\in\\mathbb{Z}\\mid-5\\le x\\lt1\\}\\) have?",
+   "vi": "Tập \\(\\{x\\in\\mathbb{Z}\\mid-5\\le x\\lt1\\}\\) có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"element\">phần tử</b>?",
+   "options": [],
+   "answer": "6",
+   "explain_en": "Answer: 6. The integers are \\(-5,-4,-3,-2,-1,0\\). The number 1 is not included.",
+   "explain_vi": "Đáp số: 6. Các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"integers\">số nguyên</b> là \\(-5,-4,-3,-2,-1,0\\); số 1 không được lấy.",
+   "images": [],
+   "id": "308fe95c882d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "In a group of # students, # play football, # play volleyball and # play both. How many students play neither sport?",
+   "en": "In a group of 50 students, 28 play football, 25 play volleyball and 12 play both. How many students play neither sport?",
+   "vi": "Trong nhóm 50 học sinh, 28 em chơi bóng đá, 25 em chơi bóng chuyền và 12 em chơi cả hai. Có bao nhiêu em không chơi môn nào?",
+   "options": [],
+   "answer": "9",
+   "explain_en": "Answer: 9. \\(n(F\\cup V)=28+25-12=41\\), so \\(50-41=9\\) students play neither sport.",
+   "explain_vi": "Đáp số: 9. \\(n(F\\cup V)=28+25-12=41\\), nên \\(50-41=9\\) em không chơi môn nào.",
+   "images": [],
+   "id": "a06967793305",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Write \\((-\\infty,#]\\cap[#)\\) as one interval.",
+   "en": "Write \\((-\\infty,5]\\cap[2,9)\\) as one interval.",
+   "vi": "Viết \\((-\\infty,5]\\cap[2,9)\\) thành một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"interval\">khoảng</b>.",
+   "options": [],
+   "answer": "[2,5]",
+   "explain_en": "Answer: \\([2,5]\\). We need \\(x\\le5\\) and \\(2\\le x\\lt9\\), so \\(2\\le x\\le5\\).",
+   "explain_vi": "Đáp số: \\([2,5]\\). Cần \\(x\\le5\\) và \\(2\\le x\\lt9\\), nên \\(2\\le x\\le5\\); cả hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"endpoint\">đầu mút</b> đều được lấy.",
+   "images": [],
+   "id": "74257c875c59",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "How do we read \\(x\\notin A\\) in English?",
+   "en": "How do we read \\(x\\notin A\\) in English?",
+   "vi": "Ký hiệu \\(x\\notin A\\) đọc bằng tiếng Anh như thế nào?",
+   "options": [
+    "\\(\\text{x contains A}\\)",
+    "\\(\\text{x does not belong to A}\\)",
+    "\\(\\text{x is a subset of A}\\)",
+    "\\(\\text{x is not equal to A}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. “x does not belong to A” or “x is not an element of A”.",
+   "explain_vi": "Đáp án b. “x does not belong to A” hoặc “x is not an element of A” (x không thuộc A).",
+   "images": [],
+   "id": "171bba88815b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Which instruction means “Tìm hiệu \\(A\\setminus B\\)”?",
+   "en": "Which instruction means “Tìm hiệu \\(A\\setminus B\\)”?",
+   "vi": "Câu lệnh nào có nghĩa “Tìm hiệu \\(A\\setminus B\\)”?",
+   "options": [
+    "\\(\\text{Find the union of }A\\text{ and }B.\\)",
+    "\\(\\text{Find the intersection of }A\\text{ and }B.\\)",
+    "\\(\\text{Find the difference }A\\setminus B.\\)",
+    "\\(\\text{Find the complement of }A.\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Difference = hiệu; union = hợp; intersection = giao; complement = phần bù.",
+   "explain_vi": "Đáp án c. difference = hiệu; union = hợp; intersection = giao; complement = <b class=\"mbl-term\" tabindex=\"0\" data-en=\"complement\">phần bù</b>.",
+   "images": [],
+   "id": "e1ff0c158029",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "F",
+   "type": "mcq",
+   "form": "Find the complement of \\((-#]\\) in \\(\\mathbb{R}\\).",
+   "en": "Find the complement of \\((-3,1]\\) in \\(\\mathbb{R}\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"complement\">phần bù</b> của \\((-3,1]\\) trong \\(\\mathbb{R}\\).",
+   "options": [
+    "\\((-\\infty,-3)\\cup[1,+\\infty)\\)",
+    "\\((-\\infty,-3)\\cup(1,+\\infty)\\)",
+    "\\((-\\infty,-3]\\cup[1,+\\infty)\\)",
+    "\\((-\\infty,-3]\\cup(1,+\\infty)\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. The complement is everything outside the interval; an endpoint belongs to the complement exactly when it does not belong to the interval: \\((-\\infty,-3]\\cup(1,+\\infty)\\).",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"complement\">Phần bù</b> gồm mọi số nằm ngoài <b class=\"mbl-term\" tabindex=\"0\" data-en=\"interval\">khoảng</b>; một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"endpoint\">đầu mút</b> thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"complement\">phần bù</b> đúng khi nó không thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"interval\">khoảng</b> đã cho: \\((-\\infty,-3]\\cup(1,+\\infty)\\).",
+   "images": [],
+   "id": "6ac3cc7818b8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "F",
+   "type": "mcq",
+   "form": "How many elements does \\(\\{x\\in\\mathbb{Z}\\mid x^#\\lt #\\}\\) have?",
+   "en": "How many elements does \\(\\{x\\in\\mathbb{Z}\\mid x^2\\lt 20\\}\\) have?",
+   "vi": "Tập \\(\\{x\\in\\mathbb{Z}\\mid x^2\\lt 20\\}\\) có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"element\">phần tử</b>?",
+   "options": [
+    "\\(10\\)",
+    "\\(9\\)",
+    "\\(11\\)",
+    "\\(8\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. We need \\(|x|\\lt \\sqrt{20}\\): there are 9 integers.",
+   "explain_vi": "Đáp án b. Cần \\(|x|\\lt \\sqrt{20}\\): có 9 <b class=\"mbl-term\" tabindex=\"0\" data-en=\"integers\">số nguyên</b>.",
+   "images": [],
+   "id": "7632ce2019cb",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "F",
+   "type": "mcq",
+   "form": "How many proper subsets does \\(\\{x\\in\\mathbb{Z}\\mid -#\\le x\\lt #\\}\\) have?",
+   "en": "How many proper subsets does \\(\\{x\\in\\mathbb{Z}\\mid -2\\le x\\lt 2\\}\\) have?",
+   "vi": "Tập \\(\\{x\\in\\mathbb{Z}\\mid -2\\le x\\lt 2\\}\\) có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"subset\">tập con</b> thực sự?",
+   "options": [
+    "\\(14\\)",
+    "\\(8\\)",
+    "\\(15\\)",
+    "\\(16\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The set has 4 elements, so it has \\(2^{4}=16\\) subsets (15 proper subsets, without the set itself).",
+   "explain_vi": "Đáp án c. Tập có 4 <b class=\"mbl-term\" tabindex=\"0\" data-en=\"element\">phần tử</b> nên có \\(2^{4}=16\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"subset\">tập con</b> (15 <b class=\"mbl-term\" tabindex=\"0\" data-en=\"subset\">tập con</b> thực sự, trừ chính nó).",
+   "images": [],
+   "id": "f82cdc118feb",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "F",
+   "type": "mcq",
+   "form": "In a class of # students, # like Math, # like English and # like both. How many students like at least one subject?",
+   "en": "In a class of 27 students, 20 like Math, 18 like English and 15 like both. How many students like at least one subject?",
+   "vi": "Một lớp có 27 học sinh, 20 em thích Toán, 18 em thích Tiếng Anh và 15 em thích cả hai. Có bao nhiêu em thích <b class=\"mbl-term\" tabindex=\"0\" data-en=\"at least one\">ít nhất một</b> môn?",
+   "options": [
+    "\\(6\\)",
+    "\\(38\\)",
+    "\\(23\\)",
+    "\\(24\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(n(M\\cup E)=20+18-15=23\\); this is the answer.",
+   "explain_vi": "Đáp án c. \\(n(M\\cup E)=20+18-15=23\\); đó chính là đáp số.",
+   "images": [],
+   "id": "dd6db72fbf06",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "F",
+   "type": "mcq",
+   "form": "Let \\(A=(-#)\\) and \\(B=(-#)\\). Find \\(A\\cap B\\).",
+   "en": "Let \\(A=(-4,2)\\) and \\(B=(-1,3)\\). Find \\(A\\cap B\\).",
+   "vi": "Cho \\(A=(-4,2)\\), \\(B=(-1,3)\\). Tìm \\(A\\cap B\\).",
+   "options": [
+    "\\((-1,2]\\)",
+    "\\([-1,2]\\)",
+    "\\([-1,2)\\)",
+    "\\((-1,2)\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Draw both intervals on a number line and check each endpoint: \\(A\\cap B=(-1,2)\\).",
+   "explain_vi": "Đáp án d. Vẽ hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"interval\">khoảng</b> trên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"number line\">trục số</b> và xét từng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"endpoint\">đầu mút</b>: \\(A\\cap B=(-1,2)\\).",
+   "images": [],
+   "id": "b54004773c7e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "F",
+   "type": "mcq",
+   "form": "Let \\(A=[-#)\\) and \\(B=(#)\\). Find \\(A\\setminus B\\).",
+   "en": "Let \\(A=[-2,1)\\) and \\(B=(0,4)\\). Find \\(A\\setminus B\\).",
+   "vi": "Cho \\(A=[-2,1)\\), \\(B=(0,4)\\). Tìm \\(A\\setminus B\\).",
+   "options": [
+    "\\((-2,0)\\)",
+    "\\([-2,0]\\)",
+    "\\([-2,0)\\)",
+    "\\((-2,0]\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Draw both intervals on a number line and check each endpoint: \\(A\\setminus B=[-2,0]\\).",
+   "explain_vi": "Đáp án b. Vẽ hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"interval\">khoảng</b> trên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"number line\">trục số</b> và xét từng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"endpoint\">đầu mút</b>: \\(A\\setminus B=[-2,0]\\).",
+   "images": [],
+   "id": "6a3b36860093",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "F",
+   "type": "mcq",
+   "form": "Let \\(A=\\{#,#,#\\}\\) and \\(B=\\{#,#,#\\}\\). Find \\(A\\cap B\\).",
+   "en": "Let \\(A=\\{1,3,5,9,11,14\\}\\) and \\(B=\\{3,4,5,7,8,12\\}\\). Find \\(A\\cap B\\).",
+   "vi": "Cho \\(A=\\{1,3,5,9,11,14\\}\\), \\(B=\\{3,4,5,7,8,12\\}\\). Tìm \\(A\\cap B\\).",
+   "options": [
+    "\\(\\{1,9,11,14\\}\\)",
+    "\\(\\{3,5\\}\\)",
+    "\\(\\{1,3,4,5,7,8,9,11,12,14\\}\\)",
+    "\\(\\{4,7,8,12\\}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. The intersection: \\(A\\cap B=\\{3,5\\}\\).",
+   "explain_vi": "Đáp án b. Phép giao: \\(A\\cap B=\\{3,5\\}\\).",
+   "images": [],
+   "id": "32e29b590f32",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "F",
+   "type": "mcq",
+   "form": "Let \\(A=\\{#,#\\}\\) and \\(B=\\{#,#\\}\\). Find \\(A\\cap B\\).",
+   "en": "Let \\(A=\\{4,9,11,14\\}\\) and \\(B=\\{1,5,9,12\\}\\). Find \\(A\\cap B\\).",
+   "vi": "Cho \\(A=\\{4,9,11,14\\}\\), \\(B=\\{1,5,9,12\\}\\). Tìm \\(A\\cap B\\).",
+   "options": [
+    "\\(\\{4,11,14\\}\\)",
+    "\\(\\{1,5,12\\}\\)",
+    "\\(\\{1,4,5,9,11,12,14\\}\\)",
+    "\\(\\{9\\}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. The intersection: \\(A\\cap B=\\{9\\}\\).",
+   "explain_vi": "Đáp án d. Phép giao: \\(A\\cap B=\\{9\\}\\).",
+   "images": [],
+   "id": "00a9e4e9b377",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1317 @@
+{
+ "lesson": "g9-circles-05",
+ "grade": 9,
+ "no": 17,
+ "title": "Vị trí tương đối của hai đường tròn",
+ "path": "lessons/grade9/circles/two-circles.html",
+ "items": [
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Circle \\((O)\\) has radius # cm and circle \\((O')\\) has radius \\(r\\). \\(OO'=#\\) cm and the circles are externally tangent. Find \\(r\\).",
+   "en": "Circle \\((O)\\) has radius 7 cm and circle \\((O')\\) has radius \\(r\\). \\(OO'=27\\) cm and the circles are externally tangent. Find \\(r\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">Đường tròn</b> \\((O)\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 7 cm, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> \\((O')\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> \\(r\\). \\(OO'=27\\) cm và hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"externally tangent\">tiếp xúc ngoài</b>. Tính \\(r\\).",
+   "options": [
+    "\\(19\\text{ cm}\\)",
+    "\\(27\\text{ cm}\\)",
+    "\\(34\\text{ cm}\\)",
+    "\\(20\\text{ cm}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Externally tangent: \\(d=R+r\\Rightarrow r=27-7=20\\).",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"externally tangent\">Tiếp xúc ngoài</b>: \\(d=R+r\\Rightarrow r=27-7=20\\).",
+   "images": [],
+   "id": "6cec8ac593cc",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Circles \\((O;\\,#\\text{ cm})\\) and \\((O';\\,#\\text{ cm})\\) have \\(OO'=#\\) cm. What is their relative position?",
+   "en": "Circles \\((O;\\,11\\text{ cm})\\) and \\((O';\\,4\\text{ cm})\\) have \\(OO'=21\\) cm. What is their relative position?",
+   "vi": "Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> \\((O;\\,11\\text{ cm})\\) và \\((O';\\,4\\text{ cm})\\) có \\(OO'=21\\) cm. Vị trí tương đối của chúng là gì?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">one lies inside the other (no common point)</span><span class=\"vi\">đựng nhau (không có điểm chung)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">they intersect (two common points)</span><span class=\"vi\">cắt nhau (có hai điểm chung)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">externally tangent</span><span class=\"vi\">tiếp xúc ngoài</span></span>",
+    "<span class=\"txi\"><span class=\"en\">outside each other (no common point)</span><span class=\"vi\">ở ngoài nhau (không có điểm chung)</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(R+r=15\\), \\(R-r=7\\), \\(d=21\\).",
+   "explain_vi": "Đáp án d. \\(R+r=15\\), \\(R-r=7\\), \\(d=21\\).",
+   "images": [],
+   "id": "3f82fe5b6d2d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Two circles have radii # cm and # cm, and their centers are # cm apart. How many common points do they have?",
+   "en": "Two circles have radii 9 cm and 4 cm, and their centers are 9 cm apart. How many common points do they have?",
+   "vi": "Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 9 cm và 4 cm, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">khoảng cách</b> giữa hai tâm là 9 cm. Chúng có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"common point\">điểm chung</b>?",
+   "options": [
+    "\\(0\\)",
+    "\\(3\\)",
+    "\\(2\\)",
+    "\\(1\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(R+r=13\\), \\(R-r=5\\), \\(d=9\\): they intersect (two common points).",
+   "explain_vi": "Đáp án c. \\(R+r=13\\), \\(R-r=5\\), \\(d=9\\): <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersect\">cắt nhau</b> (có hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"common point\">điểm chung</b>).",
+   "images": [],
+   "id": "44f87d7f80eb",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "Two circles with radii # cm and # cm whose centers are # cm apart are outside each other.",
+   "en": "Two circles with radii 8 cm and 4 cm whose centers are 1 cm apart are outside each other.",
+   "vi": "Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 8 cm, 4 cm và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">khoảng cách</b> hai tâm 1 cm thì <b class=\"mbl-term\" tabindex=\"0\" data-en=\"outside each other\">ở ngoài nhau</b>.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. \\(R+r=12\\), \\(R-r=4\\), \\(d=1\\): one lies inside the other (no common point).",
+   "explain_vi": "Sai. \\(R+r=12\\), \\(R-r=4\\), \\(d=1\\): <b class=\"mbl-term\" tabindex=\"0\" data-en=\"one inside the other\">đựng nhau</b> (không có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"common point\">điểm chung</b>).",
+   "images": [],
+   "id": "8f0b92fc6179",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "\\((O;\\,#\\text{ cm})\\) and \\((O';\\,#\\text{ cm})\\) are internally tangent at \\(T\\). Then \\(OT\\perp O'T\\).",
+   "en": "\\((O;\\,9\\text{ cm})\\) and \\((O';\\,3\\text{ cm})\\) are internally tangent at \\(T\\). Then \\(OT\\perp O'T\\).",
+   "vi": "\\((O;\\,9\\text{ cm})\\) và \\((O';\\,3\\text{ cm})\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"internally tangent\">tiếp xúc trong</b> tại \\(T\\). Khi đó \\(OT\\perp O'T\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. At a point of tangency, the two centers and the point of tangency are collinear.",
+   "explain_vi": "Sai. Khi hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> tiếp xúc, hai tâm và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"point of tangency\">tiếp điểm</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"collinear\">thẳng hàng</b>.",
+   "images": [],
+   "id": "8744c20b6fe0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "Circles \\((O;\\,#\\text{ cm})\\) and \\((O';\\,#\\text{ cm})\\) intersect at \\(A\\), \\(B\\), with \\(OO'=#\\) cm and the centers on opposite sides of \\(AB\\). Find the common chord \\(AB\\) (cm).",
+   "en": "Circles \\((O;\\,20\\text{ cm})\\) and \\((O';\\,15\\text{ cm})\\) intersect at \\(A\\), \\(B\\), with \\(OO'=25\\) cm and the centers on opposite sides of \\(AB\\). Find the common chord \\(AB\\) (cm).",
+   "vi": "Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> \\((O;\\,20\\text{ cm})\\) và \\((O';\\,15\\text{ cm})\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersect\">cắt nhau</b> tại \\(A\\), \\(B\\), \\(OO'=25\\) cm và hai tâm nằm khác phía đối với \\(AB\\). Tính độ dài <b class=\"mbl-term\" tabindex=\"0\" data-en=\"common chord\">dây chung</b> \\(AB\\) (cm).",
+   "options": [],
+   "answer": "24",
+   "explain_en": "Answer: 24. \\(OO'\\perp AB\\) at the midpoint \\(M\\): \\(OM=x\\), \\(O'M=25-x\\), \\(20^2-x^2=15^2-(25-x)^2\\Rightarrow x=16\\), \\(AM=\\sqrt{20^2-16^2}=12\\), \\(AB=24\\).",
+   "explain_vi": "Đáp số: 24. \\(OO'\\perp AB\\) tại <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> \\(M\\): \\(OM=x\\), \\(O'M=25-x\\), \\(20^2-x^2=15^2-(25-x)^2\\Rightarrow x=16\\), \\(AM=\\sqrt{20^2-16^2}=12\\), \\(AB=24\\).",
+   "images": [],
+   "id": "a34680af3c97",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "Two circular fountains have radii # m (center \\(A\\)) and # m (center \\(B\\)), and \\(AB=#\\) m. The smaller fountain is moved directly towards \\(A\\) until the circles are internally tangent. How many meters does it move?",
+   "en": "Two circular fountains have radii 5 m (center \\(A\\)) and 3 m (center \\(B\\)), and \\(AB=6\\) m. The smaller fountain is moved directly towards \\(A\\) until the circles are internally tangent. How many meters does it move?",
+   "vi": "Hai đài phun nước hình tròn có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 5 m (tâm \\(A\\)) và 3 m (tâm \\(B\\)), \\(AB=6\\) m. Dời đài nhỏ thẳng về phía \\(A\\) đến khi hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"internally tangent\">tiếp xúc trong</b>. Đài nhỏ phải dời bao nhiêu mét?",
+   "options": [],
+   "answer": "4",
+   "explain_en": "Answer: 4. The new distance is \\(R-r=2\\); move \\(4\\) m.",
+   "explain_vi": "Đáp số: 4. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">Khoảng cách</b> mới là \\(R-r=2\\); dời \\(4\\) m.",
+   "images": [],
+   "id": "f0cdcfbe40f9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Circles \\((O;\\,#)\\) and \\((O';\\,#)\\), \\(d=OO'\\). They are internally tangent exactly when…",
+   "en": "Circles \\((O;\\,19)\\) and \\((O';\\,5)\\), \\(d=OO'\\). They are internally tangent exactly when…",
+   "vi": "Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> \\((O;\\,19)\\) và \\((O';\\,5)\\), \\(d=OO'\\). Chúng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"internally tangent\">tiếp xúc trong</b> khi và chỉ khi…",
+   "options": [
+    "\\(d=0\\)",
+    "\\(d=14\\)",
+    "\\(d\\gt 24\\)",
+    "\\(d=24\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Compare \\(d\\) with \\(R+r=24\\) and \\(R-r=14\\).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"compare\">So sánh</b> \\(d\\) với \\(R+r=24\\) và \\(R-r=14\\).",
+   "images": [],
+   "id": "3441ccbc66c7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Two circles with the same center and radii # cm, # cm are…",
+   "en": "Two circles with the same center and radii 11 cm, 7 cm are…",
+   "vi": "Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> cùng tâm, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 11 cm và 7 cm thì…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">intersecting</span><span class=\"vi\">cắt nhau</span></span>",
+    "<span class=\"txi\"><span class=\"en\">externally tangent</span><span class=\"vi\">tiếp xúc ngoài</span></span>",
+    "<span class=\"txi\"><span class=\"en\">internally tangent</span><span class=\"vi\">tiếp xúc trong</span></span>",
+    "<span class=\"txi\"><span class=\"en\">concentric (one inside the other)</span><span class=\"vi\">đồng tâm (đựng nhau)</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Definitions of the relative positions of two circles.",
+   "explain_vi": "Đáp án d. Định nghĩa các vị trí tương đối của hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b>.",
+   "images": [],
+   "id": "fba993fcf46d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Two concentric circles have radii # cm and # cm. What is the distance between their centers?",
+   "en": "Two concentric circles have radii 17 cm and 3 cm. What is the distance between their centers?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"concentric circles\">Hai đường tròn đồng tâm</b> có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 17 cm và 3 cm. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">Khoảng cách</b> giữa hai tâm bằng bao nhiêu?",
+   "options": [
+    "\\(14\\text{ cm}\\)",
+    "\\(0\\text{ cm}\\)",
+    "\\(17\\text{ cm}\\)",
+    "\\(20\\text{ cm}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Concentric circles have the same center: \\(d=0\\).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"concentric circles\">Hai đường tròn đồng tâm</b> có chung tâm: \\(d=0\\).",
+   "images": [],
+   "id": "04d3a79c6c06",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Circle \\((O)\\) has radius # cm; circle \\((O')\\) has radius \\(r\\) cm and \\(OO'=#\\) cm. Find all \\(r\\) for which the circles are internally tangent.",
+   "en": "Circle \\((O)\\) has radius 12 cm; circle \\((O')\\) has radius \\(r\\) cm and \\(OO'=5\\) cm. Find all \\(r\\) for which the circles are internally tangent.",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">Đường tròn</b> \\((O)\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 12 cm; <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> \\((O')\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> \\(r\\) cm và \\(OO'=5\\) cm. Tìm mọi giá trị của \\(r\\) để hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"internally tangent\">tiếp xúc trong</b>.",
+   "options": [
+    "\\(r=5\\)",
+    "\\(r=7\\)",
+    "\\(r=7\\ \\text{or}\\ r=17\\)",
+    "\\(r=17\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(|12-r|=5\\Rightarrow r=7\\) or \\(r=17\\).",
+   "explain_vi": "Đáp án c. \\(|12-r|=5\\Rightarrow r=7\\) hoặc \\(r=17\\).",
+   "images": [],
+   "id": "863d9f36b98b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Circles \\((O;\\,#\\text{ cm})\\) and \\((O';\\,#\\text{ cm})\\) have \\(OO'=#\\) cm. Their relative position is…",
+   "en": "Circles \\((O;\\,7\\text{ cm})\\) and \\((O';\\,2.5\\text{ cm})\\) have \\(OO'=4.5\\) cm. Their relative position is…",
+   "vi": "Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> \\((O;\\,7\\text{ cm})\\) và \\((O';\\,2{,}5\\text{ cm})\\) có \\(OO'=4{,}5\\) cm. Vị trí tương đối của chúng là…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">outside each other (no common point)</span><span class=\"vi\">ở ngoài nhau (không có điểm chung)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">they intersect (two common points)</span><span class=\"vi\">cắt nhau (có hai điểm chung)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">internally tangent</span><span class=\"vi\">tiếp xúc trong</span></span>",
+    "<span class=\"txi\"><span class=\"en\">one lies inside the other (no common point)</span><span class=\"vi\">đựng nhau (không có điểm chung)</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(R+r=9.5\\), \\(R-r=4.5\\).",
+   "explain_vi": "Đáp án c. \\(R+r=9{,}5\\), \\(R-r=4{,}5\\).",
+   "images": [],
+   "id": "3a0739ed5d5a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Two gears are modeled by externally tangent circles of radii # cm and # cm. How far apart are their centers?",
+   "en": "Two gears are modeled by externally tangent circles of radii 4 cm and 8 cm. How far apart are their centers?",
+   "vi": "Hai bánh răng được mô hình hóa bởi hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"externally tangent\">tiếp xúc ngoài</b> có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 4 cm và 8 cm. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">Khoảng cách</b> giữa hai tâm là bao nhiêu?",
+   "options": [
+    "\\(4\\text{ cm}\\)",
+    "\\(12\\text{ cm}\\)",
+    "\\(24\\text{ cm}\\)",
+    "\\(32\\text{ cm}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Externally tangent: \\(d=R+r=12\\) cm.",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"externally tangent\">Tiếp xúc ngoài</b>: \\(d=R+r=12\\) cm.",
+   "images": [],
+   "id": "f9edd4adeda7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Circle \\(C_#\\) has radius # cm, circle \\(C_#\\) has radius \\(r\\) cm and the centers are # cm apart. For which \\(r\\) do the circles intersect at two points?",
+   "en": "Circle \\(C_1\\) has radius 8 cm, circle \\(C_2\\) has radius \\(r\\) cm and the centers are 15 cm apart. For which \\(r\\) do the circles intersect at two points?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">Đường tròn</b> \\(C_1\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 8 cm, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> \\(C_2\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> \\(r\\) cm, hai tâm cách nhau 15 cm. Với giá trị nào của \\(r\\) thì <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersecting circles\">hai đường tròn cắt nhau</b>?",
+   "options": [
+    "\\(7\\lt r\\lt 23\\)",
+    "\\(r=23\\)",
+    "\\(r\\gt 7\\)",
+    "\\(0\\lt r\\lt 23\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(|8-r|\\lt 15\\lt 8+r\\Leftrightarrow 7\\lt r\\lt 23\\).",
+   "explain_vi": "Đáp án a. \\(|8-r|\\lt 15\\lt 8+r\\Leftrightarrow 7\\lt r\\lt 23\\).",
+   "images": [],
+   "id": "0ebb22b67d39",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Three circles with radii # cm, # cm and # cm are pairwise externally tangent. Find the perimeter of the triangle formed by their centers.",
+   "en": "Three circles with radii 6 cm, 12 cm and 7 cm are pairwise externally tangent. Find the perimeter of the triangle formed by their centers.",
+   "vi": "Ba <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 6 cm, 12 cm, 7 cm đôi một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"externally tangent\">tiếp xúc ngoài</b>. Tính chu vi tam giác có ba đỉnh là ba tâm.",
+   "options": [
+    "\\(100\\text{ cm}\\)",
+    "\\(50\\text{ cm}\\)",
+    "\\(75\\text{ cm}\\)",
+    "\\(25\\text{ cm}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Sides: \\(6+12\\), \\(12+7\\), \\(7+6\\); perimeter \\(=2(6+12+7)=50\\) cm.",
+   "explain_vi": "Đáp án b. Các cạnh: \\(6+12\\), \\(12+7\\), \\(7+6\\); chu vi \\(=2(6+12+7)=50\\) cm.",
+   "images": [],
+   "id": "d3ba5e25ca4a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D3",
+   "type": "mcq",
+   "form": "\\((O;\\,#\\text{ cm})\\) and \\((O';\\,#\\text{ cm})\\) are internally tangent at \\(T\\). Point \\(P\\) on the larger circle lies on line \\(OO'\\), on the side opposite \\(T\\). Find \\(PO'\\).",
+   "en": "\\((O;\\,10\\text{ cm})\\) and \\((O';\\,4\\text{ cm})\\) are internally tangent at \\(T\\). Point \\(P\\) on the larger circle lies on line \\(OO'\\), on the side opposite \\(T\\). Find \\(PO'\\).",
+   "vi": "\\((O;\\,10\\text{ cm})\\) và \\((O';\\,4\\text{ cm})\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"internally tangent\">tiếp xúc trong</b> tại \\(T\\). Điểm \\(P\\) thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> lớn, nằm trên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(OO'\\), ở phía đối diện với \\(T\\). Tính \\(PO'\\).",
+   "options": [
+    "\\(16\\text{ cm}\\)",
+    "\\(14\\text{ cm}\\)",
+    "\\(6\\text{ cm}\\)",
+    "\\(20\\text{ cm}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(OO'=10-4=6\\), \\(PO'=PO+OO'=10+6=16\\) cm.",
+   "explain_vi": "Đáp án a. \\(OO'=10-4=6\\), \\(PO'=PO+OO'=10+6=16\\) cm.",
+   "images": [],
+   "id": "4c1c59bb3998",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D4",
+   "type": "mcq",
+   "form": "Circles \\((O;\\,#\\text{ cm})\\) and \\((O';\\,#\\text{ cm})\\) intersect at \\(A\\), \\(B\\), with \\(OO'=#\\) cm and the centers on opposite sides of \\(AB\\). Find the common chord \\(AB\\) (cm).",
+   "en": "Circles \\((O;\\,60\\text{ cm})\\) and \\((O';\\,45\\text{ cm})\\) intersect at \\(A\\), \\(B\\), with \\(OO'=75\\) cm and the centers on opposite sides of \\(AB\\). Find the common chord \\(AB\\) (cm).",
+   "vi": "Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> \\((O;\\,60\\text{ cm})\\) và \\((O';\\,45\\text{ cm})\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersect\">cắt nhau</b> tại \\(A\\), \\(B\\), \\(OO'=75\\) cm và hai tâm nằm khác phía đối với \\(AB\\). Tính độ dài <b class=\"mbl-term\" tabindex=\"0\" data-en=\"common chord\">dây chung</b> \\(AB\\) (cm).",
+   "options": [
+    "\\(74\\text{ cm}\\)",
+    "\\(144\\text{ cm}\\)",
+    "\\(36\\text{ cm}\\)",
+    "\\(72\\text{ cm}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(OO'\\perp AB\\) at the midpoint \\(M\\): \\(OM=x\\), \\(O'M=75-x\\), \\(60^2-x^2=45^2-(75-x)^2\\Rightarrow x=48\\), \\(AM=\\sqrt{60^2-48^2}=36\\), \\(AB=72\\).",
+   "explain_vi": "Đáp án d. \\(OO'\\perp AB\\) tại <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> \\(M\\): \\(OM=x\\), \\(O'M=75-x\\), \\(60^2-x^2=45^2-(75-x)^2\\Rightarrow x=48\\), \\(AM=\\sqrt{60^2-48^2}=36\\), \\(AB=72\\).",
+   "images": [],
+   "id": "388d340c4dd7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D4",
+   "type": "mcq",
+   "form": "Two circles have radii \\(k+#\\) and # (\\(k\\gt#\\)), and their centers are # units apart. Find all \\(k\\) for which the circles are tangent.",
+   "en": "Two circles have radii \\(k+4\\) and 4 (\\(k\\gt0\\)), and their centers are 16 units apart. Find all \\(k\\) for which the circles are tangent.",
+   "vi": "Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> \\(k+4\\) và 4 (\\(k\\gt0\\)), hai tâm cách nhau 16 đơn vị. Tìm mọi \\(k\\) để hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> tiếp xúc nhau.",
+   "options": [
+    "\\(k=12\\ \\text{or}\\ k=20\\)",
+    "\\(k=16\\)",
+    "\\(k=8\\ \\text{or}\\ k=16\\)",
+    "\\(k=8\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. External: \\(k+4+4=16\\Rightarrow k=8\\); internal: \\(k+4-4=16\\Rightarrow k=16\\).",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"externally tangent\">Tiếp xúc ngoài</b>: \\(k+4+4=16\\Rightarrow k=8\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"internally tangent\">tiếp xúc trong</b>: \\(k+4-4=16\\Rightarrow k=16\\).",
+   "images": [],
+   "id": "5708c50f9d41",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D4",
+   "type": "mcq",
+   "form": "Two circular flower beds have radii # m and # m; their centers are # m apart. The smaller bed is moved straight towards the larger one until the beds are externally tangent. How far is it moved?",
+   "en": "Two circular flower beds have radii 11 m and 5 m; their centers are 18 m apart. The smaller bed is moved straight towards the larger one until the beds are externally tangent. How far is it moved?",
+   "vi": "Hai bồn hoa hình tròn có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 11 m và 5 m, hai tâm cách nhau 18 m. Dời bồn nhỏ thẳng về phía bồn lớn đến khi hai bồn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"externally tangent\">tiếp xúc ngoài</b>. Phải dời bao nhiêu mét?",
+   "options": [
+    "\\(2\\text{ m}\\)",
+    "\\(12\\text{ m}\\)",
+    "\\(7\\text{ m}\\)",
+    "\\(13\\text{ m}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Externally tangent: \\(d=11+5=16\\); move \\(18-16=2\\) m.",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"externally tangent\">Tiếp xúc ngoài</b> khi \\(d=11+5=16\\); dời \\(18-16=2\\) m.",
+   "images": [],
+   "id": "00dd4958a9ba",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Circle \\((O)\\) has radius # cm and circle \\((O')\\) has radius \\(r\\). \\(OO'=#\\) cm and the circles are externally tangent. Find \\(r\\).",
+   "en": "Circle \\((O)\\) has radius 6 cm and circle \\((O')\\) has radius \\(r\\). \\(OO'=13\\) cm and the circles are externally tangent. Find \\(r\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">Đường tròn</b> \\((O)\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 6 cm, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> \\((O')\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> \\(r\\). \\(OO'=13\\) cm và hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"externally tangent\">tiếp xúc ngoài</b>. Tính \\(r\\).",
+   "options": [
+    "\\(19\\text{ cm}\\)",
+    "\\(7\\text{ cm}\\)",
+    "\\(13\\text{ cm}\\)",
+    "\\(6\\text{ cm}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Externally tangent: \\(d=R+r\\Rightarrow r=13-6=7\\).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"externally tangent\">Tiếp xúc ngoài</b>: \\(d=R+r\\Rightarrow r=13-6=7\\).",
+   "images": [],
+   "id": "74e281516aa3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Circles \\((O;\\,#\\text{ cm})\\) and \\((O';\\,#\\text{ cm})\\) have \\(OO'=#\\) cm. What is their relative position?",
+   "en": "Circles \\((O;\\,6\\text{ cm})\\) and \\((O';\\,4\\text{ cm})\\) have \\(OO'=14\\) cm. What is their relative position?",
+   "vi": "Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> \\((O;\\,6\\text{ cm})\\) và \\((O';\\,4\\text{ cm})\\) có \\(OO'=14\\) cm. Vị trí tương đối của chúng là gì?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">they intersect (two common points)</span><span class=\"vi\">cắt nhau (có hai điểm chung)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">outside each other (no common point)</span><span class=\"vi\">ở ngoài nhau (không có điểm chung)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">internally tangent</span><span class=\"vi\">tiếp xúc trong</span></span>",
+    "<span class=\"txi\"><span class=\"en\">externally tangent</span><span class=\"vi\">tiếp xúc ngoài</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(R+r=10\\), \\(R-r=2\\), \\(d=14\\).",
+   "explain_vi": "Đáp án b. \\(R+r=10\\), \\(R-r=2\\), \\(d=14\\).",
+   "images": [],
+   "id": "89039ef24adb",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Two circles have radii # cm and # cm, and their centers are # cm apart. How many common points do they have?",
+   "en": "Two circles have radii 11 cm and 2 cm, and their centers are 13 cm apart. How many common points do they have?",
+   "vi": "Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 11 cm và 2 cm, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">khoảng cách</b> giữa hai tâm là 13 cm. Chúng có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"common point\">điểm chung</b>?",
+   "options": [
+    "\\(0\\)",
+    "\\(2\\)",
+    "\\(1\\)",
+    "\\(3\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(R+r=13\\), \\(R-r=9\\), \\(d=13\\): externally tangent.",
+   "explain_vi": "Đáp án c. \\(R+r=13\\), \\(R-r=9\\), \\(d=13\\): <b class=\"mbl-term\" tabindex=\"0\" data-en=\"externally tangent\">tiếp xúc ngoài</b>.",
+   "images": [],
+   "id": "bad6203b9947",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "Two circles with radii # cm and # cm whose centers are # cm apart are intersecting.",
+   "en": "Two circles with radii 11 cm and 3 cm whose centers are 14 cm apart are intersecting.",
+   "vi": "Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 11 cm, 3 cm và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">khoảng cách</b> hai tâm 14 cm thì <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersect\">cắt nhau</b>.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. \\(R+r=14\\), \\(R-r=8\\), \\(d=14\\): externally tangent.",
+   "explain_vi": "Sai. \\(R+r=14\\), \\(R-r=8\\), \\(d=14\\): <b class=\"mbl-term\" tabindex=\"0\" data-en=\"externally tangent\">tiếp xúc ngoài</b>.",
+   "images": [],
+   "id": "ab5b063bdcd5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "\\((O;\\,#\\text{ cm})\\) and \\((O';\\,#\\text{ cm})\\) are externally tangent at \\(K\\). Then \\(OK\\perp O'K\\).",
+   "en": "\\((O;\\,12\\text{ cm})\\) and \\((O';\\,5\\text{ cm})\\) are externally tangent at \\(K\\). Then \\(OK\\perp O'K\\).",
+   "vi": "\\((O;\\,12\\text{ cm})\\) và \\((O';\\,5\\text{ cm})\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"externally tangent\">tiếp xúc ngoài</b> tại \\(K\\). Khi đó \\(OK\\perp O'K\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. At a point of tangency, the two centers and the point of tangency are collinear.",
+   "explain_vi": "Sai. Khi hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> tiếp xúc, hai tâm và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"point of tangency\">tiếp điểm</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"collinear\">thẳng hàng</b>.",
+   "images": [],
+   "id": "041df719af74",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "Circles \\((O;\\,#\\text{ cm})\\) and \\((O';\\,#\\text{ cm})\\) intersect at \\(A\\), \\(B\\), with \\(OO'=#\\) cm and the centers on opposite sides of \\(AB\\). Find the common chord \\(AB\\) (cm).",
+   "en": "Circles \\((O;\\,15\\text{ cm})\\) and \\((O';\\,13\\text{ cm})\\) intersect at \\(A\\), \\(B\\), with \\(OO'=14\\) cm and the centers on opposite sides of \\(AB\\). Find the common chord \\(AB\\) (cm).",
+   "vi": "Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> \\((O;\\,15\\text{ cm})\\) và \\((O';\\,13\\text{ cm})\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersect\">cắt nhau</b> tại \\(A\\), \\(B\\), \\(OO'=14\\) cm và hai tâm nằm khác phía đối với \\(AB\\). Tính độ dài <b class=\"mbl-term\" tabindex=\"0\" data-en=\"common chord\">dây chung</b> \\(AB\\) (cm).",
+   "options": [],
+   "answer": "24",
+   "explain_en": "Answer: 24. \\(OO'\\perp AB\\) at the midpoint \\(M\\): \\(OM=x\\), \\(O'M=14-x\\), \\(15^2-x^2=13^2-(14-x)^2\\Rightarrow x=9\\), \\(AM=\\sqrt{15^2-9^2}=12\\), \\(AB=24\\).",
+   "explain_vi": "Đáp số: 24. \\(OO'\\perp AB\\) tại <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> \\(M\\): \\(OM=x\\), \\(O'M=14-x\\), \\(15^2-x^2=13^2-(14-x)^2\\Rightarrow x=9\\), \\(AM=\\sqrt{15^2-9^2}=12\\), \\(AB=24\\).",
+   "images": [],
+   "id": "dcabbeaddb84",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "Two circular fountains have radii # m (center \\(A\\)) and # m (center \\(B\\)), and \\(AB=#\\) m. The smaller fountain is moved directly towards \\(A\\) until the circles are internally tangent. How many meters does it move?",
+   "en": "Two circular fountains have radii 4 m (center \\(A\\)) and 2 m (center \\(B\\)), and \\(AB=3\\) m. The smaller fountain is moved directly towards \\(A\\) until the circles are internally tangent. How many meters does it move?",
+   "vi": "Hai đài phun nước hình tròn có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 4 m (tâm \\(A\\)) và 2 m (tâm \\(B\\)), \\(AB=3\\) m. Dời đài nhỏ thẳng về phía \\(A\\) đến khi hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"internally tangent\">tiếp xúc trong</b>. Đài nhỏ phải dời bao nhiêu mét?",
+   "options": [],
+   "answer": "1",
+   "explain_en": "Answer: 1. The new distance is \\(R-r=2\\); move \\(1\\) m.",
+   "explain_vi": "Đáp số: 1. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">Khoảng cách</b> mới là \\(R-r=2\\); dời \\(1\\) m.",
+   "images": [],
+   "id": "198159e5eee6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Circles \\((O;\\,#)\\) and \\((O';\\,#)\\), \\(d=OO'\\). They are intersecting exactly when…",
+   "en": "Circles \\((O;\\,15)\\) and \\((O';\\,11)\\), \\(d=OO'\\). They are intersecting exactly when…",
+   "vi": "Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> \\((O;\\,15)\\) và \\((O';\\,11)\\), \\(d=OO'\\). Chúng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersect\">cắt nhau</b> khi và chỉ khi…",
+   "options": [
+    "\\(d\\gt 26\\)",
+    "\\(d\\lt 4\\)",
+    "\\(4\\lt d\\lt 26\\)",
+    "\\(d=26\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Compare \\(d\\) with \\(R+r=26\\) and \\(R-r=4\\).",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"compare\">So sánh</b> \\(d\\) với \\(R+r=26\\) và \\(R-r=4\\).",
+   "images": [],
+   "id": "e2052ab2e74a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Two circles have exactly one common point and each lies outside the other. They are…",
+   "en": "Two circles have exactly one common point and each lies outside the other. They are…",
+   "vi": "Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> có đúng một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"common point\">điểm chung</b> và mỗi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> nằm ngoài <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> kia. Chúng…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">externally tangent</span><span class=\"vi\">tiếp xúc ngoài</span></span>",
+    "<span class=\"txi\"><span class=\"en\">internally tangent</span><span class=\"vi\">tiếp xúc trong</span></span>",
+    "<span class=\"txi\"><span class=\"en\">concentric (one inside the other)</span><span class=\"vi\">đồng tâm (đựng nhau)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">intersecting</span><span class=\"vi\">cắt nhau</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Definitions of the relative positions of two circles.",
+   "explain_vi": "Đáp án a. Định nghĩa các vị trí tương đối của hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b>.",
+   "images": [],
+   "id": "e0e739485b79",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Two concentric circles have radii # cm and # cm. What is the distance between their centers?",
+   "en": "Two concentric circles have radii 19 cm and 14 cm. What is the distance between their centers?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"concentric circles\">Hai đường tròn đồng tâm</b> có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 19 cm và 14 cm. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">Khoảng cách</b> giữa hai tâm bằng bao nhiêu?",
+   "options": [
+    "\\(19\\text{ cm}\\)",
+    "\\(0\\text{ cm}\\)",
+    "\\(33\\text{ cm}\\)",
+    "\\(5\\text{ cm}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Concentric circles have the same center: \\(d=0\\).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"concentric circles\">Hai đường tròn đồng tâm</b> có chung tâm: \\(d=0\\).",
+   "images": [],
+   "id": "c39567f5034e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Circle \\((O)\\) has radius # cm; circle \\((O')\\) has radius \\(r\\) cm and \\(OO'=#\\) cm. Find all \\(r\\) for which the circles are internally tangent.",
+   "en": "Circle \\((O)\\) has radius 10 cm; circle \\((O')\\) has radius \\(r\\) cm and \\(OO'=7\\) cm. Find all \\(r\\) for which the circles are internally tangent.",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">Đường tròn</b> \\((O)\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 10 cm; <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> \\((O')\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> \\(r\\) cm và \\(OO'=7\\) cm. Tìm mọi giá trị của \\(r\\) để hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"internally tangent\">tiếp xúc trong</b>.",
+   "options": [
+    "\\(r=3\\)",
+    "\\(r=17\\)",
+    "\\(r=3\\ \\text{or}\\ r=17\\)",
+    "\\(r=7\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(|10-r|=7\\Rightarrow r=3\\) or \\(r=17\\).",
+   "explain_vi": "Đáp án c. \\(|10-r|=7\\Rightarrow r=3\\) hoặc \\(r=17\\).",
+   "images": [],
+   "id": "10f6edeb2e6f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Circles \\((O;\\,#\\text{ cm})\\) and \\((O';\\,#\\text{ cm})\\) have \\(OO'=#\\) cm. Their relative position is…",
+   "en": "Circles \\((O;\\,11\\text{ cm})\\) and \\((O';\\,2\\text{ cm})\\) have \\(OO'=9\\) cm. Their relative position is…",
+   "vi": "Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> \\((O;\\,11\\text{ cm})\\) và \\((O';\\,2\\text{ cm})\\) có \\(OO'=9\\) cm. Vị trí tương đối của chúng là…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">they intersect (two common points)</span><span class=\"vi\">cắt nhau (có hai điểm chung)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">externally tangent</span><span class=\"vi\">tiếp xúc ngoài</span></span>",
+    "<span class=\"txi\"><span class=\"en\">one lies inside the other (no common point)</span><span class=\"vi\">đựng nhau (không có điểm chung)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">internally tangent</span><span class=\"vi\">tiếp xúc trong</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(R+r=13\\), \\(R-r=9\\).",
+   "explain_vi": "Đáp án d. \\(R+r=13\\), \\(R-r=9\\).",
+   "images": [],
+   "id": "73eb51ae74ce",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Two gears are modeled by externally tangent circles of radii # cm and # cm. How far apart are their centers?",
+   "en": "Two gears are modeled by externally tangent circles of radii 27 cm and 8 cm. How far apart are their centers?",
+   "vi": "Hai bánh răng được mô hình hóa bởi hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"externally tangent\">tiếp xúc ngoài</b> có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 27 cm và 8 cm. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">Khoảng cách</b> giữa hai tâm là bao nhiêu?",
+   "options": [
+    "\\(216\\text{ cm}\\)",
+    "\\(70\\text{ cm}\\)",
+    "\\(35\\text{ cm}\\)",
+    "\\(19\\text{ cm}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Externally tangent: \\(d=R+r=35\\) cm.",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"externally tangent\">Tiếp xúc ngoài</b>: \\(d=R+r=35\\) cm.",
+   "images": [],
+   "id": "a9ac446a5425",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Circle \\(C_#\\) has radius # cm, circle \\(C_#\\) has radius \\(r\\) cm and the centers are # cm apart. For which \\(r\\) do the circles intersect at two points?",
+   "en": "Circle \\(C_1\\) has radius 10 cm, circle \\(C_2\\) has radius \\(r\\) cm and the centers are 8 cm apart. For which \\(r\\) do the circles intersect at two points?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">Đường tròn</b> \\(C_1\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 10 cm, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> \\(C_2\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> \\(r\\) cm, hai tâm cách nhau 8 cm. Với giá trị nào của \\(r\\) thì <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersecting circles\">hai đường tròn cắt nhau</b>?",
+   "options": [
+    "\\(r=18\\)",
+    "\\(2\\lt r\\lt 18\\)",
+    "\\(0\\lt r\\lt 18\\)",
+    "\\(r\\gt 2\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(|10-r|\\lt 8\\lt 10+r\\Leftrightarrow 2\\lt r\\lt 18\\).",
+   "explain_vi": "Đáp án b. \\(|10-r|\\lt 8\\lt 10+r\\Leftrightarrow 2\\lt r\\lt 18\\).",
+   "images": [],
+   "id": "afa19fe1271d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Three circles with radii # cm, # cm and # cm are pairwise externally tangent. Find the perimeter of the triangle formed by their centers.",
+   "en": "Three circles with radii 13 cm, 10 cm and 1 cm are pairwise externally tangent. Find the perimeter of the triangle formed by their centers.",
+   "vi": "Ba <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 13 cm, 10 cm, 1 cm đôi một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"externally tangent\">tiếp xúc ngoài</b>. Tính chu vi tam giác có ba đỉnh là ba tâm.",
+   "options": [
+    "\\(96\\text{ cm}\\)",
+    "\\(24\\text{ cm}\\)",
+    "\\(48\\text{ cm}\\)",
+    "\\(72\\text{ cm}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Sides: \\(13+10\\), \\(10+1\\), \\(1+13\\); perimeter \\(=2(13+10+1)=48\\) cm.",
+   "explain_vi": "Đáp án c. Các cạnh: \\(13+10\\), \\(10+1\\), \\(1+13\\); chu vi \\(=2(13+10+1)=48\\) cm.",
+   "images": [],
+   "id": "e12e76ab5a61",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D3",
+   "type": "mcq",
+   "form": "\\((O;\\,#\\text{ cm})\\) and \\((O';\\,#\\text{ cm})\\) are internally tangent at \\(T\\). Point \\(P\\) on the larger circle lies on line \\(OO'\\), on the side opposite \\(T\\). Find \\(PO'\\).",
+   "en": "\\((O;\\,16\\text{ cm})\\) and \\((O';\\,4\\text{ cm})\\) are internally tangent at \\(T\\). Point \\(P\\) on the larger circle lies on line \\(OO'\\), on the side opposite \\(T\\). Find \\(PO'\\).",
+   "vi": "\\((O;\\,16\\text{ cm})\\) và \\((O';\\,4\\text{ cm})\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"internally tangent\">tiếp xúc trong</b> tại \\(T\\). Điểm \\(P\\) thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> lớn, nằm trên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(OO'\\), ở phía đối diện với \\(T\\). Tính \\(PO'\\).",
+   "options": [
+    "\\(28\\text{ cm}\\)",
+    "\\(32\\text{ cm}\\)",
+    "\\(20\\text{ cm}\\)",
+    "\\(12\\text{ cm}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(OO'=16-4=12\\), \\(PO'=PO+OO'=16+12=28\\) cm.",
+   "explain_vi": "Đáp án a. \\(OO'=16-4=12\\), \\(PO'=PO+OO'=16+12=28\\) cm.",
+   "images": [],
+   "id": "f3e861bbf003",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D4",
+   "type": "mcq",
+   "form": "Circles \\((O;\\,#\\text{ cm})\\) and \\((O';\\,#\\text{ cm})\\) intersect at \\(A\\), \\(B\\), with \\(OO'=#\\) cm and the centers on opposite sides of \\(AB\\). Find the common chord \\(AB\\) (cm).",
+   "en": "Circles \\((O;\\,40\\text{ cm})\\) and \\((O';\\,30\\text{ cm})\\) intersect at \\(A\\), \\(B\\), with \\(OO'=50\\) cm and the centers on opposite sides of \\(AB\\). Find the common chord \\(AB\\) (cm).",
+   "vi": "Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> \\((O;\\,40\\text{ cm})\\) và \\((O';\\,30\\text{ cm})\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersect\">cắt nhau</b> tại \\(A\\), \\(B\\), \\(OO'=50\\) cm và hai tâm nằm khác phía đối với \\(AB\\). Tính độ dài <b class=\"mbl-term\" tabindex=\"0\" data-en=\"common chord\">dây chung</b> \\(AB\\) (cm).",
+   "options": [
+    "\\(50\\text{ cm}\\)",
+    "\\(24\\text{ cm}\\)",
+    "\\(96\\text{ cm}\\)",
+    "\\(48\\text{ cm}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(OO'\\perp AB\\) at the midpoint \\(M\\): \\(OM=x\\), \\(O'M=50-x\\), \\(40^2-x^2=30^2-(50-x)^2\\Rightarrow x=32\\), \\(AM=\\sqrt{40^2-32^2}=24\\), \\(AB=48\\).",
+   "explain_vi": "Đáp án d. \\(OO'\\perp AB\\) tại <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> \\(M\\): \\(OM=x\\), \\(O'M=50-x\\), \\(40^2-x^2=30^2-(50-x)^2\\Rightarrow x=32\\), \\(AM=\\sqrt{40^2-32^2}=24\\), \\(AB=48\\).",
+   "images": [],
+   "id": "4cda963ab893",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D4",
+   "type": "mcq",
+   "form": "Two circles have radii \\(k+#\\) and # (\\(k\\gt#\\)), and their centers are # units apart. Find all \\(k\\) for which the circles are tangent.",
+   "en": "Two circles have radii \\(k+1\\) and 3 (\\(k\\gt0\\)), and their centers are 11 units apart. Find all \\(k\\) for which the circles are tangent.",
+   "vi": "Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> \\(k+1\\) và 3 (\\(k\\gt0\\)), hai tâm cách nhau 11 đơn vị. Tìm mọi \\(k\\) để hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> tiếp xúc nhau.",
+   "options": [
+    "\\(k=7\\ \\text{or}\\ k=13\\)",
+    "\\(k=7\\)",
+    "\\(k=13\\)",
+    "\\(k=8\\ \\text{or}\\ k=14\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. External: \\(k+1+3=11\\Rightarrow k=7\\); internal: \\(k+1-3=11\\Rightarrow k=13\\).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"externally tangent\">Tiếp xúc ngoài</b>: \\(k+1+3=11\\Rightarrow k=7\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"internally tangent\">tiếp xúc trong</b>: \\(k+1-3=11\\Rightarrow k=13\\).",
+   "images": [],
+   "id": "b6a09c5961db",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D4",
+   "type": "mcq",
+   "form": "Two circular flower beds have radii # m and # m; their centers are # m apart. The smaller bed is moved straight towards the larger one until the beds are externally tangent. How far is it moved?",
+   "en": "Two circular flower beds have radii 9 m and 3 m; their centers are 19 m apart. The smaller bed is moved straight towards the larger one until the beds are externally tangent. How far is it moved?",
+   "vi": "Hai bồn hoa hình tròn có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 9 m và 3 m, hai tâm cách nhau 19 m. Dời bồn nhỏ thẳng về phía bồn lớn đến khi hai bồn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"externally tangent\">tiếp xúc ngoài</b>. Phải dời bao nhiêu mét?",
+   "options": [
+    "\\(13\\text{ m}\\)",
+    "\\(10\\text{ m}\\)",
+    "\\(16\\text{ m}\\)",
+    "\\(7\\text{ m}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Externally tangent: \\(d=9+3=12\\); move \\(19-12=7\\) m.",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"externally tangent\">Tiếp xúc ngoài</b> khi \\(d=9+3=12\\); dời \\(19-12=7\\) m.",
+   "images": [],
+   "id": "6e28eb896711",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Circle \\((O)\\) has radius # cm and circle \\((O')\\) has radius \\(r\\). \\(OO'=#\\) cm and the circles are externally tangent. Find \\(r\\).",
+   "en": "Circle \\((O)\\) has radius 5 cm and circle \\((O')\\) has radius \\(r\\). \\(OO'=7\\) cm and the circles are externally tangent. Find \\(r\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">Đường tròn</b> \\((O)\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 5 cm, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> \\((O')\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> \\(r\\). \\(OO'=7\\) cm và hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"externally tangent\">tiếp xúc ngoài</b>. Tính \\(r\\).",
+   "options": [
+    "\\(1\\text{ cm}\\)",
+    "\\(2\\text{ cm}\\)",
+    "\\(7\\text{ cm}\\)",
+    "\\(12\\text{ cm}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Externally tangent: \\(d=R+r\\Rightarrow r=7-5=2\\).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"externally tangent\">Tiếp xúc ngoài</b>: \\(d=R+r\\Rightarrow r=7-5=2\\).",
+   "images": [],
+   "id": "f9dd120a4992",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Circles \\((O;\\,#\\text{ cm})\\) and \\((O';\\,#\\text{ cm})\\) have \\(OO'=#\\) cm. What is their relative position?",
+   "en": "Circles \\((O;\\,10\\text{ cm})\\) and \\((O';\\,7\\text{ cm})\\) have \\(OO'=18\\) cm. What is their relative position?",
+   "vi": "Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> \\((O;\\,10\\text{ cm})\\) và \\((O';\\,7\\text{ cm})\\) có \\(OO'=18\\) cm. Vị trí tương đối của chúng là gì?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">they intersect (two common points)</span><span class=\"vi\">cắt nhau (có hai điểm chung)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">one lies inside the other (no common point)</span><span class=\"vi\">đựng nhau (không có điểm chung)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">internally tangent</span><span class=\"vi\">tiếp xúc trong</span></span>",
+    "<span class=\"txi\"><span class=\"en\">outside each other (no common point)</span><span class=\"vi\">ở ngoài nhau (không có điểm chung)</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(R+r=17\\), \\(R-r=3\\), \\(d=18\\).",
+   "explain_vi": "Đáp án d. \\(R+r=17\\), \\(R-r=3\\), \\(d=18\\).",
+   "images": [],
+   "id": "923408fff94c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Two circles have radii # cm and # cm, and their centers are # cm apart. How many common points do they have?",
+   "en": "Two circles have radii 5 cm and 4 cm, and their centers are 4 cm apart. How many common points do they have?",
+   "vi": "Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 5 cm và 4 cm, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">khoảng cách</b> giữa hai tâm là 4 cm. Chúng có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"common point\">điểm chung</b>?",
+   "options": [
+    "\\(1\\)",
+    "\\(0\\)",
+    "\\(3\\)",
+    "\\(2\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(R+r=9\\), \\(R-r=1\\), \\(d=4\\): they intersect (two common points).",
+   "explain_vi": "Đáp án d. \\(R+r=9\\), \\(R-r=1\\), \\(d=4\\): <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersect\">cắt nhau</b> (có hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"common point\">điểm chung</b>).",
+   "images": [],
+   "id": "10d09d19eb00",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "Two circles with radii # cm and # cm whose centers are # cm apart are outside each other.",
+   "en": "Two circles with radii 15 cm and 9 cm whose centers are 6 cm apart are outside each other.",
+   "vi": "Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 15 cm, 9 cm và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">khoảng cách</b> hai tâm 6 cm thì <b class=\"mbl-term\" tabindex=\"0\" data-en=\"outside each other\">ở ngoài nhau</b>.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. \\(R+r=24\\), \\(R-r=6\\), \\(d=6\\): internally tangent.",
+   "explain_vi": "Sai. \\(R+r=24\\), \\(R-r=6\\), \\(d=6\\): <b class=\"mbl-term\" tabindex=\"0\" data-en=\"internally tangent\">tiếp xúc trong</b>.",
+   "images": [],
+   "id": "a40a78e9d0b9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "\\((O;\\,#\\text{ cm})\\) and \\((O';\\,#\\text{ cm})\\) are externally tangent at \\(K\\). Then \\(O\\), \\(O'\\) and \\(K\\) are collinear.",
+   "en": "\\((O;\\,4\\text{ cm})\\) and \\((O';\\,3\\text{ cm})\\) are externally tangent at \\(K\\). Then \\(O\\), \\(O'\\) and \\(K\\) are collinear.",
+   "vi": "\\((O;\\,4\\text{ cm})\\) và \\((O';\\,3\\text{ cm})\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"externally tangent\">tiếp xúc ngoài</b> tại \\(K\\). Khi đó \\(O\\), \\(O'\\), \\(K\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"collinear\">thẳng hàng</b>.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. At a point of tangency, the two centers and the point of tangency are collinear.",
+   "explain_vi": "Đúng. Khi hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> tiếp xúc, hai tâm và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"point of tangency\">tiếp điểm</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"collinear\">thẳng hàng</b>.",
+   "images": [],
+   "id": "e7c00e70b1fc",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Circles \\((O;\\,#\\text{ cm})\\) and \\((O';\\,#\\text{ cm})\\) intersect at \\(A\\), \\(B\\), with \\(OO'=#\\) cm and the centers on opposite sides of \\(AB\\). Find the common chord \\(AB\\) (cm).",
+   "en": "Circles \\((O;\\,45\\text{ cm})\\) and \\((O';\\,39\\text{ cm})\\) intersect at \\(A\\), \\(B\\), with \\(OO'=42\\) cm and the centers on opposite sides of \\(AB\\). Find the common chord \\(AB\\) (cm).",
+   "vi": "Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> \\((O;\\,45\\text{ cm})\\) và \\((O';\\,39\\text{ cm})\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersect\">cắt nhau</b> tại \\(A\\), \\(B\\), \\(OO'=42\\) cm và hai tâm nằm khác phía đối với \\(AB\\). Tính độ dài <b class=\"mbl-term\" tabindex=\"0\" data-en=\"common chord\">dây chung</b> \\(AB\\) (cm).",
+   "options": [],
+   "answer": "72",
+   "explain_en": "Answer: 72. \\(OO'\\perp AB\\) at the midpoint \\(M\\): \\(OM=x\\), \\(O'M=42-x\\), \\(45^2-x^2=39^2-(42-x)^2\\Rightarrow x=27\\), \\(AM=\\sqrt{45^2-27^2}=36\\), \\(AB=72\\).",
+   "explain_vi": "Đáp số: 72. \\(OO'\\perp AB\\) tại <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> \\(M\\): \\(OM=x\\), \\(O'M=42-x\\), \\(45^2-x^2=39^2-(42-x)^2\\Rightarrow x=27\\), \\(AM=\\sqrt{45^2-27^2}=36\\), \\(AB=72\\).",
+   "images": [],
+   "id": "a70a1655f9c0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Two circular fountains have radii # m (center \\(A\\)) and # m (center \\(B\\)), and \\(AB=#\\) m. The smaller fountain is moved directly away from \\(A\\) until the circles are externally tangent. How many meters does it move?",
+   "en": "Two circular fountains have radii 11 m (center \\(A\\)) and 6 m (center \\(B\\)), and \\(AB=7\\) m. The smaller fountain is moved directly away from \\(A\\) until the circles are externally tangent. How many meters does it move?",
+   "vi": "Hai đài phun nước hình tròn có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 11 m (tâm \\(A\\)) và 6 m (tâm \\(B\\)), \\(AB=7\\) m. Dời đài nhỏ thẳng ra xa \\(A\\) đến khi hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"externally tangent\">tiếp xúc ngoài</b>. Đài nhỏ phải dời bao nhiêu mét?",
+   "options": [],
+   "answer": "10",
+   "explain_en": "Answer: 10. The new distance is \\(R+r=17\\); move \\(10\\) m.",
+   "explain_vi": "Đáp số: 10. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">Khoảng cách</b> mới là \\(R+r=17\\); dời \\(10\\) m.",
+   "images": [],
+   "id": "bf2872fa4fda",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Circles \\((O;\\,#)\\) and \\((O';\\,#)\\), \\(d=OO'\\). They are outside each other exactly when…",
+   "en": "Circles \\((O;\\,9)\\) and \\((O';\\,8)\\), \\(d=OO'\\). They are outside each other exactly when…",
+   "vi": "Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> \\((O;\\,9)\\) và \\((O';\\,8)\\), \\(d=OO'\\). Chúng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"outside each other\">ở ngoài nhau</b> khi và chỉ khi…",
+   "options": [
+    "\\(1\\lt d\\lt 17\\)",
+    "\\(d=1\\)",
+    "\\(d=17\\)",
+    "\\(d\\gt 17\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Compare \\(d\\) with \\(R+r=17\\) and \\(R-r=1\\).",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"compare\">So sánh</b> \\(d\\) với \\(R+r=17\\) và \\(R-r=1\\).",
+   "images": [],
+   "id": "d4e48f27fe95",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Two circles with the same center and radii # cm, # cm are…",
+   "en": "Two circles with the same center and radii 12 cm, 6 cm are…",
+   "vi": "Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> cùng tâm, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 12 cm và 6 cm thì…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">concentric (one inside the other)</span><span class=\"vi\">đồng tâm (đựng nhau)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">externally tangent</span><span class=\"vi\">tiếp xúc ngoài</span></span>",
+    "<span class=\"txi\"><span class=\"en\">intersecting</span><span class=\"vi\">cắt nhau</span></span>",
+    "<span class=\"txi\"><span class=\"en\">internally tangent</span><span class=\"vi\">tiếp xúc trong</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Definitions of the relative positions of two circles.",
+   "explain_vi": "Đáp án a. Định nghĩa các vị trí tương đối của hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b>.",
+   "images": [],
+   "id": "ee6403f964b7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Two concentric circles have radii # cm and # cm. What is the distance between their centers?",
+   "en": "Two concentric circles have radii 8 cm and 5 cm. What is the distance between their centers?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"concentric circles\">Hai đường tròn đồng tâm</b> có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 8 cm và 5 cm. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">Khoảng cách</b> giữa hai tâm bằng bao nhiêu?",
+   "options": [
+    "\\(3\\text{ cm}\\)",
+    "\\(8\\text{ cm}\\)",
+    "\\(13\\text{ cm}\\)",
+    "\\(0\\text{ cm}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Concentric circles have the same center: \\(d=0\\).",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"concentric circles\">Hai đường tròn đồng tâm</b> có chung tâm: \\(d=0\\).",
+   "images": [],
+   "id": "0d1d6697a84f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Circle \\((O)\\) has radius # cm; circle \\((O')\\) has radius \\(r\\) cm and \\(OO'=#\\) cm. Find all \\(r\\) for which the circles are internally tangent.",
+   "en": "Circle \\((O)\\) has radius 12 cm; circle \\((O')\\) has radius \\(r\\) cm and \\(OO'=4\\) cm. Find all \\(r\\) for which the circles are internally tangent.",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">Đường tròn</b> \\((O)\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 12 cm; <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> \\((O')\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> \\(r\\) cm và \\(OO'=4\\) cm. Tìm mọi giá trị của \\(r\\) để hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"internally tangent\">tiếp xúc trong</b>.",
+   "options": [
+    "\\(r=4\\)",
+    "\\(r=8\\ \\text{or}\\ r=16\\)",
+    "\\(r=8\\)",
+    "\\(r=16\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(|12-r|=4\\Rightarrow r=8\\) or \\(r=16\\).",
+   "explain_vi": "Đáp án b. \\(|12-r|=4\\Rightarrow r=8\\) hoặc \\(r=16\\).",
+   "images": [],
+   "id": "338c2fe48ba9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Circles \\((O;\\,#\\text{ cm})\\) and \\((O';\\,#\\text{ cm})\\) have \\(OO'=#\\) cm. Their relative position is…",
+   "en": "Circles \\((O;\\,10\\text{ cm})\\) and \\((O';\\,3\\text{ cm})\\) have \\(OO'=5.5\\) cm. Their relative position is…",
+   "vi": "Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> \\((O;\\,10\\text{ cm})\\) và \\((O';\\,3\\text{ cm})\\) có \\(OO'=5{,}5\\) cm. Vị trí tương đối của chúng là…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">externally tangent</span><span class=\"vi\">tiếp xúc ngoài</span></span>",
+    "<span class=\"txi\"><span class=\"en\">outside each other (no common point)</span><span class=\"vi\">ở ngoài nhau (không có điểm chung)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">one lies inside the other (no common point)</span><span class=\"vi\">đựng nhau (không có điểm chung)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">internally tangent</span><span class=\"vi\">tiếp xúc trong</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(R+r=13\\), \\(R-r=7\\).",
+   "explain_vi": "Đáp án c. \\(R+r=13\\), \\(R-r=7\\).",
+   "images": [],
+   "id": "92d000860f57",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Two gears are modeled by externally tangent circles of radii # cm and # cm. How far apart are their centers?",
+   "en": "Two gears are modeled by externally tangent circles of radii 29 cm and 15 cm. How far apart are their centers?",
+   "vi": "Hai bánh răng được mô hình hóa bởi hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"externally tangent\">tiếp xúc ngoài</b> có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 29 cm và 15 cm. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">Khoảng cách</b> giữa hai tâm là bao nhiêu?",
+   "options": [
+    "\\(88\\text{ cm}\\)",
+    "\\(435\\text{ cm}\\)",
+    "\\(14\\text{ cm}\\)",
+    "\\(44\\text{ cm}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Externally tangent: \\(d=R+r=44\\) cm.",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"externally tangent\">Tiếp xúc ngoài</b>: \\(d=R+r=44\\) cm.",
+   "images": [],
+   "id": "4d9619460181",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Circle \\(C_#\\) has radius # cm, circle \\(C_#\\) has radius \\(r\\) cm and the centers are # cm apart. For which \\(r\\) do the circles intersect at two points?",
+   "en": "Circle \\(C_1\\) has radius 4 cm, circle \\(C_2\\) has radius \\(r\\) cm and the centers are 17 cm apart. For which \\(r\\) do the circles intersect at two points?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">Đường tròn</b> \\(C_1\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 4 cm, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> \\(C_2\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> \\(r\\) cm, hai tâm cách nhau 17 cm. Với giá trị nào của \\(r\\) thì <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersecting circles\">hai đường tròn cắt nhau</b>?",
+   "options": [
+    "\\(r=21\\)",
+    "\\(13\\lt r\\lt 21\\)",
+    "\\(r\\gt 13\\)",
+    "\\(0\\lt r\\lt 21\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(|4-r|\\lt 17\\lt 4+r\\Leftrightarrow 13\\lt r\\lt 21\\).",
+   "explain_vi": "Đáp án b. \\(|4-r|\\lt 17\\lt 4+r\\Leftrightarrow 13\\lt r\\lt 21\\).",
+   "images": [],
+   "id": "528c3685745d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Three circles with radii # cm, # cm and # cm are pairwise externally tangent. Find the perimeter of the triangle formed by their centers.",
+   "en": "Three circles with radii 4 cm, 12 cm and 3 cm are pairwise externally tangent. Find the perimeter of the triangle formed by their centers.",
+   "vi": "Ba <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 4 cm, 12 cm, 3 cm đôi một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"externally tangent\">tiếp xúc ngoài</b>. Tính chu vi tam giác có ba đỉnh là ba tâm.",
+   "options": [
+    "\\(38\\text{ cm}\\)",
+    "\\(57\\text{ cm}\\)",
+    "\\(76\\text{ cm}\\)",
+    "\\(19\\text{ cm}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Sides: \\(4+12\\), \\(12+3\\), \\(3+4\\); perimeter \\(=2(4+12+3)=38\\) cm.",
+   "explain_vi": "Đáp án a. Các cạnh: \\(4+12\\), \\(12+3\\), \\(3+4\\); chu vi \\(=2(4+12+3)=38\\) cm.",
+   "images": [],
+   "id": "796eed758e70",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D3",
+   "type": "mcq",
+   "form": "\\((O;\\,#\\text{ cm})\\) and \\((O';\\,#\\text{ cm})\\) are internally tangent at \\(T\\). Point \\(P\\) on the larger circle lies on line \\(OO'\\), on the side opposite \\(T\\). Find \\(PO'\\).",
+   "en": "\\((O;\\,16\\text{ cm})\\) and \\((O';\\,3\\text{ cm})\\) are internally tangent at \\(T\\). Point \\(P\\) on the larger circle lies on line \\(OO'\\), on the side opposite \\(T\\). Find \\(PO'\\).",
+   "vi": "\\((O;\\,16\\text{ cm})\\) và \\((O';\\,3\\text{ cm})\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"internally tangent\">tiếp xúc trong</b> tại \\(T\\). Điểm \\(P\\) thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> lớn, nằm trên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(OO'\\), ở phía đối diện với \\(T\\). Tính \\(PO'\\).",
+   "options": [
+    "\\(32\\text{ cm}\\)",
+    "\\(29\\text{ cm}\\)",
+    "\\(13\\text{ cm}\\)",
+    "\\(19\\text{ cm}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(OO'=16-3=13\\), \\(PO'=PO+OO'=16+13=29\\) cm.",
+   "explain_vi": "Đáp án b. \\(OO'=16-3=13\\), \\(PO'=PO+OO'=16+13=29\\) cm.",
+   "images": [],
+   "id": "2e1131e5f301",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D4",
+   "type": "mcq",
+   "form": "Circles \\((O;\\,#\\text{ cm})\\) and \\((O';\\,#\\text{ cm})\\) intersect at \\(A\\), \\(B\\), with \\(OO'=#\\) cm and the centers on opposite sides of \\(AB\\). Find the common chord \\(AB\\) (cm).",
+   "en": "Circles \\((O;\\,25\\text{ cm})\\) and \\((O';\\,17\\text{ cm})\\) intersect at \\(A\\), \\(B\\), with \\(OO'=28\\) cm and the centers on opposite sides of \\(AB\\). Find the common chord \\(AB\\) (cm).",
+   "vi": "Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> \\((O;\\,25\\text{ cm})\\) và \\((O';\\,17\\text{ cm})\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersect\">cắt nhau</b> tại \\(A\\), \\(B\\), \\(OO'=28\\) cm và hai tâm nằm khác phía đối với \\(AB\\). Tính độ dài <b class=\"mbl-term\" tabindex=\"0\" data-en=\"common chord\">dây chung</b> \\(AB\\) (cm).",
+   "options": [
+    "\\(30\\text{ cm}\\)",
+    "\\(60\\text{ cm}\\)",
+    "\\(15\\text{ cm}\\)",
+    "\\(32\\text{ cm}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(OO'\\perp AB\\) at the midpoint \\(M\\): \\(OM=x\\), \\(O'M=28-x\\), \\(25^2-x^2=17^2-(28-x)^2\\Rightarrow x=20\\), \\(AM=\\sqrt{25^2-20^2}=15\\), \\(AB=30\\).",
+   "explain_vi": "Đáp án a. \\(OO'\\perp AB\\) tại <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> \\(M\\): \\(OM=x\\), \\(O'M=28-x\\), \\(25^2-x^2=17^2-(28-x)^2\\Rightarrow x=20\\), \\(AM=\\sqrt{25^2-20^2}=15\\), \\(AB=30\\).",
+   "images": [],
+   "id": "46876ea8f2ea",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D4",
+   "type": "mcq",
+   "form": "Two circles have radii \\(k+#\\) and # (\\(k\\gt#\\)), and their centers are # units apart. Find all \\(k\\) for which the circles are tangent.",
+   "en": "Two circles have radii \\(k+4\\) and 5 (\\(k\\gt0\\)), and their centers are 13 units apart. Find all \\(k\\) for which the circles are tangent.",
+   "vi": "Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> \\(k+4\\) và 5 (\\(k\\gt0\\)), hai tâm cách nhau 13 đơn vị. Tìm mọi \\(k\\) để hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> tiếp xúc nhau.",
+   "options": [
+    "\\(k=4\\ \\text{or}\\ k=14\\)",
+    "\\(k=8\\ \\text{or}\\ k=18\\)",
+    "\\(k=4\\)",
+    "\\(k=14\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. External: \\(k+4+5=13\\Rightarrow k=4\\); internal: \\(k+4-5=13\\Rightarrow k=14\\).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"externally tangent\">Tiếp xúc ngoài</b>: \\(k+4+5=13\\Rightarrow k=4\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"internally tangent\">tiếp xúc trong</b>: \\(k+4-5=13\\Rightarrow k=14\\).",
+   "images": [],
+   "id": "6849809637b0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D4",
+   "type": "mcq",
+   "form": "Two circular flower beds have radii # m and # m; their centers are # m apart. The smaller bed is moved straight towards the larger one until the beds are externally tangent. How far is it moved?",
+   "en": "Two circular flower beds have radii 10 m and 6 m; their centers are 22 m apart. The smaller bed is moved straight towards the larger one until the beds are externally tangent. How far is it moved?",
+   "vi": "Hai bồn hoa hình tròn có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 10 m và 6 m, hai tâm cách nhau 22 m. Dời bồn nhỏ thẳng về phía bồn lớn đến khi hai bồn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"externally tangent\">tiếp xúc ngoài</b>. Phải dời bao nhiêu mét?",
+   "options": [
+    "\\(12\\text{ m}\\)",
+    "\\(6\\text{ m}\\)",
+    "\\(18\\text{ m}\\)",
+    "\\(16\\text{ m}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Externally tangent: \\(d=10+6=16\\); move \\(22-16=6\\) m.",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"externally tangent\">Tiếp xúc ngoài</b> khi \\(d=10+6=16\\); dời \\(22-16=6\\) m.",
+   "images": [],
+   "id": "f30578fcfcb5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  }
+ ]
+}

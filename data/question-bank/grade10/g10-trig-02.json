@@ -1,0 +1,1029 @@
+{
+ "lesson": "g10-trig-02",
+ "grade": 10,
+ "no": 6,
+ "title": "Hệ thức lượng trong tam giác",
+ "path": "lessons/grade10/trigonometry/triangle-relations.html",
+ "items": [
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "A triangle has sides \\(#,\\ #,\\ #\\). The angle opposite the side # is…",
+   "en": "A triangle has sides \\(5,\\ 7,\\ 8\\). The angle opposite the side 7 is…",
+   "vi": "Tam giác có ba cạnh \\(5,\\ 7,\\ 8\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"opposite angles\">Góc đối</b> diện với cạnh 7 bằng…",
+   "options": [
+    "\\(30^\\circ\\)",
+    "\\(45^\\circ\\)",
+    "\\(60^\\circ\\)",
+    "\\(90^\\circ\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Law of cosines gives \\(\\cos=\\dfrac{1}{2}\\).",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"law of cosines\">Định lí cô-sin</b> cho \\(\\cos=\\dfrac{1}{2}\\).",
+   "images": [],
+   "id": "e183856cc84d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "In triangle \\(ABC\\), \\(AB=#\\), \\(AC=#\\), \\(\\widehat A=#^\\circ\\). The area is…",
+   "en": "In triangle \\(ABC\\), \\(AB=6\\), \\(AC=8\\), \\(\\widehat A=30^\\circ\\). The area is…",
+   "vi": "Tam giác \\(ABC\\) có \\(AB=6\\), \\(AC=8\\), \\(\\widehat A=30^\\circ\\). Diện tích bằng…",
+   "options": [
+    "\\(24\\)",
+    "\\(13\\)",
+    "\\(25\\)",
+    "\\(12\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(S=\\dfrac12\\cdot6\\cdot8\\cdot\\sin30^\\circ=12\\).",
+   "explain_vi": "Đáp án d. \\(S=\\dfrac12\\cdot6\\cdot8\\cdot\\sin30^\\circ=12\\).",
+   "images": [],
+   "id": "397492349c02",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "In triangle \\(ABC\\), \\(AB=#\\), \\(AC=#\\), \\(\\widehat A=#^\\circ\\). Then \\(BC=\\)…",
+   "en": "In triangle \\(ABC\\), \\(AB=5\\), \\(AC=8\\), \\(\\widehat A=60^\\circ\\). Then \\(BC=\\)…",
+   "vi": "Tam giác \\(ABC\\) có \\(AB=5\\), \\(AC=8\\), \\(\\widehat A=60^\\circ\\). Khi đó \\(BC=\\)…",
+   "options": [
+    "\\(7\\)",
+    "\\(8\\)",
+    "\\(6\\)",
+    "\\(13\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(BC^2=5^2+8^2-2\\cdot5\\cdot8\\cos60^\\circ=49\\).",
+   "explain_vi": "Đáp án a. \\(BC^2=5^2+8^2-2\\cdot5\\cdot8\\cos60^\\circ=49\\).",
+   "images": [],
+   "id": "abfcc459b89d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "In triangle \\(ABC\\), \\(\\dfrac{a}{\\sin A}=#R\\).",
+   "en": "In triangle \\(ABC\\), \\(\\dfrac{a}{\\sin A}=2R\\).",
+   "vi": "Trong tam giác \\(ABC\\), \\(\\dfrac{a}{\\sin A}=2R\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "The law of sines: \\(\\dfrac{a}{\\sin A}=2R\\).",
+   "explain_vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"law of sines\">Định lí sin</b>: \\(\\dfrac{a}{\\sin A}=2R\\).",
+   "images": [],
+   "id": "3935c7a1c2ad",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "The area of the triangle with sides \\(#,\\ #,\\ #\\) is #.",
+   "en": "The area of the triangle with sides \\(3,\\ 4,\\ 5\\) is 6.",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"area of a triangle\">Diện tích tam giác</b> có ba cạnh \\(3,\\ 4,\\ 5\\) bằng 6.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "By Heron the area is 6.",
+   "explain_vi": "Theo <b class=\"mbl-term\" tabindex=\"0\" data-en=\"Heron's formula\">công thức Heron</b> diện tích là 6.",
+   "images": [],
+   "id": "201f1010af0e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "Find the area of the triangle with sides \\(#,\\ #,\\ #\\).",
+   "en": "Find the area of the triangle with sides \\(3,\\ 4,\\ 5\\).",
+   "vi": "Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"area of a triangle\">diện tích tam giác</b> có ba cạnh \\(3,\\ 4,\\ 5\\).",
+   "options": [],
+   "answer": "6",
+   "explain_en": "Heron: \\(S=6\\).",
+   "explain_vi": "Heron: \\(S=6\\).",
+   "images": [],
+   "id": "80f5d7a14a50",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "In triangle \\(ABC\\), \\(BC=#\\), \\(\\widehat A=#^\\circ\\), \\(\\widehat B=#^\\circ\\). Find \\(CA\\).",
+   "en": "In triangle \\(ABC\\), \\(BC=7\\), \\(\\widehat A=30^\\circ\\), \\(\\widehat B=90^\\circ\\). Find \\(CA\\).",
+   "vi": "Tam giác \\(ABC\\) có \\(BC=7\\), \\(\\widehat A=30^\\circ\\), \\(\\widehat B=90^\\circ\\). Tính \\(CA\\).",
+   "options": [],
+   "answer": "14",
+   "explain_en": "\\(CA=\\dfrac{7\\sin90^\\circ}{\\sin30^\\circ}=14\\).",
+   "explain_vi": "\\(CA=\\dfrac{7\\sin90^\\circ}{\\sin30^\\circ}=14\\).",
+   "images": [],
+   "id": "3b1287f3b1f9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "A triangle has sides \\(#,\\ #,\\ #\\). Find the angle opposite the side of length \\(#\\).",
+   "en": "A triangle has sides \\(6,\\ 10,\\ 8\\). Find the angle opposite the side of length \\(10\\).",
+   "vi": "Tam giác có ba cạnh \\(6,\\ 10,\\ 8\\). Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"opposite angles\">góc đối</b> diện với cạnh dài \\(10\\).",
+   "options": [
+    "\\(60^\\circ\\)",
+    "\\(90^\\circ\\)",
+    "\\(45^\\circ\\)",
+    "\\(30^\\circ\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\cos=\\dfrac{6^2+8^2-10^2}{2\\cdot6\\cdot8}=0\\), so the angle is \\(90^\\circ\\).",
+   "explain_vi": "Đáp án b. \\(\\cos=\\dfrac{6^2+8^2-10^2}{2\\cdot6\\cdot8}=0\\) nên góc bằng \\(90^\\circ\\).",
+   "images": [],
+   "id": "ecad89fff3eb",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Find the area of the triangle with sides \\(#,\\ #,\\ #\\).",
+   "en": "Find the area of the triangle with sides \\(6,\\ 25,\\ 29\\).",
+   "vi": "Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"area of a triangle\">diện tích tam giác</b> có ba cạnh \\(6,\\ 25,\\ 29\\).",
+   "options": [
+    "\\(120\\)",
+    "\\(58\\)",
+    "\\(60\\)",
+    "\\(62\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Heron: \\(p=30\\), \\(S=\\sqrt{p(p-a)(p-b)(p-c)}=60\\).",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"Heron's formula\">Công thức Heron</b>: \\(p=30\\), \\(S=\\sqrt{p(p-a)(p-b)(p-c)}=60\\).",
+   "images": [],
+   "id": "d900aeb193ff",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Find the area of the triangle with sides \\(#,\\ #,\\ #\\).",
+   "en": "Find the area of the triangle with sides \\(5,\\ 12,\\ 13\\).",
+   "vi": "Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"area of a triangle\">diện tích tam giác</b> có ba cạnh \\(5,\\ 12,\\ 13\\).",
+   "options": [
+    "\\(60\\)",
+    "\\(32\\)",
+    "\\(28\\)",
+    "\\(30\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Heron: \\(p=15\\), \\(S=\\sqrt{p(p-a)(p-b)(p-c)}=30\\).",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"Heron's formula\">Công thức Heron</b>: \\(p=15\\), \\(S=\\sqrt{p(p-a)(p-b)(p-c)}=30\\).",
+   "images": [],
+   "id": "d076c106b83d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "In triangle \\(ABC\\), \\(AB=#\\), \\(AC=#\\) and \\(\\widehat{A}=#^\\circ\\). Find \\(BC\\).",
+   "en": "In triangle \\(ABC\\), \\(AB=3\\), \\(AC=5\\) and \\(\\widehat{A}=120^\\circ\\). Find \\(BC\\).",
+   "vi": "Cho tam giác \\(ABC\\) có \\(AB=3\\), \\(AC=5\\), \\(\\widehat{A}=120^\\circ\\). Tính \\(BC\\).",
+   "options": [
+    "\\(3\\)",
+    "\\(7\\)",
+    "\\(8\\)",
+    "\\(6\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(BC^2=3^2+5^2-2\\cdot3\\cdot5\\cos120^\\circ=49\\), so \\(BC=7\\).",
+   "explain_vi": "Đáp án b. \\(BC^2=3^2+5^2-2\\cdot3\\cdot5\\cos120^\\circ=49\\) nên \\(BC=7\\).",
+   "images": [],
+   "id": "8b0a764b3245",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "In triangle \\(ABC\\), \\(AB=#\\), \\(AC=#\\) and \\(\\widehat{A}=#^\\circ\\). Find \\(BC\\).",
+   "en": "In triangle \\(ABC\\), \\(AB=8\\), \\(AC=15\\) and \\(\\widehat{A}=60^\\circ\\). Find \\(BC\\).",
+   "vi": "Cho tam giác \\(ABC\\) có \\(AB=8\\), \\(AC=15\\), \\(\\widehat{A}=60^\\circ\\). Tính \\(BC\\).",
+   "options": [
+    "\\(13\\)",
+    "\\(12\\)",
+    "\\(14\\)",
+    "\\(23\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(BC^2=8^2+15^2-2\\cdot8\\cdot15\\cos60^\\circ=169\\), so \\(BC=13\\).",
+   "explain_vi": "Đáp án a. \\(BC^2=8^2+15^2-2\\cdot8\\cdot15\\cos60^\\circ=169\\) nên \\(BC=13\\).",
+   "images": [],
+   "id": "0d0cf01e4b3b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "In triangle \\(ABC\\), \\(AB=#\\), \\(AC=#\\) and \\(\\widehat{A}=#^\\circ\\). Find the area.",
+   "en": "In triangle \\(ABC\\), \\(AB=10\\), \\(AC=11\\) and \\(\\widehat{A}=30^\\circ\\). Find the area.",
+   "vi": "Tam giác \\(ABC\\) có \\(AB=10\\), \\(AC=11\\), \\(\\widehat{A}=30^\\circ\\). Tính diện tích.",
+   "options": [
+    "\\(\\dfrac{57}{2}\\)",
+    "\\(\\dfrac{55}{2}\\)",
+    "\\(55\\)",
+    "\\(\\dfrac{55}{4}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(S=\\dfrac12\\cdot10\\cdot11\\cdot\\sin30^\\circ=\\dfrac{55}{2}\\).",
+   "explain_vi": "Đáp án b. \\(S=\\dfrac12\\cdot10\\cdot11\\cdot\\sin30^\\circ=\\dfrac{55}{2}\\).",
+   "images": [],
+   "id": "db3b63e13eb4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "In triangle \\(ABC\\), \\(BC=#\\) and \\(\\widehat{A}=#^\\circ\\). Find the circumradius \\(R\\).",
+   "en": "In triangle \\(ABC\\), \\(BC=8\\) and \\(\\widehat{A}=30^\\circ\\). Find the circumradius \\(R\\).",
+   "vi": "Tam giác \\(ABC\\) có \\(BC=8\\), \\(\\widehat{A}=30^\\circ\\). Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circumradius\">bán kính đường tròn ngoại tiếp</b> \\(R\\).",
+   "options": [
+    "\\(9\\)",
+    "\\(8\\)",
+    "\\(16\\)",
+    "\\(24\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(2R=\\dfrac{a}{\\sin A}=\\dfrac{8}{\\dfrac{1}{2}}=16\\), so \\(R=8\\).",
+   "explain_vi": "Đáp án b. \\(2R=\\dfrac{a}{\\sin A}=\\dfrac{8}{\\dfrac{1}{2}}=16\\) nên \\(R=8\\).",
+   "images": [],
+   "id": "8839636f28f8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "In triangle \\(ABC\\), \\(a=BC=#\\), \\(\\widehat{A}=#^\\circ\\) and \\(\\widehat{B}=#^\\circ\\). Find \\(b=CA\\).",
+   "en": "In triangle \\(ABC\\), \\(a=BC=20\\), \\(\\widehat{A}=90^\\circ\\) and \\(\\widehat{B}=30^\\circ\\). Find \\(b=CA\\).",
+   "vi": "Tam giác \\(ABC\\) có \\(a=BC=20\\), \\(\\widehat{A}=90^\\circ\\), \\(\\widehat{B}=30^\\circ\\). Tính \\(b=CA\\).",
+   "options": [
+    "\\(10\\)",
+    "\\(30\\)",
+    "\\(12\\)",
+    "\\(20\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\dfrac{b}{\\sin B}=\\dfrac{a}{\\sin A}\\Rightarrow b=\\dfrac{20\\sin30^\\circ}{\\sin90^\\circ}=10\\).",
+   "explain_vi": "Đáp án a. \\(\\dfrac{b}{\\sin B}=\\dfrac{a}{\\sin A}\\Rightarrow b=\\dfrac{20\\sin30^\\circ}{\\sin90^\\circ}=10\\).",
+   "images": [],
+   "id": "fe20bc4db806",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "A triangle has sides \\(#,\\ #,\\ #\\). The angle opposite the side # is…",
+   "en": "A triangle has sides \\(3,\\ 7,\\ 5\\). The angle opposite the side 7 is…",
+   "vi": "Tam giác có ba cạnh \\(3,\\ 7,\\ 5\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"opposite angles\">Góc đối</b> diện với cạnh 7 bằng…",
+   "options": [
+    "\\(30^\\circ\\)",
+    "\\(45^\\circ\\)",
+    "\\(60^\\circ\\)",
+    "\\(120^\\circ\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Law of cosines gives \\(\\cos=-\\dfrac{1}{2}\\).",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"law of cosines\">Định lí cô-sin</b> cho \\(\\cos=-\\dfrac{1}{2}\\).",
+   "images": [],
+   "id": "9b0a2985b9ae",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "In triangle \\(ABC\\), \\(AB=#\\), \\(AC=#\\), \\(\\widehat A=#^\\circ\\). The area is…",
+   "en": "In triangle \\(ABC\\), \\(AB=10\\), \\(AC=8\\), \\(\\widehat A=150^\\circ\\). The area is…",
+   "vi": "Tam giác \\(ABC\\) có \\(AB=10\\), \\(AC=8\\), \\(\\widehat A=150^\\circ\\). Diện tích bằng…",
+   "options": [
+    "\\(40\\)",
+    "\\(21\\)",
+    "\\(41\\)",
+    "\\(20\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(S=\\dfrac12\\cdot10\\cdot8\\cdot\\sin150^\\circ=20\\).",
+   "explain_vi": "Đáp án d. \\(S=\\dfrac12\\cdot10\\cdot8\\cdot\\sin150^\\circ=20\\).",
+   "images": [],
+   "id": "3de0de45275a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "In triangle \\(ABC\\), \\(AB=#\\), \\(AC=#\\), \\(\\widehat A=#^\\circ\\). Then \\(BC=\\)…",
+   "en": "In triangle \\(ABC\\), \\(AB=8\\), \\(AC=15\\), \\(\\widehat A=60^\\circ\\). Then \\(BC=\\)…",
+   "vi": "Tam giác \\(ABC\\) có \\(AB=8\\), \\(AC=15\\), \\(\\widehat A=60^\\circ\\). Khi đó \\(BC=\\)…",
+   "options": [
+    "\\(14\\)",
+    "\\(13\\)",
+    "\\(12\\)",
+    "\\(23\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(BC^2=8^2+15^2-2\\cdot8\\cdot15\\cos60^\\circ=169\\).",
+   "explain_vi": "Đáp án b. \\(BC^2=8^2+15^2-2\\cdot8\\cdot15\\cos60^\\circ=169\\).",
+   "images": [],
+   "id": "bd80f8314982",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "In triangle \\(ABC\\), \\(\\dfrac{a}{\\sin A}=\\dfrac{b}{\\sin B}\\).",
+   "en": "In triangle \\(ABC\\), \\(\\dfrac{a}{\\sin A}=\\dfrac{b}{\\sin B}\\).",
+   "vi": "Trong tam giác \\(ABC\\), \\(\\dfrac{a}{\\sin A}=\\dfrac{b}{\\sin B}\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "The law of sines: \\(\\dfrac{a}{\\sin A}=2R\\).",
+   "explain_vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"law of sines\">Định lí sin</b>: \\(\\dfrac{a}{\\sin A}=2R\\).",
+   "images": [],
+   "id": "359ab9790619",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "The area of the triangle with sides \\(#,\\ #,\\ #\\) is #.",
+   "en": "The area of the triangle with sides \\(13,\\ 14,\\ 15\\) is 86.",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"area of a triangle\">Diện tích tam giác</b> có ba cạnh \\(13,\\ 14,\\ 15\\) bằng 86.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "By Heron the area is 84.",
+   "explain_vi": "Theo <b class=\"mbl-term\" tabindex=\"0\" data-en=\"Heron's formula\">công thức Heron</b> diện tích là 84.",
+   "images": [],
+   "id": "e50523dac748",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "Find the area of the triangle with sides \\(#,\\ #,\\ #\\).",
+   "en": "Find the area of the triangle with sides \\(13,\\ 14,\\ 15\\).",
+   "vi": "Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"area of a triangle\">diện tích tam giác</b> có ba cạnh \\(13,\\ 14,\\ 15\\).",
+   "options": [],
+   "answer": "84",
+   "explain_en": "Heron: \\(S=84\\).",
+   "explain_vi": "Heron: \\(S=84\\).",
+   "images": [],
+   "id": "91e501f2a9d9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "In triangle \\(ABC\\), \\(BC=#\\), \\(\\widehat A=#^\\circ\\), \\(\\widehat B=#^\\circ\\). Find \\(CA\\).",
+   "en": "In triangle \\(ABC\\), \\(BC=9\\), \\(\\widehat A=30^\\circ\\), \\(\\widehat B=90^\\circ\\). Find \\(CA\\).",
+   "vi": "Tam giác \\(ABC\\) có \\(BC=9\\), \\(\\widehat A=30^\\circ\\), \\(\\widehat B=90^\\circ\\). Tính \\(CA\\).",
+   "options": [],
+   "answer": "18",
+   "explain_en": "\\(CA=\\dfrac{9\\sin90^\\circ}{\\sin30^\\circ}=18\\).",
+   "explain_vi": "\\(CA=\\dfrac{9\\sin90^\\circ}{\\sin30^\\circ}=18\\).",
+   "images": [],
+   "id": "d52343fec6b6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "A triangle has sides \\(#,\\ #,\\ #\\). Find the angle opposite the side of length \\(#\\).",
+   "en": "A triangle has sides \\(3,\\ 7,\\ 5\\). Find the angle opposite the side of length \\(7\\).",
+   "vi": "Tam giác có ba cạnh \\(3,\\ 7,\\ 5\\). Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"opposite angles\">góc đối</b> diện với cạnh dài \\(7\\).",
+   "options": [
+    "\\(45^\\circ\\)",
+    "\\(30^\\circ\\)",
+    "\\(120^\\circ\\)",
+    "\\(60^\\circ\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\cos=\\dfrac{3^2+5^2-7^2}{2\\cdot3\\cdot5}=-\\dfrac{1}{2}\\), so the angle is \\(120^\\circ\\).",
+   "explain_vi": "Đáp án c. \\(\\cos=\\dfrac{3^2+5^2-7^2}{2\\cdot3\\cdot5}=-\\dfrac{1}{2}\\) nên góc bằng \\(120^\\circ\\).",
+   "images": [],
+   "id": "b298a849e264",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Find the area of the triangle with sides \\(#,\\ #,\\ #\\).",
+   "en": "Find the area of the triangle with sides \\(8,\\ 15,\\ 17\\).",
+   "vi": "Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"area of a triangle\">diện tích tam giác</b> có ba cạnh \\(8,\\ 15,\\ 17\\).",
+   "options": [
+    "\\(60\\)",
+    "\\(58\\)",
+    "\\(120\\)",
+    "\\(62\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Heron: \\(p=20\\), \\(S=\\sqrt{p(p-a)(p-b)(p-c)}=60\\).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"Heron's formula\">Công thức Heron</b>: \\(p=20\\), \\(S=\\sqrt{p(p-a)(p-b)(p-c)}=60\\).",
+   "images": [],
+   "id": "4eeecbbc1dab",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Find the area of the triangle with sides \\(#,\\ #,\\ #\\).",
+   "en": "Find the area of the triangle with sides \\(7,\\ 15,\\ 20\\).",
+   "vi": "Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"area of a triangle\">diện tích tam giác</b> có ba cạnh \\(7,\\ 15,\\ 20\\).",
+   "options": [
+    "\\(44\\)",
+    "\\(84\\)",
+    "\\(42\\)",
+    "\\(40\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Heron: \\(p=21\\), \\(S=\\sqrt{p(p-a)(p-b)(p-c)}=42\\).",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"Heron's formula\">Công thức Heron</b>: \\(p=21\\), \\(S=\\sqrt{p(p-a)(p-b)(p-c)}=42\\).",
+   "images": [],
+   "id": "7f97c65de86f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "In triangle \\(ABC\\), \\(AB=#\\), \\(AC=#\\) and \\(\\widehat{A}=#^\\circ\\). Find \\(BC\\).",
+   "en": "In triangle \\(ABC\\), \\(AB=5\\), \\(AC=16\\) and \\(\\widehat{A}=120^\\circ\\). Find \\(BC\\).",
+   "vi": "Cho tam giác \\(ABC\\) có \\(AB=5\\), \\(AC=16\\), \\(\\widehat{A}=120^\\circ\\). Tính \\(BC\\).",
+   "options": [
+    "\\(18\\)",
+    "\\(19\\)",
+    "\\(20\\)",
+    "\\(21\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(BC^2=5^2+16^2-2\\cdot5\\cdot16\\cos120^\\circ=361\\), so \\(BC=19\\).",
+   "explain_vi": "Đáp án b. \\(BC^2=5^2+16^2-2\\cdot5\\cdot16\\cos120^\\circ=361\\) nên \\(BC=19\\).",
+   "images": [],
+   "id": "49b750733849",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "In triangle \\(ABC\\), \\(AB=#\\), \\(AC=#\\) and \\(\\widehat{A}=#^\\circ\\). Find \\(BC\\).",
+   "en": "In triangle \\(ABC\\), \\(AB=5\\), \\(AC=3\\) and \\(\\widehat{A}=120^\\circ\\). Find \\(BC\\).",
+   "vi": "Cho tam giác \\(ABC\\) có \\(AB=5\\), \\(AC=3\\), \\(\\widehat{A}=120^\\circ\\). Tính \\(BC\\).",
+   "options": [
+    "\\(8\\)",
+    "\\(6\\)",
+    "\\(3\\)",
+    "\\(7\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(BC^2=5^2+3^2-2\\cdot5\\cdot3\\cos120^\\circ=49\\), so \\(BC=7\\).",
+   "explain_vi": "Đáp án d. \\(BC^2=5^2+3^2-2\\cdot5\\cdot3\\cos120^\\circ=49\\) nên \\(BC=7\\).",
+   "images": [],
+   "id": "816731ff135a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "In triangle \\(ABC\\), \\(AB=#\\), \\(AC=#\\) and \\(\\widehat{A}=#^\\circ\\). Find the area.",
+   "en": "In triangle \\(ABC\\), \\(AB=12\\), \\(AC=11\\) and \\(\\widehat{A}=30^\\circ\\). Find the area.",
+   "vi": "Tam giác \\(ABC\\) có \\(AB=12\\), \\(AC=11\\), \\(\\widehat{A}=30^\\circ\\). Tính diện tích.",
+   "options": [
+    "\\(66\\)",
+    "\\(34\\)",
+    "\\(33\\)",
+    "\\(\\dfrac{33}{2}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(S=\\dfrac12\\cdot12\\cdot11\\cdot\\sin30^\\circ=33\\).",
+   "explain_vi": "Đáp án c. \\(S=\\dfrac12\\cdot12\\cdot11\\cdot\\sin30^\\circ=33\\).",
+   "images": [],
+   "id": "1f36fa2fe42e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "In triangle \\(ABC\\), \\(BC=#\\) and \\(\\widehat{A}=#^\\circ\\). Find the circumradius \\(R\\).",
+   "en": "In triangle \\(ABC\\), \\(BC=9\\) and \\(\\widehat{A}=30^\\circ\\). Find the circumradius \\(R\\).",
+   "vi": "Tam giác \\(ABC\\) có \\(BC=9\\), \\(\\widehat{A}=30^\\circ\\). Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circumradius\">bán kính đường tròn ngoại tiếp</b> \\(R\\).",
+   "options": [
+    "\\(9\\)",
+    "\\(10\\)",
+    "\\(18\\)",
+    "\\(27\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(2R=\\dfrac{a}{\\sin A}=\\dfrac{9}{\\dfrac{1}{2}}=18\\), so \\(R=9\\).",
+   "explain_vi": "Đáp án a. \\(2R=\\dfrac{a}{\\sin A}=\\dfrac{9}{\\dfrac{1}{2}}=18\\) nên \\(R=9\\).",
+   "images": [],
+   "id": "8bb61408e31e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "In triangle \\(ABC\\), \\(a=BC=#\\), \\(\\widehat{A}=#^\\circ\\) and \\(\\widehat{B}=#^\\circ\\). Find \\(b=CA\\).",
+   "en": "In triangle \\(ABC\\), \\(a=BC=20\\), \\(\\widehat{A}=30^\\circ\\) and \\(\\widehat{B}=90^\\circ\\). Find \\(b=CA\\).",
+   "vi": "Tam giác \\(ABC\\) có \\(a=BC=20\\), \\(\\widehat{A}=30^\\circ\\), \\(\\widehat{B}=90^\\circ\\). Tính \\(b=CA\\).",
+   "options": [
+    "\\(60\\)",
+    "\\(40\\)",
+    "\\(20\\)",
+    "\\(42\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\dfrac{b}{\\sin B}=\\dfrac{a}{\\sin A}\\Rightarrow b=\\dfrac{20\\sin90^\\circ}{\\sin30^\\circ}=40\\).",
+   "explain_vi": "Đáp án b. \\(\\dfrac{b}{\\sin B}=\\dfrac{a}{\\sin A}\\Rightarrow b=\\dfrac{20\\sin90^\\circ}{\\sin30^\\circ}=40\\).",
+   "images": [],
+   "id": "0723caf83ecd",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "A triangle has sides \\(#,\\ #,\\ #\\). The angle opposite the side # is…",
+   "en": "A triangle has sides \\(3,\\ 5,\\ 4\\). The angle opposite the side 5 is…",
+   "vi": "Tam giác có ba cạnh \\(3,\\ 5,\\ 4\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"opposite angles\">Góc đối</b> diện với cạnh 5 bằng…",
+   "options": [
+    "\\(30^\\circ\\)",
+    "\\(45^\\circ\\)",
+    "\\(90^\\circ\\)",
+    "\\(60^\\circ\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Law of cosines gives \\(\\cos=0\\).",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"law of cosines\">Định lí cô-sin</b> cho \\(\\cos=0\\).",
+   "images": [],
+   "id": "2eed86ebe102",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "In triangle \\(ABC\\), \\(AB=#\\), \\(AC=#\\), \\(\\widehat A=#^\\circ\\). The area is…",
+   "en": "In triangle \\(ABC\\), \\(AB=6\\), \\(AC=10\\), \\(\\widehat A=30^\\circ\\). The area is…",
+   "vi": "Tam giác \\(ABC\\) có \\(AB=6\\), \\(AC=10\\), \\(\\widehat A=30^\\circ\\). Diện tích bằng…",
+   "options": [
+    "\\(30\\)",
+    "\\(16\\)",
+    "\\(31\\)",
+    "\\(15\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(S=\\dfrac12\\cdot6\\cdot10\\cdot\\sin30^\\circ=15\\).",
+   "explain_vi": "Đáp án d. \\(S=\\dfrac12\\cdot6\\cdot10\\cdot\\sin30^\\circ=15\\).",
+   "images": [],
+   "id": "5c3eae5fbaf2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "In triangle \\(ABC\\), \\(AB=#\\), \\(AC=#\\), \\(\\widehat A=#^\\circ\\). Then \\(BC=\\)…",
+   "en": "In triangle \\(ABC\\), \\(AB=3\\), \\(AC=5\\), \\(\\widehat A=120^\\circ\\). Then \\(BC=\\)…",
+   "vi": "Tam giác \\(ABC\\) có \\(AB=3\\), \\(AC=5\\), \\(\\widehat A=120^\\circ\\). Khi đó \\(BC=\\)…",
+   "options": [
+    "\\(7\\)",
+    "\\(8\\)",
+    "\\(6\\)",
+    "\\(9\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(BC^2=3^2+5^2-2\\cdot3\\cdot5\\cos120^\\circ=49\\).",
+   "explain_vi": "Đáp án a. \\(BC^2=3^2+5^2-2\\cdot3\\cdot5\\cos120^\\circ=49\\).",
+   "images": [],
+   "id": "2a7e913f6f00",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "In triangle \\(ABC\\), \\(\\dfrac{a}{\\sin A}=\\dfrac{c}{\\cos C}\\).",
+   "en": "In triangle \\(ABC\\), \\(\\dfrac{a}{\\sin A}=\\dfrac{c}{\\cos C}\\).",
+   "vi": "Trong tam giác \\(ABC\\), \\(\\dfrac{a}{\\sin A}=\\dfrac{c}{\\cos C}\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "The law of sines: \\(\\dfrac{a}{\\sin A}=2R\\).",
+   "explain_vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"law of sines\">Định lí sin</b>: \\(\\dfrac{a}{\\sin A}=2R\\).",
+   "images": [],
+   "id": "194e8552f52a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "The area of the triangle with sides \\(#,\\ #,\\ #\\) is #.",
+   "en": "The area of the triangle with sides \\(5,\\ 5,\\ 6\\) is 12.",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"area of a triangle\">Diện tích tam giác</b> có ba cạnh \\(5,\\ 5,\\ 6\\) bằng 12.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "By Heron the area is 12.",
+   "explain_vi": "Theo <b class=\"mbl-term\" tabindex=\"0\" data-en=\"Heron's formula\">công thức Heron</b> diện tích là 12.",
+   "images": [],
+   "id": "256acf72e031",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Find the area of the triangle with sides \\(#,\\ #,\\ #\\).",
+   "en": "Find the area of the triangle with sides \\(5,\\ 5,\\ 6\\).",
+   "vi": "Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"area of a triangle\">diện tích tam giác</b> có ba cạnh \\(5,\\ 5,\\ 6\\).",
+   "options": [],
+   "answer": "12",
+   "explain_en": "Heron: \\(S=12\\).",
+   "explain_vi": "Heron: \\(S=12\\).",
+   "images": [],
+   "id": "117fce9eaa33",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "In triangle \\(ABC\\), \\(BC=#\\), \\(\\widehat A=#^\\circ\\), \\(\\widehat B=#^\\circ\\). Find \\(CA\\).",
+   "en": "In triangle \\(ABC\\), \\(BC=11\\), \\(\\widehat A=30^\\circ\\), \\(\\widehat B=90^\\circ\\). Find \\(CA\\).",
+   "vi": "Tam giác \\(ABC\\) có \\(BC=11\\), \\(\\widehat A=30^\\circ\\), \\(\\widehat B=90^\\circ\\). Tính \\(CA\\).",
+   "options": [],
+   "answer": "22",
+   "explain_en": "\\(CA=\\dfrac{11\\sin90^\\circ}{\\sin30^\\circ}=22\\).",
+   "explain_vi": "\\(CA=\\dfrac{11\\sin90^\\circ}{\\sin30^\\circ}=22\\).",
+   "images": [],
+   "id": "ba917757b30c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "A triangle has sides \\(#,\\ #,\\ #\\). Find the angle opposite the side of length \\(#\\).",
+   "en": "A triangle has sides \\(5,\\ 7,\\ 8\\). Find the angle opposite the side of length \\(7\\).",
+   "vi": "Tam giác có ba cạnh \\(5,\\ 7,\\ 8\\). Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"opposite angles\">góc đối</b> diện với cạnh dài \\(7\\).",
+   "options": [
+    "\\(60^\\circ\\)",
+    "\\(30^\\circ\\)",
+    "\\(90^\\circ\\)",
+    "\\(45^\\circ\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\cos=\\dfrac{5^2+8^2-7^2}{2\\cdot5\\cdot8}=\\dfrac{1}{2}\\), so the angle is \\(60^\\circ\\).",
+   "explain_vi": "Đáp án a. \\(\\cos=\\dfrac{5^2+8^2-7^2}{2\\cdot5\\cdot8}=\\dfrac{1}{2}\\) nên góc bằng \\(60^\\circ\\).",
+   "images": [],
+   "id": "8eaebaf97e7e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Find the area of the triangle with sides \\(#,\\ #,\\ #\\).",
+   "en": "Find the area of the triangle with sides \\(9,\\ 10,\\ 17\\).",
+   "vi": "Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"area of a triangle\">diện tích tam giác</b> có ba cạnh \\(9,\\ 10,\\ 17\\).",
+   "options": [
+    "\\(72\\)",
+    "\\(34\\)",
+    "\\(36\\)",
+    "\\(38\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Heron: \\(p=18\\), \\(S=\\sqrt{p(p-a)(p-b)(p-c)}=36\\).",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"Heron's formula\">Công thức Heron</b>: \\(p=18\\), \\(S=\\sqrt{p(p-a)(p-b)(p-c)}=36\\).",
+   "images": [],
+   "id": "e74816caf7cd",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Find the area of the triangle with sides \\(#,\\ #,\\ #\\).",
+   "en": "Find the area of the triangle with sides \\(10,\\ 13,\\ 13\\).",
+   "vi": "Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"area of a triangle\">diện tích tam giác</b> có ba cạnh \\(10,\\ 13,\\ 13\\).",
+   "options": [
+    "\\(120\\)",
+    "\\(58\\)",
+    "\\(60\\)",
+    "\\(62\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Heron: \\(p=18\\), \\(S=\\sqrt{p(p-a)(p-b)(p-c)}=60\\).",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"Heron's formula\">Công thức Heron</b>: \\(p=18\\), \\(S=\\sqrt{p(p-a)(p-b)(p-c)}=60\\).",
+   "images": [],
+   "id": "609d19c5b3e7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "In triangle \\(ABC\\), \\(AB=#\\), \\(AC=#\\) and \\(\\widehat{A}=#^\\circ\\). Find \\(BC\\).",
+   "en": "In triangle \\(ABC\\), \\(AB=5\\), \\(AC=8\\) and \\(\\widehat{A}=60^\\circ\\). Find \\(BC\\).",
+   "vi": "Cho tam giác \\(ABC\\) có \\(AB=5\\), \\(AC=8\\), \\(\\widehat{A}=60^\\circ\\). Tính \\(BC\\).",
+   "options": [
+    "\\(13\\)",
+    "\\(7\\)",
+    "\\(6\\)",
+    "\\(8\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(BC^2=5^2+8^2-2\\cdot5\\cdot8\\cos60^\\circ=49\\), so \\(BC=7\\).",
+   "explain_vi": "Đáp án b. \\(BC^2=5^2+8^2-2\\cdot5\\cdot8\\cos60^\\circ=49\\) nên \\(BC=7\\).",
+   "images": [],
+   "id": "b666a95a91a5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "In triangle \\(ABC\\), \\(AB=#\\), \\(AC=#\\) and \\(\\widehat{A}=#^\\circ\\). Find \\(BC\\).",
+   "en": "In triangle \\(ABC\\), \\(AB=7\\), \\(AC=8\\) and \\(\\widehat{A}=120^\\circ\\). Find \\(BC\\).",
+   "vi": "Cho tam giác \\(ABC\\) có \\(AB=7\\), \\(AC=8\\), \\(\\widehat{A}=120^\\circ\\). Tính \\(BC\\).",
+   "options": [
+    "\\(15\\)",
+    "\\(14\\)",
+    "\\(12\\)",
+    "\\(13\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(BC^2=7^2+8^2-2\\cdot7\\cdot8\\cos120^\\circ=169\\), so \\(BC=13\\).",
+   "explain_vi": "Đáp án d. \\(BC^2=7^2+8^2-2\\cdot7\\cdot8\\cos120^\\circ=169\\) nên \\(BC=13\\).",
+   "images": [],
+   "id": "83cde2cf8235",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "In triangle \\(ABC\\), \\(AB=#\\), \\(AC=#\\) and \\(\\widehat{A}=#^\\circ\\). Find the area.",
+   "en": "In triangle \\(ABC\\), \\(AB=8\\), \\(AC=11\\) and \\(\\widehat{A}=150^\\circ\\). Find the area.",
+   "vi": "Tam giác \\(ABC\\) có \\(AB=8\\), \\(AC=11\\), \\(\\widehat{A}=150^\\circ\\). Tính diện tích.",
+   "options": [
+    "\\(11\\)",
+    "\\(23\\)",
+    "\\(44\\)",
+    "\\(22\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(S=\\dfrac12\\cdot8\\cdot11\\cdot\\sin150^\\circ=22\\).",
+   "explain_vi": "Đáp án d. \\(S=\\dfrac12\\cdot8\\cdot11\\cdot\\sin150^\\circ=22\\).",
+   "images": [],
+   "id": "e13126c166d5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "In triangle \\(ABC\\), \\(BC=#\\) and \\(\\widehat{A}=#^\\circ\\). Find the circumradius \\(R\\).",
+   "en": "In triangle \\(ABC\\), \\(BC=5\\) and \\(\\widehat{A}=30^\\circ\\). Find the circumradius \\(R\\).",
+   "vi": "Tam giác \\(ABC\\) có \\(BC=5\\), \\(\\widehat{A}=30^\\circ\\). Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circumradius\">bán kính đường tròn ngoại tiếp</b> \\(R\\).",
+   "options": [
+    "\\(15\\)",
+    "\\(5\\)",
+    "\\(10\\)",
+    "\\(6\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(2R=\\dfrac{a}{\\sin A}=\\dfrac{5}{\\dfrac{1}{2}}=10\\), so \\(R=5\\).",
+   "explain_vi": "Đáp án b. \\(2R=\\dfrac{a}{\\sin A}=\\dfrac{5}{\\dfrac{1}{2}}=10\\) nên \\(R=5\\).",
+   "images": [],
+   "id": "0e81ac06bea5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "In triangle \\(ABC\\), \\(a=BC=#\\), \\(\\widehat{A}=#^\\circ\\) and \\(\\widehat{B}=#^\\circ\\). Find \\(b=CA\\).",
+   "en": "In triangle \\(ABC\\), \\(a=BC=14\\), \\(\\widehat{A}=30^\\circ\\) and \\(\\widehat{B}=90^\\circ\\). Find \\(b=CA\\).",
+   "vi": "Tam giác \\(ABC\\) có \\(a=BC=14\\), \\(\\widehat{A}=30^\\circ\\), \\(\\widehat{B}=90^\\circ\\). Tính \\(b=CA\\).",
+   "options": [
+    "\\(28\\)",
+    "\\(30\\)",
+    "\\(42\\)",
+    "\\(14\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\dfrac{b}{\\sin B}=\\dfrac{a}{\\sin A}\\Rightarrow b=\\dfrac{14\\sin90^\\circ}{\\sin30^\\circ}=28\\).",
+   "explain_vi": "Đáp án a. \\(\\dfrac{b}{\\sin B}=\\dfrac{a}{\\sin A}\\Rightarrow b=\\dfrac{14\\sin90^\\circ}{\\sin30^\\circ}=28\\).",
+   "images": [],
+   "id": "99d05946a5e2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  }
+ ]
+}

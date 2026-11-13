@@ -1,0 +1,1011 @@
+{
+ "lesson": "g11-trigf-03",
+ "grade": 11,
+ "no": 2,
+ "title": "Công thức lượng giác",
+ "path": "lessons/grade11/trigonometric-functions/trigonometric-formulas.html",
+ "items": [
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "If \\(\\cos\\alpha=\\dfrac#\\), what is \\(\\cos #\\alpha\\)?",
+   "en": "If \\(\\cos\\alpha=\\dfrac12\\), what is \\(\\cos 2\\alpha\\)?",
+   "vi": "Nếu \\(\\cos\\alpha=\\dfrac12\\) thì \\(\\cos 2\\alpha\\) bằng bao nhiêu?",
+   "options": [
+    "\\(\\dfrac12\\)",
+    "\\(-\\dfrac12\\)",
+    "\\(1\\)",
+    "\\(0\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(2\\cos^2\\alpha-1=2\\cdot\\dfrac14-1=-\\dfrac12\\).",
+   "explain_vi": "Đáp án b. \\(2\\cos^2\\alpha-1=2\\cdot\\dfrac14-1=-\\dfrac12\\).",
+   "images": [],
+   "id": "8f90e4da18e8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "If \\(\\sin\\alpha=\\dfrac#\\) and \\(\\cos\\alpha=\\dfrac#\\), what is \\(\\sin #\\alpha\\)?",
+   "en": "If \\(\\sin\\alpha=\\dfrac35\\) and \\(\\cos\\alpha=\\dfrac45\\), what is \\(\\sin 2\\alpha\\)?",
+   "vi": "Nếu \\(\\sin\\alpha=\\dfrac35\\) và \\(\\cos\\alpha=\\dfrac45\\) thì \\(\\sin 2\\alpha\\) bằng bao nhiêu?",
+   "options": [
+    "\\(\\dfrac{12}{25}\\)",
+    "\\(\\dfrac{24}{25}\\)",
+    "\\(\\dfrac{7}{25}\\)",
+    "\\(\\dfrac65\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(2\\cdot\\dfrac35\\cdot\\dfrac45=\\dfrac{24}{25}\\).",
+   "explain_vi": "Đáp án b. \\(2\\cdot\\dfrac35\\cdot\\dfrac45=\\dfrac{24}{25}\\).",
+   "images": [],
+   "id": "8a0e87c383e0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "What is \\(\\cos #^\\circ\\cos #^\\circ-\\sin #^\\circ\\sin #^\\circ\\)?",
+   "en": "What is \\(\\cos 40^\\circ\\cos 20^\\circ-\\sin 40^\\circ\\sin 20^\\circ\\)?",
+   "vi": "\\(\\cos 40^\\circ\\cos 20^\\circ-\\sin 40^\\circ\\sin 20^\\circ\\) bằng bao nhiêu?",
+   "options": [
+    "\\(\\dfrac12\\)",
+    "\\(\\dfrac{\\sqrt3}{2}\\)",
+    "\\(0\\)",
+    "\\(1\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. It equals \\(\\cos(40^\\circ+20^\\circ)=\\cos 60^\\circ=\\dfrac12\\).",
+   "explain_vi": "Đáp án a. Biểu thức bằng \\(\\cos(40^\\circ+20^\\circ)=\\cos 60^\\circ=\\dfrac12\\).",
+   "images": [],
+   "id": "96ae25580c8f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(\\sin #a=#\\sin a\\cos a\\) for every \\(a\\).",
+   "en": "\\(\\sin 2a=2\\sin a\\cos a\\) for every \\(a\\).",
+   "vi": "\\(\\sin 2a=2\\sin a\\cos a\\) với mọi \\(a\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. It is the addition formula with \\(b=a\\).",
+   "explain_vi": "Đúng. Đây là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"addition formula\">công thức cộng</b> với \\(b=a\\).",
+   "images": [],
+   "id": "b622cdf0ac4b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(\\sin(a+b)=\\sin a+\\sin b\\) for every \\(a\\), \\(b\\).",
+   "en": "\\(\\sin(a+b)=\\sin a+\\sin b\\) for every \\(a\\), \\(b\\).",
+   "vi": "\\(\\sin(a+b)=\\sin a+\\sin b\\) với mọi \\(a\\), \\(b\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. \\(\\sin(a+b)=\\sin a\\cos b+\\cos a\\sin b\\). For example \\(a=b=\\dfrac{\\pi}{2}\\) gives \\(0\\ne 2\\).",
+   "explain_vi": "Sai. \\(\\sin(a+b)=\\sin a\\cos b+\\cos a\\sin b\\). Chẳng hạn \\(a=b=\\dfrac{\\pi}{2}\\) cho \\(0\\ne 2\\).",
+   "images": [],
+   "id": "cf04940bde24",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "Compute \\(#\\sin #^\\circ\\cos #^\\circ\\).",
+   "en": "Compute \\(2\\sin 15^\\circ\\cos 15^\\circ\\).",
+   "vi": "Tính \\(2\\sin 15^\\circ\\cos 15^\\circ\\).",
+   "options": [],
+   "answer": "0.5|1/2",
+   "explain_en": "Answer: \\(\\dfrac12\\). It equals \\(\\sin 30^\\circ\\).",
+   "explain_vi": "Đáp số: \\(\\dfrac12\\). Biểu thức bằng \\(\\sin 30^\\circ\\).",
+   "images": [],
+   "id": "89af17e43e70",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "Given \\(\\cos #\\alpha=#\\), find \\(\\sin^#\\alpha\\).",
+   "en": "Given \\(\\cos 2\\alpha=0.2\\), find \\(\\sin^2\\alpha\\).",
+   "vi": "Cho \\(\\cos 2\\alpha=0{,}2\\). Tính \\(\\sin^2\\alpha\\).",
+   "options": [],
+   "answer": "0.4|2/5",
+   "explain_en": "Answer: \\(0.4\\). \\(\\sin^2\\alpha=\\dfrac{1-0.2}{2}\\).",
+   "explain_vi": "Đáp số: \\(0{,}4\\). \\(\\sin^2\\alpha=\\dfrac{1-0{,}2}{2}\\).",
+   "images": [],
+   "id": "2d3319206994",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "A statue \\(AB\\) stands on a pedestal \\(HA\\) (see the figure). From a point \\(O\\) on the ground, \\(OH=#\\) m, \\(HA=#\\) m, \\(HB=#\\) m. Find \\(\\tan\\widehat{AOB}\\).",
+   "en": "A statue \\(AB\\) stands on a pedestal \\(HA\\) (see the figure). From a point \\(O\\) on the ground, \\(OH=4\\) m, \\(HA=2\\) m, \\(HB=5\\) m. Find \\(\\tan\\widehat{AOB}\\).<img src=\"../../../img/tex/546bef6913b70ea6.svg\" alt=\"Statue on a pedestal\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Một bức tượng \\(AB\\) đặt trên bệ \\(HA\\) (xem hình). Từ điểm \\(O\\) trên mặt đất, \\(OH=4\\) m, \\(HA=2\\) m, \\(HB=5\\) m. Tính \\(\\tan\\widehat{AOB}\\).<img src=\"../../../img/tex/546bef6913b70ea6.svg\" alt=\"Tượng trên bệ\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "\\(\\dfrac{3}{4}\\)",
+    "\\(2\\)",
+    "\\(\\dfrac{6}{13}\\)",
+    "\\(\\dfrac{5}{8}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\tan\\widehat{HOB}=\\dfrac{5}{4}\\), \\(\\tan\\widehat{HOA}=\\dfrac{2}{4}\\); \\(\\tan\\widehat{AOB}=\\tan(\\widehat{HOB}-\\widehat{HOA})=\\dfrac{6}{13}\\).",
+   "explain_vi": "Đáp án c. \\(\\tan\\widehat{HOB}=\\dfrac{5}{4}\\), \\(\\tan\\widehat{HOA}=\\dfrac{2}{4}\\); \\(\\tan\\widehat{AOB}=\\tan(\\widehat{HOB}-\\widehat{HOA})=\\dfrac{6}{13}\\).",
+   "images": [
+    "img/tex/546bef6913b70ea6.svg"
+   ],
+   "id": "73f15017047f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Find the exact value of \\(\\sin #^\\circ\\).",
+   "en": "Find the exact value of \\(\\sin 75^\\circ\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"evaluate\">Tính giá trị</b> đúng của \\(\\sin 75^\\circ\\).",
+   "options": [
+    "\\(-\\dfrac{\\sqrt6-\\sqrt2}{4}\\)",
+    "\\(-\\dfrac{\\sqrt6+\\sqrt2}{4}\\)",
+    "\\(\\dfrac{\\sqrt6-\\sqrt2}{4}\\)",
+    "\\(\\dfrac{\\sqrt6+\\sqrt2}{4}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Write \\(75^\\circ=45^\\circ+30^\\circ\\) and use the addition formula: \\(\\sin 75^\\circ=\\dfrac{\\sqrt6+\\sqrt2}{4}\\).",
+   "explain_vi": "Đáp án d. Viết \\(75^\\circ=45^\\circ+30^\\circ\\) rồi dùng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"addition formula\">công thức cộng</b>: \\(\\sin 75^\\circ=\\dfrac{\\sqrt6+\\sqrt2}{4}\\).",
+   "images": [],
+   "id": "8faae4ee2b1b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Given \\(\\sin a=\\dfrac{#}{#}\\), \\(\\cos b=\\dfrac{#}{#}\\) with \\(#\\lt a,b\\lt\\dfrac{\\pi}{#}\\). Find \\(\\cos(a-b)\\).",
+   "en": "Given \\(\\sin a=\\dfrac{3}{5}\\), \\(\\cos b=\\dfrac{24}{25}\\) with \\(0\\lt a,b\\lt\\dfrac{\\pi}{2}\\). Find \\(\\cos(a-b)\\).",
+   "vi": "Cho \\(\\sin a=\\dfrac{3}{5}\\), \\(\\cos b=\\dfrac{24}{25}\\) với \\(0\\lt a,b\\lt\\dfrac{\\pi}{2}\\). Tính \\(\\cos(a-b)\\).",
+   "options": [
+    "\\(\\dfrac{117}{125}\\)",
+    "\\(\\dfrac{4}{5}\\)",
+    "\\(\\dfrac{44}{125}\\)",
+    "\\(\\dfrac{3}{5}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\cos a=\\dfrac{4}{5}\\), \\(\\sin b=\\dfrac{7}{25}\\) (both positive). Then \\(\\cos(a-b)=\\dfrac{117}{125}\\).",
+   "explain_vi": "Đáp án a. \\(\\cos a=\\dfrac{4}{5}\\), \\(\\sin b=\\dfrac{7}{25}\\) (đều dương). Khi đó \\(\\cos(a-b)=\\dfrac{117}{125}\\).",
+   "images": [],
+   "id": "8047b7621bcf",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Given \\(\\tan a=#\\) and \\(\\tan b=\\dfrac{#}{#}\\). Find \\(\\tan(a-b)\\).",
+   "en": "Given \\(\\tan a=3\\) and \\(\\tan b=\\dfrac{1}{5}\\). Find \\(\\tan(a-b)\\).",
+   "vi": "Cho \\(\\tan a=3\\) và \\(\\tan b=\\dfrac{1}{5}\\). Tính \\(\\tan(a-b)\\).",
+   "options": [
+    "\\(\\dfrac{14}{5}\\)",
+    "\\(\\dfrac{7}{4}\\)",
+    "\\(8\\)",
+    "\\(7\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\tan(a-b)=\\dfrac{\\tan a-\\tan b}{1+\\tan a\\tan b}=\\dfrac{7}{4}\\).",
+   "explain_vi": "Đáp án b. \\(\\tan(a-b)=\\dfrac{\\tan a-\\tan b}{1+\\tan a\\tan b}=\\dfrac{7}{4}\\).",
+   "images": [],
+   "id": "bd848fbd2658",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Simplify \\(\\dfrac{#-\\cos#\\alpha}{#+\\cos#\\alpha}\\) (where it is defined).",
+   "en": "Simplify \\(\\dfrac{1-\\cos2\\alpha}{1+\\cos2\\alpha}\\) (where it is defined).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"simplify an expression\">Rút gọn biểu thức</b> \\(\\dfrac{1-\\cos2\\alpha}{1+\\cos2\\alpha}\\) (khi biểu thức có nghĩa).",
+   "options": [
+    "\\(\\cos\\alpha\\)",
+    "\\(2\\tan\\alpha\\)",
+    "\\(\\tan^2\\alpha\\)",
+    "\\(\\tan\\alpha\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Use \\(\\sin2\\alpha=2\\sin\\alpha\\cos\\alpha\\), \\(1+\\cos2\\alpha=2\\cos^2\\alpha\\), \\(1-\\cos2\\alpha=2\\sin^2\\alpha\\); the result is \\(\\tan^2\\alpha\\).",
+   "explain_vi": "Đáp án c. Dùng \\(\\sin2\\alpha=2\\sin\\alpha\\cos\\alpha\\), \\(1+\\cos2\\alpha=2\\cos^2\\alpha\\), \\(1-\\cos2\\alpha=2\\sin^2\\alpha\\); kết quả là \\(\\tan^2\\alpha\\).",
+   "images": [],
+   "id": "00e17611145b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Write \\(#\\sin #x\\cos x\\) as a sum.",
+   "en": "Write \\(2\\sin 3x\\cos x\\) as a sum.",
+   "vi": "Biến đổi \\(2\\sin 3x\\cos x\\) thành tổng.",
+   "options": [
+    "\\(\\sin 4x+\\sin 2x\\)",
+    "\\(\\cos 2x-\\cos 4x\\)",
+    "\\(\\cos 4x+\\cos 2x\\)",
+    "\\(\\sin 4x-\\sin 2x\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Product-to-sum formula: \\(2\\sin 3x\\cos x=\\sin 4x+\\sin 2x\\).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"product-to-sum formula\">Công thức biến đổi tích thành tổng</b>: \\(2\\sin 3x\\cos x=\\sin 4x+\\sin 2x\\).",
+   "images": [],
+   "id": "3a5c96dc6d79",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Write \\(\\sin #x+\\sin #x\\) as a product.",
+   "en": "Write \\(\\sin 8x+\\sin 2x\\) as a product.",
+   "vi": "Biến đổi \\(\\sin 8x+\\sin 2x\\) thành tích.",
+   "options": [
+    "\\(2\\sin 5x\\sin 3x\\)",
+    "\\(2\\sin 5x\\cos 3x\\)",
+    "\\(2\\cos 5x\\cos 3x\\)",
+    "\\(-2\\sin 5x\\sin 3x\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Sum-to-product formula: \\(\\sin 8x+\\sin 2x=2\\sin 5x\\cos 3x\\).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sum-to-product formula\">Công thức biến đổi tổng thành tích</b>: \\(\\sin 8x+\\sin 2x=2\\sin 5x\\cos 3x\\).",
+   "images": [],
+   "id": "815b81aefca0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Write \\(\\sin x-\\cos x=\\sqrt#\\sin(x+\\varphi)\\) with \\(-\\pi\\lt\\varphi\\lt\\pi\\). Then \\(\\varphi=\\)…",
+   "en": "Write \\(\\sin x-\\cos x=\\sqrt2\\sin(x+\\varphi)\\) with \\(-\\pi\\lt\\varphi\\lt\\pi\\). Then \\(\\varphi=\\)…",
+   "vi": "Viết \\(\\sin x-\\cos x=\\sqrt2\\sin(x+\\varphi)\\) với \\(-\\pi\\lt\\varphi\\lt\\pi\\). Khi đó \\(\\varphi=\\)…",
+   "options": [
+    "\\(-\\dfrac{\\pi}{3}\\)",
+    "\\(-\\dfrac{\\pi}{4}\\)",
+    "\\(\\dfrac{\\pi}{4}\\)",
+    "\\(\\dfrac{\\pi}{6}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\sin x-\\cos x=\\sqrt2\\left(\\cos\\varphi\\sin x+\\sin\\varphi\\cos x\\right)\\) with \\(\\cos\\varphi=\\dfrac{\\sqrt2}{2}\\), \\(\\sin\\varphi=-\\dfrac{\\sqrt2}{2}\\), so \\(\\varphi=-\\dfrac{\\pi}{4}\\).",
+   "explain_vi": "Đáp án b. \\(\\sin x-\\cos x=\\sqrt2\\left(\\cos\\varphi\\sin x+\\sin\\varphi\\cos x\\right)\\) với \\(\\cos\\varphi=\\dfrac{\\sqrt2}{2}\\), \\(\\sin\\varphi=-\\dfrac{\\sqrt2}{2}\\) nên \\(\\varphi=-\\dfrac{\\pi}{4}\\).",
+   "images": [],
+   "id": "4eea3f51c10a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "If \\(\\sin\\alpha=\\dfrac#\\), what is \\(\\cos #\\alpha\\)?",
+   "en": "If \\(\\sin\\alpha=\\dfrac12\\), what is \\(\\cos 2\\alpha\\)?",
+   "vi": "Nếu \\(\\sin\\alpha=\\dfrac12\\) thì \\(\\cos 2\\alpha\\) bằng bao nhiêu?",
+   "options": [
+    "\\(\\dfrac12\\)",
+    "\\(-\\dfrac12\\)",
+    "\\(0\\)",
+    "\\(\\dfrac34\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(1-2\\sin^2\\alpha=1-2\\cdot\\dfrac14=\\dfrac12\\).",
+   "explain_vi": "Đáp án a. \\(1-2\\sin^2\\alpha=1-2\\cdot\\dfrac14=\\dfrac12\\).",
+   "images": [],
+   "id": "e3fb462bc3a8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "If \\(\\sin\\alpha=\\dfrac{#}{#}\\) and \\(\\cos\\alpha=\\dfrac{#}{#}\\), what is \\(\\sin #\\alpha\\)?",
+   "en": "If \\(\\sin\\alpha=\\dfrac{5}{13}\\) and \\(\\cos\\alpha=\\dfrac{12}{13}\\), what is \\(\\sin 2\\alpha\\)?",
+   "vi": "Nếu \\(\\sin\\alpha=\\dfrac{5}{13}\\) và \\(\\cos\\alpha=\\dfrac{12}{13}\\) thì \\(\\sin 2\\alpha\\) bằng bao nhiêu?",
+   "options": [
+    "\\(\\dfrac{60}{169}\\)",
+    "\\(\\dfrac{120}{169}\\)",
+    "\\(\\dfrac{119}{169}\\)",
+    "\\(\\dfrac{10}{13}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(2\\cdot\\dfrac{5}{13}\\cdot\\dfrac{12}{13}=\\dfrac{120}{169}\\).",
+   "explain_vi": "Đáp án b. \\(2\\cdot\\dfrac{5}{13}\\cdot\\dfrac{12}{13}=\\dfrac{120}{169}\\).",
+   "images": [],
+   "id": "8f645ec685c5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "What is \\(\\sin #^\\circ\\cos #^\\circ+\\cos #^\\circ\\sin #^\\circ\\)?",
+   "en": "What is \\(\\sin 50^\\circ\\cos 10^\\circ+\\cos 50^\\circ\\sin 10^\\circ\\)?",
+   "vi": "\\(\\sin 50^\\circ\\cos 10^\\circ+\\cos 50^\\circ\\sin 10^\\circ\\) bằng bao nhiêu?",
+   "options": [
+    "\\(\\dfrac12\\)",
+    "\\(\\dfrac{\\sqrt3}{2}\\)",
+    "\\(1\\)",
+    "\\(\\dfrac{\\sqrt2}{2}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. It equals \\(\\sin(50^\\circ+10^\\circ)=\\sin 60^\\circ=\\dfrac{\\sqrt3}{2}\\).",
+   "explain_vi": "Đáp án b. Biểu thức bằng \\(\\sin(50^\\circ+10^\\circ)=\\sin 60^\\circ=\\dfrac{\\sqrt3}{2}\\).",
+   "images": [],
+   "id": "18660df3f722",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(\\cos #a=\\cos^# a+\\sin^# a\\) for every \\(a\\).",
+   "en": "\\(\\cos 2a=\\cos^2 a+\\sin^2 a\\) for every \\(a\\).",
+   "vi": "\\(\\cos 2a=\\cos^2 a+\\sin^2 a\\) với mọi \\(a\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. \\(\\cos 2a=\\cos^2 a-\\sin^2 a\\); the sum is always \\(1\\).",
+   "explain_vi": "Sai. \\(\\cos 2a=\\cos^2 a-\\sin^2 a\\); còn tổng luôn bằng \\(1\\).",
+   "images": [],
+   "id": "abb482d9a3d1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(\\cos(a-b)=\\cos a\\cos b+\\sin a\\sin b\\) for every \\(a\\), \\(b\\).",
+   "en": "\\(\\cos(a-b)=\\cos a\\cos b+\\sin a\\sin b\\) for every \\(a\\), \\(b\\).",
+   "vi": "\\(\\cos(a-b)=\\cos a\\cos b+\\sin a\\sin b\\) với mọi \\(a\\), \\(b\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. This is the basic addition formula.",
+   "explain_vi": "Đúng. Đây là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"addition formula\">công thức cộng</b> cơ bản.",
+   "images": [],
+   "id": "9da51fc71ef7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "Compute \\(#\\sin #^\\circ\\cos #^\\circ\\).",
+   "en": "Compute \\(4\\sin 15^\\circ\\cos 15^\\circ\\).",
+   "vi": "Tính \\(4\\sin 15^\\circ\\cos 15^\\circ\\).",
+   "options": [],
+   "answer": "1",
+   "explain_en": "Answer: 1. It equals \\(2\\sin 30^\\circ\\).",
+   "explain_vi": "Đáp số: 1. Biểu thức bằng \\(2\\sin 30^\\circ\\).",
+   "images": [],
+   "id": "4828d1ddf64b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "Given \\(\\cos #\\alpha=#\\), find \\(\\sin^#\\alpha\\).",
+   "en": "Given \\(\\cos 2\\alpha=0.5\\), find \\(\\sin^2\\alpha\\).",
+   "vi": "Cho \\(\\cos 2\\alpha=0{,}5\\). Tính \\(\\sin^2\\alpha\\).",
+   "options": [],
+   "answer": "0.25|1/4",
+   "explain_en": "Answer: \\(0.25\\). \\(\\sin^2\\alpha=\\dfrac{1-0.5}{2}\\).",
+   "explain_vi": "Đáp số: \\(0{,}25\\). \\(\\sin^2\\alpha=\\dfrac{1-0{,}5}{2}\\).",
+   "images": [],
+   "id": "8ffb9b20a793",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "A statue \\(AB\\) stands on a pedestal \\(HA\\) (see the figure). From a point \\(O\\) on the ground, \\(OH=#\\) m, \\(HA=#\\) m, \\(HB=#\\) m. Find \\(\\tan\\widehat{AOB}\\).",
+   "en": "A statue \\(AB\\) stands on a pedestal \\(HA\\) (see the figure). From a point \\(O\\) on the ground, \\(OH=6\\) m, \\(HA=3\\) m, \\(HB=9\\) m. Find \\(\\tan\\widehat{AOB}\\).<img src=\"../../../img/tex/4b6c0187107e4b90.svg\" alt=\"Statue on a pedestal\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Một bức tượng \\(AB\\) đặt trên bệ \\(HA\\) (xem hình). Từ điểm \\(O\\) trên mặt đất, \\(OH=6\\) m, \\(HA=3\\) m, \\(HB=9\\) m. Tính \\(\\tan\\widehat{AOB}\\).<img src=\"../../../img/tex/4b6c0187107e4b90.svg\" alt=\"Tượng trên bệ\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "\\(4\\)",
+    "\\(\\dfrac{3}{4}\\)",
+    "\\(1\\)",
+    "\\(\\dfrac{4}{7}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\tan\\widehat{HOB}=\\dfrac{9}{6}\\), \\(\\tan\\widehat{HOA}=\\dfrac{3}{6}\\); \\(\\tan\\widehat{AOB}=\\tan(\\widehat{HOB}-\\widehat{HOA})=\\dfrac{4}{7}\\).",
+   "explain_vi": "Đáp án d. \\(\\tan\\widehat{HOB}=\\dfrac{9}{6}\\), \\(\\tan\\widehat{HOA}=\\dfrac{3}{6}\\); \\(\\tan\\widehat{AOB}=\\tan(\\widehat{HOB}-\\widehat{HOA})=\\dfrac{4}{7}\\).",
+   "images": [
+    "img/tex/4b6c0187107e4b90.svg"
+   ],
+   "id": "1aa51743e2c3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Find the exact value of \\(\\tan #^\\circ\\).",
+   "en": "Find the exact value of \\(\\tan 165^\\circ\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"evaluate\">Tính giá trị</b> đúng của \\(\\tan 165^\\circ\\).",
+   "options": [
+    "\\(2+\\sqrt3\\)",
+    "\\(-2-\\sqrt3\\)",
+    "\\(2-\\sqrt3\\)",
+    "\\(\\sqrt3-2\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Write \\(165^\\circ=120^\\circ+45^\\circ\\) and use the addition formula: \\(\\tan 165^\\circ=\\sqrt3-2\\).",
+   "explain_vi": "Đáp án d. Viết \\(165^\\circ=120^\\circ+45^\\circ\\) rồi dùng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"addition formula\">công thức cộng</b>: \\(\\tan 165^\\circ=\\sqrt3-2\\).",
+   "images": [],
+   "id": "59b7df07ed33",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Given \\(\\sin a=\\dfrac{#}{#}\\), \\(\\cos b=\\dfrac{#}{#}\\) with \\(#\\lt a,b\\lt\\dfrac{\\pi}{#}\\). Find \\(\\cos(a-b)\\).",
+   "en": "Given \\(\\sin a=\\dfrac{5}{13}\\), \\(\\cos b=\\dfrac{3}{5}\\) with \\(0\\lt a,b\\lt\\dfrac{\\pi}{2}\\). Find \\(\\cos(a-b)\\).",
+   "vi": "Cho \\(\\sin a=\\dfrac{5}{13}\\), \\(\\cos b=\\dfrac{3}{5}\\) với \\(0\\lt a,b\\lt\\dfrac{\\pi}{2}\\). Tính \\(\\cos(a-b)\\).",
+   "options": [
+    "\\(\\dfrac{16}{65}\\)",
+    "\\(\\dfrac{63}{65}\\)",
+    "\\(-\\dfrac{33}{65}\\)",
+    "\\(\\dfrac{56}{65}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\cos a=\\dfrac{12}{13}\\), \\(\\sin b=\\dfrac{4}{5}\\) (both positive). Then \\(\\cos(a-b)=\\dfrac{56}{65}\\).",
+   "explain_vi": "Đáp án d. \\(\\cos a=\\dfrac{12}{13}\\), \\(\\sin b=\\dfrac{4}{5}\\) (đều dương). Khi đó \\(\\cos(a-b)=\\dfrac{56}{65}\\).",
+   "images": [],
+   "id": "9fbc402f79a7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Given \\(\\tan a=#\\) and \\(\\tan b=\\dfrac{#}{#}\\). Find \\(\\tan(a-b)\\).",
+   "en": "Given \\(\\tan a=1\\) and \\(\\tan b=\\dfrac{1}{3}\\). Find \\(\\tan(a-b)\\).",
+   "vi": "Cho \\(\\tan a=1\\) và \\(\\tan b=\\dfrac{1}{3}\\). Tính \\(\\tan(a-b)\\).",
+   "options": [
+    "\\(\\dfrac{1}{2}\\)",
+    "\\(1\\)",
+    "\\(2\\)",
+    "\\(\\dfrac{2}{3}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\tan(a-b)=\\dfrac{\\tan a-\\tan b}{1+\\tan a\\tan b}=\\dfrac{1}{2}\\).",
+   "explain_vi": "Đáp án a. \\(\\tan(a-b)=\\dfrac{\\tan a-\\tan b}{1+\\tan a\\tan b}=\\dfrac{1}{2}\\).",
+   "images": [],
+   "id": "a96d5c29bae4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Simplify \\(\\dfrac{#+\\cos#\\alpha}{\\sin#\\alpha}\\) (where it is defined).",
+   "en": "Simplify \\(\\dfrac{1+\\cos2\\alpha}{\\sin2\\alpha}\\) (where it is defined).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"simplify an expression\">Rút gọn biểu thức</b> \\(\\dfrac{1+\\cos2\\alpha}{\\sin2\\alpha}\\) (khi biểu thức có nghĩa).",
+   "options": [
+    "\\(\\cos\\alpha\\)",
+    "\\(\\sin\\alpha\\)",
+    "\\(\\tan\\alpha\\)",
+    "\\(\\cot\\alpha\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Use \\(\\sin2\\alpha=2\\sin\\alpha\\cos\\alpha\\), \\(1+\\cos2\\alpha=2\\cos^2\\alpha\\), \\(1-\\cos2\\alpha=2\\sin^2\\alpha\\); the result is \\(\\cot\\alpha\\).",
+   "explain_vi": "Đáp án d. Dùng \\(\\sin2\\alpha=2\\sin\\alpha\\cos\\alpha\\), \\(1+\\cos2\\alpha=2\\cos^2\\alpha\\), \\(1-\\cos2\\alpha=2\\sin^2\\alpha\\); kết quả là \\(\\cot\\alpha\\).",
+   "images": [],
+   "id": "f941c3ee882a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Write \\(#\\sin #x\\cos #x\\) as a sum.",
+   "en": "Write \\(2\\sin 6x\\cos 4x\\) as a sum.",
+   "vi": "Biến đổi \\(2\\sin 6x\\cos 4x\\) thành tổng.",
+   "options": [
+    "\\(\\sin 10x-\\sin 2x\\)",
+    "\\(\\sin 10x+\\sin 2x\\)",
+    "\\(\\cos 2x-\\cos 10x\\)",
+    "\\(\\cos 10x+\\cos 2x\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Product-to-sum formula: \\(2\\sin 6x\\cos 4x=\\sin 10x+\\sin 2x\\).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"product-to-sum formula\">Công thức biến đổi tích thành tổng</b>: \\(2\\sin 6x\\cos 4x=\\sin 10x+\\sin 2x\\).",
+   "images": [],
+   "id": "e21dcd931ea1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Write \\(\\sin #x+\\sin x\\) as a product.",
+   "en": "Write \\(\\sin 3x+\\sin x\\) as a product.",
+   "vi": "Biến đổi \\(\\sin 3x+\\sin x\\) thành tích.",
+   "options": [
+    "\\(2\\sin 2x\\cos x\\)",
+    "\\(2\\sin 2x\\sin x\\)",
+    "\\(2\\cos 2x\\cos x\\)",
+    "\\(2\\cos 2x\\sin x\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Sum-to-product formula: \\(\\sin 3x+\\sin x=2\\sin 2x\\cos x\\).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sum-to-product formula\">Công thức biến đổi tổng thành tích</b>: \\(\\sin 3x+\\sin x=2\\sin 2x\\cos x\\).",
+   "images": [],
+   "id": "1ad4751b11f2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Write \\(\\sin x-\\sqrt#\\cos x=#\\sin(x+\\varphi)\\) with \\(-\\pi\\lt\\varphi\\lt\\pi\\). Then \\(\\varphi=\\)…",
+   "en": "Write \\(\\sin x-\\sqrt3\\cos x=2\\sin(x+\\varphi)\\) with \\(-\\pi\\lt\\varphi\\lt\\pi\\). Then \\(\\varphi=\\)…",
+   "vi": "Viết \\(\\sin x-\\sqrt3\\cos x=2\\sin(x+\\varphi)\\) với \\(-\\pi\\lt\\varphi\\lt\\pi\\). Khi đó \\(\\varphi=\\)…",
+   "options": [
+    "\\(\\dfrac{\\pi}{6}\\)",
+    "\\(-\\dfrac{\\pi}{3}\\)",
+    "\\(-\\dfrac{\\pi}{6}\\)",
+    "\\(\\dfrac{\\pi}{3}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\sin x-\\sqrt3\\cos x=2\\left(\\cos\\varphi\\sin x+\\sin\\varphi\\cos x\\right)\\) with \\(\\cos\\varphi=\\dfrac12\\), \\(\\sin\\varphi=-\\dfrac{\\sqrt3}{2}\\), so \\(\\varphi=-\\dfrac{\\pi}{3}\\).",
+   "explain_vi": "Đáp án b. \\(\\sin x-\\sqrt3\\cos x=2\\left(\\cos\\varphi\\sin x+\\sin\\varphi\\cos x\\right)\\) với \\(\\cos\\varphi=\\dfrac12\\), \\(\\sin\\varphi=-\\dfrac{\\sqrt3}{2}\\) nên \\(\\varphi=-\\dfrac{\\pi}{3}\\).",
+   "images": [],
+   "id": "a9f25c71848b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "If \\(\\cos\\alpha=#\\), what is \\(\\cos #\\alpha\\)?",
+   "en": "If \\(\\cos\\alpha=0\\), what is \\(\\cos 2\\alpha\\)?",
+   "vi": "Nếu \\(\\cos\\alpha=0\\) thì \\(\\cos 2\\alpha\\) bằng bao nhiêu?",
+   "options": [
+    "\\(1\\)",
+    "\\(-1\\)",
+    "\\(0\\)",
+    "\\(\\dfrac12\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(2\\cos^2\\alpha-1=-1\\).",
+   "explain_vi": "Đáp án b. \\(2\\cos^2\\alpha-1=-1\\).",
+   "images": [],
+   "id": "588bdf2aacaa",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "If \\(\\sin\\alpha=\\dfrac{#}{#}\\) and \\(\\cos\\alpha=\\dfrac{#}{#}\\), what is \\(\\sin #\\alpha\\)?",
+   "en": "If \\(\\sin\\alpha=\\dfrac{8}{17}\\) and \\(\\cos\\alpha=\\dfrac{15}{17}\\), what is \\(\\sin 2\\alpha\\)?",
+   "vi": "Nếu \\(\\sin\\alpha=\\dfrac{8}{17}\\) và \\(\\cos\\alpha=\\dfrac{15}{17}\\) thì \\(\\sin 2\\alpha\\) bằng bao nhiêu?",
+   "options": [
+    "\\(\\dfrac{120}{289}\\)",
+    "\\(\\dfrac{240}{289}\\)",
+    "\\(\\dfrac{161}{289}\\)",
+    "\\(\\dfrac{16}{17}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(2\\cdot\\dfrac{8}{17}\\cdot\\dfrac{15}{17}=\\dfrac{240}{289}\\).",
+   "explain_vi": "Đáp án b. \\(2\\cdot\\dfrac{8}{17}\\cdot\\dfrac{15}{17}=\\dfrac{240}{289}\\).",
+   "images": [],
+   "id": "7ffc77b3c747",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "What is \\(\\sin #^\\circ\\cos #^\\circ-\\cos #^\\circ\\sin #^\\circ\\)?",
+   "en": "What is \\(\\sin 80^\\circ\\cos 20^\\circ-\\cos 80^\\circ\\sin 20^\\circ\\)?",
+   "vi": "\\(\\sin 80^\\circ\\cos 20^\\circ-\\cos 80^\\circ\\sin 20^\\circ\\) bằng bao nhiêu?",
+   "options": [
+    "\\(\\dfrac12\\)",
+    "\\(\\dfrac{\\sqrt2}{2}\\)",
+    "\\(1\\)",
+    "\\(\\dfrac{\\sqrt3}{2}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. It equals \\(\\sin(80^\\circ-20^\\circ)=\\sin 60^\\circ=\\dfrac{\\sqrt3}{2}\\).",
+   "explain_vi": "Đáp án d. Biểu thức bằng \\(\\sin(80^\\circ-20^\\circ)=\\sin 60^\\circ=\\dfrac{\\sqrt3}{2}\\).",
+   "images": [],
+   "id": "bddb05a22239",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(\\cos #a=#\\cos^# a-#\\) for every \\(a\\).",
+   "en": "\\(\\cos 2a=2\\cos^2 a-1\\) for every \\(a\\).",
+   "vi": "\\(\\cos 2a=2\\cos^2 a-1\\) với mọi \\(a\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. It follows from \\(\\cos 2a=\\cos^2 a-\\sin^2 a\\) and \\(\\sin^2 a=1-\\cos^2 a\\).",
+   "explain_vi": "Đúng. Suy ra từ \\(\\cos 2a=\\cos^2 a-\\sin^2 a\\) và \\(\\sin^2 a=1-\\cos^2 a\\).",
+   "images": [],
+   "id": "a9d956795c20",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(\\tan(a+b)=\\tan a+\\tan b\\) whenever it is defined.",
+   "en": "\\(\\tan(a+b)=\\tan a+\\tan b\\) whenever it is defined.",
+   "vi": "\\(\\tan(a+b)=\\tan a+\\tan b\\) mỗi khi hai vế xác định.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. \\(\\tan(a+b)=\\dfrac{\\tan a+\\tan b}{1-\\tan a\\tan b}\\). For example \\(a=b=\\dfrac{\\pi}{4}\\) gives \\(\\tan\\dfrac{\\pi}{2}\\), not \\(2\\).",
+   "explain_vi": "Sai. \\(\\tan(a+b)=\\dfrac{\\tan a+\\tan b}{1-\\tan a\\tan b}\\). Chẳng hạn \\(a=b=\\dfrac{\\pi}{4}\\) cho \\(\\tan\\dfrac{\\pi}{2}\\), không phải \\(2\\).",
+   "images": [],
+   "id": "b98cb3797a1f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Compute \\(#\\sin #^\\circ\\cos #^\\circ\\).",
+   "en": "Compute \\(8\\sin 15^\\circ\\cos 15^\\circ\\).",
+   "vi": "Tính \\(8\\sin 15^\\circ\\cos 15^\\circ\\).",
+   "options": [],
+   "answer": "2",
+   "explain_en": "Answer: 2. It equals \\(4\\sin 30^\\circ\\).",
+   "explain_vi": "Đáp số: 2. Biểu thức bằng \\(4\\sin 30^\\circ\\).",
+   "images": [],
+   "id": "f374bae1204e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Given \\(\\cos #\\alpha=-#\\), find \\(\\sin^#\\alpha\\).",
+   "en": "Given \\(\\cos 2\\alpha=-0.2\\), find \\(\\sin^2\\alpha\\).",
+   "vi": "Cho \\(\\cos 2\\alpha=-0{,}2\\). Tính \\(\\sin^2\\alpha\\).",
+   "options": [],
+   "answer": "0.6|3/5",
+   "explain_en": "Answer: \\(0.6\\). \\(\\sin^2\\alpha=\\dfrac{1+0.2}{2}\\).",
+   "explain_vi": "Đáp số: \\(0{,}6\\). \\(\\sin^2\\alpha=\\dfrac{1+0{,}2}{2}\\).",
+   "images": [],
+   "id": "33365a62b94b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "A statue \\(AB\\) stands on a pedestal \\(HA\\) (see the figure). From a point \\(O\\) on the ground, \\(OH=#\\) m, \\(HA=#\\) m, \\(HB=#\\) m. Find \\(\\tan\\widehat{AOB}\\).",
+   "en": "A statue \\(AB\\) stands on a pedestal \\(HA\\) (see the figure). From a point \\(O\\) on the ground, \\(OH=5\\) m, \\(HA=2\\) m, \\(HB=4\\) m. Find \\(\\tan\\widehat{AOB}\\).<img src=\"../../../img/tex/f67bb75113a84715.svg\" alt=\"Statue on a pedestal\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Một bức tượng \\(AB\\) đặt trên bệ \\(HA\\) (xem hình). Từ điểm \\(O\\) trên mặt đất, \\(OH=5\\) m, \\(HA=2\\) m, \\(HB=4\\) m. Tính \\(\\tan\\widehat{AOB}\\).<img src=\"../../../img/tex/f67bb75113a84715.svg\" alt=\"Tượng trên bệ\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "\\(\\dfrac{10}{33}\\)",
+    "\\(\\dfrac{12}{25}\\)",
+    "\\(\\dfrac{2}{5}\\)",
+    "\\(\\dfrac{10}{17}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\tan\\widehat{HOB}=\\dfrac{4}{5}\\), \\(\\tan\\widehat{HOA}=\\dfrac{2}{5}\\); \\(\\tan\\widehat{AOB}=\\tan(\\widehat{HOB}-\\widehat{HOA})=\\dfrac{10}{33}\\).",
+   "explain_vi": "Đáp án a. \\(\\tan\\widehat{HOB}=\\dfrac{4}{5}\\), \\(\\tan\\widehat{HOA}=\\dfrac{2}{5}\\); \\(\\tan\\widehat{AOB}=\\tan(\\widehat{HOB}-\\widehat{HOA})=\\dfrac{10}{33}\\).",
+   "images": [
+    "img/tex/f67bb75113a84715.svg"
+   ],
+   "id": "72f80380c081",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Find the exact value of \\(\\cos #^\\circ\\).",
+   "en": "Find the exact value of \\(\\cos 15^\\circ\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"evaluate\">Tính giá trị</b> đúng của \\(\\cos 15^\\circ\\).",
+   "options": [
+    "\\(\\dfrac{\\sqrt6+\\sqrt2}{4}\\)",
+    "\\(-\\dfrac{\\sqrt6+\\sqrt2}{4}\\)",
+    "\\(\\dfrac{\\sqrt6-\\sqrt2}{4}\\)",
+    "\\(-\\dfrac{\\sqrt6-\\sqrt2}{4}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Write \\(15^\\circ=45^\\circ-30^\\circ\\) and use the addition formula: \\(\\cos 15^\\circ=\\dfrac{\\sqrt6+\\sqrt2}{4}\\).",
+   "explain_vi": "Đáp án a. Viết \\(15^\\circ=45^\\circ-30^\\circ\\) rồi dùng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"addition formula\">công thức cộng</b>: \\(\\cos 15^\\circ=\\dfrac{\\sqrt6+\\sqrt2}{4}\\).",
+   "images": [],
+   "id": "507f5ae87b45",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Given \\(\\sin a=\\dfrac{#}{#}\\), \\(\\cos b=\\dfrac{#}{#}\\) with \\(#\\lt a,b\\lt\\dfrac{\\pi}{#}\\). Find \\(\\cos(a+b)\\).",
+   "en": "Given \\(\\sin a=\\dfrac{4}{5}\\), \\(\\cos b=\\dfrac{8}{17}\\) with \\(0\\lt a,b\\lt\\dfrac{\\pi}{2}\\). Find \\(\\cos(a+b)\\).",
+   "vi": "Cho \\(\\sin a=\\dfrac{4}{5}\\), \\(\\cos b=\\dfrac{8}{17}\\) với \\(0\\lt a,b\\lt\\dfrac{\\pi}{2}\\). Tính \\(\\cos(a+b)\\).",
+   "options": [
+    "\\(\\dfrac{84}{85}\\)",
+    "\\(\\dfrac{77}{85}\\)",
+    "\\(-\\dfrac{13}{85}\\)",
+    "\\(-\\dfrac{36}{85}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\cos a=\\dfrac{3}{5}\\), \\(\\sin b=\\dfrac{15}{17}\\) (both positive). Then \\(\\cos(a+b)=-\\dfrac{36}{85}\\).",
+   "explain_vi": "Đáp án d. \\(\\cos a=\\dfrac{3}{5}\\), \\(\\sin b=\\dfrac{15}{17}\\) (đều dương). Khi đó \\(\\cos(a+b)=-\\dfrac{36}{85}\\).",
+   "images": [],
+   "id": "9e2b58198c73",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Given \\(\\tan a=\\dfrac{#}{#}\\) and \\(\\tan b=\\dfrac{#}{#}\\). Find \\(\\tan(a-b)\\).",
+   "en": "Given \\(\\tan a=\\dfrac{3}{2}\\) and \\(\\tan b=\\dfrac{3}{5}\\). Find \\(\\tan(a-b)\\).",
+   "vi": "Cho \\(\\tan a=\\dfrac{3}{2}\\) và \\(\\tan b=\\dfrac{3}{5}\\). Tính \\(\\tan(a-b)\\).",
+   "options": [
+    "\\(21\\)",
+    "\\(9\\)",
+    "\\(\\dfrac{9}{19}\\)",
+    "\\(\\dfrac{9}{10}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\tan(a-b)=\\dfrac{\\tan a-\\tan b}{1+\\tan a\\tan b}=\\dfrac{9}{19}\\).",
+   "explain_vi": "Đáp án c. \\(\\tan(a-b)=\\dfrac{\\tan a-\\tan b}{1+\\tan a\\tan b}=\\dfrac{9}{19}\\).",
+   "images": [],
+   "id": "b4fd5c679784",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Simplify \\(\\dfrac{\\sin#\\alpha}{#\\sin\\alpha}\\) (where it is defined).",
+   "en": "Simplify \\(\\dfrac{\\sin2\\alpha}{2\\sin\\alpha}\\) (where it is defined).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"simplify an expression\">Rút gọn biểu thức</b> \\(\\dfrac{\\sin2\\alpha}{2\\sin\\alpha}\\) (khi biểu thức có nghĩa).",
+   "options": [
+    "\\(2\\tan\\alpha\\)",
+    "\\(\\tan\\alpha\\)",
+    "\\(\\sin\\alpha\\)",
+    "\\(\\cos\\alpha\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Use \\(\\sin2\\alpha=2\\sin\\alpha\\cos\\alpha\\), \\(1+\\cos2\\alpha=2\\cos^2\\alpha\\), \\(1-\\cos2\\alpha=2\\sin^2\\alpha\\); the result is \\(\\cos\\alpha\\).",
+   "explain_vi": "Đáp án d. Dùng \\(\\sin2\\alpha=2\\sin\\alpha\\cos\\alpha\\), \\(1+\\cos2\\alpha=2\\cos^2\\alpha\\), \\(1-\\cos2\\alpha=2\\sin^2\\alpha\\); kết quả là \\(\\cos\\alpha\\).",
+   "images": [],
+   "id": "8aef63725f62",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Write \\(#\\sin #x\\sin x\\) as a sum.",
+   "en": "Write \\(2\\sin 4x\\sin x\\) as a sum.",
+   "vi": "Biến đổi \\(2\\sin 4x\\sin x\\) thành tổng.",
+   "options": [
+    "\\(\\sin 5x-\\sin 3x\\)",
+    "\\(\\cos 5x+\\cos 3x\\)",
+    "\\(\\cos 3x-\\cos 5x\\)",
+    "\\(\\sin 5x+\\sin 3x\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Product-to-sum formula: \\(2\\sin 4x\\sin x=\\cos 3x-\\cos 5x\\).",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"product-to-sum formula\">Công thức biến đổi tích thành tổng</b>: \\(2\\sin 4x\\sin x=\\cos 3x-\\cos 5x\\).",
+   "images": [],
+   "id": "07a43ee887d0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Write \\(\\sin #x-\\sin #x\\) as a product.",
+   "en": "Write \\(\\sin 5x-\\sin 3x\\) as a product.",
+   "vi": "Biến đổi \\(\\sin 5x-\\sin 3x\\) thành tích.",
+   "options": [
+    "\\(2\\cos 4x\\cos x\\)",
+    "\\(2\\cos 4x\\sin x\\)",
+    "\\(-2\\sin 4x\\sin x\\)",
+    "\\(2\\sin 4x\\cos x\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Sum-to-product formula: \\(\\sin 5x-\\sin 3x=2\\cos 4x\\sin x\\).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sum-to-product formula\">Công thức biến đổi tổng thành tích</b>: \\(\\sin 5x-\\sin 3x=2\\cos 4x\\sin x\\).",
+   "images": [],
+   "id": "ef8a31339889",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Write \\(\\sin x+\\cos x=\\sqrt#\\sin(x+\\varphi)\\) with \\(-\\pi\\lt\\varphi\\lt\\pi\\). Then \\(\\varphi=\\)…",
+   "en": "Write \\(\\sin x+\\cos x=\\sqrt2\\sin(x+\\varphi)\\) with \\(-\\pi\\lt\\varphi\\lt\\pi\\). Then \\(\\varphi=\\)…",
+   "vi": "Viết \\(\\sin x+\\cos x=\\sqrt2\\sin(x+\\varphi)\\) với \\(-\\pi\\lt\\varphi\\lt\\pi\\). Khi đó \\(\\varphi=\\)…",
+   "options": [
+    "\\(-\\dfrac{\\pi}{4}\\)",
+    "\\(\\dfrac{\\pi}{3}\\)",
+    "\\(-\\dfrac{\\pi}{6}\\)",
+    "\\(\\dfrac{\\pi}{4}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\sin x+\\cos x=\\sqrt2\\left(\\cos\\varphi\\sin x+\\sin\\varphi\\cos x\\right)\\) with \\(\\cos\\varphi=\\dfrac{\\sqrt2}{2}\\), \\(\\sin\\varphi=\\dfrac{\\sqrt2}{2}\\), so \\(\\varphi=\\dfrac{\\pi}{4}\\).",
+   "explain_vi": "Đáp án d. \\(\\sin x+\\cos x=\\sqrt2\\left(\\cos\\varphi\\sin x+\\sin\\varphi\\cos x\\right)\\) với \\(\\cos\\varphi=\\dfrac{\\sqrt2}{2}\\), \\(\\sin\\varphi=\\dfrac{\\sqrt2}{2}\\) nên \\(\\varphi=\\dfrac{\\pi}{4}\\).",
+   "images": [],
+   "id": "453bfd0e66dc",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  }
+ ]
+}

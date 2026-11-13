@@ -275,3 +275,51 @@ Mọi bài nay có **15 câu/mức, 15 dạng khác nhau trong mỗi mức**; ph
 Kiểm tra: bộ test "TẤT CẢ ĐẠT"; kiểm tra độc lập `scripts/audit10.py` đọc đề, bảng **và tọa độ trong hình TikZ** rồi tự tính lại: **240/240 câu đúng**; Mức 3 không còn chữ Việt; số thập phân đúng dấu; mọi đáp số trả lời ngắn ≤ 4 kí tự.
 
 Công cụ: `tools/sp_g11r2.py` (ngân hàng đợt 2), `tools/fig2d.py` (hình 2D: đường tròn lượng giác, đồ thị, biểu đồ tần số; mọi nhãn chọn chỗ không bị nét vẽ đi qua).
+
+## Quét lớp 10 và lớp 12 (13/11/2026)
+
+Kết quả quét 27 bài lớp 10 và 19 bài lớp 12 (Mức 1):
+- Gần như mọi bài: phần D (tự luyện 8 câu) lặp lại dạng của A–C chỉ đổi số; nhiều bài còn lặp một dạng 2 lần ngay trong D (ví dụ lớp 12 Bài 8 có hai câu cộng vectơ và hai câu tích vô hướng).
+- Hầu như không có câu kèm hình/bảng (trừ thống kê lớp 12); các bài hình học (vectơ lớp 10, không gian lớp 12) có 0 hình trong phần luyện tập.
+- Lỗi trình bày: số thập phân dấu phẩy trong phần tiếng Anh (lớp 10 Bài 12, lớp 12 Bài 18–19…), bảng tần số lẫn hai thứ tiếng (lớp 12 Bài 9–10), "From Bài …" trong tiếng Anh, chữ Việt trong công thức hiển thị chung.
+
+## Kết quả hiệu chỉnh lớp 12 – đợt 1 (13/11/2026): Bài 5, 6, 7, 8, 11, 12
+
+Phần D mới (8 dạng/bài, khác A–C, `tools/sp_g12r.py`):
+
+| Bài | Dạng mới ở phần D | Câu có hình |
+|---|---|---|
+| 5. Ứng dụng đạo hàm | cửa sổ nội tiếp nửa hình tròn, lon hình trụ, kéo dây điện qua sông, giá vé tối ưu, nồng độ thuốc, hai con tàu, chuồng chia ô, áp phích có lề | 5/8 |
+| 6. Vectơ trong không gian | góc giữa hai vectơ trong hình lập phương, trọng tâm tứ diện/mặt, biểu diễn vectơ trong lăng trụ, độ dài tổng vectơ, công của lực, đẳng thức vectơ trong tứ diện, lực căng xích treo đèn, góc từ tích vô hướng | 6/8 |
+| 7. Hệ trục Oxyz | đọc tọa độ đỉnh hình hộp, đối xứng qua mặt phẳng tọa độ, khoảng cách tới trục, \(\overrightarrow{OM}\) theo \(\vec i,\vec j,\vec k\), điểm trên trục cách đều, đường chéo căn phòng, tam giác vuông tại đâu, điểm chia đoạn | 1/8 |
+| 8. Biểu thức tọa độ | góc (độ), tích vô hướng trong hình hộp, tìm \(m\) theo độ dài, vectơ ngược hướng, điều kiện góc tù, hệ \(\vec a\pm\vec b\), lực cân bằng, \(\cos\widehat{BAC}\) | 1/8 |
+| 11. Nguyên hàm | đọc \(f\) từ đồ thị, lũy thừa căn, \(a^x\), \(\tan^2x\)…, rút gọn trước khi lấy nguyên hàm, chiều cao cây, từ \(f''\) về \(f\), khẳng định đúng | 1/8 |
+| 12. Tích phân | tích phân từ đồ thị gấp khúc, nửa hình tròn, hàm lẻ, tìm cận \(m\), \(f(b)=f(a)+\int f'\), hàm cho hai công thức, đồ thị vận tốc, nhiệt độ trung bình | 3/8 |
+
+Sửa chung toàn bộ lớp 10 và 12: dòng "Từ cần nhớ" ở Mức 1 thành từ chạm vào để xem tiếng Anh; "From Bài" → "From Lesson"; số thập phân trong phần tiếng Anh (cả phương án) dùng dấu chấm; bảng tần số mỗi mức chỉ một ngôn ngữ (`tabfix` trong `tools/mb_lib.py`); bỏ chữ Việt/Anh khỏi công thức hiển thị chung.
+
+Kiểm tra: test lớp 10 và 12 "TẤT CẢ ĐẠT"; `scripts/audit11.py` (đọc đề và hình, tự tính lại) 144/144 câu đúng.
+
+Đợt tiếp theo đề xuất: lớp 12 Bài 1–4 (đơn điệu, GTLN–GTNN, tiệm cận, khảo sát: cần đồ thị/bảng biến thiên), Bài 13–19; lớp 10 các bài vectơ (Bài 7–11, thêm hình), Bài 4–6, 16–21.
+
+## Thư viện câu hỏi (13/11/2026)
+
+Theo yêu cầu: câu bị thay ra khi hiệu chỉnh **không bỏ** mà lưu lại làm nguồn cho thư viện câu hỏi (sau này đổi qua lại giữa các câu cùng dạng).
+- `tools/question_bank.py` gom mọi câu luyện tập của mọi bài (lớp 9–12) vào `data/question-bank/grade<lớp>/<mã-bài>.json`: câu đang dùng trên trang + câu đã thay ra (lấy lại từ phiên bản cũ trên GitHub, mốc `9dde968`, trước đợt hiệu chỉnh).
+- Mỗi câu có: mức, mục (A/B/C/D…), loại (mcq/tf/short), `form` (khung dạng — câu cùng form đổi được cho nhau), đề EN/VI (kèm hình, bảng), phương án, đáp án, lời giải, trạng thái "đang dùng"/"đã thay ra".
+- Câu đã vào thư viện không bao giờ bị xóa: chạy lại công cụ sau mỗi đợt hiệu chỉnh, câu mới thay ra tự được giữ.
+- Các hàm sinh câu cũ (`sp_g11*.py`, `sp_g12*.py`, ví dụ `M5S`, `M8S12`) vẫn còn nguyên trong mã, có thể sinh thêm biến thể.
+- Chạy: `python tools/question_bank.py` (trong kho git của dự án).
+
+## Kết quả hiệu chỉnh lớp 12 – đợt 2 (13/11/2026): Bài 1–4
+
+Phần D mới (`tools/sp_g12r2.py`), nhiều câu đọc đồ thị và bảng biến thiên (vẽ bằng TikZ):
+
+| Bài | Dạng mới ở phần D | Câu có hình/bảng |
+|---|---|---|
+| 1. Đơn điệu và cực trị | khoảng nghịch biến từ đồ thị \(f'\), cực trị từ đồ thị \(f'\) (có nghiệm kép), giá trị cực đại/điểm cực tiểu từ bảng biến thiên, khoảng đồng biến từ đồ thị \(f\), hàm đồng biến trên \(\mathbb R\), tìm \(m\) để đạt cực trị tại \(x_0\), doanh số tăng khi nào, cực trị hàm mũ/lôgarit | 4/8 |
+| 2. GTLN–GTNN | đọc từ đồ thị trên đoạn (mức 3: đáp án tại đầu mút), từ bảng biến thiên, hàm lượng giác, hàm có căn, tìm \(m\) theo GTLN/GTNN, hàm mũ/lôgarit trên đoạn, số khách lễ hội, \(M+m\) | 2/8 |
+| 3. Tiệm cận | đọc tiệm cận từ đồ thị, đếm tiệm cận từ bảng biến thiên (cả trường hợp hai tiệm cận ngang), tìm \(m\) để không có tiệm cận đứng, hai tiệm cận ngang của \(\frac{kx+c}{\sqrt{x^2+s}}\), tìm \(a\) theo tiệm cận xiên, chi phí trung bình, diện tích hình chữ nhật tạo bởi tiệm cận và trục, khẳng định đúng | 2/8 |
+| 4. Khảo sát hàm số | nhận dạng hàm bậc ba từ đồ thị, nhận dạng hàm phân thức từ đồ thị, dấu của \(a\), \(d\), điều kiện \(f(x)=m\) có 3 nghiệm, số nghiệm \(kf(x)+c=0\), diện tích tam giác ba điểm cực trị hàm trùng phương, nhận dạng hàm từ bảng biến thiên, số giao điểm | 6/8 |
+
+Kiểm tra: test "TẤT CẢ ĐẠT"; `scripts/audit12.py` (đọc đồ thị và bảng biến thiên trong tệp TikZ, tự tính lại) 96/96 câu đúng.

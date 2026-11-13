@@ -1,0 +1,2382 @@
+{
+ "lesson": "g12-mono-01",
+ "grade": 12,
+ "no": 1,
+ "title": "Tính đơn điệu và cực trị của hàm số",
+ "path": "lessons/grade12/monotonicity-extrema/monotonicity-of-functions.html",
+ "items": [
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Let \\(f'(x)=(x-#)(x+#)^#\\). On which interval is \\(f\\) increasing?",
+   "en": "Let \\(f'(x)=(x-1)(x+2)^2\\). On which interval is \\(f\\) increasing?",
+   "vi": "Cho \\(f'(x)=(x-1)(x+2)^2\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"increasing function\">Hàm số đồng biến</b> trên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"interval\">khoảng</b> nào?",
+   "options": [
+    "\\((-\\infty,1)\\)",
+    "\\((1,+\\infty)\\)",
+    "\\((-2,1)\\)",
+    "\\((-\\infty,-2)\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\((x+2)^2\\ge0\\), so \\(f'>0\\) exactly when \\(x>1\\).",
+   "explain_vi": "Đáp án b. \\((x+2)^2\\ge0\\) nên \\(f'>0\\) đúng khi \\(x>1\\).",
+   "images": [],
+   "id": "5b03a8b69ba9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Let \\(f(x)=\\dfrac{x-#}{x+#}\\). On which interval is \\(f\\) increasing?",
+   "en": "Let \\(f(x)=\\dfrac{x-2}{x+1}\\). On which interval is \\(f\\) increasing?",
+   "vi": "Cho \\(f(x)=\\dfrac{x-2}{x+1}\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"increasing function\">Hàm số đồng biến</b> trên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"interval\">khoảng</b> nào?",
+   "options": [
+    "\\((-2,0)\\)",
+    "\\((-1,2)\\)",
+    "\\((-\\infty,0)\\)",
+    "\\(\\mathbb{R}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(f'(x)=\\dfrac{3}{(x+1)^2}>0\\) for \\(x\\ne-1\\), but an interval must not contain \\(-1\\). Only \\((-1,2)\\) qualifies.",
+   "explain_vi": "Đáp án b. \\(f'(x)=\\dfrac{3}{(x+1)^2}>0\\) với \\(x\\ne-1\\), nhưng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"interval\">khoảng</b> không được chứa \\(-1\\). Chỉ có \\((-1,2)\\) thỏa mãn.",
+   "images": [],
+   "id": "ed4b36231f31",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "On which interval is \\(f(x)=-x^#+#x\\) increasing?",
+   "en": "On which interval is \\(f(x)=-x^2+4x\\) increasing?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">Hàm số</b> \\(f(x)=-x^2+4x\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"increasing\">đồng biến</b> trên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"interval\">khoảng</b> nào?",
+   "options": [
+    "\\((-\\infty,2)\\)",
+    "\\((2,+\\infty)\\)",
+    "\\((-\\infty,4)\\)",
+    "\\((0,4)\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(f'(x)=-2x+4>0\\) when \\(x\\lt 2\\).",
+   "explain_vi": "Đáp án a. \\(f'(x)=-2x+4>0\\) khi \\(x\\lt 2\\).",
+   "images": [],
+   "id": "bb04e10aa30e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "On which interval is \\(f(x)=x^#-#x\\) decreasing?",
+   "en": "On which interval is \\(f(x)=x^3-3x\\) decreasing?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">Hàm số</b> \\(f(x)=x^3-3x\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"decreasing\">nghịch biến</b> trên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"interval\">khoảng</b> nào?",
+   "options": [
+    "\\((-\\infty,-1)\\)",
+    "\\((-1,1)\\)",
+    "\\((1,+\\infty)\\)",
+    "\\(\\mathbb{R}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(f'(x)=3x^2-3\\lt 0\\) exactly when \\(-1\\lt x\\lt 1\\).",
+   "explain_vi": "Đáp án b. \\(f'(x)=3x^2-3\\lt 0\\) đúng khi \\(-1\\lt x\\lt 1\\).",
+   "images": [],
+   "id": "762e1edd8814",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "True or false: \\(f(x)=\\dfrac#x\\) is decreasing on its whole domain \\(\\mathbb{R}\\setminus\\{#\\}\\).",
+   "en": "True or false: \\(f(x)=\\dfrac1x\\) is decreasing on its whole domain \\(\\mathbb{R}\\setminus\\{0\\}\\).",
+   "vi": "Đúng hay sai: \\(f(x)=\\dfrac1x\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"decreasing\">nghịch biến</b> trên toàn bộ <b class=\"mbl-term\" tabindex=\"0\" data-en=\"domain\">tập xác định</b> \\(\\mathbb{R}\\setminus\\{0\\}\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. It is decreasing on \\((-\\infty,0)\\) and on \\((0,+\\infty)\\) separately. But \\(-1\\lt 1\\) while \\(f(-1)=-1\\lt f(1)=1\\).",
+   "explain_vi": "Sai. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"decreasing function\">Hàm số nghịch biến</b> trên từng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"interval\">khoảng</b> \\((-\\infty,0)\\) và \\((0,+\\infty)\\). Nhưng \\(-1\\lt 1\\) mà \\(f(-1)=-1\\lt f(1)=1\\).",
+   "images": [],
+   "id": "f18332c20144",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "True or false: if \\(f'(x)>#\\) on \\((a,b)\\), then \\(f\\) is increasing on \\((a,b)\\).",
+   "en": "True or false: if \\(f'(x)>0\\) on \\((a,b)\\), then \\(f\\) is increasing on \\((a,b)\\).",
+   "vi": "Đúng hay sai: nếu \\(f'(x)>0\\) trên \\((a,b)\\) thì \\(f\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"increasing\">đồng biến</b> trên \\((a,b)\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. This is the derivative test.",
+   "explain_vi": "Đúng. Đây là định lí về dấu của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"derivative\">đạo hàm</b>.",
+   "images": [],
+   "id": "439dd83b9bd0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "Find the smallest integer \\(m\\) such that \\(f(x)=\\dfrac{mx+#}{x-#}\\) is decreasing on each interval of its domain.",
+   "en": "Find the smallest integer \\(m\\) such that \\(f(x)=\\dfrac{mx+1}{x-1}\\) is decreasing on each interval of its domain.",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"integers\">số nguyên</b> \\(m\\) nhỏ nhất để \\(f(x)=\\dfrac{mx+1}{x-1}\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"decreasing\">nghịch biến</b> trên từng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"interval\">khoảng</b> xác định.",
+   "options": [],
+   "answer": "0",
+   "explain_en": "Answer: 0. \\(f'(x)=\\dfrac{-m-1}{(x-1)^2}\\lt 0\\) exactly when \\(m>-1\\), so the smallest integer is 0.",
+   "explain_vi": "Đáp án: 0. \\(f'(x)=\\dfrac{-m-1}{(x-1)^2}\\lt 0\\) đúng khi \\(m>-1\\), nên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"integers\">số nguyên</b> nhỏ nhất là 0.",
+   "images": [],
+   "id": "d800db2f3e6b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "Find the smallest integer \\(m\\) such that \\(f(x)=x^#+#x^#+mx\\) is increasing on \\(\\mathbb{R}\\).",
+   "en": "Find the smallest integer \\(m\\) such that \\(f(x)=x^3+3x^2+mx\\) is increasing on \\(\\mathbb{R}\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"integers\">số nguyên</b> \\(m\\) nhỏ nhất để \\(f(x)=x^3+3x^2+mx\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"increasing\">đồng biến</b> trên \\(\\mathbb{R}\\).",
+   "options": [],
+   "answer": "3",
+   "explain_en": "Answer: 3. We need \\(9-3m\\le0\\), so \\(m\\ge3\\).",
+   "explain_vi": "Đáp án: 3. Cần \\(9-3m\\le0\\) nên \\(m\\ge3\\).",
+   "images": [],
+   "id": "95f2722e0708",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "How many solutions does \\(f'(x)=#\\) have for \\(f(x)=x^#-#x^#\\)?",
+   "en": "How many solutions does \\(f'(x)=0\\) have for \\(f(x)=x^4-2x^2\\)?",
+   "vi": "Với \\(f(x)=x^4-2x^2\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(f'(x)=0\\) có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b>?",
+   "options": [],
+   "answer": "3",
+   "explain_en": "Answer: 3. \\(f'(x)=4x^3-4x=4x(x-1)(x+1)\\).",
+   "explain_vi": "Đáp án: 3. \\(f'(x)=4x^3-4x=4x(x-1)(x+1)\\).",
+   "images": [],
+   "id": "374881ce08f7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "Write the interval on which \\(f(x)=x^#-#x+#\\) is decreasing.",
+   "en": "Write the interval on which \\(f(x)=x^2-6x+5\\) is decreasing.",
+   "vi": "Viết <b class=\"mbl-term\" tabindex=\"0\" data-en=\"interval\">khoảng</b> mà <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(f(x)=x^2-6x+5\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"decreasing\">nghịch biến</b>.",
+   "options": [],
+   "answer": "(-inf,3)|(-inf,3]",
+   "explain_en": "Answer: \\((-\\infty,3)\\). \\(f'(x)=2x-6\\lt 0\\) when \\(x\\lt 3\\).",
+   "explain_vi": "Đáp án: \\((-\\infty,3)\\). \\(f'(x)=2x-6\\lt 0\\) khi \\(x\\lt 3\\).",
+   "images": [],
+   "id": "8db432d93fa4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "At which \\(x\\) does \\(f(x)=-x^#+#x\\) have a local maximum?",
+   "en": "At which \\(x\\) does \\(f(x)=-x^3+3x\\) have a local maximum?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">Hàm số</b> \\(f(x)=-x^3+3x\\) đạt <b class=\"mbl-term\" tabindex=\"0\" data-en=\"local maximum\">cực đại</b> tại \\(x\\) bằng bao nhiêu?",
+   "options": [
+    "\\(x=-1\\)",
+    "\\(x=0\\)",
+    "\\(x=1\\)",
+    "\\(x=3\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(f'(x)=-3x^2+3=0\\) at \\(x=\\pm1\\), and \\(f''(1)=-6\\lt 0\\).",
+   "explain_vi": "Đáp án c. \\(f'(x)=-3x^2+3=0\\) tại \\(x=\\pm1\\), và \\(f''(1)=-6\\lt 0\\).",
+   "images": [],
+   "id": "0af2ee73e5fc",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "At which \\(x\\) does \\(f(x)=x^#-#x+#\\) have a local minimum?",
+   "en": "At which \\(x\\) does \\(f(x)=x^2-4x+1\\) have a local minimum?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">Hàm số</b> \\(f(x)=x^2-4x+1\\) đạt <b class=\"mbl-term\" tabindex=\"0\" data-en=\"local minimum\">cực tiểu</b> tại \\(x\\) bằng bao nhiêu?",
+   "options": [
+    "\\(x=-2\\)",
+    "\\(x=2\\)",
+    "\\(x=4\\)",
+    "\\(x=1\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(f'(x)=2x-4=0\\) at \\(x=2\\) and \\(f''=2>0\\).",
+   "explain_vi": "Đáp án b. \\(f'(x)=2x-4=0\\) tại \\(x=2\\) và \\(f''=2>0\\).",
+   "images": [],
+   "id": "57ac7c569659",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Let \\(f'(x)=x(x-#)^#(x+#)\\). How many extreme points does \\(f\\) have?",
+   "en": "Let \\(f'(x)=x(x-1)^2(x+2)\\). How many extreme points does \\(f\\) have?",
+   "vi": "Cho \\(f'(x)=x(x-1)^2(x+2)\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">Hàm số</b> \\(f\\) có bao nhiêu điểm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"extremum\">cực trị</b>?",
+   "options": [
+    "\\(1\\)",
+    "\\(2\\)",
+    "\\(3\\)",
+    "\\(4\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(f'\\) changes sign at \\(x=0\\) and \\(x=-2\\), but not at \\(x=1\\) because \\((x-1)^2\\ge0\\).",
+   "explain_vi": "Đáp án b. \\(f'\\) đổi dấu tại \\(x=0\\) và \\(x=-2\\), nhưng không đổi dấu tại \\(x=1\\) vì \\((x-1)^2\\ge0\\).",
+   "images": [],
+   "id": "464a6a276eec",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "E",
+   "type": "tf",
+   "form": "True or false: \\(f(x)=x^#\\) has a local minimum at \\(x=#\\) even though \\(f''(#)=#\\).",
+   "en": "True or false: \\(f(x)=x^4\\) has a local minimum at \\(x=0\\) even though \\(f''(0)=0\\).",
+   "vi": "Đúng hay sai: \\(f(x)=x^4\\) đạt <b class=\"mbl-term\" tabindex=\"0\" data-en=\"local minimum\">cực tiểu</b> tại \\(x=0\\) dù \\(f''(0)=0\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. \\(f'(x)=4x^3\\) changes from negative to positive at 0. The second derivative test simply fails here.",
+   "explain_vi": "Đúng. \\(f'(x)=4x^3\\) đổi dấu từ âm sang dương tại 0. Điều kiện đủ thứ hai không <b class=\"mbl-term\" tabindex=\"0\" data-en=\"conclusion\">kết luận</b> được ở đây.",
+   "images": [],
+   "id": "d8c8832aaa2a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "E",
+   "type": "tf",
+   "form": "True or false: \\(f(x)=|x|\\) has a local minimum at \\(x=#\\), although \\(f'(#)\\) does not exist.",
+   "en": "True or false: \\(f(x)=|x|\\) has a local minimum at \\(x=0\\), although \\(f'(0)\\) does not exist.",
+   "vi": "Đúng hay sai: \\(f(x)=|x|\\) đạt <b class=\"mbl-term\" tabindex=\"0\" data-en=\"local minimum\">cực tiểu</b> tại \\(x=0\\) dù không tồn tại \\(f'(0)\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. \\(f(x)\\ge0=f(0)\\) near 0, and \\(f'\\) changes from \\(-1\\) to \\(1\\).",
+   "explain_vi": "Đúng. \\(f(x)\\ge0=f(0)\\) gần 0, và \\(f'\\) đổi từ \\(-1\\) sang \\(1\\).",
+   "images": [],
+   "id": "1ff5760857d5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "E",
+   "type": "tf",
+   "form": "True or false: if \\(f'(x_#)=#\\), then \\(x_#\\) is an extreme point.",
+   "en": "True or false: if \\(f'(x_0)=0\\), then \\(x_0\\) is an extreme point.",
+   "vi": "Đúng hay sai: nếu \\(f'(x_0)=0\\) thì \\(x_0\\) là điểm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"extremum\">cực trị</b>.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. For \\(f(x)=x^3\\), \\(f'(0)=0\\) but there is no extremum.",
+   "explain_vi": "Sai. Với \\(f(x)=x^3\\), \\(f'(0)=0\\) nhưng không có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"extremum\">cực trị</b>.",
+   "images": [],
+   "id": "e3c2810314d0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "F",
+   "type": "short",
+   "form": "Find the largest integer \\(m\\) such that \\(f(x)=x^#-#x^#+mx\\) has two extreme points.",
+   "en": "Find the largest integer \\(m\\) such that \\(f(x)=x^3-3x^2+mx\\) has two extreme points.",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"integers\">số nguyên</b> \\(m\\) lớn nhất để \\(f(x)=x^3-3x^2+mx\\) có hai điểm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"extremum\">cực trị</b>.",
+   "options": [],
+   "answer": "2",
+   "explain_en": "Answer: 2. We need \\(m\\lt 3\\).",
+   "explain_vi": "Đáp án: 2. Cần \\(m\\lt 3\\).",
+   "images": [],
+   "id": "18c32a9b6fbe",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "F",
+   "type": "short",
+   "form": "Find the local minimum value of \\(f(x)=x+\\dfrac#x\\) for \\(x>#\\).",
+   "en": "Find the local minimum value of \\(f(x)=x+\\dfrac4x\\) for \\(x>0\\).",
+   "vi": "Tìm giá trị <b class=\"mbl-term\" tabindex=\"0\" data-en=\"local minimum\">cực tiểu</b> của \\(f(x)=x+\\dfrac4x\\) với \\(x>0\\).",
+   "options": [],
+   "answer": "4",
+   "explain_en": "Answer: 4. \\(f'(x)=1-\\dfrac4{x^2}=0\\) at \\(x=2\\), \\(f''(2)=1>0\\), and \\(f(2)=2+2=4\\).",
+   "explain_vi": "Đáp án: 4. \\(f'(x)=1-\\dfrac4{x^2}=0\\) tại \\(x=2\\), \\(f''(2)=1>0\\) và \\(f(2)=2+2=4\\).",
+   "images": [],
+   "id": "0260f714438a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "F",
+   "type": "short",
+   "form": "Find the local minimum value of \\(f(x)=x^#-#x\\).",
+   "en": "Find the local minimum value of \\(f(x)=x^3-3x\\).",
+   "vi": "Tìm giá trị <b class=\"mbl-term\" tabindex=\"0\" data-en=\"local minimum\">cực tiểu</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(f(x)=x^3-3x\\).",
+   "options": [],
+   "answer": "-2",
+   "explain_en": "Answer: \\(-2\\). The local minimum is at \\(x=1\\): \\(f(1)=1-3=-2\\).",
+   "explain_vi": "Đáp án: \\(-2\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"local minimum\">Cực tiểu</b> tại \\(x=1\\): \\(f(1)=1-3=-2\\).",
+   "images": [],
+   "id": "4b6fc638beba",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "F",
+   "type": "short",
+   "form": "How many extreme points does \\(f(x)=x^#-#x^#\\) have?",
+   "en": "How many extreme points does \\(f(x)=x^4-2x^2\\) have?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">Hàm số</b> \\(f(x)=x^4-2x^2\\) có bao nhiêu điểm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"extremum\">cực trị</b>?",
+   "options": [],
+   "answer": "3",
+   "explain_en": "Answer: 3 (two minima and one maximum).",
+   "explain_vi": "Đáp án: 3 (hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"local minimum\">cực tiểu</b> và một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"local maximum\">cực đại</b>).",
+   "images": [],
+   "id": "310e0f2cbff9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "G",
+   "type": "mcq",
+   "form": "Find \\(m\\) so that \\(f(x)=x^#-#mx^#+#(m^#-#)x\\) has a local maximum at \\(x=#\\).",
+   "en": "Find \\(m\\) so that \\(f(x)=x^3-3mx^2+3(m^2-1)x\\) has a local maximum at \\(x=4\\).",
+   "vi": "Tìm \\(m\\) để <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(f(x)=x^3-3mx^2+3(m^2-1)x\\) đạt <b class=\"mbl-term\" tabindex=\"0\" data-en=\"local maximum\">cực đại</b> tại \\(x=4\\).",
+   "options": [
+    "\\(3\\)",
+    "\\(-5\\)",
+    "\\(5\\)",
+    "\\(4\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(f'(x)=3(x-m+1)(x-m-1)\\): local maximum at \\(x=m-1\\), local minimum at \\(x=m+1\\). So \\(m-1=4\\Rightarrow m=5\\) (check: \\(f''(4)\\lt0\\)).",
+   "explain_vi": "Đáp án c. \\(f'(x)=3(x-m+1)(x-m-1)\\): <b class=\"mbl-term\" tabindex=\"0\" data-en=\"local maximum\">cực đại</b> tại \\(x=m-1\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"local minimum\">cực tiểu</b> tại \\(x=m+1\\). Vậy \\(m-1=4\\Rightarrow m=5\\) (thử lại: \\(f''(4)\\lt0\\)).",
+   "images": [],
+   "id": "87cedfcdf9e6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "G",
+   "type": "mcq",
+   "form": "The figure shows the graph of \\(y=f'(x)\\). How many extreme points does \\(f\\) have?",
+   "en": "The figure shows the graph of \\(y=f'(x)\\). How many extreme points does \\(f\\) have?<img src=\"../../../img/tex/d6c6cf2d7c1d4f9a.svg\" alt=\"Graph of f&#x27;\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,330px);height:auto\">",
+   "vi": "Hình vẽ là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> của \\(y=f'(x)\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">Hàm số</b> \\(f\\) có bao nhiêu điểm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"extremum\">cực trị</b>?<img src=\"../../../img/tex/d6c6cf2d7c1d4f9a.svg\" alt=\"Đồ thị của f&#x27;\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,330px);height:auto\">",
+   "options": [
+    "\\(2\\)",
+    "\\(1\\)",
+    "\\(0\\)",
+    "\\(3\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(f'\\) changes sign only at \\(x=1\\), \\(x=3\\); at the double root \\(x=-3\\) the graph of \\(f'\\) touches \\(Ox\\) without crossing, so it is not an extreme point. Answer: \\(2\\).",
+   "explain_vi": "Đáp án a. \\(f'\\) chỉ đổi dấu tại \\(x=1\\), \\(x=3\\); tại <b class=\"mbl-term\" tabindex=\"0\" data-en=\"double root (repeated root)\">nghiệm kép</b> \\(x=-3\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> \\(f'\\) chạm \\(Ox\\) mà không cắt nên không là điểm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"extremum\">cực trị</b>. Đáp số: \\(2\\).",
+   "images": [
+    "img/tex/d6c6cf2d7c1d4f9a.svg"
+   ],
+   "id": "adac580d9071",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "G",
+   "type": "mcq",
+   "form": "The figure shows the graph of \\(y=f'(x)\\). On which interval is \\(f\\) decreasing?",
+   "en": "The figure shows the graph of \\(y=f'(x)\\). On which interval is \\(f\\) decreasing?<img src=\"../../../img/tex/b94b4eaf7f258b4a.svg\" alt=\"Graph of f&#x27;\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,330px);height:auto\">",
+   "vi": "Hình vẽ là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(y=f'(x)\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">Hàm số</b> \\(f\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"decreasing\">nghịch biến</b> trên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"interval\">khoảng</b> nào?<img src=\"../../../img/tex/b94b4eaf7f258b4a.svg\" alt=\"Đồ thị của f&#x27;\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,330px);height:auto\">",
+   "options": [
+    "\\((0;\\,2)\\)",
+    "\\((-\\infty;\\,-2)\\)",
+    "\\((-2;\\,2)\\)",
+    "\\((2;\\,+\\infty)\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(f\\) decreases where the graph of \\(f'\\) lies below \\(Ox\\): on \\(\\((-2;\\,0)\\), \\((2;\\,+\\infty)\\)\\).",
+   "explain_vi": "Đáp án d. \\(f\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"decreasing\">nghịch biến</b> khi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> \\(f'\\) nằm dưới \\(Ox\\): trên \\((-2;\\,0)\\), \\((2;\\,+\\infty)\\).",
+   "images": [
+    "img/tex/b94b4eaf7f258b4a.svg"
+   ],
+   "id": "2c5e33022157",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "G",
+   "type": "mcq",
+   "form": "The figure shows the graph of \\(y=f(x)\\). On which interval is \\(f\\) increasing?",
+   "en": "The figure shows the graph of \\(y=f(x)\\). On which interval is \\(f\\) increasing?<img src=\"../../../img/tex/5d9f64c7e21cb65f.svg\" alt=\"Graph of f\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,320px);height:auto\">",
+   "vi": "Hình vẽ là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(y=f(x)\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"increasing function\">Hàm số đồng biến</b> trên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"interval\">khoảng</b> nào?<img src=\"../../../img/tex/5d9f64c7e21cb65f.svg\" alt=\"Đồ thị của f\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,320px);height:auto\">",
+   "options": [
+    "\\((2;\\,+\\infty)\\)",
+    "\\((-\\infty;\\,0)\\)",
+    "\\((0;\\,2)\\)",
+    "\\((-\\infty;\\,2)\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The graph goes up (from left to right) on \\((0;\\,2)\\). Read intervals on \\(Ox\\), not values on \\(Oy\\).",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">Đồ thị</b> đi lên (từ trái sang phải) trên \\((0;\\,2)\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"interval\">Khoảng</b> đọc trên trục \\(Ox\\), không phải giá trị trên \\(Oy\\).",
+   "images": [
+    "img/tex/5d9f64c7e21cb65f.svg"
+   ],
+   "id": "59e6671f87a0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "G",
+   "type": "mcq",
+   "form": "The function \\(y=\\dfrac{\\ln x}{x}\\) has a local maximum at…",
+   "en": "The function \\(y=\\dfrac{\\ln x}{x}\\) has a local maximum at…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">Hàm số</b> \\(y=\\dfrac{\\ln x}{x}\\) đạt <b class=\"mbl-term\" tabindex=\"0\" data-en=\"local maximum\">cực đại</b> tại",
+   "options": [
+    "\\(x=e\\)",
+    "\\(x=e^2\\)",
+    "\\(x=1\\)",
+    "\\(x=\\dfrac1e\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(y'=\\dfrac{1-\\ln x}{x^2}\\); it changes sign from \\(+\\) to \\(-\\) at \\(x=e\\).",
+   "explain_vi": "Đáp án a. \\(y'=\\dfrac{1-\\ln x}{x^2}\\); đổi dấu từ \\(+\\) sang \\(-\\) tại \\(x=e\\).",
+   "images": [],
+   "id": "258f86e8c9e6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "G",
+   "type": "mcq",
+   "form": "The number of products sold (hundreds) after \\(t\\) months is \\(S(t)=-t^#+#t^#+#\\), \\(#\\le t\\le#\\). During which period are the sales increasing?",
+   "en": "The number of products sold (hundreds) after \\(t\\) months is \\(S(t)=-t^3+12t^2+50\\), \\(0\\le t\\le10\\). During which period are the sales increasing?",
+   "vi": "Số sản phẩm bán được (trăm sản phẩm) sau \\(t\\) tháng là \\(S(t)=-t^3+12t^2+50\\), \\(0\\le t\\le10\\). Trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"interval\">khoảng</b> thời gian nào số sản phẩm bán ra tăng?",
+   "options": [
+    "\\((0;\\,8)\\)",
+    "\\((8;\\,10)\\)",
+    "\\((0;\\,4)\\)",
+    "\\((0;\\,10)\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(S'(t)=-3t^2+24t=3t(8-t)\\gt0\\Leftrightarrow0\\lt t\\lt8\\).",
+   "explain_vi": "Đáp án a. \\(S'(t)=-3t^2+24t=3t(8-t)\\gt0\\Leftrightarrow0\\lt t\\lt8\\).",
+   "images": [],
+   "id": "dd0e9e782257",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "G",
+   "type": "mcq",
+   "form": "The variation table of \\(y=f(x)\\) is shown. What is the local maximum value of \\(f\\)?",
+   "en": "The variation table of \\(y=f(x)\\) is shown. What is the local maximum value of \\(f\\)?<img src=\"../../../img/tex/b4b776858923c1d1.svg\" alt=\"Variation table\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,460px);height:auto\">",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"variation table\">bảng biến thiên</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(y=f(x)\\). Giá trị <b class=\"mbl-term\" tabindex=\"0\" data-en=\"local maximum\">cực đại</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> là<img src=\"../../../img/tex/b4b776858923c1d1.svg\" alt=\"Bảng biến thiên\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,460px);height:auto\">",
+   "options": [
+    "\\(3\\)",
+    "\\(1\\)",
+    "\\(-7\\)",
+    "\\(-3\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. The local maximum is the value at the top of the \"peak\": \\(f(3)=-3\\) (not the point \\(x=3\\)).",
+   "explain_vi": "Đáp án d. Giá trị <b class=\"mbl-term\" tabindex=\"0\" data-en=\"local maximum\">cực đại</b> là giá trị ở \"đỉnh\": \\(f(3)=-3\\) (không phải điểm \\(x=3\\)).",
+   "images": [
+    "img/tex/b4b776858923c1d1.svg"
+   ],
+   "id": "3ddb54bac89d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "G",
+   "type": "mcq",
+   "form": "Which function is increasing on \\(\\mathbb R\\)?",
+   "en": "Which function is increasing on \\(\\mathbb R\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">Hàm số</b> nào <b class=\"mbl-term\" tabindex=\"0\" data-en=\"increasing\">đồng biến</b> trên \\(\\mathbb R\\)?",
+   "options": [
+    "\\(y=x+\\dfrac1x\\)",
+    "\\(y=-x^3+x\\)",
+    "\\(y=x^3-3x\\)",
+    "\\(y=x-\\sin x\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(y=x-\\sin x\\): \\(y'=1-\\cos x\\ge0\\) (equal to 0 only at isolated points). The others are not defined on all of \\(\\mathbb R\\) or have \\(y'\\lt0\\) somewhere.",
+   "explain_vi": "Đáp án d. \\(y=x-\\sin x\\): \\(y'=1-\\cos x\\ge0\\) (chỉ bằng 0 tại các điểm rời rạc). Các hàm còn lại không xác định trên \\(\\mathbb R\\) hoặc có \\(y'\\lt0\\) ở đâu đó.",
+   "images": [],
+   "id": "1c7506c9a148",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Let \\(f'(x)=(x-#)(x+#)^#\\). On which interval is \\(f\\) increasing?",
+   "en": "Let \\(f'(x)=(x-2)(x+1)^2\\). On which interval is \\(f\\) increasing?",
+   "vi": "Cho \\(f'(x)=(x-2)(x+1)^2\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"increasing function\">Hàm số đồng biến</b> trên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"interval\">khoảng</b> nào?",
+   "options": [
+    "\\((-\\infty,2)\\)",
+    "\\((2,+\\infty)\\)",
+    "\\((-1,2)\\)",
+    "\\((-\\infty,-1)\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\((x+1)^2\\ge0\\), so \\(f'>0\\) exactly when \\(x>2\\).",
+   "explain_vi": "Đáp án b. \\((x+1)^2\\ge0\\) nên \\(f'>0\\) đúng khi \\(x>2\\).",
+   "images": [],
+   "id": "0166c8c2a400",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Let \\(f(x)=\\dfrac{x-#}{x+#}\\). On which interval is \\(f\\) increasing?",
+   "en": "Let \\(f(x)=\\dfrac{x-3}{x+2}\\). On which interval is \\(f\\) increasing?",
+   "vi": "Cho \\(f(x)=\\dfrac{x-3}{x+2}\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"increasing function\">Hàm số đồng biến</b> trên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"interval\">khoảng</b> nào?",
+   "options": [
+    "\\((-3,0)\\)",
+    "\\((-4,-1)\\)",
+    "\\((-\\infty,-1)\\)",
+    "\\((-2,3)\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(f'(x)=\\dfrac{5}{(x+2)^2}>0\\) for \\(x\\ne-2\\), but an interval must not contain \\(-2\\). Only \\((-2,3)\\) qualifies.",
+   "explain_vi": "Đáp án d. \\(f'(x)=\\dfrac{5}{(x+2)^2}>0\\) với \\(x\\ne-2\\), nhưng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"interval\">khoảng</b> không được chứa \\(-2\\). Chỉ có \\((-2,3)\\) thỏa mãn.",
+   "images": [],
+   "id": "6ac505302cc9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "On which interval is \\(f(x)=-x^#+#x\\) increasing?",
+   "en": "On which interval is \\(f(x)=-x^2+6x\\) increasing?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">Hàm số</b> \\(f(x)=-x^2+6x\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"increasing\">đồng biến</b> trên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"interval\">khoảng</b> nào?",
+   "options": [
+    "\\((3,+\\infty)\\)",
+    "\\((0,6)\\)",
+    "\\((-\\infty,3)\\)",
+    "\\((-\\infty,6)\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(f'(x)=-2x+6>0\\) when \\(x\\lt 3\\).",
+   "explain_vi": "Đáp án c. \\(f'(x)=-2x+6>0\\) khi \\(x\\lt 3\\).",
+   "images": [],
+   "id": "9003c263f950",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "On which interval is \\(f(x)=x^#-#x\\) decreasing?",
+   "en": "On which interval is \\(f(x)=x^3-12x\\) decreasing?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">Hàm số</b> \\(f(x)=x^3-12x\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"decreasing\">nghịch biến</b> trên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"interval\">khoảng</b> nào?",
+   "options": [
+    "\\((-2,2)\\)",
+    "\\((-\\infty,-2)\\)",
+    "\\((2,+\\infty)\\)",
+    "\\(\\mathbb{R}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(f'(x)=3x^2-12\\lt 0\\) exactly when \\(-2\\lt x\\lt 2\\).",
+   "explain_vi": "Đáp án a. \\(f'(x)=3x^2-12\\lt 0\\) đúng khi \\(-2\\lt x\\lt 2\\).",
+   "images": [],
+   "id": "850675f64042",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "True or false: \\(f(x)=-\\dfrac#x\\) is increasing on its whole domain \\(\\mathbb{R}\\setminus\\{#\\}\\).",
+   "en": "True or false: \\(f(x)=-\\dfrac1x\\) is increasing on its whole domain \\(\\mathbb{R}\\setminus\\{0\\}\\).",
+   "vi": "Đúng hay sai: \\(f(x)=-\\dfrac1x\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"increasing\">đồng biến</b> trên toàn bộ <b class=\"mbl-term\" tabindex=\"0\" data-en=\"domain\">tập xác định</b> \\(\\mathbb{R}\\setminus\\{0\\}\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. It is increasing on \\((-\\infty,0)\\) and on \\((0,+\\infty)\\) separately. But \\(-1\\lt 1\\) while \\(f(-1)=1>f(1)=-1\\).",
+   "explain_vi": "Sai. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"increasing function\">Hàm số đồng biến</b> trên từng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"interval\">khoảng</b> \\((-\\infty,0)\\) và \\((0,+\\infty)\\). Nhưng \\(-1\\lt 1\\) mà \\(f(-1)=1>f(1)=-1\\).",
+   "images": [],
+   "id": "7e96de8905eb",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "True or false: if \\(f'(x)\\lt #\\) on \\((a,b)\\), then \\(f\\) is decreasing on \\((a,b)\\).",
+   "en": "True or false: if \\(f'(x)\\lt 0\\) on \\((a,b)\\), then \\(f\\) is decreasing on \\((a,b)\\).",
+   "vi": "Đúng hay sai: nếu \\(f'(x)\\lt 0\\) trên \\((a,b)\\) thì \\(f\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"decreasing\">nghịch biến</b> trên \\((a,b)\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. This is the derivative test.",
+   "explain_vi": "Đúng. Đây là định lí về dấu của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"derivative\">đạo hàm</b>.",
+   "images": [],
+   "id": "dc7ae5f3b27f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "Find the smallest integer \\(m\\) such that \\(f(x)=\\dfrac{mx+#}{x+#}\\) is increasing on each interval of its domain.",
+   "en": "Find the smallest integer \\(m\\) such that \\(f(x)=\\dfrac{mx+4}{x+2}\\) is increasing on each interval of its domain.",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"integers\">số nguyên</b> \\(m\\) nhỏ nhất để \\(f(x)=\\dfrac{mx+4}{x+2}\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"increasing\">đồng biến</b> trên từng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"interval\">khoảng</b> xác định.",
+   "options": [],
+   "answer": "3",
+   "explain_en": "Answer: 3. \\(f'(x)=\\dfrac{2m-4}{(x+2)^2}>0\\) exactly when \\(m>2\\), so the smallest integer is 3.",
+   "explain_vi": "Đáp án: 3. \\(f'(x)=\\dfrac{2m-4}{(x+2)^2}>0\\) đúng khi \\(m>2\\), nên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"integers\">số nguyên</b> nhỏ nhất là 3.",
+   "images": [],
+   "id": "fbd8f9646cb1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "Find the smallest integer \\(m\\) such that \\(f(x)=x^#+#x^#+mx\\) is increasing on \\(\\mathbb{R}\\).",
+   "en": "Find the smallest integer \\(m\\) such that \\(f(x)=x^3+6x^2+mx\\) is increasing on \\(\\mathbb{R}\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"integers\">số nguyên</b> \\(m\\) nhỏ nhất để \\(f(x)=x^3+6x^2+mx\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"increasing\">đồng biến</b> trên \\(\\mathbb{R}\\).",
+   "options": [],
+   "answer": "12",
+   "explain_en": "Answer: 12. \\(f'(x)=3x^2+12x+m\\). We need \\(\\Delta'=36-3m\\le0\\), so \\(m\\ge12\\).",
+   "explain_vi": "Đáp án: 12. \\(f'(x)=3x^2+12x+m\\). Cần \\(\\Delta'=36-3m\\le0\\) nên \\(m\\ge12\\).",
+   "images": [],
+   "id": "8d3bf318e6b0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "How many solutions does \\(f'(x)=#\\) have for \\(f(x)=x^#-#x^#\\)?",
+   "en": "How many solutions does \\(f'(x)=0\\) have for \\(f(x)=x^3-3x^2\\)?",
+   "vi": "Với \\(f(x)=x^3-3x^2\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(f'(x)=0\\) có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b>?",
+   "options": [],
+   "answer": "2",
+   "explain_en": "Answer: 2. \\(f'(x)=3x^2-6x=3x(x-2)\\), so \\(x=0\\) or \\(x=2\\).",
+   "explain_vi": "Đáp án: 2. \\(f'(x)=3x^2-6x=3x(x-2)\\) nên \\(x=0\\) hoặc \\(x=2\\).",
+   "images": [],
+   "id": "f0e056900e07",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "Write the interval on which \\(f(x)=x^#-#x+#\\) is decreasing.",
+   "en": "Write the interval on which \\(f(x)=x^2-8x+3\\) is decreasing.",
+   "vi": "Viết <b class=\"mbl-term\" tabindex=\"0\" data-en=\"interval\">khoảng</b> mà <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(f(x)=x^2-8x+3\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"decreasing\">nghịch biến</b>.",
+   "options": [],
+   "answer": "(-inf,4)|(-inf,4]",
+   "explain_en": "Answer: \\((-\\infty,4)\\). \\(f'(x)=2x-8\\lt 0\\) when \\(x\\lt 4\\).",
+   "explain_vi": "Đáp án: \\((-\\infty,4)\\). \\(f'(x)=2x-8\\lt 0\\) khi \\(x\\lt 4\\).",
+   "images": [],
+   "id": "48369561c074",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "At which \\(x\\) does \\(f(x)=-x^#+#x\\) have a local maximum?",
+   "en": "At which \\(x\\) does \\(f(x)=-x^3+12x\\) have a local maximum?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">Hàm số</b> \\(f(x)=-x^3+12x\\) đạt <b class=\"mbl-term\" tabindex=\"0\" data-en=\"local maximum\">cực đại</b> tại \\(x\\) bằng bao nhiêu?",
+   "options": [
+    "\\(x=2\\)",
+    "\\(x=-2\\)",
+    "\\(x=0\\)",
+    "\\(x=12\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(f'(x)=-3x^2+12=0\\) at \\(x=\\pm2\\), and \\(f''(2)=-12\\lt 0\\).",
+   "explain_vi": "Đáp án a. \\(f'(x)=-3x^2+12=0\\) tại \\(x=\\pm2\\), và \\(f''(2)=-12\\lt 0\\).",
+   "images": [],
+   "id": "70436a2d8b53",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "At which \\(x\\) does \\(f(x)=x^#-#x+#\\) have a local minimum?",
+   "en": "At which \\(x\\) does \\(f(x)=x^2-6x+2\\) have a local minimum?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">Hàm số</b> \\(f(x)=x^2-6x+2\\) đạt <b class=\"mbl-term\" tabindex=\"0\" data-en=\"local minimum\">cực tiểu</b> tại \\(x\\) bằng bao nhiêu?",
+   "options": [
+    "\\(x=6\\)",
+    "\\(x=-3\\)",
+    "\\(x=2\\)",
+    "\\(x=3\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(f'(x)=2x-6=0\\) at \\(x=3\\) and \\(f''=2>0\\).",
+   "explain_vi": "Đáp án d. \\(f'(x)=2x-6=0\\) tại \\(x=3\\) và \\(f''=2>0\\).",
+   "images": [],
+   "id": "47a10e0a09c9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Let \\(f'(x)=x^#(x-#)(x+#)(x-#)\\). How many extreme points does \\(f\\) have?",
+   "en": "Let \\(f'(x)=x^2(x-1)(x+2)(x-3)\\). How many extreme points does \\(f\\) have?",
+   "vi": "Cho \\(f'(x)=x^2(x-1)(x+2)(x-3)\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">Hàm số</b> \\(f\\) có bao nhiêu điểm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"extremum\">cực trị</b>?",
+   "options": [
+    "\\(1\\)",
+    "\\(2\\)",
+    "\\(3\\)",
+    "\\(4\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(f'\\) changes sign at \\(x=1\\), \\(x=-2\\) and \\(x=3\\), but not at \\(x=0\\) because \\(x^2\\ge0\\).",
+   "explain_vi": "Đáp án c. \\(f'\\) đổi dấu tại \\(x=1\\), \\(x=-2\\) và \\(x=3\\), nhưng không đổi dấu tại \\(x=0\\) vì \\(x^2\\ge0\\).",
+   "images": [],
+   "id": "9378cb126910",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "E",
+   "type": "tf",
+   "form": "True or false: \\(f(x)=-x^#\\) has a local maximum at \\(x=#\\) even though \\(f''(#)=#\\).",
+   "en": "True or false: \\(f(x)=-x^4\\) has a local maximum at \\(x=0\\) even though \\(f''(0)=0\\).",
+   "vi": "Đúng hay sai: \\(f(x)=-x^4\\) đạt <b class=\"mbl-term\" tabindex=\"0\" data-en=\"local maximum\">cực đại</b> tại \\(x=0\\) dù \\(f''(0)=0\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. \\(f'(x)=-4x^3\\) changes from positive to negative at 0. The second derivative test simply fails here.",
+   "explain_vi": "Đúng. \\(f'(x)=-4x^3\\) đổi dấu từ dương sang âm tại 0. Điều kiện đủ thứ hai không <b class=\"mbl-term\" tabindex=\"0\" data-en=\"conclusion\">kết luận</b> được ở đây.",
+   "images": [],
+   "id": "16c4a3d35d44",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "E",
+   "type": "tf",
+   "form": "True or false: \\(f(x)=|x-#|\\) has a local minimum at \\(x=#\\), although \\(f'(#)\\) does not exist.",
+   "en": "True or false: \\(f(x)=|x-1|\\) has a local minimum at \\(x=1\\), although \\(f'(1)\\) does not exist.",
+   "vi": "Đúng hay sai: \\(f(x)=|x-1|\\) đạt <b class=\"mbl-term\" tabindex=\"0\" data-en=\"local minimum\">cực tiểu</b> tại \\(x=1\\) dù không tồn tại \\(f'(1)\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. \\(f(x)\\ge0=f(1)\\) near 1, and \\(f'\\) changes from \\(-1\\) to \\(1\\).",
+   "explain_vi": "Đúng. \\(f(x)\\ge0=f(1)\\) gần 1, và \\(f'\\) đổi từ \\(-1\\) sang \\(1\\).",
+   "images": [],
+   "id": "08da8d2c3ad5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "E",
+   "type": "tf",
+   "form": "True or false: if \\(f'(x_#)=#\\) and \\(f''(x_#)=#\\), then \\(x_#\\) is never an extreme point.",
+   "en": "True or false: if \\(f'(x_0)=0\\) and \\(f''(x_0)=0\\), then \\(x_0\\) is never an extreme point.",
+   "vi": "Đúng hay sai: nếu \\(f'(x_0)=0\\) và \\(f''(x_0)=0\\) thì \\(x_0\\) không bao giờ là điểm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"extremum\">cực trị</b>.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. For \\(f(x)=x^4\\), \\(f'(0)=f''(0)=0\\) but \\(x=0\\) is a local minimum.",
+   "explain_vi": "Sai. Với \\(f(x)=x^4\\), \\(f'(0)=f''(0)=0\\) nhưng \\(x=0\\) là điểm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"local minimum\">cực tiểu</b>.",
+   "images": [],
+   "id": "fc484d7a580f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "F",
+   "type": "short",
+   "form": "Find the largest integer \\(m\\) such that \\(f(x)=x^#-#x^#+mx\\) has two extreme points.",
+   "en": "Find the largest integer \\(m\\) such that \\(f(x)=x^3-6x^2+mx\\) has two extreme points.",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"integers\">số nguyên</b> \\(m\\) lớn nhất để \\(f(x)=x^3-6x^2+mx\\) có hai điểm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"extremum\">cực trị</b>.",
+   "options": [],
+   "answer": "11",
+   "explain_en": "Answer: 11. \\(f'(x)=3x^2-12x+m\\). We need \\(\\Delta'=36-3m>0\\), so \\(m\\lt 12\\).",
+   "explain_vi": "Đáp án: 11. \\(f'(x)=3x^2-12x+m\\). Cần \\(\\Delta'=36-3m>0\\) nên \\(m\\lt 12\\).",
+   "images": [],
+   "id": "fded6d2eb17a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "F",
+   "type": "short",
+   "form": "Find the local minimum value of \\(f(x)=#x+\\dfrac#x\\) for \\(x>#\\).",
+   "en": "Find the local minimum value of \\(f(x)=2x+\\dfrac8x\\) for \\(x>0\\).",
+   "vi": "Tìm giá trị <b class=\"mbl-term\" tabindex=\"0\" data-en=\"local minimum\">cực tiểu</b> của \\(f(x)=2x+\\dfrac8x\\) với \\(x>0\\).",
+   "options": [],
+   "answer": "8",
+   "explain_en": "Answer: 8. \\(f'(x)=2-\\dfrac8{x^2}=0\\) at \\(x=2\\), \\(f''(2)=2>0\\), and \\(f(2)=4+4=8\\).",
+   "explain_vi": "Đáp án: 8. \\(f'(x)=2-\\dfrac8{x^2}=0\\) tại \\(x=2\\), \\(f''(2)=2>0\\) và \\(f(2)=4+4=8\\).",
+   "images": [],
+   "id": "53885f07bd12",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "F",
+   "type": "short",
+   "form": "Find the local minimum value of \\(f(x)=x^#-#x\\).",
+   "en": "Find the local minimum value of \\(f(x)=x^3-12x\\).",
+   "vi": "Tìm giá trị <b class=\"mbl-term\" tabindex=\"0\" data-en=\"local minimum\">cực tiểu</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(f(x)=x^3-12x\\).",
+   "options": [],
+   "answer": "-16",
+   "explain_en": "Answer: \\(-16\\). The local minimum is at \\(x=2\\): \\(f(2)=8-24=-16\\).",
+   "explain_vi": "Đáp án: \\(-16\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"local minimum\">Cực tiểu</b> tại \\(x=2\\): \\(f(2)=8-24=-16\\).",
+   "images": [],
+   "id": "e5e03598ebb5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "F",
+   "type": "short",
+   "form": "How many extreme points does \\(f(x)=x^#+#x^#\\) have?",
+   "en": "How many extreme points does \\(f(x)=x^4+4x^2\\) have?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">Hàm số</b> \\(f(x)=x^4+4x^2\\) có bao nhiêu điểm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"extremum\">cực trị</b>?",
+   "options": [],
+   "answer": "1",
+   "explain_en": "Answer: 1. \\(f'(x)=4x^3+8x=4x(x^2+2)\\) is zero only at \\(x=0\\), and \\(f'\\) changes from negative to positive there.",
+   "explain_vi": "Đáp án: 1. \\(f'(x)=4x^3+8x=4x(x^2+2)\\) chỉ bằng 0 tại \\(x=0\\), và \\(f'\\) đổi dấu từ âm sang dương tại đó.",
+   "images": [],
+   "id": "33e0c59a8a8c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "G",
+   "type": "mcq",
+   "form": "Below is the graph of the derivative \\(f'\\). The function \\(f\\) decreases on which interval?",
+   "en": "Below is the graph of the derivative \\(f'\\). The function \\(f\\) decreases on which interval?<img src=\"../../../img/tex/b94b4eaf7f258b4a.svg\" alt=\"Graph of f&#x27;\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,330px);height:auto\">",
+   "vi": "Dưới đây là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"derivative\">đạo hàm</b> \\(f'\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">Hàm số</b> \\(f\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"decreasing\">nghịch biến</b> trên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"interval\">khoảng</b> nào sau đây?<img src=\"../../../img/tex/b94b4eaf7f258b4a.svg\" alt=\"Đồ thị của f&#x27;\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,330px);height:auto\">",
+   "options": [
+    "\\((-\\infty;\\,-2)\\)",
+    "\\((0;\\,2)\\)",
+    "\\((-2;\\,0)\\)",
+    "\\((-2;\\,2)\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(f\\) decreases where the graph of \\(f'\\) lies below \\(Ox\\): on \\(\\((-2;\\,0)\\), \\((2;\\,+\\infty)\\)\\).",
+   "explain_vi": "Đáp án c. \\(f\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"decreasing\">nghịch biến</b> khi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> \\(f'\\) nằm dưới \\(Ox\\): trên \\((-2;\\,0)\\), \\((2;\\,+\\infty)\\).",
+   "images": [
+    "img/tex/b94b4eaf7f258b4a.svg"
+   ],
+   "id": "2d21f297daaf",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "G",
+   "type": "mcq",
+   "form": "Exactly one function below is increasing on the whole of \\(\\mathbb R\\). Which one?",
+   "en": "Exactly one function below is increasing on the whole of \\(\\mathbb R\\). Which one?",
+   "vi": "Chỉ có một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> dưới đây <b class=\"mbl-term\" tabindex=\"0\" data-en=\"increasing\">đồng biến</b> trên cả \\(\\mathbb R\\). Đó là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> nào?",
+   "options": [
+    "\\(y=2x+\\cos x\\)",
+    "\\(y=\\sqrt{x^2+1}\\)",
+    "\\(y=e^{-x}\\)",
+    "\\(y=x^3-3x\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(y=2x+\\cos x\\): \\(y'=2-\\sin x\\gt0\\) (equal to 0 only at isolated points). The others are not defined on all of \\(\\mathbb R\\) or have \\(y'\\lt0\\) somewhere.",
+   "explain_vi": "Đáp án a. \\(y=2x+\\cos x\\): \\(y'=2-\\sin x\\gt0\\) (chỉ bằng 0 tại các điểm rời rạc). Các hàm còn lại không xác định trên \\(\\mathbb R\\) hoặc có \\(y'\\lt0\\) ở đâu đó.",
+   "images": [],
+   "id": "a3a30f6f51c3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "G",
+   "type": "mcq",
+   "form": "Find \\(m\\) so that \\(f(x)=x^#-#mx^#+#(m^#-#)x\\) has a local maximum at \\(x=#\\).",
+   "en": "Find \\(m\\) so that \\(f(x)=x^3-3mx^2+3(m^2-1)x\\) has a local maximum at \\(x=2\\).",
+   "vi": "Tìm \\(m\\) để <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(f(x)=x^3-3mx^2+3(m^2-1)x\\) đạt <b class=\"mbl-term\" tabindex=\"0\" data-en=\"local maximum\">cực đại</b> tại \\(x=2\\).",
+   "options": [
+    "\\(3\\)",
+    "\\(2\\)",
+    "\\(-3\\)",
+    "\\(1\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(f'(x)=3(x-m+1)(x-m-1)\\): local maximum at \\(x=m-1\\), local minimum at \\(x=m+1\\). So \\(m-1=2\\Rightarrow m=3\\) (check: \\(f''(2)\\lt0\\)).",
+   "explain_vi": "Đáp án a. \\(f'(x)=3(x-m+1)(x-m-1)\\): <b class=\"mbl-term\" tabindex=\"0\" data-en=\"local maximum\">cực đại</b> tại \\(x=m-1\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"local minimum\">cực tiểu</b> tại \\(x=m+1\\). Vậy \\(m-1=2\\Rightarrow m=3\\) (thử lại: \\(f''(2)\\lt0\\)).",
+   "images": [],
+   "id": "71e83cc08389",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "G",
+   "type": "mcq",
+   "form": "Here is the variation table of \\(y=f(x)\\). The function has a local minimum at…",
+   "en": "Here is the variation table of \\(y=f(x)\\). The function has a local minimum at…<img src=\"../../../img/tex/d7d1f456fce171f4.svg\" alt=\"Variation table\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,460px);height:auto\">",
+   "vi": "Dưới đây là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"variation table\">bảng biến thiên</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(y=f(x)\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">Hàm số</b> đạt <b class=\"mbl-term\" tabindex=\"0\" data-en=\"local minimum\">cực tiểu</b> tại<img src=\"../../../img/tex/d7d1f456fce171f4.svg\" alt=\"Bảng biến thiên\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,460px);height:auto\">",
+   "options": [
+    "\\(x=8\\)",
+    "\\(x=1\\)",
+    "\\(x=3\\)",
+    "\\(x=-3\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(f'\\) changes from \\(-\\) to \\(+\\) at \\(x=3\\): local minimum there (value \\(-3\\)).",
+   "explain_vi": "Đáp án c. \\(f'\\) đổi dấu từ \\(-\\) sang \\(+\\) tại \\(x=3\\): <b class=\"mbl-term\" tabindex=\"0\" data-en=\"local minimum\">cực tiểu</b> tại đó (giá trị \\(-3\\)).",
+   "images": [
+    "img/tex/d7d1f456fce171f4.svg"
+   ],
+   "id": "53c253da8368",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "G",
+   "type": "mcq",
+   "form": "The figure below shows the graph of \\(y=f'(x)\\). At which point does \\(f\\) have a local maximum?",
+   "en": "The figure below shows the graph of \\(y=f'(x)\\). At which point does \\(f\\) have a local maximum?<img src=\"../../../img/tex/54ba50d57223f1a2.svg\" alt=\"Graph of f&#x27;\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,330px);height:auto\">",
+   "vi": "Hình vẽ dưới đây là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> của \\(y=f'(x)\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">Hàm số</b> \\(f\\) đạt <b class=\"mbl-term\" tabindex=\"0\" data-en=\"local maximum\">cực đại</b> tại điểm nào?<img src=\"../../../img/tex/54ba50d57223f1a2.svg\" alt=\"Đồ thị của f&#x27;\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,330px);height:auto\">",
+   "options": [
+    "\\(x=4\\)",
+    "\\(x=2\\)",
+    "\\(x=-3\\)",
+    "\\(x=0\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Local maximum where \\(f'\\) changes from \\(+\\) to \\(-\\): \\(x=0\\).",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"local maximum\">Cực đại</b> tại điểm \\(f'\\) đổi dấu từ \\(+\\) sang \\(-\\): \\(x=0\\).",
+   "images": [
+    "img/tex/54ba50d57223f1a2.svg"
+   ],
+   "id": "f2f58d75d9ed",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "G",
+   "type": "mcq",
+   "form": "The figure below shows the graph of \\(y=f(x)\\). On which interval is \\(f\\) increasing?",
+   "en": "The figure below shows the graph of \\(y=f(x)\\). On which interval is \\(f\\) increasing?<img src=\"../../../img/tex/2fc43033754bd0b3.svg\" alt=\"Graph of f\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,320px);height:auto\">",
+   "vi": "Hình vẽ dưới đây là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(y=f(x)\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"increasing function\">Hàm số đồng biến</b> trên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"interval\">khoảng</b> nào?<img src=\"../../../img/tex/2fc43033754bd0b3.svg\" alt=\"Đồ thị của f\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,320px);height:auto\">",
+   "options": [
+    "\\((1;\\,3)\\)",
+    "\\((-\\infty;\\,3)\\)",
+    "\\((3;\\,+\\infty)\\)",
+    "\\((-\\infty;\\,1)\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. The graph goes up (from left to right) on \\((1;\\,3)\\). Read intervals on \\(Ox\\), not values on \\(Oy\\).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">Đồ thị</b> đi lên (từ trái sang phải) trên \\((1;\\,3)\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"interval\">Khoảng</b> đọc trên trục \\(Ox\\), không phải giá trị trên \\(Oy\\).",
+   "images": [
+    "img/tex/2fc43033754bd0b3.svg"
+   ],
+   "id": "ccda66059d39",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "G",
+   "type": "mcq",
+   "form": "The function \\(y=xe^{-x}\\) has a local maximum at…",
+   "en": "The function \\(y=xe^{-x}\\) has a local maximum at…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">Hàm số</b> \\(y=xe^{-x}\\) đạt <b class=\"mbl-term\" tabindex=\"0\" data-en=\"local maximum\">cực đại</b> tại",
+   "options": [
+    "\\(x=1\\)",
+    "\\(x=0\\)",
+    "\\(x=-1\\)",
+    "\\(x=e\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(y'=(1-x)e^{-x}\\); it changes sign from \\(+\\) to \\(-\\) at \\(x=1\\).",
+   "explain_vi": "Đáp án a. \\(y'=(1-x)e^{-x}\\); đổi dấu từ \\(+\\) sang \\(-\\) tại \\(x=1\\).",
+   "images": [],
+   "id": "1a46473fc7b2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "G",
+   "type": "mcq",
+   "form": "The number of products sold (hundreds) after \\(t\\) months is \\(S(t)=-t^#+#t^#+#\\), \\(#\\le t\\le#\\). During which period are the sales increasing?",
+   "en": "The number of products sold (hundreds) after \\(t\\) months is \\(S(t)=-t^3+15t^2+10\\), \\(0\\le t\\le14\\). During which period are the sales increasing?",
+   "vi": "Số sản phẩm bán được (trăm sản phẩm) sau \\(t\\) tháng là \\(S(t)=-t^3+15t^2+10\\), \\(0\\le t\\le14\\). Trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"interval\">khoảng</b> thời gian nào số sản phẩm bán ra tăng?",
+   "options": [
+    "\\((10;\\,14)\\)",
+    "\\((0;\\,5)\\)",
+    "\\((0;\\,10)\\)",
+    "\\((0;\\,14)\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(S'(t)=-3t^2+30t=3t(10-t)\\gt0\\Leftrightarrow0\\lt t\\lt10\\).",
+   "explain_vi": "Đáp án c. \\(S'(t)=-3t^2+30t=3t(10-t)\\gt0\\Leftrightarrow0\\lt t\\lt10\\).",
+   "images": [],
+   "id": "7f0f242a45c5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Let \\(f'(x)=(x-#)(x+#)^#\\). On which interval is \\(f\\) increasing?",
+   "en": "Let \\(f'(x)=(x-4)(x+3)^2\\). On which interval is \\(f\\) increasing?",
+   "vi": "Cho \\(f'(x)=(x-4)(x+3)^2\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"increasing function\">Hàm số đồng biến</b> trên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"interval\">khoảng</b> nào?",
+   "options": [
+    "\\((4,+\\infty)\\)",
+    "\\((-3,4)\\)",
+    "\\((-\\infty,4)\\)",
+    "\\((-\\infty,-3)\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\((x+3)^2\\ge0\\), so \\(f'>0\\) exactly when \\(x>4\\).",
+   "explain_vi": "Đáp án a. \\((x+3)^2\\ge0\\) nên \\(f'>0\\) đúng khi \\(x>4\\).",
+   "images": [],
+   "id": "e5b2f46549a0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Let \\(f(x)=\\dfrac{#x-#}{x+#}\\). On which interval is \\(f\\) increasing?",
+   "en": "Let \\(f(x)=\\dfrac{2x-1}{x+1}\\). On which interval is \\(f\\) increasing?",
+   "vi": "Cho \\(f(x)=\\dfrac{2x-1}{x+1}\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"increasing function\">Hàm số đồng biến</b> trên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"interval\">khoảng</b> nào?",
+   "options": [
+    "\\((-2,2)\\)",
+    "\\((-3,0)\\)",
+    "\\((-1,4)\\)",
+    "\\((-\\infty,0)\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(f'(x)=\\dfrac{3}{(x+1)^2}>0\\) for \\(x\\ne-1\\), but an interval must not contain \\(-1\\). Only \\((-1,4)\\) qualifies.",
+   "explain_vi": "Đáp án c. \\(f'(x)=\\dfrac{3}{(x+1)^2}>0\\) với \\(x\\ne-1\\), nhưng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"interval\">khoảng</b> không được chứa \\(-1\\). Chỉ có \\((-1,4)\\) thỏa mãn.",
+   "images": [],
+   "id": "52c2009ed5e9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "On which interval is \\(f(x)=-x^#-#x\\) increasing?",
+   "en": "On which interval is \\(f(x)=-x^2-4x\\) increasing?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">Hàm số</b> \\(f(x)=-x^2-4x\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"increasing\">đồng biến</b> trên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"interval\">khoảng</b> nào?",
+   "options": [
+    "\\((-2,+\\infty)\\)",
+    "\\((-3,-1)\\)",
+    "\\((-4,0)\\)",
+    "\\((-\\infty,-2)\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(f'(x)=-2x-4>0\\) when \\(x\\lt -2\\).",
+   "explain_vi": "Đáp án d. \\(f'(x)=-2x-4>0\\) khi \\(x\\lt -2\\).",
+   "images": [],
+   "id": "2f4698158ba6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "On which interval is \\(f(x)=x^#-#x^#\\) decreasing?",
+   "en": "On which interval is \\(f(x)=x^3-3x^2\\) decreasing?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">Hàm số</b> \\(f(x)=x^3-3x^2\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"decreasing\">nghịch biến</b> trên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"interval\">khoảng</b> nào?",
+   "options": [
+    "\\((-\\infty,0)\\)",
+    "\\((0,2)\\)",
+    "\\((2,+\\infty)\\)",
+    "\\((-2,0)\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(f'(x)=3x(x-2)\\lt 0\\) exactly when \\(0\\lt x\\lt 2\\).",
+   "explain_vi": "Đáp án b. \\(f'(x)=3x(x-2)\\lt 0\\) đúng khi \\(0\\lt x\\lt 2\\).",
+   "images": [],
+   "id": "a40d92e69172",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "True or false: \\(f(x)=\\dfrac{x+#}{x-#}\\) is decreasing on its whole domain \\(\\mathbb{R}\\setminus\\{#\\}\\).",
+   "en": "True or false: \\(f(x)=\\dfrac{x+2}{x-1}\\) is decreasing on its whole domain \\(\\mathbb{R}\\setminus\\{1\\}\\).",
+   "vi": "Đúng hay sai: \\(f(x)=\\dfrac{x+2}{x-1}\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"decreasing\">nghịch biến</b> trên toàn bộ <b class=\"mbl-term\" tabindex=\"0\" data-en=\"domain\">tập xác định</b> \\(\\mathbb{R}\\setminus\\{1\\}\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. It is decreasing on \\((-\\infty,1)\\) and on \\((1,+\\infty)\\) separately. But \\(0\\lt 2\\) while \\(f(0)=-2\\lt f(2)=4\\).",
+   "explain_vi": "Sai. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"decreasing function\">Hàm số nghịch biến</b> trên từng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"interval\">khoảng</b> \\((-\\infty,1)\\) và \\((1,+\\infty)\\). Nhưng \\(0\\lt 2\\) mà \\(f(0)=-2\\lt f(2)=4\\).",
+   "images": [],
+   "id": "2e89fb6e6585",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "True or false: if \\(f'(x)>#\\) on \\((a,b)\\) and \\(a\\lt x_#\\lt x_#\\lt b\\), then \\(f(x_#)\\lt f(x_#)\\).",
+   "en": "True or false: if \\(f'(x)>0\\) on \\((a,b)\\) and \\(a\\lt x_1\\lt x_2\\lt b\\), then \\(f(x_1)\\lt f(x_2)\\).",
+   "vi": "Đúng hay sai: nếu \\(f'(x)>0\\) trên \\((a,b)\\) và \\(a\\lt x_1\\lt x_2\\lt b\\) thì \\(f(x_1)\\lt f(x_2)\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. By the derivative test, \\(f\\) is increasing on \\((a,b)\\).",
+   "explain_vi": "Đúng. Theo định lí về dấu của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"derivative\">đạo hàm</b>, \\(f\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"increasing\">đồng biến</b> trên \\((a,b)\\).",
+   "images": [],
+   "id": "970afd2045c6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Find the smallest integer \\(m\\) such that \\(f(x)=\\dfrac{mx+#}{x-#}\\) is decreasing on each interval of its domain.",
+   "en": "Find the smallest integer \\(m\\) such that \\(f(x)=\\dfrac{mx+3}{x-2}\\) is decreasing on each interval of its domain.",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"integers\">số nguyên</b> \\(m\\) nhỏ nhất để \\(f(x)=\\dfrac{mx+3}{x-2}\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"decreasing\">nghịch biến</b> trên từng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"interval\">khoảng</b> xác định.",
+   "options": [],
+   "answer": "-1",
+   "explain_en": "Answer: \\(-1\\). \\(f'(x)=\\dfrac{-2m-3}{(x-2)^2}\\lt 0\\) exactly when \\(m>-\\dfrac32\\), so the smallest integer is \\(-1\\).",
+   "explain_vi": "Đáp án: \\(-1\\). \\(f'(x)=\\dfrac{-2m-3}{(x-2)^2}\\lt 0\\) đúng khi \\(m>-\\dfrac32\\), nên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"integers\">số nguyên</b> nhỏ nhất là \\(-1\\).",
+   "images": [],
+   "id": "8021934def13",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Find the smallest integer \\(m\\) such that \\(f(x)=x^#+x^#+mx\\) is increasing on \\(\\mathbb{R}\\).",
+   "en": "Find the smallest integer \\(m\\) such that \\(f(x)=x^3+x^2+mx\\) is increasing on \\(\\mathbb{R}\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"integers\">số nguyên</b> \\(m\\) nhỏ nhất để \\(f(x)=x^3+x^2+mx\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"increasing\">đồng biến</b> trên \\(\\mathbb{R}\\).",
+   "options": [],
+   "answer": "1",
+   "explain_en": "Answer: 1. \\(f'(x)=3x^2+2x+m\\). We need \\(\\Delta'=1-3m\\le0\\), so \\(m\\ge\\dfrac13\\) and the smallest integer is 1.",
+   "explain_vi": "Đáp án: 1. \\(f'(x)=3x^2+2x+m\\). Cần \\(\\Delta'=1-3m\\le0\\) nên \\(m\\ge\\dfrac13\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"integers\">số nguyên</b> nhỏ nhất là 1.",
+   "images": [],
+   "id": "067e84b22a1c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "How many solutions does \\(f'(x)=#\\) have for \\(f(x)=x^#+#x^#\\)?",
+   "en": "How many solutions does \\(f'(x)=0\\) have for \\(f(x)=x^4+2x^2\\)?",
+   "vi": "Với \\(f(x)=x^4+2x^2\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(f'(x)=0\\) có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b>?",
+   "options": [],
+   "answer": "1",
+   "explain_en": "Answer: 1. \\(f'(x)=4x^3+4x=4x(x^2+1)\\), which is zero only at \\(x=0\\).",
+   "explain_vi": "Đáp án: 1. \\(f'(x)=4x^3+4x=4x(x^2+1)\\) chỉ bằng 0 tại \\(x=0\\).",
+   "images": [],
+   "id": "92f1785d7830",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Write the interval on which \\(f(x)=x^#-#x+#\\) is decreasing.",
+   "en": "Write the interval on which \\(f(x)=x^2-10x+7\\) is decreasing.",
+   "vi": "Viết <b class=\"mbl-term\" tabindex=\"0\" data-en=\"interval\">khoảng</b> mà <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(f(x)=x^2-10x+7\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"decreasing\">nghịch biến</b>.",
+   "options": [],
+   "answer": "(-inf,5)|(-inf,5]",
+   "explain_en": "Answer: \\((-\\infty,5)\\). \\(f'(x)=2x-10\\lt 0\\) when \\(x\\lt 5\\).",
+   "explain_vi": "Đáp án: \\((-\\infty,5)\\). \\(f'(x)=2x-10\\lt 0\\) khi \\(x\\lt 5\\).",
+   "images": [],
+   "id": "5096fcb54ea4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "At which \\(x\\) does \\(f(x)=x^#+#x-#\\) have a local minimum?",
+   "en": "At which \\(x\\) does \\(f(x)=x^2+2x-5\\) have a local minimum?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">Hàm số</b> \\(f(x)=x^2+2x-5\\) đạt <b class=\"mbl-term\" tabindex=\"0\" data-en=\"local minimum\">cực tiểu</b> tại \\(x\\) bằng bao nhiêu?",
+   "options": [
+    "\\(x=1\\)",
+    "\\(x=-2\\)",
+    "\\(x=-1\\)",
+    "\\(x=2\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(f'(x)=2x+2=0\\) at \\(x=-1\\) and \\(f''=2>0\\).",
+   "explain_vi": "Đáp án c. \\(f'(x)=2x+2=0\\) tại \\(x=-1\\) và \\(f''=2>0\\).",
+   "images": [],
+   "id": "f6d975b21462",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "At which \\(x\\) does \\(f(x)=x^#-#x\\) have a local maximum?",
+   "en": "At which \\(x\\) does \\(f(x)=x^3-12x\\) have a local maximum?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">Hàm số</b> \\(f(x)=x^3-12x\\) đạt <b class=\"mbl-term\" tabindex=\"0\" data-en=\"local maximum\">cực đại</b> tại \\(x\\) bằng bao nhiêu?",
+   "options": [
+    "\\(x=2\\)",
+    "\\(x=-2\\)",
+    "\\(x=0\\)",
+    "\\(x=4\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(f'(x)=3x^2-12=0\\) at \\(x=\\pm2\\), and \\(f''(-2)=-12\\lt 0\\).",
+   "explain_vi": "Đáp án b. \\(f'(x)=3x^2-12=0\\) tại \\(x=\\pm2\\), và \\(f''(-2)=-12\\lt 0\\).",
+   "images": [],
+   "id": "c1492ccf4455",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Let \\(f'(x)=(x-#)(x+#)^#(x-#)^#\\). How many extreme points does \\(f\\) have?",
+   "en": "Let \\(f'(x)=(x-5)(x+1)^2(x-2)^2\\). How many extreme points does \\(f\\) have?",
+   "vi": "Cho \\(f'(x)=(x-5)(x+1)^2(x-2)^2\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">Hàm số</b> \\(f\\) có bao nhiêu điểm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"extremum\">cực trị</b>?",
+   "options": [
+    "\\(1\\)",
+    "\\(2\\)",
+    "\\(3\\)",
+    "\\(4\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(f'\\) changes sign only at \\(x=5\\); at \\(x=-1\\) and \\(x=2\\) the squared factors do not change sign.",
+   "explain_vi": "Đáp án a. \\(f'\\) chỉ đổi dấu tại \\(x=5\\); tại \\(x=-1\\) và \\(x=2\\) các thừa số bình phương không đổi dấu.",
+   "images": [],
+   "id": "e54c08b130a7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "E",
+   "type": "tf",
+   "form": "True or false: \\(f(x)=(x-#)^#\\) has a local minimum at \\(x=#\\) even though \\(f''(#)=#\\).",
+   "en": "True or false: \\(f(x)=(x-1)^4\\) has a local minimum at \\(x=1\\) even though \\(f''(1)=0\\).",
+   "vi": "Đúng hay sai: \\(f(x)=(x-1)^4\\) đạt <b class=\"mbl-term\" tabindex=\"0\" data-en=\"local minimum\">cực tiểu</b> tại \\(x=1\\) dù \\(f''(1)=0\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. \\(f'(x)=4(x-1)^3\\) changes from negative to positive at 1. The second derivative test fails here.",
+   "explain_vi": "Đúng. \\(f'(x)=4(x-1)^3\\) đổi dấu từ âm sang dương tại 1. Điều kiện đủ thứ hai không <b class=\"mbl-term\" tabindex=\"0\" data-en=\"conclusion\">kết luận</b> được ở đây.",
+   "images": [],
+   "id": "f4003b0161d0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "E",
+   "type": "tf",
+   "form": "True or false: \\(f(x)=x^#+#\\) has a local minimum at \\(x=#\\) because \\(f'(#)=#\\).",
+   "en": "True or false: \\(f(x)=x^3+1\\) has a local minimum at \\(x=0\\) because \\(f'(0)=0\\).",
+   "vi": "Đúng hay sai: \\(f(x)=x^3+1\\) đạt <b class=\"mbl-term\" tabindex=\"0\" data-en=\"local minimum\">cực tiểu</b> tại \\(x=0\\) vì \\(f'(0)=0\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. \\(f'(x)=3x^2\\ge0\\) does not change sign at 0, so there is no extremum.",
+   "explain_vi": "Sai. \\(f'(x)=3x^2\\ge0\\) không đổi dấu tại 0 nên không có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"extremum\">cực trị</b>.",
+   "images": [],
+   "id": "41c712105924",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "E",
+   "type": "tf",
+   "form": "True or false: \\(f(x)=|x|+#\\) has a local minimum at \\(x=#\\), although \\(f'(#)\\) does not exist.",
+   "en": "True or false: \\(f(x)=|x|+3\\) has a local minimum at \\(x=0\\), although \\(f'(0)\\) does not exist.",
+   "vi": "Đúng hay sai: \\(f(x)=|x|+3\\) đạt <b class=\"mbl-term\" tabindex=\"0\" data-en=\"local minimum\">cực tiểu</b> tại \\(x=0\\) dù không tồn tại \\(f'(0)\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. \\(f(x)\\ge3=f(0)\\) near 0, and \\(f'\\) changes from \\(-1\\) to \\(1\\).",
+   "explain_vi": "Đúng. \\(f(x)\\ge3=f(0)\\) gần 0, và \\(f'\\) đổi từ \\(-1\\) sang \\(1\\).",
+   "images": [],
+   "id": "2238b02c77a9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "F",
+   "type": "short",
+   "form": "Find the largest integer \\(m\\) such that \\(f(x)=x^#+x^#+mx\\) has two extreme points.",
+   "en": "Find the largest integer \\(m\\) such that \\(f(x)=x^3+x^2+mx\\) has two extreme points.",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"integers\">số nguyên</b> \\(m\\) lớn nhất để \\(f(x)=x^3+x^2+mx\\) có hai điểm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"extremum\">cực trị</b>.",
+   "options": [],
+   "answer": "0",
+   "explain_en": "Answer: 0. \\(f'(x)=3x^2+2x+m\\). We need \\(\\Delta'=1-3m>0\\), so \\(m\\lt \\dfrac13\\) and the largest integer is 0.",
+   "explain_vi": "Đáp án: 0. \\(f'(x)=3x^2+2x+m\\). Cần \\(\\Delta'=1-3m>0\\) nên \\(m\\lt \\dfrac13\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"integers\">số nguyên</b> lớn nhất là 0.",
+   "images": [],
+   "id": "94b1b5517ac0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "F",
+   "type": "short",
+   "form": "Find the local minimum value of \\(f(x)=x+\\dfrac{#}{x}\\) for \\(x>#\\).",
+   "en": "Find the local minimum value of \\(f(x)=x+\\dfrac{25}{x}\\) for \\(x>0\\).",
+   "vi": "Tìm giá trị <b class=\"mbl-term\" tabindex=\"0\" data-en=\"local minimum\">cực tiểu</b> của \\(f(x)=x+\\dfrac{25}{x}\\) với \\(x>0\\).",
+   "options": [],
+   "answer": "10",
+   "explain_en": "Answer: 10. \\(f'(x)=1-\\dfrac{25}{x^2}=0\\) at \\(x=5\\), \\(f''(5)>0\\), and \\(f(5)=5+5=10\\).",
+   "explain_vi": "Đáp án: 10. \\(f'(x)=1-\\dfrac{25}{x^2}=0\\) tại \\(x=5\\), \\(f''(5)>0\\) và \\(f(5)=5+5=10\\).",
+   "images": [],
+   "id": "5bd59d3077b2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "F",
+   "type": "short",
+   "form": "Find the local minimum value of \\(f(x)=x^#-#x^#\\).",
+   "en": "Find the local minimum value of \\(f(x)=x^3-3x^2\\).",
+   "vi": "Tìm giá trị <b class=\"mbl-term\" tabindex=\"0\" data-en=\"local minimum\">cực tiểu</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(f(x)=x^3-3x^2\\).",
+   "options": [],
+   "answer": "-4",
+   "explain_en": "Answer: \\(-4\\). \\(f'(x)=3x(x-2)\\), \\(f''(2)=6>0\\), so the local minimum is \\(f(2)=8-12=-4\\).",
+   "explain_vi": "Đáp án: \\(-4\\). \\(f'(x)=3x(x-2)\\), \\(f''(2)=6>0\\) nên giá trị <b class=\"mbl-term\" tabindex=\"0\" data-en=\"local minimum\">cực tiểu</b> là \\(f(2)=8-12=-4\\).",
+   "images": [],
+   "id": "d4826ae8ad2f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "F",
+   "type": "short",
+   "form": "How many extreme points does \\(f(x)=x^#-#x\\) have?",
+   "en": "How many extreme points does \\(f(x)=x^3-3x\\) have?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">Hàm số</b> \\(f(x)=x^3-3x\\) có bao nhiêu điểm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"extremum\">cực trị</b>?",
+   "options": [],
+   "answer": "2",
+   "explain_en": "Answer: 2. \\(f'(x)=3x^2-3=3(x-1)(x+1)\\) changes sign at \\(x=1\\) and \\(x=-1\\).",
+   "explain_vi": "Đáp án: 2. \\(f'(x)=3x^2-3=3(x-1)(x+1)\\) đổi dấu tại \\(x=1\\) và \\(x=-1\\).",
+   "images": [],
+   "id": "f7efea9bbbed",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "G",
+   "type": "mcq",
+   "form": "Find \\(m\\) so that \\(f(x)=x^#-#mx^#+#(m^#-#)x\\) has a local minimum at \\(x=#\\).",
+   "en": "Find \\(m\\) so that \\(f(x)=x^3-3mx^2+3(m^2-1)x\\) has a local minimum at \\(x=3\\).",
+   "vi": "Tìm \\(m\\) để <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(f(x)=x^3-3mx^2+3(m^2-1)x\\) đạt <b class=\"mbl-term\" tabindex=\"0\" data-en=\"local minimum\">cực tiểu</b> tại \\(x=3\\).",
+   "options": [
+    "\\(3\\)",
+    "\\(-2\\)",
+    "\\(2\\)",
+    "\\(4\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(f'(x)=3(x-m+1)(x-m-1)\\): local maximum at \\(x=m-1\\), local minimum at \\(x=m+1\\). So \\(m+1=3\\Rightarrow m=2\\) (check: \\(f''(3)\\gt0\\)).",
+   "explain_vi": "Đáp án c. \\(f'(x)=3(x-m+1)(x-m-1)\\): <b class=\"mbl-term\" tabindex=\"0\" data-en=\"local maximum\">cực đại</b> tại \\(x=m-1\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"local minimum\">cực tiểu</b> tại \\(x=m+1\\). Vậy \\(m+1=3\\Rightarrow m=2\\) (thử lại: \\(f''(3)\\gt0\\)).",
+   "images": [],
+   "id": "4db743fb3a91",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "G",
+   "type": "mcq",
+   "form": "Look at the figure. It shows the graph of \\(y=f'(x)\\). At which point does \\(f\\) have a local maximum?",
+   "en": "Look at the figure. It shows the graph of \\(y=f'(x)\\). At which point does \\(f\\) have a local maximum?<img src=\"../../../img/tex/16cf25d86cc366ec.svg\" alt=\"Graph of f&#x27;\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,330px);height:auto\">",
+   "vi": "Quan sát hình vẽ: đây là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> của \\(y=f'(x)\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">Hàm số</b> \\(f\\) đạt <b class=\"mbl-term\" tabindex=\"0\" data-en=\"local maximum\">cực đại</b> tại điểm nào?<img src=\"../../../img/tex/16cf25d86cc366ec.svg\" alt=\"Đồ thị của f&#x27;\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,330px);height:auto\">",
+   "options": [
+    "\\(x=-1\\)",
+    "\\(x=-3\\)",
+    "\\(x=0\\)",
+    "\\(x=3\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Local maximum where \\(f'\\) changes from \\(+\\) to \\(-\\): \\(x=-3\\).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"local maximum\">Cực đại</b> tại điểm \\(f'\\) đổi dấu từ \\(+\\) sang \\(-\\): \\(x=-3\\).",
+   "images": [
+    "img/tex/16cf25d86cc366ec.svg"
+   ],
+   "id": "660345627dbc",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "G",
+   "type": "mcq",
+   "form": "Look at the figure. It shows the graph of \\(y=f(x)\\). On which interval is \\(f\\) increasing?",
+   "en": "Look at the figure. It shows the graph of \\(y=f(x)\\). On which interval is \\(f\\) increasing?<img src=\"../../../img/tex/6193d9e1df41c427.svg\" alt=\"Graph of f\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,320px);height:auto\">",
+   "vi": "Quan sát hình vẽ: đây là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(y=f(x)\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"increasing function\">Hàm số đồng biến</b> trên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"interval\">khoảng</b> nào?<img src=\"../../../img/tex/6193d9e1df41c427.svg\" alt=\"Đồ thị của f\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,320px);height:auto\">",
+   "options": [
+    "\\((0;\\,2)\\)",
+    "\\((0;\\,+\\infty)\\)",
+    "\\((-\\infty;\\,0)\\)",
+    "\\((-\\infty;\\,2)\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The graph goes up (from left to right) on \\((-\\infty;\\,0), (2;\\,+\\infty)\\). Read intervals on \\(Ox\\), not values on \\(Oy\\).",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">Đồ thị</b> đi lên (từ trái sang phải) trên \\((-\\infty;\\,0), (2;\\,+\\infty)\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"interval\">Khoảng</b> đọc trên trục \\(Ox\\), không phải giá trị trên \\(Oy\\).",
+   "images": [
+    "img/tex/6193d9e1df41c427.svg"
+   ],
+   "id": "2dc11ab40c2b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "G",
+   "type": "mcq",
+   "form": "The curve in the figure is \\(y=f'(x)\\) (not \\(y=f(x)\\)). Which interval is an interval where \\(f\\) is decreasing?",
+   "en": "The curve in the figure is \\(y=f'(x)\\) (not \\(y=f(x)\\)). Which interval is an interval where \\(f\\) is decreasing?<img src=\"../../../img/tex/1f6a3385625c71b5.svg\" alt=\"Graph of f&#x27;\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,330px);height:auto\">",
+   "vi": "Đường cong trong hình là \\(y=f'(x)\\) (không phải \\(y=f(x)\\)). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"interval\">Khoảng</b> nào là một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"interval\">khoảng</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"decreasing\">nghịch biến</b> của \\(f\\)?<img src=\"../../../img/tex/1f6a3385625c71b5.svg\" alt=\"Đồ thị của f&#x27;\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,330px);height:auto\">",
+   "options": [
+    "\\((-\\infty;\\,-2)\\)",
+    "\\((-2;\\,1)\\)",
+    "\\((3;\\,+\\infty)\\)",
+    "\\((-2;\\,3)\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(f\\) decreases where the graph of \\(f'\\) lies below \\(Ox\\): on \\(\\((-\\infty;\\,-2)\\), \\((1;\\,3)\\)\\).",
+   "explain_vi": "Đáp án a. \\(f\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"decreasing\">nghịch biến</b> khi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> \\(f'\\) nằm dưới \\(Ox\\): trên \\((-\\infty;\\,-2)\\), \\((1;\\,3)\\).",
+   "images": [
+    "img/tex/1f6a3385625c71b5.svg"
+   ],
+   "id": "86cff7c3017d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "G",
+   "type": "mcq",
+   "form": "The function \\(y=\\ln x-x\\) has a local maximum at…",
+   "en": "The function \\(y=\\ln x-x\\) has a local maximum at…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">Hàm số</b> \\(y=\\ln x-x\\) đạt <b class=\"mbl-term\" tabindex=\"0\" data-en=\"local maximum\">cực đại</b> tại",
+   "options": [
+    "\\(x=e\\)",
+    "\\(x=1\\)",
+    "\\(x=\\dfrac1e\\)",
+    "\\(x=0\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(y'=\\dfrac1x-1\\); it changes sign from \\(+\\) to \\(-\\) at \\(x=1\\).",
+   "explain_vi": "Đáp án b. \\(y'=\\dfrac1x-1\\); đổi dấu từ \\(+\\) sang \\(-\\) tại \\(x=1\\).",
+   "images": [],
+   "id": "530bca1cd766",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "G",
+   "type": "mcq",
+   "form": "The number of products sold (hundreds) after \\(t\\) months is \\(S(t)=-t^#+#t^#+#\\), \\(#\\le t\\le#\\). During which period are the sales increasing?",
+   "en": "The number of products sold (hundreds) after \\(t\\) months is \\(S(t)=-t^3+15t^2+20\\), \\(0\\le t\\le12\\). During which period are the sales increasing?",
+   "vi": "Số sản phẩm bán được (trăm sản phẩm) sau \\(t\\) tháng là \\(S(t)=-t^3+15t^2+20\\), \\(0\\le t\\le12\\). Trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"interval\">khoảng</b> thời gian nào số sản phẩm bán ra tăng?",
+   "options": [
+    "\\((10;\\,12)\\)",
+    "\\((0;\\,10)\\)",
+    "\\((0;\\,12)\\)",
+    "\\((0;\\,5)\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(S'(t)=-3t^2+30t=3t(10-t)\\gt0\\Leftrightarrow0\\lt t\\lt10\\).",
+   "explain_vi": "Đáp án b. \\(S'(t)=-3t^2+30t=3t(10-t)\\gt0\\Leftrightarrow0\\lt t\\lt10\\).",
+   "images": [],
+   "id": "29663442aab4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "G",
+   "type": "mcq",
+   "form": "Use the variation table of \\(y=f(x)\\) below. What is the local maximum value of \\(f\\)?",
+   "en": "Use the variation table of \\(y=f(x)\\) below. What is the local maximum value of \\(f\\)?<img src=\"../../../img/tex/3f989e44791c4db6.svg\" alt=\"Variation table\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,460px);height:auto\">",
+   "vi": "Dựa vào <b class=\"mbl-term\" tabindex=\"0\" data-en=\"variation table\">bảng biến thiên</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(y=f(x)\\). Giá trị <b class=\"mbl-term\" tabindex=\"0\" data-en=\"local maximum\">cực đại</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> là<img src=\"../../../img/tex/3f989e44791c4db6.svg\" alt=\"Bảng biến thiên\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,460px);height:auto\">",
+   "options": [
+    "\\(1\\)",
+    "\\(-4\\)",
+    "\\(0\\)",
+    "\\(-2\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The local maximum is the value at the top of the \"peak\": \\(f(-2)=0\\) (not the point \\(x=-2\\)).",
+   "explain_vi": "Đáp án c. Giá trị <b class=\"mbl-term\" tabindex=\"0\" data-en=\"local maximum\">cực đại</b> là giá trị ở \"đỉnh\": \\(f(-2)=0\\) (không phải điểm \\(x=-2\\)).",
+   "images": [
+    "img/tex/3f989e44791c4db6.svg"
+   ],
+   "id": "d36fe9485a5b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "G",
+   "type": "mcq",
+   "form": "Which function has \\(y'\\ge#\\) for every real \\(x\\) (and so increases on \\(\\mathbb R\\))?",
+   "en": "Which function has \\(y'\\ge0\\) for every real \\(x\\) (and so increases on \\(\\mathbb R\\))?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">Hàm số</b> nào có \\(y'\\ge0\\) với mọi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"real numbers\">số thực</b> \\(x\\) (nên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"increasing\">đồng biến</b> trên \\(\\mathbb R\\))?",
+   "options": [
+    "\\(y=x^3-3x\\)",
+    "\\(y=x+\\dfrac1x\\)",
+    "\\(y=\\dfrac{x-1}{x+1}\\)",
+    "\\(y=x^3+x^2+x\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(y=x^3+x^2+x\\): \\(y'=3x^2+2x+1\\gt0\\) (equal to 0 only at isolated points). The others are not defined on all of \\(\\mathbb R\\) or have \\(y'\\lt0\\) somewhere.",
+   "explain_vi": "Đáp án d. \\(y=x^3+x^2+x\\): \\(y'=3x^2+2x+1\\gt0\\) (chỉ bằng 0 tại các điểm rời rạc). Các hàm còn lại không xác định trên \\(\\mathbb R\\) hoặc có \\(y'\\lt0\\) ở đâu đó.",
+   "images": [],
+   "id": "2dd9cf39f6a0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "G",
+   "type": "mcq",
+   "form": "Find the local maximum value of \\(f(x)=x^#-#x\\).",
+   "en": "Find the local maximum value of \\(f(x)=x^3-27x\\).",
+   "vi": "Tìm giá trị <b class=\"mbl-term\" tabindex=\"0\" data-en=\"local maximum\">cực đại</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(f(x)=x^3-27x\\).",
+   "options": [
+    "\\(54\\)",
+    "\\(27\\)",
+    "\\(-27\\)",
+    "\\(-54\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(f'(x)=3x^2-27=0\\) at \\(x=\\pm3\\). At \\(x=-3\\): \\(f(-3)=54\\).",
+   "explain_vi": "Đáp án a. \\(f'(x)=3x^2-27=0\\) tại \\(x=\\pm3\\). Tại \\(x=-3\\): \\(f(-3)=54\\).",
+   "images": [],
+   "id": "adb4b257fb2a",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "G",
+   "type": "mcq",
+   "form": "Find the local minimum value of \\(f(x)=x^#-#x\\).",
+   "en": "Find the local minimum value of \\(f(x)=x^3-27x\\).",
+   "vi": "Tìm giá trị <b class=\"mbl-term\" tabindex=\"0\" data-en=\"local minimum\">cực tiểu</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(f(x)=x^3-27x\\).",
+   "options": [
+    "\\(27\\)",
+    "\\(54\\)",
+    "\\(-54\\)",
+    "\\(-27\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(f'(x)=3x^2-27=0\\) at \\(x=\\pm3\\). At \\(x=3\\): \\(f(3)=-54\\).",
+   "explain_vi": "Đáp án c. \\(f'(x)=3x^2-27=0\\) tại \\(x=\\pm3\\). Tại \\(x=3\\): \\(f(3)=-54\\).",
+   "images": [],
+   "id": "217ccd25c272",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "G",
+   "type": "mcq",
+   "form": "Find the minimum value of \\(f(x)=#x+\\dfrac{#}{x}\\) for \\(x\\gt #\\).",
+   "en": "Find the minimum value of \\(f(x)=4x+\\dfrac{36}{x}\\) for \\(x\\gt 0\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"minimum value\">giá trị nhỏ nhất</b> của \\(f(x)=4x+\\dfrac{36}{x}\\) với \\(x\\gt 0\\).",
+   "options": [
+    "\\(48\\)",
+    "\\(24\\)",
+    "\\(12\\)",
+    "\\(36\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(f'(x)=4-\\dfrac{36}{x^2}=0\\) at \\(x=3\\), and \\(f(3)=24\\).",
+   "explain_vi": "Đáp án b. \\(f'(x)=4-\\dfrac{36}{x^2}=0\\) tại \\(x=3\\) và \\(f(3)=24\\).",
+   "images": [],
+   "id": "527eba5e0373",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "G",
+   "type": "mcq",
+   "form": "Find the smallest integer \\(m\\) such that \\(f(x)=x^#+#x^#+mx\\) is increasing on \\(\\mathbb{R}\\).",
+   "en": "Find the smallest integer \\(m\\) such that \\(f(x)=x^3+5x^2+mx\\) is increasing on \\(\\mathbb{R}\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"integers\">số nguyên</b> \\(m\\) nhỏ nhất để \\(f(x)=x^3+5x^2+mx\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"increasing\">đồng biến</b> trên \\(\\mathbb{R}\\).",
+   "options": [
+    "\\(9\\)",
+    "\\(10\\)",
+    "\\(8\\)",
+    "\\(11\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(f'(x)=3x^2+10x+m\\ge0\\) for all \\(x\\) needs \\(\\Delta'=25-3m\\le0\\), so \\(m\\ge\\dfrac{25}{3}\\). The smallest integer is 9.",
+   "explain_vi": "Đáp án a. \\(f'(x)=3x^2+10x+m\\ge0\\) với mọi \\(x\\) cần \\(\\Delta'=25-3m\\le0\\), nên \\(m\\ge\\dfrac{25}{3}\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"integers\">Số nguyên</b> nhỏ nhất là 9.",
+   "images": [],
+   "id": "95016f92eb29",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "G",
+   "type": "mcq",
+   "form": "Let \\(f'(x)=(x+#)x^#(x-#)^#\\). How many extreme points does \\(f\\) have?",
+   "en": "Let \\(f'(x)=(x+1)x^2(x-4)^3\\). How many extreme points does \\(f\\) have?",
+   "vi": "Cho \\(f'(x)=(x+1)x^2(x-4)^3\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">Hàm số</b> \\(f\\) có bao nhiêu điểm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"extremum\">cực trị</b>?",
+   "options": [
+    "\\(4\\)",
+    "\\(1\\)",
+    "\\(2\\)",
+    "\\(3\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(f'\\) changes sign only at roots of odd multiplicity: there are 2 of them.",
+   "explain_vi": "Đáp án c. \\(f'\\) chỉ đổi dấu tại các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b> bội lẻ: có 2 <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b> như vậy.",
+   "images": [],
+   "id": "2b3d58916676",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "G",
+   "type": "mcq",
+   "form": "Let \\(f'(x)=-#(x+#)(x-#)\\). On which interval is \\(f\\) increasing?",
+   "en": "Let \\(f'(x)=-2(x+1)(x-3)\\). On which interval is \\(f\\) increasing?",
+   "vi": "Cho \\(f'(x)=-2(x+1)(x-3)\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">Hàm số</b> \\(f\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"increasing\">đồng biến</b> trên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"interval\">khoảng</b> nào?",
+   "options": [
+    "\\((-2,3)\\)",
+    "\\((-\\infty,-1)\\)",
+    "\\((3,+\\infty)\\)",
+    "\\((-1,3)\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. The leading coefficient of \\(f'\\) is negative, so \\(f'\\gt 0\\) only between the roots: \\(f\\) is increasing on \\((-1,3)\\).",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"leading coefficient\">Hệ số cao nhất</b> của \\(f'\\) âm nên \\(f'\\gt 0\\) chỉ giữa hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b>: \\(f\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"increasing\">đồng biến</b> trên \\((-1,3)\\).",
+   "images": [],
+   "id": "88601ff4d74d",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "G",
+   "type": "mcq",
+   "form": "On which interval is \\(f(x)=x^#-#x^#+#x\\) decreasing?",
+   "en": "On which interval is \\(f(x)=x^3-6x^2+9x\\) decreasing?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">Hàm số</b> \\(f(x)=x^3-6x^2+9x\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"decreasing\">nghịch biến</b> trên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"interval\">khoảng</b> nào?",
+   "options": [
+    "\\((-\\infty,1)\\)",
+    "\\((3,+\\infty)\\)",
+    "\\((1,3)\\)",
+    "\\((1,+\\infty)\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(f'(x)=3(x-1)(x-3)\\lt 0\\) exactly when \\(1\\lt x\\lt 3\\).",
+   "explain_vi": "Đáp án c. \\(f'(x)=3(x-1)(x-3)\\lt 0\\) đúng khi \\(1\\lt x\\lt 3\\).",
+   "images": [],
+   "id": "4c743a9bd235",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "G",
+   "type": "mcq",
+   "form": "On which interval is \\(f(x)=x^#-#x^#\\) decreasing?",
+   "en": "On which interval is \\(f(x)=x^3-6x^2\\) decreasing?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">Hàm số</b> \\(f(x)=x^3-6x^2\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"decreasing\">nghịch biến</b> trên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"interval\">khoảng</b> nào?",
+   "options": [
+    "\\((4,+\\infty)\\)",
+    "\\((0,+\\infty)\\)",
+    "\\((-\\infty,0)\\)",
+    "\\((0,4)\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(f'(x)=3(x+0)(x-4)\\lt 0\\) exactly when \\(0\\lt x\\lt 4\\).",
+   "explain_vi": "Đáp án d. \\(f'(x)=3(x+0)(x-4)\\lt 0\\) đúng khi \\(0\\lt x\\lt 4\\).",
+   "images": [],
+   "id": "18f07c197d00",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "G",
+   "type": "mcq",
+   "form": "Find the local maximum value of \\(f(x)=x^#-#x\\).",
+   "en": "Find the local maximum value of \\(f(x)=x^3-3x\\).",
+   "vi": "Tìm giá trị <b class=\"mbl-term\" tabindex=\"0\" data-en=\"local maximum\">cực đại</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(f(x)=x^3-3x\\).",
+   "options": [
+    "\\(-1\\)",
+    "\\(-2\\)",
+    "\\(2\\)",
+    "\\(1\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(f'(x)=3x^2-3=0\\) at \\(x=\\pm1\\). At \\(x=-1\\): \\(f(-1)=2\\).",
+   "explain_vi": "Đáp án c. \\(f'(x)=3x^2-3=0\\) tại \\(x=\\pm1\\). Tại \\(x=-1\\): \\(f(-1)=2\\).",
+   "images": [],
+   "id": "00f5524e9f49",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "G",
+   "type": "mcq",
+   "form": "Find the local minimum value of \\(f(x)=x^#-#x\\).",
+   "en": "Find the local minimum value of \\(f(x)=x^3-48x\\).",
+   "vi": "Tìm giá trị <b class=\"mbl-term\" tabindex=\"0\" data-en=\"local minimum\">cực tiểu</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(f(x)=x^3-48x\\).",
+   "options": [
+    "\\(-64\\)",
+    "\\(-128\\)",
+    "\\(128\\)",
+    "\\(64\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(f'(x)=3x^2-48=0\\) at \\(x=\\pm4\\). At \\(x=4\\): \\(f(4)=-128\\).",
+   "explain_vi": "Đáp án b. \\(f'(x)=3x^2-48=0\\) tại \\(x=\\pm4\\). Tại \\(x=4\\): \\(f(4)=-128\\).",
+   "images": [],
+   "id": "a81803cd5da3",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "G",
+   "type": "mcq",
+   "form": "Find the minimum value of \\(f(x)=#x+\\dfrac{#}{x}\\) for \\(x\\gt #\\).",
+   "en": "Find the minimum value of \\(f(x)=3x+\\dfrac{27}{x}\\) for \\(x\\gt 0\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"minimum value\">giá trị nhỏ nhất</b> của \\(f(x)=3x+\\dfrac{27}{x}\\) với \\(x\\gt 0\\).",
+   "options": [
+    "\\(18\\)",
+    "\\(36\\)",
+    "\\(27\\)",
+    "\\(9\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(f'(x)=3-\\dfrac{27}{x^2}=0\\) at \\(x=3\\), and \\(f(3)=18\\).",
+   "explain_vi": "Đáp án a. \\(f'(x)=3-\\dfrac{27}{x^2}=0\\) tại \\(x=3\\) và \\(f(3)=18\\).",
+   "images": [],
+   "id": "b77c5be81911",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "G",
+   "type": "mcq",
+   "form": "Find the smallest integer \\(m\\) such that \\(f(x)=x^#+#x^#+mx\\) is increasing on \\(\\mathbb{R}\\).",
+   "en": "Find the smallest integer \\(m\\) such that \\(f(x)=x^3+8x^2+mx\\) is increasing on \\(\\mathbb{R}\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"integers\">số nguyên</b> \\(m\\) nhỏ nhất để \\(f(x)=x^3+8x^2+mx\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"increasing\">đồng biến</b> trên \\(\\mathbb{R}\\).",
+   "options": [
+    "\\(21\\)",
+    "\\(24\\)",
+    "\\(22\\)",
+    "\\(23\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(f'(x)=3x^2+16x+m\\ge0\\) for all \\(x\\) needs \\(\\Delta'=64-3m\\le0\\), so \\(m\\ge\\dfrac{64}{3}\\). The smallest integer is 22.",
+   "explain_vi": "Đáp án c. \\(f'(x)=3x^2+16x+m\\ge0\\) với mọi \\(x\\) cần \\(\\Delta'=64-3m\\le0\\), nên \\(m\\ge\\dfrac{64}{3}\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"integers\">Số nguyên</b> nhỏ nhất là 22.",
+   "images": [],
+   "id": "353936986b3c",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "G",
+   "type": "mcq",
+   "form": "Let \\(f'(x)=(x+#)^#(x+#)(x-#)^#\\). How many extreme points does \\(f\\) have?",
+   "en": "Let \\(f'(x)=(x+4)^3(x+1)(x-2)^2\\). How many extreme points does \\(f\\) have?",
+   "vi": "Cho \\(f'(x)=(x+4)^3(x+1)(x-2)^2\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">Hàm số</b> \\(f\\) có bao nhiêu điểm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"extremum\">cực trị</b>?",
+   "options": [
+    "\\(2\\)",
+    "\\(4\\)",
+    "\\(0\\)",
+    "\\(3\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(f'\\) changes sign only at roots of odd multiplicity: there are 2 of them.",
+   "explain_vi": "Đáp án a. \\(f'\\) chỉ đổi dấu tại các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b> bội lẻ: có 2 <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b> như vậy.",
+   "images": [],
+   "id": "8917c52f56f1",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "G",
+   "type": "mcq",
+   "form": "Let \\(f'(x)=-(x+#)(x-#)\\). On which interval is \\(f\\) increasing?",
+   "en": "Let \\(f'(x)=-(x+1)(x-2)\\). On which interval is \\(f\\) increasing?",
+   "vi": "Cho \\(f'(x)=-(x+1)(x-2)\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">Hàm số</b> \\(f\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"increasing\">đồng biến</b> trên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"interval\">khoảng</b> nào?",
+   "options": [
+    "\\((2,+\\infty)\\)",
+    "\\((-\\infty,-1)\\)",
+    "\\((-2,2)\\)",
+    "\\((-1,2)\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. The leading coefficient of \\(f'\\) is negative, so \\(f'\\gt 0\\) only between the roots: \\(f\\) is increasing on \\((-1,2)\\).",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"leading coefficient\">Hệ số cao nhất</b> của \\(f'\\) âm nên \\(f'\\gt 0\\) chỉ giữa hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b>: \\(f\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"increasing\">đồng biến</b> trên \\((-1,2)\\).",
+   "images": [],
+   "id": "cd2ce622abe8",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "G",
+   "type": "mcq",
+   "form": "On which interval is \\(f(x)=x^#-#x^#+#x\\) decreasing?",
+   "en": "On which interval is \\(f(x)=x^3-12x^2+45x\\) decreasing?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">Hàm số</b> \\(f(x)=x^3-12x^2+45x\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"decreasing\">nghịch biến</b> trên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"interval\">khoảng</b> nào?",
+   "options": [
+    "\\((5,+\\infty)\\)",
+    "\\((3,+\\infty)\\)",
+    "\\((3,5)\\)",
+    "\\((-\\infty,3)\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(f'(x)=3(x-3)(x-5)\\lt 0\\) exactly when \\(3\\lt x\\lt 5\\).",
+   "explain_vi": "Đáp án c. \\(f'(x)=3(x-3)(x-5)\\lt 0\\) đúng khi \\(3\\lt x\\lt 5\\).",
+   "images": [],
+   "id": "bd7008e7d962",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "G",
+   "type": "mcq",
+   "form": "On which interval is \\(f(x)=x^#-#x^#-#x\\) decreasing?",
+   "en": "On which interval is \\(f(x)=x^3-3x^2-9x\\) decreasing?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">Hàm số</b> \\(f(x)=x^3-3x^2-9x\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"decreasing\">nghịch biến</b> trên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"interval\">khoảng</b> nào?",
+   "options": [
+    "\\((-1,3)\\)",
+    "\\((-\\infty,-1)\\)",
+    "\\((3,+\\infty)\\)",
+    "\\((-1,+\\infty)\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(f'(x)=3(x+1)(x-3)\\lt 0\\) exactly when \\(-1\\lt x\\lt 3\\).",
+   "explain_vi": "Đáp án a. \\(f'(x)=3(x+1)(x-3)\\lt 0\\) đúng khi \\(-1\\lt x\\lt 3\\).",
+   "images": [],
+   "id": "e75e39d188fa",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "G",
+   "type": "mcq",
+   "form": "Find the local maximum value of \\(f(x)=x^#-#x\\).",
+   "en": "Find the local maximum value of \\(f(x)=x^3-12x\\).",
+   "vi": "Tìm giá trị <b class=\"mbl-term\" tabindex=\"0\" data-en=\"local maximum\">cực đại</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(f(x)=x^3-12x\\).",
+   "options": [
+    "\\(-8\\)",
+    "\\(-16\\)",
+    "\\(16\\)",
+    "\\(8\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(f'(x)=3x^2-12=0\\) at \\(x=\\pm2\\). At \\(x=-2\\): \\(f(-2)=16\\).",
+   "explain_vi": "Đáp án c. \\(f'(x)=3x^2-12=0\\) tại \\(x=\\pm2\\). Tại \\(x=-2\\): \\(f(-2)=16\\).",
+   "images": [],
+   "id": "b920ee58bddd",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "G",
+   "type": "mcq",
+   "form": "Find the local minimum value of \\(f(x)=x^#-#x\\).",
+   "en": "Find the local minimum value of \\(f(x)=x^3-75x\\).",
+   "vi": "Tìm giá trị <b class=\"mbl-term\" tabindex=\"0\" data-en=\"local minimum\">cực tiểu</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(f(x)=x^3-75x\\).",
+   "options": [
+    "\\(125\\)",
+    "\\(-250\\)",
+    "\\(-125\\)",
+    "\\(250\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(f'(x)=3x^2-75=0\\) at \\(x=\\pm5\\). At \\(x=5\\): \\(f(5)=-250\\).",
+   "explain_vi": "Đáp án b. \\(f'(x)=3x^2-75=0\\) tại \\(x=\\pm5\\). Tại \\(x=5\\): \\(f(5)=-250\\).",
+   "images": [],
+   "id": "31854b60eb5a",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "G",
+   "type": "mcq",
+   "form": "Find the minimum value of \\(f(x)=#x+\\dfrac{#}{x}\\) for \\(x\\gt #\\).",
+   "en": "Find the minimum value of \\(f(x)=2x+\\dfrac{18}{x}\\) for \\(x\\gt 0\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"minimum value\">giá trị nhỏ nhất</b> của \\(f(x)=2x+\\dfrac{18}{x}\\) với \\(x\\gt 0\\).",
+   "options": [
+    "\\(6\\)",
+    "\\(12\\)",
+    "\\(18\\)",
+    "\\(24\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(f'(x)=2-\\dfrac{18}{x^2}=0\\) at \\(x=3\\), and \\(f(3)=12\\).",
+   "explain_vi": "Đáp án b. \\(f'(x)=2-\\dfrac{18}{x^2}=0\\) tại \\(x=3\\) và \\(f(3)=12\\).",
+   "images": [],
+   "id": "ad5e02c19aad",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "G",
+   "type": "mcq",
+   "form": "Find the smallest integer \\(m\\) such that \\(f(x)=x^#+#x^#+mx\\) is increasing on \\(\\mathbb{R}\\).",
+   "en": "Find the smallest integer \\(m\\) such that \\(f(x)=x^3+2x^2+mx\\) is increasing on \\(\\mathbb{R}\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"integers\">số nguyên</b> \\(m\\) nhỏ nhất để \\(f(x)=x^3+2x^2+mx\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"increasing\">đồng biến</b> trên \\(\\mathbb{R}\\).",
+   "options": [
+    "\\(3\\)",
+    "\\(4\\)",
+    "\\(1\\)",
+    "\\(2\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(f'(x)=3x^2+4x+m\\ge0\\) for all \\(x\\) needs \\(\\Delta'=4-3m\\le0\\), so \\(m\\ge\\dfrac{4}{3}\\). The smallest integer is 2.",
+   "explain_vi": "Đáp án d. \\(f'(x)=3x^2+4x+m\\ge0\\) với mọi \\(x\\) cần \\(\\Delta'=4-3m\\le0\\), nên \\(m\\ge\\dfrac{4}{3}\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"integers\">Số nguyên</b> nhỏ nhất là 2.",
+   "images": [],
+   "id": "7ca1aa44fe75",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "G",
+   "type": "mcq",
+   "form": "Let \\(f'(x)=(x+#)(x+#)\\). On which interval is \\(f\\) increasing?",
+   "en": "Let \\(f'(x)=(x+3)(x+1)\\). On which interval is \\(f\\) increasing?",
+   "vi": "Cho \\(f'(x)=(x+3)(x+1)\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">Hàm số</b> \\(f\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"increasing\">đồng biến</b> trên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"interval\">khoảng</b> nào?",
+   "options": [
+    "\\((-3,-1)\\)",
+    "\\((-3,+\\infty)\\)",
+    "\\((-\\infty,-1)\\)",
+    "\\((-1,+\\infty)\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. The leading coefficient of \\(f'\\) is positive, so \\(f'\\gt 0\\) outside the roots: \\(f\\) is increasing on each interval \\((-\\infty,-3)\\) and \\((-1,+\\infty)\\) (not on their union). Among the options only \\((-1,+\\infty)\\) is such an interval.",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"leading coefficient\">Hệ số cao nhất</b> của \\(f'\\) dương nên \\(f'\\gt 0\\) ngoài hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b>: \\(f\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"increasing\">đồng biến</b> trên mỗi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"interval\">khoảng</b> \\((-\\infty,-3)\\) và \\((-1,+\\infty)\\) (không viết là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"increasing\">đồng biến</b> trên hợp của chúng). Trong các phương án chỉ có \\((-1,+\\infty)\\) thỏa mãn.",
+   "images": [],
+   "id": "cb901dbe3763",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "G",
+   "type": "mcq",
+   "form": "Let \\(f'(x)=(x+#)^#(x-#)^#(x-#)\\). How many extreme points does \\(f\\) have?",
+   "en": "Let \\(f'(x)=(x+3)^3(x-2)^3(x-4)\\). How many extreme points does \\(f\\) have?",
+   "vi": "Cho \\(f'(x)=(x+3)^3(x-2)^3(x-4)\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">Hàm số</b> \\(f\\) có bao nhiêu điểm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"extremum\">cực trị</b>?",
+   "options": [
+    "\\(4\\)",
+    "\\(1\\)",
+    "\\(0\\)",
+    "\\(3\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(f'\\) changes sign only at roots of odd multiplicity: there are 3 of them.",
+   "explain_vi": "Đáp án d. \\(f'\\) chỉ đổi dấu tại các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b> bội lẻ: có 3 <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b> như vậy.",
+   "images": [],
+   "id": "571fd6aa2e66",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "G",
+   "type": "mcq",
+   "form": "On which interval is \\(f(x)=x^#+#x^#+#x\\) decreasing?",
+   "en": "On which interval is \\(f(x)=x^3+9x^2+15x\\) decreasing?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">Hàm số</b> \\(f(x)=x^3+9x^2+15x\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"decreasing\">nghịch biến</b> trên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"interval\">khoảng</b> nào?",
+   "options": [
+    "\\((-1,+\\infty)\\)",
+    "\\((-5,+\\infty)\\)",
+    "\\((-5,-1)\\)",
+    "\\((-\\infty,-5)\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(f'(x)=3(x+5)(x+1)\\lt 0\\) exactly when \\(-5\\lt x\\lt -1\\).",
+   "explain_vi": "Đáp án c. \\(f'(x)=3(x+5)(x+1)\\lt 0\\) đúng khi \\(-5\\lt x\\lt -1\\).",
+   "images": [],
+   "id": "95f6772a44b4",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "G",
+   "type": "mcq",
+   "form": "On which interval is \\(f(x)=x^#-#x^#+#x\\) decreasing?",
+   "en": "On which interval is \\(f(x)=x^3-9x^2+24x\\) decreasing?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">Hàm số</b> \\(f(x)=x^3-9x^2+24x\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"decreasing\">nghịch biến</b> trên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"interval\">khoảng</b> nào?",
+   "options": [
+    "\\((-\\infty,2)\\)",
+    "\\((2,4)\\)",
+    "\\((2,+\\infty)\\)",
+    "\\((4,+\\infty)\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(f'(x)=3(x-2)(x-4)\\lt 0\\) exactly when \\(2\\lt x\\lt 4\\).",
+   "explain_vi": "Đáp án b. \\(f'(x)=3(x-2)(x-4)\\lt 0\\) đúng khi \\(2\\lt x\\lt 4\\).",
+   "images": [],
+   "id": "2746f2dbf200",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  }
+ ]
+}

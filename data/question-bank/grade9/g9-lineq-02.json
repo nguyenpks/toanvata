@@ -1,0 +1,1317 @@
+{
+ "lesson": "g9-lineq-02",
+ "grade": 9,
+ "no": 5,
+ "title": "Bất đẳng thức và tính chất",
+ "path": "lessons/grade9/equations-and-inequalities/inequalities-properties.html",
+ "items": [
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Compare \\(\\dfrac{#}{#}\\) and \\(\\dfrac{#}{#}\\).",
+   "en": "Compare \\(\\dfrac{25}{33}\\) and \\(\\dfrac{17}{19}\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"compare\">So sánh</b> \\(\\dfrac{25}{33}\\) và \\(\\dfrac{17}{19}\\).",
+   "options": [
+    "\\(\\dfrac{25}{33}=\\dfrac{17}{19}\\)",
+    "\\(\\dfrac{25}{33}\\ge\\dfrac{17}{19}\\)",
+    "\\(\\dfrac{25}{33}\\lt\\dfrac{17}{19}\\)",
+    "\\(\\dfrac{25}{33}\\gt\\dfrac{17}{19}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Write with a common denominator: \\(\\dfrac{475}{627}\\) and \\(\\dfrac{561}{627}\\).",
+   "explain_vi": "Đáp án c. Quy đồng mẫu: \\(\\dfrac{475}{627}\\) và \\(\\dfrac{561}{627}\\).",
+   "images": [],
+   "id": "d604643e2f08",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Given \\(a\\gt b\\). Compare \\(-#a-#\\) and \\(-#b-#\\): which inequality is true?",
+   "en": "Given \\(a\\gt b\\). Compare \\(-4a-1\\) and \\(-4b-1\\): which inequality is true?",
+   "vi": "Cho \\(a\\gt b\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"compare\">So sánh</b> \\(-4a-1\\) và \\(-4b-1\\): <b class=\"mbl-term\" tabindex=\"0\" data-en=\"inequality\">bất đẳng thức</b> nào đúng?",
+   "options": [
+    "\\(a-1 \\lt  b-1\\)",
+    "\\(-4a-1 \\gt  -4b-1\\)",
+    "\\(4a \\lt  4b\\)",
+    "\\(-4a-1 \\lt  -4b-1\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Multiplying by the negative number \\(-4\\) reverses the sign; adding \\(-1\\) keeps it.",
+   "explain_vi": "Đáp án d. Nhân với số âm \\(-4\\) thì đổi chiều; cộng \\(-1\\) thì giữ nguyên chiều.",
+   "images": [],
+   "id": "29401a882199",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "The score \\(d\\) needed to pass is at least # points. Which inequality describes this?",
+   "en": "The score \\(d\\) needed to pass is at least 19 points. Which inequality describes this?",
+   "vi": "Điểm \\(d\\) để đạt phải ít nhất là 19 điểm. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"inequality\">Bất đẳng thức</b> nào mô tả điều đó?",
+   "options": [
+    "\\(d\\lt  19\\)",
+    "\\(d\\gt  19\\)",
+    "\\(d\\ge  19\\)",
+    "\\(d\\le  19\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. “at least” → \\(\\ge\\); “at most”, “not exceed” → \\(\\le\\); “greater than” → \\(\\gt\\); “less than” → \\(\\lt\\).",
+   "explain_vi": "Đáp án c. “ít nhất” → \\(\\ge\\); “nhiều nhất”, “không vượt quá” → \\(\\le\\); “lớn hơn” → \\(\\gt\\); “nhỏ hơn” → \\(\\lt\\).",
+   "images": [],
+   "id": "2b577a4173b1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "If \\(a\\gt b\\) then \\(-#a-# \\lt -#b-#\\).",
+   "en": "If \\(a\\gt b\\) then \\(-3a-6 \\lt  -3b-6\\).",
+   "vi": "Nếu \\(a\\gt b\\) thì \\(-3a-6 \\lt  -3b-6\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. Multiplying by \\(-3\\) reverses the sign.",
+   "explain_vi": "Đúng. Nhân với \\(-3\\) thì <b class=\"mbl-term\" tabindex=\"0\" data-en=\"reverse the inequality sign\">đổi chiều bất đẳng thức</b>.",
+   "images": [],
+   "id": "274557a4dd6a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(x^#+#\\ge #x\\) for every real number \\(x\\).",
+   "en": "\\(x^2+16\\ge 8x\\) for every real number \\(x\\).",
+   "vi": "\\(x^2+16\\ge 8x\\) với mọi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"real numbers\">số thực</b> \\(x\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. \\(x^2+16-8x=(x-4)^2\\ge0\\); equality when \\(x=4\\).",
+   "explain_vi": "Đúng. \\(x^2+16-8x=(x-4)^2\\ge0\\); dấu bằng xảy ra khi \\(x=4\\).",
+   "images": [],
+   "id": "7d035dfae724",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "Given \\(x\\ge -#\\). What is the smallest possible value of \\(#x-#\\)?",
+   "en": "Given \\(x\\ge -3\\). What is the smallest possible value of \\(3x-8\\)?",
+   "vi": "Cho \\(x\\ge -3\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"minimum value\">Giá trị nhỏ nhất</b> có thể của \\(3x-8\\) là bao nhiêu?",
+   "options": [],
+   "answer": "-17",
+   "explain_en": "Answer: -17. \\(x\\ge -3\\Rightarrow 3x\\ge -9\\Rightarrow 3x-8\\ge -17\\), reached at \\(x=-3\\).",
+   "explain_vi": "Đáp số: -17. \\(x\\ge -3\\Rightarrow 3x\\ge -9\\Rightarrow 3x-8\\ge -17\\), đạt được khi \\(x=-3\\).",
+   "images": [],
+   "id": "25d171cf0169",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "The temperature \\(T\\) (°C) of a room satisfies \\(#\\le T\\le #\\). How many whole-number values can \\(T\\) take?",
+   "en": "The temperature \\(T\\) (°C) of a room satisfies \\(2\\le T\\le 11\\). How many whole-number values can \\(T\\) take?",
+   "vi": "Nhiệt độ \\(T\\) (°C) của một căn phòng thỏa mãn \\(2\\le T\\le 11\\). \\(T\\) có thể nhận bao nhiêu giá trị nguyên?",
+   "options": [],
+   "answer": "10",
+   "explain_en": "Answer: 10. Count the integers in the range (watch the strict signs): 10 values.",
+   "explain_vi": "Đáp số: 10. Đếm các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"integers\">số nguyên</b> thỏa mãn (chú ý dấu không bằng): 10 giá trị.",
+   "images": [],
+   "id": "9fd6247579b6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Given \\(x\\lt y\\) and \\(y\\lt z\\). Which conclusion follows?",
+   "en": "Given \\(x\\lt y\\) and \\(y\\lt z\\). Which conclusion follows?",
+   "vi": "Cho \\(x\\lt y\\) và \\(y\\lt z\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"conclusion\">Kết luận</b> nào đúng?",
+   "options": [
+    "\\(x\\gt  z\\)",
+    "\\(x\\lt  z\\)",
+    "\\(z\\lt  x\\)",
+    "\\(x=z\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Transitive property.",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"transitive property\">Tính chất bắc cầu</b>.",
+   "images": [],
+   "id": "4d628c3e8ad8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D1",
+   "type": "mcq",
+   "form": "How do we read \\(x\\gt #\\)?",
+   "en": "How do we read \\(x\\gt 12\\)?",
+   "vi": "Đọc \\(x\\gt 12\\) như thế nào?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(x\\) is less than or equal to 12</span><span class=\"vi\">\\(x\\) nhỏ hơn hoặc bằng 12</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(x\\) is greater than 12</span><span class=\"vi\">\\(x\\) lớn hơn 12</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(x\\) is greater than or equal to 12</span><span class=\"vi\">\\(x\\) lớn hơn hoặc bằng 12</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(x\\) is less than 12</span><span class=\"vi\">\\(x\\) nhỏ hơn 12</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\gt \\) means “\\(x\\) is greater than 12”.",
+   "explain_vi": "Đáp án b. \\(\\gt \\): \\(x\\) lớn hơn 12.",
+   "images": [],
+   "id": "c6ba2c2054e5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D1",
+   "type": "mcq",
+   "form": "In the inequality \\(#x+#\\lt -#+#x\\), what is the left-hand side?",
+   "en": "In the inequality \\(6x+1\\lt -7+2x\\), what is the left-hand side?",
+   "vi": "Trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"inequality\">bất đẳng thức</b> \\(6x+1\\lt -7+2x\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"left-hand side (LHS)\">vế trái</b> là gì?",
+   "options": [
+    "\\(6x+1\\lt -7+2x\\)",
+    "\\(\\lt\\)",
+    "\\(-7+2x\\)",
+    "\\(6x+1\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. LHS is before the sign, RHS is after it.",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"left-hand side (LHS)\">Vế trái</b> đứng trước dấu, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"right-hand side (RHS)\">vế phải</b> đứng sau dấu.",
+   "images": [],
+   "id": "5b53eb6f5580",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Compare \\(a-#\\) and \\(a+#\\) for any real number \\(a\\).",
+   "en": "Compare \\(a-3\\) and \\(a+4\\) for any real number \\(a\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"compare\">So sánh</b> \\(a-3\\) và \\(a+4\\) với mọi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"real numbers\">số thực</b> \\(a\\).",
+   "options": [
+    "\\(a-3\\lt a+4\\)",
+    "\\(a-3\\gt a+4\\)",
+    "\\(a-3=a+4\\)",
+    "<span class=\"txi\"><span class=\"en\">it depends on \\(a\\)</span><span class=\"vi\">phụ thuộc vào \\(a\\)</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Their difference is \\(-7\\), whatever \\(a\\) is.",
+   "explain_vi": "Đáp án a. Hiệu của chúng bằng \\(-7\\) với mọi \\(a\\).",
+   "images": [],
+   "id": "1df67b63165f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Given \\(a\\le b\\). Fill in: \\(a+#\\ \\square\\ b+#\\).",
+   "en": "Given \\(a\\le b\\). Fill in: \\(a+9\\ \\square\\ b+9\\).",
+   "vi": "Cho \\(a\\le b\\). Điền dấu thích hợp: \\(a+9\\ \\square\\ b+9\\).",
+   "options": [
+    "\\(\\ge \\)",
+    "\\(\\le \\)",
+    "\\(\\gt \\)",
+    "\\(\\lt \\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Adding the same number to both sides keeps the sign.",
+   "explain_vi": "Đáp án b. Cộng cùng một số vào hai vế thì giữ nguyên chiều.",
+   "images": [],
+   "id": "ede71dbf1ce9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Given \\(x\\lt y\\). Fill in: \\(-#x\\ \\square\\ -#y\\).",
+   "en": "Given \\(x\\lt y\\). Fill in: \\(-6x\\ \\square\\ -6y\\).",
+   "vi": "Cho \\(x\\lt y\\). Điền dấu thích hợp: \\(-6x\\ \\square\\ -6y\\).",
+   "options": [
+    "\\(\\ge \\)",
+    "\\(\\gt \\)",
+    "\\(\\le \\)",
+    "\\(\\lt \\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Multiplying by \\(-6\\) reverses the sign.",
+   "explain_vi": "Đáp án b. Nhân với \\(-6\\) thì đổi chiều.",
+   "images": [],
+   "id": "4ae8e8c33b90",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Compare \\(\\dfrac{#}{#}\\) and \\(\\dfrac{#}{#}\\) without a calculator.",
+   "en": "Compare \\(\\dfrac{1955}{973}\\) and \\(\\dfrac{1440}{721}\\) without a calculator.",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"compare\">So sánh</b> \\(\\dfrac{1955}{973}\\) và \\(\\dfrac{1440}{721}\\) mà không dùng máy tính.",
+   "options": [
+    "\\(\\dfrac{1955}{973}\\le\\dfrac{1440}{721}\\)",
+    "\\(\\dfrac{1955}{973}\\gt\\dfrac{1440}{721}\\)",
+    "\\(\\dfrac{1955}{973}\\lt\\dfrac{1440}{721}\\)",
+    "\\(\\dfrac{1955}{973}=\\dfrac{1440}{721}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\dfrac{1955}{973}\\gt\\dfrac{1946}{973}=2\\) and \\(\\dfrac{1440}{721}\\lt\\dfrac{1442}{721}=2\\); use 2 as a middle number.",
+   "explain_vi": "Đáp án b. \\(\\dfrac{1955}{973}\\gt\\dfrac{1946}{973}=2\\) và \\(\\dfrac{1440}{721}\\lt\\dfrac{1442}{721}=2\\); dùng số 2 làm trung gian (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"transitive property\">tính chất bắc cầu</b>).",
+   "images": [],
+   "id": "4c0cb740bc38",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Given \\(a\\lt b\\). Which inequality about \\(#a+#\\) can we prove?",
+   "en": "Given \\(a\\lt b\\). Which inequality about \\(2a+1\\) can we prove?",
+   "vi": "Cho \\(a\\lt b\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"inequality\">Bất đẳng thức</b> nào về \\(2a+1\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"prove\">chứng minh</b> được?",
+   "options": [
+    "\\(2a+1\\gt 2b+1\\)",
+    "\\(2a-1\\lt 2b+1\\)",
+    "\\(2a+1\\lt 2b+1\\)",
+    "\\(-2a+1\\lt -2b+1\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Multiply by \\(2\\) (keep the sign), then add \\(1\\).",
+   "explain_vi": "Đáp án c. Nhân với \\(2\\) (giữ chiều), rồi cộng \\(1\\).",
+   "images": [],
+   "id": "5a29a1a3b120",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D3",
+   "type": "mcq",
+   "form": "The water temperature \\(t\\) (°C) must be at least # °C and at most # °C. Which is correct?",
+   "en": "The water temperature \\(t\\) (°C) must be at least 25 °C and at most 137 °C. Which is correct?",
+   "vi": "Nhiệt độ nước \\(t\\) (°C) phải ít nhất 25 °C và nhiều nhất 137 °C. Cách viết nào đúng?",
+   "options": [
+    "\\(25\\le t\\le 137\\)",
+    "\\(137\\le t\\le 25\\)",
+    "\\(25\\lt t\\lt 137\\)",
+    "\\(t\\lt 25\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. “greater/less than” → strict signs; “at least/at most” → \\(\\le\\).",
+   "explain_vi": "Đáp án a. “lớn hơn/nhỏ hơn” → dấu \\(\\lt\\); “ít nhất/nhiều nhất” → dấu \\(\\le\\).",
+   "images": [],
+   "id": "1c95e0e9e5a0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D4",
+   "type": "mcq",
+   "form": "For the three consecutive numbers #, #, #, compute \\(#^#-#\\cdot#\\).",
+   "en": "For the three consecutive numbers 28, 29, 30, compute \\(29^2-28\\cdot30\\).",
+   "vi": "Với ba <b class=\"mbl-term\" tabindex=\"0\" data-en=\"natural numbers\">số tự nhiên</b> liên tiếp 28, 29, 30, hãy tính \\(29^2-28\\cdot30\\).",
+   "options": [
+    "\\(1\\)",
+    "\\(0\\)",
+    "\\(58\\)",
+    "\\(-1\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(n^2-(n-1)(n+1)=n^2-(n^2-1)=1\\gt0\\): the middle number squared is always larger.",
+   "explain_vi": "Đáp án a. \\(n^2-(n-1)(n+1)=n^2-(n^2-1)=1\\gt0\\): bình phương số ở giữa luôn lớn hơn tích hai số kia.",
+   "images": [],
+   "id": "bc2bba952a3f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D4",
+   "type": "mcq",
+   "form": "Given \\(a\\ge b\\). Which inequality is NOT always true? (\\(k=#\\), \\(c=#\\))",
+   "en": "Given \\(a\\ge b\\). Which inequality is NOT always true? (\\(k=6\\), \\(c=2\\))",
+   "vi": "Cho \\(a\\ge b\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"inequality\">Bất đẳng thức</b> nào KHÔNG phải lúc nào cũng đúng? (\\(k=6\\), \\(c=2\\))",
+   "options": [
+    "\\(-6a\\le -6b\\)",
+    "\\(6a\\ge 6b\\)",
+    "\\(a^2\\ge b^2\\)",
+    "\\(a+2\\ge b+2\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Counterexample: \\(a=1,\\ b=-2\\): \\(a\\ge b\\) but \\(1\\lt 4\\).",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"counterexample\">Phản ví dụ</b>: \\(a=1,\\ b=-2\\): \\(a\\ge b\\) nhưng \\(1\\lt 4\\).",
+   "images": [],
+   "id": "0fb2a33ac130",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D4",
+   "type": "mcq",
+   "form": "We have \\(a^#+#\\ge #a\\) for every real \\(a\\). For which value of \\(a\\) does equality hold?",
+   "en": "We have \\(a^2+9\\ge 6a\\) for every real \\(a\\). For which value of \\(a\\) does equality hold?",
+   "vi": "Ta có \\(a^2+9\\ge 6a\\) với mọi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"real numbers\">số thực</b> \\(a\\). Dấu bằng xảy ra khi \\(a\\) bằng bao nhiêu?",
+   "options": [
+    "\\(a=6\\)",
+    "\\(a=-3\\)",
+    "\\(a=3\\)",
+    "\\(a=9\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(a^2+9-6a=(a-3)^2\\ge0\\); it is 0 when \\(a=3\\).",
+   "explain_vi": "Đáp án c. \\(a^2+9-6a=(a-3)^2\\ge0\\); bằng 0 khi \\(a=3\\).",
+   "images": [],
+   "id": "4b50dd57a466",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Compare \\(\\dfrac{#}{#}\\) and \\(\\dfrac{#}{#}\\).",
+   "en": "Compare \\(\\dfrac{36}{31}\\) and \\(\\dfrac{16}{11}\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"compare\">So sánh</b> \\(\\dfrac{36}{31}\\) và \\(\\dfrac{16}{11}\\).",
+   "options": [
+    "\\(\\dfrac{36}{31}\\lt\\dfrac{16}{11}\\)",
+    "\\(\\dfrac{36}{31}\\ge\\dfrac{16}{11}\\)",
+    "\\(\\dfrac{36}{31}=\\dfrac{16}{11}\\)",
+    "\\(\\dfrac{36}{31}\\gt\\dfrac{16}{11}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Write with a common denominator: \\(\\dfrac{396}{341}\\) and \\(\\dfrac{496}{341}\\).",
+   "explain_vi": "Đáp án a. Quy đồng mẫu: \\(\\dfrac{396}{341}\\) và \\(\\dfrac{496}{341}\\).",
+   "images": [],
+   "id": "dadd39df9c92",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Given \\(a\\gt b\\). Compare \\(-#a-#\\) and \\(-#b-#\\): which inequality is true?",
+   "en": "Given \\(a\\gt b\\). Compare \\(-6a-8\\) and \\(-6b-8\\): which inequality is true?",
+   "vi": "Cho \\(a\\gt b\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"compare\">So sánh</b> \\(-6a-8\\) và \\(-6b-8\\): <b class=\"mbl-term\" tabindex=\"0\" data-en=\"inequality\">bất đẳng thức</b> nào đúng?",
+   "options": [
+    "\\(a-8 \\lt  b-8\\)",
+    "\\(-6a-8 \\lt  -6b-8\\)",
+    "\\(-6a-8 \\gt  -6b-8\\)",
+    "\\(6a \\lt  6b\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Multiplying by the negative number \\(-6\\) reverses the sign; adding \\(-8\\) keeps it.",
+   "explain_vi": "Đáp án b. Nhân với số âm \\(-6\\) thì đổi chiều; cộng \\(-8\\) thì giữ nguyên chiều.",
+   "images": [],
+   "id": "5780ed3c0a93",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "The load \\(m\\) (kg) of a lift must not exceed # kg. Which inequality describes this?",
+   "en": "The load \\(m\\) (kg) of a lift must not exceed 535 kg. Which inequality describes this?",
+   "vi": "Khối lượng \\(m\\) (kg) chở trong thang máy không được vượt quá 535 kg. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"inequality\">Bất đẳng thức</b> nào mô tả điều đó?",
+   "options": [
+    "\\(m\\le  535\\)",
+    "\\(m\\gt  535\\)",
+    "\\(m\\lt  535\\)",
+    "\\(m\\ge  535\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. “at least” → \\(\\ge\\); “at most”, “not exceed” → \\(\\le\\); “greater than” → \\(\\gt\\); “less than” → \\(\\lt\\).",
+   "explain_vi": "Đáp án a. “ít nhất” → \\(\\ge\\); “nhiều nhất”, “không vượt quá” → \\(\\le\\); “lớn hơn” → \\(\\gt\\); “nhỏ hơn” → \\(\\lt\\).",
+   "images": [],
+   "id": "d629f67f162e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "If \\(a\\lt b\\) then \\(-#a-# \\lt -#b-#\\).",
+   "en": "If \\(a\\lt b\\) then \\(-2a-7 \\lt  -2b-7\\).",
+   "vi": "Nếu \\(a\\lt b\\) thì \\(-2a-7 \\lt  -2b-7\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. Multiplying by \\(-2\\) reverses the sign.",
+   "explain_vi": "Sai. Nhân với \\(-2\\) thì <b class=\"mbl-term\" tabindex=\"0\" data-en=\"reverse the inequality sign\">đổi chiều bất đẳng thức</b>.",
+   "images": [],
+   "id": "8990c68daccf",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(x^#+#\\ge #x\\) for every real number \\(x\\).",
+   "en": "\\(x^2+9\\ge 6x\\) for every real number \\(x\\).",
+   "vi": "\\(x^2+9\\ge 6x\\) với mọi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"real numbers\">số thực</b> \\(x\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. \\(x^2+9-6x=(x-3)^2\\ge0\\); equality when \\(x=3\\).",
+   "explain_vi": "Đúng. \\(x^2+9-6x=(x-3)^2\\ge0\\); dấu bằng xảy ra khi \\(x=3\\).",
+   "images": [],
+   "id": "ea18c892b280",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "Given \\(x\\ge #\\). What is the smallest possible value of \\(#x-#\\)?",
+   "en": "Given \\(x\\ge 4\\). What is the smallest possible value of \\(6x-2\\)?",
+   "vi": "Cho \\(x\\ge 4\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"minimum value\">Giá trị nhỏ nhất</b> có thể của \\(6x-2\\) là bao nhiêu?",
+   "options": [],
+   "answer": "22",
+   "explain_en": "Answer: 22. \\(x\\ge 4\\Rightarrow 6x\\ge 24\\Rightarrow 6x-2\\ge 22\\), reached at \\(x=4\\).",
+   "explain_vi": "Đáp số: 22. \\(x\\ge 4\\Rightarrow 6x\\ge 24\\Rightarrow 6x-2\\ge 22\\), đạt được khi \\(x=4\\).",
+   "images": [],
+   "id": "47be217ae74f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "The temperature \\(T\\) (°C) of a room satisfies \\(#\\le T\\lt #\\). How many whole-number values can \\(T\\) take?",
+   "en": "The temperature \\(T\\) (°C) of a room satisfies \\(9\\le T\\lt 21\\). How many whole-number values can \\(T\\) take?",
+   "vi": "Nhiệt độ \\(T\\) (°C) của một căn phòng thỏa mãn \\(9\\le T\\lt 21\\). \\(T\\) có thể nhận bao nhiêu giá trị nguyên?",
+   "options": [],
+   "answer": "12",
+   "explain_en": "Answer: 12. Count the integers in the range (watch the strict signs): 12 values.",
+   "explain_vi": "Đáp số: 12. Đếm các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"integers\">số nguyên</b> thỏa mãn (chú ý dấu không bằng): 12 giá trị.",
+   "images": [],
+   "id": "cb424a62ce99",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Given \\(x\\le y\\) and \\(y\\le z\\). Which conclusion follows?",
+   "en": "Given \\(x\\le y\\) and \\(y\\le z\\). Which conclusion follows?",
+   "vi": "Cho \\(x\\le y\\) và \\(y\\le z\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"conclusion\">Kết luận</b> nào đúng?",
+   "options": [
+    "\\(x\\ge  z\\)",
+    "\\(x=z\\)",
+    "\\(x\\le  z\\)",
+    "\\(z\\le  x\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Transitive property.",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"transitive property\">Tính chất bắc cầu</b>.",
+   "images": [],
+   "id": "ec4b1173803b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D1",
+   "type": "mcq",
+   "form": "How do we read \\(x\\le #\\)?",
+   "en": "How do we read \\(x\\le 4\\)?",
+   "vi": "Đọc \\(x\\le 4\\) như thế nào?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(x\\) is less than 4</span><span class=\"vi\">\\(x\\) nhỏ hơn 4</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(x\\) is greater than or equal to 4</span><span class=\"vi\">\\(x\\) lớn hơn hoặc bằng 4</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(x\\) is greater than 4</span><span class=\"vi\">\\(x\\) lớn hơn 4</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(x\\) is less than or equal to 4</span><span class=\"vi\">\\(x\\) nhỏ hơn hoặc bằng 4</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\le \\) means “\\(x\\) is less than or equal to 4”.",
+   "explain_vi": "Đáp án d. \\(\\le \\): \\(x\\) nhỏ hơn hoặc bằng 4.",
+   "images": [],
+   "id": "93c65ad99b06",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D1",
+   "type": "mcq",
+   "form": "In the inequality \\(#x+#\\lt -#+#x\\), what is the right-hand side?",
+   "en": "In the inequality \\(4x+7\\lt -4+2x\\), what is the right-hand side?",
+   "vi": "Trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"inequality\">bất đẳng thức</b> \\(4x+7\\lt -4+2x\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"right-hand side (RHS)\">vế phải</b> là gì?",
+   "options": [
+    "\\(\\lt\\)",
+    "\\(4x+7\\)",
+    "\\(4x+7\\lt -4+2x\\)",
+    "\\(-4+2x\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. LHS is before the sign, RHS is after it.",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"left-hand side (LHS)\">Vế trái</b> đứng trước dấu, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"right-hand side (RHS)\">vế phải</b> đứng sau dấu.",
+   "images": [],
+   "id": "a567ffa15838",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Compare \\(a+#\\) and \\(a-#\\) for any real number \\(a\\).",
+   "en": "Compare \\(a+3\\) and \\(a-6\\) for any real number \\(a\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"compare\">So sánh</b> \\(a+3\\) và \\(a-6\\) với mọi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"real numbers\">số thực</b> \\(a\\).",
+   "options": [
+    "\\(a+3\\lt a-6\\)",
+    "<span class=\"txi\"><span class=\"en\">it depends on \\(a\\)</span><span class=\"vi\">phụ thuộc vào \\(a\\)</span></span>",
+    "\\(a+3=a-6\\)",
+    "\\(a+3\\gt a-6\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Their difference is \\(9\\), whatever \\(a\\) is.",
+   "explain_vi": "Đáp án d. Hiệu của chúng bằng \\(9\\) với mọi \\(a\\).",
+   "images": [],
+   "id": "905462e78332",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Given \\(a\\lt b\\). Fill in: \\(a+#\\ \\square\\ b+#\\).",
+   "en": "Given \\(a\\lt b\\). Fill in: \\(a+4\\ \\square\\ b+4\\).",
+   "vi": "Cho \\(a\\lt b\\). Điền dấu thích hợp: \\(a+4\\ \\square\\ b+4\\).",
+   "options": [
+    "\\(\\le \\)",
+    "\\(\\gt \\)",
+    "\\(\\lt \\)",
+    "\\(\\ge \\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Adding the same number to both sides keeps the sign.",
+   "explain_vi": "Đáp án c. Cộng cùng một số vào hai vế thì giữ nguyên chiều.",
+   "images": [],
+   "id": "186bcf3a3e2a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Given \\(x\\lt y\\). Fill in: \\(#x\\ \\square\\ #y\\).",
+   "en": "Given \\(x\\lt y\\). Fill in: \\(5x\\ \\square\\ 5y\\).",
+   "vi": "Cho \\(x\\lt y\\). Điền dấu thích hợp: \\(5x\\ \\square\\ 5y\\).",
+   "options": [
+    "\\(\\gt \\)",
+    "\\(\\ge \\)",
+    "\\(\\le \\)",
+    "\\(\\lt \\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Multiplying by \\(5\\) keeps the sign.",
+   "explain_vi": "Đáp án d. Nhân với \\(5\\) thì giữ nguyên chiều.",
+   "images": [],
+   "id": "e84dbbfe42d4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Compare \\(\\dfrac{#}{#}\\) and \\(\\dfrac{#}{#}\\) without a calculator.",
+   "en": "Compare \\(\\dfrac{3431}{1715}\\) and \\(\\dfrac{1512}{760}\\) without a calculator.",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"compare\">So sánh</b> \\(\\dfrac{3431}{1715}\\) và \\(\\dfrac{1512}{760}\\) mà không dùng máy tính.",
+   "options": [
+    "\\(\\dfrac{3431}{1715}\\lt\\dfrac{1512}{760}\\)",
+    "\\(\\dfrac{3431}{1715}\\le\\dfrac{1512}{760}\\)",
+    "\\(\\dfrac{3431}{1715}\\gt\\dfrac{1512}{760}\\)",
+    "\\(\\dfrac{3431}{1715}=\\dfrac{1512}{760}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\dfrac{3431}{1715}\\gt\\dfrac{3430}{1715}=2\\) and \\(\\dfrac{1512}{760}\\lt\\dfrac{1520}{760}=2\\); use 2 as a middle number.",
+   "explain_vi": "Đáp án c. \\(\\dfrac{3431}{1715}\\gt\\dfrac{3430}{1715}=2\\) và \\(\\dfrac{1512}{760}\\lt\\dfrac{1520}{760}=2\\); dùng số 2 làm trung gian (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"transitive property\">tính chất bắc cầu</b>).",
+   "images": [],
+   "id": "546572666935",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Given \\(a\\lt b\\). Which inequality about \\(#a-#\\) can we prove?",
+   "en": "Given \\(a\\lt b\\). Which inequality about \\(6a-1\\) can we prove?",
+   "vi": "Cho \\(a\\lt b\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"inequality\">Bất đẳng thức</b> nào về \\(6a-1\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"prove\">chứng minh</b> được?",
+   "options": [
+    "\\(-6a-1\\lt -6b-1\\)",
+    "\\(6a+1\\lt 6b-1\\)",
+    "\\(6a-1\\gt 6b-1\\)",
+    "\\(6a-1\\lt 6b-1\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Multiply by \\(6\\) (keep the sign), then add \\(-1\\).",
+   "explain_vi": "Đáp án d. Nhân với \\(6\\) (giữ chiều), rồi cộng \\(-1\\).",
+   "images": [],
+   "id": "0455ac9233a5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D3",
+   "type": "mcq",
+   "form": "The height \\(h\\) (m) of a drone must be greater than # m and less than # m. Which is correct?",
+   "en": "The height \\(h\\) (m) of a drone must be greater than 55 m and less than 105 m. Which is correct?",
+   "vi": "Độ cao \\(h\\) (m) của flycam phải lớn hơn 55 m và nhỏ hơn 105 m. Cách viết nào đúng?",
+   "options": [
+    "\\(55\\lt h\\lt 105\\)",
+    "\\(55\\le h\\le 105\\)",
+    "\\(105\\lt h\\lt 55\\)",
+    "\\(h\\lt 55\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. “greater/less than” → strict signs; “at least/at most” → \\(\\le\\).",
+   "explain_vi": "Đáp án a. “lớn hơn/nhỏ hơn” → dấu \\(\\lt\\); “ít nhất/nhiều nhất” → dấu \\(\\le\\).",
+   "images": [],
+   "id": "36afb70203f3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D4",
+   "type": "mcq",
+   "form": "For the three consecutive numbers #, #, #, compute \\(#^#-#\\cdot#\\).",
+   "en": "For the three consecutive numbers 58, 59, 60, compute \\(59^2-58\\cdot60\\).",
+   "vi": "Với ba <b class=\"mbl-term\" tabindex=\"0\" data-en=\"natural numbers\">số tự nhiên</b> liên tiếp 58, 59, 60, hãy tính \\(59^2-58\\cdot60\\).",
+   "options": [
+    "\\(0\\)",
+    "\\(118\\)",
+    "\\(1\\)",
+    "\\(-1\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(n^2-(n-1)(n+1)=n^2-(n^2-1)=1\\gt0\\): the middle number squared is always larger.",
+   "explain_vi": "Đáp án c. \\(n^2-(n-1)(n+1)=n^2-(n^2-1)=1\\gt0\\): bình phương số ở giữa luôn lớn hơn tích hai số kia.",
+   "images": [],
+   "id": "7fabf6085a07",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D4",
+   "type": "mcq",
+   "form": "Given \\(a\\ge b\\). Which inequality is NOT always true? (\\(k=#\\), \\(c=#\\))",
+   "en": "Given \\(a\\ge b\\). Which inequality is NOT always true? (\\(k=6\\), \\(c=5\\))",
+   "vi": "Cho \\(a\\ge b\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"inequality\">Bất đẳng thức</b> nào KHÔNG phải lúc nào cũng đúng? (\\(k=6\\), \\(c=5\\))",
+   "options": [
+    "\\(a+5\\ge b+5\\)",
+    "\\(6a\\ge 6b\\)",
+    "\\(-6a\\le -6b\\)",
+    "\\(a^2\\ge b^2\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Counterexample: \\(a=1,\\ b=-2\\): \\(a\\ge b\\) but \\(1\\lt 4\\).",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"counterexample\">Phản ví dụ</b>: \\(a=1,\\ b=-2\\): \\(a\\ge b\\) nhưng \\(1\\lt 4\\).",
+   "images": [],
+   "id": "9ed4d2ff2e74",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D4",
+   "type": "mcq",
+   "form": "We have \\(a^#+#\\ge -#a\\) for every real \\(a\\). For which value of \\(a\\) does equality hold?",
+   "en": "We have \\(a^2+81\\ge -18a\\) for every real \\(a\\). For which value of \\(a\\) does equality hold?",
+   "vi": "Ta có \\(a^2+81\\ge -18a\\) với mọi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"real numbers\">số thực</b> \\(a\\). Dấu bằng xảy ra khi \\(a\\) bằng bao nhiêu?",
+   "options": [
+    "\\(a=9\\)",
+    "\\(a=81\\)",
+    "\\(a=-18\\)",
+    "\\(a=-9\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(a^2+81--18a=(a+9)^2\\ge0\\); it is 0 when \\(a=-9\\).",
+   "explain_vi": "Đáp án d. \\(a^2+81--18a=(a+9)^2\\ge0\\); bằng 0 khi \\(a=-9\\).",
+   "images": [],
+   "id": "cf1f56348444",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Compare \\(\\dfrac{#}{#}\\) and \\(\\dfrac{#}{#}\\).",
+   "en": "Compare \\(\\dfrac{26}{31}\\) and \\(\\dfrac{21}{31}\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"compare\">So sánh</b> \\(\\dfrac{26}{31}\\) và \\(\\dfrac{21}{31}\\).",
+   "options": [
+    "\\(\\dfrac{26}{31}=\\dfrac{21}{31}\\)",
+    "\\(\\dfrac{26}{31}\\gt\\dfrac{21}{31}\\)",
+    "\\(\\dfrac{26}{31}\\ge\\dfrac{21}{31}\\)",
+    "\\(\\dfrac{26}{31}\\lt\\dfrac{21}{31}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Write with a common denominator: \\(\\dfrac{806}{961}\\) and \\(\\dfrac{651}{961}\\).",
+   "explain_vi": "Đáp án b. Quy đồng mẫu: \\(\\dfrac{806}{961}\\) và \\(\\dfrac{651}{961}\\).",
+   "images": [],
+   "id": "8a02dc0d6a22",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Given \\(a\\gt b\\). Compare \\(-#a+#\\) and \\(-#b+#\\): which inequality is true?",
+   "en": "Given \\(a\\gt b\\). Compare \\(-4a+9\\) and \\(-4b+9\\): which inequality is true?",
+   "vi": "Cho \\(a\\gt b\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"compare\">So sánh</b> \\(-4a+9\\) và \\(-4b+9\\): <b class=\"mbl-term\" tabindex=\"0\" data-en=\"inequality\">bất đẳng thức</b> nào đúng?",
+   "options": [
+    "\\(4a \\lt  4b\\)",
+    "\\(-4a+9 \\lt  -4b+9\\)",
+    "\\(a+9 \\lt  b+9\\)",
+    "\\(-4a+9 \\gt  -4b+9\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Multiplying by the negative number \\(-4\\) reverses the sign; adding \\(9\\) keeps it.",
+   "explain_vi": "Đáp án b. Nhân với số âm \\(-4\\) thì đổi chiều; cộng \\(9\\) thì giữ nguyên chiều.",
+   "images": [],
+   "id": "a8d1ae343310",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "The height \\(h\\) (m) of a drone is greater than # m. Which inequality describes this?",
+   "en": "The height \\(h\\) (m) of a drone is greater than 137 m. Which inequality describes this?",
+   "vi": "Độ cao \\(h\\) (m) của một chiếc flycam lớn hơn 137 m. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"inequality\">Bất đẳng thức</b> nào mô tả điều đó?",
+   "options": [
+    "\\(h\\ge  137\\)",
+    "\\(h\\gt  137\\)",
+    "\\(h\\le  137\\)",
+    "\\(h\\lt  137\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. “at least” → \\(\\ge\\); “at most”, “not exceed” → \\(\\le\\); “greater than” → \\(\\gt\\); “less than” → \\(\\lt\\).",
+   "explain_vi": "Đáp án b. “ít nhất” → \\(\\ge\\); “nhiều nhất”, “không vượt quá” → \\(\\le\\); “lớn hơn” → \\(\\gt\\); “nhỏ hơn” → \\(\\lt\\).",
+   "images": [],
+   "id": "51915f36dabe",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "If \\(a\\lt b\\) then \\(#a+# \\gt #b+#\\).",
+   "en": "If \\(a\\lt b\\) then \\(4a+9 \\gt  4b+9\\).",
+   "vi": "Nếu \\(a\\lt b\\) thì \\(4a+9 \\gt  4b+9\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. Multiplying by \\(4\\) keeps the sign.",
+   "explain_vi": "Sai. Nhân với \\(4\\) thì giữ nguyên chiều <b class=\"mbl-term\" tabindex=\"0\" data-en=\"inequality\">bất đẳng thức</b>.",
+   "images": [],
+   "id": "c403d25f58ed",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(x^#+#\\gt #x\\) for every real number \\(x\\).",
+   "en": "\\(x^2+64\\gt 16x\\) for every real number \\(x\\).",
+   "vi": "\\(x^2+64\\gt 16x\\) với mọi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"real numbers\">số thực</b> \\(x\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. \\(x^2+64-16x=(x-8)^2\\ge0\\); equality when \\(x=8\\).",
+   "explain_vi": "Sai. \\(x^2+64-16x=(x-8)^2\\ge0\\); dấu bằng xảy ra khi \\(x=8\\).",
+   "images": [],
+   "id": "8d809db68215",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Given \\(x\\ge #\\). What is the smallest possible value of \\(#x-#\\)?",
+   "en": "Given \\(x\\ge 6\\). What is the smallest possible value of \\(3x-8\\)?",
+   "vi": "Cho \\(x\\ge 6\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"minimum value\">Giá trị nhỏ nhất</b> có thể của \\(3x-8\\) là bao nhiêu?",
+   "options": [],
+   "answer": "10",
+   "explain_en": "Answer: 10. \\(x\\ge 6\\Rightarrow 3x\\ge 18\\Rightarrow 3x-8\\ge 10\\), reached at \\(x=6\\).",
+   "explain_vi": "Đáp số: 10. \\(x\\ge 6\\Rightarrow 3x\\ge 18\\Rightarrow 3x-8\\ge 10\\), đạt được khi \\(x=6\\).",
+   "images": [],
+   "id": "ca10d62d0b62",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "The temperature \\(T\\) (°C) of a room satisfies \\(#\\le T\\lt #\\). How many whole-number values can \\(T\\) take?",
+   "en": "The temperature \\(T\\) (°C) of a room satisfies \\(2\\le T\\lt 7\\). How many whole-number values can \\(T\\) take?",
+   "vi": "Nhiệt độ \\(T\\) (°C) của một căn phòng thỏa mãn \\(2\\le T\\lt 7\\). \\(T\\) có thể nhận bao nhiêu giá trị nguyên?",
+   "options": [],
+   "answer": "5",
+   "explain_en": "Answer: 5. Count the integers in the range (watch the strict signs): 5 values.",
+   "explain_vi": "Đáp số: 5. Đếm các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"integers\">số nguyên</b> thỏa mãn (chú ý dấu không bằng): 5 giá trị.",
+   "images": [],
+   "id": "7e7cc1333755",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Given \\(m\\le n\\) and \\(n\\le p\\). Which conclusion follows?",
+   "en": "Given \\(m\\le n\\) and \\(n\\le p\\). Which conclusion follows?",
+   "vi": "Cho \\(m\\le n\\) và \\(n\\le p\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"conclusion\">Kết luận</b> nào đúng?",
+   "options": [
+    "\\(m=p\\)",
+    "\\(p\\le  m\\)",
+    "\\(m\\ge  p\\)",
+    "\\(m\\le  p\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Transitive property.",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"transitive property\">Tính chất bắc cầu</b>.",
+   "images": [],
+   "id": "852d475bb91a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D1",
+   "type": "mcq",
+   "form": "How do we read \\(x\\le #\\)?",
+   "en": "How do we read \\(x\\le 0\\)?",
+   "vi": "Đọc \\(x\\le 0\\) như thế nào?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(x\\) is less than 0</span><span class=\"vi\">\\(x\\) nhỏ hơn 0</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(x\\) is greater than 0</span><span class=\"vi\">\\(x\\) lớn hơn 0</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(x\\) is less than or equal to 0</span><span class=\"vi\">\\(x\\) nhỏ hơn hoặc bằng 0</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(x\\) is greater than or equal to 0</span><span class=\"vi\">\\(x\\) lớn hơn hoặc bằng 0</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\le \\) means “\\(x\\) is less than or equal to 0”.",
+   "explain_vi": "Đáp án c. \\(\\le \\): \\(x\\) nhỏ hơn hoặc bằng 0.",
+   "images": [],
+   "id": "2751506c9dee",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D1",
+   "type": "mcq",
+   "form": "In the inequality \\(-#x+#\\lt #+#x\\), what is the right-hand side?",
+   "en": "In the inequality \\(-7x+4\\lt 2+2x\\), what is the right-hand side?",
+   "vi": "Trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"inequality\">bất đẳng thức</b> \\(-7x+4\\lt 2+2x\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"right-hand side (RHS)\">vế phải</b> là gì?",
+   "options": [
+    "\\(2+2x\\)",
+    "\\(-7x+4\\)",
+    "\\(-7x+4\\lt 2+2x\\)",
+    "\\(\\lt\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. LHS is before the sign, RHS is after it.",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"left-hand side (LHS)\">Vế trái</b> đứng trước dấu, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"right-hand side (RHS)\">vế phải</b> đứng sau dấu.",
+   "images": [],
+   "id": "5e933670be75",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Compare \\(a+#\\) and \\(a-#\\) for any real number \\(a\\).",
+   "en": "Compare \\(a+7\\) and \\(a-7\\) for any real number \\(a\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"compare\">So sánh</b> \\(a+7\\) và \\(a-7\\) với mọi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"real numbers\">số thực</b> \\(a\\).",
+   "options": [
+    "\\(a+7\\lt a-7\\)",
+    "\\(a+7\\gt a-7\\)",
+    "\\(a+7=a-7\\)",
+    "<span class=\"txi\"><span class=\"en\">it depends on \\(a\\)</span><span class=\"vi\">phụ thuộc vào \\(a\\)</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Their difference is \\(14\\), whatever \\(a\\) is.",
+   "explain_vi": "Đáp án b. Hiệu của chúng bằng \\(14\\) với mọi \\(a\\).",
+   "images": [],
+   "id": "5c3be81a4143",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Given \\(a\\gt b\\). Fill in: \\(a+#\\ \\square\\ b+#\\).",
+   "en": "Given \\(a\\gt b\\). Fill in: \\(a+6\\ \\square\\ b+6\\).",
+   "vi": "Cho \\(a\\gt b\\). Điền dấu thích hợp: \\(a+6\\ \\square\\ b+6\\).",
+   "options": [
+    "\\(\\lt \\)",
+    "\\(\\gt \\)",
+    "\\(\\ge \\)",
+    "\\(\\le \\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Adding the same number to both sides keeps the sign.",
+   "explain_vi": "Đáp án b. Cộng cùng một số vào hai vế thì giữ nguyên chiều.",
+   "images": [],
+   "id": "4d891f8d8fff",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Given \\(x\\ge y\\). Fill in: \\(-#x\\ \\square\\ -#y\\).",
+   "en": "Given \\(x\\ge y\\). Fill in: \\(-9x\\ \\square\\ -9y\\).",
+   "vi": "Cho \\(x\\ge y\\). Điền dấu thích hợp: \\(-9x\\ \\square\\ -9y\\).",
+   "options": [
+    "\\(\\le \\)",
+    "\\(\\gt \\)",
+    "\\(\\lt \\)",
+    "\\(\\ge \\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Multiplying by \\(-9\\) reverses the sign.",
+   "explain_vi": "Đáp án a. Nhân với \\(-9\\) thì đổi chiều.",
+   "images": [],
+   "id": "d98d8c365b95",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Compare \\(\\dfrac{#}{#}\\) and \\(\\dfrac{#}{#}\\) without a calculator.",
+   "en": "Compare \\(\\dfrac{3065}{1531}\\) and \\(\\dfrac{1089}{546}\\) without a calculator.",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"compare\">So sánh</b> \\(\\dfrac{3065}{1531}\\) và \\(\\dfrac{1089}{546}\\) mà không dùng máy tính.",
+   "options": [
+    "\\(\\dfrac{3065}{1531}\\le\\dfrac{1089}{546}\\)",
+    "\\(\\dfrac{3065}{1531}\\gt\\dfrac{1089}{546}\\)",
+    "\\(\\dfrac{3065}{1531}=\\dfrac{1089}{546}\\)",
+    "\\(\\dfrac{3065}{1531}\\lt\\dfrac{1089}{546}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\dfrac{3065}{1531}\\gt\\dfrac{3062}{1531}=2\\) and \\(\\dfrac{1089}{546}\\lt\\dfrac{1092}{546}=2\\); use 2 as a middle number.",
+   "explain_vi": "Đáp án b. \\(\\dfrac{3065}{1531}\\gt\\dfrac{3062}{1531}=2\\) và \\(\\dfrac{1089}{546}\\lt\\dfrac{1092}{546}=2\\); dùng số 2 làm trung gian (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"transitive property\">tính chất bắc cầu</b>).",
+   "images": [],
+   "id": "add5eb381550",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Given \\(a\\gt b\\). Which inequality about \\(#a-#\\) can we prove?",
+   "en": "Given \\(a\\gt b\\). Which inequality about \\(6a-5\\) can we prove?",
+   "vi": "Cho \\(a\\gt b\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"inequality\">Bất đẳng thức</b> nào về \\(6a-5\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"prove\">chứng minh</b> được?",
+   "options": [
+    "\\(-6a-5\\gt -6b-5\\)",
+    "\\(6a+5\\gt 6b-5\\)",
+    "\\(6a-5\\lt 6b-5\\)",
+    "\\(6a-5\\gt 6b-5\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Multiply by \\(6\\) (keep the sign), then add \\(-5\\).",
+   "explain_vi": "Đáp án d. Nhân với \\(6\\) (giữ chiều), rồi cộng \\(-5\\).",
+   "images": [],
+   "id": "701e53665609",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D3",
+   "type": "mcq",
+   "form": "The water temperature \\(t\\) (°C) must be at least # °C and at most # °C. Which is correct?",
+   "en": "The water temperature \\(t\\) (°C) must be at least 13 °C and at most 114 °C. Which is correct?",
+   "vi": "Nhiệt độ nước \\(t\\) (°C) phải ít nhất 13 °C và nhiều nhất 114 °C. Cách viết nào đúng?",
+   "options": [
+    "\\(114\\le t\\le 13\\)",
+    "\\(t\\lt 13\\)",
+    "\\(13\\le t\\le 114\\)",
+    "\\(13\\lt t\\lt 114\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. “greater/less than” → strict signs; “at least/at most” → \\(\\le\\).",
+   "explain_vi": "Đáp án c. “lớn hơn/nhỏ hơn” → dấu \\(\\lt\\); “ít nhất/nhiều nhất” → dấu \\(\\le\\).",
+   "images": [],
+   "id": "de45c6ad4169",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D4",
+   "type": "mcq",
+   "form": "For the three consecutive numbers #, #, #, compute \\(#^#-#\\cdot#\\).",
+   "en": "For the three consecutive numbers 11, 12, 13, compute \\(12^2-11\\cdot13\\).",
+   "vi": "Với ba <b class=\"mbl-term\" tabindex=\"0\" data-en=\"natural numbers\">số tự nhiên</b> liên tiếp 11, 12, 13, hãy tính \\(12^2-11\\cdot13\\).",
+   "options": [
+    "\\(1\\)",
+    "\\(24\\)",
+    "\\(0\\)",
+    "\\(-1\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(n^2-(n-1)(n+1)=n^2-(n^2-1)=1\\gt0\\): the middle number squared is always larger.",
+   "explain_vi": "Đáp án a. \\(n^2-(n-1)(n+1)=n^2-(n^2-1)=1\\gt0\\): bình phương số ở giữa luôn lớn hơn tích hai số kia.",
+   "images": [],
+   "id": "33dd14fad6d2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D4",
+   "type": "mcq",
+   "form": "Let \\(a\\ge b\\). Which statement can be false? (\\(k=#\\), \\(c=#\\))",
+   "en": "Let \\(a\\ge b\\). Which statement can be false? (\\(k=7\\), \\(c=8\\))",
+   "vi": "Cho \\(a\\ge b\\). Khẳng định nào có thể sai? (\\(k=7\\), \\(c=8\\))",
+   "options": [
+    "\\(a+8\\ge b+8\\)",
+    "\\(-7a\\le -7b\\)",
+    "\\(7a\\ge 7b\\)",
+    "\\(a^2\\ge b^2\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Counterexample: \\(a=1,\\ b=-2\\): \\(a\\ge b\\) but \\(1\\lt 4\\).",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"counterexample\">Phản ví dụ</b>: \\(a=1,\\ b=-2\\): \\(a\\ge b\\) nhưng \\(1\\lt 4\\).",
+   "images": [],
+   "id": "4bd5511fdac8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D4",
+   "type": "mcq",
+   "form": "We have \\(a^#+#\\ge -#a\\) for every real \\(a\\). For which value of \\(a\\) does equality hold?",
+   "en": "We have \\(a^2+64\\ge -16a\\) for every real \\(a\\). For which value of \\(a\\) does equality hold?",
+   "vi": "Ta có \\(a^2+64\\ge -16a\\) với mọi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"real numbers\">số thực</b> \\(a\\). Dấu bằng xảy ra khi \\(a\\) bằng bao nhiêu?",
+   "options": [
+    "\\(a=-8\\)",
+    "\\(a=64\\)",
+    "\\(a=-16\\)",
+    "\\(a=8\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(a^2+64--16a=(a+8)^2\\ge0\\); it is 0 when \\(a=-8\\).",
+   "explain_vi": "Đáp án a. \\(a^2+64--16a=(a+8)^2\\ge0\\); bằng 0 khi \\(a=-8\\).",
+   "images": [],
+   "id": "c082b17b29ee",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  }
+ ]
+}

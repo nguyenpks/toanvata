@@ -1,0 +1,1029 @@
+{
+ "lesson": "g10-comb-01",
+ "grade": 10,
+ "no": 23,
+ "title": "Quy tắc đếm",
+ "path": "lessons/grade10/combinatorics/counting-rules.html",
+ "items": [
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "A library shelf has # maths books, # physics books and # chemistry books (all different). In how many ways can you borrow one book?",
+   "en": "A library shelf has 7 maths books, 5 physics books and 4 chemistry books (all different). In how many ways can you borrow one book?",
+   "vi": "Một giá sách có 7 cuốn Toán, 5 cuốn Vật lí, 4 cuốn Hóa học (đôi một khác nhau). Có bao nhiêu cách mượn một cuốn?",
+   "options": [
+    "\\(140\\)",
+    "\\(16\\)",
+    "\\(39\\)",
+    "\\(12\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Rule of sum.",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"rule of sum\">Quy tắc cộng</b>: \\(7+5+4\\).",
+   "images": [],
+   "id": "759360d5f8ab",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "A set menu has one starter (# kinds), one main dish (# kinds) and one drink (# kinds). How many menus?",
+   "en": "A set menu has one starter (3 kinds), one main dish (5 kinds) and one drink (4 kinds). How many menus?",
+   "vi": "Một suất ăn gồm một món khai vị (3 loại), một món chính (5 loại) và một đồ uống (4 loại). Có bao nhiêu suất ăn khác nhau?",
+   "options": [
+    "\\(60\\)",
+    "\\(12\\)",
+    "\\(19\\)",
+    "\\(27\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Rule of product.",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"rule of product\">Quy tắc nhân</b>: \\(3\\cdot5\\cdot4\\).",
+   "images": [],
+   "id": "edf87188cc8f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "A→B: # roads; B→C: # roads; A→C directly: # roads. Ways from A to C?",
+   "en": "A→B: 3 roads; B→C: 4 roads; A→C directly: 2 roads. Ways from A to C?",
+   "vi": "Từ A đến B có 3 đường, từ B đến C có 4 đường, từ A đến thẳng C có 2 đường. Số cách đi từ A đến C là…",
+   "options": [
+    "\\(9\\)",
+    "\\(24\\)",
+    "\\(12\\)",
+    "\\(14\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Via B: \\(3\\cdot4\\); direct: 2.",
+   "explain_vi": "Đáp án d. Qua B: \\(3\\cdot4\\); đi thẳng: 2; cộng lại.",
+   "images": [],
+   "id": "60ac855ecf95",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "# has exactly # positive divisors.",
+   "en": "72 has exactly 12 positive divisors.",
+   "vi": "Số 72 có đúng 12 ước nguyên dương.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "It has 12.",
+   "explain_vi": "Phân tích thừa <b class=\"mbl-term\" tabindex=\"0\" data-en=\"integers\">số nguyên</b> tố rồi nhân các (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"exponent\">số mũ</b> + 1): có 12 ước.",
+   "images": [],
+   "id": "9afd6ca840f8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "From the digits \\(#,\\,#,\\,#,\\,#\\) one can form exactly # numbers with # digits (repetition allowed).",
+   "en": "From the digits \\(1,\\,2,\\,3,\\,4\\) one can form exactly 64 numbers with 3 digits (repetition allowed).",
+   "vi": "Từ các chữ số \\(1,\\,2,\\,3,\\,4\\) lập được đúng 64 số có 3 chữ số (các chữ số có thể lặp lại).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "There are 64 such numbers.",
+   "explain_vi": "Có \\(4\\cdot4^{2}=64\\) số.",
+   "images": [],
+   "id": "185b51b3614b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "A door code has # digits, all different. How many codes are possible?",
+   "en": "A door code has 3 digits, all different. How many codes are possible?",
+   "vi": "Mã khóa cửa gồm 3 chữ số đôi một khác nhau. Có bao nhiêu mã?",
+   "options": [],
+   "answer": "720",
+   "explain_en": "\\(10\\cdot9\\cdots\\).",
+   "explain_vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"rule of product\">Quy tắc nhân</b>: \\(10\\cdot9\\cdot8=720\\).",
+   "images": [],
+   "id": "8e21c04f9537",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "How many #-digit numbers with distinct digits can be formed from \\(#,\\,#,\\,#,\\,#,\\,#\\)?",
+   "en": "How many 3-digit numbers with distinct digits can be formed from \\(0,\\,1,\\,2,\\,3,\\,4\\)?",
+   "vi": "Từ các chữ số \\(0,\\,1,\\,2,\\,3,\\,4\\) lập được bao nhiêu số có 3 chữ số đôi một khác nhau?",
+   "options": [],
+   "answer": "48",
+   "explain_en": "First digit not 0, no repetition.",
+   "explain_vi": "Chữ số đầu khác 0, các chữ số không lặp: 48 số.",
+   "images": [],
+   "id": "477e31a5a07f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "A canteen offers # kinds of rice dishes, # kinds of noodle dishes and # kinds of bread. A student chooses one dish. How many choices are there?",
+   "en": "A canteen offers 12 kinds of rice dishes, 6 kinds of noodle dishes and 7 kinds of bread. A student chooses one dish. How many choices are there?",
+   "vi": "Căng tin có 12 món cơm, 6 món bún/phở và 7 loại bánh mì. Một học sinh chọn một món. Có bao nhiêu cách chọn?",
+   "options": [
+    "\\(504\\)",
+    "\\(79\\)",
+    "\\(25\\)",
+    "\\(54\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Rule of sum (the cases do not overlap).",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"rule of sum\">Quy tắc cộng</b> (ba phương án không <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coincide\">trùng nhau</b>): \\(12+6+7=25\\).",
+   "images": [],
+   "id": "8c803d8d911a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "A licence plate has # letter(s) (from # letters) followed by # digits (#–#). How many plates are possible?",
+   "en": "A licence plate has 2 letter(s) (from 26 letters) followed by 3 digits (0–9). How many plates are possible?",
+   "vi": "Một biển số gồm 2 chữ cái (chọn trong 26 chữ cái) và tiếp theo là 3 chữ số (từ 0 đến 9). Có thể tạo được bao nhiêu biển số?",
+   "options": [
+    "\\(468000\\)",
+    "\\(82\\)",
+    "\\(1676\\)",
+    "\\(676000\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Rule of product: \\(26^{2}\\cdot10^{3}\\).",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"rule of product\">Quy tắc nhân</b>: \\(26^{2}\\cdot10^{3}=676000\\).",
+   "images": [],
+   "id": "a98acb3c3bb3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "From A to B there are # roads, from B to C # roads, and # direct roads from A to C. How many ways are there to go from A to C?",
+   "en": "From A to B there are 4 roads, from B to C 5 roads, and 1 direct roads from A to C. How many ways are there to go from A to C?",
+   "vi": "Từ A đến B có 4 con đường, từ B đến C có 5 con đường, ngoài ra có 1 con đường đi thẳng từ A đến C. Có bao nhiêu cách đi từ A đến C?",
+   "options": [
+    "\\(10\\)",
+    "\\(25\\)",
+    "\\(21\\)",
+    "\\(20\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Via B: \\(4\\cdot5\\); direct: \\(1\\); add.",
+   "explain_vi": "Đáp án c. Qua B: \\(4\\cdot5=20\\) cách (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"rule of product\">quy tắc nhân</b>); đi thẳng: 1 cách; cộng lại: 21.",
+   "images": [],
+   "id": "617476e882a5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "How many #-digit numbers can be formed from the digits \\(#,\\,#,\\,#,\\,#\\) (digits may repeat)?",
+   "en": "How many 4-digit numbers can be formed from the digits \\(0,\\,2,\\,6,\\,9\\) (digits may repeat)?",
+   "vi": "Có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"natural numbers\">số tự nhiên</b> có 4 chữ số được lập từ các chữ số \\(0,\\,2,\\,6,\\,9\\) (các chữ số có thể lặp lại)?",
+   "options": [
+    "\\(18\\)",
+    "\\(256\\)",
+    "\\(192\\)",
+    "\\(24\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. First digit: 3 choices (not 0); each other digit: 4.",
+   "explain_vi": "Đáp án c. Chữ số đầu: 3 cách (khác 0); mỗi chữ số còn lại: 4 cách; <b class=\"mbl-term\" tabindex=\"0\" data-en=\"rule of product\">quy tắc nhân</b>.",
+   "images": [],
+   "id": "22f83a5f0631",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "How many #-digit numbers with \\lt b\\gt distinct\\lt /b\\gt digits can be formed from \\(#,\\,#,\\,#,\\,#,\\,#,\\,#,\\,#\\)?",
+   "en": "How many 4-digit numbers with \\lt b\\gt distinct\\lt /b\\gt  digits can be formed from \\(0,\\,1,\\,2,\\,3,\\,7,\\,8,\\,9\\)?",
+   "vi": "Có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"natural numbers\">số tự nhiên</b> có 4 chữ số \\lt b\\gt đôi một khác nhau\\lt /b\\gt  lập từ các chữ số \\(0,\\,1,\\,2,\\,3,\\,7,\\,8,\\,9\\)?",
+   "options": [
+    "\\(2401\\)",
+    "\\(720\\)",
+    "\\(840\\)",
+    "\\(2058\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. First digit not 0, then the others without repetition.",
+   "explain_vi": "Đáp án b. Chọn chữ số đầu (khác 0), rồi các chữ số còn lại không lặp; kết quả 720.",
+   "images": [],
+   "id": "d708d7b88602",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "How many \\lt b\\gt even\\lt /b\\gt #-digit numbers with distinct digits can be formed from \\(#,\\,#,\\,#,\\,#,\\,#,\\,#,\\,#\\)?",
+   "en": "How many \\lt b\\gt even\\lt /b\\gt  3-digit numbers with distinct digits can be formed from \\(0,\\,1,\\,2,\\,4,\\,7,\\,8,\\,9\\)?",
+   "vi": "Có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"natural numbers\">số tự nhiên</b> \\lt b\\gt chẵn\\lt /b\\gt  có 3 chữ số đôi một khác nhau lập từ các chữ số \\(0,\\,1,\\,2,\\,4,\\,7,\\,8,\\,9\\)?",
+   "options": [
+    "\\(107\\)",
+    "\\(75\\)",
+    "\\(105\\)",
+    "\\(180\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Choose the last digit first (even); if 0 is used, split into cases.",
+   "explain_vi": "Đáp án c. Chọn chữ số hàng đơn vị trước (chẵn); nếu có chữ số 0 thì chia trường hợp tận cùng là 0 hoặc khác 0. Kết quả 105.",
+   "images": [],
+   "id": "1beb63dae2dd",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "How many positive divisors does \\(#\\) have?",
+   "en": "How many positive divisors does \\(40\\) have?",
+   "vi": "Số \\(40\\) có bao nhiêu ước nguyên dương?",
+   "options": [
+    "\\(5\\)",
+    "\\(7\\)",
+    "\\(8\\)",
+    "\\(9\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(40=2^{3}\\cdot5^{1}\\): a divisor is \\(2^i3^j5^k\\).",
+   "explain_vi": "Đáp án c. \\(40=2^{3}\\cdot5^{1}\\); mỗi ước có dạng \\(2^i3^j5^k\\): số ước \\(=(3+1)(0+1)(1+1)=8\\).",
+   "images": [],
+   "id": "61757b57232b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Lan has # shirts, # skirts and # pairs of shoes. An outfit is one of each. How many outfits are there?",
+   "en": "Lan has 6 shirts, 3 skirts and 4 pairs of shoes. An outfit is one of each. How many outfits are there?",
+   "vi": "Lan có 6 áo, 3 chân váy và 4 đôi giày. Một bộ trang phục gồm một áo, một váy, một đôi giày. Có bao nhiêu bộ?",
+   "options": [
+    "\\(13\\)",
+    "\\(72\\)",
+    "\\(22\\)",
+    "\\(42\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Rule of product (three successive choices).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"rule of product\">Quy tắc nhân</b> (chọn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"respectively\">lần lượt</b> ba thứ): \\(6\\cdot3\\cdot4=72\\).",
+   "images": [],
+   "id": "8f528ea517a0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "A library shelf has # maths books, # physics books and # chemistry books (all different). In how many ways can you borrow one book?",
+   "en": "A library shelf has 12 maths books, 9 physics books and 6 chemistry books (all different). In how many ways can you borrow one book?",
+   "vi": "Một giá sách có 12 cuốn Toán, 9 cuốn Vật lí, 6 cuốn Hóa học (đôi một khác nhau). Có bao nhiêu cách mượn một cuốn?",
+   "options": [
+    "\\(648\\)",
+    "\\(27\\)",
+    "\\(114\\)",
+    "\\(21\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Rule of sum.",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"rule of sum\">Quy tắc cộng</b>: \\(12+9+6\\).",
+   "images": [],
+   "id": "f7a335b2b104",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "A set menu has one starter (# kinds), one main dish (# kinds) and one drink (# kinds). How many menus?",
+   "en": "A set menu has one starter (4 kinds), one main dish (6 kinds) and one drink (3 kinds). How many menus?",
+   "vi": "Một suất ăn gồm một món khai vị (4 loại), một món chính (6 loại) và một đồ uống (3 loại). Có bao nhiêu suất ăn khác nhau?",
+   "options": [
+    "\\(72\\)",
+    "\\(13\\)",
+    "\\(27\\)",
+    "\\(36\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Rule of product.",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"rule of product\">Quy tắc nhân</b>: \\(4\\cdot6\\cdot3\\).",
+   "images": [],
+   "id": "8e033321aaea",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "A→B: # roads; B→C: # roads; A→C directly: # roads. Ways from A to C?",
+   "en": "A→B: 5 roads; B→C: 3 roads; A→C directly: 2 roads. Ways from A to C?",
+   "vi": "Từ A đến B có 5 đường, từ B đến C có 3 đường, từ A đến thẳng C có 2 đường. Số cách đi từ A đến C là…",
+   "options": [
+    "\\(10\\)",
+    "\\(30\\)",
+    "\\(15\\)",
+    "\\(17\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Via B: \\(5\\cdot3\\); direct: 2.",
+   "explain_vi": "Đáp án d. Qua B: \\(5\\cdot3\\); đi thẳng: 2; cộng lại.",
+   "images": [],
+   "id": "8b0dbff314f3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "# has exactly # positive divisors.",
+   "en": "100 has exactly 9 positive divisors.",
+   "vi": "Số 100 có đúng 9 ước nguyên dương.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "It has 9.",
+   "explain_vi": "Phân tích thừa <b class=\"mbl-term\" tabindex=\"0\" data-en=\"integers\">số nguyên</b> tố rồi nhân các (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"exponent\">số mũ</b> + 1): có 9 ước.",
+   "images": [],
+   "id": "4aa0099d55e6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "From the digits \\(#,\\,#,\\,#,\\,#,\\,#\\) one can form exactly # numbers with # digits (repetition allowed).",
+   "en": "From the digits \\(0,\\,1,\\,2,\\,3,\\,5\\) one can form exactly 125 numbers with 3 digits (repetition allowed).",
+   "vi": "Từ các chữ số \\(0,\\,1,\\,2,\\,3,\\,5\\) lập được đúng 125 số có 3 chữ số (các chữ số có thể lặp lại).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "There are 100 such numbers.",
+   "explain_vi": "Có \\(4\\cdot5^{2}=100\\) số.",
+   "images": [],
+   "id": "eb159002653a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "A door code has # digits, all different. How many codes are possible?",
+   "en": "A door code has 4 digits, all different. How many codes are possible?",
+   "vi": "Mã khóa cửa gồm 4 chữ số đôi một khác nhau. Có bao nhiêu mã?",
+   "options": [],
+   "answer": "5040",
+   "explain_en": "\\(10\\cdot9\\cdots\\).",
+   "explain_vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"rule of product\">Quy tắc nhân</b>: \\(10\\cdot9\\cdot8\\cdot7=5040\\).",
+   "images": [],
+   "id": "2f62e121a0a3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "How many #-digit numbers with distinct digits can be formed from \\(#,\\,#,\\,#,\\,#,\\,#\\)?",
+   "en": "How many 3-digit numbers with distinct digits can be formed from \\(1,\\,3,\\,5,\\,7,\\,9\\)?",
+   "vi": "Từ các chữ số \\(1,\\,3,\\,5,\\,7,\\,9\\) lập được bao nhiêu số có 3 chữ số đôi một khác nhau?",
+   "options": [],
+   "answer": "60",
+   "explain_en": "First digit not 0, no repetition.",
+   "explain_vi": "Chữ số đầu khác 0, các chữ số không lặp: 60 số.",
+   "images": [],
+   "id": "cd00fb1aa3f4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "A canteen offers # kinds of rice dishes, # kinds of noodle dishes and # kinds of bread. A student chooses one dish. How many choices are there?",
+   "en": "A canteen offers 9 kinds of rice dishes, 10 kinds of noodle dishes and 8 kinds of bread. A student chooses one dish. How many choices are there?",
+   "vi": "Căng tin có 9 món cơm, 10 món bún/phở và 8 loại bánh mì. Một học sinh chọn một món. Có bao nhiêu cách chọn?",
+   "options": [
+    "\\(98\\)",
+    "\\(89\\)",
+    "\\(27\\)",
+    "\\(720\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Rule of sum (the cases do not overlap).",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"rule of sum\">Quy tắc cộng</b> (ba phương án không <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coincide\">trùng nhau</b>): \\(9+10+8=27\\).",
+   "images": [],
+   "id": "6f940ec5ae9c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "A licence plate has # letter(s) (from # letters) followed by # digits (#–#). How many plates are possible?",
+   "en": "A licence plate has 2 letter(s) (from 26 letters) followed by 4 digits (0–9). How many plates are possible?",
+   "vi": "Một biển số gồm 2 chữ cái (chọn trong 26 chữ cái) và tiếp theo là 4 chữ số (từ 0 đến 9). Có thể tạo được bao nhiêu biển số?",
+   "options": [
+    "\\(10676\\)",
+    "\\(6760000\\)",
+    "\\(92\\)",
+    "\\(3276000\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Rule of product: \\(26^{2}\\cdot10^{4}\\).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"rule of product\">Quy tắc nhân</b>: \\(26^{2}\\cdot10^{4}=6760000\\).",
+   "images": [],
+   "id": "dfafe071f4bc",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "From A to B there are # roads, from B to C # roads, and # direct roads from A to C. How many ways are there to go from A to C?",
+   "en": "From A to B there are 3 roads, from B to C 3 roads, and 4 direct roads from A to C. How many ways are there to go from A to C?",
+   "vi": "Từ A đến B có 3 con đường, từ B đến C có 3 con đường, ngoài ra có 4 con đường đi thẳng từ A đến C. Có bao nhiêu cách đi từ A đến C?",
+   "options": [
+    "\\(13\\)",
+    "\\(36\\)",
+    "\\(9\\)",
+    "\\(10\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Via B: \\(3\\cdot3\\); direct: \\(4\\); add.",
+   "explain_vi": "Đáp án a. Qua B: \\(3\\cdot3=9\\) cách (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"rule of product\">quy tắc nhân</b>); đi thẳng: 4 cách; cộng lại: 13.",
+   "images": [],
+   "id": "fdb640732148",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "How many #-digit numbers can be formed from the digits \\(#,\\,#,\\,#,\\,#,\\,#,\\,#,\\,#\\) (digits may repeat)?",
+   "en": "How many 4-digit numbers can be formed from the digits \\(0,\\,1,\\,2,\\,3,\\,4,\\,5,\\,8\\) (digits may repeat)?",
+   "vi": "Có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"natural numbers\">số tự nhiên</b> có 4 chữ số được lập từ các chữ số \\(0,\\,1,\\,2,\\,3,\\,4,\\,5,\\,8\\) (các chữ số có thể lặp lại)?",
+   "options": [
+    "\\(840\\)",
+    "\\(2058\\)",
+    "\\(2401\\)",
+    "\\(720\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. First digit: 6 choices (not 0); each other digit: 7.",
+   "explain_vi": "Đáp án b. Chữ số đầu: 6 cách (khác 0); mỗi chữ số còn lại: 7 cách; <b class=\"mbl-term\" tabindex=\"0\" data-en=\"rule of product\">quy tắc nhân</b>.",
+   "images": [],
+   "id": "e7f02aece5e0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "How many #-digit numbers with \\lt b\\gt distinct\\lt /b\\gt digits can be formed from \\(#,\\,#,\\,#,\\,#,\\,#\\)?",
+   "en": "How many 3-digit numbers with \\lt b\\gt distinct\\lt /b\\gt  digits can be formed from \\(1,\\,2,\\,3,\\,4,\\,8\\)?",
+   "vi": "Có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"natural numbers\">số tự nhiên</b> có 3 chữ số \\lt b\\gt đôi một khác nhau\\lt /b\\gt  lập từ các chữ số \\(1,\\,2,\\,3,\\,4,\\,8\\)?",
+   "options": [
+    "\\(72\\)",
+    "\\(100\\)",
+    "\\(60\\)",
+    "\\(125\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. First digit, then the others without repetition.",
+   "explain_vi": "Đáp án c. Chọn chữ số đầu, rồi các chữ số còn lại không lặp; kết quả 60.",
+   "images": [],
+   "id": "05b47af10b68",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "How many \\lt b\\gt even\\lt /b\\gt #-digit numbers with distinct digits can be formed from \\(#,\\,#,\\,#,\\,#,\\,#,\\,#\\)?",
+   "en": "How many \\lt b\\gt even\\lt /b\\gt  3-digit numbers with distinct digits can be formed from \\(0,\\,2,\\,3,\\,4,\\,8,\\,9\\)?",
+   "vi": "Có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"natural numbers\">số tự nhiên</b> \\lt b\\gt chẵn\\lt /b\\gt  có 3 chữ số đôi một khác nhau lập từ các chữ số \\(0,\\,2,\\,3,\\,4,\\,8,\\,9\\)?",
+   "options": [
+    "\\(70\\)",
+    "\\(32\\)",
+    "\\(68\\)",
+    "\\(100\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Choose the last digit first (even); if 0 is used, split into cases.",
+   "explain_vi": "Đáp án c. Chọn chữ số hàng đơn vị trước (chẵn); nếu có chữ số 0 thì chia trường hợp tận cùng là 0 hoặc khác 0. Kết quả 68.",
+   "images": [],
+   "id": "e2fa6c35918a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "How many positive divisors does \\(#\\) have?",
+   "en": "How many positive divisors does \\(360\\) have?",
+   "vi": "Số \\(360\\) có bao nhiêu ước nguyên dương?",
+   "options": [
+    "\\(7\\)",
+    "\\(24\\)",
+    "\\(23\\)",
+    "\\(6\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(360=2^{3}\\cdot3^{2}\\cdot5^{1}\\): a divisor is \\(2^i3^j5^k\\).",
+   "explain_vi": "Đáp án b. \\(360=2^{3}\\cdot3^{2}\\cdot5^{1}\\); mỗi ước có dạng \\(2^i3^j5^k\\): số ước \\(=(3+1)(2+1)(1+1)=24\\).",
+   "images": [],
+   "id": "d22eb430c044",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Lan has # shirts, # skirts and # pairs of shoes. An outfit is one of each. How many outfits are there?",
+   "en": "Lan has 2 shirts, 5 skirts and 5 pairs of shoes. An outfit is one of each. How many outfits are there?",
+   "vi": "Lan có 2 áo, 5 chân váy và 5 đôi giày. Một bộ trang phục gồm một áo, một váy, một đôi giày. Có bao nhiêu bộ?",
+   "options": [
+    "\\(15\\)",
+    "\\(12\\)",
+    "\\(50\\)",
+    "\\(20\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Rule of product (three successive choices).",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"rule of product\">Quy tắc nhân</b> (chọn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"respectively\">lần lượt</b> ba thứ): \\(2\\cdot5\\cdot5=50\\).",
+   "images": [],
+   "id": "70ca53c8af3d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "A library shelf has # maths books, # physics books and # chemistry books (all different). In how many ways can you borrow one book?",
+   "en": "A library shelf has 15 maths books, 8 physics books and 11 chemistry books (all different). In how many ways can you borrow one book?",
+   "vi": "Một giá sách có 15 cuốn Toán, 8 cuốn Vật lí, 11 cuốn Hóa học (đôi một khác nhau). Có bao nhiêu cách mượn một cuốn?",
+   "options": [
+    "\\(1320\\)",
+    "\\(34\\)",
+    "\\(131\\)",
+    "\\(23\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Rule of sum.",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"rule of sum\">Quy tắc cộng</b>: \\(15+8+11\\).",
+   "images": [],
+   "id": "ba448392a35d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "A set menu has one starter (# kinds), one main dish (# kinds) and one drink (# kinds). How many menus?",
+   "en": "A set menu has one starter (2 kinds), one main dish (7 kinds) and one drink (5 kinds). How many menus?",
+   "vi": "Một suất ăn gồm một món khai vị (2 loại), một món chính (7 loại) và một đồ uống (5 loại). Có bao nhiêu suất ăn khác nhau?",
+   "options": [
+    "\\(70\\)",
+    "\\(14\\)",
+    "\\(19\\)",
+    "\\(24\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Rule of product.",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"rule of product\">Quy tắc nhân</b>: \\(2\\cdot7\\cdot5\\).",
+   "images": [],
+   "id": "74aca9f5963d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "A→B: # roads; B→C: # roads; A→C directly: # roads. Ways from A to C?",
+   "en": "A→B: 4 roads; B→C: 3 roads; A→C directly: 2 roads. Ways from A to C?",
+   "vi": "Từ A đến B có 4 đường, từ B đến C có 3 đường, từ A đến thẳng C có 2 đường. Số cách đi từ A đến C là…",
+   "options": [
+    "\\(9\\)",
+    "\\(24\\)",
+    "\\(12\\)",
+    "\\(14\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Via B: \\(4\\cdot3\\); direct: 2.",
+   "explain_vi": "Đáp án d. Qua B: \\(4\\cdot3\\); đi thẳng: 2; cộng lại.",
+   "images": [],
+   "id": "df2e960890f7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "# has exactly # positive divisors.",
+   "en": "90 has exactly 10 positive divisors.",
+   "vi": "Số 90 có đúng 10 ước nguyên dương.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "It has 12.",
+   "explain_vi": "Phân tích thừa <b class=\"mbl-term\" tabindex=\"0\" data-en=\"integers\">số nguyên</b> tố rồi nhân các (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"exponent\">số mũ</b> + 1): có 12 ước.",
+   "images": [],
+   "id": "660919d0f5c3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "From the digits \\(#,\\,#,\\,#,\\,#\\) one can form exactly # numbers with # digits (repetition allowed).",
+   "en": "From the digits \\(0,\\,2,\\,4,\\,6\\) one can form exactly 192 numbers with 4 digits (repetition allowed).",
+   "vi": "Từ các chữ số \\(0,\\,2,\\,4,\\,6\\) lập được đúng 192 số có 4 chữ số (các chữ số có thể lặp lại).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "There are 192 such numbers.",
+   "explain_vi": "Có \\(3\\cdot4^{3}=192\\) số.",
+   "images": [],
+   "id": "edb800cfd80a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "A door code has # digits, all different. How many codes are possible?",
+   "en": "A door code has 5 digits, all different. How many codes are possible?",
+   "vi": "Mã khóa cửa gồm 5 chữ số đôi một khác nhau. Có bao nhiêu mã?",
+   "options": [],
+   "answer": "30240",
+   "explain_en": "\\(10\\cdot9\\cdots\\).",
+   "explain_vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"rule of product\">Quy tắc nhân</b>: \\(10\\cdot9\\cdot8\\cdot7\\cdot6=30240\\).",
+   "images": [],
+   "id": "c97de84bf669",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "How many #-digit numbers with distinct digits can be formed from \\(#,\\,#,\\,#,\\,#,\\,#,\\,#\\)?",
+   "en": "How many 3-digit numbers with distinct digits can be formed from \\(0,\\,2,\\,4,\\,6,\\,8,\\,9\\)?",
+   "vi": "Từ các chữ số \\(0,\\,2,\\,4,\\,6,\\,8,\\,9\\) lập được bao nhiêu số có 3 chữ số đôi một khác nhau?",
+   "options": [],
+   "answer": "100",
+   "explain_en": "First digit not 0, no repetition.",
+   "explain_vi": "Chữ số đầu khác 0, các chữ số không lặp: 100 số.",
+   "images": [],
+   "id": "77a43e4688bf",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "A canteen offers # kinds of rice dishes, # kinds of noodle dishes and # kinds of bread. A student chooses one dish. How many choices are there?",
+   "en": "A canteen offers 3 kinds of rice dishes, 6 kinds of noodle dishes and 5 kinds of bread. A student chooses one dish. How many choices are there?",
+   "vi": "Căng tin có 3 món cơm, 6 món bún/phở và 5 loại bánh mì. Một học sinh chọn một món. Có bao nhiêu cách chọn?",
+   "options": [
+    "\\(33\\)",
+    "\\(90\\)",
+    "\\(23\\)",
+    "\\(14\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Rule of sum (the cases do not overlap).",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"rule of sum\">Quy tắc cộng</b> (ba phương án không <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coincide\">trùng nhau</b>): \\(3+6+5=14\\).",
+   "images": [],
+   "id": "80607472c0ad",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "A licence plate has # letter(s) (from # letters) followed by # digits (#–#). How many plates are possible?",
+   "en": "A licence plate has 1 letter(s) (from 26 letters) followed by 4 digits (0–9). How many plates are possible?",
+   "vi": "Một biển số gồm 1 chữ cái (chọn trong 26 chữ cái) và tiếp theo là 4 chữ số (từ 0 đến 9). Có thể tạo được bao nhiêu biển số?",
+   "options": [
+    "\\(10026\\)",
+    "\\(131040\\)",
+    "\\(260000\\)",
+    "\\(66\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Rule of product: \\(26^{1}\\cdot10^{4}\\).",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"rule of product\">Quy tắc nhân</b>: \\(26^{1}\\cdot10^{4}=260000\\).",
+   "images": [],
+   "id": "e625991654a2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "From A to B there are # roads, from B to C # roads, and # direct roads from A to C. How many ways are there to go from A to C?",
+   "en": "From A to B there are 6 roads, from B to C 2 roads, and 3 direct roads from A to C. How many ways are there to go from A to C?",
+   "vi": "Từ A đến B có 6 con đường, từ B đến C có 2 con đường, ngoài ra có 3 con đường đi thẳng từ A đến C. Có bao nhiêu cách đi từ A đến C?",
+   "options": [
+    "\\(11\\)",
+    "\\(12\\)",
+    "\\(36\\)",
+    "\\(15\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Via B: \\(6\\cdot2\\); direct: \\(3\\); add.",
+   "explain_vi": "Đáp án d. Qua B: \\(6\\cdot2=12\\) cách (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"rule of product\">quy tắc nhân</b>); đi thẳng: 3 cách; cộng lại: 15.",
+   "images": [],
+   "id": "35406df517d2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "How many #-digit numbers can be formed from the digits \\(#,\\,#,\\,#,\\,#,\\,#,\\,#,\\,#\\) (digits may repeat)?",
+   "en": "How many 3-digit numbers can be formed from the digits \\(0,\\,1,\\,3,\\,4,\\,5,\\,7,\\,9\\) (digits may repeat)?",
+   "vi": "Có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"natural numbers\">số tự nhiên</b> có 3 chữ số được lập từ các chữ số \\(0,\\,1,\\,3,\\,4,\\,5,\\,7,\\,9\\) (các chữ số có thể lặp lại)?",
+   "options": [
+    "\\(210\\)",
+    "\\(180\\)",
+    "\\(294\\)",
+    "\\(343\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. First digit: 6 choices (not 0); each other digit: 7.",
+   "explain_vi": "Đáp án c. Chữ số đầu: 6 cách (khác 0); mỗi chữ số còn lại: 7 cách; <b class=\"mbl-term\" tabindex=\"0\" data-en=\"rule of product\">quy tắc nhân</b>.",
+   "images": [],
+   "id": "29e837cbaad4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "How many #-digit numbers with \\lt b\\gt distinct\\lt /b\\gt digits can be formed from \\(#,\\,#,\\,#,\\,#,\\,#\\)?",
+   "en": "How many 4-digit numbers with \\lt b\\gt distinct\\lt /b\\gt  digits can be formed from \\(0,\\,2,\\,5,\\,6,\\,8\\)?",
+   "vi": "Có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"natural numbers\">số tự nhiên</b> có 4 chữ số \\lt b\\gt đôi một khác nhau\\lt /b\\gt  lập từ các chữ số \\(0,\\,2,\\,5,\\,6,\\,8\\)?",
+   "options": [
+    "\\(500\\)",
+    "\\(96\\)",
+    "\\(625\\)",
+    "\\(120\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. First digit not 0, then the others without repetition.",
+   "explain_vi": "Đáp án b. Chọn chữ số đầu (khác 0), rồi các chữ số còn lại không lặp; kết quả 96.",
+   "images": [],
+   "id": "4e646d7692a3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "How many \\lt b\\gt even\\lt /b\\gt #-digit numbers with distinct digits can be formed from \\(#,\\,#,\\,#,\\,#,\\,#,\\,#\\)?",
+   "en": "How many \\lt b\\gt even\\lt /b\\gt  3-digit numbers with distinct digits can be formed from \\(1,\\,3,\\,5,\\,6,\\,7,\\,8\\)?",
+   "vi": "Có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"natural numbers\">số tự nhiên</b> \\lt b\\gt chẵn\\lt /b\\gt  có 3 chữ số đôi một khác nhau lập từ các chữ số \\(1,\\,3,\\,5,\\,6,\\,7,\\,8\\)?",
+   "options": [
+    "\\(120\\)",
+    "\\(80\\)",
+    "\\(40\\)",
+    "\\(42\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Choose the last digit first (even); if 0 is used, split into cases.",
+   "explain_vi": "Đáp án c. Chọn chữ số hàng đơn vị trước (chẵn); nếu có chữ số 0 thì chia trường hợp tận cùng là 0 hoặc khác 0. Kết quả 40.",
+   "images": [],
+   "id": "7a56610f6055",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "How many positive divisors does \\(#\\) have?",
+   "en": "How many positive divisors does \\(100\\) have?",
+   "vi": "Số \\(100\\) có bao nhiêu ước nguyên dương?",
+   "options": [
+    "\\(5\\)",
+    "\\(9\\)",
+    "\\(8\\)",
+    "\\(10\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(100=2^{2}\\cdot5^{2}\\): a divisor is \\(2^i3^j5^k\\).",
+   "explain_vi": "Đáp án b. \\(100=2^{2}\\cdot5^{2}\\); mỗi ước có dạng \\(2^i3^j5^k\\): số ước \\(=(2+1)(0+1)(2+1)=9\\).",
+   "images": [],
+   "id": "56eed0b89aab",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Lan has # shirts, # skirts and # pairs of shoes. An outfit is one of each. How many outfits are there?",
+   "en": "Lan has 6 shirts, 6 skirts and 5 pairs of shoes. An outfit is one of each. How many outfits are there?",
+   "vi": "Lan có 6 áo, 6 chân váy và 5 đôi giày. Một bộ trang phục gồm một áo, một váy, một đôi giày. Có bao nhiêu bộ?",
+   "options": [
+    "\\(180\\)",
+    "\\(41\\)",
+    "\\(66\\)",
+    "\\(17\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Rule of product (three successive choices).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"rule of product\">Quy tắc nhân</b> (chọn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"respectively\">lần lượt</b> ba thứ): \\(6\\cdot6\\cdot5=180\\).",
+   "images": [],
+   "id": "c8ed01c3fb9f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1317 @@
+{
+ "lesson": "g9-quadratic-02",
+ "grade": 9,
+ "no": 19,
+ "title": "Phương trình bậc hai một ẩn",
+ "path": "lessons/grade9/quadratic-functions-equations/quadratic-equations.html",
+ "items": [
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Compute the discriminant \\(\\Delta\\) of \\(#x^#+#x=#\\).",
+   "en": "Compute the discriminant \\(\\Delta\\) of \\(3x^2+6x=0\\).",
+   "vi": "Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"discriminant\">biệt thức</b> \\(\\Delta\\) của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(3x^2+6x=0\\).",
+   "options": [
+    "\\(40\\)",
+    "\\(44\\)",
+    "\\(36\\)",
+    "\\(-36\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\Delta=b^2-4ac=(6)^2-4\\cdot(3)\\cdot(0)=36\\).",
+   "explain_vi": "Đáp án c. \\(\\Delta=b^2-4ac=(6)^2-4\\cdot(3)\\cdot(0)=36\\).",
+   "images": [],
+   "id": "631f05e45949",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Without solving, how many roots does \\(#x^#+#x+#=#\\) have?",
+   "en": "Without solving, how many roots does \\(9x^2+24x+16=0\\) have?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"without solving the equation\">Không giải phương trình</b>, cho biết \\(9x^2+24x+16=0\\) có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b>.",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">two distinct roots</span><span class=\"vi\">hai nghiệm phân biệt</span></span>",
+    "<span class=\"txi\"><span class=\"en\">a double root</span><span class=\"vi\">nghiệm kép</span></span>",
+    "<span class=\"txi\"><span class=\"en\">no real roots</span><span class=\"vi\">vô nghiệm</span></span>",
+    "<span class=\"txi\"><span class=\"en\">infinitely many roots</span><span class=\"vi\">vô số nghiệm</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\Delta=0\\).",
+   "explain_vi": "Đáp án b. \\(\\Delta=0\\).",
+   "images": [],
+   "id": "9c4b06af9f04",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Write \\(-#x^#-#x=-#x+#\\) in the form \\(ax^#+bx+c=#\\). Its coefficients are…",
+   "en": "Write \\(-5x^2-3x=-4x+3\\) in the form \\(ax^2+bx+c=0\\). Its coefficients are…",
+   "vi": "Đưa <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(-5x^2-3x=-4x+3\\) về dạng \\(ax^2+bx+c=0\\). Các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b> là…",
+   "options": [
+    "\\(a=-5,\\ b=-3,\\ c=3\\)",
+    "\\(a=-5,\\ b=1,\\ c=-3\\)",
+    "\\(a=5,\\ b=-1,\\ c=3\\)",
+    "\\(a=-5,\\ b=1,\\ c=3\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Move every term to the left: \\(-5x^2+x-3=0\\).",
+   "explain_vi": "Đáp án b. Chuyển mọi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b> sang <b class=\"mbl-term\" tabindex=\"0\" data-en=\"left-hand side (LHS)\">vế trái</b>: \\(-5x^2+x-3=0\\).",
+   "images": [],
+   "id": "6c395a730da3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "The equation \\(-#x^#-#=#\\) has two distinct roots.",
+   "en": "The equation \\(-6x^2-1=0\\) has two distinct roots.",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">Phương trình</b> \\(-6x^2-1=0\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"two distinct roots\">hai nghiệm phân biệt</b>.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. \\(\\Delta=-24\\).",
+   "explain_vi": "Sai. \\(\\Delta=-24\\).",
+   "images": [],
+   "id": "b458ae0908b3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(x=-#\\) is a root of \\(#x^#-#x-#=#\\).",
+   "en": "\\(x=-2\\) is a root of \\(3x^2-12x-15=0\\).",
+   "vi": "\\(x=-2\\) là một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution of an equation\">nghiệm của phương trình</b> \\(3x^2-12x-15=0\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. Substitute: \\(3\\cdot(-2)^2-12\\cdot(-2)-15=21\\).",
+   "explain_vi": "Sai. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"substitute\">Thay vào</b>: \\(3\\cdot(-2)^2-12\\cdot(-2)-15=21\\).",
+   "images": [],
+   "id": "a0a2f7cd463b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "Find the larger root of \\(#x^#+#x+#=#\\).",
+   "en": "Find the larger root of \\(3x^2+30x+72=0\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b> lớn hơn của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(3x^2+30x+72=0\\).",
+   "options": [],
+   "answer": "-4",
+   "explain_en": "Answer: -4. \\(\\Delta=36\\), \\(x_{1,2}=\\dfrac{-30\\pm6}{6}\\): roots \\(-6\\) and \\(-4\\).",
+   "explain_vi": "Đáp số: -4. \\(\\Delta=36\\), \\(x_{1,2}=\\dfrac{-30\\pm6}{6}\\): hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b> \\(-6\\) và \\(-4\\).",
+   "images": [],
+   "id": "04b31c711053",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "Find the positive root of \\(#x^#-#=#\\).",
+   "en": "Find the positive root of \\(3x^2-75=0\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b> dương của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(3x^2-75=0\\).",
+   "options": [],
+   "answer": "5",
+   "explain_en": "Answer: 5. \\(x^2=25\\Rightarrow x=\\pm5\\).",
+   "explain_vi": "Đáp số: 5. \\(x^2=25\\Rightarrow x=\\pm5\\).",
+   "images": [],
+   "id": "44eb70252fe4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D1",
+   "type": "mcq",
+   "form": "For \\(x^#+#x-#=#\\) with \\(b=#b'\\), the reduced discriminant is \\(\\Delta'=\\)…",
+   "en": "For \\(x^2+10x-5=0\\) with \\(b=2b'\\), the reduced discriminant is \\(\\Delta'=\\)…",
+   "vi": "Với <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(x^2+10x-5=0\\), \\(b=2b'\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"reduced discriminant\">biệt thức thu gọn</b> \\(\\Delta'=\\)…",
+   "options": [
+    "\\(b'^2-4ac\\)",
+    "\\(b'^2+ac\\)",
+    "\\(b^2-ac\\)",
+    "\\(b'^2-ac\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\Delta'=b'^2-ac\\).",
+   "explain_vi": "Đáp án d. \\(\\Delta'=b'^2-ac\\).",
+   "images": [],
+   "id": "bab937d5479f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D1",
+   "type": "mcq",
+   "form": "State the coefficients of \\(-x^#+#x-#=#\\).",
+   "en": "State the coefficients of \\(-x^2+7x-5=0\\).",
+   "vi": "Xác định các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(-x^2+7x-5=0\\).",
+   "options": [
+    "\\(a=-1,\\ b=-7,\\ c=5\\)",
+    "\\(a=7,\\ b=-1,\\ c=-5\\)",
+    "\\(a=-1,\\ b=7,\\ c=-5\\)",
+    "\\(a=-1,\\ b=-5,\\ c=7\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(a\\) goes with \\(x^2\\), \\(b\\) with \\(x\\), \\(c\\) is the constant term.",
+   "explain_vi": "Đáp án c. \\(a\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b> của \\(x^2\\), \\(b\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b> của \\(x\\), \\(c\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b> tự do.",
+   "images": [],
+   "id": "764c721b801e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Which of these is a quadratic equation in the unknown \\(t\\)?",
+   "en": "Which of these is a quadratic equation in the unknown \\(t\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">Phương trình</b> nào là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"quadratic equation in one unknown\">phương trình bậc hai một ẩn</b> \\(t\\)?",
+   "options": [
+    "\\(\\dfrac{2t^2+t+3}{t}=0\\)",
+    "\\(2t^2+t+3=0\\)",
+    "\\(t+3=0\\)",
+    "\\(2t^3+t=0\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. It has the form \\(at^2+bt+c=0\\) with \\(a=2\\ne0\\).",
+   "explain_vi": "Đáp án b. Có dạng \\(at^2+bt+c=0\\) với \\(a=2\\ne0\\).",
+   "images": [],
+   "id": "724217d8dd25",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Solve \\(#x^#+#x+#=#\\).",
+   "en": "Solve \\(9x^2+30x+25=0\\).",
+   "vi": "Giải <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(9x^2+30x+25=0\\).",
+   "options": [
+    "\\(S=\\{-\\dfrac{5}{3}\\}\\)",
+    "\\(S=\\varnothing\\)",
+    "\\(S=\\{\\dfrac{5}{3}\\}\\)",
+    "\\(S=\\{-\\dfrac{5}{3};\\ \\dfrac{5}{3}\\}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\Delta=0\\): double root \\(x=-\\dfrac{5}{3}\\).",
+   "explain_vi": "Đáp án a. \\(\\Delta=0\\): <b class=\"mbl-term\" tabindex=\"0\" data-en=\"double root (repeated root)\">nghiệm kép</b> \\(x=-\\dfrac{5}{3}\\).",
+   "images": [],
+   "id": "ae38d7a8b114",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Solve \\(#x^#+#x=#\\).",
+   "en": "Solve \\(6x^2+9x=0\\).",
+   "vi": "Giải <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(6x^2+9x=0\\).",
+   "options": [
+    "\\(S=\\{-\\dfrac{3}{2}\\}\\)",
+    "\\(S=\\{0\\}\\)",
+    "\\(S=\\{0;\\ \\dfrac{3}{2}\\}\\)",
+    "\\(S=\\{-\\dfrac{3}{2};\\ 0\\}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(x\\left(6x+9\\right)=0\\Rightarrow x=0\\) or \\(x=-\\dfrac{3}{2}\\).",
+   "explain_vi": "Đáp án d. \\(x\\left(6x+9\\right)=0\\Rightarrow x=0\\) hoặc \\(x=-\\dfrac{3}{2}\\).",
+   "images": [],
+   "id": "6a62bd18cf91",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Use the reduced discriminant to solve \\(#x^#-#x-#=#\\).",
+   "en": "Use the reduced discriminant to solve \\(2x^2-6x-8=0\\).",
+   "vi": "Dùng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"quadratic formula\">công thức nghiệm</b> thu gọn giải <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(2x^2-6x-8=0\\).",
+   "options": [
+    "\\(S=\\{-4;\\ 1\\}\\)",
+    "\\(S=\\{-\\dfrac{1}{2};\\ 2\\}\\)",
+    "\\(S=\\{\\dfrac{1}{2};\\ \\dfrac{11}{2}\\}\\)",
+    "\\(S=\\{-1;\\ 4\\}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(b'=-3\\), \\(\\Delta'=25\\), \\(x_{1,2}=\\dfrac{3\\pm5}{2}\\).",
+   "explain_vi": "Đáp án d. \\(b'=-3\\), \\(\\Delta'=25\\), \\(x_{1,2}=\\dfrac{3\\pm5}{2}\\).",
+   "images": [],
+   "id": "059dd49e8d78",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D3",
+   "type": "mcq",
+   "form": "For which \\(m\\) does \\(x^#-#x+m=#\\) have no real roots?",
+   "en": "For which \\(m\\) does \\(x^2-8x+m=0\\) have no real roots?",
+   "vi": "Với giá trị nào của \\(m\\) thì <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(x^2-8x+m=0\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"no solution\">vô nghiệm</b>?",
+   "options": [
+    "\\(m\\lt 16\\)",
+    "\\(m=16\\)",
+    "\\(m=-16\\)",
+    "\\(m\\gt 16\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\Delta=64-4m\\); compare it with 0.",
+   "explain_vi": "Đáp án d. \\(\\Delta=64-4m\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"compare\">so sánh</b> với 0.",
+   "images": [],
+   "id": "6ad70d85db91",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Solve \\(\\left(#x-#\\right)^#=#\\).",
+   "en": "Solve \\(\\left(2x-3\\right)^2=25\\).",
+   "vi": "Giải <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(\\left(2x-3\\right)^2=25\\).",
+   "options": [
+    "\\(S=\\{-11;\\ 14\\}\\)",
+    "\\(S=\\{-1;\\ 4\\}\\)",
+    "\\(S=\\{4\\}\\)",
+    "\\(S=\\{-4;\\ 1\\}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(2x-3=\\pm5\\).",
+   "explain_vi": "Đáp án b. \\(2x-3=\\pm5\\).",
+   "images": [],
+   "id": "4af40f2fe0f3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Use a calculator to solve \\(#x^#+#x+#=#\\) (roots rounded to two decimal places, \\(x_#\\lt x_#\\)).",
+   "en": "Use a calculator to solve \\(0.5x^2+3.1x+0.3=0\\) (roots rounded to two decimal places, \\(x_1\\lt x_2\\)).",
+   "vi": "Dùng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"calculator\">máy tính cầm tay</b> giải <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(0{,}5x^2+3{,}1x+0{,}3=0\\) (làm tròn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b> đến chữ số thập phân thứ hai, \\(x_1\\lt x_2\\)).",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(x_1\\approx -6.10,\\ x_2\\approx -0.10\\)</span><span class=\"vi\">\\(x_1\\approx -6{,}10,\\ x_2\\approx -0{,}10\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(x_1\\approx 0.10,\\ x_2\\approx 6.10\\)</span><span class=\"vi\">\\(x_1\\approx 0{,}10,\\ x_2\\approx 6{,}10\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(x_1\\approx -3.05,\\ x_2\\approx -0.05\\)</span><span class=\"vi\">\\(x_1\\approx -3{,}05,\\ x_2\\approx -0{,}05\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(x_1\\approx -12.20,\\ x_2\\approx -0.20\\)</span><span class=\"vi\">\\(x_1\\approx -12{,}20,\\ x_2\\approx -0{,}20\\)</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\Delta=9.01\\gt0\\); the calculator gives \\(x_1\\approx-6.10\\), \\(x_2\\approx-0.10\\).",
+   "explain_vi": "Đáp án a. \\(\\Delta=9{,}01\\gt0\\); máy tính cho \\(x_1\\approx-6{,}10\\), \\(x_2\\approx-0{,}10\\).",
+   "images": [],
+   "id": "4b9e379f5609",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A rectangular garden has area # m², and its width is # m shorter than its length. Find its length.",
+   "en": "A rectangular garden has area 437 m², and its width is 4 m shorter than its length. Find its length.",
+   "vi": "Một mảnh vườn hình chữ nhật có diện tích 437 m², chiều rộng ngắn hơn chiều dài 4 m. Tính chiều dài mảnh vườn.",
+   "options": [
+    "\\(19\\text{ m}\\)",
+    "\\(23\\text{ m}\\)",
+    "\\(27\\text{ m}\\)",
+    "\\(24\\text{ m}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(x(x-4)=437\\Leftrightarrow x^2-4x-437=0\\Rightarrow x=23\\) (the negative root is rejected).",
+   "explain_vi": "Đáp án b. \\(x(x-4)=437\\Leftrightarrow x^2-4x-437=0\\Rightarrow x=23\\) (loại <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b> âm).",
+   "images": [],
+   "id": "605804635db4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A rectangular plot # m by # m contains a pool with a path of constant width \\(x\\) m all around it. The pool has area # m². Find \\(x\\).",
+   "en": "A rectangular plot 29 m by 18 m contains a pool with a path of constant width \\(x\\) m all around it. The pool has area 210 m². Find \\(x\\).",
+   "vi": "Một khu đất hình chữ nhật 29 m × 18 m có một bể bơi ở giữa, xung quanh là lối đi rộng đều \\(x\\) m. Diện tích bể bơi là 210 m². Tìm \\(x\\).",
+   "options": [
+    "\\(4\\text{ m}\\)",
+    "\\(8\\text{ m}\\)",
+    "\\(5\\text{ m}\\)",
+    "\\(19\\text{ m}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\((29-2x)(18-2x)=210\\); the root that keeps \\(18-2x\\gt0\\) is \\(x=4\\).",
+   "explain_vi": "Đáp án a. \\((29-2x)(18-2x)=210\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b> thỏa mãn \\(18-2x\\gt0\\) là \\(x=4\\).",
+   "images": [],
+   "id": "7f732cad8ae7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D4",
+   "type": "mcq",
+   "form": "Without computing, how many roots does \\(-#x^#-#x+#=#\\) have? (Look at the signs of \\(a\\) and \\(c\\).)",
+   "en": "Without computing, how many roots does \\(-3x^2-5x+2=0\\) have? (Look at the signs of \\(a\\) and \\(c\\).)",
+   "vi": "Không tính toán, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(-3x^2-5x+2=0\\) có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b>? (Xét dấu của \\(a\\) và \\(c\\).)",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">no real roots</span><span class=\"vi\">vô nghiệm</span></span>",
+    "<span class=\"txi\"><span class=\"en\">two distinct roots</span><span class=\"vi\">hai nghiệm phân biệt</span></span>",
+    "<span class=\"txi\"><span class=\"en\">a double root</span><span class=\"vi\">nghiệm kép</span></span>",
+    "<span class=\"txi\"><span class=\"en\">it depends on \\(b\\)</span><span class=\"vi\">tùy thuộc vào \\(b\\)</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(ac=-6\\lt0\\), so \\(\\Delta=b^2-4ac\\gt0\\).",
+   "explain_vi": "Đáp án b. \\(ac=-6\\lt0\\) nên \\(\\Delta=b^2-4ac\\gt0\\).",
+   "images": [],
+   "id": "543f5f5eab21",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Compute the discriminant \\(\\Delta\\) of \\(#x^#+#=#\\).",
+   "en": "Compute the discriminant \\(\\Delta\\) of \\(4x^2+8=0\\).",
+   "vi": "Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"discriminant\">biệt thức</b> \\(\\Delta\\) của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(4x^2+8=0\\).",
+   "options": [
+    "\\(-128\\)",
+    "\\(-124\\)",
+    "\\(-64\\)",
+    "\\(128\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\Delta=b^2-4ac=(0)^2-4\\cdot(4)\\cdot(8)=-128\\).",
+   "explain_vi": "Đáp án a. \\(\\Delta=b^2-4ac=(0)^2-4\\cdot(4)\\cdot(8)=-128\\).",
+   "images": [],
+   "id": "293999c7323f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Without solving, how many roots does \\(#x^#+#x-#=#\\) have?",
+   "en": "Without solving, how many roots does \\(3x^2+8x-4=0\\) have?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"without solving the equation\">Không giải phương trình</b>, cho biết \\(3x^2+8x-4=0\\) có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b>.",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">a double root</span><span class=\"vi\">nghiệm kép</span></span>",
+    "<span class=\"txi\"><span class=\"en\">infinitely many roots</span><span class=\"vi\">vô số nghiệm</span></span>",
+    "<span class=\"txi\"><span class=\"en\">no real roots</span><span class=\"vi\">vô nghiệm</span></span>",
+    "<span class=\"txi\"><span class=\"en\">two distinct roots</span><span class=\"vi\">hai nghiệm phân biệt</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\Delta=112\\).",
+   "explain_vi": "Đáp án d. \\(\\Delta=112\\).",
+   "images": [],
+   "id": "82f6a8f6b5a6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Write \\(#x^#+#x=#x+#\\) in the form \\(ax^#+bx+c=#\\). Its coefficients are…",
+   "en": "Write \\(3x^2+14x=5x+2\\) in the form \\(ax^2+bx+c=0\\). Its coefficients are…",
+   "vi": "Đưa <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(3x^2+14x=5x+2\\) về dạng \\(ax^2+bx+c=0\\). Các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b> là…",
+   "options": [
+    "\\(a=3,\\ b=9,\\ c=-2\\)",
+    "\\(a=3,\\ b=9,\\ c=2\\)",
+    "\\(a=-3,\\ b=-9,\\ c=2\\)",
+    "\\(a=3,\\ b=14,\\ c=2\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Move every term to the left: \\(3x^2+9x-2=0\\).",
+   "explain_vi": "Đáp án a. Chuyển mọi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b> sang <b class=\"mbl-term\" tabindex=\"0\" data-en=\"left-hand side (LHS)\">vế trái</b>: \\(3x^2+9x-2=0\\).",
+   "images": [],
+   "id": "481a89b206d0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "The equation \\(#x^#+#x-#=#\\) has two distinct roots.",
+   "en": "The equation \\(2x^2+2x-5=0\\) has two distinct roots.",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">Phương trình</b> \\(2x^2+2x-5=0\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"two distinct roots\">hai nghiệm phân biệt</b>.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. \\(\\Delta=44\\).",
+   "explain_vi": "Đúng. \\(\\Delta=44\\).",
+   "images": [],
+   "id": "20afa96d9768",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(x=#\\) is a root of \\(#x^#-#x=#\\).",
+   "en": "\\(x=1\\) is a root of \\(2x^2-8x=0\\).",
+   "vi": "\\(x=1\\) là một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution of an equation\">nghiệm của phương trình</b> \\(2x^2-8x=0\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. Substitute: \\(2\\cdot(1)^2-8\\cdot(1)+0=-6\\).",
+   "explain_vi": "Sai. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"substitute\">Thay vào</b>: \\(2\\cdot(1)^2-8\\cdot(1)+0=-6\\).",
+   "images": [],
+   "id": "bdf19c1c2a0b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "Find the larger root of \\(#x^#+#x=#\\).",
+   "en": "Find the larger root of \\(3x^2+21x=0\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b> lớn hơn của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(3x^2+21x=0\\).",
+   "options": [],
+   "answer": "0",
+   "explain_en": "Answer: 0. \\(\\Delta=441\\), \\(x_{1,2}=\\dfrac{-21\\pm21}{6}\\): roots \\(-7\\) and \\(0\\).",
+   "explain_vi": "Đáp số: 0. \\(\\Delta=441\\), \\(x_{1,2}=\\dfrac{-21\\pm21}{6}\\): hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b> \\(-7\\) và \\(0\\).",
+   "images": [],
+   "id": "6d7356352c9a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "Find the positive root of \\(-#x^#+#=#\\).",
+   "en": "Find the positive root of \\(-2x^2+18=0\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b> dương của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(-2x^2+18=0\\).",
+   "options": [],
+   "answer": "3",
+   "explain_en": "Answer: 3. \\(x^2=9\\Rightarrow x=\\pm3\\).",
+   "explain_vi": "Đáp số: 3. \\(x^2=9\\Rightarrow x=\\pm3\\).",
+   "images": [],
+   "id": "e350bd417887",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D1",
+   "type": "mcq",
+   "form": "If \\(\\Delta\\gt#\\), the roots of \\(-#x^#-#x+#=#\\) are \\(x_{#}=\\)…",
+   "en": "If \\(\\Delta\\gt0\\), the roots of \\(-3x^2-10x+7=0\\) are \\(x_{1,2}=\\)…",
+   "vi": "Nếu \\(\\Delta\\gt0\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(-3x^2-10x+7=0\\) có hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b> \\(x_{1,2}=\\)…",
+   "options": [
+    "\\(\\dfrac{b\\pm\\sqrt\\Delta}{2a}\\)",
+    "\\(\\dfrac{-b\\pm\\sqrt\\Delta}{a}\\)",
+    "\\(\\dfrac{-b\\pm\\Delta}{2a}\\)",
+    "\\(\\dfrac{-b\\pm\\sqrt\\Delta}{2a}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Quadratic formula.",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"quadratic formula\">Công thức nghiệm</b>.",
+   "images": [],
+   "id": "272f8aeb92f0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D1",
+   "type": "mcq",
+   "form": "State the coefficients of \\(-#x^#-#x-#=#\\).",
+   "en": "State the coefficients of \\(-7x^2-5x-6=0\\).",
+   "vi": "Xác định các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(-7x^2-5x-6=0\\).",
+   "options": [
+    "\\(a=-7,\\ b=-5,\\ c=-6\\)",
+    "\\(a=-7,\\ b=5,\\ c=6\\)",
+    "\\(a=-7,\\ b=-6,\\ c=-5\\)",
+    "\\(a=-5,\\ b=-7,\\ c=-6\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(a\\) goes with \\(x^2\\), \\(b\\) with \\(x\\), \\(c\\) is the constant term.",
+   "explain_vi": "Đáp án a. \\(a\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b> của \\(x^2\\), \\(b\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b> của \\(x\\), \\(c\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b> tự do.",
+   "images": [],
+   "id": "f2465df917fc",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Which of these is a quadratic equation in the unknown \\(x\\)?",
+   "en": "Which of these is a quadratic equation in the unknown \\(x\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">Phương trình</b> nào là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"quadratic equation in one unknown\">phương trình bậc hai một ẩn</b> \\(x\\)?",
+   "options": [
+    "\\(-5x^2-6x-6=0\\)",
+    "\\(\\dfrac{-5x^2-6x-6}{x}=0\\)",
+    "\\(-6x-6=0\\)",
+    "\\(-5x^3-6x=0\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. It has the form \\(ax^2+bx+c=0\\) with \\(a=-5\\ne0\\).",
+   "explain_vi": "Đáp án a. Có dạng \\(ax^2+bx+c=0\\) với \\(a=-5\\ne0\\).",
+   "images": [],
+   "id": "665aec2cebc3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Solve \\(#x^#+#x=#\\).",
+   "en": "Solve \\(3x^2+2x=0\\).",
+   "vi": "Giải <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(3x^2+2x=0\\).",
+   "options": [
+    "\\(S=\\{-\\dfrac{2}{3}\\}\\)",
+    "\\(S=\\{0;\\ \\dfrac{2}{3}\\}\\)",
+    "\\(S=\\{0\\}\\)",
+    "\\(S=\\{-\\dfrac{2}{3};\\ 0\\}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(x\\left(3x+2\\right)=0\\Rightarrow x=0\\) or \\(x=-\\dfrac{2}{3}\\).",
+   "explain_vi": "Đáp án d. \\(x\\left(3x+2\\right)=0\\Rightarrow x=0\\) hoặc \\(x=-\\dfrac{2}{3}\\).",
+   "images": [],
+   "id": "3e45be0af94a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Solve \\(x^#+#x+#=#\\).",
+   "en": "Solve \\(x^2+2x+1=0\\).",
+   "vi": "Giải <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(x^2+2x+1=0\\).",
+   "options": [
+    "\\(S=\\{1\\}\\)",
+    "\\(S=\\varnothing\\)",
+    "\\(S=\\{-1\\}\\)",
+    "\\(S=\\{-1;\\ 1\\}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\Delta=0\\): double root \\(x=-1\\).",
+   "explain_vi": "Đáp án c. \\(\\Delta=0\\): <b class=\"mbl-term\" tabindex=\"0\" data-en=\"double root (repeated root)\">nghiệm kép</b> \\(x=-1\\).",
+   "images": [],
+   "id": "5005cbef89c2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Use the reduced discriminant to solve \\(#x^#-#x+#=#\\).",
+   "en": "Use the reduced discriminant to solve \\(3x^2-8x+4=0\\).",
+   "vi": "Dùng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"quadratic formula\">công thức nghiệm</b> thu gọn giải <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(3x^2-8x+4=0\\).",
+   "options": [
+    "\\(S=\\{-2;\\ -\\dfrac{2}{3}\\}\\)",
+    "\\(S=\\{\\dfrac{1}{3};\\ 1\\}\\)",
+    "\\(S=\\{\\dfrac{2}{3};\\ 2\\}\\)",
+    "\\(S=\\{2;\\ \\dfrac{10}{3}\\}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(b'=-4\\), \\(\\Delta'=4\\), \\(x_{1,2}=\\dfrac{4\\pm2}{3}\\).",
+   "explain_vi": "Đáp án c. \\(b'=-4\\), \\(\\Delta'=4\\), \\(x_{1,2}=\\dfrac{4\\pm2}{3}\\).",
+   "images": [],
+   "id": "7ca35f447064",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D3",
+   "type": "mcq",
+   "form": "For which \\(m\\) does \\(x^#-#x+m=#\\) have two distinct roots?",
+   "en": "For which \\(m\\) does \\(x^2-2x+m=0\\) have two distinct roots?",
+   "vi": "Với giá trị nào của \\(m\\) thì <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(x^2-2x+m=0\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"two distinct roots\">hai nghiệm phân biệt</b>?",
+   "options": [
+    "\\(m=-1\\)",
+    "\\(m\\lt 1\\)",
+    "\\(m\\gt 1\\)",
+    "\\(m=1\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\Delta=4-4m\\); compare it with 0.",
+   "explain_vi": "Đáp án b. \\(\\Delta=4-4m\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"compare\">so sánh</b> với 0.",
+   "images": [],
+   "id": "2b7f47077da0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Solve \\(\\left(#x+#\\right)^#=#\\).",
+   "en": "Solve \\(\\left(3x+2\\right)^2=25\\).",
+   "vi": "Giải <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(\\left(3x+2\\right)^2=25\\).",
+   "options": [
+    "\\(S=\\{-1;\\ \\dfrac{7}{3}\\}\\)",
+    "\\(S=\\{-\\dfrac{7}{3};\\ 1\\}\\)",
+    "\\(S=\\{-9;\\ \\dfrac{23}{3}\\}\\)",
+    "\\(S=\\{1\\}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(3x+2=\\pm5\\).",
+   "explain_vi": "Đáp án b. \\(3x+2=\\pm5\\).",
+   "images": [],
+   "id": "d97204d03cd9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Use a calculator to solve \\(#x^#+#x+#=#\\) (roots rounded to two decimal places, \\(x_#\\lt x_#\\)).",
+   "en": "Use a calculator to solve \\(0.5x^2+3.1x+0.75=0\\) (roots rounded to two decimal places, \\(x_1\\lt x_2\\)).",
+   "vi": "Dùng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"calculator\">máy tính cầm tay</b> giải <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(0{,}5x^2+3{,}1x+0{,}75=0\\) (làm tròn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b> đến chữ số thập phân thứ hai, \\(x_1\\lt x_2\\)).",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(x_1\\approx -2.97,\\ x_2\\approx -0.13\\)</span><span class=\"vi\">\\(x_1\\approx -2{,}97,\\ x_2\\approx -0{,}13\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(x_1\\approx -5.95,\\ x_2\\approx -0.25\\)</span><span class=\"vi\">\\(x_1\\approx -5{,}95,\\ x_2\\approx -0{,}25\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(x_1\\approx 0.25,\\ x_2\\approx 5.95\\)</span><span class=\"vi\">\\(x_1\\approx 0{,}25,\\ x_2\\approx 5{,}95\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(x_1\\approx -11.90,\\ x_2\\approx -0.50\\)</span><span class=\"vi\">\\(x_1\\approx -11{,}90,\\ x_2\\approx -0{,}50\\)</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\Delta=8.11\\gt0\\); the calculator gives \\(x_1\\approx-5.95\\), \\(x_2\\approx-0.25\\).",
+   "explain_vi": "Đáp án b. \\(\\Delta=8{,}11\\gt0\\); máy tính cho \\(x_1\\approx-5{,}95\\), \\(x_2\\approx-0{,}25\\).",
+   "images": [],
+   "id": "8c3738fd032a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A rectangular garden has area # m², and its width is # m shorter than its length. Find its length.",
+   "en": "A rectangular garden has area 45 m², and its width is 4 m shorter than its length. Find its length.",
+   "vi": "Một mảnh vườn hình chữ nhật có diện tích 45 m², chiều rộng ngắn hơn chiều dài 4 m. Tính chiều dài mảnh vườn.",
+   "options": [
+    "\\(10\\text{ m}\\)",
+    "\\(5\\text{ m}\\)",
+    "\\(13\\text{ m}\\)",
+    "\\(9\\text{ m}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(x(x-4)=45\\Leftrightarrow x^2-4x-45=0\\Rightarrow x=9\\) (the negative root is rejected).",
+   "explain_vi": "Đáp án d. \\(x(x-4)=45\\Leftrightarrow x^2-4x-45=0\\Rightarrow x=9\\) (loại <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b> âm).",
+   "images": [],
+   "id": "0b7c94f75890",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A rectangular plot # m by # m contains a pool with a path of constant width \\(x\\) m all around it. The pool has area # m². Find \\(x\\).",
+   "en": "A rectangular plot 17 m by 15 m contains a pool with a path of constant width \\(x\\) m all around it. The pool has area 99 m². Find \\(x\\).",
+   "vi": "Một khu đất hình chữ nhật 17 m × 15 m có một bể bơi ở giữa, xung quanh là lối đi rộng đều \\(x\\) m. Diện tích bể bơi là 99 m². Tìm \\(x\\).",
+   "options": [
+    "\\(6\\text{ m}\\)",
+    "\\(4\\text{ m}\\)",
+    "\\(13\\text{ m}\\)",
+    "\\(3\\text{ m}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\((17-2x)(15-2x)=99\\); the root that keeps \\(15-2x\\gt0\\) is \\(x=3\\).",
+   "explain_vi": "Đáp án d. \\((17-2x)(15-2x)=99\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b> thỏa mãn \\(15-2x\\gt0\\) là \\(x=3\\).",
+   "images": [],
+   "id": "499b6150b1b0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D4",
+   "type": "mcq",
+   "form": "Without computing, how many roots does \\(x^#-#x-#=#\\) have? (Look at the signs of \\(a\\) and \\(c\\).)",
+   "en": "Without computing, how many roots does \\(x^2-6x-7=0\\) have? (Look at the signs of \\(a\\) and \\(c\\).)",
+   "vi": "Không tính toán, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(x^2-6x-7=0\\) có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b>? (Xét dấu của \\(a\\) và \\(c\\).)",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">no real roots</span><span class=\"vi\">vô nghiệm</span></span>",
+    "<span class=\"txi\"><span class=\"en\">two distinct roots</span><span class=\"vi\">hai nghiệm phân biệt</span></span>",
+    "<span class=\"txi\"><span class=\"en\">a double root</span><span class=\"vi\">nghiệm kép</span></span>",
+    "<span class=\"txi\"><span class=\"en\">it depends on \\(b\\)</span><span class=\"vi\">tùy thuộc vào \\(b\\)</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(ac=-7\\lt0\\), so \\(\\Delta=b^2-4ac\\gt0\\).",
+   "explain_vi": "Đáp án b. \\(ac=-7\\lt0\\) nên \\(\\Delta=b^2-4ac\\gt0\\).",
+   "images": [],
+   "id": "f8e9b5d705ba",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Compute the discriminant \\(\\Delta\\) of \\(#x^#+#x=#\\).",
+   "en": "Compute the discriminant \\(\\Delta\\) of \\(5x^2+4x=0\\).",
+   "vi": "Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"discriminant\">biệt thức</b> \\(\\Delta\\) của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(5x^2+4x=0\\).",
+   "options": [
+    "\\(20\\)",
+    "\\(16\\)",
+    "\\(-16\\)",
+    "\\(24\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\Delta=b^2-4ac=(4)^2-4\\cdot(5)\\cdot(0)=16\\).",
+   "explain_vi": "Đáp án b. \\(\\Delta=b^2-4ac=(4)^2-4\\cdot(5)\\cdot(0)=16\\).",
+   "images": [],
+   "id": "3526ed6158d9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Without solving, how many roots does \\(-#x^#-#x+#=#\\) have?",
+   "en": "Without solving, how many roots does \\(-5x^2-6x+9=0\\) have?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"without solving the equation\">Không giải phương trình</b>, cho biết \\(-5x^2-6x+9=0\\) có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b>.",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">two distinct roots</span><span class=\"vi\">hai nghiệm phân biệt</span></span>",
+    "<span class=\"txi\"><span class=\"en\">a double root</span><span class=\"vi\">nghiệm kép</span></span>",
+    "<span class=\"txi\"><span class=\"en\">no real roots</span><span class=\"vi\">vô nghiệm</span></span>",
+    "<span class=\"txi\"><span class=\"en\">infinitely many roots</span><span class=\"vi\">vô số nghiệm</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\Delta=216\\).",
+   "explain_vi": "Đáp án a. \\(\\Delta=216\\).",
+   "images": [],
+   "id": "7ae32d8f4217",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Write \\(-#x^#+#x=-#x+#\\) in the form \\(ax^#+bx+c=#\\). Its coefficients are…",
+   "en": "Write \\(-5x^2+2x=-5x+9\\) in the form \\(ax^2+bx+c=0\\). Its coefficients are…",
+   "vi": "Đưa <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(-5x^2+2x=-5x+9\\) về dạng \\(ax^2+bx+c=0\\). Các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b> là…",
+   "options": [
+    "\\(a=-5,\\ b=7,\\ c=-9\\)",
+    "\\(a=5,\\ b=-7,\\ c=9\\)",
+    "\\(a=-5,\\ b=2,\\ c=9\\)",
+    "\\(a=-5,\\ b=7,\\ c=9\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Move every term to the left: \\(-5x^2+7x-9=0\\).",
+   "explain_vi": "Đáp án a. Chuyển mọi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b> sang <b class=\"mbl-term\" tabindex=\"0\" data-en=\"left-hand side (LHS)\">vế trái</b>: \\(-5x^2+7x-9=0\\).",
+   "images": [],
+   "id": "ae5482489dda",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "The equation \\(-#x^#-#=#\\) has two distinct roots.",
+   "en": "The equation \\(-4x^2-5=0\\) has two distinct roots.",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">Phương trình</b> \\(-4x^2-5=0\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"two distinct roots\">hai nghiệm phân biệt</b>.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. \\(\\Delta=-80\\).",
+   "explain_vi": "Sai. \\(\\Delta=-80\\).",
+   "images": [],
+   "id": "f9ce221985f5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(x=-#\\) is a root of \\(-x^#-#x+#=#\\).",
+   "en": "\\(x=-4\\) is a root of \\(-x^2-3x+4=0\\).",
+   "vi": "\\(x=-4\\) là một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution of an equation\">nghiệm của phương trình</b> \\(-x^2-3x+4=0\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. Substitute: \\(-1\\cdot(-4)^2-3\\cdot(-4)+4=0\\).",
+   "explain_vi": "Đúng. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"substitute\">Thay vào</b>: \\(-1\\cdot(-4)^2-3\\cdot(-4)+4=0\\).",
+   "images": [],
+   "id": "c2cc04eb80db",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Find the larger root of \\(#x^#-#=#\\).",
+   "en": "Find the larger root of \\(3x^2-27=0\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b> lớn hơn của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(3x^2-27=0\\).",
+   "options": [],
+   "answer": "3",
+   "explain_en": "Answer: 3. \\(\\Delta=324\\), \\(x_{1,2}=\\dfrac{0\\pm18}{6}\\): roots \\(-3\\) and \\(3\\).",
+   "explain_vi": "Đáp số: 3. \\(\\Delta=324\\), \\(x_{1,2}=\\dfrac{0\\pm18}{6}\\): hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b> \\(-3\\) và \\(3\\).",
+   "images": [],
+   "id": "8787cb99987c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Find the positive root of \\(-#x^#+#=#\\).",
+   "en": "Find the positive root of \\(-2x^2+128=0\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b> dương của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(-2x^2+128=0\\).",
+   "options": [],
+   "answer": "8",
+   "explain_en": "Answer: 8. \\(x^2=64\\Rightarrow x=\\pm8\\).",
+   "explain_vi": "Đáp số: 8. \\(x^2=64\\Rightarrow x=\\pm8\\).",
+   "images": [],
+   "id": "0e7d8295faee",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D1",
+   "type": "mcq",
+   "form": "For \\(#x^#+#x=#\\), the discriminant is \\(\\Delta=\\)…",
+   "en": "For \\(4x^2+4x=0\\), the discriminant is \\(\\Delta=\\)…",
+   "vi": "Với <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(4x^2+4x=0\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"discriminant\">biệt thức</b> \\(\\Delta=\\)…",
+   "options": [
+    "\\(b^2-4ac\\)",
+    "\\(b^2-2ac\\)",
+    "\\(b^2+4ac\\)",
+    "\\(4ac-b^2\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\Delta=b^2-4ac\\).",
+   "explain_vi": "Đáp án a. \\(\\Delta=b^2-4ac\\).",
+   "images": [],
+   "id": "0a4633706045",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D1",
+   "type": "mcq",
+   "form": "State the coefficients of \\(#x^#-#x-#=#\\).",
+   "en": "State the coefficients of \\(3x^2-3x-7=0\\).",
+   "vi": "Xác định các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(3x^2-3x-7=0\\).",
+   "options": [
+    "\\(a=-3,\\ b=3,\\ c=-7\\)",
+    "\\(a=3,\\ b=-3,\\ c=-7\\)",
+    "\\(a=3,\\ b=-7,\\ c=-3\\)",
+    "\\(a=3,\\ b=3,\\ c=7\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(a\\) goes with \\(x^2\\), \\(b\\) with \\(x\\), \\(c\\) is the constant term.",
+   "explain_vi": "Đáp án b. \\(a\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b> của \\(x^2\\), \\(b\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b> của \\(x\\), \\(c\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b> tự do.",
+   "images": [],
+   "id": "3fb9e45db366",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Which of these is a quadratic equation in the unknown \\(y\\)?",
+   "en": "Which of these is a quadratic equation in the unknown \\(y\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">Phương trình</b> nào là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"quadratic equation in one unknown\">phương trình bậc hai một ẩn</b> \\(y\\)?",
+   "options": [
+    "\\(7y+1=0\\)",
+    "\\(-y^2+7y+1=0\\)",
+    "\\(-y^3+7y=0\\)",
+    "\\(\\dfrac{-y^2+7y+1}{y}=0\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. It has the form \\(ay^2+by+c=0\\) with \\(a=-1\\ne0\\).",
+   "explain_vi": "Đáp án b. Có dạng \\(ay^2+by+c=0\\) với \\(a=-1\\ne0\\).",
+   "images": [],
+   "id": "051638efb8db",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Solve \\(#x^#+#x+#=#\\).",
+   "en": "Solve \\(9x^2+6x+1=0\\).",
+   "vi": "Giải <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(9x^2+6x+1=0\\).",
+   "options": [
+    "\\(S=\\varnothing\\)",
+    "\\(S=\\{-\\dfrac{1}{3};\\ \\dfrac{1}{3}\\}\\)",
+    "\\(S=\\{\\dfrac{1}{3}\\}\\)",
+    "\\(S=\\{-\\dfrac{1}{3}\\}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\Delta=0\\): double root \\(x=-\\dfrac{1}{3}\\).",
+   "explain_vi": "Đáp án d. \\(\\Delta=0\\): <b class=\"mbl-term\" tabindex=\"0\" data-en=\"double root (repeated root)\">nghiệm kép</b> \\(x=-\\dfrac{1}{3}\\).",
+   "images": [],
+   "id": "a14e86209703",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Solve \\(-#x^#-#x=#\\).",
+   "en": "Solve \\(-2x^2-8x=0\\).",
+   "vi": "Giải <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(-2x^2-8x=0\\).",
+   "options": [
+    "\\(S=\\{-4\\}\\)",
+    "\\(S=\\{0;\\ 4\\}\\)",
+    "\\(S=\\{0\\}\\)",
+    "\\(S=\\{-4;\\ 0\\}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(x\\left(-2x-8\\right)=0\\Rightarrow x=0\\) or \\(x=-4\\).",
+   "explain_vi": "Đáp án d. \\(x\\left(-2x-8\\right)=0\\Rightarrow x=0\\) hoặc \\(x=-4\\).",
+   "images": [],
+   "id": "6d04a2ecd9ff",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Use the reduced discriminant to solve \\(#x^#+#x+#=#\\).",
+   "en": "Use the reduced discriminant to solve \\(3x^2+8x+4=0\\).",
+   "vi": "Dùng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"quadratic formula\">công thức nghiệm</b> thu gọn giải <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(3x^2+8x+4=0\\).",
+   "options": [
+    "\\(S=\\{-1;\\ -\\dfrac{1}{3}\\}\\)",
+    "\\(S=\\{-\\dfrac{10}{3};\\ -2\\}\\)",
+    "\\(S=\\{\\dfrac{2}{3};\\ 2\\}\\)",
+    "\\(S=\\{-2;\\ -\\dfrac{2}{3}\\}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(b'=4\\), \\(\\Delta'=4\\), \\(x_{1,2}=\\dfrac{-4\\pm2}{3}\\).",
+   "explain_vi": "Đáp án d. \\(b'=4\\), \\(\\Delta'=4\\), \\(x_{1,2}=\\dfrac{-4\\pm2}{3}\\).",
+   "images": [],
+   "id": "a01289a29be0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D3",
+   "type": "mcq",
+   "form": "For which \\(m\\) does \\(x^#+#x+m=#\\) have two distinct roots?",
+   "en": "For which \\(m\\) does \\(x^2+8x+m=0\\) have two distinct roots?",
+   "vi": "Với giá trị nào của \\(m\\) thì <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(x^2+8x+m=0\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"two distinct roots\">hai nghiệm phân biệt</b>?",
+   "options": [
+    "\\(m\\lt 16\\)",
+    "\\(m=-16\\)",
+    "\\(m\\gt 16\\)",
+    "\\(m=16\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\Delta=64-4m\\); compare it with 0.",
+   "explain_vi": "Đáp án a. \\(\\Delta=64-4m\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"compare\">so sánh</b> với 0.",
+   "images": [],
+   "id": "742c828b55e6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Solve \\(\\left(#x+#\\right)^#=#\\).",
+   "en": "Solve \\(\\left(3x+2\\right)^2=4\\).",
+   "vi": "Giải <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(\\left(3x+2\\right)^2=4\\).",
+   "options": [
+    "\\(S=\\{-2;\\ \\dfrac{2}{3}\\}\\)",
+    "\\(S=\\{0\\}\\)",
+    "\\(S=\\{0;\\ \\dfrac{4}{3}\\}\\)",
+    "\\(S=\\{-\\dfrac{4}{3};\\ 0\\}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(3x+2=\\pm2\\).",
+   "explain_vi": "Đáp án d. \\(3x+2=\\pm2\\).",
+   "images": [],
+   "id": "3130a6deb842",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Use a calculator to solve \\(#x^#-#x-#=#\\) (roots rounded to two decimal places, \\(x_#\\lt x_#\\)).",
+   "en": "Use a calculator to solve \\(1.2x^2-2.5x-2.4=0\\) (roots rounded to two decimal places, \\(x_1\\lt x_2\\)).",
+   "vi": "Dùng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"calculator\">máy tính cầm tay</b> giải <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(1{,}2x^2-2{,}5x-2{,}4=0\\) (làm tròn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b> đến chữ số thập phân thứ hai, \\(x_1\\lt x_2\\)).",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(x_1\\approx -0.71,\\ x_2\\approx 2.80\\)</span><span class=\"vi\">\\(x_1\\approx -0{,}71,\\ x_2\\approx 2{,}80\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(x_1\\approx -1.43,\\ x_2\\approx 5.60\\)</span><span class=\"vi\">\\(x_1\\approx -1{,}43,\\ x_2\\approx 5{,}60\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(x_1\\approx -0.36,\\ x_2\\approx 1.40\\)</span><span class=\"vi\">\\(x_1\\approx -0{,}36,\\ x_2\\approx 1{,}40\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(x_1\\approx -2.80,\\ x_2\\approx 0.71\\)</span><span class=\"vi\">\\(x_1\\approx -2{,}80,\\ x_2\\approx 0{,}71\\)</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\Delta=17.77\\gt0\\); the calculator gives \\(x_1\\approx-0.71\\), \\(x_2\\approx2.80\\).",
+   "explain_vi": "Đáp án a. \\(\\Delta=17{,}77\\gt0\\); máy tính cho \\(x_1\\approx-0{,}71\\), \\(x_2\\approx2{,}80\\).",
+   "images": [],
+   "id": "4d9b67ddb42a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A rectangular garden has area # m², and its width is # m shorter than its length. Find its length.",
+   "en": "A rectangular garden has area 112 m², and its width is 9 m shorter than its length. Find its length.",
+   "vi": "Một mảnh vườn hình chữ nhật có diện tích 112 m², chiều rộng ngắn hơn chiều dài 9 m. Tính chiều dài mảnh vườn.",
+   "options": [
+    "\\(17\\text{ m}\\)",
+    "\\(25\\text{ m}\\)",
+    "\\(7\\text{ m}\\)",
+    "\\(16\\text{ m}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(x(x-9)=112\\Leftrightarrow x^2-9x-112=0\\Rightarrow x=16\\) (the negative root is rejected).",
+   "explain_vi": "Đáp án d. \\(x(x-9)=112\\Leftrightarrow x^2-9x-112=0\\Rightarrow x=16\\) (loại <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b> âm).",
+   "images": [],
+   "id": "7b60745e3c61",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A rectangular plot # m by # m contains a pool with a path of constant width \\(x\\) m all around it. The pool has area # m². Find \\(x\\).",
+   "en": "A rectangular plot 31 m by 19 m contains a pool with a path of constant width \\(x\\) m all around it. The pool has area 253 m². Find \\(x\\).",
+   "vi": "Một khu đất hình chữ nhật 31 m × 19 m có một bể bơi ở giữa, xung quanh là lối đi rộng đều \\(x\\) m. Diện tích bể bơi là 253 m². Tìm \\(x\\).",
+   "options": [
+    "\\(21\\text{ m}\\)",
+    "\\(8\\text{ m}\\)",
+    "\\(4\\text{ m}\\)",
+    "\\(5\\text{ m}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\((31-2x)(19-2x)=253\\); the root that keeps \\(19-2x\\gt0\\) is \\(x=4\\).",
+   "explain_vi": "Đáp án c. \\((31-2x)(19-2x)=253\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b> thỏa mãn \\(19-2x\\gt0\\) là \\(x=4\\).",
+   "images": [],
+   "id": "3d496d44551f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D4",
+   "type": "mcq",
+   "form": "Without computing, how many roots does \\(#x^#-#x-#=#\\) have? (Look at the signs of \\(a\\) and \\(c\\).)",
+   "en": "Without computing, how many roots does \\(4x^2-6x-6=0\\) have? (Look at the signs of \\(a\\) and \\(c\\).)",
+   "vi": "Không tính toán, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(4x^2-6x-6=0\\) có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b>? (Xét dấu của \\(a\\) và \\(c\\).)",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">it depends on \\(b\\)</span><span class=\"vi\">tùy thuộc vào \\(b\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">two distinct roots</span><span class=\"vi\">hai nghiệm phân biệt</span></span>",
+    "<span class=\"txi\"><span class=\"en\">no real roots</span><span class=\"vi\">vô nghiệm</span></span>",
+    "<span class=\"txi\"><span class=\"en\">a double root</span><span class=\"vi\">nghiệm kép</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(ac=-24\\lt0\\), so \\(\\Delta=b^2-4ac\\gt0\\).",
+   "explain_vi": "Đáp án b. \\(ac=-24\\lt0\\) nên \\(\\Delta=b^2-4ac\\gt0\\).",
+   "images": [],
+   "id": "bbe9279a9106",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  }
+ ]
+}

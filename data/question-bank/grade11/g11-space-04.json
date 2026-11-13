@@ -1,0 +1,1990 @@
+{
+ "lesson": "g11-space-04",
+ "grade": 11,
+ "no": 10,
+ "title": "Đường thẳng và mặt phẳng trong không gian",
+ "path": "lessons/grade11/lines-and-planes-in-space/lines-planes-basics.html",
+ "items": [
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "A pyramid has a base with # sides. How many faces does it have?",
+   "en": "A pyramid has a base with 7 sides. How many faces does it have?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">Hình chóp</b> có đáy là đa giác 7 cạnh. Số mặt của nó là…",
+   "options": [
+    "\\(9\\)",
+    "\\(7\\)",
+    "\\(15\\)",
+    "\\(8\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Count the base(s) and the lateral parts: 8.",
+   "explain_vi": "Đáp án d. Đếm phần đáy và phần bên: 8.",
+   "images": [],
+   "id": "318b3b1c0a58",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "In the figure, the pyramid \\(S.ABCD\\) has a trapezoid base with \\(AB\\parallel CD\\), and \\(I\\) is the intersection of \\(AD\\) and \\(BC\\). The line of intersection of \\((SAD)\\) and \\((SBC)\\) is…",
+   "en": "In the figure, the pyramid \\(S.ABCD\\) has a trapezoid base with \\(AB\\parallel CD\\), and \\(I\\) is the intersection of \\(AD\\) and \\(BC\\). The line of intersection of \\((SAD)\\) and \\((SBC)\\) is…<img src=\"../../../img/fig3d/df461771aab9962f.svg\" alt=\"Pyramid S.ABCD\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Trong hình vẽ, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">hình chóp</b> \\(S.ABCD\\) có đáy là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"trapezoid\">hình thang</b> \\(AB\\parallel CD\\), \\(I\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersection point\">giao điểm</b> của \\(AD\\) và \\(BC\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line of intersection\">Giao tuyến</b> của \\((SAD)\\) và \\((SBC)\\) là…<img src=\"../../../img/fig3d/df461771aab9962f.svg\" alt=\"Pyramid S.ABCD\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "\\(SA\\)",
+    "\\(SD\\)",
+    "\\(SC\\)",
+    "\\(SI\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(S\\) and \\(I\\) are two common points of the two planes.",
+   "explain_vi": "Đáp án d. \\(S\\) và \\(I\\) là hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"common point\">điểm chung</b> của hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b>.",
+   "images": [
+    "img/fig3d/df461771aab9962f.svg"
+   ],
+   "id": "95d80fb5f98a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "There are # points in space, no four of them in one plane. How many planes pass through three of them?",
+   "en": "There are 6 points in space, no four of them in one plane. How many planes pass through three of them?",
+   "vi": "Cho 6 điểm trong không gian, không có bốn điểm nào <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coplanar\">đồng phẳng</b>. Có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> đi qua ba trong số các điểm đó?",
+   "options": [
+    "\\(15\\)",
+    "\\(20\\)",
+    "\\(120\\)",
+    "\\(26\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\mathrm C_{6}^3=20\\).",
+   "explain_vi": "Đáp án b. \\(\\mathrm C_{6}^3=20\\).",
+   "images": [],
+   "id": "39b080080f38",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "If two points of a line lie in a plane, every point of the line lies in that plane.",
+   "en": "If two points of a line lie in a plane, every point of the line lies in that plane.",
+   "vi": "Nếu một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> có hai điểm phân biệt thuộc một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> thì mọi điểm của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> đều thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> đó.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "This is a basic property (axiom).",
+   "explain_vi": "Đây là một tính chất thừa nhận.",
+   "images": [],
+   "id": "44c20ddbe2b9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "Three points always lie in exactly one plane.",
+   "en": "Three points always lie in exactly one plane.",
+   "vi": "Ba điểm bất kì luôn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"lies in\">nằm trong</b> đúng một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b>.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "Three collinear points lie in infinitely many planes.",
+   "explain_vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"collinear points\">Ba điểm thẳng hàng</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"lies in\">nằm trong</b> vô số <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b>.",
+   "images": [],
+   "id": "16e0e5c79a35",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "In the pyramid \\(S.ABCD\\) with a parallelogram base, \\(O=AC\\cap BD\\), \\(M\\) is the midpoint of \\(SC\\) and \\(G\\) is the intersection point of \\(AM\\) and \\((SBD)\\). Find \\(\\dfrac{SO}{GO}\\).",
+   "en": "In the pyramid \\(S.ABCD\\) with a parallelogram base, \\(O=AC\\cap BD\\), \\(M\\) is the midpoint of \\(SC\\) and \\(G\\) is the intersection point of \\(AM\\) and \\((SBD)\\). Find \\(\\dfrac{SO}{GO}\\).<img src=\"../../../img/fig3d/f71a58c1b0b80d8c.svg\" alt=\"Pyramid with G\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">hình chóp</b> \\(S.ABCD\\) có đáy là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelogram\">hình bình hành</b>, \\(O=AC\\cap BD\\), \\(M\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> của \\(SC\\) và \\(G\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersection point\">giao điểm</b> của \\(AM\\) với \\((SBD)\\). Tính \\(\\dfrac{SO}{GO}\\).<img src=\"../../../img/fig3d/f71a58c1b0b80d8c.svg\" alt=\"Pyramid with G\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [],
+   "answer": "3",
+   "explain_en": "\\(G=AM\\cap SO\\) is the centroid of triangle \\(SAC\\): \\(\\dfrac{SO}{GO}=3\\).",
+   "explain_vi": "\\(G=AM\\cap SO\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"centroid\">trọng tâm</b> tam giác \\(SAC\\): \\(\\dfrac{SO}{GO}=3\\).",
+   "images": [
+    "img/fig3d/f71a58c1b0b80d8c.svg"
+   ],
+   "id": "97c126f48f36",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "There are # points in space, no three of them on one line. How many lines pass through two of them?",
+   "en": "There are 12 points in space, no three of them on one line. How many lines pass through two of them?",
+   "vi": "Cho 12 điểm trong không gian, không có ba điểm nào <b class=\"mbl-term\" tabindex=\"0\" data-en=\"collinear\">thẳng hàng</b>. Có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> đi qua hai trong số các điểm đó?",
+   "options": [],
+   "answer": "66",
+   "explain_en": "\\(\\mathrm C_{12}^2=66\\).",
+   "explain_vi": "\\(\\mathrm C_{12}^2=66\\).",
+   "images": [],
+   "id": "7f3b7e9b75cd",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "How many common points do the planes \\((SAB)\\) and \\((SBC)\\) of the pyramid \\(S.ABCD\\) have?",
+   "en": "How many common points do the planes \\((SAB)\\) and \\((SBC)\\) of the pyramid \\(S.ABCD\\) have?",
+   "vi": "Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> \\((SAB)\\) và \\((SBC)\\) của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">hình chóp</b> \\(S.ABCD\\) có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"common point\">điểm chung</b>?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">exactly two points</span><span class=\"vi\">đúng hai điểm</span></span>",
+    "<span class=\"txi\"><span class=\"en\">exactly one point</span><span class=\"vi\">đúng một điểm</span></span>",
+    "<span class=\"txi\"><span class=\"en\">no common point</span><span class=\"vi\">không có điểm chung</span></span>",
+    "<span class=\"txi\"><span class=\"en\">infinitely many: all the points of the line \\(SB\\)</span><span class=\"vi\">vô số: mọi điểm của đường thẳng \\(SB\\)</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Two different planes with a common point meet along a whole line.",
+   "explain_vi": "Đáp án d. Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> phân biệt có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"common point\">điểm chung</b> thì <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersect\">cắt nhau</b> theo cả một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b>.",
+   "images": [],
+   "id": "7bd300fc3780",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "In the pyramid \\(S.ABCD\\) with a parallelogram base, \\(O=AC\\cap BD\\) and \\(M\\) is the midpoint of \\(SC\\). Which line lies in the plane \\((SAC)\\)?",
+   "en": "In the pyramid \\(S.ABCD\\) with a parallelogram base, \\(O=AC\\cap BD\\) and \\(M\\) is the midpoint of \\(SC\\). Which line lies in the plane \\((SAC)\\)?<img src=\"../../../img/fig3d/ae13807041ae8d27.svg\" alt=\"Pyramid\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">hình chóp</b> \\(S.ABCD\\) có đáy là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelogram\">hình bình hành</b>, \\(O=AC\\cap BD\\), \\(M\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> của \\(SC\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">Đường thẳng</b> nào <b class=\"mbl-term\" tabindex=\"0\" data-en=\"lies in\">nằm trong</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> \\((SAC)\\)?<img src=\"../../../img/fig3d/ae13807041ae8d27.svg\" alt=\"Pyramid\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "\\(AM\\)",
+    "\\(SB\\)",
+    "\\(BD\\)",
+    "\\(SD\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Both points of \\(AM\\) belong to \\((SAC)\\).",
+   "explain_vi": "Đáp án a. Hai điểm của \\(AM\\) đều thuộc \\((SAC)\\).",
+   "images": [
+    "img/fig3d/ae13807041ae8d27.svg"
+   ],
+   "id": "810100de605f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "In the pyramid \\(S.ABCD\\) with a parallelogram base, \\(O\\) is the intersection of \\(AC\\) and \\(BD\\). The point \\(O\\) lies in which plane?",
+   "en": "In the pyramid \\(S.ABCD\\) with a parallelogram base, \\(O\\) is the intersection of \\(AC\\) and \\(BD\\). The point \\(O\\) lies in which plane?<img src=\"../../../img/fig3d/f54e537e698dba11.svg\" alt=\"Pyramid\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">hình chóp</b> \\(S.ABCD\\) có đáy là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelogram\">hình bình hành</b>, \\(O\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersection point\">giao điểm</b> của \\(AC\\) và \\(BD\\). Điểm \\(O\\) thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> nào?<img src=\"../../../img/fig3d/f54e537e698dba11.svg\" alt=\"Pyramid\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "\\((SAD)\\)",
+    "\\((SBD)\\)",
+    "\\((SCD)\\)",
+    "\\((SAB)\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(O\\) lies on a line of the plane \\((SBD)\\).",
+   "explain_vi": "Đáp án b. \\(O\\) thuộc một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"a line lying in a plane\">đường thẳng nằm trong mặt phẳng</b> \\((SBD)\\).",
+   "images": [
+    "img/fig3d/f54e537e698dba11.svg"
+   ],
+   "id": "305753dbc569",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "In the tetrahedron \\(ABCD\\), \\(M, N, P\\) lie on \\(AB, AC, AD\\) with \\(\\dfrac{AM}{AB}=\\dfrac{AN}{AC}=\\dfrac{AP}{AD}=\\dfrac{#}{#}\\). The ratio of the area of triangle \\(MNP\\) to the area of triangle \\(BCD\\) is…",
+   "en": "In the tetrahedron \\(ABCD\\), \\(M, N, P\\) lie on \\(AB, AC, AD\\) with \\(\\dfrac{AM}{AB}=\\dfrac{AN}{AC}=\\dfrac{AP}{AD}=\\dfrac{1}{4}\\). The ratio of the area of triangle \\(MNP\\) to the area of triangle \\(BCD\\) is…<img src=\"../../../img/fig3d/e16b43f8fa62e9a2.svg\" alt=\"Tetrahedron with triangle MNP\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tetrahedron\">tứ diện</b> \\(ABCD\\), các điểm \\(M, N, P\\) thuộc \\(AB, AC, AD\\) sao cho \\(\\dfrac{AM}{AB}=\\dfrac{AN}{AC}=\\dfrac{AP}{AD}=\\dfrac{1}{4}\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ratio\">Tỉ số</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"area of a triangle\">diện tích tam giác</b> \\(MNP\\) và tam giác \\(BCD\\) bằng…<img src=\"../../../img/fig3d/e16b43f8fa62e9a2.svg\" alt=\"Tetrahedron with triangle MNP\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "\\(\\dfrac{15}{16}\\)",
+    "\\(\\dfrac{1}{4}\\)",
+    "\\(\\dfrac{3}{8}\\)",
+    "\\(\\dfrac{1}{16}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(MN, NP, PM\\) are parallel to \\(BC, CD, DB\\) with ratio \\(\\dfrac{1}{4}\\): area ratio \\(\\left(\\dfrac{1}{4}\\right)^2=\\dfrac{1}{16}\\).",
+   "explain_vi": "Đáp án d. \\(MN, NP, PM\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b> với \\(BC, CD, DB\\) với <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ratio\">tỉ số</b> \\(\\dfrac{1}{4}\\): <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ratio\">tỉ số</b> diện tích \\(\\left(\\dfrac{1}{4}\\right)^2=\\dfrac{1}{16}\\).",
+   "images": [
+    "img/fig3d/e16b43f8fa62e9a2.svg"
+   ],
+   "id": "5f630f8f65c2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "In the tetrahedron \\(ABCD\\), \\(M, N\\) are the midpoints of \\(AB, AC\\) and \\(P\\) is the midpoint of \\(CD\\). The cross-section of the solid by the plane \\((MNP)\\) is…",
+   "en": "In the tetrahedron \\(ABCD\\), \\(M, N\\) are the midpoints of \\(AB, AC\\) and \\(P\\) is the midpoint of \\(CD\\). The cross-section of the solid by the plane \\((MNP)\\) is…<img src=\"../../../img/fig3d/d3a5c867b1a86416.svg\" alt=\"Solid with marked points\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tetrahedron\">tứ diện</b> \\(ABCD\\), \\(M, N\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> của \\(AB, AC\\) và \\(P\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> của \\(CD\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"cross-section\">Thiết diện</b> của khối cắt bởi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> \\((MNP)\\) là…<img src=\"../../../img/fig3d/d3a5c867b1a86416.svg\" alt=\"Solid with marked points\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">a triangle</span><span class=\"vi\">tam giác</span></span>",
+    "<span class=\"txi\"><span class=\"en\">a segment</span><span class=\"vi\">một đoạn thẳng</span></span>",
+    "<span class=\"txi\"><span class=\"en\">a pentagon</span><span class=\"vi\">ngũ giác</span></span>",
+    "<span class=\"txi\"><span class=\"en\">a quadrilateral</span><span class=\"vi\">tứ giác</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. The plane meets 4 edges of the solid, so the section has 4 vertices.",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">Mặt phẳng</b> cắt 4 cạnh của khối nên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"cross-section\">thiết diện</b> có 4 đỉnh.",
+   "images": [
+    "img/fig3d/d3a5c867b1a86416.svg"
+   ],
+   "id": "5eb021fada32",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "In the tetrahedron \\(ABCD\\), \\(M\\in AB\\), \\(N\\in AC\\) with \\(AM=\\tfrac{#}{#}\\,AB\\), \\(AN=\\tfrac{#}{#}\\,AC\\), and \\(I=MN\\cap BC\\). The intersection point of \\(MN\\) and \\((BCD)\\) is…",
+   "en": "In the tetrahedron \\(ABCD\\), \\(M\\in AB\\), \\(N\\in AC\\) with \\(AM=\\tfrac{1}{2}\\,AB\\), \\(AN=\\tfrac{2}{3}\\,AC\\), and \\(I=MN\\cap BC\\). The intersection point of \\(MN\\) and \\((BCD)\\) is…<img src=\"../../../img/fig3d/6e8125acdb888b90.svg\" alt=\"Figure\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tetrahedron\">tứ diện</b> \\(ABCD\\), \\(M\\in AB\\), \\(N\\in AC\\) sao cho \\(AM=\\tfrac{1}{2}\\,AB\\), \\(AN=\\tfrac{2}{3}\\,AC\\), và \\(I=MN\\cap BC\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersection point\">Giao điểm</b> của \\(MN\\) và \\((BCD)\\) là…<img src=\"../../../img/fig3d/6e8125acdb888b90.svg\" alt=\"Figure\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "\\(M\\)",
+    "\\(I\\)",
+    "\\(N\\)",
+    "\\(B\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(I\\in MN\\) and \\(I\\in BC\\subset(BCD)\\).",
+   "explain_vi": "Đáp án b. \\(I\\in MN\\) và \\(I\\in BC\\subset(BCD)\\).",
+   "images": [
+    "img/fig3d/6e8125acdb888b90.svg"
+   ],
+   "id": "d192fd98370e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "In the tetrahedron \\(ABCD\\), \\(M\\in AB\\), \\(N\\in AC\\), \\(P\\in AD\\) with \\(AM=\\tfrac{#}{#}\\,AB\\), \\(AN=\\tfrac{#}{#}\\,AC\\), \\(AP=\\tfrac{#}{#}\\,AD\\); \\(I=MN\\cap BC\\), \\(J=NP\\cap CD\\), \\(K=MP\\cap BD\\). Which three points are collinear?",
+   "en": "In the tetrahedron \\(ABCD\\), \\(M\\in AB\\), \\(N\\in AC\\), \\(P\\in AD\\) with \\(AM=\\tfrac{1}{4}\\,AB\\), \\(AN=\\tfrac{2}{5}\\,AC\\), \\(AP=\\tfrac{3}{5}\\,AD\\); \\(I=MN\\cap BC\\), \\(J=NP\\cap CD\\), \\(K=MP\\cap BD\\). Which three points are collinear?<img src=\"../../../img/fig3d/827383feae0a1dcc.svg\" alt=\"Tetrahedron with I, J, K\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tetrahedron\">tứ diện</b> \\(ABCD\\), \\(M\\in AB\\), \\(N\\in AC\\), \\(P\\in AD\\) với \\(AM=\\tfrac{1}{4}\\,AB\\), \\(AN=\\tfrac{2}{5}\\,AC\\), \\(AP=\\tfrac{3}{5}\\,AD\\); \\(I=MN\\cap BC\\), \\(J=NP\\cap CD\\), \\(K=MP\\cap BD\\). Ba điểm nào <b class=\"mbl-term\" tabindex=\"0\" data-en=\"collinear\">thẳng hàng</b>?<img src=\"../../../img/fig3d/827383feae0a1dcc.svg\" alt=\"Tetrahedron with I, J, K\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "\\(M,\\ J,\\ B\\)",
+    "\\(I,\\ J,\\ B\\)",
+    "\\(I,\\ K,\\ C\\)",
+    "\\(I,\\ J,\\ K\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(I, J, K\\) are common points of \\((MNP)\\) and \\((BCD)\\), so they lie on the line of intersection.",
+   "explain_vi": "Đáp án d. \\(I, J, K\\) là các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"common point\">điểm chung</b> của \\((MNP)\\) và \\((BCD)\\) nên cùng nằm trên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line of intersection\">giao tuyến</b>.",
+   "images": [
+    "img/fig3d/827383feae0a1dcc.svg"
+   ],
+   "id": "14459c0729d4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Through which of the following can we draw exactly one plane?",
+   "en": "Through which of the following can we draw exactly one plane?",
+   "vi": "Có đúng một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> đi qua đối tượng nào sau đây?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">a single line</span><span class=\"vi\">một đường thẳng</span></span>",
+    "<span class=\"txi\"><span class=\"en\">two parallel lines</span><span class=\"vi\">hai đường thẳng song song</span></span>",
+    "<span class=\"txi\"><span class=\"en\">three collinear points</span><span class=\"vi\">ba điểm thẳng hàng</span></span>",
+    "<span class=\"txi\"><span class=\"en\">two points</span><span class=\"vi\">hai điểm</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. A plane is determined by three non-collinear points, a line and a point off it, two intersecting lines or two parallel lines.",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">Mặt phẳng</b> được xác định bởi ba điểm không <b class=\"mbl-term\" tabindex=\"0\" data-en=\"collinear\">thẳng hàng</b>, một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> và một điểm ngoài nó, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersecting lines\">hai đường thẳng cắt nhau</b> hoặc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel lines\">hai đường thẳng song song</b>.",
+   "images": [],
+   "id": "e5cb36c0802f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "A prism has a base with # sides. How many edges does it have?",
+   "en": "A prism has a base with 4 sides. How many edges does it have?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"prism\">Hình lăng trụ</b> có đáy là đa giác 4 cạnh. Số cạnh của nó là…",
+   "options": [
+    "\\(12\\)",
+    "\\(13\\)",
+    "\\(11\\)",
+    "\\(9\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Count the base(s) and the lateral parts: 12.",
+   "explain_vi": "Đáp án a. Đếm phần đáy và phần bên: 12.",
+   "images": [],
+   "id": "594132ab2a34",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "In the figure, the pyramid \\(S.ABCD\\) has a parallelogram base with center \\(O\\), and \\(M\\) is the midpoint of \\(SC\\). The line of intersection of \\((MBD)\\) and \\((SAC)\\) is…",
+   "en": "In the figure, the pyramid \\(S.ABCD\\) has a parallelogram base with center \\(O\\), and \\(M\\) is the midpoint of \\(SC\\). The line of intersection of \\((MBD)\\) and \\((SAC)\\) is…<img src=\"../../../img/fig3d/15f0086b291e28e4.svg\" alt=\"Pyramid S.ABCD\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Trong hình vẽ, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">hình chóp</b> \\(S.ABCD\\) có đáy là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelogram\">hình bình hành</b> tâm \\(O\\), \\(M\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> của \\(SC\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line of intersection\">Giao tuyến</b> của \\((MBD)\\) và \\((SAC)\\) là…<img src=\"../../../img/fig3d/15f0086b291e28e4.svg\" alt=\"Pyramid S.ABCD\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "\\(MB\\)",
+    "\\(BD\\)",
+    "\\(MD\\)",
+    "\\(MO\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(M\\) and \\(O\\) are two common points of the two planes.",
+   "explain_vi": "Đáp án d. \\(M\\) và \\(O\\) là hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"common point\">điểm chung</b> của hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b>.",
+   "images": [
+    "img/fig3d/15f0086b291e28e4.svg"
+   ],
+   "id": "0c2eed21e45b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "There are # points in space, no four of them in one plane. How many planes pass through three of them?",
+   "en": "There are 9 points in space, no four of them in one plane. How many planes pass through three of them?",
+   "vi": "Cho 9 điểm trong không gian, không có bốn điểm nào <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coplanar\">đồng phẳng</b>. Có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> đi qua ba trong số các điểm đó?",
+   "options": [
+    "\\(36\\)",
+    "\\(84\\)",
+    "\\(504\\)",
+    "\\(93\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\mathrm C_{9}^3=84\\).",
+   "explain_vi": "Đáp án b. \\(\\mathrm C_{9}^3=84\\).",
+   "images": [],
+   "id": "ee8b51e15784",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "A tetrahedron has # faces and # edges.",
+   "en": "A tetrahedron has 4 faces and 6 edges.",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"tetrahedron\">Tứ diện</b> có 4 mặt và 6 cạnh.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "4 triangular faces, 6 edges.",
+   "explain_vi": "4 mặt tam giác, 6 cạnh.",
+   "images": [],
+   "id": "92d19310a4cc",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "Two different planes can have exactly one common point.",
+   "en": "Two different planes can have exactly one common point.",
+   "vi": "Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> phân biệt có thể có đúng một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"common point\">điểm chung</b>.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "If they share a point, they share a whole line.",
+   "explain_vi": "Nếu có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"common point\">điểm chung</b> thì chúng có chung cả một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b>.",
+   "images": [],
+   "id": "9e682b2c3610",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "In the pyramid \\(S.ABCD\\) with a parallelogram base, \\(O=AC\\cap BD\\), \\(M\\) is the midpoint of \\(SC\\) and \\(G\\) is the intersection point of \\(AM\\) and \\((SBD)\\). Find \\(\\dfrac{SG}{GO}\\).",
+   "en": "In the pyramid \\(S.ABCD\\) with a parallelogram base, \\(O=AC\\cap BD\\), \\(M\\) is the midpoint of \\(SC\\) and \\(G\\) is the intersection point of \\(AM\\) and \\((SBD)\\). Find \\(\\dfrac{SG}{GO}\\).<img src=\"../../../img/fig3d/f71a58c1b0b80d8c.svg\" alt=\"Pyramid with G\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">hình chóp</b> \\(S.ABCD\\) có đáy là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelogram\">hình bình hành</b>, \\(O=AC\\cap BD\\), \\(M\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> của \\(SC\\) và \\(G\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersection point\">giao điểm</b> của \\(AM\\) với \\((SBD)\\). Tính \\(\\dfrac{SG}{GO}\\).<img src=\"../../../img/fig3d/f71a58c1b0b80d8c.svg\" alt=\"Pyramid with G\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [],
+   "answer": "2",
+   "explain_en": "\\(G=AM\\cap SO\\) is the centroid of triangle \\(SAC\\): \\(\\dfrac{SG}{GO}=2\\).",
+   "explain_vi": "\\(G=AM\\cap SO\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"centroid\">trọng tâm</b> tam giác \\(SAC\\): \\(\\dfrac{SG}{GO}=2\\).",
+   "images": [
+    "img/fig3d/f71a58c1b0b80d8c.svg"
+   ],
+   "id": "38d4bc935b8a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "There are # points in space, no three of them on one line. How many lines pass through two of them?",
+   "en": "There are 6 points in space, no three of them on one line. How many lines pass through two of them?",
+   "vi": "Cho 6 điểm trong không gian, không có ba điểm nào <b class=\"mbl-term\" tabindex=\"0\" data-en=\"collinear\">thẳng hàng</b>. Có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> đi qua hai trong số các điểm đó?",
+   "options": [],
+   "answer": "15",
+   "explain_en": "\\(\\mathrm C_{6}^2=15\\).",
+   "explain_vi": "\\(\\mathrm C_{6}^2=15\\).",
+   "images": [],
+   "id": "a4e478a96a4b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "How many common points do the planes \\((ABC)\\) and \\((ABD)\\) of the tetrahedron \\(ABCD\\) have?",
+   "en": "How many common points do the planes \\((ABC)\\) and \\((ABD)\\) of the tetrahedron \\(ABCD\\) have?",
+   "vi": "Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> \\((ABC)\\) và \\((ABD)\\) của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tetrahedron\">tứ diện</b> \\(ABCD\\) có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"common point\">điểm chung</b>?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">exactly two points</span><span class=\"vi\">đúng hai điểm</span></span>",
+    "<span class=\"txi\"><span class=\"en\">infinitely many: all the points of the line \\(AB\\)</span><span class=\"vi\">vô số: mọi điểm của đường thẳng \\(AB\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">exactly one point</span><span class=\"vi\">đúng một điểm</span></span>",
+    "<span class=\"txi\"><span class=\"en\">no common point</span><span class=\"vi\">không có điểm chung</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Two different planes with a common point meet along a whole line.",
+   "explain_vi": "Đáp án b. Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> phân biệt có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"common point\">điểm chung</b> thì <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersect\">cắt nhau</b> theo cả một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b>.",
+   "images": [],
+   "id": "38211f867e4b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "In the pyramid \\(S.ABCD\\) with a parallelogram base, \\(M, N, P\\) are the midpoints of \\(SA, SB, SC\\). The cross-section of the solid by the plane \\((MNP)\\) is…",
+   "en": "In the pyramid \\(S.ABCD\\) with a parallelogram base, \\(M, N, P\\) are the midpoints of \\(SA, SB, SC\\). The cross-section of the solid by the plane \\((MNP)\\) is…<img src=\"../../../img/fig3d/09b4026d04ce5619.svg\" alt=\"Solid with marked points\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">hình chóp</b> \\(S.ABCD\\) có đáy là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelogram\">hình bình hành</b>, \\(M, N, P\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"respectively\">lần lượt</b> là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> của \\(SA, SB, SC\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"cross-section\">Thiết diện</b> của khối cắt bởi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> \\((MNP)\\) là…<img src=\"../../../img/fig3d/09b4026d04ce5619.svg\" alt=\"Solid with marked points\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">a pentagon</span><span class=\"vi\">ngũ giác</span></span>",
+    "<span class=\"txi\"><span class=\"en\">a triangle</span><span class=\"vi\">tam giác</span></span>",
+    "<span class=\"txi\"><span class=\"en\">a segment</span><span class=\"vi\">một đoạn thẳng</span></span>",
+    "<span class=\"txi\"><span class=\"en\">a quadrilateral</span><span class=\"vi\">tứ giác</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. The plane meets 4 edges of the solid, so the section has 4 vertices.",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">Mặt phẳng</b> cắt 4 cạnh của khối nên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"cross-section\">thiết diện</b> có 4 đỉnh.",
+   "images": [
+    "img/fig3d/09b4026d04ce5619.svg"
+   ],
+   "id": "8b5d384a4535",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "In the pyramid \\(S.ABCD\\) with a parallelogram base, \\(M\\) is the midpoint of \\(SC\\). The point \\(M\\) lies in which plane?",
+   "en": "In the pyramid \\(S.ABCD\\) with a parallelogram base, \\(M\\) is the midpoint of \\(SC\\). The point \\(M\\) lies in which plane?<img src=\"../../../img/fig3d/22114bb25f922145.svg\" alt=\"Pyramid\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">hình chóp</b> \\(S.ABCD\\) có đáy là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelogram\">hình bình hành</b>, \\(M\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> của \\(SC\\). Điểm \\(M\\) thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> nào?<img src=\"../../../img/fig3d/22114bb25f922145.svg\" alt=\"Pyramid\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "\\((SBC)\\)",
+    "\\((SAB)\\)",
+    "\\((SAD)\\)",
+    "\\((SBD)\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(M\\) lies on a line of the plane \\((SBC)\\).",
+   "explain_vi": "Đáp án a. \\(M\\) thuộc một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"a line lying in a plane\">đường thẳng nằm trong mặt phẳng</b> \\((SBC)\\).",
+   "images": [
+    "img/fig3d/22114bb25f922145.svg"
+   ],
+   "id": "1148761d9b31",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "In the pyramid \\(S.ABCD\\) with a parallelogram base, \\(O=AC\\cap BD\\) and \\(M\\) is the midpoint of \\(SC\\). Which line lies in the plane \\((SBD)\\)?",
+   "en": "In the pyramid \\(S.ABCD\\) with a parallelogram base, \\(O=AC\\cap BD\\) and \\(M\\) is the midpoint of \\(SC\\). Which line lies in the plane \\((SBD)\\)?<img src=\"../../../img/fig3d/ae13807041ae8d27.svg\" alt=\"Pyramid\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">hình chóp</b> \\(S.ABCD\\) có đáy là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelogram\">hình bình hành</b>, \\(O=AC\\cap BD\\), \\(M\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> của \\(SC\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">Đường thẳng</b> nào <b class=\"mbl-term\" tabindex=\"0\" data-en=\"lies in\">nằm trong</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> \\((SBD)\\)?<img src=\"../../../img/fig3d/ae13807041ae8d27.svg\" alt=\"Pyramid\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "\\(SA\\)",
+    "\\(AC\\)",
+    "\\(AM\\)",
+    "\\(SB\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Both points of \\(SB\\) belong to \\((SBD)\\).",
+   "explain_vi": "Đáp án d. Hai điểm của \\(SB\\) đều thuộc \\((SBD)\\).",
+   "images": [
+    "img/fig3d/ae13807041ae8d27.svg"
+   ],
+   "id": "9f911405815f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "In the tetrahedron \\(ABCD\\), \\(M, N, P\\) lie on \\(AB, AC, AD\\) with \\(\\dfrac{AM}{AB}=\\dfrac{AN}{AC}=\\dfrac{AP}{AD}=\\dfrac{#}{#}\\). The ratio of the area of triangle \\(MNP\\) to the area of triangle \\(BCD\\) is…",
+   "en": "In the tetrahedron \\(ABCD\\), \\(M, N, P\\) lie on \\(AB, AC, AD\\) with \\(\\dfrac{AM}{AB}=\\dfrac{AN}{AC}=\\dfrac{AP}{AD}=\\dfrac{2}{3}\\). The ratio of the area of triangle \\(MNP\\) to the area of triangle \\(BCD\\) is…<img src=\"../../../img/fig3d/34c9192ea8601a2e.svg\" alt=\"Tetrahedron with triangle MNP\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tetrahedron\">tứ diện</b> \\(ABCD\\), các điểm \\(M, N, P\\) thuộc \\(AB, AC, AD\\) sao cho \\(\\dfrac{AM}{AB}=\\dfrac{AN}{AC}=\\dfrac{AP}{AD}=\\dfrac{2}{3}\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ratio\">Tỉ số</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"area of a triangle\">diện tích tam giác</b> \\(MNP\\) và tam giác \\(BCD\\) bằng…<img src=\"../../../img/fig3d/34c9192ea8601a2e.svg\" alt=\"Tetrahedron with triangle MNP\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "\\(\\dfrac{4}{9}\\)",
+    "\\(\\dfrac{5}{9}\\)",
+    "\\(\\dfrac{2}{9}\\)",
+    "\\(\\dfrac{2}{3}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(MN, NP, PM\\) are parallel to \\(BC, CD, DB\\) with ratio \\(\\dfrac{2}{3}\\): area ratio \\(\\left(\\dfrac{2}{3}\\right)^2=\\dfrac{4}{9}\\).",
+   "explain_vi": "Đáp án a. \\(MN, NP, PM\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b> với \\(BC, CD, DB\\) với <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ratio\">tỉ số</b> \\(\\dfrac{2}{3}\\): <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ratio\">tỉ số</b> diện tích \\(\\left(\\dfrac{2}{3}\\right)^2=\\dfrac{4}{9}\\).",
+   "images": [
+    "img/fig3d/34c9192ea8601a2e.svg"
+   ],
+   "id": "ed2bd457a92a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "In the tetrahedron \\(ABCD\\), \\(M\\in AB\\), \\(N\\in AC\\), \\(P\\in AD\\) with \\(AM=\\tfrac{#}{#}\\,AB\\), \\(AN=\\tfrac{#}{#}\\,AC\\), \\(AP=\\tfrac{#}{#}\\,AD\\); \\(I=MN\\cap BC\\), \\(J=NP\\cap CD\\), \\(K=MP\\cap BD\\). Which three points are collinear?",
+   "en": "In the tetrahedron \\(ABCD\\), \\(M\\in AB\\), \\(N\\in AC\\), \\(P\\in AD\\) with \\(AM=\\tfrac{1}{4}\\,AB\\), \\(AN=\\tfrac{2}{5}\\,AC\\), \\(AP=\\tfrac{2}{3}\\,AD\\); \\(I=MN\\cap BC\\), \\(J=NP\\cap CD\\), \\(K=MP\\cap BD\\). Which three points are collinear?<img src=\"../../../img/fig3d/1ed0f5a099fee3a5.svg\" alt=\"Tetrahedron with I, J, K\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tetrahedron\">tứ diện</b> \\(ABCD\\), \\(M\\in AB\\), \\(N\\in AC\\), \\(P\\in AD\\) với \\(AM=\\tfrac{1}{4}\\,AB\\), \\(AN=\\tfrac{2}{5}\\,AC\\), \\(AP=\\tfrac{2}{3}\\,AD\\); \\(I=MN\\cap BC\\), \\(J=NP\\cap CD\\), \\(K=MP\\cap BD\\). Ba điểm nào <b class=\"mbl-term\" tabindex=\"0\" data-en=\"collinear\">thẳng hàng</b>?<img src=\"../../../img/fig3d/1ed0f5a099fee3a5.svg\" alt=\"Tetrahedron with I, J, K\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "\\(J,\\ K,\\ B\\)",
+    "\\(I,\\ J,\\ K\\)",
+    "\\(I,\\ K,\\ C\\)",
+    "\\(M,\\ J,\\ B\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(I, J, K\\) are common points of \\((MNP)\\) and \\((BCD)\\), so they lie on the line of intersection.",
+   "explain_vi": "Đáp án b. \\(I, J, K\\) là các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"common point\">điểm chung</b> của \\((MNP)\\) và \\((BCD)\\) nên cùng nằm trên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line of intersection\">giao tuyến</b>.",
+   "images": [
+    "img/fig3d/1ed0f5a099fee3a5.svg"
+   ],
+   "id": "13b03c30b23b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "In the tetrahedron \\(ABCD\\), \\(N\\in AC\\), \\(P\\in AD\\) with \\(AN=\\tfrac{#}{#}\\,AC\\), \\(AP=\\tfrac{#}{#}\\,AD\\), and \\(J=NP\\cap CD\\). The intersection point of \\(NP\\) and \\((BCD)\\) is…",
+   "en": "In the tetrahedron \\(ABCD\\), \\(N\\in AC\\), \\(P\\in AD\\) with \\(AN=\\tfrac{1}{3}\\,AC\\), \\(AP=\\tfrac{3}{4}\\,AD\\), and \\(J=NP\\cap CD\\). The intersection point of \\(NP\\) and \\((BCD)\\) is…<img src=\"../../../img/fig3d/0c1aeb547005020d.svg\" alt=\"Figure\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tetrahedron\">tứ diện</b> \\(ABCD\\), \\(N\\in AC\\), \\(P\\in AD\\) sao cho \\(AN=\\tfrac{1}{3}\\,AC\\), \\(AP=\\tfrac{3}{4}\\,AD\\), và \\(J=NP\\cap CD\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersection point\">Giao điểm</b> của \\(NP\\) và \\((BCD)\\) là…<img src=\"../../../img/fig3d/0c1aeb547005020d.svg\" alt=\"Figure\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "\\(D\\)",
+    "\\(N\\)",
+    "\\(P\\)",
+    "\\(J\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(J\\in NP\\) and \\(J\\in CD\\subset(BCD)\\).",
+   "explain_vi": "Đáp án d. \\(J\\in NP\\) và \\(J\\in CD\\subset(BCD)\\).",
+   "images": [
+    "img/fig3d/0c1aeb547005020d.svg"
+   ],
+   "id": "2603babab341",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Which of the following determines exactly one plane?",
+   "en": "Which of the following determines exactly one plane?",
+   "vi": "Trường hợp nào sau đây xác định đúng một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b>?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">a line and a point on it</span><span class=\"vi\">một đường thẳng và một điểm thuộc nó</span></span>",
+    "<span class=\"txi\"><span class=\"en\">two points</span><span class=\"vi\">hai điểm</span></span>",
+    "<span class=\"txi\"><span class=\"en\">three non-collinear points</span><span class=\"vi\">ba điểm không thẳng hàng</span></span>",
+    "<span class=\"txi\"><span class=\"en\">three collinear points</span><span class=\"vi\">ba điểm thẳng hàng</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. A plane is determined by three non-collinear points, a line and a point off it, two intersecting lines or two parallel lines.",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">Mặt phẳng</b> được xác định bởi ba điểm không <b class=\"mbl-term\" tabindex=\"0\" data-en=\"collinear\">thẳng hàng</b>, một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> và một điểm ngoài nó, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersecting lines\">hai đường thẳng cắt nhau</b> hoặc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel lines\">hai đường thẳng song song</b>.",
+   "images": [],
+   "id": "cc41b8c65a9d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "A prism has a base with # sides. How many vertices does it have?",
+   "en": "A prism has a base with 4 sides. How many vertices does it have?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"prism\">Hình lăng trụ</b> có đáy là đa giác 4 cạnh. Số đỉnh của nó là…",
+   "options": [
+    "\\(9\\)",
+    "\\(7\\)",
+    "\\(4\\)",
+    "\\(8\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Count the base(s) and the lateral parts: 8.",
+   "explain_vi": "Đáp án d. Đếm phần đáy và phần bên: 8.",
+   "images": [],
+   "id": "c85af2311cef",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "In the figure, the pyramid \\(S.ABCD\\) has a parallelogram base, and \\(O\\) is the intersection of \\(AC\\) and \\(BD\\). The line of intersection of \\((SAC)\\) and \\((SBD)\\) is…",
+   "en": "In the figure, the pyramid \\(S.ABCD\\) has a parallelogram base, and \\(O\\) is the intersection of \\(AC\\) and \\(BD\\). The line of intersection of \\((SAC)\\) and \\((SBD)\\) is…<img src=\"../../../img/fig3d/f54e537e698dba11.svg\" alt=\"Pyramid S.ABCD\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Trong hình vẽ, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">hình chóp</b> \\(S.ABCD\\) có đáy là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelogram\">hình bình hành</b>, \\(O\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersection point\">giao điểm</b> của \\(AC\\) và \\(BD\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line of intersection\">Giao tuyến</b> của \\((SAC)\\) và \\((SBD)\\) là…<img src=\"../../../img/fig3d/f54e537e698dba11.svg\" alt=\"Pyramid S.ABCD\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "\\(SC\\)",
+    "\\(SA\\)",
+    "\\(BD\\)",
+    "\\(SO\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(S\\) and \\(O\\) are two common points of the two planes.",
+   "explain_vi": "Đáp án d. \\(S\\) và \\(O\\) là hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"common point\">điểm chung</b> của hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b>.",
+   "images": [
+    "img/fig3d/f54e537e698dba11.svg"
+   ],
+   "id": "a3a59e5265a8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "There are # points in space, no four of them in one plane. How many planes pass through three of them?",
+   "en": "There are 8 points in space, no four of them in one plane. How many planes pass through three of them?",
+   "vi": "Cho 8 điểm trong không gian, không có bốn điểm nào <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coplanar\">đồng phẳng</b>. Có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> đi qua ba trong số các điểm đó?",
+   "options": [
+    "\\(28\\)",
+    "\\(56\\)",
+    "\\(336\\)",
+    "\\(64\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\mathrm C_{8}^3=56\\).",
+   "explain_vi": "Đáp án b. \\(\\mathrm C_{8}^3=56\\).",
+   "images": [],
+   "id": "66d90f61093f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "A line and a point on it determine exactly one plane.",
+   "en": "A line and a point on it determine exactly one plane.",
+   "vi": "Một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> và một điểm thuộc nó xác định đúng một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b>.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "The point must be off the line.",
+   "explain_vi": "Điểm phải không thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b>.",
+   "images": [],
+   "id": "d9c6168ca240",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "There exist four points that do not lie in one plane.",
+   "en": "There exist four points that do not lie in one plane.",
+   "vi": "Tồn tại bốn điểm không cùng thuộc một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b>.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "This is a basic property (axiom).",
+   "explain_vi": "Đây là một tính chất thừa nhận.",
+   "images": [],
+   "id": "5f8c41f72a54",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "In the pyramid \\(S.ABCD\\) with a parallelogram base, \\(O=AC\\cap BD\\), \\(M\\) is the midpoint of \\(SC\\) and \\(G\\) is the intersection point of \\(AM\\) and \\((SBD)\\). Find \\(\\dfrac{AG}{GM}\\).",
+   "en": "In the pyramid \\(S.ABCD\\) with a parallelogram base, \\(O=AC\\cap BD\\), \\(M\\) is the midpoint of \\(SC\\) and \\(G\\) is the intersection point of \\(AM\\) and \\((SBD)\\). Find \\(\\dfrac{AG}{GM}\\).<img src=\"../../../img/fig3d/f71a58c1b0b80d8c.svg\" alt=\"Pyramid with G\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">hình chóp</b> \\(S.ABCD\\) có đáy là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelogram\">hình bình hành</b>, \\(O=AC\\cap BD\\), \\(M\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> của \\(SC\\) và \\(G\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersection point\">giao điểm</b> của \\(AM\\) với \\((SBD)\\). Tính \\(\\dfrac{AG}{GM}\\).<img src=\"../../../img/fig3d/f71a58c1b0b80d8c.svg\" alt=\"Pyramid with G\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [],
+   "answer": "2",
+   "explain_en": "\\(G=AM\\cap SO\\) is the centroid of triangle \\(SAC\\): \\(\\dfrac{AG}{GM}=2\\).",
+   "explain_vi": "\\(G=AM\\cap SO\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"centroid\">trọng tâm</b> tam giác \\(SAC\\): \\(\\dfrac{AG}{GM}=2\\).",
+   "images": [
+    "img/fig3d/f71a58c1b0b80d8c.svg"
+   ],
+   "id": "10a870861e62",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "There are # points in space, no three of them on one line. How many lines pass through two of them?",
+   "en": "There are 8 points in space, no three of them on one line. How many lines pass through two of them?",
+   "vi": "Cho 8 điểm trong không gian, không có ba điểm nào <b class=\"mbl-term\" tabindex=\"0\" data-en=\"collinear\">thẳng hàng</b>. Có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> đi qua hai trong số các điểm đó?",
+   "options": [],
+   "answer": "28",
+   "explain_en": "\\(\\mathrm C_{8}^2=28\\).",
+   "explain_vi": "\\(\\mathrm C_{8}^2=28\\).",
+   "images": [],
+   "id": "0e41818412ab",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "How many common points do the planes \\((SAC)\\) and \\((SBD)\\) of the pyramid \\(S.ABCD\\) have?",
+   "en": "How many common points do the planes \\((SAC)\\) and \\((SBD)\\) of the pyramid \\(S.ABCD\\) have?",
+   "vi": "Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> \\((SAC)\\) và \\((SBD)\\) của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">hình chóp</b> \\(S.ABCD\\) có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"common point\">điểm chung</b>?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">infinitely many: all the points of the line \\(SO\\) (\\(O=AC\\cap BD\\))</span><span class=\"vi\">vô số: mọi điểm của đường thẳng \\(SO\\) (\\(O=AC\\cap BD\\))</span></span>",
+    "<span class=\"txi\"><span class=\"en\">no common point</span><span class=\"vi\">không có điểm chung</span></span>",
+    "<span class=\"txi\"><span class=\"en\">exactly one point</span><span class=\"vi\">đúng một điểm</span></span>",
+    "<span class=\"txi\"><span class=\"en\">exactly two points</span><span class=\"vi\">đúng hai điểm</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Two different planes with a common point meet along a whole line.",
+   "explain_vi": "Đáp án a. Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> phân biệt có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"common point\">điểm chung</b> thì <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersect\">cắt nhau</b> theo cả một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b>.",
+   "images": [],
+   "id": "5a608a74abc3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "In the pyramid \\(S.ABCD\\) with a parallelogram base, \\(N\\) is the midpoint of \\(SA\\). The point \\(N\\) lies in which plane?",
+   "en": "In the pyramid \\(S.ABCD\\) with a parallelogram base, \\(N\\) is the midpoint of \\(SA\\). The point \\(N\\) lies in which plane?<img src=\"../../../img/fig3d/a09669e2a21ad41a.svg\" alt=\"Pyramid\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">hình chóp</b> \\(S.ABCD\\) có đáy là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelogram\">hình bình hành</b>, \\(N\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> của \\(SA\\). Điểm \\(N\\) thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> nào?<img src=\"../../../img/fig3d/a09669e2a21ad41a.svg\" alt=\"Pyramid\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "\\((SCD)\\)",
+    "\\((SAC)\\)",
+    "\\((SBD)\\)",
+    "\\((SBC)\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(N\\) lies on a line of the plane \\((SAC)\\).",
+   "explain_vi": "Đáp án b. \\(N\\) thuộc một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"a line lying in a plane\">đường thẳng nằm trong mặt phẳng</b> \\((SAC)\\).",
+   "images": [
+    "img/fig3d/a09669e2a21ad41a.svg"
+   ],
+   "id": "d3be4db5dbc0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "In the pyramid \\(S.ABCD\\) with a parallelogram base, \\(O=AC\\cap BD\\) and \\(M\\) is the midpoint of \\(SC\\). Which line lies in the plane \\((ABM)\\)?",
+   "en": "In the pyramid \\(S.ABCD\\) with a parallelogram base, \\(O=AC\\cap BD\\) and \\(M\\) is the midpoint of \\(SC\\). Which line lies in the plane \\((ABM)\\)?<img src=\"../../../img/fig3d/ae13807041ae8d27.svg\" alt=\"Pyramid\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">hình chóp</b> \\(S.ABCD\\) có đáy là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelogram\">hình bình hành</b>, \\(O=AC\\cap BD\\), \\(M\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> của \\(SC\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">Đường thẳng</b> nào <b class=\"mbl-term\" tabindex=\"0\" data-en=\"lies in\">nằm trong</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> \\((ABM)\\)?<img src=\"../../../img/fig3d/ae13807041ae8d27.svg\" alt=\"Pyramid\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "\\(SO\\)",
+    "\\(SB\\)",
+    "\\(CD\\)",
+    "\\(AM\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Both points of \\(AM\\) belong to \\((ABM)\\).",
+   "explain_vi": "Đáp án d. Hai điểm của \\(AM\\) đều thuộc \\((ABM)\\).",
+   "images": [
+    "img/fig3d/ae13807041ae8d27.svg"
+   ],
+   "id": "a276c6b1e88a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "In the pyramid \\(S.ABCD\\) with a parallelogram base, \\(O=AC\\cap BD\\), \\(M\\) is the midpoint of \\(SC\\) and \\(G=AM\\cap SO\\). The intersection point of the line \\(AM\\) and the plane \\((SBD)\\) is…",
+   "en": "In the pyramid \\(S.ABCD\\) with a parallelogram base, \\(O=AC\\cap BD\\), \\(M\\) is the midpoint of \\(SC\\) and \\(G=AM\\cap SO\\). The intersection point of the line \\(AM\\) and the plane \\((SBD)\\) is…<img src=\"../../../img/fig3d/90a43e9484e2d740.svg\" alt=\"Figure\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">hình chóp</b> \\(S.ABCD\\) có đáy là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelogram\">hình bình hành</b>, \\(O=AC\\cap BD\\), \\(M\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> của \\(SC\\) và \\(G=AM\\cap SO\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersection point\">Giao điểm</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(AM\\) và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> \\((SBD)\\) là…<img src=\"../../../img/fig3d/90a43e9484e2d740.svg\" alt=\"Figure\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "\\(S\\)",
+    "\\(G\\)",
+    "\\(M\\)",
+    "\\(O\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(G\\in AM\\) and \\(G\\in SO\\subset(SBD)\\).",
+   "explain_vi": "Đáp án b. \\(G\\in AM\\) và \\(G\\in SO\\subset(SBD)\\).",
+   "images": [
+    "img/fig3d/90a43e9484e2d740.svg"
+   ],
+   "id": "f3c2aeb249e4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "In the tetrahedron \\(ABCD\\), \\(M, N, P\\) are the midpoints of \\(AB, AC, AD\\). The cross-section of the solid by the plane \\((MNP)\\) is…",
+   "en": "In the tetrahedron \\(ABCD\\), \\(M, N, P\\) are the midpoints of \\(AB, AC, AD\\). The cross-section of the solid by the plane \\((MNP)\\) is…<img src=\"../../../img/fig3d/c1184022846d2896.svg\" alt=\"Solid with marked points\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tetrahedron\">tứ diện</b> \\(ABCD\\), \\(M, N, P\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"respectively\">lần lượt</b> là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> của \\(AB, AC, AD\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"cross-section\">Thiết diện</b> của khối cắt bởi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> \\((MNP)\\) là…<img src=\"../../../img/fig3d/c1184022846d2896.svg\" alt=\"Solid with marked points\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">a triangle</span><span class=\"vi\">tam giác</span></span>",
+    "<span class=\"txi\"><span class=\"en\">a pentagon</span><span class=\"vi\">ngũ giác</span></span>",
+    "<span class=\"txi\"><span class=\"en\">a segment</span><span class=\"vi\">một đoạn thẳng</span></span>",
+    "<span class=\"txi\"><span class=\"en\">a quadrilateral</span><span class=\"vi\">tứ giác</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. The plane meets 3 edges of the solid, so the section has 3 vertices.",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">Mặt phẳng</b> cắt 3 cạnh của khối nên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"cross-section\">thiết diện</b> có 3 đỉnh.",
+   "images": [
+    "img/fig3d/c1184022846d2896.svg"
+   ],
+   "id": "ffb09f7513f6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "In the tetrahedron \\(ABCD\\), \\(M, N, P\\) lie on \\(AB, AC, AD\\) with \\(\\dfrac{AM}{AB}=\\dfrac{AN}{AC}=\\dfrac{AP}{AD}=\\dfrac{#}{#}\\). The ratio of the area of triangle \\(MNP\\) to the area of triangle \\(BCD\\) is…",
+   "en": "In the tetrahedron \\(ABCD\\), \\(M, N, P\\) lie on \\(AB, AC, AD\\) with \\(\\dfrac{AM}{AB}=\\dfrac{AN}{AC}=\\dfrac{AP}{AD}=\\dfrac{1}{3}\\). The ratio of the area of triangle \\(MNP\\) to the area of triangle \\(BCD\\) is…<img src=\"../../../img/fig3d/0587f5e68485f0e0.svg\" alt=\"Tetrahedron with triangle MNP\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tetrahedron\">tứ diện</b> \\(ABCD\\), các điểm \\(M, N, P\\) thuộc \\(AB, AC, AD\\) sao cho \\(\\dfrac{AM}{AB}=\\dfrac{AN}{AC}=\\dfrac{AP}{AD}=\\dfrac{1}{3}\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ratio\">Tỉ số</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"area of a triangle\">diện tích tam giác</b> \\(MNP\\) và tam giác \\(BCD\\) bằng…<img src=\"../../../img/fig3d/0587f5e68485f0e0.svg\" alt=\"Tetrahedron with triangle MNP\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "\\(\\dfrac{1}{9}\\)",
+    "\\(\\dfrac{1}{3}\\)",
+    "\\(\\dfrac{8}{9}\\)",
+    "\\(\\dfrac{4}{9}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(MN, NP, PM\\) are parallel to \\(BC, CD, DB\\) with ratio \\(\\dfrac{1}{3}\\): area ratio \\(\\left(\\dfrac{1}{3}\\right)^2=\\dfrac{1}{9}\\).",
+   "explain_vi": "Đáp án a. \\(MN, NP, PM\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b> với \\(BC, CD, DB\\) với <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ratio\">tỉ số</b> \\(\\dfrac{1}{3}\\): <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ratio\">tỉ số</b> diện tích \\(\\left(\\dfrac{1}{3}\\right)^2=\\dfrac{1}{9}\\).",
+   "images": [
+    "img/fig3d/0587f5e68485f0e0.svg"
+   ],
+   "id": "dfdfd752688a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "In the tetrahedron \\(ABCD\\), \\(M\\in AB\\), \\(N\\in AC\\), \\(P\\in AD\\) with \\(AM=\\tfrac{#}{#}\\,AB\\), \\(AN=\\tfrac{#}{#}\\,AC\\), \\(AP=\\tfrac{#}{#}\\,AD\\); \\(I=MN\\cap BC\\), \\(J=NP\\cap CD\\), \\(K=MP\\cap BD\\). Which three points are collinear?",
+   "en": "In the tetrahedron \\(ABCD\\), \\(M\\in AB\\), \\(N\\in AC\\), \\(P\\in AD\\) with \\(AM=\\tfrac{1}{3}\\,AB\\), \\(AN=\\tfrac{1}{2}\\,AC\\), \\(AP=\\tfrac{2}{3}\\,AD\\); \\(I=MN\\cap BC\\), \\(J=NP\\cap CD\\), \\(K=MP\\cap BD\\). Which three points are collinear?<img src=\"../../../img/fig3d/0edd3aeea571f76c.svg\" alt=\"Tetrahedron with I, J, K\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tetrahedron\">tứ diện</b> \\(ABCD\\), \\(M\\in AB\\), \\(N\\in AC\\), \\(P\\in AD\\) với \\(AM=\\tfrac{1}{3}\\,AB\\), \\(AN=\\tfrac{1}{2}\\,AC\\), \\(AP=\\tfrac{2}{3}\\,AD\\); \\(I=MN\\cap BC\\), \\(J=NP\\cap CD\\), \\(K=MP\\cap BD\\). Ba điểm nào <b class=\"mbl-term\" tabindex=\"0\" data-en=\"collinear\">thẳng hàng</b>?<img src=\"../../../img/fig3d/0edd3aeea571f76c.svg\" alt=\"Tetrahedron with I, J, K\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "\\(M,\\ J,\\ B\\)",
+    "\\(M,\\ N,\\ K\\)",
+    "\\(I,\\ J,\\ K\\)",
+    "\\(I,\\ J,\\ B\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(I, J, K\\) are common points of \\((MNP)\\) and \\((BCD)\\), so they lie on the line of intersection.",
+   "explain_vi": "Đáp án c. \\(I, J, K\\) là các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"common point\">điểm chung</b> của \\((MNP)\\) và \\((BCD)\\) nên cùng nằm trên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line of intersection\">giao tuyến</b>.",
+   "images": [
+    "img/fig3d/0edd3aeea571f76c.svg"
+   ],
+   "id": "abbae29d1be5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Which of the following does NOT determine a unique plane?",
+   "en": "Which of the following does NOT determine a unique plane?",
+   "vi": "Trường hợp nào sau đây KHÔNG xác định được duy nhất một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b>?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">two intersecting lines</span><span class=\"vi\">hai đường thẳng cắt nhau</span></span>",
+    "<span class=\"txi\"><span class=\"en\">a single line</span><span class=\"vi\">một đường thẳng</span></span>",
+    "<span class=\"txi\"><span class=\"en\">a line and a point not on it</span><span class=\"vi\">một đường thẳng và một điểm không thuộc nó</span></span>",
+    "<span class=\"txi\"><span class=\"en\">two parallel lines</span><span class=\"vi\">hai đường thẳng song song</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. A plane is determined by three non-collinear points, a line and a point off it, two intersecting lines or two parallel lines.",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">Mặt phẳng</b> được xác định bởi ba điểm không <b class=\"mbl-term\" tabindex=\"0\" data-en=\"collinear\">thẳng hàng</b>, một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> và một điểm ngoài nó, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersecting lines\">hai đường thẳng cắt nhau</b> hoặc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel lines\">hai đường thẳng song song</b>.",
+   "images": [],
+   "id": "adddf6bba6d1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "A prism has a base with # sides. It has … faces.",
+   "en": "A prism has a base with 3 sides. It has … faces.",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"prism\">Hình lăng trụ</b> có đáy là đa giác 3 cạnh. Số mặt của lăng trụ là…",
+   "options": [
+    "\\(3\\)",
+    "\\(4\\)",
+    "\\(5\\)",
+    "\\(6\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. 3 lateral faces and 2 bases.",
+   "explain_vi": "Đáp án c. 3 mặt bên và 2 đáy.",
+   "images": [],
+   "id": "e592fd615cf6",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "A pyramid has a base with # sides. It has … edges.",
+   "en": "A pyramid has a base with 5 sides. It has … edges.",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">Hình chóp</b> có đáy là đa giác 5 cạnh. Số cạnh của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">hình chóp</b> là…",
+   "options": [
+    "\\(10\\)",
+    "\\(6\\)",
+    "\\(15\\)",
+    "\\(11\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. 5 base edges and 5 lateral edges.",
+   "explain_vi": "Đáp án a. 5 cạnh đáy và 5 <b class=\"mbl-term\" tabindex=\"0\" data-en=\"lateral edge\">cạnh bên</b>.",
+   "images": [],
+   "id": "0cea140eddd9",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "There are # points in space, no four in one plane. How many planes pass through three of them?",
+   "en": "There are 4 points in space, no four in one plane. How many planes pass through three of them?",
+   "vi": "Cho 4 điểm trong không gian, không có bốn điểm nào <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coplanar\">đồng phẳng</b>. Có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> đi qua ba trong số các điểm đó?",
+   "options": [
+    "\\(4\\)",
+    "\\(24\\)",
+    "\\(8\\)",
+    "\\(3\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Choose 3 of 4 points: 4.",
+   "explain_vi": "Đáp án a. Chọn 3 trong 4 điểm: 4.",
+   "images": [],
+   "id": "7f22acd0d1e7",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "Two different planes with a common point share a whole line.",
+   "en": "Two different planes with a common point share a whole line.",
+   "vi": "Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> phân biệt có một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"common point\">điểm chung</b> thì có chung cả một đường thẳng.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "This is one of the basic axioms.",
+   "explain_vi": "Đây là một trong các tiên đề cơ bản.",
+   "images": [],
+   "id": "4bacc497068e",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "A pyramid has a base with # sides. How many faces does it have?",
+   "en": "A pyramid has a base with 4 sides. How many faces does it have?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">Hình chóp</b> có đáy là đa giác 4 cạnh. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">Hình chóp</b> có bao nhiêu mặt?",
+   "options": [],
+   "answer": "5",
+   "explain_en": "4 lateral faces and the base.",
+   "explain_vi": "4 mặt bên và mặt đáy.",
+   "images": [],
+   "id": "0faef190dd89",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "There are # points in space, no four in one plane. How many planes pass through three of them?",
+   "en": "There are 9 points in space, no four in one plane. How many planes pass through three of them?",
+   "vi": "Có 9 điểm trong không gian, không có bốn điểm nào <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coplanar\">đồng phẳng</b>. Có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> đi qua ba trong số các điểm đó?",
+   "options": [],
+   "answer": "84",
+   "explain_en": "\\(\\binom{9}{3}\\).",
+   "explain_vi": "\\(\\binom{9}{3}\\).",
+   "images": [],
+   "id": "50bc262e423c",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "A convex polygon has # sides. How many diagonals does it have?",
+   "en": "A convex polygon has 8 sides. How many diagonals does it have?",
+   "vi": "Một đa giác lồi có 8 cạnh. Có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b>?",
+   "options": [
+    "\\(19\\)",
+    "\\(28\\)",
+    "\\(20\\)",
+    "\\(40\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\dfrac{n(n-3)}2=20\\).",
+   "explain_vi": "Đáp án c. \\(\\dfrac{n(n-3)}2=20\\).",
+   "images": [],
+   "id": "2b888613ddc9",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "A prism has a base with # sides. How many edges does it have?",
+   "en": "A prism has a base with 3 sides. How many edges does it have?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"prism\">Hình lăng trụ</b> có đáy là đa giác 3 cạnh. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"prism\">Hình lăng trụ</b> đó có bao nhiêu cạnh?",
+   "options": [
+    "\\(7\\)",
+    "\\(8\\)",
+    "\\(9\\)",
+    "\\(10\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Two bases with 3 sides each, and 3 lateral edges. Count: 9.",
+   "explain_vi": "Đáp án c. Hai đáy mỗi đáy 3 cạnh, 3 <b class=\"mbl-term\" tabindex=\"0\" data-en=\"lateral edge\">cạnh bên</b>. Đáp số: 9.",
+   "images": [],
+   "id": "0ff159e5e507",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "A prism has a base with # sides. How many faces does it have?",
+   "en": "A prism has a base with 5 sides. How many faces does it have?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"prism\">Hình lăng trụ</b> có đáy là đa giác 5 cạnh. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"prism\">Hình lăng trụ</b> đó có bao nhiêu mặt?",
+   "options": [
+    "\\(11\\)",
+    "\\(8\\)",
+    "\\(6\\)",
+    "\\(7\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Two bases with 5 sides each, and 5 lateral edges. Count: 7.",
+   "explain_vi": "Đáp án d. Hai đáy mỗi đáy 5 cạnh, 5 <b class=\"mbl-term\" tabindex=\"0\" data-en=\"lateral edge\">cạnh bên</b>. Đáp số: 7.",
+   "images": [],
+   "id": "3643a99da1f1",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "A pyramid has a base with # sides. How many edges does it have?",
+   "en": "A pyramid has a base with 5 sides. How many edges does it have?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">Hình chóp</b> có đáy là đa giác 5 cạnh. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">Hình chóp</b> đó có bao nhiêu cạnh?",
+   "options": [
+    "\\(10\\)",
+    "\\(9\\)",
+    "\\(5\\)",
+    "\\(11\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Base: 5 sides. Count: 10.",
+   "explain_vi": "Đáp án a. Đáy có 5 cạnh. Đáp số: 10.",
+   "images": [],
+   "id": "292387b02538",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "A pyramid has a base with # sides. How many faces does it have?",
+   "en": "A pyramid has a base with 6 sides. How many faces does it have?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">Hình chóp</b> có đáy là đa giác 6 cạnh. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">Hình chóp</b> đó có bao nhiêu mặt?",
+   "options": [
+    "\\(18\\)",
+    "\\(6\\)",
+    "\\(8\\)",
+    "\\(7\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Base: 6 sides. Count: 7.",
+   "explain_vi": "Đáp án d. Đáy có 6 cạnh. Đáp số: 7.",
+   "images": [],
+   "id": "b149d0fb3470",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "There are # points in space, no four of them in one plane. How many planes pass through three of them?",
+   "en": "There are 7 points in space, no four of them in one plane. How many planes pass through three of them?",
+   "vi": "Cho 7 điểm trong không gian, không có bốn điểm nào <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coplanar\">đồng phẳng</b>. Có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> đi qua ba trong số các điểm đó?",
+   "options": [
+    "\\(210\\)",
+    "\\(35\\)",
+    "\\(21\\)",
+    "\\(70\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Choose 3 points out of 7: \\(\\binom{7}{3}=35\\).",
+   "explain_vi": "Đáp án b. Chọn 3 điểm trong 7 điểm: \\(\\binom{7}{3}=35\\).",
+   "images": [],
+   "id": "bd138c3efea8",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "There are # points in space, no four of them in one plane. How many planes pass through three of them?",
+   "en": "There are 9 points in space, no four of them in one plane. How many planes pass through three of them?",
+   "vi": "Cho 9 điểm trong không gian, không có bốn điểm nào <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coplanar\">đồng phẳng</b>. Có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> đi qua ba trong số các điểm đó?",
+   "options": [
+    "\\(84\\)",
+    "\\(504\\)",
+    "\\(168\\)",
+    "\\(36\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Choose 3 points out of 9: \\(\\binom{9}{3}=84\\).",
+   "explain_vi": "Đáp án a. Chọn 3 điểm trong 9 điểm: \\(\\binom{9}{3}=84\\).",
+   "images": [],
+   "id": "b7ab6fc97686",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "There are # points, no three on a line. How many lines pass through two of them?",
+   "en": "There are 12 points, no three on a line. How many lines pass through two of them?",
+   "vi": "Cho 12 điểm, không có ba điểm nào thẳng hàng. Có bao nhiêu đường thẳng đi qua hai trong số các điểm đó?",
+   "options": [
+    "\\(65\\)",
+    "\\(66\\)",
+    "\\(78\\)",
+    "\\(132\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\binom{12}{2}=66\\).",
+   "explain_vi": "Đáp án b. \\(\\binom{12}{2}=66\\).",
+   "images": [],
+   "id": "303d5528c4a7",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "A prism has a base with # sides. It has … faces.",
+   "en": "A prism has a base with 4 sides. It has … faces.",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"prism\">Hình lăng trụ</b> có đáy là đa giác 4 cạnh. Số mặt của lăng trụ là…",
+   "options": [
+    "\\(4\\)",
+    "\\(5\\)",
+    "\\(6\\)",
+    "\\(8\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. 4 lateral faces and 2 bases.",
+   "explain_vi": "Đáp án c. 4 mặt bên và 2 đáy.",
+   "images": [],
+   "id": "3ecdded79bee",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "A pyramid has a base with # sides. It has … edges.",
+   "en": "A pyramid has a base with 6 sides. It has … edges.",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">Hình chóp</b> có đáy là đa giác 6 cạnh. Số cạnh của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">hình chóp</b> là…",
+   "options": [
+    "\\(12\\)",
+    "\\(7\\)",
+    "\\(18\\)",
+    "\\(13\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. 6 base edges and 6 lateral edges.",
+   "explain_vi": "Đáp án a. 6 cạnh đáy và 6 <b class=\"mbl-term\" tabindex=\"0\" data-en=\"lateral edge\">cạnh bên</b>.",
+   "images": [],
+   "id": "8047c2edd4a1",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "There are # points in space, no four in one plane. How many planes pass through three of them?",
+   "en": "There are 5 points in space, no four in one plane. How many planes pass through three of them?",
+   "vi": "Cho 5 điểm trong không gian, không có bốn điểm nào <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coplanar\">đồng phẳng</b>. Có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> đi qua ba trong số các điểm đó?",
+   "options": [
+    "\\(60\\)",
+    "\\(10\\)",
+    "\\(15\\)",
+    "\\(9\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Choose 3 of 5 points: 10.",
+   "explain_vi": "Đáp án b. Chọn 3 trong 5 điểm: 10.",
+   "images": [],
+   "id": "b5604c90b113",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "Three non-collinear points lie in exactly one plane.",
+   "en": "Three non-collinear points lie in exactly one plane.",
+   "vi": "Ba điểm không thẳng hàng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"lies in\">nằm trong</b> đúng một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b>.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "Collinear points lie in infinitely many planes; non-collinear ones in exactly one.",
+   "explain_vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"collinear points\">Ba điểm thẳng hàng</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"lies in\">nằm trong</b> vô số <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b>; ba điểm không thẳng hàng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"lies in\">nằm trong</b> đúng một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b>.",
+   "images": [],
+   "id": "f473e391314b",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "Two different planes with a common point have exactly one common point.",
+   "en": "Two different planes with a common point have exactly one common point.",
+   "vi": "Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> phân biệt có một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"common point\">điểm chung</b> thì chỉ có đúng một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"common point\">điểm chung</b>.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "This is one of the basic axioms.",
+   "explain_vi": "Đây là một trong các tiên đề cơ bản.",
+   "images": [],
+   "id": "122935441efd",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "A pyramid has a base with # sides. How many faces does it have?",
+   "en": "A pyramid has a base with 7 sides. How many faces does it have?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">Hình chóp</b> có đáy là đa giác 7 cạnh. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">Hình chóp</b> có bao nhiêu mặt?",
+   "options": [],
+   "answer": "8",
+   "explain_en": "7 lateral faces and the base.",
+   "explain_vi": "7 mặt bên và mặt đáy.",
+   "images": [],
+   "id": "6e16b2208702",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "There are # points in space, no four in one plane. How many planes pass through three of them?",
+   "en": "There are 7 points in space, no four in one plane. How many planes pass through three of them?",
+   "vi": "Có 7 điểm trong không gian, không có bốn điểm nào <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coplanar\">đồng phẳng</b>. Có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> đi qua ba trong số các điểm đó?",
+   "options": [],
+   "answer": "35",
+   "explain_en": "\\(\\binom{7}{3}\\).",
+   "explain_vi": "\\(\\binom{7}{3}\\).",
+   "images": [],
+   "id": "f24b3b49c204",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "A convex polygon has # sides. How many diagonals does it have?",
+   "en": "A convex polygon has 7 sides. How many diagonals does it have?",
+   "vi": "Một đa giác lồi có 7 cạnh. Có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b>?",
+   "options": [
+    "\\(28\\)",
+    "\\(21\\)",
+    "\\(14\\)",
+    "\\(13\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\dfrac{n(n-3)}2=14\\).",
+   "explain_vi": "Đáp án c. \\(\\dfrac{n(n-3)}2=14\\).",
+   "images": [],
+   "id": "002472ac6d7f",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "A prism has a base with # sides. How many faces does it have?",
+   "en": "A prism has a base with 4 sides. How many faces does it have?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"prism\">Hình lăng trụ</b> có đáy là đa giác 4 cạnh. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"prism\">Hình lăng trụ</b> đó có bao nhiêu mặt?",
+   "options": [
+    "\\(7\\)",
+    "\\(6\\)",
+    "\\(5\\)",
+    "\\(9\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Two bases with 4 sides each, and 4 lateral edges. Count: 6.",
+   "explain_vi": "Đáp án b. Hai đáy mỗi đáy 4 cạnh, 4 <b class=\"mbl-term\" tabindex=\"0\" data-en=\"lateral edge\">cạnh bên</b>. Đáp số: 6.",
+   "images": [],
+   "id": "9ce38b754dd2",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "A prism has a base with # sides. How many vertices does it have?",
+   "en": "A prism has a base with 4 sides. How many vertices does it have?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"prism\">Hình lăng trụ</b> có đáy là đa giác 4 cạnh. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"prism\">Hình lăng trụ</b> đó có bao nhiêu đỉnh?",
+   "options": [
+    "\\(7\\)",
+    "\\(8\\)",
+    "\\(5\\)",
+    "\\(9\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Two bases with 4 sides each, and 4 lateral edges. Count: 8.",
+   "explain_vi": "Đáp án b. Hai đáy mỗi đáy 4 cạnh, 4 <b class=\"mbl-term\" tabindex=\"0\" data-en=\"lateral edge\">cạnh bên</b>. Đáp số: 8.",
+   "images": [],
+   "id": "2b2b18ef1b27",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "A pyramid has a base with # sides. How many edges does it have?",
+   "en": "A pyramid has a base with 6 sides. How many edges does it have?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">Hình chóp</b> có đáy là đa giác 6 cạnh. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">Hình chóp</b> đó có bao nhiêu cạnh?",
+   "options": [
+    "\\(6\\)",
+    "\\(13\\)",
+    "\\(11\\)",
+    "\\(12\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Base: 6 sides. Count: 12.",
+   "explain_vi": "Đáp án d. Đáy có 6 cạnh. Đáp số: 12.",
+   "images": [],
+   "id": "0f6712362d50",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "A pyramid has a base with # sides. How many faces does it have?",
+   "en": "A pyramid has a base with 5 sides. How many faces does it have?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">Hình chóp</b> có đáy là đa giác 5 cạnh. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">Hình chóp</b> đó có bao nhiêu mặt?",
+   "options": [
+    "\\(15\\)",
+    "\\(6\\)",
+    "\\(5\\)",
+    "\\(7\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Base: 5 sides. Count: 6.",
+   "explain_vi": "Đáp án b. Đáy có 5 cạnh. Đáp số: 6.",
+   "images": [],
+   "id": "1493d279399b",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "There are # points in space, no four of them in one plane. How many planes pass through three of them?",
+   "en": "There are 10 points in space, no four of them in one plane. How many planes pass through three of them?",
+   "vi": "Cho 10 điểm trong không gian, không có bốn điểm nào <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coplanar\">đồng phẳng</b>. Có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> đi qua ba trong số các điểm đó?",
+   "options": [
+    "\\(240\\)",
+    "\\(120\\)",
+    "\\(45\\)",
+    "\\(720\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Choose 3 points out of 10: \\(\\binom{10}{3}=120\\).",
+   "explain_vi": "Đáp án b. Chọn 3 điểm trong 10 điểm: \\(\\binom{10}{3}=120\\).",
+   "images": [],
+   "id": "ea5092dfa645",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "There are # points in space, no four of them in one plane. How many planes pass through three of them?",
+   "en": "There are 11 points in space, no four of them in one plane. How many planes pass through three of them?",
+   "vi": "Cho 11 điểm trong không gian, không có bốn điểm nào <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coplanar\">đồng phẳng</b>. Có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> đi qua ba trong số các điểm đó?",
+   "options": [
+    "\\(55\\)",
+    "\\(990\\)",
+    "\\(330\\)",
+    "\\(165\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Choose 3 points out of 11: \\(\\binom{11}{3}=165\\).",
+   "explain_vi": "Đáp án d. Chọn 3 điểm trong 11 điểm: \\(\\binom{11}{3}=165\\).",
+   "images": [],
+   "id": "39096a618af7",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "There are # points, no three on a line. How many lines pass through two of them?",
+   "en": "There are 7 points, no three on a line. How many lines pass through two of them?",
+   "vi": "Cho 7 điểm, không có ba điểm nào thẳng hàng. Có bao nhiêu đường thẳng đi qua hai trong số các điểm đó?",
+   "options": [
+    "\\(28\\)",
+    "\\(42\\)",
+    "\\(21\\)",
+    "\\(20\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\binom{7}{2}=21\\).",
+   "explain_vi": "Đáp án c. \\(\\binom{7}{2}=21\\).",
+   "images": [],
+   "id": "61a4a8bb926e",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "A prism has a base with # sides. It has … faces.",
+   "en": "A prism has a base with 5 sides. It has … faces.",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"prism\">Hình lăng trụ</b> có đáy là đa giác 5 cạnh. Số mặt của lăng trụ là…",
+   "options": [
+    "\\(5\\)",
+    "\\(6\\)",
+    "\\(7\\)",
+    "\\(10\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. 5 lateral faces and 2 bases.",
+   "explain_vi": "Đáp án c. 5 mặt bên và 2 đáy.",
+   "images": [],
+   "id": "d4ca4a0b4386",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "A pyramid has a base with # sides. It has … edges.",
+   "en": "A pyramid has a base with 8 sides. It has … edges.",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">Hình chóp</b> có đáy là đa giác 8 cạnh. Số cạnh của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">hình chóp</b> là…",
+   "options": [
+    "\\(16\\)",
+    "\\(9\\)",
+    "\\(24\\)",
+    "\\(17\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. 8 base edges and 8 lateral edges.",
+   "explain_vi": "Đáp án a. 8 cạnh đáy và 8 <b class=\"mbl-term\" tabindex=\"0\" data-en=\"lateral edge\">cạnh bên</b>.",
+   "images": [],
+   "id": "894102370461",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "There are # points in space, no four in one plane. How many planes pass through three of them?",
+   "en": "There are 6 points in space, no four in one plane. How many planes pass through three of them?",
+   "vi": "Cho 6 điểm trong không gian, không có bốn điểm nào <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coplanar\">đồng phẳng</b>. Có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> đi qua ba trong số các điểm đó?",
+   "options": [
+    "\\(120\\)",
+    "\\(20\\)",
+    "\\(26\\)",
+    "\\(19\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Choose 3 of 6 points: 20.",
+   "explain_vi": "Đáp án b. Chọn 3 trong 6 điểm: 20.",
+   "images": [],
+   "id": "b3b77970eb62",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "A line and a point not on it lie in exactly one plane.",
+   "en": "A line and a point not on it lie in exactly one plane.",
+   "vi": "Một đường thẳng và một điểm không thuộc nó <b class=\"mbl-term\" tabindex=\"0\" data-en=\"lies in\">nằm trong</b> đúng một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b>.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "Collinear points lie in infinitely many planes; non-collinear ones in exactly one.",
+   "explain_vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"collinear points\">Ba điểm thẳng hàng</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"lies in\">nằm trong</b> vô số <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b>; ba điểm không thẳng hàng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"lies in\">nằm trong</b> đúng một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b>.",
+   "images": [],
+   "id": "63bee566590b",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "If a line has two points in a plane, it lies in the plane.",
+   "en": "If a line has two points in a plane, it lies in the plane.",
+   "vi": "Nếu đường thẳng có hai điểm thuộc một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> thì nó <b class=\"mbl-term\" tabindex=\"0\" data-en=\"lies in\">nằm trong</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> đó.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "This is one of the basic axioms.",
+   "explain_vi": "Đây là một trong các tiên đề cơ bản.",
+   "images": [],
+   "id": "4d3c04009e0b",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "A pyramid has a base with # sides. How many faces does it have?",
+   "en": "A pyramid has a base with 9 sides. How many faces does it have?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">Hình chóp</b> có đáy là đa giác 9 cạnh. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">Hình chóp</b> có bao nhiêu mặt?",
+   "options": [],
+   "answer": "10",
+   "explain_en": "9 lateral faces and the base.",
+   "explain_vi": "9 mặt bên và mặt đáy.",
+   "images": [],
+   "id": "7779aa9cf399",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "There are # points in space, no four in one plane. How many planes pass through three of them?",
+   "en": "There are 8 points in space, no four in one plane. How many planes pass through three of them?",
+   "vi": "Có 8 điểm trong không gian, không có bốn điểm nào <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coplanar\">đồng phẳng</b>. Có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> đi qua ba trong số các điểm đó?",
+   "options": [],
+   "answer": "56",
+   "explain_en": "\\(\\binom{8}{3}\\).",
+   "explain_vi": "\\(\\binom{8}{3}\\).",
+   "images": [],
+   "id": "de378509cfc3",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "A convex polygon has # sides. How many diagonals does it have?",
+   "en": "A convex polygon has 10 sides. How many diagonals does it have?",
+   "vi": "Một đa giác lồi có 10 cạnh. Có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b>?",
+   "options": [
+    "\\(70\\)",
+    "\\(45\\)",
+    "\\(35\\)",
+    "\\(34\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\dfrac{n(n-3)}2=35\\).",
+   "explain_vi": "Đáp án c. \\(\\dfrac{n(n-3)}2=35\\).",
+   "images": [],
+   "id": "f01cb2608b40",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "A prism has a base with # sides. How many edges does it have?",
+   "en": "A prism has a base with 7 sides. How many edges does it have?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"prism\">Hình lăng trụ</b> có đáy là đa giác 7 cạnh. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"prism\">Hình lăng trụ</b> đó có bao nhiêu cạnh?",
+   "options": [
+    "\\(22\\)",
+    "\\(15\\)",
+    "\\(20\\)",
+    "\\(21\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Two bases with 7 sides each, and 7 lateral edges. Count: 21.",
+   "explain_vi": "Đáp án d. Hai đáy mỗi đáy 7 cạnh, 7 <b class=\"mbl-term\" tabindex=\"0\" data-en=\"lateral edge\">cạnh bên</b>. Đáp số: 21.",
+   "images": [],
+   "id": "5e982a5dd59e",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "A prism has a base with # sides. How many vertices does it have?",
+   "en": "A prism has a base with 5 sides. How many vertices does it have?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"prism\">Hình lăng trụ</b> có đáy là đa giác 5 cạnh. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"prism\">Hình lăng trụ</b> đó có bao nhiêu đỉnh?",
+   "options": [
+    "\\(11\\)",
+    "\\(6\\)",
+    "\\(9\\)",
+    "\\(10\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Two bases with 5 sides each, and 5 lateral edges. Count: 10.",
+   "explain_vi": "Đáp án d. Hai đáy mỗi đáy 5 cạnh, 5 <b class=\"mbl-term\" tabindex=\"0\" data-en=\"lateral edge\">cạnh bên</b>. Đáp số: 10.",
+   "images": [],
+   "id": "293831ad1004",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "A pyramid has a base with # sides. How many edges does it have?",
+   "en": "A pyramid has a base with 4 sides. How many edges does it have?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">Hình chóp</b> có đáy là đa giác 4 cạnh. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">Hình chóp</b> đó có bao nhiêu cạnh?",
+   "options": [
+    "\\(9\\)",
+    "\\(8\\)",
+    "\\(7\\)",
+    "\\(4\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Base: 4 sides. Count: 8.",
+   "explain_vi": "Đáp án b. Đáy có 4 cạnh. Đáp số: 8.",
+   "images": [],
+   "id": "cc49524cbf75",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "A pyramid has a base with # sides. How many vertices does it have?",
+   "en": "A pyramid has a base with 5 sides. How many vertices does it have?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">Hình chóp</b> có đáy là đa giác 5 cạnh. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">Hình chóp</b> đó có bao nhiêu đỉnh?",
+   "options": [
+    "\\(7\\)",
+    "\\(5\\)",
+    "\\(15\\)",
+    "\\(6\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Base: 5 sides. Count: 6.",
+   "explain_vi": "Đáp án d. Đáy có 5 cạnh. Đáp số: 6.",
+   "images": [],
+   "id": "aa2a4386de8c",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "There are # points in space, no four of them in one plane. How many planes pass through three of them?",
+   "en": "There are 4 points in space, no four of them in one plane. How many planes pass through three of them?",
+   "vi": "Cho 4 điểm trong không gian, không có bốn điểm nào <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coplanar\">đồng phẳng</b>. Có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> đi qua ba trong số các điểm đó?",
+   "options": [
+    "\\(24\\)",
+    "\\(4\\)",
+    "\\(8\\)",
+    "\\(6\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Choose 3 points out of 4: \\(\\binom{4}{3}=4\\).",
+   "explain_vi": "Đáp án b. Chọn 3 điểm trong 4 điểm: \\(\\binom{4}{3}=4\\).",
+   "images": [],
+   "id": "067aaf8c0edd",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "There are # points in space, no four of them in one plane. How many planes pass through three of them?",
+   "en": "There are 8 points in space, no four of them in one plane. How many planes pass through three of them?",
+   "vi": "Cho 8 điểm trong không gian, không có bốn điểm nào <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coplanar\">đồng phẳng</b>. Có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> đi qua ba trong số các điểm đó?",
+   "options": [
+    "\\(336\\)",
+    "\\(28\\)",
+    "\\(112\\)",
+    "\\(56\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Choose 3 points out of 8: \\(\\binom{8}{3}=56\\).",
+   "explain_vi": "Đáp án d. Chọn 3 điểm trong 8 điểm: \\(\\binom{8}{3}=56\\).",
+   "images": [],
+   "id": "9eb8ceca2c53",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "There are # points, no three on a line. How many lines pass through two of them?",
+   "en": "There are 5 points, no three on a line. How many lines pass through two of them?",
+   "vi": "Cho 5 điểm, không có ba điểm nào thẳng hàng. Có bao nhiêu đường thẳng đi qua hai trong số các điểm đó?",
+   "options": [
+    "\\(10\\)",
+    "\\(20\\)",
+    "\\(9\\)",
+    "\\(15\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\binom{5}{2}=10\\).",
+   "explain_vi": "Đáp án a. \\(\\binom{5}{2}=10\\).",
+   "images": [],
+   "id": "3de8d2d0b7af",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  }
+ ]
+}

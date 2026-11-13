@@ -1,0 +1,1029 @@
+{
+ "lesson": "g10-ineq-sys-01",
+ "grade": 10,
+ "no": 4,
+ "title": "Hệ bất phương trình bậc nhất hai ẩn",
+ "path": "lessons/grade10/propositions-and-sets/linear-inequality-systems.html",
+ "items": [
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "On the region of \\(\\begin{cases}x\\ge#,\\ y\\ge#\\\\ x+y\\le#\\\\ #x+y\\le#\\end{cases}\\) the largest value of \\(F=#x+#y\\) is…",
+   "en": "On the region of \\(\\begin{cases}x\\ge0,\\ y\\ge0\\\\ x+y\\le4\\\\ 2x+y\\le6\\end{cases}\\) the largest value of \\(F=3x+2y\\) is…",
+   "vi": "Trên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution region\">miền nghiệm</b> của hệ \\(\\begin{cases}x\\ge0,\\ y\\ge0\\\\ x+y\\le4\\\\ 2x+y\\le6\\end{cases}\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">giá trị lớn nhất</b> của \\(F=3x+2y\\) là…",
+   "options": [
+    "\\(8\\)",
+    "\\(9\\)",
+    "\\(12\\)",
+    "\\(10\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Compute \\(F\\) at every vertex: the largest is 10.",
+   "explain_vi": "Đáp án d. Tính \\(F\\) tại mọi đỉnh: lớn nhất là 10.",
+   "images": [],
+   "id": "773f9d5260a6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "The lines \\(x+y=#\\) and \\(#x+y=#\\) meet at which point?",
+   "en": "The lines \\(x+y=4\\) and \\(2x+y=6\\) meet at which point?",
+   "vi": "Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(x+y=4\\) và \\(2x+y=6\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersect\">cắt nhau</b> tại điểm nào?",
+   "options": [
+    "\\((3;2)\\)",
+    "\\((2;3)\\)",
+    "\\((3;3)\\)",
+    "\\((2;2)\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Solve the two equations.",
+   "explain_vi": "Đáp án d. Giải hệ hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b>.",
+   "images": [],
+   "id": "0f9b76e5b2ff",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Which pair is a solution of \\(\\begin{cases}x\\ge#,\\ y\\ge#\\\\ x+y\\le#\\\\ #x+y\\le#\\end{cases}\\)?",
+   "en": "Which pair is a solution of \\(\\begin{cases}x\\ge0,\\ y\\ge0\\\\ x+y\\le4\\\\ 2x+y\\le6\\end{cases}\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"ordered pair\">Cặp số</b> nào là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution of a system\">nghiệm của hệ</b> \\(\\begin{cases}x\\ge0,\\ y\\ge0\\\\ x+y\\le4\\\\ 2x+y\\le6\\end{cases}\\)?",
+   "options": [
+    "\\((1;1)\\)",
+    "\\((4;1)\\)",
+    "\\((4;4)\\)",
+    "\\((1;4)\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. It satisfies all the inequalities; the others break one.",
+   "explain_vi": "Đáp án a. Cặp này thỏa mọi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"inequality (with a variable)\">bất phương trình</b>; các cặp khác vi phạm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"at least one\">ít nhất một</b>.",
+   "images": [],
+   "id": "3f69b56867d1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "On the region of \\(\\begin{cases}x\\ge#,\\ y\\ge#\\\\ x+y\\le#\\\\ #x+y\\le#\\end{cases}\\), the largest value of \\(F=#x+#y\\) is #.",
+   "en": "On the region of \\(\\begin{cases}x\\ge0,\\ y\\ge0\\\\ x+y\\le4\\\\ 2x+y\\le6\\end{cases}\\), the largest value of \\(F=3x+2y\\) is 10.",
+   "vi": "Trên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution region\">miền nghiệm</b> của hệ \\(\\begin{cases}x\\ge0,\\ y\\ge0\\\\ x+y\\le4\\\\ 2x+y\\le6\\end{cases}\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">giá trị lớn nhất</b> của \\(F=3x+2y\\) là 10.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "The largest value is 10.",
+   "explain_vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">Giá trị lớn nhất</b> là 10.",
+   "images": [],
+   "id": "6bb089659910",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "The pair (#;#) is a solution of \\(\\begin{cases}x\\ge#,\\ y\\ge#\\\\ x+y\\le#\\\\ #x+y\\le#\\end{cases}\\).",
+   "en": "The pair (3;1) is a solution of \\(\\begin{cases}x\\ge0,\\ y\\ge0\\\\ x+y\\le4\\\\ 2x+y\\le6\\end{cases}\\).",
+   "vi": "Cặp (3;1) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution of a system\">nghiệm của hệ</b> \\(\\begin{cases}x\\ge0,\\ y\\ge0\\\\ x+y\\le4\\\\ 2x+y\\le6\\end{cases}\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "Check each inequality.",
+   "explain_vi": "Kiểm tra từng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"inequality (with a variable)\">bất phương trình</b>.",
+   "images": [],
+   "id": "a16442a1d8f0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "How many pairs of natural numbers \\((x;y)\\) satisfy \\(\\begin{cases}x\\ge#,\\ y\\ge#\\\\ x+y\\le#\\\\ #x+y\\le#\\end{cases}\\)?",
+   "en": "How many pairs of natural numbers \\((x;y)\\) satisfy \\(\\begin{cases}x\\ge0,\\ y\\ge0\\\\ x+y\\le4\\\\ 2x+y\\le6\\end{cases}\\)?",
+   "vi": "Có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ordered pair\">cặp số</b> tự nhiên \\((x;y)\\) thỏa \\(\\begin{cases}x\\ge0,\\ y\\ge0\\\\ x+y\\le4\\\\ 2x+y\\le6\\end{cases}\\)?",
+   "options": [],
+   "answer": "13",
+   "explain_en": "Count the pairs: 13.",
+   "explain_vi": "Đếm các cặp: 13.",
+   "images": [],
+   "id": "9addcafb2ef2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "What is the largest value of \\(F=#x+#y\\) on the region \\(\\begin{cases}x\\ge#,\\ y\\ge#\\\\ x+y\\le#\\\\ #x+y\\le#\\end{cases}\\)?",
+   "en": "What is the largest value of \\(F=3x+2y\\) on the region \\(\\begin{cases}x\\ge0,\\ y\\ge0\\\\ x+y\\le4\\\\ 2x+y\\le6\\end{cases}\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">Giá trị lớn nhất</b> của \\(F=3x+2y\\) trên miền \\(\\begin{cases}x\\ge0,\\ y\\ge0\\\\ x+y\\le4\\\\ 2x+y\\le6\\end{cases}\\) là bao nhiêu?",
+   "options": [],
+   "answer": "10",
+   "explain_en": "Largest value: 10.",
+   "explain_vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">Giá trị lớn nhất</b>: 10.",
+   "images": [],
+   "id": "f821d729bf19",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "A workshop makes \\(x\\) chairs and \\(y\\) tables. A chair needs # hours and a table needs # hours. There are at most # hours, and at most # items can be made. Which system describes this?",
+   "en": "A workshop makes \\(x\\) chairs and \\(y\\) tables. A chair needs 4 hours and a table needs 5 hours. There are at most 60 hours, and at most 10 items can be made. Which system describes this?",
+   "vi": "Một xưởng làm \\(x\\) cái ghế và \\(y\\) cái bàn. Mỗi ghế cần 4 giờ, mỗi bàn cần 5 giờ. Xưởng có nhiều nhất 60 giờ và làm nhiều nhất 10 sản phẩm. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"system of inequalities\">Hệ bất phương trình</b> nào mô tả điều đó?",
+   "options": [
+    "\\(\\begin{cases}x\\ge0,\\ y\\ge0\\\\ 4x+5y\\le60\\\\ x+y\\ge10\\end{cases}\\)",
+    "\\(\\begin{cases}x\\ge0,\\ y\\ge0\\\\ 4x+5y\\ge60\\\\ x+y\\le10\\end{cases}\\)",
+    "\\(\\begin{cases}x\\ge0,\\ y\\ge0\\\\ 4x+5y\\le60\\\\ x+y\\le10\\end{cases}\\)",
+    "\\(\\begin{cases}x\\ge0,\\ y\\ge0\\\\ 5x+4y\\le60\\\\ x+y\\le10\\end{cases}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Time: \\(4x+5y\\le60\\). Items: \\(x+y\\le10\\). Also \\(x,y\\ge0\\).",
+   "explain_vi": "Đáp án c. Thời gian: \\(4x+5y\\le60\\). Số sản phẩm: \\(x+y\\le10\\). Và \\(x,y\\ge0\\).",
+   "images": [],
+   "id": "5e358ca8b016",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Find the smallest value of \\(F=#x+#y\\) on the region \\(x\\ge#,\\ y\\ge#,\\ #x+y\\ge#,\\ x+#y\\ge#\\).",
+   "en": "Find the smallest value of \\(F=4x+4y\\) on the region \\(x\\ge0,\\ y\\ge0,\\ 3x+y\\ge24,\\ x+4y\\ge12\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"minimum value\">giá trị nhỏ nhất</b> của \\(F=4x+4y\\) trên miền \\(x\\ge0,\\ y\\ge0,\\ 3x+y\\ge24,\\ x+4y\\ge12\\).",
+   "options": [
+    "\\(96\\)",
+    "\\(\\dfrac{395}{11}\\)",
+    "\\(48\\)",
+    "\\(\\dfrac{384}{11}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. The smallest value is at a vertex: \\dfrac{384}{11}.",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"minimum value\">Giá trị nhỏ nhất</b> đạt tại một đỉnh: \\dfrac{384}{11}.",
+   "images": [],
+   "id": "dc4feb16c148",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "How many pairs of natural numbers \\((x;y)\\) satisfy \\(x+y\\le#\\) and \\(#x+y\\le#\\)?",
+   "en": "How many pairs of natural numbers \\((x;y)\\) satisfy \\(x+y\\le4\\) and \\(3x+y\\le8\\)?",
+   "vi": "Có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ordered pair\">cặp số</b> tự nhiên \\((x;y)\\) thỏa \\(x+y\\le4\\) và \\(3x+y\\le8\\)?",
+   "options": [
+    "\\(11\\)",
+    "\\(13\\)",
+    "\\(14\\)",
+    "\\(12\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. List the pairs for each \\(x\\) and add: 12 pairs.",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"listing method\">Liệt kê</b> theo từng \\(x\\) rồi cộng lại: 12 cặp.",
+   "images": [],
+   "id": "c790639c7479",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "On the region of \\(\\begin{cases}x\\ge#,\\ y\\ge#\\\\ x+y\\le#\\\\ #x+#y\\le#\\end{cases}\\), what is the largest value of \\(F=x+#y\\)?",
+   "en": "On the region of \\(\\begin{cases}x\\ge0,\\ y\\ge0\\\\ x+y\\le7\\\\ 3x+2y\\le16\\end{cases}\\), what is the largest value of \\(F=x+5y\\)?",
+   "vi": "Trên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution region\">miền nghiệm</b> của hệ \\(\\begin{cases}x\\ge0,\\ y\\ge0\\\\ x+y\\le7\\\\ 3x+2y\\le16\\end{cases}\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">giá trị lớn nhất</b> của \\(F=x+5y\\) là bao nhiêu?",
+   "options": [
+    "\\(35\\)",
+    "\\(0\\)",
+    "\\(27\\)",
+    "\\(\\dfrac{16}{3}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Compute \\(F\\) at the vertices; the largest value is 35.",
+   "explain_vi": "Đáp án a. Tính \\(F\\) tại các đỉnh; <b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">giá trị lớn nhất</b> là 35.",
+   "images": [],
+   "id": "2d1be8a17443",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "On the region of \\(\\begin{cases}x\\ge#,\\ y\\ge#\\\\ x+y\\le#\\\\ #x+y\\le#\\end{cases}\\), what is the largest value of \\(F=#x+#y\\)?",
+   "en": "On the region of \\(\\begin{cases}x\\ge0,\\ y\\ge0\\\\ x+y\\le7\\\\ 2x+y\\le12\\end{cases}\\), what is the largest value of \\(F=5x+3y\\)?",
+   "vi": "Trên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution region\">miền nghiệm</b> của hệ \\(\\begin{cases}x\\ge0,\\ y\\ge0\\\\ x+y\\le7\\\\ 2x+y\\le12\\end{cases}\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">giá trị lớn nhất</b> của \\(F=5x+3y\\) là bao nhiêu?",
+   "options": [
+    "\\(0\\)",
+    "\\(21\\)",
+    "\\(31\\)",
+    "\\(30\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Compute \\(F\\) at the vertices; the largest value is 31.",
+   "explain_vi": "Đáp án c. Tính \\(F\\) tại các đỉnh; <b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">giá trị lớn nhất</b> là 31.",
+   "images": [],
+   "id": "42abf9ecf59d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The lines \\(x+y=#\\) and \\(#x+#y=#\\) meet at which point?",
+   "en": "The lines \\(x+y=5\\) and \\(3x+2y=11\\) meet at which point?",
+   "vi": "Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(x+y=5\\) và \\(3x+2y=11\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersect\">cắt nhau</b> tại điểm nào?",
+   "options": [
+    "\\((4;1)\\)",
+    "\\((0;5)\\)",
+    "\\((1;4)\\)",
+    "\\((2;3)\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Subtract the equations and solve: \\(x=1\\), \\(y=4\\).",
+   "explain_vi": "Đáp án c. Giải hệ hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b>: \\(x=1\\), \\(y=4\\).",
+   "images": [],
+   "id": "7bfca7f4d650",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Which pair is a solution of the system \\(\\begin{cases}x\\ge#,\\ y\\ge#\\\\ x+y\\le#\\\\ #x+#y\\le#\\end{cases}\\)?",
+   "en": "Which pair is a solution of the system \\(\\begin{cases}x\\ge0,\\ y\\ge0\\\\ x+y\\le5\\\\ 4x+2y\\le18\\end{cases}\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"ordered pair\">Cặp số</b> nào là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution of a system\">nghiệm của hệ</b> \\(\\begin{cases}x\\ge0,\\ y\\ge0\\\\ x+y\\le5\\\\ 4x+2y\\le18\\end{cases}\\)?",
+   "options": [
+    "\\((1;1)\\)",
+    "\\((6;4)\\)",
+    "\\((3;7)\\)",
+    "\\((7;6)\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Substitute into every inequality; only (1;1) satisfies all of them.",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"substitute\">Thay vào</b> từng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"inequality (with a variable)\">bất phương trình</b>; chỉ (1;1) thỏa mãn cả hệ.",
+   "images": [],
+   "id": "8a26217b50db",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Which pair is a solution of the system \\(\\begin{cases}x\\ge#,\\ y\\ge#\\\\ x+y\\le#\\\\ #x+#y\\le#\\end{cases}\\)?",
+   "en": "Which pair is a solution of the system \\(\\begin{cases}x\\ge0,\\ y\\ge0\\\\ x+y\\le6\\\\ 4x+2y\\le14\\end{cases}\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"ordered pair\">Cặp số</b> nào là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution of a system\">nghiệm của hệ</b> \\(\\begin{cases}x\\ge0,\\ y\\ge0\\\\ x+y\\le6\\\\ 4x+2y\\le14\\end{cases}\\)?",
+   "options": [
+    "\\((2;8)\\)",
+    "\\((8;6)\\)",
+    "\\((1;5)\\)",
+    "\\((3;8)\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Substitute into every inequality; only (1;5) satisfies all of them.",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"substitute\">Thay vào</b> từng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"inequality (with a variable)\">bất phương trình</b>; chỉ (1;5) thỏa mãn cả hệ.",
+   "images": [],
+   "id": "5ef8f481960d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "On the region of \\(\\begin{cases}x\\ge#,\\ y\\ge#\\\\ x+y\\le#\\\\ #x+y\\le#\\end{cases}\\) the largest value of \\(F=#x+#y\\) is…",
+   "en": "On the region of \\(\\begin{cases}x\\ge0,\\ y\\ge0\\\\ x+y\\le5\\\\ 3x+y\\le9\\end{cases}\\) the largest value of \\(F=2x+3y\\) is…",
+   "vi": "Trên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution region\">miền nghiệm</b> của hệ \\(\\begin{cases}x\\ge0,\\ y\\ge0\\\\ x+y\\le5\\\\ 3x+y\\le9\\end{cases}\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">giá trị lớn nhất</b> của \\(F=2x+3y\\) là…",
+   "options": [
+    "\\(6\\)",
+    "\\(13\\)",
+    "\\(17\\)",
+    "\\(15\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Compute \\(F\\) at every vertex: the largest is 15.",
+   "explain_vi": "Đáp án d. Tính \\(F\\) tại mọi đỉnh: lớn nhất là 15.",
+   "images": [],
+   "id": "84bd68ad3482",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "The lines \\(x+y=#\\) and \\(#x+y=#\\) meet at which point?",
+   "en": "The lines \\(x+y=5\\) and \\(3x+y=9\\) meet at which point?",
+   "vi": "Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(x+y=5\\) và \\(3x+y=9\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersect\">cắt nhau</b> tại điểm nào?",
+   "options": [
+    "\\((3;2)\\)",
+    "\\((3;3)\\)",
+    "\\((2;4)\\)",
+    "\\((2;3)\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Solve the two equations.",
+   "explain_vi": "Đáp án d. Giải hệ hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b>.",
+   "images": [],
+   "id": "137b712e93f6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Which pair is a solution of \\(\\begin{cases}x\\ge#,\\ y\\ge#\\\\ x+y\\le#\\\\ #x+y\\le#\\end{cases}\\)?",
+   "en": "Which pair is a solution of \\(\\begin{cases}x\\ge0,\\ y\\ge0\\\\ x+y\\le5\\\\ 3x+y\\le9\\end{cases}\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"ordered pair\">Cặp số</b> nào là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution of a system\">nghiệm của hệ</b> \\(\\begin{cases}x\\ge0,\\ y\\ge0\\\\ x+y\\le5\\\\ 3x+y\\le9\\end{cases}\\)?",
+   "options": [
+    "\\((1;1)\\)",
+    "\\((5;1)\\)",
+    "\\((5;5)\\)",
+    "\\((1;5)\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. It satisfies all the inequalities; the others break one.",
+   "explain_vi": "Đáp án a. Cặp này thỏa mọi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"inequality (with a variable)\">bất phương trình</b>; các cặp khác vi phạm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"at least one\">ít nhất một</b>.",
+   "images": [],
+   "id": "3874f34c3eb8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "On the region of \\(\\begin{cases}x\\ge#,\\ y\\ge#\\\\ x+y\\le#\\\\ #x+y\\le#\\end{cases}\\), the largest value of \\(F=#x+#y\\) is #.",
+   "en": "On the region of \\(\\begin{cases}x\\ge0,\\ y\\ge0\\\\ x+y\\le5\\\\ 3x+y\\le9\\end{cases}\\), the largest value of \\(F=2x+3y\\) is 16.",
+   "vi": "Trên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution region\">miền nghiệm</b> của hệ \\(\\begin{cases}x\\ge0,\\ y\\ge0\\\\ x+y\\le5\\\\ 3x+y\\le9\\end{cases}\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">giá trị lớn nhất</b> của \\(F=2x+3y\\) là 16.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "The largest value is 15.",
+   "explain_vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">Giá trị lớn nhất</b> là 15.",
+   "images": [],
+   "id": "6a94596fb7b8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "The pair (#;#) is a solution of \\(\\begin{cases}x\\ge#,\\ y\\ge#\\\\ x+y\\le#\\\\ #x+y\\le#\\end{cases}\\).",
+   "en": "The pair (2;3) is a solution of \\(\\begin{cases}x\\ge0,\\ y\\ge0\\\\ x+y\\le5\\\\ 3x+y\\le9\\end{cases}\\).",
+   "vi": "Cặp (2;3) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution of a system\">nghiệm của hệ</b> \\(\\begin{cases}x\\ge0,\\ y\\ge0\\\\ x+y\\le5\\\\ 3x+y\\le9\\end{cases}\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "Check each inequality.",
+   "explain_vi": "Kiểm tra từng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"inequality (with a variable)\">bất phương trình</b>.",
+   "images": [],
+   "id": "111a612be1a3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "How many pairs of natural numbers \\((x;y)\\) satisfy \\(\\begin{cases}x\\ge#,\\ y\\ge#\\\\ x+y\\le#\\\\ #x+y\\le#\\end{cases}\\)?",
+   "en": "How many pairs of natural numbers \\((x;y)\\) satisfy \\(\\begin{cases}x\\ge0,\\ y\\ge0\\\\ x+y\\le5\\\\ 3x+y\\le9\\end{cases}\\)?",
+   "vi": "Có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ordered pair\">cặp số</b> tự nhiên \\((x;y)\\) thỏa \\(\\begin{cases}x\\ge0,\\ y\\ge0\\\\ x+y\\le5\\\\ 3x+y\\le9\\end{cases}\\)?",
+   "options": [],
+   "answer": "16",
+   "explain_en": "Count the pairs: 16.",
+   "explain_vi": "Đếm các cặp: 16.",
+   "images": [],
+   "id": "a1f220b8af1b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "What is the largest value of \\(F=#x+#y\\) on the region \\(\\begin{cases}x\\ge#,\\ y\\ge#\\\\ x+y\\le#\\\\ #x+y\\le#\\end{cases}\\)?",
+   "en": "What is the largest value of \\(F=2x+3y\\) on the region \\(\\begin{cases}x\\ge0,\\ y\\ge0\\\\ x+y\\le5\\\\ 3x+y\\le9\\end{cases}\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">Giá trị lớn nhất</b> của \\(F=2x+3y\\) trên miền \\(\\begin{cases}x\\ge0,\\ y\\ge0\\\\ x+y\\le5\\\\ 3x+y\\le9\\end{cases}\\) là bao nhiêu?",
+   "options": [],
+   "answer": "15",
+   "explain_en": "Largest value: 15.",
+   "explain_vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">Giá trị lớn nhất</b>: 15.",
+   "images": [],
+   "id": "d66798500862",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "A workshop makes \\(x\\) chairs and \\(y\\) tables. A chair needs # hours and a table needs # hours. There are at most # hours, and at most # items can be made. Which system describes this?",
+   "en": "A workshop makes \\(x\\) chairs and \\(y\\) tables. A chair needs 2 hours and a table needs 1 hours. There are at most 80 hours, and at most 10 items can be made. Which system describes this?",
+   "vi": "Một xưởng làm \\(x\\) cái ghế và \\(y\\) cái bàn. Mỗi ghế cần 2 giờ, mỗi bàn cần 1 giờ. Xưởng có nhiều nhất 80 giờ và làm nhiều nhất 10 sản phẩm. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"system of inequalities\">Hệ bất phương trình</b> nào mô tả điều đó?",
+   "options": [
+    "\\(\\begin{cases}x\\ge0,\\ y\\ge0\\\\ 2x+1y\\le80\\\\ x+y\\le10\\end{cases}\\)",
+    "\\(\\begin{cases}x\\ge0,\\ y\\ge0\\\\ 2x+1y\\ge80\\\\ x+y\\le10\\end{cases}\\)",
+    "\\(\\begin{cases}x\\ge0,\\ y\\ge0\\\\ 2x+1y\\le80\\\\ x+y\\ge10\\end{cases}\\)",
+    "\\(\\begin{cases}x\\ge0,\\ y\\ge0\\\\ 1x+2y\\le80\\\\ x+y\\le10\\end{cases}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Time: \\(2x+1y\\le80\\). Items: \\(x+y\\le10\\). Also \\(x,y\\ge0\\).",
+   "explain_vi": "Đáp án a. Thời gian: \\(2x+1y\\le80\\). Số sản phẩm: \\(x+y\\le10\\). Và \\(x,y\\ge0\\).",
+   "images": [],
+   "id": "1a58036a011d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Find the smallest value of \\(F=#x+#y\\) on the region \\(x\\ge#,\\ y\\ge#,\\ #x+y\\ge#,\\ #x+#y\\ge#\\).",
+   "en": "Find the smallest value of \\(F=4x+4y\\) on the region \\(x\\ge0,\\ y\\ge0,\\ 4x+y\\ge18,\\ 2x+6y\\ge24\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"minimum value\">giá trị nhỏ nhất</b> của \\(F=4x+4y\\) trên miền \\(x\\ge0,\\ y\\ge0,\\ 4x+y\\ge18,\\ 2x+6y\\ge24\\).",
+   "options": [
+    "\\(48\\)",
+    "\\(72\\)",
+    "\\(\\dfrac{288}{11}\\)",
+    "\\(\\dfrac{299}{11}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The smallest value is at a vertex: \\dfrac{288}{11}.",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"minimum value\">Giá trị nhỏ nhất</b> đạt tại một đỉnh: \\dfrac{288}{11}.",
+   "images": [],
+   "id": "b988f58fa3ab",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "How many pairs of natural numbers \\((x;y)\\) satisfy \\(x+y\\le#\\) and \\(#x+#y\\le#\\)?",
+   "en": "How many pairs of natural numbers \\((x;y)\\) satisfy \\(x+y\\le8\\) and \\(3x+2y\\le17\\)?",
+   "vi": "Có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ordered pair\">cặp số</b> tự nhiên \\((x;y)\\) thỏa \\(x+y\\le8\\) và \\(3x+2y\\le17\\)?",
+   "options": [
+    "\\(33\\)",
+    "\\(35\\)",
+    "\\(32\\)",
+    "\\(34\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. List the pairs for each \\(x\\) and add: 33 pairs.",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"listing method\">Liệt kê</b> theo từng \\(x\\) rồi cộng lại: 33 cặp.",
+   "images": [],
+   "id": "adffda68f1f6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "On the region of \\(\\begin{cases}x\\ge#,\\ y\\ge#\\\\ x+y\\le#\\\\ #x+y\\le#\\end{cases}\\), what is the largest value of \\(F=#x+#y\\)?",
+   "en": "On the region of \\(\\begin{cases}x\\ge0,\\ y\\ge0\\\\ x+y\\le4\\\\ 3x+y\\le6\\end{cases}\\), what is the largest value of \\(F=2x+4y\\)?",
+   "vi": "Trên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution region\">miền nghiệm</b> của hệ \\(\\begin{cases}x\\ge0,\\ y\\ge0\\\\ x+y\\le4\\\\ 3x+y\\le6\\end{cases}\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">giá trị lớn nhất</b> của \\(F=2x+4y\\) là bao nhiêu?",
+   "options": [
+    "\\(16\\)",
+    "\\(4\\)",
+    "\\(14\\)",
+    "\\(0\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Compute \\(F\\) at the vertices; the largest value is 16.",
+   "explain_vi": "Đáp án a. Tính \\(F\\) tại các đỉnh; <b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">giá trị lớn nhất</b> là 16.",
+   "images": [],
+   "id": "0e5a70b529f4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "On the region of \\(\\begin{cases}x\\ge#,\\ y\\ge#\\\\ x+y\\le#\\\\ #x+y\\le#\\end{cases}\\), what is the largest value of \\(F=#x+#y\\)?",
+   "en": "On the region of \\(\\begin{cases}x\\ge0,\\ y\\ge0\\\\ x+y\\le4\\\\ 3x+y\\le8\\end{cases}\\), what is the largest value of \\(F=5x+4y\\)?",
+   "vi": "Trên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution region\">miền nghiệm</b> của hệ \\(\\begin{cases}x\\ge0,\\ y\\ge0\\\\ x+y\\le4\\\\ 3x+y\\le8\\end{cases}\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">giá trị lớn nhất</b> của \\(F=5x+4y\\) là bao nhiêu?",
+   "options": [
+    "\\(0\\)",
+    "\\(18\\)",
+    "\\(16\\)",
+    "\\(\\dfrac{40}{3}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Compute \\(F\\) at the vertices; the largest value is 18.",
+   "explain_vi": "Đáp án b. Tính \\(F\\) tại các đỉnh; <b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">giá trị lớn nhất</b> là 18.",
+   "images": [],
+   "id": "4b0b7b4e958c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The lines \\(x+y=#\\) and \\(#x+#y=#\\) meet at which point?",
+   "en": "The lines \\(x+y=4\\) and \\(4x+2y=10\\) meet at which point?",
+   "vi": "Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(x+y=4\\) và \\(4x+2y=10\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersect\">cắt nhau</b> tại điểm nào?",
+   "options": [
+    "\\((2;2)\\)",
+    "\\((1;3)\\)",
+    "\\((0;4)\\)",
+    "\\((3;1)\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Subtract the equations and solve: \\(x=1\\), \\(y=3\\).",
+   "explain_vi": "Đáp án b. Giải hệ hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b>: \\(x=1\\), \\(y=3\\).",
+   "images": [],
+   "id": "124fc83ef8b7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Which pair is a solution of the system \\(\\begin{cases}x\\ge#,\\ y\\ge#\\\\ x+y\\le#\\\\ #x+#y\\le#\\end{cases}\\)?",
+   "en": "Which pair is a solution of the system \\(\\begin{cases}x\\ge0,\\ y\\ge0\\\\ x+y\\le7\\\\ 4x+2y\\le22\\end{cases}\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"ordered pair\">Cặp số</b> nào là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution of a system\">nghiệm của hệ</b> \\(\\begin{cases}x\\ge0,\\ y\\ge0\\\\ x+y\\le7\\\\ 4x+2y\\le22\\end{cases}\\)?",
+   "options": [
+    "\\((2;1)\\)",
+    "\\((8;2)\\)",
+    "\\((5;7)\\)",
+    "\\((2;8)\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Substitute into every inequality; only (2;1) satisfies all of them.",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"substitute\">Thay vào</b> từng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"inequality (with a variable)\">bất phương trình</b>; chỉ (2;1) thỏa mãn cả hệ.",
+   "images": [],
+   "id": "c128ed96d0ed",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Which pair is a solution of the system \\(\\begin{cases}x\\ge#,\\ y\\ge#\\\\ x+y\\le#\\\\ #x+y\\le#\\end{cases}\\)?",
+   "en": "Which pair is a solution of the system \\(\\begin{cases}x\\ge0,\\ y\\ge0\\\\ x+y\\le7\\\\ 2x+y\\le9\\end{cases}\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"ordered pair\">Cặp số</b> nào là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution of a system\">nghiệm của hệ</b> \\(\\begin{cases}x\\ge0,\\ y\\ge0\\\\ x+y\\le7\\\\ 2x+y\\le9\\end{cases}\\)?",
+   "options": [
+    "\\((8;6)\\)",
+    "\\((4;4)\\)",
+    "\\((8;3)\\)",
+    "\\((1;6)\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Substitute into every inequality; only (1;6) satisfies all of them.",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"substitute\">Thay vào</b> từng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"inequality (with a variable)\">bất phương trình</b>; chỉ (1;6) thỏa mãn cả hệ.",
+   "images": [],
+   "id": "8dfcc90bb869",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "On the region of \\(\\begin{cases}x\\ge#,\\ y\\ge#\\\\ x+y\\le#\\\\ #x+#y\\le#\\end{cases}\\) the largest value of \\(F=#x+#y\\) is…",
+   "en": "On the region of \\(\\begin{cases}x\\ge0,\\ y\\ge0\\\\ x+y\\le6\\\\ 3x+2y\\le15\\end{cases}\\) the largest value of \\(F=4x+3y\\) is…",
+   "vi": "Trên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution region\">miền nghiệm</b> của hệ \\(\\begin{cases}x\\ge0,\\ y\\ge0\\\\ x+y\\le6\\\\ 3x+2y\\le15\\end{cases}\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">giá trị lớn nhất</b> của \\(F=4x+3y\\) là…",
+   "options": [
+    "\\(18\\)",
+    "\\(20\\)",
+    "\\(23\\)",
+    "\\(21\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Compute \\(F\\) at every vertex: the largest is 21.",
+   "explain_vi": "Đáp án d. Tính \\(F\\) tại mọi đỉnh: lớn nhất là 21.",
+   "images": [],
+   "id": "43083a301fb9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "The lines \\(x+y=#\\) and \\(#x+#y=#\\) meet at which point?",
+   "en": "The lines \\(x+y=6\\) and \\(3x+2y=15\\) meet at which point?",
+   "vi": "Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(x+y=6\\) và \\(3x+2y=15\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersect\">cắt nhau</b> tại điểm nào?",
+   "options": [
+    "\\((4;3)\\)",
+    "\\((3;4)\\)",
+    "\\((4;4)\\)",
+    "\\((3;3)\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Solve the two equations.",
+   "explain_vi": "Đáp án d. Giải hệ hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b>.",
+   "images": [],
+   "id": "403daceabcab",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Which pair is a solution of \\(\\begin{cases}x\\ge#,\\ y\\ge#\\\\ x+y\\le#\\\\ #x+#y\\le#\\end{cases}\\)?",
+   "en": "Which pair is a solution of \\(\\begin{cases}x\\ge0,\\ y\\ge0\\\\ x+y\\le6\\\\ 3x+2y\\le15\\end{cases}\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"ordered pair\">Cặp số</b> nào là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution of a system\">nghiệm của hệ</b> \\(\\begin{cases}x\\ge0,\\ y\\ge0\\\\ x+y\\le6\\\\ 3x+2y\\le15\\end{cases}\\)?",
+   "options": [
+    "\\((1;1)\\)",
+    "\\((6;1)\\)",
+    "\\((6;6)\\)",
+    "\\((1;6)\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. It satisfies all the inequalities; the others break one.",
+   "explain_vi": "Đáp án a. Cặp này thỏa mọi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"inequality (with a variable)\">bất phương trình</b>; các cặp khác vi phạm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"at least one\">ít nhất một</b>.",
+   "images": [],
+   "id": "d6c3d3628158",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "On the region of \\(\\begin{cases}x\\ge#,\\ y\\ge#\\\\ x+y\\le#\\\\ #x+#y\\le#\\end{cases}\\), the largest value of \\(F=#x+#y\\) is #.",
+   "en": "On the region of \\(\\begin{cases}x\\ge0,\\ y\\ge0\\\\ x+y\\le6\\\\ 3x+2y\\le15\\end{cases}\\), the largest value of \\(F=4x+3y\\) is 21.",
+   "vi": "Trên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution region\">miền nghiệm</b> của hệ \\(\\begin{cases}x\\ge0,\\ y\\ge0\\\\ x+y\\le6\\\\ 3x+2y\\le15\\end{cases}\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">giá trị lớn nhất</b> của \\(F=4x+3y\\) là 21.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "The largest value is 21.",
+   "explain_vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">Giá trị lớn nhất</b> là 21.",
+   "images": [],
+   "id": "ea3da947f28c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "The pair (#;#) is a solution of \\(\\begin{cases}x\\ge#,\\ y\\ge#\\\\ x+y\\le#\\\\ #x+#y\\le#\\end{cases}\\).",
+   "en": "The pair (4;3) is a solution of \\(\\begin{cases}x\\ge0,\\ y\\ge0\\\\ x+y\\le6\\\\ 3x+2y\\le15\\end{cases}\\).",
+   "vi": "Cặp (4;3) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution of a system\">nghiệm của hệ</b> \\(\\begin{cases}x\\ge0,\\ y\\ge0\\\\ x+y\\le6\\\\ 3x+2y\\le15\\end{cases}\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "Check each inequality.",
+   "explain_vi": "Kiểm tra từng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"inequality (with a variable)\">bất phương trình</b>.",
+   "images": [],
+   "id": "42e80058328b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "How many pairs of natural numbers \\((x;y)\\) satisfy \\(\\begin{cases}x\\ge#,\\ y\\ge#\\\\ x+y\\le#\\\\ #x+#y\\le#\\end{cases}\\)?",
+   "en": "How many pairs of natural numbers \\((x;y)\\) satisfy \\(\\begin{cases}x\\ge0,\\ y\\ge0\\\\ x+y\\le6\\\\ 3x+2y\\le15\\end{cases}\\)?",
+   "vi": "Có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ordered pair\">cặp số</b> tự nhiên \\((x;y)\\) thỏa \\(\\begin{cases}x\\ge0,\\ y\\ge0\\\\ x+y\\le6\\\\ 3x+2y\\le15\\end{cases}\\)?",
+   "options": [],
+   "answer": "25",
+   "explain_en": "Count the pairs: 25.",
+   "explain_vi": "Đếm các cặp: 25.",
+   "images": [],
+   "id": "84b0007d59b7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "What is the largest value of \\(F=#x+#y\\) on the region \\(\\begin{cases}x\\ge#,\\ y\\ge#\\\\ x+y\\le#\\\\ #x+#y\\le#\\end{cases}\\)?",
+   "en": "What is the largest value of \\(F=4x+3y\\) on the region \\(\\begin{cases}x\\ge0,\\ y\\ge0\\\\ x+y\\le6\\\\ 3x+2y\\le15\\end{cases}\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">Giá trị lớn nhất</b> của \\(F=4x+3y\\) trên miền \\(\\begin{cases}x\\ge0,\\ y\\ge0\\\\ x+y\\le6\\\\ 3x+2y\\le15\\end{cases}\\) là bao nhiêu?",
+   "options": [],
+   "answer": "21",
+   "explain_en": "Largest value: 21.",
+   "explain_vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">Giá trị lớn nhất</b>: 21.",
+   "images": [],
+   "id": "8c6a63e09dd1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "A workshop makes \\(x\\) chairs and \\(y\\) tables. A chair needs # hours and a table needs # hours. There are at most # hours, and at most # items can be made. Which system describes this?",
+   "en": "A workshop makes \\(x\\) chairs and \\(y\\) tables. A chair needs 4 hours and a table needs 2 hours. There are at most 40 hours, and at most 10 items can be made. Which system describes this?",
+   "vi": "Một xưởng làm \\(x\\) cái ghế và \\(y\\) cái bàn. Mỗi ghế cần 4 giờ, mỗi bàn cần 2 giờ. Xưởng có nhiều nhất 40 giờ và làm nhiều nhất 10 sản phẩm. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"system of inequalities\">Hệ bất phương trình</b> nào mô tả điều đó?",
+   "options": [
+    "\\(\\begin{cases}x\\ge0,\\ y\\ge0\\\\ 4x+2y\\le40\\\\ x+y\\ge10\\end{cases}\\)",
+    "\\(\\begin{cases}x\\ge0,\\ y\\ge0\\\\ 4x+2y\\ge40\\\\ x+y\\le10\\end{cases}\\)",
+    "\\(\\begin{cases}x\\ge0,\\ y\\ge0\\\\ 4x+2y\\le40\\\\ x+y\\le10\\end{cases}\\)",
+    "\\(\\begin{cases}x\\ge0,\\ y\\ge0\\\\ 2x+4y\\le40\\\\ x+y\\le10\\end{cases}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Time: \\(4x+2y\\le40\\). Items: \\(x+y\\le10\\). Also \\(x,y\\ge0\\).",
+   "explain_vi": "Đáp án c. Thời gian: \\(4x+2y\\le40\\). Số sản phẩm: \\(x+y\\le10\\). Và \\(x,y\\ge0\\).",
+   "images": [],
+   "id": "1851f410671a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Find the smallest value of \\(F=#x+#y\\) on the region \\(x\\ge#,\\ y\\ge#,\\ #x+y\\ge#,\\ x+#y\\ge#\\).",
+   "en": "Find the smallest value of \\(F=4x+2y\\) on the region \\(x\\ge0,\\ y\\ge0,\\ 2x+y\\ge18,\\ x+3y\\ge12\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"minimum value\">giá trị nhỏ nhất</b> của \\(F=4x+2y\\) trên miền \\(x\\ge0,\\ y\\ge0,\\ 2x+y\\ge18,\\ x+3y\\ge12\\).",
+   "options": [
+    "\\(36\\)",
+    "\\(38\\)",
+    "\\(37\\)",
+    "\\(48\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. The smallest value is at a vertex: 36.",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"minimum value\">Giá trị nhỏ nhất</b> đạt tại một đỉnh: 36.",
+   "images": [],
+   "id": "72a65a058ba4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "How many pairs of natural numbers \\((x;y)\\) satisfy \\(x+y\\le#\\) and \\(#x+y\\le#\\)?",
+   "en": "How many pairs of natural numbers \\((x;y)\\) satisfy \\(x+y\\le8\\) and \\(2x+y\\le11\\)?",
+   "vi": "Có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ordered pair\">cặp số</b> tự nhiên \\((x;y)\\) thỏa \\(x+y\\le8\\) và \\(2x+y\\le11\\)?",
+   "options": [
+    "\\(37\\)",
+    "\\(36\\)",
+    "\\(38\\)",
+    "\\(35\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. List the pairs for each \\(x\\) and add: 36 pairs.",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"listing method\">Liệt kê</b> theo từng \\(x\\) rồi cộng lại: 36 cặp.",
+   "images": [],
+   "id": "8934529d04f3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "On the region of \\(\\begin{cases}x\\ge#,\\ y\\ge#\\\\ x+y\\le#\\\\ #x+#y\\le#\\end{cases}\\), what is the largest value of \\(F=#x+#y\\)?",
+   "en": "On the region of \\(\\begin{cases}x\\ge0,\\ y\\ge0\\\\ x+y\\le5\\\\ 3x+2y\\le11\\end{cases}\\), what is the largest value of \\(F=5x+4y\\)?",
+   "vi": "Trên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution region\">miền nghiệm</b> của hệ \\(\\begin{cases}x\\ge0,\\ y\\ge0\\\\ x+y\\le5\\\\ 3x+2y\\le11\\end{cases}\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">giá trị lớn nhất</b> của \\(F=5x+4y\\) là bao nhiêu?",
+   "options": [
+    "\\(0\\)",
+    "\\(21\\)",
+    "\\(20\\)",
+    "\\(\\dfrac{55}{3}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Compute \\(F\\) at the vertices; the largest value is 21.",
+   "explain_vi": "Đáp án b. Tính \\(F\\) tại các đỉnh; <b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">giá trị lớn nhất</b> là 21.",
+   "images": [],
+   "id": "f95e7933fa63",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "On the region of \\(\\begin{cases}x\\ge#,\\ y\\ge#\\\\ x+y\\le#\\\\ #x+y\\le#\\end{cases}\\), what is the largest value of \\(F=#x+#y\\)?",
+   "en": "On the region of \\(\\begin{cases}x\\ge0,\\ y\\ge0\\\\ x+y\\le8\\\\ 2x+y\\le15\\end{cases}\\), what is the largest value of \\(F=2x+4y\\)?",
+   "vi": "Trên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution region\">miền nghiệm</b> của hệ \\(\\begin{cases}x\\ge0,\\ y\\ge0\\\\ x+y\\le8\\\\ 2x+y\\le15\\end{cases}\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">giá trị lớn nhất</b> của \\(F=2x+4y\\) là bao nhiêu?",
+   "options": [
+    "\\(15\\)",
+    "\\(0\\)",
+    "\\(18\\)",
+    "\\(32\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Compute \\(F\\) at the vertices; the largest value is 32.",
+   "explain_vi": "Đáp án d. Tính \\(F\\) tại các đỉnh; <b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">giá trị lớn nhất</b> là 32.",
+   "images": [],
+   "id": "b1f148d9746c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The lines \\(x+y=#\\) and \\(#x+y=#\\) meet at which point?",
+   "en": "The lines \\(x+y=8\\) and \\(4x+y=23\\) meet at which point?",
+   "vi": "Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(x+y=8\\) và \\(4x+y=23\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersect\">cắt nhau</b> tại điểm nào?",
+   "options": [
+    "\\((4;4)\\)",
+    "\\((3;5)\\)",
+    "\\((6;2)\\)",
+    "\\((5;3)\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Subtract the equations and solve: \\(x=5\\), \\(y=3\\).",
+   "explain_vi": "Đáp án d. Giải hệ hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b>: \\(x=5\\), \\(y=3\\).",
+   "images": [],
+   "id": "dea5a0aada54",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Which pair is a solution of the system \\(\\begin{cases}x\\ge#,\\ y\\ge#\\\\ x+y\\le#\\\\ #x+y\\le#\\end{cases}\\)?",
+   "en": "Which pair is a solution of the system \\(\\begin{cases}x\\ge0,\\ y\\ge0\\\\ x+y\\le4\\\\ 2x+y\\le5\\end{cases}\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"ordered pair\">Cặp số</b> nào là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution of a system\">nghiệm của hệ</b> \\(\\begin{cases}x\\ge0,\\ y\\ge0\\\\ x+y\\le4\\\\ 2x+y\\le5\\end{cases}\\)?",
+   "options": [
+    "\\((1;3)\\)",
+    "\\((6;2)\\)",
+    "\\((5;1)\\)",
+    "\\((6;5)\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Substitute into every inequality; only (1;3) satisfies all of them.",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"substitute\">Thay vào</b> từng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"inequality (with a variable)\">bất phương trình</b>; chỉ (1;3) thỏa mãn cả hệ.",
+   "images": [],
+   "id": "e05d3c3efbcc",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Which pair is a solution of the system \\(\\begin{cases}x\\ge#,\\ y\\ge#\\\\ x+y\\le#\\\\ #x+y\\le#\\end{cases}\\)?",
+   "en": "Which pair is a solution of the system \\(\\begin{cases}x\\ge0,\\ y\\ge0\\\\ x+y\\le4\\\\ 3x+y\\le6\\end{cases}\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"ordered pair\">Cặp số</b> nào là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution of a system\">nghiệm của hệ</b> \\(\\begin{cases}x\\ge0,\\ y\\ge0\\\\ x+y\\le4\\\\ 3x+y\\le6\\end{cases}\\)?",
+   "options": [
+    "\\((5;2)\\)",
+    "\\((0;5)\\)",
+    "\\((1;6)\\)",
+    "\\((1;3)\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Substitute into every inequality; only (1;3) satisfies all of them.",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"substitute\">Thay vào</b> từng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"inequality (with a variable)\">bất phương trình</b>; chỉ (1;3) thỏa mãn cả hệ.",
+   "images": [],
+   "id": "225195175761",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  }
+ ]
+}

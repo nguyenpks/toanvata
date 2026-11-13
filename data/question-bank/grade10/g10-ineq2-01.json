@@ -1,0 +1,1029 @@
+{
+ "lesson": "g10-ineq2-01",
+ "grade": 10,
+ "no": 3,
+ "title": "Bất phương trình bậc nhất hai ẩn",
+ "path": "lessons/grade10/propositions-and-sets/linear-inequalities-two-variables.html",
+ "items": [
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "The boundary line of \\(x-y\\gt#\\) is…",
+   "en": "The boundary line of \\(x-y\\gt3\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"boundary line\">Đường thẳng biên</b> của \\(x-y\\gt3\\) là…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">a dashed line \\(x-y=3\\)</span><span class=\"vi\">đường nét đứt \\(x-y=3\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">a solid line \\(x-y=3\\)</span><span class=\"vi\">đường nét liền \\(x-y=3\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">a dashed line \\(x+y=3\\)</span><span class=\"vi\">đường nét đứt \\(x+y=3\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">a solid line \\(y=3\\)</span><span class=\"vi\">đường nét liền \\(y=3\\)</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. The sign \\(\\gt\\) means dashed.",
+   "explain_vi": "Đáp án a. Dấu \\(\\gt\\) nên vẽ nét đứt.",
+   "images": [],
+   "id": "91bcbfa467fa",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "The origin is in the solution region of which inequality?",
+   "en": "The origin is in the solution region of which inequality?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"origin\">Gốc tọa độ</b> thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution region\">miền nghiệm</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"inequality (with a variable)\">bất phương trình</b> nào?",
+   "options": [
+    "\\(x+y\\gt1\\)",
+    "\\(x-y\\ge2\\)",
+    "\\(2x+3y\\lt4\\)",
+    "\\(x+2y\\le-1\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(0\\lt4\\) is true; the others are false at \\((0;0)\\).",
+   "explain_vi": "Đáp án c. \\(0\\lt4\\) đúng; các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"inequality (with a variable)\">bất phương trình</b> còn lại sai tại \\((0;0)\\).",
+   "images": [],
+   "id": "4b5dc8581608",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Which pair is a solution of \\(#x+y\\le#\\)?",
+   "en": "Which pair is a solution of \\(2x+y\\le5\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"ordered pair\">Cặp số</b> nào là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b> của \\(2x+y\\le5\\)?",
+   "options": [
+    "\\((3;1)\\)",
+    "\\((1;2)\\)",
+    "\\((2;2)\\)",
+    "\\((0;6)\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(2+2=4\\le5\\). Others give 7, 6, 6.",
+   "explain_vi": "Đáp án b. \\(2+2=4\\le5\\). Các cặp còn lại cho 7, 6, 6.",
+   "images": [],
+   "id": "650d157e9111",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "The point \\((#;#)\\) is in the solution region of \\(x+y\\gt#\\).",
+   "en": "The point \\((1;1)\\) is in the solution region of \\(x+y\\gt2\\).",
+   "vi": "Điểm \\((1;1)\\) thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution region\">miền nghiệm</b> của \\(x+y\\gt2\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False: \\(1+1=2\\) is not greater than 2 (the point is on the dashed line).",
+   "explain_vi": "Sai: \\(1+1=2\\) không lớn hơn 2 (điểm nằm trên đường nét đứt).",
+   "images": [],
+   "id": "40c47884a44e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "The solution region of a system is the intersection of the regions of its inequalities.",
+   "en": "The solution region of a system is the intersection of the regions of its inequalities.",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution region\">Miền nghiệm</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"system of inequalities\">hệ bất phương trình</b> là giao các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution region\">miền nghiệm</b> của từng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"inequality (with a variable)\">bất phương trình</b>.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. All inequalities must hold together.",
+   "explain_vi": "Đúng. Mọi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"inequality (with a variable)\">bất phương trình</b> phải cùng đúng.",
+   "images": [],
+   "id": "520eac2f044e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "A drink costs # thousand and a cake costs # thousand. With \\(x\\) drinks and \\(y\\) cakes, the cost is at most #. How many pairs \\((x;y)\\) of natural numbers with \\(y=#\\) are solutions?",
+   "en": "A drink costs 5 thousand and a cake costs 8 thousand. With \\(x\\) drinks and \\(y\\) cakes, the cost is at most 40. How many pairs \\((x;y)\\) of natural numbers with \\(y=3\\) are solutions?",
+   "vi": "Một cốc nước giá 5 nghìn, một cái bánh giá 8 nghìn. Mua \\(x\\) cốc và \\(y\\) bánh hết nhiều nhất 40 nghìn. Có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ordered pair\">cặp số</b> tự nhiên \\((x;y)\\) với \\(y=3\\) thỏa điều kiện?",
+   "options": [],
+   "answer": "4",
+   "explain_en": "Answer: 4. \\(5x+24\\le40\\Rightarrow x\\le3.2\\), so \\(x=0,1,2,3\\).",
+   "explain_vi": "Đáp số: 4. \\(5x+24\\le40\\Rightarrow x\\le3{,}2\\) nên \\(x=0,1,2,3\\).",
+   "images": [],
+   "id": "e33e10f1ab28",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "How many pairs of natural numbers \\((x;y)\\) satisfy \\(x+y\\le#\\)?",
+   "en": "How many pairs of natural numbers \\((x;y)\\) satisfy \\(x+y\\le2\\)?",
+   "vi": "Có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ordered pair\">cặp số</b> tự nhiên \\((x;y)\\) thỏa \\(x+y\\le2\\)?",
+   "options": [],
+   "answer": "6",
+   "explain_en": "Answer: 6: (0;0),(0;1),(0;2),(1;0),(1;1),(2;0).",
+   "explain_vi": "Đáp số: 6: (0;0),(0;1),(0;2),(1;0),(1;1),(2;0).",
+   "images": [],
+   "id": "44d3873f59f4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "A notebook costs # thousand dong and a pen costs # thousand dong. Mai spends at most # thousand dong on \\(x\\) notebooks and \\(y\\) pens. Which inequality describes this?",
+   "en": "A notebook costs 6 thousand dong and a pen costs 10 thousand dong. Mai spends at most 40 thousand dong on \\(x\\) notebooks and \\(y\\) pens. Which inequality describes this?",
+   "vi": "Một quyển vở giá 6 nghìn đồng, một cái bút giá 10 nghìn đồng. Mai mua \\(x\\) quyển vở và \\(y\\) cái bút hết nhiều nhất 40 nghìn đồng. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"inequality (with a variable)\">Bất phương trình</b> nào mô tả điều đó?",
+   "options": [
+    "\\(10x+6y\\le40\\)",
+    "\\(6x+10y\\ge40\\)",
+    "\\(6x+10y\\lt 40\\)",
+    "\\(6x+10y\\le40\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. The total cost is \\(6x+10y\\) and it must be at most 40: \\(6x+10y\\le40\\).",
+   "explain_vi": "Đáp án d. Tổng tiền là \\(6x+10y\\) và phải nhiều nhất 40: \\(6x+10y\\le40\\).",
+   "images": [],
+   "id": "d2c00d0aa3c6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "How many pairs \\((x;y)\\) of natural numbers (\\(x,y\\ge#\\)) satisfy \\(#x+#y\\le#\\)?",
+   "en": "How many pairs \\((x;y)\\) of natural numbers (\\(x,y\\ge0\\)) satisfy \\(2x+2y\\le12\\)?",
+   "vi": "Có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ordered pair\">cặp số</b> tự nhiên \\((x;y)\\) (\\(x,y\\ge0\\)) thỏa mãn \\(2x+2y\\le12\\)?",
+   "options": [
+    "\\(28\\)",
+    "\\(29\\)",
+    "\\(26\\)",
+    "\\(27\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. For each \\(x\\) with \\(2x\\le12\\), count the values of \\(y\\) with \\(2y\\le12-2x\\). The total is 28.",
+   "explain_vi": "Đáp án a. Với mỗi \\(x\\) thỏa \\(2x\\le12\\), đếm các giá trị \\(y\\) thỏa \\(2y\\le12-2x\\). Tổng cộng có 28 cặp.",
+   "images": [],
+   "id": "0a8fed856baf",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "How many pairs \\((x;y)\\) of natural numbers (\\(x,y\\ge#\\)) satisfy \\(#x+#y\\le#\\)?",
+   "en": "How many pairs \\((x;y)\\) of natural numbers (\\(x,y\\ge0\\)) satisfy \\(3x+5y\\le15\\)?",
+   "vi": "Có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ordered pair\">cặp số</b> tự nhiên \\((x;y)\\) (\\(x,y\\ge0\\)) thỏa mãn \\(3x+5y\\le15\\)?",
+   "options": [
+    "\\(12\\)",
+    "\\(11\\)",
+    "\\(14\\)",
+    "\\(13\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. For each \\(x\\) with \\(3x\\le15\\), count the values of \\(y\\) with \\(5y\\le15-3x\\). The total is 13.",
+   "explain_vi": "Đáp án d. Với mỗi \\(x\\) thỏa \\(3x\\le15\\), đếm các giá trị \\(y\\) thỏa \\(5y\\le15-3x\\). Tổng cộng có 13 cặp.",
+   "images": [],
+   "id": "da49f0ed0c31",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The boundary line of \\(x+y\\gt #\\) passes through which point?",
+   "en": "The boundary line of \\(x+y\\gt 6\\) passes through which point?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"boundary line\">Đường thẳng biên</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"inequality (with a variable)\">bất phương trình</b> \\(x+y\\gt 6\\) đi qua điểm nào?",
+   "options": [
+    "\\((3;4)\\)",
+    "\\((2;2)\\)",
+    "\\((4;3)\\)",
+    "\\((3;3)\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. The boundary line is \\(x+y=6\\). For \\((3;3)\\): \\(1\\cdot3+1\\cdot3=6\\).",
+   "explain_vi": "Đáp án d. Đường biên là \\(x+y=6\\). Với \\((3;3)\\): \\(1\\cdot3+1\\cdot3=6\\).",
+   "images": [],
+   "id": "980f2b53e003",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The point \\(P(-#;#)\\) belongs to the solution region of which inequality?",
+   "en": "The point \\(P(-3;2)\\) belongs to the solution region of which inequality?",
+   "vi": "Điểm \\(P(-3;2)\\) thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution region\">miền nghiệm</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"inequality (with a variable)\">bất phương trình</b> nào?",
+   "options": [
+    "\\(3x+y\\ge0\\)",
+    "\\(-x+y\\lt -1\\)",
+    "\\(x-y\\le-1\\)",
+    "\\(3x-3y\\gt -1\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Substitute \\(x=-3\\), \\(y=2\\) into each inequality; only the chosen one is true.",
+   "explain_vi": "Đáp án c. Thay \\(x=-3\\), \\(y=2\\) vào từng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"inequality (with a variable)\">bất phương trình</b>; chỉ <b class=\"mbl-term\" tabindex=\"0\" data-en=\"inequality (with a variable)\">bất phương trình</b> được chọn đúng.",
+   "images": [],
+   "id": "63e1a6e3ac6a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Where does the line \\(#x-#y=#\\) meet the axes?",
+   "en": "Where does the line \\(4x-2y=20\\) meet the axes?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">Đường thẳng</b> \\(4x-2y=20\\) cắt hai trục tọa độ tại các điểm nào?",
+   "options": [
+    "\\((5;0),\\ (0;-10)\\)",
+    "\\((5;0),\\ (0;10)\\)",
+    "\\((-5;0),\\ (0;10)\\)",
+    "\\((-10;0),\\ (0;5)\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Put \\(y=0\\): \\(x=\\dfrac{20}{4}\\). Put \\(x=0\\): \\(y=\\dfrac{20}{-2}\\).",
+   "explain_vi": "Đáp án a. Cho \\(y=0\\): \\(x=\\dfrac{20}{4}\\). Cho \\(x=0\\): \\(y=\\dfrac{20}{-2}\\).",
+   "images": [],
+   "id": "4e8e5576c20d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Which pair \\((x;y)\\) is a solution of \\(-#x+y\\gt -#\\)?",
+   "en": "Which pair \\((x;y)\\) is a solution of \\(-2x+y\\gt -4\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"ordered pair\">Cặp số</b> \\((x;y)\\) nào là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution of an inequality\">nghiệm của bất phương trình</b> \\(-2x+y\\gt -4\\)?",
+   "options": [
+    "\\((5;-2)\\)",
+    "\\((-4;0)\\)",
+    "\\((3;-4)\\)",
+    "\\((3;0)\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Substitute: \\(-2\\cdot-4+1\\cdot0=8\\), and \\(8\\gt -4\\) is true. The other pairs make it false.",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"substitute\">Thay vào</b>: \\(-2\\cdot-4+1\\cdot0=8\\) và \\(8\\gt -4\\) đúng. Các cặp còn lại làm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"inequality\">bất đẳng thức</b> sai.",
+   "images": [],
+   "id": "a4c2e3b5d8d4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Which pair \\((x;y)\\) is a solution of \\(-#x-#y\\ge#\\)?",
+   "en": "Which pair \\((x;y)\\) is a solution of \\(-2x-3y\\ge8\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"ordered pair\">Cặp số</b> \\((x;y)\\) nào là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution of an inequality\">nghiệm của bất phương trình</b> \\(-2x-3y\\ge8\\)?",
+   "options": [
+    "\\((-2;0)\\)",
+    "\\((-2;-1)\\)",
+    "\\((4;3)\\)",
+    "\\((-2;-3)\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Substitute: \\(-2\\cdot-2-3\\cdot-3=13\\), and \\(13\\ge8\\) is true. The other pairs make it false.",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"substitute\">Thay vào</b>: \\(-2\\cdot-2-3\\cdot-3=13\\) và \\(13\\ge8\\) đúng. Các cặp còn lại làm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"inequality\">bất đẳng thức</b> sai.",
+   "images": [],
+   "id": "2572cadca9b0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "The boundary line of \\(x+y\\ge#\\) is…",
+   "en": "The boundary line of \\(x+y\\ge4\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"boundary line\">Đường thẳng biên</b> của \\(x+y\\ge4\\) là…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">a dashed line \\(x+y=4\\)</span><span class=\"vi\">đường nét đứt \\(x+y=4\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">a solid line \\(x-y=4\\)</span><span class=\"vi\">đường nét liền \\(x-y=4\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">a solid line \\(x+y=4\\)</span><span class=\"vi\">đường nét liền \\(x+y=4\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">a dashed line \\(x-y=4\\)</span><span class=\"vi\">đường nét đứt \\(x-y=4\\)</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The sign \\(\\ge\\) means solid.",
+   "explain_vi": "Đáp án c. Dấu \\(\\ge\\) nên vẽ nét liền.",
+   "images": [],
+   "id": "eb7a5bbf7321",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Which inequality has the origin in its solution region?",
+   "en": "Which inequality has the origin in its solution region?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"inequality (with a variable)\">Bất phương trình</b> nào có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution region\">miền nghiệm</b> chứa <b class=\"mbl-term\" tabindex=\"0\" data-en=\"origin\">gốc tọa độ</b>?",
+   "options": [
+    "\\(2x-y\\gt3\\)",
+    "\\(x+y\\le5\\)",
+    "\\(x+3y\\ge1\\)",
+    "\\(y\\lt-2\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(0\\le5\\) is true; the others are false at \\((0;0)\\).",
+   "explain_vi": "Đáp án b. \\(0\\le5\\) đúng; các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"inequality (with a variable)\">bất phương trình</b> còn lại sai tại \\((0;0)\\).",
+   "images": [],
+   "id": "f3effc08b757",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Which pair is a solution of \\(#x+y\\le#\\)?",
+   "en": "Which pair is a solution of \\(3x+y\\le7\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"ordered pair\">Cặp số</b> nào là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b> của \\(3x+y\\le7\\)?",
+   "options": [
+    "\\((2;2)\\)",
+    "\\((1;5)\\)",
+    "\\((2;1)\\)",
+    "\\((3;0)\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(6+1=7\\le7\\). Others give 8, 8, 9.",
+   "explain_vi": "Đáp án c. \\(6+1=7\\le7\\). Các cặp còn lại cho 8, 8, 9.",
+   "images": [],
+   "id": "436bec7a32c8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "A solution region of a system can be the part shared by two half-planes.",
+   "en": "A solution region of a system can be the part shared by two half-planes.",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution region\">Miền nghiệm</b> của hệ có thể là phần chung của hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"half-plane\">nửa mặt phẳng</b>.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True: it is the intersection.",
+   "explain_vi": "Đúng: đó là giao của hai miền.",
+   "images": [],
+   "id": "09627fe60399",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "The point \\((#;#)\\) is in the solution region of \\(x+#y\\gt#\\).",
+   "en": "The point \\((2;1)\\) is in the solution region of \\(x+2y\\gt4\\).",
+   "vi": "Điểm \\((2;1)\\) thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution region\">miền nghiệm</b> của \\(x+2y\\gt4\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False: \\(2+2=4\\) is not greater than 4.",
+   "explain_vi": "Sai: \\(2+2=4\\) không lớn hơn 4.",
+   "images": [],
+   "id": "c81b286e7320",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "A pen costs # thousand and a book costs # thousand. With \\(x\\) pens and \\(y\\) books, the cost is at most #. How many pairs \\((x;y)\\) of natural numbers with \\(y=#\\) are solutions?",
+   "en": "A pen costs 4 thousand and a book costs 9 thousand. With \\(x\\) pens and \\(y\\) books, the cost is at most 45. How many pairs \\((x;y)\\) of natural numbers with \\(y=3\\) are solutions?",
+   "vi": "Một cây bút giá 4 nghìn, một quyển sách giá 9 nghìn. Mua \\(x\\) bút và \\(y\\) sách hết nhiều nhất 45 nghìn. Có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ordered pair\">cặp số</b> tự nhiên \\((x;y)\\) với \\(y=3\\) thỏa điều kiện?",
+   "options": [],
+   "answer": "5",
+   "explain_en": "Answer: 5. \\(4x+27\\le45\\Rightarrow x\\le4.5\\), so \\(x=0,\\dots,4\\).",
+   "explain_vi": "Đáp số: 5. \\(4x+27\\le45\\Rightarrow x\\le4{,}5\\) nên \\(x=0,\\dots,4\\).",
+   "images": [],
+   "id": "bd94a8fc29bb",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "How many pairs of natural numbers \\((x;y)\\) satisfy \\(x+y\\le#\\)?",
+   "en": "How many pairs of natural numbers \\((x;y)\\) satisfy \\(x+y\\le3\\)?",
+   "vi": "Có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ordered pair\">cặp số</b> tự nhiên \\((x;y)\\) thỏa \\(x+y\\le3\\)?",
+   "options": [],
+   "answer": "10",
+   "explain_en": "Answer: 10 (1+2+3+4).",
+   "explain_vi": "Đáp số: 10 (1+2+3+4).",
+   "images": [],
+   "id": "c96efd5f93f8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "A notebook costs # thousand dong and a pen costs # thousand dong. Mai spends at most # thousand dong on \\(x\\) notebooks and \\(y\\) pens. Which inequality describes this?",
+   "en": "A notebook costs 4 thousand dong and a pen costs 7 thousand dong. Mai spends at most 80 thousand dong on \\(x\\) notebooks and \\(y\\) pens. Which inequality describes this?",
+   "vi": "Một quyển vở giá 4 nghìn đồng, một cái bút giá 7 nghìn đồng. Mai mua \\(x\\) quyển vở và \\(y\\) cái bút hết nhiều nhất 80 nghìn đồng. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"inequality (with a variable)\">Bất phương trình</b> nào mô tả điều đó?",
+   "options": [
+    "\\(4x+7y\\lt 80\\)",
+    "\\(7x+4y\\le80\\)",
+    "\\(4x+7y\\ge80\\)",
+    "\\(4x+7y\\le80\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. The total cost is \\(4x+7y\\) and it must be at most 80: \\(4x+7y\\le80\\).",
+   "explain_vi": "Đáp án d. Tổng tiền là \\(4x+7y\\) và phải nhiều nhất 80: \\(4x+7y\\le80\\).",
+   "images": [],
+   "id": "44bf0fbc6fa1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "How many pairs \\((x;y)\\) of natural numbers (\\(x,y\\ge#\\)) satisfy \\(#x+#y\\le#\\)?",
+   "en": "How many pairs \\((x;y)\\) of natural numbers (\\(x,y\\ge0\\)) satisfy \\(2x+4y\\le20\\)?",
+   "vi": "Có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ordered pair\">cặp số</b> tự nhiên \\((x;y)\\) (\\(x,y\\ge0\\)) thỏa mãn \\(2x+4y\\le20\\)?",
+   "options": [
+    "\\(35\\)",
+    "\\(37\\)",
+    "\\(36\\)",
+    "\\(34\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. For each \\(x\\) with \\(2x\\le20\\), count the values of \\(y\\) with \\(4y\\le20-2x\\). The total is 36.",
+   "explain_vi": "Đáp án c. Với mỗi \\(x\\) thỏa \\(2x\\le20\\), đếm các giá trị \\(y\\) thỏa \\(4y\\le20-2x\\). Tổng cộng có 36 cặp.",
+   "images": [],
+   "id": "0a121e0a8c48",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "How many pairs \\((x;y)\\) of natural numbers (\\(x,y\\ge#\\)) satisfy \\(#x+#y\\le#\\)?",
+   "en": "How many pairs \\((x;y)\\) of natural numbers (\\(x,y\\ge0\\)) satisfy \\(2x+2y\\le20\\)?",
+   "vi": "Có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ordered pair\">cặp số</b> tự nhiên \\((x;y)\\) (\\(x,y\\ge0\\)) thỏa mãn \\(2x+2y\\le20\\)?",
+   "options": [
+    "\\(65\\)",
+    "\\(66\\)",
+    "\\(64\\)",
+    "\\(67\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. For each \\(x\\) with \\(2x\\le20\\), count the values of \\(y\\) with \\(2y\\le20-2x\\). The total is 66.",
+   "explain_vi": "Đáp án b. Với mỗi \\(x\\) thỏa \\(2x\\le20\\), đếm các giá trị \\(y\\) thỏa \\(2y\\le20-2x\\). Tổng cộng có 66 cặp.",
+   "images": [],
+   "id": "c5bedeb98f39",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The boundary line of \\(#x+y\\gt #\\) passes through which point?",
+   "en": "The boundary line of \\(2x+y\\gt 5\\) passes through which point?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"boundary line\">Đường thẳng biên</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"inequality (with a variable)\">bất phương trình</b> \\(2x+y\\gt 5\\) đi qua điểm nào?",
+   "options": [
+    "\\((-1;4)\\)",
+    "\\((0;5)\\)",
+    "\\((1;5)\\)",
+    "\\((0;6)\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. The boundary line is \\(2x+y=5\\). For \\((0;5)\\): \\(2\\cdot0+1\\cdot5=5\\).",
+   "explain_vi": "Đáp án b. Đường biên là \\(2x+y=5\\). Với \\((0;5)\\): \\(2\\cdot0+1\\cdot5=5\\).",
+   "images": [],
+   "id": "91a545688781",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The point \\(P(#;#)\\) belongs to the solution region of which inequality?",
+   "en": "The point \\(P(2;1)\\) belongs to the solution region of which inequality?",
+   "vi": "Điểm \\(P(2;1)\\) thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution region\">miền nghiệm</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"inequality (with a variable)\">bất phương trình</b> nào?",
+   "options": [
+    "\\(3x-3y\\le4\\)",
+    "\\(-2x-3y\\gt 3\\)",
+    "\\(2x+2y\\le-1\\)",
+    "\\(-2x+y\\ge0\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Substitute \\(x=2\\), \\(y=1\\) into each inequality; only the chosen one is true.",
+   "explain_vi": "Đáp án a. Thay \\(x=2\\), \\(y=1\\) vào từng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"inequality (with a variable)\">bất phương trình</b>; chỉ <b class=\"mbl-term\" tabindex=\"0\" data-en=\"inequality (with a variable)\">bất phương trình</b> được chọn đúng.",
+   "images": [],
+   "id": "ae1099ff04f5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Where does the line \\(-#x-#y=#\\) meet the axes?",
+   "en": "Where does the line \\(-3x-5y=15\\) meet the axes?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">Đường thẳng</b> \\(-3x-5y=15\\) cắt hai trục tọa độ tại các điểm nào?",
+   "options": [
+    "\\((-5;0),\\ (0;3)\\)",
+    "\\((5;0),\\ (0;3)\\)",
+    "\\((-5;0),\\ (0;-3)\\)",
+    "\\((-3;0),\\ (0;-5)\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Put \\(y=0\\): \\(x=\\dfrac{15}{-3}\\). Put \\(x=0\\): \\(y=\\dfrac{15}{-5}\\).",
+   "explain_vi": "Đáp án c. Cho \\(y=0\\): \\(x=\\dfrac{15}{-3}\\). Cho \\(x=0\\): \\(y=\\dfrac{15}{-5}\\).",
+   "images": [],
+   "id": "6e05e69e58be",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Which pair \\((x;y)\\) is a solution of \\(#x-y\\ge-#\\)?",
+   "en": "Which pair \\((x;y)\\) is a solution of \\(3x-y\\ge-1\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"ordered pair\">Cặp số</b> \\((x;y)\\) nào là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution of an inequality\">nghiệm của bất phương trình</b> \\(3x-y\\ge-1\\)?",
+   "options": [
+    "\\((2;1)\\)",
+    "\\((-2;2)\\)",
+    "\\((-4;0)\\)",
+    "\\((-4;-4)\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Substitute: \\(3\\cdot2-1\\cdot1=5\\), and \\(5\\ge-1\\) is true. The other pairs make it false.",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"substitute\">Thay vào</b>: \\(3\\cdot2-1\\cdot1=5\\) và \\(5\\ge-1\\) đúng. Các cặp còn lại làm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"inequality\">bất đẳng thức</b> sai.",
+   "images": [],
+   "id": "2459523d532f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Which pair \\((x;y)\\) is a solution of \\(-#x+y\\gt -#\\)?",
+   "en": "Which pair \\((x;y)\\) is a solution of \\(-2x+y\\gt -1\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"ordered pair\">Cặp số</b> \\((x;y)\\) nào là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution of an inequality\">nghiệm của bất phương trình</b> \\(-2x+y\\gt -1\\)?",
+   "options": [
+    "\\((4;0)\\)",
+    "\\((3;-4)\\)",
+    "\\((2;3)\\)",
+    "\\((-1;-1)\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Substitute: \\(-2\\cdot-1+1\\cdot-1=1\\), and \\(1\\gt -1\\) is true. The other pairs make it false.",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"substitute\">Thay vào</b>: \\(-2\\cdot-1+1\\cdot-1=1\\) và \\(1\\gt -1\\) đúng. Các cặp còn lại làm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"inequality\">bất đẳng thức</b> sai.",
+   "images": [],
+   "id": "325e7b4bf6a9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "The boundary line of \\(#x+y\\lt#\\) is…",
+   "en": "The boundary line of \\(2x+y\\lt6\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"boundary line\">Đường thẳng biên</b> của \\(2x+y\\lt6\\) là…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">a solid line \\(2x+y=6\\)</span><span class=\"vi\">đường nét liền \\(2x+y=6\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">a dashed line \\(2x-y=6\\)</span><span class=\"vi\">đường nét đứt \\(2x-y=6\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">a solid line \\(x+2y=6\\)</span><span class=\"vi\">đường nét liền \\(x+2y=6\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">a dashed line \\(2x+y=6\\)</span><span class=\"vi\">đường nét đứt \\(2x+y=6\\)</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. The sign \\(\\lt\\) means dashed.",
+   "explain_vi": "Đáp án d. Dấu \\(\\lt\\) nên vẽ nét đứt.",
+   "images": [],
+   "id": "3929f21c5c7a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "The point \\(O(#;#)\\) belongs to the region of which inequality?",
+   "en": "The point \\(O(0;0)\\) belongs to the region of which inequality?",
+   "vi": "Điểm \\(O(0;0)\\) thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution region\">miền nghiệm</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"inequality (with a variable)\">bất phương trình</b> nào?",
+   "options": [
+    "\\(x-3y\\ge2\\)",
+    "\\(x+y\\gt-1\\)",
+    "\\(2x+y\\lt-3\\)",
+    "\\(y\\ge1\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(0\\gt-1\\) is true; the others are false at \\((0;0)\\).",
+   "explain_vi": "Đáp án b. \\(0\\gt-1\\) đúng; các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"inequality (with a variable)\">bất phương trình</b> còn lại sai tại \\((0;0)\\).",
+   "images": [],
+   "id": "b5cd4b64ba7f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Which pair is a solution of \\(x+#y\\le#\\)?",
+   "en": "Which pair is a solution of \\(x+3y\\le8\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"ordered pair\">Cặp số</b> nào là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b> của \\(x+3y\\le8\\)?",
+   "options": [
+    "\\((3;2)\\)",
+    "\\((2;2)\\)",
+    "\\((1;3)\\)",
+    "\\((5;2)\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(2+6=8\\le8\\). Others give 9, 10, 11.",
+   "explain_vi": "Đáp án b. \\(2+6=8\\le8\\). Các cặp còn lại cho 9, 10, 11.",
+   "images": [],
+   "id": "79e0baa6b75d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "Every point of the boundary line is a solution of \\(ax+by\\le c\\).",
+   "en": "Every point of the boundary line is a solution of \\(ax+by\\le c\\).",
+   "vi": "Mọi điểm trên đường biên đều là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b> của \\(ax+by\\le c\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True: on the line \\(ax+by=c\\), so \\(\\le\\) holds.",
+   "explain_vi": "Đúng: trên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> thì \\(ax+by=c\\) nên \\(\\le\\) thỏa mãn.",
+   "images": [],
+   "id": "be2d86c9b28d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "The point \\((#;#)\\) is in the solution region of \\(x-y\\lt#\\).",
+   "en": "The point \\((3;1)\\) is in the solution region of \\(x-y\\lt2\\).",
+   "vi": "Điểm \\((3;1)\\) thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution region\">miền nghiệm</b> của \\(x-y\\lt2\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False: \\(3-1=2\\) is not less than 2.",
+   "explain_vi": "Sai: \\(3-1=2\\) không nhỏ hơn 2.",
+   "images": [],
+   "id": "fcd3c4401eaf",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "A ruler costs # thousand and a notebook costs # thousand. With \\(x\\) rulers and \\(y\\) notebooks, the cost is at most #. How many pairs \\((x;y)\\) of natural numbers with \\(y=#\\) are solutions?",
+   "en": "A ruler costs 3 thousand and a notebook costs 7 thousand. With \\(x\\) rulers and \\(y\\) notebooks, the cost is at most 40. How many pairs \\((x;y)\\) of natural numbers with \\(y=4\\) are solutions?",
+   "vi": "Một cây thước giá 3 nghìn, một quyển vở giá 7 nghìn. Mua \\(x\\) thước và \\(y\\) vở hết nhiều nhất 40 nghìn. Có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ordered pair\">cặp số</b> tự nhiên \\((x;y)\\) với \\(y=4\\) thỏa điều kiện?",
+   "options": [],
+   "answer": "5",
+   "explain_en": "Answer: 5. \\(3x+28\\le40\\Rightarrow x\\le4\\), so \\(x=0,\\dots,4\\).",
+   "explain_vi": "Đáp số: 5. \\(3x+28\\le40\\Rightarrow x\\le4\\) nên \\(x=0,\\dots,4\\).",
+   "images": [],
+   "id": "9e1532c8f533",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "How many pairs of natural numbers \\((x;y)\\) satisfy \\(x+y\\le#\\)?",
+   "en": "How many pairs of natural numbers \\((x;y)\\) satisfy \\(x+y\\le4\\)?",
+   "vi": "Có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ordered pair\">cặp số</b> tự nhiên \\((x;y)\\) thỏa \\(x+y\\le4\\)?",
+   "options": [],
+   "answer": "15",
+   "explain_en": "Answer: 15 (1+2+3+4+5).",
+   "explain_vi": "Đáp số: 15 (1+2+3+4+5).",
+   "images": [],
+   "id": "75cf00e0700b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "A notebook costs # thousand dong and a pen costs # thousand dong. Mai spends at least # thousand dong on \\(x\\) notebooks and \\(y\\) pens. Which inequality describes this?",
+   "en": "A notebook costs 5 thousand dong and a pen costs 7 thousand dong. Mai spends at least 80 thousand dong on \\(x\\) notebooks and \\(y\\) pens. Which inequality describes this?",
+   "vi": "Một quyển vở giá 5 nghìn đồng, một cái bút giá 7 nghìn đồng. Mai mua \\(x\\) quyển vở và \\(y\\) cái bút hết ít nhất 80 nghìn đồng. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"inequality (with a variable)\">Bất phương trình</b> nào mô tả điều đó?",
+   "options": [
+    "\\(7x+5y\\ge80\\)",
+    "\\(5x+7y\\ge80\\)",
+    "\\(5x+7y\\le80\\)",
+    "\\(5x+7y\\gt 80\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. The total cost is \\(5x+7y\\) and it must be at least 80: \\(5x+7y\\ge80\\).",
+   "explain_vi": "Đáp án b. Tổng tiền là \\(5x+7y\\) và phải ít nhất 80: \\(5x+7y\\ge80\\).",
+   "images": [],
+   "id": "93ddd8ebedef",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "How many pairs \\((x;y)\\) of natural numbers (\\(x,y\\ge#\\)) satisfy \\(#x+#y\\le#\\)?",
+   "en": "How many pairs \\((x;y)\\) of natural numbers (\\(x,y\\ge0\\)) satisfy \\(3x+3y\\le24\\)?",
+   "vi": "Có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ordered pair\">cặp số</b> tự nhiên \\((x;y)\\) (\\(x,y\\ge0\\)) thỏa mãn \\(3x+3y\\le24\\)?",
+   "options": [
+    "\\(46\\)",
+    "\\(44\\)",
+    "\\(43\\)",
+    "\\(45\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. For each \\(x\\) with \\(3x\\le24\\), count the values of \\(y\\) with \\(3y\\le24-3x\\). The total is 45.",
+   "explain_vi": "Đáp án d. Với mỗi \\(x\\) thỏa \\(3x\\le24\\), đếm các giá trị \\(y\\) thỏa \\(3y\\le24-3x\\). Tổng cộng có 45 cặp.",
+   "images": [],
+   "id": "85b2751946fd",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "How many pairs \\((x;y)\\) of natural numbers (\\(x,y\\ge#\\)) satisfy \\(x+#y\\le#\\)?",
+   "en": "How many pairs \\((x;y)\\) of natural numbers (\\(x,y\\ge0\\)) satisfy \\(x+4y\\le24\\)?",
+   "vi": "Có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ordered pair\">cặp số</b> tự nhiên \\((x;y)\\) (\\(x,y\\ge0\\)) thỏa mãn \\(x+4y\\le24\\)?",
+   "options": [
+    "\\(90\\)",
+    "\\(92\\)",
+    "\\(91\\)",
+    "\\(89\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. For each \\(x\\) with \\(1x\\le24\\), count the values of \\(y\\) with \\(4y\\le24-1x\\). The total is 91.",
+   "explain_vi": "Đáp án c. Với mỗi \\(x\\) thỏa \\(1x\\le24\\), đếm các giá trị \\(y\\) thỏa \\(4y\\le24-1x\\). Tổng cộng có 91 cặp.",
+   "images": [],
+   "id": "ef7cb476b551",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The boundary line of \\(#x-#y\\gt #\\) passes through which point?",
+   "en": "The boundary line of \\(2x-3y\\gt 1\\) passes through which point?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"boundary line\">Đường thẳng biên</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"inequality (with a variable)\">bất phương trình</b> \\(2x-3y\\gt 1\\) đi qua điểm nào?",
+   "options": [
+    "\\((0;-1)\\)",
+    "\\((-1;0)\\)",
+    "\\((-2;-2)\\)",
+    "\\((-1;-1)\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. The boundary line is \\(2x-3y=1\\). For \\((-1;-1)\\): \\(2\\cdot-1-3\\cdot-1=1\\).",
+   "explain_vi": "Đáp án d. Đường biên là \\(2x-3y=1\\). Với \\((-1;-1)\\): \\(2\\cdot-1-3\\cdot-1=1\\).",
+   "images": [],
+   "id": "ab1b104902d2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The point \\(P(#;#)\\) belongs to the solution region of which inequality?",
+   "en": "The point \\(P(1;1)\\) belongs to the solution region of which inequality?",
+   "vi": "Điểm \\(P(1;1)\\) thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution region\">miền nghiệm</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"inequality (with a variable)\">bất phương trình</b> nào?",
+   "options": [
+    "\\(-2x+y\\gt 2\\)",
+    "\\(2x+y\\ge0\\)",
+    "\\(x+2y\\gt 6\\)",
+    "\\(3x+2y\\lt 2\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Substitute \\(x=1\\), \\(y=1\\) into each inequality; only the chosen one is true.",
+   "explain_vi": "Đáp án b. Thay \\(x=1\\), \\(y=1\\) vào từng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"inequality (with a variable)\">bất phương trình</b>; chỉ <b class=\"mbl-term\" tabindex=\"0\" data-en=\"inequality (with a variable)\">bất phương trình</b> được chọn đúng.",
+   "images": [],
+   "id": "5d602ad6229e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Where does the line \\(#x-#y=-#\\) meet the axes?",
+   "en": "Where does the line \\(3x-2y=-6\\) meet the axes?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">Đường thẳng</b> \\(3x-2y=-6\\) cắt hai trục tọa độ tại các điểm nào?",
+   "options": [
+    "\\((-2;0),\\ (0;3)\\)",
+    "\\((3;0),\\ (0;-2)\\)",
+    "\\((-2;0),\\ (0;-3)\\)",
+    "\\((2;0),\\ (0;-3)\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Put \\(y=0\\): \\(x=\\dfrac{-6}{3}\\). Put \\(x=0\\): \\(y=\\dfrac{-6}{-2}\\).",
+   "explain_vi": "Đáp án a. Cho \\(y=0\\): \\(x=\\dfrac{-6}{3}\\). Cho \\(x=0\\): \\(y=\\dfrac{-6}{-2}\\).",
+   "images": [],
+   "id": "d5259fdeda9e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Which pair \\((x;y)\\) is a solution of \\(#x+#y\\le-#\\)?",
+   "en": "Which pair \\((x;y)\\) is a solution of \\(2x+2y\\le-4\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"ordered pair\">Cặp số</b> \\((x;y)\\) nào là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution of an inequality\">nghiệm của bất phương trình</b> \\(2x+2y\\le-4\\)?",
+   "options": [
+    "\\((-3;-3)\\)",
+    "\\((5;2)\\)",
+    "\\((3;-2)\\)",
+    "\\((3;1)\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Substitute: \\(2\\cdot-3+2\\cdot-3=-12\\), and \\(-12\\le-4\\) is true. The other pairs make it false.",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"substitute\">Thay vào</b>: \\(2\\cdot-3+2\\cdot-3=-12\\) và \\(-12\\le-4\\) đúng. Các cặp còn lại làm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"inequality\">bất đẳng thức</b> sai.",
+   "images": [],
+   "id": "1a6af42ea6f8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Which pair \\((x;y)\\) is a solution of \\(#x-#y\\lt -#\\)?",
+   "en": "Which pair \\((x;y)\\) is a solution of \\(2x-3y\\lt -4\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"ordered pair\">Cặp số</b> \\((x;y)\\) nào là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution of an inequality\">nghiệm của bất phương trình</b> \\(2x-3y\\lt -4\\)?",
+   "options": [
+    "\\((2;-4)\\)",
+    "\\((-3;1)\\)",
+    "\\((5;-1)\\)",
+    "\\((-2;-3)\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Substitute: \\(2\\cdot-3-3\\cdot1=-9\\), and \\(-9\\lt -4\\) is true. The other pairs make it false.",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"substitute\">Thay vào</b>: \\(2\\cdot-3-3\\cdot1=-9\\) và \\(-9\\lt -4\\) đúng. Các cặp còn lại làm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"inequality\">bất đẳng thức</b> sai.",
+   "images": [],
+   "id": "fcbfd5bfe37f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  }
+ ]
+}

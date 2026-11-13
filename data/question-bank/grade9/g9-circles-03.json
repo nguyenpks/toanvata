@@ -1,0 +1,1317 @@
+{
+ "lesson": "g9-circles-03",
+ "grade": 9,
+ "no": 15,
+ "title": "Độ dài của cung tròn. Diện tích hình quạt tròn và hình vành khuyên",
+ "path": "lessons/grade9/circles/arc-length-sectors-annuli.html",
+ "items": [
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Find the area of a sector with radius # cm and central angle \\(#^\\circ\\).",
+   "en": "Find the area of a sector with radius 3 cm and central angle \\(40^\\circ\\).",
+   "vi": "Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sector area\">diện tích hình quạt tròn</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 3 cm, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"central angle\">góc ở tâm</b> \\(40^\\circ\\).",
+   "options": [
+    "\\(\\dfrac{1}{3}\\pi\\text{ cm}^2\\)",
+    "\\(2\\pi\\text{ cm}^2\\)",
+    "\\(\\pi\\text{ cm}^2\\)",
+    "\\(\\dfrac{2}{3}\\pi\\text{ cm}^2\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(S=\\dfrac{\\pi R^2n}{360}=\\dfrac{\\pi\\cdot3^2\\cdot40}{360}=\\pi\\) cm².",
+   "explain_vi": "Đáp án c. \\(S=\\dfrac{\\pi R^2n}{360}=\\dfrac{\\pi\\cdot3^2\\cdot40}{360}=\\pi\\) cm².",
+   "images": [],
+   "id": "34d9280cae62",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Find the length of an arc of \\(#^\\circ\\) on a circle of radius # cm.",
+   "en": "Find the length of an arc of \\(120^\\circ\\) on a circle of radius 7 cm.",
+   "vi": "Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"arc length\">độ dài cung</b> \\(120^\\circ\\) của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 7 cm.",
+   "options": [
+    "\\(\\dfrac{7}{3}\\pi\\text{ cm}\\)",
+    "\\(\\dfrac{28}{3}\\pi\\text{ cm}\\)",
+    "\\(\\dfrac{98}{3}\\pi\\text{ cm}\\)",
+    "\\(\\dfrac{14}{3}\\pi\\text{ cm}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(l=\\dfrac{\\pi Rn}{180}=\\dfrac{\\pi\\cdot7\\cdot120}{180}=\\dfrac{14}{3}\\pi\\) cm.",
+   "explain_vi": "Đáp án d. \\(l=\\dfrac{\\pi Rn}{180}=\\dfrac{\\pi\\cdot7\\cdot120}{180}=\\dfrac{14}{3}\\pi\\) cm.",
+   "images": [],
+   "id": "790fcfb9d2b6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Two concentric circles have radii # cm and # cm. Find the area of the annulus between them.",
+   "en": "Two concentric circles have radii 15 cm and 9 cm. Find the area of the annulus between them.",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"concentric circles\">Hai đường tròn đồng tâm</b> có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 15 cm và 9 cm. Tính diện tích <b class=\"mbl-term\" tabindex=\"0\" data-en=\"annulus (pl. annuli)\">hình vành khuyên</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"limit\">giới hạn</b> bởi chúng.",
+   "options": [
+    "\\(144\\pi\\text{ cm}^2\\)",
+    "\\(36\\pi\\text{ cm}^2\\)",
+    "\\(306\\pi\\text{ cm}^2\\)",
+    "\\(12\\pi\\text{ cm}^2\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(S=\\pi\\left(R^2-r^2\\right)=\\pi\\left(15^2-9^2\\right)=144\\pi\\) cm².",
+   "explain_vi": "Đáp án a. \\(S=\\pi\\left(R^2-r^2\\right)=\\pi\\left(15^2-9^2\\right)=144\\pi\\) cm².",
+   "images": [],
+   "id": "7b6f873bfc5f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "An arc of \\(#^\\circ\\) on a circle of radius # cm has length \\(#\\pi\\) cm.",
+   "en": "An arc of \\(180^\\circ\\) on a circle of radius 16 cm has length \\(16\\pi\\) cm.",
+   "vi": "Cung \\(180^\\circ\\) của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 16 cm có độ dài \\(16\\pi\\) cm.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. \\(l=\\dfrac{\\pi\\cdot16\\cdot180}{180}=16\\pi\\) cm.",
+   "explain_vi": "Đúng. \\(l=\\dfrac{\\pi\\cdot16\\cdot180}{180}=16\\pi\\) cm.",
+   "images": [],
+   "id": "78037843d484",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "If the radius of a sector (radius # cm, angle \\(#^\\circ\\)) is doubled and the angle is kept, its area is doubled.",
+   "en": "If the radius of a sector (radius 7 cm, angle \\(90^\\circ\\)) is doubled and the angle is kept, its area is doubled.",
+   "vi": "Nếu tăng gấp đôi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> của một hình quạt (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 7 cm, góc \\(90^\\circ\\)) và giữ nguyên góc thì diện tích hình quạt tăng gấp đôi.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. \\(S=\\dfrac{\\pi R^2n}{360}\\) is proportional to \\(n\\), but it grows like \\(R^2\\): doubling \\(R\\) multiplies \\(S\\) by 4.",
+   "explain_vi": "Sai. \\(S=\\dfrac{\\pi R^2n}{360}\\) tỉ lệ thuận với \\(n\\) nhưng tỉ lệ với \\(R^2\\) (gấp đôi \\(R\\) thì \\(S\\) gấp 4).",
+   "images": [],
+   "id": "b0a6e6ab5c66",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "An arc of \\(#^\\circ\\) has length \\(\\dfrac{#}{#}\\pi\\) cm. Find the radius of the circle (cm).",
+   "en": "An arc of \\(100^\\circ\\) has length \\(\\dfrac{5}{3}\\pi\\) cm. Find the radius of the circle (cm).",
+   "vi": "Một cung \\(100^\\circ\\) có độ dài \\(\\dfrac{5}{3}\\pi\\) cm. Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> (cm).",
+   "options": [],
+   "answer": "3",
+   "explain_en": "Answer: 3. \\(R=\\dfrac{180\\,l}{\\pi n}=\\dfrac{180\\cdot\\dfrac{5}{3}\\pi}{\\pi\\cdot100}=3\\).",
+   "explain_vi": "Đáp số: 3. \\(R=\\dfrac{180\\,l}{\\pi n}=\\dfrac{180\\cdot\\dfrac{5}{3}\\pi}{\\pi\\cdot100}=3\\).",
+   "images": [],
+   "id": "911f0c777fc8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "Find the length of an arc of \\(#^\\circ\\) on a circle of radius # cm, rounded to the nearest tenth (use the \\(\\pi\\) key).",
+   "en": "Find the length of an arc of \\(119^\\circ\\) on a circle of radius 5 cm, rounded to the nearest tenth (use the \\(\\pi\\) key).",
+   "vi": "Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"arc length\">độ dài cung</b> \\(119^\\circ\\) của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 5 cm (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"round to the nearest tenth\">làm tròn đến hàng phần mười</b>, dùng phím \\(\\pi\\)).",
+   "options": [],
+   "answer": "10.4",
+   "explain_en": "Answer: 10.4. \\(l=\\dfrac{\\pi\\cdot5\\cdot119}{180}\\approx 10.4\\) cm.",
+   "explain_vi": "Đáp số: 10,4. \\(l=\\dfrac{\\pi\\cdot5\\cdot119}{180}\\approx 10{,}4\\) cm.",
+   "images": [],
+   "id": "0a25aa45fedc",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D1",
+   "type": "mcq",
+   "form": "A sector with central angle \\(#^\\circ\\) is what fraction of the whole disk?",
+   "en": "A sector with central angle \\(20^\\circ\\) is what fraction of the whole disk?",
+   "vi": "Hình quạt có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"central angle\">góc ở tâm</b> \\(20^\\circ\\) chiếm bao nhiêu phần của cả hình tròn?",
+   "options": [
+    "\\(\\dfrac{1}{18}\\)",
+    "\\(\\dfrac{17}{18}\\)",
+    "\\(\\dfrac{1}{9}\\)",
+    "\\(\\dfrac{1}{5}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\dfrac{20}{360}=\\dfrac{1}{18}\\).",
+   "explain_vi": "Đáp án a. \\(\\dfrac{20}{360}=\\dfrac{1}{18}\\).",
+   "images": [],
+   "id": "e2d45d238ac3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Find the circumference of a circle with radius # cm.",
+   "en": "Find the circumference of a circle with radius 17 cm.",
+   "vi": "Tính chu vi (độ dài <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b>) của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 17 cm.",
+   "options": [
+    "\\(68\\pi\\text{ cm}\\)",
+    "\\(289\\pi\\text{ cm}\\)",
+    "\\(17\\pi\\text{ cm}\\)",
+    "\\(34\\pi\\text{ cm}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(C=2\\pi R=34\\pi\\) cm.",
+   "explain_vi": "Đáp án d. \\(C=2\\pi R=34\\pi\\) cm.",
+   "images": [],
+   "id": "1f456fc9389a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Which formula gives the arc length \\(l\\) of an arc of \\(n^\\circ\\) (radius \\(R\\))?",
+   "en": "Which formula gives the arc length \\(l\\) of an arc of \\(n^\\circ\\) (radius \\(R\\))?",
+   "vi": "Công thức nào cho độ dài \\(l\\) của cung \\(n^\\circ\\) (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> \\(R\\))?",
+   "options": [
+    "\\(\\dfrac{\\pi Rn}{180}\\)",
+    "\\(\\dfrac{\\pi R^2n}{360}\\)",
+    "\\(\\pi\\left(R^2-r^2\\right)\\)",
+    "\\(2\\pi R\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Arc: \\(\\dfrac{\\pi Rn}{180}\\); sector: \\(\\dfrac{\\pi R^2n}{360}\\); annulus: \\(\\pi(R^2-r^2)\\).",
+   "explain_vi": "Đáp án a. Cung: \\(\\dfrac{\\pi Rn}{180}\\); hình quạt: \\(\\dfrac{\\pi R^2n}{360}\\); vành khuyên: \\(\\pi(R^2-r^2)\\).",
+   "images": [],
+   "id": "f0e697692b9a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D2",
+   "type": "mcq",
+   "form": "A circle has diameter # cm. Find the length of an arc of \\(#^\\circ\\).",
+   "en": "A circle has diameter 6 cm. Find the length of an arc of \\(150^\\circ\\).",
+   "vi": "Một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diameter\">đường kính</b> 6 cm. Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"arc length\">độ dài cung</b> \\(150^\\circ\\).",
+   "options": [
+    "\\(\\dfrac{5}{4}\\pi\\text{ cm}\\)",
+    "\\(10\\pi\\text{ cm}\\)",
+    "\\(\\dfrac{5}{2}\\pi\\text{ cm}\\)",
+    "\\(5\\pi\\text{ cm}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(R=3\\); \\(l=\\dfrac{\\pi\\cdot3\\cdot150}{180}=\\dfrac{5}{2}\\pi\\) cm.",
+   "explain_vi": "Đáp án c. \\(R=3\\); \\(l=\\dfrac{\\pi\\cdot3\\cdot150}{180}=\\dfrac{5}{2}\\pi\\) cm.",
+   "images": [],
+   "id": "27a4101728c7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D2",
+   "type": "mcq",
+   "form": "A disk of radius # cm is cut along radii; the cut piece has central angle \\(#^\\circ\\). Find its area.",
+   "en": "A disk of radius 10 cm is cut along radii; the cut piece has central angle \\(270^\\circ\\). Find its area.",
+   "vi": "Cắt một hình tròn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 10 cm theo hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> được một hình quạt có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"central angle\">góc ở tâm</b> \\(270^\\circ\\). Tính diện tích hình quạt đó.",
+   "options": [
+    "\\(75\\pi\\text{ cm}^2\\)",
+    "\\(15\\pi\\text{ cm}^2\\)",
+    "\\(25\\pi\\text{ cm}^2\\)",
+    "\\(100\\pi\\text{ cm}^2\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(S=\\dfrac{270}{360}\\cdot\\pi\\cdot10^2=75\\pi\\) cm².",
+   "explain_vi": "Đáp án a. \\(S=\\dfrac{270}{360}\\cdot\\pi\\cdot10^2=75\\pi\\) cm².",
+   "images": [],
+   "id": "c1134063a47b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D2",
+   "type": "mcq",
+   "form": "A sector has radius # cm and arc length \\(\\dfrac{#}{#}\\pi\\) cm. Find its area.",
+   "en": "A sector has radius 13 cm and arc length \\(\\dfrac{26}{9}\\pi\\) cm. Find its area.",
+   "vi": "Một hình quạt có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 13 cm và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"arc length\">độ dài cung</b> \\(\\dfrac{26}{9}\\pi\\) cm. Tính diện tích hình quạt.",
+   "options": [
+    "\\(\\dfrac{2197}{9}\\pi\\text{ cm}^2\\)",
+    "\\(\\dfrac{26}{9}\\pi\\text{ cm}^2\\)",
+    "\\(\\dfrac{169}{9}\\pi\\text{ cm}^2\\)",
+    "\\(\\dfrac{338}{9}\\pi\\text{ cm}^2\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(S=\\dfrac{lR}{2}=\\dfrac{\\dfrac{26}{9}\\pi\\cdot13}{2}=\\dfrac{169}{9}\\pi\\) cm².",
+   "explain_vi": "Đáp án c. \\(S=\\dfrac{lR}{2}=\\dfrac{\\dfrac{26}{9}\\pi\\cdot13}{2}=\\dfrac{169}{9}\\pi\\) cm².",
+   "images": [],
+   "id": "93ca19fdf7b4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D3",
+   "type": "mcq",
+   "form": "A circular garden has radius # m. A path # m wide is built all around its outside. Find the area of the path (use \\(\\pi\\approx#\\)).",
+   "en": "A circular garden has radius 11 m. A path 2 m wide is built all around its outside. Find the area of the path (use \\(\\pi\\approx3.14\\)).",
+   "vi": "Một vườn hoa hình tròn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 11 m. Người ta làm một lối đi rộng 2 m bao quanh bên ngoài vườn. Tính diện tích lối đi (lấy \\(\\pi\\approx3{,}14\\)).",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(150.72\\text{ m}^2\\)</span><span class=\"vi\">\\(150{,}72\\text{ m}^2\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(138.16\\text{ m}^2\\)</span><span class=\"vi\">\\(138{,}16\\text{ m}^2\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(530.66\\text{ m}^2\\)</span><span class=\"vi\">\\(530{,}66\\text{ m}^2\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(12.56\\text{ m}^2\\)</span><span class=\"vi\">\\(12{,}56\\text{ m}^2\\)</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Outer radius \\(13\\) m; \\(S=3.14\\left(13^2-11^2\\right)=150.72\\) m².",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">Bán kính</b> ngoài \\(13\\) m; \\(S=3{,}14\\left(13^2-11^2\\right)=150{,}72\\) m².",
+   "images": [],
+   "id": "561054854b73",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D3",
+   "type": "mcq",
+   "form": "A sector with central angle \\(#^\\circ\\) has area \\(#\\pi\\) cm². Find its radius.",
+   "en": "A sector with central angle \\(90^\\circ\\) has area \\(16\\pi\\) cm². Find its radius.",
+   "vi": "Một hình quạt có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"central angle\">góc ở tâm</b> \\(90^\\circ\\) và diện tích \\(16\\pi\\) cm². Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> hình quạt.",
+   "options": [
+    "\\(16\\text{ cm}\\)",
+    "\\(64\\text{ cm}\\)",
+    "\\(8\\text{ cm}\\)",
+    "\\(9\\text{ cm}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(R^2=\\dfrac{360\\,S}{\\pi n}=64\\Rightarrow R=8\\) cm.",
+   "explain_vi": "Đáp án c. \\(R^2=\\dfrac{360\\,S}{\\pi n}=64\\Rightarrow R=8\\) cm.",
+   "images": [],
+   "id": "f37f5da8709b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D3",
+   "type": "mcq",
+   "form": "On a circle of radius # cm, an arc has length \\(\\dfrac{#}{#}\\pi\\) cm. Find its measure.",
+   "en": "On a circle of radius 27 cm, an arc has length \\(\\dfrac{9}{2}\\pi\\) cm. Find its measure.",
+   "vi": "Trên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 27 cm, một cung có độ dài \\(\\dfrac{9}{2}\\pi\\) cm. Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"measure of an arc\">số đo cung</b> đó.",
+   "options": [
+    "\\(330^\\circ\\)",
+    "\\(15^\\circ\\)",
+    "\\(30^\\circ\\)",
+    "\\(60^\\circ\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(n=\\dfrac{180\\,l}{\\pi R}=\\dfrac{180\\cdot\\dfrac{9}{2}\\pi}{\\pi\\cdot27}=30\\).",
+   "explain_vi": "Đáp án c. \\(n=\\dfrac{180\\,l}{\\pi R}=\\dfrac{180\\cdot\\dfrac{9}{2}\\pi}{\\pi\\cdot27}=30\\).",
+   "images": [],
+   "id": "8f729bf2a929",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A circular pond of radius # m is surrounded by a paved ring # m wide. Paving costs # thousand dong per m². How much does the paving cost (use \\(\\pi\\approx#\\), in thousand dong)?",
+   "en": "A circular pond of radius 10 m is surrounded by a paved ring 1.5 m wide. Paving costs 200 thousand dong per m². How much does the paving cost (use \\(\\pi\\approx3.14\\), in thousand dong)?",
+   "vi": "Quanh một hồ nước hình tròn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 10 m người ta lát một vành đá rộng 1,5 m. Chi phí lát là 200 nghìn đồng/m². Tính chi phí lát (lấy \\(\\pi\\approx3{,}14\\), đơn vị nghìn đồng).",
+   "options": [
+    "\\(20253\\)",
+    "\\(18840\\)",
+    "\\(83053\\)",
+    "\\(1413\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Area \\(=3.14\\left(11.5^2-10^2\\right)=101.265\\) m²; cost \\(=101.265\\cdot200=20253\\) thousand dong.",
+   "explain_vi": "Đáp án a. Diện tích \\(=3{,}14\\left(11{,}5^2-10^2\\right)=101{,}265\\) m²; chi phí \\(=101{,}265\\cdot200=20253\\) nghìn đồng.",
+   "images": [],
+   "id": "e47d590be2ef",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A paper fan is a sector of radius # cm and central angle \\(#^\\circ\\); paper covers only the part outside the sector of radius # cm with the same center. Find the paper area.",
+   "en": "A paper fan is a sector of radius 23 cm and central angle \\(135^\\circ\\); paper covers only the part outside the sector of radius 7 cm with the same center. Find the paper area.",
+   "vi": "Một chiếc quạt giấy có dạng hình quạt <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 23 cm, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"central angle\">góc ở tâm</b> \\(135^\\circ\\); giấy chỉ dán phần nằm ngoài hình quạt cùng tâm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 7 cm. Tính diện tích phần giấy.",
+   "options": [
+    "\\(\\dfrac{1587}{8}\\pi\\text{ cm}^2\\)",
+    "\\(96\\pi\\text{ cm}^2\\)",
+    "\\(480\\pi\\text{ cm}^2\\)",
+    "\\(180\\pi\\text{ cm}^2\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(S=\\dfrac{\\pi\\left(23^2-7^2\\right)\\cdot135}{360}=180\\pi\\) cm².",
+   "explain_vi": "Đáp án d. \\(S=\\dfrac{\\pi\\left(23^2-7^2\\right)\\cdot135}{360}=180\\pi\\) cm².",
+   "images": [],
+   "id": "fac6c402df5d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A party hat is made by rolling a sector of radius # cm and central angle \\(#^\\circ\\) into a cone (no overlap). Find the radius of the base of the cone.",
+   "en": "A party hat is made by rolling a sector of radius 18 cm and central angle \\(72^\\circ\\) into a cone (no overlap). Find the radius of the base of the cone.",
+   "vi": "Một chiếc mũ sinh nhật được làm bằng cách cuộn hình quạt <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 18 cm, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"central angle\">góc ở tâm</b> \\(72^\\circ\\) thành hình nón (không chồng mép). Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> đáy của hình nón.",
+   "options": [
+    "\\(\\dfrac{9}{5}\\text{ cm}\\)",
+    "\\(\\dfrac{36}{5}\\text{ cm}\\)",
+    "\\(\\dfrac{41}{5}\\text{ cm}\\)",
+    "\\(\\dfrac{18}{5}\\text{ cm}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Arc length \\(=\\dfrac{\\pi\\cdot18\\cdot72}{180}=2\\pi r\\Rightarrow r=\\dfrac{18}{5}\\) cm.",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"arc length\">Độ dài cung</b> \\(=\\dfrac{\\pi\\cdot18\\cdot72}{180}=2\\pi r\\Rightarrow r=\\dfrac{18}{5}\\) cm.",
+   "images": [],
+   "id": "fedf7e310ffb",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Find the area of a sector with radius # cm and central angle \\(#^\\circ\\).",
+   "en": "Find the area of a sector with radius 13 cm and central angle \\(240^\\circ\\).",
+   "vi": "Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sector area\">diện tích hình quạt tròn</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 13 cm, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"central angle\">góc ở tâm</b> \\(240^\\circ\\).",
+   "options": [
+    "\\(\\dfrac{676}{3}\\pi\\text{ cm}^2\\)",
+    "\\(\\dfrac{26}{3}\\pi\\text{ cm}^2\\)",
+    "\\(\\dfrac{52}{3}\\pi\\text{ cm}^2\\)",
+    "\\(\\dfrac{338}{3}\\pi\\text{ cm}^2\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(S=\\dfrac{\\pi R^2n}{360}=\\dfrac{\\pi\\cdot13^2\\cdot240}{360}=\\dfrac{338}{3}\\pi\\) cm².",
+   "explain_vi": "Đáp án d. \\(S=\\dfrac{\\pi R^2n}{360}=\\dfrac{\\pi\\cdot13^2\\cdot240}{360}=\\dfrac{338}{3}\\pi\\) cm².",
+   "images": [],
+   "id": "8dfcced6c471",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Find the length of an arc of \\(#^\\circ\\) on a circle of radius # cm.",
+   "en": "Find the length of an arc of \\(300^\\circ\\) on a circle of radius 6 cm.",
+   "vi": "Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"arc length\">độ dài cung</b> \\(300^\\circ\\) của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 6 cm.",
+   "options": [
+    "\\(20\\pi\\text{ cm}\\)",
+    "\\(5\\pi\\text{ cm}\\)",
+    "\\(60\\pi\\text{ cm}\\)",
+    "\\(10\\pi\\text{ cm}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(l=\\dfrac{\\pi Rn}{180}=\\dfrac{\\pi\\cdot6\\cdot300}{180}=10\\pi\\) cm.",
+   "explain_vi": "Đáp án d. \\(l=\\dfrac{\\pi Rn}{180}=\\dfrac{\\pi\\cdot6\\cdot300}{180}=10\\pi\\) cm.",
+   "images": [],
+   "id": "041334872a12",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Two concentric circles have radii # cm and # cm. Find the area of the annulus between them.",
+   "en": "Two concentric circles have radii 10 cm and 5 cm. Find the area of the annulus between them.",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"concentric circles\">Hai đường tròn đồng tâm</b> có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 10 cm và 5 cm. Tính diện tích <b class=\"mbl-term\" tabindex=\"0\" data-en=\"annulus (pl. annuli)\">hình vành khuyên</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"limit\">giới hạn</b> bởi chúng.",
+   "options": [
+    "\\(10\\pi\\text{ cm}^2\\)",
+    "\\(75\\pi\\text{ cm}^2\\)",
+    "\\(25\\pi\\text{ cm}^2\\)",
+    "\\(125\\pi\\text{ cm}^2\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(S=\\pi\\left(R^2-r^2\\right)=\\pi\\left(10^2-5^2\\right)=75\\pi\\) cm².",
+   "explain_vi": "Đáp án b. \\(S=\\pi\\left(R^2-r^2\\right)=\\pi\\left(10^2-5^2\\right)=75\\pi\\) cm².",
+   "images": [],
+   "id": "369d05bc500f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "An arc of \\(#^\\circ\\) on a circle of radius # cm has length \\(\\dfrac{#}{#}\\pi\\) cm.",
+   "en": "An arc of \\(45^\\circ\\) on a circle of radius 13 cm has length \\(\\dfrac{13}{8}\\pi\\) cm.",
+   "vi": "Cung \\(45^\\circ\\) của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 13 cm có độ dài \\(\\dfrac{13}{8}\\pi\\) cm.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. \\(l=\\dfrac{\\pi\\cdot13\\cdot45}{180}=\\dfrac{13}{4}\\pi\\) cm.",
+   "explain_vi": "Sai. \\(l=\\dfrac{\\pi\\cdot13\\cdot45}{180}=\\dfrac{13}{4}\\pi\\) cm.",
+   "images": [],
+   "id": "79c1cfa2e82b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "If the radius of a sector (radius # cm, angle \\(#^\\circ\\)) is doubled and the angle is kept, its area is doubled.",
+   "en": "If the radius of a sector (radius 10 cm, angle \\(40^\\circ\\)) is doubled and the angle is kept, its area is doubled.",
+   "vi": "Nếu tăng gấp đôi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> của một hình quạt (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 10 cm, góc \\(40^\\circ\\)) và giữ nguyên góc thì diện tích hình quạt tăng gấp đôi.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. \\(S=\\dfrac{\\pi R^2n}{360}\\) is proportional to \\(n\\), but it grows like \\(R^2\\): doubling \\(R\\) multiplies \\(S\\) by 4.",
+   "explain_vi": "Sai. \\(S=\\dfrac{\\pi R^2n}{360}\\) tỉ lệ thuận với \\(n\\) nhưng tỉ lệ với \\(R^2\\) (gấp đôi \\(R\\) thì \\(S\\) gấp 4).",
+   "images": [],
+   "id": "c138ccd5f6df",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "An arc of \\(#^\\circ\\) has length \\(\\dfrac{#}{#}\\pi\\) cm. Find the radius of the circle (cm).",
+   "en": "An arc of \\(30^\\circ\\) has length \\(\\dfrac{7}{6}\\pi\\) cm. Find the radius of the circle (cm).",
+   "vi": "Một cung \\(30^\\circ\\) có độ dài \\(\\dfrac{7}{6}\\pi\\) cm. Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> (cm).",
+   "options": [],
+   "answer": "7",
+   "explain_en": "Answer: 7. \\(R=\\dfrac{180\\,l}{\\pi n}=\\dfrac{180\\cdot\\dfrac{7}{6}\\pi}{\\pi\\cdot30}=7\\).",
+   "explain_vi": "Đáp số: 7. \\(R=\\dfrac{180\\,l}{\\pi n}=\\dfrac{180\\cdot\\dfrac{7}{6}\\pi}{\\pi\\cdot30}=7\\).",
+   "images": [],
+   "id": "da0a26309f81",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "Find the length of an arc of \\(#^\\circ\\) on a circle of radius # cm, rounded to the nearest tenth (use the \\(\\pi\\) key).",
+   "en": "Find the length of an arc of \\(173^\\circ\\) on a circle of radius 14 cm, rounded to the nearest tenth (use the \\(\\pi\\) key).",
+   "vi": "Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"arc length\">độ dài cung</b> \\(173^\\circ\\) của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 14 cm (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"round to the nearest tenth\">làm tròn đến hàng phần mười</b>, dùng phím \\(\\pi\\)).",
+   "options": [],
+   "answer": "42.3",
+   "explain_en": "Answer: 42.3. \\(l=\\dfrac{\\pi\\cdot14\\cdot173}{180}\\approx 42.3\\) cm.",
+   "explain_vi": "Đáp số: 42,3. \\(l=\\dfrac{\\pi\\cdot14\\cdot173}{180}\\approx 42{,}3\\) cm.",
+   "images": [],
+   "id": "e4434d7b884b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D1",
+   "type": "mcq",
+   "form": "A sector with central angle \\(#^\\circ\\) is what fraction of the whole disk?",
+   "en": "A sector with central angle \\(144^\\circ\\) is what fraction of the whole disk?",
+   "vi": "Hình quạt có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"central angle\">góc ở tâm</b> \\(144^\\circ\\) chiếm bao nhiêu phần của cả hình tròn?",
+   "options": [
+    "\\(\\dfrac{4}{5}\\)",
+    "\\(\\dfrac{2}{5}\\)",
+    "\\(\\dfrac{3}{5}\\)",
+    "\\(\\dfrac{36}{25}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\dfrac{144}{360}=\\dfrac{2}{5}\\).",
+   "explain_vi": "Đáp án b. \\(\\dfrac{144}{360}=\\dfrac{2}{5}\\).",
+   "images": [],
+   "id": "369c0948e86c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Find the circumference of a circle with radius # cm.",
+   "en": "Find the circumference of a circle with radius 35 cm.",
+   "vi": "Tính chu vi (độ dài <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b>) của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 35 cm.",
+   "options": [
+    "\\(70\\pi\\text{ cm}\\)",
+    "\\(35\\pi\\text{ cm}\\)",
+    "\\(1225\\pi\\text{ cm}\\)",
+    "\\(140\\pi\\text{ cm}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(C=2\\pi R=70\\pi\\) cm.",
+   "explain_vi": "Đáp án a. \\(C=2\\pi R=70\\pi\\) cm.",
+   "images": [],
+   "id": "ef1545f9dd39",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Which formula gives the area of a sector with central angle \\(n^\\circ\\) (radius \\(R\\))?",
+   "en": "Which formula gives the area of a sector with central angle \\(n^\\circ\\) (radius \\(R\\))?",
+   "vi": "Công thức nào cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sector area\">diện tích hình quạt tròn</b> có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"central angle\">góc ở tâm</b> \\(n^\\circ\\) (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> \\(R\\))?",
+   "options": [
+    "\\(\\dfrac{\\pi R^2n}{360}\\)",
+    "\\(2\\pi R\\)",
+    "\\(\\dfrac{\\pi Rn}{180}\\)",
+    "\\(\\pi\\left(R^2-r^2\\right)\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Arc: \\(\\dfrac{\\pi Rn}{180}\\); sector: \\(\\dfrac{\\pi R^2n}{360}\\); annulus: \\(\\pi(R^2-r^2)\\).",
+   "explain_vi": "Đáp án a. Cung: \\(\\dfrac{\\pi Rn}{180}\\); hình quạt: \\(\\dfrac{\\pi R^2n}{360}\\); vành khuyên: \\(\\pi(R^2-r^2)\\).",
+   "images": [],
+   "id": "d1de572f3f57",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D2",
+   "type": "mcq",
+   "form": "A circle has diameter # cm. Find the length of an arc of \\(#^\\circ\\).",
+   "en": "A circle has diameter 34 cm. Find the length of an arc of \\(240^\\circ\\).",
+   "vi": "Một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diameter\">đường kính</b> 34 cm. Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"arc length\">độ dài cung</b> \\(240^\\circ\\).",
+   "options": [
+    "\\(\\dfrac{272}{3}\\pi\\text{ cm}\\)",
+    "\\(\\dfrac{136}{3}\\pi\\text{ cm}\\)",
+    "\\(\\dfrac{34}{3}\\pi\\text{ cm}\\)",
+    "\\(\\dfrac{68}{3}\\pi\\text{ cm}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(R=17\\); \\(l=\\dfrac{\\pi\\cdot17\\cdot240}{180}=\\dfrac{68}{3}\\pi\\) cm.",
+   "explain_vi": "Đáp án d. \\(R=17\\); \\(l=\\dfrac{\\pi\\cdot17\\cdot240}{180}=\\dfrac{68}{3}\\pi\\) cm.",
+   "images": [],
+   "id": "fbb652425dec",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D2",
+   "type": "mcq",
+   "form": "A disk of radius # cm is cut along radii; the cut piece has central angle \\(#^\\circ\\). Find its area.",
+   "en": "A disk of radius 5 cm is cut along radii; the cut piece has central angle \\(180^\\circ\\). Find its area.",
+   "vi": "Cắt một hình tròn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 5 cm theo hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> được một hình quạt có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"central angle\">góc ở tâm</b> \\(180^\\circ\\). Tính diện tích hình quạt đó.",
+   "options": [
+    "\\(5\\pi\\text{ cm}^2\\)",
+    "\\(25\\pi\\text{ cm}^2\\)",
+    "\\(\\dfrac{27}{2}\\pi\\text{ cm}^2\\)",
+    "\\(\\dfrac{25}{2}\\pi\\text{ cm}^2\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(S=\\dfrac{180}{360}\\cdot\\pi\\cdot5^2=\\dfrac{25}{2}\\pi\\) cm².",
+   "explain_vi": "Đáp án d. \\(S=\\dfrac{180}{360}\\cdot\\pi\\cdot5^2=\\dfrac{25}{2}\\pi\\) cm².",
+   "images": [],
+   "id": "a5e2b565d78c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D2",
+   "type": "mcq",
+   "form": "A sector has radius # cm and arc length \\(\\dfrac{#}{#}\\pi\\) cm. Find its area.",
+   "en": "A sector has radius 3 cm and arc length \\(\\dfrac{9}{2}\\pi\\) cm. Find its area.",
+   "vi": "Một hình quạt có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 3 cm và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"arc length\">độ dài cung</b> \\(\\dfrac{9}{2}\\pi\\) cm. Tính diện tích hình quạt.",
+   "options": [
+    "\\(\\dfrac{9}{2}\\pi\\text{ cm}^2\\)",
+    "\\(\\dfrac{81}{4}\\pi\\text{ cm}^2\\)",
+    "\\(\\dfrac{27}{2}\\pi\\text{ cm}^2\\)",
+    "\\(\\dfrac{27}{4}\\pi\\text{ cm}^2\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(S=\\dfrac{lR}{2}=\\dfrac{\\dfrac{9}{2}\\pi\\cdot3}{2}=\\dfrac{27}{4}\\pi\\) cm².",
+   "explain_vi": "Đáp án d. \\(S=\\dfrac{lR}{2}=\\dfrac{\\dfrac{9}{2}\\pi\\cdot3}{2}=\\dfrac{27}{4}\\pi\\) cm².",
+   "images": [],
+   "id": "e0ab21b89dda",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D3",
+   "type": "mcq",
+   "form": "A circular garden has radius # m. A path # m wide is built all around its outside. Find the area of the path (use \\(\\pi\\approx#\\)).",
+   "en": "A circular garden has radius 7.5 m. A path 2 m wide is built all around its outside. Find the area of the path (use \\(\\pi\\approx3.14\\)).",
+   "vi": "Một vườn hoa hình tròn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 7,5 m. Người ta làm một lối đi rộng 2 m bao quanh bên ngoài vườn. Tính diện tích lối đi (lấy \\(\\pi\\approx3{,}14\\)).",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(94.20\\text{ m}^2\\)</span><span class=\"vi\">\\(94{,}20\\text{ m}^2\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(106.76\\text{ m}^2\\)</span><span class=\"vi\">\\(106{,}76\\text{ m}^2\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(12.56\\text{ m}^2\\)</span><span class=\"vi\">\\(12{,}56\\text{ m}^2\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(283.38\\text{ m}^2\\)</span><span class=\"vi\">\\(283{,}38\\text{ m}^2\\)</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Outer radius \\(9.5\\) m; \\(S=3.14\\left(9.5^2-7.5^2\\right)=106.76\\) m².",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">Bán kính</b> ngoài \\(9{,}5\\) m; \\(S=3{,}14\\left(9{,}5^2-7{,}5^2\\right)=106{,}76\\) m².",
+   "images": [],
+   "id": "a0c0d83ae47d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D3",
+   "type": "mcq",
+   "form": "A sector with central angle \\(#^\\circ\\) has area \\(\\dfrac{#}{#}\\pi\\) cm². Find its radius.",
+   "en": "A sector with central angle \\(120^\\circ\\) has area \\(\\dfrac{121}{3}\\pi\\) cm². Find its radius.",
+   "vi": "Một hình quạt có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"central angle\">góc ở tâm</b> \\(120^\\circ\\) và diện tích \\(\\dfrac{121}{3}\\pi\\) cm². Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> hình quạt.",
+   "options": [
+    "\\(12\\text{ cm}\\)",
+    "\\(121\\text{ cm}\\)",
+    "\\(22\\text{ cm}\\)",
+    "\\(11\\text{ cm}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(R^2=\\dfrac{360\\,S}{\\pi n}=121\\Rightarrow R=11\\) cm.",
+   "explain_vi": "Đáp án d. \\(R^2=\\dfrac{360\\,S}{\\pi n}=121\\Rightarrow R=11\\) cm.",
+   "images": [],
+   "id": "a21499bd346b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D3",
+   "type": "mcq",
+   "form": "On a circle of radius # cm, an arc has length \\(\\dfrac{#}{#}\\pi\\) cm. Find its measure.",
+   "en": "On a circle of radius 29 cm, an arc has length \\(\\dfrac{116}{9}\\pi\\) cm. Find its measure.",
+   "vi": "Trên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 29 cm, một cung có độ dài \\(\\dfrac{116}{9}\\pi\\) cm. Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"measure of an arc\">số đo cung</b> đó.",
+   "options": [
+    "\\(80^\\circ\\)",
+    "\\(280^\\circ\\)",
+    "\\(160^\\circ\\)",
+    "\\(40^\\circ\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(n=\\dfrac{180\\,l}{\\pi R}=\\dfrac{180\\cdot\\dfrac{116}{9}\\pi}{\\pi\\cdot29}=80\\).",
+   "explain_vi": "Đáp án a. \\(n=\\dfrac{180\\,l}{\\pi R}=\\dfrac{180\\cdot\\dfrac{116}{9}\\pi}{\\pi\\cdot29}=80\\).",
+   "images": [],
+   "id": "b7dce563917b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A circular pond of radius # m is surrounded by a paved ring # m wide. Paving costs # thousand dong per m². How much does the paving cost (use \\(\\pi\\approx#\\), in thousand dong)?",
+   "en": "A circular pond of radius 3 m is surrounded by a paved ring 1.5 m wide. Paving costs 240 thousand dong per m². How much does the paving cost (use \\(\\pi\\approx3.14\\), in thousand dong)?",
+   "vi": "Quanh một hồ nước hình tròn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 3 m người ta lát một vành đá rộng 1,5 m. Chi phí lát là 240 nghìn đồng/m². Tính chi phí lát (lấy \\(\\pi\\approx3{,}14\\), đơn vị nghìn đồng).",
+   "options": [
+    "\\(1696\\)",
+    "\\(15260\\)",
+    "\\(8478\\)",
+    "\\(6782\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Area \\(=3.14\\left(4.5^2-3^2\\right)=35.325\\) m²; cost \\(=35.325\\cdot240=8478\\) thousand dong.",
+   "explain_vi": "Đáp án c. Diện tích \\(=3{,}14\\left(4{,}5^2-3^2\\right)=35{,}325\\) m²; chi phí \\(=35{,}325\\cdot240=8478\\) nghìn đồng.",
+   "images": [],
+   "id": "e2d8fab89218",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A paper fan is a sector of radius # cm and central angle \\(#^\\circ\\); paper covers only the part outside the sector of radius # cm with the same center. Find the paper area.",
+   "en": "A paper fan is a sector of radius 18 cm and central angle \\(90^\\circ\\); paper covers only the part outside the sector of radius 8 cm with the same center. Find the paper area.",
+   "vi": "Một chiếc quạt giấy có dạng hình quạt <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 18 cm, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"central angle\">góc ở tâm</b> \\(90^\\circ\\); giấy chỉ dán phần nằm ngoài hình quạt cùng tâm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 8 cm. Tính diện tích phần giấy.",
+   "options": [
+    "\\(260\\pi\\text{ cm}^2\\)",
+    "\\(81\\pi\\text{ cm}^2\\)",
+    "\\(25\\pi\\text{ cm}^2\\)",
+    "\\(65\\pi\\text{ cm}^2\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(S=\\dfrac{\\pi\\left(18^2-8^2\\right)\\cdot90}{360}=65\\pi\\) cm².",
+   "explain_vi": "Đáp án d. \\(S=\\dfrac{\\pi\\left(18^2-8^2\\right)\\cdot90}{360}=65\\pi\\) cm².",
+   "images": [],
+   "id": "808f622da3cc",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A party hat is made by rolling a sector of radius # cm and central angle \\(#^\\circ\\) into a cone (no overlap). Find the radius of the base of the cone.",
+   "en": "A party hat is made by rolling a sector of radius 26 cm and central angle \\(144^\\circ\\) into a cone (no overlap). Find the radius of the base of the cone.",
+   "vi": "Một chiếc mũ sinh nhật được làm bằng cách cuộn hình quạt <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 26 cm, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"central angle\">góc ở tâm</b> \\(144^\\circ\\) thành hình nón (không chồng mép). Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> đáy của hình nón.",
+   "options": [
+    "\\(\\dfrac{109}{5}\\text{ cm}\\)",
+    "\\(\\dfrac{52}{5}\\text{ cm}\\)",
+    "\\(\\dfrac{104}{5}\\text{ cm}\\)",
+    "\\(\\dfrac{26}{5}\\text{ cm}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Arc length \\(=\\dfrac{\\pi\\cdot26\\cdot144}{180}=2\\pi r\\Rightarrow r=\\dfrac{52}{5}\\) cm.",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"arc length\">Độ dài cung</b> \\(=\\dfrac{\\pi\\cdot26\\cdot144}{180}=2\\pi r\\Rightarrow r=\\dfrac{52}{5}\\) cm.",
+   "images": [],
+   "id": "a35e091ca587",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Find the area of a sector with radius # cm and central angle \\(#^\\circ\\).",
+   "en": "Find the area of a sector with radius 8 cm and central angle \\(180^\\circ\\).",
+   "vi": "Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sector area\">diện tích hình quạt tròn</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 8 cm, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"central angle\">góc ở tâm</b> \\(180^\\circ\\).",
+   "options": [
+    "\\(64\\pi\\text{ cm}^2\\)",
+    "\\(4\\pi\\text{ cm}^2\\)",
+    "\\(8\\pi\\text{ cm}^2\\)",
+    "\\(32\\pi\\text{ cm}^2\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(S=\\dfrac{\\pi R^2n}{360}=\\dfrac{\\pi\\cdot8^2\\cdot180}{360}=32\\pi\\) cm².",
+   "explain_vi": "Đáp án d. \\(S=\\dfrac{\\pi R^2n}{360}=\\dfrac{\\pi\\cdot8^2\\cdot180}{360}=32\\pi\\) cm².",
+   "images": [],
+   "id": "d4cdd96d5fac",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Find the length of an arc of \\(#^\\circ\\) on a circle of radius # cm.",
+   "en": "Find the length of an arc of \\(210^\\circ\\) on a circle of radius 12 cm.",
+   "vi": "Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"arc length\">độ dài cung</b> \\(210^\\circ\\) của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 12 cm.",
+   "options": [
+    "\\(7\\pi\\text{ cm}\\)",
+    "\\(168\\pi\\text{ cm}\\)",
+    "\\(14\\pi\\text{ cm}\\)",
+    "\\(28\\pi\\text{ cm}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(l=\\dfrac{\\pi Rn}{180}=\\dfrac{\\pi\\cdot12\\cdot210}{180}=14\\pi\\) cm.",
+   "explain_vi": "Đáp án c. \\(l=\\dfrac{\\pi Rn}{180}=\\dfrac{\\pi\\cdot12\\cdot210}{180}=14\\pi\\) cm.",
+   "images": [],
+   "id": "956c5a71bad1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Two concentric circles have radii # cm and # cm. Find the area of the annulus between them.",
+   "en": "Two concentric circles have radii 17 cm and 11 cm. Find the area of the annulus between them.",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"concentric circles\">Hai đường tròn đồng tâm</b> có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 17 cm và 11 cm. Tính diện tích <b class=\"mbl-term\" tabindex=\"0\" data-en=\"annulus (pl. annuli)\">hình vành khuyên</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"limit\">giới hạn</b> bởi chúng.",
+   "options": [
+    "\\(36\\pi\\text{ cm}^2\\)",
+    "\\(410\\pi\\text{ cm}^2\\)",
+    "\\(168\\pi\\text{ cm}^2\\)",
+    "\\(12\\pi\\text{ cm}^2\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(S=\\pi\\left(R^2-r^2\\right)=\\pi\\left(17^2-11^2\\right)=168\\pi\\) cm².",
+   "explain_vi": "Đáp án c. \\(S=\\pi\\left(R^2-r^2\\right)=\\pi\\left(17^2-11^2\\right)=168\\pi\\) cm².",
+   "images": [],
+   "id": "3c8216208327",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "An arc of \\(#^\\circ\\) on a circle of radius # cm has length \\(\\dfrac{#}{#}\\pi\\) cm.",
+   "en": "An arc of \\(36^\\circ\\) on a circle of radius 11 cm has length \\(\\dfrac{11}{10}\\pi\\) cm.",
+   "vi": "Cung \\(36^\\circ\\) của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 11 cm có độ dài \\(\\dfrac{11}{10}\\pi\\) cm.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. \\(l=\\dfrac{\\pi\\cdot11\\cdot36}{180}=\\dfrac{11}{5}\\pi\\) cm.",
+   "explain_vi": "Sai. \\(l=\\dfrac{\\pi\\cdot11\\cdot36}{180}=\\dfrac{11}{5}\\pi\\) cm.",
+   "images": [],
+   "id": "f3425ffb0af2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "If the central angle of a sector (radius # cm, angle \\(#^\\circ\\)) is doubled and the radius is kept, its area is doubled.",
+   "en": "If the central angle of a sector (radius 10 cm, angle \\(120^\\circ\\)) is doubled and the radius is kept, its area is doubled.",
+   "vi": "Nếu tăng gấp đôi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"central angle\">góc ở tâm</b> của một hình quạt (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 10 cm, góc \\(120^\\circ\\)) và giữ nguyên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> thì diện tích hình quạt tăng gấp đôi.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. \\(S=\\dfrac{\\pi R^2n}{360}\\) is proportional to \\(n\\), but it grows like \\(R^2\\): doubling \\(R\\) multiplies \\(S\\) by 4.",
+   "explain_vi": "Đúng. \\(S=\\dfrac{\\pi R^2n}{360}\\) tỉ lệ thuận với \\(n\\) nhưng tỉ lệ với \\(R^2\\) (gấp đôi \\(R\\) thì \\(S\\) gấp 4).",
+   "images": [],
+   "id": "6635c1241289",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "An arc of \\(#^\\circ\\) has length \\(\\dfrac{#}{#}\\pi\\) cm. Find the radius of the circle (cm).",
+   "en": "An arc of \\(160^\\circ\\) has length \\(\\dfrac{16}{9}\\pi\\) cm. Find the radius of the circle (cm).",
+   "vi": "Một cung \\(160^\\circ\\) có độ dài \\(\\dfrac{16}{9}\\pi\\) cm. Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> (cm).",
+   "options": [],
+   "answer": "2",
+   "explain_en": "Answer: 2. \\(R=\\dfrac{180\\,l}{\\pi n}=\\dfrac{180\\cdot\\dfrac{16}{9}\\pi}{\\pi\\cdot160}=2\\).",
+   "explain_vi": "Đáp số: 2. \\(R=\\dfrac{180\\,l}{\\pi n}=\\dfrac{180\\cdot\\dfrac{16}{9}\\pi}{\\pi\\cdot160}=2\\).",
+   "images": [],
+   "id": "c7fc04f13e0e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Find the length of an arc of \\(#^\\circ\\) on a circle of radius # cm, rounded to the nearest tenth (use the \\(\\pi\\) key).",
+   "en": "Find the length of an arc of \\(98^\\circ\\) on a circle of radius 19 cm, rounded to the nearest tenth (use the \\(\\pi\\) key).",
+   "vi": "Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"arc length\">độ dài cung</b> \\(98^\\circ\\) của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 19 cm (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"round to the nearest tenth\">làm tròn đến hàng phần mười</b>, dùng phím \\(\\pi\\)).",
+   "options": [],
+   "answer": "32.5",
+   "explain_en": "Answer: 32.5. \\(l=\\dfrac{\\pi\\cdot19\\cdot98}{180}\\approx 32.5\\) cm.",
+   "explain_vi": "Đáp số: 32,5. \\(l=\\dfrac{\\pi\\cdot19\\cdot98}{180}\\approx 32{,}5\\) cm.",
+   "images": [],
+   "id": "c3380ef6e4cd",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D1",
+   "type": "mcq",
+   "form": "A sector with central angle \\(#^\\circ\\) is what fraction of the whole disk?",
+   "en": "A sector with central angle \\(270^\\circ\\) is what fraction of the whole disk?",
+   "vi": "Hình quạt có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"central angle\">góc ở tâm</b> \\(270^\\circ\\) chiếm bao nhiêu phần của cả hình tròn?",
+   "options": [
+    "\\(\\dfrac{3}{4}\\)",
+    "\\(\\dfrac{1}{4}\\)",
+    "\\(\\dfrac{3}{2}\\)",
+    "\\(\\dfrac{27}{10}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\dfrac{270}{360}=\\dfrac{3}{4}\\).",
+   "explain_vi": "Đáp án a. \\(\\dfrac{270}{360}=\\dfrac{3}{4}\\).",
+   "images": [],
+   "id": "a43c75b47b5a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Find the circumference of a circle with radius # cm.",
+   "en": "Find the circumference of a circle with radius 12 cm.",
+   "vi": "Tính chu vi (độ dài <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b>) của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 12 cm.",
+   "options": [
+    "\\(48\\pi\\text{ cm}\\)",
+    "\\(144\\pi\\text{ cm}\\)",
+    "\\(24\\pi\\text{ cm}\\)",
+    "\\(12\\pi\\text{ cm}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(C=2\\pi R=24\\pi\\) cm.",
+   "explain_vi": "Đáp án c. \\(C=2\\pi R=24\\pi\\) cm.",
+   "images": [],
+   "id": "bef32aa8fc4f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Which formula gives the area of the annulus between circles of radii \\(R\\gt r\\) (radius \\(R\\))?",
+   "en": "Which formula gives the area of the annulus between circles of radii \\(R\\gt r\\) (radius \\(R\\))?",
+   "vi": "Công thức nào cho diện tích <b class=\"mbl-term\" tabindex=\"0\" data-en=\"annulus (pl. annuli)\">hình vành khuyên</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"limit\">giới hạn</b> bởi hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> \\(R\\gt r\\) (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> \\(R\\))?",
+   "options": [
+    "\\(\\dfrac{\\pi R^2n}{360}\\)",
+    "\\(2\\pi R\\)",
+    "\\(\\dfrac{\\pi Rn}{180}\\)",
+    "\\(\\pi\\left(R^2-r^2\\right)\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Arc: \\(\\dfrac{\\pi Rn}{180}\\); sector: \\(\\dfrac{\\pi R^2n}{360}\\); annulus: \\(\\pi(R^2-r^2)\\).",
+   "explain_vi": "Đáp án d. Cung: \\(\\dfrac{\\pi Rn}{180}\\); hình quạt: \\(\\dfrac{\\pi R^2n}{360}\\); vành khuyên: \\(\\pi(R^2-r^2)\\).",
+   "images": [],
+   "id": "73ebd69c3e4c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D2",
+   "type": "mcq",
+   "form": "A circle has diameter # cm. Find the length of an arc of \\(#^\\circ\\).",
+   "en": "A circle has diameter 4 cm. Find the length of an arc of \\(80^\\circ\\).",
+   "vi": "Một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diameter\">đường kính</b> 4 cm. Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"arc length\">độ dài cung</b> \\(80^\\circ\\).",
+   "options": [
+    "\\(\\dfrac{16}{9}\\pi\\text{ cm}\\)",
+    "\\(\\dfrac{32}{9}\\pi\\text{ cm}\\)",
+    "\\(\\dfrac{4}{9}\\pi\\text{ cm}\\)",
+    "\\(\\dfrac{8}{9}\\pi\\text{ cm}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(R=2\\); \\(l=\\dfrac{\\pi\\cdot2\\cdot80}{180}=\\dfrac{8}{9}\\pi\\) cm.",
+   "explain_vi": "Đáp án d. \\(R=2\\); \\(l=\\dfrac{\\pi\\cdot2\\cdot80}{180}=\\dfrac{8}{9}\\pi\\) cm.",
+   "images": [],
+   "id": "eb2f7ac74f61",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D2",
+   "type": "mcq",
+   "form": "A disk of radius # cm is cut along radii; the cut piece has central angle \\(#^\\circ\\). Find its area.",
+   "en": "A disk of radius 11 cm is cut along radii; the cut piece has central angle \\(90^\\circ\\). Find its area.",
+   "vi": "Cắt một hình tròn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 11 cm theo hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> được một hình quạt có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"central angle\">góc ở tâm</b> \\(90^\\circ\\). Tính diện tích hình quạt đó.",
+   "options": [
+    "\\(\\dfrac{11}{2}\\pi\\text{ cm}^2\\)",
+    "\\(121\\pi\\text{ cm}^2\\)",
+    "\\(\\dfrac{363}{4}\\pi\\text{ cm}^2\\)",
+    "\\(\\dfrac{121}{4}\\pi\\text{ cm}^2\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(S=\\dfrac{90}{360}\\cdot\\pi\\cdot11^2=\\dfrac{121}{4}\\pi\\) cm².",
+   "explain_vi": "Đáp án d. \\(S=\\dfrac{90}{360}\\cdot\\pi\\cdot11^2=\\dfrac{121}{4}\\pi\\) cm².",
+   "images": [],
+   "id": "ed23b67f5f15",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D2",
+   "type": "mcq",
+   "form": "A sector has radius # cm and arc length \\(#\\pi\\) cm. Find its area.",
+   "en": "A sector has radius 9 cm and arc length \\(12\\pi\\) cm. Find its area.",
+   "vi": "Một hình quạt có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 9 cm và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"arc length\">độ dài cung</b> \\(12\\pi\\) cm. Tính diện tích hình quạt.",
+   "options": [
+    "\\(486\\pi\\text{ cm}^2\\)",
+    "\\(12\\pi\\text{ cm}^2\\)",
+    "\\(108\\pi\\text{ cm}^2\\)",
+    "\\(54\\pi\\text{ cm}^2\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(S=\\dfrac{lR}{2}=\\dfrac{12\\pi\\cdot9}{2}=54\\pi\\) cm².",
+   "explain_vi": "Đáp án d. \\(S=\\dfrac{lR}{2}=\\dfrac{12\\pi\\cdot9}{2}=54\\pi\\) cm².",
+   "images": [],
+   "id": "a6bfd77b4936",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D3",
+   "type": "mcq",
+   "form": "A circular garden has radius # m. A path # m wide is built all around its outside. Find the area of the path (use \\(\\pi\\approx#\\)).",
+   "en": "A circular garden has radius 10.5 m. A path 2 m wide is built all around its outside. Find the area of the path (use \\(\\pi\\approx3.14\\)).",
+   "vi": "Một vườn hoa hình tròn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 10,5 m. Người ta làm một lối đi rộng 2 m bao quanh bên ngoài vườn. Tính diện tích lối đi (lấy \\(\\pi\\approx3{,}14\\)).",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(131.88\\text{ m}^2\\)</span><span class=\"vi\">\\(131{,}88\\text{ m}^2\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(490.62\\text{ m}^2\\)</span><span class=\"vi\">\\(490{,}62\\text{ m}^2\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(12.56\\text{ m}^2\\)</span><span class=\"vi\">\\(12{,}56\\text{ m}^2\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(144.44\\text{ m}^2\\)</span><span class=\"vi\">\\(144{,}44\\text{ m}^2\\)</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Outer radius \\(12.5\\) m; \\(S=3.14\\left(12.5^2-10.5^2\\right)=144.44\\) m².",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">Bán kính</b> ngoài \\(12{,}5\\) m; \\(S=3{,}14\\left(12{,}5^2-10{,}5^2\\right)=144{,}44\\) m².",
+   "images": [],
+   "id": "7ee83a79e48a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D3",
+   "type": "mcq",
+   "form": "A sector with central angle \\(#^\\circ\\) has area \\(\\dfrac{#}{#}\\pi\\) cm². Find its radius.",
+   "en": "A sector with central angle \\(30^\\circ\\) has area \\(\\dfrac{100}{3}\\pi\\) cm². Find its radius.",
+   "vi": "Một hình quạt có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"central angle\">góc ở tâm</b> \\(30^\\circ\\) và diện tích \\(\\dfrac{100}{3}\\pi\\) cm². Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> hình quạt.",
+   "options": [
+    "\\(400\\text{ cm}\\)",
+    "\\(40\\text{ cm}\\)",
+    "\\(20\\text{ cm}\\)",
+    "\\(21\\text{ cm}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(R^2=\\dfrac{360\\,S}{\\pi n}=400\\Rightarrow R=20\\) cm.",
+   "explain_vi": "Đáp án c. \\(R^2=\\dfrac{360\\,S}{\\pi n}=400\\Rightarrow R=20\\) cm.",
+   "images": [],
+   "id": "0a28ec5a3c0f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D3",
+   "type": "mcq",
+   "form": "On a circle of radius # cm, an arc has length \\(#\\pi\\) cm. Find its measure.",
+   "en": "On a circle of radius 18 cm, an arc has length \\(10\\pi\\) cm. Find its measure.",
+   "vi": "Trên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 18 cm, một cung có độ dài \\(10\\pi\\) cm. Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"measure of an arc\">số đo cung</b> đó.",
+   "options": [
+    "\\(200^\\circ\\)",
+    "\\(100^\\circ\\)",
+    "\\(50^\\circ\\)",
+    "\\(260^\\circ\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(n=\\dfrac{180\\,l}{\\pi R}=\\dfrac{180\\cdot10\\pi}{\\pi\\cdot18}=100\\).",
+   "explain_vi": "Đáp án b. \\(n=\\dfrac{180\\,l}{\\pi R}=\\dfrac{180\\cdot10\\pi}{\\pi\\cdot18}=100\\).",
+   "images": [],
+   "id": "1e0eabe09de4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A circular pond of radius # m is surrounded by a paved ring # m wide. Paving costs # thousand dong per m². How much does the paving cost (use \\(\\pi\\approx#\\), in thousand dong)?",
+   "en": "A circular pond of radius 4 m is surrounded by a paved ring 2 m wide. Paving costs 200 thousand dong per m². How much does the paving cost (use \\(\\pi\\approx3.14\\), in thousand dong)?",
+   "vi": "Quanh một hồ nước hình tròn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 4 m người ta lát một vành đá rộng 2 m. Chi phí lát là 200 nghìn đồng/m². Tính chi phí lát (lấy \\(\\pi\\approx3{,}14\\), đơn vị nghìn đồng).",
+   "options": [
+    "\\(12560\\)",
+    "\\(2512\\)",
+    "\\(10048\\)",
+    "\\(22608\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Area \\(=3.14\\left(6^2-4^2\\right)=62.8\\) m²; cost \\(=62.8\\cdot200=12560\\) thousand dong.",
+   "explain_vi": "Đáp án a. Diện tích \\(=3{,}14\\left(6^2-4^2\\right)=62{,}8\\) m²; chi phí \\(=62{,}8\\cdot200=12560\\) nghìn đồng.",
+   "images": [],
+   "id": "aaa9cfdd4cf0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A paper fan is a sector of radius # cm and central angle \\(#^\\circ\\); paper covers only the part outside the sector of radius # cm with the same center. Find the paper area.",
+   "en": "A paper fan is a sector of radius 27 cm and central angle \\(120^\\circ\\); paper covers only the part outside the sector of radius 4 cm with the same center. Find the paper area.",
+   "vi": "Một chiếc quạt giấy có dạng hình quạt <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 27 cm, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"central angle\">góc ở tâm</b> \\(120^\\circ\\); giấy chỉ dán phần nằm ngoài hình quạt cùng tâm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 4 cm. Tính diện tích phần giấy.",
+   "options": [
+    "\\(\\dfrac{713}{3}\\pi\\text{ cm}^2\\)",
+    "\\(713\\pi\\text{ cm}^2\\)",
+    "\\(243\\pi\\text{ cm}^2\\)",
+    "\\(\\dfrac{529}{3}\\pi\\text{ cm}^2\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(S=\\dfrac{\\pi\\left(27^2-4^2\\right)\\cdot120}{360}=\\dfrac{713}{3}\\pi\\) cm².",
+   "explain_vi": "Đáp án a. \\(S=\\dfrac{\\pi\\left(27^2-4^2\\right)\\cdot120}{360}=\\dfrac{713}{3}\\pi\\) cm².",
+   "images": [],
+   "id": "5e695d4c41cf",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A party hat is made by rolling a sector of radius # cm and central angle \\(#^\\circ\\) into a cone (no overlap). Find the radius of the base of the cone.",
+   "en": "A party hat is made by rolling a sector of radius 25 cm and central angle \\(240^\\circ\\) into a cone (no overlap). Find the radius of the base of the cone.",
+   "vi": "Một chiếc mũ sinh nhật được làm bằng cách cuộn hình quạt <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 25 cm, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"central angle\">góc ở tâm</b> \\(240^\\circ\\) thành hình nón (không chồng mép). Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> đáy của hình nón.",
+   "options": [
+    "\\(\\dfrac{25}{3}\\text{ cm}\\)",
+    "\\(\\dfrac{100}{3}\\text{ cm}\\)",
+    "\\(\\dfrac{103}{3}\\text{ cm}\\)",
+    "\\(\\dfrac{50}{3}\\text{ cm}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Arc length \\(=\\dfrac{\\pi\\cdot25\\cdot240}{180}=2\\pi r\\Rightarrow r=\\dfrac{50}{3}\\) cm.",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"arc length\">Độ dài cung</b> \\(=\\dfrac{\\pi\\cdot25\\cdot240}{180}=2\\pi r\\Rightarrow r=\\dfrac{50}{3}\\) cm.",
+   "images": [],
+   "id": "30969d6ac1c4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  }
+ ]
+}

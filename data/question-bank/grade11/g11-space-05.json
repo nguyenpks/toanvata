@@ -1,0 +1,1992 @@
+{
+ "lesson": "g11-space-05",
+ "grade": 11,
+ "no": 11,
+ "title": "Hai đường thẳng song song",
+ "path": "lessons/grade11/lines-and-planes-in-space/parallel-lines-in-space.html",
+ "items": [
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "How many pairs of edges of a tetrahedron are skew (not coplanar)?",
+   "en": "How many pairs of edges of a tetrahedron are skew (not coplanar)?<img src=\"../../../img/fig3d/a47e247b980dfc7e.svg\" alt=\"Solid\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Có bao nhiêu cặp cạnh của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tetrahedron\">tứ diện</b> chéo nhau?<img src=\"../../../img/fig3d/a47e247b980dfc7e.svg\" alt=\"Solid\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "\\(3\\)",
+    "\\(4\\)",
+    "\\(2\\)",
+    "\\(6\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Check each pair of edges: 3.",
+   "explain_vi": "Đáp án a. Xét từng cặp cạnh: 3.",
+   "images": [
+    "img/fig3d/a47e247b980dfc7e.svg"
+   ],
+   "id": "48b99c1c7e92",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "In the pyramid \\(S.ABCD\\), \\(M, N\\) are the midpoints of \\(SA, SB\\). If \\(AB=#\\), then \\(MN=\\)…",
+   "en": "In the pyramid \\(S.ABCD\\), \\(M, N\\) are the midpoints of \\(SA, SB\\). If \\(AB=16\\), then \\(MN=\\)…<img src=\"../../../img/fig3d/ac4c655aabc1a57a.svg\" alt=\"Pyramid\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">hình chóp</b> \\(S.ABCD\\), \\(M, N\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> của \\(SA, SB\\). Nếu \\(AB=16\\) thì \\(MN=\\)…<img src=\"../../../img/fig3d/ac4c655aabc1a57a.svg\" alt=\"Pyramid\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "\\(16\\)",
+    "\\(32\\)",
+    "\\(10\\)",
+    "\\(8\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Midline: \\(MN=\\dfrac12AB=8\\).",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midline\">Đường trung bình</b>: \\(MN=\\dfrac12AB=8\\).",
+   "images": [
+    "img/fig3d/ac4c655aabc1a57a.svg"
+   ],
+   "id": "61ba228b67c5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "In the tetrahedron \\(ABCD\\), \\(M, N, P, Q\\) are the midpoints of \\(AB, BC, CD, DA\\). If \\(AC=#\\) and \\(BD=#\\), the perimeter of \\(MNPQ\\) is…",
+   "en": "In the tetrahedron \\(ABCD\\), \\(M, N, P, Q\\) are the midpoints of \\(AB, BC, CD, DA\\). If \\(AC=12\\) and \\(BD=16\\), the perimeter of \\(MNPQ\\) is…<img src=\"../../../img/fig3d/58b4e34e3c852fa8.svg\" alt=\"Tetrahedron\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tetrahedron\">tứ diện</b> \\(ABCD\\), \\(M, N, P, Q\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> của \\(AB, BC, CD, DA\\). Biết \\(AC=12\\), \\(BD=16\\). Chu vi tứ giác \\(MNPQ\\) bằng…<img src=\"../../../img/fig3d/58b4e34e3c852fa8.svg\" alt=\"Tetrahedron\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "\\(14\\)",
+    "\\(56\\)",
+    "\\(96\\)",
+    "\\(28\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(MN=PQ=\\dfrac{AC}2\\), \\(NP=MQ=\\dfrac{BD}2\\): perimeter \\(=AC+BD=28\\).",
+   "explain_vi": "Đáp án d. \\(MN=PQ=\\dfrac{AC}2\\), \\(NP=MQ=\\dfrac{BD}2\\): chu vi \\(=AC+BD=28\\).",
+   "images": [
+    "img/fig3d/58b4e34e3c852fa8.svg"
+   ],
+   "id": "2fed13193bd5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "In a cube \\(ABCD.A'B'C'D'\\), \\(AB\\) and \\(C'D'\\) are parallel.",
+   "en": "In a cube \\(ABCD.A'B'C'D'\\), \\(AB\\) and \\(C'D'\\) are parallel.",
+   "vi": "Trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"cube\">hình lập phương</b> \\(ABCD.A'B'C'D'\\), \\(AB\\) và \\(C'D'\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b>.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "\\(AB\\parallel CD\\parallel C'D'\\).",
+   "explain_vi": "\\(AB\\parallel CD\\parallel C'D'\\).",
+   "images": [],
+   "id": "3ee9cfe579ca",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "Two skew lines have no common point.",
+   "en": "Two skew lines have no common point.",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"skew lines\">Hai đường thẳng chéo nhau</b> thì không có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"common point\">điểm chung</b>.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "Skew lines are not coplanar and do not meet.",
+   "explain_vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"skew lines\">Hai đường thẳng chéo nhau</b> không <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coplanar\">đồng phẳng</b> và không <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersect\">cắt nhau</b>.",
+   "images": [],
+   "id": "00dbe27339f1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "In the tetrahedron \\(ABCD\\), \\(AC\\perp BD\\), \\(AC=#\\), \\(BD=#\\); \\(M, N, P, Q\\) are the midpoints of \\(AB, BC, CD, DA\\). Find the area of \\(MNPQ\\).",
+   "en": "In the tetrahedron \\(ABCD\\), \\(AC\\perp BD\\), \\(AC=12\\), \\(BD=16\\); \\(M, N, P, Q\\) are the midpoints of \\(AB, BC, CD, DA\\). Find the area of \\(MNPQ\\).<img src=\"../../../img/fig3d/dd7043c11c57498f.svg\" alt=\"Tetrahedron\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tetrahedron\">tứ diện</b> \\(ABCD\\) có \\(AC\\perp BD\\), \\(AC=12\\), \\(BD=16\\); \\(M, N, P, Q\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> của \\(AB, BC, CD, DA\\). Tính diện tích tứ giác \\(MNPQ\\).<img src=\"../../../img/fig3d/dd7043c11c57498f.svg\" alt=\"Tetrahedron\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [],
+   "answer": "48",
+   "explain_en": "\\(MNPQ\\) is a rectangle with sides \\(\\dfrac{AC}2\\), \\(\\dfrac{BD}2\\): area \\(48\\).",
+   "explain_vi": "\\(MNPQ\\) là hình chữ nhật có hai cạnh \\(\\dfrac{AC}2\\), \\(\\dfrac{BD}2\\): diện tích \\(48\\).",
+   "images": [
+    "img/fig3d/dd7043c11c57498f.svg"
+   ],
+   "id": "8efeb948731d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "In the tetrahedron \\(ABCD\\), \\(G\\) and \\(H\\) are the centroids of triangles \\(ABC\\) and \\(ABD\\). Given \\(CD=#\\), find \\(GH\\).",
+   "en": "In the tetrahedron \\(ABCD\\), \\(G\\) and \\(H\\) are the centroids of triangles \\(ABC\\) and \\(ABD\\). Given \\(CD=12\\), find \\(GH\\).<img src=\"../../../img/fig3d/25a9b303cac2cba3.svg\" alt=\"Tetrahedron with G, H\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tetrahedron\">tứ diện</b> \\(ABCD\\), \\(G\\) và \\(H\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"respectively\">lần lượt</b> là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"centroid\">trọng tâm</b> các tam giác \\(ABC\\) và \\(ABD\\). Biết \\(CD=12\\), tính \\(GH\\).<img src=\"../../../img/fig3d/25a9b303cac2cba3.svg\" alt=\"Tetrahedron with G, H\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [],
+   "answer": "4",
+   "explain_en": "With \\(I\\) the midpoint of \\(AB\\): \\(\\dfrac{IG}{IC}=\\dfrac{IH}{ID}=\\dfrac13\\), so \\(GH\\parallel CD\\), \\(GH=\\dfrac{CD}3=4\\).",
+   "explain_vi": "Gọi \\(I\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> \\(AB\\): \\(\\dfrac{IG}{IC}=\\dfrac{IH}{ID}=\\dfrac13\\) nên \\(GH\\parallel CD\\), \\(GH=\\dfrac{CD}3=4\\).",
+   "images": [
+    "img/fig3d/25a9b303cac2cba3.svg"
+   ],
+   "id": "dc66254c245d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "In the cube \\(ABCD.A'B'C'D'\\), the line through \\(D'\\) parallel to \\(AD\\) is…",
+   "en": "In the cube \\(ABCD.A'B'C'D'\\), the line through \\(D'\\) parallel to \\(AD\\) is…<img src=\"../../../img/fig3d/a391a5956ba9dac5.svg\" alt=\"Cube\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"cube\">hình lập phương</b> \\(ABCD.A'B'C'D'\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> qua \\(D'\\) và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b> với \\(AD\\) là…<img src=\"../../../img/fig3d/a391a5956ba9dac5.svg\" alt=\"Cube\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "\\(D'D\\)",
+    "\\(D'C'\\)",
+    "\\(D'C\\)",
+    "\\(D'A'\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(D'A'\\parallel AD\\) (the cube has parallel equal edges / faces are squares).",
+   "explain_vi": "Đáp án d. \\(D'A'\\parallel AD\\).",
+   "images": [
+    "img/fig3d/a391a5956ba9dac5.svg"
+   ],
+   "id": "bc2ca13858ca",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "In the cube \\(ABCD.A'B'C'D'\\), what is the relative position of the lines \\(AD'\\) and \\(A'D\\)?",
+   "en": "In the cube \\(ABCD.A'B'C'D'\\), what is the relative position of the lines \\(AD'\\) and \\(A'D\\)?<img src=\"../../../img/fig3d/486a442da0e76a6d.svg\" alt=\"Cube\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"cube\">hình lập phương</b> \\(ABCD.A'B'C'D'\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"relative position of two lines\">vị trí tương đối của hai đường thẳng</b> \\(AD'\\) và \\(A'D\\) là…<img src=\"../../../img/fig3d/486a442da0e76a6d.svg\" alt=\"Cube\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">skew</span><span class=\"vi\">chéo nhau</span></span>",
+    "<span class=\"txi\"><span class=\"en\">they coincide</span><span class=\"vi\">trùng nhau</span></span>",
+    "<span class=\"txi\"><span class=\"en\">intersecting</span><span class=\"vi\">cắt nhau</span></span>",
+    "<span class=\"txi\"><span class=\"en\">parallel</span><span class=\"vi\">song song</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The two lines are intersecting.",
+   "explain_vi": "Đáp án c. Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> đó <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersect\">cắt nhau</b>.",
+   "images": [
+    "img/fig3d/486a442da0e76a6d.svg"
+   ],
+   "id": "a1bb046d1e2f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "In the pyramid \\(S.ABCD\\) with a parallelogram base, \\(N, P\\) are the midpoints of \\(SB, SC\\). The line \\(NP\\) is parallel to…",
+   "en": "In the pyramid \\(S.ABCD\\) with a parallelogram base, \\(N, P\\) are the midpoints of \\(SB, SC\\). The line \\(NP\\) is parallel to…<img src=\"../../../img/fig3d/88a3d91279b0fa2c.svg\" alt=\"Pyramid with a midline\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">hình chóp</b> \\(S.ABCD\\) có đáy là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelogram\">hình bình hành</b>, \\(N, P\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"respectively\">lần lượt</b> là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> của \\(SB, SC\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">Đường thẳng</b> \\(NP\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b> với…<img src=\"../../../img/fig3d/88a3d91279b0fa2c.svg\" alt=\"Pyramid with a midline\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "\\(CD\\)",
+    "\\(AC\\)",
+    "\\(DA\\)",
+    "\\(SD\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(NP\\) is a midline of triangle \\(SBC\\), so \\(NP\\parallel BC\\); and \\(ABCD\\) is a parallelogram.",
+   "explain_vi": "Đáp án c. \\(NP\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midline of a triangle\">đường trung bình của tam giác</b> \\(SBC\\) nên \\(NP\\parallel BC\\); lại có \\(ABCD\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelogram\">hình bình hành</b>.",
+   "images": [
+    "img/fig3d/88a3d91279b0fa2c.svg"
+   ],
+   "id": "700195868f37",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "In the tetrahedron \\(ABCD\\) with \\(AC\\perp BD\\), \\(M, N, P, Q\\) are the midpoints of \\(AB, BC, CD, DA\\). The quadrilateral \\(MNPQ\\) is…",
+   "en": "In the tetrahedron \\(ABCD\\) with \\(AC\\perp BD\\), \\(M, N, P, Q\\) are the midpoints of \\(AB, BC, CD, DA\\). The quadrilateral \\(MNPQ\\) is…<img src=\"../../../img/fig3d/0400e2e2f00630ce.svg\" alt=\"Tetrahedron with MNPQ\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tetrahedron\">tứ diện</b> \\(ABCD\\) có \\(AC\\perp BD\\); \\(M, N, P, Q\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"respectively\">lần lượt</b> là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> của \\(AB, BC, CD, DA\\). Tứ giác \\(MNPQ\\) là…<img src=\"../../../img/fig3d/0400e2e2f00630ce.svg\" alt=\"Tetrahedron with MNPQ\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">a rhombus</span><span class=\"vi\">hình thoi</span></span>",
+    "<span class=\"txi\"><span class=\"en\">a parallelogram</span><span class=\"vi\">hình bình hành</span></span>",
+    "<span class=\"txi\"><span class=\"en\">a rectangle</span><span class=\"vi\">hình chữ nhật</span></span>",
+    "<span class=\"txi\"><span class=\"en\">a trapezoid that is not a parallelogram</span><span class=\"vi\">hình thang không phải hình bình hành</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(MN\\parallel PQ\\parallel AC\\), \\(MN=PQ=\\dfrac12AC\\); \\(NP\\parallel MQ\\parallel BD\\), \\(NP=MQ=\\dfrac12BD\\).",
+   "explain_vi": "Đáp án c. \\(MN\\parallel PQ\\parallel AC\\), \\(MN=PQ=\\dfrac12AC\\); \\(NP\\parallel MQ\\parallel BD\\), \\(NP=MQ=\\dfrac12BD\\).",
+   "images": [
+    "img/fig3d/0400e2e2f00630ce.svg"
+   ],
+   "id": "120d1113c8c3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "In the tetrahedron \\(ABCD\\), \\(M\\in AB\\), \\(N\\in AC\\) with \\(\\dfrac{AM}{AB}=\\dfrac{AN}{AC}=\\dfrac{#}{#}\\) and \\(BC=#\\). Then \\(MN\\parallel BC\\) and \\(MN=\\)…",
+   "en": "In the tetrahedron \\(ABCD\\), \\(M\\in AB\\), \\(N\\in AC\\) with \\(\\dfrac{AM}{AB}=\\dfrac{AN}{AC}=\\dfrac{3}{4}\\) and \\(BC=20\\). Then \\(MN\\parallel BC\\) and \\(MN=\\)…<img src=\"../../../img/fig3d/ffedaab7741d62dd.svg\" alt=\"Tetrahedron\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tetrahedron\">tứ diện</b> \\(ABCD\\), \\(M\\in AB\\), \\(N\\in AC\\) sao cho \\(\\dfrac{AM}{AB}=\\dfrac{AN}{AC}=\\dfrac{3}{4}\\) và \\(BC=20\\). Khi đó \\(MN\\parallel BC\\) và \\(MN=\\)…<img src=\"../../../img/fig3d/ffedaab7741d62dd.svg\" alt=\"Tetrahedron\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "\\(15\\)",
+    "\\(5\\)",
+    "\\(10\\)",
+    "<span class=\"txi\"><span class=\"en\">\\(19.25\\)</span><span class=\"vi\">\\(19{,}25\\)</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Thales: \\(MN=\\dfrac{3}{4}\\cdot20=15\\).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"Thales' theorem\">Định lí Thalès</b>: \\(MN=\\dfrac{3}{4}\\cdot20=15\\).",
+   "images": [
+    "img/fig3d/ffedaab7741d62dd.svg"
+   ],
+   "id": "82802dafcd84",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The pyramid \\(S.ABCD\\) has a parallelogram base. The line of intersection of \\((SAD)\\) and \\((SBC)\\) is…",
+   "en": "The pyramid \\(S.ABCD\\) has a parallelogram base. The line of intersection of \\((SAD)\\) and \\((SBC)\\) is…<img src=\"../../../img/fig3d/1304a22f1065df16.svg\" alt=\"Pyramid with the line of intersection\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">hình chóp</b> \\(S.ABCD\\) có đáy là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelogram\">hình bình hành</b>. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line of intersection\">Giao tuyến</b> của \\((SAD)\\) và \\((SBC)\\) là…<img src=\"../../../img/fig3d/1304a22f1065df16.svg\" alt=\"Pyramid with the line of intersection\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">the line through \\(S\\) parallel to \\(AD\\)</span><span class=\"vi\">đường thẳng qua \\(S\\) và song song với \\(AD\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the line through \\(S\\) parallel to \\(AB\\)</span><span class=\"vi\">đường thẳng qua \\(S\\) và song song với \\(AB\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the two planes have only the point \\(S\\) in common</span><span class=\"vi\">hai mặt phẳng chỉ có một điểm chung \\(S\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the line \\(SO\\), where \\(O=AC\\cap BD\\)</span><span class=\"vi\">đường thẳng \\(SO\\), với \\(O=AC\\cap BD\\)</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. The planes contain the parallel lines \\(AD\\) and \\(BC\\) and share \\(S\\), so the line of intersection passes through \\(S\\) and is parallel to \\(AD\\).",
+   "explain_vi": "Đáp án a. Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> chứa <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel lines\">hai đường thẳng song song</b> \\(AD\\), \\(BC\\) và có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"common point\">điểm chung</b> \\(S\\) nên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line of intersection\">giao tuyến</b> qua \\(S\\) và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b> với \\(AD\\).",
+   "images": [
+    "img/fig3d/1304a22f1065df16.svg"
+   ],
+   "id": "520374255927",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The pyramid \\(S.ABCD\\) has a parallelogram base; \\(M, N\\) are the midpoints of \\(SA, SB\\). The quadrilateral \\(MNCD\\) is…",
+   "en": "The pyramid \\(S.ABCD\\) has a parallelogram base; \\(M, N\\) are the midpoints of \\(SA, SB\\). The quadrilateral \\(MNCD\\) is…<img src=\"../../../img/fig3d/9ac9e2c26f503df1.svg\" alt=\"Pyramid\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">hình chóp</b> \\(S.ABCD\\) có đáy là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelogram\">hình bình hành</b>; \\(M, N\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"respectively\">lần lượt</b> là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> của \\(SA, SB\\). Tứ giác \\(MNCD\\) là…<img src=\"../../../img/fig3d/9ac9e2c26f503df1.svg\" alt=\"Pyramid\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">not a plane figure</span><span class=\"vi\">không phải là hình phẳng</span></span>",
+    "<span class=\"txi\"><span class=\"en\">a trapezoid with \\(DC=2MN\\)</span><span class=\"vi\">hình thang có \\(DC=2MN\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">a parallelogram</span><span class=\"vi\">hình bình hành</span></span>",
+    "<span class=\"txi\"><span class=\"en\">a trapezoid with \\(MN=2DC\\)</span><span class=\"vi\">hình thang có \\(MN=2DC\\)</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(MN\\parallel AB\\parallel DC\\) and \\(MN=\\dfrac12AB=\\dfrac12DC\\).",
+   "explain_vi": "Đáp án b. \\(MN\\parallel AB\\parallel DC\\) và \\(MN=\\dfrac12AB=\\dfrac12DC\\).",
+   "images": [
+    "img/fig3d/9ac9e2c26f503df1.svg"
+   ],
+   "id": "6a197de2c66b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Which statement about two lines in space is NOT true?",
+   "en": "Which statement about two lines in space is NOT true?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"proposition\">Mệnh đề</b> nào sau đây về hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> trong không gian là sai?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">Two parallel lines lie in one plane and have no common point.</span><span class=\"vi\">Hai đường thẳng song song thì cùng nằm trong một mặt phẳng và không có điểm chung.</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Through a point not on a line there is exactly one line parallel to it.</span><span class=\"vi\">Qua một điểm nằm ngoài một đường thẳng có đúng một đường thẳng song song với đường thẳng đó.</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Two lines with no common point are always parallel.</span><span class=\"vi\">Hai đường thẳng không có điểm chung thì luôn song song.</span></span>",
+    "<span class=\"txi\"><span class=\"en\">If three planes meet in three different lines, these lines are concurrent or pairwise parallel.</span><span class=\"vi\">Nếu ba mặt phẳng cắt nhau theo ba giao tuyến phân biệt thì ba giao tuyến đó đồng quy hoặc đôi một song song.</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Parallel lines must be coplanar; skew lines are not coplanar.",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel lines\">Hai đường thẳng song song</b> phải <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coplanar\">đồng phẳng</b>; <b class=\"mbl-term\" tabindex=\"0\" data-en=\"skew lines\">hai đường thẳng chéo nhau</b> thì không <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coplanar\">đồng phẳng</b>.",
+   "images": [],
+   "id": "9c5e72e4de84",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "How many pairs of edges of a triangular prism ABC.A′B′C′ are skew (not coplanar)?",
+   "en": "How many pairs of edges of a triangular prism ABC.A′B′C′ are skew (not coplanar)?<img src=\"../../../img/fig3d/c3bf0d126b5a8689.svg\" alt=\"Solid\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Có bao nhiêu cặp cạnh của lăng trụ tam giác ABC.A′B′C′ chéo nhau?<img src=\"../../../img/fig3d/c3bf0d126b5a8689.svg\" alt=\"Solid\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "\\(13\\)",
+    "\\(12\\)",
+    "\\(11\\)",
+    "\\(24\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Check each pair of edges: 12.",
+   "explain_vi": "Đáp án b. Xét từng cặp cạnh: 12.",
+   "images": [
+    "img/fig3d/c3bf0d126b5a8689.svg"
+   ],
+   "id": "dbcf02c1ff5e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "In the pyramid \\(S.ABCD\\), \\(M, N\\) are the midpoints of \\(SA, SB\\). If \\(AB=#\\), then \\(MN=\\)…",
+   "en": "In the pyramid \\(S.ABCD\\), \\(M, N\\) are the midpoints of \\(SA, SB\\). If \\(AB=10\\), then \\(MN=\\)…<img src=\"../../../img/fig3d/ac4c655aabc1a57a.svg\" alt=\"Pyramid\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">hình chóp</b> \\(S.ABCD\\), \\(M, N\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> của \\(SA, SB\\). Nếu \\(AB=10\\) thì \\(MN=\\)…<img src=\"../../../img/fig3d/ac4c655aabc1a57a.svg\" alt=\"Pyramid\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "\\(10\\)",
+    "\\(20\\)",
+    "\\(7\\)",
+    "\\(5\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Midline: \\(MN=\\dfrac12AB=5\\).",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midline\">Đường trung bình</b>: \\(MN=\\dfrac12AB=5\\).",
+   "images": [
+    "img/fig3d/ac4c655aabc1a57a.svg"
+   ],
+   "id": "6bd102c24037",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "In the tetrahedron \\(ABCD\\), \\(M, N, P, Q\\) are the midpoints of \\(AB, BC, CD, DA\\). If \\(AC=#\\) and \\(BD=#\\), the perimeter of \\(MNPQ\\) is…",
+   "en": "In the tetrahedron \\(ABCD\\), \\(M, N, P, Q\\) are the midpoints of \\(AB, BC, CD, DA\\). If \\(AC=6\\) and \\(BD=10\\), the perimeter of \\(MNPQ\\) is…<img src=\"../../../img/fig3d/58b4e34e3c852fa8.svg\" alt=\"Tetrahedron\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tetrahedron\">tứ diện</b> \\(ABCD\\), \\(M, N, P, Q\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> của \\(AB, BC, CD, DA\\). Biết \\(AC=6\\), \\(BD=10\\). Chu vi tứ giác \\(MNPQ\\) bằng…<img src=\"../../../img/fig3d/58b4e34e3c852fa8.svg\" alt=\"Tetrahedron\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "\\(8\\)",
+    "\\(32\\)",
+    "\\(30\\)",
+    "\\(16\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(MN=PQ=\\dfrac{AC}2\\), \\(NP=MQ=\\dfrac{BD}2\\): perimeter \\(=AC+BD=16\\).",
+   "explain_vi": "Đáp án d. \\(MN=PQ=\\dfrac{AC}2\\), \\(NP=MQ=\\dfrac{BD}2\\): chu vi \\(=AC+BD=16\\).",
+   "images": [
+    "img/fig3d/58b4e34e3c852fa8.svg"
+   ],
+   "id": "2b8e593c2ab8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "In a cube \\(ABCD.A'B'C'D'\\), \\(AB\\) and \\(DD'\\) intersect.",
+   "en": "In a cube \\(ABCD.A'B'C'D'\\), \\(AB\\) and \\(DD'\\) intersect.",
+   "vi": "Trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"cube\">hình lập phương</b> \\(ABCD.A'B'C'D'\\), \\(AB\\) và \\(DD'\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersect\">cắt nhau</b>.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "They are skew.",
+   "explain_vi": "Chúng chéo nhau.",
+   "images": [],
+   "id": "77fe40e24682",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "Through a point not on a line there are infinitely many lines parallel to it.",
+   "en": "Through a point not on a line there are infinitely many lines parallel to it.",
+   "vi": "Qua một điểm nằm ngoài một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> có vô số <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b> với <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> đó.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "There is exactly one.",
+   "explain_vi": "Có đúng một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b>.",
+   "images": [],
+   "id": "977dfe8a5b55",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "In the tetrahedron \\(ABCD\\), \\(AC\\perp BD\\), \\(AC=#\\), \\(BD=#\\); \\(M, N, P, Q\\) are the midpoints of \\(AB, BC, CD, DA\\). Find the area of \\(MNPQ\\).",
+   "en": "In the tetrahedron \\(ABCD\\), \\(AC\\perp BD\\), \\(AC=14\\), \\(BD=16\\); \\(M, N, P, Q\\) are the midpoints of \\(AB, BC, CD, DA\\). Find the area of \\(MNPQ\\).<img src=\"../../../img/fig3d/dd7043c11c57498f.svg\" alt=\"Tetrahedron\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tetrahedron\">tứ diện</b> \\(ABCD\\) có \\(AC\\perp BD\\), \\(AC=14\\), \\(BD=16\\); \\(M, N, P, Q\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> của \\(AB, BC, CD, DA\\). Tính diện tích tứ giác \\(MNPQ\\).<img src=\"../../../img/fig3d/dd7043c11c57498f.svg\" alt=\"Tetrahedron\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [],
+   "answer": "56",
+   "explain_en": "\\(MNPQ\\) is a rectangle with sides \\(\\dfrac{AC}2\\), \\(\\dfrac{BD}2\\): area \\(56\\).",
+   "explain_vi": "\\(MNPQ\\) là hình chữ nhật có hai cạnh \\(\\dfrac{AC}2\\), \\(\\dfrac{BD}2\\): diện tích \\(56\\).",
+   "images": [
+    "img/fig3d/dd7043c11c57498f.svg"
+   ],
+   "id": "902fe2fd6ca9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "In the tetrahedron \\(ABCD\\), \\(G\\) and \\(H\\) are the centroids of triangles \\(ABC\\) and \\(ABD\\). Given \\(CD=#\\), find \\(GH\\).",
+   "en": "In the tetrahedron \\(ABCD\\), \\(G\\) and \\(H\\) are the centroids of triangles \\(ABC\\) and \\(ABD\\). Given \\(CD=18\\), find \\(GH\\).<img src=\"../../../img/fig3d/25a9b303cac2cba3.svg\" alt=\"Tetrahedron with G, H\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tetrahedron\">tứ diện</b> \\(ABCD\\), \\(G\\) và \\(H\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"respectively\">lần lượt</b> là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"centroid\">trọng tâm</b> các tam giác \\(ABC\\) và \\(ABD\\). Biết \\(CD=18\\), tính \\(GH\\).<img src=\"../../../img/fig3d/25a9b303cac2cba3.svg\" alt=\"Tetrahedron with G, H\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [],
+   "answer": "6",
+   "explain_en": "With \\(I\\) the midpoint of \\(AB\\): \\(\\dfrac{IG}{IC}=\\dfrac{IH}{ID}=\\dfrac13\\), so \\(GH\\parallel CD\\), \\(GH=\\dfrac{CD}3=6\\).",
+   "explain_vi": "Gọi \\(I\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> \\(AB\\): \\(\\dfrac{IG}{IC}=\\dfrac{IH}{ID}=\\dfrac13\\) nên \\(GH\\parallel CD\\), \\(GH=\\dfrac{CD}3=6\\).",
+   "images": [
+    "img/fig3d/25a9b303cac2cba3.svg"
+   ],
+   "id": "608d1bbffe6f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "In the cube \\(ABCD.A'B'C'D'\\), the line through \\(A\\) parallel to \\(BB'\\) is…",
+   "en": "In the cube \\(ABCD.A'B'C'D'\\), the line through \\(A\\) parallel to \\(BB'\\) is…<img src=\"../../../img/fig3d/a72bbca16d4d1b72.svg\" alt=\"Cube\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"cube\">hình lập phương</b> \\(ABCD.A'B'C'D'\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> qua \\(A\\) và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b> với \\(BB'\\) là…<img src=\"../../../img/fig3d/a72bbca16d4d1b72.svg\" alt=\"Cube\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "\\(AD\\)",
+    "\\(AA'\\)",
+    "\\(AD'\\)",
+    "\\(AC\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(AA'\\parallel BB'\\) (the cube has parallel equal edges / faces are squares).",
+   "explain_vi": "Đáp án b. \\(AA'\\parallel BB'\\).",
+   "images": [
+    "img/fig3d/a72bbca16d4d1b72.svg"
+   ],
+   "id": "fcdb3b63fb78",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "In the cube \\(ABCD.A'B'C'D'\\), what is the relative position of the lines \\(A'B'\\) and \\(BC\\)?",
+   "en": "In the cube \\(ABCD.A'B'C'D'\\), what is the relative position of the lines \\(A'B'\\) and \\(BC\\)?<img src=\"../../../img/fig3d/d9e529c6bc0fb76e.svg\" alt=\"Cube\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"cube\">hình lập phương</b> \\(ABCD.A'B'C'D'\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"relative position of two lines\">vị trí tương đối của hai đường thẳng</b> \\(A'B'\\) và \\(BC\\) là…<img src=\"../../../img/fig3d/d9e529c6bc0fb76e.svg\" alt=\"Cube\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">perpendicular and intersecting</span><span class=\"vi\">vuông góc và cắt nhau</span></span>",
+    "<span class=\"txi\"><span class=\"en\">intersecting</span><span class=\"vi\">cắt nhau</span></span>",
+    "<span class=\"txi\"><span class=\"en\">skew</span><span class=\"vi\">chéo nhau</span></span>",
+    "<span class=\"txi\"><span class=\"en\">parallel</span><span class=\"vi\">song song</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The two lines are skew.",
+   "explain_vi": "Đáp án c. Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> đó chéo nhau.",
+   "images": [
+    "img/fig3d/d9e529c6bc0fb76e.svg"
+   ],
+   "id": "64b0aaa2f740",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "In the pyramid \\(S.ABCD\\) with a parallelogram base, \\(M, N\\) are the midpoints of \\(SA, SB\\). The line \\(MN\\) is parallel to…",
+   "en": "In the pyramid \\(S.ABCD\\) with a parallelogram base, \\(M, N\\) are the midpoints of \\(SA, SB\\). The line \\(MN\\) is parallel to…<img src=\"../../../img/fig3d/ac4c655aabc1a57a.svg\" alt=\"Pyramid with a midline\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">hình chóp</b> \\(S.ABCD\\) có đáy là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelogram\">hình bình hành</b>, \\(M, N\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"respectively\">lần lượt</b> là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> của \\(SA, SB\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">Đường thẳng</b> \\(MN\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b> với…<img src=\"../../../img/fig3d/ac4c655aabc1a57a.svg\" alt=\"Pyramid with a midline\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "\\(SB\\)",
+    "\\(BD\\)",
+    "\\(AB\\)",
+    "\\(SA\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(MN\\) is a midline of triangle \\(SAB\\), so \\(MN\\parallel AB\\); and \\(ABCD\\) is a parallelogram.",
+   "explain_vi": "Đáp án c. \\(MN\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midline of a triangle\">đường trung bình của tam giác</b> \\(SAB\\) nên \\(MN\\parallel AB\\); lại có \\(ABCD\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelogram\">hình bình hành</b>.",
+   "images": [
+    "img/fig3d/ac4c655aabc1a57a.svg"
+   ],
+   "id": "bbdfb6a47f39",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "In the tetrahedron \\(ABCD\\), \\(M, N, P, Q\\) are the midpoints of \\(AB, BC, CD, DA\\). The quadrilateral \\(MNPQ\\) is…",
+   "en": "In the tetrahedron \\(ABCD\\), \\(M, N, P, Q\\) are the midpoints of \\(AB, BC, CD, DA\\). The quadrilateral \\(MNPQ\\) is…<img src=\"../../../img/fig3d/d29f0c7a791bd6f1.svg\" alt=\"Tetrahedron with MNPQ\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tetrahedron\">tứ diện</b> \\(ABCD\\); \\(M, N, P, Q\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"respectively\">lần lượt</b> là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> của \\(AB, BC, CD, DA\\). Tứ giác \\(MNPQ\\) là…<img src=\"../../../img/fig3d/d29f0c7a791bd6f1.svg\" alt=\"Tetrahedron with MNPQ\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">a square</span><span class=\"vi\">hình vuông</span></span>",
+    "<span class=\"txi\"><span class=\"en\">a rhombus</span><span class=\"vi\">hình thoi</span></span>",
+    "<span class=\"txi\"><span class=\"en\">a parallelogram</span><span class=\"vi\">hình bình hành</span></span>",
+    "<span class=\"txi\"><span class=\"en\">a rectangle</span><span class=\"vi\">hình chữ nhật</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(MN\\parallel PQ\\parallel AC\\), \\(MN=PQ=\\dfrac12AC\\); \\(NP\\parallel MQ\\parallel BD\\), \\(NP=MQ=\\dfrac12BD\\).",
+   "explain_vi": "Đáp án c. \\(MN\\parallel PQ\\parallel AC\\), \\(MN=PQ=\\dfrac12AC\\); \\(NP\\parallel MQ\\parallel BD\\), \\(NP=MQ=\\dfrac12BD\\).",
+   "images": [
+    "img/fig3d/d29f0c7a791bd6f1.svg"
+   ],
+   "id": "def550839f81",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "In the tetrahedron \\(ABCD\\), \\(M\\in AB\\), \\(N\\in AC\\) with \\(\\dfrac{AM}{AB}=\\dfrac{AN}{AC}=\\dfrac{#}{#}\\) and \\(BC=#\\). Then \\(MN\\parallel BC\\) and \\(MN=\\)…",
+   "en": "In the tetrahedron \\(ABCD\\), \\(M\\in AB\\), \\(N\\in AC\\) with \\(\\dfrac{AM}{AB}=\\dfrac{AN}{AC}=\\dfrac{2}{5}\\) and \\(BC=20\\). Then \\(MN\\parallel BC\\) and \\(MN=\\)…<img src=\"../../../img/fig3d/a9bcd16d5d1926e9.svg\" alt=\"Tetrahedron\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tetrahedron\">tứ diện</b> \\(ABCD\\), \\(M\\in AB\\), \\(N\\in AC\\) sao cho \\(\\dfrac{AM}{AB}=\\dfrac{AN}{AC}=\\dfrac{2}{5}\\) và \\(BC=20\\). Khi đó \\(MN\\parallel BC\\) và \\(MN=\\)…<img src=\"../../../img/fig3d/a9bcd16d5d1926e9.svg\" alt=\"Tetrahedron\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "\\(12\\)",
+    "\\(10\\)",
+    "<span class=\"txi\"><span class=\"en\">\\(19.6\\)</span><span class=\"vi\">\\(19{,}6\\)</span></span>",
+    "\\(8\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Thales: \\(MN=\\dfrac{2}{5}\\cdot20=8\\).",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"Thales' theorem\">Định lí Thalès</b>: \\(MN=\\dfrac{2}{5}\\cdot20=8\\).",
+   "images": [
+    "img/fig3d/a9bcd16d5d1926e9.svg"
+   ],
+   "id": "c269e7a4c25f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The pyramid \\(S.ABCD\\) has a parallelogram base. The line of intersection of \\((SAB)\\) and \\((SCD)\\) is…",
+   "en": "The pyramid \\(S.ABCD\\) has a parallelogram base. The line of intersection of \\((SAB)\\) and \\((SCD)\\) is…<img src=\"../../../img/fig3d/351c87aa74b7623c.svg\" alt=\"Pyramid with the line of intersection\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">hình chóp</b> \\(S.ABCD\\) có đáy là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelogram\">hình bình hành</b>. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line of intersection\">Giao tuyến</b> của \\((SAB)\\) và \\((SCD)\\) là…<img src=\"../../../img/fig3d/351c87aa74b7623c.svg\" alt=\"Pyramid with the line of intersection\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">the line through \\(S\\) parallel to \\(AD\\)</span><span class=\"vi\">đường thẳng qua \\(S\\) và song song với \\(AD\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the line through \\(S\\) parallel to \\(AB\\)</span><span class=\"vi\">đường thẳng qua \\(S\\) và song song với \\(AB\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the two planes have only the point \\(S\\) in common</span><span class=\"vi\">hai mặt phẳng chỉ có một điểm chung \\(S\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the line \\(SO\\), where \\(O=AC\\cap BD\\)</span><span class=\"vi\">đường thẳng \\(SO\\), với \\(O=AC\\cap BD\\)</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. The planes contain the parallel lines \\(AB\\) and \\(CD\\) and share \\(S\\), so the line of intersection passes through \\(S\\) and is parallel to \\(AB\\).",
+   "explain_vi": "Đáp án b. Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> chứa <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel lines\">hai đường thẳng song song</b> \\(AB\\), \\(CD\\) và có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"common point\">điểm chung</b> \\(S\\) nên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line of intersection\">giao tuyến</b> qua \\(S\\) và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b> với \\(AB\\).",
+   "images": [
+    "img/fig3d/351c87aa74b7623c.svg"
+   ],
+   "id": "d52205ea3e81",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The pyramid \\(S.ABCD\\) has a parallelogram base; \\(M, N\\) are the midpoints of \\(SC, SD\\). The quadrilateral \\(MNAB\\) is…",
+   "en": "The pyramid \\(S.ABCD\\) has a parallelogram base; \\(M, N\\) are the midpoints of \\(SC, SD\\). The quadrilateral \\(MNAB\\) is…<img src=\"../../../img/fig3d/fef6af7c97eda883.svg\" alt=\"Pyramid\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">hình chóp</b> \\(S.ABCD\\) có đáy là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelogram\">hình bình hành</b>; \\(M, N\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"respectively\">lần lượt</b> là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> của \\(SC, SD\\). Tứ giác \\(MNAB\\) là…<img src=\"../../../img/fig3d/fef6af7c97eda883.svg\" alt=\"Pyramid\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">a trapezoid with \\(MN=2BA\\)</span><span class=\"vi\">hình thang có \\(MN=2BA\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">not a plane figure</span><span class=\"vi\">không phải là hình phẳng</span></span>",
+    "<span class=\"txi\"><span class=\"en\">a parallelogram</span><span class=\"vi\">hình bình hành</span></span>",
+    "<span class=\"txi\"><span class=\"en\">a trapezoid with \\(BA=2MN\\)</span><span class=\"vi\">hình thang có \\(BA=2MN\\)</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(MN\\parallel CD\\parallel BA\\) and \\(MN=\\dfrac12CD=\\dfrac12BA\\).",
+   "explain_vi": "Đáp án d. \\(MN\\parallel CD\\parallel BA\\) và \\(MN=\\dfrac12CD=\\dfrac12BA\\).",
+   "images": [
+    "img/fig3d/fef6af7c97eda883.svg"
+   ],
+   "id": "b61695fc940b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Which statement about two lines in space is true?",
+   "en": "Which statement about two lines in space is true?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"proposition\">Mệnh đề</b> nào sau đây về hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> trong không gian là đúng?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">Two lines that are not parallel always intersect.</span><span class=\"vi\">Hai đường thẳng không song song thì luôn cắt nhau.</span></span>",
+    "<span class=\"txi\"><span class=\"en\">If three planes meet in three different lines, these lines are concurrent or pairwise parallel.</span><span class=\"vi\">Nếu ba mặt phẳng cắt nhau theo ba giao tuyến phân biệt thì ba giao tuyến đó đồng quy hoặc đôi một song song.</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Two lines with no common point are always parallel.</span><span class=\"vi\">Hai đường thẳng không có điểm chung thì luôn song song.</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Two skew lines may lie in one plane.</span><span class=\"vi\">Hai đường thẳng chéo nhau có thể cùng nằm trong một mặt phẳng.</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Parallel lines must be coplanar; skew lines are not coplanar.",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel lines\">Hai đường thẳng song song</b> phải <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coplanar\">đồng phẳng</b>; <b class=\"mbl-term\" tabindex=\"0\" data-en=\"skew lines\">hai đường thẳng chéo nhau</b> thì không <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coplanar\">đồng phẳng</b>.",
+   "images": [],
+   "id": "a02391256272",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "How many pairs of edges of a triangular prism ABC.A′B′C′ are intersecting?",
+   "en": "How many pairs of edges of a triangular prism ABC.A′B′C′ are intersecting?<img src=\"../../../img/fig3d/c3bf0d126b5a8689.svg\" alt=\"Solid\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Có bao nhiêu cặp cạnh của lăng trụ tam giác ABC.A′B′C′ <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersect\">cắt nhau</b>?<img src=\"../../../img/fig3d/c3bf0d126b5a8689.svg\" alt=\"Solid\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "\\(19\\)",
+    "\\(18\\)",
+    "\\(17\\)",
+    "\\(36\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Check each pair of edges: 18.",
+   "explain_vi": "Đáp án b. Xét từng cặp cạnh: 18.",
+   "images": [
+    "img/fig3d/c3bf0d126b5a8689.svg"
+   ],
+   "id": "488ee1b4221f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "In the pyramid \\(S.ABCD\\), \\(M, N\\) are the midpoints of \\(SA, SB\\). If \\(AB=#\\), then \\(MN=\\)…",
+   "en": "In the pyramid \\(S.ABCD\\), \\(M, N\\) are the midpoints of \\(SA, SB\\). If \\(AB=20\\), then \\(MN=\\)…<img src=\"../../../img/fig3d/ac4c655aabc1a57a.svg\" alt=\"Pyramid\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">hình chóp</b> \\(S.ABCD\\), \\(M, N\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> của \\(SA, SB\\). Nếu \\(AB=20\\) thì \\(MN=\\)…<img src=\"../../../img/fig3d/ac4c655aabc1a57a.svg\" alt=\"Pyramid\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "\\(10\\)",
+    "\\(20\\)",
+    "\\(40\\)",
+    "\\(12\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Midline: \\(MN=\\dfrac12AB=10\\).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midline\">Đường trung bình</b>: \\(MN=\\dfrac12AB=10\\).",
+   "images": [
+    "img/fig3d/ac4c655aabc1a57a.svg"
+   ],
+   "id": "fb43401fdccf",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "In the tetrahedron \\(ABCD\\), \\(M, N, P, Q\\) are the midpoints of \\(AB, BC, CD, DA\\). If \\(AC=#\\) and \\(BD=#\\), the perimeter of \\(MNPQ\\) is…",
+   "en": "In the tetrahedron \\(ABCD\\), \\(M, N, P, Q\\) are the midpoints of \\(AB, BC, CD, DA\\). If \\(AC=16\\) and \\(BD=20\\), the perimeter of \\(MNPQ\\) is…<img src=\"../../../img/fig3d/58b4e34e3c852fa8.svg\" alt=\"Tetrahedron\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tetrahedron\">tứ diện</b> \\(ABCD\\), \\(M, N, P, Q\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> của \\(AB, BC, CD, DA\\). Biết \\(AC=16\\), \\(BD=20\\). Chu vi tứ giác \\(MNPQ\\) bằng…<img src=\"../../../img/fig3d/58b4e34e3c852fa8.svg\" alt=\"Tetrahedron\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "\\(18\\)",
+    "\\(72\\)",
+    "\\(160\\)",
+    "\\(36\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(MN=PQ=\\dfrac{AC}2\\), \\(NP=MQ=\\dfrac{BD}2\\): perimeter \\(=AC+BD=36\\).",
+   "explain_vi": "Đáp án d. \\(MN=PQ=\\dfrac{AC}2\\), \\(NP=MQ=\\dfrac{BD}2\\): chu vi \\(=AC+BD=36\\).",
+   "images": [
+    "img/fig3d/58b4e34e3c852fa8.svg"
+   ],
+   "id": "61986730719e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "If \\(a\\parallel c\\) and \\(b\\parallel c\\) (three different lines), then \\(a\\parallel b\\).",
+   "en": "If \\(a\\parallel c\\) and \\(b\\parallel c\\) (three different lines), then \\(a\\parallel b\\).",
+   "vi": "Nếu \\(a\\parallel c\\) và \\(b\\parallel c\\) (ba <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> phân biệt) thì \\(a\\parallel b\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "Two lines parallel to a third line are parallel.",
+   "explain_vi": "Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> phân biệt cùng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b> với <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> thứ ba thì <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b>.",
+   "images": [],
+   "id": "5e00128f3d8f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "Two lines with no common point are parallel.",
+   "en": "Two lines with no common point are parallel.",
+   "vi": "Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> không có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"common point\">điểm chung</b> thì <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b>.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "They may be skew.",
+   "explain_vi": "Chúng có thể chéo nhau.",
+   "images": [],
+   "id": "02eb62ac4a83",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "In the tetrahedron \\(ABCD\\), \\(AC\\perp BD\\), \\(AC=#\\), \\(BD=#\\); \\(M, N, P, Q\\) are the midpoints of \\(AB, BC, CD, DA\\). Find the area of \\(MNPQ\\).",
+   "en": "In the tetrahedron \\(ABCD\\), \\(AC\\perp BD\\), \\(AC=10\\), \\(BD=12\\); \\(M, N, P, Q\\) are the midpoints of \\(AB, BC, CD, DA\\). Find the area of \\(MNPQ\\).<img src=\"../../../img/fig3d/dd7043c11c57498f.svg\" alt=\"Tetrahedron\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tetrahedron\">tứ diện</b> \\(ABCD\\) có \\(AC\\perp BD\\), \\(AC=10\\), \\(BD=12\\); \\(M, N, P, Q\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> của \\(AB, BC, CD, DA\\). Tính diện tích tứ giác \\(MNPQ\\).<img src=\"../../../img/fig3d/dd7043c11c57498f.svg\" alt=\"Tetrahedron\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [],
+   "answer": "30",
+   "explain_en": "\\(MNPQ\\) is a rectangle with sides \\(\\dfrac{AC}2\\), \\(\\dfrac{BD}2\\): area \\(30\\).",
+   "explain_vi": "\\(MNPQ\\) là hình chữ nhật có hai cạnh \\(\\dfrac{AC}2\\), \\(\\dfrac{BD}2\\): diện tích \\(30\\).",
+   "images": [
+    "img/fig3d/dd7043c11c57498f.svg"
+   ],
+   "id": "710fa4c885a6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "In the tetrahedron \\(ABCD\\), \\(G\\) and \\(H\\) are the centroids of triangles \\(ABC\\) and \\(ABD\\). Given \\(CD=#\\), find \\(GH\\).",
+   "en": "In the tetrahedron \\(ABCD\\), \\(G\\) and \\(H\\) are the centroids of triangles \\(ABC\\) and \\(ABD\\). Given \\(CD=15\\), find \\(GH\\).<img src=\"../../../img/fig3d/25a9b303cac2cba3.svg\" alt=\"Tetrahedron with G, H\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tetrahedron\">tứ diện</b> \\(ABCD\\), \\(G\\) và \\(H\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"respectively\">lần lượt</b> là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"centroid\">trọng tâm</b> các tam giác \\(ABC\\) và \\(ABD\\). Biết \\(CD=15\\), tính \\(GH\\).<img src=\"../../../img/fig3d/25a9b303cac2cba3.svg\" alt=\"Tetrahedron with G, H\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [],
+   "answer": "5",
+   "explain_en": "With \\(I\\) the midpoint of \\(AB\\): \\(\\dfrac{IG}{IC}=\\dfrac{IH}{ID}=\\dfrac13\\), so \\(GH\\parallel CD\\), \\(GH=\\dfrac{CD}3=5\\).",
+   "explain_vi": "Gọi \\(I\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> \\(AB\\): \\(\\dfrac{IG}{IC}=\\dfrac{IH}{ID}=\\dfrac13\\) nên \\(GH\\parallel CD\\), \\(GH=\\dfrac{CD}3=5\\).",
+   "images": [
+    "img/fig3d/25a9b303cac2cba3.svg"
+   ],
+   "id": "4c8538828020",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "In the cube \\(ABCD.A'B'C'D'\\), the line through \\(A\\) parallel to \\(CC'\\) is…",
+   "en": "In the cube \\(ABCD.A'B'C'D'\\), the line through \\(A\\) parallel to \\(CC'\\) is…<img src=\"../../../img/fig3d/b75ec47df2b853c8.svg\" alt=\"Cube\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"cube\">hình lập phương</b> \\(ABCD.A'B'C'D'\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> qua \\(A\\) và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b> với \\(CC'\\) là…<img src=\"../../../img/fig3d/b75ec47df2b853c8.svg\" alt=\"Cube\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "\\(AD'\\)",
+    "\\(AD\\)",
+    "\\(AA'\\)",
+    "\\(AC\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(AA'\\parallel CC'\\) (the cube has parallel equal edges / faces are squares).",
+   "explain_vi": "Đáp án c. \\(AA'\\parallel CC'\\).",
+   "images": [
+    "img/fig3d/b75ec47df2b853c8.svg"
+   ],
+   "id": "c86b9be8e1dc",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "In the cube \\(ABCD.A'B'C'D'\\), what is the relative position of the lines \\(A'D'\\) and \\(BB'\\)?",
+   "en": "In the cube \\(ABCD.A'B'C'D'\\), what is the relative position of the lines \\(A'D'\\) and \\(BB'\\)?<img src=\"../../../img/fig3d/b4f3397f802eade0.svg\" alt=\"Cube\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"cube\">hình lập phương</b> \\(ABCD.A'B'C'D'\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"relative position of two lines\">vị trí tương đối của hai đường thẳng</b> \\(A'D'\\) và \\(BB'\\) là…<img src=\"../../../img/fig3d/b4f3397f802eade0.svg\" alt=\"Cube\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">intersecting</span><span class=\"vi\">cắt nhau</span></span>",
+    "<span class=\"txi\"><span class=\"en\">parallel</span><span class=\"vi\">song song</span></span>",
+    "<span class=\"txi\"><span class=\"en\">skew</span><span class=\"vi\">chéo nhau</span></span>",
+    "<span class=\"txi\"><span class=\"en\">perpendicular and intersecting</span><span class=\"vi\">vuông góc và cắt nhau</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The two lines are skew.",
+   "explain_vi": "Đáp án c. Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> đó chéo nhau.",
+   "images": [
+    "img/fig3d/b4f3397f802eade0.svg"
+   ],
+   "id": "3845b3a06915",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "In the pyramid \\(S.ABCD\\) with a parallelogram base, \\(M, Q\\) are the midpoints of \\(SA, SD\\). The line \\(MQ\\) is parallel to…",
+   "en": "In the pyramid \\(S.ABCD\\) with a parallelogram base, \\(M, Q\\) are the midpoints of \\(SA, SD\\). The line \\(MQ\\) is parallel to…<img src=\"../../../img/fig3d/5a17ae148bc7e43b.svg\" alt=\"Pyramid with a midline\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">hình chóp</b> \\(S.ABCD\\) có đáy là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelogram\">hình bình hành</b>, \\(M, Q\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"respectively\">lần lượt</b> là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> của \\(SA, SD\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">Đường thẳng</b> \\(MQ\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b> với…<img src=\"../../../img/fig3d/5a17ae148bc7e43b.svg\" alt=\"Pyramid with a midline\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "\\(DA\\)",
+    "\\(SC\\)",
+    "\\(AB\\)",
+    "\\(BD\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(MQ\\) is a midline of triangle \\(SAD\\), so \\(MQ\\parallel AD\\); and \\(ABCD\\) is a parallelogram.",
+   "explain_vi": "Đáp án a. \\(MQ\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midline of a triangle\">đường trung bình của tam giác</b> \\(SAD\\) nên \\(MQ\\parallel AD\\); lại có \\(ABCD\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelogram\">hình bình hành</b>.",
+   "images": [
+    "img/fig3d/5a17ae148bc7e43b.svg"
+   ],
+   "id": "0723298826fe",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "In the tetrahedron \\(ABCD\\) with \\(AC=BD\\), \\(M, N, P, Q\\) are the midpoints of \\(AB, BC, CD, DA\\). The quadrilateral \\(MNPQ\\) is…",
+   "en": "In the tetrahedron \\(ABCD\\) with \\(AC=BD\\), \\(M, N, P, Q\\) are the midpoints of \\(AB, BC, CD, DA\\). The quadrilateral \\(MNPQ\\) is…<img src=\"../../../img/fig3d/86cd909ca1fd66cf.svg\" alt=\"Tetrahedron with MNPQ\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tetrahedron\">tứ diện</b> \\(ABCD\\) có \\(AC=BD\\); \\(M, N, P, Q\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"respectively\">lần lượt</b> là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> của \\(AB, BC, CD, DA\\). Tứ giác \\(MNPQ\\) là…<img src=\"../../../img/fig3d/86cd909ca1fd66cf.svg\" alt=\"Tetrahedron with MNPQ\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">a trapezoid that is not a parallelogram</span><span class=\"vi\">hình thang không phải hình bình hành</span></span>",
+    "<span class=\"txi\"><span class=\"en\">a rectangle</span><span class=\"vi\">hình chữ nhật</span></span>",
+    "<span class=\"txi\"><span class=\"en\">a parallelogram</span><span class=\"vi\">hình bình hành</span></span>",
+    "<span class=\"txi\"><span class=\"en\">a rhombus</span><span class=\"vi\">hình thoi</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(MN\\parallel PQ\\parallel AC\\), \\(MN=PQ=\\dfrac12AC\\); \\(NP\\parallel MQ\\parallel BD\\), \\(NP=MQ=\\dfrac12BD\\).",
+   "explain_vi": "Đáp án d. \\(MN\\parallel PQ\\parallel AC\\), \\(MN=PQ=\\dfrac12AC\\); \\(NP\\parallel MQ\\parallel BD\\), \\(NP=MQ=\\dfrac12BD\\).",
+   "images": [
+    "img/fig3d/86cd909ca1fd66cf.svg"
+   ],
+   "id": "898744523407",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "In the tetrahedron \\(ABCD\\), \\(M\\in AB\\), \\(N\\in AC\\) with \\(\\dfrac{AM}{AB}=\\dfrac{AN}{AC}=\\dfrac{#}{#}\\) and \\(BC=#\\). Then \\(MN\\parallel BC\\) and \\(MN=\\)…",
+   "en": "In the tetrahedron \\(ABCD\\), \\(M\\in AB\\), \\(N\\in AC\\) with \\(\\dfrac{AM}{AB}=\\dfrac{AN}{AC}=\\dfrac{2}{3}\\) and \\(BC=12\\). Then \\(MN\\parallel BC\\) and \\(MN=\\)…<img src=\"../../../img/fig3d/8e95ef09be39b367.svg\" alt=\"Tetrahedron\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tetrahedron\">tứ diện</b> \\(ABCD\\), \\(M\\in AB\\), \\(N\\in AC\\) sao cho \\(\\dfrac{AM}{AB}=\\dfrac{AN}{AC}=\\dfrac{2}{3}\\) và \\(BC=12\\). Khi đó \\(MN\\parallel BC\\) và \\(MN=\\)…<img src=\"../../../img/fig3d/8e95ef09be39b367.svg\" alt=\"Tetrahedron\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "\\(6\\)",
+    "\\(4\\)",
+    "\\(8\\)",
+    "\\(\\dfrac{34}{3}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Thales: \\(MN=\\dfrac{2}{3}\\cdot12=8\\).",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"Thales' theorem\">Định lí Thalès</b>: \\(MN=\\dfrac{2}{3}\\cdot12=8\\).",
+   "images": [
+    "img/fig3d/8e95ef09be39b367.svg"
+   ],
+   "id": "9d1ccd257d4a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The pyramid \\(S.ABCD\\) has a parallelogram base; \\(M, N\\) are the midpoints of \\(SB, SC\\). The quadrilateral \\(MNDA\\) is…",
+   "en": "The pyramid \\(S.ABCD\\) has a parallelogram base; \\(M, N\\) are the midpoints of \\(SB, SC\\). The quadrilateral \\(MNDA\\) is…<img src=\"../../../img/fig3d/b986c177caa8cfc0.svg\" alt=\"Pyramid\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">hình chóp</b> \\(S.ABCD\\) có đáy là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelogram\">hình bình hành</b>; \\(M, N\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"respectively\">lần lượt</b> là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> của \\(SB, SC\\). Tứ giác \\(MNDA\\) là…<img src=\"../../../img/fig3d/b986c177caa8cfc0.svg\" alt=\"Pyramid\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">a parallelogram</span><span class=\"vi\">hình bình hành</span></span>",
+    "<span class=\"txi\"><span class=\"en\">not a plane figure</span><span class=\"vi\">không phải là hình phẳng</span></span>",
+    "<span class=\"txi\"><span class=\"en\">a trapezoid with \\(AD=2MN\\)</span><span class=\"vi\">hình thang có \\(AD=2MN\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">a trapezoid with \\(MN=2AD\\)</span><span class=\"vi\">hình thang có \\(MN=2AD\\)</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(MN\\parallel BC\\parallel AD\\) and \\(MN=\\dfrac12BC=\\dfrac12AD\\).",
+   "explain_vi": "Đáp án c. \\(MN\\parallel BC\\parallel AD\\) và \\(MN=\\dfrac12BC=\\dfrac12AD\\).",
+   "images": [
+    "img/fig3d/b986c177caa8cfc0.svg"
+   ],
+   "id": "681b3c788055",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The pyramid \\(S.ABCD\\) has a trapezoid base with \\(AB\\parallel CD\\). The line of intersection of \\((SAB)\\) and \\((SCD)\\) is…",
+   "en": "The pyramid \\(S.ABCD\\) has a trapezoid base with \\(AB\\parallel CD\\). The line of intersection of \\((SAB)\\) and \\((SCD)\\) is…<img src=\"../../../img/fig3d/459694e32f627c4a.svg\" alt=\"Pyramid with the line of intersection\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">hình chóp</b> \\(S.ABCD\\) có đáy là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"trapezoid\">hình thang</b> với \\(AB\\parallel CD\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line of intersection\">Giao tuyến</b> của \\((SAB)\\) và \\((SCD)\\) là…<img src=\"../../../img/fig3d/459694e32f627c4a.svg\" alt=\"Pyramid with the line of intersection\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">the line \\(SI\\), where \\(I=AD\\cap BC\\)</span><span class=\"vi\">đường thẳng \\(SI\\), với \\(I=AD\\cap BC\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the two planes have only the point \\(S\\) in common</span><span class=\"vi\">hai mặt phẳng chỉ có một điểm chung \\(S\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the line through \\(S\\) parallel to \\(AB\\)</span><span class=\"vi\">đường thẳng qua \\(S\\) và song song với \\(AB\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the line through \\(S\\) parallel to \\(AD\\)</span><span class=\"vi\">đường thẳng qua \\(S\\) và song song với \\(AD\\)</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The planes contain the parallel lines \\(AB\\) and \\(CD\\) and share \\(S\\), so the line of intersection passes through \\(S\\) and is parallel to \\(AB\\).",
+   "explain_vi": "Đáp án c. Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> chứa <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel lines\">hai đường thẳng song song</b> \\(AB\\), \\(CD\\) và có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"common point\">điểm chung</b> \\(S\\) nên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line of intersection\">giao tuyến</b> qua \\(S\\) và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b> với \\(AB\\).",
+   "images": [
+    "img/fig3d/459694e32f627c4a.svg"
+   ],
+   "id": "3d9979464673",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Which statement is false?",
+   "en": "Which statement is false?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"proposition\">Mệnh đề</b> nào sau đây sai?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">Through a point not on a line there is exactly one line parallel to it.</span><span class=\"vi\">Qua một điểm nằm ngoài một đường thẳng có đúng một đường thẳng song song với đường thẳng đó.</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Two lines that are not parallel always intersect.</span><span class=\"vi\">Hai đường thẳng không song song thì luôn cắt nhau.</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Two parallel lines lie in one plane and have no common point.</span><span class=\"vi\">Hai đường thẳng song song thì cùng nằm trong một mặt phẳng và không có điểm chung.</span></span>",
+    "<span class=\"txi\"><span class=\"en\">If three planes meet in three different lines, these lines are concurrent or pairwise parallel.</span><span class=\"vi\">Nếu ba mặt phẳng cắt nhau theo ba giao tuyến phân biệt thì ba giao tuyến đó đồng quy hoặc đôi một song song.</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Parallel lines must be coplanar; skew lines are not coplanar.",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel lines\">Hai đường thẳng song song</b> phải <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coplanar\">đồng phẳng</b>; <b class=\"mbl-term\" tabindex=\"0\" data-en=\"skew lines\">hai đường thẳng chéo nhau</b> thì không <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coplanar\">đồng phẳng</b>.",
+   "images": [],
+   "id": "781e136c7e49",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "How many pairs of edges of a cube are parallel?",
+   "en": "How many pairs of edges of a cube are parallel?",
+   "vi": "Có bao nhiêu cặp cạnh của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"cube\">hình lập phương</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b> với nhau?",
+   "options": [
+    "\\(19\\)",
+    "\\(18\\)",
+    "\\(17\\)",
+    "\\(36\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Check each pair of edges.",
+   "explain_vi": "Đáp án b. Xét từng cặp cạnh.",
+   "images": [],
+   "id": "9abc03c16300",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "In the pyramid, M and N are the midpoints of SA and SB. If AB = #, then MN = …",
+   "en": "In the pyramid, M and N are the midpoints of SA and SB. If AB = 12, then MN = …",
+   "vi": "Trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">hình chóp</b>, M, N là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> của SA, SB. Nếu AB = 12 thì MN = …",
+   "options": [
+    "\\(12\\)",
+    "\\(24\\)",
+    "\\(8\\)",
+    "\\(6\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Midline: \\(MN=\\dfrac12AB\\).",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midline\">Đường trung bình</b>: \\(MN=\\dfrac12AB\\).",
+   "images": [],
+   "id": "6ff61c53d396",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "In the tetrahedron ABCD, M, N, P, Q are the midpoints of AB, BC, CD, DA. If AC = # and BD = #, the perimeter of MNPQ is…",
+   "en": "In the tetrahedron ABCD, M, N, P, Q are the midpoints of AB, BC, CD, DA. If AC = 6 and BD = 8, the perimeter of MNPQ is…",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tetrahedron\">tứ diện</b> ABCD, M, N, P, Q là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> của AB, BC, CD, DA. Nếu AC = 6, BD = 8 thì chu vi MNPQ là…",
+   "options": [
+    "\\(7\\)",
+    "\\(28\\)",
+    "\\(24\\)",
+    "\\(14\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Perimeter \\(=AC+BD\\).",
+   "explain_vi": "Đáp án d. Chu vi \\(=AC+BD\\).",
+   "images": [],
+   "id": "d007f4187437",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "Through a point outside a line there are infinitely many parallel lines to it.",
+   "en": "Through a point outside a line there are infinitely many parallel lines to it.",
+   "vi": "Qua một điểm ngoài đường thẳng có vô số đường thẳng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b> với đường thẳng đó.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "Check: exactly one parallel line through a point outside; AB, CC′ are not coplanar; AB, DD′ are skew.",
+   "explain_vi": "Kiểm tra: qua một điểm ngoài có đúng một đường <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b>; AB, CC′ không <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coplanar\">đồng phẳng</b>; AB, DD′ chéo nhau.",
+   "images": [],
+   "id": "a7743261d0a4",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "Two lines with no common point are always parallel.",
+   "en": "Two lines with no common point are always parallel.",
+   "vi": "Hai đường thẳng không có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"common point\">điểm chung</b> thì luôn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b>.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "Parallel lines need a common plane; skew lines have none.",
+   "explain_vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel lines\">Hai đường thẳng song song</b> phải cùng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b>; hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b> nhau thì không.",
+   "images": [],
+   "id": "f3861539e485",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "How many pairs of edges of a tetrahedron are skew (not coplanar)?",
+   "en": "How many pairs of edges of a tetrahedron are skew (not coplanar)?",
+   "vi": "Có bao nhiêu cặp cạnh của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tetrahedron\">tứ diện</b> chéo nhau?",
+   "options": [],
+   "answer": "3",
+   "explain_en": "Check each pair of edges.",
+   "explain_vi": "Xét từng cặp cạnh.",
+   "images": [],
+   "id": "21acd4df3d40",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "In the tetrahedron ABCD, AC ⊥ BD, AC = #, BD = #; M, N, P, Q are the midpoints of AB, BC, CD, DA. Find the area of MNPQ.",
+   "en": "In the tetrahedron ABCD, AC ⊥ BD, AC = 6, BD = 8; M, N, P, Q are the midpoints of AB, BC, CD, DA. Find the area of MNPQ.",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tetrahedron\">tứ diện</b> ABCD có AC ⊥ BD, AC = 6, BD = 8; M, N, P, Q là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> AB, BC, CD, DA. Tính diện tích MNPQ.",
+   "options": [],
+   "answer": "12",
+   "explain_en": "MNPQ is a rectangle with sides \\(\\dfrac{AC}2\\), \\(\\dfrac{BD}2\\).",
+   "explain_vi": "MNPQ là hình chữ nhật có hai cạnh \\(\\dfrac{AC}2\\), \\(\\dfrac{BD}2\\).",
+   "images": [],
+   "id": "042483cb3d49",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "How many pairs of edges of a rectangular box ABCD.A′B′C′D′ are parallel?",
+   "en": "How many pairs of edges of a rectangular box ABCD.A′B′C′D′ are parallel?",
+   "vi": "Có bao nhiêu cặp cạnh của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelepiped\">hình hộp</b> chữ nhật ABCD.A′B′C′D′ <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b> với nhau?",
+   "options": [
+    "\\(18\\)",
+    "\\(17\\)",
+    "\\(19\\)",
+    "\\(36\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Check every pair of edges: 18 pair(s).",
+   "explain_vi": "Đáp án a. Xét mọi cặp cạnh: có 18 cặp.",
+   "images": [],
+   "id": "35799fca5ff9",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "How many pairs of edges of a triangular prism ABC.A′B′C′ are skew (not coplanar)?",
+   "en": "How many pairs of edges of a triangular prism ABC.A′B′C′ are skew (not coplanar)?",
+   "vi": "Có bao nhiêu cặp cạnh của lăng trụ tam giác ABC.A′B′C′ chéo nhau?",
+   "options": [
+    "\\(13\\)",
+    "\\(11\\)",
+    "\\(12\\)",
+    "\\(24\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Check every pair of edges: 12 pair(s).",
+   "explain_vi": "Đáp án c. Xét mọi cặp cạnh: có 12 cặp.",
+   "images": [],
+   "id": "a358a21368dd",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "In the pyramid, M and N are the midpoints of SA and SC. If AC = #, then MN = …",
+   "en": "In the pyramid, M and N are the midpoints of SA and SC. If AC = 12, then MN = …",
+   "vi": "Trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">hình chóp</b>, M, N lần lượt là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> của SA và SC. Nếu AC = 12 thì MN = …",
+   "options": [
+    "\\(6\\)",
+    "\\(24\\)",
+    "\\(7\\)",
+    "\\(12\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. MN is a midline of the triangle: \\(MN\\parallel AC\\), \\(MN=\\dfrac12AC\\).",
+   "explain_vi": "Đáp án a. MN là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midline of a triangle\">đường trung bình của tam giác</b>: \\(MN\\parallel AC\\), \\(MN=\\dfrac12AC\\).",
+   "images": [],
+   "id": "72f7d2dbd8a8",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "In the pyramid, M and N are the midpoints of SB and SC. If BC = #, then MN = …",
+   "en": "In the pyramid, M and N are the midpoints of SB and SC. If BC = 16, then MN = …",
+   "vi": "Trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">hình chóp</b>, M, N lần lượt là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> của SB và SC. Nếu BC = 16 thì MN = …",
+   "options": [
+    "\\(32\\)",
+    "\\(8\\)",
+    "\\(9\\)",
+    "\\(16\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. MN is a midline of the triangle: \\(MN\\parallel BC\\), \\(MN=\\dfrac12BC\\).",
+   "explain_vi": "Đáp án b. MN là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midline of a triangle\">đường trung bình của tam giác</b>: \\(MN\\parallel BC\\), \\(MN=\\dfrac12BC\\).",
+   "images": [],
+   "id": "0c8d7442bb55",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "In the tetrahedron ABCD, AC ⊥ BD, AC = #, BD = #, and M, N, P, Q are the midpoints of AB, BC, CD, DA. The area of MNPQ is…",
+   "en": "In the tetrahedron ABCD, AC ⊥ BD, AC = 20, BD = 6, and M, N, P, Q are the midpoints of AB, BC, CD, DA. The area of MNPQ is…",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tetrahedron\">tứ diện</b> ABCD có AC ⊥ BD, AC = 20, BD = 6; M, N, P, Q là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> của AB, BC, CD, DA. Diện tích tứ giác MNPQ bằng…",
+   "options": [
+    "\\(13\\)",
+    "\\(60\\)",
+    "\\(30\\)",
+    "\\(120\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. MNPQ is a rectangle with sides \\(\\dfrac{AC}2\\) and \\(\\dfrac{BD}2\\): area \\(\\dfrac{AC\\cdot BD}4\\).",
+   "explain_vi": "Đáp án c. MNPQ là hình chữ nhật có hai cạnh \\(\\dfrac{AC}2\\), \\(\\dfrac{BD}2\\): diện tích \\(\\dfrac{AC\\cdot BD}4\\).",
+   "images": [],
+   "id": "76f80319d6d1",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "In the tetrahedron ABCD, AC ⊥ BD, AC = #, BD = #, and M, N, P, Q are the midpoints of AB, BC, CD, DA. The area of MNPQ is…",
+   "en": "In the tetrahedron ABCD, AC ⊥ BD, AC = 4, BD = 10, and M, N, P, Q are the midpoints of AB, BC, CD, DA. The area of MNPQ is…",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tetrahedron\">tứ diện</b> ABCD có AC ⊥ BD, AC = 4, BD = 10; M, N, P, Q là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> của AB, BC, CD, DA. Diện tích tứ giác MNPQ bằng…",
+   "options": [
+    "\\(40\\)",
+    "\\(20\\)",
+    "\\(10\\)",
+    "\\(7\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. MNPQ is a rectangle with sides \\(\\dfrac{AC}2\\) and \\(\\dfrac{BD}2\\): area \\(\\dfrac{AC\\cdot BD}4\\).",
+   "explain_vi": "Đáp án c. MNPQ là hình chữ nhật có hai cạnh \\(\\dfrac{AC}2\\), \\(\\dfrac{BD}2\\): diện tích \\(\\dfrac{AC\\cdot BD}4\\).",
+   "images": [],
+   "id": "40f7b01b1a8f",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "In the tetrahedron ABCD, M, N, P, Q are the midpoints of AB, BC, CD, DA. If AC = # and BD = #, the perimeter of MNPQ is…",
+   "en": "In the tetrahedron ABCD, M, N, P, Q are the midpoints of AB, BC, CD, DA. If AC = 6 and BD = 10, the perimeter of MNPQ is…",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tetrahedron\">tứ diện</b> ABCD, M, N, P, Q lần lượt là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> của AB, BC, CD, DA. Biết AC = 6, BD = 10. Chu vi tứ giác MNPQ bằng…",
+   "options": [
+    "\\(30\\)",
+    "\\(32\\)",
+    "\\(16\\)",
+    "\\(8\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(MN=PQ=\\dfrac12AC\\) and \\(NP=MQ=\\dfrac12BD\\): perimeter \\(=AC+BD\\).",
+   "explain_vi": "Đáp án c. \\(MN=PQ=\\dfrac12AC\\) và \\(NP=MQ=\\dfrac12BD\\): chu vi \\(=AC+BD\\).",
+   "images": [],
+   "id": "41e521380ae7",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "In the tetrahedron ABCD, M, N, P, Q are the midpoints of AB, BC, CD, DA. If AC = # and BD = #, the perimeter of MNPQ is…",
+   "en": "In the tetrahedron ABCD, M, N, P, Q are the midpoints of AB, BC, CD, DA. If AC = 12 and BD = 16, the perimeter of MNPQ is…",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tetrahedron\">tứ diện</b> ABCD, M, N, P, Q lần lượt là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> của AB, BC, CD, DA. Biết AC = 12, BD = 16. Chu vi tứ giác MNPQ bằng…",
+   "options": [
+    "\\(56\\)",
+    "\\(96\\)",
+    "\\(14\\)",
+    "\\(28\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(MN=PQ=\\dfrac12AC\\) and \\(NP=MQ=\\dfrac12BD\\): perimeter \\(=AC+BD\\).",
+   "explain_vi": "Đáp án d. \\(MN=PQ=\\dfrac12AC\\) và \\(NP=MQ=\\dfrac12BD\\): chu vi \\(=AC+BD\\).",
+   "images": [],
+   "id": "36be1e7860e1",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "How many pairs of edges of the pyramid S.ABCD with a square base are skew (not coplanar)?",
+   "en": "How many pairs of edges of the pyramid S.ABCD with a square base are skew (not coplanar)?",
+   "vi": "Có bao nhiêu cặp cạnh của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">hình chóp</b> S.ABCD đáy hình vuông chéo nhau?",
+   "options": [
+    "\\(8\\)",
+    "\\(9\\)",
+    "\\(7\\)",
+    "\\(16\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Check each pair of edges.",
+   "explain_vi": "Đáp án a. Xét từng cặp cạnh.",
+   "images": [],
+   "id": "0728bca29f8c",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "In the pyramid, M and N are the midpoints of SA and SB. If AB = #, then MN = …",
+   "en": "In the pyramid, M and N are the midpoints of SA and SB. If AB = 16, then MN = …",
+   "vi": "Trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">hình chóp</b>, M, N là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> của SA, SB. Nếu AB = 16 thì MN = …",
+   "options": [
+    "\\(16\\)",
+    "\\(32\\)",
+    "\\(10\\)",
+    "\\(8\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Midline: \\(MN=\\dfrac12AB\\).",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midline\">Đường trung bình</b>: \\(MN=\\dfrac12AB\\).",
+   "images": [],
+   "id": "dc04d6785a85",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "In the tetrahedron ABCD, M, N, P, Q are the midpoints of AB, BC, CD, DA. If AC = # and BD = #, the perimeter of MNPQ is…",
+   "en": "In the tetrahedron ABCD, M, N, P, Q are the midpoints of AB, BC, CD, DA. If AC = 10 and BD = 12, the perimeter of MNPQ is…",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tetrahedron\">tứ diện</b> ABCD, M, N, P, Q là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> của AB, BC, CD, DA. Nếu AC = 10, BD = 12 thì chu vi MNPQ là…",
+   "options": [
+    "\\(11\\)",
+    "\\(44\\)",
+    "\\(60\\)",
+    "\\(22\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Perimeter \\(=AC+BD\\).",
+   "explain_vi": "Đáp án d. Chu vi \\(=AC+BD\\).",
+   "images": [],
+   "id": "c4902c6da4ab",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "In a cube, AB and CC′ are skew.",
+   "en": "In a cube, AB and CC′ are skew.",
+   "vi": "Trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"cube\">hình lập phương</b>, AB và CC′ chéo nhau.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "Check: exactly one parallel line through a point outside; AB, CC′ are not coplanar; AB, DD′ are skew.",
+   "explain_vi": "Kiểm tra: qua một điểm ngoài có đúng một đường <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b>; AB, CC′ không <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coplanar\">đồng phẳng</b>; AB, DD′ chéo nhau.",
+   "images": [],
+   "id": "79d754aaa965",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "How many pairs of edges of a triangular prism ABC.A′B′C′ are parallel?",
+   "en": "How many pairs of edges of a triangular prism ABC.A′B′C′ are parallel?",
+   "vi": "Có bao nhiêu cặp cạnh của lăng trụ tam giác ABC.A′B′C′ <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b> với nhau?",
+   "options": [],
+   "answer": "6",
+   "explain_en": "Check each pair of edges.",
+   "explain_vi": "Xét từng cặp cạnh.",
+   "images": [],
+   "id": "b6c4a0bf0171",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "In the tetrahedron ABCD, AC ⊥ BD, AC = #, BD = #; M, N, P, Q are the midpoints of AB, BC, CD, DA. Find the area of MNPQ.",
+   "en": "In the tetrahedron ABCD, AC ⊥ BD, AC = 10, BD = 12; M, N, P, Q are the midpoints of AB, BC, CD, DA. Find the area of MNPQ.",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tetrahedron\">tứ diện</b> ABCD có AC ⊥ BD, AC = 10, BD = 12; M, N, P, Q là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> AB, BC, CD, DA. Tính diện tích MNPQ.",
+   "options": [],
+   "answer": "30",
+   "explain_en": "MNPQ is a rectangle with sides \\(\\dfrac{AC}2\\), \\(\\dfrac{BD}2\\).",
+   "explain_vi": "MNPQ là hình chữ nhật có hai cạnh \\(\\dfrac{AC}2\\), \\(\\dfrac{BD}2\\).",
+   "images": [],
+   "id": "5d387ef88953",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "How many pairs of edges of the pyramid S.ABCD with a square base are intersecting?",
+   "en": "How many pairs of edges of the pyramid S.ABCD with a square base are intersecting?",
+   "vi": "Có bao nhiêu cặp cạnh của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">hình chóp</b> S.ABCD đáy hình vuông cắt nhau?",
+   "options": [
+    "\\(17\\)",
+    "\\(18\\)",
+    "\\(19\\)",
+    "\\(36\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Check every pair of edges: 18 pair(s).",
+   "explain_vi": "Đáp án b. Xét mọi cặp cạnh: có 18 cặp.",
+   "images": [],
+   "id": "ffedd3acc6db",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "How many pairs of edges of the pyramid S.ABCD with a square base are parallel?",
+   "en": "How many pairs of edges of the pyramid S.ABCD with a square base are parallel?",
+   "vi": "Có bao nhiêu cặp cạnh của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">hình chóp</b> S.ABCD đáy hình vuông <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b> với nhau?",
+   "options": [
+    "\\(1\\)",
+    "\\(2\\)",
+    "\\(3\\)",
+    "\\(4\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Check every pair of edges: 2 pair(s).",
+   "explain_vi": "Đáp án b. Xét mọi cặp cạnh: có 2 cặp.",
+   "images": [],
+   "id": "559dc3d88fcf",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "In the pyramid, M and N are the midpoints of SB and SC. If BC = #, then MN = …",
+   "en": "In the pyramid, M and N are the midpoints of SB and SC. If BC = 12, then MN = …",
+   "vi": "Trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">hình chóp</b>, M, N lần lượt là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> của SB và SC. Nếu BC = 12 thì MN = …",
+   "options": [
+    "\\(24\\)",
+    "\\(6\\)",
+    "\\(12\\)",
+    "\\(7\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. MN is a midline of the triangle: \\(MN\\parallel BC\\), \\(MN=\\dfrac12BC\\).",
+   "explain_vi": "Đáp án b. MN là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midline of a triangle\">đường trung bình của tam giác</b>: \\(MN\\parallel BC\\), \\(MN=\\dfrac12BC\\).",
+   "images": [],
+   "id": "94f56ae5facd",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "In the pyramid, M and N are the midpoints of SB and SC. If BC = #, then MN = …",
+   "en": "In the pyramid, M and N are the midpoints of SB and SC. If BC = 8, then MN = …",
+   "vi": "Trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">hình chóp</b>, M, N lần lượt là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> của SB và SC. Nếu BC = 8 thì MN = …",
+   "options": [
+    "\\(8\\)",
+    "\\(16\\)",
+    "\\(5\\)",
+    "\\(4\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. MN is a midline of the triangle: \\(MN\\parallel BC\\), \\(MN=\\dfrac12BC\\).",
+   "explain_vi": "Đáp án d. MN là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midline of a triangle\">đường trung bình của tam giác</b>: \\(MN\\parallel BC\\), \\(MN=\\dfrac12BC\\).",
+   "images": [],
+   "id": "3a84fc75cf7e",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "In the tetrahedron ABCD, AC ⊥ BD, AC = #, BD = #, and M, N, P, Q are the midpoints of AB, BC, CD, DA. The area of MNPQ is…",
+   "en": "In the tetrahedron ABCD, AC ⊥ BD, AC = 20, BD = 30, and M, N, P, Q are the midpoints of AB, BC, CD, DA. The area of MNPQ is…",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tetrahedron\">tứ diện</b> ABCD có AC ⊥ BD, AC = 20, BD = 30; M, N, P, Q là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> của AB, BC, CD, DA. Diện tích tứ giác MNPQ bằng…",
+   "options": [
+    "\\(150\\)",
+    "\\(600\\)",
+    "\\(25\\)",
+    "\\(300\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. MNPQ is a rectangle with sides \\(\\dfrac{AC}2\\) and \\(\\dfrac{BD}2\\): area \\(\\dfrac{AC\\cdot BD}4\\).",
+   "explain_vi": "Đáp án a. MNPQ là hình chữ nhật có hai cạnh \\(\\dfrac{AC}2\\), \\(\\dfrac{BD}2\\): diện tích \\(\\dfrac{AC\\cdot BD}4\\).",
+   "images": [],
+   "id": "893e37d85aea",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "In the tetrahedron ABCD, AC ⊥ BD, AC = #, BD = #, and M, N, P, Q are the midpoints of AB, BC, CD, DA. The area of MNPQ is…",
+   "en": "In the tetrahedron ABCD, AC ⊥ BD, AC = 12, BD = 16, and M, N, P, Q are the midpoints of AB, BC, CD, DA. The area of MNPQ is…",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tetrahedron\">tứ diện</b> ABCD có AC ⊥ BD, AC = 12, BD = 16; M, N, P, Q là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> của AB, BC, CD, DA. Diện tích tứ giác MNPQ bằng…",
+   "options": [
+    "\\(192\\)",
+    "\\(14\\)",
+    "\\(96\\)",
+    "\\(48\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. MNPQ is a rectangle with sides \\(\\dfrac{AC}2\\) and \\(\\dfrac{BD}2\\): area \\(\\dfrac{AC\\cdot BD}4\\).",
+   "explain_vi": "Đáp án d. MNPQ là hình chữ nhật có hai cạnh \\(\\dfrac{AC}2\\), \\(\\dfrac{BD}2\\): diện tích \\(\\dfrac{AC\\cdot BD}4\\).",
+   "images": [],
+   "id": "8e2ba971766e",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "In the tetrahedron ABCD, M, N, P, Q are the midpoints of AB, BC, CD, DA. If AC = # and BD = #, the perimeter of MNPQ is…",
+   "en": "In the tetrahedron ABCD, M, N, P, Q are the midpoints of AB, BC, CD, DA. If AC = 18 and BD = 24, the perimeter of MNPQ is…",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tetrahedron\">tứ diện</b> ABCD, M, N, P, Q lần lượt là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> của AB, BC, CD, DA. Biết AC = 18, BD = 24. Chu vi tứ giác MNPQ bằng…",
+   "options": [
+    "\\(21\\)",
+    "\\(216\\)",
+    "\\(42\\)",
+    "\\(84\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(MN=PQ=\\dfrac12AC\\) and \\(NP=MQ=\\dfrac12BD\\): perimeter \\(=AC+BD\\).",
+   "explain_vi": "Đáp án c. \\(MN=PQ=\\dfrac12AC\\) và \\(NP=MQ=\\dfrac12BD\\): chu vi \\(=AC+BD\\).",
+   "images": [],
+   "id": "910a6ba047d7",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "In the tetrahedron ABCD, M, N, P, Q are the midpoints of AB, BC, CD, DA. If AC = # and BD = #, the perimeter of MNPQ is…",
+   "en": "In the tetrahedron ABCD, M, N, P, Q are the midpoints of AB, BC, CD, DA. If AC = 10 and BD = 16, the perimeter of MNPQ is…",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tetrahedron\">tứ diện</b> ABCD, M, N, P, Q lần lượt là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> của AB, BC, CD, DA. Biết AC = 10, BD = 16. Chu vi tứ giác MNPQ bằng…",
+   "options": [
+    "\\(52\\)",
+    "\\(26\\)",
+    "\\(80\\)",
+    "\\(13\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(MN=PQ=\\dfrac12AC\\) and \\(NP=MQ=\\dfrac12BD\\): perimeter \\(=AC+BD\\).",
+   "explain_vi": "Đáp án b. \\(MN=PQ=\\dfrac12AC\\) và \\(NP=MQ=\\dfrac12BD\\): chu vi \\(=AC+BD\\).",
+   "images": [],
+   "id": "e2abc6a9ca18",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "In the pyramid, M and N are the midpoints of SA and SB. If AB = #, then MN = …",
+   "en": "In the pyramid, M and N are the midpoints of SA and SB. If AB = 20, then MN = …",
+   "vi": "Trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">hình chóp</b>, M, N là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> của SA, SB. Nếu AB = 20 thì MN = …",
+   "options": [
+    "\\(10\\)",
+    "\\(20\\)",
+    "\\(40\\)",
+    "\\(12\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Midline: \\(MN=\\dfrac12AB\\).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midline\">Đường trung bình</b>: \\(MN=\\dfrac12AB\\).",
+   "images": [],
+   "id": "ad3604bd34b6",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "In the tetrahedron ABCD, M, N, P, Q are the midpoints of AB, BC, CD, DA. If AC = # and BD = #, the perimeter of MNPQ is…",
+   "en": "In the tetrahedron ABCD, M, N, P, Q are the midpoints of AB, BC, CD, DA. If AC = 8 and BD = 14, the perimeter of MNPQ is…",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tetrahedron\">tứ diện</b> ABCD, M, N, P, Q là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> của AB, BC, CD, DA. Nếu AC = 8, BD = 14 thì chu vi MNPQ là…",
+   "options": [
+    "\\(11\\)",
+    "\\(44\\)",
+    "\\(56\\)",
+    "\\(22\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Perimeter \\(=AC+BD\\).",
+   "explain_vi": "Đáp án d. Chu vi \\(=AC+BD\\).",
+   "images": [],
+   "id": "b020655d36ac",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "If \\(a\\parallel c\\) and \\(b\\parallel c\\), then \\(a\\parallel b\\) (or they are the same line).",
+   "en": "If \\(a\\parallel c\\) and \\(b\\parallel c\\), then \\(a\\parallel b\\) (or they are the same line).",
+   "vi": "Nếu \\(a\\parallel c\\) và \\(b\\parallel c\\) thì \\(a\\parallel b\\) (hoặc trùng nhau).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "Parallel lines need a common plane; skew lines have none.",
+   "explain_vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel lines\">Hai đường thẳng song song</b> phải cùng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b>; hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b> nhau thì không.",
+   "images": [],
+   "id": "120625cccc46",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "In a cube, AB and DD′ are intersecting.",
+   "en": "In a cube, AB and DD′ are intersecting.",
+   "vi": "Trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"cube\">hình lập phương</b>, AB và DD′ cắt nhau.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "Check: exactly one parallel line through a point outside; AB, CC′ are not coplanar; AB, DD′ are skew.",
+   "explain_vi": "Kiểm tra: qua một điểm ngoài có đúng một đường <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b>; AB, CC′ không <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coplanar\">đồng phẳng</b>; AB, DD′ chéo nhau.",
+   "images": [],
+   "id": "87df12fa897d",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "How many pairs of edges of a cube are skew (not coplanar)?",
+   "en": "How many pairs of edges of a cube are skew (not coplanar)?",
+   "vi": "Có bao nhiêu cặp cạnh của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"cube\">hình lập phương</b> chéo nhau?",
+   "options": [],
+   "answer": "24",
+   "explain_en": "Check each pair of edges.",
+   "explain_vi": "Xét từng cặp cạnh.",
+   "images": [],
+   "id": "bbab1ba7dda4",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "In the tetrahedron ABCD, AC ⊥ BD, AC = #, BD = #; M, N, P, Q are the midpoints of AB, BC, CD, DA. Find the area of MNPQ.",
+   "en": "In the tetrahedron ABCD, AC ⊥ BD, AC = 12, BD = 16; M, N, P, Q are the midpoints of AB, BC, CD, DA. Find the area of MNPQ.",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tetrahedron\">tứ diện</b> ABCD có AC ⊥ BD, AC = 12, BD = 16; M, N, P, Q là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> AB, BC, CD, DA. Tính diện tích MNPQ.",
+   "options": [],
+   "answer": "48",
+   "explain_en": "MNPQ is a rectangle with sides \\(\\dfrac{AC}2\\), \\(\\dfrac{BD}2\\).",
+   "explain_vi": "MNPQ là hình chữ nhật có hai cạnh \\(\\dfrac{AC}2\\), \\(\\dfrac{BD}2\\).",
+   "images": [],
+   "id": "7a901d330af8",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "How many pairs of edges of a cube are intersecting?",
+   "en": "How many pairs of edges of a cube are intersecting?",
+   "vi": "Có bao nhiêu cặp cạnh của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"cube\">hình lập phương</b> cắt nhau?",
+   "options": [
+    "\\(24\\)",
+    "\\(48\\)",
+    "\\(23\\)",
+    "\\(25\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Check every pair of edges: 24 pair(s).",
+   "explain_vi": "Đáp án a. Xét mọi cặp cạnh: có 24 cặp.",
+   "images": [],
+   "id": "b9e333a48970",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "How many pairs of edges of a tetrahedron are intersecting?",
+   "en": "How many pairs of edges of a tetrahedron are intersecting?",
+   "vi": "Có bao nhiêu cặp cạnh của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tetrahedron\">tứ diện</b> cắt nhau?",
+   "options": [
+    "\\(11\\)",
+    "\\(13\\)",
+    "\\(12\\)",
+    "\\(24\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Check every pair of edges: 12 pair(s).",
+   "explain_vi": "Đáp án c. Xét mọi cặp cạnh: có 12 cặp.",
+   "images": [],
+   "id": "993f87747dc5",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "In the pyramid, M and N are the midpoints of SA and SC. If AC = #, then MN = …",
+   "en": "In the pyramid, M and N are the midpoints of SA and SC. If AC = 20, then MN = …",
+   "vi": "Trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">hình chóp</b>, M, N lần lượt là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> của SA và SC. Nếu AC = 20 thì MN = …",
+   "options": [
+    "\\(20\\)",
+    "\\(11\\)",
+    "\\(40\\)",
+    "\\(10\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. MN is a midline of the triangle: \\(MN\\parallel AC\\), \\(MN=\\dfrac12AC\\).",
+   "explain_vi": "Đáp án d. MN là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midline of a triangle\">đường trung bình của tam giác</b>: \\(MN\\parallel AC\\), \\(MN=\\dfrac12AC\\).",
+   "images": [],
+   "id": "ea6d32d0d07b",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "In the pyramid, M and N are the midpoints of SA and SC. If AC = #, then MN = …",
+   "en": "In the pyramid, M and N are the midpoints of SA and SC. If AC = 10, then MN = …",
+   "vi": "Trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">hình chóp</b>, M, N lần lượt là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> của SA và SC. Nếu AC = 10 thì MN = …",
+   "options": [
+    "\\(20\\)",
+    "\\(10\\)",
+    "\\(5\\)",
+    "\\(6\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. MN is a midline of the triangle: \\(MN\\parallel AC\\), \\(MN=\\dfrac12AC\\).",
+   "explain_vi": "Đáp án c. MN là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midline of a triangle\">đường trung bình của tam giác</b>: \\(MN\\parallel AC\\), \\(MN=\\dfrac12AC\\).",
+   "images": [],
+   "id": "d42f47dd6873",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "In the tetrahedron ABCD, AC ⊥ BD, AC = #, BD = #, and M, N, P, Q are the midpoints of AB, BC, CD, DA. The area of MNPQ is…",
+   "en": "In the tetrahedron ABCD, AC ⊥ BD, AC = 6, BD = 8, and M, N, P, Q are the midpoints of AB, BC, CD, DA. The area of MNPQ is…",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tetrahedron\">tứ diện</b> ABCD có AC ⊥ BD, AC = 6, BD = 8; M, N, P, Q là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> của AB, BC, CD, DA. Diện tích tứ giác MNPQ bằng…",
+   "options": [
+    "\\(48\\)",
+    "\\(12\\)",
+    "\\(24\\)",
+    "\\(7\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. MNPQ is a rectangle with sides \\(\\dfrac{AC}2\\) and \\(\\dfrac{BD}2\\): area \\(\\dfrac{AC\\cdot BD}4\\).",
+   "explain_vi": "Đáp án b. MNPQ là hình chữ nhật có hai cạnh \\(\\dfrac{AC}2\\), \\(\\dfrac{BD}2\\): diện tích \\(\\dfrac{AC\\cdot BD}4\\).",
+   "images": [],
+   "id": "f4063b54b867",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "In the tetrahedron ABCD, AC ⊥ BD, AC = #, BD = #, and M, N, P, Q are the midpoints of AB, BC, CD, DA. The area of MNPQ is…",
+   "en": "In the tetrahedron ABCD, AC ⊥ BD, AC = 16, BD = 20, and M, N, P, Q are the midpoints of AB, BC, CD, DA. The area of MNPQ is…",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tetrahedron\">tứ diện</b> ABCD có AC ⊥ BD, AC = 16, BD = 20; M, N, P, Q là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> của AB, BC, CD, DA. Diện tích tứ giác MNPQ bằng…",
+   "options": [
+    "\\(18\\)",
+    "\\(320\\)",
+    "\\(80\\)",
+    "\\(160\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. MNPQ is a rectangle with sides \\(\\dfrac{AC}2\\) and \\(\\dfrac{BD}2\\): area \\(\\dfrac{AC\\cdot BD}4\\).",
+   "explain_vi": "Đáp án c. MNPQ là hình chữ nhật có hai cạnh \\(\\dfrac{AC}2\\), \\(\\dfrac{BD}2\\): diện tích \\(\\dfrac{AC\\cdot BD}4\\).",
+   "images": [],
+   "id": "c3d893f88d14",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "In the tetrahedron ABCD, M, N, P, Q are the midpoints of AB, BC, CD, DA. If AC = # and BD = #, the perimeter of MNPQ is…",
+   "en": "In the tetrahedron ABCD, M, N, P, Q are the midpoints of AB, BC, CD, DA. If AC = 4 and BD = 10, the perimeter of MNPQ is…",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tetrahedron\">tứ diện</b> ABCD, M, N, P, Q lần lượt là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> của AB, BC, CD, DA. Biết AC = 4, BD = 10. Chu vi tứ giác MNPQ bằng…",
+   "options": [
+    "\\(14\\)",
+    "\\(28\\)",
+    "\\(20\\)",
+    "\\(7\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(MN=PQ=\\dfrac12AC\\) and \\(NP=MQ=\\dfrac12BD\\): perimeter \\(=AC+BD\\).",
+   "explain_vi": "Đáp án a. \\(MN=PQ=\\dfrac12AC\\) và \\(NP=MQ=\\dfrac12BD\\): chu vi \\(=AC+BD\\).",
+   "images": [],
+   "id": "12908e06039e",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "In the tetrahedron ABCD, M, N, P, Q are the midpoints of AB, BC, CD, DA. If AC = # and BD = #, the perimeter of MNPQ is…",
+   "en": "In the tetrahedron ABCD, M, N, P, Q are the midpoints of AB, BC, CD, DA. If AC = 16 and BD = 20, the perimeter of MNPQ is…",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tetrahedron\">tứ diện</b> ABCD, M, N, P, Q lần lượt là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> của AB, BC, CD, DA. Biết AC = 16, BD = 20. Chu vi tứ giác MNPQ bằng…",
+   "options": [
+    "\\(72\\)",
+    "\\(18\\)",
+    "\\(160\\)",
+    "\\(36\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(MN=PQ=\\dfrac12AC\\) and \\(NP=MQ=\\dfrac12BD\\): perimeter \\(=AC+BD\\).",
+   "explain_vi": "Đáp án d. \\(MN=PQ=\\dfrac12AC\\) và \\(NP=MQ=\\dfrac12BD\\): chu vi \\(=AC+BD\\).",
+   "images": [],
+   "id": "f9ee01d1a478",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  }
+ ]
+}

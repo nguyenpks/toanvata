@@ -150,7 +150,8 @@ S1 = [g for _, g in pr]
 pr = LEVEL_PRACTICE(_T, {1: S1, 2: S2, 3: S3})
 import sp_g12 as _spg
 from mb_selfpractice import SELF as _SELF
-_sf = _SELF(_spg.M4S, start=11, avoid=[t[1] for t in pr])
+import sp_g12r2 as R4
+_sf = R4.dset(pr, R4.D4, (12041, 12042, 12043))
 pr = pr + [(('%s. Self-practice: Multiple Choice' % chr(ord('A') + len({t[0][0][0] for t in pr})), '%s. Tự luyện: trắc nghiệm' % chr(ord('A') + len({t[0][0][0] for t in pr}))), _sf[lv], [lv]) for lv in (1, 2, 3)]
 pr.sort(key=lambda t: t[2][0])
 

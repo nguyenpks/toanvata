@@ -1,0 +1,1563 @@
+{
+ "lesson": "g12-coord-01",
+ "grade": 12,
+ "no": 7,
+ "title": "Hệ trục tọa độ trong không gian",
+ "path": "lessons/grade12/vectors-in-space/coordinate-system-oxyz.html",
+ "items": [
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "The projection of \\(M(#;-#;#)\\) onto the plane \\((Oxz)\\) is…",
+   "en": "The projection of \\(M(3;-2;5)\\) onto the plane \\((Oxz)\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"projection\">Hình chiếu vuông góc</b> của \\(M(3;-2;5)\\) lên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> \\((Oxz)\\) là…",
+   "options": [
+    "\\((3;-2;-5)\\)",
+    "\\((0;2;-5)\\)",
+    "\\((3;0;5)\\)",
+    "\\((3;-2;5)\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Set the missing coordinate to 0.",
+   "explain_vi": "Đáp án c. Cho tọa độ còn thiếu bằng 0.",
+   "images": [],
+   "id": "d99040632fa0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(A(#;#;-#)\\), \\(B(#;#;#)\\), \\(C(#;-#;#)\\). The centroid of \\(ABC\\) is…",
+   "en": "\\(A(1;2;-1)\\), \\(B(3;6;3)\\), \\(C(2;-2;4)\\). The centroid of \\(ABC\\) is…",
+   "vi": "Cho \\(A(1;2;-1)\\), \\(B(3;6;3)\\), \\(C(2;-2;4)\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"centroid\">Trọng tâm</b> tam giác \\(ABC\\) là…",
+   "options": [
+    "\\((2;2;2)\\)",
+    "\\((6;6;6)\\)",
+    "\\((3;3;3)\\)",
+    "\\((1;1;1)\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Average the coordinates.",
+   "explain_vi": "Đáp án a. Lấy trung bình cộng từng tọa độ.",
+   "images": [],
+   "id": "5154e19ee687",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(A(#;#;-#)\\), \\(B(#;#;#)\\). Then \\(AB=\\)…",
+   "en": "\\(A(1;2;-1)\\), \\(B(3;6;3)\\). Then \\(AB=\\)…",
+   "vi": "Cho \\(A(1;2;-1)\\), \\(B(3;6;3)\\). Khi đó \\(AB=\\)…",
+   "options": [
+    "\\(7\\)",
+    "\\(5\\)",
+    "\\(10\\)",
+    "\\(6\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(AB=\\sqrt{36}=6\\).",
+   "explain_vi": "Đáp án d. \\(AB=\\sqrt{36}=6\\).",
+   "images": [],
+   "id": "1f01e35f7b76",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "The point \\(N(#;-#;#)\\) lies in the plane \\((Oxy)\\).",
+   "en": "The point \\(N(3;-2;0)\\) lies in the plane \\((Oxy)\\).",
+   "vi": "Điểm \\(N(3;-2;0)\\) thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> \\((Oxy)\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "A point of \\((Oxy)\\) has the third coordinate 0.",
+   "explain_vi": "Điểm thuộc \\((Oxy)\\) có tọa độ thứ ba bằng 0.",
+   "images": [],
+   "id": "1f419540357f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "The point symmetric to \\(M(#;-#;#)\\) about the origin \\(O\\) is \\((-#;#;-#)\\).",
+   "en": "The point symmetric to \\(M(3;-2;5)\\) about the origin \\(O\\) is \\((-3;2;-5)\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"symmetric point\">Điểm đối xứng</b> với \\(M(3;-2;5)\\) qua gốc \\(O\\) là \\((-3;2;-5)\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "The correct point is \\((-3;2;-5)\\).",
+   "explain_vi": "Điểm đúng là \\((-3;2;-5)\\).",
+   "images": [],
+   "id": "0e9181b0c26f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "\\(A(#;#;#)\\), \\(B(#;#;#)\\). Find \\(AB\\).",
+   "en": "\\(A(0;1;2)\\), \\(B(2;4;8)\\). Find \\(AB\\).",
+   "vi": "Cho \\(A(0;1;2)\\), \\(B(2;4;8)\\). Tính \\(AB\\).",
+   "options": [],
+   "answer": "7",
+   "explain_en": "\\(AB=\\sqrt{(x_B-x_A)^2+\\dots}=7\\).",
+   "explain_vi": "\\(AB=\\sqrt{(x_B-x_A)^2+\\dots}=7\\).",
+   "images": [],
+   "id": "43b6d7356730",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "\\(ABCD\\) is a parallelogram, \\(A(#;#;#)\\), \\(B(#;#;#)\\), \\(C(#;#;#)\\). Find the \\(z\\)-coordinate of \\(D\\).",
+   "en": "\\(ABCD\\) is a parallelogram, \\(A(1;2;3)\\), \\(B(2;0;1)\\), \\(C(4;1;2)\\). Find the \\(z\\)-coordinate of \\(D\\).",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelogram\">hình bình hành</b> \\(ABCD\\) có \\(A(1;2;3)\\), \\(B(2;0;1)\\), \\(C(4;1;2)\\). Tìm cao độ của \\(D\\).",
+   "options": [],
+   "answer": "4",
+   "explain_en": "\\(z_D=z_A+z_C-z_B=4\\).",
+   "explain_vi": "\\(z_D=z_A+z_C-z_B=4\\).",
+   "images": [],
+   "id": "f6889fd314f2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "A room is a rectangular box \\(#\\) m long (along \\(Ox\\)), \\(#\\) m wide (along \\(Oy\\)) and \\(#\\) m high (along \\(Oz\\)), with a floor corner at \\(O\\). A cable is stretched from \\(O\\) to the opposite corner of the ceiling. How long is the cable (m)?",
+   "en": "A room is a rectangular box \\(8\\) m long (along \\(Ox\\)), \\(4\\) m wide (along \\(Oy\\)) and \\(1\\) m high (along \\(Oz\\)), with a floor corner at \\(O\\). A cable is stretched from \\(O\\) to the opposite corner of the ceiling. How long is the cable (m)?",
+   "vi": "Một căn phòng dạng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelepiped\">hình hộp</b> chữ nhật dài \\(8\\) m (theo \\(Ox\\)), rộng \\(4\\) m (theo \\(Oy\\)), cao \\(1\\) m (theo \\(Oz\\)), một góc sàn ở \\(O\\). Người ta căng một sợi dây từ \\(O\\) đến <b class=\"mbl-term\" tabindex=\"0\" data-en=\"opposite angles\">góc đối</b> diện trên trần. Sợi dây dài bao nhiêu mét?",
+   "options": [
+    "\\(8\\)",
+    "\\(13\\)",
+    "\\(10\\)",
+    "\\(9\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. The opposite ceiling corner is \\((8;\\,4;\\,1)\\), so the length is \\(\\sqrt{8^2+4^2+1^2}=9\\).",
+   "explain_vi": "Đáp án d. Góc trần đối diện là \\((8;\\,4;\\,1)\\), nên độ dài là \\(\\sqrt{8^2+4^2+1^2}=9\\).",
+   "images": [],
+   "id": "3a91c8202e5c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Find the point \\(M\\) on the axis \\(Oy\\) that is equidistant from \\(A(#;\\,-#;\\,#)\\) and \\(B(#;\\,#;\\,#)\\).",
+   "en": "Find the point \\(M\\) on the axis \\(Oy\\) that is equidistant from \\(A(5;\\,-1;\\,1)\\) and \\(B(5;\\,1;\\,3)\\).",
+   "vi": "Tìm điểm \\(M\\) thuộc trục \\(Oy\\) cách đều hai điểm \\(A(5;\\,-1;\\,1)\\) và \\(B(5;\\,1;\\,3)\\).",
+   "options": [
+    "\\((0;\\,0;\\,2)\\)",
+    "\\((0;\\,-2;\\,0)\\)",
+    "\\((0;\\,0;\\,0)\\)",
+    "\\((0;\\,2;\\,0)\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(M\\) has only the \\(y\\)-coordinate \\(t\\). \\(MA^2=MB^2\\) gives a linear equation in \\(t\\): \\(t=2\\).",
+   "explain_vi": "Đáp án d. \\(M\\) chỉ có tọa độ \\(y=t\\). Từ \\(MA^2=MB^2\\) được <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> bậc nhất ẩn \\(t\\): \\(t=2\\).",
+   "images": [],
+   "id": "7e3c92aa35db",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "In \\(Oxyz\\), \\(\\overrightarrow{OM}=-#\\vec i+#\\vec j\\). The coordinates of \\(M\\) are…",
+   "en": "In \\(Oxyz\\), \\(\\overrightarrow{OM}=-6\\vec i+5\\vec j\\). The coordinates of \\(M\\) are…",
+   "vi": "Trong không gian \\(Oxyz\\), \\(\\overrightarrow{OM}=-6\\vec i+5\\vec j\\). Tọa độ điểm \\(M\\) là…",
+   "options": [
+    "\\((0;\\,-6;\\,5)\\)",
+    "\\((5;\\,-6;\\,0)\\)",
+    "\\((-6;\\,5;\\,0)\\)",
+    "\\((6;\\,-5;\\,0)\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\overrightarrow{OM}=x\\vec i+y\\vec j+z\\vec k\\Leftrightarrow M(x;y;z)\\); a missing vector means coordinate 0: \\(M(-6;\\,5;\\,0)\\).",
+   "explain_vi": "Đáp án c. \\(\\overrightarrow{OM}=x\\vec i+y\\vec j+z\\vec k\\Leftrightarrow M(x;y;z)\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"unit vector\">vectơ đơn vị</b> không có mặt ứng với tọa độ 0: \\(M(-6;\\,5;\\,0)\\).",
+   "images": [],
+   "id": "568fb1c1b3a0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The distance from \\(M(-#;\\,#;\\,-#)\\) to the axis \\(Oy\\) is…",
+   "en": "The distance from \\(M(-6;\\,9;\\,-8)\\) to the axis \\(Oy\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">Khoảng cách</b> từ \\(M(-6;\\,9;\\,-8)\\) đến trục \\(Oy\\) bằng…",
+   "options": [
+    "\\(3\\sqrt{13}\\)",
+    "\\(9\\)",
+    "\\(\\sqrt{181}\\)",
+    "\\(10\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. The foot of the perpendicular on \\(Oy\\) keeps only the \\(y\\)-coordinate, so the distance is \\(\\sqrt{6^2+8^2}=10\\).",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"projection\">Hình chiếu</b> của \\(M\\) trên \\(Oy\\) chỉ giữ tọa độ \\(y\\), nên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">khoảng cách</b> là \\(\\sqrt{6^2+8^2}=10\\).",
+   "images": [],
+   "id": "c6ea04ca8f1a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The point symmetric to \\(M(-#;\\,-#;\\,-#)\\) with respect to the plane \\((Oxz)\\) is…",
+   "en": "The point symmetric to \\(M(-1;\\,-2;\\,-4)\\) with respect to the plane \\((Oxz)\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"symmetric point\">Điểm đối xứng</b> với \\(M(-1;\\,-2;\\,-4)\\) qua <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> \\((Oxz)\\) là…",
+   "options": [
+    "\\((-1;\\,2;\\,-4)\\)",
+    "\\((1;\\,2;\\,4)\\)",
+    "\\((1;\\,-2;\\,-4)\\)",
+    "\\((-1;\\,-2;\\,4)\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Reflecting in \\((Oxz)\\) changes only the sign of the coordinate along the axis perpendicular to it.",
+   "explain_vi": "Đáp án a. Đối xứng qua \\((Oxz)\\) chỉ đổi dấu tọa độ ứng với trục <b class=\"mbl-term\" tabindex=\"0\" data-en=\"perpendicular\">vuông góc</b> với <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> đó.",
+   "images": [],
+   "id": "3ef093618635",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The rectangular box \\(OABC.O'A'B'C'\\) has \\(O\\) at the origin, \\(A\\) on \\(Ox\\), \\(C\\) on \\(Oy\\), \\(O'\\) on \\(Oz\\), with \\(OA=#\\), \\(OC=#\\), \\(OO'=#\\) (see the figure). The coordinates of \\(B'\\) are…",
+   "en": "The rectangular box \\(OABC.O'A'B'C'\\) has \\(O\\) at the origin, \\(A\\) on \\(Ox\\), \\(C\\) on \\(Oy\\), \\(O'\\) on \\(Oz\\), with \\(OA=2\\), \\(OC=4\\), \\(OO'=5\\) (see the figure). The coordinates of \\(B'\\) are…<img src=\"../../../img/fig3d/215bc8cc82c65fcf.svg\" alt=\"Box in Oxyz\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelepiped\">Hình hộp</b> chữ nhật \\(OABC.O'A'B'C'\\) có \\(O\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"origin\">gốc tọa độ</b>, \\(A\\) thuộc \\(Ox\\), \\(C\\) thuộc \\(Oy\\), \\(O'\\) thuộc \\(Oz\\), với \\(OA=2\\), \\(OC=4\\), \\(OO'=5\\) (xem hình). Tọa độ của \\(B'\\) là…<img src=\"../../../img/fig3d/215bc8cc82c65fcf.svg\" alt=\"Box in Oxyz\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "\\((4;\\,2;\\,5)\\)",
+    "\\((2;\\,4;\\,5)\\)",
+    "\\((2;\\,5;\\,4)\\)",
+    "\\((2;\\,4;\\,0)\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(B'\\) is reached by going \\(2\\) along \\(Ox\\), \\(4\\) along \\(Oy\\), \\(5\\) along \\(Oz\\): \\(B'(2;\\,4;\\,5)\\).",
+   "explain_vi": "Đáp án b. Từ \\(O\\) tới \\(B'\\): đi \\(2\\) theo \\(Ox\\), \\(4\\) theo \\(Oy\\), \\(5\\) theo \\(Oz\\): \\(B'(2;\\,4;\\,5)\\).",
+   "images": [
+    "img/fig3d/215bc8cc82c65fcf.svg"
+   ],
+   "id": "863f90a7cb1c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(A(#;\\,-#;\\,-#)\\), \\(B(-#;\\,-#;\\,-#)\\), \\(C(#;\\,-#;\\,-#)\\). Triangle \\(ABC\\)…",
+   "en": "\\(A(2;\\,-2;\\,-2)\\), \\(B(-1;\\,-3;\\,-1)\\), \\(C(1;\\,-2;\\,-5)\\). Triangle \\(ABC\\)…",
+   "vi": "Cho \\(A(2;\\,-2;\\,-2)\\), \\(B(-1;\\,-3;\\,-1)\\), \\(C(1;\\,-2;\\,-5)\\). Tam giác \\(ABC\\)…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">has a right angle at \\(C\\)</span><span class=\"vi\">vuông tại \\(C\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">has a right angle at \\(B\\)</span><span class=\"vi\">vuông tại \\(B\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">has no right angle</span><span class=\"vi\">không có góc vuông</span></span>",
+    "<span class=\"txi\"><span class=\"en\">has a right angle at \\(A\\)</span><span class=\"vi\">vuông tại \\(A\\)</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\overrightarrow{AB}\\cdot\\overrightarrow{AC}=0\\), so the right angle is at \\(A\\).",
+   "explain_vi": "Đáp án d. \\(\\overrightarrow{AB}\\cdot\\overrightarrow{AC}=0\\), nên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"right triangle\">tam giác vuông</b> tại \\(A\\).",
+   "images": [],
+   "id": "cc3a46d8814c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(A(-#;\\,-#;\\,#)\\), \\(B(#;\\,-#;\\,#)\\). \\(M\\) lies on segment \\(AB\\) with \\(MA=\\dfrac{#}{#}\\,MB\\). The coordinates of \\(M\\) are…",
+   "en": "\\(A(-5;\\,-3;\\,5)\\), \\(B(4;\\,-6;\\,2)\\). \\(M\\) lies on segment \\(AB\\) with \\(MA=\\dfrac{1}{2}\\,MB\\). The coordinates of \\(M\\) are…",
+   "vi": "Cho \\(A(-5;\\,-3;\\,5)\\), \\(B(4;\\,-6;\\,2)\\). Điểm \\(M\\) thuộc đoạn \\(AB\\) sao cho \\(MA=\\dfrac{1}{2}\\,MB\\). Tọa độ của \\(M\\) là…",
+   "options": [
+    "\\((-2;\\,-4;\\,4)\\)",
+    "\\((1;\\,-5;\\,3)\\)",
+    "\\((-1;\\,-3;\\,5)\\)",
+    "\\((-\\dfrac{1}{2};\\,-\\dfrac{9}{2};\\,\\dfrac{7}{2})\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\overrightarrow{AM}=\\dfrac{1}{2}\\overrightarrow{MB}\\Rightarrow M=\\dfrac{A+\\dfrac{1}{2} B}{1+\\dfrac{1}{2}}=(-2;\\,-4;\\,4)\\).",
+   "explain_vi": "Đáp án a. \\(\\overrightarrow{AM}=\\dfrac{1}{2}\\overrightarrow{MB}\\Rightarrow M=\\dfrac{A+\\dfrac{1}{2} B}{1+\\dfrac{1}{2}}=(-2;\\,-4;\\,4)\\).",
+   "images": [],
+   "id": "91072a1d857e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "The projection of \\(M(-#;#;#)\\) onto the plane \\((Oxy)\\) is…",
+   "en": "The projection of \\(M(-4;1;2)\\) onto the plane \\((Oxy)\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"projection\">Hình chiếu vuông góc</b> của \\(M(-4;1;2)\\) lên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> \\((Oxy)\\) là…",
+   "options": [
+    "\\((-4;1;-2)\\)",
+    "\\((4;-1;0)\\)",
+    "\\((-4;1;2)\\)",
+    "\\((-4;1;0)\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Set the missing coordinate to 0.",
+   "explain_vi": "Đáp án d. Cho tọa độ còn thiếu bằng 0.",
+   "images": [],
+   "id": "910c6b5b5176",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(A(#;-#;#)\\), \\(B(#;#;#)\\), \\(C(-#;-#;-#)\\). The centroid of \\(ABC\\) is…",
+   "en": "\\(A(0;-1;3)\\), \\(B(6;5;10)\\), \\(C(-3;-4;-4)\\). The centroid of \\(ABC\\) is…",
+   "vi": "Cho \\(A(0;-1;3)\\), \\(B(6;5;10)\\), \\(C(-3;-4;-4)\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"centroid\">Trọng tâm</b> tam giác \\(ABC\\) là…",
+   "options": [
+    "\\((1;0;3)\\)",
+    "\\((3;0;9)\\)",
+    "\\((2;1;4)\\)",
+    "\\((0;-1;2)\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Average the coordinates.",
+   "explain_vi": "Đáp án a. Lấy trung bình cộng từng tọa độ.",
+   "images": [],
+   "id": "54ed3d3cff57",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(A(#;-#;#)\\), \\(B(#;#;#)\\). Then \\(AB=\\)…",
+   "en": "\\(A(0;-1;3)\\), \\(B(6;5;10)\\). Then \\(AB=\\)…",
+   "vi": "Cho \\(A(0;-1;3)\\), \\(B(6;5;10)\\). Khi đó \\(AB=\\)…",
+   "options": [
+    "\\(11\\)",
+    "\\(12\\)",
+    "\\(10\\)",
+    "\\(19\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(AB=\\sqrt{121}=11\\).",
+   "explain_vi": "Đáp án a. \\(AB=\\sqrt{121}=11\\).",
+   "images": [],
+   "id": "939d226288ce",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "The point \\(N(#;#;-#)\\) lies in the plane \\((Oyz)\\).",
+   "en": "The point \\(N(1;3;-2)\\) lies in the plane \\((Oyz)\\).",
+   "vi": "Điểm \\(N(1;3;-2)\\) thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> \\((Oyz)\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "A point of \\((Oyz)\\) has the third coordinate 0.",
+   "explain_vi": "Điểm thuộc \\((Oyz)\\) có tọa độ thứ ba bằng 0.",
+   "images": [],
+   "id": "9ace0c883d5c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "The point symmetric to \\(M(-#;#;#)\\) about the plane \\((Oxy)\\) is \\((-#;#;-#)\\).",
+   "en": "The point symmetric to \\(M(-4;1;2)\\) about the plane \\((Oxy)\\) is \\((-4;1;-1)\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"symmetric point\">Điểm đối xứng</b> với \\(M(-4;1;2)\\) qua <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> \\((Oxy)\\) là \\((-4;1;-1)\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "The correct point is \\((-4;1;-2)\\).",
+   "explain_vi": "Điểm đúng là \\((-4;1;-2)\\).",
+   "images": [],
+   "id": "77d83aa13b73",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "\\(A(#;#;#)\\), \\(B(#;#;#)\\). Find \\(AB\\).",
+   "en": "\\(A(1;2;3)\\), \\(B(3;8;12)\\). Find \\(AB\\).",
+   "vi": "Cho \\(A(1;2;3)\\), \\(B(3;8;12)\\). Tính \\(AB\\).",
+   "options": [],
+   "answer": "11",
+   "explain_en": "\\(AB=\\sqrt{(x_B-x_A)^2+\\dots}=11\\).",
+   "explain_vi": "\\(AB=\\sqrt{(x_B-x_A)^2+\\dots}=11\\).",
+   "images": [],
+   "id": "3daf0120a146",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "\\(ABCD\\) is a parallelogram, \\(A(#;#;#)\\), \\(B(#;#;#)\\), \\(C(#;#;#)\\). Find the \\(z\\)-coordinate of \\(D\\).",
+   "en": "\\(ABCD\\) is a parallelogram, \\(A(0;0;1)\\), \\(B(3;1;0)\\), \\(C(5;2;4)\\). Find the \\(z\\)-coordinate of \\(D\\).",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelogram\">hình bình hành</b> \\(ABCD\\) có \\(A(0;0;1)\\), \\(B(3;1;0)\\), \\(C(5;2;4)\\). Tìm cao độ của \\(D\\).",
+   "options": [],
+   "answer": "5",
+   "explain_en": "\\(z_D=z_A+z_C-z_B=5\\).",
+   "explain_vi": "\\(z_D=z_A+z_C-z_B=5\\).",
+   "images": [],
+   "id": "4bdaca2798a4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "A room is a rectangular box \\(#\\) m long (along \\(Ox\\)), \\(#\\) m wide (along \\(Oy\\)) and \\(#\\) m high (along \\(Oz\\)), with a floor corner at \\(O\\). A cable is stretched from \\(O\\) to the opposite corner of the ceiling. How long is the cable (m)?",
+   "en": "A room is a rectangular box \\(7\\) m long (along \\(Ox\\)), \\(4\\) m wide (along \\(Oy\\)) and \\(4\\) m high (along \\(Oz\\)), with a floor corner at \\(O\\). A cable is stretched from \\(O\\) to the opposite corner of the ceiling. How long is the cable (m)?",
+   "vi": "Một căn phòng dạng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelepiped\">hình hộp</b> chữ nhật dài \\(7\\) m (theo \\(Ox\\)), rộng \\(4\\) m (theo \\(Oy\\)), cao \\(4\\) m (theo \\(Oz\\)), một góc sàn ở \\(O\\). Người ta căng một sợi dây từ \\(O\\) đến <b class=\"mbl-term\" tabindex=\"0\" data-en=\"opposite angles\">góc đối</b> diện trên trần. Sợi dây dài bao nhiêu mét?",
+   "options": [
+    "\\(8\\)",
+    "\\(9\\)",
+    "\\(10\\)",
+    "\\(15\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. The opposite ceiling corner is \\((7;\\,4;\\,4)\\), so the length is \\(\\sqrt{7^2+4^2+4^2}=9\\).",
+   "explain_vi": "Đáp án b. Góc trần đối diện là \\((7;\\,4;\\,4)\\), nên độ dài là \\(\\sqrt{7^2+4^2+4^2}=9\\).",
+   "images": [],
+   "id": "7530f987c9f9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Find the point \\(M\\) on the axis \\(Oy\\) that is equidistant from \\(A(#;\\,#;\\,#)\\) and \\(B(-#;\\,#;\\,#)\\).",
+   "en": "Find the point \\(M\\) on the axis \\(Oy\\) that is equidistant from \\(A(1;\\,5;\\,0)\\) and \\(B(-3;\\,3;\\,2)\\).",
+   "vi": "Tìm điểm \\(M\\) thuộc trục \\(Oy\\) cách đều hai điểm \\(A(1;\\,5;\\,0)\\) và \\(B(-3;\\,3;\\,2)\\).",
+   "options": [
+    "\\((0;\\,0;\\,1)\\)",
+    "\\((0;\\,-1;\\,0)\\)",
+    "\\((0;\\,1;\\,0)\\)",
+    "\\((0;\\,4;\\,0)\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(M\\) has only the \\(y\\)-coordinate \\(t\\). \\(MA^2=MB^2\\) gives a linear equation in \\(t\\): \\(t=1\\).",
+   "explain_vi": "Đáp án c. \\(M\\) chỉ có tọa độ \\(y=t\\). Từ \\(MA^2=MB^2\\) được <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> bậc nhất ẩn \\(t\\): \\(t=1\\).",
+   "images": [],
+   "id": "f44244c814e0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "In \\(Oxyz\\), \\(\\overrightarrow{OM}=-\\vec i-#\\vec k\\). The coordinates of \\(M\\) are…",
+   "en": "In \\(Oxyz\\), \\(\\overrightarrow{OM}=-\\vec i-4\\vec k\\). The coordinates of \\(M\\) are…",
+   "vi": "Trong không gian \\(Oxyz\\), \\(\\overrightarrow{OM}=-\\vec i-4\\vec k\\). Tọa độ điểm \\(M\\) là…",
+   "options": [
+    "\\((1;\\,0;\\,4)\\)",
+    "\\((0;\\,-1;\\,-4)\\)",
+    "\\((-1;\\,0;\\,-4)\\)",
+    "\\((-1;\\,-4;\\,0)\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\overrightarrow{OM}=x\\vec i+y\\vec j+z\\vec k\\Leftrightarrow M(x;y;z)\\); a missing vector means coordinate 0: \\(M(-1;\\,0;\\,-4)\\).",
+   "explain_vi": "Đáp án c. \\(\\overrightarrow{OM}=x\\vec i+y\\vec j+z\\vec k\\Leftrightarrow M(x;y;z)\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"unit vector\">vectơ đơn vị</b> không có mặt ứng với tọa độ 0: \\(M(-1;\\,0;\\,-4)\\).",
+   "images": [],
+   "id": "59f8f5e39f95",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The distance from \\(M(-#;\\,-#;\\,-#)\\) to the axis \\(Ox\\) is…",
+   "en": "The distance from \\(M(-2;\\,-3;\\,-4)\\) to the axis \\(Ox\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">Khoảng cách</b> từ \\(M(-2;\\,-3;\\,-4)\\) đến trục \\(Ox\\) bằng…",
+   "options": [
+    "\\(\\sqrt{13}\\)",
+    "\\(2\\)",
+    "\\(\\sqrt{29}\\)",
+    "\\(5\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. The foot of the perpendicular on \\(Ox\\) keeps only the \\(x\\)-coordinate, so the distance is \\(\\sqrt{3^2+4^2}=5\\).",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"projection\">Hình chiếu</b> của \\(M\\) trên \\(Ox\\) chỉ giữ tọa độ \\(x\\), nên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">khoảng cách</b> là \\(\\sqrt{3^2+4^2}=5\\).",
+   "images": [],
+   "id": "eaa93d306086",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The point symmetric to \\(M(-#;\\,#;\\,-#)\\) with respect to the plane \\((Oxz)\\) is…",
+   "en": "The point symmetric to \\(M(-4;\\,1;\\,-6)\\) with respect to the plane \\((Oxz)\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"symmetric point\">Điểm đối xứng</b> với \\(M(-4;\\,1;\\,-6)\\) qua <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> \\((Oxz)\\) là…",
+   "options": [
+    "\\((4;\\,-1;\\,6)\\)",
+    "\\((-4;\\,-1;\\,-6)\\)",
+    "\\((-4;\\,1;\\,6)\\)",
+    "\\((4;\\,1;\\,-6)\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Reflecting in \\((Oxz)\\) changes only the sign of the coordinate along the axis perpendicular to it.",
+   "explain_vi": "Đáp án b. Đối xứng qua \\((Oxz)\\) chỉ đổi dấu tọa độ ứng với trục <b class=\"mbl-term\" tabindex=\"0\" data-en=\"perpendicular\">vuông góc</b> với <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> đó.",
+   "images": [],
+   "id": "48319155ecd8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The rectangular box \\(OABC.O'A'B'C'\\) has \\(O\\) at the origin, \\(A\\) on \\(Ox\\), \\(C\\) on \\(Oy\\), \\(O'\\) on \\(Oz\\), with \\(OA=#\\), \\(OC=#\\), \\(OO'=#\\) (see the figure). The coordinates of \\(A'\\) are…",
+   "en": "The rectangular box \\(OABC.O'A'B'C'\\) has \\(O\\) at the origin, \\(A\\) on \\(Ox\\), \\(C\\) on \\(Oy\\), \\(O'\\) on \\(Oz\\), with \\(OA=2\\), \\(OC=5\\), \\(OO'=4\\) (see the figure). The coordinates of \\(A'\\) are…<img src=\"../../../img/fig3d/096497753f5c2f67.svg\" alt=\"Box in Oxyz\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelepiped\">Hình hộp</b> chữ nhật \\(OABC.O'A'B'C'\\) có \\(O\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"origin\">gốc tọa độ</b>, \\(A\\) thuộc \\(Ox\\), \\(C\\) thuộc \\(Oy\\), \\(O'\\) thuộc \\(Oz\\), với \\(OA=2\\), \\(OC=5\\), \\(OO'=4\\) (xem hình). Tọa độ của \\(A'\\) là…<img src=\"../../../img/fig3d/096497753f5c2f67.svg\" alt=\"Box in Oxyz\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "\\((2;\\,5;\\,0)\\)",
+    "\\((5;\\,2;\\,4)\\)",
+    "\\((2;\\,4;\\,0)\\)",
+    "\\((2;\\,0;\\,4)\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(A'\\) is reached by going \\(2\\) along \\(Ox\\), \\(0\\) along \\(Oy\\), \\(4\\) along \\(Oz\\): \\(A'(2;\\,0;\\,4)\\).",
+   "explain_vi": "Đáp án d. Từ \\(O\\) tới \\(A'\\): đi \\(2\\) theo \\(Ox\\), \\(0\\) theo \\(Oy\\), \\(4\\) theo \\(Oz\\): \\(A'(2;\\,0;\\,4)\\).",
+   "images": [
+    "img/fig3d/096497753f5c2f67.svg"
+   ],
+   "id": "2cadfff8f985",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(A(#;\\,#;\\,-#)\\), \\(B(-#;\\,#;\\,-#)\\). \\(M\\) lies on segment \\(AB\\) with \\(MA=#\\,MB\\). The coordinates of \\(M\\) are…",
+   "en": "\\(A(3;\\,1;\\,-5)\\), \\(B(-5;\\,1;\\,-1)\\). \\(M\\) lies on segment \\(AB\\) with \\(MA=3\\,MB\\). The coordinates of \\(M\\) are…",
+   "vi": "Cho \\(A(3;\\,1;\\,-5)\\), \\(B(-5;\\,1;\\,-1)\\). Điểm \\(M\\) thuộc đoạn \\(AB\\) sao cho \\(MA=3\\,MB\\). Tọa độ của \\(M\\) là…",
+   "options": [
+    "\\((-1;\\,1;\\,-3)\\)",
+    "\\((-21;\\,1;\\,7)\\)",
+    "\\((1;\\,1;\\,-4)\\)",
+    "\\((-3;\\,1;\\,-2)\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\overrightarrow{AM}=3\\overrightarrow{MB}\\Rightarrow M=\\dfrac{A+3 B}{1+3}=(-3;\\,1;\\,-2)\\).",
+   "explain_vi": "Đáp án d. \\(\\overrightarrow{AM}=3\\overrightarrow{MB}\\Rightarrow M=\\dfrac{A+3 B}{1+3}=(-3;\\,1;\\,-2)\\).",
+   "images": [],
+   "id": "94f9b2d5a9fb",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(A(-#;\\,#;\\,-#)\\), \\(B(-#;\\,#;\\,-#)\\), \\(C(-#;\\,#;\\,#)\\). Triangle \\(ABC\\)…",
+   "en": "\\(A(-2;\\,3;\\,-1)\\), \\(B(-5;\\,0;\\,-4)\\), \\(C(-4;\\,3;\\,1)\\). Triangle \\(ABC\\)…",
+   "vi": "Cho \\(A(-2;\\,3;\\,-1)\\), \\(B(-5;\\,0;\\,-4)\\), \\(C(-4;\\,3;\\,1)\\). Tam giác \\(ABC\\)…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">has no right angle</span><span class=\"vi\">không có góc vuông</span></span>",
+    "<span class=\"txi\"><span class=\"en\">has a right angle at \\(C\\)</span><span class=\"vi\">vuông tại \\(C\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">has a right angle at \\(A\\)</span><span class=\"vi\">vuông tại \\(A\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">has a right angle at \\(B\\)</span><span class=\"vi\">vuông tại \\(B\\)</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\overrightarrow{AB}\\cdot\\overrightarrow{AC}=0\\), so the right angle is at \\(A\\).",
+   "explain_vi": "Đáp án c. \\(\\overrightarrow{AB}\\cdot\\overrightarrow{AC}=0\\), nên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"right triangle\">tam giác vuông</b> tại \\(A\\).",
+   "images": [],
+   "id": "d6c42026b773",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "The projection of \\(M(#;#;-#)\\) onto the plane \\((Oyz)\\) is…",
+   "en": "The projection of \\(M(2;5;-3)\\) onto the plane \\((Oyz)\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"projection\">Hình chiếu vuông góc</b> của \\(M(2;5;-3)\\) lên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> \\((Oyz)\\) là…",
+   "options": [
+    "\\((2;5;3)\\)",
+    "\\((0;-5;3)\\)",
+    "\\((2;5;-3)\\)",
+    "\\((0;5;-3)\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Set the missing coordinate to 0.",
+   "explain_vi": "Đáp án d. Cho tọa độ còn thiếu bằng 0.",
+   "images": [],
+   "id": "66d20bf9370a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(A(#;#;#)\\), \\(B(#;#;#)\\), \\(C(-#;#;-#)\\). The centroid of \\(ABC\\) is…",
+   "en": "\\(A(2;1;0)\\), \\(B(3;5;8)\\), \\(C(-2;3;-2)\\). The centroid of \\(ABC\\) is…",
+   "vi": "Cho \\(A(2;1;0)\\), \\(B(3;5;8)\\), \\(C(-2;3;-2)\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"centroid\">Trọng tâm</b> tam giác \\(ABC\\) là…",
+   "options": [
+    "\\((1;3;2)\\)",
+    "\\((3;9;6)\\)",
+    "\\((2;4;3)\\)",
+    "\\((0;2;1)\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Average the coordinates.",
+   "explain_vi": "Đáp án a. Lấy trung bình cộng từng tọa độ.",
+   "images": [],
+   "id": "62238622f12d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(A(#;#;#)\\), \\(B(#;#;#)\\). Then \\(AB=\\)…",
+   "en": "\\(A(2;1;0)\\), \\(B(3;5;8)\\). Then \\(AB=\\)…",
+   "vi": "Cho \\(A(2;1;0)\\), \\(B(3;5;8)\\). Khi đó \\(AB=\\)…",
+   "options": [
+    "\\(10\\)",
+    "\\(8\\)",
+    "\\(13\\)",
+    "\\(9\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(AB=\\sqrt{81}=9\\).",
+   "explain_vi": "Đáp án d. \\(AB=\\sqrt{81}=9\\).",
+   "images": [],
+   "id": "5945ac23c39c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "The point \\(N(#;#;-#)\\) lies in the plane \\((Oxz)\\).",
+   "en": "The point \\(N(3;1;-2)\\) lies in the plane \\((Oxz)\\).",
+   "vi": "Điểm \\(N(3;1;-2)\\) thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> \\((Oxz)\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "A point of \\((Oxz)\\) has the third coordinate 0.",
+   "explain_vi": "Điểm thuộc \\((Oxz)\\) có tọa độ thứ ba bằng 0.",
+   "images": [],
+   "id": "f232ccc8aaeb",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "The point symmetric to \\(M(#;#;-#)\\) about the axis \\(Oz\\) is \\((-#;-#;-#)\\).",
+   "en": "The point symmetric to \\(M(2;5;-3)\\) about the axis \\(Oz\\) is \\((-2;-5;-3)\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"symmetric point\">Điểm đối xứng</b> với \\(M(2;5;-3)\\) qua trục \\(Oz\\) là \\((-2;-5;-3)\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "The correct point is \\((-2;-5;-3)\\).",
+   "explain_vi": "Điểm đúng là \\((-2;-5;-3)\\).",
+   "images": [],
+   "id": "e1f94af61446",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "\\(A(#;#;#)\\), \\(B(#;#;#)\\). Find \\(AB\\).",
+   "en": "\\(A(0;0;0)\\), \\(B(4;4;7)\\). Find \\(AB\\).",
+   "vi": "Cho \\(A(0;0;0)\\), \\(B(4;4;7)\\). Tính \\(AB\\).",
+   "options": [],
+   "answer": "9",
+   "explain_en": "\\(AB=\\sqrt{(x_B-x_A)^2+\\dots}=9\\).",
+   "explain_vi": "\\(AB=\\sqrt{(x_B-x_A)^2+\\dots}=9\\).",
+   "images": [],
+   "id": "e6a5a5ae395e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "\\(ABCD\\) is a parallelogram, \\(A(#;#;#)\\), \\(B(#;#;#)\\), \\(C(#;#;#)\\). Find the \\(z\\)-coordinate of \\(D\\).",
+   "en": "\\(ABCD\\) is a parallelogram, \\(A(2;1;1)\\), \\(B(1;3;0)\\), \\(C(6;3;3)\\). Find the \\(z\\)-coordinate of \\(D\\).",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelogram\">hình bình hành</b> \\(ABCD\\) có \\(A(2;1;1)\\), \\(B(1;3;0)\\), \\(C(6;3;3)\\). Tìm cao độ của \\(D\\).",
+   "options": [],
+   "answer": "4",
+   "explain_en": "\\(z_D=z_A+z_C-z_B=4\\).",
+   "explain_vi": "\\(z_D=z_A+z_C-z_B=4\\).",
+   "images": [],
+   "id": "bab3d8d9f74b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "A room is a rectangular box \\(#\\) m long (along \\(Ox\\)), \\(#\\) m wide (along \\(Oy\\)) and \\(#\\) m high (along \\(Oz\\)), with a floor corner at \\(O\\). A cable is stretched from \\(O\\) to the opposite corner of the ceiling. How long is the cable (m)?",
+   "en": "A room is a rectangular box \\(1\\) m long (along \\(Ox\\)), \\(8\\) m wide (along \\(Oy\\)) and \\(4\\) m high (along \\(Oz\\)), with a floor corner at \\(O\\). A cable is stretched from \\(O\\) to the opposite corner of the ceiling. How long is the cable (m)?",
+   "vi": "Một căn phòng dạng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelepiped\">hình hộp</b> chữ nhật dài \\(1\\) m (theo \\(Ox\\)), rộng \\(8\\) m (theo \\(Oy\\)), cao \\(4\\) m (theo \\(Oz\\)), một góc sàn ở \\(O\\). Người ta căng một sợi dây từ \\(O\\) đến <b class=\"mbl-term\" tabindex=\"0\" data-en=\"opposite angles\">góc đối</b> diện trên trần. Sợi dây dài bao nhiêu mét?",
+   "options": [
+    "\\(13\\)",
+    "\\(10\\)",
+    "\\(9\\)",
+    "\\(8\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The opposite ceiling corner is \\((1;\\,8;\\,4)\\), so the length is \\(\\sqrt{1^2+8^2+4^2}=9\\).",
+   "explain_vi": "Đáp án c. Góc trần đối diện là \\((1;\\,8;\\,4)\\), nên độ dài là \\(\\sqrt{1^2+8^2+4^2}=9\\).",
+   "images": [],
+   "id": "50e5b5d1aa7c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Find the point \\(M\\) on the axis \\(Oz\\) that is equidistant from \\(A(-#;\\,-#;\\,-#)\\) and \\(B(-#;\\,#;\\,#)\\).",
+   "en": "Find the point \\(M\\) on the axis \\(Oz\\) that is equidistant from \\(A(-5;\\,-1;\\,-1)\\) and \\(B(-5;\\,5;\\,1)\\).",
+   "vi": "Tìm điểm \\(M\\) thuộc trục \\(Oz\\) cách đều hai điểm \\(A(-5;\\,-1;\\,-1)\\) và \\(B(-5;\\,5;\\,1)\\).",
+   "options": [
+    "\\((0;\\,0;\\,-6)\\)",
+    "\\((0;\\,0;\\,6)\\)",
+    "\\((6;\\,0;\\,0)\\)",
+    "\\((0;\\,0;\\,0)\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(M\\) has only the \\(z\\)-coordinate \\(t\\). \\(MA^2=MB^2\\) gives a linear equation in \\(t\\): \\(t=6\\).",
+   "explain_vi": "Đáp án b. \\(M\\) chỉ có tọa độ \\(z=t\\). Từ \\(MA^2=MB^2\\) được <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> bậc nhất ẩn \\(t\\): \\(t=6\\).",
+   "images": [],
+   "id": "b4e03437955b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "In \\(Oxyz\\), \\(\\overrightarrow{OM}=-#\\vec i+#\\vec j\\). The coordinates of \\(M\\) are…",
+   "en": "In \\(Oxyz\\), \\(\\overrightarrow{OM}=-2\\vec i+5\\vec j\\). The coordinates of \\(M\\) are…",
+   "vi": "Trong không gian \\(Oxyz\\), \\(\\overrightarrow{OM}=-2\\vec i+5\\vec j\\). Tọa độ điểm \\(M\\) là…",
+   "options": [
+    "\\((-2;\\,5;\\,0)\\)",
+    "\\((0;\\,-2;\\,5)\\)",
+    "\\((2;\\,-5;\\,0)\\)",
+    "\\((5;\\,-2;\\,0)\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\overrightarrow{OM}=x\\vec i+y\\vec j+z\\vec k\\Leftrightarrow M(x;y;z)\\); a missing vector means coordinate 0: \\(M(-2;\\,5;\\,0)\\).",
+   "explain_vi": "Đáp án a. \\(\\overrightarrow{OM}=x\\vec i+y\\vec j+z\\vec k\\Leftrightarrow M(x;y;z)\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"unit vector\">vectơ đơn vị</b> không có mặt ứng với tọa độ 0: \\(M(-2;\\,5;\\,0)\\).",
+   "images": [],
+   "id": "7065e8e61220",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The distance from \\(M(-#;\\,-#;\\,-#)\\) to the axis \\(Oz\\) is…",
+   "en": "The distance from \\(M(-8;\\,-6;\\,-1)\\) to the axis \\(Oz\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">Khoảng cách</b> từ \\(M(-8;\\,-6;\\,-1)\\) đến trục \\(Oz\\) bằng…",
+   "options": [
+    "\\(\\sqrt{65}\\)",
+    "\\(10\\)",
+    "\\(\\sqrt{101}\\)",
+    "\\(1\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. The foot of the perpendicular on \\(Oz\\) keeps only the \\(z\\)-coordinate, so the distance is \\(\\sqrt{8^2+6^2}=10\\).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"projection\">Hình chiếu</b> của \\(M\\) trên \\(Oz\\) chỉ giữ tọa độ \\(z\\), nên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">khoảng cách</b> là \\(\\sqrt{8^2+6^2}=10\\).",
+   "images": [],
+   "id": "271cffc8a058",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The point symmetric to \\(M(-#;\\,#;\\,#)\\) with respect to the plane \\((Oyz)\\) is…",
+   "en": "The point symmetric to \\(M(-5;\\,4;\\,2)\\) with respect to the plane \\((Oyz)\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"symmetric point\">Điểm đối xứng</b> với \\(M(-5;\\,4;\\,2)\\) qua <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> \\((Oyz)\\) là…",
+   "options": [
+    "\\((5;\\,-4;\\,-2)\\)",
+    "\\((-5;\\,4;\\,-2)\\)",
+    "\\((5;\\,4;\\,2)\\)",
+    "\\((-5;\\,-4;\\,2)\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Reflecting in \\((Oyz)\\) changes only the sign of the coordinate along the axis perpendicular to it.",
+   "explain_vi": "Đáp án c. Đối xứng qua \\((Oyz)\\) chỉ đổi dấu tọa độ ứng với trục <b class=\"mbl-term\" tabindex=\"0\" data-en=\"perpendicular\">vuông góc</b> với <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> đó.",
+   "images": [],
+   "id": "55eac3ba68c5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The rectangular box \\(OABC.O'A'B'C'\\) has \\(O\\) at the origin, \\(A\\) on \\(Ox\\), \\(C\\) on \\(Oy\\), \\(O'\\) on \\(Oz\\), with \\(OA=#\\), \\(OC=#\\), \\(OO'=#\\) (see the figure). The coordinates of \\(B'\\) are…",
+   "en": "The rectangular box \\(OABC.O'A'B'C'\\) has \\(O\\) at the origin, \\(A\\) on \\(Ox\\), \\(C\\) on \\(Oy\\), \\(O'\\) on \\(Oz\\), with \\(OA=5\\), \\(OC=3\\), \\(OO'=4\\) (see the figure). The coordinates of \\(B'\\) are…<img src=\"../../../img/fig3d/8e45d77b0036f013.svg\" alt=\"Box in Oxyz\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelepiped\">Hình hộp</b> chữ nhật \\(OABC.O'A'B'C'\\) có \\(O\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"origin\">gốc tọa độ</b>, \\(A\\) thuộc \\(Ox\\), \\(C\\) thuộc \\(Oy\\), \\(O'\\) thuộc \\(Oz\\), với \\(OA=5\\), \\(OC=3\\), \\(OO'=4\\) (xem hình). Tọa độ của \\(B'\\) là…<img src=\"../../../img/fig3d/8e45d77b0036f013.svg\" alt=\"Box in Oxyz\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "\\((5;\\,3;\\,0)\\)",
+    "\\((5;\\,4;\\,3)\\)",
+    "\\((5;\\,3;\\,4)\\)",
+    "\\((3;\\,5;\\,4)\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(B'\\) is reached by going \\(5\\) along \\(Ox\\), \\(3\\) along \\(Oy\\), \\(4\\) along \\(Oz\\): \\(B'(5;\\,3;\\,4)\\).",
+   "explain_vi": "Đáp án c. Từ \\(O\\) tới \\(B'\\): đi \\(5\\) theo \\(Ox\\), \\(3\\) theo \\(Oy\\), \\(4\\) theo \\(Oz\\): \\(B'(5;\\,3;\\,4)\\).",
+   "images": [
+    "img/fig3d/8e45d77b0036f013.svg"
+   ],
+   "id": "2fdb622389c1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(A(#;\\,#;\\,#)\\), \\(B(#;\\,-#;\\,#)\\). \\(M\\) lies on segment \\(AB\\) with \\(MA=#\\,MB\\). The coordinates of \\(M\\) are…",
+   "en": "\\(A(0;\\,4;\\,0)\\), \\(B(6;\\,-5;\\,6)\\). \\(M\\) lies on segment \\(AB\\) with \\(MA=2\\,MB\\). The coordinates of \\(M\\) are…",
+   "vi": "Cho \\(A(0;\\,4;\\,0)\\), \\(B(6;\\,-5;\\,6)\\). Điểm \\(M\\) thuộc đoạn \\(AB\\) sao cho \\(MA=2\\,MB\\). Tọa độ của \\(M\\) là…",
+   "options": [
+    "\\((12;\\,-14;\\,12)\\)",
+    "\\((3;\\,-\\dfrac{1}{2};\\,3)\\)",
+    "\\((4;\\,-2;\\,4)\\)",
+    "\\((2;\\,1;\\,2)\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\overrightarrow{AM}=2\\overrightarrow{MB}\\Rightarrow M=\\dfrac{A+2 B}{1+2}=(4;\\,-2;\\,4)\\).",
+   "explain_vi": "Đáp án c. \\(\\overrightarrow{AM}=2\\overrightarrow{MB}\\Rightarrow M=\\dfrac{A+2 B}{1+2}=(4;\\,-2;\\,4)\\).",
+   "images": [],
+   "id": "55cdb97e4521",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(A(-#;\\,#;\\,#)\\), \\(B(-#;\\,#;\\,#)\\), \\(C(-#;\\,#;\\,#)\\). Triangle \\(ABC\\)…",
+   "en": "\\(A(-4;\\,6;\\,0)\\), \\(B(-1;\\,4;\\,2)\\), \\(C(-1;\\,6;\\,4)\\). Triangle \\(ABC\\)…",
+   "vi": "Cho \\(A(-4;\\,6;\\,0)\\), \\(B(-1;\\,4;\\,2)\\), \\(C(-1;\\,6;\\,4)\\). Tam giác \\(ABC\\)…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">has a right angle at \\(B\\)</span><span class=\"vi\">vuông tại \\(B\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">has no right angle</span><span class=\"vi\">không có góc vuông</span></span>",
+    "<span class=\"txi\"><span class=\"en\">has a right angle at \\(C\\)</span><span class=\"vi\">vuông tại \\(C\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">has a right angle at \\(A\\)</span><span class=\"vi\">vuông tại \\(A\\)</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\overrightarrow{BA}\\cdot\\overrightarrow{BC}=0\\), so the right angle is at \\(B\\).",
+   "explain_vi": "Đáp án a. \\(\\overrightarrow{BA}\\cdot\\overrightarrow{BC}=0\\), nên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"right triangle\">tam giác vuông</b> tại \\(B\\).",
+   "images": [],
+   "id": "a966602a97e5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The point symmetric to \\(M(#;-#;-#)\\) about the axis \\(Ox\\) is…",
+   "en": "The point symmetric to \\(M(3;-3;-2)\\) about the axis \\(Ox\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"symmetric point\">Điểm đối xứng</b> với \\(M(3;-3;-2)\\) qua trục \\(Ox\\) là…",
+   "options": [
+    "\\((3;3;2)\\)",
+    "\\((-3;-3;-2)\\)",
+    "\\((3;3;-2)\\)",
+    "\\((3;-3;2)\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Change the sign of the coordinates that are not in the mirror.",
+   "explain_vi": "Đáp án a. Đổi dấu các tọa độ không <b class=\"mbl-term\" tabindex=\"0\" data-en=\"lies in\">nằm trong</b> “gương” đối xứng.",
+   "images": [],
+   "id": "a35d03a06824",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The projection of \\(M(#;-#;#)\\) onto the plane \\((Oxz)\\) is…",
+   "en": "The projection of \\(M(3;-3;2)\\) onto the plane \\((Oxz)\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"projection\">Hình chiếu vuông góc</b> của \\(M(3;-3;2)\\) lên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> \\((Oxz)\\) là…",
+   "options": [
+    "\\((3;-3;-2)\\)",
+    "\\((-3;3;0)\\)",
+    "\\((3;0;2)\\)",
+    "\\((3;-3;2)\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Keep the coordinates that stay in the plane \\((Oxz)\\) and set the others to 0.",
+   "explain_vi": "Đáp án c. Giữ các tọa độ ở lại trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> \\((Oxz)\\), các tọa độ còn lại bằng 0.",
+   "images": [],
+   "id": "a8d70da0ef11",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The projection of \\(M(-#;-#;#)\\) onto the plane \\((Oyz)\\) is…",
+   "en": "The projection of \\(M(-2;-5;6)\\) onto the plane \\((Oyz)\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"projection\">Hình chiếu vuông góc</b> của \\(M(-2;-5;6)\\) lên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> \\((Oyz)\\) là…",
+   "options": [
+    "\\((0;-5;6)\\)",
+    "\\((-2;-5;-6)\\)",
+    "\\((2;5;0)\\)",
+    "\\((-2;-5;6)\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Keep the coordinates that stay in the plane \\((Oyz)\\) and set the others to 0.",
+   "explain_vi": "Đáp án a. Giữ các tọa độ ở lại trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> \\((Oyz)\\), các tọa độ còn lại bằng 0.",
+   "images": [],
+   "id": "083664721a2d",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(A(#;-#;#)\\) and \\(B(#;-#;-#)\\). The length \\(AB\\) is…",
+   "en": "\\(A(3;-2;3)\\) and \\(B(8;-22;-1)\\). The length \\(AB\\) is…",
+   "vi": "Cho \\(A(3;-2;3)\\), \\(B(8;-22;-1)\\). Độ dài \\(AB\\) bằng…",
+   "options": [
+    "\\(20\\)",
+    "\\(29\\)",
+    "\\(22\\)",
+    "\\(21\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(AB=\\sqrt{(x_B-x_A)^2+(y_B-y_A)^2+(z_B-z_A)^2}=\\sqrt{441}=21\\).",
+   "explain_vi": "Đáp án d. \\(AB=\\sqrt{(x_B-x_A)^2+(y_B-y_A)^2+(z_B-z_A)^2}=\\sqrt{441}=21\\).",
+   "images": [],
+   "id": "01dbce894da6",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(A(#;-#;#)\\), \\(B(#;#;-#)\\), \\(C(-#;-#;#)\\). The centroid \\(G\\) of triangle \\(ABC\\) is…",
+   "en": "\\(A(4;-2;0)\\), \\(B(6;0;-3)\\), \\(C(-10;-7;3)\\). The centroid \\(G\\) of triangle \\(ABC\\) is…",
+   "vi": "Cho \\(A(4;-2;0)\\), \\(B(6;0;-3)\\), \\(C(-10;-7;3)\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"centroid\">Trọng tâm</b> \\(G\\) của tam giác \\(ABC\\) là…",
+   "options": [
+    "\\((0;-\\dfrac{9}{2};0)\\)",
+    "\\((0;-9;0)\\)",
+    "\\((0;-3;0)\\)",
+    "\\((1;-2;1)\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(G=\\left(\\dfrac{x_A+x_B+x_C}3;\\dfrac{y_A+y_B+y_C}3;\\dfrac{z_A+z_B+z_C}3\\right)\\).",
+   "explain_vi": "Đáp án c. \\(G=\\left(\\dfrac{x_A+x_B+x_C}3;\\dfrac{y_A+y_B+y_C}3;\\dfrac{z_A+z_B+z_C}3\\right)\\).",
+   "images": [],
+   "id": "0858225e0926",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(A(#;-#;-#)\\) and \\(B(-#;#;#)\\). The length \\(AB\\) is…",
+   "en": "\\(A(0;-1;-2)\\) and \\(B(-6;2;0)\\). The length \\(AB\\) is…",
+   "vi": "Cho \\(A(0;-1;-2)\\), \\(B(-6;2;0)\\). Độ dài \\(AB\\) bằng…",
+   "options": [
+    "\\(6\\)",
+    "\\(11\\)",
+    "\\(7\\)",
+    "\\(8\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(AB=\\sqrt{(x_B-x_A)^2+(y_B-y_A)^2+(z_B-z_A)^2}=\\sqrt{49}=7\\).",
+   "explain_vi": "Đáp án c. \\(AB=\\sqrt{(x_B-x_A)^2+(y_B-y_A)^2+(z_B-z_A)^2}=\\sqrt{49}=7\\).",
+   "images": [],
+   "id": "4b151956ce8d",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(A(#;-#;-#)\\), \\(B(#;#;-#)\\). The midpoint \\(I\\) of \\(AB\\) is…",
+   "en": "\\(A(0;-3;-5)\\), \\(B(4;3;-5)\\). The midpoint \\(I\\) of \\(AB\\) is…",
+   "vi": "Cho \\(A(0;-3;-5)\\), \\(B(4;3;-5)\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">Trung điểm</b> \\(I\\) của \\(AB\\) là…",
+   "options": [
+    "\\((2;3;0)\\)",
+    "\\((4;6;0)\\)",
+    "\\((2;0;-5)\\)",
+    "\\((4;0;-10)\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(I=\\left(\\dfrac{x_A+x_B}2;\\dfrac{y_A+y_B}2;\\dfrac{z_A+z_B}2\\right)\\).",
+   "explain_vi": "Đáp án c. \\(I=\\left(\\dfrac{x_A+x_B}2;\\dfrac{y_A+y_B}2;\\dfrac{z_A+z_B}2\\right)\\).",
+   "images": [],
+   "id": "6909513a399e",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(ABCD\\) is a parallelogram with \\(A(-#;#;-#)\\), \\(B(-#;#;-#)\\), \\(C(-#;#;-#)\\). Then \\(D\\) is…",
+   "en": "\\(ABCD\\) is a parallelogram with \\(A(-3;2;-5)\\), \\(B(-1;6;-6)\\), \\(C(-1;5;-1)\\). Then \\(D\\) is…",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelogram\">hình bình hành</b> \\(ABCD\\) có \\(A(-3;2;-5)\\), \\(B(-1;6;-6)\\), \\(C(-1;5;-1)\\). Khi đó \\(D\\) là…",
+   "options": [
+    "\\((-3;3;-10)\\)",
+    "\\((-5;13;-12)\\)",
+    "\\((1;9;-2)\\)",
+    "\\((-3;1;0)\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\overrightarrow{AB}=\\overrightarrow{DC}\\), so \\(D=A+C-B\\).",
+   "explain_vi": "Đáp án d. \\(\\overrightarrow{AB}=\\overrightarrow{DC}\\) nên \\(D=A+C-B\\).",
+   "images": [],
+   "id": "5216b87271b5",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The point symmetric to \\(M(#;#;#)\\) about the origin \\(O\\) is…",
+   "en": "The point symmetric to \\(M(4;3;6)\\) about the origin \\(O\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"symmetric point\">Điểm đối xứng</b> với \\(M(4;3;6)\\) qua <b class=\"mbl-term\" tabindex=\"0\" data-en=\"origin\">gốc tọa độ</b> \\(O\\) là…",
+   "options": [
+    "\\((-4;-3;-6)\\)",
+    "\\((-4;3;6)\\)",
+    "\\((4;-3;6)\\)",
+    "\\((4;3;-6)\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Change the sign of the coordinates that are not in the mirror.",
+   "explain_vi": "Đáp án a. Đổi dấu các tọa độ không <b class=\"mbl-term\" tabindex=\"0\" data-en=\"lies in\">nằm trong</b> “gương” đối xứng.",
+   "images": [],
+   "id": "0e04f6e03766",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The projection of \\(M(#;-#;#)\\) onto the axis \\(Ox\\) is…",
+   "en": "The projection of \\(M(3;-3;6)\\) onto the axis \\(Ox\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"projection\">Hình chiếu vuông góc</b> của \\(M(3;-3;6)\\) lên trục \\(Ox\\) là…",
+   "options": [
+    "\\((3;0;0)\\)",
+    "\\((3;-3;-6)\\)",
+    "\\((-3;3;0)\\)",
+    "\\((3;-3;6)\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Keep the coordinates that stay in the axis \\(Ox\\) and set the others to 0.",
+   "explain_vi": "Đáp án a. Giữ các tọa độ ở lại trong trục \\(Ox\\), các tọa độ còn lại bằng 0.",
+   "images": [],
+   "id": "5b34ad09eb16",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The projection of \\(M(#;-#;#)\\) onto the plane \\((Oxz)\\) is…",
+   "en": "The projection of \\(M(1;-6;2)\\) onto the plane \\((Oxz)\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"projection\">Hình chiếu vuông góc</b> của \\(M(1;-6;2)\\) lên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> \\((Oxz)\\) là…",
+   "options": [
+    "\\((-1;6;0)\\)",
+    "\\((1;-6;2)\\)",
+    "\\((1;0;2)\\)",
+    "\\((1;-6;-2)\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Keep the coordinates that stay in the plane \\((Oxz)\\) and set the others to 0.",
+   "explain_vi": "Đáp án c. Giữ các tọa độ ở lại trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> \\((Oxz)\\), các tọa độ còn lại bằng 0.",
+   "images": [],
+   "id": "1a2169297958",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(A(#;-#;-#)\\) and \\(B(#;#;-#)\\). The length \\(AB\\) is…",
+   "en": "\\(A(2;-2;-1)\\) and \\(B(9;4;-7)\\). The length \\(AB\\) is…",
+   "vi": "Cho \\(A(2;-2;-1)\\), \\(B(9;4;-7)\\). Độ dài \\(AB\\) bằng…",
+   "options": [
+    "\\(12\\)",
+    "\\(19\\)",
+    "\\(10\\)",
+    "\\(11\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(AB=\\sqrt{(x_B-x_A)^2+(y_B-y_A)^2+(z_B-z_A)^2}=\\sqrt{121}=11\\).",
+   "explain_vi": "Đáp án d. \\(AB=\\sqrt{(x_B-x_A)^2+(y_B-y_A)^2+(z_B-z_A)^2}=\\sqrt{121}=11\\).",
+   "images": [],
+   "id": "c439b2ea1aa8",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(A(-#;#;#)\\) and \\(B(-#;-#;#)\\). The length \\(AB\\) is…",
+   "en": "\\(A(-2;2;3)\\) and \\(B(-4;-9;13)\\). The length \\(AB\\) is…",
+   "vi": "Cho \\(A(-2;2;3)\\), \\(B(-4;-9;13)\\). Độ dài \\(AB\\) bằng…",
+   "options": [
+    "\\(16\\)",
+    "\\(15\\)",
+    "\\(23\\)",
+    "\\(14\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(AB=\\sqrt{(x_B-x_A)^2+(y_B-y_A)^2+(z_B-z_A)^2}=\\sqrt{225}=15\\).",
+   "explain_vi": "Đáp án b. \\(AB=\\sqrt{(x_B-x_A)^2+(y_B-y_A)^2+(z_B-z_A)^2}=\\sqrt{225}=15\\).",
+   "images": [],
+   "id": "8c60f18af209",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(A(-#;#;#)\\), \\(B(-#;-#;#)\\). The midpoint \\(I\\) of \\(AB\\) is…",
+   "en": "\\(A(-4;4;6)\\), \\(B(-10;-4;10)\\). The midpoint \\(I\\) of \\(AB\\) is…",
+   "vi": "Cho \\(A(-4;4;6)\\), \\(B(-10;-4;10)\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">Trung điểm</b> \\(I\\) của \\(AB\\) là…",
+   "options": [
+    "\\((-14;0;16)\\)",
+    "\\((-6;-8;4)\\)",
+    "\\((-7;0;8)\\)",
+    "\\((-3;-4;2)\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(I=\\left(\\dfrac{x_A+x_B}2;\\dfrac{y_A+y_B}2;\\dfrac{z_A+z_B}2\\right)\\).",
+   "explain_vi": "Đáp án c. \\(I=\\left(\\dfrac{x_A+x_B}2;\\dfrac{y_A+y_B}2;\\dfrac{z_A+z_B}2\\right)\\).",
+   "images": [],
+   "id": "765f98ab5948",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(A(-#;-#;-#)\\), \\(B(-#;-#;-#)\\), \\(C(#;#;#)\\). The centroid \\(G\\) of triangle \\(ABC\\) is…",
+   "en": "\\(A(-3;-3;-5)\\), \\(B(-1;-4;-3)\\), \\(C(10;16;14)\\). The centroid \\(G\\) of triangle \\(ABC\\) is…",
+   "vi": "Cho \\(A(-3;-3;-5)\\), \\(B(-1;-4;-3)\\), \\(C(10;16;14)\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"centroid\">Trọng tâm</b> \\(G\\) của tam giác \\(ABC\\) là…",
+   "options": [
+    "\\((3;\\dfrac{9}{2};3)\\)",
+    "\\((2;3;2)\\)",
+    "\\((3;4;3)\\)",
+    "\\((6;9;6)\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(G=\\left(\\dfrac{x_A+x_B+x_C}3;\\dfrac{y_A+y_B+y_C}3;\\dfrac{z_A+z_B+z_C}3\\right)\\).",
+   "explain_vi": "Đáp án b. \\(G=\\left(\\dfrac{x_A+x_B+x_C}3;\\dfrac{y_A+y_B+y_C}3;\\dfrac{z_A+z_B+z_C}3\\right)\\).",
+   "images": [],
+   "id": "1508c57b67a9",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(ABCD\\) is a parallelogram with \\(A(-#;#;-#)\\), \\(B(-#;-#;-#)\\), \\(C(-#;#;#)\\). Then \\(D\\) is…",
+   "en": "\\(ABCD\\) is a parallelogram with \\(A(-2;4;-1)\\), \\(B(-3;-2;-2)\\), \\(C(-1;1;6)\\). Then \\(D\\) is…",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelogram\">hình bình hành</b> \\(ABCD\\) có \\(A(-2;4;-1)\\), \\(B(-3;-2;-2)\\), \\(C(-1;1;6)\\). Khi đó \\(D\\) là…",
+   "options": [
+    "\\((-4;1;-9)\\)",
+    "\\((0;7;7)\\)",
+    "\\((-6;3;3)\\)",
+    "\\((-2;-5;5)\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\overrightarrow{AB}=\\overrightarrow{DC}\\), so \\(D=A+C-B\\).",
+   "explain_vi": "Đáp án b. \\(\\overrightarrow{AB}=\\overrightarrow{DC}\\) nên \\(D=A+C-B\\).",
+   "images": [],
+   "id": "11815c89e5e1",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The point symmetric to \\(M(#;#;-#)\\) about the plane \\((Oxz)\\) is…",
+   "en": "The point symmetric to \\(M(6;3;-5)\\) about the plane \\((Oxz)\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"symmetric point\">Điểm đối xứng</b> với \\(M(6;3;-5)\\) qua <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> \\((Oxz)\\) là…",
+   "options": [
+    "\\((6;3;5)\\)",
+    "\\((6;-3;5)\\)",
+    "\\((-6;3;-5)\\)",
+    "\\((6;-3;-5)\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Change the sign of the coordinates that are not in the mirror.",
+   "explain_vi": "Đáp án d. Đổi dấu các tọa độ không <b class=\"mbl-term\" tabindex=\"0\" data-en=\"lies in\">nằm trong</b> “gương” đối xứng.",
+   "images": [],
+   "id": "598952898af0",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The projection of \\(M(-#;#;#)\\) onto the plane \\((Oyz)\\) is…",
+   "en": "The projection of \\(M(-1;3;4)\\) onto the plane \\((Oyz)\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"projection\">Hình chiếu vuông góc</b> của \\(M(-1;3;4)\\) lên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> \\((Oyz)\\) là…",
+   "options": [
+    "\\((-1;3;4)\\)",
+    "\\((0;3;4)\\)",
+    "\\((1;-3;0)\\)",
+    "\\((-1;3;-4)\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Keep the coordinates that stay in the plane \\((Oyz)\\) and set the others to 0.",
+   "explain_vi": "Đáp án b. Giữ các tọa độ ở lại trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> \\((Oyz)\\), các tọa độ còn lại bằng 0.",
+   "images": [],
+   "id": "3dddfc67e14b",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The projection of \\(M(-#;-#;#)\\) onto the plane \\((Oyz)\\) is…",
+   "en": "The projection of \\(M(-6;-3;5)\\) onto the plane \\((Oyz)\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"projection\">Hình chiếu vuông góc</b> của \\(M(-6;-3;5)\\) lên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> \\((Oyz)\\) là…",
+   "options": [
+    "\\((-6;-3;5)\\)",
+    "\\((-6;-3;-5)\\)",
+    "\\((6;3;0)\\)",
+    "\\((0;-3;5)\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Keep the coordinates that stay in the plane \\((Oyz)\\) and set the others to 0.",
+   "explain_vi": "Đáp án d. Giữ các tọa độ ở lại trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> \\((Oyz)\\), các tọa độ còn lại bằng 0.",
+   "images": [],
+   "id": "1fb7b744dde8",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(A(#;#;-#)\\), \\(B(-#;#;-#)\\), \\(C(#;-#;#)\\). The centroid \\(G\\) of triangle \\(ABC\\) is…",
+   "en": "\\(A(6;5;-6)\\), \\(B(-2;6;-2)\\), \\(C(5;-5;14)\\). The centroid \\(G\\) of triangle \\(ABC\\) is…",
+   "vi": "Cho \\(A(6;5;-6)\\), \\(B(-2;6;-2)\\), \\(C(5;-5;14)\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"centroid\">Trọng tâm</b> \\(G\\) của tam giác \\(ABC\\) là…",
+   "options": [
+    "\\((3;2;2)\\)",
+    "\\((4;3;3)\\)",
+    "\\((\\dfrac{9}{2};3;3)\\)",
+    "\\((9;6;6)\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(G=\\left(\\dfrac{x_A+x_B+x_C}3;\\dfrac{y_A+y_B+y_C}3;\\dfrac{z_A+z_B+z_C}3\\right)\\).",
+   "explain_vi": "Đáp án a. \\(G=\\left(\\dfrac{x_A+x_B+x_C}3;\\dfrac{y_A+y_B+y_C}3;\\dfrac{z_A+z_B+z_C}3\\right)\\).",
+   "images": [],
+   "id": "02b51f0bf97f",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(A(#;-#;#)\\) and \\(B(#;-#;#)\\). The length \\(AB\\) is…",
+   "en": "\\(A(2;-2;3)\\) and \\(B(17;-8;13)\\). The length \\(AB\\) is…",
+   "vi": "Cho \\(A(2;-2;3)\\), \\(B(17;-8;13)\\). Độ dài \\(AB\\) bằng…",
+   "options": [
+    "\\(20\\)",
+    "\\(18\\)",
+    "\\(19\\)",
+    "\\(31\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(AB=\\sqrt{(x_B-x_A)^2+(y_B-y_A)^2+(z_B-z_A)^2}=\\sqrt{361}=19\\).",
+   "explain_vi": "Đáp án c. \\(AB=\\sqrt{(x_B-x_A)^2+(y_B-y_A)^2+(z_B-z_A)^2}=\\sqrt{361}=19\\).",
+   "images": [],
+   "id": "902f7068e919",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(A(#;-#;-#)\\) and \\(B(#;-#;-#)\\). The length \\(AB\\) is…",
+   "en": "\\(A(2;-4;-3)\\) and \\(B(17;-10;-13)\\). The length \\(AB\\) is…",
+   "vi": "Cho \\(A(2;-4;-3)\\), \\(B(17;-10;-13)\\). Độ dài \\(AB\\) bằng…",
+   "options": [
+    "\\(31\\)",
+    "\\(18\\)",
+    "\\(20\\)",
+    "\\(19\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(AB=\\sqrt{(x_B-x_A)^2+(y_B-y_A)^2+(z_B-z_A)^2}=\\sqrt{361}=19\\).",
+   "explain_vi": "Đáp án d. \\(AB=\\sqrt{(x_B-x_A)^2+(y_B-y_A)^2+(z_B-z_A)^2}=\\sqrt{361}=19\\).",
+   "images": [],
+   "id": "d9b6b034f6cb",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(A(-#;-#;-#)\\), \\(B(-#;-#;-#)\\). The midpoint \\(I\\) of \\(AB\\) is…",
+   "en": "\\(A(-4;-4;-3)\\), \\(B(-4;-10;-5)\\). The midpoint \\(I\\) of \\(AB\\) is…",
+   "vi": "Cho \\(A(-4;-4;-3)\\), \\(B(-4;-10;-5)\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">Trung điểm</b> \\(I\\) của \\(AB\\) là…",
+   "options": [
+    "\\((-8;-14;-8)\\)",
+    "\\((-4;-7;-4)\\)",
+    "\\((0;-6;-2)\\)",
+    "\\((0;-3;-1)\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(I=\\left(\\dfrac{x_A+x_B}2;\\dfrac{y_A+y_B}2;\\dfrac{z_A+z_B}2\\right)\\).",
+   "explain_vi": "Đáp án b. \\(I=\\left(\\dfrac{x_A+x_B}2;\\dfrac{y_A+y_B}2;\\dfrac{z_A+z_B}2\\right)\\).",
+   "images": [],
+   "id": "905ae8c5967a",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(ABCD\\) is a parallelogram with \\(A(-#;#;#)\\), \\(B(-#;-#;#)\\), \\(C(-#;-#;#)\\). Then \\(D\\) is…",
+   "en": "\\(ABCD\\) is a parallelogram with \\(A(-5;4;1)\\), \\(B(-4;-2;2)\\), \\(C(-4;-5;4)\\). Then \\(D\\) is…",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelogram\">hình bình hành</b> \\(ABCD\\) có \\(A(-5;4;1)\\), \\(B(-4;-2;2)\\), \\(C(-4;-5;4)\\). Khi đó \\(D\\) là…",
+   "options": [
+    "\\((-5;7;-1)\\)",
+    "\\((-5;1;3)\\)",
+    "\\((-13;-3;7)\\)",
+    "\\((-3;-11;5)\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\overrightarrow{AB}=\\overrightarrow{DC}\\), so \\(D=A+C-B\\).",
+   "explain_vi": "Đáp án b. \\(\\overrightarrow{AB}=\\overrightarrow{DC}\\) nên \\(D=A+C-B\\).",
+   "images": [],
+   "id": "81ef7739cb3c",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1029 @@
+{
+ "lesson": "g12-coord-04",
+ "grade": 12,
+ "no": 15,
+ "title": "Phương trình đường thẳng trong không gian",
+ "path": "lessons/grade12/space-coordinates/line-equations.html",
+ "items": [
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "A direction vector of \\(\\dfrac{x-#}{#}=\\dfrac{y+#}{#}=\\dfrac{z}{-#}\\) is…",
+   "en": "A direction vector of \\(\\dfrac{x-1}{2}=\\dfrac{y+2}{3}=\\dfrac{z}{-1}\\) is…",
+   "vi": "Một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"direction vector\">vectơ chỉ phương</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(\\dfrac{x-1}{2}=\\dfrac{y+2}{3}=\\dfrac{z}{-1}\\) là…",
+   "options": [
+    "\\((-4;\\,-6;\\,2)\\)",
+    "\\((1;\\,-2;\\,0)\\)",
+    "\\((-1;\\,2;\\,0)\\)",
+    "\\((2;\\,-3;\\,-1)\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. The denominators give \\((2;\\,3;\\,-1)\\); multiply by \\(-2\\).",
+   "explain_vi": "Đáp án a. Các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"denominator\">mẫu số</b> cho \\((2;\\,3;\\,-1)\\); nhân với \\(-2\\).",
+   "images": [],
+   "id": "12052698d862",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "The line through \\(A(#;\\,#;\\,#)\\) and \\(B(#;\\,#;\\,#)\\) is…",
+   "en": "The line through \\(A(1;\\,2;\\,3)\\) and \\(B(3;\\,1;\\,5)\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">Đường thẳng</b> qua \\(A(1;\\,2;\\,3)\\) và \\(B(3;\\,1;\\,5)\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b>…",
+   "options": [
+    "\\(\\dfrac{x+1}{2}=\\dfrac{y+2}{-1}=\\dfrac{z+3}{2}\\)",
+    "\\(\\dfrac{x-1}{2}=\\dfrac{y-2}{-1}=\\dfrac{z-3}{-2}\\)",
+    "\\(\\dfrac{x-3}{4}=\\dfrac{y-1}{3}=\\dfrac{z-5}{8}\\)",
+    "\\(\\dfrac{x-1}{2}=\\dfrac{y-2}{-1}=\\dfrac{z-3}{2}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\overrightarrow{AB}=(2;\\,-1;\\,2)\\), through \\(A\\).",
+   "explain_vi": "Đáp án d. \\(\\overrightarrow{AB}=(2;\\,-1;\\,2)\\), qua \\(A\\).",
+   "images": [],
+   "id": "0196dfa18351",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "The line through \\(M(#;\\,#;\\,#)\\) perpendicular to \\((P): x+#y+#z-#=#\\) meets \\((P)\\) at…",
+   "en": "The line through \\(M(1;\\,1;\\,1)\\) perpendicular to \\((P): x+2y+2z-14=0\\) meets \\((P)\\) at…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">Đường thẳng</b> qua \\(M(1;\\,1;\\,1)\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"perpendicular\">vuông góc</b> với \\((P): x+2y+2z-14=0\\) cắt \\((P)\\) tại…",
+   "options": [
+    "\\((2;\\,3;\\,3)\\)",
+    "\\((0;\\,-1;\\,-1)\\)",
+    "\\((3;\\,5;\\,5)\\)",
+    "\\((1;\\,2;\\,2)\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Substitute \\(M+t\\vec n\\): \\(t=1\\).",
+   "explain_vi": "Đáp án a. Thay \\(M+t\\vec n\\) vào: \\(t=1\\).",
+   "images": [],
+   "id": "b1ecd1979e0e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "The lines \\(\\begin{cases}x=#+t\\\\y=#t\\\\z=#-t\\end{cases}\\) and \\(\\begin{cases}x=#-#s\\\\y=#-#s\\\\z=#s\\end{cases}\\) are parallel.",
+   "en": "The lines \\(\\begin{cases}x=1+t\\\\y=2t\\\\z=2-t\\end{cases}\\) and \\(\\begin{cases}x=3-2s\\\\y=4-4s\\\\z=2s\\end{cases}\\) are parallel.",
+   "vi": "Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(\\begin{cases}x=1+t\\\\y=2t\\\\z=2-t\\end{cases}\\) và \\(\\begin{cases}x=3-2s\\\\y=4-4s\\\\z=2s\\end{cases}\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b>.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "\\([\\vec u_1,\\vec u_2]=(0;\\,0;\\,0)\\), mixed product \\(0\\): they are coincident.",
+   "explain_vi": "\\([\\vec u_1,\\vec u_2]=(0;\\,0;\\,0)\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"mixed product\">tích hỗn tạp</b> \\(0\\): <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coincide\">trùng nhau</b>.",
+   "images": [],
+   "id": "a097c82683fb",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "The point \\((#;\\,#;\\,#)\\) lies on \\(\\dfrac{x-#}{#}=\\dfrac{y+#}{#}=\\dfrac{z-#}{#}\\).",
+   "en": "The point \\((5;\\,1;\\,8)\\) lies on \\(\\dfrac{x-1}{2}=\\dfrac{y+1}{1}=\\dfrac{z-2}{3}\\).",
+   "vi": "Điểm \\((5;\\,1;\\,8)\\) thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(\\dfrac{x-1}{2}=\\dfrac{y+1}{1}=\\dfrac{z-2}{3}\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "The three ratios are \\(2, 2, 2\\).",
+   "explain_vi": "Ba <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ratio\">tỉ số</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"respectively\">lần lượt</b> là \\(2, 2, 2\\).",
+   "images": [],
+   "id": "ff112f52c579",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "An aircraft at \\((#;\\,#;\\,#)\\) (km) moves by \\(\\vec v=(#;\\,#;\\,#)\\) each minute. After how many minutes is its altitude \\(#\\) km?",
+   "en": "An aircraft at \\((0;\\,0;\\,1)\\) (km) moves by \\(\\vec v=(3;\\,4;\\,1)\\) each minute. After how many minutes is its altitude \\(6\\) km?",
+   "vi": "Máy bay ở \\((0;\\,0;\\,1)\\) (km), mỗi phút dịch chuyển \\(\\vec v=(3;\\,4;\\,1)\\). Sau bao nhiêu phút máy bay ở độ cao \\(6\\) km?",
+   "options": [],
+   "answer": "5",
+   "explain_en": "\\(z=1+1t=6\\Rightarrow t=5\\).",
+   "explain_vi": "\\(z=1+1t=6\\Rightarrow t=5\\).",
+   "images": [],
+   "id": "375e32d2cb10",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "\\(d: \\begin{cases}x=#+t\\\\y=#t\\\\z=-#+t\\end{cases}\\) meets \\((P): x+y+z-#=#\\) at the point with parameter \\(t=\\)?",
+   "en": "\\(d: \\begin{cases}x=1+t\\\\y=2t\\\\z=-2+t\\end{cases}\\) meets \\((P): x+y+z-7=0\\) at the point with parameter \\(t=\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">Đường thẳng</b> \\(d: \\begin{cases}x=1+t\\\\y=2t\\\\z=-2+t\\end{cases}\\) cắt \\((P): x+y+z-7=0\\) tại điểm ứng với \\(t=\\)?",
+   "options": [],
+   "answer": "2",
+   "explain_en": "\\(4t-8=0\\Rightarrow t=2\\).",
+   "explain_vi": "\\(4t-8=0\\Rightarrow t=2\\).",
+   "images": [],
+   "id": "ee0e261a119c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "A direction vector of the line \\(\\dfrac{x-#}{#}=\\dfrac{y}{-#}=\\dfrac{z-#}{-#}\\) is…",
+   "en": "A direction vector of the line \\(\\dfrac{x-2}{3}=\\dfrac{y}{-1}=\\dfrac{z-4}{-2}\\) is…",
+   "vi": "Một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"direction vector\">vectơ chỉ phương</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(\\dfrac{x-2}{3}=\\dfrac{y}{-1}=\\dfrac{z-4}{-2}\\) là…",
+   "options": [
+    "\\((2;\\,0;\\,4)\\)",
+    "\\((-2;\\,0;\\,-4)\\)",
+    "\\((9;\\,-3;\\,-6)\\)",
+    "\\((3;\\,-1;\\,2)\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The denominators give \\(\\vec u=(3;\\,-1;\\,-2)\\); \\((9;\\,-3;\\,-6)\\) is a non-zero multiple of it.",
+   "explain_vi": "Đáp án c. Các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"denominator\">mẫu số</b> cho \\(\\vec u=(3;\\,-1;\\,-2)\\); \\((9;\\,-3;\\,-6)\\) là một bội khác 0 của nó.",
+   "images": [],
+   "id": "ea44fcc27814",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "A drone starts at \\((#;\\,#;\\,#)\\) and flies in a straight line with velocity \\(\\vec v=(-#;\\,#;\\,#)\\) (m/s). Its position after # s is…",
+   "en": "A drone starts at \\((5;\\,3;\\,2)\\) and flies in a straight line with velocity \\(\\vec v=(-1;\\,1;\\,2)\\) (m/s). Its position after 3 s is…",
+   "vi": "Một drone xuất phát tại \\((5;\\,3;\\,2)\\), bay thẳng với vectơ <b class=\"mbl-term\" tabindex=\"0\" data-en=\"velocity\">vận tốc</b> \\(\\vec v=(-1;\\,1;\\,2)\\) (m/s). Vị trí sau 3 giây là…",
+   "options": [
+    "\\((-3;\\,3;\\,6)\\)",
+    "\\((4;\\,4;\\,4)\\)",
+    "\\((1;\\,7;\\,10)\\)",
+    "\\((2;\\,6;\\,8)\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(M+t\\vec v=(5;\\,3;\\,2)+3\\cdot(-1;\\,1;\\,2)=(2;\\,6;\\,8)\\).",
+   "explain_vi": "Đáp án d. \\(M+t\\vec v=(5;\\,3;\\,2)+3\\cdot(-1;\\,1;\\,2)=(2;\\,6;\\,8)\\).",
+   "images": [],
+   "id": "3747b36700ca",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The line \\(AB\\) with \\(A(#;\\,#;\\,#)\\), \\(B(#;\\,-#;\\,#)\\) has the canonical equation…",
+   "en": "The line \\(AB\\) with \\(A(3;\\,4;\\,1)\\), \\(B(0;\\,-2;\\,2)\\) has the canonical equation…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">Đường thẳng</b> \\(AB\\) với \\(A(3;\\,4;\\,1)\\), \\(B(0;\\,-2;\\,2)\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"canonical equation\">phương trình chính tắc</b>…",
+   "options": [
+    "\\(\\dfrac{x-3}{-3}=\\dfrac{y-4}{-6}=\\dfrac{z-1}{1}\\)",
+    "\\(\\dfrac{x-3}{-3}=\\dfrac{y-4}{-6}=\\dfrac{z-1}{-1}\\)",
+    "\\(\\dfrac{x+3}{-3}=\\dfrac{y+4}{-6}=\\dfrac{z+1}{1}\\)",
+    "\\(\\dfrac{x-3}{3}=\\dfrac{y-4}{2}=\\dfrac{z-1}{3}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\overrightarrow{AB}=(-3;\\,-6;\\,1)\\) and the line passes through \\(A\\).",
+   "explain_vi": "Đáp án a. \\(\\overrightarrow{AB}=(-3;\\,-6;\\,1)\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> đi qua \\(A\\).",
+   "images": [],
+   "id": "2b0585be6385",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The line \\(\\begin{cases}x=#+t\\\\y=#t\\\\z=#+#t\\end{cases}\\) meets the plane \\(x-#y-#z+#=#\\) at…",
+   "en": "The line \\(\\begin{cases}x=4+t\\\\y=2t\\\\z=2+2t\\end{cases}\\) meets the plane \\(x-2y-2z+14=0\\) at…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersection point\">Giao điểm</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(\\begin{cases}x=4+t\\\\y=2t\\\\z=2+2t\\end{cases}\\) và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> \\(x-2y-2z+14=0\\) là…",
+   "options": [
+    "\\((6;\\,4;\\,6)\\)",
+    "\\((5;\\,2;\\,4)\\)",
+    "\\((7;\\,6;\\,8)\\)",
+    "\\((2;\\,-4;\\,-2)\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Substitute: \\(-7t+14=0\\Rightarrow t=2\\).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"substitute\">Thay vào</b>: \\(-7t+14=0\\Rightarrow t=2\\).",
+   "images": [],
+   "id": "1e7029cb5fd7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The line through \\(M(#;\\,#;\\,#)\\) with direction vector \\(\\vec u=(-#;\\,#;\\,#)\\) has parametric equations…",
+   "en": "The line through \\(M(0;\\,2;\\,4)\\) with direction vector \\(\\vec u=(-3;\\,2;\\,1)\\) has parametric equations…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">Đường thẳng</b> đi qua \\(M(0;\\,2;\\,4)\\) và có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"direction vector\">vectơ chỉ phương</b> \\(\\vec u=(-3;\\,2;\\,1)\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parametric equations\">phương trình tham số</b>…",
+   "options": [
+    "\\(\\begin{cases}x=3t\\\\y=2+2t\\\\z=4+t\\end{cases}\\)",
+    "\\(\\begin{cases}x=-3t\\\\y=2+2t\\\\z=4+t\\end{cases}\\)",
+    "\\(\\begin{cases}x=-3t\\\\y=2+2t\\\\z=4-t\\end{cases}\\)",
+    "\\(\\begin{cases}x=-3t\\\\y=-2+2t\\\\z=-4+t\\end{cases}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(x=x_0+at\\), \\(y=y_0+bt\\), \\(z=z_0+ct\\) with \\(M(x_0;y_0;z_0)\\), \\(\\vec u=(a;b;c)\\).",
+   "explain_vi": "Đáp án b. \\(x=x_0+at\\), \\(y=y_0+bt\\), \\(z=z_0+ct\\) với \\(M(x_0;y_0;z_0)\\), \\(\\vec u=(a;b;c)\\).",
+   "images": [],
+   "id": "c16d68f8feab",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The line through \\(M(-#;\\,#;\\,-#)\\) perpendicular to \\((P): #x-#y-#z=#\\) is…",
+   "en": "The line through \\(M(-2;\\,0;\\,-1)\\) perpendicular to \\((P): 2x-3y-2z=0\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">Đường thẳng</b> đi qua \\(M(-2;\\,0;\\,-1)\\) và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"perpendicular\">vuông góc</b> với \\((P): 2x-3y-2z=0\\) là…",
+   "options": [
+    "\\(\\dfrac{x+2}{2}=\\dfrac{y}{-3}=\\dfrac{z+1}{2}\\)",
+    "\\(\\dfrac{x+2}{-2}=\\dfrac{y}{-3}=\\dfrac{z+1}{-2}\\)",
+    "\\(\\dfrac{x-2}{2}=\\dfrac{y}{-3}=\\dfrac{z-1}{-2}\\)",
+    "\\(\\dfrac{x+2}{2}=\\dfrac{y}{-3}=\\dfrac{z+1}{-2}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Its direction vector is the normal vector \\(\\vec n=(2;\\,-3;\\,-2)\\).",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"direction vector\">Vectơ chỉ phương</b> là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"normal vector\">vectơ pháp tuyến</b> \\(\\vec n=(2;\\,-3;\\,-2)\\).",
+   "images": [],
+   "id": "907ade59af91",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The lines \\(d_#: \\begin{cases}x=#-#t\\\\y=#\\\\z=#-t\\end{cases}\\) and \\(d_#: \\begin{cases}x=#-#s\\\\y=#\\\\z=#-#s\\end{cases}\\) (parameter \\(s\\)) are…",
+   "en": "The lines \\(d_1: \\begin{cases}x=1-2t\\\\y=0\\\\z=3-t\\end{cases}\\) and \\(d_2: \\begin{cases}x=2-4s\\\\y=0\\\\z=3-2s\\end{cases}\\) (parameter \\(s\\)) are…",
+   "vi": "Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(d_1: \\begin{cases}x=1-2t\\\\y=0\\\\z=3-t\\end{cases}\\) và \\(d_2: \\begin{cases}x=2-4s\\\\y=0\\\\z=3-2s\\end{cases}\\) (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"parameter\">tham số</b> \\(s\\))…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">coincident</span><span class=\"vi\">trùng nhau</span></span>",
+    "<span class=\"txi\"><span class=\"en\">intersecting</span><span class=\"vi\">cắt nhau</span></span>",
+    "<span class=\"txi\"><span class=\"en\">skew</span><span class=\"vi\">chéo nhau</span></span>",
+    "<span class=\"txi\"><span class=\"en\">parallel</span><span class=\"vi\">song song</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\([\\vec u_1,\\vec u_2]=(0;\\,0;\\,0)\\), \\([\\vec u_1,\\vec u_2]\\cdot\\overrightarrow{M_1M_2}=0\\).",
+   "explain_vi": "Đáp án d. \\([\\vec u_1,\\vec u_2]=(0;\\,0;\\,0)\\), \\([\\vec u_1,\\vec u_2]\\cdot\\overrightarrow{M_1M_2}=0\\).",
+   "images": [],
+   "id": "349d7cc6d569",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Which point lies on the line \\(\\begin{cases}x=#\\\\y=#+#t\\\\z=-#+#t\\end{cases}\\)?",
+   "en": "Which point lies on the line \\(\\begin{cases}x=0\\\\y=3+2t\\\\z=-2+2t\\end{cases}\\)?",
+   "vi": "Điểm nào thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(\\begin{cases}x=0\\\\y=3+2t\\\\z=-2+2t\\end{cases}\\)?",
+   "options": [
+    "\\((-1;\\,7;\\,1)\\)",
+    "\\((-1;\\,7;\\,3)\\)",
+    "\\((1;\\,6;\\,2)\\)",
+    "\\((0;\\,7;\\,2)\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Take \\(t=2\\): \\((0;\\,7;\\,2)\\).",
+   "explain_vi": "Đáp án d. Lấy \\(t=2\\): được \\((0;\\,7;\\,2)\\).",
+   "images": [],
+   "id": "939876a88488",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "A direction vector of \\(\\dfrac{x+#}{#}=\\dfrac{y-#}{-#}=\\dfrac{z-#}{#}\\) is…",
+   "en": "A direction vector of \\(\\dfrac{x+1}{1}=\\dfrac{y-3}{-2}=\\dfrac{z-2}{4}\\) is…",
+   "vi": "Một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"direction vector\">vectơ chỉ phương</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(\\dfrac{x+1}{1}=\\dfrac{y-3}{-2}=\\dfrac{z-2}{4}\\) là…",
+   "options": [
+    "\\((3;\\,-6;\\,12)\\)",
+    "\\((-1;\\,3;\\,2)\\)",
+    "\\((1;\\,-3;\\,-2)\\)",
+    "\\((1;\\,2;\\,4)\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. The denominators give \\((1;\\,-2;\\,4)\\); multiply by \\(3\\).",
+   "explain_vi": "Đáp án a. Các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"denominator\">mẫu số</b> cho \\((1;\\,-2;\\,4)\\); nhân với \\(3\\).",
+   "images": [],
+   "id": "778d4ab09ccd",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "The line through \\(A(#;\\,-#;\\,#)\\) and \\(B(#;\\,#;\\,#)\\) is…",
+   "en": "The line through \\(A(0;\\,-1;\\,2)\\) and \\(B(2;\\,3;\\,1)\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">Đường thẳng</b> qua \\(A(0;\\,-1;\\,2)\\) và \\(B(2;\\,3;\\,1)\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b>…",
+   "options": [
+    "\\(\\dfrac{x}{2}=\\dfrac{y-1}{4}=\\dfrac{z+2}{-1}\\)",
+    "\\(\\dfrac{x}{2}=\\dfrac{y+1}{4}=\\dfrac{z-2}{-1}\\)",
+    "\\(\\dfrac{x}{2}=\\dfrac{y+1}{4}=\\dfrac{z-2}{1}\\)",
+    "\\(\\dfrac{x-2}{2}=\\dfrac{y-3}{2}=\\dfrac{z-1}{3}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\overrightarrow{AB}=(2;\\,4;\\,-1)\\), through \\(A\\).",
+   "explain_vi": "Đáp án b. \\(\\overrightarrow{AB}=(2;\\,4;\\,-1)\\), qua \\(A\\).",
+   "images": [],
+   "id": "ba19fdb606eb",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "The line through \\(M(#;\\,#;\\,-#)\\) perpendicular to \\((P): #x-y+#z+#=#\\) meets \\((P)\\) at…",
+   "en": "The line through \\(M(2;\\,0;\\,-1)\\) perpendicular to \\((P): 2x-y+2z+7=0\\) meets \\((P)\\) at…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">Đường thẳng</b> qua \\(M(2;\\,0;\\,-1)\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"perpendicular\">vuông góc</b> với \\((P): 2x-y+2z+7=0\\) cắt \\((P)\\) tại…",
+   "options": [
+    "\\((4;\\,-1;\\,1)\\)",
+    "\\((0;\\,1;\\,-3)\\)",
+    "\\((2;\\,0;\\,-1)\\)",
+    "\\((2;\\,-1;\\,2)\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Substitute \\(M+t\\vec n\\): \\(t=-1\\).",
+   "explain_vi": "Đáp án b. Thay \\(M+t\\vec n\\) vào: \\(t=-1\\).",
+   "images": [],
+   "id": "ea99004bbb5a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "The lines \\(\\begin{cases}x=t\\\\y=#+t\\\\z=#\\end{cases}\\) and \\(\\begin{cases}x=#\\\\y=s\\\\z=#+s\\end{cases}\\) are skew.",
+   "en": "The lines \\(\\begin{cases}x=t\\\\y=1+t\\\\z=1\\end{cases}\\) and \\(\\begin{cases}x=1\\\\y=s\\\\z=2+s\\end{cases}\\) are skew.",
+   "vi": "Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(\\begin{cases}x=t\\\\y=1+t\\\\z=1\\end{cases}\\) và \\(\\begin{cases}x=1\\\\y=s\\\\z=2+s\\end{cases}\\) chéo nhau.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "\\([\\vec u_1,\\vec u_2]=(1;\\,-1;\\,1)\\), mixed product \\(3\\): they are skew.",
+   "explain_vi": "\\([\\vec u_1,\\vec u_2]=(1;\\,-1;\\,1)\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"mixed product\">tích hỗn tạp</b> \\(3\\): chéo nhau.",
+   "images": [],
+   "id": "950565522b50",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "The point \\((#;\\,-#;\\,#)\\) lies on \\(\\dfrac{x-#}{#}=\\dfrac{y}{-#}=\\dfrac{z+#}{#}\\).",
+   "en": "The point \\((4;\\,-6;\\,2)\\) lies on \\(\\dfrac{x-2}{1}=\\dfrac{y}{-3}=\\dfrac{z+1}{2}\\).",
+   "vi": "Điểm \\((4;\\,-6;\\,2)\\) thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(\\dfrac{x-2}{1}=\\dfrac{y}{-3}=\\dfrac{z+1}{2}\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "The three ratios are \\(2, 2, \\dfrac{3}{2}\\).",
+   "explain_vi": "Ba <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ratio\">tỉ số</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"respectively\">lần lượt</b> là \\(2, 2, \\dfrac{3}{2}\\).",
+   "images": [],
+   "id": "4306c9451c60",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "An aircraft at \\((#;\\,#;\\,#)\\) (km) moves by \\(\\vec v=(#;\\,#;\\,#)\\) each minute. After how many minutes is its altitude \\(#\\) km?",
+   "en": "An aircraft at \\((5;\\,2;\\,2)\\) (km) moves by \\(\\vec v=(2;\\,2;\\,1)\\) each minute. After how many minutes is its altitude \\(9\\) km?",
+   "vi": "Máy bay ở \\((5;\\,2;\\,2)\\) (km), mỗi phút dịch chuyển \\(\\vec v=(2;\\,2;\\,1)\\). Sau bao nhiêu phút máy bay ở độ cao \\(9\\) km?",
+   "options": [],
+   "answer": "7",
+   "explain_en": "\\(z=2+1t=9\\Rightarrow t=7\\).",
+   "explain_vi": "\\(z=2+1t=9\\Rightarrow t=7\\).",
+   "images": [],
+   "id": "7c7ba74b28c4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "\\(d: \\begin{cases}x=#+t\\\\y=#-t\\\\z=#t\\end{cases}\\) meets \\((P): #x+y-z+#=#\\) at the point with parameter \\(t=\\)?",
+   "en": "\\(d: \\begin{cases}x=2+t\\\\y=1-t\\\\z=2t\\end{cases}\\) meets \\((P): 2x+y-z+1=0\\) at the point with parameter \\(t=\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">Đường thẳng</b> \\(d: \\begin{cases}x=2+t\\\\y=1-t\\\\z=2t\\end{cases}\\) cắt \\((P): 2x+y-z+1=0\\) tại điểm ứng với \\(t=\\)?",
+   "options": [],
+   "answer": "6",
+   "explain_en": "\\(-1t+6=0\\Rightarrow t=6\\).",
+   "explain_vi": "\\(-1t+6=0\\Rightarrow t=6\\).",
+   "images": [],
+   "id": "f442563a2c4a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "A direction vector of the line \\(\\dfrac{x-#}{#}=\\dfrac{y-#}{-#}=\\dfrac{z+#}{-#}\\) is…",
+   "en": "A direction vector of the line \\(\\dfrac{x-4}{1}=\\dfrac{y-4}{-1}=\\dfrac{z+3}{-2}\\) is…",
+   "vi": "Một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"direction vector\">vectơ chỉ phương</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(\\dfrac{x-4}{1}=\\dfrac{y-4}{-1}=\\dfrac{z+3}{-2}\\) là…",
+   "options": [
+    "\\((4;\\,4;\\,-3)\\)",
+    "\\((-1;\\,1;\\,2)\\)",
+    "\\((-4;\\,-4;\\,3)\\)",
+    "\\((1;\\,-1;\\,2)\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. The denominators give \\(\\vec u=(1;\\,-1;\\,-2)\\); \\((-1;\\,1;\\,2)\\) is a non-zero multiple of it.",
+   "explain_vi": "Đáp án b. Các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"denominator\">mẫu số</b> cho \\(\\vec u=(1;\\,-1;\\,-2)\\); \\((-1;\\,1;\\,2)\\) là một bội khác 0 của nó.",
+   "images": [],
+   "id": "1721ec9c9da0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "A drone starts at \\((#;\\,#;\\,#)\\) and flies in a straight line with velocity \\(\\vec v=(#;\\,#;\\,#)\\) (m/s). Its position after # s is…",
+   "en": "A drone starts at \\((4;\\,3;\\,3)\\) and flies in a straight line with velocity \\(\\vec v=(2;\\,1;\\,1)\\) (m/s). Its position after 3 s is…",
+   "vi": "Một drone xuất phát tại \\((4;\\,3;\\,3)\\), bay thẳng với vectơ <b class=\"mbl-term\" tabindex=\"0\" data-en=\"velocity\">vận tốc</b> \\(\\vec v=(2;\\,1;\\,1)\\) (m/s). Vị trí sau 3 giây là…",
+   "options": [
+    "\\((10;\\,6;\\,6)\\)",
+    "\\((6;\\,3;\\,3)\\)",
+    "\\((12;\\,7;\\,7)\\)",
+    "\\((6;\\,4;\\,4)\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(M+t\\vec v=(4;\\,3;\\,3)+3\\cdot(2;\\,1;\\,1)=(10;\\,6;\\,6)\\).",
+   "explain_vi": "Đáp án a. \\(M+t\\vec v=(4;\\,3;\\,3)+3\\cdot(2;\\,1;\\,1)=(10;\\,6;\\,6)\\).",
+   "images": [],
+   "id": "3b38c8249949",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The line \\(AB\\) with \\(A(-#;\\,#;\\,#)\\), \\(B(#;\\,#;\\,#)\\) has the canonical equation…",
+   "en": "The line \\(AB\\) with \\(A(-3;\\,0;\\,1)\\), \\(B(4;\\,4;\\,4)\\) has the canonical equation…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">Đường thẳng</b> \\(AB\\) với \\(A(-3;\\,0;\\,1)\\), \\(B(4;\\,4;\\,4)\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"canonical equation\">phương trình chính tắc</b>…",
+   "options": [
+    "\\(\\dfrac{x-3}{7}=\\dfrac{y}{4}=\\dfrac{z+1}{3}\\)",
+    "\\(\\dfrac{x+3}{7}=\\dfrac{y}{4}=\\dfrac{z-1}{-3}\\)",
+    "\\(\\dfrac{x+3}{7}=\\dfrac{y}{4}=\\dfrac{z-1}{3}\\)",
+    "\\(\\dfrac{x+3}{1}=\\dfrac{y}{4}=\\dfrac{z-1}{5}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\overrightarrow{AB}=(7;\\,4;\\,3)\\) and the line passes through \\(A\\).",
+   "explain_vi": "Đáp án c. \\(\\overrightarrow{AB}=(7;\\,4;\\,3)\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> đi qua \\(A\\).",
+   "images": [],
+   "id": "85008643d677",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The line \\(\\begin{cases}x=#-#t\\\\y=#-#t\\\\z=-#-#t\\end{cases}\\) meets the plane \\(x+y+z+#=#\\) at…",
+   "en": "The line \\(\\begin{cases}x=2-2t\\\\y=1-2t\\\\z=-1-3t\\end{cases}\\) meets the plane \\(x+y+z+12=0\\) at…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersection point\">Giao điểm</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(\\begin{cases}x=2-2t\\\\y=1-2t\\\\z=-1-3t\\end{cases}\\) và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> \\(x+y+z+12=0\\) là…",
+   "options": [
+    "\\((6;\\,5;\\,5)\\)",
+    "\\((-2;\\,-3;\\,-7)\\)",
+    "\\((-4;\\,-5;\\,-10)\\)",
+    "\\((0;\\,-1;\\,-4)\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Substitute: \\(-7t+14=0\\Rightarrow t=2\\).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"substitute\">Thay vào</b>: \\(-7t+14=0\\Rightarrow t=2\\).",
+   "images": [],
+   "id": "6475c82dc508",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The line through \\(M(#;\\,#;\\,#)\\) with direction vector \\(\\vec u=(#;\\,-#;\\,-#)\\) has parametric equations…",
+   "en": "The line through \\(M(3;\\,4;\\,3)\\) with direction vector \\(\\vec u=(3;\\,-2;\\,-2)\\) has parametric equations…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">Đường thẳng</b> đi qua \\(M(3;\\,4;\\,3)\\) và có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"direction vector\">vectơ chỉ phương</b> \\(\\vec u=(3;\\,-2;\\,-2)\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parametric equations\">phương trình tham số</b>…",
+   "options": [
+    "\\(\\begin{cases}x=-3+3t\\\\y=-4-2t\\\\z=-3-2t\\end{cases}\\)",
+    "\\(\\begin{cases}x=3+3t\\\\y=-2+4t\\\\z=-2+3t\\end{cases}\\)",
+    "\\(\\begin{cases}x=3+3t\\\\y=4-2t\\\\z=3-2t\\end{cases}\\)",
+    "\\(\\begin{cases}x=3+3t\\\\y=4-2t\\\\z=3+2t\\end{cases}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(x=x_0+at\\), \\(y=y_0+bt\\), \\(z=z_0+ct\\) with \\(M(x_0;y_0;z_0)\\), \\(\\vec u=(a;b;c)\\).",
+   "explain_vi": "Đáp án c. \\(x=x_0+at\\), \\(y=y_0+bt\\), \\(z=z_0+ct\\) với \\(M(x_0;y_0;z_0)\\), \\(\\vec u=(a;b;c)\\).",
+   "images": [],
+   "id": "6fb1530faf82",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The line through \\(M(#;\\,-#;\\,#)\\) perpendicular to \\((P): x+#y+#z+#=#\\) is…",
+   "en": "The line through \\(M(3;\\,-3;\\,2)\\) perpendicular to \\((P): x+2y+3z+4=0\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">Đường thẳng</b> đi qua \\(M(3;\\,-3;\\,2)\\) và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"perpendicular\">vuông góc</b> với \\((P): x+2y+3z+4=0\\) là…",
+   "options": [
+    "\\(\\dfrac{x-3}{1}=\\dfrac{y+3}{2}=\\dfrac{z-2}{3}\\)",
+    "\\(\\dfrac{x-1}{3}=\\dfrac{y-2}{-3}=\\dfrac{z-3}{2}\\)",
+    "\\(\\dfrac{x+3}{1}=\\dfrac{y-3}{2}=\\dfrac{z+2}{3}\\)",
+    "\\(\\dfrac{x-3}{1}=\\dfrac{y+3}{2}=\\dfrac{z-2}{-3}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Its direction vector is the normal vector \\(\\vec n=(1;\\,2;\\,3)\\).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"direction vector\">Vectơ chỉ phương</b> là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"normal vector\">vectơ pháp tuyến</b> \\(\\vec n=(1;\\,2;\\,3)\\).",
+   "images": [],
+   "id": "2d59f1818026",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The lines \\(d_#: \\begin{cases}x=#+#t\\\\y=#\\\\z=#+t\\end{cases}\\) and \\(d_#: \\begin{cases}x=#-#s\\\\y=#\\\\z=#-#s\\end{cases}\\) (parameter \\(s\\)) are…",
+   "en": "The lines \\(d_1: \\begin{cases}x=1+2t\\\\y=0\\\\z=1+t\\end{cases}\\) and \\(d_2: \\begin{cases}x=2-4s\\\\y=0\\\\z=1-2s\\end{cases}\\) (parameter \\(s\\)) are…",
+   "vi": "Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(d_1: \\begin{cases}x=1+2t\\\\y=0\\\\z=1+t\\end{cases}\\) và \\(d_2: \\begin{cases}x=2-4s\\\\y=0\\\\z=1-2s\\end{cases}\\) (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"parameter\">tham số</b> \\(s\\))…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">coincident</span><span class=\"vi\">trùng nhau</span></span>",
+    "<span class=\"txi\"><span class=\"en\">intersecting</span><span class=\"vi\">cắt nhau</span></span>",
+    "<span class=\"txi\"><span class=\"en\">parallel</span><span class=\"vi\">song song</span></span>",
+    "<span class=\"txi\"><span class=\"en\">skew</span><span class=\"vi\">chéo nhau</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\([\\vec u_1,\\vec u_2]=(0;\\,0;\\,0)\\), \\([\\vec u_1,\\vec u_2]\\cdot\\overrightarrow{M_1M_2}=0\\).",
+   "explain_vi": "Đáp án c. \\([\\vec u_1,\\vec u_2]=(0;\\,0;\\,0)\\), \\([\\vec u_1,\\vec u_2]\\cdot\\overrightarrow{M_1M_2}=0\\).",
+   "images": [],
+   "id": "31e418efad0e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Which point lies on the line \\(\\begin{cases}x=-#-t\\\\y=-#-#t\\\\z=#-#t\\end{cases}\\)?",
+   "en": "Which point lies on the line \\(\\begin{cases}x=-2-t\\\\y=-3-3t\\\\z=3-2t\\end{cases}\\)?",
+   "vi": "Điểm nào thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(\\begin{cases}x=-2-t\\\\y=-3-3t\\\\z=3-2t\\end{cases}\\)?",
+   "options": [
+    "\\((0;\\,-1;\\,5)\\)",
+    "\\((-2;\\,-1;\\,6)\\)",
+    "\\((-1;\\,0;\\,5)\\)",
+    "\\((-2;\\,-1;\\,5)\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Take \\(t=-1\\): \\((-1;\\,0;\\,5)\\).",
+   "explain_vi": "Đáp án c. Lấy \\(t=-1\\): được \\((-1;\\,0;\\,5)\\).",
+   "images": [],
+   "id": "416c577b1bda",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "A direction vector of \\(\\dfrac{x-#}{-#}=\\dfrac{y}{#}=\\dfrac{z+#}{#}\\) is…",
+   "en": "A direction vector of \\(\\dfrac{x-3}{-3}=\\dfrac{y}{1}=\\dfrac{z+4}{2}\\) is…",
+   "vi": "Một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"direction vector\">vectơ chỉ phương</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(\\dfrac{x-3}{-3}=\\dfrac{y}{1}=\\dfrac{z+4}{2}\\) là…",
+   "options": [
+    "\\((3;\\,0;\\,-4)\\)",
+    "\\((-3;\\,0;\\,4)\\)",
+    "\\((-3;\\,-1;\\,2)\\)",
+    "\\((-6;\\,2;\\,4)\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. The denominators give \\((-3;\\,1;\\,2)\\); multiply by \\(2\\).",
+   "explain_vi": "Đáp án d. Các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"denominator\">mẫu số</b> cho \\((-3;\\,1;\\,2)\\); nhân với \\(2\\).",
+   "images": [],
+   "id": "6cbc9f83a96e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "The line through \\(A(-#;\\,#;\\,#)\\) and \\(B(#;\\,#;\\,-#)\\) is…",
+   "en": "The line through \\(A(-2;\\,1;\\,0)\\) and \\(B(1;\\,3;\\,-2)\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">Đường thẳng</b> qua \\(A(-2;\\,1;\\,0)\\) và \\(B(1;\\,3;\\,-2)\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b>…",
+   "options": [
+    "\\(\\dfrac{x-2}{3}=\\dfrac{y+1}{2}=\\dfrac{z}{-2}\\)",
+    "\\(\\dfrac{x+2}{3}=\\dfrac{y-1}{2}=\\dfrac{z}{-2}\\)",
+    "\\(\\dfrac{x+2}{3}=\\dfrac{y-1}{2}=\\dfrac{z}{2}\\)",
+    "\\(\\dfrac{x-1}{-1}=\\dfrac{y-3}{4}=\\dfrac{z+2}{-2}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\overrightarrow{AB}=(3;\\,2;\\,-2)\\), through \\(A\\).",
+   "explain_vi": "Đáp án b. \\(\\overrightarrow{AB}=(3;\\,2;\\,-2)\\), qua \\(A\\).",
+   "images": [],
+   "id": "872d152feba7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "The line through \\(M(-#;\\,#;\\,#)\\) perpendicular to \\((P): x-#y+z-#=#\\) meets \\((P)\\) at…",
+   "en": "The line through \\(M(-1;\\,2;\\,3)\\) perpendicular to \\((P): x-2y+z-10=0\\) meets \\((P)\\) at…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">Đường thẳng</b> qua \\(M(-1;\\,2;\\,3)\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"perpendicular\">vuông góc</b> với \\((P): x-2y+z-10=0\\) cắt \\((P)\\) tại…",
+   "options": [
+    "\\((-3;\\,6;\\,1)\\)",
+    "\\((1;\\,-2;\\,5)\\)",
+    "\\((2;\\,-4;\\,6)\\)",
+    "\\((1;\\,-2;\\,1)\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Substitute \\(M+t\\vec n\\): \\(t=2\\).",
+   "explain_vi": "Đáp án b. Thay \\(M+t\\vec n\\) vào: \\(t=2\\).",
+   "images": [],
+   "id": "1ed8f8037444",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "The lines \\(\\begin{cases}x=#+#t\\\\y=#-t\\\\z=t\\end{cases}\\) and \\(\\begin{cases}x=#+s\\\\y=s\\\\z=#+#s\\end{cases}\\) are intersecting.",
+   "en": "The lines \\(\\begin{cases}x=1+2t\\\\y=1-t\\\\z=t\\end{cases}\\) and \\(\\begin{cases}x=3+s\\\\y=s\\\\z=1+2s\\end{cases}\\) are intersecting.",
+   "vi": "Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(\\begin{cases}x=1+2t\\\\y=1-t\\\\z=t\\end{cases}\\) và \\(\\begin{cases}x=3+s\\\\y=s\\\\z=1+2s\\end{cases}\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersect\">cắt nhau</b>.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "\\([\\vec u_1,\\vec u_2]=(-3;\\,-3;\\,3)\\), mixed product \\(0\\): they are intersecting.",
+   "explain_vi": "\\([\\vec u_1,\\vec u_2]=(-3;\\,-3;\\,3)\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"mixed product\">tích hỗn tạp</b> \\(0\\): <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersect\">cắt nhau</b>.",
+   "images": [],
+   "id": "649ffb84d9a6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "The point \\((-#;\\,#;\\,#)\\) lies on \\(\\dfrac{x}{-#}=\\dfrac{y-#}{#}=\\dfrac{z+#}{#}\\).",
+   "en": "The point \\((-2;\\,6;\\,5)\\) lies on \\(\\dfrac{x}{-1}=\\dfrac{y-2}{2}=\\dfrac{z+1}{3}\\).",
+   "vi": "Điểm \\((-2;\\,6;\\,5)\\) thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(\\dfrac{x}{-1}=\\dfrac{y-2}{2}=\\dfrac{z+1}{3}\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "The three ratios are \\(2, 2, 2\\).",
+   "explain_vi": "Ba <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ratio\">tỉ số</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"respectively\">lần lượt</b> là \\(2, 2, 2\\).",
+   "images": [],
+   "id": "5f6ab5dd165d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "An aircraft at \\((#;\\,-#;\\,#)\\) (km) moves by \\(\\vec v=(#;\\,#;\\,#)\\) each minute. After how many minutes is its altitude \\(#\\) km?",
+   "en": "An aircraft at \\((4;\\,-3;\\,0)\\) (km) moves by \\(\\vec v=(1;\\,2;\\,2)\\) each minute. After how many minutes is its altitude \\(10\\) km?",
+   "vi": "Máy bay ở \\((4;\\,-3;\\,0)\\) (km), mỗi phút dịch chuyển \\(\\vec v=(1;\\,2;\\,2)\\). Sau bao nhiêu phút máy bay ở độ cao \\(10\\) km?",
+   "options": [],
+   "answer": "5",
+   "explain_en": "\\(z=0+2t=10\\Rightarrow t=5\\).",
+   "explain_vi": "\\(z=0+2t=10\\Rightarrow t=5\\).",
+   "images": [],
+   "id": "a4e36ccaf513",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "\\(d: \\begin{cases}x=-#+#t\\\\y=#+t\\\\z=#-t\\end{cases}\\) meets \\((P): x-y+#z+#=#\\) at the point with parameter \\(t=\\)?",
+   "en": "\\(d: \\begin{cases}x=-1+2t\\\\y=3+t\\\\z=2-t\\end{cases}\\) meets \\((P): x-y+3z+20=0\\) at the point with parameter \\(t=\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">Đường thẳng</b> \\(d: \\begin{cases}x=-1+2t\\\\y=3+t\\\\z=2-t\\end{cases}\\) cắt \\((P): x-y+3z+20=0\\) tại điểm ứng với \\(t=\\)?",
+   "options": [],
+   "answer": "11",
+   "explain_en": "\\(-2t+22=0\\Rightarrow t=11\\).",
+   "explain_vi": "\\(-2t+22=0\\Rightarrow t=11\\).",
+   "images": [],
+   "id": "226b61c211bb",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "A direction vector of the line \\(\\dfrac{x+#}{#}=\\dfrac{y-#}{#}=\\dfrac{z-#}{#}\\) is…",
+   "en": "A direction vector of the line \\(\\dfrac{x+1}{3}=\\dfrac{y-3}{1}=\\dfrac{z-4}{3}\\) is…",
+   "vi": "Một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"direction vector\">vectơ chỉ phương</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(\\dfrac{x+1}{3}=\\dfrac{y-3}{1}=\\dfrac{z-4}{3}\\) là…",
+   "options": [
+    "\\((-1;\\,3;\\,4)\\)",
+    "\\((6;\\,2;\\,6)\\)",
+    "\\((3;\\,1;\\,-3)\\)",
+    "\\((1;\\,-3;\\,-4)\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. The denominators give \\(\\vec u=(3;\\,1;\\,3)\\); \\((6;\\,2;\\,6)\\) is a non-zero multiple of it.",
+   "explain_vi": "Đáp án b. Các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"denominator\">mẫu số</b> cho \\(\\vec u=(3;\\,1;\\,3)\\); \\((6;\\,2;\\,6)\\) là một bội khác 0 của nó.",
+   "images": [],
+   "id": "3a3e5d2422f9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "A drone starts at \\((#;\\,#;\\,#)\\) and flies in a straight line with velocity \\(\\vec v=(-#;\\,#;\\,#)\\) (m/s). Its position after # s is…",
+   "en": "A drone starts at \\((5;\\,5;\\,2)\\) and flies in a straight line with velocity \\(\\vec v=(-1;\\,3;\\,2)\\) (m/s). Its position after 4 s is…",
+   "vi": "Một drone xuất phát tại \\((5;\\,5;\\,2)\\), bay thẳng với vectơ <b class=\"mbl-term\" tabindex=\"0\" data-en=\"velocity\">vận tốc</b> \\(\\vec v=(-1;\\,3;\\,2)\\) (m/s). Vị trí sau 4 giây là…",
+   "options": [
+    "\\((1;\\,17;\\,10)\\)",
+    "\\((4;\\,8;\\,4)\\)",
+    "\\((-4;\\,12;\\,8)\\)",
+    "\\((0;\\,20;\\,12)\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(M+t\\vec v=(5;\\,5;\\,2)+4\\cdot(-1;\\,3;\\,2)=(1;\\,17;\\,10)\\).",
+   "explain_vi": "Đáp án a. \\(M+t\\vec v=(5;\\,5;\\,2)+4\\cdot(-1;\\,3;\\,2)=(1;\\,17;\\,10)\\).",
+   "images": [],
+   "id": "f56fb42d814a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The line \\(AB\\) with \\(A(-#;\\,#;\\,-#)\\), \\(B(#;\\,#;\\,-#)\\) has the canonical equation…",
+   "en": "The line \\(AB\\) with \\(A(-2;\\,3;\\,-1)\\), \\(B(4;\\,1;\\,-3)\\) has the canonical equation…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">Đường thẳng</b> \\(AB\\) với \\(A(-2;\\,3;\\,-1)\\), \\(B(4;\\,1;\\,-3)\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"canonical equation\">phương trình chính tắc</b>…",
+   "options": [
+    "\\(\\dfrac{x+2}{2}=\\dfrac{y-3}{4}=\\dfrac{z+1}{-4}\\)",
+    "\\(\\dfrac{x+2}{6}=\\dfrac{y-3}{-2}=\\dfrac{z+1}{-2}\\)",
+    "\\(\\dfrac{x-2}{6}=\\dfrac{y+3}{-2}=\\dfrac{z-1}{-2}\\)",
+    "\\(\\dfrac{x+2}{6}=\\dfrac{y-3}{-2}=\\dfrac{z+1}{2}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\overrightarrow{AB}=(6;\\,-2;\\,-2)\\) and the line passes through \\(A\\).",
+   "explain_vi": "Đáp án b. \\(\\overrightarrow{AB}=(6;\\,-2;\\,-2)\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> đi qua \\(A\\).",
+   "images": [],
+   "id": "2817b99711df",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The line \\(\\begin{cases}x=#-#t\\\\y=#-#t\\\\z=-#+#t\\end{cases}\\) meets the plane \\(#x+#y-#z-#=#\\) at…",
+   "en": "The line \\(\\begin{cases}x=1-2t\\\\y=3-3t\\\\z=-3+2t\\end{cases}\\) meets the plane \\(2x+3y-3z-1=0\\) at…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersection point\">Giao điểm</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(\\begin{cases}x=1-2t\\\\y=3-3t\\\\z=-3+2t\\end{cases}\\) và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> \\(2x+3y-3z-1=0\\) là…",
+   "options": [
+    "\\((-3;\\,-3;\\,1)\\)",
+    "\\((-1;\\,0;\\,-1)\\)",
+    "\\((1;\\,3;\\,-3)\\)",
+    "\\((3;\\,6;\\,-5)\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Substitute: \\(-19t+19=0\\Rightarrow t=1\\).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"substitute\">Thay vào</b>: \\(-19t+19=0\\Rightarrow t=1\\).",
+   "images": [],
+   "id": "15822f021095",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The line through \\(M(#;\\,-#;\\,#)\\) perpendicular to \\((P): -#x-y+#z-#=#\\) is…",
+   "en": "The line through \\(M(1;\\,-3;\\,1)\\) perpendicular to \\((P): -2x-y+2z-1=0\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">Đường thẳng</b> đi qua \\(M(1;\\,-3;\\,1)\\) và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"perpendicular\">vuông góc</b> với \\((P): -2x-y+2z-1=0\\) là…",
+   "options": [
+    "\\(\\dfrac{x-1}{-2}=\\dfrac{y+3}{-1}=\\dfrac{z-1}{2}\\)",
+    "\\(\\dfrac{x-1}{-2}=\\dfrac{y+3}{-1}=\\dfrac{z-1}{-2}\\)",
+    "\\(\\dfrac{x+2}{1}=\\dfrac{y+1}{-3}=\\dfrac{z-2}{1}\\)",
+    "\\(\\dfrac{x+1}{-2}=\\dfrac{y-3}{-1}=\\dfrac{z+1}{2}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Its direction vector is the normal vector \\(\\vec n=(-2;\\,-1;\\,2)\\).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"direction vector\">Vectơ chỉ phương</b> là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"normal vector\">vectơ pháp tuyến</b> \\(\\vec n=(-2;\\,-1;\\,2)\\).",
+   "images": [],
+   "id": "4b7b803982a1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The line through \\(M(-#;\\,#;\\,#)\\) with direction vector \\(\\vec u=(-#;\\,#;\\,#)\\) has parametric equations…",
+   "en": "The line through \\(M(-3;\\,0;\\,0)\\) with direction vector \\(\\vec u=(-3;\\,1;\\,1)\\) has parametric equations…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">Đường thẳng</b> đi qua \\(M(-3;\\,0;\\,0)\\) và có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"direction vector\">vectơ chỉ phương</b> \\(\\vec u=(-3;\\,1;\\,1)\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parametric equations\">phương trình tham số</b>…",
+   "options": [
+    "\\(\\begin{cases}x=-3-3t\\\\y=t\\\\z=t\\end{cases}\\)",
+    "\\(\\begin{cases}x=3-3t\\\\y=t\\\\z=t\\end{cases}\\)",
+    "\\(\\begin{cases}x=-3+3t\\\\y=t\\\\z=t\\end{cases}\\)",
+    "\\(\\begin{cases}x=-3-3t\\\\y=t\\\\z=-t\\end{cases}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(x=x_0+at\\), \\(y=y_0+bt\\), \\(z=z_0+ct\\) with \\(M(x_0;y_0;z_0)\\), \\(\\vec u=(a;b;c)\\).",
+   "explain_vi": "Đáp án a. \\(x=x_0+at\\), \\(y=y_0+bt\\), \\(z=z_0+ct\\) với \\(M(x_0;y_0;z_0)\\), \\(\\vec u=(a;b;c)\\).",
+   "images": [],
+   "id": "540afea00f74",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The lines \\(d_#: \\begin{cases}x=#+#t\\\\y=#+#t\\\\z=-#t\\end{cases}\\) and \\(d_#: \\begin{cases}x=#-s\\\\y=#+#s\\\\z=-#+s\\end{cases}\\) (parameter \\(s\\)) are…",
+   "en": "The lines \\(d_1: \\begin{cases}x=3+3t\\\\y=3+3t\\\\z=-3t\\end{cases}\\) and \\(d_2: \\begin{cases}x=7-s\\\\y=3+3s\\\\z=-4+s\\end{cases}\\) (parameter \\(s\\)) are…",
+   "vi": "Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(d_1: \\begin{cases}x=3+3t\\\\y=3+3t\\\\z=-3t\\end{cases}\\) và \\(d_2: \\begin{cases}x=7-s\\\\y=3+3s\\\\z=-4+s\\end{cases}\\) (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"parameter\">tham số</b> \\(s\\))…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">parallel</span><span class=\"vi\">song song</span></span>",
+    "<span class=\"txi\"><span class=\"en\">coincident</span><span class=\"vi\">trùng nhau</span></span>",
+    "<span class=\"txi\"><span class=\"en\">intersecting</span><span class=\"vi\">cắt nhau</span></span>",
+    "<span class=\"txi\"><span class=\"en\">skew</span><span class=\"vi\">chéo nhau</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\([\\vec u_1,\\vec u_2]=(12;\\,0;\\,12)\\), \\([\\vec u_1,\\vec u_2]\\cdot\\overrightarrow{M_1M_2}=0\\).",
+   "explain_vi": "Đáp án c. \\([\\vec u_1,\\vec u_2]=(12;\\,0;\\,12)\\), \\([\\vec u_1,\\vec u_2]\\cdot\\overrightarrow{M_1M_2}=0\\).",
+   "images": [],
+   "id": "31264ad94004",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Which point lies on the line \\(\\begin{cases}x=-#t\\\\y=-#t\\\\z=#-#t\\end{cases}\\)?",
+   "en": "Which point lies on the line \\(\\begin{cases}x=-2t\\\\y=-2t\\\\z=2-2t\\end{cases}\\)?",
+   "vi": "Điểm nào thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(\\begin{cases}x=-2t\\\\y=-2t\\\\z=2-2t\\end{cases}\\)?",
+   "options": [
+    "\\((-6;\\,-6;\\,-4)\\)",
+    "\\((-7;\\,-5;\\,-3)\\)",
+    "\\((-5;\\,-5;\\,-4)\\)",
+    "\\((-6;\\,-7;\\,-3)\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Take \\(t=3\\): \\((-6;\\,-6;\\,-4)\\).",
+   "explain_vi": "Đáp án a. Lấy \\(t=3\\): được \\((-6;\\,-6;\\,-4)\\).",
+   "images": [],
+   "id": "f39101f16b4a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  }
+ ]
+}

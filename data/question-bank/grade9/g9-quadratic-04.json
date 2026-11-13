@@ -1,0 +1,1317 @@
+{
+ "lesson": "g9-quadratic-04",
+ "grade": 9,
+ "no": 21,
+ "title": "Giải bài toán bằng cách lập phương trình",
+ "path": "lessons/grade9/quadratic-functions-equations/word-problems-quadratic.html",
+ "items": [
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "A rectangular plot has area # m². If its width is increased by # m and its length is decreased by # m, the area does not change. Find its length and width.",
+   "en": "A rectangular plot has area 108 m². If its width is increased by 3 m and its length is decreased by 3 m, the area does not change. Find its length and width.",
+   "vi": "Một mảnh đất hình chữ nhật có diện tích 108 m². Nếu tăng chiều rộng thêm 3 m và giảm chiều dài đi 3 m thì diện tích không đổi. Tìm chiều dài và chiều rộng của mảnh đất.",
+   "options": [
+    "\\(13\\text{ m}\\times9\\text{ m}\\)",
+    "\\(12\\text{ m}\\times9\\text{ m}\\)",
+    "\\(9\\text{ m}\\times12\\text{ m}\\)",
+    "\\(15\\text{ m}\\times6\\text{ m}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Let the width be \\(x\\) m: \\((x+3)\\left(\\dfrac{108}{x}-3\\right)=108\\Leftrightarrow 3x^2+9x-324=0\\Rightarrow x=9\\) (the negative root is rejected).",
+   "explain_vi": "Đáp án b. Gọi chiều rộng là \\(x\\) m: \\((x+3)\\left(\\dfrac{108}{x}-3\\right)=108\\Leftrightarrow 3x^2+9x-324=0\\Rightarrow x=9\\) (loại <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b> âm).",
+   "images": [],
+   "id": "50821b6c044c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "The population of a town grew from #,# to #,# in two years, by the same percentage each year. Find that percentage.",
+   "en": "The population of a town grew from 2,000,000 to 4,500,000 in two years, by the same percentage each year. Find that percentage.",
+   "vi": "Dân số một thị trấn tăng từ 2 000 000 người lên 4 500 000 người sau hai năm, mỗi năm tăng cùng một tỉ lệ phần trăm. Tìm tỉ lệ đó.",
+   "options": [
+    "\\(125\\%\\)",
+    "\\(25\\%\\)",
+    "\\(100\\%\\)",
+    "\\(50\\%\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(2000000(1+x)^2=4500000\\Rightarrow (1+x)^2=2.25\\Rightarrow x=0.5=50\\%\\).",
+   "explain_vi": "Đáp án d. \\(2000000(1+x)^2=4500000\\Rightarrow (1+x)^2=2{,}25\\Rightarrow x=0{,}5=50\\%\\).",
+   "images": [],
+   "id": "90a97a0681eb",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Two river ports \\(A\\), \\(B\\) are # km apart. A boat goes from \\(A\\) downstream to \\(B\\), stops there for # minutes and comes back to \\(A\\). The whole trip takes # hours. The current is # km/h. Find the speed of the boat in still water.",
+   "en": "Two river ports \\(A\\), \\(B\\) are 120 km apart. A boat goes from \\(A\\) downstream to \\(B\\), stops there for 30 minutes and comes back to \\(A\\). The whole trip takes 18.5 hours. The current is 5 km/h. Find the speed of the boat in still water.",
+   "vi": "Hai bến sông \\(A\\), \\(B\\) cách nhau 120 km. Một ca nô <b class=\"mbl-term\" tabindex=\"0\" data-en=\"downstream\">xuôi dòng</b> từ \\(A\\) đến \\(B\\), nghỉ tại B 30 phút rồi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"upstream\">ngược dòng</b> về \\(A\\). Tổng thời gian là 18,5 giờ. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"speed\">Vận tốc</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"current (of a river)\">dòng nước</b> là 5 km/h. Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"speed\">vận tốc</b> của ca nô khi nước yên lặng.",
+   "options": [
+    "\\(20\\text{ km/h}\\)",
+    "\\(15\\text{ km/h}\\)",
+    "\\(10\\text{ km/h}\\)",
+    "\\(25\\text{ km/h}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\dfrac{120}{x+5}+\\dfrac{120}{x-5}=18\\) (\\(x\\gt5\\)) gives \\(x=15\\).",
+   "explain_vi": "Đáp án b. \\(\\dfrac{120}{x+5}+\\dfrac{120}{x-5}=18\\) (\\(x\\gt5\\)) cho \\(x=15\\).",
+   "images": [],
+   "id": "9ec950a7d034",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "# million dong is deposited at #% per year compound interest (the interest is added to the deposit after each year). After # years the total is # million dong.",
+   "en": "10 million dong is deposited at 12% per year compound interest (the interest is added to the deposit after each year). After 2 years the total is 12.544 million dong.",
+   "vi": "Gửi 10 triệu đồng với lãi suất 12%/năm theo hình thức <b class=\"mbl-term\" tabindex=\"0\" data-en=\"compound interest\">lãi kép</b> (tiền lãi năm trước được cộng vào vốn). Sau 2 năm, tổng số tiền là 12,544 triệu đồng.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. \\(10\\cdot(1+0.12)^2=12.544\\).",
+   "explain_vi": "Đúng. \\(10\\cdot(1+0{,}12)^2=12{,}544\\).",
+   "images": [],
+   "id": "282344402774",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "A rectangle has area # m² and its length is # m more than its width \\(x\\). The equation \\(x(x+#)=#\\) has the roots \\(#\\) and \\(-#\\), and the width is -# m.",
+   "en": "A rectangle has area 336 m² and its length is 10 m more than its width \\(x\\). The equation \\(x(x+10)=336\\) has the roots \\(14\\) and \\(-24\\), and the width is -24 m.",
+   "vi": "Một hình chữ nhật có diện tích 336 m², chiều dài hơn chiều rộng \\(x\\) là 10 m. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">Phương trình</b> \\(x(x+10)=336\\) có hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b> \\(14\\) và \\(-24\\), và chiều rộng là -24 m.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. The width must be positive: \\(x=14\\); the root \\(-24\\) is rejected.",
+   "explain_vi": "Sai. Chiều rộng phải dương: \\(x=14\\); loại <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b> \\(-24\\).",
+   "images": [],
+   "id": "9cd496303e5b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "A group of identical lorries has to carry # tonnes of goods, equally shared. # of the lorries are sent elsewhere, so each remaining lorry carries # tonnes more. How many lorries were in the group?",
+   "en": "A group of identical lorries has to carry 56 tonnes of goods, equally shared. 3 of the lorries are sent elsewhere, so each remaining lorry carries 6 tonnes more. How many lorries were in the group?",
+   "vi": "Một đội xe tải cần chở 56 tấn hàng, các xe chở như nhau. Có 3 xe được điều đi làm việc khác nên mỗi xe còn lại phải chở thêm 6 tấn. Hỏi lúc đầu đội có bao nhiêu xe?",
+   "options": [],
+   "answer": "7",
+   "explain_en": "Answer: 7. \\(\\dfrac{56}{x-3}-\\dfrac{56}{x}=6\\) gives \\(x=7\\).",
+   "explain_vi": "Đáp số: 7. \\(\\dfrac{56}{x-3}-\\dfrac{56}{x}=6\\) cho \\(x=7\\).",
+   "images": [],
+   "id": "f4d479d729ae",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "A workshop planned to make # shirts, the same number each day. In fact it made # shirts a day more than planned, so # days before the deadline it had made # shirts. How many shirts a day did it plan to make?",
+   "en": "A workshop planned to make 2430 shirts, the same number each day. In fact it made 10 shirts a day more than planned, so 3 days before the deadline it had made 2400 shirts. How many shirts a day did it plan to make?",
+   "vi": "Một xưởng dự định may 2430 chiếc áo, mỗi ngày may như nhau. Thực tế mỗi ngày xưởng may nhiều hơn dự định 10 chiếc nên 3 ngày trước thời hạn đã may được 2400 chiếc. Theo kế hoạch mỗi ngày xưởng may bao nhiêu chiếc áo?",
+   "options": [],
+   "answer": "90",
+   "explain_en": "Answer: 90. \\((x+10)\\left(\\dfrac{2430}{x}-3\\right)=2400\\) gives \\(x=90\\).",
+   "explain_vi": "Đáp số: 90. \\((x+10)\\left(\\dfrac{2430}{x}-3\\right)=2400\\) cho \\(x=90\\).",
+   "images": [],
+   "id": "2c64b74e8e7a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D1",
+   "type": "mcq",
+   "form": "A boat has speed \\(x\\) km/h in still water and the current is # km/h. Its speed downstream is…",
+   "en": "A boat has speed \\(x\\) km/h in still water and the current is 6 km/h. Its speed downstream is…",
+   "vi": "Một ca nô có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"speed\">vận tốc</b> \\(x\\) km/h khi nước yên lặng, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"speed\">vận tốc</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"current (of a river)\">dòng nước</b> là 6 km/h. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"speed\">Vận tốc</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"downstream\">xuôi dòng</b> của ca nô là…",
+   "options": [
+    "\\(x\\)",
+    "\\(x+6\\)",
+    "\\(x-6\\)",
+    "\\(6x\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Downstream: \\(x+6\\); upstream: \\(x-6\\).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"downstream\">Xuôi dòng</b>: \\(x+6\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"upstream\">ngược dòng</b>: \\(x-6\\).",
+   "images": [],
+   "id": "a7f7b8a9cb80",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D1",
+   "type": "mcq",
+   "form": "A rectangle has area # m² and width \\(x\\) m. Express its length in terms of \\(x\\).",
+   "en": "A rectangle has area 60 m² and width \\(x\\) m. Express its length in terms of \\(x\\).",
+   "vi": "Một hình chữ nhật có diện tích 60 m², chiều rộng \\(x\\) m. Biểu diễn chiều dài theo \\(x\\).",
+   "options": [
+    "\\(\\dfrac{60}{x}\\)",
+    "\\(\\dfrac{x}{60}\\)",
+    "\\(60x\\)",
+    "\\(x+14\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Length \\(=\\dfrac{\\text{area}}{\\text{width}}=\\dfrac{60}{x}\\).",
+   "explain_vi": "Đáp án a. Chiều dài \\(=\\dfrac{\\text{diện tích}}{\\text{chiều rộng}}=\\dfrac{60}{x}\\).",
+   "images": [],
+   "id": "70f3319976a6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D1",
+   "type": "mcq",
+   "form": "After solving the equation, what should we do?",
+   "en": "After solving the equation, what should we do?",
+   "vi": "Sau khi giải xong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b>, ta cần làm gì?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">add the two roots</span><span class=\"vi\">cộng hai nghiệm</span></span>",
+    "<span class=\"txi\"><span class=\"en\">keep both roots as answers</span><span class=\"vi\">giữ cả hai nghiệm làm đáp số</span></span>",
+    "<span class=\"txi\"><span class=\"en\">choose another unknown</span><span class=\"vi\">chọn ẩn khác</span></span>",
+    "<span class=\"txi\"><span class=\"en\">check which roots satisfy the condition, then answer</span><span class=\"vi\">kiểm tra nghiệm nào thỏa mãn điều kiện rồi kết luận</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Reject roots that do not satisfy the condition.",
+   "explain_vi": "Đáp án d. Loại các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b> không thỏa mãn điều kiện.",
+   "images": [],
+   "id": "1ecc3c2e0835",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D2",
+   "type": "mcq",
+   "form": "The product of two consecutive positive integers is #. Find the smaller one.",
+   "en": "The product of two consecutive positive integers is 812. Find the smaller one.",
+   "vi": "Tích của hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"integers\">số nguyên</b> dương liên tiếp bằng 812. Tìm số nhỏ hơn.",
+   "options": [
+    "\\(406\\)",
+    "\\(28\\)",
+    "\\(29\\)",
+    "\\(27\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(x(x+1)=812\\Rightarrow x=28\\) (the root \\(-29\\) is rejected).",
+   "explain_vi": "Đáp án b. \\(x(x+1)=812\\Rightarrow x=28\\) (loại <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b> \\(-29\\)).",
+   "images": [],
+   "id": "c90f914be2e5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Two positive numbers differ by # and their product is #. Find the larger number.",
+   "en": "Two positive numbers differ by 1 and their product is 552. Find the larger number.",
+   "vi": "Hai số dương hơn kém nhau 1 đơn vị và có tích bằng 552. Tìm số lớn hơn.",
+   "options": [
+    "\\(23\\)",
+    "\\(552\\)",
+    "\\(25\\)",
+    "\\(24\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(x(x+1)=552\\Rightarrow x=23\\); the larger number is \\(24\\).",
+   "explain_vi": "Đáp án d. \\(x(x+1)=552\\Rightarrow x=23\\); số lớn hơn là \\(24\\).",
+   "images": [],
+   "id": "241d0a23f933",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D2",
+   "type": "mcq",
+   "form": "When each side of a square is increased by # cm, its area becomes # cm². Find the original side.",
+   "en": "When each side of a square is increased by 1 cm, its area becomes 400 cm². Find the original side.",
+   "vi": "Nếu tăng mỗi cạnh của một hình vuông thêm 1 cm thì diện tích của nó bằng 400 cm². Tìm cạnh hình vuông ban đầu.",
+   "options": [
+    "\\(20\\text{ cm}\\)",
+    "\\(18\\text{ cm}\\)",
+    "\\(21\\text{ cm}\\)",
+    "\\(19\\text{ cm}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\((x+1)^2=400\\Rightarrow x+1=20\\Rightarrow x=19\\).",
+   "explain_vi": "Đáp án d. \\((x+1)^2=400\\Rightarrow x+1=20\\Rightarrow x=19\\).",
+   "images": [],
+   "id": "d4eaa2d9eaba",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D3",
+   "type": "mcq",
+   "form": "A rectangle has perimeter # cm and diagonal # cm. Find its sides.",
+   "en": "A rectangle has perimeter 112 cm and diagonal 40 cm. Find its sides.",
+   "vi": "Một hình chữ nhật có chu vi 112 cm và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b> dài 40 cm. Tìm độ dài các cạnh.",
+   "options": [
+    "\\(34\\text{ cm and }22\\text{ cm}\\)",
+    "\\(33\\text{ cm and }23\\text{ cm}\\)",
+    "\\(32\\text{ cm and }24\\text{ cm}\\)",
+    "\\(40\\text{ cm and }16\\text{ cm}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(x+y=56\\), \\(x^2+y^2=1600\\Rightarrow xy=768\\); \\(x\\), \\(y\\) are the roots of \\(t^2-56t+768=0\\).",
+   "explain_vi": "Đáp án c. \\(x+y=56\\), \\(x^2+y^2=1600\\Rightarrow xy=768\\); \\(x\\), \\(y\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b> của \\(t^2-56t+768=0\\).",
+   "images": [],
+   "id": "b7c9644a1c0a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D3",
+   "type": "mcq",
+   "form": "In a right triangle, one leg is # cm longer than the other and the hypotenuse is # cm. Find the shorter leg.",
+   "en": "In a right triangle, one leg is 1 cm longer than the other and the hypotenuse is 29 cm. Find the shorter leg.",
+   "vi": "Một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"right triangle\">tam giác vuông</b> có một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"leg (of a right triangle)\">cạnh góc vuông</b> dài hơn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"leg (of a right triangle)\">cạnh góc vuông</b> kia 1 cm, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"hypotenuse\">cạnh huyền</b> dài 29 cm. Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"leg (of a right triangle)\">cạnh góc vuông</b> ngắn hơn.",
+   "options": [
+    "\\(21\\text{ cm}\\)",
+    "\\(20\\text{ cm}\\)",
+    "\\(22\\text{ cm}\\)",
+    "\\(8\\text{ cm}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(x^2+(x+1)^2=841\\Rightarrow x=20\\).",
+   "explain_vi": "Đáp án b. \\(x^2+(x+1)^2=841\\Rightarrow x=20\\).",
+   "images": [],
+   "id": "e00f26c46e54",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Two cars travel # km. The second car is # km/h faster and arrives # minutes earlier. Find the speed of the first car.",
+   "en": "Two cars travel 90 km. The second car is 15 km/h faster and arrives 12 minutes earlier. Find the speed of the first car.",
+   "vi": "Hai ô tô cùng đi quãng đường 90 km. Xe thứ hai đi nhanh hơn xe thứ nhất 15 km/h nên đến sớm hơn 12 phút. Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"speed\">vận tốc</b> xe thứ nhất.",
+   "options": [
+    "\\(60\\text{ km/h}\\)",
+    "\\(75\\text{ km/h}\\)",
+    "\\(105\\text{ km/h}\\)",
+    "\\(90\\text{ km/h}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\dfrac{90}{x}-\\dfrac{90}{x+15}=\\dfrac{1}{5}\\) gives \\(x=75\\).",
+   "explain_vi": "Đáp án b. \\(\\dfrac{90}{x}-\\dfrac{90}{x+15}=\\dfrac{1}{5}\\) cho \\(x=75\\).",
+   "images": [],
+   "id": "f04dc643ea05",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D4",
+   "type": "mcq",
+   "form": "# million dong is deposited at compound interest. After # years the total is # million dong. Find the yearly interest rate.",
+   "en": "100 million dong is deposited at compound interest. After 2 years the total is 118.81 million dong. Find the yearly interest rate.",
+   "vi": "Gửi 100 triệu đồng theo hình thức <b class=\"mbl-term\" tabindex=\"0\" data-en=\"compound interest\">lãi kép</b>. Sau 2 năm nhận được tổng cộng 118,81 triệu đồng. Tìm lãi suất mỗi năm.",
+   "options": [
+    "\\(8\\%\\)",
+    "\\(9\\%\\)",
+    "\\(18\\%\\)",
+    "\\(10\\%\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(100(1+x)^2=118.81\\Rightarrow 1+x=1.09\\Rightarrow x=9\\%\\).",
+   "explain_vi": "Đáp án b. \\(100(1+x)^2=118{,}81\\Rightarrow 1+x=1{,}09\\Rightarrow x=9\\%\\).",
+   "images": [],
+   "id": "1d3994b34ecc",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A chocolate bar is a box # cm × # cm × # cm. Its volume is reduced by #% by cutting the same length from its length and its width (thickness unchanged). How many cm are cut from each?",
+   "en": "A chocolate bar is a box 15 cm × 8 cm × 2 cm. Its volume is reduced by 35% by cutting the same length from its length and its width (thickness unchanged). How many cm are cut from each?",
+   "vi": "Một thanh sô-cô-la có dạng hộp chữ nhật 15 cm × 8 cm × 2 cm. Người ta giảm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"volume\">thể tích</b> 35% bằng cách giảm chiều dài và chiều rộng cùng một độ dài (giữ nguyên độ dày). Mỗi chiều giảm bao nhiêu xăng-ti-mét?",
+   "options": [
+    "\\(3\\text{ cm}\\)",
+    "\\(4\\text{ cm}\\)",
+    "\\(5\\text{ cm}\\)",
+    "\\(2\\text{ cm}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\((15-x)(8-x)=120\\cdot0.65\\Rightarrow x=2\\) (the other root is too large).",
+   "explain_vi": "Đáp án d. \\((15-x)(8-x)=120\\cdot0{,}65\\Rightarrow x=2\\) (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b> kia quá lớn, loại).",
+   "images": [],
+   "id": "0a0e222b958c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A plane flies # km from city A to city B, stops # minutes, then flies back # km/h faster. The whole journey takes # hours. Find the speed on the outward flight.",
+   "en": "A plane flies 1800 km from city A to city B, stops 96 minutes, then flies back 100 km/h faster. The whole journey takes 8.2 hours. Find the speed on the outward flight.",
+   "vi": "Một máy bay bay từ thành phố A đến thành phố B dài 1800 km, nghỉ 96 phút rồi bay về A với <b class=\"mbl-term\" tabindex=\"0\" data-en=\"speed\">vận tốc</b> lớn hơn lúc đi 100 km/h. Tổng thời gian là 8,2 giờ. Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"speed\">vận tốc</b> lúc đi.",
+   "options": [
+    "\\(550\\text{ km/h}\\)",
+    "\\(400\\text{ km/h}\\)",
+    "\\(600\\text{ km/h}\\)",
+    "\\(500\\text{ km/h}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\dfrac{1800}{x}+\\dfrac{1800}{x+100}=\\dfrac{33}{5}\\) gives \\(x=500\\).",
+   "explain_vi": "Đáp án d. \\(\\dfrac{1800}{x}+\\dfrac{1800}{x+100}=\\dfrac{33}{5}\\) cho \\(x=500\\).",
+   "images": [],
+   "id": "d35d6f45cda6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "A rectangular plot has area # m². If its width is increased by # m and its length is decreased by # m, the area does not change. Find its length and width.",
+   "en": "A rectangular plot has area 660 m². If its width is increased by 1 m and its length is decreased by 6 m, the area does not change. Find its length and width.",
+   "vi": "Một mảnh đất hình chữ nhật có diện tích 660 m². Nếu tăng chiều rộng thêm 1 m và giảm chiều dài đi 6 m thì diện tích không đổi. Tìm chiều dài và chiều rộng của mảnh đất.",
+   "options": [
+    "\\(67\\text{ m}\\times10\\text{ m}\\)",
+    "\\(72\\text{ m}\\times9\\text{ m}\\)",
+    "\\(60\\text{ m}\\times11\\text{ m}\\)",
+    "\\(66\\text{ m}\\times10\\text{ m}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Let the width be \\(x\\) m: \\((x+1)\\left(\\dfrac{660}{x}-6\\right)=660\\Leftrightarrow 6x^2+6x-660=0\\Rightarrow x=10\\) (the negative root is rejected).",
+   "explain_vi": "Đáp án d. Gọi chiều rộng là \\(x\\) m: \\((x+1)\\left(\\dfrac{660}{x}-6\\right)=660\\Leftrightarrow 6x^2+6x-660=0\\Rightarrow x=10\\) (loại <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b> âm).",
+   "images": [],
+   "id": "7bf50bf6d662",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "The population of a town grew from # to # in two years, by the same percentage each year. Find that percentage.",
+   "en": "The population of a town grew from 200,000 to 312,500 in two years, by the same percentage each year. Find that percentage.",
+   "vi": "Dân số một thị trấn tăng từ 200 000 người lên 312 500 người sau hai năm, mỗi năm tăng cùng một tỉ lệ phần trăm. Tìm tỉ lệ đó.",
+   "options": [
+    "\\(25\\%\\)",
+    "\\(50\\%\\)",
+    "\\(28\\%\\)",
+    "\\(56\\%\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(200000(1+x)^2=312500\\Rightarrow (1+x)^2=1.5625\\Rightarrow x=0.25=25\\%\\).",
+   "explain_vi": "Đáp án a. \\(200000(1+x)^2=312500\\Rightarrow (1+x)^2=1{,}5625\\Rightarrow x=0{,}25=25\\%\\).",
+   "images": [],
+   "id": "3ef557958955",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Two river ports \\(A\\), \\(B\\) are # km apart. A boat goes from \\(A\\) downstream to \\(B\\), stops there for # minutes and comes back to \\(A\\). The whole trip takes # hours. The current is # km/h. Find the speed of the boat in still water.",
+   "en": "Two river ports \\(A\\), \\(B\\) are 60 km apart. A boat goes from \\(A\\) downstream to \\(B\\), stops there for 60 minutes and comes back to \\(A\\). The whole trip takes 14.75 hours. The current is 5 km/h. Find the speed of the boat in still water.",
+   "vi": "Hai bến sông \\(A\\), \\(B\\) cách nhau 60 km. Một ca nô <b class=\"mbl-term\" tabindex=\"0\" data-en=\"downstream\">xuôi dòng</b> từ \\(A\\) đến \\(B\\), nghỉ tại B 60 phút rồi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"upstream\">ngược dòng</b> về \\(A\\). Tổng thời gian là 14,75 giờ. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"speed\">Vận tốc</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"current (of a river)\">dòng nước</b> là 5 km/h. Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"speed\">vận tốc</b> của ca nô khi nước yên lặng.",
+   "options": [
+    "\\(6\\text{ km/h}\\)",
+    "\\(16\\text{ km/h}\\)",
+    "\\(11\\text{ km/h}\\)",
+    "\\(21\\text{ km/h}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\dfrac{60}{x+5}+\\dfrac{60}{x-5}=\\dfrac{55}{4}\\) (\\(x\\gt5\\)) gives \\(x=11\\).",
+   "explain_vi": "Đáp án c. \\(\\dfrac{60}{x+5}+\\dfrac{60}{x-5}=\\dfrac{55}{4}\\) (\\(x\\gt5\\)) cho \\(x=11\\).",
+   "images": [],
+   "id": "cdd60e971537",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "# million dong is deposited at #% per year compound interest (the interest is added to the deposit after each year). After # years the total is # million dong.",
+   "en": "200 million dong is deposited at 4% per year compound interest (the interest is added to the deposit after each year). After 2 years the total is 216.32 million dong.",
+   "vi": "Gửi 200 triệu đồng với lãi suất 4%/năm theo hình thức <b class=\"mbl-term\" tabindex=\"0\" data-en=\"compound interest\">lãi kép</b> (tiền lãi năm trước được cộng vào vốn). Sau 2 năm, tổng số tiền là 216,32 triệu đồng.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. \\(200\\cdot(1+0.04)^2=216.32\\).",
+   "explain_vi": "Đúng. \\(200\\cdot(1+0{,}04)^2=216{,}32\\).",
+   "images": [],
+   "id": "c8935f5328b7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "A rectangle has area # m² and its length is # m more than its width \\(x\\). The equation \\(x(x+#)=#\\) has the roots \\(#\\) and \\(-#\\), and the width is -# m.",
+   "en": "A rectangle has area 840 m² and its length is 11 m more than its width \\(x\\). The equation \\(x(x+11)=840\\) has the roots \\(24\\) and \\(-35\\), and the width is -35 m.",
+   "vi": "Một hình chữ nhật có diện tích 840 m², chiều dài hơn chiều rộng \\(x\\) là 11 m. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">Phương trình</b> \\(x(x+11)=840\\) có hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b> \\(24\\) và \\(-35\\), và chiều rộng là -35 m.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. The width must be positive: \\(x=24\\); the root \\(-35\\) is rejected.",
+   "explain_vi": "Sai. Chiều rộng phải dương: \\(x=24\\); loại <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b> \\(-35\\).",
+   "images": [],
+   "id": "c530ea231969",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "A group of identical lorries has to carry # tonnes of goods, equally shared. # of the lorries is sent elsewhere, so each remaining lorry carries # tonnes more. How many lorries were in the group?",
+   "en": "A group of identical lorries has to carry 2052 tonnes of goods, equally shared. 1 of the lorries is sent elsewhere, so each remaining lorry carries 6 tonnes more. How many lorries were in the group?",
+   "vi": "Một đội xe tải cần chở 2052 tấn hàng, các xe chở như nhau. Có 1 xe được điều đi làm việc khác nên mỗi xe còn lại phải chở thêm 6 tấn. Hỏi lúc đầu đội có bao nhiêu xe?",
+   "options": [],
+   "answer": "19",
+   "explain_en": "Answer: 19. \\(\\dfrac{2052}{x-1}-\\dfrac{2052}{x}=6\\) gives \\(x=19\\).",
+   "explain_vi": "Đáp số: 19. \\(\\dfrac{2052}{x-1}-\\dfrac{2052}{x}=6\\) cho \\(x=19\\).",
+   "images": [],
+   "id": "860d57f961b7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "A workshop planned to make # shirts, the same number each day. In fact it made # shirts a day more than planned, so # days before the deadline it had made # shirts. How many shirts a day did it plan to make?",
+   "en": "A workshop planned to make 1320 shirts, the same number each day. In fact it made 5 shirts a day more than planned, so 2 days before the deadline it had made 1300 shirts. How many shirts a day did it plan to make?",
+   "vi": "Một xưởng dự định may 1320 chiếc áo, mỗi ngày may như nhau. Thực tế mỗi ngày xưởng may nhiều hơn dự định 5 chiếc nên 2 ngày trước thời hạn đã may được 1300 chiếc. Theo kế hoạch mỗi ngày xưởng may bao nhiêu chiếc áo?",
+   "options": [],
+   "answer": "60",
+   "explain_en": "Answer: 60. \\((x+5)\\left(\\dfrac{1320}{x}-2\\right)=1300\\) gives \\(x=60\\).",
+   "explain_vi": "Đáp số: 60. \\((x+5)\\left(\\dfrac{1320}{x}-2\\right)=1300\\) cho \\(x=60\\).",
+   "images": [],
+   "id": "23d430896bd0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D1",
+   "type": "mcq",
+   "form": "A boat has speed \\(x\\) km/h in still water and the current is # km/h. Its speed upstream is…",
+   "en": "A boat has speed \\(x\\) km/h in still water and the current is 3 km/h. Its speed upstream is…",
+   "vi": "Một ca nô có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"speed\">vận tốc</b> \\(x\\) km/h khi nước yên lặng, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"speed\">vận tốc</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"current (of a river)\">dòng nước</b> là 3 km/h. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"speed\">Vận tốc</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"upstream\">ngược dòng</b> của ca nô là…",
+   "options": [
+    "\\(x\\)",
+    "\\(x-3\\)",
+    "\\(x+3\\)",
+    "\\(3-x\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Downstream: \\(x+3\\); upstream: \\(x-3\\).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"downstream\">Xuôi dòng</b>: \\(x+3\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"upstream\">ngược dòng</b>: \\(x-3\\).",
+   "images": [],
+   "id": "50a0b998f4b5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D1",
+   "type": "mcq",
+   "form": "A rectangle has area # m² and width \\(x\\) m. Express its length in terms of \\(x\\).",
+   "en": "A rectangle has area 240 m² and width \\(x\\) m. Express its length in terms of \\(x\\).",
+   "vi": "Một hình chữ nhật có diện tích 240 m², chiều rộng \\(x\\) m. Biểu diễn chiều dài theo \\(x\\).",
+   "options": [
+    "\\(\\dfrac{240}{x}\\)",
+    "\\(240x\\)",
+    "\\(\\dfrac{x}{240}\\)",
+    "\\(x+7\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Length \\(=\\dfrac{\\text{area}}{\\text{width}}=\\dfrac{240}{x}\\).",
+   "explain_vi": "Đáp án a. Chiều dài \\(=\\dfrac{\\text{diện tích}}{\\text{chiều rộng}}=\\dfrac{240}{x}\\).",
+   "images": [],
+   "id": "0b97539946b2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Let \\(x\\) be the width. A suitable condition for \\(x\\) is…",
+   "en": "Let \\(x\\) be the width. A suitable condition for \\(x\\) is…",
+   "vi": "Gọi \\(x\\) là chiều rộng. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"suitable condition\">Điều kiện thích hợp</b> của \\(x\\) là…",
+   "options": [
+    "\\(x\\le0\\)",
+    "\\(x\\gt0\\)",
+    "\\(x\\ne0\\text{ only}\\)",
+    "\\(x\\lt0\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. A width is positive.",
+   "explain_vi": "Đáp án b. Chiều rộng là số dương.",
+   "images": [],
+   "id": "14be6b874605",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D2",
+   "type": "mcq",
+   "form": "The product of two consecutive positive integers is #. Find the smaller one.",
+   "en": "The product of two consecutive positive integers is 600. Find the smaller one.",
+   "vi": "Tích của hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"integers\">số nguyên</b> dương liên tiếp bằng 600. Tìm số nhỏ hơn.",
+   "options": [
+    "\\(25\\)",
+    "\\(24\\)",
+    "\\(23\\)",
+    "\\(300\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(x(x+1)=600\\Rightarrow x=24\\) (the root \\(-25\\) is rejected).",
+   "explain_vi": "Đáp án b. \\(x(x+1)=600\\Rightarrow x=24\\) (loại <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b> \\(-25\\)).",
+   "images": [],
+   "id": "ac4d0b73604b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Two positive numbers differ by # and their product is #. Find the larger number.",
+   "en": "Two positive numbers differ by 5 and their product is 546. Find the larger number.",
+   "vi": "Hai số dương hơn kém nhau 5 đơn vị và có tích bằng 546. Tìm số lớn hơn.",
+   "options": [
+    "\\(27\\)",
+    "\\(26\\)",
+    "\\(31\\)",
+    "\\(21\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(x(x+5)=546\\Rightarrow x=21\\); the larger number is \\(26\\).",
+   "explain_vi": "Đáp án b. \\(x(x+5)=546\\Rightarrow x=21\\); số lớn hơn là \\(26\\).",
+   "images": [],
+   "id": "df8a733f4bb1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D2",
+   "type": "mcq",
+   "form": "When each side of a square is increased by # cm, its area becomes # cm². Find the original side.",
+   "en": "When each side of a square is increased by 1 cm, its area becomes 225 cm². Find the original side.",
+   "vi": "Nếu tăng mỗi cạnh của một hình vuông thêm 1 cm thì diện tích của nó bằng 225 cm². Tìm cạnh hình vuông ban đầu.",
+   "options": [
+    "\\(14\\text{ cm}\\)",
+    "\\(15\\text{ cm}\\)",
+    "\\(13\\text{ cm}\\)",
+    "\\(16\\text{ cm}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\((x+1)^2=225\\Rightarrow x+1=15\\Rightarrow x=14\\).",
+   "explain_vi": "Đáp án a. \\((x+1)^2=225\\Rightarrow x+1=15\\Rightarrow x=14\\).",
+   "images": [],
+   "id": "b6b6a3c556e5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D3",
+   "type": "mcq",
+   "form": "A rectangle has perimeter # cm and diagonal # cm. Find its sides.",
+   "en": "A rectangle has perimeter 56 cm and diagonal 20 cm. Find its sides.",
+   "vi": "Một hình chữ nhật có chu vi 56 cm và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b> dài 20 cm. Tìm độ dài các cạnh.",
+   "options": [
+    "\\(20\\text{ cm and }8\\text{ cm}\\)",
+    "\\(18\\text{ cm and }10\\text{ cm}\\)",
+    "\\(17\\text{ cm and }11\\text{ cm}\\)",
+    "\\(16\\text{ cm and }12\\text{ cm}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(x+y=28\\), \\(x^2+y^2=400\\Rightarrow xy=192\\); \\(x\\), \\(y\\) are the roots of \\(t^2-28t+192=0\\).",
+   "explain_vi": "Đáp án d. \\(x+y=28\\), \\(x^2+y^2=400\\Rightarrow xy=192\\); \\(x\\), \\(y\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b> của \\(t^2-28t+192=0\\).",
+   "images": [],
+   "id": "9b0c679f2bbe",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D3",
+   "type": "mcq",
+   "form": "In a right triangle, one leg is # cm longer than the other and the hypotenuse is # cm. Find the shorter leg.",
+   "en": "In a right triangle, one leg is 5 cm longer than the other and the hypotenuse is 25 cm. Find the shorter leg.",
+   "vi": "Một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"right triangle\">tam giác vuông</b> có một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"leg (of a right triangle)\">cạnh góc vuông</b> dài hơn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"leg (of a right triangle)\">cạnh góc vuông</b> kia 5 cm, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"hypotenuse\">cạnh huyền</b> dài 25 cm. Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"leg (of a right triangle)\">cạnh góc vuông</b> ngắn hơn.",
+   "options": [
+    "\\(5\\text{ cm}\\)",
+    "\\(20\\text{ cm}\\)",
+    "\\(16\\text{ cm}\\)",
+    "\\(15\\text{ cm}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(x^2+(x+5)^2=625\\Rightarrow x=15\\).",
+   "explain_vi": "Đáp án d. \\(x^2+(x+5)^2=625\\Rightarrow x=15\\).",
+   "images": [],
+   "id": "e148b8092bc5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Two cars travel # km. The second car is # km/h faster and arrives # minutes earlier. Find the speed of the first car.",
+   "en": "Two cars travel 120 km. The second car is 20 km/h faster and arrives 60 minutes earlier. Find the speed of the first car.",
+   "vi": "Hai ô tô cùng đi quãng đường 120 km. Xe thứ hai đi nhanh hơn xe thứ nhất 20 km/h nên đến sớm hơn 60 phút. Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"speed\">vận tốc</b> xe thứ nhất.",
+   "options": [
+    "\\(40\\text{ km/h}\\)",
+    "\\(20\\text{ km/h}\\)",
+    "\\(80\\text{ km/h}\\)",
+    "\\(60\\text{ km/h}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\dfrac{120}{x}-\\dfrac{120}{x+20}=1\\) gives \\(x=40\\).",
+   "explain_vi": "Đáp án a. \\(\\dfrac{120}{x}-\\dfrac{120}{x+20}=1\\) cho \\(x=40\\).",
+   "images": [],
+   "id": "1c7cbdb6ffea",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D4",
+   "type": "mcq",
+   "form": "# million dong is deposited at compound interest. After # years the total is # million dong. Find the yearly interest rate.",
+   "en": "100 million dong is deposited at compound interest. After 2 years the total is 112.36 million dong. Find the yearly interest rate.",
+   "vi": "Gửi 100 triệu đồng theo hình thức <b class=\"mbl-term\" tabindex=\"0\" data-en=\"compound interest\">lãi kép</b>. Sau 2 năm nhận được tổng cộng 112,36 triệu đồng. Tìm lãi suất mỗi năm.",
+   "options": [
+    "\\(5\\%\\)",
+    "\\(6\\%\\)",
+    "\\(12\\%\\)",
+    "\\(7\\%\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(100(1+x)^2=112.36\\Rightarrow 1+x=1.06\\Rightarrow x=6\\%\\).",
+   "explain_vi": "Đáp án b. \\(100(1+x)^2=112{,}36\\Rightarrow 1+x=1{,}06\\Rightarrow x=6\\%\\).",
+   "images": [],
+   "id": "2f710590aaf0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A chocolate bar is a box # cm × # cm × # cm. Its volume is reduced by #% by cutting the same length from its length and its width (thickness unchanged). How many cm are cut from each?",
+   "en": "A chocolate bar is a box 15 cm × 4 cm × 3 cm. Its volume is reduced by 30% by cutting the same length from its length and its width (thickness unchanged). How many cm are cut from each?",
+   "vi": "Một thanh sô-cô-la có dạng hộp chữ nhật 15 cm × 4 cm × 3 cm. Người ta giảm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"volume\">thể tích</b> 30% bằng cách giảm chiều dài và chiều rộng cùng một độ dài (giữ nguyên độ dày). Mỗi chiều giảm bao nhiêu xăng-ti-mét?",
+   "options": [
+    "\\(1\\text{ cm}\\)",
+    "\\(4\\text{ cm}\\)",
+    "\\(2\\text{ cm}\\)",
+    "\\(3\\text{ cm}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\((15-x)(4-x)=60\\cdot0.7\\Rightarrow x=1\\) (the other root is too large).",
+   "explain_vi": "Đáp án a. \\((15-x)(4-x)=60\\cdot0{,}7\\Rightarrow x=1\\) (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b> kia quá lớn, loại).",
+   "images": [],
+   "id": "a06bc9dad9cd",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A plane flies # km from city A to city B, stops # minutes, then flies back # km/h faster. The whole journey takes # hours. Find the speed on the outward flight.",
+   "en": "A plane flies 1500 km from city A to city B, stops 96 minutes, then flies back 100 km/h faster. The whole journey takes 7.1 hours. Find the speed on the outward flight.",
+   "vi": "Một máy bay bay từ thành phố A đến thành phố B dài 1500 km, nghỉ 96 phút rồi bay về A với <b class=\"mbl-term\" tabindex=\"0\" data-en=\"speed\">vận tốc</b> lớn hơn lúc đi 100 km/h. Tổng thời gian là 7,1 giờ. Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"speed\">vận tốc</b> lúc đi.",
+   "options": [
+    "\\(400\\text{ km/h}\\)",
+    "\\(500\\text{ km/h}\\)",
+    "\\(600\\text{ km/h}\\)",
+    "\\(550\\text{ km/h}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\dfrac{1500}{x}+\\dfrac{1500}{x+100}=\\dfrac{11}{2}\\) gives \\(x=500\\).",
+   "explain_vi": "Đáp án b. \\(\\dfrac{1500}{x}+\\dfrac{1500}{x+100}=\\dfrac{11}{2}\\) cho \\(x=500\\).",
+   "images": [],
+   "id": "e7f2436e0d84",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "A rectangular plot has area # m². If its width is increased by # m and its length is decreased by # m, the area does not change. Find its length and width.",
+   "en": "A rectangular plot has area 1518 m². If its width is increased by 1 m and its length is decreased by 3 m, the area does not change. Find its length and width.",
+   "vi": "Một mảnh đất hình chữ nhật có diện tích 1518 m². Nếu tăng chiều rộng thêm 1 m và giảm chiều dài đi 3 m thì diện tích không đổi. Tìm chiều dài và chiều rộng của mảnh đất.",
+   "options": [
+    "\\(69\\text{ m}\\times22\\text{ m}\\)",
+    "\\(66\\text{ m}\\times23\\text{ m}\\)",
+    "\\(72\\text{ m}\\times21\\text{ m}\\)",
+    "\\(70\\text{ m}\\times22\\text{ m}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Let the width be \\(x\\) m: \\((x+1)\\left(\\dfrac{1518}{x}-3\\right)=1518\\Leftrightarrow 3x^2+3x-1518=0\\Rightarrow x=22\\) (the negative root is rejected).",
+   "explain_vi": "Đáp án a. Gọi chiều rộng là \\(x\\) m: \\((x+1)\\left(\\dfrac{1518}{x}-3\\right)=1518\\Leftrightarrow 3x^2+3x-1518=0\\Rightarrow x=22\\) (loại <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b> âm).",
+   "images": [],
+   "id": "7f702e0b8075",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "The population of a town grew from #,# to #,# in two years, by the same percentage each year. Find that percentage.",
+   "en": "The population of a town grew from 2,000,000 to 3,380,000 in two years, by the same percentage each year. Find that percentage.",
+   "vi": "Dân số một thị trấn tăng từ 2 000 000 người lên 3 380 000 người sau hai năm, mỗi năm tăng cùng một tỉ lệ phần trăm. Tìm tỉ lệ đó.",
+   "options": [
+    "\\(15\\%\\)",
+    "\\(69\\%\\)",
+    "\\(30\\%\\)",
+    "\\(60\\%\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(2000000(1+x)^2=3380000\\Rightarrow (1+x)^2=1.69\\Rightarrow x=0.3=30\\%\\).",
+   "explain_vi": "Đáp án c. \\(2000000(1+x)^2=3380000\\Rightarrow (1+x)^2=1{,}69\\Rightarrow x=0{,}3=30\\%\\).",
+   "images": [],
+   "id": "d8786f4fb725",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Two river ports \\(A\\), \\(B\\) are # km apart. A boat goes from \\(A\\) downstream to \\(B\\) and comes back to \\(A\\). The whole trip takes # hours. The current is # km/h. Find the speed of the boat in still water.",
+   "en": "Two river ports \\(A\\), \\(B\\) are 90 km apart. A boat goes from \\(A\\) downstream to \\(B\\) and comes back to \\(A\\). The whole trip takes 7.5 hours. The current is 5 km/h. Find the speed of the boat in still water.",
+   "vi": "Hai bến sông \\(A\\), \\(B\\) cách nhau 90 km. Một ca nô <b class=\"mbl-term\" tabindex=\"0\" data-en=\"downstream\">xuôi dòng</b> từ \\(A\\) đến \\(B\\) rồi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"upstream\">ngược dòng</b> về \\(A\\). Tổng thời gian là 7,5 giờ. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"speed\">Vận tốc</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"current (of a river)\">dòng nước</b> là 5 km/h. Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"speed\">vận tốc</b> của ca nô khi nước yên lặng.",
+   "options": [
+    "\\(35\\text{ km/h}\\)",
+    "\\(20\\text{ km/h}\\)",
+    "\\(30\\text{ km/h}\\)",
+    "\\(25\\text{ km/h}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\dfrac{90}{x+5}+\\dfrac{90}{x-5}=\\dfrac{15}{2}\\) (\\(x\\gt5\\)) gives \\(x=25\\).",
+   "explain_vi": "Đáp án d. \\(\\dfrac{90}{x+5}+\\dfrac{90}{x-5}=\\dfrac{15}{2}\\) (\\(x\\gt5\\)) cho \\(x=25\\).",
+   "images": [],
+   "id": "2b659d0b6d9b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "# million dong is deposited at #% per year compound interest (the interest is added to the deposit after each year). After # years the total is # million dong.",
+   "en": "50 million dong is deposited at 10% per year compound interest (the interest is added to the deposit after each year). After 2 years the total is 60 million dong.",
+   "vi": "Gửi 50 triệu đồng với lãi suất 10%/năm theo hình thức <b class=\"mbl-term\" tabindex=\"0\" data-en=\"compound interest\">lãi kép</b> (tiền lãi năm trước được cộng vào vốn). Sau 2 năm, tổng số tiền là 60 triệu đồng.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. \\(50\\cdot(1+0.1)^2=60.5\\).",
+   "explain_vi": "Sai. \\(50\\cdot(1+0{,}1)^2=60{,}5\\).",
+   "images": [],
+   "id": "aa4faa5c7e04",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "A rectangle has area # m² and its length is # m more than its width \\(x\\). The equation \\(x(x+#)=#\\) has the roots \\(#\\) and \\(-#\\), and the width is # m.",
+   "en": "A rectangle has area 396 m² and its length is 4 m more than its width \\(x\\). The equation \\(x(x+4)=396\\) has the roots \\(18\\) and \\(-22\\), and the width is 18 m.",
+   "vi": "Một hình chữ nhật có diện tích 396 m², chiều dài hơn chiều rộng \\(x\\) là 4 m. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">Phương trình</b> \\(x(x+4)=396\\) có hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b> \\(18\\) và \\(-22\\), và chiều rộng là 18 m.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. The width must be positive: \\(x=18\\); the root \\(-22\\) is rejected.",
+   "explain_vi": "Đúng. Chiều rộng phải dương: \\(x=18\\); loại <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b> \\(-22\\).",
+   "images": [],
+   "id": "456d394fbefc",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "A group of identical lorries has to carry # tonnes of goods, equally shared. # of the lorries is sent elsewhere, so each remaining lorry carries # tonnes more. How many lorries were in the group?",
+   "en": "A group of identical lorries has to carry 110 tonnes of goods, equally shared. 1 of the lorries is sent elsewhere, so each remaining lorry carries 1 tonnes more. How many lorries were in the group?",
+   "vi": "Một đội xe tải cần chở 110 tấn hàng, các xe chở như nhau. Có 1 xe được điều đi làm việc khác nên mỗi xe còn lại phải chở thêm 1 tấn. Hỏi lúc đầu đội có bao nhiêu xe?",
+   "options": [],
+   "answer": "11",
+   "explain_en": "Answer: 11. \\(\\dfrac{110}{x-1}-\\dfrac{110}{x}=1\\) gives \\(x=11\\).",
+   "explain_vi": "Đáp số: 11. \\(\\dfrac{110}{x-1}-\\dfrac{110}{x}=1\\) cho \\(x=11\\).",
+   "images": [],
+   "id": "65c191d91558",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "A workshop planned to make # shirts, the same number each day. In fact it made # shirts a day more than planned, so # day before the deadline it had made # shirts. How many shirts a day did it plan to make?",
+   "en": "A workshop planned to make 1500 shirts, the same number each day. In fact it made 5 shirts a day more than planned, so 1 day before the deadline it had made 1470 shirts. How many shirts a day did it plan to make?",
+   "vi": "Một xưởng dự định may 1500 chiếc áo, mỗi ngày may như nhau. Thực tế mỗi ngày xưởng may nhiều hơn dự định 5 chiếc nên 1 ngày trước thời hạn đã may được 1470 chiếc. Theo kế hoạch mỗi ngày xưởng may bao nhiêu chiếc áo?",
+   "options": [],
+   "answer": "100",
+   "explain_en": "Answer: 100. \\((x+5)\\left(\\dfrac{1500}{x}-1\\right)=1470\\) gives \\(x=100\\).",
+   "explain_vi": "Đáp số: 100. \\((x+5)\\left(\\dfrac{1500}{x}-1\\right)=1470\\) cho \\(x=100\\).",
+   "images": [],
+   "id": "c92c255d53b2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D1",
+   "type": "mcq",
+   "form": "A boat has speed \\(x\\) km/h in still water and the current is # km/h. Its speed downstream is…",
+   "en": "A boat has speed \\(x\\) km/h in still water and the current is 2 km/h. Its speed downstream is…",
+   "vi": "Một ca nô có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"speed\">vận tốc</b> \\(x\\) km/h khi nước yên lặng, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"speed\">vận tốc</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"current (of a river)\">dòng nước</b> là 2 km/h. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"speed\">Vận tốc</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"downstream\">xuôi dòng</b> của ca nô là…",
+   "options": [
+    "\\(x\\)",
+    "\\(x-2\\)",
+    "\\(x+2\\)",
+    "\\(2x\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Downstream: \\(x+2\\); upstream: \\(x-2\\).",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"downstream\">Xuôi dòng</b>: \\(x+2\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"upstream\">ngược dòng</b>: \\(x-2\\).",
+   "images": [],
+   "id": "0e81e7a40949",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D1",
+   "type": "mcq",
+   "form": "A rectangle has area # m² and width \\(x\\) m. Express its length in terms of \\(x\\).",
+   "en": "A rectangle has area 96 m² and width \\(x\\) m. Express its length in terms of \\(x\\).",
+   "vi": "Một hình chữ nhật có diện tích 96 m², chiều rộng \\(x\\) m. Biểu diễn chiều dài theo \\(x\\).",
+   "options": [
+    "\\(\\dfrac{x}{96}\\)",
+    "\\(x+5\\)",
+    "\\(96x\\)",
+    "\\(\\dfrac{96}{x}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Length \\(=\\dfrac{\\text{area}}{\\text{width}}=\\dfrac{96}{x}\\).",
+   "explain_vi": "Đáp án d. Chiều dài \\(=\\dfrac{\\text{diện tích}}{\\text{chiều rộng}}=\\dfrac{96}{x}\\).",
+   "images": [],
+   "id": "40de67ce0038",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Let \\(x\\) be the speed. A suitable condition for \\(x\\) is…",
+   "en": "Let \\(x\\) be the speed. A suitable condition for \\(x\\) is…",
+   "vi": "Gọi \\(x\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"speed\">vận tốc</b>. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"suitable condition\">Điều kiện thích hợp</b> của \\(x\\) là…",
+   "options": [
+    "\\(x\\gt0\\)",
+    "\\(x\\lt0\\)",
+    "\\(x\\ne0\\text{ only}\\)",
+    "\\(x\\le0\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. A speed is positive.",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"speed\">Vận tốc</b> là số dương.",
+   "images": [],
+   "id": "7bf4be02c841",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D2",
+   "type": "mcq",
+   "form": "The product of two consecutive positive integers is #. Find the smaller one.",
+   "en": "The product of two consecutive positive integers is 1190. Find the smaller one.",
+   "vi": "Tích của hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"integers\">số nguyên</b> dương liên tiếp bằng 1190. Tìm số nhỏ hơn.",
+   "options": [
+    "\\(34\\)",
+    "\\(35\\)",
+    "\\(33\\)",
+    "\\(595\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(x(x+1)=1190\\Rightarrow x=34\\) (the root \\(-35\\) is rejected).",
+   "explain_vi": "Đáp án a. \\(x(x+1)=1190\\Rightarrow x=34\\) (loại <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b> \\(-35\\)).",
+   "images": [],
+   "id": "7743d5fb87f7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Two positive numbers differ by # and their product is #. Find the larger number.",
+   "en": "Two positive numbers differ by 12 and their product is 364. Find the larger number.",
+   "vi": "Hai số dương hơn kém nhau 12 đơn vị và có tích bằng 364. Tìm số lớn hơn.",
+   "options": [
+    "\\(27\\)",
+    "\\(26\\)",
+    "\\(38\\)",
+    "\\(14\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(x(x+12)=364\\Rightarrow x=14\\); the larger number is \\(26\\).",
+   "explain_vi": "Đáp án b. \\(x(x+12)=364\\Rightarrow x=14\\); số lớn hơn là \\(26\\).",
+   "images": [],
+   "id": "bdada1290f63",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D2",
+   "type": "mcq",
+   "form": "When each side of a square is increased by # cm, its area becomes # cm². Find the original side.",
+   "en": "When each side of a square is increased by 3 cm, its area becomes 484 cm². Find the original side.",
+   "vi": "Nếu tăng mỗi cạnh của một hình vuông thêm 3 cm thì diện tích của nó bằng 484 cm². Tìm cạnh hình vuông ban đầu.",
+   "options": [
+    "\\(18\\text{ cm}\\)",
+    "\\(22\\text{ cm}\\)",
+    "\\(19\\text{ cm}\\)",
+    "\\(25\\text{ cm}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\((x+3)^2=484\\Rightarrow x+3=22\\Rightarrow x=19\\).",
+   "explain_vi": "Đáp án c. \\((x+3)^2=484\\Rightarrow x+3=22\\Rightarrow x=19\\).",
+   "images": [],
+   "id": "3f1c443529cb",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D3",
+   "type": "mcq",
+   "form": "A rectangle has perimeter # cm and diagonal # cm. Find its sides.",
+   "en": "A rectangle has perimeter 70 cm and diagonal 25 cm. Find its sides.",
+   "vi": "Một hình chữ nhật có chu vi 70 cm và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b> dài 25 cm. Tìm độ dài các cạnh.",
+   "options": [
+    "\\(21\\text{ cm and }14\\text{ cm}\\)",
+    "\\(20\\text{ cm and }15\\text{ cm}\\)",
+    "\\(25\\text{ cm and }10\\text{ cm}\\)",
+    "\\(22\\text{ cm and }13\\text{ cm}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(x+y=35\\), \\(x^2+y^2=625\\Rightarrow xy=300\\); \\(x\\), \\(y\\) are the roots of \\(t^2-35t+300=0\\).",
+   "explain_vi": "Đáp án b. \\(x+y=35\\), \\(x^2+y^2=625\\Rightarrow xy=300\\); \\(x\\), \\(y\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b> của \\(t^2-35t+300=0\\).",
+   "images": [],
+   "id": "8e1b8e39f80d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D3",
+   "type": "mcq",
+   "form": "In a right triangle, one leg is # cm longer than the other and the hypotenuse is # cm. Find the shorter leg.",
+   "en": "In a right triangle, one leg is 7 cm longer than the other and the hypotenuse is 13 cm. Find the shorter leg.",
+   "vi": "Một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"right triangle\">tam giác vuông</b> có một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"leg (of a right triangle)\">cạnh góc vuông</b> dài hơn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"leg (of a right triangle)\">cạnh góc vuông</b> kia 7 cm, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"hypotenuse\">cạnh huyền</b> dài 13 cm. Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"leg (of a right triangle)\">cạnh góc vuông</b> ngắn hơn.",
+   "options": [
+    "\\(1\\text{ cm}\\)",
+    "\\(5\\text{ cm}\\)",
+    "\\(6\\text{ cm}\\)",
+    "\\(12\\text{ cm}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(x^2+(x+7)^2=169\\Rightarrow x=5\\).",
+   "explain_vi": "Đáp án b. \\(x^2+(x+7)^2=169\\Rightarrow x=5\\).",
+   "images": [],
+   "id": "b65ded0a197b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Two cars travel # km. The second car is # km/h faster and arrives # minutes earlier. Find the speed of the first car.",
+   "en": "Two cars travel 200 km. The second car is 15 km/h faster and arrives 40 minutes earlier. Find the speed of the first car.",
+   "vi": "Hai ô tô cùng đi quãng đường 200 km. Xe thứ hai đi nhanh hơn xe thứ nhất 15 km/h nên đến sớm hơn 40 phút. Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"speed\">vận tốc</b> xe thứ nhất.",
+   "options": [
+    "\\(75\\text{ km/h}\\)",
+    "\\(60\\text{ km/h}\\)",
+    "\\(90\\text{ km/h}\\)",
+    "\\(45\\text{ km/h}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\dfrac{200}{x}-\\dfrac{200}{x+15}=\\dfrac{2}{3}\\) gives \\(x=60\\).",
+   "explain_vi": "Đáp án b. \\(\\dfrac{200}{x}-\\dfrac{200}{x+15}=\\dfrac{2}{3}\\) cho \\(x=60\\).",
+   "images": [],
+   "id": "caf99a15576a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D4",
+   "type": "mcq",
+   "form": "# million dong is deposited at compound interest. After # years the total is # million dong. Find the yearly interest rate.",
+   "en": "50 million dong is deposited at compound interest. After 2 years the total is 57.245 million dong. Find the yearly interest rate.",
+   "vi": "Gửi 50 triệu đồng theo hình thức <b class=\"mbl-term\" tabindex=\"0\" data-en=\"compound interest\">lãi kép</b>. Sau 2 năm nhận được tổng cộng 57,245 triệu đồng. Tìm lãi suất mỗi năm.",
+   "options": [
+    "\\(6\\%\\)",
+    "\\(8\\%\\)",
+    "\\(14\\%\\)",
+    "\\(7\\%\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(50(1+x)^2=57.245\\Rightarrow 1+x=1.07\\Rightarrow x=7\\%\\).",
+   "explain_vi": "Đáp án d. \\(50(1+x)^2=57{,}245\\Rightarrow 1+x=1{,}07\\Rightarrow x=7\\%\\).",
+   "images": [],
+   "id": "c497d012512c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A chocolate bar is a box # cm × # cm × # cm. Its volume is reduced by #% by cutting the same length from its length and its width (thickness unchanged). How many cm are cut from each?",
+   "en": "A chocolate bar is a box 8 cm × 5 cm × 3 cm. Its volume is reduced by 75% by cutting the same length from its length and its width (thickness unchanged). How many cm are cut from each?",
+   "vi": "Một thanh sô-cô-la có dạng hộp chữ nhật 8 cm × 5 cm × 3 cm. Người ta giảm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"volume\">thể tích</b> 75% bằng cách giảm chiều dài và chiều rộng cùng một độ dài (giữ nguyên độ dày). Mỗi chiều giảm bao nhiêu xăng-ti-mét?",
+   "options": [
+    "\\(3\\text{ cm}\\)",
+    "\\(4\\text{ cm}\\)",
+    "\\(6\\text{ cm}\\)",
+    "\\(5\\text{ cm}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\((8-x)(5-x)=40\\cdot0.25\\Rightarrow x=3\\) (the other root is too large).",
+   "explain_vi": "Đáp án a. \\((8-x)(5-x)=40\\cdot0{,}25\\Rightarrow x=3\\) (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b> kia quá lớn, loại).",
+   "images": [],
+   "id": "89ad26479b1f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A plane flies # km from city A to city B, stops # minutes, then flies back # km/h faster. The whole journey takes # hours. Find the speed on the outward flight.",
+   "en": "A plane flies 1800 km from city A to city B, stops 60 minutes, then flies back 100 km/h faster. The whole journey takes 5.25 hours. Find the speed on the outward flight.",
+   "vi": "Một máy bay bay từ thành phố A đến thành phố B dài 1800 km, nghỉ 60 phút rồi bay về A với <b class=\"mbl-term\" tabindex=\"0\" data-en=\"speed\">vận tốc</b> lớn hơn lúc đi 100 km/h. Tổng thời gian là 5,25 giờ. Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"speed\">vận tốc</b> lúc đi.",
+   "options": [
+    "\\(850\\text{ km/h}\\)",
+    "\\(800\\text{ km/h}\\)",
+    "\\(900\\text{ km/h}\\)",
+    "\\(700\\text{ km/h}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\dfrac{1800}{x}+\\dfrac{1800}{x+100}=\\dfrac{17}{4}\\) gives \\(x=800\\).",
+   "explain_vi": "Đáp án b. \\(\\dfrac{1800}{x}+\\dfrac{1800}{x+100}=\\dfrac{17}{4}\\) cho \\(x=800\\).",
+   "images": [],
+   "id": "f93f7f54cb51",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  }
+ ]
+}

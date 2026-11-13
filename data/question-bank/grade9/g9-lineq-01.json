@@ -1,0 +1,1317 @@
+{
+ "lesson": "g9-lineq-01",
+ "grade": 9,
+ "no": 4,
+ "title": "Phương trình quy về phương trình bậc nhất một ẩn",
+ "path": "lessons/grade9/equations-and-inequalities/equations-reducible-to-linear.html",
+ "items": [
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Find the condition for the equation \\(\\dfrac{#}{x-#}+\\dfrac{x}{x-#}=#\\) to be defined.",
+   "en": "Find the condition for the equation \\(\\dfrac{2}{x-5}+\\dfrac{x}{x-3}=2\\) to be defined.",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"condition for the equation to be defined (restriction)\">điều kiện xác định</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(\\dfrac{2}{x-5}+\\dfrac{x}{x-3}=2\\).",
+   "options": [
+    "\\(x\\ne 3\\)",
+    "\\(x\\ne 5,\\ x\\ne 3\\)",
+    "\\(x\\ne -5,\\ x\\ne -3\\)",
+    "\\(x\\ne 5\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. All denominators must be nonzero: \\(x-5\\ne0\\) and \\(x-3\\ne0\\).",
+   "explain_vi": "Đáp án b. Mọi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"denominator\">mẫu thức</b> phải khác 0: \\(x-5\\ne0\\) và \\(x-3\\ne0\\).",
+   "images": [],
+   "id": "42071b8f10a4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Find the solution set of the equation \\(x^#-#=#\\).",
+   "en": "Find the solution set of the equation \\(x^2-25=0\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution set\">tập nghiệm</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(x^2-25=0\\).",
+   "options": [
+    "\\(S=\\{-5;\\ 5\\}\\)",
+    "\\(S=\\{5\\}\\)",
+    "\\(S=\\{25\\}\\)",
+    "\\(S=\\{-25;\\ 25\\}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\((x-5)(x+5)=0\\), so \\(x=5\\) or \\(x=-5\\).",
+   "explain_vi": "Đáp án a. \\((x-5)(x+5)=0\\), suy ra \\(x=5\\) hoặc \\(x=-5\\).",
+   "images": [],
+   "id": "c8f346e20ae6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Solve the equation \\((-#x+#)(x+#)=#\\).",
+   "en": "Solve the equation \\((-2x+10)(x+4)=0\\).",
+   "vi": "Giải <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\((-2x+10)(x+4)=0\\).",
+   "options": [
+    "\\(S=\\{4;\\ 5\\}\\)",
+    "\\(S=\\{-4;\\ 5\\}\\)",
+    "\\(S=\\{-5;\\ 4\\}\\)",
+    "\\(S=\\{-5;\\ -4\\}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(-2x+10=0\\) or \\(x+4=0\\), so \\(x=5\\) or \\(x=-4\\).",
+   "explain_vi": "Đáp án b. \\(-2x+10=0\\) hoặc \\(x+4=0\\), suy ra \\(x=5\\) hoặc \\(x=-4\\).",
+   "images": [],
+   "id": "9a357f7715eb",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "The equation \\((x+#)(x+#)=#\\) has two solutions \\(x=-#\\) and \\(x=-#\\).",
+   "en": "The equation \\((x+5)(x+4)=0\\) has two solutions \\(x=-5\\) and \\(x=-4\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">Phương trình</b> \\((x+5)(x+4)=0\\) có hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b> \\(x=-5\\) và \\(x=-4\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. \\(x+5=0\\Rightarrow x=-5\\); \\(x+4=0\\Rightarrow x=-4\\).",
+   "explain_vi": "Đúng. \\(x+5=0\\Rightarrow x=-5\\); \\(x+4=0\\Rightarrow x=-4\\).",
+   "images": [],
+   "id": "3de5afebb244",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "The equation \\(\\dfrac{#x}{x-#}-\\dfrac{#}{x}=#\\) has the solution \\(x=-#\\).",
+   "en": "The equation \\(\\dfrac{2x}{x-2}-\\dfrac{6}{x}=2\\) has the solution \\(x=-6\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">Phương trình</b> \\(\\dfrac{2x}{x-2}-\\dfrac{6}{x}=2\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b> \\(x=-6\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. Condition: \\(x\\ne0,\\ x\\ne2\\). Clearing denominators gives \\(x=6\\), which satisfies the condition.",
+   "explain_vi": "Sai. Điều kiện: \\(x\\ne0,\\ x\\ne2\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"clear the denominators\">Khử mẫu</b> được \\(x=6\\), thỏa mãn điều kiện.",
+   "images": [],
+   "id": "d60212e9939e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "Find the sum of all solutions of the equation \\((x-#)(x-#)=#\\).",
+   "en": "Find the sum of all solutions of the equation \\((x-1)(x-5)=0\\).",
+   "vi": "Tính tổng các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution of an equation\">nghiệm của phương trình</b> \\((x-1)(x-5)=0\\).",
+   "options": [],
+   "answer": "6",
+   "explain_en": "Answer: 6. The solutions are \\(1\\) and \\(5\\); their sum is \\(6\\).",
+   "explain_vi": "Đáp số: 6. Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b> là \\(1\\) và \\(5\\); tổng bằng \\(6\\).",
+   "images": [],
+   "id": "046aa9575c4d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "Solve the equation \\(\\dfrac{#x}{x-#}-\\dfrac{#}{x}=#\\).",
+   "en": "Solve the equation \\(\\dfrac{2x}{x-5}-\\dfrac{8}{x}=2\\).",
+   "vi": "Giải <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(\\dfrac{2x}{x-5}-\\dfrac{8}{x}=2\\).",
+   "options": [],
+   "answer": "-20",
+   "explain_en": "Answer: -20. Condition \\(x\\ne0,\\ x\\ne5\\). Multiply by \\(x(x-5)\\): \\(2x^2-8x+40=2x^2-10x\\Rightarrow x=-20\\) (accepted).",
+   "explain_vi": "Đáp số: -20. Điều kiện \\(x\\ne0,\\ x\\ne5\\). Nhân hai vế với \\(x(x-5)\\): \\(2x^2-8x+40=2x^2-10x\\Rightarrow x=-20\\) (thỏa mãn).",
+   "images": [],
+   "id": "5b0a53f3c228",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Choose the product equation.",
+   "en": "Choose the product equation.",
+   "vi": "Chọn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"product equation\">phương trình tích</b>.",
+   "options": [
+    "\\((x-7)(x+5)=9\\)",
+    "\\((x-7)+(x+5)=0\\)",
+    "\\(\\dfrac{x-7}{x+5}=9\\)",
+    "\\((x-7)(x+5)=0\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. A product equation has the form \\(A\\cdot B=0\\) (the right-hand side is 0).",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"product equation\">Phương trình tích</b> có dạng \\(A\\cdot B=0\\) (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"right-hand side (RHS)\">vế phải</b> bằng 0).",
+   "images": [],
+   "id": "f0ebe66b83fe",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D1",
+   "type": "mcq",
+   "form": "The equation \\((x+#)(x+#)=#\\) is equivalent to…",
+   "en": "The equation \\((x+6)(x+7)=0\\) is equivalent to…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">Phương trình</b> \\((x+6)(x+7)=0\\) tương đương với…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(x+6=x+7\\)</span><span class=\"vi\">\\(x+6=x+7\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(x+6=1\\) or \\(x+7=1\\)</span><span class=\"vi\">\\(x+6=1\\) hoặc \\(x+7=1\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(x+6=0\\) and \\(x+7=0\\)</span><span class=\"vi\">\\(x+6=0\\) và \\(x+7=0\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(x+6=0\\) or \\(x+7=0\\)</span><span class=\"vi\">\\(x+6=0\\) hoặc \\(x+7=0\\)</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. A product is zero when at least one factor is zero.",
+   "explain_vi": "Đáp án d. Tích bằng 0 khi có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"at least one\">ít nhất một</b> thừa số bằng 0.",
+   "images": [],
+   "id": "1a299bcd40ac",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D1",
+   "type": "mcq",
+   "form": "What is the condition for the equation \\(\\dfrac{#}{x-#}=#\\) to be defined?",
+   "en": "What is the condition for the equation \\(\\dfrac{1}{x-7}=8\\) to be defined?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"condition for the equation to be defined (restriction)\">Điều kiện xác định</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(\\dfrac{1}{x-7}=8\\) là gì?",
+   "options": [
+    "\\(x\\ne 1\\)",
+    "\\(x\\ne 0\\)",
+    "\\(x\\ne -7\\)",
+    "\\(x\\ne 7\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. The denominator \\(x-7\\) must be nonzero.",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"denominator\">Mẫu thức</b> \\(x-7\\) phải khác 0.",
+   "images": [],
+   "id": "43d188a3e706",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Find the condition for the equation \\(\\dfrac{#}{x(x+#)}=\\dfrac{#}{x}\\) to be defined.",
+   "en": "Find the condition for the equation \\(\\dfrac{1}{x(x+7)}=\\dfrac{1}{x}\\) to be defined.",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"condition for the equation to be defined (restriction)\">điều kiện xác định</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(\\dfrac{1}{x(x+7)}=\\dfrac{1}{x}\\).",
+   "options": [
+    "\\(x\\ne -7\\)",
+    "\\(x\\ne0\\)",
+    "\\(x\\ne0,\\ x\\ne 7\\)",
+    "\\(x\\ne0,\\ x\\ne -7\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(x(x+7)\\ne0\\) means \\(x\\ne0\\) and \\(x\\ne-7\\).",
+   "explain_vi": "Đáp án d. \\(x(x+7)\\ne0\\) khi \\(x\\ne0\\) và \\(x\\ne-7\\).",
+   "images": [],
+   "id": "48badd4ac9ee",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Find the solution set of \\((#x-#)(#x+#)=#\\).",
+   "en": "Find the solution set of \\((2x-8)(3x+6)=0\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution set\">tập nghiệm</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\((2x-8)(3x+6)=0\\).",
+   "options": [
+    "\\(S=\\{2;\\ 4\\}\\)",
+    "\\(S=\\{-4;\\ -2\\}\\)",
+    "\\(S=\\{-2;\\ 4\\}\\)",
+    "\\(S=\\{-4;\\ 2\\}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(2x-8=0\\) or \\(3x+6=0\\), so \\(x=4\\) or \\(x=-2\\).",
+   "explain_vi": "Đáp án c. \\(2x-8=0\\) hoặc \\(3x+6=0\\), suy ra \\(x=4\\) hoặc \\(x=-2\\).",
+   "images": [],
+   "id": "36bd946233a3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Solve the equation \\((x-#)(x-#)-(x-#)=#\\).",
+   "en": "Solve the equation \\((x-3)(x-6)-(x-3)=0\\).",
+   "vi": "Giải <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\((x-3)(x-6)-(x-3)=0\\).",
+   "options": [
+    "\\(S=\\{3;\\ 5\\}\\)",
+    "\\(S=\\{3;\\ 6\\}\\)",
+    "\\(S=\\{-3;\\ 7\\}\\)",
+    "\\(S=\\{3;\\ 7\\}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Common factor \\(x-3\\): \\((x-3)(x-7)=0\\), so \\(x=3\\) or \\(x=7\\).",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"common factor\">Nhân tử chung</b> \\(x-3\\): \\((x-3)(x-7)=0\\), suy ra \\(x=3\\) hoặc \\(x=7\\).",
+   "images": [],
+   "id": "23d416f1d879",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Solve the equation \\(\\dfrac{#}{x+#}=\\dfrac{#}{x-#}\\).",
+   "en": "Solve the equation \\(\\dfrac{2}{x+4}=\\dfrac{3}{x-5}\\).",
+   "vi": "Giải <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(\\dfrac{2}{x+4}=\\dfrac{3}{x-5}\\).",
+   "options": [
+    "\\(x=5\\)",
+    "\\(x=-4\\)",
+    "\\(x=-22\\)",
+    "\\(x=22\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Condition \\(x\\ne-4,\\ x\\ne5\\). Cross-multiply: \\(2(x-5)=3(x+4)\\Rightarrow x=-22\\).",
+   "explain_vi": "Đáp án c. Điều kiện \\(x\\ne-4,\\ x\\ne5\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"clear the denominators\">Khử mẫu</b>: \\(2(x-5)=3(x+4)\\Rightarrow x=-22\\).",
+   "images": [],
+   "id": "785b50aad594",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Solve the equation \\(\\dfrac{#}{x-#}+#=\\dfrac{x-#}{#-x}\\).",
+   "en": "Solve the equation \\(\\dfrac{1}{x-3}+4=\\dfrac{x-4}{3-x}\\).",
+   "vi": "Giải <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(\\dfrac{1}{x-3}+4=\\dfrac{x-4}{3-x}\\).",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(x=4\\)</span><span class=\"vi\">\\(x=4\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">no solution</span><span class=\"vi\">vô nghiệm</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(x=-3\\)</span><span class=\"vi\">\\(x=-3\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(x=3\\)</span><span class=\"vi\">\\(x=3\\)</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Condition \\(x\\ne3\\). Clearing denominators gives \\(5x=15\\), so \\(x=3\\) – but this value is excluded. The equation has no solution.",
+   "explain_vi": "Đáp án b. Điều kiện \\(x\\ne3\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"clear the denominators\">Khử mẫu</b> được \\(5x=15\\), suy ra \\(x=3\\) – giá trị này không thỏa mãn điều kiện. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">Phương trình</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"no solution\">vô nghiệm</b>.",
+   "images": [],
+   "id": "cb06384cceed",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Solve the equation \\(x^#-#+(x-#)(#x+#)=#\\).",
+   "en": "Solve the equation \\(x^2-9+(x-3)(2x+9)=0\\).",
+   "vi": "Giải <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(x^2-9+(x-3)(2x+9)=0\\).",
+   "options": [
+    "\\(S=\\{3\\}\\)",
+    "\\(S=\\{-4;\\ 3\\}\\)",
+    "\\(S=\\{-4;\\ -3\\}\\)",
+    "\\(S=\\{3;\\ 4\\}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\((x-3)(x+3)+(x-3)(2x+9)=(x-3)(3x+12)=0\\).",
+   "explain_vi": "Đáp án b. \\((x-3)(x+3)+(x-3)(2x+9)=(x-3)(3x+12)=0\\).",
+   "images": [],
+   "id": "e2908398c6a6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A boat goes # km downstream and # km upstream; the two trips take the same time. The current flows at # km/h. Find the speed of the boat in still water.",
+   "en": "A boat goes 162 km downstream and 138 km upstream; the two trips take the same time. The current flows at 2 km/h. Find the speed of the boat in still water.",
+   "vi": "Một ca nô <b class=\"mbl-term\" tabindex=\"0\" data-en=\"downstream\">xuôi dòng</b> 162 km và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"upstream\">ngược dòng</b> 138 km, thời gian hai lần đi bằng nhau. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"speed\">Vận tốc</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"current (of a river)\">dòng nước</b> là 2 km/h. Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"speed\">vận tốc</b> của ca nô khi nước yên lặng.",
+   "options": [
+    "\\(29\\text{ km/h}\\)",
+    "\\(27\\text{ km/h}\\)",
+    "\\(25\\text{ km/h}\\)",
+    "\\(23\\text{ km/h}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\dfrac{162}{x+2}=\\dfrac{138}{x-2}\\) (\\(x\\gt 2\\)) \\(\\Rightarrow 162(x-2)=138(x+2)\\Rightarrow x=25\\).",
+   "explain_vi": "Đáp án c. \\(\\dfrac{162}{x+2}=\\dfrac{138}{x-2}\\) (\\(x\\gt 2\\)) \\(\\Rightarrow 162(x-2)=138(x+2)\\Rightarrow x=25\\).",
+   "images": [],
+   "id": "c1cb5a20d624",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D4",
+   "type": "mcq",
+   "form": "Solve the equation \\(\\dfrac{x+#}{x-#}=\\dfrac{x+#}{x-#}\\).",
+   "en": "Solve the equation \\(\\dfrac{x+6}{x-4}=\\dfrac{x+3}{x-2}\\).",
+   "vi": "Giải <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(\\dfrac{x+6}{x-4}=\\dfrac{x+3}{x-2}\\).",
+   "options": [
+    "\\(x=1\\)",
+    "\\(x=2\\)",
+    "\\(x=0\\)",
+    "\\(x=4\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Condition \\(x\\ne4,\\ x\\ne2\\). Cross-multiply: \\((x+6)(x-2)=(x+3)(x-4)\\Rightarrow 5x=0\\Rightarrow x=0\\).",
+   "explain_vi": "Đáp án c. Điều kiện \\(x\\ne4,\\ x\\ne2\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"clear the denominators\">Khử mẫu</b>: \\((x+6)(x-2)=(x+3)(x-4)\\Rightarrow 5x=0\\Rightarrow x=0\\).",
+   "images": [],
+   "id": "f3eb10379441",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D4",
+   "type": "mcq",
+   "form": "Truck A carries # tonnes of goods and truck B carries # tonnes, with the same number of trips. On each trip, truck A carries # tonnes more than truck B. How many tonnes does truck B carry on each trip?",
+   "en": "Truck A carries 133 tonnes of goods and truck B carries 95 tonnes, with the same number of trips. On each trip, truck A carries 2 tonnes more than truck B. How many tonnes does truck B carry on each trip?",
+   "vi": "Xe A chở 133 tấn hàng, xe B chở 95 tấn hàng, số chuyến của hai xe bằng nhau. Mỗi chuyến xe A chở nhiều hơn xe B 2 tấn. Mỗi chuyến xe B chở bao nhiêu tấn?",
+   "options": [
+    "\\(19\\)",
+    "\\(7\\)",
+    "\\(5\\)",
+    "\\(38\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\dfrac{133}{x+2}=\\dfrac{95}{x}\\Rightarrow 133x=95(x+2)\\Rightarrow x=5\\).",
+   "explain_vi": "Đáp án c. \\(\\dfrac{133}{x+2}=\\dfrac{95}{x}\\Rightarrow 133x=95(x+2)\\Rightarrow x=5\\).",
+   "images": [],
+   "id": "fe4fef03b75f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Find the condition for the equation \\(\\dfrac{#}{x+#}+\\dfrac{x}{x-#}=#\\) to be defined.",
+   "en": "Find the condition for the equation \\(\\dfrac{4}{x+3}+\\dfrac{x}{x-4}=5\\) to be defined.",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"condition for the equation to be defined (restriction)\">điều kiện xác định</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(\\dfrac{4}{x+3}+\\dfrac{x}{x-4}=5\\).",
+   "options": [
+    "\\(x\\ne 3,\\ x\\ne -4\\)",
+    "\\(x\\ne -3\\)",
+    "\\(x\\ne 4\\)",
+    "\\(x\\ne -3,\\ x\\ne 4\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. All denominators must be nonzero: \\(x+3\\ne0\\) and \\(x-4\\ne0\\).",
+   "explain_vi": "Đáp án d. Mọi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"denominator\">mẫu thức</b> phải khác 0: \\(x+3\\ne0\\) và \\(x-4\\ne0\\).",
+   "images": [],
+   "id": "1afd9c562f79",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Find the solution set of the equation \\(-#x^#-#x=#\\).",
+   "en": "Find the solution set of the equation \\(-2x^2-6x=0\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution set\">tập nghiệm</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(-2x^2-6x=0\\).",
+   "options": [
+    "\\(S=\\{-3;\\ 0\\}\\)",
+    "\\(S=\\{-3;\\ 3\\}\\)",
+    "\\(S=\\{-3\\}\\)",
+    "\\(S=\\{0;\\ 3\\}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Factor: \\(x(-2x-6)=0\\), so \\(x=0\\) or \\(x=-3\\).",
+   "explain_vi": "Đáp án a. Đặt <b class=\"mbl-term\" tabindex=\"0\" data-en=\"common factor\">nhân tử chung</b>: \\(x(-2x-6)=0\\), suy ra \\(x=0\\) hoặc \\(x=-3\\).",
+   "images": [],
+   "id": "78ef9290c6f4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Solve the equation \\((x+#)(-#x-#)=#\\).",
+   "en": "Solve the equation \\((x+6)(-3x-2)=0\\).",
+   "vi": "Giải <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\((x+6)(-3x-2)=0\\).",
+   "options": [
+    "\\(S=\\{-\\dfrac{2}{3};\\ 6\\}\\)",
+    "\\(S=\\{-6;\\ \\dfrac{2}{3}\\}\\)",
+    "\\(S=\\{\\dfrac{2}{3};\\ 6\\}\\)",
+    "\\(S=\\{-6;\\ -\\dfrac{2}{3}\\}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(x+6=0\\) or \\(-3x-2=0\\), so \\(x=-6\\) or \\(x=-\\dfrac{2}{3}\\).",
+   "explain_vi": "Đáp án d. \\(x+6=0\\) hoặc \\(-3x-2=0\\), suy ra \\(x=-6\\) hoặc \\(x=-\\dfrac{2}{3}\\).",
+   "images": [],
+   "id": "d6c6143f3c4f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "The equation \\((x+#)(x-#)=#\\) has two solutions \\(x=-#\\) and \\(x=-#\\).",
+   "en": "The equation \\((x+3)(x-3)=0\\) has two solutions \\(x=-3\\) and \\(x=-3\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">Phương trình</b> \\((x+3)(x-3)=0\\) có hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b> \\(x=-3\\) và \\(x=-3\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. \\(x+3=0\\Rightarrow x=-3\\); \\(x-3=0\\Rightarrow x=3\\).",
+   "explain_vi": "Sai. \\(x+3=0\\Rightarrow x=-3\\); \\(x-3=0\\Rightarrow x=3\\).",
+   "images": [],
+   "id": "3ff4ab017c2e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "The equation \\(\\dfrac{#x}{x-#}-\\dfrac{#}{x}=#\\) has the solution \\(x=-#\\).",
+   "en": "The equation \\(\\dfrac{2x}{x-2}-\\dfrac{3}{x}=2\\) has the solution \\(x=-6\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">Phương trình</b> \\(\\dfrac{2x}{x-2}-\\dfrac{3}{x}=2\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b> \\(x=-6\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. Condition: \\(x\\ne0,\\ x\\ne2\\). Clearing denominators gives \\(x=-6\\), which satisfies the condition.",
+   "explain_vi": "Đúng. Điều kiện: \\(x\\ne0,\\ x\\ne2\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"clear the denominators\">Khử mẫu</b> được \\(x=-6\\), thỏa mãn điều kiện.",
+   "images": [],
+   "id": "d62688b6dbc1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "Find the sum of all solutions of the equation \\((x-#)(x-#)=#\\).",
+   "en": "Find the sum of all solutions of the equation \\((x-3)(x-6)=0\\).",
+   "vi": "Tính tổng các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution of an equation\">nghiệm của phương trình</b> \\((x-3)(x-6)=0\\).",
+   "options": [],
+   "answer": "9",
+   "explain_en": "Answer: 9. The solutions are \\(3\\) and \\(6\\); their sum is \\(9\\).",
+   "explain_vi": "Đáp số: 9. Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b> là \\(3\\) và \\(6\\); tổng bằng \\(9\\).",
+   "images": [],
+   "id": "11902f5eafbd",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "Solve the equation \\(\\dfrac{#x}{x-#}-\\dfrac{#}{x}=#\\).",
+   "en": "Solve the equation \\(\\dfrac{2x}{x-3}-\\dfrac{3}{x}=2\\).",
+   "vi": "Giải <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(\\dfrac{2x}{x-3}-\\dfrac{3}{x}=2\\).",
+   "options": [],
+   "answer": "-3",
+   "explain_en": "Answer: -3. Condition \\(x\\ne0,\\ x\\ne3\\). Multiply by \\(x(x-3)\\): \\(2x^2-3x+9=2x^2-6x\\Rightarrow x=-3\\) (accepted).",
+   "explain_vi": "Đáp số: -3. Điều kiện \\(x\\ne0,\\ x\\ne3\\). Nhân hai vế với \\(x(x-3)\\): \\(2x^2-3x+9=2x^2-6x\\Rightarrow x=-3\\) (thỏa mãn).",
+   "images": [],
+   "id": "0278a3347039",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D1",
+   "type": "mcq",
+   "form": "The equation \\((x-#)(x-#)=#\\) is equivalent to…",
+   "en": "The equation \\((x-3)(x-8)=0\\) is equivalent to…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">Phương trình</b> \\((x-3)(x-8)=0\\) tương đương với…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(x-3=x-8\\)</span><span class=\"vi\">\\(x-3=x-8\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(x-3=1\\) or \\(x-8=1\\)</span><span class=\"vi\">\\(x-3=1\\) hoặc \\(x-8=1\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(x-3=0\\) or \\(x-8=0\\)</span><span class=\"vi\">\\(x-3=0\\) hoặc \\(x-8=0\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(x-3=0\\) and \\(x-8=0\\)</span><span class=\"vi\">\\(x-3=0\\) và \\(x-8=0\\)</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. A product is zero when at least one factor is zero.",
+   "explain_vi": "Đáp án c. Tích bằng 0 khi có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"at least one\">ít nhất một</b> thừa số bằng 0.",
+   "images": [],
+   "id": "ddda173cde4d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D1",
+   "type": "mcq",
+   "form": "What is the condition for the equation \\(\\dfrac{#}{x+#}=#\\) to be defined?",
+   "en": "What is the condition for the equation \\(\\dfrac{2}{x+7}=8\\) to be defined?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"condition for the equation to be defined (restriction)\">Điều kiện xác định</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(\\dfrac{2}{x+7}=8\\) là gì?",
+   "options": [
+    "\\(x\\ne -7\\)",
+    "\\(x\\ne 7\\)",
+    "\\(x\\ne 2\\)",
+    "\\(x\\ne 0\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. The denominator \\(x+7\\) must be nonzero.",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"denominator\">Mẫu thức</b> \\(x+7\\) phải khác 0.",
+   "images": [],
+   "id": "b8790b44359b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Which of these equations has the form \\(A\\cdot B=#\\)?",
+   "en": "Which of these equations has the form \\(A\\cdot B=0\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">Phương trình</b> nào có dạng \\(A\\cdot B=0\\)?",
+   "options": [
+    "\\((x+2)+(x+4)=0\\)",
+    "\\(\\dfrac{x+2}{x+4}=2\\)",
+    "\\((x+2)(x+4)=2\\)",
+    "\\((x+2)(x+4)=0\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. A product equation has the form \\(A\\cdot B=0\\) (the right-hand side is 0).",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"product equation\">Phương trình tích</b> có dạng \\(A\\cdot B=0\\) (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"right-hand side (RHS)\">vế phải</b> bằng 0).",
+   "images": [],
+   "id": "22c7fa28536d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Find the condition for the equation \\(\\dfrac{#}{x(x+#)}=\\dfrac{#}{x}\\) to be defined.",
+   "en": "Find the condition for the equation \\(\\dfrac{3}{x(x+2)}=\\dfrac{1}{x}\\) to be defined.",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"condition for the equation to be defined (restriction)\">điều kiện xác định</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(\\dfrac{3}{x(x+2)}=\\dfrac{1}{x}\\).",
+   "options": [
+    "\\(x\\ne -2\\)",
+    "\\(x\\ne0,\\ x\\ne -2\\)",
+    "\\(x\\ne0,\\ x\\ne 2\\)",
+    "\\(x\\ne0\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(x(x+2)\\ne0\\) means \\(x\\ne0\\) and \\(x\\ne-2\\).",
+   "explain_vi": "Đáp án b. \\(x(x+2)\\ne0\\) khi \\(x\\ne0\\) và \\(x\\ne-2\\).",
+   "images": [],
+   "id": "57b45ac0f579",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Find the solution set of \\((#x+#)(#x-#)=#\\).",
+   "en": "Find the solution set of \\((2x+12)(4x-4)=0\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution set\">tập nghiệm</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\((2x+12)(4x-4)=0\\).",
+   "options": [
+    "\\(S=\\{-6;\\ 1\\}\\)",
+    "\\(S=\\{-6;\\ -1\\}\\)",
+    "\\(S=\\{-1;\\ 6\\}\\)",
+    "\\(S=\\{1;\\ 6\\}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(2x+12=0\\) or \\(4x-4=0\\), so \\(x=-6\\) or \\(x=1\\).",
+   "explain_vi": "Đáp án a. \\(2x+12=0\\) hoặc \\(4x-4=0\\), suy ra \\(x=-6\\) hoặc \\(x=1\\).",
+   "images": [],
+   "id": "f3817d9544a9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Solve the equation \\((x+#)(x+#)+(x+#)=#\\).",
+   "en": "Solve the equation \\((x+2)(x+4)+(x+2)=0\\).",
+   "vi": "Giải <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\((x+2)(x+4)+(x+2)=0\\).",
+   "options": [
+    "\\(S=\\{-4;\\ -2\\}\\)",
+    "\\(S=\\{-3;\\ -2\\}\\)",
+    "\\(S=\\{-5;\\ -2\\}\\)",
+    "\\(S=\\{-5;\\ 2\\}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Common factor \\(x+2\\): \\((x+2)(x+5)=0\\), so \\(x=-2\\) or \\(x=-5\\).",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"common factor\">Nhân tử chung</b> \\(x+2\\): \\((x+2)(x+5)=0\\), suy ra \\(x=-2\\) hoặc \\(x=-5\\).",
+   "images": [],
+   "id": "9a2b96404816",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Solve the equation \\(\\dfrac{#}{x-#}+#=\\dfrac{x-#}{#-x}\\).",
+   "en": "Solve the equation \\(\\dfrac{1}{x-6}+5=\\dfrac{x-7}{6-x}\\).",
+   "vi": "Giải <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(\\dfrac{1}{x-6}+5=\\dfrac{x-7}{6-x}\\).",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(x=-6\\)</span><span class=\"vi\">\\(x=-6\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(x=7\\)</span><span class=\"vi\">\\(x=7\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">no solution</span><span class=\"vi\">vô nghiệm</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(x=6\\)</span><span class=\"vi\">\\(x=6\\)</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Condition \\(x\\ne6\\). Clearing denominators gives \\(6x=36\\), so \\(x=6\\) – but this value is excluded. The equation has no solution.",
+   "explain_vi": "Đáp án c. Điều kiện \\(x\\ne6\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"clear the denominators\">Khử mẫu</b> được \\(6x=36\\), suy ra \\(x=6\\) – giá trị này không thỏa mãn điều kiện. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">Phương trình</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"no solution\">vô nghiệm</b>.",
+   "images": [],
+   "id": "88734d328b9a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Solve the equation \\(\\dfrac{#}{x-#}=\\dfrac{#}{x+#}\\).",
+   "en": "Solve the equation \\(\\dfrac{6}{x-5}=\\dfrac{4}{x+5}\\).",
+   "vi": "Giải <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(\\dfrac{6}{x-5}=\\dfrac{4}{x+5}\\).",
+   "options": [
+    "\\(x=25\\)",
+    "\\(x=-5\\)",
+    "\\(x=-25\\)",
+    "\\(x=5\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Condition \\(x\\ne5,\\ x\\ne-5\\). Cross-multiply: \\(6(x+5)=4(x-5)\\Rightarrow x=-25\\).",
+   "explain_vi": "Đáp án c. Điều kiện \\(x\\ne5,\\ x\\ne-5\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"clear the denominators\">Khử mẫu</b>: \\(6(x+5)=4(x-5)\\Rightarrow x=-25\\).",
+   "images": [],
+   "id": "2ac0441b781a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Solve the equation \\(x^#-#+(x-#)(#x-#)=#\\).",
+   "en": "Solve the equation \\(x^2-4+(x-2)(2x-2)=0\\).",
+   "vi": "Giải <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(x^2-4+(x-2)(2x-2)=0\\).",
+   "options": [
+    "\\(S=\\{0;\\ 2\\}\\)",
+    "\\(S=\\{1;\\ 2\\}\\)",
+    "\\(S=\\{-2;\\ 0\\}\\)",
+    "\\(S=\\{2\\}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\((x-2)(x+2)+(x-2)(2x-2)=(x-2)(3x)=0\\).",
+   "explain_vi": "Đáp án a. \\((x-2)(x+2)+(x-2)(2x-2)=(x-2)(3x)=0\\).",
+   "images": [],
+   "id": "670aaec4044c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A boat goes # km downstream and # km upstream; the two trips take the same time. The current flows at # km/h. Find the speed of the boat in still water.",
+   "en": "A boat goes 62 km downstream and 54 km upstream; the two trips take the same time. The current flows at 2 km/h. Find the speed of the boat in still water.",
+   "vi": "Một ca nô <b class=\"mbl-term\" tabindex=\"0\" data-en=\"downstream\">xuôi dòng</b> 62 km và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"upstream\">ngược dòng</b> 54 km, thời gian hai lần đi bằng nhau. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"speed\">Vận tốc</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"current (of a river)\">dòng nước</b> là 2 km/h. Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"speed\">vận tốc</b> của ca nô khi nước yên lặng.",
+   "options": [
+    "\\(27\\text{ km/h}\\)",
+    "\\(33\\text{ km/h}\\)",
+    "\\(31\\text{ km/h}\\)",
+    "\\(29\\text{ km/h}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\dfrac{62}{x+2}=\\dfrac{54}{x-2}\\) (\\(x\\gt 2\\)) \\(\\Rightarrow 62(x-2)=54(x+2)\\Rightarrow x=29\\).",
+   "explain_vi": "Đáp án d. \\(\\dfrac{62}{x+2}=\\dfrac{54}{x-2}\\) (\\(x\\gt 2\\)) \\(\\Rightarrow 62(x-2)=54(x+2)\\Rightarrow x=29\\).",
+   "images": [],
+   "id": "980bfefa739d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D4",
+   "type": "mcq",
+   "form": "Solve the equation \\(\\dfrac{x-#}{x+#}=\\dfrac{x-#}{x-#}\\).",
+   "en": "Solve the equation \\(\\dfrac{x-1}{x+4}=\\dfrac{x-5}{x-4}\\).",
+   "vi": "Giải <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(\\dfrac{x-1}{x+4}=\\dfrac{x-5}{x-4}\\).",
+   "options": [
+    "\\(x=-4\\)",
+    "\\(x=4\\)",
+    "\\(x=-6\\)",
+    "\\(x=6\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Condition \\(x\\ne-4,\\ x\\ne4\\). Cross-multiply: \\((x-1)(x-4)=(x-5)(x+4)\\Rightarrow -4x=-24\\Rightarrow x=6\\).",
+   "explain_vi": "Đáp án d. Điều kiện \\(x\\ne-4,\\ x\\ne4\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"clear the denominators\">Khử mẫu</b>: \\((x-1)(x-4)=(x-5)(x+4)\\Rightarrow -4x=-24\\Rightarrow x=6\\).",
+   "images": [],
+   "id": "d25189e49ac0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D4",
+   "type": "mcq",
+   "form": "Truck A carries # tonnes of goods and truck B carries # tonnes, with the same number of trips. On each trip, truck A carries # tonnes more than truck B. How many tonnes does truck B carry on each trip?",
+   "en": "Truck A carries 119 tonnes of goods and truck B carries 51 tonnes, with the same number of trips. On each trip, truck A carries 4 tonnes more than truck B. How many tonnes does truck B carry on each trip?",
+   "vi": "Xe A chở 119 tấn hàng, xe B chở 51 tấn hàng, số chuyến của hai xe bằng nhau. Mỗi chuyến xe A chở nhiều hơn xe B 4 tấn. Mỗi chuyến xe B chở bao nhiêu tấn?",
+   "options": [
+    "\\(3\\)",
+    "\\(68\\)",
+    "\\(7\\)",
+    "\\(17\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\dfrac{119}{x+4}=\\dfrac{51}{x}\\Rightarrow 119x=51(x+4)\\Rightarrow x=3\\).",
+   "explain_vi": "Đáp án a. \\(\\dfrac{119}{x+4}=\\dfrac{51}{x}\\Rightarrow 119x=51(x+4)\\Rightarrow x=3\\).",
+   "images": [],
+   "id": "ca08ea4e62ae",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Find the condition for the equation \\(\\dfrac{-#}{x+#}+\\dfrac{x}{x-#}=-#\\) to be defined.",
+   "en": "Find the condition for the equation \\(\\dfrac{-1}{x+3}+\\dfrac{x}{x-3}=-1\\) to be defined.",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"condition for the equation to be defined (restriction)\">điều kiện xác định</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(\\dfrac{-1}{x+3}+\\dfrac{x}{x-3}=-1\\).",
+   "options": [
+    "\\(x\\ne -3\\)",
+    "\\(x\\ne -3,\\ x\\ne 3\\)",
+    "\\(x\\ne 3,\\ x\\ne -3\\)",
+    "\\(x\\ne 3\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. All denominators must be nonzero: \\(x+3\\ne0\\) and \\(x-3\\ne0\\).",
+   "explain_vi": "Đáp án b. Mọi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"denominator\">mẫu thức</b> phải khác 0: \\(x+3\\ne0\\) và \\(x-3\\ne0\\).",
+   "images": [],
+   "id": "c1c204b6c272",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Find the solution set of the equation \\(#x^#-#x=#\\).",
+   "en": "Find the solution set of the equation \\(3x^2-2x=0\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution set\">tập nghiệm</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(3x^2-2x=0\\).",
+   "options": [
+    "\\(S=\\{-\\dfrac{2}{3};\\ 0\\}\\)",
+    "\\(S=\\{-\\dfrac{2}{3};\\ \\dfrac{2}{3}\\}\\)",
+    "\\(S=\\{\\dfrac{2}{3}\\}\\)",
+    "\\(S=\\{0;\\ \\dfrac{2}{3}\\}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Factor: \\(x(3x-2)=0\\), so \\(x=0\\) or \\(x=\\dfrac{2}{3}\\).",
+   "explain_vi": "Đáp án d. Đặt <b class=\"mbl-term\" tabindex=\"0\" data-en=\"common factor\">nhân tử chung</b>: \\(x(3x-2)=0\\), suy ra \\(x=0\\) hoặc \\(x=\\dfrac{2}{3}\\).",
+   "images": [],
+   "id": "97c42d1b7207",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Solve the equation \\((#x+#)(#x-#)=#\\).",
+   "en": "Solve the equation \\((3x+12)(4x-9)=0\\).",
+   "vi": "Giải <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\((3x+12)(4x-9)=0\\).",
+   "options": [
+    "\\(S=\\{-4;\\ \\dfrac{9}{4}\\}\\)",
+    "\\(S=\\{-4;\\ -\\dfrac{9}{4}\\}\\)",
+    "\\(S=\\{\\dfrac{9}{4};\\ 4\\}\\)",
+    "\\(S=\\{-\\dfrac{9}{4};\\ 4\\}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(3x+12=0\\) or \\(4x-9=0\\), so \\(x=-4\\) or \\(x=\\dfrac{9}{4}\\).",
+   "explain_vi": "Đáp án a. \\(3x+12=0\\) hoặc \\(4x-9=0\\), suy ra \\(x=-4\\) hoặc \\(x=\\dfrac{9}{4}\\).",
+   "images": [],
+   "id": "e39d1ced2043",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "The equation \\((x+#)(x-#)=#\\) has two solutions \\(x=-#\\) and \\(x=#\\).",
+   "en": "The equation \\((x+2)(x-3)=0\\) has two solutions \\(x=-2\\) and \\(x=3\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">Phương trình</b> \\((x+2)(x-3)=0\\) có hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b> \\(x=-2\\) và \\(x=3\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. \\(x+2=0\\Rightarrow x=-2\\); \\(x-3=0\\Rightarrow x=3\\).",
+   "explain_vi": "Đúng. \\(x+2=0\\Rightarrow x=-2\\); \\(x-3=0\\Rightarrow x=3\\).",
+   "images": [],
+   "id": "f373a5c5c316",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "The equation \\(\\dfrac{#x}{x-#}-\\dfrac{#}{x}=#\\) has the solution \\(x=-#\\).",
+   "en": "The equation \\(\\dfrac{3x}{x-4}-\\dfrac{9}{x}=3\\) has the solution \\(x=-12\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">Phương trình</b> \\(\\dfrac{3x}{x-4}-\\dfrac{9}{x}=3\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b> \\(x=-12\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. Condition: \\(x\\ne0,\\ x\\ne4\\). Clearing denominators gives \\(x=-12\\), which satisfies the condition.",
+   "explain_vi": "Đúng. Điều kiện: \\(x\\ne0,\\ x\\ne4\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"clear the denominators\">Khử mẫu</b> được \\(x=-12\\), thỏa mãn điều kiện.",
+   "images": [],
+   "id": "c6e0a9c7790f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Find the sum of all solutions of the equation \\((x-#)(x-#)=#\\).",
+   "en": "Find the sum of all solutions of the equation \\((x-4)(x-5)=0\\).",
+   "vi": "Tính tổng các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution of an equation\">nghiệm của phương trình</b> \\((x-4)(x-5)=0\\).",
+   "options": [],
+   "answer": "9",
+   "explain_en": "Answer: 9. The solutions are \\(4\\) and \\(5\\); their sum is \\(9\\).",
+   "explain_vi": "Đáp số: 9. Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b> là \\(4\\) và \\(5\\); tổng bằng \\(9\\).",
+   "images": [],
+   "id": "e196fcc02f43",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Solve the equation \\(\\dfrac{#x}{x+#}-\\dfrac{#}{x}=#\\).",
+   "en": "Solve the equation \\(\\dfrac{2x}{x+3}-\\dfrac{3}{x}=2\\).",
+   "vi": "Giải <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(\\dfrac{2x}{x+3}-\\dfrac{3}{x}=2\\).",
+   "options": [],
+   "answer": "-1",
+   "explain_en": "Answer: -1. Condition \\(x\\ne0,\\ x\\ne-3\\). Multiply by \\(x(x+3)\\): \\(2x^2-3x-9=2x^2+6x\\Rightarrow x=-1\\) (accepted).",
+   "explain_vi": "Đáp số: -1. Điều kiện \\(x\\ne0,\\ x\\ne-3\\). Nhân hai vế với \\(x(x+3)\\): \\(2x^2-3x-9=2x^2+6x\\Rightarrow x=-1\\) (thỏa mãn).",
+   "images": [],
+   "id": "6c4d80cfc857",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D1",
+   "type": "mcq",
+   "form": "The equation \\((x-#)(x-#)=#\\) is equivalent to…",
+   "en": "The equation \\((x-6)(x-8)=0\\) is equivalent to…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">Phương trình</b> \\((x-6)(x-8)=0\\) tương đương với…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(x-6=0\\) and \\(x-8=0\\)</span><span class=\"vi\">\\(x-6=0\\) và \\(x-8=0\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(x-6=x-8\\)</span><span class=\"vi\">\\(x-6=x-8\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(x-6=0\\) or \\(x-8=0\\)</span><span class=\"vi\">\\(x-6=0\\) hoặc \\(x-8=0\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(x-6=1\\) or \\(x-8=1\\)</span><span class=\"vi\">\\(x-6=1\\) hoặc \\(x-8=1\\)</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. A product is zero when at least one factor is zero.",
+   "explain_vi": "Đáp án c. Tích bằng 0 khi có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"at least one\">ít nhất một</b> thừa số bằng 0.",
+   "images": [],
+   "id": "e616c39151c4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D1",
+   "type": "mcq",
+   "form": "What is the condition for the equation \\(\\dfrac{#}{x+#}=#\\) to be defined?",
+   "en": "What is the condition for the equation \\(\\dfrac{1}{x+4}=7\\) to be defined?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"condition for the equation to be defined (restriction)\">Điều kiện xác định</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(\\dfrac{1}{x+4}=7\\) là gì?",
+   "options": [
+    "\\(x\\ne 0\\)",
+    "\\(x\\ne -4\\)",
+    "\\(x\\ne 4\\)",
+    "\\(x\\ne 1\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. The denominator \\(x+4\\) must be nonzero.",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"denominator\">Mẫu thức</b> \\(x+4\\) phải khác 0.",
+   "images": [],
+   "id": "aa240194464a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Which equation is a product equation?",
+   "en": "Which equation is a product equation?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">Phương trình</b> nào là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"product equation\">phương trình tích</b>?",
+   "options": [
+    "\\(\\dfrac{x+7}{x-7}=5\\)",
+    "\\((x+7)(x-7)=0\\)",
+    "\\((x+7)+(x-7)=0\\)",
+    "\\((x+7)(x-7)=5\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. A product equation has the form \\(A\\cdot B=0\\) (the right-hand side is 0).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"product equation\">Phương trình tích</b> có dạng \\(A\\cdot B=0\\) (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"right-hand side (RHS)\">vế phải</b> bằng 0).",
+   "images": [],
+   "id": "abf89d36d355",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Find the condition for the equation \\(\\dfrac{#}{x(x+#)}=\\dfrac{#}{x}\\) to be defined.",
+   "en": "Find the condition for the equation \\(\\dfrac{7}{x(x+5)}=\\dfrac{1}{x}\\) to be defined.",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"condition for the equation to be defined (restriction)\">điều kiện xác định</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(\\dfrac{7}{x(x+5)}=\\dfrac{1}{x}\\).",
+   "options": [
+    "\\(x\\ne -5\\)",
+    "\\(x\\ne0,\\ x\\ne -5\\)",
+    "\\(x\\ne0\\)",
+    "\\(x\\ne0,\\ x\\ne 5\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(x(x+5)\\ne0\\) means \\(x\\ne0\\) and \\(x\\ne-5\\).",
+   "explain_vi": "Đáp án b. \\(x(x+5)\\ne0\\) khi \\(x\\ne0\\) và \\(x\\ne-5\\).",
+   "images": [],
+   "id": "17be057e5051",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Find the solution set of \\((#x-#)(#x+#)=#\\).",
+   "en": "Find the solution set of \\((2x-8)(2x+5)=0\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution set\">tập nghiệm</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\((2x-8)(2x+5)=0\\).",
+   "options": [
+    "\\(S=\\{\\dfrac{5}{2};\\ 4\\}\\)",
+    "\\(S=\\{-4;\\ -\\dfrac{5}{2}\\}\\)",
+    "\\(S=\\{-4;\\ \\dfrac{5}{2}\\}\\)",
+    "\\(S=\\{-\\dfrac{5}{2};\\ 4\\}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(2x-8=0\\) or \\(2x+5=0\\), so \\(x=4\\) or \\(x=-\\dfrac{5}{2}\\).",
+   "explain_vi": "Đáp án d. \\(2x-8=0\\) hoặc \\(2x+5=0\\), suy ra \\(x=4\\) hoặc \\(x=-\\dfrac{5}{2}\\).",
+   "images": [],
+   "id": "6824187c797a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Solve the equation \\((x-#)(x-#)+#(x-#)=#\\).",
+   "en": "Solve the equation \\((x-4)(x-5)+2(x-4)=0\\).",
+   "vi": "Giải <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\((x-4)(x-5)+2(x-4)=0\\).",
+   "options": [
+    "\\(S=\\{3;\\ 4\\}\\)",
+    "\\(S=\\{-4;\\ 3\\}\\)",
+    "\\(S=\\{4;\\ 5\\}\\)",
+    "\\(S=\\{4;\\ 7\\}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Common factor \\(x-4\\): \\((x-4)(x-3)=0\\), so \\(x=4\\) or \\(x=3\\).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"common factor\">Nhân tử chung</b> \\(x-4\\): \\((x-4)(x-3)=0\\), suy ra \\(x=4\\) hoặc \\(x=3\\).",
+   "images": [],
+   "id": "4831b88eb87e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Solve the equation \\(\\dfrac{#}{x-#}+#=\\dfrac{x-#}{#-x}\\).",
+   "en": "Solve the equation \\(\\dfrac{1}{x-7}+5=\\dfrac{x-8}{7-x}\\).",
+   "vi": "Giải <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(\\dfrac{1}{x-7}+5=\\dfrac{x-8}{7-x}\\).",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">no solution</span><span class=\"vi\">vô nghiệm</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(x=8\\)</span><span class=\"vi\">\\(x=8\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(x=-7\\)</span><span class=\"vi\">\\(x=-7\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(x=7\\)</span><span class=\"vi\">\\(x=7\\)</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Condition \\(x\\ne7\\). Clearing denominators gives \\(6x=42\\), so \\(x=7\\) – but this value is excluded. The equation has no solution.",
+   "explain_vi": "Đáp án a. Điều kiện \\(x\\ne7\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"clear the denominators\">Khử mẫu</b> được \\(6x=42\\), suy ra \\(x=7\\) – giá trị này không thỏa mãn điều kiện. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">Phương trình</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"no solution\">vô nghiệm</b>.",
+   "images": [],
+   "id": "c7bdc76d24db",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Solve the equation \\(\\dfrac{#}{x-#}=\\dfrac{#}{x-#}\\).",
+   "en": "Solve the equation \\(\\dfrac{1}{x-5}=\\dfrac{3}{x-3}\\).",
+   "vi": "Giải <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(\\dfrac{1}{x-5}=\\dfrac{3}{x-3}\\).",
+   "options": [
+    "\\(x=-6\\)",
+    "\\(x=5\\)",
+    "\\(x=3\\)",
+    "\\(x=6\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Condition \\(x\\ne5,\\ x\\ne3\\). Cross-multiply: \\(1(x-3)=3(x-5)\\Rightarrow x=6\\).",
+   "explain_vi": "Đáp án d. Điều kiện \\(x\\ne5,\\ x\\ne3\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"clear the denominators\">Khử mẫu</b>: \\(1(x-3)=3(x-5)\\Rightarrow x=6\\).",
+   "images": [],
+   "id": "fb9fdcf083ab",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Solve the equation \\(x^#-#+(x-#)(#x)=#\\).",
+   "en": "Solve the equation \\(x^2-36+(x-6)(2x)=0\\).",
+   "vi": "Giải <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(x^2-36+(x-6)(2x)=0\\).",
+   "options": [
+    "\\(S=\\{6\\}\\)",
+    "\\(S=\\{-6;\\ -2\\}\\)",
+    "\\(S=\\{2;\\ 6\\}\\)",
+    "\\(S=\\{-2;\\ 6\\}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\((x-6)(x+6)+(x-6)(2x)=(x-6)(3x+6)=0\\).",
+   "explain_vi": "Đáp án d. \\((x-6)(x+6)+(x-6)(2x)=(x-6)(3x+6)=0\\).",
+   "images": [],
+   "id": "c03338308ffb",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A boat goes # km downstream and # km upstream; the two trips take the same time. The current flows at # km/h. Find the speed of the boat in still water.",
+   "en": "A boat goes 110 km downstream and 70 km upstream; the two trips take the same time. The current flows at 4 km/h. Find the speed of the boat in still water.",
+   "vi": "Một ca nô <b class=\"mbl-term\" tabindex=\"0\" data-en=\"downstream\">xuôi dòng</b> 110 km và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"upstream\">ngược dòng</b> 70 km, thời gian hai lần đi bằng nhau. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"speed\">Vận tốc</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"current (of a river)\">dòng nước</b> là 4 km/h. Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"speed\">vận tốc</b> của ca nô khi nước yên lặng.",
+   "options": [
+    "\\(26\\text{ km/h}\\)",
+    "\\(18\\text{ km/h}\\)",
+    "\\(14\\text{ km/h}\\)",
+    "\\(22\\text{ km/h}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\dfrac{110}{x+4}=\\dfrac{70}{x-4}\\) (\\(x\\gt 4\\)) \\(\\Rightarrow 110(x-4)=70(x+4)\\Rightarrow x=18\\).",
+   "explain_vi": "Đáp án b. \\(\\dfrac{110}{x+4}=\\dfrac{70}{x-4}\\) (\\(x\\gt 4\\)) \\(\\Rightarrow 110(x-4)=70(x+4)\\Rightarrow x=18\\).",
+   "images": [],
+   "id": "ee456b53fe6a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D4",
+   "type": "mcq",
+   "form": "Solve the equation \\(\\dfrac{x-#}{x-#}=\\dfrac{x+#}{x-#}\\).",
+   "en": "Solve the equation \\(\\dfrac{x-1}{x-4}=\\dfrac{x+5}{x-1}\\).",
+   "vi": "Giải <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(\\dfrac{x-1}{x-4}=\\dfrac{x+5}{x-1}\\).",
+   "options": [
+    "\\(x=1\\)",
+    "\\(x=-7\\)",
+    "\\(x=7\\)",
+    "\\(x=4\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Condition \\(x\\ne4,\\ x\\ne1\\). Cross-multiply: \\((x-1)(x-1)=(x+5)(x-4)\\Rightarrow -3x=-21\\Rightarrow x=7\\).",
+   "explain_vi": "Đáp án c. Điều kiện \\(x\\ne4,\\ x\\ne1\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"clear the denominators\">Khử mẫu</b>: \\((x-1)(x-1)=(x+5)(x-4)\\Rightarrow -3x=-21\\Rightarrow x=7\\).",
+   "images": [],
+   "id": "30a26e29601d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D4",
+   "type": "mcq",
+   "form": "Truck A carries # tonnes of goods and truck B carries # tonnes, with the same number of trips. On each trip, truck A carries # tonnes more than truck B. How many tonnes does truck B carry on each trip?",
+   "en": "Truck A carries 380 tonnes of goods and truck B carries 228 tonnes, with the same number of trips. On each trip, truck A carries 4 tonnes more than truck B. How many tonnes does truck B carry on each trip?",
+   "vi": "Xe A chở 380 tấn hàng, xe B chở 228 tấn hàng, số chuyến của hai xe bằng nhau. Mỗi chuyến xe A chở nhiều hơn xe B 4 tấn. Mỗi chuyến xe B chở bao nhiêu tấn?",
+   "options": [
+    "\\(6\\)",
+    "\\(10\\)",
+    "\\(38\\)",
+    "\\(152\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\dfrac{380}{x+4}=\\dfrac{228}{x}\\Rightarrow 380x=228(x+4)\\Rightarrow x=6\\).",
+   "explain_vi": "Đáp án a. \\(\\dfrac{380}{x+4}=\\dfrac{228}{x}\\Rightarrow 380x=228(x+4)\\Rightarrow x=6\\).",
+   "images": [],
+   "id": "82ed68bc5df1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  }
+ ]
+}

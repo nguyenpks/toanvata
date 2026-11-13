@@ -1,0 +1,1563 @@
+{
+ "lesson": "g12-int-01",
+ "grade": 12,
+ "no": 11,
+ "title": "Nguyên hàm",
+ "path": "lessons/grade12/integrals/antiderivatives.html",
+ "items": [
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(F\\) is an antiderivative of \\(f(x)=#x+#\\) with \\(F(#)=#\\). Then \\(F(#)=\\)…",
+   "en": "\\(F\\) is an antiderivative of \\(f(x)=2x+1\\) with \\(F(0)=3\\). Then \\(F(2)=\\)…",
+   "vi": "\\(F\\) là một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"antiderivative\">nguyên hàm</b> của \\(f(x)=2x+1\\) và \\(F(0)=3\\). Khi đó \\(F(2)=\\)…",
+   "options": [
+    "\\(6\\)",
+    "\\(8\\)",
+    "\\(9\\)",
+    "\\(11\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(F(x)=x^{2}+x+C\\), \\(C=3\\), \\(F(2)=9\\).",
+   "explain_vi": "Đáp án c. \\(F(x)=x^{2}+x+C\\), \\(C=3\\), \\(F(2)=9\\).",
+   "images": [],
+   "id": "96820e2707c9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(\\displaystyle\\int(#\\cos x-\\sin x)\\,dx=\\)…",
+   "en": "\\(\\displaystyle\\int(3\\cos x-\\sin x)\\,dx=\\)…",
+   "vi": "\\(\\displaystyle\\int(3\\cos x-\\sin x)\\,dx=\\)…",
+   "options": [
+    "\\(3\\sin x-\\cos x+C\\)",
+    "\\(-3\\sin x+\\cos x+C\\)",
+    "\\(3\\sin x+\\cos x+C\\)",
+    "\\(-3\\sin x-\\cos x+C\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\int\\cos x\\,dx=\\sin x+C\\), \\(\\int\\sin x\\,dx=-\\cos x+C\\).",
+   "explain_vi": "Đáp án c. \\(\\int\\cos x\\,dx=\\sin x+C\\), \\(\\int\\sin x\\,dx=-\\cos x+C\\).",
+   "images": [],
+   "id": "fcc4a1379525",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(\\displaystyle\\int(#x^{#}-#x+#)\\,dx=\\)…",
+   "en": "\\(\\displaystyle\\int(6x^{2}-2x+3)\\,dx=\\)…",
+   "vi": "\\(\\displaystyle\\int(6x^{2}-2x+3)\\,dx=\\)…",
+   "options": [
+    "\\(2x^{3}-x^{2}+3x+C\\)",
+    "\\(12x-2+C\\)",
+    "\\(6x^{3}-2x^{2}+3x+C\\)",
+    "\\(2x^{3}-x^{2}+3x\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Term by term: \\(2x^{3}-x^{2}+3x+C\\). Check by differentiating.",
+   "explain_vi": "Đáp án a. Lấy <b class=\"mbl-term\" tabindex=\"0\" data-en=\"antiderivative\">nguyên hàm</b> từng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b>: \\(2x^{3}-x^{2}+3x+C\\). Thử lại bằng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"derivative\">đạo hàm</b>.",
+   "images": [],
+   "id": "6b73bb51ca18",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(F(x)=x^{#}-x^{#}+#\\) is an antiderivative of \\(f(x)=#x^{#}-#x\\).",
+   "en": "\\(F(x)=x^{3}-x^{2}+7\\) is an antiderivative of \\(f(x)=3x^{2}-2x\\).",
+   "vi": "\\(F(x)=x^{3}-x^{2}+7\\) là một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"antiderivative\">nguyên hàm</b> của \\(f(x)=3x^{2}-2x\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "\\(F'(x)=3x^{2}-2x\\).",
+   "explain_vi": "\\(F'(x)=3x^{2}-2x\\).",
+   "images": [],
+   "id": "f01e6b8e734c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(\\displaystyle\\int\\dfrac#x\\,dx=\\ln|x|+C\\) on \\((-\\infty;#)\\).",
+   "en": "\\(\\displaystyle\\int\\dfrac1x\\,dx=\\ln|x|+C\\) on \\((-\\infty;0)\\).",
+   "vi": "\\(\\displaystyle\\int\\dfrac1x\\,dx=\\ln|x|+C\\) trên \\((-\\infty;0)\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "Check by differentiating: \\((\\ln|x|)'=\\dfrac1x\\) for \\(x\\ne0\\); \\(\\left(\\dfrac{3^x}{\\ln3}\\right)'=3^x\\); there is no product rule for antiderivatives.",
+   "explain_vi": "Kiểm tra bằng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"derivative\">đạo hàm</b>: \\((\\ln|x|)'=\\dfrac1x\\) với \\(x\\ne0\\); \\(\\left(\\dfrac{3^x}{\\ln3}\\right)'=3^x\\); không có quy tắc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"antiderivative\">nguyên hàm</b> của tích như vậy.",
+   "images": [],
+   "id": "0b90ea3f2717",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "A motorbike has velocity \\(v(t)=#+#t\\) (m/s) and \\(s(#)=#\\). How many metres does it travel in the first \\(#\\) seconds?",
+   "en": "A motorbike has velocity \\(v(t)=5+2t\\) (m/s) and \\(s(0)=0\\). How many metres does it travel in the first \\(10\\) seconds?",
+   "vi": "Một xe máy có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"velocity\">vận tốc</b> \\(v(t)=5+2t\\) (m/s) và \\(s(0)=0\\). Trong \\(10\\) giây đầu xe đi được bao nhiêu mét?",
+   "options": [],
+   "answer": "150",
+   "explain_en": "\\(s(t)=5t+1t^2\\); \\(s(10)=150\\).",
+   "explain_vi": "\\(s(t)=5t+1t^2\\); \\(s(10)=150\\).",
+   "images": [],
+   "id": "d4a8c2b10595",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "\\(F\\) is an antiderivative of \\(f(x)=#x^{#}-#\\) with \\(F(#)=#\\). Find \\(F(#)\\).",
+   "en": "\\(F\\) is an antiderivative of \\(f(x)=3x^{2}-2\\) with \\(F(1)=4\\). Find \\(F(2)\\).",
+   "vi": "Cho \\(F\\) là một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"antiderivative\">nguyên hàm</b> của \\(f(x)=3x^{2}-2\\) thỏa mãn \\(F(1)=4\\). Tính \\(F(2)\\).",
+   "options": [],
+   "answer": "9",
+   "explain_en": "\\(F(x)=x^{3}-2x+C\\), \\(C=5\\), \\(F(2)=9\\).",
+   "explain_vi": "\\(F(x)=x^{3}-2x+C\\), \\(C=5\\), \\(F(2)=9\\).",
+   "images": [],
+   "id": "7fa4ea75d31d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "On \\((#;+\\infty)\\), \\(\\displaystyle\\int (x+#)(x+#)\\,dx=\\)…",
+   "en": "On \\((0;+\\infty)\\), \\(\\displaystyle\\int (x+4)(x+1)\\,dx=\\)…",
+   "vi": "Trên \\((0;+\\infty)\\), \\(\\displaystyle\\int (x+4)(x+1)\\,dx=\\)…",
+   "options": [
+    "\\(\\dfrac{x^3}{3}+\\dfrac{5}{2}x^2+4x+C\\)",
+    "\\(\\dfrac{(x+4)^2}{2}\\cdot\\dfrac{(x+1)^2}{2}+C\\)",
+    "\\(x^3+5x^2+4x+C\\)",
+    "\\(\\dfrac{x^3}{3}+4x+C\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. First simplify: \\((x+4)(x+1)=x^2+5x+4\\); then integrate term by term: \\(\\dfrac{x^3}{3}+\\dfrac{5}{2}x^2+4x+C\\).",
+   "explain_vi": "Đáp án a. Biến đổi trước: \\((x+4)(x+1)=x^2+5x+4\\); rồi lấy <b class=\"mbl-term\" tabindex=\"0\" data-en=\"antiderivative\">nguyên hàm</b> từng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b>: \\(\\dfrac{x^3}{3}+\\dfrac{5}{2}x^2+4x+C\\).",
+   "images": [],
+   "id": "c97b5c8674b1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "On \\((#;+\\infty)\\), \\(\\displaystyle\\int \\dfrac{#}{\\sqrt x}\\,dx=\\)…",
+   "en": "On \\((0;+\\infty)\\), \\(\\displaystyle\\int \\dfrac{6}{\\sqrt x}\\,dx=\\)…",
+   "vi": "Trên \\((0;+\\infty)\\), \\(\\displaystyle\\int \\dfrac{6}{\\sqrt x}\\,dx=\\)…",
+   "options": [
+    "\\(-3\\dfrac{1}{x\\sqrt x}+C\\)",
+    "\\(3\\sqrt x+C\\)",
+    "\\(6\\sqrt x+C\\)",
+    "\\(12\\sqrt x+C\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Write the integrand as a power \\(x^{\\alpha}\\) and use \\(\\displaystyle\\int x^{\\alpha}dx=\\dfrac{x^{\\alpha+1}}{\\alpha+1}+C\\): the result is \\(12\\sqrt x+C\\).",
+   "explain_vi": "Đáp án d. Viết hàm dưới dấu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"antiderivative\">nguyên hàm</b> dạng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"power\">lũy thừa</b> \\(x^{\\alpha}\\) rồi dùng \\(\\displaystyle\\int x^{\\alpha}dx=\\dfrac{x^{\\alpha+1}}{\\alpha+1}+C\\): kết quả \\(12\\sqrt x+C\\).",
+   "images": [],
+   "id": "9307e2ea9931",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The figure shows the graph of the linear function \\(y=f(x)\\). Which function is an antiderivative of \\(f\\)?",
+   "en": "The figure shows the graph of the linear function \\(y=f(x)\\). Which function is an antiderivative of \\(f\\)?<img src=\"../../../img/tex/3a13926bbe3bcf8e.svg\" alt=\"Graph of f\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Hình vẽ là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">đồ thị hàm số</b> bậc nhất \\(y=f(x)\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">Hàm số</b> nào là một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"antiderivative\">nguyên hàm</b> của \\(f\\)?<img src=\"../../../img/tex/3a13926bbe3bcf8e.svg\" alt=\"Đồ thị của f\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "\\(F(x)=\\dfrac{3}{2}x^2-x\\)",
+    "\\(F(x)=\\dfrac{3}{2}x^2+x\\)",
+    "\\(F(x)=-\\dfrac{1}{2}x^2+3x\\)",
+    "\\(F(x)=3x^2-x\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. The line passes through \\((0;-1)\\) and \\((1;2)\\), so \\(f(x)=3x-1\\) and \\(F(x)=\\dfrac{3}{2}x^2-x+C\\).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">Đường thẳng</b> đi qua \\((0;-1)\\) và \\((1;2)\\), nên \\(f(x)=3x-1\\) và \\(F(x)=\\dfrac{3}{2}x^2-x+C\\).",
+   "images": [
+    "img/tex/3a13926bbe3bcf8e.svg"
+   ],
+   "id": "800a3feecc5e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The height of a young tree grows at the rate \\(h'(t)=\\dfrac{#}{\\sqrt t}\\) (cm per year), \\(t\\ge#\\) in years. At \\(t=#\\) the tree is \\(#\\) cm tall. How tall is it at \\(t=#\\) (cm)?",
+   "en": "The height of a young tree grows at the rate \\(h'(t)=\\dfrac{3}{\\sqrt t}\\) (cm per year), \\(t\\ge1\\) in years. At \\(t=1\\) the tree is \\(20\\) cm tall. How tall is it at \\(t=16\\) (cm)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"height\">Chiều cao</b> của một cây non tăng với tốc độ \\(h'(t)=\\dfrac{3}{\\sqrt t}\\) (cm/năm), \\(t\\ge1\\) tính bằng năm. Khi \\(t=1\\) cây cao \\(20\\) cm. Khi \\(t=16\\) cây cao bao nhiêu cm?",
+   "options": [
+    "\\(38\\)",
+    "\\(29\\)",
+    "<span class=\"txi\"><span class=\"en\">\\(20.75\\)</span><span class=\"vi\">\\(20{,}75\\)</span></span>",
+    "\\(44\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(h(t)=6\\sqrt t+C\\), \\(h(1)=20\\Rightarrow C=14\\); \\(h(16)=6\\cdot4+14=38\\).",
+   "explain_vi": "Đáp án a. \\(h(t)=6\\sqrt t+C\\), \\(h(1)=20\\Rightarrow C=14\\); \\(h(16)=6\\cdot4+14=38\\).",
+   "images": [],
+   "id": "c86aeb939743",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Which statement is true (\\(f\\), \\(g\\) continuous)?",
+   "en": "Which statement is true (\\(f\\), \\(g\\) continuous)?",
+   "vi": "Khẳng định nào đúng (\\(f\\), \\(g\\) liên tục)?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(\\displaystyle\\int\\dfrac{f(x)}{g(x)}\\,dx=\\dfrac{\\int f(x)\\,dx}{\\int g(x)\\,dx}\\)</span><span class=\"vi\">\\(\\displaystyle\\int\\dfrac{f(x)}{g(x)}\\,dx=\\dfrac{\\int f(x)\\,dx}{\\int g(x)\\,dx}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(\\displaystyle\\int f(x)g(x)\\,dx=\\int f(x)\\,dx\\cdot\\int g(x)\\,dx\\)</span><span class=\"vi\">\\(\\displaystyle\\int f(x)g(x)\\,dx=\\int f(x)\\,dx\\cdot\\int g(x)\\,dx\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(\\displaystyle\\int kf(x)\\,dx=k\\int f(x)\\,dx\\) for every constant \\(k\\ne0\\)</span><span class=\"vi\">\\(\\displaystyle\\int kf(x)\\,dx=k\\int f(x)\\,dx\\) với mọi hằng số \\(k\\ne0\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(\\displaystyle\\int e^{2x}\\,dx=e^{2x}+C\\)</span><span class=\"vi\">\\(\\displaystyle\\int e^{2x}\\,dx=e^{2x}+C\\)</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Only sums and constant multiples can be split; products and quotients cannot; \\(\\displaystyle\\int\\sin x\\,dx=-\\cos x+C\\), \\(\\displaystyle\\int e^{2x}dx=\\dfrac{e^{2x}}{2}+C\\), \\(\\displaystyle\\int\\cos 2x\\,dx=\\dfrac{\\sin 2x}{2}+C\\); the power rule needs \\(\\alpha\\ne-1\\).",
+   "explain_vi": "Đáp án c. Chỉ tách được tổng và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"constant\">hằng số</b> nhân; không tách được tích, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"quotient\">thương</b>; \\(\\displaystyle\\int\\sin x\\,dx=-\\cos x+C\\), \\(\\displaystyle\\int e^{2x}dx=\\dfrac{e^{2x}}{2}+C\\), \\(\\displaystyle\\int\\cos 2x\\,dx=\\dfrac{\\sin 2x}{2}+C\\); công thức <b class=\"mbl-term\" tabindex=\"0\" data-en=\"power\">lũy thừa</b> cần \\(\\alpha\\ne-1\\).",
+   "images": [],
+   "id": "671f6ffb1a43",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\displaystyle\\int #^x\\cdot#^x\\,dx=\\)…",
+   "en": "\\(\\displaystyle\\int 2^x\\cdot5^x\\,dx=\\)…",
+   "vi": "\\(\\displaystyle\\int 2^x\\cdot5^x\\,dx=\\)…",
+   "options": [
+    "\\(\\dfrac{10^{x+1}}{x+1}+C\\)",
+    "\\(\\dfrac{2^x\\cdot5^x}{\\ln 2\\cdot\\ln 5}+C\\)",
+    "\\(10^x\\ln 10+C\\)",
+    "\\(\\dfrac{10^x}{\\ln 10}+C\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\displaystyle\\int a^x\\,dx=\\dfrac{a^x}{\\ln a}+C\\) (\\(0\\lt a\\ne1\\)); here the result is \\(\\dfrac{10^x}{\\ln 10}+C\\).",
+   "explain_vi": "Đáp án d. \\(\\displaystyle\\int a^x\\,dx=\\dfrac{a^x}{\\ln a}+C\\) (\\(0\\lt a\\ne1\\)); ở đây kết quả là \\(\\dfrac{10^x}{\\ln 10}+C\\).",
+   "images": [],
+   "id": "33f1c0d2161d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\displaystyle\\int\\left(\\tan^#x\\right)dx=\\)…",
+   "en": "\\(\\displaystyle\\int\\left(\\tan^2x\\right)dx=\\)…",
+   "vi": "\\(\\displaystyle\\int\\left(\\tan^2x\\right)dx=\\)…",
+   "options": [
+    "\\(\\tan x-x+C\\)",
+    "\\(\\tan x+x+C\\)",
+    "\\(\\dfrac{\\tan^3x}{3}+C\\)",
+    "\\(\\tan x+C\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Use \\(1+\\tan^2x=\\dfrac{1}{\\cos^2x}\\), \\(1+\\cot^2x=\\dfrac{1}{\\sin^2x}\\) and \\(\\displaystyle\\int\\dfrac{dx}{\\cos^2x}=\\tan x+C\\), \\(\\displaystyle\\int\\dfrac{dx}{\\sin^2x}=-\\cot x+C\\): the result is \\(\\tan x-x+C\\).",
+   "explain_vi": "Đáp án a. Dùng \\(1+\\tan^2x=\\dfrac{1}{\\cos^2x}\\), \\(1+\\cot^2x=\\dfrac{1}{\\sin^2x}\\) và \\(\\displaystyle\\int\\dfrac{dx}{\\cos^2x}=\\tan x+C\\), \\(\\displaystyle\\int\\dfrac{dx}{\\sin^2x}=-\\cot x+C\\): kết quả \\(\\tan x-x+C\\).",
+   "images": [],
+   "id": "a0ae7edd1c95",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(f''(x)=#x\\), \\(f'(#)=#\\) and \\(f(#)=#\\). Then \\(f(#)=\\)…",
+   "en": "\\(f''(x)=6x\\), \\(f'(0)=0\\) and \\(f(0)=2\\). Then \\(f(1)=\\)…",
+   "vi": "Cho \\(f''(x)=6x\\), \\(f'(0)=0\\) và \\(f(0)=2\\). Khi đó \\(f(1)=\\)…",
+   "options": [
+    "\\(3\\)",
+    "\\(5\\)",
+    "\\(4\\)",
+    "\\(1\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(f'(x)=3x^2+0\\), \\(f(x)=\\dfrac{6}{6}x^3+0 x+2\\), so \\(f(1)=3\\).",
+   "explain_vi": "Đáp án a. \\(f'(x)=3x^2+0\\), \\(f(x)=\\dfrac{6}{6}x^3+0 x+2\\), nên \\(f(1)=3\\).",
+   "images": [],
+   "id": "7ee63e6a9471",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "On \\((#;+\\infty)\\): \\(\\displaystyle\\int\\left(e^x+\\dfrac#x\\right)dx=\\)…",
+   "en": "On \\((0;+\\infty)\\): \\(\\displaystyle\\int\\left(e^x+\\dfrac2x\\right)dx=\\)…",
+   "vi": "On \\((0;+\\infty)\\): \\(\\displaystyle\\int\\left(e^x+\\dfrac2x\\right)dx=\\)…",
+   "options": [
+    "\\(e^x-\\dfrac{2}{x^2}+C\\)",
+    "\\(xe^{x-1}+2\\ln x+C\\)",
+    "\\(e^x+2\\ln x+C\\)",
+    "\\(e^x+\\dfrac{2}{\\ln x}+C\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\int e^xdx=e^x+C\\), \\(\\int\\dfrac1xdx=\\ln|x|+C\\).",
+   "explain_vi": "Đáp án c. \\(\\int e^xdx=e^x+C\\), \\(\\int\\dfrac1xdx=\\ln|x|+C\\).",
+   "images": [],
+   "id": "73306f891c23",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(F\\) is an antiderivative of \\(f(x)=-#x+#\\) with \\(F(#)=#\\). Then \\(F(#)=\\)…",
+   "en": "\\(F\\) is an antiderivative of \\(f(x)=-4x+3\\) with \\(F(1)=2\\). Then \\(F(3)=\\)…",
+   "vi": "\\(F\\) là một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"antiderivative\">nguyên hàm</b> của \\(f(x)=-4x+3\\) và \\(F(1)=2\\). Khi đó \\(F(3)=\\)…",
+   "options": [
+    "\\(-9\\)",
+    "\\(-7\\)",
+    "\\(-6\\)",
+    "\\(-8\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(F(x)=-2x^{2}+3x+C\\), \\(C=1\\), \\(F(3)=-8\\).",
+   "explain_vi": "Đáp án d. \\(F(x)=-2x^{2}+3x+C\\), \\(C=1\\), \\(F(3)=-8\\).",
+   "images": [],
+   "id": "8784e6db3670",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(\\displaystyle\\int(#x^{#}+#x-#)\\,dx=\\)…",
+   "en": "\\(\\displaystyle\\int(4x^{3}+6x-1)\\,dx=\\)…",
+   "vi": "\\(\\displaystyle\\int(4x^{3}+6x-1)\\,dx=\\)…",
+   "options": [
+    "\\(12x^{2}+6+C\\)",
+    "\\(4x^{4}+6x^{2}-x+C\\)",
+    "\\(x^{4}+3x^{2}-x\\)",
+    "\\(x^{4}+3x^{2}-x+C\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Term by term: \\(x^{4}+3x^{2}-x+C\\). Check by differentiating.",
+   "explain_vi": "Đáp án d. Lấy <b class=\"mbl-term\" tabindex=\"0\" data-en=\"antiderivative\">nguyên hàm</b> từng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b>: \\(x^{4}+3x^{2}-x+C\\). Thử lại bằng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"derivative\">đạo hàm</b>.",
+   "images": [],
+   "id": "b5113bb6befe",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(F(x)=x^{#}+#x\\) is an antiderivative of \\(f(x)=#x^{#}+#x\\).",
+   "en": "\\(F(x)=x^{4}+2x\\) is an antiderivative of \\(f(x)=4x^{3}+2x\\).",
+   "vi": "\\(F(x)=x^{4}+2x\\) là một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"antiderivative\">nguyên hàm</b> của \\(f(x)=4x^{3}+2x\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "\\(F'(x)=4x^{3}+2\\).",
+   "explain_vi": "\\(F'(x)=4x^{3}+2\\).",
+   "images": [],
+   "id": "54174df8f76c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(\\displaystyle\\int f(x)g(x)\\,dx=\\int f(x)\\,dx\\cdot\\int g(x)\\,dx\\) for all continuous \\(f\\), \\(g\\).",
+   "en": "\\(\\displaystyle\\int f(x)g(x)\\,dx=\\int f(x)\\,dx\\cdot\\int g(x)\\,dx\\) for all continuous \\(f\\), \\(g\\).",
+   "vi": "\\(\\displaystyle\\int f(x)g(x)\\,dx=\\int f(x)\\,dx\\cdot\\int g(x)\\,dx\\) với mọi hàm liên tục \\(f\\), \\(g\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "Check by differentiating: \\((\\ln|x|)'=\\dfrac1x\\) for \\(x\\ne0\\); \\(\\left(\\dfrac{3^x}{\\ln3}\\right)'=3^x\\); there is no product rule for antiderivatives.",
+   "explain_vi": "Kiểm tra bằng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"derivative\">đạo hàm</b>: \\((\\ln|x|)'=\\dfrac1x\\) với \\(x\\ne0\\); \\(\\left(\\dfrac{3^x}{\\ln3}\\right)'=3^x\\); không có quy tắc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"antiderivative\">nguyên hàm</b> của tích như vậy.",
+   "images": [],
+   "id": "63b8ef0e094a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "A motorbike has velocity \\(v(t)=#+#t\\) (m/s) and \\(s(#)=#\\). How many metres does it travel in the first \\(#\\) seconds?",
+   "en": "A motorbike has velocity \\(v(t)=10+3t\\) (m/s) and \\(s(0)=0\\). How many metres does it travel in the first \\(8\\) seconds?",
+   "vi": "Một xe máy có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"velocity\">vận tốc</b> \\(v(t)=10+3t\\) (m/s) và \\(s(0)=0\\). Trong \\(8\\) giây đầu xe đi được bao nhiêu mét?",
+   "options": [],
+   "answer": "176",
+   "explain_en": "\\(s(t)=10t+1.5t^2\\); \\(s(8)=176\\).",
+   "explain_vi": "\\(s(t)=10t+1{,}5t^2\\); \\(s(8)=176\\).",
+   "images": [],
+   "id": "96da1a22f20c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "\\(F\\) is an antiderivative of \\(f(x)=#x+#\\) with \\(F(#)=-#\\). Find \\(F(#)\\).",
+   "en": "\\(F\\) is an antiderivative of \\(f(x)=6x+1\\) with \\(F(0)=-3\\). Find \\(F(3)\\).",
+   "vi": "Cho \\(F\\) là một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"antiderivative\">nguyên hàm</b> của \\(f(x)=6x+1\\) thỏa mãn \\(F(0)=-3\\). Tính \\(F(3)\\).",
+   "options": [],
+   "answer": "27",
+   "explain_en": "\\(F(x)=3x^{2}+x+C\\), \\(C=-3\\), \\(F(3)=27\\).",
+   "explain_vi": "\\(F(x)=3x^{2}+x+C\\), \\(C=-3\\), \\(F(3)=27\\).",
+   "images": [],
+   "id": "b45a51cd9ad0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "For continuous functions \\(f\\), \\(g\\), which property of antiderivatives is correct?",
+   "en": "For continuous functions \\(f\\), \\(g\\), which property of antiderivatives is correct?",
+   "vi": "Với \\(f\\), \\(g\\) liên tục, tính chất nào của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"antiderivative\">nguyên hàm</b> là đúng?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(\\displaystyle\\int\\dfrac{f(x)}{g(x)}\\,dx=\\dfrac{\\int f(x)\\,dx}{\\int g(x)\\,dx}\\)</span><span class=\"vi\">\\(\\displaystyle\\int\\dfrac{f(x)}{g(x)}\\,dx=\\dfrac{\\int f(x)\\,dx}{\\int g(x)\\,dx}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(\\displaystyle\\int f(x)g(x)\\,dx=\\int f(x)\\,dx\\cdot\\int g(x)\\,dx\\)</span><span class=\"vi\">\\(\\displaystyle\\int f(x)g(x)\\,dx=\\int f(x)\\,dx\\cdot\\int g(x)\\,dx\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(\\displaystyle\\int kf(x)\\,dx=k\\int f(x)\\,dx\\) for every constant \\(k\\ne0\\)</span><span class=\"vi\">\\(\\displaystyle\\int kf(x)\\,dx=k\\int f(x)\\,dx\\) với mọi hằng số \\(k\\ne0\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(\\displaystyle\\int x^{\\alpha}dx=\\dfrac{x^{\\alpha+1}}{\\alpha+1}+C\\) for every real \\(\\alpha\\)</span><span class=\"vi\">\\(\\displaystyle\\int x^{\\alpha}dx=\\dfrac{x^{\\alpha+1}}{\\alpha+1}+C\\) với mọi số thực \\(\\alpha\\)</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Only sums and constant multiples can be split; products and quotients cannot; \\(\\displaystyle\\int\\sin x\\,dx=-\\cos x+C\\), \\(\\displaystyle\\int e^{2x}dx=\\dfrac{e^{2x}}{2}+C\\), \\(\\displaystyle\\int\\cos 2x\\,dx=\\dfrac{\\sin 2x}{2}+C\\); the power rule needs \\(\\alpha\\ne-1\\).",
+   "explain_vi": "Đáp án c. Chỉ tách được tổng và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"constant\">hằng số</b> nhân; không tách được tích, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"quotient\">thương</b>; \\(\\displaystyle\\int\\sin x\\,dx=-\\cos x+C\\), \\(\\displaystyle\\int e^{2x}dx=\\dfrac{e^{2x}}{2}+C\\), \\(\\displaystyle\\int\\cos 2x\\,dx=\\dfrac{\\sin 2x}{2}+C\\); công thức <b class=\"mbl-term\" tabindex=\"0\" data-en=\"power\">lũy thừa</b> cần \\(\\alpha\\ne-1\\).",
+   "images": [],
+   "id": "8522cc899baa",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "On \\((#;+\\infty)\\), \\(\\displaystyle\\int \\dfrac{#x^#-#}{x}\\,dx=\\)…",
+   "en": "On \\((0;+\\infty)\\), \\(\\displaystyle\\int \\dfrac{2x^2-1}{x}\\,dx=\\)…",
+   "vi": "Trên \\((0;+\\infty)\\), \\(\\displaystyle\\int \\dfrac{2x^2-1}{x}\\,dx=\\)…",
+   "options": [
+    "\\(x^2-\\ln x+C\\)",
+    "\\(x^2+\\ln x+C\\)",
+    "\\(x^2-\\dfrac{1}{x^2}+C\\)",
+    "\\(2x^2-\\ln x+C\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. First simplify: \\(\\dfrac{2x^2-1}{x}=2x-\\dfrac{1}{x}\\); then integrate term by term: \\(x^2-\\ln x+C\\).",
+   "explain_vi": "Đáp án a. Biến đổi trước: \\(\\dfrac{2x^2-1}{x}=2x-\\dfrac{1}{x}\\); rồi lấy <b class=\"mbl-term\" tabindex=\"0\" data-en=\"antiderivative\">nguyên hàm</b> từng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b>: \\(x^2-\\ln x+C\\).",
+   "images": [],
+   "id": "ea359d46bca4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "On \\((#;+\\infty)\\), \\(\\displaystyle\\int \\sqrt x\\,dx=\\)…",
+   "en": "On \\((0;+\\infty)\\), \\(\\displaystyle\\int \\sqrt x\\,dx=\\)…",
+   "vi": "Trên \\((0;+\\infty)\\), \\(\\displaystyle\\int \\sqrt x\\,dx=\\)…",
+   "options": [
+    "\\(\\dfrac{3}{2}x\\sqrt x+C\\)",
+    "\\(\\dfrac{2}{3}x\\sqrt x+C\\)",
+    "\\(\\dfrac{1}{2}\\dfrac{1}{\\sqrt x}+C\\)",
+    "\\(x\\sqrt x+C\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Write the integrand as a power \\(x^{\\alpha}\\) and use \\(\\displaystyle\\int x^{\\alpha}dx=\\dfrac{x^{\\alpha+1}}{\\alpha+1}+C\\): the result is \\(\\dfrac{2}{3}x\\sqrt x+C\\).",
+   "explain_vi": "Đáp án b. Viết hàm dưới dấu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"antiderivative\">nguyên hàm</b> dạng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"power\">lũy thừa</b> \\(x^{\\alpha}\\) rồi dùng \\(\\displaystyle\\int x^{\\alpha}dx=\\dfrac{x^{\\alpha+1}}{\\alpha+1}+C\\): kết quả \\(\\dfrac{2}{3}x\\sqrt x+C\\).",
+   "images": [],
+   "id": "e301c74461e8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The height of a young tree grows at the rate \\(h'(t)=\\dfrac{#}{\\sqrt t}\\) (cm per year), \\(t\\ge#\\) in years. At \\(t=#\\) the tree is \\(#\\) cm tall. How tall is it at \\(t=#\\) (cm)?",
+   "en": "The height of a young tree grows at the rate \\(h'(t)=\\dfrac{2}{\\sqrt t}\\) (cm per year), \\(t\\ge1\\) in years. At \\(t=1\\) the tree is \\(50\\) cm tall. How tall is it at \\(t=16\\) (cm)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"height\">Chiều cao</b> của một cây non tăng với tốc độ \\(h'(t)=\\dfrac{2}{\\sqrt t}\\) (cm/năm), \\(t\\ge1\\) tính bằng năm. Khi \\(t=1\\) cây cao \\(50\\) cm. Khi \\(t=16\\) cây cao bao nhiêu cm?",
+   "options": [
+    "\\(62\\)",
+    "<span class=\"txi\"><span class=\"en\">\\(50.5\\)</span><span class=\"vi\">\\(50{,}5\\)</span></span>",
+    "\\(66\\)",
+    "\\(56\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(h(t)=4\\sqrt t+C\\), \\(h(1)=50\\Rightarrow C=46\\); \\(h(16)=4\\cdot4+46=62\\).",
+   "explain_vi": "Đáp án a. \\(h(t)=4\\sqrt t+C\\), \\(h(1)=50\\Rightarrow C=46\\); \\(h(16)=4\\cdot4+46=62\\).",
+   "images": [],
+   "id": "12880c340b19",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The line in the figure is the graph of \\(y=f(x)\\). Which of the following is an antiderivative of \\(f\\)?",
+   "en": "The line in the figure is the graph of \\(y=f(x)\\). Which of the following is an antiderivative of \\(f\\)?<img src=\"../../../img/tex/3a13926bbe3bcf8e.svg\" alt=\"Graph of f\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">Đường thẳng</b> trong hình là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> của \\(y=f(x)\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">Hàm số</b> nào sau đây là một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"antiderivative\">nguyên hàm</b> của \\(f\\)?<img src=\"../../../img/tex/3a13926bbe3bcf8e.svg\" alt=\"Đồ thị của f\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "\\(F(x)=\\dfrac{3}{2}x^2+x\\)",
+    "\\(F(x)=-\\dfrac{1}{2}x^2+3x\\)",
+    "\\(F(x)=\\dfrac{3}{2}x^2-x\\)",
+    "\\(F(x)=3x^2-x\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The line passes through \\((0;-1)\\) and \\((1;2)\\), so \\(f(x)=3x-1\\) and \\(F(x)=\\dfrac{3}{2}x^2-x+C\\).",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">Đường thẳng</b> đi qua \\((0;-1)\\) và \\((1;2)\\), nên \\(f(x)=3x-1\\) và \\(F(x)=\\dfrac{3}{2}x^2-x+C\\).",
+   "images": [
+    "img/tex/3a13926bbe3bcf8e.svg"
+   ],
+   "id": "73bc64fe792a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\displaystyle\\int #^x\\,dx=\\)…",
+   "en": "\\(\\displaystyle\\int 7^x\\,dx=\\)…",
+   "vi": "\\(\\displaystyle\\int 7^x\\,dx=\\)…",
+   "options": [
+    "\\(\\dfrac{7^{x+1}}{x+1}+C\\)",
+    "\\(\\dfrac{7^x}{\\ln 7}+C\\)",
+    "\\(7^x+C\\)",
+    "\\(7^x\\ln 7+C\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\displaystyle\\int a^x\\,dx=\\dfrac{a^x}{\\ln a}+C\\) (\\(0\\lt a\\ne1\\)); here the result is \\(\\dfrac{7^x}{\\ln 7}+C\\).",
+   "explain_vi": "Đáp án b. \\(\\displaystyle\\int a^x\\,dx=\\dfrac{a^x}{\\ln a}+C\\) (\\(0\\lt a\\ne1\\)); ở đây kết quả là \\(\\dfrac{7^x}{\\ln 7}+C\\).",
+   "images": [],
+   "id": "f59a9bfc5bc3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\displaystyle\\int\\left(\\dfrac{#}{\\cos^#x}-#\\right)dx=\\)…",
+   "en": "\\(\\displaystyle\\int\\left(\\dfrac{2}{\\cos^2x}-1\\right)dx=\\)…",
+   "vi": "\\(\\displaystyle\\int\\left(\\dfrac{2}{\\cos^2x}-1\\right)dx=\\)…",
+   "options": [
+    "\\(-2\\tan x-x+C\\)",
+    "\\(2\\cot x-x+C\\)",
+    "\\(2\\tan x+x+C\\)",
+    "\\(2\\tan x-x+C\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Use \\(1+\\tan^2x=\\dfrac{1}{\\cos^2x}\\), \\(1+\\cot^2x=\\dfrac{1}{\\sin^2x}\\) and \\(\\displaystyle\\int\\dfrac{dx}{\\cos^2x}=\\tan x+C\\), \\(\\displaystyle\\int\\dfrac{dx}{\\sin^2x}=-\\cot x+C\\): the result is \\(2\\tan x-x+C\\).",
+   "explain_vi": "Đáp án d. Dùng \\(1+\\tan^2x=\\dfrac{1}{\\cos^2x}\\), \\(1+\\cot^2x=\\dfrac{1}{\\sin^2x}\\) và \\(\\displaystyle\\int\\dfrac{dx}{\\cos^2x}=\\tan x+C\\), \\(\\displaystyle\\int\\dfrac{dx}{\\sin^2x}=-\\cot x+C\\): kết quả \\(2\\tan x-x+C\\).",
+   "images": [],
+   "id": "48b197bcdd71",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(f''(x)=#x-#\\), \\(f'(#)=#\\) and \\(f(#)=#\\). Then \\(f(#)=\\)…",
+   "en": "\\(f''(x)=18x-2\\), \\(f'(0)=1\\) and \\(f(0)=1\\). Then \\(f(1)=\\)…",
+   "vi": "Cho \\(f''(x)=18x-2\\), \\(f'(0)=1\\) và \\(f(0)=1\\). Khi đó \\(f(1)=\\)…",
+   "options": [
+    "\\(4\\)",
+    "\\(9\\)",
+    "\\(5\\)",
+    "\\(3\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(f'(x)=9x^2-2x+1\\), \\(f(x)=\\dfrac{18}{6}x^3-x^2+1 x+1\\), so \\(f(1)=4\\).",
+   "explain_vi": "Đáp án a. \\(f'(x)=9x^2-2x+1\\), \\(f(x)=\\dfrac{18}{6}x^3-x^2+1 x+1\\), nên \\(f(1)=4\\).",
+   "images": [],
+   "id": "ef2741de2d97",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(F\\) is an antiderivative of \\(f(x)=#x^{#}-#x\\) with \\(F(#)=#\\). Then \\(F(-#)=\\)…",
+   "en": "\\(F\\) is an antiderivative of \\(f(x)=3x^{2}-2x\\) with \\(F(2)=1\\). Then \\(F(-1)=\\)…",
+   "vi": "\\(F\\) là một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"antiderivative\">nguyên hàm</b> của \\(f(x)=3x^{2}-2x\\) và \\(F(2)=1\\). Khi đó \\(F(-1)=\\)…",
+   "options": [
+    "\\(-2\\)",
+    "\\(6\\)",
+    "\\(-3\\)",
+    "\\(-5\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(F(x)=x^{3}-x^{2}+C\\), \\(C=-3\\), \\(F(-1)=-5\\).",
+   "explain_vi": "Đáp án d. \\(F(x)=x^{3}-x^{2}+C\\), \\(C=-3\\), \\(F(-1)=-5\\).",
+   "images": [],
+   "id": "30aed8d4e671",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(\\displaystyle\\int(-#x^{#}+#x+#)\\,dx=\\)…",
+   "en": "\\(\\displaystyle\\int(-9x^{2}+4x+2)\\,dx=\\)…",
+   "vi": "\\(\\displaystyle\\int(-9x^{2}+4x+2)\\,dx=\\)…",
+   "options": [
+    "\\(-18x+4+C\\)",
+    "\\(-9x^{3}+4x^{2}+2x+C\\)",
+    "\\(-3x^{3}+2x^{2}+2x+C\\)",
+    "\\(-3x^{3}+2x^{2}+2x\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Term by term: \\(-3x^{3}+2x^{2}+2x+C\\). Check by differentiating.",
+   "explain_vi": "Đáp án c. Lấy <b class=\"mbl-term\" tabindex=\"0\" data-en=\"antiderivative\">nguyên hàm</b> từng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b>: \\(-3x^{3}+2x^{2}+2x+C\\). Thử lại bằng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"derivative\">đạo hàm</b>.",
+   "images": [],
+   "id": "fed7e65b8995",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(\\displaystyle\\int\\left(\\dfrac{#}{\\cos^#x}+#^x\\right)dx=\\)…",
+   "en": "\\(\\displaystyle\\int\\left(\\dfrac{1}{\\cos^2x}+5^x\\right)dx=\\)…",
+   "vi": "\\(\\displaystyle\\int\\left(\\dfrac{1}{\\cos^2x}+5^x\\right)dx=\\)…",
+   "options": [
+    "\\(\\tan x+\\dfrac{5^x}{\\ln5}+C\\)",
+    "\\(\\tan x+5^x\\ln5+C\\)",
+    "\\(-\\cot x+\\dfrac{5^x}{\\ln5}+C\\)",
+    "\\(\\tan x+\\dfrac{5^{x+1}}{x+1}+C\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\int\\dfrac1{\\cos^2x}dx=\\tan x+C\\), \\(\\int a^xdx=\\dfrac{a^x}{\\ln a}+C\\).",
+   "explain_vi": "Đáp án a. \\(\\int\\dfrac1{\\cos^2x}dx=\\tan x+C\\), \\(\\int a^xdx=\\dfrac{a^x}{\\ln a}+C\\).",
+   "images": [],
+   "id": "e5610cd1fd35",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(F(x)=#x^{#}-#x+#\\) is an antiderivative of \\(f(x)=#x^{#}-#\\).",
+   "en": "\\(F(x)=2x^{3}-5x+1\\) is an antiderivative of \\(f(x)=6x^{2}-5\\).",
+   "vi": "\\(F(x)=2x^{3}-5x+1\\) là một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"antiderivative\">nguyên hàm</b> của \\(f(x)=6x^{2}-5\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "\\(F'(x)=6x^{2}-5\\).",
+   "explain_vi": "\\(F'(x)=6x^{2}-5\\).",
+   "images": [],
+   "id": "cc2e64cf6df7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(\\displaystyle\\int#^x\\,dx=#^x\\ln#+C\\).",
+   "en": "\\(\\displaystyle\\int3^x\\,dx=3^x\\ln3+C\\).",
+   "vi": "\\(\\displaystyle\\int3^x\\,dx=3^x\\ln3+C\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "Check by differentiating: \\((\\ln|x|)'=\\dfrac1x\\) for \\(x\\ne0\\); \\(\\left(\\dfrac{3^x}{\\ln3}\\right)'=3^x\\); there is no product rule for antiderivatives.",
+   "explain_vi": "Kiểm tra bằng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"derivative\">đạo hàm</b>: \\((\\ln|x|)'=\\dfrac1x\\) với \\(x\\ne0\\); \\(\\left(\\dfrac{3^x}{\\ln3}\\right)'=3^x\\); không có quy tắc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"antiderivative\">nguyên hàm</b> của tích như vậy.",
+   "images": [],
+   "id": "33febf99a700",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "A motorbike has velocity \\(v(t)=#+#t\\) (m/s) and \\(s(#)=#\\). How many metres does it travel in the first \\(#\\) seconds?",
+   "en": "A motorbike has velocity \\(v(t)=12+4t\\) (m/s) and \\(s(0)=0\\). How many metres does it travel in the first \\(5\\) seconds?",
+   "vi": "Một xe máy có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"velocity\">vận tốc</b> \\(v(t)=12+4t\\) (m/s) và \\(s(0)=0\\). Trong \\(5\\) giây đầu xe đi được bao nhiêu mét?",
+   "options": [],
+   "answer": "110",
+   "explain_en": "\\(s(t)=12t+2t^2\\); \\(s(5)=110\\).",
+   "explain_vi": "\\(s(t)=12t+2t^2\\); \\(s(5)=110\\).",
+   "images": [],
+   "id": "bc71d9254b75",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "\\(F\\) is an antiderivative of \\(f(x)=#x^{#}-#x\\) with \\(F(#)=#\\). Find \\(F(#)\\).",
+   "en": "\\(F\\) is an antiderivative of \\(f(x)=4x^{3}-2x\\) with \\(F(1)=0\\). Find \\(F(2)\\).",
+   "vi": "Cho \\(F\\) là một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"antiderivative\">nguyên hàm</b> của \\(f(x)=4x^{3}-2x\\) thỏa mãn \\(F(1)=0\\). Tính \\(F(2)\\).",
+   "options": [],
+   "answer": "12",
+   "explain_en": "\\(F(x)=x^{4}-x^{2}+C\\), \\(C=0\\), \\(F(2)=12\\).",
+   "explain_vi": "\\(F(x)=x^{4}-x^{2}+C\\), \\(C=0\\), \\(F(2)=12\\).",
+   "images": [],
+   "id": "ec1d486b187f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Exactly one of these statements is true (\\(f\\), \\(g\\) continuous). Which one?",
+   "en": "Exactly one of these statements is true (\\(f\\), \\(g\\) continuous). Which one?",
+   "vi": "Chỉ có một khẳng định đúng (\\(f\\), \\(g\\) liên tục). Đó là khẳng định nào?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(\\displaystyle\\int e^{2x}\\,dx=e^{2x}+C\\)</span><span class=\"vi\">\\(\\displaystyle\\int e^{2x}\\,dx=e^{2x}+C\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(\\displaystyle\\int f(x)g(x)\\,dx=\\int f(x)\\,dx\\cdot\\int g(x)\\,dx\\)</span><span class=\"vi\">\\(\\displaystyle\\int f(x)g(x)\\,dx=\\int f(x)\\,dx\\cdot\\int g(x)\\,dx\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(\\displaystyle\\int\\left[f(x)+g(x)\\right]dx=\\int f(x)\\,dx+\\int g(x)\\,dx\\)</span><span class=\"vi\">\\(\\displaystyle\\int\\left[f(x)+g(x)\\right]dx=\\int f(x)\\,dx+\\int g(x)\\,dx\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(\\displaystyle\\int\\sin x\\,dx=\\cos x+C\\)</span><span class=\"vi\">\\(\\displaystyle\\int\\sin x\\,dx=\\cos x+C\\)</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Only sums and constant multiples can be split; products and quotients cannot; \\(\\displaystyle\\int\\sin x\\,dx=-\\cos x+C\\), \\(\\displaystyle\\int e^{2x}dx=\\dfrac{e^{2x}}{2}+C\\), \\(\\displaystyle\\int\\cos 2x\\,dx=\\dfrac{\\sin 2x}{2}+C\\); the power rule needs \\(\\alpha\\ne-1\\).",
+   "explain_vi": "Đáp án c. Chỉ tách được tổng và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"constant\">hằng số</b> nhân; không tách được tích, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"quotient\">thương</b>; \\(\\displaystyle\\int\\sin x\\,dx=-\\cos x+C\\), \\(\\displaystyle\\int e^{2x}dx=\\dfrac{e^{2x}}{2}+C\\), \\(\\displaystyle\\int\\cos 2x\\,dx=\\dfrac{\\sin 2x}{2}+C\\); công thức <b class=\"mbl-term\" tabindex=\"0\" data-en=\"power\">lũy thừa</b> cần \\(\\alpha\\ne-1\\).",
+   "images": [],
+   "id": "17f7239c15a3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "On \\((#;+\\infty)\\), \\(\\displaystyle\\int #x\\sqrt x\\,dx=\\)…",
+   "en": "On \\((0;+\\infty)\\), \\(\\displaystyle\\int 2x\\sqrt x\\,dx=\\)…",
+   "vi": "Trên \\((0;+\\infty)\\), \\(\\displaystyle\\int 2x\\sqrt x\\,dx=\\)…",
+   "options": [
+    "\\(5x^2\\sqrt x+C\\)",
+    "\\(x^2\\sqrt x+C\\)",
+    "\\(3\\sqrt x+C\\)",
+    "\\(\\dfrac{4}{5}x^2\\sqrt x+C\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Write the integrand as a power \\(x^{\\alpha}\\) and use \\(\\displaystyle\\int x^{\\alpha}dx=\\dfrac{x^{\\alpha+1}}{\\alpha+1}+C\\): the result is \\(\\dfrac{4}{5}x^2\\sqrt x+C\\).",
+   "explain_vi": "Đáp án d. Viết hàm dưới dấu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"antiderivative\">nguyên hàm</b> dạng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"power\">lũy thừa</b> \\(x^{\\alpha}\\) rồi dùng \\(\\displaystyle\\int x^{\\alpha}dx=\\dfrac{x^{\\alpha+1}}{\\alpha+1}+C\\): kết quả \\(\\dfrac{4}{5}x^2\\sqrt x+C\\).",
+   "images": [],
+   "id": "1fe904faa42d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "On \\((#;+\\infty)\\), \\(\\displaystyle\\int \\dfrac{#x^#+#}{x}\\,dx=\\)…",
+   "en": "On \\((0;+\\infty)\\), \\(\\displaystyle\\int \\dfrac{2x^2+1}{x}\\,dx=\\)…",
+   "vi": "Trên \\((0;+\\infty)\\), \\(\\displaystyle\\int \\dfrac{2x^2+1}{x}\\,dx=\\)…",
+   "options": [
+    "\\(x^2+\\dfrac{1}{x^2}+C\\)",
+    "\\(x^2-\\ln x+C\\)",
+    "\\(2x^2+\\ln x+C\\)",
+    "\\(x^2+\\ln x+C\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. First simplify: \\(\\dfrac{2x^2+1}{x}=2x+\\dfrac{1}{x}\\); then integrate term by term: \\(x^2+\\ln x+C\\).",
+   "explain_vi": "Đáp án d. Biến đổi trước: \\(\\dfrac{2x^2+1}{x}=2x+\\dfrac{1}{x}\\); rồi lấy <b class=\"mbl-term\" tabindex=\"0\" data-en=\"antiderivative\">nguyên hàm</b> từng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b>: \\(x^2+\\ln x+C\\).",
+   "images": [],
+   "id": "cf0e5c5dc291",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Read \\(f(x)\\) from its graph (a straight line) in the figure. Which function \\(F\\) satisfies \\(F'(x)=f(x)\\)?",
+   "en": "Read \\(f(x)\\) from its graph (a straight line) in the figure. Which function \\(F\\) satisfies \\(F'(x)=f(x)\\)?<img src=\"../../../img/tex/cef3a13707088c50.svg\" alt=\"Graph of f\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Đọc \\(f(x)\\) từ <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> (một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b>) trong hình. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">Hàm số</b> \\(F\\) nào thỏa mãn \\(F'(x)=f(x)\\)?<img src=\"../../../img/tex/cef3a13707088c50.svg\" alt=\"Đồ thị của f\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "\\(F(x)=-\\dfrac{3}{2}x^2-\\dfrac{1}{2}x\\)",
+    "\\(F(x)=-\\dfrac{1}{4}x^2+3x\\)",
+    "\\(F(x)=-\\dfrac{1}{4}x^2-3x\\)",
+    "\\(F(x)=-\\dfrac{1}{2}x^2-3x\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The line passes through \\((0;-3)\\) and \\((2;-4)\\), so \\(f(x)=-\\dfrac{1}{2}x-3\\) and \\(F(x)=-\\dfrac{1}{4}x^2-3x+C\\).",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">Đường thẳng</b> đi qua \\((0;-3)\\) và \\((2;-4)\\), nên \\(f(x)=-\\dfrac{1}{2}x-3\\) và \\(F(x)=-\\dfrac{1}{4}x^2-3x+C\\).",
+   "images": [
+    "img/tex/cef3a13707088c50.svg"
+   ],
+   "id": "ed5f3654cc3a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The height of a young tree grows at the rate \\(h'(t)=\\dfrac{#}{\\sqrt t}\\) (cm per year), \\(t\\ge#\\) in years. At \\(t=#\\) the tree is \\(#\\) cm tall. How tall is it at \\(t=#\\) (cm)?",
+   "en": "The height of a young tree grows at the rate \\(h'(t)=\\dfrac{4}{\\sqrt t}\\) (cm per year), \\(t\\ge1\\) in years. At \\(t=1\\) the tree is \\(50\\) cm tall. How tall is it at \\(t=16\\) (cm)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"height\">Chiều cao</b> của một cây non tăng với tốc độ \\(h'(t)=\\dfrac{4}{\\sqrt t}\\) (cm/năm), \\(t\\ge1\\) tính bằng năm. Khi \\(t=1\\) cây cao \\(50\\) cm. Khi \\(t=16\\) cây cao bao nhiêu cm?",
+   "options": [
+    "\\(74\\)",
+    "\\(82\\)",
+    "\\(62\\)",
+    "\\(51\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(h(t)=8\\sqrt t+C\\), \\(h(1)=50\\Rightarrow C=42\\); \\(h(16)=8\\cdot4+42=74\\).",
+   "explain_vi": "Đáp án a. \\(h(t)=8\\sqrt t+C\\), \\(h(1)=50\\Rightarrow C=42\\); \\(h(16)=8\\cdot4+42=74\\).",
+   "images": [],
+   "id": "5430a7b864cc",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\displaystyle\\int #^{#x}\\,dx=\\)…",
+   "en": "\\(\\displaystyle\\int 2^{3x}\\,dx=\\)…",
+   "vi": "\\(\\displaystyle\\int 2^{3x}\\,dx=\\)…",
+   "options": [
+    "\\(\\dfrac{2^{3x}}{\\ln 2}+C\\)",
+    "\\(3\\cdot2^{3x}\\ln 2+C\\)",
+    "\\(\\dfrac{2^{3x+1}}{3x+1}+C\\)",
+    "\\(\\dfrac{2^{3x}}{3\\ln 2}+C\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\displaystyle\\int a^x\\,dx=\\dfrac{a^x}{\\ln a}+C\\) (\\(0\\lt a\\ne1\\)); here the result is \\(\\dfrac{2^{3x}}{3\\ln 2}+C\\).",
+   "explain_vi": "Đáp án d. \\(\\displaystyle\\int a^x\\,dx=\\dfrac{a^x}{\\ln a}+C\\) (\\(0\\lt a\\ne1\\)); ở đây kết quả là \\(\\dfrac{2^{3x}}{3\\ln 2}+C\\).",
+   "images": [],
+   "id": "f2f4e4c476bd",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\displaystyle\\int\\left(#+\\tan^#x\\right)dx=\\)…",
+   "en": "\\(\\displaystyle\\int\\left(1+\\tan^2x\\right)dx=\\)…",
+   "vi": "\\(\\displaystyle\\int\\left(1+\\tan^2x\\right)dx=\\)…",
+   "options": [
+    "\\(\\dfrac{\\tan^3x}{3}+x+C\\)",
+    "\\(-\\cot x+C\\)",
+    "\\(\\tan x+C\\)",
+    "\\(x+\\tan x+C\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Use \\(1+\\tan^2x=\\dfrac{1}{\\cos^2x}\\), \\(1+\\cot^2x=\\dfrac{1}{\\sin^2x}\\) and \\(\\displaystyle\\int\\dfrac{dx}{\\cos^2x}=\\tan x+C\\), \\(\\displaystyle\\int\\dfrac{dx}{\\sin^2x}=-\\cot x+C\\): the result is \\(\\tan x+C\\).",
+   "explain_vi": "Đáp án c. Dùng \\(1+\\tan^2x=\\dfrac{1}{\\cos^2x}\\), \\(1+\\cot^2x=\\dfrac{1}{\\sin^2x}\\) và \\(\\displaystyle\\int\\dfrac{dx}{\\cos^2x}=\\tan x+C\\), \\(\\displaystyle\\int\\dfrac{dx}{\\sin^2x}=-\\cot x+C\\): kết quả \\(\\tan x+C\\).",
+   "images": [],
+   "id": "5881ba1cc43c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(f''(x)=#x+#\\), \\(f'(#)=#\\) and \\(f(#)=#\\). Then \\(f(#)=\\)…",
+   "en": "\\(f''(x)=18x+2\\), \\(f'(0)=3\\) and \\(f(0)=1\\). Then \\(f(1)=\\)…",
+   "vi": "Cho \\(f''(x)=18x+2\\), \\(f'(0)=3\\) và \\(f(0)=1\\). Khi đó \\(f(1)=\\)…",
+   "options": [
+    "\\(7\\)",
+    "\\(15\\)",
+    "\\(5\\)",
+    "\\(8\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(f'(x)=9x^2+2x+3\\), \\(f(x)=\\dfrac{18}{6}x^3+x^2+3 x+1\\), so \\(f(1)=8\\).",
+   "explain_vi": "Đáp án d. \\(f'(x)=9x^2+2x+3\\), \\(f(x)=\\dfrac{18}{6}x^3+x^2+3 x+1\\), nên \\(f(1)=8\\).",
+   "images": [],
+   "id": "e752be80e770",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "A car starts with velocity \\(#\\ \\text{m/s}\\) and accelerates with \\(a=#\\ \\text{m/s}^#\\). How far does it travel in the first \\(#\\) s?",
+   "en": "A car starts with velocity \\(0\\ \\text{m/s}\\) and accelerates with \\(a=3\\ \\text{m/s}^2\\). How far does it travel in the first \\(8\\) s?",
+   "vi": "Một ô tô có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"velocity\">vận tốc</b> ban đầu \\(0\\ \\text{m/s}\\), tăng tốc với gia tốc \\(a=3\\ \\text{m/s}^2\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance travelled\">Quãng đường đi được</b> trong \\(8\\) giây đầu là…",
+   "options": [
+    "\\(96\\ \\text{m}\\)",
+    "\\(104\\ \\text{m}\\)",
+    "\\(192\\ \\text{m}\\)",
+    "\\(24\\ \\text{m}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(v(t)=0+3t\\), \\(s(t)=\\int v\\,dt=0t+\\dfrac{3}{2}t^2\\) (\\(s(0)=0\\)); \\(s(8)=96\\).",
+   "explain_vi": "Đáp án a. \\(v(t)=0+3t\\), \\(s(t)=\\int v\\,dt=0t+\\dfrac{3}{2}t^2\\) (\\(s(0)=0\\)); \\(s(8)=96\\).",
+   "images": [],
+   "id": "86ae7faf4e9a",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "On \\((#;+\\infty)\\), \\(\\displaystyle\\int #x^#\\,dx=\\)…",
+   "en": "On \\((0;+\\infty)\\), \\(\\displaystyle\\int 6x^3\\,dx=\\)…",
+   "vi": "Trên \\((0;+\\infty)\\), \\(\\displaystyle\\int 6x^3\\,dx=\\)…",
+   "options": [
+    "\\(2x^{4}+C\\)",
+    "\\(\\dfrac{3}{2}x^{4}+C\\)",
+    "\\(6x^{4}+C\\)",
+    "\\(18x^{2}+C\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\int x^3dx=\\dfrac{x^4}{4}+C\\).",
+   "explain_vi": "Đáp án b. \\(\\int x^3dx=\\dfrac{x^4}{4}+C\\).",
+   "images": [],
+   "id": "14ded2d7d7d4",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The marginal cost of a workshop is \\(C'(x)=#+#x\\) (thousand VND per product) and the fixed cost is \\(C(#)=#\\) thousand VND. The cost of making \\(#\\) products is…",
+   "en": "The marginal cost of a workshop is \\(C'(x)=20+0.1x\\) (thousand VND per product) and the fixed cost is \\(C(0)=200\\) thousand VND. The cost of making \\(10\\) products is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"marginal cost\">Chi phí biên</b> của một xưởng là \\(C'(x)=20+0{,}1x\\) (nghìn đồng/sản phẩm), chi phí cố định \\(C(0)=200\\) nghìn đồng. Chi phí sản xuất \\(10\\) sản phẩm là…",
+   "options": [
+    "\\(405\\)",
+    "\\(205\\)",
+    "\\(410\\)",
+    "\\(221\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(C(x)=200+20x+0.05x^2\\); \\(C(10)=405\\).",
+   "explain_vi": "Đáp án a. \\(C(x)=200+20x+0{,}05x^2\\); \\(C(10)=405\\).",
+   "images": [],
+   "id": "0a7edfd4d48b",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Which function is an antiderivative of \\(f(x)=#x^{#}-#\\)?",
+   "en": "Which function is an antiderivative of \\(f(x)=6x^{2}-2\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">Hàm số</b> nào là một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"antiderivative\">nguyên hàm</b> của \\(f(x)=6x^{2}-2\\)?",
+   "options": [
+    "\\(F(x)=2x^{3}-2x+4\\)",
+    "\\(F(x)=6x^{3}-2x\\)",
+    "\\(F(x)=12x\\)",
+    "\\(F(x)=2x^{3}+2x+4\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Check \\(F'(x)=f(x)\\): \\((2x^{3}-2x+4)'=6x^{2}-2\\).",
+   "explain_vi": "Đáp án a. Kiểm tra \\(F'(x)=f(x)\\): \\((2x^{3}-2x+4)'=6x^{2}-2\\).",
+   "images": [],
+   "id": "8bf157ed74b5",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(F(x)\\) is an antiderivative of \\(f(x)=-#x+#\\) with \\(F(#)=#\\). Then \\(F(#)=\\)…",
+   "en": "\\(F(x)\\) is an antiderivative of \\(f(x)=-2x+5\\) with \\(F(0)=4\\). Then \\(F(3)=\\)…",
+   "vi": "Biết \\(F(x)\\) là một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"antiderivative\">nguyên hàm</b> của \\(f(x)=-2x+5\\) và \\(F(0)=4\\). Khi đó \\(F(3)=\\)…",
+   "options": [
+    "\\(10\\)",
+    "\\(11\\)",
+    "\\(3\\)",
+    "\\(6\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(F(x)=-x^{2}+5x+C\\), \\(F(0)=4\\Rightarrow C=4\\); \\(F(3)=10\\).",
+   "explain_vi": "Đáp án a. \\(F(x)=-x^{2}+5x+C\\), \\(F(0)=4\\Rightarrow C=4\\); \\(F(3)=10\\).",
+   "images": [],
+   "id": "d12c333ddc74",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\displaystyle\\int(#\\sin x-#\\cos x)\\,dx=\\)…",
+   "en": "\\(\\displaystyle\\int(3\\sin x-3\\cos x)\\,dx=\\)…",
+   "vi": "\\(\\displaystyle\\int(3\\sin x-3\\cos x)\\,dx=\\)…",
+   "options": [
+    "\\(-3\\cos x-3\\sin x+C\\)",
+    "\\(3\\cos x+3\\sin x+C\\)",
+    "\\(-3\\cos x+3\\sin x+C\\)",
+    "\\(3\\cos x-3\\sin x+C\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\int\\sin x\\,dx=-\\cos x+C\\), \\(\\int\\cos x\\,dx=\\sin x+C\\).",
+   "explain_vi": "Đáp án a. \\(\\int\\sin x\\,dx=-\\cos x+C\\), \\(\\int\\cos x\\,dx=\\sin x+C\\).",
+   "images": [],
+   "id": "1ed4d86b018f",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\displaystyle\\int(#e^x+#^x)\\,dx=\\)…",
+   "en": "\\(\\displaystyle\\int(2e^x+2^x)\\,dx=\\)…",
+   "vi": "\\(\\displaystyle\\int(2e^x+2^x)\\,dx=\\)…",
+   "options": [
+    "\\(2e^{x+1}+\\dfrac{2^{x+1}}{x+1}+C\\)",
+    "\\(2e^x+x\\cdot2^{x-1}+C\\)",
+    "\\(2e^x+\\dfrac{2^x}{\\ln 2}+C\\)",
+    "\\(2e^x+2^x\\ln 2+C\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\int e^xdx=e^x+C\\), \\(\\int a^xdx=\\dfrac{a^x}{\\ln a}+C\\).",
+   "explain_vi": "Đáp án c. \\(\\int e^xdx=e^x+C\\), \\(\\int a^xdx=\\dfrac{a^x}{\\ln a}+C\\).",
+   "images": [],
+   "id": "096d4fcbebd0",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\displaystyle\\int(x^{#}-#x-#)\\,dx=\\)…",
+   "en": "\\(\\displaystyle\\int(x^{2}-4x-1)\\,dx=\\)…",
+   "vi": "\\(\\displaystyle\\int(x^{2}-4x-1)\\,dx=\\)…",
+   "options": [
+    "\\(3x^{3}-8x^{2}-x+C\\)",
+    "\\(\\dfrac{1}{3}x^{3}-2x^{2}-x+C\\)",
+    "\\(2x-4+C\\)",
+    "\\(x^{3}-4x^{2}-x+C\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\int x^\\alpha dx=\\dfrac{x^{\\alpha+1}}{\\alpha+1}+C\\), term by term.",
+   "explain_vi": "Đáp án b. \\(\\int x^\\alpha dx=\\dfrac{x^{\\alpha+1}}{\\alpha+1}+C\\), lấy từng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b>.",
+   "images": [],
+   "id": "7600da3e1b7b",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "A car starts with velocity \\(#\\ \\text{m/s}\\) and accelerates with \\(a=#\\ \\text{m/s}^#\\). How far does it travel in the first \\(#\\) s?",
+   "en": "A car starts with velocity \\(0\\ \\text{m/s}\\) and accelerates with \\(a=4\\ \\text{m/s}^2\\). How far does it travel in the first \\(6\\) s?",
+   "vi": "Một ô tô có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"velocity\">vận tốc</b> ban đầu \\(0\\ \\text{m/s}\\), tăng tốc với gia tốc \\(a=4\\ \\text{m/s}^2\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance travelled\">Quãng đường đi được</b> trong \\(6\\) giây đầu là…",
+   "options": [
+    "\\(78\\ \\text{m}\\)",
+    "\\(24\\ \\text{m}\\)",
+    "\\(72\\ \\text{m}\\)",
+    "\\(144\\ \\text{m}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(v(t)=0+4t\\), \\(s(t)=\\int v\\,dt=0t+\\dfrac{4}{2}t^2\\) (\\(s(0)=0\\)); \\(s(6)=72\\).",
+   "explain_vi": "Đáp án c. \\(v(t)=0+4t\\), \\(s(t)=\\int v\\,dt=0t+\\dfrac{4}{2}t^2\\) (\\(s(0)=0\\)); \\(s(6)=72\\).",
+   "images": [],
+   "id": "813220cdb6b6",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "On \\((#;+\\infty)\\), \\(\\displaystyle\\int \\dfrac{#}{x^#}\\,dx=\\)…",
+   "en": "On \\((0;+\\infty)\\), \\(\\displaystyle\\int \\dfrac{4}{x^2}\\,dx=\\)…",
+   "vi": "Trên \\((0;+\\infty)\\), \\(\\displaystyle\\int \\dfrac{4}{x^2}\\,dx=\\)…",
+   "options": [
+    "\\(-\\dfrac{8}{x^3}+C\\)",
+    "\\(-\\dfrac{4}{x}+C\\)",
+    "\\(\\dfrac{4}{x}+C\\)",
+    "\\(4\\ln|x|+C\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\int x^{-2}dx=\\dfrac{x^{-1}}{-1}+C=-\\dfrac1x+C\\).",
+   "explain_vi": "Đáp án b. \\(\\int x^{-2}dx=\\dfrac{x^{-1}}{-1}+C=-\\dfrac1x+C\\).",
+   "images": [],
+   "id": "6f78e5edfc1f",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The marginal cost of a workshop is \\(C'(x)=#+#x\\) (thousand VND per product) and the fixed cost is \\(C(#)=#\\) thousand VND. The cost of making \\(#\\) products is…",
+   "en": "The marginal cost of a workshop is \\(C'(x)=5+0.4x\\) (thousand VND per product) and the fixed cost is \\(C(0)=100\\) thousand VND. The cost of making \\(10\\) products is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"marginal cost\">Chi phí biên</b> của một xưởng là \\(C'(x)=5+0{,}4x\\) (nghìn đồng/sản phẩm), chi phí cố định \\(C(0)=100\\) nghìn đồng. Chi phí sản xuất \\(10\\) sản phẩm là…",
+   "options": [
+    "\\(190\\)",
+    "\\(170\\)",
+    "\\(109\\)",
+    "\\(70\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(C(x)=100+5x+0.2x^2\\); \\(C(10)=170\\).",
+   "explain_vi": "Đáp án b. \\(C(x)=100+5x+0{,}2x^2\\); \\(C(10)=170\\).",
+   "images": [],
+   "id": "d5bb89fb6703",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Which function is an antiderivative of \\(f(x)=#x^{#}-#\\)?",
+   "en": "Which function is an antiderivative of \\(f(x)=3x^{2}-2\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">Hàm số</b> nào là một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"antiderivative\">nguyên hàm</b> của \\(f(x)=3x^{2}-2\\)?",
+   "options": [
+    "\\(F(x)=3x^{3}-2x\\)",
+    "\\(F(x)=6x\\)",
+    "\\(F(x)=x^{3}+2x+1\\)",
+    "\\(F(x)=x^{3}-2x+1\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Check \\(F'(x)=f(x)\\): \\((x^{3}-2x+1)'=3x^{2}-2\\).",
+   "explain_vi": "Đáp án d. Kiểm tra \\(F'(x)=f(x)\\): \\((x^{3}-2x+1)'=3x^{2}-2\\).",
+   "images": [],
+   "id": "2db29f7e20b8",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(F(x)\\) is an antiderivative of \\(f(x)=-#x+#\\) with \\(F(#)=#\\). Then \\(F(#)=\\)…",
+   "en": "\\(F(x)\\) is an antiderivative of \\(f(x)=-2x+1\\) with \\(F(0)=1\\). Then \\(F(3)=\\)…",
+   "vi": "Biết \\(F(x)\\) là một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"antiderivative\">nguyên hàm</b> của \\(f(x)=-2x+1\\) và \\(F(0)=1\\). Khi đó \\(F(3)=\\)…",
+   "options": [
+    "\\(-5\\)",
+    "\\(-4\\)",
+    "\\(-6\\)",
+    "\\(5\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(F(x)=-x^{2}+x+C\\), \\(F(0)=1\\Rightarrow C=1\\); \\(F(3)=-5\\).",
+   "explain_vi": "Đáp án a. \\(F(x)=-x^{2}+x+C\\), \\(F(0)=1\\Rightarrow C=1\\); \\(F(3)=-5\\).",
+   "images": [],
+   "id": "ee6c8db8fe98",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\displaystyle\\int(#\\sin x+#\\cos x)\\,dx=\\)…",
+   "en": "\\(\\displaystyle\\int(3\\sin x+2\\cos x)\\,dx=\\)…",
+   "vi": "\\(\\displaystyle\\int(3\\sin x+2\\cos x)\\,dx=\\)…",
+   "options": [
+    "\\(3\\cos x-2\\sin x+C\\)",
+    "\\(-3\\cos x+2\\sin x+C\\)",
+    "\\(-3\\cos x-2\\sin x+C\\)",
+    "\\(3\\cos x+2\\sin x+C\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\int\\sin x\\,dx=-\\cos x+C\\), \\(\\int\\cos x\\,dx=\\sin x+C\\).",
+   "explain_vi": "Đáp án b. \\(\\int\\sin x\\,dx=-\\cos x+C\\), \\(\\int\\cos x\\,dx=\\sin x+C\\).",
+   "images": [],
+   "id": "95bc435dba4d",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\displaystyle\\int(#e^x+#^x)\\,dx=\\)…",
+   "en": "\\(\\displaystyle\\int(2e^x+10^x)\\,dx=\\)…",
+   "vi": "\\(\\displaystyle\\int(2e^x+10^x)\\,dx=\\)…",
+   "options": [
+    "\\(2e^x+x\\cdot10^{x-1}+C\\)",
+    "\\(2e^x+10^x\\ln 10+C\\)",
+    "\\(2e^x+\\dfrac{10^x}{\\ln 10}+C\\)",
+    "\\(2e^{x+1}+\\dfrac{10^{x+1}}{x+1}+C\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\int e^xdx=e^x+C\\), \\(\\int a^xdx=\\dfrac{a^x}{\\ln a}+C\\).",
+   "explain_vi": "Đáp án c. \\(\\int e^xdx=e^x+C\\), \\(\\int a^xdx=\\dfrac{a^x}{\\ln a}+C\\).",
+   "images": [],
+   "id": "30485fd72b5b",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\displaystyle\\int(#x^{#}+#x+#)\\,dx=\\)…",
+   "en": "\\(\\displaystyle\\int(9x^{2}+6x+7)\\,dx=\\)…",
+   "vi": "\\(\\displaystyle\\int(9x^{2}+6x+7)\\,dx=\\)…",
+   "options": [
+    "\\(9x^{3}+6x^{2}+7x+C\\)",
+    "\\(27x^{3}+12x^{2}+7x+C\\)",
+    "\\(3x^{3}+3x^{2}+7x+C\\)",
+    "\\(18x+6+C\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\int x^\\alpha dx=\\dfrac{x^{\\alpha+1}}{\\alpha+1}+C\\), term by term.",
+   "explain_vi": "Đáp án c. \\(\\int x^\\alpha dx=\\dfrac{x^{\\alpha+1}}{\\alpha+1}+C\\), lấy từng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b>.",
+   "images": [],
+   "id": "ad72c76f7fd8",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "A car starts with velocity \\(#\\ \\text{m/s}\\) and accelerates with \\(a=#\\ \\text{m/s}^#\\). How far does it travel in the first \\(#\\) s?",
+   "en": "A car starts with velocity \\(2\\ \\text{m/s}\\) and accelerates with \\(a=1.5\\ \\text{m/s}^2\\). How far does it travel in the first \\(4\\) s?",
+   "vi": "Một ô tô có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"velocity\">vận tốc</b> ban đầu \\(2\\ \\text{m/s}\\), tăng tốc với gia tốc \\(a=1{,}5\\ \\text{m/s}^2\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance travelled\">Quãng đường đi được</b> trong \\(4\\) giây đầu là…",
+   "options": [
+    "\\(12\\ \\text{m}\\)",
+    "\\(20\\ \\text{m}\\)",
+    "\\(32\\ \\text{m}\\)",
+    "\\(8\\ \\text{m}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(v(t)=2+1.5t\\), \\(s(t)=\\int v\\,dt=2t+\\dfrac{1.5}{2}t^2\\) (\\(s(0)=0\\)); \\(s(4)=20\\).",
+   "explain_vi": "Đáp án b. \\(v(t)=2+1{,}5t\\), \\(s(t)=\\int v\\,dt=2t+\\dfrac{1{,}5}{2}t^2\\) (\\(s(0)=0\\)); \\(s(4)=20\\).",
+   "images": [],
+   "id": "9ad403631e63",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "On \\((#;+\\infty)\\), \\(\\displaystyle\\int #\\sqrt{x}\\,dx=\\)…",
+   "en": "On \\((0;+\\infty)\\), \\(\\displaystyle\\int 2\\sqrt{x}\\,dx=\\)…",
+   "vi": "Trên \\((0;+\\infty)\\), \\(\\displaystyle\\int 2\\sqrt{x}\\,dx=\\)…",
+   "options": [
+    "\\(3x\\sqrt{x}+C\\)",
+    "\\(\\dfrac{4}{3}x\\sqrt{x}+C\\)",
+    "\\(\\dfrac{2}{2\\sqrt x}+C\\)",
+    "\\(1x^2+C\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\int x^{\\frac12}dx=\\dfrac{x^{\\frac32}}{\\dfrac32}+C=\\dfrac23x\\sqrt x+C\\).",
+   "explain_vi": "Đáp án b. \\(\\int x^{\\frac12}dx=\\dfrac{x^{\\frac32}}{\\dfrac32}+C=\\dfrac23x\\sqrt x+C\\).",
+   "images": [],
+   "id": "42b849ae3d12",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The marginal cost of a workshop is \\(C'(x)=#+#x\\) (thousand VND per product) and the fixed cost is \\(C(#)=#\\) thousand VND. The cost of making \\(#\\) products is…",
+   "en": "The marginal cost of a workshop is \\(C'(x)=5+0.4x\\) (thousand VND per product) and the fixed cost is \\(C(0)=100\\) thousand VND. The cost of making \\(50\\) products is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"marginal cost\">Chi phí biên</b> của một xưởng là \\(C'(x)=5+0{,}4x\\) (nghìn đồng/sản phẩm), chi phí cố định \\(C(0)=100\\) nghìn đồng. Chi phí sản xuất \\(50\\) sản phẩm là…",
+   "options": [
+    "\\(1350\\)",
+    "\\(750\\)",
+    "\\(850\\)",
+    "\\(125\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(C(x)=100+5x+0.2x^2\\); \\(C(50)=850\\).",
+   "explain_vi": "Đáp án c. \\(C(x)=100+5x+0{,}2x^2\\); \\(C(50)=850\\).",
+   "images": [],
+   "id": "6e688d4e320d",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Which function is an antiderivative of \\(f(x)=-#x^{#}+#\\)?",
+   "en": "Which function is an antiderivative of \\(f(x)=-3x^{2}+3\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">Hàm số</b> nào là một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"antiderivative\">nguyên hàm</b> của \\(f(x)=-3x^{2}+3\\)?",
+   "options": [
+    "\\(F(x)=-x^{3}+3x+4\\)",
+    "\\(F(x)=-x^{3}-3x+4\\)",
+    "\\(F(x)=-3x^{3}+3x\\)",
+    "\\(F(x)=-6x\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Check \\(F'(x)=f(x)\\): \\((-x^{3}+3x+4)'=-3x^{2}+3\\).",
+   "explain_vi": "Đáp án a. Kiểm tra \\(F'(x)=f(x)\\): \\((-x^{3}+3x+4)'=-3x^{2}+3\\).",
+   "images": [],
+   "id": "fcc230723412",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(F(x)\\) is an antiderivative of \\(f(x)=#x+#\\) with \\(F(#)=#\\). Then \\(F(#)=\\)…",
+   "en": "\\(F(x)\\) is an antiderivative of \\(f(x)=6x+1\\) with \\(F(0)=0\\). Then \\(F(3)=\\)…",
+   "vi": "Biết \\(F(x)\\) là một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"antiderivative\">nguyên hàm</b> của \\(f(x)=6x+1\\) và \\(F(0)=0\\). Khi đó \\(F(3)=\\)…",
+   "options": [
+    "\\(-30\\)",
+    "\\(31\\)",
+    "\\(30\\)",
+    "\\(19\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(F(x)=3x^{2}+x+C\\), \\(F(0)=0\\Rightarrow C=0\\); \\(F(3)=30\\).",
+   "explain_vi": "Đáp án c. \\(F(x)=3x^{2}+x+C\\), \\(F(0)=0\\Rightarrow C=0\\); \\(F(3)=30\\).",
+   "images": [],
+   "id": "44a16d38cbce",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\displaystyle\\int(#\\sin x+\\cos x)\\,dx=\\)…",
+   "en": "\\(\\displaystyle\\int(3\\sin x+\\cos x)\\,dx=\\)…",
+   "vi": "\\(\\displaystyle\\int(3\\sin x+\\cos x)\\,dx=\\)…",
+   "options": [
+    "\\(-3\\cos x-\\sin x+C\\)",
+    "\\(3\\cos x+\\sin x+C\\)",
+    "\\(3\\cos x-\\sin x+C\\)",
+    "\\(-3\\cos x+\\sin x+C\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\int\\sin x\\,dx=-\\cos x+C\\), \\(\\int\\cos x\\,dx=\\sin x+C\\).",
+   "explain_vi": "Đáp án d. \\(\\int\\sin x\\,dx=-\\cos x+C\\), \\(\\int\\cos x\\,dx=\\sin x+C\\).",
+   "images": [],
+   "id": "d78bc4d8ae6d",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\displaystyle\\int(#e^x+#^x)\\,dx=\\)…",
+   "en": "\\(\\displaystyle\\int(2e^x+3^x)\\,dx=\\)…",
+   "vi": "\\(\\displaystyle\\int(2e^x+3^x)\\,dx=\\)…",
+   "options": [
+    "\\(2e^{x+1}+\\dfrac{3^{x+1}}{x+1}+C\\)",
+    "\\(2e^x+3^x\\ln 3+C\\)",
+    "\\(2e^x+\\dfrac{3^x}{\\ln 3}+C\\)",
+    "\\(2e^x+x\\cdot3^{x-1}+C\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\int e^xdx=e^x+C\\), \\(\\int a^xdx=\\dfrac{a^x}{\\ln a}+C\\).",
+   "explain_vi": "Đáp án c. \\(\\int e^xdx=e^x+C\\), \\(\\int a^xdx=\\dfrac{a^x}{\\ln a}+C\\).",
+   "images": [],
+   "id": "303e68930b8b",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\displaystyle\\int(#x^{#}-#x-#)\\,dx=\\)…",
+   "en": "\\(\\displaystyle\\int(3x^{2}-4x-5)\\,dx=\\)…",
+   "vi": "\\(\\displaystyle\\int(3x^{2}-4x-5)\\,dx=\\)…",
+   "options": [
+    "\\(9x^{3}-8x^{2}-5x+C\\)",
+    "\\(6x-4+C\\)",
+    "\\(3x^{3}-4x^{2}-5x+C\\)",
+    "\\(x^{3}-2x^{2}-5x+C\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\int x^\\alpha dx=\\dfrac{x^{\\alpha+1}}{\\alpha+1}+C\\), term by term.",
+   "explain_vi": "Đáp án d. \\(\\int x^\\alpha dx=\\dfrac{x^{\\alpha+1}}{\\alpha+1}+C\\), lấy từng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b>.",
+   "images": [],
+   "id": "de4bc033706e",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1029 @@
+{
+ "lesson": "g10-func-04",
+ "grade": 10,
+ "no": 18,
+ "title": "Phương trình quy về phương trình bậc hai",
+ "path": "lessons/grade10/functions/equations-to-quadratic.html",
+ "items": [
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "How many real roots does \\(x^{#}-#x^#+#=#\\) have?",
+   "en": "How many real roots does \\(x^{4}-10x^2+9=0\\) have?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">Phương trình</b> \\(x^{4}-10x^2+9=0\\) có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b> thực?",
+   "options": [
+    "\\(0\\)",
+    "\\(1\\)",
+    "\\(4\\)",
+    "\\(2\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(t=x^2\\): \\(t=1\\) or \\(t=9\\).",
+   "explain_vi": "Đáp án c. \\(t=x^2\\): \\(t=1\\) hoặc \\(t=9\\).",
+   "images": [],
+   "id": "399ba1f8123b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Solve \\(\\sqrt{-x+#}=x-#\\).",
+   "en": "Solve \\(\\sqrt{-x+7}=x-1\\).",
+   "vi": "Giải <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(\\sqrt{-x+7}=x-1\\).",
+   "options": [
+    "\\(S=\\{-2;\\,3\\}\\)",
+    "\\(S=\\{-2\\}\\)",
+    "\\(S=\\{3\\}\\)",
+    "\\(S=\\varnothing\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Need \\(x\\ge1\\); squaring gives 3 and -2.",
+   "explain_vi": "Đáp án c. Cần \\(x\\ge1\\); bình phương được 3 và -2, loại -2.",
+   "images": [],
+   "id": "bddb95e382e1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Solve \\(\\sqrt{x^#-#x+#}=\\sqrt{x-#}\\).",
+   "en": "Solve \\(\\sqrt{x^2-4x+2}=\\sqrt{x-2}\\).",
+   "vi": "Giải <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(\\sqrt{x^2-4x+2}=\\sqrt{x-2}\\).",
+   "options": [
+    "\\(S=\\{1;\\,4\\}\\)",
+    "\\(S=\\{4\\}\\)",
+    "\\(S=\\{1\\}\\)",
+    "\\(S=\\varnothing\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Squaring: roots 1, 4; check \\(x-2\\ge0\\).",
+   "explain_vi": "Đáp án b. Bình phương: <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b> 1, 4; kiểm tra \\(x-2\\ge0\\).",
+   "images": [],
+   "id": "615102f762b1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(x=#\\) satisfies \\(\\sqrt{x^#-#}=x-#\\).",
+   "en": "\\(x=3\\) satisfies \\(\\sqrt{x^2-5}=x-1\\).",
+   "vi": "\\(x=3\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution of an equation\">nghiệm của phương trình</b> \\(\\sqrt{x^2-5}=x-1\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "Left side \\(\\sqrt{4}\\), right side \\(2\\).",
+   "explain_vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"left-hand side (LHS)\">Vế trái</b> \\(\\sqrt{4}\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"right-hand side (RHS)\">vế phải</b> \\(2\\).",
+   "images": [],
+   "id": "092356958b02",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(x=-#\\) is an extraneous root of \\(\\sqrt{-x+#}=x\\) (after squaring we get \\(x=#\\), \\(x=-#\\)).",
+   "en": "\\(x=-3\\) is an extraneous root of \\(\\sqrt{-x+6}=x\\) (after squaring we get \\(x=2\\), \\(x=-3\\)).",
+   "vi": "\\(x=-3\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"extraneous root\">nghiệm ngoại lai</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(\\sqrt{-x+6}=x\\) (sau khi bình phương được \\(x=2\\), \\(x=-3\\)).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "At \\(x=-3\\) the right side is \\(-3\\).",
+   "explain_vi": "Tại \\(x=-3\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"right-hand side (RHS)\">vế phải</b> bằng \\(-3\\).",
+   "images": [],
+   "id": "a6623a929bda",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "A \\(#\\) m pole; a rope from its top to the ground, \\(x\\) m from the foot, is \\(#\\) m shorter than \\(#x\\). Find \\(x\\) (m).",
+   "en": "A \\(6\\) m pole; a rope from its top to the ground, \\(x\\) m from the foot, is \\(6\\) m shorter than \\(2x\\). Find \\(x\\) (m).",
+   "vi": "Cột cao \\(6\\) m; dây nối đỉnh cột với điểm trên mặt đất cách chân cột \\(x\\) m, ngắn hơn \\(2x\\) là \\(6\\) m. Tìm \\(x\\) (m).",
+   "options": [],
+   "answer": "8",
+   "explain_en": "\\(\\sqrt{x^2+36}=2x-6\\Rightarrow3x^2-24x=0\\), \\(x=8\\) (reject 0).",
+   "explain_vi": "\\(\\sqrt{x^2+36}=2x-6\\Rightarrow3x^2-24x=0\\), \\(x=8\\) (loại \\(x=0\\)).",
+   "images": [],
+   "id": "313beed09991",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "Find the sum of all solutions of \\(\\sqrt{#x+#}=x\\).",
+   "en": "Find the sum of all solutions of \\(\\sqrt{3x+4}=x\\).",
+   "vi": "Tính tổng các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution of an equation\">nghiệm của phương trình</b> \\(\\sqrt{3x+4}=x\\).",
+   "options": [],
+   "answer": "4",
+   "explain_en": "Valid roots: 4.",
+   "explain_vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">Nghiệm</b> thỏa mãn: 4.",
+   "images": [],
+   "id": "1b7c1fa988b4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "A # m ladder leans on a wall; its foot is \\(x\\) m from the wall and its top is \\(\\sqrt{#-x^#}\\) m high. The top is at \\(#\\) m when \\(x=\\)…",
+   "en": "A 13 m ladder leans on a wall; its foot is \\(x\\) m from the wall and its top is \\(\\sqrt{169-x^2}\\) m high. The top is at \\(12\\) m when \\(x=\\)…",
+   "vi": "Một chiếc thang dài 13 m dựa vào tường; chân thang cách tường \\(x\\) m, đỉnh thang cao \\(\\sqrt{169-x^2}\\) m. Đỉnh thang ở độ cao 12 m khi \\(x=\\)…",
+   "options": [
+    "\\(7\\text{ m}\\)",
+    "\\(1\\text{ m}\\)",
+    "\\(5\\text{ m}\\)",
+    "\\(8\\text{ m}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(169-x^2=144\\Rightarrow x^2=25\\), \\(x\\gt0\\).",
+   "explain_vi": "Đáp án c. \\(169-x^2=144\\Rightarrow x^2=25\\), \\(x\\gt0\\Rightarrow x=5\\).",
+   "images": [],
+   "id": "0c2438a71051",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "A rectangle has perimeter \\(#\\) m and diagonal \\(#\\) m. Its sides are…",
+   "en": "A rectangle has perimeter \\(34\\) m and diagonal \\(13\\) m. Its sides are…",
+   "vi": "Một hình chữ nhật có chu vi \\(34\\) m và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b> \\(13\\) m. Hai cạnh là…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">6 m and 11 m</span><span class=\"vi\">6 m và 11 m</span></span>",
+    "<span class=\"txi\"><span class=\"en\">7 m and 10 m</span><span class=\"vi\">7 m và 10 m</span></span>",
+    "<span class=\"txi\"><span class=\"en\">5 m and 12 m</span><span class=\"vi\">5 m và 12 m</span></span>",
+    "<span class=\"txi\"><span class=\"en\">4 m and 13 m</span><span class=\"vi\">4 m và 13 m</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(x+y=17\\), \\(x^2+y^2=169\\Rightarrow x^2-17x+60=0\\).",
+   "explain_vi": "Đáp án c. \\(x+y=17\\), \\(x^2+y^2=169\\Rightarrow x^2-17x+60=0\\).",
+   "images": [],
+   "id": "5808caea59d3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "After squaring \\(\\sqrt{-#x-#}=x+#\\) we get the roots -# and -#. Which is extraneous?",
+   "en": "After squaring \\(\\sqrt{-3x-3}=x+1\\) we get the roots -4 and -1. Which is extraneous?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"square both sides\">Bình phương hai vế</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(\\sqrt{-3x-3}=x+1\\) được hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b> -4 và -1. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">Nghiệm</b> nào là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"extraneous root\">nghiệm ngoại lai</b>?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">neither</span><span class=\"vi\">không có</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(x=-1\\)</span><span class=\"vi\">\\(x=-1\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(x=-4\\)</span><span class=\"vi\">\\(x=-4\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">both</span><span class=\"vi\">cả hai</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. At \\(x=-4\\) the right side is \\(-3\\lt0\\).",
+   "explain_vi": "Đáp án c. Tại \\(x=-4\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"right-hand side (RHS)\">vế phải</b> bằng \\(-3\\lt0\\).",
+   "images": [],
+   "id": "7d5f5fc56067",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "How many real roots does \\(x^{#}-#x^#+#=#\\) have?",
+   "en": "How many real roots does \\(x^{4}-13x^2+36=0\\) have?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">Phương trình</b> \\(x^{4}-13x^2+36=0\\) có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b> thực?",
+   "options": [
+    "\\(1\\)",
+    "\\(2\\)",
+    "\\(0\\)",
+    "\\(4\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Put \\(t=x^2\\ge0\\): \\(t=4\\) or \\(t=9\\).",
+   "explain_vi": "Đáp án d. Đặt \\(t=x^2\\ge0\\): \\(t=4\\) hoặc \\(t=9\\); mỗi \\(t\\gt0\\) cho 2 <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b>, \\(t=0\\) cho 1 <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b>.",
+   "images": [],
+   "id": "680c830cee97",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Solve \\(\\sqrt{#x+#}=x+#\\).",
+   "en": "Solve \\(\\sqrt{2x+7}=x+2\\).",
+   "vi": "Giải <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(\\sqrt{2x+7}=x+2\\).",
+   "options": [
+    "\\(S=\\{-3\\}\\)",
+    "\\(S=\\{-3;\\,1\\}\\)",
+    "\\(S=\\{1\\}\\)",
+    "\\(S=\\varnothing\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Square (with \\(x\\ge-2\\)): roots 1, -3; only \\(x=1\\) satisfies \\(x\\ge-2\\).",
+   "explain_vi": "Đáp án c. Điều kiện \\(x\\ge-2\\); bình phương được hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b> 1, -3; chỉ \\(x=1\\) thỏa mãn.",
+   "images": [],
+   "id": "8478f3d85a2d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Solve \\(\\sqrt{x+#}=x-#\\).",
+   "en": "Solve \\(\\sqrt{x+28}=x-2\\).",
+   "vi": "Giải <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(\\sqrt{x+28}=x-2\\).",
+   "options": [
+    "\\(S=\\varnothing\\)",
+    "\\(S=\\{8\\}\\)",
+    "\\(S=\\{-3;\\,8\\}\\)",
+    "\\(S=\\{-3\\}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Square (with \\(x\\ge2\\)): roots 8, -3; only \\(x=8\\) satisfies \\(x\\ge2\\).",
+   "explain_vi": "Đáp án b. Điều kiện \\(x\\ge2\\); bình phương được hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b> 8, -3; chỉ \\(x=8\\) thỏa mãn.",
+   "images": [],
+   "id": "06dee3b66a41",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Solve \\(\\sqrt{x^#-x-#}=\\sqrt{#x}\\).",
+   "en": "Solve \\(\\sqrt{x^2-x-4}=\\sqrt{2x}\\).",
+   "vi": "Giải <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(\\sqrt{x^2-x-4}=\\sqrt{2x}\\).",
+   "options": [
+    "\\(S=\\{-1;\\,4\\}\\)",
+    "\\(S=\\{4\\}\\)",
+    "\\(S=\\{1\\}\\)",
+    "\\(S=\\varnothing\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Square: \\(x^2-3x-4=0\\), roots -1, 4; keep those with \\(2x\\ge0\\).",
+   "explain_vi": "Đáp án b. Bình phương: \\(x^2-3x-4=0\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b> -1, 4; giữ <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b> thỏa \\(2x\\ge0\\).",
+   "images": [],
+   "id": "cf2594b57c7d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The sum of all solutions of \\(\\sqrt{-#x+#}=x-#\\) is…",
+   "en": "The sum of all solutions of \\(\\sqrt{-2x+17}=x-1\\) is…",
+   "vi": "Tổng các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution of an equation\">nghiệm của phương trình</b> \\(\\sqrt{-2x+17}=x-1\\) là…",
+   "options": [
+    "\\(8\\)",
+    "\\(-4\\)",
+    "\\(0\\)",
+    "\\(4\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Only \\(x=4\\) is a solution.",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">Phương trình</b> chỉ có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b> \\(x=4\\) (loại \\(x=-4\\)).",
+   "images": [],
+   "id": "b647c4f974c1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "How many real roots does \\(x^{#}-#x^#=#\\) have?",
+   "en": "How many real roots does \\(x^{4}-4x^2=0\\) have?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">Phương trình</b> \\(x^{4}-4x^2=0\\) có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b> thực?",
+   "options": [
+    "\\(0\\)",
+    "\\(1\\)",
+    "\\(3\\)",
+    "\\(2\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(t=x^2\\): \\(t=0\\) or \\(t=4\\).",
+   "explain_vi": "Đáp án c. \\(t=x^2\\): \\(t=0\\) hoặc \\(t=4\\).",
+   "images": [],
+   "id": "7bb6845fff98",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Solve \\(\\sqrt{-x+#}=x+#\\).",
+   "en": "Solve \\(\\sqrt{-x+11}=x+1\\).",
+   "vi": "Giải <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(\\sqrt{-x+11}=x+1\\).",
+   "options": [
+    "\\(S=\\{-5;\\,2\\}\\)",
+    "\\(S=\\{-5\\}\\)",
+    "\\(S=\\{2\\}\\)",
+    "\\(S=\\varnothing\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Need \\(x\\ge-1\\); squaring gives 2 and -5.",
+   "explain_vi": "Đáp án c. Cần \\(x\\ge-1\\); bình phương được 2 và -5, loại -5.",
+   "images": [],
+   "id": "1a59c549a820",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Solve \\(\\sqrt{x^#+#x-#}=\\sqrt{#x+#}\\).",
+   "en": "Solve \\(\\sqrt{x^2+3x-5}=\\sqrt{2x+1}\\).",
+   "vi": "Giải <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(\\sqrt{x^2+3x-5}=\\sqrt{2x+1}\\).",
+   "options": [
+    "\\(S=\\{-3;\\,2\\}\\)",
+    "\\(S=\\{2\\}\\)",
+    "\\(S=\\{-3\\}\\)",
+    "\\(S=\\varnothing\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Squaring: roots -3, 2; check \\(2x+1\\ge0\\).",
+   "explain_vi": "Đáp án b. Bình phương: <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b> -3, 2; kiểm tra \\(2x+1\\ge0\\).",
+   "images": [],
+   "id": "76a209312d88",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(x=#\\) is an extraneous root of \\(\\sqrt{#x-#}=x-#\\) (after squaring we get \\(x=#\\), \\(x=#\\)).",
+   "en": "\\(x=5\\) is an extraneous root of \\(\\sqrt{2x-1}=x-2\\) (after squaring we get \\(x=5\\), \\(x=1\\)).",
+   "vi": "\\(x=5\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"extraneous root\">nghiệm ngoại lai</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(\\sqrt{2x-1}=x-2\\) (sau khi bình phương được \\(x=5\\), \\(x=1\\)).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "At \\(x=5\\) the right side is \\(3\\).",
+   "explain_vi": "Tại \\(x=5\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"right-hand side (RHS)\">vế phải</b> bằng \\(3\\).",
+   "images": [],
+   "id": "45f35de9a96e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(x=#\\) satisfies \\(\\sqrt{#x^#-#}=x-#\\).",
+   "en": "\\(x=4\\) satisfies \\(\\sqrt{2x^2-23}=x-1\\).",
+   "vi": "\\(x=4\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution of an equation\">nghiệm của phương trình</b> \\(\\sqrt{2x^2-23}=x-1\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "Left side \\(\\sqrt{9}\\), right side \\(3\\).",
+   "explain_vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"left-hand side (LHS)\">Vế trái</b> \\(\\sqrt{9}\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"right-hand side (RHS)\">vế phải</b> \\(3\\).",
+   "images": [],
+   "id": "a6c2f16645db",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "A \\(#\\) m pole; a rope from its top to the ground, \\(x\\) m from the foot, is \\(#\\) m shorter than \\(#x\\). Find \\(x\\) (m).",
+   "en": "A \\(9\\) m pole; a rope from its top to the ground, \\(x\\) m from the foot, is \\(9\\) m shorter than \\(2x\\). Find \\(x\\) (m).",
+   "vi": "Cột cao \\(9\\) m; dây nối đỉnh cột với điểm trên mặt đất cách chân cột \\(x\\) m, ngắn hơn \\(2x\\) là \\(9\\) m. Tìm \\(x\\) (m).",
+   "options": [],
+   "answer": "12",
+   "explain_en": "\\(\\sqrt{x^2+81}=2x-9\\Rightarrow3x^2-36x=0\\), \\(x=12\\) (reject 0).",
+   "explain_vi": "\\(\\sqrt{x^2+81}=2x-9\\Rightarrow3x^2-36x=0\\), \\(x=12\\) (loại \\(x=0\\)).",
+   "images": [],
+   "id": "133a63400b46",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "Find the sum of all solutions of \\(\\sqrt{#x+#}=x+#\\).",
+   "en": "Find the sum of all solutions of \\(\\sqrt{8x+1}=x+2\\).",
+   "vi": "Tính tổng các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution of an equation\">nghiệm của phương trình</b> \\(\\sqrt{8x+1}=x+2\\).",
+   "options": [],
+   "answer": "4",
+   "explain_en": "Valid roots: 3, 1.",
+   "explain_vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">Nghiệm</b> thỏa mãn: 3, 1.",
+   "images": [],
+   "id": "41b57a5b1f5c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "A # m ladder leans on a wall; its foot is \\(x\\) m from the wall and its top is \\(\\sqrt{#-x^#}\\) m high. The top is at \\(#\\) m when \\(x=\\)…",
+   "en": "A 17 m ladder leans on a wall; its foot is \\(x\\) m from the wall and its top is \\(\\sqrt{289-x^2}\\) m high. The top is at \\(15\\) m when \\(x=\\)…",
+   "vi": "Một chiếc thang dài 17 m dựa vào tường; chân thang cách tường \\(x\\) m, đỉnh thang cao \\(\\sqrt{289-x^2}\\) m. Đỉnh thang ở độ cao 15 m khi \\(x=\\)…",
+   "options": [
+    "\\(2\\text{ m}\\)",
+    "\\(10\\text{ m}\\)",
+    "\\(9\\text{ m}\\)",
+    "\\(8\\text{ m}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(289-x^2=225\\Rightarrow x^2=64\\), \\(x\\gt0\\).",
+   "explain_vi": "Đáp án d. \\(289-x^2=225\\Rightarrow x^2=64\\), \\(x\\gt0\\Rightarrow x=8\\).",
+   "images": [],
+   "id": "3901cfd2edb5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "A rectangle has perimeter \\(#\\) m and diagonal \\(#\\) m. Its sides are…",
+   "en": "A rectangle has perimeter \\(62\\) m and diagonal \\(25\\) m. Its sides are…",
+   "vi": "Một hình chữ nhật có chu vi \\(62\\) m và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b> \\(25\\) m. Hai cạnh là…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">7 m and 24 m</span><span class=\"vi\">7 m và 24 m</span></span>",
+    "<span class=\"txi\"><span class=\"en\">9 m and 22 m</span><span class=\"vi\">9 m và 22 m</span></span>",
+    "<span class=\"txi\"><span class=\"en\">6 m and 25 m</span><span class=\"vi\">6 m và 25 m</span></span>",
+    "<span class=\"txi\"><span class=\"en\">8 m and 23 m</span><span class=\"vi\">8 m và 23 m</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(x+y=31\\), \\(x^2+y^2=625\\Rightarrow x^2-31x+168=0\\).",
+   "explain_vi": "Đáp án a. \\(x+y=31\\), \\(x^2+y^2=625\\Rightarrow x^2-31x+168=0\\).",
+   "images": [],
+   "id": "10724092e413",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "After squaring \\(\\sqrt{-x+#}=x-#\\) we get the roots -# and #. Which is extraneous?",
+   "en": "After squaring \\(\\sqrt{-x+7}=x-1\\) we get the roots -2 and 3. Which is extraneous?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"square both sides\">Bình phương hai vế</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(\\sqrt{-x+7}=x-1\\) được hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b> -2 và 3. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">Nghiệm</b> nào là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"extraneous root\">nghiệm ngoại lai</b>?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(x=-2\\)</span><span class=\"vi\">\\(x=-2\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">both</span><span class=\"vi\">cả hai</span></span>",
+    "<span class=\"txi\"><span class=\"en\">neither</span><span class=\"vi\">không có</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(x=3\\)</span><span class=\"vi\">\\(x=3\\)</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. At \\(x=-2\\) the right side is \\(-3\\lt0\\).",
+   "explain_vi": "Đáp án a. Tại \\(x=-2\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"right-hand side (RHS)\">vế phải</b> bằng \\(-3\\lt0\\).",
+   "images": [],
+   "id": "4a483adb2c6b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "How many real roots does \\(x^{#}+#x^#-#=#\\) have?",
+   "en": "How many real roots does \\(x^{4}+3x^2-4=0\\) have?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">Phương trình</b> \\(x^{4}+3x^2-4=0\\) có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b> thực?",
+   "options": [
+    "\\(0\\)",
+    "\\(2\\)",
+    "\\(1\\)",
+    "\\(3\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Put \\(t=x^2\\ge0\\): \\(t=1\\) or \\(t=-4\\).",
+   "explain_vi": "Đáp án b. Đặt \\(t=x^2\\ge0\\): \\(t=1\\) hoặc \\(t=-4\\); mỗi \\(t\\gt0\\) cho 2 <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b>, \\(t=0\\) cho 1 <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b>.",
+   "images": [],
+   "id": "aad8f63475a9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Solve \\(\\sqrt{#x+#}=x-#\\).",
+   "en": "Solve \\(\\sqrt{2x+13}=x-1\\).",
+   "vi": "Giải <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(\\sqrt{2x+13}=x-1\\).",
+   "options": [
+    "\\(S=\\{-2;\\,6\\}\\)",
+    "\\(S=\\{-2\\}\\)",
+    "\\(S=\\{6\\}\\)",
+    "\\(S=\\varnothing\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Square (with \\(x\\ge1\\)): roots 6, -2; only \\(x=6\\) satisfies \\(x\\ge1\\).",
+   "explain_vi": "Đáp án c. Điều kiện \\(x\\ge1\\); bình phương được hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b> 6, -2; chỉ \\(x=6\\) thỏa mãn.",
+   "images": [],
+   "id": "b7352d89eaf5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Solve \\(\\sqrt{-x+#}=x+#\\).",
+   "en": "Solve \\(\\sqrt{-x+10}=x+2\\).",
+   "vi": "Giải <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(\\sqrt{-x+10}=x+2\\).",
+   "options": [
+    "\\(S=\\{-6;\\,1\\}\\)",
+    "\\(S=\\{-6\\}\\)",
+    "\\(S=\\varnothing\\)",
+    "\\(S=\\{1\\}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Square (with \\(x\\ge-2\\)): roots 1, -6; only \\(x=1\\) satisfies \\(x\\ge-2\\).",
+   "explain_vi": "Đáp án d. Điều kiện \\(x\\ge-2\\); bình phương được hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b> 1, -6; chỉ \\(x=1\\) thỏa mãn.",
+   "images": [],
+   "id": "55d13960c7a2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Solve \\(\\sqrt{x^#+#x-#}=\\sqrt{#x+#}\\).",
+   "en": "Solve \\(\\sqrt{x^2+5x-5}=\\sqrt{3x+3}\\).",
+   "vi": "Giải <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(\\sqrt{x^2+5x-5}=\\sqrt{3x+3}\\).",
+   "options": [
+    "\\(S=\\{4\\}\\)",
+    "\\(S=\\{-4;\\,2\\}\\)",
+    "\\(S=\\{2\\}\\)",
+    "\\(S=\\varnothing\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Square: \\(x^2+2x-8=0\\), roots -4, 2; keep those with \\(3x+3\\ge0\\).",
+   "explain_vi": "Đáp án c. Bình phương: \\(x^2+2x-8=0\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b> -4, 2; giữ <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b> thỏa \\(3x+3\\ge0\\).",
+   "images": [],
+   "id": "b4822774308e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The sum of all solutions of \\(\\sqrt{#x-#}=x-#\\) is…",
+   "en": "The sum of all solutions of \\(\\sqrt{4x-7}=x-3\\) is…",
+   "vi": "Tổng các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution of an equation\">nghiệm của phương trình</b> \\(\\sqrt{4x-7}=x-3\\) là…",
+   "options": [
+    "\\(10\\)",
+    "\\(6\\)",
+    "\\(2\\)",
+    "\\(8\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Only \\(x=8\\) is a solution.",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">Phương trình</b> chỉ có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b> \\(x=8\\) (loại \\(x=2\\)).",
+   "images": [],
+   "id": "53cb3826d7f1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "How many real roots does \\(x^{#}-#x^#-#=#\\) have?",
+   "en": "How many real roots does \\(x^{4}-12x^2-64=0\\) have?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">Phương trình</b> \\(x^{4}-12x^2-64=0\\) có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b> thực?",
+   "options": [
+    "\\(0\\)",
+    "\\(1\\)",
+    "\\(2\\)",
+    "\\(3\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(t=x^2\\): \\(t=-4\\) or \\(t=16\\).",
+   "explain_vi": "Đáp án c. \\(t=x^2\\): \\(t=-4\\) hoặc \\(t=16\\).",
+   "images": [],
+   "id": "3548dfa3a958",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Solve \\(\\sqrt{x+#}=x-#\\).",
+   "en": "Solve \\(\\sqrt{x+10}=x-2\\).",
+   "vi": "Giải <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(\\sqrt{x+10}=x-2\\).",
+   "options": [
+    "\\(S=\\{-1;\\,6\\}\\)",
+    "\\(S=\\{-1\\}\\)",
+    "\\(S=\\{6\\}\\)",
+    "\\(S=\\varnothing\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Need \\(x\\ge2\\); squaring gives 6 and -1.",
+   "explain_vi": "Đáp án c. Cần \\(x\\ge2\\); bình phương được 6 và -1, loại -1.",
+   "images": [],
+   "id": "4c164c680af3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Solve \\(\\sqrt{x^#-#x-#}=\\sqrt{-x+#}\\).",
+   "en": "Solve \\(\\sqrt{x^2-4x-7}=\\sqrt{-x+3}\\).",
+   "vi": "Giải <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(\\sqrt{x^2-4x-7}=\\sqrt{-x+3}\\).",
+   "options": [
+    "\\(S=\\{-2;\\,5\\}\\)",
+    "\\(S=\\{5\\}\\)",
+    "\\(S=\\{-2\\}\\)",
+    "\\(S=\\varnothing\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Squaring: roots -2, 5; check \\(-x+3\\ge0\\).",
+   "explain_vi": "Đáp án c. Bình phương: <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b> -2, 5; kiểm tra \\(-x+3\\ge0\\).",
+   "images": [],
+   "id": "932182754407",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(x=#\\) satisfies \\(\\sqrt{x^#+#}=x-#\\).",
+   "en": "\\(x=5\\) satisfies \\(\\sqrt{x^2+7}=x-1\\).",
+   "vi": "\\(x=5\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution of an equation\">nghiệm của phương trình</b> \\(\\sqrt{x^2+7}=x-1\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "Left side \\(\\sqrt{32}\\), right side \\(4\\).",
+   "explain_vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"left-hand side (LHS)\">Vế trái</b> \\(\\sqrt{32}\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"right-hand side (RHS)\">vế phải</b> \\(4\\).",
+   "images": [],
+   "id": "a2ccbabba583",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(x=-#\\) is an extraneous root of \\(\\sqrt{x+#}=x+#\\) (after squaring we get \\(x=#\\), \\(x=-#\\)).",
+   "en": "\\(x=-4\\) is an extraneous root of \\(\\sqrt{x+13}=x+1\\) (after squaring we get \\(x=3\\), \\(x=-4\\)).",
+   "vi": "\\(x=-4\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"extraneous root\">nghiệm ngoại lai</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(\\sqrt{x+13}=x+1\\) (sau khi bình phương được \\(x=3\\), \\(x=-4\\)).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "At \\(x=-4\\) the right side is \\(-3\\).",
+   "explain_vi": "Tại \\(x=-4\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"right-hand side (RHS)\">vế phải</b> bằng \\(-3\\).",
+   "images": [],
+   "id": "e4616f4cee6e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "A \\(#\\) m pole; a rope from its top to the ground, \\(x\\) m from the foot, is \\(#\\) m shorter than \\(#x\\). Find \\(x\\) (m).",
+   "en": "A \\(3\\) m pole; a rope from its top to the ground, \\(x\\) m from the foot, is \\(3\\) m shorter than \\(2x\\). Find \\(x\\) (m).",
+   "vi": "Cột cao \\(3\\) m; dây nối đỉnh cột với điểm trên mặt đất cách chân cột \\(x\\) m, ngắn hơn \\(2x\\) là \\(3\\) m. Tìm \\(x\\) (m).",
+   "options": [],
+   "answer": "4",
+   "explain_en": "\\(\\sqrt{x^2+9}=2x-3\\Rightarrow3x^2-12x=0\\), \\(x=4\\) (reject 0).",
+   "explain_vi": "\\(\\sqrt{x^2+9}=2x-3\\Rightarrow3x^2-12x=0\\), \\(x=4\\) (loại \\(x=0\\)).",
+   "images": [],
+   "id": "a4a9482849eb",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Find the sum of all solutions of \\(\\sqrt{#x-#}=x-#\\).",
+   "en": "Find the sum of all solutions of \\(\\sqrt{5x-9}=x-1\\).",
+   "vi": "Tính tổng các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution of an equation\">nghiệm của phương trình</b> \\(\\sqrt{5x-9}=x-1\\).",
+   "options": [],
+   "answer": "7",
+   "explain_en": "Valid roots: 5, 2.",
+   "explain_vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">Nghiệm</b> thỏa mãn: 5, 2.",
+   "images": [],
+   "id": "9948a0fe5a9a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "A # m ladder leans on a wall; its foot is \\(x\\) m from the wall and its top is \\(\\sqrt{#-x^#}\\) m high. The top is at \\(#\\) m when \\(x=\\)…",
+   "en": "A 15 m ladder leans on a wall; its foot is \\(x\\) m from the wall and its top is \\(\\sqrt{225-x^2}\\) m high. The top is at \\(12\\) m when \\(x=\\)…",
+   "vi": "Một chiếc thang dài 15 m dựa vào tường; chân thang cách tường \\(x\\) m, đỉnh thang cao \\(\\sqrt{225-x^2}\\) m. Đỉnh thang ở độ cao 12 m khi \\(x=\\)…",
+   "options": [
+    "\\(6\\text{ m}\\)",
+    "\\(9\\text{ m}\\)",
+    "\\(11\\text{ m}\\)",
+    "\\(3\\text{ m}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(225-x^2=144\\Rightarrow x^2=81\\), \\(x\\gt0\\).",
+   "explain_vi": "Đáp án b. \\(225-x^2=144\\Rightarrow x^2=81\\), \\(x\\gt0\\Rightarrow x=9\\).",
+   "images": [],
+   "id": "584be89539e4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "A rectangle has perimeter \\(#\\) m and diagonal \\(#\\) m. Its sides are…",
+   "en": "A rectangle has perimeter \\(42\\) m and diagonal \\(15\\) m. Its sides are…",
+   "vi": "Một hình chữ nhật có chu vi \\(42\\) m và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b> \\(15\\) m. Hai cạnh là…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">8 m and 13 m</span><span class=\"vi\">8 m và 13 m</span></span>",
+    "<span class=\"txi\"><span class=\"en\">11 m and 10 m</span><span class=\"vi\">11 m và 10 m</span></span>",
+    "<span class=\"txi\"><span class=\"en\">9 m and 12 m</span><span class=\"vi\">9 m và 12 m</span></span>",
+    "<span class=\"txi\"><span class=\"en\">10 m and 11 m</span><span class=\"vi\">10 m và 11 m</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(x+y=21\\), \\(x^2+y^2=225\\Rightarrow x^2-21x+108=0\\).",
+   "explain_vi": "Đáp án c. \\(x+y=21\\), \\(x^2+y^2=225\\Rightarrow x^2-21x+108=0\\).",
+   "images": [],
+   "id": "4fc54cc3a0b3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "After squaring \\(\\sqrt{-#x}=x\\) we get the roots -# and #. Which is extraneous?",
+   "en": "After squaring \\(\\sqrt{-2x}=x\\) we get the roots -2 and 0. Which is extraneous?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"square both sides\">Bình phương hai vế</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(\\sqrt{-2x}=x\\) được hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b> -2 và 0. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">Nghiệm</b> nào là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"extraneous root\">nghiệm ngoại lai</b>?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">both</span><span class=\"vi\">cả hai</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(x=-2\\)</span><span class=\"vi\">\\(x=-2\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(x=0\\)</span><span class=\"vi\">\\(x=0\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">neither</span><span class=\"vi\">không có</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. At \\(x=-2\\) the right side is \\(-2\\lt0\\).",
+   "explain_vi": "Đáp án b. Tại \\(x=-2\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"right-hand side (RHS)\">vế phải</b> bằng \\(-2\\lt0\\).",
+   "images": [],
+   "id": "4c45c161b9fb",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "How many real roots does \\(x^{#}-#x^#=#\\) have?",
+   "en": "How many real roots does \\(x^{4}-16x^2=0\\) have?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">Phương trình</b> \\(x^{4}-16x^2=0\\) có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b> thực?",
+   "options": [
+    "\\(1\\)",
+    "\\(0\\)",
+    "\\(3\\)",
+    "\\(2\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Put \\(t=x^2\\ge0\\): \\(t=16\\) or \\(t=0\\).",
+   "explain_vi": "Đáp án c. Đặt \\(t=x^2\\ge0\\): \\(t=16\\) hoặc \\(t=0\\); mỗi \\(t\\gt0\\) cho 2 <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b>, \\(t=0\\) cho 1 <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b>.",
+   "images": [],
+   "id": "d37c1796c5d7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Solve \\(\\sqrt{#x+#}=x\\).",
+   "en": "Solve \\(\\sqrt{2x+24}=x\\).",
+   "vi": "Giải <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(\\sqrt{2x+24}=x\\).",
+   "options": [
+    "\\(S=\\{6\\}\\)",
+    "\\(S=\\varnothing\\)",
+    "\\(S=\\{-4\\}\\)",
+    "\\(S=\\{-4;\\,6\\}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Square (with \\(x\\ge0\\)): roots 6, -4; only \\(x=6\\) satisfies \\(x\\ge0\\).",
+   "explain_vi": "Đáp án a. Điều kiện \\(x\\ge0\\); bình phương được hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b> 6, -4; chỉ \\(x=6\\) thỏa mãn.",
+   "images": [],
+   "id": "23c86b62f1ec",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Solve \\(\\sqrt{-#x-#}=x+#\\).",
+   "en": "Solve \\(\\sqrt{-2x-2}=x+1\\).",
+   "vi": "Giải <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(\\sqrt{-2x-2}=x+1\\).",
+   "options": [
+    "\\(S=\\{-1\\}\\)",
+    "\\(S=\\{-3;\\,-1\\}\\)",
+    "\\(S=\\varnothing\\)",
+    "\\(S=\\{-3\\}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Square (with \\(x\\ge-1\\)): roots -1, -3; only \\(x=-1\\) satisfies \\(x\\ge-1\\).",
+   "explain_vi": "Đáp án a. Điều kiện \\(x\\ge-1\\); bình phương được hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b> -1, -3; chỉ \\(x=-1\\) thỏa mãn.",
+   "images": [],
+   "id": "9f028e24e3c6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Solve \\(\\sqrt{x^#+#x+#}=\\sqrt{#x+#}\\).",
+   "en": "Solve \\(\\sqrt{x^2+3x+1}=\\sqrt{3x+5}\\).",
+   "vi": "Giải <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(\\sqrt{x^2+3x+1}=\\sqrt{3x+5}\\).",
+   "options": [
+    "\\(S=\\{7\\}\\)",
+    "\\(S=\\varnothing\\)",
+    "\\(S=\\{-2;\\,2\\}\\)",
+    "\\(S=\\{2\\}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Square: \\(x^2-4=0\\), roots -2, 2; keep those with \\(3x+5\\ge0\\).",
+   "explain_vi": "Đáp án d. Bình phương: \\(x^2-4=0\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b> -2, 2; giữ <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b> thỏa \\(3x+5\\ge0\\).",
+   "images": [],
+   "id": "0b4a8552e8e8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The sum of all solutions of \\(\\sqrt{-#x+#}=x+#\\) is…",
+   "en": "The sum of all solutions of \\(\\sqrt{-3x+1}=x+1\\) is…",
+   "vi": "Tổng các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution of an equation\">nghiệm của phương trình</b> \\(\\sqrt{-3x+1}=x+1\\) là…",
+   "options": [
+    "\\(1\\)",
+    "\\(5\\)",
+    "\\(0\\)",
+    "\\(-5\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Only \\(x=0\\) is a solution.",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">Phương trình</b> chỉ có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b> \\(x=0\\) (loại \\(x=-5\\)).",
+   "images": [],
+   "id": "2bb7984051ff",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  }
+ ]
+}

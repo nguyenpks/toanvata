@@ -1,0 +1,1029 @@
+{
+ "lesson": "g10-vec-01",
+ "grade": 10,
+ "no": 7,
+ "title": "Các khái niệm mở đầu về vectơ",
+ "path": "lessons/grade10/vectors/vector-concepts.html",
+ "items": [
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "ABCD is a parallelogram with centre O. Which vector equals \\(\\overrightarrow{AB}\\)?",
+   "en": "ABCD is a parallelogram with centre O. Which vector equals \\(\\overrightarrow{AB}\\)?",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelogram\">hình bình hành</b> ABCD tâm O. Vectơ nào bằng \\(\\overrightarrow{AB}\\)?",
+   "options": [
+    "\\(\\overrightarrow{CD}\\)",
+    "\\(\\overrightarrow{DC}\\)",
+    "\\(\\overrightarrow{BA}\\)",
+    "\\(\\overrightarrow{AC}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Same direction and same length: \\(\\overrightarrow{AB}=\\overrightarrow{DC}\\).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"same direction\">Cùng hướng</b> và cùng độ dài: \\(\\overrightarrow{AB}=\\overrightarrow{DC}\\).",
+   "images": [],
+   "id": "5696e329d3fe",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "ABCD is a square with side #. Then \\(|\\overrightarrow{AC}|^#\\) equals…",
+   "en": "ABCD is a square with side 3. Then \\(|\\overrightarrow{AC}|^2\\) equals…",
+   "vi": "ABCD là hình vuông cạnh 3. Khi đó \\(|\\overrightarrow{AC}|^2\\) bằng…",
+   "options": [
+    "\\(9\\)",
+    "\\(36\\)",
+    "\\(6\\)",
+    "\\(18\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. The diagonal \\(AC=a\\sqrt2\\).",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">Đường chéo</b> \\(AC=a\\sqrt2\\).",
+   "images": [],
+   "id": "fe3f7e8c995c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "There are # points, no three on a line. The number of non-zero vectors with both ends among them is…",
+   "en": "There are 4 points, no three on a line. The number of non-zero vectors with both ends among them is…",
+   "vi": "Cho 4 điểm, không có ba điểm nào <b class=\"mbl-term\" tabindex=\"0\" data-en=\"collinear\">thẳng hàng</b>. Số vectơ khác <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero vector\">vectơ-không</b> có điểm đầu, điểm cuối thuộc các điểm đó là…",
+   "options": [
+    "\\(6\\)",
+    "\\(12\\)",
+    "\\(16\\)",
+    "\\(13\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Start: 4 ways, end: 3 ways.",
+   "explain_vi": "Đáp án b. Điểm đầu: 4 cách, điểm cuối: 3 cách.",
+   "images": [],
+   "id": "495c8da0f6bb",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "In the parallelogram ABCD, \\(\\overrightarrow{AB}=\\overrightarrow{DC}\\).",
+   "en": "In the parallelogram ABCD, \\(\\overrightarrow{AB}=\\overrightarrow{DC}\\).",
+   "vi": "Trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelogram\">hình bình hành</b> ABCD, \\(\\overrightarrow{AB}=\\overrightarrow{DC}\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "Equal vectors need the same direction and the same length.",
+   "explain_vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"equal vectors\">Hai vectơ bằng nhau</b> phải <b class=\"mbl-term\" tabindex=\"0\" data-en=\"same direction\">cùng hướng</b> và cùng độ dài.",
+   "images": [],
+   "id": "b77be1e47569",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "In the regular hexagon ABCDEF with centre O, \\(\\overrightarrow{OA}\\) and \\(\\overrightarrow{OD}\\) are opposite vectors.",
+   "en": "In the regular hexagon ABCDEF with centre O, \\(\\overrightarrow{OA}\\) and \\(\\overrightarrow{OD}\\) are opposite vectors.",
+   "vi": "Trong lục giác đều ABCDEF tâm O, \\(\\overrightarrow{OA}\\) và \\(\\overrightarrow{OD}\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"opposite vectors\">hai vectơ đối nhau</b>.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "Opposite vectors have the same length and opposite directions.",
+   "explain_vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"opposite vectors\">Hai vectơ đối nhau</b> có cùng độ dài và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"opposite directions\">ngược hướng</b>.",
+   "images": [],
+   "id": "690ad583c14b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "ABCD is a rectangle with AB = # and AD = #. Find \\(|\\overrightarrow{AC}|\\).",
+   "en": "ABCD is a rectangle with AB = 6 and AD = 8. Find \\(|\\overrightarrow{AC}|\\).",
+   "vi": "Hình chữ nhật ABCD có AB = 6, AD = 8. Tính \\(|\\overrightarrow{AC}|\\).",
+   "options": [],
+   "answer": "10",
+   "explain_en": "Pythagoras: \\(\\sqrt{6^2+8^2}=10\\).",
+   "explain_vi": "Định lí Pi-ta-go: \\(\\sqrt{6^2+8^2}=10\\).",
+   "images": [],
+   "id": "c868b155a23d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "There are # points, no three on a line. How many non-zero vectors have both ends among them?",
+   "en": "There are 5 points, no three on a line. How many non-zero vectors have both ends among them?",
+   "vi": "Có 5 điểm phân biệt, không có ba điểm nào <b class=\"mbl-term\" tabindex=\"0\" data-en=\"collinear\">thẳng hàng</b>. Có bao nhiêu vectơ khác <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero vector\">vectơ-không</b> có điểm đầu, điểm cuối thuộc các điểm đó?",
+   "options": [],
+   "answer": "20",
+   "explain_en": "5·4=20.",
+   "explain_vi": "5·4=20.",
+   "images": [],
+   "id": "644ce6ed2b04",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "ABCD is a rectangle with AB = # and AD = #. Then \\(|\\overrightarrow{AC}|=\\)…",
+   "en": "ABCD is a rectangle with AB = 6 and AD = 8. Then \\(|\\overrightarrow{AC}|=\\)…",
+   "vi": "ABCD là hình chữ nhật có AB = 6, AD = 8. Khi đó \\(|\\overrightarrow{AC}|=\\)…",
+   "options": [
+    "\\(8\\)",
+    "\\(11\\)",
+    "\\(10\\)",
+    "\\(14\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Pythagoras: \\(\\sqrt{6^2+8^2}=10\\).",
+   "explain_vi": "Đáp án c. Định lí Pi-ta-go: \\(\\sqrt{6^2+8^2}=10\\).",
+   "images": [],
+   "id": "2e9eff2b65cd",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "ABCD is a square with side #. Then \\(|\\overrightarrow{AC}|^#=\\)…",
+   "en": "ABCD is a square with side 3. Then \\(|\\overrightarrow{AC}|^2=\\)…",
+   "vi": "ABCD là hình vuông cạnh 3. Khi đó \\(|\\overrightarrow{AC}|^2=\\)…",
+   "options": [
+    "\\(6\\)",
+    "\\(9\\)",
+    "\\(36\\)",
+    "\\(18\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. The diagonal is \\(a\\sqrt2\\), so its square is \\(2a^2\\).",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">Đường chéo</b> dài \\(a\\sqrt2\\) nên bình phương bằng \\(2a^2\\).",
+   "images": [],
+   "id": "0de4ecfb83aa",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "ABCDEF is a regular hexagon with side #. Then \\(|\\overrightarrow{AD}|=\\)…",
+   "en": "ABCDEF is a regular hexagon with side 2. Then \\(|\\overrightarrow{AD}|=\\)…",
+   "vi": "ABCDEF là lục giác đều cạnh 2. Khi đó \\(|\\overrightarrow{AD}|=\\)…",
+   "options": [
+    "\\(2\\)",
+    "\\(4\\)",
+    "\\(8\\)",
+    "\\(6\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. AD passes through the centre: AD = 2·side.",
+   "explain_vi": "Đáp án b. AD đi qua tâm: AD bằng hai lần cạnh.",
+   "images": [],
+   "id": "8eb3ce41fc10",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "In the parallelogram \\(ABCD\\) with centre \\(O\\), which vector equals \\(\\overrightarrow{BC}\\)?",
+   "en": "In the parallelogram \\(ABCD\\) with centre \\(O\\), which vector equals \\(\\overrightarrow{BC}\\)?",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelogram\">hình bình hành</b> \\(ABCD\\) tâm \\(O\\). Vectơ nào bằng \\(\\overrightarrow{BC}\\)?",
+   "options": [
+    "\\(\\overrightarrow{BD}\\)",
+    "\\(\\overrightarrow{AB}\\)",
+    "\\(\\overrightarrow{AD}\\)",
+    "\\(\\overrightarrow{OC}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Equal vectors have the same direction and the same length: \\(\\overrightarrow{BC}=\\overrightarrow{AD}\\).",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equal vectors\">Hai vectơ bằng nhau</b> khi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"same direction\">cùng hướng</b> và cùng độ dài: \\(\\overrightarrow{BC}=\\overrightarrow{AD}\\).",
+   "images": [],
+   "id": "84af237523bd",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "In the regular hexagon \\(ABCDEF\\) with centre \\(O\\), which vector equals \\(\\overrightarrow{AE}\\)?",
+   "en": "In the regular hexagon \\(ABCDEF\\) with centre \\(O\\), which vector equals \\(\\overrightarrow{AE}\\)?",
+   "vi": "Cho lục giác đều \\(ABCDEF\\) tâm \\(O\\). Vectơ nào bằng \\(\\overrightarrow{AE}\\)?",
+   "options": [
+    "\\(\\overrightarrow{BD}\\)",
+    "\\(\\overrightarrow{BC}\\)",
+    "\\(\\overrightarrow{EA}\\)",
+    "\\(\\overrightarrow{CE}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Equal vectors have the same direction and the same length: \\(\\overrightarrow{AE}=\\overrightarrow{BD}\\).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equal vectors\">Hai vectơ bằng nhau</b> khi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"same direction\">cùng hướng</b> và cùng độ dài: \\(\\overrightarrow{AE}=\\overrightarrow{BD}\\).",
+   "images": [],
+   "id": "a09f5e97238b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "In the regular hexagon \\(ABCDEF\\) with centre \\(O\\), which vector equals \\(\\overrightarrow{DB}\\)?",
+   "en": "In the regular hexagon \\(ABCDEF\\) with centre \\(O\\), which vector equals \\(\\overrightarrow{DB}\\)?",
+   "vi": "Cho lục giác đều \\(ABCDEF\\) tâm \\(O\\). Vectơ nào bằng \\(\\overrightarrow{DB}\\)?",
+   "options": [
+    "\\(\\overrightarrow{DF}\\)",
+    "\\(\\overrightarrow{BD}\\)",
+    "\\(\\overrightarrow{EF}\\)",
+    "\\(\\overrightarrow{EA}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Equal vectors have the same direction and the same length: \\(\\overrightarrow{DB}=\\overrightarrow{EA}\\).",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equal vectors\">Hai vectơ bằng nhau</b> khi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"same direction\">cùng hướng</b> và cùng độ dài: \\(\\overrightarrow{DB}=\\overrightarrow{EA}\\).",
+   "images": [],
+   "id": "09dffc54bdf5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "There are # points, no three on a line. How many non-zero vectors have both endpoints among them?",
+   "en": "There are 7 points, no three on a line. How many non-zero vectors have both endpoints among them?",
+   "vi": "Cho 7 điểm phân biệt, không có ba điểm nào <b class=\"mbl-term\" tabindex=\"0\" data-en=\"collinear\">thẳng hàng</b>. Có bao nhiêu vectơ khác <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero vector\">vectơ-không</b> với điểm đầu, điểm cuối thuộc tập điểm đó?",
+   "options": [
+    "\\(42\\)",
+    "\\(41\\)",
+    "\\(49\\)",
+    "\\(21\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Choose the start (7 ways) and the end (6 ways): 42.",
+   "explain_vi": "Đáp án a. Chọn điểm đầu (7 cách), điểm cuối (6 cách): 42 vectơ.",
+   "images": [],
+   "id": "8e0a93f5cc1e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "There are # points, no three on a line. How many non-zero vectors have both endpoints among them?",
+   "en": "There are 3 points, no three on a line. How many non-zero vectors have both endpoints among them?",
+   "vi": "Cho 3 điểm phân biệt, không có ba điểm nào <b class=\"mbl-term\" tabindex=\"0\" data-en=\"collinear\">thẳng hàng</b>. Có bao nhiêu vectơ khác <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero vector\">vectơ-không</b> với điểm đầu, điểm cuối thuộc tập điểm đó?",
+   "options": [
+    "\\(5\\)",
+    "\\(3\\)",
+    "\\(6\\)",
+    "\\(9\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Choose the start (3 ways) and the end (2 ways): 6.",
+   "explain_vi": "Đáp án c. Chọn điểm đầu (3 cách), điểm cuối (2 cách): 6 vectơ.",
+   "images": [],
+   "id": "2c97fc3b6f80",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "ABCD is a parallelogram with centre O. Which vector equals \\(\\overrightarrow{AD}\\)?",
+   "en": "ABCD is a parallelogram with centre O. Which vector equals \\(\\overrightarrow{AD}\\)?",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelogram\">hình bình hành</b> ABCD tâm O. Vectơ nào bằng \\(\\overrightarrow{AD}\\)?",
+   "options": [
+    "\\(\\overrightarrow{CB}\\)",
+    "\\(\\overrightarrow{BC}\\)",
+    "\\(\\overrightarrow{DA}\\)",
+    "\\(\\overrightarrow{BD}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Same direction and same length: \\(\\overrightarrow{AD}=\\overrightarrow{BC}\\).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"same direction\">Cùng hướng</b> và cùng độ dài: \\(\\overrightarrow{AD}=\\overrightarrow{BC}\\).",
+   "images": [],
+   "id": "2b7947f4379e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "ABCD is a square with side #. Then \\(|\\overrightarrow{AC}|^#\\) equals…",
+   "en": "ABCD is a square with side 5. Then \\(|\\overrightarrow{AC}|^2\\) equals…",
+   "vi": "ABCD là hình vuông cạnh 5. Khi đó \\(|\\overrightarrow{AC}|^2\\) bằng…",
+   "options": [
+    "\\(25\\)",
+    "\\(100\\)",
+    "\\(10\\)",
+    "\\(50\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. The diagonal \\(AC=a\\sqrt2\\).",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">Đường chéo</b> \\(AC=a\\sqrt2\\).",
+   "images": [],
+   "id": "d920e025b492",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "There are # points, no three on a line. The number of non-zero vectors with both ends among them is…",
+   "en": "There are 5 points, no three on a line. The number of non-zero vectors with both ends among them is…",
+   "vi": "Cho 5 điểm, không có ba điểm nào <b class=\"mbl-term\" tabindex=\"0\" data-en=\"collinear\">thẳng hàng</b>. Số vectơ khác <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero vector\">vectơ-không</b> có điểm đầu, điểm cuối thuộc các điểm đó là…",
+   "options": [
+    "\\(10\\)",
+    "\\(20\\)",
+    "\\(25\\)",
+    "\\(21\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Start: 5 ways, end: 4 ways.",
+   "explain_vi": "Đáp án b. Điểm đầu: 5 cách, điểm cuối: 4 cách.",
+   "images": [],
+   "id": "fa35a2bd0b94",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "In the parallelogram ABCD, \\(\\overrightarrow{AB}=\\overrightarrow{CD}\\).",
+   "en": "In the parallelogram ABCD, \\(\\overrightarrow{AB}=\\overrightarrow{CD}\\).",
+   "vi": "Trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelogram\">hình bình hành</b> ABCD, \\(\\overrightarrow{AB}=\\overrightarrow{CD}\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "Equal vectors need the same direction and the same length.",
+   "explain_vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"equal vectors\">Hai vectơ bằng nhau</b> phải <b class=\"mbl-term\" tabindex=\"0\" data-en=\"same direction\">cùng hướng</b> và cùng độ dài.",
+   "images": [],
+   "id": "1e6e3896c220",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "In the regular hexagon ABCDEF with centre O, \\(\\overrightarrow{AB}\\) and \\(\\overrightarrow{DE}\\) are opposite vectors.",
+   "en": "In the regular hexagon ABCDEF with centre O, \\(\\overrightarrow{AB}\\) and \\(\\overrightarrow{DE}\\) are opposite vectors.",
+   "vi": "Trong lục giác đều ABCDEF tâm O, \\(\\overrightarrow{AB}\\) và \\(\\overrightarrow{DE}\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"opposite vectors\">hai vectơ đối nhau</b>.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "Opposite vectors have the same length and opposite directions.",
+   "explain_vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"opposite vectors\">Hai vectơ đối nhau</b> có cùng độ dài và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"opposite directions\">ngược hướng</b>.",
+   "images": [],
+   "id": "53a5106e990f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "ABCD is a rectangle with AB = # and AD = #. Find \\(|\\overrightarrow{AC}|\\).",
+   "en": "ABCD is a rectangle with AB = 5 and AD = 12. Find \\(|\\overrightarrow{AC}|\\).",
+   "vi": "Hình chữ nhật ABCD có AB = 5, AD = 12. Tính \\(|\\overrightarrow{AC}|\\).",
+   "options": [],
+   "answer": "13",
+   "explain_en": "Pythagoras: \\(\\sqrt{5^2+12^2}=13\\).",
+   "explain_vi": "Định lí Pi-ta-go: \\(\\sqrt{5^2+12^2}=13\\).",
+   "images": [],
+   "id": "8502809656c6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "There are # points, no three on a line. How many non-zero vectors have both ends among them?",
+   "en": "There are 6 points, no three on a line. How many non-zero vectors have both ends among them?",
+   "vi": "Có 6 điểm phân biệt, không có ba điểm nào <b class=\"mbl-term\" tabindex=\"0\" data-en=\"collinear\">thẳng hàng</b>. Có bao nhiêu vectơ khác <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero vector\">vectơ-không</b> có điểm đầu, điểm cuối thuộc các điểm đó?",
+   "options": [],
+   "answer": "30",
+   "explain_en": "6·5=30.",
+   "explain_vi": "6·5=30.",
+   "images": [],
+   "id": "692d824de98d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "ABCD is a rectangle with AB = # and AD = #. Then \\(|\\overrightarrow{AC}|=\\)…",
+   "en": "ABCD is a rectangle with AB = 7 and AD = 24. Then \\(|\\overrightarrow{AC}|=\\)…",
+   "vi": "ABCD là hình chữ nhật có AB = 7, AD = 24. Khi đó \\(|\\overrightarrow{AC}|=\\)…",
+   "options": [
+    "\\(26\\)",
+    "\\(31\\)",
+    "\\(25\\)",
+    "\\(24\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Pythagoras: \\(\\sqrt{7^2+24^2}=25\\).",
+   "explain_vi": "Đáp án c. Định lí Pi-ta-go: \\(\\sqrt{7^2+24^2}=25\\).",
+   "images": [],
+   "id": "952eb80eb2e7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "ABCDEF is a regular hexagon with side #. Then \\(|\\overrightarrow{AC}|^#=\\)…",
+   "en": "ABCDEF is a regular hexagon with side 4. Then \\(|\\overrightarrow{AC}|^2=\\)…",
+   "vi": "ABCDEF là lục giác đều cạnh 4. Khi đó \\(|\\overrightarrow{AC}|^2=\\)…",
+   "options": [
+    "\\(32\\)",
+    "\\(48\\)",
+    "\\(16\\)",
+    "\\(64\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(AC=a\\sqrt3\\) (law of cosines with \\(120^\\circ\\)).",
+   "explain_vi": "Đáp án b. \\(AC=a\\sqrt3\\) (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"law of cosines\">định lí cô-sin</b> với góc \\(120^\\circ\\)).",
+   "images": [],
+   "id": "9e47992c4db3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "ABCDEF is a regular hexagon with side #. Then \\(|\\overrightarrow{AC}|^#=\\)…",
+   "en": "ABCDEF is a regular hexagon with side 7. Then \\(|\\overrightarrow{AC}|^2=\\)…",
+   "vi": "ABCDEF là lục giác đều cạnh 7. Khi đó \\(|\\overrightarrow{AC}|^2=\\)…",
+   "options": [
+    "\\(98\\)",
+    "\\(196\\)",
+    "\\(49\\)",
+    "\\(147\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(AC=a\\sqrt3\\) (law of cosines with \\(120^\\circ\\)).",
+   "explain_vi": "Đáp án d. \\(AC=a\\sqrt3\\) (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"law of cosines\">định lí cô-sin</b> với góc \\(120^\\circ\\)).",
+   "images": [],
+   "id": "0620ed4dae30",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "In the parallelogram \\(ABCD\\) with centre \\(O\\), which vector equals \\(\\overrightarrow{DA}\\)?",
+   "en": "In the parallelogram \\(ABCD\\) with centre \\(O\\), which vector equals \\(\\overrightarrow{DA}\\)?",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelogram\">hình bình hành</b> \\(ABCD\\) tâm \\(O\\). Vectơ nào bằng \\(\\overrightarrow{DA}\\)?",
+   "options": [
+    "\\(\\overrightarrow{CB}\\)",
+    "\\(\\overrightarrow{CA}\\)",
+    "\\(\\overrightarrow{OA}\\)",
+    "\\(\\overrightarrow{CO}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Equal vectors have the same direction and the same length: \\(\\overrightarrow{DA}=\\overrightarrow{CB}\\).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equal vectors\">Hai vectơ bằng nhau</b> khi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"same direction\">cùng hướng</b> và cùng độ dài: \\(\\overrightarrow{DA}=\\overrightarrow{CB}\\).",
+   "images": [],
+   "id": "c5698767a83e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "In the parallelogram \\(ABCD\\) with centre \\(O\\), which vector equals \\(\\overrightarrow{DC}\\)?",
+   "en": "In the parallelogram \\(ABCD\\) with centre \\(O\\), which vector equals \\(\\overrightarrow{DC}\\)?",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelogram\">hình bình hành</b> \\(ABCD\\) tâm \\(O\\). Vectơ nào bằng \\(\\overrightarrow{DC}\\)?",
+   "options": [
+    "\\(\\overrightarrow{BA}\\)",
+    "\\(\\overrightarrow{AO}\\)",
+    "\\(\\overrightarrow{DA}\\)",
+    "\\(\\overrightarrow{AB}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Equal vectors have the same direction and the same length: \\(\\overrightarrow{DC}=\\overrightarrow{AB}\\).",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equal vectors\">Hai vectơ bằng nhau</b> khi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"same direction\">cùng hướng</b> và cùng độ dài: \\(\\overrightarrow{DC}=\\overrightarrow{AB}\\).",
+   "images": [],
+   "id": "869c24dfdc65",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "In the regular hexagon \\(ABCDEF\\) with centre \\(O\\), which vector equals \\(\\overrightarrow{DE}\\)?",
+   "en": "In the regular hexagon \\(ABCDEF\\) with centre \\(O\\), which vector equals \\(\\overrightarrow{DE}\\)?",
+   "vi": "Cho lục giác đều \\(ABCDEF\\) tâm \\(O\\). Vectơ nào bằng \\(\\overrightarrow{DE}\\)?",
+   "options": [
+    "\\(\\overrightarrow{CO}\\)",
+    "\\(\\overrightarrow{CB}\\)",
+    "\\(\\overrightarrow{AB}\\)",
+    "\\(\\overrightarrow{DC}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Equal vectors have the same direction and the same length: \\(\\overrightarrow{DE}=\\overrightarrow{CO}\\).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equal vectors\">Hai vectơ bằng nhau</b> khi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"same direction\">cùng hướng</b> và cùng độ dài: \\(\\overrightarrow{DE}=\\overrightarrow{CO}\\).",
+   "images": [],
+   "id": "dac89b3658fd",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "There are # points, no three on a line. How many non-zero vectors have both endpoints among them?",
+   "en": "There are 6 points, no three on a line. How many non-zero vectors have both endpoints among them?",
+   "vi": "Cho 6 điểm phân biệt, không có ba điểm nào <b class=\"mbl-term\" tabindex=\"0\" data-en=\"collinear\">thẳng hàng</b>. Có bao nhiêu vectơ khác <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero vector\">vectơ-không</b> với điểm đầu, điểm cuối thuộc tập điểm đó?",
+   "options": [
+    "\\(36\\)",
+    "\\(30\\)",
+    "\\(15\\)",
+    "\\(29\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Choose the start (6 ways) and the end (5 ways): 30.",
+   "explain_vi": "Đáp án b. Chọn điểm đầu (6 cách), điểm cuối (5 cách): 30 vectơ.",
+   "images": [],
+   "id": "3baa91c5bd62",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "There are # points, no three on a line. How many non-zero vectors have both endpoints among them?",
+   "en": "There are 4 points, no three on a line. How many non-zero vectors have both endpoints among them?",
+   "vi": "Cho 4 điểm phân biệt, không có ba điểm nào <b class=\"mbl-term\" tabindex=\"0\" data-en=\"collinear\">thẳng hàng</b>. Có bao nhiêu vectơ khác <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero vector\">vectơ-không</b> với điểm đầu, điểm cuối thuộc tập điểm đó?",
+   "options": [
+    "\\(16\\)",
+    "\\(11\\)",
+    "\\(6\\)",
+    "\\(12\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Choose the start (4 ways) and the end (3 ways): 12.",
+   "explain_vi": "Đáp án d. Chọn điểm đầu (4 cách), điểm cuối (3 cách): 12 vectơ.",
+   "images": [],
+   "id": "0a67e980c4d0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "ABCD is a parallelogram with centre O. Which vector equals \\(\\overrightarrow{BC}\\)?",
+   "en": "ABCD is a parallelogram with centre O. Which vector equals \\(\\overrightarrow{BC}\\)?",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelogram\">hình bình hành</b> ABCD tâm O. Vectơ nào bằng \\(\\overrightarrow{BC}\\)?",
+   "options": [
+    "\\(\\overrightarrow{DA}\\)",
+    "\\(\\overrightarrow{AD}\\)",
+    "\\(\\overrightarrow{CB}\\)",
+    "\\(\\overrightarrow{AC}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Same direction and same length: \\(\\overrightarrow{BC}=\\overrightarrow{AD}\\).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"same direction\">Cùng hướng</b> và cùng độ dài: \\(\\overrightarrow{BC}=\\overrightarrow{AD}\\).",
+   "images": [],
+   "id": "212e3faa5fee",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "ABCD is a square with side #. Then \\(|\\overrightarrow{AC}|^#\\) equals…",
+   "en": "ABCD is a square with side 8. Then \\(|\\overrightarrow{AC}|^2\\) equals…",
+   "vi": "ABCD là hình vuông cạnh 8. Khi đó \\(|\\overrightarrow{AC}|^2\\) bằng…",
+   "options": [
+    "\\(128\\)",
+    "\\(64\\)",
+    "\\(256\\)",
+    "\\(16\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. The diagonal \\(AC=a\\sqrt2\\).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">Đường chéo</b> \\(AC=a\\sqrt2\\).",
+   "images": [],
+   "id": "05104cef396d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "There are # points, no three on a line. The number of non-zero vectors with both ends among them is…",
+   "en": "There are 7 points, no three on a line. The number of non-zero vectors with both ends among them is…",
+   "vi": "Cho 7 điểm, không có ba điểm nào <b class=\"mbl-term\" tabindex=\"0\" data-en=\"collinear\">thẳng hàng</b>. Số vectơ khác <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero vector\">vectơ-không</b> có điểm đầu, điểm cuối thuộc các điểm đó là…",
+   "options": [
+    "\\(21\\)",
+    "\\(42\\)",
+    "\\(49\\)",
+    "\\(43\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Start: 7 ways, end: 6 ways.",
+   "explain_vi": "Đáp án b. Điểm đầu: 7 cách, điểm cuối: 6 cách.",
+   "images": [],
+   "id": "929e29257084",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "In the parallelogram ABCD, \\(\\overrightarrow{BC}=\\overrightarrow{DA}\\).",
+   "en": "In the parallelogram ABCD, \\(\\overrightarrow{BC}=\\overrightarrow{DA}\\).",
+   "vi": "Trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelogram\">hình bình hành</b> ABCD, \\(\\overrightarrow{BC}=\\overrightarrow{DA}\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "Equal vectors need the same direction and the same length.",
+   "explain_vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"equal vectors\">Hai vectơ bằng nhau</b> phải <b class=\"mbl-term\" tabindex=\"0\" data-en=\"same direction\">cùng hướng</b> và cùng độ dài.",
+   "images": [],
+   "id": "f9b9d93c9719",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "In the regular hexagon ABCDEF with centre O, \\(\\overrightarrow{BC}\\) and \\(\\overrightarrow{EF}\\) are opposite vectors.",
+   "en": "In the regular hexagon ABCDEF with centre O, \\(\\overrightarrow{BC}\\) and \\(\\overrightarrow{EF}\\) are opposite vectors.",
+   "vi": "Trong lục giác đều ABCDEF tâm O, \\(\\overrightarrow{BC}\\) và \\(\\overrightarrow{EF}\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"opposite vectors\">hai vectơ đối nhau</b>.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "Opposite vectors have the same length and opposite directions.",
+   "explain_vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"opposite vectors\">Hai vectơ đối nhau</b> có cùng độ dài và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"opposite directions\">ngược hướng</b>.",
+   "images": [],
+   "id": "4dcce30cf6cb",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "ABCD is a rectangle with AB = # and AD = #. Find \\(|\\overrightarrow{AC}|\\).",
+   "en": "ABCD is a rectangle with AB = 8 and AD = 15. Find \\(|\\overrightarrow{AC}|\\).",
+   "vi": "Hình chữ nhật ABCD có AB = 8, AD = 15. Tính \\(|\\overrightarrow{AC}|\\).",
+   "options": [],
+   "answer": "17",
+   "explain_en": "Pythagoras: \\(\\sqrt{8^2+15^2}=17\\).",
+   "explain_vi": "Định lí Pi-ta-go: \\(\\sqrt{8^2+15^2}=17\\).",
+   "images": [],
+   "id": "5ac63b0f367b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "There are # points, no three on a line. How many non-zero vectors have both ends among them?",
+   "en": "There are 8 points, no three on a line. How many non-zero vectors have both ends among them?",
+   "vi": "Có 8 điểm phân biệt, không có ba điểm nào <b class=\"mbl-term\" tabindex=\"0\" data-en=\"collinear\">thẳng hàng</b>. Có bao nhiêu vectơ khác <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero vector\">vectơ-không</b> có điểm đầu, điểm cuối thuộc các điểm đó?",
+   "options": [],
+   "answer": "56",
+   "explain_en": "8·7=56.",
+   "explain_vi": "8·7=56.",
+   "images": [],
+   "id": "b2cb458fb459",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "ABCD is a rectangle with AB = # and AD = #. Then \\(|\\overrightarrow{AC}|=\\)…",
+   "en": "ABCD is a rectangle with AB = 8 and AD = 15. Then \\(|\\overrightarrow{AC}|=\\)…",
+   "vi": "ABCD là hình chữ nhật có AB = 8, AD = 15. Khi đó \\(|\\overrightarrow{AC}|=\\)…",
+   "options": [
+    "\\(18\\)",
+    "\\(15\\)",
+    "\\(17\\)",
+    "\\(23\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Pythagoras: \\(\\sqrt{8^2+15^2}=17\\).",
+   "explain_vi": "Đáp án c. Định lí Pi-ta-go: \\(\\sqrt{8^2+15^2}=17\\).",
+   "images": [],
+   "id": "404dbc0dba30",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "ABCD is a rectangle with AB = # and AD = #. Then \\(|\\overrightarrow{AC}|=\\)…",
+   "en": "ABCD is a rectangle with AB = 3 and AD = 4. Then \\(|\\overrightarrow{AC}|=\\)…",
+   "vi": "ABCD là hình chữ nhật có AB = 3, AD = 4. Khi đó \\(|\\overrightarrow{AC}|=\\)…",
+   "options": [
+    "\\(4\\)",
+    "\\(5\\)",
+    "\\(7\\)",
+    "\\(6\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Pythagoras: \\(\\sqrt{3^2+4^2}=5\\).",
+   "explain_vi": "Đáp án b. Định lí Pi-ta-go: \\(\\sqrt{3^2+4^2}=5\\).",
+   "images": [],
+   "id": "d2106284842c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "ABCDEF is a regular hexagon with side #. Then \\(|\\overrightarrow{AC}|^#=\\)…",
+   "en": "ABCDEF is a regular hexagon with side 2. Then \\(|\\overrightarrow{AC}|^2=\\)…",
+   "vi": "ABCDEF là lục giác đều cạnh 2. Khi đó \\(|\\overrightarrow{AC}|^2=\\)…",
+   "options": [
+    "\\(8\\)",
+    "\\(16\\)",
+    "\\(4\\)",
+    "\\(12\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(AC=a\\sqrt3\\) (law of cosines with \\(120^\\circ\\)).",
+   "explain_vi": "Đáp án d. \\(AC=a\\sqrt3\\) (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"law of cosines\">định lí cô-sin</b> với góc \\(120^\\circ\\)).",
+   "images": [],
+   "id": "7d0f58fdcb06",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "In the parallelogram \\(ABCD\\) with centre \\(O\\), which vector equals \\(\\overrightarrow{AB}\\)?",
+   "en": "In the parallelogram \\(ABCD\\) with centre \\(O\\), which vector equals \\(\\overrightarrow{AB}\\)?",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelogram\">hình bình hành</b> \\(ABCD\\) tâm \\(O\\). Vectơ nào bằng \\(\\overrightarrow{AB}\\)?",
+   "options": [
+    "\\(\\overrightarrow{BA}\\)",
+    "\\(\\overrightarrow{CD}\\)",
+    "\\(\\overrightarrow{DA}\\)",
+    "\\(\\overrightarrow{DC}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Equal vectors have the same direction and the same length: \\(\\overrightarrow{AB}=\\overrightarrow{DC}\\).",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equal vectors\">Hai vectơ bằng nhau</b> khi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"same direction\">cùng hướng</b> và cùng độ dài: \\(\\overrightarrow{AB}=\\overrightarrow{DC}\\).",
+   "images": [],
+   "id": "9487487bd6d1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "In the regular hexagon \\(ABCDEF\\) with centre \\(O\\), which vector equals \\(\\overrightarrow{BA}\\)?",
+   "en": "In the regular hexagon \\(ABCDEF\\) with centre \\(O\\), which vector equals \\(\\overrightarrow{BA}\\)?",
+   "vi": "Cho lục giác đều \\(ABCDEF\\) tâm \\(O\\). Vectơ nào bằng \\(\\overrightarrow{BA}\\)?",
+   "options": [
+    "\\(\\overrightarrow{BC}\\)",
+    "\\(\\overrightarrow{OF}\\)",
+    "\\(\\overrightarrow{OC}\\)",
+    "\\(\\overrightarrow{OB}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Equal vectors have the same direction and the same length: \\(\\overrightarrow{BA}=\\overrightarrow{OF}\\).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equal vectors\">Hai vectơ bằng nhau</b> khi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"same direction\">cùng hướng</b> và cùng độ dài: \\(\\overrightarrow{BA}=\\overrightarrow{OF}\\).",
+   "images": [],
+   "id": "da366edaccc4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "In the regular hexagon \\(ABCDEF\\) with centre \\(O\\), which vector equals \\(\\overrightarrow{BF}\\)?",
+   "en": "In the regular hexagon \\(ABCDEF\\) with centre \\(O\\), which vector equals \\(\\overrightarrow{BF}\\)?",
+   "vi": "Cho lục giác đều \\(ABCDEF\\) tâm \\(O\\). Vectơ nào bằng \\(\\overrightarrow{BF}\\)?",
+   "options": [
+    "\\(\\overrightarrow{EF}\\)",
+    "\\(\\overrightarrow{CE}\\)",
+    "\\(\\overrightarrow{BC}\\)",
+    "\\(\\overrightarrow{DF}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Equal vectors have the same direction and the same length: \\(\\overrightarrow{BF}=\\overrightarrow{CE}\\).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equal vectors\">Hai vectơ bằng nhau</b> khi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"same direction\">cùng hướng</b> và cùng độ dài: \\(\\overrightarrow{BF}=\\overrightarrow{CE}\\).",
+   "images": [],
+   "id": "393cae383a53",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "There are # points, no three on a line. How many non-zero vectors have both endpoints among them?",
+   "en": "There are 8 points, no three on a line. How many non-zero vectors have both endpoints among them?",
+   "vi": "Cho 8 điểm phân biệt, không có ba điểm nào <b class=\"mbl-term\" tabindex=\"0\" data-en=\"collinear\">thẳng hàng</b>. Có bao nhiêu vectơ khác <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero vector\">vectơ-không</b> với điểm đầu, điểm cuối thuộc tập điểm đó?",
+   "options": [
+    "\\(64\\)",
+    "\\(55\\)",
+    "\\(56\\)",
+    "\\(28\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Choose the start (8 ways) and the end (7 ways): 56.",
+   "explain_vi": "Đáp án c. Chọn điểm đầu (8 cách), điểm cuối (7 cách): 56 vectơ.",
+   "images": [],
+   "id": "052d1f6f3457",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "There are # points, no three on a line. How many non-zero vectors have both endpoints among them?",
+   "en": "There are 5 points, no three on a line. How many non-zero vectors have both endpoints among them?",
+   "vi": "Cho 5 điểm phân biệt, không có ba điểm nào <b class=\"mbl-term\" tabindex=\"0\" data-en=\"collinear\">thẳng hàng</b>. Có bao nhiêu vectơ khác <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero vector\">vectơ-không</b> với điểm đầu, điểm cuối thuộc tập điểm đó?",
+   "options": [
+    "\\(19\\)",
+    "\\(25\\)",
+    "\\(20\\)",
+    "\\(10\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Choose the start (5 ways) and the end (4 ways): 20.",
+   "explain_vi": "Đáp án c. Chọn điểm đầu (5 cách), điểm cuối (4 cách): 20 vectơ.",
+   "images": [],
+   "id": "11919dec4116",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  }
+ ]
+}

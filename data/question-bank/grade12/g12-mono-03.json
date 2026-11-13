@@ -1,0 +1,1740 @@
+{
+ "lesson": "g12-mono-03",
+ "grade": 12,
+ "no": 2,
+ "title": "Giá trị lớn nhất và giá trị nhỏ nhất của hàm số",
+ "path": "lessons/grade12/monotonicity-extrema/maximum-and-minimum-values.html",
+ "items": [
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "What is the maximum value of \\(f(x)=-x^#+#x+#\\) on \\(\\mathbb{R}\\)?",
+   "en": "What is the maximum value of \\(f(x)=-x^2+2x+3\\) on \\(\\mathbb{R}\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">Giá trị lớn nhất</b> của \\(f(x)=-x^2+2x+3\\) trên \\(\\mathbb{R}\\) là bao nhiêu?",
+   "options": [
+    "\\(3\\)",
+    "\\(4\\)",
+    "\\(5\\)",
+    "\\(2\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. The vertex is at \\(x=1\\), and \\(f(1)=4\\).",
+   "explain_vi": "Đáp án b. Đỉnh tại \\(x=1\\), và \\(f(1)=4\\).",
+   "images": [],
+   "id": "c6f250fc7b61",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "What is the minimum value of \\(f(x)=#-x^#\\) on \\([-#]\\)?",
+   "en": "What is the minimum value of \\(f(x)=4-x^2\\) on \\([-1,3]\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"minimum value\">Giá trị nhỏ nhất</b> của \\(f(x)=4-x^2\\) trên \\([-1,3]\\) là bao nhiêu?",
+   "options": [
+    "\\(-5\\)",
+    "\\(3\\)",
+    "\\(4\\)",
+    "\\(-1\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(f(-1)=3\\), \\(f(0)=4\\), \\(f(3)=-5\\).",
+   "explain_vi": "Đáp án a. \\(f(-1)=3\\), \\(f(0)=4\\), \\(f(3)=-5\\).",
+   "images": [],
+   "id": "01bb1dd7ee89",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "What is the minimum value of \\(f(x)=x^#-#x\\) on \\([#]\\)?",
+   "en": "What is the minimum value of \\(f(x)=x^2-2x\\) on \\([0,3]\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"minimum value\">Giá trị nhỏ nhất</b> của \\(f(x)=x^2-2x\\) trên \\([0,3]\\) là bao nhiêu?",
+   "options": [
+    "\\(-1\\)",
+    "\\(0\\)",
+    "\\(3\\)",
+    "\\(-2\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(f(0)=0\\), \\(f(1)=-1\\), \\(f(3)=3\\).",
+   "explain_vi": "Đáp án a. \\(f(0)=0\\), \\(f(1)=-1\\), \\(f(3)=3\\).",
+   "images": [],
+   "id": "59be6cffdab0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "True or false: \\(f(x)=\\dfrac#x\\) has a maximum value on \\((#]\\).",
+   "en": "True or false: \\(f(x)=\\dfrac1x\\) has a maximum value on \\((0,1]\\).",
+   "vi": "Đúng hay sai: \\(f(x)=\\dfrac1x\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">giá trị lớn nhất</b> trên \\((0,1]\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. \\(f(x)\\to+\\infty\\) as \\(x\\to0^+\\). The minimum value is \\(f(1)=1\\).",
+   "explain_vi": "Sai. \\(f(x)\\to+\\infty\\) khi \\(x\\to0^+\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"minimum value\">Giá trị nhỏ nhất</b> là \\(f(1)=1\\).",
+   "images": [],
+   "id": "26c009edcecc",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "True or false: a continuous function on a closed interval \\([a,b]\\) always has a maximum value and a minimum value.",
+   "en": "True or false: a continuous function on a closed interval \\([a,b]\\) always has a maximum value and a minimum value.",
+   "vi": "Đúng hay sai: <b class=\"mbl-term\" tabindex=\"0\" data-en=\"continuous function\">hàm số liên tục</b> trên đoạn \\([a,b]\\) luôn có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">giá trị lớn nhất</b> và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"minimum value\">giá trị nhỏ nhất</b>.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. This is the extreme value theorem.",
+   "explain_vi": "Đúng. Đây là định lí về <b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">giá trị lớn nhất</b>, nhỏ nhất của hàm liên tục trên đoạn.",
+   "images": [],
+   "id": "cd5a6512c9a4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "A rectangle has perimeter # cm. What is the largest possible area, in \\(\\text{cm}^#\\)?",
+   "en": "A rectangle has perimeter 20 cm. What is the largest possible area, in \\(\\text{cm}^2\\)?",
+   "vi": "Một hình chữ nhật có chu vi 20 cm. Diện tích lớn nhất là bao nhiêu \\(\\text{cm}^2\\)?",
+   "options": [],
+   "answer": "25",
+   "explain_en": "Answer: 25 (a square with side 5 cm).",
+   "explain_vi": "Đáp án: 25 (hình vuông cạnh 5 cm).",
+   "images": [],
+   "id": "9173b1e45a32",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "Find the maximum value of \\(f(x)=x^#-#x\\) on \\([#]\\).",
+   "en": "Find the maximum value of \\(f(x)=x^3-3x\\) on \\([0,2]\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">giá trị lớn nhất</b> của \\(f(x)=x^3-3x\\) trên đoạn \\([0,2]\\).",
+   "options": [],
+   "answer": "2",
+   "explain_en": "Answer: 2. \\(f(0)=0\\), \\(f(1)=-2\\), \\(f(2)=2\\).",
+   "explain_vi": "Đáp án: 2. \\(f(0)=0\\), \\(f(1)=-2\\), \\(f(2)=2\\).",
+   "images": [],
+   "id": "fc7d1a37583b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "Find the maximum value of \\(f(x)=x^#-#x^#\\) on \\([#]\\).",
+   "en": "Find the maximum value of \\(f(x)=x^4-2x^2\\) on \\([0,2]\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">giá trị lớn nhất</b> của \\(f(x)=x^4-2x^2\\) trên đoạn \\([0,2]\\).",
+   "options": [],
+   "answer": "8",
+   "explain_en": "Answer: 8. \\(f(0)=0\\), \\(f(1)=-1\\), \\(f(2)=8\\).",
+   "explain_vi": "Đáp án: 8. \\(f(0)=0\\), \\(f(1)=-1\\), \\(f(2)=8\\).",
+   "images": [],
+   "id": "9ae8bce98709",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "Find the minimum value of \\(f(x)=x+\\dfrac#x\\) on \\((#,+\\infty)\\).",
+   "en": "Find the minimum value of \\(f(x)=x+\\dfrac9x\\) on \\((0,+\\infty)\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"minimum value\">giá trị nhỏ nhất</b> của \\(f(x)=x+\\dfrac9x\\) trên \\((0,+\\infty)\\).",
+   "options": [],
+   "answer": "6",
+   "explain_en": "Answer: 6. \\(f'(x)=1-\\dfrac9{x^2}=0\\) at \\(x=3\\), and \\(f(3)=3+3=6\\).",
+   "explain_vi": "Đáp án: 6. \\(f'(x)=1-\\dfrac9{x^2}=0\\) tại \\(x=3\\) và \\(f(3)=3+3=6\\).",
+   "images": [],
+   "id": "667c77ed3f48",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "Find the minimum value of \\(f(x)=x^#-#x\\) on \\([#]\\).",
+   "en": "Find the minimum value of \\(f(x)=x^3-3x\\) on \\([0,2]\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"minimum value\">giá trị nhỏ nhất</b> của \\(f(x)=x^3-3x\\) trên đoạn \\([0,2]\\).",
+   "options": [],
+   "answer": "-2",
+   "explain_en": "Answer: \\(-2\\), reached at \\(x=1\\).",
+   "explain_vi": "Đáp án: \\(-2\\), đạt tại \\(x=1\\).",
+   "images": [],
+   "id": "08a5aaf5465a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "During a festival, the number of visitors (hundreds) \\(t\\) hours after opening is \\(N(t)=-t^#+#t^#+#\\), \\(#\\le t\\le#\\). The largest number of visitors (hundreds) is…",
+   "en": "During a festival, the number of visitors (hundreds) \\(t\\) hours after opening is \\(N(t)=-t^3+12t^2+5\\), \\(0\\le t\\le10\\). The largest number of visitors (hundreds) is…",
+   "vi": "Trong một lễ hội, số khách (trăm người) sau \\(t\\) giờ kể từ khi mở cửa là \\(N(t)=-t^3+12t^2+5\\), \\(0\\le t\\le10\\). Số khách lớn nhất (trăm người) là",
+   "options": [
+    "\\(5\\)",
+    "\\(205\\)",
+    "\\(261\\)",
+    "\\(133\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(N'(t)=-3t^2+24t=0\\Leftrightarrow t=0\\) or \\(t=8\\); \\(N(0)=5\\), \\(N(8)=261\\), \\(N(10)=205\\). Largest: \\(261\\).",
+   "explain_vi": "Đáp án c. \\(N'(t)=-3t^2+24t=0\\Leftrightarrow t=0\\) hoặc \\(t=8\\); \\(N(0)=5\\), \\(N(8)=261\\), \\(N(10)=205\\). Lớn nhất: \\(261\\).",
+   "images": [],
+   "id": "8fda6cca31f6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Find \\(m\\) so that the largest value of \\(f(x)=x^#-#x+m\\) on \\([#;\\,#]\\) equals \\(#\\).",
+   "en": "Find \\(m\\) so that the largest value of \\(f(x)=x^2-2x+m\\) on \\([0;\\,4]\\) equals \\(6\\).",
+   "vi": "Tìm \\(m\\) để <b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">giá trị lớn nhất</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(f(x)=x^2-2x+m\\) trên đoạn \\([0;\\,4]\\) bằng \\(6\\).",
+   "options": [
+    "\\(7\\)",
+    "\\(6\\)",
+    "\\(-2\\)",
+    "\\(5\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. On \\([0;4]\\): smallest \\(f(1)=m-1\\), largest \\(f(4)=m+8\\). Setting the largest equal to \\(6\\) gives \\(m=-2\\).",
+   "explain_vi": "Đáp án c. Trên \\([0;4]\\): nhỏ nhất \\(f(1)=m-1\\), lớn nhất \\(f(4)=m+8\\). Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">giá trị lớn nhất</b> bằng \\(6\\) được \\(m=-2\\).",
+   "images": [],
+   "id": "2c92db50530d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Let \\(M\\), \\(m\\) be the largest and smallest values of \\(f(x)=x^#-#x\\) on \\([-#;\\,#]\\). Then \\(M+m=\\)…",
+   "en": "Let \\(M\\), \\(m\\) be the largest and smallest values of \\(f(x)=x^3-12x\\) on \\([-1;\\,4]\\). Then \\(M+m=\\)…",
+   "vi": "Gọi \\(M\\), \\(m\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">giá trị lớn nhất</b> và nhỏ nhất của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(f(x)=x^3-12x\\) trên đoạn \\([-1;\\,4]\\). Khi đó \\(M+m=\\)",
+   "options": [
+    "\\(32\\)",
+    "\\(0\\)",
+    "\\(1\\)",
+    "\\(27\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Critical points \\(x=\\pm2\\); compare \\(f(-1)=11, f(4)=16, f(2)=-16\\): \\(M=16\\), \\(m=-16\\), \\(M+m=0\\).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"critical point\">Điểm tới hạn</b> \\(x=\\pm2\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"compare\">so sánh</b> \\(f(-1)=11, f(4)=16, f(2)=-16\\): \\(M=16\\), \\(m=-16\\), \\(M+m=0\\).",
+   "images": [],
+   "id": "75fac1412c72",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The figure shows the graph of \\(y=f(x)\\) on \\([-#;\\,#]\\). The largest value of \\(f\\) on \\([-#;\\,#]\\) is…",
+   "en": "The figure shows the graph of \\(y=f(x)\\) on \\([-2;\\,1]\\). The largest value of \\(f\\) on \\([-2;\\,1]\\) is…<img src=\"../../../img/tex/43f2377a613b7753.svg\" alt=\"Graph on a closed interval\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,320px);height:auto\">",
+   "vi": "Hình vẽ là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(y=f(x)\\) trên đoạn \\([-2;\\,1]\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">Giá trị lớn nhất</b> của \\(f\\) trên đoạn \\([-2;\\,1]\\) là<img src=\"../../../img/tex/43f2377a613b7753.svg\" alt=\"Đồ thị trên một đoạn\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,320px);height:auto\">",
+   "options": [
+    "\\(4\\)",
+    "\\(5\\)",
+    "\\(-1\\)",
+    "\\(3\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Compare the heights at the ends and at the turning points: \\(f(-2)=-1, f(0)=3, f(1)=-1\\); the largest is \\(3\\).",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"compare\">So sánh</b> độ cao tại hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"endpoint\">đầu mút</b> và các điểm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"extremum\">cực trị</b>: \\(f(-2)=-1, f(0)=3, f(1)=-1\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">giá trị lớn nhất</b> là \\(3\\).",
+   "images": [
+    "img/tex/43f2377a613b7753.svg"
+   ],
+   "id": "b5ead20d05a7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The largest value of \\(y=\\sin x\\cos x\\) on \\(\\mathbb R\\) is…",
+   "en": "The largest value of \\(y=\\sin x\\cos x\\) on \\(\\mathbb R\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">Giá trị lớn nhất</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(y=\\sin x\\cos x\\) trên \\(\\mathbb R\\) là",
+   "options": [
+    "\\(1\\)",
+    "\\(\\dfrac12\\)",
+    "\\(2\\)",
+    "\\(\\dfrac14\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Write \\(y\\) in terms of one quantity (for example \\(t=\\sin x\\in[-1;1]\\), or \\(a\\sin x+b\\cos x=\\sqrt{a^2+b^2}\\sin(x+\\varphi)\\)) and study it on its range. Answer: \\(\\dfrac12\\).",
+   "explain_vi": "Đáp án b. Đưa \\(y\\) về một đại lượng (chẳng hạn \\(t=\\sin x\\in[-1;1]\\), hoặc \\(a\\sin x+b\\cos x=\\sqrt{a^2+b^2}\\sin(x+\\varphi)\\)) rồi khảo sát trên miền giá trị của nó. Đáp số: \\(\\dfrac12\\).",
+   "images": [],
+   "id": "242d064536af",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The largest value of \\(y=x+\\sqrt{#-x^#}\\) (on its domain) is…",
+   "en": "The largest value of \\(y=x+\\sqrt{2-x^2}\\) (on its domain) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">Giá trị lớn nhất</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(y=x+\\sqrt{2-x^2}\\) (trên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"domain\">tập xác định</b>) là",
+   "options": [
+    "\\(1\\)",
+    "\\(2\\)",
+    "\\(\\sqrt2\\)",
+    "\\(2\\sqrt2\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Find the domain (a closed interval), solve \\(y'=0\\) inside it, then compare the values at the critical points and at the ends: \\(2\\).",
+   "explain_vi": "Đáp án b. Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"domain\">tập xác định</b> (một đoạn), giải \\(y'=0\\) trên đó rồi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"compare\">so sánh</b> giá trị tại <b class=\"mbl-term\" tabindex=\"0\" data-en=\"critical point\">điểm tới hạn</b> và hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"endpoint\">đầu mút</b>: \\(2\\).",
+   "images": [],
+   "id": "661569669988",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The smallest value of \\(y=x^#-#\\ln x\\) on \\(\\left[\\dfrac#e;\\,e\\right]\\) is…",
+   "en": "The smallest value of \\(y=x^2-2\\ln x\\) on \\(\\left[\\dfrac1e;\\,e\\right]\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"minimum value\">Giá trị nhỏ nhất</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(y=x^2-2\\ln x\\) trên đoạn \\(\\left[\\dfrac1e;\\,e\\right]\\) là",
+   "options": [
+    "\\(1\\)",
+    "\\(e^2-2\\)",
+    "\\(0\\)",
+    "\\(\\dfrac1{e^2}+2\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Solve \\(y'=0\\) in the interval, then compare the values at that point and at the two ends. Answer: \\(1\\).",
+   "explain_vi": "Đáp án a. Giải \\(y'=0\\) trên đoạn, rồi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"compare\">so sánh</b> giá trị tại điểm đó và tại hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"endpoint\">đầu mút</b>. Đáp số: \\(1\\).",
+   "images": [],
+   "id": "d6de320aaf1c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The variation table of \\(y=f(x)\\) on \\([-#;\\,#]\\) is shown. The smallest value of \\(f\\) on this interval is…",
+   "en": "The variation table of \\(y=f(x)\\) on \\([-2;\\,4]\\) is shown. The smallest value of \\(f\\) on this interval is…<img src=\"../../../img/tex/bf3135524852cb96.svg\" alt=\"Variation table\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,460px);height:auto\">",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"variation table\">bảng biến thiên</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(y=f(x)\\) trên đoạn \\([-2;\\,4]\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"minimum value\">Giá trị nhỏ nhất</b> của \\(f\\) trên đoạn này là<img src=\"../../../img/tex/bf3135524852cb96.svg\" alt=\"Bảng biến thiên\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,460px);height:auto\">",
+   "options": [
+    "\\(3\\)",
+    "\\(7\\)",
+    "\\(23\\)",
+    "\\(-13\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Compare all the values in the bottom row: \\(23, 3, 7, -13\\).",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"compare\">So sánh</b> mọi giá trị ở hàng cuối: \\(23, 3, 7, -13\\).",
+   "images": [
+    "img/tex/bf3135524852cb96.svg"
+   ],
+   "id": "5940aef04a1e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "What is the maximum value of \\(f(x)=-x^#+#x+#\\) on \\(\\mathbb{R}\\)?",
+   "en": "What is the maximum value of \\(f(x)=-x^2+4x+1\\) on \\(\\mathbb{R}\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">Giá trị lớn nhất</b> của \\(f(x)=-x^2+4x+1\\) trên \\(\\mathbb{R}\\) là bao nhiêu?",
+   "options": [
+    "\\(4\\)",
+    "\\(6\\)",
+    "\\(5\\)",
+    "\\(1\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The vertex is at \\(x=2\\), and \\(f(2)=-4+8+1=5\\).",
+   "explain_vi": "Đáp án c. Đỉnh tại \\(x=2\\), và \\(f(2)=-4+8+1=5\\).",
+   "images": [],
+   "id": "513f696e2382",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "What is the minimum value of \\(f(x)=#-x^#\\) on \\([-#]\\)?",
+   "en": "What is the minimum value of \\(f(x)=9-x^2\\) on \\([-2,4]\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"minimum value\">Giá trị nhỏ nhất</b> của \\(f(x)=9-x^2\\) trên \\([-2,4]\\) là bao nhiêu?",
+   "options": [
+    "\\(5\\)",
+    "\\(9\\)",
+    "\\(-7\\)",
+    "\\(-2\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(f(-2)=5\\), \\(f(0)=9\\), \\(f(4)=-7\\).",
+   "explain_vi": "Đáp án c. \\(f(-2)=5\\), \\(f(0)=9\\), \\(f(4)=-7\\).",
+   "images": [],
+   "id": "d82d4ee36dba",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "What is the minimum value of \\(f(x)=x^#-#x\\) on \\([#]\\)?",
+   "en": "What is the minimum value of \\(f(x)=x^2-4x\\) on \\([0,5]\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"minimum value\">Giá trị nhỏ nhất</b> của \\(f(x)=x^2-4x\\) trên \\([0,5]\\) là bao nhiêu?",
+   "options": [
+    "\\(-4\\)",
+    "\\(0\\)",
+    "\\(5\\)",
+    "\\(-5\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(f(0)=0\\), \\(f(2)=-4\\), \\(f(5)=5\\).",
+   "explain_vi": "Đáp án a. \\(f(0)=0\\), \\(f(2)=-4\\), \\(f(5)=5\\).",
+   "images": [],
+   "id": "9b047f0cd77b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "True or false: \\(f(x)=\\dfrac#x\\) has a minimum value on \\((#)\\).",
+   "en": "True or false: \\(f(x)=\\dfrac1x\\) has a minimum value on \\((0,1)\\).",
+   "vi": "Đúng hay sai: \\(f(x)=\\dfrac1x\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"minimum value\">giá trị nhỏ nhất</b> trên \\((0,1)\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. \\(f(x)\\to+\\infty\\) as \\(x\\to0^+\\), and \\(f(x)\\to1\\) as \\(x\\to1^-\\) without ever reaching 1. So there is no minimum (and no maximum).",
+   "explain_vi": "Sai. \\(f(x)\\to+\\infty\\) khi \\(x\\to0^+\\), và \\(f(x)\\to1\\) khi \\(x\\to1^-\\) nhưng không bao giờ bằng 1. Vậy không có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"minimum value\">giá trị nhỏ nhất</b> (và cũng không có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">giá trị lớn nhất</b>).",
+   "images": [],
+   "id": "b680d246560d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "True or false: \\(f(x)=x^#\\) has both a maximum value and a minimum value on \\([-#]\\).",
+   "en": "True or false: \\(f(x)=x^2\\) has both a maximum value and a minimum value on \\([-1,2]\\).",
+   "vi": "Đúng hay sai: \\(f(x)=x^2\\) có cả <b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">giá trị lớn nhất</b> và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"minimum value\">giá trị nhỏ nhất</b> trên đoạn \\([-1,2]\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. The minimum value is \\(f(0)=0\\) and the maximum value is \\(f(2)=4\\).",
+   "explain_vi": "Đúng. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"minimum value\">Giá trị nhỏ nhất</b> là \\(f(0)=0\\) và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">giá trị lớn nhất</b> là \\(f(2)=4\\).",
+   "images": [],
+   "id": "470b8b483bbf",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "A rectangle has perimeter # cm. What is the largest possible area, in \\(\\text{cm}^#\\)?",
+   "en": "A rectangle has perimeter 40 cm. What is the largest possible area, in \\(\\text{cm}^2\\)?",
+   "vi": "Một hình chữ nhật có chu vi 40 cm. Diện tích lớn nhất là bao nhiêu \\(\\text{cm}^2\\)?",
+   "options": [],
+   "answer": "100",
+   "explain_en": "Answer: 100. 100 (a square with side 10 cm).",
+   "explain_vi": "Đáp án: 100. 100 (hình vuông cạnh 10 cm).",
+   "images": [],
+   "id": "466fb97ab192",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "Find the maximum value of \\(f(x)=x^#-#x\\) on \\([#]\\).",
+   "en": "Find the maximum value of \\(f(x)=x^3-12x\\) on \\([0,4]\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">giá trị lớn nhất</b> của \\(f(x)=x^3-12x\\) trên đoạn \\([0,4]\\).",
+   "options": [],
+   "answer": "16",
+   "explain_en": "Answer: 16. \\(f(0)=0\\), \\(f(2)=-16\\), \\(f(4)=16\\).",
+   "explain_vi": "Đáp án: 16. \\(f(0)=0\\), \\(f(2)=-16\\), \\(f(4)=16\\).",
+   "images": [],
+   "id": "ada1296eb265",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "Find the maximum value of \\(f(x)=x^#-#x^#\\) on \\([#]\\).",
+   "en": "Find the maximum value of \\(f(x)=x^4-8x^2\\) on \\([0,3]\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">giá trị lớn nhất</b> của \\(f(x)=x^4-8x^2\\) trên đoạn \\([0,3]\\).",
+   "options": [],
+   "answer": "9",
+   "explain_en": "Answer: 9. \\(f(0)=0\\), \\(f(2)=-16\\), \\(f(3)=9\\).",
+   "explain_vi": "Đáp án: 9. \\(f(0)=0\\), \\(f(2)=-16\\), \\(f(3)=9\\).",
+   "images": [],
+   "id": "1756f03794f5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "Find the minimum value of \\(f(x)=x+\\dfrac{#}{x}\\) on \\((#,+\\infty)\\).",
+   "en": "Find the minimum value of \\(f(x)=x+\\dfrac{16}{x}\\) on \\((0,+\\infty)\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"minimum value\">giá trị nhỏ nhất</b> của \\(f(x)=x+\\dfrac{16}{x}\\) trên \\((0,+\\infty)\\).",
+   "options": [],
+   "answer": "8",
+   "explain_en": "Answer: 8. \\(f'(x)=1-\\dfrac{16}{x^2}=0\\) at \\(x=4\\), and \\(f(4)=4+4=8\\).",
+   "explain_vi": "Đáp án: 8. \\(f'(x)=1-\\dfrac{16}{x^2}=0\\) tại \\(x=4\\) và \\(f(4)=4+4=8\\).",
+   "images": [],
+   "id": "9d460bad3e6e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "Find the minimum value of \\(f(x)=x^#-#x\\) on \\([#]\\).",
+   "en": "Find the minimum value of \\(f(x)=x^3-12x\\) on \\([0,4]\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"minimum value\">giá trị nhỏ nhất</b> của \\(f(x)=x^3-12x\\) trên đoạn \\([0,4]\\).",
+   "options": [],
+   "answer": "-16",
+   "explain_en": "Answer: \\(-16\\). \\(-16\\), reached at \\(x=2\\).",
+   "explain_vi": "Đáp án: \\(-16\\). \\(-16\\), đạt tại \\(x=2\\).",
+   "images": [],
+   "id": "e68e12fd7cd7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "During a festival, the number of visitors (hundreds) \\(t\\) hours after opening is \\(N(t)=-t^#+#t^#+#\\), \\(#\\le t\\le#\\). After how many hours is the number of visitors largest?",
+   "en": "During a festival, the number of visitors (hundreds) \\(t\\) hours after opening is \\(N(t)=-t^3+6t^2+5\\), \\(0\\le t\\le6\\). After how many hours is the number of visitors largest?",
+   "vi": "Trong một lễ hội, số khách (trăm người) sau \\(t\\) giờ kể từ khi mở cửa là \\(N(t)=-t^3+6t^2+5\\), \\(0\\le t\\le6\\). Sau bao nhiêu giờ thì số khách đông nhất?",
+   "options": [
+    "\\(7\\)",
+    "\\(2\\)",
+    "\\(6\\)",
+    "\\(4\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(N'(t)=3t(4-t)\\): \\(N\\) increases on \\((0;4)\\) and decreases on \\((4;6)\\), so the largest value is at \\(t=4\\).",
+   "explain_vi": "Đáp án d. \\(N'(t)=3t(4-t)\\): \\(N\\) tăng trên \\((0;4)\\) và giảm trên \\((4;6)\\), nên lớn nhất tại \\(t=4\\).",
+   "images": [],
+   "id": "b4ba77529d18",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Find \\(m\\) so that the smallest value of \\(f(x)=x^#-#x+m\\) on \\([#;\\,#]\\) equals \\(#\\).",
+   "en": "Find \\(m\\) so that the smallest value of \\(f(x)=x^2-2x+m\\) on \\([0;\\,3]\\) equals \\(4\\).",
+   "vi": "Tìm \\(m\\) để <b class=\"mbl-term\" tabindex=\"0\" data-en=\"minimum value\">giá trị nhỏ nhất</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(f(x)=x^2-2x+m\\) trên đoạn \\([0;\\,3]\\) bằng \\(4\\).",
+   "options": [
+    "\\(3\\)",
+    "\\(7\\)",
+    "\\(5\\)",
+    "\\(4\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. On \\([0;3]\\): smallest \\(f(1)=m-1\\), largest \\(f(3)=m+3\\). Setting the smallest equal to \\(4\\) gives \\(m=5\\).",
+   "explain_vi": "Đáp án c. Trên \\([0;3]\\): nhỏ nhất \\(f(1)=m-1\\), lớn nhất \\(f(3)=m+3\\). Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"minimum value\">giá trị nhỏ nhất</b> bằng \\(4\\) được \\(m=5\\).",
+   "images": [],
+   "id": "85e3cf337c61",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Here is the variation table of \\(y=f(x)\\) on \\([-#;\\,#]\\). The largest value of \\(f\\) on this interval is…",
+   "en": "Here is the variation table of \\(y=f(x)\\) on \\([-1;\\,5]\\). The largest value of \\(f\\) on this interval is…<img src=\"../../../img/tex/6f3a993998d224c8.svg\" alt=\"Variation table\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,460px);height:auto\">",
+   "vi": "Dưới đây là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"variation table\">bảng biến thiên</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(y=f(x)\\) trên đoạn \\([-1;\\,5]\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">Giá trị lớn nhất</b> của \\(f\\) trên đoạn này là<img src=\"../../../img/tex/6f3a993998d224c8.svg\" alt=\"Bảng biến thiên\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,460px);height:auto\">",
+   "options": [
+    "\\(1\\)",
+    "\\(-15\\)",
+    "\\(5\\)",
+    "\\(21\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Compare all the values in the bottom row: \\(-15, 5, 1, 21\\).",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"compare\">So sánh</b> mọi giá trị ở hàng cuối: \\(-15, 5, 1, 21\\).",
+   "images": [
+    "img/tex/6f3a993998d224c8.svg"
+   ],
+   "id": "ff8ed1d0cbe2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Let \\(M\\), \\(m\\) be the largest and smallest values of \\(f(x)=x^#-#x\\) on \\([-#;\\,#]\\). Then \\(M+m=\\)…",
+   "en": "Let \\(M\\), \\(m\\) be the largest and smallest values of \\(f(x)=x^3-3x\\) on \\([-1;\\,4]\\). Then \\(M+m=\\)…",
+   "vi": "Gọi \\(M\\), \\(m\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">giá trị lớn nhất</b> và nhỏ nhất của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(f(x)=x^3-3x\\) trên đoạn \\([-1;\\,4]\\). Khi đó \\(M+m=\\)",
+   "options": [
+    "\\(54\\)",
+    "\\(1\\)",
+    "\\(0\\)",
+    "\\(50\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Critical points \\(x=\\pm1\\); compare \\(f(-1)=2, f(4)=52, f(1)=-2\\): \\(M=52\\), \\(m=-2\\), \\(M+m=50\\).",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"critical point\">Điểm tới hạn</b> \\(x=\\pm1\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"compare\">so sánh</b> \\(f(-1)=2, f(4)=52, f(1)=-2\\): \\(M=52\\), \\(m=-2\\), \\(M+m=50\\).",
+   "images": [],
+   "id": "5e1f6ed5c149",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The figure below shows the graph of \\(y=f(x)\\) on \\([-#;\\,#]\\). The smallest value of \\(f\\) on \\([-#;\\,#]\\) is…",
+   "en": "The figure below shows the graph of \\(y=f(x)\\) on \\([-3;\\,1]\\). The smallest value of \\(f\\) on \\([-3;\\,1]\\) is…<img src=\"../../../img/tex/a2a4bc3474bd6a2d.svg\" alt=\"Graph on a closed interval\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,320px);height:auto\">",
+   "vi": "Hình vẽ dưới đây là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(y=f(x)\\) trên đoạn \\([-3;\\,1]\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"minimum value\">Giá trị nhỏ nhất</b> của \\(f\\) trên đoạn \\([-3;\\,1]\\) là<img src=\"../../../img/tex/a2a4bc3474bd6a2d.svg\" alt=\"Đồ thị trên một đoạn\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,320px);height:auto\">",
+   "options": [
+    "\\(-6\\)",
+    "\\(-5\\)",
+    "\\(-7\\)",
+    "\\(-3\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Compare the heights at the ends and at the turning points: \\(f(-3)=-3, f(-2)=-7, f(0)=-3, f(1)=-7\\); the smallest is \\(-7\\).",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"compare\">So sánh</b> độ cao tại hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"endpoint\">đầu mút</b> và các điểm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"extremum\">cực trị</b>: \\(f(-3)=-3, f(-2)=-7, f(0)=-3, f(1)=-7\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"minimum value\">giá trị nhỏ nhất</b> là \\(-7\\).",
+   "images": [
+    "img/tex/a2a4bc3474bd6a2d.svg"
+   ],
+   "id": "af0c2ed41f45",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The largest value of \\(y=#\\sin x+#\\cos x\\) on \\(\\mathbb R\\) is…",
+   "en": "The largest value of \\(y=3\\sin x+4\\cos x\\) on \\(\\mathbb R\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">Giá trị lớn nhất</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(y=3\\sin x+4\\cos x\\) trên \\(\\mathbb R\\) là",
+   "options": [
+    "\\(1\\)",
+    "\\(7\\)",
+    "\\(4\\)",
+    "\\(5\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Write \\(y\\) in terms of one quantity (for example \\(t=\\sin x\\in[-1;1]\\), or \\(a\\sin x+b\\cos x=\\sqrt{a^2+b^2}\\sin(x+\\varphi)\\)) and study it on its range. Answer: \\(5\\).",
+   "explain_vi": "Đáp án d. Đưa \\(y\\) về một đại lượng (chẳng hạn \\(t=\\sin x\\in[-1;1]\\), hoặc \\(a\\sin x+b\\cos x=\\sqrt{a^2+b^2}\\sin(x+\\varphi)\\)) rồi khảo sát trên miền giá trị của nó. Đáp số: \\(5\\).",
+   "images": [],
+   "id": "66e01fc562d2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The largest value of \\(y=x+\\sqrt{#-x^#}\\) (on its domain) is…",
+   "en": "The largest value of \\(y=x+\\sqrt{4-x^2}\\) (on its domain) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">Giá trị lớn nhất</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(y=x+\\sqrt{4-x^2}\\) (trên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"domain\">tập xác định</b>) là",
+   "options": [
+    "\\(2\\sqrt2\\)",
+    "\\(\\sqrt2\\)",
+    "\\(2\\)",
+    "\\(4\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Find the domain (a closed interval), solve \\(y'=0\\) inside it, then compare the values at the critical points and at the ends: \\(2\\sqrt2\\).",
+   "explain_vi": "Đáp án a. Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"domain\">tập xác định</b> (một đoạn), giải \\(y'=0\\) trên đó rồi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"compare\">so sánh</b> giá trị tại <b class=\"mbl-term\" tabindex=\"0\" data-en=\"critical point\">điểm tới hạn</b> và hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"endpoint\">đầu mút</b>: \\(2\\sqrt2\\).",
+   "images": [],
+   "id": "c4fa11f392f3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The largest value of \\(y=xe^{-x}\\) on \\([#;\\,#]\\) is…",
+   "en": "The largest value of \\(y=xe^{-x}\\) on \\([0;\\,2]\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">Giá trị lớn nhất</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(y=xe^{-x}\\) trên đoạn \\([0;\\,2]\\) là",
+   "options": [
+    "\\(\\dfrac1e\\)",
+    "\\(\\dfrac{2}{e^2}\\)",
+    "\\(0\\)",
+    "\\(e\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Solve \\(y'=0\\) in the interval, then compare the values at that point and at the two ends. Answer: \\(\\dfrac1e\\).",
+   "explain_vi": "Đáp án a. Giải \\(y'=0\\) trên đoạn, rồi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"compare\">so sánh</b> giá trị tại điểm đó và tại hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"endpoint\">đầu mút</b>. Đáp số: \\(\\dfrac1e\\).",
+   "images": [],
+   "id": "a0f15d982702",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "What is the maximum value of \\(f(x)=-x^#-#x+#\\) on \\(\\mathbb{R}\\)?",
+   "en": "What is the maximum value of \\(f(x)=-x^2-2x+5\\) on \\(\\mathbb{R}\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">Giá trị lớn nhất</b> của \\(f(x)=-x^2-2x+5\\) trên \\(\\mathbb{R}\\) là bao nhiêu?",
+   "options": [
+    "\\(5\\)",
+    "\\(6\\)",
+    "\\(7\\)",
+    "\\(4\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. The vertex is at \\(x=-1\\), and \\(f(-1)=-1+2+5=6\\).",
+   "explain_vi": "Đáp án b. Đỉnh tại \\(x=-1\\), và \\(f(-1)=-1+2+5=6\\).",
+   "images": [],
+   "id": "eb35cfdba21f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "What is the minimum value of \\(f(x)=#-x^#\\) on \\([-#]\\)?",
+   "en": "What is the minimum value of \\(f(x)=1-x^2\\) on \\([-3,2]\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"minimum value\">Giá trị nhỏ nhất</b> của \\(f(x)=1-x^2\\) trên \\([-3,2]\\) là bao nhiêu?",
+   "options": [
+    "\\(-3\\)",
+    "\\(1\\)",
+    "\\(-1\\)",
+    "\\(-8\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(f(-3)=-8\\), \\(f(0)=1\\), \\(f(2)=-3\\).",
+   "explain_vi": "Đáp án d. \\(f(-3)=-8\\), \\(f(0)=1\\), \\(f(2)=-3\\).",
+   "images": [],
+   "id": "76722a1285ea",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "What is the minimum value of \\(f(x)=x^#-#x\\) on \\([#]\\)?",
+   "en": "What is the minimum value of \\(f(x)=x^2-6x\\) on \\([0,4]\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"minimum value\">Giá trị nhỏ nhất</b> của \\(f(x)=x^2-6x\\) trên \\([0,4]\\) là bao nhiêu?",
+   "options": [
+    "\\(-8\\)",
+    "\\(-9\\)",
+    "\\(0\\)",
+    "\\(-6\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(f(0)=0\\), \\(f(3)=-9\\), \\(f(4)=-8\\).",
+   "explain_vi": "Đáp án b. \\(f(0)=0\\), \\(f(3)=-9\\), \\(f(4)=-8\\).",
+   "images": [],
+   "id": "1599fe623d24",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "True or false: \\(f(x)=x^#\\) has a maximum value on the interval \\((#)\\).",
+   "en": "True or false: \\(f(x)=x^2\\) has a maximum value on the interval \\((0,2)\\).",
+   "vi": "Đúng hay sai: \\(f(x)=x^2\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">giá trị lớn nhất</b> trên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"interval\">khoảng</b> \\((0,2)\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. The values get close to 4 as \\(x\\to2^-\\) but never reach it, so there is no maximum.",
+   "explain_vi": "Sai. Giá trị tiến gần 4 khi \\(x\\to2^-\\) nhưng không bao giờ bằng 4, nên không có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">giá trị lớn nhất</b>.",
+   "images": [],
+   "id": "8280eb9f347c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "True or false: \\(f(x)=x^#\\) has both a maximum value and a minimum value on \\([-#]\\).",
+   "en": "True or false: \\(f(x)=x^3\\) has both a maximum value and a minimum value on \\([-2,1]\\).",
+   "vi": "Đúng hay sai: \\(f(x)=x^3\\) có cả <b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">giá trị lớn nhất</b> và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"minimum value\">giá trị nhỏ nhất</b> trên đoạn \\([-2,1]\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. The minimum value is \\(f(-2)=-8\\) and the maximum value is \\(f(1)=1\\).",
+   "explain_vi": "Đúng. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"minimum value\">Giá trị nhỏ nhất</b> là \\(f(-2)=-8\\) và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">giá trị lớn nhất</b> là \\(f(1)=1\\).",
+   "images": [],
+   "id": "477954eb3f79",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "A rectangle has perimeter # cm. What is the largest possible area, in \\(\\text{cm}^#\\)?",
+   "en": "A rectangle has perimeter 36 cm. What is the largest possible area, in \\(\\text{cm}^2\\)?",
+   "vi": "Một hình chữ nhật có chu vi 36 cm. Diện tích lớn nhất là bao nhiêu \\(\\text{cm}^2\\)?",
+   "options": [],
+   "answer": "81",
+   "explain_en": "Answer: 81. 81 (a square with side 9 cm).",
+   "explain_vi": "Đáp án: 81. 81 (hình vuông cạnh 9 cm).",
+   "images": [],
+   "id": "9bdce82e21e6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Find the maximum value of \\(f(x)=x^#-#x^#-#x\\) on \\([-#]\\).",
+   "en": "Find the maximum value of \\(f(x)=x^3-3x^2-9x\\) on \\([-2,4]\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">giá trị lớn nhất</b> của \\(f(x)=x^3-3x^2-9x\\) trên đoạn \\([-2,4]\\).",
+   "options": [],
+   "answer": "5",
+   "explain_en": "Answer: 5. \\(f'(x)=3(x-3)(x+1)\\). \\(f(-2)=-2\\), \\(f(-1)=5\\), \\(f(3)=-27\\), \\(f(4)=-20\\).",
+   "explain_vi": "Đáp án: 5. \\(f'(x)=3(x-3)(x+1)\\). \\(f(-2)=-2\\), \\(f(-1)=5\\), \\(f(3)=-27\\), \\(f(4)=-20\\).",
+   "images": [],
+   "id": "0de620f35d04",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Find the maximum value of \\(f(x)=x^#-#x^#\\) on \\([#]\\).",
+   "en": "Find the maximum value of \\(f(x)=x^4-4x^2\\) on \\([0,3]\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">giá trị lớn nhất</b> của \\(f(x)=x^4-4x^2\\) trên đoạn \\([0,3]\\).",
+   "options": [],
+   "answer": "45",
+   "explain_en": "Answer: 45. \\(f(0)=0\\), \\(f(\\sqrt2)=-4\\), \\(f(3)=45\\).",
+   "explain_vi": "Đáp án: 45. \\(f(0)=0\\), \\(f(\\sqrt2)=-4\\), \\(f(3)=45\\).",
+   "images": [],
+   "id": "7bdec2ace70b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Find the minimum value of \\(f(x)=#x+\\dfrac#x\\) on \\((#,+\\infty)\\).",
+   "en": "Find the minimum value of \\(f(x)=4x+\\dfrac9x\\) on \\((0,+\\infty)\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"minimum value\">giá trị nhỏ nhất</b> của \\(f(x)=4x+\\dfrac9x\\) trên \\((0,+\\infty)\\).",
+   "options": [],
+   "answer": "12",
+   "explain_en": "Answer: 12. \\(f'(x)=4-\\dfrac9{x^2}=0\\) at \\(x=\\dfrac32\\), and \\(f\\left(\\dfrac32\\right)=6+6=12\\).",
+   "explain_vi": "Đáp án: 12. \\(f'(x)=4-\\dfrac9{x^2}=0\\) tại \\(x=\\dfrac32\\) và \\(f\\left(\\dfrac32\\right)=6+6=12\\).",
+   "images": [],
+   "id": "7035f8b5f7de",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Find the minimum value of \\(f(x)=x^#-#x^#-#x\\) on \\([-#]\\).",
+   "en": "Find the minimum value of \\(f(x)=x^3-3x^2-9x\\) on \\([-2,4]\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"minimum value\">giá trị nhỏ nhất</b> của \\(f(x)=x^3-3x^2-9x\\) trên đoạn \\([-2,4]\\).",
+   "options": [],
+   "answer": "-27",
+   "explain_en": "Answer: \\(-27\\). \\(-27\\), reached at \\(x=3\\).",
+   "explain_vi": "Đáp án: \\(-27\\). \\(-27\\), đạt tại \\(x=3\\).",
+   "images": [],
+   "id": "20b2cecb1a56",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "During a festival, the number of visitors (hundreds) \\(t\\) hours after opening is \\(N(t)=-t^#+#t^#+#\\), \\(#\\le t\\le#\\). The largest number of visitors (hundreds) is…",
+   "en": "During a festival, the number of visitors (hundreds) \\(t\\) hours after opening is \\(N(t)=-t^3+12t^2+5\\), \\(0\\le t\\le11\\). The largest number of visitors (hundreds) is…",
+   "vi": "Trong một lễ hội, số khách (trăm người) sau \\(t\\) giờ kể từ khi mở cửa là \\(N(t)=-t^3+12t^2+5\\), \\(0\\le t\\le11\\). Số khách lớn nhất (trăm người) là",
+   "options": [
+    "\\(261\\)",
+    "\\(5\\)",
+    "\\(126\\)",
+    "\\(133\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(N'(t)=-3t^2+24t=0\\Leftrightarrow t=0\\) or \\(t=8\\); \\(N(0)=5\\), \\(N(8)=261\\), \\(N(11)=126\\). Largest: \\(261\\).",
+   "explain_vi": "Đáp án a. \\(N'(t)=-3t^2+24t=0\\Leftrightarrow t=0\\) hoặc \\(t=8\\); \\(N(0)=5\\), \\(N(8)=261\\), \\(N(11)=126\\). Lớn nhất: \\(261\\).",
+   "images": [],
+   "id": "5c3ad70124c8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Find \\(m\\) so that the largest value of \\(f(x)=x^#-#x+m\\) on \\([#;\\,#]\\) equals \\(-#\\).",
+   "en": "Find \\(m\\) so that the largest value of \\(f(x)=x^2-2x+m\\) on \\([0;\\,3]\\) equals \\(-1\\).",
+   "vi": "Tìm \\(m\\) để <b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">giá trị lớn nhất</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(f(x)=x^2-2x+m\\) trên đoạn \\([0;\\,3]\\) bằng \\(-1\\).",
+   "options": [
+    "\\(0\\)",
+    "\\(-4\\)",
+    "\\(-2\\)",
+    "\\(-1\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. On \\([0;3]\\): smallest \\(f(1)=m-1\\), largest \\(f(3)=m+3\\). Setting the largest equal to \\(-1\\) gives \\(m=-4\\).",
+   "explain_vi": "Đáp án b. Trên \\([0;3]\\): nhỏ nhất \\(f(1)=m-1\\), lớn nhất \\(f(3)=m+3\\). Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">giá trị lớn nhất</b> bằng \\(-1\\) được \\(m=-4\\).",
+   "images": [],
+   "id": "99db57d62bda",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Let \\(M\\), \\(m\\) be the largest and smallest values of \\(f(x)=x^#-#x\\) on \\([-#;\\,#]\\). Then \\(M+m=\\)…",
+   "en": "Let \\(M\\), \\(m\\) be the largest and smallest values of \\(f(x)=x^3-12x\\) on \\([-2;\\,3]\\). Then \\(M+m=\\)…",
+   "vi": "Gọi \\(M\\), \\(m\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">giá trị lớn nhất</b> và nhỏ nhất của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(f(x)=x^3-12x\\) trên đoạn \\([-2;\\,3]\\). Khi đó \\(M+m=\\)",
+   "options": [
+    "\\(32\\)",
+    "\\(0\\)",
+    "\\(1\\)",
+    "\\(7\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Critical points \\(x=\\pm2\\); compare \\(f(-2)=16, f(3)=-9, f(2)=-16\\): \\(M=16\\), \\(m=-16\\), \\(M+m=0\\).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"critical point\">Điểm tới hạn</b> \\(x=\\pm2\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"compare\">so sánh</b> \\(f(-2)=16, f(3)=-9, f(2)=-16\\): \\(M=16\\), \\(m=-16\\), \\(M+m=0\\).",
+   "images": [],
+   "id": "ea120c05c593",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Look at the figure. It shows the graph of \\(y=f(x)\\) on \\([-#;\\,#]\\). The largest value of \\(f\\) on \\([-#;\\,#]\\) is…",
+   "en": "Look at the figure. It shows the graph of \\(y=f(x)\\) on \\([-2;\\,1]\\). The largest value of \\(f\\) on \\([-2;\\,1]\\) is…<img src=\"../../../img/tex/2fb4378f631bbd21.svg\" alt=\"Graph on a closed interval\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,320px);height:auto\">",
+   "vi": "Quan sát hình vẽ: đây là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(y=f(x)\\) trên đoạn \\([-2;\\,1]\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">Giá trị lớn nhất</b> của \\(f\\) trên đoạn \\([-2;\\,1]\\) là<img src=\"../../../img/tex/2fb4378f631bbd21.svg\" alt=\"Đồ thị trên một đoạn\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,320px);height:auto\">",
+   "options": [
+    "\\(4\\)",
+    "\\(6\\)",
+    "\\(5\\)",
+    "\\(0\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Compare the heights at the ends and at the turning points: \\(f(-2)=0, f(0)=4, f(1)=0\\); the largest is \\(4\\).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"compare\">So sánh</b> độ cao tại hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"endpoint\">đầu mút</b> và các điểm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"extremum\">cực trị</b>: \\(f(-2)=0, f(0)=4, f(1)=0\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">giá trị lớn nhất</b> là \\(4\\).",
+   "images": [
+    "img/tex/2fb4378f631bbd21.svg"
+   ],
+   "id": "4b48603fb40b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The largest value of \\(y=\\sin^#x-#\\sin x+#\\) on \\(\\mathbb R\\) is…",
+   "en": "The largest value of \\(y=\\sin^2x-4\\sin x+3\\) on \\(\\mathbb R\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">Giá trị lớn nhất</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(y=\\sin^2x-4\\sin x+3\\) trên \\(\\mathbb R\\) là",
+   "options": [
+    "\\(3\\)",
+    "\\(4\\)",
+    "\\(0\\)",
+    "\\(8\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Write \\(y\\) in terms of one quantity (for example \\(t=\\sin x\\in[-1;1]\\), or \\(a\\sin x+b\\cos x=\\sqrt{a^2+b^2}\\sin(x+\\varphi)\\)) and study it on its range. Answer: \\(8\\).",
+   "explain_vi": "Đáp án d. Đưa \\(y\\) về một đại lượng (chẳng hạn \\(t=\\sin x\\in[-1;1]\\), hoặc \\(a\\sin x+b\\cos x=\\sqrt{a^2+b^2}\\sin(x+\\varphi)\\)) rồi khảo sát trên miền giá trị của nó. Đáp số: \\(8\\).",
+   "images": [],
+   "id": "95ce1708fa4f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The largest value of \\(y=e^x-x\\) on \\([-#;\\,#]\\) is…",
+   "en": "The largest value of \\(y=e^x-x\\) on \\([-1;\\,1]\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">Giá trị lớn nhất</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(y=e^x-x\\) trên đoạn \\([-1;\\,1]\\) là",
+   "options": [
+    "\\(e-1\\)",
+    "\\(\\dfrac1e+1\\)",
+    "\\(e\\)",
+    "\\(1\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Solve \\(y'=0\\) in the interval, then compare the values at that point and at the two ends. Answer: \\(e-1\\).",
+   "explain_vi": "Đáp án a. Giải \\(y'=0\\) trên đoạn, rồi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"compare\">so sánh</b> giá trị tại điểm đó và tại hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"endpoint\">đầu mút</b>. Đáp số: \\(e-1\\).",
+   "images": [],
+   "id": "3507b0557ec3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The smallest value of \\(y=\\sqrt x+\\sqrt{#-x}\\) (on its domain) is…",
+   "en": "The smallest value of \\(y=\\sqrt x+\\sqrt{4-x}\\) (on its domain) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"minimum value\">Giá trị nhỏ nhất</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(y=\\sqrt x+\\sqrt{4-x}\\) (trên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"domain\">tập xác định</b>) là",
+   "options": [
+    "\\(2\\sqrt2\\)",
+    "\\(\\sqrt2\\)",
+    "\\(0\\)",
+    "\\(2\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Find the domain (a closed interval), solve \\(y'=0\\) inside it, then compare the values at the critical points and at the ends: \\(2\\).",
+   "explain_vi": "Đáp án d. Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"domain\">tập xác định</b> (một đoạn), giải \\(y'=0\\) trên đó rồi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"compare\">so sánh</b> giá trị tại <b class=\"mbl-term\" tabindex=\"0\" data-en=\"critical point\">điểm tới hạn</b> và hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"endpoint\">đầu mút</b>: \\(2\\).",
+   "images": [],
+   "id": "c49fa4a4ca32",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Use the variation table of \\(y=f(x)\\) on \\([-#;\\,#]\\) below. The smallest value of \\(f\\) on this interval is…",
+   "en": "Use the variation table of \\(y=f(x)\\) on \\([-5;\\,1]\\) below. The smallest value of \\(f\\) on this interval is…<img src=\"../../../img/tex/34ee0599b7a40ee6.svg\" alt=\"Variation table\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,460px);height:auto\">",
+   "vi": "Dựa vào <b class=\"mbl-term\" tabindex=\"0\" data-en=\"variation table\">bảng biến thiên</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(y=f(x)\\) trên đoạn \\([-5;\\,1]\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"minimum value\">Giá trị nhỏ nhất</b> của \\(f\\) trên đoạn này là<img src=\"../../../img/tex/34ee0599b7a40ee6.svg\" alt=\"Bảng biến thiên\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,460px);height:auto\">",
+   "options": [
+    "\\(1\\)",
+    "\\(-3\\)",
+    "\\(17\\)",
+    "\\(-19\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Compare all the values in the bottom row: \\(-19, 1, -3, 17\\).",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"compare\">So sánh</b> mọi giá trị ở hàng cuối: \\(-19, 1, -3, 17\\).",
+   "images": [
+    "img/tex/34ee0599b7a40ee6.svg"
+   ],
+   "id": "2d3e27051ba0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "A farmer has # m of fence and makes a rectangular garden. What is the greatest possible area (in \\(\\text{m}^#\\))?",
+   "en": "A farmer has 32 m of fence and makes a rectangular garden. What is the greatest possible area (in \\(\\text{m}^2\\))?",
+   "vi": "Một người nông dân có 32 m <b class=\"mbl-term\" tabindex=\"0\" data-en=\"fence\">hàng rào</b> để rào một mảnh vườn hình chữ nhật. Diện tích lớn nhất có thể là bao nhiêu (đơn vị \\(\\text{m}^2\\))?",
+   "options": [
+    "\\(256\\)",
+    "\\(56\\)",
+    "\\(64\\)",
+    "\\(128\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Sides \\(x\\) and \\(16-x\\); area \\(S=x(16-x)\\) is largest at \\(x=8\\): \\(S=64\\).",
+   "explain_vi": "Đáp án c. Hai cạnh \\(x\\) và \\(16-x\\); diện tích \\(S=x(16-x)\\) lớn nhất tại \\(x=8\\): \\(S=64\\).",
+   "images": [],
+   "id": "8cfcc44c16a1",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Find the greatest value of \\(f(x)=\\sqrt{#-x^#}\\) on its domain.",
+   "en": "Find the greatest value of \\(f(x)=\\sqrt{25-x^2}\\) on its domain.",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">giá trị lớn nhất</b> của \\(f(x)=\\sqrt{25-x^2}\\) trên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"domain\">tập xác định</b>.",
+   "options": [
+    "\\(0\\)",
+    "\\(25\\)",
+    "\\(10\\)",
+    "\\(5\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. The domain is \\([-5,5]\\). \\(0\\le25-x^2\\le25\\), so the greatest value is 5 at \\(x=0\\).",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"domain\">Tập xác định</b> là \\([-5,5]\\). \\(0\\le25-x^2\\le25\\), nên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">giá trị lớn nhất</b> là 5 tại \\(x=0\\).",
+   "images": [],
+   "id": "b6796ecfc3c8",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Find the greatest value of \\(f(x)=x+\\dfrac{#}{x}\\) on \\([#]\\).",
+   "en": "Find the greatest value of \\(f(x)=x+\\dfrac{4}{x}\\) on \\([1,4]\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">giá trị lớn nhất</b> của \\(f(x)=x+\\dfrac{4}{x}\\) trên đoạn \\([1,4]\\).",
+   "options": [
+    "\\(3\\)",
+    "\\(7\\)",
+    "\\(4\\)",
+    "\\(5\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(f'(x)=1-\\dfrac{4}{x^2}=0\\) at \\(x=2\\in[1,4]\\). \\(f(1)=5\\), \\(f(4)=5\\), \\(f(2)=4\\).",
+   "explain_vi": "Đáp án d. \\(f'(x)=1-\\dfrac{4}{x^2}=0\\) tại \\(x=2\\in[1,4]\\). \\(f(1)=5\\), \\(f(4)=5\\), \\(f(2)=4\\).",
+   "images": [],
+   "id": "4d69bc410acd",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Find the greatest value of \\(f(x)=x^#+#x+#\\) on \\([-#]\\).",
+   "en": "Find the greatest value of \\(f(x)=x^2+4x+3\\) on \\([-2,2]\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">giá trị lớn nhất</b> của \\(f(x)=x^2+4x+3\\) trên đoạn \\([-2,2]\\).",
+   "options": [
+    "\\(17\\)",
+    "\\(-1\\)",
+    "\\(15\\)",
+    "\\(14\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The vertex is at \\(x=-2\\). Compare the values at the endpoints and at the vertex: \\(f(-2)=-1\\), \\(f(2)=15\\).",
+   "explain_vi": "Đáp án c. Đỉnh có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"abscissa\">hoành độ</b> \\(x=-2\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"compare\">So sánh</b> giá trị ở hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"endpoint\">đầu mút</b> và tại đỉnh: \\(f(-2)=-1\\), \\(f(2)=15\\).",
+   "images": [],
+   "id": "ec57a1ad2776",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Find the greatest value of \\(f(x)=x^#-#x^#+#\\) on \\([-#]\\).",
+   "en": "Find the greatest value of \\(f(x)=x^3-3x^2+4\\) on \\([-1,4]\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">giá trị lớn nhất</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(f(x)=x^3-3x^2+4\\) trên đoạn \\([-1,4]\\).",
+   "options": [
+    "\\(19\\)",
+    "\\(20\\)",
+    "\\(4\\)",
+    "\\(0\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(f'(x)=3x(x-2)\\). Compare \\(f(-1)=0\\), \\(f(0)=4\\), \\(f(2)=0\\), \\(f(4)=20\\).",
+   "explain_vi": "Đáp án b. \\(f'(x)=3x(x-2)\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"compare\">So sánh</b> \\(f(-1)=0\\), \\(f(0)=4\\), \\(f(2)=0\\), \\(f(4)=20\\).",
+   "images": [],
+   "id": "3cacbe0819db",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Find the smallest value of \\(f(x)=x^#+#\\) on \\([#]\\).",
+   "en": "Find the smallest value of \\(f(x)=x^2+3\\) on \\([2,4]\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"minimum value\">giá trị nhỏ nhất</b> của \\(f(x)=x^2+3\\) trên đoạn \\([2,4]\\).",
+   "options": [
+    "\\(3\\)",
+    "\\(19\\)",
+    "\\(7\\)",
+    "\\(6\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The vertex is at \\(x=0\\). Compare the values at the endpoints (the vertex is outside the interval): \\(f(2)=7\\), \\(f(4)=19\\).",
+   "explain_vi": "Đáp án c. Đỉnh có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"abscissa\">hoành độ</b> \\(x=0\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"compare\">So sánh</b> giá trị ở hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"endpoint\">đầu mút</b> (đỉnh nằm ngoài đoạn): \\(f(2)=7\\), \\(f(4)=19\\).",
+   "images": [],
+   "id": "35a79ede860a",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Find the smallest value of \\(f(x)=x^#-#x^#+#\\) on \\([-#]\\).",
+   "en": "Find the smallest value of \\(f(x)=x^3-6x^2+2\\) on \\([-1,5]\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"minimum value\">giá trị nhỏ nhất</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(f(x)=x^3-6x^2+2\\) trên đoạn \\([-1,5]\\).",
+   "options": [
+    "\\(2\\)",
+    "\\(-23\\)",
+    "\\(-5\\)",
+    "\\(-30\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(f'(x)=3x(x-4)\\). Compare \\(f(-1)=-5\\), \\(f(0)=2\\), \\(f(4)=-30\\), \\(f(5)=-23\\).",
+   "explain_vi": "Đáp án d. \\(f'(x)=3x(x-4)\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"compare\">So sánh</b> \\(f(-1)=-5\\), \\(f(0)=2\\), \\(f(4)=-30\\), \\(f(5)=-23\\).",
+   "images": [],
+   "id": "5ac5cbfd0a86",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "From a square sheet of side # cm, we cut a square of side \\(x\\) from each corner and fold to make an open box. What is the greatest volume (in \\(\\text{cm}^#\\))?",
+   "en": "From a square sheet of side 18 cm, we cut a square of side \\(x\\) from each corner and fold to make an open box. What is the greatest volume (in \\(\\text{cm}^3\\))?",
+   "vi": "Từ một tấm bìa hình vuông cạnh 18 cm, cắt bỏ bốn hình vuông cạnh \\(x\\) ở bốn góc rồi gập thành hộp không nắp. Thể tích lớn nhất là bao nhiêu (đơn vị \\(\\text{cm}^3\\))?",
+   "options": [
+    "\\(432\\)",
+    "\\(864\\)",
+    "\\(108\\)",
+    "\\(216\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(V(x)=x(18-2x)^2\\), \\(V'(x)=0\\) at \\(x=3\\), and \\(V(3)=432\\).",
+   "explain_vi": "Đáp án a. \\(V(x)=x(18-2x)^2\\), \\(V'(x)=0\\) tại \\(x=3\\) và \\(V(3)=432\\).",
+   "images": [],
+   "id": "279d594aece4",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "A farmer has # m of fence and makes a rectangular garden. What is the greatest possible area (in \\(\\text{m}^#\\))?",
+   "en": "A farmer has 120 m of fence and makes a rectangular garden. What is the greatest possible area (in \\(\\text{m}^2\\))?",
+   "vi": "Một người nông dân có 120 m <b class=\"mbl-term\" tabindex=\"0\" data-en=\"fence\">hàng rào</b> để rào một mảnh vườn hình chữ nhật. Diện tích lớn nhất có thể là bao nhiêu (đơn vị \\(\\text{m}^2\\))?",
+   "options": [
+    "\\(900\\)",
+    "\\(3600\\)",
+    "\\(870\\)",
+    "\\(1800\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Sides \\(x\\) and \\(60-x\\); area \\(S=x(60-x)\\) is largest at \\(x=30\\): \\(S=900\\).",
+   "explain_vi": "Đáp án a. Hai cạnh \\(x\\) và \\(60-x\\); diện tích \\(S=x(60-x)\\) lớn nhất tại \\(x=30\\): \\(S=900\\).",
+   "images": [],
+   "id": "0e26ea6ec824",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Find the greatest value of \\(f(x)=x+\\dfrac{#}{x}\\) on \\([#]\\).",
+   "en": "Find the greatest value of \\(f(x)=x+\\dfrac{16}{x}\\) on \\([3,7]\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">giá trị lớn nhất</b> của \\(f(x)=x+\\dfrac{16}{x}\\) trên đoạn \\([3,7]\\).",
+   "options": [
+    "\\(\\dfrac{65}{7}\\)",
+    "\\(8\\)",
+    "\\(\\dfrac{58}{7}\\)",
+    "\\(\\dfrac{25}{3}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(f'(x)=1-\\dfrac{16}{x^2}=0\\) at \\(x=4\\in[3,7]\\). \\(f(3)=\\dfrac{25}{3}\\), \\(f(7)=\\dfrac{65}{7}\\), \\(f(4)=8\\).",
+   "explain_vi": "Đáp án a. \\(f'(x)=1-\\dfrac{16}{x^2}=0\\) tại \\(x=4\\in[3,7]\\). \\(f(3)=\\dfrac{25}{3}\\), \\(f(7)=\\dfrac{65}{7}\\), \\(f(4)=8\\).",
+   "images": [],
+   "id": "bcff42f6dcee",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Find the greatest value of \\(f(x)=x^#+#x+#\\) on \\([#]\\).",
+   "en": "Find the greatest value of \\(f(x)=x^2+4x+2\\) on \\([0,3]\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">giá trị lớn nhất</b> của \\(f(x)=x^2+4x+2\\) trên đoạn \\([0,3]\\).",
+   "options": [
+    "\\(2\\)",
+    "\\(22\\)",
+    "\\(23\\)",
+    "\\(-2\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The vertex is at \\(x=-2\\). Compare the values at the endpoints (the vertex is outside the interval): \\(f(0)=2\\), \\(f(3)=23\\).",
+   "explain_vi": "Đáp án c. Đỉnh có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"abscissa\">hoành độ</b> \\(x=-2\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"compare\">So sánh</b> giá trị ở hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"endpoint\">đầu mút</b> (đỉnh nằm ngoài đoạn): \\(f(0)=2\\), \\(f(3)=23\\).",
+   "images": [],
+   "id": "143f46321fba",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Find the greatest value of \\(f(x)=x^#+#x-#\\) on \\([-#]\\).",
+   "en": "Find the greatest value of \\(f(x)=x^2+2x-3\\) on \\([-1,1]\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">giá trị lớn nhất</b> của \\(f(x)=x^2+2x-3\\) trên đoạn \\([-1,1]\\).",
+   "options": [
+    "\\(-1\\)",
+    "\\(0\\)",
+    "\\(2\\)",
+    "\\(-4\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. The vertex is at \\(x=-1\\). Compare the values at the endpoints and at the vertex: \\(f(-1)=-4\\), \\(f(1)=0\\).",
+   "explain_vi": "Đáp án b. Đỉnh có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"abscissa\">hoành độ</b> \\(x=-1\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"compare\">So sánh</b> giá trị ở hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"endpoint\">đầu mút</b> và tại đỉnh: \\(f(-1)=-4\\), \\(f(1)=0\\).",
+   "images": [],
+   "id": "18fe6b7c58f4",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Find the greatest value of \\(f(x)=x^#-#x^#+#\\) on \\([-#]\\).",
+   "en": "Find the greatest value of \\(f(x)=x^3-6x^2+6\\) on \\([-1,6]\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">giá trị lớn nhất</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(f(x)=x^3-6x^2+6\\) trên đoạn \\([-1,6]\\).",
+   "options": [
+    "\\(6\\)",
+    "\\(5\\)",
+    "\\(-26\\)",
+    "\\(-1\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(f'(x)=3x(x-4)\\). Compare \\(f(-1)=-1\\), \\(f(0)=6\\), \\(f(4)=-26\\), \\(f(6)=6\\).",
+   "explain_vi": "Đáp án a. \\(f'(x)=3x(x-4)\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"compare\">So sánh</b> \\(f(-1)=-1\\), \\(f(0)=6\\), \\(f(4)=-26\\), \\(f(6)=6\\).",
+   "images": [],
+   "id": "1324756717e8",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Find the smallest value of \\(f(x)=\\sqrt{#-x^#}\\) on its domain.",
+   "en": "Find the smallest value of \\(f(x)=\\sqrt{36-x^2}\\) on its domain.",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"minimum value\">giá trị nhỏ nhất</b> của \\(f(x)=\\sqrt{36-x^2}\\) trên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"domain\">tập xác định</b>.",
+   "options": [
+    "\\(6\\)",
+    "\\(36\\)",
+    "\\(0\\)",
+    "\\(-6\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The domain is \\([-6,6]\\). \\(0\\le36-x^2\\le36\\), so the smallest value is 0 at \\(x=\\pm6\\).",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"domain\">Tập xác định</b> là \\([-6,6]\\). \\(0\\le36-x^2\\le36\\), nên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"minimum value\">giá trị nhỏ nhất</b> là 0 tại \\(x=\\pm6\\).",
+   "images": [],
+   "id": "bdfd8a66bade",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Find the smallest value of \\(f(x)=x^#-#x^#-#\\) on \\([-#]\\).",
+   "en": "Find the smallest value of \\(f(x)=x^3-9x^2-5\\) on \\([-2,8]\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"minimum value\">giá trị nhỏ nhất</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(f(x)=x^3-9x^2-5\\) trên đoạn \\([-2,8]\\).",
+   "options": [
+    "\\(-49\\)",
+    "\\(-69\\)",
+    "\\(-5\\)",
+    "\\(-113\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(f'(x)=3x(x-6)\\). Compare \\(f(-2)=-49\\), \\(f(0)=-5\\), \\(f(6)=-113\\), \\(f(8)=-69\\).",
+   "explain_vi": "Đáp án d. \\(f'(x)=3x(x-6)\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"compare\">So sánh</b> \\(f(-2)=-49\\), \\(f(0)=-5\\), \\(f(6)=-113\\), \\(f(8)=-69\\).",
+   "images": [],
+   "id": "23d78626ac1c",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "From a square sheet of side # cm, we cut a square of side \\(x\\) from each corner and fold to make an open box. What is the greatest volume (in \\(\\text{cm}^#\\))?",
+   "en": "From a square sheet of side 24 cm, we cut a square of side \\(x\\) from each corner and fold to make an open box. What is the greatest volume (in \\(\\text{cm}^3\\))?",
+   "vi": "Từ một tấm bìa hình vuông cạnh 24 cm, cắt bỏ bốn hình vuông cạnh \\(x\\) ở bốn góc rồi gập thành hộp không nắp. Thể tích lớn nhất là bao nhiêu (đơn vị \\(\\text{cm}^3\\))?",
+   "options": [
+    "\\(1024\\)",
+    "\\(2048\\)",
+    "\\(256\\)",
+    "\\(512\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(V(x)=x(24-2x)^2\\), \\(V'(x)=0\\) at \\(x=4\\), and \\(V(4)=1024\\).",
+   "explain_vi": "Đáp án a. \\(V(x)=x(24-2x)^2\\), \\(V'(x)=0\\) tại \\(x=4\\) và \\(V(4)=1024\\).",
+   "images": [],
+   "id": "f4e87a0e2696",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "A farmer has # m of fence and makes a rectangular garden. What is the greatest possible area (in \\(\\text{m}^#\\))?",
+   "en": "A farmer has 40 m of fence and makes a rectangular garden. What is the greatest possible area (in \\(\\text{m}^2\\))?",
+   "vi": "Một người nông dân có 40 m <b class=\"mbl-term\" tabindex=\"0\" data-en=\"fence\">hàng rào</b> để rào một mảnh vườn hình chữ nhật. Diện tích lớn nhất có thể là bao nhiêu (đơn vị \\(\\text{m}^2\\))?",
+   "options": [
+    "\\(400\\)",
+    "\\(100\\)",
+    "\\(200\\)",
+    "\\(90\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Sides \\(x\\) and \\(20-x\\); area \\(S=x(20-x)\\) is largest at \\(x=10\\): \\(S=100\\).",
+   "explain_vi": "Đáp án b. Hai cạnh \\(x\\) và \\(20-x\\); diện tích \\(S=x(20-x)\\) lớn nhất tại \\(x=10\\): \\(S=100\\).",
+   "images": [],
+   "id": "b522990e070a",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Find the greatest value of \\(f(x)=x^#-#x+#\\) on \\([-#]\\).",
+   "en": "Find the greatest value of \\(f(x)=x^2-2x+5\\) on \\([-3,0]\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">giá trị lớn nhất</b> của \\(f(x)=x^2-2x+5\\) trên đoạn \\([-3,0]\\).",
+   "options": [
+    "\\(19\\)",
+    "\\(5\\)",
+    "\\(4\\)",
+    "\\(20\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. The vertex is at \\(x=1\\). Compare the values at the endpoints (the vertex is outside the interval): \\(f(-3)=20\\), \\(f(0)=5\\).",
+   "explain_vi": "Đáp án d. Đỉnh có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"abscissa\">hoành độ</b> \\(x=1\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"compare\">So sánh</b> giá trị ở hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"endpoint\">đầu mút</b> (đỉnh nằm ngoài đoạn): \\(f(-3)=20\\), \\(f(0)=5\\).",
+   "images": [],
+   "id": "02a2e1fe8bef",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Find the greatest value of \\(f(x)=x^#-#x-#\\) on \\([-#]\\).",
+   "en": "Find the greatest value of \\(f(x)=x^2-4x-2\\) on \\([-3,1]\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">giá trị lớn nhất</b> của \\(f(x)=x^2-4x-2\\) trên đoạn \\([-3,1]\\).",
+   "options": [
+    "\\(-5\\)",
+    "\\(-6\\)",
+    "\\(19\\)",
+    "\\(18\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The vertex is at \\(x=2\\). Compare the values at the endpoints (the vertex is outside the interval): \\(f(-3)=19\\), \\(f(1)=-5\\).",
+   "explain_vi": "Đáp án c. Đỉnh có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"abscissa\">hoành độ</b> \\(x=2\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"compare\">So sánh</b> giá trị ở hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"endpoint\">đầu mút</b> (đỉnh nằm ngoài đoạn): \\(f(-3)=19\\), \\(f(1)=-5\\).",
+   "images": [],
+   "id": "b59c2a196492",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Find the greatest value of \\(f(x)=x^#-#x^#-#\\) on \\([-#]\\).",
+   "en": "Find the greatest value of \\(f(x)=x^3-9x^2-1\\) on \\([-2,8]\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">giá trị lớn nhất</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(f(x)=x^3-9x^2-1\\) trên đoạn \\([-2,8]\\).",
+   "options": [
+    "\\(-65\\)",
+    "\\(-45\\)",
+    "\\(-1\\)",
+    "\\(-109\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(f'(x)=3x(x-6)\\). Compare \\(f(-2)=-45\\), \\(f(0)=-1\\), \\(f(6)=-109\\), \\(f(8)=-65\\).",
+   "explain_vi": "Đáp án c. \\(f'(x)=3x(x-6)\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"compare\">So sánh</b> \\(f(-2)=-45\\), \\(f(0)=-1\\), \\(f(6)=-109\\), \\(f(8)=-65\\).",
+   "images": [],
+   "id": "d4d10c254d1c",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Find the smallest value of \\(f(x)=\\sqrt{#-x^#}\\) on its domain.",
+   "en": "Find the smallest value of \\(f(x)=\\sqrt{81-x^2}\\) on its domain.",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"minimum value\">giá trị nhỏ nhất</b> của \\(f(x)=\\sqrt{81-x^2}\\) trên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"domain\">tập xác định</b>.",
+   "options": [
+    "\\(81\\)",
+    "\\(0\\)",
+    "\\(-9\\)",
+    "\\(9\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. The domain is \\([-9,9]\\). \\(0\\le81-x^2\\le81\\), so the smallest value is 0 at \\(x=\\pm9\\).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"domain\">Tập xác định</b> là \\([-9,9]\\). \\(0\\le81-x^2\\le81\\), nên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"minimum value\">giá trị nhỏ nhất</b> là 0 tại \\(x=\\pm9\\).",
+   "images": [],
+   "id": "3749ece93717",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Find the smallest value of \\(f(x)=x+\\dfrac{#}{x}\\) on \\([#]\\).",
+   "en": "Find the smallest value of \\(f(x)=x+\\dfrac{4}{x}\\) on \\([1,5]\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"minimum value\">giá trị nhỏ nhất</b> của \\(f(x)=x+\\dfrac{4}{x}\\) trên đoạn \\([1,5]\\).",
+   "options": [
+    "\\(5\\)",
+    "\\(3\\)",
+    "\\(\\dfrac{29}{5}\\)",
+    "\\(4\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(f'(x)=1-\\dfrac{4}{x^2}=0\\) at \\(x=2\\in[1,5]\\). \\(f(1)=5\\), \\(f(5)=\\dfrac{29}{5}\\), \\(f(2)=4\\).",
+   "explain_vi": "Đáp án d. \\(f'(x)=1-\\dfrac{4}{x^2}=0\\) tại \\(x=2\\in[1,5]\\). \\(f(1)=5\\), \\(f(5)=\\dfrac{29}{5}\\), \\(f(2)=4\\).",
+   "images": [],
+   "id": "3366858aad46",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Find the smallest value of \\(f(x)=x^#-#x^#-#\\) on \\([-#]\\).",
+   "en": "Find the smallest value of \\(f(x)=x^3-3x^2-3\\) on \\([-2,3]\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"minimum value\">giá trị nhỏ nhất</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(f(x)=x^3-3x^2-3\\) trên đoạn \\([-2,3]\\).",
+   "options": [
+    "\\(-7\\)",
+    "\\(-3\\)",
+    "\\(-23\\)",
+    "\\(-24\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(f'(x)=3x(x-2)\\). Compare \\(f(-2)=-23\\), \\(f(0)=-3\\), \\(f(2)=-7\\), \\(f(3)=-3\\).",
+   "explain_vi": "Đáp án c. \\(f'(x)=3x(x-2)\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"compare\">So sánh</b> \\(f(-2)=-23\\), \\(f(0)=-3\\), \\(f(2)=-7\\), \\(f(3)=-3\\).",
+   "images": [],
+   "id": "37c527037723",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "From a square sheet of side # cm, we cut a square of side \\(x\\) from each corner and fold to make an open box. What is the greatest volume (in \\(\\text{cm}^#\\))?",
+   "en": "From a square sheet of side 30 cm, we cut a square of side \\(x\\) from each corner and fold to make an open box. What is the greatest volume (in \\(\\text{cm}^3\\))?",
+   "vi": "Từ một tấm bìa hình vuông cạnh 30 cm, cắt bỏ bốn hình vuông cạnh \\(x\\) ở bốn góc rồi gập thành hộp không nắp. Thể tích lớn nhất là bao nhiêu (đơn vị \\(\\text{cm}^3\\))?",
+   "options": [
+    "\\(4000\\)",
+    "\\(2000\\)",
+    "\\(1000\\)",
+    "\\(500\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(V(x)=x(30-2x)^2\\), \\(V'(x)=0\\) at \\(x=5\\), and \\(V(5)=2000\\).",
+   "explain_vi": "Đáp án b. \\(V(x)=x(30-2x)^2\\), \\(V'(x)=0\\) tại \\(x=5\\) và \\(V(5)=2000\\).",
+   "images": [],
+   "id": "e6febbce0bc5",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  }
+ ]
+}

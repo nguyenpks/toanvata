@@ -1,0 +1,639 @@
+{
+ "lesson": "g12-antider-01",
+ "grade": 12,
+ "no": null,
+ "title": "Nguyên hàm",
+ "path": "lessons/grade12/antiderivatives/antiderivatives.html",
+ "items": [
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Find \\(\\displaystyle\\int x^#\\,dx\\).",
+   "en": "Find \\(\\displaystyle\\int x^3\\,dx\\).",
+   "vi": "Tìm \\(\\displaystyle\\int x^3\\,dx\\).",
+   "options": [
+    "\\(\\dfrac{x^4}{4}+C\\)",
+    "\\(3x^2+C\\)",
+    "\\(x^4+C\\)",
+    "\\(\\dfrac{x^3}{3}+C\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Power rule with \\(n=3\\).",
+   "explain_vi": "Đáp án a. Quy tắc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"power\">lũy thừa</b> với \\(n=3\\).",
+   "images": [],
+   "id": "1bd7a03d7174",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Find \\(\\displaystyle\\int#x\\,dx\\).",
+   "en": "Find \\(\\displaystyle\\int2x\\,dx\\).",
+   "vi": "Tìm \\(\\displaystyle\\int2x\\,dx\\).",
+   "options": [
+    "\\(x^2+C\\)",
+    "\\(2x^2+C\\)",
+    "\\(x+C\\)",
+    "\\(2+C\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\((x^2)'=2x\\).",
+   "explain_vi": "Đáp án a. \\((x^2)'=2x\\).",
+   "images": [],
+   "id": "b2c3db6770c6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Find \\(\\displaystyle\\int(\\sin x+#)\\,dx\\).",
+   "en": "Find \\(\\displaystyle\\int(\\sin x+2)\\,dx\\).",
+   "vi": "Tìm \\(\\displaystyle\\int(\\sin x+2)\\,dx\\).",
+   "options": [
+    "\\(\\cos x+2x+C\\)",
+    "\\(-\\cos x+2x+C\\)",
+    "\\(-\\cos x+2+C\\)",
+    "\\(\\sin x+2x+C\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\int\\sin x\\,dx=-\\cos x\\) and \\(\\int2\\,dx=2x\\).",
+   "explain_vi": "Đáp án b. \\(\\int\\sin x\\,dx=-\\cos x\\) và \\(\\int2\\,dx=2x\\).",
+   "images": [],
+   "id": "f3dd50981c93",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Find \\(\\displaystyle\\int\\cos x\\,dx\\).",
+   "en": "Find \\(\\displaystyle\\int\\cos x\\,dx\\).",
+   "vi": "Tìm \\(\\displaystyle\\int\\cos x\\,dx\\).",
+   "options": [
+    "\\(-\\sin x+C\\)",
+    "\\(\\cos x+C\\)",
+    "\\(\\sin x+C\\)",
+    "\\(-\\cos x+C\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\((\\sin x)'=\\cos x\\).",
+   "explain_vi": "Đáp án c. \\((\\sin x)'=\\cos x\\).",
+   "images": [],
+   "id": "f357d1df5b0f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "True or false: \\(\\displaystyle\\int\\dfrac#x\\,dx=\\ln x+C\\) for every \\(x\\ne#\\).",
+   "en": "True or false: \\(\\displaystyle\\int\\dfrac1x\\,dx=\\ln x+C\\) for every \\(x\\ne0\\).",
+   "vi": "Đúng hay sai: \\(\\displaystyle\\int\\dfrac1x\\,dx=\\ln x+C\\) với mọi \\(x\\ne0\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. The correct form is \\(\\ln|x|+C\\), because \\(\\ln x\\) is not defined for \\(x\\lt 0\\).",
+   "explain_vi": "Sai. Dạng đúng là \\(\\ln|x|+C\\), vì \\(\\ln x\\) không xác định khi \\(x\\lt 0\\).",
+   "images": [],
+   "id": "3c776ee866ba",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "True or false: \\(x^#+#\\) and \\(x^#-#\\) are both antiderivatives of \\(#x\\).",
+   "en": "True or false: \\(x^2+5\\) and \\(x^2-1\\) are both antiderivatives of \\(2x\\).",
+   "vi": "Đúng hay sai: \\(x^2+5\\) và \\(x^2-1\\) đều là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"antiderivative\">nguyên hàm</b> của \\(2x\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. They differ only by a constant.",
+   "explain_vi": "Đúng. Chúng chỉ khác nhau một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"constant\">hằng số</b>.",
+   "images": [],
+   "id": "2c9026a57870",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "Let \\(F(x)=\\displaystyle\\int(#x^#+#)\\,dx\\) with \\(F(#)=#\\). Find \\(F(#)\\).",
+   "en": "Let \\(F(x)=\\displaystyle\\int(3x^2+1)\\,dx\\) with \\(F(0)=0\\). Find \\(F(2)\\).",
+   "vi": "Cho \\(F(x)=\\displaystyle\\int(3x^2+1)\\,dx\\) với \\(F(0)=0\\). Tìm \\(F(2)\\).",
+   "options": [],
+   "answer": "10",
+   "explain_en": "Answer: 10. \\(F(x)=x^3+x\\), so \\(F(2)=8+2=10\\).",
+   "explain_vi": "Đáp án: 10. \\(F(x)=x^3+x\\) nên \\(F(2)=8+2=10\\).",
+   "images": [],
+   "id": "419bffb4cde1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "Let \\(F\\) be an antiderivative of \\(f(x)=#x-#\\) with \\(F(#)=#\\). Find \\(F(#)\\).",
+   "en": "Let \\(F\\) be an antiderivative of \\(f(x)=4x-1\\) with \\(F(0)=3\\). Find \\(F(1)\\).",
+   "vi": "Cho \\(F\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"antiderivative\">nguyên hàm</b> của \\(f(x)=4x-1\\) với \\(F(0)=3\\). Tìm \\(F(1)\\).",
+   "options": [],
+   "answer": "4",
+   "explain_en": "Answer: 4. \\(F(x)=2x^2-x+3\\), so \\(F(1)=2-1+3=4\\).",
+   "explain_vi": "Đáp án: 4. \\(F(x)=2x^2-x+3\\) nên \\(F(1)=2-1+3=4\\).",
+   "images": [],
+   "id": "d723c61df7c4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "Let \\(F\\) be an antiderivative of \\(f(x)=e^x+#\\) with \\(F(#)=#\\). Find \\(F(#)+F'(#)\\).",
+   "en": "Let \\(F\\) be an antiderivative of \\(f(x)=e^x+1\\) with \\(F(0)=2\\). Find \\(F(0)+F'(0)\\).",
+   "vi": "Cho \\(F\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"antiderivative\">nguyên hàm</b> của \\(f(x)=e^x+1\\) với \\(F(0)=2\\). Tìm \\(F(0)+F'(0)\\).",
+   "options": [],
+   "answer": "4",
+   "explain_en": "Answer: 4. \\(F'(0)=f(0)=e^0+1=2\\) and \\(F(0)=2\\).",
+   "explain_vi": "Đáp án: 4. \\(F'(0)=f(0)=e^0+1=2\\) và \\(F(0)=2\\).",
+   "images": [],
+   "id": "1ca2f4ed8638",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "\\(\\displaystyle\\int#x^#\\,dx=kx^#+C\\). Find \\(k\\).",
+   "en": "\\(\\displaystyle\\int6x^2\\,dx=kx^3+C\\). Find \\(k\\).",
+   "vi": "\\(\\displaystyle\\int6x^2\\,dx=kx^3+C\\). Tìm \\(k\\).",
+   "options": [],
+   "answer": "2",
+   "explain_en": "Answer: 2. \\(\\dfrac{6x^3}{3}=2x^3\\).",
+   "explain_vi": "Đáp án: 2. \\(\\dfrac{6x^3}{3}=2x^3\\).",
+   "images": [],
+   "id": "bcb9900bbfa4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Find \\(\\displaystyle\\int x^#\\,dx\\).",
+   "en": "Find \\(\\displaystyle\\int x^5\\,dx\\).",
+   "vi": "Tìm \\(\\displaystyle\\int x^5\\,dx\\).",
+   "options": [
+    "\\(\\dfrac{x^5}{5}+C\\)",
+    "\\(5x^4+C\\)",
+    "\\(\\dfrac{x^6}{6}+C\\)",
+    "\\(x^6+C\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Power rule with \\(n=5\\).",
+   "explain_vi": "Đáp án c. Quy tắc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"power\">lũy thừa</b> với \\(n=5\\).",
+   "images": [],
+   "id": "7f890a1be3ee",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Find \\(\\displaystyle\\int#x\\,dx\\).",
+   "en": "Find \\(\\displaystyle\\int4x\\,dx\\).",
+   "vi": "Tìm \\(\\displaystyle\\int4x\\,dx\\).",
+   "options": [
+    "\\(4x^2+C\\)",
+    "\\(2x^2+C\\)",
+    "\\(x^2+C\\)",
+    "\\(4+C\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\((2x^2)'=4x\\).",
+   "explain_vi": "Đáp án b. \\((2x^2)'=4x\\).",
+   "images": [],
+   "id": "029ba29c72ab",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Find \\(\\displaystyle\\int(\\cos x+#)\\,dx\\).",
+   "en": "Find \\(\\displaystyle\\int(\\cos x+3)\\,dx\\).",
+   "vi": "Tìm \\(\\displaystyle\\int(\\cos x+3)\\,dx\\).",
+   "options": [
+    "\\(\\sin x+3x+C\\)",
+    "\\(-\\sin x+3x+C\\)",
+    "\\(\\sin x+3+C\\)",
+    "\\(\\cos x+3x+C\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\int\\cos x\\,dx=\\sin x\\) and \\(\\int3\\,dx=3x\\).",
+   "explain_vi": "Đáp án a. \\(\\int\\cos x\\,dx=\\sin x\\) và \\(\\int3\\,dx=3x\\).",
+   "images": [],
+   "id": "3bd5617d21ba",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Find \\(\\displaystyle\\int\\sin x\\,dx\\).",
+   "en": "Find \\(\\displaystyle\\int\\sin x\\,dx\\).",
+   "vi": "Tìm \\(\\displaystyle\\int\\sin x\\,dx\\).",
+   "options": [
+    "\\(\\cos x+C\\)",
+    "\\(\\sin x+C\\)",
+    "\\(-\\sin x+C\\)",
+    "\\(-\\cos x+C\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\((-\\cos x)'=\\sin x\\).",
+   "explain_vi": "Đáp án d. \\((-\\cos x)'=\\sin x\\).",
+   "images": [],
+   "id": "d4149ac002e5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "True or false: \\(\\displaystyle\\int\\cos x\\,dx=-\\sin x+C\\).",
+   "en": "True or false: \\(\\displaystyle\\int\\cos x\\,dx=-\\sin x+C\\).",
+   "vi": "Đúng hay sai: \\(\\displaystyle\\int\\cos x\\,dx=-\\sin x+C\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. The correct result is \\(\\sin x+C\\), because \\((\\sin x)'=\\cos x\\).",
+   "explain_vi": "Sai. Kết quả đúng là \\(\\sin x+C\\), vì \\((\\sin x)'=\\cos x\\).",
+   "images": [],
+   "id": "fd16be42d822",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "True or false: \\(x^#+#\\) and \\(x^#-#\\) are both antiderivatives of \\(#x^#\\).",
+   "en": "True or false: \\(x^3+1\\) and \\(x^3-4\\) are both antiderivatives of \\(3x^2\\).",
+   "vi": "Đúng hay sai: \\(x^3+1\\) và \\(x^3-4\\) đều là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"antiderivative\">nguyên hàm</b> của \\(3x^2\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. They differ only by a constant.",
+   "explain_vi": "Đúng. Chúng chỉ khác nhau một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"constant\">hằng số</b>.",
+   "images": [],
+   "id": "f4ddf4694f24",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "Let \\(F(x)=\\displaystyle\\int(#x^#+#)\\,dx\\) with \\(F(#)=#\\). Find \\(F(#)\\).",
+   "en": "Let \\(F(x)=\\displaystyle\\int(4x^3+2)\\,dx\\) with \\(F(0)=0\\). Find \\(F(2)\\).",
+   "vi": "Cho \\(F(x)=\\displaystyle\\int(4x^3+2)\\,dx\\) với \\(F(0)=0\\). Tìm \\(F(2)\\).",
+   "options": [],
+   "answer": "20",
+   "explain_en": "Answer: 20. \\(F(x)=x^4+2x\\), so \\(F(2)=16+4=20\\).",
+   "explain_vi": "Đáp án: 20. \\(F(x)=x^4+2x\\) nên \\(F(2)=16+4=20\\).",
+   "images": [],
+   "id": "c88a3bf76ec9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "Let \\(F\\) be an antiderivative of \\(f(x)=#x+#\\) with \\(F(#)=#\\). Find \\(F(#)\\).",
+   "en": "Let \\(F\\) be an antiderivative of \\(f(x)=6x+2\\) with \\(F(0)=1\\). Find \\(F(1)\\).",
+   "vi": "Cho \\(F\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"antiderivative\">nguyên hàm</b> của \\(f(x)=6x+2\\) với \\(F(0)=1\\). Tìm \\(F(1)\\).",
+   "options": [],
+   "answer": "6",
+   "explain_en": "Answer: 6. \\(F(x)=3x^2+2x+1\\), so \\(F(1)=3+2+1=6\\).",
+   "explain_vi": "Đáp án: 6. \\(F(x)=3x^2+2x+1\\) nên \\(F(1)=3+2+1=6\\).",
+   "images": [],
+   "id": "aa054045ae58",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "Let \\(F\\) be an antiderivative of \\(f(x)=e^x+#\\) with \\(F(#)=#\\). Find \\(F(#)+F'(#)\\).",
+   "en": "Let \\(F\\) be an antiderivative of \\(f(x)=e^x+3\\) with \\(F(0)=1\\). Find \\(F(0)+F'(0)\\).",
+   "vi": "Cho \\(F\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"antiderivative\">nguyên hàm</b> của \\(f(x)=e^x+3\\) với \\(F(0)=1\\). Tìm \\(F(0)+F'(0)\\).",
+   "options": [],
+   "answer": "5",
+   "explain_en": "Answer: 5. \\(F'(0)=f(0)=e^0+3=4\\) and \\(F(0)=1\\).",
+   "explain_vi": "Đáp án: 5. \\(F'(0)=f(0)=e^0+3=4\\) và \\(F(0)=1\\).",
+   "images": [],
+   "id": "abba420fa803",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "\\(\\displaystyle\\int#x^#\\,dx=kx^#+C\\). Find \\(k\\).",
+   "en": "\\(\\displaystyle\\int12x^3\\,dx=kx^4+C\\). Find \\(k\\).",
+   "vi": "\\(\\displaystyle\\int12x^3\\,dx=kx^4+C\\). Tìm \\(k\\).",
+   "options": [],
+   "answer": "3",
+   "explain_en": "Answer: 3. \\(\\dfrac{12x^4}{4}=3x^4\\).",
+   "explain_vi": "Đáp án: 3. \\(\\dfrac{12x^4}{4}=3x^4\\).",
+   "images": [],
+   "id": "9b7b5059f0d7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Find \\(\\displaystyle\\int x^#\\,dx\\).",
+   "en": "Find \\(\\displaystyle\\int x^4\\,dx\\).",
+   "vi": "Tìm \\(\\displaystyle\\int x^4\\,dx\\).",
+   "options": [
+    "\\(4x^3+C\\)",
+    "\\(\\dfrac{x^5}{5}+C\\)",
+    "\\(x^5+C\\)",
+    "\\(\\dfrac{x^4}{4}+C\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Power rule with \\(n=4\\).",
+   "explain_vi": "Đáp án b. Quy tắc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"power\">lũy thừa</b> với \\(n=4\\).",
+   "images": [],
+   "id": "339eca8a68de",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Find \\(\\displaystyle\\int#x\\,dx\\).",
+   "en": "Find \\(\\displaystyle\\int6x\\,dx\\).",
+   "vi": "Tìm \\(\\displaystyle\\int6x\\,dx\\).",
+   "options": [
+    "\\(3x^2+C\\)",
+    "\\(6x^2+C\\)",
+    "\\(x^2+C\\)",
+    "\\(6+C\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\((3x^2)'=6x\\).",
+   "explain_vi": "Đáp án a. \\((3x^2)'=6x\\).",
+   "images": [],
+   "id": "048ca5c8f26a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Find \\(\\displaystyle\\int(e^x+#)\\,dx\\).",
+   "en": "Find \\(\\displaystyle\\int(e^x+2)\\,dx\\).",
+   "vi": "Tìm \\(\\displaystyle\\int(e^x+2)\\,dx\\).",
+   "options": [
+    "\\(e^x+2+C\\)",
+    "\\(e^x+2x^2+C\\)",
+    "\\(xe^x+2x+C\\)",
+    "\\(e^x+2x+C\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\int e^x\\,dx=e^x\\) and \\(\\int2\\,dx=2x\\).",
+   "explain_vi": "Đáp án d. \\(\\int e^x\\,dx=e^x\\) và \\(\\int2\\,dx=2x\\).",
+   "images": [],
+   "id": "a6c32591d90d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Find \\(\\displaystyle\\int\\dfrac{#}{\\cos^#x}\\,dx\\).",
+   "en": "Find \\(\\displaystyle\\int\\dfrac{1}{\\cos^2x}\\,dx\\).",
+   "vi": "Tìm \\(\\displaystyle\\int\\dfrac{1}{\\cos^2x}\\,dx\\).",
+   "options": [
+    "\\(-\\cot x+C\\)",
+    "\\(\\sin x+C\\)",
+    "\\(\\tan x+C\\)",
+    "\\(-\\tan x+C\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\((\\tan x)'=\\dfrac{1}{\\cos^2x}\\).",
+   "explain_vi": "Đáp án c. \\((\\tan x)'=\\dfrac{1}{\\cos^2x}\\).",
+   "images": [],
+   "id": "8845fddbae0c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "True or false: \\(\\displaystyle\\int(-\\sin x)\\,dx=-\\cos x+C\\).",
+   "en": "True or false: \\(\\displaystyle\\int(-\\sin x)\\,dx=-\\cos x+C\\).",
+   "vi": "Đúng hay sai: \\(\\displaystyle\\int(-\\sin x)\\,dx=-\\cos x+C\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. The correct result is \\(\\cos x+C\\), because \\((\\cos x)'=-\\sin x\\).",
+   "explain_vi": "Sai. Kết quả đúng là \\(\\cos x+C\\), vì \\((\\cos x)'=-\\sin x\\).",
+   "images": [],
+   "id": "6633f31ddd20",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "True or false: \\(\\sin x+#\\) and \\(\\sin x-#\\) are both antiderivatives of \\(\\cos x\\).",
+   "en": "True or false: \\(\\sin x+2\\) and \\(\\sin x-7\\) are both antiderivatives of \\(\\cos x\\).",
+   "vi": "Đúng hay sai: \\(\\sin x+2\\) và \\(\\sin x-7\\) đều là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"antiderivative\">nguyên hàm</b> của \\(\\cos x\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. They differ only by a constant.",
+   "explain_vi": "Đúng. Chúng chỉ khác nhau một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"constant\">hằng số</b>.",
+   "images": [],
+   "id": "7a5abe50397b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Let \\(F(x)=\\displaystyle\\int(#x^#-#)\\,dx\\) with \\(F(#)=#\\). Find \\(F(#)\\).",
+   "en": "Let \\(F(x)=\\displaystyle\\int(6x^2-2)\\,dx\\) with \\(F(0)=0\\). Find \\(F(2)\\).",
+   "vi": "Cho \\(F(x)=\\displaystyle\\int(6x^2-2)\\,dx\\) với \\(F(0)=0\\). Tìm \\(F(2)\\).",
+   "options": [],
+   "answer": "12",
+   "explain_en": "Answer: 12. \\(F(x)=2x^3-2x\\), so \\(F(2)=16-4=12\\).",
+   "explain_vi": "Đáp án: 12. \\(F(x)=2x^3-2x\\) nên \\(F(2)=16-4=12\\).",
+   "images": [],
+   "id": "d4df21a994d1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Let \\(F\\) be an antiderivative of \\(f(x)=#e^x+#\\) with \\(F(#)=#\\). Find \\(F(#)+F'(#)\\).",
+   "en": "Let \\(F\\) be an antiderivative of \\(f(x)=3e^x+2\\) with \\(F(0)=1\\). Find \\(F(0)+F'(0)\\).",
+   "vi": "Cho \\(F\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"antiderivative\">nguyên hàm</b> của \\(f(x)=3e^x+2\\) với \\(F(0)=1\\). Tìm \\(F(0)+F'(0)\\).",
+   "options": [],
+   "answer": "6",
+   "explain_en": "Answer: 6. \\(F'(0)=f(0)=3e^0+2=5\\) and \\(F(0)=1\\).",
+   "explain_vi": "Đáp án: 6. \\(F'(0)=f(0)=3e^0+2=5\\) và \\(F(0)=1\\).",
+   "images": [],
+   "id": "36ae849d3659",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Let \\(F\\) be an antiderivative of \\(f(x)=#x-#\\) with \\(F(#)=-#\\). Find \\(F(#)\\).",
+   "en": "Let \\(F\\) be an antiderivative of \\(f(x)=2x-5\\) with \\(F(0)=-1\\). Find \\(F(1)\\).",
+   "vi": "Cho \\(F\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"antiderivative\">nguyên hàm</b> của \\(f(x)=2x-5\\) với \\(F(0)=-1\\). Tìm \\(F(1)\\).",
+   "options": [],
+   "answer": "-5",
+   "explain_en": "Answer: \\(-5\\). \\(F(x)=x^2-5x-1\\), so \\(F(1)=1-5-1=-5\\).",
+   "explain_vi": "Đáp án: \\(-5\\). \\(F(x)=x^2-5x-1\\) nên \\(F(1)=1-5-1=-5\\).",
+   "images": [],
+   "id": "ba6d87acf781",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "\\(\\displaystyle\\int#x^#\\,dx=kx^#+C\\). Find \\(k\\).",
+   "en": "\\(\\displaystyle\\int20x^4\\,dx=kx^5+C\\). Find \\(k\\).",
+   "vi": "\\(\\displaystyle\\int20x^4\\,dx=kx^5+C\\). Tìm \\(k\\).",
+   "options": [],
+   "answer": "4",
+   "explain_en": "Answer: 4. \\(\\dfrac{20x^5}{5}=4x^5\\).",
+   "explain_vi": "Đáp án: 4. \\(\\dfrac{20x^5}{5}=4x^5\\).",
+   "images": [],
+   "id": "758b163603be",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  }
+ ]
+}

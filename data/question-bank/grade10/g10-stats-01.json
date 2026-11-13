@@ -1,0 +1,1029 @@
+{
+ "lesson": "g10-stats-01",
+ "grade": 10,
+ "no": 12,
+ "title": "Số gần đúng và sai số",
+ "path": "lessons/grade10/statistics/approximate-numbers-errors.html",
+ "items": [
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "A bottle of juice. The exact amount is \\(#\\) litres; the label shows \\(#\\) litres. The absolute error is…",
+   "en": "A bottle of juice. The exact amount is \\(4.986\\) litres; the label shows \\(5\\) litres. The absolute error is…",
+   "vi": "Một chai nước ép. Lượng thực tế là \\(4{,}986\\) lít; trên nhãn ghi \\(5\\) lít. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"absolute error\">Sai số tuyệt đối</b> là…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(0.14\\)</span><span class=\"vi\">\\(0{,}14\\)</span></span>",
+    "\\(0\\)",
+    "<span class=\"txi\"><span class=\"en\">\\(0.014\\)</span><span class=\"vi\">\\(0{,}014\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.0014\\)</span><span class=\"vi\">\\(0{,}0014\\)</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\Delta=|4.986-5|=0.014\\).",
+   "explain_vi": "Đáp án c. \\(\\Delta=|4{,}986-5|=0{,}014\\).",
+   "images": [],
+   "id": "a27ff4b0ff24",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "A child's height (cm) is \\(#\\pm#\\). The true value lies in…",
+   "en": "A child's height (cm) is \\(108.5\\pm0.5\\). The true value lies in…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"height\">Chiều cao</b> (cm) của một em bé là \\(108{,}5\\pm0{,}5\\). Giá trị thật <b class=\"mbl-term\" tabindex=\"0\" data-en=\"lies in\">nằm trong</b> đoạn…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\([108.5;\\,109]\\)</span><span class=\"vi\">\\([108{,}5;\\,109]\\)</span></span>",
+    "\\([108;\\,109]\\)",
+    "<span class=\"txi\"><span class=\"en\">\\([108;\\,108.5]\\)</span><span class=\"vi\">\\([108;\\,108{,}5]\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\([107.5;\\,109.5]\\)</span><span class=\"vi\">\\([107{,}5;\\,109{,}5]\\)</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(a-d\\le\\bar a\\le a+d\\).",
+   "explain_vi": "Đáp án b. \\(a-d\\le\\bar a\\le a+d\\).",
+   "images": [],
+   "id": "c96e18f9ec72",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "An approximate number \\(a=#\\) has accuracy \\(d=#\\). The correct rounded number is…",
+   "en": "An approximate number \\(a=3.75684\\) has accuracy \\(d=0.003\\). The correct rounded number is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"approximate number\">Số gần đúng</b> \\(a=3{,}75684\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"accuracy (bound of the error)\">độ chính xác</b> \\(d=0{,}003\\). Số <b class=\"mbl-term\" tabindex=\"0\" data-en=\"round (a number)\">quy tròn</b> của \\(a\\) là…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(3.757\\)</span><span class=\"vi\">\\(3{,}757\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(3.8\\)</span><span class=\"vi\">\\(3{,}8\\)</span></span>",
+    "\\(4\\)",
+    "<span class=\"txi\"><span class=\"en\">\\(3.76\\)</span><span class=\"vi\">\\(3{,}76\\)</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(d\\lt1\\) unit of the hundredths place: round to the hundredths.",
+   "explain_vi": "Đáp án d. \\(d\\) nhỏ hơn 1 đơn vị hàng phần trăm: <b class=\"mbl-term\" tabindex=\"0\" data-en=\"round (a number)\">quy tròn</b> đến hàng phần trăm.",
+   "images": [],
+   "id": "5edf279bc0d3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "A runner's time is \\(#\\pm#\\) s. The relative error is at most \\(#\\%\\).",
+   "en": "A runner's time is \\(12.5\\pm0.05\\) s. The relative error is at most \\(0.4\\%\\).",
+   "vi": "Thành tích của một vận động viên là \\(12{,}5\\pm0{,}05\\) giây. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"relative error\">Sai số tương đối</b> không vượt quá \\(0{,}4\\%\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "\\(\\dfrac{d}{a}=\\dfrac{0.05}{12.5}\\approx0.4\\%\\).",
+   "explain_vi": "\\(\\dfrac{d}{a}=\\dfrac{0{,}05}{12{,}5}\\approx0{,}4\\%\\).",
+   "images": [],
+   "id": "2cb17eefe13d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "Measuring a desk gives \\(#\\pm#\\); measuring a classroom gives \\(#\\pm#\\) (same unit). The first measurement is more precise.",
+   "en": "Measuring a desk gives \\(120\\pm0.5\\); measuring a classroom gives \\(900\\pm2\\) (same unit). The first measurement is more precise.",
+   "vi": "Đo chiếc bàn được \\(120\\pm0{,}5\\); đo phòng học được \\(900\\pm2\\) (cùng đơn vị). Phép đo thứ nhất chính xác hơn.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "Relative errors: \\(0.42\\%\\) and \\(0.22\\%\\).",
+   "explain_vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"relative error\">Sai số tương đối</b>: \\(0{,}42\\%\\) và \\(0{,}22\\%\\).",
+   "images": [],
+   "id": "384b049fdcb3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "A square tile has side \\(#\\pm#\\) cm. Its area is written as \\(#\\ \\text{cm}^#\\). Find the largest possible absolute error of this area.",
+   "en": "A square tile has side \\(20\\pm0.1\\) cm. Its area is written as \\(400\\ \\text{cm}^2\\). Find the largest possible absolute error of this area.",
+   "vi": "Một viên gạch hình vuông có cạnh \\(20\\pm0{,}1\\) cm, diện tích được ghi là \\(400\\ \\text{cm}^2\\). Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"absolute error\">sai số tuyệt đối</b> lớn nhất có thể của diện tích này.",
+   "options": [],
+   "answer": "4.01",
+   "explain_en": "\\((20+0.1)^2-400=4.01\\); the other side gives \\(400-(20-0.1)^2=3.99\\), which is smaller.",
+   "explain_vi": "\\((20+0{,}1)^2-400=4{,}01\\); phía còn lại cho \\(400-(20-0{,}1)^2=3{,}99\\), nhỏ hơn.",
+   "images": [],
+   "id": "bc1e631c1e36",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "Round \\(#\\) to the hundredths.",
+   "en": "Round \\(2.71828\\) to the hundredths.",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"round (a number)\">Quy tròn</b> số \\(2{,}71828\\) đến hàng phần trăm.",
+   "options": [],
+   "answer": "2.72",
+   "explain_en": "The digit after the rounding place decides: \\(2.72\\).",
+   "explain_vi": "Xét chữ số ngay sau hàng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"round (a number)\">quy tròn</b>: \\(2{,}72\\).",
+   "images": [],
+   "id": "74b2db6c3bc5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "A length is measured as \\(#\\pm#\\) (cm). An upper bound for the relative error is…",
+   "en": "A length is measured as \\(320\\pm0.8\\) (cm). An upper bound for the relative error is…",
+   "vi": "Một độ dài đo được \\(320\\pm0{,}8\\) (cm). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"relative error\">Sai số tương đối</b> không vượt quá…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(0.25\\%\\)</span><span class=\"vi\">\\(0{,}25\\%\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.025\\%\\)</span><span class=\"vi\">\\(0{,}025\\%\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.8\\%\\)</span><span class=\"vi\">\\(0{,}8\\%\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(2.5\\%\\)</span><span class=\"vi\">\\(2{,}5\\%\\)</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\delta_a\\le\\dfrac{d}{|a|}=\\dfrac{0.8}{320}=0.25\\%\\).",
+   "explain_vi": "Đáp án a. \\(\\delta_a\\le\\dfrac{d}{|a|}=\\dfrac{0{,}8}{320}=0{,}25\\%\\).",
+   "images": [],
+   "id": "088e755ac74e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "A rope is measured as \\(#\\pm#\\) (cm). The true length \\(\\bar a\\) lies in…",
+   "en": "A rope is measured as \\(77.9\\pm0.2\\) (cm). The true length \\(\\bar a\\) lies in…",
+   "vi": "Một sợi dây đo được \\(77{,}9\\pm0{,}2\\) (cm). Độ dài đúng \\(\\bar a\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"lies in\">nằm trong</b> đoạn…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\([77.7;\\,78.1]\\)</span><span class=\"vi\">\\([77{,}7;\\,78{,}1]\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\([77.5;\\,78.3]\\)</span><span class=\"vi\">\\([77{,}5;\\,78{,}3]\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\([77.7;\\,77.9]\\)</span><span class=\"vi\">\\([77{,}7;\\,77{,}9]\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\([77.9;\\,78.1]\\)</span><span class=\"vi\">\\([77{,}9;\\,78{,}1]\\)</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(a-d\\le\\bar a\\le a+d\\).",
+   "explain_vi": "Đáp án a. \\(a-d\\le\\bar a\\le a+d\\).",
+   "images": [],
+   "id": "b02dfe02e586",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "A square tile has side \\(#\\pm#\\) (cm). The area is \\(S=#\\ \\text{cm}^#\\) with absolute error at most…",
+   "en": "A square tile has side \\(10\\pm0.5\\) (cm). The area is \\(S=100\\ \\text{cm}^2\\) with absolute error at most…",
+   "vi": "Một viên gạch hình vuông có cạnh \\(10\\pm0{,}5\\) (cm). Diện tích \\(S=100\\ \\text{cm}^2\\) với <b class=\"mbl-term\" tabindex=\"0\" data-en=\"absolute error\">sai số tuyệt đối</b> không vượt quá…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(10.25\\)</span><span class=\"vi\">\\(10{,}25\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.25\\)</span><span class=\"vi\">\\(0{,}25\\)</span></span>",
+    "\\(2\\)",
+    "\\(10\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. The largest area is \\((10+0.5)^2=110.25\\), so the error is at most \\(10.25\\ \\text{cm}^2\\).",
+   "explain_vi": "Đáp án a. Diện tích lớn nhất là \\((10+0{,}5)^2=110{,}25\\) nên sai số không vượt quá \\(10{,}25\\ \\text{cm}^2\\).",
+   "images": [],
+   "id": "49854acd07e7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Given \\(#\\lt\\sqrt{#}\\lt#\\). If we take \\(\\sqrt{#}\\approx#\\), the absolute error is less than…",
+   "en": "Given \\(1.41\\lt\\sqrt{2}\\lt1.42\\). If we take \\(\\sqrt{2}\\approx1.42\\), the absolute error is less than…",
+   "vi": "Biết \\(1{,}41\\lt\\sqrt{2}\\lt1{,}42\\). Nếu lấy \\(\\sqrt{2}\\approx1{,}42\\) thì <b class=\"mbl-term\" tabindex=\"0\" data-en=\"absolute error\">sai số tuyệt đối</b> nhỏ hơn…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(0.0005\\)</span><span class=\"vi\">\\(0{,}0005\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.01\\)</span><span class=\"vi\">\\(0{,}01\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.001\\)</span><span class=\"vi\">\\(0{,}001\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.0001\\)</span><span class=\"vi\">\\(0{,}0001\\)</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\sqrt{2}\\) and \\(1.42\\) both lie in \\((1.41;\\,1.42)\\), whose length is \\(0.01\\).",
+   "explain_vi": "Đáp án b. \\(\\sqrt{2}\\) và \\(1{,}42\\) cùng thuộc \\((1{,}41;\\,1{,}42)\\) có độ dài \\(0{,}01\\).",
+   "images": [],
+   "id": "69d81f1c2887",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Measurement A: a desk is \\(#\\pm#\\) cm long. Measurement B: a road is \\(#\\pm#\\) cm long. Which measurement is more precise?",
+   "en": "Measurement A: a desk is \\(152\\pm0.5\\) cm long. Measurement B: a road is \\(4000\\pm5\\) cm long. Which measurement is more precise?",
+   "vi": "Phép đo A: chiếc bàn dài \\(152\\pm0{,}5\\) cm. Phép đo B: con đường dài \\(4000\\pm5\\) cm. Phép đo nào chính xác hơn?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">Measurement A, because its relative error is smaller</span><span class=\"vi\">Phép đo A, vì sai số tương đối nhỏ hơn</span></span>",
+    "<span class=\"txi\"><span class=\"en\">They are equally precise</span><span class=\"vi\">Hai phép đo chính xác như nhau</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Measurement B, because its relative error is smaller</span><span class=\"vi\">Phép đo B, vì sai số tương đối nhỏ hơn</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Measurement A, because its accuracy \\(d\\) is smaller</span><span class=\"vi\">Phép đo A, vì độ chính xác \\(d\\) nhỏ hơn</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Compare \\(\\dfrac{0.5}{152}\\approx0.329\\%\\) and \\(\\dfrac{5}{4000}\\approx0.125\\%\\).",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"compare\">So sánh</b> \\(\\dfrac{0{,}5}{152}\\approx0{,}329\\%\\) và \\(\\dfrac{5}{4000}\\approx0{,}125\\%\\).",
+   "images": [],
+   "id": "c2a275115156",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The approximate number \\(a=#\\) has accuracy \\(d=#\\). Round \\(a\\) correctly.",
+   "en": "The approximate number \\(a=56.6838\\) has accuracy \\(d=0.2\\). Round \\(a\\) correctly.",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"approximate number\">Số gần đúng</b> \\(a=56{,}6838\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"accuracy (bound of the error)\">độ chính xác</b> \\(d=0{,}2\\). Hãy <b class=\"mbl-term\" tabindex=\"0\" data-en=\"round (a number)\">quy tròn</b> \\(a\\).",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(56.68\\)</span><span class=\"vi\">\\(56{,}68\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(56.7\\)</span><span class=\"vi\">\\(56{,}7\\)</span></span>",
+    "\\(57\\)",
+    "<span class=\"txi\"><span class=\"en\">\\(56.684\\)</span><span class=\"vi\">\\(56{,}684\\)</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(d=0.2\\lt1\\) unit of the units, so round to the units: \\(57\\).",
+   "explain_vi": "Đáp án c. \\(d=0{,}2\\) nhỏ hơn 1 đơn vị hàng đơn vị nên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"round (a number)\">quy tròn</b> đến hàng đơn vị: \\(57\\).",
+   "images": [],
+   "id": "a3f87a2b2004",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The exact length is \\(#\\ \\text{m}\\) and it is written as \\(#\\ \\text{m}\\). The absolute error is…",
+   "en": "The exact length is \\(86.172\\ \\text{m}\\) and it is written as \\(86.2\\ \\text{m}\\). The absolute error is…",
+   "vi": "Độ dài đúng là \\(86{,}172\\ \\text{m}\\), được ghi gọn là \\(86{,}2\\ \\text{m}\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"absolute error\">Sai số tuyệt đối</b> là…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(0.0028\\)</span><span class=\"vi\">\\(0{,}0028\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.028\\)</span><span class=\"vi\">\\(0{,}028\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.28\\)</span><span class=\"vi\">\\(0{,}28\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.1\\)</span><span class=\"vi\">\\(0{,}1\\)</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\Delta_a=|\\bar a-a|=|86.172-86.2|=0.028\\).",
+   "explain_vi": "Đáp án b. \\(\\Delta_a=|\\bar a-a|=|86{,}172-86{,}2|=0{,}028\\).",
+   "images": [],
+   "id": "bcde0fa8d487",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The number \\(#\\) is rounded to the tenths. The absolute error of the rounded number is at most…",
+   "en": "The number \\(350.421\\) is rounded to the tenths. The absolute error of the rounded number is at most…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"round (a number)\">Quy tròn</b> số \\(350{,}421\\) đến hàng phần mười. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"absolute error\">Sai số tuyệt đối</b> của số <b class=\"mbl-term\" tabindex=\"0\" data-en=\"round (a number)\">quy tròn</b> không vượt quá…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(0.01\\)</span><span class=\"vi\">\\(0{,}01\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.05\\)</span><span class=\"vi\">\\(0{,}05\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.1\\)</span><span class=\"vi\">\\(0{,}1\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.5\\)</span><span class=\"vi\">\\(0{,}5\\)</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Half a unit of the rounding place: \\(\\dfrac{0.1}{2}=0.05\\).",
+   "explain_vi": "Đáp án b. Nửa đơn vị của hàng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"round (a number)\">quy tròn</b>: \\(\\dfrac{0{,}1}{2}=0{,}05\\).",
+   "images": [],
+   "id": "4f534e54e881",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "A bag of rice. The exact amount is \\(#\\) kg; the label shows \\(#\\) kg. The absolute error is…",
+   "en": "A bag of rice. The exact amount is \\(10.035\\) kg; the label shows \\(10\\) kg. The absolute error is…",
+   "vi": "Một túi gạo. Lượng thực tế là \\(10{,}035\\) kg; trên nhãn ghi \\(10\\) kg. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"absolute error\">Sai số tuyệt đối</b> là…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(0.35\\)</span><span class=\"vi\">\\(0{,}35\\)</span></span>",
+    "\\(0\\)",
+    "<span class=\"txi\"><span class=\"en\">\\(0.035\\)</span><span class=\"vi\">\\(0{,}035\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.0035\\)</span><span class=\"vi\">\\(0{,}0035\\)</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\Delta=|10.035-10|=0.035\\).",
+   "explain_vi": "Đáp án c. \\(\\Delta=|10{,}035-10|=0{,}035\\).",
+   "images": [],
+   "id": "6808450369da",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "An approximate number \\(a=#\\,#\\,#\\) has accuracy \\(d=#\\). The correct rounded number is…",
+   "en": "An approximate number \\(a=4\\,518\\,237\\) has accuracy \\(d=400\\). The correct rounded number is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"approximate number\">Số gần đúng</b> \\(a=4\\,518\\,237\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"accuracy (bound of the error)\">độ chính xác</b> \\(d=400\\). Số <b class=\"mbl-term\" tabindex=\"0\" data-en=\"round (a number)\">quy tròn</b> của \\(a\\) là…",
+   "options": [
+    "\\(4\\,518\\,000\\)",
+    "\\(4\\,518\\,200\\)",
+    "\\(4\\,518\\,237\\)",
+    "\\(4\\,518\\,240\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(d\\lt1\\) unit of the thousands place: round to the thousands.",
+   "explain_vi": "Đáp án a. \\(d\\) nhỏ hơn 1 đơn vị hàng nghìn: <b class=\"mbl-term\" tabindex=\"0\" data-en=\"round (a number)\">quy tròn</b> đến hàng nghìn.",
+   "images": [],
+   "id": "904f30ed8776",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "The mass of a parcel is (kg) \\(#\\pm#\\). The true value lies in…",
+   "en": "The mass of a parcel is (kg) \\(25.3\\pm0.2\\). The true value lies in…",
+   "vi": "Khối lượng một kiện hàng là (kg) \\(25{,}3\\pm0{,}2\\). Giá trị thật <b class=\"mbl-term\" tabindex=\"0\" data-en=\"lies in\">nằm trong</b> đoạn…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\([25.3;\\,25.5]\\)</span><span class=\"vi\">\\([25{,}3;\\,25{,}5]\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\([25.1;\\,25.3]\\)</span><span class=\"vi\">\\([25{,}1;\\,25{,}3]\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\([24.9;\\,25.7]\\)</span><span class=\"vi\">\\([24{,}9;\\,25{,}7]\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\([25.1;\\,25.5]\\)</span><span class=\"vi\">\\([25{,}1;\\,25{,}5]\\)</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(a-d\\le\\bar a\\le a+d\\).",
+   "explain_vi": "Đáp án d. \\(a-d\\le\\bar a\\le a+d\\).",
+   "images": [],
+   "id": "c1657e134418",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "A runner's time is \\(#\\pm#\\) s. The relative error is at most \\(#\\%\\).",
+   "en": "A runner's time is \\(48\\pm0.2\\) s. The relative error is at most \\(0.3\\%\\).",
+   "vi": "Thành tích của một vận động viên là \\(48\\pm0{,}2\\) giây. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"relative error\">Sai số tương đối</b> không vượt quá \\(0{,}3\\%\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "\\(\\dfrac{d}{a}=\\dfrac{0.2}{48}\\approx0.417\\%\\).",
+   "explain_vi": "\\(\\dfrac{d}{a}=\\dfrac{0{,}2}{48}\\approx0{,}417\\%\\).",
+   "images": [],
+   "id": "9dbde13a9772",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "Measuring a field gives \\(#\\,#\\pm#\\); measuring a pencil gives \\(#\\pm#\\) (same unit). The first measurement is more precise.",
+   "en": "Measuring a field gives \\(10\\,500\\pm10\\); measuring a pencil gives \\(18\\pm0.1\\) (same unit). The first measurement is more precise.",
+   "vi": "Đo sân bóng được \\(10\\,500\\pm10\\); đo cây bút chì được \\(18\\pm0{,}1\\) (cùng đơn vị). Phép đo thứ nhất chính xác hơn.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "Relative errors: \\(0.1\\%\\) and \\(0.56\\%\\).",
+   "explain_vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"relative error\">Sai số tương đối</b>: \\(0{,}1\\%\\) và \\(0{,}56\\%\\).",
+   "images": [],
+   "id": "16d4ec912a1f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "A square tile has side \\(#\\pm#\\) cm. Its area is written as \\(#\\ \\text{cm}^#\\). Find the largest possible absolute error of this area.",
+   "en": "A square tile has side \\(30\\pm0.2\\) cm. Its area is written as \\(900\\ \\text{cm}^2\\). Find the largest possible absolute error of this area.",
+   "vi": "Một viên gạch hình vuông có cạnh \\(30\\pm0{,}2\\) cm, diện tích được ghi là \\(900\\ \\text{cm}^2\\). Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"absolute error\">sai số tuyệt đối</b> lớn nhất có thể của diện tích này.",
+   "options": [],
+   "answer": "12.04",
+   "explain_en": "\\((30+0.2)^2-900=12.04\\); the other side gives \\(900-(30-0.2)^2=11.96\\), which is smaller.",
+   "explain_vi": "\\((30+0{,}2)^2-900=12{,}04\\); phía còn lại cho \\(900-(30-0{,}2)^2=11{,}96\\), nhỏ hơn.",
+   "images": [],
+   "id": "d1a632700fe9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "Round \\(#\\) to the units.",
+   "en": "Round \\(1732.051\\) to the units.",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"round (a number)\">Quy tròn</b> số \\(1732{,}051\\) đến hàng đơn vị.",
+   "options": [],
+   "answer": "1732",
+   "explain_en": "The digit after the rounding place decides: \\(1732\\).",
+   "explain_vi": "Xét chữ số ngay sau hàng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"round (a number)\">quy tròn</b>: \\(1732\\).",
+   "images": [],
+   "id": "39e05561c2ba",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "A length is measured as \\(#\\pm#\\) (cm). An upper bound for the relative error is…",
+   "en": "A length is measured as \\(160\\pm0.4\\) (cm). An upper bound for the relative error is…",
+   "vi": "Một độ dài đo được \\(160\\pm0{,}4\\) (cm). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"relative error\">Sai số tương đối</b> không vượt quá…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(0.025\\%\\)</span><span class=\"vi\">\\(0{,}025\\%\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(2.5\\%\\)</span><span class=\"vi\">\\(2{,}5\\%\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.25\\%\\)</span><span class=\"vi\">\\(0{,}25\\%\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.4\\%\\)</span><span class=\"vi\">\\(0{,}4\\%\\)</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\delta_a\\le\\dfrac{d}{|a|}=\\dfrac{0.4}{160}=0.25\\%\\).",
+   "explain_vi": "Đáp án c. \\(\\delta_a\\le\\dfrac{d}{|a|}=\\dfrac{0{,}4}{160}=0{,}25\\%\\).",
+   "images": [],
+   "id": "6cf40b2c8547",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "A rope is measured as \\(#\\pm#\\) (cm). The true length \\(\\bar a\\) lies in…",
+   "en": "A rope is measured as \\(79.2\\pm0.3\\) (cm). The true length \\(\\bar a\\) lies in…",
+   "vi": "Một sợi dây đo được \\(79{,}2\\pm0{,}3\\) (cm). Độ dài đúng \\(\\bar a\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"lies in\">nằm trong</b> đoạn…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\([78.9;\\,79.2]\\)</span><span class=\"vi\">\\([78{,}9;\\,79{,}2]\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\([78.6;\\,79.8]\\)</span><span class=\"vi\">\\([78{,}6;\\,79{,}8]\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\([79.2;\\,79.5]\\)</span><span class=\"vi\">\\([79{,}2;\\,79{,}5]\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\([78.9;\\,79.5]\\)</span><span class=\"vi\">\\([78{,}9;\\,79{,}5]\\)</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(a-d\\le\\bar a\\le a+d\\).",
+   "explain_vi": "Đáp án d. \\(a-d\\le\\bar a\\le a+d\\).",
+   "images": [],
+   "id": "b612a10bad55",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "A square tile has side \\(#\\pm#\\) (cm). The area is \\(S=#\\ \\text{cm}^#\\) with absolute error at most…",
+   "en": "A square tile has side \\(25\\pm0.1\\) (cm). The area is \\(S=625\\ \\text{cm}^2\\) with absolute error at most…",
+   "vi": "Một viên gạch hình vuông có cạnh \\(25\\pm0{,}1\\) (cm). Diện tích \\(S=625\\ \\text{cm}^2\\) với <b class=\"mbl-term\" tabindex=\"0\" data-en=\"absolute error\">sai số tuyệt đối</b> không vượt quá…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(0.4\\)</span><span class=\"vi\">\\(0{,}4\\)</span></span>",
+    "\\(5\\)",
+    "<span class=\"txi\"><span class=\"en\">\\(5.01\\)</span><span class=\"vi\">\\(5{,}01\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.01\\)</span><span class=\"vi\">\\(0{,}01\\)</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The largest area is \\((25+0.1)^2=630.01\\), so the error is at most \\(5.01\\ \\text{cm}^2\\).",
+   "explain_vi": "Đáp án c. Diện tích lớn nhất là \\((25+0{,}1)^2=630{,}01\\) nên sai số không vượt quá \\(5{,}01\\ \\text{cm}^2\\).",
+   "images": [],
+   "id": "c0d1d0ed8a3f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Given \\(#\\lt\\sqrt{#}\\lt#\\). If we take \\(\\sqrt{#}\\approx#\\), the absolute error is less than…",
+   "en": "Given \\(1.41\\lt\\sqrt{2}\\lt1.42\\). If we take \\(\\sqrt{2}\\approx1.41\\), the absolute error is less than…",
+   "vi": "Biết \\(1{,}41\\lt\\sqrt{2}\\lt1{,}42\\). Nếu lấy \\(\\sqrt{2}\\approx1{,}41\\) thì <b class=\"mbl-term\" tabindex=\"0\" data-en=\"absolute error\">sai số tuyệt đối</b> nhỏ hơn…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(0.0005\\)</span><span class=\"vi\">\\(0{,}0005\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.001\\)</span><span class=\"vi\">\\(0{,}001\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.0001\\)</span><span class=\"vi\">\\(0{,}0001\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.01\\)</span><span class=\"vi\">\\(0{,}01\\)</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\sqrt{2}\\) and \\(1.41\\) both lie in \\((1.41;\\,1.42)\\), whose length is \\(0.01\\).",
+   "explain_vi": "Đáp án d. \\(\\sqrt{2}\\) và \\(1{,}41\\) cùng thuộc \\((1{,}41;\\,1{,}42)\\) có độ dài \\(0{,}01\\).",
+   "images": [],
+   "id": "5b38a966d44f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Measurement A: a desk is \\(#\\pm#\\) cm long. Measurement B: a road is \\(#\\pm#\\) cm long. Which measurement is more precise?",
+   "en": "Measurement A: a desk is \\(25\\pm0.1\\) cm long. Measurement B: a road is \\(1200\\pm2\\) cm long. Which measurement is more precise?",
+   "vi": "Phép đo A: chiếc bàn dài \\(25\\pm0{,}1\\) cm. Phép đo B: con đường dài \\(1200\\pm2\\) cm. Phép đo nào chính xác hơn?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">Measurement A, because its accuracy \\(d\\) is smaller</span><span class=\"vi\">Phép đo A, vì độ chính xác \\(d\\) nhỏ hơn</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Measurement B, because its relative error is smaller</span><span class=\"vi\">Phép đo B, vì sai số tương đối nhỏ hơn</span></span>",
+    "<span class=\"txi\"><span class=\"en\">They are equally precise</span><span class=\"vi\">Hai phép đo chính xác như nhau</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Measurement A, because its relative error is smaller</span><span class=\"vi\">Phép đo A, vì sai số tương đối nhỏ hơn</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Compare \\(\\dfrac{0.1}{25}\\approx0.4\\%\\) and \\(\\dfrac{2}{1200}\\approx0.167\\%\\).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"compare\">So sánh</b> \\(\\dfrac{0{,}1}{25}\\approx0{,}4\\%\\) và \\(\\dfrac{2}{1200}\\approx0{,}167\\%\\).",
+   "images": [],
+   "id": "12aa095343c5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The approximate number \\(a=#\\) has accuracy \\(d=#\\). Round \\(a\\) correctly.",
+   "en": "The approximate number \\(a=54.6393\\) has accuracy \\(d=0.06\\). Round \\(a\\) correctly.",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"approximate number\">Số gần đúng</b> \\(a=54{,}6393\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"accuracy (bound of the error)\">độ chính xác</b> \\(d=0{,}06\\). Hãy <b class=\"mbl-term\" tabindex=\"0\" data-en=\"round (a number)\">quy tròn</b> \\(a\\).",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(54.639\\)</span><span class=\"vi\">\\(54{,}639\\)</span></span>",
+    "\\(55\\)",
+    "<span class=\"txi\"><span class=\"en\">\\(54.64\\)</span><span class=\"vi\">\\(54{,}64\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(54.6\\)</span><span class=\"vi\">\\(54{,}6\\)</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(d=0.06\\lt1\\) unit of the tenths, so round to the tenths: \\(54.6\\).",
+   "explain_vi": "Đáp án d. \\(d=0{,}06\\) nhỏ hơn 1 đơn vị hàng phần mười nên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"round (a number)\">quy tròn</b> đến hàng phần mười: \\(54{,}6\\).",
+   "images": [],
+   "id": "43b9298546cb",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The exact length is \\(#\\ \\text{m}\\) and it is written as \\(#\\ \\text{m}\\). The absolute error is…",
+   "en": "The exact length is \\(60.533\\ \\text{m}\\) and it is written as \\(60.53\\ \\text{m}\\). The absolute error is…",
+   "vi": "Độ dài đúng là \\(60{,}533\\ \\text{m}\\), được ghi gọn là \\(60{,}53\\ \\text{m}\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"absolute error\">Sai số tuyệt đối</b> là…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(0.03\\)</span><span class=\"vi\">\\(0{,}03\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.01\\)</span><span class=\"vi\">\\(0{,}01\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.003\\)</span><span class=\"vi\">\\(0{,}003\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.0003\\)</span><span class=\"vi\">\\(0{,}0003\\)</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\Delta_a=|\\bar a-a|=|60.533-60.53|=0.003\\).",
+   "explain_vi": "Đáp án c. \\(\\Delta_a=|\\bar a-a|=|60{,}533-60{,}53|=0{,}003\\).",
+   "images": [],
+   "id": "007ea550e6df",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The number \\(#\\) is rounded to the tenths. The absolute error of the rounded number is at most…",
+   "en": "The number \\(568.644\\) is rounded to the tenths. The absolute error of the rounded number is at most…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"round (a number)\">Quy tròn</b> số \\(568{,}644\\) đến hàng phần mười. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"absolute error\">Sai số tuyệt đối</b> của số <b class=\"mbl-term\" tabindex=\"0\" data-en=\"round (a number)\">quy tròn</b> không vượt quá…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(0.05\\)</span><span class=\"vi\">\\(0{,}05\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.01\\)</span><span class=\"vi\">\\(0{,}01\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.1\\)</span><span class=\"vi\">\\(0{,}1\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.5\\)</span><span class=\"vi\">\\(0{,}5\\)</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Half a unit of the rounding place: \\(\\dfrac{0.1}{2}=0.05\\).",
+   "explain_vi": "Đáp án a. Nửa đơn vị của hàng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"round (a number)\">quy tròn</b>: \\(\\dfrac{0{,}1}{2}=0{,}05\\).",
+   "images": [],
+   "id": "6d692bd37eca",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "A can of paint. The exact amount is \\(#\\) litres; the label shows \\(#\\) litres. The absolute error is…",
+   "en": "A can of paint. The exact amount is \\(17.862\\) litres; the label shows \\(18\\) litres. The absolute error is…",
+   "vi": "Một thùng sơn. Lượng thực tế là \\(17{,}862\\) lít; trên nhãn ghi \\(18\\) lít. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"absolute error\">Sai số tuyệt đối</b> là…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(1.38\\)</span><span class=\"vi\">\\(1{,}38\\)</span></span>",
+    "\\(0\\)",
+    "<span class=\"txi\"><span class=\"en\">\\(0.138\\)</span><span class=\"vi\">\\(0{,}138\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.0138\\)</span><span class=\"vi\">\\(0{,}0138\\)</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\Delta=|17.862-18|=0.138\\).",
+   "explain_vi": "Đáp án c. \\(\\Delta=|17{,}862-18|=0{,}138\\).",
+   "images": [],
+   "id": "b08a7ec694fb",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "A road is (km) \\(#\\pm#\\). The true value lies in…",
+   "en": "A road is (km) \\(12.6\\pm0.05\\). The true value lies in…",
+   "vi": "Một con đường dài (km) \\(12{,}6\\pm0{,}05\\). Giá trị thật <b class=\"mbl-term\" tabindex=\"0\" data-en=\"lies in\">nằm trong</b> đoạn…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\([12.6;\\,12.65]\\)</span><span class=\"vi\">\\([12{,}6;\\,12{,}65]\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\([12.55;\\,12.65]\\)</span><span class=\"vi\">\\([12{,}55;\\,12{,}65]\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\([12.55;\\,12.6]\\)</span><span class=\"vi\">\\([12{,}55;\\,12{,}6]\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\([12.5;\\,12.7]\\)</span><span class=\"vi\">\\([12{,}5;\\,12{,}7]\\)</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(a-d\\le\\bar a\\le a+d\\).",
+   "explain_vi": "Đáp án b. \\(a-d\\le\\bar a\\le a+d\\).",
+   "images": [],
+   "id": "5a37b06ce1ee",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "An approximate number \\(a=#\\) has accuracy \\(d=#\\). The correct rounded number is…",
+   "en": "An approximate number \\(a=123.4567\\) has accuracy \\(d=0.04\\). The correct rounded number is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"approximate number\">Số gần đúng</b> \\(a=123{,}4567\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"accuracy (bound of the error)\">độ chính xác</b> \\(d=0{,}04\\). Số <b class=\"mbl-term\" tabindex=\"0\" data-en=\"round (a number)\">quy tròn</b> của \\(a\\) là…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(123.5\\)</span><span class=\"vi\">\\(123{,}5\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(123.46\\)</span><span class=\"vi\">\\(123{,}46\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(123.457\\)</span><span class=\"vi\">\\(123{,}457\\)</span></span>",
+    "\\(123\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(d\\lt1\\) unit of the tenths place: round to the tenths.",
+   "explain_vi": "Đáp án a. \\(d\\) nhỏ hơn 1 đơn vị hàng phần mười: <b class=\"mbl-term\" tabindex=\"0\" data-en=\"round (a number)\">quy tròn</b> đến hàng phần mười.",
+   "images": [],
+   "id": "94e2b8cb331f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "A runner's time is \\(#\\pm#\\) s. The relative error is at most \\(#\\%\\).",
+   "en": "A runner's time is \\(96\\pm0.3\\) s. The relative error is at most \\(0.5\\%\\).",
+   "vi": "Thành tích của một vận động viên là \\(96\\pm0{,}3\\) giây. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"relative error\">Sai số tương đối</b> không vượt quá \\(0{,}5\\%\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "\\(\\dfrac{d}{a}=\\dfrac{0.3}{96}\\approx0.313\\%\\).",
+   "explain_vi": "\\(\\dfrac{d}{a}=\\dfrac{0{,}3}{96}\\approx0{,}313\\%\\).",
+   "images": [],
+   "id": "b4b2a161ab1b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "Measuring a hair gives \\(#\\pm#\\); measuring a book gives \\(#\\pm#\\) (same unit). The first measurement is more precise.",
+   "en": "Measuring a hair gives \\(0.08\\pm0.01\\); measuring a book gives \\(24\\pm0.1\\) (same unit). The first measurement is more precise.",
+   "vi": "Đo sợi tóc được \\(0{,}08\\pm0{,}01\\); đo cuốn sách được \\(24\\pm0{,}1\\) (cùng đơn vị). Phép đo thứ nhất chính xác hơn.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "Relative errors: \\(12.5\\%\\) and \\(0.42\\%\\).",
+   "explain_vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"relative error\">Sai số tương đối</b>: \\(12{,}5\\%\\) và \\(0{,}42\\%\\).",
+   "images": [],
+   "id": "bc42482d3b62",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "A square tile has side \\(#\\pm#\\) cm. Its area is written as \\(#\\ \\text{cm}^#\\). Find the largest possible absolute error of this area.",
+   "en": "A square tile has side \\(25\\pm0.5\\) cm. Its area is written as \\(625\\ \\text{cm}^2\\). Find the largest possible absolute error of this area.",
+   "vi": "Một viên gạch hình vuông có cạnh \\(25\\pm0{,}5\\) cm, diện tích được ghi là \\(625\\ \\text{cm}^2\\). Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"absolute error\">sai số tuyệt đối</b> lớn nhất có thể của diện tích này.",
+   "options": [],
+   "answer": "25.25",
+   "explain_en": "\\((25+0.5)^2-625=25.25\\); the other side gives \\(625-(25-0.5)^2=24.75\\), which is smaller.",
+   "explain_vi": "\\((25+0{,}5)^2-625=25{,}25\\); phía còn lại cho \\(625-(25-0{,}5)^2=24{,}75\\), nhỏ hơn.",
+   "images": [],
+   "id": "c8c7e1a1ac71",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Round \\(#\\) to the tens.",
+   "en": "Round \\(6283.185\\) to the tens.",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"round (a number)\">Quy tròn</b> số \\(6283{,}185\\) đến hàng chục.",
+   "options": [],
+   "answer": "6280",
+   "explain_en": "The digit after the rounding place decides: \\(6280\\).",
+   "explain_vi": "Xét chữ số ngay sau hàng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"round (a number)\">quy tròn</b>: \\(6280\\).",
+   "images": [],
+   "id": "1aa07877701b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "A length is measured as \\(#\\pm#\\) (cm). An upper bound for the relative error is…",
+   "en": "A length is measured as \\(500\\pm2\\) (cm). An upper bound for the relative error is…",
+   "vi": "Một độ dài đo được \\(500\\pm2\\) (cm). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"relative error\">Sai số tương đối</b> không vượt quá…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(0.04\\%\\)</span><span class=\"vi\">\\(0{,}04\\%\\)</span></span>",
+    "\\(2\\%\\)",
+    "\\(4\\%\\)",
+    "<span class=\"txi\"><span class=\"en\">\\(0.4\\%\\)</span><span class=\"vi\">\\(0{,}4\\%\\)</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\delta_a\\le\\dfrac{d}{|a|}=\\dfrac{2}{500}=0.4\\%\\).",
+   "explain_vi": "Đáp án d. \\(\\delta_a\\le\\dfrac{d}{|a|}=\\dfrac{2}{500}=0{,}4\\%\\).",
+   "images": [],
+   "id": "b94719a6f810",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "A rope is measured as \\(#\\pm#\\) (cm). The true length \\(\\bar a\\) lies in…",
+   "en": "A rope is measured as \\(68\\pm0.3\\) (cm). The true length \\(\\bar a\\) lies in…",
+   "vi": "Một sợi dây đo được \\(68\\pm0{,}3\\) (cm). Độ dài đúng \\(\\bar a\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"lies in\">nằm trong</b> đoạn…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\([67.7;\\,68.3]\\)</span><span class=\"vi\">\\([67{,}7;\\,68{,}3]\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\([67.4;\\,68.6]\\)</span><span class=\"vi\">\\([67{,}4;\\,68{,}6]\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\([67.7;\\,68]\\)</span><span class=\"vi\">\\([67{,}7;\\,68]\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\([68;\\,68.3]\\)</span><span class=\"vi\">\\([68;\\,68{,}3]\\)</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(a-d\\le\\bar a\\le a+d\\).",
+   "explain_vi": "Đáp án a. \\(a-d\\le\\bar a\\le a+d\\).",
+   "images": [],
+   "id": "98c0f15a5422",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "A square tile has side \\(#\\pm#\\) (cm). The area is \\(S=#\\ \\text{cm}^#\\) with absolute error at most…",
+   "en": "A square tile has side \\(40\\pm0.5\\) (cm). The area is \\(S=1600\\ \\text{cm}^2\\) with absolute error at most…",
+   "vi": "Một viên gạch hình vuông có cạnh \\(40\\pm0{,}5\\) (cm). Diện tích \\(S=1600\\ \\text{cm}^2\\) với <b class=\"mbl-term\" tabindex=\"0\" data-en=\"absolute error\">sai số tuyệt đối</b> không vượt quá…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(0.25\\)</span><span class=\"vi\">\\(0{,}25\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(40.25\\)</span><span class=\"vi\">\\(40{,}25\\)</span></span>",
+    "\\(2\\)",
+    "\\(40\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. The largest area is \\((40+0.5)^2=1640.25\\), so the error is at most \\(40.25\\ \\text{cm}^2\\).",
+   "explain_vi": "Đáp án b. Diện tích lớn nhất là \\((40+0{,}5)^2=1640{,}25\\) nên sai số không vượt quá \\(40{,}25\\ \\text{cm}^2\\).",
+   "images": [],
+   "id": "5fdbcef5a0b4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Given \\(#\\lt\\sqrt{#}\\lt#\\). If we take \\(\\sqrt{#}\\approx#\\), the absolute error is less than…",
+   "en": "Given \\(1.73\\lt\\sqrt{3}\\lt1.74\\). If we take \\(\\sqrt{3}\\approx1.74\\), the absolute error is less than…",
+   "vi": "Biết \\(1{,}73\\lt\\sqrt{3}\\lt1{,}74\\). Nếu lấy \\(\\sqrt{3}\\approx1{,}74\\) thì <b class=\"mbl-term\" tabindex=\"0\" data-en=\"absolute error\">sai số tuyệt đối</b> nhỏ hơn…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(0.001\\)</span><span class=\"vi\">\\(0{,}001\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.0001\\)</span><span class=\"vi\">\\(0{,}0001\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.0005\\)</span><span class=\"vi\">\\(0{,}0005\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.01\\)</span><span class=\"vi\">\\(0{,}01\\)</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\sqrt{3}\\) and \\(1.74\\) both lie in \\((1.73;\\,1.74)\\), whose length is \\(0.01\\).",
+   "explain_vi": "Đáp án d. \\(\\sqrt{3}\\) và \\(1{,}74\\) cùng thuộc \\((1{,}73;\\,1{,}74)\\) có độ dài \\(0{,}01\\).",
+   "images": [],
+   "id": "5a1324d9eb00",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Measurement A: a desk is \\(#\\pm#\\) cm long. Measurement B: a road is \\(#\\pm#\\) cm long. Which measurement is more precise?",
+   "en": "Measurement A: a desk is \\(56\\pm0.2\\) cm long. Measurement B: a road is \\(2500\\pm10\\) cm long. Which measurement is more precise?",
+   "vi": "Phép đo A: chiếc bàn dài \\(56\\pm0{,}2\\) cm. Phép đo B: con đường dài \\(2500\\pm10\\) cm. Phép đo nào chính xác hơn?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">Measurement A, because its relative error is smaller</span><span class=\"vi\">Phép đo A, vì sai số tương đối nhỏ hơn</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Measurement B, because its accuracy \\(d\\) is smaller</span><span class=\"vi\">Phép đo B, vì độ chính xác \\(d\\) nhỏ hơn</span></span>",
+    "<span class=\"txi\"><span class=\"en\">They are equally precise</span><span class=\"vi\">Hai phép đo chính xác như nhau</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Measurement B, because its relative error is smaller</span><span class=\"vi\">Phép đo B, vì sai số tương đối nhỏ hơn</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Compare \\(\\dfrac{0.2}{56}\\approx0.357\\%\\) and \\(\\dfrac{10}{2500}\\approx0.4\\%\\).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"compare\">So sánh</b> \\(\\dfrac{0{,}2}{56}\\approx0{,}357\\%\\) và \\(\\dfrac{10}{2500}\\approx0{,}4\\%\\).",
+   "images": [],
+   "id": "3b27e256eb5e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The approximate number \\(a=#\\) has accuracy \\(d=#\\). Round \\(a\\) correctly.",
+   "en": "The approximate number \\(a=96.2378\\) has accuracy \\(d=0.2\\). Round \\(a\\) correctly.",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"approximate number\">Số gần đúng</b> \\(a=96{,}2378\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"accuracy (bound of the error)\">độ chính xác</b> \\(d=0{,}2\\). Hãy <b class=\"mbl-term\" tabindex=\"0\" data-en=\"round (a number)\">quy tròn</b> \\(a\\).",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(96.238\\)</span><span class=\"vi\">\\(96{,}238\\)</span></span>",
+    "\\(96\\)",
+    "<span class=\"txi\"><span class=\"en\">\\(96.2\\)</span><span class=\"vi\">\\(96{,}2\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(96.24\\)</span><span class=\"vi\">\\(96{,}24\\)</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(d=0.2\\lt1\\) unit of the units, so round to the units: \\(96\\).",
+   "explain_vi": "Đáp án b. \\(d=0{,}2\\) nhỏ hơn 1 đơn vị hàng đơn vị nên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"round (a number)\">quy tròn</b> đến hàng đơn vị: \\(96\\).",
+   "images": [],
+   "id": "f2fab98439aa",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The exact length is \\(#\\ \\text{m}\\) and it is written as \\(#\\ \\text{m}\\). The absolute error is…",
+   "en": "The exact length is \\(14.149\\ \\text{m}\\) and it is written as \\(14.1\\ \\text{m}\\). The absolute error is…",
+   "vi": "Độ dài đúng là \\(14{,}149\\ \\text{m}\\), được ghi gọn là \\(14{,}1\\ \\text{m}\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"absolute error\">Sai số tuyệt đối</b> là…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(0.1\\)</span><span class=\"vi\">\\(0{,}1\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.0049\\)</span><span class=\"vi\">\\(0{,}0049\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.049\\)</span><span class=\"vi\">\\(0{,}049\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.49\\)</span><span class=\"vi\">\\(0{,}49\\)</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\Delta_a=|\\bar a-a|=|14.149-14.1|=0.049\\).",
+   "explain_vi": "Đáp án c. \\(\\Delta_a=|\\bar a-a|=|14{,}149-14{,}1|=0{,}049\\).",
+   "images": [],
+   "id": "7f23ab559ec4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The number \\(#\\) is rounded to the hundredths. The absolute error of the rounded number is at most…",
+   "en": "The number \\(325.756\\) is rounded to the hundredths. The absolute error of the rounded number is at most…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"round (a number)\">Quy tròn</b> số \\(325{,}756\\) đến hàng phần trăm. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"absolute error\">Sai số tuyệt đối</b> của số <b class=\"mbl-term\" tabindex=\"0\" data-en=\"round (a number)\">quy tròn</b> không vượt quá…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(0.01\\)</span><span class=\"vi\">\\(0{,}01\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.05\\)</span><span class=\"vi\">\\(0{,}05\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.005\\)</span><span class=\"vi\">\\(0{,}005\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.001\\)</span><span class=\"vi\">\\(0{,}001\\)</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Half a unit of the rounding place: \\(\\dfrac{0.01}{2}=0.005\\).",
+   "explain_vi": "Đáp án c. Nửa đơn vị của hàng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"round (a number)\">quy tròn</b>: \\(\\dfrac{0{,}01}{2}=0{,}005\\).",
+   "images": [],
+   "id": "8f9fe9d3f39f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  }
+ ]
+}

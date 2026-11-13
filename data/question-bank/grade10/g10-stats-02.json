@@ -1,0 +1,1029 @@
+{
+ "lesson": "g10-stats-02",
+ "grade": 10,
+ "no": 13,
+ "title": "Các số đặc trưng đo xu thế trung tâm",
+ "path": "lessons/grade10/statistics/central-tendency.html",
+ "items": [
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Marks of # students: \\(#;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #\\). The first quartile \\(Q_#\\) is…",
+   "en": "Marks of 9 students: \\(7;\\ 5;\\ 8;\\ 9;\\ 6;\\ 8;\\ 10;\\ 7;\\ 8\\). The first quartile \\(Q_1\\) is…",
+   "vi": "Điểm của 9 học sinh: \\(7;\\ 5;\\ 8;\\ 9;\\ 6;\\ 8;\\ 10;\\ 7;\\ 8\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"quartile\">Tứ phân vị</b> thứ nhất \\(Q_1\\) là…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(8.5\\)</span><span class=\"vi\">\\(8{,}5\\)</span></span>",
+    "\\(8\\)",
+    "<span class=\"txi\"><span class=\"en\">\\(6.5\\)</span><span class=\"vi\">\\(6{,}5\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(7.5\\)</span><span class=\"vi\">\\(7{,}5\\)</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(Q_1\\) is the median of the lower half: \\(Q_1=6.5\\) (\\(Q_3=8.5\\)).",
+   "explain_vi": "Đáp án c. \\(Q_1\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"median\">trung vị</b> của nửa trái: \\(Q_1=6{,}5\\) (\\(Q_3=8{,}5\\)).",
+   "images": [],
+   "id": "6762753d09c1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Marks of # students: \\(#;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #\\). The mean is…",
+   "en": "Marks of 9 students: \\(7;\\ 5;\\ 8;\\ 9;\\ 6;\\ 8;\\ 10;\\ 7;\\ 8\\). The mean is…",
+   "vi": "Điểm của 9 học sinh: \\(7;\\ 5;\\ 8;\\ 9;\\ 6;\\ 8;\\ 10;\\ 7;\\ 8\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"mean\">Số trung bình</b> là…",
+   "options": [
+    "\\(\\dfrac{68}{9}\\)",
+    "\\(8\\)",
+    "<span class=\"txi\"><span class=\"en\">\\(8.5\\)</span><span class=\"vi\">\\(8{,}5\\)</span></span>",
+    "\\(\\dfrac{77}{9}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\bar x=\\dfrac{68}{9}=\\dfrac{68}{9}\\).",
+   "explain_vi": "Đáp án a. \\(\\bar x=\\dfrac{68}{9}=\\dfrac{68}{9}\\).",
+   "images": [],
+   "id": "b1f4baa357ec",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Marks of # students: \\(#;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #\\). The median is…",
+   "en": "Marks of 9 students: \\(7;\\ 5;\\ 8;\\ 9;\\ 6;\\ 8;\\ 10;\\ 7;\\ 8\\). The median is…",
+   "vi": "Điểm của 9 học sinh: \\(7;\\ 5;\\ 8;\\ 9;\\ 6;\\ 8;\\ 10;\\ 7;\\ 8\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"median\">Trung vị</b> là…",
+   "options": [
+    "\\(6\\)",
+    "\\(\\dfrac{68}{9}\\)",
+    "\\(7\\)",
+    "\\(8\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Sorted \\(5;\\ 6;\\ 7;\\ 7;\\ 8;\\ 8;\\ 8;\\ 9;\\ 10\\): \\(M_e=8\\).",
+   "explain_vi": "Đáp án d. Sắp xếp \\(5;\\ 6;\\ 7;\\ 7;\\ 8;\\ 8;\\ 8;\\ 9;\\ 10\\): \\(M_e=8\\).",
+   "images": [],
+   "id": "bc9577009cd2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "Data \\(#;\\ #;\\ #;\\ #;\\ #\\). Adding the value # changes the median less than it changes the mean.",
+   "en": "Data \\(5;\\ 6;\\ 7;\\ 8;\\ 9\\). Adding the value 40 changes the median less than it changes the mean.",
+   "vi": "Mẫu \\(5;\\ 6;\\ 7;\\ 8;\\ 9\\). Thêm giá trị 40 vào mẫu thì <b class=\"mbl-term\" tabindex=\"0\" data-en=\"median\">trung vị</b> thay đổi ít hơn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"mean\">số trung bình</b>.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "Mean: \\(7\\to12.5\\); median: \\(7\\to7.5\\).",
+   "explain_vi": "Trung bình: \\(7\\to12{,}5\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"median\">trung vị</b>: \\(7\\to7{,}5\\).",
+   "images": [],
+   "id": "3bf8f5a9fdd2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "Votes for favourite fruit (coded): \\(#;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #\\). The mode is #.",
+   "en": "Votes for favourite fruit (coded): \\(1;\\ 3;\\ 2;\\ 3;\\ 4;\\ 3;\\ 2;\\ 1;\\ 3;\\ 2\\). The mode is 3.",
+   "vi": "Kết quả bình chọn loại quả yêu thích (đã mã hóa): \\(1;\\ 3;\\ 2;\\ 3;\\ 4;\\ 3;\\ 2;\\ 1;\\ 3;\\ 2\\). Mốt của mẫu là 3.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "The mode is 3 (frequency 4).",
+   "explain_vi": "Mốt là 3 (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">tần số</b> 4).",
+   "images": [],
+   "id": "e07746a2f37d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "A runner's times (s) in # races have mean #. Times of # races are \\(#;\\ #;\\ #;\\ #\\). Find the time of the last race.",
+   "en": "A runner's times (s) in 5 races have mean 13. Times of 4 races are \\(12;\\ 14;\\ 13;\\ 12\\). Find the time of the last race.",
+   "vi": "Thành tích (giây) của một vận động viên trong 5 lần chạy có trung bình 13. 4 lần đầu là \\(12;\\ 14;\\ 13;\\ 12\\). Tìm thành tích lần cuối.",
+   "options": [],
+   "answer": "14",
+   "explain_en": "Total \\(=5\\cdot13=65\\); last \\(=65-51=14\\).",
+   "explain_vi": "Tổng \\(=5\\cdot13=65\\); lần cuối \\(=65-51=14\\).",
+   "images": [],
+   "id": "8f9c8cf33896",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "Number of books read in a month by students: BooksSố sách#StudentsSố học sinh# Find the mean.",
+   "en": "Number of books read in a month by students: <div class=\"mbl-tablewrap\"><table class=\"mbl-table\"><thead><tr><th><span class=\"txi\"><span class=\"en\">Books</span><span class=\"vi\">Số sách</span></span></th><th>1</th><th>2</th><th>3</th><th>4</th></tr></thead><tbody><tr><td><span class=\"txi\"><span class=\"en\">Students</span><span class=\"vi\">Số học sinh</span></span></td><td>6</td><td>10</td><td>3</td><td>1</td></tr></tbody></table></div> Find the mean.",
+   "vi": "Số sách đọc trong một tháng của các học sinh: <div class=\"mbl-tablewrap\"><table class=\"mbl-table\"><thead><tr><th><span class=\"txi\"><span class=\"en\">Books</span><span class=\"vi\">Số sách</span></span></th><th>1</th><th>2</th><th>3</th><th>4</th></tr></thead><tbody><tr><td><span class=\"txi\"><span class=\"en\">Students</span><span class=\"vi\">Số học sinh</span></span></td><td>6</td><td>10</td><td>3</td><td>1</td></tr></tbody></table></div> Tính số sách trung bình.",
+   "options": [],
+   "answer": "1.95",
+   "explain_en": "\\(\\bar x=\\dfrac{39}{20}=1.95\\).",
+   "explain_vi": "\\(\\bar x=\\dfrac{39}{20}=1{,}95\\).",
+   "images": [],
+   "id": "536c081774d3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "A class test: \\(\\begin{array}{|c|c|c|c|c|}\\hline \\text{Mark}&#&#&#&#\\\\\\hline \\text{Frequency}&#&#&#&#\\\\\\hline\\end{array}\\) The mean mark is…",
+   "en": "A class test: \\(\\begin{array}{|c|c|c|c|c|}\\hline \\text{Mark}&5&6&8&10\\\\\\hline \\text{Frequency}&6&2&5&3\\\\\\hline\\end{array}\\) The mean mark is…",
+   "vi": "Kết quả bài kiểm tra của một lớp: \\(\\begin{array}{|c|c|c|c|c|}\\hline \\text{Điểm}&5&6&8&10\\\\\\hline \\text{Tần số}&6&2&5&3\\\\\\hline\\end{array}\\) Điểm trung bình là…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(7.5\\)</span><span class=\"vi\">\\(7{,}5\\)</span></span>",
+    "\\(7\\)",
+    "<span class=\"txi\"><span class=\"en\">\\(7.25\\)</span><span class=\"vi\">\\(7{,}25\\)</span></span>",
+    "\\(4\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\bar x=\\dfrac{\\sum n_ix_i}{n}=\\dfrac{112}{16}=7\\).",
+   "explain_vi": "Đáp án b. \\(\\bar x=\\dfrac{\\sum n_ix_i}{n}=\\dfrac{112}{16}=7\\).",
+   "images": [],
+   "id": "18114faa3e68",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Monthly incomes (million VND) of # workers: \\(#;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #\\). Which number describes a \"typical\" income best?",
+   "en": "Monthly incomes (million VND) of 8 workers: \\(8;\\ 9;\\ 9;\\ 10;\\ 11;\\ 12;\\ 12;\\ 96\\). Which number describes a \"typical\" income best?",
+   "vi": "Thu nhập hằng tháng (triệu đồng) của 8 người: \\(8;\\ 9;\\ 9;\\ 10;\\ 11;\\ 12;\\ 12;\\ 96\\). Số đặc trưng nào đại diện tốt nhất cho mức thu nhập \"điển hình\"?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">The mean, because it uses all values</span><span class=\"vi\">Số trung bình, vì dùng mọi giá trị</span></span>",
+    "<span class=\"txi\"><span class=\"en\">The range</span><span class=\"vi\">Khoảng biến thiên</span></span>",
+    "<span class=\"txi\"><span class=\"en\">The median, because there is an extreme value</span><span class=\"vi\">Trung vị, vì mẫu có giá trị bất thường</span></span>",
+    "<span class=\"txi\"><span class=\"en\">The largest value</span><span class=\"vi\">Giá trị lớn nhất</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The value 96 pulls the mean up to \\(20.875\\); the median \\(10.5\\) is not affected.",
+   "explain_vi": "Đáp án c. Giá trị 96 kéo <b class=\"mbl-term\" tabindex=\"0\" data-en=\"mean\">số trung bình</b> lên \\(20{,}875\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"median\">trung vị</b> \\(10{,}5\\) không bị ảnh hưởng.",
+   "images": [],
+   "id": "d8b7d546f0ee",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The ages of a club: \\(#;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #\\). The mode is…",
+   "en": "The ages of a club: \\(19;\\ 30;\\ 14;\\ 16;\\ 16;\\ 15;\\ 25;\\ 28;\\ 17\\). The mode is…",
+   "vi": "Có tuổi các thành viên một câu lạc bộ: \\(19;\\ 30;\\ 14;\\ 16;\\ 16;\\ 15;\\ 25;\\ 28;\\ 17\\). Mốt của mẫu là…",
+   "options": [
+    "\\(14\\)",
+    "\\(16\\)",
+    "\\(15\\)",
+    "\\(17\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(16\\) appears most often (2 times).",
+   "explain_vi": "Đáp án b. \\(16\\) xuất hiện nhiều nhất (2 lần).",
+   "images": [],
+   "id": "a38ded3e2416",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The ages of a club: \\(#;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #\\). The median is…",
+   "en": "The ages of a club: \\(15;\\ 27;\\ 19;\\ 22;\\ 16;\\ 18;\\ 26;\\ 25\\). The median is…",
+   "vi": "Có tuổi các thành viên một câu lạc bộ: \\(15;\\ 27;\\ 19;\\ 22;\\ 16;\\ 18;\\ 26;\\ 25\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"median\">Trung vị</b> là…",
+   "options": [
+    "\\(21\\)",
+    "\\(16\\)",
+    "<span class=\"txi\"><span class=\"en\">\\(20.5\\)</span><span class=\"vi\">\\(20{,}5\\)</span></span>",
+    "\\(19\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Sorted: \\(15;\\ 16;\\ 18;\\ 19;\\ 22;\\ 25;\\ 26;\\ 27\\); \\(n=8\\), so \\(M_e=20.5\\).",
+   "explain_vi": "Đáp án c. Sắp xếp: \\(15;\\ 16;\\ 18;\\ 19;\\ 22;\\ 25;\\ 26;\\ 27\\); \\(n=8\\) nên \\(M_e=20{,}5\\).",
+   "images": [],
+   "id": "d65883347113",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The daily sales (cups of tea) of a shop: \\(#;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #\\). The quartile \\(Q_#\\) is…",
+   "en": "The daily sales (cups of tea) of a shop: \\(42;\\ 43;\\ 45;\\ 45;\\ 60;\\ 23;\\ 34;\\ 53;\\ 24\\). The quartile \\(Q_1\\) is…",
+   "vi": "Có số cốc trà sữa bán được mỗi ngày của một quán: \\(42;\\ 43;\\ 45;\\ 45;\\ 60;\\ 23;\\ 34;\\ 53;\\ 24\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"quartile\">Tứ phân vị</b> \\(Q_1\\) là…",
+   "options": [
+    "\\(30\\)",
+    "\\(29\\)",
+    "\\(43\\)",
+    "\\(49\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Sorted \\(23;\\ 24;\\ 34;\\ 42;\\ 43;\\ 45;\\ 45;\\ 53;\\ 60\\); \\(Q_2=43\\); \\(Q_1=29\\), \\(Q_3=49\\) (medians of the two halves).",
+   "explain_vi": "Đáp án b. Sắp xếp \\(23;\\ 24;\\ 34;\\ 42;\\ 43;\\ 45;\\ 45;\\ 53;\\ 60\\); \\(Q_2=43\\); \\(Q_1=29\\), \\(Q_3=49\\) (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"median\">trung vị</b> của hai nửa).",
+   "images": [],
+   "id": "53f39866a474",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The daily sales (cups of tea) of a shop: \\(#;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #\\). The quartile \\(Q_#\\) is…",
+   "en": "The daily sales (cups of tea) of a shop: \\(55;\\ 48;\\ 28;\\ 25;\\ 29;\\ 39;\\ 41;\\ 44\\). The quartile \\(Q_1\\) is…",
+   "vi": "Có số cốc trà sữa bán được mỗi ngày của một quán: \\(55;\\ 48;\\ 28;\\ 25;\\ 29;\\ 39;\\ 41;\\ 44\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"quartile\">Tứ phân vị</b> \\(Q_1\\) là…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(29.5\\)</span><span class=\"vi\">\\(29{,}5\\)</span></span>",
+    "\\(46\\)",
+    "\\(40\\)",
+    "<span class=\"txi\"><span class=\"en\">\\(28.5\\)</span><span class=\"vi\">\\(28{,}5\\)</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Sorted \\(25;\\ 28;\\ 29;\\ 39;\\ 41;\\ 44;\\ 48;\\ 55\\); \\(Q_2=40\\); \\(Q_1=28.5\\), \\(Q_3=46\\) (medians of the two halves).",
+   "explain_vi": "Đáp án d. Sắp xếp \\(25;\\ 28;\\ 29;\\ 39;\\ 41;\\ 44;\\ 48;\\ 55\\); \\(Q_2=40\\); \\(Q_1=28{,}5\\), \\(Q_3=46\\) (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"median\">trung vị</b> của hai nửa).",
+   "images": [],
+   "id": "77791d8e6d1b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The marks (out of #) of a group: \\(#;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #\\). The mean is…",
+   "en": "The marks (out of 10) of a group: \\(10;\\ 6;\\ 0;\\ 7;\\ 3;\\ 8;\\ 1;\\ 5;\\ 0;\\ 5\\). The mean is…",
+   "vi": "Có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"test point\">điểm kiểm tra</b> (thang 10) của một nhóm học sinh: \\(10;\\ 6;\\ 0;\\ 7;\\ 3;\\ 8;\\ 1;\\ 5;\\ 0;\\ 5\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"mean\">Số trung bình</b> là…",
+   "options": [
+    "\\(6\\)",
+    "\\(5\\)",
+    "<span class=\"txi\"><span class=\"en\">\\(4.5\\)</span><span class=\"vi\">\\(4{,}5\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(5.5\\)</span><span class=\"vi\">\\(5{,}5\\)</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\bar x=\\dfrac{45}{10}=4.5\\).",
+   "explain_vi": "Đáp án c. \\(\\bar x=\\dfrac{45}{10}=4{,}5\\).",
+   "images": [],
+   "id": "ca23ed33ae57",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The mean of # numbers is #. # of them are \\(#;\\ #;\\ #;\\ #\\). The remaining number is…",
+   "en": "The mean of 5 numbers is 7. 4 of them are \\(9;\\ 7;\\ 8;\\ 11\\). The remaining number is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"mean\">Số trung bình</b> của 5 số là 7. 4 số trong đó là \\(9;\\ 7;\\ 8;\\ 11\\). Số còn lại là…",
+   "options": [
+    "\\(1\\)",
+    "\\(0\\)",
+    "\\(7\\)",
+    "\\(5\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Total \\(=5\\cdot7=35\\); missing \\(=35-35=0\\).",
+   "explain_vi": "Đáp án b. Tổng \\(=5\\cdot7=35\\); số còn lại \\(=35-35=0\\).",
+   "images": [],
+   "id": "9bc6de398709",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Daily step counts (thousands) in # days: \\(#;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #\\). The first quartile \\(Q_#\\) is…",
+   "en": "Daily step counts (thousands) in 10 days: \\(8;\\ 12;\\ 6;\\ 10;\\ 9;\\ 15;\\ 7;\\ 11;\\ 9;\\ 13\\). The first quartile \\(Q_1\\) is…",
+   "vi": "Số bước chân (nghìn bước) trong 10 ngày: \\(8;\\ 12;\\ 6;\\ 10;\\ 9;\\ 15;\\ 7;\\ 11;\\ 9;\\ 13\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"quartile\">Tứ phân vị</b> thứ nhất \\(Q_1\\) là…",
+   "options": [
+    "\\(12\\)",
+    "<span class=\"txi\"><span class=\"en\">\\(9.5\\)</span><span class=\"vi\">\\(9{,}5\\)</span></span>",
+    "\\(8\\)",
+    "\\(9\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(Q_1\\) is the median of the lower half: \\(Q_1=8\\) (\\(Q_3=12\\)).",
+   "explain_vi": "Đáp án c. \\(Q_1\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"median\">trung vị</b> của nửa trái: \\(Q_1=8\\) (\\(Q_3=12\\)).",
+   "images": [],
+   "id": "0423683ef9da",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Daily step counts (thousands) in # days: \\(#;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #\\). The mean is…",
+   "en": "Daily step counts (thousands) in 10 days: \\(8;\\ 12;\\ 6;\\ 10;\\ 9;\\ 15;\\ 7;\\ 11;\\ 9;\\ 13\\). The mean is…",
+   "vi": "Số bước chân (nghìn bước) trong 10 ngày: \\(8;\\ 12;\\ 6;\\ 10;\\ 9;\\ 15;\\ 7;\\ 11;\\ 9;\\ 13\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"mean\">Số trung bình</b> là…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(9.5\\)</span><span class=\"vi\">\\(9{,}5\\)</span></span>",
+    "\\(10\\)",
+    "\\(\\dfrac{100}{9}\\)",
+    "\\(11\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\bar x=\\dfrac{100}{10}=10\\).",
+   "explain_vi": "Đáp án b. \\(\\bar x=\\dfrac{100}{10}=10\\).",
+   "images": [],
+   "id": "2a3a3090493b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Daily step counts (thousands) in # days: \\(#;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #\\). The median is…",
+   "en": "Daily step counts (thousands) in 10 days: \\(8;\\ 12;\\ 6;\\ 10;\\ 9;\\ 15;\\ 7;\\ 11;\\ 9;\\ 13\\). The median is…",
+   "vi": "Số bước chân (nghìn bước) trong 10 ngày: \\(8;\\ 12;\\ 6;\\ 10;\\ 9;\\ 15;\\ 7;\\ 11;\\ 9;\\ 13\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"median\">Trung vị</b> là…",
+   "options": [
+    "\\(15\\)",
+    "\\(10\\)",
+    "\\(9\\)",
+    "<span class=\"txi\"><span class=\"en\">\\(9.5\\)</span><span class=\"vi\">\\(9{,}5\\)</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Sorted \\(6;\\ 7;\\ 8;\\ 9;\\ 9;\\ 10;\\ 11;\\ 12;\\ 13;\\ 15\\): \\(M_e=9.5\\).",
+   "explain_vi": "Đáp án d. Sắp xếp \\(6;\\ 7;\\ 8;\\ 9;\\ 9;\\ 10;\\ 11;\\ 12;\\ 13;\\ 15\\): \\(M_e=9{,}5\\).",
+   "images": [],
+   "id": "79d22a701a18",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "Data \\(#;\\ #;\\ #;\\ #\\). Adding the value # changes the median less than it changes the mean.",
+   "en": "Data \\(20;\\ 22;\\ 23;\\ 25\\). Adding the value 21 changes the median less than it changes the mean.",
+   "vi": "Mẫu \\(20;\\ 22;\\ 23;\\ 25\\). Thêm giá trị 21 vào mẫu thì <b class=\"mbl-term\" tabindex=\"0\" data-en=\"median\">trung vị</b> thay đổi ít hơn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"mean\">số trung bình</b>.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "Mean: \\(22.5\\to22.2\\); median: \\(22.5\\to22\\).",
+   "explain_vi": "Trung bình: \\(22{,}5\\to22{,}2\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"median\">trung vị</b>: \\(22{,}5\\to22\\).",
+   "images": [],
+   "id": "c17bfecc89e3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "Votes for favourite fruit (coded): \\(#;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #\\). The mode is #.",
+   "en": "Votes for favourite fruit (coded): \\(2;\\ 4;\\ 4;\\ 1;\\ 2;\\ 5;\\ 2;\\ 4;\\ 3;\\ 1\\). The mode is 4.",
+   "vi": "Kết quả bình chọn loại quả yêu thích (đã mã hóa): \\(2;\\ 4;\\ 4;\\ 1;\\ 2;\\ 5;\\ 2;\\ 4;\\ 3;\\ 1\\). Mốt của mẫu là 4.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "The mode is 2 and 4 (frequency 3).",
+   "explain_vi": "Mốt là 2 và 4 (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">tần số</b> 3).",
+   "images": [],
+   "id": "092664ae5123",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "A runner's times (s) in # races have mean #. Times of # races are \\(#;\\ #;\\ #;\\ #;\\ #\\). Find the time of the last race.",
+   "en": "A runner's times (s) in 6 races have mean 15. Times of 5 races are \\(14;\\ 16;\\ 15;\\ 13;\\ 17\\). Find the time of the last race.",
+   "vi": "Thành tích (giây) của một vận động viên trong 6 lần chạy có trung bình 15. 5 lần đầu là \\(14;\\ 16;\\ 15;\\ 13;\\ 17\\). Tìm thành tích lần cuối.",
+   "options": [],
+   "answer": "15",
+   "explain_en": "Total \\(=6\\cdot15=90\\); last \\(=90-75=15\\).",
+   "explain_vi": "Tổng \\(=6\\cdot15=90\\); lần cuối \\(=90-75=15\\).",
+   "images": [],
+   "id": "9c504fa9c125",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "Number of books read in a month by students: BooksSố sách#StudentsSố học sinh# Find the mean.",
+   "en": "Number of books read in a month by students: <div class=\"mbl-tablewrap\"><table class=\"mbl-table\"><thead><tr><th><span class=\"txi\"><span class=\"en\">Books</span><span class=\"vi\">Số sách</span></span></th><th>0</th><th>1</th><th>2</th><th>3</th><th>4</th></tr></thead><tbody><tr><td><span class=\"txi\"><span class=\"en\">Students</span><span class=\"vi\">Số học sinh</span></span></td><td>2</td><td>5</td><td>8</td><td>3</td><td>2</td></tr></tbody></table></div> Find the mean.",
+   "vi": "Số sách đọc trong một tháng của các học sinh: <div class=\"mbl-tablewrap\"><table class=\"mbl-table\"><thead><tr><th><span class=\"txi\"><span class=\"en\">Books</span><span class=\"vi\">Số sách</span></span></th><th>0</th><th>1</th><th>2</th><th>3</th><th>4</th></tr></thead><tbody><tr><td><span class=\"txi\"><span class=\"en\">Students</span><span class=\"vi\">Số học sinh</span></span></td><td>2</td><td>5</td><td>8</td><td>3</td><td>2</td></tr></tbody></table></div> Tính số sách trung bình.",
+   "options": [],
+   "answer": "1.9",
+   "explain_en": "\\(\\bar x=\\dfrac{38}{20}=1.9\\).",
+   "explain_vi": "\\(\\bar x=\\dfrac{38}{20}=1{,}9\\).",
+   "images": [],
+   "id": "d467b6db0d07",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "A class test: \\(\\begin{array}{|c|c|c|c|c|}\\hline \\text{Mark}&#&#&#&#\\\\\\hline \\text{Frequency}&#&#&#&#\\\\\\hline\\end{array}\\) The mean mark is…",
+   "en": "A class test: \\(\\begin{array}{|c|c|c|c|c|}\\hline \\text{Mark}&5&7&8&9\\\\\\hline \\text{Frequency}&7&6&2&5\\\\\\hline\\end{array}\\) The mean mark is…",
+   "vi": "Kết quả bài kiểm tra của một lớp: \\(\\begin{array}{|c|c|c|c|c|}\\hline \\text{Điểm}&5&7&8&9\\\\\\hline \\text{Tần số}&7&6&2&5\\\\\\hline\\end{array}\\) Điểm trung bình là…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(6.9\\)</span><span class=\"vi\">\\(6{,}9\\)</span></span>",
+    "\\(5\\)",
+    "<span class=\"txi\"><span class=\"en\">\\(7.4\\)</span><span class=\"vi\">\\(7{,}4\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(7.25\\)</span><span class=\"vi\">\\(7{,}25\\)</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\bar x=\\dfrac{\\sum n_ix_i}{n}=\\dfrac{138}{20}=6.9\\).",
+   "explain_vi": "Đáp án a. \\(\\bar x=\\dfrac{\\sum n_ix_i}{n}=\\dfrac{138}{20}=6{,}9\\).",
+   "images": [],
+   "id": "a8bc1479f2e7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Monthly incomes (million VND) of # workers: \\(#;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #\\). Which number describes a \"typical\" income best?",
+   "en": "Monthly incomes (million VND) of 8 workers: \\(20;\\ 21;\\ 22;\\ 22;\\ 23;\\ 24;\\ 25;\\ 250\\). Which number describes a \"typical\" income best?",
+   "vi": "Thu nhập hằng tháng (triệu đồng) của 8 người: \\(20;\\ 21;\\ 22;\\ 22;\\ 23;\\ 24;\\ 25;\\ 250\\). Số đặc trưng nào đại diện tốt nhất cho mức thu nhập \"điển hình\"?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">The range</span><span class=\"vi\">Khoảng biến thiên</span></span>",
+    "<span class=\"txi\"><span class=\"en\">The median, because there is an extreme value</span><span class=\"vi\">Trung vị, vì mẫu có giá trị bất thường</span></span>",
+    "<span class=\"txi\"><span class=\"en\">The largest value</span><span class=\"vi\">Giá trị lớn nhất</span></span>",
+    "<span class=\"txi\"><span class=\"en\">The mean, because it uses all values</span><span class=\"vi\">Số trung bình, vì dùng mọi giá trị</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. The value 250 pulls the mean up to \\(50.875\\); the median \\(22.5\\) is not affected.",
+   "explain_vi": "Đáp án b. Giá trị 250 kéo <b class=\"mbl-term\" tabindex=\"0\" data-en=\"mean\">số trung bình</b> lên \\(50{,}875\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"median\">trung vị</b> \\(22{,}5\\) không bị ảnh hưởng.",
+   "images": [],
+   "id": "388b4d0efa47",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The ages of a club: \\(#;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #\\). The median is…",
+   "en": "The ages of a club: \\(30;\\ 20;\\ 26;\\ 24;\\ 29;\\ 18;\\ 27;\\ 28;\\ 15;\\ 30;\\ 21;\\ 22\\). The median is…",
+   "vi": "Có tuổi các thành viên một câu lạc bộ: \\(30;\\ 20;\\ 26;\\ 24;\\ 29;\\ 18;\\ 27;\\ 28;\\ 15;\\ 30;\\ 21;\\ 22\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"median\">Trung vị</b> là…",
+   "options": [
+    "\\(25\\)",
+    "\\(26\\)",
+    "\\(27\\)",
+    "\\(24\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Sorted: \\(15;\\ 18;\\ 20;\\ 21;\\ 22;\\ 24;\\ 26;\\ 27;\\ 28;\\ 29;\\ 30;\\ 30\\); \\(n=12\\), so \\(M_e=25\\).",
+   "explain_vi": "Đáp án a. Sắp xếp: \\(15;\\ 18;\\ 20;\\ 21;\\ 22;\\ 24;\\ 26;\\ 27;\\ 28;\\ 29;\\ 30;\\ 30\\); \\(n=12\\) nên \\(M_e=25\\).",
+   "images": [],
+   "id": "b82d7628f5bc",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The heights (cm) of a basketball team: \\(#;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #\\). The quartile \\(Q_#\\) is…",
+   "en": "The heights (cm) of a basketball team: \\(176;\\ 171;\\ 174;\\ 174;\\ 175;\\ 192;\\ 179;\\ 189;\\ 172;\\ 176;\\ 189;\\ 166\\). The quartile \\(Q_1\\) is…",
+   "vi": "Có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"height\">chiều cao</b> (cm) của một đội bóng rổ: \\(176;\\ 171;\\ 174;\\ 174;\\ 175;\\ 192;\\ 179;\\ 189;\\ 172;\\ 176;\\ 189;\\ 166\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"quartile\">Tứ phân vị</b> \\(Q_1\\) là…",
+   "options": [
+    "\\(173\\)",
+    "<span class=\"txi\"><span class=\"en\">\\(175.5\\)</span><span class=\"vi\">\\(175{,}5\\)</span></span>",
+    "\\(184\\)",
+    "\\(174\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Sorted \\(166;\\ 171;\\ 172;\\ 174;\\ 174;\\ 175;\\ 176;\\ 176;\\ 179;\\ 189;\\ 189;\\ 192\\); \\(Q_2=175.5\\); \\(Q_1=173\\), \\(Q_3=184\\) (medians of the two halves).",
+   "explain_vi": "Đáp án a. Sắp xếp \\(166;\\ 171;\\ 172;\\ 174;\\ 174;\\ 175;\\ 176;\\ 176;\\ 179;\\ 189;\\ 189;\\ 192\\); \\(Q_2=175{,}5\\); \\(Q_1=173\\), \\(Q_3=184\\) (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"median\">trung vị</b> của hai nửa).",
+   "images": [],
+   "id": "31d0fc2a8b95",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The marks (out of #) of a group: \\(#;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #\\). The mode is…",
+   "en": "The marks (out of 10) of a group: \\(4;\\ 0;\\ 2;\\ 3;\\ 3;\\ 1;\\ 5;\\ 2;\\ 3;\\ 10\\). The mode is…",
+   "vi": "Có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"test point\">điểm kiểm tra</b> (thang 10) của một nhóm học sinh: \\(4;\\ 0;\\ 2;\\ 3;\\ 3;\\ 1;\\ 5;\\ 2;\\ 3;\\ 10\\). Mốt của mẫu là…",
+   "options": [
+    "\\(0\\)",
+    "\\(3\\)",
+    "\\(1\\)",
+    "\\(2\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(3\\) appears most often (3 times).",
+   "explain_vi": "Đáp án b. \\(3\\) xuất hiện nhiều nhất (3 lần).",
+   "images": [],
+   "id": "58fd1045a496",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The marks (out of #) of a group: \\(#;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #\\). The quartile \\(Q_#\\) is…",
+   "en": "The marks (out of 10) of a group: \\(1;\\ 3;\\ 9;\\ 2;\\ 10;\\ 0;\\ 0;\\ 10;\\ 1;\\ 7\\). The quartile \\(Q_3\\) is…",
+   "vi": "Có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"test point\">điểm kiểm tra</b> (thang 10) của một nhóm học sinh: \\(1;\\ 3;\\ 9;\\ 2;\\ 10;\\ 0;\\ 0;\\ 10;\\ 1;\\ 7\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"quartile\">Tứ phân vị</b> \\(Q_3\\) là…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(2.5\\)</span><span class=\"vi\">\\(2{,}5\\)</span></span>",
+    "\\(10\\)",
+    "\\(1\\)",
+    "\\(9\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Sorted \\(0;\\ 0;\\ 1;\\ 1;\\ 2;\\ 3;\\ 7;\\ 9;\\ 10;\\ 10\\); \\(Q_2=2.5\\); \\(Q_1=1\\), \\(Q_3=9\\) (medians of the two halves).",
+   "explain_vi": "Đáp án d. Sắp xếp \\(0;\\ 0;\\ 1;\\ 1;\\ 2;\\ 3;\\ 7;\\ 9;\\ 10;\\ 10\\); \\(Q_2=2{,}5\\); \\(Q_1=1\\), \\(Q_3=9\\) (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"median\">trung vị</b> của hai nửa).",
+   "images": [],
+   "id": "ae9fdad0e21c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The mean of # numbers is #. # of them are \\(#;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #\\). The remaining number is…",
+   "en": "The mean of 8 numbers is 8. 7 of them are \\(12;\\ 11;\\ 6;\\ 11;\\ 4;\\ 4;\\ 6\\). The remaining number is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"mean\">Số trung bình</b> của 8 số là 8. 7 số trong đó là \\(12;\\ 11;\\ 6;\\ 11;\\ 4;\\ 4;\\ 6\\). Số còn lại là…",
+   "options": [
+    "\\(18\\)",
+    "\\(10\\)",
+    "\\(8\\)",
+    "\\(2\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Total \\(=8\\cdot8=64\\); missing \\(=64-54=10\\).",
+   "explain_vi": "Đáp án b. Tổng \\(=8\\cdot8=64\\); số còn lại \\(=64-54=10\\).",
+   "images": [],
+   "id": "125e8a96d12e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The times (minutes) to get to school: \\(#;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #\\). The mean is…",
+   "en": "The times (minutes) to get to school: \\(35;\\ 31;\\ 17;\\ 17;\\ 30;\\ 8;\\ 32;\\ 33;\\ 33;\\ 7;\\ 38;\\ 25\\). The mean is…",
+   "vi": "Có thời gian (phút) đi đến trường: \\(35;\\ 31;\\ 17;\\ 17;\\ 30;\\ 8;\\ 32;\\ 33;\\ 33;\\ 7;\\ 38;\\ 25\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"mean\">Số trung bình</b> là…",
+   "options": [
+    "\\(\\dfrac{306}{11}\\)",
+    "<span class=\"txi\"><span class=\"en\">\\(22.5\\)</span><span class=\"vi\">\\(22{,}5\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(25.5\\)</span><span class=\"vi\">\\(25{,}5\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(30.5\\)</span><span class=\"vi\">\\(30{,}5\\)</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\bar x=\\dfrac{306}{12}=25.5\\).",
+   "explain_vi": "Đáp án c. \\(\\bar x=\\dfrac{306}{12}=25{,}5\\).",
+   "images": [],
+   "id": "598a663e30b7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Heights (cm) of # seedlings: \\(#;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #\\). The first quartile \\(Q_#\\) is…",
+   "en": "Heights (cm) of 12 seedlings: \\(14;\\ 18;\\ 11;\\ 16;\\ 20;\\ 13;\\ 17;\\ 15;\\ 19;\\ 12;\\ 22;\\ 15\\). The first quartile \\(Q_1\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"height\">Chiều cao</b> (cm) của 12 cây giống: \\(14;\\ 18;\\ 11;\\ 16;\\ 20;\\ 13;\\ 17;\\ 15;\\ 19;\\ 12;\\ 22;\\ 15\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"quartile\">Tứ phân vị</b> thứ nhất \\(Q_1\\) là…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(18.5\\)</span><span class=\"vi\">\\(18{,}5\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(15.5\\)</span><span class=\"vi\">\\(15{,}5\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(14.5\\)</span><span class=\"vi\">\\(14{,}5\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(13.5\\)</span><span class=\"vi\">\\(13{,}5\\)</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(Q_1\\) is the median of the lower half: \\(Q_1=13.5\\) (\\(Q_3=18.5\\)).",
+   "explain_vi": "Đáp án d. \\(Q_1\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"median\">trung vị</b> của nửa trái: \\(Q_1=13{,}5\\) (\\(Q_3=18{,}5\\)).",
+   "images": [],
+   "id": "0524c30b714b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Heights (cm) of # seedlings: \\(#;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #\\). The mean is…",
+   "en": "Heights (cm) of 12 seedlings: \\(14;\\ 18;\\ 11;\\ 16;\\ 20;\\ 13;\\ 17;\\ 15;\\ 19;\\ 12;\\ 22;\\ 15\\). The mean is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"height\">Chiều cao</b> (cm) của 12 cây giống: \\(14;\\ 18;\\ 11;\\ 16;\\ 20;\\ 13;\\ 17;\\ 15;\\ 19;\\ 12;\\ 22;\\ 15\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"mean\">Số trung bình</b> là…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(15.5\\)</span><span class=\"vi\">\\(15{,}5\\)</span></span>",
+    "\\(16\\)",
+    "\\(\\dfrac{192}{11}\\)",
+    "\\(17\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\bar x=\\dfrac{192}{12}=16\\).",
+   "explain_vi": "Đáp án b. \\(\\bar x=\\dfrac{192}{12}=16\\).",
+   "images": [],
+   "id": "22a2b21b7341",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Heights (cm) of # seedlings: \\(#;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #\\). The median is…",
+   "en": "Heights (cm) of 12 seedlings: \\(14;\\ 18;\\ 11;\\ 16;\\ 20;\\ 13;\\ 17;\\ 15;\\ 19;\\ 12;\\ 22;\\ 15\\). The median is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"height\">Chiều cao</b> (cm) của 12 cây giống: \\(14;\\ 18;\\ 11;\\ 16;\\ 20;\\ 13;\\ 17;\\ 15;\\ 19;\\ 12;\\ 22;\\ 15\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"median\">Trung vị</b> là…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(15.5\\)</span><span class=\"vi\">\\(15{,}5\\)</span></span>",
+    "\\(17\\)",
+    "\\(16\\)",
+    "\\(15\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Sorted \\(11;\\ 12;\\ 13;\\ 14;\\ 15;\\ 15;\\ 16;\\ 17;\\ 18;\\ 19;\\ 20;\\ 22\\): \\(M_e=15.5\\).",
+   "explain_vi": "Đáp án a. Sắp xếp \\(11;\\ 12;\\ 13;\\ 14;\\ 15;\\ 15;\\ 16;\\ 17;\\ 18;\\ 19;\\ 20;\\ 22\\): \\(M_e=15{,}5\\).",
+   "images": [],
+   "id": "8d03907442a8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "Data \\(#;\\ #;\\ #;\\ #;\\ #;\\ #\\). Adding the value # changes the median less than it changes the mean.",
+   "en": "Data \\(30;\\ 32;\\ 35;\\ 36;\\ 38;\\ 41\\). Adding the value 120 changes the median less than it changes the mean.",
+   "vi": "Mẫu \\(30;\\ 32;\\ 35;\\ 36;\\ 38;\\ 41\\). Thêm giá trị 120 vào mẫu thì <b class=\"mbl-term\" tabindex=\"0\" data-en=\"median\">trung vị</b> thay đổi ít hơn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"mean\">số trung bình</b>.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "Mean: \\(\\dfrac{106}{3}\\to\\dfrac{332}{7}\\); median: \\(35.5\\to36\\).",
+   "explain_vi": "Trung bình: \\(\\dfrac{106}{3}\\to\\dfrac{332}{7}\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"median\">trung vị</b>: \\(35{,}5\\to36\\).",
+   "images": [],
+   "id": "8e48f0eab24a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "Votes for favourite fruit (coded): \\(#;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #\\). The mode is #.",
+   "en": "Votes for favourite fruit (coded): \\(5;\\ 5;\\ 6;\\ 7;\\ 7;\\ 8;\\ 6;\\ 5;\\ 7;\\ 5\\). The mode is 5.",
+   "vi": "Kết quả bình chọn loại quả yêu thích (đã mã hóa): \\(5;\\ 5;\\ 6;\\ 7;\\ 7;\\ 8;\\ 6;\\ 5;\\ 7;\\ 5\\). Mốt của mẫu là 5.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "The mode is 5 (frequency 4).",
+   "explain_vi": "Mốt là 5 (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">tần số</b> 4).",
+   "images": [],
+   "id": "3db804f87422",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "A runner's times (s) in # races have mean #. Times of # races are \\(#;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #\\). Find the time of the last race.",
+   "en": "A runner's times (s) in 8 races have mean 12. Times of 7 races are \\(11;\\ 13;\\ 12;\\ 10;\\ 14;\\ 12;\\ 11\\). Find the time of the last race.",
+   "vi": "Thành tích (giây) của một vận động viên trong 8 lần chạy có trung bình 12. 7 lần đầu là \\(11;\\ 13;\\ 12;\\ 10;\\ 14;\\ 12;\\ 11\\). Tìm thành tích lần cuối.",
+   "options": [],
+   "answer": "13",
+   "explain_en": "Total \\(=8\\cdot12=96\\); last \\(=96-83=13\\).",
+   "explain_vi": "Tổng \\(=8\\cdot12=96\\); lần cuối \\(=96-83=13\\).",
+   "images": [],
+   "id": "2f508d0b812a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Number of books read in a month by students: BooksSố sách#StudentsSố học sinh# Find the mean.",
+   "en": "Number of books read in a month by students: <div class=\"mbl-tablewrap\"><table class=\"mbl-table\"><thead><tr><th><span class=\"txi\"><span class=\"en\">Books</span><span class=\"vi\">Số sách</span></span></th><th>2</th><th>3</th><th>4</th><th>5</th></tr></thead><tbody><tr><td><span class=\"txi\"><span class=\"en\">Students</span><span class=\"vi\">Số học sinh</span></span></td><td>4</td><td>9</td><td>5</td><td>2</td></tr></tbody></table></div> Find the mean.",
+   "vi": "Số sách đọc trong một tháng của các học sinh: <div class=\"mbl-tablewrap\"><table class=\"mbl-table\"><thead><tr><th><span class=\"txi\"><span class=\"en\">Books</span><span class=\"vi\">Số sách</span></span></th><th>2</th><th>3</th><th>4</th><th>5</th></tr></thead><tbody><tr><td><span class=\"txi\"><span class=\"en\">Students</span><span class=\"vi\">Số học sinh</span></span></td><td>4</td><td>9</td><td>5</td><td>2</td></tr></tbody></table></div> Tính số sách trung bình.",
+   "options": [],
+   "answer": "3.25",
+   "explain_en": "\\(\\bar x=\\dfrac{65}{20}=3.25\\).",
+   "explain_vi": "\\(\\bar x=\\dfrac{65}{20}=3{,}25\\).",
+   "images": [],
+   "id": "dc7ac31fc33a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "A class test: \\(\\begin{array}{|c|c|c|c|c|}\\hline \\text{Mark}&#&#&#&#\\\\\\hline \\text{Frequency}&#&#&#&#\\\\\\hline\\end{array}\\) The mean mark is…",
+   "en": "A class test: \\(\\begin{array}{|c|c|c|c|c|}\\hline \\text{Mark}&5&7&8&9\\\\\\hline \\text{Frequency}&5&4&6&5\\\\\\hline\\end{array}\\) The mean mark is…",
+   "vi": "Kết quả bài kiểm tra của một lớp: \\(\\begin{array}{|c|c|c|c|c|}\\hline \\text{Điểm}&5&7&8&9\\\\\\hline \\text{Tần số}&5&4&6&5\\\\\\hline\\end{array}\\) Điểm trung bình là…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(7.3\\)</span><span class=\"vi\">\\(7{,}3\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(7.8\\)</span><span class=\"vi\">\\(7{,}8\\)</span></span>",
+    "\\(5\\)",
+    "<span class=\"txi\"><span class=\"en\">\\(7.25\\)</span><span class=\"vi\">\\(7{,}25\\)</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\bar x=\\dfrac{\\sum n_ix_i}{n}=\\dfrac{146}{20}=7.3\\).",
+   "explain_vi": "Đáp án a. \\(\\bar x=\\dfrac{\\sum n_ix_i}{n}=\\dfrac{146}{20}=7{,}3\\).",
+   "images": [],
+   "id": "9aedf4788858",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Monthly incomes (million VND) of # workers: \\(#;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #\\). Which number describes a \"typical\" income best?",
+   "en": "Monthly incomes (million VND) of 8 workers: \\(8;\\ 9;\\ 9;\\ 10;\\ 11;\\ 12;\\ 12;\\ 120\\). Which number describes a \"typical\" income best?",
+   "vi": "Thu nhập hằng tháng (triệu đồng) của 8 người: \\(8;\\ 9;\\ 9;\\ 10;\\ 11;\\ 12;\\ 12;\\ 120\\). Số đặc trưng nào đại diện tốt nhất cho mức thu nhập \"điển hình\"?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">The mean, because it uses all values</span><span class=\"vi\">Số trung bình, vì dùng mọi giá trị</span></span>",
+    "<span class=\"txi\"><span class=\"en\">The largest value</span><span class=\"vi\">Giá trị lớn nhất</span></span>",
+    "<span class=\"txi\"><span class=\"en\">The range</span><span class=\"vi\">Khoảng biến thiên</span></span>",
+    "<span class=\"txi\"><span class=\"en\">The median, because there is an extreme value</span><span class=\"vi\">Trung vị, vì mẫu có giá trị bất thường</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. The value 120 pulls the mean up to \\(23.875\\); the median \\(10.5\\) is not affected.",
+   "explain_vi": "Đáp án d. Giá trị 120 kéo <b class=\"mbl-term\" tabindex=\"0\" data-en=\"mean\">số trung bình</b> lên \\(23{,}875\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"median\">trung vị</b> \\(10{,}5\\) không bị ảnh hưởng.",
+   "images": [],
+   "id": "62acd3a672a3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The daily sales (cups of tea) of a shop: \\(#;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #\\). The mode is…",
+   "en": "The daily sales (cups of tea) of a shop: \\(31;\\ 56;\\ 24;\\ 24;\\ 51;\\ 46;\\ 29;\\ 33;\\ 53;\\ 48;\\ 42\\). The mode is…",
+   "vi": "Có số cốc trà sữa bán được mỗi ngày của một quán: \\(31;\\ 56;\\ 24;\\ 24;\\ 51;\\ 46;\\ 29;\\ 33;\\ 53;\\ 48;\\ 42\\). Mốt của mẫu là…",
+   "options": [
+    "\\(42\\)",
+    "\\(24\\)",
+    "\\(33\\)",
+    "\\(46\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(24\\) appears most often (2 times).",
+   "explain_vi": "Đáp án b. \\(24\\) xuất hiện nhiều nhất (2 lần).",
+   "images": [],
+   "id": "06238aa64e2c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The heights (cm) of a basketball team: \\(#;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #\\). The quartile \\(Q_#\\) is…",
+   "en": "The heights (cm) of a basketball team: \\(195;\\ 176;\\ 188;\\ 170;\\ 187;\\ 178;\\ 191;\\ 192;\\ 175;\\ 182;\\ 170\\). The quartile \\(Q_3\\) is…",
+   "vi": "Có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"height\">chiều cao</b> (cm) của một đội bóng rổ: \\(195;\\ 176;\\ 188;\\ 170;\\ 187;\\ 178;\\ 191;\\ 192;\\ 175;\\ 182;\\ 170\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"quartile\">Tứ phân vị</b> \\(Q_3\\) là…",
+   "options": [
+    "\\(175\\)",
+    "\\(182\\)",
+    "\\(192\\)",
+    "\\(191\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Sorted \\(170;\\ 170;\\ 175;\\ 176;\\ 178;\\ 182;\\ 187;\\ 188;\\ 191;\\ 192;\\ 195\\); \\(Q_2=182\\); \\(Q_1=175\\), \\(Q_3=191\\) (medians of the two halves).",
+   "explain_vi": "Đáp án d. Sắp xếp \\(170;\\ 170;\\ 175;\\ 176;\\ 178;\\ 182;\\ 187;\\ 188;\\ 191;\\ 192;\\ 195\\); \\(Q_2=182\\); \\(Q_1=175\\), \\(Q_3=191\\) (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"median\">trung vị</b> của hai nửa).",
+   "images": [],
+   "id": "f3a4a01a3413",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The marks (out of #) of a group: \\(#;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #\\). The mean is…",
+   "en": "The marks (out of 10) of a group: \\(4;\\ 10;\\ 2;\\ 5;\\ 1;\\ 10;\\ 7;\\ 2;\\ 4\\). The mean is…",
+   "vi": "Có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"test point\">điểm kiểm tra</b> (thang 10) của một nhóm học sinh: \\(4;\\ 10;\\ 2;\\ 5;\\ 1;\\ 10;\\ 7;\\ 2;\\ 4\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"mean\">Số trung bình</b> là…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(5.5\\)</span><span class=\"vi\">\\(5{,}5\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(5.625\\)</span><span class=\"vi\">\\(5{,}625\\)</span></span>",
+    "\\(5\\)",
+    "\\(4\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\bar x=\\dfrac{45}{9}=5\\).",
+   "explain_vi": "Đáp án c. \\(\\bar x=\\dfrac{45}{9}=5\\).",
+   "images": [],
+   "id": "25c9aae44bac",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The mean of # numbers is #. # of them are \\(#;\\ #;\\ #;\\ #;\\ #\\). The remaining number is…",
+   "en": "The mean of 6 numbers is 8. 5 of them are \\(6;\\ 8;\\ 12;\\ 6;\\ 10\\). The remaining number is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"mean\">Số trung bình</b> của 6 số là 8. 5 số trong đó là \\(6;\\ 8;\\ 12;\\ 6;\\ 10\\). Số còn lại là…",
+   "options": [
+    "\\(12\\)",
+    "\\(8\\)",
+    "\\(0\\)",
+    "\\(6\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Total \\(=6\\cdot8=48\\); missing \\(=48-42=6\\).",
+   "explain_vi": "Đáp án d. Tổng \\(=6\\cdot8=48\\); số còn lại \\(=48-42=6\\).",
+   "images": [],
+   "id": "83c9c9c5b34f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The times (minutes) to get to school: \\(#;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #\\). The quartile \\(Q_#\\) is…",
+   "en": "The times (minutes) to get to school: \\(34;\\ 31;\\ 6;\\ 38;\\ 23;\\ 30;\\ 32;\\ 9;\\ 17;\\ 34;\\ 37;\\ 15\\). The quartile \\(Q_3\\) is…",
+   "vi": "Có thời gian (phút) đi đến trường: \\(34;\\ 31;\\ 6;\\ 38;\\ 23;\\ 30;\\ 32;\\ 9;\\ 17;\\ 34;\\ 37;\\ 15\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"quartile\">Tứ phân vị</b> \\(Q_3\\) là…",
+   "options": [
+    "\\(16\\)",
+    "\\(34\\)",
+    "<span class=\"txi\"><span class=\"en\">\\(30.5\\)</span><span class=\"vi\">\\(30{,}5\\)</span></span>",
+    "\\(35\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Sorted \\(6;\\ 9;\\ 15;\\ 17;\\ 23;\\ 30;\\ 31;\\ 32;\\ 34;\\ 34;\\ 37;\\ 38\\); \\(Q_2=30.5\\); \\(Q_1=16\\), \\(Q_3=34\\) (medians of the two halves).",
+   "explain_vi": "Đáp án b. Sắp xếp \\(6;\\ 9;\\ 15;\\ 17;\\ 23;\\ 30;\\ 31;\\ 32;\\ 34;\\ 34;\\ 37;\\ 38\\); \\(Q_2=30{,}5\\); \\(Q_1=16\\), \\(Q_3=34\\) (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"median\">trung vị</b> của hai nửa).",
+   "images": [],
+   "id": "ffc4d38a1fc3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The times (minutes) to get to school: \\(#;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #\\). The median is…",
+   "en": "The times (minutes) to get to school: \\(16;\\ 29;\\ 7;\\ 25;\\ 20;\\ 15;\\ 9\\). The median is…",
+   "vi": "Có thời gian (phút) đi đến trường: \\(16;\\ 29;\\ 7;\\ 25;\\ 20;\\ 15;\\ 9\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"median\">Trung vị</b> là…",
+   "options": [
+    "\\(25\\)",
+    "\\(17\\)",
+    "\\(16\\)",
+    "\\(15\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Sorted: \\(7;\\ 9;\\ 15;\\ 16;\\ 20;\\ 25;\\ 29\\); \\(n=7\\), so \\(M_e=16\\).",
+   "explain_vi": "Đáp án c. Sắp xếp: \\(7;\\ 9;\\ 15;\\ 16;\\ 20;\\ 25;\\ 29\\); \\(n=7\\) nên \\(M_e=16\\).",
+   "images": [],
+   "id": "fe9da0572768",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  }
+ ]
+}

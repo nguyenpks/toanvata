@@ -1,0 +1,1029 @@
+{
+ "lesson": "g12-coord-03",
+ "grade": 12,
+ "no": 14,
+ "title": "Phương trình mặt phẳng",
+ "path": "lessons/grade12/space-coordinates/plane-equations.html",
+ "items": [
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "A solar panel is a flat plate through the corners \\(A(#;\\,#;\\,#)\\), \\(B(#;\\,#;\\,#)\\), \\(C(#;\\,#;\\,#)\\). The equation of its plane is…",
+   "en": "A solar panel is a flat plate through the corners \\(A(1;\\,0;\\,0)\\), \\(B(0;\\,2;\\,0)\\), \\(C(0;\\,0;\\,2)\\). The equation of its plane is…",
+   "vi": "Một tấm pin mặt trời phẳng đi qua ba góc \\(A(1;\\,0;\\,0)\\), \\(B(0;\\,2;\\,0)\\), \\(C(0;\\,0;\\,2)\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">Phương trình</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> chứa tấm pin là…",
+   "options": [
+    "\\(2x+y+z-2=0\\)",
+    "\\(2x+y+z+2=0\\)",
+    "\\(2x-y+z-2=0\\)",
+    "\\(2x+y+z-1=0\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\vec n=[\\overrightarrow{AB},\\overrightarrow{AC}]\\) gives \\((2;\\,1;\\,1)\\) (simplified).",
+   "explain_vi": "Đáp án a. \\(\\vec n=[\\overrightarrow{AB},\\overrightarrow{AC}]\\) cho \\((2;\\,1;\\,1)\\) (đã <b class=\"mbl-term\" tabindex=\"0\" data-en=\"simplify\">rút gọn</b>).",
+   "images": [],
+   "id": "a4e952eb387c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "The distance from \\(M(#;\\,#;\\,#)\\) to the plane \\(x+#y+#z+#=#\\) is…",
+   "en": "The distance from \\(M(1;\\,1;\\,1)\\) to the plane \\(x+2y+2z+1=0\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">Khoảng cách</b> từ \\(M(1;\\,1;\\,1)\\) đến <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> \\(x+2y+2z+1=0\\) bằng…",
+   "options": [
+    "\\(6\\)",
+    "\\(3\\)",
+    "\\(2\\)",
+    "\\(\\dfrac{2}{3}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\dfrac{|6|}{\\sqrt{9}}=2\\).",
+   "explain_vi": "Đáp án c. \\(\\dfrac{|6|}{\\sqrt{9}}=2\\).",
+   "images": [],
+   "id": "3288a935bb6b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "The plane through \\(M(#;\\,#;\\,-#)\\) with normal vector \\(\\vec n=(#;\\,-#;\\,#)\\) is…",
+   "en": "The plane through \\(M(1;\\,2;\\,-1)\\) with normal vector \\(\\vec n=(3;\\,-1;\\,2)\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">Mặt phẳng</b> qua \\(M(1;\\,2;\\,-1)\\), có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"normal vector\">vectơ pháp tuyến</b> \\(\\vec n=(3;\\,-1;\\,2)\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b>…",
+   "options": [
+    "\\(3x-y+2z-1=0\\)",
+    "\\(x+2y-z+1=0\\)",
+    "\\(3x-y+2z+1=0\\)",
+    "\\(3x-y+2z+3=0\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(3(x-1)-1(y-2)+2(z+1)=0\\).",
+   "explain_vi": "Đáp án c. \\(3(x-1)-1(y-2)+2(z+1)=0\\).",
+   "images": [],
+   "id": "1341326f4a8f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "A wall \\((P): x+y-#=#\\) and a floor \\((Q): z=#\\) are perpendicular.",
+   "en": "A wall \\((P): x+y-3=0\\) and a floor \\((Q): z=0\\) are perpendicular.",
+   "vi": "Bức tường \\((P): x+y-3=0\\) và mặt sàn \\((Q): z=0\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"perpendicular\">vuông góc</b> với nhau.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "\\(\\vec n_P\\cdot\\vec n_Q=0\\).",
+   "explain_vi": "\\(\\vec n_P\\cdot\\vec n_Q=0\\).",
+   "images": [],
+   "id": "b527263a8cea",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "\\((P): x-#y+#z+#=#\\) and \\((Q): #x-#y+#z+#=#\\) are parallel.",
+   "en": "\\((P): x-2y+3z+4=0\\) and \\((Q): 2x-4y+6z+1=0\\) are parallel.",
+   "vi": "Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> \\((P): x-2y+3z+4=0\\) và \\((Q): 2x-4y+6z+1=0\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b>.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "\\(\\vec n_Q=2\\vec n_P\\)? yes, and \\(D_Q\\ne kD_P\\).",
+   "explain_vi": "\\(\\vec n_Q=2\\vec n_P\\)? có, và \\(D_Q\\ne kD_P\\).",
+   "images": [],
+   "id": "38ac0fe10963",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "Two parallel shelves lie in the planes \\(#x+y+#z+#=#\\) and \\(#x+y+#z-#=#\\) (unit: dm). Find the distance between them.",
+   "en": "Two parallel shelves lie in the planes \\(2x+y+2z+5=0\\) and \\(2x+y+2z-7=0\\) (unit: dm). Find the distance between them.",
+   "vi": "Hai tấm kệ <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b> nằm trên hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> \\(2x+y+2z+5=0\\) và \\(2x+y+2z-7=0\\) (đơn vị dm). Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">khoảng cách</b> giữa hai tấm kệ.",
+   "options": [],
+   "answer": "4",
+   "explain_en": "\\(d=\\dfrac{|5-(-7)|}{\\sqrt{9}}=4\\).",
+   "explain_vi": "\\(d=\\dfrac{|5-(-7)|}{\\sqrt{9}}=4\\).",
+   "images": [],
+   "id": "424907da4056",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "\\((P): #x-y+#z-#=#\\), \\((Q): mx+#y+#z+#=#\\). Find \\(m\\) so that \\((P)\\perp(Q)\\).",
+   "en": "\\((P): 2x-y+3z-1=0\\), \\((Q): mx+4y+2z+4=0\\). Find \\(m\\) so that \\((P)\\perp(Q)\\).",
+   "vi": "Cho \\((P): 2x-y+3z-1=0\\), \\((Q): mx+4y+2z+4=0\\). Tìm \\(m\\) để \\((P)\\perp(Q)\\).",
+   "options": [],
+   "answer": "-1",
+   "explain_en": "\\(2m+2=0\\Rightarrow m=-1\\).",
+   "explain_vi": "\\(2m+2=0\\Rightarrow m=-1\\).",
+   "images": [],
+   "id": "db8df882f815",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "A normal vector of the plane \\(-x+y+#z-#=#\\) is…",
+   "en": "A normal vector of the plane \\(-x+y+3z-5=0\\) is…",
+   "vi": "Một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"normal vector\">vectơ pháp tuyến</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> \\(-x+y+3z-5=0\\) là…",
+   "options": [
+    "\\((-1;\\,1;\\,-3)\\)",
+    "\\((1;\\,-1;\\,3)\\)",
+    "\\((1;\\,-1;\\,-3)\\)",
+    "\\((-1;\\,1;\\,-5)\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\vec n=(A;B;C)=(-1;\\,1;\\,3)\\); any non-zero multiple, e.g. \\((1;\\,-1;\\,-3)\\), is also a normal vector.",
+   "explain_vi": "Đáp án c. \\(\\vec n=(A;B;C)=(-1;\\,1;\\,3)\\); mọi vectơ \\(k\\vec n\\) (\\(k\\ne0\\)), ví dụ \\((1;\\,-1;\\,-3)\\), cũng là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"normal vector\">vectơ pháp tuyến</b>.",
+   "images": [],
+   "id": "9db3b59293b7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The distance from \\(M(#;\\,#;\\,#)\\) to the plane \\(x-#y-#z+#=#\\) is…",
+   "en": "The distance from \\(M(3;\\,3;\\,0)\\) to the plane \\(x-4y-8z+45=0\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">Khoảng cách</b> từ \\(M(3;\\,3;\\,0)\\) đến <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> \\(x-4y-8z+45=0\\) bằng…",
+   "options": [
+    "\\(4\\)",
+    "\\(36\\)",
+    "\\(\\dfrac{4}{9}\\)",
+    "\\(5\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(d=\\dfrac{|36|}{\\sqrt{81}}=\\dfrac{36}{9}=4\\).",
+   "explain_vi": "Đáp án a. \\(d=\\dfrac{|36|}{\\sqrt{81}}=\\dfrac{36}{9}=4\\).",
+   "images": [],
+   "id": "e5f27219dc8f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The plane through \\(A(-#;#;#)\\), \\(B(#;#;#)\\), \\(C(#;#;#)\\) is…",
+   "en": "The plane through \\(A(-2;0;0)\\), \\(B(0;2;0)\\), \\(C(0;0;1)\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">Mặt phẳng</b> đi qua \\(A(-2;0;0)\\), \\(B(0;2;0)\\), \\(C(0;0;1)\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b>…",
+   "options": [
+    "\\(\\dfrac{x}{-2}+\\dfrac{y}{2}+\\dfrac{z}{1}=1\\)",
+    "\\(\\dfrac{x}{-2}+\\dfrac{y}{2}+\\dfrac{z}{1}=0\\)",
+    "\\(-2x+2y+1z=1\\)",
+    "\\(\\dfrac{x}{2}+\\dfrac{y}{2}+\\dfrac{z}{1}=1\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Intercept form: \\(\\dfrac xa+\\dfrac yb+\\dfrac zc=1\\), i.e. \\(x-y-2z+2=0\\).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intercept form\">Phương trình theo đoạn chắn</b>: \\(\\dfrac xa+\\dfrac yb+\\dfrac zc=1\\), tức \\(x-y-2z+2=0\\).",
+   "images": [],
+   "id": "237b4f91df7b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The plane through \\(M(#;\\,-#;\\,#)\\) with normal vector \\(\\vec n=(-#;\\,#;\\,#)\\) is…",
+   "en": "The plane through \\(M(4;\\,-3;\\,0)\\) with normal vector \\(\\vec n=(-1;\\,4;\\,1)\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">Mặt phẳng</b> đi qua \\(M(4;\\,-3;\\,0)\\) và có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"normal vector\">vectơ pháp tuyến</b> \\(\\vec n=(-1;\\,4;\\,1)\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b>…",
+   "options": [
+    "\\(-x+4y+z+16=0\\)",
+    "\\(4x-3y+16=0\\)",
+    "\\(-x+4y+z+17=0\\)",
+    "\\(-x+4y+z-16=0\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(-1(x-4)+4(y+3)+1(z+0)=0\\iff -x+4y+z+16=0\\).",
+   "explain_vi": "Đáp án a. \\(-1(x-4)+4(y+3)+1(z+0)=0\\iff -x+4y+z+16=0\\).",
+   "images": [],
+   "id": "44d65ab8e9a8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Which point lies on the plane \\(#x-#y+#z+#=#\\)?",
+   "en": "Which point lies on the plane \\(3x-2y+3z+4=0\\)?",
+   "vi": "Điểm nào thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> \\(3x-2y+3z+4=0\\)?",
+   "options": [
+    "\\((4;\\,-1;\\,-1)\\)",
+    "\\((2;\\,4;\\,-2)\\)",
+    "\\((1;\\,-1;\\,-3)\\)",
+    "\\((-2;\\,-2;\\,-3)\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Substitute: \\(3\\cdot1-2\\cdot-1+3\\cdot-3+4=0\\).",
+   "explain_vi": "Đáp án c. Thay tọa độ: \\(3\\cdot1-2\\cdot-1+3\\cdot-3+4=0\\).",
+   "images": [],
+   "id": "bea2e7797437",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\((P): x+#y+z+#=#\\) and \\((Q): #x+my+#z+#=#\\). \\((P)\\parallel(Q)\\) when \\(m=\\)…",
+   "en": "\\((P): x+2y+z+1=0\\) and \\((Q): 2x+my+2z+5=0\\). \\((P)\\parallel(Q)\\) when \\(m=\\)…",
+   "vi": "Cho \\((P): x+2y+z+1=0\\) và \\((Q): 2x+my+2z+5=0\\). \\((P)\\parallel(Q)\\) khi \\(m=\\)…",
+   "options": [
+    "\\(5\\)",
+    "\\(2\\)",
+    "\\(-4\\)",
+    "\\(4\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. The normal vectors must be proportional with ratio \\(2\\): \\(m=2\\cdot2=4\\) (and \\(5\\ne2\\cdot1\\)).",
+   "explain_vi": "Đáp án d. Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"normal vector\">vectơ pháp tuyến</b> phải <b class=\"mbl-term\" tabindex=\"0\" data-en=\"collinear vectors\">cùng phương</b> với <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ratio\">tỉ số</b> \\(2\\): \\(m=2\\cdot2=4\\) (và \\(5\\ne2\\cdot1\\)).",
+   "images": [],
+   "id": "461be722740d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\((P): x+#y+z-#=#\\), \\((Q): mx-y-#z-#=#\\). \\((P)\\perp(Q)\\) when \\(m=\\)…",
+   "en": "\\((P): x+2y+z-2=0\\), \\((Q): mx-y-3z-1=0\\). \\((P)\\perp(Q)\\) when \\(m=\\)…",
+   "vi": "Cho \\((P): x+2y+z-2=0\\), \\((Q): mx-y-3z-1=0\\). \\((P)\\perp(Q)\\) khi \\(m=\\)…",
+   "options": [
+    "\\(5\\)",
+    "\\(6\\)",
+    "\\(3\\)",
+    "\\(-5\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\vec n_1\\cdot\\vec n_2=1m-5=0\\Rightarrow m=5\\).",
+   "explain_vi": "Đáp án a. \\(\\vec n_1\\cdot\\vec n_2=1m-5=0\\Rightarrow m=5\\).",
+   "images": [],
+   "id": "28dd5f69f7df",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\vec u=(#;\\,#;\\,#)\\), \\(\\vec v=(-#;\\,#;\\,#)\\). The vector \\([\\vec u,\\vec v]\\) is…",
+   "en": "\\(\\vec u=(3;\\,4;\\,1)\\), \\(\\vec v=(-1;\\,3;\\,1)\\). The vector \\([\\vec u,\\vec v]\\) is…",
+   "vi": "Cho \\(\\vec u=(3;\\,4;\\,1)\\), \\(\\vec v=(-1;\\,3;\\,1)\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"cross product\">Tích có hướng</b> \\([\\vec u,\\vec v]\\) là…",
+   "options": [
+    "\\((1;\\,-4;\\,13)\\)",
+    "\\((-3;\\,12;\\,1)\\)",
+    "\\((1;\\,4;\\,13)\\)",
+    "\\((-1;\\,4;\\,-13)\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\([\\vec u,\\vec v]=\\left(\\begin{vmatrix}4&1\\\\3&1\\end{vmatrix};\\begin{vmatrix}1&3\\\\1&-1\\end{vmatrix};\\begin{vmatrix}3&4\\\\-1&3\\end{vmatrix}\\right)=(1;\\,-4;\\,13)\\).",
+   "explain_vi": "Đáp án a. \\([\\vec u,\\vec v]=\\left(\\begin{vmatrix}4&1\\\\3&1\\end{vmatrix};\\begin{vmatrix}1&3\\\\1&-1\\end{vmatrix};\\begin{vmatrix}3&4\\\\-1&3\\end{vmatrix}\\right)=(1;\\,-4;\\,13)\\).",
+   "images": [],
+   "id": "e5c2a7464639",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "A solar panel is a flat plate through the corners \\(A(#;\\,#;\\,#)\\), \\(B(#;\\,#;\\,#)\\), \\(C(#;\\,#;\\,#)\\). The equation of its plane is…",
+   "en": "A solar panel is a flat plate through the corners \\(A(2;\\,1;\\,0)\\), \\(B(0;\\,3;\\,1)\\), \\(C(1;\\,0;\\,2)\\). The equation of its plane is…",
+   "vi": "Một tấm pin mặt trời phẳng đi qua ba góc \\(A(2;\\,1;\\,0)\\), \\(B(0;\\,3;\\,1)\\), \\(C(1;\\,0;\\,2)\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">Phương trình</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> chứa tấm pin là…",
+   "options": [
+    "\\(5x+3y+4z+13=0\\)",
+    "\\(5x-3y+4z-13=0\\)",
+    "\\(5x+3y+4z-12=0\\)",
+    "\\(5x+3y+4z-13=0\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\vec n=[\\overrightarrow{AB},\\overrightarrow{AC}]\\) gives \\((5;\\,3;\\,4)\\) (simplified).",
+   "explain_vi": "Đáp án d. \\(\\vec n=[\\overrightarrow{AB},\\overrightarrow{AC}]\\) cho \\((5;\\,3;\\,4)\\) (đã <b class=\"mbl-term\" tabindex=\"0\" data-en=\"simplify\">rút gọn</b>).",
+   "images": [],
+   "id": "c1e3d341aa9e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "The distance from \\(M(#;\\,#;\\,-#)\\) to the plane \\(#x+#y+#z-#=#\\) is…",
+   "en": "The distance from \\(M(0;\\,1;\\,-1)\\) to the plane \\(2x+3y+6z-18=0\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">Khoảng cách</b> từ \\(M(0;\\,1;\\,-1)\\) đến <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> \\(2x+3y+6z-18=0\\) bằng…",
+   "options": [
+    "\\(21\\)",
+    "\\(4\\)",
+    "\\(3\\)",
+    "\\(\\dfrac{3}{7}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\dfrac{|-21|}{\\sqrt{49}}=3\\).",
+   "explain_vi": "Đáp án c. \\(\\dfrac{|-21|}{\\sqrt{49}}=3\\).",
+   "images": [],
+   "id": "1b00b0326453",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "The plane through \\(M(#;\\,-#;\\,#)\\) with normal vector \\(\\vec n=(#;\\,#;\\,-#)\\) is…",
+   "en": "The plane through \\(M(0;\\,-3;\\,2)\\) with normal vector \\(\\vec n=(1;\\,4;\\,-2)\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">Mặt phẳng</b> qua \\(M(0;\\,-3;\\,2)\\), có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"normal vector\">vectơ pháp tuyến</b> \\(\\vec n=(1;\\,4;\\,-2)\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b>…",
+   "options": [
+    "\\(x+4y-2z-16=0\\)",
+    "\\(-3y+2z+16=0\\)",
+    "\\(x+4y-2z+18=0\\)",
+    "\\(x+4y-2z+16=0\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(1(x+0)+4(y+3)-2(z-2)=0\\).",
+   "explain_vi": "Đáp án d. \\(1(x+0)+4(y+3)-2(z-2)=0\\).",
+   "images": [],
+   "id": "23657e5d09d8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "A wall \\((P): #x-y+z=#\\) and a floor \\((Q): x+#y+z+#=#\\) are perpendicular.",
+   "en": "A wall \\((P): 2x-y+z=0\\) and a floor \\((Q): x+2y+z+5=0\\) are perpendicular.",
+   "vi": "Bức tường \\((P): 2x-y+z=0\\) và mặt sàn \\((Q): x+2y+z+5=0\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"perpendicular\">vuông góc</b> với nhau.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "\\(\\vec n_P\\cdot\\vec n_Q=1\\).",
+   "explain_vi": "\\(\\vec n_P\\cdot\\vec n_Q=1\\).",
+   "images": [],
+   "id": "dc38a2e76748",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "\\((P): x+y-z+#=#\\) and \\((Q): -#x-#y+#z-#=#\\) are parallel.",
+   "en": "\\((P): x+y-z+2=0\\) and \\((Q): -3x-3y+3z-6=0\\) are parallel.",
+   "vi": "Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> \\((P): x+y-z+2=0\\) và \\((Q): -3x-3y+3z-6=0\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b>.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "\\(\\vec n_Q=-3\\vec n_P\\)? yes, but \\(D_Q=kD_P\\): the planes coincide.",
+   "explain_vi": "\\(\\vec n_Q=-3\\vec n_P\\)? có, nhưng \\(D_Q=kD_P\\): hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coincide\">trùng nhau</b>.",
+   "images": [],
+   "id": "898ae7dd4ba8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "Two parallel shelves lie in the planes \\(x+#y+#z+#=#\\) and \\(x+#y+#z-#=#\\) (unit: dm). Find the distance between them.",
+   "en": "Two parallel shelves lie in the planes \\(x+2y+2z+4=0\\) and \\(x+2y+2z-5=0\\) (unit: dm). Find the distance between them.",
+   "vi": "Hai tấm kệ <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b> nằm trên hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> \\(x+2y+2z+4=0\\) và \\(x+2y+2z-5=0\\) (đơn vị dm). Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">khoảng cách</b> giữa hai tấm kệ.",
+   "options": [],
+   "answer": "3",
+   "explain_en": "\\(d=\\dfrac{|4-(-5)|}{\\sqrt{9}}=3\\).",
+   "explain_vi": "\\(d=\\dfrac{|4-(-5)|}{\\sqrt{9}}=3\\).",
+   "images": [],
+   "id": "3d4462a85dbe",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "\\((P): #x+#y-z-#=#\\), \\((Q): mx+y+#z+#=#\\). Find \\(m\\) so that \\((P)\\perp(Q)\\).",
+   "en": "\\((P): 3x+2y-z-1=0\\), \\((Q): mx+y+5z+4=0\\). Find \\(m\\) so that \\((P)\\perp(Q)\\).",
+   "vi": "Cho \\((P): 3x+2y-z-1=0\\), \\((Q): mx+y+5z+4=0\\). Tìm \\(m\\) để \\((P)\\perp(Q)\\).",
+   "options": [],
+   "answer": "1",
+   "explain_en": "\\(3m-3=0\\Rightarrow m=1\\).",
+   "explain_vi": "\\(3m-3=0\\Rightarrow m=1\\).",
+   "images": [],
+   "id": "9635b1e891aa",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "A normal vector of the plane \\(#x-#y+#z-#=#\\) is…",
+   "en": "A normal vector of the plane \\(3x-4y+4z-1=0\\) is…",
+   "vi": "Một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"normal vector\">vectơ pháp tuyến</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> \\(3x-4y+4z-1=0\\) là…",
+   "options": [
+    "\\((-4;\\,3;\\,4)\\)",
+    "\\((6;\\,-8;\\,8)\\)",
+    "\\((3;\\,-4;\\,-4)\\)",
+    "\\((3;\\,-4;\\,-1)\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\vec n=(A;B;C)=(3;\\,-4;\\,4)\\); any non-zero multiple, e.g. \\((6;\\,-8;\\,8)\\), is also a normal vector.",
+   "explain_vi": "Đáp án b. \\(\\vec n=(A;B;C)=(3;\\,-4;\\,4)\\); mọi vectơ \\(k\\vec n\\) (\\(k\\ne0\\)), ví dụ \\((6;\\,-8;\\,8)\\), cũng là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"normal vector\">vectơ pháp tuyến</b>.",
+   "images": [],
+   "id": "74bcee8e5d70",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The distance from \\(M(#;\\,-#;\\,-#)\\) to the plane \\(#x+#y-z+#=#\\) is…",
+   "en": "The distance from \\(M(1;\\,-3;\\,-1)\\) to the plane \\(2x+2y-z+9=0\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">Khoảng cách</b> từ \\(M(1;\\,-3;\\,-1)\\) đến <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> \\(2x+2y-z+9=0\\) bằng…",
+   "options": [
+    "\\(\\dfrac{2}{3}\\)",
+    "\\(3\\)",
+    "\\(6\\)",
+    "\\(2\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(d=\\dfrac{|6|}{\\sqrt{9}}=\\dfrac{6}{3}=2\\).",
+   "explain_vi": "Đáp án d. \\(d=\\dfrac{|6|}{\\sqrt{9}}=\\dfrac{6}{3}=2\\).",
+   "images": [],
+   "id": "2fd5f7089565",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The plane through \\(A(#;#;#)\\), \\(B(#;-#;#)\\), \\(C(#;#;-#)\\) is…",
+   "en": "The plane through \\(A(3;0;0)\\), \\(B(0;-2;0)\\), \\(C(0;0;-2)\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">Mặt phẳng</b> đi qua \\(A(3;0;0)\\), \\(B(0;-2;0)\\), \\(C(0;0;-2)\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b>…",
+   "options": [
+    "\\(\\dfrac{x}{3}+\\dfrac{y}{-2}+\\dfrac{z}{-2}=0\\)",
+    "\\(\\dfrac{x}{3}+\\dfrac{y}{-2}+\\dfrac{z}{-2}=1\\)",
+    "\\(3x+-2y+-2z=1\\)",
+    "\\(\\dfrac{x}{-3}+\\dfrac{y}{-2}+\\dfrac{z}{-2}=1\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Intercept form: \\(\\dfrac xa+\\dfrac yb+\\dfrac zc=1\\), i.e. \\(2x-3y-3z-6=0\\).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intercept form\">Phương trình theo đoạn chắn</b>: \\(\\dfrac xa+\\dfrac yb+\\dfrac zc=1\\), tức \\(2x-3y-3z-6=0\\).",
+   "images": [],
+   "id": "600131f55fac",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The plane through \\(M(#;\\,#;\\,#)\\) with normal vector \\(\\vec n=(#;\\,#;\\,#)\\) is…",
+   "en": "The plane through \\(M(0;\\,0;\\,3)\\) with normal vector \\(\\vec n=(2;\\,3;\\,2)\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">Mặt phẳng</b> đi qua \\(M(0;\\,0;\\,3)\\) và có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"normal vector\">vectơ pháp tuyến</b> \\(\\vec n=(2;\\,3;\\,2)\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b>…",
+   "options": [
+    "\\(2x+3y+2z-5=0\\)",
+    "\\(3z-6=0\\)",
+    "\\(2x+3y+2z+6=0\\)",
+    "\\(2x+3y+2z-6=0\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(2(x+0)+3(y+0)+2(z-3)=0\\iff 2x+3y+2z-6=0\\).",
+   "explain_vi": "Đáp án d. \\(2(x+0)+3(y+0)+2(z-3)=0\\iff 2x+3y+2z-6=0\\).",
+   "images": [],
+   "id": "2c153107021e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Which point lies on the plane \\(-#x-y+#z+#=#\\)?",
+   "en": "Which point lies on the plane \\(-4x-y+2z+10=0\\)?",
+   "vi": "Điểm nào thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> \\(-4x-y+2z+10=0\\)?",
+   "options": [
+    "\\((3;\\,-1;\\,0)\\)",
+    "\\((0;\\,2;\\,-3)\\)",
+    "\\((2;\\,2;\\,-2)\\)",
+    "\\((3;\\,2;\\,2)\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Substitute: \\(-4\\cdot3-1\\cdot2+2\\cdot2+10=0\\).",
+   "explain_vi": "Đáp án d. Thay tọa độ: \\(-4\\cdot3-1\\cdot2+2\\cdot2+10=0\\).",
+   "images": [],
+   "id": "074162f81585",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\((P): x+#y-#z-#=#\\), \\((Q): mx-y+#z-#=#\\). \\((P)\\perp(Q)\\) when \\(m=\\)…",
+   "en": "\\((P): x+2y-2z-2=0\\), \\((Q): mx-y+3z-1=0\\). \\((P)\\perp(Q)\\) when \\(m=\\)…",
+   "vi": "Cho \\((P): x+2y-2z-2=0\\), \\((Q): mx-y+3z-1=0\\). \\((P)\\perp(Q)\\) khi \\(m=\\)…",
+   "options": [
+    "\\(9\\)",
+    "\\(-8\\)",
+    "\\(8\\)",
+    "\\(6\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\vec n_1\\cdot\\vec n_2=1m-8=0\\Rightarrow m=8\\).",
+   "explain_vi": "Đáp án c. \\(\\vec n_1\\cdot\\vec n_2=1m-8=0\\Rightarrow m=8\\).",
+   "images": [],
+   "id": "07d550d5a2d8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\((P): x-#y+#z+#=#\\) and \\((Q): #x+my+#z+#=#\\). \\((P)\\parallel(Q)\\) when \\(m=\\)…",
+   "en": "\\((P): x-3y+4z+1=0\\) and \\((Q): 3x+my+12z+5=0\\). \\((P)\\parallel(Q)\\) when \\(m=\\)…",
+   "vi": "Cho \\((P): x-3y+4z+1=0\\) và \\((Q): 3x+my+12z+5=0\\). \\((P)\\parallel(Q)\\) khi \\(m=\\)…",
+   "options": [
+    "\\(-9\\)",
+    "\\(-3\\)",
+    "\\(-8\\)",
+    "\\(9\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. The normal vectors must be proportional with ratio \\(3\\): \\(m=3\\cdot-3=-9\\) (and \\(5\\ne3\\cdot1\\)).",
+   "explain_vi": "Đáp án a. Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"normal vector\">vectơ pháp tuyến</b> phải <b class=\"mbl-term\" tabindex=\"0\" data-en=\"collinear vectors\">cùng phương</b> với <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ratio\">tỉ số</b> \\(3\\): \\(m=3\\cdot-3=-9\\) (và \\(5\\ne3\\cdot1\\)).",
+   "images": [],
+   "id": "90c3252dea2f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\vec u=(#;\\,#;\\,#)\\), \\(\\vec v=(-#;\\,#;\\,#)\\). The vector \\([\\vec u,\\vec v]\\) is…",
+   "en": "\\(\\vec u=(2;\\,1;\\,3)\\), \\(\\vec v=(-2;\\,2;\\,3)\\). The vector \\([\\vec u,\\vec v]\\) is…",
+   "vi": "Cho \\(\\vec u=(2;\\,1;\\,3)\\), \\(\\vec v=(-2;\\,2;\\,3)\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"cross product\">Tích có hướng</b> \\([\\vec u,\\vec v]\\) là…",
+   "options": [
+    "\\((3;\\,12;\\,-6)\\)",
+    "\\((-4;\\,2;\\,9)\\)",
+    "\\((-3;\\,12;\\,6)\\)",
+    "\\((-3;\\,-12;\\,6)\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\([\\vec u,\\vec v]=\\left(\\begin{vmatrix}1&3\\\\2&3\\end{vmatrix};\\begin{vmatrix}3&2\\\\3&-2\\end{vmatrix};\\begin{vmatrix}2&1\\\\-2&2\\end{vmatrix}\\right)=(-3;\\,-12;\\,6)\\).",
+   "explain_vi": "Đáp án d. \\([\\vec u,\\vec v]=\\left(\\begin{vmatrix}1&3\\\\2&3\\end{vmatrix};\\begin{vmatrix}3&2\\\\3&-2\\end{vmatrix};\\begin{vmatrix}2&1\\\\-2&2\\end{vmatrix}\\right)=(-3;\\,-12;\\,6)\\).",
+   "images": [],
+   "id": "9fb4a60ef5c8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "A solar panel is a flat plate through the corners \\(A(#;\\,#;\\,#)\\), \\(B(#;\\,#;\\,#)\\), \\(C(#;\\,#;\\,#)\\). The equation of its plane is…",
+   "en": "A solar panel is a flat plate through the corners \\(A(1;\\,1;\\,1)\\), \\(B(3;\\,2;\\,0)\\), \\(C(0;\\,2;\\,3)\\). The equation of its plane is…",
+   "vi": "Một tấm pin mặt trời phẳng đi qua ba góc \\(A(1;\\,1;\\,1)\\), \\(B(3;\\,2;\\,0)\\), \\(C(0;\\,2;\\,3)\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">Phương trình</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> chứa tấm pin là…",
+   "options": [
+    "\\(x-y+z+1=0\\)",
+    "\\(x+y+z-1=0\\)",
+    "\\(x-y+z=0\\)",
+    "\\(x-y+z-1=0\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\vec n=[\\overrightarrow{AB},\\overrightarrow{AC}]\\) gives \\((1;\\,-1;\\,1)\\) (simplified).",
+   "explain_vi": "Đáp án d. \\(\\vec n=[\\overrightarrow{AB},\\overrightarrow{AC}]\\) cho \\((1;\\,-1;\\,1)\\) (đã <b class=\"mbl-term\" tabindex=\"0\" data-en=\"simplify\">rút gọn</b>).",
+   "images": [],
+   "id": "df7092a14e44",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "The distance from \\(M(#;\\,-#;\\,#)\\) to the plane \\(#x+#y+#z+#=#\\) is…",
+   "en": "The distance from \\(M(2;\\,-1;\\,0)\\) to the plane \\(6x+2y+3z+11=0\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">Khoảng cách</b> từ \\(M(2;\\,-1;\\,0)\\) đến <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> \\(6x+2y+3z+11=0\\) bằng…",
+   "options": [
+    "\\(21\\)",
+    "\\(4\\)",
+    "\\(3\\)",
+    "\\(\\dfrac{3}{7}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\dfrac{|21|}{\\sqrt{49}}=3\\).",
+   "explain_vi": "Đáp án c. \\(\\dfrac{|21|}{\\sqrt{49}}=3\\).",
+   "images": [],
+   "id": "53c52f3855b2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "The plane through \\(M(#;\\,-#;\\,#)\\) with normal vector \\(\\vec n=(-#;\\,#;\\,#)\\) is…",
+   "en": "The plane through \\(M(2;\\,-1;\\,4)\\) with normal vector \\(\\vec n=(-2;\\,5;\\,1)\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">Mặt phẳng</b> qua \\(M(2;\\,-1;\\,4)\\), có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"normal vector\">vectơ pháp tuyến</b> \\(\\vec n=(-2;\\,5;\\,1)\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b>…",
+   "options": [
+    "\\(-2x+5y+z-5=0\\)",
+    "\\(2x-y+4z+5=0\\)",
+    "\\(-2x+5y+z+7=0\\)",
+    "\\(-2x+5y+z+5=0\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(-2(x-2)+5(y+1)+1(z-4)=0\\).",
+   "explain_vi": "Đáp án d. \\(-2(x-2)+5(y+1)+1(z-4)=0\\).",
+   "images": [],
+   "id": "534ba17db96a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "A wall \\((P): x+#z-#=#\\) and a floor \\((Q): #x+#y-z=#\\) are perpendicular.",
+   "en": "A wall \\((P): x+2z-4=0\\) and a floor \\((Q): 2x+3y-z=0\\) are perpendicular.",
+   "vi": "Bức tường \\((P): x+2z-4=0\\) và mặt sàn \\((Q): 2x+3y-z=0\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"perpendicular\">vuông góc</b> với nhau.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "\\(\\vec n_P\\cdot\\vec n_Q=0\\).",
+   "explain_vi": "\\(\\vec n_P\\cdot\\vec n_Q=0\\).",
+   "images": [],
+   "id": "4ed75c959688",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "\\((P): x-y+#z+#=#\\) and \\((Q): #x-y+#z+#=#\\) are parallel.",
+   "en": "\\((P): x-y+2z+3=0\\) and \\((Q): 2x-y+4z+1=0\\) are parallel.",
+   "vi": "Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> \\((P): x-y+2z+3=0\\) và \\((Q): 2x-y+4z+1=0\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b>.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "\\(\\vec n_Q=\\,k\\vec n_P\\)? no.",
+   "explain_vi": "\\(\\vec n_Q=\\,k\\vec n_P\\)? không.",
+   "images": [],
+   "id": "5b6f979c15da",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Two parallel shelves lie in the planes \\(#x+#y+#z+#=#\\) and \\(#x+#y+#z-#=#\\) (unit: dm). Find the distance between them.",
+   "en": "Two parallel shelves lie in the planes \\(4x+4y+2z+9=0\\) and \\(4x+4y+2z-6=0\\) (unit: dm). Find the distance between them.",
+   "vi": "Hai tấm kệ <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b> nằm trên hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> \\(4x+4y+2z+9=0\\) và \\(4x+4y+2z-6=0\\) (đơn vị dm). Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">khoảng cách</b> giữa hai tấm kệ.",
+   "options": [],
+   "answer": "2.5",
+   "explain_en": "\\(d=\\dfrac{|9-(-6)|}{\\sqrt{36}}=\\dfrac{5}{2}\\).",
+   "explain_vi": "\\(d=\\dfrac{|9-(-6)|}{\\sqrt{36}}=\\dfrac{5}{2}\\).",
+   "images": [],
+   "id": "53416d0e8b9c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "\\((P): x-#y+#z-#=#\\), \\((Q): mx+#y+#z+#=#\\). Find \\(m\\) so that \\((P)\\perp(Q)\\).",
+   "en": "\\((P): x-2y+2z-1=0\\), \\((Q): mx+3y+4z+4=0\\). Find \\(m\\) so that \\((P)\\perp(Q)\\).",
+   "vi": "Cho \\((P): x-2y+2z-1=0\\), \\((Q): mx+3y+4z+4=0\\). Tìm \\(m\\) để \\((P)\\perp(Q)\\).",
+   "options": [],
+   "answer": "-2",
+   "explain_en": "\\(1m+2=0\\Rightarrow m=-2\\).",
+   "explain_vi": "\\(1m+2=0\\Rightarrow m=-2\\).",
+   "images": [],
+   "id": "1019d76bb297",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "A normal vector of the plane \\(-#x+#z+#=#\\) is…",
+   "en": "A normal vector of the plane \\(-3x+4z+2=0\\) is…",
+   "vi": "Một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"normal vector\">vectơ pháp tuyến</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> \\(-3x+4z+2=0\\) là…",
+   "options": [
+    "\\((-3;\\,0;\\,2)\\)",
+    "\\((-3;\\,0;\\,-4)\\)",
+    "\\((0;\\,-3;\\,4)\\)",
+    "\\((-9;\\,0;\\,12)\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\vec n=(A;B;C)=(-3;\\,0;\\,4)\\); any non-zero multiple, e.g. \\((-9;\\,0;\\,12)\\), is also a normal vector.",
+   "explain_vi": "Đáp án d. \\(\\vec n=(A;B;C)=(-3;\\,0;\\,4)\\); mọi vectơ \\(k\\vec n\\) (\\(k\\ne0\\)), ví dụ \\((-9;\\,0;\\,12)\\), cũng là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"normal vector\">vectơ pháp tuyến</b>.",
+   "images": [],
+   "id": "e393ae7967f4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The distance from \\(M(#;\\,-#;\\,#)\\) to the plane \\(#x+#y-#z+#=#\\) is…",
+   "en": "The distance from \\(M(0;\\,-3;\\,1)\\) to the plane \\(2x+3y-6z+36=0\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">Khoảng cách</b> từ \\(M(0;\\,-3;\\,1)\\) đến <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> \\(2x+3y-6z+36=0\\) bằng…",
+   "options": [
+    "\\(4\\)",
+    "\\(21\\)",
+    "\\(3\\)",
+    "\\(\\dfrac{3}{7}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(d=\\dfrac{|21|}{\\sqrt{49}}=\\dfrac{21}{7}=3\\).",
+   "explain_vi": "Đáp án c. \\(d=\\dfrac{|21|}{\\sqrt{49}}=\\dfrac{21}{7}=3\\).",
+   "images": [],
+   "id": "75dbe6377260",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The plane through \\(A(#;#;#)\\), \\(B(#;#;#)\\), \\(C(#;#;#)\\) is…",
+   "en": "The plane through \\(A(2;0;0)\\), \\(B(0;2;0)\\), \\(C(0;0;3)\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">Mặt phẳng</b> đi qua \\(A(2;0;0)\\), \\(B(0;2;0)\\), \\(C(0;0;3)\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b>…",
+   "options": [
+    "\\(\\dfrac{x}{-2}+\\dfrac{y}{2}+\\dfrac{z}{3}=1\\)",
+    "\\(\\dfrac{x}{2}+\\dfrac{y}{2}+\\dfrac{z}{3}=0\\)",
+    "\\(\\dfrac{x}{2}+\\dfrac{y}{2}+\\dfrac{z}{3}=1\\)",
+    "\\(2x+2y+3z=1\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Intercept form: \\(\\dfrac xa+\\dfrac yb+\\dfrac zc=1\\), i.e. \\(3x+3y+2z-6=0\\).",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intercept form\">Phương trình theo đoạn chắn</b>: \\(\\dfrac xa+\\dfrac yb+\\dfrac zc=1\\), tức \\(3x+3y+2z-6=0\\).",
+   "images": [],
+   "id": "824e5a68e3d3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The plane through \\(M(-#;\\,#;\\,#)\\) with normal vector \\(\\vec n=(-#;\\,-#;\\,-#)\\) is…",
+   "en": "The plane through \\(M(-2;\\,1;\\,3)\\) with normal vector \\(\\vec n=(-4;\\,-1;\\,-1)\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">Mặt phẳng</b> đi qua \\(M(-2;\\,1;\\,3)\\) và có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"normal vector\">vectơ pháp tuyến</b> \\(\\vec n=(-4;\\,-1;\\,-1)\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b>…",
+   "options": [
+    "\\(-4x-y-z-4=0\\)",
+    "\\(-2x+y+3z-4=0\\)",
+    "\\(-4x-y-z-3=0\\)",
+    "\\(-4x-y-z+4=0\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(-4(x+2)-1(y-1)-1(z-3)=0\\iff -4x-y-z-4=0\\).",
+   "explain_vi": "Đáp án a. \\(-4(x+2)-1(y-1)-1(z-3)=0\\iff -4x-y-z-4=0\\).",
+   "images": [],
+   "id": "4686f0701002",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Which point lies on the plane \\(-#x-#y+z-#=#\\)?",
+   "en": "Which point lies on the plane \\(-4x-3y+z-8=0\\)?",
+   "vi": "Điểm nào thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> \\(-4x-3y+z-8=0\\)?",
+   "options": [
+    "\\((0;\\,-3;\\,-3)\\)",
+    "\\((1;\\,0;\\,-1)\\)",
+    "\\((1;\\,-3;\\,-2)\\)",
+    "\\((-1;\\,-1;\\,1)\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Substitute: \\(-4\\cdot-1-3\\cdot-1+1\\cdot1-8=0\\).",
+   "explain_vi": "Đáp án d. Thay tọa độ: \\(-4\\cdot-1-3\\cdot-1+1\\cdot1-8=0\\).",
+   "images": [],
+   "id": "abfbefc7c1f5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\((P): #x-y+z-#=#\\), \\((Q): mx+#y+#z-#=#\\). \\((P)\\perp(Q)\\) when \\(m=\\)…",
+   "en": "\\((P): 3x-y+z-2=0\\), \\((Q): mx+2y+2z-1=0\\). \\((P)\\perp(Q)\\) when \\(m=\\)…",
+   "vi": "Cho \\((P): 3x-y+z-2=0\\), \\((Q): mx+2y+2z-1=0\\). \\((P)\\perp(Q)\\) khi \\(m=\\)…",
+   "options": [
+    "\\(3\\)",
+    "\\(1\\)",
+    "\\(-2\\)",
+    "\\(0\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\vec n_1\\cdot\\vec n_2=3m+0=0\\Rightarrow m=0\\).",
+   "explain_vi": "Đáp án d. \\(\\vec n_1\\cdot\\vec n_2=3m+0=0\\Rightarrow m=0\\).",
+   "images": [],
+   "id": "21954c0fc2b7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\((P): x+#y+#z+#=#\\) and \\((Q): mx+#y+#z+#=#\\). \\((P)\\parallel(Q)\\) when \\(m=\\)…",
+   "en": "\\((P): x+2y+4z+1=0\\) and \\((Q): mx+6y+12z+5=0\\). \\((P)\\parallel(Q)\\) when \\(m=\\)…",
+   "vi": "Cho \\((P): x+2y+4z+1=0\\) và \\((Q): mx+6y+12z+5=0\\). \\((P)\\parallel(Q)\\) khi \\(m=\\)…",
+   "options": [
+    "\\(1\\)",
+    "\\(3\\)",
+    "\\(4\\)",
+    "\\(-3\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. The normal vectors must be proportional with ratio \\(3\\): \\(m=3\\cdot1=3\\) (and \\(5\\ne3\\cdot1\\)).",
+   "explain_vi": "Đáp án b. Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"normal vector\">vectơ pháp tuyến</b> phải <b class=\"mbl-term\" tabindex=\"0\" data-en=\"collinear vectors\">cùng phương</b> với <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ratio\">tỉ số</b> \\(3\\): \\(m=3\\cdot1=3\\) (và \\(5\\ne3\\cdot1\\)).",
+   "images": [],
+   "id": "aa59795f502f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\vec u=(#;\\,-#;\\,#)\\), \\(\\vec v=(#;\\,-#;\\,#)\\). The vector \\([\\vec u,\\vec v]\\) is…",
+   "en": "\\(\\vec u=(2;\\,-2;\\,3)\\), \\(\\vec v=(0;\\,-4;\\,2)\\). The vector \\([\\vec u,\\vec v]\\) is…",
+   "vi": "Cho \\(\\vec u=(2;\\,-2;\\,3)\\), \\(\\vec v=(0;\\,-4;\\,2)\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"cross product\">Tích có hướng</b> \\([\\vec u,\\vec v]\\) là…",
+   "options": [
+    "\\((-8;\\,4;\\,8)\\)",
+    "\\((8;\\,-4;\\,-8)\\)",
+    "\\((0;\\,8;\\,6)\\)",
+    "\\((8;\\,4;\\,-8)\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\([\\vec u,\\vec v]=\\left(\\begin{vmatrix}-2&3\\\\-4&2\\end{vmatrix};\\begin{vmatrix}3&2\\\\2&0\\end{vmatrix};\\begin{vmatrix}2&-2\\\\0&-4\\end{vmatrix}\\right)=(8;\\,-4;\\,-8)\\).",
+   "explain_vi": "Đáp án b. \\([\\vec u,\\vec v]=\\left(\\begin{vmatrix}-2&3\\\\-4&2\\end{vmatrix};\\begin{vmatrix}3&2\\\\2&0\\end{vmatrix};\\begin{vmatrix}2&-2\\\\0&-4\\end{vmatrix}\\right)=(8;\\,-4;\\,-8)\\).",
+   "images": [],
+   "id": "a6d09e270630",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  }
+ ]
+}

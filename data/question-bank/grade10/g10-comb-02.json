@@ -1,0 +1,1101 @@
+{
+ "lesson": "g10-comb-02",
+ "grade": 10,
+ "no": 24,
+ "title": "Hoán vị, chỉnh hợp và tổ hợp",
+ "path": "lessons/grade10/combinatorics/permutations-combinations.html",
+ "items": [
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "From # candidates choose # people for # different posts. Number of ways?",
+   "en": "From 10 candidates choose 3 people for 3 different posts. Number of ways?",
+   "vi": "Từ 10 ứng viên chọn 3 người vào 3 chức vụ khác nhau. Số cách là…",
+   "options": [
+    "\\(A_{10}^{3}=720\\)",
+    "\\(C_{10}^{3}=120\\)",
+    "\\(10^{3}=1000\\)",
+    "\\(3!=6\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Order matters.",
+   "explain_vi": "Đáp án a. Có phân biệt chức vụ (có thứ tự): <b class=\"mbl-term\" tabindex=\"0\" data-en=\"arrangement (k-permutation)\">chỉnh hợp</b>.",
+   "images": [],
+   "id": "d14a0b9c40e5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "From # students choose a group of #. Number of ways?",
+   "en": "From 12 students choose a group of 4. Number of ways?",
+   "vi": "Từ 12 học sinh chọn một nhóm 4 bạn. Số cách là…",
+   "options": [
+    "\\(A_{12}^{4}=11880\\)",
+    "\\(12!=479001600\\)",
+    "\\(4^{12}=16777216\\)",
+    "\\(C_{12}^{4}=495\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. No order.",
+   "explain_vi": "Đáp án d. Không kể thứ tự: <b class=\"mbl-term\" tabindex=\"0\" data-en=\"combination\">tổ hợp</b>.",
+   "images": [],
+   "id": "753154f8e45f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "In how many ways can # people stand in a queue?",
+   "en": "In how many ways can 6 people stand in a queue?",
+   "vi": "Có bao nhiêu cách xếp 6 người thành một hàng dọc?",
+   "options": [
+    "\\(36\\)",
+    "\\(120\\)",
+    "\\(720\\)",
+    "\\(64\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(P_{6}=6!\\).",
+   "explain_vi": "Đáp án c. \\(P_{6}=6!=720\\).",
+   "images": [],
+   "id": "d1a6dd87d916",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "A convex polygon with # sides has # diagonals.",
+   "en": "A convex polygon with 6 sides has 9 diagonals.",
+   "vi": "Đa giác lồi 6 cạnh có 9 <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b>.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "\\(C_{6}^2-6=9\\).",
+   "explain_vi": "\\(C_{6}^2-6=9\\).",
+   "images": [],
+   "id": "586ddb8bdbf1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(C_{#}^#=C_{#}^#\\).",
+   "en": "\\(C_{10}^3=C_{10}^7\\).",
+   "vi": "\\(C_{10}^3=C_{10}^7\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "Compute both sides.",
+   "explain_vi": "Tính hai vế để kiểm tra.",
+   "images": [],
+   "id": "52c1f01b0b39",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "A class has # boys and # girls. How many ways to choose # boys and # girls?",
+   "en": "A class has 8 boys and 6 girls. How many ways to choose 2 boys and 1 girls?",
+   "vi": "Một lớp có 8 nam, 6 nữ. Có bao nhiêu cách chọn 2 nam và 1 nữ?",
+   "options": [],
+   "answer": "168",
+   "explain_en": "\\(C_{8}^{2}\\cdot C_{6}^{1}\\).",
+   "explain_vi": "\\(C_{8}^{2}\\cdot C_{6}^{1}=168\\).",
+   "images": [],
+   "id": "df29e2c96cc2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "A lottery ticket picks # numbers from # to # (order not important). How many tickets are there?",
+   "en": "A lottery ticket picks 5 numbers from 1 to 35 (order not important). How many tickets are there?",
+   "vi": "Mỗi vé xổ số chọn 5 số từ 1 đến 35 (không kể thứ tự). Có bao nhiêu vé khác nhau?",
+   "options": [],
+   "answer": "324632",
+   "explain_en": "\\(C_{35}^{5}\\).",
+   "explain_vi": "Không kể thứ tự: \\(C_{35}^{5}=324632\\).",
+   "images": [],
+   "id": "84742f2d16ea",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "# friends, including An and Bình, sit on a bench. In how many ways can they sit so that An and Bình are next to each other?",
+   "en": "7 friends, including An and Bình, sit on a bench. In how many ways can they sit so that An and Bình are next to each other?",
+   "vi": "7 bạn, trong đó có An và Bình, ngồi trên một băng ghế dài. Có bao nhiêu cách xếp để An và Bình ngồi cạnh nhau?",
+   "options": [
+    "\\(5040\\)",
+    "\\(1440\\)",
+    "\\(720\\)",
+    "\\(3600\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Glue An–Bình into one block: \\(2\\cdot(7-1)!\\).",
+   "explain_vi": "Đáp án b. Coi An–Bình là một \"khối\": \\((7-1)!\\) cách xếp, khối có 2 cách đổi chỗ: \\(2\\cdot6!=1440\\).",
+   "images": [],
+   "id": "b2453ffce8d9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "# points lie in a plane, no three collinear. How many triangles have their vertices among these points?",
+   "en": "11 points lie in a plane, no three collinear. How many triangles have their vertices among these points?",
+   "vi": "Cho 11 điểm trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b>, không có ba điểm nào <b class=\"mbl-term\" tabindex=\"0\" data-en=\"collinear\">thẳng hàng</b>. Có bao nhiêu tam giác có ba đỉnh là ba trong các điểm đó?",
+   "options": [
+    "\\(990\\)",
+    "\\(1331\\)",
+    "\\(165\\)",
+    "\\(55\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(C_{11}^3\\).",
+   "explain_vi": "Đáp án c. Mỗi tam giác ứng với một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"combination\">tổ hợp</b> chập 3: \\(C_{11}^3=165\\).",
+   "images": [],
+   "id": "451b07e90eb5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "A class has # boys and # girls. Choose a team of # boys and # girls. How many teams?",
+   "en": "A class has 10 boys and 7 girls. Choose a team of 2 boys and 1 girls. How many teams?",
+   "vi": "Một lớp có 10 nam và 7 nữ. Chọn một đội gồm 2 nam và 1 nữ. Có bao nhiêu cách?",
+   "options": [
+    "\\(52\\)",
+    "\\(630\\)",
+    "\\(315\\)",
+    "\\(680\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(C_{10}^{2}\\cdot C_{7}^{1}\\).",
+   "explain_vi": "Đáp án c. Chọn nam rồi chọn nữ (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"rule of product\">quy tắc nhân</b>): \\(C_{10}^{2}\\cdot C_{7}^{1}=315\\).",
+   "images": [],
+   "id": "cd9690d58093",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "A club of # members elects a president, a vice-president and a secretary (different people). How many results are possible?",
+   "en": "A club of 13 members elects a president, a vice-president and a secretary (different people). How many results are possible?",
+   "vi": "Một câu lạc bộ có 13 thành viên bầu một chủ nhiệm, một phó chủ nhiệm và một thư kí (ba người khác nhau). Có bao nhiêu kết quả?",
+   "options": [
+    "\\(286\\)",
+    "\\(39\\)",
+    "\\(2197\\)",
+    "\\(1716\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Order matters: \\(A_{13}^3\\).",
+   "explain_vi": "Đáp án d. Có phân biệt chức vụ (có thứ tự): \\(A_{13}^3=13\\cdot12\\cdot11=1716\\).",
+   "images": [],
+   "id": "3ca22e1ed213",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "A teacher chooses # students out of # to clean the classroom. How many choices are there?",
+   "en": "A teacher chooses 3 students out of 10 to clean the classroom. How many choices are there?",
+   "vi": "Giáo viên chọn 3 học sinh trong 10 học sinh để trực nhật. Có bao nhiêu cách chọn?",
+   "options": [
+    "\\(720\\)",
+    "\\(120\\)",
+    "\\(1000\\)",
+    "\\(45\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. No order: \\(C_{10}^{3}\\).",
+   "explain_vi": "Đáp án b. Không phân biệt thứ tự: \\(C_{10}^{3}=120\\).",
+   "images": [],
+   "id": "135d6c19a7d7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "At a meeting # people shake hands, each pair once. How many handshakes are there?",
+   "en": "At a meeting 8 people shake hands, each pair once. How many handshakes are there?",
+   "vi": "Trong một buổi gặp mặt có 8 người, mỗi hai người bắt tay nhau đúng một lần. Có bao nhiêu cái bắt tay?",
+   "options": [
+    "\\(28\\)",
+    "\\(56\\)",
+    "\\(64\\)",
+    "\\(36\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(C_{8}^2\\).",
+   "explain_vi": "Đáp án a. Mỗi cái bắt tay ứng với một cặp không thứ tự: \\(C_{8}^2=28\\).",
+   "images": [],
+   "id": "679c9f46d51d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "From # boys and # girls choose # students with \\lt b\\gt at least one girl\\lt /b\\gt . How many ways?",
+   "en": "From 5 boys and 8 girls choose 4 students with \\lt b\\gt at least one girl\\lt /b\\gt . How many ways?",
+   "vi": "Từ 5 nam và 8 nữ, chọn 4 học sinh trong đó \\lt b\\gt có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"at least one\">ít nhất một</b> nữ\\lt /b\\gt . Có bao nhiêu cách?",
+   "options": [
+    "\\(710\\)",
+    "\\(80\\)",
+    "\\(715\\)",
+    "\\(1760\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Complement: all choices minus all-boy choices.",
+   "explain_vi": "Đáp án a. Dùng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"complement\">phần bù</b>: \\(C_{13}^{4}-C_{5}^{4}=710\\).",
+   "images": [],
+   "id": "c1a3f30ae395",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "How many diagonals does a convex polygon with # sides have?",
+   "en": "How many diagonals does a convex polygon with 11 sides have?",
+   "vi": "Một đa giác lồi 11 cạnh có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b>?",
+   "options": [
+    "\\(99\\)",
+    "\\(44\\)",
+    "\\(55\\)",
+    "\\(88\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Segments joining two vertices minus the sides.",
+   "explain_vi": "Đáp án b. Số đoạn nối hai đỉnh trừ số cạnh: \\(C_{11}^2-11=44\\).",
+   "images": [],
+   "id": "84a6d59332d4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "In how many ways can # students stand in a row for a photo?",
+   "en": "In how many ways can 8 students stand in a row for a photo?",
+   "vi": "Có bao nhiêu cách xếp 8 học sinh đứng thành một hàng ngang để chụp ảnh?",
+   "options": [
+    "\\(40320\\)",
+    "\\(16777216\\)",
+    "\\(5040\\)",
+    "\\(64\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. A permutation of 8 elements: \\(8!\\).",
+   "explain_vi": "Đáp án a. Mỗi cách xếp là một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"permutation\">hoán vị</b> của 8 <b class=\"mbl-term\" tabindex=\"0\" data-en=\"element\">phần tử</b>: \\(P_{8}=8!=40320\\).",
+   "images": [],
+   "id": "dec8c56cf44c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "From # candidates choose # people for # different posts. Number of ways?",
+   "en": "From 12 candidates choose 2 people for 2 different posts. Number of ways?",
+   "vi": "Từ 12 ứng viên chọn 2 người vào 2 chức vụ khác nhau. Số cách là…",
+   "options": [
+    "\\(A_{12}^{2}=132\\)",
+    "\\(C_{12}^{2}=66\\)",
+    "\\(12^{2}=144\\)",
+    "\\(2!=2\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Order matters.",
+   "explain_vi": "Đáp án a. Có phân biệt chức vụ (có thứ tự): <b class=\"mbl-term\" tabindex=\"0\" data-en=\"arrangement (k-permutation)\">chỉnh hợp</b>.",
+   "images": [],
+   "id": "65c22d923d68",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "From # students choose a group of #. Number of ways?",
+   "en": "From 15 students choose a group of 3. Number of ways?",
+   "vi": "Từ 15 học sinh chọn một nhóm 3 bạn. Số cách là…",
+   "options": [
+    "\\(A_{15}^{3}=2730\\)",
+    "\\(15!=1307674368000\\)",
+    "\\(3^{15}=14348907\\)",
+    "\\(C_{15}^{3}=455\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. No order.",
+   "explain_vi": "Đáp án d. Không kể thứ tự: <b class=\"mbl-term\" tabindex=\"0\" data-en=\"combination\">tổ hợp</b>.",
+   "images": [],
+   "id": "bd7392ff7da4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "In how many ways can # people stand in a queue?",
+   "en": "In how many ways can 7 people stand in a queue?",
+   "vi": "Có bao nhiêu cách xếp 7 người thành một hàng dọc?",
+   "options": [
+    "\\(49\\)",
+    "\\(720\\)",
+    "\\(128\\)",
+    "\\(5040\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(P_{7}=7!\\).",
+   "explain_vi": "Đáp án d. \\(P_{7}=7!=5040\\).",
+   "images": [],
+   "id": "518c6a71cf38",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "A convex polygon with # sides has # diagonals.",
+   "en": "A convex polygon with 8 sides has 24 diagonals.",
+   "vi": "Đa giác lồi 8 cạnh có 24 <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b>.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "\\(C_{8}^2-8=20\\).",
+   "explain_vi": "\\(C_{8}^2-8=20\\).",
+   "images": [],
+   "id": "6e5aa45e06ae",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(A_#^#=C_#^#\\).",
+   "en": "\\(A_8^2=C_8^2\\).",
+   "vi": "\\(A_8^2=C_8^2\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "Compute both sides.",
+   "explain_vi": "Tính hai vế để kiểm tra.",
+   "images": [],
+   "id": "685ed71fbd05",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "A class has # boys and # girls. How many ways to choose # boys and # girls?",
+   "en": "A class has 10 boys and 7 girls. How many ways to choose 1 boys and 2 girls?",
+   "vi": "Một lớp có 10 nam, 7 nữ. Có bao nhiêu cách chọn 1 nam và 2 nữ?",
+   "options": [],
+   "answer": "210",
+   "explain_en": "\\(C_{10}^{1}\\cdot C_{7}^{2}\\).",
+   "explain_vi": "\\(C_{10}^{1}\\cdot C_{7}^{2}=210\\).",
+   "images": [],
+   "id": "44da0af87fdf",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "A league has # teams; every two teams play exactly one match. How many matches?",
+   "en": "A league has 20 teams; every two teams play exactly one match. How many matches?",
+   "vi": "Một giải đấu có 20 đội, mỗi hai đội gặp nhau đúng một trận. Có bao nhiêu trận?",
+   "options": [],
+   "answer": "190",
+   "explain_en": "\\(C_{20}^{2}\\).",
+   "explain_vi": "Không kể thứ tự: \\(C_{20}^{2}=190\\).",
+   "images": [],
+   "id": "bcadfa40600e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "# friends, including An and Bình, sit on a bench. In how many ways can they sit so that An and Bình are next to each other?",
+   "en": "5 friends, including An and Bình, sit on a bench. In how many ways can they sit so that An and Bình are next to each other?",
+   "vi": "5 bạn, trong đó có An và Bình, ngồi trên một băng ghế dài. Có bao nhiêu cách xếp để An và Bình ngồi cạnh nhau?",
+   "options": [
+    "\\(120\\)",
+    "\\(24\\)",
+    "\\(72\\)",
+    "\\(48\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Glue An–Bình into one block: \\(2\\cdot(5-1)!\\).",
+   "explain_vi": "Đáp án d. Coi An–Bình là một \"khối\": \\((5-1)!\\) cách xếp, khối có 2 cách đổi chỗ: \\(2\\cdot4!=48\\).",
+   "images": [],
+   "id": "6a0a50a9db4b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "# points lie in a plane, no three collinear. How many triangles have their vertices among these points?",
+   "en": "12 points lie in a plane, no three collinear. How many triangles have their vertices among these points?",
+   "vi": "Cho 12 điểm trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b>, không có ba điểm nào <b class=\"mbl-term\" tabindex=\"0\" data-en=\"collinear\">thẳng hàng</b>. Có bao nhiêu tam giác có ba đỉnh là ba trong các điểm đó?",
+   "options": [
+    "\\(1728\\)",
+    "\\(220\\)",
+    "\\(1320\\)",
+    "\\(66\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(C_{12}^3\\).",
+   "explain_vi": "Đáp án b. Mỗi tam giác ứng với một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"combination\">tổ hợp</b> chập 3: \\(C_{12}^3=220\\).",
+   "images": [],
+   "id": "33666cdebaa3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "A class has # boys and # girls. Choose a team of # boys and # girls. How many teams?",
+   "en": "A class has 8 boys and 5 girls. Choose a team of 3 boys and 1 girls. How many teams?",
+   "vi": "Một lớp có 8 nam và 5 nữ. Chọn một đội gồm 3 nam và 1 nữ. Có bao nhiêu cách?",
+   "options": [
+    "\\(280\\)",
+    "\\(715\\)",
+    "\\(1680\\)",
+    "\\(61\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(C_{8}^{3}\\cdot C_{5}^{1}\\).",
+   "explain_vi": "Đáp án a. Chọn nam rồi chọn nữ (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"rule of product\">quy tắc nhân</b>): \\(C_{8}^{3}\\cdot C_{5}^{1}=280\\).",
+   "images": [],
+   "id": "25b6b2d2fb6a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "A club of # members elects a president, a vice-president and a secretary (different people). How many results are possible?",
+   "en": "A club of 9 members elects a president, a vice-president and a secretary (different people). How many results are possible?",
+   "vi": "Một câu lạc bộ có 9 thành viên bầu một chủ nhiệm, một phó chủ nhiệm và một thư kí (ba người khác nhau). Có bao nhiêu kết quả?",
+   "options": [
+    "\\(729\\)",
+    "\\(84\\)",
+    "\\(504\\)",
+    "\\(27\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Order matters: \\(A_{9}^3\\).",
+   "explain_vi": "Đáp án c. Có phân biệt chức vụ (có thứ tự): \\(A_{9}^3=9\\cdot8\\cdot7=504\\).",
+   "images": [],
+   "id": "b2f78055a5c1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "A teacher chooses # students out of # to clean the classroom. How many choices are there?",
+   "en": "A teacher chooses 3 students out of 14 to clean the classroom. How many choices are there?",
+   "vi": "Giáo viên chọn 3 học sinh trong 14 học sinh để trực nhật. Có bao nhiêu cách chọn?",
+   "options": [
+    "\\(91\\)",
+    "\\(2184\\)",
+    "\\(2744\\)",
+    "\\(364\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. No order: \\(C_{14}^{3}\\).",
+   "explain_vi": "Đáp án d. Không phân biệt thứ tự: \\(C_{14}^{3}=364\\).",
+   "images": [],
+   "id": "d1cd94095258",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "At a meeting # people shake hands, each pair once. How many handshakes are there?",
+   "en": "At a meeting 21 people shake hands, each pair once. How many handshakes are there?",
+   "vi": "Trong một buổi gặp mặt có 21 người, mỗi hai người bắt tay nhau đúng một lần. Có bao nhiêu cái bắt tay?",
+   "options": [
+    "\\(210\\)",
+    "\\(441\\)",
+    "\\(231\\)",
+    "\\(420\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(C_{21}^2\\).",
+   "explain_vi": "Đáp án a. Mỗi cái bắt tay ứng với một cặp không thứ tự: \\(C_{21}^2=210\\).",
+   "images": [],
+   "id": "5667c82327e8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "From # boys and # girls choose # students with \\lt b\\gt at least one girl\\lt /b\\gt . How many ways?",
+   "en": "From 7 boys and 3 girls choose 3 students with \\lt b\\gt at least one girl\\lt /b\\gt . How many ways?",
+   "vi": "Từ 7 nam và 3 nữ, chọn 3 học sinh trong đó \\lt b\\gt có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"at least one\">ít nhất một</b> nữ\\lt /b\\gt . Có bao nhiêu cách?",
+   "options": [
+    "\\(63\\)",
+    "\\(108\\)",
+    "\\(85\\)",
+    "\\(120\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Complement: all choices minus all-boy choices.",
+   "explain_vi": "Đáp án c. Dùng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"complement\">phần bù</b>: \\(C_{10}^{3}-C_{7}^{3}=85\\).",
+   "images": [],
+   "id": "7ccb42d9c517",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "How many diagonals does a convex polygon with # sides have?",
+   "en": "How many diagonals does a convex polygon with 6 sides have?",
+   "vi": "Một đa giác lồi 6 cạnh có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b>?",
+   "options": [
+    "\\(9\\)",
+    "\\(24\\)",
+    "\\(18\\)",
+    "\\(15\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Segments joining two vertices minus the sides.",
+   "explain_vi": "Đáp án a. Số đoạn nối hai đỉnh trừ số cạnh: \\(C_{6}^2-6=9\\).",
+   "images": [],
+   "id": "bed8c45276bf",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "In how many ways can # students stand in a row for a photo?",
+   "en": "In how many ways can 7 students stand in a row for a photo?",
+   "vi": "Có bao nhiêu cách xếp 7 học sinh đứng thành một hàng ngang để chụp ảnh?",
+   "options": [
+    "\\(720\\)",
+    "\\(5040\\)",
+    "\\(49\\)",
+    "\\(823543\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. A permutation of 7 elements: \\(7!\\).",
+   "explain_vi": "Đáp án b. Mỗi cách xếp là một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"permutation\">hoán vị</b> của 7 <b class=\"mbl-term\" tabindex=\"0\" data-en=\"element\">phần tử</b>: \\(P_{7}=7!=5040\\).",
+   "images": [],
+   "id": "9782195ed739",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "From # candidates choose # people for # different posts. Number of ways?",
+   "en": "From 9 candidates choose 4 people for 4 different posts. Number of ways?",
+   "vi": "Từ 9 ứng viên chọn 4 người vào 4 chức vụ khác nhau. Số cách là…",
+   "options": [
+    "\\(A_{9}^{4}=3024\\)",
+    "\\(C_{9}^{4}=126\\)",
+    "\\(9^{4}=6561\\)",
+    "\\(4!=24\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Order matters.",
+   "explain_vi": "Đáp án a. Có phân biệt chức vụ (có thứ tự): <b class=\"mbl-term\" tabindex=\"0\" data-en=\"arrangement (k-permutation)\">chỉnh hợp</b>.",
+   "images": [],
+   "id": "b5ccc6c1c3a9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "From # students choose a group of #. Number of ways?",
+   "en": "From 14 students choose a group of 5. Number of ways?",
+   "vi": "Từ 14 học sinh chọn một nhóm 5 bạn. Số cách là…",
+   "options": [
+    "\\(C_{14}^{5}=2002\\)",
+    "\\(A_{14}^{5}=240240\\)",
+    "\\(14!=87178291200\\)",
+    "\\(5^{14}=6103515625\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. No order.",
+   "explain_vi": "Đáp án a. Không kể thứ tự: <b class=\"mbl-term\" tabindex=\"0\" data-en=\"combination\">tổ hợp</b>.",
+   "images": [],
+   "id": "efc653d85cee",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "In how many ways can # people stand in a queue?",
+   "en": "In how many ways can 5 people stand in a queue?",
+   "vi": "Có bao nhiêu cách xếp 5 người thành một hàng dọc?",
+   "options": [
+    "\\(25\\)",
+    "\\(24\\)",
+    "\\(120\\)",
+    "\\(32\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(P_{5}=5!\\).",
+   "explain_vi": "Đáp án c. \\(P_{5}=5!=120\\).",
+   "images": [],
+   "id": "7f686ca5b302",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "A convex polygon with # sides has # diagonals.",
+   "en": "A convex polygon with 10 sides has 35 diagonals.",
+   "vi": "Đa giác lồi 10 cạnh có 35 <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b>.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "\\(C_{10}^2-10=35\\).",
+   "explain_vi": "\\(C_{10}^2-10=35\\).",
+   "images": [],
+   "id": "65752e66119b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(A_#^#=#!\\cdot C_#^#\\).",
+   "en": "\\(A_7^3=3!\\cdot C_7^3\\).",
+   "vi": "\\(A_7^3=3!\\cdot C_7^3\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "Compute both sides.",
+   "explain_vi": "Tính hai vế để kiểm tra.",
+   "images": [],
+   "id": "d84045373e1b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "A class has # boys and # girls. How many ways to choose # boys and # girls?",
+   "en": "A class has 9 boys and 8 girls. How many ways to choose 2 boys and 2 girls?",
+   "vi": "Một lớp có 9 nam, 8 nữ. Có bao nhiêu cách chọn 2 nam và 2 nữ?",
+   "options": [],
+   "answer": "1008",
+   "explain_en": "\\(C_{9}^{2}\\cdot C_{8}^{2}\\).",
+   "explain_vi": "\\(C_{9}^{2}\\cdot C_{8}^{2}=1008\\).",
+   "images": [],
+   "id": "125d4c7e63a1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "A test takes # questions from a bank of # (order not important). How many different tests?",
+   "en": "A test takes 3 questions from a bank of 30 (order not important). How many different tests?",
+   "vi": "Một đề kiểm tra lấy 3 câu từ ngân hàng 30 câu (không kể thứ tự). Có bao nhiêu đề khác nhau?",
+   "options": [],
+   "answer": "4060",
+   "explain_en": "\\(C_{30}^{3}\\).",
+   "explain_vi": "Không kể thứ tự: \\(C_{30}^{3}=4060\\).",
+   "images": [],
+   "id": "5ffbb4abbc3f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "# friends, including An and Bình, sit on a bench. In how many ways can they sit so that An and Bình are next to each other?",
+   "en": "8 friends, including An and Bình, sit on a bench. In how many ways can they sit so that An and Bình are next to each other?",
+   "vi": "8 bạn, trong đó có An và Bình, ngồi trên một băng ghế dài. Có bao nhiêu cách xếp để An và Bình ngồi cạnh nhau?",
+   "options": [
+    "\\(5040\\)",
+    "\\(30240\\)",
+    "\\(10080\\)",
+    "\\(40320\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Glue An–Bình into one block: \\(2\\cdot(8-1)!\\).",
+   "explain_vi": "Đáp án c. Coi An–Bình là một \"khối\": \\((8-1)!\\) cách xếp, khối có 2 cách đổi chỗ: \\(2\\cdot7!=10080\\).",
+   "images": [],
+   "id": "89cbf542c872",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "# points lie in a plane, no three collinear. How many triangles have their vertices among these points?",
+   "en": "8 points lie in a plane, no three collinear. How many triangles have their vertices among these points?",
+   "vi": "Cho 8 điểm trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b>, không có ba điểm nào <b class=\"mbl-term\" tabindex=\"0\" data-en=\"collinear\">thẳng hàng</b>. Có bao nhiêu tam giác có ba đỉnh là ba trong các điểm đó?",
+   "options": [
+    "\\(512\\)",
+    "\\(56\\)",
+    "\\(28\\)",
+    "\\(336\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(C_{8}^3\\).",
+   "explain_vi": "Đáp án b. Mỗi tam giác ứng với một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"combination\">tổ hợp</b> chập 3: \\(C_{8}^3=56\\).",
+   "images": [],
+   "id": "74901e0f3452",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "A class has # boys and # girls. Choose a team of # boys and # girls. How many teams?",
+   "en": "A class has 9 boys and 8 girls. Choose a team of 1 boys and 3 girls. How many teams?",
+   "vi": "Một lớp có 9 nam và 8 nữ. Chọn một đội gồm 1 nam và 3 nữ. Có bao nhiêu cách?",
+   "options": [
+    "\\(65\\)",
+    "\\(3024\\)",
+    "\\(2380\\)",
+    "\\(504\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(C_{9}^{1}\\cdot C_{8}^{3}\\).",
+   "explain_vi": "Đáp án d. Chọn nam rồi chọn nữ (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"rule of product\">quy tắc nhân</b>): \\(C_{9}^{1}\\cdot C_{8}^{3}=504\\).",
+   "images": [],
+   "id": "21cbb97853f2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "A club of # members elects a president, a vice-president and a secretary (different people). How many results are possible?",
+   "en": "A club of 7 members elects a president, a vice-president and a secretary (different people). How many results are possible?",
+   "vi": "Một câu lạc bộ có 7 thành viên bầu một chủ nhiệm, một phó chủ nhiệm và một thư kí (ba người khác nhau). Có bao nhiêu kết quả?",
+   "options": [
+    "\\(210\\)",
+    "\\(35\\)",
+    "\\(21\\)",
+    "\\(343\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Order matters: \\(A_{7}^3\\).",
+   "explain_vi": "Đáp án a. Có phân biệt chức vụ (có thứ tự): \\(A_{7}^3=7\\cdot6\\cdot5=210\\).",
+   "images": [],
+   "id": "13ee319f97ee",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "A teacher chooses # students out of # to clean the classroom. How many choices are there?",
+   "en": "A teacher chooses 3 students out of 9 to clean the classroom. How many choices are there?",
+   "vi": "Giáo viên chọn 3 học sinh trong 9 học sinh để trực nhật. Có bao nhiêu cách chọn?",
+   "options": [
+    "\\(504\\)",
+    "\\(84\\)",
+    "\\(729\\)",
+    "\\(36\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. No order: \\(C_{9}^{3}\\).",
+   "explain_vi": "Đáp án b. Không phân biệt thứ tự: \\(C_{9}^{3}=84\\).",
+   "images": [],
+   "id": "f11a64400250",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "At a meeting # people shake hands, each pair once. How many handshakes are there?",
+   "en": "At a meeting 18 people shake hands, each pair once. How many handshakes are there?",
+   "vi": "Trong một buổi gặp mặt có 18 người, mỗi hai người bắt tay nhau đúng một lần. Có bao nhiêu cái bắt tay?",
+   "options": [
+    "\\(153\\)",
+    "\\(324\\)",
+    "\\(171\\)",
+    "\\(306\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(C_{18}^2\\).",
+   "explain_vi": "Đáp án a. Mỗi cái bắt tay ứng với một cặp không thứ tự: \\(C_{18}^2=153\\).",
+   "images": [],
+   "id": "2a1a266bcfe9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "From # boys and # girls choose # students with \\lt b\\gt at least one girl\\lt /b\\gt . How many ways?",
+   "en": "From 10 boys and 8 girls choose 4 students with \\lt b\\gt at least one girl\\lt /b\\gt . How many ways?",
+   "vi": "Từ 10 nam và 8 nữ, chọn 4 học sinh trong đó \\lt b\\gt có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"at least one\">ít nhất một</b> nữ\\lt /b\\gt . Có bao nhiêu cách?",
+   "options": [
+    "\\(960\\)",
+    "\\(2850\\)",
+    "\\(5440\\)",
+    "\\(3060\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Complement: all choices minus all-boy choices.",
+   "explain_vi": "Đáp án b. Dùng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"complement\">phần bù</b>: \\(C_{18}^{4}-C_{10}^{4}=2850\\).",
+   "images": [],
+   "id": "4418dd7eb29a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "How many diagonals does a convex polygon with # sides have?",
+   "en": "How many diagonals does a convex polygon with 5 sides have?",
+   "vi": "Một đa giác lồi 5 cạnh có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b>?",
+   "options": [
+    "\\(15\\)",
+    "\\(5\\)",
+    "\\(10\\)",
+    "\\(0\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Segments joining two vertices minus the sides.",
+   "explain_vi": "Đáp án b. Số đoạn nối hai đỉnh trừ số cạnh: \\(C_{5}^2-5=5\\).",
+   "images": [],
+   "id": "d52ee340ab3c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "In how many ways can # students stand in a row for a photo?",
+   "en": "In how many ways can 4 students stand in a row for a photo?",
+   "vi": "Có bao nhiêu cách xếp 4 học sinh đứng thành một hàng ngang để chụp ảnh?",
+   "options": [
+    "\\(256\\)",
+    "\\(24\\)",
+    "\\(6\\)",
+    "\\(16\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. A permutation of 4 elements: \\(4!\\).",
+   "explain_vi": "Đáp án b. Mỗi cách xếp là một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"permutation\">hoán vị</b> của 4 <b class=\"mbl-term\" tabindex=\"0\" data-en=\"element\">phần tử</b>: \\(P_{4}=4!=24\\).",
+   "images": [],
+   "id": "675ccdf4fb7e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  }
+ ]
+}

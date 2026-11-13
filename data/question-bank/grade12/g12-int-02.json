@@ -1,0 +1,1575 @@
+{
+ "lesson": "g12-int-02",
+ "grade": 12,
+ "no": 12,
+ "title": "Tích phân",
+ "path": "lessons/grade12/integrals/definite-integrals.html",
+ "items": [
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(\\displaystyle\\int_#^{\\frac{\\pi}{#}}\\cos x\\,dx=\\)…",
+   "en": "\\(\\displaystyle\\int_0^{\\frac{\\pi}{2}}\\cos x\\,dx=\\)…",
+   "vi": "\\(\\displaystyle\\int_0^{\\frac{\\pi}{2}}\\cos x\\,dx=\\)…",
+   "options": [
+    "\\(0\\)",
+    "\\(-1\\)",
+    "\\(\\dfrac{\\pi}{2}\\)",
+    "\\(1\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\sin x\\Big|_0^{\\pi/2}=1\\).",
+   "explain_vi": "Đáp án d. \\(\\sin x\\Big|_0^{\\pi/2}=1\\).",
+   "images": [],
+   "id": "014a7c2d3a43",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(\\displaystyle\\int_{#}^{#}(#x^{#}-#)\\,dx=\\)…",
+   "en": "\\(\\displaystyle\\int_{0}^{2}(3x^{2}-1)\\,dx=\\)…",
+   "vi": "\\(\\displaystyle\\int_{0}^{2}(3x^{2}-1)\\,dx=\\)…",
+   "options": [
+    "\\(6\\)",
+    "\\(12\\)",
+    "\\(-6\\)",
+    "\\(7\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(F(x)=x^{3}-x\\), \\(F(2)-F(0)=6\\).",
+   "explain_vi": "Đáp án a. \\(F(x)=x^{3}-x\\), \\(F(2)-F(0)=6\\).",
+   "images": [],
+   "id": "4779116756bf",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(\\int_#^#f(x)\\,dx=#\\), \\(\\int_#^#f(x)\\,dx=#\\), \\(\\int_#^#g(x)\\,dx=#\\). Then \\(\\int_#^#[#f(x)-g(x)]\\,dx=\\)…",
+   "en": "\\(\\int_0^4f(x)\\,dx=7\\), \\(\\int_0^1f(x)\\,dx=2\\), \\(\\int_1^4g(x)\\,dx=3\\). Then \\(\\int_1^4[2f(x)-g(x)]\\,dx=\\)…",
+   "vi": "Cho \\(\\int_0^4f(x)\\,dx=7\\), \\(\\int_0^1f(x)\\,dx=2\\), \\(\\int_1^4g(x)\\,dx=3\\). Khi đó \\(\\int_1^4[2f(x)-g(x)]\\,dx=\\)…",
+   "options": [
+    "\\(15\\)",
+    "\\(11\\)",
+    "\\(7\\)",
+    "\\(9\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\int_1^4f=7-2=5\\); result \\(2\\cdot5+(-1)\\cdot3=7\\).",
+   "explain_vi": "Đáp án c. \\(\\int_1^4f=7-2=5\\); kết quả \\(2\\cdot5+(-1)\\cdot3=7\\).",
+   "images": [],
+   "id": "c7a71a608599",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(\\displaystyle\\int_#^{#}|x-#|\\,dx=\\dfrac{#}{#}\\).",
+   "en": "\\(\\displaystyle\\int_0^{3}|x-1|\\,dx=\\dfrac{5}{2}\\).",
+   "vi": "\\(\\displaystyle\\int_0^{3}|x-1|\\,dx=\\dfrac{5}{2}\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "Split at \\(x=1\\): \\(\\dfrac{1}{2}+2=\\dfrac{5}{2}\\).",
+   "explain_vi": "Tách tại \\(x=1\\): \\(\\dfrac{1}{2}+2=\\dfrac{5}{2}\\).",
+   "images": [],
+   "id": "6dd1c6b71932",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(\\int_a^bf(x)g(x)\\,dx=\\int_a^bf(x)\\,dx\\cdot\\int_a^bg(x)\\,dx\\) for all continuous \\(f\\), \\(g\\).",
+   "en": "\\(\\int_a^bf(x)g(x)\\,dx=\\int_a^bf(x)\\,dx\\cdot\\int_a^bg(x)\\,dx\\) for all continuous \\(f\\), \\(g\\).",
+   "vi": "\\(\\int_a^bf(x)g(x)\\,dx=\\int_a^bf(x)\\,dx\\cdot\\int_a^bg(x)\\,dx\\) với mọi hàm liên tục \\(f\\), \\(g\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "Swapping the limits changes the sign; a non-negative integrand on \\([a;b]\\) gives a non-negative integral; there is no product rule.",
+   "explain_vi": "Đổi cận thì đổi dấu; hàm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"non-negative\">không âm</b> trên \\([a;b]\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"definite integral\">tích phân</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"non-negative\">không âm</b>; không có quy tắc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"definite integral\">tích phân</b> của tích như vậy.",
+   "images": [],
+   "id": "b3e2902f82b8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "A train moving at \\(#\\ \\text{m/s}\\) brakes with velocity \\(v(t)=#-#t\\) (m/s). How many metres does it travel until it stops?",
+   "en": "A train moving at \\(15\\ \\text{m/s}\\) brakes with velocity \\(v(t)=15-3t\\) (m/s). How many metres does it travel until it stops?",
+   "vi": "Một đoàn tàu đang chạy \\(15\\ \\text{m/s}\\) thì hãm phanh, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"velocity\">vận tốc</b> \\(v(t)=15-3t\\) (m/s). Tàu đi thêm bao nhiêu mét thì dừng?",
+   "options": [],
+   "answer": "37.5",
+   "explain_en": "Stops at \\(t=5\\); \\(\\int_0^{5}(15-3t)\\,dt=37.5\\).",
+   "explain_vi": "Dừng tại \\(t=5\\); \\(\\int_0^{5}(15-3t)\\,dt=37{,}5\\).",
+   "images": [],
+   "id": "42aed69a30f2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "Rain fills a tank at the rate \\(r(t)=#+#t\\) (litres per hour), \\(#\\le t\\le#\\). How many litres are collected in these # hours?",
+   "en": "Rain fills a tank at the rate \\(r(t)=40+10t\\) (litres per hour), \\(0\\le t\\le6\\). How many litres are collected in these 6 hours?",
+   "vi": "Nước mưa chảy vào bể với tốc độ \\(r(t)=40+10t\\) (lít/giờ), \\(0\\le t\\le6\\). Trong 6 giờ đó bể hứng được bao nhiêu lít?",
+   "options": [],
+   "answer": "420",
+   "explain_en": "\\(\\int_0^{6}r(t)\\,dt=40\\cdot6+\\dfrac{10}{2}\\cdot6^2=420\\).",
+   "explain_vi": "\\(\\int_0^{6}r(t)\\,dt=40\\cdot6+\\dfrac{10}{2}\\cdot6^2=420\\).",
+   "images": [],
+   "id": "24f42f70fd41",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Find the positive number \\(m\\) such that \\(\\displaystyle\\int_#^m(#x+#)\\,dx=#\\).",
+   "en": "Find the positive number \\(m\\) such that \\(\\displaystyle\\int_0^m(2x+1)\\,dx=6\\).",
+   "vi": "Tìm số dương \\(m\\) sao cho \\(\\displaystyle\\int_0^m(2x+1)\\,dx=6\\).",
+   "options": [
+    "\\(2\\)",
+    "\\(4\\)",
+    "\\(3\\)",
+    "\\(1\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\displaystyle\\int_0^m(2x+1)dx=m^2+1m=6\\Rightarrow m=2\\) (the other root \\(-3\\) is not positive).",
+   "explain_vi": "Đáp án a. \\(\\displaystyle\\int_0^m(2x+1)dx=m^2+1m=6\\Rightarrow m=2\\) (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"the remaining root\">nghiệm còn lại</b> \\(-3\\) không dương).",
+   "images": [],
+   "id": "460da50c8e31",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The figure shows the graph of \\(y=\\sqrt{#-x^#}\\). Find \\(\\displaystyle\\int_{-#}^{#}\\sqrt{#-x^#}\\,dx\\).",
+   "en": "The figure shows the graph of \\(y=\\sqrt{16-x^2}\\). Find \\(\\displaystyle\\int_{-4}^{4}\\sqrt{16-x^2}\\,dx\\).<img src=\"../../../img/tex/e100d4b5d7e46db7.svg\" alt=\"Semicircle\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Hình vẽ là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> của \\(y=\\sqrt{16-x^2}\\). Tính \\(\\displaystyle\\int_{-4}^{4}\\sqrt{16-x^2}\\,dx\\).<img src=\"../../../img/tex/e100d4b5d7e46db7.svg\" alt=\"Nửa đường tròn\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "\\(16\\pi\\)",
+    "\\(8\\pi\\)",
+    "\\(32\\pi\\)",
+    "\\(4\\pi\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. The graph is half of the circle of radius \\(4\\); the integral is that area: \\(8\\pi\\).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">Đồ thị</b> là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"semicircle\">nửa đường tròn</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> \\(4\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"definite integral\">tích phân</b> bằng diện tích phần đó: \\(8\\pi\\).",
+   "images": [
+    "img/tex/e100d4b5d7e46db7.svg"
+   ],
+   "id": "27479b2e1acc",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The figure shows the graph of \\(y=f(x)\\) on \\([#;#]\\) (a broken line through the marked points). Find \\(\\displaystyle\\int_#^{#}f(x)\\,dx\\).",
+   "en": "The figure shows the graph of \\(y=f(x)\\) on \\([0;4]\\) (a broken line through the marked points). Find \\(\\displaystyle\\int_0^{4}f(x)\\,dx\\).<img src=\"../../../img/tex/71eb92cd289f7f28.svg\" alt=\"Broken line graph\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,340px);height:auto\">",
+   "vi": "Hình vẽ là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> của \\(y=f(x)\\) trên \\([0;4]\\) (đường gấp khúc qua các điểm được đánh dấu). Tính \\(\\displaystyle\\int_0^{4}f(x)\\,dx\\).<img src=\"../../../img/tex/71eb92cd289f7f28.svg\" alt=\"Đồ thị đường gấp khúc\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,340px);height:auto\">",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(7.5\\)</span><span class=\"vi\">\\(7{,}5\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(6.5\\)</span><span class=\"vi\">\\(6{,}5\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(5.5\\)</span><span class=\"vi\">\\(5{,}5\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(8.5\\)</span><span class=\"vi\">\\(8{,}5\\)</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Add the signed areas of the pieces between the graph and \\(Ox\\) (areas below \\(Ox\\) count as negative): \\(6.5\\).",
+   "explain_vi": "Đáp án b. Cộng diện tích có dấu của các mảnh giữa <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> và \\(Ox\\) (phần dưới \\(Ox\\) mang dấu âm): \\(6{,}5\\).",
+   "images": [
+    "img/tex/71eb92cd289f7f28.svg"
+   ],
+   "id": "5ac7cda39f86",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The figure shows the velocity \\(v\\) (m/s) of a cart against time \\(t\\) (s). How far does it travel from \\(t=#\\) until it stops (m)?",
+   "en": "The figure shows the velocity \\(v\\) (m/s) of a cart against time \\(t\\) (s). How far does it travel from \\(t=0\\) until it stops (m)?<img src=\"../../../img/tex/e57b4398d27150c8.svg\" alt=\"Velocity graph\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,340px);height:auto\">",
+   "vi": "Hình vẽ là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"velocity\">vận tốc</b> \\(v\\) (m/s) theo thời gian \\(t\\) (s) của một xe đẩy. Từ \\(t=0\\) đến khi dừng, nó đi được bao nhiêu mét?<img src=\"../../../img/tex/e57b4398d27150c8.svg\" alt=\"Đồ thị vận tốc\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,340px);height:auto\">",
+   "options": [
+    "\\(32\\)",
+    "\\(64\\)",
+    "\\(56\\)",
+    "\\(48\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Distance = area under the graph (a trapezoid): \\(\\dfrac{(8+4)\\cdot8}{2}=48\\).",
+   "explain_vi": "Đáp án d. Quãng đường = diện tích dưới <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"trapezoid\">hình thang</b>): \\(\\dfrac{(8+4)\\cdot8}{2}=48\\).",
+   "images": [
+    "img/tex/e57b4398d27150c8.svg"
+   ],
+   "id": "93336b1d4f37",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The temperature of a room is \\(T(t)=#+#t-\\dfrac{#}{#}t^#\\) (°C), \\(#\\le t\\le#\\) (hours). Its average temperature on this interval, \\(\\dfrac{#}{#}\\displaystyle\\int_#^{#}T(t)\\,dt\\), is (°C)…",
+   "en": "The temperature of a room is \\(T(t)=25+4t-\\dfrac{1}{6}t^2\\) (°C), \\(0\\le t\\le12\\) (hours). Its average temperature on this interval, \\(\\dfrac{1}{12}\\displaystyle\\int_0^{12}T(t)\\,dt\\), is (°C)…",
+   "vi": "Nhiệt độ một căn phòng là \\(T(t)=25+4t-\\dfrac{1}{6}t^2\\) (°C), \\(0\\le t\\le12\\) (giờ). Nhiệt độ trung bình trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"interval\">khoảng</b> này, \\(\\dfrac{1}{12}\\displaystyle\\int_0^{12}T(t)\\,dt\\), bằng (°C)…",
+   "options": [
+    "\\(37\\)",
+    "\\(41\\)",
+    "\\(492\\)",
+    "\\(25\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\displaystyle\\int_0^{12}T\\,dt=492\\), divided by \\(12\\): \\(41\\).",
+   "explain_vi": "Đáp án b. \\(\\displaystyle\\int_0^{12}T\\,dt=492\\), chia cho \\(12\\): \\(41\\).",
+   "images": [],
+   "id": "cc85eac06e0b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(F\\) is an antiderivative of \\(f\\) on \\(\\mathbb R\\) with \\(F(#)=#\\) and \\(F(#)=#\\). Then \\(\\displaystyle\\int_{#}^{#}f(x)\\,dx=\\)…",
+   "en": "\\(F\\) is an antiderivative of \\(f\\) on \\(\\mathbb R\\) with \\(F(0)=3\\) and \\(F(3)=10\\). Then \\(\\displaystyle\\int_{3}^{0}f(x)\\,dx=\\)…",
+   "vi": "\\(F\\) là một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"antiderivative\">nguyên hàm</b> của \\(f\\) trên \\(\\mathbb R\\) với \\(F(0)=3\\) và \\(F(3)=10\\). Khi đó \\(\\displaystyle\\int_{3}^{0}f(x)\\,dx=\\)…",
+   "options": [
+    "\\(13\\)",
+    "\\(10\\)",
+    "\\(7\\)",
+    "\\(-7\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Note the order of the limits: \\(\\displaystyle\\int_{3}^{0}f(x)dx=F(0)-F(3)=-7\\).",
+   "explain_vi": "Đáp án d. Chú ý thứ tự cận: \\(\\displaystyle\\int_{3}^{0}f(x)dx=F(0)-F(3)=-7\\).",
+   "images": [],
+   "id": "1cc7023ff960",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\displaystyle\\int_{-#}^{#}\\left(x^#+#\\right)dx=\\)…",
+   "en": "\\(\\displaystyle\\int_{-2}^{2}\\left(x^5+1\\right)dx=\\)…",
+   "vi": "\\(\\displaystyle\\int_{-2}^{2}\\left(x^5+1\\right)dx=\\)…",
+   "options": [
+    "\\(0\\)",
+    "\\(4\\)",
+    "\\(8\\)",
+    "\\(2\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. The part \\(x^5\\) is odd, so its integral over \\([-2;2]\\) is 0; the constant gives \\(1\\cdot4=4\\).",
+   "explain_vi": "Đáp án b. Phần \\(x^5\\) là hàm lẻ nên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"definite integral\">tích phân</b> trên \\([-2;2]\\) bằng 0; <b class=\"mbl-term\" tabindex=\"0\" data-en=\"constant\">hằng số</b> cho \\(1\\cdot4=4\\).",
+   "images": [],
+   "id": "90840b610c2f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(f(x)=\\begin{cases}x^#&\\text{if } x\\le#\\\\#x-#&\\text{if } x\\gt#\\end{cases}\\) (continuous). Then \\(\\displaystyle\\int_#^#f(x)\\,dx=\\)…",
+   "en": "\\(f(x)=\\begin{cases}x^2&\\text{if } x\\le1\\\\4x-3&\\text{if } x\\gt1\\end{cases}\\) (continuous). Then \\(\\displaystyle\\int_0^2f(x)\\,dx=\\)…",
+   "vi": "Cho \\(f(x)=\\begin{cases}x^2&\\text{khi } x\\le1\\\\4x-3&\\text{khi } x\\gt1\\end{cases}\\) (liên tục). Khi đó \\(\\displaystyle\\int_0^2f(x)\\,dx=\\)…",
+   "options": [
+    "\\(\\dfrac{8}{3}\\)",
+    "\\(\\dfrac{13}{3}\\)",
+    "\\(\\dfrac{10}{3}\\)",
+    "\\(2\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Split at 1: \\(\\displaystyle\\int_0^1x^2dx+\\int_1^2(4x-3)dx=\\dfrac13+3=\\dfrac{10}{3}\\).",
+   "explain_vi": "Đáp án c. Tách tại 1: \\(\\displaystyle\\int_0^1x^2dx+\\int_1^2(4x-3)dx=\\dfrac13+3=\\dfrac{10}{3}\\).",
+   "images": [],
+   "id": "3c78086332ac",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(\\displaystyle\\int_#^{\\ln #}e^x\\,dx=\\)…",
+   "en": "\\(\\displaystyle\\int_0^{\\ln 3}e^x\\,dx=\\)…",
+   "vi": "\\(\\displaystyle\\int_0^{\\ln 3}e^x\\,dx=\\)…",
+   "options": [
+    "\\(3\\)",
+    "\\(\\ln 3\\)",
+    "\\(1\\)",
+    "\\(2\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(e^{\\ln3}-e^0=3-1=2\\).",
+   "explain_vi": "Đáp án d. \\(e^{\\ln3}-e^0=3-1=2\\).",
+   "images": [],
+   "id": "9fd9c929fe8f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(\\displaystyle\\int_{#}^{#}(#x^{#}-#x+#)\\,dx=\\)…",
+   "en": "\\(\\displaystyle\\int_{1}^{3}(6x^{2}-4x+1)\\,dx=\\)…",
+   "vi": "\\(\\displaystyle\\int_{1}^{3}(6x^{2}-4x+1)\\,dx=\\)…",
+   "options": [
+    "\\(39\\)",
+    "\\(38\\)",
+    "\\(40\\)",
+    "\\(-38\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(F(x)=2x^{3}-2x^{2}+x\\), \\(F(3)-F(1)=38\\).",
+   "explain_vi": "Đáp án b. \\(F(x)=2x^{3}-2x^{2}+x\\), \\(F(3)-F(1)=38\\).",
+   "images": [],
+   "id": "1c5e87606ccf",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(\\int_#^#f(x)\\,dx=#\\), \\(\\int_#^#f(x)\\,dx=-#\\), \\(\\int_#^#g(x)\\,dx=#\\). Then \\(\\int_#^#[#f(x)+#g(x)]\\,dx=\\)…",
+   "en": "\\(\\int_0^4f(x)\\,dx=5\\), \\(\\int_0^1f(x)\\,dx=-1\\), \\(\\int_1^4g(x)\\,dx=2\\). Then \\(\\int_1^4[2f(x)+3g(x)]\\,dx=\\)…",
+   "vi": "Cho \\(\\int_0^4f(x)\\,dx=5\\), \\(\\int_0^1f(x)\\,dx=-1\\), \\(\\int_1^4g(x)\\,dx=2\\). Khi đó \\(\\int_1^4[2f(x)+3g(x)]\\,dx=\\)…",
+   "options": [
+    "\\(14\\)",
+    "\\(16\\)",
+    "\\(20\\)",
+    "\\(18\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\int_1^4f=5--1=6\\); result \\(2\\cdot6+(3)\\cdot2=18\\).",
+   "explain_vi": "Đáp án d. \\(\\int_1^4f=5--1=6\\); kết quả \\(2\\cdot6+(3)\\cdot2=18\\).",
+   "images": [],
+   "id": "fd4c9aa0e6c2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(\\displaystyle\\int_#^{#}|x-#|\\,dx=\\dfrac{#}{#}\\).",
+   "en": "\\(\\displaystyle\\int_0^{5}|x-2|\\,dx=\\dfrac{5}{2}\\).",
+   "vi": "\\(\\displaystyle\\int_0^{5}|x-2|\\,dx=\\dfrac{5}{2}\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "Split at \\(x=2\\): \\(2+\\dfrac{9}{2}=\\dfrac{13}{2}\\).",
+   "explain_vi": "Tách tại \\(x=2\\): \\(2+\\dfrac{9}{2}=\\dfrac{13}{2}\\).",
+   "images": [],
+   "id": "be8c7e2be8a9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(\\int_b^af(x)\\,dx=-\\int_a^bf(x)\\,dx\\).",
+   "en": "\\(\\int_b^af(x)\\,dx=-\\int_a^bf(x)\\,dx\\).",
+   "vi": "\\(\\int_b^af(x)\\,dx=-\\int_a^bf(x)\\,dx\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "Swapping the limits changes the sign; a non-negative integrand on \\([a;b]\\) gives a non-negative integral; there is no product rule.",
+   "explain_vi": "Đổi cận thì đổi dấu; hàm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"non-negative\">không âm</b> trên \\([a;b]\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"definite integral\">tích phân</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"non-negative\">không âm</b>; không có quy tắc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"definite integral\">tích phân</b> của tích như vậy.",
+   "images": [],
+   "id": "db76251731b9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "A train moving at \\(#\\ \\text{m/s}\\) brakes with velocity \\(v(t)=#-#t\\) (m/s). How many metres does it travel until it stops?",
+   "en": "A train moving at \\(24\\ \\text{m/s}\\) brakes with velocity \\(v(t)=24-4t\\) (m/s). How many metres does it travel until it stops?",
+   "vi": "Một đoàn tàu đang chạy \\(24\\ \\text{m/s}\\) thì hãm phanh, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"velocity\">vận tốc</b> \\(v(t)=24-4t\\) (m/s). Tàu đi thêm bao nhiêu mét thì dừng?",
+   "options": [],
+   "answer": "72",
+   "explain_en": "Stops at \\(t=6\\); \\(\\int_0^{6}(24-4t)\\,dt=72\\).",
+   "explain_vi": "Dừng tại \\(t=6\\); \\(\\int_0^{6}(24-4t)\\,dt=72\\).",
+   "images": [],
+   "id": "92c24e2a5b25",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "Rain fills a tank at the rate \\(r(t)=#+#t\\) (litres per hour), \\(#\\le t\\le#\\). How many litres are collected in these # hours?",
+   "en": "Rain fills a tank at the rate \\(r(t)=30+2.5t\\) (litres per hour), \\(0\\le t\\le8\\). How many litres are collected in these 8 hours?",
+   "vi": "Nước mưa chảy vào bể với tốc độ \\(r(t)=30+2{,}5t\\) (lít/giờ), \\(0\\le t\\le8\\). Trong 8 giờ đó bể hứng được bao nhiêu lít?",
+   "options": [],
+   "answer": "320",
+   "explain_en": "\\(\\int_0^{8}r(t)\\,dt=30\\cdot8+\\dfrac{2.5}{2}\\cdot8^2=320\\).",
+   "explain_vi": "\\(\\int_0^{8}r(t)\\,dt=30\\cdot8+\\dfrac{2{,}5}{2}\\cdot8^2=320\\).",
+   "images": [],
+   "id": "9c5ef41fc651",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Find the positive number \\(m\\) such that \\(\\displaystyle\\int_#^m(#x-#)\\,dx=#\\).",
+   "en": "Find the positive number \\(m\\) such that \\(\\displaystyle\\int_0^m(2x-2)\\,dx=24\\).",
+   "vi": "Tìm số dương \\(m\\) sao cho \\(\\displaystyle\\int_0^m(2x-2)\\,dx=24\\).",
+   "options": [
+    "\\(12\\)",
+    "\\(7\\)",
+    "\\(6\\)",
+    "\\(4\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\displaystyle\\int_0^m(2x-2)dx=m^2-2m=24\\Rightarrow m=6\\) (the other root \\(-4\\) is not positive).",
+   "explain_vi": "Đáp án c. \\(\\displaystyle\\int_0^m(2x-2)dx=m^2-2m=24\\Rightarrow m=6\\) (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"the remaining root\">nghiệm còn lại</b> \\(-4\\) không dương).",
+   "images": [],
+   "id": "8a7fea98d53c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The figure shows the graph of \\(y=\\sqrt{#-x^#}\\). Find \\(\\displaystyle\\int_{#}^{#}\\sqrt{#-x^#}\\,dx\\).",
+   "en": "The figure shows the graph of \\(y=\\sqrt{4-x^2}\\). Find \\(\\displaystyle\\int_{0}^{2}\\sqrt{4-x^2}\\,dx\\).<img src=\"../../../img/tex/6f3a4dad14952056.svg\" alt=\"Semicircle\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Hình vẽ là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> của \\(y=\\sqrt{4-x^2}\\). Tính \\(\\displaystyle\\int_{0}^{2}\\sqrt{4-x^2}\\,dx\\).<img src=\"../../../img/tex/6f3a4dad14952056.svg\" alt=\"Nửa đường tròn\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "\\(4\\pi\\)",
+    "\\(\\pi\\)",
+    "\\(2\\pi\\)",
+    "\\(\\dfrac{\\pi}{2}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. The graph is a quarter of the circle of radius \\(2\\); the integral is that area: \\(\\pi\\).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">Đồ thị</b> là một phần tư <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> \\(2\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"definite integral\">tích phân</b> bằng diện tích phần đó: \\(\\pi\\).",
+   "images": [
+    "img/tex/6f3a4dad14952056.svg"
+   ],
+   "id": "a31cae7e178a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The figure shows the graph of \\(y=f(x)\\) on \\([#;#]\\) (a broken line through the marked points). Find \\(\\displaystyle\\int_#^{#}f(x)\\,dx\\).",
+   "en": "The figure shows the graph of \\(y=f(x)\\) on \\([0;6]\\) (a broken line through the marked points). Find \\(\\displaystyle\\int_0^{6}f(x)\\,dx\\).<img src=\"../../../img/tex/26719a50f026f027.svg\" alt=\"Broken line graph\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,340px);height:auto\">",
+   "vi": "Hình vẽ là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> của \\(y=f(x)\\) trên \\([0;6]\\) (đường gấp khúc qua các điểm được đánh dấu). Tính \\(\\displaystyle\\int_0^{6}f(x)\\,dx\\).<img src=\"../../../img/tex/26719a50f026f027.svg\" alt=\"Đồ thị đường gấp khúc\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,340px);height:auto\">",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(9.5\\)</span><span class=\"vi\">\\(9{,}5\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(3.5\\)</span><span class=\"vi\">\\(3{,}5\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(1.5\\)</span><span class=\"vi\">\\(1{,}5\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(2.5\\)</span><span class=\"vi\">\\(2{,}5\\)</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Add the signed areas of the pieces between the graph and \\(Ox\\) (areas below \\(Ox\\) count as negative): \\(2.5\\).",
+   "explain_vi": "Đáp án d. Cộng diện tích có dấu của các mảnh giữa <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> và \\(Ox\\) (phần dưới \\(Ox\\) mang dấu âm): \\(2{,}5\\).",
+   "images": [
+    "img/tex/26719a50f026f027.svg"
+   ],
+   "id": "812f06b616f0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The figure shows the velocity \\(v\\) (m/s) of a lift (elevator) against time \\(t\\) (s). How far does it travel from \\(t=#\\) until it stops (m)?",
+   "en": "The figure shows the velocity \\(v\\) (m/s) of a lift (elevator) against time \\(t\\) (s). How far does it travel from \\(t=0\\) until it stops (m)?<img src=\"../../../img/tex/e675d97593e2874f.svg\" alt=\"Velocity graph\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,340px);height:auto\">",
+   "vi": "Hình vẽ là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"velocity\">vận tốc</b> \\(v\\) (m/s) theo thời gian \\(t\\) (s) của một thang máy. Từ \\(t=0\\) đến khi dừng, nó đi được bao nhiêu mét?<img src=\"../../../img/tex/e675d97593e2874f.svg\" alt=\"Đồ thị vận tốc\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,340px);height:auto\">",
+   "options": [
+    "\\(48\\)",
+    "\\(60\\)",
+    "\\(78\\)",
+    "\\(96\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Distance = area under the graph (a trapezoid): \\(\\dfrac{(8+5)\\cdot12}{2}=78\\).",
+   "explain_vi": "Đáp án c. Quãng đường = diện tích dưới <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"trapezoid\">hình thang</b>): \\(\\dfrac{(8+5)\\cdot12}{2}=78\\).",
+   "images": [
+    "img/tex/e675d97593e2874f.svg"
+   ],
+   "id": "4fe034c1d7e3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The temperature of a room is \\(T(t)=#+t-\\dfrac{#}{#}t^#\\) (°C), \\(#\\le t\\le#\\) (hours). Its average temperature on this interval, \\(\\dfrac{#}{#}\\displaystyle\\int_#^{#}T(t)\\,dt\\), is (°C)…",
+   "en": "The temperature of a room is \\(T(t)=22+t-\\dfrac{1}{6}t^2\\) (°C), \\(0\\le t\\le6\\) (hours). Its average temperature on this interval, \\(\\dfrac{1}{6}\\displaystyle\\int_0^{6}T(t)\\,dt\\), is (°C)…",
+   "vi": "Nhiệt độ một căn phòng là \\(T(t)=22+t-\\dfrac{1}{6}t^2\\) (°C), \\(0\\le t\\le6\\) (giờ). Nhiệt độ trung bình trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"interval\">khoảng</b> này, \\(\\dfrac{1}{6}\\displaystyle\\int_0^{6}T(t)\\,dt\\), bằng (°C)…",
+   "options": [
+    "\\(25\\)",
+    "\\(138\\)",
+    "\\(23\\)",
+    "\\(22\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\displaystyle\\int_0^{6}T\\,dt=138\\), divided by \\(6\\): \\(23\\).",
+   "explain_vi": "Đáp án c. \\(\\displaystyle\\int_0^{6}T\\,dt=138\\), chia cho \\(6\\): \\(23\\).",
+   "images": [],
+   "id": "68f0187c6045",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\displaystyle\\int_{-#}^{#}\\left(#x^#+#\\right)dx=\\)…",
+   "en": "\\(\\displaystyle\\int_{-3}^{3}\\left(2x^5+5\\right)dx=\\)…",
+   "vi": "\\(\\displaystyle\\int_{-3}^{3}\\left(2x^5+5\\right)dx=\\)…",
+   "options": [
+    "\\(42\\)",
+    "\\(15\\)",
+    "\\(0\\)",
+    "\\(30\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. The part \\(2x^5\\) is odd, so its integral over \\([-3;3]\\) is 0; the constant gives \\(5\\cdot6=30\\).",
+   "explain_vi": "Đáp án d. Phần \\(2x^5\\) là hàm lẻ nên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"definite integral\">tích phân</b> trên \\([-3;3]\\) bằng 0; <b class=\"mbl-term\" tabindex=\"0\" data-en=\"constant\">hằng số</b> cho \\(5\\cdot6=30\\).",
+   "images": [],
+   "id": "7529f2ba6c13",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(f(x)=\\begin{cases}x^#&\\text{if } x\\le#\\\\#x-#&\\text{if } x\\gt#\\end{cases}\\) (continuous). Then \\(\\displaystyle\\int_#^#f(x)\\,dx=\\)…",
+   "en": "\\(f(x)=\\begin{cases}x^2&\\text{if } x\\le1\\\\6x-5&\\text{if } x\\gt1\\end{cases}\\) (continuous). Then \\(\\displaystyle\\int_0^2f(x)\\,dx=\\)…",
+   "vi": "Cho \\(f(x)=\\begin{cases}x^2&\\text{khi } x\\le1\\\\6x-5&\\text{khi } x\\gt1\\end{cases}\\) (liên tục). Khi đó \\(\\displaystyle\\int_0^2f(x)\\,dx=\\)…",
+   "options": [
+    "\\(\\dfrac{13}{3}\\)",
+    "\\(\\dfrac{8}{3}\\)",
+    "\\(2\\)",
+    "\\(\\dfrac{16}{3}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Split at 1: \\(\\displaystyle\\int_0^1x^2dx+\\int_1^2(6x-5)dx=\\dfrac13+4=\\dfrac{13}{3}\\).",
+   "explain_vi": "Đáp án a. Tách tại 1: \\(\\displaystyle\\int_0^1x^2dx+\\int_1^2(6x-5)dx=\\dfrac13+4=\\dfrac{13}{3}\\).",
+   "images": [],
+   "id": "e02b0f083f0b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(f\\) has a continuous derivative, \\(f(-#)=-#\\) and \\(\\displaystyle\\int_{-#}^{#}f'(x)\\,dx=#\\). Then \\(f(#)=\\)…",
+   "en": "\\(f\\) has a continuous derivative, \\(f(-2)=-1\\) and \\(\\displaystyle\\int_{-2}^{1}f'(x)\\,dx=9\\). Then \\(f(1)=\\)…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">Hàm số</b> \\(f\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"differentiable\">có đạo hàm</b> liên tục, \\(f(-2)=-1\\) và \\(\\displaystyle\\int_{-2}^{1}f'(x)\\,dx=9\\). Khi đó \\(f(1)=\\)…",
+   "options": [
+    "\\(9\\)",
+    "\\(10\\)",
+    "\\(8\\)",
+    "\\(-10\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\displaystyle\\int_{-2}^{1}f'(x)dx=f(1)-f(-2)\\Rightarrow f(1)=-1+9=8\\).",
+   "explain_vi": "Đáp án c. \\(\\displaystyle\\int_{-2}^{1}f'(x)dx=f(1)-f(-2)\\Rightarrow f(1)=-1+9=8\\).",
+   "images": [],
+   "id": "3224d81bb313",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(\\displaystyle\\int_#^{#}\\dfrac{#}{x^#}\\,dx=\\)…",
+   "en": "\\(\\displaystyle\\int_1^{2}\\dfrac{1}{x^2}\\,dx=\\)…",
+   "vi": "\\(\\displaystyle\\int_1^{2}\\dfrac{1}{x^2}\\,dx=\\)…",
+   "options": [
+    "\\(-\\dfrac12\\)",
+    "\\(\\dfrac74\\)",
+    "\\(\\dfrac12\\)",
+    "\\(\\ln2\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(-\\dfrac1x\\Big|_1^2=-\\dfrac12+1=\\dfrac12\\).",
+   "explain_vi": "Đáp án c. \\(-\\dfrac1x\\Big|_1^2=-\\dfrac12+1=\\dfrac12\\).",
+   "images": [],
+   "id": "cf9385e36d5f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(\\displaystyle\\int_{-#}^{#}(#x^{#}-#x)\\,dx=\\)…",
+   "en": "\\(\\displaystyle\\int_{-1}^{2}(4x^{3}-6x)\\,dx=\\)…",
+   "vi": "\\(\\displaystyle\\int_{-1}^{2}(4x^{3}-6x)\\,dx=\\)…",
+   "options": [
+    "\\(6\\)",
+    "\\(4\\)",
+    "\\(18\\)",
+    "\\(-6\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(F(x)=x^{4}-3x^{2}\\), \\(F(2)-F(-1)=6\\).",
+   "explain_vi": "Đáp án a. \\(F(x)=x^{4}-3x^{2}\\), \\(F(2)-F(-1)=6\\).",
+   "images": [],
+   "id": "a93b0e88ba8e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(\\int_#^#f(x)\\,dx=#\\), \\(\\int_#^#f(x)\\,dx=#\\), \\(\\int_#^#g(x)\\,dx=-#\\). Then \\(\\int_#^#[#f(x)+#g(x)]\\,dx=\\)…",
+   "en": "\\(\\int_0^4f(x)\\,dx=10\\), \\(\\int_0^1f(x)\\,dx=4\\), \\(\\int_1^4g(x)\\,dx=-3\\). Then \\(\\int_1^4[3f(x)+2g(x)]\\,dx=\\)…",
+   "vi": "Cho \\(\\int_0^4f(x)\\,dx=10\\), \\(\\int_0^1f(x)\\,dx=4\\), \\(\\int_1^4g(x)\\,dx=-3\\). Khi đó \\(\\int_1^4[3f(x)+2g(x)]\\,dx=\\)…",
+   "options": [
+    "\\(36\\)",
+    "\\(24\\)",
+    "\\(14\\)",
+    "\\(12\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\int_1^4f=10-4=6\\); result \\(3\\cdot6+(2)\\cdot-3=12\\).",
+   "explain_vi": "Đáp án d. \\(\\int_1^4f=10-4=6\\); kết quả \\(3\\cdot6+(2)\\cdot-3=12\\).",
+   "images": [],
+   "id": "3734a0280a15",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "If \\(f\\) is continuous and \\(f(x)\\ge#\\) on \\([a;b]\\) (\\(a\\lt b\\)), then \\(\\int_a^bf(x)\\,dx\\ge#\\).",
+   "en": "If \\(f\\) is continuous and \\(f(x)\\ge0\\) on \\([a;b]\\) (\\(a\\lt b\\)), then \\(\\int_a^bf(x)\\,dx\\ge0\\).",
+   "vi": "Nếu \\(f\\) liên tục và \\(f(x)\\ge0\\) trên \\([a;b]\\) (\\(a\\lt b\\)) thì \\(\\int_a^bf(x)\\,dx\\ge0\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "Swapping the limits changes the sign; a non-negative integrand on \\([a;b]\\) gives a non-negative integral; there is no product rule.",
+   "explain_vi": "Đổi cận thì đổi dấu; hàm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"non-negative\">không âm</b> trên \\([a;b]\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"definite integral\">tích phân</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"non-negative\">không âm</b>; không có quy tắc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"definite integral\">tích phân</b> của tích như vậy.",
+   "images": [],
+   "id": "b658ff7cc2a6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(\\displaystyle\\int_#^{#}|x-#|\\,dx=#\\).",
+   "en": "\\(\\displaystyle\\int_0^{4}|x-3|\\,dx=5\\).",
+   "vi": "\\(\\displaystyle\\int_0^{4}|x-3|\\,dx=5\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "Split at \\(x=3\\): \\(\\dfrac{9}{2}+\\dfrac{1}{2}=5\\).",
+   "explain_vi": "Tách tại \\(x=3\\): \\(\\dfrac{9}{2}+\\dfrac{1}{2}=5\\).",
+   "images": [],
+   "id": "510001d65a90",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "A train moving at \\(#\\ \\text{m/s}\\) brakes with velocity \\(v(t)=#-#t\\) (m/s). How many metres does it travel until it stops?",
+   "en": "A train moving at \\(18\\ \\text{m/s}\\) brakes with velocity \\(v(t)=18-6t\\) (m/s). How many metres does it travel until it stops?",
+   "vi": "Một đoàn tàu đang chạy \\(18\\ \\text{m/s}\\) thì hãm phanh, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"velocity\">vận tốc</b> \\(v(t)=18-6t\\) (m/s). Tàu đi thêm bao nhiêu mét thì dừng?",
+   "options": [],
+   "answer": "27",
+   "explain_en": "Stops at \\(t=3\\); \\(\\int_0^{3}(18-6t)\\,dt=27\\).",
+   "explain_vi": "Dừng tại \\(t=3\\); \\(\\int_0^{3}(18-6t)\\,dt=27\\).",
+   "images": [],
+   "id": "389c648a399e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Rain fills a tank at the rate \\(r(t)=#+#t\\) (litres per hour), \\(#\\le t\\le#\\). How many litres are collected in these # hours?",
+   "en": "Rain fills a tank at the rate \\(r(t)=25+6t\\) (litres per hour), \\(0\\le t\\le5\\). How many litres are collected in these 5 hours?",
+   "vi": "Nước mưa chảy vào bể với tốc độ \\(r(t)=25+6t\\) (lít/giờ), \\(0\\le t\\le5\\). Trong 5 giờ đó bể hứng được bao nhiêu lít?",
+   "options": [],
+   "answer": "200",
+   "explain_en": "\\(\\int_0^{5}r(t)\\,dt=25\\cdot5+\\dfrac{6}{2}\\cdot5^2=200\\).",
+   "explain_vi": "\\(\\int_0^{5}r(t)\\,dt=25\\cdot5+\\dfrac{6}{2}\\cdot5^2=200\\).",
+   "images": [],
+   "id": "917a3409d219",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Find the positive number \\(m\\) such that \\(\\displaystyle\\int_#^m(#x+#)\\,dx=#\\).",
+   "en": "Find the positive number \\(m\\) such that \\(\\displaystyle\\int_0^m(2x+4)\\,dx=21\\).",
+   "vi": "Tìm số dương \\(m\\) sao cho \\(\\displaystyle\\int_0^m(2x+4)\\,dx=21\\).",
+   "options": [
+    "\\(4\\)",
+    "\\(7\\)",
+    "\\(10\\)",
+    "\\(3\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\displaystyle\\int_0^m(2x+4)dx=m^2+4m=21\\Rightarrow m=3\\) (the other root \\(-7\\) is not positive).",
+   "explain_vi": "Đáp án d. \\(\\displaystyle\\int_0^m(2x+4)dx=m^2+4m=21\\Rightarrow m=3\\) (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"the remaining root\">nghiệm còn lại</b> \\(-7\\) không dương).",
+   "images": [],
+   "id": "21d4e1920225",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The figure shows the graph of \\(y=\\sqrt{#-x^#}\\). Find \\(\\displaystyle\\int_{#}^{#}\\sqrt{#-x^#}\\,dx\\).",
+   "en": "The figure shows the graph of \\(y=\\sqrt{9-x^2}\\). Find \\(\\displaystyle\\int_{0}^{3}\\sqrt{9-x^2}\\,dx\\).<img src=\"../../../img/tex/c2f71650ae66de1f.svg\" alt=\"Semicircle\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Hình vẽ là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> của \\(y=\\sqrt{9-x^2}\\). Tính \\(\\displaystyle\\int_{0}^{3}\\sqrt{9-x^2}\\,dx\\).<img src=\"../../../img/tex/c2f71650ae66de1f.svg\" alt=\"Nửa đường tròn\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "\\(9\\pi\\)",
+    "\\(\\dfrac{9\\pi}{8}\\)",
+    "\\(\\dfrac{9\\pi}{2}\\)",
+    "\\(\\dfrac{9\\pi}{4}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. The graph is a quarter of the circle of radius \\(3\\); the integral is that area: \\(\\dfrac{9\\pi}{4}\\).",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">Đồ thị</b> là một phần tư <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> \\(3\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"definite integral\">tích phân</b> bằng diện tích phần đó: \\(\\dfrac{9\\pi}{4}\\).",
+   "images": [
+    "img/tex/c2f71650ae66de1f.svg"
+   ],
+   "id": "20757909a6c8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The figure shows the graph of \\(y=f(x)\\) on \\([#;#]\\) (a broken line through the marked points). Find \\(\\displaystyle\\int_#^{#}f(x)\\,dx\\).",
+   "en": "The figure shows the graph of \\(y=f(x)\\) on \\([0;5]\\) (a broken line through the marked points). Find \\(\\displaystyle\\int_0^{5}f(x)\\,dx\\).<img src=\"../../../img/tex/14e91a73c62f647e.svg\" alt=\"Broken line graph\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,340px);height:auto\">",
+   "vi": "Hình vẽ là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> của \\(y=f(x)\\) trên \\([0;5]\\) (đường gấp khúc qua các điểm được đánh dấu). Tính \\(\\displaystyle\\int_0^{5}f(x)\\,dx\\).<img src=\"../../../img/tex/14e91a73c62f647e.svg\" alt=\"Đồ thị đường gấp khúc\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,340px);height:auto\">",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(1.5\\)</span><span class=\"vi\">\\(1{,}5\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(3.5\\)</span><span class=\"vi\">\\(3{,}5\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(2.5\\)</span><span class=\"vi\">\\(2{,}5\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(4.5\\)</span><span class=\"vi\">\\(4{,}5\\)</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Add the signed areas of the pieces between the graph and \\(Ox\\) (areas below \\(Ox\\) count as negative): \\(2.5\\).",
+   "explain_vi": "Đáp án c. Cộng diện tích có dấu của các mảnh giữa <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> và \\(Ox\\) (phần dưới \\(Ox\\) mang dấu âm): \\(2{,}5\\).",
+   "images": [
+    "img/tex/14e91a73c62f647e.svg"
+   ],
+   "id": "45445ecf92a7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The figure shows the velocity \\(v\\) (m/s) of a train between two stations against time \\(t\\) (s). How far does it travel from \\(t=#\\) until it stops (m)?",
+   "en": "The figure shows the velocity \\(v\\) (m/s) of a train between two stations against time \\(t\\) (s). How far does it travel from \\(t=0\\) until it stops (m)?<img src=\"../../../img/tex/3758a51e57704f54.svg\" alt=\"Velocity graph\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,340px);height:auto\">",
+   "vi": "Hình vẽ là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"velocity\">vận tốc</b> \\(v\\) (m/s) theo thời gian \\(t\\) (s) của một đoàn tàu giữa hai ga. Từ \\(t=0\\) đến khi dừng, nó đi được bao nhiêu mét?<img src=\"../../../img/tex/3758a51e57704f54.svg\" alt=\"Đồ thị vận tốc\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,340px);height:auto\">",
+   "options": [
+    "\\(27\\)",
+    "\\(33\\)",
+    "\\(36\\)",
+    "\\(18\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Distance = area under the graph (a trapezoid): \\(\\dfrac{(6+3)\\cdot6}{2}=27\\).",
+   "explain_vi": "Đáp án a. Quãng đường = diện tích dưới <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"trapezoid\">hình thang</b>): \\(\\dfrac{(6+3)\\cdot6}{2}=27\\).",
+   "images": [
+    "img/tex/3758a51e57704f54.svg"
+   ],
+   "id": "a3c2ba88652f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The temperature of a room is \\(T(t)=#+t-\\dfrac{#}{#}t^#\\) (°C), \\(#\\le t\\le#\\) (hours). Its average temperature on this interval, \\(\\dfrac{#}{#}\\displaystyle\\int_#^{#}T(t)\\,dt\\), is (°C)…",
+   "en": "The temperature of a room is \\(T(t)=20+t-\\dfrac{1}{2}t^2\\) (°C), \\(0\\le t\\le6\\) (hours). Its average temperature on this interval, \\(\\dfrac{1}{6}\\displaystyle\\int_0^{6}T(t)\\,dt\\), is (°C)…",
+   "vi": "Nhiệt độ một căn phòng là \\(T(t)=20+t-\\dfrac{1}{2}t^2\\) (°C), \\(0\\le t\\le6\\) (giờ). Nhiệt độ trung bình trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"interval\">khoảng</b> này, \\(\\dfrac{1}{6}\\displaystyle\\int_0^{6}T(t)\\,dt\\), bằng (°C)…",
+   "options": [
+    "\\(14\\)",
+    "\\(17\\)",
+    "\\(102\\)",
+    "\\(20\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\displaystyle\\int_0^{6}T\\,dt=102\\), divided by \\(6\\): \\(17\\).",
+   "explain_vi": "Đáp án b. \\(\\displaystyle\\int_0^{6}T\\,dt=102\\), chia cho \\(6\\): \\(17\\).",
+   "images": [],
+   "id": "e95ee01872f6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\displaystyle\\int_{-#}^{#}\\left(-#(x^#-x)+#\\right)dx=\\)…",
+   "en": "\\(\\displaystyle\\int_{-2}^{2}\\left(-2(x^3-x)+3\\right)dx=\\)…",
+   "vi": "\\(\\displaystyle\\int_{-2}^{2}\\left(-2(x^3-x)+3\\right)dx=\\)…",
+   "options": [
+    "\\(0\\)",
+    "\\(4\\)",
+    "\\(6\\)",
+    "\\(12\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. The part \\(-2(x^3-x)\\) is odd, so its integral over \\([-2;2]\\) is 0; the constant gives \\(3\\cdot4=12\\).",
+   "explain_vi": "Đáp án d. Phần \\(-2(x^3-x)\\) là hàm lẻ nên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"definite integral\">tích phân</b> trên \\([-2;2]\\) bằng 0; <b class=\"mbl-term\" tabindex=\"0\" data-en=\"constant\">hằng số</b> cho \\(3\\cdot4=12\\).",
+   "images": [],
+   "id": "7b23235b8f1d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(f(x)=\\begin{cases}x^#&\\text{if } x\\le#\\\\#x-#&\\text{if } x\\gt#\\end{cases}\\) (continuous). Then \\(\\displaystyle\\int_#^#f(x)\\,dx=\\)…",
+   "en": "\\(f(x)=\\begin{cases}x^2&\\text{if } x\\le1\\\\2x-1&\\text{if } x\\gt1\\end{cases}\\) (continuous). Then \\(\\displaystyle\\int_0^2f(x)\\,dx=\\)…",
+   "vi": "Cho \\(f(x)=\\begin{cases}x^2&\\text{khi } x\\le1\\\\2x-1&\\text{khi } x\\gt1\\end{cases}\\) (liên tục). Khi đó \\(\\displaystyle\\int_0^2f(x)\\,dx=\\)…",
+   "options": [
+    "\\(\\dfrac{10}{3}\\)",
+    "\\(\\dfrac{7}{3}\\)",
+    "\\(2\\)",
+    "\\(\\dfrac{8}{3}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Split at 1: \\(\\displaystyle\\int_0^1x^2dx+\\int_1^2(2x-1)dx=\\dfrac13+2=\\dfrac{7}{3}\\).",
+   "explain_vi": "Đáp án b. Tách tại 1: \\(\\displaystyle\\int_0^1x^2dx+\\int_1^2(2x-1)dx=\\dfrac13+2=\\dfrac{7}{3}\\).",
+   "images": [],
+   "id": "9ede5bcb15b9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(f\\) has a continuous derivative, \\(f(#)=#\\) and \\(\\displaystyle\\int_{#}^{#}f'(x)\\,dx=-#\\). Then \\(f(#)=\\)…",
+   "en": "\\(f\\) has a continuous derivative, \\(f(0)=7\\) and \\(\\displaystyle\\int_{0}^{2}f'(x)\\,dx=-4\\). Then \\(f(2)=\\)…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">Hàm số</b> \\(f\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"differentiable\">có đạo hàm</b> liên tục, \\(f(0)=7\\) và \\(\\displaystyle\\int_{0}^{2}f'(x)\\,dx=-4\\). Khi đó \\(f(2)=\\)…",
+   "options": [
+    "\\(11\\)",
+    "\\(3\\)",
+    "\\(-4\\)",
+    "\\(-11\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\displaystyle\\int_{0}^{2}f'(x)dx=f(2)-f(0)\\Rightarrow f(2)=7+-4=3\\).",
+   "explain_vi": "Đáp án b. \\(\\displaystyle\\int_{0}^{2}f'(x)dx=f(2)-f(0)\\Rightarrow f(2)=7+-4=3\\).",
+   "images": [],
+   "id": "ea3f03d779e4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "A car moving at \\(#\\ \\text{m/s}\\) brakes; its velocity is \\(v(t)=#-#t\\ (\\text{m/s})\\). How far does it go from braking until it stops?",
+   "en": "A car moving at \\(24\\ \\text{m/s}\\) brakes; its velocity is \\(v(t)=24-6t\\ (\\text{m/s})\\). How far does it go from braking until it stops?",
+   "vi": "Ô tô đang chạy \\(24\\ \\text{m/s}\\) thì hãm phanh; <b class=\"mbl-term\" tabindex=\"0\" data-en=\"velocity\">vận tốc</b> \\(v(t)=24-6t\\ (\\text{m/s})\\). Từ lúc hãm phanh đến khi dừng, ô tô đi được…",
+   "options": [
+    "\\(96\\ \\text{m}\\)",
+    "\\(72\\ \\text{m}\\)",
+    "\\(48\\ \\text{m}\\)",
+    "\\(4\\ \\text{m}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Stops when \\(v=0\\): \\(t=4\\). \\(s=\\int_0^{4}(24-6t)\\,dt=48\\).",
+   "explain_vi": "Đáp án c. Dừng khi \\(v=0\\): \\(t=4\\). \\(s=\\int_0^{4}(24-6t)\\,dt=48\\).",
+   "images": [],
+   "id": "96beee57bc43",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Water flows into a tank at the rate \\(r(t)=#+#t\\) (litres per minute). How much water flows in during the first \\(#\\) minutes?",
+   "en": "Water flows into a tank at the rate \\(r(t)=12+3t\\) (litres per minute). How much water flows in during the first \\(8\\) minutes?",
+   "vi": "Nước chảy vào bể với tốc độ \\(r(t)=12+3t\\) (lít/phút). Trong \\(8\\) phút đầu, lượng nước chảy vào bể là…",
+   "options": [
+    "\\(192\\ \\text{l}\\)",
+    "\\(36\\ \\text{l}\\)",
+    "\\(96\\ \\text{l}\\)",
+    "\\(288\\ \\text{l}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Total change \\(=\\int_0^{8}r(t)\\,dt=12\\cdot8+\\dfrac{3}{2}\\cdot8^2=192\\).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"total change\">Tổng lượng biến thiên</b> \\(=\\int_0^{8}r(t)\\,dt=12\\cdot8+\\dfrac{3}{2}\\cdot8^2=192\\).",
+   "images": [],
+   "id": "40136fa80dcc",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\displaystyle\\int_#^{#}#^x\\,dx=\\)…",
+   "en": "\\(\\displaystyle\\int_0^{1}2^x\\,dx=\\)…",
+   "vi": "\\(\\displaystyle\\int_0^{1}2^x\\,dx=\\)…",
+   "options": [
+    "\\(\\dfrac{1}{\\ln 2}\\)",
+    "\\(1\\)",
+    "\\(2\\ln2\\)",
+    "\\(\\ln 2\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\dfrac{2^x}{\\ln2}\\Big|_0^1=\\dfrac{2-1}{\\ln2}\\).",
+   "explain_vi": "Đáp án a. \\(\\dfrac{2^x}{\\ln2}\\Big|_0^1=\\dfrac{2-1}{\\ln2}\\).",
+   "images": [],
+   "id": "f9f92afe0634",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\displaystyle\\int_#^{#}|x-#|\\,dx=\\)…",
+   "en": "\\(\\displaystyle\\int_0^{4}|x-1|\\,dx=\\)…",
+   "vi": "\\(\\displaystyle\\int_0^{4}|x-1|\\,dx=\\)…",
+   "options": [
+    "\\(8\\)",
+    "\\(\\dfrac{11}{2}\\)",
+    "\\(5\\)",
+    "\\(4\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Split at \\(x=1\\): \\(\\int_0^{1}(1-x)dx+\\int_{1}^{4}(x-1)dx=\\dfrac{1}{2}+\\dfrac{9}{2}=5\\).",
+   "explain_vi": "Đáp án c. Tách tại \\(x=1\\): \\(\\int_0^{1}(1-x)dx+\\int_{1}^{4}(x-1)dx=\\dfrac{1}{2}+\\dfrac{9}{2}=5\\).",
+   "images": [],
+   "id": "fcf1211beb39",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\displaystyle\\int_{#}^{#}(-#x^{#}+#x)\\,dx=\\)…",
+   "en": "\\(\\displaystyle\\int_{0}^{1}(-3x^{2}+4x)\\,dx=\\)…",
+   "vi": "\\(\\displaystyle\\int_{0}^{1}(-3x^{2}+4x)\\,dx=\\)…",
+   "options": [
+    "\\(3\\)",
+    "\\(1\\)",
+    "\\(2\\)",
+    "\\(-1\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(F(x)=-x^{3}+2x^{2}\\); \\(F(1)-F(0)=1\\).",
+   "explain_vi": "Đáp án b. \\(F(x)=-x^{3}+2x^{2}\\); \\(F(1)-F(0)=1\\).",
+   "images": [],
+   "id": "442e8be0dc04",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\int_{#}^{#}f(x)\\,dx=#\\) and \\(\\int_{#}^{#}f(x)\\,dx=#\\). Then \\(\\int_{#}^{#}f(x)\\,dx=\\)…",
+   "en": "\\(\\int_{1}^{6}f(x)\\,dx=11\\) and \\(\\int_{1}^{3}f(x)\\,dx=4\\). Then \\(\\int_{3}^{6}f(x)\\,dx=\\)…",
+   "vi": "Cho \\(\\int_{1}^{6}f(x)\\,dx=11\\) và \\(\\int_{1}^{3}f(x)\\,dx=4\\). Khi đó \\(\\int_{3}^{6}f(x)\\,dx=\\)…",
+   "options": [
+    "\\(8\\)",
+    "\\(15\\)",
+    "\\(7\\)",
+    "\\(-7\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\int_{1}^{6}=\\int_{1}^{3}+\\int_{3}^{6}\\Rightarrow 11-4=7\\).",
+   "explain_vi": "Đáp án c. \\(\\int_{1}^{6}=\\int_{1}^{3}+\\int_{3}^{6}\\Rightarrow 11-4=7\\).",
+   "images": [],
+   "id": "2a488057c25c",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\int_{#}^{#}f(x)\\,dx=#\\). Then \\(\\int_{#}^{#}f(x)\\,dx=\\)…",
+   "en": "\\(\\int_{2}^{5}f(x)\\,dx=5\\). Then \\(\\int_{5}^{2}f(x)\\,dx=\\)…",
+   "vi": "Cho \\(\\int_{2}^{5}f(x)\\,dx=5\\). Khi đó \\(\\int_{5}^{2}f(x)\\,dx=\\)…",
+   "options": [
+    "\\(6\\)",
+    "\\(5\\)",
+    "\\(-5\\)",
+    "\\(-4\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\int_b^a=-\\int_a^b\\), so the result is \\(1\\cdot(-5)=-5\\).",
+   "explain_vi": "Đáp án c. \\(\\int_b^a=-\\int_a^b\\) nên kết quả là \\(1\\cdot(-5)=-5\\).",
+   "images": [],
+   "id": "4e42ae2adc63",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\int_{#}^{#}f(x)\\,dx=-#\\), \\(\\int_{#}^{#}g(x)\\,dx=-#\\). Then \\(\\displaystyle\\int_{#}^{#}[# f(x)- g(x)]\\,dx=\\)…",
+   "en": "\\(\\int_{0}^{2}f(x)\\,dx=-3\\), \\(\\int_{0}^{2}g(x)\\,dx=-1\\). Then \\(\\displaystyle\\int_{0}^{2}[3 f(x)- g(x)]\\,dx=\\)…",
+   "vi": "Cho \\(\\int_{0}^{2}f(x)\\,dx=-3\\), \\(\\int_{0}^{2}g(x)\\,dx=-1\\). Khi đó \\(\\displaystyle\\int_{0}^{2}[3 f(x)- g(x)]\\,dx=\\)…",
+   "options": [
+    "\\(0\\)",
+    "\\(-10\\)",
+    "\\(-4\\)",
+    "\\(-8\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Linearity: \\(3\\cdot-3+(-1)\\cdot(-1)=-8\\).",
+   "explain_vi": "Đáp án d. Tính chất tuyến tính: \\(3\\cdot-3+(-1)\\cdot(-1)=-8\\).",
+   "images": [],
+   "id": "35400b9c165c",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "A car moving at \\(#\\ \\text{m/s}\\) brakes; its velocity is \\(v(t)=#-#t\\ (\\text{m/s})\\). How far does it go from braking until it stops?",
+   "en": "A car moving at \\(12\\ \\text{m/s}\\) brakes; its velocity is \\(v(t)=12-3t\\ (\\text{m/s})\\). How far does it go from braking until it stops?",
+   "vi": "Ô tô đang chạy \\(12\\ \\text{m/s}\\) thì hãm phanh; <b class=\"mbl-term\" tabindex=\"0\" data-en=\"velocity\">vận tốc</b> \\(v(t)=12-3t\\ (\\text{m/s})\\). Từ lúc hãm phanh đến khi dừng, ô tô đi được…",
+   "options": [
+    "\\(24\\ \\text{m}\\)",
+    "\\(4\\ \\text{m}\\)",
+    "\\(48\\ \\text{m}\\)",
+    "\\(36\\ \\text{m}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Stops when \\(v=0\\): \\(t=4\\). \\(s=\\int_0^{4}(12-3t)\\,dt=24\\).",
+   "explain_vi": "Đáp án a. Dừng khi \\(v=0\\): \\(t=4\\). \\(s=\\int_0^{4}(12-3t)\\,dt=24\\).",
+   "images": [],
+   "id": "f4856e6613c7",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Water flows into a tank at the rate \\(r(t)=#+#t\\) (litres per minute). How much water flows in during the first \\(#\\) minutes?",
+   "en": "Water flows into a tank at the rate \\(r(t)=10+1t\\) (litres per minute). How much water flows in during the first \\(20\\) minutes?",
+   "vi": "Nước chảy vào bể với tốc độ \\(r(t)=10+1t\\) (lít/phút). Trong \\(20\\) phút đầu, lượng nước chảy vào bể là…",
+   "options": [
+    "\\(30\\ \\text{l}\\)",
+    "\\(600\\ \\text{l}\\)",
+    "\\(200\\ \\text{l}\\)",
+    "\\(400\\ \\text{l}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Total change \\(=\\int_0^{20}r(t)\\,dt=10\\cdot20+\\dfrac{1}{2}\\cdot20^2=400\\).",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"total change\">Tổng lượng biến thiên</b> \\(=\\int_0^{20}r(t)\\,dt=10\\cdot20+\\dfrac{1}{2}\\cdot20^2=400\\).",
+   "images": [],
+   "id": "50d5a368e153",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\displaystyle\\int_#^{#}|x-#|\\,dx=\\)…",
+   "en": "\\(\\displaystyle\\int_0^{4}|x-2|\\,dx=\\)…",
+   "vi": "\\(\\displaystyle\\int_0^{4}|x-2|\\,dx=\\)…",
+   "options": [
+    "\\(0\\)",
+    "\\(\\dfrac{9}{2}\\)",
+    "\\(8\\)",
+    "\\(4\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Split at \\(x=2\\): \\(\\int_0^{2}(2-x)dx+\\int_{2}^{4}(x-2)dx=2+2=4\\).",
+   "explain_vi": "Đáp án d. Tách tại \\(x=2\\): \\(\\int_0^{2}(2-x)dx+\\int_{2}^{4}(x-2)dx=2+2=4\\).",
+   "images": [],
+   "id": "05e97f2a62e7",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\displaystyle\\int_#^{\\frac{\\pi}{#}}\\dfrac{#}{\\cos^#x}\\,dx=\\)…",
+   "en": "\\(\\displaystyle\\int_0^{\\frac{\\pi}{4}}\\dfrac{1}{\\cos^2x}\\,dx=\\)…",
+   "vi": "\\(\\displaystyle\\int_0^{\\frac{\\pi}{4}}\\dfrac{1}{\\cos^2x}\\,dx=\\)…",
+   "options": [
+    "\\(\\dfrac{\\pi}{4}\\)",
+    "\\(1\\)",
+    "\\(0\\)",
+    "\\(-1\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\tan x\\Big|_0^{\\pi/4}=1\\).",
+   "explain_vi": "Đáp án b. \\(\\tan x\\Big|_0^{\\pi/4}=1\\).",
+   "images": [],
+   "id": "c8d2dd524a5a",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\displaystyle\\int_{#}^{#}(x^{#}+x)\\,dx=\\)…",
+   "en": "\\(\\displaystyle\\int_{0}^{2}(x^{2}+x)\\,dx=\\)…",
+   "vi": "\\(\\displaystyle\\int_{0}^{2}(x^{2}+x)\\,dx=\\)…",
+   "options": [
+    "\\(\\dfrac{14}{3}\\)",
+    "\\(\\dfrac{17}{3}\\)",
+    "\\(-\\dfrac{14}{3}\\)",
+    "\\(6\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(F(x)=\\dfrac{1}{3}x^{3}+\\dfrac{1}{2}x^{2}\\); \\(F(2)-F(0)=\\dfrac{14}{3}\\).",
+   "explain_vi": "Đáp án a. \\(F(x)=\\dfrac{1}{3}x^{3}+\\dfrac{1}{2}x^{2}\\); \\(F(2)-F(0)=\\dfrac{14}{3}\\).",
+   "images": [],
+   "id": "90727f4f6773",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\int_{#}^{#}f(x)\\,dx=#\\) and \\(\\int_{#}^{#}f(x)\\,dx=#\\). Then \\(\\int_{#}^{#}f(x)\\,dx=\\)…",
+   "en": "\\(\\int_{0}^{3}f(x)\\,dx=4\\) and \\(\\int_{0}^{1}f(x)\\,dx=2\\). Then \\(\\int_{1}^{3}f(x)\\,dx=\\)…",
+   "vi": "Cho \\(\\int_{0}^{3}f(x)\\,dx=4\\) và \\(\\int_{0}^{1}f(x)\\,dx=2\\). Khi đó \\(\\int_{1}^{3}f(x)\\,dx=\\)…",
+   "options": [
+    "\\(2\\)",
+    "\\(-2\\)",
+    "\\(3\\)",
+    "\\(6\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\int_{0}^{3}=\\int_{0}^{1}+\\int_{1}^{3}\\Rightarrow 4-2=2\\).",
+   "explain_vi": "Đáp án a. \\(\\int_{0}^{3}=\\int_{0}^{1}+\\int_{1}^{3}\\Rightarrow 4-2=2\\).",
+   "images": [],
+   "id": "a893f8320fb7",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\int_{#}^{#}f(x)\\,dx=#\\), \\(\\int_{#}^{#}g(x)\\,dx=#\\). Then \\(\\displaystyle\\int_{#}^{#}[# f(x)- g(x)]\\,dx=\\)…",
+   "en": "\\(\\int_{0}^{2}f(x)\\,dx=4\\), \\(\\int_{0}^{2}g(x)\\,dx=0\\). Then \\(\\displaystyle\\int_{0}^{2}[3 f(x)- g(x)]\\,dx=\\)…",
+   "vi": "Cho \\(\\int_{0}^{2}f(x)\\,dx=4\\), \\(\\int_{0}^{2}g(x)\\,dx=0\\). Khi đó \\(\\displaystyle\\int_{0}^{2}[3 f(x)- g(x)]\\,dx=\\)…",
+   "options": [
+    "\\(4\\)",
+    "\\(12\\)",
+    "\\(-4\\)",
+    "\\(13\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Linearity: \\(3\\cdot4+(-1)\\cdot(0)=12\\).",
+   "explain_vi": "Đáp án b. Tính chất tuyến tính: \\(3\\cdot4+(-1)\\cdot(0)=12\\).",
+   "images": [],
+   "id": "103b62c68b5c",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\int_{#}^{#}f(x)\\,dx=#\\). Then \\(\\int_{#}^{#}#f(x)\\,dx=\\)…",
+   "en": "\\(\\int_{1}^{4}f(x)\\,dx=5\\). Then \\(\\int_{4}^{1}2f(x)\\,dx=\\)…",
+   "vi": "Cho \\(\\int_{1}^{4}f(x)\\,dx=5\\). Khi đó \\(\\int_{4}^{1}2f(x)\\,dx=\\)…",
+   "options": [
+    "\\(10\\)",
+    "\\(5\\)",
+    "\\(-5\\)",
+    "\\(-10\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\int_b^a=-\\int_a^b\\), so the result is \\(2\\cdot(-5)=-10\\).",
+   "explain_vi": "Đáp án d. \\(\\int_b^a=-\\int_a^b\\) nên kết quả là \\(2\\cdot(-5)=-10\\).",
+   "images": [],
+   "id": "52498364267a",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "A car moving at \\(#\\ \\text{m/s}\\) brakes; its velocity is \\(v(t)=#-#t\\ (\\text{m/s})\\). How far does it go from braking until it stops?",
+   "en": "A car moving at \\(15\\ \\text{m/s}\\) brakes; its velocity is \\(v(t)=15-5t\\ (\\text{m/s})\\). How far does it go from braking until it stops?",
+   "vi": "Ô tô đang chạy \\(15\\ \\text{m/s}\\) thì hãm phanh; <b class=\"mbl-term\" tabindex=\"0\" data-en=\"velocity\">vận tốc</b> \\(v(t)=15-5t\\ (\\text{m/s})\\). Từ lúc hãm phanh đến khi dừng, ô tô đi được…",
+   "options": [
+    "\\(3\\ \\text{m}\\)",
+    "\\(37{,}5\\ \\text{m}\\)",
+    "\\(22{,}5\\ \\text{m}\\)",
+    "\\(45\\ \\text{m}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Stops when \\(v=0\\): \\(t=3\\). \\(s=\\int_0^{3}(15-5t)\\,dt=22.5\\).",
+   "explain_vi": "Đáp án c. Dừng khi \\(v=0\\): \\(t=3\\). \\(s=\\int_0^{3}(15-5t)\\,dt=22{,}5\\).",
+   "images": [],
+   "id": "f02a93c1c681",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Water flows into a tank at the rate \\(r(t)=#+#t\\) (litres per minute). How much water flows in during the first \\(#\\) minutes?",
+   "en": "Water flows into a tank at the rate \\(r(t)=20+2t\\) (litres per minute). How much water flows in during the first \\(10\\) minutes?",
+   "vi": "Nước chảy vào bể với tốc độ \\(r(t)=20+2t\\) (lít/phút). Trong \\(10\\) phút đầu, lượng nước chảy vào bể là…",
+   "options": [
+    "\\(300\\ \\text{l}\\)",
+    "\\(100\\ \\text{l}\\)",
+    "\\(400\\ \\text{l}\\)",
+    "\\(40\\ \\text{l}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Total change \\(=\\int_0^{10}r(t)\\,dt=20\\cdot10+\\dfrac{2}{2}\\cdot10^2=300\\).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"total change\">Tổng lượng biến thiên</b> \\(=\\int_0^{10}r(t)\\,dt=20\\cdot10+\\dfrac{2}{2}\\cdot10^2=300\\).",
+   "images": [],
+   "id": "defb89ba4790",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\displaystyle\\int_#^{#}|x-#|\\,dx=\\)…",
+   "en": "\\(\\displaystyle\\int_0^{5}|x-2|\\,dx=\\)…",
+   "vi": "\\(\\displaystyle\\int_0^{5}|x-2|\\,dx=\\)…",
+   "options": [
+    "\\(\\dfrac{5}{2}\\)",
+    "\\(\\dfrac{25}{2}\\)",
+    "\\(7\\)",
+    "\\(\\dfrac{13}{2}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Split at \\(x=2\\): \\(\\int_0^{2}(2-x)dx+\\int_{2}^{5}(x-2)dx=2+\\dfrac{9}{2}=\\dfrac{13}{2}\\).",
+   "explain_vi": "Đáp án d. Tách tại \\(x=2\\): \\(\\int_0^{2}(2-x)dx+\\int_{2}^{5}(x-2)dx=2+\\dfrac{9}{2}=\\dfrac{13}{2}\\).",
+   "images": [],
+   "id": "9853dc2279aa",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\displaystyle\\int_#^{e}\\dfrac{#}{x}\\,dx=\\)…",
+   "en": "\\(\\displaystyle\\int_1^{e}\\dfrac{1}{x}\\,dx=\\)…",
+   "vi": "\\(\\displaystyle\\int_1^{e}\\dfrac{1}{x}\\,dx=\\)…",
+   "options": [
+    "\\(\\dfrac{1}{e}-1\\)",
+    "\\(1\\)",
+    "\\(e-1\\)",
+    "\\(0\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\ln|x|\\Big|_1^{e}=1\\).",
+   "explain_vi": "Đáp án b. \\(\\ln|x|\\Big|_1^{e}=1\\).",
+   "images": [],
+   "id": "0eae4e58ce59",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\displaystyle\\int_{#}^{#}(#x^{#}-#x-#)\\,dx=\\)…",
+   "en": "\\(\\displaystyle\\int_{0}^{1}(3x^{2}-4x-2)\\,dx=\\)…",
+   "vi": "\\(\\displaystyle\\int_{0}^{1}(3x^{2}-4x-2)\\,dx=\\)…",
+   "options": [
+    "\\(-3\\)",
+    "\\(-1\\)",
+    "\\(-2\\)",
+    "\\(3\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(F(x)=x^{3}-2x^{2}-2x\\); \\(F(1)-F(0)=-3\\).",
+   "explain_vi": "Đáp án a. \\(F(x)=x^{3}-2x^{2}-2x\\); \\(F(1)-F(0)=-3\\).",
+   "images": [],
+   "id": "94e7b4ecf14a",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\int_{#}^{#}f(x)\\,dx=#\\) and \\(\\int_{#}^{#}f(x)\\,dx=-#\\). Then \\(\\int_{#}^{#}f(x)\\,dx=\\)…",
+   "en": "\\(\\int_{0}^{3}f(x)\\,dx=1\\) and \\(\\int_{0}^{1}f(x)\\,dx=-1\\). Then \\(\\int_{1}^{3}f(x)\\,dx=\\)…",
+   "vi": "Cho \\(\\int_{0}^{3}f(x)\\,dx=1\\) và \\(\\int_{0}^{1}f(x)\\,dx=-1\\). Khi đó \\(\\int_{1}^{3}f(x)\\,dx=\\)…",
+   "options": [
+    "\\(3\\)",
+    "\\(0\\)",
+    "\\(2\\)",
+    "\\(-2\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\int_{0}^{3}=\\int_{0}^{1}+\\int_{1}^{3}\\Rightarrow 1--1=2\\).",
+   "explain_vi": "Đáp án c. \\(\\int_{0}^{3}=\\int_{0}^{1}+\\int_{1}^{3}\\Rightarrow 1--1=2\\).",
+   "images": [],
+   "id": "f5bf11591d81",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\int_{#}^{#}f(x)\\,dx=#\\). Then \\(\\int_{#}^{#}f(x)\\,dx=\\)…",
+   "en": "\\(\\int_{0}^{3}f(x)\\,dx=9\\). Then \\(\\int_{3}^{0}f(x)\\,dx=\\)…",
+   "vi": "Cho \\(\\int_{0}^{3}f(x)\\,dx=9\\). Khi đó \\(\\int_{3}^{0}f(x)\\,dx=\\)…",
+   "options": [
+    "\\(-8\\)",
+    "\\(-9\\)",
+    "\\(9\\)",
+    "\\(10\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\int_b^a=-\\int_a^b\\), so the result is \\(1\\cdot(-9)=-9\\).",
+   "explain_vi": "Đáp án b. \\(\\int_b^a=-\\int_a^b\\) nên kết quả là \\(1\\cdot(-9)=-9\\).",
+   "images": [],
+   "id": "112587b30726",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\int_{-#}^{#}f(x)\\,dx=#\\), \\(\\int_{-#}^{#}g(x)\\,dx=#\\). Then \\(\\displaystyle\\int_{-#}^{#}[# f(x)+ g(x)]\\,dx=\\)…",
+   "en": "\\(\\int_{-1}^{3}f(x)\\,dx=0\\), \\(\\int_{-1}^{3}g(x)\\,dx=3\\). Then \\(\\displaystyle\\int_{-1}^{3}[4 f(x)+ g(x)]\\,dx=\\)…",
+   "vi": "Cho \\(\\int_{-1}^{3}f(x)\\,dx=0\\), \\(\\int_{-1}^{3}g(x)\\,dx=3\\). Khi đó \\(\\displaystyle\\int_{-1}^{3}[4 f(x)+ g(x)]\\,dx=\\)…",
+   "options": [
+    "\\(-3\\)",
+    "\\(4\\)",
+    "\\(12\\)",
+    "\\(3\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Linearity: \\(4\\cdot0+(1)\\cdot(3)=3\\).",
+   "explain_vi": "Đáp án d. Tính chất tuyến tính: \\(4\\cdot0+(1)\\cdot(3)=3\\).",
+   "images": [],
+   "id": "65aeb10d552d",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  }
+ ]
+}

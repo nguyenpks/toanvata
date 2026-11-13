@@ -1,0 +1,1029 @@
+{
+ "lesson": "g12-stats-02",
+ "grade": 12,
+ "no": 10,
+ "title": "Phương sai và độ lệch chuẩn",
+ "path": "lessons/grade12/statistics/variance-standard-deviation.html",
+ "items": [
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "A grouped sample has \\(n=#\\), \\(\\sum n_ix_i=#\\), \\(\\sum n_ix_i^#=#\\). Its standard deviation is…",
+   "en": "A grouped sample has \\(n=20\\), \\(\\sum n_ix_i=1000\\), \\(\\sum n_ix_i^2=50320\\). Its standard deviation is…",
+   "vi": "Một mẫu ghép nhóm có \\(n=20\\), \\(\\sum n_ix_i=1000\\), \\(\\sum n_ix_i^2=50320\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"standard deviation\">Độ lệch chuẩn</b> của mẫu là…",
+   "options": [
+    "\\(16\\)",
+    "\\(2516\\)",
+    "\\(5\\)",
+    "\\(4\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\bar x=50\\), \\(s^2=2516-50^2=16\\), \\(s=4\\).",
+   "explain_vi": "Đáp án d. \\(\\bar x=50\\), \\(s^2=2516-50^2=16\\), \\(s=4\\).",
+   "images": [],
+   "id": "873eeab70bf8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Rice yield (quintals/ha) of two fields. A: mean \\(#\\), \\(s=#\\). B: mean \\(#\\), \\(s=#\\). Which conclusion is right?",
+   "en": "Rice yield (quintals/ha) of two fields. A: mean \\(52\\), \\(s=1.2\\). B: mean \\(54\\), \\(s=2.5\\). Which conclusion is right?",
+   "vi": "Năng suất lúa (tạ/ha) của hai ruộng. A: trung bình \\(52\\), \\(s=1{,}2\\). B: trung bình \\(54\\), \\(s=2{,}5\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"conclusion\">Kết luận</b> nào đúng?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">A is more stable</span><span class=\"vi\">A ổn định hơn</span></span>",
+    "<span class=\"txi\"><span class=\"en\">B is more stable</span><span class=\"vi\">B ổn định hơn</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Both are equally stable</span><span class=\"vi\">Hai đối tượng ổn định như nhau</span></span>",
+    "<span class=\"txi\"><span class=\"en\">B is more stable because its mean is larger</span><span class=\"vi\">B ổn định hơn vì có trung bình lớn hơn</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. The smaller standard deviation means the more stable.",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"standard deviation\">Độ lệch chuẩn</b> nhỏ hơn thì ổn định hơn.",
+   "images": [],
+   "id": "18ad666c96ae",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "The table shows test scores: Score\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)TotalStudents\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(n=#\\) The variance \\(s^#\\) is…",
+   "en": "The table shows test scores: <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Score</th><th scope=\"col\">\\([100;\\,104)\\)</th><th scope=\"col\">\\([104;\\,108)\\)</th><th scope=\"col\">\\([108;\\,112)\\)</th><th scope=\"col\">\\([112;\\,116)\\)</th><td class=\"mbl-freq-tot\">Total</td></tr><tr><th scope=\"row\">Students</th><td>\\(11\\)</td><td>\\(12\\)</td><td>\\(3\\)</td><td>\\(4\\)</td><td class=\"mbl-freq-tot\">\\(n=30\\)</td></tr></tbody></table></div> The variance \\(s^2\\) is…",
+   "vi": "Bảng sau cho biết <b class=\"mbl-term\" tabindex=\"0\" data-en=\"test point\">điểm kiểm tra</b>: <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Điểm</th><th scope=\"col\">\\([100;\\,104)\\)</th><th scope=\"col\">\\([104;\\,108)\\)</th><th scope=\"col\">\\([108;\\,112)\\)</th><th scope=\"col\">\\([112;\\,116)\\)</th><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\">Số học sinh</th><td>\\(11\\)</td><td>\\(12\\)</td><td>\\(3\\)</td><td>\\(4\\)</td><td class=\"mbl-freq-tot\">\\(n=30\\)</td></tr></tbody></table></div> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"variance\">Phương sai</b> \\(s^2\\) bằng…",
+   "options": [
+    "\\(11252\\)",
+    "\\(16\\)",
+    "\\(4\\)",
+    "\\(32\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\bar x=106\\), \\(s^2=11252-106^2=16\\).",
+   "explain_vi": "Đáp án b. \\(\\bar x=106\\), \\(s^2=11252-106^2=16\\).",
+   "images": [],
+   "id": "35c7e8c28de0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "For the table Group\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)TotalFrequency \\(n_i\\)\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(n=#\\) the variance is \\(s^#=#\\).",
+   "en": "For the table <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Group</th><th scope=\"col\">\\([10;\\,12)\\)</th><th scope=\"col\">\\([12;\\,14)\\)</th><th scope=\"col\">\\([14;\\,16)\\)</th><th scope=\"col\">\\([16;\\,18)\\)</th><td class=\"mbl-freq-tot\">Total</td></tr><tr><th scope=\"row\">Frequency \\(n_i\\)</th><td>\\(4\\)</td><td>\\(9\\)</td><td>\\(6\\)</td><td>\\(5\\)</td><td class=\"mbl-freq-tot\">\\(n=24\\)</td></tr></tbody></table></div> the variance is \\(s^2=4\\).",
+   "vi": "Với <b class=\"mbl-term\" tabindex=\"0\" data-en=\"denominator\">mẫu số</b> liệu <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Nhóm</th><th scope=\"col\">\\([10;\\,12)\\)</th><th scope=\"col\">\\([12;\\,14)\\)</th><th scope=\"col\">\\([14;\\,16)\\)</th><th scope=\"col\">\\([16;\\,18)\\)</th><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\"><b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">Tần số</b> \\(n_i\\)</th><td>\\(4\\)</td><td>\\(9\\)</td><td>\\(6\\)</td><td>\\(5\\)</td><td class=\"mbl-freq-tot\">\\(n=24\\)</td></tr></tbody></table></div> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"variance\">phương sai</b> là \\(s^2=4\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "\\(\\bar x=14\\), \\(s^2=4\\).",
+   "explain_vi": "\\(\\bar x=14\\), \\(s^2=4\\).",
+   "images": [],
+   "id": "e7292aae9e40",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "If every value of a sample increases by #, the standard deviation does not change.",
+   "en": "If every value of a sample increases by 5, the standard deviation does not change.",
+   "vi": "Nếu cộng thêm 5 vào mọi giá trị của mẫu thì <b class=\"mbl-term\" tabindex=\"0\" data-en=\"standard deviation\">độ lệch chuẩn</b> không đổi.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "Adding \\(c\\): \\(s\\) unchanged. Multiplying by \\(k\\gt0\\): \\(s\\) times \\(k\\), \\(s^2\\) times \\(k^2\\). \\(s\\) has the data unit.",
+   "explain_vi": "Cộng \\(c\\): \\(s\\) không đổi. Nhân \\(k\\gt0\\): \\(s\\) nhân \\(k\\), \\(s^2\\) nhân \\(k^2\\). \\(s\\) cùng đơn vị với số liệu.",
+   "images": [],
+   "id": "9add5875c2fe",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "Find the standard deviation of the grouped data Group\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)TotalFrequency \\(n_i\\)\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(n=#\\) (round to the hundredths).",
+   "en": "Find the standard deviation of the grouped data <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Group</th><th scope=\"col\">\\([0;\\,5)\\)</th><th scope=\"col\">\\([5;\\,10)\\)</th><th scope=\"col\">\\([10;\\,15)\\)</th><th scope=\"col\">\\([15;\\,20)\\)</th><td class=\"mbl-freq-tot\">Total</td></tr><tr><th scope=\"row\">Frequency \\(n_i\\)</th><td>\\(7\\)</td><td>\\(5\\)</td><td>\\(8\\)</td><td>\\(6\\)</td><td class=\"mbl-freq-tot\">\\(n=26\\)</td></tr></tbody></table></div> (round to the hundredths).",
+   "vi": "Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"standard deviation\">độ lệch chuẩn</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"grouped data\">mẫu số liệu ghép nhóm</b> <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Nhóm</th><th scope=\"col\">\\([0;\\,5)\\)</th><th scope=\"col\">\\([5;\\,10)\\)</th><th scope=\"col\">\\([10;\\,15)\\)</th><th scope=\"col\">\\([15;\\,20)\\)</th><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\"><b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">Tần số</b> \\(n_i\\)</th><td>\\(7\\)</td><td>\\(5\\)</td><td>\\(8\\)</td><td>\\(6\\)</td><td class=\"mbl-freq-tot\">\\(n=26\\)</td></tr></tbody></table></div> (làm tròn đến hàng phần trăm).",
+   "options": [],
+   "answer": "5.59",
+   "explain_en": "\\(s^2=31.25\\), \\(s=\\sqrt{31.25}\\approx5.59\\).",
+   "explain_vi": "\\(s^2=31{,}25\\), \\(s=\\sqrt{31{,}25}\\approx5{,}59\\).",
+   "images": [],
+   "id": "b30ee2aa3331",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "Find the variance of the grouped data Group\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)TotalFrequency \\(n_i\\)\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(n=#\\)",
+   "en": "Find the variance of the grouped data <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Group</th><th scope=\"col\">\\([0;\\,2)\\)</th><th scope=\"col\">\\([2;\\,4)\\)</th><th scope=\"col\">\\([4;\\,6)\\)</th><th scope=\"col\">\\([6;\\,8)\\)</th><td class=\"mbl-freq-tot\">Total</td></tr><tr><th scope=\"row\">Frequency \\(n_i\\)</th><td>\\(12\\)</td><td>\\(6\\)</td><td>\\(8\\)</td><td>\\(6\\)</td><td class=\"mbl-freq-tot\">\\(n=32\\)</td></tr></tbody></table></div>",
+   "vi": "Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"variance\">phương sai</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"grouped data\">mẫu số liệu ghép nhóm</b> <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Nhóm</th><th scope=\"col\">\\([0;\\,2)\\)</th><th scope=\"col\">\\([2;\\,4)\\)</th><th scope=\"col\">\\([4;\\,6)\\)</th><th scope=\"col\">\\([6;\\,8)\\)</th><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\"><b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">Tần số</b> \\(n_i\\)</th><td>\\(12\\)</td><td>\\(6\\)</td><td>\\(8\\)</td><td>\\(6\\)</td><td class=\"mbl-freq-tot\">\\(n=32\\)</td></tr></tbody></table></div>",
+   "options": [],
+   "answer": "5.25",
+   "explain_en": "\\(\\bar x=3.5\\), \\(s^2=5.25\\).",
+   "explain_vi": "\\(\\bar x=3{,}5\\), \\(s^2=5{,}25\\).",
+   "images": [],
+   "id": "a3c8f9362853",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "A grouped frequency table: Group\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)TotalFrequency \\(n_i\\)\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(n=#\\). The standard deviation \\(s\\) is…",
+   "en": "A grouped frequency table: <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Group</th><th scope=\"col\">\\([20;\\,22)\\)</th><th scope=\"col\">\\([22;\\,24)\\)</th><th scope=\"col\">\\([24;\\,26)\\)</th><th scope=\"col\">\\([26;\\,28)\\)</th><td class=\"mbl-freq-tot\">Total</td></tr><tr><th scope=\"row\">Frequency \\(n_i\\)</th><td>\\(2\\)</td><td>\\(4\\)</td><td>\\(6\\)</td><td>\\(8\\)</td><td class=\"mbl-freq-tot\">\\(n=20\\)</td></tr></tbody></table></div>. The standard deviation \\(s\\) is…",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"grouped data\">mẫu số liệu ghép nhóm</b>: <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Nhóm</th><th scope=\"col\">\\([20;\\,22)\\)</th><th scope=\"col\">\\([22;\\,24)\\)</th><th scope=\"col\">\\([24;\\,26)\\)</th><th scope=\"col\">\\([26;\\,28)\\)</th><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\"><b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">Tần số</b> \\(n_i\\)</th><td>\\(2\\)</td><td>\\(4\\)</td><td>\\(6\\)</td><td>\\(8\\)</td><td class=\"mbl-freq-tot\">\\(n=20\\)</td></tr></tbody></table></div>. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"standard deviation\">Độ lệch chuẩn</b> \\(s\\) của mẫu là…",
+   "options": [
+    "\\(4\\)",
+    "\\(25\\)",
+    "\\(3\\)",
+    "\\(2\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(s^2=4\\), so \\(s=\\sqrt{4}=2\\).",
+   "explain_vi": "Đáp án d. \\(s^2=4\\) nên \\(s=\\sqrt{4}=2\\).",
+   "images": [],
+   "id": "e3fba82c83a8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "A grouped frequency table: Group\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)TotalFrequency \\(n_i\\)\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(n=#\\). The variance \\(s^#\\) of the sample is…",
+   "en": "A grouped frequency table: <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Group</th><th scope=\"col\">\\([10;\\,15)\\)</th><th scope=\"col\">\\([15;\\,20)\\)</th><th scope=\"col\">\\([20;\\,25)\\)</th><th scope=\"col\">\\([25;\\,30)\\)</th><td class=\"mbl-freq-tot\">Total</td></tr><tr><th scope=\"row\">Frequency \\(n_i\\)</th><td>\\(9\\)</td><td>\\(8\\)</td><td>\\(6\\)</td><td>\\(12\\)</td><td class=\"mbl-freq-tot\">\\(n=35\\)</td></tr></tbody></table></div>. The variance \\(s^2\\) of the sample is…",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"grouped data\">mẫu số liệu ghép nhóm</b>: <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Nhóm</th><th scope=\"col\">\\([10;\\,15)\\)</th><th scope=\"col\">\\([15;\\,20)\\)</th><th scope=\"col\">\\([20;\\,25)\\)</th><th scope=\"col\">\\([25;\\,30)\\)</th><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\"><b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">Tần số</b> \\(n_i\\)</th><td>\\(9\\)</td><td>\\(8\\)</td><td>\\(6\\)</td><td>\\(12\\)</td><td class=\"mbl-freq-tot\">\\(n=35\\)</td></tr></tbody></table></div>. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"variance\">Phương sai</b> \\(s^2\\) của mẫu là…",
+   "options": [
+    "\\(36\\)",
+    "\\(6\\)",
+    "\\(37\\)",
+    "<span class=\"txi\"><span class=\"en\">\\(456.25\\)</span><span class=\"vi\">\\(456{,}25\\)</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Midpoints \\(12.5, 17.5, 22.5, 27.5\\); \\(\\bar x=20.5\\); \\(s^2=\\dfrac1n\\sum n_ix_i^2-\\bar x^2=456.25-420.25=36\\).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint (representative value)\">Giá trị đại diện</b> \\(12{,}5, 17{,}5, 22{,}5, 27{,}5\\); \\(\\bar x=20{,}5\\); \\(s^2=\\dfrac1n\\sum n_ix_i^2-\\bar x^2=456{,}25-420{,}25=36\\).",
+   "images": [],
+   "id": "a103a6f97c48",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "A grouped frequency table: Group\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)TotalFrequency \\(n_i\\)\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(n=#\\). The variance \\(s^#\\) of the sample is…",
+   "en": "A grouped frequency table: <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Group</th><th scope=\"col\">\\([50;\\,60)\\)</th><th scope=\"col\">\\([60;\\,70)\\)</th><th scope=\"col\">\\([70;\\,80)\\)</th><th scope=\"col\">\\([80;\\,90)\\)</th><th scope=\"col\">\\([90;\\,100)\\)</th><td class=\"mbl-freq-tot\">Total</td></tr><tr><th scope=\"row\">Frequency \\(n_i\\)</th><td>\\(11\\)</td><td>\\(4\\)</td><td>\\(11\\)</td><td>\\(8\\)</td><td>\\(6\\)</td><td class=\"mbl-freq-tot\">\\(n=40\\)</td></tr></tbody></table></div>. The variance \\(s^2\\) of the sample is…",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"grouped data\">mẫu số liệu ghép nhóm</b>: <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Nhóm</th><th scope=\"col\">\\([50;\\,60)\\)</th><th scope=\"col\">\\([60;\\,70)\\)</th><th scope=\"col\">\\([70;\\,80)\\)</th><th scope=\"col\">\\([80;\\,90)\\)</th><th scope=\"col\">\\([90;\\,100)\\)</th><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\"><b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">Tần số</b> \\(n_i\\)</th><td>\\(11\\)</td><td>\\(4\\)</td><td>\\(11\\)</td><td>\\(8\\)</td><td>\\(6\\)</td><td class=\"mbl-freq-tot\">\\(n=40\\)</td></tr></tbody></table></div>. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"variance\">Phương sai</b> \\(s^2\\) của mẫu là…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(198.75\\)</span><span class=\"vi\">\\(198{,}75\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(14.06\\)</span><span class=\"vi\">\\(14{,}06\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(197.75\\)</span><span class=\"vi\">\\(197{,}75\\)</span></span>",
+    "\\(5600\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Midpoints \\(55, 65, 75, 85, 95\\); \\(\\bar x=73.5\\); \\(s^2=\\dfrac1n\\sum n_ix_i^2-\\bar x^2=5600-5402.25=197.75\\).",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint (representative value)\">Giá trị đại diện</b> \\(55, 65, 75, 85, 95\\); \\(\\bar x=73{,}5\\); \\(s^2=\\dfrac1n\\sum n_ix_i^2-\\bar x^2=5600-5402{,}25=197{,}75\\).",
+   "images": [],
+   "id": "2ceb04d4d0b9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Every value of a sample with \\(s=#\\) is multiplied by #. The new standard deviation is…",
+   "en": "Every value of a sample with \\(s=1.5\\) is multiplied by 2. The new standard deviation is…",
+   "vi": "Mọi giá trị của một mẫu có \\(s=1{,}5\\) đều được nhân với 2. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"standard deviation\">Độ lệch chuẩn</b> mới là…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(3.5\\)</span><span class=\"vi\">\\(3{,}5\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(1.5\\)</span><span class=\"vi\">\\(1{,}5\\)</span></span>",
+    "\\(3\\)",
+    "\\(6\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Multiplying by \\(k\\gt0\\) multiplies \\(s\\) by \\(k\\) and \\(s^2\\) by \\(k^2\\).",
+   "explain_vi": "Đáp án c. Nhân với \\(k\\gt0\\) thì \\(s\\) nhân \\(k\\), còn \\(s^2\\) nhân \\(k^2\\).",
+   "images": [],
+   "id": "44e54ed84e6d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "For a sample of size \\(n=#\\), the midpoints give \\(\\sum n_ix_i=#\\) and \\(\\sum n_ix_i^#=#\\). The variance is…",
+   "en": "For a sample of size \\(n=25\\), the midpoints give \\(\\sum n_ix_i=1950\\) and \\(\\sum n_ix_i^2=153000\\). The variance is…",
+   "vi": "Một mẫu có cỡ \\(n=25\\); theo các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint (representative value)\">giá trị đại diện</b>, \\(\\sum n_ix_i=1950\\) và \\(\\sum n_ix_i^2=153000\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"variance\">Phương sai</b> bằng…",
+   "options": [
+    "\\(36\\)",
+    "<span class=\"txi\"><span class=\"en\">\\(37.5\\)</span><span class=\"vi\">\\(37{,}5\\)</span></span>",
+    "\\(78\\)",
+    "\\(6120\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\bar x=78\\); \\(s^2=\\dfrac{153000}{25}-78^2=36\\).",
+   "explain_vi": "Đáp án a. \\(\\bar x=78\\); \\(s^2=\\dfrac{153000}{25}-78^2=36\\).",
+   "images": [],
+   "id": "a21ca0d89e97",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "For a sample of size \\(n=#\\), the midpoints give \\(\\sum n_ix_i=#\\) and \\(\\sum n_ix_i^#=#\\). The variance is…",
+   "en": "For a sample of size \\(n=40\\), the midpoints give \\(\\sum n_ix_i=1800\\) and \\(\\sum n_ix_i^2=81480\\). The variance is…",
+   "vi": "Một mẫu có cỡ \\(n=40\\); theo các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint (representative value)\">giá trị đại diện</b>, \\(\\sum n_ix_i=1800\\) và \\(\\sum n_ix_i^2=81480\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"variance\">Phương sai</b> bằng…",
+   "options": [
+    "\\(14\\)",
+    "\\(2037\\)",
+    "\\(12\\)",
+    "\\(45\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\bar x=45\\); \\(s^2=\\dfrac{81480}{40}-45^2=12\\).",
+   "explain_vi": "Đáp án c. \\(\\bar x=45\\); \\(s^2=\\dfrac{81480}{40}-45^2=12\\).",
+   "images": [],
+   "id": "a0fc79089cd7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The variance of a sample is \\(s^#=#\\) (cm\\(^#\\)). The standard deviation is…",
+   "en": "The variance of a sample is \\(s^2=0.81\\) (cm\\(^2\\)). The standard deviation is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"variance\">Phương sai</b> của một mẫu là \\(s^2=0{,}81\\) (cm\\(^2\\)). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"standard deviation\">Độ lệch chuẩn</b> là…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(1.8\\ \\text{cm}\\)</span><span class=\"vi\">\\(1{,}8\\ \\text{cm}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.81\\ \\text{cm}\\)</span><span class=\"vi\">\\(0{,}81\\ \\text{cm}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.405\\ \\text{cm}\\)</span><span class=\"vi\">\\(0{,}405\\ \\text{cm}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.9\\ \\text{cm}\\)</span><span class=\"vi\">\\(0{,}9\\ \\text{cm}\\)</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(s=\\sqrt{s^2}=0.9\\), in the same unit as the data.",
+   "explain_vi": "Đáp án d. \\(s=\\sqrt{s^2}=0{,}9\\), cùng đơn vị với số liệu.",
+   "images": [],
+   "id": "fad11ba12061",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Two rice fields: A has mean \\(#\\) and \\(s=#\\); B has mean \\(#\\) and \\(s=#\\) (yield (quintals per hectare)). Which is more stable yield?",
+   "en": "Two rice fields: A has mean \\(75\\) and \\(s=2.5\\); B has mean \\(74\\) and \\(s=1.2\\) (yield (quintals per hectare)). Which is more stable yield?",
+   "vi": "Hai ruộng lúa: A có trung bình \\(75\\), \\(s=2{,}5\\); B có trung bình \\(74\\), \\(s=1{,}2\\) (năng suất (tạ/ha)). Đối tượng nào năng suất ổn định hơn?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">Both are equally stable</span><span class=\"vi\">Hai mẫu ổn định như nhau</span></span>",
+    "<span class=\"txi\"><span class=\"en\">A: larger mean</span><span class=\"vi\">A: số trung bình lớn hơn</span></span>",
+    "<span class=\"txi\"><span class=\"en\">A: smaller standard deviation</span><span class=\"vi\">A: độ lệch chuẩn nhỏ hơn</span></span>",
+    "<span class=\"txi\"><span class=\"en\">B: smaller standard deviation</span><span class=\"vi\">B: độ lệch chuẩn nhỏ hơn</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Stability is measured by the spread: the smaller \\(s\\) wins.",
+   "explain_vi": "Đáp án d. Độ ổn định đo bằng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"dispersion (spread)\">độ phân tán</b>: \\(s\\) nhỏ hơn thì ổn định hơn.",
+   "images": [],
+   "id": "cffb9d934bc7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "A grouped sample has \\(n=#\\), \\(\\sum n_ix_i=#\\), \\(\\sum n_ix_i^#=#\\). Its standard deviation is…",
+   "en": "A grouped sample has \\(n=25\\), \\(\\sum n_ix_i=1000\\), \\(\\sum n_ix_i^2=40225\\). Its standard deviation is…",
+   "vi": "Một mẫu ghép nhóm có \\(n=25\\), \\(\\sum n_ix_i=1000\\), \\(\\sum n_ix_i^2=40225\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"standard deviation\">Độ lệch chuẩn</b> của mẫu là…",
+   "options": [
+    "\\(9\\)",
+    "\\(1609\\)",
+    "\\(4\\)",
+    "\\(3\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\bar x=40\\), \\(s^2=1609-40^2=9\\), \\(s=3\\).",
+   "explain_vi": "Đáp án d. \\(\\bar x=40\\), \\(s^2=1609-40^2=9\\), \\(s=3\\).",
+   "images": [],
+   "id": "d64166d06d40",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "The table shows heights of seedlings: Height (cm)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)TotalPlants\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(n=#\\) The variance \\(s^#\\) is…",
+   "en": "The table shows heights of seedlings: <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Height (cm)</th><th scope=\"col\">\\([100;\\,105)\\)</th><th scope=\"col\">\\([105;\\,110)\\)</th><th scope=\"col\">\\([110;\\,115)\\)</th><th scope=\"col\">\\([115;\\,120)\\)</th><td class=\"mbl-freq-tot\">Total</td></tr><tr><th scope=\"row\">Plants</th><td>\\(6\\)</td><td>\\(5\\)</td><td>\\(6\\)</td><td>\\(3\\)</td><td class=\"mbl-freq-tot\">\\(n=20\\)</td></tr></tbody></table></div> The variance \\(s^2\\) is…",
+   "vi": "Bảng sau cho biết <b class=\"mbl-term\" tabindex=\"0\" data-en=\"height\">chiều cao</b> cây giống: <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\"><b class=\"mbl-term\" tabindex=\"0\" data-en=\"height\">Chiều cao</b> (cm)</th><th scope=\"col\">\\([100;\\,105)\\)</th><th scope=\"col\">\\([105;\\,110)\\)</th><th scope=\"col\">\\([110;\\,115)\\)</th><th scope=\"col\">\\([115;\\,120)\\)</th><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\">Số cây</th><td>\\(6\\)</td><td>\\(5\\)</td><td>\\(6\\)</td><td>\\(3\\)</td><td class=\"mbl-freq-tot\">\\(n=20\\)</td></tr></tbody></table></div> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"variance\">Phương sai</b> \\(s^2\\) bằng…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(11908.75\\)</span><span class=\"vi\">\\(11908{,}75\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(5.27\\)</span><span class=\"vi\">\\(5{,}27\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(27.75\\)</span><span class=\"vi\">\\(27{,}75\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(55.5\\)</span><span class=\"vi\">\\(55{,}5\\)</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\bar x=109\\), \\(s^2=11908.75-109^2=27.75\\).",
+   "explain_vi": "Đáp án c. \\(\\bar x=109\\), \\(s^2=11908{,}75-109^2=27{,}75\\).",
+   "images": [],
+   "id": "e6804e14da23",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Volume (ml) of bottles filled by two machines. A: mean \\(#\\), \\(s=#\\). B: mean \\(#\\), \\(s=#\\). Which conclusion is right?",
+   "en": "Volume (ml) of bottles filled by two machines. A: mean \\(500\\), \\(s=4.2\\). B: mean \\(498\\), \\(s=3.1\\). Which conclusion is right?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"volume\">Thể tích</b> (ml) chai do hai máy chiết rót. A: trung bình \\(500\\), \\(s=4{,}2\\). B: trung bình \\(498\\), \\(s=3{,}1\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"conclusion\">Kết luận</b> nào đúng?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">B is more stable</span><span class=\"vi\">B ổn định hơn</span></span>",
+    "<span class=\"txi\"><span class=\"en\">A is more stable</span><span class=\"vi\">A ổn định hơn</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Both are equally stable</span><span class=\"vi\">Hai đối tượng ổn định như nhau</span></span>",
+    "<span class=\"txi\"><span class=\"en\">A is more stable because its mean is larger</span><span class=\"vi\">A ổn định hơn vì có trung bình lớn hơn</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. The smaller standard deviation means the more stable.",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"standard deviation\">Độ lệch chuẩn</b> nhỏ hơn thì ổn định hơn.",
+   "images": [],
+   "id": "3e616d91c8c1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "For the table Group\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)TotalFrequency \\(n_i\\)\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(n=#\\) the variance is \\(s^#=#\\).",
+   "en": "For the table <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Group</th><th scope=\"col\">\\([20;\\,24)\\)</th><th scope=\"col\">\\([24;\\,28)\\)</th><th scope=\"col\">\\([28;\\,32)\\)</th><th scope=\"col\">\\([32;\\,36)\\)</th><td class=\"mbl-freq-tot\">Total</td></tr><tr><th scope=\"row\">Frequency \\(n_i\\)</th><td>\\(5\\)</td><td>\\(6\\)</td><td>\\(9\\)</td><td>\\(12\\)</td><td class=\"mbl-freq-tot\">\\(n=32\\)</td></tr></tbody></table></div> the variance is \\(s^2=889\\).",
+   "vi": "Với <b class=\"mbl-term\" tabindex=\"0\" data-en=\"denominator\">mẫu số</b> liệu <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Nhóm</th><th scope=\"col\">\\([20;\\,24)\\)</th><th scope=\"col\">\\([24;\\,28)\\)</th><th scope=\"col\">\\([28;\\,32)\\)</th><th scope=\"col\">\\([32;\\,36)\\)</th><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\"><b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">Tần số</b> \\(n_i\\)</th><td>\\(5\\)</td><td>\\(6\\)</td><td>\\(9\\)</td><td>\\(12\\)</td><td class=\"mbl-freq-tot\">\\(n=32\\)</td></tr></tbody></table></div> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"variance\">phương sai</b> là \\(s^2=889\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "\\(\\bar x=29.5\\), \\(s^2=18.75\\).",
+   "explain_vi": "\\(\\bar x=29{,}5\\), \\(s^2=18{,}75\\).",
+   "images": [],
+   "id": "693fe365a5a5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "If every value of a sample is doubled, the variance is doubled.",
+   "en": "If every value of a sample is doubled, the variance is doubled.",
+   "vi": "Nếu nhân đôi mọi giá trị của mẫu thì <b class=\"mbl-term\" tabindex=\"0\" data-en=\"variance\">phương sai</b> cũng tăng gấp đôi.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "Adding \\(c\\): \\(s\\) unchanged. Multiplying by \\(k\\gt0\\): \\(s\\) times \\(k\\), \\(s^2\\) times \\(k^2\\). \\(s\\) has the data unit.",
+   "explain_vi": "Cộng \\(c\\): \\(s\\) không đổi. Nhân \\(k\\gt0\\): \\(s\\) nhân \\(k\\), \\(s^2\\) nhân \\(k^2\\). \\(s\\) cùng đơn vị với số liệu.",
+   "images": [],
+   "id": "c5525f4a3e8f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "Find the standard deviation of the grouped data Group\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)TotalFrequency \\(n_i\\)\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(n=#\\) (round to the hundredths).",
+   "en": "Find the standard deviation of the grouped data <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Group</th><th scope=\"col\">\\([40;\\,42)\\)</th><th scope=\"col\">\\([42;\\,44)\\)</th><th scope=\"col\">\\([44;\\,46)\\)</th><th scope=\"col\">\\([46;\\,48)\\)</th><td class=\"mbl-freq-tot\">Total</td></tr><tr><th scope=\"row\">Frequency \\(n_i\\)</th><td>\\(6\\)</td><td>\\(12\\)</td><td>\\(3\\)</td><td>\\(9\\)</td><td class=\"mbl-freq-tot\">\\(n=30\\)</td></tr></tbody></table></div> (round to the hundredths).",
+   "vi": "Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"standard deviation\">độ lệch chuẩn</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"grouped data\">mẫu số liệu ghép nhóm</b> <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Nhóm</th><th scope=\"col\">\\([40;\\,42)\\)</th><th scope=\"col\">\\([42;\\,44)\\)</th><th scope=\"col\">\\([44;\\,46)\\)</th><th scope=\"col\">\\([46;\\,48)\\)</th><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\"><b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">Tần số</b> \\(n_i\\)</th><td>\\(6\\)</td><td>\\(12\\)</td><td>\\(3\\)</td><td>\\(9\\)</td><td class=\"mbl-freq-tot\">\\(n=30\\)</td></tr></tbody></table></div> (làm tròn đến hàng phần trăm).",
+   "options": [],
+   "answer": "2.24",
+   "explain_en": "\\(s^2=5\\), \\(s=\\sqrt{5}\\approx2.24\\).",
+   "explain_vi": "\\(s^2=5\\), \\(s=\\sqrt{5}\\approx2{,}24\\).",
+   "images": [],
+   "id": "002330612b76",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "Find the variance of the grouped data Group\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)TotalFrequency \\(n_i\\)\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(n=#\\)",
+   "en": "Find the variance of the grouped data <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Group</th><th scope=\"col\">\\([100;\\,102)\\)</th><th scope=\"col\">\\([102;\\,104)\\)</th><th scope=\"col\">\\([104;\\,106)\\)</th><th scope=\"col\">\\([106;\\,108)\\)</th><th scope=\"col\">\\([108;\\,110)\\)</th><td class=\"mbl-freq-tot\">Total</td></tr><tr><th scope=\"row\">Frequency \\(n_i\\)</th><td>\\(5\\)</td><td>\\(6\\)</td><td>\\(4\\)</td><td>\\(4\\)</td><td>\\(6\\)</td><td class=\"mbl-freq-tot\">\\(n=25\\)</td></tr></tbody></table></div>",
+   "vi": "Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"variance\">phương sai</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"grouped data\">mẫu số liệu ghép nhóm</b> <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Nhóm</th><th scope=\"col\">\\([100;\\,102)\\)</th><th scope=\"col\">\\([102;\\,104)\\)</th><th scope=\"col\">\\([104;\\,106)\\)</th><th scope=\"col\">\\([106;\\,108)\\)</th><th scope=\"col\">\\([108;\\,110)\\)</th><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\"><b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">Tần số</b> \\(n_i\\)</th><td>\\(5\\)</td><td>\\(6\\)</td><td>\\(4\\)</td><td>\\(4\\)</td><td>\\(6\\)</td><td class=\"mbl-freq-tot\">\\(n=25\\)</td></tr></tbody></table></div>",
+   "options": [],
+   "answer": "8.64",
+   "explain_en": "\\(\\bar x=105\\), \\(s^2=8.64\\).",
+   "explain_vi": "\\(\\bar x=105\\), \\(s^2=8{,}64\\).",
+   "images": [],
+   "id": "1b6b961a8940",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "A grouped frequency table: Group\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)TotalFrequency \\(n_i\\)\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(n=#\\). The standard deviation \\(s\\) is…",
+   "en": "A grouped frequency table: <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Group</th><th scope=\"col\">\\([50;\\,52)\\)</th><th scope=\"col\">\\([52;\\,54)\\)</th><th scope=\"col\">\\([54;\\,56)\\)</th><th scope=\"col\">\\([56;\\,58)\\)</th><td class=\"mbl-freq-tot\">Total</td></tr><tr><th scope=\"row\">Frequency \\(n_i\\)</th><td>\\(4\\)</td><td>\\(2\\)</td><td>\\(8\\)</td><td>\\(2\\)</td><td class=\"mbl-freq-tot\">\\(n=16\\)</td></tr></tbody></table></div>. The standard deviation \\(s\\) is…",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"grouped data\">mẫu số liệu ghép nhóm</b>: <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Nhóm</th><th scope=\"col\">\\([50;\\,52)\\)</th><th scope=\"col\">\\([52;\\,54)\\)</th><th scope=\"col\">\\([54;\\,56)\\)</th><th scope=\"col\">\\([56;\\,58)\\)</th><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\"><b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">Tần số</b> \\(n_i\\)</th><td>\\(4\\)</td><td>\\(2\\)</td><td>\\(8\\)</td><td>\\(2\\)</td><td class=\"mbl-freq-tot\">\\(n=16\\)</td></tr></tbody></table></div>. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"standard deviation\">Độ lệch chuẩn</b> \\(s\\) của mẫu là…",
+   "options": [
+    "\\(3\\)",
+    "\\(54\\)",
+    "\\(2\\)",
+    "\\(4\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(s^2=4\\), so \\(s=\\sqrt{4}=2\\).",
+   "explain_vi": "Đáp án c. \\(s^2=4\\) nên \\(s=\\sqrt{4}=2\\).",
+   "images": [],
+   "id": "cd23d6b78ea9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "A grouped frequency table: Group\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)TotalFrequency \\(n_i\\)\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(n=#\\). The variance \\(s^#\\) of the sample is…",
+   "en": "A grouped frequency table: <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Group</th><th scope=\"col\">\\([20;\\,30)\\)</th><th scope=\"col\">\\([30;\\,40)\\)</th><th scope=\"col\">\\([40;\\,50)\\)</th><th scope=\"col\">\\([50;\\,60)\\)</th><td class=\"mbl-freq-tot\">Total</td></tr><tr><th scope=\"row\">Frequency \\(n_i\\)</th><td>\\(5\\)</td><td>\\(7\\)</td><td>\\(6\\)</td><td>\\(7\\)</td><td class=\"mbl-freq-tot\">\\(n=25\\)</td></tr></tbody></table></div>. The variance \\(s^2\\) of the sample is…",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"grouped data\">mẫu số liệu ghép nhóm</b>: <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Nhóm</th><th scope=\"col\">\\([20;\\,30)\\)</th><th scope=\"col\">\\([30;\\,40)\\)</th><th scope=\"col\">\\([40;\\,50)\\)</th><th scope=\"col\">\\([50;\\,60)\\)</th><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\"><b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">Tần số</b> \\(n_i\\)</th><td>\\(5\\)</td><td>\\(7\\)</td><td>\\(6\\)</td><td>\\(7\\)</td><td class=\"mbl-freq-tot\">\\(n=25\\)</td></tr></tbody></table></div>. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"variance\">Phương sai</b> \\(s^2\\) của mẫu là…",
+   "options": [
+    "\\(120\\)",
+    "\\(1801\\)",
+    "\\(125\\)",
+    "<span class=\"txi\"><span class=\"en\">\\(10.95\\)</span><span class=\"vi\">\\(10{,}95\\)</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Midpoints \\(25, 35, 45, 55\\); \\(\\bar x=41\\); \\(s^2=\\dfrac1n\\sum n_ix_i^2-\\bar x^2=1801-1681=120\\).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint (representative value)\">Giá trị đại diện</b> \\(25, 35, 45, 55\\); \\(\\bar x=41\\); \\(s^2=\\dfrac1n\\sum n_ix_i^2-\\bar x^2=1801-1681=120\\).",
+   "images": [],
+   "id": "ceee4ad205d4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "A grouped frequency table: Group\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)TotalFrequency \\(n_i\\)\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(n=#\\). The variance \\(s^#\\) of the sample is…",
+   "en": "A grouped frequency table: <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Group</th><th scope=\"col\">\\([40;\\,45)\\)</th><th scope=\"col\">\\([45;\\,50)\\)</th><th scope=\"col\">\\([50;\\,55)\\)</th><th scope=\"col\">\\([55;\\,60)\\)</th><td class=\"mbl-freq-tot\">Total</td></tr><tr><th scope=\"row\">Frequency \\(n_i\\)</th><td>\\(5\\)</td><td>\\(6\\)</td><td>\\(12\\)</td><td>\\(7\\)</td><td class=\"mbl-freq-tot\">\\(n=30\\)</td></tr></tbody></table></div>. The variance \\(s^2\\) of the sample is…",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"grouped data\">mẫu số liệu ghép nhóm</b>: <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Nhóm</th><th scope=\"col\">\\([40;\\,45)\\)</th><th scope=\"col\">\\([45;\\,50)\\)</th><th scope=\"col\">\\([50;\\,55)\\)</th><th scope=\"col\">\\([55;\\,60)\\)</th><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\"><b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">Tần số</b> \\(n_i\\)</th><td>\\(5\\)</td><td>\\(6\\)</td><td>\\(12\\)</td><td>\\(7\\)</td><td class=\"mbl-freq-tot\">\\(n=30\\)</td></tr></tbody></table></div>. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"variance\">Phương sai</b> \\(s^2\\) của mẫu là…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(2626.25\\)</span><span class=\"vi\">\\(2626{,}25\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(26.25\\)</span><span class=\"vi\">\\(26{,}25\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(5.02\\)</span><span class=\"vi\">\\(5{,}02\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(25.25\\)</span><span class=\"vi\">\\(25{,}25\\)</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Midpoints \\(42.5, 47.5, 52.5, 57.5\\); \\(\\bar x=51\\); \\(s^2=\\dfrac1n\\sum n_ix_i^2-\\bar x^2=2626.25-2601=25.25\\).",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint (representative value)\">Giá trị đại diện</b> \\(42{,}5, 47{,}5, 52{,}5, 57{,}5\\); \\(\\bar x=51\\); \\(s^2=\\dfrac1n\\sum n_ix_i^2-\\bar x^2=2626{,}25-2601=25{,}25\\).",
+   "images": [],
+   "id": "4e8d2fd0b209",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Every value of a sample with \\(s=#\\) is multiplied by #. The new standard deviation is…",
+   "en": "Every value of a sample with \\(s=3.2\\) is multiplied by 3. The new standard deviation is…",
+   "vi": "Mọi giá trị của một mẫu có \\(s=3{,}2\\) đều được nhân với 3. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"standard deviation\">Độ lệch chuẩn</b> mới là…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(3.2\\)</span><span class=\"vi\">\\(3{,}2\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(6.2\\)</span><span class=\"vi\">\\(6{,}2\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(28.8\\)</span><span class=\"vi\">\\(28{,}8\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(9.6\\)</span><span class=\"vi\">\\(9{,}6\\)</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Multiplying by \\(k\\gt0\\) multiplies \\(s\\) by \\(k\\) and \\(s^2\\) by \\(k^2\\).",
+   "explain_vi": "Đáp án d. Nhân với \\(k\\gt0\\) thì \\(s\\) nhân \\(k\\), còn \\(s^2\\) nhân \\(k^2\\).",
+   "images": [],
+   "id": "9a55e7754a10",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "For a sample of size \\(n=#\\), the midpoints give \\(\\sum n_ix_i=#\\) and \\(\\sum n_ix_i^#=#\\). The variance is…",
+   "en": "For a sample of size \\(n=20\\), the midpoints give \\(\\sum n_ix_i=940\\) and \\(\\sum n_ix_i^2=44220\\). The variance is…",
+   "vi": "Một mẫu có cỡ \\(n=20\\); theo các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint (representative value)\">giá trị đại diện</b>, \\(\\sum n_ix_i=940\\) và \\(\\sum n_ix_i^2=44220\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"variance\">Phương sai</b> bằng…",
+   "options": [
+    "\\(47\\)",
+    "\\(2211\\)",
+    "\\(4\\)",
+    "\\(2\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\bar x=47\\); \\(s^2=\\dfrac{44220}{20}-47^2=2\\).",
+   "explain_vi": "Đáp án d. \\(\\bar x=47\\); \\(s^2=\\dfrac{44220}{20}-47^2=2\\).",
+   "images": [],
+   "id": "3158c468f1d8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "For a sample of size \\(n=#\\), the midpoints give \\(\\sum n_ix_i=#\\) and \\(\\sum n_ix_i^#=#\\). The variance is…",
+   "en": "For a sample of size \\(n=20\\), the midpoints give \\(\\sum n_ix_i=880\\) and \\(\\sum n_ix_i^2=39440\\). The variance is…",
+   "vi": "Một mẫu có cỡ \\(n=20\\); theo các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint (representative value)\">giá trị đại diện</b>, \\(\\sum n_ix_i=880\\) và \\(\\sum n_ix_i^2=39440\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"variance\">Phương sai</b> bằng…",
+   "options": [
+    "\\(44\\)",
+    "\\(38\\)",
+    "\\(36\\)",
+    "\\(1972\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\bar x=44\\); \\(s^2=\\dfrac{39440}{20}-44^2=36\\).",
+   "explain_vi": "Đáp án c. \\(\\bar x=44\\); \\(s^2=\\dfrac{39440}{20}-44^2=36\\).",
+   "images": [],
+   "id": "fd8971835026",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The variance of a sample is \\(s^#=#\\) (kg\\(^#\\)). The standard deviation is…",
+   "en": "The variance of a sample is \\(s^2=49\\) (kg\\(^2\\)). The standard deviation is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"variance\">Phương sai</b> của một mẫu là \\(s^2=49\\) (kg\\(^2\\)). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"standard deviation\">Độ lệch chuẩn</b> là…",
+   "options": [
+    "\\(7\\ \\text{kg}\\)",
+    "\\(49\\ \\text{kg}\\)",
+    "<span class=\"txi\"><span class=\"en\">\\(24.5\\ \\text{kg}\\)</span><span class=\"vi\">\\(24{,}5\\ \\text{kg}\\)</span></span>",
+    "\\(14\\ \\text{kg}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(s=\\sqrt{s^2}=7\\), in the same unit as the data.",
+   "explain_vi": "Đáp án a. \\(s=\\sqrt{s^2}=7\\), cùng đơn vị với số liệu.",
+   "images": [],
+   "id": "c564b0d44217",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Two shooters: A has mean \\(#\\) and \\(s=#\\); B has mean \\(#\\) and \\(s=#\\) (score). Which is more consistent?",
+   "en": "Two shooters: A has mean \\(75\\) and \\(s=2.1\\); B has mean \\(74\\) and \\(s=4.2\\) (score). Which is more consistent?",
+   "vi": "Hai xạ thủ: A có trung bình \\(75\\), \\(s=2{,}1\\); B có trung bình \\(74\\), \\(s=4{,}2\\) (điểm bắn). Đối tượng nào bắn ổn định hơn?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">A: smaller standard deviation</span><span class=\"vi\">A: độ lệch chuẩn nhỏ hơn</span></span>",
+    "<span class=\"txi\"><span class=\"en\">B: larger mean</span><span class=\"vi\">B: số trung bình lớn hơn</span></span>",
+    "<span class=\"txi\"><span class=\"en\">B: smaller standard deviation</span><span class=\"vi\">B: độ lệch chuẩn nhỏ hơn</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Both are equally stable</span><span class=\"vi\">Hai mẫu ổn định như nhau</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Stability is measured by the spread: the smaller \\(s\\) wins.",
+   "explain_vi": "Đáp án a. Độ ổn định đo bằng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"dispersion (spread)\">độ phân tán</b>: \\(s\\) nhỏ hơn thì ổn định hơn.",
+   "images": [],
+   "id": "438a6e1eb774",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "A grouped sample has \\(n=#\\), \\(\\sum n_ix_i=#\\), \\(\\sum n_ix_i^#=#\\). Its standard deviation is…",
+   "en": "A grouped sample has \\(n=40\\), \\(\\sum n_ix_i=3000\\), \\(\\sum n_ix_i^2=226960\\). Its standard deviation is…",
+   "vi": "Một mẫu ghép nhóm có \\(n=40\\), \\(\\sum n_ix_i=3000\\), \\(\\sum n_ix_i^2=226960\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"standard deviation\">Độ lệch chuẩn</b> của mẫu là…",
+   "options": [
+    "\\(49\\)",
+    "\\(5674\\)",
+    "\\(8\\)",
+    "\\(7\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\bar x=75\\), \\(s^2=5674-75^2=49\\), \\(s=7\\).",
+   "explain_vi": "Đáp án d. \\(\\bar x=75\\), \\(s^2=5674-75^2=49\\), \\(s=7\\).",
+   "images": [],
+   "id": "889bad2739bf",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Scores of two shooters. A: mean \\(#\\), \\(s=#\\). B: mean \\(#\\), \\(s=#\\). Which conclusion is right?",
+   "en": "Scores of two shooters. A: mean \\(8\\), \\(s=0.9\\). B: mean \\(8.5\\), \\(s=1.5\\). Which conclusion is right?",
+   "vi": "Điểm bắn của hai xạ thủ. A: trung bình \\(8\\), \\(s=0{,}9\\). B: trung bình \\(8{,}5\\), \\(s=1{,}5\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"conclusion\">Kết luận</b> nào đúng?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">A is more stable</span><span class=\"vi\">A ổn định hơn</span></span>",
+    "<span class=\"txi\"><span class=\"en\">B is more stable</span><span class=\"vi\">B ổn định hơn</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Both are equally stable</span><span class=\"vi\">Hai đối tượng ổn định như nhau</span></span>",
+    "<span class=\"txi\"><span class=\"en\">B is more stable because its mean is larger</span><span class=\"vi\">B ổn định hơn vì có trung bình lớn hơn</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. The smaller standard deviation means the more stable.",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"standard deviation\">Độ lệch chuẩn</b> nhỏ hơn thì ổn định hơn.",
+   "images": [],
+   "id": "ac109ca35220",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "The table shows waiting times: Time (min)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)TotalCustomers\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(n=#\\) The variance \\(s^#\\) is…",
+   "en": "The table shows waiting times: <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Time (min)</th><th scope=\"col\">\\([10;\\,20)\\)</th><th scope=\"col\">\\([20;\\,30)\\)</th><th scope=\"col\">\\([30;\\,40)\\)</th><th scope=\"col\">\\([40;\\,50)\\)</th><td class=\"mbl-freq-tot\">Total</td></tr><tr><th scope=\"row\">Customers</th><td>\\(6\\)</td><td>\\(7\\)</td><td>\\(2\\)</td><td>\\(5\\)</td><td class=\"mbl-freq-tot\">\\(n=20\\)</td></tr></tbody></table></div> The variance \\(s^2\\) is…",
+   "vi": "Bảng sau cho biết thời gian chờ: <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Thời gian (phút)</th><th scope=\"col\">\\([10;\\,20)\\)</th><th scope=\"col\">\\([20;\\,30)\\)</th><th scope=\"col\">\\([30;\\,40)\\)</th><th scope=\"col\">\\([40;\\,50)\\)</th><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\">Số khách</th><td>\\(6\\)</td><td>\\(7\\)</td><td>\\(2\\)</td><td>\\(5\\)</td><td class=\"mbl-freq-tot\">\\(n=20\\)</td></tr></tbody></table></div> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"variance\">Phương sai</b> \\(s^2\\) bằng…",
+   "options": [
+    "\\(915\\)",
+    "<span class=\"txi\"><span class=\"en\">\\(11.45\\)</span><span class=\"vi\">\\(11{,}45\\)</span></span>",
+    "\\(131\\)",
+    "\\(262\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\bar x=28\\), \\(s^2=915-28^2=131\\).",
+   "explain_vi": "Đáp án c. \\(\\bar x=28\\), \\(s^2=915-28^2=131\\).",
+   "images": [],
+   "id": "377295c812d5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "For the table Group\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)TotalFrequency \\(n_i\\)\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(n=#\\) the variance is \\(s^#=#\\).",
+   "en": "For the table <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Group</th><th scope=\"col\">\\([150;\\,155)\\)</th><th scope=\"col\">\\([155;\\,160)\\)</th><th scope=\"col\">\\([160;\\,165)\\)</th><th scope=\"col\">\\([165;\\,170)\\)</th><th scope=\"col\">\\([170;\\,175)\\)</th><td class=\"mbl-freq-tot\">Total</td></tr><tr><th scope=\"row\">Frequency \\(n_i\\)</th><td>\\(4\\)</td><td>\\(6\\)</td><td>\\(2\\)</td><td>\\(6\\)</td><td>\\(4\\)</td><td class=\"mbl-freq-tot\">\\(n=22\\)</td></tr></tbody></table></div> the variance is \\(s^2=50\\).",
+   "vi": "Với <b class=\"mbl-term\" tabindex=\"0\" data-en=\"denominator\">mẫu số</b> liệu <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Nhóm</th><th scope=\"col\">\\([150;\\,155)\\)</th><th scope=\"col\">\\([155;\\,160)\\)</th><th scope=\"col\">\\([160;\\,165)\\)</th><th scope=\"col\">\\([165;\\,170)\\)</th><th scope=\"col\">\\([170;\\,175)\\)</th><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\"><b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">Tần số</b> \\(n_i\\)</th><td>\\(4\\)</td><td>\\(6\\)</td><td>\\(2\\)</td><td>\\(6\\)</td><td>\\(4\\)</td><td class=\"mbl-freq-tot\">\\(n=22\\)</td></tr></tbody></table></div> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"variance\">phương sai</b> là \\(s^2=50\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "\\(\\bar x=162.5\\), \\(s^2=50\\).",
+   "explain_vi": "\\(\\bar x=162{,}5\\), \\(s^2=50\\).",
+   "images": [],
+   "id": "89e5bbae7588",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "The standard deviation has the same unit as the data.",
+   "en": "The standard deviation has the same unit as the data.",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"standard deviation\">Độ lệch chuẩn</b> có cùng đơn vị với số liệu.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "Adding \\(c\\): \\(s\\) unchanged. Multiplying by \\(k\\gt0\\): \\(s\\) times \\(k\\), \\(s^2\\) times \\(k^2\\). \\(s\\) has the data unit.",
+   "explain_vi": "Cộng \\(c\\): \\(s\\) không đổi. Nhân \\(k\\gt0\\): \\(s\\) nhân \\(k\\), \\(s^2\\) nhân \\(k^2\\). \\(s\\) cùng đơn vị với số liệu.",
+   "images": [],
+   "id": "d6aa953eab46",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Find the standard deviation of the grouped data Group\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)TotalFrequency \\(n_i\\)\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(n=#\\) (round to the hundredths).",
+   "en": "Find the standard deviation of the grouped data <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Group</th><th scope=\"col\">\\([10;\\,20)\\)</th><th scope=\"col\">\\([20;\\,30)\\)</th><th scope=\"col\">\\([30;\\,40)\\)</th><th scope=\"col\">\\([40;\\,50)\\)</th><th scope=\"col\">\\([50;\\,60)\\)</th><td class=\"mbl-freq-tot\">Total</td></tr><tr><th scope=\"row\">Frequency \\(n_i\\)</th><td>\\(5\\)</td><td>\\(4\\)</td><td>\\(4\\)</td><td>\\(2\\)</td><td>\\(5\\)</td><td class=\"mbl-freq-tot\">\\(n=20\\)</td></tr></tbody></table></div> (round to the hundredths).",
+   "vi": "Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"standard deviation\">độ lệch chuẩn</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"grouped data\">mẫu số liệu ghép nhóm</b> <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Nhóm</th><th scope=\"col\">\\([10;\\,20)\\)</th><th scope=\"col\">\\([20;\\,30)\\)</th><th scope=\"col\">\\([30;\\,40)\\)</th><th scope=\"col\">\\([40;\\,50)\\)</th><th scope=\"col\">\\([50;\\,60)\\)</th><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\"><b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">Tần số</b> \\(n_i\\)</th><td>\\(5\\)</td><td>\\(4\\)</td><td>\\(4\\)</td><td>\\(2\\)</td><td>\\(5\\)</td><td class=\"mbl-freq-tot\">\\(n=20\\)</td></tr></tbody></table></div> (làm tròn đến hàng phần trăm).",
+   "options": [],
+   "answer": "15.13",
+   "explain_en": "\\(s^2=229\\), \\(s=\\sqrt{229}\\approx15.13\\).",
+   "explain_vi": "\\(s^2=229\\), \\(s=\\sqrt{229}\\approx15{,}13\\).",
+   "images": [],
+   "id": "27110ec10840",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Find the variance of the grouped data Group\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)TotalFrequency \\(n_i\\)\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(n=#\\)",
+   "en": "Find the variance of the grouped data <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Group</th><th scope=\"col\">\\([150;\\,160)\\)</th><th scope=\"col\">\\([160;\\,170)\\)</th><th scope=\"col\">\\([170;\\,180)\\)</th><th scope=\"col\">\\([180;\\,190)\\)</th><td class=\"mbl-freq-tot\">Total</td></tr><tr><th scope=\"row\">Frequency \\(n_i\\)</th><td>\\(6\\)</td><td>\\(5\\)</td><td>\\(4\\)</td><td>\\(5\\)</td><td class=\"mbl-freq-tot\">\\(n=20\\)</td></tr></tbody></table></div>",
+   "vi": "Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"variance\">phương sai</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"grouped data\">mẫu số liệu ghép nhóm</b> <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Nhóm</th><th scope=\"col\">\\([150;\\,160)\\)</th><th scope=\"col\">\\([160;\\,170)\\)</th><th scope=\"col\">\\([170;\\,180)\\)</th><th scope=\"col\">\\([180;\\,190)\\)</th><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\"><b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">Tần số</b> \\(n_i\\)</th><td>\\(6\\)</td><td>\\(5\\)</td><td>\\(4\\)</td><td>\\(5\\)</td><td class=\"mbl-freq-tot\">\\(n=20\\)</td></tr></tbody></table></div>",
+   "options": [],
+   "answer": "134",
+   "explain_en": "\\(\\bar x=169\\), \\(s^2=134\\).",
+   "explain_vi": "\\(\\bar x=169\\), \\(s^2=134\\).",
+   "images": [],
+   "id": "74cd058b2a08",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "A grouped frequency table: Group\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)TotalFrequency \\(n_i\\)\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(n=#\\). The standard deviation \\(s\\) is…",
+   "en": "A grouped frequency table: <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Group</th><th scope=\"col\">\\([40;\\,45)\\)</th><th scope=\"col\">\\([45;\\,50)\\)</th><th scope=\"col\">\\([50;\\,55)\\)</th><th scope=\"col\">\\([55;\\,60)\\)</th><td class=\"mbl-freq-tot\">Total</td></tr><tr><th scope=\"row\">Frequency \\(n_i\\)</th><td>\\(4\\)</td><td>\\(9\\)</td><td>\\(6\\)</td><td>\\(5\\)</td><td class=\"mbl-freq-tot\">\\(n=24\\)</td></tr></tbody></table></div>. The standard deviation \\(s\\) is…",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"grouped data\">mẫu số liệu ghép nhóm</b>: <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Nhóm</th><th scope=\"col\">\\([40;\\,45)\\)</th><th scope=\"col\">\\([45;\\,50)\\)</th><th scope=\"col\">\\([50;\\,55)\\)</th><th scope=\"col\">\\([55;\\,60)\\)</th><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\"><b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">Tần số</b> \\(n_i\\)</th><td>\\(4\\)</td><td>\\(9\\)</td><td>\\(6\\)</td><td>\\(5\\)</td><td class=\"mbl-freq-tot\">\\(n=24\\)</td></tr></tbody></table></div>. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"standard deviation\">Độ lệch chuẩn</b> \\(s\\) của mẫu là…",
+   "options": [
+    "\\(5\\)",
+    "\\(25\\)",
+    "\\(50\\)",
+    "\\(6\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(s^2=25\\), so \\(s=\\sqrt{25}=5\\).",
+   "explain_vi": "Đáp án a. \\(s^2=25\\) nên \\(s=\\sqrt{25}=5\\).",
+   "images": [],
+   "id": "fc54992ee990",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "A grouped frequency table: Group\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)TotalFrequency \\(n_i\\)\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(n=#\\). The variance \\(s^#\\) of the sample is…",
+   "en": "A grouped frequency table: <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Group</th><th scope=\"col\">\\([20;\\,22)\\)</th><th scope=\"col\">\\([22;\\,24)\\)</th><th scope=\"col\">\\([24;\\,26)\\)</th><th scope=\"col\">\\([26;\\,28)\\)</th><td class=\"mbl-freq-tot\">Total</td></tr><tr><th scope=\"row\">Frequency \\(n_i\\)</th><td>\\(11\\)</td><td>\\(7\\)</td><td>\\(9\\)</td><td>\\(5\\)</td><td class=\"mbl-freq-tot\">\\(n=32\\)</td></tr></tbody></table></div>. The variance \\(s^2\\) of the sample is…",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"grouped data\">mẫu số liệu ghép nhóm</b>: <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Nhóm</th><th scope=\"col\">\\([20;\\,22)\\)</th><th scope=\"col\">\\([22;\\,24)\\)</th><th scope=\"col\">\\([24;\\,26)\\)</th><th scope=\"col\">\\([26;\\,28)\\)</th><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\"><b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">Tần số</b> \\(n_i\\)</th><td>\\(11\\)</td><td>\\(7\\)</td><td>\\(9\\)</td><td>\\(5\\)</td><td class=\"mbl-freq-tot\">\\(n=32\\)</td></tr></tbody></table></div>. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"variance\">Phương sai</b> \\(s^2\\) của mẫu là…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(4.75\\)</span><span class=\"vi\">\\(4{,}75\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(2.18\\)</span><span class=\"vi\">\\(2{,}18\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(5.75\\)</span><span class=\"vi\">\\(5{,}75\\)</span></span>",
+    "\\(557\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Midpoints \\(21, 23, 25, 27\\); \\(\\bar x=23.5\\); \\(s^2=\\dfrac1n\\sum n_ix_i^2-\\bar x^2=557-552.25=4.75\\).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint (representative value)\">Giá trị đại diện</b> \\(21, 23, 25, 27\\); \\(\\bar x=23{,}5\\); \\(s^2=\\dfrac1n\\sum n_ix_i^2-\\bar x^2=557-552{,}25=4{,}75\\).",
+   "images": [],
+   "id": "e7fbf844be51",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "A grouped frequency table: Group\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)TotalFrequency \\(n_i\\)\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(n=#\\). The variance \\(s^#\\) of the sample is…",
+   "en": "A grouped frequency table: <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Group</th><th scope=\"col\">\\([40;\\,44)\\)</th><th scope=\"col\">\\([44;\\,48)\\)</th><th scope=\"col\">\\([48;\\,52)\\)</th><th scope=\"col\">\\([52;\\,56)\\)</th><th scope=\"col\">\\([56;\\,60)\\)</th><td class=\"mbl-freq-tot\">Total</td></tr><tr><th scope=\"row\">Frequency \\(n_i\\)</th><td>\\(8\\)</td><td>\\(12\\)</td><td>\\(10\\)</td><td>\\(7\\)</td><td>\\(3\\)</td><td class=\"mbl-freq-tot\">\\(n=40\\)</td></tr></tbody></table></div>. The variance \\(s^2\\) of the sample is…",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"grouped data\">mẫu số liệu ghép nhóm</b>: <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Nhóm</th><th scope=\"col\">\\([40;\\,44)\\)</th><th scope=\"col\">\\([44;\\,48)\\)</th><th scope=\"col\">\\([48;\\,52)\\)</th><th scope=\"col\">\\([52;\\,56)\\)</th><th scope=\"col\">\\([56;\\,60)\\)</th><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\"><b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">Tần số</b> \\(n_i\\)</th><td>\\(8\\)</td><td>\\(12\\)</td><td>\\(10\\)</td><td>\\(7\\)</td><td>\\(3\\)</td><td class=\"mbl-freq-tot\">\\(n=40\\)</td></tr></tbody></table></div>. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"variance\">Phương sai</b> \\(s^2\\) của mẫu là…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(4.79\\)</span><span class=\"vi\">\\(4{,}79\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(22.95\\)</span><span class=\"vi\">\\(22{,}95\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(23.95\\)</span><span class=\"vi\">\\(23{,}95\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(2375.2\\)</span><span class=\"vi\">\\(2375{,}2\\)</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Midpoints \\(42, 46, 50, 54, 58\\); \\(\\bar x=48.5\\); \\(s^2=\\dfrac1n\\sum n_ix_i^2-\\bar x^2=2375.2-2352.25=22.95\\).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint (representative value)\">Giá trị đại diện</b> \\(42, 46, 50, 54, 58\\); \\(\\bar x=48{,}5\\); \\(s^2=\\dfrac1n\\sum n_ix_i^2-\\bar x^2=2375{,}2-2352{,}25=22{,}95\\).",
+   "images": [],
+   "id": "7e97ebcaf3b2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Every value of a sample with \\(s=#\\) is multiplied by #. The new standard deviation is…",
+   "en": "Every value of a sample with \\(s=2.4\\) is multiplied by 3. The new standard deviation is…",
+   "vi": "Mọi giá trị của một mẫu có \\(s=2{,}4\\) đều được nhân với 3. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"standard deviation\">Độ lệch chuẩn</b> mới là…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(2.4\\)</span><span class=\"vi\">\\(2{,}4\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(21.6\\)</span><span class=\"vi\">\\(21{,}6\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(5.4\\)</span><span class=\"vi\">\\(5{,}4\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(7.2\\)</span><span class=\"vi\">\\(7{,}2\\)</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Multiplying by \\(k\\gt0\\) multiplies \\(s\\) by \\(k\\) and \\(s^2\\) by \\(k^2\\).",
+   "explain_vi": "Đáp án d. Nhân với \\(k\\gt0\\) thì \\(s\\) nhân \\(k\\), còn \\(s^2\\) nhân \\(k^2\\).",
+   "images": [],
+   "id": "559fb961bb1c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "For a sample of size \\(n=#\\), the midpoints give \\(\\sum n_ix_i=#\\) and \\(\\sum n_ix_i^#=#\\). The variance is…",
+   "en": "For a sample of size \\(n=25\\), the midpoints give \\(\\sum n_ix_i=1150\\) and \\(\\sum n_ix_i^2=53000\\). The variance is…",
+   "vi": "Một mẫu có cỡ \\(n=25\\); theo các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint (representative value)\">giá trị đại diện</b>, \\(\\sum n_ix_i=1150\\) và \\(\\sum n_ix_i^2=53000\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"variance\">Phương sai</b> bằng…",
+   "options": [
+    "\\(6\\)",
+    "\\(46\\)",
+    "\\(2120\\)",
+    "\\(4\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\bar x=46\\); \\(s^2=\\dfrac{53000}{25}-46^2=4\\).",
+   "explain_vi": "Đáp án d. \\(\\bar x=46\\); \\(s^2=\\dfrac{53000}{25}-46^2=4\\).",
+   "images": [],
+   "id": "6957460cd77d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "For a sample of size \\(n=#\\), the midpoints give \\(\\sum n_ix_i=#\\) and \\(\\sum n_ix_i^#=#\\). The variance is…",
+   "en": "For a sample of size \\(n=25\\), the midpoints give \\(\\sum n_ix_i=1775\\) and \\(\\sum n_ix_i^2=126125\\). The variance is…",
+   "vi": "Một mẫu có cỡ \\(n=25\\); theo các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint (representative value)\">giá trị đại diện</b>, \\(\\sum n_ix_i=1775\\) và \\(\\sum n_ix_i^2=126125\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"variance\">Phương sai</b> bằng…",
+   "options": [
+    "\\(5045\\)",
+    "\\(4\\)",
+    "\\(71\\)",
+    "\\(6\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\bar x=71\\); \\(s^2=\\dfrac{126125}{25}-71^2=4\\).",
+   "explain_vi": "Đáp án b. \\(\\bar x=71\\); \\(s^2=\\dfrac{126125}{25}-71^2=4\\).",
+   "images": [],
+   "id": "854ba1ec6e1b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The variance of a sample is \\(s^#=#\\) (cm\\(^#\\)). The standard deviation is…",
+   "en": "The variance of a sample is \\(s^2=0.49\\) (cm\\(^2\\)). The standard deviation is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"variance\">Phương sai</b> của một mẫu là \\(s^2=0{,}49\\) (cm\\(^2\\)). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"standard deviation\">Độ lệch chuẩn</b> là…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(0.49\\ \\text{cm}\\)</span><span class=\"vi\">\\(0{,}49\\ \\text{cm}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(1.4\\ \\text{cm}\\)</span><span class=\"vi\">\\(1{,}4\\ \\text{cm}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.7\\ \\text{cm}\\)</span><span class=\"vi\">\\(0{,}7\\ \\text{cm}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.245\\ \\text{cm}\\)</span><span class=\"vi\">\\(0{,}245\\ \\text{cm}\\)</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(s=\\sqrt{s^2}=0.7\\), in the same unit as the data.",
+   "explain_vi": "Đáp án c. \\(s=\\sqrt{s^2}=0{,}7\\), cùng đơn vị với số liệu.",
+   "images": [],
+   "id": "9ed8dcf521f4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Two rice fields: A has mean \\(#\\) and \\(s=#\\); B has mean \\(#\\) and \\(s=#\\) (yield (quintals per hectare)). Which is more stable yield?",
+   "en": "Two rice fields: A has mean \\(500\\) and \\(s=3.6\\); B has mean \\(501\\) and \\(s=1.2\\) (yield (quintals per hectare)). Which is more stable yield?",
+   "vi": "Hai ruộng lúa: A có trung bình \\(500\\), \\(s=3{,}6\\); B có trung bình \\(501\\), \\(s=1{,}2\\) (năng suất (tạ/ha)). Đối tượng nào năng suất ổn định hơn?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">Both are equally stable</span><span class=\"vi\">Hai mẫu ổn định như nhau</span></span>",
+    "<span class=\"txi\"><span class=\"en\">A: smaller standard deviation</span><span class=\"vi\">A: độ lệch chuẩn nhỏ hơn</span></span>",
+    "<span class=\"txi\"><span class=\"en\">B: smaller standard deviation</span><span class=\"vi\">B: độ lệch chuẩn nhỏ hơn</span></span>",
+    "<span class=\"txi\"><span class=\"en\">A: larger mean</span><span class=\"vi\">A: số trung bình lớn hơn</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Stability is measured by the spread: the smaller \\(s\\) wins.",
+   "explain_vi": "Đáp án c. Độ ổn định đo bằng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"dispersion (spread)\">độ phân tán</b>: \\(s\\) nhỏ hơn thì ổn định hơn.",
+   "images": [],
+   "id": "b1d748462627",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  }
+ ]
+}

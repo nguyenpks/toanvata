@@ -1,0 +1,1029 @@
+{
+ "lesson": "g12-coord-05",
+ "grade": 12,
+ "no": 16,
+ "title": "Công thức tính góc trong không gian",
+ "path": "lessons/grade12/space-coordinates/angle-formulas.html",
+ "items": [
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "The angle between \\(\\begin{cases}x=#+t\\\\y=#+t\\\\z=#\\end{cases}\\) and \\(\\begin{cases}x=s\\\\y=#\\\\z=#\\end{cases}\\) is…",
+   "en": "The angle between \\(\\begin{cases}x=1+t\\\\y=2+t\\\\z=0\\end{cases}\\) and \\(\\begin{cases}x=s\\\\y=1\\\\z=3\\end{cases}\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"angle between two lines\">Góc giữa hai đường thẳng</b> \\(\\begin{cases}x=1+t\\\\y=2+t\\\\z=0\\end{cases}\\) và \\(\\begin{cases}x=s\\\\y=1\\\\z=3\\end{cases}\\) bằng…",
+   "options": [
+    "\\(30^\\circ\\)",
+    "\\(60^\\circ\\)",
+    "\\(90^\\circ\\)",
+    "\\(45^\\circ\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\cos=\\dfrac{1}{\\sqrt{2}\\sqrt{1}}\\).",
+   "explain_vi": "Đáp án d. \\(\\cos=\\dfrac{1}{\\sqrt{2}\\sqrt{1}}\\).",
+   "images": [],
+   "id": "f241c20f310e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "The angle between \\(\\begin{cases}x=#\\\\y=t\\\\z=#+t\\end{cases}\\) and \\((P): y-#=#\\) is…",
+   "en": "The angle between \\(\\begin{cases}x=1\\\\y=t\\\\z=2+t\\end{cases}\\) and \\((P): y-3=0\\) is…",
+   "vi": "Góc giữa <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(\\begin{cases}x=1\\\\y=t\\\\z=2+t\\end{cases}\\) và \\((P): y-3=0\\) bằng…",
+   "options": [
+    "\\(30^\\circ\\)",
+    "\\(60^\\circ\\)",
+    "\\(45^\\circ\\)",
+    "\\(90^\\circ\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\sin\\varphi=\\dfrac{1}{\\sqrt{2}\\sqrt{1}}\\).",
+   "explain_vi": "Đáp án c. \\(\\sin\\varphi=\\dfrac{1}{\\sqrt{2}\\sqrt{1}}\\).",
+   "images": [],
+   "id": "b5d93a87a0b6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "The angle between \\(x+y+#=#\\) and \\(y+z-#=#\\) is…",
+   "en": "The angle between \\(x+y+2=0\\) and \\(y+z-1=0\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"angle between two planes\">Góc giữa hai mặt phẳng</b> \\(x+y+2=0\\) và \\(y+z-1=0\\) bằng…",
+   "options": [
+    "\\(30^\\circ\\)",
+    "\\(60^\\circ\\)",
+    "\\(45^\\circ\\)",
+    "\\(90^\\circ\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\cos=\\dfrac{1}{\\sqrt{2}\\sqrt{2}}\\).",
+   "explain_vi": "Đáp án b. \\(\\cos=\\dfrac{1}{\\sqrt{2}\\sqrt{2}}\\).",
+   "images": [],
+   "id": "ea155084eaf0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "Lines with direction vectors \\((#;\\,#;\\,#)\\) and \\((#;\\,#;\\,#)\\) make an angle with cosine \\(\\dfrac{#}{#}\\).",
+   "en": "Lines with direction vectors \\((1;\\,2;\\,2)\\) and \\((2;\\,1;\\,2)\\) make an angle with cosine \\(\\dfrac{8}{9}\\).",
+   "vi": "Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"direction vector\">vectơ chỉ phương</b> \\((1;\\,2;\\,2)\\) và \\((2;\\,1;\\,2)\\) tạo với nhau góc có côsin bằng \\(\\dfrac{8}{9}\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "\\(\\cos=\\dfrac{|8|}{3\\cdot3}=\\dfrac{8}{9}\\).",
+   "explain_vi": "\\(\\cos=\\dfrac{|8|}{3\\cdot3}=\\dfrac{8}{9}\\).",
+   "images": [],
+   "id": "006210b655a2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "The angle between two lines can be \\(#^\\circ\\).",
+   "en": "The angle between two lines can be \\(120^\\circ\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"angle between two lines\">Góc giữa hai đường thẳng</b> có thể bằng \\(120^\\circ\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "It always lies in \\([0^\\circ;90^\\circ]\\).",
+   "explain_vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"angle between two lines\">Góc giữa hai đường thẳng</b> luôn thuộc \\([0^\\circ;90^\\circ]\\).",
+   "images": [],
+   "id": "a35617f4ced3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "A roof lies in the plane \\(y+z-#=#\\) (ground \\((Oxy)\\)). Find its angle of inclination in degrees.",
+   "en": "A roof lies in the plane \\(y+z-4=0\\) (ground \\((Oxy)\\)). Find its angle of inclination in degrees.",
+   "vi": "Mái nhà <b class=\"mbl-term\" tabindex=\"0\" data-en=\"lies in\">nằm trong</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> \\(y+z-4=0\\) (mặt đất là \\((Oxy)\\)). Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"angle of inclination\">góc nghiêng</b> của mái theo độ.",
+   "options": [],
+   "answer": "45",
+   "explain_en": "\\(\\cos=\\dfrac{1}{\\sqrt{2}}\\Rightarrow45^\\circ\\).",
+   "explain_vi": "\\(\\cos=\\dfrac{1}{\\sqrt{2}}\\Rightarrow45^\\circ\\).",
+   "images": [],
+   "id": "302a0f0341f8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "\\(d_#\\) has direction \\((#;\\,#;\\,-#)\\), \\(d_#\\) has direction \\((m;#;#)\\). Find \\(m\\) so that \\(d_#\\perp d_#\\).",
+   "en": "\\(d_1\\) has direction \\((1;\\,2;\\,-1)\\), \\(d_2\\) has direction \\((m;1;3)\\). Find \\(m\\) so that \\(d_1\\perp d_2\\).",
+   "vi": "\\(d_1\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"direction vector\">vectơ chỉ phương</b> \\((1;\\,2;\\,-1)\\), \\(d_2\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"direction vector\">vectơ chỉ phương</b> \\((m;1;3)\\). Tìm \\(m\\) để \\(d_1\\perp d_2\\).",
+   "options": [],
+   "answer": "1",
+   "explain_en": "\\(1m-1=0\\Rightarrow m=1\\).",
+   "explain_vi": "\\(1m-1=0\\Rightarrow m=1\\).",
+   "images": [],
+   "id": "d225b9306d02",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "A solar panel lies in the plane \\(-#x+#y+z-#=#\\) (the ground is \\((Oxy)\\)). The cosine of the angle between the panel and the ground is…",
+   "en": "A solar panel lies in the plane \\(-2x+2y+z-6=0\\) (the ground is \\((Oxy)\\)). The cosine of the angle between the panel and the ground is…",
+   "vi": "Một tấm pin mặt trời <b class=\"mbl-term\" tabindex=\"0\" data-en=\"lies in\">nằm trong</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> \\(-2x+2y+z-6=0\\) (mặt đất là \\((Oxy)\\)). Côsin của góc giữa tấm pin và mặt đất bằng…",
+   "options": [
+    "\\(\\dfrac{1}{3}\\)",
+    "\\(\\dfrac{2}{3}\\)",
+    "\\(\\dfrac{1}{6}\\)",
+    "\\(\\dfrac{1}{9}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\vec n=(-2;\\,2;\\,1)\\), \\(\\vec k=(0;0;1)\\): \\(\\cos=\\dfrac{|1|}{\\sqrt{9}}=\\dfrac{1}{3}\\).",
+   "explain_vi": "Đáp án a. \\(\\vec n=(-2;\\,2;\\,1)\\), \\(\\vec k=(0;0;1)\\): \\(\\cos=\\dfrac{|1|}{\\sqrt{9}}=\\dfrac{1}{3}\\).",
+   "images": [],
+   "id": "8be0c4c8421a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The angle between \\(d_#: \\begin{cases}x=#\\\\y=#+t\\\\z=-#-t\\end{cases}\\) and \\(d_#: \\begin{cases}x=#+s\\\\y=-#+#s\\\\z=-#-s\\end{cases}\\) is…",
+   "en": "The angle between \\(d_1: \\begin{cases}x=2\\\\y=4+t\\\\z=-2-t\\end{cases}\\) and \\(d_2: \\begin{cases}x=4+s\\\\y=-1+2s\\\\z=-1-s\\end{cases}\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"angle between two lines\">Góc giữa hai đường thẳng</b> \\(d_1: \\begin{cases}x=2\\\\y=4+t\\\\z=-2-t\\end{cases}\\) và \\(d_2: \\begin{cases}x=4+s\\\\y=-1+2s\\\\z=-1-s\\end{cases}\\) bằng…",
+   "options": [
+    "\\(30^\\circ\\)",
+    "\\(90^\\circ\\)",
+    "\\(60^\\circ\\)",
+    "\\(45^\\circ\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\cos=\\dfrac{|\\vec u_1\\cdot\\vec u_2|}{|\\vec u_1||\\vec u_2|}=\\dfrac{3}{\\sqrt{2}\\cdot\\sqrt{6}}\\Rightarrow 30^\\circ\\).",
+   "explain_vi": "Đáp án a. \\(\\cos=\\dfrac{|\\vec u_1\\cdot\\vec u_2|}{|\\vec u_1||\\vec u_2|}=\\dfrac{3}{\\sqrt{2}\\cdot\\sqrt{6}}\\Rightarrow 30^\\circ\\).",
+   "images": [],
+   "id": "ad00756c751f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The angle between \\(d_#: \\begin{cases}x=#\\\\y=#\\\\z=-#-#t\\end{cases}\\) and \\(d_#: \\begin{cases}x=s\\\\y=#\\\\z=#-s\\end{cases}\\) is…",
+   "en": "The angle between \\(d_1: \\begin{cases}x=2\\\\y=4\\\\z=-3-2t\\end{cases}\\) and \\(d_2: \\begin{cases}x=s\\\\y=0\\\\z=1-s\\end{cases}\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"angle between two lines\">Góc giữa hai đường thẳng</b> \\(d_1: \\begin{cases}x=2\\\\y=4\\\\z=-3-2t\\end{cases}\\) và \\(d_2: \\begin{cases}x=s\\\\y=0\\\\z=1-s\\end{cases}\\) bằng…",
+   "options": [
+    "\\(30^\\circ\\)",
+    "\\(45^\\circ\\)",
+    "\\(60^\\circ\\)",
+    "\\(90^\\circ\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\cos=\\dfrac{|\\vec u_1\\cdot\\vec u_2|}{|\\vec u_1||\\vec u_2|}=\\dfrac{2}{\\sqrt{4}\\cdot\\sqrt{2}}\\Rightarrow 45^\\circ\\).",
+   "explain_vi": "Đáp án b. \\(\\cos=\\dfrac{|\\vec u_1\\cdot\\vec u_2|}{|\\vec u_1||\\vec u_2|}=\\dfrac{2}{\\sqrt{4}\\cdot\\sqrt{2}}\\Rightarrow 45^\\circ\\).",
+   "images": [],
+   "id": "3ef10b858991",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The angle between the line \\(\\begin{cases}x=#\\\\y=-#+t\\\\z=-#+t\\end{cases}\\) and the plane \\(-#y+#=#\\) is…",
+   "en": "The angle between the line \\(\\begin{cases}x=0\\\\y=-1+t\\\\z=-2+t\\end{cases}\\) and the plane \\(-2y+3=0\\) is…",
+   "vi": "Góc giữa <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(\\begin{cases}x=0\\\\y=-1+t\\\\z=-2+t\\end{cases}\\) và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> \\(-2y+3=0\\) bằng…",
+   "options": [
+    "\\(90^\\circ\\)",
+    "\\(30^\\circ\\)",
+    "\\(45^\\circ\\)",
+    "\\(60^\\circ\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\sin\\varphi=\\dfrac{|\\vec u\\cdot\\vec n|}{|\\vec u||\\vec n|}=\\dfrac{2}{\\sqrt{2}\\cdot\\sqrt{4}}\\Rightarrow\\varphi=45^\\circ\\) (sine, not cosine!).",
+   "explain_vi": "Đáp án c. \\(\\sin\\varphi=\\dfrac{|\\vec u\\cdot\\vec n|}{|\\vec u||\\vec n|}=\\dfrac{2}{\\sqrt{2}\\cdot\\sqrt{4}}\\Rightarrow\\varphi=45^\\circ\\) (sin, không phải cos!).",
+   "images": [],
+   "id": "ef6ad80d36aa",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The angle between the planes \\(-x-z+#=#\\) and \\(#y+#=#\\) is…",
+   "en": "The angle between the planes \\(-x-z+2=0\\) and \\(2y+2=0\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"angle between two planes\">Góc giữa hai mặt phẳng</b> \\(-x-z-1=0\\) và \\(2y-3=0\\) bằng…",
+   "options": [
+    "\\(90^\\circ\\)",
+    "\\(45^\\circ\\)",
+    "\\(30^\\circ\\)",
+    "\\(60^\\circ\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\cos=\\dfrac{|\\vec n_1\\cdot\\vec n_2|}{|\\vec n_1||\\vec n_2|}=\\dfrac{0}{\\sqrt{2}\\cdot\\sqrt{4}}\\).",
+   "explain_vi": "Đáp án a. \\(\\cos=\\dfrac{|\\vec n_1\\cdot\\vec n_2|}{|\\vec n_1||\\vec n_2|}=\\dfrac{0}{\\sqrt{2}\\cdot\\sqrt{4}}\\).",
+   "images": [],
+   "id": "e5874106f077",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\varphi\\) is the angle between the axis \\(Oz\\) and the plane \\(-#x-#y+z+#=#\\). \\(\\sin\\varphi=\\)…",
+   "en": "\\(\\varphi\\) is the angle between the axis \\(Oz\\) and the plane \\(-2x-2y+z+1=0\\). \\(\\sin\\varphi=\\)…",
+   "vi": "Gọi \\(\\varphi\\) là góc giữa trục \\(Oz\\) và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> \\(-2x-2y+z+2=0\\). \\(\\sin\\varphi=\\)…",
+   "options": [
+    "\\(\\dfrac{2}{3}\\)",
+    "\\(\\dfrac{1}{9}\\)",
+    "\\(\\dfrac{1}{6}\\)",
+    "\\(\\dfrac{1}{3}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\sin\\varphi=\\dfrac{|\\vec e\\cdot\\vec n|}{|\\vec e||\\vec n|}=\\dfrac{1}{3}\\).",
+   "explain_vi": "Đáp án d. \\(\\sin\\varphi=\\dfrac{|\\vec e\\cdot\\vec n|}{|\\vec e||\\vec n|}=\\dfrac{1}{3}\\).",
+   "images": [],
+   "id": "e5700205d118",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\vec u_#=(#;\\,-#;\\,#)\\), \\(\\vec u_#=(m;-#;-#)\\) are direction vectors of \\(d_#\\), \\(d_#\\). \\(d_#\\perp d_#\\) when \\(m=\\)…",
+   "en": "\\(\\vec u_1=(2;\\,-1;\\,3)\\), \\(\\vec u_2=(m;-3;-1)\\) are direction vectors of \\(d_1\\), \\(d_2\\). \\(d_1\\perp d_2\\) when \\(m=\\)…",
+   "vi": "\\(\\vec u_1=(2;\\,-1;\\,3)\\), \\(\\vec u_2=(m;-3;-1)\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"direction vector\">vectơ chỉ phương</b> của \\(d_1\\), \\(d_2\\). \\(d_1\\perp d_2\\) khi \\(m=\\)…",
+   "options": [
+    "\\(2\\)",
+    "\\(-2\\)",
+    "\\(1\\)",
+    "\\(0\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\vec u_1\\cdot\\vec u_2=2m+0=0\\Rightarrow m=0\\).",
+   "explain_vi": "Đáp án d. \\(\\vec u_1\\cdot\\vec u_2=2m+0=0\\Rightarrow m=0\\).",
+   "images": [],
+   "id": "bd3147ae9f90",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(d_#\\), \\(d_#\\) have direction vectors \\(\\vec u_#=(#;\\,#;\\,#)\\), \\(\\vec u_#=(#;\\,#;\\,#)\\). \\(\\cos(d_#,d_#)=\\)…",
+   "en": "\\(d_1\\), \\(d_2\\) have direction vectors \\(\\vec u_1=(0;\\,0;\\,3)\\), \\(\\vec u_2=(2;\\,1;\\,2)\\). \\(\\cos(d_1,d_2)=\\)…",
+   "vi": "\\(d_1\\), \\(d_2\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"direction vector\">vectơ chỉ phương</b> \\(\\vec u_1=(0;\\,0;\\,3)\\), \\(\\vec u_2=(2;\\,1;\\,2)\\). \\(\\cos(d_1,d_2)=\\)…",
+   "options": [
+    "\\(\\dfrac{2}{3}\\)",
+    "\\(\\dfrac{2}{9}\\)",
+    "\\(\\dfrac{2}{27}\\)",
+    "\\(2\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(|\\vec u_1|=|\\vec u_2|=3\\); \\(\\cos=\\dfrac{|6|}{9}=\\dfrac{2}{3}\\) (always \\(\\ge0\\)).",
+   "explain_vi": "Đáp án a. \\(|\\vec u_1|=|\\vec u_2|=3\\); \\(\\cos=\\dfrac{|6|}{9}=\\dfrac{2}{3}\\) (luôn \\(\\ge0\\)).",
+   "images": [],
+   "id": "8f77bab917e0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "The angle between \\(\\begin{cases}x=#+t\\\\y=-#+t\\\\z=#\\end{cases}\\) and \\((P): x+#=#\\) is…",
+   "en": "The angle between \\(\\begin{cases}x=2+t\\\\y=-1+t\\\\z=0\\end{cases}\\) and \\((P): x+1=0\\) is…",
+   "vi": "Góc giữa <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(\\begin{cases}x=2+t\\\\y=-1+t\\\\z=0\\end{cases}\\) và \\((P): x+1=0\\) bằng…",
+   "options": [
+    "\\(30^\\circ\\)",
+    "\\(60^\\circ\\)",
+    "\\(45^\\circ\\)",
+    "\\(90^\\circ\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\sin\\varphi=\\dfrac{1}{\\sqrt{2}\\sqrt{1}}\\).",
+   "explain_vi": "Đáp án c. \\(\\sin\\varphi=\\dfrac{1}{\\sqrt{2}\\sqrt{1}}\\).",
+   "images": [],
+   "id": "befafb06a22b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "The angle between \\(\\begin{cases}x=t\\\\y=#-t\\\\z=-#\\end{cases}\\) and \\(\\begin{cases}x=#\\\\y=s\\\\z=#+s\\end{cases}\\) is…",
+   "en": "The angle between \\(\\begin{cases}x=t\\\\y=1-t\\\\z=-2\\end{cases}\\) and \\(\\begin{cases}x=3\\\\y=s\\\\z=1+s\\end{cases}\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"angle between two lines\">Góc giữa hai đường thẳng</b> \\(\\begin{cases}x=t\\\\y=1-t\\\\z=-2\\end{cases}\\) và \\(\\begin{cases}x=3\\\\y=s\\\\z=1+s\\end{cases}\\) bằng…",
+   "options": [
+    "\\(30^\\circ\\)",
+    "\\(45^\\circ\\)",
+    "\\(90^\\circ\\)",
+    "\\(60^\\circ\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\cos=\\dfrac{1}{\\sqrt{2}\\sqrt{2}}\\).",
+   "explain_vi": "Đáp án d. \\(\\cos=\\dfrac{1}{\\sqrt{2}\\sqrt{2}}\\).",
+   "images": [],
+   "id": "3c9ad13b9c97",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "The angle between \\(x-#=#\\) and \\(x+z+#=#\\) is…",
+   "en": "The angle between \\(x-2=0\\) and \\(x+z+3=0\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"angle between two planes\">Góc giữa hai mặt phẳng</b> \\(x-2=0\\) và \\(x+z+3=0\\) bằng…",
+   "options": [
+    "\\(30^\\circ\\)",
+    "\\(45^\\circ\\)",
+    "\\(60^\\circ\\)",
+    "\\(90^\\circ\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\cos=\\dfrac{1}{\\sqrt{1}\\sqrt{2}}\\).",
+   "explain_vi": "Đáp án b. \\(\\cos=\\dfrac{1}{\\sqrt{1}\\sqrt{2}}\\).",
+   "images": [],
+   "id": "dcc2cc6f2c04",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "If \\(\\vec u\\cdot\\vec n=#\\) then the line is parallel to the plane or lies in it.",
+   "en": "If \\(\\vec u\\cdot\\vec n=0\\) then the line is parallel to the plane or lies in it.",
+   "vi": "Nếu \\(\\vec u\\cdot\\vec n=0\\) thì <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b> hoặc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"lies in\">nằm trong</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b>.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "Then \\(\\sin\\varphi=0\\), so \\(\\varphi=0^\\circ\\).",
+   "explain_vi": "Khi đó \\(\\sin\\varphi=0\\) nên \\(\\varphi=0^\\circ\\).",
+   "images": [],
+   "id": "a52ef543ca0e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "Lines with direction vectors \\((#;\\,-#;\\,#)\\) and \\((#;\\,#;\\,#)\\) make an angle with cosine \\(\\dfrac{#}{#}\\).",
+   "en": "Lines with direction vectors \\((1;\\,-2;\\,2)\\) and \\((2;\\,2;\\,1)\\) make an angle with cosine \\(\\dfrac{4}{9}\\).",
+   "vi": "Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"direction vector\">vectơ chỉ phương</b> \\((1;\\,-2;\\,2)\\) và \\((2;\\,2;\\,1)\\) tạo với nhau góc có côsin bằng \\(\\dfrac{4}{9}\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "\\(\\cos=\\dfrac{|0|}{3\\cdot3}=0\\).",
+   "explain_vi": "\\(\\cos=\\dfrac{|0|}{3\\cdot3}=0\\).",
+   "images": [],
+   "id": "dacf0f4d84cc",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "A roof lies in the plane \\(x+z-#=#\\) (ground \\((Oxy)\\)). Find its angle of inclination in degrees.",
+   "en": "A roof lies in the plane \\(x+z-3=0\\) (ground \\((Oxy)\\)). Find its angle of inclination in degrees.",
+   "vi": "Mái nhà <b class=\"mbl-term\" tabindex=\"0\" data-en=\"lies in\">nằm trong</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> \\(x+z-3=0\\) (mặt đất là \\((Oxy)\\)). Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"angle of inclination\">góc nghiêng</b> của mái theo độ.",
+   "options": [],
+   "answer": "45",
+   "explain_en": "\\(\\cos=\\dfrac{1}{\\sqrt{2}}\\Rightarrow45^\\circ\\).",
+   "explain_vi": "\\(\\cos=\\dfrac{1}{\\sqrt{2}}\\Rightarrow45^\\circ\\).",
+   "images": [],
+   "id": "a6fd0a487893",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "\\(d_#\\) has direction \\((#;\\,-#;\\,#)\\), \\(d_#\\) has direction \\((m;#;-#)\\). Find \\(m\\) so that \\(d_#\\perp d_#\\).",
+   "en": "\\(d_1\\) has direction \\((2;\\,-1;\\,1)\\), \\(d_2\\) has direction \\((m;3;-1)\\). Find \\(m\\) so that \\(d_1\\perp d_2\\).",
+   "vi": "\\(d_1\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"direction vector\">vectơ chỉ phương</b> \\((2;\\,-1;\\,1)\\), \\(d_2\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"direction vector\">vectơ chỉ phương</b> \\((m;3;-1)\\). Tìm \\(m\\) để \\(d_1\\perp d_2\\).",
+   "options": [],
+   "answer": "2",
+   "explain_en": "\\(2m-4=0\\Rightarrow m=2\\).",
+   "explain_vi": "\\(2m-4=0\\Rightarrow m=2\\).",
+   "images": [],
+   "id": "31aa2d113338",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "A solar panel lies in the plane \\(#x+#y+#z-#=#\\) (the ground is \\((Oxy)\\)). The cosine of the angle between the panel and the ground is…",
+   "en": "A solar panel lies in the plane \\(6x+2y+3z-6=0\\) (the ground is \\((Oxy)\\)). The cosine of the angle between the panel and the ground is…",
+   "vi": "Một tấm pin mặt trời <b class=\"mbl-term\" tabindex=\"0\" data-en=\"lies in\">nằm trong</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> \\(6x+2y+3z-6=0\\) (mặt đất là \\((Oxy)\\)). Côsin của góc giữa tấm pin và mặt đất bằng…",
+   "options": [
+    "\\(\\dfrac{3}{7}\\)",
+    "\\(\\dfrac{2}{7}\\)",
+    "\\(\\dfrac{3}{49}\\)",
+    "\\(\\dfrac{6}{7}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\vec n=(6;\\,2;\\,3)\\), \\(\\vec k=(0;0;1)\\): \\(\\cos=\\dfrac{|3|}{\\sqrt{49}}=\\dfrac{3}{7}\\).",
+   "explain_vi": "Đáp án a. \\(\\vec n=(6;\\,2;\\,3)\\), \\(\\vec k=(0;0;1)\\): \\(\\cos=\\dfrac{|3|}{\\sqrt{49}}=\\dfrac{3}{7}\\).",
+   "images": [],
+   "id": "fd52a012c907",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The angle between \\(d_#: \\begin{cases}x=#+t\\\\y=#\\\\z=t\\end{cases}\\) and \\(d_#: \\begin{cases}x=#+#s\\\\y=-#\\\\z=#-#s\\end{cases}\\) is…",
+   "en": "The angle between \\(d_1: \\begin{cases}x=3+t\\\\y=0\\\\z=t\\end{cases}\\) and \\(d_2: \\begin{cases}x=3+2s\\\\y=-3\\\\z=3-2s\\end{cases}\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"angle between two lines\">Góc giữa hai đường thẳng</b> \\(d_1: \\begin{cases}x=3+t\\\\y=0\\\\z=t\\end{cases}\\) và \\(d_2: \\begin{cases}x=3+2s\\\\y=-3\\\\z=3-2s\\end{cases}\\) bằng…",
+   "options": [
+    "\\(45^\\circ\\)",
+    "\\(90^\\circ\\)",
+    "\\(30^\\circ\\)",
+    "\\(60^\\circ\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\cos=\\dfrac{|\\vec u_1\\cdot\\vec u_2|}{|\\vec u_1||\\vec u_2|}=\\dfrac{0}{\\sqrt{2}\\cdot\\sqrt{8}}\\Rightarrow 90^\\circ\\).",
+   "explain_vi": "Đáp án b. \\(\\cos=\\dfrac{|\\vec u_1\\cdot\\vec u_2|}{|\\vec u_1||\\vec u_2|}=\\dfrac{0}{\\sqrt{2}\\cdot\\sqrt{8}}\\Rightarrow 90^\\circ\\).",
+   "images": [],
+   "id": "3f2545caa686",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The angle between \\(d_#: \\begin{cases}x=#\\\\y=#+t\\\\z=#-#t\\end{cases}\\) and \\(d_#: \\begin{cases}x=-#+s\\\\y=#s\\\\z=#+s\\end{cases}\\) is…",
+   "en": "The angle between \\(d_1: \\begin{cases}x=2\\\\y=2+t\\\\z=3-2t\\end{cases}\\) and \\(d_2: \\begin{cases}x=-1+s\\\\y=2s\\\\z=2+s\\end{cases}\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"angle between two lines\">Góc giữa hai đường thẳng</b> \\(d_1: \\begin{cases}x=2\\\\y=2+t\\\\z=3-2t\\end{cases}\\) và \\(d_2: \\begin{cases}x=-1+s\\\\y=2s\\\\z=2+s\\end{cases}\\) bằng…",
+   "options": [
+    "\\(30^\\circ\\)",
+    "\\(60^\\circ\\)",
+    "\\(90^\\circ\\)",
+    "\\(45^\\circ\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\cos=\\dfrac{|\\vec u_1\\cdot\\vec u_2|}{|\\vec u_1||\\vec u_2|}=\\dfrac{0}{\\sqrt{5}\\cdot\\sqrt{6}}\\Rightarrow 90^\\circ\\).",
+   "explain_vi": "Đáp án c. \\(\\cos=\\dfrac{|\\vec u_1\\cdot\\vec u_2|}{|\\vec u_1||\\vec u_2|}=\\dfrac{0}{\\sqrt{5}\\cdot\\sqrt{6}}\\Rightarrow 90^\\circ\\).",
+   "images": [],
+   "id": "c018f15805f3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The angle between the line \\(\\begin{cases}x=#\\\\y=-t\\\\z=#+t\\end{cases}\\) and the plane \\(-x-y+#z+#=#\\) is…",
+   "en": "The angle between the line \\(\\begin{cases}x=4\\\\y=-t\\\\z=3+t\\end{cases}\\) and the plane \\(-x-y+2z+1=0\\) is…",
+   "vi": "Góc giữa <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(\\begin{cases}x=4\\\\y=-t\\\\z=3+t\\end{cases}\\) và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> \\(-x-y+2z+1=0\\) bằng…",
+   "options": [
+    "\\(45^\\circ\\)",
+    "\\(30^\\circ\\)",
+    "\\(60^\\circ\\)",
+    "\\(90^\\circ\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\sin\\varphi=\\dfrac{|\\vec u\\cdot\\vec n|}{|\\vec u||\\vec n|}=\\dfrac{3}{\\sqrt{2}\\cdot\\sqrt{6}}\\Rightarrow\\varphi=60^\\circ\\) (sine, not cosine!).",
+   "explain_vi": "Đáp án c. \\(\\sin\\varphi=\\dfrac{|\\vec u\\cdot\\vec n|}{|\\vec u||\\vec n|}=\\dfrac{3}{\\sqrt{2}\\cdot\\sqrt{6}}\\Rightarrow\\varphi=60^\\circ\\) (sin, không phải cos!).",
+   "images": [],
+   "id": "e25525c711c2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The angle between the planes \\(#x+y-z-#=#\\) and \\(#x+#y+#=#\\) is…",
+   "en": "The angle between the planes \\(2x+y-z-4=0\\) and \\(2x+2y+4=0\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"angle between two planes\">Góc giữa hai mặt phẳng</b> \\(2x+y-z-1=0\\) và \\(2x+2y=0\\) bằng…",
+   "options": [
+    "\\(30^\\circ\\)",
+    "\\(60^\\circ\\)",
+    "\\(45^\\circ\\)",
+    "\\(90^\\circ\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\cos=\\dfrac{|\\vec n_1\\cdot\\vec n_2|}{|\\vec n_1||\\vec n_2|}=\\dfrac{6}{\\sqrt{6}\\cdot\\sqrt{8}}\\).",
+   "explain_vi": "Đáp án a. \\(\\cos=\\dfrac{|\\vec n_1\\cdot\\vec n_2|}{|\\vec n_1||\\vec n_2|}=\\dfrac{6}{\\sqrt{6}\\cdot\\sqrt{8}}\\).",
+   "images": [],
+   "id": "bff745c089a8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\varphi\\) is the angle between the axis \\(Oy\\) and the plane \\(-#x-#y-#z+#=#\\). \\(\\sin\\varphi=\\)…",
+   "en": "\\(\\varphi\\) is the angle between the axis \\(Oy\\) and the plane \\(-2x-3y-6z+3=0\\). \\(\\sin\\varphi=\\)…",
+   "vi": "Gọi \\(\\varphi\\) là góc giữa trục \\(Oy\\) và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> \\(-2x-3y-6z-2=0\\). \\(\\sin\\varphi=\\)…",
+   "options": [
+    "\\(\\dfrac{2}{7}\\)",
+    "\\(\\dfrac{3}{49}\\)",
+    "\\(\\dfrac{3}{7}\\)",
+    "\\(\\dfrac{6}{7}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\sin\\varphi=\\dfrac{|\\vec e\\cdot\\vec n|}{|\\vec e||\\vec n|}=\\dfrac{3}{7}\\).",
+   "explain_vi": "Đáp án c. \\(\\sin\\varphi=\\dfrac{|\\vec e\\cdot\\vec n|}{|\\vec e||\\vec n|}=\\dfrac{3}{7}\\).",
+   "images": [],
+   "id": "bbad883d1486",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\vec u_#=(#;\\,#;\\,-#)\\), \\(\\vec u_#=(m;-#;-#)\\) are direction vectors of \\(d_#\\), \\(d_#\\). \\(d_#\\perp d_#\\) when \\(m=\\)…",
+   "en": "\\(\\vec u_1=(1;\\,1;\\,-2)\\), \\(\\vec u_2=(m;-3;-2)\\) are direction vectors of \\(d_1\\), \\(d_2\\). \\(d_1\\perp d_2\\) when \\(m=\\)…",
+   "vi": "\\(\\vec u_1=(1;\\,1;\\,-2)\\), \\(\\vec u_2=(m;-3;-2)\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"direction vector\">vectơ chỉ phương</b> của \\(d_1\\), \\(d_2\\). \\(d_1\\perp d_2\\) khi \\(m=\\)…",
+   "options": [
+    "\\(-3\\)",
+    "\\(0\\)",
+    "\\(-1\\)",
+    "\\(1\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\vec u_1\\cdot\\vec u_2=1m+1=0\\Rightarrow m=-1\\).",
+   "explain_vi": "Đáp án c. \\(\\vec u_1\\cdot\\vec u_2=1m+1=0\\Rightarrow m=-1\\).",
+   "images": [],
+   "id": "ff1a4ef737ca",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(d_#\\), \\(d_#\\) have direction vectors \\(\\vec u_#=(#;\\,#;\\,#)\\), \\(\\vec u_#=(#;\\,#;\\,#)\\). \\(\\cos(d_#,d_#)=\\)…",
+   "en": "\\(d_1\\), \\(d_2\\) have direction vectors \\(\\vec u_1=(3;\\,0;\\,0)\\), \\(\\vec u_2=(1;\\,2;\\,2)\\). \\(\\cos(d_1,d_2)=\\)…",
+   "vi": "\\(d_1\\), \\(d_2\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"direction vector\">vectơ chỉ phương</b> \\(\\vec u_1=(3;\\,0;\\,0)\\), \\(\\vec u_2=(1;\\,2;\\,2)\\). \\(\\cos(d_1,d_2)=\\)…",
+   "options": [
+    "\\(\\dfrac{1}{27}\\)",
+    "\\(\\dfrac{1}{3}\\)",
+    "\\(1\\)",
+    "\\(\\dfrac{1}{9}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(|\\vec u_1|=|\\vec u_2|=3\\); \\(\\cos=\\dfrac{|3|}{9}=\\dfrac{1}{3}\\) (always \\(\\ge0\\)).",
+   "explain_vi": "Đáp án b. \\(|\\vec u_1|=|\\vec u_2|=3\\); \\(\\cos=\\dfrac{|3|}{9}=\\dfrac{1}{3}\\) (luôn \\(\\ge0\\)).",
+   "images": [],
+   "id": "4a12bb9b1025",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "The angle between \\(\\begin{cases}x=#+t\\\\y=#\\\\z=#+t\\end{cases}\\) and \\(\\begin{cases}x=#+s\\\\y=-#+s\\\\z=#\\end{cases}\\) is…",
+   "en": "The angle between \\(\\begin{cases}x=1+t\\\\y=1\\\\z=1+t\\end{cases}\\) and \\(\\begin{cases}x=2+s\\\\y=-1+s\\\\z=0\\end{cases}\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"angle between two lines\">Góc giữa hai đường thẳng</b> \\(\\begin{cases}x=1+t\\\\y=1\\\\z=1+t\\end{cases}\\) và \\(\\begin{cases}x=2+s\\\\y=-1+s\\\\z=0\\end{cases}\\) bằng…",
+   "options": [
+    "\\(30^\\circ\\)",
+    "\\(45^\\circ\\)",
+    "\\(90^\\circ\\)",
+    "\\(60^\\circ\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\cos=\\dfrac{1}{\\sqrt{2}\\sqrt{2}}\\).",
+   "explain_vi": "Đáp án d. \\(\\cos=\\dfrac{1}{\\sqrt{2}\\sqrt{2}}\\).",
+   "images": [],
+   "id": "16d693089d4d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "The angle between \\(\\begin{cases}x=t\\\\y=#+t\\\\z=#\\end{cases}\\) and \\((P): y+z+#=#\\) is…",
+   "en": "The angle between \\(\\begin{cases}x=t\\\\y=2+t\\\\z=1\\end{cases}\\) and \\((P): y+z+4=0\\) is…",
+   "vi": "Góc giữa <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(\\begin{cases}x=t\\\\y=2+t\\\\z=1\\end{cases}\\) và \\((P): y+z+4=0\\) bằng…",
+   "options": [
+    "\\(60^\\circ\\)",
+    "\\(45^\\circ\\)",
+    "\\(30^\\circ\\)",
+    "\\(90^\\circ\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\sin\\varphi=\\dfrac{1}{\\sqrt{2}\\sqrt{2}}\\).",
+   "explain_vi": "Đáp án c. \\(\\sin\\varphi=\\dfrac{1}{\\sqrt{2}\\sqrt{2}}\\).",
+   "images": [],
+   "id": "41befd167758",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "The angle between \\(x+y-#=#\\) and \\(x-y+#=#\\) is…",
+   "en": "The angle between \\(x+y-1=0\\) and \\(x-y+5=0\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"angle between two planes\">Góc giữa hai mặt phẳng</b> \\(x+y-1=0\\) và \\(x-y+5=0\\) bằng…",
+   "options": [
+    "\\(30^\\circ\\)",
+    "\\(90^\\circ\\)",
+    "\\(45^\\circ\\)",
+    "\\(60^\\circ\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\cos=\\dfrac{0}{\\sqrt{2}\\sqrt{2}}\\).",
+   "explain_vi": "Đáp án b. \\(\\cos=\\dfrac{0}{\\sqrt{2}\\sqrt{2}}\\).",
+   "images": [],
+   "id": "8add101b2c1a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "Lines with direction vectors \\((#;\\,-#;\\,-#)\\) and \\((#;\\,#;\\,#)\\) make an angle with cosine \\(\\dfrac{#}{#}\\).",
+   "en": "Lines with direction vectors \\((2;\\,-1;\\,-2)\\) and \\((1;\\,2;\\,2)\\) make an angle with cosine \\(\\dfrac{4}{9}\\).",
+   "vi": "Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"direction vector\">vectơ chỉ phương</b> \\((2;\\,-1;\\,-2)\\) và \\((1;\\,2;\\,2)\\) tạo với nhau góc có côsin bằng \\(\\dfrac{4}{9}\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "\\(\\cos=\\dfrac{|-4|}{3\\cdot3}=\\dfrac{4}{9}\\).",
+   "explain_vi": "\\(\\cos=\\dfrac{|-4|}{3\\cdot3}=\\dfrac{4}{9}\\).",
+   "images": [],
+   "id": "b3f7787ae6c4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "The angle between a line and a plane is computed with \\(\\cos=\\dfrac{|\\vec u\\cdot\\vec n|}{|\\vec u||\\vec n|}\\).",
+   "en": "The angle between a line and a plane is computed with \\(\\cos=\\dfrac{|\\vec u\\cdot\\vec n|}{|\\vec u||\\vec n|}\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"angle between a line and a plane\">Góc giữa đường thẳng và mặt phẳng</b> tính bởi \\(\\cos=\\dfrac{|\\vec u\\cdot\\vec n|}{|\\vec u||\\vec n|}\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "That expression is the <b>sine</b> of the angle.",
+   "explain_vi": "Biểu thức đó là <b>sin</b> của góc.",
+   "images": [],
+   "id": "99efd3e5c507",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "A roof lies in the plane \\(-y+z-#=#\\) (ground \\((Oxy)\\)). Find its angle of inclination in degrees.",
+   "en": "A roof lies in the plane \\(-y+z-6=0\\) (ground \\((Oxy)\\)). Find its angle of inclination in degrees.",
+   "vi": "Mái nhà <b class=\"mbl-term\" tabindex=\"0\" data-en=\"lies in\">nằm trong</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> \\(-y+z-6=0\\) (mặt đất là \\((Oxy)\\)). Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"angle of inclination\">góc nghiêng</b> của mái theo độ.",
+   "options": [],
+   "answer": "45",
+   "explain_en": "\\(\\cos=\\dfrac{1}{\\sqrt{2}}\\Rightarrow45^\\circ\\).",
+   "explain_vi": "\\(\\cos=\\dfrac{1}{\\sqrt{2}}\\Rightarrow45^\\circ\\).",
+   "images": [],
+   "id": "226ecb382ec1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "\\(d_#\\) has direction \\((#;\\,#;\\,-#)\\), \\(d_#\\) has direction \\((m;#;#)\\). Find \\(m\\) so that \\(d_#\\perp d_#\\).",
+   "en": "\\(d_1\\) has direction \\((3;\\,1;\\,-2)\\), \\(d_2\\) has direction \\((m;2;4)\\). Find \\(m\\) so that \\(d_1\\perp d_2\\).",
+   "vi": "\\(d_1\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"direction vector\">vectơ chỉ phương</b> \\((3;\\,1;\\,-2)\\), \\(d_2\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"direction vector\">vectơ chỉ phương</b> \\((m;2;4)\\). Tìm \\(m\\) để \\(d_1\\perp d_2\\).",
+   "options": [],
+   "answer": "2",
+   "explain_en": "\\(3m-6=0\\Rightarrow m=2\\).",
+   "explain_vi": "\\(3m-6=0\\Rightarrow m=2\\).",
+   "images": [],
+   "id": "fcdae17b1304",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "A solar panel lies in the plane \\(#x-#y+#z-#=#\\) (the ground is \\((Oxy)\\)). The cosine of the angle between the panel and the ground is…",
+   "en": "A solar panel lies in the plane \\(6x-2y+3z-5=0\\) (the ground is \\((Oxy)\\)). The cosine of the angle between the panel and the ground is…",
+   "vi": "Một tấm pin mặt trời <b class=\"mbl-term\" tabindex=\"0\" data-en=\"lies in\">nằm trong</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> \\(6x-2y+3z-5=0\\) (mặt đất là \\((Oxy)\\)). Côsin của góc giữa tấm pin và mặt đất bằng…",
+   "options": [
+    "\\(\\dfrac{3}{49}\\)",
+    "\\(\\dfrac{2}{7}\\)",
+    "\\(\\dfrac{3}{7}\\)",
+    "\\(\\dfrac{6}{7}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\vec n=(6;\\,-2;\\,3)\\), \\(\\vec k=(0;0;1)\\): \\(\\cos=\\dfrac{|3|}{\\sqrt{49}}=\\dfrac{3}{7}\\).",
+   "explain_vi": "Đáp án c. \\(\\vec n=(6;\\,-2;\\,3)\\), \\(\\vec k=(0;0;1)\\): \\(\\cos=\\dfrac{|3|}{\\sqrt{49}}=\\dfrac{3}{7}\\).",
+   "images": [],
+   "id": "952b11c78f79",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The angle between \\(d_#: \\begin{cases}x=-#-#t\\\\y=#-#t\\\\z=-#-#t\\end{cases}\\) and \\(d_#: \\begin{cases}x=-#-s\\\\y=#\\\\z=s\\end{cases}\\) is…",
+   "en": "The angle between \\(d_1: \\begin{cases}x=-2-2t\\\\y=2-2t\\\\z=-1-2t\\end{cases}\\) and \\(d_2: \\begin{cases}x=-1-s\\\\y=1\\\\z=s\\end{cases}\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"angle between two lines\">Góc giữa hai đường thẳng</b> \\(d_1: \\begin{cases}x=-2-2t\\\\y=2-2t\\\\z=-1-2t\\end{cases}\\) và \\(d_2: \\begin{cases}x=-1-s\\\\y=1\\\\z=s\\end{cases}\\) bằng…",
+   "options": [
+    "\\(30^\\circ\\)",
+    "\\(60^\\circ\\)",
+    "\\(45^\\circ\\)",
+    "\\(90^\\circ\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\cos=\\dfrac{|\\vec u_1\\cdot\\vec u_2|}{|\\vec u_1||\\vec u_2|}=\\dfrac{0}{\\sqrt{12}\\cdot\\sqrt{2}}\\Rightarrow 90^\\circ\\).",
+   "explain_vi": "Đáp án d. \\(\\cos=\\dfrac{|\\vec u_1\\cdot\\vec u_2|}{|\\vec u_1||\\vec u_2|}=\\dfrac{0}{\\sqrt{12}\\cdot\\sqrt{2}}\\Rightarrow 90^\\circ\\).",
+   "images": [],
+   "id": "e5885373867c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The angle between \\(d_#: \\begin{cases}x=-t\\\\y=-#-#t\\\\z=#-t\\end{cases}\\) and \\(d_#: \\begin{cases}x=#+s\\\\y=-#+s\\\\z=#\\end{cases}\\) is…",
+   "en": "The angle between \\(d_1: \\begin{cases}x=-t\\\\y=-2-2t\\\\z=1-t\\end{cases}\\) and \\(d_2: \\begin{cases}x=3+s\\\\y=-1+s\\\\z=3\\end{cases}\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"angle between two lines\">Góc giữa hai đường thẳng</b> \\(d_1: \\begin{cases}x=-t\\\\y=-2-2t\\\\z=1-t\\end{cases}\\) và \\(d_2: \\begin{cases}x=3+s\\\\y=-1+s\\\\z=3\\end{cases}\\) bằng…",
+   "options": [
+    "\\(45^\\circ\\)",
+    "\\(30^\\circ\\)",
+    "\\(60^\\circ\\)",
+    "\\(90^\\circ\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\cos=\\dfrac{|\\vec u_1\\cdot\\vec u_2|}{|\\vec u_1||\\vec u_2|}=\\dfrac{3}{\\sqrt{6}\\cdot\\sqrt{2}}\\Rightarrow 30^\\circ\\).",
+   "explain_vi": "Đáp án b. \\(\\cos=\\dfrac{|\\vec u_1\\cdot\\vec u_2|}{|\\vec u_1||\\vec u_2|}=\\dfrac{3}{\\sqrt{6}\\cdot\\sqrt{2}}\\Rightarrow 30^\\circ\\).",
+   "images": [],
+   "id": "d9184a678b67",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The angle between the line \\(\\begin{cases}x=-#\\\\y=-#-t\\\\z=#+t\\end{cases}\\) and the plane \\(#x+y-#z-#=#\\) is…",
+   "en": "The angle between the line \\(\\begin{cases}x=-3\\\\y=-2-t\\\\z=3+t\\end{cases}\\) and the plane \\(2x+y-2z-2=0\\) is…",
+   "vi": "Góc giữa <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(\\begin{cases}x=-3\\\\y=-2-t\\\\z=3+t\\end{cases}\\) và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> \\(2x+y-2z-2=0\\) bằng…",
+   "options": [
+    "\\(60^\\circ\\)",
+    "\\(45^\\circ\\)",
+    "\\(30^\\circ\\)",
+    "\\(90^\\circ\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\sin\\varphi=\\dfrac{|\\vec u\\cdot\\vec n|}{|\\vec u||\\vec n|}=\\dfrac{3}{\\sqrt{2}\\cdot\\sqrt{9}}\\Rightarrow\\varphi=45^\\circ\\) (sine, not cosine!).",
+   "explain_vi": "Đáp án b. \\(\\sin\\varphi=\\dfrac{|\\vec u\\cdot\\vec n|}{|\\vec u||\\vec n|}=\\dfrac{3}{\\sqrt{2}\\cdot\\sqrt{9}}\\Rightarrow\\varphi=45^\\circ\\) (sin, không phải cos!).",
+   "images": [],
+   "id": "35de5f796659",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The angle between the planes \\(-x-y-#z-#=#\\) and \\(-#y-#z-#=#\\) is…",
+   "en": "The angle between the planes \\(-x-y-2z-4=0\\) and \\(-2y-2z-1=0\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"angle between two planes\">Góc giữa hai mặt phẳng</b> \\(-x-y-2z-1=0\\) và \\(-2y-2z+1=0\\) bằng…",
+   "options": [
+    "\\(90^\\circ\\)",
+    "\\(60^\\circ\\)",
+    "\\(30^\\circ\\)",
+    "\\(45^\\circ\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\cos=\\dfrac{|\\vec n_1\\cdot\\vec n_2|}{|\\vec n_1||\\vec n_2|}=\\dfrac{6}{\\sqrt{6}\\cdot\\sqrt{8}}\\).",
+   "explain_vi": "Đáp án c. \\(\\cos=\\dfrac{|\\vec n_1\\cdot\\vec n_2|}{|\\vec n_1||\\vec n_2|}=\\dfrac{6}{\\sqrt{6}\\cdot\\sqrt{8}}\\).",
+   "images": [],
+   "id": "70cc3923f13e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\varphi\\) is the angle between the axis \\(Ox\\) and the plane \\(#x+y-#z-#=#\\). \\(\\sin\\varphi=\\)…",
+   "en": "\\(\\varphi\\) is the angle between the axis \\(Ox\\) and the plane \\(4x+y-8z-1=0\\). \\(\\sin\\varphi=\\)…",
+   "vi": "Gọi \\(\\varphi\\) là góc giữa trục \\(Ox\\) và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> \\(4x+y-8z+1=0\\). \\(\\sin\\varphi=\\)…",
+   "options": [
+    "\\(\\dfrac{4}{81}\\)",
+    "\\(\\dfrac{8}{9}\\)",
+    "\\(\\dfrac{4}{9}\\)",
+    "\\(\\dfrac{1}{9}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\sin\\varphi=\\dfrac{|\\vec e\\cdot\\vec n|}{|\\vec e||\\vec n|}=\\dfrac{4}{9}\\).",
+   "explain_vi": "Đáp án c. \\(\\sin\\varphi=\\dfrac{|\\vec e\\cdot\\vec n|}{|\\vec e||\\vec n|}=\\dfrac{4}{9}\\).",
+   "images": [],
+   "id": "31a11d6e17f7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\vec u_#=(#;\\,-#;\\,#)\\), \\(\\vec u_#=(m;-#;-#)\\) are direction vectors of \\(d_#\\), \\(d_#\\). \\(d_#\\perp d_#\\) when \\(m=\\)…",
+   "en": "\\(\\vec u_1=(3;\\,-1;\\,3)\\), \\(\\vec u_2=(m;-3;-1)\\) are direction vectors of \\(d_1\\), \\(d_2\\). \\(d_1\\perp d_2\\) when \\(m=\\)…",
+   "vi": "\\(\\vec u_1=(3;\\,-1;\\,3)\\), \\(\\vec u_2=(m;-3;-1)\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"direction vector\">vectơ chỉ phương</b> của \\(d_1\\), \\(d_2\\). \\(d_1\\perp d_2\\) khi \\(m=\\)…",
+   "options": [
+    "\\(1\\)",
+    "\\(0\\)",
+    "\\(3\\)",
+    "\\(-2\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\vec u_1\\cdot\\vec u_2=3m+0=0\\Rightarrow m=0\\).",
+   "explain_vi": "Đáp án b. \\(\\vec u_1\\cdot\\vec u_2=3m+0=0\\Rightarrow m=0\\).",
+   "images": [],
+   "id": "d189e4aff4e4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(d_#\\), \\(d_#\\) have direction vectors \\(\\vec u_#=(#;\\,#;\\,#)\\), \\(\\vec u_#=(#;\\,#;\\,#)\\). \\(\\cos(d_#,d_#)=\\)…",
+   "en": "\\(d_1\\), \\(d_2\\) have direction vectors \\(\\vec u_1=(3;\\,0;\\,0)\\), \\(\\vec u_2=(2;\\,1;\\,2)\\). \\(\\cos(d_1,d_2)=\\)…",
+   "vi": "\\(d_1\\), \\(d_2\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"direction vector\">vectơ chỉ phương</b> \\(\\vec u_1=(3;\\,0;\\,0)\\), \\(\\vec u_2=(2;\\,1;\\,2)\\). \\(\\cos(d_1,d_2)=\\)…",
+   "options": [
+    "\\(\\dfrac{2}{3}\\)",
+    "\\(\\dfrac{2}{27}\\)",
+    "\\(2\\)",
+    "\\(\\dfrac{2}{9}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(|\\vec u_1|=|\\vec u_2|=3\\); \\(\\cos=\\dfrac{|6|}{9}=\\dfrac{2}{3}\\) (always \\(\\ge0\\)).",
+   "explain_vi": "Đáp án a. \\(|\\vec u_1|=|\\vec u_2|=3\\); \\(\\cos=\\dfrac{|6|}{9}=\\dfrac{2}{3}\\) (luôn \\(\\ge0\\)).",
+   "images": [],
+   "id": "7aa1a67fb1f0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  }
+ ]
+}

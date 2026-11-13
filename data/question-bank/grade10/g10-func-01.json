@@ -1,0 +1,1029 @@
+{
+ "lesson": "g10-func-01",
+ "grade": 10,
+ "no": 15,
+ "title": "Hàm số",
+ "path": "lessons/grade10/functions/functions.html",
+ "items": [
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "A delivery service charges # thousand VND for the first # km and # thousand VND for each further km. The charge for # km is…",
+   "en": "A delivery service charges 15 thousand VND for the first 2 km and 5 thousand VND for each further km. The charge for 9 km is…",
+   "vi": "Một dịch vụ giao hàng thu 15 nghìn đồng cho 2 km đầu và 5 nghìn đồng cho mỗi km tiếp theo. Giao hàng 9 km phải trả…",
+   "options": [
+    "\\(60\\ \\text{(nghìn đồng)}\\)",
+    "\\(50\\ \\text{(nghìn đồng)}\\)",
+    "\\(45\\ \\text{(nghìn đồng)}\\)",
+    "\\(55\\ \\text{(nghìn đồng)}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(f(x)=15+5(x-2)\\) for \\(x\\gt2\\): \\(f(9)=50\\).",
+   "explain_vi": "Đáp án b. \\(f(x)=15+5(x-2)\\) khi \\(x\\gt2\\): \\(f(9)=50\\).",
+   "images": [],
+   "id": "55c40fc47ee6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "The domain of \\(y=\\sqrt{#x-#}\\) is…",
+   "en": "The domain of \\(y=\\sqrt{2x-6}\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"domain\">Tập xác định</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(y=\\sqrt{2x-6}\\) là…",
+   "options": [
+    "\\([3;\\,+\\infty)\\)",
+    "\\((3;\\,+\\infty)\\)",
+    "\\((-\\infty;\\,3]\\)",
+    "\\(\\mathbb R\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Square root \\(\\ge0\\), denominator \\(\\ne0\\).",
+   "explain_vi": "Đáp án a. Biểu thức dưới căn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"non-negative\">không âm</b>, mẫu khác 0.",
+   "images": [],
+   "id": "6d3e8c98f22b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "The function \\(y=-#x+#\\) on \\(\\mathbb R\\) is…",
+   "en": "The function \\(y=-3x+1\\) on \\(\\mathbb R\\) is…",
+   "vi": "Trên \\(\\mathbb R\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(y=-3x+1\\)…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">decreasing</span><span class=\"vi\">nghịch biến</span></span>",
+    "<span class=\"txi\"><span class=\"en\">increasing</span><span class=\"vi\">đồng biến</span></span>",
+    "<span class=\"txi\"><span class=\"en\">constant</span><span class=\"vi\">là hàm hằng</span></span>",
+    "<span class=\"txi\"><span class=\"en\">increasing then decreasing</span><span class=\"vi\">đồng biến rồi nghịch biến</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. The coefficient \\(a=-3\\) is negative.",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">Hệ số</b> \\(a=-3\\) âm.",
+   "images": [],
+   "id": "be7435bf3cc9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "The point \\((#;\\,#)\\) lies on the graph of \\(y=x^#-#x+#\\).",
+   "en": "The point \\((3;\\,2)\\) lies on the graph of \\(y=x^2-3x+2\\).",
+   "vi": "Điểm \\((3;\\,2)\\) thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">đồ thị hàm số</b> \\(y=x^2-3x+2\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "\\(f(3)=2\\).",
+   "explain_vi": "\\(f(3)=2\\).",
+   "images": [],
+   "id": "d393693bbf08",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "The range of \\(y=x^#+#\\) is \\([#;\\,+\\infty)\\).",
+   "en": "The range of \\(y=x^2+2\\) is \\([2;\\,+\\infty)\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"range\">Tập giá trị</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(y=x^2+2\\) là \\([2;\\,+\\infty)\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "\\(x^2\\ge0\\) with equality at \\(x=0\\), so \\(y\\ge2\\) and \\(y=2\\) is reached.",
+   "explain_vi": "\\(x^2\\ge0\\), dấu bằng tại \\(x=0\\) nên \\(y\\ge2\\) và đạt \\(y=2\\).",
+   "images": [],
+   "id": "1b02f9d82e28",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "With the prices of Example #, how much (thousand VND) does a family using # kWh pay?",
+   "en": "With the prices of Example 5, how much (thousand VND) does a family using 80 kWh pay?",
+   "vi": "Với giá điện ở Ví dụ 5, gia đình dùng 80 kWh phải trả bao nhiêu nghìn đồng?",
+   "options": [],
+   "answer": "147",
+   "explain_en": "Add the tiers: \\(147\\).",
+   "explain_vi": "Cộng từng bậc: \\(147\\).",
+   "images": [],
+   "id": "a064921d598c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "\\(f(x)=#x+#\\) if \\(x\\lt#\\) and \\(f(x)=x^#\\) if \\(x\\ge#\\). Find \\(f(-#)+f(#)\\).",
+   "en": "\\(f(x)=2x+1\\) if \\(x\\lt0\\) and \\(f(x)=x^2\\) if \\(x\\ge0\\). Find \\(f(-2)+f(3)\\).",
+   "vi": "Cho \\(f(x)=2x+1\\) khi \\(x\\lt0\\), \\(f(x)=x^2\\) khi \\(x\\ge0\\). Tính \\(f(-2)+f(3)\\).",
+   "options": [],
+   "answer": "6",
+   "explain_en": "\\(f(-2)=-3\\), \\(f(3)=9\\).",
+   "explain_vi": "\\(f(-2)=-3\\), \\(f(3)=9\\).",
+   "images": [],
+   "id": "e06a96dabc3b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "A taxi charges # thousand VND for the first # km, # thousand VND/km from km # to km #, and # thousand VND/km after that. The fare for # km is… (thousand VND)",
+   "en": "A taxi charges 12 thousand VND for the first 1 km, 15 thousand VND/km from km 1 to km 30, and 11 thousand VND/km after that. The fare for 40 km is… (thousand VND)",
+   "vi": "Một hãng taxi tính 12 nghìn đồng cho 1 km đầu, 15 nghìn đồng/km từ trên km thứ 1 đến km thứ 30, và 11 nghìn đồng/km từ trên km thứ 30. Giá cước cho 40 km là… (nghìn đồng)",
+   "options": [
+    "\\(441\\)",
+    "\\(557\\)",
+    "\\(612\\)",
+    "\\(600\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Piecewise function: \\(12+29\\cdot15+10\\cdot11=557\\).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"piecewise-defined function\">Hàm số cho bởi nhiều công thức</b>: \\(12+29\\cdot15+10\\cdot11=557\\).",
+   "images": [],
+   "id": "a1cc7f2ae346",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Electricity prices (thousand VND/kWh): first # kWh: #; next # kWh: #; next # kWh: #; above # kWh: #. A family uses # kWh. The bill (without tax) is… thousand VND",
+   "en": "Electricity prices (thousand VND/kWh): first 50 kWh: 1.8; next 50 kWh: 1.9; next 100 kWh: 2.2; above 200 kWh: 2.8. A family uses 40 kWh. The bill (without tax) is… thousand VND",
+   "vi": "Giá điện (nghìn đồng/kWh): 50 kWh đầu: 1,8; 50 kWh tiếp: 1,9; 100 kWh tiếp: 2,2; trên 200 kWh: 2,8. Một gia đình dùng 40 kWh. Tiền điện (chưa thuế) là… nghìn đồng",
+   "options": [
+    "\\(72\\)",
+    "\\(88\\)",
+    "\\(76\\)",
+    "\\(82\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Add the cost of each tier.",
+   "explain_vi": "Đáp án a. Cộng tiền của từng bậc.",
+   "images": [],
+   "id": "6eba48f54112",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The domain of \\(y=\\dfrac{#}{-x-#}\\) is…",
+   "en": "The domain of \\(y=\\dfrac{2}{-x-3}\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"domain\">Tập xác định</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(y=\\dfrac{2}{-x-3}\\) là…",
+   "options": [
+    "\\([-3;\\,+\\infty)\\)",
+    "\\((-3;\\,+\\infty)\\)",
+    "\\(\\mathbb R\\)",
+    "\\(\\mathbb R\\setminus\\{-3\\}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Need \\(-x-3\\ne0\\).",
+   "explain_vi": "Đáp án d. Điều kiện: \\(-x-3\\ne0\\).",
+   "images": [],
+   "id": "c3e147e100d2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The domain of \\(y=\\dfrac{\\sqrt{x+#}}{x-#}\\) is…",
+   "en": "The domain of \\(y=\\dfrac{\\sqrt{x+1}}{x-7}\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"domain\">Tập xác định</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(y=\\dfrac{\\sqrt{x+1}}{x-7}\\) là…",
+   "options": [
+    "\\([-1;\\,+\\infty)\\)",
+    "\\(\\mathbb R\\setminus\\{7\\}\\)",
+    "\\((-1;\\,+\\infty)\\)",
+    "\\([-1;\\,+\\infty)\\setminus\\{7\\}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Need \\(x\\ge-1\\) and \\(x\\ne7\\).",
+   "explain_vi": "Đáp án d. Điều kiện: \\(x\\ge-1\\) và \\(x\\ne7\\).",
+   "images": [],
+   "id": "25c539ef1a49",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The function \\(y=x^#-#\\) is…",
+   "en": "The function \\(y=x^2-1\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">Hàm số</b> \\(y=x^2-1\\)…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">decreasing on \\((-\\infty;0)\\), increasing on \\((0;+\\infty)\\)</span><span class=\"vi\">nghịch biến trên \\((-\\infty;0)\\), đồng biến trên \\((0;+\\infty)\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">increasing on \\(\\mathbb R\\)</span><span class=\"vi\">đồng biến trên \\(\\mathbb R\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">decreasing on \\(\\mathbb R\\)</span><span class=\"vi\">nghịch biến trên \\(\\mathbb R\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">increasing on \\((-\\infty;0)\\), decreasing on \\((0;+\\infty)\\)</span><span class=\"vi\">đồng biến trên \\((-\\infty;0)\\), nghịch biến trên \\((0;+\\infty)\\)</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. The parabola opens upward with vertex at \\(x=0\\).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parabola\">Parabol</b> quay bề lõm lên, đỉnh tại \\(x=0\\).",
+   "images": [],
+   "id": "1b160b764c10",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The range of \\(y=\\sqrt x-#\\) is…",
+   "en": "The range of \\(y=\\sqrt x-3\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"range\">Tập giá trị</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(y=\\sqrt x-3\\) là…",
+   "options": [
+    "\\((-3;\\,+\\infty)\\)",
+    "\\([-3;\\,+\\infty)\\)",
+    "\\([0;\\,+\\infty)\\)",
+    "\\(\\mathbb R\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(x^2\\ge0\\) and \\(\\sqrt x\\ge0\\), with equality at \\(x=0\\).",
+   "explain_vi": "Đáp án b. \\(x^2\\ge0\\), \\(\\sqrt x\\ge0\\), dấu bằng xảy ra tại \\(x=0\\).",
+   "images": [],
+   "id": "ab48163c31e0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Which point lies on the graph of \\(y=#x\\)?",
+   "en": "Which point lies on the graph of \\(y=2x\\)?",
+   "vi": "Điểm nào thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">đồ thị hàm số</b> \\(y=2x\\)?",
+   "options": [
+    "\\((-2;\\,-3)\\)",
+    "\\((2;\\,-4)\\)",
+    "\\((-2;\\,-4)\\)",
+    "\\((-1;\\,-4)\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(2x\\) at \\(x=-2\\) gives \\(-4\\).",
+   "explain_vi": "Đáp án c. Thay \\(x=-2\\) được \\(y=-4\\).",
+   "images": [],
+   "id": "967eec77e03a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(f(x)=#x^#-x+#\\). Then \\(f(#)=\\)…",
+   "en": "\\(f(x)=2x^2-x+1\\). Then \\(f(2)=\\)…",
+   "vi": "Cho \\(f(x)=2x^2-x+1\\). Khi đó \\(f(2)=\\)…",
+   "options": [
+    "\\(7\\)",
+    "\\(11\\)",
+    "\\(8\\)",
+    "\\(-9\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Substitute \\(x=2\\): \\(7\\).",
+   "explain_vi": "Đáp án a. Thay \\(x=2\\): \\(7\\).",
+   "images": [],
+   "id": "76b9b241b116",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "A delivery service charges # thousand VND for the first # km and # thousand VND for each further km. The charge for # km is…",
+   "en": "A delivery service charges 20 thousand VND for the first 3 km and 4 thousand VND for each further km. The charge for 10 km is…",
+   "vi": "Một dịch vụ giao hàng thu 20 nghìn đồng cho 3 km đầu và 4 nghìn đồng cho mỗi km tiếp theo. Giao hàng 10 km phải trả…",
+   "options": [
+    "\\(60\\ \\text{(nghìn đồng)}\\)",
+    "\\(48\\ \\text{(nghìn đồng)}\\)",
+    "\\(40\\ \\text{(nghìn đồng)}\\)",
+    "\\(52\\ \\text{(nghìn đồng)}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(f(x)=20+4(x-3)\\) for \\(x\\gt3\\): \\(f(10)=48\\).",
+   "explain_vi": "Đáp án b. \\(f(x)=20+4(x-3)\\) khi \\(x\\gt3\\): \\(f(10)=48\\).",
+   "images": [],
+   "id": "2f3e567df0cd",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "The domain of \\(y=\\dfrac{\\sqrt{x-#}}{x-#}\\) is…",
+   "en": "The domain of \\(y=\\dfrac{\\sqrt{x-2}}{x-5}\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"domain\">Tập xác định</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(y=\\dfrac{\\sqrt{x-2}}{x-5}\\) là…",
+   "options": [
+    "\\([2;\\,+\\infty)\\)",
+    "\\(\\mathbb R\\setminus\\{5\\}\\)",
+    "\\([2;\\,+\\infty)\\setminus\\{5\\}\\)",
+    "\\((2;\\,+\\infty)\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Square root \\(\\ge0\\), denominator \\(\\ne0\\).",
+   "explain_vi": "Đáp án c. Biểu thức dưới căn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"non-negative\">không âm</b>, mẫu khác 0.",
+   "images": [],
+   "id": "db3b25ad404b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "The function \\(y=\\dfrac{#}{#}x-#\\) on \\(\\mathbb R\\) is…",
+   "en": "The function \\(y=\\dfrac{1}{2}x-4\\) on \\(\\mathbb R\\) is…",
+   "vi": "Trên \\(\\mathbb R\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(y=\\dfrac{1}{2}x-4\\)…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">decreasing</span><span class=\"vi\">nghịch biến</span></span>",
+    "<span class=\"txi\"><span class=\"en\">constant</span><span class=\"vi\">là hàm hằng</span></span>",
+    "<span class=\"txi\"><span class=\"en\">increasing</span><span class=\"vi\">đồng biến</span></span>",
+    "<span class=\"txi\"><span class=\"en\">increasing then decreasing</span><span class=\"vi\">đồng biến rồi nghịch biến</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The coefficient \\(a=\\dfrac{1}{2}\\) is positive.",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">Hệ số</b> \\(a=\\dfrac{1}{2}\\) dương.",
+   "images": [],
+   "id": "d2a28fe1c8eb",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "The point \\((-#;\\,#)\\) lies on the graph of \\(y=#x^#+x-#\\).",
+   "en": "The point \\((-2;\\,3)\\) lies on the graph of \\(y=2x^2+x-3\\).",
+   "vi": "Điểm \\((-2;\\,3)\\) thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">đồ thị hàm số</b> \\(y=2x^2+x-3\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "\\(f(-2)=3\\).",
+   "explain_vi": "\\(f(-2)=3\\).",
+   "images": [],
+   "id": "16a5908edd07",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "The range of \\(y=x^#-#\\) is \\((-#;\\,+\\infty)\\).",
+   "en": "The range of \\(y=x^2-1\\) is \\((-1;\\,+\\infty)\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"range\">Tập giá trị</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(y=x^2-1\\) là \\((-1;\\,+\\infty)\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "\\(x^2\\ge0\\) with equality at \\(x=0\\), so \\(y\\ge-1\\) and \\(y=-1\\) is reached.",
+   "explain_vi": "\\(x^2\\ge0\\), dấu bằng tại \\(x=0\\) nên \\(y\\ge-1\\) và đạt \\(y=-1\\).",
+   "images": [],
+   "id": "43f408f1e9cc",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "With the prices of Example #, how much (thousand VND) does a family using # kWh pay?",
+   "en": "With the prices of Example 5, how much (thousand VND) does a family using 130 kWh pay?",
+   "vi": "Với giá điện ở Ví dụ 5, gia đình dùng 130 kWh phải trả bao nhiêu nghìn đồng?",
+   "options": [],
+   "answer": "251",
+   "explain_en": "Add the tiers: \\(251\\).",
+   "explain_vi": "Cộng từng bậc: \\(251\\).",
+   "images": [],
+   "id": "1802e4c3d46f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "\\(f(x)=#-x\\) if \\(x\\lt#\\) and \\(f(x)=#x-#\\) if \\(x\\ge#\\). Find \\(f(-#)+f(#)\\).",
+   "en": "\\(f(x)=3-x\\) if \\(x\\lt1\\) and \\(f(x)=2x-1\\) if \\(x\\ge1\\). Find \\(f(-1)+f(4)\\).",
+   "vi": "Cho \\(f(x)=3-x\\) khi \\(x\\lt1\\), \\(f(x)=2x-1\\) khi \\(x\\ge1\\). Tính \\(f(-1)+f(4)\\).",
+   "options": [],
+   "answer": "11",
+   "explain_en": "\\(f(-1)=4\\), \\(f(4)=7\\).",
+   "explain_vi": "\\(f(-1)=4\\), \\(f(4)=7\\).",
+   "images": [],
+   "id": "05d343254f51",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "A taxi charges # thousand VND for the first # km, # thousand VND/km from km # to km #, and # thousand VND/km after that. The fare for # km is… (thousand VND)",
+   "en": "A taxi charges 15 thousand VND for the first 2 km, 16 thousand VND/km from km 2 to km 30, and 13 thousand VND/km after that. The fare for 8 km is… (thousand VND)",
+   "vi": "Một hãng taxi tính 15 nghìn đồng cho 2 km đầu, 16 nghìn đồng/km từ trên km thứ 2 đến km thứ 30, và 13 nghìn đồng/km từ trên km thứ 30. Giá cước cho 8 km là… (nghìn đồng)",
+   "options": [
+    "\\(111\\)",
+    "\\(128\\)",
+    "\\(143\\)",
+    "\\(93\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Piecewise function: \\(15+6\\cdot16+0\\cdot13=111\\).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"piecewise-defined function\">Hàm số cho bởi nhiều công thức</b>: \\(15+6\\cdot16+0\\cdot13=111\\).",
+   "images": [],
+   "id": "8fa6264df509",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Electricity prices (thousand VND/kWh): first # kWh: #; next # kWh: #; next # kWh: #; above # kWh: #. A family uses # kWh. The bill (without tax) is… thousand VND",
+   "en": "Electricity prices (thousand VND/kWh): first 50 kWh: 1.8; next 50 kWh: 1.9; next 100 kWh: 2.2; above 200 kWh: 2.8. A family uses 150 kWh. The bill (without tax) is… thousand VND",
+   "vi": "Giá điện (nghìn đồng/kWh): 50 kWh đầu: 1,8; 50 kWh tiếp: 1,9; 100 kWh tiếp: 2,2; trên 200 kWh: 2,8. Một gia đình dùng 150 kWh. Tiền điện (chưa thuế) là… nghìn đồng",
+   "options": [
+    "\\(270\\)",
+    "\\(305\\)",
+    "\\(295\\)",
+    "\\(330\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Add the cost of each tier.",
+   "explain_vi": "Đáp án c. Cộng tiền của từng bậc.",
+   "images": [],
+   "id": "894e9443803c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The domain of \\(y=\\dfrac{#}{-x}\\) is…",
+   "en": "The domain of \\(y=\\dfrac{1}{-x}\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"domain\">Tập xác định</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(y=\\dfrac{1}{-x}\\) là…",
+   "options": [
+    "\\(\\mathbb R\\setminus\\{0\\}\\)",
+    "\\([0;\\,+\\infty)\\)",
+    "\\((0;\\,+\\infty)\\)",
+    "\\(\\mathbb R\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Need \\(-x\\ne0\\).",
+   "explain_vi": "Đáp án a. Điều kiện: \\(-x\\ne0\\).",
+   "images": [],
+   "id": "657a89894e49",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The domain of \\(y=\\sqrt{#x-#}\\) is…",
+   "en": "The domain of \\(y=\\sqrt{2x-5}\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"domain\">Tập xác định</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(y=\\sqrt{2x-5}\\) là…",
+   "options": [
+    "\\((\\dfrac{5}{2};\\,+\\infty)\\)",
+    "\\(\\mathbb R\\setminus\\{\\dfrac{5}{2}\\}\\)",
+    "\\([\\dfrac{5}{2};\\,+\\infty)\\)",
+    "\\((-\\infty;\\,\\dfrac{5}{2}]\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Need \\(2x-5\\ge0\\).",
+   "explain_vi": "Đáp án c. Điều kiện: \\(2x-5\\ge0\\).",
+   "images": [],
+   "id": "379384f1c5fc",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The function \\(y=\\dfrac{#}{x}\\) is…",
+   "en": "The function \\(y=\\dfrac{2}{x}\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">Hàm số</b> \\(y=\\dfrac{2}{x}\\)…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">increasing on \\(\\mathbb R\\)</span><span class=\"vi\">đồng biến trên \\(\\mathbb R\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">decreasing on \\((0;+\\infty)\\)</span><span class=\"vi\">nghịch biến trên \\((0;+\\infty)\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">increasing on \\((0;+\\infty)\\)</span><span class=\"vi\">đồng biến trên \\((0;+\\infty)\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">decreasing on \\(\\mathbb R\\)</span><span class=\"vi\">nghịch biến trên \\(\\mathbb R\\)</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. For \\(0\\lt x_1\\lt x_2\\): \\(\\dfrac{2}{x_1}-\\dfrac{2}{x_2}=\\dfrac{2(x_2-x_1)}{x_1x_2}\\) has the sign of 2.",
+   "explain_vi": "Đáp án b. Với \\(0\\lt x_1\\lt x_2\\): \\(\\dfrac{2}{x_1}-\\dfrac{2}{x_2}=\\dfrac{2(x_2-x_1)}{x_1x_2}\\) cùng dấu với 2.",
+   "images": [],
+   "id": "aef6719040a9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The range of \\(y=\\sqrt x+#\\) is…",
+   "en": "The range of \\(y=\\sqrt x+3\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"range\">Tập giá trị</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(y=\\sqrt x+3\\) là…",
+   "options": [
+    "\\([0;\\,+\\infty)\\)",
+    "\\((3;\\,+\\infty)\\)",
+    "\\(\\mathbb R\\)",
+    "\\([3;\\,+\\infty)\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(x^2\\ge0\\) and \\(\\sqrt x\\ge0\\), with equality at \\(x=0\\).",
+   "explain_vi": "Đáp án d. \\(x^2\\ge0\\), \\(\\sqrt x\\ge0\\), dấu bằng xảy ra tại \\(x=0\\).",
+   "images": [],
+   "id": "77b0d4fd1472",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Which point lies on the graph of \\(y=-x-#\\)?",
+   "en": "Which point lies on the graph of \\(y=-x-1\\)?",
+   "vi": "Điểm nào thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">đồ thị hàm số</b> \\(y=-x-1\\)?",
+   "options": [
+    "\\((0;\\,-1)\\)",
+    "\\((0;\\,0)\\)",
+    "\\((2;\\,-1)\\)",
+    "\\((1;\\,-1)\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(-x-1\\) at \\(x=0\\) gives \\(-1\\).",
+   "explain_vi": "Đáp án a. Thay \\(x=0\\) được \\(y=-1\\).",
+   "images": [],
+   "id": "792bf18faf0c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(f(x)=x^#+x+#\\). Then \\(f(#)=\\)…",
+   "en": "\\(f(x)=x^2+x+1\\). Then \\(f(3)=\\)…",
+   "vi": "Cho \\(f(x)=x^2+x+1\\). Khi đó \\(f(3)=\\)…",
+   "options": [
+    "\\(7\\)",
+    "\\(-5\\)",
+    "\\(13\\)",
+    "\\(14\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Substitute \\(x=3\\): \\(13\\).",
+   "explain_vi": "Đáp án c. Thay \\(x=3\\): \\(13\\).",
+   "images": [],
+   "id": "70d14eb6fe4f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "A delivery service charges # thousand VND for the first # km and # thousand VND for each further km. The charge for # km is…",
+   "en": "A delivery service charges 12 thousand VND for the first 1 km and 6 thousand VND for each further km. The charge for 15 km is…",
+   "vi": "Một dịch vụ giao hàng thu 12 nghìn đồng cho 1 km đầu và 6 nghìn đồng cho mỗi km tiếp theo. Giao hàng 15 km phải trả…",
+   "options": [
+    "\\(102\\ \\text{(nghìn đồng)}\\)",
+    "\\(96\\ \\text{(nghìn đồng)}\\)",
+    "\\(90\\ \\text{(nghìn đồng)}\\)",
+    "\\(108\\ \\text{(nghìn đồng)}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(f(x)=12+6(x-1)\\) for \\(x\\gt1\\): \\(f(15)=96\\).",
+   "explain_vi": "Đáp án b. \\(f(x)=12+6(x-1)\\) khi \\(x\\gt1\\): \\(f(15)=96\\).",
+   "images": [],
+   "id": "ee6a2c04a38f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "The domain of \\(y=\\dfrac{\\sqrt{x+#}}{x-#}\\) is…",
+   "en": "The domain of \\(y=\\dfrac{\\sqrt{x+1}}{x-3}\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"domain\">Tập xác định</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(y=\\dfrac{\\sqrt{x+1}}{x-3}\\) là…",
+   "options": [
+    "\\([-1;\\,+\\infty)\\)",
+    "\\(\\mathbb R\\setminus\\{3\\}\\)",
+    "\\((-1;\\,+\\infty)\\)",
+    "\\([-1;\\,+\\infty)\\setminus\\{3\\}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Square root \\(\\ge0\\), denominator \\(\\ne0\\).",
+   "explain_vi": "Đáp án d. Biểu thức dưới căn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"non-negative\">không âm</b>, mẫu khác 0.",
+   "images": [],
+   "id": "4294ddfb2227",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "The function \\(y=#x+#\\) on \\(\\mathbb R\\) is…",
+   "en": "The function \\(y=2x+7\\) on \\(\\mathbb R\\) is…",
+   "vi": "Trên \\(\\mathbb R\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(y=2x+7\\)…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">decreasing</span><span class=\"vi\">nghịch biến</span></span>",
+    "<span class=\"txi\"><span class=\"en\">constant</span><span class=\"vi\">là hàm hằng</span></span>",
+    "<span class=\"txi\"><span class=\"en\">increasing</span><span class=\"vi\">đồng biến</span></span>",
+    "<span class=\"txi\"><span class=\"en\">increasing then decreasing</span><span class=\"vi\">đồng biến rồi nghịch biến</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The coefficient \\(a=2\\) is positive.",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">Hệ số</b> \\(a=2\\) dương.",
+   "images": [],
+   "id": "ab22e217ef2c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "The point \\((#;\\,-#)\\) lies on the graph of \\(y=-x^#+#x\\).",
+   "en": "The point \\((5;\\,-6)\\) lies on the graph of \\(y=-x^2+4x\\).",
+   "vi": "Điểm \\((5;\\,-6)\\) thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">đồ thị hàm số</b> \\(y=-x^2+4x\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "\\(f(5)=-5\\).",
+   "explain_vi": "\\(f(5)=-5\\).",
+   "images": [],
+   "id": "e958434ff54c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "The range of \\(y=x^#-#\\) is \\([-#;\\,+\\infty)\\).",
+   "en": "The range of \\(y=x^2-3\\) is \\([-3;\\,+\\infty)\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"range\">Tập giá trị</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(y=x^2-3\\) là \\([-3;\\,+\\infty)\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "\\(x^2\\ge0\\) with equality at \\(x=0\\), so \\(y\\ge-3\\) and \\(y=-3\\) is reached.",
+   "explain_vi": "\\(x^2\\ge0\\), dấu bằng tại \\(x=0\\) nên \\(y\\ge-3\\) và đạt \\(y=-3\\).",
+   "images": [],
+   "id": "e641850a8663",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "With the prices of Example #, how much (thousand VND) does a family using # kWh pay?",
+   "en": "With the prices of Example 5, how much (thousand VND) does a family using 45 kWh pay?",
+   "vi": "Với giá điện ở Ví dụ 5, gia đình dùng 45 kWh phải trả bao nhiêu nghìn đồng?",
+   "options": [],
+   "answer": "81",
+   "explain_en": "Add the tiers: \\(81\\).",
+   "explain_vi": "Cộng từng bậc: \\(81\\).",
+   "images": [],
+   "id": "2be09df7159d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "\\(f(x)=x^#-#\\) if \\(x\\lt#\\) and \\(f(x)=#-x\\) if \\(x\\ge#\\). Find \\(f(#)+f(#)\\).",
+   "en": "\\(f(x)=x^2-1\\) if \\(x\\lt2\\) and \\(f(x)=4-x\\) if \\(x\\ge2\\). Find \\(f(0)+f(5)\\).",
+   "vi": "Cho \\(f(x)=x^2-1\\) khi \\(x\\lt2\\), \\(f(x)=4-x\\) khi \\(x\\ge2\\). Tính \\(f(0)+f(5)\\).",
+   "options": [],
+   "answer": "-2",
+   "explain_en": "\\(f(0)=-1\\), \\(f(5)=-1\\).",
+   "explain_vi": "\\(f(0)=-1\\), \\(f(5)=-1\\).",
+   "images": [],
+   "id": "10aecb9d6e55",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "A taxi charges # thousand VND for the first # km, # thousand VND/km from km # to km #, and # thousand VND/km after that. The fare for # km is… (thousand VND)",
+   "en": "A taxi charges 12 thousand VND for the first 1 km, 15 thousand VND/km from km 1 to km 30, and 11 thousand VND/km after that. The fare for 8 km is… (thousand VND)",
+   "vi": "Một hãng taxi tính 12 nghìn đồng cho 1 km đầu, 15 nghìn đồng/km từ trên km thứ 1 đến km thứ 30, và 11 nghìn đồng/km từ trên km thứ 30. Giá cước cho 8 km là… (nghìn đồng)",
+   "options": [
+    "\\(117\\)",
+    "\\(120\\)",
+    "\\(89\\)",
+    "\\(132\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Piecewise function: \\(12+7\\cdot15+0\\cdot11=117\\).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"piecewise-defined function\">Hàm số cho bởi nhiều công thức</b>: \\(12+7\\cdot15+0\\cdot11=117\\).",
+   "images": [],
+   "id": "f5f360f2398a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Electricity prices (thousand VND/kWh): first # kWh: #; next # kWh: #; next # kWh: #; above # kWh: #. A family uses # kWh. The bill (without tax) is… thousand VND",
+   "en": "Electricity prices (thousand VND/kWh): first 50 kWh: 1.8; next 50 kWh: 1.9; next 100 kWh: 2.2; above 200 kWh: 2.8. A family uses 180 kWh. The bill (without tax) is… thousand VND",
+   "vi": "Giá điện (nghìn đồng/kWh): 50 kWh đầu: 1,8; 50 kWh tiếp: 1,9; 100 kWh tiếp: 2,2; trên 200 kWh: 2,8. Một gia đình dùng 180 kWh. Tiền điện (chưa thuế) là… nghìn đồng",
+   "options": [
+    "\\(371\\)",
+    "\\(361\\)",
+    "\\(396\\)",
+    "\\(324\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Add the cost of each tier.",
+   "explain_vi": "Đáp án b. Cộng tiền của từng bậc.",
+   "images": [],
+   "id": "1c7493979ef4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The domain of \\(y=\\dfrac{#}{#x+#}\\) is…",
+   "en": "The domain of \\(y=\\dfrac{3}{3x+6}\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"domain\">Tập xác định</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(y=\\dfrac{3}{3x+6}\\) là…",
+   "options": [
+    "\\(\\mathbb R\\setminus\\{-2\\}\\)",
+    "\\([-2;\\,+\\infty)\\)",
+    "\\((-2;\\,+\\infty)\\)",
+    "\\(\\mathbb R\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Need \\(3x+6\\ne0\\).",
+   "explain_vi": "Đáp án a. Điều kiện: \\(3x+6\\ne0\\).",
+   "images": [],
+   "id": "c4134c1e57c4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The domain of \\(y=\\sqrt{#x+#}\\) is…",
+   "en": "The domain of \\(y=\\sqrt{2x+5}\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"domain\">Tập xác định</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(y=\\sqrt{2x+5}\\) là…",
+   "options": [
+    "\\((-\\infty;\\,-\\dfrac{5}{2}]\\)",
+    "\\(\\mathbb R\\setminus\\{-\\dfrac{5}{2}\\}\\)",
+    "\\([-\\dfrac{5}{2};\\,+\\infty)\\)",
+    "\\((-\\dfrac{5}{2};\\,+\\infty)\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Need \\(2x+5\\ge0\\).",
+   "explain_vi": "Đáp án c. Điều kiện: \\(2x+5\\ge0\\).",
+   "images": [],
+   "id": "4868753ca2dc",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The function \\(y=\\dfrac{#}{x}\\) is…",
+   "en": "The function \\(y=\\dfrac{1}{x}\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">Hàm số</b> \\(y=\\dfrac{1}{x}\\)…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">increasing on \\(\\mathbb R\\)</span><span class=\"vi\">đồng biến trên \\(\\mathbb R\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">decreasing on \\(\\mathbb R\\)</span><span class=\"vi\">nghịch biến trên \\(\\mathbb R\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">decreasing on \\((0;+\\infty)\\)</span><span class=\"vi\">nghịch biến trên \\((0;+\\infty)\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">increasing on \\((0;+\\infty)\\)</span><span class=\"vi\">đồng biến trên \\((0;+\\infty)\\)</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. For \\(0\\lt x_1\\lt x_2\\): \\(\\dfrac{1}{x_1}-\\dfrac{1}{x_2}=\\dfrac{1(x_2-x_1)}{x_1x_2}\\) has the sign of 1.",
+   "explain_vi": "Đáp án c. Với \\(0\\lt x_1\\lt x_2\\): \\(\\dfrac{1}{x_1}-\\dfrac{1}{x_2}=\\dfrac{1(x_2-x_1)}{x_1x_2}\\) cùng dấu với 1.",
+   "images": [],
+   "id": "a967aea4cfae",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The range of \\(y=-x^#-#\\) is…",
+   "en": "The range of \\(y=-x^2-3\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"range\">Tập giá trị</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(y=-x^2-3\\) là…",
+   "options": [
+    "\\((-\\infty;\\,-3]\\)",
+    "\\((-\\infty;\\,-3)\\)",
+    "\\(\\mathbb R\\)",
+    "\\([-3;\\,+\\infty)\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(x^2\\ge0\\) and \\(\\sqrt x\\ge0\\), with equality at \\(x=0\\).",
+   "explain_vi": "Đáp án a. \\(x^2\\ge0\\), \\(\\sqrt x\\ge0\\), dấu bằng xảy ra tại \\(x=0\\).",
+   "images": [],
+   "id": "02c4ff626cda",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Which point lies on the graph of \\(y=-#x-#\\)?",
+   "en": "Which point lies on the graph of \\(y=-2x-2\\)?",
+   "vi": "Điểm nào thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">đồ thị hàm số</b> \\(y=-2x-2\\)?",
+   "options": [
+    "\\((2;\\,-2)\\)",
+    "\\((1;\\,-2)\\)",
+    "\\((0;\\,-2)\\)",
+    "\\((0;\\,-1)\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(-2x-2\\) at \\(x=0\\) gives \\(-2\\).",
+   "explain_vi": "Đáp án c. Thay \\(x=0\\) được \\(y=-2\\).",
+   "images": [],
+   "id": "cff31dbe2fe0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(f(x)=x^#-x+#\\). Then \\(f(#)=\\)…",
+   "en": "\\(f(x)=x^2-x+2\\). Then \\(f(1)=\\)…",
+   "vi": "Cho \\(f(x)=x^2-x+2\\). Khi đó \\(f(1)=\\)…",
+   "options": [
+    "\\(0\\)",
+    "\\(3\\)",
+    "\\(4\\)",
+    "\\(2\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Substitute \\(x=1\\): \\(2\\).",
+   "explain_vi": "Đáp án d. Thay \\(x=1\\): \\(2\\).",
+   "images": [],
+   "id": "48ff9a61d316",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  }
+ ]
+}

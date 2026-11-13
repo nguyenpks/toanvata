@@ -1,0 +1,1029 @@
+{
+ "lesson": "g10-vec-03",
+ "grade": 10,
+ "no": 9,
+ "title": "Tích của một vectơ với một số",
+ "path": "lessons/grade10/vectors/vector-scalar-multiple.html",
+ "items": [
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "M is on side BC with \\(\\overrightarrow{BM}=\\dfrac{#}{#}\\overrightarrow{BC}\\). Then \\(\\overrightarrow{AM}=y\\overrightarrow{AB}+z\\overrightarrow{AC}\\) with \\(z=\\)…",
+   "en": "M is on side BC with \\(\\overrightarrow{BM}=\\dfrac{1}{4}\\overrightarrow{BC}\\). Then \\(\\overrightarrow{AM}=y\\overrightarrow{AB}+z\\overrightarrow{AC}\\) with \\(z=\\)…",
+   "vi": "Điểm M thuộc cạnh BC với \\(\\overrightarrow{BM}=\\dfrac{1}{4}\\overrightarrow{BC}\\). Khi đó \\(\\overrightarrow{AM}=y\\overrightarrow{AB}+z\\overrightarrow{AC}\\) với \\(z=\\)…",
+   "options": [
+    "\\(\\dfrac{3}{4}\\)",
+    "\\(\\dfrac{5}{4}\\)",
+    "\\(\\dfrac{1}{4}\\)",
+    "\\(-\\dfrac{1}{4}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\overrightarrow{AM}=(1-t)\\overrightarrow{AB}+t\\overrightarrow{AC}\\) with \\(t=\\dfrac{1}{4}\\).",
+   "explain_vi": "Đáp án c. \\(\\overrightarrow{AM}=(1-t)\\overrightarrow{AB}+t\\overrightarrow{AC}\\) với \\(t=\\dfrac{1}{4}\\).",
+   "images": [],
+   "id": "6c0b21d2b970",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(\\overrightarrow{PQ}=#\\,\\overrightarrow{PR}\\). Then \\(\\overrightarrow{PR}=k\\,\\overrightarrow{PQ}\\) with \\(k=\\)…",
+   "en": "\\(\\overrightarrow{PQ}=3\\,\\overrightarrow{PR}\\). Then \\(\\overrightarrow{PR}=k\\,\\overrightarrow{PQ}\\) with \\(k=\\)…",
+   "vi": "\\(\\overrightarrow{PQ}=3\\,\\overrightarrow{PR}\\). Khi đó \\(\\overrightarrow{PR}=k\\,\\overrightarrow{PQ}\\) với \\(k=\\)…",
+   "options": [
+    "\\(3\\)",
+    "\\(\\dfrac{1}{3}\\)",
+    "\\(-3\\)",
+    "\\(-\\dfrac{1}{3}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Divide both sides by 3.",
+   "explain_vi": "Đáp án b. Chia hai vế cho 3.",
+   "images": [],
+   "id": "1be39ff1074d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(|\\vec a|=#\\). Then \\(|-#\\vec a|=\\)…",
+   "en": "\\(|\\vec a|=6\\). Then \\(|-3\\vec a|=\\)…",
+   "vi": "\\(|\\vec a|=6\\). Khi đó \\(|-3\\vec a|=\\)…",
+   "options": [
+    "\\(-18\\)",
+    "\\(18\\)",
+    "\\(24\\)",
+    "\\(6\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(|k\\vec a|=|k||\\vec a|\\).",
+   "explain_vi": "Đáp án b. \\(|k\\vec a|=|k||\\vec a|\\).",
+   "images": [],
+   "id": "c5ea71d77399",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "G is the centroid of triangle ABC. \\(\\overrightarrow{GA}+\\overrightarrow{GB}+\\overrightarrow{GC}=\\vec#\\).",
+   "en": "G is the centroid of triangle ABC. \\(\\overrightarrow{GA}+\\overrightarrow{GB}+\\overrightarrow{GC}=\\vec0\\).",
+   "vi": "G là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"centroid\">trọng tâm</b> tam giác ABC. \\(\\overrightarrow{GA}+\\overrightarrow{GB}+\\overrightarrow{GC}=\\vec0\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "The centroid satisfies \\(\\overrightarrow{GA}+\\overrightarrow{GB}+\\overrightarrow{GC}=\\vec0\\).",
+   "explain_vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"centroid\">Trọng tâm</b> thỏa \\(\\overrightarrow{GA}+\\overrightarrow{GB}+\\overrightarrow{GC}=\\vec0\\).",
+   "images": [],
+   "id": "bd4e13b987e4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "If \\(\\vec b=-#\\vec a\\) with \\(\\vec a\\ne\\vec#\\), then \\(\\vec b\\) and \\(\\vec a\\) have opposite direction.",
+   "en": "If \\(\\vec b=-2\\vec a\\) with \\(\\vec a\\ne\\vec0\\), then \\(\\vec b\\) and \\(\\vec a\\) have opposite direction.",
+   "vi": "Nếu \\(\\vec b=-2\\vec a\\) với \\(\\vec a\\ne\\vec0\\) thì \\(\\vec b\\) và \\(\\vec a\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"opposite directions\">ngược hướng</b>.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "The sign of \\(k\\) decides the direction.",
+   "explain_vi": "Dấu của \\(k\\) quyết định hướng.",
+   "images": [],
+   "id": "9713e2e8c5ce",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "In triangle ABC with centroid G, the median AI has length #. Find AG.",
+   "en": "In triangle ABC with centroid G, the median AI has length 9. Find AG.",
+   "vi": "Tam giác ABC có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"centroid\">trọng tâm</b> G, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"median\">trung tuyến</b> AI dài 9. Tính AG.",
+   "options": [],
+   "answer": "6",
+   "explain_en": "G divides AI so that \\(AG=\\dfrac23AI\\).",
+   "explain_vi": "G chia AI sao cho \\(AG=\\dfrac23AI\\).",
+   "images": [],
+   "id": "91242088c194",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "\\(|\\vec a|=#\\). Find \\(|#\\vec a|\\).",
+   "en": "\\(|\\vec a|=4\\). Find \\(|5\\vec a|\\).",
+   "vi": "Cho \\(|\\vec a|=4\\). Tính \\(|5\\vec a|\\).",
+   "options": [],
+   "answer": "20",
+   "explain_en": "\\(|k||\\vec a|=5\\cdot4\\).",
+   "explain_vi": "\\(|k||\\vec a|=5\\cdot4\\).",
+   "images": [],
+   "id": "d63360bef826",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "M is on BC with \\(\\overrightarrow{BM}=\\dfrac{#}{#}\\,\\overrightarrow{BC}\\). Then the coefficient of \\(\\overrightarrow{AC}\\) in \\(\\overrightarrow{AM}=y\\,\\overrightarrow{AB}+z\\,\\overrightarrow{AC}\\) is \\(z=\\)…",
+   "en": "M is on BC with \\(\\overrightarrow{BM}=\\dfrac{1}{2}\\,\\overrightarrow{BC}\\). Then the coefficient of \\(\\overrightarrow{AC}\\) in \\(\\overrightarrow{AM}=y\\,\\overrightarrow{AB}+z\\,\\overrightarrow{AC}\\) is \\(z=\\)…",
+   "vi": "M thuộc BC sao cho \\(\\overrightarrow{BM}=\\dfrac{1}{2}\\,\\overrightarrow{BC}\\). Khi đó trong \\(\\overrightarrow{AM}=y\\,\\overrightarrow{AB}+z\\,\\overrightarrow{AC}\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b> \\(z=\\)…",
+   "options": [
+    "\\(\\dfrac{1}{2}\\)",
+    "\\(\\dfrac{1}{4}\\)",
+    "\\(\\dfrac{9}{14}\\)",
+    "\\(1\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\overrightarrow{AM}=\\overrightarrow{AB}+x\\overrightarrow{BC}=(1-x)\\overrightarrow{AB}+x\\overrightarrow{AC}\\).",
+   "explain_vi": "Đáp án a. \\(\\overrightarrow{AM}=\\overrightarrow{AB}+x\\overrightarrow{BC}=(1-x)\\overrightarrow{AB}+x\\overrightarrow{AC}\\).",
+   "images": [],
+   "id": "d380cde3a3c5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "M is on BC with \\(\\overrightarrow{BM}=\\dfrac{#}{#}\\,\\overrightarrow{BC}\\). Then the coefficient of \\(\\overrightarrow{AC}\\) in \\(\\overrightarrow{AM}=y\\,\\overrightarrow{AB}+z\\,\\overrightarrow{AC}\\) is \\(z=\\)…",
+   "en": "M is on BC with \\(\\overrightarrow{BM}=\\dfrac{1}{6}\\,\\overrightarrow{BC}\\). Then the coefficient of \\(\\overrightarrow{AC}\\) in \\(\\overrightarrow{AM}=y\\,\\overrightarrow{AB}+z\\,\\overrightarrow{AC}\\) is \\(z=\\)…",
+   "vi": "M thuộc BC sao cho \\(\\overrightarrow{BM}=\\dfrac{1}{6}\\,\\overrightarrow{BC}\\). Khi đó trong \\(\\overrightarrow{AM}=y\\,\\overrightarrow{AB}+z\\,\\overrightarrow{AC}\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b> \\(z=\\)…",
+   "options": [
+    "\\(\\dfrac{1}{3}\\)",
+    "\\(\\dfrac{1}{12}\\)",
+    "\\(\\dfrac{1}{6}\\)",
+    "\\(\\dfrac{5}{6}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\overrightarrow{AM}=\\overrightarrow{AB}+x\\overrightarrow{BC}=(1-x)\\overrightarrow{AB}+x\\overrightarrow{AC}\\).",
+   "explain_vi": "Đáp án c. \\(\\overrightarrow{AM}=\\overrightarrow{AB}+x\\overrightarrow{BC}=(1-x)\\overrightarrow{AB}+x\\overrightarrow{AC}\\).",
+   "images": [],
+   "id": "de31435c87c5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "M is on segment AB with \\(AM=\\dfrac{#}{#}AB\\). Then \\(\\overrightarrow{MB}=k\\,\\overrightarrow{AM}\\) with \\(k=\\)…",
+   "en": "M is on segment AB with \\(AM=\\dfrac{2}{7}AB\\). Then \\(\\overrightarrow{MB}=k\\,\\overrightarrow{AM}\\) with \\(k=\\)…",
+   "vi": "M thuộc đoạn AB sao cho \\(AM=\\dfrac{2}{7}AB\\). Khi đó \\(\\overrightarrow{MB}=k\\,\\overrightarrow{AM}\\) với \\(k=\\)…",
+   "options": [
+    "\\(\\dfrac{5}{7}\\)",
+    "\\(-\\dfrac{5}{2}\\)",
+    "\\(\\dfrac{5}{2}\\)",
+    "\\(\\dfrac{2}{7}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(MB=AB-AM=\\dfrac{5}{7}AB\\) and the vectors have the same direction.",
+   "explain_vi": "Đáp án c. \\(MB=AB-AM=\\dfrac{5}{7}AB\\) và hai vectơ <b class=\"mbl-term\" tabindex=\"0\" data-en=\"same direction\">cùng hướng</b>.",
+   "images": [],
+   "id": "054be0ecfd88",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Points M, B, P satisfy \\(\\overrightarrow{MB}=#\\,\\overrightarrow{MP}\\). Then the points are collinear and \\(\\overrightarrow{MP}=k\\,\\overrightarrow{MB}\\) with \\(k=\\)…",
+   "en": "Points M, B, P satisfy \\(\\overrightarrow{MB}=2\\,\\overrightarrow{MP}\\). Then the points are collinear and \\(\\overrightarrow{MP}=k\\,\\overrightarrow{MB}\\) with \\(k=\\)…",
+   "vi": "Ba điểm M, B, P thỏa \\(\\overrightarrow{MB}=2\\,\\overrightarrow{MP}\\). Khi đó <b class=\"mbl-term\" tabindex=\"0\" data-en=\"collinear points\">ba điểm thẳng hàng</b> và \\(\\overrightarrow{MP}=k\\,\\overrightarrow{MB}\\) với \\(k=\\)…",
+   "options": [
+    "\\(-\\dfrac{1}{2}\\)",
+    "\\(-2\\)",
+    "\\(2\\)",
+    "\\(\\dfrac{1}{2}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. From \\(\\overrightarrow{AB}=2\\overrightarrow{AC}\\) we get \\(\\overrightarrow{AC}=\\dfrac1{2}\\overrightarrow{AB}\\).",
+   "explain_vi": "Đáp án d. Từ \\(\\overrightarrow{AB}=2\\overrightarrow{AC}\\) suy ra \\(\\overrightarrow{AC}=\\dfrac1{2}\\overrightarrow{AB}\\).",
+   "images": [],
+   "id": "3241019a8e08",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Points M, D, P satisfy \\(\\overrightarrow{MD}=-#\\,\\overrightarrow{MP}\\). Then the points are collinear and \\(\\overrightarrow{MP}=k\\,\\overrightarrow{MD}\\) with \\(k=\\)…",
+   "en": "Points M, D, P satisfy \\(\\overrightarrow{MD}=-1\\,\\overrightarrow{MP}\\). Then the points are collinear and \\(\\overrightarrow{MP}=k\\,\\overrightarrow{MD}\\) with \\(k=\\)…",
+   "vi": "Ba điểm M, D, P thỏa \\(\\overrightarrow{MD}=-1\\,\\overrightarrow{MP}\\). Khi đó <b class=\"mbl-term\" tabindex=\"0\" data-en=\"collinear points\">ba điểm thẳng hàng</b> và \\(\\overrightarrow{MP}=k\\,\\overrightarrow{MD}\\) với \\(k=\\)…",
+   "options": [
+    "\\(9\\)",
+    "\\(-1\\)",
+    "\\(19\\)",
+    "\\(1\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. From \\(\\overrightarrow{AB}=-1\\overrightarrow{AC}\\) we get \\(\\overrightarrow{AC}=\\dfrac1{-1}\\overrightarrow{AB}\\).",
+   "explain_vi": "Đáp án b. Từ \\(\\overrightarrow{AB}=-1\\overrightarrow{AC}\\) suy ra \\(\\overrightarrow{AC}=\\dfrac1{-1}\\overrightarrow{AB}\\).",
+   "images": [],
+   "id": "74cfbc1e926d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(P\\) is the midpoint of \\(DF\\). Then \\(\\overrightarrow{QD}+\\overrightarrow{QF}=k\\,\\overrightarrow{QP}\\) with \\(k=\\)…",
+   "en": "\\(P\\) is the midpoint of \\(DF\\). Then \\(\\overrightarrow{QD}+\\overrightarrow{QF}=k\\,\\overrightarrow{QP}\\) with \\(k=\\)…",
+   "vi": "\\(P\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> của \\(DF\\). Khi đó \\(\\overrightarrow{QD}+\\overrightarrow{QF}=k\\,\\overrightarrow{QP}\\) với \\(k=\\)…",
+   "options": [
+    "\\(3\\)",
+    "\\(2\\)",
+    "\\(\\dfrac12\\)",
+    "\\(1\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\overrightarrow{AB}+\\overrightarrow{AC}=2\\overrightarrow{AI}\\) for the midpoint \\(I\\) of \\(BC\\).",
+   "explain_vi": "Đáp án b. \\(\\overrightarrow{AB}+\\overrightarrow{AC}=2\\overrightarrow{AI}\\) với \\(I\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> \\(BC\\).",
+   "images": [],
+   "id": "aa811fad9cf0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(|\\vec a|=#\\). Then \\(|-\\dfrac{#}{#}\\vec a|=\\)…",
+   "en": "\\(|\\vec a|=5\\). Then \\(|-\\dfrac{3}{2}\\vec a|=\\)…",
+   "vi": "\\(|\\vec a|=5\\). Khi đó \\(|-\\dfrac{3}{2}\\vec a|=\\)…",
+   "options": [
+    "\\(5\\)",
+    "\\(-\\dfrac{15}{2}\\)",
+    "\\(\\dfrac{15}{2}\\)",
+    "\\(\\dfrac{25}{2}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(|k\\vec a|=|k|\\,|\\vec a|\\), a length is never negative.",
+   "explain_vi": "Đáp án c. \\(|k\\vec a|=|k|\\,|\\vec a|\\), độ dài <b class=\"mbl-term\" tabindex=\"0\" data-en=\"non-negative\">không âm</b>.",
+   "images": [],
+   "id": "c44951c1f8de",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(|\\vec a|=#\\). Then \\(|\\dfrac{#}{#}\\vec a|=\\)…",
+   "en": "\\(|\\vec a|=8\\). Then \\(|\\dfrac{1}{2}\\vec a|=\\)…",
+   "vi": "\\(|\\vec a|=8\\). Khi đó \\(|\\dfrac{1}{2}\\vec a|=\\)…",
+   "options": [
+    "\\(8\\)",
+    "\\(\\dfrac{1}{2}\\)",
+    "\\(12\\)",
+    "\\(4\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(|k\\vec a|=|k|\\,|\\vec a|\\), a length is never negative.",
+   "explain_vi": "Đáp án d. \\(|k\\vec a|=|k|\\,|\\vec a|\\), độ dài <b class=\"mbl-term\" tabindex=\"0\" data-en=\"non-negative\">không âm</b>.",
+   "images": [],
+   "id": "e50cdd5d6aad",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "M is on side BC with \\(\\overrightarrow{BM}=\\dfrac{#}{#}\\overrightarrow{BC}\\). Then \\(\\overrightarrow{AM}=y\\overrightarrow{AB}+z\\overrightarrow{AC}\\) with \\(z=\\)…",
+   "en": "M is on side BC with \\(\\overrightarrow{BM}=\\dfrac{2}{5}\\overrightarrow{BC}\\). Then \\(\\overrightarrow{AM}=y\\overrightarrow{AB}+z\\overrightarrow{AC}\\) with \\(z=\\)…",
+   "vi": "Điểm M thuộc cạnh BC với \\(\\overrightarrow{BM}=\\dfrac{2}{5}\\overrightarrow{BC}\\). Khi đó \\(\\overrightarrow{AM}=y\\overrightarrow{AB}+z\\overrightarrow{AC}\\) với \\(z=\\)…",
+   "options": [
+    "\\(\\dfrac{3}{5}\\)",
+    "\\(\\dfrac{7}{5}\\)",
+    "\\(\\dfrac{2}{5}\\)",
+    "\\(-\\dfrac{2}{5}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\overrightarrow{AM}=(1-t)\\overrightarrow{AB}+t\\overrightarrow{AC}\\) with \\(t=\\dfrac{2}{5}\\).",
+   "explain_vi": "Đáp án c. \\(\\overrightarrow{AM}=(1-t)\\overrightarrow{AB}+t\\overrightarrow{AC}\\) với \\(t=\\dfrac{2}{5}\\).",
+   "images": [],
+   "id": "539aa8f5b96d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(\\overrightarrow{PQ}=-#\\,\\overrightarrow{PR}\\). Then \\(\\overrightarrow{PR}=k\\,\\overrightarrow{PQ}\\) with \\(k=\\)…",
+   "en": "\\(\\overrightarrow{PQ}=-2\\,\\overrightarrow{PR}\\). Then \\(\\overrightarrow{PR}=k\\,\\overrightarrow{PQ}\\) with \\(k=\\)…",
+   "vi": "\\(\\overrightarrow{PQ}=-2\\,\\overrightarrow{PR}\\). Khi đó \\(\\overrightarrow{PR}=k\\,\\overrightarrow{PQ}\\) với \\(k=\\)…",
+   "options": [
+    "\\(-2\\)",
+    "\\(2\\)",
+    "\\(-\\dfrac{1}{2}\\)",
+    "\\(\\dfrac{1}{2}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Divide both sides by -2.",
+   "explain_vi": "Đáp án c. Chia hai vế cho -2.",
+   "images": [],
+   "id": "3fa9b56c6bb7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(|\\vec a|=#\\). Then \\(|#\\vec a|=\\)…",
+   "en": "\\(|\\vec a|=8\\). Then \\(|5\\vec a|=\\)…",
+   "vi": "\\(|\\vec a|=8\\). Khi đó \\(|5\\vec a|=\\)…",
+   "options": [
+    "\\(-40\\)",
+    "\\(40\\)",
+    "\\(48\\)",
+    "\\(8\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(|k\\vec a|=|k||\\vec a|\\).",
+   "explain_vi": "Đáp án b. \\(|k\\vec a|=|k||\\vec a|\\).",
+   "images": [],
+   "id": "08b9d3caf68e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "G is the centroid of triangle ABC. \\(\\overrightarrow{GA}+\\overrightarrow{GB}+\\overrightarrow{GB}=\\vec#\\).",
+   "en": "G is the centroid of triangle ABC. \\(\\overrightarrow{GA}+\\overrightarrow{GB}+\\overrightarrow{GB}=\\vec0\\).",
+   "vi": "G là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"centroid\">trọng tâm</b> tam giác ABC. \\(\\overrightarrow{GA}+\\overrightarrow{GB}+\\overrightarrow{GB}=\\vec0\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "The centroid satisfies \\(\\overrightarrow{GA}+\\overrightarrow{GB}+\\overrightarrow{GC}=\\vec0\\).",
+   "explain_vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"centroid\">Trọng tâm</b> thỏa \\(\\overrightarrow{GA}+\\overrightarrow{GB}+\\overrightarrow{GC}=\\vec0\\).",
+   "images": [],
+   "id": "bcea88a44ab2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "If \\(\\vec b=#\\vec a\\) with \\(\\vec a\\ne\\vec#\\), then \\(\\vec b\\) and \\(\\vec a\\) have the same direction.",
+   "en": "If \\(\\vec b=3\\vec a\\) with \\(\\vec a\\ne\\vec0\\), then \\(\\vec b\\) and \\(\\vec a\\) have the same direction.",
+   "vi": "Nếu \\(\\vec b=3\\vec a\\) với \\(\\vec a\\ne\\vec0\\) thì \\(\\vec b\\) và \\(\\vec a\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"same direction\">cùng hướng</b>.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "The sign of \\(k\\) decides the direction.",
+   "explain_vi": "Dấu của \\(k\\) quyết định hướng.",
+   "images": [],
+   "id": "cd854a657b51",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "In triangle ABC with centroid G, the median AI has length #. Find AG.",
+   "en": "In triangle ABC with centroid G, the median AI has length 12. Find AG.",
+   "vi": "Tam giác ABC có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"centroid\">trọng tâm</b> G, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"median\">trung tuyến</b> AI dài 12. Tính AG.",
+   "options": [],
+   "answer": "8",
+   "explain_en": "G divides AI so that \\(AG=\\dfrac23AI\\).",
+   "explain_vi": "G chia AI sao cho \\(AG=\\dfrac23AI\\).",
+   "images": [],
+   "id": "a8aaf0b2a812",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "\\(|\\vec a|=#\\). Find \\(|-\\dfrac{#}{#}\\vec a|\\).",
+   "en": "\\(|\\vec a|=10\\). Find \\(|-\\dfrac{3}{2}\\vec a|\\).",
+   "vi": "Cho \\(|\\vec a|=10\\). Tính \\(|-\\dfrac{3}{2}\\vec a|\\).",
+   "options": [],
+   "answer": "15",
+   "explain_en": "\\(|k||\\vec a|=\\dfrac{3}{2}\\cdot10\\).",
+   "explain_vi": "\\(|k||\\vec a|=\\dfrac{3}{2}\\cdot10\\).",
+   "images": [],
+   "id": "106e774a282a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "M is on BC with \\(\\overrightarrow{BM}=\\dfrac{#}{#}\\,\\overrightarrow{BC}\\). Then the coefficient of \\(\\overrightarrow{AC}\\) in \\(\\overrightarrow{AM}=y\\,\\overrightarrow{AB}+z\\,\\overrightarrow{AC}\\) is \\(z=\\)…",
+   "en": "M is on BC with \\(\\overrightarrow{BM}=\\dfrac{1}{3}\\,\\overrightarrow{BC}\\). Then the coefficient of \\(\\overrightarrow{AC}\\) in \\(\\overrightarrow{AM}=y\\,\\overrightarrow{AB}+z\\,\\overrightarrow{AC}\\) is \\(z=\\)…",
+   "vi": "M thuộc BC sao cho \\(\\overrightarrow{BM}=\\dfrac{1}{3}\\,\\overrightarrow{BC}\\). Khi đó trong \\(\\overrightarrow{AM}=y\\,\\overrightarrow{AB}+z\\,\\overrightarrow{AC}\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b> \\(z=\\)…",
+   "options": [
+    "\\(\\dfrac{1}{6}\\)",
+    "\\(\\dfrac{1}{3}\\)",
+    "\\(\\dfrac{2}{3}\\)",
+    "\\(\\dfrac{5}{6}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\overrightarrow{AM}=\\overrightarrow{AB}+x\\overrightarrow{BC}=(1-x)\\overrightarrow{AB}+x\\overrightarrow{AC}\\).",
+   "explain_vi": "Đáp án b. \\(\\overrightarrow{AM}=\\overrightarrow{AB}+x\\overrightarrow{BC}=(1-x)\\overrightarrow{AB}+x\\overrightarrow{AC}\\).",
+   "images": [],
+   "id": "941e2958c17e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "M is on BC with \\(\\overrightarrow{BM}=\\dfrac{#}{#}\\,\\overrightarrow{BC}\\). Then the coefficient of \\(\\overrightarrow{AC}\\) in \\(\\overrightarrow{AM}=y\\,\\overrightarrow{AB}+z\\,\\overrightarrow{AC}\\) is \\(z=\\)…",
+   "en": "M is on BC with \\(\\overrightarrow{BM}=\\dfrac{2}{5}\\,\\overrightarrow{BC}\\). Then the coefficient of \\(\\overrightarrow{AC}\\) in \\(\\overrightarrow{AM}=y\\,\\overrightarrow{AB}+z\\,\\overrightarrow{AC}\\) is \\(z=\\)…",
+   "vi": "M thuộc BC sao cho \\(\\overrightarrow{BM}=\\dfrac{2}{5}\\,\\overrightarrow{BC}\\). Khi đó trong \\(\\overrightarrow{AM}=y\\,\\overrightarrow{AB}+z\\,\\overrightarrow{AC}\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b> \\(z=\\)…",
+   "options": [
+    "\\(\\dfrac{2}{5}\\)",
+    "\\(\\dfrac{4}{5}\\)",
+    "\\(\\dfrac{3}{5}\\)",
+    "\\(\\dfrac{1}{5}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\overrightarrow{AM}=\\overrightarrow{AB}+x\\overrightarrow{BC}=(1-x)\\overrightarrow{AB}+x\\overrightarrow{AC}\\).",
+   "explain_vi": "Đáp án a. \\(\\overrightarrow{AM}=\\overrightarrow{AB}+x\\overrightarrow{BC}=(1-x)\\overrightarrow{AB}+x\\overrightarrow{AC}\\).",
+   "images": [],
+   "id": "ab16da0222d6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "M is on segment AB with \\(AM=\\dfrac{#}{#}AB\\). Then \\(\\overrightarrow{MB}=k\\,\\overrightarrow{AM}\\) with \\(k=\\)…",
+   "en": "M is on segment AB with \\(AM=\\dfrac{3}{8}AB\\). Then \\(\\overrightarrow{MB}=k\\,\\overrightarrow{AM}\\) with \\(k=\\)…",
+   "vi": "M thuộc đoạn AB sao cho \\(AM=\\dfrac{3}{8}AB\\). Khi đó \\(\\overrightarrow{MB}=k\\,\\overrightarrow{AM}\\) với \\(k=\\)…",
+   "options": [
+    "\\(\\dfrac{3}{8}\\)",
+    "\\(-\\dfrac{5}{3}\\)",
+    "\\(\\dfrac{5}{8}\\)",
+    "\\(\\dfrac{5}{3}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(MB=AB-AM=\\dfrac{5}{8}AB\\) and the vectors have the same direction.",
+   "explain_vi": "Đáp án d. \\(MB=AB-AM=\\dfrac{5}{8}AB\\) và hai vectơ <b class=\"mbl-term\" tabindex=\"0\" data-en=\"same direction\">cùng hướng</b>.",
+   "images": [],
+   "id": "86c20198a573",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Points A, B, N satisfy \\(\\overrightarrow{AB}=-#\\,\\overrightarrow{AN}\\). Then the points are collinear and \\(\\overrightarrow{AN}=k\\,\\overrightarrow{AB}\\) with \\(k=\\)…",
+   "en": "Points A, B, N satisfy \\(\\overrightarrow{AB}=-2\\,\\overrightarrow{AN}\\). Then the points are collinear and \\(\\overrightarrow{AN}=k\\,\\overrightarrow{AB}\\) with \\(k=\\)…",
+   "vi": "Ba điểm A, B, N thỏa \\(\\overrightarrow{AB}=-2\\,\\overrightarrow{AN}\\). Khi đó <b class=\"mbl-term\" tabindex=\"0\" data-en=\"collinear points\">ba điểm thẳng hàng</b> và \\(\\overrightarrow{AN}=k\\,\\overrightarrow{AB}\\) với \\(k=\\)…",
+   "options": [
+    "\\(2\\)",
+    "\\(-2\\)",
+    "\\(\\dfrac{1}{2}\\)",
+    "\\(-\\dfrac{1}{2}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. From \\(\\overrightarrow{AB}=-2\\overrightarrow{AC}\\) we get \\(\\overrightarrow{AC}=\\dfrac1{-2}\\overrightarrow{AB}\\).",
+   "explain_vi": "Đáp án d. Từ \\(\\overrightarrow{AB}=-2\\overrightarrow{AC}\\) suy ra \\(\\overrightarrow{AC}=\\dfrac1{-2}\\overrightarrow{AB}\\).",
+   "images": [],
+   "id": "99a820961e8c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Points N, B, P satisfy \\(\\overrightarrow{NB}=#\\,\\overrightarrow{NP}\\). Then the points are collinear and \\(\\overrightarrow{NP}=k\\,\\overrightarrow{NB}\\) with \\(k=\\)…",
+   "en": "Points N, B, P satisfy \\(\\overrightarrow{NB}=4\\,\\overrightarrow{NP}\\). Then the points are collinear and \\(\\overrightarrow{NP}=k\\,\\overrightarrow{NB}\\) with \\(k=\\)…",
+   "vi": "Ba điểm N, B, P thỏa \\(\\overrightarrow{NB}=4\\,\\overrightarrow{NP}\\). Khi đó <b class=\"mbl-term\" tabindex=\"0\" data-en=\"collinear points\">ba điểm thẳng hàng</b> và \\(\\overrightarrow{NP}=k\\,\\overrightarrow{NB}\\) với \\(k=\\)…",
+   "options": [
+    "\\(4\\)",
+    "\\(\\dfrac{1}{4}\\)",
+    "\\(-4\\)",
+    "\\(-\\dfrac{1}{4}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. From \\(\\overrightarrow{AB}=4\\overrightarrow{AC}\\) we get \\(\\overrightarrow{AC}=\\dfrac1{4}\\overrightarrow{AB}\\).",
+   "explain_vi": "Đáp án b. Từ \\(\\overrightarrow{AB}=4\\overrightarrow{AC}\\) suy ra \\(\\overrightarrow{AC}=\\dfrac1{4}\\overrightarrow{AB}\\).",
+   "images": [],
+   "id": "a0fdd8443a23",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(P\\) is the midpoint of \\(NQ\\). Then \\(\\overrightarrow{MN}+\\overrightarrow{MQ}=k\\,\\overrightarrow{MP}\\) with \\(k=\\)…",
+   "en": "\\(P\\) is the midpoint of \\(NQ\\). Then \\(\\overrightarrow{MN}+\\overrightarrow{MQ}=k\\,\\overrightarrow{MP}\\) with \\(k=\\)…",
+   "vi": "\\(P\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> của \\(NQ\\). Khi đó \\(\\overrightarrow{MN}+\\overrightarrow{MQ}=k\\,\\overrightarrow{MP}\\) với \\(k=\\)…",
+   "options": [
+    "\\(2\\)",
+    "\\(3\\)",
+    "\\(\\dfrac12\\)",
+    "\\(1\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\overrightarrow{AB}+\\overrightarrow{AC}=2\\overrightarrow{AI}\\) for the midpoint \\(I\\) of \\(BC\\).",
+   "explain_vi": "Đáp án a. \\(\\overrightarrow{AB}+\\overrightarrow{AC}=2\\overrightarrow{AI}\\) với \\(I\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> \\(BC\\).",
+   "images": [],
+   "id": "81612be2e9f8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(|\\vec a|=#\\). Then \\(|#\\vec a|=\\)…",
+   "en": "\\(|\\vec a|=6\\). Then \\(|2\\vec a|=\\)…",
+   "vi": "\\(|\\vec a|=6\\). Khi đó \\(|2\\vec a|=\\)…",
+   "options": [
+    "\\(2\\)",
+    "\\(6\\)",
+    "\\(12\\)",
+    "\\(18\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(|k\\vec a|=|k|\\,|\\vec a|\\), a length is never negative.",
+   "explain_vi": "Đáp án c. \\(|k\\vec a|=|k|\\,|\\vec a|\\), độ dài <b class=\"mbl-term\" tabindex=\"0\" data-en=\"non-negative\">không âm</b>.",
+   "images": [],
+   "id": "27445a3ffbda",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(|\\vec a|=#\\). Then \\(|-#\\vec a|=\\)…",
+   "en": "\\(|\\vec a|=8\\). Then \\(|-5\\vec a|=\\)…",
+   "vi": "\\(|\\vec a|=8\\). Khi đó \\(|-5\\vec a|=\\)…",
+   "options": [
+    "\\(48\\)",
+    "\\(-40\\)",
+    "\\(40\\)",
+    "\\(8\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(|k\\vec a|=|k|\\,|\\vec a|\\), a length is never negative.",
+   "explain_vi": "Đáp án c. \\(|k\\vec a|=|k|\\,|\\vec a|\\), độ dài <b class=\"mbl-term\" tabindex=\"0\" data-en=\"non-negative\">không âm</b>.",
+   "images": [],
+   "id": "a8c288288e6e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "M is on side BC with \\(\\overrightarrow{BM}=\\dfrac{#}{#}\\overrightarrow{BC}\\). Then \\(\\overrightarrow{AM}=y\\overrightarrow{AB}+z\\overrightarrow{AC}\\) with \\(z=\\)…",
+   "en": "M is on side BC with \\(\\overrightarrow{BM}=\\dfrac{3}{7}\\overrightarrow{BC}\\). Then \\(\\overrightarrow{AM}=y\\overrightarrow{AB}+z\\overrightarrow{AC}\\) with \\(z=\\)…",
+   "vi": "Điểm M thuộc cạnh BC với \\(\\overrightarrow{BM}=\\dfrac{3}{7}\\overrightarrow{BC}\\). Khi đó \\(\\overrightarrow{AM}=y\\overrightarrow{AB}+z\\overrightarrow{AC}\\) với \\(z=\\)…",
+   "options": [
+    "\\(\\dfrac{4}{7}\\)",
+    "\\(\\dfrac{10}{7}\\)",
+    "\\(\\dfrac{3}{7}\\)",
+    "\\(-\\dfrac{3}{7}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\overrightarrow{AM}=(1-t)\\overrightarrow{AB}+t\\overrightarrow{AC}\\) with \\(t=\\dfrac{3}{7}\\).",
+   "explain_vi": "Đáp án c. \\(\\overrightarrow{AM}=(1-t)\\overrightarrow{AB}+t\\overrightarrow{AC}\\) với \\(t=\\dfrac{3}{7}\\).",
+   "images": [],
+   "id": "1a6d039972f4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(\\overrightarrow{PQ}=#\\,\\overrightarrow{PR}\\). Then \\(\\overrightarrow{PR}=k\\,\\overrightarrow{PQ}\\) with \\(k=\\)…",
+   "en": "\\(\\overrightarrow{PQ}=4\\,\\overrightarrow{PR}\\). Then \\(\\overrightarrow{PR}=k\\,\\overrightarrow{PQ}\\) with \\(k=\\)…",
+   "vi": "\\(\\overrightarrow{PQ}=4\\,\\overrightarrow{PR}\\). Khi đó \\(\\overrightarrow{PR}=k\\,\\overrightarrow{PQ}\\) với \\(k=\\)…",
+   "options": [
+    "\\(4\\)",
+    "\\(\\dfrac{1}{4}\\)",
+    "\\(-4\\)",
+    "\\(-\\dfrac{1}{4}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Divide both sides by 4.",
+   "explain_vi": "Đáp án b. Chia hai vế cho 4.",
+   "images": [],
+   "id": "a6ffe0475e48",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(|\\vec a|=#\\). Then \\(|-\\dfrac{#}{#}\\vec a|=\\)…",
+   "en": "\\(|\\vec a|=12\\). Then \\(|-\\dfrac{1}{2}\\vec a|=\\)…",
+   "vi": "\\(|\\vec a|=12\\). Khi đó \\(|-\\dfrac{1}{2}\\vec a|=\\)…",
+   "options": [
+    "\\(6\\)",
+    "\\(-6\\)",
+    "\\(18\\)",
+    "\\(12\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(|k\\vec a|=|k||\\vec a|\\).",
+   "explain_vi": "Đáp án a. \\(|k\\vec a|=|k||\\vec a|\\).",
+   "images": [],
+   "id": "cea984be1cb5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "G is the centroid of triangle ABC. \\(\\overrightarrow{GA}+\\overrightarrow{GB}+\\overrightarrow{GA}=\\vec#\\).",
+   "en": "G is the centroid of triangle ABC. \\(\\overrightarrow{GA}+\\overrightarrow{GB}+\\overrightarrow{GA}=\\vec0\\).",
+   "vi": "G là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"centroid\">trọng tâm</b> tam giác ABC. \\(\\overrightarrow{GA}+\\overrightarrow{GB}+\\overrightarrow{GA}=\\vec0\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "The centroid satisfies \\(\\overrightarrow{GA}+\\overrightarrow{GB}+\\overrightarrow{GC}=\\vec0\\).",
+   "explain_vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"centroid\">Trọng tâm</b> thỏa \\(\\overrightarrow{GA}+\\overrightarrow{GB}+\\overrightarrow{GC}=\\vec0\\).",
+   "images": [],
+   "id": "775f2a31aed1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "If \\(\\vec b=-\\dfrac{#}{#}\\vec a\\) with \\(\\vec a\\ne\\vec#\\), then \\(\\vec b\\) and \\(\\vec a\\) have the same direction.",
+   "en": "If \\(\\vec b=-\\dfrac{1}{3}\\vec a\\) with \\(\\vec a\\ne\\vec0\\), then \\(\\vec b\\) and \\(\\vec a\\) have the same direction.",
+   "vi": "Nếu \\(\\vec b=-\\dfrac{1}{3}\\vec a\\) với \\(\\vec a\\ne\\vec0\\) thì \\(\\vec b\\) và \\(\\vec a\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"same direction\">cùng hướng</b>.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "The sign of \\(k\\) decides the direction.",
+   "explain_vi": "Dấu của \\(k\\) quyết định hướng.",
+   "images": [],
+   "id": "df899fcfa9d3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "In triangle ABC with centroid G, the median AI has length #. Find AG.",
+   "en": "In triangle ABC with centroid G, the median AI has length 15. Find AG.",
+   "vi": "Tam giác ABC có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"centroid\">trọng tâm</b> G, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"median\">trung tuyến</b> AI dài 15. Tính AG.",
+   "options": [],
+   "answer": "10",
+   "explain_en": "G divides AI so that \\(AG=\\dfrac23AI\\).",
+   "explain_vi": "G chia AI sao cho \\(AG=\\dfrac23AI\\).",
+   "images": [],
+   "id": "0c9de7d15138",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "\\(|\\vec a|=#\\). Find \\(|-\\dfrac{#}{#}\\vec a|\\).",
+   "en": "\\(|\\vec a|=9\\). Find \\(|-\\dfrac{4}{3}\\vec a|\\).",
+   "vi": "Cho \\(|\\vec a|=9\\). Tính \\(|-\\dfrac{4}{3}\\vec a|\\).",
+   "options": [],
+   "answer": "12",
+   "explain_en": "\\(|k||\\vec a|=\\dfrac{4}{3}\\cdot9\\).",
+   "explain_vi": "\\(|k||\\vec a|=\\dfrac{4}{3}\\cdot9\\).",
+   "images": [],
+   "id": "6be8a8bc44e8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "G is the centroid of triangle ABC. \\(\\overrightarrow{AG}=x\\,\\overrightarrow{AB}+x\\,\\overrightarrow{AC}\\) with \\(x=\\)…",
+   "en": "G is the centroid of triangle ABC. \\(\\overrightarrow{AG}=x\\,\\overrightarrow{AB}+x\\,\\overrightarrow{AC}\\) with \\(x=\\)…",
+   "vi": "G là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"centroid\">trọng tâm</b> tam giác ABC. \\(\\overrightarrow{AG}=x\\,\\overrightarrow{AB}+x\\,\\overrightarrow{AC}\\) với \\(x=\\)…",
+   "options": [
+    "\\(\\dfrac{2}{3}\\)",
+    "\\(\\dfrac{5}{6}\\)",
+    "\\(\\dfrac{1}{3}\\)",
+    "\\(\\dfrac{1}{6}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\overrightarrow{AG}=\\dfrac23\\overrightarrow{AI}\\) and \\(\\overrightarrow{AI}=\\dfrac12(\\overrightarrow{AB}+\\overrightarrow{AC})\\).",
+   "explain_vi": "Đáp án c. \\(\\overrightarrow{AG}=\\dfrac23\\overrightarrow{AI}\\) và \\(\\overrightarrow{AI}=\\dfrac12(\\overrightarrow{AB}+\\overrightarrow{AC})\\).",
+   "images": [],
+   "id": "ca0e4b41566b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "M is on BC with \\(\\overrightarrow{BM}=\\dfrac{#}{#}\\,\\overrightarrow{BC}\\). Then the coefficient of \\(\\overrightarrow{AC}\\) in \\(\\overrightarrow{AM}=y\\,\\overrightarrow{AB}+z\\,\\overrightarrow{AC}\\) is \\(z=\\)…",
+   "en": "M is on BC with \\(\\overrightarrow{BM}=\\dfrac{2}{3}\\,\\overrightarrow{BC}\\). Then the coefficient of \\(\\overrightarrow{AC}\\) in \\(\\overrightarrow{AM}=y\\,\\overrightarrow{AB}+z\\,\\overrightarrow{AC}\\) is \\(z=\\)…",
+   "vi": "M thuộc BC sao cho \\(\\overrightarrow{BM}=\\dfrac{2}{3}\\,\\overrightarrow{BC}\\). Khi đó trong \\(\\overrightarrow{AM}=y\\,\\overrightarrow{AB}+z\\,\\overrightarrow{AC}\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b> \\(z=\\)…",
+   "options": [
+    "\\(\\dfrac{1}{3}\\)",
+    "\\(\\dfrac{2}{3}\\)",
+    "\\(\\dfrac{4}{3}\\)",
+    "\\(\\dfrac{7}{6}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\overrightarrow{AM}=\\overrightarrow{AB}+x\\overrightarrow{BC}=(1-x)\\overrightarrow{AB}+x\\overrightarrow{AC}\\).",
+   "explain_vi": "Đáp án b. \\(\\overrightarrow{AM}=\\overrightarrow{AB}+x\\overrightarrow{BC}=(1-x)\\overrightarrow{AB}+x\\overrightarrow{AC}\\).",
+   "images": [],
+   "id": "2fda186401db",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "M is on segment AB with \\(AM=\\dfrac{#}{#}AB\\). Then \\(\\overrightarrow{MB}=k\\,\\overrightarrow{AM}\\) with \\(k=\\)…",
+   "en": "M is on segment AB with \\(AM=\\dfrac{1}{3}AB\\). Then \\(\\overrightarrow{MB}=k\\,\\overrightarrow{AM}\\) with \\(k=\\)…",
+   "vi": "M thuộc đoạn AB sao cho \\(AM=\\dfrac{1}{3}AB\\). Khi đó \\(\\overrightarrow{MB}=k\\,\\overrightarrow{AM}\\) với \\(k=\\)…",
+   "options": [
+    "\\(\\dfrac{2}{3}\\)",
+    "\\(2\\)",
+    "\\(-2\\)",
+    "\\(\\dfrac{1}{3}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(MB=AB-AM=\\dfrac{2}{3}AB\\) and the vectors have the same direction.",
+   "explain_vi": "Đáp án b. \\(MB=AB-AM=\\dfrac{2}{3}AB\\) và hai vectơ <b class=\"mbl-term\" tabindex=\"0\" data-en=\"same direction\">cùng hướng</b>.",
+   "images": [],
+   "id": "5d0d2d89365d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Points A, M, Q satisfy \\(\\overrightarrow{AM}=-#\\,\\overrightarrow{AQ}\\). Then the points are collinear and \\(\\overrightarrow{AQ}=k\\,\\overrightarrow{AM}\\) with \\(k=\\)…",
+   "en": "Points A, M, Q satisfy \\(\\overrightarrow{AM}=-2\\,\\overrightarrow{AQ}\\). Then the points are collinear and \\(\\overrightarrow{AQ}=k\\,\\overrightarrow{AM}\\) with \\(k=\\)…",
+   "vi": "Ba điểm A, M, Q thỏa \\(\\overrightarrow{AM}=-2\\,\\overrightarrow{AQ}\\). Khi đó <b class=\"mbl-term\" tabindex=\"0\" data-en=\"collinear points\">ba điểm thẳng hàng</b> và \\(\\overrightarrow{AQ}=k\\,\\overrightarrow{AM}\\) với \\(k=\\)…",
+   "options": [
+    "\\(2\\)",
+    "\\(-2\\)",
+    "\\(-\\dfrac{1}{2}\\)",
+    "\\(\\dfrac{1}{2}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. From \\(\\overrightarrow{AB}=-2\\overrightarrow{AC}\\) we get \\(\\overrightarrow{AC}=\\dfrac1{-2}\\overrightarrow{AB}\\).",
+   "explain_vi": "Đáp án c. Từ \\(\\overrightarrow{AB}=-2\\overrightarrow{AC}\\) suy ra \\(\\overrightarrow{AC}=\\dfrac1{-2}\\overrightarrow{AB}\\).",
+   "images": [],
+   "id": "188ba761f13a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Points M, Q, B satisfy \\(\\overrightarrow{MQ}=#\\,\\overrightarrow{MB}\\). Then the points are collinear and \\(\\overrightarrow{MB}=k\\,\\overrightarrow{MQ}\\) with \\(k=\\)…",
+   "en": "Points M, Q, B satisfy \\(\\overrightarrow{MQ}=5\\,\\overrightarrow{MB}\\). Then the points are collinear and \\(\\overrightarrow{MB}=k\\,\\overrightarrow{MQ}\\) with \\(k=\\)…",
+   "vi": "Ba điểm M, Q, B thỏa \\(\\overrightarrow{MQ}=5\\,\\overrightarrow{MB}\\). Khi đó <b class=\"mbl-term\" tabindex=\"0\" data-en=\"collinear points\">ba điểm thẳng hàng</b> và \\(\\overrightarrow{MB}=k\\,\\overrightarrow{MQ}\\) với \\(k=\\)…",
+   "options": [
+    "\\(-\\dfrac{1}{5}\\)",
+    "\\(-5\\)",
+    "\\(5\\)",
+    "\\(\\dfrac{1}{5}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. From \\(\\overrightarrow{AB}=5\\overrightarrow{AC}\\) we get \\(\\overrightarrow{AC}=\\dfrac1{5}\\overrightarrow{AB}\\).",
+   "explain_vi": "Đáp án d. Từ \\(\\overrightarrow{AB}=5\\overrightarrow{AC}\\) suy ra \\(\\overrightarrow{AC}=\\dfrac1{5}\\overrightarrow{AB}\\).",
+   "images": [],
+   "id": "e22854c6c564",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(Q\\) is the midpoint of \\(DP\\). Then \\(\\overrightarrow{AD}+\\overrightarrow{AP}=k\\,\\overrightarrow{AQ}\\) with \\(k=\\)…",
+   "en": "\\(Q\\) is the midpoint of \\(DP\\). Then \\(\\overrightarrow{AD}+\\overrightarrow{AP}=k\\,\\overrightarrow{AQ}\\) with \\(k=\\)…",
+   "vi": "\\(Q\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> của \\(DP\\). Khi đó \\(\\overrightarrow{AD}+\\overrightarrow{AP}=k\\,\\overrightarrow{AQ}\\) với \\(k=\\)…",
+   "options": [
+    "\\(2\\)",
+    "\\(1\\)",
+    "\\(3\\)",
+    "\\(\\dfrac12\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\overrightarrow{AB}+\\overrightarrow{AC}=2\\overrightarrow{AI}\\) for the midpoint \\(I\\) of \\(BC\\).",
+   "explain_vi": "Đáp án a. \\(\\overrightarrow{AB}+\\overrightarrow{AC}=2\\overrightarrow{AI}\\) với \\(I\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> \\(BC\\).",
+   "images": [],
+   "id": "d2da3e5e8882",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(|\\vec a|=#\\). Then \\(|-#\\vec a|=\\)…",
+   "en": "\\(|\\vec a|=12\\). Then \\(|-2\\vec a|=\\)…",
+   "vi": "\\(|\\vec a|=12\\). Khi đó \\(|-2\\vec a|=\\)…",
+   "options": [
+    "\\(12\\)",
+    "\\(-24\\)",
+    "\\(24\\)",
+    "\\(36\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(|k\\vec a|=|k|\\,|\\vec a|\\), a length is never negative.",
+   "explain_vi": "Đáp án c. \\(|k\\vec a|=|k|\\,|\\vec a|\\), độ dài <b class=\"mbl-term\" tabindex=\"0\" data-en=\"non-negative\">không âm</b>.",
+   "images": [],
+   "id": "c6bb73dde2ab",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(|\\vec a|=#\\). Then \\(|\\dfrac{#}{#}\\vec a|=\\)…",
+   "en": "\\(|\\vec a|=11\\). Then \\(|\\dfrac{1}{2}\\vec a|=\\)…",
+   "vi": "\\(|\\vec a|=11\\). Khi đó \\(|\\dfrac{1}{2}\\vec a|=\\)…",
+   "options": [
+    "\\(\\dfrac{33}{2}\\)",
+    "\\(\\dfrac{11}{2}\\)",
+    "\\(\\dfrac{1}{2}\\)",
+    "\\(11\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(|k\\vec a|=|k|\\,|\\vec a|\\), a length is never negative.",
+   "explain_vi": "Đáp án b. \\(|k\\vec a|=|k|\\,|\\vec a|\\), độ dài <b class=\"mbl-term\" tabindex=\"0\" data-en=\"non-negative\">không âm</b>.",
+   "images": [],
+   "id": "2e9c4af83a8b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  }
+ ]
+}

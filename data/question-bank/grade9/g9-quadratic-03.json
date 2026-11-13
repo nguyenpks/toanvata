@@ -1,0 +1,1317 @@
+{
+ "lesson": "g9-quadratic-03",
+ "grade": 9,
+ "no": 20,
+ "title": "Định lí Viète và ứng dụng",
+ "path": "lessons/grade9/quadratic-functions-equations/vietes-theorem.html",
+ "items": [
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Find two numbers whose sum is \\(#\\) and whose product is \\(#\\).",
+   "en": "Find two numbers whose sum is \\(20\\) and whose product is \\(91\\).",
+   "vi": "Tìm hai số có tổng bằng \\(20\\) và tích bằng \\(91\\).",
+   "options": [
+    "\\(-13\\text{ and }-7\\)",
+    "\\(8\\text{ and }12\\)",
+    "\\(7\\text{ and }13\\)",
+    "\\(6\\text{ and }14\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. They are the roots of \\(x^2-20x+91=0\\): \\(7\\) and \\(13\\).",
+   "explain_vi": "Đáp án c. Hai số là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b> của \\(x^2-20x+91=0\\): \\(7\\) và \\(13\\).",
+   "images": [],
+   "id": "257e0ad191af",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Solve by inspection: \\(#x^#+#x+#=#\\).",
+   "en": "Solve by inspection: \\(3x^2+12x+9=0\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"solve by inspection\">Nhẩm nghiệm</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(3x^2+12x+9=0\\).",
+   "options": [
+    "\\(S=\\{-3;\\ -1\\}\\)",
+    "\\(S=\\{-1;\\ 3\\}\\)",
+    "\\(S=\\{1;\\ 3\\}\\)",
+    "\\(S=\\{-1;\\ -\\dfrac{1}{3}\\}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(a-b+c=0\\), so \\(x_1=-1\\), \\(x_2=-3\\).",
+   "explain_vi": "Đáp án a. \\(a-b+c=0\\) nên \\(x_1=-1\\), \\(x_2=-3\\).",
+   "images": [],
+   "id": "f41042e9f148",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Without solving, find the sum of the roots of \\(-#x^#+#x+#=#\\).",
+   "en": "Without solving, find the sum of the roots of \\(-2x^2+10x+2=0\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"without solving the equation\">Không giải phương trình</b>, tính tổng các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution of an equation\">nghiệm của phương trình</b> \\(-2x^2+10x+2=0\\).",
+   "options": [
+    "\\(-1\\)",
+    "\\(-5\\)",
+    "\\(5\\)",
+    "\\(1\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\Delta=116\\ge0\\); \\(x_1+x_2=-\\dfrac ba=5\\), \\(x_1x_2=\\dfrac ca=-1\\).",
+   "explain_vi": "Đáp án c. \\(\\Delta=116\\ge0\\); \\(x_1+x_2=-\\dfrac ba=5\\), \\(x_1x_2=\\dfrac ca=-1\\).",
+   "images": [],
+   "id": "563a7a8938d9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "The sum of the roots of \\(#x^#+#x-#=#\\) is \\(-\\dfrac{#}{#}\\).",
+   "en": "The sum of the roots of \\(3x^2+8x-12=0\\) is \\(-\\dfrac{8}{3}\\).",
+   "vi": "Tổng các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution of an equation\">nghiệm của phương trình</b> \\(3x^2+8x-12=0\\) bằng \\(-\\dfrac{8}{3}\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. \\(\\Delta\\ge0\\) and the sum is \\(-\\dfrac{8}{3}\\).",
+   "explain_vi": "Đúng. \\(\\Delta\\ge0\\) và tổng bằng \\(-\\dfrac{8}{3}\\).",
+   "images": [],
+   "id": "30610e63065a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "Without solving, the sum of the roots of \\(#x^#+#x+#=#\\) is \\(-\\dfrac{#}{#}\\).",
+   "en": "Without solving, the sum of the roots of \\(4x^2+2x+3=0\\) is \\(-\\dfrac{1}{2}\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"without solving the equation\">Không giải phương trình</b>, ta có tổng các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b> của \\(4x^2+2x+3=0\\) bằng \\(-\\dfrac{1}{2}\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. \\(\\Delta=-44\\lt0\\): the equation has no real roots, so Viète's theorem cannot be used.",
+   "explain_vi": "Sai. \\(\\Delta=-44\\lt0\\): <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"no solution\">vô nghiệm</b> nên không áp dụng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"Viète's theorem (Vieta's formulas)\">định lí Viète</b>.",
+   "images": [],
+   "id": "6ba1436e49cc",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "\\(#x^#-#x-#=#\\) has the root \\(x_#=-#\\). Find the other root \\(x_#\\).",
+   "en": "\\(2x^2-2x-4=0\\) has the root \\(x_1=-1\\). Find the other root \\(x_2\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">Phương trình</b> \\(2x^2-2x-4=0\\) có một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b> \\(x_1=-1\\). Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"the remaining root\">nghiệm còn lại</b> \\(x_2\\).",
+   "options": [],
+   "answer": "2",
+   "explain_en": "Answer: 2. \\(x_1+x_2=1\\Rightarrow x_2=2\\).",
+   "explain_vi": "Đáp số: 2. \\(x_1+x_2=1\\Rightarrow x_2=2\\).",
+   "images": [],
+   "id": "2da5f88c14e2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "\\(x_#\\), \\(x_#\\) are the roots of \\(x^#+#x-#=#\\). Compute \\(x_#^#+x_#^#\\).",
+   "en": "\\(x_1\\), \\(x_2\\) are the roots of \\(x^2+5x-6=0\\). Compute \\(x_1^2+x_2^2\\).",
+   "vi": "Gọi \\(x_1\\), \\(x_2\\) là hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution of an equation\">nghiệm của phương trình</b> \\(x^2+5x-6=0\\). Tính \\(x_1^2+x_2^2\\).",
+   "options": [],
+   "answer": "37",
+   "explain_en": "Answer: 37. \\(x_1^2+x_2^2=(x_1+x_2)^2-2x_1x_2=(-5)^2-2\\cdot(-6)=37\\).",
+   "explain_vi": "Đáp số: 37. \\(x_1^2+x_2^2=(x_1+x_2)^2-2x_1x_2=(-5)^2-2\\cdot(-6)=37\\).",
+   "images": [],
+   "id": "6208b22f40e9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D1",
+   "type": "mcq",
+   "form": "If \\(-x^#+x+#=#\\) has roots \\(x_#\\), \\(x_#\\), then \\(x_#+x_#=\\)… (in terms of \\(a\\), \\(b\\), \\(c\\))",
+   "en": "If \\(-x^2+x+7=0\\) has roots \\(x_1\\), \\(x_2\\), then \\(x_1+x_2=\\)… (in terms of \\(a\\), \\(b\\), \\(c\\))",
+   "vi": "Nếu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(-x^2+x+7=0\\) có hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b> \\(x_1\\), \\(x_2\\) thì \\(x_1+x_2=\\)… (theo \\(a\\), \\(b\\), \\(c\\))",
+   "options": [
+    "\\(\\dfrac ba\\)",
+    "\\(-\\dfrac ca\\)",
+    "\\(\\dfrac ca\\)",
+    "\\(-\\dfrac ba\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Viète's theorem: \\(x_1+x_2=-\\dfrac ba\\), \\(x_1x_2=\\dfrac ca\\).",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"Viète's theorem (Vieta's formulas)\">Định lí Viète</b>: \\(x_1+x_2=-\\dfrac ba\\), \\(x_1x_2=\\dfrac ca\\).",
+   "images": [],
+   "id": "cc11d03077ec",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Viète's theorem can be applied to \\(-#x^#+#x-#=#\\) only when…",
+   "en": "Viète's theorem can be applied to \\(-6x^2+8x-4=0\\) only when…",
+   "vi": "Chỉ áp dụng được <b class=\"mbl-term\" tabindex=\"0\" data-en=\"Viète's theorem (Vieta's formulas)\">định lí Viète</b> cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(-6x^2+8x-4=0\\) khi…",
+   "options": [
+    "\\(\\Delta\\lt0\\)",
+    "\\(c\\ne0\\)",
+    "\\(\\Delta\\ge0\\)",
+    "\\(a\\gt0\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The equation must have roots: \\(\\Delta\\ge0\\).",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">Phương trình</b> phải có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b>: \\(\\Delta\\ge0\\).",
+   "images": [],
+   "id": "10daace188fd",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Without solving, find the product of the roots of \\(#x^#+#x-#=#\\).",
+   "en": "Without solving, find the product of the roots of \\(3x^2+12x-8=0\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"without solving the equation\">Không giải phương trình</b>, tính tích các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution of an equation\">nghiệm của phương trình</b> \\(3x^2+12x-8=0\\).",
+   "options": [
+    "\\(-\\dfrac{8}{3}\\)",
+    "\\(-4\\)",
+    "\\(\\dfrac{8}{3}\\)",
+    "\\(4\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\Delta=240\\ge0\\); \\(x_1+x_2=-\\dfrac ba=-4\\), \\(x_1x_2=\\dfrac ca=-\\dfrac{8}{3}\\).",
+   "explain_vi": "Đáp án a. \\(\\Delta=240\\ge0\\); \\(x_1+x_2=-\\dfrac ba=-4\\), \\(x_1x_2=\\dfrac ca=-\\dfrac{8}{3}\\).",
+   "images": [],
+   "id": "3fdb5c748253",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Find two numbers with sum \\(-#\\) and product \\(#\\).",
+   "en": "Find two numbers with sum \\(-4\\) and product \\(27\\).",
+   "vi": "Tìm hai số có tổng bằng \\(-4\\) và tích bằng \\(27\\).",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(4\\) and \\(-27\\)</span><span class=\"vi\">\\(4\\) và \\(-27\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">no such numbers exist</span><span class=\"vi\">không có hai số như vậy</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(-4\\) and \\(0\\)</span><span class=\"vi\">\\(-4\\) và \\(0\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(1\\) and \\(27\\)</span><span class=\"vi\">\\(1\\) và \\(27\\)</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(x^2+4x+27=0\\) has \\(\\Delta=-92\\lt0\\).",
+   "explain_vi": "Đáp án b. \\(x^2+4x+27=0\\) có \\(\\Delta=-92\\lt0\\).",
+   "images": [],
+   "id": "16e73418ce8a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Solve by inspection: \\(-#x^#-#x-#=#\\).",
+   "en": "Solve by inspection: \\(-4x^2-5x-1=0\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"solve by inspection\">Nhẩm nghiệm</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(-4x^2-5x-1=0\\).",
+   "options": [
+    "\\(S=\\{-\\dfrac{1}{4};\\ 1\\}\\)",
+    "\\(S=\\{-1;\\ \\dfrac{1}{4}\\}\\)",
+    "\\(S=\\{-1;\\ -\\dfrac{1}{4}\\}\\)",
+    "\\(S=\\{\\dfrac{1}{4};\\ 1\\}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(a-b+c=0\\): \\(x_1=-1\\), \\(x_2=-\\dfrac ca=-\\dfrac{1}{4}\\).",
+   "explain_vi": "Đáp án c. \\(a-b+c=0\\): \\(x_1=-1\\), \\(x_2=-\\dfrac ca=-\\dfrac{1}{4}\\).",
+   "images": [],
+   "id": "0b433c9412cb",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D2",
+   "type": "mcq",
+   "form": "\\(#x^#-#=#\\) has the root \\(x_#=-#\\). The other root is…",
+   "en": "\\(5x^2-5=0\\) has the root \\(x_1=-1\\). The other root is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">Phương trình</b> \\(5x^2-5=0\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b> \\(x_1=-1\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"the remaining root\">Nghiệm còn lại</b> là…",
+   "options": [
+    "\\(x_2=1\\)",
+    "\\(x_2=0\\)",
+    "\\(x_2=-1\\)",
+    "\\(x_2=2\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(x_1x_2=\\dfrac ca=-1\\Rightarrow x_2=1\\).",
+   "explain_vi": "Đáp án a. \\(x_1x_2=\\dfrac ca=-1\\Rightarrow x_2=1\\).",
+   "images": [],
+   "id": "3e0d5c40110d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Factorise \\(#x^#+#x+#\\).",
+   "en": "Factorise \\(3x^2+18x+24\\).",
+   "vi": "Phân tích \\(3x^2+18x+24\\) thành nhân tử.",
+   "options": [
+    "\\(3(x-4)(x-2)\\)",
+    "\\(3(x+4)(x-2)\\)",
+    "\\((x+4)(x+2)\\)",
+    "\\(3(x+4)(x+2)\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Roots \\(-4\\), \\(-2\\): \\(ax^2+bx+c=a(x-x_1)(x-x_2)\\).",
+   "explain_vi": "Đáp án d. Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b> \\(-4\\), \\(-2\\): \\(ax^2+bx+c=a(x-x_1)(x-x_2)\\).",
+   "images": [],
+   "id": "bde4b729f03b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D3",
+   "type": "mcq",
+   "form": "\\(x_#\\), \\(x_#\\) are the roots of \\(#x^#-#x+#=#\\). Compute \\(x_#^#+x_#^#\\).",
+   "en": "\\(x_1\\), \\(x_2\\) are the roots of \\(2x^2-7x+4=0\\). Compute \\(x_1^3+x_2^3\\).",
+   "vi": "Gọi \\(x_1\\), \\(x_2\\) là hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b> của \\(2x^2-7x+4=0\\). Tính \\(x_1^3+x_2^3\\).",
+   "options": [
+    "\\(\\dfrac{287}{8}\\)",
+    "\\(\\dfrac{343}{8}\\)",
+    "\\(\\dfrac{175}{8}\\)",
+    "\\(\\dfrac{511}{8}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(x_1^3+x_2^3=S^3-3PS\\) with \\(S=\\dfrac{7}{2}\\), \\(P=2\\).",
+   "explain_vi": "Đáp án c. \\(x_1^3+x_2^3=S^3-3PS\\) với \\(S=\\dfrac{7}{2}\\), \\(P=2\\).",
+   "images": [],
+   "id": "caec15f650d5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D3",
+   "type": "mcq",
+   "form": "\\(x_#\\), \\(x_#\\) are the roots of \\(#x^#-#x-#=#\\). Compute \\(\\dfrac#{x_#}+\\dfrac#{x_#}\\).",
+   "en": "\\(x_1\\), \\(x_2\\) are the roots of \\(6x^2-2x-1=0\\). Compute \\(\\dfrac1{x_1}+\\dfrac1{x_2}\\).",
+   "vi": "Gọi \\(x_1\\), \\(x_2\\) là hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b> của \\(6x^2-2x-1=0\\). Tính \\(\\dfrac1{x_1}+\\dfrac1{x_2}\\).",
+   "options": [
+    "\\(-\\dfrac{1}{2}\\)",
+    "\\(-\\dfrac{1}{18}\\)",
+    "\\(-2\\)",
+    "\\(2\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\dfrac{x_1+x_2}{x_1x_2}=\\dfrac{\\dfrac{1}{3}}{-\\dfrac{1}{6}}=-2\\).",
+   "explain_vi": "Đáp án c. \\(\\dfrac{x_1+x_2}{x_1x_2}=\\dfrac{\\dfrac{1}{3}}{-\\dfrac{1}{6}}=-2\\).",
+   "images": [],
+   "id": "abc9f3feb24c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A rectangular garden is fenced with # m of netting (all four sides) and has area # m². Find its dimensions.",
+   "en": "A rectangular garden is fenced with 78 m of netting (all four sides) and has area 350 m². Find its dimensions.",
+   "vi": "Một mảnh vườn hình chữ nhật được rào bằng 78 m lưới (đủ bốn cạnh) và có diện tích 350 m². Tìm kích thước mảnh vườn.",
+   "options": [
+    "\\(25\\text{ m}\\times14\\text{ m}\\)",
+    "\\(24\\text{ m}\\times15\\text{ m}\\)",
+    "\\(27\\text{ m}\\times12\\text{ m}\\)",
+    "\\(26\\text{ m}\\times13\\text{ m}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Length + width \\(=39\\), length × width \\(=350\\): roots of \\(x^2-39x+350=0\\).",
+   "explain_vi": "Đáp án a. Dài + rộng \\(=39\\), dài × rộng \\(=350\\): là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b> của \\(x^2-39x+350=0\\).",
+   "images": [],
+   "id": "e9c9fac7fee4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D4",
+   "type": "mcq",
+   "form": "The equation \\(x^#-#x+m=#\\) has the root \\(x_#=#\\). Find \\(m\\) and the other root.",
+   "en": "The equation \\(x^2-8x+m=0\\) has the root \\(x_1=1\\). Find \\(m\\) and the other root.",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">Phương trình</b> \\(x^2-8x+m=0\\) có một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b> \\(x_1=1\\). Tìm \\(m\\) và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"the remaining root\">nghiệm còn lại</b>.",
+   "options": [
+    "\\(m=7,\\ x_2=-9\\)",
+    "\\(m=7,\\ x_2=-7\\)",
+    "\\(m=7,\\ x_2=7\\)",
+    "\\(m=-7,\\ x_2=7\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Substitute \\(x_1\\): \\(m=7\\); \\(x_1+x_2=8\\Rightarrow x_2=7\\).",
+   "explain_vi": "Đáp án c. Thay \\(x_1\\) vào: \\(m=7\\); \\(x_1+x_2=8\\Rightarrow x_2=7\\).",
+   "images": [],
+   "id": "ab3dcf841eac",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D4",
+   "type": "mcq",
+   "form": "\\(x_#\\), \\(x_#\\) are the roots of \\(x^#+#x+#=#\\). Compute \\(|x_#-x_#|\\) without solving.",
+   "en": "\\(x_1\\), \\(x_2\\) are the roots of \\(x^2+10x+16=0\\). Compute \\(|x_1-x_2|\\) without solving.",
+   "vi": "Gọi \\(x_1\\), \\(x_2\\) là hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b> của \\(x^2+10x+16=0\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"without solving the equation\">Không giải phương trình</b>, tính \\(|x_1-x_2|\\).",
+   "options": [
+    "\\(36\\)",
+    "\\(10\\)",
+    "\\(16\\)",
+    "\\(6\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\((x_1-x_2)^2=S^2-4P=(-10)^2-4\\cdot(16)=36\\Rightarrow |x_1-x_2|=6\\).",
+   "explain_vi": "Đáp án d. \\((x_1-x_2)^2=S^2-4P=(-10)^2-4\\cdot(16)=36\\Rightarrow |x_1-x_2|=6\\).",
+   "images": [],
+   "id": "fabc3e44ab09",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Find two numbers whose sum is \\(-#\\) and whose product is \\(-#\\).",
+   "en": "Find two numbers whose sum is \\(-5\\) and whose product is \\(-84\\).",
+   "vi": "Tìm hai số có tổng bằng \\(-5\\) và tích bằng \\(-84\\).",
+   "options": [
+    "\\(-13\\text{ and }8\\)",
+    "\\(-12\\text{ and }7\\)",
+    "\\(-7\\text{ and }12\\)",
+    "\\(-11\\text{ and }6\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. They are the roots of \\(x^2+5x-84=0\\): \\(-12\\) and \\(7\\).",
+   "explain_vi": "Đáp án b. Hai số là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b> của \\(x^2+5x-84=0\\): \\(-12\\) và \\(7\\).",
+   "images": [],
+   "id": "139c528e6ed1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Solve by inspection: \\(#x^#-#x+#=#\\).",
+   "en": "Solve by inspection: \\(6x^2-17x+11=0\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"solve by inspection\">Nhẩm nghiệm</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(6x^2-17x+11=0\\).",
+   "options": [
+    "\\(S=\\{-\\dfrac{11}{6};\\ 1\\}\\)",
+    "\\(S=\\{-\\dfrac{11}{6};\\ -1\\}\\)",
+    "\\(S=\\{\\dfrac{6}{11};\\ 1\\}\\)",
+    "\\(S=\\{1;\\ \\dfrac{11}{6}\\}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(a+b+c=0\\), so \\(x_1=1\\), \\(x_2=\\dfrac{11}{6}\\).",
+   "explain_vi": "Đáp án d. \\(a+b+c=0\\) nên \\(x_1=1\\), \\(x_2=\\dfrac{11}{6}\\).",
+   "images": [],
+   "id": "60c1ccd5212c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Without solving, find the product of the roots of \\(-#x^#+#x+#=#\\).",
+   "en": "Without solving, find the product of the roots of \\(-3x^2+11x+8=0\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"without solving the equation\">Không giải phương trình</b>, tính tích các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution of an equation\">nghiệm của phương trình</b> \\(-3x^2+11x+8=0\\).",
+   "options": [
+    "\\(\\dfrac{8}{3}\\)",
+    "\\(-\\dfrac{11}{3}\\)",
+    "\\(\\dfrac{11}{3}\\)",
+    "\\(-\\dfrac{8}{3}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\Delta=217\\ge0\\); \\(x_1+x_2=-\\dfrac ba=\\dfrac{11}{3}\\), \\(x_1x_2=\\dfrac ca=-\\dfrac{8}{3}\\).",
+   "explain_vi": "Đáp án d. \\(\\Delta=217\\ge0\\); \\(x_1+x_2=-\\dfrac ba=\\dfrac{11}{3}\\), \\(x_1x_2=\\dfrac ca=-\\dfrac{8}{3}\\).",
+   "images": [],
+   "id": "73633cc11190",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "The sum of the roots of \\(x^#+#x-#=#\\) is \\(-#\\).",
+   "en": "The sum of the roots of \\(x^2+7x-6=0\\) is \\(-7\\).",
+   "vi": "Tổng các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution of an equation\">nghiệm của phương trình</b> \\(x^2+7x-6=0\\) bằng \\(-7\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. \\(\\Delta\\ge0\\) and the sum is \\(-7\\).",
+   "explain_vi": "Đúng. \\(\\Delta\\ge0\\) và tổng bằng \\(-7\\).",
+   "images": [],
+   "id": "5a6e26b451fb",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "Without solving, the sum of the roots of \\(#x^#+#x+#=#\\) is \\(-\\dfrac{#}{#}\\).",
+   "en": "Without solving, the sum of the roots of \\(4x^2+2x+8=0\\) is \\(-\\dfrac{1}{2}\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"without solving the equation\">Không giải phương trình</b>, ta có tổng các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b> của \\(4x^2+2x+8=0\\) bằng \\(-\\dfrac{1}{2}\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. \\(\\Delta=-124\\lt0\\): the equation has no real roots, so Viète's theorem cannot be used.",
+   "explain_vi": "Sai. \\(\\Delta=-124\\lt0\\): <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"no solution\">vô nghiệm</b> nên không áp dụng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"Viète's theorem (Vieta's formulas)\">định lí Viète</b>.",
+   "images": [],
+   "id": "10e90227e317",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "\\(x^#+#x-#=#\\) has the root \\(x_#=-#\\). Find the other root \\(x_#\\).",
+   "en": "\\(x^2+6x-7=0\\) has the root \\(x_1=-7\\). Find the other root \\(x_2\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">Phương trình</b> \\(x^2+6x-7=0\\) có một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b> \\(x_1=-7\\). Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"the remaining root\">nghiệm còn lại</b> \\(x_2\\).",
+   "options": [],
+   "answer": "1",
+   "explain_en": "Answer: 1. \\(x_1+x_2=-6\\Rightarrow x_2=1\\).",
+   "explain_vi": "Đáp số: 1. \\(x_1+x_2=-6\\Rightarrow x_2=1\\).",
+   "images": [],
+   "id": "6883984ffd2e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "\\(x_#\\), \\(x_#\\) are the roots of \\(x^#+#x+#=#\\). Compute \\(x_#^#+x_#^#\\).",
+   "en": "\\(x_1\\), \\(x_2\\) are the roots of \\(x^2+6x+8=0\\). Compute \\(x_1^2+x_2^2\\).",
+   "vi": "Gọi \\(x_1\\), \\(x_2\\) là hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution of an equation\">nghiệm của phương trình</b> \\(x^2+6x+8=0\\). Tính \\(x_1^2+x_2^2\\).",
+   "options": [],
+   "answer": "20",
+   "explain_en": "Answer: 20. \\(x_1^2+x_2^2=(x_1+x_2)^2-2x_1x_2=(-6)^2-2\\cdot(8)=20\\).",
+   "explain_vi": "Đáp số: 20. \\(x_1^2+x_2^2=(x_1+x_2)^2-2x_1x_2=(-6)^2-2\\cdot(8)=20\\).",
+   "images": [],
+   "id": "40fa927f030c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D1",
+   "type": "mcq",
+   "form": "If \\(-#x^#-#x+#=#\\) has roots \\(x_#\\), \\(x_#\\), then \\(x_#+x_#=\\)… (in terms of \\(a\\), \\(b\\), \\(c\\))",
+   "en": "If \\(-3x^2-12x+1=0\\) has roots \\(x_1\\), \\(x_2\\), then \\(x_1+x_2=\\)… (in terms of \\(a\\), \\(b\\), \\(c\\))",
+   "vi": "Nếu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(-3x^2-12x+1=0\\) có hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b> \\(x_1\\), \\(x_2\\) thì \\(x_1+x_2=\\)… (theo \\(a\\), \\(b\\), \\(c\\))",
+   "options": [
+    "\\(\\dfrac ba\\)",
+    "\\(-\\dfrac ca\\)",
+    "\\(\\dfrac ca\\)",
+    "\\(-\\dfrac ba\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Viète's theorem: \\(x_1+x_2=-\\dfrac ba\\), \\(x_1x_2=\\dfrac ca\\).",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"Viète's theorem (Vieta's formulas)\">Định lí Viète</b>: \\(x_1+x_2=-\\dfrac ba\\), \\(x_1x_2=\\dfrac ca\\).",
+   "images": [],
+   "id": "2bf41c02c6c9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Viète's theorem can be applied to \\(#x^#+#x+#=#\\) only when…",
+   "en": "Viète's theorem can be applied to \\(5x^2+5x+7=0\\) only when…",
+   "vi": "Chỉ áp dụng được <b class=\"mbl-term\" tabindex=\"0\" data-en=\"Viète's theorem (Vieta's formulas)\">định lí Viète</b> cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(5x^2+5x+7=0\\) khi…",
+   "options": [
+    "\\(a\\gt0\\)",
+    "\\(c\\ne0\\)",
+    "\\(\\Delta\\lt0\\)",
+    "\\(\\Delta\\ge0\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. The equation must have roots: \\(\\Delta\\ge0\\).",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">Phương trình</b> phải có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b>: \\(\\Delta\\ge0\\).",
+   "images": [],
+   "id": "3cb11bd63d29",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Without solving, find the sum of the roots of \\(-#x^#-#x+#=#\\).",
+   "en": "Without solving, find the sum of the roots of \\(-6x^2-11x+6=0\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"without solving the equation\">Không giải phương trình</b>, tính tổng các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution of an equation\">nghiệm của phương trình</b> \\(-6x^2-11x+6=0\\).",
+   "options": [
+    "\\(\\dfrac{11}{6}\\)",
+    "\\(1\\)",
+    "\\(-1\\)",
+    "\\(-\\dfrac{11}{6}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\Delta=265\\ge0\\); \\(x_1+x_2=-\\dfrac ba=-\\dfrac{11}{6}\\), \\(x_1x_2=\\dfrac ca=-1\\).",
+   "explain_vi": "Đáp án d. \\(\\Delta=265\\ge0\\); \\(x_1+x_2=-\\dfrac ba=-\\dfrac{11}{6}\\), \\(x_1x_2=\\dfrac ca=-1\\).",
+   "images": [],
+   "id": "15beae8ff142",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Find two numbers with sum \\(-#\\) and product \\(#\\).",
+   "en": "Find two numbers with sum \\(-3\\) and product \\(27\\).",
+   "vi": "Tìm hai số có tổng bằng \\(-3\\) và tích bằng \\(27\\).",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">no such numbers exist</span><span class=\"vi\">không có hai số như vậy</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(1\\) and \\(27\\)</span><span class=\"vi\">\\(1\\) và \\(27\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(-3\\) and \\(0\\)</span><span class=\"vi\">\\(-3\\) và \\(0\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(3\\) and \\(-27\\)</span><span class=\"vi\">\\(3\\) và \\(-27\\)</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(x^2+3x+27=0\\) has \\(\\Delta=-99\\lt0\\).",
+   "explain_vi": "Đáp án a. \\(x^2+3x+27=0\\) có \\(\\Delta=-99\\lt0\\).",
+   "images": [],
+   "id": "c9357a73aa2f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Solve by inspection: \\(#x^#-#x-#=#\\).",
+   "en": "Solve by inspection: \\(3x^2-5x-8=0\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"solve by inspection\">Nhẩm nghiệm</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(3x^2-5x-8=0\\).",
+   "options": [
+    "\\(S=\\{-\\dfrac{8}{3};\\ -1\\}\\)",
+    "\\(S=\\{1;\\ \\dfrac{8}{3}\\}\\)",
+    "\\(S=\\{-\\dfrac{8}{3};\\ 1\\}\\)",
+    "\\(S=\\{-1;\\ \\dfrac{8}{3}\\}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(a-b+c=0\\): \\(x_1=-1\\), \\(x_2=-\\dfrac ca=\\dfrac{8}{3}\\).",
+   "explain_vi": "Đáp án d. \\(a-b+c=0\\): \\(x_1=-1\\), \\(x_2=-\\dfrac ca=\\dfrac{8}{3}\\).",
+   "images": [],
+   "id": "e214a452a15f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D2",
+   "type": "mcq",
+   "form": "\\(#x^#+#x+#=#\\) has the root \\(x_#=-#\\). The other root is…",
+   "en": "\\(3x^2+39x+126=0\\) has the root \\(x_1=-7\\). The other root is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">Phương trình</b> \\(3x^2+39x+126=0\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b> \\(x_1=-7\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"the remaining root\">Nghiệm còn lại</b> là…",
+   "options": [
+    "\\(x_2=42\\)",
+    "\\(x_2=-13\\)",
+    "\\(x_2=-6\\)",
+    "\\(x_2=6\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(x_1x_2=\\dfrac ca=42\\Rightarrow x_2=-6\\).",
+   "explain_vi": "Đáp án c. \\(x_1x_2=\\dfrac ca=42\\Rightarrow x_2=-6\\).",
+   "images": [],
+   "id": "6fb306e67f15",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Factorise \\(#x^#-#x+#\\).",
+   "en": "Factorise \\(2x^2-6x+4\\).",
+   "vi": "Phân tích \\(2x^2-6x+4\\) thành nhân tử.",
+   "options": [
+    "\\((x-2)(x-1)\\)",
+    "\\(2(x+2)(x+1)\\)",
+    "\\(2(x-2)(x+1)\\)",
+    "\\(2(x-2)(x-1)\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Roots \\(2\\), \\(1\\): \\(ax^2+bx+c=a(x-x_1)(x-x_2)\\).",
+   "explain_vi": "Đáp án d. Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b> \\(2\\), \\(1\\): \\(ax^2+bx+c=a(x-x_1)(x-x_2)\\).",
+   "images": [],
+   "id": "f58d2f70e106",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D3",
+   "type": "mcq",
+   "form": "\\(x_#\\), \\(x_#\\) are the roots of \\(#x^#-#=#\\). Compute \\(x_#^#+x_#^#\\).",
+   "en": "\\(x_1\\), \\(x_2\\) are the roots of \\(2x^2-8=0\\). Compute \\(x_1^3+x_2^3\\).",
+   "vi": "Gọi \\(x_1\\), \\(x_2\\) là hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b> của \\(2x^2-8=0\\). Tính \\(x_1^3+x_2^3\\).",
+   "options": [
+    "\\(2\\)",
+    "\\(3\\)",
+    "\\(1\\)",
+    "\\(0\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(x_1^3+x_2^3=S^3-3PS\\) with \\(S=0\\), \\(P=-4\\).",
+   "explain_vi": "Đáp án d. \\(x_1^3+x_2^3=S^3-3PS\\) với \\(S=0\\), \\(P=-4\\).",
+   "images": [],
+   "id": "22774283e215",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D3",
+   "type": "mcq",
+   "form": "\\(x_#\\), \\(x_#\\) are the roots of \\(-#x^#-#x-#=#\\). Compute \\(\\dfrac#{x_#}+\\dfrac#{x_#}\\).",
+   "en": "\\(x_1\\), \\(x_2\\) are the roots of \\(-4x^2-9x-5=0\\). Compute \\(\\dfrac1{x_1}+\\dfrac1{x_2}\\).",
+   "vi": "Gọi \\(x_1\\), \\(x_2\\) là hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b> của \\(-4x^2-9x-5=0\\). Tính \\(\\dfrac1{x_1}+\\dfrac1{x_2}\\).",
+   "options": [
+    "\\(-\\dfrac{5}{9}\\)",
+    "\\(-\\dfrac{9}{5}\\)",
+    "\\(-\\dfrac{45}{16}\\)",
+    "\\(\\dfrac{9}{5}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\dfrac{x_1+x_2}{x_1x_2}=\\dfrac{-\\dfrac{9}{4}}{\\dfrac{5}{4}}=-\\dfrac{9}{5}\\).",
+   "explain_vi": "Đáp án b. \\(\\dfrac{x_1+x_2}{x_1x_2}=\\dfrac{-\\dfrac{9}{4}}{\\dfrac{5}{4}}=-\\dfrac{9}{5}\\).",
+   "images": [],
+   "id": "99a5b1fe3e2d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A rectangular garden is fenced with # m of netting (all four sides) and has area # m². Find its dimensions.",
+   "en": "A rectangular garden is fenced with 68 m of netting (all four sides) and has area 273 m². Find its dimensions.",
+   "vi": "Một mảnh vườn hình chữ nhật được rào bằng 68 m lưới (đủ bốn cạnh) và có diện tích 273 m². Tìm kích thước mảnh vườn.",
+   "options": [
+    "\\(21\\text{ m}\\times13\\text{ m}\\)",
+    "\\(20\\text{ m}\\times14\\text{ m}\\)",
+    "\\(23\\text{ m}\\times11\\text{ m}\\)",
+    "\\(22\\text{ m}\\times12\\text{ m}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Length + width \\(=34\\), length × width \\(=273\\): roots of \\(x^2-34x+273=0\\).",
+   "explain_vi": "Đáp án a. Dài + rộng \\(=34\\), dài × rộng \\(=273\\): là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b> của \\(x^2-34x+273=0\\).",
+   "images": [],
+   "id": "3a5285767b0d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D4",
+   "type": "mcq",
+   "form": "The equation \\(x^#+#x+m=#\\) has the root \\(x_#=#\\). Find \\(m\\) and the other root.",
+   "en": "The equation \\(x^2+4x+m=0\\) has the root \\(x_1=1\\). Find \\(m\\) and the other root.",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">Phương trình</b> \\(x^2+4x+m=0\\) có một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b> \\(x_1=1\\). Tìm \\(m\\) và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"the remaining root\">nghiệm còn lại</b>.",
+   "options": [
+    "\\(m=-5,\\ x_2=3\\)",
+    "\\(m=-5,\\ x_2=5\\)",
+    "\\(m=5,\\ x_2=-5\\)",
+    "\\(m=-5,\\ x_2=-5\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Substitute \\(x_1\\): \\(m=-5\\); \\(x_1+x_2=-4\\Rightarrow x_2=-5\\).",
+   "explain_vi": "Đáp án d. Thay \\(x_1\\) vào: \\(m=-5\\); \\(x_1+x_2=-4\\Rightarrow x_2=-5\\).",
+   "images": [],
+   "id": "958692be0257",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D4",
+   "type": "mcq",
+   "form": "\\(x_#\\), \\(x_#\\) are the roots of \\(x^#-#x=#\\). Compute \\(|x_#-x_#|\\) without solving.",
+   "en": "\\(x_1\\), \\(x_2\\) are the roots of \\(x^2-6x=0\\). Compute \\(|x_1-x_2|\\) without solving.",
+   "vi": "Gọi \\(x_1\\), \\(x_2\\) là hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b> của \\(x^2-6x=0\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"without solving the equation\">Không giải phương trình</b>, tính \\(|x_1-x_2|\\).",
+   "options": [
+    "\\(36\\)",
+    "\\(8\\)",
+    "\\(6\\)",
+    "\\(0\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\((x_1-x_2)^2=S^2-4P=(6)^2-4\\cdot(0)=36\\Rightarrow |x_1-x_2|=6\\).",
+   "explain_vi": "Đáp án c. \\((x_1-x_2)^2=S^2-4P=(6)^2-4\\cdot(0)=36\\Rightarrow |x_1-x_2|=6\\).",
+   "images": [],
+   "id": "580fe1678daf",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Find two numbers whose sum is \\(#\\) and whose product is \\(-#\\).",
+   "en": "Find two numbers whose sum is \\(2\\) and whose product is \\(-80\\).",
+   "vi": "Tìm hai số có tổng bằng \\(2\\) và tích bằng \\(-80\\).",
+   "options": [
+    "\\(-10\\text{ and }8\\)",
+    "\\(-9\\text{ and }11\\)",
+    "\\(-7\\text{ and }9\\)",
+    "\\(-8\\text{ and }10\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. They are the roots of \\(x^2-2x-80=0\\): \\(-8\\) and \\(10\\).",
+   "explain_vi": "Đáp án d. Hai số là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b> của \\(x^2-2x-80=0\\): \\(-8\\) và \\(10\\).",
+   "images": [],
+   "id": "2007b8028651",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Solve by inspection: \\(-#x^#+#x-#=#\\).",
+   "en": "Solve by inspection: \\(-7x^2+18x-11=0\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"solve by inspection\">Nhẩm nghiệm</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(-7x^2+18x-11=0\\).",
+   "options": [
+    "\\(S=\\{\\dfrac{7}{11};\\ 1\\}\\)",
+    "\\(S=\\{-\\dfrac{11}{7};\\ 1\\}\\)",
+    "\\(S=\\{1;\\ \\dfrac{11}{7}\\}\\)",
+    "\\(S=\\{-\\dfrac{11}{7};\\ -1\\}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(a+b+c=0\\), so \\(x_1=1\\), \\(x_2=\\dfrac{11}{7}\\).",
+   "explain_vi": "Đáp án c. \\(a+b+c=0\\) nên \\(x_1=1\\), \\(x_2=\\dfrac{11}{7}\\).",
+   "images": [],
+   "id": "4afba0467229",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Without solving, find the sum of the roots of \\(-#x^#+#x-#=#\\).",
+   "en": "Without solving, find the sum of the roots of \\(-3x^2+9x-4=0\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"without solving the equation\">Không giải phương trình</b>, tính tổng các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution of an equation\">nghiệm của phương trình</b> \\(-3x^2+9x-4=0\\).",
+   "options": [
+    "\\(\\dfrac{4}{3}\\)",
+    "\\(-\\dfrac{4}{3}\\)",
+    "\\(-3\\)",
+    "\\(3\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\Delta=33\\ge0\\); \\(x_1+x_2=-\\dfrac ba=3\\), \\(x_1x_2=\\dfrac ca=\\dfrac{4}{3}\\).",
+   "explain_vi": "Đáp án d. \\(\\Delta=33\\ge0\\); \\(x_1+x_2=-\\dfrac ba=3\\), \\(x_1x_2=\\dfrac ca=\\dfrac{4}{3}\\).",
+   "images": [],
+   "id": "9b6cb3c8046f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "The sum of the roots of \\(-x^#+#x+#=#\\) is \\(-#\\).",
+   "en": "The sum of the roots of \\(-x^2+11x+2=0\\) is \\(-11\\).",
+   "vi": "Tổng các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution of an equation\">nghiệm của phương trình</b> \\(-x^2+11x+2=0\\) bằng \\(-11\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. \\(\\Delta\\ge0\\) and the sum is \\(11\\).",
+   "explain_vi": "Sai. \\(\\Delta\\ge0\\) và tổng bằng \\(11\\).",
+   "images": [],
+   "id": "7ab19bd4225e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "Without solving, the sum of the roots of \\(#x^#-#x+#=#\\) is \\(#\\).",
+   "en": "Without solving, the sum of the roots of \\(4x^2-4x+4=0\\) is \\(1\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"without solving the equation\">Không giải phương trình</b>, ta có tổng các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b> của \\(4x^2-4x+4=0\\) bằng \\(1\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. \\(\\Delta=-48\\lt0\\): the equation has no real roots, so Viète's theorem cannot be used.",
+   "explain_vi": "Sai. \\(\\Delta=-48\\lt0\\): <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"no solution\">vô nghiệm</b> nên không áp dụng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"Viète's theorem (Vieta's formulas)\">định lí Viète</b>.",
+   "images": [],
+   "id": "fe8a2cd25edc",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "\\(-x^#-#x=#\\) has the root \\(x_#=#\\). Find the other root \\(x_#\\).",
+   "en": "\\(-x^2-5x=0\\) has the root \\(x_1=0\\). Find the other root \\(x_2\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">Phương trình</b> \\(-x^2-5x=0\\) có một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b> \\(x_1=0\\). Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"the remaining root\">nghiệm còn lại</b> \\(x_2\\).",
+   "options": [],
+   "answer": "-5",
+   "explain_en": "Answer: -5. \\(x_1+x_2=-5\\Rightarrow x_2=-5\\).",
+   "explain_vi": "Đáp số: -5. \\(x_1+x_2=-5\\Rightarrow x_2=-5\\).",
+   "images": [],
+   "id": "fe92824420b2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "\\(x_#\\), \\(x_#\\) are the roots of \\(x^#+#x+#=#\\). Compute \\(x_#^#+x_#^#\\).",
+   "en": "\\(x_1\\), \\(x_2\\) are the roots of \\(x^2+5x+5=0\\). Compute \\(x_1^2+x_2^2\\).",
+   "vi": "Gọi \\(x_1\\), \\(x_2\\) là hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution of an equation\">nghiệm của phương trình</b> \\(x^2+5x+5=0\\). Tính \\(x_1^2+x_2^2\\).",
+   "options": [],
+   "answer": "15",
+   "explain_en": "Answer: 15. \\(x_1^2+x_2^2=(x_1+x_2)^2-2x_1x_2=(-5)^2-2\\cdot(5)=15\\).",
+   "explain_vi": "Đáp số: 15. \\(x_1^2+x_2^2=(x_1+x_2)^2-2x_1x_2=(-5)^2-2\\cdot(5)=15\\).",
+   "images": [],
+   "id": "49691ad8a8e6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D1",
+   "type": "mcq",
+   "form": "If \\(-#x^#+#x+#=#\\) has roots \\(x_#\\), \\(x_#\\), then \\(x_#+x_#=\\)… (in terms of \\(a\\), \\(b\\), \\(c\\))",
+   "en": "If \\(-3x^2+2x+6=0\\) has roots \\(x_1\\), \\(x_2\\), then \\(x_1+x_2=\\)… (in terms of \\(a\\), \\(b\\), \\(c\\))",
+   "vi": "Nếu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(-3x^2+2x+6=0\\) có hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b> \\(x_1\\), \\(x_2\\) thì \\(x_1+x_2=\\)… (theo \\(a\\), \\(b\\), \\(c\\))",
+   "options": [
+    "\\(\\dfrac ca\\)",
+    "\\(-\\dfrac ca\\)",
+    "\\(-\\dfrac ba\\)",
+    "\\(\\dfrac ba\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Viète's theorem: \\(x_1+x_2=-\\dfrac ba\\), \\(x_1x_2=\\dfrac ca\\).",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"Viète's theorem (Vieta's formulas)\">Định lí Viète</b>: \\(x_1+x_2=-\\dfrac ba\\), \\(x_1x_2=\\dfrac ca\\).",
+   "images": [],
+   "id": "fac334f5fff1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Viète's theorem can be applied to \\(#x^#-#x+#=#\\) only when…",
+   "en": "Viète's theorem can be applied to \\(5x^2-8x+5=0\\) only when…",
+   "vi": "Chỉ áp dụng được <b class=\"mbl-term\" tabindex=\"0\" data-en=\"Viète's theorem (Vieta's formulas)\">định lí Viète</b> cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(5x^2-8x+5=0\\) khi…",
+   "options": [
+    "\\(a\\gt0\\)",
+    "\\(\\Delta\\ge0\\)",
+    "\\(\\Delta\\lt0\\)",
+    "\\(c\\ne0\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. The equation must have roots: \\(\\Delta\\ge0\\).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">Phương trình</b> phải có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b>: \\(\\Delta\\ge0\\).",
+   "images": [],
+   "id": "fcd20dca0218",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Without solving, find the sum of the roots of \\(#x^#+#x-#=#\\).",
+   "en": "Without solving, find the sum of the roots of \\(3x^2+6x-3=0\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"without solving the equation\">Không giải phương trình</b>, tính tổng các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution of an equation\">nghiệm của phương trình</b> \\(3x^2+6x-3=0\\).",
+   "options": [
+    "\\(2\\)",
+    "\\(1\\)",
+    "\\(-1\\)",
+    "\\(-2\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\Delta=72\\ge0\\); \\(x_1+x_2=-\\dfrac ba=-2\\), \\(x_1x_2=\\dfrac ca=-1\\).",
+   "explain_vi": "Đáp án d. \\(\\Delta=72\\ge0\\); \\(x_1+x_2=-\\dfrac ba=-2\\), \\(x_1x_2=\\dfrac ca=-1\\).",
+   "images": [],
+   "id": "af5a54e57858",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Find two numbers with sum \\(-#\\) and product \\(#\\).",
+   "en": "Find two numbers with sum \\(-4\\) and product \\(26\\).",
+   "vi": "Tìm hai số có tổng bằng \\(-4\\) và tích bằng \\(26\\).",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(4\\) and \\(-26\\)</span><span class=\"vi\">\\(4\\) và \\(-26\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(1\\) and \\(26\\)</span><span class=\"vi\">\\(1\\) và \\(26\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(-4\\) and \\(0\\)</span><span class=\"vi\">\\(-4\\) và \\(0\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">no such numbers exist</span><span class=\"vi\">không có hai số như vậy</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(x^2+4x+26=0\\) has \\(\\Delta=-88\\lt0\\).",
+   "explain_vi": "Đáp án d. \\(x^2+4x+26=0\\) có \\(\\Delta=-88\\lt0\\).",
+   "images": [],
+   "id": "30cebc20d624",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Solve by inspection: \\(-#x^#-#x-#=#\\).",
+   "en": "Solve by inspection: \\(-4x^2-12x-8=0\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"solve by inspection\">Nhẩm nghiệm</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(-4x^2-12x-8=0\\).",
+   "options": [
+    "\\(S=\\{-2;\\ 1\\}\\)",
+    "\\(S=\\{1;\\ 2\\}\\)",
+    "\\(S=\\{-2;\\ -1\\}\\)",
+    "\\(S=\\{-1;\\ 2\\}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(a-b+c=0\\): \\(x_1=-1\\), \\(x_2=-\\dfrac ca=-2\\).",
+   "explain_vi": "Đáp án c. \\(a-b+c=0\\): \\(x_1=-1\\), \\(x_2=-\\dfrac ca=-2\\).",
+   "images": [],
+   "id": "b3a0b6c5ad5e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D2",
+   "type": "mcq",
+   "form": "\\(x^#-#x+#=#\\) has the root \\(x_#=#\\). The other root is…",
+   "en": "\\(x^2-10x+21=0\\) has the root \\(x_1=3\\). The other root is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">Phương trình</b> \\(x^2-10x+21=0\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b> \\(x_1=3\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"the remaining root\">Nghiệm còn lại</b> là…",
+   "options": [
+    "\\(x_2=10\\)",
+    "\\(x_2=21\\)",
+    "\\(x_2=-7\\)",
+    "\\(x_2=7\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(x_1x_2=\\dfrac ca=21\\Rightarrow x_2=7\\).",
+   "explain_vi": "Đáp án d. \\(x_1x_2=\\dfrac ca=21\\Rightarrow x_2=7\\).",
+   "images": [],
+   "id": "faa9b44136ea",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Factorise \\(x^#-#x+#\\).",
+   "en": "Factorise \\(x^2-10x+21\\).",
+   "vi": "Phân tích \\(x^2-10x+21\\) thành nhân tử.",
+   "options": [
+    "\\(2(x-3)(x-7)\\)",
+    "\\((x-3)(x-7)\\)",
+    "\\((x+3)(x+7)\\)",
+    "\\((x-3)(x+7)\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Roots \\(3\\), \\(7\\): \\(ax^2+bx+c=a(x-x_1)(x-x_2)\\).",
+   "explain_vi": "Đáp án b. Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b> \\(3\\), \\(7\\): \\(ax^2+bx+c=a(x-x_1)(x-x_2)\\).",
+   "images": [],
+   "id": "77f6404ef828",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D3",
+   "type": "mcq",
+   "form": "\\(x_#\\), \\(x_#\\) are the roots of \\(-#x^#-#x+#=#\\). Compute \\(\\dfrac#{x_#}+\\dfrac#{x_#}\\).",
+   "en": "\\(x_1\\), \\(x_2\\) are the roots of \\(-4x^2-11x+11=0\\). Compute \\(\\dfrac1{x_1}+\\dfrac1{x_2}\\).",
+   "vi": "Gọi \\(x_1\\), \\(x_2\\) là hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b> của \\(-4x^2-11x+11=0\\). Tính \\(\\dfrac1{x_1}+\\dfrac1{x_2}\\).",
+   "options": [
+    "\\(2\\)",
+    "\\(1\\)",
+    "\\(\\dfrac{121}{16}\\)",
+    "\\(-1\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\dfrac{x_1+x_2}{x_1x_2}=\\dfrac{-\\dfrac{11}{4}}{-\\dfrac{11}{4}}=1\\).",
+   "explain_vi": "Đáp án b. \\(\\dfrac{x_1+x_2}{x_1x_2}=\\dfrac{-\\dfrac{11}{4}}{-\\dfrac{11}{4}}=1\\).",
+   "images": [],
+   "id": "427f252a7706",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D3",
+   "type": "mcq",
+   "form": "\\(x_#\\), \\(x_#\\) are the roots of \\(x^#-#x-#=#\\). Compute \\(x_#^#+x_#^#\\).",
+   "en": "\\(x_1\\), \\(x_2\\) are the roots of \\(x^2-2x-2=0\\). Compute \\(x_1^3+x_2^3\\).",
+   "vi": "Gọi \\(x_1\\), \\(x_2\\) là hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b> của \\(x^2-2x-2=0\\). Tính \\(x_1^3+x_2^3\\).",
+   "options": [
+    "\\(8\\)",
+    "\\(-4\\)",
+    "\\(20\\)",
+    "\\(12\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(x_1^3+x_2^3=S^3-3PS\\) with \\(S=2\\), \\(P=-2\\).",
+   "explain_vi": "Đáp án c. \\(x_1^3+x_2^3=S^3-3PS\\) với \\(S=2\\), \\(P=-2\\).",
+   "images": [],
+   "id": "02df34e0f2fd",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A rectangular garden is fenced with # m of netting (all four sides) and has area # m². Find its dimensions.",
+   "en": "A rectangular garden is fenced with 102 m of netting (all four sides) and has area 638 m². Find its dimensions.",
+   "vi": "Một mảnh vườn hình chữ nhật được rào bằng 102 m lưới (đủ bốn cạnh) và có diện tích 638 m². Tìm kích thước mảnh vườn.",
+   "options": [
+    "\\(28\\text{ m}\\times23\\text{ m}\\)",
+    "\\(30\\text{ m}\\times21\\text{ m}\\)",
+    "\\(29\\text{ m}\\times22\\text{ m}\\)",
+    "\\(31\\text{ m}\\times20\\text{ m}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Length + width \\(=51\\), length × width \\(=638\\): roots of \\(x^2-51x+638=0\\).",
+   "explain_vi": "Đáp án c. Dài + rộng \\(=51\\), dài × rộng \\(=638\\): là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b> của \\(x^2-51x+638=0\\).",
+   "images": [],
+   "id": "2b29a922d77c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D4",
+   "type": "mcq",
+   "form": "The equation \\(x^#-#x+m=#\\) has the root \\(x_#=#\\). Find \\(m\\) and the other root.",
+   "en": "The equation \\(x^2-6x+m=0\\) has the root \\(x_1=6\\). Find \\(m\\) and the other root.",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">Phương trình</b> \\(x^2-6x+m=0\\) có một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b> \\(x_1=6\\). Tìm \\(m\\) và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"the remaining root\">nghiệm còn lại</b>.",
+   "options": [
+    "\\(m=0,\\ x_2=-12\\)",
+    "\\(m=0,\\ x_2=0\\)",
+    "\\(m=1,\\ x_2=0\\)",
+    "\\(m=2,\\ x_2=0\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Substitute \\(x_1\\): \\(m=0\\); \\(x_1+x_2=6\\Rightarrow x_2=0\\).",
+   "explain_vi": "Đáp án b. Thay \\(x_1\\) vào: \\(m=0\\); \\(x_1+x_2=6\\Rightarrow x_2=0\\).",
+   "images": [],
+   "id": "ac72ce8fdefe",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D4",
+   "type": "mcq",
+   "form": "\\(x_#\\), \\(x_#\\) are the roots of \\(x^#-#=#\\). Compute \\(|x_#-x_#|\\) without solving.",
+   "en": "\\(x_1\\), \\(x_2\\) are the roots of \\(x^2-25=0\\). Compute \\(|x_1-x_2|\\) without solving.",
+   "vi": "Gọi \\(x_1\\), \\(x_2\\) là hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b> của \\(x^2-25=0\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"without solving the equation\">Không giải phương trình</b>, tính \\(|x_1-x_2|\\).",
+   "options": [
+    "\\(100\\)",
+    "\\(10\\)",
+    "\\(0\\)",
+    "\\(25\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\((x_1-x_2)^2=S^2-4P=(0)^2-4\\cdot(-25)=100\\Rightarrow |x_1-x_2|=10\\).",
+   "explain_vi": "Đáp án b. \\((x_1-x_2)^2=S^2-4P=(0)^2-4\\cdot(-25)=100\\Rightarrow |x_1-x_2|=10\\).",
+   "images": [],
+   "id": "67d9157cfc16",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  }
+ ]
+}

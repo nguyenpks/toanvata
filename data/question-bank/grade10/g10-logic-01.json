@@ -1,0 +1,1029 @@
+{
+ "lesson": "g10-logic-01",
+ "grade": 10,
+ "no": 1,
+ "title": "Mệnh đề",
+ "path": "lessons/grade10/propositions-and-sets/propositions.html",
+ "items": [
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "What is the negation of \\(x\\ge#\\)?",
+   "en": "What is the negation of \\(x\\ge3\\)?",
+   "vi": "Phủ định của \\(x\\ge3\\) là gì?",
+   "options": [
+    "\\(x\\lt3\\)",
+    "\\(x\\gt3\\)",
+    "\\(x\\le3\\)",
+    "\\(x\\ne3\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. The negation of \\(\\ge\\) is \\(\\lt\\).",
+   "explain_vi": "Đáp án a. Phủ định của \\(\\ge\\) là \\(\\lt\\).",
+   "images": [],
+   "id": "7e9ba7f3598c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Which implication is true for every positive integer \\(n\\)?",
+   "en": "Which implication is true for every positive integer \\(n\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"implication\">Mệnh đề kéo theo</b> nào đúng với mọi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"integers\">số nguyên</b> dương \\(n\\)?",
+   "options": [
+    "\\(n\\,\\vdots\\,6\\Rightarrow n\\,\\vdots\\,3\\)",
+    "\\(n\\,\\vdots\\,3\\Rightarrow n\\,\\vdots\\,6\\)",
+    "\\(n\\,\\vdots\\,4\\Rightarrow n\\,\\vdots\\,8\\)",
+    "\\(n\\,\\vdots\\,5\\Rightarrow n\\,\\vdots\\,10\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Every multiple of 6 is a multiple of 3. The others fail for \\(n=3,4,5\\).",
+   "explain_vi": "Đáp án a. Mọi bội của 6 đều là bội của 3. Các câu còn lại sai khi \\(n=3,4,5\\).",
+   "images": [],
+   "id": "c0e217e6e9bb",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Which of these is a proposition?",
+   "en": "Which of these is a proposition?",
+   "vi": "Câu nào sau đây là một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"proposition\">mệnh đề</b>?",
+   "options": [
+    "\\(x+2=5\\)",
+    "\\(7-3=5\\)",
+    "\\(y\\gt1\\)",
+    "\\(a+b=c\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(7-3=5\\) has no variable: it is a (false) proposition.",
+   "explain_vi": "Đáp án b. \\(7-3=5\\) không chứa biến: đó là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"proposition\">mệnh đề</b> (sai).",
+   "images": [],
+   "id": "f07325327471",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "If \\(P\\Rightarrow Q\\) is true, then \\(Q\\Rightarrow P\\) is also true.",
+   "en": "If \\(P\\Rightarrow Q\\) is true, then \\(Q\\Rightarrow P\\) is also true.",
+   "vi": "Nếu \\(P\\Rightarrow Q\\) đúng thì \\(Q\\Rightarrow P\\) cũng đúng.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False: for example \\(n\\,\\vdots\\,6\\Rightarrow n\\,\\vdots\\,3\\) is true but its converse is false.",
+   "explain_vi": "Sai: chẳng hạn \\(n\\,\\vdots\\,6\\Rightarrow n\\,\\vdots\\,3\\) đúng nhưng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"converse\">mệnh đề đảo</b> sai.",
+   "images": [],
+   "id": "81f5c28e9a5d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "The proposition \\(\\forall x\\in\\mathbb{R},\\ x^#>#\\) is true.",
+   "en": "The proposition \\(\\forall x\\in\\mathbb{R},\\ x^2>0\\) is true.",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"proposition\">Mệnh đề</b> \\(\\forall x\\in\\mathbb{R},\\ x^2>0\\) là đúng.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False: for \\(x=0\\), \\(x^2=0\\).",
+   "explain_vi": "Sai: với \\(x=0\\) thì \\(x^2=0\\).",
+   "images": [],
+   "id": "9811fae1bd46",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "Find the smallest positive integer \\(n\\) for which “\\(n^#-n+#\\) is prime” is false.",
+   "en": "Find the smallest positive integer \\(n\\) for which “\\(n^2-n+11\\) is prime” is false.",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"integers\">số nguyên</b> dương \\(n\\) nhỏ nhất để “\\(n^2-n+11\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"integers\">số nguyên</b> tố” sai.",
+   "options": [],
+   "answer": "11",
+   "explain_en": "Answer: 11, because \\(11^2-11+11=121=11^2\\).",
+   "explain_vi": "Đáp số: 11, vì \\(11^2-11+11=121=11^2\\).",
+   "images": [],
+   "id": "eeab6ab566af",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "How many integers \\(x\\) satisfy \\(-#\\le x\\le#\\) and \\(x^#\\lt#\\)?",
+   "en": "How many integers \\(x\\) satisfy \\(-3\\le x\\le3\\) and \\(x^2\\lt4\\)?",
+   "vi": "Có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"integers\">số nguyên</b> \\(x\\) thỏa \\(-3\\le x\\le3\\) và \\(x^2\\lt4\\)?",
+   "options": [],
+   "answer": "3",
+   "explain_en": "Answer: 3: \\(x=-1,0,1\\).",
+   "explain_vi": "Đáp số: 3: \\(x=-1,0,1\\).",
+   "images": [],
+   "id": "9e8124bc3d42",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Exactly one statement is true. Which one?",
+   "en": "Exactly one statement is true. Which one?",
+   "vi": "Chỉ có một phát biểu đúng. Đó là phát biểu nào?",
+   "options": [
+    "\\(\\exists n\\in\\mathbb{N},\\ n^2=29\\)",
+    "\\(\\exists n\\in\\mathbb{N},\\ n^2=22\\)",
+    "\\(\\exists x\\in\\mathbb{R},\\ x^2=11\\)",
+    "\\(\\exists x\\in\\mathbb{R},\\ x^2=-7\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Check each statement: only the chosen one is true; for the others find a counterexample or show that no such number exists.",
+   "explain_vi": "Đáp án c. Kiểm tra từng phát biểu: chỉ phát biểu được chọn là đúng; với các phát biểu còn lại hãy chỉ ra <b class=\"mbl-term\" tabindex=\"0\" data-en=\"counterexample\">phản ví dụ</b> hoặc chứng tỏ không có số nào thỏa mãn.",
+   "images": [],
+   "id": "64977cbf09a1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "How many of these four statements are true?(#) \\(\\forall n\\in\\mathbb{N}^*,\\ n^#\\ge #n\\);(#) \\(\\forall x\\in\\mathbb{R},\\ x^#\\ge #x\\);(#) \\(\\forall x\\in\\mathbb{R},\\ x^#\\ge #x\\);(#) \\(\\forall x\\in\\mathbb{R},\\ x^#-#\\gt -#\\).",
+   "en": "How many of these four statements are true?<br>(1) \\(\\forall n\\in\\mathbb{N}^*,\\ n^2\\ge 2n\\);<br>(2) \\(\\forall x\\in\\mathbb{R},\\ x^2\\ge 6x\\);<br>(3) \\(\\forall x\\in\\mathbb{R},\\ x^2\\ge 2x\\);<br>(4) \\(\\forall x\\in\\mathbb{R},\\ x^2-2\\gt -3\\).",
+   "vi": "Trong bốn phát biểu sau có bao nhiêu phát biểu đúng?<br>(1) \\(\\forall n\\in\\mathbb{N}^*,\\ n^2\\ge 2n\\);<br>(2) \\(\\forall x\\in\\mathbb{R},\\ x^2\\ge 6x\\);<br>(3) \\(\\forall x\\in\\mathbb{R},\\ x^2\\ge 2x\\);<br>(4) \\(\\forall x\\in\\mathbb{R},\\ x^2-2\\gt -3\\).",
+   "options": [
+    "\\(4\\)",
+    "\\(0\\)",
+    "\\(2\\)",
+    "\\(1\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Decide each statement separately: 1 of them are true.",
+   "explain_vi": "Đáp án d. Xét từng phát biểu: có 1 phát biểu đúng.",
+   "images": [],
+   "id": "fc1fcba3329b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Only one equivalence is true for all real \\(x\\). Which one?",
+   "en": "Only one equivalence is true for all real \\(x\\). Which one?",
+   "vi": "Chỉ một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equivalence\">mệnh đề tương đương</b> đúng với mọi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"real numbers\">số thực</b> \\(x\\). Đó là câu nào?",
+   "options": [
+    "\\(x^2\\gt 36\\Leftrightarrow x\\gt 6\\)",
+    "\\(x^2=36\\Leftrightarrow x=6\\)",
+    "\\(x(x-6)=0\\Leftrightarrow x=6\\)",
+    "\\(x+1=6\\Leftrightarrow x=5\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. The chosen equivalence holds for all real \\(x\\); each other option fails for some \\(x\\) (for example a negative value).",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equivalence\">Mệnh đề tương đương</b> được chọn đúng với mọi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"real numbers\">số thực</b> \\(x\\); mỗi phương án còn lại sai với một giá trị \\(x\\) nào đó (chẳng hạn một số âm).",
+   "images": [],
+   "id": "0273dfca460a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Only one implication is true for all positive integers \\(n\\). Which one?",
+   "en": "Only one implication is true for all positive integers \\(n\\). Which one?",
+   "vi": "Chỉ một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"implication\">mệnh đề kéo theo</b> đúng với mọi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"integers\">số nguyên</b> dương \\(n\\). Đó là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"proposition\">mệnh đề</b> nào?",
+   "options": [
+    "\\(n\\,\\vdots\\,5\\Rightarrow n\\,\\vdots\\,3\\)",
+    "\\(n\\,\\vdots\\,2\\Rightarrow n\\,\\vdots\\,12\\)",
+    "\\(n\\,\\vdots\\,9\\Rightarrow n\\,\\vdots\\,10\\)",
+    "\\(n\\,\\vdots\\,9\\Rightarrow n\\,\\vdots\\,3\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(n\\,\\vdots\\,9\\Rightarrow n\\,\\vdots\\,3\\) is true because \\(9\\) is a multiple of \\(3\\). In the other options find a counterexample.",
+   "explain_vi": "Đáp án d. \\(n\\,\\vdots\\,9\\Rightarrow n\\,\\vdots\\,3\\) đúng vì \\(9\\) là bội của \\(3\\). Ở các phương án còn lại hãy tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"counterexample\">phản ví dụ</b>.",
+   "images": [],
+   "id": "53e7b0115434",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Pick the true statement.",
+   "en": "Pick the true statement.",
+   "vi": "Chọn phát biểu đúng.",
+   "options": [
+    "\\(\\forall x\\in\\mathbb{R},\\ x^2\\ge 4x\\)",
+    "\\(\\forall x\\in\\mathbb{R},\\ x^2\\gt 1\\)",
+    "\\(\\forall n\\in\\mathbb{N}^*,\\ n^2\\ge 4n\\)",
+    "\\(\\forall x\\in\\mathbb{R},\\ x^2+1\\gt -1\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Check each statement: only the chosen one is true; for the others find a counterexample or show that no such number exists.",
+   "explain_vi": "Đáp án d. Kiểm tra từng phát biểu: chỉ phát biểu được chọn là đúng; với các phát biểu còn lại hãy chỉ ra <b class=\"mbl-term\" tabindex=\"0\" data-en=\"counterexample\">phản ví dụ</b> hoặc chứng tỏ không có số nào thỏa mãn.",
+   "images": [],
+   "id": "7b00203f0523",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Which option is a proposition?",
+   "en": "Which option is a proposition?",
+   "vi": "Phương án nào là một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"proposition\">mệnh đề</b>?",
+   "options": [
+    "\\(2a=b\\)",
+    "\\(m\\ge5\\)",
+    "\\(t\\le-1\\)",
+    "\\(9-4=5\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(9-4=5\\) has no variable, so it is true or false. The others contain a variable: their truth depends on its value.",
+   "explain_vi": "Đáp án d. \\(9-4=5\\) không chứa biến nên chắc chắn đúng hoặc sai. Các câu còn lại chứa biến: tính đúng sai phụ thuộc giá trị của biến.",
+   "images": [],
+   "id": "f004def89e94",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Write the negation of \\(\\forall n\\in\\mathbb{N},\\ n\\ge#\\).",
+   "en": "Write the negation of \\(\\forall n\\in\\mathbb{N},\\ n\\ge3\\).",
+   "vi": "Phủ định của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"proposition\">mệnh đề</b> \\(\\forall n\\in\\mathbb{N},\\ n\\ge3\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"proposition\">mệnh đề</b> nào?",
+   "options": [
+    "\\(\\forall n\\in\\mathbb{N},\\ n\\lt 3\\)",
+    "\\(\\exists n\\in\\mathbb{N},\\ n\\ge3\\)",
+    "\\(\\exists n\\in\\mathbb{N},\\ n\\lt 3\\)",
+    "\\(\\forall n\\in\\mathbb{N},\\ n\\ge3\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Swap \\(\\forall\\) and \\(\\exists\\), and negate the inequality: \\(\\exists n\\in\\mathbb{N},\\ n\\lt 3\\).",
+   "explain_vi": "Đáp án c. Đổi \\(\\forall\\) thành \\(\\exists\\) (và ngược lại) rồi phủ định <b class=\"mbl-term\" tabindex=\"0\" data-en=\"inequality\">bất đẳng thức</b>: \\(\\exists n\\in\\mathbb{N},\\ n\\lt 3\\).",
+   "images": [],
+   "id": "78450087fe71",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Write the negation of \\(\\forall n\\in\\mathbb{N},\\ n\\lt #\\).",
+   "en": "Write the negation of \\(\\forall n\\in\\mathbb{N},\\ n\\lt 4\\).",
+   "vi": "Phủ định của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"proposition\">mệnh đề</b> \\(\\forall n\\in\\mathbb{N},\\ n\\lt 4\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"proposition\">mệnh đề</b> nào?",
+   "options": [
+    "\\(\\exists n\\in\\mathbb{N},\\ n\\lt 4\\)",
+    "\\(\\exists n\\in\\mathbb{N},\\ n\\ge4\\)",
+    "\\(\\forall n\\in\\mathbb{N},\\ n\\ge4\\)",
+    "\\(\\forall n\\in\\mathbb{N},\\ n\\lt 4\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Swap \\(\\forall\\) and \\(\\exists\\), and negate the inequality: \\(\\exists n\\in\\mathbb{N},\\ n\\ge4\\).",
+   "explain_vi": "Đáp án b. Đổi \\(\\forall\\) thành \\(\\exists\\) (và ngược lại) rồi phủ định <b class=\"mbl-term\" tabindex=\"0\" data-en=\"inequality\">bất đẳng thức</b>: \\(\\exists n\\in\\mathbb{N},\\ n\\ge4\\).",
+   "images": [],
+   "id": "64168f6ef262",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "What is the negation of \\(x\\lt#\\)?",
+   "en": "What is the negation of \\(x\\lt5\\)?",
+   "vi": "Phủ định của \\(x\\lt5\\) là gì?",
+   "options": [
+    "\\(x\\gt5\\)",
+    "\\(x\\le5\\)",
+    "\\(x\\ne5\\)",
+    "\\(x\\ge5\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. The negation of \\(\\lt\\) is \\(\\ge\\).",
+   "explain_vi": "Đáp án d. Phủ định của \\(\\lt\\) là \\(\\ge\\).",
+   "images": [],
+   "id": "11b03ac0b8d6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Which implication is always true for positive integers \\(n\\)?",
+   "en": "Which implication is always true for positive integers \\(n\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"implication\">Mệnh đề kéo theo</b> nào luôn đúng với các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"integers\">số nguyên</b> dương \\(n\\)?",
+   "options": [
+    "\\(n\\,\\vdots\\,4\\Rightarrow n\\,\\vdots\\,12\\)",
+    "\\(n\\,\\vdots\\,12\\Rightarrow n\\,\\vdots\\,4\\)",
+    "\\(n\\,\\vdots\\,2\\Rightarrow n\\,\\vdots\\,6\\)",
+    "\\(n\\,\\vdots\\,5\\Rightarrow n\\,\\vdots\\,15\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Every multiple of 12 is a multiple of 4. The others fail for \\(n=4,2,5\\).",
+   "explain_vi": "Đáp án b. Mọi bội của 12 đều là bội của 4. Các câu còn lại sai khi \\(n=4,2,5\\).",
+   "images": [],
+   "id": "add06869e7bc",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Which sentence below is a proposition?",
+   "en": "Which sentence below is a proposition?",
+   "vi": "Câu nào dưới đây là một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"proposition\">mệnh đề</b>?",
+   "options": [
+    "\\(n-4\\gt1\\)",
+    "\\(5\\times4=20\\)",
+    "\\(k^2=2k\\)",
+    "\\(t\\le-1\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(5\\times4=20\\) has no variable and is true.",
+   "explain_vi": "Đáp án b. \\(5\\times4=20\\) không có biến và đúng.",
+   "images": [],
+   "id": "e507e8bfe7b0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "The proposition \\(\\exists x\\in\\mathbb{R},\\ x^#=-#\\) is true.",
+   "en": "The proposition \\(\\exists x\\in\\mathbb{R},\\ x^2=-4\\) is true.",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"proposition\">Mệnh đề</b> \\(\\exists x\\in\\mathbb{R},\\ x^2=-4\\) là đúng.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False: \\(x^2\\ge0\\) for every real \\(x\\).",
+   "explain_vi": "Sai: \\(x^2\\ge0\\) với mọi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"real numbers\">số thực</b> \\(x\\).",
+   "images": [],
+   "id": "98e1cb9ff998",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(P\\Leftrightarrow Q\\) means that both \\(P\\Rightarrow Q\\) and \\(Q\\Rightarrow P\\) are true.",
+   "en": "\\(P\\Leftrightarrow Q\\) means that both \\(P\\Rightarrow Q\\) and \\(Q\\Rightarrow P\\) are true.",
+   "vi": "\\(P\\Leftrightarrow Q\\) nghĩa là cả \\(P\\Rightarrow Q\\) và \\(Q\\Rightarrow P\\) đều đúng.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. This is the definition of an equivalence.",
+   "explain_vi": "Đúng. Đó là định nghĩa <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equivalence\">mệnh đề tương đương</b>.",
+   "images": [],
+   "id": "2f5b021fec76",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "Find the smallest positive integer \\(n\\) for which “\\(n^#-n+#\\) is prime” is false.",
+   "en": "Find the smallest positive integer \\(n\\) for which “\\(n^2-n+41\\) is prime” is false.",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"integers\">số nguyên</b> dương \\(n\\) nhỏ nhất để “\\(n^2-n+41\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"integers\">số nguyên</b> tố” sai.",
+   "options": [],
+   "answer": "41",
+   "explain_en": "Answer: 41, because \\(41^2-41+41=1681=41^2\\).",
+   "explain_vi": "Đáp số: 41, vì \\(41^2-41+41=1681=41^2\\).",
+   "images": [],
+   "id": "e48d4cea7986",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "How many integers \\(x\\) satisfy \\(-#\\le x\\le#\\) and \\(x^#\\lt#\\)?",
+   "en": "How many integers \\(x\\) satisfy \\(-4\\le x\\le4\\) and \\(x^2\\lt9\\)?",
+   "vi": "Có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"integers\">số nguyên</b> \\(x\\) thỏa \\(-4\\le x\\le4\\) và \\(x^2\\lt9\\)?",
+   "options": [],
+   "answer": "5",
+   "explain_en": "Answer: 5: \\(x=-2,-1,0,1,2\\).",
+   "explain_vi": "Đáp số: 5: \\(x=-2,-1,0,1,2\\).",
+   "images": [],
+   "id": "5a571ec6d65c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Choose the implication that is always true for positive integers \\(n\\).",
+   "en": "Choose the implication that is always true for positive integers \\(n\\).",
+   "vi": "Chọn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"implication\">mệnh đề kéo theo</b> luôn đúng với <b class=\"mbl-term\" tabindex=\"0\" data-en=\"integers\">số nguyên</b> dương \\(n\\).",
+   "options": [
+    "\\(n\\,\\vdots\\,6\\Rightarrow n\\,\\vdots\\,4\\)",
+    "\\(n\\,\\vdots\\,12\\Rightarrow n\\,\\vdots\\,4\\)",
+    "\\(n\\,\\vdots\\,15\\Rightarrow n\\,\\vdots\\,12\\)",
+    "\\(n\\,\\vdots\\,18\\Rightarrow n\\,\\vdots\\,12\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(n\\,\\vdots\\,12\\Rightarrow n\\,\\vdots\\,4\\) is true because \\(12\\) is a multiple of \\(4\\). In the other options find a counterexample.",
+   "explain_vi": "Đáp án b. \\(n\\,\\vdots\\,12\\Rightarrow n\\,\\vdots\\,4\\) đúng vì \\(12\\) là bội của \\(4\\). Ở các phương án còn lại hãy tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"counterexample\">phản ví dụ</b>.",
+   "images": [],
+   "id": "6529d96f50b2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Choose the proposition.",
+   "en": "Choose the proposition.",
+   "vi": "Chọn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"proposition\">mệnh đề</b>.",
+   "options": [
+    "\\(x+y=10\\)",
+    "\\(k^2=2k\\)",
+    "\\(10^2\\lt 99\\)",
+    "\\(2a=b\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(10^2\\lt 99\\) has no variable, so it is true or false. The others contain a variable: their truth depends on its value.",
+   "explain_vi": "Đáp án c. \\(10^2\\lt 99\\) không chứa biến nên chắc chắn đúng hoặc sai. Các câu còn lại chứa biến: tính đúng sai phụ thuộc giá trị của biến.",
+   "images": [],
+   "id": "76a2509fdcf0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "How many of these four statements are true?(#) \\(\\exists x\\in\\mathbb{Z},\\ #x=#\\);(#) \\(\\forall x\\in\\mathbb{R},\\ x^#\\ge #x\\);(#) \\(\\exists x\\in\\mathbb{R},\\ x^#=#\\);(#) \\(\\exists n\\in\\mathbb{N},\\ n^#=#\\).",
+   "en": "How many of these four statements are true?<br>(1) \\(\\exists x\\in\\mathbb{Z},\\ 2x=11\\);<br>(2) \\(\\forall x\\in\\mathbb{R},\\ x^2\\ge 2x\\);<br>(3) \\(\\exists x\\in\\mathbb{R},\\ x^2=4\\);<br>(4) \\(\\exists n\\in\\mathbb{N},\\ n^2=4\\).",
+   "vi": "Trong bốn phát biểu sau có bao nhiêu phát biểu đúng?<br>(1) \\(\\exists x\\in\\mathbb{Z},\\ 2x=11\\);<br>(2) \\(\\forall x\\in\\mathbb{R},\\ x^2\\ge 2x\\);<br>(3) \\(\\exists x\\in\\mathbb{R},\\ x^2=4\\);<br>(4) \\(\\exists n\\in\\mathbb{N},\\ n^2=4\\).",
+   "options": [
+    "\\(1\\)",
+    "\\(2\\)",
+    "\\(4\\)",
+    "\\(0\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Decide each statement separately: 2 of them are true.",
+   "explain_vi": "Đáp án b. Xét từng phát biểu: có 2 phát biểu đúng.",
+   "images": [],
+   "id": "7f420c4db2e8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Which equivalence is true for every real number \\(x\\)?",
+   "en": "Which equivalence is true for every real number \\(x\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"equivalence\">Mệnh đề tương đương</b> nào đúng với mọi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"real numbers\">số thực</b> \\(x\\)?",
+   "options": [
+    "\\(x(x-5)=0\\Leftrightarrow x=5\\)",
+    "\\(5x\\gt 7\\Leftrightarrow x\\gt \\dfrac{7}{5}\\)",
+    "\\(x^2=25\\Leftrightarrow x=5\\)",
+    "\\(x^2\\gt 25\\Leftrightarrow x\\gt 5\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. The chosen equivalence holds for all real \\(x\\); each other option fails for some \\(x\\) (for example a negative value).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equivalence\">Mệnh đề tương đương</b> được chọn đúng với mọi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"real numbers\">số thực</b> \\(x\\); mỗi phương án còn lại sai với một giá trị \\(x\\) nào đó (chẳng hạn một số âm).",
+   "images": [],
+   "id": "313e0ead4c2f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Which of these statements is true?",
+   "en": "Which of these statements is true?",
+   "vi": "Phát biểu nào sau đây là đúng?",
+   "options": [
+    "\\(\\exists x\\in\\mathbb{Z},\\ 2x=13\\)",
+    "\\(\\exists x\\in\\mathbb{R},\\ x^2=-7\\)",
+    "\\(\\forall x\\in\\mathbb{R},\\ x^2-3\\gt 3\\)",
+    "\\(\\exists x\\in\\mathbb{Z},\\ 2x=4\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Check each statement: only the chosen one is true; for the others find a counterexample or show that no such number exists.",
+   "explain_vi": "Đáp án d. Kiểm tra từng phát biểu: chỉ phát biểu được chọn là đúng; với các phát biểu còn lại hãy chỉ ra <b class=\"mbl-term\" tabindex=\"0\" data-en=\"counterexample\">phản ví dụ</b> hoặc chứng tỏ không có số nào thỏa mãn.",
+   "images": [],
+   "id": "794bf46917e6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Which statement below is true?",
+   "en": "Which statement below is true?",
+   "vi": "Phát biểu nào dưới đây đúng?",
+   "options": [
+    "\\(\\exists n\\in\\mathbb{N},\\ n^2=30\\)",
+    "\\(\\exists x\\in\\mathbb{R},\\ x^2=-2\\)",
+    "\\(\\forall x\\in\\mathbb{R},\\ x^2+5\\gt 2\\)",
+    "\\(\\exists n\\in\\mathbb{N},\\ n^2=35\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Check each statement: only the chosen one is true; for the others find a counterexample or show that no such number exists.",
+   "explain_vi": "Đáp án c. Kiểm tra từng phát biểu: chỉ phát biểu được chọn là đúng; với các phát biểu còn lại hãy chỉ ra <b class=\"mbl-term\" tabindex=\"0\" data-en=\"counterexample\">phản ví dụ</b> hoặc chứng tỏ không có số nào thỏa mãn.",
+   "images": [],
+   "id": "a66cdcc84a62",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Write the negation of \\(\\exists n\\in\\mathbb{N},\\ n\\ge#\\).",
+   "en": "Write the negation of \\(\\exists n\\in\\mathbb{N},\\ n\\ge1\\).",
+   "vi": "Phủ định của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"proposition\">mệnh đề</b> \\(\\exists n\\in\\mathbb{N},\\ n\\ge1\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"proposition\">mệnh đề</b> nào?",
+   "options": [
+    "\\(\\forall n\\in\\mathbb{N},\\ n\\lt 1\\)",
+    "\\(\\forall n\\in\\mathbb{N},\\ n\\ge1\\)",
+    "\\(\\exists n\\in\\mathbb{N},\\ n\\ge1\\)",
+    "\\(\\exists n\\in\\mathbb{N},\\ n\\lt 1\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Swap \\(\\forall\\) and \\(\\exists\\), and negate the inequality: \\(\\forall n\\in\\mathbb{N},\\ n\\lt 1\\).",
+   "explain_vi": "Đáp án a. Đổi \\(\\forall\\) thành \\(\\exists\\) (và ngược lại) rồi phủ định <b class=\"mbl-term\" tabindex=\"0\" data-en=\"inequality\">bất đẳng thức</b>: \\(\\forall n\\in\\mathbb{N},\\ n\\lt 1\\).",
+   "images": [],
+   "id": "3da5ad3a3ca0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Write the negation of \\(\\forall x\\in\\mathbb{Z},\\ x\\le#\\).",
+   "en": "Write the negation of \\(\\forall x\\in\\mathbb{Z},\\ x\\le0\\).",
+   "vi": "Phủ định của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"proposition\">mệnh đề</b> \\(\\forall x\\in\\mathbb{Z},\\ x\\le0\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"proposition\">mệnh đề</b> nào?",
+   "options": [
+    "\\(\\exists x\\in\\mathbb{Z},\\ x\\gt 0\\)",
+    "\\(\\exists x\\in\\mathbb{Z},\\ x\\le0\\)",
+    "\\(\\forall x\\in\\mathbb{Z},\\ x\\le0\\)",
+    "\\(\\forall x\\in\\mathbb{Z},\\ x\\gt 0\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Swap \\(\\forall\\) and \\(\\exists\\), and negate the inequality: \\(\\exists x\\in\\mathbb{Z},\\ x\\gt 0\\).",
+   "explain_vi": "Đáp án a. Đổi \\(\\forall\\) thành \\(\\exists\\) (và ngược lại) rồi phủ định <b class=\"mbl-term\" tabindex=\"0\" data-en=\"inequality\">bất đẳng thức</b>: \\(\\exists x\\in\\mathbb{Z},\\ x\\gt 0\\).",
+   "images": [],
+   "id": "96d73e1ad344",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "What is the negation of \\(x\\le-#\\)?",
+   "en": "What is the negation of \\(x\\le-2\\)?",
+   "vi": "Phủ định của \\(x\\le-2\\) là gì?",
+   "options": [
+    "\\(x\\ge-2\\)",
+    "\\(x\\gt-2\\)",
+    "\\(x\\lt-2\\)",
+    "\\(x\\ne-2\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. The negation of \\(\\le\\) is \\(\\gt\\).",
+   "explain_vi": "Đáp án b. Phủ định của \\(\\le\\) là \\(\\gt\\).",
+   "images": [],
+   "id": "eafca0654a57",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Which of these implications holds for all positive integers \\(n\\)?",
+   "en": "Which of these implications holds for all positive integers \\(n\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"implication\">Mệnh đề kéo theo</b> nào dưới đây đúng với mọi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"integers\">số nguyên</b> dương \\(n\\)?",
+   "options": [
+    "\\(n\\,\\vdots\\,3\\Rightarrow n\\,\\vdots\\,9\\)",
+    "\\(n\\,\\vdots\\,2\\Rightarrow n\\,\\vdots\\,4\\)",
+    "\\(n\\,\\vdots\\,9\\Rightarrow n\\,\\vdots\\,3\\)",
+    "\\(n\\,\\vdots\\,5\\Rightarrow n\\,\\vdots\\,25\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Every multiple of 9 is a multiple of 3. The others fail for \\(n=3,2,5\\).",
+   "explain_vi": "Đáp án c. Mọi bội của 9 đều là bội của 3. Các câu còn lại sai khi \\(n=3,2,5\\).",
+   "images": [],
+   "id": "5c7928bb874b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Which statement here is a proposition?",
+   "en": "Which statement here is a proposition?",
+   "vi": "Phát biểu nào sau đây là một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"proposition\">mệnh đề</b>?",
+   "options": [
+    "\\(3z\\gt12\\)",
+    "\\(m\\ge5\\)",
+    "\\(x+y=10\\)",
+    "\\(\\sqrt{25}=5\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\sqrt{25}=5\\) has no variable and is true.",
+   "explain_vi": "Đáp án d. \\(\\sqrt{25}=5\\) không có biến và đúng.",
+   "images": [],
+   "id": "0e5ba1ac5b4e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "For integers, “\\(n\\) is even” \\(\\Leftrightarrow\\) “\\(n^#\\) is even”.",
+   "en": "For integers, “\\(n\\) is even” \\(\\Leftrightarrow\\) “\\(n^2\\) is even”.",
+   "vi": "Với <b class=\"mbl-term\" tabindex=\"0\" data-en=\"integers\">số nguyên</b>, “\\(n\\) chẵn” \\(\\Leftrightarrow\\) “\\(n^2\\) chẵn”.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True: if \\(n\\) is even then \\(n^2\\) is even; if \\(n\\) is odd then \\(n^2\\) is odd.",
+   "explain_vi": "Đúng: \\(n\\) chẵn thì \\(n^2\\) chẵn; \\(n\\) lẻ thì \\(n^2\\) lẻ.",
+   "images": [],
+   "id": "50bd70af637f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "The negation of \\(\\forall x\\in\\mathbb{R},\\ x^#\\ge#\\) is \\(\\exists x\\in\\mathbb{R},\\ x^#\\lt#\\).",
+   "en": "The negation of \\(\\forall x\\in\\mathbb{R},\\ x^2\\ge0\\) is \\(\\exists x\\in\\mathbb{R},\\ x^2\\lt0\\).",
+   "vi": "Phủ định của \\(\\forall x\\in\\mathbb{R},\\ x^2\\ge0\\) là \\(\\exists x\\in\\mathbb{R},\\ x^2\\lt0\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True: swap \\(\\forall\\) to \\(\\exists\\) and negate \\(\\ge\\) to \\(\\lt\\).",
+   "explain_vi": "Đúng: đổi \\(\\forall\\) thành \\(\\exists\\) và phủ định \\(\\ge\\) thành \\(\\lt\\).",
+   "images": [],
+   "id": "bbcb62440815",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Find the smallest positive integer \\(n\\) for which “\\(n^#-n+#\\) is prime” is false.",
+   "en": "Find the smallest positive integer \\(n\\) for which “\\(n^2-n+17\\) is prime” is false.",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"integers\">số nguyên</b> dương \\(n\\) nhỏ nhất để “\\(n^2-n+17\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"integers\">số nguyên</b> tố” sai.",
+   "options": [],
+   "answer": "17",
+   "explain_en": "Answer: 17, because \\(17^2-17+17=289=17^2\\).",
+   "explain_vi": "Đáp số: 17, vì \\(17^2-17+17=289=17^2\\).",
+   "images": [],
+   "id": "a014236ae17a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "How many integers \\(x\\) satisfy \\(-#\\le x\\le#\\) and \\(x^#\\lt#\\)?",
+   "en": "How many integers \\(x\\) satisfy \\(-5\\le x\\le5\\) and \\(x^2\\lt16\\)?",
+   "vi": "Có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"integers\">số nguyên</b> \\(x\\) thỏa \\(-5\\le x\\le5\\) và \\(x^2\\lt16\\)?",
+   "options": [],
+   "answer": "7",
+   "explain_en": "Answer: 7: \\(x=-3,\\dots,3\\).",
+   "explain_vi": "Đáp số: 7: \\(x=-3,\\dots,3\\).",
+   "images": [],
+   "id": "66d2fe7562cf",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Choose the true proposition.",
+   "en": "Choose the true proposition.",
+   "vi": "Hãy chọn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"proposition\">mệnh đề</b> đúng.",
+   "options": [
+    "\\(\\exists x\\in\\mathbb{Z},\\ 2x=4\\)",
+    "\\(\\forall x\\in\\mathbb{R},\\ x^2\\ge 4x\\)",
+    "\\(\\forall x\\in\\mathbb{R},\\ x^2\\gt 5\\)",
+    "\\(\\exists x\\in\\mathbb{Z},\\ 2x=5\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Check each statement: only the chosen one is true; for the others find a counterexample or show that no such number exists.",
+   "explain_vi": "Đáp án a. Kiểm tra từng phát biểu: chỉ phát biểu được chọn là đúng; với các phát biểu còn lại hãy chỉ ra <b class=\"mbl-term\" tabindex=\"0\" data-en=\"counterexample\">phản ví dụ</b> hoặc chứng tỏ không có số nào thỏa mãn.",
+   "images": [],
+   "id": "11401ffb3444",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Exactly one of these is a proposition. Which one?",
+   "en": "Exactly one of these is a proposition. Which one?",
+   "vi": "Chỉ có một câu là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"proposition\">mệnh đề</b>. Đó là câu nào?",
+   "options": [
+    "\\(3z\\gt 12\\)",
+    "\\(2a=b\\)",
+    "\\(2^{10}=1024\\)",
+    "\\(y^2\\lt 9\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(2^{10}=1024\\) has no variable, so it is true or false. The others contain a variable: their truth depends on its value.",
+   "explain_vi": "Đáp án c. \\(2^{10}=1024\\) không chứa biến nên chắc chắn đúng hoặc sai. Các câu còn lại chứa biến: tính đúng sai phụ thuộc giá trị của biến.",
+   "images": [],
+   "id": "621de559e248",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "How many of these four statements are true?(#) \\(\\exists n\\in\\mathbb{N},\\ n^#=#\\);(#) \\(\\forall x\\in\\mathbb{R},\\ x^#\\gt #\\);(#) \\(\\exists x\\in\\mathbb{Z},\\ #x=#\\);(#) \\(\\exists x\\in\\mathbb{R},\\ x^#=#\\).",
+   "en": "How many of these four statements are true?<br>(1) \\(\\exists n\\in\\mathbb{N},\\ n^2=29\\);<br>(2) \\(\\forall x\\in\\mathbb{R},\\ x^2\\gt 4\\);<br>(3) \\(\\exists x\\in\\mathbb{Z},\\ 2x=12\\);<br>(4) \\(\\exists x\\in\\mathbb{R},\\ x^2=1\\).",
+   "vi": "Trong bốn phát biểu sau có bao nhiêu phát biểu đúng?<br>(1) \\(\\exists n\\in\\mathbb{N},\\ n^2=29\\);<br>(2) \\(\\forall x\\in\\mathbb{R},\\ x^2\\gt 4\\);<br>(3) \\(\\exists x\\in\\mathbb{Z},\\ 2x=12\\);<br>(4) \\(\\exists x\\in\\mathbb{R},\\ x^2=1\\).",
+   "options": [
+    "\\(1\\)",
+    "\\(2\\)",
+    "\\(3\\)",
+    "\\(0\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Decide each statement separately: 2 of them are true.",
+   "explain_vi": "Đáp án b. Xét từng phát biểu: có 2 phát biểu đúng.",
+   "images": [],
+   "id": "f40b5fc7cbcc",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Which \\(\\Leftrightarrow\\) statement is always true?",
+   "en": "Which \\(\\Leftrightarrow\\) statement is always true?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"proposition\">Mệnh đề</b> \\(\\Leftrightarrow\\) nào luôn đúng?",
+   "options": [
+    "\\(x^2=36\\Leftrightarrow x=6\\)",
+    "\\(|x|\\lt 6\\Leftrightarrow x\\lt 6\\)",
+    "\\(6x\\gt 7\\Leftrightarrow x\\gt \\dfrac{7}{6}\\)",
+    "\\(x^2\\gt 36\\Leftrightarrow x\\gt 6\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The chosen equivalence holds for all real \\(x\\); each other option fails for some \\(x\\) (for example a negative value).",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equivalence\">Mệnh đề tương đương</b> được chọn đúng với mọi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"real numbers\">số thực</b> \\(x\\); mỗi phương án còn lại sai với một giá trị \\(x\\) nào đó (chẳng hạn một số âm).",
+   "images": [],
+   "id": "2c80b435ed32",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Which of the following is a true statement?",
+   "en": "Which of the following is a true statement?",
+   "vi": "Trong các phát biểu sau, phát biểu nào là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"proposition\">mệnh đề</b> đúng?",
+   "options": [
+    "\\(\\exists x\\in\\mathbb{R},\\ x^2=15\\)",
+    "\\(\\forall n\\in\\mathbb{N}^*,\\ n^2\\ge 3n\\)",
+    "\\(\\exists x\\in\\mathbb{R},\\ x^2=-3\\)",
+    "\\(\\forall n\\in\\mathbb{N}^*,\\ n^2\\ge 4n\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Check each statement: only the chosen one is true; for the others find a counterexample or show that no such number exists.",
+   "explain_vi": "Đáp án a. Kiểm tra từng phát biểu: chỉ phát biểu được chọn là đúng; với các phát biểu còn lại hãy chỉ ra <b class=\"mbl-term\" tabindex=\"0\" data-en=\"counterexample\">phản ví dụ</b> hoặc chứng tỏ không có số nào thỏa mãn.",
+   "images": [],
+   "id": "e39d959665cb",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Which of these implications has no counterexample?",
+   "en": "Which of these implications has no counterexample?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"implication\">Mệnh đề kéo theo</b> nào sau đây không có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"counterexample\">phản ví dụ</b>?",
+   "options": [
+    "\\(n\\,\\vdots\\,18\\Rightarrow n\\,\\vdots\\,3\\)",
+    "\\(n\\,\\vdots\\,3\\Rightarrow n\\,\\vdots\\,12\\)",
+    "\\(n\\,\\vdots\\,10\\Rightarrow n\\,\\vdots\\,4\\)",
+    "\\(n\\,\\vdots\\,15\\Rightarrow n\\,\\vdots\\,4\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(n\\,\\vdots\\,18\\Rightarrow n\\,\\vdots\\,3\\) is true because \\(18\\) is a multiple of \\(3\\). In the other options find a counterexample.",
+   "explain_vi": "Đáp án a. \\(n\\,\\vdots\\,18\\Rightarrow n\\,\\vdots\\,3\\) đúng vì \\(18\\) là bội của \\(3\\). Ở các phương án còn lại hãy tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"counterexample\">phản ví dụ</b>.",
+   "images": [],
+   "id": "80345e1821fc",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Write the negation of \\(\\forall n\\in\\mathbb{N},\\ n\\lt #\\).",
+   "en": "Write the negation of \\(\\forall n\\in\\mathbb{N},\\ n\\lt 1\\).",
+   "vi": "Phủ định của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"proposition\">mệnh đề</b> \\(\\forall n\\in\\mathbb{N},\\ n\\lt 1\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"proposition\">mệnh đề</b> nào?",
+   "options": [
+    "\\(\\exists n\\in\\mathbb{N},\\ n\\lt 1\\)",
+    "\\(\\forall n\\in\\mathbb{N},\\ n\\ge1\\)",
+    "\\(\\exists n\\in\\mathbb{N},\\ n\\ge1\\)",
+    "\\(\\forall n\\in\\mathbb{N},\\ n\\lt 1\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Swap \\(\\forall\\) and \\(\\exists\\), and negate the inequality: \\(\\exists n\\in\\mathbb{N},\\ n\\ge1\\).",
+   "explain_vi": "Đáp án c. Đổi \\(\\forall\\) thành \\(\\exists\\) (và ngược lại) rồi phủ định <b class=\"mbl-term\" tabindex=\"0\" data-en=\"inequality\">bất đẳng thức</b>: \\(\\exists n\\in\\mathbb{N},\\ n\\ge1\\).",
+   "images": [],
+   "id": "921f7bc2e4b1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Write the negation of \\(\\forall x\\in\\mathbb{Z},\\ x\\lt #\\).",
+   "en": "Write the negation of \\(\\forall x\\in\\mathbb{Z},\\ x\\lt 5\\).",
+   "vi": "Phủ định của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"proposition\">mệnh đề</b> \\(\\forall x\\in\\mathbb{Z},\\ x\\lt 5\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"proposition\">mệnh đề</b> nào?",
+   "options": [
+    "\\(\\exists x\\in\\mathbb{Z},\\ x\\ge5\\)",
+    "\\(\\exists x\\in\\mathbb{Z},\\ x\\lt 5\\)",
+    "\\(\\forall x\\in\\mathbb{Z},\\ x\\lt 5\\)",
+    "\\(\\forall x\\in\\mathbb{Z},\\ x\\ge5\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Swap \\(\\forall\\) and \\(\\exists\\), and negate the inequality: \\(\\exists x\\in\\mathbb{Z},\\ x\\ge5\\).",
+   "explain_vi": "Đáp án a. Đổi \\(\\forall\\) thành \\(\\exists\\) (và ngược lại) rồi phủ định <b class=\"mbl-term\" tabindex=\"0\" data-en=\"inequality\">bất đẳng thức</b>: \\(\\exists x\\in\\mathbb{Z},\\ x\\ge5\\).",
+   "images": [],
+   "id": "e0847851f474",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1029 @@
+{
+ "lesson": "g10-vec-02",
+ "grade": 10,
+ "no": 8,
+ "title": "Tổng và hiệu của hai vectơ",
+ "path": "lessons/grade10/vectors/vector-sum-difference.html",
+ "items": [
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "ABCD is a parallelogram. \\(\\overrightarrow{AB} + \\overrightarrow{AD}=\\)…",
+   "en": "ABCD is a parallelogram. \\(\\overrightarrow{AB} + \\overrightarrow{AD}=\\)…",
+   "vi": "ABCD là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelogram\">hình bình hành</b>. \\(\\overrightarrow{AB} + \\overrightarrow{AD}=\\)…",
+   "options": [
+    "\\(\\overrightarrow{AB}\\)",
+    "\\(\\overrightarrow{AC}\\)",
+    "\\(\\overrightarrow{AD}\\)",
+    "\\(\\overrightarrow{BA}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Use the parallelogram rule and equal opposite sides.",
+   "explain_vi": "Đáp án b. Dùng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelogram rule\">quy tắc hình bình hành</b> và các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"opposite side\">cạnh đối</b> bằng nhau.",
+   "images": [],
+   "id": "bb18eed704d0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "ABCD is a rectangle with AB = # and AD = #. \\(|\\overrightarrow{AB}-\\overrightarrow{AD}|=\\)…",
+   "en": "ABCD is a rectangle with AB = 6 and AD = 8. \\(|\\overrightarrow{AB}-\\overrightarrow{AD}|=\\)…",
+   "vi": "ABCD là hình chữ nhật có AB = 6, AD = 8. \\(|\\overrightarrow{AB}-\\overrightarrow{AD}|=\\)…",
+   "options": [
+    "\\(14\\)",
+    "\\(2\\)",
+    "\\(11\\)",
+    "\\(10\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\overrightarrow{AB}-\\overrightarrow{AD}=\\overrightarrow{DB}\\), a diagonal.",
+   "explain_vi": "Đáp án d. \\(\\overrightarrow{AB}-\\overrightarrow{AD}=\\overrightarrow{DB}\\), là một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b>.",
+   "images": [],
+   "id": "ff19017b625a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Simplify \\(\\overrightarrow{MN}+\\overrightarrow{NP}+\\overrightarrow{PQ}\\).",
+   "en": "Simplify \\(\\overrightarrow{MN}+\\overrightarrow{NP}+\\overrightarrow{PQ}\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"simplify\">Rút gọn</b> \\(\\overrightarrow{MN}+\\overrightarrow{NP}+\\overrightarrow{PQ}\\).",
+   "options": [
+    "\\(\\overrightarrow{MP}\\)",
+    "\\(\\overrightarrow{QM}\\)",
+    "\\(\\overrightarrow{MQ}\\)",
+    "\\(\\overrightarrow{NQ}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Triangle rule: \\(\\overrightarrow{MQ}\\).",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"triangle rule\">Quy tắc ba điểm</b>: \\(\\overrightarrow{MQ}\\).",
+   "images": [],
+   "id": "d8e5a17f275f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "For a regular hexagon ABCDEF with centre O: \\(\\overrightarrow{OA}+\\overrightarrow{OC}=\\overrightarrow{OB}\\).",
+   "en": "For a regular hexagon ABCDEF with centre O: \\(\\overrightarrow{OA}+\\overrightarrow{OC}=\\overrightarrow{OB}\\).",
+   "vi": "Với lục giác đều ABCDEF tâm O: \\(\\overrightarrow{OA}+\\overrightarrow{OC}=\\overrightarrow{OB}\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "The sum of two such vectors is the diagonal of a rhombus.",
+   "explain_vi": "Tổng hai vectơ đó là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b> của hình thoi dựng trên chúng.",
+   "images": [],
+   "id": "cf70e6a3236b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "In a parallelogram ABCD, \\(\\overrightarrow{AB}+\\overrightarrow{AD}=\\overrightarrow{AC}\\).",
+   "en": "In a parallelogram ABCD, \\(\\overrightarrow{AB}+\\overrightarrow{AD}=\\overrightarrow{AC}\\).",
+   "vi": "Trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelogram\">hình bình hành</b> ABCD, \\(\\overrightarrow{AB}+\\overrightarrow{AD}=\\overrightarrow{AC}\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "Check with the parallelogram rule.",
+   "explain_vi": "Kiểm tra bằng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelogram rule\">quy tắc hình bình hành</b>.",
+   "images": [],
+   "id": "684fb3aab0b1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "ABCD is a square with side #. Find \\(|\\overrightarrow{AB}+\\overrightarrow{AD}|^#\\).",
+   "en": "ABCD is a square with side 3. Find \\(|\\overrightarrow{AB}+\\overrightarrow{AD}|^2\\).",
+   "vi": "ABCD là hình vuông cạnh 3. Tính \\(|\\overrightarrow{AB}+\\overrightarrow{AD}|^2\\).",
+   "options": [],
+   "answer": "18",
+   "explain_en": "\\(\\overrightarrow{AB}+\\overrightarrow{AD}=\\overrightarrow{AC}\\), \\(AC^2=2a^2\\).",
+   "explain_vi": "\\(\\overrightarrow{AB}+\\overrightarrow{AD}=\\overrightarrow{AC}\\), \\(AC^2=2a^2\\).",
+   "images": [],
+   "id": "78d9b4b72eb4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "Two forces of # N and # N act at one point at a right angle. Find the resultant force (in N).",
+   "en": "Two forces of 6 N and 8 N act at one point at a right angle. Find the resultant force (in N).",
+   "vi": "Hai lực 6 N và 8 N tác dụng tại một điểm, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"perpendicular\">vuông góc</b> với nhau. Tìm độ lớn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"resultant force\">hợp lực</b> (đơn vị N).",
+   "options": [],
+   "answer": "10",
+   "explain_en": "Diagonal of the rectangle of forces.",
+   "explain_vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">Đường chéo</b> của hình chữ nhật lực.",
+   "images": [],
+   "id": "e6c0ce6984d2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "ABCD is a parallelogram. \\(\\overrightarrow{BC} - \\overrightarrow{BD}=\\)…",
+   "en": "ABCD is a parallelogram. \\(\\overrightarrow{BC} - \\overrightarrow{BD}=\\)…",
+   "vi": "ABCD là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelogram\">hình bình hành</b>. \\(\\overrightarrow{BC} - \\overrightarrow{BD}=\\)…",
+   "options": [
+    "\\(\\overrightarrow{DB}\\)",
+    "\\(\\overrightarrow{CD}\\)",
+    "\\(\\overrightarrow{AB}\\)",
+    "\\(\\overrightarrow{BC}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Use the parallelogram rule \\(\\overrightarrow{AB}+\\overrightarrow{AD}=\\overrightarrow{AC}\\) and equal opposite sides.",
+   "explain_vi": "Đáp án c. Dùng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelogram rule\">quy tắc hình bình hành</b> \\(\\overrightarrow{AB}+\\overrightarrow{AD}=\\overrightarrow{AC}\\) và các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"opposite side\">cạnh đối</b> bằng nhau.",
+   "images": [],
+   "id": "9b32781614cd",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "ABCD is a parallelogram. \\(\\overrightarrow{CB} - \\overrightarrow{CA}=\\)…",
+   "en": "ABCD is a parallelogram. \\(\\overrightarrow{CB} - \\overrightarrow{CA}=\\)…",
+   "vi": "ABCD là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelogram\">hình bình hành</b>. \\(\\overrightarrow{CB} - \\overrightarrow{CA}=\\)…",
+   "options": [
+    "\\(\\overrightarrow{AB}\\)",
+    "\\(\\overrightarrow{CB}\\)",
+    "\\(\\overrightarrow{BD}\\)",
+    "\\(\\overrightarrow{DB}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Use the parallelogram rule \\(\\overrightarrow{AB}+\\overrightarrow{AD}=\\overrightarrow{AC}\\) and equal opposite sides.",
+   "explain_vi": "Đáp án a. Dùng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelogram rule\">quy tắc hình bình hành</b> \\(\\overrightarrow{AB}+\\overrightarrow{AD}=\\overrightarrow{AC}\\) và các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"opposite side\">cạnh đối</b> bằng nhau.",
+   "images": [],
+   "id": "ac2785f8564e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "ABCD is a rectangle with AB = # and AD = #. Find \\(|\\overrightarrow{AB} - \\overrightarrow{AD}|\\).",
+   "en": "ABCD is a rectangle with AB = 5 and AD = 12. Find \\(|\\overrightarrow{AB} - \\overrightarrow{AD}|\\).",
+   "vi": "ABCD là hình chữ nhật có AB = 5, AD = 12. Tính \\(|\\overrightarrow{AB} - \\overrightarrow{AD}|\\).",
+   "options": [
+    "\\(14\\)",
+    "\\(17\\)",
+    "\\(13\\)",
+    "\\(7\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\overrightarrow{AB}-\\overrightarrow{AD}\\) has the length of a diagonal: \\(\\sqrt{5^2+12^2}=13\\).",
+   "explain_vi": "Đáp án c. \\(\\overrightarrow{AB}-\\overrightarrow{AD}\\) có độ dài bằng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b>: \\(\\sqrt{5^2+12^2}=13\\).",
+   "images": [],
+   "id": "f8b0816086b3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Simplify \\(\\overrightarrow{TW}-\\overrightarrow{TN}\\).",
+   "en": "Simplify \\(\\overrightarrow{TW}-\\overrightarrow{TN}\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"simplify\">Rút gọn</b> \\(\\overrightarrow{TW}-\\overrightarrow{TN}\\).",
+   "options": [
+    "\\(\\overrightarrow{TN}\\)",
+    "\\(\\overrightarrow{WN}\\)",
+    "\\(\\overrightarrow{NW}\\)",
+    "\\(\\overrightarrow{NT}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Use the triangle rule and \\(\\overrightarrow{XY}-\\overrightarrow{XZ}=\\overrightarrow{ZY}\\).",
+   "explain_vi": "Đáp án c. Dùng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"triangle rule\">quy tắc ba điểm</b> và \\(\\overrightarrow{XY}-\\overrightarrow{XZ}=\\overrightarrow{ZY}\\).",
+   "images": [],
+   "id": "8ff70efd5cac",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Simplify \\(\\overrightarrow{WQ}+\\overrightarrow{QS}+\\overrightarrow{SV}\\).",
+   "en": "Simplify \\(\\overrightarrow{WQ}+\\overrightarrow{QS}+\\overrightarrow{SV}\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"simplify\">Rút gọn</b> \\(\\overrightarrow{WQ}+\\overrightarrow{QS}+\\overrightarrow{SV}\\).",
+   "options": [
+    "\\(\\overrightarrow{QV}\\)",
+    "\\(\\overrightarrow{WV}\\)",
+    "\\(\\overrightarrow{VW}\\)",
+    "\\(\\overrightarrow{WS}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Use the triangle rule and \\(\\overrightarrow{XY}-\\overrightarrow{XZ}=\\overrightarrow{ZY}\\).",
+   "explain_vi": "Đáp án b. Dùng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"triangle rule\">quy tắc ba điểm</b> và \\(\\overrightarrow{XY}-\\overrightarrow{XZ}=\\overrightarrow{ZY}\\).",
+   "images": [],
+   "id": "f63373d65dd8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Two forces of # N and # N act at one point at a right angle. The resultant force is…",
+   "en": "Two forces of 35 N and 120 N act at one point at a right angle. The resultant force is…",
+   "vi": "Hai lực 35 N và 120 N cùng tác dụng lên một vật tại một điểm, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"perpendicular\">vuông góc</b> với nhau. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"resultant force\">Hợp lực</b> có độ lớn…",
+   "options": [
+    "\\(85\\ \\text{N}\\)",
+    "\\(125\\ \\text{N}\\)",
+    "\\(155\\ \\text{N}\\)",
+    "\\(120\\ \\text{N}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. The resultant is the diagonal of the rectangle: \\(\\sqrt{35^2+120^2}=125\\).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"resultant force\">Hợp lực</b> là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b> của hình chữ nhật: \\(\\sqrt{35^2+120^2}=125\\).",
+   "images": [],
+   "id": "c20ee4e8998d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(ABCDEF\\) is a regular hexagon with centre \\(O\\). \\(\\overrightarrow{OA}+\\overrightarrow{OE}=\\)…",
+   "en": "\\(ABCDEF\\) is a regular hexagon with centre \\(O\\). \\(\\overrightarrow{OA}+\\overrightarrow{OE}=\\)…",
+   "vi": "\\(ABCDEF\\) là lục giác đều tâm \\(O\\). \\(\\overrightarrow{OA}+\\overrightarrow{OE}=\\)…",
+   "options": [
+    "\\(\\overrightarrow{OA}\\)",
+    "\\(\\overrightarrow{OF}\\)",
+    "\\(\\overrightarrow{OB}\\)",
+    "\\(\\overrightarrow{FO}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. The sum is the diagonal of the rhombus built on \\(OA\\) and \\(OE\\).",
+   "explain_vi": "Đáp án b. Tổng là vectơ <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b> của hình thoi dựng trên hai vectơ \\(OA\\), \\(OE\\).",
+   "images": [],
+   "id": "d5b7563c9660",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(ABCDEF\\) is a regular hexagon with centre \\(O\\). \\(\\overrightarrow{OD}+\\overrightarrow{OB}=\\)…",
+   "en": "\\(ABCDEF\\) is a regular hexagon with centre \\(O\\). \\(\\overrightarrow{OD}+\\overrightarrow{OB}=\\)…",
+   "vi": "\\(ABCDEF\\) là lục giác đều tâm \\(O\\). \\(\\overrightarrow{OD}+\\overrightarrow{OB}=\\)…",
+   "options": [
+    "\\(\\overrightarrow{OB}\\)",
+    "\\(\\overrightarrow{OD}\\)",
+    "\\(\\overrightarrow{CO}\\)",
+    "\\(\\overrightarrow{OC}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. The sum is the diagonal of the rhombus built on \\(OD\\) and \\(OB\\).",
+   "explain_vi": "Đáp án d. Tổng là vectơ <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b> của hình thoi dựng trên hai vectơ \\(OD\\), \\(OB\\).",
+   "images": [],
+   "id": "ba767ea6d425",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "ABCD is a parallelogram. \\(\\overrightarrow{AC} - \\overrightarrow{AB}=\\)…",
+   "en": "ABCD is a parallelogram. \\(\\overrightarrow{AC} - \\overrightarrow{AB}=\\)…",
+   "vi": "ABCD là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelogram\">hình bình hành</b>. \\(\\overrightarrow{AC} - \\overrightarrow{AB}=\\)…",
+   "options": [
+    "\\(\\overrightarrow{AB}\\)",
+    "\\(\\overrightarrow{AD}\\)",
+    "\\(\\overrightarrow{AC}\\)",
+    "\\(\\overrightarrow{BA}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Use the parallelogram rule and equal opposite sides.",
+   "explain_vi": "Đáp án b. Dùng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelogram rule\">quy tắc hình bình hành</b> và các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"opposite side\">cạnh đối</b> bằng nhau.",
+   "images": [],
+   "id": "bd194e27b291",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "ABCD is a rectangle with AB = # and AD = #. \\(|\\overrightarrow{AB}-\\overrightarrow{AD}|=\\)…",
+   "en": "ABCD is a rectangle with AB = 5 and AD = 12. \\(|\\overrightarrow{AB}-\\overrightarrow{AD}|=\\)…",
+   "vi": "ABCD là hình chữ nhật có AB = 5, AD = 12. \\(|\\overrightarrow{AB}-\\overrightarrow{AD}|=\\)…",
+   "options": [
+    "\\(17\\)",
+    "\\(7\\)",
+    "\\(14\\)",
+    "\\(13\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\overrightarrow{AB}-\\overrightarrow{AD}=\\overrightarrow{DB}\\), a diagonal.",
+   "explain_vi": "Đáp án d. \\(\\overrightarrow{AB}-\\overrightarrow{AD}=\\overrightarrow{DB}\\), là một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b>.",
+   "images": [],
+   "id": "e06bd5cc39c9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Simplify \\(\\overrightarrow{RS}+\\overrightarrow{ST}+\\overrightarrow{TU}\\).",
+   "en": "Simplify \\(\\overrightarrow{RS}+\\overrightarrow{ST}+\\overrightarrow{TU}\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"simplify\">Rút gọn</b> \\(\\overrightarrow{RS}+\\overrightarrow{ST}+\\overrightarrow{TU}\\).",
+   "options": [
+    "\\(\\overrightarrow{RT}\\)",
+    "\\(\\overrightarrow{UR}\\)",
+    "\\(\\overrightarrow{RU}\\)",
+    "\\(\\overrightarrow{SU}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Triangle rule: \\(\\overrightarrow{RU}\\).",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"triangle rule\">Quy tắc ba điểm</b>: \\(\\overrightarrow{RU}\\).",
+   "images": [],
+   "id": "5b44c801d254",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "For a regular hexagon ABCDEF with centre O: \\(\\overrightarrow{OB}+\\overrightarrow{OD}=\\overrightarrow{OC}\\).",
+   "en": "For a regular hexagon ABCDEF with centre O: \\(\\overrightarrow{OB}+\\overrightarrow{OD}=\\overrightarrow{OC}\\).",
+   "vi": "Với lục giác đều ABCDEF tâm O: \\(\\overrightarrow{OB}+\\overrightarrow{OD}=\\overrightarrow{OC}\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "The sum of two such vectors is the diagonal of a rhombus.",
+   "explain_vi": "Tổng hai vectơ đó là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b> của hình thoi dựng trên chúng.",
+   "images": [],
+   "id": "5dac7e623876",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "In a parallelogram ABCD, \\(\\overrightarrow{AB}+\\overrightarrow{AD}=\\overrightarrow{BD}\\).",
+   "en": "In a parallelogram ABCD, \\(\\overrightarrow{AB}+\\overrightarrow{AD}=\\overrightarrow{BD}\\).",
+   "vi": "Trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelogram\">hình bình hành</b> ABCD, \\(\\overrightarrow{AB}+\\overrightarrow{AD}=\\overrightarrow{BD}\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "Check with the parallelogram rule.",
+   "explain_vi": "Kiểm tra bằng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelogram rule\">quy tắc hình bình hành</b>.",
+   "images": [],
+   "id": "8e12b73f7108",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "ABCD is a square with side #. Find \\(|\\overrightarrow{AB}+\\overrightarrow{AD}|^#\\).",
+   "en": "ABCD is a square with side 5. Find \\(|\\overrightarrow{AB}+\\overrightarrow{AD}|^2\\).",
+   "vi": "ABCD là hình vuông cạnh 5. Tính \\(|\\overrightarrow{AB}+\\overrightarrow{AD}|^2\\).",
+   "options": [],
+   "answer": "50",
+   "explain_en": "\\(\\overrightarrow{AB}+\\overrightarrow{AD}=\\overrightarrow{AC}\\), \\(AC^2=2a^2\\).",
+   "explain_vi": "\\(\\overrightarrow{AB}+\\overrightarrow{AD}=\\overrightarrow{AC}\\), \\(AC^2=2a^2\\).",
+   "images": [],
+   "id": "bc8c0c4107fd",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "Two forces of # N and # N act at one point at a right angle. Find the resultant force (in N).",
+   "en": "Two forces of 10 N and 24 N act at one point at a right angle. Find the resultant force (in N).",
+   "vi": "Hai lực 10 N và 24 N tác dụng tại một điểm, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"perpendicular\">vuông góc</b> với nhau. Tìm độ lớn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"resultant force\">hợp lực</b> (đơn vị N).",
+   "options": [],
+   "answer": "26",
+   "explain_en": "Diagonal of the rectangle of forces.",
+   "explain_vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">Đường chéo</b> của hình chữ nhật lực.",
+   "images": [],
+   "id": "5c1b72314939",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "ABCD is a parallelogram. \\(\\overrightarrow{BC} - \\overrightarrow{BA}=\\)…",
+   "en": "ABCD is a parallelogram. \\(\\overrightarrow{BC} - \\overrightarrow{BA}=\\)…",
+   "vi": "ABCD là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelogram\">hình bình hành</b>. \\(\\overrightarrow{BC} - \\overrightarrow{BA}=\\)…",
+   "options": [
+    "\\(\\overrightarrow{AC}\\)",
+    "\\(\\overrightarrow{DA}\\)",
+    "\\(\\overrightarrow{BD}\\)",
+    "\\(\\overrightarrow{DB}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Use the parallelogram rule \\(\\overrightarrow{AB}+\\overrightarrow{AD}=\\overrightarrow{AC}\\) and equal opposite sides.",
+   "explain_vi": "Đáp án a. Dùng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelogram rule\">quy tắc hình bình hành</b> \\(\\overrightarrow{AB}+\\overrightarrow{AD}=\\overrightarrow{AC}\\) và các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"opposite side\">cạnh đối</b> bằng nhau.",
+   "images": [],
+   "id": "9f812dde8757",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "ABCD is a parallelogram. \\(\\overrightarrow{CD} + \\overrightarrow{CB}=\\)…",
+   "en": "ABCD is a parallelogram. \\(\\overrightarrow{CD} + \\overrightarrow{CB}=\\)…",
+   "vi": "ABCD là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelogram\">hình bình hành</b>. \\(\\overrightarrow{CD} + \\overrightarrow{CB}=\\)…",
+   "options": [
+    "\\(\\overrightarrow{DC}\\)",
+    "\\(\\overrightarrow{AD}\\)",
+    "\\(\\overrightarrow{CB}\\)",
+    "\\(\\overrightarrow{CA}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Use the parallelogram rule \\(\\overrightarrow{AB}+\\overrightarrow{AD}=\\overrightarrow{AC}\\) and equal opposite sides.",
+   "explain_vi": "Đáp án d. Dùng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelogram rule\">quy tắc hình bình hành</b> \\(\\overrightarrow{AB}+\\overrightarrow{AD}=\\overrightarrow{AC}\\) và các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"opposite side\">cạnh đối</b> bằng nhau.",
+   "images": [],
+   "id": "ebcac755121c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "ABCD is a rectangle with AB = # and AD = #. Find \\(|\\overrightarrow{AB} + \\overrightarrow{AD}|\\).",
+   "en": "ABCD is a rectangle with AB = 3 and AD = 4. Find \\(|\\overrightarrow{AB} + \\overrightarrow{AD}|\\).",
+   "vi": "ABCD là hình chữ nhật có AB = 3, AD = 4. Tính \\(|\\overrightarrow{AB} + \\overrightarrow{AD}|\\).",
+   "options": [
+    "\\(1\\)",
+    "\\(7\\)",
+    "\\(6\\)",
+    "\\(5\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\overrightarrow{AB}+\\overrightarrow{AD}\\) has the length of a diagonal: \\(\\sqrt{3^2+4^2}=5\\).",
+   "explain_vi": "Đáp án d. \\(\\overrightarrow{AB}+\\overrightarrow{AD}\\) có độ dài bằng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b>: \\(\\sqrt{3^2+4^2}=5\\).",
+   "images": [],
+   "id": "7ecca2833018",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Simplify \\(\\overrightarrow{QR}+\\overrightarrow{RV}-\\overrightarrow{PV}\\).",
+   "en": "Simplify \\(\\overrightarrow{QR}+\\overrightarrow{RV}-\\overrightarrow{PV}\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"simplify\">Rút gọn</b> \\(\\overrightarrow{QR}+\\overrightarrow{RV}-\\overrightarrow{PV}\\).",
+   "options": [
+    "\\(\\overrightarrow{PQ}\\)",
+    "\\(\\overrightarrow{QP}\\)",
+    "\\(\\overrightarrow{VP}\\)",
+    "\\(\\overrightarrow{QV}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Use the triangle rule and \\(\\overrightarrow{XY}-\\overrightarrow{XZ}=\\overrightarrow{ZY}\\).",
+   "explain_vi": "Đáp án b. Dùng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"triangle rule\">quy tắc ba điểm</b> và \\(\\overrightarrow{XY}-\\overrightarrow{XZ}=\\overrightarrow{ZY}\\).",
+   "images": [],
+   "id": "72853d52553c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Simplify \\(\\overrightarrow{TU}+\\overrightarrow{UW}+\\overrightarrow{WV}\\).",
+   "en": "Simplify \\(\\overrightarrow{TU}+\\overrightarrow{UW}+\\overrightarrow{WV}\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"simplify\">Rút gọn</b> \\(\\overrightarrow{TU}+\\overrightarrow{UW}+\\overrightarrow{WV}\\).",
+   "options": [
+    "\\(\\overrightarrow{TV}\\)",
+    "\\(\\overrightarrow{UV}\\)",
+    "\\(\\overrightarrow{VT}\\)",
+    "\\(\\overrightarrow{TW}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Use the triangle rule and \\(\\overrightarrow{XY}-\\overrightarrow{XZ}=\\overrightarrow{ZY}\\).",
+   "explain_vi": "Đáp án a. Dùng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"triangle rule\">quy tắc ba điểm</b> và \\(\\overrightarrow{XY}-\\overrightarrow{XZ}=\\overrightarrow{ZY}\\).",
+   "images": [],
+   "id": "5d681b5b1392",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Two forces of # N and # N act at one point at a right angle. The resultant force is…",
+   "en": "Two forces of 12 N and 16 N act at one point at a right angle. The resultant force is…",
+   "vi": "Hai lực 12 N và 16 N cùng tác dụng lên một vật tại một điểm, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"perpendicular\">vuông góc</b> với nhau. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"resultant force\">Hợp lực</b> có độ lớn…",
+   "options": [
+    "\\(20\\ \\text{N}\\)",
+    "\\(28\\ \\text{N}\\)",
+    "\\(16\\ \\text{N}\\)",
+    "\\(4\\ \\text{N}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. The resultant is the diagonal of the rectangle: \\(\\sqrt{12^2+16^2}=20\\).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"resultant force\">Hợp lực</b> là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b> của hình chữ nhật: \\(\\sqrt{12^2+16^2}=20\\).",
+   "images": [],
+   "id": "12ec443b11b4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(ABCDEF\\) is a regular hexagon with centre \\(O\\). \\(\\overrightarrow{OC}+\\overrightarrow{OA}=\\)…",
+   "en": "\\(ABCDEF\\) is a regular hexagon with centre \\(O\\). \\(\\overrightarrow{OC}+\\overrightarrow{OA}=\\)…",
+   "vi": "\\(ABCDEF\\) là lục giác đều tâm \\(O\\). \\(\\overrightarrow{OC}+\\overrightarrow{OA}=\\)…",
+   "options": [
+    "\\(\\overrightarrow{OA}\\)",
+    "\\(\\overrightarrow{OE}\\)",
+    "\\(\\overrightarrow{OB}\\)",
+    "\\(\\overrightarrow{OD}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The sum is the diagonal of the rhombus built on \\(OC\\) and \\(OA\\).",
+   "explain_vi": "Đáp án c. Tổng là vectơ <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b> của hình thoi dựng trên hai vectơ \\(OC\\), \\(OA\\).",
+   "images": [],
+   "id": "b9afac6dd731",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(ABCDEF\\) is a regular hexagon with centre \\(O\\). \\(\\overrightarrow{OC}+\\overrightarrow{OE}=\\)…",
+   "en": "\\(ABCDEF\\) is a regular hexagon with centre \\(O\\). \\(\\overrightarrow{OC}+\\overrightarrow{OE}=\\)…",
+   "vi": "\\(ABCDEF\\) là lục giác đều tâm \\(O\\). \\(\\overrightarrow{OC}+\\overrightarrow{OE}=\\)…",
+   "options": [
+    "\\(\\overrightarrow{OD}\\)",
+    "\\(\\overrightarrow{OF}\\)",
+    "\\(\\overrightarrow{OA}\\)",
+    "\\(\\overrightarrow{OB}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. The sum is the diagonal of the rhombus built on \\(OC\\) and \\(OE\\).",
+   "explain_vi": "Đáp án a. Tổng là vectơ <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b> của hình thoi dựng trên hai vectơ \\(OC\\), \\(OE\\).",
+   "images": [],
+   "id": "507393e9d18e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "ABCD is a parallelogram. \\(\\overrightarrow{DB} - \\overrightarrow{DA}=\\)…",
+   "en": "ABCD is a parallelogram. \\(\\overrightarrow{DB} - \\overrightarrow{DA}=\\)…",
+   "vi": "ABCD là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelogram\">hình bình hành</b>. \\(\\overrightarrow{DB} - \\overrightarrow{DA}=\\)…",
+   "options": [
+    "\\(\\overrightarrow{AC}\\)",
+    "\\(\\overrightarrow{AB}\\)",
+    "\\(\\overrightarrow{AD}\\)",
+    "\\(\\overrightarrow{BA}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Use the parallelogram rule and equal opposite sides.",
+   "explain_vi": "Đáp án b. Dùng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelogram rule\">quy tắc hình bình hành</b> và các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"opposite side\">cạnh đối</b> bằng nhau.",
+   "images": [],
+   "id": "79a1188e2508",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "ABCD is a rectangle with AB = # and AD = #. \\(|\\overrightarrow{AB}-\\overrightarrow{AD}|=\\)…",
+   "en": "ABCD is a rectangle with AB = 8 and AD = 15. \\(|\\overrightarrow{AB}-\\overrightarrow{AD}|=\\)…",
+   "vi": "ABCD là hình chữ nhật có AB = 8, AD = 15. \\(|\\overrightarrow{AB}-\\overrightarrow{AD}|=\\)…",
+   "options": [
+    "\\(23\\)",
+    "\\(7\\)",
+    "\\(18\\)",
+    "\\(17\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\overrightarrow{AB}-\\overrightarrow{AD}=\\overrightarrow{DB}\\), a diagonal.",
+   "explain_vi": "Đáp án d. \\(\\overrightarrow{AB}-\\overrightarrow{AD}=\\overrightarrow{DB}\\), là một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b>.",
+   "images": [],
+   "id": "5c9fe3af0f83",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Simplify \\(\\overrightarrow{EF}+\\overrightarrow{FG}+\\overrightarrow{GH}\\).",
+   "en": "Simplify \\(\\overrightarrow{EF}+\\overrightarrow{FG}+\\overrightarrow{GH}\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"simplify\">Rút gọn</b> \\(\\overrightarrow{EF}+\\overrightarrow{FG}+\\overrightarrow{GH}\\).",
+   "options": [
+    "\\(\\overrightarrow{EG}\\)",
+    "\\(\\overrightarrow{HE}\\)",
+    "\\(\\overrightarrow{EH}\\)",
+    "\\(\\overrightarrow{FH}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Triangle rule: \\(\\overrightarrow{EH}\\).",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"triangle rule\">Quy tắc ba điểm</b>: \\(\\overrightarrow{EH}\\).",
+   "images": [],
+   "id": "e9a571aa9e15",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "For a regular hexagon ABCDEF with centre O: \\(\\overrightarrow{OA}+\\overrightarrow{OD}=\\overrightarrow{OC}\\).",
+   "en": "For a regular hexagon ABCDEF with centre O: \\(\\overrightarrow{OA}+\\overrightarrow{OD}=\\overrightarrow{OC}\\).",
+   "vi": "Với lục giác đều ABCDEF tâm O: \\(\\overrightarrow{OA}+\\overrightarrow{OD}=\\overrightarrow{OC}\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "The sum of two such vectors is the diagonal of a rhombus.",
+   "explain_vi": "Tổng hai vectơ đó là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b> của hình thoi dựng trên chúng.",
+   "images": [],
+   "id": "5bbcc60bc8ba",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "In a parallelogram ABCD, \\(\\overrightarrow{AC}-\\overrightarrow{AD}=\\overrightarrow{DC}\\).",
+   "en": "In a parallelogram ABCD, \\(\\overrightarrow{AC}-\\overrightarrow{AD}=\\overrightarrow{DC}\\).",
+   "vi": "Trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelogram\">hình bình hành</b> ABCD, \\(\\overrightarrow{AC}-\\overrightarrow{AD}=\\overrightarrow{DC}\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "Check with the parallelogram rule.",
+   "explain_vi": "Kiểm tra bằng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelogram rule\">quy tắc hình bình hành</b>.",
+   "images": [],
+   "id": "f64293fcb9b4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "ABCD is a square with side #. Find \\(|\\overrightarrow{AB}+\\overrightarrow{AD}|^#\\).",
+   "en": "ABCD is a square with side 7. Find \\(|\\overrightarrow{AB}+\\overrightarrow{AD}|^2\\).",
+   "vi": "ABCD là hình vuông cạnh 7. Tính \\(|\\overrightarrow{AB}+\\overrightarrow{AD}|^2\\).",
+   "options": [],
+   "answer": "98",
+   "explain_en": "\\(\\overrightarrow{AB}+\\overrightarrow{AD}=\\overrightarrow{AC}\\), \\(AC^2=2a^2\\).",
+   "explain_vi": "\\(\\overrightarrow{AB}+\\overrightarrow{AD}=\\overrightarrow{AC}\\), \\(AC^2=2a^2\\).",
+   "images": [],
+   "id": "15788747f3dd",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Two forces of # N and # N act at one point at a right angle. Find the resultant force (in N).",
+   "en": "Two forces of 24 N and 45 N act at one point at a right angle. Find the resultant force (in N).",
+   "vi": "Hai lực 24 N và 45 N tác dụng tại một điểm, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"perpendicular\">vuông góc</b> với nhau. Tìm độ lớn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"resultant force\">hợp lực</b> (đơn vị N).",
+   "options": [],
+   "answer": "51",
+   "explain_en": "Diagonal of the rectangle of forces.",
+   "explain_vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">Đường chéo</b> của hình chữ nhật lực.",
+   "images": [],
+   "id": "ff1f76c7d0ba",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "ABCD is a parallelogram. \\(\\overrightarrow{BA} - \\overrightarrow{BD}=\\)…",
+   "en": "ABCD is a parallelogram. \\(\\overrightarrow{BA} - \\overrightarrow{BD}=\\)…",
+   "vi": "ABCD là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelogram\">hình bình hành</b>. \\(\\overrightarrow{BA} - \\overrightarrow{BD}=\\)…",
+   "options": [
+    "\\(\\overrightarrow{BA}\\)",
+    "\\(\\overrightarrow{DB}\\)",
+    "\\(\\overrightarrow{CB}\\)",
+    "\\(\\overrightarrow{DC}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Use the parallelogram rule \\(\\overrightarrow{AB}+\\overrightarrow{AD}=\\overrightarrow{AC}\\) and equal opposite sides.",
+   "explain_vi": "Đáp án c. Dùng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelogram rule\">quy tắc hình bình hành</b> \\(\\overrightarrow{AB}+\\overrightarrow{AD}=\\overrightarrow{AC}\\) và các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"opposite side\">cạnh đối</b> bằng nhau.",
+   "images": [],
+   "id": "9a60ed45b6f5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "ABCD is a parallelogram. \\(\\overrightarrow{DA} - \\overrightarrow{DB}=\\)…",
+   "en": "ABCD is a parallelogram. \\(\\overrightarrow{DA} - \\overrightarrow{DB}=\\)…",
+   "vi": "ABCD là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelogram\">hình bình hành</b>. \\(\\overrightarrow{DA} - \\overrightarrow{DB}=\\)…",
+   "options": [
+    "\\(\\overrightarrow{CB}\\)",
+    "\\(\\overrightarrow{BD}\\)",
+    "\\(\\overrightarrow{BA}\\)",
+    "\\(\\overrightarrow{AD}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Use the parallelogram rule \\(\\overrightarrow{AB}+\\overrightarrow{AD}=\\overrightarrow{AC}\\) and equal opposite sides.",
+   "explain_vi": "Đáp án c. Dùng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelogram rule\">quy tắc hình bình hành</b> \\(\\overrightarrow{AB}+\\overrightarrow{AD}=\\overrightarrow{AC}\\) và các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"opposite side\">cạnh đối</b> bằng nhau.",
+   "images": [],
+   "id": "b3b3f74dcc10",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "ABCD is a rectangle with AB = # and AD = #. Find \\(|\\overrightarrow{AB} + \\overrightarrow{AD}|\\).",
+   "en": "ABCD is a rectangle with AB = 8 and AD = 15. Find \\(|\\overrightarrow{AB} + \\overrightarrow{AD}|\\).",
+   "vi": "ABCD là hình chữ nhật có AB = 8, AD = 15. Tính \\(|\\overrightarrow{AB} + \\overrightarrow{AD}|\\).",
+   "options": [
+    "\\(7\\)",
+    "\\(17\\)",
+    "\\(23\\)",
+    "\\(18\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\overrightarrow{AB}+\\overrightarrow{AD}\\) has the length of a diagonal: \\(\\sqrt{8^2+15^2}=17\\).",
+   "explain_vi": "Đáp án b. \\(\\overrightarrow{AB}+\\overrightarrow{AD}\\) có độ dài bằng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b>: \\(\\sqrt{8^2+15^2}=17\\).",
+   "images": [],
+   "id": "9113a324ff18",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Simplify \\(\\overrightarrow{MV}-\\overrightarrow{MQ}\\).",
+   "en": "Simplify \\(\\overrightarrow{MV}-\\overrightarrow{MQ}\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"simplify\">Rút gọn</b> \\(\\overrightarrow{MV}-\\overrightarrow{MQ}\\).",
+   "options": [
+    "\\(\\overrightarrow{QV}\\)",
+    "\\(\\overrightarrow{VQ}\\)",
+    "\\(\\overrightarrow{QM}\\)",
+    "\\(\\overrightarrow{MQ}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Use the triangle rule and \\(\\overrightarrow{XY}-\\overrightarrow{XZ}=\\overrightarrow{ZY}\\).",
+   "explain_vi": "Đáp án a. Dùng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"triangle rule\">quy tắc ba điểm</b> và \\(\\overrightarrow{XY}-\\overrightarrow{XZ}=\\overrightarrow{ZY}\\).",
+   "images": [],
+   "id": "c6b02f973e0e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Simplify \\(\\overrightarrow{RP}-\\overrightarrow{RW}\\).",
+   "en": "Simplify \\(\\overrightarrow{RP}-\\overrightarrow{RW}\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"simplify\">Rút gọn</b> \\(\\overrightarrow{RP}-\\overrightarrow{RW}\\).",
+   "options": [
+    "\\(\\overrightarrow{WR}\\)",
+    "\\(\\overrightarrow{PW}\\)",
+    "\\(\\overrightarrow{WP}\\)",
+    "\\(\\overrightarrow{RW}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Use the triangle rule and \\(\\overrightarrow{XY}-\\overrightarrow{XZ}=\\overrightarrow{ZY}\\).",
+   "explain_vi": "Đáp án c. Dùng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"triangle rule\">quy tắc ba điểm</b> và \\(\\overrightarrow{XY}-\\overrightarrow{XZ}=\\overrightarrow{ZY}\\).",
+   "images": [],
+   "id": "6f85f45820b4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Two forces of # N and # N act at one point at a right angle. The resultant force is…",
+   "en": "Two forces of 400 N and 420 N act at one point at a right angle. The resultant force is…",
+   "vi": "Hai lực 400 N và 420 N cùng tác dụng lên một vật tại một điểm, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"perpendicular\">vuông góc</b> với nhau. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"resultant force\">Hợp lực</b> có độ lớn…",
+   "options": [
+    "\\(420\\ \\text{N}\\)",
+    "\\(580\\ \\text{N}\\)",
+    "\\(20\\ \\text{N}\\)",
+    "\\(820\\ \\text{N}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. The resultant is the diagonal of the rectangle: \\(\\sqrt{400^2+420^2}=580\\).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"resultant force\">Hợp lực</b> là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b> của hình chữ nhật: \\(\\sqrt{400^2+420^2}=580\\).",
+   "images": [],
+   "id": "8911b3ceeb8b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(ABCDEF\\) is a regular hexagon with centre \\(O\\). \\(\\overrightarrow{OB}+\\overrightarrow{OF}=\\)…",
+   "en": "\\(ABCDEF\\) is a regular hexagon with centre \\(O\\). \\(\\overrightarrow{OB}+\\overrightarrow{OF}=\\)…",
+   "vi": "\\(ABCDEF\\) là lục giác đều tâm \\(O\\). \\(\\overrightarrow{OB}+\\overrightarrow{OF}=\\)…",
+   "options": [
+    "\\(\\overrightarrow{AO}\\)",
+    "\\(\\overrightarrow{OB}\\)",
+    "\\(\\overrightarrow{OE}\\)",
+    "\\(\\overrightarrow{OA}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. The sum is the diagonal of the rhombus built on \\(OB\\) and \\(OF\\).",
+   "explain_vi": "Đáp án d. Tổng là vectơ <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b> của hình thoi dựng trên hai vectơ \\(OB\\), \\(OF\\).",
+   "images": [],
+   "id": "556b6b2ef49c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(ABCDEF\\) is a regular hexagon with centre \\(O\\). \\(\\overrightarrow{OF}+\\overrightarrow{OD}=\\)…",
+   "en": "\\(ABCDEF\\) is a regular hexagon with centre \\(O\\). \\(\\overrightarrow{OF}+\\overrightarrow{OD}=\\)…",
+   "vi": "\\(ABCDEF\\) là lục giác đều tâm \\(O\\). \\(\\overrightarrow{OF}+\\overrightarrow{OD}=\\)…",
+   "options": [
+    "\\(\\overrightarrow{EO}\\)",
+    "\\(\\overrightarrow{OF}\\)",
+    "\\(\\overrightarrow{OC}\\)",
+    "\\(\\overrightarrow{OE}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. The sum is the diagonal of the rhombus built on \\(OF\\) and \\(OD\\).",
+   "explain_vi": "Đáp án d. Tổng là vectơ <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b> của hình thoi dựng trên hai vectơ \\(OF\\), \\(OD\\).",
+   "images": [],
+   "id": "e58a96d03289",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  }
+ ]
+}

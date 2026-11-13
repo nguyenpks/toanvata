@@ -1,0 +1,1017 @@
+{
+ "lesson": "g11-sequences-01",
+ "grade": 11,
+ "no": 5,
+ "title": "Dãy số",
+ "path": "lessons/grade11/sequences/sequences.html",
+ "items": [
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "A sequence has \\(u_n=#n-#\\). What is \\(u_#\\)?",
+   "en": "A sequence has \\(u_n=3n-2\\). What is \\(u_4\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"sequence\">Dãy số</b> có \\(u_n=3n-2\\). Tính \\(u_4\\).",
+   "options": [
+    "\\(7\\)",
+    "\\(10\\)",
+    "\\(12\\)",
+    "\\(14\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(3\\cdot4-2=10\\).",
+   "explain_vi": "Đáp án b. \\(3\\cdot4-2=10\\).",
+   "images": [],
+   "id": "35f5fedaae2f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Which describes \\(u_n=n+#\\)?",
+   "en": "Which describes \\(u_n=n+3\\)?",
+   "vi": "Dãy \\(u_n=n+3\\) là dãy nào?",
+   "options": [
+    "\\(increasing\\)",
+    "\\(decreasing\\)",
+    "\\(neither\\)",
+    "\\(constant\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(u_{n+1}-u_n=1>0\\).",
+   "explain_vi": "Đáp án a. \\(u_{n+1}-u_n=1>0\\).",
+   "images": [],
+   "id": "cf6aca3f4682",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(u_#=#,\\ u_{n+#}=u_n+#\\). What is \\(u_#\\)?",
+   "en": "\\(u_1=2,\\ u_{n+1}=u_n+3\\). What is \\(u_4\\)?",
+   "vi": "\\(u_1=2,\\ u_{n+1}=u_n+3\\). Tính \\(u_4\\).",
+   "options": [
+    "\\(8\\)",
+    "\\(9\\)",
+    "\\(11\\)",
+    "\\(14\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(2,5,8,11\\).",
+   "explain_vi": "Đáp án c. \\(2,5,8,11\\).",
+   "images": [],
+   "id": "a65b27840f48",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "The sequence \\(u_n=#n-#\\) is increasing.",
+   "en": "The sequence \\(u_n=2n-1\\) is increasing.",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"sequence\">Dãy số</b> \\(u_n=2n-1\\) là dãy tăng.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True: \\(u_{n+1}-u_n=2>0\\).",
+   "explain_vi": "Đúng: \\(u_{n+1}-u_n=2>0\\).",
+   "images": [],
+   "id": "ab4a52e0cb5b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "The sequence \\(u_n=n^#\\) is bounded above.",
+   "en": "The sequence \\(u_n=n^2\\) is bounded above.",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"sequence\">Dãy số</b> \\(u_n=n^2\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"bounded above\">bị chặn trên</b>.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False: \\(n^2\\) grows without limit.",
+   "explain_vi": "Sai: \\(n^2\\) lớn tùy ý.",
+   "images": [],
+   "id": "ccead2a407cc",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "For \\(u_n=#n-#\\), which n gives \\(u_n=#\\)?",
+   "en": "For \\(u_n=3n-2\\), which n gives \\(u_n=25\\)?",
+   "vi": "Với \\(u_n=3n-2\\), n bằng bao nhiêu để \\(u_n=25\\)?",
+   "options": [],
+   "answer": "9",
+   "explain_en": "Answer: 9: \\(3n-2=25\\Rightarrow n=9\\).",
+   "explain_vi": "Đáp số: 9: \\(3n-2=25\\Rightarrow n=9\\).",
+   "images": [],
+   "id": "c18161bece08",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "\\(u_#=#,\\ u_{n+#}=u_n+#\\). Find \\(u_#\\).",
+   "en": "\\(u_1=1,\\ u_{n+1}=u_n+4\\). Find \\(u_5\\).",
+   "vi": "\\(u_1=1,\\ u_{n+1}=u_n+4\\). Tìm \\(u_5\\).",
+   "options": [],
+   "answer": "17",
+   "explain_en": "Answer: 17: \\(1,5,9,13,17\\).",
+   "explain_vi": "Đáp số: 17: \\(1,5,9,13,17\\).",
+   "images": [],
+   "id": "13cc4beb386b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "A pond has \\(#\\) fish at first. Each year the number of fish grows by \\(#\\%\\), then \\(#\\) fish are caught. So \\(u_#=#\\), \\(u_{n+#}=#\\,u_n-#\\). Find \\(u_{#}\\).",
+   "en": "A pond has \\(340\\) fish at first. Each year the number of fish grows by \\(100\\%\\), then \\(20\\) fish are caught. So \\(u_1=340\\), \\(u_{n+1}=2\\,u_n-20\\). Find \\(u_{4}\\).",
+   "vi": "Một ao có \\(340\\) con cá lúc đầu. Mỗi năm số cá tăng \\(100\\%\\), sau đó người ta bắt \\(20\\) con. Khi đó \\(u_1=340\\), \\(u_{n+1}=2\\,u_n-20\\). Tính \\(u_{4}\\).",
+   "options": [
+    "\\(2720\\)",
+    "\\(5140\\)",
+    "\\(2580\\)",
+    "\\(1300\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(u_1=340;\\ u_2=660;\\ u_3=1300;\\ u_4=2580\\).",
+   "explain_vi": "Đáp án c. \\(u_1=340;\\ u_2=660;\\ u_3=1300;\\ u_4=2580\\).",
+   "images": [],
+   "id": "d60b2c639028",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Find the largest term of the sequence \\(u_n=-n^#+#n+#\\).",
+   "en": "Find the largest term of the sequence \\(u_n=-n^2+9n+3\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">số hạng</b> lớn nhất của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sequence\">dãy số</b> \\(u_n=-n^2+9n+3\\).",
+   "options": [
+    "\\(11\\)",
+    "\\(21\\)",
+    "\\(23\\)",
+    "\\(3\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The parabola has its vertex at \\(n=4.5\\); the nearest positive integer gives \\(u_{4}=23\\).",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parabola\">Parabol</b> có đỉnh tại \\(n=4{,}5\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"integers\">số nguyên</b> dương gần nhất cho \\(u_{4}=23\\).",
+   "images": [],
+   "id": "85baa4530b29",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "For which values of \\(a\\) is the sequence \\(u_n=\\dfrac{an-#}{n+#}\\) increasing?",
+   "en": "For which values of \\(a\\) is the sequence \\(u_n=\\dfrac{an-3}{n+3}\\) increasing?",
+   "vi": "Với giá trị nào của \\(a\\) thì <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sequence\">dãy số</b> \\(u_n=\\dfrac{an-3}{n+3}\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"increasing sequence\">dãy số tăng</b>?",
+   "options": [
+    "\\(a\\gt 0\\)",
+    "\\(a\\lt -1\\)",
+    "\\(a\\gt 1\\)",
+    "\\(a\\gt -1\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(u_{n+1}-u_n=\\dfrac{3a+3}{(n+3)(n+4)}\\gt0\\iff a\\gt -1\\).",
+   "explain_vi": "Đáp án d. \\(u_{n+1}-u_n=\\dfrac{3a+3}{(n+3)(n+4)}\\gt0\\iff a\\gt -1\\).",
+   "images": [],
+   "id": "dba832c8221e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "How many terms of the sequence \\(u_n=n^#-#n+#\\) are negative?",
+   "en": "How many terms of the sequence \\(u_n=n^2-16n+46\\) are negative?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"sequence\">Dãy số</b> \\(u_n=n^2-16n+46\\) có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">số hạng</b> âm?",
+   "options": [
+    "\\(10\\)",
+    "\\(11\\)",
+    "\\(9\\)",
+    "\\(8\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(u_n\\lt0\\) for the integers \\(n\\) strictly between the roots of \\(x^2-16x+46\\); there are \\(9\\) of them.",
+   "explain_vi": "Đáp án c. \\(u_n\\lt0\\) với các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"integers\">số nguyên</b> \\(n\\) nằm giữa hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b> của \\(x^2-16x+46\\); có \\(9\\) số như vậy.",
+   "images": [],
+   "id": "cb64b0ba4ea3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Matchsticks are used to make rows of squares as in the figure; \\(u_n\\) is the number of matchsticks in pattern \\(n\\). Find \\(u_{#}\\).",
+   "en": "Matchsticks are used to make rows of squares as in the figure; \\(u_n\\) is the number of matchsticks in pattern \\(n\\). Find \\(u_{15}\\).<img src=\"../../../img/tex/72871f0ea98c2962.svg\" alt=\"Matchstick patterns\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,360px);height:auto\">",
+   "vi": "Dùng que diêm xếp thành dãy các hình vuông như hình vẽ; \\(u_n\\) là số que diêm ở hình thứ \\(n\\). Tính \\(u_{15}\\).<img src=\"../../../img/tex/72871f0ea98c2962.svg\" alt=\"Các hình xếp bằng que diêm\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,360px);height:auto\">",
+   "options": [
+    "\\(46\\)",
+    "\\(60\\)",
+    "\\(45\\)",
+    "\\(49\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(u_1=4\\) and each new square adds 3 sticks: \\(u_n=3n+1\\), so \\(u_{15}=46\\).",
+   "explain_vi": "Đáp án a. \\(u_1=4\\) và mỗi hình vuông mới thêm 3 que: \\(u_n=3n+1\\) nên \\(u_{15}=46\\).",
+   "images": [
+    "img/tex/72871f0ea98c2962.svg"
+   ],
+   "id": "bd1f84d89008",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The figure shows the points \\((n;\\,u_n)\\) for the first five terms of a sequence \\((u_n)\\). Which formula can be the general term?",
+   "en": "The figure shows the points \\((n;\\,u_n)\\) for the first five terms of a sequence \\((u_n)\\). Which formula can be the general term?<img src=\"../../../img/tex/f83eaabd05314841.svg\" alt=\"Points of a sequence\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,330px);height:auto\">",
+   "vi": "Hình vẽ biểu diễn các điểm \\((n;\\,u_n)\\) ứng với năm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">số hạng</b> đầu của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sequence\">dãy số</b> \\((u_n)\\). Công thức nào có thể là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"general term\">số hạng tổng quát</b>?<img src=\"../../../img/tex/f83eaabd05314841.svg\" alt=\"Các điểm biểu diễn dãy số\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,330px);height:auto\">",
+   "options": [
+    "\\(u_n=(-1)^{n+1}\\cdot 2\\)",
+    "\\(u_n=7-2n\\)",
+    "\\(u_n=3n-2\\)",
+    "\\(u_n=2n-1\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. The figure gives \\(1;\\ 3;\\ 5;\\ 7;\\ 9\\); only \\(u_n=2n-1\\) gives these values.",
+   "explain_vi": "Đáp án d. Hình vẽ cho \\(1;\\ 3;\\ 5;\\ 7;\\ 9\\); chỉ \\(u_n=2n-1\\) cho đúng các giá trị này.",
+   "images": [
+    "img/tex/f83eaabd05314841.svg"
+   ],
+   "id": "583724daac0a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The sequence has \\(u_n=\\dfrac{#}{(n+#)(n+#)}\\). Find \\(S=u_#+u_#+\\dots+u_{#}\\).",
+   "en": "The sequence has \\(u_n=\\dfrac{1}{(n+1)(n+2)}\\). Find \\(S=u_1+u_2+\\dots+u_{7}\\).",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sequence\">dãy số</b> \\(u_n=\\dfrac{1}{(n+1)(n+2)}\\). Tính \\(S=u_1+u_2+\\dots+u_{7}\\).",
+   "options": [
+    "\\(\\dfrac{7}{9}\\)",
+    "\\(\\dfrac{7}{18}\\)",
+    "\\(\\dfrac{6}{7}\\)",
+    "\\(\\dfrac{29}{72}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(u_n=\\dfrac1{n+1}-\\dfrac1{n+2}\\), so the sum telescopes: \\(S=\\dfrac12-\\dfrac{1}{9}=\\dfrac{7}{18}\\).",
+   "explain_vi": "Đáp án b. \\(u_n=\\dfrac1{n+1}-\\dfrac1{n+2}\\) nên các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">số hạng</b> triệt tiêu dần: \\(S=\\dfrac12-\\dfrac{1}{9}=\\dfrac{7}{18}\\).",
+   "images": [],
+   "id": "7046a1c963df",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Which number is a term of the sequence \\(u_n=#n-#\\)?",
+   "en": "Which number is a term of the sequence \\(u_n=5n-3\\)?",
+   "vi": "Số nào là một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">số hạng</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sequence\">dãy số</b> \\(u_n=5n-3\\)?",
+   "options": [
+    "\\(26\\)",
+    "\\(29\\)",
+    "\\(27\\)",
+    "\\(20\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(u_{6}=27\\); the other numbers do not equal \\(u_n\\) for any positive integer \\(n\\).",
+   "explain_vi": "Đáp án c. \\(u_{6}=27\\); các số còn lại không bằng \\(u_n\\) với <b class=\"mbl-term\" tabindex=\"0\" data-en=\"integers\">số nguyên</b> dương \\(n\\) nào.",
+   "images": [],
+   "id": "9179f0b7daaa",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "A sequence has \\(u_n=n^#+#\\). What is \\(u_#\\)?",
+   "en": "A sequence has \\(u_n=n^2+1\\). What is \\(u_5\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"sequence\">Dãy số</b> có \\(u_n=n^2+1\\). Tính \\(u_5\\).",
+   "options": [
+    "\\(10\\)",
+    "\\(25\\)",
+    "\\(26\\)",
+    "\\(36\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(25+1=26\\).",
+   "explain_vi": "Đáp án c. \\(25+1=26\\).",
+   "images": [],
+   "id": "f544e2945775",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Which describes \\(u_n=\\dfrac#n\\)?",
+   "en": "Which describes \\(u_n=\\dfrac1n\\)?",
+   "vi": "Dãy \\(u_n=\\dfrac1n\\) là dãy nào?",
+   "options": [
+    "\\(increasing\\)",
+    "\\(decreasing\\)",
+    "\\(neither\\)",
+    "\\(constant\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(u_{n+1}-u_n=-\\dfrac{1}{n(n+1)}\\lt 0\\).",
+   "explain_vi": "Đáp án b. \\(u_{n+1}-u_n=-\\dfrac{1}{n(n+1)}\\lt 0\\).",
+   "images": [],
+   "id": "38a6ada4129b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(u_#=#,\\ u_{n+#}=#u_n+#\\). What is \\(u_#\\)?",
+   "en": "\\(u_1=1,\\ u_{n+1}=2u_n+1\\). What is \\(u_4\\)?",
+   "vi": "\\(u_1=1,\\ u_{n+1}=2u_n+1\\). Tính \\(u_4\\).",
+   "options": [
+    "\\(7\\)",
+    "\\(9\\)",
+    "\\(15\\)",
+    "\\(31\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(1,3,7,15\\).",
+   "explain_vi": "Đáp án c. \\(1,3,7,15\\).",
+   "images": [],
+   "id": "99cfa555d274",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "The sequence \\(u_n=\\dfrac#n\\) is bounded.",
+   "en": "The sequence \\(u_n=\\dfrac1n\\) is bounded.",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"sequence\">Dãy số</b> \\(u_n=\\dfrac1n\\) bị chặn.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True: \\(0\\lt u_n\\le1\\).",
+   "explain_vi": "Đúng: \\(0\\lt u_n\\le1\\).",
+   "images": [],
+   "id": "d59ba706a36a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "The sequence \\(u_n=\\dfrac{n}{n+#}\\) is decreasing.",
+   "en": "The sequence \\(u_n=\\dfrac{n}{n+1}\\) is decreasing.",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"sequence\">Dãy số</b> \\(u_n=\\dfrac{n}{n+1}\\) là dãy giảm.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False: it is increasing, \\(u_{n+1}-u_n=\\dfrac{1}{(n+1)(n+2)}>0\\).",
+   "explain_vi": "Sai: nó là dãy tăng, \\(u_{n+1}-u_n=\\dfrac{1}{(n+1)(n+2)}>0\\).",
+   "images": [],
+   "id": "5e000e0789d6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "For \\(u_n=#n+#\\), which n gives \\(u_n=#\\)?",
+   "en": "For \\(u_n=2n+5\\), which n gives \\(u_n=31\\)?",
+   "vi": "Với \\(u_n=2n+5\\), n bằng bao nhiêu để \\(u_n=31\\)?",
+   "options": [],
+   "answer": "13",
+   "explain_en": "Answer: 13: \\(2n+5=31\\Rightarrow n=13\\).",
+   "explain_vi": "Đáp số: 13: \\(2n+5=31\\Rightarrow n=13\\).",
+   "images": [],
+   "id": "4cae361ffe4e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "\\(u_#=#,\\ u_{n+#}=#u_n\\). Find \\(u_#\\).",
+   "en": "\\(u_1=3,\\ u_{n+1}=2u_n\\). Find \\(u_4\\).",
+   "vi": "\\(u_1=3,\\ u_{n+1}=2u_n\\). Tìm \\(u_4\\).",
+   "options": [],
+   "answer": "24",
+   "explain_en": "Answer: 24: \\(3,6,12,24\\).",
+   "explain_vi": "Đáp số: 24: \\(3,6,12,24\\).",
+   "images": [],
+   "id": "d9b5022fa129",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "A pond has \\(#\\) fish at first. Each year the number of fish grows by \\(#\\%\\), then \\(#\\) fish are caught. So \\(u_#=#\\), \\(u_{n+#}=#\\,u_n-#\\). Find \\(u_{#}\\).",
+   "en": "A pond has \\(280\\) fish at first. Each year the number of fish grows by \\(100\\%\\), then \\(150\\) fish are caught. So \\(u_1=280\\), \\(u_{n+1}=2\\,u_n-150\\). Find \\(u_{3}\\).",
+   "vi": "Một ao có \\(280\\) con cá lúc đầu. Mỗi năm số cá tăng \\(100\\%\\), sau đó người ta bắt \\(150\\) con. Khi đó \\(u_1=280\\), \\(u_{n+1}=2\\,u_n-150\\). Tính \\(u_{3}\\).",
+   "options": [
+    "\\(670\\)",
+    "\\(1190\\)",
+    "\\(410\\)",
+    "\\(1120\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(u_1=280;\\ u_2=410;\\ u_3=670\\).",
+   "explain_vi": "Đáp án a. \\(u_1=280;\\ u_2=410;\\ u_3=670\\).",
+   "images": [],
+   "id": "8649596979d8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Find the largest term of the sequence \\(u_n=-n^#+#n+#\\).",
+   "en": "Find the largest term of the sequence \\(u_n=-n^2+7n+7\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">số hạng</b> lớn nhất của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sequence\">dãy số</b> \\(u_n=-n^2+7n+7\\).",
+   "options": [
+    "\\(17\\)",
+    "\\(19\\)",
+    "\\(13\\)",
+    "\\(7\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. The parabola has its vertex at \\(n=3.5\\); the nearest positive integer gives \\(u_{3}=19\\).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parabola\">Parabol</b> có đỉnh tại \\(n=3{,}5\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"integers\">số nguyên</b> dương gần nhất cho \\(u_{3}=19\\).",
+   "images": [],
+   "id": "ec03e8a52e9a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "For which values of \\(a\\) is the sequence \\(u_n=\\dfrac{an+#}{n+#}\\) increasing?",
+   "en": "For which values of \\(a\\) is the sequence \\(u_n=\\dfrac{an+2}{n+2}\\) increasing?",
+   "vi": "Với giá trị nào của \\(a\\) thì <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sequence\">dãy số</b> \\(u_n=\\dfrac{an+2}{n+2}\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"increasing sequence\">dãy số tăng</b>?",
+   "options": [
+    "\\(a\\gt 0\\)",
+    "\\(a\\gt -1\\)",
+    "\\(a\\gt 1\\)",
+    "\\(a\\lt 1\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(u_{n+1}-u_n=\\dfrac{2a-2}{(n+2)(n+3)}\\gt0\\iff a\\gt 1\\).",
+   "explain_vi": "Đáp án c. \\(u_{n+1}-u_n=\\dfrac{2a-2}{(n+2)(n+3)}\\gt0\\iff a\\gt 1\\).",
+   "images": [],
+   "id": "d90c779fad8b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "How many terms of the sequence \\(u_n=n^#-#n+#\\) are negative?",
+   "en": "How many terms of the sequence \\(u_n=n^2-6n+5\\) are negative?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"sequence\">Dãy số</b> \\(u_n=n^2-6n+5\\) có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">số hạng</b> âm?",
+   "options": [
+    "\\(3\\)",
+    "\\(5\\)",
+    "\\(2\\)",
+    "\\(4\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(u_n\\lt0\\) for the integers \\(n\\) strictly between the roots of \\(x^2-6x+5\\); there are \\(3\\) of them.",
+   "explain_vi": "Đáp án a. \\(u_n\\lt0\\) với các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"integers\">số nguyên</b> \\(n\\) nằm giữa hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b> của \\(x^2-6x+5\\); có \\(3\\) số như vậy.",
+   "images": [],
+   "id": "0d85e82aaff1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Matchsticks are used to make rows of triangles as in the figure; \\(u_n\\) is the number of matchsticks in pattern \\(n\\). Find \\(u_{#}\\).",
+   "en": "Matchsticks are used to make rows of triangles as in the figure; \\(u_n\\) is the number of matchsticks in pattern \\(n\\). Find \\(u_{29}\\).<img src=\"../../../img/tex/479ceb9c74dcb125.svg\" alt=\"Matchstick patterns\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,360px);height:auto\">",
+   "vi": "Dùng que diêm xếp thành dãy các tam giác như hình vẽ; \\(u_n\\) là số que diêm ở hình thứ \\(n\\). Tính \\(u_{29}\\).<img src=\"../../../img/tex/479ceb9c74dcb125.svg\" alt=\"Các hình xếp bằng que diêm\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,360px);height:auto\">",
+   "options": [
+    "\\(59\\)",
+    "\\(87\\)",
+    "\\(58\\)",
+    "\\(61\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(u_1=3\\) and each new triangle adds 2 sticks: \\(u_n=2n+1\\), so \\(u_{29}=59\\).",
+   "explain_vi": "Đáp án a. \\(u_1=3\\) và mỗi tam giác mới thêm 2 que: \\(u_n=2n+1\\) nên \\(u_{29}=59\\).",
+   "images": [
+    "img/tex/479ceb9c74dcb125.svg"
+   ],
+   "id": "2175dbc17d1a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The first five terms of \\((u_n)\\) are shown as points \\((n;\\,u_n)\\). Which general term fits?",
+   "en": "The first five terms of \\((u_n)\\) are shown as points \\((n;\\,u_n)\\). Which general term fits?<img src=\"../../../img/tex/93af1bed00c40b02.svg\" alt=\"Points of a sequence\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,330px);height:auto\">",
+   "vi": "Năm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">số hạng</b> đầu của dãy \\((u_n)\\) được biểu diễn bởi các điểm \\((n;\\,u_n)\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"general term\">Số hạng tổng quát</b> nào phù hợp?<img src=\"../../../img/tex/93af1bed00c40b02.svg\" alt=\"Các điểm biểu diễn dãy số\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,330px);height:auto\">",
+   "options": [
+    "\\(u_n=2n-1\\)",
+    "\\(u_n=(-1)^n n\\)",
+    "\\(u_n=6-n\\)",
+    "\\(u_n=2^{n-1}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The figure gives \\(5;\\ 4;\\ 3;\\ 2;\\ 1\\); only \\(u_n=6-n\\) gives these values.",
+   "explain_vi": "Đáp án c. Hình vẽ cho \\(5;\\ 4;\\ 3;\\ 2;\\ 1\\); chỉ \\(u_n=6-n\\) cho đúng các giá trị này.",
+   "images": [
+    "img/tex/93af1bed00c40b02.svg"
+   ],
+   "id": "9d62e755fc0b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The sequence has \\(u_n=\\dfrac{#}{(n+#)(n+#)}\\). Find \\(S=u_#+u_#+\\dots+u_{#}\\).",
+   "en": "The sequence has \\(u_n=\\dfrac{1}{(n+1)(n+2)}\\). Find \\(S=u_1+u_2+\\dots+u_{10}\\).",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sequence\">dãy số</b> \\(u_n=\\dfrac{1}{(n+1)(n+2)}\\). Tính \\(S=u_1+u_2+\\dots+u_{10}\\).",
+   "options": [
+    "\\(\\dfrac{5}{12}\\)",
+    "\\(\\dfrac{9}{10}\\)",
+    "\\(\\dfrac{14}{33}\\)",
+    "\\(\\dfrac{5}{6}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(u_n=\\dfrac1{n+1}-\\dfrac1{n+2}\\), so the sum telescopes: \\(S=\\dfrac12-\\dfrac{1}{12}=\\dfrac{5}{12}\\).",
+   "explain_vi": "Đáp án a. \\(u_n=\\dfrac1{n+1}-\\dfrac1{n+2}\\) nên các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">số hạng</b> triệt tiêu dần: \\(S=\\dfrac12-\\dfrac{1}{12}=\\dfrac{5}{12}\\).",
+   "images": [],
+   "id": "6c69e350baf7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Which number is a term of the sequence \\(u_n=#n+#\\)?",
+   "en": "Which number is a term of the sequence \\(u_n=3n+2\\)?",
+   "vi": "Số nào là một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">số hạng</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sequence\">dãy số</b> \\(u_n=3n+2\\)?",
+   "options": [
+    "\\(39\\)",
+    "\\(40\\)",
+    "\\(46\\)",
+    "\\(38\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(u_{12}=38\\); the other numbers do not equal \\(u_n\\) for any positive integer \\(n\\).",
+   "explain_vi": "Đáp án d. \\(u_{12}=38\\); các số còn lại không bằng \\(u_n\\) với <b class=\"mbl-term\" tabindex=\"0\" data-en=\"integers\">số nguyên</b> dương \\(n\\) nào.",
+   "images": [],
+   "id": "c70cb1d7f8a8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "A sequence has \\(u_n=#^n-#\\). What is \\(u_#\\)?",
+   "en": "A sequence has \\(u_n=2^n-1\\). What is \\(u_5\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"sequence\">Dãy số</b> có \\(u_n=2^n-1\\). Tính \\(u_5\\).",
+   "options": [
+    "\\(9\\)",
+    "\\(15\\)",
+    "\\(31\\)",
+    "\\(63\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(32-1=31\\).",
+   "explain_vi": "Đáp án c. \\(32-1=31\\).",
+   "images": [],
+   "id": "a900905a7302",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Which describes \\(u_n=(-#)^n\\)?",
+   "en": "Which describes \\(u_n=(-1)^n\\)?",
+   "vi": "Dãy \\(u_n=(-1)^n\\) là dãy nào?",
+   "options": [
+    "\\(increasing\\)",
+    "\\(decreasing\\)",
+    "\\(neither increasing nor decreasing\\)",
+    "\\(constant\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The terms are \\(-1,1,-1,1,\\dots\\)",
+   "explain_vi": "Đáp án c. Các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">số hạng</b> là \\(-1,1,-1,1,\\dots\\)",
+   "images": [],
+   "id": "9effef3b05f4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(u_#=#,\\ u_{n+#}=#u_n-#\\). What is \\(u_#\\)?",
+   "en": "\\(u_1=2,\\ u_{n+1}=3u_n-1\\). What is \\(u_4\\)?",
+   "vi": "\\(u_1=2,\\ u_{n+1}=3u_n-1\\). Tính \\(u_4\\).",
+   "options": [
+    "\\(14\\)",
+    "\\(27\\)",
+    "\\(41\\)",
+    "\\(122\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(2,5,14,41\\).",
+   "explain_vi": "Đáp án c. \\(2,5,14,41\\).",
+   "images": [],
+   "id": "8c240665dc75",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "The sequence \\(u_n=(-#)^n\\) is bounded.",
+   "en": "The sequence \\(u_n=(-1)^n\\) is bounded.",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"sequence\">Dãy số</b> \\(u_n=(-1)^n\\) bị chặn.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True: \\(-1\\le u_n\\le1\\).",
+   "explain_vi": "Đúng: \\(-1\\le u_n\\le1\\).",
+   "images": [],
+   "id": "76b1b0c2a3e5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "The sequence \\(u_n=-n\\) is bounded above.",
+   "en": "The sequence \\(u_n=-n\\) is bounded above.",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"sequence\">Dãy số</b> \\(u_n=-n\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"bounded above\">bị chặn trên</b>.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True: \\(u_n\\le-1\\) for every n.",
+   "explain_vi": "Đúng: \\(u_n\\le-1\\) với mọi n.",
+   "images": [],
+   "id": "1f313a5690cb",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Fibonacci: \\(u_#=u_#=#,\\ u_{n+#}=u_{n+#}+u_n\\). Find \\(u_#\\).",
+   "en": "Fibonacci: \\(u_1=u_2=1,\\ u_{n+2}=u_{n+1}+u_n\\). Find \\(u_7\\).",
+   "vi": "Dãy Fibonacci: \\(u_1=u_2=1,\\ u_{n+2}=u_{n+1}+u_n\\). Tìm \\(u_7\\).",
+   "options": [],
+   "answer": "13",
+   "explain_en": "Answer: 13: \\(1,1,2,3,5,8,13\\).",
+   "explain_vi": "Đáp số: 13: \\(1,1,2,3,5,8,13\\).",
+   "images": [],
+   "id": "afd41b7d63ed",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "For \\(u_n=n^#-#\\), which positive n gives \\(u_n=#\\)?",
+   "en": "For \\(u_n=n^2-1\\), which positive n gives \\(u_n=80\\)?",
+   "vi": "Với \\(u_n=n^2-1\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"integers\">số nguyên</b> dương n nào cho \\(u_n=80\\)?",
+   "options": [],
+   "answer": "9",
+   "explain_en": "Answer: 9: \\(n^2=81\\).",
+   "explain_vi": "Đáp số: 9: \\(n^2=81\\).",
+   "images": [],
+   "id": "92b30bfefb8a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "A pond has \\(#\\) fish at first. Each year the number of fish grows by \\(#\\%\\), then \\(#\\) fish are caught. So \\(u_#=#\\), \\(u_{n+#}=#\\,u_n-#\\). Find \\(u_{#}\\).",
+   "en": "A pond has \\(160\\) fish at first. Each year the number of fish grows by \\(100\\%\\), then \\(30\\) fish are caught. So \\(u_1=160\\), \\(u_{n+1}=2\\,u_n-30\\). Find \\(u_{4}\\).",
+   "vi": "Một ao có \\(160\\) con cá lúc đầu. Mỗi năm số cá tăng \\(100\\%\\), sau đó người ta bắt \\(30\\) con. Khi đó \\(u_1=160\\), \\(u_{n+1}=2\\,u_n-30\\). Tính \\(u_{4}\\).",
+   "options": [
+    "\\(550\\)",
+    "\\(1280\\)",
+    "\\(2110\\)",
+    "\\(1070\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(u_1=160;\\ u_2=290;\\ u_3=550;\\ u_4=1070\\).",
+   "explain_vi": "Đáp án d. \\(u_1=160;\\ u_2=290;\\ u_3=550;\\ u_4=1070\\).",
+   "images": [],
+   "id": "d65267677c6a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Find the smallest term of the sequence \\(u_n=n^#-#n+#\\).",
+   "en": "Find the smallest term of the sequence \\(u_n=n^2-12n+7\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">số hạng</b> nhỏ nhất của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sequence\">dãy số</b> \\(u_n=n^2-12n+7\\).",
+   "options": [
+    "\\(-29\\)",
+    "\\(-28\\)",
+    "\\(7\\)",
+    "\\(-4\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. The parabola has its vertex at \\(n=6\\); the nearest positive integer gives \\(u_{6}=-29\\).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parabola\">Parabol</b> có đỉnh tại \\(n=6\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"integers\">số nguyên</b> dương gần nhất cho \\(u_{6}=-29\\).",
+   "images": [],
+   "id": "826e1950dd54",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "For which values of \\(a\\) is the sequence \\(u_n=\\dfrac{an+#}{n+#}\\) increasing?",
+   "en": "For which values of \\(a\\) is the sequence \\(u_n=\\dfrac{an+6}{n+3}\\) increasing?",
+   "vi": "Với giá trị nào của \\(a\\) thì <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sequence\">dãy số</b> \\(u_n=\\dfrac{an+6}{n+3}\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"increasing sequence\">dãy số tăng</b>?",
+   "options": [
+    "\\(a\\gt 0\\)",
+    "\\(a\\gt 2\\)",
+    "\\(a\\lt 2\\)",
+    "\\(a\\gt -2\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(u_{n+1}-u_n=\\dfrac{3a-6}{(n+3)(n+4)}\\gt0\\iff a\\gt 2\\).",
+   "explain_vi": "Đáp án b. \\(u_{n+1}-u_n=\\dfrac{3a-6}{(n+3)(n+4)}\\gt0\\iff a\\gt 2\\).",
+   "images": [],
+   "id": "bbac71a01acb",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "How many terms of the sequence \\(u_n=n^#-#n+#\\) are negative?",
+   "en": "How many terms of the sequence \\(u_n=n^2-12n+26\\) are negative?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"sequence\">Dãy số</b> \\(u_n=n^2-12n+26\\) có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">số hạng</b> âm?",
+   "options": [
+    "\\(7\\)",
+    "\\(9\\)",
+    "\\(6\\)",
+    "\\(8\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(u_n\\lt0\\) for the integers \\(n\\) strictly between the roots of \\(x^2-12x+26\\); there are \\(7\\) of them.",
+   "explain_vi": "Đáp án a. \\(u_n\\lt0\\) với các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"integers\">số nguyên</b> \\(n\\) nằm giữa hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b> của \\(x^2-12x+26\\); có \\(7\\) số như vậy.",
+   "images": [],
+   "id": "9d1ac022b8d5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Matchsticks are used to make rows of triangles as in the figure; \\(u_n\\) is the number of matchsticks in pattern \\(n\\). Find \\(u_{#}\\).",
+   "en": "Matchsticks are used to make rows of triangles as in the figure; \\(u_n\\) is the number of matchsticks in pattern \\(n\\). Find \\(u_{10}\\).<img src=\"../../../img/tex/479ceb9c74dcb125.svg\" alt=\"Matchstick patterns\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,360px);height:auto\">",
+   "vi": "Dùng que diêm xếp thành dãy các tam giác như hình vẽ; \\(u_n\\) là số que diêm ở hình thứ \\(n\\). Tính \\(u_{10}\\).<img src=\"../../../img/tex/479ceb9c74dcb125.svg\" alt=\"Các hình xếp bằng que diêm\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,360px);height:auto\">",
+   "options": [
+    "\\(23\\)",
+    "\\(30\\)",
+    "\\(21\\)",
+    "\\(20\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(u_1=3\\) and each new triangle adds 2 sticks: \\(u_n=2n+1\\), so \\(u_{10}=21\\).",
+   "explain_vi": "Đáp án c. \\(u_1=3\\) và mỗi tam giác mới thêm 2 que: \\(u_n=2n+1\\) nên \\(u_{10}=21\\).",
+   "images": [
+    "img/tex/479ceb9c74dcb125.svg"
+   ],
+   "id": "774612f68486",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Read the first five terms from the figure. Which formula gives \\(u_n\\)?",
+   "en": "Read the first five terms from the figure. Which formula gives \\(u_n\\)?<img src=\"../../../img/tex/dcda5b429811b86c.svg\" alt=\"Points of a sequence\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,330px);height:auto\">",
+   "vi": "Đọc năm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">số hạng</b> đầu từ hình vẽ. Công thức nào cho \\(u_n\\)?<img src=\"../../../img/tex/dcda5b429811b86c.svg\" alt=\"Các điểm biểu diễn dãy số\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,330px);height:auto\">",
+   "options": [
+    "\\(u_n=2n-1\\)",
+    "\\(u_n=\\dfrac{12}{n}\\)",
+    "\\(u_n=(-1)^n n\\)",
+    "\\(u_n=2^{n-1}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. The figure gives \\(1;\\ 2;\\ 4;\\ 8;\\ 16\\); only \\(u_n=2^{n-1}\\) gives these values.",
+   "explain_vi": "Đáp án d. Hình vẽ cho \\(1;\\ 2;\\ 4;\\ 8;\\ 16\\); chỉ \\(u_n=2^{n-1}\\) cho đúng các giá trị này.",
+   "images": [
+    "img/tex/dcda5b429811b86c.svg"
+   ],
+   "id": "6642601f07b8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The sequence has \\(u_n=\\dfrac{#}{(n+#)(n+#)}\\). Find \\(S=u_#+u_#+\\dots+u_{#}\\).",
+   "en": "The sequence has \\(u_n=\\dfrac{1}{(n+1)(n+2)}\\). Find \\(S=u_1+u_2+\\dots+u_{4}\\).",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sequence\">dãy số</b> \\(u_n=\\dfrac{1}{(n+1)(n+2)}\\). Tính \\(S=u_1+u_2+\\dots+u_{4}\\).",
+   "options": [
+    "\\(\\dfrac{2}{3}\\)",
+    "\\(\\dfrac{11}{30}\\)",
+    "\\(\\dfrac{1}{3}\\)",
+    "\\(\\dfrac{3}{4}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(u_n=\\dfrac1{n+1}-\\dfrac1{n+2}\\), so the sum telescopes: \\(S=\\dfrac12-\\dfrac{1}{6}=\\dfrac{1}{3}\\).",
+   "explain_vi": "Đáp án c. \\(u_n=\\dfrac1{n+1}-\\dfrac1{n+2}\\) nên các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">số hạng</b> triệt tiêu dần: \\(S=\\dfrac12-\\dfrac{1}{6}=\\dfrac{1}{3}\\).",
+   "images": [],
+   "id": "f4c85afa6a34",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Which number is a term of the sequence \\(u_n=n(n+#)\\)?",
+   "en": "Which number is a term of the sequence \\(u_n=n(n+2)\\)?",
+   "vi": "Số nào là một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">số hạng</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sequence\">dãy số</b> \\(u_n=n(n+2)\\)?",
+   "options": [
+    "\\(141\\)",
+    "\\(144\\)",
+    "\\(143\\)",
+    "\\(145\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(u_{11}=143\\); the other numbers do not equal \\(u_n\\) for any positive integer \\(n\\).",
+   "explain_vi": "Đáp án c. \\(u_{11}=143\\); các số còn lại không bằng \\(u_n\\) với <b class=\"mbl-term\" tabindex=\"0\" data-en=\"integers\">số nguyên</b> dương \\(n\\) nào.",
+   "images": [],
+   "id": "31f9fc5eee22",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  }
+ ]
+}

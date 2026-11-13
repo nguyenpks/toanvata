@@ -1,0 +1,1029 @@
+{
+ "lesson": "g10-vec-05",
+ "grade": 10,
+ "no": 11,
+ "title": "Tích vô hướng của hai vectơ",
+ "path": "lessons/grade10/vectors/dot-product.html",
+ "items": [
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "The angle between \\(\\vec u=(#;\\,#)\\) and \\(\\vec v=(#;\\,#)\\) is…",
+   "en": "The angle between \\(\\vec u=(1;\\,0)\\) and \\(\\vec v=(2;\\,2)\\) is…",
+   "vi": "Góc giữa \\(\\vec u=(1;\\,0)\\) và \\(\\vec v=(2;\\,2)\\) bằng…",
+   "options": [
+    "\\(90^\\circ\\)",
+    "\\(45^\\circ\\)",
+    "\\(135^\\circ\\)",
+    "\\(60^\\circ\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\cos(\\vec u,\\vec v)=\\dfrac{2}{\\sqrt{1}\\cdot\\sqrt{8}}\\).",
+   "explain_vi": "Đáp án b. \\(\\cos(\\vec u,\\vec v)=\\dfrac{2}{\\sqrt{1}\\cdot\\sqrt{8}}\\).",
+   "images": [],
+   "id": "15b72edc493b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Triangle \\(ABC\\) is equilateral with side \\(#\\). Then \\(\\overrightarrow{AB}\\cdot\\overrightarrow{AC}=\\)…",
+   "en": "Triangle \\(ABC\\) is equilateral with side \\(6\\). Then \\(\\overrightarrow{AB}\\cdot\\overrightarrow{AC}=\\)…",
+   "vi": "Tam giác \\(ABC\\) đều cạnh \\(6\\). Khi đó \\(\\overrightarrow{AB}\\cdot\\overrightarrow{AC}=\\)…",
+   "options": [
+    "\\(-18\\)",
+    "\\(18\\)",
+    "\\(36\\)",
+    "\\(9\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. The angle between the vectors is \\(60^\\circ\\): \\(6^2\\cos60^\\circ=18\\).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"angle between vectors\">Góc giữa hai vectơ</b> là \\(60^\\circ\\): \\(6^2\\cos60^\\circ=18\\).",
+   "images": [],
+   "id": "fdf878e4fd4f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(\\vec a=(#;\\,#)\\), \\(\\vec b=(#;\\,-#)\\). Then \\(\\vec a\\cdot\\vec b=\\)…",
+   "en": "\\(\\vec a=(2;\\,3)\\), \\(\\vec b=(4;\\,-1)\\). Then \\(\\vec a\\cdot\\vec b=\\)…",
+   "vi": "Cho \\(\\vec a=(2;\\,3)\\), \\(\\vec b=(4;\\,-1)\\). Khi đó \\(\\vec a\\cdot\\vec b=\\)…",
+   "options": [
+    "\\(10\\)",
+    "\\(-5\\)",
+    "\\(11\\)",
+    "\\(5\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(xx'+yy'=5\\).",
+   "explain_vi": "Đáp án d. \\(xx'+yy'=5\\).",
+   "images": [],
+   "id": "1285fe315721",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "Three posts of a fence are at \\(A(#;\\,#)\\), \\(B(#;\\,#)\\), \\(C(-#;\\,#)\\). The angle \\(\\widehat{BAC}\\) is a right angle.",
+   "en": "Three posts of a fence are at \\(A(0;\\,0)\\), \\(B(4;\\,1)\\), \\(C(-1;\\,4)\\). The angle \\(\\widehat{BAC}\\) is a right angle.",
+   "vi": "Ba cọc rào ở \\(A(0;\\,0)\\), \\(B(4;\\,1)\\), \\(C(-1;\\,4)\\). Góc \\(\\widehat{BAC}\\) là góc vuông.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "\\(\\overrightarrow{AB}\\cdot\\overrightarrow{AC}=0\\), so the angle is a right angle.",
+   "explain_vi": "\\(\\overrightarrow{AB}\\cdot\\overrightarrow{AC}=0\\) nên góc vuông.",
+   "images": [],
+   "id": "fe5e2ff71333",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(|\\vec a|=#\\), \\(|\\vec b|=#\\), \\((\\vec a,\\vec b)=#^\\circ\\). Then \\(|\\vec a+\\vec b|=#\\).",
+   "en": "\\(|\\vec a|=3\\), \\(|\\vec b|=5\\), \\((\\vec a,\\vec b)=60^\\circ\\). Then \\(|\\vec a+\\vec b|=7\\).",
+   "vi": "Cho \\(|\\vec a|=3\\), \\(|\\vec b|=5\\), \\((\\vec a,\\vec b)=60^\\circ\\). Khi đó \\(|\\vec a+\\vec b|=7\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "\\(|\\vec a+\\vec b|^2=9+25+2\\cdot3\\cdot5\\cos60^\\circ=49\\), so \\(|\\vec a+\\vec b|=7\\).",
+   "explain_vi": "\\(|\\vec a+\\vec b|^2=9+25+2\\cdot3\\cdot5\\cos60^\\circ=49\\) nên \\(|\\vec a+\\vec b|=7\\).",
+   "images": [],
+   "id": "60bfa8cf7870",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "A sled is pulled with force \\(\\vec F=(#;\\,#)\\) (newtons) and moves by \\(\\vec d=(#;\\,#)\\) (metres). Find the work \\(A=\\vec F\\cdot\\vec d\\) in joules.",
+   "en": "A sled is pulled with force \\(\\vec F=(30;\\,20)\\) (newtons) and moves by \\(\\vec d=(10;\\,0)\\) (metres). Find the work \\(A=\\vec F\\cdot\\vec d\\) in joules.",
+   "vi": "Một xe trượt được kéo bởi lực \\(\\vec F=(30;\\,20)\\) (N) và dịch chuyển theo \\(\\vec d=(10;\\,0)\\) (m). Tính công \\(A=\\vec F\\cdot\\vec d\\) (J).",
+   "options": [],
+   "answer": "300",
+   "explain_en": "\\(A=30\\cdot10+20\\cdot0=300\\ \\text{J}\\).",
+   "explain_vi": "\\(A=30\\cdot10+20\\cdot0=300\\ \\text{J}\\).",
+   "images": [],
+   "id": "e4f57db474ba",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "\\(\\vec g=(#;\\,#)\\) and \\(\\vec h=(#;\\,m)\\). Find \\(m\\) so that \\(\\vec g\\perp\\vec h\\).",
+   "en": "\\(\\vec g=(2;\\,1)\\) and \\(\\vec h=(3;\\,m)\\). Find \\(m\\) so that \\(\\vec g\\perp\\vec h\\).",
+   "vi": "Cho \\(\\vec g=(2;\\,1)\\), \\(\\vec h=(3;\\,m)\\). Tìm \\(m\\) để \\(\\vec g\\perp\\vec h\\).",
+   "options": [],
+   "answer": "-6",
+   "explain_en": "\\(2\\cdot3+1\\,m=0\\Rightarrow m=-6\\).",
+   "explain_vi": "\\(2\\cdot3+1\\,m=0\\Rightarrow m=-6\\).",
+   "images": [],
+   "id": "1db056d23072",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "A force of \\(#\\ \\text{N}\\) pulls a box \\(#\\ \\text{m}\\). The angle between the force and the motion is \\(#^\\circ\\). The work \\(A=\\vec F\\cdot\\vec d\\) is…",
+   "en": "A force of \\(80\\ \\text{N}\\) pulls a box \\(12\\ \\text{m}\\). The angle between the force and the motion is \\(60^\\circ\\). The work \\(A=\\vec F\\cdot\\vec d\\) is…",
+   "vi": "Một lực \\(80\\ \\text{N}\\) kéo thùng hàng đi \\(12\\ \\text{m}\\); góc giữa lực và hướng chuyển động là \\(60^\\circ\\). Công \\(A=\\vec F\\cdot\\vec d\\) bằng…",
+   "options": [
+    "\\(-480\\ \\text{J}\\)",
+    "\\(480\\ \\text{J}\\)",
+    "\\(960\\ \\text{J}\\)",
+    "\\(92\\ \\text{J}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(A=80\\cdot12\\cdot\\cos60^\\circ=480\\ \\text{J}\\).",
+   "explain_vi": "Đáp án b. \\(A=80\\cdot12\\cdot\\cos60^\\circ=480\\ \\text{J}\\).",
+   "images": [],
+   "id": "e3f76e0f1714",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The angle between \\(\\vec a=(#;\\,-#)\\) and \\(\\vec b=(#;\\,-#)\\) is…",
+   "en": "The angle between \\(\\vec a=(0;\\,-4)\\) and \\(\\vec b=(3;\\,-3)\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"angle between vectors\">Góc giữa hai vectơ</b> \\(\\vec a=(0;\\,-4)\\) và \\(\\vec b=(3;\\,-3)\\) bằng…",
+   "options": [
+    "\\(60^\\circ\\)",
+    "\\(45^\\circ\\)",
+    "\\(135^\\circ\\)",
+    "\\(90^\\circ\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\cos(\\vec a,\\vec b)=\\dfrac{\\vec a\\cdot\\vec b}{|\\vec a|\\,|\\vec b|}=\\dfrac{12}{\\sqrt{16}\\cdot\\sqrt{18}}\\), so the angle is \\(45^\\circ\\).",
+   "explain_vi": "Đáp án b. \\(\\cos(\\vec a,\\vec b)=\\dfrac{\\vec a\\cdot\\vec b}{|\\vec a|\\,|\\vec b|}=\\dfrac{12}{\\sqrt{16}\\cdot\\sqrt{18}}\\) nên góc bằng \\(45^\\circ\\).",
+   "images": [],
+   "id": "1d79ca7d8dc7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Triangle \\(ABC\\) is equilateral with side \\(#\\). Then \\(\\overrightarrow{AB}\\cdot\\overrightarrow{BC}=\\)…",
+   "en": "Triangle \\(ABC\\) is equilateral with side \\(8\\). Then \\(\\overrightarrow{AB}\\cdot\\overrightarrow{BC}=\\)…",
+   "vi": "Tam giác \\(ABC\\) đều cạnh \\(8\\). Khi đó \\(\\overrightarrow{AB}\\cdot\\overrightarrow{BC}=\\)…",
+   "options": [
+    "\\(64\\)",
+    "\\(16\\)",
+    "\\(-32\\)",
+    "\\(32\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The angle between \\(\\overrightarrow{AB}\\) and \\(\\overrightarrow{BC}\\) is \\(120^\\circ\\), so the product is \\(8\\cdot8\\cdot\\left(-\\dfrac12\\right)=-32\\).",
+   "explain_vi": "Đáp án c. Góc giữa \\(\\overrightarrow{AB}\\) và \\(\\overrightarrow{BC}\\) là \\(120^\\circ\\) nên tích bằng \\(8\\cdot8\\cdot\\left(-\\dfrac12\\right)=-32\\).",
+   "images": [],
+   "id": "33d0b65ecc3a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(A(#;\\,#)\\), \\(B(#;\\,#)\\), \\(C(#;\\,-#)\\). Which statement is true?",
+   "en": "\\(A(2;\\,3)\\), \\(B(6;\\,4)\\), \\(C(5;\\,-1)\\). Which statement is true?",
+   "vi": "Cho \\(A(2;\\,3)\\), \\(B(6;\\,4)\\), \\(C(5;\\,-1)\\). Khẳng định nào đúng?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(\\widehat{BAC}\\) is acute</span><span class=\"vi\">\\(\\widehat{BAC}\\) là góc nhọn</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Triangle \\(ABC\\) is equilateral</span><span class=\"vi\">Tam giác \\(ABC\\) đều</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(\\widehat{BAC}\\) is a right angle</span><span class=\"vi\">\\(\\widehat{BAC}\\) là góc vuông</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(\\widehat{BAC}\\) is obtuse</span><span class=\"vi\">\\(\\widehat{BAC}\\) là góc tù</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\overrightarrow{AB}\\cdot\\overrightarrow{AC}=8\\): positive, so acute.",
+   "explain_vi": "Đáp án a. \\(\\overrightarrow{AB}\\cdot\\overrightarrow{AC}=8\\): dương nên góc nhọn.",
+   "images": [],
+   "id": "db69e1b776b5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\vec a=(#;\\,#)\\) and \\(\\vec b=(-#;\\,m)\\). The vectors are perpendicular when \\(m=\\)…",
+   "en": "\\(\\vec a=(3;\\,1)\\) and \\(\\vec b=(-1;\\,m)\\). The vectors are perpendicular when \\(m=\\)…",
+   "vi": "Cho \\(\\vec a=(3;\\,1)\\), \\(\\vec b=(-1;\\,m)\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"perpendicular vectors\">Hai vectơ vuông góc</b> khi \\(m=\\)…",
+   "options": [
+    "\\(-\\dfrac{1}{3}\\)",
+    "\\(4\\)",
+    "\\(3\\)",
+    "\\(-3\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\vec a\\cdot\\vec b=3\\cdot-1+1\\,m=0\\Rightarrow m=3\\).",
+   "explain_vi": "Đáp án c. \\(\\vec a\\cdot\\vec b=3\\cdot-1+1\\,m=0\\Rightarrow m=3\\).",
+   "images": [],
+   "id": "dcb44c830aa0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\vec a=(#;\\,#)\\), \\(\\vec b=(-#;\\,#)\\). Then \\(\\vec a\\cdot\\vec b=\\)…",
+   "en": "\\(\\vec a=(5;\\,3)\\), \\(\\vec b=(-2;\\,4)\\). Then \\(\\vec a\\cdot\\vec b=\\)…",
+   "vi": "Cho \\(\\vec a=(5;\\,3)\\), \\(\\vec b=(-2;\\,4)\\). Khi đó \\(\\vec a\\cdot\\vec b=\\)…",
+   "options": [
+    "\\(2\\)",
+    "\\(-22\\)",
+    "\\(-2\\)",
+    "\\(14\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(x_1x_2+y_1y_2=5\\cdot(-2)+3\\cdot4=2\\).",
+   "explain_vi": "Đáp án a. \\(x_1x_2+y_1y_2=2\\).",
+   "images": [],
+   "id": "b5562343a3f8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(|\\vec a|=#\\), \\(|\\vec b|=#\\) and \\((\\vec a,\\vec b)=#^\\circ\\). Then \\(\\vec a\\cdot\\vec b=\\)…",
+   "en": "\\(|\\vec a|=6\\), \\(|\\vec b|=4\\) and \\((\\vec a,\\vec b)=120^\\circ\\). Then \\(\\vec a\\cdot\\vec b=\\)…",
+   "vi": "Cho \\(|\\vec a|=6\\), \\(|\\vec b|=4\\), \\((\\vec a,\\vec b)=120^\\circ\\). Khi đó \\(\\vec a\\cdot\\vec b=\\)…",
+   "options": [
+    "\\(10\\)",
+    "\\(-12\\)",
+    "\\(24\\)",
+    "\\(12\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\vec a\\cdot\\vec b=|\\vec a|\\,|\\vec b|\\cos120^\\circ=6\\cdot4\\cdot-\\dfrac{1}{2}=-12\\).",
+   "explain_vi": "Đáp án b. \\(\\vec a\\cdot\\vec b=|\\vec a|\\,|\\vec b|\\cos120^\\circ=6\\cdot4\\cdot-\\dfrac{1}{2}=-12\\).",
+   "images": [],
+   "id": "e1b26e867d5d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(|\\vec a|=#\\), \\(|\\vec b|=#\\), \\((\\vec a,\\vec b)=#^\\circ\\). Then \\(|\\vec a+\\vec b|=\\)…",
+   "en": "\\(|\\vec a|=3\\), \\(|\\vec b|=8\\), \\((\\vec a,\\vec b)=120^\\circ\\). Then \\(|\\vec a+\\vec b|=\\)…",
+   "vi": "Cho \\(|\\vec a|=3\\), \\(|\\vec b|=8\\), \\((\\vec a,\\vec b)=120^\\circ\\). Khi đó \\(|\\vec a+\\vec b|=\\)…",
+   "options": [
+    "\\(11\\)",
+    "\\(5\\)",
+    "\\(7\\)",
+    "\\(49\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(|\\vec a+\\vec b|^2=|\\vec a|^2+|\\vec b|^2+2\\vec a\\cdot\\vec b=49\\), so \\(|\\vec a+\\vec b|=7\\).",
+   "explain_vi": "Đáp án c. \\(|\\vec a+\\vec b|^2=|\\vec a|^2+|\\vec b|^2+2\\vec a\\cdot\\vec b=49\\) nên \\(|\\vec a+\\vec b|=7\\).",
+   "images": [],
+   "id": "6851116fcf87",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "The angle between \\(\\vec u=(#;\\,-#)\\) and \\(\\vec v=(#;\\,#)\\) is…",
+   "en": "The angle between \\(\\vec u=(2;\\,-1)\\) and \\(\\vec v=(1;\\,2)\\) is…",
+   "vi": "Góc giữa \\(\\vec u=(2;\\,-1)\\) và \\(\\vec v=(1;\\,2)\\) bằng…",
+   "options": [
+    "\\(45^\\circ\\)",
+    "\\(90^\\circ\\)",
+    "\\(135^\\circ\\)",
+    "\\(60^\\circ\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\cos(\\vec u,\\vec v)=\\dfrac{0}{\\sqrt{5}\\cdot\\sqrt{5}}\\).",
+   "explain_vi": "Đáp án b. \\(\\cos(\\vec u,\\vec v)=\\dfrac{0}{\\sqrt{5}\\cdot\\sqrt{5}}\\).",
+   "images": [],
+   "id": "d0a9d38b0eec",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Triangle \\(ABC\\) is equilateral with side \\(#\\). Then \\(\\overrightarrow{AB}\\cdot\\overrightarrow{BC}=\\)…",
+   "en": "Triangle \\(ABC\\) is equilateral with side \\(4\\). Then \\(\\overrightarrow{AB}\\cdot\\overrightarrow{BC}=\\)…",
+   "vi": "Tam giác \\(ABC\\) đều cạnh \\(4\\). Khi đó \\(\\overrightarrow{AB}\\cdot\\overrightarrow{BC}=\\)…",
+   "options": [
+    "\\(8\\)",
+    "\\(-8\\)",
+    "\\(16\\)",
+    "\\(4\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. The angle between the vectors is \\(120^\\circ\\): \\(4^2\\cos120^\\circ=-8\\).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"angle between vectors\">Góc giữa hai vectơ</b> là \\(120^\\circ\\): \\(4^2\\cos120^\\circ=-8\\).",
+   "images": [],
+   "id": "7339a2ca0925",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(\\vec a=(-#;\\,#)\\), \\(\\vec b=(#;\\,#)\\). Then \\(\\vec a\\cdot\\vec b=\\)…",
+   "en": "\\(\\vec a=(-3;\\,2)\\), \\(\\vec b=(5;\\,4)\\). Then \\(\\vec a\\cdot\\vec b=\\)…",
+   "vi": "Cho \\(\\vec a=(-3;\\,2)\\), \\(\\vec b=(5;\\,4)\\). Khi đó \\(\\vec a\\cdot\\vec b=\\)…",
+   "options": [
+    "\\(-7\\)",
+    "\\(-2\\)",
+    "\\(7\\)",
+    "\\(-23\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(xx'+yy'=-7\\).",
+   "explain_vi": "Đáp án a. \\(xx'+yy'=-7\\).",
+   "images": [],
+   "id": "8b265aa8f444",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "Three posts of a fence are at \\(A(#;\\,#)\\), \\(B(#;\\,#)\\), \\(C(#;\\,#)\\). The angle \\(\\widehat{BAC}\\) is obtuse.",
+   "en": "Three posts of a fence are at \\(A(1;\\,2)\\), \\(B(5;\\,3)\\), \\(C(2;\\,6)\\). The angle \\(\\widehat{BAC}\\) is obtuse.",
+   "vi": "Ba cọc rào ở \\(A(1;\\,2)\\), \\(B(5;\\,3)\\), \\(C(2;\\,6)\\). Góc \\(\\widehat{BAC}\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"obtuse angle\">góc tù</b>.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "\\(\\overrightarrow{AB}\\cdot\\overrightarrow{AC}=8\\), so the angle is acute.",
+   "explain_vi": "\\(\\overrightarrow{AB}\\cdot\\overrightarrow{AC}=8\\) nên góc nhọn.",
+   "images": [],
+   "id": "a87b32db4d1f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(|\\vec a|=#\\), \\(|\\vec b|=#\\), \\((\\vec a,\\vec b)=#^\\circ\\). Then \\(|\\vec a+\\vec b|=#\\).",
+   "en": "\\(|\\vec a|=5\\), \\(|\\vec b|=8\\), \\((\\vec a,\\vec b)=120^\\circ\\). Then \\(|\\vec a+\\vec b|=8\\).",
+   "vi": "Cho \\(|\\vec a|=5\\), \\(|\\vec b|=8\\), \\((\\vec a,\\vec b)=120^\\circ\\). Khi đó \\(|\\vec a+\\vec b|=8\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "\\(|\\vec a+\\vec b|^2=25+64+2\\cdot5\\cdot8\\cos120^\\circ=49\\), so \\(|\\vec a+\\vec b|=7\\).",
+   "explain_vi": "\\(|\\vec a+\\vec b|^2=25+64+2\\cdot5\\cdot8\\cos120^\\circ=49\\) nên \\(|\\vec a+\\vec b|=7\\).",
+   "images": [],
+   "id": "2875891385be",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "A sled is pulled with force \\(\\vec F=(#;\\,-#)\\) (newtons) and moves by \\(\\vec d=(#;\\,#)\\) (metres). Find the work \\(A=\\vec F\\cdot\\vec d\\) in joules.",
+   "en": "A sled is pulled with force \\(\\vec F=(50;\\,-10)\\) (newtons) and moves by \\(\\vec d=(12;\\,5)\\) (metres). Find the work \\(A=\\vec F\\cdot\\vec d\\) in joules.",
+   "vi": "Một xe trượt được kéo bởi lực \\(\\vec F=(50;\\,-10)\\) (N) và dịch chuyển theo \\(\\vec d=(12;\\,5)\\) (m). Tính công \\(A=\\vec F\\cdot\\vec d\\) (J).",
+   "options": [],
+   "answer": "550",
+   "explain_en": "\\(A=50\\cdot12+-10\\cdot5=550\\ \\text{J}\\).",
+   "explain_vi": "\\(A=50\\cdot12+-10\\cdot5=550\\ \\text{J}\\).",
+   "images": [],
+   "id": "2ab3e08a958c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "\\(\\vec g=(#;\\,-#)\\) and \\(\\vec h=(#;\\,m)\\). Find \\(m\\) so that \\(\\vec g\\perp\\vec h\\).",
+   "en": "\\(\\vec g=(3;\\,-2)\\) and \\(\\vec h=(4;\\,m)\\). Find \\(m\\) so that \\(\\vec g\\perp\\vec h\\).",
+   "vi": "Cho \\(\\vec g=(3;\\,-2)\\), \\(\\vec h=(4;\\,m)\\). Tìm \\(m\\) để \\(\\vec g\\perp\\vec h\\).",
+   "options": [],
+   "answer": "6",
+   "explain_en": "\\(3\\cdot4+-2\\,m=0\\Rightarrow m=6\\).",
+   "explain_vi": "\\(3\\cdot4+-2\\,m=0\\Rightarrow m=6\\).",
+   "images": [],
+   "id": "a6228c961abb",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "A force of \\(#\\ \\text{N}\\) pulls a box \\(#\\ \\text{m}\\). The angle between the force and the motion is \\(#^\\circ\\). The work \\(A=\\vec F\\cdot\\vec d\\) is…",
+   "en": "A force of \\(60\\ \\text{N}\\) pulls a box \\(10\\ \\text{m}\\). The angle between the force and the motion is \\(120^\\circ\\). The work \\(A=\\vec F\\cdot\\vec d\\) is…",
+   "vi": "Một lực \\(60\\ \\text{N}\\) kéo thùng hàng đi \\(10\\ \\text{m}\\); góc giữa lực và hướng chuyển động là \\(120^\\circ\\). Công \\(A=\\vec F\\cdot\\vec d\\) bằng…",
+   "options": [
+    "\\(600\\ \\text{J}\\)",
+    "\\(-300\\ \\text{J}\\)",
+    "\\(300\\ \\text{J}\\)",
+    "\\(70\\ \\text{J}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(A=60\\cdot10\\cdot\\cos120^\\circ=-300\\ \\text{J}\\).",
+   "explain_vi": "Đáp án b. \\(A=60\\cdot10\\cdot\\cos120^\\circ=-300\\ \\text{J}\\).",
+   "images": [],
+   "id": "a6006125cc72",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The angle between \\(\\vec a=(#;\\,#)\\) and \\(\\vec b=(#;\\,#)\\) is…",
+   "en": "The angle between \\(\\vec a=(1;\\,0)\\) and \\(\\vec b=(0;\\,4)\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"angle between vectors\">Góc giữa hai vectơ</b> \\(\\vec a=(1;\\,0)\\) và \\(\\vec b=(0;\\,4)\\) bằng…",
+   "options": [
+    "\\(135^\\circ\\)",
+    "\\(60^\\circ\\)",
+    "\\(90^\\circ\\)",
+    "\\(45^\\circ\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\cos(\\vec a,\\vec b)=\\dfrac{\\vec a\\cdot\\vec b}{|\\vec a|\\,|\\vec b|}=\\dfrac{0}{\\sqrt{1}\\cdot\\sqrt{16}}\\), so the angle is \\(90^\\circ\\).",
+   "explain_vi": "Đáp án c. \\(\\cos(\\vec a,\\vec b)=\\dfrac{\\vec a\\cdot\\vec b}{|\\vec a|\\,|\\vec b|}=\\dfrac{0}{\\sqrt{1}\\cdot\\sqrt{16}}\\) nên góc bằng \\(90^\\circ\\).",
+   "images": [],
+   "id": "1ef823c1f680",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Triangle \\(ABC\\) is equilateral with side \\(#\\). Then \\(\\overrightarrow{AB}\\cdot\\overrightarrow{AC}=\\)…",
+   "en": "Triangle \\(ABC\\) is equilateral with side \\(10\\). Then \\(\\overrightarrow{AB}\\cdot\\overrightarrow{AC}=\\)…",
+   "vi": "Tam giác \\(ABC\\) đều cạnh \\(10\\). Khi đó \\(\\overrightarrow{AB}\\cdot\\overrightarrow{AC}=\\)…",
+   "options": [
+    "\\(50\\)",
+    "\\(25\\)",
+    "\\(-50\\)",
+    "\\(100\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. The angle between \\(\\overrightarrow{AB}\\) and \\(\\overrightarrow{AC}\\) is \\(60^\\circ\\), so the product is \\(10\\cdot10\\cdot\\dfrac12=50\\).",
+   "explain_vi": "Đáp án a. Góc giữa \\(\\overrightarrow{AB}\\) và \\(\\overrightarrow{AC}\\) là \\(60^\\circ\\) nên tích bằng \\(10\\cdot10\\cdot\\dfrac12=50\\).",
+   "images": [],
+   "id": "7d7715ecceb0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(A(-#;\\,#)\\), \\(B(-#;\\,#)\\), \\(C(-#;\\,#)\\). Which statement is true?",
+   "en": "\\(A(-3;\\,0)\\), \\(B(-2;\\,3)\\), \\(C(-6;\\,1)\\). Which statement is true?",
+   "vi": "Cho \\(A(-3;\\,0)\\), \\(B(-2;\\,3)\\), \\(C(-6;\\,1)\\). Khẳng định nào đúng?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">Triangle \\(ABC\\) is equilateral</span><span class=\"vi\">Tam giác \\(ABC\\) đều</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(\\widehat{BAC}\\) is obtuse</span><span class=\"vi\">\\(\\widehat{BAC}\\) là góc tù</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(\\widehat{BAC}\\) is a right angle</span><span class=\"vi\">\\(\\widehat{BAC}\\) là góc vuông</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(\\widehat{BAC}\\) is acute</span><span class=\"vi\">\\(\\widehat{BAC}\\) là góc nhọn</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\overrightarrow{AB}\\cdot\\overrightarrow{AC}=0\\): zero, so a right angle.",
+   "explain_vi": "Đáp án c. \\(\\overrightarrow{AB}\\cdot\\overrightarrow{AC}=0\\): bằng 0 nên góc vuông.",
+   "images": [],
+   "id": "e57fe10e2c0f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\vec a=(#;\\,#)\\), \\(\\vec b=(-#;\\,#)\\). Then \\(\\vec a\\cdot\\vec b=\\)…",
+   "en": "\\(\\vec a=(5;\\,1)\\), \\(\\vec b=(-5;\\,1)\\). Then \\(\\vec a\\cdot\\vec b=\\)…",
+   "vi": "Cho \\(\\vec a=(5;\\,1)\\), \\(\\vec b=(-5;\\,1)\\). Khi đó \\(\\vec a\\cdot\\vec b=\\)…",
+   "options": [
+    "\\(-26\\)",
+    "\\(-24\\)",
+    "\\(0\\)",
+    "\\(24\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(x_1x_2+y_1y_2=5\\cdot(-5)+1\\cdot1=-24\\).",
+   "explain_vi": "Đáp án b. \\(x_1x_2+y_1y_2=-24\\).",
+   "images": [],
+   "id": "e566fbde9333",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\vec a=(#;\\,-#)\\) and \\(\\vec b=(#;\\,m)\\). The vectors are perpendicular when \\(m=\\)…",
+   "en": "\\(\\vec a=(4;\\,-2)\\) and \\(\\vec b=(4;\\,m)\\). The vectors are perpendicular when \\(m=\\)…",
+   "vi": "Cho \\(\\vec a=(4;\\,-2)\\), \\(\\vec b=(4;\\,m)\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"perpendicular vectors\">Hai vectơ vuông góc</b> khi \\(m=\\)…",
+   "options": [
+    "\\(8\\)",
+    "\\(-2\\)",
+    "\\(9\\)",
+    "\\(-8\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\vec a\\cdot\\vec b=4\\cdot4+-2\\,m=0\\Rightarrow m=8\\).",
+   "explain_vi": "Đáp án a. \\(\\vec a\\cdot\\vec b=4\\cdot4+-2\\,m=0\\Rightarrow m=8\\).",
+   "images": [],
+   "id": "bc9584096eba",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(|\\vec a|=#\\), \\(|\\vec b|=#\\) and \\((\\vec a,\\vec b)=#^\\circ\\). Then \\(\\vec a\\cdot\\vec b=\\)…",
+   "en": "\\(|\\vec a|=2\\), \\(|\\vec b|=7\\) and \\((\\vec a,\\vec b)=180^\\circ\\). Then \\(\\vec a\\cdot\\vec b=\\)…",
+   "vi": "Cho \\(|\\vec a|=2\\), \\(|\\vec b|=7\\), \\((\\vec a,\\vec b)=180^\\circ\\). Khi đó \\(\\vec a\\cdot\\vec b=\\)…",
+   "options": [
+    "\\(14\\)",
+    "\\(7\\)",
+    "\\(-14\\)",
+    "\\(9\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\vec a\\cdot\\vec b=|\\vec a|\\,|\\vec b|\\cos180^\\circ=2\\cdot7\\cdot-1=-14\\).",
+   "explain_vi": "Đáp án c. \\(\\vec a\\cdot\\vec b=|\\vec a|\\,|\\vec b|\\cos180^\\circ=2\\cdot7\\cdot-1=-14\\).",
+   "images": [],
+   "id": "5a9291bc1d4a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(|\\vec a|=#\\), \\(|\\vec b|=#\\), \\((\\vec a,\\vec b)=#^\\circ\\). Then \\(|\\vec a+\\vec b|=\\)…",
+   "en": "\\(|\\vec a|=3\\), \\(|\\vec b|=4\\), \\((\\vec a,\\vec b)=90^\\circ\\). Then \\(|\\vec a+\\vec b|=\\)…",
+   "vi": "Cho \\(|\\vec a|=3\\), \\(|\\vec b|=4\\), \\((\\vec a,\\vec b)=90^\\circ\\). Khi đó \\(|\\vec a+\\vec b|=\\)…",
+   "options": [
+    "\\(7\\)",
+    "\\(25\\)",
+    "\\(1\\)",
+    "\\(5\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(|\\vec a+\\vec b|^2=|\\vec a|^2+|\\vec b|^2+2\\vec a\\cdot\\vec b=25\\), so \\(|\\vec a+\\vec b|=5\\).",
+   "explain_vi": "Đáp án d. \\(|\\vec a+\\vec b|^2=|\\vec a|^2+|\\vec b|^2+2\\vec a\\cdot\\vec b=25\\) nên \\(|\\vec a+\\vec b|=5\\).",
+   "images": [],
+   "id": "5fcb489cb3fc",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "The angle between \\(\\vec u=(#;\\,#)\\) and \\(\\vec v=(-#;\\,#)\\) is…",
+   "en": "The angle between \\(\\vec u=(2;\\,1)\\) and \\(\\vec v=(-3;\\,1)\\) is…",
+   "vi": "Góc giữa \\(\\vec u=(2;\\,1)\\) và \\(\\vec v=(-3;\\,1)\\) bằng…",
+   "options": [
+    "\\(45^\\circ\\)",
+    "\\(90^\\circ\\)",
+    "\\(135^\\circ\\)",
+    "\\(60^\\circ\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\cos(\\vec u,\\vec v)=\\dfrac{-5}{\\sqrt{5}\\cdot\\sqrt{10}}\\).",
+   "explain_vi": "Đáp án c. \\(\\cos(\\vec u,\\vec v)=\\dfrac{-5}{\\sqrt{5}\\cdot\\sqrt{10}}\\).",
+   "images": [],
+   "id": "302053b1009d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Triangle \\(ABC\\) is equilateral with side \\(#\\). Then \\(\\overrightarrow{CA}\\cdot\\overrightarrow{CB}=\\)…",
+   "en": "Triangle \\(ABC\\) is equilateral with side \\(10\\). Then \\(\\overrightarrow{CA}\\cdot\\overrightarrow{CB}=\\)…",
+   "vi": "Tam giác \\(ABC\\) đều cạnh \\(10\\). Khi đó \\(\\overrightarrow{CA}\\cdot\\overrightarrow{CB}=\\)…",
+   "options": [
+    "\\(-50\\)",
+    "\\(50\\)",
+    "\\(100\\)",
+    "\\(25\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. The angle between the vectors is \\(60^\\circ\\): \\(10^2\\cos60^\\circ=50\\).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"angle between vectors\">Góc giữa hai vectơ</b> là \\(60^\\circ\\): \\(10^2\\cos60^\\circ=50\\).",
+   "images": [],
+   "id": "2c4ae7b7f2b1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(\\vec a=(#;\\,-#)\\), \\(\\vec b=(-#;\\,-#)\\). Then \\(\\vec a\\cdot\\vec b=\\)…",
+   "en": "\\(\\vec a=(4;\\,-5)\\), \\(\\vec b=(-2;\\,-3)\\). Then \\(\\vec a\\cdot\\vec b=\\)…",
+   "vi": "Cho \\(\\vec a=(4;\\,-5)\\), \\(\\vec b=(-2;\\,-3)\\). Khi đó \\(\\vec a\\cdot\\vec b=\\)…",
+   "options": [
+    "\\(-2\\)",
+    "\\(-7\\)",
+    "\\(-23\\)",
+    "\\(7\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(xx'+yy'=7\\).",
+   "explain_vi": "Đáp án d. \\(xx'+yy'=7\\).",
+   "images": [],
+   "id": "28050b502a1e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "Three posts of a fence are at \\(A(-#;\\,#)\\), \\(B(#;\\,#)\\), \\(C(#;\\,#)\\). The angle \\(\\widehat{BAC}\\) is acute.",
+   "en": "Three posts of a fence are at \\(A(-2;\\,1)\\), \\(B(3;\\,2)\\), \\(C(0;\\,5)\\). The angle \\(\\widehat{BAC}\\) is acute.",
+   "vi": "Ba cọc rào ở \\(A(-2;\\,1)\\), \\(B(3;\\,2)\\), \\(C(0;\\,5)\\). Góc \\(\\widehat{BAC}\\) là góc nhọn.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "\\(\\overrightarrow{AB}\\cdot\\overrightarrow{AC}=14\\), so the angle is acute.",
+   "explain_vi": "\\(\\overrightarrow{AB}\\cdot\\overrightarrow{AC}=14\\) nên góc nhọn.",
+   "images": [],
+   "id": "53b7646c656b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(|\\vec a|=#\\), \\(|\\vec b|=#\\), \\((\\vec a,\\vec b)=#^\\circ\\). Then \\(|\\vec a+\\vec b|=#\\).",
+   "en": "\\(|\\vec a|=7\\), \\(|\\vec b|=8\\), \\((\\vec a,\\vec b)=60^\\circ\\). Then \\(|\\vec a+\\vec b|=13\\).",
+   "vi": "Cho \\(|\\vec a|=7\\), \\(|\\vec b|=8\\), \\((\\vec a,\\vec b)=60^\\circ\\). Khi đó \\(|\\vec a+\\vec b|=13\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "\\(|\\vec a+\\vec b|^2=49+64+2\\cdot7\\cdot8\\cos60^\\circ=169\\), so \\(|\\vec a+\\vec b|=13\\).",
+   "explain_vi": "\\(|\\vec a+\\vec b|^2=49+64+2\\cdot7\\cdot8\\cos60^\\circ=169\\) nên \\(|\\vec a+\\vec b|=13\\).",
+   "images": [],
+   "id": "a9b3fcd6e7de",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "A sled is pulled with force \\(\\vec F=(-#;\\,#)\\) (newtons) and moves by \\(\\vec d=(#;\\,#)\\) (metres). Find the work \\(A=\\vec F\\cdot\\vec d\\) in joules.",
+   "en": "A sled is pulled with force \\(\\vec F=(-20;\\,60)\\) (newtons) and moves by \\(\\vec d=(6;\\,15)\\) (metres). Find the work \\(A=\\vec F\\cdot\\vec d\\) in joules.",
+   "vi": "Một xe trượt được kéo bởi lực \\(\\vec F=(-20;\\,60)\\) (N) và dịch chuyển theo \\(\\vec d=(6;\\,15)\\) (m). Tính công \\(A=\\vec F\\cdot\\vec d\\) (J).",
+   "options": [],
+   "answer": "780",
+   "explain_en": "\\(A=-20\\cdot6+60\\cdot15=780\\ \\text{J}\\).",
+   "explain_vi": "\\(A=-20\\cdot6+60\\cdot15=780\\ \\text{J}\\).",
+   "images": [],
+   "id": "8d05a8fab99e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "\\(\\vec g=(-#;\\,#)\\) and \\(\\vec h=(#;\\,m)\\). Find \\(m\\) so that \\(\\vec g\\perp\\vec h\\).",
+   "en": "\\(\\vec g=(-4;\\,3)\\) and \\(\\vec h=(6;\\,m)\\). Find \\(m\\) so that \\(\\vec g\\perp\\vec h\\).",
+   "vi": "Cho \\(\\vec g=(-4;\\,3)\\), \\(\\vec h=(6;\\,m)\\). Tìm \\(m\\) để \\(\\vec g\\perp\\vec h\\).",
+   "options": [],
+   "answer": "8",
+   "explain_en": "\\(-4\\cdot6+3\\,m=0\\Rightarrow m=8\\).",
+   "explain_vi": "\\(-4\\cdot6+3\\,m=0\\Rightarrow m=8\\).",
+   "images": [],
+   "id": "3b2164384425",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "A force of \\(#\\ \\text{N}\\) pulls a box \\(#\\ \\text{m}\\). The angle between the force and the motion is \\(#^\\circ\\). The work \\(A=\\vec F\\cdot\\vec d\\) is…",
+   "en": "A force of \\(20\\ \\text{N}\\) pulls a box \\(20\\ \\text{m}\\). The angle between the force and the motion is \\(120^\\circ\\). The work \\(A=\\vec F\\cdot\\vec d\\) is…",
+   "vi": "Một lực \\(20\\ \\text{N}\\) kéo thùng hàng đi \\(20\\ \\text{m}\\); góc giữa lực và hướng chuyển động là \\(120^\\circ\\). Công \\(A=\\vec F\\cdot\\vec d\\) bằng…",
+   "options": [
+    "\\(400\\ \\text{J}\\)",
+    "\\(-200\\ \\text{J}\\)",
+    "\\(40\\ \\text{J}\\)",
+    "\\(200\\ \\text{J}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(A=20\\cdot20\\cdot\\cos120^\\circ=-200\\ \\text{J}\\).",
+   "explain_vi": "Đáp án b. \\(A=20\\cdot20\\cdot\\cos120^\\circ=-200\\ \\text{J}\\).",
+   "images": [],
+   "id": "5542150639a6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The angle between \\(\\vec a=(#;\\,#)\\) and \\(\\vec b=(#;\\,#)\\) is…",
+   "en": "The angle between \\(\\vec a=(0;\\,1)\\) and \\(\\vec b=(1;\\,0)\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"angle between vectors\">Góc giữa hai vectơ</b> \\(\\vec a=(0;\\,1)\\) và \\(\\vec b=(1;\\,0)\\) bằng…",
+   "options": [
+    "\\(45^\\circ\\)",
+    "\\(60^\\circ\\)",
+    "\\(135^\\circ\\)",
+    "\\(90^\\circ\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\cos(\\vec a,\\vec b)=\\dfrac{\\vec a\\cdot\\vec b}{|\\vec a|\\,|\\vec b|}=\\dfrac{0}{\\sqrt{1}\\cdot\\sqrt{1}}\\), so the angle is \\(90^\\circ\\).",
+   "explain_vi": "Đáp án d. \\(\\cos(\\vec a,\\vec b)=\\dfrac{\\vec a\\cdot\\vec b}{|\\vec a|\\,|\\vec b|}=\\dfrac{0}{\\sqrt{1}\\cdot\\sqrt{1}}\\) nên góc bằng \\(90^\\circ\\).",
+   "images": [],
+   "id": "95732a969a90",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Triangle \\(ABC\\) is equilateral with side \\(#\\). Then \\(\\overrightarrow{AB}\\cdot\\overrightarrow{AC}=\\)…",
+   "en": "Triangle \\(ABC\\) is equilateral with side \\(4\\). Then \\(\\overrightarrow{AB}\\cdot\\overrightarrow{AC}=\\)…",
+   "vi": "Tam giác \\(ABC\\) đều cạnh \\(4\\). Khi đó \\(\\overrightarrow{AB}\\cdot\\overrightarrow{AC}=\\)…",
+   "options": [
+    "\\(-8\\)",
+    "\\(4\\)",
+    "\\(8\\)",
+    "\\(16\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The angle between \\(\\overrightarrow{AB}\\) and \\(\\overrightarrow{AC}\\) is \\(60^\\circ\\), so the product is \\(4\\cdot4\\cdot\\dfrac12=8\\).",
+   "explain_vi": "Đáp án c. Góc giữa \\(\\overrightarrow{AB}\\) và \\(\\overrightarrow{AC}\\) là \\(60^\\circ\\) nên tích bằng \\(4\\cdot4\\cdot\\dfrac12=8\\).",
+   "images": [],
+   "id": "123f0dca46d4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(A(#;\\,#)\\), \\(B(#;\\,#)\\), \\(C(#;\\,-#)\\). Which statement is true?",
+   "en": "\\(A(3;\\,2)\\), \\(B(7;\\,3)\\), \\(C(6;\\,-2)\\). Which statement is true?",
+   "vi": "Cho \\(A(3;\\,2)\\), \\(B(7;\\,3)\\), \\(C(6;\\,-2)\\). Khẳng định nào đúng?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">Triangle \\(ABC\\) is equilateral</span><span class=\"vi\">Tam giác \\(ABC\\) đều</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(\\widehat{BAC}\\) is acute</span><span class=\"vi\">\\(\\widehat{BAC}\\) là góc nhọn</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(\\widehat{BAC}\\) is obtuse</span><span class=\"vi\">\\(\\widehat{BAC}\\) là góc tù</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(\\widehat{BAC}\\) is a right angle</span><span class=\"vi\">\\(\\widehat{BAC}\\) là góc vuông</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\overrightarrow{AB}\\cdot\\overrightarrow{AC}=8\\): positive, so acute.",
+   "explain_vi": "Đáp án b. \\(\\overrightarrow{AB}\\cdot\\overrightarrow{AC}=8\\): dương nên góc nhọn.",
+   "images": [],
+   "id": "9c962dc4d597",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\vec a=(#;\\,#)\\), \\(\\vec b=(#;\\,-#)\\). Then \\(\\vec a\\cdot\\vec b=\\)…",
+   "en": "\\(\\vec a=(4;\\,3)\\), \\(\\vec b=(1;\\,-3)\\). Then \\(\\vec a\\cdot\\vec b=\\)…",
+   "vi": "Cho \\(\\vec a=(4;\\,3)\\), \\(\\vec b=(1;\\,-3)\\). Khi đó \\(\\vec a\\cdot\\vec b=\\)…",
+   "options": [
+    "\\(13\\)",
+    "\\(-5\\)",
+    "\\(-9\\)",
+    "\\(5\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(x_1x_2+y_1y_2=4\\cdot1+3\\cdot(-3)=-5\\).",
+   "explain_vi": "Đáp án b. \\(x_1x_2+y_1y_2=-5\\).",
+   "images": [],
+   "id": "1740933eb67e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\vec a=(#;\\,-#)\\) and \\(\\vec b=(#;\\,m)\\). The vectors are perpendicular when \\(m=\\)…",
+   "en": "\\(\\vec a=(4;\\,-2)\\) and \\(\\vec b=(2;\\,m)\\). The vectors are perpendicular when \\(m=\\)…",
+   "vi": "Cho \\(\\vec a=(4;\\,-2)\\), \\(\\vec b=(2;\\,m)\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"perpendicular vectors\">Hai vectơ vuông góc</b> khi \\(m=\\)…",
+   "options": [
+    "\\(4\\)",
+    "\\(-1\\)",
+    "\\(5\\)",
+    "\\(-4\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\vec a\\cdot\\vec b=4\\cdot2+-2\\,m=0\\Rightarrow m=4\\).",
+   "explain_vi": "Đáp án a. \\(\\vec a\\cdot\\vec b=4\\cdot2+-2\\,m=0\\Rightarrow m=4\\).",
+   "images": [],
+   "id": "0d8f02275938",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(|\\vec a|=#\\), \\(|\\vec b|=#\\) and \\((\\vec a,\\vec b)=#^\\circ\\). Then \\(\\vec a\\cdot\\vec b=\\)…",
+   "en": "\\(|\\vec a|=2\\), \\(|\\vec b|=3\\) and \\((\\vec a,\\vec b)=120^\\circ\\). Then \\(\\vec a\\cdot\\vec b=\\)…",
+   "vi": "Cho \\(|\\vec a|=2\\), \\(|\\vec b|=3\\), \\((\\vec a,\\vec b)=120^\\circ\\). Khi đó \\(\\vec a\\cdot\\vec b=\\)…",
+   "options": [
+    "\\(3\\)",
+    "\\(5\\)",
+    "\\(-3\\)",
+    "\\(6\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\vec a\\cdot\\vec b=|\\vec a|\\,|\\vec b|\\cos120^\\circ=2\\cdot3\\cdot-\\dfrac{1}{2}=-3\\).",
+   "explain_vi": "Đáp án c. \\(\\vec a\\cdot\\vec b=|\\vec a|\\,|\\vec b|\\cos120^\\circ=2\\cdot3\\cdot-\\dfrac{1}{2}=-3\\).",
+   "images": [],
+   "id": "6338f124eda0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(|\\vec a|=#\\), \\(|\\vec b|=#\\), \\((\\vec a,\\vec b)=#^\\circ\\). Then \\(|\\vec a+\\vec b|=\\)…",
+   "en": "\\(|\\vec a|=6\\), \\(|\\vec b|=10\\), \\((\\vec a,\\vec b)=60^\\circ\\). Then \\(|\\vec a+\\vec b|=\\)…",
+   "vi": "Cho \\(|\\vec a|=6\\), \\(|\\vec b|=10\\), \\((\\vec a,\\vec b)=60^\\circ\\). Khi đó \\(|\\vec a+\\vec b|=\\)…",
+   "options": [
+    "\\(16\\)",
+    "\\(4\\)",
+    "\\(14\\)",
+    "\\(196\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(|\\vec a+\\vec b|^2=|\\vec a|^2+|\\vec b|^2+2\\vec a\\cdot\\vec b=196\\), so \\(|\\vec a+\\vec b|=14\\).",
+   "explain_vi": "Đáp án c. \\(|\\vec a+\\vec b|^2=|\\vec a|^2+|\\vec b|^2+2\\vec a\\cdot\\vec b=196\\) nên \\(|\\vec a+\\vec b|=14\\).",
+   "images": [],
+   "id": "a1889458b970",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1029 @@
+{
+ "lesson": "g10-prob-02",
+ "grade": 10,
+ "no": 27,
+ "title": "Thực hành tính xác suất",
+ "path": "lessons/grade10/probability/probability-practice.html",
+ "items": [
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "# students including An and Bình line up at random. P(An and Bình are adjacent) =…",
+   "en": "5 students including An and Bình line up at random. P(An and Bình are adjacent) =…",
+   "vi": "5 học sinh, trong đó có An và Bình, xếp hàng ngẫu nhiên. Xác suất An và Bình đứng cạnh nhau là…",
+   "options": [
+    "\\(\\dfrac{1}{5}\\)",
+    "\\(\\dfrac{2}{5}\\)",
+    "\\(\\dfrac{1}{2}\\)",
+    "\\(\\dfrac{1}{4}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\dfrac{2(n-1)!}{n!}\\).",
+   "explain_vi": "Đáp án b. \\(\\dfrac{2\\cdot(5-1)!}{5!}=\\dfrac{2}{5}\\).",
+   "images": [],
+   "id": "533534f84c4f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Two dice are rolled. P(the difference is #) =…",
+   "en": "Two dice are rolled. P(the difference is 2) =…",
+   "vi": "Gieo hai con xúc xắc. Xác suất hiệu số chấm (lớn trừ nhỏ) bằng 2 là…",
+   "options": [
+    "\\(\\dfrac{1}{9}\\)",
+    "\\(\\dfrac{1}{6}\\)",
+    "\\(\\dfrac{2}{9}\\)",
+    "\\(\\dfrac{5}{18}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. 8 outcomes.",
+   "explain_vi": "Đáp án c. Có 8 cặp thỏa mãn.",
+   "images": [],
+   "id": "d9af3d39d8c4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Two dice are rolled. P(the larger number is #) =…",
+   "en": "Two dice are rolled. P(the larger number is 4) =…",
+   "vi": "Gieo hai con xúc xắc. Xác suất số chấm lớn nhất bằng 4 là…",
+   "options": [
+    "\\(\\dfrac{7}{36}\\)",
+    "\\(\\dfrac{1}{6}\\)",
+    "\\(\\dfrac{1}{9}\\)",
+    "\\(\\dfrac{2}{9}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. 7 outcomes.",
+   "explain_vi": "Đáp án a. Có \\(2\\cdot4-1=7\\) kết quả thuận lợi.",
+   "images": [],
+   "id": "c0494a58d3d4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "After # rolls the frequency of a six must be exactly #/#.",
+   "en": "After 1000 rolls the frequency of a six must be exactly 1/6.",
+   "vi": "Sau 1000 lần gieo, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"relative frequency\">tần suất</b> mặt 6 chấm phải đúng bằng \\(\\dfrac16\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "Frequency estimates probability.",
+   "explain_vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"relative frequency\">Tần suất</b> chỉ ước lượng xác suất, dao động quanh xác suất khi số lần thử lớn.",
+   "images": [],
+   "id": "a3be5b6bbf96",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "Family with # children: P(all girls) = #/#.",
+   "en": "Family with 3 children: P(all girls) = 1/8.",
+   "vi": "Gia đình 3 con: xác suất cả ba là con gái bằng \\(\\dfrac18\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "Use the 8-branch tree.",
+   "explain_vi": "Dùng sơ đồ cây 8 nhánh.",
+   "images": [],
+   "id": "f78798ef89be",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "A die is rolled # times. About how many sixes do we expect?",
+   "en": "A die is rolled 600 times. About how many sixes do we expect?",
+   "vi": "Gieo một con xúc xắc 600 lần. Dự kiến có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"interval\">khoảng</b> bao nhiêu lần ra mặt 6?",
+   "options": [],
+   "answer": "100",
+   "explain_en": "Expected count \\(\\approx N\\cdot P\\).",
+   "explain_vi": "Số lần dự kiến \\(\\approx N\\cdot P\\).",
+   "images": [],
+   "id": "5b01952248aa",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "Two dice are rolled. How many outcomes give a sum of #?",
+   "en": "Two dice are rolled. How many outcomes give a sum of 9?",
+   "vi": "Gieo hai con xúc xắc. Có bao nhiêu kết quả cho tổng bằng 9?",
+   "options": [],
+   "answer": "4",
+   "explain_en": "Count in the table.",
+   "explain_vi": "Đếm trong bảng 36 ô.",
+   "images": [],
+   "id": "d8eb8bd2f3fd",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "# cards are numbered # to #. One card is drawn. P(the number is a perfect square) =…",
+   "en": "20 cards are numbered 1 to 20. One card is drawn. P(the number is a perfect square) =…",
+   "vi": "Có 20 tấm thẻ đánh số từ 1 đến 20. Rút ngẫu nhiên một thẻ. Xác suất số trên thẻ là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"perfect square\">số chính phương</b> là…",
+   "options": [
+    "\\(\\dfrac{3}{20}\\)",
+    "\\(\\dfrac{1}{2}\\)",
+    "\\(\\dfrac{1}{5}\\)",
+    "\\(\\dfrac{1}{4}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Favourable: 1, 4, 9, 16.",
+   "explain_vi": "Đáp án c. Các số thuận lợi: 1, 4, 9, 16 (4 số).",
+   "images": [],
+   "id": "1774ab7f1ac2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "# students, including An and Bình, line up in a random order. P(An and Bình stand next to each other) =…",
+   "en": "5 students, including An and Bình, line up in a random order. P(An and Bình stand next to each other) =…",
+   "vi": "5 học sinh, trong đó có An và Bình, xếp hàng ngang ngẫu nhiên. Xác suất An và Bình đứng cạnh nhau là…",
+   "options": [
+    "\\(\\dfrac{1}{2}\\)",
+    "\\(\\dfrac{2}{5}\\)",
+    "\\(\\dfrac{1}{5}\\)",
+    "\\(\\dfrac{1}{4}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\dfrac{2\\cdot(5-1)!}{5!}\\).",
+   "explain_vi": "Đáp án b. \\(\\dfrac{2\\cdot(5-1)!}{5!}=\\dfrac2{5}\\).",
+   "images": [],
+   "id": "b56aeb68e190",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "A die is rolled # times by simulation. Theoretically, about how many times do we expect the event of probability \\dfrac{#}{#} to occur?",
+   "en": "A die is rolled 100 times by simulation. Theoretically, about how many times do we expect the event of probability \\dfrac{1}{2} to occur?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"simulation\">Mô phỏng</b> gieo xúc xắc 100 lần. Về lí thuyết, biến cố có xác suất \\dfrac{1}{2} xảy ra <b class=\"mbl-term\" tabindex=\"0\" data-en=\"interval\">khoảng</b> bao nhiêu lần?",
+   "options": [
+    "\\(10\\)",
+    "\\(100\\)",
+    "\\(50\\)",
+    "\\(33\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Expected count \\(\\approx N\\cdot P\\).",
+   "explain_vi": "Đáp án c. Số lần dự kiến \\(\\approx N\\cdot P=100\\cdot\\dfrac{1}{2}\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"experimental frequency\">tần suất thực nghiệm</b> dao động quanh xác suất.",
+   "images": [],
+   "id": "0d9e287f3c28",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Two dice are rolled. P(the difference of the numbers is #) =…",
+   "en": "Two dice are rolled. P(the difference of the numbers is 4) =…",
+   "vi": "Gieo hai con xúc xắc. Xác suất hiệu (lớn trừ nhỏ) số chấm bằng 4 là…",
+   "options": [
+    "\\(\\dfrac{5}{36}\\)",
+    "\\(\\dfrac{1}{9}\\)",
+    "\\(\\dfrac{1}{6}\\)",
+    "\\(\\dfrac{1}{18}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Count pairs \\((a,b)\\) with \\(|a-b|=4\\).",
+   "explain_vi": "Đáp án b. Đếm các cặp \\((a,b)\\) có \\(|a-b|=4\\): 4 cặp.",
+   "images": [],
+   "id": "bee7e9476f40",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Two dice are rolled. P(the larger number is #) =…",
+   "en": "Two dice are rolled. P(the larger number is 3) =…",
+   "vi": "Gieo hai con xúc xắc. Xác suất số chấm lớn nhất bằng 3 là…",
+   "options": [
+    "\\(\\dfrac{5}{36}\\)",
+    "\\(\\dfrac{1}{12}\\)",
+    "\\(\\dfrac{1}{4}\\)",
+    "\\(\\dfrac{1}{6}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Count the cells of the table.",
+   "explain_vi": "Đáp án a. Đếm trong bảng 36 ô: có 5 kết quả thuận lợi.",
+   "images": [],
+   "id": "778c459414e5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Two dice are rolled. P(the product equals #) =…",
+   "en": "Two dice are rolled. P(the product equals 6) =…",
+   "vi": "Gieo hai con xúc xắc. Xác suất để tích số chấm bằng 6 là…",
+   "options": [
+    "\\(\\dfrac{1}{6}\\)",
+    "\\(\\dfrac{1}{9}\\)",
+    "\\(\\dfrac{1}{2}\\)",
+    "\\(\\dfrac{2}{3}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. List the table of 36 outcomes.",
+   "explain_vi": "Đáp án b. Lập bảng 36 kết quả; có 4 kết quả thuận lợi.",
+   "images": [],
+   "id": "403133e25058",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Two dice are rolled. P(the sum is at least #) =…",
+   "en": "Two dice are rolled. P(the sum is at least 7) =…",
+   "vi": "Gieo hai con xúc xắc. Xác suất tổng số chấm không nhỏ hơn 7 là…",
+   "options": [
+    "\\(\\dfrac{6}{11}\\)",
+    "\\(\\dfrac{5}{12}\\)",
+    "\\(\\dfrac{7}{12}\\)",
+    "\\(\\dfrac{1}{2}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Count the table entries.",
+   "explain_vi": "Đáp án c. Đếm trong bảng: 21 kết quả.",
+   "images": [],
+   "id": "b00d72db3f4c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Two different numbers are chosen at random from \\(#,\\dots,#\\). P(their sum is even) =…",
+   "en": "Two different numbers are chosen at random from \\(1,2,\\dots,6\\). P(their sum is even) =…",
+   "vi": "Chọn ngẫu nhiên hai số khác nhau từ \\(1,2,\\dots,6\\). Xác suất tổng hai số là số chẵn là…",
+   "options": [
+    "\\(\\dfrac{2}{5}\\)",
+    "\\(\\dfrac{1}{2}\\)",
+    "\\(\\dfrac{7}{15}\\)",
+    "\\(\\dfrac{3}{5}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Even sum: both even or both odd.",
+   "explain_vi": "Đáp án a. Tổng chẵn khi hai số cùng chẵn hoặc cùng lẻ: \\(6\\) cặp trên \\(C_{6}^2=15\\).",
+   "images": [],
+   "id": "f5d571324f84",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "# students including An and Bình line up at random. P(An and Bình are adjacent) =…",
+   "en": "6 students including An and Bình line up at random. P(An and Bình are adjacent) =…",
+   "vi": "6 học sinh, trong đó có An và Bình, xếp hàng ngẫu nhiên. Xác suất An và Bình đứng cạnh nhau là…",
+   "options": [
+    "\\(\\dfrac{1}{6}\\)",
+    "\\(\\dfrac{1}{3}\\)",
+    "\\(\\dfrac{2}{5}\\)",
+    "\\(\\dfrac{1}{5}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\dfrac{2(n-1)!}{n!}\\).",
+   "explain_vi": "Đáp án b. \\(\\dfrac{2\\cdot(6-1)!}{6!}=\\dfrac{1}{3}\\).",
+   "images": [],
+   "id": "d267830f4c6b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Two dice are rolled. P(the difference is #) =…",
+   "en": "Two dice are rolled. P(the difference is 1) =…",
+   "vi": "Gieo hai con xúc xắc. Xác suất hiệu số chấm (lớn trừ nhỏ) bằng 1 là…",
+   "options": [
+    "\\(\\dfrac{5}{36}\\)",
+    "\\(\\dfrac{1}{6}\\)",
+    "\\(\\dfrac{1}{3}\\)",
+    "\\(\\dfrac{5}{18}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. 10 outcomes.",
+   "explain_vi": "Đáp án d. Có 10 cặp thỏa mãn.",
+   "images": [],
+   "id": "9843a718a6c9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Two dice are rolled. P(the larger number is #) =…",
+   "en": "Two dice are rolled. P(the larger number is 5) =…",
+   "vi": "Gieo hai con xúc xắc. Xác suất số chấm lớn nhất bằng 5 là…",
+   "options": [
+    "\\(\\dfrac{1}{6}\\)",
+    "\\(\\dfrac{5}{36}\\)",
+    "\\(\\dfrac{5}{18}\\)",
+    "\\(\\dfrac{1}{4}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. 9 outcomes.",
+   "explain_vi": "Đáp án d. Có \\(2\\cdot5-1=9\\) kết quả thuận lợi.",
+   "images": [],
+   "id": "0bb4603d094e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "Family with # children: P(exactly one boy) = #/#.",
+   "en": "Family with 3 children: P(exactly one boy) = 1/3.",
+   "vi": "Gia đình 3 con: xác suất có đúng một con trai bằng \\(\\dfrac13\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "Use the 8-branch tree.",
+   "explain_vi": "Dùng sơ đồ cây 8 nhánh.",
+   "images": [],
+   "id": "588f1612dae4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "When the number of trials grows, the experimental frequency tends to get close to the probability.",
+   "en": "When the number of trials grows, the experimental frequency tends to get close to the probability.",
+   "vi": "Khi số lần thử tăng, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"experimental frequency\">tần suất thực nghiệm</b> có xu hướng tiến gần đến xác suất.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "Frequency estimates probability.",
+   "explain_vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"relative frequency\">Tần suất</b> chỉ ước lượng xác suất, dao động quanh xác suất khi số lần thử lớn.",
+   "images": [],
+   "id": "e20e17d9d273",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "Two coins are tossed # times. About how many times do we expect two heads?",
+   "en": "Two coins are tossed 300 times. About how many times do we expect two heads?",
+   "vi": "Gieo hai đồng xu 300 lần. Dự kiến có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"interval\">khoảng</b> bao nhiêu lần cả hai đều sấp?",
+   "options": [],
+   "answer": "75",
+   "explain_en": "Expected count \\(\\approx N\\cdot P\\).",
+   "explain_vi": "Số lần dự kiến \\(\\approx N\\cdot P\\).",
+   "images": [],
+   "id": "9806cd33e145",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "Two dice are rolled. How many outcomes give a product of #?",
+   "en": "Two dice are rolled. How many outcomes give a product of 12?",
+   "vi": "Gieo hai con xúc xắc. Có bao nhiêu kết quả cho tích bằng 12?",
+   "options": [],
+   "answer": "4",
+   "explain_en": "Count in the table.",
+   "explain_vi": "Đếm trong bảng 36 ô.",
+   "images": [],
+   "id": "1d53fe85741d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "# cards are numbered # to #. One card is drawn. P(the number is a perfect square) =…",
+   "en": "12 cards are numbered 1 to 12. One card is drawn. P(the number is a perfect square) =…",
+   "vi": "Có 12 tấm thẻ đánh số từ 1 đến 12. Rút ngẫu nhiên một thẻ. Xác suất số trên thẻ là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"perfect square\">số chính phương</b> là…",
+   "options": [
+    "\\(\\dfrac{1}{4}\\)",
+    "\\(\\dfrac{1}{6}\\)",
+    "\\(\\dfrac{1}{3}\\)",
+    "\\(\\dfrac{1}{2}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Favourable: 1, 4, 9.",
+   "explain_vi": "Đáp án a. Các số thuận lợi: 1, 4, 9 (3 số).",
+   "images": [],
+   "id": "bb3a6c8cea2b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "# students, including An and Bình, line up in a random order. P(An and Bình stand next to each other) =…",
+   "en": "7 students, including An and Bình, line up in a random order. P(An and Bình stand next to each other) =…",
+   "vi": "7 học sinh, trong đó có An và Bình, xếp hàng ngang ngẫu nhiên. Xác suất An và Bình đứng cạnh nhau là…",
+   "options": [
+    "\\(\\dfrac{1}{7}\\)",
+    "\\(\\dfrac{2}{7}\\)",
+    "\\(\\dfrac{1}{3}\\)",
+    "\\(\\dfrac{1}{6}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\dfrac{2\\cdot(7-1)!}{7!}\\).",
+   "explain_vi": "Đáp án b. \\(\\dfrac{2\\cdot(7-1)!}{7!}=\\dfrac2{7}\\).",
+   "images": [],
+   "id": "c7c4a33f6430",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "A die is rolled # times by simulation. Theoretically, about how many times do we expect the event of probability \\dfrac{#}{#} to occur?",
+   "en": "A die is rolled 100 times by simulation. Theoretically, about how many times do we expect the event of probability \\dfrac{1}{6} to occur?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"simulation\">Mô phỏng</b> gieo xúc xắc 100 lần. Về lí thuyết, biến cố có xác suất \\dfrac{1}{6} xảy ra <b class=\"mbl-term\" tabindex=\"0\" data-en=\"interval\">khoảng</b> bao nhiêu lần?",
+   "options": [
+    "\\(100\\)",
+    "\\(16.7\\)",
+    "\\(10\\)",
+    "\\(50\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Expected count \\(\\approx N\\cdot P\\).",
+   "explain_vi": "Đáp án b. Số lần dự kiến \\(\\approx N\\cdot P=100\\cdot\\dfrac{1}{6}\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"experimental frequency\">tần suất thực nghiệm</b> dao động quanh xác suất.",
+   "images": [],
+   "id": "2c1a47dd6ed3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Two dice are rolled. P(the difference of the numbers is #) =…",
+   "en": "Two dice are rolled. P(the difference of the numbers is 1) =…",
+   "vi": "Gieo hai con xúc xắc. Xác suất hiệu (lớn trừ nhỏ) số chấm bằng 1 là…",
+   "options": [
+    "\\(\\dfrac{1}{6}\\)",
+    "\\(\\dfrac{5}{36}\\)",
+    "\\(\\dfrac{5}{18}\\)",
+    "\\(\\dfrac{1}{3}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Count pairs \\((a,b)\\) with \\(|a-b|=1\\).",
+   "explain_vi": "Đáp án c. Đếm các cặp \\((a,b)\\) có \\(|a-b|=1\\): 10 cặp.",
+   "images": [],
+   "id": "8aa077ed06fc",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Two dice are rolled. P(the product is odd) =…",
+   "en": "Two dice are rolled. P(the product is odd) =…",
+   "vi": "Gieo hai con xúc xắc. Xác suất để tích số chấm là số lẻ là…",
+   "options": [
+    "\\(\\dfrac{11}{36}\\)",
+    "\\(\\dfrac{1}{4}\\)",
+    "\\(\\dfrac{1}{2}\\)",
+    "\\(\\dfrac{3}{4}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. List the table of 36 outcomes.",
+   "explain_vi": "Đáp án b. Lập bảng 36 kết quả; có 9 kết quả thuận lợi.",
+   "images": [],
+   "id": "cd9f8a95ef93",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Two dice are rolled. P(the smaller number is #) =…",
+   "en": "Two dice are rolled. P(the smaller number is 4) =…",
+   "vi": "Gieo hai con xúc xắc. Xác suất số chấm nhỏ nhất bằng 4 là…",
+   "options": [
+    "\\(\\dfrac{2}{9}\\)",
+    "\\(\\dfrac{1}{6}\\)",
+    "\\(\\dfrac{1}{9}\\)",
+    "\\(\\dfrac{5}{36}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Count the cells of the table.",
+   "explain_vi": "Đáp án d. Đếm trong bảng 36 ô: có 5 kết quả thuận lợi.",
+   "images": [],
+   "id": "6dbe9badd5ce",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Two dice are rolled. P(the sum is at least #) =…",
+   "en": "Two dice are rolled. P(the sum is at least 8) =…",
+   "vi": "Gieo hai con xúc xắc. Xác suất tổng số chấm không nhỏ hơn 8 là…",
+   "options": [
+    "\\(\\dfrac{1}{2}\\)",
+    "\\(\\dfrac{5}{12}\\)",
+    "\\(\\dfrac{7}{12}\\)",
+    "\\(\\dfrac{5}{11}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Count the table entries.",
+   "explain_vi": "Đáp án b. Đếm trong bảng: 15 kết quả.",
+   "images": [],
+   "id": "27a674c076a2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Two different numbers are chosen at random from \\(#,\\dots,#\\). P(their sum is even) =…",
+   "en": "Two different numbers are chosen at random from \\(1,2,\\dots,12\\). P(their sum is even) =…",
+   "vi": "Chọn ngẫu nhiên hai số khác nhau từ \\(1,2,\\dots,12\\). Xác suất tổng hai số là số chẵn là…",
+   "options": [
+    "\\(\\dfrac{5}{11}\\)",
+    "\\(\\dfrac{31}{66}\\)",
+    "\\(\\dfrac{1}{2}\\)",
+    "\\(\\dfrac{6}{11}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Even sum: both even or both odd.",
+   "explain_vi": "Đáp án a. Tổng chẵn khi hai số cùng chẵn hoặc cùng lẻ: \\(30\\) cặp trên \\(C_{12}^2=66\\).",
+   "images": [],
+   "id": "f0d37b6a7ebd",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "# students including An and Bình line up at random. P(An and Bình are adjacent) =…",
+   "en": "4 students including An and Bình line up at random. P(An and Bình are adjacent) =…",
+   "vi": "4 học sinh, trong đó có An và Bình, xếp hàng ngẫu nhiên. Xác suất An và Bình đứng cạnh nhau là…",
+   "options": [
+    "\\(\\dfrac{1}{4}\\)",
+    "\\(\\dfrac{1}{2}\\)",
+    "\\(\\dfrac{2}{3}\\)",
+    "\\(\\dfrac{1}{3}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\dfrac{2(n-1)!}{n!}\\).",
+   "explain_vi": "Đáp án b. \\(\\dfrac{2\\cdot(4-1)!}{4!}=\\dfrac{1}{2}\\).",
+   "images": [],
+   "id": "ede22607d9d2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Two dice are rolled. P(the difference is #) =…",
+   "en": "Two dice are rolled. P(the difference is 3) =…",
+   "vi": "Gieo hai con xúc xắc. Xác suất hiệu số chấm (lớn trừ nhỏ) bằng 3 là…",
+   "options": [
+    "\\(\\dfrac{1}{12}\\)",
+    "\\(\\dfrac{1}{9}\\)",
+    "\\(\\dfrac{1}{6}\\)",
+    "\\(\\dfrac{2}{9}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. 6 outcomes.",
+   "explain_vi": "Đáp án c. Có 6 cặp thỏa mãn.",
+   "images": [],
+   "id": "7b8d4a239a02",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Two dice are rolled. P(the larger number is #) =…",
+   "en": "Two dice are rolled. P(the larger number is 2) =…",
+   "vi": "Gieo hai con xúc xắc. Xác suất số chấm lớn nhất bằng 2 là…",
+   "options": [
+    "\\(\\dfrac{1}{12}\\)",
+    "\\(\\dfrac{1}{6}\\)",
+    "\\(\\dfrac{1}{18}\\)",
+    "\\(\\dfrac{1}{9}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. 3 outcomes.",
+   "explain_vi": "Đáp án a. Có \\(2\\cdot2-1=3\\) kết quả thuận lợi.",
+   "images": [],
+   "id": "e029bafa134b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "After # tails in a row, the next toss is more likely to be a head.",
+   "en": "After 5 tails in a row, the next toss is more likely to be a head.",
+   "vi": "Sau 5 lần ngửa liên tiếp, lần gieo tiếp theo dễ ra mặt sấp hơn.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "Frequency estimates probability.",
+   "explain_vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"relative frequency\">Tần suất</b> chỉ ước lượng xác suất, dao động quanh xác suất khi số lần thử lớn.",
+   "images": [],
+   "id": "ba01dbca245e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "Family with # children: P(at least one boy) = #/#.",
+   "en": "Family with 3 children: P(at least one boy) = 7/8.",
+   "vi": "Gia đình 3 con: xác suất có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"at least one\">ít nhất một</b> con trai bằng \\(\\dfrac78\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "Use the 8-branch tree.",
+   "explain_vi": "Dùng sơ đồ cây 8 nhánh.",
+   "images": [],
+   "id": "60fb94daf292",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Two dice are rolled # times. About how many times do we expect a sum of #?",
+   "en": "Two dice are rolled 360 times. About how many times do we expect a sum of 7?",
+   "vi": "Gieo hai con xúc xắc 360 lần. Dự kiến có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"interval\">khoảng</b> bao nhiêu lần tổng bằng 7?",
+   "options": [],
+   "answer": "60",
+   "explain_en": "Expected count \\(\\approx N\\cdot P\\).",
+   "explain_vi": "Số lần dự kiến \\(\\approx N\\cdot P\\).",
+   "images": [],
+   "id": "fc447d35d5b6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Two dice are rolled. How many outcomes have numbers differing by #?",
+   "en": "Two dice are rolled. How many outcomes have numbers differing by 1?",
+   "vi": "Gieo hai con xúc xắc. Có bao nhiêu kết quả mà hai số chấm hơn kém nhau 1?",
+   "options": [],
+   "answer": "10",
+   "explain_en": "Count in the table.",
+   "explain_vi": "Đếm trong bảng 36 ô.",
+   "images": [],
+   "id": "8bbe8ff7164a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "# cards are numbered # to #. One card is drawn. P(the number is a prime number) =…",
+   "en": "12 cards are numbered 1 to 12. One card is drawn. P(the number is a prime number) =…",
+   "vi": "Có 12 tấm thẻ đánh số từ 1 đến 12. Rút ngẫu nhiên một thẻ. Xác suất số trên thẻ là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"integers\">số nguyên</b> tố là…",
+   "options": [
+    "\\(\\dfrac{1}{2}\\)",
+    "\\(\\dfrac{5}{11}\\)",
+    "\\(\\dfrac{5}{12}\\)",
+    "\\(\\dfrac{1}{3}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Favourable: 2, 3, 5, 7, 11.",
+   "explain_vi": "Đáp án c. Các số thuận lợi: 2, 3, 5, 7, 11 (5 số).",
+   "images": [],
+   "id": "9fd2adc209d6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "# students, including An and Bình, line up in a random order. P(An and Bình stand next to each other) =…",
+   "en": "8 students, including An and Bình, line up in a random order. P(An and Bình stand next to each other) =…",
+   "vi": "8 học sinh, trong đó có An và Bình, xếp hàng ngang ngẫu nhiên. Xác suất An và Bình đứng cạnh nhau là…",
+   "options": [
+    "\\(\\dfrac{2}{7}\\)",
+    "\\(\\dfrac{1}{4}\\)",
+    "\\(\\dfrac{1}{8}\\)",
+    "\\(\\dfrac{1}{7}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\dfrac{2\\cdot(8-1)!}{8!}\\).",
+   "explain_vi": "Đáp án b. \\(\\dfrac{2\\cdot(8-1)!}{8!}=\\dfrac2{8}\\).",
+   "images": [],
+   "id": "69fe70972c10",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "A die is rolled # times by simulation. Theoretically, about how many times do we expect the event of probability \\dfrac{#}{#} to occur?",
+   "en": "A die is rolled 50 times by simulation. Theoretically, about how many times do we expect the event of probability \\dfrac{1}{2} to occur?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"simulation\">Mô phỏng</b> gieo xúc xắc 50 lần. Về lí thuyết, biến cố có xác suất \\dfrac{1}{2} xảy ra <b class=\"mbl-term\" tabindex=\"0\" data-en=\"interval\">khoảng</b> bao nhiêu lần?",
+   "options": [
+    "\\(16\\)",
+    "\\(50\\)",
+    "\\(5\\)",
+    "\\(25\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Expected count \\(\\approx N\\cdot P\\).",
+   "explain_vi": "Đáp án d. Số lần dự kiến \\(\\approx N\\cdot P=50\\cdot\\dfrac{1}{2}\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"experimental frequency\">tần suất thực nghiệm</b> dao động quanh xác suất.",
+   "images": [],
+   "id": "bffa15910966",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Two dice are rolled. P(the difference of the numbers is #) =…",
+   "en": "Two dice are rolled. P(the difference of the numbers is 0) =…",
+   "vi": "Gieo hai con xúc xắc. Xác suất hiệu (lớn trừ nhỏ) số chấm bằng 0 là…",
+   "options": [
+    "\\(\\dfrac{1}{6}\\)",
+    "\\(\\dfrac{1}{12}\\)",
+    "\\(\\dfrac{1}{3}\\)",
+    "\\(\\dfrac{2}{9}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Count pairs \\((a,b)\\) with \\(|a-b|=0\\).",
+   "explain_vi": "Đáp án a. Đếm các cặp \\((a,b)\\) có \\(|a-b|=0\\): 6 cặp.",
+   "images": [],
+   "id": "e48751d0a521",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Two dice are rolled. P(the product is even) =…",
+   "en": "Two dice are rolled. P(the product is even) =…",
+   "vi": "Gieo hai con xúc xắc. Xác suất để tích số chấm là số chẵn là…",
+   "options": [
+    "\\(\\dfrac{29}{36}\\)",
+    "\\(\\dfrac{3}{4}\\)",
+    "\\(\\dfrac{1}{4}\\)",
+    "\\(\\dfrac{1}{2}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. List the table of 36 outcomes.",
+   "explain_vi": "Đáp án b. Lập bảng 36 kết quả; có 27 kết quả thuận lợi.",
+   "images": [],
+   "id": "4a19ba7a387d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Two dice are rolled. P(the smaller number is #) =…",
+   "en": "Two dice are rolled. P(the smaller number is 5) =…",
+   "vi": "Gieo hai con xúc xắc. Xác suất số chấm nhỏ nhất bằng 5 là…",
+   "options": [
+    "\\(\\dfrac{1}{6}\\)",
+    "\\(\\dfrac{1}{12}\\)",
+    "\\(\\dfrac{5}{18}\\)",
+    "\\(\\dfrac{5}{36}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Count the cells of the table.",
+   "explain_vi": "Đáp án b. Đếm trong bảng 36 ô: có 3 kết quả thuận lợi.",
+   "images": [],
+   "id": "f8224747b76a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Two dice are rolled. P(the sum is at least #) =…",
+   "en": "Two dice are rolled. P(the sum is at least 11) =…",
+   "vi": "Gieo hai con xúc xắc. Xác suất tổng số chấm không nhỏ hơn 11 là…",
+   "options": [
+    "\\(\\dfrac{11}{12}\\)",
+    "\\(\\dfrac{2}{11}\\)",
+    "\\(\\dfrac{1}{2}\\)",
+    "\\(\\dfrac{1}{12}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Count the table entries.",
+   "explain_vi": "Đáp án d. Đếm trong bảng: 3 kết quả.",
+   "images": [],
+   "id": "48880e5bb7a6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Two different numbers are chosen at random from \\(#,\\dots,#\\). P(their sum is even) =…",
+   "en": "Two different numbers are chosen at random from \\(1,2,\\dots,7\\). P(their sum is even) =…",
+   "vi": "Chọn ngẫu nhiên hai số khác nhau từ \\(1,2,\\dots,7\\). Xác suất tổng hai số là số chẵn là…",
+   "options": [
+    "\\(\\dfrac{10}{21}\\)",
+    "\\(\\dfrac{3}{7}\\)",
+    "\\(\\dfrac{1}{2}\\)",
+    "\\(\\dfrac{4}{7}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Even sum: both even or both odd.",
+   "explain_vi": "Đáp án b. Tổng chẵn khi hai số cùng chẵn hoặc cùng lẻ: \\(9\\) cặp trên \\(C_{7}^2=21\\).",
+   "images": [],
+   "id": "e9de7df0b001",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  }
+ ]
+}

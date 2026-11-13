@@ -133,7 +133,10 @@ def graph_svg(curves, xr, yr, xticks, yticks, hlines=(), vlines=(), dots=(), W=9
     for v, t in yticks:
         c.o.append('\\draw[ink!70] (%.3f,%.3f) -- (%.3f,%.3f);' % (ox - 0.07, Y(v), ox + 0.07, Y(v)))
     c.o.append('\\node[font=\\small, text=ink] at (%.3f,%.3f) {$%s$};' % (W + 0.3, oy - 0.28, names[0])); c.boxes.append((W + 0.05, oy - 0.5, W + 0.55, oy - 0.06))
-    c.o.append('\\node[font=\\small, text=ink] at (%.3f,%.3f) {$%s$};' % (ox - 0.3, H + 0.3, names[1])); c.boxes.append((ox - 0.55, H + 0.08, ox - 0.05, H + 0.5))
+    if len(names[1]) > 4:      # tên dài (ví dụ y=f'(x)): đặt hẳn bên trái trục, không để trục đi qua chữ
+        w, hh = lw(names[1]); c.label(ox, H + 0.3, '$%s$' % names[1], w, hh, [(-w / 2 - 0.15, 0), (w / 2 + 0.15, 0), (-w / 2 - 0.15, -0.45), (w / 2 + 0.15, -0.45)])
+    else:
+        c.o.append('\\node[font=\\small, text=ink] at (%.3f,%.3f) {$%s$};' % (ox - 0.3, H + 0.3, names[1])); c.boxes.append((ox - 0.55, H + 0.08, ox - 0.05, H + 0.5))
     for v, t in xticks:
         w, h = lw(t); d = h / 2 + 0.1
         c.label(X(v), oy, '$%s$' % t, w, h, [(0, -d), (0, d), (0.12, -d), (-0.12, -d), (0.12, d), (-0.12, d)], white=True)

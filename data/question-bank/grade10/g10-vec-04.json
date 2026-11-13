@@ -1,0 +1,1029 @@
+{
+ "lesson": "g10-vec-04",
+ "grade": 10,
+ "no": 10,
+ "title": "Vectơ trong mặt phẳng tọa độ",
+ "path": "lessons/grade10/vectors/vectors-coordinate-plane.html",
+ "items": [
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "A garden \\(ABCD\\) is a parallelogram with \\(A(#;\\,#)\\), \\(B(#;\\,#)\\), \\(C(#;\\,#)\\). The corner \\(D\\) is at…",
+   "en": "A garden \\(ABCD\\) is a parallelogram with \\(A(0;\\,0)\\), \\(B(3;\\,1)\\), \\(C(5;\\,4)\\). The corner \\(D\\) is at…",
+   "vi": "Một mảnh vườn \\(ABCD\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelogram\">hình bình hành</b> có \\(A(0;\\,0)\\), \\(B(3;\\,1)\\), \\(C(5;\\,4)\\). Góc vườn \\(D\\) có tọa độ…",
+   "options": [
+    "\\((2;\\,3)\\)",
+    "\\((8;\\,5)\\)",
+    "\\((-2;\\,-3)\\)",
+    "\\((5;\\,4)\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\overrightarrow{AD}=\\overrightarrow{BC}\\Rightarrow D=A+C-B=(2;\\,3)\\).",
+   "explain_vi": "Đáp án a. \\(\\overrightarrow{AD}=\\overrightarrow{BC}\\Rightarrow D=A+C-B=(2;\\,3)\\).",
+   "images": [],
+   "id": "3fa000b78f07",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "On a map (# unit = # m), a bus stop is at \\(A(#;\\,#)\\) and a market at \\(B(#;\\,#)\\). The vector \\(\\overrightarrow{AB}\\) is…",
+   "en": "On a map (1 unit = 100 m), a bus stop is at \\(A(1;\\,2)\\) and a market at \\(B(4;\\,6)\\). The vector \\(\\overrightarrow{AB}\\) is…",
+   "vi": "Trên bản đồ (1 đơn vị ứng với 100 m), trạm xe buýt ở \\(A(1;\\,2)\\), chợ ở \\(B(4;\\,6)\\). Vectơ \\(\\overrightarrow{AB}\\) có tọa độ…",
+   "options": [
+    "\\((-3;\\,-4)\\)",
+    "\\((5;\\,8)\\)",
+    "\\((3;\\,4)\\)",
+    "\\((4;\\,3)\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. End minus start: \\((3;\\,4)\\).",
+   "explain_vi": "Đáp án c. Điểm cuối trừ điểm đầu: \\((3;\\,4)\\).",
+   "images": [],
+   "id": "e28caf327715",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(\\vec a=(#;\\,#)\\), \\(\\vec b=(#;\\,-#)\\). The coordinates of \\(#\\vec a+\\vec b\\) are…",
+   "en": "\\(\\vec a=(1;\\,3)\\), \\(\\vec b=(2;\\,-1)\\). The coordinates of \\(2\\vec a+\\vec b\\) are…",
+   "vi": "Cho \\(\\vec a=(1;\\,3)\\), \\(\\vec b=(2;\\,-1)\\). Tọa độ của \\(2\\vec a+\\vec b\\) là…",
+   "options": [
+    "\\((0;\\,7)\\)",
+    "\\((4;\\,5)\\)",
+    "\\((3;\\,2)\\)",
+    "\\((4;\\,-5)\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Scale, then add coordinate by coordinate.",
+   "explain_vi": "Đáp án b. Nhân với số trước, rồi cộng theo từng tọa độ.",
+   "images": [],
+   "id": "236e155514bd",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "Three friends live at \\(E(#;\\,#)\\), \\(F(#;\\,#)\\), \\(H(#;\\,#)\\). They want to meet at the centroid of triangle \\(EFH\\). The meeting point is \\((#;\\,#)\\).",
+   "en": "Three friends live at \\(E(0;\\,0)\\), \\(F(6;\\,3)\\), \\(H(3;\\,6)\\). They want to meet at the centroid of triangle \\(EFH\\). The meeting point is \\((3;\\,3)\\).",
+   "vi": "Ba bạn ở \\(E(0;\\,0)\\), \\(F(6;\\,3)\\), \\(H(3;\\,6)\\) hẹn gặp tại <b class=\"mbl-term\" tabindex=\"0\" data-en=\"centroid\">trọng tâm</b> tam giác \\(EFH\\). Điểm hẹn là \\((3;\\,3)\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "The centroid is \\((3;\\,3)\\).",
+   "explain_vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"centroid\">Trọng tâm</b> là \\((3;\\,3)\\).",
+   "images": [],
+   "id": "62ca904fdc2c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(\\vec u=(#;\\,-#)\\) and \\(\\vec w=(-#;\\,#)\\) are collinear.",
+   "en": "\\(\\vec u=(2;\\,-3)\\) and \\(\\vec w=(-4;\\,6)\\) are collinear.",
+   "vi": "Hai vectơ \\(\\vec u=(2;\\,-3)\\) và \\(\\vec w=(-4;\\,6)\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"collinear vectors\">cùng phương</b>.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "\\(xy'-x'y=2\\cdot6--4\\cdot-3=0\\).",
+   "explain_vi": "\\(xy'-x'y=2\\cdot6--4\\cdot-3=0\\).",
+   "images": [],
+   "id": "a3f9f0c1d04c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "On a map (# unit = # m), \\(A(#;\\,#)\\) and \\(B(#;\\,#)\\). Find the real distance \\(AB\\) in metres.",
+   "en": "On a map (1 unit = 100 m), \\(A(1;\\,2)\\) and \\(B(4;\\,6)\\). Find the real distance \\(AB\\) in metres.",
+   "vi": "Trên bản đồ (1 đơn vị ứng với 100 m) cho \\(A(1;\\,2)\\), \\(B(4;\\,6)\\). Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">khoảng cách</b> thực tế \\(AB\\) (mét).",
+   "options": [],
+   "answer": "500",
+   "explain_en": "\\(AB=\\sqrt{3^2+4^2}=5\\) units \\(=500\\) m.",
+   "explain_vi": "\\(AB=\\sqrt{3^2+4^2}=5\\) đơn vị \\(=500\\) m.",
+   "images": [],
+   "id": "2f059dc822fe",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "Points \\(A(#;\\,#)\\), \\(B(#;\\,#)\\) and \\(C(#;\\,m)\\). Find \\(m\\) so that \\(A\\), \\(B\\), \\(C\\) are collinear.",
+   "en": "Points \\(A(0;\\,1)\\), \\(B(2;\\,3)\\) and \\(C(4;\\,m)\\). Find \\(m\\) so that \\(A\\), \\(B\\), \\(C\\) are collinear.",
+   "vi": "Cho \\(A(0;\\,1)\\), \\(B(2;\\,3)\\), \\(C(4;\\,m)\\). Tìm \\(m\\) để ba điểm \\(A\\), \\(B\\), \\(C\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"collinear\">thẳng hàng</b>.",
+   "options": [],
+   "answer": "5",
+   "explain_en": "\\(\\overrightarrow{AB}=(2;\\,2)\\), \\(\\overrightarrow{AC}=(4;\\,m-1)\\) collinear gives \\(m=5\\).",
+   "explain_vi": "\\(\\overrightarrow{AB}=(2;\\,2)\\), \\(\\overrightarrow{AC}=(4;\\,m-1)\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"collinear vectors\">cùng phương</b> cho \\(m=5\\).",
+   "images": [],
+   "id": "1500c5a17ace",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "On a game map, a robot starts at \\(A(#;\\,#)\\). It moves by \\(\\vec u=(-#;\\,-#)\\), then by \\(\\vec w=(#;\\,-#)\\). Where does it stop?",
+   "en": "On a game map, a robot starts at \\(A(1;\\,3)\\). It moves by \\(\\vec u=(-2;\\,-4)\\), then by \\(\\vec w=(2;\\,-2)\\). Where does it stop?",
+   "vi": "Trên bản đồ một trò chơi, rô-bốt xuất phát tại \\(A(1;\\,3)\\), di chuyển theo \\(\\vec u=(-2;\\,-4)\\) rồi theo \\(\\vec w=(2;\\,-2)\\). Rô-bốt dừng ở điểm nào?",
+   "options": [
+    "\\((0;\\,-6)\\)",
+    "\\((-3;\\,1)\\)",
+    "\\((1;\\,-3)\\)",
+    "\\((-1;\\,-1)\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Final point \\(=A+\\vec u+\\vec w=(1;\\,-3)\\).",
+   "explain_vi": "Đáp án c. Điểm dừng \\(=A+\\vec u+\\vec w=(1;\\,-3)\\).",
+   "images": [],
+   "id": "aabc0f4b76e1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The length of \\(\\vec u=(#;\\,-#)\\) is…",
+   "en": "The length of \\(\\vec u=(6;\\,-8)\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"magnitude (length)\">Độ dài của vectơ</b> \\(\\vec u=(6;\\,-8)\\) bằng…",
+   "options": [
+    "\\(100\\)",
+    "\\(2\\)",
+    "\\(10\\)",
+    "\\(14\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(|\\vec u|=\\sqrt{6^2+8^2}=\\sqrt{100}=10\\).",
+   "explain_vi": "Đáp án c. \\(|\\vec u|=\\sqrt{6^2+8^2}=\\sqrt{100}=10\\).",
+   "images": [],
+   "id": "871917125a98",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(A(#;\\,#)\\), \\(B(#;\\,#)\\). The midpoint \\(I\\) of \\(AB\\) is…",
+   "en": "\\(A(6;\\,2)\\), \\(B(8;\\,0)\\). The midpoint \\(I\\) of \\(AB\\) is…",
+   "vi": "Cho \\(A(6;\\,2)\\), \\(B(8;\\,0)\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">Trung điểm</b> \\(I\\) của \\(AB\\) là…",
+   "options": [
+    "\\((1;\\,-1)\\)",
+    "\\((7;\\,1)\\)",
+    "\\((14;\\,2)\\)",
+    "\\((2;\\,-2)\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(I=\\left(\\dfrac{x_A+x_B}2;\\dfrac{y_A+y_B}2\\right)=(7;\\,1)\\).",
+   "explain_vi": "Đáp án b. \\(I=\\left(\\dfrac{x_A+x_B}2;\\dfrac{y_A+y_B}2\\right)=(7;\\,1)\\).",
+   "images": [],
+   "id": "f6680198a5e8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(A(#;\\,#)\\), \\(B(-#;\\,-#)\\), \\(C(-#;\\,#)\\). The centroid \\(G\\) of triangle \\(ABC\\) is…",
+   "en": "\\(A(0;\\,1)\\), \\(B(-2;\\,-3)\\), \\(C(-7;\\,8)\\). The centroid \\(G\\) of triangle \\(ABC\\) is…",
+   "vi": "Cho \\(A(0;\\,1)\\), \\(B(-2;\\,-3)\\), \\(C(-7;\\,8)\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"centroid\">Trọng tâm</b> \\(G\\) của tam giác \\(ABC\\) là…",
+   "options": [
+    "\\((-3;\\,2)\\)",
+    "\\((-9;\\,6)\\)",
+    "\\((2;\\,-3)\\)",
+    "\\((-\\dfrac{9}{2};\\,3)\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(G=\\left(\\dfrac{x_A+x_B+x_C}3;\\dfrac{y_A+y_B+y_C}3\\right)=(-3;\\,2)\\).",
+   "explain_vi": "Đáp án a. \\(G=\\left(\\dfrac{x_A+x_B+x_C}3;\\dfrac{y_A+y_B+y_C}3\\right)=(-3;\\,2)\\).",
+   "images": [],
+   "id": "e2b1e4533ac5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(A(#;\\,-#)\\), \\(B(#;\\,-#)\\). The coordinates of \\(\\overrightarrow{AB}\\) are…",
+   "en": "\\(A(3;\\,-3)\\), \\(B(2;\\,-1)\\). The coordinates of \\(\\overrightarrow{AB}\\) are…",
+   "vi": "Cho \\(A(3;\\,-3)\\), \\(B(2;\\,-1)\\). Tọa độ của \\(\\overrightarrow{AB}\\) là…",
+   "options": [
+    "\\((1;\\,-2)\\)",
+    "\\((5;\\,-4)\\)",
+    "\\((-1;\\,2)\\)",
+    "\\((2;\\,-1)\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. End minus start: \\(\\overrightarrow{AB}=(x_B-x_A;\\,y_B-y_A)=(-1;\\,2)\\).",
+   "explain_vi": "Đáp án c. Lấy điểm cuối trừ điểm đầu: \\(\\overrightarrow{AB}=(x_B-x_A;\\,y_B-y_A)=(-1;\\,2)\\).",
+   "images": [],
+   "id": "a8e4edd4e7c4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(ABCD\\) is a parallelogram with \\(A(#;\\,#)\\), \\(B(#;\\,#)\\), \\(C(-#;\\,#)\\). Then \\(D\\) is…",
+   "en": "\\(ABCD\\) is a parallelogram with \\(A(0;\\,5)\\), \\(B(4;\\,0)\\), \\(C(-6;\\,1)\\). Then \\(D\\) is…",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelogram\">hình bình hành</b> \\(ABCD\\) có \\(A(0;\\,5)\\), \\(B(4;\\,0)\\), \\(C(-6;\\,1)\\). Tọa độ đỉnh \\(D\\) là…",
+   "options": [
+    "\\((-2;\\,6)\\)",
+    "\\((-10;\\,6)\\)",
+    "\\((10;\\,4)\\)",
+    "\\((-2;\\,-4)\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\overrightarrow{AD}=\\overrightarrow{BC}\\) gives \\(D=A+C-B=(-10;\\,6)\\).",
+   "explain_vi": "Đáp án b. \\(\\overrightarrow{AD}=\\overrightarrow{BC}\\) nên \\(D=A+C-B=(-10;\\,6)\\).",
+   "images": [],
+   "id": "08c6680711b4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\vec a=(#;\\,-#)\\), \\(\\vec b=(-#;\\,#)\\). Then \\(#\\vec a+#\\vec b=\\)…",
+   "en": "\\(\\vec a=(4;\\,-2)\\), \\(\\vec b=(-1;\\,2)\\). Then \\(2\\vec a+3\\vec b=\\)…",
+   "vi": "Cho \\(\\vec a=(4;\\,-2)\\), \\(\\vec b=(-1;\\,2)\\). Khi đó \\(2\\vec a+3\\vec b=\\)…",
+   "options": [
+    "\\((5;\\,2)\\)",
+    "\\((10;\\,-2)\\)",
+    "\\((3;\\,0)\\)",
+    "\\((11;\\,-10)\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Multiply first, then add coordinate by coordinate: \\((5;\\,2)\\).",
+   "explain_vi": "Đáp án a. Nhân trước rồi cộng theo từng tọa độ: \\((5;\\,2)\\).",
+   "images": [],
+   "id": "c4e613922628",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\vec u=(#;\\,#)\\) and \\(\\vec v=(m;\\,-#)\\). The vectors are collinear when \\(m=\\)…",
+   "en": "\\(\\vec u=(3;\\,2)\\) and \\(\\vec v=(m;\\,-4)\\). The vectors are collinear when \\(m=\\)…",
+   "vi": "Cho \\(\\vec u=(3;\\,2)\\), \\(\\vec v=(m;\\,-4)\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"collinear vectors\">Hai vectơ cùng phương</b> khi \\(m=\\)…",
+   "options": [
+    "\\(-5\\)",
+    "\\(6\\)",
+    "\\(-6\\)",
+    "\\(-\\dfrac{8}{3}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Collinear: \\(\\dfrac{m}{3}=\\dfrac{-4}{2}\\), so \\(m=-6\\).",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"collinear vectors\">Cùng phương</b>: \\(\\dfrac{m}{3}=\\dfrac{-4}{2}\\) nên \\(m=-6\\).",
+   "images": [],
+   "id": "bbf069f956b7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "A garden \\(ABCD\\) is a parallelogram with \\(A(#;\\,-#)\\), \\(B(#;\\,#)\\), \\(C(#;\\,#)\\). The corner \\(D\\) is at…",
+   "en": "A garden \\(ABCD\\) is a parallelogram with \\(A(1;\\,-2)\\), \\(B(4;\\,0)\\), \\(C(6;\\,5)\\). The corner \\(D\\) is at…",
+   "vi": "Một mảnh vườn \\(ABCD\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelogram\">hình bình hành</b> có \\(A(1;\\,-2)\\), \\(B(4;\\,0)\\), \\(C(6;\\,5)\\). Góc vườn \\(D\\) có tọa độ…",
+   "options": [
+    "\\((3;\\,3)\\)",
+    "\\((9;\\,7)\\)",
+    "\\((-1;\\,-7)\\)",
+    "\\((7;\\,3)\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\overrightarrow{AD}=\\overrightarrow{BC}\\Rightarrow D=A+C-B=(3;\\,3)\\).",
+   "explain_vi": "Đáp án a. \\(\\overrightarrow{AD}=\\overrightarrow{BC}\\Rightarrow D=A+C-B=(3;\\,3)\\).",
+   "images": [],
+   "id": "fb01a8b7c981",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "On a map (# unit = # m), a bus stop is at \\(A(-#;\\,#)\\) and a market at \\(B(#;\\,-#)\\). The vector \\(\\overrightarrow{AB}\\) is…",
+   "en": "On a map (1 unit = 50 m), a bus stop is at \\(A(-2;\\,3)\\) and a market at \\(B(4;\\,-5)\\). The vector \\(\\overrightarrow{AB}\\) is…",
+   "vi": "Trên bản đồ (1 đơn vị ứng với 50 m), trạm xe buýt ở \\(A(-2;\\,3)\\), chợ ở \\(B(4;\\,-5)\\). Vectơ \\(\\overrightarrow{AB}\\) có tọa độ…",
+   "options": [
+    "\\((-6;\\,8)\\)",
+    "\\((2;\\,-2)\\)",
+    "\\((-8;\\,6)\\)",
+    "\\((6;\\,-8)\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. End minus start: \\((6;\\,-8)\\).",
+   "explain_vi": "Đáp án d. Điểm cuối trừ điểm đầu: \\((6;\\,-8)\\).",
+   "images": [],
+   "id": "c156e9a13315",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(\\vec a=(-#;\\,#)\\), \\(\\vec b=(#;\\,#)\\). The coordinates of \\(#\\vec a-#\\vec b\\) are…",
+   "en": "\\(\\vec a=(-2;\\,4)\\), \\(\\vec b=(3;\\,1)\\). The coordinates of \\(3\\vec a-2\\vec b\\) are…",
+   "vi": "Cho \\(\\vec a=(-2;\\,4)\\), \\(\\vec b=(3;\\,1)\\). Tọa độ của \\(3\\vec a-2\\vec b\\) là…",
+   "options": [
+    "\\((-12;\\,10)\\)",
+    "\\((0;\\,14)\\)",
+    "\\((1;\\,5)\\)",
+    "\\((-12;\\,-10)\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Scale, then add coordinate by coordinate.",
+   "explain_vi": "Đáp án a. Nhân với số trước, rồi cộng theo từng tọa độ.",
+   "images": [],
+   "id": "75eae7d6a86d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "Three friends live at \\(E(-#;\\,#)\\), \\(F(#;\\,#)\\), \\(H(#;\\,-#)\\). They want to meet at the centroid of triangle \\(EFH\\). The meeting point is \\((#;\\,#)\\).",
+   "en": "Three friends live at \\(E(-1;\\,2)\\), \\(F(4;\\,5)\\), \\(H(3;\\,-1)\\). They want to meet at the centroid of triangle \\(EFH\\). The meeting point is \\((3;\\,2)\\).",
+   "vi": "Ba bạn ở \\(E(-1;\\,2)\\), \\(F(4;\\,5)\\), \\(H(3;\\,-1)\\) hẹn gặp tại <b class=\"mbl-term\" tabindex=\"0\" data-en=\"centroid\">trọng tâm</b> tam giác \\(EFH\\). Điểm hẹn là \\((3;\\,2)\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "The centroid is \\((2;\\,2)\\).",
+   "explain_vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"centroid\">Trọng tâm</b> là \\((2;\\,2)\\).",
+   "images": [],
+   "id": "f3cd35949ecb",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(\\vec u=(#;\\,#)\\) and \\(\\vec w=(#;\\,#)\\) are collinear.",
+   "en": "\\(\\vec u=(3;\\,1)\\) and \\(\\vec w=(6;\\,3)\\) are collinear.",
+   "vi": "Hai vectơ \\(\\vec u=(3;\\,1)\\) và \\(\\vec w=(6;\\,3)\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"collinear vectors\">cùng phương</b>.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "\\(xy'-x'y=3\\cdot3-6\\cdot1=3\\).",
+   "explain_vi": "\\(xy'-x'y=3\\cdot3-6\\cdot1=3\\).",
+   "images": [],
+   "id": "b99c9dd28482",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "On a map (# unit = # m), \\(A(-#;\\,#)\\) and \\(B(#;\\,-#)\\). Find the real distance \\(AB\\) in metres.",
+   "en": "On a map (1 unit = 50 m), \\(A(-2;\\,3)\\) and \\(B(4;\\,-5)\\). Find the real distance \\(AB\\) in metres.",
+   "vi": "Trên bản đồ (1 đơn vị ứng với 50 m) cho \\(A(-2;\\,3)\\), \\(B(4;\\,-5)\\). Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">khoảng cách</b> thực tế \\(AB\\) (mét).",
+   "options": [],
+   "answer": "500",
+   "explain_en": "\\(AB=\\sqrt{6^2+8^2}=10\\) units \\(=500\\) m.",
+   "explain_vi": "\\(AB=\\sqrt{6^2+8^2}=10\\) đơn vị \\(=500\\) m.",
+   "images": [],
+   "id": "cec901ea61c3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "Points \\(A(#;\\,-#)\\), \\(B(#;\\,#)\\) and \\(C(#;\\,m)\\). Find \\(m\\) so that \\(A\\), \\(B\\), \\(C\\) are collinear.",
+   "en": "Points \\(A(1;\\,-1)\\), \\(B(3;\\,3)\\) and \\(C(5;\\,m)\\). Find \\(m\\) so that \\(A\\), \\(B\\), \\(C\\) are collinear.",
+   "vi": "Cho \\(A(1;\\,-1)\\), \\(B(3;\\,3)\\), \\(C(5;\\,m)\\). Tìm \\(m\\) để ba điểm \\(A\\), \\(B\\), \\(C\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"collinear\">thẳng hàng</b>.",
+   "options": [],
+   "answer": "7",
+   "explain_en": "\\(\\overrightarrow{AB}=(2;\\,4)\\), \\(\\overrightarrow{AC}=(4;\\,m+1)\\) collinear gives \\(m=7\\).",
+   "explain_vi": "\\(\\overrightarrow{AB}=(2;\\,4)\\), \\(\\overrightarrow{AC}=(4;\\,m+1)\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"collinear vectors\">cùng phương</b> cho \\(m=7\\).",
+   "images": [],
+   "id": "6bdfdc781f59",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "On a game map, a robot starts at \\(A(#;\\,#)\\). It moves by \\(\\vec u=(-#;\\,#)\\), then by \\(\\vec w=(-#;\\,#)\\). Where does it stop?",
+   "en": "On a game map, a robot starts at \\(A(2;\\,3)\\). It moves by \\(\\vec u=(-1;\\,2)\\), then by \\(\\vec w=(-1;\\,0)\\). Where does it stop?",
+   "vi": "Trên bản đồ một trò chơi, rô-bốt xuất phát tại \\(A(2;\\,3)\\), di chuyển theo \\(\\vec u=(-1;\\,2)\\) rồi theo \\(\\vec w=(-1;\\,0)\\). Rô-bốt dừng ở điểm nào?",
+   "options": [
+    "\\((2;\\,5)\\)",
+    "\\((-2;\\,2)\\)",
+    "\\((0;\\,5)\\)",
+    "\\((1;\\,5)\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Final point \\(=A+\\vec u+\\vec w=(0;\\,5)\\).",
+   "explain_vi": "Đáp án c. Điểm dừng \\(=A+\\vec u+\\vec w=(0;\\,5)\\).",
+   "images": [],
+   "id": "c3a9a9d2fc7d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The length of \\(\\vec u=(-#;\\,#)\\) is…",
+   "en": "The length of \\(\\vec u=(-8;\\,6)\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"magnitude (length)\">Độ dài của vectơ</b> \\(\\vec u=(-8;\\,6)\\) bằng…",
+   "options": [
+    "\\(10\\)",
+    "\\(100\\)",
+    "\\(2\\)",
+    "\\(14\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(|\\vec u|=\\sqrt{8^2+6^2}=\\sqrt{100}=10\\).",
+   "explain_vi": "Đáp án a. \\(|\\vec u|=\\sqrt{8^2+6^2}=\\sqrt{100}=10\\).",
+   "images": [],
+   "id": "4a63232b67df",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(A(#;\\,#)\\), \\(B(#;\\,#)\\). The coordinates of \\(\\overrightarrow{AB}\\) are…",
+   "en": "\\(A(6;\\,0)\\), \\(B(4;\\,1)\\). The coordinates of \\(\\overrightarrow{AB}\\) are…",
+   "vi": "Cho \\(A(6;\\,0)\\), \\(B(4;\\,1)\\). Tọa độ của \\(\\overrightarrow{AB}\\) là…",
+   "options": [
+    "\\((2;\\,-1)\\)",
+    "\\((10;\\,1)\\)",
+    "\\((-2;\\,1)\\)",
+    "\\((1;\\,-2)\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. End minus start: \\(\\overrightarrow{AB}=(x_B-x_A;\\,y_B-y_A)=(-2;\\,1)\\).",
+   "explain_vi": "Đáp án c. Lấy điểm cuối trừ điểm đầu: \\(\\overrightarrow{AB}=(x_B-x_A;\\,y_B-y_A)=(-2;\\,1)\\).",
+   "images": [],
+   "id": "92285798d4ad",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(A(#;\\,-#)\\), \\(B(#;\\,#)\\), \\(C(#;\\,#)\\). The centroid \\(G\\) of triangle \\(ABC\\) is…",
+   "en": "\\(A(6;\\,-2)\\), \\(B(1;\\,1)\\), \\(C(2;\\,10)\\). The centroid \\(G\\) of triangle \\(ABC\\) is…",
+   "vi": "Cho \\(A(6;\\,-2)\\), \\(B(1;\\,1)\\), \\(C(2;\\,10)\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"centroid\">Trọng tâm</b> \\(G\\) của tam giác \\(ABC\\) là…",
+   "options": [
+    "\\((\\dfrac{9}{2};\\,\\dfrac{9}{2})\\)",
+    "\\((3;\\,3)\\)",
+    "\\((9;\\,9)\\)",
+    "\\((4;\\,2)\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(G=\\left(\\dfrac{x_A+x_B+x_C}3;\\dfrac{y_A+y_B+y_C}3\\right)=(3;\\,3)\\).",
+   "explain_vi": "Đáp án b. \\(G=\\left(\\dfrac{x_A+x_B+x_C}3;\\dfrac{y_A+y_B+y_C}3\\right)=(3;\\,3)\\).",
+   "images": [],
+   "id": "6277eedc902e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(A(#;\\,-#)\\), \\(B(#;\\,#)\\). The midpoint \\(I\\) of \\(AB\\) is…",
+   "en": "\\(A(1;\\,-4)\\), \\(B(5;\\,2)\\). The midpoint \\(I\\) of \\(AB\\) is…",
+   "vi": "Cho \\(A(1;\\,-4)\\), \\(B(5;\\,2)\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">Trung điểm</b> \\(I\\) của \\(AB\\) là…",
+   "options": [
+    "\\((6;\\,-2)\\)",
+    "\\((4;\\,6)\\)",
+    "\\((2;\\,3)\\)",
+    "\\((3;\\,-1)\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(I=\\left(\\dfrac{x_A+x_B}2;\\dfrac{y_A+y_B}2\\right)=(3;\\,-1)\\).",
+   "explain_vi": "Đáp án d. \\(I=\\left(\\dfrac{x_A+x_B}2;\\dfrac{y_A+y_B}2\\right)=(3;\\,-1)\\).",
+   "images": [],
+   "id": "3b0828bb9fb0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(ABCD\\) is a parallelogram with \\(A(-#;\\,#)\\), \\(B(#;\\,-#)\\), \\(C(-#;\\,#)\\). Then \\(D\\) is…",
+   "en": "\\(ABCD\\) is a parallelogram with \\(A(-4;\\,4)\\), \\(B(6;\\,-5)\\), \\(C(-6;\\,0)\\). Then \\(D\\) is…",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelogram\">hình bình hành</b> \\(ABCD\\) có \\(A(-4;\\,4)\\), \\(B(6;\\,-5)\\), \\(C(-6;\\,0)\\). Tọa độ đỉnh \\(D\\) là…",
+   "options": [
+    "\\((4;\\,-9)\\)",
+    "\\((-4;\\,-1)\\)",
+    "\\((-16;\\,9)\\)",
+    "\\((8;\\,-1)\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\overrightarrow{AD}=\\overrightarrow{BC}\\) gives \\(D=A+C-B=(-16;\\,9)\\).",
+   "explain_vi": "Đáp án c. \\(\\overrightarrow{AD}=\\overrightarrow{BC}\\) nên \\(D=A+C-B=(-16;\\,9)\\).",
+   "images": [],
+   "id": "8ce5d93add7f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\vec a=(#;\\,#)\\), \\(\\vec b=(-#;\\,#)\\). Then \\(\\vec a-#\\vec b=\\)…",
+   "en": "\\(\\vec a=(5;\\,1)\\), \\(\\vec b=(-5;\\,1)\\). Then \\(\\vec a-3\\vec b=\\)…",
+   "vi": "Cho \\(\\vec a=(5;\\,1)\\), \\(\\vec b=(-5;\\,1)\\). Khi đó \\(\\vec a-3\\vec b=\\)…",
+   "options": [
+    "\\((-20;\\,-2)\\)",
+    "\\((-10;\\,4)\\)",
+    "\\((20;\\,-2)\\)",
+    "\\((0;\\,2)\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Multiply first, then add coordinate by coordinate: \\((20;\\,-2)\\).",
+   "explain_vi": "Đáp án c. Nhân trước rồi cộng theo từng tọa độ: \\((20;\\,-2)\\).",
+   "images": [],
+   "id": "fbb0cc1c950a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\vec u=(#;\\,#)\\) and \\(\\vec v=(m;\\,#)\\). The vectors are collinear when \\(m=\\)…",
+   "en": "\\(\\vec u=(2;\\,3)\\) and \\(\\vec v=(m;\\,6)\\). The vectors are collinear when \\(m=\\)…",
+   "vi": "Cho \\(\\vec u=(2;\\,3)\\), \\(\\vec v=(m;\\,6)\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"collinear vectors\">Hai vectơ cùng phương</b> khi \\(m=\\)…",
+   "options": [
+    "\\(-4\\)",
+    "\\(5\\)",
+    "\\(4\\)",
+    "\\(9\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Collinear: \\(\\dfrac{m}{2}=\\dfrac{6}{3}\\), so \\(m=4\\).",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"collinear vectors\">Cùng phương</b>: \\(\\dfrac{m}{2}=\\dfrac{6}{3}\\) nên \\(m=4\\).",
+   "images": [],
+   "id": "032b3e29b71d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "A garden \\(ABCD\\) is a parallelogram with \\(A(-#;\\,#)\\), \\(B(#;\\,-#)\\), \\(C(#;\\,#)\\). The corner \\(D\\) is at…",
+   "en": "A garden \\(ABCD\\) is a parallelogram with \\(A(-3;\\,1)\\), \\(B(2;\\,-1)\\), \\(C(4;\\,3)\\). The corner \\(D\\) is at…",
+   "vi": "Một mảnh vườn \\(ABCD\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelogram\">hình bình hành</b> có \\(A(-3;\\,1)\\), \\(B(2;\\,-1)\\), \\(C(4;\\,3)\\). Góc vườn \\(D\\) có tọa độ…",
+   "options": [
+    "\\((9;\\,1)\\)",
+    "\\((-1;\\,5)\\)",
+    "\\((-5;\\,-3)\\)",
+    "\\((1;\\,4)\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\overrightarrow{AD}=\\overrightarrow{BC}\\Rightarrow D=A+C-B=(-1;\\,5)\\).",
+   "explain_vi": "Đáp án b. \\(\\overrightarrow{AD}=\\overrightarrow{BC}\\Rightarrow D=A+C-B=(-1;\\,5)\\).",
+   "images": [],
+   "id": "bad667d5e022",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "On a map (# unit = # m), a bus stop is at \\(A(#;\\,-#)\\) and a market at \\(B(-#;\\,#)\\). The vector \\(\\overrightarrow{AB}\\) is…",
+   "en": "On a map (1 unit = 20 m), a bus stop is at \\(A(5;\\,-1)\\) and a market at \\(B(-7;\\,4)\\). The vector \\(\\overrightarrow{AB}\\) is…",
+   "vi": "Trên bản đồ (1 đơn vị ứng với 20 m), trạm xe buýt ở \\(A(5;\\,-1)\\), chợ ở \\(B(-7;\\,4)\\). Vectơ \\(\\overrightarrow{AB}\\) có tọa độ…",
+   "options": [
+    "\\((-12;\\,5)\\)",
+    "\\((12;\\,-5)\\)",
+    "\\((-2;\\,3)\\)",
+    "\\((5;\\,-12)\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. End minus start: \\((-12;\\,5)\\).",
+   "explain_vi": "Đáp án a. Điểm cuối trừ điểm đầu: \\((-12;\\,5)\\).",
+   "images": [],
+   "id": "9242dd3c977b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(\\vec a=(#;\\,-#)\\), \\(\\vec b=(-#;\\,#)\\). The coordinates of \\(-\\vec a+#\\vec b\\) are…",
+   "en": "\\(\\vec a=(4;\\,-1)\\), \\(\\vec b=(-2;\\,5)\\). The coordinates of \\(-\\vec a+3\\vec b\\) are…",
+   "vi": "Cho \\(\\vec a=(4;\\,-1)\\), \\(\\vec b=(-2;\\,5)\\). Tọa độ của \\(-\\vec a+3\\vec b\\) là…",
+   "options": [
+    "\\((-10;\\,16)\\)",
+    "\\((2;\\,-14)\\)",
+    "\\((2;\\,4)\\)",
+    "\\((-10;\\,-16)\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Scale, then add coordinate by coordinate.",
+   "explain_vi": "Đáp án a. Nhân với số trước, rồi cộng theo từng tọa độ.",
+   "images": [],
+   "id": "21f49452f40e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "Three friends live at \\(E(#;\\,-#)\\), \\(F(-#;\\,#)\\), \\(H(#;\\,#)\\). They want to meet at the centroid of triangle \\(EFH\\). The meeting point is \\((#;\\,#)\\).",
+   "en": "Three friends live at \\(E(2;\\,-3)\\), \\(F(-4;\\,1)\\), \\(H(5;\\,8)\\). They want to meet at the centroid of triangle \\(EFH\\). The meeting point is \\((1;\\,2)\\).",
+   "vi": "Ba bạn ở \\(E(2;\\,-3)\\), \\(F(-4;\\,1)\\), \\(H(5;\\,8)\\) hẹn gặp tại <b class=\"mbl-term\" tabindex=\"0\" data-en=\"centroid\">trọng tâm</b> tam giác \\(EFH\\). Điểm hẹn là \\((1;\\,2)\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "The centroid is \\((1;\\,2)\\).",
+   "explain_vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"centroid\">Trọng tâm</b> là \\((1;\\,2)\\).",
+   "images": [],
+   "id": "5a539f45b37b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(\\vec u=(-#;\\,#)\\) and \\(\\vec w=(#;\\,-#)\\) are collinear.",
+   "en": "\\(\\vec u=(-5;\\,2)\\) and \\(\\vec w=(10;\\,-4)\\) are collinear.",
+   "vi": "Hai vectơ \\(\\vec u=(-5;\\,2)\\) và \\(\\vec w=(10;\\,-4)\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"collinear vectors\">cùng phương</b>.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "\\(xy'-x'y=-5\\cdot-4-10\\cdot2=0\\).",
+   "explain_vi": "\\(xy'-x'y=-5\\cdot-4-10\\cdot2=0\\).",
+   "images": [],
+   "id": "9d083e490fc9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "On a map (# unit = # m), \\(A(#;\\,-#)\\) and \\(B(-#;\\,#)\\). Find the real distance \\(AB\\) in metres.",
+   "en": "On a map (1 unit = 20 m), \\(A(5;\\,-1)\\) and \\(B(-7;\\,4)\\). Find the real distance \\(AB\\) in metres.",
+   "vi": "Trên bản đồ (1 đơn vị ứng với 20 m) cho \\(A(5;\\,-1)\\), \\(B(-7;\\,4)\\). Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">khoảng cách</b> thực tế \\(AB\\) (mét).",
+   "options": [],
+   "answer": "260",
+   "explain_en": "\\(AB=\\sqrt{12^2+5^2}=13\\) units \\(=260\\) m.",
+   "explain_vi": "\\(AB=\\sqrt{12^2+5^2}=13\\) đơn vị \\(=260\\) m.",
+   "images": [],
+   "id": "555bfaab5436",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Points \\(A(-#;\\,#)\\), \\(B(#;\\,-#)\\) and \\(C(#;\\,m)\\). Find \\(m\\) so that \\(A\\), \\(B\\), \\(C\\) are collinear.",
+   "en": "Points \\(A(-2;\\,4)\\), \\(B(1;\\,-2)\\) and \\(C(4;\\,m)\\). Find \\(m\\) so that \\(A\\), \\(B\\), \\(C\\) are collinear.",
+   "vi": "Cho \\(A(-2;\\,4)\\), \\(B(1;\\,-2)\\), \\(C(4;\\,m)\\). Tìm \\(m\\) để ba điểm \\(A\\), \\(B\\), \\(C\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"collinear\">thẳng hàng</b>.",
+   "options": [],
+   "answer": "-8",
+   "explain_en": "\\(\\overrightarrow{AB}=(3;\\,-6)\\), \\(\\overrightarrow{AC}=(6;\\,m-4)\\) collinear gives \\(m=-8\\).",
+   "explain_vi": "\\(\\overrightarrow{AB}=(3;\\,-6)\\), \\(\\overrightarrow{AC}=(6;\\,m-4)\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"collinear vectors\">cùng phương</b> cho \\(m=-8\\).",
+   "images": [],
+   "id": "6127bf984c7c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "On a game map, a robot starts at \\(A(-#;\\,-#)\\). It moves by \\(\\vec u=(#;\\,-#)\\), then by \\(\\vec w=(-#;\\,-#)\\). Where does it stop?",
+   "en": "On a game map, a robot starts at \\(A(-2;\\,-1)\\). It moves by \\(\\vec u=(4;\\,-2)\\), then by \\(\\vec w=(-3;\\,-2)\\). Where does it stop?",
+   "vi": "Trên bản đồ một trò chơi, rô-bốt xuất phát tại \\(A(-2;\\,-1)\\), di chuyển theo \\(\\vec u=(4;\\,-2)\\) rồi theo \\(\\vec w=(-3;\\,-2)\\). Rô-bốt dừng ở điểm nào?",
+   "options": [
+    "\\((1;\\,-4)\\)",
+    "\\((2;\\,-3)\\)",
+    "\\((-1;\\,-5)\\)",
+    "\\((5;\\,-1)\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Final point \\(=A+\\vec u+\\vec w=(-1;\\,-5)\\).",
+   "explain_vi": "Đáp án c. Điểm dừng \\(=A+\\vec u+\\vec w=(-1;\\,-5)\\).",
+   "images": [],
+   "id": "5e8a02a07a0d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The length of \\(\\vec u=(-#;\\,-#)\\) is…",
+   "en": "The length of \\(\\vec u=(-4;\\,-3)\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"magnitude (length)\">Độ dài của vectơ</b> \\(\\vec u=(-4;\\,-3)\\) bằng…",
+   "options": [
+    "\\(25\\)",
+    "\\(7\\)",
+    "\\(5\\)",
+    "\\(6\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(|\\vec u|=\\sqrt{4^2+3^2}=\\sqrt{25}=5\\).",
+   "explain_vi": "Đáp án c. \\(|\\vec u|=\\sqrt{4^2+3^2}=\\sqrt{25}=5\\).",
+   "images": [],
+   "id": "dfae987daa17",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(A(-#;\\,-#)\\), \\(B(#;\\,-#)\\). The coordinates of \\(\\overrightarrow{AB}\\) are…",
+   "en": "\\(A(-6;\\,-3)\\), \\(B(5;\\,-3)\\). The coordinates of \\(\\overrightarrow{AB}\\) are…",
+   "vi": "Cho \\(A(-6;\\,-3)\\), \\(B(5;\\,-3)\\). Tọa độ của \\(\\overrightarrow{AB}\\) là…",
+   "options": [
+    "\\((0;\\,11)\\)",
+    "\\((-11;\\,0)\\)",
+    "\\((-1;\\,-6)\\)",
+    "\\((11;\\,0)\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. End minus start: \\(\\overrightarrow{AB}=(x_B-x_A;\\,y_B-y_A)=(11;\\,0)\\).",
+   "explain_vi": "Đáp án d. Lấy điểm cuối trừ điểm đầu: \\(\\overrightarrow{AB}=(x_B-x_A;\\,y_B-y_A)=(11;\\,0)\\).",
+   "images": [],
+   "id": "5d2240f8d9af",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(A(-#;\\,-#)\\), \\(B(#;\\,-#)\\). The midpoint \\(I\\) of \\(AB\\) is…",
+   "en": "\\(A(-2;\\,-6)\\), \\(B(2;\\,-6)\\). The midpoint \\(I\\) of \\(AB\\) is…",
+   "vi": "Cho \\(A(-2;\\,-6)\\), \\(B(2;\\,-6)\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">Trung điểm</b> \\(I\\) của \\(AB\\) là…",
+   "options": [
+    "\\((0;\\,-12)\\)",
+    "\\((2;\\,0)\\)",
+    "\\((4;\\,0)\\)",
+    "\\((0;\\,-6)\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(I=\\left(\\dfrac{x_A+x_B}2;\\dfrac{y_A+y_B}2\\right)=(0;\\,-6)\\).",
+   "explain_vi": "Đáp án d. \\(I=\\left(\\dfrac{x_A+x_B}2;\\dfrac{y_A+y_B}2\\right)=(0;\\,-6)\\).",
+   "images": [],
+   "id": "616721b60f6c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(A(-#;\\,-#)\\), \\(B(-#;\\,-#)\\), \\(C(#;\\,#)\\). The centroid \\(G\\) of triangle \\(ABC\\) is…",
+   "en": "\\(A(-1;\\,-4)\\), \\(B(-4;\\,-3)\\), \\(C(8;\\,4)\\). The centroid \\(G\\) of triangle \\(ABC\\) is…",
+   "vi": "Cho \\(A(-1;\\,-4)\\), \\(B(-4;\\,-3)\\), \\(C(8;\\,4)\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"centroid\">Trọng tâm</b> \\(G\\) của tam giác \\(ABC\\) là…",
+   "options": [
+    "\\((3;\\,-3)\\)",
+    "\\((-1;\\,1)\\)",
+    "\\((\\dfrac{3}{2};\\,-\\dfrac{3}{2})\\)",
+    "\\((1;\\,-1)\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(G=\\left(\\dfrac{x_A+x_B+x_C}3;\\dfrac{y_A+y_B+y_C}3\\right)=(1;\\,-1)\\).",
+   "explain_vi": "Đáp án d. \\(G=\\left(\\dfrac{x_A+x_B+x_C}3;\\dfrac{y_A+y_B+y_C}3\\right)=(1;\\,-1)\\).",
+   "images": [],
+   "id": "2d51a75e782a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(ABCD\\) is a parallelogram with \\(A(#;\\,#)\\), \\(B(#;\\,#)\\), \\(C(-#;\\,#)\\). Then \\(D\\) is…",
+   "en": "\\(ABCD\\) is a parallelogram with \\(A(5;\\,5)\\), \\(B(2;\\,4)\\), \\(C(-2;\\,2)\\). Then \\(D\\) is…",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelogram\">hình bình hành</b> \\(ABCD\\) có \\(A(5;\\,5)\\), \\(B(2;\\,4)\\), \\(C(-2;\\,2)\\). Tọa độ đỉnh \\(D\\) là…",
+   "options": [
+    "\\((5;\\,11)\\)",
+    "\\((1;\\,3)\\)",
+    "\\((9;\\,7)\\)",
+    "\\((-5;\\,1)\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\overrightarrow{AD}=\\overrightarrow{BC}\\) gives \\(D=A+C-B=(1;\\,3)\\).",
+   "explain_vi": "Đáp án b. \\(\\overrightarrow{AD}=\\overrightarrow{BC}\\) nên \\(D=A+C-B=(1;\\,3)\\).",
+   "images": [],
+   "id": "1826374d41b0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\vec a=(#;\\,#)\\), \\(\\vec b=(#;\\,-#)\\). Then \\(\\vec a-#\\vec b=\\)…",
+   "en": "\\(\\vec a=(4;\\,3)\\), \\(\\vec b=(1;\\,-3)\\). Then \\(\\vec a-3\\vec b=\\)…",
+   "vi": "Cho \\(\\vec a=(4;\\,3)\\), \\(\\vec b=(1;\\,-3)\\). Khi đó \\(\\vec a-3\\vec b=\\)…",
+   "options": [
+    "\\((7;\\,-6)\\)",
+    "\\((1;\\,12)\\)",
+    "\\((-11;\\,-12)\\)",
+    "\\((5;\\,0)\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Multiply first, then add coordinate by coordinate: \\((1;\\,12)\\).",
+   "explain_vi": "Đáp án b. Nhân trước rồi cộng theo từng tọa độ: \\((1;\\,12)\\).",
+   "images": [],
+   "id": "040331defa2f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\vec u=(#;\\,-#)\\) and \\(\\vec v=(m;\\,-#)\\). The vectors are collinear when \\(m=\\)…",
+   "en": "\\(\\vec u=(3;\\,-1)\\) and \\(\\vec v=(m;\\,-3)\\). The vectors are collinear when \\(m=\\)…",
+   "vi": "Cho \\(\\vec u=(3;\\,-1)\\), \\(\\vec v=(m;\\,-3)\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"collinear vectors\">Hai vectơ cùng phương</b> khi \\(m=\\)…",
+   "options": [
+    "\\(10\\)",
+    "\\(-9\\)",
+    "\\(9\\)",
+    "\\(1\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Collinear: \\(\\dfrac{m}{3}=\\dfrac{-3}{-1}\\), so \\(m=9\\).",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"collinear vectors\">Cùng phương</b>: \\(\\dfrac{m}{3}=\\dfrac{-3}{-1}\\) nên \\(m=9\\).",
+   "images": [],
+   "id": "5cc172cbc34e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  }
+ ]
+}

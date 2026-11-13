@@ -1,0 +1,1029 @@
+{
+ "lesson": "g10-comb-03",
+ "grade": 10,
+ "no": 25,
+ "title": "Nhị thức Newton",
+ "path": "lessons/grade10/combinatorics/binomial-theorem.html",
+ "items": [
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "The coefficient of \\(x^{#}\\) in \\((#x+#)^#\\) is…",
+   "en": "The coefficient of \\(x^{3}\\) in \\((2x+3)^4\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">Hệ số</b> của \\(x^{3}\\) trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"expand\">khai triển</b> \\((2x+3)^4\\) là…",
+   "options": [
+    "\\(4\\)",
+    "\\(96\\)",
+    "\\(32\\)",
+    "\\(-96\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Term \\(C_{4}^{1}(2x)^{3}(3)^{1}\\).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">Số hạng</b> \\(C_{4}^{1}(2x)^{3}(3)^{1}\\).",
+   "images": [],
+   "id": "cbbeb7457ca2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "The middle term of \\((x+#)^#\\) is…",
+   "en": "The middle term of \\((x+3)^4\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">Số hạng</b> chính giữa của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"expand\">khai triển</b> \\((x+3)^4\\) là…",
+   "options": [
+    "\\(6x^2\\)",
+    "\\(54x^3\\)",
+    "\\(54x^2\\)",
+    "\\(12x^3\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Third of five terms.",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">Số hạng</b> thứ ba trong năm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">số hạng</b>: \\(C_4^2(1x)^2(3)^2\\).",
+   "images": [],
+   "id": "b0cadb9d2da7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "The sum of the coefficients of \\((#x-#)^#\\) is…",
+   "en": "The sum of the coefficients of \\((2x-3)^5\\) is…",
+   "vi": "Tổng các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b> trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"expand\">khai triển</b> \\((2x-3)^5\\) là…",
+   "options": [
+    "\\(-1\\)",
+    "\\(32\\)",
+    "\\(3125\\)",
+    "\\(-211\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Put \\(x=1\\).",
+   "explain_vi": "Đáp án a. Thay \\(x=1\\): \\((2-3)^{5}=-1\\).",
+   "images": [],
+   "id": "ba9936c68bb6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "In \\((x-#)^#\\) the coefficient of \\(x^#\\) is \\(-#\\).",
+   "en": "In \\((x-1)^5\\) the coefficient of \\(x^2\\) is \\(-10\\).",
+   "vi": "Trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"expand\">khai triển</b> \\((x-1)^5\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b> của \\(x^2\\) bằng \\(-10\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "Expand or use \\(C_n^k\\).",
+   "explain_vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"expand\">Khai triển</b> hoặc dùng \\(C_n^k\\) để kiểm tra.",
+   "images": [],
+   "id": "e96637755873",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "The term without \\(x\\) in \\(\\left(x+\\dfrac{#}{x}\\right)^#\\) is #.",
+   "en": "The term without \\(x\\) in \\(\\left(x+\\dfrac{3}{x}\\right)^4\\) is 54.",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">Số hạng</b> không chứa \\(x\\) trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"expand\">khai triển</b> \\(\\left(x+\\dfrac{3}{x}\\right)^4\\) bằng 54.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "\\(k=2\\): \\(C_4^2\\cdot(3)^2=54\\).",
+   "explain_vi": "\\(k=2\\): \\(C_4^2\\cdot(3)^2=54\\).",
+   "images": [],
+   "id": "3c638341dcd2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "Deposit # million VND at #% per year compound interest for # years. Using the first two terms of the binomial expansion, estimate the final amount (million VND).",
+   "en": "Deposit 100 million VND at 2% per year compound interest for 5 years. Using the first two terms of the binomial expansion, estimate the final amount (million VND).",
+   "vi": "Gửi 100 triệu đồng, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"compound interest\">lãi kép</b> 2%/năm trong 5 năm. Dùng hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">số hạng</b> đầu của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"expand\">khai triển</b> nhị thức, ước tính số tiền nhận được (triệu đồng).",
+   "options": [],
+   "answer": "110",
+   "explain_en": "\\((1+x)^n\\approx1+nx\\).",
+   "explain_vi": "\\(100(1+\\dfrac{1}{50})^{5}\\approx100(1+5\\cdot\\dfrac{1}{50})=110\\).",
+   "images": [],
+   "id": "0c67f494b632",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "Find the coefficient of \\(x^{#}\\) in \\((x+#)^#\\).",
+   "en": "Find the coefficient of \\(x^{2}\\) in \\((x+2)^5\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b> của \\(x^{2}\\) trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"expand\">khai triển</b> \\((x+2)^5\\).",
+   "options": [],
+   "answer": "80",
+   "explain_en": "\\(C_{5}^{2}\\cdot1^{2}\\cdot(2)^{3}\\).",
+   "explain_vi": "\\(C_{5}^{2}\\cdot1^{2}\\cdot(2)^{3}=80\\).",
+   "images": [],
+   "id": "ce63f80802a3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "In the expansion of \\((#x-#)^#\\) in \\lt b\\gt decreasing\\lt /b\\gt powers of \\(x\\), the term number # is…",
+   "en": "In the expansion of \\((3x-1)^4\\) in \\lt b\\gt decreasing\\lt /b\\gt  powers of \\(x\\), the term number 4 is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"expand\">Khai triển</b> \\((3x-1)^4\\) theo <b class=\"mbl-term\" tabindex=\"0\" data-en=\"power\">lũy thừa</b> \\lt b\\gt giảm dần\\lt /b\\gt  của \\(x\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">Số hạng</b> thứ 4 là…",
+   "options": [
+    "\\(4x\\)",
+    "\\(-12x^3\\)",
+    "\\(-12x\\)",
+    "\\(-108x^3\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Term \\(k+1\\): \\(C_{4}^{3}(3x)^{1}(-1)^{3}\\).",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">Số hạng</b> thứ \\(k+1\\) là \\(C_{4}^{k}(3x)^{4-k}(-1)^{k}\\) với \\(k=3\\).",
+   "images": [],
+   "id": "25b41bc1fbda",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "In the expansion of \\((x+a)^#\\) the coefficient of \\(x^{#}\\) is \\(#\\), and \\(a\\) is an integer. Then \\(a=\\)…",
+   "en": "In the expansion of \\((x+a)^5\\) the coefficient of \\(x^{4}\\) is \\(5\\), and \\(a\\) is an integer. Then \\(a=\\)…",
+   "vi": "Trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"expand\">khai triển</b> \\((x+a)^5\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b> của \\(x^{4}\\) bằng \\(5\\), với \\(a\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"integers\">số nguyên</b>. Khi đó \\(a=\\)…",
+   "options": [
+    "\\(2\\)",
+    "\\(-1\\)",
+    "\\(1\\)",
+    "\\(3\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(C_{5}^{4}a^{1}=5\\).",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">Hệ số</b> của \\(x^{4}\\) là \\(C_{5}^{4}a^{1}=5\\cdot a^{1}=5\\) nên \\(a=1\\).",
+   "images": [],
+   "id": "ed0e4618b414",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The coefficient of \\(x^{#}\\) in \\((#x-#)^#\\) is…",
+   "en": "The coefficient of \\(x^{2}\\) in \\((3x-3)^4\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">Hệ số</b> của \\(x^{2}\\) trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"expand\">khai triển</b> \\((3x-3)^4\\) là…",
+   "options": [
+    "\\(54\\)",
+    "\\(-486\\)",
+    "\\(6\\)",
+    "\\(486\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Term \\(C_{4}^{2}(3x)^{2}(-3)^{2}\\).",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">Số hạng</b> chứa \\(x^{2}\\): \\(C_{4}^{2}(3x)^{2}(-3)^{2}\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b> \\(=486\\).",
+   "images": [],
+   "id": "1e2dfdba3e2d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The coefficient of \\(x^{#}\\) in \\((-#x+#)^#\\) is…",
+   "en": "The coefficient of \\(x^{2}\\) in \\((-2x+3)^4\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">Hệ số</b> của \\(x^{2}\\) trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"expand\">khai triển</b> \\((-2x+3)^4\\) là…",
+   "options": [
+    "\\(6\\)",
+    "\\(54\\)",
+    "\\(24\\)",
+    "\\(216\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Term \\(C_{4}^{2}(-2x)^{2}(3)^{2}\\).",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">Số hạng</b> chứa \\(x^{2}\\): \\(C_{4}^{2}(-2x)^{2}(3)^{2}\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b> \\(=216\\).",
+   "images": [],
+   "id": "ae83b68d9e91",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The constant term in \\(\\left(x-\\dfrac{#}{x}\\right)^#\\) is…",
+   "en": "The constant term in \\(\\left(x-\\dfrac{2}{x}\\right)^4\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">Số hạng</b> không chứa \\(x\\) trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"expand\">khai triển</b> \\(\\left(x-\\dfrac{2}{x}\\right)^4\\) là…",
+   "options": [
+    "\\(24\\)",
+    "\\(4\\)",
+    "\\(16\\)",
+    "\\(12\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. General term \\(C_4^kx^{4-k}\\left(\\dfrac{-2}{x}\\right)^k=C_4^k(-2)^kx^{4-2k}\\); \\(k=2\\).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"general term\">Số hạng tổng quát</b> \\(C_4^k(-2)^kx^{4-2k}\\); không chứa \\(x\\) khi \\(k=2\\): \\(C_4^2\\cdot(-2)^2=24\\).",
+   "images": [],
+   "id": "d0ffcb8c4955",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The middle term of the expansion of \\((#x+#)^#\\) is…",
+   "en": "The middle term of the expansion of \\((3x+3)^4\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">Số hạng</b> chính giữa của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"expand\">khai triển</b> \\((3x+3)^4\\) là…",
+   "options": [
+    "\\(486x^3\\)",
+    "\\(486x^2\\)",
+    "\\(6x^2\\)",
+    "\\(324x^3\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. 5 terms; the 3rd: \\(C_4^2(3x)^2(3)^2\\).",
+   "explain_vi": "Đáp án b. Có 5 <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">số hạng</b>; <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">số hạng</b> thứ 3: \\(C_4^2(3x)^2(3)^2=486x^2\\).",
+   "images": [],
+   "id": "dbbea96369c2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The sum of all coefficients in the expansion of \\((#x-#)^#\\) is…",
+   "en": "The sum of all coefficients in the expansion of \\((3x-1)^4\\) is…",
+   "vi": "Tổng các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b> trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"expand\">khai triển</b> \\((3x-1)^4\\) là…",
+   "options": [
+    "\\(82\\)",
+    "\\(8\\)",
+    "\\(256\\)",
+    "\\(16\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Put \\(x=1\\).",
+   "explain_vi": "Đáp án d. Thay \\(x=1\\): \\((3-1)^4=16\\).",
+   "images": [],
+   "id": "6440b9770f60",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Using the first two terms of the binomial expansion, \\((#)^#\\approx\\)…",
+   "en": "Using the first two terms of the binomial expansion, \\((2.03)^4\\approx\\)…",
+   "vi": "Dùng hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">số hạng</b> đầu của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"expand\">khai triển</b> nhị thức, \\((2{,}03)^4\\approx\\)…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(17.06\\)</span><span class=\"vi\">\\(17{,}06\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(16.03\\)</span><span class=\"vi\">\\(16{,}03\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(16.12\\)</span><span class=\"vi\">\\(16{,}12\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(16.96\\)</span><span class=\"vi\">\\(16{,}96\\)</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\((2+\\dfrac{3}{100})^4\\approx2^4+4\\cdot2^{3}\\cdot\\dfrac{3}{100}\\).",
+   "explain_vi": "Đáp án d. \\((2+\\dfrac{3}{100})^4\\approx2^4+4\\cdot2^{3}\\cdot(\\dfrac{3}{100})=16{,}96\\) (giá trị đúng \\(\\approx16{,}9818\\)).",
+   "images": [],
+   "id": "736dc21d04f9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "The coefficient of \\(x^{#}\\) in \\((#x-#)^#\\) is…",
+   "en": "The coefficient of \\(x^{2}\\) in \\((3x-2)^5\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">Hệ số</b> của \\(x^{2}\\) trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"expand\">khai triển</b> \\((3x-2)^5\\) là…",
+   "options": [
+    "\\(10\\)",
+    "\\(90\\)",
+    "\\(720\\)",
+    "\\(-720\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Term \\(C_{5}^{3}(3x)^{2}(-2)^{3}\\).",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">Số hạng</b> \\(C_{5}^{3}(3x)^{2}(-2)^{3}\\).",
+   "images": [],
+   "id": "d2a44274e645",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "The middle term of \\((#x-#)^#\\) is…",
+   "en": "The middle term of \\((2x-1)^4\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">Số hạng</b> chính giữa của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"expand\">khai triển</b> \\((2x-1)^4\\) là…",
+   "options": [
+    "\\(6x^2\\)",
+    "\\(24x^3\\)",
+    "\\(24x^2\\)",
+    "\\(-32x^3\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Third of five terms.",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">Số hạng</b> thứ ba trong năm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">số hạng</b>: \\(C_4^2(2x)^2(-1)^2\\).",
+   "images": [],
+   "id": "302a3de3f495",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "The sum of the coefficients of \\((#x-#)^#\\) is…",
+   "en": "The sum of the coefficients of \\((3x-2)^4\\) is…",
+   "vi": "Tổng các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b> trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"expand\">khai triển</b> \\((3x-2)^4\\) là…",
+   "options": [
+    "\\(16\\)",
+    "\\(625\\)",
+    "\\(97\\)",
+    "\\(1\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Put \\(x=1\\).",
+   "explain_vi": "Đáp án d. Thay \\(x=1\\): \\((3-2)^{4}=1\\).",
+   "images": [],
+   "id": "0be45e7d5c4e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "The term without \\(x\\) in \\(\\left(x-\\dfrac{#}{x}\\right)^#\\) is #.",
+   "en": "The term without \\(x\\) in \\(\\left(x-\\dfrac{2}{x}\\right)^4\\) is 16.",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">Số hạng</b> không chứa \\(x\\) trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"expand\">khai triển</b> \\(\\left(x-\\dfrac{2}{x}\\right)^4\\) bằng 16.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "\\(k=2\\): \\(C_4^2\\cdot(-2)^2=24\\).",
+   "explain_vi": "\\(k=2\\): \\(C_4^2\\cdot(-2)^2=24\\).",
+   "images": [],
+   "id": "c3d8df505b64",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "\\((x+#)^#=x^#+#x^#+#x^#+#x+#\\).",
+   "en": "\\((x+1)^4=x^4+4x^3+4x^2+4x+1\\).",
+   "vi": "\\((x+1)^4=x^4+4x^3+4x^2+4x+1\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "Expand or use \\(C_n^k\\).",
+   "explain_vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"expand\">Khai triển</b> hoặc dùng \\(C_n^k\\) để kiểm tra.",
+   "images": [],
+   "id": "707e42f7a6bc",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "Deposit # million VND at #% per year compound interest for # years. Using the first two terms of the binomial expansion, estimate the final amount (million VND).",
+   "en": "Deposit 200 million VND at 1% per year compound interest for 4 years. Using the first two terms of the binomial expansion, estimate the final amount (million VND).",
+   "vi": "Gửi 200 triệu đồng, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"compound interest\">lãi kép</b> 1%/năm trong 4 năm. Dùng hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">số hạng</b> đầu của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"expand\">khai triển</b> nhị thức, ước tính số tiền nhận được (triệu đồng).",
+   "options": [],
+   "answer": "208",
+   "explain_en": "\\((1+x)^n\\approx1+nx\\).",
+   "explain_vi": "\\(200(1+\\dfrac{1}{100})^{4}\\approx200(1+4\\cdot\\dfrac{1}{100})=208\\).",
+   "images": [],
+   "id": "bd5c24fe182c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "Find the coefficient of \\(x^{#}\\) in \\((#x-#)^#\\).",
+   "en": "Find the coefficient of \\(x^{3}\\) in \\((2x-1)^4\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b> của \\(x^{3}\\) trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"expand\">khai triển</b> \\((2x-1)^4\\).",
+   "options": [],
+   "answer": "-32",
+   "explain_en": "\\(C_{4}^{3}\\cdot2^{3}\\cdot(-1)^{1}\\).",
+   "explain_vi": "\\(C_{4}^{3}\\cdot2^{3}\\cdot(-1)^{1}=-32\\).",
+   "images": [],
+   "id": "359687aed450",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "In the expansion of \\((#x+#)^#\\) in \\lt b\\gt decreasing\\lt /b\\gt powers of \\(x\\), the term number # is…",
+   "en": "In the expansion of \\((3x+1)^4\\) in \\lt b\\gt decreasing\\lt /b\\gt  powers of \\(x\\), the term number 1 is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"expand\">Khai triển</b> \\((3x+1)^4\\) theo <b class=\"mbl-term\" tabindex=\"0\" data-en=\"power\">lũy thừa</b> \\lt b\\gt giảm dần\\lt /b\\gt  của \\(x\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">Số hạng</b> thứ 1 là…",
+   "options": [
+    "\\(x^4\\)",
+    "\\(81x^4\\)",
+    "\\(1\\)",
+    "\\(81\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Term \\(k+1\\): \\(C_{4}^{0}(3x)^{4}(1)^{0}\\).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">Số hạng</b> thứ \\(k+1\\) là \\(C_{4}^{k}(3x)^{4-k}(1)^{k}\\) với \\(k=0\\).",
+   "images": [],
+   "id": "fbf1251e9ba9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "In the expansion of \\((x+a)^#\\) the coefficient of \\(x^{#}\\) is \\(#\\), and \\(a\\) is an integer. Then \\(a=\\)…",
+   "en": "In the expansion of \\((x+a)^5\\) the coefficient of \\(x^{3}\\) is \\(90\\), and \\(a\\) is an integer. Then \\(a=\\)…",
+   "vi": "Trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"expand\">khai triển</b> \\((x+a)^5\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b> của \\(x^{3}\\) bằng \\(90\\), với \\(a\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"integers\">số nguyên</b>. Khi đó \\(a=\\)…",
+   "options": [
+    "\\(-3\\)",
+    "\\(-6\\)",
+    "\\(-1\\)",
+    "\\(-2\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(C_{5}^{3}a^{2}=90\\).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">Hệ số</b> của \\(x^{3}\\) là \\(C_{5}^{3}a^{2}=10\\cdot a^{2}=90\\) nên \\(a=-3\\) (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"exponent\">số mũ</b> chẵn nên \\(a=3\\) cũng thỏa mãn nhưng không có trong các phương án).",
+   "images": [],
+   "id": "78972216f238",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The coefficient of \\(x^{#}\\) in \\((#x-#)^#\\) is…",
+   "en": "The coefficient of \\(x^{3}\\) in \\((2x-1)^4\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">Hệ số</b> của \\(x^{3}\\) trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"expand\">khai triển</b> \\((2x-1)^4\\) là…",
+   "options": [
+    "\\(-32\\)",
+    "\\(32\\)",
+    "\\(-4\\)",
+    "\\(4\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Term \\(C_{4}^{3}(2x)^{3}(-1)^{1}\\).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">Số hạng</b> chứa \\(x^{3}\\): \\(C_{4}^{3}(2x)^{3}(-1)^{1}\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b> \\(=-32\\).",
+   "images": [],
+   "id": "788661b10146",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The coefficient of \\(x^{#}\\) in \\((-x+#)^#\\) is…",
+   "en": "The coefficient of \\(x^{3}\\) in \\((-x+2)^5\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">Hệ số</b> của \\(x^{3}\\) trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"expand\">khai triển</b> \\((-x+2)^5\\) là…",
+   "options": [
+    "\\(10\\)",
+    "\\(40\\)",
+    "\\(-10\\)",
+    "\\(-40\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Term \\(C_{5}^{3}(-1x)^{3}(2)^{2}\\).",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">Số hạng</b> chứa \\(x^{3}\\): \\(C_{5}^{3}(-1x)^{3}(2)^{2}\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b> \\(=-40\\).",
+   "images": [],
+   "id": "b9d75d28b3c6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The constant term in \\(\\left(x-\\dfrac{#}{x}\\right)^#\\) is…",
+   "en": "The constant term in \\(\\left(x-\\dfrac{1}{x}\\right)^4\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">Số hạng</b> không chứa \\(x\\) trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"expand\">khai triển</b> \\(\\left(x-\\dfrac{1}{x}\\right)^4\\) là…",
+   "options": [
+    "\\(6\\)",
+    "\\(4\\)",
+    "\\(-4\\)",
+    "\\(1\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. General term \\(C_4^kx^{4-k}\\left(\\dfrac{-1}{x}\\right)^k=C_4^k(-1)^kx^{4-2k}\\); \\(k=2\\).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"general term\">Số hạng tổng quát</b> \\(C_4^k(-1)^kx^{4-2k}\\); không chứa \\(x\\) khi \\(k=2\\): \\(C_4^2\\cdot(-1)^2=6\\).",
+   "images": [],
+   "id": "0e78b0f5aa44",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The middle term of the expansion of \\((x-#)^#\\) is…",
+   "en": "The middle term of the expansion of \\((x-3)^4\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">Số hạng</b> chính giữa của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"expand\">khai triển</b> \\((x-3)^4\\) là…",
+   "options": [
+    "\\(54x^3\\)",
+    "\\(54x^2\\)",
+    "\\(-12x^3\\)",
+    "\\(6x^2\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. 5 terms; the 3rd: \\(C_4^2(1x)^2(-3)^2\\).",
+   "explain_vi": "Đáp án b. Có 5 <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">số hạng</b>; <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">số hạng</b> thứ 3: \\(C_4^2(1x)^2(-3)^2=54x^2\\).",
+   "images": [],
+   "id": "aefeddf17868",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The sum of all coefficients in the expansion of \\((-x-#)^#\\) is…",
+   "en": "The sum of all coefficients in the expansion of \\((-x-1)^5\\) is…",
+   "vi": "Tổng các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b> trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"expand\">khai triển</b> \\((-x-1)^5\\) là…",
+   "options": [
+    "\\(0\\)",
+    "\\(-32\\)",
+    "\\(32\\)",
+    "\\(-2\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Put \\(x=1\\).",
+   "explain_vi": "Đáp án b. Thay \\(x=1\\): \\((-1-1)^5=-32\\).",
+   "images": [],
+   "id": "572c60d74440",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Using the first two terms of the binomial expansion, \\((#)^#\\approx\\)…",
+   "en": "Using the first two terms of the binomial expansion, \\((1.02)^4\\approx\\)…",
+   "vi": "Dùng hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">số hạng</b> đầu của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"expand\">khai triển</b> nhị thức, \\((1{,}02)^4\\approx\\)…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(1.18\\)</span><span class=\"vi\">\\(1{,}18\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.92\\)</span><span class=\"vi\">\\(0{,}92\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(1.02\\)</span><span class=\"vi\">\\(1{,}02\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(1.08\\)</span><span class=\"vi\">\\(1{,}08\\)</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\((1+\\dfrac{1}{50})^4\\approx1^4+4\\cdot1^{3}\\cdot\\dfrac{1}{50}\\).",
+   "explain_vi": "Đáp án d. \\((1+\\dfrac{1}{50})^4\\approx1^4+4\\cdot1^{3}\\cdot(\\dfrac{1}{50})=1{,}08\\) (giá trị đúng \\(\\approx1{,}0824\\)).",
+   "images": [],
+   "id": "dcc94a8f2abe",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "The coefficient of \\(x^{#}\\) in \\((#x-#)^#\\) is…",
+   "en": "The coefficient of \\(x^{3}\\) in \\((2x-3)^5\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">Hệ số</b> của \\(x^{3}\\) trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"expand\">khai triển</b> \\((2x-3)^5\\) là…",
+   "options": [
+    "\\(10\\)",
+    "\\(80\\)",
+    "\\(720\\)",
+    "\\(-720\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Term \\(C_{5}^{2}(2x)^{3}(-3)^{2}\\).",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">Số hạng</b> \\(C_{5}^{2}(2x)^{3}(-3)^{2}\\).",
+   "images": [],
+   "id": "ae1062d4a9b0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "The middle term of \\((#x+#)^#\\) is…",
+   "en": "The middle term of \\((3x+1)^4\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">Số hạng</b> chính giữa của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"expand\">khai triển</b> \\((3x+1)^4\\) là…",
+   "options": [
+    "\\(6x^2\\)",
+    "\\(54x^3\\)",
+    "\\(54x^2\\)",
+    "\\(108x^3\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Third of five terms.",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">Số hạng</b> thứ ba trong năm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">số hạng</b>: \\(C_4^2(3x)^2(1)^2\\).",
+   "images": [],
+   "id": "b5c7475dc106",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "The sum of the coefficients of \\((x+#)^#\\) is…",
+   "en": "The sum of the coefficients of \\((x+2)^4\\) is…",
+   "vi": "Tổng các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b> trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"expand\">khai triển</b> \\((x+2)^4\\) là…",
+   "options": [
+    "\\(81\\)",
+    "\\(16\\)",
+    "\\(82\\)",
+    "\\(17\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Put \\(x=1\\).",
+   "explain_vi": "Đáp án a. Thay \\(x=1\\): \\((1+2)^{4}=81\\).",
+   "images": [],
+   "id": "1a693afce666",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "The term without \\(x\\) in \\(\\left(x+\\dfrac{#}{x}\\right)^#\\) is #.",
+   "en": "The term without \\(x\\) in \\(\\left(x+\\dfrac{1}{x}\\right)^4\\) is 6.",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">Số hạng</b> không chứa \\(x\\) trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"expand\">khai triển</b> \\(\\left(x+\\dfrac{1}{x}\\right)^4\\) bằng 6.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "\\(k=2\\): \\(C_4^2\\cdot(1)^2=6\\).",
+   "explain_vi": "\\(k=2\\): \\(C_4^2\\cdot(1)^2=6\\).",
+   "images": [],
+   "id": "9286f303ed5c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(C_#^#+C_#^#+C_#^#+C_#^#+C_#^#+C_#^#=#\\).",
+   "en": "\\(C_5^0+C_5^1+C_5^2+C_5^3+C_5^4+C_5^5=32\\).",
+   "vi": "\\(C_5^0+C_5^1+C_5^2+C_5^3+C_5^4+C_5^5=32\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "Expand or use \\(C_n^k\\).",
+   "explain_vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"expand\">Khai triển</b> hoặc dùng \\(C_n^k\\) để kiểm tra.",
+   "images": [],
+   "id": "5ab7516e9b8a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Deposit # million VND at #% per year compound interest for # years. Using the first two terms of the binomial expansion, estimate the final amount (million VND).",
+   "en": "Deposit 50 million VND at 3% per year compound interest for 4 years. Using the first two terms of the binomial expansion, estimate the final amount (million VND).",
+   "vi": "Gửi 50 triệu đồng, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"compound interest\">lãi kép</b> 3%/năm trong 4 năm. Dùng hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">số hạng</b> đầu của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"expand\">khai triển</b> nhị thức, ước tính số tiền nhận được (triệu đồng).",
+   "options": [],
+   "answer": "56",
+   "explain_en": "\\((1+x)^n\\approx1+nx\\).",
+   "explain_vi": "\\(50(1+\\dfrac{3}{100})^{4}\\approx50(1+4\\cdot\\dfrac{3}{100})=56\\).",
+   "images": [],
+   "id": "f58b96f8630d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Find the coefficient of \\(x^{#}\\) in \\((#x+#)^#\\).",
+   "en": "Find the coefficient of \\(x^{4}\\) in \\((3x+1)^5\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b> của \\(x^{4}\\) trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"expand\">khai triển</b> \\((3x+1)^5\\).",
+   "options": [],
+   "answer": "405",
+   "explain_en": "\\(C_{5}^{4}\\cdot3^{4}\\cdot(1)^{1}\\).",
+   "explain_vi": "\\(C_{5}^{4}\\cdot3^{4}\\cdot(1)^{1}=405\\).",
+   "images": [],
+   "id": "2c395a50f8ed",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "In the expansion of \\((#x-#)^#\\) in \\lt b\\gt decreasing\\lt /b\\gt powers of \\(x\\), the term number # is…",
+   "en": "In the expansion of \\((3x-1)^4\\) in \\lt b\\gt decreasing\\lt /b\\gt  powers of \\(x\\), the term number 3 is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"expand\">Khai triển</b> \\((3x-1)^4\\) theo <b class=\"mbl-term\" tabindex=\"0\" data-en=\"power\">lũy thừa</b> \\lt b\\gt giảm dần\\lt /b\\gt  của \\(x\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">Số hạng</b> thứ 3 là…",
+   "options": [
+    "\\(6x^2\\)",
+    "\\(-54x^2\\)",
+    "\\(-12x\\)",
+    "\\(54x^2\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Term \\(k+1\\): \\(C_{4}^{2}(3x)^{2}(-1)^{2}\\).",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">Số hạng</b> thứ \\(k+1\\) là \\(C_{4}^{k}(3x)^{4-k}(-1)^{k}\\) với \\(k=2\\).",
+   "images": [],
+   "id": "e874164dc931",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "In the expansion of \\((x+a)^#\\) the coefficient of \\(x^{#}\\) is \\(#\\), and \\(a\\) is an integer. Then \\(a=\\)…",
+   "en": "In the expansion of \\((x+a)^4\\) the coefficient of \\(x^{2}\\) is \\(54\\), and \\(a\\) is an integer. Then \\(a=\\)…",
+   "vi": "Trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"expand\">khai triển</b> \\((x+a)^4\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b> của \\(x^{2}\\) bằng \\(54\\), với \\(a\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"integers\">số nguyên</b>. Khi đó \\(a=\\)…",
+   "options": [
+    "\\(3\\)",
+    "\\(5\\)",
+    "\\(6\\)",
+    "\\(4\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(C_{4}^{2}a^{2}=54\\).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">Hệ số</b> của \\(x^{2}\\) là \\(C_{4}^{2}a^{2}=6\\cdot a^{2}=54\\) nên \\(a=3\\) (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"exponent\">số mũ</b> chẵn nên \\(a=-3\\) cũng thỏa mãn nhưng không có trong các phương án).",
+   "images": [],
+   "id": "273d158cc02a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The coefficient of \\(x^{#}\\) in \\((#x-#)^#\\) is…",
+   "en": "The coefficient of \\(x^{1}\\) in \\((2x-3)^4\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">Hệ số</b> của \\(x^{1}\\) trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"expand\">khai triển</b> \\((2x-3)^4\\) là…",
+   "options": [
+    "\\(-108\\)",
+    "\\(4\\)",
+    "\\(8\\)",
+    "\\(-216\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Term \\(C_{4}^{1}(2x)^{1}(-3)^{3}\\).",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">Số hạng</b> chứa \\(x^{1}\\): \\(C_{4}^{1}(2x)^{1}(-3)^{3}\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b> \\(=-216\\).",
+   "images": [],
+   "id": "d955cb70ed0f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The coefficient of \\(x^{#}\\) in \\((x-#)^#\\) is…",
+   "en": "The coefficient of \\(x^{3}\\) in \\((x-3)^4\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">Hệ số</b> của \\(x^{3}\\) trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"expand\">khai triển</b> \\((x-3)^4\\) là…",
+   "options": [
+    "\\(12\\)",
+    "\\(-12\\)",
+    "\\(-108\\)",
+    "\\(4\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Term \\(C_{4}^{3}(1x)^{3}(-3)^{1}\\).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">Số hạng</b> chứa \\(x^{3}\\): \\(C_{4}^{3}(1x)^{3}(-3)^{1}\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b> \\(=-12\\).",
+   "images": [],
+   "id": "854f3885dfe5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The constant term in \\(\\left(x+\\dfrac{#}{x}\\right)^#\\) is…",
+   "en": "The constant term in \\(\\left(x+\\dfrac{2}{x}\\right)^4\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">Số hạng</b> không chứa \\(x\\) trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"expand\">khai triển</b> \\(\\left(x+\\dfrac{2}{x}\\right)^4\\) là…",
+   "options": [
+    "\\(4\\)",
+    "\\(24\\)",
+    "\\(12\\)",
+    "\\(16\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. General term \\(C_4^kx^{4-k}\\left(\\dfrac{2}{x}\\right)^k=C_4^k(2)^kx^{4-2k}\\); \\(k=2\\).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"general term\">Số hạng tổng quát</b> \\(C_4^k(2)^kx^{4-2k}\\); không chứa \\(x\\) khi \\(k=2\\): \\(C_4^2\\cdot(2)^2=24\\).",
+   "images": [],
+   "id": "c49a385909b3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The middle term of the expansion of \\((#x-#)^#\\) is…",
+   "en": "The middle term of the expansion of \\((3x-2)^4\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">Số hạng</b> chính giữa của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"expand\">khai triển</b> \\((3x-2)^4\\) là…",
+   "options": [
+    "\\(6x^2\\)",
+    "\\(216x^2\\)",
+    "\\(-216x^3\\)",
+    "\\(216x^3\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. 5 terms; the 3rd: \\(C_4^2(3x)^2(-2)^2\\).",
+   "explain_vi": "Đáp án b. Có 5 <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">số hạng</b>; <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">số hạng</b> thứ 3: \\(C_4^2(3x)^2(-2)^2=216x^2\\).",
+   "images": [],
+   "id": "b2e93b074298",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The sum of all coefficients in the expansion of \\((-#x-#)^#\\) is…",
+   "en": "The sum of all coefficients in the expansion of \\((-2x-2)^5\\) is…",
+   "vi": "Tổng các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b> trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"expand\">khai triển</b> \\((-2x-2)^5\\) là…",
+   "options": [
+    "\\(32\\)",
+    "\\(1024\\)",
+    "\\(0\\)",
+    "\\(-1024\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Put \\(x=1\\).",
+   "explain_vi": "Đáp án d. Thay \\(x=1\\): \\((-2-2)^5=-1024\\).",
+   "images": [],
+   "id": "05472c6a7fb4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Using the first two terms of the binomial expansion, \\((#)^#\\approx\\)…",
+   "en": "Using the first two terms of the binomial expansion, \\((2.02)^4\\approx\\)…",
+   "vi": "Dùng hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">số hạng</b> đầu của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"expand\">khai triển</b> nhị thức, \\((2{,}02)^4\\approx\\)…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(16.64\\)</span><span class=\"vi\">\\(16{,}64\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(16.74\\)</span><span class=\"vi\">\\(16{,}74\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(16.08\\)</span><span class=\"vi\">\\(16{,}08\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(16.02\\)</span><span class=\"vi\">\\(16{,}02\\)</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\((2+\\dfrac{1}{50})^4\\approx2^4+4\\cdot2^{3}\\cdot\\dfrac{1}{50}\\).",
+   "explain_vi": "Đáp án a. \\((2+\\dfrac{1}{50})^4\\approx2^4+4\\cdot2^{3}\\cdot(\\dfrac{1}{50})=16{,}64\\) (giá trị đúng \\(\\approx16{,}6497\\)).",
+   "images": [],
+   "id": "8dd5a2be8e1d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  }
+ ]
+}

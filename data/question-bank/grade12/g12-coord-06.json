@@ -1,0 +1,1533 @@
+{
+ "lesson": "g12-coord-06",
+ "grade": 12,
+ "no": 17,
+ "title": "Phương trình mặt cầu",
+ "path": "lessons/grade12/space-coordinates/sphere-equations.html",
+ "items": [
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Centre and radius of \\(x^#+y^#+z^#-#x+#y-#z+#=#\\):",
+   "en": "Centre and radius of \\(x^2+y^2+z^2-2x+4y-4z+5=0\\):",
+   "vi": "Tâm và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sphere\">mặt cầu</b> \\(x^2+y^2+z^2-2x+4y-4z+5=0\\) là…",
+   "options": [
+    "\\(I(-1;\\,2;\\,-2),\\ R=2\\)",
+    "\\(I(1;\\,-2;\\,2),\\ R=4\\)",
+    "\\(I(1;\\,-2;\\,2),\\ R=2\\)",
+    "\\(I(2;\\,-4;\\,4),\\ R=2\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(R^2=4\\).",
+   "explain_vi": "Đáp án c. \\(R^2=a^2+b^2+c^2-d=4\\).",
+   "images": [],
+   "id": "0db696a3a880",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Position of \\((S): (x-#)^#+y^#+(z-#)^#=#\\) and \\((P): x+#y+#z+#=#\\):",
+   "en": "Position of \\((S): (x-1)^2+y^2+(z-2)^2=9\\) and \\((P): x+2y+2z+1=0\\):",
+   "vi": "Vị trí tương đối của \\((S): (x-1)^2+y^2+(z-2)^2=9\\) và \\((P): x+2y+2z+1=0\\):",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">tangent</span><span class=\"vi\">tiếp xúc</span></span>",
+    "<span class=\"txi\"><span class=\"en\">no common point</span><span class=\"vi\">không có điểm chung</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the plane passes through \\(I\\)</span><span class=\"vi\">mặt phẳng đi qua tâm</span></span>",
+    "<span class=\"txi\"><span class=\"en\">cut along a circle</span><span class=\"vi\">cắt theo một đường tròn</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(d(I,(P))=2\\), \\(R=3\\).",
+   "explain_vi": "Đáp án d. \\(d(I,(P))=2\\), \\(R=3\\).",
+   "images": [],
+   "id": "b6f4770ab1d5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "The sphere with centre \\(I(#;\\,#;\\,-#)\\) through \\(A(#;\\,#;\\,#)\\):",
+   "en": "The sphere with centre \\(I(0;\\,1;\\,-1)\\) through \\(A(2;\\,3;\\,0)\\):",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"sphere\">Mặt cầu</b> tâm \\(I(0;\\,1;\\,-1)\\) đi qua \\(A(2;\\,3;\\,0)\\) là…",
+   "options": [
+    "\\((x-2)^2+(y-3)^2+z^2=9\\)",
+    "\\(x^2+(y-1)^2+(z+1)^2=10\\)",
+    "\\(x^2+(y+1)^2+(z-1)^2=9\\)",
+    "\\(x^2+(y-1)^2+(z+1)^2=9\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(R^2=IA^2=9\\).",
+   "explain_vi": "Đáp án d. \\(R^2=IA^2=9\\).",
+   "images": [],
+   "id": "b7ff81d7c829",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "The point \\(A(#;\\,#;\\,#)\\) lies on \\((x-#)^#+y^#+(z+#)^#=#\\).",
+   "en": "The point \\(A(2;\\,2;\\,0)\\) lies on \\((x-1)^2+y^2+(z+2)^2=9\\).",
+   "vi": "Điểm \\(A(2;\\,2;\\,0)\\) thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sphere\">mặt cầu</b> \\((x-1)^2+y^2+(z+2)^2=9\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "\\(IA^2=9\\).",
+   "explain_vi": "\\(IA^2=9\\), \\(R^2=9\\).",
+   "images": [],
+   "id": "0aea2e2974e9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(x^#+y^#+z^#-#x-#y+#z+#=#\\) is the equation of a sphere.",
+   "en": "\\(x^2+y^2+z^2-2x-4y+2z+7=0\\) is the equation of a sphere.",
+   "vi": "\\(x^2+y^2+z^2-2x-4y+2z+7=0\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> của một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sphere\">mặt cầu</b>.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "\\(a^2+b^2+c^2-d=-1\\).",
+   "explain_vi": "\\(a^2+b^2+c^2-d=-1\\).",
+   "images": [],
+   "id": "baf178d37e98",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "A ball of radius # cm is cut by a plane # cm from its centre. Find the radius of the cut (cm).",
+   "en": "A ball of radius 10 cm is cut by a plane 6 cm from its centre. Find the radius of the cut (cm).",
+   "vi": "Một quả cầu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 10 cm bị cắt bởi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> cách tâm 6 cm. Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> của mặt cắt (cm).",
+   "options": [],
+   "answer": "8",
+   "explain_en": "\\(r=\\sqrt{100-36}=8\\).",
+   "explain_vi": "\\(r=\\sqrt{R^2-d^2}=\\sqrt{100-36}=8\\).",
+   "images": [],
+   "id": "3fbb294a959b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "Find the radius of the sphere with centre \\(I(#;\\,#;\\,#)\\) tangent to \\((P): #x+y+#z+#=#\\).",
+   "en": "Find the radius of the sphere with centre \\(I(1;\\,1;\\,1)\\) tangent to \\((P): 2x+y+2z+4=0\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sphere\">mặt cầu</b> tâm \\(I(1;\\,1;\\,1)\\) tiếp xúc với \\((P): 2x+y+2z+4=0\\).",
+   "options": [],
+   "answer": "3",
+   "explain_en": "\\(R=\\dfrac{|9|}{3}=3\\).",
+   "explain_vi": "\\(R=d(I,(P))=\\dfrac{|9|}{3}=3\\).",
+   "images": [],
+   "id": "83e51cf8a702",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "A Wi-Fi router at \\(I(#;\\,#;\\,#)\\) (m) covers a ball of radius # m. Is the phone at \\(A(-#;\\,-#;\\,#)\\) covered?",
+   "en": "A Wi-Fi router at \\(I(1;\\,5;\\,3)\\) (m) covers a ball of radius 10 m. Is the phone at \\(A(-6;\\,-2;\\,5)\\) covered?",
+   "vi": "Bộ phát Wi-Fi đặt tại \\(I(1;\\,5;\\,3)\\) (m) phủ sóng trong khối cầu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 10 m. Điện thoại tại \\(A(-6;\\,-2;\\,5)\\) có bắt được sóng không?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">yes, \\(IA^2=102\\le100\\)</span><span class=\"vi\">có, vì \\(IA^2=102\\le100\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">no, \\(IA^2=102\\gt100\\)</span><span class=\"vi\">không, vì \\(IA^2=102\\gt100\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">no, \\(IA=11\\)</span><span class=\"vi\">không, vì \\(IA=11\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">yes, \\(IA=10\\)</span><span class=\"vi\">có, vì \\(IA=10\\)</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(IA^2=102\\), \\(R^2=100\\).",
+   "explain_vi": "Đáp án b. \\(IA^2=102\\), \\(R^2=100\\).",
+   "images": [],
+   "id": "c0eedc07df5f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "A ball with centre \\(I(-#;\\,-#;\\,#)\\) rests on the floor \\((Oxy)\\). Its equation is…",
+   "en": "A ball with centre \\(I(-2;\\,-1;\\,4)\\) rests on the floor \\((Oxy)\\). Its equation is…",
+   "vi": "Quả bóng tâm \\(I(-2;\\,-1;\\,4)\\) đặt trên sàn \\((Oxy)\\) (tiếp xúc với sàn). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">Phương trình</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sphere\">mặt cầu</b> là…",
+   "options": [
+    "\\((x+2)^2+(y+1)^2+(z-4)^2=21\\)",
+    "\\((x+2)^2+(y+1)^2+(z-4)^2=16\\)",
+    "\\((x+2)^2+(y+1)^2+(z-4)^2=25\\)",
+    "\\((x+2)^2+(y+1)^2+(z-4)^2=4\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(R=d(I,(Oxy))=|z_I|=4\\).",
+   "explain_vi": "Đáp án b. \\(R=d(I,(Oxy))=|z_I|=4\\).",
+   "images": [],
+   "id": "5f730769f8ad",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "How many common points do the line \\(\\begin{cases}x=#+t\\\\y=#+t\\\\z=#\\end{cases}\\) and the sphere \\(x^#+(y-#)^#+(z+#)^#=#\\) have?",
+   "en": "How many common points do the line \\(\\begin{cases}x=2+t\\\\y=1+t\\\\z=0\\end{cases}\\) and the sphere \\(x^2+(y-3)^2+(z+1)^2=9\\) have?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">Đường thẳng</b> \\(\\begin{cases}x=2+t\\\\y=1+t\\\\z=0\\end{cases}\\) và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sphere\">mặt cầu</b> \\(x^2+(y-3)^2+(z+1)^2=9\\) có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"common point\">điểm chung</b>?",
+   "options": [
+    "\\(2\\)",
+    "\\(1\\)",
+    "\\(3\\)",
+    "\\(0\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Distance from \\(I\\) to the line \\(=3\\), \\(R=3\\).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">Khoảng cách</b> từ \\(I\\) đến <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> bằng \\(3\\), \\(R=3\\).",
+   "images": [],
+   "id": "f5f6c3b81382",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Relative position of \\((S): (x+#)^#+(y-#)^#+(z-#)^#=#\\) and \\((P): -#x-y-#z+#=#\\):",
+   "en": "Relative position of \\((S): (x+3)^2+(y-2)^2+(z-4)^2=36\\) and \\((P): -2x-y-2z+10=0\\):",
+   "vi": "Vị trí tương đối của \\((S): (x+3)^2+(y-2)^2+(z-4)^2=36\\) và \\((P): -2x-y-2z+10=0\\) là…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">they cut along a circle</span><span class=\"vi\">cắt nhau theo một đường tròn</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the plane passes through the centre</span><span class=\"vi\">mặt phẳng đi qua tâm</span></span>",
+    "<span class=\"txi\"><span class=\"en\">they have no common point</span><span class=\"vi\">không có điểm chung</span></span>",
+    "<span class=\"txi\"><span class=\"en\">they are tangent</span><span class=\"vi\">tiếp xúc nhau</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(d(I,(P))=2\\), \\(R=6\\).",
+   "explain_vi": "Đáp án a. \\(d(I,(P))=2\\), \\(R=6\\).",
+   "images": [],
+   "id": "8baab5a8d801",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The sphere \\(x^#+y^#+(z-#)^#=#\\) has centre and radius…",
+   "en": "The sphere \\(x^2+y^2+(z-1)^2=16\\) has centre and radius…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"sphere\">Mặt cầu</b> \\(x^2+y^2+(z-1)^2=16\\) có tâm và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> là…",
+   "options": [
+    "\\(I(0;\\,0;\\,1),\\ R=4\\)",
+    "\\(I(0;\\,0;\\,1),\\ R=16\\)",
+    "\\(I(0;\\,0;\\,-1),\\ R=16\\)",
+    "\\(I(0;\\,0;\\,-1),\\ R=4\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\((x-a)^2+(y-b)^2+(z-c)^2=R^2\\): \\(I(a;b;c)\\), \\(R=\\sqrt{16}=4\\).",
+   "explain_vi": "Đáp án a. \\((x-a)^2+(y-b)^2+(z-c)^2=R^2\\): tâm \\(I(a;b;c)\\), \\(R=\\sqrt{16}=4\\).",
+   "images": [],
+   "id": "9d0d0703a377",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The sphere \\(x^#+y^#+z^#+#x-#y+#=#\\) has centre and radius…",
+   "en": "The sphere \\(x^2+y^2+z^2+4x-2y+1=0\\) has centre and radius…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"sphere\">Mặt cầu</b> \\(x^2+y^2+z^2+4x-2y+1=0\\) có tâm và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> là…",
+   "options": [
+    "\\(I(-2;\\,1;\\,0),\\ R=\\sqrt{6}\\)",
+    "\\(I(-4;\\,2;\\,0),\\ R=2\\)",
+    "\\(I(2;\\,-1;\\,0),\\ R=2\\)",
+    "\\(I(-2;\\,1;\\,0),\\ R=2\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(a,b,c\\) are minus half the coefficients; \\(R^2=a^2+b^2+c^2-d=4\\).",
+   "explain_vi": "Đáp án d. \\(a,b,c\\) bằng âm một nửa các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b>; \\(R^2=a^2+b^2+c^2-d=4\\).",
+   "images": [],
+   "id": "9585ed570817",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The sphere with centre \\(I(#;\\,#;\\,#)\\) and radius \\(#\\) is…",
+   "en": "The sphere with centre \\(I(0;\\,4;\\,2)\\) and radius \\(2\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"sphere\">Mặt cầu</b> tâm \\(I(0;\\,4;\\,2)\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> \\(2\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b>…",
+   "options": [
+    "\\(x^2+(y+4)^2+(z+2)^2=4\\)",
+    "\\(x^2+(y-4)^2+(z-2)^2=4\\)",
+    "\\(x^2+(y-4)^2+(z-2)^2=2\\)",
+    "\\(x^2+(y+4)^2+(z+2)^2=2\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Right side is \\(R^2=4\\).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"right-hand side (RHS)\">Vế phải</b> là \\(R^2=4\\).",
+   "images": [],
+   "id": "16ca240098bb",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The sphere with centre \\(I(#;\\,#;\\,-#)\\) tangent to \\((P): -#x-#y-#z+#=#\\) has radius…",
+   "en": "The sphere with centre \\(I(2;\\,4;\\,-1)\\) tangent to \\((P): -3x-6y-2z+42=0\\) has radius…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"sphere\">Mặt cầu</b> tâm \\(I(2;\\,4;\\,-1)\\) tiếp xúc với \\((P): -3x-6y-2z+42=0\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b>…",
+   "options": [
+    "\\(14\\)",
+    "\\(4\\)",
+    "\\(42\\)",
+    "\\(2\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(R=d(I,(P))=\\dfrac{|14|}{7}=2\\).",
+   "explain_vi": "Đáp án d. \\(R=d(I,(P))=\\dfrac{|14|}{7}=2\\).",
+   "images": [],
+   "id": "6817badee9d0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The sphere with centre \\(I(-#;\\,#;\\,#)\\) passing through \\(A(#;\\,#;\\,-#)\\) is…",
+   "en": "The sphere with centre \\(I(-2;\\,3;\\,4)\\) passing through \\(A(1;\\,0;\\,-2)\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"sphere\">Mặt cầu</b> tâm \\(I(-2;\\,3;\\,4)\\) và đi qua \\(A(1;\\,0;\\,-2)\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b>…",
+   "options": [
+    "\\((x+2)^2+(y-3)^2+(z-4)^2=54\\)",
+    "\\((x-1)^2+y^2+(z+2)^2=54\\)",
+    "\\((x+2)^2+(y-3)^2+(z-4)^2=5\\)",
+    "\\((x+2)^2+(y-3)^2+(z-4)^2=55\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(R^2=IA^2=54\\).",
+   "explain_vi": "Đáp án a. \\(R^2=IA^2=54\\).",
+   "images": [],
+   "id": "2ee10a8436ce",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The sphere with centre \\(I(-#;\\,-#;\\,-#)\\) touches \\((P): #x-y-#z+#=#\\) at…",
+   "en": "The sphere with centre \\(I(-1;\\,-3;\\,-2)\\) touches \\((P): 2x-y-2z+4=0\\) at…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"sphere\">Mặt cầu</b> tâm \\(I(-1;\\,-3;\\,-2)\\) tiếp xúc với \\((P): 2x-y-2z+4=0\\) tại điểm…",
+   "options": [
+    "\\((-5;\\,-1;\\,2)\\)",
+    "\\((-3;\\,-2;\\,0)\\)",
+    "\\((1;\\,-4;\\,-4)\\)",
+    "\\((2;\\,-1;\\,-2)\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Projection of \\(I\\) on \\((P)\\): \\(I-1\\vec n=(-3;\\,-2;\\,0)\\).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"projection\">Hình chiếu</b> của \\(I\\) trên \\((P)\\): \\(H=I-1\\vec n=(-3;\\,-2;\\,0)\\).",
+   "images": [],
+   "id": "200bd3708d01",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The sphere with diameter \\(AB\\), \\(A(#;\\,#;\\,-#)\\), \\(B(#;\\,#;\\,#)\\), is…",
+   "en": "The sphere with diameter \\(AB\\), \\(A(2;\\,5;\\,-1)\\), \\(B(4;\\,1;\\,1)\\), is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"sphere\">Mặt cầu</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diameter\">đường kính</b> \\(AB\\) với \\(A(2;\\,5;\\,-1)\\), \\(B(4;\\,1;\\,1)\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b>…",
+   "options": [
+    "\\((x-2)^2+(y-5)^2+(z+1)^2=6\\)",
+    "\\((x-3)^2+(y-3)^2+z^2=24\\)",
+    "\\((x-3)^2+(y-3)^2+z^2=6\\)",
+    "\\((x-3)^2+(y-3)^2+z^2=12\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Centre = midpoint \\(I(3;\\,3;\\,0)\\), \\(R=\\dfrac{AB}{2}\\), \\(R^2=6\\).",
+   "explain_vi": "Đáp án c. Tâm là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> \\(I(3;\\,3;\\,0)\\), \\(R=\\dfrac{AB}{2}\\), \\(R^2=6\\).",
+   "images": [],
+   "id": "d79f9e4268fc",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Where is \\(A(-#;\\,-#;\\,-#)\\) relative to the sphere \\((x+#)^#+(y-#)^#+(z+#)^#=#\\)?",
+   "en": "Where is \\(A(-3;\\,-1;\\,-2)\\) relative to the sphere \\((x+3)^2+(y-1)^2+(z+1)^2=4\\)?",
+   "vi": "Điểm \\(A(-3;\\,-1;\\,-2)\\) có vị trí thế nào so với <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sphere\">mặt cầu</b> \\((x+3)^2+(y-1)^2+(z+1)^2=4\\)?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">on the sphere</span><span class=\"vi\">nằm trên mặt cầu</span></span>",
+    "<span class=\"txi\"><span class=\"en\">inside the sphere</span><span class=\"vi\">nằm trong mặt cầu</span></span>",
+    "<span class=\"txi\"><span class=\"en\">at the centre</span><span class=\"vi\">trùng với tâm</span></span>",
+    "<span class=\"txi\"><span class=\"en\">outside the sphere</span><span class=\"vi\">nằm ngoài mặt cầu</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(IA^2=5\\), \\(R^2=4\\).",
+   "explain_vi": "Đáp án d. \\(IA^2=5\\), \\(R^2=4\\).",
+   "images": [],
+   "id": "40db955e338b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Which point lies on \\((S): (x-#)^#+(y+#)^#+z^#=#\\)?",
+   "en": "Which point lies on \\((S): (x-4)^2+(y+3)^2+z^2=49\\)?",
+   "vi": "Điểm nào thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sphere\">mặt cầu</b> \\((S): (x-4)^2+(y+3)^2+z^2=49\\)?",
+   "options": [
+    "\\((8;\\,3;\\,-3)\\)",
+    "\\((6;\\,3;\\,-2)\\)",
+    "\\((7;\\,2;\\,-2)\\)",
+    "\\((7;\\,3;\\,-2)\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(IA^2=49=R^2\\).",
+   "explain_vi": "Đáp án d. \\(IA^2=49=R^2\\).",
+   "images": [],
+   "id": "edec532f3604",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\((P): -#x+y+#z+#=#\\) cuts \\((S): (x+#)^#+(y+#)^#+(z+#)^#=#\\) along a circle of radius…",
+   "en": "\\((P): -2x+y+2z+14=0\\) cuts \\((S): (x+1)^2+(y+2)^2+(z+1)^2=25\\) along a circle of radius…",
+   "vi": "\\((P): -2x+y+2z+14=0\\) cắt \\((S): (x+1)^2+(y+2)^2+(z+1)^2=25\\) theo <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b>…",
+   "options": [
+    "\\(\\sqrt{41}\\)",
+    "\\(1\\)",
+    "\\(4\\)",
+    "\\(3\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(r=\\sqrt{R^2-d^2}=\\sqrt{25-16}=3\\).",
+   "explain_vi": "Đáp án d. \\(r=\\sqrt{R^2-d^2}=\\sqrt{25-16}=3\\).",
+   "images": [],
+   "id": "270c43059bd0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(x^#+y^#+z^#+#y-#z+m=#\\) is the equation of a sphere exactly when…",
+   "en": "\\(x^2+y^2+z^2+4y-4z+m=0\\) is the equation of a sphere exactly when…",
+   "vi": "\\(x^2+y^2+z^2+4y-4z+m=0\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sphere\">mặt cầu</b> khi và chỉ khi…",
+   "options": [
+    "\\(m\\lt16\\)",
+    "\\(m\\le8\\)",
+    "\\(m\\gt8\\)",
+    "\\(m\\lt8\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Need \\(a^2+b^2+c^2-d=8-m\\gt0\\).",
+   "explain_vi": "Đáp án d. Cần \\(a^2+b^2+c^2-d=8-m\\gt0\\).",
+   "images": [],
+   "id": "cd66f373bd57",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Centre and radius of \\(x^#+y^#+z^#-#x-#y+#z+#=#\\):",
+   "en": "Centre and radius of \\(x^2+y^2+z^2-4x-2y+6z+5=0\\):",
+   "vi": "Tâm và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sphere\">mặt cầu</b> \\(x^2+y^2+z^2-4x-2y+6z+5=0\\) là…",
+   "options": [
+    "\\(I(-2;\\,-1;\\,3),\\ R=3\\)",
+    "\\(I(2;\\,1;\\,-3),\\ R=9\\)",
+    "\\(I(2;\\,1;\\,-3),\\ R=3\\)",
+    "\\(I(4;\\,2;\\,-6),\\ R=3\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(R^2=9\\).",
+   "explain_vi": "Đáp án c. \\(R^2=a^2+b^2+c^2-d=9\\).",
+   "images": [],
+   "id": "b933a33dfc07",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Position of \\((S): x^#+(y-#)^#+(z+#)^#=#\\) and \\((P): #x-y+#z+#=#\\):",
+   "en": "Position of \\((S): x^2+(y-2)^2+(z+1)^2=16\\) and \\((P): 2x-y+2z+16=0\\):",
+   "vi": "Vị trí tương đối của \\((S): x^2+(y-2)^2+(z+1)^2=16\\) và \\((P): 2x-y+2z+16=0\\):",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">cut along a circle</span><span class=\"vi\">cắt theo một đường tròn</span></span>",
+    "<span class=\"txi\"><span class=\"en\">tangent</span><span class=\"vi\">tiếp xúc</span></span>",
+    "<span class=\"txi\"><span class=\"en\">no common point</span><span class=\"vi\">không có điểm chung</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the plane passes through \\(I\\)</span><span class=\"vi\">mặt phẳng đi qua tâm</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(d(I,(P))=4\\), \\(R=4\\).",
+   "explain_vi": "Đáp án b. \\(d(I,(P))=4\\), \\(R=4\\).",
+   "images": [],
+   "id": "0c8cf1f331e8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "The sphere with centre \\(I(#;\\,-#;\\,#)\\) through \\(A(#;\\,#;\\,#)\\):",
+   "en": "The sphere with centre \\(I(1;\\,-1;\\,2)\\) through \\(A(3;\\,1;\\,3)\\):",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"sphere\">Mặt cầu</b> tâm \\(I(1;\\,-1;\\,2)\\) đi qua \\(A(3;\\,1;\\,3)\\) là…",
+   "options": [
+    "\\((x-3)^2+(y-1)^2+(z-3)^2=9\\)",
+    "\\((x-1)^2+(y+1)^2+(z-2)^2=10\\)",
+    "\\((x+1)^2+(y-1)^2+(z+2)^2=9\\)",
+    "\\((x-1)^2+(y+1)^2+(z-2)^2=9\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(R^2=IA^2=9\\).",
+   "explain_vi": "Đáp án d. \\(R^2=IA^2=9\\).",
+   "images": [],
+   "id": "21a26fd58800",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "The point \\(A(#;\\,#;\\,#)\\) lies on \\(x^#+(y-#)^#+(z-#)^#=#\\).",
+   "en": "The point \\(A(3;\\,5;\\,2)\\) lies on \\(x^2+(y-1)^2+(z-1)^2=25\\).",
+   "vi": "Điểm \\(A(3;\\,5;\\,2)\\) thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sphere\">mặt cầu</b> \\(x^2+(y-1)^2+(z-1)^2=25\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "\\(IA^2=26\\).",
+   "explain_vi": "\\(IA^2=26\\), \\(R^2=25\\).",
+   "images": [],
+   "id": "e835e0c9d4a9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(x^#+y^#+z^#-#x+#y+#=#\\) is the equation of a sphere.",
+   "en": "\\(x^2+y^2+z^2-4x+2y+6=0\\) is the equation of a sphere.",
+   "vi": "\\(x^2+y^2+z^2-4x+2y+6=0\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> của một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sphere\">mặt cầu</b>.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "\\(a^2+b^2+c^2-d=-1\\).",
+   "explain_vi": "\\(a^2+b^2+c^2-d=-1\\).",
+   "images": [],
+   "id": "16fef1a0b397",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "A ball of radius # cm is cut by a plane # cm from its centre. Find the radius of the cut (cm).",
+   "en": "A ball of radius 13 cm is cut by a plane 5 cm from its centre. Find the radius of the cut (cm).",
+   "vi": "Một quả cầu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 13 cm bị cắt bởi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> cách tâm 5 cm. Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> của mặt cắt (cm).",
+   "options": [],
+   "answer": "12",
+   "explain_en": "\\(r=\\sqrt{169-25}=12\\).",
+   "explain_vi": "\\(r=\\sqrt{R^2-d^2}=\\sqrt{169-25}=12\\).",
+   "images": [],
+   "id": "9b0eec4d906f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "Find the radius of the sphere with centre \\(I(#;\\,-#;\\,#)\\) tangent to \\((P): x-#y+#z+#=#\\).",
+   "en": "Find the radius of the sphere with centre \\(I(2;\\,-1;\\,0)\\) tangent to \\((P): x-2y+2z+5=0\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sphere\">mặt cầu</b> tâm \\(I(2;\\,-1;\\,0)\\) tiếp xúc với \\((P): x-2y+2z+5=0\\).",
+   "options": [],
+   "answer": "3",
+   "explain_en": "\\(R=\\dfrac{|9|}{3}=3\\).",
+   "explain_vi": "\\(R=d(I,(P))=\\dfrac{|9|}{3}=3\\).",
+   "images": [],
+   "id": "83595c35e8ae",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "A Wi-Fi router at \\(I(#;\\,#;\\,#)\\) (m) covers a ball of radius # m. Is the phone at \\(A(#;\\,-#;\\,#)\\) covered?",
+   "en": "A Wi-Fi router at \\(I(2;\\,2;\\,2)\\) (m) covers a ball of radius 9 m. Is the phone at \\(A(7;\\,-1;\\,9)\\) covered?",
+   "vi": "Bộ phát Wi-Fi đặt tại \\(I(2;\\,2;\\,2)\\) (m) phủ sóng trong khối cầu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 9 m. Điện thoại tại \\(A(7;\\,-1;\\,9)\\) có bắt được sóng không?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">no, \\(IA=10\\)</span><span class=\"vi\">không, vì \\(IA=10\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">yes, \\(IA^2=83\\le81\\)</span><span class=\"vi\">có, vì \\(IA^2=83\\le81\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">no, \\(IA^2=83\\gt81\\)</span><span class=\"vi\">không, vì \\(IA^2=83\\gt81\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">yes, \\(IA=9\\)</span><span class=\"vi\">có, vì \\(IA=9\\)</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(IA^2=83\\), \\(R^2=81\\).",
+   "explain_vi": "Đáp án c. \\(IA^2=83\\), \\(R^2=81\\).",
+   "images": [],
+   "id": "751327017671",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "A ball with centre \\(I(#;\\,#;\\,#)\\) rests on the floor \\((Oxy)\\). Its equation is…",
+   "en": "A ball with centre \\(I(1;\\,3;\\,4)\\) rests on the floor \\((Oxy)\\). Its equation is…",
+   "vi": "Quả bóng tâm \\(I(1;\\,3;\\,4)\\) đặt trên sàn \\((Oxy)\\) (tiếp xúc với sàn). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">Phương trình</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sphere\">mặt cầu</b> là…",
+   "options": [
+    "\\((x-1)^2+(y-3)^2+(z-4)^2=16\\)",
+    "\\((x-1)^2+(y-3)^2+(z-4)^2=25\\)",
+    "\\((x-1)^2+(y-3)^2+(z-4)^2=4\\)",
+    "\\((x-1)^2+(y-3)^2+(z-4)^2=26\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(R=d(I,(Oxy))=|z_I|=4\\).",
+   "explain_vi": "Đáp án a. \\(R=d(I,(Oxy))=|z_I|=4\\).",
+   "images": [],
+   "id": "3546234e59be",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "How many common points do the line \\(\\begin{cases}x=#\\\\y=#\\\\z=-#+t\\end{cases}\\) and the sphere \\((x-#)^#+y^#+(z+#)^#=#\\) have?",
+   "en": "How many common points do the line \\(\\begin{cases}x=1\\\\y=5\\\\z=-2+t\\end{cases}\\) and the sphere \\((x-1)^2+y^2+(z+2)^2=9\\) have?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">Đường thẳng</b> \\(\\begin{cases}x=1\\\\y=5\\\\z=-2+t\\end{cases}\\) và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sphere\">mặt cầu</b> \\((x-1)^2+y^2+(z+2)^2=9\\) có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"common point\">điểm chung</b>?",
+   "options": [
+    "\\(3\\)",
+    "\\(0\\)",
+    "\\(2\\)",
+    "\\(1\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Distance from \\(I\\) to the line \\(=5\\), \\(R=3\\).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">Khoảng cách</b> từ \\(I\\) đến <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> bằng \\(5\\), \\(R=3\\).",
+   "images": [],
+   "id": "340659fd69a5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Relative position of \\((S): (x-#)^#+(y-#)^#+(z+#)^#=#\\) and \\((P): -x+#y-#z+#=#\\):",
+   "en": "Relative position of \\((S): (x-2)^2+(y-3)^2+(z+1)^2=1\\) and \\((P): -x+2y-2z+3=0\\):",
+   "vi": "Vị trí tương đối của \\((S): (x-2)^2+(y-3)^2+(z+1)^2=1\\) và \\((P): -x+2y-2z+3=0\\) là…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">they cut along a circle</span><span class=\"vi\">cắt nhau theo một đường tròn</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the plane passes through the centre</span><span class=\"vi\">mặt phẳng đi qua tâm</span></span>",
+    "<span class=\"txi\"><span class=\"en\">they have no common point</span><span class=\"vi\">không có điểm chung</span></span>",
+    "<span class=\"txi\"><span class=\"en\">they are tangent</span><span class=\"vi\">tiếp xúc nhau</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(d(I,(P))=3\\), \\(R=1\\).",
+   "explain_vi": "Đáp án c. \\(d(I,(P))=3\\), \\(R=1\\).",
+   "images": [],
+   "id": "2db49921a578",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The sphere \\((x-#)^#+(y-#)^#+(z-#)^#=#\\) has centre and radius…",
+   "en": "The sphere \\((x-3)^2+(y-4)^2+(z-3)^2=4\\) has centre and radius…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"sphere\">Mặt cầu</b> \\((x-3)^2+(y-4)^2+(z-3)^2=4\\) có tâm và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> là…",
+   "options": [
+    "\\(I(3;\\,4;\\,3),\\ R=2\\)",
+    "\\(I(-3;\\,-4;\\,-3),\\ R=4\\)",
+    "\\(I(3;\\,4;\\,3),\\ R=4\\)",
+    "\\(I(-3;\\,-4;\\,-3),\\ R=2\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\((x-a)^2+(y-b)^2+(z-c)^2=R^2\\): \\(I(a;b;c)\\), \\(R=\\sqrt{4}=2\\).",
+   "explain_vi": "Đáp án a. \\((x-a)^2+(y-b)^2+(z-c)^2=R^2\\): tâm \\(I(a;b;c)\\), \\(R=\\sqrt{4}=2\\).",
+   "images": [],
+   "id": "635e4cd0dcba",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The sphere \\(x^#+y^#+z^#+#x-#y-#z+#=#\\) has centre and radius…",
+   "en": "The sphere \\(x^2+y^2+z^2+6x-6y-8z+18=0\\) has centre and radius…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"sphere\">Mặt cầu</b> \\(x^2+y^2+z^2+6x-6y-8z+18=0\\) có tâm và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> là…",
+   "options": [
+    "\\(I(-3;\\,3;\\,4),\\ R=\\sqrt{52}\\)",
+    "\\(I(3;\\,-3;\\,-4),\\ R=4\\)",
+    "\\(I(-6;\\,6;\\,8),\\ R=4\\)",
+    "\\(I(-3;\\,3;\\,4),\\ R=4\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(a,b,c\\) are minus half the coefficients; \\(R^2=a^2+b^2+c^2-d=16\\).",
+   "explain_vi": "Đáp án d. \\(a,b,c\\) bằng âm một nửa các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b>; \\(R^2=a^2+b^2+c^2-d=16\\).",
+   "images": [],
+   "id": "0ebee0489493",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The sphere with centre \\(I(#;\\,#;\\,#)\\) and radius \\(#\\) is…",
+   "en": "The sphere with centre \\(I(0;\\,0;\\,4)\\) and radius \\(5\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"sphere\">Mặt cầu</b> tâm \\(I(0;\\,0;\\,4)\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> \\(5\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b>…",
+   "options": [
+    "\\(x^2+y^2+(z-4)^2=25\\)",
+    "\\(x^2+y^2+(z+4)^2=25\\)",
+    "\\(x^2+y^2+(z+4)^2=5\\)",
+    "\\(x^2+y^2+(z-4)^2=5\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Right side is \\(R^2=25\\).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"right-hand side (RHS)\">Vế phải</b> là \\(R^2=25\\).",
+   "images": [],
+   "id": "62a9fe19686d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The sphere with centre \\(I(#;\\,#;\\,#)\\) tangent to \\((P): #x+#y-z-#=#\\) has radius…",
+   "en": "The sphere with centre \\(I(2;\\,4;\\,0)\\) tangent to \\((P): 2x+2y-z-6=0\\) has radius…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"sphere\">Mặt cầu</b> tâm \\(I(2;\\,4;\\,0)\\) tiếp xúc với \\((P): 2x+2y-z-6=0\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b>…",
+   "options": [
+    "\\(2\\)",
+    "\\(4\\)",
+    "\\(6\\)",
+    "\\(3\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(R=d(I,(P))=\\dfrac{|6|}{3}=2\\).",
+   "explain_vi": "Đáp án a. \\(R=d(I,(P))=\\dfrac{|6|}{3}=2\\).",
+   "images": [],
+   "id": "2d0bda549314",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The sphere with centre \\(I(#;\\,#;\\,-#)\\) touches \\((P): -#x-#y+z+#=#\\) at…",
+   "en": "The sphere with centre \\(I(0;\\,0;\\,-3)\\) touches \\((P): -2x-2y+z+21=0\\) at…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"sphere\">Mặt cầu</b> tâm \\(I(0;\\,0;\\,-3)\\) tiếp xúc với \\((P): -2x-2y+z+21=0\\) tại điểm…",
+   "options": [
+    "\\((2;\\,2;\\,-4)\\)",
+    "\\((-2;\\,-2;\\,1)\\)",
+    "\\((4;\\,4;\\,-5)\\)",
+    "\\((-4;\\,-4;\\,-1)\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Projection of \\(I\\) on \\((P)\\): \\(I-2\\vec n=(4;\\,4;\\,-5)\\).",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"projection\">Hình chiếu</b> của \\(I\\) trên \\((P)\\): \\(H=I-2\\vec n=(4;\\,4;\\,-5)\\).",
+   "images": [],
+   "id": "8e16bbcb656f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The sphere with centre \\(I(#;\\,-#;\\,#)\\) passing through \\(A(#;\\,-#;\\,#)\\) is…",
+   "en": "The sphere with centre \\(I(4;\\,-1;\\,3)\\) passing through \\(A(4;\\,-3;\\,0)\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"sphere\">Mặt cầu</b> tâm \\(I(4;\\,-1;\\,3)\\) và đi qua \\(A(4;\\,-3;\\,0)\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b>…",
+   "options": [
+    "\\((x-4)^2+(y+1)^2+(z-3)^2=13\\)",
+    "\\((x-4)^2+(y+1)^2+(z-3)^2=25\\)",
+    "\\((x-4)^2+(y+3)^2+z^2=13\\)",
+    "\\((x-4)^2+(y+1)^2+(z-3)^2=14\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(R^2=IA^2=13\\).",
+   "explain_vi": "Đáp án a. \\(R^2=IA^2=13\\).",
+   "images": [],
+   "id": "b1be71064127",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The sphere with diameter \\(AB\\), \\(A(#;\\,#;\\,-#)\\), \\(B(#;\\,-#;\\,-#)\\), is…",
+   "en": "The sphere with diameter \\(AB\\), \\(A(5;\\,3;\\,-1)\\), \\(B(3;\\,-1;\\,-5)\\), is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"sphere\">Mặt cầu</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diameter\">đường kính</b> \\(AB\\) với \\(A(5;\\,3;\\,-1)\\), \\(B(3;\\,-1;\\,-5)\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b>…",
+   "options": [
+    "\\((x-5)^2+(y-3)^2+(z+1)^2=9\\)",
+    "\\((x-4)^2+(y-1)^2+(z+3)^2=9\\)",
+    "\\((x-4)^2+(y-1)^2+(z+3)^2=36\\)",
+    "\\((x-4)^2+(y-1)^2+(z+3)^2=18\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Centre = midpoint \\(I(4;\\,1;\\,-3)\\), \\(R=\\dfrac{AB}{2}\\), \\(R^2=9\\).",
+   "explain_vi": "Đáp án b. Tâm là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> \\(I(4;\\,1;\\,-3)\\), \\(R=\\dfrac{AB}{2}\\), \\(R^2=9\\).",
+   "images": [],
+   "id": "91f2b27790a7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Where is \\(A(-#;\\,#;\\,#)\\) relative to the sphere \\(x^#+y^#+(z-#)^#=#\\)?",
+   "en": "Where is \\(A(-1;\\,2;\\,2)\\) relative to the sphere \\(x^2+y^2+(z-3)^2=9\\)?",
+   "vi": "Điểm \\(A(-1;\\,2;\\,2)\\) có vị trí thế nào so với <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sphere\">mặt cầu</b> \\(x^2+y^2+(z-3)^2=9\\)?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">inside the sphere</span><span class=\"vi\">nằm trong mặt cầu</span></span>",
+    "<span class=\"txi\"><span class=\"en\">outside the sphere</span><span class=\"vi\">nằm ngoài mặt cầu</span></span>",
+    "<span class=\"txi\"><span class=\"en\">at the centre</span><span class=\"vi\">trùng với tâm</span></span>",
+    "<span class=\"txi\"><span class=\"en\">on the sphere</span><span class=\"vi\">nằm trên mặt cầu</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(IA^2=6\\), \\(R^2=9\\).",
+   "explain_vi": "Đáp án a. \\(IA^2=6\\), \\(R^2=9\\).",
+   "images": [],
+   "id": "dba280b35a19",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Which point lies on \\((S): (x+#)^#+(y-#)^#+(z+#)^#=#\\)?",
+   "en": "Which point lies on \\((S): (x+1)^2+(y-4)^2+(z+1)^2=81\\)?",
+   "vi": "Điểm nào thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sphere\">mặt cầu</b> \\((S): (x+1)^2+(y-4)^2+(z+1)^2=81\\)?",
+   "options": [
+    "\\((-8;\\,6;\\,3)\\)",
+    "\\((-9;\\,6;\\,4)\\)",
+    "\\((-9;\\,5;\\,3)\\)",
+    "\\((-10;\\,4;\\,3)\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(IA^2=81=R^2\\).",
+   "explain_vi": "Đáp án c. \\(IA^2=81=R^2\\).",
+   "images": [],
+   "id": "47fc499d8762",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\((P): #x-y-#z-#=#\\) cuts \\((S): (x-#)^#+(y-#)^#+(z+#)^#=#\\) along a circle of radius…",
+   "en": "\\((P): 2x-y-2z-23=0\\) cuts \\((S): (x-3)^2+(y-2)^2+(z+2)^2=169\\) along a circle of radius…",
+   "vi": "\\((P): 2x-y-2z-23=0\\) cắt \\((S): (x-3)^2+(y-2)^2+(z+2)^2=169\\) theo <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b>…",
+   "options": [
+    "\\(8\\)",
+    "\\(12\\)",
+    "\\(\\sqrt{194}\\)",
+    "\\(5\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(r=\\sqrt{R^2-d^2}=\\sqrt{169-25}=12\\).",
+   "explain_vi": "Đáp án b. \\(r=\\sqrt{R^2-d^2}=\\sqrt{169-25}=12\\).",
+   "images": [],
+   "id": "15e7dd00ea53",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(x^#+y^#+z^#+#x+m=#\\) is the equation of a sphere exactly when…",
+   "en": "\\(x^2+y^2+z^2+2x+m=0\\) is the equation of a sphere exactly when…",
+   "vi": "\\(x^2+y^2+z^2+2x+m=0\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sphere\">mặt cầu</b> khi và chỉ khi…",
+   "options": [
+    "\\(m\\le1\\)",
+    "\\(m\\lt2\\)",
+    "\\(m\\gt1\\)",
+    "\\(m\\lt1\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Need \\(a^2+b^2+c^2-d=1-m\\gt0\\).",
+   "explain_vi": "Đáp án d. Cần \\(a^2+b^2+c^2-d=1-m\\gt0\\).",
+   "images": [],
+   "id": "432fde68b018",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Centre and radius of \\(x^#+y^#+z^#+#x-#y-#z-#=#\\):",
+   "en": "Centre and radius of \\(x^2+y^2+z^2+2x-6y-2z-5=0\\):",
+   "vi": "Tâm và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sphere\">mặt cầu</b> \\(x^2+y^2+z^2+2x-6y-2z-5=0\\) là…",
+   "options": [
+    "\\(I(1;\\,-3;\\,-1),\\ R=4\\)",
+    "\\(I(-1;\\,3;\\,1),\\ R=16\\)",
+    "\\(I(-1;\\,3;\\,1),\\ R=4\\)",
+    "\\(I(-2;\\,6;\\,2),\\ R=4\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(R^2=16\\).",
+   "explain_vi": "Đáp án c. \\(R^2=a^2+b^2+c^2-d=16\\).",
+   "images": [],
+   "id": "485b88ff0103",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Position of \\((S): (x-#)^#+(y-#)^#+(z-#)^#=#\\) and \\((P): #x+y-#z+#=#\\):",
+   "en": "Position of \\((S): (x-1)^2+(y-1)^2+(z-1)^2=4\\) and \\((P): 2x+y-2z+8=0\\):",
+   "vi": "Vị trí tương đối của \\((S): (x-1)^2+(y-1)^2+(z-1)^2=4\\) và \\((P): 2x+y-2z+8=0\\):",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">no common point</span><span class=\"vi\">không có điểm chung</span></span>",
+    "<span class=\"txi\"><span class=\"en\">cut along a circle</span><span class=\"vi\">cắt theo một đường tròn</span></span>",
+    "<span class=\"txi\"><span class=\"en\">tangent</span><span class=\"vi\">tiếp xúc</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the plane passes through \\(I\\)</span><span class=\"vi\">mặt phẳng đi qua tâm</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(d(I,(P))=3\\), \\(R=2\\).",
+   "explain_vi": "Đáp án a. \\(d(I,(P))=3\\), \\(R=2\\).",
+   "images": [],
+   "id": "32c81f26b74b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "The sphere with centre \\(I(#;\\,#;\\,#)\\) through \\(A(#;\\,#;\\,#)\\):",
+   "en": "The sphere with centre \\(I(2;\\,0;\\,1)\\) through \\(A(0;\\,1;\\,3)\\):",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"sphere\">Mặt cầu</b> tâm \\(I(2;\\,0;\\,1)\\) đi qua \\(A(0;\\,1;\\,3)\\) là…",
+   "options": [
+    "\\(x^2+(y-1)^2+(z-3)^2=9\\)",
+    "\\((x-2)^2+y^2+(z-1)^2=10\\)",
+    "\\((x+2)^2+y^2+(z+1)^2=9\\)",
+    "\\((x-2)^2+y^2+(z-1)^2=9\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(R^2=IA^2=9\\).",
+   "explain_vi": "Đáp án d. \\(R^2=IA^2=9\\).",
+   "images": [],
+   "id": "b2ca2784990c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "The point \\(A(#;\\,#;\\,#)\\) lies on \\((x-#)^#+(y+#)^#+(z-#)^#=#\\).",
+   "en": "The point \\(A(4;\\,0;\\,3)\\) lies on \\((x-2)^2+(y+1)^2+(z-1)^2=9\\).",
+   "vi": "Điểm \\(A(4;\\,0;\\,3)\\) thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sphere\">mặt cầu</b> \\((x-2)^2+(y+1)^2+(z-1)^2=9\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "\\(IA^2=9\\).",
+   "explain_vi": "\\(IA^2=9\\), \\(R^2=9\\).",
+   "images": [],
+   "id": "d32a55f6cc6b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(x^#+y^#+z^#-#x+#z+#=#\\) is the equation of a sphere.",
+   "en": "\\(x^2+y^2+z^2-6x+2z+9=0\\) is the equation of a sphere.",
+   "vi": "\\(x^2+y^2+z^2-6x+2z+9=0\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> của một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sphere\">mặt cầu</b>.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "\\(a^2+b^2+c^2-d=1\\).",
+   "explain_vi": "\\(a^2+b^2+c^2-d=1\\).",
+   "images": [],
+   "id": "08cadb0b2a87",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "A ball of radius # cm is cut by a plane # cm from its centre. Find the radius of the cut (cm).",
+   "en": "A ball of radius 17 cm is cut by a plane 8 cm from its centre. Find the radius of the cut (cm).",
+   "vi": "Một quả cầu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 17 cm bị cắt bởi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> cách tâm 8 cm. Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> của mặt cắt (cm).",
+   "options": [],
+   "answer": "15",
+   "explain_en": "\\(r=\\sqrt{289-64}=15\\).",
+   "explain_vi": "\\(r=\\sqrt{R^2-d^2}=\\sqrt{289-64}=15\\).",
+   "images": [],
+   "id": "f6e900ce76c0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Find the radius of the sphere with centre \\(I(#;\\,#;\\,-#)\\) tangent to \\((P): #x+#y-z+#=#\\).",
+   "en": "Find the radius of the sphere with centre \\(I(0;\\,2;\\,-1)\\) tangent to \\((P): 2x+2y-z+13=0\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sphere\">mặt cầu</b> tâm \\(I(0;\\,2;\\,-1)\\) tiếp xúc với \\((P): 2x+2y-z+13=0\\).",
+   "options": [],
+   "answer": "6",
+   "explain_en": "\\(R=\\dfrac{|18|}{3}=6\\).",
+   "explain_vi": "\\(R=d(I,(P))=\\dfrac{|18|}{3}=6\\).",
+   "images": [],
+   "id": "0d063ffb5cbd",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "A Wi-Fi router at \\(I(#;\\,#;\\,#)\\) (m) covers a ball of radius # m. Is the phone at \\(A(#;\\,#;\\,-#)\\) covered?",
+   "en": "A Wi-Fi router at \\(I(1;\\,6;\\,3)\\) (m) covers a ball of radius 9 m. Is the phone at \\(A(0;\\,0;\\,-4)\\) covered?",
+   "vi": "Bộ phát Wi-Fi đặt tại \\(I(1;\\,6;\\,3)\\) (m) phủ sóng trong khối cầu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 9 m. Điện thoại tại \\(A(0;\\,0;\\,-4)\\) có bắt được sóng không?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">yes, \\(IA^2=86\\le81\\)</span><span class=\"vi\">có, vì \\(IA^2=86\\le81\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">yes, \\(IA=9\\)</span><span class=\"vi\">có, vì \\(IA=9\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">no, \\(IA^2=86\\gt81\\)</span><span class=\"vi\">không, vì \\(IA^2=86\\gt81\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">no, \\(IA=10\\)</span><span class=\"vi\">không, vì \\(IA=10\\)</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(IA^2=86\\), \\(R^2=81\\).",
+   "explain_vi": "Đáp án c. \\(IA^2=86\\), \\(R^2=81\\).",
+   "images": [],
+   "id": "14ca65cb616c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "A ball with centre \\(I(#;\\,#;\\,#)\\) rests on the floor \\((Oxy)\\). Its equation is…",
+   "en": "A ball with centre \\(I(1;\\,2;\\,3)\\) rests on the floor \\((Oxy)\\). Its equation is…",
+   "vi": "Quả bóng tâm \\(I(1;\\,2;\\,3)\\) đặt trên sàn \\((Oxy)\\) (tiếp xúc với sàn). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">Phương trình</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sphere\">mặt cầu</b> là…",
+   "options": [
+    "\\((x-1)^2+(y-2)^2+(z-3)^2=9\\)",
+    "\\((x-1)^2+(y-2)^2+(z-3)^2=16\\)",
+    "\\((x-1)^2+(y-2)^2+(z-3)^2=3\\)",
+    "\\((x-1)^2+(y-2)^2+(z-3)^2=14\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(R=d(I,(Oxy))=|z_I|=3\\).",
+   "explain_vi": "Đáp án a. \\(R=d(I,(Oxy))=|z_I|=3\\).",
+   "images": [],
+   "id": "ef1ddfaba25a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "How many common points do the line \\(\\begin{cases}x=#+t\\\\y=-#+#t\\\\z=-#+#t\\end{cases}\\) and the sphere \\((x-#)^#+(y+#)^#+(z+#)^#=#\\) have?",
+   "en": "How many common points do the line \\(\\begin{cases}x=1+t\\\\y=-2+2t\\\\z=-2+2t\\end{cases}\\) and the sphere \\((x-1)^2+(y+2)^2+(z+2)^2=9\\) have?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">Đường thẳng</b> \\(\\begin{cases}x=1+t\\\\y=-2+2t\\\\z=-2+2t\\end{cases}\\) và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sphere\">mặt cầu</b> \\((x-1)^2+(y+2)^2+(z+2)^2=9\\) có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"common point\">điểm chung</b>?",
+   "options": [
+    "\\(1\\)",
+    "\\(2\\)",
+    "\\(3\\)",
+    "\\(0\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Distance from \\(I\\) to the line \\(=0\\), \\(R=3\\).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">Khoảng cách</b> từ \\(I\\) đến <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> bằng \\(0\\), \\(R=3\\).",
+   "images": [],
+   "id": "b3ea9ae98205",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Relative position of \\((S): (x+#)^#+(y-#)^#+(z+#)^#=#\\) and \\((P): -#x-y-#z-#=#\\):",
+   "en": "Relative position of \\((S): (x+3)^2+(y-1)^2+(z+3)^2=25\\) and \\((P): -2x-y-2z-5=0\\):",
+   "vi": "Vị trí tương đối của \\((S): (x+3)^2+(y-1)^2+(z+3)^2=25\\) và \\((P): -2x-y-2z-5=0\\) là…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">they have no common point</span><span class=\"vi\">không có điểm chung</span></span>",
+    "<span class=\"txi\"><span class=\"en\">they are tangent</span><span class=\"vi\">tiếp xúc nhau</span></span>",
+    "<span class=\"txi\"><span class=\"en\">they cut along a circle</span><span class=\"vi\">cắt nhau theo một đường tròn</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the plane passes through the centre</span><span class=\"vi\">mặt phẳng đi qua tâm</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(d(I,(P))=2\\), \\(R=5\\).",
+   "explain_vi": "Đáp án c. \\(d(I,(P))=2\\), \\(R=5\\).",
+   "images": [],
+   "id": "3a93487925d4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The sphere \\((x-#)^#+(y-#)^#+(z+#)^#=#\\) has centre and radius…",
+   "en": "The sphere \\((x-1)^2+(y-3)^2+(z+1)^2=16\\) has centre and radius…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"sphere\">Mặt cầu</b> \\((x-1)^2+(y-3)^2+(z+1)^2=16\\) có tâm và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> là…",
+   "options": [
+    "\\(I(-1;\\,-3;\\,1),\\ R=4\\)",
+    "\\(I(1;\\,3;\\,-1),\\ R=4\\)",
+    "\\(I(1;\\,3;\\,-1),\\ R=16\\)",
+    "\\(I(-1;\\,-3;\\,1),\\ R=16\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\((x-a)^2+(y-b)^2+(z-c)^2=R^2\\): \\(I(a;b;c)\\), \\(R=\\sqrt{16}=4\\).",
+   "explain_vi": "Đáp án b. \\((x-a)^2+(y-b)^2+(z-c)^2=R^2\\): tâm \\(I(a;b;c)\\), \\(R=\\sqrt{16}=4\\).",
+   "images": [],
+   "id": "c0bdf81c5d8a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The sphere \\(x^#+y^#+z^#-#x+#y+#z-#=#\\) has centre and radius…",
+   "en": "The sphere \\(x^2+y^2+z^2-2x+6y+4z-22=0\\) has centre and radius…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"sphere\">Mặt cầu</b> \\(x^2+y^2+z^2-2x+6y+4z-22=0\\) có tâm và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> là…",
+   "options": [
+    "\\(I(2;\\,-6;\\,-4),\\ R=6\\)",
+    "\\(I(-1;\\,3;\\,2),\\ R=6\\)",
+    "\\(I(1;\\,-3;\\,-2),\\ R=6\\)",
+    "\\(I(1;\\,-3;\\,-2),\\ R=7\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(a,b,c\\) are minus half the coefficients; \\(R^2=a^2+b^2+c^2-d=36\\).",
+   "explain_vi": "Đáp án c. \\(a,b,c\\) bằng âm một nửa các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b>; \\(R^2=a^2+b^2+c^2-d=36\\).",
+   "images": [],
+   "id": "e99197fd9fd1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The sphere with centre \\(I(#;\\,#;\\,#)\\) touches \\((P): -#x-#y-z+#=#\\) at…",
+   "en": "The sphere with centre \\(I(2;\\,4;\\,3)\\) touches \\((P): -2x-2y-z+6=0\\) at…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"sphere\">Mặt cầu</b> tâm \\(I(2;\\,4;\\,3)\\) tiếp xúc với \\((P): -2x-2y-z+6=0\\) tại điểm…",
+   "options": [
+    "\\((0;\\,2;\\,2)\\)",
+    "\\((4;\\,6;\\,4)\\)",
+    "\\((2;\\,4;\\,3)\\)",
+    "\\((-2;\\,-2;\\,-1)\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Projection of \\(I\\) on \\((P)\\): \\(I--1\\vec n=(0;\\,2;\\,2)\\).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"projection\">Hình chiếu</b> của \\(I\\) trên \\((P)\\): \\(H=I--1\\vec n=(0;\\,2;\\,2)\\).",
+   "images": [],
+   "id": "b8b19c8cf2b0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The sphere with centre \\(I(#;\\,-#;\\,#)\\) and radius \\(#\\) is…",
+   "en": "The sphere with centre \\(I(1;\\,-3;\\,3)\\) and radius \\(3\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"sphere\">Mặt cầu</b> tâm \\(I(1;\\,-3;\\,3)\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> \\(3\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b>…",
+   "options": [
+    "\\((x-1)^2+(y+3)^2+(z-3)^2=3\\)",
+    "\\((x+1)^2+(y-3)^2+(z+3)^2=9\\)",
+    "\\((x+1)^2+(y-3)^2+(z+3)^2=3\\)",
+    "\\((x-1)^2+(y+3)^2+(z-3)^2=9\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Right side is \\(R^2=9\\).",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"right-hand side (RHS)\">Vế phải</b> là \\(R^2=9\\).",
+   "images": [],
+   "id": "02f3edd166ff",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The sphere with centre \\(I(#;\\,-#;\\,-#)\\) passing through \\(A(#;\\,#;\\,-#)\\) is…",
+   "en": "The sphere with centre \\(I(2;\\,-1;\\,-1)\\) passing through \\(A(0;\\,1;\\,-2)\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"sphere\">Mặt cầu</b> tâm \\(I(2;\\,-1;\\,-1)\\) và đi qua \\(A(0;\\,1;\\,-2)\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b>…",
+   "options": [
+    "\\((x-2)^2+(y+1)^2+(z+1)^2=9\\)",
+    "\\((x-2)^2+(y+1)^2+(z+1)^2=5\\)",
+    "\\((x-2)^2+(y+1)^2+(z+1)^2=10\\)",
+    "\\(x^2+(y-1)^2+(z+2)^2=9\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(R^2=IA^2=9\\).",
+   "explain_vi": "Đáp án a. \\(R^2=IA^2=9\\).",
+   "images": [],
+   "id": "e93270a4015f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The sphere with centre \\(I(#;\\,-#;\\,-#)\\) tangent to \\((P): #x+#y-z+#=#\\) has radius…",
+   "en": "The sphere with centre \\(I(3;\\,-3;\\,-2)\\) tangent to \\((P): 2x+2y-z+4=0\\) has radius…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"sphere\">Mặt cầu</b> tâm \\(I(3;\\,-3;\\,-2)\\) tiếp xúc với \\((P): 2x+2y-z+4=0\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b>…",
+   "options": [
+    "\\(6\\)",
+    "\\(3\\)",
+    "\\(2\\)",
+    "\\(4\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(R=d(I,(P))=\\dfrac{|6|}{3}=2\\).",
+   "explain_vi": "Đáp án c. \\(R=d(I,(P))=\\dfrac{|6|}{3}=2\\).",
+   "images": [],
+   "id": "e2f0ee285016",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The sphere with diameter \\(AB\\), \\(A(#;\\,-#;\\,#)\\), \\(B(#;\\,-#;\\,#)\\), is…",
+   "en": "The sphere with diameter \\(AB\\), \\(A(0;\\,-2;\\,1)\\), \\(B(0;\\,-4;\\,1)\\), is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"sphere\">Mặt cầu</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diameter\">đường kính</b> \\(AB\\) với \\(A(0;\\,-2;\\,1)\\), \\(B(0;\\,-4;\\,1)\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b>…",
+   "options": [
+    "\\(x^2+(y+3)^2+(z-1)^2=2\\)",
+    "\\(x^2+(y+3)^2+(z-1)^2=4\\)",
+    "\\(x^2+(y+2)^2+(z-1)^2=1\\)",
+    "\\(x^2+(y+3)^2+(z-1)^2=1\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Centre = midpoint \\(I(0;\\,-3;\\,1)\\), \\(R=\\dfrac{AB}{2}\\), \\(R^2=1\\).",
+   "explain_vi": "Đáp án d. Tâm là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> \\(I(0;\\,-3;\\,1)\\), \\(R=\\dfrac{AB}{2}\\), \\(R^2=1\\).",
+   "images": [],
+   "id": "c11a1ed9606c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Where is \\(A(#;\\,-#;\\,#)\\) relative to the sphere \\((x-#)^#+(y+#)^#+(z+#)^#=#\\)?",
+   "en": "Where is \\(A(1;\\,-3;\\,0)\\) relative to the sphere \\((x-4)^2+(y+2)^2+(z+1)^2=25\\)?",
+   "vi": "Điểm \\(A(1;\\,-3;\\,0)\\) có vị trí thế nào so với <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sphere\">mặt cầu</b> \\((x-4)^2+(y+2)^2+(z+1)^2=25\\)?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">at the centre</span><span class=\"vi\">trùng với tâm</span></span>",
+    "<span class=\"txi\"><span class=\"en\">outside the sphere</span><span class=\"vi\">nằm ngoài mặt cầu</span></span>",
+    "<span class=\"txi\"><span class=\"en\">inside the sphere</span><span class=\"vi\">nằm trong mặt cầu</span></span>",
+    "<span class=\"txi\"><span class=\"en\">on the sphere</span><span class=\"vi\">nằm trên mặt cầu</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(IA^2=11\\), \\(R^2=25\\).",
+   "explain_vi": "Đáp án c. \\(IA^2=11\\), \\(R^2=25\\).",
+   "images": [],
+   "id": "0a23f871b9cb",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Which point lies on \\((S): (x-#)^#+(y-#)^#+(z-#)^#=#\\)?",
+   "en": "Which point lies on \\((S): (x-2)^2+(y-3)^2+(z-2)^2=9\\)?",
+   "vi": "Điểm nào thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sphere\">mặt cầu</b> \\((S): (x-2)^2+(y-3)^2+(z-2)^2=9\\)?",
+   "options": [
+    "\\((3;\\,3;\\,5)\\)",
+    "\\((1;\\,4;\\,5)\\)",
+    "\\((2;\\,3;\\,5)\\)",
+    "\\((2;\\,3;\\,4)\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(IA^2=9=R^2\\).",
+   "explain_vi": "Đáp án c. \\(IA^2=9=R^2\\).",
+   "images": [],
+   "id": "b72b32703ba6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\((P): -#x-y-#z+#=#\\) cuts \\((S): (x+#)^#+(y+#)^#+(z+#)^#=#\\) along a circle of radius…",
+   "en": "\\((P): -2x-y-2z+5=0\\) cuts \\((S): (x+1)^2+(y+1)^2+(z+2)^2=25\\) along a circle of radius…",
+   "vi": "\\((P): -2x-y-2z+5=0\\) cắt \\((S): (x+1)^2+(y+1)^2+(z+2)^2=25\\) theo <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b>…",
+   "options": [
+    "\\(3\\)",
+    "\\(\\sqrt{41}\\)",
+    "\\(4\\)",
+    "\\(1\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(r=\\sqrt{R^2-d^2}=\\sqrt{25-16}=3\\).",
+   "explain_vi": "Đáp án a. \\(r=\\sqrt{R^2-d^2}=\\sqrt{25-16}=3\\).",
+   "images": [],
+   "id": "6754cee2ec72",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(x^#+y^#+z^#+#x-#y+#z+m=#\\) is the equation of a sphere exactly when…",
+   "en": "\\(x^2+y^2+z^2+2x-2y+2z+m=0\\) is the equation of a sphere exactly when…",
+   "vi": "\\(x^2+y^2+z^2+2x-2y+2z+m=0\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sphere\">mặt cầu</b> khi và chỉ khi…",
+   "options": [
+    "\\(m\\gt3\\)",
+    "\\(m\\lt6\\)",
+    "\\(m\\le3\\)",
+    "\\(m\\lt3\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Need \\(a^2+b^2+c^2-d=3-m\\gt0\\).",
+   "explain_vi": "Đáp án d. Cần \\(a^2+b^2+c^2-d=3-m\\gt0\\).",
+   "images": [],
+   "id": "9fe8e40594ef",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  }
+ ]
+}

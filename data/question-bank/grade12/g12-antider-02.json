@@ -1,0 +1,639 @@
+{
+ "lesson": "g12-antider-02",
+ "grade": 12,
+ "no": null,
+ "title": "Các phương pháp tìm nguyên hàm",
+ "path": "lessons/grade12/antiderivatives/techniques-of-antiderivatives.html",
+ "items": [
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Find \\(\\displaystyle\\int e^{#x}\\,dx\\).",
+   "en": "Find \\(\\displaystyle\\int e^{2x}\\,dx\\).",
+   "vi": "Tìm \\(\\displaystyle\\int e^{2x}\\,dx\\).",
+   "options": [
+    "\\(2e^{2x}+C\\)",
+    "\\(e^{2x}+C\\)",
+    "\\(\\dfrac12e^{2x}+C\\)",
+    "\\(\\dfrac12e^{x}+C\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c.",
+   "explain_vi": "Đáp án c.",
+   "images": [],
+   "id": "0b3a32450c5e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Find \\(\\displaystyle\\int(x+#)^#\\,dx\\).",
+   "en": "Find \\(\\displaystyle\\int(x+1)^4\\,dx\\).",
+   "vi": "Tìm \\(\\displaystyle\\int(x+1)^4\\,dx\\).",
+   "options": [
+    "\\(\\dfrac{(x+1)^5}{5}+C\\)",
+    "\\(4(x+1)^3+C\\)",
+    "\\((x+1)^5+C\\)",
+    "\\(\\dfrac{x^5}{5}+x+C\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Here \\(a=1\\).",
+   "explain_vi": "Đáp án a. Ở đây \\(a=1\\).",
+   "images": [],
+   "id": "387d00e42d31",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Find \\(\\displaystyle\\int\\cos#x\\,dx\\).",
+   "en": "Find \\(\\displaystyle\\int\\cos2x\\,dx\\).",
+   "vi": "Tìm \\(\\displaystyle\\int\\cos2x\\,dx\\).",
+   "options": [
+    "\\(\\sin2x+C\\)",
+    "\\(\\dfrac12\\sin2x+C\\)",
+    "\\(2\\sin2x+C\\)",
+    "\\(-\\dfrac12\\sin2x+C\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Multiply by \\(\\dfrac1a=\\dfrac12\\).",
+   "explain_vi": "Đáp án b. Nhân với \\(\\dfrac1a=\\dfrac12\\).",
+   "images": [],
+   "id": "74895f57ae68",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Find \\(\\displaystyle\\int\\dfrac{#}{#x+#}\\,dx\\).",
+   "en": "Find \\(\\displaystyle\\int\\dfrac{1}{3x+1}\\,dx\\).",
+   "vi": "Tìm \\(\\displaystyle\\int\\dfrac{1}{3x+1}\\,dx\\).",
+   "options": [
+    "\\(\\ln|3x+1|+C\\)",
+    "\\(\\dfrac13\\ln|3x+1|+C\\)",
+    "\\(3\\ln|3x+1|+C\\)",
+    "\\(-\\dfrac13\\ln|3x+1|+C\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\int\\dfrac1t\\,dt=\\ln|t|\\), times \\(\\dfrac13\\).",
+   "explain_vi": "Đáp án b. \\(\\int\\dfrac1t\\,dt=\\ln|t|\\), nhân với \\(\\dfrac13\\).",
+   "images": [],
+   "id": "fdcd14d4d798",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "True or false: \\(\\displaystyle\\int#xe^{x^#}\\,dx=e^{x^#}+C\\).",
+   "en": "True or false: \\(\\displaystyle\\int2xe^{x^2}\\,dx=e^{x^2}+C\\).",
+   "vi": "Đúng hay sai: \\(\\displaystyle\\int2xe^{x^2}\\,dx=e^{x^2}+C\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. Let \\(u=x^2\\), \\(du=2x\\,dx\\).",
+   "explain_vi": "Đúng. Đặt \\(u=x^2\\), \\(du=2x\\,dx\\).",
+   "images": [],
+   "id": "5981280cd756",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "True or false: \\(\\displaystyle\\int(#x+#)^#\\,dx=\\dfrac{(#x+#)^#}{#}+C\\).",
+   "en": "True or false: \\(\\displaystyle\\int(2x+1)^3\\,dx=\\dfrac{(2x+1)^4}{4}+C\\).",
+   "vi": "Đúng hay sai: \\(\\displaystyle\\int(2x+1)^3\\,dx=\\dfrac{(2x+1)^4}{4}+C\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. We must also multiply by \\(\\dfrac12\\): the result is \\(\\dfrac{(2x+1)^4}{8}+C\\).",
+   "explain_vi": "Sai. Còn phải nhân với \\(\\dfrac12\\): kết quả là \\(\\dfrac{(2x+1)^4}{8}+C\\).",
+   "images": [],
+   "id": "10327c3d90b4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "Let \\(F\\) be an antiderivative of \\(f(x)=e^{#x}\\) with \\(F(#)=#\\). Find \\(F(\\ln#)\\).",
+   "en": "Let \\(F\\) be an antiderivative of \\(f(x)=e^{2x}\\) with \\(F(0)=2\\). Find \\(F(\\ln2)\\).",
+   "vi": "Cho \\(F\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"antiderivative\">nguyên hàm</b> của \\(f(x)=e^{2x}\\) với \\(F(0)=2\\). Tìm \\(F(\\ln2)\\).",
+   "options": [],
+   "answer": "3.5|7/2",
+   "explain_en": "Answer: 3.5. \\(F(x)=\\tfrac12e^{2x}+\\tfrac32\\), so \\(F(\\ln2)=\\tfrac12\\cdot4+\\tfrac32=3.5\\).",
+   "explain_vi": "Đáp án: 3.5. \\(F(x)=\\tfrac12e^{2x}+\\tfrac32\\) nên \\(F(\\ln2)=\\tfrac12\\cdot4+\\tfrac32=3.5\\).",
+   "images": [],
+   "id": "6f19ef019dbe",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "\\(\\displaystyle\\int x(x^#+#)^#dx=\\dfrac{(x^#+#)^#}{k}+C\\). Find \\(k\\).",
+   "en": "\\(\\displaystyle\\int x(x^2+1)^3dx=\\dfrac{(x^2+1)^4}{k}+C\\). Find \\(k\\).",
+   "vi": "\\(\\displaystyle\\int x(x^2+1)^3dx=\\dfrac{(x^2+1)^4}{k}+C\\). Tìm \\(k\\).",
+   "options": [],
+   "answer": "8",
+   "explain_en": "Answer: 8. See Example 3.",
+   "explain_vi": "Đáp án: 8. Xem Ví dụ 3.",
+   "images": [],
+   "id": "8b7778e7e7c4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "\\(\\displaystyle\\int x\\cos x\\,dx=x\\sin x+k\\cos x+C\\). Find \\(k\\).",
+   "en": "\\(\\displaystyle\\int x\\cos x\\,dx=x\\sin x+k\\cos x+C\\). Find \\(k\\).",
+   "vi": "\\(\\displaystyle\\int x\\cos x\\,dx=x\\sin x+k\\cos x+C\\). Tìm \\(k\\).",
+   "options": [],
+   "answer": "1",
+   "explain_en": "Answer: 1. With \\(u=x\\), \\(dv=\\cos x\\,dx\\): \\(x\\sin x-\\int\\sin x\\,dx=x\\sin x+\\cos x\\).",
+   "explain_vi": "Đáp án: 1. Với \\(u=x\\), \\(dv=\\cos x\\,dx\\): \\(x\\sin x-\\int\\sin x\\,dx=x\\sin x+\\cos x\\).",
+   "images": [],
+   "id": "6041deea850c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "\\(\\displaystyle\\int\\sin#x\\,dx=k\\cos#x+C\\). Find \\(k\\).",
+   "en": "\\(\\displaystyle\\int\\sin3x\\,dx=k\\cos3x+C\\). Find \\(k\\).",
+   "vi": "\\(\\displaystyle\\int\\sin3x\\,dx=k\\cos3x+C\\). Tìm \\(k\\).",
+   "options": [],
+   "answer": "-1/3",
+   "explain_en": "Answer: \\(-\\dfrac13\\).",
+   "explain_vi": "Đáp án: \\(-\\dfrac13\\).",
+   "images": [],
+   "id": "0fd7636ca1b6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Find \\(\\displaystyle\\int e^{#x}\\,dx\\).",
+   "en": "Find \\(\\displaystyle\\int e^{3x}\\,dx\\).",
+   "vi": "Tìm \\(\\displaystyle\\int e^{3x}\\,dx\\).",
+   "options": [
+    "\\(\\dfrac13e^{3x}+C\\)",
+    "\\(3e^{3x}+C\\)",
+    "\\(e^{3x}+C\\)",
+    "\\(\\dfrac13e^{x}+C\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Multiply by \\(\\dfrac13\\).",
+   "explain_vi": "Đáp án a. Nhân với \\(\\dfrac13\\).",
+   "images": [],
+   "id": "3f41949b4126",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Find \\(\\displaystyle\\int(x-#)^#\\,dx\\).",
+   "en": "Find \\(\\displaystyle\\int(x-2)^3\\,dx\\).",
+   "vi": "Tìm \\(\\displaystyle\\int(x-2)^3\\,dx\\).",
+   "options": [
+    "\\(3(x-2)^2+C\\)",
+    "\\(\\dfrac{(x-2)^4}{4}+C\\)",
+    "\\((x-2)^4+C\\)",
+    "\\(\\dfrac{x^4}{4}-2x+C\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Here \\(a=1\\).",
+   "explain_vi": "Đáp án b. Ở đây \\(a=1\\).",
+   "images": [],
+   "id": "cf55f08a8060",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Find \\(\\displaystyle\\int\\cos#x\\,dx\\).",
+   "en": "Find \\(\\displaystyle\\int\\cos3x\\,dx\\).",
+   "vi": "Tìm \\(\\displaystyle\\int\\cos3x\\,dx\\).",
+   "options": [
+    "\\(\\sin3x+C\\)",
+    "\\(3\\sin3x+C\\)",
+    "\\(\\dfrac13\\sin3x+C\\)",
+    "\\(-\\dfrac13\\sin3x+C\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Multiply by \\(\\dfrac1a=\\dfrac13\\).",
+   "explain_vi": "Đáp án c. Nhân với \\(\\dfrac1a=\\dfrac13\\).",
+   "images": [],
+   "id": "352aad896d41",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Find \\(\\displaystyle\\int\\dfrac{#}{#x-#}\\,dx\\).",
+   "en": "Find \\(\\displaystyle\\int\\dfrac{1}{2x-1}\\,dx\\).",
+   "vi": "Tìm \\(\\displaystyle\\int\\dfrac{1}{2x-1}\\,dx\\).",
+   "options": [
+    "\\(2\\ln|2x-1|+C\\)",
+    "\\(\\ln|2x-1|+C\\)",
+    "\\(\\dfrac12\\ln|2x-1|+C\\)",
+    "\\(-\\dfrac12\\ln|2x-1|+C\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\int\\dfrac1t\\,dt=\\ln|t|\\), times \\(\\dfrac12\\).",
+   "explain_vi": "Đáp án c. \\(\\int\\dfrac1t\\,dt=\\ln|t|\\), nhân với \\(\\dfrac12\\).",
+   "images": [],
+   "id": "1b84217f1de2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "True or false: \\(\\displaystyle\\int#x^#e^{x^#}\\,dx=e^{x^#}+C\\).",
+   "en": "True or false: \\(\\displaystyle\\int3x^2e^{x^3}\\,dx=e^{x^3}+C\\).",
+   "vi": "Đúng hay sai: \\(\\displaystyle\\int3x^2e^{x^3}\\,dx=e^{x^3}+C\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. Let \\(u=x^3\\), \\(du=3x^2\\,dx\\).",
+   "explain_vi": "Đúng. Đặt \\(u=x^3\\), \\(du=3x^2\\,dx\\).",
+   "images": [],
+   "id": "576122b145f5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "True or false: \\(\\displaystyle\\int(#x+#)^#\\,dx=\\dfrac{(#x+#)^#}{#}+C\\).",
+   "en": "True or false: \\(\\displaystyle\\int(3x+1)^2\\,dx=\\dfrac{(3x+1)^3}{3}+C\\).",
+   "vi": "Đúng hay sai: \\(\\displaystyle\\int(3x+1)^2\\,dx=\\dfrac{(3x+1)^3}{3}+C\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. We must also multiply by \\(\\dfrac13\\): the result is \\(\\dfrac{(3x+1)^3}{9}+C\\).",
+   "explain_vi": "Sai. Còn phải nhân với \\(\\dfrac13\\): kết quả là \\(\\dfrac{(3x+1)^3}{9}+C\\).",
+   "images": [],
+   "id": "b0460d0a6cdb",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "Let \\(F\\) be an antiderivative of \\(f(x)=e^{#x}\\) with \\(F(#)=#\\). Find \\(F(\\ln#)\\).",
+   "en": "Let \\(F\\) be an antiderivative of \\(f(x)=e^{2x}\\) with \\(F(0)=1\\). Find \\(F(\\ln3)\\).",
+   "vi": "Cho \\(F\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"antiderivative\">nguyên hàm</b> của \\(f(x)=e^{2x}\\) với \\(F(0)=1\\). Tìm \\(F(\\ln3)\\).",
+   "options": [],
+   "answer": "5",
+   "explain_en": "Answer: 5. \\(F(x)=\\tfrac12e^{2x}+\\tfrac12\\), so \\(F(\\ln3)=\\tfrac12\\cdot9+\\tfrac12=5\\).",
+   "explain_vi": "Đáp án: 5. \\(F(x)=\\tfrac12e^{2x}+\\tfrac12\\) nên \\(F(\\ln3)=\\tfrac12\\cdot9+\\tfrac12=5\\).",
+   "images": [],
+   "id": "89971a62ebef",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "\\(\\displaystyle\\int x(x^#+#)^#dx=\\dfrac{(x^#+#)^#}{k}+C\\). Find \\(k\\).",
+   "en": "\\(\\displaystyle\\int x(x^2+2)^4dx=\\dfrac{(x^2+2)^5}{k}+C\\). Find \\(k\\).",
+   "vi": "\\(\\displaystyle\\int x(x^2+2)^4dx=\\dfrac{(x^2+2)^5}{k}+C\\). Tìm \\(k\\).",
+   "options": [],
+   "answer": "10",
+   "explain_en": "Answer: 10. Let \\(u=x^2+2\\), \\(du=2x\\,dx\\): \\(\\dfrac12\\cdot\\dfrac{u^5}{5}=\\dfrac{u^5}{10}\\).",
+   "explain_vi": "Đáp án: 10. Đặt \\(u=x^2+2\\), \\(du=2x\\,dx\\): \\(\\dfrac12\\cdot\\dfrac{u^5}{5}=\\dfrac{u^5}{10}\\).",
+   "images": [],
+   "id": "64040a29d079",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "\\(\\displaystyle\\int xe^x\\,dx=xe^x+ke^x+C\\). Find \\(k\\).",
+   "en": "\\(\\displaystyle\\int xe^x\\,dx=xe^x+ke^x+C\\). Find \\(k\\).",
+   "vi": "\\(\\displaystyle\\int xe^x\\,dx=xe^x+ke^x+C\\). Tìm \\(k\\).",
+   "options": [],
+   "answer": "-1",
+   "explain_en": "Answer: \\(-1\\). With \\(u=x\\), \\(dv=e^x\\,dx\\): \\(xe^x-\\int e^x\\,dx=xe^x-e^x\\).",
+   "explain_vi": "Đáp án: \\(-1\\). Với \\(u=x\\), \\(dv=e^x\\,dx\\): \\(xe^x-\\int e^x\\,dx=xe^x-e^x\\).",
+   "images": [],
+   "id": "33c8c00b30f6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "\\(\\displaystyle\\int\\sin#x\\,dx=k\\cos#x+C\\). Find \\(k\\).",
+   "en": "\\(\\displaystyle\\int\\sin5x\\,dx=k\\cos5x+C\\). Find \\(k\\).",
+   "vi": "\\(\\displaystyle\\int\\sin5x\\,dx=k\\cos5x+C\\). Tìm \\(k\\).",
+   "options": [],
+   "answer": "-1/5",
+   "explain_en": "Answer: \\(-\\dfrac15\\). \\(\\int\\sin ax\\,dx=-\\dfrac1a\\cos ax\\).",
+   "explain_vi": "Đáp án: \\(-\\dfrac15\\). \\(\\int\\sin ax\\,dx=-\\dfrac1a\\cos ax\\).",
+   "images": [],
+   "id": "9414338b1e1f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Find \\(\\displaystyle\\int e^{#x}\\,dx\\).",
+   "en": "Find \\(\\displaystyle\\int e^{4x}\\,dx\\).",
+   "vi": "Tìm \\(\\displaystyle\\int e^{4x}\\,dx\\).",
+   "options": [
+    "\\(4e^{4x}+C\\)",
+    "\\(\\dfrac14e^{4x}+C\\)",
+    "\\(e^{4x}+C\\)",
+    "\\(\\dfrac14e^{x}+C\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Multiply by \\(\\dfrac14\\).",
+   "explain_vi": "Đáp án b. Nhân với \\(\\dfrac14\\).",
+   "images": [],
+   "id": "b56e2427a1a7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Find \\(\\displaystyle\\int(x+#)^#\\,dx\\).",
+   "en": "Find \\(\\displaystyle\\int(x+3)^5\\,dx\\).",
+   "vi": "Tìm \\(\\displaystyle\\int(x+3)^5\\,dx\\).",
+   "options": [
+    "\\(5(x+3)^4+C\\)",
+    "\\((x+3)^6+C\\)",
+    "\\(\\dfrac{(x+3)^6}{6}+C\\)",
+    "\\(\\dfrac{x^6}{6}+3x+C\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Here \\(a=1\\).",
+   "explain_vi": "Đáp án c. Ở đây \\(a=1\\).",
+   "images": [],
+   "id": "b92b60bef68d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Find \\(\\displaystyle\\int\\cos#x\\,dx\\).",
+   "en": "Find \\(\\displaystyle\\int\\cos4x\\,dx\\).",
+   "vi": "Tìm \\(\\displaystyle\\int\\cos4x\\,dx\\).",
+   "options": [
+    "\\(\\dfrac14\\sin4x+C\\)",
+    "\\(4\\sin4x+C\\)",
+    "\\(\\sin4x+C\\)",
+    "\\(-\\dfrac14\\sin4x+C\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Multiply by \\(\\dfrac1a=\\dfrac14\\).",
+   "explain_vi": "Đáp án a. Nhân với \\(\\dfrac1a=\\dfrac14\\).",
+   "images": [],
+   "id": "54f7b5df70d1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Find \\(\\displaystyle\\int\\dfrac{#}{#x+#}\\,dx\\).",
+   "en": "Find \\(\\displaystyle\\int\\dfrac{1}{5x+2}\\,dx\\).",
+   "vi": "Tìm \\(\\displaystyle\\int\\dfrac{1}{5x+2}\\,dx\\).",
+   "options": [
+    "\\(\\ln|5x+2|+C\\)",
+    "\\(5\\ln|5x+2|+C\\)",
+    "\\(-\\dfrac15\\ln|5x+2|+C\\)",
+    "\\(\\dfrac15\\ln|5x+2|+C\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\int\\dfrac1t\\,dt=\\ln|t|\\), times \\(\\dfrac15\\).",
+   "explain_vi": "Đáp án d. \\(\\int\\dfrac1t\\,dt=\\ln|t|\\), nhân với \\(\\dfrac15\\).",
+   "images": [],
+   "id": "bcced38f981b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "True or false: \\(\\displaystyle\\int e^{#x+#}\\,dx=e^{#x+#}+C\\).",
+   "en": "True or false: \\(\\displaystyle\\int e^{2x+1}\\,dx=e^{2x+1}+C\\).",
+   "vi": "Đúng hay sai: \\(\\displaystyle\\int e^{2x+1}\\,dx=e^{2x+1}+C\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. We must also multiply by \\(\\dfrac12\\): the result is \\(\\dfrac12e^{2x+1}+C\\).",
+   "explain_vi": "Sai. Còn phải nhân với \\(\\dfrac12\\): kết quả là \\(\\dfrac12e^{2x+1}+C\\).",
+   "images": [],
+   "id": "8e20cf216bf0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "True or false: \\(\\displaystyle\\int#x\\cos(x^#)\\,dx=\\sin(x^#)+C\\).",
+   "en": "True or false: \\(\\displaystyle\\int2x\\cos(x^2)\\,dx=\\sin(x^2)+C\\).",
+   "vi": "Đúng hay sai: \\(\\displaystyle\\int2x\\cos(x^2)\\,dx=\\sin(x^2)+C\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. Let \\(u=x^2\\), \\(du=2x\\,dx\\).",
+   "explain_vi": "Đúng. Đặt \\(u=x^2\\), \\(du=2x\\,dx\\).",
+   "images": [],
+   "id": "03d5e42334ec",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Let \\(F\\) be an antiderivative of \\(f(x)=e^{#x}\\) with \\(F(#)=#\\). Find \\(F(\\ln#)\\).",
+   "en": "Let \\(F\\) be an antiderivative of \\(f(x)=e^{4x}\\) with \\(F(0)=1\\). Find \\(F(\\ln2)\\).",
+   "vi": "Cho \\(F\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"antiderivative\">nguyên hàm</b> của \\(f(x)=e^{4x}\\) với \\(F(0)=1\\). Tìm \\(F(\\ln2)\\).",
+   "options": [],
+   "answer": "4.75|19/4",
+   "explain_en": "Answer: 4.75. \\(F(x)=\\tfrac14e^{4x}+\\tfrac34\\), so \\(F(\\ln2)=\\tfrac14\\cdot16+\\tfrac34=4.75\\).",
+   "explain_vi": "Đáp án: 4.75. \\(F(x)=\\tfrac14e^{4x}+\\tfrac34\\) nên \\(F(\\ln2)=\\tfrac14\\cdot16+\\tfrac34=4.75\\).",
+   "images": [],
+   "id": "a516964cb6b1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "\\(\\displaystyle\\int x(x^#-#)^#dx=\\dfrac{(x^#-#)^#}{k}+C\\). Find \\(k\\).",
+   "en": "\\(\\displaystyle\\int x(x^2-1)^2dx=\\dfrac{(x^2-1)^3}{k}+C\\). Find \\(k\\).",
+   "vi": "\\(\\displaystyle\\int x(x^2-1)^2dx=\\dfrac{(x^2-1)^3}{k}+C\\). Tìm \\(k\\).",
+   "options": [],
+   "answer": "6",
+   "explain_en": "Answer: 6. Let \\(u=x^2-1\\), \\(du=2x\\,dx\\): \\(\\dfrac12\\cdot\\dfrac{u^3}{3}=\\dfrac{u^3}{6}\\).",
+   "explain_vi": "Đáp án: 6. Đặt \\(u=x^2-1\\), \\(du=2x\\,dx\\): \\(\\dfrac12\\cdot\\dfrac{u^3}{3}=\\dfrac{u^3}{6}\\).",
+   "images": [],
+   "id": "74241e3d9df0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "\\(\\displaystyle\\int#x\\cos x\\,dx=#x\\sin x+k\\cos x+C\\). Find \\(k\\).",
+   "en": "\\(\\displaystyle\\int2x\\cos x\\,dx=2x\\sin x+k\\cos x+C\\). Find \\(k\\).",
+   "vi": "\\(\\displaystyle\\int2x\\cos x\\,dx=2x\\sin x+k\\cos x+C\\). Tìm \\(k\\).",
+   "options": [],
+   "answer": "2",
+   "explain_en": "Answer: 2. With \\(u=2x\\), \\(dv=\\cos x\\,dx\\): \\(2x\\sin x-\\int2\\sin x\\,dx=2x\\sin x+2\\cos x\\).",
+   "explain_vi": "Đáp án: 2. Với \\(u=2x\\), \\(dv=\\cos x\\,dx\\): \\(2x\\sin x-\\int2\\sin x\\,dx=2x\\sin x+2\\cos x\\).",
+   "images": [],
+   "id": "5e529b97be3c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "\\(\\displaystyle\\int\\sin#x\\,dx=k\\cos#x+C\\). Find \\(k\\).",
+   "en": "\\(\\displaystyle\\int\\sin4x\\,dx=k\\cos4x+C\\). Find \\(k\\).",
+   "vi": "\\(\\displaystyle\\int\\sin4x\\,dx=k\\cos4x+C\\). Tìm \\(k\\).",
+   "options": [],
+   "answer": "-1/4",
+   "explain_en": "Answer: \\(-\\dfrac14\\). \\(\\int\\sin ax\\,dx=-\\dfrac1a\\cos ax\\).",
+   "explain_vi": "Đáp án: \\(-\\dfrac14\\). \\(\\int\\sin ax\\,dx=-\\dfrac1a\\cos ax\\).",
+   "images": [],
+   "id": "8c0ed6d59ccc",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  }
+ ]
+}

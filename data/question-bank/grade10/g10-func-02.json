@@ -1,0 +1,1029 @@
+{
+ "lesson": "g10-func-02",
+ "grade": 10,
+ "no": 16,
+ "title": "Hàm số bậc hai",
+ "path": "lessons/grade10/functions/quadratic-functions.html",
+ "items": [
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "A rectangular flower bed is edged with # m of bricks (all four sides). Its largest possible area is…",
+   "en": "A rectangular flower bed is edged with 24 m of bricks (all four sides). Its largest possible area is…",
+   "vi": "Một bồn hoa hình chữ nhật được viền bằng 24 m gạch (cả bốn cạnh). Diện tích lớn nhất có thể của bồn hoa là…",
+   "options": [
+    "\\(72\\ \\text{m}^2\\)",
+    "\\(144\\ \\text{m}^2\\)",
+    "\\(60\\ \\text{m}^2\\)",
+    "\\(36\\ \\text{m}^2\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(S=x\\left(12-x\\right)\\) is largest at \\(x=6\\) (a square).",
+   "explain_vi": "Đáp án d. \\(S=x\\left(12-x\\right)\\) lớn nhất khi \\(x=6\\) (hình vuông).",
+   "images": [],
+   "id": "c71244e4e24c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "The function \\(y=#x^#+#x+#\\) is…",
+   "en": "The function \\(y=2x^2+4x+3\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">Hàm số</b> \\(y=2x^2+4x+3\\)…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">decreasing on \\((-\\infty;\\,-1)\\), increasing on \\((-1;\\,+\\infty)\\)</span><span class=\"vi\">nghịch biến trên \\((-\\infty;\\,-1)\\), đồng biến trên \\((-1;\\,+\\infty)\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">increasing on \\((-\\infty;\\,-1)\\), decreasing on \\((-1;\\,+\\infty)\\)</span><span class=\"vi\">đồng biến trên \\((-\\infty;\\,-1)\\), nghịch biến trên \\((-1;\\,+\\infty)\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">increasing on \\(\\mathbb R\\)</span><span class=\"vi\">đồng biến trên \\(\\mathbb R\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">decreasing on \\(\\mathbb R\\)</span><span class=\"vi\">nghịch biến trên \\(\\mathbb R\\)</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(a\\gt0\\), vertex at \\(x=-1\\).",
+   "explain_vi": "Đáp án a. \\(a\\gt0\\), đỉnh tại \\(x=-1\\).",
+   "images": [],
+   "id": "a0234e3b92a3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "The vertex of \\(y=x^#-#x+#\\) is…",
+   "en": "The vertex of \\(y=x^2-6x+7\\) is…",
+   "vi": "Đỉnh của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parabola\">parabol</b> \\(y=x^2-6x+7\\) là…",
+   "options": [
+    "\\((-3;\\,-2)\\)",
+    "\\((3;\\,7)\\)",
+    "\\((-2;\\,3)\\)",
+    "\\((3;\\,-2)\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(x_I=-\\dfrac b{2a}=3\\), \\(y_I=-2\\).",
+   "explain_vi": "Đáp án d. \\(x_I=-\\dfrac b{2a}=3\\), \\(y_I=-2\\).",
+   "images": [],
+   "id": "0a484a7c6807",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "The axis of symmetry of \\(y=x^#-#x+#\\) is \\(x=#\\).",
+   "en": "The axis of symmetry of \\(y=x^2-4x+5\\) is \\(x=2\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"axis of symmetry\">Trục đối xứng</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parabola\">parabol</b> \\(y=x^2-4x+5\\) là \\(x=2\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "\\(x=-\\dfrac{b}{2a}=2\\).",
+   "explain_vi": "\\(x=-\\dfrac{b}{2a}=2\\).",
+   "images": [],
+   "id": "07b918f88485",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "The function \\(y=-x^#+#x+#\\) has a largest value equal to #.",
+   "en": "The function \\(y=-x^2+2x+3\\) has a largest value equal to 4.",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">Hàm số</b> \\(y=-x^2+2x+3\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">giá trị lớn nhất</b> bằng 4.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "\\(a\\lt0\\): the vertex value 4 is the largest value.",
+   "explain_vi": "\\(a\\lt0\\): <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ordinate\">tung độ</b> đỉnh 4 là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">giá trị lớn nhất</b>.",
+   "images": [],
+   "id": "958e87a5e7bb",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "A ball is thrown up with height \\(h(t)=-#t^#+#t+#\\) (m). Find its greatest height (m).",
+   "en": "A ball is thrown up with height \\(h(t)=-5t^2+20t+1\\) (m). Find its greatest height (m).",
+   "vi": "Một quả bóng được ném lên với độ cao \\(h(t)=-5t^2+20t+1\\) (m). Tìm độ cao lớn nhất của bóng (m).",
+   "options": [],
+   "answer": "21",
+   "explain_en": "Vertex \\(t=2.0\\): \\(h=21.0\\).",
+   "explain_vi": "Đỉnh \\(t=2\\): \\(h=21\\).",
+   "images": [],
+   "id": "6e4351eb30b7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "The parabola \\(y=ax^#+bx+c\\) has vertex \\(I(#;\\,#)\\) and passes through \\(M(#;\\,#)\\). Find \\(a\\).",
+   "en": "The parabola \\(y=ax^2+bx+c\\) has vertex \\(I(1;\\,2)\\) and passes through \\(M(3;\\,10)\\). Find \\(a\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"parabola\">Parabol</b> \\(y=ax^2+bx+c\\) có đỉnh \\(I(1;\\,2)\\) và đi qua \\(M(3;\\,10)\\). Tìm \\(a\\).",
+   "options": [],
+   "answer": "2",
+   "explain_en": "\\(10=a(3-1)^2+2\\Rightarrow a=2\\).",
+   "explain_vi": "\\(10=a(3-1)^2+2\\Rightarrow a=2\\).",
+   "images": [],
+   "id": "b731c586dc78",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "A ball is thrown upward; its height is \\(h(t)=-#t^#+#t+#\\) (m). Its greatest height is…",
+   "en": "A ball is thrown upward; its height is \\(h(t)=-5t^2+15t+1.5\\) (m). Its greatest height is…",
+   "vi": "Một quả bóng được ném lên, độ cao \\(h(t)=-5t^2+15t+1{,}5\\) (m). Độ cao lớn nhất của bóng là…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(12.75\\ \\text{m}\\)</span><span class=\"vi\">\\(12{,}75\\ \\text{m}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(17.75\\ \\text{m}\\)</span><span class=\"vi\">\\(17{,}75\\ \\text{m}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(11.25\\ \\text{m}\\)</span><span class=\"vi\">\\(11{,}25\\ \\text{m}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(1.5\\ \\text{m}\\)</span><span class=\"vi\">\\(1{,}5\\ \\text{m}\\)</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Vertex at \\(t=\\dfrac{15}{10}=1.5\\): \\(h=12.75\\).",
+   "explain_vi": "Đáp án a. Đỉnh tại \\(t=\\dfrac{15}{10}=1{,}5\\): \\(h=12{,}75\\).",
+   "images": [],
+   "id": "bea6438472d5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "A farmer makes a rectangle with # m of fence. The largest possible area is…",
+   "en": "A farmer makes a rectangle with 80 m of fence. The largest possible area is…",
+   "vi": "Bác nông dân rào một mảnh đất hình chữ nhật bằng 80 m lưới. Diện tích lớn nhất có thể là…",
+   "options": [
+    "\\(3200\\ \\text{m}^2\\)",
+    "\\(800\\ \\text{m}^2\\)",
+    "\\(1600\\ \\text{m}^2\\)",
+    "\\(400\\ \\text{m}^2\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Sides \\(x\\), \\(\\dfrac{80}2-x\\); \\(S=x(40-x)\\) is largest at \\(x=20\\).",
+   "explain_vi": "Đáp án d. Các cạnh \\(x\\), \\(\\dfrac{80}2-x\\); \\(S=x(40-x)\\) lớn nhất khi \\(x=20\\).",
+   "images": [],
+   "id": "f0bf772b1343",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "A shop buys a T-shirt for # thousand VND and sells # shirts a month at # thousand VND. Each # thousand VND price cut sells # more shirts. Which selling price gives the largest profit?",
+   "en": "A shop buys a T-shirt for 40 thousand VND and sells 200 shirts a month at 100 thousand VND. Each 1 thousand VND price cut sells 5 more shirts. Which selling price gives the largest profit?",
+   "vi": "Một cửa hàng nhập áo thun giá 40 nghìn đồng, bán giá 100 nghìn đồng thì mỗi tháng bán được 200 chiếc. Cứ giảm giá 1 nghìn đồng thì bán thêm 5 chiếc. Giá bán nào cho lợi nhuận lớn nhất?",
+   "options": [
+    "\\(80\\)",
+    "\\(100\\)",
+    "\\(90\\)",
+    "\\(70\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Cut \\(x\\): profit \\((60-x)(200+5x)\\), a parabola with vertex at \\(x=10\\).",
+   "explain_vi": "Đáp án c. Giảm \\(x\\): lợi nhuận \\((60-x)(200+5x)\\) là hàm bậc hai, đỉnh tại \\(x=10\\).",
+   "images": [],
+   "id": "eefd21bcddef",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The axis of symmetry of \\(y=#x^#+#x+#\\) is…",
+   "en": "The axis of symmetry of \\(y=2x^2+8x+5\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"axis of symmetry\">Trục đối xứng</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parabola\">parabol</b> \\(y=2x^2+8x+5\\) là…",
+   "options": [
+    "\\(x=-2\\)",
+    "\\(x=2\\)",
+    "\\(x=8\\)",
+    "\\(y=-3\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(x=-\\dfrac{b}{2a}=-2\\).",
+   "explain_vi": "Đáp án a. \\(x=-\\dfrac{b}{2a}=-2\\).",
+   "images": [],
+   "id": "7b854b6a593f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The function \\(y=#x^#+#x+#\\) is…",
+   "en": "The function \\(y=3x^2+12x+12\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">Hàm số</b> \\(y=3x^2+12x+12\\)…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">increasing on \\((-\\infty;\\,-2)\\), decreasing on \\((-2;\\,+\\infty)\\)</span><span class=\"vi\">đồng biến trên \\((-\\infty;\\,-2)\\), nghịch biến trên \\((-2;\\,+\\infty)\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">decreasing on \\((-\\infty;\\,-2)\\), increasing on \\((-2;\\,+\\infty)\\)</span><span class=\"vi\">nghịch biến trên \\((-\\infty;\\,-2)\\), đồng biến trên \\((-2;\\,+\\infty)\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">increasing on \\((-3;\\,+\\infty)\\)</span><span class=\"vi\">đồng biến trên \\((-3;\\,+\\infty)\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">decreasing on \\((-\\infty;\\,0)\\)</span><span class=\"vi\">nghịch biến trên \\((-\\infty;\\,0)\\)</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(a\\gt0\\) and \\(-\\dfrac b{2a}=-2\\).",
+   "explain_vi": "Đáp án b. \\(a\\gt0\\) và \\(-\\dfrac b{2a}=-2\\).",
+   "images": [],
+   "id": "c02df0db717c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The minimum value of \\(y=#x^#-#\\) is…",
+   "en": "The minimum value of \\(y=2x^2-3\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"minimum value\">Giá trị nhỏ nhất</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(y=2x^2-3\\) là…",
+   "options": [
+    "\\(0\\)",
+    "\\(-2\\)",
+    "\\(-3\\)",
+    "\\(3\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. It is \\(y_I=-3\\), reached at \\(x=0\\).",
+   "explain_vi": "Đáp án c. Đó là \\(y_I=-3\\), đạt tại \\(x=0\\).",
+   "images": [],
+   "id": "0bd848869312",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The parabola \\(y=ax^#+bx+c\\) has vertex \\(I(#;\\,#)\\) and passes through \\((#;\\,#)\\). Then \\(a=\\)…",
+   "en": "The parabola \\(y=ax^2+bx+c\\) has vertex \\(I(0;\\,4)\\) and passes through \\((1;\\,5)\\). Then \\(a=\\)…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"parabola\">Parabol</b> \\(y=ax^2+bx+c\\) có đỉnh \\(I(0;\\,4)\\) và đi qua điểm \\((1;\\,5)\\). Khi đó \\(a=\\)…",
+   "options": [
+    "\\(2\\)",
+    "\\(-1\\)",
+    "\\(1\\)",
+    "\\(5\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(y=a(x-0)^2+4\\); substitute the point: \\(a\\cdot1+4=5\\Rightarrow a=1\\).",
+   "explain_vi": "Đáp án c. \\(y=a(x-0)^2+4\\); thay tọa độ điểm: \\(a\\cdot1+4=5\\Rightarrow a=1\\).",
+   "images": [],
+   "id": "18a82282d232",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The vertex of the parabola \\(y=#x^#-#x+#\\) is…",
+   "en": "The vertex of the parabola \\(y=3x^2-18x+26\\) is…",
+   "vi": "Đỉnh của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parabola\">parabol</b> \\(y=3x^2-18x+26\\) là…",
+   "options": [
+    "\\((-1;\\,3)\\)",
+    "\\((3;\\,-1)\\)",
+    "\\((-3;\\,-1)\\)",
+    "\\((3;\\,26)\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(x_I=-\\dfrac{b}{2a}=3\\), \\(y_I=f(3)=-1\\).",
+   "explain_vi": "Đáp án b. \\(x_I=-\\dfrac{b}{2a}=3\\), \\(y_I=f(3)=-1\\).",
+   "images": [],
+   "id": "d11da2766dae",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "A rectangular flower bed is edged with # m of bricks (all four sides). Its largest possible area is…",
+   "en": "A rectangular flower bed is edged with 36 m of bricks (all four sides). Its largest possible area is…",
+   "vi": "Một bồn hoa hình chữ nhật được viền bằng 36 m gạch (cả bốn cạnh). Diện tích lớn nhất có thể của bồn hoa là…",
+   "options": [
+    "\\(162\\ \\text{m}^2\\)",
+    "\\(324\\ \\text{m}^2\\)",
+    "\\(117\\ \\text{m}^2\\)",
+    "\\(81\\ \\text{m}^2\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(S=x\\left(18-x\\right)\\) is largest at \\(x=9\\) (a square).",
+   "explain_vi": "Đáp án d. \\(S=x\\left(18-x\\right)\\) lớn nhất khi \\(x=9\\) (hình vuông).",
+   "images": [],
+   "id": "12a32d284834",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "The function \\(y=-x^#+#x-#\\) is…",
+   "en": "The function \\(y=-x^2+6x-7\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">Hàm số</b> \\(y=-x^2+6x-7\\)…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">increasing on \\((-\\infty;\\,3)\\), decreasing on \\((3;\\,+\\infty)\\)</span><span class=\"vi\">đồng biến trên \\((-\\infty;\\,3)\\), nghịch biến trên \\((3;\\,+\\infty)\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">decreasing on \\((-\\infty;\\,3)\\), increasing on \\((3;\\,+\\infty)\\)</span><span class=\"vi\">nghịch biến trên \\((-\\infty;\\,3)\\), đồng biến trên \\((3;\\,+\\infty)\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">increasing on \\(\\mathbb R\\)</span><span class=\"vi\">đồng biến trên \\(\\mathbb R\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">decreasing on \\(\\mathbb R\\)</span><span class=\"vi\">nghịch biến trên \\(\\mathbb R\\)</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(a\\lt0\\), vertex at \\(x=3\\).",
+   "explain_vi": "Đáp án a. \\(a\\lt0\\), đỉnh tại \\(x=3\\).",
+   "images": [],
+   "id": "0f562adf69e1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "The vertex of \\(y=-x^#+#x+#\\) is…",
+   "en": "The vertex of \\(y=-x^2+4x+1\\) is…",
+   "vi": "Đỉnh của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parabola\">parabol</b> \\(y=-x^2+4x+1\\) là…",
+   "options": [
+    "\\((-2;\\,5)\\)",
+    "\\((2;\\,1)\\)",
+    "\\((2;\\,5)\\)",
+    "\\((5;\\,2)\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(x_I=-\\dfrac b{2a}=2\\), \\(y_I=5\\).",
+   "explain_vi": "Đáp án c. \\(x_I=-\\dfrac b{2a}=2\\), \\(y_I=5\\).",
+   "images": [],
+   "id": "cf18466246c2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "The axis of symmetry of \\(y=#x^#+#x+#\\) is \\(x=#\\).",
+   "en": "The axis of symmetry of \\(y=2x^2+4x+2\\) is \\(x=1\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"axis of symmetry\">Trục đối xứng</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parabola\">parabol</b> \\(y=2x^2+4x+2\\) là \\(x=1\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "\\(x=-\\dfrac{b}{2a}=-1\\).",
+   "explain_vi": "\\(x=-\\dfrac{b}{2a}=-1\\).",
+   "images": [],
+   "id": "18f062e19af2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "The function \\(y=#x^#+#x-#\\) has a largest value equal to -#.",
+   "en": "The function \\(y=2x^2+4x-1\\) has a largest value equal to -3.",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">Hàm số</b> \\(y=2x^2+4x-1\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">giá trị lớn nhất</b> bằng -3.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "\\(a\\gt0\\): the vertex value -3 is the smallest value.",
+   "explain_vi": "\\(a\\gt0\\): <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ordinate\">tung độ</b> đỉnh -3 là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"minimum value\">giá trị nhỏ nhất</b>.",
+   "images": [],
+   "id": "a5142e4cfa51",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "A ball is thrown up with height \\(h(t)=-#t^#+#t+#\\) (m). Find its greatest height (m).",
+   "en": "A ball is thrown up with height \\(h(t)=-5t^2+10t+2\\) (m). Find its greatest height (m).",
+   "vi": "Một quả bóng được ném lên với độ cao \\(h(t)=-5t^2+10t+2\\) (m). Tìm độ cao lớn nhất của bóng (m).",
+   "options": [],
+   "answer": "7",
+   "explain_en": "Vertex \\(t=1.0\\): \\(h=7.0\\).",
+   "explain_vi": "Đỉnh \\(t=1\\): \\(h=7\\).",
+   "images": [],
+   "id": "f27cf8e4cf50",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "The parabola \\(y=ax^#+bx+c\\) has vertex \\(I(-#;\\,#)\\) and passes through \\(M(#;\\,-#)\\). Find \\(a\\).",
+   "en": "The parabola \\(y=ax^2+bx+c\\) has vertex \\(I(-2;\\,1)\\) and passes through \\(M(0;\\,-7)\\). Find \\(a\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"parabola\">Parabol</b> \\(y=ax^2+bx+c\\) có đỉnh \\(I(-2;\\,1)\\) và đi qua \\(M(0;\\,-7)\\). Tìm \\(a\\).",
+   "options": [],
+   "answer": "-2",
+   "explain_en": "\\(-7=a(0--2)^2+1\\Rightarrow a=-2\\).",
+   "explain_vi": "\\(-7=a(0--2)^2+1\\Rightarrow a=-2\\).",
+   "images": [],
+   "id": "3b753dfe996b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "A ball is thrown upward; its height is \\(h(t)=-#t^#+#t+#\\) (m). Its greatest height is…",
+   "en": "A ball is thrown upward; its height is \\(h(t)=-5t^2+8t+2\\) (m). Its greatest height is…",
+   "vi": "Một quả bóng được ném lên, độ cao \\(h(t)=-5t^2+8t+2\\) (m). Độ cao lớn nhất của bóng là…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(5.2\\ \\text{m}\\)</span><span class=\"vi\">\\(5{,}2\\ \\text{m}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(3.2\\ \\text{m}\\)</span><span class=\"vi\">\\(3{,}2\\ \\text{m}\\)</span></span>",
+    "\\(2\\ \\text{m}\\)",
+    "<span class=\"txi\"><span class=\"en\">\\(0.8\\ \\text{m}\\)</span><span class=\"vi\">\\(0{,}8\\ \\text{m}\\)</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Vertex at \\(t=\\dfrac{8}{10}=0.8\\): \\(h=5.2\\).",
+   "explain_vi": "Đáp án a. Đỉnh tại \\(t=\\dfrac{8}{10}=0{,}8\\): \\(h=5{,}2\\).",
+   "images": [],
+   "id": "afa5b2a16776",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "A farmer makes a rectangle along a wall (three sides fenced) with # m of fence. The largest possible area is…",
+   "en": "A farmer makes a rectangle along a wall (three sides fenced) with 80 m of fence. The largest possible area is…",
+   "vi": "Bác nông dân rào một mảnh đất hình chữ nhật dựa vào bức tường (rào ba cạnh) bằng 80 m lưới. Diện tích lớn nhất có thể là…",
+   "options": [
+    "\\(1600\\ \\text{m}^2\\)",
+    "\\(3200\\ \\text{m}^2\\)",
+    "\\(800\\ \\text{m}^2\\)",
+    "\\(400\\ \\text{m}^2\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(S=x(80-2x)\\) is largest at \\(x=20\\).",
+   "explain_vi": "Đáp án c. \\(S=x(80-2x)\\) lớn nhất khi \\(x=20\\).",
+   "images": [],
+   "id": "5dbef80ef376",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "A shop buys a T-shirt for # thousand VND and sells # shirts a month at # thousand VND. Each # thousand VND price cut sells # more shirts. Which selling price gives the largest profit?",
+   "en": "A shop buys a T-shirt for 20 thousand VND and sells 200 shirts a month at 50 thousand VND. Each 1 thousand VND price cut sells 10 more shirts. Which selling price gives the largest profit?",
+   "vi": "Một cửa hàng nhập áo thun giá 20 nghìn đồng, bán giá 50 nghìn đồng thì mỗi tháng bán được 200 chiếc. Cứ giảm giá 1 nghìn đồng thì bán thêm 10 chiếc. Giá bán nào cho lợi nhuận lớn nhất?",
+   "options": [
+    "\\(35\\)",
+    "\\(40\\)",
+    "\\(45\\)",
+    "\\(50\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Cut \\(x\\): profit \\((30-x)(200+10x)\\), a parabola with vertex at \\(x=5\\).",
+   "explain_vi": "Đáp án c. Giảm \\(x\\): lợi nhuận \\((30-x)(200+10x)\\) là hàm bậc hai, đỉnh tại \\(x=5\\).",
+   "images": [],
+   "id": "8f4d4477ed8f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The axis of symmetry of \\(y=-#x^#+#x-#\\) is…",
+   "en": "The axis of symmetry of \\(y=-3x^2+12x-15\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"axis of symmetry\">Trục đối xứng</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parabola\">parabol</b> \\(y=-3x^2+12x-15\\) là…",
+   "options": [
+    "\\(x=12\\)",
+    "\\(y=-3\\)",
+    "\\(x=-2\\)",
+    "\\(x=2\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(x=-\\dfrac{b}{2a}=2\\).",
+   "explain_vi": "Đáp án d. \\(x=-\\dfrac{b}{2a}=2\\).",
+   "images": [],
+   "id": "17381ad75a23",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The function \\(y=x^#+#\\) is…",
+   "en": "The function \\(y=x^2+3\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">Hàm số</b> \\(y=x^2+3\\)…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">increasing on \\(\\mathbb R\\)</span><span class=\"vi\">đồng biến trên \\(\\mathbb R\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">increasing on \\((-\\infty;\\,0)\\), decreasing on \\((0;\\,+\\infty)\\)</span><span class=\"vi\">đồng biến trên \\((-\\infty;\\,0)\\), nghịch biến trên \\((0;\\,+\\infty)\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">decreasing on \\((-\\infty;\\,0)\\), increasing on \\((0;\\,+\\infty)\\)</span><span class=\"vi\">nghịch biến trên \\((-\\infty;\\,0)\\), đồng biến trên \\((0;\\,+\\infty)\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">decreasing on \\((-\\infty;\\,3)\\)</span><span class=\"vi\">nghịch biến trên \\((-\\infty;\\,3)\\)</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(a\\gt0\\) and \\(-\\dfrac b{2a}=0\\).",
+   "explain_vi": "Đáp án c. \\(a\\gt0\\) và \\(-\\dfrac b{2a}=0\\).",
+   "images": [],
+   "id": "aef8ad503378",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The maximum value of \\(y=-x^#-#x-#\\) is…",
+   "en": "The maximum value of \\(y=-x^2-4x-1\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">Giá trị lớn nhất</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(y=-x^2-4x-1\\) là…",
+   "options": [
+    "\\(3\\)",
+    "\\(-1\\)",
+    "\\(-3\\)",
+    "\\(-2\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. It is \\(y_I=3\\), reached at \\(x=-2\\).",
+   "explain_vi": "Đáp án a. Đó là \\(y_I=3\\), đạt tại \\(x=-2\\).",
+   "images": [],
+   "id": "927261098f51",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The parabola \\(y=ax^#+bx+c\\) has vertex \\(I(-#;\\,#)\\) and passes through \\((-#;\\,#)\\). Then \\(a=\\)…",
+   "en": "The parabola \\(y=ax^2+bx+c\\) has vertex \\(I(-2;\\,2)\\) and passes through \\((-1;\\,0)\\). Then \\(a=\\)…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"parabola\">Parabol</b> \\(y=ax^2+bx+c\\) có đỉnh \\(I(-2;\\,2)\\) và đi qua điểm \\((-1;\\,0)\\). Khi đó \\(a=\\)…",
+   "options": [
+    "\\(2\\)",
+    "\\(-2\\)",
+    "\\(0\\)",
+    "\\(-4\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(y=a(x--2)^2+2\\); substitute the point: \\(a\\cdot1+2=0\\Rightarrow a=-2\\).",
+   "explain_vi": "Đáp án b. \\(y=a(x--2)^2+2\\); thay tọa độ điểm: \\(a\\cdot1+2=0\\Rightarrow a=-2\\).",
+   "images": [],
+   "id": "a3ba08411755",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The vertex of the parabola \\(y=-#x^#+#x-#\\) is…",
+   "en": "The vertex of the parabola \\(y=-2x^2+12x-19\\) is…",
+   "vi": "Đỉnh của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parabola\">parabol</b> \\(y=-2x^2+12x-19\\) là…",
+   "options": [
+    "\\((3;\\,-1)\\)",
+    "\\((-1;\\,3)\\)",
+    "\\((3;\\,-19)\\)",
+    "\\((-3;\\,-1)\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(x_I=-\\dfrac{b}{2a}=3\\), \\(y_I=f(3)=-1\\).",
+   "explain_vi": "Đáp án a. \\(x_I=-\\dfrac{b}{2a}=3\\), \\(y_I=f(3)=-1\\).",
+   "images": [],
+   "id": "227b0e3b9932",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "A rectangular flower bed is edged with # m of bricks (all four sides). Its largest possible area is…",
+   "en": "A rectangular flower bed is edged with 60 m of bricks (all four sides). Its largest possible area is…",
+   "vi": "Một bồn hoa hình chữ nhật được viền bằng 60 m gạch (cả bốn cạnh). Diện tích lớn nhất có thể của bồn hoa là…",
+   "options": [
+    "\\(225\\ \\text{m}^2\\)",
+    "\\(450\\ \\text{m}^2\\)",
+    "\\(900\\ \\text{m}^2\\)",
+    "\\(285\\ \\text{m}^2\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(S=x\\left(30-x\\right)\\) is largest at \\(x=15\\) (a square).",
+   "explain_vi": "Đáp án a. \\(S=x\\left(30-x\\right)\\) lớn nhất khi \\(x=15\\) (hình vuông).",
+   "images": [],
+   "id": "aaf75c4be360",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "The function \\(y=#x^#-#x+#\\) is…",
+   "en": "The function \\(y=3x^2-6x+1\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">Hàm số</b> \\(y=3x^2-6x+1\\)…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">decreasing on \\((-\\infty;\\,1)\\), increasing on \\((1;\\,+\\infty)\\)</span><span class=\"vi\">nghịch biến trên \\((-\\infty;\\,1)\\), đồng biến trên \\((1;\\,+\\infty)\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">increasing on \\((-\\infty;\\,1)\\), decreasing on \\((1;\\,+\\infty)\\)</span><span class=\"vi\">đồng biến trên \\((-\\infty;\\,1)\\), nghịch biến trên \\((1;\\,+\\infty)\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">increasing on \\(\\mathbb R\\)</span><span class=\"vi\">đồng biến trên \\(\\mathbb R\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">decreasing on \\(\\mathbb R\\)</span><span class=\"vi\">nghịch biến trên \\(\\mathbb R\\)</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(a\\gt0\\), vertex at \\(x=1\\).",
+   "explain_vi": "Đáp án a. \\(a\\gt0\\), đỉnh tại \\(x=1\\).",
+   "images": [],
+   "id": "950ceb1d4291",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "The vertex of \\(y=#x^#+#x+#\\) is…",
+   "en": "The vertex of \\(y=2x^2+4x+5\\) is…",
+   "vi": "Đỉnh của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parabola\">parabol</b> \\(y=2x^2+4x+5\\) là…",
+   "options": [
+    "\\((1;\\,3)\\)",
+    "\\((-1;\\,5)\\)",
+    "\\((3;\\,-1)\\)",
+    "\\((-1;\\,3)\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(x_I=-\\dfrac b{2a}=-1\\), \\(y_I=3\\).",
+   "explain_vi": "Đáp án d. \\(x_I=-\\dfrac b{2a}=-1\\), \\(y_I=3\\).",
+   "images": [],
+   "id": "35770f8bee2a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "The axis of symmetry of \\(y=-#x^#+#x-#\\) is \\(x=#\\).",
+   "en": "The axis of symmetry of \\(y=-3x^2+6x-1\\) is \\(x=1\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"axis of symmetry\">Trục đối xứng</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parabola\">parabol</b> \\(y=-3x^2+6x-1\\) là \\(x=1\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "\\(x=-\\dfrac{b}{2a}=1\\).",
+   "explain_vi": "\\(x=-\\dfrac{b}{2a}=1\\).",
+   "images": [],
+   "id": "39d8304daa7d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "The function \\(y=\\dfrac{#}{#}x^#-#x+#\\) has a smallest value equal to -#.",
+   "en": "The function \\(y=\\dfrac{1}{2}x^2-2x+1\\) has a smallest value equal to -1.",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">Hàm số</b> \\(y=\\dfrac{1}{2}x^2-2x+1\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"minimum value\">giá trị nhỏ nhất</b> bằng -1.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "\\(a\\gt0\\): the vertex value -1 is the smallest value.",
+   "explain_vi": "\\(a\\gt0\\): <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ordinate\">tung độ</b> đỉnh -1 là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"minimum value\">giá trị nhỏ nhất</b>.",
+   "images": [],
+   "id": "19d19129d973",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "A ball is thrown up with height \\(h(t)=-#t^#+#t+#\\) (m). Find its greatest height (m).",
+   "en": "A ball is thrown up with height \\(h(t)=-5t^2+15t+1\\) (m). Find its greatest height (m).",
+   "vi": "Một quả bóng được ném lên với độ cao \\(h(t)=-5t^2+15t+1\\) (m). Tìm độ cao lớn nhất của bóng (m).",
+   "options": [],
+   "answer": "12.25",
+   "explain_en": "Vertex \\(t=1.5\\): \\(h=12.25\\).",
+   "explain_vi": "Đỉnh \\(t=1{,}5\\): \\(h=12{,}25\\).",
+   "images": [],
+   "id": "6882f6a78bc6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "The parabola \\(y=ax^#+bx+c\\) has vertex \\(I(#;\\,-#)\\) and passes through \\(M(#;\\,#)\\). Find \\(a\\).",
+   "en": "The parabola \\(y=ax^2+bx+c\\) has vertex \\(I(2;\\,-3)\\) and passes through \\(M(4;\\,3)\\). Find \\(a\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"parabola\">Parabol</b> \\(y=ax^2+bx+c\\) có đỉnh \\(I(2;\\,-3)\\) và đi qua \\(M(4;\\,3)\\). Tìm \\(a\\).",
+   "options": [],
+   "answer": "1.5",
+   "explain_en": "\\(3=a(4-2)^2+-3\\Rightarrow a=\\dfrac{3}{2}\\).",
+   "explain_vi": "\\(3=a(4-2)^2+-3\\Rightarrow a=\\dfrac{3}{2}\\).",
+   "images": [],
+   "id": "e7af6f426e11",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "A ball is thrown upward; its height is \\(h(t)=-#t^#+#t+#\\) (m). Its greatest height is…",
+   "en": "A ball is thrown upward; its height is \\(h(t)=-5t^2+10t+1\\) (m). Its greatest height is…",
+   "vi": "Một quả bóng được ném lên, độ cao \\(h(t)=-5t^2+10t+1\\) (m). Độ cao lớn nhất của bóng là…",
+   "options": [
+    "\\(5\\ \\text{m}\\)",
+    "\\(6\\ \\text{m}\\)",
+    "\\(1\\ \\text{m}\\)",
+    "\\(11\\ \\text{m}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Vertex at \\(t=\\dfrac{10}{10}=1\\): \\(h=6\\).",
+   "explain_vi": "Đáp án b. Đỉnh tại \\(t=\\dfrac{10}{10}=1\\): \\(h=6\\).",
+   "images": [],
+   "id": "0fc7b26a4b9c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "A farmer makes a rectangle with # m of fence. The largest possible area is…",
+   "en": "A farmer makes a rectangle with 40 m of fence. The largest possible area is…",
+   "vi": "Bác nông dân rào một mảnh đất hình chữ nhật bằng 40 m lưới. Diện tích lớn nhất có thể là…",
+   "options": [
+    "\\(400\\ \\text{m}^2\\)",
+    "\\(800\\ \\text{m}^2\\)",
+    "\\(100\\ \\text{m}^2\\)",
+    "\\(200\\ \\text{m}^2\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Sides \\(x\\), \\(\\dfrac{40}2-x\\); \\(S=x(20-x)\\) is largest at \\(x=10\\).",
+   "explain_vi": "Đáp án c. Các cạnh \\(x\\), \\(\\dfrac{40}2-x\\); \\(S=x(20-x)\\) lớn nhất khi \\(x=10\\).",
+   "images": [],
+   "id": "b5fed89d13d5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "A shop buys a T-shirt for # thousand VND and sells # shirts a month at # thousand VND. Each # thousand VND price cut sells # more shirts. Which selling price gives the largest profit?",
+   "en": "A shop buys a T-shirt for 30 thousand VND and sells 240 shirts a month at 60 thousand VND. Each 1 thousand VND price cut sells 12 more shirts. Which selling price gives the largest profit?",
+   "vi": "Một cửa hàng nhập áo thun giá 30 nghìn đồng, bán giá 60 nghìn đồng thì mỗi tháng bán được 240 chiếc. Cứ giảm giá 1 nghìn đồng thì bán thêm 12 chiếc. Giá bán nào cho lợi nhuận lớn nhất?",
+   "options": [
+    "\\(60\\)",
+    "\\(55\\)",
+    "\\(45\\)",
+    "\\(50\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Cut \\(x\\): profit \\((30-x)(240+12x)\\), a parabola with vertex at \\(x=5\\).",
+   "explain_vi": "Đáp án b. Giảm \\(x\\): lợi nhuận \\((30-x)(240+12x)\\) là hàm bậc hai, đỉnh tại \\(x=5\\).",
+   "images": [],
+   "id": "84a060c4bef2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The axis of symmetry of \\(y=-x^#+#x-#\\) is…",
+   "en": "The axis of symmetry of \\(y=-x^2+2x-1\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"axis of symmetry\">Trục đối xứng</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parabola\">parabol</b> \\(y=-x^2+2x-1\\) là…",
+   "options": [
+    "\\(x=-1\\)",
+    "\\(x=2\\)",
+    "\\(y=0\\)",
+    "\\(x=1\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(x=-\\dfrac{b}{2a}=1\\).",
+   "explain_vi": "Đáp án d. \\(x=-\\dfrac{b}{2a}=1\\).",
+   "images": [],
+   "id": "4c1673c98b7f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The function \\(y=#x^#-#x+#\\) is…",
+   "en": "The function \\(y=3x^2-6x+5\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">Hàm số</b> \\(y=3x^2-6x+5\\)…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">decreasing on \\((-\\infty;\\,1)\\), increasing on \\((1;\\,+\\infty)\\)</span><span class=\"vi\">nghịch biến trên \\((-\\infty;\\,1)\\), đồng biến trên \\((1;\\,+\\infty)\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">increasing on \\((-1;\\,+\\infty)\\)</span><span class=\"vi\">đồng biến trên \\((-1;\\,+\\infty)\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">decreasing on \\((-\\infty;\\,2)\\)</span><span class=\"vi\">nghịch biến trên \\((-\\infty;\\,2)\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">increasing on \\((-\\infty;\\,1)\\), decreasing on \\((1;\\,+\\infty)\\)</span><span class=\"vi\">đồng biến trên \\((-\\infty;\\,1)\\), nghịch biến trên \\((1;\\,+\\infty)\\)</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(a\\gt0\\) and \\(-\\dfrac b{2a}=1\\).",
+   "explain_vi": "Đáp án a. \\(a\\gt0\\) và \\(-\\dfrac b{2a}=1\\).",
+   "images": [],
+   "id": "6efcb3b78894",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The maximum value of \\(y=-#x^#+#x-#\\) is…",
+   "en": "The maximum value of \\(y=-3x^2+6x-6\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">Giá trị lớn nhất</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(y=-3x^2+6x-6\\) là…",
+   "options": [
+    "\\(1\\)",
+    "\\(-3\\)",
+    "\\(3\\)",
+    "\\(-6\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. It is \\(y_I=-3\\), reached at \\(x=1\\).",
+   "explain_vi": "Đáp án b. Đó là \\(y_I=-3\\), đạt tại \\(x=1\\).",
+   "images": [],
+   "id": "5da9eb236376",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The parabola \\(y=ax^#+bx+c\\) has vertex \\(I(#;\\,-#)\\) and passes through \\((#;\\,#)\\). Then \\(a=\\)…",
+   "en": "The parabola \\(y=ax^2+bx+c\\) has vertex \\(I(3;\\,-3)\\) and passes through \\((4;\\,0)\\). Then \\(a=\\)…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"parabola\">Parabol</b> \\(y=ax^2+bx+c\\) có đỉnh \\(I(3;\\,-3)\\) và đi qua điểm \\((4;\\,0)\\). Khi đó \\(a=\\)…",
+   "options": [
+    "\\(0\\)",
+    "\\(-3\\)",
+    "\\(3\\)",
+    "\\(6\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(y=a(x-3)^2+-3\\); substitute the point: \\(a\\cdot1+-3=0\\Rightarrow a=3\\).",
+   "explain_vi": "Đáp án c. \\(y=a(x-3)^2+-3\\); thay tọa độ điểm: \\(a\\cdot1+-3=0\\Rightarrow a=3\\).",
+   "images": [],
+   "id": "5eb904e7da91",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The vertex of the parabola \\(y=x^#+#x+#\\) is…",
+   "en": "The vertex of the parabola \\(y=x^2+4x+3\\) is…",
+   "vi": "Đỉnh của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parabola\">parabol</b> \\(y=x^2+4x+3\\) là…",
+   "options": [
+    "\\((-1;\\,-2)\\)",
+    "\\((2;\\,-1)\\)",
+    "\\((-2;\\,3)\\)",
+    "\\((-2;\\,-1)\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(x_I=-\\dfrac{b}{2a}=-2\\), \\(y_I=f(-2)=-1\\).",
+   "explain_vi": "Đáp án d. \\(x_I=-\\dfrac{b}{2a}=-2\\), \\(y_I=f(-2)=-1\\).",
+   "images": [],
+   "id": "7400680387b8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  }
+ ]
+}

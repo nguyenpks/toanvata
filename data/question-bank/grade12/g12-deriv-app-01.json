@@ -1,0 +1,1755 @@
+{
+ "lesson": "g12-deriv-app-01",
+ "grade": 12,
+ "no": 3,
+ "title": "Đường tiệm cận của đồ thị hàm số",
+ "path": "lessons/grade12/derivative-applications/asymptotes-of-graphs.html",
+ "items": [
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "What is the horizontal asymptote of \\(y=\\dfrac{#x^#+#}{#x^#-x}\\)?",
+   "en": "What is the horizontal asymptote of \\(y=\\dfrac{4x^2+1}{2x^2-x}\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"horizontal asymptote\">Tiệm cận ngang</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> \\(y=\\dfrac{4x^2+1}{2x^2-x}\\) là đường nào?",
+   "options": [
+    "\\(y=4\\)",
+    "\\(y=2\\)",
+    "\\(y=\\dfrac12\\)",
+    "\\(y=0\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. The degrees are equal, so \\(b=\\dfrac{4}{2}=2\\).",
+   "explain_vi": "Đáp án b. Hai bậc bằng nhau nên \\(b=\\dfrac{4}{2}=2\\).",
+   "images": [],
+   "id": "5e528f836c0a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "What is the oblique asymptote of \\(y=\\dfrac{x^#+x+#}{x+#}\\)?",
+   "en": "What is the oblique asymptote of \\(y=\\dfrac{x^2+x+1}{x+1}\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"oblique asymptote\">Tiệm cận xiên</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> \\(y=\\dfrac{x^2+x+1}{x+1}\\) là đường nào?",
+   "options": [
+    "\\(y=x+1\\)",
+    "\\(y=x\\)",
+    "\\(y=x-1\\)",
+    "\\(y=2x\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(x^2+x+1=(x+1)\\cdot x+1\\), so \\(f(x)=x+\\dfrac1{x+1}\\) and the quotient is \\(x\\).",
+   "explain_vi": "Đáp án b. \\(x^2+x+1=(x+1)\\cdot x+1\\) nên \\(f(x)=x+\\dfrac1{x+1}\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"quotient\">thương</b> là \\(x\\).",
+   "images": [],
+   "id": "fab3cec06d8b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Which function has the horizontal asymptote \\(y=#\\)?",
+   "en": "Which function has the horizontal asymptote \\(y=0\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">Hàm số</b> nào có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"horizontal asymptote\">tiệm cận ngang</b> \\(y=0\\)?",
+   "options": [
+    "\\(\\dfrac{x}{x+1}\\)",
+    "\\(\\dfrac{x+1}{x^2}\\)",
+    "\\(\\dfrac{x^2}{x+1}\\)",
+    "\\(x^2+1\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Only in \\(\\dfrac{x+1}{x^2}\\) is the degree of the numerator smaller than the degree of the denominator.",
+   "explain_vi": "Đáp án b. Chỉ ở \\(\\dfrac{x+1}{x^2}\\) bậc của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"numerator\">tử số</b> nhỏ hơn bậc của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"denominator\">mẫu số</b>.",
+   "images": [],
+   "id": "bc7177298009",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Which line is a vertical asymptote of \\(y=\\dfrac{x+#}{x-#}\\)?",
+   "en": "Which line is a vertical asymptote of \\(y=\\dfrac{x+2}{x-5}\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">Đường thẳng</b> nào là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"vertical asymptote\">tiệm cận đứng</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> \\(y=\\dfrac{x+2}{x-5}\\)?",
+   "options": [
+    "\\(x=-2\\)",
+    "\\(x=5\\)",
+    "\\(y=1\\)",
+    "\\(y=5\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. The denominator is zero at \\(x=5\\) and the numerator is \\(7\\ne0\\). The line \\(y=1\\) is the horizontal asymptote.",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"denominator\">Mẫu số</b> bằng 0 tại \\(x=5\\) còn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"numerator\">tử số</b> bằng \\(7\\ne0\\). Đường \\(y=1\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"horizontal asymptote\">tiệm cận ngang</b>.",
+   "images": [],
+   "id": "bcb8ddbdeab9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "True or false: the graph of \\(f(x)=\\dfrac{x^#-#}{x-#}\\) has the vertical asymptote \\(x=#\\).",
+   "en": "True or false: the graph of \\(f(x)=\\dfrac{x^2-4}{x-2}\\) has the vertical asymptote \\(x=2\\).",
+   "vi": "Đúng hay sai: <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">đồ thị hàm số</b> \\(f(x)=\\dfrac{x^2-4}{x-2}\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"vertical asymptote\">tiệm cận đứng</b> \\(x=2\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. For \\(x\\ne2\\), \\(f(x)=x+2\\), so \\(f(x)\\to4\\) as \\(x\\to2\\). The graph has a hole at \\((2,4)\\), not an asymptote.",
+   "explain_vi": "Sai. Với \\(x\\ne2\\), \\(f(x)=x+2\\) nên \\(f(x)\\to4\\) khi \\(x\\to2\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">Đồ thị</b> có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"hole\">điểm hổng</b> tại \\((2,4)\\) chứ không có tiệm cận.",
+   "images": [],
+   "id": "1dd874c99e72",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "True or false: the graph of a function can cross its horizontal asymptote.",
+   "en": "True or false: the graph of a function can cross its horizontal asymptote.",
+   "vi": "Đúng hay sai: <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">đồ thị hàm số</b> có thể cắt <b class=\"mbl-term\" tabindex=\"0\" data-en=\"horizontal asymptote\">tiệm cận ngang</b> của nó.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. For \\(f(x)=\\dfrac{2x}{x^2+1}\\), the line \\(y=0\\) is a horizontal asymptote, and the graph passes through the origin.",
+   "explain_vi": "Đúng. Với \\(f(x)=\\dfrac{2x}{x^2+1}\\), đường \\(y=0\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"horizontal asymptote\">tiệm cận ngang</b> và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> đi qua <b class=\"mbl-term\" tabindex=\"0\" data-en=\"origin\">gốc tọa độ</b>.",
+   "images": [],
+   "id": "74665747d2ac",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "How many asymptotes (of all types) does the graph of \\(y=\\dfrac{#x^#-x}{x-#}\\) have?",
+   "en": "How many asymptotes (of all types) does the graph of \\(y=\\dfrac{2x^2-x}{x-1}\\) have?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">Đồ thị hàm số</b> \\(y=\\dfrac{2x^2-x}{x-1}\\) có tất cả bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"asymptote\">đường tiệm cận</b> (mọi loại)?",
+   "options": [],
+   "answer": "2",
+   "explain_en": "Answer: 2. \\(2x^2-x=(x-1)(2x+1)+1\\), so the asymptotes are \\(x=1\\) (vertical) and \\(y=2x+1\\) (oblique). There is no horizontal asymptote.",
+   "explain_vi": "Đáp án: 2. \\(2x^2-x=(x-1)(2x+1)+1\\) nên các tiệm cận là \\(x=1\\) (đứng) và \\(y=2x+1\\) (xiên). Không có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"horizontal asymptote\">tiệm cận ngang</b>.",
+   "images": [],
+   "id": "4f0329999301",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "How many vertical asymptotes does the graph of \\(y=\\dfrac{x}{x^#-#}\\) have?",
+   "en": "How many vertical asymptotes does the graph of \\(y=\\dfrac{x}{x^2-9}\\) have?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">Đồ thị hàm số</b> \\(y=\\dfrac{x}{x^2-9}\\) có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"vertical asymptote\">tiệm cận đứng</b>?",
+   "options": [],
+   "answer": "2",
+   "explain_en": "Answer: 2. The denominator is zero at \\(x=3\\) and \\(x=-3\\), and the numerator is non-zero at both.",
+   "explain_vi": "Đáp án: 2. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"denominator\">Mẫu số</b> bằng 0 tại \\(x=3\\) và \\(x=-3\\), còn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"numerator\">tử số</b> khác 0 tại cả hai điểm.",
+   "images": [],
+   "id": "660b7da503d8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "The graph of \\(y=\\dfrac{#-x}{#x+#}\\) has a horizontal asymptote \\(y=b\\). Find \\(b\\).",
+   "en": "The graph of \\(y=\\dfrac{3-x}{2x+7}\\) has a horizontal asymptote \\(y=b\\). Find \\(b\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">Đồ thị</b> \\(y=\\dfrac{3-x}{2x+7}\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"horizontal asymptote\">tiệm cận ngang</b> \\(y=b\\). Tìm \\(b\\).",
+   "options": [],
+   "answer": "-1/2",
+   "explain_en": "Answer: \\(-\\dfrac12\\). The leading coefficients are \\(-1\\) and \\(2\\), so \\(b=\\dfrac{-1}{2}\\).",
+   "explain_vi": "Đáp án: \\(-\\dfrac12\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"leading coefficient\">Hệ số cao nhất</b> là \\(-1\\) và \\(2\\) nên \\(b=\\dfrac{-1}{2}\\).",
+   "images": [],
+   "id": "0a94df95d1e4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "The graph of \\(y=\\dfrac{ax+#}{x-#}\\) has the horizontal asymptote \\(y=#\\). Find \\(a\\).",
+   "en": "The graph of \\(y=\\dfrac{ax+1}{x-2}\\) has the horizontal asymptote \\(y=3\\). Find \\(a\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">Đồ thị</b> \\(y=\\dfrac{ax+1}{x-2}\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"horizontal asymptote\">tiệm cận ngang</b> \\(y=3\\). Tìm \\(a\\).",
+   "options": [],
+   "answer": "3",
+   "explain_en": "Answer: \\(a=3\\). The horizontal asymptote is \\(y=\\dfrac{a}{1}=a\\).",
+   "explain_vi": "Đáp án: \\(a=3\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"horizontal asymptote\">Tiệm cận ngang</b> là \\(y=\\dfrac{a}{1}=a\\).",
+   "images": [],
+   "id": "daf26d017f3a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "A workshop's average cost per product (thousand VND) for \\(x\\) products is \\(C(x)=\\dfrac{#x+#}{x}\\). When \\(x\\) becomes very large, \\(C(x)\\) gets close to…",
+   "en": "A workshop's average cost per product (thousand VND) for \\(x\\) products is \\(C(x)=\\dfrac{20x+12000}{x}\\). When \\(x\\) becomes very large, \\(C(x)\\) gets close to…",
+   "vi": "Chi phí trung bình (nghìn đồng) cho mỗi sản phẩm khi xưởng sản xuất \\(x\\) sản phẩm là \\(C(x)=\\dfrac{20x+12000}{x}\\). Khi \\(x\\) rất lớn, \\(C(x)\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"approach (tend to)\">dần tới</b>",
+   "options": [
+    "\\(12000\\)",
+    "\\(20\\)",
+    "\\(0\\)",
+    "\\(12020\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\displaystyle\\lim_{x\\to+\\infty}C(x)=20\\): the line \\(y=20\\) is the horizontal asymptote — the fixed cost is shared among more and more products.",
+   "explain_vi": "Đáp án b. \\(\\displaystyle\\lim_{x\\to+\\infty}C(x)=20\\): đường \\(y=20\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"horizontal asymptote\">tiệm cận ngang</b> — chi phí cố định được chia cho ngày càng nhiều sản phẩm.",
+   "images": [],
+   "id": "1e7fb1169406",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "For which \\(m\\) does the graph of \\(y=\\dfrac{x-#}{x+m}\\) have no vertical asymptote?",
+   "en": "For which \\(m\\) does the graph of \\(y=\\dfrac{x-3}{x+m}\\) have no vertical asymptote?",
+   "vi": "Với giá trị nào của \\(m\\) thì <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">đồ thị hàm số</b> \\(y=\\dfrac{x-3}{x+m}\\) không có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"vertical asymptote\">tiệm cận đứng</b>?",
+   "options": [
+    "\\(-3\\)",
+    "\\(-2\\)",
+    "\\(3\\)",
+    "\\(0\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. No vertical asymptote when the numerator also vanishes at \\(x=-m\\): \\(1(-m)-3=0\\Leftrightarrow m=-3\\) (then \\(y=1\\) with \\(x\\ne3\\)).",
+   "explain_vi": "Đáp án a. Không có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"vertical asymptote\">tiệm cận đứng</b> khi tử cũng bằng 0 tại \\(x=-m\\): \\(1(-m)-3=0\\Leftrightarrow m=-3\\) (khi đó \\(y=1\\) với \\(x\\ne3\\)).",
+   "images": [],
+   "id": "bbf00e74bc53",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The figure shows the graph of \\(y=f(x)\\) and its asymptotes (dashed). The asymptotes are…",
+   "en": "The figure shows the graph of \\(y=f(x)\\) and its asymptotes (dashed). The asymptotes are…<img src=\"../../../img/tex/ad6b9814e774fa56.svg\" alt=\"Graph with asymptotes\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Hình vẽ là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(y=f(x)\\) và các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"asymptote\">đường tiệm cận</b> (nét đứt). Các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"asymptote\">đường tiệm cận</b> là<img src=\"../../../img/tex/ad6b9814e774fa56.svg\" alt=\"Đồ thị và các đường tiệm cận\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "\\(x=-2,\\ y=-2\\)",
+    "\\(x=2,\\ y=-2\\)",
+    "\\(x=2,\\ y=2\\)",
+    "\\(x=-2,\\ y=2\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The vertical dashed line is \\(x=2\\) (vertical asymptote), the horizontal one is \\(y=2\\) (horizontal asymptote); here \\(f(x)=\\dfrac{2x-2}{x-2}\\).",
+   "explain_vi": "Đáp án c. Đường nét đứt thẳng đứng là \\(x=2\\) (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"vertical asymptote\">tiệm cận đứng</b>), đường nằm ngang là \\(y=2\\) (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"horizontal asymptote\">tiệm cận ngang</b>); ở đây \\(f(x)=\\dfrac{2x-2}{x-2}\\).",
+   "images": [
+    "img/tex/ad6b9814e774fa56.svg"
+   ],
+   "id": "573fbedc3758",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The graph of \\(y=\\dfrac{x^#+ax-#}{x-#}\\) has the oblique asymptote \\(y=x+#\\). Then \\(a=\\)…",
+   "en": "The graph of \\(y=\\dfrac{x^2+ax-2}{x-1}\\) has the oblique asymptote \\(y=x+4\\). Then \\(a=\\)…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">Đồ thị hàm số</b> \\(y=\\dfrac{x^2+ax-2}{x-1}\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"oblique asymptote\">tiệm cận xiên</b> \\(y=x+4\\). Khi đó \\(a=\\)",
+   "options": [
+    "\\(-3\\)",
+    "\\(3\\)",
+    "\\(5\\)",
+    "\\(4\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\dfrac{x^2+ax-2}{x-1}=x+(a+1)+\\dfrac{a-1}{x-1}\\), so the oblique asymptote is \\(y=x+a+1\\): \\(a+1=4\\Rightarrow a=3\\).",
+   "explain_vi": "Đáp án b. \\(\\dfrac{x^2+ax-2}{x-1}=x+(a+1)+\\dfrac{a-1}{x-1}\\), nên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"oblique asymptote\">tiệm cận xiên</b> là \\(y=x+a+1\\): \\(a+1=4\\Rightarrow a=3\\).",
+   "images": [],
+   "id": "cb7ff1cef7f8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The horizontal asymptotes of the graph of \\(y=\\dfrac{#x+#}{\\sqrt{x^#+#}}\\) are…",
+   "en": "The horizontal asymptotes of the graph of \\(y=\\dfrac{3x+2}{\\sqrt{x^2+1}}\\) are…",
+   "vi": "Các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"asymptote\">đường tiệm cận</b> ngang của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">đồ thị hàm số</b> \\(y=\\dfrac{3x+2}{\\sqrt{x^2+1}}\\) là",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(y=3\\) and \\(y=-3\\)</span><span class=\"vi\">\\(y=3\\) và \\(y=-3\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">only \\(y=0\\)</span><span class=\"vi\">chỉ \\(y=0\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(y=9\\) and \\(y=-9\\)</span><span class=\"vi\">\\(y=9\\) và \\(y=-9\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">only \\(y=3\\)</span><span class=\"vi\">chỉ \\(y=3\\)</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\sqrt{x^2+1}\\approx|x|\\): as \\(x\\to+\\infty\\), \\(y\\to3\\); as \\(x\\to-\\infty\\), \\(|x|=-x\\) and \\(y\\to-3\\).",
+   "explain_vi": "Đáp án a. \\(\\sqrt{x^2+1}\\approx|x|\\): khi \\(x\\to+\\infty\\), \\(y\\to3\\); khi \\(x\\to-\\infty\\), \\(|x|=-x\\) nên \\(y\\to-3\\).",
+   "images": [],
+   "id": "aa43ea3fb49d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The two asymptotes of the graph of \\(y=\\dfrac{-#x+#}{-x-#}\\) and the two coordinate axes bound a rectangle. Its area is…",
+   "en": "The two asymptotes of the graph of \\(y=\\dfrac{-4x+5}{-x-1}\\) and the two coordinate axes bound a rectangle. Its area is…",
+   "vi": "Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"asymptote\">đường tiệm cận</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">đồ thị hàm số</b> \\(y=\\dfrac{-4x+5}{-x-1}\\) cùng hai trục tọa độ tạo thành một hình chữ nhật. Diện tích hình chữ nhật đó là",
+   "options": [
+    "\\(4\\)",
+    "\\(20\\)",
+    "\\(5\\)",
+    "\\(10\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Asymptotes \\(x=-1\\), \\(y=4\\); the rectangle has sides \\(1\\) and \\(4\\): area \\(4\\).",
+   "explain_vi": "Đáp án a. Tiệm cận \\(x=-1\\), \\(y=4\\); hình chữ nhật có hai cạnh \\(1\\) và \\(4\\): diện tích \\(4\\).",
+   "images": [],
+   "id": "f096dbba548e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The variation table of \\(y=f(x)\\) is shown. How many asymptotes (vertical and horizontal) does its graph have?",
+   "en": "The variation table of \\(y=f(x)\\) is shown. How many asymptotes (vertical and horizontal) does its graph have?<img src=\"../../../img/tex/6fa4ee298e0a86ab.svg\" alt=\"Variation table\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,405px);height:auto\">",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"variation table\">bảng biến thiên</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(y=f(x)\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">Đồ thị hàm số</b> có tổng cộng bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"asymptote\">đường tiệm cận</b> đứng và ngang?<img src=\"../../../img/tex/6fa4ee298e0a86ab.svg\" alt=\"Bảng biến thiên\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,405px);height:auto\">",
+   "options": [
+    "\\(3\\)",
+    "\\(2\\)",
+    "\\(4\\)",
+    "\\(1\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Read the limits: infinite limits at \\(x=3\\) give a vertical asymptote; finite limits at \\(\\pm\\infty\\) give horizontal asymptotes. Here: vertical \\(x=3\\) and horizontal \\(y=-1\\).",
+   "explain_vi": "Đáp án b. Đọc các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"limit\">giới hạn</b>: <b class=\"mbl-term\" tabindex=\"0\" data-en=\"infinite limit\">giới hạn vô cực</b> tại \\(x=3\\) cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"vertical asymptote\">tiệm cận đứng</b>; <b class=\"mbl-term\" tabindex=\"0\" data-en=\"limit\">giới hạn</b> hữu hạn tại \\(\\pm\\infty\\) cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"horizontal asymptote\">tiệm cận ngang</b>. Ở đây: <b class=\"mbl-term\" tabindex=\"0\" data-en=\"vertical asymptote\">tiệm cận đứng</b> \\(x=3\\) và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"horizontal asymptote\">tiệm cận ngang</b> \\(y=-1\\).",
+   "images": [
+    "img/tex/6fa4ee298e0a86ab.svg"
+   ],
+   "id": "6d094830087a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Which statement is true?",
+   "en": "Which statement is true?",
+   "vi": "Khẳng định nào đúng?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">A graph can cross its vertical asymptote</span><span class=\"vi\">Đồ thị có thể cắt tiệm cận đứng của nó</span></span>",
+    "<span class=\"txi\"><span class=\"en\">A graph can cross its horizontal asymptote</span><span class=\"vi\">Đồ thị có thể cắt tiệm cận ngang của nó</span></span>",
+    "<span class=\"txi\"><span class=\"en\">The graph of a polynomial of degree 3 has a horizontal asymptote</span><span class=\"vi\">Đồ thị hàm đa thức bậc ba có tiệm cận ngang</span></span>",
+    "<span class=\"txi\"><span class=\"en\">If \\(f(2)\\) is not defined, \\(x=2\\) is a vertical asymptote</span><span class=\"vi\">Nếu \\(f(2)\\) không xác định thì \\(x=2\\) là tiệm cận đứng</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Asymptotes come from limits: a vertical one needs an infinite one-sided limit, a horizontal one a finite limit at \\(\\pm\\infty\\) (there can be two, and the graph may cross it). A hole is not an asymptote; polynomials have no asymptotes.",
+   "explain_vi": "Đáp án b. Tiệm cận đến từ <b class=\"mbl-term\" tabindex=\"0\" data-en=\"limit\">giới hạn</b>: <b class=\"mbl-term\" tabindex=\"0\" data-en=\"vertical asymptote\">tiệm cận đứng</b> cần một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"one-sided limit\">giới hạn một bên</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"infinity\">vô cực</b>, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"horizontal asymptote\">tiệm cận ngang</b> cần <b class=\"mbl-term\" tabindex=\"0\" data-en=\"limit\">giới hạn</b> hữu hạn tại \\(\\pm\\infty\\) (có thể có hai, và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> có thể cắt nó). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"hole\">Điểm hổng</b> không phải tiệm cận; đa thức không có tiệm cận.",
+   "images": [],
+   "id": "f13070be945e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "What is the horizontal asymptote of \\(y=\\dfrac{#x^#+#}{#x^#-x}\\)?",
+   "en": "What is the horizontal asymptote of \\(y=\\dfrac{6x^2+1}{3x^2-x}\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"horizontal asymptote\">Tiệm cận ngang</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> \\(y=\\dfrac{6x^2+1}{3x^2-x}\\) là đường nào?",
+   "options": [
+    "\\(y=6\\)",
+    "\\(y=3\\)",
+    "\\(y=2\\)",
+    "\\(y=0\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The degrees are equal, so \\(b=\\dfrac{6}{3}=2\\).",
+   "explain_vi": "Đáp án c. Hai bậc bằng nhau nên \\(b=\\dfrac{6}{3}=2\\).",
+   "images": [],
+   "id": "d2baed7b491e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "What is the oblique asymptote of \\(y=\\dfrac{x^#+#x+#}{x+#}\\)?",
+   "en": "What is the oblique asymptote of \\(y=\\dfrac{x^2+2x+3}{x+1}\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"oblique asymptote\">Tiệm cận xiên</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> \\(y=\\dfrac{x^2+2x+3}{x+1}\\) là đường nào?",
+   "options": [
+    "\\(y=x\\)",
+    "\\(y=x+2\\)",
+    "\\(y=2x\\)",
+    "\\(y=x+1\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(x^2+2x+3=(x+1)(x+1)+2\\), so \\(f(x)=x+1+\\dfrac{2}{x+1}\\) and the quotient is \\(x+1\\).",
+   "explain_vi": "Đáp án d. \\(x^2+2x+3=(x+1)(x+1)+2\\) nên \\(f(x)=x+1+\\dfrac{2}{x+1}\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"quotient\">thương</b> là \\(x+1\\).",
+   "images": [],
+   "id": "5748a378dec0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Which line is a vertical asymptote of \\(y=\\dfrac{x-#}{x+#}\\)?",
+   "en": "Which line is a vertical asymptote of \\(y=\\dfrac{x-1}{x+4}\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">Đường thẳng</b> nào là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"vertical asymptote\">tiệm cận đứng</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> \\(y=\\dfrac{x-1}{x+4}\\)?",
+   "options": [
+    "\\(x=-4\\)",
+    "\\(x=4\\)",
+    "\\(y=1\\)",
+    "\\(x=1\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. The denominator is zero at \\(x=-4\\) and the numerator is \\(-5\\ne0\\). The line \\(y=1\\) is the horizontal asymptote.",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"denominator\">Mẫu số</b> bằng 0 tại \\(x=-4\\) còn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"numerator\">tử số</b> bằng \\(-5\\ne0\\). Đường \\(y=1\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"horizontal asymptote\">tiệm cận ngang</b>.",
+   "images": [],
+   "id": "af26d0038da1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Which of these functions has \\(y=#\\) as a horizontal asymptote?",
+   "en": "Which of these functions has \\(y=0\\) as a horizontal asymptote?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">Hàm số</b> nào dưới đây nhận \\(y=0\\) làm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"horizontal asymptote\">tiệm cận ngang</b>?",
+   "options": [
+    "\\(\\dfrac{x-1}{x}\\)",
+    "\\(\\dfrac{x^2}{x-1}\\)",
+    "\\(\\dfrac{x}{x^2+1}\\)",
+    "\\(x^2-1\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Only in \\(\\dfrac{x}{x^2+1}\\) is the degree of the numerator smaller than the degree of the denominator.",
+   "explain_vi": "Đáp án c. Chỉ ở \\(\\dfrac{x}{x^2+1}\\) bậc của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"numerator\">tử số</b> nhỏ hơn bậc của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"denominator\">mẫu số</b>.",
+   "images": [],
+   "id": "5cb8a6608dd0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "True or false: the graph of \\(f(x)=\\dfrac{x-#}{x^#+#}\\) has the horizontal asymptote \\(y=#\\) and meets this line at \\(x=#\\).",
+   "en": "True or false: the graph of \\(f(x)=\\dfrac{x-1}{x^2+1}\\) has the horizontal asymptote \\(y=0\\) and meets this line at \\(x=1\\).",
+   "vi": "Đúng hay sai: <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">đồ thị hàm số</b> \\(f(x)=\\dfrac{x-1}{x^2+1}\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"horizontal asymptote\">tiệm cận ngang</b> \\(y=0\\) và cắt <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> này tại \\(x=1\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. The numerator has smaller degree, so \\(y=0\\) is a horizontal asymptote, and \\(f(1)=0\\). A graph can cross its horizontal asymptote.",
+   "explain_vi": "Đúng. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"numerator\">Tử số</b> có bậc nhỏ hơn nên \\(y=0\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"horizontal asymptote\">tiệm cận ngang</b>, và \\(f(1)=0\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">Đồ thị</b> có thể cắt <b class=\"mbl-term\" tabindex=\"0\" data-en=\"horizontal asymptote\">tiệm cận ngang</b>.",
+   "images": [],
+   "id": "286965ee9cf8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "True or false: the graph of \\(f(x)=\\dfrac{x^#-#}{x-#}\\) has the vertical asymptote \\(x=#\\).",
+   "en": "True or false: the graph of \\(f(x)=\\dfrac{x^2-9}{x-3}\\) has the vertical asymptote \\(x=3\\).",
+   "vi": "Đúng hay sai: <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">đồ thị hàm số</b> \\(f(x)=\\dfrac{x^2-9}{x-3}\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"vertical asymptote\">tiệm cận đứng</b> \\(x=3\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. For \\(x\\ne3\\), \\(f(x)=x+3\\), so \\(f(x)\\to6\\) as \\(x\\to3\\). The graph has a hole at \\((3,6)\\), not an asymptote.",
+   "explain_vi": "Sai. Với \\(x\\ne3\\), \\(f(x)=x+3\\) nên \\(f(x)\\to6\\) khi \\(x\\to3\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">Đồ thị</b> có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"hole\">điểm hổng</b> tại \\((3,6)\\) chứ không có tiệm cận.",
+   "images": [],
+   "id": "133d98db9f39",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "How many asymptotes (of all types) does the graph of \\(y=\\dfrac{x^#+#x}{x+#}\\) have?",
+   "en": "How many asymptotes (of all types) does the graph of \\(y=\\dfrac{x^2+3x}{x+2}\\) have?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">Đồ thị hàm số</b> \\(y=\\dfrac{x^2+3x}{x+2}\\) có tất cả bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"asymptote\">đường tiệm cận</b> (mọi loại)?",
+   "options": [],
+   "answer": "2",
+   "explain_en": "Answer: 2. \\(x^2+3x=(x+2)(x+1)-2\\), so the asymptotes are \\(x=-2\\) (vertical) and \\(y=x+1\\) (oblique). There is no horizontal asymptote.",
+   "explain_vi": "Đáp án: 2. \\(x^2+3x=(x+2)(x+1)-2\\) nên các tiệm cận là \\(x=-2\\) (đứng) và \\(y=x+1\\) (xiên). Không có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"horizontal asymptote\">tiệm cận ngang</b>.",
+   "images": [],
+   "id": "a00acbe31933",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "How many vertical asymptotes does the graph of \\(y=\\dfrac{x-#}{x^#-#}\\) have?",
+   "en": "How many vertical asymptotes does the graph of \\(y=\\dfrac{x-1}{x^2-4}\\) have?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">Đồ thị hàm số</b> \\(y=\\dfrac{x-1}{x^2-4}\\) có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"vertical asymptote\">tiệm cận đứng</b>?",
+   "options": [],
+   "answer": "2",
+   "explain_en": "Answer: 2. The denominator is zero at \\(x=2\\) and \\(x=-2\\), and the numerator is non-zero at both.",
+   "explain_vi": "Đáp án: 2. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"denominator\">Mẫu số</b> bằng 0 tại \\(x=2\\) và \\(x=-2\\), còn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"numerator\">tử số</b> khác 0 tại cả hai điểm.",
+   "images": [],
+   "id": "741b85d459fa",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "The graph of \\(y=\\dfrac{#-#x}{#x+#}\\) has a horizontal asymptote \\(y=b\\). Find \\(b\\).",
+   "en": "The graph of \\(y=\\dfrac{7-3x}{2x+1}\\) has a horizontal asymptote \\(y=b\\). Find \\(b\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">Đồ thị</b> \\(y=\\dfrac{7-3x}{2x+1}\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"horizontal asymptote\">tiệm cận ngang</b> \\(y=b\\). Tìm \\(b\\).",
+   "options": [],
+   "answer": "-3/2",
+   "explain_en": "Answer: \\(-\\dfrac32\\). The leading coefficients are \\(-3\\) and \\(2\\), so \\(b=\\dfrac{-3}{2}\\).",
+   "explain_vi": "Đáp án: \\(-\\dfrac32\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"leading coefficient\">Hệ số cao nhất</b> là \\(-3\\) và \\(2\\) nên \\(b=\\dfrac{-3}{2}\\).",
+   "images": [],
+   "id": "47c3bc0a5d4a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "The graph of \\(y=\\dfrac{ax+#}{#x-#}\\) has the horizontal asymptote \\(y=#\\). Find \\(a\\).",
+   "en": "The graph of \\(y=\\dfrac{ax+3}{2x-1}\\) has the horizontal asymptote \\(y=4\\). Find \\(a\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">Đồ thị</b> \\(y=\\dfrac{ax+3}{2x-1}\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"horizontal asymptote\">tiệm cận ngang</b> \\(y=4\\). Tìm \\(a\\).",
+   "options": [],
+   "answer": "8",
+   "explain_en": "Answer: 8. The horizontal asymptote is \\(y=\\dfrac{a}{2}\\), so \\(a=8\\).",
+   "explain_vi": "Đáp án: 8. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"horizontal asymptote\">Tiệm cận ngang</b> là \\(y=\\dfrac{a}{2}\\) nên \\(a=8\\).",
+   "images": [],
+   "id": "5e8c4c4d0d5b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "A workshop's average cost per product (thousand VND) for \\(x\\) products is \\(C(x)=\\dfrac{#x+#}{x}\\). When \\(x\\) becomes very large, \\(C(x)\\) gets close to…",
+   "en": "A workshop's average cost per product (thousand VND) for \\(x\\) products is \\(C(x)=\\dfrac{40x+12000}{x}\\). When \\(x\\) becomes very large, \\(C(x)\\) gets close to…",
+   "vi": "Chi phí trung bình (nghìn đồng) cho mỗi sản phẩm khi xưởng sản xuất \\(x\\) sản phẩm là \\(C(x)=\\dfrac{40x+12000}{x}\\). Khi \\(x\\) rất lớn, \\(C(x)\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"approach (tend to)\">dần tới</b>",
+   "options": [
+    "\\(12040\\)",
+    "\\(40\\)",
+    "\\(0\\)",
+    "\\(12000\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\displaystyle\\lim_{x\\to+\\infty}C(x)=40\\): the line \\(y=40\\) is the horizontal asymptote — the fixed cost is shared among more and more products.",
+   "explain_vi": "Đáp án b. \\(\\displaystyle\\lim_{x\\to+\\infty}C(x)=40\\): đường \\(y=40\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"horizontal asymptote\">tiệm cận ngang</b> — chi phí cố định được chia cho ngày càng nhiều sản phẩm.",
+   "images": [],
+   "id": "0119561045d6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "For which \\(m\\) does the graph of \\(y=\\dfrac{x-#}{x+m}\\) have no vertical asymptote?",
+   "en": "For which \\(m\\) does the graph of \\(y=\\dfrac{x-2}{x+m}\\) have no vertical asymptote?",
+   "vi": "Với giá trị nào của \\(m\\) thì <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">đồ thị hàm số</b> \\(y=\\dfrac{x-2}{x+m}\\) không có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"vertical asymptote\">tiệm cận đứng</b>?",
+   "options": [
+    "\\(-1\\)",
+    "\\(0\\)",
+    "\\(2\\)",
+    "\\(-2\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. No vertical asymptote when the numerator also vanishes at \\(x=-m\\): \\(1(-m)-2=0\\Leftrightarrow m=-2\\) (then \\(y=1\\) with \\(x\\ne2\\)).",
+   "explain_vi": "Đáp án d. Không có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"vertical asymptote\">tiệm cận đứng</b> khi tử cũng bằng 0 tại \\(x=-m\\): \\(1(-m)-2=0\\Leftrightarrow m=-2\\) (khi đó \\(y=1\\) với \\(x\\ne2\\)).",
+   "images": [],
+   "id": "5301c44dbadf",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Here is the variation table of \\(y=f(x)\\). How many asymptotes (vertical and horizontal) does its graph have?",
+   "en": "Here is the variation table of \\(y=f(x)\\). How many asymptotes (vertical and horizontal) does its graph have?<img src=\"../../../img/tex/2d6388e7302beb7d.svg\" alt=\"Variation table\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,405px);height:auto\">",
+   "vi": "Dưới đây là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"variation table\">bảng biến thiên</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(y=f(x)\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">Đồ thị hàm số</b> có tổng cộng bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"asymptote\">đường tiệm cận</b> đứng và ngang?<img src=\"../../../img/tex/2d6388e7302beb7d.svg\" alt=\"Bảng biến thiên\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,405px);height:auto\">",
+   "options": [
+    "\\(2\\)",
+    "\\(1\\)",
+    "\\(3\\)",
+    "\\(4\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Read the limits: infinite limits at \\(x=-2\\) give a vertical asymptote; finite limits at \\(\\pm\\infty\\) give horizontal asymptotes. Here: \\(x=-2\\), \\(y=3\\) and \\(y=6\\).",
+   "explain_vi": "Đáp án c. Đọc các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"limit\">giới hạn</b>: <b class=\"mbl-term\" tabindex=\"0\" data-en=\"infinite limit\">giới hạn vô cực</b> tại \\(x=-2\\) cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"vertical asymptote\">tiệm cận đứng</b>; <b class=\"mbl-term\" tabindex=\"0\" data-en=\"limit\">giới hạn</b> hữu hạn tại \\(\\pm\\infty\\) cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"horizontal asymptote\">tiệm cận ngang</b>. Ở đây: \\(x=-2\\), \\(y=3\\) và \\(y=6\\).",
+   "images": [
+    "img/tex/2d6388e7302beb7d.svg"
+   ],
+   "id": "d136515f7a13",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The figure below shows the graph of \\(y=f(x)\\) and its asymptotes (dashed). The asymptotes are…",
+   "en": "The figure below shows the graph of \\(y=f(x)\\) and its asymptotes (dashed). The asymptotes are…<img src=\"../../../img/tex/fba6354341d07d8e.svg\" alt=\"Graph with asymptotes\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Hình vẽ dưới đây là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(y=f(x)\\) và các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"asymptote\">đường tiệm cận</b> (nét đứt). Các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"asymptote\">đường tiệm cận</b> là<img src=\"../../../img/tex/fba6354341d07d8e.svg\" alt=\"Đồ thị và các đường tiệm cận\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "\\(x=2,\\ y=-1\\)",
+    "\\(x=-1,\\ y=2\\)",
+    "\\(x=2,\\ y=1\\)",
+    "\\(x=-2,\\ y=-1\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. The vertical dashed line is \\(x=2\\) (vertical asymptote), the horizontal one is \\(y=-1\\) (horizontal asymptote); here \\(f(x)=\\dfrac{-x+4}{x-2}\\).",
+   "explain_vi": "Đáp án a. Đường nét đứt thẳng đứng là \\(x=2\\) (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"vertical asymptote\">tiệm cận đứng</b>), đường nằm ngang là \\(y=-1\\) (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"horizontal asymptote\">tiệm cận ngang</b>); ở đây \\(f(x)=\\dfrac{-x+4}{x-2}\\).",
+   "images": [
+    "img/tex/fba6354341d07d8e.svg"
+   ],
+   "id": "b962c665b6a6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The graph of \\(y=\\dfrac{x^#+ax+#}{x-#}\\) has the oblique asymptote \\(y=x+#\\). Then \\(a=\\)…",
+   "en": "The graph of \\(y=\\dfrac{x^2+ax+4}{x-1}\\) has the oblique asymptote \\(y=x+3\\). Then \\(a=\\)…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">Đồ thị hàm số</b> \\(y=\\dfrac{x^2+ax+4}{x-1}\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"oblique asymptote\">tiệm cận xiên</b> \\(y=x+3\\). Khi đó \\(a=\\)",
+   "options": [
+    "\\(4\\)",
+    "\\(3\\)",
+    "\\(-2\\)",
+    "\\(2\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\dfrac{x^2+ax+4}{x-1}=x+(a+1)+\\dfrac{a+5}{x-1}\\), so the oblique asymptote is \\(y=x+a+1\\): \\(a+1=3\\Rightarrow a=2\\).",
+   "explain_vi": "Đáp án d. \\(\\dfrac{x^2+ax+4}{x-1}=x+(a+1)+\\dfrac{a+5}{x-1}\\), nên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"oblique asymptote\">tiệm cận xiên</b> là \\(y=x+a+1\\): \\(a+1=3\\Rightarrow a=2\\).",
+   "images": [],
+   "id": "a5cde597c42a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The horizontal asymptotes of the graph of \\(y=\\dfrac{#x-#}{\\sqrt{x^#+#}}\\) are…",
+   "en": "The horizontal asymptotes of the graph of \\(y=\\dfrac{2x-3}{\\sqrt{x^2+4}}\\) are…",
+   "vi": "Các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"asymptote\">đường tiệm cận</b> ngang của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">đồ thị hàm số</b> \\(y=\\dfrac{2x-3}{\\sqrt{x^2+4}}\\) là",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(y=4\\) and \\(y=-4\\)</span><span class=\"vi\">\\(y=4\\) và \\(y=-4\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">only \\(y=0\\)</span><span class=\"vi\">chỉ \\(y=0\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(y=2\\) and \\(y=-2\\)</span><span class=\"vi\">\\(y=2\\) và \\(y=-2\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">only \\(y=2\\)</span><span class=\"vi\">chỉ \\(y=2\\)</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\sqrt{x^2+4}\\approx|x|\\): as \\(x\\to+\\infty\\), \\(y\\to2\\); as \\(x\\to-\\infty\\), \\(|x|=-x\\) and \\(y\\to-2\\).",
+   "explain_vi": "Đáp án c. \\(\\sqrt{x^2+4}\\approx|x|\\): khi \\(x\\to+\\infty\\), \\(y\\to2\\); khi \\(x\\to-\\infty\\), \\(|x|=-x\\) nên \\(y\\to-2\\).",
+   "images": [],
+   "id": "87420c056e21",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The two asymptotes of the graph of \\(y=\\dfrac{-#x+#}{x+#}\\) and the two coordinate axes bound a rectangle. Its area is…",
+   "en": "The two asymptotes of the graph of \\(y=\\dfrac{-2x+4}{x+3}\\) and the two coordinate axes bound a rectangle. Its area is…",
+   "vi": "Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"asymptote\">đường tiệm cận</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">đồ thị hàm số</b> \\(y=\\dfrac{-2x+4}{x+3}\\) cùng hai trục tọa độ tạo thành một hình chữ nhật. Diện tích hình chữ nhật đó là",
+   "options": [
+    "\\(\\dfrac{8}{3}\\)",
+    "\\(10\\)",
+    "\\(6\\)",
+    "\\(5\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Asymptotes \\(x=-3\\), \\(y=-2\\); the rectangle has sides \\(3\\) and \\(2\\): area \\(6\\).",
+   "explain_vi": "Đáp án c. Tiệm cận \\(x=-3\\), \\(y=-2\\); hình chữ nhật có hai cạnh \\(3\\) và \\(2\\): diện tích \\(6\\).",
+   "images": [],
+   "id": "0ceb150fac9b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Which statement about asymptotes is correct?",
+   "en": "Which statement about asymptotes is correct?",
+   "vi": "Khẳng định nào về <b class=\"mbl-term\" tabindex=\"0\" data-en=\"asymptote\">đường tiệm cận</b> là đúng?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">The graph of a polynomial of degree 3 has a horizontal asymptote</span><span class=\"vi\">Đồ thị hàm đa thức bậc ba có tiệm cận ngang</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(y=\\dfrac{x^2-1}{x-1}\\) has the vertical asymptote \\(x=1\\)</span><span class=\"vi\">\\(y=\\dfrac{x^2-1}{x-1}\\) có tiệm cận đứng \\(x=1\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">A graph has at most one horizontal asymptote</span><span class=\"vi\">Đồ thị có nhiều nhất một tiệm cận ngang</span></span>",
+    "<span class=\"txi\"><span class=\"en\">If \\(\\displaystyle\\lim_{x\\to2^+}f(x)=+\\infty\\), the line \\(x=2\\) is a vertical asymptote of the graph of \\(f\\)</span><span class=\"vi\">Nếu \\(\\displaystyle\\lim_{x\\to2^+}f(x)=+\\infty\\) thì đường thẳng \\(x=2\\) là tiệm cận đứng của đồ thị \\(f\\)</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Asymptotes come from limits: a vertical one needs an infinite one-sided limit, a horizontal one a finite limit at \\(\\pm\\infty\\) (there can be two, and the graph may cross it). A hole is not an asymptote; polynomials have no asymptotes.",
+   "explain_vi": "Đáp án d. Tiệm cận đến từ <b class=\"mbl-term\" tabindex=\"0\" data-en=\"limit\">giới hạn</b>: <b class=\"mbl-term\" tabindex=\"0\" data-en=\"vertical asymptote\">tiệm cận đứng</b> cần một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"one-sided limit\">giới hạn một bên</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"infinity\">vô cực</b>, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"horizontal asymptote\">tiệm cận ngang</b> cần <b class=\"mbl-term\" tabindex=\"0\" data-en=\"limit\">giới hạn</b> hữu hạn tại \\(\\pm\\infty\\) (có thể có hai, và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> có thể cắt nó). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"hole\">Điểm hổng</b> không phải tiệm cận; đa thức không có tiệm cận.",
+   "images": [],
+   "id": "a67b5c1b3bae",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "The graph of which function has the line \\(y=#\\) as a horizontal asymptote?",
+   "en": "The graph of which function has the line \\(y=0\\) as a horizontal asymptote?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">Đồ thị hàm số</b> nào nhận <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(y=0\\) làm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"horizontal asymptote\">tiệm cận ngang</b>?",
+   "options": [
+    "\\(\\dfrac{2x+1}{x-3}\\)",
+    "\\(\\dfrac{x^2+1}{x}\\)",
+    "\\(\\dfrac{3}{x^2-1}\\)",
+    "\\(x^3\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Only in \\(\\dfrac{3}{x^2-1}\\) is the degree of the numerator smaller than the degree of the denominator.",
+   "explain_vi": "Đáp án c. Chỉ ở \\(\\dfrac{3}{x^2-1}\\) bậc của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"numerator\">tử số</b> nhỏ hơn bậc của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"denominator\">mẫu số</b>.",
+   "images": [],
+   "id": "c33d6371fc06",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "What is the horizontal asymptote of \\(y=\\dfrac{#x^#+#}{#x^#-x}\\)?",
+   "en": "What is the horizontal asymptote of \\(y=\\dfrac{5x^2+2}{2x^2-x}\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"horizontal asymptote\">Tiệm cận ngang</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> \\(y=\\dfrac{5x^2+2}{2x^2-x}\\) là đường nào?",
+   "options": [
+    "\\(y=5\\)",
+    "\\(y=\\dfrac52\\)",
+    "\\(y=\\dfrac25\\)",
+    "\\(y=2\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. The degrees are equal, so \\(b=\\dfrac{5}{2}\\).",
+   "explain_vi": "Đáp án b. Hai bậc bằng nhau nên \\(b=\\dfrac{5}{2}\\).",
+   "images": [],
+   "id": "ad8ee1bb8ead",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "What is the oblique asymptote of \\(y=\\dfrac{x^#-#x+#}{x-#}\\)?",
+   "en": "What is the oblique asymptote of \\(y=\\dfrac{x^2-3x+5}{x-1}\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"oblique asymptote\">Tiệm cận xiên</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> \\(y=\\dfrac{x^2-3x+5}{x-1}\\) là đường nào?",
+   "options": [
+    "\\(y=x-2\\)",
+    "\\(y=x-3\\)",
+    "\\(y=x-1\\)",
+    "\\(y=x+2\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(x^2-3x+5=(x-1)(x-2)+3\\), so \\(f(x)=x-2+\\dfrac{3}{x-1}\\) and the quotient is \\(x-2\\).",
+   "explain_vi": "Đáp án a. \\(x^2-3x+5=(x-1)(x-2)+3\\) nên \\(f(x)=x-2+\\dfrac{3}{x-1}\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"quotient\">thương</b> là \\(x-2\\).",
+   "images": [],
+   "id": "520af01a592e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Which line is a vertical asymptote of \\(y=\\dfrac{#x+#}{x-#}\\)?",
+   "en": "Which line is a vertical asymptote of \\(y=\\dfrac{2x+3}{x-6}\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">Đường thẳng</b> nào là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"vertical asymptote\">tiệm cận đứng</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> \\(y=\\dfrac{2x+3}{x-6}\\)?",
+   "options": [
+    "\\(x=2\\)",
+    "\\(y=2\\)",
+    "\\(x=6\\)",
+    "\\(x=-6\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The denominator is zero at \\(x=6\\) and the numerator is \\(15\\ne0\\). The line \\(y=2\\) is the horizontal asymptote.",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"denominator\">Mẫu số</b> bằng 0 tại \\(x=6\\) còn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"numerator\">tử số</b> bằng \\(15\\ne0\\). Đường \\(y=2\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"horizontal asymptote\">tiệm cận ngang</b>.",
+   "images": [],
+   "id": "e263b918cf88",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "True or false: the graph of \\(f(x)=\\dfrac{x^#-x}{x-#}\\) has the vertical asymptote \\(x=#\\).",
+   "en": "True or false: the graph of \\(f(x)=\\dfrac{x^2-x}{x-1}\\) has the vertical asymptote \\(x=1\\).",
+   "vi": "Đúng hay sai: <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">đồ thị hàm số</b> \\(f(x)=\\dfrac{x^2-x}{x-1}\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"vertical asymptote\">tiệm cận đứng</b> \\(x=1\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. For \\(x\\ne1\\), \\(f(x)=\\dfrac{x(x-1)}{x-1}=x\\), so \\(f(x)\\to1\\) as \\(x\\to1\\). The graph has a hole at \\((1,1)\\), not an asymptote.",
+   "explain_vi": "Sai. Với \\(x\\ne1\\), \\(f(x)=\\dfrac{x(x-1)}{x-1}=x\\) nên \\(f(x)\\to1\\) khi \\(x\\to1\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">Đồ thị</b> có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"hole\">điểm hổng</b> tại \\((1,1)\\) chứ không có tiệm cận.",
+   "images": [],
+   "id": "cf09bb01dd76",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "True or false: the graph of a function can have two different horizontal asymptotes.",
+   "en": "True or false: the graph of a function can have two different horizontal asymptotes.",
+   "vi": "Đúng hay sai: <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">đồ thị hàm số</b> có thể có hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"horizontal asymptote\">tiệm cận ngang</b> khác nhau.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. For \\(y=\\arctan x\\), the line \\(y=\\dfrac\\pi2\\) is an asymptote as \\(x\\to+\\infty\\) and \\(y=-\\dfrac\\pi2\\) is an asymptote as \\(x\\to-\\infty\\).",
+   "explain_vi": "Đúng. Với \\(y=\\arctan x\\), đường \\(y=\\dfrac\\pi2\\) là tiệm cận khi \\(x\\to+\\infty\\) và \\(y=-\\dfrac\\pi2\\) là tiệm cận khi \\(x\\to-\\infty\\).",
+   "images": [],
+   "id": "315fda22490f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "How many asymptotes (of all types) does the graph of \\(y=\\dfrac{#x+#}{x^#-#}\\) have?",
+   "en": "How many asymptotes (of all types) does the graph of \\(y=\\dfrac{2x+1}{x^2-9}\\) have?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">Đồ thị hàm số</b> \\(y=\\dfrac{2x+1}{x^2-9}\\) có tất cả bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"asymptote\">đường tiệm cận</b> (mọi loại)?",
+   "options": [],
+   "answer": "3",
+   "explain_en": "Answer: 3. The denominator is zero at \\(x=\\pm3\\) and the numerator is \\(7\\) and \\(-5\\), so \\(x=3\\) and \\(x=-3\\) are vertical asymptotes. The numerator has the smaller degree, so \\(y=0\\) is a horizontal asymptote.",
+   "explain_vi": "Đáp án: 3. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"denominator\">Mẫu số</b> bằng 0 tại \\(x=\\pm3\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"numerator\">tử số</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"respectively\">lần lượt</b> bằng \\(7\\) và \\(-5\\) nên \\(x=3\\) và \\(x=-3\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"vertical asymptote\">tiệm cận đứng</b>. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"numerator\">Tử số</b> có bậc nhỏ hơn nên \\(y=0\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"horizontal asymptote\">tiệm cận ngang</b>.",
+   "images": [],
+   "id": "6dc29762e3b9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "How many vertical asymptotes does the graph of \\(y=\\dfrac{x+#}{x^#+#}\\) have?",
+   "en": "How many vertical asymptotes does the graph of \\(y=\\dfrac{x+3}{x^2+9}\\) have?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">Đồ thị hàm số</b> \\(y=\\dfrac{x+3}{x^2+9}\\) có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"vertical asymptote\">tiệm cận đứng</b>?",
+   "options": [],
+   "answer": "0",
+   "explain_en": "Answer: 0. The denominator \\(x^2+9\\ge9\\) is never zero, so there is no vertical asymptote.",
+   "explain_vi": "Đáp án: 0. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"denominator\">Mẫu số</b> \\(x^2+9\\ge9\\) không bao giờ bằng 0 nên không có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"vertical asymptote\">tiệm cận đứng</b>.",
+   "images": [],
+   "id": "6ff0abc50ce0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "The graph of \\(y=\\dfrac{#x+#}{#-#x}\\) has a horizontal asymptote \\(y=b\\). Find \\(b\\).",
+   "en": "The graph of \\(y=\\dfrac{6x+1}{9-2x}\\) has a horizontal asymptote \\(y=b\\). Find \\(b\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">Đồ thị</b> \\(y=\\dfrac{6x+1}{9-2x}\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"horizontal asymptote\">tiệm cận ngang</b> \\(y=b\\). Tìm \\(b\\).",
+   "options": [],
+   "answer": "-3",
+   "explain_en": "Answer: \\(-3\\). The leading coefficients are \\(6\\) and \\(-2\\), so \\(b=\\dfrac{6}{-2}=-3\\).",
+   "explain_vi": "Đáp án: \\(-3\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"leading coefficient\">Hệ số cao nhất</b> là \\(6\\) và \\(-2\\) nên \\(b=\\dfrac{6}{-2}=-3\\).",
+   "images": [],
+   "id": "6f3a440ec832",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "The graph of \\(y=\\dfrac{ax-#}{#x+#}\\) has the horizontal asymptote \\(y=-#\\). Find \\(a\\).",
+   "en": "The graph of \\(y=\\dfrac{ax-2}{3x+1}\\) has the horizontal asymptote \\(y=-2\\). Find \\(a\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">Đồ thị</b> \\(y=\\dfrac{ax-2}{3x+1}\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"horizontal asymptote\">tiệm cận ngang</b> \\(y=-2\\). Tìm \\(a\\).",
+   "options": [],
+   "answer": "-6",
+   "explain_en": "Answer: \\(-6\\). The horizontal asymptote is \\(y=\\dfrac{a}{3}\\), so \\(a=-6\\).",
+   "explain_vi": "Đáp án: \\(-6\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"horizontal asymptote\">Tiệm cận ngang</b> là \\(y=\\dfrac{a}{3}\\) nên \\(a=-6\\).",
+   "images": [],
+   "id": "33a24c35a45f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "A workshop's average cost per product (thousand VND) for \\(x\\) products is \\(C(x)=\\dfrac{#x+#}{x}\\). When \\(x\\) becomes very large, \\(C(x)\\) gets close to…",
+   "en": "A workshop's average cost per product (thousand VND) for \\(x\\) products is \\(C(x)=\\dfrac{50x+5000}{x}\\). When \\(x\\) becomes very large, \\(C(x)\\) gets close to…",
+   "vi": "Chi phí trung bình (nghìn đồng) cho mỗi sản phẩm khi xưởng sản xuất \\(x\\) sản phẩm là \\(C(x)=\\dfrac{50x+5000}{x}\\). Khi \\(x\\) rất lớn, \\(C(x)\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"approach (tend to)\">dần tới</b>",
+   "options": [
+    "\\(5000\\)",
+    "\\(5050\\)",
+    "\\(0\\)",
+    "\\(50\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\displaystyle\\lim_{x\\to+\\infty}C(x)=50\\): the line \\(y=50\\) is the horizontal asymptote — the fixed cost is shared among more and more products.",
+   "explain_vi": "Đáp án d. \\(\\displaystyle\\lim_{x\\to+\\infty}C(x)=50\\): đường \\(y=50\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"horizontal asymptote\">tiệm cận ngang</b> — chi phí cố định được chia cho ngày càng nhiều sản phẩm.",
+   "images": [],
+   "id": "830d82e28b24",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Exactly one statement is true. Which one?",
+   "en": "Exactly one statement is true. Which one?",
+   "vi": "Chỉ có một khẳng định đúng. Đó là khẳng định nào?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">If \\(f(2)\\) is not defined, \\(x=2\\) is a vertical asymptote</span><span class=\"vi\">Nếu \\(f(2)\\) không xác định thì \\(x=2\\) là tiệm cận đứng</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(y=\\dfrac{x^2-1}{x-1}\\) has the vertical asymptote \\(x=1\\)</span><span class=\"vi\">\\(y=\\dfrac{x^2-1}{x-1}\\) có tiệm cận đứng \\(x=1\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">If \\(\\displaystyle\\lim_{x\\to2^+}f(x)=+\\infty\\), the line \\(x=2\\) is a vertical asymptote of the graph of \\(f\\)</span><span class=\"vi\">Nếu \\(\\displaystyle\\lim_{x\\to2^+}f(x)=+\\infty\\) thì đường thẳng \\(x=2\\) là tiệm cận đứng của đồ thị \\(f\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">The graph of a polynomial of degree 3 has a horizontal asymptote</span><span class=\"vi\">Đồ thị hàm đa thức bậc ba có tiệm cận ngang</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Asymptotes come from limits: a vertical one needs an infinite one-sided limit, a horizontal one a finite limit at \\(\\pm\\infty\\) (there can be two, and the graph may cross it). A hole is not an asymptote; polynomials have no asymptotes.",
+   "explain_vi": "Đáp án c. Tiệm cận đến từ <b class=\"mbl-term\" tabindex=\"0\" data-en=\"limit\">giới hạn</b>: <b class=\"mbl-term\" tabindex=\"0\" data-en=\"vertical asymptote\">tiệm cận đứng</b> cần một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"one-sided limit\">giới hạn một bên</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"infinity\">vô cực</b>, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"horizontal asymptote\">tiệm cận ngang</b> cần <b class=\"mbl-term\" tabindex=\"0\" data-en=\"limit\">giới hạn</b> hữu hạn tại \\(\\pm\\infty\\) (có thể có hai, và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> có thể cắt nó). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"hole\">Điểm hổng</b> không phải tiệm cận; đa thức không có tiệm cận.",
+   "images": [],
+   "id": "563795650e01",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "For which \\(m\\) does the graph of \\(y=\\dfrac{-x+#}{x+m}\\) have no vertical asymptote?",
+   "en": "For which \\(m\\) does the graph of \\(y=\\dfrac{-x+3}{x+m}\\) have no vertical asymptote?",
+   "vi": "Với giá trị nào của \\(m\\) thì <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">đồ thị hàm số</b> \\(y=\\dfrac{-x+3}{x+m}\\) không có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"vertical asymptote\">tiệm cận đứng</b>?",
+   "options": [
+    "\\(-1\\)",
+    "\\(-3\\)",
+    "\\(0\\)",
+    "\\(3\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. No vertical asymptote when the numerator also vanishes at \\(x=-m\\): \\(-1(-m)+3=0\\Leftrightarrow m=-3\\) (then \\(y=-1\\) with \\(x\\ne3\\)).",
+   "explain_vi": "Đáp án b. Không có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"vertical asymptote\">tiệm cận đứng</b> khi tử cũng bằng 0 tại \\(x=-m\\): \\(-1(-m)+3=0\\Leftrightarrow m=-3\\) (khi đó \\(y=-1\\) với \\(x\\ne3\\)).",
+   "images": [],
+   "id": "470de13a5d0c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Look at the figure. It shows the graph of \\(y=f(x)\\) and its asymptotes (dashed). The asymptotes are…",
+   "en": "Look at the figure. It shows the graph of \\(y=f(x)\\) and its asymptotes (dashed). The asymptotes are…<img src=\"../../../img/tex/2b89cb467d5f79f4.svg\" alt=\"Graph with asymptotes\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Quan sát hình vẽ: đây là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(y=f(x)\\) và các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"asymptote\">đường tiệm cận</b> (nét đứt). Các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"asymptote\">đường tiệm cận</b> là<img src=\"../../../img/tex/2b89cb467d5f79f4.svg\" alt=\"Đồ thị và các đường tiệm cận\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "\\(x=-1,\\ y=1\\)",
+    "\\(x=1,\\ y=1\\)",
+    "\\(x=1,\\ y=-1\\)",
+    "\\(x=-1,\\ y=-1\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. The vertical dashed line is \\(x=-1\\) (vertical asymptote), the horizontal one is \\(y=1\\) (horizontal asymptote); here \\(f(x)=\\dfrac{x+2}{x+1}\\).",
+   "explain_vi": "Đáp án a. Đường nét đứt thẳng đứng là \\(x=-1\\) (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"vertical asymptote\">tiệm cận đứng</b>), đường nằm ngang là \\(y=1\\) (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"horizontal asymptote\">tiệm cận ngang</b>); ở đây \\(f(x)=\\dfrac{x+2}{x+1}\\).",
+   "images": [
+    "img/tex/2b89cb467d5f79f4.svg"
+   ],
+   "id": "d024ba1422d4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The graph of \\(y=\\dfrac{x^#+ax+#}{x-#}\\) has the oblique asymptote \\(y=x+#\\). Then \\(a=\\)…",
+   "en": "The graph of \\(y=\\dfrac{x^2+ax+3}{x-1}\\) has the oblique asymptote \\(y=x+5\\). Then \\(a=\\)…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">Đồ thị hàm số</b> \\(y=\\dfrac{x^2+ax+3}{x-1}\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"oblique asymptote\">tiệm cận xiên</b> \\(y=x+5\\). Khi đó \\(a=\\)",
+   "options": [
+    "\\(6\\)",
+    "\\(5\\)",
+    "\\(4\\)",
+    "\\(-4\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\dfrac{x^2+ax+3}{x-1}=x+(a+1)+\\dfrac{a+4}{x-1}\\), so the oblique asymptote is \\(y=x+a+1\\): \\(a+1=5\\Rightarrow a=4\\).",
+   "explain_vi": "Đáp án c. \\(\\dfrac{x^2+ax+3}{x-1}=x+(a+1)+\\dfrac{a+4}{x-1}\\), nên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"oblique asymptote\">tiệm cận xiên</b> là \\(y=x+a+1\\): \\(a+1=5\\Rightarrow a=4\\).",
+   "images": [],
+   "id": "a5cb7a4727d6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The horizontal asymptotes of the graph of \\(y=\\dfrac{x+#}{\\sqrt{x^#+#}}\\) are…",
+   "en": "The horizontal asymptotes of the graph of \\(y=\\dfrac{x+2}{\\sqrt{x^2+9}}\\) are…",
+   "vi": "Các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"asymptote\">đường tiệm cận</b> ngang của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">đồ thị hàm số</b> \\(y=\\dfrac{x+2}{\\sqrt{x^2+9}}\\) là",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">only \\(y=1\\)</span><span class=\"vi\">chỉ \\(y=1\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(y=0\\) and \\(y=1\\)</span><span class=\"vi\">\\(y=0\\) và \\(y=1\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">only \\(y=0\\)</span><span class=\"vi\">chỉ \\(y=0\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(y=1\\) and \\(y=-1\\)</span><span class=\"vi\">\\(y=1\\) và \\(y=-1\\)</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\sqrt{x^2+9}\\approx|x|\\): as \\(x\\to+\\infty\\), \\(y\\to1\\); as \\(x\\to-\\infty\\), \\(|x|=-x\\) and \\(y\\to-1\\).",
+   "explain_vi": "Đáp án d. \\(\\sqrt{x^2+9}\\approx|x|\\): khi \\(x\\to+\\infty\\), \\(y\\to1\\); khi \\(x\\to-\\infty\\), \\(|x|=-x\\) nên \\(y\\to-1\\).",
+   "images": [],
+   "id": "3f17c2149bc8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The two asymptotes of the graph of \\(y=\\dfrac{-x+#}{x+#}\\) and the two coordinate axes bound a rectangle. Its area is…",
+   "en": "The two asymptotes of the graph of \\(y=\\dfrac{-x+5}{x+4}\\) and the two coordinate axes bound a rectangle. Its area is…",
+   "vi": "Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"asymptote\">đường tiệm cận</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">đồ thị hàm số</b> \\(y=\\dfrac{-x+5}{x+4}\\) cùng hai trục tọa độ tạo thành một hình chữ nhật. Diện tích hình chữ nhật đó là",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(1.25\\)</span><span class=\"vi\">\\(1{,}25\\)</span></span>",
+    "\\(10\\)",
+    "\\(4\\)",
+    "\\(5\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Asymptotes \\(x=-4\\), \\(y=-1\\); the rectangle has sides \\(4\\) and \\(1\\): area \\(4\\).",
+   "explain_vi": "Đáp án c. Tiệm cận \\(x=-4\\), \\(y=-1\\); hình chữ nhật có hai cạnh \\(4\\) và \\(1\\): diện tích \\(4\\).",
+   "images": [],
+   "id": "863a6869bc4c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Use the variation table of \\(y=f(x)\\) below. How many asymptotes (vertical and horizontal) does its graph have?",
+   "en": "Use the variation table of \\(y=f(x)\\) below. How many asymptotes (vertical and horizontal) does its graph have?<img src=\"../../../img/tex/c6222b6697549583.svg\" alt=\"Variation table\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,405px);height:auto\">",
+   "vi": "Dựa vào <b class=\"mbl-term\" tabindex=\"0\" data-en=\"variation table\">bảng biến thiên</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(y=f(x)\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">Đồ thị hàm số</b> có tổng cộng bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"asymptote\">đường tiệm cận</b> đứng và ngang?<img src=\"../../../img/tex/c6222b6697549583.svg\" alt=\"Bảng biến thiên\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,405px);height:auto\">",
+   "options": [
+    "\\(4\\)",
+    "\\(2\\)",
+    "\\(1\\)",
+    "\\(3\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Read the limits: infinite limits at \\(x=-1\\) give a vertical asymptote; finite limits at \\(\\pm\\infty\\) give horizontal asymptotes. Here: \\(x=-1\\) and \\(y=1\\) (only as \\(x\\to-\\infty\\)).",
+   "explain_vi": "Đáp án b. Đọc các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"limit\">giới hạn</b>: <b class=\"mbl-term\" tabindex=\"0\" data-en=\"infinite limit\">giới hạn vô cực</b> tại \\(x=-1\\) cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"vertical asymptote\">tiệm cận đứng</b>; <b class=\"mbl-term\" tabindex=\"0\" data-en=\"limit\">giới hạn</b> hữu hạn tại \\(\\pm\\infty\\) cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"horizontal asymptote\">tiệm cận ngang</b>. Ở đây: \\(x=-1\\) và \\(y=1\\) (chỉ khi \\(x\\to-\\infty\\)).",
+   "images": [
+    "img/tex/c6222b6697549583.svg"
+   ],
+   "id": "c0ab5749a681",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Find the horizontal asymptote of \\(y=\\dfrac{#x^#+#x-#}{#x^#-x+#}\\).",
+   "en": "Find the horizontal asymptote of \\(y=\\dfrac{2x^2+3x-2}{4x^2-x+4}\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"horizontal asymptote\">tiệm cận ngang</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> \\(y=\\dfrac{2x^2+3x-2}{4x^2-x+4}\\).",
+   "options": [
+    "\\(y=2\\)",
+    "\\(y=0\\)",
+    "\\(y=\\dfrac{1}{2}\\)",
+    "\\(y=-3\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The degrees are equal, so \\(\\lim_{x\\to\\infty}y=\\dfrac{2}{4}\\).",
+   "explain_vi": "Đáp án c. Hai bậc bằng nhau nên \\(\\lim_{x\\to\\infty}y=\\dfrac{2}{4}\\).",
+   "images": [],
+   "id": "7581bf840f8b",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Find the horizontal asymptotes of \\(y=\\dfrac{#x}{\\sqrt{x^#+#}}\\).",
+   "en": "Find the horizontal asymptotes of \\(y=\\dfrac{3x}{\\sqrt{x^2+1}}\\).",
+   "vi": "Tìm các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"horizontal asymptote\">tiệm cận ngang</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> \\(y=\\dfrac{3x}{\\sqrt{x^2+1}}\\).",
+   "options": [
+    "\\(y=\\pm3\\)",
+    "\\(y=3\\)",
+    "\\(y=-3\\)",
+    "\\(y=0\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. As \\(x\\to+\\infty\\), \\(y\\to3\\); as \\(x\\to-\\infty\\), \\(\\sqrt{x^2}=|x|=-x\\), so \\(y\\to-3\\). Two asymptotes.",
+   "explain_vi": "Đáp án a. Khi \\(x\\to+\\infty\\), \\(y\\to3\\); khi \\(x\\to-\\infty\\), \\(\\sqrt{x^2}=|x|=-x\\) nên \\(y\\to-3\\). Có hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"horizontal asymptote\">tiệm cận ngang</b>.",
+   "images": [],
+   "id": "75161416dc9f",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Find the oblique asymptote of \\(y=\\dfrac{x^#-x+#}{x+#}\\).",
+   "en": "Find the oblique asymptote of \\(y=\\dfrac{x^2-x+1}{x+3}\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"oblique asymptote\">tiệm cận xiên</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> \\(y=\\dfrac{x^2-x+1}{x+3}\\).",
+   "options": [
+    "\\(y=x+2\\)",
+    "\\(y=x-4\\)",
+    "\\(y=x-3\\)",
+    "\\(y=x+4\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Divide: \\(x^2-x+1=(x+3)(x-4)+13\\). So the asymptote is \\(y=x-4\\).",
+   "explain_vi": "Đáp án b. Chia đa thức: \\(x^2-x+1=(x+3)(x-4)+13\\). Vậy <b class=\"mbl-term\" tabindex=\"0\" data-en=\"oblique asymptote\">tiệm cận xiên</b> là \\(y=x-4\\).",
+   "images": [],
+   "id": "e5e4141468e3",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Find the oblique asymptote of \\(y=\\dfrac{x^#-x-#}{x+#}\\).",
+   "en": "Find the oblique asymptote of \\(y=\\dfrac{x^2-x-1}{x+2}\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"oblique asymptote\">tiệm cận xiên</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> \\(y=\\dfrac{x^2-x-1}{x+2}\\).",
+   "options": [
+    "\\(y=x-2\\)",
+    "\\(y=x+3\\)",
+    "\\(y=x+1\\)",
+    "\\(y=x-3\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Divide: \\(x^2-x-1=(x+2)(x-3)+5\\). So the asymptote is \\(y=x-3\\).",
+   "explain_vi": "Đáp án d. Chia đa thức: \\(x^2-x-1=(x+2)(x-3)+5\\). Vậy <b class=\"mbl-term\" tabindex=\"0\" data-en=\"oblique asymptote\">tiệm cận xiên</b> là \\(y=x-3\\).",
+   "images": [],
+   "id": "434032a5f667",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Find the vertical and horizontal asymptotes of \\(y=\\dfrac{x+#}{x+#}\\).",
+   "en": "Find the vertical and horizontal asymptotes of \\(y=\\dfrac{x+4}{x+2}\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"vertical asymptote\">tiệm cận đứng</b> và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"horizontal asymptote\">tiệm cận ngang</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> \\(y=\\dfrac{x+4}{x+2}\\).",
+   "options": [
+    "\\(x=-2,\\ y=1\\)",
+    "\\(x=1,\\ y=-2\\)",
+    "\\(x=-2,\\ y=-1\\)",
+    "\\(x=2,\\ y=1\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Vertical: \\(x+2=0\\) gives \\(x=-2\\). Horizontal: \\(\\lim_{x\\to\\infty}y=\\dfrac{1}{1}=1\\).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"vertical asymptote\">Tiệm cận đứng</b>: \\(x+2=0\\) cho \\(x=-2\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"horizontal asymptote\">Tiệm cận ngang</b>: \\(\\lim_{x\\to\\infty}y=\\dfrac{1}{1}=1\\).",
+   "images": [],
+   "id": "561c4e6a0944",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Find the vertical and horizontal asymptotes of \\(y=\\dfrac{x+#}{x+#}\\).",
+   "en": "Find the vertical and horizontal asymptotes of \\(y=\\dfrac{x+3}{x+2}\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"vertical asymptote\">tiệm cận đứng</b> và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"horizontal asymptote\">tiệm cận ngang</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> \\(y=\\dfrac{x+3}{x+2}\\).",
+   "options": [
+    "\\(x=1,\\ y=-2\\)",
+    "\\(x=-2,\\ y=-1\\)",
+    "\\(x=2,\\ y=1\\)",
+    "\\(x=-2,\\ y=1\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Vertical: \\(x+2=0\\) gives \\(x=-2\\). Horizontal: \\(\\lim_{x\\to\\infty}y=\\dfrac{1}{1}=1\\).",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"vertical asymptote\">Tiệm cận đứng</b>: \\(x+2=0\\) cho \\(x=-2\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"horizontal asymptote\">Tiệm cận ngang</b>: \\(\\lim_{x\\to\\infty}y=\\dfrac{1}{1}=1\\).",
+   "images": [],
+   "id": "f825b7baf886",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "How many asymptotes (vertical and horizontal) does the graph of \\(y=\\dfrac{x-#}{x^#-#}\\) have?",
+   "en": "How many asymptotes (vertical and horizontal) does the graph of \\(y=\\dfrac{x-1}{x^2-9}\\) have?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">Đồ thị hàm số</b> \\(y=\\dfrac{x-1}{x^2-9}\\) có tất cả bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"asymptote\">đường tiệm cận</b> (đứng và ngang)?",
+   "options": [
+    "\\(4\\)",
+    "\\(3\\)",
+    "\\(1\\)",
+    "\\(2\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. The denominator is zero at \\(x=\\pm3\\): 2 vertical asymptote(s). Since \\(\\deg\\) numerator \\lt  \\(\\deg\\) denominator, \\(y=0\\) is a horizontal asymptote. Total: 3.",
+   "explain_vi": "Đáp án b. Mẫu bằng 0 tại \\(x=\\pm3\\): có 2 <b class=\"mbl-term\" tabindex=\"0\" data-en=\"vertical asymptote\">tiệm cận đứng</b>. Vì bậc tử nhỏ hơn bậc mẫu nên \\(y=0\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"horizontal asymptote\">tiệm cận ngang</b>. Tổng cộng: 3.",
+   "images": [],
+   "id": "7acf5ba61fd9",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "How many vertical asymptotes does the graph of \\(y=\\dfrac{(x-#)}{(x-#)(x-#)(x+#)}\\) have?",
+   "en": "How many vertical asymptotes does the graph of \\(y=\\dfrac{(x-2)}{(x-2)(x-3)(x+2)}\\) have?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">Đồ thị hàm số</b> \\(y=\\dfrac{(x-2)}{(x-2)(x-3)(x+2)}\\) có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"vertical asymptote\">tiệm cận đứng</b>?",
+   "options": [
+    "\\(2\\)",
+    "\\(3\\)",
+    "\\(0\\)",
+    "\\(1\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Cancel the common factor \\((x-2)\\): it gives a hole, not an asymptote. The remaining zeros of the denominator give 2 vertical asymptote(s).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"simplify\">Rút gọn</b> thừa số chung \\((x-2)\\): đó là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"hole\">điểm hổng</b>, không phải tiệm cận. Các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b> còn lại của mẫu cho 2 <b class=\"mbl-term\" tabindex=\"0\" data-en=\"vertical asymptote\">tiệm cận đứng</b>.",
+   "images": [],
+   "id": "d0dbeb34919a",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Find the horizontal asymptote of \\(y=\\dfrac{#x^#}{#x^#-#x+#}\\).",
+   "en": "Find the horizontal asymptote of \\(y=\\dfrac{4x^2}{3x^2-2x+4}\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"horizontal asymptote\">tiệm cận ngang</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> \\(y=\\dfrac{4x^2}{3x^2-2x+4}\\).",
+   "options": [
+    "\\(y=\\dfrac{3}{4}\\)",
+    "\\(y=4\\)",
+    "\\(y=0\\)",
+    "\\(y=\\dfrac{4}{3}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. The degrees are equal, so \\(\\lim_{x\\to\\infty}y=\\dfrac{4}{3}\\).",
+   "explain_vi": "Đáp án d. Hai bậc bằng nhau nên \\(\\lim_{x\\to\\infty}y=\\dfrac{4}{3}\\).",
+   "images": [],
+   "id": "8279a4256da9",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Find the horizontal asymptotes of \\(y=\\dfrac{#x-#}{\\sqrt{x^#+#}}\\).",
+   "en": "Find the horizontal asymptotes of \\(y=\\dfrac{2x-2}{\\sqrt{x^2+2}}\\).",
+   "vi": "Tìm các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"horizontal asymptote\">tiệm cận ngang</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> \\(y=\\dfrac{2x-2}{\\sqrt{x^2+2}}\\).",
+   "options": [
+    "\\(y=-2\\)",
+    "\\(y=0\\)",
+    "\\(y=\\pm2\\)",
+    "\\(y=2\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. As \\(x\\to+\\infty\\), \\(y\\to2\\); as \\(x\\to-\\infty\\), \\(\\sqrt{x^2}=|x|=-x\\), so \\(y\\to-2\\). Two asymptotes.",
+   "explain_vi": "Đáp án c. Khi \\(x\\to+\\infty\\), \\(y\\to2\\); khi \\(x\\to-\\infty\\), \\(\\sqrt{x^2}=|x|=-x\\) nên \\(y\\to-2\\). Có hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"horizontal asymptote\">tiệm cận ngang</b>.",
+   "images": [],
+   "id": "968e0e95c4b8",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Find the oblique asymptote of \\(y=\\dfrac{x^#+x+#}{x+#}\\).",
+   "en": "Find the oblique asymptote of \\(y=\\dfrac{x^2+x+1}{x+2}\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"oblique asymptote\">tiệm cận xiên</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> \\(y=\\dfrac{x^2+x+1}{x+2}\\).",
+   "options": [
+    "\\(y=x+1\\)",
+    "\\(y=x-1\\)",
+    "\\(y=x-2\\)",
+    "\\(y=x+3\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Divide: \\(x^2+x+1=(x+2)(x-1)+3\\). So the asymptote is \\(y=x-1\\).",
+   "explain_vi": "Đáp án b. Chia đa thức: \\(x^2+x+1=(x+2)(x-1)+3\\). Vậy <b class=\"mbl-term\" tabindex=\"0\" data-en=\"oblique asymptote\">tiệm cận xiên</b> là \\(y=x-1\\).",
+   "images": [],
+   "id": "2d51e986ce56",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Find the oblique asymptote of \\(y=\\dfrac{x^#-#x}{x+#}\\).",
+   "en": "Find the oblique asymptote of \\(y=\\dfrac{x^2-2x}{x+1}\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"oblique asymptote\">tiệm cận xiên</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> \\(y=\\dfrac{x^2-2x}{x+1}\\).",
+   "options": [
+    "\\(y=x-2\\)",
+    "\\(y=x-3\\)",
+    "\\(y=x-1\\)",
+    "\\(y=x+3\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Divide: \\(x^2-2x=(x+1)(x-3)+3\\). So the asymptote is \\(y=x-3\\).",
+   "explain_vi": "Đáp án b. Chia đa thức: \\(x^2-2x=(x+1)(x-3)+3\\). Vậy <b class=\"mbl-term\" tabindex=\"0\" data-en=\"oblique asymptote\">tiệm cận xiên</b> là \\(y=x-3\\).",
+   "images": [],
+   "id": "6fb4ffba5710",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Find the vertical and horizontal asymptotes of \\(y=\\dfrac{#x-#}{x+#}\\).",
+   "en": "Find the vertical and horizontal asymptotes of \\(y=\\dfrac{2x-1}{x+1}\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"vertical asymptote\">tiệm cận đứng</b> và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"horizontal asymptote\">tiệm cận ngang</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> \\(y=\\dfrac{2x-1}{x+1}\\).",
+   "options": [
+    "\\(x=-1,\\ y=2\\)",
+    "\\(x=2,\\ y=-1\\)",
+    "\\(x=-1,\\ y=-2\\)",
+    "\\(x=1,\\ y=2\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Vertical: \\(x+1=0\\) gives \\(x=-1\\). Horizontal: \\(\\lim_{x\\to\\infty}y=\\dfrac{2}{1}=2\\).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"vertical asymptote\">Tiệm cận đứng</b>: \\(x+1=0\\) cho \\(x=-1\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"horizontal asymptote\">Tiệm cận ngang</b>: \\(\\lim_{x\\to\\infty}y=\\dfrac{2}{1}=2\\).",
+   "images": [],
+   "id": "a4d7c16f5d93",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Find the vertical and horizontal asymptotes of \\(y=\\dfrac{-x+#}{#x+#}\\).",
+   "en": "Find the vertical and horizontal asymptotes of \\(y=\\dfrac{-x+3}{3x+4}\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"vertical asymptote\">tiệm cận đứng</b> và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"horizontal asymptote\">tiệm cận ngang</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> \\(y=\\dfrac{-x+3}{3x+4}\\).",
+   "options": [
+    "\\(x=-\\dfrac{1}{3},\\ y=-\\dfrac{4}{3}\\)",
+    "\\(x=-\\dfrac{4}{3},\\ y=\\dfrac{1}{3}\\)",
+    "\\(x=-\\dfrac{4}{3},\\ y=-\\dfrac{1}{3}\\)",
+    "\\(x=\\dfrac{4}{3},\\ y=-\\dfrac{1}{3}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Vertical: \\(3x+4=0\\) gives \\(x=-\\dfrac{4}{3}\\). Horizontal: \\(\\lim_{x\\to\\infty}y=\\dfrac{-1}{3}=-\\dfrac{1}{3}\\).",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"vertical asymptote\">Tiệm cận đứng</b>: \\(3x+4=0\\) cho \\(x=-\\dfrac{4}{3}\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"horizontal asymptote\">Tiệm cận ngang</b>: \\(\\lim_{x\\to\\infty}y=\\dfrac{-1}{3}=-\\dfrac{1}{3}\\).",
+   "images": [],
+   "id": "a26b48414db4",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "How many asymptotes (vertical and horizontal) does the graph of \\(y=\\dfrac{x+#}{x^#-#}\\) have?",
+   "en": "How many asymptotes (vertical and horizontal) does the graph of \\(y=\\dfrac{x+3}{x^2-1}\\) have?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">Đồ thị hàm số</b> \\(y=\\dfrac{x+3}{x^2-1}\\) có tất cả bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"asymptote\">đường tiệm cận</b> (đứng và ngang)?",
+   "options": [
+    "\\(2\\)",
+    "\\(3\\)",
+    "\\(1\\)",
+    "\\(4\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. The denominator is zero at \\(x=\\pm1\\): 2 vertical asymptote(s). Since \\(\\deg\\) numerator \\lt  \\(\\deg\\) denominator, \\(y=0\\) is a horizontal asymptote. Total: 3.",
+   "explain_vi": "Đáp án b. Mẫu bằng 0 tại \\(x=\\pm1\\): có 2 <b class=\"mbl-term\" tabindex=\"0\" data-en=\"vertical asymptote\">tiệm cận đứng</b>. Vì bậc tử nhỏ hơn bậc mẫu nên \\(y=0\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"horizontal asymptote\">tiệm cận ngang</b>. Tổng cộng: 3.",
+   "images": [],
+   "id": "b70410a2c63e",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "How many vertical asymptotes does the graph of \\(y=\\dfrac{x(x-#)}{x(x-#)(x+#)}\\) have?",
+   "en": "How many vertical asymptotes does the graph of \\(y=\\dfrac{x(x-2)}{x(x-3)(x+1)}\\) have?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">Đồ thị hàm số</b> \\(y=\\dfrac{x(x-2)}{x(x-3)(x+1)}\\) có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"vertical asymptote\">tiệm cận đứng</b>?",
+   "options": [
+    "\\(0\\)",
+    "\\(3\\)",
+    "\\(1\\)",
+    "\\(2\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Cancel the common factor \\(x\\): it gives a hole, not an asymptote. The remaining zeros of the denominator give 2 vertical asymptote(s).",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"simplify\">Rút gọn</b> thừa số chung \\(x\\): đó là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"hole\">điểm hổng</b>, không phải tiệm cận. Các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b> còn lại của mẫu cho 2 <b class=\"mbl-term\" tabindex=\"0\" data-en=\"vertical asymptote\">tiệm cận đứng</b>.",
+   "images": [],
+   "id": "e64777c248cb",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Find the horizontal asymptote of \\(y=\\dfrac{#x^#+#x+#}{x^#+x+#}\\).",
+   "en": "Find the horizontal asymptote of \\(y=\\dfrac{3x^2+3x+2}{x^2+x+4}\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"horizontal asymptote\">tiệm cận ngang</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> \\(y=\\dfrac{3x^2+3x+2}{x^2+x+4}\\).",
+   "options": [
+    "\\(y=\\dfrac{1}{3}\\)",
+    "\\(y=3\\)",
+    "\\(y=4\\)",
+    "\\(y=0\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. The degrees are equal, so \\(\\lim_{x\\to\\infty}y=\\dfrac{3}{1}\\).",
+   "explain_vi": "Đáp án b. Hai bậc bằng nhau nên \\(\\lim_{x\\to\\infty}y=\\dfrac{3}{1}\\).",
+   "images": [],
+   "id": "d798242bc51c",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Find the horizontal asymptotes of \\(y=\\dfrac{#x-#}{\\sqrt{x^#+#}}\\).",
+   "en": "Find the horizontal asymptotes of \\(y=\\dfrac{2x-1}{\\sqrt{x^2+3}}\\).",
+   "vi": "Tìm các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"horizontal asymptote\">tiệm cận ngang</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> \\(y=\\dfrac{2x-1}{\\sqrt{x^2+3}}\\).",
+   "options": [
+    "\\(y=\\pm2\\)",
+    "\\(y=0\\)",
+    "\\(y=-2\\)",
+    "\\(y=2\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. As \\(x\\to+\\infty\\), \\(y\\to2\\); as \\(x\\to-\\infty\\), \\(\\sqrt{x^2}=|x|=-x\\), so \\(y\\to-2\\). Two asymptotes.",
+   "explain_vi": "Đáp án a. Khi \\(x\\to+\\infty\\), \\(y\\to2\\); khi \\(x\\to-\\infty\\), \\(\\sqrt{x^2}=|x|=-x\\) nên \\(y\\to-2\\). Có hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"horizontal asymptote\">tiệm cận ngang</b>.",
+   "images": [],
+   "id": "1210102fbea8",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Find the oblique asymptote of \\(y=\\dfrac{x^#+x-#}{x-#}\\).",
+   "en": "Find the oblique asymptote of \\(y=\\dfrac{x^2+x-3}{x-3}\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"oblique asymptote\">tiệm cận xiên</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> \\(y=\\dfrac{x^2+x-3}{x-3}\\).",
+   "options": [
+    "\\(y=x-4\\)",
+    "\\(y=x-2\\)",
+    "\\(y=x+4\\)",
+    "\\(y=x+3\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Divide: \\(x^2+x-3=(x-3)(x+4)+9\\). So the asymptote is \\(y=x+4\\).",
+   "explain_vi": "Đáp án c. Chia đa thức: \\(x^2+x-3=(x-3)(x+4)+9\\). Vậy <b class=\"mbl-term\" tabindex=\"0\" data-en=\"oblique asymptote\">tiệm cận xiên</b> là \\(y=x+4\\).",
+   "images": [],
+   "id": "c0f2c5d33df1",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Find the oblique asymptote of \\(y=\\dfrac{x^#-#}{x+#}\\).",
+   "en": "Find the oblique asymptote of \\(y=\\dfrac{x^2-3}{x+2}\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"oblique asymptote\">tiệm cận xiên</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> \\(y=\\dfrac{x^2-3}{x+2}\\).",
+   "options": [
+    "\\(y=x\\)",
+    "\\(y=x+2\\)",
+    "\\(y=x-2\\)",
+    "\\(y=-x-2\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Divide: \\(x^2-3=(x+2)(x-2)+1\\). So the asymptote is \\(y=x-2\\).",
+   "explain_vi": "Đáp án c. Chia đa thức: \\(x^2-3=(x+2)(x-2)+1\\). Vậy <b class=\"mbl-term\" tabindex=\"0\" data-en=\"oblique asymptote\">tiệm cận xiên</b> là \\(y=x-2\\).",
+   "images": [],
+   "id": "c092978271d5",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Find the vertical and horizontal asymptotes of \\(y=\\dfrac{x+#}{x-#}\\).",
+   "en": "Find the vertical and horizontal asymptotes of \\(y=\\dfrac{x+3}{x-1}\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"vertical asymptote\">tiệm cận đứng</b> và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"horizontal asymptote\">tiệm cận ngang</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> \\(y=\\dfrac{x+3}{x-1}\\).",
+   "options": [
+    "\\(x=-1,\\ y=-1\\)",
+    "\\(x=1,\\ y=-1\\)",
+    "\\(x=1,\\ y=1\\)",
+    "\\(x=-1,\\ y=1\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Vertical: \\(x-1=0\\) gives \\(x=1\\). Horizontal: \\(\\lim_{x\\to\\infty}y=\\dfrac{1}{1}=1\\).",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"vertical asymptote\">Tiệm cận đứng</b>: \\(x-1=0\\) cho \\(x=1\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"horizontal asymptote\">Tiệm cận ngang</b>: \\(\\lim_{x\\to\\infty}y=\\dfrac{1}{1}=1\\).",
+   "images": [],
+   "id": "7532ff805eba",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Find the vertical and horizontal asymptotes of \\(y=\\dfrac{x-#}{x-#}\\).",
+   "en": "Find the vertical and horizontal asymptotes of \\(y=\\dfrac{x-1}{x-3}\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"vertical asymptote\">tiệm cận đứng</b> và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"horizontal asymptote\">tiệm cận ngang</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> \\(y=\\dfrac{x-1}{x-3}\\).",
+   "options": [
+    "\\(x=3,\\ y=1\\)",
+    "\\(x=-3,\\ y=1\\)",
+    "\\(x=3,\\ y=-1\\)",
+    "\\(x=1,\\ y=3\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Vertical: \\(x-3=0\\) gives \\(x=3\\). Horizontal: \\(\\lim_{x\\to\\infty}y=\\dfrac{1}{1}=1\\).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"vertical asymptote\">Tiệm cận đứng</b>: \\(x-3=0\\) cho \\(x=3\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"horizontal asymptote\">Tiệm cận ngang</b>: \\(\\lim_{x\\to\\infty}y=\\dfrac{1}{1}=1\\).",
+   "images": [],
+   "id": "d969180c5f57",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "How many asymptotes (vertical and horizontal) does the graph of \\(y=\\dfrac{x-#}{x^#-#}\\) have?",
+   "en": "How many asymptotes (vertical and horizontal) does the graph of \\(y=\\dfrac{x-3}{x^2-4}\\) have?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">Đồ thị hàm số</b> \\(y=\\dfrac{x-3}{x^2-4}\\) có tất cả bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"asymptote\">đường tiệm cận</b> (đứng và ngang)?",
+   "options": [
+    "\\(1\\)",
+    "\\(3\\)",
+    "\\(4\\)",
+    "\\(2\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. The denominator is zero at \\(x=\\pm2\\): 2 vertical asymptote(s). Since \\(\\deg\\) numerator \\lt  \\(\\deg\\) denominator, \\(y=0\\) is a horizontal asymptote. Total: 3.",
+   "explain_vi": "Đáp án b. Mẫu bằng 0 tại \\(x=\\pm2\\): có 2 <b class=\"mbl-term\" tabindex=\"0\" data-en=\"vertical asymptote\">tiệm cận đứng</b>. Vì bậc tử nhỏ hơn bậc mẫu nên \\(y=0\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"horizontal asymptote\">tiệm cận ngang</b>. Tổng cộng: 3.",
+   "images": [],
+   "id": "9b44d8204ef2",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "How many vertical asymptotes does the graph of \\(y=\\dfrac{(x+#)}{(x+#)(x-#)(x+#)}\\) have?",
+   "en": "How many vertical asymptotes does the graph of \\(y=\\dfrac{(x+1)}{(x+1)(x-4)(x+2)}\\) have?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">Đồ thị hàm số</b> \\(y=\\dfrac{(x+1)}{(x+1)(x-4)(x+2)}\\) có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"vertical asymptote\">tiệm cận đứng</b>?",
+   "options": [
+    "\\(1\\)",
+    "\\(2\\)",
+    "\\(0\\)",
+    "\\(3\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Cancel the common factor \\((x+1)\\): it gives a hole, not an asymptote. The remaining zeros of the denominator give 2 vertical asymptote(s).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"simplify\">Rút gọn</b> thừa số chung \\((x+1)\\): đó là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"hole\">điểm hổng</b>, không phải tiệm cận. Các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b> còn lại của mẫu cho 2 <b class=\"mbl-term\" tabindex=\"0\" data-en=\"vertical asymptote\">tiệm cận đứng</b>.",
+   "images": [],
+   "id": "b069c1b961cb",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  }
+ ]
+}

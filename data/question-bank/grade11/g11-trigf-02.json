@@ -1,0 +1,1101 @@
+{
+ "lesson": "g11-trigf-02",
+ "grade": 11,
+ "no": 3,
+ "title": "Hàm số lượng giác",
+ "path": "lessons/grade11/trigonometric-functions/graphs-and-properties.html",
+ "items": [
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "What is the domain of \\(y=\\cot x\\)?",
+   "en": "What is the domain of \\(y=\\cot x\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"domain\">Tập xác định</b> của \\(y=\\cot x\\) là gì?",
+   "options": [
+    "\\(\\mathbb{R}\\)",
+    "\\(\\mathbb{R}\\setminus\\{k\\pi\\}\\)",
+    "\\(\\mathbb{R}\\setminus\\left\\{\\dfrac{\\pi}{2}+k\\pi\\right\\}\\)",
+    "\\([-1;1]\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\cot x\\) is not defined where \\(\\sin x=0\\), i.e. \\(x=k\\pi\\).",
+   "explain_vi": "Đáp án b. \\(\\cot x\\) không xác định khi \\(\\sin x=0\\), tức \\(x=k\\pi\\).",
+   "images": [],
+   "id": "89e00ea987df",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "What is the period of \\(y=\\sin #x\\)?",
+   "en": "What is the period of \\(y=\\sin 2x\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"period\">Chu kì</b> của \\(y=\\sin 2x\\) là bao nhiêu?",
+   "options": [
+    "\\(\\dfrac{\\pi}{2}\\)",
+    "\\(\\pi\\)",
+    "\\(2\\pi\\)",
+    "\\(4\\pi\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\dfrac{2\\pi}{2}=\\pi\\).",
+   "explain_vi": "Đáp án b. \\(\\dfrac{2\\pi}{2}=\\pi\\).",
+   "images": [],
+   "id": "b871295f1527",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Which function is odd?",
+   "en": "Which function is odd?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">Hàm số</b> nào là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"odd function\">hàm số lẻ</b>?",
+   "options": [
+    "\\(y=\\cos x+x^2\\)",
+    "\\(y=\\sin x+1\\)",
+    "\\(y=x\\cos x\\)",
+    "\\(y=\\cos 3x\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. For \\(f(x)=x\\cos x\\): \\(f(-x)=-f(x)\\) for every \\(x\\) in the domain (symmetric about 0).",
+   "explain_vi": "Đáp án c. Với \\(f(x)=x\\cos x\\): \\(f(-x)=-f(x)\\) với mọi \\(x\\) thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"domain\">tập xác định</b> (đối xứng qua 0).",
+   "images": [],
+   "id": "f082d2ecf5b7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(y=\\cos x\\) is an even function.",
+   "en": "\\(y=\\cos x\\) is an even function.",
+   "vi": "\\(y=\\cos x\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"even function\">hàm số chẵn</b>.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. \\(\\cos(-x)=\\cos x\\).",
+   "explain_vi": "Đúng. \\(\\cos(-x)=\\cos x\\).",
+   "images": [],
+   "id": "eddf10b30efb",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(y=\\sin x\\) is increasing on \\(\\left(#;\\dfrac{\\pi}{#}\\right)\\).",
+   "en": "\\(y=\\sin x\\) is increasing on \\(\\left(0;\\dfrac{\\pi}{2}\\right)\\).",
+   "vi": "\\(y=\\sin x\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"increasing\">đồng biến</b> trên \\(\\left(0;\\dfrac{\\pi}{2}\\right)\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. \\(\\sin x\\) is increasing on \\(\\left(-\\dfrac{\\pi}{2};\\dfrac{\\pi}{2}\\right)\\).",
+   "explain_vi": "Đúng. \\(\\sin x\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"increasing\">đồng biến</b> trên \\(\\left(-\\dfrac{\\pi}{2};\\dfrac{\\pi}{2}\\right)\\).",
+   "images": [],
+   "id": "69513ef01fa1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "Find the maximum value of \\(y=#\\sin x+#\\).",
+   "en": "Find the maximum value of \\(y=2\\sin x+1\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">giá trị lớn nhất</b> của \\(y=2\\sin x+1\\).",
+   "options": [],
+   "answer": "3",
+   "explain_en": "Answer: 3. \\(2\\cdot 1+1=3\\).",
+   "explain_vi": "Đáp số: 3. \\(2\\cdot 1+1=3\\).",
+   "images": [],
+   "id": "501b217b5d18",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "How many solutions does \\(\\sin x=\\dfrac#\\) have in \\([#;#\\pi]\\)?",
+   "en": "How many solutions does \\(\\sin x=\\dfrac12\\) have in \\([0;2\\pi]\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">Phương trình</b> \\(\\sin x=\\dfrac12\\) có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b> trong \\([0;2\\pi]\\)?",
+   "options": [],
+   "answer": "2",
+   "explain_en": "Answer: 2. They are \\(\\dfrac{\\pi}{6}\\) and \\(\\dfrac{5\\pi}{6}\\).",
+   "explain_vi": "Đáp số: 2. Đó là \\(\\dfrac{\\pi}{6}\\) và \\(\\dfrac{5\\pi}{6}\\).",
+   "images": [],
+   "id": "547e96499a94",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The figure shows the graph of a function \\(y=f(x)\\) of the form \\(y=a\\sin bx\\) or \\(y=a\\cos bx\\). What is its period?",
+   "en": "The figure shows the graph of a function \\(y=f(x)\\) of the form \\(y=a\\sin bx\\) or \\(y=a\\cos bx\\). What is its period?<img src=\"../../../img/tex/d7339d6504ae6f09.svg\" alt=\"Graph of a periodic function\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,440px);height:auto\">",
+   "vi": "Hình vẽ là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(y=f(x)\\) có dạng \\(y=a\\sin bx\\) hoặc \\(y=a\\cos bx\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"period\">Chu kì</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> là bao nhiêu?<img src=\"../../../img/tex/d7339d6504ae6f09.svg\" alt=\"Đồ thị hàm số tuần hoàn\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,440px);height:auto\">",
+   "options": [
+    "\\(\\dfrac{3\\pi}{4}\\)",
+    "\\(\\dfrac{\\pi}{4}\\)",
+    "\\(\\dfrac{\\pi}{2}\\)",
+    "\\(\\pi\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The graph repeats after every \\(\\dfrac{\\pi}{2}\\) (from one peak to the next).",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">Đồ thị</b> lặp lại sau mỗi đoạn dài \\(\\dfrac{\\pi}{2}\\) (từ một đỉnh đến đỉnh kế tiếp).",
+   "images": [
+    "img/tex/d7339d6504ae6f09.svg"
+   ],
+   "id": "15532b677e47",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The figure shows the graph of a function \\(y=f(x)\\) on \\([-\\pi;\\,#\\pi]\\). On which interval is the function increasing?",
+   "en": "The figure shows the graph of a function \\(y=f(x)\\) on \\([-\\pi;\\,2\\pi]\\). On which interval is the function increasing?<img src=\"../../../img/tex/c226a0045ea7c683.svg\" alt=\"Graph of a trigonometric function\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,440px);height:auto\">",
+   "vi": "Hình vẽ là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(y=f(x)\\) trên \\([-\\pi;\\,2\\pi]\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"increasing function\">Hàm số đồng biến</b> trên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"interval\">khoảng</b> nào?<img src=\"../../../img/tex/c226a0045ea7c683.svg\" alt=\"Đồ thị hàm số lượng giác\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,440px);height:auto\">",
+   "options": [
+    "\\(\\left(-\\dfrac{\\pi}{2};\\,\\dfrac{\\pi}{2}\\right)\\)",
+    "\\(\\left(\\pi;\\,2\\pi\\right)\\)",
+    "\\(\\left(0;\\,\\pi\\right)\\)",
+    "\\(\\left(-\\pi;\\,0\\right)\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. On \\(\\left(-\\dfrac{\\pi}{2};\\,\\dfrac{\\pi}{2}\\right)\\) the graph goes up from left to right; on each other interval it goes down at least partly.",
+   "explain_vi": "Đáp án a. Trên \\(\\left(-\\dfrac{\\pi}{2};\\,\\dfrac{\\pi}{2}\\right)\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> đi lên từ trái sang phải; trên mỗi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"interval\">khoảng</b> còn lại <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> có đoạn đi xuống.",
+   "images": [
+    "img/tex/c226a0045ea7c683.svg"
+   ],
+   "id": "4f4ec04dbbcb",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The figure shows the graph of which function?",
+   "en": "The figure shows the graph of which function?<img src=\"../../../img/tex/71dada5cabfcfe57.svg\" alt=\"Graph of a trigonometric function\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,440px);height:auto\">",
+   "vi": "Hình vẽ là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> nào?<img src=\"../../../img/tex/71dada5cabfcfe57.svg\" alt=\"Đồ thị hàm số lượng giác\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,440px);height:auto\">",
+   "options": [
+    "\\(y=1+\\sin x\\)",
+    "\\(y=-1+\\sin x\\)",
+    "\\(y=-1-\\sin x\\)",
+    "\\(y=-1+\\cos x\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Maximum \\(0\\), minimum \\(-2\\); at \\(x=0\\) the value is \\(-1\\). Only \\(y=-1+\\sin x\\) fits all three.",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">Giá trị lớn nhất</b> \\(0\\), nhỏ nhất \\(-2\\); tại \\(x=0\\) giá trị là \\(-1\\). Chỉ \\(y=-1+\\sin x\\) thỏa mãn cả ba điều này.",
+   "images": [
+    "img/tex/71dada5cabfcfe57.svg"
+   ],
+   "id": "e8042bbefd7b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The figure shows the graphs of \\(y=\\cos x\\) and \\(y=\\dfrac{\\sqrt#}{#}\\) on \\([#;\\,#\\pi]\\). The \\(x\\)-coordinates of their common points are…",
+   "en": "The figure shows the graphs of \\(y=\\cos x\\) and \\(y=\\dfrac{\\sqrt3}{2}\\) on \\([0;\\,2\\pi]\\). The \\(x\\)-coordinates of their common points are…<img src=\"../../../img/tex/73b488bdbe184c6f.svg\" alt=\"Two graphs and their common points\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,440px);height:auto\">",
+   "vi": "Hình vẽ là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> của \\(y=\\cos x\\) và \\(y=\\dfrac{\\sqrt3}{2}\\) trên \\([0;\\,2\\pi]\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"abscissa\">Hoành độ</b> các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersection point\">giao điểm</b> là…<img src=\"../../../img/tex/73b488bdbe184c6f.svg\" alt=\"Hai đồ thị và các giao điểm\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,440px);height:auto\">",
+   "options": [
+    "\\(x=\\dfrac{7\\pi}{6},\\ x=\\dfrac{11\\pi}{6}\\)",
+    "\\(x=\\dfrac{2\\pi}{3},\\ x=\\dfrac{4\\pi}{3}\\)",
+    "\\(x=\\dfrac{5\\pi}{4},\\ x=\\dfrac{7\\pi}{4}\\)",
+    "\\(x=\\dfrac{\\pi}{6},\\ x=\\dfrac{11\\pi}{6}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Solve \\(\\cos x=\\dfrac{\\sqrt3}{2}\\) on \\([0;\\,2\\pi]\\): \\(x=\\dfrac{\\pi}{6},\\ x=\\dfrac{11\\pi}{6}\\).",
+   "explain_vi": "Đáp án d. Giải \\(\\cos x=\\dfrac{\\sqrt3}{2}\\) trên \\([0;\\,2\\pi]\\): \\(x=\\dfrac{\\pi}{6},\\ x=\\dfrac{11\\pi}{6}\\).",
+   "images": [
+    "img/tex/73b488bdbe184c6f.svg"
+   ],
+   "id": "f00f33ee79c5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The figure shows the water depth \\(h\\) (m) at a harbour \\(t\\) hours after midnight, \\(h=#+#\\sin\\dfrac{\\pi t}{#}\\). In the first # hours \\((#\\lt t\\lt#)\\), when is the water lowest?",
+   "en": "The figure shows the water depth \\(h\\) (m) at a harbour \\(t\\) hours after midnight, \\(h=5+3\\sin\\dfrac{\\pi t}{6}\\). In the first 12 hours \\((0\\lt t\\lt12)\\), when is the water lowest?<img src=\"../../../img/tex/f4aaad88cfc7574f.svg\" alt=\"Water depth over time\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,440px);height:auto\">",
+   "vi": "Hình vẽ biểu diễn độ sâu \\(h\\) (m) của mực nước ở một cảng sau \\(t\\) giờ kể từ 0 giờ, \\(h=5+3\\sin\\dfrac{\\pi t}{6}\\). Trong 12 giờ đầu \\((0\\lt t\\lt12)\\), mực nước thấp nhất lúc mấy giờ?<img src=\"../../../img/tex/f4aaad88cfc7574f.svg\" alt=\"Độ sâu mực nước theo thời gian\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,440px);height:auto\">",
+   "options": [
+    "\\(9\\)",
+    "\\(6\\)",
+    "\\(12\\)",
+    "\\(3\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. The lowest value \\(2\\) m is reached when \\(\\sin\\dfrac{\\pi t}{6}=-1\\), i.e. \\(t=9\\).",
+   "explain_vi": "Đáp án a. Giá trị thấp nhất \\(2\\) m đạt được khi \\(\\sin\\dfrac{\\pi t}{6}=-1\\), tức \\(t=9\\).",
+   "images": [
+    "img/tex/f4aaad88cfc7574f.svg"
+   ],
+   "id": "4ea5df111d00",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The graph of \\(y=\\cos \\left(x+\\dfrac{\\pi}{#}\\right)\\) is obtained from the graph of \\(y=\\cos x\\) by which translation?",
+   "en": "The graph of \\(y=\\cos \\left(x+\\dfrac{\\pi}{6}\\right)\\) is obtained from the graph of \\(y=\\cos x\\) by which translation?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">Đồ thị hàm số</b> \\(y=\\cos \\left(x+\\dfrac{\\pi}{6}\\right)\\) nhận được từ <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">đồ thị hàm số</b> \\(y=\\cos x\\) bằng phép tịnh tiến nào?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">Translate upward by \\(\\dfrac{\\pi}{6}\\)</span><span class=\"vi\">Tịnh tiến lên trên \\(\\dfrac{\\pi}{6}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Translate downward by \\(\\dfrac{\\pi}{6}\\)</span><span class=\"vi\">Tịnh tiến xuống dưới \\(\\dfrac{\\pi}{6}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Translate to the right by \\(\\dfrac{\\pi}{6}\\)</span><span class=\"vi\">Tịnh tiến sang phải \\(\\dfrac{\\pi}{6}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Translate to the left by \\(\\dfrac{\\pi}{6}\\)</span><span class=\"vi\">Tịnh tiến sang trái \\(\\dfrac{\\pi}{6}\\)</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(y=f(x+a)\\) moves the graph left by \\(a\\) \\((a\\gt0)\\), \\(y=f(x-a)\\) right; \\(y=f(x)\\pm b\\) moves it up/down.",
+   "explain_vi": "Đáp án d. \\(y=f(x+a)\\) dời <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> sang trái \\(a\\) \\((a\\gt0)\\), \\(y=f(x-a)\\) sang phải; \\(y=f(x)\\pm b\\) dời lên/xuống.",
+   "images": [],
+   "id": "d8da7af5c7da",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The height of a seat on a Ferris wheel is \\(h(t)=#-#\\cos\\dfrac{#\\pi t}{#}\\) (m), \\(t\\) in minutes. Find the height at \\(t=#\\).",
+   "en": "The height of a seat on a Ferris wheel is \\(h(t)=20-18\\cos\\dfrac{2\\pi t}{18}\\) (m), \\(t\\) in minutes. Find the height at \\(t=3\\).",
+   "vi": "Độ cao của một ca bin vòng quay là \\(h(t)=20-18\\cos\\dfrac{2\\pi t}{18}\\) (m), \\(t\\) tính bằng phút. Tính độ cao tại \\(t=3\\).",
+   "options": [
+    "\\(29\\)",
+    "\\(11\\)",
+    "\\(38\\)",
+    "\\(20\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\dfrac{2\\pi\\cdot3}{18}=\\dfrac{\\pi}{3}\\), \\(\\cos\\dfrac{\\pi}{3}=\\dfrac12\\), so \\(h=11\\) m.",
+   "explain_vi": "Đáp án b. \\(\\dfrac{2\\pi\\cdot3}{18}=\\dfrac{\\pi}{3}\\), \\(\\cos\\dfrac{\\pi}{3}=\\dfrac12\\) nên \\(h=11\\) m.",
+   "images": [],
+   "id": "2a4c019ed02a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Which inequality is true?",
+   "en": "Which inequality is true?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"inequality\">Bất đẳng thức</b> nào đúng?",
+   "options": [
+    "\\(\\cos\\dfrac{2\\pi}{7}\\gt\\cos\\dfrac{5\\pi}{7}\\)",
+    "\\(\\cos\\dfrac{\\pi}{7}\\lt\\cos\\dfrac{4\\pi}{7}\\)",
+    "\\(\\sin\\left(-\\dfrac{2\\pi}{7}\\right)\\gt\\sin\\dfrac{\\pi}{7}\\)",
+    "\\(\\sin\\left(-\\dfrac{\\pi}{7}\\right)\\gt\\sin\\dfrac{3\\pi}{7}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\sin\\) and \\(\\tan\\) increase on \\(\\left(-\\dfrac{\\pi}{2};\\dfrac{\\pi}{2}\\right)\\); \\(\\cos\\) decreases on \\((0;\\pi)\\). Hence \\(\\cos\\dfrac{2\\pi}{7}\\gt\\cos\\dfrac{5\\pi}{7}\\).",
+   "explain_vi": "Đáp án a. \\(\\sin\\) và \\(\\tan\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"increasing\">đồng biến</b> trên \\(\\left(-\\dfrac{\\pi}{2};\\dfrac{\\pi}{2}\\right)\\); \\(\\cos\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"decreasing\">nghịch biến</b> trên \\((0;\\pi)\\). Do đó \\(\\cos\\dfrac{2\\pi}{7}\\gt\\cos\\dfrac{5\\pi}{7}\\).",
+   "images": [],
+   "id": "6352437589c9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Among the following functions, which one is even?",
+   "en": "Among the following functions, which one is even?",
+   "vi": "Trong các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> sau, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> nào chẵn?",
+   "options": [
+    "\\(y=\\sin x-x\\)",
+    "\\(y=x^3+\\sin x\\)",
+    "\\(y=x\\tan x\\)",
+    "\\(y=x\\cos x\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. For \\(f(x)=x\\tan x\\): \\(f(-x)=f(x)\\) for every \\(x\\) in the domain (symmetric about 0).",
+   "explain_vi": "Đáp án c. Với \\(f(x)=x\\tan x\\): \\(f(-x)=f(x)\\) với mọi \\(x\\) thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"domain\">tập xác định</b> (đối xứng qua 0).",
+   "images": [],
+   "id": "4a70e237e3e4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "What is the period of \\(y=\\cos\\dfrac{x}{#}\\)?",
+   "en": "What is the period of \\(y=\\cos\\dfrac{x}{2}\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"period\">Chu kì</b> của \\(y=\\cos\\dfrac{x}{2}\\) là bao nhiêu?",
+   "options": [
+    "\\(\\pi\\)",
+    "\\(2\\pi\\)",
+    "\\(4\\pi\\)",
+    "\\(8\\pi\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\dfrac{2\\pi}{\\dfrac{1}{2}}=4\\pi\\).",
+   "explain_vi": "Đáp án c. \\(\\dfrac{2\\pi}{\\dfrac{1}{2}}=4\\pi\\).",
+   "images": [],
+   "id": "cbb43f5943b4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "What is the range of \\(y=#\\cos x\\)?",
+   "en": "What is the range of \\(y=4\\cos x\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"range\">Tập giá trị</b> của \\(y=4\\cos x\\) là gì?",
+   "options": [
+    "\\([-1;1]\\)",
+    "\\([0;4]\\)",
+    "\\([-4;4]\\)",
+    "\\(\\mathbb{R}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(-4\\le 4\\cos x\\le 4\\).",
+   "explain_vi": "Đáp án c. \\(-4\\le 4\\cos x\\le 4\\).",
+   "images": [],
+   "id": "bbe189b82630",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(y=\\cos x\\) is increasing on \\(\\left(#;\\dfrac{\\pi}{#}\\right)\\).",
+   "en": "\\(y=\\cos x\\) is increasing on \\(\\left(0;\\dfrac{\\pi}{2}\\right)\\).",
+   "vi": "\\(y=\\cos x\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"increasing\">đồng biến</b> trên \\(\\left(0;\\dfrac{\\pi}{2}\\right)\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. \\(\\cos x\\) is decreasing on \\((0;\\pi)\\).",
+   "explain_vi": "Sai. \\(\\cos x\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"decreasing\">nghịch biến</b> trên \\((0;\\pi)\\).",
+   "images": [],
+   "id": "1a5166c62aab",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(y=\\sin x\\) is an even function.",
+   "en": "\\(y=\\sin x\\) is an even function.",
+   "vi": "\\(y=\\sin x\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"even function\">hàm số chẵn</b>.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. \\(\\sin(-x)=-\\sin x\\): it is odd.",
+   "explain_vi": "Sai. \\(\\sin(-x)=-\\sin x\\): đây là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"odd function\">hàm số lẻ</b>.",
+   "images": [],
+   "id": "96876cb0ac8d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "Find the minimum value of \\(y=#\\cos x-#\\).",
+   "en": "Find the minimum value of \\(y=3\\cos x-2\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"minimum value\">giá trị nhỏ nhất</b> của \\(y=3\\cos x-2\\).",
+   "options": [],
+   "answer": "-5",
+   "explain_en": "Answer: \\(-5\\). \\(3\\cdot(-1)-2=-5\\).",
+   "explain_vi": "Đáp số: \\(-5\\). \\(3\\cdot(-1)-2=-5\\).",
+   "images": [],
+   "id": "84df77b75ea8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "How many solutions does \\(\\cos x=-#\\) have in \\([#;#\\pi]\\)?",
+   "en": "How many solutions does \\(\\cos x=-1\\) have in \\([0;2\\pi]\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">Phương trình</b> \\(\\cos x=-1\\) có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b> trong \\([0;2\\pi]\\)?",
+   "options": [],
+   "answer": "1",
+   "explain_en": "Answer: 1. Only \\(x=\\pi\\).",
+   "explain_vi": "Đáp số: 1. Chỉ có \\(x=\\pi\\).",
+   "images": [],
+   "id": "ce79f9eb2386",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Based on the graph in the figure, find the period of the function \\(y=f(x)\\).",
+   "en": "Based on the graph in the figure, find the period of the function \\(y=f(x)\\).<img src=\"../../../img/tex/7d56741173e307d5.svg\" alt=\"Graph of a periodic function\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,440px);height:auto\">",
+   "vi": "Dựa vào <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> trong hình, tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"period\">chu kì</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(y=f(x)\\).<img src=\"../../../img/tex/7d56741173e307d5.svg\" alt=\"Đồ thị hàm số tuần hoàn\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,440px);height:auto\">",
+   "options": [
+    "\\(\\pi\\)",
+    "\\(2\\pi\\)",
+    "\\(\\dfrac{3\\pi}{2}\\)",
+    "\\(\\dfrac{\\pi}{2}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. The graph repeats after every \\(\\pi\\) (from one peak to the next).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">Đồ thị</b> lặp lại sau mỗi đoạn dài \\(\\pi\\) (từ một đỉnh đến đỉnh kế tiếp).",
+   "images": [
+    "img/tex/7d56741173e307d5.svg"
+   ],
+   "id": "fd4575ea2a5f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The figure shows the graphs of \\(y=\\sin x\\) and \\(y=-\\dfrac#\\) on \\([#;\\,#\\pi]\\). The \\(x\\)-coordinates of their common points are…",
+   "en": "The figure shows the graphs of \\(y=\\sin x\\) and \\(y=-\\dfrac12\\) on \\([0;\\,2\\pi]\\). The \\(x\\)-coordinates of their common points are…<img src=\"../../../img/tex/8a1d9eda90ad228b.svg\" alt=\"Two graphs and their common points\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,440px);height:auto\">",
+   "vi": "Hình vẽ là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> của \\(y=\\sin x\\) và \\(y=-\\dfrac12\\) trên \\([0;\\,2\\pi]\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"abscissa\">Hoành độ</b> các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersection point\">giao điểm</b> là…<img src=\"../../../img/tex/8a1d9eda90ad228b.svg\" alt=\"Hai đồ thị và các giao điểm\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,440px);height:auto\">",
+   "options": [
+    "\\(x=\\dfrac{5\\pi}{4},\\ x=\\dfrac{7\\pi}{4}\\)",
+    "\\(x=\\dfrac{\\pi}{6},\\ x=\\dfrac{5\\pi}{6}\\)",
+    "\\(x=\\dfrac{\\pi}{6},\\ x=\\dfrac{11\\pi}{6}\\)",
+    "\\(x=\\dfrac{7\\pi}{6},\\ x=\\dfrac{11\\pi}{6}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Solve \\(\\sin x=-\\dfrac12\\) on \\([0;\\,2\\pi]\\): \\(x=\\dfrac{7\\pi}{6},\\ x=\\dfrac{11\\pi}{6}\\).",
+   "explain_vi": "Đáp án d. Giải \\(\\sin x=-\\dfrac12\\) trên \\([0;\\,2\\pi]\\): \\(x=\\dfrac{7\\pi}{6},\\ x=\\dfrac{11\\pi}{6}\\).",
+   "images": [
+    "img/tex/8a1d9eda90ad228b.svg"
+   ],
+   "id": "e4f5a5f73ac5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The figure shows the water depth \\(h\\) (m) at a harbour \\(t\\) hours after midnight, \\(h=#+#\\sin\\dfrac{\\pi t}{#}\\). In the first # hours \\((#\\lt t\\lt#)\\), when is the water lowest?",
+   "en": "The figure shows the water depth \\(h\\) (m) at a harbour \\(t\\) hours after midnight, \\(h=10+2\\sin\\dfrac{\\pi t}{6}\\). In the first 12 hours \\((0\\lt t\\lt12)\\), when is the water lowest?<img src=\"../../../img/tex/d64e43286358fbb2.svg\" alt=\"Water depth over time\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,440px);height:auto\">",
+   "vi": "Hình vẽ biểu diễn độ sâu \\(h\\) (m) của mực nước ở một cảng sau \\(t\\) giờ kể từ 0 giờ, \\(h=10+2\\sin\\dfrac{\\pi t}{6}\\). Trong 12 giờ đầu \\((0\\lt t\\lt12)\\), mực nước thấp nhất lúc mấy giờ?<img src=\"../../../img/tex/d64e43286358fbb2.svg\" alt=\"Độ sâu mực nước theo thời gian\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,440px);height:auto\">",
+   "options": [
+    "\\(12\\)",
+    "\\(6\\)",
+    "\\(9\\)",
+    "\\(3\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The lowest value \\(8\\) m is reached when \\(\\sin\\dfrac{\\pi t}{6}=-1\\), i.e. \\(t=9\\).",
+   "explain_vi": "Đáp án c. Giá trị thấp nhất \\(8\\) m đạt được khi \\(\\sin\\dfrac{\\pi t}{6}=-1\\), tức \\(t=9\\).",
+   "images": [
+    "img/tex/d64e43286358fbb2.svg"
+   ],
+   "id": "079a30da1205",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The graph of \\(y=\\tan x-#\\) is obtained from the graph of \\(y=\\tan x\\) by which translation?",
+   "en": "The graph of \\(y=\\tan x-2\\) is obtained from the graph of \\(y=\\tan x\\) by which translation?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">Đồ thị hàm số</b> \\(y=\\tan x-2\\) nhận được từ <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">đồ thị hàm số</b> \\(y=\\tan x\\) bằng phép tịnh tiến nào?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">Translate upward by \\(2\\) units</span><span class=\"vi\">Tịnh tiến lên trên \\(2\\) đơn vị</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Translate downward by \\(2\\) units</span><span class=\"vi\">Tịnh tiến xuống dưới \\(2\\) đơn vị</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Translate to the right by \\(2\\) units</span><span class=\"vi\">Tịnh tiến sang phải \\(2\\) đơn vị</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Translate to the left by \\(2\\) units</span><span class=\"vi\">Tịnh tiến sang trái \\(2\\) đơn vị</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(y=f(x+a)\\) moves the graph left by \\(a\\) \\((a\\gt0)\\), \\(y=f(x-a)\\) right; \\(y=f(x)\\pm b\\) moves it up/down.",
+   "explain_vi": "Đáp án b. \\(y=f(x+a)\\) dời <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> sang trái \\(a\\) \\((a\\gt0)\\), \\(y=f(x-a)\\) sang phải; \\(y=f(x)\\pm b\\) dời lên/xuống.",
+   "images": [],
+   "id": "494468cf4475",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The height of a seat on a Ferris wheel is \\(h(t)=#-#\\cos\\dfrac{#\\pi t}{#}\\) (m), \\(t\\) in minutes. Find the height at \\(t=#\\).",
+   "en": "The height of a seat on a Ferris wheel is \\(h(t)=18-16\\cos\\dfrac{2\\pi t}{30}\\) (m), \\(t\\) in minutes. Find the height at \\(t=5\\).",
+   "vi": "Độ cao của một ca bin vòng quay là \\(h(t)=18-16\\cos\\dfrac{2\\pi t}{30}\\) (m), \\(t\\) tính bằng phút. Tính độ cao tại \\(t=5\\).",
+   "options": [
+    "\\(26\\)",
+    "\\(10\\)",
+    "\\(34\\)",
+    "\\(18\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\dfrac{2\\pi\\cdot5}{30}=\\dfrac{\\pi}{3}\\), \\(\\cos\\dfrac{\\pi}{3}=\\dfrac12\\), so \\(h=10\\) m.",
+   "explain_vi": "Đáp án b. \\(\\dfrac{2\\pi\\cdot5}{30}=\\dfrac{\\pi}{3}\\), \\(\\cos\\dfrac{\\pi}{3}=\\dfrac12\\) nên \\(h=10\\) m.",
+   "images": [],
+   "id": "fb6c7f77f233",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Use the graph of \\(y=f(x)\\) on \\([-\\pi;\\,#\\pi]\\) in the figure. The function increases on which interval?",
+   "en": "Use the graph of \\(y=f(x)\\) on \\([-\\pi;\\,2\\pi]\\) in the figure. The function increases on which interval?<img src=\"../../../img/tex/4448839fd376831f.svg\" alt=\"Graph of a trigonometric function\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,440px);height:auto\">",
+   "vi": "Dựa vào <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">đồ thị hàm số</b> \\(y=f(x)\\) trên \\([-\\pi;\\,2\\pi]\\) trong hình. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"increasing function\">Hàm số đồng biến</b> trên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"interval\">khoảng</b> nào?<img src=\"../../../img/tex/4448839fd376831f.svg\" alt=\"Đồ thị hàm số lượng giác\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,440px);height:auto\">",
+   "options": [
+    "\\(\\left(-\\pi;\\,0\\right)\\)",
+    "\\(\\left(0;\\,\\pi\\right)\\)",
+    "\\(\\left(\\dfrac{\\pi}{2};\\,\\dfrac{3\\pi}{2}\\right)\\)",
+    "\\(\\left(\\pi;\\,2\\pi\\right)\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. On \\(\\left(0;\\,\\pi\\right)\\) the graph goes up from left to right; on each other interval it goes down at least partly.",
+   "explain_vi": "Đáp án b. Trên \\(\\left(0;\\,\\pi\\right)\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> đi lên từ trái sang phải; trên mỗi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"interval\">khoảng</b> còn lại <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> có đoạn đi xuống.",
+   "images": [
+    "img/tex/4448839fd376831f.svg"
+   ],
+   "id": "ccffe59d24a9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Which comparison is correct?",
+   "en": "Which comparison is correct?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"compare\">So sánh</b> nào đúng?",
+   "options": [
+    "\\(\\sin\\left(-\\dfrac{3\\pi}{8}\\right)\\gt\\sin\\left(-\\dfrac{\\pi}{8}\\right)\\)",
+    "\\(\\cos\\dfrac{3\\pi}{8}\\lt\\cos\\dfrac{\\pi}{2}\\)",
+    "\\(\\cos\\dfrac{3\\pi}{8}\\lt\\cos\\dfrac{5\\pi}{8}\\)",
+    "\\(\\tan\\left(-\\dfrac{\\pi}{8}\\right)\\lt\\tan\\dfrac{\\pi}{4}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\sin\\) and \\(\\tan\\) increase on \\(\\left(-\\dfrac{\\pi}{2};\\dfrac{\\pi}{2}\\right)\\); \\(\\cos\\) decreases on \\((0;\\pi)\\). Hence \\(\\tan\\left(-\\dfrac{\\pi}{8}\\right)\\lt\\tan\\dfrac{\\pi}{4}\\).",
+   "explain_vi": "Đáp án d. \\(\\sin\\) và \\(\\tan\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"increasing\">đồng biến</b> trên \\(\\left(-\\dfrac{\\pi}{2};\\dfrac{\\pi}{2}\\right)\\); \\(\\cos\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"decreasing\">nghịch biến</b> trên \\((0;\\pi)\\). Do đó \\(\\tan\\left(-\\dfrac{\\pi}{8}\\right)\\lt\\tan\\dfrac{\\pi}{4}\\).",
+   "images": [],
+   "id": "697496b31f47",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Which function has the graph shown in the figure?",
+   "en": "Which function has the graph shown in the figure?<img src=\"../../../img/tex/2b3b3b581d07925b.svg\" alt=\"Graph of a trigonometric function\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,440px);height:auto\">",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">Hàm số</b> nào có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> như hình vẽ?<img src=\"../../../img/tex/2b3b3b581d07925b.svg\" alt=\"Đồ thị hàm số lượng giác\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,440px);height:auto\">",
+   "options": [
+    "\\(y=1+\\sin x\\)",
+    "\\(y=1+\\cos x\\)",
+    "\\(y=-1+\\cos x\\)",
+    "\\(y=1-\\cos x\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Maximum \\(2\\), minimum \\(0\\); at \\(x=0\\) the value is \\(2\\). Only \\(y=1+\\cos x\\) fits all three.",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">Giá trị lớn nhất</b> \\(2\\), nhỏ nhất \\(0\\); tại \\(x=0\\) giá trị là \\(2\\). Chỉ \\(y=1+\\cos x\\) thỏa mãn cả ba điều này.",
+   "images": [
+    "img/tex/2b3b3b581d07925b.svg"
+   ],
+   "id": "f1509a1bc863",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Choose the odd function.",
+   "en": "Choose the odd function.",
+   "vi": "Chọn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"odd function\">hàm số lẻ</b>.",
+   "options": [
+    "\\(y=\\cos 3x\\)",
+    "\\(y=|\\sin x|\\)",
+    "\\(y=\\sin 3x\\)",
+    "\\(y=\\sin^2x\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. For \\(f(x)=\\sin 3x\\): \\(f(-x)=-f(x)\\) for every \\(x\\) in the domain (symmetric about 0).",
+   "explain_vi": "Đáp án c. Với \\(f(x)=\\sin 3x\\): \\(f(-x)=-f(x)\\) với mọi \\(x\\) thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"domain\">tập xác định</b> (đối xứng qua 0).",
+   "images": [],
+   "id": "1bfbf630797d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "What is the domain of \\(y=\\tan #x\\)?",
+   "en": "What is the domain of \\(y=\\tan 2x\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"domain\">Tập xác định</b> của \\(y=\\tan 2x\\) là gì?",
+   "options": [
+    "\\(\\mathbb{R}\\)",
+    "\\(\\mathbb{R}\\setminus\\left\\{\\dfrac{\\pi}{2}+k\\pi\\right\\}\\)",
+    "\\(\\mathbb{R}\\setminus\\{k\\pi\\}\\)",
+    "\\(\\mathbb{R}\\setminus\\left\\{\\dfrac{\\pi}{4}+\\dfrac{k\\pi}{2}\\right\\}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(2x\\ne\\dfrac{\\pi}{2}+k\\pi\\Rightarrow x\\ne\\dfrac{\\pi}{4}+\\dfrac{k\\pi}{2}\\).",
+   "explain_vi": "Đáp án d. \\(2x\\ne\\dfrac{\\pi}{2}+k\\pi\\Rightarrow x\\ne\\dfrac{\\pi}{4}+\\dfrac{k\\pi}{2}\\).",
+   "images": [],
+   "id": "5859b63df8c0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "What is the period of \\(y=\\tan #x\\)?",
+   "en": "What is the period of \\(y=\\tan 3x\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"period\">Chu kì</b> của \\(y=\\tan 3x\\) là bao nhiêu?",
+   "options": [
+    "\\(\\dfrac{\\pi}{3}\\)",
+    "\\(\\dfrac{2\\pi}{3}\\)",
+    "\\(\\pi\\)",
+    "\\(3\\pi\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\dfrac{\\pi}{3}\\), because the period of tangent is \\(\\pi\\).",
+   "explain_vi": "Đáp án a. \\(\\dfrac{\\pi}{3}\\), vì <b class=\"mbl-term\" tabindex=\"0\" data-en=\"period\">chu kì</b> của hàm tan là \\(\\pi\\).",
+   "images": [],
+   "id": "6cbfafdfe04c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(y=\\cot x\\) is decreasing on \\((#;\\pi)\\).",
+   "en": "\\(y=\\cot x\\) is decreasing on \\((0;\\pi)\\).",
+   "vi": "\\(y=\\cot x\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"decreasing\">nghịch biến</b> trên \\((0;\\pi)\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. \\(\\cot x\\) is decreasing on every interval \\((k\\pi;\\pi+k\\pi)\\).",
+   "explain_vi": "Đúng. \\(\\cot x\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"decreasing\">nghịch biến</b> trên mỗi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"interval\">khoảng</b> \\((k\\pi;\\pi+k\\pi)\\).",
+   "images": [],
+   "id": "4757e4d80cad",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(y=\\tan x\\) is an odd function.",
+   "en": "\\(y=\\tan x\\) is an odd function.",
+   "vi": "\\(y=\\tan x\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"odd function\">hàm số lẻ</b>.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. \\(\\tan(-x)=-\\tan x\\) and the domain is symmetric.",
+   "explain_vi": "Đúng. \\(\\tan(-x)=-\\tan x\\) và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"domain\">tập xác định</b> đối xứng.",
+   "images": [],
+   "id": "834c731e0631",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Find the maximum value of \\(y=#-#\\cos x\\).",
+   "en": "Find the maximum value of \\(y=5-2\\cos x\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">giá trị lớn nhất</b> của \\(y=5-2\\cos x\\).",
+   "options": [],
+   "answer": "7",
+   "explain_en": "Answer: 7. The greatest value is at \\(\\cos x=-1\\): \\(5+2=7\\).",
+   "explain_vi": "Đáp số: 7. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">Giá trị lớn nhất</b> đạt khi \\(\\cos x=-1\\): \\(5+2=7\\).",
+   "images": [],
+   "id": "5877e78aeaf8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "How many solutions does \\(\\cos x=#\\) have in \\([#;#\\pi]\\)?",
+   "en": "How many solutions does \\(\\cos x=1.2\\) have in \\([0;2\\pi]\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">Phương trình</b> \\(\\cos x=1{,}2\\) có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b> trong \\([0;2\\pi]\\)?",
+   "options": [],
+   "answer": "0",
+   "explain_en": "Answer: 0, because \\(\\cos x\\le 1\\).",
+   "explain_vi": "Đáp số: 0, vì \\(\\cos x\\le 1\\).",
+   "images": [],
+   "id": "2aa914d7ab65",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Choose the true statement.",
+   "en": "Choose the true statement.",
+   "vi": "Chọn khẳng định đúng.",
+   "options": [
+    "\\(\\sin\\left(-\\dfrac{4\\pi}{9}\\right)\\lt\\sin\\dfrac{\\pi}{9}\\)",
+    "\\(\\sin\\left(-\\dfrac{4\\pi}{9}\\right)\\gt\\sin\\dfrac{\\pi}{9}\\)",
+    "\\(\\tan\\left(-\\dfrac{2\\pi}{9}\\right)\\gt\\tan\\dfrac{4\\pi}{9}\\)",
+    "\\(\\cos\\dfrac{5\\pi}{9}\\lt\\cos\\dfrac{2\\pi}{3}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\sin\\) and \\(\\tan\\) increase on \\(\\left(-\\dfrac{\\pi}{2};\\dfrac{\\pi}{2}\\right)\\); \\(\\cos\\) decreases on \\((0;\\pi)\\). Hence \\(\\sin\\left(-\\dfrac{4\\pi}{9}\\right)\\lt\\sin\\dfrac{\\pi}{9}\\).",
+   "explain_vi": "Đáp án a. \\(\\sin\\) và \\(\\tan\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"increasing\">đồng biến</b> trên \\(\\left(-\\dfrac{\\pi}{2};\\dfrac{\\pi}{2}\\right)\\); \\(\\cos\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"decreasing\">nghịch biến</b> trên \\((0;\\pi)\\). Do đó \\(\\sin\\left(-\\dfrac{4\\pi}{9}\\right)\\lt\\sin\\dfrac{\\pi}{9}\\).",
+   "images": [],
+   "id": "c93a2cffbd45",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "From the graph of \\(y=f(x)\\) in the figure, choose an interval on which \\(f\\) is increasing.",
+   "en": "From the graph of \\(y=f(x)\\) in the figure, choose an interval on which \\(f\\) is increasing.<img src=\"../../../img/tex/a1c9008dd4b03fa1.svg\" alt=\"Graph of a trigonometric function\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,440px);height:auto\">",
+   "vi": "Từ <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">đồ thị hàm số</b> \\(y=f(x)\\) trong hình, chọn một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"interval\">khoảng</b> mà trên đó \\(f\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"increasing\">đồng biến</b>.<img src=\"../../../img/tex/a1c9008dd4b03fa1.svg\" alt=\"Đồ thị hàm số lượng giác\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,440px);height:auto\">",
+   "options": [
+    "\\(\\left(\\dfrac{\\pi}{2};\\,\\dfrac{3\\pi}{2}\\right)\\)",
+    "\\(\\left(0;\\,\\pi\\right)\\)",
+    "\\(\\left(-\\dfrac{\\pi}{2};\\,\\dfrac{\\pi}{2}\\right)\\)",
+    "\\(\\left(\\pi;\\,2\\pi\\right)\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. On \\(\\left(\\pi;\\,2\\pi\\right)\\) the graph goes up from left to right; on each other interval it goes down at least partly.",
+   "explain_vi": "Đáp án d. Trên \\(\\left(\\pi;\\,2\\pi\\right)\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> đi lên từ trái sang phải; trên mỗi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"interval\">khoảng</b> còn lại <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> có đoạn đi xuống.",
+   "images": [
+    "img/tex/a1c9008dd4b03fa1.svg"
+   ],
+   "id": "28018a72229a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The curve in the figure is the graph of…",
+   "en": "The curve in the figure is the graph of…<img src=\"../../../img/tex/2a5d41c2d3776902.svg\" alt=\"Graph of a trigonometric function\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,440px);height:auto\">",
+   "vi": "Đường cong trong hình là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b>…<img src=\"../../../img/tex/2a5d41c2d3776902.svg\" alt=\"Đồ thị hàm số lượng giác\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,440px);height:auto\">",
+   "options": [
+    "\\(y=-1-3\\cos x\\)",
+    "\\(y=-1+3\\sin x\\)",
+    "\\(y=1+3\\cos x\\)",
+    "\\(y=-1+3\\cos x\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Maximum \\(2\\), minimum \\(-4\\); at \\(x=0\\) the value is \\(2\\). Only \\(y=-1+3\\cos x\\) fits all three.",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">Giá trị lớn nhất</b> \\(2\\), nhỏ nhất \\(-4\\); tại \\(x=0\\) giá trị là \\(2\\). Chỉ \\(y=-1+3\\cos x\\) thỏa mãn cả ba điều này.",
+   "images": [
+    "img/tex/2a5d41c2d3776902.svg"
+   ],
+   "id": "26061d1a4717",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The figure shows the graphs of \\(y=\\sin x\\) and \\(y=-\\dfrac{\\sqrt#}{#}\\) on \\([#;\\,#\\pi]\\). The \\(x\\)-coordinates of their common points are…",
+   "en": "The figure shows the graphs of \\(y=\\sin x\\) and \\(y=-\\dfrac{\\sqrt2}{2}\\) on \\([0;\\,2\\pi]\\). The \\(x\\)-coordinates of their common points are…<img src=\"../../../img/tex/c8744e78cee44bfe.svg\" alt=\"Two graphs and their common points\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,440px);height:auto\">",
+   "vi": "Hình vẽ là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> của \\(y=\\sin x\\) và \\(y=-\\dfrac{\\sqrt2}{2}\\) trên \\([0;\\,2\\pi]\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"abscissa\">Hoành độ</b> các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersection point\">giao điểm</b> là…<img src=\"../../../img/tex/c8744e78cee44bfe.svg\" alt=\"Hai đồ thị và các giao điểm\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,440px);height:auto\">",
+   "options": [
+    "\\(x=\\dfrac{2\\pi}{3},\\ x=\\dfrac{4\\pi}{3}\\)",
+    "\\(x=\\dfrac{\\pi}{6},\\ x=\\dfrac{5\\pi}{6}\\)",
+    "\\(x=\\dfrac{7\\pi}{6},\\ x=\\dfrac{11\\pi}{6}\\)",
+    "\\(x=\\dfrac{5\\pi}{4},\\ x=\\dfrac{7\\pi}{4}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Solve \\(\\sin x=-\\dfrac{\\sqrt2}{2}\\) on \\([0;\\,2\\pi]\\): \\(x=\\dfrac{5\\pi}{4},\\ x=\\dfrac{7\\pi}{4}\\).",
+   "explain_vi": "Đáp án d. Giải \\(\\sin x=-\\dfrac{\\sqrt2}{2}\\) trên \\([0;\\,2\\pi]\\): \\(x=\\dfrac{5\\pi}{4},\\ x=\\dfrac{7\\pi}{4}\\).",
+   "images": [
+    "img/tex/c8744e78cee44bfe.svg"
+   ],
+   "id": "37eb5470ea82",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The figure shows the water depth \\(h\\) (m) at a harbour \\(t\\) hours after midnight, \\(h=#+#\\cos\\dfrac{\\pi t}{#}\\). In the first # hours \\((#\\lt t\\lt#)\\), when is the water lowest?",
+   "en": "The figure shows the water depth \\(h\\) (m) at a harbour \\(t\\) hours after midnight, \\(h=8+2\\cos\\dfrac{\\pi t}{6}\\). In the first 12 hours \\((0\\lt t\\lt12)\\), when is the water lowest?<img src=\"../../../img/tex/faf52e05b1d5a5d4.svg\" alt=\"Water depth over time\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,440px);height:auto\">",
+   "vi": "Hình vẽ biểu diễn độ sâu \\(h\\) (m) của mực nước ở một cảng sau \\(t\\) giờ kể từ 0 giờ, \\(h=8+2\\cos\\dfrac{\\pi t}{6}\\). Trong 12 giờ đầu \\((0\\lt t\\lt12)\\), mực nước thấp nhất lúc mấy giờ?<img src=\"../../../img/tex/faf52e05b1d5a5d4.svg\" alt=\"Độ sâu mực nước theo thời gian\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,440px);height:auto\">",
+   "options": [
+    "\\(3\\)",
+    "\\(6\\)",
+    "\\(12\\)",
+    "\\(9\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. The lowest value \\(6\\) m is reached when \\(\\cos\\dfrac{\\pi t}{6}=-1\\), i.e. \\(t=6\\).",
+   "explain_vi": "Đáp án b. Giá trị thấp nhất \\(6\\) m đạt được khi \\(\\cos\\dfrac{\\pi t}{6}=-1\\), tức \\(t=6\\).",
+   "images": [
+    "img/tex/faf52e05b1d5a5d4.svg"
+   ],
+   "id": "c1f1df6c3aa3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The graph of \\(y=\\cos \\left(x-\\dfrac{\\pi}{#}\\right)\\) is obtained from the graph of \\(y=\\cos x\\) by which translation?",
+   "en": "The graph of \\(y=\\cos \\left(x-\\dfrac{\\pi}{6}\\right)\\) is obtained from the graph of \\(y=\\cos x\\) by which translation?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">Đồ thị hàm số</b> \\(y=\\cos \\left(x-\\dfrac{\\pi}{6}\\right)\\) nhận được từ <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">đồ thị hàm số</b> \\(y=\\cos x\\) bằng phép tịnh tiến nào?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">Translate to the left by \\(\\dfrac{\\pi}{6}\\)</span><span class=\"vi\">Tịnh tiến sang trái \\(\\dfrac{\\pi}{6}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Translate upward by \\(\\dfrac{\\pi}{6}\\)</span><span class=\"vi\">Tịnh tiến lên trên \\(\\dfrac{\\pi}{6}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Translate downward by \\(\\dfrac{\\pi}{6}\\)</span><span class=\"vi\">Tịnh tiến xuống dưới \\(\\dfrac{\\pi}{6}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Translate to the right by \\(\\dfrac{\\pi}{6}\\)</span><span class=\"vi\">Tịnh tiến sang phải \\(\\dfrac{\\pi}{6}\\)</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(y=f(x+a)\\) moves the graph left by \\(a\\) \\((a\\gt0)\\), \\(y=f(x-a)\\) right; \\(y=f(x)\\pm b\\) moves it up/down.",
+   "explain_vi": "Đáp án d. \\(y=f(x+a)\\) dời <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> sang trái \\(a\\) \\((a\\gt0)\\), \\(y=f(x-a)\\) sang phải; \\(y=f(x)\\pm b\\) dời lên/xuống.",
+   "images": [],
+   "id": "e0889afcee38",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The graph of a periodic function \\(y=f(x)\\) is shown. Its period is…",
+   "en": "The graph of a periodic function \\(y=f(x)\\) is shown. Its period is…<img src=\"../../../img/tex/bf242ecdc10bf325.svg\" alt=\"Graph of a periodic function\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,440px);height:auto\">",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"periodic function\">hàm số tuần hoàn</b> \\(y=f(x)\\) như hình vẽ. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"period\">Chu kì</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> là…<img src=\"../../../img/tex/bf242ecdc10bf325.svg\" alt=\"Đồ thị hàm số tuần hoàn\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,440px);height:auto\">",
+   "options": [
+    "\\(\\dfrac{3\\pi}{2}\\)",
+    "\\(2\\pi\\)",
+    "\\(\\pi\\)",
+    "\\(\\dfrac{\\pi}{2}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The graph repeats after every \\(\\pi\\) (from one peak to the next).",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">Đồ thị</b> lặp lại sau mỗi đoạn dài \\(\\pi\\) (từ một đỉnh đến đỉnh kế tiếp).",
+   "images": [
+    "img/tex/bf242ecdc10bf325.svg"
+   ],
+   "id": "c8ee14ec999c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The height of a seat on a Ferris wheel is \\(h(t)=#-#\\cos\\dfrac{#\\pi t}{#}\\) (m), \\(t\\) in minutes. Find the height at \\(t=#\\).",
+   "en": "The height of a seat on a Ferris wheel is \\(h(t)=22-20\\cos\\dfrac{2\\pi t}{18}\\) (m), \\(t\\) in minutes. Find the height at \\(t=3\\).",
+   "vi": "Độ cao của một ca bin vòng quay là \\(h(t)=22-20\\cos\\dfrac{2\\pi t}{18}\\) (m), \\(t\\) tính bằng phút. Tính độ cao tại \\(t=3\\).",
+   "options": [
+    "\\(12\\)",
+    "\\(42\\)",
+    "\\(22\\)",
+    "\\(32\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\dfrac{2\\pi\\cdot3}{18}=\\dfrac{\\pi}{3}\\), \\(\\cos\\dfrac{\\pi}{3}=\\dfrac12\\), so \\(h=12\\) m.",
+   "explain_vi": "Đáp án a. \\(\\dfrac{2\\pi\\cdot3}{18}=\\dfrac{\\pi}{3}\\), \\(\\cos\\dfrac{\\pi}{3}=\\dfrac12\\) nên \\(h=12\\) m.",
+   "images": [],
+   "id": "cff57d227a79",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "What is the maximum value of \\(y=#\\sin x\\)?",
+   "en": "What is the maximum value of \\(y=3\\sin x\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">Giá trị lớn nhất</b> của \\(y=3\\sin x\\) là bao nhiêu?",
+   "options": [
+    "\\(1\\)",
+    "\\(3\\)",
+    "\\(-3\\)",
+    "\\(6\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\sin x\\le 1\\), so \\(3\\sin x\\le 3\\).",
+   "explain_vi": "Đáp án b. \\(\\sin x\\le 1\\) nên \\(3\\sin x\\le 3\\).",
+   "images": [],
+   "id": "7bebbef80fda",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "What is the maximum value of \\(y=#-\\cos x\\)?",
+   "en": "What is the maximum value of \\(y=2-\\cos x\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">Giá trị lớn nhất</b> của \\(y=2-\\cos x\\) là bao nhiêu?",
+   "options": [
+    "\\(1\\)",
+    "\\(2\\)",
+    "\\(3\\)",
+    "\\(-1\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The greatest value happens when \\(\\cos x=-1\\): \\(2-(-1)=3\\).",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">Giá trị lớn nhất</b> đạt khi \\(\\cos x=-1\\): \\(2-(-1)=3\\).",
+   "images": [],
+   "id": "c6171772e498",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "What is the maximum value of \\(y=#-#\\sin x\\)?",
+   "en": "What is the maximum value of \\(y=3-2\\sin x\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">Giá trị lớn nhất</b> của \\(y=3-2\\sin x\\) là bao nhiêu?",
+   "options": [
+    "\\(1\\)",
+    "\\(3\\)",
+    "\\(5\\)",
+    "\\(-1\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The greatest value happens when \\(\\sin x=-1\\): \\(3+2=5\\).",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">Giá trị lớn nhất</b> đạt khi \\(\\sin x=-1\\): \\(3+2=5\\).",
+   "images": [],
+   "id": "b9aed0a17f38",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  }
+ ]
+}

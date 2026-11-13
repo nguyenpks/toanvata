@@ -1,0 +1,1029 @@
+{
+ "lesson": "g10-prob-01",
+ "grade": 10,
+ "no": 26,
+ "title": "Biến cố và định nghĩa cổ điển của xác suất",
+ "path": "lessons/grade10/probability/classical-probability.html",
+ "items": [
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "# coins are tossed. \\(P(\\text{exactly # heads})=\\)…",
+   "en": "3 coins are tossed. \\(P(\\text{exactly 2 heads})=\\)…",
+   "vi": "Gieo 3 đồng xu. Xác suất có đúng 2 mặt sấp là…",
+   "options": [
+    "\\(\\dfrac{1}{8}\\)",
+    "\\(\\dfrac{2}{3}\\)",
+    "\\(\\dfrac{3}{8}\\)",
+    "\\(\\dfrac{1}{4}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(C_{3}^{2}/2^{3}\\).",
+   "explain_vi": "Đáp án c. \\(\\dfrac{C_{3}^{2}}{2^{3}}\\).",
+   "images": [],
+   "id": "178f40d19193",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "A box has # white and # black balls; two are drawn. \\(P(\\text{both black})=\\)…",
+   "en": "A box has 4 white and 5 black balls; two are drawn. \\(P(\\text{both black})=\\)…",
+   "vi": "Hộp có 4 cầu trắng, 5 cầu đen; lấy ngẫu nhiên 2 quả. Xác suất cả hai đều đen là…",
+   "options": [
+    "\\(\\dfrac{25}{81}\\)",
+    "\\(\\dfrac{5}{9}\\)",
+    "\\(\\dfrac{5}{18}\\)",
+    "\\(\\dfrac{1}{6}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\dfrac{C_{5}^2}{C_{9}^2}\\).",
+   "explain_vi": "Đáp án c. \\(\\dfrac{C_{5}^2}{C_{9}^2}\\).",
+   "images": [],
+   "id": "b18113c1ec95",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Two dice are rolled. \\(P(\\text{sum}=#)=\\)…",
+   "en": "Two dice are rolled. \\(P(\\text{sum}=8)=\\)…",
+   "vi": "Gieo hai con xúc xắc. \\(P(\\text{tổng}=8)\\) bằng…",
+   "options": [
+    "\\(\\dfrac{5}{36}\\)",
+    "\\(\\dfrac{1}{11}\\)",
+    "\\(\\dfrac{1}{6}\\)",
+    "\\(\\dfrac{5}{6}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. 5 favourable outcomes.",
+   "explain_vi": "Đáp án a. Có 5 kết quả thuận lợi trên 36.",
+   "images": [],
+   "id": "b7de04e3a947",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "A box has # red and # green balls. One is drawn. \\(P(\\text{not red})=\\dfrac{#}{#}\\).",
+   "en": "A box has 3 red and 7 green balls. One is drawn. \\(P(\\text{not red})=\\dfrac{7}{10}\\).",
+   "vi": "Hộp có 3 cầu đỏ và 7 cầu xanh. Lấy ngẫu nhiên 1 quả. Xác suất không lấy được quả đỏ là \\(\\dfrac{7}{10}\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "\\(1-\\dfrac{3}{10}=\\dfrac{7}{10}\\).",
+   "explain_vi": "\\(P(\\overline A)=1-\\dfrac{3}{10}=\\dfrac{7}{10}\\).",
+   "images": [],
+   "id": "3ede26cba5e7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "Two dice: P(both show the same number) = #/#.",
+   "en": "Two dice: P(both show the same number) = 1/6.",
+   "vi": "Gieo hai con xúc xắc: xác suất hai mặt có cùng số chấm bằng \\(\\dfrac16\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "Use the 36-cell table.",
+   "explain_vi": "Dùng bảng 36 ô.",
+   "images": [],
+   "id": "ff3bacc98dde",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "In a #/# lottery, how many tickets match exactly # of the # winning numbers?",
+   "en": "In a 5/35 lottery, how many tickets match exactly 4 of the 5 winning numbers?",
+   "vi": "Trong xổ số 5/35, có bao nhiêu vé trùng đúng 4 trong 5 số trúng thưởng?",
+   "options": [],
+   "answer": "150",
+   "explain_en": "Choose the matching numbers, then the others.",
+   "explain_vi": "Chọn các số trùng, rồi chọn các số còn lại.",
+   "images": [],
+   "id": "a73be1c9b511",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "Two students are chosen from # for a duty. How many elements does the sample space have?",
+   "en": "Two students are chosen from 10 for a duty. How many elements does the sample space have?",
+   "vi": "Chọn 2 trong 10 học sinh đi trực. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sample space\">Không gian mẫu</b> có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"element\">phần tử</b>?",
+   "options": [],
+   "answer": "45",
+   "explain_en": "Rule of product / combinations.",
+   "explain_vi": "Dùng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"rule of product\">quy tắc nhân</b> hoặc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"combination\">tổ hợp</b>.",
+   "images": [],
+   "id": "442114a6783a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "# fair coins are tossed. The probability of exactly # heads is…",
+   "en": "3 fair coins are tossed. The probability of exactly 1 heads is…",
+   "vi": "Gieo 3 đồng xu cân đối. Xác suất có đúng 1 mặt sấp là…",
+   "options": [
+    "\\(\\dfrac{1}{4}\\)",
+    "\\(\\dfrac{3}{8}\\)",
+    "\\(\\dfrac{1}{8}\\)",
+    "\\(\\dfrac{1}{3}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(n(\\Omega)=2^3\\); choose the positions of the heads: \\(C_{3}^{1}\\).",
+   "explain_vi": "Đáp án b. \\(n(\\Omega)=2^3=8\\); số kết quả thuận lợi \\(C_{3}^{1}=3\\).",
+   "images": [],
+   "id": "8bcdd79fbab7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "A box has # red, # blue and # green balls. One ball is drawn at random. P(the ball is not red) =…",
+   "en": "A box has 7 red, 9 blue and 1 green balls. One ball is drawn at random. P(the ball is not red) =…",
+   "vi": "Một hộp có 7 quả cầu đỏ, 9 quả xanh dương và 1 quả xanh lá. Lấy ngẫu nhiên một quả. Xác suất lấy được quả không phải màu đỏ là…",
+   "options": [
+    "\\(\\dfrac{7}{17}\\)",
+    "\\(\\dfrac{10}{7}\\)",
+    "\\(\\dfrac{10}{17}\\)",
+    "\\(\\dfrac{9}{17}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\dfrac{9+1}{17}\\).",
+   "explain_vi": "Đáp án c. \\(n(\\Omega)=17\\), thuận lợi \\(9+1=10\\).",
+   "images": [],
+   "id": "a173609b1251",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "A box has # white and # black balls. Two balls are drawn at random. P(both are white) =…",
+   "en": "A box has 3 white and 6 black balls. Two balls are drawn at random. P(both are white) =…",
+   "vi": "Một hộp có 3 quả cầu trắng và 6 quả cầu đen. Lấy ngẫu nhiên hai quả. Xác suất cả hai quả đều trắng là…",
+   "options": [
+    "\\(\\dfrac{1}{27}\\)",
+    "\\(\\dfrac{1}{9}\\)",
+    "\\(\\dfrac{1}{12}\\)",
+    "\\(\\dfrac{1}{3}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\dfrac{C_{3}^2}{C_{9}^2}\\).",
+   "explain_vi": "Đáp án c. \\(n(\\Omega)=C_{9}^2=36\\); thuận lợi \\(C_{3}^2=3\\).",
+   "images": [],
+   "id": "df3e0854b3f1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "A coin is tossed twice and a die is rolled once. The number of elements of the sample space is…",
+   "en": "A coin is tossed twice and a die is rolled once. The number of elements of the sample space is…",
+   "vi": "Gieo một đồng xu hai lần và một con xúc xắc một lần. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"number of elements\">Số phần tử</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sample space\">không gian mẫu</b> là…",
+   "options": [
+    "\\(12\\)",
+    "\\(24\\)",
+    "\\(8\\)",
+    "\\(36\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Rule of product.",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"rule of product\">Quy tắc nhân</b>: \\(n(\\Omega)=24\\).",
+   "images": [],
+   "id": "dac53d9a93c5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "A number is chosen at random from \\(#,\\dots,#\\). P(it is divisible by #) =…",
+   "en": "A number is chosen at random from \\(1,2,\\dots,20\\). P(it is divisible by 6) =…",
+   "vi": "Chọn ngẫu nhiên một số trong các số \\(1,2,\\dots,20\\). Xác suất số đó chia hết cho 6 là…",
+   "options": [
+    "\\(\\dfrac{3}{20}\\)",
+    "\\(\\dfrac{3}{10}\\)",
+    "\\(\\dfrac{1}{6}\\)",
+    "\\(\\dfrac{1}{5}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. There are \\(\\lfloor \\dfrac{20}{6}\\rfloor=3\\) multiples.",
+   "explain_vi": "Đáp án a. Có 3 bội của 6 trong \\([1;20]\\).",
+   "images": [],
+   "id": "21bbde09e8bd",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Choose # students at random from # boys and # girls. P(exactly # boys and # girl) =…",
+   "en": "Choose 3 students at random from 5 boys and 6 girls. P(exactly 2 boys and 1 girl) =…",
+   "vi": "Chọn ngẫu nhiên 3 học sinh từ 5 nam và 6 nữ. Xác suất chọn được đúng 2 nam và 1 nữ là…",
+   "options": [
+    "\\(\\dfrac{5}{11}\\)",
+    "\\(\\dfrac{2}{33}\\)",
+    "\\(\\dfrac{16}{165}\\)",
+    "\\(\\dfrac{4}{11}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\dfrac{C_{5}^2\\cdot C_{6}^1}{C_{11}^3}\\).",
+   "explain_vi": "Đáp án d. \\(\\dfrac{C_{5}^2\\cdot6}{C_{11}^3}=\\dfrac{60}{165}\\).",
+   "images": [],
+   "id": "4ea55054d473",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "From # boys and # girls, # students are chosen at random. P(at least one girl) =…",
+   "en": "From 5 boys and 4 girls, 3 students are chosen at random. P(at least one girl) =…",
+   "vi": "Chọn ngẫu nhiên 3 học sinh từ 5 nam và 4 nữ. Xác suất chọn được <b class=\"mbl-term\" tabindex=\"0\" data-en=\"at least one\">ít nhất một</b> nữ là…",
+   "options": [
+    "\\(\\dfrac{5}{42}\\)",
+    "\\(\\dfrac{4}{9}\\)",
+    "\\(\\dfrac{37}{42}\\)",
+    "\\(\\dfrac{604}{729}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Complement: all boys, \\(\\dfrac{C_{5}^{3}}{C_{9}^{3}}\\).",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"complementary event\">Biến cố đối</b> \"toàn nam\": \\(\\dfrac{C_{5}^{3}}{C_{9}^{3}}\\); lấy 1 trừ đi.",
+   "images": [],
+   "id": "1f6a4df2a81b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Two fair dice are rolled. The probability that the sum is # is…",
+   "en": "Two fair dice are rolled. The probability that the sum is 6 is…",
+   "vi": "Gieo hai con xúc xắc cân đối. Xác suất để tổng số chấm bằng 6 là…",
+   "options": [
+    "\\(\\dfrac{1}{11}\\)",
+    "\\(\\dfrac{5}{36}\\)",
+    "\\(\\dfrac{5}{6}\\)",
+    "\\(\\dfrac{1}{6}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(n(\\Omega)=36\\); favourable outcomes: 5.",
+   "explain_vi": "Đáp án b. \\(n(\\Omega)=36\\); các kết quả thuận lợi: (1,5), (2,4), (3,3), (4,2), (5,1) – có 5 kết quả.",
+   "images": [],
+   "id": "490ec313b425",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "# coins are tossed. \\(P(\\text{exactly # heads})=\\)…",
+   "en": "4 coins are tossed. \\(P(\\text{exactly 3 heads})=\\)…",
+   "vi": "Gieo 4 đồng xu. Xác suất có đúng 3 mặt sấp là…",
+   "options": [
+    "\\(\\dfrac{1}{16}\\)",
+    "\\(\\dfrac{3}{4}\\)",
+    "\\(\\dfrac{1}{4}\\)",
+    "\\(\\dfrac{1}{5}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(C_{4}^{3}/2^{4}\\).",
+   "explain_vi": "Đáp án c. \\(\\dfrac{C_{4}^{3}}{2^{4}}\\).",
+   "images": [],
+   "id": "c4489b875157",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "A box has # white and # black balls; two are drawn. \\(P(\\text{both black})=\\)…",
+   "en": "A box has 6 white and 3 black balls; two are drawn. \\(P(\\text{both black})=\\)…",
+   "vi": "Hộp có 6 cầu trắng, 3 cầu đen; lấy ngẫu nhiên 2 quả. Xác suất cả hai đều đen là…",
+   "options": [
+    "\\(\\dfrac{1}{9}\\)",
+    "\\(\\dfrac{1}{3}\\)",
+    "\\(\\dfrac{1}{12}\\)",
+    "\\(\\dfrac{5}{12}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\dfrac{C_{3}^2}{C_{9}^2}\\).",
+   "explain_vi": "Đáp án c. \\(\\dfrac{C_{3}^2}{C_{9}^2}\\).",
+   "images": [],
+   "id": "387280069454",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Two dice are rolled. \\(P(\\text{sum}=#)=\\)…",
+   "en": "Two dice are rolled. \\(P(\\text{sum}=5)=\\)…",
+   "vi": "Gieo hai con xúc xắc. \\(P(\\text{tổng}=5)\\) bằng…",
+   "options": [
+    "\\(\\dfrac{1}{11}\\)",
+    "\\(\\dfrac{5}{36}\\)",
+    "\\(\\dfrac{2}{3}\\)",
+    "\\(\\dfrac{1}{9}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. 4 favourable outcomes.",
+   "explain_vi": "Đáp án d. Có 4 kết quả thuận lợi trên 36.",
+   "images": [],
+   "id": "2183bd78e2c0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "A box has # red and # green balls. One is drawn. \\(P(\\text{not red})=\\dfrac{#}{#}\\).",
+   "en": "A box has 5 red and 3 green balls. One is drawn. \\(P(\\text{not red})=\\dfrac{5}{8}\\).",
+   "vi": "Hộp có 5 cầu đỏ và 3 cầu xanh. Lấy ngẫu nhiên 1 quả. Xác suất không lấy được quả đỏ là \\(\\dfrac{5}{8}\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "\\(1-\\dfrac{5}{8}=\\dfrac{3}{8}\\).",
+   "explain_vi": "\\(P(\\overline A)=1-\\dfrac{5}{8}=\\dfrac{3}{8}\\).",
+   "images": [],
+   "id": "e97daec4bb9b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "Two dice: P(the sum is odd) = #/#.",
+   "en": "Two dice: P(the sum is odd) = 1/3.",
+   "vi": "Gieo hai con xúc xắc: xác suất tổng số chấm là số lẻ bằng \\(\\dfrac13\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "Use the 36-cell table.",
+   "explain_vi": "Dùng bảng 36 ô.",
+   "images": [],
+   "id": "7d6a71ef262d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "In Mega #/#, how many tickets match exactly # of the # winning numbers?",
+   "en": "In Mega 6/45, how many tickets match exactly 5 of the 6 winning numbers?",
+   "vi": "Trong Mega 6/45, có bao nhiêu vé trùng đúng 5 trong 6 số trúng thưởng?",
+   "options": [],
+   "answer": "234",
+   "explain_en": "Choose the matching numbers, then the others.",
+   "explain_vi": "Chọn các số trùng, rồi chọn các số còn lại.",
+   "images": [],
+   "id": "ce7cdcb62eb7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "Three coins are tossed and a die is rolled. How many elements does the sample space have?",
+   "en": "Three coins are tossed and a die is rolled. How many elements does the sample space have?",
+   "vi": "Gieo ba đồng xu và một con xúc xắc. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sample space\">Không gian mẫu</b> có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"element\">phần tử</b>?",
+   "options": [],
+   "answer": "48",
+   "explain_en": "Rule of product / combinations.",
+   "explain_vi": "Dùng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"rule of product\">quy tắc nhân</b> hoặc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"combination\">tổ hợp</b>.",
+   "images": [],
+   "id": "530aa277e7b0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "# fair coins are tossed. The probability of exactly # heads is…",
+   "en": "3 fair coins are tossed. The probability of exactly 2 heads is…",
+   "vi": "Gieo 3 đồng xu cân đối. Xác suất có đúng 2 mặt sấp là…",
+   "options": [
+    "\\(\\dfrac{1}{4}\\)",
+    "\\(\\dfrac{2}{3}\\)",
+    "\\(\\dfrac{1}{8}\\)",
+    "\\(\\dfrac{3}{8}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(n(\\Omega)=2^3\\); choose the positions of the heads: \\(C_{3}^{2}\\).",
+   "explain_vi": "Đáp án d. \\(n(\\Omega)=2^3=8\\); số kết quả thuận lợi \\(C_{3}^{2}=3\\).",
+   "images": [],
+   "id": "0249318b47e5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "A box has # red, # blue and # green balls. One ball is drawn at random. P(the ball is not red) =…",
+   "en": "A box has 9 red, 2 blue and 5 green balls. One ball is drawn at random. P(the ball is not red) =…",
+   "vi": "Một hộp có 9 quả cầu đỏ, 2 quả xanh dương và 5 quả xanh lá. Lấy ngẫu nhiên một quả. Xác suất lấy được quả không phải màu đỏ là…",
+   "options": [
+    "\\(\\dfrac{9}{16}\\)",
+    "\\(\\dfrac{7}{9}\\)",
+    "\\(\\dfrac{7}{16}\\)",
+    "\\(\\dfrac{1}{8}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\dfrac{2+5}{16}\\).",
+   "explain_vi": "Đáp án c. \\(n(\\Omega)=16\\), thuận lợi \\(2+5=7\\).",
+   "images": [],
+   "id": "f3c29dd7326b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "A box has # white and # black balls. Two balls are drawn at random. P(both are white) =…",
+   "en": "A box has 6 white and 8 black balls. Two balls are drawn at random. P(both are white) =…",
+   "vi": "Một hộp có 6 quả cầu trắng và 8 quả cầu đen. Lấy ngẫu nhiên hai quả. Xác suất cả hai quả đều trắng là…",
+   "options": [
+    "\\(\\dfrac{15}{91}\\)",
+    "\\(\\dfrac{3}{7}\\)",
+    "\\(\\dfrac{15}{196}\\)",
+    "\\(\\dfrac{9}{49}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\dfrac{C_{6}^2}{C_{14}^2}\\).",
+   "explain_vi": "Đáp án a. \\(n(\\Omega)=C_{14}^2=91\\); thuận lợi \\(C_{6}^2=15\\).",
+   "images": [],
+   "id": "a8d74869791b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "A number is chosen at random from \\(#,\\dots,#\\). P(it is divisible by #) =…",
+   "en": "A number is chosen at random from \\(1,2,\\dots,100\\). P(it is divisible by 6) =…",
+   "vi": "Chọn ngẫu nhiên một số trong các số \\(1,2,\\dots,100\\). Xác suất số đó chia hết cho 6 là…",
+   "options": [
+    "\\(\\dfrac{1}{6}\\)",
+    "\\(\\dfrac{17}{100}\\)",
+    "\\(\\dfrac{3}{50}\\)",
+    "\\(\\dfrac{4}{25}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. There are \\(\\lfloor \\dfrac{100}{6}\\rfloor=16\\) multiples.",
+   "explain_vi": "Đáp án d. Có 16 bội của 6 trong \\([1;100]\\).",
+   "images": [],
+   "id": "7c671bfd04de",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Choose # students at random from # boys and # girls. P(exactly # boys and # girl) =…",
+   "en": "Choose 3 students at random from 4 boys and 6 girls. P(exactly 2 boys and 1 girl) =…",
+   "vi": "Chọn ngẫu nhiên 3 học sinh từ 4 nam và 6 nữ. Xác suất chọn được đúng 2 nam và 1 nữ là…",
+   "options": [
+    "\\(\\dfrac{1}{10}\\)",
+    "\\(\\dfrac{1}{2}\\)",
+    "\\(\\dfrac{3}{10}\\)",
+    "\\(\\dfrac{1}{20}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\dfrac{C_{4}^2\\cdot C_{6}^1}{C_{10}^3}\\).",
+   "explain_vi": "Đáp án c. \\(\\dfrac{C_{4}^2\\cdot6}{C_{10}^3}=\\dfrac{36}{120}\\).",
+   "images": [],
+   "id": "44093ed037f3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "From # boys and # girls, # students are chosen at random. P(at least one girl) =…",
+   "en": "From 6 boys and 4 girls, 3 students are chosen at random. P(at least one girl) =…",
+   "vi": "Chọn ngẫu nhiên 3 học sinh từ 6 nam và 4 nữ. Xác suất chọn được <b class=\"mbl-term\" tabindex=\"0\" data-en=\"at least one\">ít nhất một</b> nữ là…",
+   "options": [
+    "\\(\\dfrac{1}{6}\\)",
+    "\\(\\dfrac{5}{6}\\)",
+    "\\(\\dfrac{2}{5}\\)",
+    "\\(\\dfrac{98}{125}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Complement: all boys, \\(\\dfrac{C_{6}^{3}}{C_{10}^{3}}\\).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"complementary event\">Biến cố đối</b> \"toàn nam\": \\(\\dfrac{C_{6}^{3}}{C_{10}^{3}}\\); lấy 1 trừ đi.",
+   "images": [],
+   "id": "b9e801d8440c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Two dice are rolled. The number of elements of the sample space is…",
+   "en": "Two dice are rolled. The number of elements of the sample space is…",
+   "vi": "Gieo hai con xúc xắc. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"number of elements\">Số phần tử</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sample space\">không gian mẫu</b> là…",
+   "options": [
+    "\\(36\\)",
+    "\\(24\\)",
+    "\\(8\\)",
+    "\\(12\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Rule of product.",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"rule of product\">Quy tắc nhân</b>: \\(n(\\Omega)=36\\).",
+   "images": [],
+   "id": "65f5417d4f7c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Two fair dice are rolled. The probability that the sum is # is…",
+   "en": "Two fair dice are rolled. The probability that the sum is 9 is…",
+   "vi": "Gieo hai con xúc xắc cân đối. Xác suất để tổng số chấm bằng 9 là…",
+   "options": [
+    "\\(\\dfrac{5}{36}\\)",
+    "\\(\\dfrac{1}{9}\\)",
+    "\\(\\dfrac{2}{3}\\)",
+    "\\(\\dfrac{1}{11}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(n(\\Omega)=36\\); favourable outcomes: 4.",
+   "explain_vi": "Đáp án b. \\(n(\\Omega)=36\\); các kết quả thuận lợi: (3,6), (4,5), (5,4), (6,3) – có 4 kết quả.",
+   "images": [],
+   "id": "7d192209b5f2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "# coins are tossed. \\(P(\\text{exactly # heads})=\\)…",
+   "en": "4 coins are tossed. \\(P(\\text{exactly 2 heads})=\\)…",
+   "vi": "Gieo 4 đồng xu. Xác suất có đúng 2 mặt sấp là…",
+   "options": [
+    "\\(\\dfrac{1}{16}\\)",
+    "\\(\\dfrac{1}{2}\\)",
+    "\\(\\dfrac{3}{8}\\)",
+    "\\(\\dfrac{1}{5}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(C_{4}^{2}/2^{4}\\).",
+   "explain_vi": "Đáp án c. \\(\\dfrac{C_{4}^{2}}{2^{4}}\\).",
+   "images": [],
+   "id": "869e14945a7d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "A box has # white and # black balls; two are drawn. \\(P(\\text{both black})=\\)…",
+   "en": "A box has 3 white and 7 black balls; two are drawn. \\(P(\\text{both black})=\\)…",
+   "vi": "Hộp có 3 cầu trắng, 7 cầu đen; lấy ngẫu nhiên 2 quả. Xác suất cả hai đều đen là…",
+   "options": [
+    "\\(\\dfrac{49}{100}\\)",
+    "\\(\\dfrac{7}{10}\\)",
+    "\\(\\dfrac{7}{15}\\)",
+    "\\(\\dfrac{1}{15}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\dfrac{C_{7}^2}{C_{10}^2}\\).",
+   "explain_vi": "Đáp án c. \\(\\dfrac{C_{7}^2}{C_{10}^2}\\).",
+   "images": [],
+   "id": "f2e733d69ac8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Two dice are rolled. \\(P(\\text{sum}=#)=\\)…",
+   "en": "Two dice are rolled. \\(P(\\text{sum}=10)=\\)…",
+   "vi": "Gieo hai con xúc xắc. \\(P(\\text{tổng}=10)\\) bằng…",
+   "options": [
+    "\\(\\dfrac{1}{12}\\)",
+    "\\(\\dfrac{1}{11}\\)",
+    "\\(\\dfrac{1}{9}\\)",
+    "\\(\\dfrac{1}{2}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. 3 favourable outcomes.",
+   "explain_vi": "Đáp án a. Có 3 kết quả thuận lợi trên 36.",
+   "images": [],
+   "id": "b57079d0b94a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "A box has # red and # green balls. One is drawn. \\(P(\\text{not red})=\\dfrac{#}{#}\\).",
+   "en": "A box has 2 red and 6 green balls. One is drawn. \\(P(\\text{not red})=\\dfrac{3}{4}\\).",
+   "vi": "Hộp có 2 cầu đỏ và 6 cầu xanh. Lấy ngẫu nhiên 1 quả. Xác suất không lấy được quả đỏ là \\(\\dfrac{3}{4}\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "\\(1-\\dfrac{2}{8}=\\dfrac{3}{4}\\).",
+   "explain_vi": "\\(P(\\overline A)=1-\\dfrac{2}{8}=\\dfrac{3}{4}\\).",
+   "images": [],
+   "id": "c3df387a2129",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "Two dice: P(at least one six) = #/#.",
+   "en": "Two dice: P(at least one six) = 11/36.",
+   "vi": "Gieo hai con xúc xắc: xác suất có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"at least one\">ít nhất một</b> mặt 6 chấm bằng \\(\\dfrac{11}{36}\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "Use the 36-cell table.",
+   "explain_vi": "Dùng bảng 36 ô.",
+   "images": [],
+   "id": "8e3bc1526051",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "In a #/# lottery, how many tickets match exactly # of the # winning numbers?",
+   "en": "In a 5/35 lottery, how many tickets match exactly 3 of the 5 winning numbers?",
+   "vi": "Trong xổ số 5/35, có bao nhiêu vé trùng đúng 3 trong 5 số trúng thưởng?",
+   "options": [],
+   "answer": "4350",
+   "explain_en": "Choose the matching numbers, then the others.",
+   "explain_vi": "Chọn các số trùng, rồi chọn các số còn lại.",
+   "images": [],
+   "id": "729b4872d2b3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Three dice are rolled. How many elements does the sample space have?",
+   "en": "Three dice are rolled. How many elements does the sample space have?",
+   "vi": "Gieo ba con xúc xắc. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sample space\">Không gian mẫu</b> có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"element\">phần tử</b>?",
+   "options": [],
+   "answer": "216",
+   "explain_en": "Rule of product / combinations.",
+   "explain_vi": "Dùng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"rule of product\">quy tắc nhân</b> hoặc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"combination\">tổ hợp</b>.",
+   "images": [],
+   "id": "04b8c4d63b0a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "# fair coins are tossed. The probability of exactly # heads is…",
+   "en": "4 fair coins are tossed. The probability of exactly 1 heads is…",
+   "vi": "Gieo 4 đồng xu cân đối. Xác suất có đúng 1 mặt sấp là…",
+   "options": [
+    "\\(\\dfrac{1}{5}\\)",
+    "\\(\\dfrac{1}{4}\\)",
+    "\\(\\dfrac{1}{16}\\)",
+    "\\(\\dfrac{5}{16}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(n(\\Omega)=2^4\\); choose the positions of the heads: \\(C_{4}^{1}\\).",
+   "explain_vi": "Đáp án b. \\(n(\\Omega)=2^4=16\\); số kết quả thuận lợi \\(C_{4}^{1}=4\\).",
+   "images": [],
+   "id": "8f383ee98345",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "A box has # red, # blue and # green balls. One ball is drawn at random. P(the ball is not red) =…",
+   "en": "A box has 6 red, 2 blue and 5 green balls. One ball is drawn at random. P(the ball is not red) =…",
+   "vi": "Một hộp có 6 quả cầu đỏ, 2 quả xanh dương và 5 quả xanh lá. Lấy ngẫu nhiên một quả. Xác suất lấy được quả không phải màu đỏ là…",
+   "options": [
+    "\\(\\dfrac{7}{6}\\)",
+    "\\(\\dfrac{6}{13}\\)",
+    "\\(\\dfrac{2}{13}\\)",
+    "\\(\\dfrac{7}{13}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\dfrac{2+5}{13}\\).",
+   "explain_vi": "Đáp án d. \\(n(\\Omega)=13\\), thuận lợi \\(2+5=7\\).",
+   "images": [],
+   "id": "d3fa2b4e72cb",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "A box has # white and # black balls. Two balls are drawn at random. P(both are white) =…",
+   "en": "A box has 4 white and 6 black balls. Two balls are drawn at random. P(both are white) =…",
+   "vi": "Một hộp có 4 quả cầu trắng và 6 quả cầu đen. Lấy ngẫu nhiên hai quả. Xác suất cả hai quả đều trắng là…",
+   "options": [
+    "\\(\\dfrac{3}{50}\\)",
+    "\\(\\dfrac{4}{25}\\)",
+    "\\(\\dfrac{2}{15}\\)",
+    "\\(\\dfrac{2}{5}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\dfrac{C_{4}^2}{C_{10}^2}\\).",
+   "explain_vi": "Đáp án c. \\(n(\\Omega)=C_{10}^2=45\\); thuận lợi \\(C_{4}^2=6\\).",
+   "images": [],
+   "id": "8c06edb05671",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "A number is chosen at random from \\(#,\\dots,#\\). P(it is divisible by #) =…",
+   "en": "A number is chosen at random from \\(1,2,\\dots,60\\). P(it is divisible by 6) =…",
+   "vi": "Chọn ngẫu nhiên một số trong các số \\(1,2,\\dots,60\\). Xác suất số đó chia hết cho 6 là…",
+   "options": [
+    "\\(\\dfrac{10}{59}\\)",
+    "\\(\\dfrac{1}{6}\\)",
+    "\\(\\dfrac{1}{10}\\)",
+    "\\(\\dfrac{11}{60}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. There are \\(\\lfloor \\dfrac{60}{6}\\rfloor=10\\) multiples.",
+   "explain_vi": "Đáp án b. Có 10 bội của 6 trong \\([1;60]\\).",
+   "images": [],
+   "id": "8f6107402e09",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Choose # students at random from # boys and # girls. P(exactly # boys and # girl) =…",
+   "en": "Choose 3 students at random from 6 boys and 5 girls. P(exactly 2 boys and 1 girl) =…",
+   "vi": "Chọn ngẫu nhiên 3 học sinh từ 6 nam và 5 nữ. Xác suất chọn được đúng 2 nam và 1 nữ là…",
+   "options": [
+    "\\(\\dfrac{5}{11}\\)",
+    "\\(\\dfrac{4}{11}\\)",
+    "\\(\\dfrac{1}{11}\\)",
+    "\\(\\dfrac{4}{33}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\dfrac{C_{6}^2\\cdot C_{5}^1}{C_{11}^3}\\).",
+   "explain_vi": "Đáp án a. \\(\\dfrac{C_{6}^2\\cdot5}{C_{11}^3}=\\dfrac{75}{165}\\).",
+   "images": [],
+   "id": "e5788245c0c0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "From # boys and # girls, # students are chosen at random. P(at least one girl) =…",
+   "en": "From 5 boys and 3 girls, 2 students are chosen at random. P(at least one girl) =…",
+   "vi": "Chọn ngẫu nhiên 2 học sinh từ 5 nam và 3 nữ. Xác suất chọn được <b class=\"mbl-term\" tabindex=\"0\" data-en=\"at least one\">ít nhất một</b> nữ là…",
+   "options": [
+    "\\(\\dfrac{3}{8}\\)",
+    "\\(\\dfrac{9}{14}\\)",
+    "\\(\\dfrac{39}{64}\\)",
+    "\\(\\dfrac{5}{14}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Complement: all boys, \\(\\dfrac{C_{5}^{2}}{C_{8}^{2}}\\).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"complementary event\">Biến cố đối</b> \"toàn nam\": \\(\\dfrac{C_{5}^{2}}{C_{8}^{2}}\\); lấy 1 trừ đi.",
+   "images": [],
+   "id": "8bc828f0ce3c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Three coins are tossed. The number of elements of the sample space is…",
+   "en": "Three coins are tossed. The number of elements of the sample space is…",
+   "vi": "Gieo ba đồng xu. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"number of elements\">Số phần tử</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sample space\">không gian mẫu</b> là…",
+   "options": [
+    "\\(12\\)",
+    "\\(36\\)",
+    "\\(24\\)",
+    "\\(8\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Rule of product.",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"rule of product\">Quy tắc nhân</b>: \\(n(\\Omega)=8\\).",
+   "images": [],
+   "id": "bc622bb2632f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Two fair dice are rolled. The probability that the sum is # is…",
+   "en": "Two fair dice are rolled. The probability that the sum is 3 is…",
+   "vi": "Gieo hai con xúc xắc cân đối. Xác suất để tổng số chấm bằng 3 là…",
+   "options": [
+    "\\(\\dfrac{1}{11}\\)",
+    "\\(\\dfrac{1}{18}\\)",
+    "\\(\\dfrac{1}{12}\\)",
+    "\\(\\dfrac{1}{3}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(n(\\Omega)=36\\); favourable outcomes: 2.",
+   "explain_vi": "Đáp án b. \\(n(\\Omega)=36\\); các kết quả thuận lợi: (1,2), (2,1) – có 2 kết quả.",
+   "images": [],
+   "id": "e890cbd8fa76",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  }
+ ]
+}

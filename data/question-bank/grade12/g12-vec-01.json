@@ -1,0 +1,1593 @@
+{
+ "lesson": "g12-vec-01",
+ "grade": 12,
+ "no": 6,
+ "title": "Vectơ và các phép toán trong không gian",
+ "path": "lessons/grade12/vectors-in-space/vectors-in-space.html",
+ "items": [
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "In the parallelepiped \\(ABCD.A'B'C'D'\\), \\(\\overrightarrow{AB}+\\overrightarrow{AD}+\\overrightarrow{AA'}=\\)…",
+   "en": "In the parallelepiped \\(ABCD.A'B'C'D'\\), \\(\\overrightarrow{AB}+\\overrightarrow{AD}+\\overrightarrow{AA'}=\\)…",
+   "vi": "Trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelepiped\">hình hộp</b> \\(ABCD.A'B'C'D'\\), \\(\\overrightarrow{AB}+\\overrightarrow{AD}+\\overrightarrow{AA'}=\\)…",
+   "options": [
+    "\\(\\overrightarrow{BD'}\\)",
+    "\\(\\overrightarrow{CA'}\\)",
+    "\\(\\overrightarrow{DB'}\\)",
+    "\\(\\overrightarrow{AC'}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Parallelepiped rule: three edges from one vertex add up to the diagonal from that vertex.",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelepiped rule\">Quy tắc hình hộp</b>: tổng ba vectơ cạnh xuất phát từ một đỉnh là vectơ <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b> xuất phát từ đỉnh đó.",
+   "images": [],
+   "id": "39f11aad0663",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "In the tetrahedron \\(ABCD\\), \\(M\\), \\(N\\) are the midpoints of \\(AB\\), \\(CD\\). Then \\(\\overrightarrow{MN}=k(\\overrightarrow{AD}+\\overrightarrow{BC})\\) with \\(k=\\)…",
+   "en": "In the tetrahedron \\(ABCD\\), \\(M\\), \\(N\\) are the midpoints of \\(AB\\), \\(CD\\). Then \\(\\overrightarrow{MN}=k(\\overrightarrow{AD}+\\overrightarrow{BC})\\) with \\(k=\\)…",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tetrahedron\">tứ diện</b> \\(ABCD\\), \\(M\\), \\(N\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"respectively\">lần lượt</b> là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> của \\(AB\\), \\(CD\\). Khi đó \\(\\overrightarrow{MN}=k(\\overrightarrow{AD}+\\overrightarrow{BC})\\) với \\(k=\\)…",
+   "options": [
+    "\\(1\\)",
+    "\\(2\\)",
+    "\\(\\dfrac12\\)",
+    "\\(-\\dfrac12\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\overrightarrow{MN}=\\overrightarrow{MA}+\\overrightarrow{AD}+\\overrightarrow{DN}\\) and \\(\\overrightarrow{MN}=\\overrightarrow{MB}+\\overrightarrow{BC}+\\overrightarrow{CN}\\); add them (\\(\\overrightarrow{MA}+\\overrightarrow{MB}=\\vec0\\), likewise at \\(N\\)).",
+   "explain_vi": "Đáp án c. \\(\\overrightarrow{MN}=\\overrightarrow{MA}+\\overrightarrow{AD}+\\overrightarrow{DN}\\) và \\(\\overrightarrow{MN}=\\overrightarrow{MB}+\\overrightarrow{BC}+\\overrightarrow{CN}\\); cộng vế (\\(\\overrightarrow{MA}+\\overrightarrow{MB}=\\vec0\\), tương tự tại \\(N\\)).",
+   "images": [],
+   "id": "53b596668342",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(ABCD\\) is a regular tetrahedron with edge #. \\(\\overrightarrow{AB}\\cdot\\overrightarrow{AC}=\\)…",
+   "en": "\\(ABCD\\) is a regular tetrahedron with edge 4. \\(\\overrightarrow{AB}\\cdot\\overrightarrow{AC}=\\)…",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tetrahedron\">tứ diện</b> đều \\(ABCD\\) cạnh 4. Khi đó \\(\\overrightarrow{AB}\\cdot\\overrightarrow{AC}=\\)…",
+   "options": [
+    "\\(-8\\)",
+    "\\(0\\)",
+    "\\(8\\)",
+    "\\(16\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Move the vectors to a common start: two edges of an equilateral face make \\(60^\\circ\\) (or \\(120^\\circ\\) if one is reversed); opposite edges are perpendicular.",
+   "explain_vi": "Đáp án c. Dời hai vectơ về chung điểm đầu: hai cạnh của một mặt (tam giác đều) tạo góc \\(60^\\circ\\) (hoặc \\(120^\\circ\\) nếu một vectơ <b class=\"mbl-term\" tabindex=\"0\" data-en=\"opposite directions\">ngược hướng</b>); hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"opposite side\">cạnh đối</b> diện <b class=\"mbl-term\" tabindex=\"0\" data-en=\"perpendicular\">vuông góc</b>.",
+   "images": [],
+   "id": "b4bccbbe8d6f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "In the pyramid \\(S.ABCD\\) whose base is a parallelogram with centre \\(O\\): \\(\\overrightarrow{SA}+\\overrightarrow{SC}=\\overrightarrow{SB}+\\overrightarrow{SD}\\).",
+   "en": "In the pyramid \\(S.ABCD\\) whose base is a parallelogram with centre \\(O\\): \\(\\overrightarrow{SA}+\\overrightarrow{SC}=\\overrightarrow{SB}+\\overrightarrow{SD}\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">Hình chóp</b> \\(S.ABCD\\) có đáy là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelogram\">hình bình hành</b> tâm \\(O\\). Khi đó \\(\\overrightarrow{SA}+\\overrightarrow{SC}=\\overrightarrow{SB}+\\overrightarrow{SD}\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "\\(O\\) is the midpoint of \\(AC\\) and \\(BD\\): \\(\\overrightarrow{SA}+\\overrightarrow{SC}=\\overrightarrow{SB}+\\overrightarrow{SD}=2\\overrightarrow{SO}\\).",
+   "explain_vi": "\\(O\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> của \\(AC\\) và \\(BD\\): \\(\\overrightarrow{SA}+\\overrightarrow{SC}=\\overrightarrow{SB}+\\overrightarrow{SD}=2\\overrightarrow{SO}\\).",
+   "images": [],
+   "id": "e88a3f5f8275",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "Three pairwise perpendicular forces of # N, # N, # N act at one point. The resultant force has magnitude # N.",
+   "en": "Three pairwise perpendicular forces of 2 N, 3 N, 6 N act at one point. The resultant force has magnitude 7 N.",
+   "vi": "Ba lực đôi một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"perpendicular\">vuông góc</b> có độ lớn 2 N, 3 N, 6 N cùng tác dụng vào một điểm. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"resultant force\">Hợp lực</b> có độ lớn 7 N.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "The resultant is the diagonal of the box built on the forces: \\(\\sqrt{2^2+3^2+6^2}=7\\) N.",
+   "explain_vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"resultant force\">Hợp lực</b> là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelepiped\">hình hộp</b> chữ nhật dựng trên ba lực: \\(\\sqrt{2^2+3^2+6^2}=7\\) N.",
+   "images": [],
+   "id": "7aac0bf717c9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "A cube \\(ABCD.A'B'C'D'\\) has edge #. Find \\(\\overrightarrow{AD}\\cdot\\overrightarrow{AC'}\\).",
+   "en": "A cube \\(ABCD.A'B'C'D'\\) has edge 5. Find \\(\\overrightarrow{AD}\\cdot\\overrightarrow{AC'}\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"cube\">Hình lập phương</b> \\(ABCD.A'B'C'D'\\) có cạnh 5. Tính \\(\\overrightarrow{AD}\\cdot\\overrightarrow{AC'}\\).",
+   "options": [],
+   "answer": "25",
+   "explain_en": "Use the edge vectors; the answer is 1·5².",
+   "explain_vi": "Dùng ba vectơ cạnh; đáp số là 1·5².",
+   "images": [],
+   "id": "7c3223451923",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "In the regular tetrahedron \\(ABCD\\), find the angle (in degrees) between \\(\\overrightarrow{AB}\\) and \\(\\overrightarrow{AC}\\).",
+   "en": "In the regular tetrahedron \\(ABCD\\), find the angle (in degrees) between \\(\\overrightarrow{AB}\\) and \\(\\overrightarrow{AC}\\).",
+   "vi": "Trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tetrahedron\">tứ diện</b> đều \\(ABCD\\), tìm góc (đơn vị độ) giữa hai vectơ \\(\\overrightarrow{AB}\\) và \\(\\overrightarrow{AC}\\).",
+   "options": [],
+   "answer": "60",
+   "explain_en": "Move the vectors to a common start point, then use the equilateral faces.",
+   "explain_vi": "Dời hai vectơ về chung điểm đầu, rồi dùng tính chất các mặt là tam giác đều.",
+   "images": [],
+   "id": "68b9530687b5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "A force \\(\\vec F\\) of \\(#\\) N pulls a sled along a straight road for \\(#\\) m. The angle between \\(\\vec F\\) and the displacement is \\(#^\\circ\\). The work \\(A=\\vec F\\cdot\\vec d\\) (J) is…",
+   "en": "A force \\(\\vec F\\) of \\(100\\) N pulls a sled along a straight road for \\(20\\) m. The angle between \\(\\vec F\\) and the displacement is \\(60^\\circ\\). The work \\(A=\\vec F\\cdot\\vec d\\) (J) is…",
+   "vi": "Một lực \\(\\vec F\\) có độ lớn \\(100\\) N kéo xe trượt đi \\(20\\) m trên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b>. Góc giữa \\(\\vec F\\) và độ dời là \\(60^\\circ\\). Công \\(A=\\vec F\\cdot\\vec d\\) (J) bằng…",
+   "options": [
+    "\\(2000\\)",
+    "\\(120\\)",
+    "\\(1000\\)",
+    "\\(-1000\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(A=|\\vec F|\\cdot|\\vec d|\\cos60^\\circ=100\\cdot20\\cdot\\dfrac{1}{2}=1000\\).",
+   "explain_vi": "Đáp án c. \\(A=|\\vec F|\\cdot|\\vec d|\\cos60^\\circ=100\\cdot20\\cdot\\dfrac{1}{2}=1000\\).",
+   "images": [],
+   "id": "98432a6055e8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "A square lamp \\(ABCD\\) weighing \\(#\\) N hangs from a hook \\(S\\) by four equal chains \\(SA, SB, SC, SD\\), each \\(#\\) dm long; \\(S\\) is \\(#\\) dm above the lamp (see the figure). The tension in each chain (N) is…",
+   "en": "A square lamp \\(ABCD\\) weighing \\(24\\) N hangs from a hook \\(S\\) by four equal chains \\(SA, SB, SC, SD\\), each \\(5\\) dm long; \\(S\\) is \\(3\\) dm above the lamp (see the figure). The tension in each chain (N) is…<img src=\"../../../img/fig3d/3ac95658441548bb.svg\" alt=\"Lamp\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Một chiếc đèn hình vuông \\(ABCD\\) nặng \\(24\\) N được treo vào móc \\(S\\) bằng bốn sợi xích bằng nhau \\(SA, SB, SC, SD\\), mỗi sợi dài \\(5\\) dm; \\(S\\) cao hơn mặt đèn \\(3\\) dm (xem hình). Lực căng của mỗi sợi xích (N) là…<img src=\"../../../img/fig3d/3ac95658441548bb.svg\" alt=\"Lamp\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "\\(6\\)",
+    "\\(10\\)",
+    "<span class=\"txi\"><span class=\"en\">\\(3.6\\)</span><span class=\"vi\">\\(3{,}6\\)</span></span>",
+    "\\(40\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. The vertical parts of the four tensions balance the weight: \\(4T\\cos\\alpha=24\\) with \\(\\cos\\alpha=\\dfrac{3}{5}\\), so \\(T=10\\).",
+   "explain_vi": "Đáp án b. Thành phần thẳng đứng của bốn lực căng cân bằng trọng lực: \\(4T\\cos\\alpha=24\\) với \\(\\cos\\alpha=\\dfrac{3}{5}\\), nên \\(T=10\\).",
+   "images": [
+    "img/fig3d/3ac95658441548bb.svg"
+   ],
+   "id": "3d43d34a73ec",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "In the tetrahedron \\(ABCD\\), \\(M\\), \\(N\\) are the midpoints of \\(AB\\), \\(CD\\) and \\(I\\) is the midpoint of \\(MN\\). Which equality is true?",
+   "en": "In the tetrahedron \\(ABCD\\), \\(M\\), \\(N\\) are the midpoints of \\(AB\\), \\(CD\\) and \\(I\\) is the midpoint of \\(MN\\). Which equality is true?<img src=\"../../../img/fig3d/bcd97880b6460ef0.svg\" alt=\"Tetrahedron\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tetrahedron\">tứ diện</b> \\(ABCD\\); \\(M\\), \\(N\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> của \\(AB\\), \\(CD\\) và \\(I\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> của \\(MN\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"identity\">Đẳng thức</b> nào đúng?<img src=\"../../../img/fig3d/bcd97880b6460ef0.svg\" alt=\"Tetrahedron\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "\\(\\overrightarrow{IA}+\\overrightarrow{IB}=\\overrightarrow{IC}+\\overrightarrow{ID}\\)",
+    "\\(\\overrightarrow{IA}+\\overrightarrow{IB}+\\overrightarrow{IC}+\\overrightarrow{ID}=2\\overrightarrow{MN}\\)",
+    "\\(\\overrightarrow{IM}+\\overrightarrow{IN}=\\vec 0\\)",
+    "\\(\\overrightarrow{AB}+\\overrightarrow{CD}=2\\overrightarrow{MN}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Use midpoints: \\(\\overrightarrow{IA}+\\overrightarrow{IB}=2\\overrightarrow{IM}\\), \\(\\overrightarrow{IC}+\\overrightarrow{ID}=2\\overrightarrow{IN}\\), \\(\\overrightarrow{IM}+\\overrightarrow{IN}=\\vec0\\); \\(2\\overrightarrow{MN}=\\overrightarrow{AD}+\\overrightarrow{BC}=\\overrightarrow{AC}+\\overrightarrow{BD}\\). Only \\(\\overrightarrow{IM}+\\overrightarrow{IN}=\\vec 0\\) is among the true ones.",
+   "explain_vi": "Đáp án c. Dùng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b>: \\(\\overrightarrow{IA}+\\overrightarrow{IB}=2\\overrightarrow{IM}\\), \\(\\overrightarrow{IC}+\\overrightarrow{ID}=2\\overrightarrow{IN}\\), \\(\\overrightarrow{IM}+\\overrightarrow{IN}=\\vec0\\); \\(2\\overrightarrow{MN}=\\overrightarrow{AD}+\\overrightarrow{BC}=\\overrightarrow{AC}+\\overrightarrow{BD}\\). Trong các phương án chỉ \\(\\overrightarrow{IM}+\\overrightarrow{IN}=\\vec 0\\) đúng.",
+   "images": [
+    "img/fig3d/bcd97880b6460ef0.svg"
+   ],
+   "id": "114308a0d5d2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(ABC.A'B'C'\\) is a triangular prism with \\(\\overrightarrow{AA'}=\\vec a\\), \\(\\overrightarrow{AB}=\\vec b\\), \\(\\overrightarrow{AC}=\\vec c\\); \\(M\\) is the midpoint of \\(CC'\\). Then \\(\\overrightarrow{AM}=\\)…",
+   "en": "\\(ABC.A'B'C'\\) is a triangular prism with \\(\\overrightarrow{AA'}=\\vec a\\), \\(\\overrightarrow{AB}=\\vec b\\), \\(\\overrightarrow{AC}=\\vec c\\); \\(M\\) is the midpoint of \\(CC'\\). Then \\(\\overrightarrow{AM}=\\)…<img src=\"../../../img/fig3d/25316cd3b6098588.svg\" alt=\"Prism\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"prism\">hình lăng trụ</b> tam giác \\(ABC.A'B'C'\\) với \\(\\overrightarrow{AA'}=\\vec a\\), \\(\\overrightarrow{AB}=\\vec b\\), \\(\\overrightarrow{AC}=\\vec c\\); \\(M\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> của \\(CC'\\). Khi đó \\(\\overrightarrow{AM}=\\)…<img src=\"../../../img/fig3d/25316cd3b6098588.svg\" alt=\"Prism\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "\\(\\vec a+\\dfrac{1}{4}\\vec c\\)",
+    "\\(\\dfrac{1}{2}\\vec a+\\vec b\\)",
+    "\\(\\dfrac{1}{2}\\vec a+\\vec c\\)",
+    "\\(\\vec a+\\vec b+\\vec c\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Go from \\(A\\) to \\(M\\) along the edges: \\(\\overrightarrow{AM}=\\dfrac{1}{2}\\vec a+\\vec c\\).",
+   "explain_vi": "Đáp án c. Đi từ \\(A\\) tới \\(M\\) theo các cạnh: \\(\\overrightarrow{AM}=\\dfrac{1}{2}\\vec a+\\vec c\\).",
+   "images": [
+    "img/fig3d/25316cd3b6098588.svg"
+   ],
+   "id": "6c392e3dca4c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(ABCD.A'B'C'D'\\) is a cube with edge \\(#\\). Find \\(\\left|\\overrightarrow{AB}+\\overrightarrow{BC'}\\right|\\).",
+   "en": "\\(ABCD.A'B'C'D'\\) is a cube with edge \\(4\\). Find \\(\\left|\\overrightarrow{AB}+\\overrightarrow{BC'}\\right|\\).<img src=\"../../../img/fig3d/c2527a675098539d.svg\" alt=\"Cube\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"cube\">hình lập phương</b> \\(ABCD.A'B'C'D'\\) cạnh \\(4\\). Tính \\(\\left|\\overrightarrow{AB}+\\overrightarrow{BC'}\\right|\\).<img src=\"../../../img/fig3d/c2527a675098539d.svg\" alt=\"Cube\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "\\(4\\sqrt{3}\\)",
+    "\\(4\\sqrt{5}\\)",
+    "\\(4\\sqrt{2}\\)",
+    "\\(4\\sqrt{6}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. With \\(\\overrightarrow{AB}\\), \\(\\overrightarrow{AD}\\), \\(\\overrightarrow{AA'}\\) as unit directions (length \\(4\\)), the vector is \\(4\\cdot(1;\\,1;\\,1)\\), length \\(4\\sqrt{3}=4\\sqrt{3}\\).",
+   "explain_vi": "Đáp án a. Lấy \\(\\overrightarrow{AB}\\), \\(\\overrightarrow{AD}\\), \\(\\overrightarrow{AA'}\\) làm ba hướng (độ dài \\(4\\)), vectơ bằng \\(4\\cdot(1;\\,1;\\,1)\\), độ dài \\(4\\sqrt{3}=4\\sqrt{3}\\).",
+   "images": [
+    "img/fig3d/c2527a675098539d.svg"
+   ],
+   "id": "274d31f157ef",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(ABCD.A'B'C'D'\\) is a cube. What is the angle (in degrees) between \\(\\overrightarrow{B'C'}\\) and \\(\\overrightarrow{B'D'}\\)?",
+   "en": "\\(ABCD.A'B'C'D'\\) is a cube. What is the angle (in degrees) between \\(\\overrightarrow{B'C'}\\) and \\(\\overrightarrow{B'D'}\\)?<img src=\"../../../img/fig3d/bd7bbb0cc72416dc.svg\" alt=\"Cube\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"cube\">hình lập phương</b> \\(ABCD.A'B'C'D'\\). Góc (độ) giữa hai vectơ \\(\\overrightarrow{B'C'}\\) và \\(\\overrightarrow{B'D'}\\) bằng bao nhiêu?<img src=\"../../../img/fig3d/bd7bbb0cc72416dc.svg\" alt=\"Cube\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "\\(60\\)",
+    "\\(45\\)",
+    "\\(135\\)",
+    "\\(30\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Put the cube with edge 1 on coordinates: \\(\\overrightarrow{B'C'}=(0;\\,1;\\,0)\\), \\(\\overrightarrow{B'D'}=(-1;\\,1;\\,0)\\), \\(\\cos=\\dfrac{1}{\\sqrt{1}\\cdot\\sqrt{2}}\\), so the angle is \\(45^\\circ\\).",
+   "explain_vi": "Đáp án b. Gắn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"cube\">hình lập phương</b> cạnh 1 vào hệ tọa độ: \\(\\overrightarrow{B'C'}=(0;\\,1;\\,0)\\), \\(\\overrightarrow{B'D'}=(-1;\\,1;\\,0)\\), \\(\\cos=\\dfrac{1}{\\sqrt{1}\\cdot\\sqrt{2}}\\), nên góc bằng \\(45^\\circ\\).",
+   "images": [
+    "img/fig3d/bd7bbb0cc72416dc.svg"
+   ],
+   "id": "91fcd745d177",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(G\\) is the centroid of the tetrahedron \\(ABCD\\). Then \\(\\overrightarrow{AG}=k\\left(\\overrightarrow{AB}+\\overrightarrow{AC}+\\overrightarrow{AD}\\right)\\) with \\(k=\\)…",
+   "en": "\\(G\\) is the centroid of the tetrahedron \\(ABCD\\). Then \\(\\overrightarrow{AG}=k\\left(\\overrightarrow{AB}+\\overrightarrow{AC}+\\overrightarrow{AD}\\right)\\) with \\(k=\\)…<img src=\"../../../img/fig3d/02a9211bac53369d.svg\" alt=\"Tetrahedron\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "\\(G\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"centroid\">trọng tâm</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tetrahedron\">tứ diện</b> \\(ABCD\\). Khi đó \\(\\overrightarrow{AG}=k\\left(\\overrightarrow{AB}+\\overrightarrow{AC}+\\overrightarrow{AD}\\right)\\) với \\(k=\\)…<img src=\"../../../img/fig3d/02a9211bac53369d.svg\" alt=\"Tetrahedron\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "\\(\\dfrac{1}{2}\\)",
+    "\\(\\dfrac{1}{3}\\)",
+    "\\(\\dfrac{2}{3}\\)",
+    "\\(\\dfrac{1}{4}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\overrightarrow{GA}+\\overrightarrow{GB}+\\overrightarrow{GC}+\\overrightarrow{GD}=\\vec 0\\Rightarrow 4\\overrightarrow{AG}=\\overrightarrow{AB}+\\overrightarrow{AC}+\\overrightarrow{AD}\\).",
+   "explain_vi": "Đáp án d. \\(\\overrightarrow{GA}+\\overrightarrow{GB}+\\overrightarrow{GC}+\\overrightarrow{GD}=\\vec 0\\Rightarrow 4\\overrightarrow{AG}=\\overrightarrow{AB}+\\overrightarrow{AC}+\\overrightarrow{AD}\\).",
+   "images": [
+    "img/fig3d/02a9211bac53369d.svg"
+   ],
+   "id": "edc9e83fea62",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(|\\vec a|=#\\), \\(|\\vec b|=#\\) and \\(\\vec a\\cdot\\vec b=#\\). The angle between \\(\\vec a\\) and \\(\\vec b\\) is…",
+   "en": "\\(|\\vec a|=2\\), \\(|\\vec b|=5\\) and \\(\\vec a\\cdot\\vec b=5\\). The angle between \\(\\vec a\\) and \\(\\vec b\\) is…",
+   "vi": "Cho \\(|\\vec a|=2\\), \\(|\\vec b|=5\\) và \\(\\vec a\\cdot\\vec b=5\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"angle between vectors\">Góc giữa hai vectơ</b> \\(\\vec a\\) và \\(\\vec b\\) bằng…",
+   "options": [
+    "\\(60^\\circ\\)",
+    "\\(150^\\circ\\)",
+    "\\(120^\\circ\\)",
+    "\\(30^\\circ\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\cos(\\vec a,\\vec b)=\\dfrac{5}{2\\cdot5}=\\dfrac{1}{2}\\), so the angle is \\(60^\\circ\\).",
+   "explain_vi": "Đáp án a. \\(\\cos(\\vec a,\\vec b)=\\dfrac{5}{2\\cdot5}=\\dfrac{1}{2}\\), nên góc bằng \\(60^\\circ\\).",
+   "images": [],
+   "id": "a9c943f2fc2d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "In the parallelepiped \\(ABCD.A'B'C'D'\\), \\(\\overrightarrow{CB}+\\overrightarrow{CD}+\\overrightarrow{CC'}=\\)…",
+   "en": "In the parallelepiped \\(ABCD.A'B'C'D'\\), \\(\\overrightarrow{CB}+\\overrightarrow{CD}+\\overrightarrow{CC'}=\\)…",
+   "vi": "Trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelepiped\">hình hộp</b> \\(ABCD.A'B'C'D'\\), \\(\\overrightarrow{CB}+\\overrightarrow{CD}+\\overrightarrow{CC'}=\\)…",
+   "options": [
+    "\\(\\overrightarrow{AC'}\\)",
+    "\\(\\overrightarrow{BD'}\\)",
+    "\\(\\overrightarrow{DB'}\\)",
+    "\\(\\overrightarrow{CA'}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Parallelepiped rule: three edges from one vertex add up to the diagonal from that vertex.",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelepiped rule\">Quy tắc hình hộp</b>: tổng ba vectơ cạnh xuất phát từ một đỉnh là vectơ <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b> xuất phát từ đỉnh đó.",
+   "images": [],
+   "id": "7fec3de2e4a0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "In the tetrahedron \\(ABCD\\), \\(M\\), \\(N\\) are the midpoints of \\(AB\\), \\(CD\\). Then \\(\\overrightarrow{MN}=k(\\overrightarrow{AC}+\\overrightarrow{BD})\\) with \\(k=\\)…",
+   "en": "In the tetrahedron \\(ABCD\\), \\(M\\), \\(N\\) are the midpoints of \\(AB\\), \\(CD\\). Then \\(\\overrightarrow{MN}=k(\\overrightarrow{AC}+\\overrightarrow{BD})\\) with \\(k=\\)…",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tetrahedron\">tứ diện</b> \\(ABCD\\), \\(M\\), \\(N\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"respectively\">lần lượt</b> là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> của \\(AB\\), \\(CD\\). Khi đó \\(\\overrightarrow{MN}=k(\\overrightarrow{AC}+\\overrightarrow{BD})\\) với \\(k=\\)…",
+   "options": [
+    "\\(1\\)",
+    "\\(2\\)",
+    "\\(\\dfrac12\\)",
+    "\\(-\\dfrac12\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\overrightarrow{MN}=\\overrightarrow{MA}+\\overrightarrow{AC}+\\overrightarrow{CN}\\) and \\(\\overrightarrow{MN}=\\overrightarrow{MB}+\\overrightarrow{BD}+\\overrightarrow{DN}\\); add them (\\(\\overrightarrow{MA}+\\overrightarrow{MB}=\\vec0\\), likewise at \\(N\\)).",
+   "explain_vi": "Đáp án c. \\(\\overrightarrow{MN}=\\overrightarrow{MA}+\\overrightarrow{AC}+\\overrightarrow{CN}\\) và \\(\\overrightarrow{MN}=\\overrightarrow{MB}+\\overrightarrow{BD}+\\overrightarrow{DN}\\); cộng vế (\\(\\overrightarrow{MA}+\\overrightarrow{MB}=\\vec0\\), tương tự tại \\(N\\)).",
+   "images": [],
+   "id": "cdae08d53edd",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(ABCD\\) is a regular tetrahedron with edge #. \\(\\overrightarrow{AB}\\cdot\\overrightarrow{CD}=\\)…",
+   "en": "\\(ABCD\\) is a regular tetrahedron with edge 6. \\(\\overrightarrow{AB}\\cdot\\overrightarrow{CD}=\\)…",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tetrahedron\">tứ diện</b> đều \\(ABCD\\) cạnh 6. Khi đó \\(\\overrightarrow{AB}\\cdot\\overrightarrow{CD}=\\)…",
+   "options": [
+    "\\(18\\)",
+    "\\(-18\\)",
+    "\\(0\\)",
+    "\\(36\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Move the vectors to a common start: two edges of an equilateral face make \\(60^\\circ\\) (or \\(120^\\circ\\) if one is reversed); opposite edges are perpendicular.",
+   "explain_vi": "Đáp án c. Dời hai vectơ về chung điểm đầu: hai cạnh của một mặt (tam giác đều) tạo góc \\(60^\\circ\\) (hoặc \\(120^\\circ\\) nếu một vectơ <b class=\"mbl-term\" tabindex=\"0\" data-en=\"opposite directions\">ngược hướng</b>); hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"opposite side\">cạnh đối</b> diện <b class=\"mbl-term\" tabindex=\"0\" data-en=\"perpendicular\">vuông góc</b>.",
+   "images": [],
+   "id": "f1be5da1e614",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "In the pyramid \\(S.ABCD\\) whose base is a parallelogram with centre \\(O\\): \\(\\overrightarrow{SA}+\\overrightarrow{SB}=\\overrightarrow{SC}+\\overrightarrow{SD}\\).",
+   "en": "In the pyramid \\(S.ABCD\\) whose base is a parallelogram with centre \\(O\\): \\(\\overrightarrow{SA}+\\overrightarrow{SB}=\\overrightarrow{SC}+\\overrightarrow{SD}\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">Hình chóp</b> \\(S.ABCD\\) có đáy là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelogram\">hình bình hành</b> tâm \\(O\\). Khi đó \\(\\overrightarrow{SA}+\\overrightarrow{SB}=\\overrightarrow{SC}+\\overrightarrow{SD}\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "\\(O\\) is the midpoint of \\(AC\\) and \\(BD\\): \\(\\overrightarrow{SA}+\\overrightarrow{SC}=\\overrightarrow{SB}+\\overrightarrow{SD}=2\\overrightarrow{SO}\\).",
+   "explain_vi": "\\(O\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> của \\(AC\\) và \\(BD\\): \\(\\overrightarrow{SA}+\\overrightarrow{SC}=\\overrightarrow{SB}+\\overrightarrow{SD}=2\\overrightarrow{SO}\\).",
+   "images": [],
+   "id": "ec16f67b7a9b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "Three pairwise perpendicular forces of # N, # N, # N act at one point. The resultant force has magnitude # N.",
+   "en": "Three pairwise perpendicular forces of 1 N, 2 N, 2 N act at one point. The resultant force has magnitude 5 N.",
+   "vi": "Ba lực đôi một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"perpendicular\">vuông góc</b> có độ lớn 1 N, 2 N, 2 N cùng tác dụng vào một điểm. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"resultant force\">Hợp lực</b> có độ lớn 5 N.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "The resultant is the diagonal of the box built on the forces: \\(\\sqrt{1^2+2^2+2^2}=3\\) N.",
+   "explain_vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"resultant force\">Hợp lực</b> là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelepiped\">hình hộp</b> chữ nhật dựng trên ba lực: \\(\\sqrt{1^2+2^2+2^2}=3\\) N.",
+   "images": [],
+   "id": "2c80a0465a53",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "A cube \\(ABCD.A'B'C'D'\\) has edge #. Find \\(\\overrightarrow{AD}\\cdot\\overrightarrow{AC}\\).",
+   "en": "A cube \\(ABCD.A'B'C'D'\\) has edge 7. Find \\(\\overrightarrow{AD}\\cdot\\overrightarrow{AC}\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"cube\">Hình lập phương</b> \\(ABCD.A'B'C'D'\\) có cạnh 7. Tính \\(\\overrightarrow{AD}\\cdot\\overrightarrow{AC}\\).",
+   "options": [],
+   "answer": "49",
+   "explain_en": "Use the edge vectors; the answer is 1·7².",
+   "explain_vi": "Dùng ba vectơ cạnh; đáp số là 1·7².",
+   "images": [],
+   "id": "ccfdca4db984",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "In the regular tetrahedron \\(ABCD\\), find the angle (in degrees) between \\(\\overrightarrow{AB}\\) and \\(\\overrightarrow{CD}\\).",
+   "en": "In the regular tetrahedron \\(ABCD\\), find the angle (in degrees) between \\(\\overrightarrow{AB}\\) and \\(\\overrightarrow{CD}\\).",
+   "vi": "Trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tetrahedron\">tứ diện</b> đều \\(ABCD\\), tìm góc (đơn vị độ) giữa hai vectơ \\(\\overrightarrow{AB}\\) và \\(\\overrightarrow{CD}\\).",
+   "options": [],
+   "answer": "90",
+   "explain_en": "Move the vectors to a common start point, then use the equilateral faces.",
+   "explain_vi": "Dời hai vectơ về chung điểm đầu, rồi dùng tính chất các mặt là tam giác đều.",
+   "images": [],
+   "id": "6676ebf0b85d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "A force \\(\\vec F\\) of \\(#\\) N pulls a sled along a straight road for \\(#\\) m. The angle between \\(\\vec F\\) and the displacement is \\(#^\\circ\\). The work \\(A=\\vec F\\cdot\\vec d\\) (J) is…",
+   "en": "A force \\(\\vec F\\) of \\(120\\) N pulls a sled along a straight road for \\(10\\) m. The angle between \\(\\vec F\\) and the displacement is \\(0^\\circ\\). The work \\(A=\\vec F\\cdot\\vec d\\) (J) is…",
+   "vi": "Một lực \\(\\vec F\\) có độ lớn \\(120\\) N kéo xe trượt đi \\(10\\) m trên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b>. Góc giữa \\(\\vec F\\) và độ dời là \\(0^\\circ\\). Công \\(A=\\vec F\\cdot\\vec d\\) (J) bằng…",
+   "options": [
+    "\\(-1200\\)",
+    "\\(1200\\)",
+    "\\(600\\)",
+    "\\(130\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(A=|\\vec F|\\cdot|\\vec d|\\cos0^\\circ=120\\cdot10\\cdot1=1200\\).",
+   "explain_vi": "Đáp án b. \\(A=|\\vec F|\\cdot|\\vec d|\\cos0^\\circ=120\\cdot10\\cdot1=1200\\).",
+   "images": [],
+   "id": "2d75121ff175",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "A square lamp \\(ABCD\\) weighing \\(#\\) N hangs from a hook \\(S\\) by four equal chains \\(SA, SB, SC, SD\\), each \\(#\\) dm long; \\(S\\) is \\(#\\) dm above the lamp (see the figure). The tension in each chain (N) is…",
+   "en": "A square lamp \\(ABCD\\) weighing \\(12\\) N hangs from a hook \\(S\\) by four equal chains \\(SA, SB, SC, SD\\), each \\(5\\) dm long; \\(S\\) is \\(3\\) dm above the lamp (see the figure). The tension in each chain (N) is…<img src=\"../../../img/fig3d/3ac95658441548bb.svg\" alt=\"Lamp\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Một chiếc đèn hình vuông \\(ABCD\\) nặng \\(12\\) N được treo vào móc \\(S\\) bằng bốn sợi xích bằng nhau \\(SA, SB, SC, SD\\), mỗi sợi dài \\(5\\) dm; \\(S\\) cao hơn mặt đèn \\(3\\) dm (xem hình). Lực căng của mỗi sợi xích (N) là…<img src=\"../../../img/fig3d/3ac95658441548bb.svg\" alt=\"Lamp\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "\\(3\\)",
+    "\\(5\\)",
+    "\\(20\\)",
+    "<span class=\"txi\"><span class=\"en\">\\(1.8\\)</span><span class=\"vi\">\\(1{,}8\\)</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. The vertical parts of the four tensions balance the weight: \\(4T\\cos\\alpha=12\\) with \\(\\cos\\alpha=\\dfrac{3}{5}\\), so \\(T=5\\).",
+   "explain_vi": "Đáp án b. Thành phần thẳng đứng của bốn lực căng cân bằng trọng lực: \\(4T\\cos\\alpha=12\\) với \\(\\cos\\alpha=\\dfrac{3}{5}\\), nên \\(T=5\\).",
+   "images": [
+    "img/fig3d/3ac95658441548bb.svg"
+   ],
+   "id": "d08109b69ef8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "In the tetrahedron \\(ABCD\\), \\(M\\), \\(N\\) are the midpoints of \\(AB\\), \\(CD\\) and \\(I\\) is the midpoint of \\(MN\\). Which of the following equalities holds?",
+   "en": "In the tetrahedron \\(ABCD\\), \\(M\\), \\(N\\) are the midpoints of \\(AB\\), \\(CD\\) and \\(I\\) is the midpoint of \\(MN\\). Which of the following equalities holds?<img src=\"../../../img/fig3d/bcd97880b6460ef0.svg\" alt=\"Tetrahedron\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tetrahedron\">tứ diện</b> \\(ABCD\\); \\(M\\), \\(N\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> của \\(AB\\), \\(CD\\) và \\(I\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> của \\(MN\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"identity\">Đẳng thức</b> nào sau đây luôn đúng?<img src=\"../../../img/fig3d/bcd97880b6460ef0.svg\" alt=\"Tetrahedron\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "\\(\\overrightarrow{IA}+\\overrightarrow{IB}+\\overrightarrow{IC}+\\overrightarrow{ID}=2\\overrightarrow{MN}\\)",
+    "\\(\\overrightarrow{AB}+\\overrightarrow{CD}=2\\overrightarrow{MN}\\)",
+    "\\(\\overrightarrow{AM}=\\overrightarrow{NC}\\)",
+    "\\(\\overrightarrow{MN}=\\dfrac12\\left(\\overrightarrow{AC}+\\overrightarrow{BD}\\right)\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Use midpoints: \\(\\overrightarrow{IA}+\\overrightarrow{IB}=2\\overrightarrow{IM}\\), \\(\\overrightarrow{IC}+\\overrightarrow{ID}=2\\overrightarrow{IN}\\), \\(\\overrightarrow{IM}+\\overrightarrow{IN}=\\vec0\\); \\(2\\overrightarrow{MN}=\\overrightarrow{AD}+\\overrightarrow{BC}=\\overrightarrow{AC}+\\overrightarrow{BD}\\). Only \\(\\overrightarrow{MN}=\\dfrac12\\left(\\overrightarrow{AC}+\\overrightarrow{BD}\\right)\\) is among the true ones.",
+   "explain_vi": "Đáp án d. Dùng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b>: \\(\\overrightarrow{IA}+\\overrightarrow{IB}=2\\overrightarrow{IM}\\), \\(\\overrightarrow{IC}+\\overrightarrow{ID}=2\\overrightarrow{IN}\\), \\(\\overrightarrow{IM}+\\overrightarrow{IN}=\\vec0\\); \\(2\\overrightarrow{MN}=\\overrightarrow{AD}+\\overrightarrow{BC}=\\overrightarrow{AC}+\\overrightarrow{BD}\\). Trong các phương án chỉ \\(\\overrightarrow{MN}=\\dfrac12\\left(\\overrightarrow{AC}+\\overrightarrow{BD}\\right)\\) đúng.",
+   "images": [
+    "img/fig3d/bcd97880b6460ef0.svg"
+   ],
+   "id": "0d20c4f4d2be",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(ABC.A'B'C'\\) is a triangular prism with \\(\\overrightarrow{AA'}=\\vec a\\), \\(\\overrightarrow{AB}=\\vec b\\), \\(\\overrightarrow{AC}=\\vec c\\); \\(M\\) is the centroid of triangle \\(A'B'C'\\). Then \\(\\overrightarrow{AM}=\\)…",
+   "en": "\\(ABC.A'B'C'\\) is a triangular prism with \\(\\overrightarrow{AA'}=\\vec a\\), \\(\\overrightarrow{AB}=\\vec b\\), \\(\\overrightarrow{AC}=\\vec c\\); \\(M\\) is the centroid of triangle \\(A'B'C'\\). Then \\(\\overrightarrow{AM}=\\)…<img src=\"../../../img/fig3d/d31601bd761ddfee.svg\" alt=\"Prism\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"prism\">hình lăng trụ</b> tam giác \\(ABC.A'B'C'\\) với \\(\\overrightarrow{AA'}=\\vec a\\), \\(\\overrightarrow{AB}=\\vec b\\), \\(\\overrightarrow{AC}=\\vec c\\); \\(M\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"centroid\">trọng tâm</b> tam giác \\(A'B'C'\\). Khi đó \\(\\overrightarrow{AM}=\\)…<img src=\"../../../img/fig3d/d31601bd761ddfee.svg\" alt=\"Prism\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "\\(\\dfrac{1}{6}\\vec a+\\dfrac{1}{6}\\vec b+\\vec c\\)",
+    "\\(\\dfrac{1}{3}\\vec a+\\vec b+\\dfrac{1}{3}\\vec c\\)",
+    "\\(\\vec a+\\vec b+\\vec c\\)",
+    "\\(\\vec a+\\dfrac{1}{3}\\vec b+\\dfrac{1}{3}\\vec c\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Go from \\(A\\) to \\(M\\) along the edges: \\(\\overrightarrow{AM}=\\vec a+\\dfrac{1}{3}\\vec b+\\dfrac{1}{3}\\vec c\\).",
+   "explain_vi": "Đáp án d. Đi từ \\(A\\) tới \\(M\\) theo các cạnh: \\(\\overrightarrow{AM}=\\vec a+\\dfrac{1}{3}\\vec b+\\dfrac{1}{3}\\vec c\\).",
+   "images": [
+    "img/fig3d/d31601bd761ddfee.svg"
+   ],
+   "id": "04e13f603df8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(ABCD.A'B'C'D'\\) is a cube with edge \\(#\\). Find \\(\\left|\\overrightarrow{AC}-\\overrightarrow{AA'}\\right|\\).",
+   "en": "\\(ABCD.A'B'C'D'\\) is a cube with edge \\(3\\). Find \\(\\left|\\overrightarrow{AC}-\\overrightarrow{AA'}\\right|\\).<img src=\"../../../img/fig3d/60fc98099e3c5f87.svg\" alt=\"Cube\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"cube\">hình lập phương</b> \\(ABCD.A'B'C'D'\\) cạnh \\(3\\). Tính \\(\\left|\\overrightarrow{AC}-\\overrightarrow{AA'}\\right|\\).<img src=\"../../../img/fig3d/60fc98099e3c5f87.svg\" alt=\"Cube\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "\\(3\\sqrt{6}\\)",
+    "\\(3\\sqrt{2}\\)",
+    "\\(3\\sqrt{3}\\)",
+    "\\(3\\sqrt{5}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. With \\(\\overrightarrow{AB}\\), \\(\\overrightarrow{AD}\\), \\(\\overrightarrow{AA'}\\) as unit directions (length \\(3\\)), the vector is \\(3\\cdot(1;\\,1;\\,-1)\\), length \\(3\\sqrt{3}=3\\sqrt{3}\\).",
+   "explain_vi": "Đáp án c. Lấy \\(\\overrightarrow{AB}\\), \\(\\overrightarrow{AD}\\), \\(\\overrightarrow{AA'}\\) làm ba hướng (độ dài \\(3\\)), vectơ bằng \\(3\\cdot(1;\\,1;\\,-1)\\), độ dài \\(3\\sqrt{3}=3\\sqrt{3}\\).",
+   "images": [
+    "img/fig3d/60fc98099e3c5f87.svg"
+   ],
+   "id": "d8a58f49e003",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(ABCD.A'B'C'D'\\) is a cube. What is the angle (in degrees) between \\(\\overrightarrow{CB'}\\) and \\(\\overrightarrow{CB}\\)?",
+   "en": "\\(ABCD.A'B'C'D'\\) is a cube. What is the angle (in degrees) between \\(\\overrightarrow{CB'}\\) and \\(\\overrightarrow{CB}\\)?<img src=\"../../../img/fig3d/d6acbfa0cc53404f.svg\" alt=\"Cube\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"cube\">hình lập phương</b> \\(ABCD.A'B'C'D'\\). Góc (độ) giữa hai vectơ \\(\\overrightarrow{CB'}\\) và \\(\\overrightarrow{CB}\\) bằng bao nhiêu?<img src=\"../../../img/fig3d/d6acbfa0cc53404f.svg\" alt=\"Cube\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "\\(45\\)",
+    "\\(60\\)",
+    "\\(30\\)",
+    "\\(135\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Put the cube with edge 1 on coordinates: \\(\\overrightarrow{CB'}=(0;\\,-1;\\,1)\\), \\(\\overrightarrow{CB}=(0;\\,-1;\\,0)\\), \\(\\cos=\\dfrac{1}{\\sqrt{2}\\cdot\\sqrt{1}}\\), so the angle is \\(45^\\circ\\).",
+   "explain_vi": "Đáp án a. Gắn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"cube\">hình lập phương</b> cạnh 1 vào hệ tọa độ: \\(\\overrightarrow{CB'}=(0;\\,-1;\\,1)\\), \\(\\overrightarrow{CB}=(0;\\,-1;\\,0)\\), \\(\\cos=\\dfrac{1}{\\sqrt{2}\\cdot\\sqrt{1}}\\), nên góc bằng \\(45^\\circ\\).",
+   "images": [
+    "img/fig3d/d6acbfa0cc53404f.svg"
+   ],
+   "id": "b512e6ae5454",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(G\\) is the centroid of the tetrahedron \\(ABCD\\). It is known that \\(\\overrightarrow{AG}=k\\left(\\overrightarrow{AB}+\\overrightarrow{AC}+\\overrightarrow{AD}\\right)\\) with \\(k=\\)…",
+   "en": "\\(G\\) is the centroid of the tetrahedron \\(ABCD\\). It is known that \\(\\overrightarrow{AG}=k\\left(\\overrightarrow{AB}+\\overrightarrow{AC}+\\overrightarrow{AD}\\right)\\) with \\(k=\\)…<img src=\"../../../img/fig3d/02a9211bac53369d.svg\" alt=\"Tetrahedron\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "\\(G\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"centroid\">trọng tâm</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tetrahedron\">tứ diện</b> \\(ABCD\\). Biết rằng \\(\\overrightarrow{AG}=k\\left(\\overrightarrow{AB}+\\overrightarrow{AC}+\\overrightarrow{AD}\\right)\\) với \\(k=\\)…<img src=\"../../../img/fig3d/02a9211bac53369d.svg\" alt=\"Tetrahedron\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "\\(\\dfrac{2}{3}\\)",
+    "\\(\\dfrac{1}{3}\\)",
+    "\\(\\dfrac{1}{2}\\)",
+    "\\(\\dfrac{1}{4}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\overrightarrow{GA}+\\overrightarrow{GB}+\\overrightarrow{GC}+\\overrightarrow{GD}=\\vec 0\\Rightarrow 4\\overrightarrow{AG}=\\overrightarrow{AB}+\\overrightarrow{AC}+\\overrightarrow{AD}\\).",
+   "explain_vi": "Đáp án d. \\(\\overrightarrow{GA}+\\overrightarrow{GB}+\\overrightarrow{GC}+\\overrightarrow{GD}=\\vec 0\\Rightarrow 4\\overrightarrow{AG}=\\overrightarrow{AB}+\\overrightarrow{AC}+\\overrightarrow{AD}\\).",
+   "images": [
+    "img/fig3d/02a9211bac53369d.svg"
+   ],
+   "id": "b0cad673b7fe",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(|\\vec a|=#\\), \\(|\\vec b|=#\\) and \\(\\vec a\\cdot\\vec b=#\\). The angle between \\(\\vec a\\) and \\(\\vec b\\) is…",
+   "en": "\\(|\\vec a|=2\\), \\(|\\vec b|=5\\) and \\(\\vec a\\cdot\\vec b=0\\). The angle between \\(\\vec a\\) and \\(\\vec b\\) is…",
+   "vi": "Cho \\(|\\vec a|=2\\), \\(|\\vec b|=5\\) và \\(\\vec a\\cdot\\vec b=0\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"angle between vectors\">Góc giữa hai vectơ</b> \\(\\vec a\\) và \\(\\vec b\\) bằng…",
+   "options": [
+    "\\(60^\\circ\\)",
+    "\\(90^\\circ\\)",
+    "\\(120^\\circ\\)",
+    "\\(45^\\circ\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\cos(\\vec a,\\vec b)=\\dfrac{0}{2\\cdot5}=0\\), so the angle is \\(90^\\circ\\).",
+   "explain_vi": "Đáp án b. \\(\\cos(\\vec a,\\vec b)=\\dfrac{0}{2\\cdot5}=0\\), nên góc bằng \\(90^\\circ\\).",
+   "images": [],
+   "id": "3e6120939163",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "In the parallelepiped \\(ABCD.A'B'C'D'\\), \\(\\overrightarrow{DA}+\\overrightarrow{DC}+\\overrightarrow{DD'}=\\)…",
+   "en": "In the parallelepiped \\(ABCD.A'B'C'D'\\), \\(\\overrightarrow{DA}+\\overrightarrow{DC}+\\overrightarrow{DD'}=\\)…",
+   "vi": "Trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelepiped\">hình hộp</b> \\(ABCD.A'B'C'D'\\), \\(\\overrightarrow{DA}+\\overrightarrow{DC}+\\overrightarrow{DD'}=\\)…",
+   "options": [
+    "\\(\\overrightarrow{AC'}\\)",
+    "\\(\\overrightarrow{BD'}\\)",
+    "\\(\\overrightarrow{CA'}\\)",
+    "\\(\\overrightarrow{DB'}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Parallelepiped rule: three edges from one vertex add up to the diagonal from that vertex.",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelepiped rule\">Quy tắc hình hộp</b>: tổng ba vectơ cạnh xuất phát từ một đỉnh là vectơ <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b> xuất phát từ đỉnh đó.",
+   "images": [],
+   "id": "f2be24193a80",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "In the tetrahedron \\(ABCD\\), \\(M\\), \\(N\\) are the midpoints of \\(AD\\), \\(BC\\). Then \\(\\overrightarrow{MN}=k(\\overrightarrow{AB}+\\overrightarrow{DC})\\) with \\(k=\\)…",
+   "en": "In the tetrahedron \\(ABCD\\), \\(M\\), \\(N\\) are the midpoints of \\(AD\\), \\(BC\\). Then \\(\\overrightarrow{MN}=k(\\overrightarrow{AB}+\\overrightarrow{DC})\\) with \\(k=\\)…",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tetrahedron\">tứ diện</b> \\(ABCD\\), \\(M\\), \\(N\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"respectively\">lần lượt</b> là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> của \\(AD\\), \\(BC\\). Khi đó \\(\\overrightarrow{MN}=k(\\overrightarrow{AB}+\\overrightarrow{DC})\\) với \\(k=\\)…",
+   "options": [
+    "\\(1\\)",
+    "\\(2\\)",
+    "\\(\\dfrac12\\)",
+    "\\(-\\dfrac12\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\overrightarrow{MN}=\\overrightarrow{MA}+\\overrightarrow{AB}+\\overrightarrow{BN}\\) and \\(\\overrightarrow{MN}=\\overrightarrow{MD}+\\overrightarrow{DC}+\\overrightarrow{CN}\\); add them (\\(\\overrightarrow{MA}+\\overrightarrow{MD}=\\vec0\\), likewise at \\(N\\)).",
+   "explain_vi": "Đáp án c. \\(\\overrightarrow{MN}=\\overrightarrow{MA}+\\overrightarrow{AB}+\\overrightarrow{BN}\\) và \\(\\overrightarrow{MN}=\\overrightarrow{MD}+\\overrightarrow{DC}+\\overrightarrow{CN}\\); cộng vế (\\(\\overrightarrow{MA}+\\overrightarrow{MD}=\\vec0\\), tương tự tại \\(N\\)).",
+   "images": [],
+   "id": "038f742cbeb2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(ABCD\\) is a regular tetrahedron with edge #. \\(\\overrightarrow{AB}\\cdot\\overrightarrow{BC}=\\)…",
+   "en": "\\(ABCD\\) is a regular tetrahedron with edge 8. \\(\\overrightarrow{AB}\\cdot\\overrightarrow{BC}=\\)…",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tetrahedron\">tứ diện</b> đều \\(ABCD\\) cạnh 8. Khi đó \\(\\overrightarrow{AB}\\cdot\\overrightarrow{BC}=\\)…",
+   "options": [
+    "\\(-32\\)",
+    "\\(32\\)",
+    "\\(0\\)",
+    "\\(64\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Move the vectors to a common start: two edges of an equilateral face make \\(60^\\circ\\) (or \\(120^\\circ\\) if one is reversed); opposite edges are perpendicular.",
+   "explain_vi": "Đáp án a. Dời hai vectơ về chung điểm đầu: hai cạnh của một mặt (tam giác đều) tạo góc \\(60^\\circ\\) (hoặc \\(120^\\circ\\) nếu một vectơ <b class=\"mbl-term\" tabindex=\"0\" data-en=\"opposite directions\">ngược hướng</b>); hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"opposite side\">cạnh đối</b> diện <b class=\"mbl-term\" tabindex=\"0\" data-en=\"perpendicular\">vuông góc</b>.",
+   "images": [],
+   "id": "2bc851fdafa9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "In the pyramid \\(S.ABCD\\) whose base is a parallelogram with centre \\(O\\): \\(\\overrightarrow{SA}+\\overrightarrow{SB}+\\overrightarrow{SC}+\\overrightarrow{SD}=#\\overrightarrow{SO}\\).",
+   "en": "In the pyramid \\(S.ABCD\\) whose base is a parallelogram with centre \\(O\\): \\(\\overrightarrow{SA}+\\overrightarrow{SB}+\\overrightarrow{SC}+\\overrightarrow{SD}=4\\overrightarrow{SO}\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">Hình chóp</b> \\(S.ABCD\\) có đáy là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelogram\">hình bình hành</b> tâm \\(O\\). Khi đó \\(\\overrightarrow{SA}+\\overrightarrow{SB}+\\overrightarrow{SC}+\\overrightarrow{SD}=4\\overrightarrow{SO}\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "\\(O\\) is the midpoint of \\(AC\\) and \\(BD\\): \\(\\overrightarrow{SA}+\\overrightarrow{SC}=\\overrightarrow{SB}+\\overrightarrow{SD}=2\\overrightarrow{SO}\\).",
+   "explain_vi": "\\(O\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> của \\(AC\\) và \\(BD\\): \\(\\overrightarrow{SA}+\\overrightarrow{SC}=\\overrightarrow{SB}+\\overrightarrow{SD}=2\\overrightarrow{SO}\\).",
+   "images": [],
+   "id": "b78f317c9f8d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "Three pairwise perpendicular forces of # N, # N, # N act at one point. The resultant force has magnitude # N.",
+   "en": "Three pairwise perpendicular forces of 4 N, 4 N, 7 N act at one point. The resultant force has magnitude 9 N.",
+   "vi": "Ba lực đôi một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"perpendicular\">vuông góc</b> có độ lớn 4 N, 4 N, 7 N cùng tác dụng vào một điểm. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"resultant force\">Hợp lực</b> có độ lớn 9 N.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "The resultant is the diagonal of the box built on the forces: \\(\\sqrt{4^2+4^2+7^2}=9\\) N.",
+   "explain_vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"resultant force\">Hợp lực</b> là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelepiped\">hình hộp</b> chữ nhật dựng trên ba lực: \\(\\sqrt{4^2+4^2+7^2}=9\\) N.",
+   "images": [],
+   "id": "5a63033971b1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "A cube \\(ABCD.A'B'C'D'\\) has edge #. Find \\(\\overrightarrow{AB}\\cdot\\overrightarrow{A'C'}\\).",
+   "en": "A cube \\(ABCD.A'B'C'D'\\) has edge 9. Find \\(\\overrightarrow{AB}\\cdot\\overrightarrow{A'C'}\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"cube\">Hình lập phương</b> \\(ABCD.A'B'C'D'\\) có cạnh 9. Tính \\(\\overrightarrow{AB}\\cdot\\overrightarrow{A'C'}\\).",
+   "options": [],
+   "answer": "81",
+   "explain_en": "Use the edge vectors; the answer is 1·9².",
+   "explain_vi": "Dùng ba vectơ cạnh; đáp số là 1·9².",
+   "images": [],
+   "id": "096ea8891395",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "In the regular tetrahedron \\(ABCD\\), find the angle (in degrees) between \\(\\overrightarrow{AB}\\) and \\(\\overrightarrow{BC}\\).",
+   "en": "In the regular tetrahedron \\(ABCD\\), find the angle (in degrees) between \\(\\overrightarrow{AB}\\) and \\(\\overrightarrow{BC}\\).",
+   "vi": "Trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tetrahedron\">tứ diện</b> đều \\(ABCD\\), tìm góc (đơn vị độ) giữa hai vectơ \\(\\overrightarrow{AB}\\) và \\(\\overrightarrow{BC}\\).",
+   "options": [],
+   "answer": "120",
+   "explain_en": "Move the vectors to a common start point, then use the equilateral faces.",
+   "explain_vi": "Dời hai vectơ về chung điểm đầu, rồi dùng tính chất các mặt là tam giác đều.",
+   "images": [],
+   "id": "2534a4ca8131",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "A force \\(\\vec F\\) of \\(#\\) N pulls a sled along a straight road for \\(#\\) m. The angle between \\(\\vec F\\) and the displacement is \\(#^\\circ\\). The work \\(A=\\vec F\\cdot\\vec d\\) (J) is…",
+   "en": "A force \\(\\vec F\\) of \\(120\\) N pulls a sled along a straight road for \\(12\\) m. The angle between \\(\\vec F\\) and the displacement is \\(60^\\circ\\). The work \\(A=\\vec F\\cdot\\vec d\\) (J) is…",
+   "vi": "Một lực \\(\\vec F\\) có độ lớn \\(120\\) N kéo xe trượt đi \\(12\\) m trên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b>. Góc giữa \\(\\vec F\\) và độ dời là \\(60^\\circ\\). Công \\(A=\\vec F\\cdot\\vec d\\) (J) bằng…",
+   "options": [
+    "\\(132\\)",
+    "\\(-720\\)",
+    "\\(720\\)",
+    "\\(1440\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(A=|\\vec F|\\cdot|\\vec d|\\cos60^\\circ=120\\cdot12\\cdot\\dfrac{1}{2}=720\\).",
+   "explain_vi": "Đáp án c. \\(A=|\\vec F|\\cdot|\\vec d|\\cos60^\\circ=120\\cdot12\\cdot\\dfrac{1}{2}=720\\).",
+   "images": [],
+   "id": "ce2d04c580c6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "A square lamp \\(ABCD\\) weighing \\(#\\) N hangs from a hook \\(S\\) by four equal chains \\(SA, SB, SC, SD\\), each \\(#\\) dm long; \\(S\\) is \\(#\\) dm above the lamp (see the figure). The tension in each chain (N) is…",
+   "en": "A square lamp \\(ABCD\\) weighing \\(48\\) N hangs from a hook \\(S\\) by four equal chains \\(SA, SB, SC, SD\\), each \\(13\\) dm long; \\(S\\) is \\(12\\) dm above the lamp (see the figure). The tension in each chain (N) is…<img src=\"../../../img/fig3d/65ae8d74ccf5795d.svg\" alt=\"Lamp\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Một chiếc đèn hình vuông \\(ABCD\\) nặng \\(48\\) N được treo vào móc \\(S\\) bằng bốn sợi xích bằng nhau \\(SA, SB, SC, SD\\), mỗi sợi dài \\(13\\) dm; \\(S\\) cao hơn mặt đèn \\(12\\) dm (xem hình). Lực căng của mỗi sợi xích (N) là…<img src=\"../../../img/fig3d/65ae8d74ccf5795d.svg\" alt=\"Lamp\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "\\(13\\)",
+    "\\(12\\)",
+    "\\(52\\)",
+    "\\(\\dfrac{144}{13}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. The vertical parts of the four tensions balance the weight: \\(4T\\cos\\alpha=48\\) with \\(\\cos\\alpha=\\dfrac{12}{13}\\), so \\(T=13\\).",
+   "explain_vi": "Đáp án a. Thành phần thẳng đứng của bốn lực căng cân bằng trọng lực: \\(4T\\cos\\alpha=48\\) với \\(\\cos\\alpha=\\dfrac{12}{13}\\), nên \\(T=13\\).",
+   "images": [
+    "img/fig3d/65ae8d74ccf5795d.svg"
+   ],
+   "id": "ee7b72015f73",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "In the tetrahedron \\(ABCD\\), \\(M\\), \\(N\\) are the midpoints of \\(AB\\), \\(CD\\) and \\(I\\) is the midpoint of \\(MN\\). Exactly one equality below is correct. Which one?",
+   "en": "In the tetrahedron \\(ABCD\\), \\(M\\), \\(N\\) are the midpoints of \\(AB\\), \\(CD\\) and \\(I\\) is the midpoint of \\(MN\\). Exactly one equality below is correct. Which one?<img src=\"../../../img/fig3d/bcd97880b6460ef0.svg\" alt=\"Tetrahedron\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tetrahedron\">tứ diện</b> \\(ABCD\\); \\(M\\), \\(N\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> của \\(AB\\), \\(CD\\) và \\(I\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> của \\(MN\\). Chỉ có một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"identity\">đẳng thức</b> đúng. Đó là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"identity\">đẳng thức</b> nào?<img src=\"../../../img/fig3d/bcd97880b6460ef0.svg\" alt=\"Tetrahedron\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "\\(\\overrightarrow{MN}=\\overrightarrow{AC}+\\overrightarrow{BD}\\)",
+    "\\(\\overrightarrow{MN}=\\dfrac12\\left(\\overrightarrow{AB}+\\overrightarrow{CD}\\right)\\)",
+    "\\(\\overrightarrow{MN}=\\dfrac12\\left(\\overrightarrow{AD}+\\overrightarrow{BC}\\right)\\)",
+    "\\(\\overrightarrow{IA}+\\overrightarrow{IB}=\\overrightarrow{IC}+\\overrightarrow{ID}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Use midpoints: \\(\\overrightarrow{IA}+\\overrightarrow{IB}=2\\overrightarrow{IM}\\), \\(\\overrightarrow{IC}+\\overrightarrow{ID}=2\\overrightarrow{IN}\\), \\(\\overrightarrow{IM}+\\overrightarrow{IN}=\\vec0\\); \\(2\\overrightarrow{MN}=\\overrightarrow{AD}+\\overrightarrow{BC}=\\overrightarrow{AC}+\\overrightarrow{BD}\\). Only \\(\\overrightarrow{MN}=\\dfrac12\\left(\\overrightarrow{AD}+\\overrightarrow{BC}\\right)\\) is among the true ones.",
+   "explain_vi": "Đáp án c. Dùng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b>: \\(\\overrightarrow{IA}+\\overrightarrow{IB}=2\\overrightarrow{IM}\\), \\(\\overrightarrow{IC}+\\overrightarrow{ID}=2\\overrightarrow{IN}\\), \\(\\overrightarrow{IM}+\\overrightarrow{IN}=\\vec0\\); \\(2\\overrightarrow{MN}=\\overrightarrow{AD}+\\overrightarrow{BC}=\\overrightarrow{AC}+\\overrightarrow{BD}\\). Trong các phương án chỉ \\(\\overrightarrow{MN}=\\dfrac12\\left(\\overrightarrow{AD}+\\overrightarrow{BC}\\right)\\) đúng.",
+   "images": [
+    "img/fig3d/bcd97880b6460ef0.svg"
+   ],
+   "id": "89ba968145b9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(ABC.A'B'C'\\) is a triangular prism with \\(\\overrightarrow{AA'}=\\vec a\\), \\(\\overrightarrow{AB}=\\vec b\\), \\(\\overrightarrow{AC}=\\vec c\\); \\(M\\) is the midpoint of \\(BC'\\). Then \\(\\overrightarrow{AM}=\\)…",
+   "en": "\\(ABC.A'B'C'\\) is a triangular prism with \\(\\overrightarrow{AA'}=\\vec a\\), \\(\\overrightarrow{AB}=\\vec b\\), \\(\\overrightarrow{AC}=\\vec c\\); \\(M\\) is the midpoint of \\(BC'\\). Then \\(\\overrightarrow{AM}=\\)…<img src=\"../../../img/fig3d/b2f9312de0c9633a.svg\" alt=\"Prism\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"prism\">hình lăng trụ</b> tam giác \\(ABC.A'B'C'\\) với \\(\\overrightarrow{AA'}=\\vec a\\), \\(\\overrightarrow{AB}=\\vec b\\), \\(\\overrightarrow{AC}=\\vec c\\); \\(M\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> của \\(BC'\\). Khi đó \\(\\overrightarrow{AM}=\\)…<img src=\"../../../img/fig3d/b2f9312de0c9633a.svg\" alt=\"Prism\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "\\(\\vec a+\\dfrac{1}{2}\\vec b+\\dfrac{1}{2}\\vec c\\)",
+    "\\(\\vec a+\\vec b+\\vec c\\)",
+    "\\(\\dfrac{1}{4}\\vec a+\\dfrac{1}{4}\\vec b+\\dfrac{1}{4}\\vec c\\)",
+    "\\(\\dfrac{1}{2}\\vec a+\\dfrac{1}{2}\\vec b+\\dfrac{1}{2}\\vec c\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Go from \\(A\\) to \\(M\\) along the edges: \\(\\overrightarrow{AM}=\\dfrac{1}{2}\\vec a+\\dfrac{1}{2}\\vec b+\\dfrac{1}{2}\\vec c\\).",
+   "explain_vi": "Đáp án d. Đi từ \\(A\\) tới \\(M\\) theo các cạnh: \\(\\overrightarrow{AM}=\\dfrac{1}{2}\\vec a+\\dfrac{1}{2}\\vec b+\\dfrac{1}{2}\\vec c\\).",
+   "images": [
+    "img/fig3d/b2f9312de0c9633a.svg"
+   ],
+   "id": "8fc1db301cc1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(ABCD.A'B'C'D'\\) is a cube with edge \\(#\\). Find \\(\\left|\\overrightarrow{AB}-\\overrightarrow{BC'}\\right|\\).",
+   "en": "\\(ABCD.A'B'C'D'\\) is a cube with edge \\(3\\). Find \\(\\left|\\overrightarrow{AB}-\\overrightarrow{BC'}\\right|\\).<img src=\"../../../img/fig3d/c2527a675098539d.svg\" alt=\"Cube\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"cube\">hình lập phương</b> \\(ABCD.A'B'C'D'\\) cạnh \\(3\\). Tính \\(\\left|\\overrightarrow{AB}-\\overrightarrow{BC'}\\right|\\).<img src=\"../../../img/fig3d/c2527a675098539d.svg\" alt=\"Cube\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "\\(3\\sqrt{6}\\)",
+    "\\(3\\sqrt{5}\\)",
+    "\\(3\\sqrt{2}\\)",
+    "\\(3\\sqrt{3}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. With \\(\\overrightarrow{AB}\\), \\(\\overrightarrow{AD}\\), \\(\\overrightarrow{AA'}\\) as unit directions (length \\(3\\)), the vector is \\(3\\cdot(1;\\,-1;\\,-1)\\), length \\(3\\sqrt{3}=3\\sqrt{3}\\).",
+   "explain_vi": "Đáp án d. Lấy \\(\\overrightarrow{AB}\\), \\(\\overrightarrow{AD}\\), \\(\\overrightarrow{AA'}\\) làm ba hướng (độ dài \\(3\\)), vectơ bằng \\(3\\cdot(1;\\,-1;\\,-1)\\), độ dài \\(3\\sqrt{3}=3\\sqrt{3}\\).",
+   "images": [
+    "img/fig3d/c2527a675098539d.svg"
+   ],
+   "id": "7bbb873e7c40",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(ABCD.A'B'C'D'\\) is a cube. What is the angle (in degrees) between \\(\\overrightarrow{BD}\\) and \\(\\overrightarrow{D'A}\\)?",
+   "en": "\\(ABCD.A'B'C'D'\\) is a cube. What is the angle (in degrees) between \\(\\overrightarrow{BD}\\) and \\(\\overrightarrow{D'A}\\)?<img src=\"../../../img/fig3d/cb2a596957edd3d1.svg\" alt=\"Cube\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"cube\">hình lập phương</b> \\(ABCD.A'B'C'D'\\). Góc (độ) giữa hai vectơ \\(\\overrightarrow{BD}\\) và \\(\\overrightarrow{D'A}\\) bằng bao nhiêu?<img src=\"../../../img/fig3d/cb2a596957edd3d1.svg\" alt=\"Cube\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "\\(120\\)",
+    "\\(60\\)",
+    "\\(45\\)",
+    "\\(30\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Put the cube with edge 1 on coordinates: \\(\\overrightarrow{BD}=(-1;\\,1;\\,0)\\), \\(\\overrightarrow{D'A}=(0;\\,-1;\\,-1)\\), \\(\\cos=\\dfrac{-1}{\\sqrt{2}\\cdot\\sqrt{2}}\\), so the angle is \\(120^\\circ\\).",
+   "explain_vi": "Đáp án a. Gắn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"cube\">hình lập phương</b> cạnh 1 vào hệ tọa độ: \\(\\overrightarrow{BD}=(-1;\\,1;\\,0)\\), \\(\\overrightarrow{D'A}=(0;\\,-1;\\,-1)\\), \\(\\cos=\\dfrac{-1}{\\sqrt{2}\\cdot\\sqrt{2}}\\), nên góc bằng \\(120^\\circ\\).",
+   "images": [
+    "img/fig3d/cb2a596957edd3d1.svg"
+   ],
+   "id": "e060613cdd07",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(G\\) is the centroid of the tetrahedron \\(ABCD\\). Suppose \\(\\overrightarrow{AG}=k\\left(\\overrightarrow{AB}+\\overrightarrow{AC}+\\overrightarrow{AD}\\right)\\) with \\(k=\\)…",
+   "en": "\\(G\\) is the centroid of the tetrahedron \\(ABCD\\). Suppose \\(\\overrightarrow{AG}=k\\left(\\overrightarrow{AB}+\\overrightarrow{AC}+\\overrightarrow{AD}\\right)\\) with \\(k=\\)…<img src=\"../../../img/fig3d/02a9211bac53369d.svg\" alt=\"Tetrahedron\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "\\(G\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"centroid\">trọng tâm</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tetrahedron\">tứ diện</b> \\(ABCD\\). Giả sử \\(\\overrightarrow{AG}=k\\left(\\overrightarrow{AB}+\\overrightarrow{AC}+\\overrightarrow{AD}\\right)\\) với \\(k=\\)…<img src=\"../../../img/fig3d/02a9211bac53369d.svg\" alt=\"Tetrahedron\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "\\(\\dfrac{2}{3}\\)",
+    "\\(\\dfrac{1}{4}\\)",
+    "\\(\\dfrac{1}{2}\\)",
+    "\\(\\dfrac{1}{3}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\overrightarrow{GA}+\\overrightarrow{GB}+\\overrightarrow{GC}+\\overrightarrow{GD}=\\vec 0\\Rightarrow 4\\overrightarrow{AG}=\\overrightarrow{AB}+\\overrightarrow{AC}+\\overrightarrow{AD}\\).",
+   "explain_vi": "Đáp án b. \\(\\overrightarrow{GA}+\\overrightarrow{GB}+\\overrightarrow{GC}+\\overrightarrow{GD}=\\vec 0\\Rightarrow 4\\overrightarrow{AG}=\\overrightarrow{AB}+\\overrightarrow{AC}+\\overrightarrow{AD}\\).",
+   "images": [
+    "img/fig3d/02a9211bac53369d.svg"
+   ],
+   "id": "8c14275d997d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(|\\vec a|=#\\), \\(|\\vec b|=#\\) and \\(\\vec a\\cdot\\vec b=#\\). The angle between \\(\\vec a\\) and \\(\\vec b\\) is…",
+   "en": "\\(|\\vec a|=2\\), \\(|\\vec b|=4\\) and \\(\\vec a\\cdot\\vec b=4\\). The angle between \\(\\vec a\\) and \\(\\vec b\\) is…",
+   "vi": "Cho \\(|\\vec a|=2\\), \\(|\\vec b|=4\\) và \\(\\vec a\\cdot\\vec b=4\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"angle between vectors\">Góc giữa hai vectơ</b> \\(\\vec a\\) và \\(\\vec b\\) bằng…",
+   "options": [
+    "\\(30^\\circ\\)",
+    "\\(120^\\circ\\)",
+    "\\(60^\\circ\\)",
+    "\\(150^\\circ\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\cos(\\vec a,\\vec b)=\\dfrac{4}{2\\cdot4}=\\dfrac{1}{2}\\), so the angle is \\(60^\\circ\\).",
+   "explain_vi": "Đáp án c. \\(\\cos(\\vec a,\\vec b)=\\dfrac{4}{2\\cdot4}=\\dfrac{1}{2}\\), nên góc bằng \\(60^\\circ\\).",
+   "images": [],
+   "id": "250bb22ba4b8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "In the cube \\(ABCD.A'B'C'D'\\), \\(\\overrightarrow{AB}\\cdot\\overrightarrow{AD}=\\)…",
+   "en": "In the cube \\(ABCD.A'B'C'D'\\), \\(\\overrightarrow{AB}\\cdot\\overrightarrow{AD}=\\)…",
+   "vi": "Trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"cube\">hình lập phương</b> \\(ABCD.A'B'C'D'\\), \\(\\overrightarrow{AB}\\cdot\\overrightarrow{AD}=\\)…",
+   "options": [
+    "\\(1\\)",
+    "\\(-1\\)",
+    "\\(0\\)",
+    "<span class=\"txi\"><span class=\"en\">depends on the edge length</span><span class=\"vi\">phụ thuộc độ dài cạnh</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The two vectors are perpendicular, so the dot product is 0.",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"perpendicular vectors\">Hai vectơ vuông góc</b> nên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"dot product (scalar product)\">tích vô hướng</b> bằng 0.",
+   "images": [],
+   "id": "5072b9fc821b",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "In the cube \\(ABCD.A'B'C'D'\\), the angle between \\(\\overrightarrow{B'B}\\) and \\(\\overrightarrow{D'C'}\\) is…",
+   "en": "In the cube \\(ABCD.A'B'C'D'\\), the angle between \\(\\overrightarrow{B'B}\\) and \\(\\overrightarrow{D'C'}\\) is…",
+   "vi": "Trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"cube\">hình lập phương</b> \\(ABCD.A'B'C'D'\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"angle between vectors\">góc giữa hai vectơ</b> \\(\\overrightarrow{B'B}\\) và \\(\\overrightarrow{D'C'}\\) bằng…",
+   "options": [
+    "\\(60^\\circ\\)",
+    "\\(30^\\circ\\)",
+    "\\(90^\\circ\\)",
+    "\\(45^\\circ\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Use \\(\\cos\\theta=\\dfrac{\\vec u\\cdot\\vec v}{|\\vec u||\\vec v|}\\).",
+   "explain_vi": "Đáp án c. Dùng \\(\\cos\\theta=\\dfrac{\\vec u\\cdot\\vec v}{|\\vec u||\\vec v|}\\).",
+   "images": [],
+   "id": "5f9b6dce8200",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "In the parallelepiped \\(ABCD.A'B'C'D'\\), \\(\\overrightarrow{DA}+\\overrightarrow{DC}+\\overrightarrow{DD'}=\\;?\\)",
+   "en": "In the parallelepiped \\(ABCD.A'B'C'D'\\), \\(\\overrightarrow{DA}+\\overrightarrow{DC}+\\overrightarrow{DD'}=\\;?\\)",
+   "vi": "Trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelepiped\">hình hộp</b> \\(ABCD.A'B'C'D'\\), \\(\\overrightarrow{DA}+\\overrightarrow{DC}+\\overrightarrow{DD'}=\\;?\\)",
+   "options": [
+    "\\(\\overrightarrow{BD'}\\)",
+    "\\(\\overrightarrow{CA'}\\)",
+    "\\(\\overrightarrow{DB'}\\)",
+    "\\(\\overrightarrow{AC'}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Parallelepiped rule: the sum of three edge vectors from one vertex is the diagonal of the parallelepiped from that vertex.",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelepiped rule\">Quy tắc hình hộp</b>: tổng ba vectơ cạnh xuất phát từ một đỉnh là vectơ <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelepiped\">hình hộp</b> xuất phát từ đỉnh đó.",
+   "images": [],
+   "id": "fccaf6a0ce7e",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Three forces \\(\\vec F_#,\\vec F_#,\\vec F_#\\) act on an object at one point; they are pairwise perpendicular with magnitudes # N, # N, # N. The resultant force has magnitude…",
+   "en": "Three forces \\(\\vec F_1,\\vec F_2,\\vec F_3\\) act on an object at one point; they are pairwise perpendicular with magnitudes 30 N, 30 N, 35 N. The resultant force has magnitude…",
+   "vi": "Ba lực \\(\\vec F_1,\\vec F_2,\\vec F_3\\) cùng tác dụng vào một vật tại một điểm, đôi một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"perpendicular\">vuông góc</b>, có độ lớn lần lượt 30 N, 30 N, 35 N. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"resultant force\">Hợp lực</b> có độ lớn bằng…",
+   "options": [
+    "\\(3025\\ \\text{N}\\)",
+    "\\(55\\ \\text{N}\\)",
+    "\\(95\\ \\text{N}\\)",
+    "\\(40\\ \\text{N}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. The resultant is the space diagonal of the box built on the three forces: \\(|\\vec F|=\\sqrt{30^2+30^2+35^2}=55\\).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"resultant force\">Hợp lực</b> là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelepiped\">hình hộp</b> chữ nhật dựng trên ba lực: \\(|\\vec F|=\\sqrt{30^2+30^2+35^2}=55\\).",
+   "images": [],
+   "id": "a946acb51016",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(ABCD.A'B'C'D'\\) is a cube with edge #. Find \\(\\overrightarrow{DA'}\\cdot\\overrightarrow{B'D}\\).",
+   "en": "\\(ABCD.A'B'C'D'\\) is a cube with edge 2. Find \\(\\overrightarrow{DA'}\\cdot\\overrightarrow{B'D}\\).",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"cube\">hình lập phương</b> \\(ABCD.A'B'C'D'\\) cạnh 2. Tính \\(\\overrightarrow{DA'}\\cdot\\overrightarrow{B'D}\\).",
+   "options": [
+    "\\(-16\\)",
+    "\\(-8\\)",
+    "\\(-4\\)",
+    "\\(8\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Write both vectors with the edge vectors \\(\\overrightarrow{AB},\\overrightarrow{AD},\\overrightarrow{AA'}\\) (pairwise perpendicular, length 2).",
+   "explain_vi": "Đáp án b. Phân tích cả hai vectơ theo \\(\\overrightarrow{AB},\\overrightarrow{AD},\\overrightarrow{AA'}\\) (đôi một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"perpendicular\">vuông góc</b>, độ dài 2).",
+   "images": [],
+   "id": "f74cde2ce219",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(ABCD\\) is a regular tetrahedron with edge #. Find \\(\\overrightarrow{DC}\\cdot\\overrightarrow{BD}\\).",
+   "en": "\\(ABCD\\) is a regular tetrahedron with edge 6. Find \\(\\overrightarrow{DC}\\cdot\\overrightarrow{BD}\\).",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tetrahedron\">tứ diện</b> đều \\(ABCD\\) cạnh 6. Tính \\(\\overrightarrow{DC}\\cdot\\overrightarrow{BD}\\).",
+   "options": [
+    "\\(0\\)",
+    "\\(18\\)",
+    "\\(-18\\)",
+    "\\(36\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. All faces are equilateral triangles: two edges from a common vertex make \\(60^\\circ\\); two opposite edges are perpendicular. Move the vectors to a common start before reading the angle.",
+   "explain_vi": "Đáp án c. Các mặt là tam giác đều: hai cạnh chung đỉnh tạo góc \\(60^\\circ\\); hai cạnh đối diện <b class=\"mbl-term\" tabindex=\"0\" data-en=\"perpendicular\">vuông góc</b>. Dời hai vectơ về chung điểm đầu rồi mới xác định góc.",
+   "images": [],
+   "id": "ed5907bc0db2",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(K\\) is the midpoint of \\(PQ\\) and \\(O\\) is any point. Then \\(\\overrightarrow{OK}=\\)…",
+   "en": "\\(K\\) is the midpoint of \\(PQ\\) and \\(O\\) is any point. Then \\(\\overrightarrow{OK}=\\)…",
+   "vi": "\\(K\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> của \\(PQ\\), \\(O\\) là điểm bất kỳ. Khi đó \\(\\overrightarrow{OK}=\\)…",
+   "options": [
+    "\\(\\overrightarrow{OP}-\\overrightarrow{OQ}\\)",
+    "\\(\\overrightarrow{OP}+\\overrightarrow{OQ}\\)",
+    "\\(\\dfrac12(\\overrightarrow{OP}-\\overrightarrow{OQ})\\)",
+    "\\(\\dfrac12(\\overrightarrow{OP}+\\overrightarrow{OQ})\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\overrightarrow{KP}+\\overrightarrow{KQ}=\\vec0\\) gives \\(2\\overrightarrow{OK}=\\overrightarrow{OP}+\\overrightarrow{OQ}\\).",
+   "explain_vi": "Đáp án d. \\(\\overrightarrow{KP}+\\overrightarrow{KQ}=\\vec0\\) suy ra \\(2\\overrightarrow{OK}=\\overrightarrow{OP}+\\overrightarrow{OQ}\\).",
+   "images": [],
+   "id": "8ffed20209e4",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(S.ABCD\\) is a pyramid whose base is a parallelogram with centre \\(O\\). Then \\(\\overrightarrow{SB}+\\overrightarrow{SD}=\\)…",
+   "en": "\\(S.ABCD\\) is a pyramid whose base is a parallelogram with centre \\(O\\). Then \\(\\overrightarrow{SB}+\\overrightarrow{SD}=\\)…",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">hình chóp</b> \\(S.ABCD\\) có đáy là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelogram\">hình bình hành</b> tâm \\(O\\). Khi đó \\(\\overrightarrow{SB}+\\overrightarrow{SD}=\\)…",
+   "options": [
+    "\\(\\vec0\\)",
+    "\\(4\\overrightarrow{SO}\\)",
+    "\\(\\overrightarrow{SO}\\)",
+    "\\(2\\overrightarrow{SO}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(O\\) is the midpoint of \\(AC\\) and of \\(BD\\), so \\(\\overrightarrow{SA}+\\overrightarrow{SC}=\\overrightarrow{SB}+\\overrightarrow{SD}=2\\overrightarrow{SO}\\).",
+   "explain_vi": "Đáp án d. \\(O\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> của \\(AC\\) và của \\(BD\\) nên \\(\\overrightarrow{SA}+\\overrightarrow{SC}=\\overrightarrow{SB}+\\overrightarrow{SD}=2\\overrightarrow{SO}\\).",
+   "images": [],
+   "id": "e560a1e41db8",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "In the cube \\(ABCD.A'B'C'D'\\), \\(\\overrightarrow{AC}\\cdot\\overrightarrow{AA'}=\\)…",
+   "en": "In the cube \\(ABCD.A'B'C'D'\\), \\(\\overrightarrow{AC}\\cdot\\overrightarrow{AA'}=\\)…",
+   "vi": "Trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"cube\">hình lập phương</b> \\(ABCD.A'B'C'D'\\), \\(\\overrightarrow{AC}\\cdot\\overrightarrow{AA'}=\\)…",
+   "options": [
+    "\\(-1\\)",
+    "\\(1\\)",
+    "\\(0\\)",
+    "<span class=\"txi\"><span class=\"en\">depends on the edge length</span><span class=\"vi\">phụ thuộc độ dài cạnh</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The two vectors are perpendicular, so the dot product is 0.",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"perpendicular vectors\">Hai vectơ vuông góc</b> nên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"dot product (scalar product)\">tích vô hướng</b> bằng 0.",
+   "images": [],
+   "id": "00ed70be48d2",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "In the cube \\(ABCD.A'B'C'D'\\), the angle between \\(\\overrightarrow{D'B}\\) and \\(\\overrightarrow{C'D}\\) is…",
+   "en": "In the cube \\(ABCD.A'B'C'D'\\), the angle between \\(\\overrightarrow{D'B}\\) and \\(\\overrightarrow{C'D}\\) is…",
+   "vi": "Trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"cube\">hình lập phương</b> \\(ABCD.A'B'C'D'\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"angle between vectors\">góc giữa hai vectơ</b> \\(\\overrightarrow{D'B}\\) và \\(\\overrightarrow{C'D}\\) bằng…",
+   "options": [
+    "\\(30^\\circ\\)",
+    "\\(60^\\circ\\)",
+    "\\(45^\\circ\\)",
+    "\\(90^\\circ\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Use \\(\\cos\\theta=\\dfrac{\\vec u\\cdot\\vec v}{|\\vec u||\\vec v|}\\).",
+   "explain_vi": "Đáp án d. Dùng \\(\\cos\\theta=\\dfrac{\\vec u\\cdot\\vec v}{|\\vec u||\\vec v|}\\).",
+   "images": [],
+   "id": "503fca575946",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "In the parallelepiped \\(ABCD.A'B'C'D'\\), \\(\\overrightarrow{CB}+\\overrightarrow{CD}+\\overrightarrow{CC'}=\\;?\\)",
+   "en": "In the parallelepiped \\(ABCD.A'B'C'D'\\), \\(\\overrightarrow{CB}+\\overrightarrow{CD}+\\overrightarrow{CC'}=\\;?\\)",
+   "vi": "Trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelepiped\">hình hộp</b> \\(ABCD.A'B'C'D'\\), \\(\\overrightarrow{CB}+\\overrightarrow{CD}+\\overrightarrow{CC'}=\\;?\\)",
+   "options": [
+    "\\(\\overrightarrow{CA'}\\)",
+    "\\(\\overrightarrow{BD'}\\)",
+    "\\(\\overrightarrow{AC'}\\)",
+    "\\(\\overrightarrow{DB'}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Parallelepiped rule: the sum of three edge vectors from one vertex is the diagonal of the parallelepiped from that vertex.",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelepiped rule\">Quy tắc hình hộp</b>: tổng ba vectơ cạnh xuất phát từ một đỉnh là vectơ <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelepiped\">hình hộp</b> xuất phát từ đỉnh đó.",
+   "images": [],
+   "id": "ad74bca80bc1",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Three forces \\(\\vec F_#,\\vec F_#,\\vec F_#\\) act on an object at one point; they are pairwise perpendicular with magnitudes # N, # N, # N. The resultant force has magnitude…",
+   "en": "Three forces \\(\\vec F_1,\\vec F_2,\\vec F_3\\) act on an object at one point; they are pairwise perpendicular with magnitudes 1 N, 4 N, 8 N. The resultant force has magnitude…",
+   "vi": "Ba lực \\(\\vec F_1,\\vec F_2,\\vec F_3\\) cùng tác dụng vào một vật tại một điểm, đôi một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"perpendicular\">vuông góc</b>, có độ lớn lần lượt 1 N, 4 N, 8 N. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"resultant force\">Hợp lực</b> có độ lớn bằng…",
+   "options": [
+    "\\(4\\ \\text{N}\\)",
+    "\\(81\\ \\text{N}\\)",
+    "\\(9\\ \\text{N}\\)",
+    "\\(13\\ \\text{N}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The resultant is the space diagonal of the box built on the three forces: \\(|\\vec F|=\\sqrt{1^2+4^2+8^2}=9\\).",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"resultant force\">Hợp lực</b> là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelepiped\">hình hộp</b> chữ nhật dựng trên ba lực: \\(|\\vec F|=\\sqrt{1^2+4^2+8^2}=9\\).",
+   "images": [],
+   "id": "486fa5edebf9",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(ABCD.A'B'C'D'\\) is a cube with edge #. Find \\(\\overrightarrow{DB'}\\cdot\\overrightarrow{C'A}\\).",
+   "en": "\\(ABCD.A'B'C'D'\\) is a cube with edge 5. Find \\(\\overrightarrow{DB'}\\cdot\\overrightarrow{C'A}\\).",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"cube\">hình lập phương</b> \\(ABCD.A'B'C'D'\\) cạnh 5. Tính \\(\\overrightarrow{DB'}\\cdot\\overrightarrow{C'A}\\).",
+   "options": [
+    "\\(0\\)",
+    "\\(-25\\)",
+    "\\(25\\)",
+    "\\(-50\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Write both vectors with the edge vectors \\(\\overrightarrow{AB},\\overrightarrow{AD},\\overrightarrow{AA'}\\) (pairwise perpendicular, length 5).",
+   "explain_vi": "Đáp án b. Phân tích cả hai vectơ theo \\(\\overrightarrow{AB},\\overrightarrow{AD},\\overrightarrow{AA'}\\) (đôi một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"perpendicular\">vuông góc</b>, độ dài 5).",
+   "images": [],
+   "id": "b6fb1e61f3b9",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(ABCD\\) is a regular tetrahedron with edge #. Find \\(\\overrightarrow{BA}\\cdot\\overrightarrow{DC}\\).",
+   "en": "\\(ABCD\\) is a regular tetrahedron with edge 6. Find \\(\\overrightarrow{BA}\\cdot\\overrightarrow{DC}\\).",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tetrahedron\">tứ diện</b> đều \\(ABCD\\) cạnh 6. Tính \\(\\overrightarrow{BA}\\cdot\\overrightarrow{DC}\\).",
+   "options": [
+    "\\(0\\)",
+    "\\(-18\\)",
+    "\\(36\\)",
+    "\\(18\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. All faces are equilateral triangles: two edges from a common vertex make \\(60^\\circ\\); two opposite edges are perpendicular. Move the vectors to a common start before reading the angle.",
+   "explain_vi": "Đáp án a. Các mặt là tam giác đều: hai cạnh chung đỉnh tạo góc \\(60^\\circ\\); hai cạnh đối diện <b class=\"mbl-term\" tabindex=\"0\" data-en=\"perpendicular\">vuông góc</b>. Dời hai vectơ về chung điểm đầu rồi mới xác định góc.",
+   "images": [],
+   "id": "52f39a722e05",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(I\\) is the midpoint of \\(MN\\) and \\(O\\) is any point. Then \\(\\overrightarrow{OI}=\\)…",
+   "en": "\\(I\\) is the midpoint of \\(MN\\) and \\(O\\) is any point. Then \\(\\overrightarrow{OI}=\\)…",
+   "vi": "\\(I\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> của \\(MN\\), \\(O\\) là điểm bất kỳ. Khi đó \\(\\overrightarrow{OI}=\\)…",
+   "options": [
+    "\\(\\dfrac12(\\overrightarrow{OM}-\\overrightarrow{ON})\\)",
+    "\\(\\overrightarrow{OM}+\\overrightarrow{ON}\\)",
+    "\\(\\overrightarrow{OM}-\\overrightarrow{ON}\\)",
+    "\\(\\dfrac12(\\overrightarrow{OM}+\\overrightarrow{ON})\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\overrightarrow{IM}+\\overrightarrow{IN}=\\vec0\\) gives \\(2\\overrightarrow{OI}=\\overrightarrow{OM}+\\overrightarrow{ON}\\).",
+   "explain_vi": "Đáp án d. \\(\\overrightarrow{IM}+\\overrightarrow{IN}=\\vec0\\) suy ra \\(2\\overrightarrow{OI}=\\overrightarrow{OM}+\\overrightarrow{ON}\\).",
+   "images": [],
+   "id": "820087abd50b",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(S.ABCD\\) is a pyramid whose base is a parallelogram with centre \\(O\\). Then \\(\\overrightarrow{SA}+\\overrightarrow{SC}=\\)…",
+   "en": "\\(S.ABCD\\) is a pyramid whose base is a parallelogram with centre \\(O\\). Then \\(\\overrightarrow{SA}+\\overrightarrow{SC}=\\)…",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">hình chóp</b> \\(S.ABCD\\) có đáy là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelogram\">hình bình hành</b> tâm \\(O\\). Khi đó \\(\\overrightarrow{SA}+\\overrightarrow{SC}=\\)…",
+   "options": [
+    "\\(\\overrightarrow{SO}\\)",
+    "\\(\\vec0\\)",
+    "\\(2\\overrightarrow{SO}\\)",
+    "\\(4\\overrightarrow{SO}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(O\\) is the midpoint of \\(AC\\) and of \\(BD\\), so \\(\\overrightarrow{SA}+\\overrightarrow{SC}=\\overrightarrow{SB}+\\overrightarrow{SD}=2\\overrightarrow{SO}\\).",
+   "explain_vi": "Đáp án c. \\(O\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> của \\(AC\\) và của \\(BD\\) nên \\(\\overrightarrow{SA}+\\overrightarrow{SC}=\\overrightarrow{SB}+\\overrightarrow{SD}=2\\overrightarrow{SO}\\).",
+   "images": [],
+   "id": "20d59762b9e6",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "In the cube \\(ABCD.A'B'C'D'\\), \\(\\overrightarrow{A'C'}\\cdot\\overrightarrow{B'B}=\\)…",
+   "en": "In the cube \\(ABCD.A'B'C'D'\\), \\(\\overrightarrow{A'C'}\\cdot\\overrightarrow{B'B}=\\)…",
+   "vi": "Trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"cube\">hình lập phương</b> \\(ABCD.A'B'C'D'\\), \\(\\overrightarrow{A'C'}\\cdot\\overrightarrow{B'B}=\\)…",
+   "options": [
+    "\\(-1\\)",
+    "\\(1\\)",
+    "<span class=\"txi\"><span class=\"en\">depends on the edge length</span><span class=\"vi\">phụ thuộc độ dài cạnh</span></span>",
+    "\\(0\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. The two vectors are perpendicular, so the dot product is 0.",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"perpendicular vectors\">Hai vectơ vuông góc</b> nên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"dot product (scalar product)\">tích vô hướng</b> bằng 0.",
+   "images": [],
+   "id": "34c20e16a001",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "In the cube \\(ABCD.A'B'C'D'\\), the angle between \\(\\overrightarrow{DC}\\) and \\(\\overrightarrow{CB}\\) is…",
+   "en": "In the cube \\(ABCD.A'B'C'D'\\), the angle between \\(\\overrightarrow{DC}\\) and \\(\\overrightarrow{CB}\\) is…",
+   "vi": "Trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"cube\">hình lập phương</b> \\(ABCD.A'B'C'D'\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"angle between vectors\">góc giữa hai vectơ</b> \\(\\overrightarrow{DC}\\) và \\(\\overrightarrow{CB}\\) bằng…",
+   "options": [
+    "\\(90^\\circ\\)",
+    "\\(60^\\circ\\)",
+    "\\(45^\\circ\\)",
+    "\\(30^\\circ\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Use \\(\\cos\\theta=\\dfrac{\\vec u\\cdot\\vec v}{|\\vec u||\\vec v|}\\).",
+   "explain_vi": "Đáp án a. Dùng \\(\\cos\\theta=\\dfrac{\\vec u\\cdot\\vec v}{|\\vec u||\\vec v|}\\).",
+   "images": [],
+   "id": "8ecaea337231",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "In the parallelepiped \\(ABCD.A'B'C'D'\\), \\(\\overrightarrow{AB}+\\overrightarrow{AD}+\\overrightarrow{AA'}=\\;?\\)",
+   "en": "In the parallelepiped \\(ABCD.A'B'C'D'\\), \\(\\overrightarrow{AB}+\\overrightarrow{AD}+\\overrightarrow{AA'}=\\;?\\)",
+   "vi": "Trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelepiped\">hình hộp</b> \\(ABCD.A'B'C'D'\\), \\(\\overrightarrow{AB}+\\overrightarrow{AD}+\\overrightarrow{AA'}=\\;?\\)",
+   "options": [
+    "\\(\\overrightarrow{AC'}\\)",
+    "\\(\\overrightarrow{DB'}\\)",
+    "\\(\\overrightarrow{CA'}\\)",
+    "\\(\\overrightarrow{BD'}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Parallelepiped rule: the sum of three edge vectors from one vertex is the diagonal of the parallelepiped from that vertex.",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelepiped rule\">Quy tắc hình hộp</b>: tổng ba vectơ cạnh xuất phát từ một đỉnh là vectơ <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelepiped\">hình hộp</b> xuất phát từ đỉnh đó.",
+   "images": [],
+   "id": "5b44a858f7fa",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Three forces \\(\\vec F_#,\\vec F_#,\\vec F_#\\) act on an object at one point; they are pairwise perpendicular with magnitudes # N, # N, # N. The resultant force has magnitude…",
+   "en": "Three forces \\(\\vec F_1,\\vec F_2,\\vec F_3\\) act on an object at one point; they are pairwise perpendicular with magnitudes 6 N, 8 N, 24 N. The resultant force has magnitude…",
+   "vi": "Ba lực \\(\\vec F_1,\\vec F_2,\\vec F_3\\) cùng tác dụng vào một vật tại một điểm, đôi một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"perpendicular\">vuông góc</b>, có độ lớn lần lượt 6 N, 8 N, 24 N. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"resultant force\">Hợp lực</b> có độ lớn bằng…",
+   "options": [
+    "\\(12\\ \\text{N}\\)",
+    "\\(38\\ \\text{N}\\)",
+    "\\(26\\ \\text{N}\\)",
+    "\\(676\\ \\text{N}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The resultant is the space diagonal of the box built on the three forces: \\(|\\vec F|=\\sqrt{6^2+8^2+24^2}=26\\).",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"resultant force\">Hợp lực</b> là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelepiped\">hình hộp</b> chữ nhật dựng trên ba lực: \\(|\\vec F|=\\sqrt{6^2+8^2+24^2}=26\\).",
+   "images": [],
+   "id": "08850cb033ff",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(ABCD.A'B'C'D'\\) is a cube with edge #. Find \\(\\overrightarrow{A'D'}\\cdot\\overrightarrow{C'B}\\).",
+   "en": "\\(ABCD.A'B'C'D'\\) is a cube with edge 5. Find \\(\\overrightarrow{A'D'}\\cdot\\overrightarrow{C'B}\\).",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"cube\">hình lập phương</b> \\(ABCD.A'B'C'D'\\) cạnh 5. Tính \\(\\overrightarrow{A'D'}\\cdot\\overrightarrow{C'B}\\).",
+   "options": [
+    "\\(25\\)",
+    "\\(-25\\)",
+    "\\(0\\)",
+    "\\(-50\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Write both vectors with the edge vectors \\(\\overrightarrow{AB},\\overrightarrow{AD},\\overrightarrow{AA'}\\) (pairwise perpendicular, length 5).",
+   "explain_vi": "Đáp án b. Phân tích cả hai vectơ theo \\(\\overrightarrow{AB},\\overrightarrow{AD},\\overrightarrow{AA'}\\) (đôi một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"perpendicular\">vuông góc</b>, độ dài 5).",
+   "images": [],
+   "id": "e7f07adf5430",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(ABCD\\) is a regular tetrahedron with edge #. Find \\(\\overrightarrow{DA}\\cdot\\overrightarrow{DB}\\).",
+   "en": "\\(ABCD\\) is a regular tetrahedron with edge 6. Find \\(\\overrightarrow{DA}\\cdot\\overrightarrow{DB}\\).",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tetrahedron\">tứ diện</b> đều \\(ABCD\\) cạnh 6. Tính \\(\\overrightarrow{DA}\\cdot\\overrightarrow{DB}\\).",
+   "options": [
+    "\\(36\\)",
+    "\\(-18\\)",
+    "\\(0\\)",
+    "\\(18\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. All faces are equilateral triangles: two edges from a common vertex make \\(60^\\circ\\); two opposite edges are perpendicular. Move the vectors to a common start before reading the angle.",
+   "explain_vi": "Đáp án d. Các mặt là tam giác đều: hai cạnh chung đỉnh tạo góc \\(60^\\circ\\); hai cạnh đối diện <b class=\"mbl-term\" tabindex=\"0\" data-en=\"perpendicular\">vuông góc</b>. Dời hai vectơ về chung điểm đầu rồi mới xác định góc.",
+   "images": [],
+   "id": "6e7849b0f870",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(I\\) is the midpoint of \\(EF\\) and \\(J\\) is any point. Then \\(\\overrightarrow{JI}=\\)…",
+   "en": "\\(I\\) is the midpoint of \\(EF\\) and \\(J\\) is any point. Then \\(\\overrightarrow{JI}=\\)…",
+   "vi": "\\(I\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> của \\(EF\\), \\(J\\) là điểm bất kỳ. Khi đó \\(\\overrightarrow{JI}=\\)…",
+   "options": [
+    "\\(\\overrightarrow{JE}-\\overrightarrow{JF}\\)",
+    "\\(\\dfrac12(\\overrightarrow{JE}-\\overrightarrow{JF})\\)",
+    "\\(\\overrightarrow{JE}+\\overrightarrow{JF}\\)",
+    "\\(\\dfrac12(\\overrightarrow{JE}+\\overrightarrow{JF})\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\overrightarrow{IE}+\\overrightarrow{IF}=\\vec0\\) gives \\(2\\overrightarrow{JI}=\\overrightarrow{JE}+\\overrightarrow{JF}\\).",
+   "explain_vi": "Đáp án d. \\(\\overrightarrow{IE}+\\overrightarrow{IF}=\\vec0\\) suy ra \\(2\\overrightarrow{JI}=\\overrightarrow{JE}+\\overrightarrow{JF}\\).",
+   "images": [],
+   "id": "3b0b3ac880f7",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(S.ABCD\\) is a pyramid whose base is a parallelogram with centre \\(O\\). Then \\(\\overrightarrow{SA}+\\overrightarrow{SB}+\\overrightarrow{SC}+\\overrightarrow{SD}=\\)…",
+   "en": "\\(S.ABCD\\) is a pyramid whose base is a parallelogram with centre \\(O\\). Then \\(\\overrightarrow{SA}+\\overrightarrow{SB}+\\overrightarrow{SC}+\\overrightarrow{SD}=\\)…",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">hình chóp</b> \\(S.ABCD\\) có đáy là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelogram\">hình bình hành</b> tâm \\(O\\). Khi đó \\(\\overrightarrow{SA}+\\overrightarrow{SB}+\\overrightarrow{SC}+\\overrightarrow{SD}=\\)…",
+   "options": [
+    "\\(\\vec0\\)",
+    "\\(8\\overrightarrow{SO}\\)",
+    "\\(4\\overrightarrow{SO}\\)",
+    "\\(\\overrightarrow{SO}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(O\\) is the midpoint of \\(AC\\) and of \\(BD\\), so \\(\\overrightarrow{SA}+\\overrightarrow{SC}=\\overrightarrow{SB}+\\overrightarrow{SD}=2\\overrightarrow{SO}\\).",
+   "explain_vi": "Đáp án c. \\(O\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> của \\(AC\\) và của \\(BD\\) nên \\(\\overrightarrow{SA}+\\overrightarrow{SC}=\\overrightarrow{SB}+\\overrightarrow{SD}=2\\overrightarrow{SO}\\).",
+   "images": [],
+   "id": "404434d93c7b",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  }
+ ]
+}

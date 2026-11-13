@@ -1,0 +1,1533 @@
+{
+ "lesson": "g12-prob-01",
+ "grade": 12,
+ "no": 18,
+ "title": "Xác suất có điều kiện",
+ "path": "lessons/grade12/probability/conditional-probability.html",
+ "items": [
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "# red and # white balls; draw # without replacement. \\(P(\\text{both white})=\\)…",
+   "en": "5 red and 4 white balls; draw 2 without replacement. \\(P(\\text{both white})=\\)…",
+   "vi": "Hộp có 5 bi đỏ và 4 bi trắng; lấy <b class=\"mbl-term\" tabindex=\"0\" data-en=\"respectively\">lần lượt</b> 2 bi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"without replacement\">không hoàn lại</b>. Xác suất cả hai bi trắng là…",
+   "options": [
+    "\\(\\dfrac{16}{81}\\)",
+    "\\(\\dfrac{1}{6}\\)",
+    "<span class=\"txi\"><span class=\"en\">\\(0.375\\)</span><span class=\"vi\">\\(0{,}375\\)</span></span>",
+    "\\(\\dfrac{4}{27}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\dfrac{4}{9}\\cdot\\dfrac{3}{8}\\).",
+   "explain_vi": "Đáp án b. \\(\\dfrac{4}{9}\\cdot\\dfrac{3}{8}\\).",
+   "images": [],
+   "id": "6a752ad7b66d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Of # boys, # wear glasses; of # girls, # wear glasses. A student wearing glasses is chosen. \\(P(\\text{girl})=\\)…",
+   "en": "Of 20 boys, 8 wear glasses; of 20 girls, 6 wear glasses. A student wearing glasses is chosen. \\(P(\\text{girl})=\\)…",
+   "vi": "Trong 20 nam có 8 em đeo kính; trong 20 nữ có 6 em đeo kính. Chọn một học sinh đeo kính. Xác suất đó là nữ là…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(0.3\\)</span><span class=\"vi\">\\(0{,}3\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.15\\)</span><span class=\"vi\">\\(0{,}15\\)</span></span>",
+    "\\(\\dfrac{3}{7}\\)",
+    "<span class=\"txi\"><span class=\"en\">\\(0.5\\)</span><span class=\"vi\">\\(0{,}5\\)</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Among 14 with glasses, 6 are girls.",
+   "explain_vi": "Đáp án c. Trong 14 em đeo kính có 6 em nữ.",
+   "images": [],
+   "id": "7359fc7f32c4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(P(B)=#\\), \\(P(A\\cap B)=#\\). \\(P(A\\mid B)=\\)…",
+   "en": "\\(P(B)=0.4\\), \\(P(A\\cap B)=0.1\\). \\(P(A\\mid B)=\\)…",
+   "vi": "Cho \\(P(B)=0{,}4\\), \\(P(A\\cap B)=0{,}1\\). Khi đó \\(P(A\\mid B)=\\)…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(0.04\\)</span><span class=\"vi\">\\(0{,}04\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.25\\)</span><span class=\"vi\">\\(0{,}25\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.1\\)</span><span class=\"vi\">\\(0{,}1\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.75\\)</span><span class=\"vi\">\\(0{,}75\\)</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\dfrac{P(A\\cap B)}{P(B)}\\).",
+   "explain_vi": "Đáp án b. \\(\\dfrac{P(A\\cap B)}{P(B)}=0{,}25\\).",
+   "images": [],
+   "id": "73ccb4931552",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "If \\(P(A)=#\\), \\(P(B)=#\\), \\(P(A\\cap B)=#\\) then \\(A\\), \\(B\\) are independent.",
+   "en": "If \\(P(A)=0.3\\), \\(P(B)=0.5\\), \\(P(A\\cap B)=0.15\\) then \\(A\\), \\(B\\) are independent.",
+   "vi": "Nếu \\(P(A)=0{,}3\\), \\(P(B)=0{,}5\\), \\(P(A\\cap B)=0{,}15\\) thì \\(A\\), \\(B\\) độc lập.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "\\(0.3\\cdot0.5=0.15\\).",
+   "explain_vi": "\\(0{,}3\\cdot0{,}5=0{,}15\\).",
+   "images": [],
+   "id": "5da7e3df9fe4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(P(A\\mid B)=P(B\\mid A)\\) for all events \\(A\\), \\(B\\).",
+   "en": "\\(P(A\\mid B)=P(B\\mid A)\\) for all events \\(A\\), \\(B\\).",
+   "vi": "\\(P(A\\mid B)=P(B\\mid A)\\) với mọi biến cố \\(A\\), \\(B\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "They are equal only when \\(P(A)=P(B)\\) (or \\(P(A\\cap B)=0\\)).",
+   "explain_vi": "Chỉ bằng nhau khi \\(P(A)=P(B)\\) (hoặc \\(P(A\\cap B)=0\\)).",
+   "images": [],
+   "id": "b129d53a933a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "In a survey of # people, # tested positive, of whom # were actually sick. Find \\(P(\\text{sick}\\mid+)\\) (decimal).",
+   "en": "In a survey of 500 people, 40 tested positive, of whom 30 were actually sick. Find \\(P(\\text{sick}\\mid+)\\) (decimal).",
+   "vi": "Khảo sát 500 người: 40 người dương tính, trong đó 30 người thật sự mắc bệnh. Tính \\(P(\\text{bệnh}\\mid+)\\) (viết dạng thập phân).",
+   "options": [],
+   "answer": "0.75",
+   "explain_en": "\\(\\dfrac{30}{40}=0.75\\).",
+   "explain_vi": "\\(\\dfrac{30}{40}=0{,}75\\).",
+   "images": [],
+   "id": "18222d1a0708",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "\\(P(B)=#\\), \\(P(A\\mid B)=#\\). Find \\(P(A\\cap B)\\) (decimal).",
+   "en": "\\(P(B)=0.6\\), \\(P(A\\mid B)=0.5\\). Find \\(P(A\\cap B)\\) (decimal).",
+   "vi": "Cho \\(P(B)=0{,}6\\), \\(P(A\\mid B)=0{,}5\\). Tính \\(P(A\\cap B)\\) (viết dạng thập phân).",
+   "options": [],
+   "answer": "0.3",
+   "explain_en": "\\(0.6\\cdot0.5=0.3\\).",
+   "explain_vi": "\\(P(A\\cap B)=P(B)P(A\\mid B)=0{,}3\\).",
+   "images": [],
+   "id": "51cb82052ed8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "A box has # red and # blue balls. Two balls are drawn one after another without replacement. Given that the first is red, the probability that the second is red is…",
+   "en": "A box has 5 red and 3 blue balls. Two balls are drawn one after another without replacement. Given that the first is red, the probability that the second is red is…",
+   "vi": "Hộp có 5 bi đỏ và 3 bi xanh. Lấy <b class=\"mbl-term\" tabindex=\"0\" data-en=\"respectively\">lần lượt</b> 2 bi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"without replacement\">không hoàn lại</b>. Biết bi thứ nhất màu đỏ, xác suất bi thứ hai màu đỏ là…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(0.5\\)</span><span class=\"vi\">\\(0{,}5\\)</span></span>",
+    "\\(\\dfrac{5}{7}\\)",
+    "\\(\\dfrac{4}{7}\\)",
+    "<span class=\"txi\"><span class=\"en\">\\(0.625\\)</span><span class=\"vi\">\\(0{,}625\\)</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. After one red ball: 4 red among 7.",
+   "explain_vi": "Đáp án c. Sau khi lấy 1 bi đỏ còn 4 bi đỏ trong 7 bi.",
+   "images": [],
+   "id": "90412af09c61",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "A box has # red and # blue balls; draw # without replacement. \\(P(\\text{both red})=\\)…",
+   "en": "A box has 7 red and 4 blue balls; draw 2 without replacement. \\(P(\\text{both red})=\\)…",
+   "vi": "Hộp có 7 bi đỏ và 4 bi xanh; lấy <b class=\"mbl-term\" tabindex=\"0\" data-en=\"respectively\">lần lượt</b> 2 bi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"without replacement\">không hoàn lại</b>. Xác suất cả hai bi đều đỏ là…",
+   "options": [
+    "\\(\\dfrac{21}{55}\\)",
+    "<span class=\"txi\"><span class=\"en\">\\(0.6\\)</span><span class=\"vi\">\\(0{,}6\\)</span></span>",
+    "\\(\\dfrac{42}{121}\\)",
+    "\\(\\dfrac{49}{121}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(P(A\\cap B)=P(A)P(B\\mid A)=\\dfrac{7}{11}\\cdot\\dfrac{6}{10}\\).",
+   "explain_vi": "Đáp án a. Công thức nhân: \\(P(A\\cap B)=P(A)P(B\\mid A)=\\dfrac{7}{11}\\cdot\\dfrac{6}{10}=\\dfrac{21}{55}\\).",
+   "images": [],
+   "id": "0eb55227ea84",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "A card is drawn from cards numbered # to #. Given that the number is divisible by #, the probability that it is divisible by # is…",
+   "en": "A card is drawn from cards numbered 1 to 36. Given that the number is divisible by 5, the probability that it is divisible by 2 is…",
+   "vi": "Rút một thẻ từ các thẻ đánh số 1 đến 36. Biết số trên thẻ chia hết cho 5, xác suất số đó chia hết cho 2 là…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(0.5\\)</span><span class=\"vi\">\\(0{,}5\\)</span></span>",
+    "\\(\\dfrac{3}{7}\\)",
+    "\\(\\dfrac{7}{36}\\)",
+    "\\(\\dfrac{1}{12}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. 7 multiples of 5; 3 of them are multiples of 2.",
+   "explain_vi": "Đáp án b. Có 7 số chia hết cho 5, trong đó 3 số chia hết cho 2.",
+   "images": [],
+   "id": "858cd2ff56b7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "A family has # children (boys and girls equally likely). Given that there is at least one girl, the probability that all are girls is…",
+   "en": "A family has 4 children (boys and girls equally likely). Given that there is at least one girl, the probability that all are girls is…",
+   "vi": "Một gia đình có 4 con (khả năng trai, gái như nhau). Biết có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"at least one\">ít nhất một</b> con gái, xác suất tất cả đều là con gái là…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(0.5\\)</span><span class=\"vi\">\\(0{,}5\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.25\\)</span><span class=\"vi\">\\(0{,}25\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.0625\\)</span><span class=\"vi\">\\(0{,}0625\\)</span></span>",
+    "\\(\\dfrac{1}{15}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(|B|=15\\), \\(|A\\cap B|=1\\).",
+   "explain_vi": "Đáp án d. Có 15 khả năng có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"at least one\">ít nhất một</b> con gái; chỉ 1 khả năng tất cả đều là con gái.",
+   "images": [],
+   "id": "4e91c2b02a89",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "From # red and # white balls, draw # one by one without replacement. \\(P(\\text{all red})=\\)…",
+   "en": "From 7 red and 4 white balls, draw 3 one by one without replacement. \\(P(\\text{all red})=\\)…",
+   "vi": "Từ 7 bi đỏ và 4 bi trắng, lấy <b class=\"mbl-term\" tabindex=\"0\" data-en=\"respectively\">lần lượt</b> 3 bi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"without replacement\">không hoàn lại</b>. Xác suất cả 3 bi đều đỏ là…",
+   "options": [
+    "\\(\\dfrac{5}{9}\\)",
+    "\\(\\dfrac{343}{1331}\\)",
+    "\\(\\dfrac{7}{33}\\)",
+    "\\(\\dfrac{210}{1331}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\dfrac{7}{11}\\cdot\\dfrac{6}{10}\\cdot\\dfrac{5}{9}\\).",
+   "explain_vi": "Đáp án c. Công thức nhân: \\(\\dfrac{7}{11}\\cdot\\dfrac{6}{10}\\cdot\\dfrac{5}{9}=\\dfrac{7}{33}\\).",
+   "images": [],
+   "id": "409d87b4ab3e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Of # sick people, # test positive; of # healthy people, # test positive. Given a positive test, the probability that the person is sick is…",
+   "en": "Of 40 sick people, 35 test positive; of 200 healthy people, 16 test positive. Given a positive test, the probability that the person is sick is…",
+   "vi": "Trong 40 người bệnh có 35 người xét <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b> dương tính; trong 200 người khỏe có 16 người dương tính. Biết một người dương tính, xác suất người đó bị bệnh là…",
+   "options": [
+    "\\(\\dfrac{1}{6}\\)",
+    "<span class=\"txi\"><span class=\"en\">\\(0.875\\)</span><span class=\"vi\">\\(0{,}875\\)</span></span>",
+    "\\(\\dfrac{7}{48}\\)",
+    "\\(\\dfrac{35}{51}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\dfrac{35}{35+16}\\).",
+   "explain_vi": "Đáp án d. Chỉ xét 51 người dương tính: \\(\\dfrac{35}{51}\\).",
+   "images": [],
+   "id": "e4ad57493106",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Survey: \\(\\begin{array}{c|cc}&\\text{Yes}&\\text{No}\\\\\\hline\\text{Boys}&#&#\\\\\\text{Girls}&#&#\\end{array}\\). A random student is a girl. The probability that she said \"Yes\" is…",
+   "en": "Survey: \\(\\begin{array}{c|cc}&\\text{Yes}&\\text{No}\\\\\\hline\\text{Boys}&24&12\\\\\\text{Girls}&14&20\\end{array}\\). A random student is a girl. The probability that she said \"Yes\" is…",
+   "vi": "Khảo sát: \\(\\begin{array}{c|cc}&\\text{Thích}&\\text{Không}\\\\\\hline\\text{Nam}&24&12\\\\\\text{Nữ}&14&20\\end{array}\\). Chọn ngẫu nhiên một học sinh, biết đó là nữ. Xác suất em đó trả lời \"Thích\" là…",
+   "options": [
+    "\\(\\dfrac{17}{35}\\)",
+    "\\(\\dfrac{7}{17}\\)",
+    "<span class=\"txi\"><span class=\"en\">\\(0.2\\)</span><span class=\"vi\">\\(0{,}2\\)</span></span>",
+    "\\(\\dfrac{2}{3}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Restrict to the given group: \\(\\dfrac{7}{17}\\).",
+   "explain_vi": "Đáp án b. Chỉ xét trong nhóm đã biết: \\(\\dfrac{7}{17}\\).",
+   "images": [],
+   "id": "78f912c973b4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Two dice are rolled. Given that at least one die shows #, the probability that the sum is # is…",
+   "en": "Two dice are rolled. Given that at least one die shows 5, the probability that the sum is 7 is…",
+   "vi": "Gieo hai con xúc xắc. Biết có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"at least one\">ít nhất một</b> con ra 5 chấm, xác suất tổng số chấm bằng 7 là…",
+   "options": [
+    "\\(\\dfrac{1}{18}\\)",
+    "\\(\\dfrac{1}{6}\\)",
+    "\\(\\dfrac{1}{36}\\)",
+    "\\(\\dfrac{2}{11}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(|B|=11\\), \\(|A\\cap B|=2\\).",
+   "explain_vi": "Đáp án d. Có 11 kết quả có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"at least one\">ít nhất một</b> mặt 5 chấm; trong đó 2 kết quả thỏa mãn.",
+   "images": [],
+   "id": "cfa93bc1c50e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Two dice are rolled. Given that the sum is #, the probability that the first die shows # is…",
+   "en": "Two dice are rolled. Given that the sum is 8, the probability that the first die shows 4 is…",
+   "vi": "Gieo hai con xúc xắc. Biết tổng số chấm bằng 8, xác suất con thứ nhất ra 4 chấm là…",
+   "options": [
+    "\\(\\dfrac{1}{36}\\)",
+    "\\(\\dfrac{5}{36}\\)",
+    "<span class=\"txi\"><span class=\"en\">\\(0.2\\)</span><span class=\"vi\">\\(0{,}2\\)</span></span>",
+    "\\(\\dfrac{1}{6}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(|B|=5\\), \\(|A\\cap B|=1\\).",
+   "explain_vi": "Đáp án c. Các kết quả có tổng 8: 5; trong đó con thứ nhất ra 4: 1.",
+   "images": [],
+   "id": "6f4a4572901d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(P(A)=#\\), \\(P(A\\cup B)=#\\), \\(P(A\\cap B)=#\\). Then \\(P(A\\mid B)=\\)…",
+   "en": "\\(P(A)=0.3\\), \\(P(A\\cup B)=0.7\\), \\(P(A\\cap B)=0.1\\). Then \\(P(A\\mid B)=\\)…",
+   "vi": "Cho \\(P(A)=0{,}3\\), \\(P(A\\cup B)=0{,}7\\), \\(P(A\\cap B)=0{,}1\\). Khi đó \\(P(A\\mid B)=\\)…",
+   "options": [
+    "\\(\\dfrac{1}{3}\\)",
+    "<span class=\"txi\"><span class=\"en\">\\(0.1\\)</span><span class=\"vi\">\\(0{,}1\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.2\\)</span><span class=\"vi\">\\(0{,}2\\)</span></span>",
+    "\\(\\dfrac{1}{7}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(P(B)=P(A\\cup B)-P(A)+P(A\\cap B)=0.5\\).",
+   "explain_vi": "Đáp án c. \\(P(B)=P(A\\cup B)-P(A)+P(A\\cap B)=0{,}5\\), rồi \\(P(A\\mid B)=0{,}2\\).",
+   "images": [],
+   "id": "7b6ad31040d7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(P(A)=#\\), \\(P(B)=#\\), \\(P(A\\cap B)=#\\). The events \\(A\\), \\(B\\) are…",
+   "en": "\\(P(A)=0.5\\), \\(P(B)=0.5\\), \\(P(A\\cap B)=0.25\\). The events \\(A\\), \\(B\\) are…",
+   "vi": "Cho \\(P(A)=0{,}5\\), \\(P(B)=0{,}5\\), \\(P(A\\cap B)=0{,}25\\). Hai biến cố \\(A\\), \\(B\\)…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">independent, \\(P(A\\mid B)=P(A)\\)</span><span class=\"vi\">độc lập, \\(P(A\\mid B)=P(A)\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">not independent</span><span class=\"vi\">không độc lập</span></span>",
+    "<span class=\"txi\"><span class=\"en\">complementary</span><span class=\"vi\">đối nhau</span></span>",
+    "<span class=\"txi\"><span class=\"en\">mutually exclusive</span><span class=\"vi\">xung khắc</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(P(A)P(B)=0.25\\).",
+   "explain_vi": "Đáp án a. \\(P(A)P(B)=0{,}25\\) so với \\(P(A\\cap B)=0{,}25\\).",
+   "images": [],
+   "id": "2aec23aa8535",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(P(A\\mid B)=\\dfrac{#}{#}\\). Then \\(P(\\overline A\\mid B)=\\)…",
+   "en": "\\(P(A\\mid B)=\\dfrac{4}{9}\\). Then \\(P(\\overline A\\mid B)=\\)…",
+   "vi": "Cho \\(P(A\\mid B)=\\dfrac{4}{9}\\). Khi đó \\(P(\\overline A\\mid B)=\\)…",
+   "options": [
+    "\\(\\dfrac{2}{9}\\)",
+    "\\(\\dfrac{4}{9}\\)",
+    "\\(\\dfrac{5}{9}\\)",
+    "\\(\\dfrac{7}{9}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(P(\\overline A\\mid B)=1-P(A\\mid B)\\).",
+   "explain_vi": "Đáp án c. \\(P(\\overline A\\mid B)=1-P(A\\mid B)\\).",
+   "images": [],
+   "id": "ec2f44e776f9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(P(B)=#\\), \\(P(A\\cap B)=#\\). Then \\(P(A\\mid B)=\\)…",
+   "en": "\\(P(B)=0.6\\), \\(P(A\\cap B)=0.12\\). Then \\(P(A\\mid B)=\\)…",
+   "vi": "Cho \\(P(B)=0{,}6\\), \\(P(A\\cap B)=0{,}12\\). Khi đó \\(P(A\\mid B)=\\)…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(0.072\\)</span><span class=\"vi\">\\(0{,}072\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.48\\)</span><span class=\"vi\">\\(0{,}48\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.2\\)</span><span class=\"vi\">\\(0{,}2\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.12\\)</span><span class=\"vi\">\\(0{,}12\\)</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(P(A\\mid B)=\\dfrac{P(A\\cap B)}{P(B)}\\).",
+   "explain_vi": "Đáp án c. \\(P(A\\mid B)=\\dfrac{P(A\\cap B)}{P(B)}=0{,}2\\).",
+   "images": [],
+   "id": "dfcb3a6dce11",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(P(B)=#\\), \\(P(A\\cap B)=#\\). Then \\(P(A\\mid B)=\\)…",
+   "en": "\\(P(B)=0.3\\), \\(P(A\\cap B)=0.225\\). Then \\(P(A\\mid B)=\\)…",
+   "vi": "Cho \\(P(B)=0{,}3\\), \\(P(A\\cap B)=0{,}225\\). Khi đó \\(P(A\\mid B)=\\)…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(0.75\\)</span><span class=\"vi\">\\(0{,}75\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.225\\)</span><span class=\"vi\">\\(0{,}225\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.075\\)</span><span class=\"vi\">\\(0{,}075\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.0675\\)</span><span class=\"vi\">\\(0{,}0675\\)</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(P(A\\mid B)=\\dfrac{P(A\\cap B)}{P(B)}\\).",
+   "explain_vi": "Đáp án a. \\(P(A\\mid B)=\\dfrac{P(A\\cap B)}{P(B)}=0{,}75\\).",
+   "images": [],
+   "id": "10894acb87ae",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(P(B)=#\\), \\(P(A\\mid B)=#\\). Then \\(P(A\\cap B)=\\)…",
+   "en": "\\(P(B)=0.4\\), \\(P(A\\mid B)=0.2\\). Then \\(P(A\\cap B)=\\)…",
+   "vi": "Cho \\(P(B)=0{,}4\\), \\(P(A\\mid B)=0{,}2\\). Khi đó \\(P(A\\cap B)=\\)…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(0.4\\)</span><span class=\"vi\">\\(0{,}4\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.5\\)</span><span class=\"vi\">\\(0{,}5\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.08\\)</span><span class=\"vi\">\\(0{,}08\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.2\\)</span><span class=\"vi\">\\(0{,}2\\)</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(P(A\\cap B)=P(B)\\cdot P(A\\mid B)\\).",
+   "explain_vi": "Đáp án c. \\(P(A\\cap B)=P(B)\\cdot P(A\\mid B)=0{,}08\\).",
+   "images": [],
+   "id": "b0cfb892353a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "# red and # white balls; draw # without replacement. \\(P(\\text{both white})=\\)…",
+   "en": "3 red and 6 white balls; draw 2 without replacement. \\(P(\\text{both white})=\\)…",
+   "vi": "Hộp có 3 bi đỏ và 6 bi trắng; lấy <b class=\"mbl-term\" tabindex=\"0\" data-en=\"respectively\">lần lượt</b> 2 bi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"without replacement\">không hoàn lại</b>. Xác suất cả hai bi trắng là…",
+   "options": [
+    "\\(\\dfrac{4}{9}\\)",
+    "<span class=\"txi\"><span class=\"en\">\\(0.625\\)</span><span class=\"vi\">\\(0{,}625\\)</span></span>",
+    "\\(\\dfrac{5}{12}\\)",
+    "\\(\\dfrac{10}{27}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\dfrac{6}{9}\\cdot\\dfrac{5}{8}\\).",
+   "explain_vi": "Đáp án c. \\(\\dfrac{6}{9}\\cdot\\dfrac{5}{8}\\).",
+   "images": [],
+   "id": "bd85acf717b5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Of # boys, # wear glasses; of # girls, # wear glasses. A student wearing glasses is chosen. \\(P(\\text{girl})=\\)…",
+   "en": "Of 25 boys, 10 wear glasses; of 25 girls, 12 wear glasses. A student wearing glasses is chosen. \\(P(\\text{girl})=\\)…",
+   "vi": "Trong 25 nam có 10 em đeo kính; trong 25 nữ có 12 em đeo kính. Chọn một học sinh đeo kính. Xác suất đó là nữ là…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(0.48\\)</span><span class=\"vi\">\\(0{,}48\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.24\\)</span><span class=\"vi\">\\(0{,}24\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.5\\)</span><span class=\"vi\">\\(0{,}5\\)</span></span>",
+    "\\(\\dfrac{6}{11}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Among 22 with glasses, 12 are girls.",
+   "explain_vi": "Đáp án d. Trong 22 em đeo kính có 12 em nữ.",
+   "images": [],
+   "id": "a5aed0a572ad",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(P(B)=#\\), \\(P(A\\cap B)=#\\). \\(P(A\\mid B)=\\)…",
+   "en": "\\(P(B)=0.5\\), \\(P(A\\cap B)=0.2\\). \\(P(A\\mid B)=\\)…",
+   "vi": "Cho \\(P(B)=0{,}5\\), \\(P(A\\cap B)=0{,}2\\). Khi đó \\(P(A\\mid B)=\\)…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(0.4\\)</span><span class=\"vi\">\\(0{,}4\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.1\\)</span><span class=\"vi\">\\(0{,}1\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.2\\)</span><span class=\"vi\">\\(0{,}2\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.6\\)</span><span class=\"vi\">\\(0{,}6\\)</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\dfrac{P(A\\cap B)}{P(B)}\\).",
+   "explain_vi": "Đáp án a. \\(\\dfrac{P(A\\cap B)}{P(B)}=0{,}4\\).",
+   "images": [],
+   "id": "e39c12e9d271",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "Drawing two balls with replacement, the second draw depends on the first.",
+   "en": "Drawing two balls with replacement, the second draw depends on the first.",
+   "vi": "Lấy hai bi có hoàn lại thì lần lấy thứ hai phụ thuộc lần thứ nhất.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "With replacement the box is the same each time: independent.",
+   "explain_vi": "Có hoàn lại thì hộp như cũ: hai lần lấy độc lập.",
+   "images": [],
+   "id": "b60125eab19b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(P(\\overline A\\mid B)=#-P(A\\mid B)\\).",
+   "en": "\\(P(\\overline A\\mid B)=1-P(A\\mid B)\\).",
+   "vi": "\\(P(\\overline A\\mid B)=1-P(A\\mid B)\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "Given \\(B\\), \\(A\\) and \\(\\overline A\\) are complementary.",
+   "explain_vi": "Khi đã biết \\(B\\), \\(A\\) và \\(\\overline A\\) là hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"complementary event\">biến cố đối</b>.",
+   "images": [],
+   "id": "2d5502a156c7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "In a survey of # people, # tested positive, of whom # were actually sick. Find \\(P(\\text{sick}\\mid+)\\) (decimal).",
+   "en": "In a survey of 800 people, 50 tested positive, of whom 35 were actually sick. Find \\(P(\\text{sick}\\mid+)\\) (decimal).",
+   "vi": "Khảo sát 800 người: 50 người dương tính, trong đó 35 người thật sự mắc bệnh. Tính \\(P(\\text{bệnh}\\mid+)\\) (viết dạng thập phân).",
+   "options": [],
+   "answer": "0.7",
+   "explain_en": "\\(\\dfrac{35}{50}=0.7\\).",
+   "explain_vi": "\\(\\dfrac{35}{50}=0{,}7\\).",
+   "images": [],
+   "id": "f582955c5e13",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "\\(P(B)=#\\), \\(P(A\\mid B)=#\\). Find \\(P(A\\cap B)\\) (decimal).",
+   "en": "\\(P(B)=0.4\\), \\(P(A\\mid B)=0.75\\). Find \\(P(A\\cap B)\\) (decimal).",
+   "vi": "Cho \\(P(B)=0{,}4\\), \\(P(A\\mid B)=0{,}75\\). Tính \\(P(A\\cap B)\\) (viết dạng thập phân).",
+   "options": [],
+   "answer": "0.3",
+   "explain_en": "\\(0.4\\cdot0.75=0.3\\).",
+   "explain_vi": "\\(P(A\\cap B)=P(B)P(A\\mid B)=0{,}3\\).",
+   "images": [],
+   "id": "27288f9d01ec",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "A box has # red and # blue balls. Two balls are drawn one after another without replacement. Given that the first is red, the probability that the second is red is…",
+   "en": "A box has 4 red and 3 blue balls. Two balls are drawn one after another without replacement. Given that the first is red, the probability that the second is red is…",
+   "vi": "Hộp có 4 bi đỏ và 3 bi xanh. Lấy <b class=\"mbl-term\" tabindex=\"0\" data-en=\"respectively\">lần lượt</b> 2 bi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"without replacement\">không hoàn lại</b>. Biết bi thứ nhất màu đỏ, xác suất bi thứ hai màu đỏ là…",
+   "options": [
+    "\\(\\dfrac{4}{7}\\)",
+    "<span class=\"txi\"><span class=\"en\">\\(0.5\\)</span><span class=\"vi\">\\(0{,}5\\)</span></span>",
+    "\\(\\dfrac{3}{7}\\)",
+    "\\(\\dfrac{2}{3}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. After one red ball: 3 red among 6.",
+   "explain_vi": "Đáp án b. Sau khi lấy 1 bi đỏ còn 3 bi đỏ trong 6 bi.",
+   "images": [],
+   "id": "f3953acb69b9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "A box has # red and # blue balls; draw # without replacement. \\(P(\\text{both red})=\\)…",
+   "en": "A box has 6 red and 4 blue balls; draw 2 without replacement. \\(P(\\text{both red})=\\)…",
+   "vi": "Hộp có 6 bi đỏ và 4 bi xanh; lấy <b class=\"mbl-term\" tabindex=\"0\" data-en=\"respectively\">lần lượt</b> 2 bi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"without replacement\">không hoàn lại</b>. Xác suất cả hai bi đều đỏ là…",
+   "options": [
+    "\\(\\dfrac{5}{9}\\)",
+    "<span class=\"txi\"><span class=\"en\">\\(0.36\\)</span><span class=\"vi\">\\(0{,}36\\)</span></span>",
+    "\\(\\dfrac{1}{3}\\)",
+    "<span class=\"txi\"><span class=\"en\">\\(0.3\\)</span><span class=\"vi\">\\(0{,}3\\)</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(P(A\\cap B)=P(A)P(B\\mid A)=\\dfrac{6}{10}\\cdot\\dfrac{5}{9}\\).",
+   "explain_vi": "Đáp án c. Công thức nhân: \\(P(A\\cap B)=P(A)P(B\\mid A)=\\dfrac{6}{10}\\cdot\\dfrac{5}{9}=\\dfrac{1}{3}\\).",
+   "images": [],
+   "id": "c861301b1b71",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "A card is drawn from cards numbered # to #. Given that the number is divisible by #, the probability that it is divisible by # is…",
+   "en": "A card is drawn from cards numbered 1 to 24. Given that the number is divisible by 4, the probability that it is divisible by 3 is…",
+   "vi": "Rút một thẻ từ các thẻ đánh số 1 đến 24. Biết số trên thẻ chia hết cho 4, xác suất số đó chia hết cho 3 là…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(0.25\\)</span><span class=\"vi\">\\(0{,}25\\)</span></span>",
+    "\\(\\dfrac{1}{12}\\)",
+    "\\(\\dfrac{2}{3}\\)",
+    "\\(\\dfrac{1}{3}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. 6 multiples of 4; 2 of them are multiples of 3.",
+   "explain_vi": "Đáp án d. Có 6 số chia hết cho 4, trong đó 2 số chia hết cho 3.",
+   "images": [],
+   "id": "7a2d56843a93",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "A family has # children (boys and girls equally likely). Given that there is at least one boy, the probability that all are boys is…",
+   "en": "A family has 3 children (boys and girls equally likely). Given that there is at least one boy, the probability that all are boys is…",
+   "vi": "Một gia đình có 3 con (khả năng trai, gái như nhau). Biết có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"at least one\">ít nhất một</b> con trai, xác suất tất cả đều là con trai là…",
+   "options": [
+    "\\(\\dfrac{1}{7}\\)",
+    "<span class=\"txi\"><span class=\"en\">\\(0.125\\)</span><span class=\"vi\">\\(0{,}125\\)</span></span>",
+    "\\(\\dfrac{1}{3}\\)",
+    "<span class=\"txi\"><span class=\"en\">\\(0.5\\)</span><span class=\"vi\">\\(0{,}5\\)</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(|B|=7\\), \\(|A\\cap B|=1\\).",
+   "explain_vi": "Đáp án a. Có 7 khả năng có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"at least one\">ít nhất một</b> con trai; chỉ 1 khả năng tất cả đều là con trai.",
+   "images": [],
+   "id": "ca999a7a6db0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "From # red and # white balls, draw # one by one without replacement. \\(P(\\text{all red})=\\)…",
+   "en": "From 6 red and 2 white balls, draw 3 one by one without replacement. \\(P(\\text{all red})=\\)…",
+   "vi": "Từ 6 bi đỏ và 2 bi trắng, lấy <b class=\"mbl-term\" tabindex=\"0\" data-en=\"respectively\">lần lượt</b> 3 bi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"without replacement\">không hoàn lại</b>. Xác suất cả 3 bi đều đỏ là…",
+   "options": [
+    "\\(\\dfrac{5}{14}\\)",
+    "\\(\\dfrac{2}{3}\\)",
+    "<span class=\"txi\"><span class=\"en\">\\(0.234375\\)</span><span class=\"vi\">\\(0{,}234375\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.421875\\)</span><span class=\"vi\">\\(0{,}421875\\)</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\dfrac{6}{8}\\cdot\\dfrac{5}{7}\\cdot\\dfrac{4}{6}\\).",
+   "explain_vi": "Đáp án a. Công thức nhân: \\(\\dfrac{6}{8}\\cdot\\dfrac{5}{7}\\cdot\\dfrac{4}{6}=\\dfrac{5}{14}\\).",
+   "images": [],
+   "id": "649104df2bf5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Of # sick people, # test positive; of # healthy people, # test positive. Given a positive test, the probability that the person is sick is…",
+   "en": "Of 60 sick people, 56 test positive; of 200 healthy people, 8 test positive. Given a positive test, the probability that the person is sick is…",
+   "vi": "Trong 60 người bệnh có 56 người xét <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b> dương tính; trong 200 người khỏe có 8 người dương tính. Biết một người dương tính, xác suất người đó bị bệnh là…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(0.875\\)</span><span class=\"vi\">\\(0{,}875\\)</span></span>",
+    "\\(\\dfrac{3}{13}\\)",
+    "\\(\\dfrac{14}{65}\\)",
+    "\\(\\dfrac{14}{15}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\dfrac{56}{56+8}\\).",
+   "explain_vi": "Đáp án a. Chỉ xét 64 người dương tính: \\(\\dfrac{56}{64}\\).",
+   "images": [],
+   "id": "c3b5eabdbe84",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Survey: \\(\\begin{array}{c|cc}&\\text{Yes}&\\text{No}\\\\\\hline\\text{Boys}&#&#\\\\\\text{Girls}&#&#\\end{array}\\). A random student is one who answered \"Yes\". The probability that it is a girl is…",
+   "en": "Survey: \\(\\begin{array}{c|cc}&\\text{Yes}&\\text{No}\\\\\\hline\\text{Boys}&26&17\\\\\\text{Girls}&6&18\\end{array}\\). A random student is one who answered \"Yes\". The probability that it is a girl is…",
+   "vi": "Khảo sát: \\(\\begin{array}{c|cc}&\\text{Thích}&\\text{Không}\\\\\\hline\\text{Nam}&26&17\\\\\\text{Nữ}&6&18\\end{array}\\). Chọn ngẫu nhiên một học sinh, biết học sinh đó trả lời \"Thích\". Xác suất đó là nữ là…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(0.8125\\)</span><span class=\"vi\">\\(0{,}8125\\)</span></span>",
+    "\\(\\dfrac{6}{67}\\)",
+    "<span class=\"txi\"><span class=\"en\">\\(0.1875\\)</span><span class=\"vi\">\\(0{,}1875\\)</span></span>",
+    "\\(\\dfrac{24}{67}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Restrict to the given group: \\(0.1875\\).",
+   "explain_vi": "Đáp án c. Chỉ xét trong nhóm đã biết: \\(0{,}1875\\).",
+   "images": [],
+   "id": "2fbc03a5fbb5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Two dice are rolled. Given that at least one die shows #, the probability that the sum is # is…",
+   "en": "Two dice are rolled. Given that at least one die shows 5, the probability that the sum is 8 is…",
+   "vi": "Gieo hai con xúc xắc. Biết có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"at least one\">ít nhất một</b> con ra 5 chấm, xác suất tổng số chấm bằng 8 là…",
+   "options": [
+    "\\(\\dfrac{1}{18}\\)",
+    "\\(\\dfrac{1}{6}\\)",
+    "\\(\\dfrac{2}{11}\\)",
+    "\\(\\dfrac{1}{36}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(|B|=11\\), \\(|A\\cap B|=2\\).",
+   "explain_vi": "Đáp án c. Có 11 kết quả có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"at least one\">ít nhất một</b> mặt 5 chấm; trong đó 2 kết quả thỏa mãn.",
+   "images": [],
+   "id": "a663c434933b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Two dice are rolled. Given that the sum is #, the probability that the first die shows # is…",
+   "en": "Two dice are rolled. Given that the sum is 8, the probability that the first die shows 6 is…",
+   "vi": "Gieo hai con xúc xắc. Biết tổng số chấm bằng 8, xác suất con thứ nhất ra 6 chấm là…",
+   "options": [
+    "\\(\\dfrac{1}{6}\\)",
+    "\\(\\dfrac{5}{36}\\)",
+    "\\(\\dfrac{1}{36}\\)",
+    "<span class=\"txi\"><span class=\"en\">\\(0.2\\)</span><span class=\"vi\">\\(0{,}2\\)</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(|B|=5\\), \\(|A\\cap B|=1\\).",
+   "explain_vi": "Đáp án d. Các kết quả có tổng 8: 5; trong đó con thứ nhất ra 6: 1.",
+   "images": [],
+   "id": "102e6a001e9a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(P(A)=#\\), \\(P(A\\cup B)=#\\), \\(P(A\\cap B)=#\\). Then \\(P(A\\mid B)=\\)…",
+   "en": "\\(P(A)=0.3\\), \\(P(A\\cup B)=0.6\\), \\(P(A\\cap B)=0.2\\). Then \\(P(A\\mid B)=\\)…",
+   "vi": "Cho \\(P(A)=0{,}3\\), \\(P(A\\cup B)=0{,}6\\), \\(P(A\\cap B)=0{,}2\\). Khi đó \\(P(A\\mid B)=\\)…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(0.2\\)</span><span class=\"vi\">\\(0{,}2\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.4\\)</span><span class=\"vi\">\\(0{,}4\\)</span></span>",
+    "\\(\\dfrac{2}{3}\\)",
+    "\\(\\dfrac{1}{3}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(P(B)=P(A\\cup B)-P(A)+P(A\\cap B)=0.5\\).",
+   "explain_vi": "Đáp án b. \\(P(B)=P(A\\cup B)-P(A)+P(A\\cap B)=0{,}5\\), rồi \\(P(A\\mid B)=0{,}4\\).",
+   "images": [],
+   "id": "87e56bc54813",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(P(A)=#\\), \\(P(B)=#\\), \\(P(A\\cap B)=#\\). The events \\(A\\), \\(B\\) are…",
+   "en": "\\(P(A)=0.4\\), \\(P(B)=0.6\\), \\(P(A\\cap B)=0.24\\). The events \\(A\\), \\(B\\) are…",
+   "vi": "Cho \\(P(A)=0{,}4\\), \\(P(B)=0{,}6\\), \\(P(A\\cap B)=0{,}24\\). Hai biến cố \\(A\\), \\(B\\)…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">mutually exclusive</span><span class=\"vi\">xung khắc</span></span>",
+    "<span class=\"txi\"><span class=\"en\">independent, \\(P(A\\mid B)=P(A)\\)</span><span class=\"vi\">độc lập, \\(P(A\\mid B)=P(A)\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">not independent</span><span class=\"vi\">không độc lập</span></span>",
+    "<span class=\"txi\"><span class=\"en\">complementary</span><span class=\"vi\">đối nhau</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(P(A)P(B)=0.24\\).",
+   "explain_vi": "Đáp án b. \\(P(A)P(B)=0{,}24\\) so với \\(P(A\\cap B)=0{,}24\\).",
+   "images": [],
+   "id": "f13c4ebad7cf",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(P(A\\mid B)=#\\). Then \\(P(\\overline A\\mid B)=\\)…",
+   "en": "\\(P(A\\mid B)=0.375\\). Then \\(P(\\overline A\\mid B)=\\)…",
+   "vi": "Cho \\(P(A\\mid B)=0{,}375\\). Khi đó \\(P(\\overline A\\mid B)=\\)…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(0.8125\\)</span><span class=\"vi\">\\(0{,}8125\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.1875\\)</span><span class=\"vi\">\\(0{,}1875\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.625\\)</span><span class=\"vi\">\\(0{,}625\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.375\\)</span><span class=\"vi\">\\(0{,}375\\)</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(P(\\overline A\\mid B)=1-P(A\\mid B)\\).",
+   "explain_vi": "Đáp án c. \\(P(\\overline A\\mid B)=1-P(A\\mid B)\\).",
+   "images": [],
+   "id": "d97cd1af8099",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(P(B)=#\\), \\(P(A\\cap B)=#\\). Then \\(P(A\\mid B)=\\)…",
+   "en": "\\(P(B)=0.5\\), \\(P(A\\cap B)=0.3\\). Then \\(P(A\\mid B)=\\)…",
+   "vi": "Cho \\(P(B)=0{,}5\\), \\(P(A\\cap B)=0{,}3\\). Khi đó \\(P(A\\mid B)=\\)…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(0.15\\)</span><span class=\"vi\">\\(0{,}15\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.2\\)</span><span class=\"vi\">\\(0{,}2\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.6\\)</span><span class=\"vi\">\\(0{,}6\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.3\\)</span><span class=\"vi\">\\(0{,}3\\)</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(P(A\\mid B)=\\dfrac{P(A\\cap B)}{P(B)}\\).",
+   "explain_vi": "Đáp án c. \\(P(A\\mid B)=\\dfrac{P(A\\cap B)}{P(B)}=0{,}6\\).",
+   "images": [],
+   "id": "4b4c64e03c52",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(P(B)=#\\), \\(P(A\\cap B)=#\\). Then \\(P(A\\mid B)=\\)…",
+   "en": "\\(P(B)=0.2\\), \\(P(A\\cap B)=0.04\\). Then \\(P(A\\mid B)=\\)…",
+   "vi": "Cho \\(P(B)=0{,}2\\), \\(P(A\\cap B)=0{,}04\\). Khi đó \\(P(A\\mid B)=\\)…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(0.04\\)</span><span class=\"vi\">\\(0{,}04\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.008\\)</span><span class=\"vi\">\\(0{,}008\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.2\\)</span><span class=\"vi\">\\(0{,}2\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.16\\)</span><span class=\"vi\">\\(0{,}16\\)</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(P(A\\mid B)=\\dfrac{P(A\\cap B)}{P(B)}\\).",
+   "explain_vi": "Đáp án c. \\(P(A\\mid B)=\\dfrac{P(A\\cap B)}{P(B)}=0{,}2\\).",
+   "images": [],
+   "id": "ba2a4f3a42e3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(P(B)=#\\), \\(P(A\\mid B)=#\\). Then \\(P(A\\cap B)=\\)…",
+   "en": "\\(P(B)=0.3\\), \\(P(A\\mid B)=0.6\\). Then \\(P(A\\cap B)=\\)…",
+   "vi": "Cho \\(P(B)=0{,}3\\), \\(P(A\\mid B)=0{,}6\\). Khi đó \\(P(A\\cap B)=\\)…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(0.3\\)</span><span class=\"vi\">\\(0{,}3\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.6\\)</span><span class=\"vi\">\\(0{,}6\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.18\\)</span><span class=\"vi\">\\(0{,}18\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.4\\)</span><span class=\"vi\">\\(0{,}4\\)</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(P(A\\cap B)=P(B)\\cdot P(A\\mid B)\\).",
+   "explain_vi": "Đáp án c. \\(P(A\\cap B)=P(B)\\cdot P(A\\mid B)=0{,}18\\).",
+   "images": [],
+   "id": "782b8b374089",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "# red and # white balls; draw # without replacement. \\(P(\\text{both white})=\\)…",
+   "en": "4 red and 5 white balls; draw 2 without replacement. \\(P(\\text{both white})=\\)…",
+   "vi": "Hộp có 4 bi đỏ và 5 bi trắng; lấy <b class=\"mbl-term\" tabindex=\"0\" data-en=\"respectively\">lần lượt</b> 2 bi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"without replacement\">không hoàn lại</b>. Xác suất cả hai bi trắng là…",
+   "options": [
+    "\\(\\dfrac{25}{81}\\)",
+    "<span class=\"txi\"><span class=\"en\">\\(0.5\\)</span><span class=\"vi\">\\(0{,}5\\)</span></span>",
+    "\\(\\dfrac{5}{18}\\)",
+    "\\(\\dfrac{20}{81}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\dfrac{5}{9}\\cdot\\dfrac{4}{8}\\).",
+   "explain_vi": "Đáp án c. \\(\\dfrac{5}{9}\\cdot\\dfrac{4}{8}\\).",
+   "images": [],
+   "id": "4ceae00d684b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Of # boys, # wear glasses; of # girls, # wear glasses. A student wearing glasses is chosen. \\(P(\\text{girl})=\\)…",
+   "en": "Of 30 boys, 9 wear glasses; of 40 girls, 15 wear glasses. A student wearing glasses is chosen. \\(P(\\text{girl})=\\)…",
+   "vi": "Trong 30 nam có 9 em đeo kính; trong 40 nữ có 15 em đeo kính. Chọn một học sinh đeo kính. Xác suất đó là nữ là…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(0.375\\)</span><span class=\"vi\">\\(0{,}375\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.625\\)</span><span class=\"vi\">\\(0{,}625\\)</span></span>",
+    "\\(\\dfrac{3}{14}\\)",
+    "\\(\\dfrac{4}{7}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Among 24 with glasses, 15 are girls.",
+   "explain_vi": "Đáp án b. Trong 24 em đeo kính có 15 em nữ.",
+   "images": [],
+   "id": "6c77567242e7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(P(B)=#\\), \\(P(A\\cap B)=#\\). \\(P(A\\mid B)=\\)…",
+   "en": "\\(P(B)=0.8\\), \\(P(A\\cap B)=0.6\\). \\(P(A\\mid B)=\\)…",
+   "vi": "Cho \\(P(B)=0{,}8\\), \\(P(A\\cap B)=0{,}6\\). Khi đó \\(P(A\\mid B)=\\)…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(0.48\\)</span><span class=\"vi\">\\(0{,}48\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.75\\)</span><span class=\"vi\">\\(0{,}75\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.6\\)</span><span class=\"vi\">\\(0{,}6\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.25\\)</span><span class=\"vi\">\\(0{,}25\\)</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\dfrac{P(A\\cap B)}{P(B)}\\).",
+   "explain_vi": "Đáp án b. \\(\\dfrac{P(A\\cap B)}{P(B)}=0{,}75\\).",
+   "images": [],
+   "id": "b285cc022682",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "If \\(P(A\\mid B)=#\\) then \\(P(A\\cap B)=#\\).",
+   "en": "If \\(P(A\\mid B)=0.6\\) then \\(P(A\\cap B)=0.6\\).",
+   "vi": "Nếu \\(P(A\\mid B)=0{,}6\\) thì \\(P(A\\cap B)=0{,}6\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "\\(P(A\\cap B)=0.6\\,P(B)\\), smaller unless \\(P(B)=1\\).",
+   "explain_vi": "\\(P(A\\cap B)=0{,}6\\,P(B)\\), nhỏ hơn 0,6 trừ khi \\(P(B)=1\\).",
+   "images": [],
+   "id": "179bcb677249",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(P(A\\cap B)=P(A)\\cdot P(B\\mid A)\\).",
+   "en": "\\(P(A\\cap B)=P(A)\\cdot P(B\\mid A)\\).",
+   "vi": "\\(P(A\\cap B)=P(A)\\cdot P(B\\mid A)\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "Multiplication rule.",
+   "explain_vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"multiplication rule\">Công thức nhân xác suất</b>.",
+   "images": [],
+   "id": "42f70b89a37e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "In a survey of # people, # tested positive, of whom # were actually sick. Find \\(P(\\text{sick}\\mid+)\\) (decimal).",
+   "en": "In a survey of 1000 people, 80 tested positive, of whom 52 were actually sick. Find \\(P(\\text{sick}\\mid+)\\) (decimal).",
+   "vi": "Khảo sát 1000 người: 80 người dương tính, trong đó 52 người thật sự mắc bệnh. Tính \\(P(\\text{bệnh}\\mid+)\\) (viết dạng thập phân).",
+   "options": [],
+   "answer": "0.65",
+   "explain_en": "\\(\\dfrac{52}{80}=0.65\\).",
+   "explain_vi": "\\(\\dfrac{52}{80}=0{,}65\\).",
+   "images": [],
+   "id": "3304df3dd0e4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "\\(P(B)=#\\), \\(P(A\\mid B)=#\\). Find \\(P(A\\cap B)\\) (decimal).",
+   "en": "\\(P(B)=0.5\\), \\(P(A\\mid B)=0.4\\). Find \\(P(A\\cap B)\\) (decimal).",
+   "vi": "Cho \\(P(B)=0{,}5\\), \\(P(A\\mid B)=0{,}4\\). Tính \\(P(A\\cap B)\\) (viết dạng thập phân).",
+   "options": [],
+   "answer": "0.2",
+   "explain_en": "\\(0.5\\cdot0.4=0.2\\).",
+   "explain_vi": "\\(P(A\\cap B)=P(B)P(A\\mid B)=0{,}2\\).",
+   "images": [],
+   "id": "abfa982bbac1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "A box has # red and # blue balls. Two balls are drawn one after another without replacement. Given that the first is red, the probability that the second is red is…",
+   "en": "A box has 5 red and 6 blue balls. Two balls are drawn one after another without replacement. Given that the first is red, the probability that the second is red is…",
+   "vi": "Hộp có 5 bi đỏ và 6 bi xanh. Lấy <b class=\"mbl-term\" tabindex=\"0\" data-en=\"respectively\">lần lượt</b> 2 bi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"without replacement\">không hoàn lại</b>. Biết bi thứ nhất màu đỏ, xác suất bi thứ hai màu đỏ là…",
+   "options": [
+    "\\(\\dfrac{5}{11}\\)",
+    "<span class=\"txi\"><span class=\"en\">\\(0.5\\)</span><span class=\"vi\">\\(0{,}5\\)</span></span>",
+    "\\(\\dfrac{4}{11}\\)",
+    "<span class=\"txi\"><span class=\"en\">\\(0.4\\)</span><span class=\"vi\">\\(0{,}4\\)</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. After one red ball: 4 red among 10.",
+   "explain_vi": "Đáp án d. Sau khi lấy 1 bi đỏ còn 4 bi đỏ trong 10 bi.",
+   "images": [],
+   "id": "906378e8ce10",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "A box has # red and # blue balls; draw # without replacement. \\(P(\\text{both red})=\\)…",
+   "en": "A box has 8 red and 5 blue balls; draw 2 without replacement. \\(P(\\text{both red})=\\)…",
+   "vi": "Hộp có 8 bi đỏ và 5 bi xanh; lấy <b class=\"mbl-term\" tabindex=\"0\" data-en=\"respectively\">lần lượt</b> 2 bi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"without replacement\">không hoàn lại</b>. Xác suất cả hai bi đều đỏ là…",
+   "options": [
+    "\\(\\dfrac{14}{39}\\)",
+    "\\(\\dfrac{7}{12}\\)",
+    "\\(\\dfrac{56}{169}\\)",
+    "\\(\\dfrac{64}{169}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(P(A\\cap B)=P(A)P(B\\mid A)=\\dfrac{8}{13}\\cdot\\dfrac{7}{12}\\).",
+   "explain_vi": "Đáp án a. Công thức nhân: \\(P(A\\cap B)=P(A)P(B\\mid A)=\\dfrac{8}{13}\\cdot\\dfrac{7}{12}=\\dfrac{14}{39}\\).",
+   "images": [],
+   "id": "17f145491f64",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "A card is drawn from cards numbered # to #. Given that the number is divisible by #, the probability that it is divisible by # is…",
+   "en": "A card is drawn from cards numbered 1 to 20. Given that the number is divisible by 4, the probability that it is divisible by 3 is…",
+   "vi": "Rút một thẻ từ các thẻ đánh số 1 đến 20. Biết số trên thẻ chia hết cho 4, xác suất số đó chia hết cho 3 là…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(0.2\\)</span><span class=\"vi\">\\(0{,}2\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.25\\)</span><span class=\"vi\">\\(0{,}25\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.3\\)</span><span class=\"vi\">\\(0{,}3\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.05\\)</span><span class=\"vi\">\\(0{,}05\\)</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. 5 multiples of 4; 1 of them are multiples of 3.",
+   "explain_vi": "Đáp án a. Có 5 số chia hết cho 4, trong đó 1 số chia hết cho 3.",
+   "images": [],
+   "id": "fce4a452f2f3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "A family has # children (boys and girls equally likely). Given that there is at least one girl, the probability that all are girls is…",
+   "en": "A family has 2 children (boys and girls equally likely). Given that there is at least one girl, the probability that all are girls is…",
+   "vi": "Một gia đình có 2 con (khả năng trai, gái như nhau). Biết có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"at least one\">ít nhất một</b> con gái, xác suất tất cả đều là con gái là…",
+   "options": [
+    "\\(\\dfrac{2}{3}\\)",
+    "<span class=\"txi\"><span class=\"en\">\\(0.5\\)</span><span class=\"vi\">\\(0{,}5\\)</span></span>",
+    "\\(\\dfrac{1}{3}\\)",
+    "<span class=\"txi\"><span class=\"en\">\\(0.25\\)</span><span class=\"vi\">\\(0{,}25\\)</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(|B|=3\\), \\(|A\\cap B|=1\\).",
+   "explain_vi": "Đáp án c. Có 3 khả năng có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"at least one\">ít nhất một</b> con gái; chỉ 1 khả năng tất cả đều là con gái.",
+   "images": [],
+   "id": "893487a8f73f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "From # red and # white balls, draw # one by one without replacement. \\(P(\\text{all red})=\\)…",
+   "en": "From 8 red and 3 white balls, draw 3 one by one without replacement. \\(P(\\text{all red})=\\)…",
+   "vi": "Từ 8 bi đỏ và 3 bi trắng, lấy <b class=\"mbl-term\" tabindex=\"0\" data-en=\"respectively\">lần lượt</b> 3 bi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"without replacement\">không hoàn lại</b>. Xác suất cả 3 bi đều đỏ là…",
+   "options": [
+    "\\(\\dfrac{336}{1331}\\)",
+    "\\(\\dfrac{56}{165}\\)",
+    "\\(\\dfrac{2}{3}\\)",
+    "\\(\\dfrac{512}{1331}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\dfrac{8}{11}\\cdot\\dfrac{7}{10}\\cdot\\dfrac{6}{9}\\).",
+   "explain_vi": "Đáp án b. Công thức nhân: \\(\\dfrac{8}{11}\\cdot\\dfrac{7}{10}\\cdot\\dfrac{6}{9}=\\dfrac{56}{165}\\).",
+   "images": [],
+   "id": "950705dab689",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Of # sick people, # test positive; of # healthy people, # test positive. Given a positive test, the probability that the person is sick is…",
+   "en": "Of 40 sick people, 36 test positive; of 160 healthy people, 8 test positive. Given a positive test, the probability that the person is sick is…",
+   "vi": "Trong 40 người bệnh có 36 người xét <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b> dương tính; trong 160 người khỏe có 8 người dương tính. Biết một người dương tính, xác suất người đó bị bệnh là…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(0.18\\)</span><span class=\"vi\">\\(0{,}18\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.2\\)</span><span class=\"vi\">\\(0{,}2\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.9\\)</span><span class=\"vi\">\\(0{,}9\\)</span></span>",
+    "\\(\\dfrac{9}{11}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\dfrac{36}{36+8}\\).",
+   "explain_vi": "Đáp án d. Chỉ xét 44 người dương tính: \\(\\dfrac{36}{44}\\).",
+   "images": [],
+   "id": "111495fa49bf",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Survey: \\(\\begin{array}{c|cc}&\\text{Yes}&\\text{No}\\\\\\hline\\text{Boys}&#&#\\\\\\text{Girls}&#&#\\end{array}\\). A random student is one who answered \"Yes\". The probability that it is a girl is…",
+   "en": "Survey: \\(\\begin{array}{c|cc}&\\text{Yes}&\\text{No}\\\\\\hline\\text{Boys}&23&21\\\\\\text{Girls}&17&10\\end{array}\\). A random student is one who answered \"Yes\". The probability that it is a girl is…",
+   "vi": "Khảo sát: \\(\\begin{array}{c|cc}&\\text{Thích}&\\text{Không}\\\\\\hline\\text{Nam}&23&21\\\\\\text{Nữ}&17&10\\end{array}\\). Chọn ngẫu nhiên một học sinh, biết học sinh đó trả lời \"Thích\". Xác suất đó là nữ là…",
+   "options": [
+    "\\(\\dfrac{17}{71}\\)",
+    "<span class=\"txi\"><span class=\"en\">\\(0.425\\)</span><span class=\"vi\">\\(0{,}425\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.575\\)</span><span class=\"vi\">\\(0{,}575\\)</span></span>",
+    "\\(\\dfrac{27}{71}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Restrict to the given group: \\(0.425\\).",
+   "explain_vi": "Đáp án b. Chỉ xét trong nhóm đã biết: \\(0{,}425\\).",
+   "images": [],
+   "id": "c49f84651557",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Two dice are rolled. Given that at least one die shows #, the probability that the sum is # is…",
+   "en": "Two dice are rolled. Given that at least one die shows 6, the probability that the sum is 7 is…",
+   "vi": "Gieo hai con xúc xắc. Biết có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"at least one\">ít nhất một</b> con ra 6 chấm, xác suất tổng số chấm bằng 7 là…",
+   "options": [
+    "\\(\\dfrac{1}{6}\\)",
+    "\\(\\dfrac{1}{36}\\)",
+    "\\(\\dfrac{1}{18}\\)",
+    "\\(\\dfrac{2}{11}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(|B|=11\\), \\(|A\\cap B|=2\\).",
+   "explain_vi": "Đáp án d. Có 11 kết quả có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"at least one\">ít nhất một</b> mặt 6 chấm; trong đó 2 kết quả thỏa mãn.",
+   "images": [],
+   "id": "f12f451f89d9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Two dice are rolled. Given that the sum is #, the probability that the first die shows # is…",
+   "en": "Two dice are rolled. Given that the sum is 10, the probability that the first die shows 4 is…",
+   "vi": "Gieo hai con xúc xắc. Biết tổng số chấm bằng 10, xác suất con thứ nhất ra 4 chấm là…",
+   "options": [
+    "\\(\\dfrac{1}{6}\\)",
+    "\\(\\dfrac{1}{3}\\)",
+    "\\(\\dfrac{1}{12}\\)",
+    "\\(\\dfrac{1}{36}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(|B|=3\\), \\(|A\\cap B|=1\\).",
+   "explain_vi": "Đáp án b. Các kết quả có tổng 10: 3; trong đó con thứ nhất ra 4: 1.",
+   "images": [],
+   "id": "dbd6086b8fd3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(P(A)=#\\), \\(P(A\\cup B)=#\\), \\(P(A\\cap B)=#\\). Then \\(P(A\\mid B)=\\)…",
+   "en": "\\(P(A)=0.4\\), \\(P(A\\cup B)=0.7\\), \\(P(A\\cap B)=0.1\\). Then \\(P(A\\mid B)=\\)…",
+   "vi": "Cho \\(P(A)=0{,}4\\), \\(P(A\\cup B)=0{,}7\\), \\(P(A\\cap B)=0{,}1\\). Khi đó \\(P(A\\mid B)=\\)…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(0.1\\)</span><span class=\"vi\">\\(0{,}1\\)</span></span>",
+    "\\(\\dfrac{1}{7}\\)",
+    "<span class=\"txi\"><span class=\"en\">\\(0.25\\)</span><span class=\"vi\">\\(0{,}25\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.4\\)</span><span class=\"vi\">\\(0{,}4\\)</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(P(B)=P(A\\cup B)-P(A)+P(A\\cap B)=0.4\\).",
+   "explain_vi": "Đáp án c. \\(P(B)=P(A\\cup B)-P(A)+P(A\\cap B)=0{,}4\\), rồi \\(P(A\\mid B)=0{,}25\\).",
+   "images": [],
+   "id": "15aed193f282",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(P(A)=#\\), \\(P(B)=#\\), \\(P(A\\cap B)=#\\). The events \\(A\\), \\(B\\) are…",
+   "en": "\\(P(A)=0.3\\), \\(P(B)=0.4\\), \\(P(A\\cap B)=0.12\\). The events \\(A\\), \\(B\\) are…",
+   "vi": "Cho \\(P(A)=0{,}3\\), \\(P(B)=0{,}4\\), \\(P(A\\cap B)=0{,}12\\). Hai biến cố \\(A\\), \\(B\\)…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">mutually exclusive</span><span class=\"vi\">xung khắc</span></span>",
+    "<span class=\"txi\"><span class=\"en\">complementary</span><span class=\"vi\">đối nhau</span></span>",
+    "<span class=\"txi\"><span class=\"en\">independent, \\(P(A\\mid B)=P(A)\\)</span><span class=\"vi\">độc lập, \\(P(A\\mid B)=P(A)\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">not independent</span><span class=\"vi\">không độc lập</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(P(A)P(B)=0.12\\).",
+   "explain_vi": "Đáp án c. \\(P(A)P(B)=0{,}12\\) so với \\(P(A\\cap B)=0{,}12\\).",
+   "images": [],
+   "id": "15567b9fd278",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(P(A\\mid B)=#\\). Then \\(P(\\overline A\\mid B)=\\)…",
+   "en": "\\(P(A\\mid B)=0.625\\). Then \\(P(\\overline A\\mid B)=\\)…",
+   "vi": "Cho \\(P(A\\mid B)=0{,}625\\). Khi đó \\(P(\\overline A\\mid B)=\\)…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(0.6875\\)</span><span class=\"vi\">\\(0{,}6875\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.3125\\)</span><span class=\"vi\">\\(0{,}3125\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.625\\)</span><span class=\"vi\">\\(0{,}625\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.375\\)</span><span class=\"vi\">\\(0{,}375\\)</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(P(\\overline A\\mid B)=1-P(A\\mid B)\\).",
+   "explain_vi": "Đáp án d. \\(P(\\overline A\\mid B)=1-P(A\\mid B)\\).",
+   "images": [],
+   "id": "c17b0039d8f9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(P(B)=#\\), \\(P(A\\cap B)=#\\). Then \\(P(A\\mid B)=\\)…",
+   "en": "\\(P(B)=0.2\\), \\(P(A\\cap B)=0.05\\). Then \\(P(A\\mid B)=\\)…",
+   "vi": "Cho \\(P(B)=0{,}2\\), \\(P(A\\cap B)=0{,}05\\). Khi đó \\(P(A\\mid B)=\\)…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(0.05\\)</span><span class=\"vi\">\\(0{,}05\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.01\\)</span><span class=\"vi\">\\(0{,}01\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.15\\)</span><span class=\"vi\">\\(0{,}15\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.25\\)</span><span class=\"vi\">\\(0{,}25\\)</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(P(A\\mid B)=\\dfrac{P(A\\cap B)}{P(B)}\\).",
+   "explain_vi": "Đáp án d. \\(P(A\\mid B)=\\dfrac{P(A\\cap B)}{P(B)}=0{,}25\\).",
+   "images": [],
+   "id": "bbafd4105ffe",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(P(B)=#\\), \\(P(A\\cap B)=#\\). Then \\(P(A\\mid B)=\\)…",
+   "en": "\\(P(B)=0.6\\), \\(P(A\\cap B)=0.45\\). Then \\(P(A\\mid B)=\\)…",
+   "vi": "Cho \\(P(B)=0{,}6\\), \\(P(A\\cap B)=0{,}45\\). Khi đó \\(P(A\\mid B)=\\)…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(0.15\\)</span><span class=\"vi\">\\(0{,}15\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.27\\)</span><span class=\"vi\">\\(0{,}27\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.75\\)</span><span class=\"vi\">\\(0{,}75\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.45\\)</span><span class=\"vi\">\\(0{,}45\\)</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(P(A\\mid B)=\\dfrac{P(A\\cap B)}{P(B)}\\).",
+   "explain_vi": "Đáp án c. \\(P(A\\mid B)=\\dfrac{P(A\\cap B)}{P(B)}=0{,}75\\).",
+   "images": [],
+   "id": "fb16c6093191",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(P(B)=#\\), \\(P(A\\mid B)=#\\). Then \\(P(A\\cap B)=\\)…",
+   "en": "\\(P(B)=0.4\\), \\(P(A\\mid B)=0.6\\). Then \\(P(A\\cap B)=\\)…",
+   "vi": "Cho \\(P(B)=0{,}4\\), \\(P(A\\mid B)=0{,}6\\). Khi đó \\(P(A\\cap B)=\\)…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(0.76\\)</span><span class=\"vi\">\\(0{,}76\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.4\\)</span><span class=\"vi\">\\(0{,}4\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.6\\)</span><span class=\"vi\">\\(0{,}6\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.24\\)</span><span class=\"vi\">\\(0{,}24\\)</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(P(A\\cap B)=P(B)\\cdot P(A\\mid B)\\).",
+   "explain_vi": "Đáp án d. \\(P(A\\cap B)=P(B)\\cdot P(A\\mid B)=0{,}24\\).",
+   "images": [],
+   "id": "dcc5ef256666",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  }
+ ]
+}

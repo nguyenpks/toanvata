@@ -1,0 +1,1317 @@
+{
+ "lesson": "g9-systems-02",
+ "grade": 9,
+ "no": 2,
+ "title": "Giải hệ hai phương trình bậc nhất hai ẩn",
+ "path": "lessons/grade9/systems-of-equations/solving-systems.html",
+ "items": [
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "How many solutions does the system \\(\\begin{cases}-x+y=-#\\\\ #x+#y=-#\\end{cases}\\) have?",
+   "en": "How many solutions does the system \\(\\begin{cases}-x+y=-9\\\\ 4x+4y=-1\\end{cases}\\) have?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"system of equations\">Hệ phương trình</b> \\(\\begin{cases}-x+y=-9\\\\ 4x+4y=-1\\end{cases}\\) có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b>?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">no solution</span><span class=\"vi\">vô nghiệm</span></span>",
+    "<span class=\"txi\"><span class=\"en\">exactly one solution</span><span class=\"vi\">có nghiệm duy nhất</span></span>",
+    "<span class=\"txi\"><span class=\"en\">exactly two solutions</span><span class=\"vi\">có đúng hai nghiệm</span></span>",
+    "<span class=\"txi\"><span class=\"en\">infinitely many solutions</span><span class=\"vi\">có vô số nghiệm</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. The two lines have different slopes, so they intersect at one point.",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersecting lines\">Hai đường thẳng cắt nhau</b> tại một điểm.",
+   "images": [],
+   "id": "fc3f1e365d2a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Solve the system \\(\\begin{cases}-#x-#y=#\\\\ -#x+y=-#\\end{cases}\\).",
+   "en": "Solve the system \\(\\begin{cases}-2x-3y=11\\\\ -3x+y=-11\\end{cases}\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"solve a system\">Giải hệ phương trình</b> \\(\\begin{cases}-2x-3y=11\\\\ -3x+y=-11\\end{cases}\\).",
+   "options": [
+    "\\((-5;\\ 2)\\)",
+    "\\((-2;\\ -5)\\)",
+    "\\((2;\\ -5)\\)",
+    "\\((2;\\ 5)\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The solution is \\((2;\\ -5)\\). Check: both equations are true.",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution of a system\">Nghiệm của hệ</b> là \\((2;\\ -5)\\). Thử lại: cả hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> đều đúng.",
+   "images": [],
+   "id": "88b01c81eb49",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "To solve the system \\(\\begin{cases}x-#y=#\\\\ -#x-y=-#\\end{cases}\\) by substitution, we first express \\(x\\) from the first equation. Which expression is correct?",
+   "en": "To solve the system \\(\\begin{cases}x-3y=1\\\\ -2x-y=-1\\end{cases}\\) by substitution, we first express \\(x\\) from the first equation. Which expression is correct?",
+   "vi": "Để giải hệ \\(\\begin{cases}x-3y=1\\\\ -2x-y=-1\\end{cases}\\) bằng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"substitution method\">phương pháp thế</b>, ta rút \\(x\\) từ <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> thứ nhất. Cách rút nào đúng?",
+   "options": [
+    "\\(x=1+3y\\)",
+    "\\(x=-1+3y\\)",
+    "\\(x=-1-3y\\)",
+    "\\(x=1-3y\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Move \\(-3y\\) to the right-hand side and change its sign.",
+   "explain_vi": "Đáp án a. Chuyển \\(-3y\\) sang <b class=\"mbl-term\" tabindex=\"0\" data-en=\"right-hand side (RHS)\">vế phải</b> và đổi dấu.",
+   "images": [],
+   "id": "b2ac8b76955c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "The system \\(\\begin{cases}-x-y=#\\\\ x-y=-#\\end{cases}\\) has the solution \\((#;\\ -#)\\).",
+   "en": "The system \\(\\begin{cases}-x-y=3\\\\ x-y=-1\\end{cases}\\) has the solution \\((2;\\ -1)\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"system of equations\">Hệ phương trình</b> \\(\\begin{cases}-x-y=3\\\\ x-y=-1\\end{cases}\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b> là \\((2;\\ -1)\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. Solving gives \\((-2;\\ -1)\\).",
+   "explain_vi": "Sai. Giải hệ được <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b> \\((-2;\\ -1)\\).",
+   "images": [],
+   "id": "10e51f95eabc",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "The system \\(\\begin{cases}x+#y=-#\\\\ -x-#y=#\\end{cases}\\) has no solution.",
+   "en": "The system \\(\\begin{cases}x+2y=-5\\\\ -x-2y=1\\end{cases}\\) has no solution.",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"system of equations\">Hệ phương trình</b> \\(\\begin{cases}x+2y=-5\\\\ -x-2y=1\\end{cases}\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"no solution\">vô nghiệm</b>.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. The lines are parallel.",
+   "explain_vi": "Đúng. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel lines\">Hai đường thẳng song song</b>.",
+   "images": [],
+   "id": "cea3989706af",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "Solve the system \\(\\begin{cases}-#x+#y=-#\\\\ #x+#y=#\\end{cases}\\). Write the value of \\(x+y\\).",
+   "en": "Solve the system \\(\\begin{cases}-5x+2y=-29\\\\ 2x+5y=0\\end{cases}\\). Write the value of \\(x+y\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"solve a system\">Giải hệ phương trình</b> \\(\\begin{cases}-5x+2y=-29\\\\ 2x+5y=0\\end{cases}\\). Ghi giá trị của \\(x+y\\).",
+   "options": [],
+   "answer": "3",
+   "explain_en": "Answer: 3. The solution is \\((5;\\ -2)\\), so \\(x+y=3\\).",
+   "explain_vi": "Đáp số: 3. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution of a system\">Nghiệm của hệ</b> là \\((5;\\ -2)\\) nên \\(x+y=3\\).",
+   "images": [],
+   "id": "c34540a85765",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "The line \\(y=ax+b\\) passes through \\(A(#;\\ #)\\) and \\(B(#;\\ #)\\). Find \\(a+b\\).",
+   "en": "The line \\(y=ax+b\\) passes through \\(A(3;\\ 9)\\) and \\(B(6;\\ 12)\\). Find \\(a+b\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">Đường thẳng</b> \\(y=ax+b\\) đi qua \\(A(3;\\ 9)\\) và \\(B(6;\\ 12)\\). Tìm \\(a+b\\).",
+   "options": [],
+   "answer": "7",
+   "explain_en": "Answer: 7. Solve \\(\\begin{cases}3a+b=9\\\\ 6a+b=12\\end{cases}\\): \\(a=1,\\ b=6\\), so \\(a+b=7\\).",
+   "explain_vi": "Đáp số: 7. Giải hệ \\(\\begin{cases}3a+b=9\\\\ 6a+b=12\\end{cases}\\): \\(a=1,\\ b=6\\) nên \\(a+b=7\\).",
+   "images": [],
+   "id": "0946711df57d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D1",
+   "type": "mcq",
+   "form": "From the equation \\(-#x+y=-#\\), express \\(y\\) in terms of \\(x\\).",
+   "en": "From the equation \\(-3x+y=-3\\), express \\(y\\) in terms of \\(x\\).",
+   "vi": "Từ <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(-3x+y=-3\\), hãy biểu diễn \\(y\\) theo \\(x\\).",
+   "options": [
+    "\\(y=-3+3x\\)",
+    "\\(y=3-3x\\)",
+    "\\(y=3+3x\\)",
+    "\\(y=-3-3x\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(y=-3+3x\\).",
+   "explain_vi": "Đáp án a. \\(y=-3+3x\\).",
+   "images": [],
+   "id": "fb6b129e8b6d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D1",
+   "type": "mcq",
+   "form": "To eliminate \\(y\\) in the system \\(\\begin{cases}-#x+#y=#\\\\ -#x+#y=#\\end{cases}\\), we should…",
+   "en": "To eliminate \\(y\\) in the system \\(\\begin{cases}-4x+2y=8\\\\ -3x+2y=1\\end{cases}\\), we should…",
+   "vi": "Để <b class=\"mbl-term\" tabindex=\"0\" data-en=\"eliminate (a variable)\">khử ẩn</b> \\(y\\) trong hệ \\(\\begin{cases}-4x+2y=8\\\\ -3x+2y=1\\end{cases}\\), ta nên…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">multiply both equations by \\(2\\)</span><span class=\"vi\">nhân cả hai phương trình với \\(2\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">add \\(2\\) to both sides of the first equation</span><span class=\"vi\">cộng \\(2\\) vào hai vế của phương trình thứ nhất</span></span>",
+    "<span class=\"txi\"><span class=\"en\">add the two equations side by side</span><span class=\"vi\">cộng từng vế hai phương trình</span></span>",
+    "<span class=\"txi\"><span class=\"en\">subtract the two equations side by side</span><span class=\"vi\">trừ từng vế hai phương trình</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. The coefficients of \\(y\\) are equal, so we subtract.",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">Hệ số</b> của \\(y\\) bằng nhau nên ta trừ từng vế.",
+   "images": [],
+   "id": "6139e1d36e00",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D1",
+   "type": "mcq",
+   "form": "While solving a system by elimination, we get \\(#x=-#\\). What can we say about the system?",
+   "en": "While solving a system by elimination, we get \\(0x=-8\\). What can we say about the system?",
+   "vi": "Khi giải một hệ bằng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"elimination method\">phương pháp cộng đại số</b>, ta được \\(0x=-8\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"conclusion\">Kết luận</b> gì về hệ?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">exactly two solutions</span><span class=\"vi\">có đúng hai nghiệm</span></span>",
+    "<span class=\"txi\"><span class=\"en\">no solution</span><span class=\"vi\">vô nghiệm</span></span>",
+    "<span class=\"txi\"><span class=\"en\">exactly one solution</span><span class=\"vi\">có nghiệm duy nhất</span></span>",
+    "<span class=\"txi\"><span class=\"en\">infinitely many solutions</span><span class=\"vi\">có vô số nghiệm</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(0x=-8\\) is never true, so the system has no solution.",
+   "explain_vi": "Đáp án b. \\(0x=-8\\) không bao giờ đúng nên hệ <b class=\"mbl-term\" tabindex=\"0\" data-en=\"no solution\">vô nghiệm</b>.",
+   "images": [],
+   "id": "3dfb9d6cedaa",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Only one system has no solution. Which one?",
+   "en": "Only one system has no solution. Which one?",
+   "vi": "Chỉ có một hệ <b class=\"mbl-term\" tabindex=\"0\" data-en=\"no solution\">vô nghiệm</b>. Đó là hệ nào?",
+   "options": [
+    "\\(\\begin{cases}-4x-3y=1\\\\ x-y=-2\\end{cases}\\)",
+    "\\(\\begin{cases}5x-5y=1\\\\ -x+5y=-2\\end{cases}\\)",
+    "\\(\\begin{cases}x-2y=4\\\\ 4x-8y=14\\end{cases}\\)",
+    "\\(\\begin{cases}5x-4y=2\\\\ 10x-8y=4\\end{cases}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. In the correct system, the second equation is a multiple of the first on the left side only.",
+   "explain_vi": "Đáp án c. Ở hệ đúng, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> thứ hai có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"left-hand side (LHS)\">vế trái</b> bằng một số lần <b class=\"mbl-term\" tabindex=\"0\" data-en=\"left-hand side (LHS)\">vế trái</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> thứ nhất nhưng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"right-hand side (RHS)\">vế phải</b> thì không.",
+   "images": [],
+   "id": "27d6b2ea5ab3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Solve the system \\(\\begin{cases}x+#y=#\\\\ x-#y=-#\\end{cases}\\).",
+   "en": "Solve the system \\(\\begin{cases}x+3y=9\\\\ x-3y=-9\\end{cases}\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"solve a system\">Giải hệ phương trình</b> \\(\\begin{cases}x+3y=9\\\\ x-3y=-9\\end{cases}\\).",
+   "options": [
+    "\\((0;\\ -3)\\)",
+    "\\((0;\\ 3)\\)",
+    "\\((1;\\ 3)\\)",
+    "\\((3;\\ 0)\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Subtract the equations: \\(6y=18\\Rightarrow y=3\\); then \\(x=0\\).",
+   "explain_vi": "Đáp án b. Trừ từng vế: \\(6y=18\\Rightarrow y=3\\); suy ra \\(x=0\\).",
+   "images": [],
+   "id": "f4ed0cdfd84a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Solve the system \\(\\begin{cases}y=#x-#\\\\ -#x-#y=#\\end{cases}\\).",
+   "en": "Solve the system \\(\\begin{cases}y=3x-6\\\\ -4x-3y=57\\end{cases}\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"solve a system\">Giải hệ phương trình</b> \\(\\begin{cases}y=3x-6\\\\ -4x-3y=57\\end{cases}\\).",
+   "options": [
+    "\\((-15;\\ -3)\\)",
+    "\\((-3;\\ 15)\\)",
+    "\\((-3;\\ -15)\\)",
+    "\\((3;\\ -15)\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Substitute \\(y=3x-6\\) into the second equation: \\(-13x+18=57\\Rightarrow x=-3\\), then \\(y=-15\\).",
+   "explain_vi": "Đáp án c. Thế \\(y=3x-6\\) vào <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> thứ hai: \\(-13x+18=57\\Rightarrow x=-3\\), suy ra \\(y=-15\\).",
+   "images": [],
+   "id": "fcc3b8916be4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Find the line \\(y=ax+b\\) through \\(A(#;\\ -#)\\) and \\(B(#;\\ -#)\\).",
+   "en": "Find the line \\(y=ax+b\\) through \\(A(3;\\ -12)\\) and \\(B(4;\\ -14)\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(y=ax+b\\) đi qua \\(A(3;\\ -12)\\) và \\(B(4;\\ -14)\\).",
+   "options": [
+    "\\(y=-6x-2\\)",
+    "\\(y=-2x-6\\)",
+    "\\(y=2x-6\\)",
+    "\\(y=-2x+6\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Solve \\(\\begin{cases}3a+b=-12\\\\ 4a+b=-14\\end{cases}\\): \\(a=-2,\\ b=-6\\).",
+   "explain_vi": "Đáp án b. Giải hệ \\(\\begin{cases}3a+b=-12\\\\ 4a+b=-14\\end{cases}\\): \\(a=-2,\\ b=-6\\).",
+   "images": [],
+   "id": "561347135739",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Solve the system \\(\\begin{cases}#x-#y=-#\\\\ #x+#y=#\\end{cases}\\).",
+   "en": "Solve the system \\(\\begin{cases}3x-3y=-3\\\\ 4x+5y=32\\end{cases}\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"solve a system\">Giải hệ phương trình</b> \\(\\begin{cases}3x-3y=-3\\\\ 4x+5y=32\\end{cases}\\).",
+   "options": [
+    "\\((3;\\ -4)\\)",
+    "\\((3;\\ 4)\\)",
+    "\\((4;\\ 3)\\)",
+    "\\((-3;\\ 4)\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Multiply the equations by \\(4\\) and \\(3\\) so that the coefficients of \\(x\\) are equal, then subtract: \\(y=4\\), \\(x=3\\).",
+   "explain_vi": "Đáp án b. Nhân hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"respectively\">lần lượt</b> với \\(4\\) và \\(3\\) để <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b> của \\(x\\) bằng nhau, rồi trừ từng vế: \\(y=4\\), \\(x=3\\).",
+   "images": [],
+   "id": "197417449106",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Solve the system \\(\\begin{cases}\\dfrac{x}{#}+\\dfrac{y}{#}=-#\\\\ x-y=-#\\end{cases}\\).",
+   "en": "Solve the system \\(\\begin{cases}\\dfrac{x}{4}+\\dfrac{y}{3}=-1\\\\ x-y=-18\\end{cases}\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"solve a system\">Giải hệ phương trình</b> \\(\\begin{cases}\\dfrac{x}{4}+\\dfrac{y}{3}=-1\\\\ x-y=-18\\end{cases}\\).",
+   "options": [
+    "\\((-12;\\ 6)\\)",
+    "\\((6;\\ -12)\\)",
+    "\\((12;\\ 6)\\)",
+    "\\((-12;\\ -6)\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Multiply the first equation by \\(12\\): \\(3x+4y=-12\\). Then solve: \\((-12;\\ 6)\\).",
+   "explain_vi": "Đáp án a. Nhân hai vế <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> thứ nhất với \\(12\\): \\(3x+4y=-12\\). Giải hệ được \\((-12;\\ 6)\\).",
+   "images": [],
+   "id": "f183ca04463f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D4",
+   "type": "mcq",
+   "form": "Find \\(a, b\\) so that the system \\(\\begin{cases}ax+by=#\\\\ bx-ay=#\\end{cases}\\) has the solution \\((-#;\\ -#)\\).",
+   "en": "Find \\(a, b\\) so that the system \\(\\begin{cases}ax+by=21\\\\ bx-ay=3\\end{cases}\\) has the solution \\((-3;\\ -3)\\).",
+   "vi": "Tìm \\(a, b\\) để hệ \\(\\begin{cases}ax+by=21\\\\ bx-ay=3\\end{cases}\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b> \\((-3;\\ -3)\\).",
+   "options": [
+    "\\(a=-3,\\ b=4\\)",
+    "\\(a=-3,\\ b=-4\\)",
+    "\\(a=3,\\ b=-4\\)",
+    "\\(a=-4,\\ b=-3\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Substitute \\(x=-3,\\ y=-3\\): \\(\\begin{cases}-3a-3b=21\\\\ 3a-3b=3\\end{cases}\\). Solving gives \\(a=-3,\\ b=-4\\).",
+   "explain_vi": "Đáp án b. Thay \\(x=-3,\\ y=-3\\): \\(\\begin{cases}-3a-3b=21\\\\ 3a-3b=3\\end{cases}\\). Giải hệ được \\(a=-3,\\ b=-4\\).",
+   "images": [],
+   "id": "116ddfda21ea",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D4",
+   "type": "mcq",
+   "form": "Find \\(m\\) so that the system \\(\\begin{cases}#x+#y=-#\\\\ mx-#y=#\\end{cases}\\) has no solution.",
+   "en": "Find \\(m\\) so that the system \\(\\begin{cases}2x+3y=-6\\\\ mx-6y=13\\end{cases}\\) has no solution.",
+   "vi": "Tìm \\(m\\) để hệ \\(\\begin{cases}2x+3y=-6\\\\ mx-6y=13\\end{cases}\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"no solution\">vô nghiệm</b>.",
+   "options": [
+    "\\(m=-4\\)",
+    "\\(m=4\\)",
+    "\\(m=-2\\)",
+    "\\(m=2\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. No solution means the two lines are parallel: the left side of the second equation is \\(-2\\) times the left side of the first one, so \\(m=-4\\); the right sides do not match (\\(13\\ne -2\\cdot(-6)\\)).",
+   "explain_vi": "Đáp án a. Hệ <b class=\"mbl-term\" tabindex=\"0\" data-en=\"no solution\">vô nghiệm</b> khi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel lines\">hai đường thẳng song song</b>: <b class=\"mbl-term\" tabindex=\"0\" data-en=\"left-hand side (LHS)\">vế trái</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> thứ hai bằng \\(-2\\) lần <b class=\"mbl-term\" tabindex=\"0\" data-en=\"left-hand side (LHS)\">vế trái</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> thứ nhất nên \\(m=-4\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"right-hand side (RHS)\">vế phải</b> không tương ứng (\\(13\\ne -2\\cdot(-6)\\)).",
+   "images": [],
+   "id": "b198a0fc34e2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D4",
+   "type": "mcq",
+   "form": "Solve the system \\(\\begin{cases}#(x+#)-y=#\\\\ x+#(y-#)=#\\end{cases}\\).",
+   "en": "Solve the system \\(\\begin{cases}2(x+1)-y=3\\\\ x+3(y-1)=8\\end{cases}\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"solve a system\">Giải hệ phương trình</b> \\(\\begin{cases}2(x+1)-y=3\\\\ x+3(y-1)=8\\end{cases}\\).",
+   "options": [
+    "\\((3;\\ 2)\\)",
+    "\\((-2;\\ 3)\\)",
+    "\\((2;\\ -3)\\)",
+    "\\((2;\\ 3)\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Expand: \\(\\begin{cases}2x-y=1\\\\ x+3y=11\\end{cases}\\). Solving gives \\((2;\\ 3)\\).",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"expand\">Khai triển</b>: \\(\\begin{cases}2x-y=1\\\\ x+3y=11\\end{cases}\\). Giải hệ được \\((2;\\ 3)\\).",
+   "images": [],
+   "id": "bcd58a279d9d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "How many solutions does the system \\(\\begin{cases}#x-#y=-#\\\\ #x-#y=-#\\end{cases}\\) have?",
+   "en": "How many solutions does the system \\(\\begin{cases}2x-3y=-2\\\\ 4x-6y=-4\\end{cases}\\) have?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"system of equations\">Hệ phương trình</b> \\(\\begin{cases}2x-3y=-2\\\\ 4x-6y=-4\\end{cases}\\) có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b>?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">no solution</span><span class=\"vi\">vô nghiệm</span></span>",
+    "<span class=\"txi\"><span class=\"en\">exactly two solutions</span><span class=\"vi\">có đúng hai nghiệm</span></span>",
+    "<span class=\"txi\"><span class=\"en\">exactly one solution</span><span class=\"vi\">có nghiệm duy nhất</span></span>",
+    "<span class=\"txi\"><span class=\"en\">infinitely many solutions</span><span class=\"vi\">có vô số nghiệm</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. The second equation is the first one multiplied by 2: the lines coincide.",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">Phương trình</b> thứ hai bằng 2 lần <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> thứ nhất: hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coincide\">trùng nhau</b>.",
+   "images": [],
+   "id": "2c5a496655a5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Solve the system \\(\\begin{cases}-x+#y=-#\\\\ x+#y=-#\\end{cases}\\).",
+   "en": "Solve the system \\(\\begin{cases}-x+2y=-8\\\\ x+5y=-27\\end{cases}\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"solve a system\">Giải hệ phương trình</b> \\(\\begin{cases}-x+2y=-8\\\\ x+5y=-27\\end{cases}\\).",
+   "options": [
+    "\\((-2;\\ -5)\\)",
+    "\\((2;\\ -5)\\)",
+    "\\((-5;\\ -2)\\)",
+    "\\((-2;\\ 5)\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. The solution is \\((-2;\\ -5)\\). Check: both equations are true.",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution of a system\">Nghiệm của hệ</b> là \\((-2;\\ -5)\\). Thử lại: cả hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> đều đúng.",
+   "images": [],
+   "id": "80a875d1d6c0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "To solve the system \\(\\begin{cases}x-#y=-#\\\\ #x-#y=#\\end{cases}\\) by substitution, we first express \\(x\\) from the first equation. Which expression is correct?",
+   "en": "To solve the system \\(\\begin{cases}x-2y=-12\\\\ 3x-3y=5\\end{cases}\\) by substitution, we first express \\(x\\) from the first equation. Which expression is correct?",
+   "vi": "Để giải hệ \\(\\begin{cases}x-2y=-12\\\\ 3x-3y=5\\end{cases}\\) bằng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"substitution method\">phương pháp thế</b>, ta rút \\(x\\) từ <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> thứ nhất. Cách rút nào đúng?",
+   "options": [
+    "\\(x=12-2y\\)",
+    "\\(x=-12+2y\\)",
+    "\\(x=-12-2y\\)",
+    "\\(x=12+2y\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Move \\(-2y\\) to the right-hand side and change its sign.",
+   "explain_vi": "Đáp án b. Chuyển \\(-2y\\) sang <b class=\"mbl-term\" tabindex=\"0\" data-en=\"right-hand side (RHS)\">vế phải</b> và đổi dấu.",
+   "images": [],
+   "id": "8d23c4ad9add",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "The system \\(\\begin{cases}-#x+y=-#\\\\ -#x+#y=-#\\end{cases}\\) has no solution.",
+   "en": "The system \\(\\begin{cases}-3x+y=-4\\\\ -12x+4y=-13\\end{cases}\\) has no solution.",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"system of equations\">Hệ phương trình</b> \\(\\begin{cases}-3x+y=-4\\\\ -12x+4y=-13\\end{cases}\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"no solution\">vô nghiệm</b>.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. The lines are parallel.",
+   "explain_vi": "Đúng. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel lines\">Hai đường thẳng song song</b>.",
+   "images": [],
+   "id": "4a568b150172",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "The system \\(\\begin{cases}-#x-y=-#\\\\ -x-#y=#\\end{cases}\\) has the solution \\((#;\\ -#)\\).",
+   "en": "The system \\(\\begin{cases}-2x-y=-4\\\\ -x-4y=12\\end{cases}\\) has the solution \\((4;\\ -4)\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"system of equations\">Hệ phương trình</b> \\(\\begin{cases}-2x-y=-4\\\\ -x-4y=12\\end{cases}\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b> là \\((4;\\ -4)\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. Solving gives \\((4;\\ -4)\\).",
+   "explain_vi": "Đúng. Giải hệ được <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b> \\((4;\\ -4)\\).",
+   "images": [],
+   "id": "953105fc32a6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "Solve the system \\(\\begin{cases}x-#y=#\\\\ -x-#y=#\\end{cases}\\). Write the value of \\(x+y\\).",
+   "en": "Solve the system \\(\\begin{cases}x-3y=15\\\\ -x-4y=20\\end{cases}\\). Write the value of \\(x+y\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"solve a system\">Giải hệ phương trình</b> \\(\\begin{cases}x-3y=15\\\\ -x-4y=20\\end{cases}\\). Ghi giá trị của \\(x+y\\).",
+   "options": [],
+   "answer": "-5",
+   "explain_en": "Answer: -5. The solution is \\((0;\\ -5)\\), so \\(x+y=-5\\).",
+   "explain_vi": "Đáp số: -5. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution of a system\">Nghiệm của hệ</b> là \\((0;\\ -5)\\) nên \\(x+y=-5\\).",
+   "images": [],
+   "id": "47d747a50e42",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "The line \\(y=ax+b\\) passes through \\(A(#;\\ -#)\\) and \\(B(#;\\ -#)\\). Find \\(a+b\\).",
+   "en": "The line \\(y=ax+b\\) passes through \\(A(1;\\ -6)\\) and \\(B(4;\\ -18)\\). Find \\(a+b\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">Đường thẳng</b> \\(y=ax+b\\) đi qua \\(A(1;\\ -6)\\) và \\(B(4;\\ -18)\\). Tìm \\(a+b\\).",
+   "options": [],
+   "answer": "-6",
+   "explain_en": "Answer: -6. Solve \\(\\begin{cases}a+b=-6\\\\ 4a+b=-18\\end{cases}\\): \\(a=-4,\\ b=-2\\), so \\(a+b=-6\\).",
+   "explain_vi": "Đáp số: -6. Giải hệ \\(\\begin{cases}a+b=-6\\\\ 4a+b=-18\\end{cases}\\): \\(a=-4,\\ b=-2\\) nên \\(a+b=-6\\).",
+   "images": [],
+   "id": "9f0c44539781",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D1",
+   "type": "mcq",
+   "form": "From the equation \\(-#x+y=-#\\), express \\(y\\) in terms of \\(x\\).",
+   "en": "From the equation \\(-5x+y=-11\\), express \\(y\\) in terms of \\(x\\).",
+   "vi": "Từ <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(-5x+y=-11\\), hãy biểu diễn \\(y\\) theo \\(x\\).",
+   "options": [
+    "\\(y=11+5x\\)",
+    "\\(y=-11+5x\\)",
+    "\\(y=11-5x\\)",
+    "\\(y=-11-5x\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(y=-11+5x\\).",
+   "explain_vi": "Đáp án b. \\(y=-11+5x\\).",
+   "images": [],
+   "id": "c14fe6020828",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D1",
+   "type": "mcq",
+   "form": "To eliminate \\(y\\) in the system \\(\\begin{cases}-#x+#y=-#\\\\ -x-#y=#\\end{cases}\\), we should…",
+   "en": "To eliminate \\(y\\) in the system \\(\\begin{cases}-2x+6y=-10\\\\ -x-6y=0\\end{cases}\\), we should…",
+   "vi": "Để <b class=\"mbl-term\" tabindex=\"0\" data-en=\"eliminate (a variable)\">khử ẩn</b> \\(y\\) trong hệ \\(\\begin{cases}-2x+6y=-10\\\\ -x-6y=0\\end{cases}\\), ta nên…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">multiply both equations by \\(6\\)</span><span class=\"vi\">nhân cả hai phương trình với \\(6\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">add the two equations side by side</span><span class=\"vi\">cộng từng vế hai phương trình</span></span>",
+    "<span class=\"txi\"><span class=\"en\">add \\(6\\) to both sides of the first equation</span><span class=\"vi\">cộng \\(6\\) vào hai vế của phương trình thứ nhất</span></span>",
+    "<span class=\"txi\"><span class=\"en\">subtract the two equations side by side</span><span class=\"vi\">trừ từng vế hai phương trình</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. The coefficients of \\(y\\) are opposite numbers, so we add.",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">Hệ số</b> của \\(y\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"opposite numbers\">hai số đối nhau</b> nên ta cộng từng vế.",
+   "images": [],
+   "id": "2d66b89563a1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D1",
+   "type": "mcq",
+   "form": "While solving a system by elimination, we get \\(#x=#\\). What can we say about the system?",
+   "en": "While solving a system by elimination, we get \\(0x=7\\). What can we say about the system?",
+   "vi": "Khi giải một hệ bằng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"elimination method\">phương pháp cộng đại số</b>, ta được \\(0x=7\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"conclusion\">Kết luận</b> gì về hệ?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">exactly two solutions</span><span class=\"vi\">có đúng hai nghiệm</span></span>",
+    "<span class=\"txi\"><span class=\"en\">infinitely many solutions</span><span class=\"vi\">có vô số nghiệm</span></span>",
+    "<span class=\"txi\"><span class=\"en\">no solution</span><span class=\"vi\">vô nghiệm</span></span>",
+    "<span class=\"txi\"><span class=\"en\">exactly one solution</span><span class=\"vi\">có nghiệm duy nhất</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(0x=7\\) is never true, so the system has no solution.",
+   "explain_vi": "Đáp án c. \\(0x=7\\) không bao giờ đúng nên hệ <b class=\"mbl-term\" tabindex=\"0\" data-en=\"no solution\">vô nghiệm</b>.",
+   "images": [],
+   "id": "8da69aa3206f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Only one system has infinitely many solutions. Which one?",
+   "en": "Only one system has infinitely many solutions. Which one?",
+   "vi": "Chỉ có một hệ có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"infinitely many solutions\">vô số nghiệm</b>. Đó là hệ nào?",
+   "options": [
+    "\\(\\begin{cases}-x-5y=5\\\\ -3x+3y=5\\end{cases}\\)",
+    "\\(\\begin{cases}2x-2y=-1\\\\ -2x+2y=5\\end{cases}\\)",
+    "\\(\\begin{cases}5x-4y=-4\\\\ 20x-16y=-16\\end{cases}\\)",
+    "\\(\\begin{cases}-x-4y=3\\\\ 4x+5y=-4\\end{cases}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. In the correct system, the second equation is a multiple of the first (both sides).",
+   "explain_vi": "Đáp án c. Ở hệ đúng, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> thứ hai bằng một số lần <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> thứ nhất (cả hai vế).",
+   "images": [],
+   "id": "f522ad56e2e4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Solve the system \\(\\begin{cases}-#x-#y=-#\\\\ -#x+#y=#\\end{cases}\\).",
+   "en": "Solve the system \\(\\begin{cases}-4x-4y=-28\\\\ -4x+5y=8\\end{cases}\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"solve a system\">Giải hệ phương trình</b> \\(\\begin{cases}-4x-4y=-28\\\\ -4x+5y=8\\end{cases}\\).",
+   "options": [
+    "\\((-3;\\ 4)\\)",
+    "\\((3;\\ -4)\\)",
+    "\\((4;\\ 3)\\)",
+    "\\((3;\\ 4)\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Subtract the equations: \\(-9y=-36\\Rightarrow y=4\\); then \\(x=3\\).",
+   "explain_vi": "Đáp án d. Trừ từng vế: \\(-9y=-36\\Rightarrow y=4\\); suy ra \\(x=3\\).",
+   "images": [],
+   "id": "9fdf90c9e92f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Solve the system \\(\\begin{cases}y=-#x-#\\\\ #x+#y=#\\end{cases}\\).",
+   "en": "Solve the system \\(\\begin{cases}y=-3x-2\\\\ 4x+3y=14\\end{cases}\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"solve a system\">Giải hệ phương trình</b> \\(\\begin{cases}y=-3x-2\\\\ 4x+3y=14\\end{cases}\\).",
+   "options": [
+    "\\((-4;\\ 10)\\)",
+    "\\((10;\\ -4)\\)",
+    "\\((4;\\ 10)\\)",
+    "\\((-4;\\ -10)\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Substitute \\(y=-3x-2\\) into the second equation: \\(-5x-6=14\\Rightarrow x=-4\\), then \\(y=10\\).",
+   "explain_vi": "Đáp án a. Thế \\(y=-3x-2\\) vào <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> thứ hai: \\(-5x-6=14\\Rightarrow x=-4\\), suy ra \\(y=10\\).",
+   "images": [],
+   "id": "945f050c3e52",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Find the line \\(y=ax+b\\) through \\(A(-#;\\ #)\\) and \\(B(#;\\ -#)\\).",
+   "en": "Find the line \\(y=ax+b\\) through \\(A(-3;\\ 9)\\) and \\(B(0;\\ -3)\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(y=ax+b\\) đi qua \\(A(-3;\\ 9)\\) và \\(B(0;\\ -3)\\).",
+   "options": [
+    "\\(y=-4x-3\\)",
+    "\\(y=4x-3\\)",
+    "\\(y=-4x+3\\)",
+    "\\(y=-3x-4\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Solve \\(\\begin{cases}-3a+b=9\\\\ b=-3\\end{cases}\\): \\(a=-4,\\ b=-3\\).",
+   "explain_vi": "Đáp án a. Giải hệ \\(\\begin{cases}-3a+b=9\\\\ b=-3\\end{cases}\\): \\(a=-4,\\ b=-3\\).",
+   "images": [],
+   "id": "0438ad4f439a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Solve the system \\(\\begin{cases}#x-#y=-#\\\\ -#x-#y=-#\\end{cases}\\).",
+   "en": "Solve the system \\(\\begin{cases}4x-5y=-1\\\\ -6x-3y=-9\\end{cases}\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"solve a system\">Giải hệ phương trình</b> \\(\\begin{cases}4x-5y=-1\\\\ -6x-3y=-9\\end{cases}\\).",
+   "options": [
+    "\\((-1;\\ -1)\\)",
+    "\\((1;\\ 1)\\)",
+    "\\((-1;\\ 1)\\)",
+    "\\((1;\\ -1)\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Multiply the equations by \\(-6\\) and \\(4\\) so that the coefficients of \\(x\\) are equal, then subtract: \\(y=1\\), \\(x=1\\).",
+   "explain_vi": "Đáp án b. Nhân hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"respectively\">lần lượt</b> với \\(-6\\) và \\(4\\) để <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b> của \\(x\\) bằng nhau, rồi trừ từng vế: \\(y=1\\), \\(x=1\\).",
+   "images": [],
+   "id": "4ca4c13e7a13",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Solve the system \\(\\begin{cases}\\dfrac{x}{#}+\\dfrac{y}{#}=#\\\\ x-y=#\\end{cases}\\).",
+   "en": "Solve the system \\(\\begin{cases}\\dfrac{x}{2}+\\dfrac{y}{5}=1\\\\ x-y=9\\end{cases}\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"solve a system\">Giải hệ phương trình</b> \\(\\begin{cases}\\dfrac{x}{2}+\\dfrac{y}{5}=1\\\\ x-y=9\\end{cases}\\).",
+   "options": [
+    "\\((-4;\\ -5)\\)",
+    "\\((-5;\\ 4)\\)",
+    "\\((4;\\ -5)\\)",
+    "\\((4;\\ 5)\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Multiply the first equation by \\(10\\): \\(5x+2y=10\\). Then solve: \\((4;\\ -5)\\).",
+   "explain_vi": "Đáp án c. Nhân hai vế <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> thứ nhất với \\(10\\): \\(5x+2y=10\\). Giải hệ được \\((4;\\ -5)\\).",
+   "images": [],
+   "id": "517a3b4a2359",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D4",
+   "type": "mcq",
+   "form": "Find \\(a, b\\) so that the system \\(\\begin{cases}ax+by=#\\\\ bx-ay=#\\end{cases}\\) has the solution \\((#;\\ #)\\).",
+   "en": "Find \\(a, b\\) so that the system \\(\\begin{cases}ax+by=8\\\\ bx-ay=14\\end{cases}\\) has the solution \\((2;\\ 3)\\).",
+   "vi": "Tìm \\(a, b\\) để hệ \\(\\begin{cases}ax+by=8\\\\ bx-ay=14\\end{cases}\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b> \\((2;\\ 3)\\).",
+   "options": [
+    "\\(a=4,\\ b=-2\\)",
+    "\\(a=2,\\ b=4\\)",
+    "\\(a=-2,\\ b=4\\)",
+    "\\(a=-2,\\ b=-4\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Substitute \\(x=2,\\ y=3\\): \\(\\begin{cases}2a+3b=8\\\\ -3a+2b=14\\end{cases}\\). Solving gives \\(a=-2,\\ b=4\\).",
+   "explain_vi": "Đáp án c. Thay \\(x=2,\\ y=3\\): \\(\\begin{cases}2a+3b=8\\\\ -3a+2b=14\\end{cases}\\). Giải hệ được \\(a=-2,\\ b=4\\).",
+   "images": [],
+   "id": "444b2b8aa542",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D4",
+   "type": "mcq",
+   "form": "Find \\(m\\) so that the system \\(\\begin{cases}#x+y=#\\\\ mx+#y=#\\end{cases}\\) has no solution.",
+   "en": "Find \\(m\\) so that the system \\(\\begin{cases}2x+y=2\\\\ mx+2y=5\\end{cases}\\) has no solution.",
+   "vi": "Tìm \\(m\\) để hệ \\(\\begin{cases}2x+y=2\\\\ mx+2y=5\\end{cases}\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"no solution\">vô nghiệm</b>.",
+   "options": [
+    "\\(m=-4\\)",
+    "\\(m=4\\)",
+    "\\(m=2\\)",
+    "\\(m=6\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. No solution means the two lines are parallel: the left side of the second equation is \\(2\\) times the left side of the first one, so \\(m=4\\); the right sides do not match (\\(5\\ne 2\\cdot(2)\\)).",
+   "explain_vi": "Đáp án b. Hệ <b class=\"mbl-term\" tabindex=\"0\" data-en=\"no solution\">vô nghiệm</b> khi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel lines\">hai đường thẳng song song</b>: <b class=\"mbl-term\" tabindex=\"0\" data-en=\"left-hand side (LHS)\">vế trái</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> thứ hai bằng \\(2\\) lần <b class=\"mbl-term\" tabindex=\"0\" data-en=\"left-hand side (LHS)\">vế trái</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> thứ nhất nên \\(m=4\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"right-hand side (RHS)\">vế phải</b> không tương ứng (\\(5\\ne 2\\cdot(2)\\)).",
+   "images": [],
+   "id": "581899ba7e0d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D4",
+   "type": "mcq",
+   "form": "Solve the system \\(\\begin{cases}#(x+#)-y=-#\\\\ x+#(y-#)=#\\end{cases}\\).",
+   "en": "Solve the system \\(\\begin{cases}3(x+1)-y=-6\\\\ x+4(y-1)=6\\end{cases}\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"solve a system\">Giải hệ phương trình</b> \\(\\begin{cases}3(x+1)-y=-6\\\\ x+4(y-1)=6\\end{cases}\\).",
+   "options": [
+    "\\((2;\\ 3)\\)",
+    "\\((3;\\ -2)\\)",
+    "\\((-2;\\ 3)\\)",
+    "\\((-2;\\ -3)\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Expand: \\(\\begin{cases}3x-y=-9\\\\ x+4y=10\\end{cases}\\). Solving gives \\((-2;\\ 3)\\).",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"expand\">Khai triển</b>: \\(\\begin{cases}3x-y=-9\\\\ x+4y=10\\end{cases}\\). Giải hệ được \\((-2;\\ 3)\\).",
+   "images": [],
+   "id": "ecac2e9890ce",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "How many solutions does the system \\(\\begin{cases}#x-#y=#\\\\ -x-#y=-#\\end{cases}\\) have?",
+   "en": "How many solutions does the system \\(\\begin{cases}3x-3y=6\\\\ -x-2y=-9\\end{cases}\\) have?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"system of equations\">Hệ phương trình</b> \\(\\begin{cases}3x-3y=6\\\\ -x-2y=-9\\end{cases}\\) có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b>?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">exactly one solution</span><span class=\"vi\">có nghiệm duy nhất</span></span>",
+    "<span class=\"txi\"><span class=\"en\">exactly two solutions</span><span class=\"vi\">có đúng hai nghiệm</span></span>",
+    "<span class=\"txi\"><span class=\"en\">infinitely many solutions</span><span class=\"vi\">có vô số nghiệm</span></span>",
+    "<span class=\"txi\"><span class=\"en\">no solution</span><span class=\"vi\">vô nghiệm</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. The two lines have different slopes, so they intersect at one point.",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersecting lines\">Hai đường thẳng cắt nhau</b> tại một điểm.",
+   "images": [],
+   "id": "b09c0c7aee83",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Solve the system \\(\\begin{cases}-#x-#y=-#\\\\ -x+#y=-#\\end{cases}\\).",
+   "en": "Solve the system \\(\\begin{cases}-2x-3y=-9\\\\ -x+2y=-1\\end{cases}\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"solve a system\">Giải hệ phương trình</b> \\(\\begin{cases}-2x-3y=-9\\\\ -x+2y=-1\\end{cases}\\).",
+   "options": [
+    "\\((3;\\ -1)\\)",
+    "\\((1;\\ 3)\\)",
+    "\\((3;\\ 1)\\)",
+    "\\((-3;\\ 1)\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The solution is \\((3;\\ 1)\\). Check: both equations are true.",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution of a system\">Nghiệm của hệ</b> là \\((3;\\ 1)\\). Thử lại: cả hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> đều đúng.",
+   "images": [],
+   "id": "3b4f59ff5dff",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "To solve the system \\(\\begin{cases}x+y=-#\\\\ -#x+#y=-#\\end{cases}\\) by substitution, we first express \\(x\\) from the first equation. Which expression is correct?",
+   "en": "To solve the system \\(\\begin{cases}x+y=-4\\\\ -3x+3y=-3\\end{cases}\\) by substitution, we first express \\(x\\) from the first equation. Which expression is correct?",
+   "vi": "Để giải hệ \\(\\begin{cases}x+y=-4\\\\ -3x+3y=-3\\end{cases}\\) bằng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"substitution method\">phương pháp thế</b>, ta rút \\(x\\) từ <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> thứ nhất. Cách rút nào đúng?",
+   "options": [
+    "\\(x=4+y\\)",
+    "\\(x=-4+y\\)",
+    "\\(x=-4-y\\)",
+    "\\(x=4-y\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Move \\(y\\) to the right-hand side and change its sign.",
+   "explain_vi": "Đáp án c. Chuyển \\(y\\) sang <b class=\"mbl-term\" tabindex=\"0\" data-en=\"right-hand side (RHS)\">vế phải</b> và đổi dấu.",
+   "images": [],
+   "id": "1c9d159c01fb",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "The system \\(\\begin{cases}-#x-#y=#\\\\ #x+#y=#\\end{cases}\\) has no solution.",
+   "en": "The system \\(\\begin{cases}-3x-4y=1\\\\ 6x+8y=1\\end{cases}\\) has no solution.",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"system of equations\">Hệ phương trình</b> \\(\\begin{cases}-3x-4y=1\\\\ 6x+8y=1\\end{cases}\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"no solution\">vô nghiệm</b>.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. The lines are parallel.",
+   "explain_vi": "Đúng. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel lines\">Hai đường thẳng song song</b>.",
+   "images": [],
+   "id": "84492b35283b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "The system \\(\\begin{cases}x+#y=#\\\\ x+y=#\\end{cases}\\) has the solution \\((#;\\ #)\\).",
+   "en": "The system \\(\\begin{cases}x+4y=6\\\\ x+y=3\\end{cases}\\) has the solution \\((2;\\ 1)\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"system of equations\">Hệ phương trình</b> \\(\\begin{cases}x+4y=6\\\\ x+y=3\\end{cases}\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b> là \\((2;\\ 1)\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. Solving gives \\((2;\\ 1)\\).",
+   "explain_vi": "Đúng. Giải hệ được <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b> \\((2;\\ 1)\\).",
+   "images": [],
+   "id": "4c9a9fb59c92",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Solve the system \\(\\begin{cases}x-#y=#\\\\ -#x+y=#\\end{cases}\\). Write the value of \\(x+y\\).",
+   "en": "Solve the system \\(\\begin{cases}x-5y=23\\\\ -5x+y=5\\end{cases}\\). Write the value of \\(x+y\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"solve a system\">Giải hệ phương trình</b> \\(\\begin{cases}x-5y=23\\\\ -5x+y=5\\end{cases}\\). Ghi giá trị của \\(x+y\\).",
+   "options": [],
+   "answer": "-7",
+   "explain_en": "Answer: -7. The solution is \\((-2;\\ -5)\\), so \\(x+y=-7\\).",
+   "explain_vi": "Đáp số: -7. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution of a system\">Nghiệm của hệ</b> là \\((-2;\\ -5)\\) nên \\(x+y=-7\\).",
+   "images": [],
+   "id": "de29ba2b484e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "The line \\(y=ax+b\\) passes through \\(A(#;\\ #)\\) and \\(B(#;\\ #)\\). Find \\(a+b\\).",
+   "en": "The line \\(y=ax+b\\) passes through \\(A(1;\\ 3)\\) and \\(B(5;\\ 7)\\). Find \\(a+b\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">Đường thẳng</b> \\(y=ax+b\\) đi qua \\(A(1;\\ 3)\\) và \\(B(5;\\ 7)\\). Tìm \\(a+b\\).",
+   "options": [],
+   "answer": "3",
+   "explain_en": "Answer: 3. Solve \\(\\begin{cases}a+b=3\\\\ 5a+b=7\\end{cases}\\): \\(a=1,\\ b=2\\), so \\(a+b=3\\).",
+   "explain_vi": "Đáp số: 3. Giải hệ \\(\\begin{cases}a+b=3\\\\ 5a+b=7\\end{cases}\\): \\(a=1,\\ b=2\\) nên \\(a+b=3\\).",
+   "images": [],
+   "id": "fc7e3e9bb417",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D1",
+   "type": "mcq",
+   "form": "From the equation \\(#x+y=#\\), express \\(y\\) in terms of \\(x\\).",
+   "en": "From the equation \\(3x+y=10\\), express \\(y\\) in terms of \\(x\\).",
+   "vi": "Từ <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(3x+y=10\\), hãy biểu diễn \\(y\\) theo \\(x\\).",
+   "options": [
+    "\\(y=-10-3x\\)",
+    "\\(y=10-3x\\)",
+    "\\(y=-10+3x\\)",
+    "\\(y=10+3x\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(y=10-3x\\).",
+   "explain_vi": "Đáp án b. \\(y=10-3x\\).",
+   "images": [],
+   "id": "d3f66e133fd3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D1",
+   "type": "mcq",
+   "form": "To eliminate \\(y\\) in the system \\(\\begin{cases}x+#y=-#\\\\ -#x-#y=#\\end{cases}\\), we should…",
+   "en": "To eliminate \\(y\\) in the system \\(\\begin{cases}x+2y=-9\\\\ -3x-2y=11\\end{cases}\\), we should…",
+   "vi": "Để <b class=\"mbl-term\" tabindex=\"0\" data-en=\"eliminate (a variable)\">khử ẩn</b> \\(y\\) trong hệ \\(\\begin{cases}x+2y=-9\\\\ -3x-2y=11\\end{cases}\\), ta nên…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">multiply both equations by \\(2\\)</span><span class=\"vi\">nhân cả hai phương trình với \\(2\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">add the two equations side by side</span><span class=\"vi\">cộng từng vế hai phương trình</span></span>",
+    "<span class=\"txi\"><span class=\"en\">add \\(2\\) to both sides of the first equation</span><span class=\"vi\">cộng \\(2\\) vào hai vế của phương trình thứ nhất</span></span>",
+    "<span class=\"txi\"><span class=\"en\">subtract the two equations side by side</span><span class=\"vi\">trừ từng vế hai phương trình</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. The coefficients of \\(y\\) are opposite numbers, so we add.",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">Hệ số</b> của \\(y\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"opposite numbers\">hai số đối nhau</b> nên ta cộng từng vế.",
+   "images": [],
+   "id": "0c22d293d113",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D1",
+   "type": "mcq",
+   "form": "While solving a system by elimination, we get \\(#y=#\\). What can we say about the system?",
+   "en": "While solving a system by elimination, we get \\(0y=5\\). What can we say about the system?",
+   "vi": "Khi giải một hệ bằng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"elimination method\">phương pháp cộng đại số</b>, ta được \\(0y=5\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"conclusion\">Kết luận</b> gì về hệ?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">exactly two solutions</span><span class=\"vi\">có đúng hai nghiệm</span></span>",
+    "<span class=\"txi\"><span class=\"en\">infinitely many solutions</span><span class=\"vi\">có vô số nghiệm</span></span>",
+    "<span class=\"txi\"><span class=\"en\">no solution</span><span class=\"vi\">vô nghiệm</span></span>",
+    "<span class=\"txi\"><span class=\"en\">exactly one solution</span><span class=\"vi\">có nghiệm duy nhất</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(0y=5\\) is never true, so the system has no solution.",
+   "explain_vi": "Đáp án c. \\(0y=5\\) không bao giờ đúng nên hệ <b class=\"mbl-term\" tabindex=\"0\" data-en=\"no solution\">vô nghiệm</b>.",
+   "images": [],
+   "id": "a4f943a07590",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Choose the system whose two lines coincide.",
+   "en": "Choose the system whose two lines coincide.",
+   "vi": "Chọn hệ có hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coincide\">trùng nhau</b>.",
+   "options": [
+    "\\(\\begin{cases}3x-2y=3\\\\ 9x-6y=9\\end{cases}\\)",
+    "\\(\\begin{cases}2x-2y=9\\\\ -5x-3y=6\\end{cases}\\)",
+    "\\(\\begin{cases}5x+y=5\\\\ 10x+2y=8\\end{cases}\\)",
+    "\\(\\begin{cases}-x-5y=9\\\\ -2x-y=-7\\end{cases}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. In the correct system, the second equation is a multiple of the first (both sides).",
+   "explain_vi": "Đáp án a. Ở hệ đúng, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> thứ hai bằng một số lần <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> thứ nhất (cả hai vế).",
+   "images": [],
+   "id": "f8842d6449c0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Solve the system \\(\\begin{cases}#x+#y=#\\\\ #x-#y=-#\\end{cases}\\).",
+   "en": "Solve the system \\(\\begin{cases}3x+3y=15\\\\ 3x-4y=-6\\end{cases}\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"solve a system\">Giải hệ phương trình</b> \\(\\begin{cases}3x+3y=15\\\\ 3x-4y=-6\\end{cases}\\).",
+   "options": [
+    "\\((-2;\\ 3)\\)",
+    "\\((3;\\ 2)\\)",
+    "\\((2;\\ -3)\\)",
+    "\\((2;\\ 3)\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Subtract the equations: \\(7y=21\\Rightarrow y=3\\); then \\(x=2\\).",
+   "explain_vi": "Đáp án d. Trừ từng vế: \\(7y=21\\Rightarrow y=3\\); suy ra \\(x=2\\).",
+   "images": [],
+   "id": "bb8f51b7f4f2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Solve the system \\(\\begin{cases}y=#x+#\\\\ #x-#y=-#\\end{cases}\\).",
+   "en": "Solve the system \\(\\begin{cases}y=2x+1\\\\ 3x-2y=-5\\end{cases}\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"solve a system\">Giải hệ phương trình</b> \\(\\begin{cases}y=2x+1\\\\ 3x-2y=-5\\end{cases}\\).",
+   "options": [
+    "\\((3;\\ -7)\\)",
+    "\\((-3;\\ 7)\\)",
+    "\\((3;\\ 7)\\)",
+    "\\((7;\\ 3)\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Substitute \\(y=2x+1\\) into the second equation: \\(-x-2=-5\\Rightarrow x=3\\), then \\(y=7\\).",
+   "explain_vi": "Đáp án c. Thế \\(y=2x+1\\) vào <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> thứ hai: \\(-x-2=-5\\Rightarrow x=3\\), suy ra \\(y=7\\).",
+   "images": [],
+   "id": "f64911f3d515",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Find the line \\(y=ax+b\\) through \\(A(-#;\\ -#)\\) and \\(B(-#;\\ -#)\\).",
+   "en": "Find the line \\(y=ax+b\\) through \\(A(-3;\\ -11)\\) and \\(B(-2;\\ -8)\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(y=ax+b\\) đi qua \\(A(-3;\\ -11)\\) và \\(B(-2;\\ -8)\\).",
+   "options": [
+    "\\(y=-3x-2\\)",
+    "\\(y=-2x+3\\)",
+    "\\(y=3x-2\\)",
+    "\\(y=3x+2\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Solve \\(\\begin{cases}-3a+b=-11\\\\ -2a+b=-8\\end{cases}\\): \\(a=3,\\ b=-2\\).",
+   "explain_vi": "Đáp án c. Giải hệ \\(\\begin{cases}-3a+b=-11\\\\ -2a+b=-8\\end{cases}\\): \\(a=3,\\ b=-2\\).",
+   "images": [],
+   "id": "18726d5acf72",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Solve the system \\(\\begin{cases}#x-#y=#\\\\ #x+#y=#\\end{cases}\\).",
+   "en": "Solve the system \\(\\begin{cases}2x-4y=6\\\\ 6x+3y=18\\end{cases}\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"solve a system\">Giải hệ phương trình</b> \\(\\begin{cases}2x-4y=6\\\\ 6x+3y=18\\end{cases}\\).",
+   "options": [
+    "\\((4;\\ 0)\\)",
+    "\\((3;\\ 0)\\)",
+    "\\((-3;\\ 0)\\)",
+    "\\((0;\\ 3)\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Multiply the equations by \\(6\\) and \\(2\\) so that the coefficients of \\(x\\) are equal, then subtract: \\(y=0\\), \\(x=3\\).",
+   "explain_vi": "Đáp án b. Nhân hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"respectively\">lần lượt</b> với \\(6\\) và \\(2\\) để <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b> của \\(x\\) bằng nhau, rồi trừ từng vế: \\(y=0\\), \\(x=3\\).",
+   "images": [],
+   "id": "477c9ed26896",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Solve the system \\(\\begin{cases}\\dfrac{x}{#}+\\dfrac{y}{#}=#\\\\ x-y=-#\\end{cases}\\).",
+   "en": "Solve the system \\(\\begin{cases}\\dfrac{x}{2}+\\dfrac{y}{5}=2\\\\ x-y=-17\\end{cases}\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"solve a system\">Giải hệ phương trình</b> \\(\\begin{cases}\\dfrac{x}{2}+\\dfrac{y}{5}=2\\\\ x-y=-17\\end{cases}\\).",
+   "options": [
+    "\\((-2;\\ -15)\\)",
+    "\\((15;\\ -2)\\)",
+    "\\((2;\\ 15)\\)",
+    "\\((-2;\\ 15)\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Multiply the first equation by \\(10\\): \\(5x+2y=20\\). Then solve: \\((-2;\\ 15)\\).",
+   "explain_vi": "Đáp án d. Nhân hai vế <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> thứ nhất với \\(10\\): \\(5x+2y=20\\). Giải hệ được \\((-2;\\ 15)\\).",
+   "images": [],
+   "id": "fb8e6296edf1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D4",
+   "type": "mcq",
+   "form": "Find \\(a, b\\) so that the system \\(\\begin{cases}ax+by=#\\\\ bx-ay=-#\\end{cases}\\) has the solution \\((#;\\ #)\\).",
+   "en": "Find \\(a, b\\) so that the system \\(\\begin{cases}ax+by=9\\\\ bx-ay=-7\\end{cases}\\) has the solution \\((1;\\ 3)\\).",
+   "vi": "Tìm \\(a, b\\) để hệ \\(\\begin{cases}ax+by=9\\\\ bx-ay=-7\\end{cases}\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b> \\((1;\\ 3)\\).",
+   "options": [
+    "\\(a=3,\\ b=2\\)",
+    "\\(a=-3,\\ b=2\\)",
+    "\\(a=3,\\ b=-2\\)",
+    "\\(a=2,\\ b=3\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Substitute \\(x=1,\\ y=3\\): \\(\\begin{cases}a+3b=9\\\\ -3a+b=-7\\end{cases}\\). Solving gives \\(a=3,\\ b=2\\).",
+   "explain_vi": "Đáp án a. Thay \\(x=1,\\ y=3\\): \\(\\begin{cases}a+3b=9\\\\ -3a+b=-7\\end{cases}\\). Giải hệ được \\(a=3,\\ b=2\\).",
+   "images": [],
+   "id": "c924b3869152",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D4",
+   "type": "mcq",
+   "form": "Find \\(m\\) so that the system \\(\\begin{cases}-#x+y=#\\\\ mx+#y=#\\end{cases}\\) has no solution.",
+   "en": "Find \\(m\\) so that the system \\(\\begin{cases}-3x+y=4\\\\ mx+3y=9\\end{cases}\\) has no solution.",
+   "vi": "Tìm \\(m\\) để hệ \\(\\begin{cases}-3x+y=4\\\\ mx+3y=9\\end{cases}\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"no solution\">vô nghiệm</b>.",
+   "options": [
+    "\\(m=3\\)",
+    "\\(m=9\\)",
+    "\\(m=-3\\)",
+    "\\(m=-9\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. No solution means the two lines are parallel: the left side of the second equation is \\(3\\) times the left side of the first one, so \\(m=-9\\); the right sides do not match (\\(9\\ne 3\\cdot(4)\\)).",
+   "explain_vi": "Đáp án d. Hệ <b class=\"mbl-term\" tabindex=\"0\" data-en=\"no solution\">vô nghiệm</b> khi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel lines\">hai đường thẳng song song</b>: <b class=\"mbl-term\" tabindex=\"0\" data-en=\"left-hand side (LHS)\">vế trái</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> thứ hai bằng \\(3\\) lần <b class=\"mbl-term\" tabindex=\"0\" data-en=\"left-hand side (LHS)\">vế trái</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> thứ nhất nên \\(m=-9\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"right-hand side (RHS)\">vế phải</b> không tương ứng (\\(9\\ne 3\\cdot(4)\\)).",
+   "images": [],
+   "id": "34c6d8df0804",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D4",
+   "type": "mcq",
+   "form": "Solve the system \\(\\begin{cases}#(x+#)-y=#\\\\ x+#(y-#)=-#\\end{cases}\\).",
+   "en": "Solve the system \\(\\begin{cases}4(x+1)-y=13\\\\ x+2(y-1)=-2\\end{cases}\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"solve a system\">Giải hệ phương trình</b> \\(\\begin{cases}4(x+1)-y=13\\\\ x+2(y-1)=-2\\end{cases}\\).",
+   "options": [
+    "\\((2;\\ 1)\\)",
+    "\\((2;\\ -1)\\)",
+    "\\((-1;\\ 2)\\)",
+    "\\((-2;\\ -1)\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Expand: \\(\\begin{cases}4x-y=9\\\\ x+2y=0\\end{cases}\\). Solving gives \\((2;\\ -1)\\).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"expand\">Khai triển</b>: \\(\\begin{cases}4x-y=9\\\\ x+2y=0\\end{cases}\\). Giải hệ được \\((2;\\ -1)\\).",
+   "images": [],
+   "id": "f3e647dc347c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  }
+ ]
+}

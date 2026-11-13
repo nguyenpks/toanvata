@@ -1,0 +1,1317 @@
+{
+ "lesson": "g9-trig-02",
+ "grade": 9,
+ "no": 12,
+ "title": "Một số hệ thức giữa cạnh, góc trong tam giác vuông và ứng dụng",
+ "path": "lessons/grade9/right-triangle-trigonometry/sides-and-angles.html",
+ "items": [
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Triangle \\(ABC\\) is right-angled at \\(A\\), \\(AB=#\\) m and \\(\\widehat{B}=#^\\circ\\). Find \\(AC\\), rounded to the nearest tenth of a meter.",
+   "en": "Triangle \\(ABC\\) is right-angled at \\(A\\), \\(AB=9\\) m and \\(\\widehat{B}=48^\\circ\\). Find \\(AC\\), rounded to the nearest tenth of a meter.",
+   "vi": "Tam giác \\(ABC\\) vuông tại \\(A\\), \\(AB=9\\) m và \\(\\widehat{B}=48^\\circ\\). Tính \\(AC\\) (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"round to the nearest tenth\">làm tròn đến hàng phần mười</b> của mét).",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(6.7\\text{ m}\\)</span><span class=\"vi\">\\(6{,}7\\text{ m}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(8.1\\text{ m}\\)</span><span class=\"vi\">\\(8{,}1\\text{ m}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(6.0\\text{ m}\\)</span><span class=\"vi\">\\(6{,}0\\text{ m}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(10.0\\text{ m}\\)</span><span class=\"vi\">\\(10{,}0\\text{ m}\\)</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(AC\\) is opposite and \\(AB\\) is adjacent to angle \\(B\\): \\(AC=AB\\cdot\\tan B=9\\cdot\\tan 48^\\circ\\approx 10.0\\) m.",
+   "explain_vi": "Đáp án d. \\(AC\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"opposite side\">cạnh đối</b>, \\(AB\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"adjacent side\">cạnh kề</b> của góc \\(B\\): \\(AC=AB\\cdot\\tan B=9\\cdot\\tan 48^\\circ\\approx 10{,}0\\) m.",
+   "images": [],
+   "id": "aaad0948f677",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Triangle \\(ABC\\) is right-angled at \\(A\\), \\(BC=#\\) cm and \\(\\widehat{B}=#^\\circ\\). Find \\(AC\\), rounded to the nearest tenth of a centimeter.",
+   "en": "Triangle \\(ABC\\) is right-angled at \\(A\\), \\(BC=30\\) cm and \\(\\widehat{B}=30^\\circ\\). Find \\(AC\\), rounded to the nearest tenth of a centimeter.",
+   "vi": "Tam giác \\(ABC\\) vuông tại \\(A\\), \\(BC=30\\) cm và \\(\\widehat{B}=30^\\circ\\). Tính \\(AC\\) (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"round to the nearest tenth\">làm tròn đến hàng phần mười</b> của xăng-ti-mét).",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(26.0\\text{ cm}\\)</span><span class=\"vi\">\\(26{,}0\\text{ cm}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(15.0\\text{ cm}\\)</span><span class=\"vi\">\\(15{,}0\\text{ cm}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(17.3\\text{ cm}\\)</span><span class=\"vi\">\\(17{,}3\\text{ cm}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(60.0\\text{ cm}\\)</span><span class=\"vi\">\\(60{,}0\\text{ cm}\\)</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(AC\\) is opposite angle \\(B\\): \\(AC=BC\\cdot\\sin B=30\\cdot\\sin 30^\\circ\\approx 15.0\\) cm.",
+   "explain_vi": "Đáp án b. \\(AC\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"opposite side\">cạnh đối</b> của góc \\(B\\): \\(AC=BC\\cdot\\sin B=30\\cdot\\sin 30^\\circ\\approx 15{,}0\\) cm.",
+   "images": [],
+   "id": "4dadbb479332",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Triangle \\(MNP\\) is right-angled at \\(M\\). Which relation is correct?",
+   "en": "Triangle \\(MNP\\) is right-angled at \\(M\\). Which relation is correct?",
+   "vi": "Tam giác \\(MNP\\) vuông tại \\(M\\). Hệ thức nào đúng?",
+   "options": [
+    "\\(NP=MN\\cdot\\tan N\\)",
+    "\\(MN=MP\\cdot\\tan N\\)",
+    "\\(MN=MP\\cdot\\tan P\\)",
+    "\\(MN=MP\\cdot\\cot P\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Each leg = hypotenuse × sine of the opposite angle = hypotenuse × cosine of the adjacent angle = other leg × tangent of the opposite angle = other leg × cotangent of the adjacent angle.",
+   "explain_vi": "Đáp án c. Mỗi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"leg (of a right triangle)\">cạnh góc vuông</b> = <b class=\"mbl-term\" tabindex=\"0\" data-en=\"hypotenuse\">cạnh huyền</b> × sin <b class=\"mbl-term\" tabindex=\"0\" data-en=\"opposite angles\">góc đối</b> = <b class=\"mbl-term\" tabindex=\"0\" data-en=\"hypotenuse\">cạnh huyền</b> × cos góc kề = <b class=\"mbl-term\" tabindex=\"0\" data-en=\"leg (of a right triangle)\">cạnh góc vuông</b> kia × tan <b class=\"mbl-term\" tabindex=\"0\" data-en=\"opposite angles\">góc đối</b> = <b class=\"mbl-term\" tabindex=\"0\" data-en=\"leg (of a right triangle)\">cạnh góc vuông</b> kia × cot góc kề.",
+   "images": [],
+   "id": "62a3b231bc32",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "Triangle \\(ABC\\) is right-angled at \\(A\\), \\(BC=#\\) and \\(\\widehat{B}=#^\\circ\\). Then \\(\\widehat{C}=#^\\circ\\) and \\(AB\\approx #\\) (nearest tenth).",
+   "en": "Triangle \\(ABC\\) is right-angled at \\(A\\), \\(BC=10\\) and \\(\\widehat{B}=65^\\circ\\). Then \\(\\widehat{C}=25^\\circ\\) and \\(AB\\approx 9.1\\) (nearest tenth).",
+   "vi": "Tam giác \\(ABC\\) vuông tại \\(A\\), \\(BC=10\\) và \\(\\widehat{B}=65^\\circ\\). Khi đó \\(\\widehat{C}=25^\\circ\\) và \\(AB\\approx 9{,}1\\) (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"round to the nearest tenth\">làm tròn đến hàng phần mười</b>).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. \\(AB\\) is adjacent to \\(B\\): \\(AB=BC\\cdot\\cos B\\approx 4.2\\).",
+   "explain_vi": "Sai. \\(AB\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"adjacent side\">cạnh kề</b> của góc \\(B\\): \\(AB=BC\\cdot\\cos B\\approx 4{,}2\\).",
+   "images": [],
+   "id": "48ffba4776fe",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "Triangle \\(MNP\\) is right-angled at \\(M\\). Then \\(MP=MN\\cdot\\cot P\\).",
+   "en": "Triangle \\(MNP\\) is right-angled at \\(M\\). Then \\(MP=MN\\cdot\\cot P\\).",
+   "vi": "Tam giác \\(MNP\\) vuông tại \\(M\\). Khi đó \\(MP=MN\\cdot\\cot P\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. The hypotenuse is \\(NP\\); \\(MP\\) is opposite angle \\(N\\) and \\(MN\\) is opposite angle \\(P\\).",
+   "explain_vi": "Đúng. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"hypotenuse\">Cạnh huyền</b> là \\(NP\\); \\(MP\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"opposite side\">cạnh đối</b> của góc \\(N\\), \\(MN\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"opposite side\">cạnh đối</b> của góc \\(P\\).",
+   "images": [],
+   "id": "0771b57d2873",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "Triangle \\(ABC\\) is right-angled at \\(A\\), \\(AB=#\\) cm and \\(AC=#\\) cm. Find angle \\(B\\) in degrees, rounded to the nearest degree.",
+   "en": "Triangle \\(ABC\\) is right-angled at \\(A\\), \\(AB=3\\) cm and \\(AC=4\\) cm. Find angle \\(B\\) in degrees, rounded to the nearest degree.",
+   "vi": "Tam giác \\(ABC\\) vuông tại \\(A\\), \\(AB=3\\) cm và \\(AC=4\\) cm. Tính số đo góc \\(B\\) (làm tròn đến độ).",
+   "options": [],
+   "answer": "53",
+   "explain_en": "Answer: 53. \\(\\tan B=\\dfrac{AC}{AB}=\\dfrac{4}{3}\\Rightarrow B\\approx 53^\\circ\\) (SHIFT tan).",
+   "explain_vi": "Đáp số: 53. \\(\\tan B=\\dfrac{AC}{AB}=\\dfrac{4}{3}\\Rightarrow B\\approx 53^\\circ\\) (bấm SHIFT tan).",
+   "images": [],
+   "id": "bb3e0077e98f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "Triangle \\(ABC\\) is right-angled at \\(A\\), \\(AB=#\\) cm and \\(\\widehat{B}=#^\\circ\\). Find \\(BC\\) in centimeters, rounded to the nearest tenth.",
+   "en": "Triangle \\(ABC\\) is right-angled at \\(A\\), \\(AB=16\\) cm and \\(\\widehat{B}=37^\\circ\\). Find \\(BC\\) in centimeters, rounded to the nearest tenth.",
+   "vi": "Tam giác \\(ABC\\) vuông tại \\(A\\), \\(AB=16\\) cm và \\(\\widehat{B}=37^\\circ\\). Tính \\(BC\\) theo xăng-ti-mét (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"round to the nearest tenth\">làm tròn đến hàng phần mười</b>).",
+   "options": [],
+   "answer": "20.0",
+   "explain_en": "Answer: 20.0. \\(AB=BC\\cdot\\cos B\\Rightarrow BC=\\dfrac{16}{\\cos 37^\\circ}\\approx 20.0\\) cm.",
+   "explain_vi": "Đáp số: 20,0. \\(AB=BC\\cdot\\cos B\\Rightarrow BC=\\dfrac{16}{\\cos 37^\\circ}\\approx 20{,}0\\) cm.",
+   "images": [],
+   "id": "6baf90ce514f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D1",
+   "type": "mcq",
+   "form": "In a right triangle, each leg equals the other leg × cotangent of …",
+   "en": "In a right triangle, each leg equals the other leg × cotangent of …",
+   "vi": "Trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"right triangle\">tam giác vuông</b>, mỗi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"leg (of a right triangle)\">cạnh góc vuông</b> bằng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"leg (of a right triangle)\">cạnh góc vuông</b> kia × cot của …",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">any angle of the triangle</span><span class=\"vi\">góc bất kì của tam giác</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the right angle</span><span class=\"vi\">góc vuông</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the opposite angle</span><span class=\"vi\">góc đối</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the adjacent angle</span><span class=\"vi\">góc kề</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. sin, tan go with the opposite angle; cos, cot go with the adjacent angle.",
+   "explain_vi": "Đáp án d. sin, tan đi với <b class=\"mbl-term\" tabindex=\"0\" data-en=\"opposite angles\">góc đối</b>; cos, cot đi với góc kề.",
+   "images": [],
+   "id": "46fe6d1c0956",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Triangle \\(HIK\\) is right-angled at \\(H\\) and \\(\\widehat{I}=#^\\circ\\). Find \\(\\widehat{K}\\).",
+   "en": "Triangle \\(HIK\\) is right-angled at \\(H\\) and \\(\\widehat{I}=52^\\circ\\). Find \\(\\widehat{K}\\).",
+   "vi": "Tam giác \\(HIK\\) vuông tại \\(H\\) và \\(\\widehat{I}=52^\\circ\\). Tính \\(\\widehat{K}\\).",
+   "options": [
+    "\\(38^\\circ\\)",
+    "\\(142^\\circ\\)",
+    "\\(128^\\circ\\)",
+    "\\(52^\\circ\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. The two acute angles of a right triangle are complementary: \\(90^\\circ-52^\\circ=38^\\circ\\).",
+   "explain_vi": "Đáp án a. Hai góc nhọn của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"right triangle\">tam giác vuông</b> phụ nhau: \\(90^\\circ-52^\\circ=38^\\circ\\).",
+   "images": [],
+   "id": "dfd644fe4c34",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Triangle \\(MNP\\) is right-angled at \\(M\\). Which side is the hypotenuse?",
+   "en": "Triangle \\(MNP\\) is right-angled at \\(M\\). Which side is the hypotenuse?",
+   "vi": "Tam giác \\(MNP\\) vuông tại \\(M\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"hypotenuse\">Cạnh huyền</b> là cạnh nào?",
+   "options": [
+    "\\(MP\\)",
+    "\\(NP\\)",
+    "\\(MN\\)",
+    "<span class=\"txi\"><span class=\"en\">none of them</span><span class=\"vi\">không có cạnh nào</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. The hypotenuse is opposite the right angle \\(M\\).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"hypotenuse\">Cạnh huyền</b> là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"opposite side\">cạnh đối</b> diện với góc vuông \\(M\\).",
+   "images": [],
+   "id": "139d1901d75f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Triangle \\(ABC\\) is right-angled at \\(A\\), \\(AB=#\\) and \\(\\widehat{B}=#^\\circ\\). Find the exact value of \\(BC\\).",
+   "en": "Triangle \\(ABC\\) is right-angled at \\(A\\), \\(AB=9\\) and \\(\\widehat{B}=60^\\circ\\). Find the exact value of \\(BC\\).",
+   "vi": "Tam giác \\(ABC\\) vuông tại \\(A\\), \\(AB=9\\) và \\(\\widehat{B}=60^\\circ\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"evaluate\">Tính giá trị</b> đúng của \\(BC\\).",
+   "options": [
+    "\\(9\\)",
+    "\\(18\\)",
+    "\\(\\dfrac{18\\sqrt{3}}{3}\\)",
+    "\\(9\\sqrt{2}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(BC=\\dfrac{AB}{\\cos 60^\\circ}\\).",
+   "explain_vi": "Đáp án b. \\(BC=\\dfrac{AB}{\\cos 60^\\circ}\\).",
+   "images": [],
+   "id": "7a0d1e8d1963",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Triangle \\(ABC\\) is right-angled at \\(A\\), \\(AC=#\\) m and \\(\\widehat{B}=#^\\circ\\). Find \\(AB\\) (nearest tenth).",
+   "en": "Triangle \\(ABC\\) is right-angled at \\(A\\), \\(AC=18\\) m and \\(\\widehat{B}=36^\\circ\\). Find \\(AB\\) (nearest tenth).",
+   "vi": "Tam giác \\(ABC\\) vuông tại \\(A\\), \\(AC=18\\) m và \\(\\widehat{B}=36^\\circ\\). Tính \\(AB\\) (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"round to the nearest tenth\">làm tròn đến hàng phần mười</b>).",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(30.6\\text{ m}\\)</span><span class=\"vi\">\\(30{,}6\\text{ m}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(14.6\\text{ m}\\)</span><span class=\"vi\">\\(14{,}6\\text{ m}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(13.1\\text{ m}\\)</span><span class=\"vi\">\\(13{,}1\\text{ m}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(24.8\\text{ m}\\)</span><span class=\"vi\">\\(24{,}8\\text{ m}\\)</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(AB=AC\\cdot\\cot B=\\dfrac{18}{\\tan 36^\\circ}\\approx 24.8\\) m.",
+   "explain_vi": "Đáp án d. \\(AB=AC\\cdot\\cot B=\\dfrac{18}{\\tan 36^\\circ}\\approx 24{,}8\\) m.",
+   "images": [],
+   "id": "cf0655126d25",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Triangle \\(ABC\\) is right-angled at \\(A\\), \\(BC=#\\) cm and \\(\\widehat{C}=#^\\circ\\). Find \\(AC\\) (nearest tenth).",
+   "en": "Triangle \\(ABC\\) is right-angled at \\(A\\), \\(BC=14\\) cm and \\(\\widehat{C}=64^\\circ\\). Find \\(AC\\) (nearest tenth).",
+   "vi": "Tam giác \\(ABC\\) vuông tại \\(A\\), \\(BC=14\\) cm và \\(\\widehat{C}=64^\\circ\\). Tính \\(AC\\) (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"round to the nearest tenth\">làm tròn đến hàng phần mười</b>).",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(31.9\\text{ cm}\\)</span><span class=\"vi\">\\(31{,}9\\text{ cm}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(12.6\\text{ cm}\\)</span><span class=\"vi\">\\(12{,}6\\text{ cm}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(6.1\\text{ cm}\\)</span><span class=\"vi\">\\(6{,}1\\text{ cm}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(28.7\\text{ cm}\\)</span><span class=\"vi\">\\(28{,}7\\text{ cm}\\)</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(AC\\) is adjacent to \\(C\\): \\(AC=BC\\cdot\\cos C\\approx 6.1\\) cm.",
+   "explain_vi": "Đáp án c. \\(AC\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"adjacent side\">cạnh kề</b> của góc \\(C\\): \\(AC=BC\\cdot\\cos C\\approx 6{,}1\\) cm.",
+   "images": [],
+   "id": "cbe7ed526253",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D3",
+   "type": "mcq",
+   "form": "A # m ladder leans against a vertical wall and makes a \\(#^\\circ\\) angle with the ground. How high up the wall does it reach (nearest tenth)?",
+   "en": "A 7 m ladder leans against a vertical wall and makes a \\(67^\\circ\\) angle with the ground. How high up the wall does it reach (nearest tenth)?",
+   "vi": "Một chiếc thang dài 7 m dựa vào bức tường thẳng đứng, tạo với mặt đất một góc \\(67^\\circ\\). Đầu thang chạm tường ở độ cao bao nhiêu (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"round to the nearest tenth\">làm tròn đến hàng phần mười</b>)?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(6.4\\text{ m}\\)</span><span class=\"vi\">\\(6{,}4\\text{ m}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(16.5\\text{ m}\\)</span><span class=\"vi\">\\(16{,}5\\text{ m}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(2.7\\text{ m}\\)</span><span class=\"vi\">\\(2{,}7\\text{ m}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(7.6\\text{ m}\\)</span><span class=\"vi\">\\(7{,}6\\text{ m}\\)</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Height \\(=7\\cdot\\sin 67^\\circ\\approx 6.4\\) m.",
+   "explain_vi": "Đáp án a. Độ cao \\(=7\\cdot\\sin 67^\\circ\\approx 6{,}4\\) m.",
+   "images": [],
+   "id": "527d67bed0af",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D3",
+   "type": "mcq",
+   "form": "From the top of a # m tall building, the angle of depression to a car on the ground is \\(#^\\circ\\). Find the horizontal distance from the car to the foot of the building (nearest tenth).",
+   "en": "From the top of a 38 m tall building, the angle of depression to a car on the ground is \\(34^\\circ\\). Find the horizontal distance from the car to the foot of the building (nearest tenth).",
+   "vi": "Từ đỉnh một tòa nhà cao 38 m, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"angle of depression\">góc hạ</b> nhìn xuống một chiếc ô tô trên mặt đất là \\(34^\\circ\\). Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">khoảng cách</b> từ ô tô đến chân tòa nhà (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"round to the nearest tenth\">làm tròn đến hàng phần mười</b>).",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(25.6\\text{ m}\\)</span><span class=\"vi\">\\(25{,}6\\text{ m}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(56.3\\text{ m}\\)</span><span class=\"vi\">\\(56{,}3\\text{ m}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(31.5\\text{ m}\\)</span><span class=\"vi\">\\(31{,}5\\text{ m}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(68.0\\text{ m}\\)</span><span class=\"vi\">\\(68{,}0\\text{ m}\\)</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. The angle of depression equals the angle of elevation from the car: distance \\(=\\dfrac{38}{\\tan 34^\\circ}\\approx 56.3\\) m.",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"angle of depression\">Góc hạ</b> bằng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"angle of elevation\">góc nâng</b> nhìn từ ô tô (so le trong): <b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">khoảng cách</b> \\(=\\dfrac{38}{\\tan 34^\\circ}\\approx 56{,}3\\) m.",
+   "images": [],
+   "id": "fcee736225d1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Solve the right triangle \\(ABC\\) (right angle at \\(A\\)) given \\(BC=#\\) and \\(\\widehat{B}=#^\\circ\\) (sides to the nearest tenth).",
+   "en": "Solve the right triangle \\(ABC\\) (right angle at \\(A\\)) given \\(BC=18\\) and \\(\\widehat{B}=27^\\circ\\) (sides to the nearest tenth).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"solve a triangle\">Giải tam giác</b> \\(ABC\\) vuông tại \\(A\\), biết \\(BC=18\\) và \\(\\widehat{B}=27^\\circ\\) (cạnh <b class=\"mbl-term\" tabindex=\"0\" data-en=\"round to the nearest tenth\">làm tròn đến hàng phần mười</b>).",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(\\widehat{C}=63^\\circ,\\ AB\\approx 8.2,\\ AC\\approx 16.0\\)</span><span class=\"vi\">\\(\\widehat{C}=63^\\circ,\\ AB\\approx 8{,}2,\\ AC\\approx 16{,}0\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(\\widehat{C}=153^\\circ,\\ AB\\approx 16.0,\\ AC\\approx 8.2\\)</span><span class=\"vi\">\\(\\widehat{C}=153^\\circ,\\ AB\\approx 16{,}0,\\ AC\\approx 8{,}2\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(\\widehat{C}=27^\\circ,\\ AB\\approx 16.0,\\ AC\\approx 8.2\\)</span><span class=\"vi\">\\(\\widehat{C}=27^\\circ,\\ AB\\approx 16{,}0,\\ AC\\approx 8{,}2\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(\\widehat{C}=63^\\circ,\\ AB\\approx 16.0,\\ AC\\approx 8.2\\)</span><span class=\"vi\">\\(\\widehat{C}=63^\\circ,\\ AB\\approx 16{,}0,\\ AC\\approx 8{,}2\\)</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\widehat{C}=90^\\circ-27^\\circ\\); \\(AB=BC\\cos B\\), \\(AC=BC\\sin B\\).",
+   "explain_vi": "Đáp án d. \\(\\widehat{C}=90^\\circ-27^\\circ\\); \\(AB=BC\\cos B\\), \\(AC=BC\\sin B\\).",
+   "images": [],
+   "id": "bdd250ff18bd",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A student whose eyes are # m above the ground stands # m from a flagpole and sees its top at an angle of elevation of \\(#^\\circ\\). How tall is the flagpole (nearest tenth)?",
+   "en": "A student whose eyes are 1.6 m above the ground stands 18 m from a flagpole and sees its top at an angle of elevation of \\(35^\\circ\\). How tall is the flagpole (nearest tenth)?",
+   "vi": "Một bạn học sinh có mắt cách mặt đất 1,6 m đứng cách cột cờ 18 m, nhìn đỉnh cột cờ với <b class=\"mbl-term\" tabindex=\"0\" data-en=\"angle of elevation\">góc nâng</b> \\(35^\\circ\\). Cột cờ cao bao nhiêu mét (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"round to the nearest tenth\">làm tròn đến hàng phần mười</b>)?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(12.6\\text{ m}\\)</span><span class=\"vi\">\\(12{,}6\\text{ m}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(27.3\\text{ m}\\)</span><span class=\"vi\">\\(27{,}3\\text{ m}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(14.2\\text{ m}\\)</span><span class=\"vi\">\\(14{,}2\\text{ m}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(11.9\\text{ m}\\)</span><span class=\"vi\">\\(11{,}9\\text{ m}\\)</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Height \\(=1.6+18\\cdot\\tan 35^\\circ\\approx 14.2\\) m (add the eye height).",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"height\">Chiều cao</b> \\(=1{,}6+18\\cdot\\tan 35^\\circ\\approx 14{,}2\\) m (cộng thêm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"height\">chiều cao</b> tới mắt).",
+   "images": [],
+   "id": "0f8eff677b93",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D4",
+   "type": "mcq",
+   "form": "An airplane climbs at # km/h along a path that makes a \\(#^\\circ\\) angle with the horizontal. How many kilometers does it rise in # minutes (nearest tenth)?",
+   "en": "An airplane climbs at 600 km/h along a path that makes a \\(12^\\circ\\) angle with the horizontal. How many kilometers does it rise in 1.2 minutes (nearest tenth)?",
+   "vi": "Một máy bay bay lên với <b class=\"mbl-term\" tabindex=\"0\" data-en=\"speed\">vận tốc</b> 600 km/h theo đường tạo với <b class=\"mbl-term\" tabindex=\"0\" data-en=\"horizontal\">phương nằm ngang</b> một góc \\(12^\\circ\\). Sau 1,2 phút máy bay lên cao được bao nhiêu ki-lô-mét (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"round to the nearest tenth\">làm tròn đến hàng phần mười</b>)?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(2.5\\text{ km}\\)</span><span class=\"vi\">\\(2{,}5\\text{ km}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(12.0\\text{ km}\\)</span><span class=\"vi\">\\(12{,}0\\text{ km}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(2.6\\text{ km}\\)</span><span class=\"vi\">\\(2{,}6\\text{ km}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(11.7\\text{ km}\\)</span><span class=\"vi\">\\(11{,}7\\text{ km}\\)</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Distance flown \\(=600\\cdot\\dfrac{1.2}{60}=12\\) km; height \\(=12\\cdot\\sin 12^\\circ\\approx 2.5\\) km.",
+   "explain_vi": "Đáp án a. Quãng đường bay \\(=600\\cdot\\dfrac{1{,}2}{60}=12\\) km; độ cao \\(=12\\cdot\\sin 12^\\circ\\approx 2{,}5\\) km.",
+   "images": [],
+   "id": "f72bf5642edc",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D4",
+   "type": "mcq",
+   "form": "From point \\(M\\) on level ground, the angle of elevation to the top of a tower is \\(#^\\circ\\). After walking # m straight towards the tower to point \\(N\\), the angle of elevation is \\(#^\\circ\\). Find the height of the tower (nearest tenth).",
+   "en": "From point \\(M\\) on level ground, the angle of elevation to the top of a tower is \\(30^\\circ\\). After walking 32 m straight towards the tower to point \\(N\\), the angle of elevation is \\(45^\\circ\\). Find the height of the tower (nearest tenth).",
+   "vi": "Từ điểm \\(M\\) trên mặt đất phẳng, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"angle of elevation\">góc nâng</b> nhìn lên đỉnh một tháp là \\(30^\\circ\\). Đi thẳng về phía tháp 32 m đến điểm \\(N\\) thì <b class=\"mbl-term\" tabindex=\"0\" data-en=\"angle of elevation\">góc nâng</b> là \\(45^\\circ\\). Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"height\">chiều cao</b> của tháp (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"round to the nearest tenth\">làm tròn đến hàng phần mười</b>).",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(11.7\\text{ m}\\)</span><span class=\"vi\">\\(11{,}7\\text{ m}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(32.0\\text{ m}\\)</span><span class=\"vi\">\\(32{,}0\\text{ m}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(18.5\\text{ m}\\)</span><span class=\"vi\">\\(18{,}5\\text{ m}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(43.7\\text{ m}\\)</span><span class=\"vi\">\\(43{,}7\\text{ m}\\)</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Let \\(h\\) be the height: \\(h\\cot 30^\\circ-h\\cot 45^\\circ=32\\Rightarrow h=\\dfrac{32}{\\cot 30^\\circ-\\cot 45^\\circ}\\approx 43.7\\) m.",
+   "explain_vi": "Đáp án d. Gọi \\(h\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"height\">chiều cao</b>: \\(h\\cot 30^\\circ-h\\cot 45^\\circ=32\\Rightarrow h=\\dfrac{32}{\\cot 30^\\circ-\\cot 45^\\circ}\\approx 43{,}7\\) m.",
+   "images": [],
+   "id": "c95a70a19278",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Triangle \\(ABC\\) is right-angled at \\(A\\), \\(AB=#\\) m and \\(\\widehat{B}=#^\\circ\\). Find \\(AC\\), rounded to the nearest tenth of a meter.",
+   "en": "Triangle \\(ABC\\) is right-angled at \\(A\\), \\(AB=8\\) m and \\(\\widehat{B}=25^\\circ\\). Find \\(AC\\), rounded to the nearest tenth of a meter.",
+   "vi": "Tam giác \\(ABC\\) vuông tại \\(A\\), \\(AB=8\\) m và \\(\\widehat{B}=25^\\circ\\). Tính \\(AC\\) (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"round to the nearest tenth\">làm tròn đến hàng phần mười</b> của mét).",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(3.7\\text{ m}\\)</span><span class=\"vi\">\\(3{,}7\\text{ m}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(7.3\\text{ m}\\)</span><span class=\"vi\">\\(7{,}3\\text{ m}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(3.4\\text{ m}\\)</span><span class=\"vi\">\\(3{,}4\\text{ m}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(17.2\\text{ m}\\)</span><span class=\"vi\">\\(17{,}2\\text{ m}\\)</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(AC\\) is opposite and \\(AB\\) is adjacent to angle \\(B\\): \\(AC=AB\\cdot\\tan B=8\\cdot\\tan 25^\\circ\\approx 3.7\\) m.",
+   "explain_vi": "Đáp án a. \\(AC\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"opposite side\">cạnh đối</b>, \\(AB\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"adjacent side\">cạnh kề</b> của góc \\(B\\): \\(AC=AB\\cdot\\tan B=8\\cdot\\tan 25^\\circ\\approx 3{,}7\\) m.",
+   "images": [],
+   "id": "25314e35ac79",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Triangle \\(ABC\\) is right-angled at \\(A\\), \\(BC=#\\) cm and \\(\\widehat{B}=#^\\circ\\). Find \\(AC\\), rounded to the nearest tenth of a centimeter.",
+   "en": "Triangle \\(ABC\\) is right-angled at \\(A\\), \\(BC=6\\) cm and \\(\\widehat{B}=70^\\circ\\). Find \\(AC\\), rounded to the nearest tenth of a centimeter.",
+   "vi": "Tam giác \\(ABC\\) vuông tại \\(A\\), \\(BC=6\\) cm và \\(\\widehat{B}=70^\\circ\\). Tính \\(AC\\) (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"round to the nearest tenth\">làm tròn đến hàng phần mười</b> của xăng-ti-mét).",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(2.1\\text{ cm}\\)</span><span class=\"vi\">\\(2{,}1\\text{ cm}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(6.4\\text{ cm}\\)</span><span class=\"vi\">\\(6{,}4\\text{ cm}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(16.5\\text{ cm}\\)</span><span class=\"vi\">\\(16{,}5\\text{ cm}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(5.6\\text{ cm}\\)</span><span class=\"vi\">\\(5{,}6\\text{ cm}\\)</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(AC\\) is opposite angle \\(B\\): \\(AC=BC\\cdot\\sin B=6\\cdot\\sin 70^\\circ\\approx 5.6\\) cm.",
+   "explain_vi": "Đáp án d. \\(AC\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"opposite side\">cạnh đối</b> của góc \\(B\\): \\(AC=BC\\cdot\\sin B=6\\cdot\\sin 70^\\circ\\approx 5{,}6\\) cm.",
+   "images": [],
+   "id": "d858765c544e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Triangle \\(HIK\\) is right-angled at \\(H\\). Which relation is correct?",
+   "en": "Triangle \\(HIK\\) is right-angled at \\(H\\). Which relation is correct?",
+   "vi": "Tam giác \\(HIK\\) vuông tại \\(H\\). Hệ thức nào đúng?",
+   "options": [
+    "\\(HI=IK\\cdot\\sin I\\)",
+    "\\(IK=HI\\cdot\\tan I\\)",
+    "\\(HI=HK\\cdot\\tan I\\)",
+    "\\(HI=IK\\cdot\\sin K\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Each leg = hypotenuse × sine of the opposite angle = hypotenuse × cosine of the adjacent angle = other leg × tangent of the opposite angle = other leg × cotangent of the adjacent angle.",
+   "explain_vi": "Đáp án d. Mỗi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"leg (of a right triangle)\">cạnh góc vuông</b> = <b class=\"mbl-term\" tabindex=\"0\" data-en=\"hypotenuse\">cạnh huyền</b> × sin <b class=\"mbl-term\" tabindex=\"0\" data-en=\"opposite angles\">góc đối</b> = <b class=\"mbl-term\" tabindex=\"0\" data-en=\"hypotenuse\">cạnh huyền</b> × cos góc kề = <b class=\"mbl-term\" tabindex=\"0\" data-en=\"leg (of a right triangle)\">cạnh góc vuông</b> kia × tan <b class=\"mbl-term\" tabindex=\"0\" data-en=\"opposite angles\">góc đối</b> = <b class=\"mbl-term\" tabindex=\"0\" data-en=\"leg (of a right triangle)\">cạnh góc vuông</b> kia × cot góc kề.",
+   "images": [],
+   "id": "70ef87e3c5ad",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "Triangle \\(ABC\\) is right-angled at \\(A\\), \\(BC=#\\) and \\(\\widehat{B}=#^\\circ\\). Then \\(\\widehat{C}=#^\\circ\\) and \\(AB\\approx #\\) (nearest tenth).",
+   "en": "Triangle \\(ABC\\) is right-angled at \\(A\\), \\(BC=15\\) and \\(\\widehat{B}=61^\\circ\\). Then \\(\\widehat{C}=29^\\circ\\) and \\(AB\\approx 7.3\\) (nearest tenth).",
+   "vi": "Tam giác \\(ABC\\) vuông tại \\(A\\), \\(BC=15\\) và \\(\\widehat{B}=61^\\circ\\). Khi đó \\(\\widehat{C}=29^\\circ\\) và \\(AB\\approx 7{,}3\\) (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"round to the nearest tenth\">làm tròn đến hàng phần mười</b>).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. \\(AB\\) is adjacent to \\(B\\): \\(AB=BC\\cdot\\cos B\\approx 7.3\\).",
+   "explain_vi": "Đúng. \\(AB\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"adjacent side\">cạnh kề</b> của góc \\(B\\): \\(AB=BC\\cdot\\cos B\\approx 7{,}3\\).",
+   "images": [],
+   "id": "daca1fd7bda4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "Triangle \\(HIK\\) is right-angled at \\(H\\). Then \\(HI=IK\\cdot\\sin I\\).",
+   "en": "Triangle \\(HIK\\) is right-angled at \\(H\\). Then \\(HI=IK\\cdot\\sin I\\).",
+   "vi": "Tam giác \\(HIK\\) vuông tại \\(H\\). Khi đó \\(HI=IK\\cdot\\sin I\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. The hypotenuse is \\(IK\\); \\(HK\\) is opposite angle \\(I\\) and \\(HI\\) is opposite angle \\(K\\).",
+   "explain_vi": "Sai. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"hypotenuse\">Cạnh huyền</b> là \\(IK\\); \\(HK\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"opposite side\">cạnh đối</b> của góc \\(I\\), \\(HI\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"opposite side\">cạnh đối</b> của góc \\(K\\).",
+   "images": [],
+   "id": "70e3e5f1b8e7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "Triangle \\(ABC\\) is right-angled at \\(A\\), \\(AB=#\\) cm and \\(AC=#\\) cm. Find angle \\(B\\) in degrees, rounded to the nearest degree.",
+   "en": "Triangle \\(ABC\\) is right-angled at \\(A\\), \\(AB=7\\) cm and \\(AC=16\\) cm. Find angle \\(B\\) in degrees, rounded to the nearest degree.",
+   "vi": "Tam giác \\(ABC\\) vuông tại \\(A\\), \\(AB=7\\) cm và \\(AC=16\\) cm. Tính số đo góc \\(B\\) (làm tròn đến độ).",
+   "options": [],
+   "answer": "66",
+   "explain_en": "Answer: 66. \\(\\tan B=\\dfrac{AC}{AB}=\\dfrac{16}{7}\\Rightarrow B\\approx 66^\\circ\\) (SHIFT tan).",
+   "explain_vi": "Đáp số: 66. \\(\\tan B=\\dfrac{AC}{AB}=\\dfrac{16}{7}\\Rightarrow B\\approx 66^\\circ\\) (bấm SHIFT tan).",
+   "images": [],
+   "id": "0387a6d6965e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "Triangle \\(ABC\\) is right-angled at \\(A\\), \\(AB=#\\) cm and \\(\\widehat{B}=#^\\circ\\). Find \\(BC\\) in centimeters, rounded to the nearest tenth.",
+   "en": "Triangle \\(ABC\\) is right-angled at \\(A\\), \\(AB=7\\) cm and \\(\\widehat{B}=65^\\circ\\). Find \\(BC\\) in centimeters, rounded to the nearest tenth.",
+   "vi": "Tam giác \\(ABC\\) vuông tại \\(A\\), \\(AB=7\\) cm và \\(\\widehat{B}=65^\\circ\\). Tính \\(BC\\) theo xăng-ti-mét (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"round to the nearest tenth\">làm tròn đến hàng phần mười</b>).",
+   "options": [],
+   "answer": "16.6",
+   "explain_en": "Answer: 16.6. \\(AB=BC\\cdot\\cos B\\Rightarrow BC=\\dfrac{7}{\\cos 65^\\circ}\\approx 16.6\\) cm.",
+   "explain_vi": "Đáp số: 16,6. \\(AB=BC\\cdot\\cos B\\Rightarrow BC=\\dfrac{7}{\\cos 65^\\circ}\\approx 16{,}6\\) cm.",
+   "images": [],
+   "id": "efbd446d791e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D1",
+   "type": "mcq",
+   "form": "In a right triangle, each leg equals the other leg × tangent of …",
+   "en": "In a right triangle, each leg equals the other leg × tangent of …",
+   "vi": "Trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"right triangle\">tam giác vuông</b>, mỗi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"leg (of a right triangle)\">cạnh góc vuông</b> bằng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"leg (of a right triangle)\">cạnh góc vuông</b> kia × tan của …",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">the adjacent angle</span><span class=\"vi\">góc kề</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the opposite angle</span><span class=\"vi\">góc đối</span></span>",
+    "<span class=\"txi\"><span class=\"en\">any angle of the triangle</span><span class=\"vi\">góc bất kì của tam giác</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the right angle</span><span class=\"vi\">góc vuông</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. sin, tan go with the opposite angle; cos, cot go with the adjacent angle.",
+   "explain_vi": "Đáp án b. sin, tan đi với <b class=\"mbl-term\" tabindex=\"0\" data-en=\"opposite angles\">góc đối</b>; cos, cot đi với góc kề.",
+   "images": [],
+   "id": "1a2093f188e5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Triangle \\(ABC\\) is right-angled at \\(A\\) and \\(\\widehat{B}=#^\\circ\\). Find \\(\\widehat{C}\\).",
+   "en": "Triangle \\(ABC\\) is right-angled at \\(A\\) and \\(\\widehat{B}=65^\\circ\\). Find \\(\\widehat{C}\\).",
+   "vi": "Tam giác \\(ABC\\) vuông tại \\(A\\) và \\(\\widehat{B}=65^\\circ\\). Tính \\(\\widehat{C}\\).",
+   "options": [
+    "\\(25^\\circ\\)",
+    "\\(155^\\circ\\)",
+    "\\(65^\\circ\\)",
+    "\\(115^\\circ\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. The two acute angles of a right triangle are complementary: \\(90^\\circ-65^\\circ=25^\\circ\\).",
+   "explain_vi": "Đáp án a. Hai góc nhọn của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"right triangle\">tam giác vuông</b> phụ nhau: \\(90^\\circ-65^\\circ=25^\\circ\\).",
+   "images": [],
+   "id": "db69a3e586b5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Triangle \\(ABC\\) is right-angled at \\(A\\). Which side is the hypotenuse?",
+   "en": "Triangle \\(ABC\\) is right-angled at \\(A\\). Which side is the hypotenuse?",
+   "vi": "Tam giác \\(ABC\\) vuông tại \\(A\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"hypotenuse\">Cạnh huyền</b> là cạnh nào?",
+   "options": [
+    "\\(AB\\)",
+    "<span class=\"txi\"><span class=\"en\">none of them</span><span class=\"vi\">không có cạnh nào</span></span>",
+    "\\(BC\\)",
+    "\\(AC\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The hypotenuse is opposite the right angle \\(A\\).",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"hypotenuse\">Cạnh huyền</b> là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"opposite side\">cạnh đối</b> diện với góc vuông \\(A\\).",
+   "images": [],
+   "id": "95ee5dcf33aa",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Triangle \\(ABC\\) is right-angled at \\(A\\), \\(AB=#\\) and \\(\\widehat{B}=#^\\circ\\). Find the exact value of \\(BC\\).",
+   "en": "Triangle \\(ABC\\) is right-angled at \\(A\\), \\(AB=10\\) and \\(\\widehat{B}=30^\\circ\\). Find the exact value of \\(BC\\).",
+   "vi": "Tam giác \\(ABC\\) vuông tại \\(A\\), \\(AB=10\\) và \\(\\widehat{B}=30^\\circ\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"evaluate\">Tính giá trị</b> đúng của \\(BC\\).",
+   "options": [
+    "\\(20\\)",
+    "\\(10\\sqrt{2}\\)",
+    "\\(\\dfrac{20\\sqrt{3}}{3}\\)",
+    "\\(10\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(BC=\\dfrac{AB}{\\cos 30^\\circ}\\).",
+   "explain_vi": "Đáp án c. \\(BC=\\dfrac{AB}{\\cos 30^\\circ}\\).",
+   "images": [],
+   "id": "74c77e5be149",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Triangle \\(ABC\\) is right-angled at \\(A\\), \\(AC=#\\) m and \\(\\widehat{B}=#^\\circ\\). Find \\(AB\\) (nearest tenth).",
+   "en": "Triangle \\(ABC\\) is right-angled at \\(A\\), \\(AC=15\\) m and \\(\\widehat{B}=55^\\circ\\). Find \\(AB\\) (nearest tenth).",
+   "vi": "Tam giác \\(ABC\\) vuông tại \\(A\\), \\(AC=15\\) m và \\(\\widehat{B}=55^\\circ\\). Tính \\(AB\\) (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"round to the nearest tenth\">làm tròn đến hàng phần mười</b>).",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(10.5\\text{ m}\\)</span><span class=\"vi\">\\(10{,}5\\text{ m}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(18.3\\text{ m}\\)</span><span class=\"vi\">\\(18{,}3\\text{ m}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(8.6\\text{ m}\\)</span><span class=\"vi\">\\(8{,}6\\text{ m}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(21.4\\text{ m}\\)</span><span class=\"vi\">\\(21{,}4\\text{ m}\\)</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(AB=AC\\cdot\\cot B=\\dfrac{15}{\\tan 55^\\circ}\\approx 10.5\\) m.",
+   "explain_vi": "Đáp án a. \\(AB=AC\\cdot\\cot B=\\dfrac{15}{\\tan 55^\\circ}\\approx 10{,}5\\) m.",
+   "images": [],
+   "id": "3efbc5e00858",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Triangle \\(ABC\\) is right-angled at \\(A\\), \\(BC=#\\) cm and \\(\\widehat{C}=#^\\circ\\). Find \\(AC\\) (nearest tenth).",
+   "en": "Triangle \\(ABC\\) is right-angled at \\(A\\), \\(BC=29\\) cm and \\(\\widehat{C}=61^\\circ\\). Find \\(AC\\) (nearest tenth).",
+   "vi": "Tam giác \\(ABC\\) vuông tại \\(A\\), \\(BC=29\\) cm và \\(\\widehat{C}=61^\\circ\\). Tính \\(AC\\) (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"round to the nearest tenth\">làm tròn đến hàng phần mười</b>).",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(25.4\\text{ cm}\\)</span><span class=\"vi\">\\(25{,}4\\text{ cm}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(52.3\\text{ cm}\\)</span><span class=\"vi\">\\(52{,}3\\text{ cm}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(14.1\\text{ cm}\\)</span><span class=\"vi\">\\(14{,}1\\text{ cm}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(59.8\\text{ cm}\\)</span><span class=\"vi\">\\(59{,}8\\text{ cm}\\)</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(AC\\) is adjacent to \\(C\\): \\(AC=BC\\cdot\\cos C\\approx 14.1\\) cm.",
+   "explain_vi": "Đáp án c. \\(AC\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"adjacent side\">cạnh kề</b> của góc \\(C\\): \\(AC=BC\\cdot\\cos C\\approx 14{,}1\\) cm.",
+   "images": [],
+   "id": "2848b15cda59",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D3",
+   "type": "mcq",
+   "form": "A # m ladder leans against a vertical wall and makes a \\(#^\\circ\\) angle with the ground. How high up the wall does it reach (nearest tenth)?",
+   "en": "A 5 m ladder leans against a vertical wall and makes a \\(79^\\circ\\) angle with the ground. How high up the wall does it reach (nearest tenth)?",
+   "vi": "Một chiếc thang dài 5 m dựa vào bức tường thẳng đứng, tạo với mặt đất một góc \\(79^\\circ\\). Đầu thang chạm tường ở độ cao bao nhiêu (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"round to the nearest tenth\">làm tròn đến hàng phần mười</b>)?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(4.9\\text{ m}\\)</span><span class=\"vi\">\\(4{,}9\\text{ m}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(1.0\\text{ m}\\)</span><span class=\"vi\">\\(1{,}0\\text{ m}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(25.7\\text{ m}\\)</span><span class=\"vi\">\\(25{,}7\\text{ m}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(5.1\\text{ m}\\)</span><span class=\"vi\">\\(5{,}1\\text{ m}\\)</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Height \\(=5\\cdot\\sin 79^\\circ\\approx 4.9\\) m.",
+   "explain_vi": "Đáp án a. Độ cao \\(=5\\cdot\\sin 79^\\circ\\approx 4{,}9\\) m.",
+   "images": [],
+   "id": "7238df769084",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D3",
+   "type": "mcq",
+   "form": "From the top of a # m tall building, the angle of depression to a car on the ground is \\(#^\\circ\\). Find the horizontal distance from the car to the foot of the building (nearest tenth).",
+   "en": "From the top of a 15 m tall building, the angle of depression to a car on the ground is \\(25^\\circ\\). Find the horizontal distance from the car to the foot of the building (nearest tenth).",
+   "vi": "Từ đỉnh một tòa nhà cao 15 m, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"angle of depression\">góc hạ</b> nhìn xuống một chiếc ô tô trên mặt đất là \\(25^\\circ\\). Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">khoảng cách</b> từ ô tô đến chân tòa nhà (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"round to the nearest tenth\">làm tròn đến hàng phần mười</b>).",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(35.5\\text{ m}\\)</span><span class=\"vi\">\\(35{,}5\\text{ m}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(7.0\\text{ m}\\)</span><span class=\"vi\">\\(7{,}0\\text{ m}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(13.6\\text{ m}\\)</span><span class=\"vi\">\\(13{,}6\\text{ m}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(32.2\\text{ m}\\)</span><span class=\"vi\">\\(32{,}2\\text{ m}\\)</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. The angle of depression equals the angle of elevation from the car: distance \\(=\\dfrac{15}{\\tan 25^\\circ}\\approx 32.2\\) m.",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"angle of depression\">Góc hạ</b> bằng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"angle of elevation\">góc nâng</b> nhìn từ ô tô (so le trong): <b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">khoảng cách</b> \\(=\\dfrac{15}{\\tan 25^\\circ}\\approx 32{,}2\\) m.",
+   "images": [],
+   "id": "20cc03cf036b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Solve the right triangle \\(ABC\\) (right angle at \\(A\\)) given \\(BC=#\\) and \\(\\widehat{B}=#^\\circ\\) (sides to the nearest tenth).",
+   "en": "Solve the right triangle \\(ABC\\) (right angle at \\(A\\)) given \\(BC=20\\) and \\(\\widehat{B}=70^\\circ\\) (sides to the nearest tenth).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"solve a triangle\">Giải tam giác</b> \\(ABC\\) vuông tại \\(A\\), biết \\(BC=20\\) và \\(\\widehat{B}=70^\\circ\\) (cạnh <b class=\"mbl-term\" tabindex=\"0\" data-en=\"round to the nearest tenth\">làm tròn đến hàng phần mười</b>).",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(\\widehat{C}=20^\\circ,\\ AB\\approx 6.8,\\ AC\\approx 18.8\\)</span><span class=\"vi\">\\(\\widehat{C}=20^\\circ,\\ AB\\approx 6{,}8,\\ AC\\approx 18{,}8\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(\\widehat{C}=20^\\circ,\\ AB\\approx 18.8,\\ AC\\approx 6.8\\)</span><span class=\"vi\">\\(\\widehat{C}=20^\\circ,\\ AB\\approx 18{,}8,\\ AC\\approx 6{,}8\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(\\widehat{C}=110^\\circ,\\ AB\\approx 6.8,\\ AC\\approx 18.8\\)</span><span class=\"vi\">\\(\\widehat{C}=110^\\circ,\\ AB\\approx 6{,}8,\\ AC\\approx 18{,}8\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(\\widehat{C}=70^\\circ,\\ AB\\approx 6.8,\\ AC\\approx 18.8\\)</span><span class=\"vi\">\\(\\widehat{C}=70^\\circ,\\ AB\\approx 6{,}8,\\ AC\\approx 18{,}8\\)</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\widehat{C}=90^\\circ-70^\\circ\\); \\(AB=BC\\cos B\\), \\(AC=BC\\sin B\\).",
+   "explain_vi": "Đáp án a. \\(\\widehat{C}=90^\\circ-70^\\circ\\); \\(AB=BC\\cos B\\), \\(AC=BC\\sin B\\).",
+   "images": [],
+   "id": "0fb214f146a8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A student whose eyes are # m above the ground stands # m from a flagpole and sees its top at an angle of elevation of \\(#^\\circ\\). How tall is the flagpole (nearest tenth)?",
+   "en": "A student whose eyes are 1.7 m above the ground stands 36 m from a flagpole and sees its top at an angle of elevation of \\(53^\\circ\\). How tall is the flagpole (nearest tenth)?",
+   "vi": "Một bạn học sinh có mắt cách mặt đất 1,7 m đứng cách cột cờ 36 m, nhìn đỉnh cột cờ với <b class=\"mbl-term\" tabindex=\"0\" data-en=\"angle of elevation\">góc nâng</b> \\(53^\\circ\\). Cột cờ cao bao nhiêu mét (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"round to the nearest tenth\">làm tròn đến hàng phần mười</b>)?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(28.8\\text{ m}\\)</span><span class=\"vi\">\\(28{,}8\\text{ m}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(47.8\\text{ m}\\)</span><span class=\"vi\">\\(47{,}8\\text{ m}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(49.5\\text{ m}\\)</span><span class=\"vi\">\\(49{,}5\\text{ m}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(30.5\\text{ m}\\)</span><span class=\"vi\">\\(30{,}5\\text{ m}\\)</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Height \\(=1.7+36\\cdot\\tan 53^\\circ\\approx 49.5\\) m (add the eye height).",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"height\">Chiều cao</b> \\(=1{,}7+36\\cdot\\tan 53^\\circ\\approx 49{,}5\\) m (cộng thêm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"height\">chiều cao</b> tới mắt).",
+   "images": [],
+   "id": "67a1bb115c91",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D4",
+   "type": "mcq",
+   "form": "An airplane climbs at # km/h along a path that makes a \\(#^\\circ\\) angle with the horizontal. How many kilometers does it rise in # minutes (nearest tenth)?",
+   "en": "An airplane climbs at 360 km/h along a path that makes a \\(20^\\circ\\) angle with the horizontal. How many kilometers does it rise in 1.2 minutes (nearest tenth)?",
+   "vi": "Một máy bay bay lên với <b class=\"mbl-term\" tabindex=\"0\" data-en=\"speed\">vận tốc</b> 360 km/h theo đường tạo với <b class=\"mbl-term\" tabindex=\"0\" data-en=\"horizontal\">phương nằm ngang</b> một góc \\(20^\\circ\\). Sau 1,2 phút máy bay lên cao được bao nhiêu ki-lô-mét (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"round to the nearest tenth\">làm tròn đến hàng phần mười</b>)?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(2.5\\text{ km}\\)</span><span class=\"vi\">\\(2{,}5\\text{ km}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(7.2\\text{ km}\\)</span><span class=\"vi\">\\(7{,}2\\text{ km}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(2.6\\text{ km}\\)</span><span class=\"vi\">\\(2{,}6\\text{ km}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(6.8\\text{ km}\\)</span><span class=\"vi\">\\(6{,}8\\text{ km}\\)</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Distance flown \\(=360\\cdot\\dfrac{1.2}{60}=7.2\\) km; height \\(=7.2\\cdot\\sin 20^\\circ\\approx 2.5\\) km.",
+   "explain_vi": "Đáp án a. Quãng đường bay \\(=360\\cdot\\dfrac{1{,}2}{60}=7{,}2\\) km; độ cao \\(=7{,}2\\cdot\\sin 20^\\circ\\approx 2{,}5\\) km.",
+   "images": [],
+   "id": "a9120679c005",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D4",
+   "type": "mcq",
+   "form": "From point \\(M\\) on level ground, the angle of elevation to the top of a tower is \\(#^\\circ\\). After walking # m straight towards the tower to point \\(N\\), the angle of elevation is \\(#^\\circ\\). Find the height of the tower (nearest tenth).",
+   "en": "From point \\(M\\) on level ground, the angle of elevation to the top of a tower is \\(45^\\circ\\). After walking 52 m straight towards the tower to point \\(N\\), the angle of elevation is \\(60^\\circ\\). Find the height of the tower (nearest tenth).",
+   "vi": "Từ điểm \\(M\\) trên mặt đất phẳng, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"angle of elevation\">góc nâng</b> nhìn lên đỉnh một tháp là \\(45^\\circ\\). Đi thẳng về phía tháp 52 m đến điểm \\(N\\) thì <b class=\"mbl-term\" tabindex=\"0\" data-en=\"angle of elevation\">góc nâng</b> là \\(60^\\circ\\). Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"height\">chiều cao</b> của tháp (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"round to the nearest tenth\">làm tròn đến hàng phần mười</b>).",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(123.0\\text{ m}\\)</span><span class=\"vi\">\\(123{,}0\\text{ m}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(90.1\\text{ m}\\)</span><span class=\"vi\">\\(90{,}1\\text{ m}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(33.0\\text{ m}\\)</span><span class=\"vi\">\\(33{,}0\\text{ m}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(52.0\\text{ m}\\)</span><span class=\"vi\">\\(52{,}0\\text{ m}\\)</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Let \\(h\\) be the height: \\(h\\cot 45^\\circ-h\\cot 60^\\circ=52\\Rightarrow h=\\dfrac{52}{\\cot 45^\\circ-\\cot 60^\\circ}\\approx 123.0\\) m.",
+   "explain_vi": "Đáp án a. Gọi \\(h\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"height\">chiều cao</b>: \\(h\\cot 45^\\circ-h\\cot 60^\\circ=52\\Rightarrow h=\\dfrac{52}{\\cot 45^\\circ-\\cot 60^\\circ}\\approx 123{,}0\\) m.",
+   "images": [],
+   "id": "d0ca041f6032",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Triangle \\(ABC\\) is right-angled at \\(A\\), \\(AB=#\\) m and \\(\\widehat{B}=#^\\circ\\). Find \\(AC\\), rounded to the nearest tenth of a meter.",
+   "en": "Triangle \\(ABC\\) is right-angled at \\(A\\), \\(AB=5\\) m and \\(\\widehat{B}=70^\\circ\\). Find \\(AC\\), rounded to the nearest tenth of a meter.",
+   "vi": "Tam giác \\(ABC\\) vuông tại \\(A\\), \\(AB=5\\) m và \\(\\widehat{B}=70^\\circ\\). Tính \\(AC\\) (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"round to the nearest tenth\">làm tròn đến hàng phần mười</b> của mét).",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(1.8\\text{ m}\\)</span><span class=\"vi\">\\(1{,}8\\text{ m}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(1.7\\text{ m}\\)</span><span class=\"vi\">\\(1{,}7\\text{ m}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(4.7\\text{ m}\\)</span><span class=\"vi\">\\(4{,}7\\text{ m}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(13.7\\text{ m}\\)</span><span class=\"vi\">\\(13{,}7\\text{ m}\\)</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(AC\\) is opposite and \\(AB\\) is adjacent to angle \\(B\\): \\(AC=AB\\cdot\\tan B=5\\cdot\\tan 70^\\circ\\approx 13.7\\) m.",
+   "explain_vi": "Đáp án d. \\(AC\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"opposite side\">cạnh đối</b>, \\(AB\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"adjacent side\">cạnh kề</b> của góc \\(B\\): \\(AC=AB\\cdot\\tan B=5\\cdot\\tan 70^\\circ\\approx 13{,}7\\) m.",
+   "images": [],
+   "id": "2bfb51d9eae3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Triangle \\(ABC\\) is right-angled at \\(A\\), \\(BC=#\\) cm and \\(\\widehat{B}=#^\\circ\\). Find \\(AC\\), rounded to the nearest tenth of a centimeter.",
+   "en": "Triangle \\(ABC\\) is right-angled at \\(A\\), \\(BC=23\\) cm and \\(\\widehat{B}=69^\\circ\\). Find \\(AC\\), rounded to the nearest tenth of a centimeter.",
+   "vi": "Tam giác \\(ABC\\) vuông tại \\(A\\), \\(BC=23\\) cm và \\(\\widehat{B}=69^\\circ\\). Tính \\(AC\\) (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"round to the nearest tenth\">làm tròn đến hàng phần mười</b> của xăng-ti-mét).",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(21.5\\text{ cm}\\)</span><span class=\"vi\">\\(21{,}5\\text{ cm}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(8.2\\text{ cm}\\)</span><span class=\"vi\">\\(8{,}2\\text{ cm}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(24.6\\text{ cm}\\)</span><span class=\"vi\">\\(24{,}6\\text{ cm}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(59.9\\text{ cm}\\)</span><span class=\"vi\">\\(59{,}9\\text{ cm}\\)</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(AC\\) is opposite angle \\(B\\): \\(AC=BC\\cdot\\sin B=23\\cdot\\sin 69^\\circ\\approx 21.5\\) cm.",
+   "explain_vi": "Đáp án a. \\(AC\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"opposite side\">cạnh đối</b> của góc \\(B\\): \\(AC=BC\\cdot\\sin B=23\\cdot\\sin 69^\\circ\\approx 21{,}5\\) cm.",
+   "images": [],
+   "id": "1807801d5add",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Triangle \\(ABC\\) is right-angled at \\(A\\). Which relation is correct?",
+   "en": "Triangle \\(ABC\\) is right-angled at \\(A\\). Which relation is correct?",
+   "vi": "Tam giác \\(ABC\\) vuông tại \\(A\\). Hệ thức nào đúng?",
+   "options": [
+    "\\(AC=AB\\cdot\\tan C\\)",
+    "\\(BC=AB\\cdot\\tan B\\)",
+    "\\(AB=AC\\cdot\\tan C\\)",
+    "\\(BC=AC\\cdot\\sin B\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Each leg = hypotenuse × sine of the opposite angle = hypotenuse × cosine of the adjacent angle = other leg × tangent of the opposite angle = other leg × cotangent of the adjacent angle.",
+   "explain_vi": "Đáp án c. Mỗi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"leg (of a right triangle)\">cạnh góc vuông</b> = <b class=\"mbl-term\" tabindex=\"0\" data-en=\"hypotenuse\">cạnh huyền</b> × sin <b class=\"mbl-term\" tabindex=\"0\" data-en=\"opposite angles\">góc đối</b> = <b class=\"mbl-term\" tabindex=\"0\" data-en=\"hypotenuse\">cạnh huyền</b> × cos góc kề = <b class=\"mbl-term\" tabindex=\"0\" data-en=\"leg (of a right triangle)\">cạnh góc vuông</b> kia × tan <b class=\"mbl-term\" tabindex=\"0\" data-en=\"opposite angles\">góc đối</b> = <b class=\"mbl-term\" tabindex=\"0\" data-en=\"leg (of a right triangle)\">cạnh góc vuông</b> kia × cot góc kề.",
+   "images": [],
+   "id": "e7ab639916ab",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "Triangle \\(ABC\\) is right-angled at \\(A\\), \\(BC=#\\) and \\(\\widehat{B}=#^\\circ\\). Then \\(\\widehat{C}=#^\\circ\\) and \\(AB\\approx #\\) (nearest tenth).",
+   "en": "Triangle \\(ABC\\) is right-angled at \\(A\\), \\(BC=20\\) and \\(\\widehat{B}=54^\\circ\\). Then \\(\\widehat{C}=36^\\circ\\) and \\(AB\\approx 16.2\\) (nearest tenth).",
+   "vi": "Tam giác \\(ABC\\) vuông tại \\(A\\), \\(BC=20\\) và \\(\\widehat{B}=54^\\circ\\). Khi đó \\(\\widehat{C}=36^\\circ\\) và \\(AB\\approx 16{,}2\\) (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"round to the nearest tenth\">làm tròn đến hàng phần mười</b>).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. \\(AB\\) is adjacent to \\(B\\): \\(AB=BC\\cdot\\cos B\\approx 11.8\\).",
+   "explain_vi": "Sai. \\(AB\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"adjacent side\">cạnh kề</b> của góc \\(B\\): \\(AB=BC\\cdot\\cos B\\approx 11{,}8\\).",
+   "images": [],
+   "id": "d71b1afaf40c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "Triangle \\(MNP\\) is right-angled at \\(M\\). Then \\(MP=NP\\cdot\\sin N\\).",
+   "en": "Triangle \\(MNP\\) is right-angled at \\(M\\). Then \\(MP=NP\\cdot\\sin N\\).",
+   "vi": "Tam giác \\(MNP\\) vuông tại \\(M\\). Khi đó \\(MP=NP\\cdot\\sin N\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. The hypotenuse is \\(NP\\); \\(MP\\) is opposite angle \\(N\\) and \\(MN\\) is opposite angle \\(P\\).",
+   "explain_vi": "Đúng. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"hypotenuse\">Cạnh huyền</b> là \\(NP\\); \\(MP\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"opposite side\">cạnh đối</b> của góc \\(N\\), \\(MN\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"opposite side\">cạnh đối</b> của góc \\(P\\).",
+   "images": [],
+   "id": "7a1c0cf8b95f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Triangle \\(ABC\\) is right-angled at \\(A\\), \\(AB=#\\) cm and \\(AC=#\\) cm. Find angle \\(B\\) in degrees, rounded to the nearest degree.",
+   "en": "Triangle \\(ABC\\) is right-angled at \\(A\\), \\(AB=10\\) cm and \\(AC=15\\) cm. Find angle \\(B\\) in degrees, rounded to the nearest degree.",
+   "vi": "Tam giác \\(ABC\\) vuông tại \\(A\\), \\(AB=10\\) cm và \\(AC=15\\) cm. Tính số đo góc \\(B\\) (làm tròn đến độ).",
+   "options": [],
+   "answer": "56",
+   "explain_en": "Answer: 56. \\(\\tan B=\\dfrac{AC}{AB}=\\dfrac{15}{10}\\Rightarrow B\\approx 56^\\circ\\) (SHIFT tan).",
+   "explain_vi": "Đáp số: 56. \\(\\tan B=\\dfrac{AC}{AB}=\\dfrac{15}{10}\\Rightarrow B\\approx 56^\\circ\\) (bấm SHIFT tan).",
+   "images": [],
+   "id": "1dcba4fdfc72",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Triangle \\(ABC\\) is right-angled at \\(A\\), \\(AB=#\\) cm and \\(\\widehat{B}=#^\\circ\\). Find \\(BC\\) in centimeters, rounded to the nearest tenth.",
+   "en": "Triangle \\(ABC\\) is right-angled at \\(A\\), \\(AB=25\\) cm and \\(\\widehat{B}=57^\\circ\\). Find \\(BC\\) in centimeters, rounded to the nearest tenth.",
+   "vi": "Tam giác \\(ABC\\) vuông tại \\(A\\), \\(AB=25\\) cm và \\(\\widehat{B}=57^\\circ\\). Tính \\(BC\\) theo xăng-ti-mét (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"round to the nearest tenth\">làm tròn đến hàng phần mười</b>).",
+   "options": [],
+   "answer": "45.9",
+   "explain_en": "Answer: 45.9. \\(AB=BC\\cdot\\cos B\\Rightarrow BC=\\dfrac{25}{\\cos 57^\\circ}\\approx 45.9\\) cm.",
+   "explain_vi": "Đáp số: 45,9. \\(AB=BC\\cdot\\cos B\\Rightarrow BC=\\dfrac{25}{\\cos 57^\\circ}\\approx 45{,}9\\) cm.",
+   "images": [],
+   "id": "99c258bc70df",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D1",
+   "type": "mcq",
+   "form": "In a right triangle, each leg equals hypotenuse × cosine of …",
+   "en": "In a right triangle, each leg equals hypotenuse × cosine of …",
+   "vi": "Trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"right triangle\">tam giác vuông</b>, mỗi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"leg (of a right triangle)\">cạnh góc vuông</b> bằng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"hypotenuse\">cạnh huyền</b> × cos của …",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">the adjacent angle</span><span class=\"vi\">góc kề</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the opposite angle</span><span class=\"vi\">góc đối</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the right angle</span><span class=\"vi\">góc vuông</span></span>",
+    "<span class=\"txi\"><span class=\"en\">any angle of the triangle</span><span class=\"vi\">góc bất kì của tam giác</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. sin, tan go with the opposite angle; cos, cot go with the adjacent angle.",
+   "explain_vi": "Đáp án a. sin, tan đi với <b class=\"mbl-term\" tabindex=\"0\" data-en=\"opposite angles\">góc đối</b>; cos, cot đi với góc kề.",
+   "images": [],
+   "id": "83e8cd54c7d4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Triangle \\(DEF\\) is right-angled at \\(D\\) and \\(\\widehat{E}=#^\\circ\\). Find \\(\\widehat{F}\\).",
+   "en": "Triangle \\(DEF\\) is right-angled at \\(D\\) and \\(\\widehat{E}=55^\\circ\\). Find \\(\\widehat{F}\\).",
+   "vi": "Tam giác \\(DEF\\) vuông tại \\(D\\) và \\(\\widehat{E}=55^\\circ\\). Tính \\(\\widehat{F}\\).",
+   "options": [
+    "\\(35^\\circ\\)",
+    "\\(55^\\circ\\)",
+    "\\(125^\\circ\\)",
+    "\\(145^\\circ\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. The two acute angles of a right triangle are complementary: \\(90^\\circ-55^\\circ=35^\\circ\\).",
+   "explain_vi": "Đáp án a. Hai góc nhọn của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"right triangle\">tam giác vuông</b> phụ nhau: \\(90^\\circ-55^\\circ=35^\\circ\\).",
+   "images": [],
+   "id": "d7309d695e9a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Triangle \\(DEF\\) is right-angled at \\(D\\). Which side is the hypotenuse?",
+   "en": "Triangle \\(DEF\\) is right-angled at \\(D\\). Which side is the hypotenuse?",
+   "vi": "Tam giác \\(DEF\\) vuông tại \\(D\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"hypotenuse\">Cạnh huyền</b> là cạnh nào?",
+   "options": [
+    "\\(DE\\)",
+    "\\(EF\\)",
+    "\\(DF\\)",
+    "<span class=\"txi\"><span class=\"en\">none of them</span><span class=\"vi\">không có cạnh nào</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. The hypotenuse is opposite the right angle \\(D\\).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"hypotenuse\">Cạnh huyền</b> là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"opposite side\">cạnh đối</b> diện với góc vuông \\(D\\).",
+   "images": [],
+   "id": "eb19bf2eb04f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Triangle \\(ABC\\) is right-angled at \\(A\\), \\(AB=#\\) and \\(\\widehat{B}=#^\\circ\\). Find the exact value of \\(AC\\).",
+   "en": "Triangle \\(ABC\\) is right-angled at \\(A\\), \\(AB=14\\) and \\(\\widehat{B}=60^\\circ\\). Find the exact value of \\(AC\\).",
+   "vi": "Tam giác \\(ABC\\) vuông tại \\(A\\), \\(AB=14\\) và \\(\\widehat{B}=60^\\circ\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"evaluate\">Tính giá trị</b> đúng của \\(AC\\).",
+   "options": [
+    "\\(14\\)",
+    "\\(14\\sqrt{3}\\)",
+    "\\(\\dfrac{14\\sqrt{3}}{3}\\)",
+    "\\(14\\sqrt{2}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(AC=AB\\cdot\\tan 60^\\circ\\).",
+   "explain_vi": "Đáp án b. \\(AC=AB\\cdot\\tan 60^\\circ\\).",
+   "images": [],
+   "id": "a3bbd5225a08",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Triangle \\(ABC\\) is right-angled at \\(A\\), \\(AC=#\\) m and \\(\\widehat{B}=#^\\circ\\). Find \\(AB\\) (nearest tenth).",
+   "en": "Triangle \\(ABC\\) is right-angled at \\(A\\), \\(AC=12\\) m and \\(\\widehat{B}=63^\\circ\\). Find \\(AB\\) (nearest tenth).",
+   "vi": "Tam giác \\(ABC\\) vuông tại \\(A\\), \\(AC=12\\) m và \\(\\widehat{B}=63^\\circ\\). Tính \\(AB\\) (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"round to the nearest tenth\">làm tròn đến hàng phần mười</b>).",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(23.6\\text{ m}\\)</span><span class=\"vi\">\\(23{,}6\\text{ m}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(5.4\\text{ m}\\)</span><span class=\"vi\">\\(5{,}4\\text{ m}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(6.1\\text{ m}\\)</span><span class=\"vi\">\\(6{,}1\\text{ m}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(13.5\\text{ m}\\)</span><span class=\"vi\">\\(13{,}5\\text{ m}\\)</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(AB=AC\\cdot\\cot B=\\dfrac{12}{\\tan 63^\\circ}\\approx 6.1\\) m.",
+   "explain_vi": "Đáp án c. \\(AB=AC\\cdot\\cot B=\\dfrac{12}{\\tan 63^\\circ}\\approx 6{,}1\\) m.",
+   "images": [],
+   "id": "7e926cc0ff64",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Triangle \\(ABC\\) is right-angled at \\(A\\), \\(BC=#\\) cm and \\(\\widehat{C}=#^\\circ\\). Find \\(AC\\) (nearest tenth).",
+   "en": "Triangle \\(ABC\\) is right-angled at \\(A\\), \\(BC=10\\) cm and \\(\\widehat{C}=57^\\circ\\). Find \\(AC\\) (nearest tenth).",
+   "vi": "Tam giác \\(ABC\\) vuông tại \\(A\\), \\(BC=10\\) cm và \\(\\widehat{C}=57^\\circ\\). Tính \\(AC\\) (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"round to the nearest tenth\">làm tròn đến hàng phần mười</b>).",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(8.4\\text{ cm}\\)</span><span class=\"vi\">\\(8{,}4\\text{ cm}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(18.4\\text{ cm}\\)</span><span class=\"vi\">\\(18{,}4\\text{ cm}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(15.4\\text{ cm}\\)</span><span class=\"vi\">\\(15{,}4\\text{ cm}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(5.4\\text{ cm}\\)</span><span class=\"vi\">\\(5{,}4\\text{ cm}\\)</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(AC\\) is adjacent to \\(C\\): \\(AC=BC\\cdot\\cos C\\approx 5.4\\) cm.",
+   "explain_vi": "Đáp án d. \\(AC\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"adjacent side\">cạnh kề</b> của góc \\(C\\): \\(AC=BC\\cdot\\cos C\\approx 5{,}4\\) cm.",
+   "images": [],
+   "id": "106844297042",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D3",
+   "type": "mcq",
+   "form": "A # m ladder leans against a vertical wall and makes a \\(#^\\circ\\) angle with the ground. How high up the wall does it reach (nearest tenth)?",
+   "en": "A 3 m ladder leans against a vertical wall and makes a \\(68^\\circ\\) angle with the ground. How high up the wall does it reach (nearest tenth)?",
+   "vi": "Một chiếc thang dài 3 m dựa vào bức tường thẳng đứng, tạo với mặt đất một góc \\(68^\\circ\\). Đầu thang chạm tường ở độ cao bao nhiêu (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"round to the nearest tenth\">làm tròn đến hàng phần mười</b>)?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(2.8\\text{ m}\\)</span><span class=\"vi\">\\(2{,}8\\text{ m}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(1.1\\text{ m}\\)</span><span class=\"vi\">\\(1{,}1\\text{ m}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(3.2\\text{ m}\\)</span><span class=\"vi\">\\(3{,}2\\text{ m}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(7.4\\text{ m}\\)</span><span class=\"vi\">\\(7{,}4\\text{ m}\\)</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Height \\(=3\\cdot\\sin 68^\\circ\\approx 2.8\\) m.",
+   "explain_vi": "Đáp án a. Độ cao \\(=3\\cdot\\sin 68^\\circ\\approx 2{,}8\\) m.",
+   "images": [],
+   "id": "7952fc98cfca",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D3",
+   "type": "mcq",
+   "form": "From the top of a # m tall building, the angle of depression to a car on the ground is \\(#^\\circ\\). Find the horizontal distance from the car to the foot of the building (nearest tenth).",
+   "en": "From the top of a 58 m tall building, the angle of depression to a car on the ground is \\(23^\\circ\\). Find the horizontal distance from the car to the foot of the building (nearest tenth).",
+   "vi": "Từ đỉnh một tòa nhà cao 58 m, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"angle of depression\">góc hạ</b> nhìn xuống một chiếc ô tô trên mặt đất là \\(23^\\circ\\). Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">khoảng cách</b> từ ô tô đến chân tòa nhà (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"round to the nearest tenth\">làm tròn đến hàng phần mười</b>).",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(136.6\\text{ m}\\)</span><span class=\"vi\">\\(136{,}6\\text{ m}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(53.4\\text{ m}\\)</span><span class=\"vi\">\\(53{,}4\\text{ m}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(148.4\\text{ m}\\)</span><span class=\"vi\">\\(148{,}4\\text{ m}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(24.6\\text{ m}\\)</span><span class=\"vi\">\\(24{,}6\\text{ m}\\)</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. The angle of depression equals the angle of elevation from the car: distance \\(=\\dfrac{58}{\\tan 23^\\circ}\\approx 136.6\\) m.",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"angle of depression\">Góc hạ</b> bằng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"angle of elevation\">góc nâng</b> nhìn từ ô tô (so le trong): <b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">khoảng cách</b> \\(=\\dfrac{58}{\\tan 23^\\circ}\\approx 136{,}6\\) m.",
+   "images": [],
+   "id": "9895c8a12fbf",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Solve the right triangle \\(ABC\\) (right angle at \\(A\\)) given \\(BC=#\\) and \\(\\widehat{B}=#^\\circ\\) (sides to the nearest tenth).",
+   "en": "Solve the right triangle \\(ABC\\) (right angle at \\(A\\)) given \\(BC=22\\) and \\(\\widehat{B}=63^\\circ\\) (sides to the nearest tenth).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"solve a triangle\">Giải tam giác</b> \\(ABC\\) vuông tại \\(A\\), biết \\(BC=22\\) và \\(\\widehat{B}=63^\\circ\\) (cạnh <b class=\"mbl-term\" tabindex=\"0\" data-en=\"round to the nearest tenth\">làm tròn đến hàng phần mười</b>).",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(\\widehat{C}=27^\\circ,\\ AB\\approx 19.6,\\ AC\\approx 10.0\\)</span><span class=\"vi\">\\(\\widehat{C}=27^\\circ,\\ AB\\approx 19{,}6,\\ AC\\approx 10{,}0\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(\\widehat{C}=117^\\circ,\\ AB\\approx 10.0,\\ AC\\approx 19.6\\)</span><span class=\"vi\">\\(\\widehat{C}=117^\\circ,\\ AB\\approx 10{,}0,\\ AC\\approx 19{,}6\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(\\widehat{C}=27^\\circ,\\ AB\\approx 10.0,\\ AC\\approx 19.6\\)</span><span class=\"vi\">\\(\\widehat{C}=27^\\circ,\\ AB\\approx 10{,}0,\\ AC\\approx 19{,}6\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(\\widehat{C}=63^\\circ,\\ AB\\approx 10.0,\\ AC\\approx 19.6\\)</span><span class=\"vi\">\\(\\widehat{C}=63^\\circ,\\ AB\\approx 10{,}0,\\ AC\\approx 19{,}6\\)</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\widehat{C}=90^\\circ-63^\\circ\\); \\(AB=BC\\cos B\\), \\(AC=BC\\sin B\\).",
+   "explain_vi": "Đáp án c. \\(\\widehat{C}=90^\\circ-63^\\circ\\); \\(AB=BC\\cos B\\), \\(AC=BC\\sin B\\).",
+   "images": [],
+   "id": "9342e4024448",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A student whose eyes are # m above the ground stands # m from a flagpole and sees its top at an angle of elevation of \\(#^\\circ\\). How tall is the flagpole (nearest tenth)?",
+   "en": "A student whose eyes are 1.5 m above the ground stands 12 m from a flagpole and sees its top at an angle of elevation of \\(45^\\circ\\). How tall is the flagpole (nearest tenth)?",
+   "vi": "Một bạn học sinh có mắt cách mặt đất 1,5 m đứng cách cột cờ 12 m, nhìn đỉnh cột cờ với <b class=\"mbl-term\" tabindex=\"0\" data-en=\"angle of elevation\">góc nâng</b> \\(45^\\circ\\). Cột cờ cao bao nhiêu mét (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"round to the nearest tenth\">làm tròn đến hàng phần mười</b>)?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(13.5\\text{ m}\\)</span><span class=\"vi\">\\(13{,}5\\text{ m}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(14.2\\text{ m}\\)</span><span class=\"vi\">\\(14{,}2\\text{ m}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(12.0\\text{ m}\\)</span><span class=\"vi\">\\(12{,}0\\text{ m}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(10.0\\text{ m}\\)</span><span class=\"vi\">\\(10{,}0\\text{ m}\\)</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Height \\(=1.5+12\\cdot\\tan 45^\\circ\\approx 13.5\\) m (add the eye height).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"height\">Chiều cao</b> \\(=1{,}5+12\\cdot\\tan 45^\\circ\\approx 13{,}5\\) m (cộng thêm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"height\">chiều cao</b> tới mắt).",
+   "images": [],
+   "id": "77f8b91809ff",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D4",
+   "type": "mcq",
+   "form": "An airplane climbs at # km/h along a path that makes a \\(#^\\circ\\) angle with the horizontal. How many kilometers does it rise in # minutes (nearest tenth)?",
+   "en": "An airplane climbs at 480 km/h along a path that makes a \\(15^\\circ\\) angle with the horizontal. How many kilometers does it rise in 1.5 minutes (nearest tenth)?",
+   "vi": "Một máy bay bay lên với <b class=\"mbl-term\" tabindex=\"0\" data-en=\"speed\">vận tốc</b> 480 km/h theo đường tạo với <b class=\"mbl-term\" tabindex=\"0\" data-en=\"horizontal\">phương nằm ngang</b> một góc \\(15^\\circ\\). Sau 1,5 phút máy bay lên cao được bao nhiêu ki-lô-mét (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"round to the nearest tenth\">làm tròn đến hàng phần mười</b>)?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(3.2\\text{ km}\\)</span><span class=\"vi\">\\(3{,}2\\text{ km}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(11.6\\text{ km}\\)</span><span class=\"vi\">\\(11{,}6\\text{ km}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(3.1\\text{ km}\\)</span><span class=\"vi\">\\(3{,}1\\text{ km}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(12.0\\text{ km}\\)</span><span class=\"vi\">\\(12{,}0\\text{ km}\\)</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Distance flown \\(=480\\cdot\\dfrac{1.5}{60}=12\\) km; height \\(=12\\cdot\\sin 15^\\circ\\approx 3.1\\) km.",
+   "explain_vi": "Đáp án c. Quãng đường bay \\(=480\\cdot\\dfrac{1{,}5}{60}=12\\) km; độ cao \\(=12\\cdot\\sin 15^\\circ\\approx 3{,}1\\) km.",
+   "images": [],
+   "id": "70f09019a802",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D4",
+   "type": "mcq",
+   "form": "From point \\(M\\) on level ground, the angle of elevation to the top of a tower is \\(#^\\circ\\). After walking # m straight towards the tower to point \\(N\\), the angle of elevation is \\(#^\\circ\\). Find the height of the tower (nearest tenth).",
+   "en": "From point \\(M\\) on level ground, the angle of elevation to the top of a tower is \\(45^\\circ\\). After walking 46 m straight towards the tower to point \\(N\\), the angle of elevation is \\(60^\\circ\\). Find the height of the tower (nearest tenth).",
+   "vi": "Từ điểm \\(M\\) trên mặt đất phẳng, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"angle of elevation\">góc nâng</b> nhìn lên đỉnh một tháp là \\(45^\\circ\\). Đi thẳng về phía tháp 46 m đến điểm \\(N\\) thì <b class=\"mbl-term\" tabindex=\"0\" data-en=\"angle of elevation\">góc nâng</b> là \\(60^\\circ\\). Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"height\">chiều cao</b> của tháp (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"round to the nearest tenth\">làm tròn đến hàng phần mười</b>).",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(46.0\\text{ m}\\)</span><span class=\"vi\">\\(46{,}0\\text{ m}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(29.2\\text{ m}\\)</span><span class=\"vi\">\\(29{,}2\\text{ m}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(79.7\\text{ m}\\)</span><span class=\"vi\">\\(79{,}7\\text{ m}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(108.8\\text{ m}\\)</span><span class=\"vi\">\\(108{,}8\\text{ m}\\)</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Let \\(h\\) be the height: \\(h\\cot 45^\\circ-h\\cot 60^\\circ=46\\Rightarrow h=\\dfrac{46}{\\cot 45^\\circ-\\cot 60^\\circ}\\approx 108.8\\) m.",
+   "explain_vi": "Đáp án d. Gọi \\(h\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"height\">chiều cao</b>: \\(h\\cot 45^\\circ-h\\cot 60^\\circ=46\\Rightarrow h=\\dfrac{46}{\\cot 45^\\circ-\\cot 60^\\circ}\\approx 108{,}8\\) m.",
+   "images": [],
+   "id": "a6b00a072eb9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  }
+ ]
+}

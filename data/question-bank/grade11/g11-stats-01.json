@@ -1,0 +1,1977 @@
+{
+ "lesson": "g11-stats-01",
+ "grade": 11,
+ "no": 8,
+ "title": "Mẫu số liệu ghép nhóm",
+ "path": "lessons/grade11/statistics/grouped-data.html",
+ "items": [
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "A factory tested the lifetime of a sample of light bulbs. How many bulbs last less than # hours?Lifetime (h)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)TotalBulbs\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(n=#\\)",
+   "en": "A factory tested the lifetime of a sample of light bulbs. How many bulbs last less than 1400 hours?<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Lifetime (h)</th><td>\\([1000;\\,1200)\\)</td><td>\\([1200;\\,1400)\\)</td><td>\\([1400;\\,1600)\\)</td><td>\\([1600;\\,1800)\\)</td><td>\\([1800;\\,2000)\\)</td><td class=\"mbl-freq-tot\">Total</td></tr><tr><th scope=\"row\">Bulbs</th><td>\\(3\\)</td><td>\\(5\\)</td><td>\\(3\\)</td><td>\\(8\\)</td><td>\\(5\\)</td><td class=\"mbl-freq-tot\">\\(n=24\\)</td></tr></tbody></table></div>",
+   "vi": "Một nhà máy kiểm tra tuổi thọ của một mẫu bóng đèn. Có bao nhiêu bóng đèn sáng được dưới 1400 giờ?<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Tuổi thọ (giờ)</th><td>\\([1000;\\,1200)\\)</td><td>\\([1200;\\,1400)\\)</td><td>\\([1400;\\,1600)\\)</td><td>\\([1600;\\,1800)\\)</td><td>\\([1800;\\,2000)\\)</td><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\">Số bóng đèn</th><td>\\(3\\)</td><td>\\(5\\)</td><td>\\(3\\)</td><td>\\(8\\)</td><td>\\(5\\)</td><td class=\"mbl-freq-tot\">\\(n=24\\)</td></tr></tbody></table></div>",
+   "options": [
+    "\\(8\\)",
+    "\\(11\\)",
+    "\\(3\\)",
+    "\\(5\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Add the frequencies of the groups before 1400: \\(3+5=8\\).",
+   "explain_vi": "Đáp án a. Cộng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">tần số</b> các nhóm đứng trước mốc 1400: \\(3+5=8\\).",
+   "images": [],
+   "id": "08d671cb312e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "A teacher recorded the scores of a test marked out of # points. What is the midpoint (representative value) of the group \\([#;\\,#)\\)?Score\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)TotalStudents\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(n=#\\)",
+   "en": "A teacher recorded the scores of a test marked out of 50 points. What is the midpoint (representative value) of the group \\([35;\\,40)\\)?<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Score</th><td>\\([20;\\,25)\\)</td><td>\\([25;\\,30)\\)</td><td>\\([30;\\,35)\\)</td><td>\\([35;\\,40)\\)</td><td class=\"mbl-freq-tot\">Total</td></tr><tr><th scope=\"row\">Students</th><td>\\(6\\)</td><td>\\(10\\)</td><td>\\(13\\)</td><td>\\(11\\)</td><td class=\"mbl-freq-tot\">\\(n=40\\)</td></tr></tbody></table></div>",
+   "vi": "Giáo viên ghi lại điểm một bài kiểm tra chấm theo thang 50 điểm. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint (representative value)\">Giá trị đại diện</b> của nhóm \\([35;\\,40)\\) là bao nhiêu?<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Điểm</th><td>\\([20;\\,25)\\)</td><td>\\([25;\\,30)\\)</td><td>\\([30;\\,35)\\)</td><td>\\([35;\\,40)\\)</td><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\">Số học sinh</th><td>\\(6\\)</td><td>\\(10\\)</td><td>\\(13\\)</td><td>\\(11\\)</td><td class=\"mbl-freq-tot\">\\(n=40\\)</td></tr></tbody></table></div>",
+   "options": [
+    "\\(35\\)",
+    "<span class=\"txi\"><span class=\"en\">\\(37.5\\)</span><span class=\"vi\">\\(37{,}5\\)</span></span>",
+    "\\(40\\)",
+    "<span class=\"txi\"><span class=\"en\">\\(2.5\\)</span><span class=\"vi\">\\(2{,}5\\)</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(x=\\dfrac{35+40}{2}=37.5\\).",
+   "explain_vi": "Đáp án b. \\(x=\\dfrac{35+40}{2}=37{,}5\\).",
+   "images": [],
+   "id": "4fca3dea1347",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "An electricity company recorded the monthly electricity use of households in a street. Which group has the highest frequency?Electricity (kWh)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)TotalHouseholds\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(n=#\\)",
+   "en": "An electricity company recorded the monthly electricity use of households in a street. Which group has the highest frequency?<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Electricity (kWh)</th><td>\\([200;\\,250)\\)</td><td>\\([250;\\,300)\\)</td><td>\\([300;\\,350)\\)</td><td>\\([350;\\,400)\\)</td><td class=\"mbl-freq-tot\">Total</td></tr><tr><th scope=\"row\">Households</th><td>\\(5\\)</td><td>\\(11\\)</td><td>\\(5\\)</td><td>\\(4\\)</td><td class=\"mbl-freq-tot\">\\(n=25\\)</td></tr></tbody></table></div>",
+   "vi": "Công ty điện lực ghi lại lượng điện tiêu thụ hằng tháng của các hộ gia đình một con phố. Nhóm nào có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">tần số</b> lớn nhất?<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Điện năng (kWh)</th><td>\\([200;\\,250)\\)</td><td>\\([250;\\,300)\\)</td><td>\\([300;\\,350)\\)</td><td>\\([350;\\,400)\\)</td><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\">Số hộ</th><td>\\(5\\)</td><td>\\(11\\)</td><td>\\(5\\)</td><td>\\(4\\)</td><td class=\"mbl-freq-tot\">\\(n=25\\)</td></tr></tbody></table></div>",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\([200;\\,250)\\)</span><span class=\"vi\">\\([200;\\,250)\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\([350;\\,400)\\)</span><span class=\"vi\">\\([350;\\,400)\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\([250;\\,300)\\)</span><span class=\"vi\">\\([250;\\,300)\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\([300;\\,350)\\)</span><span class=\"vi\">\\([300;\\,350)\\)</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The largest frequency is \\(11\\), in the group \\([250;\\,300)\\).",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">Tần số</b> lớn nhất là \\(11\\), ở nhóm \\([250;\\,300)\\).",
+   "images": [],
+   "id": "544fd0122fe2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "A bank recorded how long its customers waited before being served. A customer with a waiting time of exactly # minutes is counted in the group \\([#;\\,#)\\).Waiting (min)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)TotalCustomers\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(n=#\\)",
+   "en": "A bank recorded how long its customers waited before being served. A customer with a waiting time of exactly 5 minutes is counted in the group \\([5;\\,10)\\).<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Waiting (min)</th><td>\\([0;\\,5)\\)</td><td>\\([5;\\,10)\\)</td><td>\\([10;\\,15)\\)</td><td>\\([15;\\,20)\\)</td><td class=\"mbl-freq-tot\">Total</td></tr><tr><th scope=\"row\">Customers</th><td>\\(8\\)</td><td>\\(5\\)</td><td>\\(5\\)</td><td>\\(6\\)</td><td class=\"mbl-freq-tot\">\\(n=24\\)</td></tr></tbody></table></div>",
+   "vi": "Một ngân hàng ghi lại thời gian khách hàng chờ đến lượt phục vụ. Một khách hàng có thời gian chờ đúng bằng 5 phút được xếp vào nhóm \\([5;\\,10)\\).<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Thời gian chờ (phút)</th><td>\\([0;\\,5)\\)</td><td>\\([5;\\,10)\\)</td><td>\\([10;\\,15)\\)</td><td>\\([15;\\,20)\\)</td><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\">Số khách hàng</th><td>\\(8\\)</td><td>\\(5\\)</td><td>\\(5\\)</td><td>\\(6\\)</td><td class=\"mbl-freq-tot\">\\(n=24\\)</td></tr></tbody></table></div>",
+   "options": [],
+   "answer": "true",
+   "explain_en": "In \\([a;\\,b)\\) the left end belongs to the group and the right end does not, so 5 goes to \\([5;\\,10)\\).",
+   "explain_vi": "Trong nhóm \\([a;\\,b)\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"endpoint\">đầu mút</b> trái thuộc nhóm, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"endpoint\">đầu mút</b> phải thì không; nên 5 thuộc nhóm \\([5;\\,10)\\).",
+   "images": [],
+   "id": "36e3d2fdd89e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "A survey asked teenagers how long they use a phone each day. Exactly \\(#\\%\\) of the teenagers use a phone for at least # minutes a day.Time (min)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)TotalTeenagers\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(n=#\\)",
+   "en": "A survey asked teenagers how long they use a phone each day. Exactly \\(60\\%\\) of the teenagers use a phone for at least 60 minutes a day.<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Time (min)</th><td>\\([0;\\,30)\\)</td><td>\\([30;\\,60)\\)</td><td>\\([60;\\,90)\\)</td><td>\\([90;\\,120)\\)</td><td class=\"mbl-freq-tot\">Total</td></tr><tr><th scope=\"row\">Teenagers</th><td>\\(6\\)</td><td>\\(18\\)</td><td>\\(7\\)</td><td>\\(9\\)</td><td class=\"mbl-freq-tot\">\\(n=40\\)</td></tr></tbody></table></div>",
+   "vi": "Khảo sát thời gian dùng điện thoại mỗi ngày của học sinh. Có đúng \\(60\\%\\) số học sinh dùng điện thoại từ 60 phút mỗi ngày trở lên.<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Thời gian (phút)</th><td>\\([0;\\,30)\\)</td><td>\\([30;\\,60)\\)</td><td>\\([60;\\,90)\\)</td><td>\\([90;\\,120)\\)</td><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\">Số học sinh</th><td>\\(6\\)</td><td>\\(18\\)</td><td>\\(7\\)</td><td>\\(9\\)</td><td class=\"mbl-freq-tot\">\\(n=40\\)</td></tr></tbody></table></div>",
+   "options": [],
+   "answer": "false",
+   "explain_en": "\\(\\dfrac{16}{40}\\cdot100\\%=40\\%\\).",
+   "explain_vi": "\\(\\dfrac{16}{40}\\cdot100\\%=40\\%\\).",
+   "images": [],
+   "id": "e669759426d4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "The ages of the employees of a company are grouped as follows. The total is \\(n=#\\). Find the missing frequency \\(x\\).Age\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)TotalEmployees\\(x\\)\\(#\\)\\(#\\)\\(#\\)\\(n=#\\)",
+   "en": "The ages of the employees of a company are grouped as follows. The total is \\(n=44\\). Find the missing frequency \\(x\\).<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Age</th><td>\\([30;\\,40)\\)</td><td>\\([40;\\,50)\\)</td><td>\\([50;\\,60)\\)</td><td>\\([60;\\,70)\\)</td><td class=\"mbl-freq-tot\">Total</td></tr><tr><th scope=\"row\">Employees</th><td>\\(x\\)</td><td>\\(17\\)</td><td>\\(10\\)</td><td>\\(10\\)</td><td class=\"mbl-freq-tot\">\\(n=44\\)</td></tr></tbody></table></div>",
+   "vi": "Tuổi của các nhân viên một công ty được ghép nhóm như sau. Tổng số là \\(n=44\\). Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">tần số</b> \\(x\\) còn thiếu.<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Tuổi</th><td>\\([30;\\,40)\\)</td><td>\\([40;\\,50)\\)</td><td>\\([50;\\,60)\\)</td><td>\\([60;\\,70)\\)</td><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\">Số nhân viên</th><td>\\(x\\)</td><td>\\(17\\)</td><td>\\(10\\)</td><td>\\(10\\)</td><td class=\"mbl-freq-tot\">\\(n=44\\)</td></tr></tbody></table></div>",
+   "options": [],
+   "answer": "7",
+   "explain_en": "\\(x=44-(17+10+10)=7\\).",
+   "explain_vi": "\\(x=44-(17+10+10)=7\\).",
+   "images": [],
+   "id": "3c78de7b5789",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "The heights of the students in a class were measured and grouped as follows. What percentage of the students are shorter than # cm? (Enter the number without %.)Height (cm)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)TotalStudents\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(n=#\\)",
+   "en": "The heights of the students in a class were measured and grouped as follows. What percentage of the students are shorter than 165 cm? (Enter the number without %.)<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Height (cm)</th><td>\\([150;\\,155)\\)</td><td>\\([155;\\,160)\\)</td><td>\\([160;\\,165)\\)</td><td>\\([165;\\,170)\\)</td><td class=\"mbl-freq-tot\">Total</td></tr><tr><th scope=\"row\">Students</th><td>\\(9\\)</td><td>\\(12\\)</td><td>\\(15\\)</td><td>\\(14\\)</td><td class=\"mbl-freq-tot\">\\(n=50\\)</td></tr></tbody></table></div>",
+   "vi": "Đo <b class=\"mbl-term\" tabindex=\"0\" data-en=\"height\">chiều cao</b> của các học sinh một lớp rồi ghép <b class=\"mbl-term\" tabindex=\"0\" data-en=\"group (class)\">nhóm số liệu</b> như sau. Bao nhiêu phần trăm số học sinh cao dưới 165 cm? (Chỉ nhập số, không nhập dấu %.)<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\"><b class=\"mbl-term\" tabindex=\"0\" data-en=\"height\">Chiều cao</b> (cm)</th><td>\\([150;\\,155)\\)</td><td>\\([155;\\,160)\\)</td><td>\\([160;\\,165)\\)</td><td>\\([165;\\,170)\\)</td><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\">Số học sinh</th><td>\\(9\\)</td><td>\\(12\\)</td><td>\\(15\\)</td><td>\\(14\\)</td><td class=\"mbl-freq-tot\">\\(n=50\\)</td></tr></tbody></table></div>",
+   "options": [],
+   "answer": "72",
+   "explain_en": "\\(\\dfrac{36}{50}\\cdot100\\%=72\\%\\).",
+   "explain_vi": "\\(\\dfrac{36}{50}\\cdot100\\%=72\\%\\).",
+   "images": [],
+   "id": "378013944c8b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "A bank recorded how long its customers waited before being served. The data are grouped again with groups twice as wide, starting at #. What is the frequency of the new group \\([#;\\,#)\\)?Waiting (min)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)TotalCustomers\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(n=#\\)",
+   "en": "A bank recorded how long its customers waited before being served. The data are grouped again with groups twice as wide, starting at 0. What is the frequency of the new group \\([10;\\,20)\\)?<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Waiting (min)</th><td>\\([0;\\,5)\\)</td><td>\\([5;\\,10)\\)</td><td>\\([10;\\,15)\\)</td><td>\\([15;\\,20)\\)</td><td class=\"mbl-freq-tot\">Total</td></tr><tr><th scope=\"row\">Customers</th><td>\\(11\\)</td><td>\\(6\\)</td><td>\\(7\\)</td><td>\\(8\\)</td><td class=\"mbl-freq-tot\">\\(n=32\\)</td></tr></tbody></table></div>",
+   "vi": "Một ngân hàng ghi lại thời gian khách hàng chờ đến lượt phục vụ. Ghép nhóm lại với độ rộng gấp đôi, bắt đầu từ 0. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">Tần số</b> của nhóm mới \\([10;\\,20)\\) là bao nhiêu?<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Thời gian chờ (phút)</th><td>\\([0;\\,5)\\)</td><td>\\([5;\\,10)\\)</td><td>\\([10;\\,15)\\)</td><td>\\([15;\\,20)\\)</td><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\">Số khách hàng</th><td>\\(11\\)</td><td>\\(6\\)</td><td>\\(7\\)</td><td>\\(8\\)</td><td class=\"mbl-freq-tot\">\\(n=32\\)</td></tr></tbody></table></div>",
+   "options": [
+    "\\(17\\)",
+    "\\(8\\)",
+    "\\(15\\)",
+    "\\(7\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The new group joins \\([10;\\,15)\\) and \\([15;\\,20)\\): \\(7+8=15\\).",
+   "explain_vi": "Đáp án c. Nhóm mới gộp \\([10;\\,15)\\) và \\([15;\\,20)\\): \\(7+8=15\\).",
+   "images": [],
+   "id": "082274dc09de",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "A factory tested the lifetime of a sample of light bulbs. The histogram shows the grouped data. How many bulbs are there in total?",
+   "en": "A factory tested the lifetime of a sample of light bulbs. The histogram shows the grouped data. How many bulbs are there in total?<img src=\"../../../img/tex/d7d734a0cdc8fdbd.svg\" alt=\"Histogram\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,380px);height:auto\">",
+   "vi": "Một nhà máy kiểm tra tuổi thọ của một mẫu bóng đèn. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency chart\">Biểu đồ tần số</b> biểu diễn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"grouped data\">mẫu số liệu ghép nhóm</b>. Có tất cả bao nhiêu bóng đèn?<img src=\"../../../img/tex/c8b7ce10ecaba346.svg\" alt=\"Biểu đồ tần số\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,380px);height:auto\">",
+   "options": [
+    "\\(24\\)",
+    "\\(30\\)",
+    "\\(37\\)",
+    "\\(40\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Add the heights of all the bars: \\(6+10+7+7=30\\).",
+   "explain_vi": "Đáp án b. Cộng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"height\">chiều cao</b> của tất cả các cột: \\(6+10+7+7=30\\).",
+   "images": [
+    "img/tex/c8b7ce10ecaba346.svg",
+    "img/tex/d7d734a0cdc8fdbd.svg"
+   ],
+   "id": "300085569356",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "A school surveyed how long its students need to travel from home to school. The table gives the relative frequencies of a sample of \\(#\\) students. How many students are in the group \\([#;\\,#)\\)?Time (min)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)TotalRelative frequency\\(#\\%\\)\\(x\\)\\(#\\%\\)\\(#\\%\\)\\(#\\%\\)",
+   "en": "A school surveyed how long its students need to travel from home to school. The table gives the relative frequencies of a sample of \\(20\\) students. How many students are in the group \\([10;\\,15)\\)?<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Time (min)</th><td>\\([5;\\,10)\\)</td><td>\\([10;\\,15)\\)</td><td>\\([15;\\,20)\\)</td><td>\\([20;\\,25)\\)</td><td class=\"mbl-freq-tot\">Total</td></tr><tr><th scope=\"row\">Relative frequency</th><td>\\(40\\%\\)</td><td>\\(x\\)</td><td>\\(30\\%\\)</td><td>\\(15\\%\\)</td><td class=\"mbl-freq-tot\">\\(100\\%\\)</td></tr></tbody></table></div>",
+   "vi": "Nhà trường khảo sát thời gian đi từ nhà đến trường của học sinh. Bảng cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"relative frequency\">tần số tương đối</b> của một mẫu gồm \\(20\\) học sinh. Nhóm \\([10;\\,15)\\) có bao nhiêu học sinh?<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Thời gian (phút)</th><td>\\([5;\\,10)\\)</td><td>\\([10;\\,15)\\)</td><td>\\([15;\\,20)\\)</td><td>\\([20;\\,25)\\)</td><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\"><b class=\"mbl-term\" tabindex=\"0\" data-en=\"relative frequency\">Tần số tương đối</b></th><td>\\(40\\%\\)</td><td>\\(x\\)</td><td>\\(30\\%\\)</td><td>\\(15\\%\\)</td><td class=\"mbl-freq-tot\">\\(100\\%\\)</td></tr></tbody></table></div>",
+   "options": [
+    "\\(15\\)",
+    "\\(16\\)",
+    "\\(3\\)",
+    "\\(4\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(x=100\\%-(\\text{other groups})=15\\%\\), so the frequency is \\(15\\%\\cdot20=3\\).",
+   "explain_vi": "Đáp án c. \\(x=100\\%-(\\text{các nhóm còn lại})=15\\%\\) nên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">tần số</b> là \\(15\\%\\cdot20=3\\).",
+   "images": [],
+   "id": "acbe991c83e8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "A student grouped the score of some students as \\([#;\\,#),\\ [#;\\,#),\\ [#;\\,#),\\ [#;\\,#)\\). What is wrong with this grouping?",
+   "en": "A student grouped the score of some students as \\([20;\\,25),\\ [25;\\,30),\\ [30;\\,40),\\ [40;\\,45)\\). What is wrong with this grouping?",
+   "vi": "Một bạn ghép nhóm điểm số của một số học sinh thành \\([20;\\,25),\\ [25;\\,30),\\ [30;\\,40),\\ [40;\\,45)\\). Cách ghép nhóm này sai ở đâu?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">Values between 24 and 25 belong to no group.</span><span class=\"vi\">Các giá trị nằm giữa 24 và 25 không thuộc nhóm nào.</span></span>",
+    "<span class=\"txi\"><span class=\"en\">There are too few groups.</span><span class=\"vi\">Số nhóm quá ít.</span></span>",
+    "<span class=\"txi\"><span class=\"en\">The value 25 belongs to two groups.</span><span class=\"vi\">Giá trị 25 thuộc hai nhóm.</span></span>",
+    "<span class=\"txi\"><span class=\"en\">The groups do not all have the same width.</span><span class=\"vi\">Các nhóm không cùng độ rộng.</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. The third group is twice as wide as the others.",
+   "explain_vi": "Đáp án d. Nhóm thứ ba rộng gấp đôi các nhóm còn lại.",
+   "images": [],
+   "id": "315fd6762d03",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "An electricity company recorded the monthly electricity use of households in a street. Based on the histogram, the relative frequency of the group \\([#;\\,#)\\) is…",
+   "en": "An electricity company recorded the monthly electricity use of households in a street. Based on the histogram, the relative frequency of the group \\([250;\\,300)\\) is…<img src=\"../../../img/tex/7b492c6db1c6568f.svg\" alt=\"Histogram\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,380px);height:auto\">",
+   "vi": "Công ty điện lực ghi lại lượng điện tiêu thụ hằng tháng của các hộ gia đình một con phố. Dựa vào <b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency chart\">biểu đồ tần số</b>, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"relative frequency\">tần số tương đối</b> của nhóm \\([250;\\,300)\\) là…<img src=\"../../../img/tex/6f27be8bad382850.svg\" alt=\"Biểu đồ tần số\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,380px);height:auto\">",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(3\\%\\)</span><span class=\"vi\">\\(3\\%\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(15\\%\\)</span><span class=\"vi\">\\(15\\%\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(\\dfrac{300}{23}\\%\\)</span><span class=\"vi\">\\(\\dfrac{300}{23}\\%\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(20\\%\\)</span><span class=\"vi\">\\(20\\%\\)</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\dfrac{3}{20}\\cdot100\\%=15\\%\\).",
+   "explain_vi": "Đáp án b. \\(\\dfrac{3}{20}\\cdot100\\%=15\\%\\).",
+   "images": [
+    "img/tex/6f27be8bad382850.svg",
+    "img/tex/7b492c6db1c6568f.svg"
+   ],
+   "id": "968adfc1721f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The mass values (g) of # eggs were recorded: \\(#;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #\\). The data are put into the groups \\([#;\\,#),\\ [#;\\,#),\\ [#;\\,#)\\). What is the frequency of the group \\([#;\\,#)\\)?",
+   "en": "The mass values (g) of 7 eggs were recorded: \\(55;\\ 50;\\ 49;\\ 49;\\ 50;\\ 55;\\ 50\\). The data are put into the groups \\([45;\\,50),\\ [50;\\,55),\\ [55;\\,60)\\). What is the frequency of the group \\([45;\\,50)\\)?",
+   "vi": "Ghi lại khối lượng (g) của 7 quả trứng: \\(55;\\ 50;\\ 49;\\ 49;\\ 50;\\ 55;\\ 50\\). Chia số liệu vào các nhóm \\([45;\\,50),\\ [50;\\,55),\\ [55;\\,60)\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">Tần số</b> của nhóm \\([45;\\,50)\\) là bao nhiêu?",
+   "options": [
+    "\\(3\\)",
+    "\\(5\\)",
+    "\\(2\\)",
+    "\\(1\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Count the values \\(v\\) with \\(45\\le v\\lt 50\\) (the value 50 belongs to the group starting at 50): \\(2\\).",
+   "explain_vi": "Đáp án c. Đếm các giá trị \\(v\\) với \\(45\\le v\\lt 50\\) (giá trị 50 thuộc nhóm bắt đầu từ 50): \\(2\\).",
+   "images": [],
+   "id": "5e3ac1fa65c0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The smallest monthly income of some workers is # million VND and the largest is # million VND. The data are grouped as \\([#;\\,#),\\ [#;\\,#),\\dots\\) (all groups of width #). How many groups are needed?",
+   "en": "The smallest monthly income of some workers is 11 million VND and the largest is 24 million VND. The data are grouped as \\([10;\\,12),\\ [12;\\,14),\\dots\\) (all groups of width 2). How many groups are needed?",
+   "vi": "Thu nhập hằng tháng nhỏ nhất của một số công nhân là 11 triệu đồng, lớn nhất là 24 triệu đồng. Ghép <b class=\"mbl-term\" tabindex=\"0\" data-en=\"group (class)\">nhóm số liệu</b> thành \\([10;\\,12),\\ [12;\\,14),\\dots\\) (các nhóm cùng độ rộng 2). Cần bao nhiêu nhóm?",
+   "options": [
+    "\\(6\\)",
+    "\\(8\\)",
+    "\\(9\\)",
+    "\\(7\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. The groups start at 10; the last group must contain 24: \\([24;\\,26)\\). That is \\(8\\) groups.",
+   "explain_vi": "Đáp án b. Các nhóm bắt đầu từ 10; nhóm cuối phải chứa 24: \\([24;\\,26)\\). Vậy cần \\(8\\) nhóm.",
+   "images": [],
+   "id": "5ee7445fd747",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The table shows the score of the students of two classes. Which class has a larger percentage of students who scored at least # points?Score\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)Class A\\(#\\)\\(#\\)\\(#\\)\\(#\\)Class B\\(#\\)\\(#\\)\\(#\\)\\(#\\)",
+   "en": "The table shows the score of the students of two classes. Which class has a larger percentage of students who scored at least 20 points?<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Score</th><td>\\([10;\\,15)\\)</td><td>\\([15;\\,20)\\)</td><td>\\([20;\\,25)\\)</td><td>\\([25;\\,30)\\)</td></tr><tr><th scope=\"row\">Class A</th><td>\\(2\\)</td><td>\\(11\\)</td><td>\\(12\\)</td><td>\\(7\\)</td></tr><tr><th scope=\"row\">Class B</th><td>\\(5\\)</td><td>\\(2\\)</td><td>\\(7\\)</td><td>\\(10\\)</td></tr></tbody></table></div>",
+   "vi": "Bảng cho điểm số của học sinh hai lớp. Lớp nào có tỉ lệ học sinh đạt từ 20 điểm trở lên cao hơn?<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Điểm</th><td>\\([10;\\,15)\\)</td><td>\\([15;\\,20)\\)</td><td>\\([20;\\,25)\\)</td><td>\\([25;\\,30)\\)</td></tr><tr><th scope=\"row\">Lớp A</th><td>\\(2\\)</td><td>\\(11\\)</td><td>\\(12\\)</td><td>\\(7\\)</td></tr><tr><th scope=\"row\">Lớp B</th><td>\\(5\\)</td><td>\\(2\\)</td><td>\\(7\\)</td><td>\\(10\\)</td></tr></tbody></table></div>",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">It cannot be determined</span><span class=\"vi\">Không so sánh được</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Class A</span><span class=\"vi\">Lớp A</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Class B</span><span class=\"vi\">Lớp B</span></span>",
+    "<span class=\"txi\"><span class=\"en\">The two percentages are equal</span><span class=\"vi\">Hai tỉ lệ bằng nhau</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Class A: \\(\\dfrac{19}{32}\\approx59.4\\%\\); class B: \\(\\dfrac{17}{24}\\approx70.8\\%\\). Compare percentages, not counts.",
+   "explain_vi": "Đáp án c. Lớp A: \\(\\dfrac{19}{32}\\approx59{,}4\\%\\); lớp B: \\(\\dfrac{17}{24}\\approx70{,}8\\%\\). Cần <b class=\"mbl-term\" tabindex=\"0\" data-en=\"compare\">so sánh</b> tỉ lệ, không <b class=\"mbl-term\" tabindex=\"0\" data-en=\"compare\">so sánh</b> số lượng.",
+   "images": [],
+   "id": "12ee712a4551",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "A bank recorded how long its customers waited before being served. What is the midpoint (representative value) of the group \\([#;\\,#)\\)?Waiting (min)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)TotalCustomers\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(n=#\\)",
+   "en": "A bank recorded how long its customers waited before being served. What is the midpoint (representative value) of the group \\([15;\\,20)\\)?<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Waiting (min)</th><td>\\([10;\\,15)\\)</td><td>\\([15;\\,20)\\)</td><td>\\([20;\\,25)\\)</td><td>\\([25;\\,30)\\)</td><td>\\([30;\\,35)\\)</td><td class=\"mbl-freq-tot\">Total</td></tr><tr><th scope=\"row\">Customers</th><td>\\(6\\)</td><td>\\(3\\)</td><td>\\(5\\)</td><td>\\(3\\)</td><td>\\(7\\)</td><td class=\"mbl-freq-tot\">\\(n=24\\)</td></tr></tbody></table></div>",
+   "vi": "Một ngân hàng ghi lại thời gian khách hàng chờ đến lượt phục vụ. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint (representative value)\">Giá trị đại diện</b> của nhóm \\([15;\\,20)\\) là bao nhiêu?<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Thời gian chờ (phút)</th><td>\\([10;\\,15)\\)</td><td>\\([15;\\,20)\\)</td><td>\\([20;\\,25)\\)</td><td>\\([25;\\,30)\\)</td><td>\\([30;\\,35)\\)</td><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\">Số khách hàng</th><td>\\(6\\)</td><td>\\(3\\)</td><td>\\(5\\)</td><td>\\(3\\)</td><td>\\(7\\)</td><td class=\"mbl-freq-tot\">\\(n=24\\)</td></tr></tbody></table></div>",
+   "options": [
+    "\\(15\\)",
+    "<span class=\"txi\"><span class=\"en\">\\(17.5\\)</span><span class=\"vi\">\\(17{,}5\\)</span></span>",
+    "\\(20\\)",
+    "<span class=\"txi\"><span class=\"en\">\\(2.5\\)</span><span class=\"vi\">\\(2{,}5\\)</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(x=\\dfrac{15+20}{2}=17.5\\).",
+   "explain_vi": "Đáp án b. \\(x=\\dfrac{15+20}{2}=17{,}5\\).",
+   "images": [],
+   "id": "eb6f5823025a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "The heights of the students in a class were measured and grouped as follows. How many students are shorter than # cm?Height (cm)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)TotalStudents\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(n=#\\)",
+   "en": "The heights of the students in a class were measured and grouped as follows. How many students are shorter than 175 cm?<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Height (cm)</th><td>\\([155;\\,165)\\)</td><td>\\([165;\\,175)\\)</td><td>\\([175;\\,185)\\)</td><td>\\([185;\\,195)\\)</td><td class=\"mbl-freq-tot\">Total</td></tr><tr><th scope=\"row\">Students</th><td>\\(3\\)</td><td>\\(7\\)</td><td>\\(4\\)</td><td>\\(6\\)</td><td class=\"mbl-freq-tot\">\\(n=20\\)</td></tr></tbody></table></div>",
+   "vi": "Đo <b class=\"mbl-term\" tabindex=\"0\" data-en=\"height\">chiều cao</b> của các học sinh một lớp rồi ghép <b class=\"mbl-term\" tabindex=\"0\" data-en=\"group (class)\">nhóm số liệu</b> như sau. Có bao nhiêu học sinh cao dưới 175 cm?<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\"><b class=\"mbl-term\" tabindex=\"0\" data-en=\"height\">Chiều cao</b> (cm)</th><td>\\([155;\\,165)\\)</td><td>\\([165;\\,175)\\)</td><td>\\([175;\\,185)\\)</td><td>\\([185;\\,195)\\)</td><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\">Số học sinh</th><td>\\(3\\)</td><td>\\(7\\)</td><td>\\(4\\)</td><td>\\(6\\)</td><td class=\"mbl-freq-tot\">\\(n=20\\)</td></tr></tbody></table></div>",
+   "options": [
+    "\\(14\\)",
+    "\\(10\\)",
+    "\\(3\\)",
+    "\\(7\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Add the frequencies of the groups before 175: \\(3+7=10\\).",
+   "explain_vi": "Đáp án b. Cộng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">tần số</b> các nhóm đứng trước mốc 175: \\(3+7=10\\).",
+   "images": [],
+   "id": "111837acac65",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "The monthly incomes (in million VND) of the workers in a workshop are grouped as follows. Which group has the highest frequency?Income\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)TotalWorkers\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(n=#\\)",
+   "en": "The monthly incomes (in million VND) of the workers in a workshop are grouped as follows. Which group has the highest frequency?<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Income</th><td>\\([8;\\,10)\\)</td><td>\\([10;\\,12)\\)</td><td>\\([12;\\,14)\\)</td><td>\\([14;\\,16)\\)</td><td class=\"mbl-freq-tot\">Total</td></tr><tr><th scope=\"row\">Workers</th><td>\\(6\\)</td><td>\\(9\\)</td><td>\\(6\\)</td><td>\\(3\\)</td><td class=\"mbl-freq-tot\">\\(n=24\\)</td></tr></tbody></table></div>",
+   "vi": "Thu nhập hằng tháng (triệu đồng) của công nhân một xưởng được ghép nhóm như sau. Nhóm nào có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">tần số</b> lớn nhất?<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Thu nhập (triệu đồng)</th><td>\\([8;\\,10)\\)</td><td>\\([10;\\,12)\\)</td><td>\\([12;\\,14)\\)</td><td>\\([14;\\,16)\\)</td><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\">Số công nhân</th><td>\\(6\\)</td><td>\\(9\\)</td><td>\\(6\\)</td><td>\\(3\\)</td><td class=\"mbl-freq-tot\">\\(n=24\\)</td></tr></tbody></table></div>",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\([14;\\,16)\\)</span><span class=\"vi\">\\([14;\\,16)\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\([12;\\,14)\\)</span><span class=\"vi\">\\([12;\\,14)\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\([10;\\,12)\\)</span><span class=\"vi\">\\([10;\\,12)\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\([8;\\,10)\\)</span><span class=\"vi\">\\([8;\\,10)\\)</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The largest frequency is \\(9\\), in the group \\([10;\\,12)\\).",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">Tần số</b> lớn nhất là \\(9\\), ở nhóm \\([10;\\,12)\\).",
+   "images": [],
+   "id": "07d1a726b9a4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "A school surveyed how long its students need to travel from home to school. A student with a travel time of exactly # minutes is counted in the group \\([#;\\,#)\\).Time (min)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)TotalStudents\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(n=#\\)",
+   "en": "A school surveyed how long its students need to travel from home to school. A student with a travel time of exactly 10 minutes is counted in the group \\([5;\\,10)\\).<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Time (min)</th><td>\\([5;\\,10)\\)</td><td>\\([10;\\,15)\\)</td><td>\\([15;\\,20)\\)</td><td>\\([20;\\,25)\\)</td><td class=\"mbl-freq-tot\">Total</td></tr><tr><th scope=\"row\">Students</th><td>\\(4\\)</td><td>\\(4\\)</td><td>\\(8\\)</td><td>\\(4\\)</td><td class=\"mbl-freq-tot\">\\(n=20\\)</td></tr></tbody></table></div>",
+   "vi": "Nhà trường khảo sát thời gian đi từ nhà đến trường của học sinh. Một học sinh có thời gian đi học đúng bằng 10 phút được xếp vào nhóm \\([5;\\,10)\\).<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Thời gian (phút)</th><td>\\([5;\\,10)\\)</td><td>\\([10;\\,15)\\)</td><td>\\([15;\\,20)\\)</td><td>\\([20;\\,25)\\)</td><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\">Số học sinh</th><td>\\(4\\)</td><td>\\(4\\)</td><td>\\(8\\)</td><td>\\(4\\)</td><td class=\"mbl-freq-tot\">\\(n=20\\)</td></tr></tbody></table></div>",
+   "options": [],
+   "answer": "false",
+   "explain_en": "In \\([a;\\,b)\\) the left end belongs to the group and the right end does not, so 10 goes to \\([10;\\,15)\\).",
+   "explain_vi": "Trong nhóm \\([a;\\,b)\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"endpoint\">đầu mút</b> trái thuộc nhóm, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"endpoint\">đầu mút</b> phải thì không; nên 10 thuộc nhóm \\([10;\\,15)\\).",
+   "images": [],
+   "id": "0b6589e6701a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "A survey asked teenagers how long they use a phone each day. Exactly \\(#\\%\\) of the teenagers use a phone for at least # minutes a day.Time (min)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)TotalTeenagers\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(n=#\\)",
+   "en": "A survey asked teenagers how long they use a phone each day. Exactly \\(17.5\\%\\) of the teenagers use a phone for at least 90 minutes a day.<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Time (min)</th><td>\\([60;\\,90)\\)</td><td>\\([90;\\,120)\\)</td><td>\\([120;\\,150)\\)</td><td>\\([150;\\,180)\\)</td><td class=\"mbl-freq-tot\">Total</td></tr><tr><th scope=\"row\">Teenagers</th><td>\\(7\\)</td><td>\\(11\\)</td><td>\\(12\\)</td><td>\\(10\\)</td><td class=\"mbl-freq-tot\">\\(n=40\\)</td></tr></tbody></table></div>",
+   "vi": "Khảo sát thời gian dùng điện thoại mỗi ngày của học sinh. Có đúng \\(17{,}5\\%\\) số học sinh dùng điện thoại từ 90 phút mỗi ngày trở lên.<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Thời gian (phút)</th><td>\\([60;\\,90)\\)</td><td>\\([90;\\,120)\\)</td><td>\\([120;\\,150)\\)</td><td>\\([150;\\,180)\\)</td><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\">Số học sinh</th><td>\\(7\\)</td><td>\\(11\\)</td><td>\\(12\\)</td><td>\\(10\\)</td><td class=\"mbl-freq-tot\">\\(n=40\\)</td></tr></tbody></table></div>",
+   "options": [],
+   "answer": "false",
+   "explain_en": "\\(\\dfrac{33}{40}\\cdot100\\%=82.5\\%\\).",
+   "explain_vi": "\\(\\dfrac{33}{40}\\cdot100\\%=82{,}5\\%\\).",
+   "images": [],
+   "id": "afaae0b7a112",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "A factory tested the lifetime of a sample of light bulbs. The total is \\(n=#\\). Find the missing frequency \\(x\\).Lifetime (h)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)TotalBulbs\\(#\\)\\(#\\)\\(#\\)\\(x\\)\\(n=#\\)",
+   "en": "A factory tested the lifetime of a sample of light bulbs. The total is \\(n=28\\). Find the missing frequency \\(x\\).<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Lifetime (h)</th><td>\\([1400;\\,1600)\\)</td><td>\\([1600;\\,1800)\\)</td><td>\\([1800;\\,2000)\\)</td><td>\\([2000;\\,2200)\\)</td><td class=\"mbl-freq-tot\">Total</td></tr><tr><th scope=\"row\">Bulbs</th><td>\\(6\\)</td><td>\\(9\\)</td><td>\\(7\\)</td><td>\\(x\\)</td><td class=\"mbl-freq-tot\">\\(n=28\\)</td></tr></tbody></table></div>",
+   "vi": "Một nhà máy kiểm tra tuổi thọ của một mẫu bóng đèn. Tổng số là \\(n=28\\). Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">tần số</b> \\(x\\) còn thiếu.<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Tuổi thọ (giờ)</th><td>\\([1400;\\,1600)\\)</td><td>\\([1600;\\,1800)\\)</td><td>\\([1800;\\,2000)\\)</td><td>\\([2000;\\,2200)\\)</td><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\">Số bóng đèn</th><td>\\(6\\)</td><td>\\(9\\)</td><td>\\(7\\)</td><td>\\(x\\)</td><td class=\"mbl-freq-tot\">\\(n=28\\)</td></tr></tbody></table></div>",
+   "options": [],
+   "answer": "6",
+   "explain_en": "\\(x=28-(6+9+7)=6\\).",
+   "explain_vi": "\\(x=28-(6+9+7)=6\\).",
+   "images": [],
+   "id": "bb0853b36566",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "A farm weighed a sample of eggs before packing them. What percentage of the eggs weigh less than # g? (Enter the number without %.)Mass (g)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)TotalEggs\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(n=#\\)",
+   "en": "A farm weighed a sample of eggs before packing them. What percentage of the eggs weigh less than 60 g? (Enter the number without %.)<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Mass (g)</th><td>\\([45;\\,50)\\)</td><td>\\([50;\\,55)\\)</td><td>\\([55;\\,60)\\)</td><td>\\([60;\\,65)\\)</td><td class=\"mbl-freq-tot\">Total</td></tr><tr><th scope=\"row\">Eggs</th><td>\\(3\\)</td><td>\\(5\\)</td><td>\\(3\\)</td><td>\\(9\\)</td><td class=\"mbl-freq-tot\">\\(n=20\\)</td></tr></tbody></table></div>",
+   "vi": "Một trang trại cân mẫu các quả trứng trước khi đóng gói. Bao nhiêu phần trăm số quả trứng nặng dưới 60 g? (Chỉ nhập số, không nhập dấu %.)<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Khối lượng (g)</th><td>\\([45;\\,50)\\)</td><td>\\([50;\\,55)\\)</td><td>\\([55;\\,60)\\)</td><td>\\([60;\\,65)\\)</td><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\">Số quả trứng</th><td>\\(3\\)</td><td>\\(5\\)</td><td>\\(3\\)</td><td>\\(9\\)</td><td class=\"mbl-freq-tot\">\\(n=20\\)</td></tr></tbody></table></div>",
+   "options": [],
+   "answer": "55",
+   "explain_en": "\\(\\dfrac{11}{20}\\cdot100\\%=55\\%\\).",
+   "explain_vi": "\\(\\dfrac{11}{20}\\cdot100\\%=55\\%\\).",
+   "images": [],
+   "id": "667dd177a9ff",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "A school surveyed how long its students need to travel from home to school. The data are grouped again with groups twice as wide, starting at #. What is the frequency of the new group \\([#;\\,#)\\)?Time (min)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)TotalStudents\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(n=#\\)",
+   "en": "A school surveyed how long its students need to travel from home to school. The data are grouped again with groups twice as wide, starting at 0. What is the frequency of the new group \\([10;\\,20)\\)?<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Time (min)</th><td>\\([0;\\,5)\\)</td><td>\\([5;\\,10)\\)</td><td>\\([10;\\,15)\\)</td><td>\\([15;\\,20)\\)</td><td class=\"mbl-freq-tot\">Total</td></tr><tr><th scope=\"row\">Students</th><td>\\(8\\)</td><td>\\(16\\)</td><td>\\(14\\)</td><td>\\(12\\)</td><td class=\"mbl-freq-tot\">\\(n=50\\)</td></tr></tbody></table></div>",
+   "vi": "Nhà trường khảo sát thời gian đi từ nhà đến trường của học sinh. Ghép nhóm lại với độ rộng gấp đôi, bắt đầu từ 0. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">Tần số</b> của nhóm mới \\([10;\\,20)\\) là bao nhiêu?<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Thời gian (phút)</th><td>\\([0;\\,5)\\)</td><td>\\([5;\\,10)\\)</td><td>\\([10;\\,15)\\)</td><td>\\([15;\\,20)\\)</td><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\">Số học sinh</th><td>\\(8\\)</td><td>\\(16\\)</td><td>\\(14\\)</td><td>\\(12\\)</td><td class=\"mbl-freq-tot\">\\(n=50\\)</td></tr></tbody></table></div>",
+   "options": [
+    "\\(28\\)",
+    "\\(12\\)",
+    "\\(26\\)",
+    "\\(14\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The new group joins \\([10;\\,15)\\) and \\([15;\\,20)\\): \\(14+12=26\\).",
+   "explain_vi": "Đáp án c. Nhóm mới gộp \\([10;\\,15)\\) và \\([15;\\,20)\\): \\(14+12=26\\).",
+   "images": [],
+   "id": "d7156c3650f9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "A student grouped the waiting time of some customers as \\([#;\\,#],\\ [#;\\,#],\\ [#;\\,#],\\ [#;\\,#]\\). What is wrong with this grouping?",
+   "en": "A student grouped the waiting time of some customers as \\([10;\\,15],\\ [15;\\,20],\\ [20;\\,25],\\ [25;\\,30]\\). What is wrong with this grouping?",
+   "vi": "Một bạn ghép nhóm thời gian chờ của một số khách hàng thành \\([10;\\,15],\\ [15;\\,20],\\ [20;\\,25],\\ [25;\\,30]\\). Cách ghép nhóm này sai ở đâu?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">There are too few groups.</span><span class=\"vi\">Số nhóm quá ít.</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Values between 14 and 15 belong to no group.</span><span class=\"vi\">Các giá trị nằm giữa 14 và 15 không thuộc nhóm nào.</span></span>",
+    "<span class=\"txi\"><span class=\"en\">The groups do not all have the same width.</span><span class=\"vi\">Các nhóm không cùng độ rộng.</span></span>",
+    "<span class=\"txi\"><span class=\"en\">The value 15 belongs to two groups.</span><span class=\"vi\">Giá trị 15 thuộc hai nhóm.</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. The closed groups share their ends, e.g. 15 is in two groups.",
+   "explain_vi": "Đáp án d. Các nhóm đóng có chung <b class=\"mbl-term\" tabindex=\"0\" data-en=\"endpoint\">đầu mút</b>, chẳng hạn 15 thuộc hai nhóm.",
+   "images": [],
+   "id": "e3fa945c5ed5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "An electricity company recorded the monthly electricity use of households in a street. The histogram shows the grouped data. How many households are there in total?",
+   "en": "An electricity company recorded the monthly electricity use of households in a street. The histogram shows the grouped data. How many households are there in total?<img src=\"../../../img/tex/433b35e4279217a1.svg\" alt=\"Histogram\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,380px);height:auto\">",
+   "vi": "Công ty điện lực ghi lại lượng điện tiêu thụ hằng tháng của các hộ gia đình một con phố. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency chart\">Biểu đồ tần số</b> biểu diễn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"grouped data\">mẫu số liệu ghép nhóm</b>. Có tất cả bao nhiêu hộ gia đình?<img src=\"../../../img/tex/f9eae03ba738aee5.svg\" alt=\"Biểu đồ tần số\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,380px);height:auto\">",
+   "options": [
+    "\\(60\\)",
+    "\\(56\\)",
+    "\\(44\\)",
+    "\\(38\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Add the heights of all the bars: \\(6+11+11+4+12=44\\).",
+   "explain_vi": "Đáp án c. Cộng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"height\">chiều cao</b> của tất cả các cột: \\(6+11+11+4+12=44\\).",
+   "images": [
+    "img/tex/433b35e4279217a1.svg",
+    "img/tex/f9eae03ba738aee5.svg"
+   ],
+   "id": "d4c828f4a82b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The heights of the students in a class were measured and grouped as follows. The table gives the relative frequencies of a sample of \\(#\\) students. How many students are in the group \\([#;\\,#)\\)?Height (cm)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)TotalRelative frequency\\(#\\%\\)\\(x\\)\\(#\\%\\)\\(#\\%\\)\\(#\\%\\)",
+   "en": "The heights of the students in a class were measured and grouped as follows. The table gives the relative frequencies of a sample of \\(50\\) students. How many students are in the group \\([150;\\,160)\\)?<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Height (cm)</th><td>\\([140;\\,150)\\)</td><td>\\([150;\\,160)\\)</td><td>\\([160;\\,170)\\)</td><td>\\([170;\\,180)\\)</td><td class=\"mbl-freq-tot\">Total</td></tr><tr><th scope=\"row\">Relative frequency</th><td>\\(18\\%\\)</td><td>\\(x\\)</td><td>\\(16\\%\\)</td><td>\\(46\\%\\)</td><td class=\"mbl-freq-tot\">\\(100\\%\\)</td></tr></tbody></table></div>",
+   "vi": "Đo <b class=\"mbl-term\" tabindex=\"0\" data-en=\"height\">chiều cao</b> của các học sinh một lớp rồi ghép <b class=\"mbl-term\" tabindex=\"0\" data-en=\"group (class)\">nhóm số liệu</b> như sau. Bảng cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"relative frequency\">tần số tương đối</b> của một mẫu gồm \\(50\\) học sinh. Nhóm \\([150;\\,160)\\) có bao nhiêu học sinh?<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\"><b class=\"mbl-term\" tabindex=\"0\" data-en=\"height\">Chiều cao</b> (cm)</th><td>\\([140;\\,150)\\)</td><td>\\([150;\\,160)\\)</td><td>\\([160;\\,170)\\)</td><td>\\([170;\\,180)\\)</td><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\"><b class=\"mbl-term\" tabindex=\"0\" data-en=\"relative frequency\">Tần số tương đối</b></th><td>\\(18\\%\\)</td><td>\\(x\\)</td><td>\\(16\\%\\)</td><td>\\(46\\%\\)</td><td class=\"mbl-freq-tot\">\\(100\\%\\)</td></tr></tbody></table></div>",
+   "options": [
+    "\\(11\\)",
+    "\\(10\\)",
+    "\\(20\\)",
+    "\\(21\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(x=100\\%-(\\text{other groups})=20\\%\\), so the frequency is \\(20\\%\\cdot50=10\\).",
+   "explain_vi": "Đáp án b. \\(x=100\\%-(\\text{các nhóm còn lại})=20\\%\\) nên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">tần số</b> là \\(20\\%\\cdot50=10\\).",
+   "images": [],
+   "id": "f749cf3b6142",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The monthly incomes (in million VND) of the workers in a workshop are grouped as follows. Based on the histogram, the relative frequency of the group \\([#;\\,#)\\) is…",
+   "en": "The monthly incomes (in million VND) of the workers in a workshop are grouped as follows. Based on the histogram, the relative frequency of the group \\([12;\\,14)\\) is…<img src=\"../../../img/tex/dbca3580feff9ea5.svg\" alt=\"Histogram\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,380px);height:auto\">",
+   "vi": "Thu nhập hằng tháng (triệu đồng) của công nhân một xưởng được ghép nhóm như sau. Dựa vào <b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency chart\">biểu đồ tần số</b>, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"relative frequency\">tần số tương đối</b> của nhóm \\([12;\\,14)\\) là…<img src=\"../../../img/tex/37bac97a8de2ce55.svg\" alt=\"Biểu đồ tần số\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,380px);height:auto\">",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(4\\%\\)</span><span class=\"vi\">\\(4\\%\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(\\dfrac{400}{29}\\%\\)</span><span class=\"vi\">\\(\\dfrac{400}{29}\\%\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(16\\%\\)</span><span class=\"vi\">\\(16\\%\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(21\\%\\)</span><span class=\"vi\">\\(21\\%\\)</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\dfrac{4}{25}\\cdot100\\%=16\\%\\).",
+   "explain_vi": "Đáp án c. \\(\\dfrac{4}{25}\\cdot100\\%=16\\%\\).",
+   "images": [
+    "img/tex/37bac97a8de2ce55.svg",
+    "img/tex/dbca3580feff9ea5.svg"
+   ],
+   "id": "d1c9ec8a7acb",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The score values (points) of # students were recorded: \\(#;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #\\). The data are put into the groups \\([#;\\,#),\\ [#;\\,#),\\ [#;\\,#)\\). What is the frequency of the group \\([#;\\,#)\\)?",
+   "en": "The score values (points) of 9 students were recorded: \\(26;\\ 30;\\ 25;\\ 29;\\ 29;\\ 31;\\ 31;\\ 23;\\ 22\\). The data are put into the groups \\([20;\\,25),\\ [25;\\,30),\\ [30;\\,35)\\). What is the frequency of the group \\([30;\\,35)\\)?",
+   "vi": "Ghi lại điểm số (điểm) của 9 học sinh: \\(26;\\ 30;\\ 25;\\ 29;\\ 29;\\ 31;\\ 31;\\ 23;\\ 22\\). Chia số liệu vào các nhóm \\([20;\\,25),\\ [25;\\,30),\\ [30;\\,35)\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">Tần số</b> của nhóm \\([30;\\,35)\\) là bao nhiêu?",
+   "options": [
+    "\\(3\\)",
+    "\\(2\\)",
+    "\\(5\\)",
+    "\\(4\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Count the values \\(v\\) with \\(30\\le v\\lt 35\\) (the value 30 belongs to the group starting at 30): \\(3\\).",
+   "explain_vi": "Đáp án a. Đếm các giá trị \\(v\\) với \\(30\\le v\\lt 35\\) (giá trị 30 thuộc nhóm bắt đầu từ 30): \\(3\\).",
+   "images": [],
+   "id": "922ef3112523",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The smallest age of some employees is # years and the largest is # years. The data are grouped as \\([#;\\,#),\\ [#;\\,#),\\dots\\) (all groups of width #). How many groups are needed?",
+   "en": "The smallest age of some employees is 32 years and the largest is 63 years. The data are grouped as \\([30;\\,35),\\ [35;\\,40),\\dots\\) (all groups of width 5). How many groups are needed?",
+   "vi": "Tuổi nhỏ nhất của một số nhân viên là 32 tuổi, lớn nhất là 63 tuổi. Ghép <b class=\"mbl-term\" tabindex=\"0\" data-en=\"group (class)\">nhóm số liệu</b> thành \\([30;\\,35),\\ [35;\\,40),\\dots\\) (các nhóm cùng độ rộng 5). Cần bao nhiêu nhóm?",
+   "options": [
+    "\\(6\\)",
+    "\\(7\\)",
+    "\\(8\\)",
+    "\\(9\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. The groups start at 30; the last group must contain 63: \\([60;\\,65)\\). That is \\(7\\) groups.",
+   "explain_vi": "Đáp án b. Các nhóm bắt đầu từ 30; nhóm cuối phải chứa 63: \\([60;\\,65)\\). Vậy cần \\(7\\) nhóm.",
+   "images": [],
+   "id": "5f9278fb595e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The table shows the height of the students of two classes. Which class has a larger percentage of students who are at least # cm tall?Height (cm)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)Class A\\(#\\)\\(#\\)\\(#\\)\\(#\\)Class B\\(#\\)\\(#\\)\\(#\\)\\(#\\)",
+   "en": "The table shows the height of the students of two classes. Which class has a larger percentage of students who are at least 160 cm tall?<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Height (cm)</th><td>\\([150;\\,155)\\)</td><td>\\([155;\\,160)\\)</td><td>\\([160;\\,165)\\)</td><td>\\([165;\\,170)\\)</td></tr><tr><th scope=\"row\">Class A</th><td>\\(12\\)</td><td>\\(11\\)</td><td>\\(10\\)</td><td>\\(9\\)</td></tr><tr><th scope=\"row\">Class B</th><td>\\(4\\)</td><td>\\(6\\)</td><td>\\(12\\)</td><td>\\(2\\)</td></tr></tbody></table></div>",
+   "vi": "Bảng cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"height\">chiều cao</b> của học sinh hai lớp. Lớp nào có tỉ lệ học sinh cao từ 160 cm trở lên cao hơn?<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\"><b class=\"mbl-term\" tabindex=\"0\" data-en=\"height\">Chiều cao</b> (cm)</th><td>\\([150;\\,155)\\)</td><td>\\([155;\\,160)\\)</td><td>\\([160;\\,165)\\)</td><td>\\([165;\\,170)\\)</td></tr><tr><th scope=\"row\">Lớp A</th><td>\\(12\\)</td><td>\\(11\\)</td><td>\\(10\\)</td><td>\\(9\\)</td></tr><tr><th scope=\"row\">Lớp B</th><td>\\(4\\)</td><td>\\(6\\)</td><td>\\(12\\)</td><td>\\(2\\)</td></tr></tbody></table></div>",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">It cannot be determined</span><span class=\"vi\">Không so sánh được</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Class A</span><span class=\"vi\">Lớp A</span></span>",
+    "<span class=\"txi\"><span class=\"en\">The two percentages are equal</span><span class=\"vi\">Hai tỉ lệ bằng nhau</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Class B</span><span class=\"vi\">Lớp B</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Class A: \\(\\dfrac{19}{42}\\approx45.2\\%\\); class B: \\(\\dfrac{14}{24}\\approx58.3\\%\\). Compare percentages, not counts.",
+   "explain_vi": "Đáp án d. Lớp A: \\(\\dfrac{19}{42}\\approx45{,}2\\%\\); lớp B: \\(\\dfrac{14}{24}\\approx58{,}3\\%\\). Cần <b class=\"mbl-term\" tabindex=\"0\" data-en=\"compare\">so sánh</b> tỉ lệ, không <b class=\"mbl-term\" tabindex=\"0\" data-en=\"compare\">so sánh</b> số lượng.",
+   "images": [],
+   "id": "91cb2c0abd2b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "A farm weighed a sample of eggs before packing them. How many eggs weigh less than # g?Mass (g)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)TotalEggs\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(n=#\\)",
+   "en": "A farm weighed a sample of eggs before packing them. How many eggs weigh less than 60 g?<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Mass (g)</th><td>\\([45;\\,50)\\)</td><td>\\([50;\\,55)\\)</td><td>\\([55;\\,60)\\)</td><td>\\([60;\\,65)\\)</td><td>\\([65;\\,70)\\)</td><td class=\"mbl-freq-tot\">Total</td></tr><tr><th scope=\"row\">Eggs</th><td>\\(8\\)</td><td>\\(7\\)</td><td>\\(7\\)</td><td>\\(3\\)</td><td>\\(7\\)</td><td class=\"mbl-freq-tot\">\\(n=32\\)</td></tr></tbody></table></div>",
+   "vi": "Một trang trại cân mẫu các quả trứng trước khi đóng gói. Có bao nhiêu quả trứng nặng dưới 60 g?<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Khối lượng (g)</th><td>\\([45;\\,50)\\)</td><td>\\([50;\\,55)\\)</td><td>\\([55;\\,60)\\)</td><td>\\([60;\\,65)\\)</td><td>\\([65;\\,70)\\)</td><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\">Số quả trứng</th><td>\\(8\\)</td><td>\\(7\\)</td><td>\\(7\\)</td><td>\\(3\\)</td><td>\\(7\\)</td><td class=\"mbl-freq-tot\">\\(n=32\\)</td></tr></tbody></table></div>",
+   "options": [
+    "\\(25\\)",
+    "\\(22\\)",
+    "\\(15\\)",
+    "\\(7\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Add the frequencies of the groups before 60: \\(8+7+7=22\\).",
+   "explain_vi": "Đáp án b. Cộng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">tần số</b> các nhóm đứng trước mốc 60: \\(8+7+7=22\\).",
+   "images": [],
+   "id": "16d125e3710d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "A survey asked teenagers how long they use a phone each day. Which group has the highest frequency?Time (min)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)TotalTeenagers\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(n=#\\)",
+   "en": "A survey asked teenagers how long they use a phone each day. Which group has the highest frequency?<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Time (min)</th><td>\\([30;\\,60)\\)</td><td>\\([60;\\,90)\\)</td><td>\\([90;\\,120)\\)</td><td>\\([120;\\,150)\\)</td><td class=\"mbl-freq-tot\">Total</td></tr><tr><th scope=\"row\">Teenagers</th><td>\\(10\\)</td><td>\\(12\\)</td><td>\\(13\\)</td><td>\\(9\\)</td><td class=\"mbl-freq-tot\">\\(n=44\\)</td></tr></tbody></table></div>",
+   "vi": "Khảo sát thời gian dùng điện thoại mỗi ngày của học sinh. Nhóm nào có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">tần số</b> lớn nhất?<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Thời gian (phút)</th><td>\\([30;\\,60)\\)</td><td>\\([60;\\,90)\\)</td><td>\\([90;\\,120)\\)</td><td>\\([120;\\,150)\\)</td><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\">Số học sinh</th><td>\\(10\\)</td><td>\\(12\\)</td><td>\\(13\\)</td><td>\\(9\\)</td><td class=\"mbl-freq-tot\">\\(n=44\\)</td></tr></tbody></table></div>",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\([90;\\,120)\\)</span><span class=\"vi\">\\([90;\\,120)\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\([120;\\,150)\\)</span><span class=\"vi\">\\([120;\\,150)\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\([60;\\,90)\\)</span><span class=\"vi\">\\([60;\\,90)\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\([30;\\,60)\\)</span><span class=\"vi\">\\([30;\\,60)\\)</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. The largest frequency is \\(13\\), in the group \\([90;\\,120)\\).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">Tần số</b> lớn nhất là \\(13\\), ở nhóm \\([90;\\,120)\\).",
+   "images": [],
+   "id": "280a6e5decf6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "The ages of the employees of a company are grouped as follows. What is the midpoint (representative value) of the group \\([#;\\,#)\\)?Age\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)TotalEmployees\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(n=#\\)",
+   "en": "The ages of the employees of a company are grouped as follows. What is the midpoint (representative value) of the group \\([50;\\,60)\\)?<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Age</th><td>\\([20;\\,30)\\)</td><td>\\([30;\\,40)\\)</td><td>\\([40;\\,50)\\)</td><td>\\([50;\\,60)\\)</td><td class=\"mbl-freq-tot\">Total</td></tr><tr><th scope=\"row\">Employees</th><td>\\(7\\)</td><td>\\(5\\)</td><td>\\(6\\)</td><td>\\(12\\)</td><td class=\"mbl-freq-tot\">\\(n=30\\)</td></tr></tbody></table></div>",
+   "vi": "Tuổi của các nhân viên một công ty được ghép nhóm như sau. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint (representative value)\">Giá trị đại diện</b> của nhóm \\([50;\\,60)\\) là bao nhiêu?<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Tuổi</th><td>\\([20;\\,30)\\)</td><td>\\([30;\\,40)\\)</td><td>\\([40;\\,50)\\)</td><td>\\([50;\\,60)\\)</td><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\">Số nhân viên</th><td>\\(7\\)</td><td>\\(5\\)</td><td>\\(6\\)</td><td>\\(12\\)</td><td class=\"mbl-freq-tot\">\\(n=30\\)</td></tr></tbody></table></div>",
+   "options": [
+    "\\(50\\)",
+    "\\(60\\)",
+    "\\(5\\)",
+    "\\(55\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(x=\\dfrac{50+60}{2}=55\\).",
+   "explain_vi": "Đáp án d. \\(x=\\dfrac{50+60}{2}=55\\).",
+   "images": [],
+   "id": "4d23ad9b9bf0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "A factory tested the lifetime of a sample of light bulbs. A bulb with a lifetime of exactly # hours is counted in the group \\([#;\\,#)\\).Lifetime (h)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)TotalBulbs\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(n=#\\)",
+   "en": "A factory tested the lifetime of a sample of light bulbs. A bulb with a lifetime of exactly 1400 hours is counted in the group \\([1200;\\,1400)\\).<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Lifetime (h)</th><td>\\([1000;\\,1200)\\)</td><td>\\([1200;\\,1400)\\)</td><td>\\([1400;\\,1600)\\)</td><td>\\([1600;\\,1800)\\)</td><td class=\"mbl-freq-tot\">Total</td></tr><tr><th scope=\"row\">Bulbs</th><td>\\(3\\)</td><td>\\(9\\)</td><td>\\(4\\)</td><td>\\(4\\)</td><td class=\"mbl-freq-tot\">\\(n=20\\)</td></tr></tbody></table></div>",
+   "vi": "Một nhà máy kiểm tra tuổi thọ của một mẫu bóng đèn. Một bóng đèn có tuổi thọ đúng bằng 1400 giờ được xếp vào nhóm \\([1200;\\,1400)\\).<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Tuổi thọ (giờ)</th><td>\\([1000;\\,1200)\\)</td><td>\\([1200;\\,1400)\\)</td><td>\\([1400;\\,1600)\\)</td><td>\\([1600;\\,1800)\\)</td><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\">Số bóng đèn</th><td>\\(3\\)</td><td>\\(9\\)</td><td>\\(4\\)</td><td>\\(4\\)</td><td class=\"mbl-freq-tot\">\\(n=20\\)</td></tr></tbody></table></div>",
+   "options": [],
+   "answer": "false",
+   "explain_en": "In \\([a;\\,b)\\) the left end belongs to the group and the right end does not, so 1400 goes to \\([1400;\\,1600)\\).",
+   "explain_vi": "Trong nhóm \\([a;\\,b)\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"endpoint\">đầu mút</b> trái thuộc nhóm, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"endpoint\">đầu mút</b> phải thì không; nên 1400 thuộc nhóm \\([1400;\\,1600)\\).",
+   "images": [],
+   "id": "de27967c3f9b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "The heights of the students in a class were measured and grouped as follows. Exactly \\(#\\%\\) of the students are at least # cm tall.Height (cm)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)TotalStudents\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(n=#\\)",
+   "en": "The heights of the students in a class were measured and grouped as follows. Exactly \\(52\\%\\) of the students are at least 155 cm tall.<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Height (cm)</th><td>\\([140;\\,145)\\)</td><td>\\([145;\\,150)\\)</td><td>\\([150;\\,155)\\)</td><td>\\([155;\\,160)\\)</td><td class=\"mbl-freq-tot\">Total</td></tr><tr><th scope=\"row\">Students</th><td>\\(5\\)</td><td>\\(4\\)</td><td>\\(4\\)</td><td>\\(12\\)</td><td class=\"mbl-freq-tot\">\\(n=25\\)</td></tr></tbody></table></div>",
+   "vi": "Đo <b class=\"mbl-term\" tabindex=\"0\" data-en=\"height\">chiều cao</b> của các học sinh một lớp rồi ghép <b class=\"mbl-term\" tabindex=\"0\" data-en=\"group (class)\">nhóm số liệu</b> như sau. Có đúng \\(52\\%\\) số học sinh cao từ 155 cm trở lên.<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\"><b class=\"mbl-term\" tabindex=\"0\" data-en=\"height\">Chiều cao</b> (cm)</th><td>\\([140;\\,145)\\)</td><td>\\([145;\\,150)\\)</td><td>\\([150;\\,155)\\)</td><td>\\([155;\\,160)\\)</td><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\">Số học sinh</th><td>\\(5\\)</td><td>\\(4\\)</td><td>\\(4\\)</td><td>\\(12\\)</td><td class=\"mbl-freq-tot\">\\(n=25\\)</td></tr></tbody></table></div>",
+   "options": [],
+   "answer": "false",
+   "explain_en": "\\(\\dfrac{12}{25}\\cdot100\\%=48\\%\\).",
+   "explain_vi": "\\(\\dfrac{12}{25}\\cdot100\\%=48\\%\\).",
+   "images": [],
+   "id": "c4658a391849",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "An electricity company recorded the monthly electricity use of households in a street. What percentage of the households use less than # kWh a month? (Enter the number without %.)Electricity (kWh)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)TotalHouseholds\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(n=#\\)",
+   "en": "An electricity company recorded the monthly electricity use of households in a street. What percentage of the households use less than 300 kWh a month? (Enter the number without %.)<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Electricity (kWh)</th><td>\\([100;\\,150)\\)</td><td>\\([150;\\,200)\\)</td><td>\\([200;\\,250)\\)</td><td>\\([250;\\,300)\\)</td><td>\\([300;\\,350)\\)</td><td class=\"mbl-freq-tot\">Total</td></tr><tr><th scope=\"row\">Households</th><td>\\(8\\)</td><td>\\(4\\)</td><td>\\(5\\)</td><td>\\(5\\)</td><td>\\(3\\)</td><td class=\"mbl-freq-tot\">\\(n=25\\)</td></tr></tbody></table></div>",
+   "vi": "Công ty điện lực ghi lại lượng điện tiêu thụ hằng tháng của các hộ gia đình một con phố. Bao nhiêu phần trăm số hộ gia đình dùng dưới 300 kWh mỗi tháng? (Chỉ nhập số, không nhập dấu %.)<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Điện năng (kWh)</th><td>\\([100;\\,150)\\)</td><td>\\([150;\\,200)\\)</td><td>\\([200;\\,250)\\)</td><td>\\([250;\\,300)\\)</td><td>\\([300;\\,350)\\)</td><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\">Số hộ</th><td>\\(8\\)</td><td>\\(4\\)</td><td>\\(5\\)</td><td>\\(5\\)</td><td>\\(3\\)</td><td class=\"mbl-freq-tot\">\\(n=25\\)</td></tr></tbody></table></div>",
+   "options": [],
+   "answer": "88",
+   "explain_en": "\\(\\dfrac{22}{25}\\cdot100\\%=88\\%\\).",
+   "explain_vi": "\\(\\dfrac{22}{25}\\cdot100\\%=88\\%\\).",
+   "images": [],
+   "id": "8523d09dfe79",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "The monthly incomes (in million VND) of the workers in a workshop are grouped as follows. The total is \\(n=#\\). Find the missing frequency \\(x\\).Income\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)TotalWorkers\\(#\\)\\(#\\)\\(x\\)\\(#\\)\\(#\\)\\(n=#\\)",
+   "en": "The monthly incomes (in million VND) of the workers in a workshop are grouped as follows. The total is \\(n=44\\). Find the missing frequency \\(x\\).<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Income</th><td>\\([8;\\,10)\\)</td><td>\\([10;\\,12)\\)</td><td>\\([12;\\,14)\\)</td><td>\\([14;\\,16)\\)</td><td>\\([16;\\,18)\\)</td><td class=\"mbl-freq-tot\">Total</td></tr><tr><th scope=\"row\">Workers</th><td>\\(11\\)</td><td>\\(5\\)</td><td>\\(x\\)</td><td>\\(9\\)</td><td>\\(13\\)</td><td class=\"mbl-freq-tot\">\\(n=44\\)</td></tr></tbody></table></div>",
+   "vi": "Thu nhập hằng tháng (triệu đồng) của công nhân một xưởng được ghép nhóm như sau. Tổng số là \\(n=44\\). Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">tần số</b> \\(x\\) còn thiếu.<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Thu nhập (triệu đồng)</th><td>\\([8;\\,10)\\)</td><td>\\([10;\\,12)\\)</td><td>\\([12;\\,14)\\)</td><td>\\([14;\\,16)\\)</td><td>\\([16;\\,18)\\)</td><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\">Số công nhân</th><td>\\(11\\)</td><td>\\(5\\)</td><td>\\(x\\)</td><td>\\(9\\)</td><td>\\(13\\)</td><td class=\"mbl-freq-tot\">\\(n=44\\)</td></tr></tbody></table></div>",
+   "options": [],
+   "answer": "6",
+   "explain_en": "\\(x=44-(11+5+9+13)=6\\).",
+   "explain_vi": "\\(x=44-(11+5+9+13)=6\\).",
+   "images": [],
+   "id": "c23418e210e5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "A factory tested the lifetime of a sample of light bulbs. The data are grouped again with groups twice as wide, starting at #. What is the frequency of the new group \\([#;\\,#)\\)?Lifetime (h)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)TotalBulbs\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(n=#\\)",
+   "en": "A factory tested the lifetime of a sample of light bulbs. The data are grouped again with groups twice as wide, starting at 1200. What is the frequency of the new group \\([1600;\\,2000)\\)?<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Lifetime (h)</th><td>\\([1200;\\,1400)\\)</td><td>\\([1400;\\,1600)\\)</td><td>\\([1600;\\,1800)\\)</td><td>\\([1800;\\,2000)\\)</td><td class=\"mbl-freq-tot\">Total</td></tr><tr><th scope=\"row\">Bulbs</th><td>\\(3\\)</td><td>\\(4\\)</td><td>\\(4\\)</td><td>\\(9\\)</td><td class=\"mbl-freq-tot\">\\(n=20\\)</td></tr></tbody></table></div>",
+   "vi": "Một nhà máy kiểm tra tuổi thọ của một mẫu bóng đèn. Ghép nhóm lại với độ rộng gấp đôi, bắt đầu từ 1200. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">Tần số</b> của nhóm mới \\([1600;\\,2000)\\) là bao nhiêu?<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Tuổi thọ (giờ)</th><td>\\([1200;\\,1400)\\)</td><td>\\([1400;\\,1600)\\)</td><td>\\([1600;\\,1800)\\)</td><td>\\([1800;\\,2000)\\)</td><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\">Số bóng đèn</th><td>\\(3\\)</td><td>\\(4\\)</td><td>\\(4\\)</td><td>\\(9\\)</td><td class=\"mbl-freq-tot\">\\(n=20\\)</td></tr></tbody></table></div>",
+   "options": [
+    "\\(15\\)",
+    "\\(13\\)",
+    "\\(4\\)",
+    "\\(9\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. The new group joins \\([1600;\\,1800)\\) and \\([1800;\\,2000)\\): \\(4+9=13\\).",
+   "explain_vi": "Đáp án b. Nhóm mới gộp \\([1600;\\,1800)\\) và \\([1800;\\,2000)\\): \\(4+9=13\\).",
+   "images": [],
+   "id": "546d494c2da3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "A farm weighed a sample of eggs before packing them. The histogram shows the grouped data. How many eggs are there in total?",
+   "en": "A farm weighed a sample of eggs before packing them. The histogram shows the grouped data. How many eggs are there in total?<img src=\"../../../img/tex/7809f394fd9a7c43.svg\" alt=\"Histogram\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,380px);height:auto\">",
+   "vi": "Một trang trại cân mẫu các quả trứng trước khi đóng gói. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency chart\">Biểu đồ tần số</b> biểu diễn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"grouped data\">mẫu số liệu ghép nhóm</b>. Có tất cả bao nhiêu quả trứng?<img src=\"../../../img/tex/e48dbe88b94ffdf2.svg\" alt=\"Biểu đồ tần số\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,380px);height:auto\">",
+   "options": [
+    "\\(60\\)",
+    "\\(36\\)",
+    "\\(44\\)",
+    "\\(21\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Add the heights of all the bars: \\(15+6+7+8=36\\).",
+   "explain_vi": "Đáp án b. Cộng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"height\">chiều cao</b> của tất cả các cột: \\(15+6+7+8=36\\).",
+   "images": [
+    "img/tex/7809f394fd9a7c43.svg",
+    "img/tex/e48dbe88b94ffdf2.svg"
+   ],
+   "id": "51ca5d843254",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "A school surveyed how long its students need to travel from home to school. The table gives the relative frequencies of a sample of \\(#\\) students. How many students are in the group \\([#;\\,#)\\)?Time (min)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)TotalRelative frequency\\(#\\%\\)\\(x\\)\\(#\\%\\)\\(#\\%\\)\\(#\\%\\)",
+   "en": "A school surveyed how long its students need to travel from home to school. The table gives the relative frequencies of a sample of \\(50\\) students. How many students are in the group \\([10;\\,15)\\)?<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Time (min)</th><td>\\([5;\\,10)\\)</td><td>\\([10;\\,15)\\)</td><td>\\([15;\\,20)\\)</td><td>\\([20;\\,25)\\)</td><td class=\"mbl-freq-tot\">Total</td></tr><tr><th scope=\"row\">Relative frequency</th><td>\\(14\\%\\)</td><td>\\(x\\)</td><td>\\(16\\%\\)</td><td>\\(40\\%\\)</td><td class=\"mbl-freq-tot\">\\(100\\%\\)</td></tr></tbody></table></div>",
+   "vi": "Nhà trường khảo sát thời gian đi từ nhà đến trường của học sinh. Bảng cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"relative frequency\">tần số tương đối</b> của một mẫu gồm \\(50\\) học sinh. Nhóm \\([10;\\,15)\\) có bao nhiêu học sinh?<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Thời gian (phút)</th><td>\\([5;\\,10)\\)</td><td>\\([10;\\,15)\\)</td><td>\\([15;\\,20)\\)</td><td>\\([20;\\,25)\\)</td><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\"><b class=\"mbl-term\" tabindex=\"0\" data-en=\"relative frequency\">Tần số tương đối</b></th><td>\\(14\\%\\)</td><td>\\(x\\)</td><td>\\(16\\%\\)</td><td>\\(40\\%\\)</td><td class=\"mbl-freq-tot\">\\(100\\%\\)</td></tr></tbody></table></div>",
+   "options": [
+    "\\(15\\)",
+    "\\(16\\)",
+    "\\(31\\)",
+    "\\(30\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(x=100\\%-(\\text{other groups})=30\\%\\), so the frequency is \\(30\\%\\cdot50=15\\).",
+   "explain_vi": "Đáp án a. \\(x=100\\%-(\\text{các nhóm còn lại})=30\\%\\) nên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">tần số</b> là \\(30\\%\\cdot50=15\\).",
+   "images": [],
+   "id": "1880d06e6cbc",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "A student grouped the age of some employees as \\([#;\\,#),\\ [#;\\,#),\\ [#;\\,#),\\ [#;\\,#)\\). What is wrong with this grouping?",
+   "en": "A student grouped the age of some employees as \\([25;\\,35),\\ [35;\\,45),\\ [45;\\,65),\\ [65;\\,75)\\). What is wrong with this grouping?",
+   "vi": "Một bạn ghép nhóm tuổi của một số nhân viên thành \\([25;\\,35),\\ [35;\\,45),\\ [45;\\,65),\\ [65;\\,75)\\). Cách ghép nhóm này sai ở đâu?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">The value 35 belongs to two groups.</span><span class=\"vi\">Giá trị 35 thuộc hai nhóm.</span></span>",
+    "<span class=\"txi\"><span class=\"en\">The groups do not all have the same width.</span><span class=\"vi\">Các nhóm không cùng độ rộng.</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Values between 34 and 35 belong to no group.</span><span class=\"vi\">Các giá trị nằm giữa 34 và 35 không thuộc nhóm nào.</span></span>",
+    "<span class=\"txi\"><span class=\"en\">There are too few groups.</span><span class=\"vi\">Số nhóm quá ít.</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. The third group is twice as wide as the others.",
+   "explain_vi": "Đáp án b. Nhóm thứ ba rộng gấp đôi các nhóm còn lại.",
+   "images": [],
+   "id": "f0d76bbd8e81",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "A survey asked teenagers how long they use a phone each day. Based on the histogram, the relative frequency of the group \\([#;\\,#)\\) is…",
+   "en": "A survey asked teenagers how long they use a phone each day. Based on the histogram, the relative frequency of the group \\([30;\\,60)\\) is…<img src=\"../../../img/tex/31ba73db3e744780.svg\" alt=\"Histogram\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,380px);height:auto\">",
+   "vi": "Khảo sát thời gian dùng điện thoại mỗi ngày của học sinh. Dựa vào <b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency chart\">biểu đồ tần số</b>, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"relative frequency\">tần số tương đối</b> của nhóm \\([30;\\,60)\\) là…<img src=\"../../../img/tex/263803d0f7e00ffc.svg\" alt=\"Biểu đồ tần số\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,380px);height:auto\">",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(\\dfrac{450}{17}\\%\\)</span><span class=\"vi\">\\(\\dfrac{450}{17}\\%\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(36\\%\\)</span><span class=\"vi\">\\(36\\%\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(9\\%\\)</span><span class=\"vi\">\\(9\\%\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(41\\%\\)</span><span class=\"vi\">\\(41\\%\\)</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\dfrac{9}{25}\\cdot100\\%=36\\%\\).",
+   "explain_vi": "Đáp án b. \\(\\dfrac{9}{25}\\cdot100\\%=36\\%\\).",
+   "images": [
+    "img/tex/263803d0f7e00ffc.svg",
+    "img/tex/31ba73db3e744780.svg"
+   ],
+   "id": "8613810e718c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The smallest score of some students is # points and the largest is # points. The data are grouped as \\([#;\\,#),\\ [#;\\,#),\\dots\\) (all groups of width #). How many groups are needed?",
+   "en": "The smallest score of some students is 12 points and the largest is 33 points. The data are grouped as \\([10;\\,15),\\ [15;\\,20),\\dots\\) (all groups of width 5). How many groups are needed?",
+   "vi": "Điểm số nhỏ nhất của một số học sinh là 12 điểm, lớn nhất là 33 điểm. Ghép <b class=\"mbl-term\" tabindex=\"0\" data-en=\"group (class)\">nhóm số liệu</b> thành \\([10;\\,15),\\ [15;\\,20),\\dots\\) (các nhóm cùng độ rộng 5). Cần bao nhiêu nhóm?",
+   "options": [
+    "\\(4\\)",
+    "\\(7\\)",
+    "\\(5\\)",
+    "\\(6\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The groups start at 10; the last group must contain 33: \\([30;\\,35)\\). That is \\(5\\) groups.",
+   "explain_vi": "Đáp án c. Các nhóm bắt đầu từ 10; nhóm cuối phải chứa 33: \\([30;\\,35)\\). Vậy cần \\(5\\) nhóm.",
+   "images": [],
+   "id": "8502e54939e8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The table shows the score of the students of two classes. Which class has a larger percentage of students who scored at least # points?Score\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)Class A\\(#\\)\\(#\\)\\(#\\)\\(#\\)Class B\\(#\\)\\(#\\)\\(#\\)\\(#\\)",
+   "en": "The table shows the score of the students of two classes. Which class has a larger percentage of students who scored at least 15 points?<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Score</th><td>\\([10;\\,15)\\)</td><td>\\([15;\\,20)\\)</td><td>\\([20;\\,25)\\)</td><td>\\([25;\\,30)\\)</td></tr><tr><th scope=\"row\">Class A</th><td>\\(10\\)</td><td>\\(5\\)</td><td>\\(8\\)</td><td>\\(7\\)</td></tr><tr><th scope=\"row\">Class B</th><td>\\(3\\)</td><td>\\(5\\)</td><td>\\(7\\)</td><td>\\(7\\)</td></tr></tbody></table></div>",
+   "vi": "Bảng cho điểm số của học sinh hai lớp. Lớp nào có tỉ lệ học sinh đạt từ 15 điểm trở lên cao hơn?<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Điểm</th><td>\\([10;\\,15)\\)</td><td>\\([15;\\,20)\\)</td><td>\\([20;\\,25)\\)</td><td>\\([25;\\,30)\\)</td></tr><tr><th scope=\"row\">Lớp A</th><td>\\(10\\)</td><td>\\(5\\)</td><td>\\(8\\)</td><td>\\(7\\)</td></tr><tr><th scope=\"row\">Lớp B</th><td>\\(3\\)</td><td>\\(5\\)</td><td>\\(7\\)</td><td>\\(7\\)</td></tr></tbody></table></div>",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">The two percentages are equal</span><span class=\"vi\">Hai tỉ lệ bằng nhau</span></span>",
+    "<span class=\"txi\"><span class=\"en\">It cannot be determined</span><span class=\"vi\">Không so sánh được</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Class B</span><span class=\"vi\">Lớp B</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Class A</span><span class=\"vi\">Lớp A</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Class A: \\(\\dfrac{20}{30}\\approx66.7\\%\\); class B: \\(\\dfrac{19}{22}\\approx86.4\\%\\). Compare percentages, not counts.",
+   "explain_vi": "Đáp án c. Lớp A: \\(\\dfrac{20}{30}\\approx66{,}7\\%\\); lớp B: \\(\\dfrac{19}{22}\\approx86{,}4\\%\\). Cần <b class=\"mbl-term\" tabindex=\"0\" data-en=\"compare\">so sánh</b> tỉ lệ, không <b class=\"mbl-term\" tabindex=\"0\" data-en=\"compare\">so sánh</b> số lượng.",
+   "images": [],
+   "id": "9ecde0a7eb12",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The waiting time values (minutes) of # customers were recorded: \\(#;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #\\). The data are put into the groups \\([#;\\,#),\\ [#;\\,#),\\ [#;\\,#)\\). What is the frequency of the group \\([#;\\,#)\\)?",
+   "en": "The waiting time values (minutes) of 10 customers were recorded: \\(7;\\ 1;\\ 3;\\ 2;\\ 10;\\ 14;\\ 6;\\ 7;\\ 13;\\ 1\\). The data are put into the groups \\([0;\\,5),\\ [5;\\,10),\\ [10;\\,15)\\). What is the frequency of the group \\([5;\\,10)\\)?",
+   "vi": "Ghi lại thời gian chờ (phút) của 10 khách hàng: \\(7;\\ 1;\\ 3;\\ 2;\\ 10;\\ 14;\\ 6;\\ 7;\\ 13;\\ 1\\). Chia số liệu vào các nhóm \\([0;\\,5),\\ [5;\\,10),\\ [10;\\,15)\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">Tần số</b> của nhóm \\([5;\\,10)\\) là bao nhiêu?",
+   "options": [
+    "\\(5\\)",
+    "\\(4\\)",
+    "\\(2\\)",
+    "\\(3\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Count the values \\(v\\) with \\(5\\le v\\lt 10\\) (the value 10 belongs to the group starting at 10): \\(3\\).",
+   "explain_vi": "Đáp án d. Đếm các giá trị \\(v\\) với \\(5\\le v\\lt 10\\) (giá trị 10 thuộc nhóm bắt đầu từ 10): \\(3\\).",
+   "images": [],
+   "id": "6994bb116f56",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "A bank recorded how long its customers waited before being served. Thời gian chờ (phút) / Waiting (min)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)CộngSố khách hàng / Customers\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(n=#\\) How many customers wait less than # minutes?",
+   "en": "A bank recorded how long its customers waited before being served. <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Thời gian chờ (phút) / Waiting (min)</th><th scope=\"col\">\\([0;\\,5)\\)</th><th scope=\"col\">\\([5;\\,10)\\)</th><th scope=\"col\">\\([10;\\,15)\\)</th><th scope=\"col\">\\([15;\\,20)\\)</th><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\">Số khách hàng / Customers</th><td>\\(8\\)</td><td>\\(9\\)</td><td>\\(10\\)</td><td>\\(23\\)</td><td class=\"mbl-freq-tot\">\\(n=50\\)</td></tr></tbody></table></div> How many customers wait less than 15 minutes?",
+   "vi": "Một ngân hàng ghi lại thời gian khách hàng chờ đến lượt phục vụ. <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Thời gian chờ (phút) / Waiting (min)</th><th scope=\"col\">\\([0;\\,5)\\)</th><th scope=\"col\">\\([5;\\,10)\\)</th><th scope=\"col\">\\([10;\\,15)\\)</th><th scope=\"col\">\\([15;\\,20)\\)</th><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\">Số khách hàng / Customers</th><td>\\(8\\)</td><td>\\(9\\)</td><td>\\(10\\)</td><td>\\(23\\)</td><td class=\"mbl-freq-tot\">\\(n=50\\)</td></tr></tbody></table></div> Có bao nhiêu khách hàng chờ dưới 15 phút?",
+   "options": [
+    "\\(50\\)",
+    "\\(27\\)",
+    "\\(17\\)",
+    "\\(23\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Add the frequencies of the groups that end at or before 15: 27.",
+   "explain_vi": "Đáp án b. Cộng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">tần số</b> của các nhóm nằm hoàn toàn bên dưới mốc 15: 27.",
+   "images": [],
+   "id": "1444942ba04a",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "A farm weighed a sample of eggs before packing them. Khối lượng (g) / Mass (g)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)CộngSố quả trứng / Eggs\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(n=#\\) Most eggs fall into which group of mass?",
+   "en": "A farm weighed a sample of eggs before packing them. <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Khối lượng (g) / Mass (g)</th><th scope=\"col\">\\([40;\\,45)\\)</th><th scope=\"col\">\\([45;\\,50)\\)</th><th scope=\"col\">\\([50;\\,55)\\)</th><th scope=\"col\">\\([55;\\,60)\\)</th><th scope=\"col\">\\([60;\\,65)\\)</th><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\">Số quả trứng / Eggs</th><td>\\(5\\)</td><td>\\(6\\)</td><td>\\(7\\)</td><td>\\(4\\)</td><td>\\(3\\)</td><td class=\"mbl-freq-tot\">\\(n=25\\)</td></tr></tbody></table></div> Most eggs fall into which group of mass?",
+   "vi": "Một trang trại cân mẫu các quả trứng trước khi đóng gói. <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Khối lượng (g) / Mass (g)</th><th scope=\"col\">\\([40;\\,45)\\)</th><th scope=\"col\">\\([45;\\,50)\\)</th><th scope=\"col\">\\([50;\\,55)\\)</th><th scope=\"col\">\\([55;\\,60)\\)</th><th scope=\"col\">\\([60;\\,65)\\)</th><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\">Số quả trứng / Eggs</th><td>\\(5\\)</td><td>\\(6\\)</td><td>\\(7\\)</td><td>\\(4\\)</td><td>\\(3\\)</td><td class=\"mbl-freq-tot\">\\(n=25\\)</td></tr></tbody></table></div> Phần lớn quả trứng thuộc nhóm khối lượng nào?",
+   "options": [
+    "\\([40;\\,45)\\)",
+    "\\([45;\\,50)\\)",
+    "\\([55;\\,60)\\)",
+    "\\([50;\\,55)\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. The highest frequency is 7, in this group.",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">Tần số</b> lớn nhất là 7, thuộc nhóm này.",
+   "images": [],
+   "id": "65315511a3ea",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "The waiting time (minutes) of # customers were recorded: \\(#;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #\\). They are put into the groups \\([#;\\,#),\\ [#;\\,#),\\ [#;\\,#)\\). What are the frequencies, in this order?",
+   "en": "The waiting time (minutes) of 11 customers were recorded: \\(14;\\ 16;\\ 7;\\ 12;\\ 15;\\ 11;\\ 14;\\ 9;\\ 18;\\ 6;\\ 18\\). They are put into the groups \\([5;\\,10),\\ [10;\\,15),\\ [15;\\,20)\\). What are the frequencies, in this order?",
+   "vi": "Ghi lại thời gian chờ (phút) của 11 khách hàng: \\(14;\\ 16;\\ 7;\\ 12;\\ 15;\\ 11;\\ 14;\\ 9;\\ 18;\\ 6;\\ 18\\). Chia số liệu vào các nhóm \\([5;\\,10),\\ [10;\\,15),\\ [15;\\,20)\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">Tần số</b> của các nhóm theo thứ tự là?",
+   "options": [
+    "\\(3;\\ 5;\\ 3\\)",
+    "\\(4;\\ 4;\\ 3\\)",
+    "\\(3;\\ 4;\\ 4\\)",
+    "\\(4;\\ 4;\\ 4\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Each group is \\([a;b)\\): a value equal to the right end goes to the next group. Count: 3;\\ 4;\\ 4.",
+   "explain_vi": "Đáp án c. Mỗi nhóm có dạng \\([a;b)\\): giá trị bằng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"endpoint\">đầu mút</b> phải thuộc nhóm kế tiếp. Đếm được: 3;\\ 4;\\ 4.",
+   "images": [],
+   "id": "bb4acb11e6b3",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "A school surveyed how long its students need to travel from home to school. Thời gian (phút) / Time (min)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)CộngSố học sinh / Students\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(n=#\\) Exactly # students travel for less than # minutes.",
+   "en": "A school surveyed how long its students need to travel from home to school. <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Thời gian (phút) / Time (min)</th><th scope=\"col\">\\([10;\\,20)\\)</th><th scope=\"col\">\\([20;\\,30)\\)</th><th scope=\"col\">\\([30;\\,40)\\)</th><th scope=\"col\">\\([40;\\,50)\\)</th><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\">Số học sinh / Students</th><td>\\(6\\)</td><td>\\(14\\)</td><td>\\(15\\)</td><td>\\(9\\)</td><td class=\"mbl-freq-tot\">\\(n=44\\)</td></tr></tbody></table></div> Exactly 20 students travel for less than 30 minutes.",
+   "vi": "Nhà trường khảo sát thời gian đi từ nhà đến trường của học sinh. <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Thời gian (phút) / Time (min)</th><th scope=\"col\">\\([10;\\,20)\\)</th><th scope=\"col\">\\([20;\\,30)\\)</th><th scope=\"col\">\\([30;\\,40)\\)</th><th scope=\"col\">\\([40;\\,50)\\)</th><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\">Số học sinh / Students</th><td>\\(6\\)</td><td>\\(14\\)</td><td>\\(15\\)</td><td>\\(9\\)</td><td class=\"mbl-freq-tot\">\\(n=44\\)</td></tr></tbody></table></div> Có đúng 20 học sinh đi học mất dưới 30 phút.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "The correct number is 20.",
+   "explain_vi": "Số đúng là 20.",
+   "images": [],
+   "id": "7b2fbf97ee83",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "The groups of waiting time have the form \\([a;\\,b)\\). A customer with a waiting time of exactly # minutes is counted in the group \\([#;\\,#)\\).",
+   "en": "The groups of waiting time have the form \\([a;\\,b)\\). A customer with a waiting time of exactly 15 minutes is counted in the group \\([10;\\,15)\\).",
+   "vi": "Các nhóm thời gian chờ có dạng \\([a;\\,b)\\). Một khách hàng có thời gian chờ đúng bằng 15 phút được xếp vào nhóm \\([10;\\,15)\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "In \\([a;\\,b)\\) the left end belongs to the group and the right end does not, so 15 goes to \\([15;\\,20)\\).",
+   "explain_vi": "Trong nhóm \\([a;\\,b)\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"endpoint\">đầu mút</b> trái thuộc nhóm, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"endpoint\">đầu mút</b> phải thì không; nên 15 thuộc nhóm \\([15;\\,20)\\).",
+   "images": [],
+   "id": "0eb942af003f",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "A farm weighed a sample of eggs before packing them. Khối lượng (g) / Mass (g)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)CộngSố quả trứng / Eggs\\(#\\)\\(x\\)\\(#\\)\\(#\\)\\(n=#\\) There are # eggs in all. Find \\(x\\).",
+   "en": "A farm weighed a sample of eggs before packing them. <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Khối lượng (g) / Mass (g)</th><th scope=\"col\">\\([40;\\,45)\\)</th><th scope=\"col\">\\([45;\\,50)\\)</th><th scope=\"col\">\\([50;\\,55)\\)</th><th scope=\"col\">\\([55;\\,60)\\)</th><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\">Số quả trứng / Eggs</th><td>\\(6\\)</td><td>\\(x\\)</td><td>\\(16\\)</td><td>\\(7\\)</td><td class=\"mbl-freq-tot\">\\(n=36\\)</td></tr></tbody></table></div> There are 36 eggs in all. Find \\(x\\).",
+   "vi": "Một trang trại cân mẫu các quả trứng trước khi đóng gói. <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Khối lượng (g) / Mass (g)</th><th scope=\"col\">\\([40;\\,45)\\)</th><th scope=\"col\">\\([45;\\,50)\\)</th><th scope=\"col\">\\([50;\\,55)\\)</th><th scope=\"col\">\\([55;\\,60)\\)</th><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\">Số quả trứng / Eggs</th><td>\\(6\\)</td><td>\\(x\\)</td><td>\\(16\\)</td><td>\\(7\\)</td><td class=\"mbl-freq-tot\">\\(n=36\\)</td></tr></tbody></table></div> Có tất cả 36 quả trứng. Tìm \\(x\\).",
+   "options": [],
+   "answer": "7",
+   "explain_en": "\\(x=36-29=7\\).",
+   "explain_vi": "\\(x=36-29=7\\).",
+   "images": [],
+   "id": "814a4db951fa",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "A school surveyed how long its students need to travel from home to school. Thời gian (phút) / Time (min)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)CộngSố học sinh / Students\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(n=#\\) What percentage of the students are in the group \\([#;\\,#)\\)?",
+   "en": "A school surveyed how long its students need to travel from home to school. <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Thời gian (phút) / Time (min)</th><th scope=\"col\">\\([10;\\,20)\\)</th><th scope=\"col\">\\([20;\\,30)\\)</th><th scope=\"col\">\\([30;\\,40)\\)</th><th scope=\"col\">\\([40;\\,50)\\)</th><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\">Số học sinh / Students</th><td>\\(11\\)</td><td>\\(16\\)</td><td>\\(12\\)</td><td>\\(11\\)</td><td class=\"mbl-freq-tot\">\\(n=50\\)</td></tr></tbody></table></div> What percentage of the students are in the group \\([20;\\,30)\\)?",
+   "vi": "Nhà trường khảo sát thời gian đi từ nhà đến trường của học sinh. <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Thời gian (phút) / Time (min)</th><th scope=\"col\">\\([10;\\,20)\\)</th><th scope=\"col\">\\([20;\\,30)\\)</th><th scope=\"col\">\\([30;\\,40)\\)</th><th scope=\"col\">\\([40;\\,50)\\)</th><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\">Số học sinh / Students</th><td>\\(11\\)</td><td>\\(16\\)</td><td>\\(12\\)</td><td>\\(11\\)</td><td class=\"mbl-freq-tot\">\\(n=50\\)</td></tr></tbody></table></div> Nhóm \\([20;\\,30)\\) chiếm bao nhiêu phần trăm số học sinh?",
+   "options": [],
+   "answer": "32",
+   "explain_en": "\\(\\dfrac{16}{50}\\cdot100=32\\).",
+   "explain_vi": "\\(\\dfrac{16}{50}\\cdot100=32\\).",
+   "images": [],
+   "id": "e5c15df0a0ab",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "A factory tested the lifetime of a sample of light bulbs. Tuổi thọ (giờ) / Lifetime (h)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)CộngSố bóng đèn / Bulbs\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(n=#\\) How many bulbs last less than # hours?",
+   "en": "A factory tested the lifetime of a sample of light bulbs. <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Tuổi thọ (giờ) / Lifetime (h)</th><th scope=\"col\">\\([1400;\\,1600)\\)</th><th scope=\"col\">\\([1600;\\,1800)\\)</th><th scope=\"col\">\\([1800;\\,2000)\\)</th><th scope=\"col\">\\([2000;\\,2200)\\)</th><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\">Số bóng đèn / Bulbs</th><td>\\(5\\)</td><td>\\(9\\)</td><td>\\(14\\)</td><td>\\(8\\)</td><td class=\"mbl-freq-tot\">\\(n=36\\)</td></tr></tbody></table></div> How many bulbs last less than 1800 hours?",
+   "vi": "Một nhà máy kiểm tra tuổi thọ của một mẫu bóng đèn. <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Tuổi thọ (giờ) / Lifetime (h)</th><th scope=\"col\">\\([1400;\\,1600)\\)</th><th scope=\"col\">\\([1600;\\,1800)\\)</th><th scope=\"col\">\\([1800;\\,2000)\\)</th><th scope=\"col\">\\([2000;\\,2200)\\)</th><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\">Số bóng đèn / Bulbs</th><td>\\(5\\)</td><td>\\(9\\)</td><td>\\(14\\)</td><td>\\(8\\)</td><td class=\"mbl-freq-tot\">\\(n=36\\)</td></tr></tbody></table></div> Có bao nhiêu bóng đèn sáng được dưới 1800 giờ?",
+   "options": [
+    "\\(5\\)",
+    "\\(14\\)",
+    "\\(28\\)",
+    "\\(22\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Add the frequencies of the groups that end at or before 1800: 14.",
+   "explain_vi": "Đáp án b. Cộng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">tần số</b> của các nhóm nằm hoàn toàn bên dưới mốc 1800: 14.",
+   "images": [],
+   "id": "94aeb8372bb7",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "A factory tested the lifetime of a sample of light bulbs. Tuổi thọ (giờ) / Lifetime (h)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)CộngSố bóng đèn / Bulbs\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(n=#\\) To estimate the mean, one value must stand for all the data in the group \\([#;\\,#)\\). Which value is used?",
+   "en": "A factory tested the lifetime of a sample of light bulbs. <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Tuổi thọ (giờ) / Lifetime (h)</th><th scope=\"col\">\\([1000;\\,1200)\\)</th><th scope=\"col\">\\([1200;\\,1400)\\)</th><th scope=\"col\">\\([1400;\\,1600)\\)</th><th scope=\"col\">\\([1600;\\,1800)\\)</th><th scope=\"col\">\\([1800;\\,2000)\\)</th><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\">Số bóng đèn / Bulbs</th><td>\\(5\\)</td><td>\\(6\\)</td><td>\\(8\\)</td><td>\\(11\\)</td><td>\\(6\\)</td><td class=\"mbl-freq-tot\">\\(n=36\\)</td></tr></tbody></table></div> To estimate the mean, one value must stand for all the data in the group \\([1400;\\,1600)\\). Which value is used?",
+   "vi": "Một nhà máy kiểm tra tuổi thọ của một mẫu bóng đèn. <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Tuổi thọ (giờ) / Lifetime (h)</th><th scope=\"col\">\\([1000;\\,1200)\\)</th><th scope=\"col\">\\([1200;\\,1400)\\)</th><th scope=\"col\">\\([1400;\\,1600)\\)</th><th scope=\"col\">\\([1600;\\,1800)\\)</th><th scope=\"col\">\\([1800;\\,2000)\\)</th><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\">Số bóng đèn / Bulbs</th><td>\\(5\\)</td><td>\\(6\\)</td><td>\\(8\\)</td><td>\\(11\\)</td><td>\\(6\\)</td><td class=\"mbl-freq-tot\">\\(n=36\\)</td></tr></tbody></table></div> Để ước tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"mean\">số trung bình</b>, ta dùng một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint (representative value)\">giá trị đại diện</b> cho cả nhóm \\([1400;\\,1600)\\). Giá trị đó là?",
+   "options": [
+    "\\(200\\)",
+    "\\(1600\\)",
+    "\\(1500\\)",
+    "\\(1400\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\dfrac{1400+1600}{2}=1500\\).",
+   "explain_vi": "Đáp án c. \\(\\dfrac{1400+1600}{2}=1500\\).",
+   "images": [],
+   "id": "943edad636b9",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "A factory tested the lifetime of a sample of light bulbs. Tuổi thọ (giờ) / Lifetime (h)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)CộngSố bóng đèn / Bulbs\\(x\\)\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(n=#\\) There are # bulbs in all. Find the missing frequency \\(x\\).",
+   "en": "A factory tested the lifetime of a sample of light bulbs. <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Tuổi thọ (giờ) / Lifetime (h)</th><th scope=\"col\">\\([1000;\\,1200)\\)</th><th scope=\"col\">\\([1200;\\,1400)\\)</th><th scope=\"col\">\\([1400;\\,1600)\\)</th><th scope=\"col\">\\([1600;\\,1800)\\)</th><th scope=\"col\">\\([1800;\\,2000)\\)</th><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\">Số bóng đèn / Bulbs</th><td>\\(x\\)</td><td>\\(16\\)</td><td>\\(7\\)</td><td>\\(9\\)</td><td>\\(7\\)</td><td class=\"mbl-freq-tot\">\\(n=50\\)</td></tr></tbody></table></div> There are 50 bulbs in all. Find the missing frequency \\(x\\).",
+   "vi": "Một nhà máy kiểm tra tuổi thọ của một mẫu bóng đèn. <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Tuổi thọ (giờ) / Lifetime (h)</th><th scope=\"col\">\\([1000;\\,1200)\\)</th><th scope=\"col\">\\([1200;\\,1400)\\)</th><th scope=\"col\">\\([1400;\\,1600)\\)</th><th scope=\"col\">\\([1600;\\,1800)\\)</th><th scope=\"col\">\\([1800;\\,2000)\\)</th><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\">Số bóng đèn / Bulbs</th><td>\\(x\\)</td><td>\\(16\\)</td><td>\\(7\\)</td><td>\\(9\\)</td><td>\\(7\\)</td><td class=\"mbl-freq-tot\">\\(n=50\\)</td></tr></tbody></table></div> Có tất cả 50 bóng đèn. Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">tần số</b> \\(x\\) còn thiếu.",
+   "options": [
+    "\\(9\\)",
+    "\\(13\\)",
+    "\\(11\\)",
+    "\\(39\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(x=50-39=11\\).",
+   "explain_vi": "Đáp án c. \\(x=50-39=11\\).",
+   "images": [],
+   "id": "e25c52d13a4c",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "A researcher measured the score of some students (points). The smallest value is # and the largest is #. The groups must cover all values, have equal width and not overlap. Which list of group ends is suitable?",
+   "en": "A researcher measured the score of some students (points). The smallest value is 12 and the largest is 27. The groups must cover all values, have equal width and not overlap. Which list of group ends is suitable?",
+   "vi": "Đo điểm số của một số học sinh (điểm). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"minimum value\">Giá trị nhỏ nhất</b> là 12, lớn nhất là 27. Các nhóm phải phủ hết số liệu, có độ rộng bằng nhau và không chồng lấn. Dãy mốc nhóm nào phù hợp?",
+   "options": [
+    "10 ; 15 ; 20 ; 25",
+    "15 ; 20 ; 25 ; 30",
+    "10 ; 15 ; 20 ; 25 ; 30",
+    "10 ; 15 ; 22 ; 25 ; 30"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The ends 10 ; 15 ; 20 ; 25 ; 30 give equal width 5, start at or below 12 and the last end exceeds 27.",
+   "explain_vi": "Đáp án c. Các mốc 10 ; 15 ; 20 ; 25 ; 30 có độ rộng đều 5, bắt đầu không lớn hơn 12 và mốc cuối lớn hơn 27.",
+   "images": [],
+   "id": "fb712d95853a",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "A school surveyed how long its students need to travel from home to school. Thời gian (phút) / Time (min)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)CộngSố học sinh / Students\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(n=#\\) How many students travel for at least # minutes?",
+   "en": "A school surveyed how long its students need to travel from home to school. <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Thời gian (phút) / Time (min)</th><th scope=\"col\">\\([5;\\,15)\\)</th><th scope=\"col\">\\([15;\\,25)\\)</th><th scope=\"col\">\\([25;\\,35)\\)</th><th scope=\"col\">\\([35;\\,45)\\)</th><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\">Số học sinh / Students</th><td>\\(4\\)</td><td>\\(8\\)</td><td>\\(6\\)</td><td>\\(10\\)</td><td class=\"mbl-freq-tot\">\\(n=28\\)</td></tr></tbody></table></div> How many students travel for at least 15 minutes?",
+   "vi": "Nhà trường khảo sát thời gian đi từ nhà đến trường của học sinh. <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Thời gian (phút) / Time (min)</th><th scope=\"col\">\\([5;\\,15)\\)</th><th scope=\"col\">\\([15;\\,25)\\)</th><th scope=\"col\">\\([25;\\,35)\\)</th><th scope=\"col\">\\([35;\\,45)\\)</th><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\">Số học sinh / Students</th><td>\\(4\\)</td><td>\\(8\\)</td><td>\\(6\\)</td><td>\\(10\\)</td><td class=\"mbl-freq-tot\">\\(n=28\\)</td></tr></tbody></table></div> Có bao nhiêu học sinh đi học mất từ 15 phút trở lên?",
+   "options": [
+    "\\(24\\)",
+    "\\(28\\)",
+    "\\(4\\)",
+    "\\(16\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Add the frequencies of the groups from 15 upward: 24.",
+   "explain_vi": "Đáp án a. Cộng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">tần số</b> các nhóm từ mốc 15 trở lên: 24.",
+   "images": [],
+   "id": "4062be71b875",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "A teacher recorded the scores of a test marked out of # points. Điểm / Score\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)CộngSố học sinh / Students\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(n=#\\) Most students fall into which group of score?",
+   "en": "A teacher recorded the scores of a test marked out of 50 points. <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Điểm / Score</th><th scope=\"col\">\\([10;\\,15)\\)</th><th scope=\"col\">\\([15;\\,20)\\)</th><th scope=\"col\">\\([20;\\,25)\\)</th><th scope=\"col\">\\([25;\\,30)\\)</th><th scope=\"col\">\\([30;\\,35)\\)</th><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\">Số học sinh / Students</th><td>\\(9\\)</td><td>\\(17\\)</td><td>\\(7\\)</td><td>\\(6\\)</td><td>\\(9\\)</td><td class=\"mbl-freq-tot\">\\(n=48\\)</td></tr></tbody></table></div> Most students fall into which group of score?",
+   "vi": "Giáo viên ghi lại điểm một bài kiểm tra chấm theo thang 50 điểm. <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Điểm / Score</th><th scope=\"col\">\\([10;\\,15)\\)</th><th scope=\"col\">\\([15;\\,20)\\)</th><th scope=\"col\">\\([20;\\,25)\\)</th><th scope=\"col\">\\([25;\\,30)\\)</th><th scope=\"col\">\\([30;\\,35)\\)</th><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\">Số học sinh / Students</th><td>\\(9\\)</td><td>\\(17\\)</td><td>\\(7\\)</td><td>\\(6\\)</td><td>\\(9\\)</td><td class=\"mbl-freq-tot\">\\(n=48\\)</td></tr></tbody></table></div> Phần lớn học sinh thuộc nhóm điểm số nào?",
+   "options": [
+    "\\([25;\\,30)\\)",
+    "\\([10;\\,15)\\)",
+    "\\([20;\\,25)\\)",
+    "\\([15;\\,20)\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. The highest frequency is 17, in this group.",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">Tần số</b> lớn nhất là 17, thuộc nhóm này.",
+   "images": [],
+   "id": "ad09fdfd090c",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The heights of the students in a class were measured and grouped as follows. Chiều cao (cm) / Height (cm)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)CộngSố học sinh / Students\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(n=#\\) What percentage of the students are shorter than # cm?",
+   "en": "The heights of the students in a class were measured and grouped as follows. <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Chiều cao (cm) / Height (cm)</th><th scope=\"col\">\\([150;\\,160)\\)</th><th scope=\"col\">\\([160;\\,170)\\)</th><th scope=\"col\">\\([170;\\,180)\\)</th><th scope=\"col\">\\([180;\\,190)\\)</th><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\">Số học sinh / Students</th><td>\\(9\\)</td><td>\\(7\\)</td><td>\\(6\\)</td><td>\\(3\\)</td><td class=\"mbl-freq-tot\">\\(n=25\\)</td></tr></tbody></table></div> What percentage of the students are shorter than 160 cm?",
+   "vi": "Đo <b class=\"mbl-term\" tabindex=\"0\" data-en=\"height\">chiều cao</b> của các học sinh một lớp rồi ghép <b class=\"mbl-term\" tabindex=\"0\" data-en=\"group (class)\">nhóm số liệu</b> như sau. <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\"><b class=\"mbl-term\" tabindex=\"0\" data-en=\"height\">Chiều cao</b> (cm) / Height (cm)</th><th scope=\"col\">\\([150;\\,160)\\)</th><th scope=\"col\">\\([160;\\,170)\\)</th><th scope=\"col\">\\([170;\\,180)\\)</th><th scope=\"col\">\\([180;\\,190)\\)</th><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\">Số học sinh / Students</th><td>\\(9\\)</td><td>\\(7\\)</td><td>\\(6\\)</td><td>\\(3\\)</td><td class=\"mbl-freq-tot\">\\(n=25\\)</td></tr></tbody></table></div> Có bao nhiêu phần trăm học sinh cao dưới 160 cm?",
+   "options": [
+    "\\(41\\%\\)",
+    "\\(36\\%\\)",
+    "\\(64\\%\\)",
+    "\\(9\\%\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\dfrac{9}{25}\\cdot100\\%=36\\%\\).",
+   "explain_vi": "Đáp án b. \\(\\dfrac{9}{25}\\cdot100\\%=36\\%\\).",
+   "images": [],
+   "id": "8561fad9e80d",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The waiting time (minutes) of # customers were recorded: \\(#;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #\\). They are put into the groups \\([#;\\,#),\\ [#;\\,#),\\ [#;\\,#)\\). What are the frequencies, in this order?",
+   "en": "The waiting time (minutes) of 8 customers were recorded: \\(3;\\ 5;\\ 4;\\ 14;\\ 1;\\ 3;\\ 7;\\ 14\\). They are put into the groups \\([0;\\,5),\\ [5;\\,10),\\ [10;\\,15)\\). What are the frequencies, in this order?",
+   "vi": "Ghi lại thời gian chờ (phút) của 8 khách hàng: \\(3;\\ 5;\\ 4;\\ 14;\\ 1;\\ 3;\\ 7;\\ 14\\). Chia số liệu vào các nhóm \\([0;\\,5),\\ [5;\\,10),\\ [10;\\,15)\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">Tần số</b> của các nhóm theo thứ tự là?",
+   "options": [
+    "\\(5;\\ 2;\\ 2\\)",
+    "\\(2;\\ 2;\\ 4\\)",
+    "\\(4;\\ 2;\\ 2\\)",
+    "\\(5;\\ 1;\\ 2\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Each group is \\([a;b)\\): a value equal to the right end goes to the next group. Count: 4;\\ 2;\\ 2.",
+   "explain_vi": "Đáp án c. Mỗi nhóm có dạng \\([a;b)\\): giá trị bằng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"endpoint\">đầu mút</b> phải thuộc nhóm kế tiếp. Đếm được: 4;\\ 2;\\ 2.",
+   "images": [],
+   "id": "3f39db58df2a",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "A bank recorded how long its customers waited before being served. Thời gian chờ (phút) / Waiting (min)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)CộngSố khách hàng / Customers\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(n=#\\) What percentage of the customers wait less than # minutes?",
+   "en": "A bank recorded how long its customers waited before being served. <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Thời gian chờ (phút) / Waiting (min)</th><th scope=\"col\">\\([10;\\,15)\\)</th><th scope=\"col\">\\([15;\\,20)\\)</th><th scope=\"col\">\\([20;\\,25)\\)</th><th scope=\"col\">\\([25;\\,30)\\)</th><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\">Số khách hàng / Customers</th><td>\\(5\\)</td><td>\\(7\\)</td><td>\\(3\\)</td><td>\\(5\\)</td><td class=\"mbl-freq-tot\">\\(n=20\\)</td></tr></tbody></table></div> What percentage of the customers wait less than 15 minutes?",
+   "vi": "Một ngân hàng ghi lại thời gian khách hàng chờ đến lượt phục vụ. <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Thời gian chờ (phút) / Waiting (min)</th><th scope=\"col\">\\([10;\\,15)\\)</th><th scope=\"col\">\\([15;\\,20)\\)</th><th scope=\"col\">\\([20;\\,25)\\)</th><th scope=\"col\">\\([25;\\,30)\\)</th><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\">Số khách hàng / Customers</th><td>\\(5\\)</td><td>\\(7\\)</td><td>\\(3\\)</td><td>\\(5\\)</td><td class=\"mbl-freq-tot\">\\(n=20\\)</td></tr></tbody></table></div> Có bao nhiêu phần trăm khách hàng chờ dưới 15 phút?",
+   "options": [
+    "\\(75\\%\\)",
+    "\\(60\\%\\)",
+    "\\(5\\%\\)",
+    "\\(25\\%\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\dfrac{5}{20}\\cdot100\\%=25\\%\\).",
+   "explain_vi": "Đáp án d. \\(\\dfrac{5}{20}\\cdot100\\%=25\\%\\).",
+   "images": [],
+   "id": "525568205bae",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "A researcher measured the mass of some eggs (g). The smallest value is # and the largest is #. The groups must cover all values, have equal width and not overlap. Which list of group ends is suitable?",
+   "en": "A researcher measured the mass of some eggs (g). The smallest value is 44 and the largest is 59. The groups must cover all values, have equal width and not overlap. Which list of group ends is suitable?",
+   "vi": "Đo khối lượng của một số quả trứng (g). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"minimum value\">Giá trị nhỏ nhất</b> là 44, lớn nhất là 59. Các nhóm phải phủ hết số liệu, có độ rộng bằng nhau và không chồng lấn. Dãy mốc nhóm nào phù hợp?",
+   "options": [
+    "40 ; 45 ; 50 ; 55",
+    "40 ; 45 ; 50 ; 55 ; 60",
+    "45 ; 50 ; 55 ; 60",
+    "40 ; 45 ; 52 ; 55 ; 60"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. The ends 40 ; 45 ; 50 ; 55 ; 60 give equal width 5, start at or below 44 and the last end exceeds 59.",
+   "explain_vi": "Đáp án b. Các mốc 40 ; 45 ; 50 ; 55 ; 60 có độ rộng đều 5, bắt đầu không lớn hơn 44 và mốc cuối lớn hơn 59.",
+   "images": [],
+   "id": "caee7068e371",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "A school surveyed how long its students need to travel from home to school. Thời gian (phút) / Time (min)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)CộngSố học sinh / Students\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(x\\)\\(n=#\\) There are # students in all. Find the missing frequency \\(x\\).",
+   "en": "A school surveyed how long its students need to travel from home to school. <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Thời gian (phút) / Time (min)</th><th scope=\"col\">\\([0;\\,10)\\)</th><th scope=\"col\">\\([10;\\,20)\\)</th><th scope=\"col\">\\([20;\\,30)\\)</th><th scope=\"col\">\\([30;\\,40)\\)</th><th scope=\"col\">\\([40;\\,50)\\)</th><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\">Số học sinh / Students</th><td>\\(9\\)</td><td>\\(12\\)</td><td>\\(7\\)</td><td>\\(7\\)</td><td>\\(x\\)</td><td class=\"mbl-freq-tot\">\\(n=50\\)</td></tr></tbody></table></div> There are 50 students in all. Find the missing frequency \\(x\\).",
+   "vi": "Nhà trường khảo sát thời gian đi từ nhà đến trường của học sinh. <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Thời gian (phút) / Time (min)</th><th scope=\"col\">\\([0;\\,10)\\)</th><th scope=\"col\">\\([10;\\,20)\\)</th><th scope=\"col\">\\([20;\\,30)\\)</th><th scope=\"col\">\\([30;\\,40)\\)</th><th scope=\"col\">\\([40;\\,50)\\)</th><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\">Số học sinh / Students</th><td>\\(9\\)</td><td>\\(12\\)</td><td>\\(7\\)</td><td>\\(7\\)</td><td>\\(x\\)</td><td class=\"mbl-freq-tot\">\\(n=50\\)</td></tr></tbody></table></div> Có tất cả 50 học sinh. Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">tần số</b> \\(x\\) còn thiếu.",
+   "options": [
+    "\\(35\\)",
+    "\\(17\\)",
+    "\\(13\\)",
+    "\\(15\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(x=50-35=15\\).",
+   "explain_vi": "Đáp án d. \\(x=50-35=15\\).",
+   "images": [],
+   "id": "92a36c6e2f0d",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "The ages of the employees of a company are grouped as follows. Tuổi / Age\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)CộngSố nhân viên / Employees\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(n=#\\) The group \\([#;\\,#)\\) makes up #% of the sample.",
+   "en": "The ages of the employees of a company are grouped as follows. <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Tuổi / Age</th><th scope=\"col\">\\([25;\\,35)\\)</th><th scope=\"col\">\\([35;\\,45)\\)</th><th scope=\"col\">\\([45;\\,55)\\)</th><th scope=\"col\">\\([55;\\,65)\\)</th><th scope=\"col\">\\([65;\\,75)\\)</th><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\">Số nhân viên / Employees</th><td>\\(11\\)</td><td>\\(5\\)</td><td>\\(15\\)</td><td>\\(14\\)</td><td>\\(5\\)</td><td class=\"mbl-freq-tot\">\\(n=50\\)</td></tr></tbody></table></div> The group \\([55;\\,65)\\) makes up 23% of the sample.",
+   "vi": "Tuổi của các nhân viên một công ty được ghép nhóm như sau. <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Tuổi / Age</th><th scope=\"col\">\\([25;\\,35)\\)</th><th scope=\"col\">\\([35;\\,45)\\)</th><th scope=\"col\">\\([45;\\,55)\\)</th><th scope=\"col\">\\([55;\\,65)\\)</th><th scope=\"col\">\\([65;\\,75)\\)</th><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\">Số nhân viên / Employees</th><td>\\(11\\)</td><td>\\(5\\)</td><td>\\(15\\)</td><td>\\(14\\)</td><td>\\(5\\)</td><td class=\"mbl-freq-tot\">\\(n=50\\)</td></tr></tbody></table></div> Nhóm \\([55;\\,65)\\) chiếm 23% mẫu.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "\\(\\dfrac{14}{50}\\cdot100\\%=28\\%\\).",
+   "explain_vi": "\\(\\dfrac{14}{50}\\cdot100\\%=28\\%\\).",
+   "images": [],
+   "id": "d37db06821be",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "The groups of score have the form \\([a;\\,b)\\). A student with a score of exactly # points is counted in the group \\([#;\\,#)\\).",
+   "en": "The groups of score have the form \\([a;\\,b)\\). A student with a score of exactly 35 points is counted in the group \\([35;\\,40)\\).",
+   "vi": "Các nhóm điểm số có dạng \\([a;\\,b)\\). Một học sinh có điểm số đúng bằng 35 điểm được xếp vào nhóm \\([35;\\,40)\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "In \\([a;\\,b)\\) the left end belongs to the group and the right end does not, so 35 goes to \\([35;\\,40)\\).",
+   "explain_vi": "Trong nhóm \\([a;\\,b)\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"endpoint\">đầu mút</b> trái thuộc nhóm, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"endpoint\">đầu mút</b> phải thì không; nên 35 thuộc nhóm \\([35;\\,40)\\).",
+   "images": [],
+   "id": "9cb1adc11411",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "A teacher recorded the scores of a test marked out of # points. Điểm / Score\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)CộngSố học sinh / Students\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(n=#\\) How many students scored below # points?",
+   "en": "A teacher recorded the scores of a test marked out of 50 points. <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Điểm / Score</th><th scope=\"col\">\\([20;\\,25)\\)</th><th scope=\"col\">\\([25;\\,30)\\)</th><th scope=\"col\">\\([30;\\,35)\\)</th><th scope=\"col\">\\([35;\\,40)\\)</th><th scope=\"col\">\\([40;\\,45)\\)</th><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\">Số học sinh / Students</th><td>\\(4\\)</td><td>\\(10\\)</td><td>\\(5\\)</td><td>\\(5\\)</td><td>\\(8\\)</td><td class=\"mbl-freq-tot\">\\(n=32\\)</td></tr></tbody></table></div> How many students scored below 40 points?",
+   "vi": "Giáo viên ghi lại điểm một bài kiểm tra chấm theo thang 50 điểm. <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Điểm / Score</th><th scope=\"col\">\\([20;\\,25)\\)</th><th scope=\"col\">\\([25;\\,30)\\)</th><th scope=\"col\">\\([30;\\,35)\\)</th><th scope=\"col\">\\([35;\\,40)\\)</th><th scope=\"col\">\\([40;\\,45)\\)</th><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\">Số học sinh / Students</th><td>\\(4\\)</td><td>\\(10\\)</td><td>\\(5\\)</td><td>\\(5\\)</td><td>\\(8\\)</td><td class=\"mbl-freq-tot\">\\(n=32\\)</td></tr></tbody></table></div> Có bao nhiêu học sinh đạt dưới 40 điểm?",
+   "options": [],
+   "answer": "24",
+   "explain_en": "Add the frequencies below 40: 24.",
+   "explain_vi": "Cộng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">tần số</b> các nhóm dưới mốc 40: 24.",
+   "images": [],
+   "id": "467e36c02d27",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "An electricity company recorded the monthly electricity use of households in a street. Điện năng (kWh) / Electricity (kWh)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)CộngSố hộ / Households\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(n=#\\) How many households use at least # kWh a month?",
+   "en": "An electricity company recorded the monthly electricity use of households in a street. <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Điện năng (kWh) / Electricity (kWh)</th><th scope=\"col\">\\([100;\\,150)\\)</th><th scope=\"col\">\\([150;\\,200)\\)</th><th scope=\"col\">\\([200;\\,250)\\)</th><th scope=\"col\">\\([250;\\,300)\\)</th><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\">Số hộ / Households</th><td>\\(9\\)</td><td>\\(4\\)</td><td>\\(7\\)</td><td>\\(12\\)</td><td class=\"mbl-freq-tot\">\\(n=32\\)</td></tr></tbody></table></div> How many households use at least 250 kWh a month?",
+   "vi": "Công ty điện lực ghi lại lượng điện tiêu thụ hằng tháng của các hộ gia đình một con phố. <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Điện năng (kWh) / Electricity (kWh)</th><th scope=\"col\">\\([100;\\,150)\\)</th><th scope=\"col\">\\([150;\\,200)\\)</th><th scope=\"col\">\\([200;\\,250)\\)</th><th scope=\"col\">\\([250;\\,300)\\)</th><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\">Số hộ / Households</th><td>\\(9\\)</td><td>\\(4\\)</td><td>\\(7\\)</td><td>\\(12\\)</td><td class=\"mbl-freq-tot\">\\(n=32\\)</td></tr></tbody></table></div> Có bao nhiêu hộ gia đình dùng từ 250 kWh mỗi tháng trở lên?",
+   "options": [],
+   "answer": "12",
+   "explain_en": "32-20=12.",
+   "explain_vi": "32-20=12.",
+   "images": [],
+   "id": "53ef96fb5e2f",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "A researcher measured the daily phone time of some teenagers (minutes). The smallest value is # and the largest is #. The groups must cover all values, have equal width and not overlap. Which list of group ends is suitable?",
+   "en": "A researcher measured the daily phone time of some teenagers (minutes). The smallest value is 49 and the largest is 183. The groups must cover all values, have equal width and not overlap. Which list of group ends is suitable?",
+   "vi": "Đo thời gian dùng điện thoại mỗi ngày của một số học sinh (phút). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"minimum value\">Giá trị nhỏ nhất</b> là 49, lớn nhất là 183. Các nhóm phải phủ hết số liệu, có độ rộng bằng nhau và không chồng lấn. Dãy mốc nhóm nào phù hợp?",
+   "options": [
+    "30 ; 60 ; 90 ; 135 ; 150 ; 180 ; 210",
+    "30 ; 60 ; 90 ; 120 ; 150 ; 180 ; 210",
+    "30 ; 60 ; 90 ; 120 ; 150 ; 180",
+    "60 ; 90 ; 120 ; 150 ; 180 ; 210"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. The ends 30 ; 60 ; 90 ; 120 ; 150 ; 180 ; 210 give equal width 30, start at or below 49 and the last end exceeds 183.",
+   "explain_vi": "Đáp án b. Các mốc 30 ; 60 ; 90 ; 120 ; 150 ; 180 ; 210 có độ rộng đều 30, bắt đầu không lớn hơn 49 và mốc cuối lớn hơn 183.",
+   "images": [],
+   "id": "66ed4347a3aa",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "A survey asked teenagers how long they use a phone each day. Thời gian (phút) / Time (min)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)CộngSố học sinh / Teenagers\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(n=#\\) How many teenagers use a phone for at least # minutes a day?",
+   "en": "A survey asked teenagers how long they use a phone each day. <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Thời gian (phút) / Time (min)</th><th scope=\"col\">\\([0;\\,30)\\)</th><th scope=\"col\">\\([30;\\,60)\\)</th><th scope=\"col\">\\([60;\\,90)\\)</th><th scope=\"col\">\\([90;\\,120)\\)</th><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\">Số học sinh / Teenagers</th><td>\\(8\\)</td><td>\\(6\\)</td><td>\\(6\\)</td><td>\\(5\\)</td><td class=\"mbl-freq-tot\">\\(n=25\\)</td></tr></tbody></table></div> How many teenagers use a phone for at least 60 minutes a day?",
+   "vi": "Khảo sát thời gian dùng điện thoại mỗi ngày của học sinh. <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Thời gian (phút) / Time (min)</th><th scope=\"col\">\\([0;\\,30)\\)</th><th scope=\"col\">\\([30;\\,60)\\)</th><th scope=\"col\">\\([60;\\,90)\\)</th><th scope=\"col\">\\([90;\\,120)\\)</th><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\">Số học sinh / Teenagers</th><td>\\(8\\)</td><td>\\(6\\)</td><td>\\(6\\)</td><td>\\(5\\)</td><td class=\"mbl-freq-tot\">\\(n=25\\)</td></tr></tbody></table></div> Có bao nhiêu học sinh dùng điện thoại từ 60 phút mỗi ngày trở lên?",
+   "options": [
+    "\\(11\\)",
+    "\\(17\\)",
+    "\\(14\\)",
+    "\\(5\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Add the frequencies of the groups from 60 upward: 11.",
+   "explain_vi": "Đáp án a. Cộng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">tần số</b> các nhóm từ mốc 60 trở lên: 11.",
+   "images": [],
+   "id": "943775bb98e4",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "A survey asked teenagers how long they use a phone each day. Thời gian (phút) / Time (min)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)CộngSố học sinh / Teenagers\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(n=#\\) How many teenagers use a phone for less than # minutes a day?",
+   "en": "A survey asked teenagers how long they use a phone each day. <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Thời gian (phút) / Time (min)</th><th scope=\"col\">\\([0;\\,30)\\)</th><th scope=\"col\">\\([30;\\,60)\\)</th><th scope=\"col\">\\([60;\\,90)\\)</th><th scope=\"col\">\\([90;\\,120)\\)</th><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\">Số học sinh / Teenagers</th><td>\\(6\\)</td><td>\\(9\\)</td><td>\\(16\\)</td><td>\\(9\\)</td><td class=\"mbl-freq-tot\">\\(n=40\\)</td></tr></tbody></table></div> How many teenagers use a phone for less than 90 minutes a day?",
+   "vi": "Khảo sát thời gian dùng điện thoại mỗi ngày của học sinh. <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Thời gian (phút) / Time (min)</th><th scope=\"col\">\\([0;\\,30)\\)</th><th scope=\"col\">\\([30;\\,60)\\)</th><th scope=\"col\">\\([60;\\,90)\\)</th><th scope=\"col\">\\([90;\\,120)\\)</th><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\">Số học sinh / Teenagers</th><td>\\(6\\)</td><td>\\(9\\)</td><td>\\(16\\)</td><td>\\(9\\)</td><td class=\"mbl-freq-tot\">\\(n=40\\)</td></tr></tbody></table></div> Có bao nhiêu học sinh dùng điện thoại dưới 90 phút mỗi ngày?",
+   "options": [
+    "\\(9\\)",
+    "\\(15\\)",
+    "\\(31\\)",
+    "\\(40\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Add the frequencies of the groups that end at or before 90: 31.",
+   "explain_vi": "Đáp án c. Cộng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">tần số</b> của các nhóm nằm hoàn toàn bên dưới mốc 90: 31.",
+   "images": [],
+   "id": "7c5232daa42d",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "An electricity company recorded the monthly electricity use of households in a street. Điện năng (kWh) / Electricity (kWh)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)CộngSố hộ / Households\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(n=#\\) Most households fall into which group of monthly electricity use?",
+   "en": "An electricity company recorded the monthly electricity use of households in a street. <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Điện năng (kWh) / Electricity (kWh)</th><th scope=\"col\">\\([150;\\,200)\\)</th><th scope=\"col\">\\([200;\\,250)\\)</th><th scope=\"col\">\\([250;\\,300)\\)</th><th scope=\"col\">\\([300;\\,350)\\)</th><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\">Số hộ / Households</th><td>\\(7\\)</td><td>\\(8\\)</td><td>\\(11\\)</td><td>\\(10\\)</td><td class=\"mbl-freq-tot\">\\(n=36\\)</td></tr></tbody></table></div> Most households fall into which group of monthly electricity use?",
+   "vi": "Công ty điện lực ghi lại lượng điện tiêu thụ hằng tháng của các hộ gia đình một con phố. <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Điện năng (kWh) / Electricity (kWh)</th><th scope=\"col\">\\([150;\\,200)\\)</th><th scope=\"col\">\\([200;\\,250)\\)</th><th scope=\"col\">\\([250;\\,300)\\)</th><th scope=\"col\">\\([300;\\,350)\\)</th><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\">Số hộ / Households</th><td>\\(7\\)</td><td>\\(8\\)</td><td>\\(11\\)</td><td>\\(10\\)</td><td class=\"mbl-freq-tot\">\\(n=36\\)</td></tr></tbody></table></div> Phần lớn hộ gia đình thuộc nhóm lượng điện tiêu thụ hằng tháng nào?",
+   "options": [
+    "\\([200;\\,250)\\)",
+    "\\([300;\\,350)\\)",
+    "\\([250;\\,300)\\)",
+    "\\([150;\\,200)\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The highest frequency is 11, in this group.",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">Tần số</b> lớn nhất là 11, thuộc nhóm này.",
+   "images": [],
+   "id": "afd31ef6dbcc",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "An electricity company recorded the monthly electricity use of households in a street. Điện năng (kWh) / Electricity (kWh)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)CộngSố hộ / Households\\(#\\)\\(x\\)\\(#\\)\\(#\\)\\(n=#\\) There are # households in all. Find the missing frequency \\(x\\).",
+   "en": "An electricity company recorded the monthly electricity use of households in a street. <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Điện năng (kWh) / Electricity (kWh)</th><th scope=\"col\">\\([200;\\,250)\\)</th><th scope=\"col\">\\([250;\\,300)\\)</th><th scope=\"col\">\\([300;\\,350)\\)</th><th scope=\"col\">\\([350;\\,400)\\)</th><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\">Số hộ / Households</th><td>\\(8\\)</td><td>\\(x\\)</td><td>\\(6\\)</td><td>\\(3\\)</td><td class=\"mbl-freq-tot\">\\(n=24\\)</td></tr></tbody></table></div> There are 24 households in all. Find the missing frequency \\(x\\).",
+   "vi": "Công ty điện lực ghi lại lượng điện tiêu thụ hằng tháng của các hộ gia đình một con phố. <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Điện năng (kWh) / Electricity (kWh)</th><th scope=\"col\">\\([200;\\,250)\\)</th><th scope=\"col\">\\([250;\\,300)\\)</th><th scope=\"col\">\\([300;\\,350)\\)</th><th scope=\"col\">\\([350;\\,400)\\)</th><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\">Số hộ / Households</th><td>\\(8\\)</td><td>\\(x\\)</td><td>\\(6\\)</td><td>\\(3\\)</td><td class=\"mbl-freq-tot\">\\(n=24\\)</td></tr></tbody></table></div> Có tất cả 24 hộ gia đình. Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">tần số</b> \\(x\\) còn thiếu.",
+   "options": [
+    "\\(17\\)",
+    "\\(9\\)",
+    "\\(7\\)",
+    "\\(5\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(x=24-17=7\\).",
+   "explain_vi": "Đáp án c. \\(x=24-17=7\\).",
+   "images": [],
+   "id": "b7035de6c8f6",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "An electricity company recorded the monthly electricity use of households in a street. Điện năng (kWh) / Electricity (kWh)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)CộngSố hộ / Households\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(n=#\\) What percentage of the households use less than # kWh a month?",
+   "en": "An electricity company recorded the monthly electricity use of households in a street. <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Điện năng (kWh) / Electricity (kWh)</th><th scope=\"col\">\\([100;\\,150)\\)</th><th scope=\"col\">\\([150;\\,200)\\)</th><th scope=\"col\">\\([200;\\,250)\\)</th><th scope=\"col\">\\([250;\\,300)\\)</th><th scope=\"col\">\\([300;\\,350)\\)</th><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\">Số hộ / Households</th><td>\\(5\\)</td><td>\\(4\\)</td><td>\\(4\\)</td><td>\\(4\\)</td><td>\\(8\\)</td><td class=\"mbl-freq-tot\">\\(n=25\\)</td></tr></tbody></table></div> What percentage of the households use less than 250 kWh a month?",
+   "vi": "Công ty điện lực ghi lại lượng điện tiêu thụ hằng tháng của các hộ gia đình một con phố. <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Điện năng (kWh) / Electricity (kWh)</th><th scope=\"col\">\\([100;\\,150)\\)</th><th scope=\"col\">\\([150;\\,200)\\)</th><th scope=\"col\">\\([200;\\,250)\\)</th><th scope=\"col\">\\([250;\\,300)\\)</th><th scope=\"col\">\\([300;\\,350)\\)</th><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\">Số hộ / Households</th><td>\\(5\\)</td><td>\\(4\\)</td><td>\\(4\\)</td><td>\\(4\\)</td><td>\\(8\\)</td><td class=\"mbl-freq-tot\">\\(n=25\\)</td></tr></tbody></table></div> Có bao nhiêu phần trăm hộ gia đình dùng dưới 250 kWh mỗi tháng?",
+   "options": [
+    "\\(16\\%\\)",
+    "\\(68\\%\\)",
+    "\\(48\\%\\)",
+    "\\(52\\%\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\dfrac{13}{25}\\cdot100\\%=52\\%\\).",
+   "explain_vi": "Đáp án d. \\(\\dfrac{13}{25}\\cdot100\\%=52\\%\\).",
+   "images": [],
+   "id": "fe1065a5a039",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The lifetime (hours) of # bulbs were recorded: \\(#;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #\\). They are put into the groups \\([#;\\,#),\\ [#;\\,#),\\ [#;\\,#)\\). What are the frequencies, in this order?",
+   "en": "The lifetime (hours) of 12 bulbs were recorded: \\(1415;\\ 1277;\\ 1371;\\ 1396;\\ 1541;\\ 1483;\\ 1397;\\ 1400;\\ 1610;\\ 1682;\\ 1490;\\ 1271\\). They are put into the groups \\([1200;\\,1400),\\ [1400;\\,1600),\\ [1600;\\,1800)\\). What are the frequencies, in this order?",
+   "vi": "Ghi lại tuổi thọ (giờ) của 12 bóng đèn: \\(1415;\\ 1277;\\ 1371;\\ 1396;\\ 1541;\\ 1483;\\ 1397;\\ 1400;\\ 1610;\\ 1682;\\ 1490;\\ 1271\\). Chia số liệu vào các nhóm \\([1200;\\,1400),\\ [1400;\\,1600),\\ [1600;\\,1800)\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">Tần số</b> của các nhóm theo thứ tự là?",
+   "options": [
+    "\\(5;\\ 2;\\ 5\\)",
+    "\\(5;\\ 5;\\ 2\\)",
+    "\\(6;\\ 4;\\ 2\\)",
+    "\\(2;\\ 5;\\ 5\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Each group is \\([a;b)\\): a value equal to the right end goes to the next group. Count: 5;\\ 5;\\ 2.",
+   "explain_vi": "Đáp án b. Mỗi nhóm có dạng \\([a;b)\\): giá trị bằng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"endpoint\">đầu mút</b> phải thuộc nhóm kế tiếp. Đếm được: 5;\\ 5;\\ 2.",
+   "images": [],
+   "id": "2067c90a4c1a",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The monthly incomes (in million VND) of the workers in a workshop are grouped as follows. Thu nhập (triệu đồng) / Income\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)CộngSố công nhân / Workers\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(n=#\\) To estimate the mean, one value must stand for all the data in the group \\([#;\\,#)\\). Which value is used?",
+   "en": "The monthly incomes (in million VND) of the workers in a workshop are grouped as follows. <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Thu nhập (triệu đồng) / Income</th><th scope=\"col\">\\([8;\\,12)\\)</th><th scope=\"col\">\\([12;\\,16)\\)</th><th scope=\"col\">\\([16;\\,20)\\)</th><th scope=\"col\">\\([20;\\,24)\\)</th><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\">Số công nhân / Workers</th><td>\\(8\\)</td><td>\\(5\\)</td><td>\\(12\\)</td><td>\\(7\\)</td><td class=\"mbl-freq-tot\">\\(n=32\\)</td></tr></tbody></table></div> To estimate the mean, one value must stand for all the data in the group \\([8;\\,12)\\). Which value is used?",
+   "vi": "Thu nhập hằng tháng (triệu đồng) của công nhân một xưởng được ghép nhóm như sau. <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Thu nhập (triệu đồng) / Income</th><th scope=\"col\">\\([8;\\,12)\\)</th><th scope=\"col\">\\([12;\\,16)\\)</th><th scope=\"col\">\\([16;\\,20)\\)</th><th scope=\"col\">\\([20;\\,24)\\)</th><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\">Số công nhân / Workers</th><td>\\(8\\)</td><td>\\(5\\)</td><td>\\(12\\)</td><td>\\(7\\)</td><td class=\"mbl-freq-tot\">\\(n=32\\)</td></tr></tbody></table></div> Để ước tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"mean\">số trung bình</b>, ta dùng một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint (representative value)\">giá trị đại diện</b> cho cả nhóm \\([8;\\,12)\\). Giá trị đó là?",
+   "options": [
+    "\\(4\\)",
+    "\\(12\\)",
+    "\\(8\\)",
+    "\\(10\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\dfrac{8+12}{2}=10\\).",
+   "explain_vi": "Đáp án d. \\(\\dfrac{8+12}{2}=10\\).",
+   "images": [],
+   "id": "3ca1acbbec99",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "A teacher recorded the scores of a test marked out of # points. Điểm / Score\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)CộngSố học sinh / Students\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(n=#\\) To estimate the mean, one value must stand for all the data in the group \\([#;\\,#)\\). Which value is used?",
+   "en": "A teacher recorded the scores of a test marked out of 50 points. <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Điểm / Score</th><th scope=\"col\">\\([10;\\,15)\\)</th><th scope=\"col\">\\([15;\\,20)\\)</th><th scope=\"col\">\\([20;\\,25)\\)</th><th scope=\"col\">\\([25;\\,30)\\)</th><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\">Số học sinh / Students</th><td>\\(13\\)</td><td>\\(16\\)</td><td>\\(8\\)</td><td>\\(7\\)</td><td class=\"mbl-freq-tot\">\\(n=44\\)</td></tr></tbody></table></div> To estimate the mean, one value must stand for all the data in the group \\([25;\\,30)\\). Which value is used?",
+   "vi": "Giáo viên ghi lại điểm một bài kiểm tra chấm theo thang 50 điểm. <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Điểm / Score</th><th scope=\"col\">\\([10;\\,15)\\)</th><th scope=\"col\">\\([15;\\,20)\\)</th><th scope=\"col\">\\([20;\\,25)\\)</th><th scope=\"col\">\\([25;\\,30)\\)</th><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\">Số học sinh / Students</th><td>\\(13\\)</td><td>\\(16\\)</td><td>\\(8\\)</td><td>\\(7\\)</td><td class=\"mbl-freq-tot\">\\(n=44\\)</td></tr></tbody></table></div> Để ước tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"mean\">số trung bình</b>, ta dùng một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint (representative value)\">giá trị đại diện</b> cho cả nhóm \\([25;\\,30)\\). Giá trị đó là?",
+   "options": [
+    "\\(27{,}5\\)",
+    "\\(25\\)",
+    "\\(30\\)",
+    "\\(5\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\dfrac{25+30}{2}=27{,}5\\).",
+   "explain_vi": "Đáp án a. \\(\\dfrac{25+30}{2}=27{,}5\\).",
+   "images": [],
+   "id": "4d95f85034ca",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "An electricity company recorded the monthly electricity use of households in a street. Điện năng (kWh) / Electricity (kWh)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)CộngSố hộ / Households\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(n=#\\) How many households use at least # kWh a month?",
+   "en": "An electricity company recorded the monthly electricity use of households in a street. <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Điện năng (kWh) / Electricity (kWh)</th><th scope=\"col\">\\([150;\\,200)\\)</th><th scope=\"col\">\\([200;\\,250)\\)</th><th scope=\"col\">\\([250;\\,300)\\)</th><th scope=\"col\">\\([300;\\,350)\\)</th><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\">Số hộ / Households</th><td>\\(6\\)</td><td>\\(7\\)</td><td>\\(4\\)</td><td>\\(3\\)</td><td class=\"mbl-freq-tot\">\\(n=20\\)</td></tr></tbody></table></div> How many households use at least 300 kWh a month?",
+   "vi": "Công ty điện lực ghi lại lượng điện tiêu thụ hằng tháng của các hộ gia đình một con phố. <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Điện năng (kWh) / Electricity (kWh)</th><th scope=\"col\">\\([150;\\,200)\\)</th><th scope=\"col\">\\([200;\\,250)\\)</th><th scope=\"col\">\\([250;\\,300)\\)</th><th scope=\"col\">\\([300;\\,350)\\)</th><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\">Số hộ / Households</th><td>\\(6\\)</td><td>\\(7\\)</td><td>\\(4\\)</td><td>\\(3\\)</td><td class=\"mbl-freq-tot\">\\(n=20\\)</td></tr></tbody></table></div> Có bao nhiêu hộ gia đình dùng từ 300 kWh mỗi tháng trở lên?",
+   "options": [
+    "\\(3\\)",
+    "\\(7\\)",
+    "\\(0\\)",
+    "\\(17\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Add the frequencies of the groups from 300 upward: 3.",
+   "explain_vi": "Đáp án a. Cộng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">tần số</b> các nhóm từ mốc 300 trở lên: 3.",
+   "images": [],
+   "id": "95a23c0e0cae",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "The lifetime (hours) of # bulbs were recorded: \\(#;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #\\). They are put into the groups \\([#;\\,#),\\ [#;\\,#),\\ [#;\\,#)\\). What are the frequencies, in this order?",
+   "en": "The lifetime (hours) of 13 bulbs were recorded: \\(1022;\\ 1386;\\ 1534;\\ 1242;\\ 1427;\\ 1139;\\ 1403;\\ 1583;\\ 1066;\\ 1207;\\ 1213;\\ 1076;\\ 1200\\). They are put into the groups \\([1000;\\,1200),\\ [1200;\\,1400),\\ [1400;\\,1600)\\). What are the frequencies, in this order?",
+   "vi": "Ghi lại tuổi thọ (giờ) của 13 bóng đèn: \\(1022;\\ 1386;\\ 1534;\\ 1242;\\ 1427;\\ 1139;\\ 1403;\\ 1583;\\ 1066;\\ 1207;\\ 1213;\\ 1076;\\ 1200\\). Chia số liệu vào các nhóm \\([1000;\\,1200),\\ [1200;\\,1400),\\ [1400;\\,1600)\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">Tần số</b> của các nhóm theo thứ tự là?",
+   "options": [
+    "\\(5;\\ 4;\\ 4\\)",
+    "\\(4;\\ 4;\\ 5\\)",
+    "\\(4;\\ 5;\\ 4\\)",
+    "\\(5;\\ 5;\\ 4\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Each group is \\([a;b)\\): a value equal to the right end goes to the next group. Count: 4;\\ 5;\\ 4.",
+   "explain_vi": "Đáp án c. Mỗi nhóm có dạng \\([a;b)\\): giá trị bằng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"endpoint\">đầu mút</b> phải thuộc nhóm kế tiếp. Đếm được: 4;\\ 5;\\ 4.",
+   "images": [],
+   "id": "8d1ec255276c",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "A survey asked teenagers how long they use a phone each day. Thời gian (phút) / Time (min)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)CộngSố học sinh / Teenagers\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(n=#\\) Exactly # teenagers use a phone for less than # minutes a day.",
+   "en": "A survey asked teenagers how long they use a phone each day. <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Thời gian (phút) / Time (min)</th><th scope=\"col\">\\([30;\\,60)\\)</th><th scope=\"col\">\\([60;\\,90)\\)</th><th scope=\"col\">\\([90;\\,120)\\)</th><th scope=\"col\">\\([120;\\,150)\\)</th><th scope=\"col\">\\([150;\\,180)\\)</th><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\">Số học sinh / Teenagers</th><td>\\(8\\)</td><td>\\(6\\)</td><td>\\(7\\)</td><td>\\(4\\)</td><td>\\(11\\)</td><td class=\"mbl-freq-tot\">\\(n=36\\)</td></tr></tbody></table></div> Exactly 6 teenagers use a phone for less than 60 minutes a day.",
+   "vi": "Khảo sát thời gian dùng điện thoại mỗi ngày của học sinh. <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Thời gian (phút) / Time (min)</th><th scope=\"col\">\\([30;\\,60)\\)</th><th scope=\"col\">\\([60;\\,90)\\)</th><th scope=\"col\">\\([90;\\,120)\\)</th><th scope=\"col\">\\([120;\\,150)\\)</th><th scope=\"col\">\\([150;\\,180)\\)</th><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\">Số học sinh / Teenagers</th><td>\\(8\\)</td><td>\\(6\\)</td><td>\\(7\\)</td><td>\\(4\\)</td><td>\\(11\\)</td><td class=\"mbl-freq-tot\">\\(n=36\\)</td></tr></tbody></table></div> Có đúng 6 học sinh dùng điện thoại dưới 60 phút mỗi ngày.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "The correct number is 8.",
+   "explain_vi": "Số đúng là 8.",
+   "images": [],
+   "id": "c8c815438f30",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "An electricity company recorded the monthly electricity use of households in a street. Điện năng (kWh) / Electricity (kWh)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)CộngSố hộ / Households\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(n=#\\) The group \\([#;\\,#)\\) makes up #% of the sample.",
+   "en": "An electricity company recorded the monthly electricity use of households in a street. <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Điện năng (kWh) / Electricity (kWh)</th><th scope=\"col\">\\([200;\\,250)\\)</th><th scope=\"col\">\\([250;\\,300)\\)</th><th scope=\"col\">\\([300;\\,350)\\)</th><th scope=\"col\">\\([350;\\,400)\\)</th><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\">Số hộ / Households</th><td>\\(14\\)</td><td>\\(7\\)</td><td>\\(20\\)</td><td>\\(9\\)</td><td class=\"mbl-freq-tot\">\\(n=50\\)</td></tr></tbody></table></div> The group \\([250;\\,300)\\) makes up 19% of the sample.",
+   "vi": "Công ty điện lực ghi lại lượng điện tiêu thụ hằng tháng của các hộ gia đình một con phố. <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Điện năng (kWh) / Electricity (kWh)</th><th scope=\"col\">\\([200;\\,250)\\)</th><th scope=\"col\">\\([250;\\,300)\\)</th><th scope=\"col\">\\([300;\\,350)\\)</th><th scope=\"col\">\\([350;\\,400)\\)</th><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\">Số hộ / Households</th><td>\\(14\\)</td><td>\\(7\\)</td><td>\\(20\\)</td><td>\\(9\\)</td><td class=\"mbl-freq-tot\">\\(n=50\\)</td></tr></tbody></table></div> Nhóm \\([250;\\,300)\\) chiếm 19% mẫu.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "\\(\\dfrac{7}{50}\\cdot100\\%=14\\%\\).",
+   "explain_vi": "\\(\\dfrac{7}{50}\\cdot100\\%=14\\%\\).",
+   "images": [],
+   "id": "119746506dc8",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "A survey asked teenagers how long they use a phone each day. Thời gian (phút) / Time (min)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)CộngSố học sinh / Teenagers\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(n=#\\) How many teenagers use a phone for at least # minutes a day?",
+   "en": "A survey asked teenagers how long they use a phone each day. <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Thời gian (phút) / Time (min)</th><th scope=\"col\">\\([60;\\,90)\\)</th><th scope=\"col\">\\([90;\\,120)\\)</th><th scope=\"col\">\\([120;\\,150)\\)</th><th scope=\"col\">\\([150;\\,180)\\)</th><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\">Số học sinh / Teenagers</th><td>\\(9\\)</td><td>\\(7\\)</td><td>\\(7\\)</td><td>\\(21\\)</td><td class=\"mbl-freq-tot\">\\(n=44\\)</td></tr></tbody></table></div> How many teenagers use a phone for at least 90 minutes a day?",
+   "vi": "Khảo sát thời gian dùng điện thoại mỗi ngày của học sinh. <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Thời gian (phút) / Time (min)</th><th scope=\"col\">\\([60;\\,90)\\)</th><th scope=\"col\">\\([90;\\,120)\\)</th><th scope=\"col\">\\([120;\\,150)\\)</th><th scope=\"col\">\\([150;\\,180)\\)</th><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\">Số học sinh / Teenagers</th><td>\\(9\\)</td><td>\\(7\\)</td><td>\\(7\\)</td><td>\\(21\\)</td><td class=\"mbl-freq-tot\">\\(n=44\\)</td></tr></tbody></table></div> Có bao nhiêu học sinh dùng điện thoại từ 90 phút mỗi ngày trở lên?",
+   "options": [],
+   "answer": "35",
+   "explain_en": "44-9=35.",
+   "explain_vi": "44-9=35.",
+   "images": [],
+   "id": "e2af19bd9f13",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "A teacher recorded the scores of a test marked out of # points. Điểm / Score\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)CộngSố học sinh / Students\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(n=#\\) What percentage of the students are in the group \\([#;\\,#)\\)?",
+   "en": "A teacher recorded the scores of a test marked out of 50 points. <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Điểm / Score</th><th scope=\"col\">\\([20;\\,25)\\)</th><th scope=\"col\">\\([25;\\,30)\\)</th><th scope=\"col\">\\([30;\\,35)\\)</th><th scope=\"col\">\\([35;\\,40)\\)</th><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\">Số học sinh / Students</th><td>\\(4\\)</td><td>\\(5\\)</td><td>\\(6\\)</td><td>\\(5\\)</td><td class=\"mbl-freq-tot\">\\(n=20\\)</td></tr></tbody></table></div> What percentage of the students are in the group \\([20;\\,25)\\)?",
+   "vi": "Giáo viên ghi lại điểm một bài kiểm tra chấm theo thang 50 điểm. <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Điểm / Score</th><th scope=\"col\">\\([20;\\,25)\\)</th><th scope=\"col\">\\([25;\\,30)\\)</th><th scope=\"col\">\\([30;\\,35)\\)</th><th scope=\"col\">\\([35;\\,40)\\)</th><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\">Số học sinh / Students</th><td>\\(4\\)</td><td>\\(5\\)</td><td>\\(6\\)</td><td>\\(5\\)</td><td class=\"mbl-freq-tot\">\\(n=20\\)</td></tr></tbody></table></div> Nhóm \\([20;\\,25)\\) chiếm bao nhiêu phần trăm số học sinh?",
+   "options": [],
+   "answer": "20",
+   "explain_en": "\\(\\dfrac{4}{20}\\cdot100=20\\).",
+   "explain_vi": "\\(\\dfrac{4}{20}\\cdot100=20\\).",
+   "images": [],
+   "id": "0938666e5555",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "A bank recorded how long its customers waited before being served. Thời gian chờ (phút) / Waiting (min)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)CộngSố khách hàng / Customers\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(n=#\\) Most customers fall into which group of waiting time?",
+   "en": "A bank recorded how long its customers waited before being served. <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Thời gian chờ (phút) / Waiting (min)</th><th scope=\"col\">\\([0;\\,5)\\)</th><th scope=\"col\">\\([5;\\,10)\\)</th><th scope=\"col\">\\([10;\\,15)\\)</th><th scope=\"col\">\\([15;\\,20)\\)</th><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\">Số khách hàng / Customers</th><td>\\(4\\)</td><td>\\(12\\)</td><td>\\(10\\)</td><td>\\(6\\)</td><td class=\"mbl-freq-tot\">\\(n=32\\)</td></tr></tbody></table></div> Most customers fall into which group of waiting time?",
+   "vi": "Một ngân hàng ghi lại thời gian khách hàng chờ đến lượt phục vụ. <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Thời gian chờ (phút) / Waiting (min)</th><th scope=\"col\">\\([0;\\,5)\\)</th><th scope=\"col\">\\([5;\\,10)\\)</th><th scope=\"col\">\\([10;\\,15)\\)</th><th scope=\"col\">\\([15;\\,20)\\)</th><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\">Số khách hàng / Customers</th><td>\\(4\\)</td><td>\\(12\\)</td><td>\\(10\\)</td><td>\\(6\\)</td><td class=\"mbl-freq-tot\">\\(n=32\\)</td></tr></tbody></table></div> Phần lớn khách hàng thuộc nhóm thời gian chờ nào?",
+   "options": [
+    "\\([10;\\,15)\\)",
+    "\\([0;\\,5)\\)",
+    "\\([5;\\,10)\\)",
+    "\\([15;\\,20)\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The highest frequency is 12, in this group.",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">Tần số</b> lớn nhất là 12, thuộc nhóm này.",
+   "images": [],
+   "id": "7a1d6b1966cc",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "A researcher measured the daily phone time of some teenagers (minutes). The smallest value is # and the largest is #. The groups must cover all values, have equal width and not overlap. Which list of group ends is suitable?",
+   "en": "A researcher measured the daily phone time of some teenagers (minutes). The smallest value is 84 and the largest is 223. The groups must cover all values, have equal width and not overlap. Which list of group ends is suitable?",
+   "vi": "Đo thời gian dùng điện thoại mỗi ngày của một số học sinh (phút). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"minimum value\">Giá trị nhỏ nhất</b> là 84, lớn nhất là 223. Các nhóm phải phủ hết số liệu, có độ rộng bằng nhau và không chồng lấn. Dãy mốc nhóm nào phù hợp?",
+   "options": [
+    "60 ; 90 ; 120 ; 150 ; 180 ; 210 ; 240",
+    "90 ; 120 ; 150 ; 180 ; 210 ; 240",
+    "60 ; 90 ; 120 ; 150 ; 180 ; 210",
+    "60 ; 90 ; 120 ; 165 ; 180 ; 210 ; 240"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. The ends 60 ; 90 ; 120 ; 150 ; 180 ; 210 ; 240 give equal width 30, start at or below 84 and the last end exceeds 223.",
+   "explain_vi": "Đáp án a. Các mốc 60 ; 90 ; 120 ; 150 ; 180 ; 210 ; 240 có độ rộng đều 30, bắt đầu không lớn hơn 84 và mốc cuối lớn hơn 223.",
+   "images": [],
+   "id": "9b01140229a0",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "A school surveyed how long its students need to travel from home to school. Thời gian (phút) / Time (min)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)CộngSố học sinh / Students\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(n=#\\) To estimate the mean, one value must stand for all the data in the group \\([#;\\,#)\\). Which value is used?",
+   "en": "A school surveyed how long its students need to travel from home to school. <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Thời gian (phút) / Time (min)</th><th scope=\"col\">\\([10;\\,15)\\)</th><th scope=\"col\">\\([15;\\,20)\\)</th><th scope=\"col\">\\([20;\\,25)\\)</th><th scope=\"col\">\\([25;\\,30)\\)</th><th scope=\"col\">\\([30;\\,35)\\)</th><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\">Số học sinh / Students</th><td>\\(9\\)</td><td>\\(6\\)</td><td>\\(4\\)</td><td>\\(3\\)</td><td>\\(3\\)</td><td class=\"mbl-freq-tot\">\\(n=25\\)</td></tr></tbody></table></div> To estimate the mean, one value must stand for all the data in the group \\([15;\\,20)\\). Which value is used?",
+   "vi": "Nhà trường khảo sát thời gian đi từ nhà đến trường của học sinh. <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Thời gian (phút) / Time (min)</th><th scope=\"col\">\\([10;\\,15)\\)</th><th scope=\"col\">\\([15;\\,20)\\)</th><th scope=\"col\">\\([20;\\,25)\\)</th><th scope=\"col\">\\([25;\\,30)\\)</th><th scope=\"col\">\\([30;\\,35)\\)</th><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\">Số học sinh / Students</th><td>\\(9\\)</td><td>\\(6\\)</td><td>\\(4\\)</td><td>\\(3\\)</td><td>\\(3\\)</td><td class=\"mbl-freq-tot\">\\(n=25\\)</td></tr></tbody></table></div> Để ước tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"mean\">số trung bình</b>, ta dùng một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint (representative value)\">giá trị đại diện</b> cho cả nhóm \\([15;\\,20)\\). Giá trị đó là?",
+   "options": [
+    "\\(5\\)",
+    "\\(20\\)",
+    "\\(15\\)",
+    "\\(17{,}5\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\dfrac{15+20}{2}=17{,}5\\).",
+   "explain_vi": "Đáp án d. \\(\\dfrac{15+20}{2}=17{,}5\\).",
+   "images": [],
+   "id": "56e672d72f0e",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "A teacher recorded the scores of a test marked out of # points. Điểm / Score\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)CộngSố học sinh / Students\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(n=#\\) How many students scored at least # points?",
+   "en": "A teacher recorded the scores of a test marked out of 50 points. <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Điểm / Score</th><th scope=\"col\">\\([20;\\,25)\\)</th><th scope=\"col\">\\([25;\\,30)\\)</th><th scope=\"col\">\\([30;\\,35)\\)</th><th scope=\"col\">\\([35;\\,40)\\)</th><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\">Số học sinh / Students</th><td>\\(10\\)</td><td>\\(9\\)</td><td>\\(14\\)</td><td>\\(17\\)</td><td class=\"mbl-freq-tot\">\\(n=50\\)</td></tr></tbody></table></div> How many students scored at least 35 points?",
+   "vi": "Giáo viên ghi lại điểm một bài kiểm tra chấm theo thang 50 điểm. <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Điểm / Score</th><th scope=\"col\">\\([20;\\,25)\\)</th><th scope=\"col\">\\([25;\\,30)\\)</th><th scope=\"col\">\\([30;\\,35)\\)</th><th scope=\"col\">\\([35;\\,40)\\)</th><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\">Số học sinh / Students</th><td>\\(10\\)</td><td>\\(9\\)</td><td>\\(14\\)</td><td>\\(17\\)</td><td class=\"mbl-freq-tot\">\\(n=50\\)</td></tr></tbody></table></div> Có bao nhiêu học sinh đạt từ 35 điểm trở lên?",
+   "options": [
+    "\\(17\\)",
+    "\\(33\\)",
+    "\\(31\\)",
+    "\\(0\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Add the frequencies of the groups from 35 upward: 17.",
+   "explain_vi": "Đáp án a. Cộng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">tần số</b> các nhóm từ mốc 35 trở lên: 17.",
+   "images": [],
+   "id": "26401a89ed6d",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The ages of the employees of a company are grouped as follows. Tuổi / Age\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)CộngSố nhân viên / Employees\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(n=#\\) What percentage of the employees are younger than #?",
+   "en": "The ages of the employees of a company are grouped as follows. <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Tuổi / Age</th><th scope=\"col\">\\([20;\\,25)\\)</th><th scope=\"col\">\\([25;\\,30)\\)</th><th scope=\"col\">\\([30;\\,35)\\)</th><th scope=\"col\">\\([35;\\,40)\\)</th><th scope=\"col\">\\([40;\\,45)\\)</th><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\">Số nhân viên / Employees</th><td>\\(2\\)</td><td>\\(6\\)</td><td>\\(3\\)</td><td>\\(5\\)</td><td>\\(4\\)</td><td class=\"mbl-freq-tot\">\\(n=20\\)</td></tr></tbody></table></div> What percentage of the employees are younger than 40?",
+   "vi": "Tuổi của các nhân viên một công ty được ghép nhóm như sau. <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Tuổi / Age</th><th scope=\"col\">\\([20;\\,25)\\)</th><th scope=\"col\">\\([25;\\,30)\\)</th><th scope=\"col\">\\([30;\\,35)\\)</th><th scope=\"col\">\\([35;\\,40)\\)</th><th scope=\"col\">\\([40;\\,45)\\)</th><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\">Số nhân viên / Employees</th><td>\\(2\\)</td><td>\\(6\\)</td><td>\\(3\\)</td><td>\\(5\\)</td><td>\\(4\\)</td><td class=\"mbl-freq-tot\">\\(n=20\\)</td></tr></tbody></table></div> Có bao nhiêu phần trăm nhân viên dưới 40 tuổi?",
+   "options": [
+    "\\(20\\%\\)",
+    "\\(80\\%\\)",
+    "\\(100\\%\\)",
+    "\\(25\\%\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\dfrac{16}{20}\\cdot100\\%=80\\%\\).",
+   "explain_vi": "Đáp án b. \\(\\dfrac{16}{20}\\cdot100\\%=80\\%\\).",
+   "images": [],
+   "id": "babed32b8c82",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The heights of the students in a class were measured and grouped as follows. Chiều cao (cm) / Height (cm)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)CộngSố học sinh / Students\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(n=#\\) How many students are shorter than # cm?",
+   "en": "The heights of the students in a class were measured and grouped as follows. <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Chiều cao (cm) / Height (cm)</th><th scope=\"col\">\\([145;\\,150)\\)</th><th scope=\"col\">\\([150;\\,155)\\)</th><th scope=\"col\">\\([155;\\,160)\\)</th><th scope=\"col\">\\([160;\\,165)\\)</th><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\">Số học sinh / Students</th><td>\\(6\\)</td><td>\\(6\\)</td><td>\\(13\\)</td><td>\\(15\\)</td><td class=\"mbl-freq-tot\">\\(n=40\\)</td></tr></tbody></table></div> How many students are shorter than 150 cm?",
+   "vi": "Đo <b class=\"mbl-term\" tabindex=\"0\" data-en=\"height\">chiều cao</b> của các học sinh một lớp rồi ghép <b class=\"mbl-term\" tabindex=\"0\" data-en=\"group (class)\">nhóm số liệu</b> như sau. <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\"><b class=\"mbl-term\" tabindex=\"0\" data-en=\"height\">Chiều cao</b> (cm) / Height (cm)</th><th scope=\"col\">\\([145;\\,150)\\)</th><th scope=\"col\">\\([150;\\,155)\\)</th><th scope=\"col\">\\([155;\\,160)\\)</th><th scope=\"col\">\\([160;\\,165)\\)</th><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\">Số học sinh / Students</th><td>\\(6\\)</td><td>\\(6\\)</td><td>\\(13\\)</td><td>\\(15\\)</td><td class=\"mbl-freq-tot\">\\(n=40\\)</td></tr></tbody></table></div> Có bao nhiêu học sinh cao dưới 150 cm?",
+   "options": [
+    "\\(12\\)",
+    "\\(6\\)",
+    "\\(34\\)",
+    "\\(0\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Add the frequencies of the groups that end at or before 150: 6.",
+   "explain_vi": "Đáp án b. Cộng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">tần số</b> của các nhóm nằm hoàn toàn bên dưới mốc 150: 6.",
+   "images": [],
+   "id": "f5e1e099638c",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The heights of the students in a class were measured and grouped as follows. Chiều cao (cm) / Height (cm)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)\\([#;\\,#)\\)CộngSố học sinh / Students\\(#\\)\\(#\\)\\(#\\)\\(x\\)\\(n=#\\) There are # students in all. Find the missing frequency \\(x\\).",
+   "en": "The heights of the students in a class were measured and grouped as follows. <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Chiều cao (cm) / Height (cm)</th><th scope=\"col\">\\([145;\\,150)\\)</th><th scope=\"col\">\\([150;\\,155)\\)</th><th scope=\"col\">\\([155;\\,160)\\)</th><th scope=\"col\">\\([160;\\,165)\\)</th><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\">Số học sinh / Students</th><td>\\(11\\)</td><td>\\(5\\)</td><td>\\(5\\)</td><td>\\(x\\)</td><td class=\"mbl-freq-tot\">\\(n=30\\)</td></tr></tbody></table></div> There are 30 students in all. Find the missing frequency \\(x\\).",
+   "vi": "Đo <b class=\"mbl-term\" tabindex=\"0\" data-en=\"height\">chiều cao</b> của các học sinh một lớp rồi ghép <b class=\"mbl-term\" tabindex=\"0\" data-en=\"group (class)\">nhóm số liệu</b> như sau. <div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\"><b class=\"mbl-term\" tabindex=\"0\" data-en=\"height\">Chiều cao</b> (cm) / Height (cm)</th><th scope=\"col\">\\([145;\\,150)\\)</th><th scope=\"col\">\\([150;\\,155)\\)</th><th scope=\"col\">\\([155;\\,160)\\)</th><th scope=\"col\">\\([160;\\,165)\\)</th><td class=\"mbl-freq-tot\">Cộng</td></tr><tr><th scope=\"row\">Số học sinh / Students</th><td>\\(11\\)</td><td>\\(5\\)</td><td>\\(5\\)</td><td>\\(x\\)</td><td class=\"mbl-freq-tot\">\\(n=30\\)</td></tr></tbody></table></div> Có tất cả 30 học sinh. Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">tần số</b> \\(x\\) còn thiếu.",
+   "options": [
+    "\\(21\\)",
+    "\\(9\\)",
+    "\\(11\\)",
+    "\\(7\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(x=30-21=9\\).",
+   "explain_vi": "Đáp án b. \\(x=30-21=9\\).",
+   "images": [],
+   "id": "b7f7eae7d9c5",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The mass (g) of # eggs were recorded: \\(#;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #;\\ #\\). They are put into the groups \\([#;\\,#),\\ [#;\\,#),\\ [#;\\,#),\\ [#;\\,#)\\). What are the frequencies, in this order?",
+   "en": "The mass (g) of 14 eggs were recorded: \\(53;\\ 54;\\ 42;\\ 42;\\ 42;\\ 50;\\ 56;\\ 58;\\ 55;\\ 54;\\ 44;\\ 45;\\ 49;\\ 40\\). They are put into the groups \\([40;\\,45),\\ [45;\\,50),\\ [50;\\,55),\\ [55;\\,60)\\). What are the frequencies, in this order?",
+   "vi": "Ghi lại khối lượng (g) của 14 quả trứng: \\(53;\\ 54;\\ 42;\\ 42;\\ 42;\\ 50;\\ 56;\\ 58;\\ 55;\\ 54;\\ 44;\\ 45;\\ 49;\\ 40\\). Chia số liệu vào các nhóm \\([40;\\,45),\\ [45;\\,50),\\ [50;\\,55),\\ [55;\\,60)\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">Tần số</b> của các nhóm theo thứ tự là?",
+   "options": [
+    "\\(5;\\ 2;\\ 4;\\ 2\\)",
+    "\\(5;\\ 2;\\ 4;\\ 3\\)",
+    "\\(5;\\ 4;\\ 2;\\ 3\\)",
+    "\\(2;\\ 3;\\ 4;\\ 5\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Each group is \\([a;b)\\): a value equal to the right end goes to the next group. Count: 5;\\ 2;\\ 4;\\ 3.",
+   "explain_vi": "Đáp án b. Mỗi nhóm có dạng \\([a;b)\\): giá trị bằng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"endpoint\">đầu mút</b> phải thuộc nhóm kế tiếp. Đếm được: 5;\\ 2;\\ 4;\\ 3.",
+   "images": [],
+   "id": "1b124e0ebf6d",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  }
+ ]
+}

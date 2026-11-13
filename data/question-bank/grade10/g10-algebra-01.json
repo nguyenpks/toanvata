@@ -1,0 +1,912 @@
+{
+ "lesson": "g10-algebra-01",
+ "grade": 10,
+ "no": null,
+ "title": "Làm quen với đại số",
+ "path": "lessons/grade10/algebra/introduction.html",
+ "items": [
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Evaluate \\(x^#-#x+#\\) when \\(x=#\\).",
+   "en": "Evaluate \\(x^2-2x+3\\) when \\(x=3\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"evaluate\">Tính giá trị</b> của \\(x^2-2x+3\\) khi \\(x=3\\).",
+   "options": [
+    "\\(6\\)",
+    "\\(12\\)",
+    "\\(0\\)",
+    "\\(18\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(3^2-2\\cdot3+3=9-6+3=6\\).",
+   "explain_vi": "Đáp án a. \\(3^2-2\\cdot3+3=9-6+3=6\\).",
+   "images": [],
+   "id": "db5109ef2e0c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Expand \\(-#(x-#)\\).",
+   "en": "Expand \\(-2(x-3)\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"expand\">Khai triển</b> \\(-2(x-3)\\).",
+   "options": [
+    "\\(-2x-6\\)",
+    "\\(-2x+6\\)",
+    "\\(2x-6\\)",
+    "\\(-2x+3\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(-2\\cdot x=-2x\\) and \\(-2\\cdot(-3)=+6\\).",
+   "explain_vi": "Đáp án b. \\(-2\\cdot x=-2x\\) và \\(-2\\cdot(-3)=+6\\).",
+   "images": [],
+   "id": "6efb9920e018",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "In \\(#x^#-#x+#\\), what is the coefficient of \\(x\\)?",
+   "en": "In \\(5x^2-7x+2\\), what is the coefficient of \\(x\\)?",
+   "vi": "Trong \\(5x^2-7x+2\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b> của \\(x\\) là gì?",
+   "options": [
+    "\\(5\\)",
+    "\\(-7\\)",
+    "\\(2\\)",
+    "\\(7\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. The term is \\(-7x\\), so the coefficient is \\(-7\\). The sign belongs to the coefficient.",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">Hạng tử</b> là \\(-7x\\) nên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b> là \\(-7\\). Dấu thuộc về <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b>.",
+   "images": [],
+   "id": "fbc14de97dab",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Simplify \\(#a+#b-a+#b\\).",
+   "en": "Simplify \\(4a+3b-a+2b\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"simplify\">Rút gọn</b> \\(4a+3b-a+2b\\).",
+   "options": [
+    "\\(3a+5b\\)",
+    "\\(5a+5b\\)",
+    "\\(3a+b\\)",
+    "\\(3ab+5\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(4a-a=3a\\) and \\(3b+2b=5b\\).",
+   "explain_vi": "Đáp án a. \\(4a-a=3a\\) và \\(3b+2b=5b\\).",
+   "images": [],
+   "id": "9de8b375dcf0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Which expression means “seven less than \\(y\\)”?",
+   "en": "Which expression means “seven less than \\(y\\)”?",
+   "vi": "Biểu thức nào có nghĩa “seven less than \\(y\\)”?",
+   "options": [
+    "\\(7-y\\)",
+    "\\(y-7\\)",
+    "\\(7y\\)",
+    "\\(y+7\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. “Seven less than \\(y\\)” is \\(y-7\\).",
+   "explain_vi": "Đáp án b. “Seven less than \\(y\\)” là \\(y-7\\).",
+   "images": [],
+   "id": "c42033e59524",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "True or false: \\(#x\\) and \\(#x^#\\) are like terms.",
+   "en": "True or false: \\(3x\\) and \\(3x^2\\) are like terms.",
+   "vi": "Đúng hay sai: \\(3x\\) và \\(3x^2\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"like terms\">các hạng tử đồng dạng</b>.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. Their variable parts, \\(x\\) and \\(x^2\\), are different.",
+   "explain_vi": "Sai. Phần biến của chúng, \\(x\\) và \\(x^2\\), khác nhau.",
+   "images": [],
+   "id": "f3311ab01293",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "True or false: \\((x^#)^#=x^#\\).",
+   "en": "True or false: \\((x^3)^2=x^6\\).",
+   "vi": "Đúng hay sai: \\((x^3)^2=x^6\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. We multiply the exponents: \\(3\\cdot2=6\\).",
+   "explain_vi": "Đúng. Ta nhân các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"exponent\">số mũ</b>: \\(3\\cdot2=6\\).",
+   "images": [],
+   "id": "beeb2f419a7b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "True or false: \\(x^#\\cdot x^#=x^#\\).",
+   "en": "True or false: \\(x^2\\cdot x^3=x^6\\).",
+   "vi": "Đúng hay sai: \\(x^2\\cdot x^3=x^6\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. We add the exponents: \\(x^2\\cdot x^3=x^5\\).",
+   "explain_vi": "Sai. Ta cộng các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"exponent\">số mũ</b>: \\(x^2\\cdot x^3=x^5\\).",
+   "images": [],
+   "id": "d220b8098d17",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "Evaluate \\(#x-#\\) when \\(x=#\\).",
+   "en": "Evaluate \\(3x-2\\) when \\(x=4\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"evaluate\">Tính giá trị</b> của \\(3x-2\\) khi \\(x=4\\).",
+   "options": [],
+   "answer": "10",
+   "explain_en": "Answer: 10. \\(3\\cdot4-2=12-2=10\\).",
+   "explain_vi": "Đáp số: 10. \\(3\\cdot4-2=12-2=10\\).",
+   "images": [],
+   "id": "30a7ad82bcdb",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "Evaluate \\(#x^#-#x+#\\) when \\(x=-#\\).",
+   "en": "Evaluate \\(2x^2-3x+1\\) when \\(x=-1\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"evaluate\">Tính giá trị</b> của \\(2x^2-3x+1\\) khi \\(x=-1\\).",
+   "options": [],
+   "answer": "6",
+   "explain_en": "Answer: 6. \\(2\\cdot1-3\\cdot(-1)+1=2+3+1=6\\).",
+   "explain_vi": "Đáp số: 6. \\(2\\cdot1-3\\cdot(-1)+1=2+3+1=6\\).",
+   "images": [],
+   "id": "5b01de8eafd5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "Expand and simplify \\(#(x+#)-(x-#)\\), then evaluate the result when \\(x=#\\).",
+   "en": "Expand and simplify \\(2(x+3)-(x-4)\\), then evaluate the result when \\(x=2\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"expand\">Khai triển</b> và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"simplify\">rút gọn</b> \\(2(x+3)-(x-4)\\), rồi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"evaluate\">tính giá trị</b> của kết quả khi \\(x=2\\).",
+   "options": [],
+   "answer": "12",
+   "explain_en": "Answer: 12. \\(2x+6-x+4=x+10\\). When \\(x=2\\), \\(x+10=12\\).",
+   "explain_vi": "Đáp số: 12. \\(2x+6-x+4=x+10\\). Khi \\(x=2\\) thì \\(x+10=12\\).",
+   "images": [],
+   "id": "69f35e6c73db",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "Simplify \\(#x+#-#x-#\\). The result is \\(ax+b\\). Find \\(a+b\\).",
+   "en": "Simplify \\(7x+3-2x-1\\). The result is \\(ax+b\\). Find \\(a+b\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"simplify\">Rút gọn</b> \\(7x+3-2x-1\\). Kết quả có dạng \\(ax+b\\). Tìm \\(a+b\\).",
+   "options": [],
+   "answer": "7",
+   "explain_en": "Answer: 7. \\(7x-2x=5x\\) and \\(3-1=2\\), so the result is \\(5x+2\\) and \\(a+b=5+2=7\\).",
+   "explain_vi": "Đáp số: 7. \\(7x-2x=5x\\) và \\(3-1=2\\) nên kết quả là \\(5x+2\\), do đó \\(a+b=5+2=7\\).",
+   "images": [],
+   "id": "266203439753",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "How do we read \\(x^#\\) in English?",
+   "en": "How do we read \\(x^3\\) in English?",
+   "vi": "Ký hiệu \\(x^3\\) đọc bằng tiếng Anh như thế nào?",
+   "options": [
+    "\\(\\text{x cubed}\\)",
+    "\\(\\text{x squared}\\)",
+    "\\(\\text{x times three}\\)",
+    "\\(\\text{x plus three}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(x^3\\) is “x cubed” or “x to the power of three”.",
+   "explain_vi": "Đáp án a. \\(x^3\\) đọc là “x cubed” hoặc “x to the power of three”.",
+   "images": [],
+   "id": "4085693edc3b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Which instruction means “Rút gọn biểu thức”?",
+   "en": "Which instruction means “Rút gọn biểu thức”?",
+   "vi": "Câu lệnh nào có nghĩa “<b class=\"mbl-term\" tabindex=\"0\" data-en=\"simplify an expression\">Rút gọn biểu thức</b>”?",
+   "options": [
+    "\\(\\text{Simplify the expression.}\\)",
+    "\\(\\text{Evaluate the expression.}\\)",
+    "\\(\\text{Expand the brackets.}\\)",
+    "\\(\\text{Solve the equation.}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Simplify = rút gọn; evaluate = tính giá trị; expand = khai triển; solve = giải.",
+   "explain_vi": "Đáp án a. simplify = <b class=\"mbl-term\" tabindex=\"0\" data-en=\"simplify\">rút gọn</b>; evaluate = <b class=\"mbl-term\" tabindex=\"0\" data-en=\"evaluate\">tính giá trị</b>; expand = <b class=\"mbl-term\" tabindex=\"0\" data-en=\"expand\">khai triển</b>; solve = giải.",
+   "images": [],
+   "id": "50bccb8b16a2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Evaluate \\(x^#-#x+#\\) when \\(x=#\\).",
+   "en": "Evaluate \\(x^2-3x+4\\) when \\(x=4\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"evaluate\">Tính giá trị</b> của \\(x^2-3x+4\\) khi \\(x=4\\).",
+   "options": [
+    "\\(0\\)",
+    "\\(8\\)",
+    "\\(12\\)",
+    "\\(20\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(4^2-3\\cdot4+4=16-12+4=8\\).",
+   "explain_vi": "Đáp án b. \\(4^2-3\\cdot4+4=16-12+4=8\\).",
+   "images": [],
+   "id": "f2e5ac2fad2b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Expand \\(-#(x-#)\\).",
+   "en": "Expand \\(-3(x-2)\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"expand\">Khai triển</b> \\(-3(x-2)\\).",
+   "options": [
+    "\\(-3x-6\\)",
+    "\\(3x-6\\)",
+    "\\(-3x+6\\)",
+    "\\(-3x-2\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(-3\\cdot x=-3x\\) and \\(-3\\cdot(-2)=+6\\).",
+   "explain_vi": "Đáp án c. \\(-3\\cdot x=-3x\\) và \\(-3\\cdot(-2)=+6\\).",
+   "images": [],
+   "id": "6074b8b9be10",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "In \\(#x^#+#x-#\\), what is the coefficient of \\(x\\)?",
+   "en": "In \\(6x^2+9x-4\\), what is the coefficient of \\(x\\)?",
+   "vi": "Trong \\(6x^2+9x-4\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b> của \\(x\\) là gì?",
+   "options": [
+    "\\(6\\)",
+    "\\(-4\\)",
+    "\\(9\\)",
+    "\\(-9\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The term is \\(9x\\), so the coefficient is \\(9\\).",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">Hạng tử</b> là \\(9x\\) nên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b> là \\(9\\).",
+   "images": [],
+   "id": "450330eedb2b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Simplify \\(#m+#n-#m+#n\\).",
+   "en": "Simplify \\(5m+2n-2m+4n\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"simplify\">Rút gọn</b> \\(5m+2n-2m+4n\\).",
+   "options": [
+    "\\(3m+6n\\)",
+    "\\(7m+6n\\)",
+    "\\(3m+2n\\)",
+    "\\(9mn\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(5m-2m=3m\\) and \\(2n+4n=6n\\).",
+   "explain_vi": "Đáp án a. \\(5m-2m=3m\\) và \\(2n+4n=6n\\).",
+   "images": [],
+   "id": "a4d79db7926c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Which expression means “five more than \\(y\\)”?",
+   "en": "Which expression means “five more than \\(y\\)”?",
+   "vi": "Biểu thức nào có nghĩa “five more than \\(y\\)”?",
+   "options": [
+    "\\(5-y\\)",
+    "\\(y-5\\)",
+    "\\(5y\\)",
+    "\\(y+5\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. “Five more than \\(y\\)” is \\(y+5\\).",
+   "explain_vi": "Đáp án d. “Five more than \\(y\\)” là \\(y+5\\).",
+   "images": [],
+   "id": "a6630a45ad26",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "True or false: \\(#xy\\) and \\(#xy\\) are like terms.",
+   "en": "True or false: \\(5xy\\) and \\(2xy\\) are like terms.",
+   "vi": "Đúng hay sai: \\(5xy\\) và \\(2xy\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"like terms\">các hạng tử đồng dạng</b>.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. Their variable parts are the same: \\(xy\\).",
+   "explain_vi": "Đúng. Phần biến của chúng giống nhau: \\(xy\\).",
+   "images": [],
+   "id": "db639349ac6e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "True or false: \\((x^#)^#=x^#\\).",
+   "en": "True or false: \\((x^2)^4=x^8\\).",
+   "vi": "Đúng hay sai: \\((x^2)^4=x^8\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. We multiply the exponents: \\(2\\cdot4=8\\).",
+   "explain_vi": "Đúng. Ta nhân các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"exponent\">số mũ</b>: \\(2\\cdot4=8\\).",
+   "images": [],
+   "id": "1b8dda3c640d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "True or false: \\(x^#\\cdot x^#=x^#\\).",
+   "en": "True or false: \\(x^4\\cdot x^2=x^8\\).",
+   "vi": "Đúng hay sai: \\(x^4\\cdot x^2=x^8\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. We add the exponents: \\(x^4\\cdot x^2=x^6\\).",
+   "explain_vi": "Sai. Ta cộng các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"exponent\">số mũ</b>: \\(x^4\\cdot x^2=x^6\\).",
+   "images": [],
+   "id": "4ef297ee0958",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "Evaluate \\(#x-#\\) when \\(x=#\\).",
+   "en": "Evaluate \\(6x-4\\) when \\(x=3\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"evaluate\">Tính giá trị</b> của \\(6x-4\\) khi \\(x=3\\).",
+   "options": [],
+   "answer": "14",
+   "explain_en": "Answer: 14. \\(6\\cdot3-4=18-4=14\\).",
+   "explain_vi": "Đáp số: 14. \\(6\\cdot3-4=18-4=14\\).",
+   "images": [],
+   "id": "ad938b27da33",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "Evaluate \\(#x^#-#x+#\\) when \\(x=-#\\).",
+   "en": "Evaluate \\(3x^2-2x+4\\) when \\(x=-2\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"evaluate\">Tính giá trị</b> của \\(3x^2-2x+4\\) khi \\(x=-2\\).",
+   "options": [],
+   "answer": "20",
+   "explain_en": "Answer: 20. \\(3\\cdot4-2\\cdot(-2)+4=12+4+4=20\\).",
+   "explain_vi": "Đáp số: 20. \\(3\\cdot4-2\\cdot(-2)+4=12+4+4=20\\).",
+   "images": [],
+   "id": "ed18b664d5c4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "Expand and simplify \\(#(x+#)-(x-#)\\), then evaluate the result when \\(x=#\\).",
+   "en": "Expand and simplify \\(3(x+2)-(x-5)\\), then evaluate the result when \\(x=3\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"expand\">Khai triển</b> và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"simplify\">rút gọn</b> \\(3(x+2)-(x-5)\\), rồi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"evaluate\">tính giá trị</b> của kết quả khi \\(x=3\\).",
+   "options": [],
+   "answer": "17",
+   "explain_en": "Answer: 17. \\(3x+6-x+5=2x+11\\). When \\(x=3\\), \\(2x+11=17\\).",
+   "explain_vi": "Đáp số: 17. \\(3x+6-x+5=2x+11\\). Khi \\(x=3\\) thì \\(2x+11=17\\).",
+   "images": [],
+   "id": "a826394684e8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "Simplify \\(#x+#-#x-#\\). The result is \\(ax+b\\). Find \\(a+b\\).",
+   "en": "Simplify \\(8x+5-3x-2\\). The result is \\(ax+b\\). Find \\(a+b\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"simplify\">Rút gọn</b> \\(8x+5-3x-2\\). Kết quả có dạng \\(ax+b\\). Tìm \\(a+b\\).",
+   "options": [],
+   "answer": "8",
+   "explain_en": "Answer: 8. \\(8x-3x=5x\\) and \\(5-2=3\\), so the result is \\(5x+3\\) and \\(a+b=5+3=8\\).",
+   "explain_vi": "Đáp số: 8. \\(8x-3x=5x\\) và \\(5-2=3\\) nên kết quả là \\(5x+3\\), do đó \\(a+b=5+3=8\\).",
+   "images": [],
+   "id": "62dc0572997f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "How do we read \\(x^#\\) in English?",
+   "en": "How do we read \\(x^2\\) in English?",
+   "vi": "Ký hiệu \\(x^2\\) đọc bằng tiếng Anh như thế nào?",
+   "options": [
+    "\\(\\text{x cubed}\\)",
+    "\\(\\text{x squared}\\)",
+    "\\(\\text{x times two}\\)",
+    "\\(\\text{x plus two}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(x^2\\) is “x squared” or “x to the power of two”.",
+   "explain_vi": "Đáp án b. \\(x^2\\) đọc là “x squared” hoặc “x to the power of two”.",
+   "images": [],
+   "id": "6b97fd21bc73",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Which instruction means “Khai triển các dấu ngoặc”?",
+   "en": "Which instruction means “Khai triển các dấu ngoặc”?",
+   "vi": "Câu lệnh nào có nghĩa “<b class=\"mbl-term\" tabindex=\"0\" data-en=\"expand\">Khai triển</b> các dấu ngoặc”?",
+   "options": [
+    "\\(\\text{Simplify the expression.}\\)",
+    "\\(\\text{Evaluate the expression.}\\)",
+    "\\(\\text{Expand the brackets.}\\)",
+    "\\(\\text{Solve the equation.}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Expand = khai triển; simplify = rút gọn; evaluate = tính giá trị; solve = giải.",
+   "explain_vi": "Đáp án c. expand = <b class=\"mbl-term\" tabindex=\"0\" data-en=\"expand\">khai triển</b>; simplify = <b class=\"mbl-term\" tabindex=\"0\" data-en=\"simplify\">rút gọn</b>; evaluate = <b class=\"mbl-term\" tabindex=\"0\" data-en=\"evaluate\">tính giá trị</b>; solve = giải.",
+   "images": [],
+   "id": "ef1cff73aae6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Evaluate \\(x^#-#x+#\\) when \\(x=#\\).",
+   "en": "Evaluate \\(x^2-4x+5\\) when \\(x=2\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"evaluate\">Tính giá trị</b> của \\(x^2-4x+5\\) khi \\(x=2\\).",
+   "options": [
+    "\\(1\\)",
+    "\\(9\\)",
+    "\\(-1\\)",
+    "\\(17\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(2^2-4\\cdot2+5=4-8+5=1\\).",
+   "explain_vi": "Đáp án a. \\(2^2-4\\cdot2+5=4-8+5=1\\).",
+   "images": [],
+   "id": "b9afa38c01f9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Expand \\(-#(x-#)\\).",
+   "en": "Expand \\(-5(x-2)\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"expand\">Khai triển</b> \\(-5(x-2)\\).",
+   "options": [
+    "\\(-5x-10\\)",
+    "\\(-5x+10\\)",
+    "\\(5x-10\\)",
+    "\\(-5x-2\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(-5\\cdot x=-5x\\) and \\(-5\\cdot(-2)=+10\\).",
+   "explain_vi": "Đáp án b. \\(-5\\cdot x=-5x\\) và \\(-5\\cdot(-2)=+10\\).",
+   "images": [],
+   "id": "96faf95e5e0d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "In \\(#x^#-#x+#\\), what is the coefficient of \\(x\\)?",
+   "en": "In \\(3x^2-8x+1\\), what is the coefficient of \\(x\\)?",
+   "vi": "Trong \\(3x^2-8x+1\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b> của \\(x\\) là gì?",
+   "options": [
+    "\\(3\\)",
+    "\\(8\\)",
+    "\\(1\\)",
+    "\\(-8\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. The term is \\(-8x\\), so the coefficient is \\(-8\\). The sign belongs to the coefficient.",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">Hạng tử</b> là \\(-8x\\) nên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b> là \\(-8\\). Dấu thuộc về <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b>.",
+   "images": [],
+   "id": "2e98533c2eb2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Simplify \\(#p+#q-p-#q\\).",
+   "en": "Simplify \\(6p+4q-p-3q\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"simplify\">Rút gọn</b> \\(6p+4q-p-3q\\).",
+   "options": [
+    "\\(5p+7q\\)",
+    "\\(7p+q\\)",
+    "\\(5p+q\\)",
+    "\\(5pq\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(6p-p=5p\\) and \\(4q-3q=q\\).",
+   "explain_vi": "Đáp án c. \\(6p-p=5p\\) và \\(4q-3q=q\\).",
+   "images": [],
+   "id": "5c1d898e2a32",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Which expression means “eight more than twice \\(y\\)”?",
+   "en": "Which expression means “eight more than twice \\(y\\)”?",
+   "vi": "Biểu thức nào có nghĩa “eight more than twice \\(y\\)”?",
+   "options": [
+    "\\(2y-8\\)",
+    "\\(8y+2\\)",
+    "\\(2y+8\\)",
+    "\\(2(y+8)\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. “Twice \\(y\\)” is \\(2y\\). “Eight more than” that is \\(2y+8\\). In (d), the 8 would also be doubled.",
+   "explain_vi": "Đáp án c. “Twice \\(y\\)” là \\(2y\\); “eight more than” số đó là \\(2y+8\\). Ở câu d, số 8 cũng bị nhân đôi.",
+   "images": [],
+   "id": "bd44e1d175eb",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "True or false: \\(#a\\) and \\(#b\\) are like terms.",
+   "en": "True or false: \\(4a\\) and \\(4b\\) are like terms.",
+   "vi": "Đúng hay sai: \\(4a\\) và \\(4b\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"like terms\">các hạng tử đồng dạng</b>.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. Their variable parts, \\(a\\) and \\(b\\), are different.",
+   "explain_vi": "Sai. Phần biến của chúng, \\(a\\) và \\(b\\), khác nhau.",
+   "images": [],
+   "id": "9d3daac462c0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "True or false: \\((x^#)^#=x^{#}\\).",
+   "en": "True or false: \\((x^5)^2=x^{10}\\).",
+   "vi": "Đúng hay sai: \\((x^5)^2=x^{10}\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. We multiply the exponents: \\(5\\cdot2=10\\).",
+   "explain_vi": "Đúng. Ta nhân các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"exponent\">số mũ</b>: \\(5\\cdot2=10\\).",
+   "images": [],
+   "id": "04ca5bcd7d59",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "True or false: \\(x^#\\cdot x^#=x^{#}\\).",
+   "en": "True or false: \\(x^3\\cdot x^4=x^{12}\\).",
+   "vi": "Đúng hay sai: \\(x^3\\cdot x^4=x^{12}\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. We add the exponents: \\(x^3\\cdot x^4=x^7\\).",
+   "explain_vi": "Sai. Ta cộng các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"exponent\">số mũ</b>: \\(x^3\\cdot x^4=x^7\\).",
+   "images": [],
+   "id": "d69400ccf69b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Evaluate \\(#x-#\\) when \\(x=#\\).",
+   "en": "Evaluate \\(5x-8\\) when \\(x=6\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"evaluate\">Tính giá trị</b> của \\(5x-8\\) khi \\(x=6\\).",
+   "options": [],
+   "answer": "22",
+   "explain_en": "Answer: 22. \\(5\\cdot6-8=30-8=22\\).",
+   "explain_vi": "Đáp số: 22. \\(5\\cdot6-8=30-8=22\\).",
+   "images": [],
+   "id": "b1bed1005954",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Evaluate \\(#x^#+x-#\\) when \\(x=-#\\).",
+   "en": "Evaluate \\(2x^2+x-3\\) when \\(x=-3\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"evaluate\">Tính giá trị</b> của \\(2x^2+x-3\\) khi \\(x=-3\\).",
+   "options": [],
+   "answer": "12",
+   "explain_en": "Answer: 12. \\(2\\cdot9+(-3)-3=18-3-3=12\\).",
+   "explain_vi": "Đáp số: 12. \\(2\\cdot9+(-3)-3=18-3-3=12\\).",
+   "images": [],
+   "id": "7f185b554a5d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Expand and simplify \\(#(x+#)-(#x-#)\\), then evaluate the result when \\(x=#\\).",
+   "en": "Expand and simplify \\(4(x+1)-(2x-3)\\), then evaluate the result when \\(x=4\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"expand\">Khai triển</b> và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"simplify\">rút gọn</b> \\(4(x+1)-(2x-3)\\), rồi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"evaluate\">tính giá trị</b> của kết quả khi \\(x=4\\).",
+   "options": [],
+   "answer": "15",
+   "explain_en": "Answer: 15. \\(4x+4-2x+3=2x+7\\). When \\(x=4\\), \\(2x+7=15\\).",
+   "explain_vi": "Đáp số: 15. \\(4x+4-2x+3=2x+7\\). Khi \\(x=4\\) thì \\(2x+7=15\\).",
+   "images": [],
+   "id": "41ad1c303538",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Simplify \\(#x+#-#x-#\\). The result is \\(ax+b\\). Find \\(a+b\\).",
+   "en": "Simplify \\(10x+2-4x-5\\). The result is \\(ax+b\\). Find \\(a+b\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"simplify\">Rút gọn</b> \\(10x+2-4x-5\\). Kết quả có dạng \\(ax+b\\). Tìm \\(a+b\\).",
+   "options": [],
+   "answer": "3",
+   "explain_en": "Answer: 3. \\(10x-4x=6x\\) and \\(2-5=-3\\), so the result is \\(6x-3\\) and \\(a+b=6+(-3)=3\\).",
+   "explain_vi": "Đáp số: 3. \\(10x-4x=6x\\) và \\(2-5=-3\\) nên kết quả là \\(6x-3\\), do đó \\(a+b=6+(-3)=3\\).",
+   "images": [],
+   "id": "686ca009a2ba",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "How do we read \\(x^#\\) in English?",
+   "en": "How do we read \\(x^4\\) in English?",
+   "vi": "Ký hiệu \\(x^4\\) đọc bằng tiếng Anh như thế nào?",
+   "options": [
+    "\\(\\text{x to the power of four}\\)",
+    "\\(\\text{x times four}\\)",
+    "\\(\\text{x plus four}\\)",
+    "\\(\\text{x squared}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(x^4\\) is “x to the power of four” or “x to the fourth”.",
+   "explain_vi": "Đáp án a. \\(x^4\\) đọc là “x to the power of four” hoặc “x to the fourth”.",
+   "images": [],
+   "id": "6f8aa882ad4b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Which instruction means “Tính giá trị của biểu thức”?",
+   "en": "Which instruction means “Tính giá trị của biểu thức”?",
+   "vi": "Câu lệnh nào có nghĩa “<b class=\"mbl-term\" tabindex=\"0\" data-en=\"evaluate\">Tính giá trị</b> của biểu thức”?",
+   "options": [
+    "\\(\\text{Solve the equation.}\\)",
+    "\\(\\text{Expand the brackets.}\\)",
+    "\\(\\text{Simplify the expression.}\\)",
+    "\\(\\text{Evaluate the expression.}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Evaluate = tính giá trị; solve = giải; expand = khai triển; simplify = rút gọn.",
+   "explain_vi": "Đáp án d. evaluate = <b class=\"mbl-term\" tabindex=\"0\" data-en=\"evaluate\">tính giá trị</b>; solve = giải; expand = <b class=\"mbl-term\" tabindex=\"0\" data-en=\"expand\">khai triển</b>; simplify = <b class=\"mbl-term\" tabindex=\"0\" data-en=\"simplify\">rút gọn</b>.",
+   "images": [],
+   "id": "7f41079bf320",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  }
+ ]
+}

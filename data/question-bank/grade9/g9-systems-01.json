@@ -1,0 +1,1317 @@
+{
+ "lesson": "g9-systems-01",
+ "grade": 9,
+ "no": 1,
+ "title": "Khái niệm phương trình và hệ hai phương trình bậc nhất hai ẩn",
+ "path": "lessons/grade9/systems-of-equations/linear-equations-two-variables.html",
+ "items": [
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Find \\(m\\) so that \\((-#;\\ #)\\) is a solution of the equation \\(mx-y=#\\).",
+   "en": "Find \\(m\\) so that \\((-4;\\ 0)\\) is a solution of the equation \\(mx-y=12\\).",
+   "vi": "Tìm \\(m\\) để \\((-4;\\ 0)\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution of an equation\">nghiệm của phương trình</b> \\(mx-y=12\\).",
+   "options": [
+    "\\(m=-4\\)",
+    "\\(m=3\\)",
+    "\\(m=-2\\)",
+    "\\(m=-3\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Substitute \\(x=-4,\\ y=0\\): \\(-4m=12\\), so \\(m=-3\\).",
+   "explain_vi": "Đáp án d. Thay \\(x=-4,\\ y=0\\): \\(-4m=12\\), suy ra \\(m=-3\\).",
+   "images": [],
+   "id": "9e6dda677ed5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Pick the equation of the form \\(ax+by=c\\) (\\(a, b\\) not both zero).",
+   "en": "Pick the equation of the form \\(ax+by=c\\) (\\(a, b\\) not both zero).",
+   "vi": "Chọn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> có dạng \\(ax+by=c\\) (\\(a, b\\) không đồng thời bằng 0).",
+   "options": [
+    "\\(-\\dfrac{1}{x}-y=-3\\)",
+    "\\(0x+0y=-3\\)",
+    "\\(-x-y=-3\\)",
+    "\\(-x^2-y=-3\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. It has the form \\(ax+by=c\\) with \\(a, b\\) not both zero. The others contain \\(x^2\\), \\(y^2\\), \\(xy\\), \\(\\dfrac{1}{x}\\) or have \\(a=b=0\\).",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">Phương trình</b> có dạng \\(ax+by=c\\) với \\(a, b\\) không đồng thời bằng 0. Các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> còn lại chứa \\(x^2\\), \\(y^2\\), \\(xy\\), \\(\\dfrac{1}{x}\\) hoặc có \\(a=b=0\\).",
+   "images": [],
+   "id": "decf2b937fe2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Which ordered pair is a solution of the equation \\(-x-#y=-#\\)?",
+   "en": "Which ordered pair is a solution of the equation \\(-x-4y=-18\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"ordered pair\">Cặp số</b> nào là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution of an equation\">nghiệm của phương trình</b> \\(-x-4y=-18\\)?",
+   "options": [
+    "\\((4;\\ 2)\\)",
+    "\\((2;\\ 4)\\)",
+    "\\((-2;\\ 4)\\)",
+    "\\((2;\\ -4)\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Substitute: \\(-1\\cdot(2)+(-4)\\cdot(4)=-18\\). The other pairs do not satisfy the equation.",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"substitute\">Thay vào</b>: \\(-1\\cdot(2)+(-4)\\cdot(4)=-18\\). Các cặp còn lại không thỏa mãn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b>.",
+   "images": [],
+   "id": "1dfef32c8aa1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "The general solution of \\(#x-y=#\\) is \\((x;\\ -#x-#)\\) with \\(x\\in\\mathbb{R}\\).",
+   "en": "The general solution of \\(5x-y=5\\) is \\((x;\\ -5x-5)\\) with \\(x\\in\\mathbb{R}\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"general solution\">Nghiệm tổng quát</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(5x-y=5\\) là \\((x;\\ -5x-5)\\) với \\(x\\in\\mathbb{R}\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. From the equation, \\(y=5x-5\\).",
+   "explain_vi": "Sai. Từ <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> suy ra \\(y=5x-5\\).",
+   "images": [],
+   "id": "b0e999b24a64",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "The pair \\((-#;\\ -#)\\) is a solution of the system \\(\\begin{cases}-#x+#y=#\\\\ -#x-#y=#\\end{cases}\\).",
+   "en": "The pair \\((-1;\\ -1)\\) is a solution of the system \\(\\begin{cases}-4x+2y=2\\\\ -3x-4y=7\\end{cases}\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"ordered pair\">Cặp số</b> \\((-1;\\ -1)\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution of a system\">nghiệm của hệ</b> \\(\\begin{cases}-4x+2y=2\\\\ -3x-4y=7\\end{cases}\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. The first equation gives \\(2\\) and the second gives \\(7\\).",
+   "explain_vi": "Đúng. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">Phương trình</b> thứ nhất cho \\(2\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> thứ hai cho \\(7\\).",
+   "images": [],
+   "id": "9ca3eacc9279",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "A notebook costs # thousand dong and a pen costs # thousand dong. Hoa spends exactly # thousand dong on \\(x\\) notebooks and \\(y\\) pens, so \\(#x+#y=#\\). If Hoa buys # notebooks, how many pens does she buy?",
+   "en": "A notebook costs 15 thousand dong and a pen costs 4 thousand dong. Hoa spends exactly 118 thousand dong on \\(x\\) notebooks and \\(y\\) pens, so \\(15x+4y=118\\). If Hoa buys 6 notebooks, how many pens does she buy?",
+   "vi": "Một quyển vở giá 15 nghìn đồng, một cây bút giá 4 nghìn đồng. Bạn Hoa mua \\(x\\) quyển vở và \\(y\\) cây bút hết đúng 118 nghìn đồng, nên \\(15x+4y=118\\). Nếu bạn Hoa mua 6 quyển vở thì bạn mua bao nhiêu cây bút?",
+   "options": [],
+   "answer": "7",
+   "explain_en": "Answer: 7. \\(15\\cdot6+4y=118\\Rightarrow 4y=28\\Rightarrow y=7\\).",
+   "explain_vi": "Đáp số: 7. \\(15\\cdot6+4y=118\\Rightarrow 4y=28\\Rightarrow y=7\\).",
+   "images": [],
+   "id": "345eccd7d093",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "The line that represents the solutions of \\(-#x-#y=-#\\) meets the \\(y\\)-axis at \\((#;\\ y_#)\\). Find \\(y_#\\).",
+   "en": "The line that represents the solutions of \\(-4x-4y=-8\\) meets the \\(y\\)-axis at \\((0;\\ y_0)\\). Find \\(y_0\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">Đường thẳng</b> biểu diễn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution set\">tập nghiệm</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(-4x-4y=-8\\) cắt trục tung tại điểm \\((0;\\ y_0)\\). Tìm \\(y_0\\).",
+   "options": [],
+   "answer": "2",
+   "explain_en": "Answer: 2. Put \\(x=0\\): \\(-4y_0=-8\\), so \\(y_0=2\\).",
+   "explain_vi": "Đáp số: 2. Thay \\(x=0\\): \\(-4y_0=-8\\) nên \\(y_0=2\\).",
+   "images": [],
+   "id": "b245fad1d363",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D1",
+   "type": "mcq",
+   "form": "How many solutions does the equation \\(#x+#y=#\\) have?",
+   "en": "How many solutions does the equation \\(9x+7y=7\\) have?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">Phương trình</b> \\(9x+7y=7\\) có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b>?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">infinitely many</span><span class=\"vi\">vô số nghiệm</span></span>",
+    "<span class=\"txi\"><span class=\"en\">exactly two</span><span class=\"vi\">đúng hai nghiệm</span></span>",
+    "<span class=\"txi\"><span class=\"en\">no solution</span><span class=\"vi\">vô nghiệm</span></span>",
+    "<span class=\"txi\"><span class=\"en\">exactly one</span><span class=\"vi\">đúng một nghiệm</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. A linear equation in two variables always has infinitely many solutions (all points of a line).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"linear equation in two variables\">Phương trình bậc nhất hai ẩn</b> luôn có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"infinitely many solutions\">vô số nghiệm</b> (mọi điểm của một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b>).",
+   "images": [],
+   "id": "ad64933ac356",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D1",
+   "type": "mcq",
+   "form": "In the equation \\(-#x-#y=-#\\), what is the coefficient of \\(y\\)?",
+   "en": "In the equation \\(-5x-8y=-9\\), what is the coefficient of \\(y\\)?",
+   "vi": "Trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(-5x-8y=-9\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b> của \\(y\\) là bao nhiêu?",
+   "options": [
+    "\\(-8\\)",
+    "\\(8\\)",
+    "\\(-5\\)",
+    "\\(-9\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Compare with \\(ax+by=c\\): \\(a=-5,\\ b=-8,\\ c=-9\\).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"compare\">So sánh</b> với \\(ax+by=c\\): \\(a=-5,\\ b=-8,\\ c=-9\\).",
+   "images": [],
+   "id": "a8fd931b8e7b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Which system is made of two linear equations in \\(x\\) and \\(y\\)?",
+   "en": "Which system is made of two linear equations in \\(x\\) and \\(y\\)?",
+   "vi": "Hệ nào gồm hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"linear equation in two variables\">phương trình bậc nhất hai ẩn</b> \\(x, y\\)?",
+   "options": [
+    "\\(\\begin{cases}3x-y=0\\\\ 0x+0y=5\\end{cases}\\)",
+    "\\(\\begin{cases}3x-y=0\\\\ -3xy+y=5\\end{cases}\\)",
+    "\\(\\begin{cases}3x-y^2=0\\\\ -3x+y=5\\end{cases}\\)",
+    "\\(\\begin{cases}3x-y=0\\\\ -3x+y=5\\end{cases}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Both equations must have the form \\(ax+by=c\\) with \\(a, b\\) not both zero.",
+   "explain_vi": "Đáp án d. Cả hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> phải có dạng \\(ax+by=c\\) với \\(a, b\\) không đồng thời bằng 0.",
+   "images": [],
+   "id": "5dd13044038b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D2",
+   "type": "mcq",
+   "form": "The pair \\((#;\\ y_#)\\) is a solution of \\(-#x-#y=-#\\). Find \\(y_#\\).",
+   "en": "The pair \\((1;\\ y_0)\\) is a solution of \\(-2x-6y=-14\\). Find \\(y_0\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"ordered pair\">Cặp số</b> \\((1;\\ y_0)\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution of an equation\">nghiệm của phương trình</b> \\(-2x-6y=-14\\). Tìm \\(y_0\\).",
+   "options": [
+    "\\(3\\)",
+    "\\(2\\)",
+    "\\(\\dfrac{8}{3}\\)",
+    "\\(-2\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Substitute \\(x=1\\): \\(-6y_0=-12\\), so \\(y_0=2\\).",
+   "explain_vi": "Đáp án b. Thay \\(x=1\\): \\(-6y_0=-12\\) nên \\(y_0=2\\).",
+   "images": [],
+   "id": "be54f6d8b0ee",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D2",
+   "type": "mcq",
+   "form": "The solutions of \\(-#x+#y=-#\\) are represented by which line?",
+   "en": "The solutions of \\(-2x+0y=-4\\) are represented by which line?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution set\">Tập nghiệm</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(-2x+0y=-4\\) được biểu diễn bởi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> nào?",
+   "options": [
+    "\\(x=2\\)",
+    "\\(x=-4\\)",
+    "\\(y=2\\)",
+    "\\(x=-2\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. The equation means \\(x=2\\); this line is parallel to (or on) the \\(y\\)-axis.",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">Phương trình</b> tương đương \\(x=2\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> này <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b> hoặc trùng với trục tung.",
+   "images": [],
+   "id": "e7cb714a8d1f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Which point lies on the line \\(#x+#y=-#\\)?",
+   "en": "Which point lies on the line \\(2x+4y=-10\\)?",
+   "vi": "Điểm nào thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(2x+4y=-10\\)?",
+   "options": [
+    "\\(N(-3;\\ 1)\\)",
+    "\\(P(1;\\ 3)\\)",
+    "\\(Q(-1;\\ 3)\\)",
+    "\\(M(1;\\ -3)\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. A point lies on the line when its coordinates satisfy the equation: \\(2\\cdot(1)+(4)\\cdot(-3)=-10\\).",
+   "explain_vi": "Đáp án d. Điểm thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> khi tọa độ của nó thỏa mãn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b>: \\(2\\cdot(1)+(4)\\cdot(-3)=-10\\).",
+   "images": [],
+   "id": "5f564669a51c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Find \\(c\\) so that the line \\(#x+#y=c\\) passes through the point \\(M(#;\\ #)\\).",
+   "en": "Find \\(c\\) so that the line \\(3x+5y=c\\) passes through the point \\(M(3;\\ 3)\\).",
+   "vi": "Tìm \\(c\\) để <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(3x+5y=c\\) đi qua điểm \\(M(3;\\ 3)\\).",
+   "options": [
+    "\\(c=-24\\)",
+    "\\(c=24\\)",
+    "\\(c=-6\\)",
+    "\\(c=25\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(c=3\\cdot(3)+(5)\\cdot(3)=24\\).",
+   "explain_vi": "Đáp án b. \\(c=3\\cdot(3)+(5)\\cdot(3)=24\\).",
+   "images": [],
+   "id": "a1bf58353687",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Find \\(m\\) so that \\((#;\\ -#)\\) is a solution of \\(#x+my=#\\).",
+   "en": "Find \\(m\\) so that \\((1;\\ -3)\\) is a solution of \\(4x+my=16\\).",
+   "vi": "Tìm \\(m\\) để \\((1;\\ -3)\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution of an equation\">nghiệm của phương trình</b> \\(4x+my=16\\).",
+   "options": [
+    "\\(m=-\\dfrac{20}{3}\\)",
+    "\\(m=4\\)",
+    "\\(m=-3\\)",
+    "\\(m=-4\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(4-3m=16\\Rightarrow -3m=12\\Rightarrow m=-4\\).",
+   "explain_vi": "Đáp án d. \\(4-3m=16\\Rightarrow -3m=12\\Rightarrow m=-4\\).",
+   "images": [],
+   "id": "c575021d7d80",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Which pair is a solution of the system \\(\\begin{cases}#x-#y=-#\\\\ #x+#y=#\\end{cases}\\)?",
+   "en": "Which pair is a solution of the system \\(\\begin{cases}3x-4y=-9\\\\ 2x+2y=8\\end{cases}\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"ordered pair\">Cặp số</b> nào là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution of a system\">nghiệm của hệ</b> \\(\\begin{cases}3x-4y=-9\\\\ 2x+2y=8\\end{cases}\\)?",
+   "options": [
+    "\\((-1;\\ -3)\\)",
+    "\\((1;\\ 3)\\)",
+    "\\((-3;\\ 0)\\)",
+    "\\((3;\\ 1)\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. The pair must satisfy <b>both</b> equations. Some options satisfy only one of them.",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ordered pair\">Cặp số</b> phải thỏa mãn <b>cả hai</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b>. Có phương án chỉ thỏa mãn một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b>.",
+   "images": [],
+   "id": "92a199fe4175",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A class buys # museum tickets for # thousand dong in total. An adult ticket costs # thousand dong and a student ticket costs # thousand dong. Let \\(x\\) be the number of adult tickets and \\(y\\) the number of student tickets. Which system is correct?",
+   "en": "A class buys 15 museum tickets for 1170 thousand dong in total. An adult ticket costs 90 thousand dong and a student ticket costs 60 thousand dong. Let \\(x\\) be the number of adult tickets and \\(y\\) the number of student tickets. Which system is correct?",
+   "vi": "Một lớp mua 15 vé tham quan bảo tàng hết 1170 nghìn đồng. Vé người lớn giá 90 nghìn đồng, vé học sinh giá 60 nghìn đồng. Gọi \\(x\\) là số vé người lớn, \\(y\\) là số vé học sinh. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"system of equations\">Hệ phương trình</b> nào đúng?",
+   "options": [
+    "\\(\\begin{cases}x+y=15\\\\ 90x+60y=1170\\end{cases}\\)",
+    "\\(\\begin{cases}x-y=15\\\\ 90x+60y=1170\\end{cases}\\)",
+    "\\(\\begin{cases}x+y=1170\\\\ 90x+60y=15\\end{cases}\\)",
+    "\\(\\begin{cases}90x+60y=15\\\\ x+y=150\\end{cases}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Number of tickets: \\(x+y=15\\). Money: \\(90x+60y=1170\\).",
+   "explain_vi": "Đáp án a. Số vé: \\(x+y=15\\). Số tiền: \\(90x+60y=1170\\).",
+   "images": [],
+   "id": "8d66bafc58c4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A rectangular garden has a perimeter of # m. Its length is # m longer than its width. Let \\(x\\) be the length and \\(y\\) the width (in meters). Which system describes the situation?",
+   "en": "A rectangular garden has a perimeter of 64 m. Its length is 8 m longer than its width. Let \\(x\\) be the length and \\(y\\) the width (in meters). Which system describes the situation?",
+   "vi": "Một mảnh vườn hình chữ nhật có chu vi 64 m, chiều dài hơn chiều rộng 8 m. Gọi \\(x\\) là chiều dài, \\(y\\) là chiều rộng (mét). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"system of equations\">Hệ phương trình</b> nào mô tả tình huống?",
+   "options": [
+    "\\(\\begin{cases}2x+2y=64\\\\ y-x=8\\end{cases}\\)",
+    "\\(\\begin{cases}xy=64\\\\ x-y=8\\end{cases}\\)",
+    "\\(\\begin{cases}x+y=64\\\\ x-y=8\\end{cases}\\)",
+    "\\(\\begin{cases}2x+2y=64\\\\ x-y=8\\end{cases}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Perimeter: \\(2x+2y=64\\); length minus width: \\(x-y=8\\).",
+   "explain_vi": "Đáp án d. Chu vi: \\(2x+2y=64\\); chiều dài trừ chiều rộng: \\(x-y=8\\).",
+   "images": [],
+   "id": "0fd67962fc25",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D4",
+   "type": "mcq",
+   "form": "Find \\(m\\) and \\(n\\) so that \\((-#;\\ -#)\\) is a solution of the system \\(\\begin{cases}mx+#y=-#\\\\ -#x+ny=#\\end{cases}\\).",
+   "en": "Find \\(m\\) and \\(n\\) so that \\((-1;\\ -1)\\) is a solution of the system \\(\\begin{cases}mx+2y=-7\\\\ -2x+ny=7\\end{cases}\\).",
+   "vi": "Tìm \\(m\\) và \\(n\\) để \\((-1;\\ -1)\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution of a system\">nghiệm của hệ</b> \\(\\begin{cases}mx+2y=-7\\\\ -2x+ny=7\\end{cases}\\).",
+   "options": [
+    "\\(m=-5,\\ n=5\\)",
+    "\\(m=5,\\ n=5\\)",
+    "\\(m=-5,\\ n=-5\\)",
+    "\\(m=5,\\ n=-5\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. First equation: \\(-m-2=-7\\Rightarrow m=5\\). Second: \\(-n+2=7\\Rightarrow n=-5\\).",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">Phương trình</b> thứ nhất: \\(-m-2=-7\\Rightarrow m=5\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">Phương trình</b> thứ hai: \\(-n+2=7\\Rightarrow n=-5\\).",
+   "images": [],
+   "id": "6f44bb1d9c66",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Choose the linear equation in two variables.",
+   "en": "Choose the linear equation in two variables.",
+   "vi": "Chọn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"linear equation in two variables\">phương trình bậc nhất hai ẩn</b>.",
+   "options": [
+    "\\(0x+0y=-5\\)",
+    "\\(5x-y=-5\\)",
+    "\\(5xy-y=-5\\)",
+    "\\(5x^2-y=-5\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. It has the form \\(ax+by=c\\) with \\(a, b\\) not both zero. The others contain \\(x^2\\), \\(y^2\\), \\(xy\\), \\(\\dfrac{1}{x}\\) or have \\(a=b=0\\).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">Phương trình</b> có dạng \\(ax+by=c\\) với \\(a, b\\) không đồng thời bằng 0. Các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> còn lại chứa \\(x^2\\), \\(y^2\\), \\(xy\\), \\(\\dfrac{1}{x}\\) hoặc có \\(a=b=0\\).",
+   "images": [],
+   "id": "79bd07831945",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Find \\(m\\) so that \\((-#;\\ #)\\) is a solution of the equation \\(mx-y=-#\\).",
+   "en": "Find \\(m\\) so that \\((-3;\\ 0)\\) is a solution of the equation \\(mx-y=-15\\).",
+   "vi": "Tìm \\(m\\) để \\((-3;\\ 0)\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution of an equation\">nghiệm của phương trình</b> \\(mx-y=-15\\).",
+   "options": [
+    "\\(m=4\\)",
+    "\\(m=6\\)",
+    "\\(m=5\\)",
+    "\\(m=-5\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Substitute \\(x=-3,\\ y=0\\): \\(-3m=-15\\), so \\(m=5\\).",
+   "explain_vi": "Đáp án c. Thay \\(x=-3,\\ y=0\\): \\(-3m=-15\\), suy ra \\(m=5\\).",
+   "images": [],
+   "id": "8bf8a110cdc5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Which ordered pair is a solution of the equation \\(-x+#y=#\\)?",
+   "en": "Which ordered pair is a solution of the equation \\(-x+5y=11\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"ordered pair\">Cặp số</b> nào là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution of an equation\">nghiệm của phương trình</b> \\(-x+5y=11\\)?",
+   "options": [
+    "\\((-4;\\ 3)\\)",
+    "\\((4;\\ 3)\\)",
+    "\\((3;\\ 4)\\)",
+    "\\((4;\\ -3)\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Substitute: \\(-1\\cdot(4)+(5)\\cdot(3)=11\\). The other pairs do not satisfy the equation.",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"substitute\">Thay vào</b>: \\(-1\\cdot(4)+(5)\\cdot(3)=11\\). Các cặp còn lại không thỏa mãn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b>.",
+   "images": [],
+   "id": "cf9ca4742853",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "The general solution of \\(#x+y=-#\\) is \\((x;\\ #x-#)\\) with \\(x\\in\\mathbb{R}\\).",
+   "en": "The general solution of \\(2x+y=-5\\) is \\((x;\\ 2x-5)\\) with \\(x\\in\\mathbb{R}\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"general solution\">Nghiệm tổng quát</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(2x+y=-5\\) là \\((x;\\ 2x-5)\\) với \\(x\\in\\mathbb{R}\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. From the equation, \\(y=-2x-5\\).",
+   "explain_vi": "Sai. Từ <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> suy ra \\(y=-2x-5\\).",
+   "images": [],
+   "id": "e59da7854b65",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "The pair \\((#;\\ -#)\\) is a solution of the system \\(\\begin{cases}#x+#y=#\\\\ x+#y=-#\\end{cases}\\).",
+   "en": "The pair \\((3;\\ -4)\\) is a solution of the system \\(\\begin{cases}4x+2y=4\\\\ x+4y=-13\\end{cases}\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"ordered pair\">Cặp số</b> \\((3;\\ -4)\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution of a system\">nghiệm của hệ</b> \\(\\begin{cases}4x+2y=4\\\\ x+4y=-13\\end{cases}\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. The first equation gives \\(4\\) and the second gives \\(-13\\).",
+   "explain_vi": "Đúng. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">Phương trình</b> thứ nhất cho \\(4\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> thứ hai cho \\(-13\\).",
+   "images": [],
+   "id": "9e52431ee7eb",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "A notebook costs # thousand dong and a pen costs # thousand dong. Hoa spends exactly # thousand dong on \\(x\\) notebooks and \\(y\\) pens, so \\(#x+#y=#\\). If Hoa buys # notebooks, how many pens does she buy?",
+   "en": "A notebook costs 8 thousand dong and a pen costs 3 thousand dong. Hoa spends exactly 44 thousand dong on \\(x\\) notebooks and \\(y\\) pens, so \\(8x+3y=44\\). If Hoa buys 4 notebooks, how many pens does she buy?",
+   "vi": "Một quyển vở giá 8 nghìn đồng, một cây bút giá 3 nghìn đồng. Bạn Hoa mua \\(x\\) quyển vở và \\(y\\) cây bút hết đúng 44 nghìn đồng, nên \\(8x+3y=44\\). Nếu bạn Hoa mua 4 quyển vở thì bạn mua bao nhiêu cây bút?",
+   "options": [],
+   "answer": "4",
+   "explain_en": "Answer: 4. \\(8\\cdot4+3y=44\\Rightarrow 3y=12\\Rightarrow y=4\\).",
+   "explain_vi": "Đáp số: 4. \\(8\\cdot4+3y=44\\Rightarrow 3y=12\\Rightarrow y=4\\).",
+   "images": [],
+   "id": "943a8e1bc3a0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "The line that represents the solutions of \\(#x-#y=#\\) meets the \\(y\\)-axis at \\((#;\\ y_#)\\). Find \\(y_#\\).",
+   "en": "The line that represents the solutions of \\(2x-3y=15\\) meets the \\(y\\)-axis at \\((0;\\ y_0)\\). Find \\(y_0\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">Đường thẳng</b> biểu diễn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution set\">tập nghiệm</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(2x-3y=15\\) cắt trục tung tại điểm \\((0;\\ y_0)\\). Tìm \\(y_0\\).",
+   "options": [],
+   "answer": "-5",
+   "explain_en": "Answer: -5. Put \\(x=0\\): \\(-3y_0=15\\), so \\(y_0=-5\\).",
+   "explain_vi": "Đáp số: -5. Thay \\(x=0\\): \\(-3y_0=15\\) nên \\(y_0=-5\\).",
+   "images": [],
+   "id": "7f8e52b450e6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Choose the system of two linear equations in two variables.",
+   "en": "Choose the system of two linear equations in two variables.",
+   "vi": "Chọn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"system of two linear equations in two variables\">hệ hai phương trình bậc nhất hai ẩn</b>.",
+   "options": [
+    "\\(\\begin{cases}3x^2-4y=2\\\\ -4x+3y=7\\end{cases}\\)",
+    "\\(\\begin{cases}3x-4y=2\\\\ 0x+0y=7\\end{cases}\\)",
+    "\\(\\begin{cases}3x-4y=2\\\\ -4x+3y=7\\end{cases}\\)",
+    "\\(\\begin{cases}3x-4y^2=2\\\\ -4x+3y=7\\end{cases}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Both equations must have the form \\(ax+by=c\\) with \\(a, b\\) not both zero.",
+   "explain_vi": "Đáp án c. Cả hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> phải có dạng \\(ax+by=c\\) với \\(a, b\\) không đồng thời bằng 0.",
+   "images": [],
+   "id": "709345ee8925",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D1",
+   "type": "mcq",
+   "form": "How many solutions does the equation \\(-#x+#y=#\\) have?",
+   "en": "How many solutions does the equation \\(-2x+2y=9\\) have?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">Phương trình</b> \\(-2x+2y=9\\) có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b>?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">exactly two</span><span class=\"vi\">đúng hai nghiệm</span></span>",
+    "<span class=\"txi\"><span class=\"en\">exactly one</span><span class=\"vi\">đúng một nghiệm</span></span>",
+    "<span class=\"txi\"><span class=\"en\">infinitely many</span><span class=\"vi\">vô số nghiệm</span></span>",
+    "<span class=\"txi\"><span class=\"en\">no solution</span><span class=\"vi\">vô nghiệm</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. A linear equation in two variables always has infinitely many solutions (all points of a line).",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"linear equation in two variables\">Phương trình bậc nhất hai ẩn</b> luôn có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"infinitely many solutions\">vô số nghiệm</b> (mọi điểm của một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b>).",
+   "images": [],
+   "id": "66ad71e7d192",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D1",
+   "type": "mcq",
+   "form": "In the equation \\(-#x-#y=#\\), what is the coefficient of \\(x\\)?",
+   "en": "In the equation \\(-2x-5y=1\\), what is the coefficient of \\(x\\)?",
+   "vi": "Trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(-2x-5y=1\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b> của \\(x\\) là bao nhiêu?",
+   "options": [
+    "\\(-2\\)",
+    "\\(-5\\)",
+    "\\(1\\)",
+    "\\(2\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Compare with \\(ax+by=c\\): \\(a=-2,\\ b=-5,\\ c=1\\).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"compare\">So sánh</b> với \\(ax+by=c\\): \\(a=-2,\\ b=-5,\\ c=1\\).",
+   "images": [],
+   "id": "2e2b547ebc64",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D2",
+   "type": "mcq",
+   "form": "The pair \\((#;\\ y_#)\\) is a solution of \\(-x-#y=-#\\). Find \\(y_#\\).",
+   "en": "The pair \\((3;\\ y_0)\\) is a solution of \\(-x-2y=-7\\). Find \\(y_0\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"ordered pair\">Cặp số</b> \\((3;\\ y_0)\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution of an equation\">nghiệm của phương trình</b> \\(-x-2y=-7\\). Tìm \\(y_0\\).",
+   "options": [
+    "\\(5\\)",
+    "\\(-2\\)",
+    "\\(2\\)",
+    "\\(3\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Substitute \\(x=3\\): \\(-2y_0=-4\\), so \\(y_0=2\\).",
+   "explain_vi": "Đáp án c. Thay \\(x=3\\): \\(-2y_0=-4\\) nên \\(y_0=2\\).",
+   "images": [],
+   "id": "35b5156359e1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D2",
+   "type": "mcq",
+   "form": "The solutions of \\(#x-#y=-#\\) are represented by which line?",
+   "en": "The solutions of \\(0x-6y=-12\\) are represented by which line?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution set\">Tập nghiệm</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(0x-6y=-12\\) được biểu diễn bởi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> nào?",
+   "options": [
+    "\\(y=-2\\)",
+    "\\(x=2\\)",
+    "\\(y=2\\)",
+    "\\(y=-12\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The equation means \\(y=2\\); this line is parallel to (or on) the \\(x\\)-axis.",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">Phương trình</b> tương đương \\(y=2\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> này <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b> hoặc trùng với trục hoành.",
+   "images": [],
+   "id": "a26da5cda316",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Which point lies on the line \\(x-#y=#\\)?",
+   "en": "Which point lies on the line \\(x-2y=6\\)?",
+   "vi": "Điểm nào thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(x-2y=6\\)?",
+   "options": [
+    "\\(N(-2;\\ 2)\\)",
+    "\\(M(2;\\ -2)\\)",
+    "\\(P(2;\\ 2)\\)",
+    "\\(Q(-2;\\ 2)\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. A point lies on the line when its coordinates satisfy the equation: \\(1\\cdot(2)+(-2)\\cdot(-2)=6\\).",
+   "explain_vi": "Đáp án b. Điểm thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> khi tọa độ của nó thỏa mãn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b>: \\(1\\cdot(2)+(-2)\\cdot(-2)=6\\).",
+   "images": [],
+   "id": "c6f205eeb9a2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Find \\(c\\) so that the line \\(#x+#y=c\\) passes through the point \\(M(-#;\\ -#)\\).",
+   "en": "Find \\(c\\) so that the line \\(5x+5y=c\\) passes through the point \\(M(-3;\\ -5)\\).",
+   "vi": "Tìm \\(c\\) để <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(5x+5y=c\\) đi qua điểm \\(M(-3;\\ -5)\\).",
+   "options": [
+    "\\(c=10\\)",
+    "\\(c=-40\\)",
+    "\\(c=-39\\)",
+    "\\(c=40\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(c=5\\cdot(-3)+(5)\\cdot(-5)=-40\\).",
+   "explain_vi": "Đáp án b. \\(c=5\\cdot(-3)+(5)\\cdot(-5)=-40\\).",
+   "images": [],
+   "id": "058b9108e278",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Find \\(m\\) so that \\((#;\\ -#)\\) is a solution of \\(x+my=#\\).",
+   "en": "Find \\(m\\) so that \\((3;\\ -3)\\) is a solution of \\(x+my=0\\).",
+   "vi": "Tìm \\(m\\) để \\((3;\\ -3)\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution of an equation\">nghiệm của phương trình</b> \\(x+my=0\\).",
+   "options": [
+    "\\(m=0\\)",
+    "\\(m=1\\)",
+    "\\(m=2\\)",
+    "\\(m=-1\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(3-3m=0\\Rightarrow -3m=-3\\Rightarrow m=1\\).",
+   "explain_vi": "Đáp án b. \\(3-3m=0\\Rightarrow -3m=-3\\Rightarrow m=1\\).",
+   "images": [],
+   "id": "c2844a315734",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Which pair is a solution of the system \\(\\begin{cases}-#x-y=#\\\\ #x-#y=-#\\end{cases}\\)?",
+   "en": "Which pair is a solution of the system \\(\\begin{cases}-3x-y=8\\\\ 3x-2y=-11\\end{cases}\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"ordered pair\">Cặp số</b> nào là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution of a system\">nghiệm của hệ</b> \\(\\begin{cases}-3x-y=8\\\\ 3x-2y=-11\\end{cases}\\)?",
+   "options": [
+    "\\((1;\\ -3)\\)",
+    "\\((-4;\\ 4)\\)",
+    "\\((-5;\\ -2)\\)",
+    "\\((-3;\\ 1)\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. The pair must satisfy <b>both</b> equations. Some options satisfy only one of them.",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ordered pair\">Cặp số</b> phải thỏa mãn <b>cả hai</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b>. Có phương án chỉ thỏa mãn một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b>.",
+   "images": [],
+   "id": "7078b7a25dac",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A class buys # museum tickets for # thousand dong in total. An adult ticket costs # thousand dong and a student ticket costs # thousand dong. Let \\(x\\) be the number of adult tickets and \\(y\\) the number of student tickets. Which system is correct?",
+   "en": "A class buys 9 museum tickets for 330 thousand dong in total. An adult ticket costs 50 thousand dong and a student ticket costs 30 thousand dong. Let \\(x\\) be the number of adult tickets and \\(y\\) the number of student tickets. Which system is correct?",
+   "vi": "Một lớp mua 9 vé tham quan bảo tàng hết 330 nghìn đồng. Vé người lớn giá 50 nghìn đồng, vé học sinh giá 30 nghìn đồng. Gọi \\(x\\) là số vé người lớn, \\(y\\) là số vé học sinh. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"system of equations\">Hệ phương trình</b> nào đúng?",
+   "options": [
+    "\\(\\begin{cases}x-y=9\\\\ 50x+30y=330\\end{cases}\\)",
+    "\\(\\begin{cases}x+y=330\\\\ 50x+30y=9\\end{cases}\\)",
+    "\\(\\begin{cases}x+y=9\\\\ 50x+30y=330\\end{cases}\\)",
+    "\\(\\begin{cases}x+y=9\\\\ 30x+50y=330\\end{cases}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Number of tickets: \\(x+y=9\\). Money: \\(50x+30y=330\\).",
+   "explain_vi": "Đáp án c. Số vé: \\(x+y=9\\). Số tiền: \\(50x+30y=330\\).",
+   "images": [],
+   "id": "b6692756c5e5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A rectangular garden has a perimeter of # m. Its length is # m longer than its width. Let \\(x\\) be the length and \\(y\\) the width (in meters). Which system describes the situation?",
+   "en": "A rectangular garden has a perimeter of 36 m. Its length is 2 m longer than its width. Let \\(x\\) be the length and \\(y\\) the width (in meters). Which system describes the situation?",
+   "vi": "Một mảnh vườn hình chữ nhật có chu vi 36 m, chiều dài hơn chiều rộng 2 m. Gọi \\(x\\) là chiều dài, \\(y\\) là chiều rộng (mét). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"system of equations\">Hệ phương trình</b> nào mô tả tình huống?",
+   "options": [
+    "\\(\\begin{cases}2x+2y=36\\\\ x-y=2\\end{cases}\\)",
+    "\\(\\begin{cases}xy=36\\\\ x-y=2\\end{cases}\\)",
+    "\\(\\begin{cases}x+y=36\\\\ x-y=2\\end{cases}\\)",
+    "\\(\\begin{cases}2x+2y=36\\\\ y-x=2\\end{cases}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Perimeter: \\(2x+2y=36\\); length minus width: \\(x-y=2\\).",
+   "explain_vi": "Đáp án a. Chu vi: \\(2x+2y=36\\); chiều dài trừ chiều rộng: \\(x-y=2\\).",
+   "images": [],
+   "id": "6f267c761375",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D4",
+   "type": "mcq",
+   "form": "Find \\(m\\) and \\(n\\) so that \\((#;\\ #)\\) is a solution of the system \\(\\begin{cases}mx-y=-#\\\\ -#x+ny=#\\end{cases}\\).",
+   "en": "Find \\(m\\) and \\(n\\) so that \\((1;\\ 4)\\) is a solution of the system \\(\\begin{cases}mx-y=-5\\\\ -3x+ny=13\\end{cases}\\).",
+   "vi": "Tìm \\(m\\) và \\(n\\) để \\((1;\\ 4)\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution of a system\">nghiệm của hệ</b> \\(\\begin{cases}mx-y=-5\\\\ -3x+ny=13\\end{cases}\\).",
+   "options": [
+    "\\(m=-1,\\ n=-4\\)",
+    "\\(m=1,\\ n=4\\)",
+    "\\(m=-1,\\ n=4\\)",
+    "\\(m=4,\\ n=-1\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. First equation: \\(m-4=-5\\Rightarrow m=-1\\). Second: \\(4n-3=13\\Rightarrow n=4\\).",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">Phương trình</b> thứ nhất: \\(m-4=-5\\Rightarrow m=-1\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">Phương trình</b> thứ hai: \\(4n-3=13\\Rightarrow n=4\\).",
+   "images": [],
+   "id": "f4ad61fe249d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Find \\(m\\) so that \\((#;\\ -#)\\) is a solution of the equation \\(mx-#y=#\\).",
+   "en": "Find \\(m\\) so that \\((3;\\ -4)\\) is a solution of the equation \\(mx-4y=19\\).",
+   "vi": "Tìm \\(m\\) để \\((3;\\ -4)\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution of an equation\">nghiệm của phương trình</b> \\(mx-4y=19\\).",
+   "options": [
+    "\\(m=1\\)",
+    "\\(m=0\\)",
+    "\\(m=2\\)",
+    "\\(m=-1\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Substitute \\(x=3,\\ y=-4\\): \\(3m+16=19\\), so \\(m=1\\).",
+   "explain_vi": "Đáp án a. Thay \\(x=3,\\ y=-4\\): \\(3m+16=19\\), suy ra \\(m=1\\).",
+   "images": [],
+   "id": "56e3b0dd5df0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Which of the following is a linear equation in \\(x\\) and \\(y\\)?",
+   "en": "Which of the following is a linear equation in \\(x\\) and \\(y\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">Phương trình</b> nào sau đây là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"linear equation in two variables\">phương trình bậc nhất hai ẩn</b> \\(x, y\\)?",
+   "options": [
+    "\\(6x+2y=4\\)",
+    "\\(6x^2+2y=4\\)",
+    "\\(\\dfrac{6}{x}+2y=4\\)",
+    "\\(6x+2y^2=4\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. It has the form \\(ax+by=c\\) with \\(a, b\\) not both zero. The others contain \\(x^2\\), \\(y^2\\), \\(xy\\), \\(\\dfrac{1}{x}\\) or have \\(a=b=0\\).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">Phương trình</b> có dạng \\(ax+by=c\\) với \\(a, b\\) không đồng thời bằng 0. Các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> còn lại chứa \\(x^2\\), \\(y^2\\), \\(xy\\), \\(\\dfrac{1}{x}\\) hoặc có \\(a=b=0\\).",
+   "images": [],
+   "id": "8a591dbc4c59",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Which ordered pair is a solution of the equation \\(#x+#y=-#\\)?",
+   "en": "Which ordered pair is a solution of the equation \\(2x+3y=-16\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"ordered pair\">Cặp số</b> nào là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution of an equation\">nghiệm của phương trình</b> \\(2x+3y=-16\\)?",
+   "options": [
+    "\\((-2;\\ -4)\\)",
+    "\\((-4;\\ -2)\\)",
+    "\\((2;\\ -4)\\)",
+    "\\((-2;\\ 4)\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Substitute: \\(2\\cdot(-2)+(3)\\cdot(-4)=-16\\). The other pairs do not satisfy the equation.",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"substitute\">Thay vào</b>: \\(2\\cdot(-2)+(3)\\cdot(-4)=-16\\). Các cặp còn lại không thỏa mãn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b>.",
+   "images": [],
+   "id": "ee81f75967fe",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "The general solution of \\(-x-y=-#\\) is \\((x;\\ -x+#)\\) with \\(x\\in\\mathbb{R}\\).",
+   "en": "The general solution of \\(-x-y=-1\\) is \\((x;\\ -x+1)\\) with \\(x\\in\\mathbb{R}\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"general solution\">Nghiệm tổng quát</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(-x-y=-1\\) là \\((x;\\ -x+1)\\) với \\(x\\in\\mathbb{R}\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. From the equation, \\(y=-x+1\\).",
+   "explain_vi": "Đúng. Từ <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> suy ra \\(y=-x+1\\).",
+   "images": [],
+   "id": "8ef4e940793a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "The pair \\((-#;\\ -#)\\) is a solution of the system \\(\\begin{cases}#x-#y=#\\\\ -#x-#y=#\\end{cases}\\).",
+   "en": "The pair \\((-1;\\ -4)\\) is a solution of the system \\(\\begin{cases}3x-4y=13\\\\ -2x-3y=14\\end{cases}\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"ordered pair\">Cặp số</b> \\((-1;\\ -4)\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution of a system\">nghiệm của hệ</b> \\(\\begin{cases}3x-4y=13\\\\ -2x-3y=14\\end{cases}\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. The first equation gives \\(13\\) and the second gives \\(14\\).",
+   "explain_vi": "Đúng. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">Phương trình</b> thứ nhất cho \\(13\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> thứ hai cho \\(14\\).",
+   "images": [],
+   "id": "a7546c9d9e18",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "A notebook costs # thousand dong and a pen costs # thousand dong. Hoa spends exactly # thousand dong on \\(x\\) notebooks and \\(y\\) pens, so \\(#x+#y=#\\). If Hoa buys # notebooks, how many pens does she buy?",
+   "en": "A notebook costs 15 thousand dong and a pen costs 3 thousand dong. Hoa spends exactly 69 thousand dong on \\(x\\) notebooks and \\(y\\) pens, so \\(15x+3y=69\\). If Hoa buys 3 notebooks, how many pens does she buy?",
+   "vi": "Một quyển vở giá 15 nghìn đồng, một cây bút giá 3 nghìn đồng. Bạn Hoa mua \\(x\\) quyển vở và \\(y\\) cây bút hết đúng 69 nghìn đồng, nên \\(15x+3y=69\\). Nếu bạn Hoa mua 3 quyển vở thì bạn mua bao nhiêu cây bút?",
+   "options": [],
+   "answer": "8",
+   "explain_en": "Answer: 8. \\(15\\cdot3+3y=69\\Rightarrow 3y=24\\Rightarrow y=8\\).",
+   "explain_vi": "Đáp số: 8. \\(15\\cdot3+3y=69\\Rightarrow 3y=24\\Rightarrow y=8\\).",
+   "images": [],
+   "id": "81f5f5dfecf7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "The line that represents the solutions of \\(-#x-#y=-#\\) meets the \\(y\\)-axis at \\((#;\\ y_#)\\). Find \\(y_#\\).",
+   "en": "The line that represents the solutions of \\(-2x-2y=-12\\) meets the \\(y\\)-axis at \\((0;\\ y_0)\\). Find \\(y_0\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">Đường thẳng</b> biểu diễn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution set\">tập nghiệm</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(-2x-2y=-12\\) cắt trục tung tại điểm \\((0;\\ y_0)\\). Tìm \\(y_0\\).",
+   "options": [],
+   "answer": "6",
+   "explain_en": "Answer: 6. Put \\(x=0\\): \\(-2y_0=-12\\), so \\(y_0=6\\).",
+   "explain_vi": "Đáp số: 6. Thay \\(x=0\\): \\(-2y_0=-12\\) nên \\(y_0=6\\).",
+   "images": [],
+   "id": "13c8c131d920",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D1",
+   "type": "mcq",
+   "form": "How many solutions does the equation \\(#x-#y=-#\\) have?",
+   "en": "How many solutions does the equation \\(5x-2y=-4\\) have?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">Phương trình</b> \\(5x-2y=-4\\) có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution\">nghiệm</b>?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">exactly one</span><span class=\"vi\">đúng một nghiệm</span></span>",
+    "<span class=\"txi\"><span class=\"en\">no solution</span><span class=\"vi\">vô nghiệm</span></span>",
+    "<span class=\"txi\"><span class=\"en\">exactly two</span><span class=\"vi\">đúng hai nghiệm</span></span>",
+    "<span class=\"txi\"><span class=\"en\">infinitely many</span><span class=\"vi\">vô số nghiệm</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. A linear equation in two variables always has infinitely many solutions (all points of a line).",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"linear equation in two variables\">Phương trình bậc nhất hai ẩn</b> luôn có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"infinitely many solutions\">vô số nghiệm</b> (mọi điểm của một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b>).",
+   "images": [],
+   "id": "cf406fb51161",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D1",
+   "type": "mcq",
+   "form": "In the equation \\(#x-#y=-#\\), what is the coefficient of \\(y\\)?",
+   "en": "In the equation \\(5x-6y=-1\\), what is the coefficient of \\(y\\)?",
+   "vi": "Trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(5x-6y=-1\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b> của \\(y\\) là bao nhiêu?",
+   "options": [
+    "\\(-6\\)",
+    "\\(-1\\)",
+    "\\(5\\)",
+    "\\(6\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Compare with \\(ax+by=c\\): \\(a=5,\\ b=-6,\\ c=-1\\).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"compare\">So sánh</b> với \\(ax+by=c\\): \\(a=5,\\ b=-6,\\ c=-1\\).",
+   "images": [],
+   "id": "62ca8a0db6eb",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Which of these is a system of two linear equations in two variables?",
+   "en": "Which of these is a system of two linear equations in two variables?",
+   "vi": "Hệ nào sau đây là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"system of two linear equations in two variables\">hệ hai phương trình bậc nhất hai ẩn</b>?",
+   "options": [
+    "\\(\\begin{cases}-2x-2y=0\\\\ 0x+0y=-2\\end{cases}\\)",
+    "\\(\\begin{cases}-2x^2-2y=0\\\\ 3x+4y=-2\\end{cases}\\)",
+    "\\(\\begin{cases}-2x-2y=0\\\\ 3x+4y=-2\\end{cases}\\)",
+    "\\(\\begin{cases}-2x-2y^2=0\\\\ 3x+4y=-2\\end{cases}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Both equations must have the form \\(ax+by=c\\) with \\(a, b\\) not both zero.",
+   "explain_vi": "Đáp án c. Cả hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> phải có dạng \\(ax+by=c\\) với \\(a, b\\) không đồng thời bằng 0.",
+   "images": [],
+   "id": "3c6aeb159cee",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D2",
+   "type": "mcq",
+   "form": "The pair \\((-#;\\ y_#)\\) is a solution of \\(-#x+#y=-#\\). Find \\(y_#\\).",
+   "en": "The pair \\((-2;\\ y_0)\\) is a solution of \\(-2x+6y=-2\\). Find \\(y_0\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"ordered pair\">Cặp số</b> \\((-2;\\ y_0)\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution of an equation\">nghiệm của phương trình</b> \\(-2x+6y=-2\\). Tìm \\(y_0\\).",
+   "options": [
+    "\\(\\dfrac{1}{3}\\)",
+    "\\(-1\\)",
+    "\\(0\\)",
+    "\\(1\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Substitute \\(x=-2\\): \\(6y_0=-6\\), so \\(y_0=-1\\).",
+   "explain_vi": "Đáp án b. Thay \\(x=-2\\): \\(6y_0=-6\\) nên \\(y_0=-1\\).",
+   "images": [],
+   "id": "73fe1048179f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D2",
+   "type": "mcq",
+   "form": "The solutions of \\(#x+#y=-#\\) are represented by which line?",
+   "en": "The solutions of \\(0x+6y=-12\\) are represented by which line?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution set\">Tập nghiệm</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(0x+6y=-12\\) được biểu diễn bởi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> nào?",
+   "options": [
+    "\\(y=-2\\)",
+    "\\(y=-12\\)",
+    "\\(x=-2\\)",
+    "\\(y=2\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. The equation means \\(y=-2\\); this line is parallel to (or on) the \\(x\\)-axis.",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">Phương trình</b> tương đương \\(y=-2\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> này <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b> hoặc trùng với trục hoành.",
+   "images": [],
+   "id": "0c7ae928243f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Which point lies on the line \\(#x+#y=#\\)?",
+   "en": "Which point lies on the line \\(5x+3y=5\\)?",
+   "vi": "Điểm nào thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(5x+3y=5\\)?",
+   "options": [
+    "\\(R(0;\\ 0)\\)",
+    "\\(Q(-1;\\ 0)\\)",
+    "\\(M(1;\\ 0)\\)",
+    "\\(N(0;\\ 1)\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. A point lies on the line when its coordinates satisfy the equation: \\(5\\cdot(1)+(3)\\cdot(0)=5\\).",
+   "explain_vi": "Đáp án c. Điểm thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> khi tọa độ của nó thỏa mãn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b>: \\(5\\cdot(1)+(3)\\cdot(0)=5\\).",
+   "images": [],
+   "id": "0b9ba1d78920",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Find \\(c\\) so that the line \\(-#x-#y=c\\) passes through the point \\(M(#;\\ #)\\).",
+   "en": "Find \\(c\\) so that the line \\(-3x-3y=c\\) passes through the point \\(M(3;\\ 1)\\).",
+   "vi": "Tìm \\(c\\) để <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(-3x-3y=c\\) đi qua điểm \\(M(3;\\ 1)\\).",
+   "options": [
+    "\\(c=-12\\)",
+    "\\(c=-6\\)",
+    "\\(c=12\\)",
+    "\\(c=-11\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(c=-3\\cdot(3)+(-3)\\cdot(1)=-12\\).",
+   "explain_vi": "Đáp án a. \\(c=-3\\cdot(3)+(-3)\\cdot(1)=-12\\).",
+   "images": [],
+   "id": "e08ee2279bc3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Find \\(m\\) so that \\((#;\\ #)\\) is a solution of \\(#x+my=#\\).",
+   "en": "Find \\(m\\) so that \\((3;\\ 1)\\) is a solution of \\(5x+my=17\\).",
+   "vi": "Tìm \\(m\\) để \\((3;\\ 1)\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution of an equation\">nghiệm của phương trình</b> \\(5x+my=17\\).",
+   "options": [
+    "\\(m=2\\)",
+    "\\(m=-2\\)",
+    "\\(m=32\\)",
+    "\\(m=3\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(15+m=17\\Rightarrow m=2\\Rightarrow m=2\\).",
+   "explain_vi": "Đáp án a. \\(15+m=17\\Rightarrow m=2\\Rightarrow m=2\\).",
+   "images": [],
+   "id": "d3c5aad3134a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Which pair is a solution of the system \\(\\begin{cases}-#x-#y=#\\\\ -x-#y=#\\end{cases}\\)?",
+   "en": "Which pair is a solution of the system \\(\\begin{cases}-2x-4y=8\\\\ -x-3y=4\\end{cases}\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"ordered pair\">Cặp số</b> nào là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution of a system\">nghiệm của hệ</b> \\(\\begin{cases}-2x-4y=8\\\\ -x-3y=4\\end{cases}\\)?",
+   "options": [
+    "\\((-4;\\ 0)\\)",
+    "\\((-8;\\ 2)\\)",
+    "\\((-7;\\ 1)\\)",
+    "\\((0;\\ -4)\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. The pair must satisfy <b>both</b> equations. Some options satisfy only one of them.",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ordered pair\">Cặp số</b> phải thỏa mãn <b>cả hai</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b>. Có phương án chỉ thỏa mãn một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b>.",
+   "images": [],
+   "id": "af557142ea24",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A class buys # museum tickets for # thousand dong in total. An adult ticket costs # thousand dong and a student ticket costs # thousand dong. Let \\(x\\) be the number of adult tickets and \\(y\\) the number of student tickets. Which system is correct?",
+   "en": "A class buys 25 museum tickets for 990 thousand dong in total. An adult ticket costs 50 thousand dong and a student ticket costs 30 thousand dong. Let \\(x\\) be the number of adult tickets and \\(y\\) the number of student tickets. Which system is correct?",
+   "vi": "Một lớp mua 25 vé tham quan bảo tàng hết 990 nghìn đồng. Vé người lớn giá 50 nghìn đồng, vé học sinh giá 30 nghìn đồng. Gọi \\(x\\) là số vé người lớn, \\(y\\) là số vé học sinh. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"system of equations\">Hệ phương trình</b> nào đúng?",
+   "options": [
+    "\\(\\begin{cases}x+y=25\\\\ 50x+30y=990\\end{cases}\\)",
+    "\\(\\begin{cases}x-y=25\\\\ 50x+30y=990\\end{cases}\\)",
+    "\\(\\begin{cases}x+y=25\\\\ 30x+50y=990\\end{cases}\\)",
+    "\\(\\begin{cases}x+y=990\\\\ 50x+30y=25\\end{cases}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Number of tickets: \\(x+y=25\\). Money: \\(50x+30y=990\\).",
+   "explain_vi": "Đáp án a. Số vé: \\(x+y=25\\). Số tiền: \\(50x+30y=990\\).",
+   "images": [],
+   "id": "4ef3a87f1fcf",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A rectangular garden has a perimeter of # m. Its length is # m longer than its width. Let \\(x\\) be the length and \\(y\\) the width (in meters). Which system describes the situation?",
+   "en": "A rectangular garden has a perimeter of 44 m. Its length is 2 m longer than its width. Let \\(x\\) be the length and \\(y\\) the width (in meters). Which system describes the situation?",
+   "vi": "Một mảnh vườn hình chữ nhật có chu vi 44 m, chiều dài hơn chiều rộng 2 m. Gọi \\(x\\) là chiều dài, \\(y\\) là chiều rộng (mét). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"system of equations\">Hệ phương trình</b> nào mô tả tình huống?",
+   "options": [
+    "\\(\\begin{cases}xy=44\\\\ x-y=2\\end{cases}\\)",
+    "\\(\\begin{cases}2x+2y=44\\\\ y-x=2\\end{cases}\\)",
+    "\\(\\begin{cases}x+y=44\\\\ x-y=2\\end{cases}\\)",
+    "\\(\\begin{cases}2x+2y=44\\\\ x-y=2\\end{cases}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Perimeter: \\(2x+2y=44\\); length minus width: \\(x-y=2\\).",
+   "explain_vi": "Đáp án d. Chu vi: \\(2x+2y=44\\); chiều dài trừ chiều rộng: \\(x-y=2\\).",
+   "images": [],
+   "id": "90177efb4a22",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D4",
+   "type": "mcq",
+   "form": "Find \\(m\\) and \\(n\\) so that \\((-#;\\ #)\\) is a solution of the system \\(\\begin{cases}mx+#y=-#\\\\ x+ny=-#\\end{cases}\\).",
+   "en": "Find \\(m\\) and \\(n\\) so that \\((-4;\\ 2)\\) is a solution of the system \\(\\begin{cases}mx+2y=-4\\\\ x+ny=-12\\end{cases}\\).",
+   "vi": "Tìm \\(m\\) và \\(n\\) để \\((-4;\\ 2)\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution of a system\">nghiệm của hệ</b> \\(\\begin{cases}mx+2y=-4\\\\ x+ny=-12\\end{cases}\\).",
+   "options": [
+    "\\(m=2,\\ n=4\\)",
+    "\\(m=2,\\ n=-4\\)",
+    "\\(m=-4,\\ n=2\\)",
+    "\\(m=-2,\\ n=-4\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. First equation: \\(-4m+4=-4\\Rightarrow m=2\\). Second: \\(2n-4=-12\\Rightarrow n=-4\\).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">Phương trình</b> thứ nhất: \\(-4m+4=-4\\Rightarrow m=2\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">Phương trình</b> thứ hai: \\(2n-4=-12\\Rightarrow n=-4\\).",
+   "images": [],
+   "id": "f345ae9d4204",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  }
+ ]
+}

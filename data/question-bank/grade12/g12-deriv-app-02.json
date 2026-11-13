@@ -1,0 +1,1779 @@
+{
+ "lesson": "g12-deriv-app-02",
+ "grade": 12,
+ "no": 4,
+ "title": "Khảo sát và vẽ đồ thị hàm số",
+ "path": "lessons/grade12/derivative-applications/sketching-graphs.html",
+ "items": [
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "What is the center of symmetry of \\(y=\\dfrac{#x-#}{x+#}\\)?",
+   "en": "What is the center of symmetry of \\(y=\\dfrac{2x-1}{x+1}\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"center of symmetry\">Tâm đối xứng</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> \\(y=\\dfrac{2x-1}{x+1}\\) là điểm nào?",
+   "options": [
+    "\\((-1,2)\\)",
+    "\\((2,-1)\\)",
+    "\\((1,-2)\\)",
+    "\\((-1,-2)\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. It is the intersection of the asymptotes \\(x=-1\\) and \\(y=2\\).",
+   "explain_vi": "Đáp án a. Đó là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersection point\">giao điểm</b> của hai tiệm cận \\(x=-1\\) và \\(y=2\\).",
+   "images": [],
+   "id": "0c9f37a9faa2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "What is the horizontal asymptote of \\(y=\\dfrac{#x+#}{x-#}\\)?",
+   "en": "What is the horizontal asymptote of \\(y=\\dfrac{3x+1}{x-2}\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"horizontal asymptote\">Tiệm cận ngang</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> \\(y=\\dfrac{3x+1}{x-2}\\) là đường nào?",
+   "options": [
+    "\\(y=3\\)",
+    "\\(y=2\\)",
+    "\\(y=-2\\)",
+    "\\(y=\\dfrac13\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(y=\\dfrac ac=\\dfrac31=3\\).",
+   "explain_vi": "Đáp án a. \\(y=\\dfrac ac=\\dfrac31=3\\).",
+   "images": [],
+   "id": "185386179f2e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "What is the local maximum value of \\(y=x^#-#x+#\\)?",
+   "en": "What is the local maximum value of \\(y=x^3-3x+2\\)?",
+   "vi": "Giá trị <b class=\"mbl-term\" tabindex=\"0\" data-en=\"local maximum\">cực đại</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(y=x^3-3x+2\\) là bao nhiêu?",
+   "options": [
+    "\\(4\\)",
+    "\\(0\\)",
+    "\\(2\\)",
+    "\\(-4\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. The maximum is at \\(x=-1\\): \\(-1+3+2=4\\).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"local maximum\">Cực đại</b> tại \\(x=-1\\): \\(-1+3+2=4\\).",
+   "images": [],
+   "id": "05b20da1723e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Where is the local minimum point of \\(y=x^#-#x^#\\)?",
+   "en": "Where is the local minimum point of \\(y=x^3-3x^2\\)?",
+   "vi": "Điểm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"local minimum\">cực tiểu</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> \\(y=x^3-3x^2\\) là điểm nào?",
+   "options": [
+    "\\((0,0)\\)",
+    "\\((2,-4)\\)",
+    "\\((-2,-20)\\)",
+    "\\((1,-2)\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(y'=3x(x-2)\\); the sign changes from \\(-\\) to \\(+\\) at \\(x=2\\), and \\(y(2)=8-12=-4\\).",
+   "explain_vi": "Đáp án b. \\(y'=3x(x-2)\\); dấu đổi từ \\(-\\) sang \\(+\\) tại \\(x=2\\), và \\(y(2)=8-12=-4\\).",
+   "images": [],
+   "id": "cb98a43ac8b7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "True or false: the graph of \\(y=x^#-#x^#\\) is symmetric about the y-axis.",
+   "en": "True or false: the graph of \\(y=x^4-2x^2\\) is symmetric about the y-axis.",
+   "vi": "Đúng hay sai: <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> \\(y=x^4-2x^2\\) đối xứng qua trục tung.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. The function is even.",
+   "explain_vi": "Đúng. Đây là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"even function\">hàm số chẵn</b>.",
+   "images": [],
+   "id": "426f43175e64",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "True or false: the graph of \\(y=x^#\\) is symmetric about the y-axis.",
+   "en": "True or false: the graph of \\(y=x^3\\) is symmetric about the y-axis.",
+   "vi": "Đúng hay sai: <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> \\(y=x^3\\) đối xứng qua trục tung.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. \\(y=x^3\\) is odd: its graph is symmetric about the origin.",
+   "explain_vi": "Sai. \\(y=x^3\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"odd function\">hàm số lẻ</b>: <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> đối xứng qua <b class=\"mbl-term\" tabindex=\"0\" data-en=\"origin\">gốc tọa độ</b>.",
+   "images": [],
+   "id": "abfb75a90901",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "Find the local minimum value of \\(y=\\dfrac{x^#-x+#}{x-#}\\) at \\(x=#\\).",
+   "en": "Find the local minimum value of \\(y=\\dfrac{x^2-x+1}{x-1}\\) at \\(x=2\\).",
+   "vi": "Tìm giá trị <b class=\"mbl-term\" tabindex=\"0\" data-en=\"local minimum\">cực tiểu</b> của \\(y=\\dfrac{x^2-x+1}{x-1}\\) tại \\(x=2\\).",
+   "options": [],
+   "answer": "3",
+   "explain_en": "Answer: 3. \\(y(2)=\\dfrac{4-2+1}{1}=3\\).",
+   "explain_vi": "Đáp án: 3. \\(y(2)=\\dfrac{4-2+1}{1}=3\\).",
+   "images": [],
+   "id": "8479c4f7de8a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "Find the y-intercept of \\(y=(x-#)^#(x+#)\\).",
+   "en": "Find the y-intercept of \\(y=(x-1)^2(x+2)\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ordinate\">tung độ</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersection point\">giao điểm</b> của \\(y=(x-1)^2(x+2)\\) với trục tung.",
+   "options": [],
+   "answer": "2",
+   "explain_en": "Answer: 2. \\(y(0)=1\\cdot2=2\\).",
+   "explain_vi": "Đáp án: 2. \\(y(0)=1\\cdot2=2\\).",
+   "images": [],
+   "id": "3d6365b44985",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "How many different x-intercepts does \\(y=x^#-#x^#\\) have?",
+   "en": "How many different x-intercepts does \\(y=x^4-2x^2\\) have?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">Đồ thị</b> \\(y=x^4-2x^2\\) có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersection point\">giao điểm</b> phân biệt với trục hoành?",
+   "options": [],
+   "answer": "3",
+   "explain_en": "Answer: 3. \\(x^2(x^2-2)=0\\) gives \\(x=0,\\pm\\sqrt2\\).",
+   "explain_vi": "Đáp án: 3. \\(x^2(x^2-2)=0\\) cho \\(x=0,\\pm\\sqrt2\\).",
+   "images": [],
+   "id": "5928c3f28e23",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "The graph of \\(y=\\dfrac{ax+#}{x-#}\\) has the center of symmetry \\((#)\\). Find \\(a\\).",
+   "en": "The graph of \\(y=\\dfrac{ax+1}{x-1}\\) has the center of symmetry \\((1,2)\\). Find \\(a\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">Đồ thị</b> \\(y=\\dfrac{ax+1}{x-1}\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"center of symmetry\">tâm đối xứng</b> \\((1,2)\\). Tìm \\(a\\).",
+   "options": [],
+   "answer": "2",
+   "explain_en": "Answer: 2. The horizontal asymptote is \\(y=a\\), so \\(a=2\\).",
+   "explain_vi": "Đáp án: 2. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"horizontal asymptote\">Tiệm cận ngang</b> là \\(y=a\\) nên \\(a=2\\).",
+   "images": [],
+   "id": "fcf2b33b7a30",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "How many points do the graphs of \\(y=x^#-#x^#\\) and \\(y=#x-#\\) have in common?",
+   "en": "How many points do the graphs of \\(y=x^3-3x^2\\) and \\(y=4x-12\\) have in common?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">Đồ thị hàm số</b> \\(y=x^3-3x^2\\) và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(y=4x-12\\) có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"common point\">điểm chung</b>?",
+   "options": [
+    "\\(0\\)",
+    "\\(3\\)",
+    "\\(1\\)",
+    "\\(2\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Solve \\(x^3-3x^2=4x-12\\Leftrightarrow x^3-3x^2-4x+12=0\\), whose roots are \\(-2, 2, 3\\): \\(3\\) common point(s).",
+   "explain_vi": "Đáp án b. Giải \\(x^3-3x^2=4x-12\\Leftrightarrow x^3-3x^2-4x+12=0\\), có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b> \\(-2, 2, 3\\): \\(3\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"common point\">điểm chung</b>.",
+   "images": [],
+   "id": "58fed24498a4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The figure shows the graph of \\(y=ax^#+bx^#+cx+d\\). Which is true?",
+   "en": "The figure shows the graph of \\(y=ax^3+bx^2+cx+d\\). Which is true?<img src=\"../../../img/tex/4c11c1aeb87704a9.svg\" alt=\"Graph of a cubic\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,320px);height:auto\">",
+   "vi": "Hình vẽ là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">đồ thị hàm số</b> \\(y=ax^3+bx^2+cx+d\\). Khẳng định nào đúng?<img src=\"../../../img/tex/4c11c1aeb87704a9.svg\" alt=\"Đồ thị hàm bậc ba\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,320px);height:auto\">",
+   "options": [
+    "\\(a\\gt0,\\ d\\lt0\\)",
+    "\\(a\\gt0,\\ d\\gt0\\)",
+    "\\(a\\lt0,\\ d\\lt0\\)",
+    "\\(a\\lt0,\\ d\\gt0\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The right-hand branch goes down, so \\(a\\lt0\\); the graph meets \\(Oy\\) at \\((0;d)\\) below \\(Ox\\), so \\(d\\lt0\\).",
+   "explain_vi": "Đáp án c. Nhánh bên phải đi xuống nên \\(a\\lt0\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> cắt \\(Oy\\) tại \\((0;d)\\) nằm dưới \\(Ox\\) nên \\(d\\lt0\\).",
+   "images": [
+    "img/tex/4c11c1aeb87704a9.svg"
+   ],
+   "id": "4235d4e51cb1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The figure shows the graph of \\(y=f(x)\\). For which values of \\(m\\) does \\(f(x)=m\\) have three distinct solutions?",
+   "en": "The figure shows the graph of \\(y=f(x)\\). For which values of \\(m\\) does \\(f(x)=m\\) have three distinct solutions?<img src=\"../../../img/tex/21d1f653a74e388e.svg\" alt=\"Graph of a cubic\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,320px);height:auto\">",
+   "vi": "Hình vẽ là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">đồ thị hàm số</b> \\(y=f(x)\\). Với những giá trị nào của \\(m\\) thì <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(f(x)=m\\) có ba <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b> phân biệt?<img src=\"../../../img/tex/21d1f653a74e388e.svg\" alt=\"Đồ thị hàm bậc ba\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,320px);height:auto\">",
+   "options": [
+    "\\((0;\\,2)\\)",
+    "\\((-1;\\,3)\\)",
+    "\\([-1;\\,3]\\)",
+    "\\((-1;\\,+\\infty)\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. The line \\(y=m\\) cuts the graph three times exactly when it lies strictly between the extreme values \\(-1\\) and \\(3\\).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">Đường thẳng</b> \\(y=m\\) cắt <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> tại ba điểm khi và chỉ khi nó nằm giữa (không trùng) hai giá trị <b class=\"mbl-term\" tabindex=\"0\" data-en=\"extremum\">cực trị</b> \\(-1\\) và \\(3\\).",
+   "images": [
+    "img/tex/21d1f653a74e388e.svg"
+   ],
+   "id": "d6942dbacb43",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The figure shows the graph of \\(y=f(x)\\). How many real solutions does \\(#f(x)-#=#\\) have?",
+   "en": "The figure shows the graph of \\(y=f(x)\\). How many real solutions does \\(3f(x)-12=0\\) have?<img src=\"../../../img/tex/21d1f653a74e388e.svg\" alt=\"Graph of a cubic\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,320px);height:auto\">",
+   "vi": "Hình vẽ là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">đồ thị hàm số</b> \\(y=f(x)\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">Phương trình</b> \\(3f(x)-12=0\\) có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b> thực?<img src=\"../../../img/tex/21d1f653a74e388e.svg\" alt=\"Đồ thị hàm bậc ba\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,320px);height:auto\">",
+   "options": [
+    "\\(0\\)",
+    "\\(3\\)",
+    "\\(2\\)",
+    "\\(1\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(3f(x)-12=0\\Leftrightarrow f(x)=4\\); the line \\(y=4\\) meets the graph at \\(1\\) point(s).",
+   "explain_vi": "Đáp án d. \\(3f(x)-12=0\\Leftrightarrow f(x)=4\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(y=4\\) cắt <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> tại \\(1\\) điểm.",
+   "images": [
+    "img/tex/21d1f653a74e388e.svg"
+   ],
+   "id": "9e9c821a350a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The figure shows the graph of a function and its asymptotes (dashed). Which function is it?",
+   "en": "The figure shows the graph of a function and its asymptotes (dashed). Which function is it?<img src=\"../../../img/tex/41f227b30ecbc85a.svg\" alt=\"Graph of a rational function\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Hình vẽ là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> của một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> và các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"asymptote\">đường tiệm cận</b> (nét đứt). Đó là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> nào?<img src=\"../../../img/tex/41f227b30ecbc85a.svg\" alt=\"Đồ thị hàm phân thức\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "\\(y=\\dfrac{x-2}{x-1}\\)",
+    "\\(y=\\dfrac{-x-2}{x-1}\\)",
+    "\\(y=\\dfrac{x-2}{x+1}\\)",
+    "\\(y=\\dfrac{x+2}{x-1}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Asymptotes \\(x=1\\), \\(y=1\\) and the branches lie top-left and bottom-right: \\(y=\\dfrac{x-2}{x-1}\\).",
+   "explain_vi": "Đáp án a. Tiệm cận \\(x=1\\), \\(y=1\\) và hai nhánh nằm ở góc trên trái và dưới phải: \\(y=\\dfrac{x-2}{x-1}\\).",
+   "images": [
+    "img/tex/41f227b30ecbc85a.svg"
+   ],
+   "id": "baf707ed3df1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The three extreme points of the graph of \\(y=x^#-#x^#+#\\) form a triangle. Its area is…",
+   "en": "The three extreme points of the graph of \\(y=x^4-8x^2+2\\) form a triangle. Its area is…",
+   "vi": "Ba điểm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"extremum\">cực trị</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">đồ thị hàm số</b> \\(y=x^4-8x^2+2\\) tạo thành một tam giác. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"area of a triangle\">Diện tích tam giác</b> đó là",
+   "options": [
+    "\\(16\\)",
+    "\\(8\\)",
+    "\\(64\\)",
+    "\\(32\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(y'=4x(x^2-4)\\): points \\((0;2)\\), \\((\\pm2;-14)\\). Base \\(4\\), height \\(16\\): area \\(\\dfrac12\\cdot4\\cdot16=32\\).",
+   "explain_vi": "Đáp án d. \\(y'=4x(x^2-4)\\): các điểm \\((0;2)\\), \\((\\pm2;-14)\\). Đáy \\(4\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"height\">chiều cao</b> \\(16\\): diện tích \\(\\dfrac12\\cdot4\\cdot16=32\\).",
+   "images": [],
+   "id": "c530e452d252",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Which function has the graph shown in the figure?",
+   "en": "Which function has the graph shown in the figure?<img src=\"../../../img/tex/d1ddb5ad34a28b83.svg\" alt=\"Graph of a cubic\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,320px);height:auto\">",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">Đồ thị</b> trong hình là của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> nào?<img src=\"../../../img/tex/d1ddb5ad34a28b83.svg\" alt=\"Đồ thị hàm bậc ba\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,320px);height:auto\">",
+   "options": [
+    "\\(y=-x^3+3x-4\\)",
+    "\\(y=x^3-3x-4\\)",
+    "\\(y=-x^3-3x-4\\)",
+    "\\(y=-x^3+3x+4\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Check the shape (\\(a\\lt0\\)), the point on \\(Oy\\) \\((0;-4)\\) and the turning points \\(x=-1\\), \\(x=1\\): only \\(y=-x^3+3x-4\\) fits.",
+   "explain_vi": "Đáp án a. Xét dáng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> (\\(a\\lt0\\)), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersection point\">giao điểm</b> với \\(Oy\\) là \\((0;-4)\\) và các điểm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"extremum\">cực trị</b> \\(x=-1\\), \\(x=1\\): chỉ \\(y=-x^3+3x-4\\) phù hợp.",
+   "images": [
+    "img/tex/d1ddb5ad34a28b83.svg"
+   ],
+   "id": "94a74dd6a28e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Which function has the variation table shown?",
+   "en": "Which function has the variation table shown?<img src=\"../../../img/tex/f1cd0c2fe2486fb8.svg\" alt=\"Variation table\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,460px);height:auto\">",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"variation table\">Bảng biến thiên</b> trong hình là của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> nào?<img src=\"../../../img/tex/f1cd0c2fe2486fb8.svg\" alt=\"Bảng biến thiên\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,460px);height:auto\">",
+   "options": [
+    "\\(y=-x^3+6x^2-9x+3\\)",
+    "\\(y=-x^3+6x^2+9x+1\\)",
+    "\\(y=x^3-6x^2+9x+1\\)",
+    "\\(y=-x^3+6x^2-9x+1\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. The table needs \\(y'=0\\) at \\(x=1\\), \\(x=3\\), the right sign of \\(a\\) and the values \\(-3\\), \\(1\\): only \\(y=-x^3+6x^2-9x+1\\) fits.",
+   "explain_vi": "Đáp án d. Bảng cần \\(y'=0\\) tại \\(x=1\\), \\(x=3\\), dấu của \\(a\\) phù hợp và các giá trị \\(-3\\), \\(1\\): chỉ \\(y=-x^3+6x^2-9x+1\\) phù hợp.",
+   "images": [
+    "img/tex/f1cd0c2fe2486fb8.svg"
+   ],
+   "id": "043d0b8073ff",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "What is the center of symmetry of \\(y=\\dfrac{#x+#}{x-#}\\)?",
+   "en": "What is the center of symmetry of \\(y=\\dfrac{3x+2}{x-1}\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"center of symmetry\">Tâm đối xứng</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> \\(y=\\dfrac{3x+2}{x-1}\\) là điểm nào?",
+   "options": [
+    "\\((3,1)\\)",
+    "\\((-1,3)\\)",
+    "\\((1,-3)\\)",
+    "\\((1,3)\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. It is the intersection of the asymptotes \\(x=1\\) and \\(y=3\\).",
+   "explain_vi": "Đáp án d. Đó là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersection point\">giao điểm</b> của hai tiệm cận \\(x=1\\) và \\(y=3\\).",
+   "images": [],
+   "id": "388c90c98347",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "What is the horizontal asymptote of \\(y=\\dfrac{#x-#}{x+#}\\)?",
+   "en": "What is the horizontal asymptote of \\(y=\\dfrac{5x-2}{x+4}\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"horizontal asymptote\">Tiệm cận ngang</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> \\(y=\\dfrac{5x-2}{x+4}\\) là đường nào?",
+   "options": [
+    "\\(y=-4\\)",
+    "\\(y=4\\)",
+    "\\(y=5\\)",
+    "\\(y=-2\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(y=\\dfrac ac=\\dfrac51=5\\).",
+   "explain_vi": "Đáp án c. \\(y=\\dfrac ac=\\dfrac51=5\\).",
+   "images": [],
+   "id": "bed4bd85067f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "What is the local maximum value of \\(y=x^#-#x+#\\)?",
+   "en": "What is the local maximum value of \\(y=x^3-12x+5\\)?",
+   "vi": "Giá trị <b class=\"mbl-term\" tabindex=\"0\" data-en=\"local maximum\">cực đại</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(y=x^3-12x+5\\) là bao nhiêu?",
+   "options": [
+    "\\(21\\)",
+    "\\(-11\\)",
+    "\\(5\\)",
+    "\\(-21\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. The maximum is at \\(x=-2\\): \\(-8+24+5=21\\).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"local maximum\">Cực đại</b> tại \\(x=-2\\): \\(-8+24+5=21\\).",
+   "images": [],
+   "id": "63d55ab88c52",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Where is the local minimum point of \\(y=x^#-#x^#\\)?",
+   "en": "Where is the local minimum point of \\(y=x^3-6x^2\\)?",
+   "vi": "Điểm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"local minimum\">cực tiểu</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> \\(y=x^3-6x^2\\) là điểm nào?",
+   "options": [
+    "\\((0,0)\\)",
+    "\\((2,-16)\\)",
+    "\\((4,-32)\\)",
+    "\\((-4,-160)\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(y'=3x(x-4)\\); the sign changes from \\(-\\) to \\(+\\) at \\(x=4\\), and \\(y(4)=64-96=-32\\).",
+   "explain_vi": "Đáp án c. \\(y'=3x(x-4)\\); dấu đổi từ \\(-\\) sang \\(+\\) tại \\(x=4\\), và \\(y(4)=64-96=-32\\).",
+   "images": [],
+   "id": "84add5d68f95",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "True or false: the graph of \\(y=x^#-x\\) is symmetric about the y-axis.",
+   "en": "True or false: the graph of \\(y=x^3-x\\) is symmetric about the y-axis.",
+   "vi": "Đúng hay sai: <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> \\(y=x^3-x\\) đối xứng qua trục tung.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. \\(y=x^3-x\\) is odd: its graph is symmetric about the origin.",
+   "explain_vi": "Sai. \\(y=x^3-x\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"odd function\">hàm số lẻ</b>: <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> đối xứng qua <b class=\"mbl-term\" tabindex=\"0\" data-en=\"origin\">gốc tọa độ</b>.",
+   "images": [],
+   "id": "6e90598c9452",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "True or false: the graph of \\(y=x^#-x^#\\) is symmetric about the y-axis.",
+   "en": "True or false: the graph of \\(y=x^6-x^2\\) is symmetric about the y-axis.",
+   "vi": "Đúng hay sai: <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> \\(y=x^6-x^2\\) đối xứng qua trục tung.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. The function is even.",
+   "explain_vi": "Đúng. Đây là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"even function\">hàm số chẵn</b>.",
+   "images": [],
+   "id": "7f52e7bcf1e0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "Find the local minimum value of \\(y=\\dfrac{x^#-#x+#}{x-#}\\) at \\(x=#\\).",
+   "en": "Find the local minimum value of \\(y=\\dfrac{x^2-2x+4}{x-2}\\) at \\(x=4\\).",
+   "vi": "Tìm giá trị <b class=\"mbl-term\" tabindex=\"0\" data-en=\"local minimum\">cực tiểu</b> của \\(y=\\dfrac{x^2-2x+4}{x-2}\\) tại \\(x=4\\).",
+   "options": [],
+   "answer": "6",
+   "explain_en": "Answer: 6. \\(y(4)=\\dfrac{16-8+4}{2}=6\\).",
+   "explain_vi": "Đáp án: 6. \\(y(4)=\\dfrac{16-8+4}{2}=6\\).",
+   "images": [],
+   "id": "785b7de5c1ef",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "Find the y-intercept of \\(y=(x+#)^#(x-#)\\).",
+   "en": "Find the y-intercept of \\(y=(x+1)^2(x-3)\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ordinate\">tung độ</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersection point\">giao điểm</b> của \\(y=(x+1)^2(x-3)\\) với trục tung.",
+   "options": [],
+   "answer": "-3",
+   "explain_en": "Answer: \\(-3\\). \\(y(0)=1\\cdot(-3)=-3\\).",
+   "explain_vi": "Đáp án: \\(-3\\). \\(y(0)=1\\cdot(-3)=-3\\).",
+   "images": [],
+   "id": "5b74809a55b7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "How many different x-intercepts does \\(y=x^#-#x^#+#\\) have?",
+   "en": "How many different x-intercepts does \\(y=x^4-5x^2+4\\) have?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">Đồ thị</b> \\(y=x^4-5x^2+4\\) có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersection point\">giao điểm</b> phân biệt với trục hoành?",
+   "options": [],
+   "answer": "4",
+   "explain_en": "Answer: 4. \\((x^2-1)(x^2-4)=0\\) gives \\(x=\\pm1,\\pm2\\).",
+   "explain_vi": "Đáp án: 4. \\((x^2-1)(x^2-4)=0\\) cho \\(x=\\pm1,\\pm2\\).",
+   "images": [],
+   "id": "4917481f5bdf",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "The graph of \\(y=\\dfrac{ax-#}{x+#}\\) has the center of symmetry \\((-#)\\). Find \\(a\\).",
+   "en": "The graph of \\(y=\\dfrac{ax-1}{x+2}\\) has the center of symmetry \\((-2,3)\\). Find \\(a\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">Đồ thị</b> \\(y=\\dfrac{ax-1}{x+2}\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"center of symmetry\">tâm đối xứng</b> \\((-2,3)\\). Tìm \\(a\\).",
+   "options": [],
+   "answer": "3",
+   "explain_en": "Answer: 3. The horizontal asymptote is \\(y=a\\), so \\(a=3\\).",
+   "explain_vi": "Đáp án: 3. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"horizontal asymptote\">Tiệm cận ngang</b> là \\(y=a\\) nên \\(a=3\\).",
+   "images": [],
+   "id": "ec9dc7e37c9d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "How many points do the graphs of \\(y=x^#+#x^#\\) and \\(y=#x+#\\) have in common?",
+   "en": "How many points do the graphs of \\(y=x^3+2x^2\\) and \\(y=9x+18\\) have in common?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">Đồ thị hàm số</b> \\(y=x^3+2x^2\\) và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(y=9x+18\\) có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"common point\">điểm chung</b>?",
+   "options": [
+    "\\(2\\)",
+    "\\(0\\)",
+    "\\(1\\)",
+    "\\(3\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Solve \\(x^3+2x^2=9x+18\\Leftrightarrow x^3+2x^2-9x-18=0\\), whose roots are \\(-3, -2, 3\\): \\(3\\) common point(s).",
+   "explain_vi": "Đáp án d. Giải \\(x^3+2x^2=9x+18\\Leftrightarrow x^3+2x^2-9x-18=0\\), có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b> \\(-3, -2, 3\\): \\(3\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"common point\">điểm chung</b>.",
+   "images": [],
+   "id": "c42a4d92d3e8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The figure below shows the graph of \\(y=ax^#+bx^#+cx+d\\). Which is true?",
+   "en": "The figure below shows the graph of \\(y=ax^3+bx^2+cx+d\\). Which is true?<img src=\"../../../img/tex/6ce50d1217d75151.svg\" alt=\"Graph of a cubic\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,320px);height:auto\">",
+   "vi": "Hình vẽ dưới đây là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">đồ thị hàm số</b> \\(y=ax^3+bx^2+cx+d\\). Khẳng định nào đúng?<img src=\"../../../img/tex/6ce50d1217d75151.svg\" alt=\"Đồ thị hàm bậc ba\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,320px);height:auto\">",
+   "options": [
+    "\\(a\\lt0,\\ d\\lt0\\)",
+    "\\(a\\lt0,\\ d\\gt0\\)",
+    "\\(a\\gt0,\\ d\\gt0\\)",
+    "\\(a\\gt0,\\ d\\lt0\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. The right-hand branch goes up, so \\(a\\gt0\\); the graph meets \\(Oy\\) at \\((0;d)\\) below \\(Ox\\), so \\(d\\lt0\\).",
+   "explain_vi": "Đáp án d. Nhánh bên phải đi lên nên \\(a\\gt0\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> cắt \\(Oy\\) tại \\((0;d)\\) nằm dưới \\(Ox\\) nên \\(d\\lt0\\).",
+   "images": [
+    "img/tex/6ce50d1217d75151.svg"
+   ],
+   "id": "3c1bf1884609",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The figure below shows the graph of \\(y=f(x)\\). For which values of \\(m\\) does \\(f(x)=m\\) have three distinct solutions?",
+   "en": "The figure below shows the graph of \\(y=f(x)\\). For which values of \\(m\\) does \\(f(x)=m\\) have three distinct solutions?<img src=\"../../../img/tex/97190cd5572e64c8.svg\" alt=\"Graph of a cubic\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,320px);height:auto\">",
+   "vi": "Hình vẽ dưới đây là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">đồ thị hàm số</b> \\(y=f(x)\\). Với những giá trị nào của \\(m\\) thì <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(f(x)=m\\) có ba <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b> phân biệt?<img src=\"../../../img/tex/97190cd5572e64c8.svg\" alt=\"Đồ thị hàm bậc ba\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,320px);height:auto\">",
+   "options": [
+    "\\([-5;\\,-1]\\)",
+    "\\((1;\\,3)\\)",
+    "\\((-5;\\,-1)\\)",
+    "\\((-5;\\,+\\infty)\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The line \\(y=m\\) cuts the graph three times exactly when it lies strictly between the extreme values \\(-5\\) and \\(-1\\).",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">Đường thẳng</b> \\(y=m\\) cắt <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> tại ba điểm khi và chỉ khi nó nằm giữa (không trùng) hai giá trị <b class=\"mbl-term\" tabindex=\"0\" data-en=\"extremum\">cực trị</b> \\(-5\\) và \\(-1\\).",
+   "images": [
+    "img/tex/97190cd5572e64c8.svg"
+   ],
+   "id": "45cca386b85d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The figure below shows the graph of \\(y=f(x)\\). How many real solutions does \\(#f(x)+#=#\\) have?",
+   "en": "The figure below shows the graph of \\(y=f(x)\\). How many real solutions does \\(2f(x)+8=0\\) have?<img src=\"../../../img/tex/7e62b9ebdd49bfce.svg\" alt=\"Graph of a cubic\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,320px);height:auto\">",
+   "vi": "Hình vẽ dưới đây là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">đồ thị hàm số</b> \\(y=f(x)\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">Phương trình</b> \\(2f(x)+8=0\\) có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b> thực?<img src=\"../../../img/tex/7e62b9ebdd49bfce.svg\" alt=\"Đồ thị hàm bậc ba\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,320px);height:auto\">",
+   "options": [
+    "\\(1\\)",
+    "\\(0\\)",
+    "\\(2\\)",
+    "\\(3\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(2f(x)+8=0\\Leftrightarrow f(x)=-4\\); the line \\(y=-4\\) meets the graph at \\(1\\) point(s).",
+   "explain_vi": "Đáp án a. \\(2f(x)+8=0\\Leftrightarrow f(x)=-4\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(y=-4\\) cắt <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> tại \\(1\\) điểm.",
+   "images": [
+    "img/tex/7e62b9ebdd49bfce.svg"
+   ],
+   "id": "76331f7ac910",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The figure below shows the graph of a function and its asymptotes (dashed). Which function is it?",
+   "en": "The figure below shows the graph of a function and its asymptotes (dashed). Which function is it?<img src=\"../../../img/tex/6ddc1f381da1a8f8.svg\" alt=\"Graph of a rational function\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Hình vẽ dưới đây là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> của một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> và các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"asymptote\">đường tiệm cận</b> (nét đứt). Đó là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> nào?<img src=\"../../../img/tex/6ddc1f381da1a8f8.svg\" alt=\"Đồ thị hàm phân thức\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "\\(y=\\dfrac{-x+4}{x+2}\\)",
+    "\\(y=\\dfrac{-2x+4}{x+1}\\)",
+    "\\(y=\\dfrac{-2x+4}{x-1}\\)",
+    "\\(y=\\dfrac{-2x-4}{x-1}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Asymptotes \\(x=1\\), \\(y=-2\\) and the branches lie top-right and bottom-left: \\(y=\\dfrac{-2x+4}{x-1}\\).",
+   "explain_vi": "Đáp án c. Tiệm cận \\(x=1\\), \\(y=-2\\) và hai nhánh nằm ở góc trên phải và dưới trái: \\(y=\\dfrac{-2x+4}{x-1}\\).",
+   "images": [
+    "img/tex/6ddc1f381da1a8f8.svg"
+   ],
+   "id": "8ab14537a018",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The figure shows the graph of which function?",
+   "en": "The figure shows the graph of which function?<img src=\"../../../img/tex/ecce91ac2fb00c53.svg\" alt=\"Graph of a cubic\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,320px);height:auto\">",
+   "vi": "Hình vẽ là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> nào?<img src=\"../../../img/tex/ecce91ac2fb00c53.svg\" alt=\"Đồ thị hàm bậc ba\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,320px);height:auto\">",
+   "options": [
+    "\\(y=-x^3-3x^2\\)",
+    "\\(y=x^3+3x^2\\)",
+    "\\(y=-x^3-3x^2+2\\)",
+    "\\(y=-x^3+3x^2\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Check the shape (\\(a\\lt0\\)), the point on \\(Oy\\) \\((0;0)\\) and the turning points \\(x=-2\\), \\(x=0\\): only \\(y=-x^3-3x^2\\) fits.",
+   "explain_vi": "Đáp án a. Xét dáng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> (\\(a\\lt0\\)), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersection point\">giao điểm</b> với \\(Oy\\) là \\((0;0)\\) và các điểm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"extremum\">cực trị</b> \\(x=-2\\), \\(x=0\\): chỉ \\(y=-x^3-3x^2\\) phù hợp.",
+   "images": [
+    "img/tex/ecce91ac2fb00c53.svg"
+   ],
+   "id": "d54bbb2feaa0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The three extreme points of the graph of \\(y=x^#-#x^#-#\\) form a triangle. Its area is…",
+   "en": "The three extreme points of the graph of \\(y=x^4-18x^2-3\\) form a triangle. Its area is…",
+   "vi": "Ba điểm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"extremum\">cực trị</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">đồ thị hàm số</b> \\(y=x^4-18x^2-3\\) tạo thành một tam giác. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"area of a triangle\">Diện tích tam giác</b> đó là",
+   "options": [
+    "\\(81\\)",
+    "\\(27\\)",
+    "\\(486\\)",
+    "\\(243\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(y'=4x(x^2-9)\\): points \\((0;-3)\\), \\((\\pm3;-84)\\). Base \\(6\\), height \\(81\\): area \\(\\dfrac12\\cdot6\\cdot81=243\\).",
+   "explain_vi": "Đáp án d. \\(y'=4x(x^2-9)\\): các điểm \\((0;-3)\\), \\((\\pm3;-84)\\). Đáy \\(6\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"height\">chiều cao</b> \\(81\\): diện tích \\(\\dfrac12\\cdot6\\cdot81=243\\).",
+   "images": [],
+   "id": "73c7890db3d8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The variation table belongs to which function?",
+   "en": "The variation table belongs to which function?<img src=\"../../../img/tex/45f13b4942440a21.svg\" alt=\"Variation table\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,460px);height:auto\">",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">Hàm số</b> nào có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"variation table\">bảng biến thiên</b> như hình?<img src=\"../../../img/tex/45f13b4942440a21.svg\" alt=\"Bảng biến thiên\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,460px);height:auto\">",
+   "options": [
+    "\\(y=-x^3+3x+3\\)",
+    "\\(y=x^3-3x+5\\)",
+    "\\(y=x^3+3x+3\\)",
+    "\\(y=x^3-3x+3\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. The table needs \\(y'=0\\) at \\(x=-1\\), \\(x=1\\), the right sign of \\(a\\) and the values \\(5\\), \\(1\\): only \\(y=x^3-3x+3\\) fits.",
+   "explain_vi": "Đáp án d. Bảng cần \\(y'=0\\) tại \\(x=-1\\), \\(x=1\\), dấu của \\(a\\) phù hợp và các giá trị \\(5\\), \\(1\\): chỉ \\(y=x^3-3x+3\\) phù hợp.",
+   "images": [
+    "img/tex/45f13b4942440a21.svg"
+   ],
+   "id": "0269298d4392",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "What is the center of symmetry of \\(y=\\dfrac{#x+#}{x+#}\\)?",
+   "en": "What is the center of symmetry of \\(y=\\dfrac{4x+1}{x+3}\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"center of symmetry\">Tâm đối xứng</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> \\(y=\\dfrac{4x+1}{x+3}\\) là điểm nào?",
+   "options": [
+    "\\((3,4)\\)",
+    "\\((4,-3)\\)",
+    "\\((-3,4)\\)",
+    "\\((-3,-4)\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. It is the intersection of the asymptotes \\(x=-3\\) and \\(y=4\\).",
+   "explain_vi": "Đáp án c. Đó là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersection point\">giao điểm</b> của hai tiệm cận \\(x=-3\\) và \\(y=4\\).",
+   "images": [],
+   "id": "0fac87401106",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "What is the horizontal asymptote of \\(y=\\dfrac{#x+#}{#x-#}\\)?",
+   "en": "What is the horizontal asymptote of \\(y=\\dfrac{2x+7}{3x-1}\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"horizontal asymptote\">Tiệm cận ngang</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> \\(y=\\dfrac{2x+7}{3x-1}\\) là đường nào?",
+   "options": [
+    "\\(y=\\dfrac32\\)",
+    "\\(y=2\\)",
+    "\\(y=-\\dfrac13\\)",
+    "\\(y=\\dfrac23\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(y=\\dfrac ac=\\dfrac23\\).",
+   "explain_vi": "Đáp án d. \\(y=\\dfrac ac=\\dfrac23\\).",
+   "images": [],
+   "id": "82a2426dc711",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "What is the local maximum value of \\(y=-x^#+#x+#\\)?",
+   "en": "What is the local maximum value of \\(y=-x^3+3x+1\\)?",
+   "vi": "Giá trị <b class=\"mbl-term\" tabindex=\"0\" data-en=\"local maximum\">cực đại</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(y=-x^3+3x+1\\) là bao nhiêu?",
+   "options": [
+    "\\(-1\\)",
+    "\\(1\\)",
+    "\\(5\\)",
+    "\\(3\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(y'=-3x^2+3=0\\) at \\(x=\\pm1\\). The maximum is at \\(x=1\\): \\(-1+3+1=3\\).",
+   "explain_vi": "Đáp án d. \\(y'=-3x^2+3=0\\) tại \\(x=\\pm1\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"local maximum\">Cực đại</b> tại \\(x=1\\): \\(-1+3+1=3\\).",
+   "images": [],
+   "id": "f4488ad4ebe1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Where is the local minimum point of \\(y=x^#-#x\\)?",
+   "en": "Where is the local minimum point of \\(y=x^3-12x\\)?",
+   "vi": "Điểm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"local minimum\">cực tiểu</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> \\(y=x^3-12x\\) là điểm nào?",
+   "options": [
+    "\\((2,-16)\\)",
+    "\\((-2,16)\\)",
+    "\\((0,0)\\)",
+    "\\((4,16)\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(y'=3x^2-12\\); the sign changes from \\(-\\) to \\(+\\) at \\(x=2\\), and \\(y(2)=8-24=-16\\).",
+   "explain_vi": "Đáp án a. \\(y'=3x^2-12\\); dấu đổi từ \\(-\\) sang \\(+\\) tại \\(x=2\\), và \\(y(2)=8-24=-16\\).",
+   "images": [],
+   "id": "40129440cd1e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "True or false: the graph of \\(y=-x^#+#x^#\\) is symmetric about the y-axis.",
+   "en": "True or false: the graph of \\(y=-x^4+4x^2\\) is symmetric about the y-axis.",
+   "vi": "Đúng hay sai: <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> \\(y=-x^4+4x^2\\) đối xứng qua trục tung.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. The function is even.",
+   "explain_vi": "Đúng. Đây là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"even function\">hàm số chẵn</b>.",
+   "images": [],
+   "id": "a9136232aa88",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "True or false: the graph of \\(y=x^#+#x\\) is symmetric about the y-axis.",
+   "en": "True or false: the graph of \\(y=x^3+2x\\) is symmetric about the y-axis.",
+   "vi": "Đúng hay sai: <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> \\(y=x^3+2x\\) đối xứng qua trục tung.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. \\(y=x^3+2x\\) is odd: its graph is symmetric about the origin.",
+   "explain_vi": "Sai. \\(y=x^3+2x\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"odd function\">hàm số lẻ</b>: <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> đối xứng qua <b class=\"mbl-term\" tabindex=\"0\" data-en=\"origin\">gốc tọa độ</b>.",
+   "images": [],
+   "id": "44895762234e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Find the local minimum value of \\(y=\\dfrac{x^#-#x+#}{x-#}\\) at \\(x=#\\).",
+   "en": "Find the local minimum value of \\(y=\\dfrac{x^2-4x+9}{x-4}\\) at \\(x=7\\).",
+   "vi": "Tìm giá trị <b class=\"mbl-term\" tabindex=\"0\" data-en=\"local minimum\">cực tiểu</b> của \\(y=\\dfrac{x^2-4x+9}{x-4}\\) tại \\(x=7\\).",
+   "options": [],
+   "answer": "10",
+   "explain_en": "Answer: 10. \\(y(7)=\\dfrac{49-28+9}{3}=10\\).",
+   "explain_vi": "Đáp án: 10. \\(y(7)=\\dfrac{49-28+9}{3}=10\\).",
+   "images": [],
+   "id": "6705e8c8fb93",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Find the y-intercept of \\(y=(x-#)^#(x+#)\\).",
+   "en": "Find the y-intercept of \\(y=(x-2)^2(x+1)\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ordinate\">tung độ</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersection point\">giao điểm</b> của \\(y=(x-2)^2(x+1)\\) với trục tung.",
+   "options": [],
+   "answer": "4",
+   "explain_en": "Answer: 4. \\(y(0)=4\\cdot1=4\\).",
+   "explain_vi": "Đáp án: 4. \\(y(0)=4\\cdot1=4\\).",
+   "images": [],
+   "id": "d0192e8f5014",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "How many different x-intercepts does \\(y=x^#+x^#-#\\) have?",
+   "en": "How many different x-intercepts does \\(y=x^4+x^2-2\\) have?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">Đồ thị</b> \\(y=x^4+x^2-2\\) có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersection point\">giao điểm</b> phân biệt với trục hoành?",
+   "options": [],
+   "answer": "2",
+   "explain_en": "Answer: 2. \\((x^2+2)(x^2-1)=0\\) gives only \\(x=\\pm1\\), because \\(x^2+2>0\\).",
+   "explain_vi": "Đáp án: 2. \\((x^2+2)(x^2-1)=0\\) chỉ cho \\(x=\\pm1\\) vì \\(x^2+2>0\\).",
+   "images": [],
+   "id": "c74833c87d98",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "The graph of \\(y=\\dfrac{ax+#}{x-#}\\) has the center of symmetry \\((#)\\). Find \\(a\\).",
+   "en": "The graph of \\(y=\\dfrac{ax+2}{x-3}\\) has the center of symmetry \\((3,4)\\). Find \\(a\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">Đồ thị</b> \\(y=\\dfrac{ax+2}{x-3}\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"center of symmetry\">tâm đối xứng</b> \\((3,4)\\). Tìm \\(a\\).",
+   "options": [],
+   "answer": "4",
+   "explain_en": "Answer: 4. The horizontal asymptote is \\(y=a\\), so \\(a=4\\).",
+   "explain_vi": "Đáp án: 4. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"horizontal asymptote\">Tiệm cận ngang</b> là \\(y=a\\) nên \\(a=4\\).",
+   "images": [],
+   "id": "1a2a32d4a251",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "How many points do the graphs of \\(y=x^#+#x^#\\) and \\(y=x+#\\) have in common?",
+   "en": "How many points do the graphs of \\(y=x^3+3x^2\\) and \\(y=x+3\\) have in common?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">Đồ thị hàm số</b> \\(y=x^3+3x^2\\) và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(y=x+3\\) có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"common point\">điểm chung</b>?",
+   "options": [
+    "\\(3\\)",
+    "\\(1\\)",
+    "\\(0\\)",
+    "\\(2\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Solve \\(x^3+3x^2=x+3\\Leftrightarrow x^3+3x^2-x-3=0\\), whose roots are \\(-3, -1, 1\\): \\(3\\) common point(s).",
+   "explain_vi": "Đáp án a. Giải \\(x^3+3x^2=x+3\\Leftrightarrow x^3+3x^2-x-3=0\\), có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b> \\(-3, -1, 1\\): \\(3\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"common point\">điểm chung</b>.",
+   "images": [],
+   "id": "d93a92170b9c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Look at the figure. It shows the graph of \\(y=ax^#+bx^#+cx+d\\). Which is true?",
+   "en": "Look at the figure. It shows the graph of \\(y=ax^3+bx^2+cx+d\\). Which is true?<img src=\"../../../img/tex/355510dc764bf9c5.svg\" alt=\"Graph of a cubic\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,320px);height:auto\">",
+   "vi": "Quan sát hình vẽ: đây là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">đồ thị hàm số</b> \\(y=ax^3+bx^2+cx+d\\). Khẳng định nào đúng?<img src=\"../../../img/tex/355510dc764bf9c5.svg\" alt=\"Đồ thị hàm bậc ba\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,320px);height:auto\">",
+   "options": [
+    "\\(a\\lt0,\\ d\\gt0\\)",
+    "\\(a\\lt0,\\ d\\lt0\\)",
+    "\\(a\\gt0,\\ d\\gt0\\)",
+    "\\(a\\gt0,\\ d\\lt0\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. The right-hand branch goes down, so \\(a\\lt0\\); the graph meets \\(Oy\\) at \\((0;d)\\) above \\(Ox\\), so \\(d\\gt0\\).",
+   "explain_vi": "Đáp án a. Nhánh bên phải đi xuống nên \\(a\\lt0\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> cắt \\(Oy\\) tại \\((0;d)\\) nằm trên \\(Ox\\) nên \\(d\\gt0\\).",
+   "images": [
+    "img/tex/355510dc764bf9c5.svg"
+   ],
+   "id": "04fd8dc2c5f9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Look at the figure. It shows the graph of \\(y=f(x)\\). For which values of \\(m\\) does \\(f(x)=m\\) have three distinct solutions?",
+   "en": "Look at the figure. It shows the graph of \\(y=f(x)\\). For which values of \\(m\\) does \\(f(x)=m\\) have three distinct solutions?<img src=\"../../../img/tex/7afa88ba909fb8d3.svg\" alt=\"Graph of a cubic\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,320px);height:auto\">",
+   "vi": "Quan sát hình vẽ: đây là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">đồ thị hàm số</b> \\(y=f(x)\\). Với những giá trị nào của \\(m\\) thì <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(f(x)=m\\) có ba <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b> phân biệt?<img src=\"../../../img/tex/7afa88ba909fb8d3.svg\" alt=\"Đồ thị hàm bậc ba\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,320px);height:auto\">",
+   "options": [
+    "\\((0;\\,2)\\)",
+    "\\((2;\\,+\\infty)\\)",
+    "\\([2;\\,6]\\)",
+    "\\((2;\\,6)\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. The line \\(y=m\\) cuts the graph three times exactly when it lies strictly between the extreme values \\(2\\) and \\(6\\).",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">Đường thẳng</b> \\(y=m\\) cắt <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> tại ba điểm khi và chỉ khi nó nằm giữa (không trùng) hai giá trị <b class=\"mbl-term\" tabindex=\"0\" data-en=\"extremum\">cực trị</b> \\(2\\) và \\(6\\).",
+   "images": [
+    "img/tex/7afa88ba909fb8d3.svg"
+   ],
+   "id": "10475e6359de",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Look at the figure. It shows the graph of \\(y=f(x)\\). How many real solutions does \\(#f(x)+#=#\\) have?",
+   "en": "Look at the figure. It shows the graph of \\(y=f(x)\\). How many real solutions does \\(2f(x)+6=0\\) have?<img src=\"../../../img/tex/22c98938c4892e49.svg\" alt=\"Graph of a cubic\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,320px);height:auto\">",
+   "vi": "Quan sát hình vẽ: đây là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">đồ thị hàm số</b> \\(y=f(x)\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">Phương trình</b> \\(2f(x)+6=0\\) có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b> thực?<img src=\"../../../img/tex/22c98938c4892e49.svg\" alt=\"Đồ thị hàm bậc ba\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,320px);height:auto\">",
+   "options": [
+    "\\(3\\)",
+    "\\(2\\)",
+    "\\(0\\)",
+    "\\(1\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(2f(x)+6=0\\Leftrightarrow f(x)=-3\\); the line \\(y=-3\\) meets the graph at \\(3\\) point(s).",
+   "explain_vi": "Đáp án a. \\(2f(x)+6=0\\Leftrightarrow f(x)=-3\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(y=-3\\) cắt <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> tại \\(3\\) điểm.",
+   "images": [
+    "img/tex/22c98938c4892e49.svg"
+   ],
+   "id": "dc8813ebaf9a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Look at the figure. It shows the graph of a function and its asymptotes (dashed). Which function is it?",
+   "en": "Look at the figure. It shows the graph of a function and its asymptotes (dashed). Which function is it?<img src=\"../../../img/tex/6a54abd8a3fbaffc.svg\" alt=\"Graph of a rational function\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Quan sát hình vẽ: đây là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> của một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> và các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"asymptote\">đường tiệm cận</b> (nét đứt). Đó là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> nào?<img src=\"../../../img/tex/6a54abd8a3fbaffc.svg\" alt=\"Đồ thị hàm phân thức\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "\\(y=\\dfrac{x+4}{x-2}\\)",
+    "\\(y=\\dfrac{x-4}{x+2}\\)",
+    "\\(y=\\dfrac{x-4}{x-2}\\)",
+    "\\(y=\\dfrac{-2x-4}{x-1}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Asymptotes \\(x=2\\), \\(y=1\\) and the branches lie top-left and bottom-right: \\(y=\\dfrac{x-4}{x-2}\\).",
+   "explain_vi": "Đáp án c. Tiệm cận \\(x=2\\), \\(y=1\\) và hai nhánh nằm ở góc trên trái và dưới phải: \\(y=\\dfrac{x-4}{x-2}\\).",
+   "images": [
+    "img/tex/6a54abd8a3fbaffc.svg"
+   ],
+   "id": "94fae13edae5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The three extreme points of the graph of \\(y=x^#-#x^#-#\\) form a triangle. Its area is…",
+   "en": "The three extreme points of the graph of \\(y=x^4-8x^2-1\\) form a triangle. Its area is…",
+   "vi": "Ba điểm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"extremum\">cực trị</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">đồ thị hàm số</b> \\(y=x^4-8x^2-1\\) tạo thành một tam giác. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"area of a triangle\">Diện tích tam giác</b> đó là",
+   "options": [
+    "\\(32\\)",
+    "\\(16\\)",
+    "\\(8\\)",
+    "\\(64\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(y'=4x(x^2-4)\\): points \\((0;-1)\\), \\((\\pm2;-17)\\). Base \\(4\\), height \\(16\\): area \\(\\dfrac12\\cdot4\\cdot16=32\\).",
+   "explain_vi": "Đáp án a. \\(y'=4x(x^2-4)\\): các điểm \\((0;-1)\\), \\((\\pm2;-17)\\). Đáy \\(4\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"height\">chiều cao</b> \\(16\\): diện tích \\(\\dfrac12\\cdot4\\cdot16=32\\).",
+   "images": [],
+   "id": "c6dbc51a72de",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Which of the following functions has this variation table?",
+   "en": "Which of the following functions has this variation table?<img src=\"../../../img/tex/86efc79615bca2ef.svg\" alt=\"Variation table\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,460px);height:auto\">",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"variation table\">Bảng biến thiên</b> đã cho là của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> nào sau đây?<img src=\"../../../img/tex/86efc79615bca2ef.svg\" alt=\"Bảng biến thiên\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,460px);height:auto\">",
+   "options": [
+    "\\(y=x^3-6x^2+9x-2\\)",
+    "\\(y=-x^3+6x^2-9x\\)",
+    "\\(y=-x^3+6x^2-9x-2\\)",
+    "\\(y=-x^3+6x^2+9x-2\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The table needs \\(y'=0\\) at \\(x=1\\), \\(x=3\\), the right sign of \\(a\\) and the values \\(-6\\), \\(-2\\): only \\(y=-x^3+6x^2-9x-2\\) fits.",
+   "explain_vi": "Đáp án c. Bảng cần \\(y'=0\\) tại \\(x=1\\), \\(x=3\\), dấu của \\(a\\) phù hợp và các giá trị \\(-6\\), \\(-2\\): chỉ \\(y=-x^3+6x^2-9x-2\\) phù hợp.",
+   "images": [
+    "img/tex/86efc79615bca2ef.svg"
+   ],
+   "id": "45862715f863",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Which of the following functions is drawn in the figure?",
+   "en": "Which of the following functions is drawn in the figure?<img src=\"../../../img/tex/0d85f38287f1a947.svg\" alt=\"Graph of a cubic\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,320px);height:auto\">",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">Hàm số</b> nào sau đây có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> như hình vẽ?<img src=\"../../../img/tex/0d85f38287f1a947.svg\" alt=\"Đồ thị hàm bậc ba\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,320px);height:auto\">",
+   "options": [
+    "\\(y=-x^3-3x^2\\)",
+    "\\(y=-x^3+3x^2\\)",
+    "\\(y=-x^3+3x^2+2\\)",
+    "\\(y=x^3-3x^2\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Check the shape (\\(a\\lt0\\)), the point on \\(Oy\\) \\((0;0)\\) and the turning points \\(x=0\\), \\(x=2\\): only \\(y=-x^3+3x^2\\) fits.",
+   "explain_vi": "Đáp án b. Xét dáng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> (\\(a\\lt0\\)), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersection point\">giao điểm</b> với \\(Oy\\) là \\((0;0)\\) và các điểm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"extremum\">cực trị</b> \\(x=0\\), \\(x=2\\): chỉ \\(y=-x^3+3x^2\\) phù hợp.",
+   "images": [
+    "img/tex/0d85f38287f1a947.svg"
+   ],
+   "id": "5d36d1f4efa0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Find the centre of symmetry of the graph of \\(y=#x^#+#x^#-#x+#\\).",
+   "en": "Find the centre of symmetry of the graph of \\(y=2x^3+12x^2-5x+2\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"center of symmetry\">tâm đối xứng</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">đồ thị hàm số</b> \\(y=2x^3+12x^2-5x+2\\).",
+   "options": [
+    "\\((44;-2)\\)",
+    "\\((-2;44)\\)",
+    "\\((-2;-44)\\)",
+    "\\((2;44)\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(y''=0\\) at \\(x_0=-\\dfrac{b}{3a}=-2\\); then \\(y_0=44\\).",
+   "explain_vi": "Đáp án b. \\(y''=0\\) tại \\(x_0=-\\dfrac{b}{3a}=-2\\); khi đó \\(y_0=44\\).",
+   "images": [],
+   "id": "f44fee5212bf",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Find the centre of symmetry of the graph of \\(y=x^#+#x^#-#x-#\\).",
+   "en": "Find the centre of symmetry of the graph of \\(y=x^3+9x^2-2x-1\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"center of symmetry\">tâm đối xứng</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">đồ thị hàm số</b> \\(y=x^3+9x^2-2x-1\\).",
+   "options": [
+    "\\((3;59)\\)",
+    "\\((-3;59)\\)",
+    "\\((-3;-59)\\)",
+    "\\((59;-3)\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(y''=0\\) at \\(x_0=-\\dfrac{b}{3a}=-3\\); then \\(y_0=59\\).",
+   "explain_vi": "Đáp án b. \\(y''=0\\) tại \\(x_0=-\\dfrac{b}{3a}=-3\\); khi đó \\(y_0=59\\).",
+   "images": [],
+   "id": "4b5651ca742c",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Find the intersection of the asymptotes of \\(y=\\dfrac{x+#}{x}\\).",
+   "en": "Find the intersection of the asymptotes of \\(y=\\dfrac{x+3}{x}\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersection point\">giao điểm</b> hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"asymptote\">đường tiệm cận</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> \\(y=\\dfrac{x+3}{x}\\).",
+   "options": [
+    "\\((1;1)\\)",
+    "\\((0;-1)\\)",
+    "\\((0;1)\\)",
+    "\\((1;0)\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Vertical asymptote \\(x=0\\), horizontal asymptote \\(y=1\\).",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"vertical asymptote\">Tiệm cận đứng</b> \\(x=0\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"horizontal asymptote\">tiệm cận ngang</b> \\(y=1\\).",
+   "images": [],
+   "id": "f34d58959ec1",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Find the local maximum value of \\(y=x^#-#x+#\\).",
+   "en": "Find the local maximum value of \\(y=x^3-3x+6\\).",
+   "vi": "Tìm giá trị <b class=\"mbl-term\" tabindex=\"0\" data-en=\"local maximum\">cực đại</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(y=x^3-3x+6\\).",
+   "options": [
+    "\\(8\\)",
+    "\\(4\\)",
+    "\\(10\\)",
+    "\\(6\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(y'=0\\) at \\(x=\\pm1\\); the maximum is at \\(x=-1\\): \\(y=8\\).",
+   "explain_vi": "Đáp án a. \\(y'=0\\) tại \\(x=\\pm1\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"local maximum\">cực đại</b> tại \\(x=-1\\): \\(y=8\\).",
+   "images": [],
+   "id": "2d17e3f42108",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "How many local extrema does \\(y=-#x^#-#x^#-#\\) have?",
+   "en": "How many local extrema does \\(y=-2x^4-2x^2-3\\) have?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">Hàm số</b> \\(y=-2x^4-2x^2-3\\) có bao nhiêu điểm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"extremum\">cực trị</b>?",
+   "options": [
+    "\\(0\\)",
+    "\\(2\\)",
+    "\\(1\\)",
+    "\\(3\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(y'=2x(2ax^2+b)\\cdot\\) : one root (\\(x=0\\)) when \\(ab\\gt0\\)",
+   "explain_vi": "Đáp án c. \\(y'=2x(2ax^2+b)\\): một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b> (\\(x=0\\)) khi \\(ab\\gt0\\)",
+   "images": [],
+   "id": "0cbc9bd29e5a",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The function \\(y=\\dfrac{#x+#}{#x+#}\\) is…",
+   "en": "The function \\(y=\\dfrac{3x+4}{3x+3}\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">Hàm số</b> \\(y=\\dfrac{3x+4}{3x+3}\\)…",
+   "options": [
+    "\\(\\text{is constant}\\)",
+    "\\(\\text{decreases on each interval}\\)",
+    "\\(\\text{increases on each interval}\\)",
+    "\\(\\text{increases on }\\mathbb{R}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(y'=\\dfrac{ad-bc}{(cx+d)^2}\\) and \\(ad-bc=-3\\) is negative.",
+   "explain_vi": "Đáp án b. \\(y'=\\dfrac{ad-bc}{(cx+d)^2}\\), và \\(ad-bc=-3\\) âm.",
+   "images": [],
+   "id": "5e178a171adf",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The graph of \\(y=x^#-#x\\) has local extrema \\(\\pm#\\). How many solutions does \\(x^#-#x=#\\) have?",
+   "en": "The graph of \\(y=x^3-27x\\) has local extrema \\(\\pm54\\). How many solutions does \\(x^3-27x=53\\) have?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">Đồ thị</b> \\(y=x^3-27x\\) có hai giá trị <b class=\"mbl-term\" tabindex=\"0\" data-en=\"extremum\">cực trị</b> là \\(\\pm54\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">Phương trình</b> \\(x^3-27x=53\\) có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b>?",
+   "options": [
+    "\\(3\\)",
+    "\\(0\\)",
+    "\\(1\\)",
+    "\\(2\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Compare the line \\(y=53\\) with the extrema \\(\\pm54\\): 3 intersection(s).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"compare\">So sánh</b> đường \\(y=53\\) với hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"extremum\">cực trị</b> \\(\\pm54\\): có 3 <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersection point\">giao điểm</b>.",
+   "images": [],
+   "id": "e6f5eb01cfce",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The graph of \\(y=x^#-#x\\) has local extrema \\(\\pm#\\). How many solutions does \\(x^#-#x=-#\\) have?",
+   "en": "The graph of \\(y=x^3-12x\\) has local extrema \\(\\pm16\\). How many solutions does \\(x^3-12x=-17\\) have?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">Đồ thị</b> \\(y=x^3-12x\\) có hai giá trị <b class=\"mbl-term\" tabindex=\"0\" data-en=\"extremum\">cực trị</b> là \\(\\pm16\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">Phương trình</b> \\(x^3-12x=-17\\) có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b>?",
+   "options": [
+    "\\(2\\)",
+    "\\(0\\)",
+    "\\(3\\)",
+    "\\(1\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Compare the line \\(y=-17\\) with the extrema \\(\\pm16\\): 1 intersection(s).",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"compare\">So sánh</b> đường \\(y=-17\\) với hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"extremum\">cực trị</b> \\(\\pm16\\): có 1 <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersection point\">giao điểm</b>.",
+   "images": [],
+   "id": "2b744fad2a63",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Find the centre of symmetry of the graph of \\(y=#x^#-#x^#+x+#\\).",
+   "en": "Find the centre of symmetry of the graph of \\(y=2x^3-12x^2+x+2\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"center of symmetry\">tâm đối xứng</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">đồ thị hàm số</b> \\(y=2x^3-12x^2+x+2\\).",
+   "options": [
+    "\\((2;28)\\)",
+    "\\((-2;-28)\\)",
+    "\\((2;-28)\\)",
+    "\\((-28;2)\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(y''=0\\) at \\(x_0=-\\dfrac{b}{3a}=2\\); then \\(y_0=-28\\).",
+   "explain_vi": "Đáp án c. \\(y''=0\\) tại \\(x_0=-\\dfrac{b}{3a}=2\\); khi đó \\(y_0=-28\\).",
+   "images": [],
+   "id": "143acd8ab37f",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Find the centre of symmetry of the graph of \\(y=x^#+#x^#-#x-#\\).",
+   "en": "Find the centre of symmetry of the graph of \\(y=x^3+6x^2-2x-1\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"center of symmetry\">tâm đối xứng</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">đồ thị hàm số</b> \\(y=x^3+6x^2-2x-1\\).",
+   "options": [
+    "\\((19;-2)\\)",
+    "\\((2;19)\\)",
+    "\\((-2;19)\\)",
+    "\\((-2;-19)\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(y''=0\\) at \\(x_0=-\\dfrac{b}{3a}=-2\\); then \\(y_0=19\\).",
+   "explain_vi": "Đáp án c. \\(y''=0\\) tại \\(x_0=-\\dfrac{b}{3a}=-2\\); khi đó \\(y_0=19\\).",
+   "images": [],
+   "id": "560b13c0607b",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Find the intersection of the asymptotes of \\(y=\\dfrac{-x-#}{-x+#}\\).",
+   "en": "Find the intersection of the asymptotes of \\(y=\\dfrac{-x-1}{-x+4}\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersection point\">giao điểm</b> hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"asymptote\">đường tiệm cận</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> \\(y=\\dfrac{-x-1}{-x+4}\\).",
+   "options": [
+    "\\((4;1)\\)",
+    "\\((-4;1)\\)",
+    "\\((4;-1)\\)",
+    "\\((1;4)\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Vertical asymptote \\(x=4\\), horizontal asymptote \\(y=1\\).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"vertical asymptote\">Tiệm cận đứng</b> \\(x=4\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"horizontal asymptote\">tiệm cận ngang</b> \\(y=1\\).",
+   "images": [],
+   "id": "ff54bf75c498",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Find the local maximum value of \\(y=x^#-#x\\).",
+   "en": "Find the local maximum value of \\(y=x^3-12x\\).",
+   "vi": "Tìm giá trị <b class=\"mbl-term\" tabindex=\"0\" data-en=\"local maximum\">cực đại</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(y=x^3-12x\\).",
+   "options": [
+    "\\(-16\\)",
+    "\\(0\\)",
+    "\\(18\\)",
+    "\\(16\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(y'=0\\) at \\(x=\\pm2\\); the maximum is at \\(x=-2\\): \\(y=16\\).",
+   "explain_vi": "Đáp án d. \\(y'=0\\) tại \\(x=\\pm2\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"local maximum\">cực đại</b> tại \\(x=-2\\): \\(y=16\\).",
+   "images": [],
+   "id": "2063d10aa4d8",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "How many local extrema does \\(y=-#x^#+#x^#-#\\) have?",
+   "en": "How many local extrema does \\(y=-2x^4+4x^2-1\\) have?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">Hàm số</b> \\(y=-2x^4+4x^2-1\\) có bao nhiêu điểm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"extremum\">cực trị</b>?",
+   "options": [
+    "\\(1\\)",
+    "\\(2\\)",
+    "\\(3\\)",
+    "\\(0\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(y'=2x(2ax^2+b)\\cdot\\) : three roots when \\(ab\\lt0\\)",
+   "explain_vi": "Đáp án c. \\(y'=2x(2ax^2+b)\\): ba <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b> khi \\(ab\\lt0\\)",
+   "images": [],
+   "id": "3c1aa80f5df6",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The function \\(y=\\dfrac{#x-#}{-#x-#}\\) is…",
+   "en": "The function \\(y=\\dfrac{3x-2}{-4x-4}\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">Hàm số</b> \\(y=\\dfrac{3x-2}{-4x-4}\\)…",
+   "options": [
+    "\\(\\text{increases on each interval}\\)",
+    "\\(\\text{increases on }\\mathbb{R}\\)",
+    "\\(\\text{is constant}\\)",
+    "\\(\\text{decreases on each interval}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(y'=\\dfrac{ad-bc}{(cx+d)^2}\\) and \\(ad-bc=-20\\) is negative.",
+   "explain_vi": "Đáp án d. \\(y'=\\dfrac{ad-bc}{(cx+d)^2}\\), và \\(ad-bc=-20\\) âm.",
+   "images": [],
+   "id": "49fac3ae2b27",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The graph of \\(y=x^#-#x\\) has local extrema \\(\\pm#\\). How many solutions does \\(x^#-#x=#\\) have?",
+   "en": "The graph of \\(y=x^3-12x\\) has local extrema \\(\\pm16\\). How many solutions does \\(x^3-12x=32\\) have?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">Đồ thị</b> \\(y=x^3-12x\\) có hai giá trị <b class=\"mbl-term\" tabindex=\"0\" data-en=\"extremum\">cực trị</b> là \\(\\pm16\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">Phương trình</b> \\(x^3-12x=32\\) có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b>?",
+   "options": [
+    "\\(1\\)",
+    "\\(2\\)",
+    "\\(0\\)",
+    "\\(3\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Compare the line \\(y=32\\) with the extrema \\(\\pm16\\): 1 intersection(s).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"compare\">So sánh</b> đường \\(y=32\\) với hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"extremum\">cực trị</b> \\(\\pm16\\): có 1 <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersection point\">giao điểm</b>.",
+   "images": [],
+   "id": "79fa8e039900",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The graph of \\(y=x^#-#x\\) has local extrema \\(\\pm#\\). How many solutions does \\(x^#-#x=#\\) have?",
+   "en": "The graph of \\(y=x^3-3x\\) has local extrema \\(\\pm2\\). How many solutions does \\(x^3-3x=2\\) have?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">Đồ thị</b> \\(y=x^3-3x\\) có hai giá trị <b class=\"mbl-term\" tabindex=\"0\" data-en=\"extremum\">cực trị</b> là \\(\\pm2\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">Phương trình</b> \\(x^3-3x=2\\) có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b>?",
+   "options": [
+    "\\(1\\)",
+    "\\(3\\)",
+    "\\(0\\)",
+    "\\(2\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Compare the line \\(y=2\\) with the extrema \\(\\pm2\\): 2 intersection(s).",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"compare\">So sánh</b> đường \\(y=2\\) với hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"extremum\">cực trị</b> \\(\\pm2\\): có 2 <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersection point\">giao điểm</b>.",
+   "images": [],
+   "id": "be2cd96f41f2",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Find the centre of symmetry of the graph of \\(y=#x^#-#x^#+x+#\\).",
+   "en": "Find the centre of symmetry of the graph of \\(y=2x^3-6x^2+x+2\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"center of symmetry\">tâm đối xứng</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">đồ thị hàm số</b> \\(y=2x^3-6x^2+x+2\\).",
+   "options": [
+    "\\((1;1)\\)",
+    "\\((-1;1)\\)",
+    "\\((-1;-1)\\)",
+    "\\((1;-1)\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(y''=0\\) at \\(x_0=-\\dfrac{b}{3a}=1\\); then \\(y_0=-1\\).",
+   "explain_vi": "Đáp án d. \\(y''=0\\) tại \\(x_0=-\\dfrac{b}{3a}=1\\); khi đó \\(y_0=-1\\).",
+   "images": [],
+   "id": "c60c9739ec80",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Find the centre of symmetry of the graph of \\(y=x^#+#x^#-#x+#\\).",
+   "en": "Find the centre of symmetry of the graph of \\(y=x^3+3x^2-2x+3\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"center of symmetry\">tâm đối xứng</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">đồ thị hàm số</b> \\(y=x^3+3x^2-2x+3\\).",
+   "options": [
+    "\\((-1;7)\\)",
+    "\\((7;-1)\\)",
+    "\\((-1;-7)\\)",
+    "\\((1;7)\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(y''=0\\) at \\(x_0=-\\dfrac{b}{3a}=-1\\); then \\(y_0=7\\).",
+   "explain_vi": "Đáp án a. \\(y''=0\\) tại \\(x_0=-\\dfrac{b}{3a}=-1\\); khi đó \\(y_0=7\\).",
+   "images": [],
+   "id": "db2ccca2f34e",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Find the intersection of the asymptotes of \\(y=\\dfrac{-#x+#}{#x}\\).",
+   "en": "Find the intersection of the asymptotes of \\(y=\\dfrac{-3x+3}{2x}\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersection point\">giao điểm</b> hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"asymptote\">đường tiệm cận</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> \\(y=\\dfrac{-3x+3}{2x}\\).",
+   "options": [
+    "\\((1;-\\dfrac{3}{2})\\)",
+    "\\((0;\\dfrac{3}{2})\\)",
+    "\\((0;-\\dfrac{3}{2})\\)",
+    "\\((-\\dfrac{3}{2};0)\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Vertical asymptote \\(x=0\\), horizontal asymptote \\(y=-\\dfrac{3}{2}\\).",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"vertical asymptote\">Tiệm cận đứng</b> \\(x=0\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"horizontal asymptote\">tiệm cận ngang</b> \\(y=-\\dfrac{3}{2}\\).",
+   "images": [],
+   "id": "aebefd935e4f",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Find the local maximum value of \\(y=x^#-#x+#\\).",
+   "en": "Find the local maximum value of \\(y=x^3-3x+1\\).",
+   "vi": "Tìm giá trị <b class=\"mbl-term\" tabindex=\"0\" data-en=\"local maximum\">cực đại</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(y=x^3-3x+1\\).",
+   "options": [
+    "\\(1\\)",
+    "\\(5\\)",
+    "\\(3\\)",
+    "\\(-1\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(y'=0\\) at \\(x=\\pm1\\); the maximum is at \\(x=-1\\): \\(y=3\\).",
+   "explain_vi": "Đáp án c. \\(y'=0\\) tại \\(x=\\pm1\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"local maximum\">cực đại</b> tại \\(x=-1\\): \\(y=3\\).",
+   "images": [],
+   "id": "fcfccdfb9875",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "How many local extrema does \\(y=#x^#-#x^#+#\\) have?",
+   "en": "How many local extrema does \\(y=2x^4-6x^2+2\\) have?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">Hàm số</b> \\(y=2x^4-6x^2+2\\) có bao nhiêu điểm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"extremum\">cực trị</b>?",
+   "options": [
+    "\\(3\\)",
+    "\\(1\\)",
+    "\\(2\\)",
+    "\\(0\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(y'=2x(2ax^2+b)\\cdot\\) : three roots when \\(ab\\lt0\\)",
+   "explain_vi": "Đáp án a. \\(y'=2x(2ax^2+b)\\): ba <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b> khi \\(ab\\lt0\\)",
+   "images": [],
+   "id": "59a6001e2398",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The function \\(y=\\dfrac{#x-#}{-#x-#}\\) is…",
+   "en": "The function \\(y=\\dfrac{3x-3}{-2x-4}\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">Hàm số</b> \\(y=\\dfrac{3x-3}{-2x-4}\\)…",
+   "options": [
+    "\\(\\text{decreases on each interval}\\)",
+    "\\(\\text{increases on each interval}\\)",
+    "\\(\\text{is constant}\\)",
+    "\\(\\text{increases on }\\mathbb{R}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(y'=\\dfrac{ad-bc}{(cx+d)^2}\\) and \\(ad-bc=-18\\) is negative.",
+   "explain_vi": "Đáp án a. \\(y'=\\dfrac{ad-bc}{(cx+d)^2}\\), và \\(ad-bc=-18\\) âm.",
+   "images": [],
+   "id": "0d9e6a331614",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The graph of \\(y=x^#-#x\\) has local extrema \\(\\pm#\\). How many solutions does \\(x^#-#x=#\\) have?",
+   "en": "The graph of \\(y=x^3-3x\\) has local extrema \\(\\pm2\\). How many solutions does \\(x^3-3x=1\\) have?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">Đồ thị</b> \\(y=x^3-3x\\) có hai giá trị <b class=\"mbl-term\" tabindex=\"0\" data-en=\"extremum\">cực trị</b> là \\(\\pm2\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">Phương trình</b> \\(x^3-3x=1\\) có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b>?",
+   "options": [
+    "\\(2\\)",
+    "\\(3\\)",
+    "\\(0\\)",
+    "\\(1\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Compare the line \\(y=1\\) with the extrema \\(\\pm2\\): 3 intersection(s).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"compare\">So sánh</b> đường \\(y=1\\) với hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"extremum\">cực trị</b> \\(\\pm2\\): có 3 <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersection point\">giao điểm</b>.",
+   "images": [],
+   "id": "9169eeeee6dc",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The graph of \\(y=x^#-#x\\) has local extrema \\(\\pm#\\). How many solutions does \\(x^#-#x=-#\\) have?",
+   "en": "The graph of \\(y=x^3-3x\\) has local extrema \\(\\pm2\\). How many solutions does \\(x^3-3x=-2\\) have?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">Đồ thị</b> \\(y=x^3-3x\\) có hai giá trị <b class=\"mbl-term\" tabindex=\"0\" data-en=\"extremum\">cực trị</b> là \\(\\pm2\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">Phương trình</b> \\(x^3-3x=-2\\) có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b>?",
+   "options": [
+    "\\(2\\)",
+    "\\(3\\)",
+    "\\(1\\)",
+    "\\(0\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Compare the line \\(y=-2\\) with the extrema \\(\\pm2\\): 2 intersection(s).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"compare\">So sánh</b> đường \\(y=-2\\) với hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"extremum\">cực trị</b> \\(\\pm2\\): có 2 <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersection point\">giao điểm</b>.",
+   "images": [],
+   "id": "c59c1537e31c",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  }
+ ]
+}

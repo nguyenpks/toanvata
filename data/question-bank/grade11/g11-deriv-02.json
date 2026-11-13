@@ -1,0 +1,1623 @@
+{
+ "lesson": "g11-deriv-02",
+ "grade": 11,
+ "no": 32,
+ "title": "Các quy tắc tính đạo hàm",
+ "path": "lessons/grade11/derivatives/derivative-rules.html",
+ "items": [
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "If \\(y=\\sin(#x+#)\\), then \\(y'\\) equals…",
+   "en": "If \\(y=\\sin(3x+1)\\), then \\(y'\\) equals…",
+   "vi": "Nếu \\(y=\\sin(3x+1)\\) thì \\(y'\\) bằng…",
+   "options": [
+    "\\(y'=3\\cos(3x+1)\\)",
+    "\\(y'=\\cos(3x+1)\\)",
+    "\\(y'=-3\\cos(3x+1)\\)",
+    "\\(y'=3\\sin(3x+1)\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Chain rule, \\(u'=3\\).",
+   "explain_vi": "Đáp án a. Hàm hợp với \\(u'=3\\).",
+   "images": [],
+   "id": "ea53564ffbeb",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "The derivative of \\(y=\\dfrac{#x+#}{x-#}\\) is…",
+   "en": "The derivative of \\(y=\\dfrac{2x+1}{x-1}\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"derivative\">Đạo hàm</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(y=\\dfrac{2x+1}{x-1}\\) là…",
+   "options": [
+    "\\(y'=\\dfrac{3}{(x-1)^2}\\)",
+    "\\(y'=\\dfrac{-3}{(x-1)^2}\\)",
+    "\\(y'=\\dfrac{-1}{(x-1)^2}\\)",
+    "\\(y'=\\dfrac{-3}{x-1}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\dfrac{ad-bc}{(cx+d)^2}\\).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"numerator\">Tử số</b>: \\(2\\cdot(-1)-(1)\\cdot1=-3\\).",
+   "images": [],
+   "id": "f144d73db413",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "The tangent to \\(y=x^#-#x\\) at the point with abscissa \\(#\\) is…",
+   "en": "The tangent to \\(y=x^3-3x\\) at the point with abscissa \\(2\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"tangent line\">Tiếp tuyến</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> \\(y=x^3-3x\\) tại điểm có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"abscissa\">hoành độ</b> \\(2\\) là…",
+   "options": [
+    "\\(y=9x-16\\)",
+    "\\(y=9x+2\\)",
+    "\\(y=9x+16\\)",
+    "\\(y=2x-16\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(y=f'(x_0)(x-x_0)+f(x_0)\\).",
+   "explain_vi": "Đáp án a. \\(f'(2)=9\\), \\(f(2)=2\\).",
+   "images": [],
+   "id": "51cee8cac1f5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "\\((\\cos #x)'=-#\\sin #x\\).",
+   "en": "\\((\\cos 2x)'=-2\\sin 2x\\).",
+   "vi": "\\((\\cos 2x)'=-2\\sin 2x\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "Chain rule.",
+   "explain_vi": "Quy tắc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"derivative\">đạo hàm</b> hàm hợp.",
+   "images": [],
+   "id": "589e8adc5e55",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "\\((x^#\\cdot x^#)'=#x\\cdot#x^#\\).",
+   "en": "\\((x^2\\cdot x^3)'=2x\\cdot3x^2\\).",
+   "vi": "\\((x^2\\cdot x^3)'=2x\\cdot3x^2\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "Check with the rules.",
+   "explain_vi": "Đối chiếu với quy tắc tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"derivative\">đạo hàm</b>.",
+   "images": [],
+   "id": "cd0629b0e27d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "\\(f(x)=(#x-#)^{#}\\). Find \\(f'(#)\\).",
+   "en": "\\(f(x)=(2x-1)^{3}\\). Find \\(f'(1)\\).",
+   "vi": "Cho \\(f(x)=(2x-1)^{3}\\). Tính \\(f'(1)\\).",
+   "options": [],
+   "answer": "6",
+   "explain_en": "\\((u^n)'=nu^{n-1}u'\\).",
+   "explain_vi": "\\(f'(x)=3\\cdot2(2x-1)^{2}\\).",
+   "images": [],
+   "id": "ddc221843048",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "\\(f(x)=(x^#+#)(x-#)\\). Find \\(f'(#)\\).",
+   "en": "\\(f(x)=(x^2+1)(x-2)\\). Find \\(f'(2)\\).",
+   "vi": "Cho \\(f(x)=(x^2+1)(x-2)\\). Tính \\(f'(2)\\).",
+   "options": [],
+   "answer": "5",
+   "explain_en": "\\((uv)'=u'v+uv'\\).",
+   "explain_vi": "\\(f'(x)=2x(x-2)+(x^2+1)\\).",
+   "images": [],
+   "id": "145189a7178f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "A balloon has volume \\(V(r)=\\dfrac#\\pi r^#\\). Find \\(V^{\\prime}(#)\\), the rate of change of the volume with respect to the radius when \\(r=#\\) cm.",
+   "en": "A balloon has volume \\(V(r)=\\dfrac43\\pi r^3\\). Find \\(V^{\\prime}(6)\\), the rate of change of the volume with respect to the radius when \\(r=6\\) cm.",
+   "vi": "Một quả bóng có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"volume\">thể tích</b> \\(V(r)=\\dfrac43\\pi r^3\\). Tính \\(V^{\\prime}(6)\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"rate of change\">tốc độ thay đổi</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"volume\">thể tích</b> theo <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> khi \\(r=6\\) cm.",
+   "options": [
+    "\\(864\\pi\\)",
+    "\\(288\\pi\\)",
+    "\\(24\\pi\\)",
+    "\\(144\\pi\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(V^{\\prime}(r)=4\\pi r^2\\), so \\(V^{\\prime}(6)=144\\pi\\).",
+   "explain_vi": "Đáp án d. \\(V^{\\prime}(r)=4\\pi r^2\\) nên \\(V^{\\prime}(6)=144\\pi\\).",
+   "images": [],
+   "id": "5233f0338e96",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "An object moves with \\(s(t)=#t^#+#t^#+#t\\) (meters, \\(t\\) in seconds). Its velocity at \\(t=#\\) s is…",
+   "en": "An object moves with \\(s(t)=2t^3+3t^2+7t\\) (meters, \\(t\\) in seconds). Its velocity at \\(t=3\\) s is…",
+   "vi": "Một vật chuyển động theo <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(s(t)=2t^3+3t^2+7t\\) (mét, \\(t\\) tính bằng giây). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"velocity\">Vận tốc</b> của vật tại \\(t=3\\) giây là…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(42\\) m/s</span><span class=\"vi\">\\(42\\) m/s</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(102\\) m/s</span><span class=\"vi\">\\(102\\) m/s</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(79\\) m/s</span><span class=\"vi\">\\(79\\) m/s</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(86\\) m/s</span><span class=\"vi\">\\(86\\) m/s</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(v(t)=s^{\\prime}(t)=6t^2+6t+7\\), \\(v(3)=79\\).",
+   "explain_vi": "Đáp án c. \\(v(t)=s^{\\prime}(t)=6t^2+6t+7\\), \\(v(3)=79\\).",
+   "images": [],
+   "id": "e77f32773e26",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Given \\(f(x)=x^#+mx^#-#x\\) and \\(f^{\\prime}(#)=#\\), the value of \\(m\\) is…",
+   "en": "Given \\(f(x)=x^3+mx^2-2x\\) and \\(f^{\\prime}(3)=37\\), the value of \\(m\\) is…",
+   "vi": "Cho \\(f(x)=x^3+mx^2-2x\\) và \\(f^{\\prime}(3)=37\\). Giá trị của \\(m\\) là…",
+   "options": [
+    "\\(-2\\)",
+    "\\(2\\)",
+    "\\(3\\)",
+    "\\(0\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(f^{\\prime}(x)=3x^2+2mx-2\\), so \\(27+6\\,m-2=37\\Rightarrow m=2\\).",
+   "explain_vi": "Đáp án b. \\(f^{\\prime}(x)=3x^2+2mx-2\\) nên \\(27+6\\,m-2=37\\Rightarrow m=2\\).",
+   "images": [],
+   "id": "4947c8097ae0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Given \\(y=\\sqrt{#x-#}\\), the value of \\(y^{\\prime}(#)\\) is…",
+   "en": "Given \\(y=\\sqrt{3x-2}\\), the value of \\(y^{\\prime}(2)\\) is…",
+   "vi": "Cho \\(y=\\sqrt{3x-2}\\). Giá trị \\(y^{\\prime}(2)\\) bằng…",
+   "options": [
+    "\\(1.5\\)",
+    "\\(0.75\\)",
+    "\\(0.375\\)",
+    "\\(0.25\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(y^{\\prime}=\\dfrac{3}{2\\sqrt{3x-2}}\\), at \\(x=2\\): \\(\\dfrac{3}{2\\cdot2}=0.75\\).",
+   "explain_vi": "Đáp án b. \\(y^{\\prime}=\\dfrac{3}{2\\sqrt{3x-2}}\\), tại \\(x=2\\): \\(\\dfrac{3}{2\\cdot2}=0{,}75\\).",
+   "images": [],
+   "id": "8f4d6215fd56",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Lan wrote \\((x^#\\sin x)^{\\prime}=#x^#\\cdot \\cos x\\). Which is correct?",
+   "en": "Lan wrote \\((x^3\\sin x)^{\\prime}=3x^2\\cdot \\cos x\\). Which is correct?",
+   "vi": "Bạn Lan viết \\((x^3\\sin x)^{\\prime}=3x^2\\cdot \\cos x\\). Nhận xét nào đúng?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">Lan is right.</span><span class=\"vi\">Lan đúng.</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Lan is wrong; the correct result is \\(x^3\\cos x\\).</span><span class=\"vi\">Lan sai; kết quả đúng là \\(x^3\\cos x\\).</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Lan is wrong; the correct result is \\(3x^2\\sin x+x^3\\cos x\\).</span><span class=\"vi\">Lan sai; kết quả đúng là \\(3x^2\\sin x+x^3\\cos x\\).</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Lan is wrong; the correct result is \\(3x^2\\sin x\\).</span><span class=\"vi\">Lan sai; kết quả đúng là \\(3x^2\\sin x\\).</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Product rule: \\((uv)^{\\prime}=u^{\\prime}v+uv^{\\prime}\\), not \\(u^{\\prime}v^{\\prime}\\).",
+   "explain_vi": "Đáp án c. Quy tắc tích: \\((uv)^{\\prime}=u^{\\prime}v+uv^{\\prime}\\), không phải \\(u^{\\prime}v^{\\prime}\\).",
+   "images": [],
+   "id": "7b96ddf9e439",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Solve \\(f^{\\prime}(x)=#\\) for \\(f(x)=x^#-#x+#\\).",
+   "en": "Solve \\(f^{\\prime}(x)=0\\) for \\(f(x)=x^3-48x+4\\).",
+   "vi": "Giải <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(f^{\\prime}(x)=0\\) với \\(f(x)=x^3-48x+4\\).",
+   "options": [
+    "\\(x=-4,\\ x=4\\)",
+    "\\(x=-4,\\ x=6\\)",
+    "\\(x=-4,\\ x=5\\)",
+    "\\(x=-12,\\ x=12\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(f^{\\prime}(x)=3x^2+0x-48=3(x+4)(x-4)\\).",
+   "explain_vi": "Đáp án a. \\(f^{\\prime}(x)=3x^2+0x-48=3(x+4)(x-4)\\).",
+   "images": [],
+   "id": "23c2fa79c8a0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The tangent to \\(y=#x^#+x+#\\) is parallel to the line \\(y=-#x-#\\) at the point…",
+   "en": "The tangent to \\(y=2x^2+x+3\\) is parallel to the line \\(y=-3x-2\\) at the point…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"tangent line\">Tiếp tuyến</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> \\(y=2x^2+x+3\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b> với <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(y=-3x-2\\) tại điểm…",
+   "options": [
+    "\\(M(-3;\\,18)\\)",
+    "\\(M(1;\\,6)\\)",
+    "\\(M(0;\\,3)\\)",
+    "\\(M(-1;\\,4)\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(y^{\\prime}=4x+1=-3\\iff x=-1\\).",
+   "explain_vi": "Đáp án d. \\(y^{\\prime}=4x+1=-3\\iff x=-1\\).",
+   "images": [],
+   "id": "2b29576e5cd2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "What is the slope of the tangent to the graph of \\(y=\\ln(#x^#+#)\\) at the point with \\(x=#\\)?",
+   "en": "What is the slope of the tangent to the graph of \\(y=\\ln(2x^2+4)\\) at the point with \\(x=3\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"slope\">Hệ số góc</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tangent line\">tiếp tuyến</b> với <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">đồ thị hàm số</b> \\(y=\\ln(2x^2+4)\\) tại điểm có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"abscissa\">hoành độ</b> \\(x=3\\) là…",
+   "options": [
+    "\\(\\dfrac{1}{22}\\)",
+    "\\(\\dfrac{3}{11}\\)",
+    "\\(\\dfrac{6}{11}\\)",
+    "\\(12\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(y^{\\prime}=\\dfrac{4x}{2x^2+4}\\), so \\(y^{\\prime}(3)=\\dfrac{6}{11}\\).",
+   "explain_vi": "Đáp án c. \\(y^{\\prime}=\\dfrac{4x}{2x^2+4}\\) nên \\(y^{\\prime}(3)=\\dfrac{6}{11}\\).",
+   "images": [],
+   "id": "0b6a7dae4c85",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "If \\(y=e^{#x-#}\\), then \\(y'\\) equals…",
+   "en": "If \\(y=e^{2x-1}\\), then \\(y'\\) equals…",
+   "vi": "Nếu \\(y=e^{2x-1}\\) thì \\(y'\\) bằng…",
+   "options": [
+    "\\(y'=e^{2x-1}\\)",
+    "\\(y'=(2x-1)e^{2x-2}\\)",
+    "\\(y'=2e^{2x-1}\\)",
+    "\\(y'=2e^{2x}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Chain rule, \\(u'=2\\).",
+   "explain_vi": "Đáp án c. Hàm hợp với \\(u'=2\\).",
+   "images": [],
+   "id": "7278f81d6698",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "The derivative of \\(y=\\dfrac{x+#}{x+#}\\) is…",
+   "en": "The derivative of \\(y=\\dfrac{x+3}{x+2}\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"derivative\">Đạo hàm</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(y=\\dfrac{x+3}{x+2}\\) là…",
+   "options": [
+    "\\(y'=\\dfrac{1}{(x+2)^2}\\)",
+    "\\(y'=\\dfrac{-1}{(x+2)^2}\\)",
+    "\\(y'=\\dfrac{5}{(x+2)^2}\\)",
+    "\\(y'=\\dfrac{-1}{x+2}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\dfrac{ad-bc}{(cx+d)^2}\\).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"numerator\">Tử số</b>: \\(1\\cdot(2)-(3)\\cdot1=-1\\).",
+   "images": [],
+   "id": "d1aad870a6a9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "The tangent to \\(y=x^#+x\\) at the point with abscissa \\(-#\\) is…",
+   "en": "The tangent to \\(y=x^3+x\\) at the point with abscissa \\(-1\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"tangent line\">Tiếp tuyến</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> \\(y=x^3+x\\) tại điểm có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"abscissa\">hoành độ</b> \\(-1\\) là…",
+   "options": [
+    "\\(y=4x-2\\)",
+    "\\(y=-2x+2\\)",
+    "\\(y=-4x+2\\)",
+    "\\(y=4x+2\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(y=f'(x_0)(x-x_0)+f(x_0)\\).",
+   "explain_vi": "Đáp án d. \\(f'(-1)=4\\), \\(f(-1)=-2\\).",
+   "images": [],
+   "id": "6a1afa73fd8b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "\\((e^{#x})'=e^{#x}\\).",
+   "en": "\\((e^{3x})'=e^{3x}\\).",
+   "vi": "\\((e^{3x})'=e^{3x}\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "Chain rule.",
+   "explain_vi": "Quy tắc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"derivative\">đạo hàm</b> hàm hợp.",
+   "images": [],
+   "id": "5e574e6f0073",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(\\left(\\dfrac#{x^#}\\right)'=-\\dfrac#{x^#}\\) for \\(x\\ne#\\).",
+   "en": "\\(\\left(\\dfrac1{x^2}\\right)'=-\\dfrac2{x^3}\\) for \\(x\\ne0\\).",
+   "vi": "\\(\\left(\\dfrac1{x^2}\\right)'=-\\dfrac2{x^3}\\) với \\(x\\ne0\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "Check with the rules.",
+   "explain_vi": "Đối chiếu với quy tắc tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"derivative\">đạo hàm</b>.",
+   "images": [],
+   "id": "424bfc1edc66",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "\\(f(x)=(#x-#)^{#}\\). Find \\(f'(#)\\).",
+   "en": "\\(f(x)=(2x-1)^{4}\\). Find \\(f'(1)\\).",
+   "vi": "Cho \\(f(x)=(2x-1)^{4}\\). Tính \\(f'(1)\\).",
+   "options": [],
+   "answer": "8",
+   "explain_en": "\\((u^n)'=nu^{n-1}u'\\).",
+   "explain_vi": "\\(f'(x)=4\\cdot2(2x-1)^{3}\\).",
+   "images": [],
+   "id": "c39297c2905c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "\\(f(x)=(x^#+#)(x+#)\\). Find \\(f'(-#)\\).",
+   "en": "\\(f(x)=(x^2+3)(x+1)\\). Find \\(f'(-1)\\).",
+   "vi": "Cho \\(f(x)=(x^2+3)(x+1)\\). Tính \\(f'(-1)\\).",
+   "options": [],
+   "answer": "4",
+   "explain_en": "\\((uv)'=u'v+uv'\\).",
+   "explain_vi": "\\(f'(x)=2x(x+1)+(x^2+3)\\).",
+   "images": [],
+   "id": "d16741384bdb",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "A balloon has volume \\(V(r)=\\dfrac#\\pi r^#\\). Find \\(V^{\\prime}(#)\\), the rate of change of the volume with respect to the radius when \\(r=#\\) cm.",
+   "en": "A balloon has volume \\(V(r)=\\dfrac43\\pi r^3\\). Find \\(V^{\\prime}(2)\\), the rate of change of the volume with respect to the radius when \\(r=2\\) cm.",
+   "vi": "Một quả bóng có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"volume\">thể tích</b> \\(V(r)=\\dfrac43\\pi r^3\\). Tính \\(V^{\\prime}(2)\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"rate of change\">tốc độ thay đổi</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"volume\">thể tích</b> theo <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> khi \\(r=2\\) cm.",
+   "options": [
+    "\\(32\\pi\\)",
+    "\\(16\\pi\\)",
+    "\\(\\dfrac{32}{3}\\pi\\)",
+    "\\(8\\pi\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(V^{\\prime}(r)=4\\pi r^2\\), so \\(V^{\\prime}(2)=16\\pi\\).",
+   "explain_vi": "Đáp án b. \\(V^{\\prime}(r)=4\\pi r^2\\) nên \\(V^{\\prime}(2)=16\\pi\\).",
+   "images": [],
+   "id": "52e9b308735a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "An object moves with \\(s(t)=#t^#-#t^#+#t\\) (meters, \\(t\\) in seconds). Its velocity at \\(t=#\\) s is…",
+   "en": "An object moves with \\(s(t)=2t^3-5t^2+2t\\) (meters, \\(t\\) in seconds). Its velocity at \\(t=5\\) s is…",
+   "vi": "Một vật chuyển động theo <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(s(t)=2t^3-5t^2+2t\\) (mét, \\(t\\) tính bằng giây). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"velocity\">Vận tốc</b> của vật tại \\(t=5\\) giây là…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(102\\) m/s</span><span class=\"vi\">\\(102\\) m/s</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(104\\) m/s</span><span class=\"vi\">\\(104\\) m/s</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(135\\) m/s</span><span class=\"vi\">\\(135\\) m/s</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(50\\) m/s</span><span class=\"vi\">\\(50\\) m/s</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(v(t)=s^{\\prime}(t)=6t^2-10t+2\\), \\(v(5)=102\\).",
+   "explain_vi": "Đáp án a. \\(v(t)=s^{\\prime}(t)=6t^2-10t+2\\), \\(v(5)=102\\).",
+   "images": [],
+   "id": "042bff0d0d3d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Given \\(f(x)=x^#+mx^#-#x+#\\) and \\(f^{\\prime}(#)=#\\), the value of \\(m\\) is…",
+   "en": "Given \\(f(x)=x^3+mx^2-4x+2\\) and \\(f^{\\prime}(1)=7\\), the value of \\(m\\) is…",
+   "vi": "Cho \\(f(x)=x^3+mx^2-4x+2\\) và \\(f^{\\prime}(1)=7\\). Giá trị của \\(m\\) là…",
+   "options": [
+    "\\(4\\)",
+    "\\(-4\\)",
+    "\\(2\\)",
+    "\\(5\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(f^{\\prime}(x)=3x^2+2mx-4\\), so \\(3+2\\,m-4=7\\Rightarrow m=4\\).",
+   "explain_vi": "Đáp án a. \\(f^{\\prime}(x)=3x^2+2mx-4\\) nên \\(3+2\\,m-4=7\\Rightarrow m=4\\).",
+   "images": [],
+   "id": "02fd93eb2cf7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Given \\(y=\\sqrt{#x-#}\\), the value of \\(y^{\\prime}(#)\\) is…",
+   "en": "Given \\(y=\\sqrt{4x-8}\\), the value of \\(y^{\\prime}(3)\\) is…",
+   "vi": "Cho \\(y=\\sqrt{4x-8}\\). Giá trị \\(y^{\\prime}(3)\\) bằng…",
+   "options": [
+    "\\(0.25\\)",
+    "\\(1\\)",
+    "\\(2\\)",
+    "\\(0.5\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(y^{\\prime}=\\dfrac{4}{2\\sqrt{4x-8}}\\), at \\(x=3\\): \\(\\dfrac{4}{2\\cdot2}=1\\).",
+   "explain_vi": "Đáp án b. \\(y^{\\prime}=\\dfrac{4}{2\\sqrt{4x-8}}\\), tại \\(x=3\\): \\(\\dfrac{4}{2\\cdot2}=1\\).",
+   "images": [],
+   "id": "27d13ce69777",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Lan wrote \\((x^#e^x)^{\\prime}=#x\\cdot e^x\\). Which is correct?",
+   "en": "Lan wrote \\((x^2e^x)^{\\prime}=2x\\cdot e^x\\). Which is correct?",
+   "vi": "Bạn Lan viết \\((x^2e^x)^{\\prime}=2x\\cdot e^x\\). Nhận xét nào đúng?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">Lan is wrong; the correct result is \\(2xe^x+x^2e^x\\).</span><span class=\"vi\">Lan sai; kết quả đúng là \\(2xe^x+x^2e^x\\).</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Lan is right.</span><span class=\"vi\">Lan đúng.</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Lan is wrong; the correct result is \\(x^2e^x\\).</span><span class=\"vi\">Lan sai; kết quả đúng là \\(x^2e^x\\).</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Lan is wrong; the correct result is \\(2xe^x\\).</span><span class=\"vi\">Lan sai; kết quả đúng là \\(2xe^x\\).</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Product rule: \\((uv)^{\\prime}=u^{\\prime}v+uv^{\\prime}\\), not \\(u^{\\prime}v^{\\prime}\\).",
+   "explain_vi": "Đáp án a. Quy tắc tích: \\((uv)^{\\prime}=u^{\\prime}v+uv^{\\prime}\\), không phải \\(u^{\\prime}v^{\\prime}\\).",
+   "images": [],
+   "id": "64bc8ed9b3b0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Solve \\(f^{\\prime}(x)=#\\) for \\(f(x)=x^#+#x^#-#\\).",
+   "en": "Solve \\(f^{\\prime}(x)=0\\) for \\(f(x)=x^3+6x^2-3\\).",
+   "vi": "Giải <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(f^{\\prime}(x)=0\\) với \\(f(x)=x^3+6x^2-3\\).",
+   "options": [
+    "\\(x=-12,\\ x=0\\)",
+    "\\(x=4,\\ x=0\\)",
+    "\\(x=-4,\\ x=2\\)",
+    "\\(x=-4,\\ x=0\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(f^{\\prime}(x)=3x^2+12x+0=3(x+4)(x+0)\\).",
+   "explain_vi": "Đáp án d. \\(f^{\\prime}(x)=3x^2+12x+0=3(x+4)(x+0)\\).",
+   "images": [],
+   "id": "07071479538c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The tangent to \\(y=#x^#-#x+#\\) is parallel to the line \\(y=#x\\) at the point…",
+   "en": "The tangent to \\(y=2x^2-6x+5\\) is parallel to the line \\(y=6x\\) at the point…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"tangent line\">Tiếp tuyến</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> \\(y=2x^2-6x+5\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b> với <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(y=6x\\) tại điểm…",
+   "options": [
+    "\\(M(4;\\,13)\\)",
+    "\\(M(3;\\,5)\\)",
+    "\\(M(-3;\\,41)\\)",
+    "\\(M(1;\\,1)\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(y^{\\prime}=4x-6=6\\iff x=3\\).",
+   "explain_vi": "Đáp án b. \\(y^{\\prime}=4x-6=6\\iff x=3\\).",
+   "images": [],
+   "id": "df762de1a4ed",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "What is the slope of the tangent to the graph of \\(y=\\ln(x^#+#)\\) at the point with \\(x=#\\)?",
+   "en": "What is the slope of the tangent to the graph of \\(y=\\ln(x^2+5)\\) at the point with \\(x=2\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"slope\">Hệ số góc</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tangent line\">tiếp tuyến</b> với <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">đồ thị hàm số</b> \\(y=\\ln(x^2+5)\\) tại điểm có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"abscissa\">hoành độ</b> \\(x=2\\) là…",
+   "options": [
+    "\\(\\dfrac{2}{9}\\)",
+    "\\(\\dfrac{4}{9}\\)",
+    "\\(\\dfrac{1}{9}\\)",
+    "\\(4\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(y^{\\prime}=\\dfrac{2x}{x^2+5}\\), so \\(y^{\\prime}(2)=\\dfrac{4}{9}\\).",
+   "explain_vi": "Đáp án b. \\(y^{\\prime}=\\dfrac{2x}{x^2+5}\\) nên \\(y^{\\prime}(2)=\\dfrac{4}{9}\\).",
+   "images": [],
+   "id": "191818c2ed12",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "If \\(y=\\ln(#x+#)\\), then \\(y'\\) equals…",
+   "en": "If \\(y=\\ln(4x+1)\\), then \\(y'\\) equals…",
+   "vi": "Nếu \\(y=\\ln(4x+1)\\) thì \\(y'\\) bằng…",
+   "options": [
+    "\\(y'=\\dfrac{4}{4x+1}\\)",
+    "\\(y'=\\dfrac{1}{4x+1}\\)",
+    "\\(y'=\\dfrac{4}{x}\\)",
+    "\\(y'=4\\ln(4x+1)\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Chain rule, \\(u'=4\\).",
+   "explain_vi": "Đáp án a. Hàm hợp với \\(u'=4\\).",
+   "images": [],
+   "id": "ea32bcf44900",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "The derivative of \\(y=\\dfrac{#x-#}{x-#}\\) is…",
+   "en": "The derivative of \\(y=\\dfrac{3x-2}{x-3}\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"derivative\">Đạo hàm</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(y=\\dfrac{3x-2}{x-3}\\) là…",
+   "options": [
+    "\\(y'=\\dfrac{7}{(x-3)^2}\\)",
+    "\\(y'=\\dfrac{-7}{(x-3)^2}\\)",
+    "\\(y'=\\dfrac{-11}{(x-3)^2}\\)",
+    "\\(y'=\\dfrac{-7}{x-3}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\dfrac{ad-bc}{(cx+d)^2}\\).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"numerator\">Tử số</b>: \\(3\\cdot(-3)-(-2)\\cdot1=-7\\).",
+   "images": [],
+   "id": "4b1817d2f352",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "The tangent to \\(y=x^#-#x\\) at the point with abscissa \\(-#\\) is…",
+   "en": "The tangent to \\(y=x^3-2x\\) at the point with abscissa \\(-2\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"tangent line\">Tiếp tuyến</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> \\(y=x^3-2x\\) tại điểm có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"abscissa\">hoành độ</b> \\(-2\\) là…",
+   "options": [
+    "\\(y=10x-4\\)",
+    "\\(y=10x+16\\)",
+    "\\(y=10x-16\\)",
+    "\\(y=-4x+16\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(y=f'(x_0)(x-x_0)+f(x_0)\\).",
+   "explain_vi": "Đáp án b. \\(f'(-2)=10\\), \\(f(-2)=-4\\).",
+   "images": [],
+   "id": "efae994d68d0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "\\((\\sqrt{x^#+#})'=\\dfrac#{#\\sqrt{x^#+#}}\\).",
+   "en": "\\((\\sqrt{x^2+1})'=\\dfrac1{2\\sqrt{x^2+1}}\\).",
+   "vi": "\\((\\sqrt{x^2+1})'=\\dfrac1{2\\sqrt{x^2+1}}\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "Chain rule.",
+   "explain_vi": "Quy tắc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"derivative\">đạo hàm</b> hàm hợp.",
+   "images": [],
+   "id": "d0304327b96b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "\\((\\tan x)'=#+\\tan^#x\\) where \\(\\cos x\\ne#\\).",
+   "en": "\\((\\tan x)'=1+\\tan^2x\\) where \\(\\cos x\\ne0\\).",
+   "vi": "\\((\\tan x)'=1+\\tan^2x\\) với \\(\\cos x\\ne0\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "Check with the rules.",
+   "explain_vi": "Đối chiếu với quy tắc tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"derivative\">đạo hàm</b>.",
+   "images": [],
+   "id": "3a8acfdd72f1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "\\(f(x)=(#x-#)^{#}\\). Find \\(f'(#)\\).",
+   "en": "\\(f(x)=(2x-1)^{3}\\). Find \\(f'(2)\\).",
+   "vi": "Cho \\(f(x)=(2x-1)^{3}\\). Tính \\(f'(2)\\).",
+   "options": [],
+   "answer": "54",
+   "explain_en": "\\((u^n)'=nu^{n-1}u'\\).",
+   "explain_vi": "\\(f'(x)=3\\cdot2(2x-1)^{2}\\).",
+   "images": [],
+   "id": "fff353b914f2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "\\(f(x)=(x^#-#)(x+#)\\). Find \\(f'(#)\\).",
+   "en": "\\(f(x)=(x^2-4)(x+3)\\). Find \\(f'(1)\\).",
+   "vi": "Cho \\(f(x)=(x^2-4)(x+3)\\). Tính \\(f'(1)\\).",
+   "options": [],
+   "answer": "5",
+   "explain_en": "\\((uv)'=u'v+uv'\\).",
+   "explain_vi": "\\(f'(x)=2x(x+3)+(x^2-4)\\).",
+   "images": [],
+   "id": "eea67930984f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "A balloon has volume \\(V(r)=\\dfrac#\\pi r^#\\). Find \\(V^{\\prime}(#)\\), the rate of change of the volume with respect to the radius when \\(r=#\\) cm.",
+   "en": "A balloon has volume \\(V(r)=\\dfrac43\\pi r^3\\). Find \\(V^{\\prime}(5)\\), the rate of change of the volume with respect to the radius when \\(r=5\\) cm.",
+   "vi": "Một quả bóng có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"volume\">thể tích</b> \\(V(r)=\\dfrac43\\pi r^3\\). Tính \\(V^{\\prime}(5)\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"rate of change\">tốc độ thay đổi</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"volume\">thể tích</b> theo <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> khi \\(r=5\\) cm.",
+   "options": [
+    "\\(500\\pi\\)",
+    "\\(20\\pi\\)",
+    "\\(100\\pi\\)",
+    "\\(\\dfrac{500}{3}\\pi\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(V^{\\prime}(r)=4\\pi r^2\\), so \\(V^{\\prime}(5)=100\\pi\\).",
+   "explain_vi": "Đáp án c. \\(V^{\\prime}(r)=4\\pi r^2\\) nên \\(V^{\\prime}(5)=100\\pi\\).",
+   "images": [],
+   "id": "23363421f337",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "An object moves with \\(s(t)=t^#+#t^#+#t\\) (meters, \\(t\\) in seconds). Its velocity at \\(t=#\\) s is…",
+   "en": "An object moves with \\(s(t)=t^3+5t^2+6t\\) (meters, \\(t\\) in seconds). Its velocity at \\(t=5\\) s is…",
+   "vi": "Một vật chuyển động theo <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(s(t)=t^3+5t^2+6t\\) (mét, \\(t\\) tính bằng giây). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"velocity\">Vận tốc</b> của vật tại \\(t=5\\) giây là…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(280\\) m/s</span><span class=\"vi\">\\(280\\) m/s</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(137\\) m/s</span><span class=\"vi\">\\(137\\) m/s</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(131\\) m/s</span><span class=\"vi\">\\(131\\) m/s</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(40\\) m/s</span><span class=\"vi\">\\(40\\) m/s</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(v(t)=s^{\\prime}(t)=3t^2+10t+6\\), \\(v(5)=131\\).",
+   "explain_vi": "Đáp án c. \\(v(t)=s^{\\prime}(t)=3t^2+10t+6\\), \\(v(5)=131\\).",
+   "images": [],
+   "id": "3272e348e4d8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Given \\(f(x)=x^#+mx^#+x+#\\) and \\(f^{\\prime}(#)=#\\), the value of \\(m\\) is…",
+   "en": "Given \\(f(x)=x^3+mx^2+x+4\\) and \\(f^{\\prime}(3)=16\\), the value of \\(m\\) is…",
+   "vi": "Cho \\(f(x)=x^3+mx^2+x+4\\) và \\(f^{\\prime}(3)=16\\). Giá trị của \\(m\\) là…",
+   "options": [
+    "\\(-4\\)",
+    "\\(2\\)",
+    "\\(-1\\)",
+    "\\(-2\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(f^{\\prime}(x)=3x^2+2mx+1\\), so \\(27+6\\,m+1=16\\Rightarrow m=-2\\).",
+   "explain_vi": "Đáp án d. \\(f^{\\prime}(x)=3x^2+2mx+1\\) nên \\(27+6\\,m+1=16\\Rightarrow m=-2\\).",
+   "images": [],
+   "id": "f519fa2f6124",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Given \\(y=\\sqrt{#x+#}\\), the value of \\(y^{\\prime}(#)\\) is…",
+   "en": "Given \\(y=\\sqrt{8x+17}\\), the value of \\(y^{\\prime}(1)\\) is…",
+   "vi": "Cho \\(y=\\sqrt{8x+17}\\). Giá trị \\(y^{\\prime}(1)\\) bằng…",
+   "options": [
+    "\\(1.6\\)",
+    "\\(0.16\\)",
+    "\\(0.8\\)",
+    "\\(0.1\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(y^{\\prime}=\\dfrac{8}{2\\sqrt{8x+17}}\\), at \\(x=1\\): \\(\\dfrac{8}{2\\cdot5}=0.8\\).",
+   "explain_vi": "Đáp án c. \\(y^{\\prime}=\\dfrac{8}{2\\sqrt{8x+17}}\\), tại \\(x=1\\): \\(\\dfrac{8}{2\\cdot5}=0{,}8\\).",
+   "images": [],
+   "id": "26f4f849235f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Lan wrote \\((x^#\\cos x)^{\\prime}=#x\\cdot -\\sin x\\). Which is correct?",
+   "en": "Lan wrote \\((x^2\\cos x)^{\\prime}=2x\\cdot -\\sin x\\). Which is correct?",
+   "vi": "Bạn Lan viết \\((x^2\\cos x)^{\\prime}=2x\\cdot -\\sin x\\). Nhận xét nào đúng?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">Lan is wrong; the correct result is \\(2x\\cos x-x^2\\sin x\\).</span><span class=\"vi\">Lan sai; kết quả đúng là \\(2x\\cos x-x^2\\sin x\\).</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Lan is wrong; the correct result is \\(x^2-\\sin x\\).</span><span class=\"vi\">Lan sai; kết quả đúng là \\(x^2-\\sin x\\).</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Lan is wrong; the correct result is \\(2x\\cos x\\).</span><span class=\"vi\">Lan sai; kết quả đúng là \\(2x\\cos x\\).</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Lan is right.</span><span class=\"vi\">Lan đúng.</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Product rule: \\((uv)^{\\prime}=u^{\\prime}v+uv^{\\prime}\\), not \\(u^{\\prime}v^{\\prime}\\).",
+   "explain_vi": "Đáp án a. Quy tắc tích: \\((uv)^{\\prime}=u^{\\prime}v+uv^{\\prime}\\), không phải \\(u^{\\prime}v^{\\prime}\\).",
+   "images": [],
+   "id": "c9096b3fe55b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Solve \\(f^{\\prime}(x)=#\\) for \\(f(x)=x^#+#x^#+#x+#\\).",
+   "en": "Solve \\(f^{\\prime}(x)=0\\) for \\(f(x)=x^3+6x^2+9x+2\\).",
+   "vi": "Giải <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(f^{\\prime}(x)=0\\) với \\(f(x)=x^3+6x^2+9x+2\\).",
+   "options": [
+    "\\(x=-9,\\ x=-3\\)",
+    "\\(x=-3,\\ x=-1\\)",
+    "\\(x=3,\\ x=1\\)",
+    "\\(x=-3,\\ x=1\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(f^{\\prime}(x)=3x^2+12x+9=3(x+3)(x+1)\\).",
+   "explain_vi": "Đáp án b. \\(f^{\\prime}(x)=3x^2+12x+9=3(x+3)(x+1)\\).",
+   "images": [],
+   "id": "4f79b3101270",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The tangent to \\(y=x^#+#\\) is parallel to the line \\(y=-#x+#\\) at the point…",
+   "en": "The tangent to \\(y=x^2+3\\) is parallel to the line \\(y=-6x+3\\) at the point…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"tangent line\">Tiếp tuyến</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> \\(y=x^2+3\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b> với <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(y=-6x+3\\) tại điểm…",
+   "options": [
+    "\\(M(3;\\,12)\\)",
+    "\\(M(-2;\\,7)\\)",
+    "\\(M(-5;\\,28)\\)",
+    "\\(M(-3;\\,12)\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(y^{\\prime}=2x=-6\\iff x=-3\\).",
+   "explain_vi": "Đáp án d. \\(y^{\\prime}=2x=-6\\iff x=-3\\).",
+   "images": [],
+   "id": "ec0a29c0c7d7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "What is the slope of the tangent to the graph of \\(y=\\ln(#x^#+#)\\) at the point with \\(x=#\\)?",
+   "en": "What is the slope of the tangent to the graph of \\(y=\\ln(3x^2+3)\\) at the point with \\(x=3\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"slope\">Hệ số góc</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tangent line\">tiếp tuyến</b> với <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">đồ thị hàm số</b> \\(y=\\ln(3x^2+3)\\) tại điểm có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"abscissa\">hoành độ</b> \\(x=3\\) là…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(0.6\\)</span><span class=\"vi\">\\(0{,}6\\)</span></span>",
+    "\\(18\\)",
+    "<span class=\"txi\"><span class=\"en\">\\(0.3\\)</span><span class=\"vi\">\\(0{,}3\\)</span></span>",
+    "\\(\\dfrac{1}{30}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(y^{\\prime}=\\dfrac{6x}{3x^2+3}\\), so \\(y^{\\prime}(3)=0.6\\).",
+   "explain_vi": "Đáp án a. \\(y^{\\prime}=\\dfrac{6x}{3x^2+3}\\) nên \\(y^{\\prime}(3)=0{,}6\\).",
+   "images": [],
+   "id": "071384d2b97e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "The derivative of \\(y=\\sin(#x+#)\\) is…",
+   "en": "The derivative of \\(y=\\sin(3x+1)\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"derivative\">Đạo hàm</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(y=\\sin(3x+1)\\) là…",
+   "options": [
+    "\\(y'=3\\cos(3x+1)\\)",
+    "\\(y'=\\cos(3x+1)\\)",
+    "\\(y'=-3\\cos(3x+1)\\)",
+    "\\(y'=3\\sin(3x+1)\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Chain rule, \\(u'=3\\).",
+   "explain_vi": "Đáp án a. Hàm hợp với \\(u'=3\\).",
+   "images": [],
+   "id": "3ab4bbae70b6",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The derivative of \\(y=(#x+#)^{#}\\) is…",
+   "en": "The derivative of \\(y=(3x+3)^{4}\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"derivative\">Đạo hàm</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(y=(3x+3)^{4}\\) là…",
+   "options": [
+    "\\(y'=12(3x+3)^{3}\\)",
+    "\\(y'=3(3x+3)^{3}\\)",
+    "\\(y'=12(3x+3)^{4}\\)",
+    "\\(y'=4(3x+3)^{3}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\((u^n)'=nu^{n-1}u'\\).",
+   "explain_vi": "Đáp án a. Hàm hợp: \\((u^n)'=n\\,u^{n-1}\\cdot u'\\) với \\(u=3x+3\\), \\(u'=3\\).",
+   "images": [],
+   "id": "dd9f393b225c",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The derivative of \\(y=-x^#+#x-#\\) is…",
+   "en": "The derivative of \\(y=-x^5+3x-1\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"derivative\">Đạo hàm</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(y=-x^5+3x-1\\) là…",
+   "options": [
+    "\\(y'=-5x^4+2\\)",
+    "\\(y'=-x^4+3x\\)",
+    "\\(y'=-5x^4+3\\)",
+    "\\(y'=-4x^4+3\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\((x^n)'=nx^{n-1}\\), constants vanish.",
+   "explain_vi": "Đáp án c. \\((x^n)'=nx^{n-1}\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"derivative\">đạo hàm</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"constant\">hằng số</b> bằng 0.",
+   "images": [],
+   "id": "2ff7a969e1d8",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The derivative of \\(y=\\cos #x\\) is…",
+   "en": "The derivative of \\(y=\\cos 5x\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"derivative\">Đạo hàm</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(y=\\cos 5x\\) là…",
+   "options": [
+    "\\(y'=-\\sin 5x\\)",
+    "\\(y'=-5\\cos 5x\\)",
+    "\\(y'=-5\\sin 5x\\)",
+    "\\(y'=5\\sin 5x\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Chain rule with \\(u=5x\\).",
+   "explain_vi": "Đáp án c. Hàm hợp với \\(u=5x\\), \\(u'=5\\).",
+   "images": [],
+   "id": "3c4d75effe5d",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The derivative of \\(y=\\dfrac{-#x-#}{x-#}\\) is…",
+   "en": "The derivative of \\(y=\\dfrac{-3x-1}{x-1}\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"derivative\">Đạo hàm</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(y=\\dfrac{-3x-1}{x-1}\\) là…",
+   "options": [
+    "\\(y'=\\dfrac{2}{(x-1)^2}\\)",
+    "\\(y'=\\dfrac{4}{x-1}\\)",
+    "\\(y'=\\dfrac{4}{(x-1)^2}\\)",
+    "\\(y'=\\dfrac{-4}{(x-1)^2}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\left(\\dfrac{ax+b}{cx+d}\\right)'=\\dfrac{ad-bc}{(cx+d)^2}\\).",
+   "explain_vi": "Đáp án c. \\(\\left(\\dfrac uv\\right)'=\\dfrac{u'v-uv'}{v^2}\\): <b class=\"mbl-term\" tabindex=\"0\" data-en=\"numerator\">tử số</b> \\(-3(x-1)-(-3x-1)=4\\).",
+   "images": [],
+   "id": "ad1ee817d306",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The derivative of \\(y=\\ln(#x)\\) is…",
+   "en": "The derivative of \\(y=\\ln(4x)\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"derivative\">Đạo hàm</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(y=\\ln(4x)\\) là…",
+   "options": [
+    "\\(y'=\\dfrac{1}{4x^2}\\)",
+    "\\(y'=\\dfrac{4}{x}\\)",
+    "\\(y'=\\dfrac1x\\)",
+    "\\(y'=\\ln 4\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\((e^u)'=u'e^u\\), \\((\\ln u)'=\\dfrac{u'}{u}\\), \\((a^x)'=a^x\\ln a\\).",
+   "explain_vi": "Đáp án c. \\((e^u)'=u'e^u\\), \\((\\ln u)'=\\dfrac{u'}{u}\\), \\((a^x)'=a^x\\ln a\\).",
+   "images": [],
+   "id": "4d9d90f16901",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The tangent to \\(y=x^#-#x\\) at the point with abscissa \\(#\\) is…",
+   "en": "The tangent to \\(y=x^3-3x\\) at the point with abscissa \\(1\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"tangent line\">Tiếp tuyến</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> \\(y=x^3-3x\\) tại điểm có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"abscissa\">hoành độ</b> \\(1\\) là…",
+   "options": [
+    "\\(y=-2x-2\\)",
+    "\\(y=2\\)",
+    "\\(y=-2\\)",
+    "\\(y=-1\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(y=f'(x_0)(x-x_0)+f(x_0)\\).",
+   "explain_vi": "Đáp án c. \\(f'(1)=0\\), \\(f(1)=-2\\): \\(y=0(x-(1))+(-2)\\).",
+   "images": [],
+   "id": "6a441ccbabe3",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(f(x)=(x^#-#)(x+#)\\). Then \\(f'(#)=\\)…",
+   "en": "\\(f(x)=(x^2-1)(x+3)\\). Then \\(f'(3)=\\)…",
+   "vi": "Cho \\(f(x)=(x^2-1)(x+3)\\). Khi đó \\(f'(3)=\\)…",
+   "options": [
+    "\\(44\\)",
+    "\\(36\\)",
+    "\\(48\\)",
+    "\\(6\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\((uv)'=u'v+uv'\\).",
+   "explain_vi": "Đáp án a. \\(f'(x)=2x(x+3)+(x^2-1)\\), thay \\(x=3\\).",
+   "images": [],
+   "id": "2cd3687629c9",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(f(x)=\\sqrt{#x+#}\\). Then \\(f'(#)=\\)…",
+   "en": "\\(f(x)=\\sqrt{2x+19}\\). Then \\(f'(3)=\\)…",
+   "vi": "Cho \\(f(x)=\\sqrt{2x+19}\\). Khi đó \\(f'(3)=\\)…",
+   "options": [
+    "\\(\\dfrac{2}{5}\\)",
+    "\\(\\dfrac{2}{25}\\)",
+    "\\(\\dfrac{1}{5}\\)",
+    "\\(\\dfrac{1}{10}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\((\\sqrt u)'=\\dfrac{u'}{2\\sqrt u}\\).",
+   "explain_vi": "Đáp án c. \\(f'(x)=\\dfrac{2}{2\\sqrt{2x+19}}\\); tại \\(x=3\\): \\(\\sqrt{25}=5\\).",
+   "images": [],
+   "id": "2642e68c7d07",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "The derivative of \\(y=e^{#x-#}\\) is…",
+   "en": "The derivative of \\(y=e^{2x-1}\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"derivative\">Đạo hàm</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(y=e^{2x-1}\\) là…",
+   "options": [
+    "\\(y'=e^{2x-1}\\)",
+    "\\(y'=(2x-1)e^{2x-2}\\)",
+    "\\(y'=2e^{2x-1}\\)",
+    "\\(y'=2e^{2x}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Chain rule, \\(u'=2\\).",
+   "explain_vi": "Đáp án c. Hàm hợp với \\(u'=2\\).",
+   "images": [],
+   "id": "433d0cf8241a",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The derivative of \\(y=#x^#+x-#\\) is…",
+   "en": "The derivative of \\(y=3x^4+x-3\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"derivative\">Đạo hàm</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(y=3x^4+x-3\\) là…",
+   "options": [
+    "\\(y'=12x^3+1\\)",
+    "\\(y'=9x^3+1\\)",
+    "\\(y'=3x^3+x\\)",
+    "\\(y'=12x^3-2\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\((x^n)'=nx^{n-1}\\), constants vanish.",
+   "explain_vi": "Đáp án a. \\((x^n)'=nx^{n-1}\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"derivative\">đạo hàm</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"constant\">hằng số</b> bằng 0.",
+   "images": [],
+   "id": "485c6d60dd6d",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The derivative of \\(y=(-#x+#)^{#}\\) is…",
+   "en": "The derivative of \\(y=(-2x+1)^{5}\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"derivative\">Đạo hàm</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(y=(-2x+1)^{5}\\) là…",
+   "options": [
+    "\\(y'=5(-2x+1)^{4}\\)",
+    "\\(y'=-10(-2x+1)^{5}\\)",
+    "\\(y'=-2(-2x+1)^{4}\\)",
+    "\\(y'=-10(-2x+1)^{4}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\((u^n)'=nu^{n-1}u'\\).",
+   "explain_vi": "Đáp án d. Hàm hợp: \\((u^n)'=n\\,u^{n-1}\\cdot u'\\) với \\(u=-2x+1\\), \\(u'=-2\\).",
+   "images": [],
+   "id": "6450718409a2",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The derivative of \\(y=\\dfrac{-#x-#}{x+#}\\) is…",
+   "en": "The derivative of \\(y=\\dfrac{-2x-2}{x+3}\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"derivative\">Đạo hàm</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(y=\\dfrac{-2x-2}{x+3}\\) là…",
+   "options": [
+    "\\(y'=\\dfrac{-4}{(x+3)^2}\\)",
+    "\\(y'=\\dfrac{-8}{(x+3)^2}\\)",
+    "\\(y'=\\dfrac{-4}{x+3}\\)",
+    "\\(y'=\\dfrac{4}{(x+3)^2}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\left(\\dfrac{ax+b}{cx+d}\\right)'=\\dfrac{ad-bc}{(cx+d)^2}\\).",
+   "explain_vi": "Đáp án a. \\(\\left(\\dfrac uv\\right)'=\\dfrac{u'v-uv'}{v^2}\\): <b class=\"mbl-term\" tabindex=\"0\" data-en=\"numerator\">tử số</b> \\(-2(x+3)-(-2x-2)=-4\\).",
+   "images": [],
+   "id": "1554df6a8538",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The derivative of \\(y=\\tan #x\\) is…",
+   "en": "The derivative of \\(y=\\tan 3x\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"derivative\">Đạo hàm</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(y=\\tan 3x\\) là…",
+   "options": [
+    "\\(y'=-\\dfrac{3}{\\sin^2 3x}\\)",
+    "\\(y'=\\dfrac{1}{\\cos^2 3x}\\)",
+    "\\(y'=3\\tan 3x\\)",
+    "\\(y'=\\dfrac{3}{\\cos^2 3x}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Chain rule with \\(u=3x\\).",
+   "explain_vi": "Đáp án d. Hàm hợp với \\(u=3x\\), \\(u'=3\\).",
+   "images": [],
+   "id": "c4f7d7fc4596",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The derivative of \\(y=e^{#x}\\) is…",
+   "en": "The derivative of \\(y=e^{4x}\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"derivative\">Đạo hàm</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(y=e^{4x}\\) là…",
+   "options": [
+    "\\(y'=e^{4}\\)",
+    "\\(y'=4xe^{4x-1}\\)",
+    "\\(y'=4e^{4x}\\)",
+    "\\(y'=e^{4x}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\((e^u)'=u'e^u\\), \\((\\ln u)'=\\dfrac{u'}{u}\\), \\((a^x)'=a^x\\ln a\\).",
+   "explain_vi": "Đáp án c. \\((e^u)'=u'e^u\\), \\((\\ln u)'=\\dfrac{u'}{u}\\), \\((a^x)'=a^x\\ln a\\).",
+   "images": [],
+   "id": "9ae6b5df09a0",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The tangent to \\(y=x^#-#x\\) at the point with abscissa \\(-#\\) is…",
+   "en": "The tangent to \\(y=x^3-3x\\) at the point with abscissa \\(-1\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"tangent line\">Tiếp tuyến</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> \\(y=x^3-3x\\) tại điểm có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"abscissa\">hoành độ</b> \\(-1\\) là…",
+   "options": [
+    "\\(y=3\\)",
+    "\\(y=2\\)",
+    "\\(y=2x+2\\)",
+    "\\(y=-2\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(y=f'(x_0)(x-x_0)+f(x_0)\\).",
+   "explain_vi": "Đáp án b. \\(f'(-1)=0\\), \\(f(-1)=2\\): \\(y=0(x-(-1))+(2)\\).",
+   "images": [],
+   "id": "4e7272ffe90f",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(f(x)=(x^#-#)(x+#)\\). Then \\(f'(#)=\\)…",
+   "en": "\\(f(x)=(x^2-4)(x+2)\\). Then \\(f'(1)=\\)…",
+   "vi": "Cho \\(f(x)=(x^2-4)(x+2)\\). Khi đó \\(f'(1)=\\)…",
+   "options": [
+    "\\(6\\)",
+    "\\(2\\)",
+    "\\(3\\)",
+    "\\(-9\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\((uv)'=u'v+uv'\\).",
+   "explain_vi": "Đáp án c. \\(f'(x)=2x(x+2)+(x^2-4)\\), thay \\(x=1\\).",
+   "images": [],
+   "id": "cb9e1c5a29d1",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(f(x)=\\sqrt{#x+#}\\). Then \\(f'(#)=\\)…",
+   "en": "\\(f(x)=\\sqrt{3x+16}\\). Then \\(f'(3)=\\)…",
+   "vi": "Cho \\(f(x)=\\sqrt{3x+16}\\). Khi đó \\(f'(3)=\\)…",
+   "options": [
+    "\\(\\dfrac{3}{5}\\)",
+    "\\(\\dfrac{3}{10}\\)",
+    "\\(\\dfrac{1}{10}\\)",
+    "\\(\\dfrac{3}{25}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\((\\sqrt u)'=\\dfrac{u'}{2\\sqrt u}\\).",
+   "explain_vi": "Đáp án b. \\(f'(x)=\\dfrac{3}{2\\sqrt{3x+16}}\\); tại \\(x=3\\): \\(\\sqrt{25}=5\\).",
+   "images": [],
+   "id": "74bfbdbae845",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "The derivative of \\(y=\\ln(#x+#)\\) is…",
+   "en": "The derivative of \\(y=\\ln(4x+1)\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"derivative\">Đạo hàm</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(y=\\ln(4x+1)\\) là…",
+   "options": [
+    "\\(y'=\\dfrac{4}{4x+1}\\)",
+    "\\(y'=\\dfrac{1}{4x+1}\\)",
+    "\\(y'=\\dfrac{4}{x}\\)",
+    "\\(y'=4\\ln(4x+1)\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Chain rule, \\(u'=4\\).",
+   "explain_vi": "Đáp án a. Hàm hợp với \\(u'=4\\).",
+   "images": [],
+   "id": "eddd75d516d9",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The derivative of \\(y=#^x\\) is…",
+   "en": "The derivative of \\(y=3^x\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"derivative\">Đạo hàm</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(y=3^x\\) là…",
+   "options": [
+    "\\(y'=\\dfrac{3^x}{\\ln 3}\\)",
+    "\\(y'=3^x\\)",
+    "\\(y'=x\\cdot 3^{x-1}\\)",
+    "\\(y'=3^x\\ln 3\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\((e^u)'=u'e^u\\), \\((\\ln u)'=\\dfrac{u'}{u}\\), \\((a^x)'=a^x\\ln a\\).",
+   "explain_vi": "Đáp án d. \\((e^u)'=u'e^u\\), \\((\\ln u)'=\\dfrac{u'}{u}\\), \\((a^x)'=a^x\\ln a\\).",
+   "images": [],
+   "id": "1345d9c4f38e",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The derivative of \\(y=(-#x+#)^{#}\\) is…",
+   "en": "The derivative of \\(y=(-3x+4)^{5}\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"derivative\">Đạo hàm</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(y=(-3x+4)^{5}\\) là…",
+   "options": [
+    "\\(y'=5(-3x+4)^{4}\\)",
+    "\\(y'=-15(-3x+4)^{4}\\)",
+    "\\(y'=-15(-3x+4)^{5}\\)",
+    "\\(y'=-3(-3x+4)^{4}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\((u^n)'=nu^{n-1}u'\\).",
+   "explain_vi": "Đáp án b. Hàm hợp: \\((u^n)'=n\\,u^{n-1}\\cdot u'\\) với \\(u=-3x+4\\), \\(u'=-3\\).",
+   "images": [],
+   "id": "c1987c36c6ad",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The derivative of \\(y=-x^#-#x-#\\) is…",
+   "en": "The derivative of \\(y=-x^3-2x-5\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"derivative\">Đạo hàm</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(y=-x^3-2x-5\\) là…",
+   "options": [
+    "\\(y'=-3x^2-2\\)",
+    "\\(y'=-3x^2-7\\)",
+    "\\(y'=-2x^2-2\\)",
+    "\\(y'=-3x\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\((x^n)'=nx^{n-1}\\), constants vanish.",
+   "explain_vi": "Đáp án a. \\((x^n)'=nx^{n-1}\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"derivative\">đạo hàm</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"constant\">hằng số</b> bằng 0.",
+   "images": [],
+   "id": "ab3ad898126a",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The derivative of \\(y=\\dfrac{x-#}{x+#}\\) is…",
+   "en": "The derivative of \\(y=\\dfrac{x-4}{x+2}\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"derivative\">Đạo hàm</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(y=\\dfrac{x-4}{x+2}\\) là…",
+   "options": [
+    "\\(y'=\\dfrac{6}{(x+2)^2}\\)",
+    "\\(y'=\\dfrac{-2}{(x+2)^2}\\)",
+    "\\(y'=\\dfrac{6}{x+2}\\)",
+    "\\(y'=\\dfrac{-6}{(x+2)^2}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\left(\\dfrac{ax+b}{cx+d}\\right)'=\\dfrac{ad-bc}{(cx+d)^2}\\).",
+   "explain_vi": "Đáp án a. \\(\\left(\\dfrac uv\\right)'=\\dfrac{u'v-uv'}{v^2}\\): <b class=\"mbl-term\" tabindex=\"0\" data-en=\"numerator\">tử số</b> \\(1(x+2)-(x-4)=6\\).",
+   "images": [],
+   "id": "e5b421891357",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The derivative of \\(y=\\sin #x\\) is…",
+   "en": "The derivative of \\(y=\\sin 4x\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"derivative\">Đạo hàm</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(y=\\sin 4x\\) là…",
+   "options": [
+    "\\(y'=4\\cos 4x\\)",
+    "\\(y'=4\\sin 4x\\)",
+    "\\(y'=-4\\cos 4x\\)",
+    "\\(y'=\\cos 4x\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Chain rule with \\(u=4x\\).",
+   "explain_vi": "Đáp án a. Hàm hợp với \\(u=4x\\), \\(u'=4\\).",
+   "images": [],
+   "id": "de138f507332",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The tangent to \\(y=x^#+#x\\) at the point with abscissa \\(-#\\) is…",
+   "en": "The tangent to \\(y=x^3+3x\\) at the point with abscissa \\(-1\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"tangent line\">Tiếp tuyến</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> \\(y=x^3+3x\\) tại điểm có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"abscissa\">hoành độ</b> \\(-1\\) là…",
+   "options": [
+    "\\(y=-4x+2\\)",
+    "\\(y=6x-4\\)",
+    "\\(y=6x+2\\)",
+    "\\(y=6x-2\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(y=f'(x_0)(x-x_0)+f(x_0)\\).",
+   "explain_vi": "Đáp án c. \\(f'(-1)=6\\), \\(f(-1)=-4\\): \\(y=6(x-(-1))+(-4)\\).",
+   "images": [],
+   "id": "a4fdbb9737aa",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(f(x)=(x^#-#)(x+#)\\). Then \\(f'(#)=\\)…",
+   "en": "\\(f(x)=(x^2-2)(x+2)\\). Then \\(f'(1)=\\)…",
+   "vi": "Cho \\(f(x)=(x^2-2)(x+2)\\). Khi đó \\(f'(1)=\\)…",
+   "options": [
+    "\\(6\\)",
+    "\\(-3\\)",
+    "\\(2\\)",
+    "\\(5\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\((uv)'=u'v+uv'\\).",
+   "explain_vi": "Đáp án d. \\(f'(x)=2x(x+2)+(x^2-2)\\), thay \\(x=1\\).",
+   "images": [],
+   "id": "1e143dd06177",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(f(x)=\\sqrt{#x+#}\\). Then \\(f'(#)=\\)…",
+   "en": "\\(f(x)=\\sqrt{2x+5}\\). Then \\(f'(2)=\\)…",
+   "vi": "Cho \\(f(x)=\\sqrt{2x+5}\\). Khi đó \\(f'(2)=\\)…",
+   "options": [
+    "\\(\\dfrac{2}{9}\\)",
+    "\\(\\dfrac{2}{3}\\)",
+    "\\(\\dfrac{1}{3}\\)",
+    "\\(\\dfrac{1}{6}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\((\\sqrt u)'=\\dfrac{u'}{2\\sqrt u}\\).",
+   "explain_vi": "Đáp án c. \\(f'(x)=\\dfrac{2}{2\\sqrt{2x+5}}\\); tại \\(x=2\\): \\(\\sqrt{9}=3\\).",
+   "images": [],
+   "id": "424bc669ecb1",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  }
+ ]
+}

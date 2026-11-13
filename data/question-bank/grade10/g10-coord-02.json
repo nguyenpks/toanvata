@@ -1,0 +1,1101 @@
+{
+ "lesson": "g10-coord-02",
+ "grade": 10,
+ "no": 20,
+ "title": "Vị trí tương đối, góc và khoảng cách",
+ "path": "lessons/grade10/plane-coordinates/lines-angle-distance.html",
+ "items": [
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "The angle between \\(x+#y+#=#\\) and \\(#x+y-#=#\\) is…",
+   "en": "The angle between \\(x+2y+1=0\\) and \\(3x+y-2=0\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"angle between two lines\">Góc giữa hai đường thẳng</b> \\(x+2y+1=0\\) và \\(3x+y-2=0\\) bằng…",
+   "options": [
+    "\\(30^\\circ\\)",
+    "\\(45^\\circ\\)",
+    "\\(60^\\circ\\)",
+    "\\(90^\\circ\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\cos\\varphi=\\dfrac{5}{\\sqrt{50}}\\).",
+   "explain_vi": "Đáp án b. \\(\\cos\\varphi=\\dfrac{|\\vec n_1\\cdot\\vec n_2|}{|\\vec n_1||\\vec n_2|}=\\dfrac{5}{\\sqrt{50}}\\).",
+   "images": [],
+   "id": "8a27eb922d43",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "The distance from \\(M(#;\\,#)\\) to \\(#x-#y+#=#\\) is…",
+   "en": "The distance from \\(M(2;\\,3)\\) to \\(3x-4y+1=0\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">Khoảng cách</b> từ \\(M(2;\\,3)\\) đến <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(3x-4y+1=0\\) là…",
+   "options": [
+    "\\(5\\)",
+    "\\(\\dfrac{1}{5}\\)",
+    "\\(\\dfrac{7}{5}\\)",
+    "\\(1\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(d=\\dfrac{|ax_0+by_0+c|}{\\sqrt{a^2+b^2}}\\).",
+   "explain_vi": "Đáp án d. \\(d=\\dfrac{|3\\cdot(2)-4\\cdot(3)+1|}{\\sqrt{25}}=1\\).",
+   "images": [],
+   "id": "3421925c6e8b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "The lines \\(x-#y+#=#\\) and \\(#x-#y+#=#\\) are…",
+   "en": "The lines \\(x-3y+2=0\\) and \\(2x-6y+7=0\\) are…",
+   "vi": "Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(x-3y+2=0\\) và \\(2x-6y+7=0\\)…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">perpendicular</span><span class=\"vi\">vuông góc</span></span>",
+    "<span class=\"txi\"><span class=\"en\">parallel</span><span class=\"vi\">song song</span></span>",
+    "<span class=\"txi\"><span class=\"en\">coincident</span><span class=\"vi\">trùng nhau</span></span>",
+    "<span class=\"txi\"><span class=\"en\">intersecting, not perpendicular</span><span class=\"vi\">cắt nhau nhưng không vuông góc</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Compare \\(\\vec n_1=(1;\\,-3)\\), \\(\\vec n_2=(2;\\,-6)\\).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"compare\">So sánh</b> \\(\\vec n_1=(1;\\,-3)\\) và \\(\\vec n_2=(2;\\,-6)\\).",
+   "images": [],
+   "id": "99a5a7e2e99a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "The distance from \\(M(#;\\,#)\\) to \\(#x+#y-#=#\\) equals \\(\\dfrac{#}{#}\\).",
+   "en": "The distance from \\(M(1;\\,2)\\) to \\(6x+8y-5=0\\) equals \\(\\dfrac{17}{10}\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">Khoảng cách</b> từ \\(M(1;\\,2)\\) đến <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(6x+8y-5=0\\) bằng \\(\\dfrac{17}{10}\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "\\(d=\\dfrac{17}{10}=\\dfrac{17}{10}\\).",
+   "explain_vi": "\\(d=\\dfrac{17}{10}=\\dfrac{17}{10}\\).",
+   "images": [],
+   "id": "03df67507d2a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "The lines \\(#x+#y-#=#\\) and \\(#x-#y+#=#\\) are perpendicular.",
+   "en": "The lines \\(2x+3y-1=0\\) and \\(3x-2y+3=0\\) are perpendicular.",
+   "vi": "Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(2x+3y-1=0\\) và \\(3x-2y+3=0\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"perpendicular\">vuông góc</b> với nhau.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "\\(a_1a_2+b_1b_2=0\\).",
+   "explain_vi": "\\(a_1a_2+b_1b_2=0\\).",
+   "images": [],
+   "id": "ac7d7f1750fc",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "Find the distance between the parallel lines \\(#x+#y-#=#\\) and \\(#x+#y+#=#\\).",
+   "en": "Find the distance between the parallel lines \\(3x+4y-7=0\\) and \\(3x+4y+8=0\\).",
+   "vi": "Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">khoảng cách</b> giữa <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel lines\">hai đường thẳng song song</b> \\(3x+4y-7=0\\) và \\(3x+4y+8=0\\).",
+   "options": [],
+   "answer": "3",
+   "explain_en": "\\(\\dfrac{|c_1-c_2|}{\\sqrt{a^2+b^2}}=\\dfrac{15}{5}\\).",
+   "explain_vi": "\\(\\dfrac{|c_1-c_2|}{\\sqrt{a^2+b^2}}=\\dfrac{15}{5}=3\\).",
+   "images": [],
+   "id": "e1d4b8f87b64",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "On a map (unit # m) a house is at \\(H(#;\\,#)\\) and a water main runs along \\(#x+#y-#=#\\). Find the length in metres of the shortest pipe from the house to the main.",
+   "en": "On a map (unit 100 m) a house is at \\(H(1;\\,2)\\) and a water main runs along \\(4x+3y-24=0\\). Find the length in metres of the shortest pipe from the house to the main.",
+   "vi": "Trên bản đồ (đơn vị 100 m), một ngôi nhà ở \\(H(1;\\,2)\\), đường ống chính chạy theo <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(4x+3y-24=0\\). Tính chiều dài (mét) đoạn ống ngắn nhất nối nhà với đường ống chính.",
+   "options": [],
+   "answer": "280",
+   "explain_en": "\\(d=\\dfrac{14}{5}\\) units.",
+   "explain_vi": "\\(d=\\dfrac{14}{5}\\) đơn vị \\(=280\\) m.",
+   "images": [],
+   "id": "df43ed8f4b33",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Let \\(\\varphi\\) be the angle between \\(x-#y+#=#\\) and \\(-#x-#y+#=#\\). Then \\(\\cos\\varphi=\\)…",
+   "en": "Let \\(\\varphi\\) be the angle between \\(x-4y+2=0\\) and \\(-3x-2y+1=0\\). Then \\(\\cos\\varphi=\\)…",
+   "vi": "Gọi \\(\\varphi\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"angle between two lines\">góc giữa hai đường thẳng</b> \\(x-4y+2=0\\) và \\(-3x-2y+1=0\\). Khi đó \\(\\cos\\varphi=\\)…",
+   "options": [
+    "\\(\\dfrac{6\\sqrt{221}}{221}\\)",
+    "\\(\\dfrac{14\\sqrt{221}}{221}\\)",
+    "\\(\\dfrac{5\\sqrt{221}}{221}\\)",
+    "\\(\\dfrac{5\\sqrt{221}}{442}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\cos\\varphi=\\dfrac{|\\vec n_1\\cdot\\vec n_2|}{|\\vec n_1|\\,|\\vec n_2|}=\\dfrac{5}{\\sqrt{221}}\\).",
+   "explain_vi": "Đáp án c. \\(\\cos\\varphi=\\dfrac{|a_1a_2+b_1b_2|}{\\sqrt{a_1^2+b_1^2}\\sqrt{a_2^2+b_2^2}}=\\dfrac{5}{\\sqrt{221}}\\).",
+   "images": [],
+   "id": "95b78edb16a9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "On a map (unit # m) a house is at \\(H(#;\\,#)\\) and a straight water main runs along \\(#x-#y+#=#\\). The shortest pipe from the house to the main is…",
+   "en": "On a map (unit 100 m) a house is at \\(H(6;\\,4)\\) and a straight water main runs along \\(12x-5y+25=0\\). The shortest pipe from the house to the main is…",
+   "vi": "Trên bản đồ (đơn vị 100 m), một ngôi nhà ở \\(H(6;\\,4)\\), đường ống nước chính chạy theo <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(12x-5y+25=0\\). Đoạn ống ngắn nhất nối nhà với đường ống chính dài…",
+   "options": [
+    "\\(\\dfrac{9000}{13}\\text{ m}\\)",
+    "\\(7700\\text{ m}\\)",
+    "\\(\\dfrac{7700}{169}\\text{ m}\\)",
+    "\\(\\dfrac{7700}{13}\\text{ m}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. The shortest pipe is perpendicular: \\(d=\\dfrac{77}{13}\\) units.",
+   "explain_vi": "Đáp án d. Đoạn ngắn nhất là đoạn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"perpendicular\">vuông góc</b>: \\(d=\\dfrac{77}{13}\\) đơn vị \\(=\\dfrac{7700}{13}\\) m.",
+   "images": [],
+   "id": "d5b2ce047b64",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The angle between \\(-#x+#y+#=#\\) and \\(-#x-y-#=#\\) is…",
+   "en": "The angle between \\(-4x+3y+4=0\\) and \\(-7x-y-3=0\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"angle between two lines\">Góc giữa hai đường thẳng</b> \\(-4x+3y+4=0\\) và \\(-7x-y-3=0\\) bằng…",
+   "options": [
+    "\\(135^\\circ\\)",
+    "\\(30^\\circ\\)",
+    "\\(45^\\circ\\)",
+    "\\(60^\\circ\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\cos\\varphi=\\dfrac{25}{\\sqrt{25}\\sqrt{50}}\\).",
+   "explain_vi": "Đáp án c. \\(\\cos\\varphi=\\dfrac{25}{\\sqrt{25}\\cdot\\sqrt{50}}=\\dfrac{\\sqrt2}{2}\\).",
+   "images": [],
+   "id": "c26caf5f35be",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The distance between the parallel lines \\(#x+#y-#=#\\) and \\(#x+#y-#=#\\) is…",
+   "en": "The distance between the parallel lines \\(5x+12y-4=0\\) and \\(5x+12y-19=0\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">Khoảng cách</b> giữa <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel lines\">hai đường thẳng song song</b> \\(5x+12y-4=0\\) và \\(5x+12y-19=0\\) là…",
+   "options": [
+    "\\(\\dfrac{23}{13}\\)",
+    "\\(15\\)",
+    "\\(\\dfrac{15}{169}\\)",
+    "\\(\\dfrac{15}{13}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Take a point of one line and its distance to the other: \\(\\dfrac{|c_1-c_2|}{\\sqrt{a^2+b^2}}\\).",
+   "explain_vi": "Đáp án d. Lấy một điểm trên đường này rồi tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">khoảng cách</b> đến đường kia: \\(\\dfrac{|c_1-c_2|}{\\sqrt{a^2+b^2}}=\\dfrac{15}{13}\\).",
+   "images": [],
+   "id": "b54c38a0bf5d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The distance from \\(M(-#;\\,#)\\) to \\(#x+#y-#=#\\) is…",
+   "en": "The distance from \\(M(-3;\\,2)\\) to \\(6x+8y-3=0\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">Khoảng cách</b> từ \\(M(-3;\\,2)\\) đến <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(6x+8y-3=0\\) là…",
+   "options": [
+    "\\(\\dfrac{1}{20}\\)",
+    "\\(\\dfrac{1}{2}\\)",
+    "\\(\\dfrac{1}{10}\\)",
+    "\\(5\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(d=\\dfrac{|6\\cdot(-3)+8\\cdot(2)-3|}{\\sqrt{100}}\\).",
+   "explain_vi": "Đáp án b. \\(d=\\dfrac{|ax_0+by_0+c|}{\\sqrt{a^2+b^2}}=\\dfrac{5}{10}\\).",
+   "images": [],
+   "id": "39b97c76543a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The line through \\(M(#;\\,#)\\) parallel to \\(#x+y-#=#\\) is…",
+   "en": "The line through \\(M(3;\\,1)\\) parallel to \\(4x+y-2=0\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">Đường thẳng</b> đi qua \\(M(3;\\,1)\\) và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b> với \\(4x+y-2=0\\) là…",
+   "options": [
+    "\\(4x+y-13=0\\)",
+    "\\(4x+y-2=0\\)",
+    "\\(4x+y+13=0\\)",
+    "\\(x-4y+1=0\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Same normal vector \\((4;\\,1)\\): \\(4(x-3)+1(y-1)=0\\).",
+   "explain_vi": "Đáp án a. Cùng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"normal vector\">vectơ pháp tuyến</b> \\((4;\\,1)\\): \\(4(x-3)+1(y-1)=0\\).",
+   "images": [],
+   "id": "4feca43610b7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The lines \\(#x+#y-#=#\\) and \\(mx+#y+#=#\\) are perpendicular when \\(m=\\)…",
+   "en": "The lines \\(3x+2y-4=0\\) and \\(mx+3y+1=0\\) are perpendicular when \\(m=\\)…",
+   "vi": "Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(3x+2y-4=0\\) và \\(mx+3y+1=0\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"perpendicular\">vuông góc</b> khi \\(m=\\)…",
+   "options": [
+    "\\(2\\)",
+    "\\(0\\)",
+    "\\(-2\\)",
+    "\\(\\dfrac{9}{2}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\vec n_1\\cdot\\vec n_2=3 m+6=0\\).",
+   "explain_vi": "Đáp án c. \\(\\vec n_1\\cdot\\vec n_2=0\\iff 3m+6=0\\iff m=-2\\).",
+   "images": [],
+   "id": "aeb915bb2bc5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The lines \\(-x+#y=#\\) and \\(-#x-y+#=#\\) are…",
+   "en": "The lines \\(-x+4y=0\\) and \\(-4x-y+5=0\\) are…",
+   "vi": "Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(-x+4y=0\\) và \\(-4x-y+5=0\\)…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">intersecting but not perpendicular</span><span class=\"vi\">cắt nhau nhưng không vuông góc</span></span>",
+    "<span class=\"txi\"><span class=\"en\">perpendicular</span><span class=\"vi\">vuông góc</span></span>",
+    "<span class=\"txi\"><span class=\"en\">coincident</span><span class=\"vi\">trùng nhau</span></span>",
+    "<span class=\"txi\"><span class=\"en\">parallel</span><span class=\"vi\">song song</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\vec n_1\\cdot\\vec n_2=-1\\cdot(-4)+4\\cdot-1=0\\).",
+   "explain_vi": "Đáp án b. \\(\\vec n_1\\cdot\\vec n_2=-1\\cdot(-4)+4\\cdot-1=0\\) nên hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"perpendicular\">vuông góc</b>.",
+   "images": [],
+   "id": "a089df6f541c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The lines \\(x+#=#\\) and \\(-x+#y-#=#\\) meet at…",
+   "en": "The lines \\(x+3=0\\) and \\(-x+2y-13=0\\) meet at…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersection point\">Giao điểm</b> của hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(x+3=0\\) và \\(-x+2y-13=0\\) là…",
+   "options": [
+    "\\((-3;\\,-5)\\)",
+    "\\((3;\\,5)\\)",
+    "\\((5;\\,-3)\\)",
+    "\\((-3;\\,5)\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Solve the system of the two equations.",
+   "explain_vi": "Đáp án d. Giải hệ hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b>; kiểm tra: tọa độ \\((-3;\\,5)\\) thỏa mãn cả hai.",
+   "images": [],
+   "id": "660ac92a7d98",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "The angle between \\(#x+y+#=#\\) and \\(x-#y-#=#\\) is…",
+   "en": "The angle between \\(2x+y+1=0\\) and \\(x-2y-2=0\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"angle between two lines\">Góc giữa hai đường thẳng</b> \\(2x+y+1=0\\) và \\(x-2y-2=0\\) bằng…",
+   "options": [
+    "\\(30^\\circ\\)",
+    "\\(90^\\circ\\)",
+    "\\(60^\\circ\\)",
+    "\\(135^\\circ\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\cos\\varphi=\\dfrac{0}{\\sqrt{25}}\\).",
+   "explain_vi": "Đáp án b. \\(\\cos\\varphi=\\dfrac{|\\vec n_1\\cdot\\vec n_2|}{|\\vec n_1||\\vec n_2|}=\\dfrac{0}{\\sqrt{25}}\\).",
+   "images": [],
+   "id": "907699be4d17",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "The distance from \\(M(#;\\,-#)\\) to \\(#x+#y-#=#\\) is…",
+   "en": "The distance from \\(M(1;\\,-1)\\) to \\(5x+12y-3=0\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">Khoảng cách</b> từ \\(M(1;\\,-1)\\) đến <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(5x+12y-3=0\\) là…",
+   "options": [
+    "\\(\\dfrac{10}{13}\\)",
+    "\\(10\\)",
+    "\\(\\dfrac{10}{169}\\)",
+    "\\(\\dfrac{4}{13}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(d=\\dfrac{|ax_0+by_0+c|}{\\sqrt{a^2+b^2}}\\).",
+   "explain_vi": "Đáp án a. \\(d=\\dfrac{|5\\cdot(1)+12\\cdot(-1)-3|}{\\sqrt{169}}=\\dfrac{10}{13}\\).",
+   "images": [],
+   "id": "b961fc681b8e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "The lines \\(#x+#y-#=#\\) and \\(-#x+#y+#=#\\) are…",
+   "en": "The lines \\(2x+5y-1=0\\) and \\(-5x+2y+2=0\\) are…",
+   "vi": "Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(2x+5y-1=0\\) và \\(-5x+2y+2=0\\)…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">parallel</span><span class=\"vi\">song song</span></span>",
+    "<span class=\"txi\"><span class=\"en\">coincident</span><span class=\"vi\">trùng nhau</span></span>",
+    "<span class=\"txi\"><span class=\"en\">perpendicular</span><span class=\"vi\">vuông góc</span></span>",
+    "<span class=\"txi\"><span class=\"en\">intersecting, not perpendicular</span><span class=\"vi\">cắt nhau nhưng không vuông góc</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Compare \\(\\vec n_1=(2;\\,5)\\), \\(\\vec n_2=(-5;\\,2)\\).",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"compare\">So sánh</b> \\(\\vec n_1=(2;\\,5)\\) và \\(\\vec n_2=(-5;\\,2)\\).",
+   "images": [],
+   "id": "9abf24d7d2f4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "The distance from \\(M(#;\\,-#)\\) to \\(#x+#y+#=#\\) equals \\(#\\).",
+   "en": "The distance from \\(M(2;\\,-1)\\) to \\(3x+4y+2=0\\) equals \\(1\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">Khoảng cách</b> từ \\(M(2;\\,-1)\\) đến <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(3x+4y+2=0\\) bằng \\(1\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "\\(d=\\dfrac{4}{5}=\\dfrac{4}{5}\\).",
+   "explain_vi": "\\(d=\\dfrac{4}{5}=\\dfrac{4}{5}\\).",
+   "images": [],
+   "id": "caea8adff5bc",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "The lines \\(x+#y+#=#\\) and \\(#x+y+#=#\\) are perpendicular.",
+   "en": "The lines \\(x+4y+2=0\\) and \\(4x+y+3=0\\) are perpendicular.",
+   "vi": "Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(x+4y+2=0\\) và \\(4x+y+3=0\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"perpendicular\">vuông góc</b> với nhau.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "\\(a_1a_2+b_1b_2=8\\).",
+   "explain_vi": "\\(a_1a_2+b_1b_2=8\\).",
+   "images": [],
+   "id": "95a2aeb18902",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "Find the distance between the parallel lines \\(#x+#y+#=#\\) and \\(#x+#y-#=#\\).",
+   "en": "Find the distance between the parallel lines \\(5x+12y+6=0\\) and \\(5x+12y-20=0\\).",
+   "vi": "Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">khoảng cách</b> giữa <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel lines\">hai đường thẳng song song</b> \\(5x+12y+6=0\\) và \\(5x+12y-20=0\\).",
+   "options": [],
+   "answer": "2",
+   "explain_en": "\\(\\dfrac{|c_1-c_2|}{\\sqrt{a^2+b^2}}=\\dfrac{26}{13}\\).",
+   "explain_vi": "\\(\\dfrac{|c_1-c_2|}{\\sqrt{a^2+b^2}}=\\dfrac{26}{13}=2\\).",
+   "images": [],
+   "id": "09d7f291b0b1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "On a map (unit # m) a house is at \\(H(#;\\,#)\\) and a water main runs along \\(#x-#y+#=#\\). Find the length in metres of the shortest pipe from the house to the main.",
+   "en": "On a map (unit 100 m) a house is at \\(H(2;\\,5)\\) and a water main runs along \\(3x-4y+10=0\\). Find the length in metres of the shortest pipe from the house to the main.",
+   "vi": "Trên bản đồ (đơn vị 100 m), một ngôi nhà ở \\(H(2;\\,5)\\), đường ống chính chạy theo <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(3x-4y+10=0\\). Tính chiều dài (mét) đoạn ống ngắn nhất nối nhà với đường ống chính.",
+   "options": [],
+   "answer": "80",
+   "explain_en": "\\(d=\\dfrac{4}{5}\\) units.",
+   "explain_vi": "\\(d=\\dfrac{4}{5}\\) đơn vị \\(=80\\) m.",
+   "images": [],
+   "id": "148664b0f815",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Let \\(\\varphi\\) be the angle between \\(-#x-y+#=#\\) and \\(#x+y-#=#\\). Then \\(\\cos\\varphi=\\)…",
+   "en": "Let \\(\\varphi\\) be the angle between \\(-2x-y+1=0\\) and \\(4x+y-3=0\\). Then \\(\\cos\\varphi=\\)…",
+   "vi": "Gọi \\(\\varphi\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"angle between two lines\">góc giữa hai đường thẳng</b> \\(-2x-y+1=0\\) và \\(4x+y-3=0\\). Khi đó \\(\\cos\\varphi=\\)…",
+   "options": [
+    "\\(\\dfrac{9\\sqrt{85}}{85}\\)",
+    "\\(\\dfrac{9\\sqrt{85}}{170}\\)",
+    "\\(\\dfrac{2\\sqrt{85}}{17}\\)",
+    "\\(\\dfrac{2\\sqrt{85}}{85}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\cos\\varphi=\\dfrac{|\\vec n_1\\cdot\\vec n_2|}{|\\vec n_1|\\,|\\vec n_2|}=\\dfrac{9}{\\sqrt{85}}\\).",
+   "explain_vi": "Đáp án a. \\(\\cos\\varphi=\\dfrac{|a_1a_2+b_1b_2|}{\\sqrt{a_1^2+b_1^2}\\sqrt{a_2^2+b_2^2}}=\\dfrac{9}{\\sqrt{85}}\\).",
+   "images": [],
+   "id": "1896a2d80e8b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "On a map (unit # m) a house is at \\(H(#;\\,#)\\) and a straight water main runs along \\(#x-#y+#=#\\). The shortest pipe from the house to the main is…",
+   "en": "On a map (unit 100 m) a house is at \\(H(5;\\,6)\\) and a straight water main runs along \\(3x-4y+10=0\\). The shortest pipe from the house to the main is…",
+   "vi": "Trên bản đồ (đơn vị 100 m), một ngôi nhà ở \\(H(5;\\,6)\\), đường ống nước chính chạy theo <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(3x-4y+10=0\\). Đoạn ống ngắn nhất nối nhà với đường ống chính dài…",
+   "options": [
+    "\\(20\\text{ m}\\)",
+    "\\(100\\text{ m}\\)",
+    "\\(4\\text{ m}\\)",
+    "\\(120\\text{ m}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. The shortest pipe is perpendicular: \\(d=\\dfrac{1}{5}\\) units.",
+   "explain_vi": "Đáp án a. Đoạn ngắn nhất là đoạn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"perpendicular\">vuông góc</b>: \\(d=\\dfrac{1}{5}\\) đơn vị \\(=20\\) m.",
+   "images": [],
+   "id": "5486c044511c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The angle between \\(-#x-y+#=#\\) and \\(x-#y+#=#\\) is…",
+   "en": "The angle between \\(-4x-y+2=0\\) and \\(x-4y+4=0\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"angle between two lines\">Góc giữa hai đường thẳng</b> \\(-4x-y+2=0\\) và \\(x-4y+4=0\\) bằng…",
+   "options": [
+    "\\(90^\\circ\\)",
+    "\\(135^\\circ\\)",
+    "\\(30^\\circ\\)",
+    "\\(60^\\circ\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\cos\\varphi=\\dfrac{0}{\\sqrt{17}\\sqrt{17}}\\).",
+   "explain_vi": "Đáp án a. \\(\\cos\\varphi=\\dfrac{0}{\\sqrt{17}\\cdot\\sqrt{17}}=0\\).",
+   "images": [],
+   "id": "8f277f1456c2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The distance between the parallel lines \\(#x+#y-#=#\\) and \\(#x+#y=#\\) is…",
+   "en": "The distance between the parallel lines \\(3x+4y-7=0\\) and \\(3x+4y=0\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">Khoảng cách</b> giữa <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel lines\">hai đường thẳng song song</b> \\(3x+4y-7=0\\) và \\(3x+4y=0\\) là…",
+   "options": [
+    "\\(\\dfrac{12}{5}\\)",
+    "\\(7\\)",
+    "\\(\\dfrac{7}{5}\\)",
+    "\\(\\dfrac{7}{25}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Take a point of one line and its distance to the other: \\(\\dfrac{|c_1-c_2|}{\\sqrt{a^2+b^2}}\\).",
+   "explain_vi": "Đáp án c. Lấy một điểm trên đường này rồi tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">khoảng cách</b> đến đường kia: \\(\\dfrac{|c_1-c_2|}{\\sqrt{a^2+b^2}}=\\dfrac{7}{5}\\).",
+   "images": [],
+   "id": "1de297eec10c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The distance from \\(M(-#;\\,-#)\\) to \\(#x+#y+#=#\\) is…",
+   "en": "The distance from \\(M(-2;\\,-1)\\) to \\(4x+3y+2=0\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">Khoảng cách</b> từ \\(M(-2;\\,-1)\\) đến <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(4x+3y+2=0\\) là…",
+   "options": [
+    "\\(\\dfrac{9}{25}\\)",
+    "\\(\\dfrac{9}{5}\\)",
+    "\\(9\\)",
+    "\\(\\dfrac{13}{5}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(d=\\dfrac{|4\\cdot(-2)+3\\cdot(-1)+2|}{\\sqrt{25}}\\).",
+   "explain_vi": "Đáp án b. \\(d=\\dfrac{|ax_0+by_0+c|}{\\sqrt{a^2+b^2}}=\\dfrac{9}{5}\\).",
+   "images": [],
+   "id": "9ef2994f021a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The line through \\(M(#;\\,-#)\\) parallel to \\(-#x-#y+#=#\\) is…",
+   "en": "The line through \\(M(0;\\,-4)\\) parallel to \\(-3x-4y+1=0\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">Đường thẳng</b> đi qua \\(M(0;\\,-4)\\) và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b> với \\(-3x-4y+1=0\\) là…",
+   "options": [
+    "\\(3x+4y-1=0\\)",
+    "\\(3x+4y-16=0\\)",
+    "\\(3x+4y+16=0\\)",
+    "\\(4x-3y-12=0\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Same normal vector \\((-3;\\,-4)\\): \\(-3(x+0)-4(y+4)=0\\).",
+   "explain_vi": "Đáp án c. Cùng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"normal vector\">vectơ pháp tuyến</b> \\((-3;\\,-4)\\): \\(-3(x+0)-4(y+4)=0\\).",
+   "images": [],
+   "id": "db60785f59b7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The lines \\(#x+#y+#=#\\) and \\(-#x-#y-#=#\\) are…",
+   "en": "The lines \\(2x+3y+1=0\\) and \\(-4x-6y-2=0\\) are…",
+   "vi": "Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(2x+3y+1=0\\) và \\(-4x-6y-2=0\\)…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">intersecting but not perpendicular</span><span class=\"vi\">cắt nhau nhưng không vuông góc</span></span>",
+    "<span class=\"txi\"><span class=\"en\">parallel</span><span class=\"vi\">song song</span></span>",
+    "<span class=\"txi\"><span class=\"en\">coincident</span><span class=\"vi\">trùng nhau</span></span>",
+    "<span class=\"txi\"><span class=\"en\">perpendicular</span><span class=\"vi\">vuông góc</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The coefficients are proportional (factor \\(-2\\)).",
+   "explain_vi": "Đáp án c. Các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b> tỉ lệ (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b> tỉ lệ \\(-2\\)) nên hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coincide\">trùng nhau</b>.",
+   "images": [],
+   "id": "7b8668a72601",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The lines \\(-x=#\\) and \\(y-#=#\\) meet at…",
+   "en": "The lines \\(-x=0\\) and \\(y-1=0\\) meet at…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersection point\">Giao điểm</b> của hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(-x=0\\) và \\(y-1=0\\) là…",
+   "options": [
+    "\\((0;\\,-1)\\)",
+    "\\((1;\\,0)\\)",
+    "\\((0;\\,1)\\)",
+    "\\((1;\\,1)\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Solve the system of the two equations.",
+   "explain_vi": "Đáp án c. Giải hệ hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b>; kiểm tra: tọa độ \\((0;\\,1)\\) thỏa mãn cả hai.",
+   "images": [],
+   "id": "5f564356a38f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The lines \\(x-#y-#=#\\) and \\(mx-#y+#=#\\) are perpendicular when \\(m=\\)…",
+   "en": "The lines \\(x-3y-2=0\\) and \\(mx-1y+1=0\\) are perpendicular when \\(m=\\)…",
+   "vi": "Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(x-3y-2=0\\) và \\(mx-1y+1=0\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"perpendicular\">vuông góc</b> khi \\(m=\\)…",
+   "options": [
+    "\\(\\dfrac{1}{3}\\)",
+    "\\(-3\\)",
+    "\\(-1\\)",
+    "\\(3\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\vec n_1\\cdot\\vec n_2=1 m+3=0\\).",
+   "explain_vi": "Đáp án b. \\(\\vec n_1\\cdot\\vec n_2=0\\iff 1m+3=0\\iff m=-3\\).",
+   "images": [],
+   "id": "286c144276bc",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "The angle between \\(x+y+#=#\\) and \\(y-#=#\\) is…",
+   "en": "The angle between \\(x+y+1=0\\) and \\(y-2=0\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"angle between two lines\">Góc giữa hai đường thẳng</b> \\(x+y+1=0\\) và \\(y-2=0\\) bằng…",
+   "options": [
+    "\\(30^\\circ\\)",
+    "\\(45^\\circ\\)",
+    "\\(60^\\circ\\)",
+    "\\(90^\\circ\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\cos\\varphi=\\dfrac{1}{\\sqrt{2}}\\).",
+   "explain_vi": "Đáp án b. \\(\\cos\\varphi=\\dfrac{|\\vec n_1\\cdot\\vec n_2|}{|\\vec n_1||\\vec n_2|}=\\dfrac{1}{\\sqrt{2}}\\).",
+   "images": [],
+   "id": "6b4ab6af81f2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "The distance from \\(M(-#;\\,#)\\) to \\(#x+#y+#=#\\) is…",
+   "en": "The distance from \\(M(-2;\\,1)\\) to \\(8x+6y+5=0\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">Khoảng cách</b> từ \\(M(-2;\\,1)\\) đến <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(8x+6y+5=0\\) là…",
+   "options": [
+    "\\(5\\)",
+    "\\(\\dfrac{1}{20}\\)",
+    "\\(\\dfrac{1}{2}\\)",
+    "\\(\\dfrac{3}{2}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(d=\\dfrac{|ax_0+by_0+c|}{\\sqrt{a^2+b^2}}\\).",
+   "explain_vi": "Đáp án c. \\(d=\\dfrac{|8\\cdot(-2)+6\\cdot(1)+5|}{\\sqrt{100}}=\\dfrac{1}{2}\\).",
+   "images": [],
+   "id": "4c65f6feb222",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "The lines \\(#x-y+#=#\\) and \\(-#x+#y-#=#\\) are…",
+   "en": "The lines \\(3x-y+4=0\\) and \\(-6x+2y-5=0\\) are…",
+   "vi": "Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(3x-y+4=0\\) và \\(-6x+2y-5=0\\)…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">perpendicular</span><span class=\"vi\">vuông góc</span></span>",
+    "<span class=\"txi\"><span class=\"en\">parallel</span><span class=\"vi\">song song</span></span>",
+    "<span class=\"txi\"><span class=\"en\">coincident</span><span class=\"vi\">trùng nhau</span></span>",
+    "<span class=\"txi\"><span class=\"en\">intersecting, not perpendicular</span><span class=\"vi\">cắt nhau nhưng không vuông góc</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Compare \\(\\vec n_1=(3;\\,-1)\\), \\(\\vec n_2=(-6;\\,2)\\).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"compare\">So sánh</b> \\(\\vec n_1=(3;\\,-1)\\) và \\(\\vec n_2=(-6;\\,2)\\).",
+   "images": [],
+   "id": "f385fa46a358",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "The distance from \\(M(#;\\,#)\\) to \\(#x-#y+#=#\\) equals \\(#\\).",
+   "en": "The distance from \\(M(1;\\,1)\\) to \\(4x-3y+6=0\\) equals \\(2\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">Khoảng cách</b> từ \\(M(1;\\,1)\\) đến <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(4x-3y+6=0\\) bằng \\(2\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "\\(d=\\dfrac{7}{5}=\\dfrac{7}{5}\\).",
+   "explain_vi": "\\(d=\\dfrac{7}{5}=\\dfrac{7}{5}\\).",
+   "images": [],
+   "id": "6cc8dfa86a0d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "The lines \\(#x-#y+#=#\\) and \\(#x+#y+#=#\\) are perpendicular.",
+   "en": "The lines \\(5x-2y+3=0\\) and \\(2x+5y+3=0\\) are perpendicular.",
+   "vi": "Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(5x-2y+3=0\\) và \\(2x+5y+3=0\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"perpendicular\">vuông góc</b> với nhau.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "\\(a_1a_2+b_1b_2=0\\).",
+   "explain_vi": "\\(a_1a_2+b_1b_2=0\\).",
+   "images": [],
+   "id": "22912a7fcb46",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Find the distance between the parallel lines \\(#x-#y+#=#\\) and \\(#x-#y+#=#\\).",
+   "en": "Find the distance between the parallel lines \\(8x-6y+3=0\\) and \\(8x-6y+33=0\\).",
+   "vi": "Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">khoảng cách</b> giữa <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel lines\">hai đường thẳng song song</b> \\(8x-6y+3=0\\) và \\(8x-6y+33=0\\).",
+   "options": [],
+   "answer": "3",
+   "explain_en": "\\(\\dfrac{|c_1-c_2|}{\\sqrt{a^2+b^2}}=\\dfrac{30}{10}\\).",
+   "explain_vi": "\\(\\dfrac{|c_1-c_2|}{\\sqrt{a^2+b^2}}=\\dfrac{30}{10}=3\\).",
+   "images": [],
+   "id": "88a6730df8e8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "On a map (unit # m) a house is at \\(H(#;\\,#)\\) and a water main runs along \\(#x+#y-#=#\\). Find the length in metres of the shortest pipe from the house to the main.",
+   "en": "On a map (unit 100 m) a house is at \\(H(1;\\,1)\\) and a water main runs along \\(12x+5y-30=0\\). Find the length in metres of the shortest pipe from the house to the main.",
+   "vi": "Trên bản đồ (đơn vị 100 m), một ngôi nhà ở \\(H(1;\\,1)\\), đường ống chính chạy theo <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(12x+5y-30=0\\). Tính chiều dài (mét) đoạn ống ngắn nhất nối nhà với đường ống chính.",
+   "options": [],
+   "answer": "100",
+   "explain_en": "\\(d=\\dfrac{13}{13}\\) units.",
+   "explain_vi": "\\(d=\\dfrac{13}{13}\\) đơn vị \\(=100\\) m.",
+   "images": [],
+   "id": "38a87a145c77",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Let \\(\\varphi\\) be the angle between \\(-#x-#y-#=#\\) and \\(-#x+y-#=#\\). Then \\(\\cos\\varphi=\\)…",
+   "en": "Let \\(\\varphi\\) be the angle between \\(-3x-2y-1=0\\) and \\(-4x+y-2=0\\). Then \\(\\cos\\varphi=\\)…",
+   "vi": "Gọi \\(\\varphi\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"angle between two lines\">góc giữa hai đường thẳng</b> \\(-3x-2y-1=0\\) và \\(-4x+y-2=0\\). Khi đó \\(\\cos\\varphi=\\)…",
+   "options": [
+    "\\(\\dfrac{14\\sqrt{221}}{221}\\)",
+    "\\(\\dfrac{11\\sqrt{221}}{221}\\)",
+    "\\(\\dfrac{5\\sqrt{221}}{221}\\)",
+    "\\(\\dfrac{10\\sqrt{221}}{221}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\cos\\varphi=\\dfrac{|\\vec n_1\\cdot\\vec n_2|}{|\\vec n_1|\\,|\\vec n_2|}=\\dfrac{10}{\\sqrt{221}}\\).",
+   "explain_vi": "Đáp án d. \\(\\cos\\varphi=\\dfrac{|a_1a_2+b_1b_2|}{\\sqrt{a_1^2+b_1^2}\\sqrt{a_2^2+b_2^2}}=\\dfrac{10}{\\sqrt{221}}\\).",
+   "images": [],
+   "id": "6abeff0ea8db",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "On a map (unit # m) a house is at \\(H(#;\\,#)\\) and a straight water main runs along \\(#x-#y-#=#\\). The shortest pipe from the house to the main is…",
+   "en": "On a map (unit 100 m) a house is at \\(H(6;\\,1)\\) and a straight water main runs along \\(4x-3y-30=0\\). The shortest pipe from the house to the main is…",
+   "vi": "Trên bản đồ (đơn vị 100 m), một ngôi nhà ở \\(H(6;\\,1)\\), đường ống nước chính chạy theo <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(4x-3y-30=0\\). Đoạn ống ngắn nhất nối nhà với đường ống chính dài…",
+   "options": [
+    "\\(36\\text{ m}\\)",
+    "\\(280\\text{ m}\\)",
+    "\\(900\\text{ m}\\)",
+    "\\(180\\text{ m}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. The shortest pipe is perpendicular: \\(d=\\dfrac{9}{5}\\) units.",
+   "explain_vi": "Đáp án d. Đoạn ngắn nhất là đoạn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"perpendicular\">vuông góc</b>: \\(d=\\dfrac{9}{5}\\) đơn vị \\(=180\\) m.",
+   "images": [],
+   "id": "ca9e010da748",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The angle between \\(x-#y+#=#\\) and \\(#x-y-#=#\\) is…",
+   "en": "The angle between \\(x-3y+3=0\\) and \\(2x-y-2=0\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"angle between two lines\">Góc giữa hai đường thẳng</b> \\(x-3y+3=0\\) và \\(2x-y-2=0\\) bằng…",
+   "options": [
+    "\\(30^\\circ\\)",
+    "\\(45^\\circ\\)",
+    "\\(135^\\circ\\)",
+    "\\(60^\\circ\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\cos\\varphi=\\dfrac{5}{\\sqrt{10}\\sqrt{5}}\\).",
+   "explain_vi": "Đáp án b. \\(\\cos\\varphi=\\dfrac{5}{\\sqrt{10}\\cdot\\sqrt{5}}=\\dfrac{\\sqrt2}{2}\\).",
+   "images": [],
+   "id": "daff67568ae6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The distance between the parallel lines \\(#x+#y-#=#\\) and \\(#x+#y+#=#\\) is…",
+   "en": "The distance between the parallel lines \\(3x+4y-6=0\\) and \\(3x+4y+7=0\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">Khoảng cách</b> giữa <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel lines\">hai đường thẳng song song</b> \\(3x+4y-6=0\\) và \\(3x+4y+7=0\\) là…",
+   "options": [
+    "\\(13\\)",
+    "\\(\\dfrac{13}{25}\\)",
+    "\\(\\dfrac{13}{5}\\)",
+    "\\(\\dfrac{1}{5}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Take a point of one line and its distance to the other: \\(\\dfrac{|c_1-c_2|}{\\sqrt{a^2+b^2}}\\).",
+   "explain_vi": "Đáp án c. Lấy một điểm trên đường này rồi tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">khoảng cách</b> đến đường kia: \\(\\dfrac{|c_1-c_2|}{\\sqrt{a^2+b^2}}=\\dfrac{13}{5}\\).",
+   "images": [],
+   "id": "122de92cd637",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The distance from \\(M(-#;\\,-#)\\) to \\(#x+#y-#=#\\) is…",
+   "en": "The distance from \\(M(-1;\\,-1)\\) to \\(5x+12y-8=0\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">Khoảng cách</b> từ \\(M(-1;\\,-1)\\) đến <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(5x+12y-8=0\\) là…",
+   "options": [
+    "\\(\\dfrac{9}{13}\\)",
+    "\\(25\\)",
+    "\\(\\dfrac{25}{13}\\)",
+    "\\(\\dfrac{25}{169}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(d=\\dfrac{|5\\cdot(-1)+12\\cdot(-1)-8|}{\\sqrt{169}}\\).",
+   "explain_vi": "Đáp án c. \\(d=\\dfrac{|ax_0+by_0+c|}{\\sqrt{a^2+b^2}}=\\dfrac{25}{13}\\).",
+   "images": [],
+   "id": "700f65ca1ade",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The line through \\(M(#;\\,#)\\) parallel to \\(-#x+#y-#=#\\) is…",
+   "en": "The line through \\(M(3;\\,0)\\) parallel to \\(-3x+2y-3=0\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">Đường thẳng</b> đi qua \\(M(3;\\,0)\\) và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b> với \\(-3x+2y-3=0\\) là…",
+   "options": [
+    "\\(3x-2y+3=0\\)",
+    "\\(2x+3y-6=0\\)",
+    "\\(3x-2y+9=0\\)",
+    "\\(3x-2y-9=0\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Same normal vector \\((-3;\\,2)\\): \\(-3(x-3)+2(y+0)=0\\).",
+   "explain_vi": "Đáp án d. Cùng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"normal vector\">vectơ pháp tuyến</b> \\((-3;\\,2)\\): \\(-3(x-3)+2(y+0)=0\\).",
+   "images": [],
+   "id": "4f0d10b8ce00",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The lines \\(#x-y-#=#\\) and \\(mx-#y+#=#\\) are perpendicular when \\(m=\\)…",
+   "en": "The lines \\(2x-y-4=0\\) and \\(mx-2y+1=0\\) are perpendicular when \\(m=\\)…",
+   "vi": "Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(2x-y-4=0\\) và \\(mx-2y+1=0\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"perpendicular\">vuông góc</b> khi \\(m=\\)…",
+   "options": [
+    "\\(1\\)",
+    "\\(-1\\)",
+    "\\(-2\\)",
+    "\\(4\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\vec n_1\\cdot\\vec n_2=2 m+2=0\\).",
+   "explain_vi": "Đáp án b. \\(\\vec n_1\\cdot\\vec n_2=0\\iff 2m+2=0\\iff m=-1\\).",
+   "images": [],
+   "id": "3c40309a1c89",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The lines \\(-#x-y-#=#\\) and \\(-#x-#y-#=#\\) are…",
+   "en": "The lines \\(-4x-y-2=0\\) and \\(-12x-3y-9=0\\) are…",
+   "vi": "Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(-4x-y-2=0\\) và \\(-12x-3y-9=0\\)…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">intersecting but not perpendicular</span><span class=\"vi\">cắt nhau nhưng không vuông góc</span></span>",
+    "<span class=\"txi\"><span class=\"en\">coincident</span><span class=\"vi\">trùng nhau</span></span>",
+    "<span class=\"txi\"><span class=\"en\">parallel</span><span class=\"vi\">song song</span></span>",
+    "<span class=\"txi\"><span class=\"en\">perpendicular</span><span class=\"vi\">vuông góc</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\dfrac{a_1}{a_2}=\\dfrac{b_1}{b_2}\\ne\\dfrac{c_1}{c_2}\\).",
+   "explain_vi": "Đáp án c. \\(\\dfrac{a_1}{a_2}=\\dfrac{b_1}{b_2}\\ne\\dfrac{c_1}{c_2}\\) nên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel lines\">hai đường thẳng song song</b>.",
+   "images": [],
+   "id": "311ea4cccb0f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The lines \\(-x+#y-#=#\\) and \\(-x-#y+#=#\\) meet at…",
+   "en": "The lines \\(-x+4y-21=0\\) and \\(-x-4y+19=0\\) meet at…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersection point\">Giao điểm</b> của hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(-x+4y-21=0\\) và \\(-x-4y+19=0\\) là…",
+   "options": [
+    "\\((-1;\\,-5)\\)",
+    "\\((-1;\\,5)\\)",
+    "\\((5;\\,-1)\\)",
+    "\\((1;\\,5)\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Solve the system of the two equations.",
+   "explain_vi": "Đáp án b. Giải hệ hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b>; kiểm tra: tọa độ \\((-1;\\,5)\\) thỏa mãn cả hai.",
+   "images": [],
+   "id": "3e7a2159ea12",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  }
+ ]
+}

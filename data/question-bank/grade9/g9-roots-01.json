@@ -1,0 +1,1317 @@
+{
+ "lesson": "g9-roots-01",
+ "grade": 9,
+ "no": 7,
+ "title": "Căn bậc hai và căn thức bậc hai",
+ "path": "lessons/grade9/square-and-cube-roots/square-roots.html",
+ "items": [
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Compute \\(\\sqrt{#}\\).",
+   "en": "Compute \\(\\sqrt{9}\\).",
+   "vi": "Tính \\(\\sqrt{9}\\).",
+   "options": [
+    "\\(\\dfrac{9}{2}\\)",
+    "\\(3\\)",
+    "\\(\\pm 3\\)",
+    "\\(-3\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\sqrt{9}\\) is the non-negative number whose square is \\(9\\): \\(3\\).",
+   "explain_vi": "Đáp án b. \\(\\sqrt{9}\\) là số <b class=\"mbl-term\" tabindex=\"0\" data-en=\"non-negative\">không âm</b> có bình phương bằng \\(9\\): \\(3\\).",
+   "images": [],
+   "id": "9d14c8c97c98",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "For which \\(x\\) is \\(\\sqrt{#x-#}\\) defined?",
+   "en": "For which \\(x\\) is \\(\\sqrt{6x-4}\\) defined?",
+   "vi": "\\(\\sqrt{6x-4}\\) xác định khi nào?",
+   "options": [
+    "\\(x\\le \\dfrac{2}{3}\\)",
+    "\\(x\\ge -\\dfrac{2}{3}\\)",
+    "\\(x\\ge \\dfrac{2}{3}\\)",
+    "\\(x\\gt \\dfrac{2}{3}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. We need \\(6x-4\\ge0\\), i.e. \\(x\\ge \\dfrac{2}{3}\\).",
+   "explain_vi": "Đáp án c. Cần \\(6x-4\\ge0\\), tức là \\(x\\ge \\dfrac{2}{3}\\).",
+   "images": [],
+   "id": "258357103ec1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "The square roots of \\(#\\) are…",
+   "en": "The square roots of \\(256\\) are…",
+   "vi": "Các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"square root\">căn bậc hai</b> của \\(256\\) là…",
+   "options": [
+    "\\(16\\)",
+    "\\(\\pm 16\\)",
+    "\\(-16\\)",
+    "\\(128\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Both \\(16\\) and \\(-16\\) squared give \\(256\\): a positive number has two opposite square roots.",
+   "explain_vi": "Đáp án b. Cả \\(16\\) và \\(-16\\) bình phương đều bằng \\(256\\): số dương có hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"square root\">căn bậc hai</b> là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"opposite numbers\">hai số đối nhau</b>.",
+   "images": [],
+   "id": "cb35ad07ff1f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "The expression \\(\\sqrt{#x+#}\\) is defined at \\(x=-#\\).",
+   "en": "The expression \\(\\sqrt{5x+4}\\) is defined at \\(x=-3\\).",
+   "vi": "Biểu thức \\(\\sqrt{5x+4}\\) xác định tại \\(x=-3\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. At \\(x=-3\\) the radicand is \\(-11\\), which is negative.",
+   "explain_vi": "Sai. Tại \\(x=-3\\), biểu thức dưới dấu căn bằng \\(-11\\) (âm).",
+   "images": [],
+   "id": "dae7c0ab016d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(\\sqrt{(-#)^#}=#\\).",
+   "en": "\\(\\sqrt{(-12)^2}=12\\).",
+   "vi": "\\(\\sqrt{(-12)^2}=12\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. \\(\\sqrt{A^2}=|A|\\), so \\(\\sqrt{(-12)^2}=|-12|=12\\).",
+   "explain_vi": "Đúng. \\(\\sqrt{A^2}=|A|\\) nên \\(\\sqrt{(-12)^2}=|-12|=12\\).",
+   "images": [],
+   "id": "508dcce04ed0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "Compute \\(\\sqrt{#}+#\\sqrt{#}\\).",
+   "en": "Compute \\(\\sqrt{400}+2\\sqrt{49}\\).",
+   "vi": "Tính \\(\\sqrt{400}+2\\sqrt{49}\\).",
+   "options": [],
+   "answer": "34",
+   "explain_en": "Answer: 34. \\(20+14=34\\).",
+   "explain_vi": "Đáp số: 34. \\(20+14=34\\).",
+   "images": [],
+   "id": "911b618ad9db",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "Use a calculator to find \\(\\sqrt{#}\\), rounded to two decimal places.",
+   "en": "Use a calculator to find \\(\\sqrt{84}\\), rounded to two decimal places.",
+   "vi": "Dùng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"calculator\">máy tính cầm tay</b> tính \\(\\sqrt{84}\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"round to two decimal places\">làm tròn đến chữ số thập phân thứ hai</b>.",
+   "options": [],
+   "answer": "9.17",
+   "explain_en": "Answer: 9.17. \\(\\sqrt{84}\\approx 9.17\\).",
+   "explain_vi": "Đáp số: 9,17. \\(\\sqrt{84}\\approx 9{,}17\\).",
+   "images": [],
+   "id": "5456c26c678a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D1",
+   "type": "mcq",
+   "form": "What is the radicand of \\(#\\sqrt{#x-#}\\)?",
+   "en": "What is the radicand of \\(6\\sqrt{3x-2}\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"radicand\">Biểu thức lấy căn</b> của \\(6\\sqrt{3x-2}\\) là gì?",
+   "options": [
+    "\\(3x-2\\)",
+    "\\(6(3x-2)\\)",
+    "\\(\\sqrt{3x-2}\\)",
+    "\\(6\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. The radicand is the expression under the root sign.",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radicand\">Biểu thức lấy căn</b> là biểu thức nằm dưới dấu căn.",
+   "images": [],
+   "id": "7eff20cc7219",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Which of these numbers has no square root?",
+   "en": "Which of these numbers has no square root?",
+   "vi": "Số nào sau đây không có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"square root\">căn bậc hai</b>?",
+   "options": [
+    "\\(0\\)",
+    "\\(12\\)",
+    "\\(16\\)",
+    "\\(-39\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. A negative number has no square root.",
+   "explain_vi": "Đáp án d. Số âm không có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"square root\">căn bậc hai</b>.",
+   "images": [],
+   "id": "1fee0dffc8f8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D1",
+   "type": "mcq",
+   "form": "\\(\\sqrt{#^#}\\) is equal to…",
+   "en": "\\(\\sqrt{7^2}\\) is equal to…",
+   "vi": "\\(\\sqrt{7^2}\\) bằng…",
+   "options": [
+    "\\(49\\)",
+    "\\(7\\)",
+    "\\(-7\\)",
+    "\\(\\pm 7\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\sqrt{a^2}=a\\) for \\(a\\ge0\\).",
+   "explain_vi": "Đáp án b. \\(\\sqrt{a^2}=a\\) với \\(a\\ge0\\).",
+   "images": [],
+   "id": "bbaaf7d18354",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Compute \\(\\sqrt{(#-#)^#}\\).",
+   "en": "Compute \\(\\sqrt{(6-1)^2}\\).",
+   "vi": "Tính \\(\\sqrt{(6-1)^2}\\).",
+   "options": [
+    "\\(5\\)",
+    "\\(7\\)",
+    "\\(-5\\)",
+    "\\(25\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\sqrt{(6-1)^2}=|5|=5\\).",
+   "explain_vi": "Đáp án a. \\(\\sqrt{(6-1)^2}=|5|=5\\).",
+   "images": [],
+   "id": "3fc4f7df2956",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D2",
+   "type": "mcq",
+   "form": "For which \\(x\\) is \\(\\sqrt{#-x}\\) defined?",
+   "en": "For which \\(x\\) is \\(\\sqrt{6-x}\\) defined?",
+   "vi": "Biểu thức \\(\\sqrt{6-x}\\) xác định khi nào?",
+   "options": [
+    "\\(x\\le 6\\)",
+    "\\(x\\le -6\\)",
+    "\\(x\\lt 6\\)",
+    "\\(x\\ge 6\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(6-x\\ge0\\Leftrightarrow x\\le 6\\).",
+   "explain_vi": "Đáp án a. \\(6-x\\ge0\\Leftrightarrow x\\le 6\\).",
+   "images": [],
+   "id": "09ffc1feeb79",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Solve \\(x^#=#\\).",
+   "en": "Solve \\(x^2=2\\).",
+   "vi": "Giải <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(x^2=2\\).",
+   "options": [
+    "\\(x=\\pm\\sqrt{2}\\)",
+    "\\(x=\\sqrt{2}\\)",
+    "\\(x=\\pm 4\\)",
+    "\\(x=\\dfrac{2}{2}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(x\\) is a square root of 2: \\(x=\\sqrt{2}\\) or \\(x=-\\sqrt{2}\\).",
+   "explain_vi": "Đáp án a. \\(x\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"square root\">căn bậc hai</b> của 2: \\(x=\\sqrt{2}\\) hoặc \\(x=-\\sqrt{2}\\).",
+   "images": [],
+   "id": "695fdb990eeb",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Compare \\(#\\) and \\(\\sqrt{#}\\) without a calculator.",
+   "en": "Compare \\(6\\) and \\(\\sqrt{37}\\) without a calculator.",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"compare\">So sánh</b> \\(6\\) và \\(\\sqrt{37}\\) mà không dùng máy tính.",
+   "options": [
+    "\\(6\\ge\\sqrt{37}\\)",
+    "\\(6\\gt \\sqrt{37}\\)",
+    "\\(6=\\sqrt{37}\\)",
+    "\\(6\\lt \\sqrt{37}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(6=\\sqrt{36}\\) and \\(36\\lt 37\\).",
+   "explain_vi": "Đáp án d. \\(6=\\sqrt{36}\\) và \\(36\\lt 37\\).",
+   "images": [],
+   "id": "fd002f6734b2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Find the value of \\(\\sqrt{x-#}\\) at \\(x=#\\).",
+   "en": "Find the value of \\(\\sqrt{x-10}\\) at \\(x=46\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"evaluate\">Tính giá trị</b> của \\(\\sqrt{x-10}\\) tại \\(x=46\\).",
+   "options": [
+    "\\(-6\\)",
+    "\\(6\\)",
+    "\\(7\\)",
+    "\\(36\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. The radicand equals \\(36\\), so the value is \\(\\sqrt{36}=6\\).",
+   "explain_vi": "Đáp án b. Biểu thức dưới dấu căn bằng \\(36\\) nên giá trị là \\(\\sqrt{36}=6\\).",
+   "images": [],
+   "id": "42dee7434dcf",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Simplify \\(\\sqrt{(x-#)^#}\\) for \\(x\\gt #\\).",
+   "en": "Simplify \\(\\sqrt{(x-1)^2}\\) for \\(x\\gt 1\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"simplify\">Rút gọn</b> \\(\\sqrt{(x-1)^2}\\) với \\(x\\gt 1\\).",
+   "options": [
+    "\\((x-1)^2\\)",
+    "\\(x-1\\)",
+    "\\(x+1\\)",
+    "\\(1-x\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\sqrt{A^2}=|A|\\); here \\(x-1\\) is positive.",
+   "explain_vi": "Đáp án b. \\(\\sqrt{A^2}=|A|\\); ở đây \\(x-1\\) dương.",
+   "images": [],
+   "id": "b0b88504ec25",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A square garden has an area of # m². How many meters of fence are needed to go around it?",
+   "en": "A square garden has an area of 25 m². How many meters of fence are needed to go around it?",
+   "vi": "Một mảnh vườn hình vuông có diện tích 25 m². Cần bao nhiêu mét <b class=\"mbl-term\" tabindex=\"0\" data-en=\"fence\">hàng rào</b> để rào quanh mảnh vườn?",
+   "options": [
+    "\\(10\\text{ m}\\)",
+    "\\(6\\text{ m}\\)",
+    "\\(20\\text{ m}\\)",
+    "\\(5\\text{ m}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Side \\(=\\sqrt{25}=5\\) m; perimeter \\(=4\\cdot5=20\\) m.",
+   "explain_vi": "Đáp án c. Cạnh \\(=\\sqrt{25}=5\\) m; chu vi \\(=4\\cdot5=20\\) m.",
+   "images": [],
+   "id": "f9dbe7a32582",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D4",
+   "type": "mcq",
+   "form": "Compute \\(A=\\sqrt{(#+\\sqrt{#})^#}-\\sqrt{(#-\\sqrt{#})^#}\\) without a calculator.",
+   "en": "Compute \\(A=\\sqrt{(2+\\sqrt{7})^2}-\\sqrt{(2-\\sqrt{7})^2}\\) without a calculator.",
+   "vi": "Tính \\(A=\\sqrt{(2+\\sqrt{7})^2}-\\sqrt{(2-\\sqrt{7})^2}\\) mà không dùng máy tính.",
+   "options": [
+    "\\(4\\)",
+    "\\(-4\\)",
+    "\\(0\\)",
+    "\\(2\\sqrt{7}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(2-\\sqrt{7}\\lt0\\) because \\(4\\lt 7\\); so \\(A=(2+\\sqrt{7})-(\\sqrt{7}-2)=4\\).",
+   "explain_vi": "Đáp án a. \\(2-\\sqrt{7}\\lt0\\) vì \\(4\\lt 7\\); nên \\(A=(2+\\sqrt{7})-(\\sqrt{7}-2)=4\\).",
+   "images": [],
+   "id": "d2b6de035a0f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D4",
+   "type": "mcq",
+   "form": "Given \\(A=\\sqrt{x^#-#x+#}\\) with \\(x\\gt #\\). Find \\(A\\) at \\(x=#\\).",
+   "en": "Given \\(A=\\sqrt{x^2-8x+16}\\) with \\(x\\gt 4\\). Find \\(A\\) at \\(x=9\\).",
+   "vi": "Cho \\(A=\\sqrt{x^2-8x+16}\\) với \\(x\\gt 4\\). Tính \\(A\\) tại \\(x=9\\).",
+   "options": [
+    "\\(25\\)",
+    "\\(5\\)",
+    "\\(-5\\)",
+    "\\(13\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(A=\\sqrt{(x-4)^2}=|x-4|=x-4\\) (because \\(x\\gt 4\\)); at \\(x=9\\): \\(A=5\\).",
+   "explain_vi": "Đáp án b. \\(A=\\sqrt{(x-4)^2}=|x-4|=x-4\\) (vì \\(x\\gt 4\\)); tại \\(x=9\\): \\(A=5\\).",
+   "images": [],
+   "id": "72ca9fee4b98",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Compute \\(\\sqrt{#}\\).",
+   "en": "Compute \\(\\sqrt{4}\\).",
+   "vi": "Tính \\(\\sqrt{4}\\).",
+   "options": [
+    "\\(3\\)",
+    "\\(2\\)",
+    "\\(-2\\)",
+    "\\(\\pm 2\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\sqrt{4}\\) is the non-negative number whose square is \\(4\\): \\(2\\).",
+   "explain_vi": "Đáp án b. \\(\\sqrt{4}\\) là số <b class=\"mbl-term\" tabindex=\"0\" data-en=\"non-negative\">không âm</b> có bình phương bằng \\(4\\): \\(2\\).",
+   "images": [],
+   "id": "42178114ff1e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "For which \\(x\\) is \\(\\sqrt{-#x+#}\\) defined?",
+   "en": "For which \\(x\\) is \\(\\sqrt{-2x+1}\\) defined?",
+   "vi": "\\(\\sqrt{-2x+1}\\) xác định khi nào?",
+   "options": [
+    "\\(x\\ge \\dfrac{1}{2}\\)",
+    "\\(x\\lt \\dfrac{1}{2}\\)",
+    "\\(x\\le \\dfrac{1}{2}\\)",
+    "\\(x\\le -\\dfrac{1}{2}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. We need \\(-2x+1\\ge0\\), i.e. \\(x\\le \\dfrac{1}{2}\\).",
+   "explain_vi": "Đáp án c. Cần \\(-2x+1\\ge0\\), tức là \\(x\\le \\dfrac{1}{2}\\).",
+   "images": [],
+   "id": "b9978de015c3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "The square roots of \\(#\\) are…",
+   "en": "The square roots of \\(121\\) are…",
+   "vi": "Các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"square root\">căn bậc hai</b> của \\(121\\) là…",
+   "options": [
+    "\\(\\dfrac{121}{2}\\)",
+    "\\(-11\\)",
+    "\\(\\pm 11\\)",
+    "\\(11\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Both \\(11\\) and \\(-11\\) squared give \\(121\\): a positive number has two opposite square roots.",
+   "explain_vi": "Đáp án c. Cả \\(11\\) và \\(-11\\) bình phương đều bằng \\(121\\): số dương có hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"square root\">căn bậc hai</b> là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"opposite numbers\">hai số đối nhau</b>.",
+   "images": [],
+   "id": "ce76dfb80fe4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "The expression \\(\\sqrt{-#x+#}\\) is defined at \\(x=-#\\).",
+   "en": "The expression \\(\\sqrt{-5x+15}\\) is defined at \\(x=-6\\).",
+   "vi": "Biểu thức \\(\\sqrt{-5x+15}\\) xác định tại \\(x=-6\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. At \\(x=-6\\) the radicand is \\(45\\), which is non-negative.",
+   "explain_vi": "Đúng. Tại \\(x=-6\\), biểu thức dưới dấu căn bằng \\(45\\) (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"non-negative\">không âm</b>).",
+   "images": [],
+   "id": "55d4c111da46",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(\\sqrt{(-#)^#}=-#\\).",
+   "en": "\\(\\sqrt{(-10)^2}=-10\\).",
+   "vi": "\\(\\sqrt{(-10)^2}=-10\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. \\(\\sqrt{A^2}=|A|\\), so \\(\\sqrt{(-10)^2}=|-10|=10\\).",
+   "explain_vi": "Sai. \\(\\sqrt{A^2}=|A|\\) nên \\(\\sqrt{(-10)^2}=|-10|=10\\).",
+   "images": [],
+   "id": "819ee2ae48c7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "Compute \\(\\sqrt{#}+#\\sqrt{#}\\).",
+   "en": "Compute \\(\\sqrt{36}+2\\sqrt{64}\\).",
+   "vi": "Tính \\(\\sqrt{36}+2\\sqrt{64}\\).",
+   "options": [],
+   "answer": "22",
+   "explain_en": "Answer: 22. \\(6+16=22\\).",
+   "explain_vi": "Đáp số: 22. \\(6+16=22\\).",
+   "images": [],
+   "id": "11226c945071",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "Use a calculator to find \\(\\sqrt{#}\\), rounded to two decimal places.",
+   "en": "Use a calculator to find \\(\\sqrt{91}\\), rounded to two decimal places.",
+   "vi": "Dùng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"calculator\">máy tính cầm tay</b> tính \\(\\sqrt{91}\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"round to two decimal places\">làm tròn đến chữ số thập phân thứ hai</b>.",
+   "options": [],
+   "answer": "9.54",
+   "explain_en": "Answer: 9.54. \\(\\sqrt{91}\\approx 9.54\\).",
+   "explain_vi": "Đáp số: 9,54. \\(\\sqrt{91}\\approx 9{,}54\\).",
+   "images": [],
+   "id": "ffd859b4c3dd",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Choose the number that has no square root.",
+   "en": "Choose the number that has no square root.",
+   "vi": "Chọn số không có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"square root\">căn bậc hai</b>.",
+   "options": [
+    "\\(26\\)",
+    "\\(-1\\)",
+    "\\(0\\)",
+    "\\(38\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. A negative number has no square root.",
+   "explain_vi": "Đáp án b. Số âm không có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"square root\">căn bậc hai</b>.",
+   "images": [],
+   "id": "ecc25699e3a8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D1",
+   "type": "mcq",
+   "form": "What is the radicand of \\(#\\sqrt{#x-#}\\)?",
+   "en": "What is the radicand of \\(8\\sqrt{2x-1}\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"radicand\">Biểu thức lấy căn</b> của \\(8\\sqrt{2x-1}\\) là gì?",
+   "options": [
+    "\\(8(2x-1)\\)",
+    "\\(8\\)",
+    "\\(2x-1\\)",
+    "\\(\\sqrt{2x-1}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The radicand is the expression under the root sign.",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radicand\">Biểu thức lấy căn</b> là biểu thức nằm dưới dấu căn.",
+   "images": [],
+   "id": "9f94d7a54838",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D1",
+   "type": "mcq",
+   "form": "\\(\\sqrt{#^#}\\) is equal to…",
+   "en": "\\(\\sqrt{6^2}\\) is equal to…",
+   "vi": "\\(\\sqrt{6^2}\\) bằng…",
+   "options": [
+    "\\(6\\)",
+    "\\(-6\\)",
+    "\\(36\\)",
+    "\\(\\pm 6\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\sqrt{a^2}=a\\) for \\(a\\ge0\\).",
+   "explain_vi": "Đáp án a. \\(\\sqrt{a^2}=a\\) với \\(a\\ge0\\).",
+   "images": [],
+   "id": "2b750f748043",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Compute \\(\\sqrt{(#-#)^#}\\).",
+   "en": "Compute \\(\\sqrt{(9-16)^2}\\).",
+   "vi": "Tính \\(\\sqrt{(9-16)^2}\\).",
+   "options": [
+    "\\(7\\)",
+    "\\(25\\)",
+    "\\(-7\\)",
+    "\\(49\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\sqrt{(9-16)^2}=|-7|=7\\).",
+   "explain_vi": "Đáp án a. \\(\\sqrt{(9-16)^2}=|-7|=7\\).",
+   "images": [],
+   "id": "038fe274c402",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D2",
+   "type": "mcq",
+   "form": "For which \\(x\\) is \\(\\sqrt{#-x}\\) defined?",
+   "en": "For which \\(x\\) is \\(\\sqrt{7-x}\\) defined?",
+   "vi": "Biểu thức \\(\\sqrt{7-x}\\) xác định khi nào?",
+   "options": [
+    "\\(x\\le 7\\)",
+    "\\(x\\le -7\\)",
+    "\\(x\\lt 7\\)",
+    "\\(x\\ge 7\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(7-x\\ge0\\Leftrightarrow x\\le 7\\).",
+   "explain_vi": "Đáp án a. \\(7-x\\ge0\\Leftrightarrow x\\le 7\\).",
+   "images": [],
+   "id": "6fa71e66ea93",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Solve \\(x^#=#\\).",
+   "en": "Solve \\(x^2=7\\).",
+   "vi": "Giải <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(x^2=7\\).",
+   "options": [
+    "\\(x=\\dfrac{7}{2}\\)",
+    "\\(x=\\pm 49\\)",
+    "\\(x=\\pm\\sqrt{7}\\)",
+    "\\(x=\\sqrt{7}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(x\\) is a square root of 7: \\(x=\\sqrt{7}\\) or \\(x=-\\sqrt{7}\\).",
+   "explain_vi": "Đáp án c. \\(x\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"square root\">căn bậc hai</b> của 7: \\(x=\\sqrt{7}\\) hoặc \\(x=-\\sqrt{7}\\).",
+   "images": [],
+   "id": "88de3e9e928c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Compare \\(#\\) and \\(\\sqrt{#}\\) without a calculator.",
+   "en": "Compare \\(8\\) and \\(\\sqrt{66}\\) without a calculator.",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"compare\">So sánh</b> \\(8\\) và \\(\\sqrt{66}\\) mà không dùng máy tính.",
+   "options": [
+    "\\(8\\gt \\sqrt{66}\\)",
+    "\\(8\\lt \\sqrt{66}\\)",
+    "\\(8=\\sqrt{66}\\)",
+    "\\(8\\ge\\sqrt{66}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(8=\\sqrt{64}\\) and \\(64\\lt 66\\).",
+   "explain_vi": "Đáp án b. \\(8=\\sqrt{64}\\) và \\(64\\lt 66\\).",
+   "images": [],
+   "id": "64f6a0e1f0af",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Find the value of \\(\\sqrt{#x-#}\\) at \\(x=#\\).",
+   "en": "Find the value of \\(\\sqrt{4x-4}\\) at \\(x=2\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"evaluate\">Tính giá trị</b> của \\(\\sqrt{4x-4}\\) tại \\(x=2\\).",
+   "options": [
+    "\\(2\\)",
+    "\\(3\\)",
+    "\\(-2\\)",
+    "\\(4\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. The radicand equals \\(4\\), so the value is \\(\\sqrt{4}=2\\).",
+   "explain_vi": "Đáp án a. Biểu thức dưới dấu căn bằng \\(4\\) nên giá trị là \\(\\sqrt{4}=2\\).",
+   "images": [],
+   "id": "48711254b22c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Simplify \\(\\sqrt{(x-#)^#}\\) for \\(x\\gt #\\).",
+   "en": "Simplify \\(\\sqrt{(x-2)^2}\\) for \\(x\\gt 2\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"simplify\">Rút gọn</b> \\(\\sqrt{(x-2)^2}\\) với \\(x\\gt 2\\).",
+   "options": [
+    "\\(x-2\\)",
+    "\\(2-x\\)",
+    "\\(x+2\\)",
+    "\\((x-2)^2\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\sqrt{A^2}=|A|\\); here \\(x-2\\) is positive.",
+   "explain_vi": "Đáp án a. \\(\\sqrt{A^2}=|A|\\); ở đây \\(x-2\\) dương.",
+   "images": [],
+   "id": "ecbab8cdc9ff",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A square garden has an area of # m². How many meters of fence are needed to go around it?",
+   "en": "A square garden has an area of 100 m². How many meters of fence are needed to go around it?",
+   "vi": "Một mảnh vườn hình vuông có diện tích 100 m². Cần bao nhiêu mét <b class=\"mbl-term\" tabindex=\"0\" data-en=\"fence\">hàng rào</b> để rào quanh mảnh vườn?",
+   "options": [
+    "\\(25\\text{ m}\\)",
+    "\\(10\\text{ m}\\)",
+    "\\(40\\text{ m}\\)",
+    "\\(20\\text{ m}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Side \\(=\\sqrt{100}=10\\) m; perimeter \\(=4\\cdot10=40\\) m.",
+   "explain_vi": "Đáp án c. Cạnh \\(=\\sqrt{100}=10\\) m; chu vi \\(=4\\cdot10=40\\) m.",
+   "images": [],
+   "id": "936585e96868",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D4",
+   "type": "mcq",
+   "form": "Compute \\(A=\\sqrt{(#+\\sqrt{#})^#}-\\sqrt{(#-\\sqrt{#})^#}\\) without a calculator.",
+   "en": "Compute \\(A=\\sqrt{(2+\\sqrt{10})^2}-\\sqrt{(2-\\sqrt{10})^2}\\) without a calculator.",
+   "vi": "Tính \\(A=\\sqrt{(2+\\sqrt{10})^2}-\\sqrt{(2-\\sqrt{10})^2}\\) mà không dùng máy tính.",
+   "options": [
+    "\\(0\\)",
+    "\\(-4\\)",
+    "\\(2\\sqrt{10}\\)",
+    "\\(4\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(2-\\sqrt{10}\\lt0\\) because \\(4\\lt 10\\); so \\(A=(2+\\sqrt{10})-(\\sqrt{10}-2)=4\\).",
+   "explain_vi": "Đáp án d. \\(2-\\sqrt{10}\\lt0\\) vì \\(4\\lt 10\\); nên \\(A=(2+\\sqrt{10})-(\\sqrt{10}-2)=4\\).",
+   "images": [],
+   "id": "5daaebdded81",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D4",
+   "type": "mcq",
+   "form": "Given \\(A=\\sqrt{x^#-#x+#}\\) with \\(x\\gt #\\). Find \\(A\\) at \\(x=#\\).",
+   "en": "Given \\(A=\\sqrt{x^2-12x+36}\\) with \\(x\\gt 6\\). Find \\(A\\) at \\(x=11\\).",
+   "vi": "Cho \\(A=\\sqrt{x^2-12x+36}\\) với \\(x\\gt 6\\). Tính \\(A\\) tại \\(x=11\\).",
+   "options": [
+    "\\(5\\)",
+    "\\(-5\\)",
+    "\\(17\\)",
+    "\\(25\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(A=\\sqrt{(x-6)^2}=|x-6|=x-6\\) (because \\(x\\gt 6\\)); at \\(x=11\\): \\(A=5\\).",
+   "explain_vi": "Đáp án a. \\(A=\\sqrt{(x-6)^2}=|x-6|=x-6\\) (vì \\(x\\gt 6\\)); tại \\(x=11\\): \\(A=5\\).",
+   "images": [],
+   "id": "a6afff4ec84a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Compute \\(\\sqrt{#}\\).",
+   "en": "Compute \\(\\sqrt{100}\\).",
+   "vi": "Tính \\(\\sqrt{100}\\).",
+   "options": [
+    "\\(\\pm 10\\)",
+    "\\(50\\)",
+    "\\(-10\\)",
+    "\\(10\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\sqrt{100}\\) is the non-negative number whose square is \\(100\\): \\(10\\).",
+   "explain_vi": "Đáp án d. \\(\\sqrt{100}\\) là số <b class=\"mbl-term\" tabindex=\"0\" data-en=\"non-negative\">không âm</b> có bình phương bằng \\(100\\): \\(10\\).",
+   "images": [],
+   "id": "42f313c90520",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "For which \\(x\\) is \\(\\sqrt{-#x+#}\\) defined?",
+   "en": "For which \\(x\\) is \\(\\sqrt{-3x+12}\\) defined?",
+   "vi": "\\(\\sqrt{-3x+12}\\) xác định khi nào?",
+   "options": [
+    "\\(x\\lt 4\\)",
+    "\\(x\\le 4\\)",
+    "\\(x\\le -4\\)",
+    "\\(x\\ge 4\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. We need \\(-3x+12\\ge0\\), i.e. \\(x\\le 4\\).",
+   "explain_vi": "Đáp án b. Cần \\(-3x+12\\ge0\\), tức là \\(x\\le 4\\).",
+   "images": [],
+   "id": "3a18a7b18eb5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "The square roots of \\(#\\) are…",
+   "en": "The square roots of \\(196\\) are…",
+   "vi": "Các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"square root\">căn bậc hai</b> của \\(196\\) là…",
+   "options": [
+    "\\(98\\)",
+    "\\(-14\\)",
+    "\\(\\pm 14\\)",
+    "\\(14\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Both \\(14\\) and \\(-14\\) squared give \\(196\\): a positive number has two opposite square roots.",
+   "explain_vi": "Đáp án c. Cả \\(14\\) và \\(-14\\) bình phương đều bằng \\(196\\): số dương có hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"square root\">căn bậc hai</b> là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"opposite numbers\">hai số đối nhau</b>.",
+   "images": [],
+   "id": "d92fed2e1382",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "The expression \\(\\sqrt{#x+#}\\) is defined at \\(x=-#\\).",
+   "en": "The expression \\(\\sqrt{5x+13}\\) is defined at \\(x=-1\\).",
+   "vi": "Biểu thức \\(\\sqrt{5x+13}\\) xác định tại \\(x=-1\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. At \\(x=-1\\) the radicand is \\(8\\), which is non-negative.",
+   "explain_vi": "Đúng. Tại \\(x=-1\\), biểu thức dưới dấu căn bằng \\(8\\) (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"non-negative\">không âm</b>).",
+   "images": [],
+   "id": "c5b58eb69131",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(\\sqrt{(-#)^#}=-#\\).",
+   "en": "\\(\\sqrt{(-2)^2}=-2\\).",
+   "vi": "\\(\\sqrt{(-2)^2}=-2\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. \\(\\sqrt{A^2}=|A|\\), so \\(\\sqrt{(-2)^2}=|-2|=2\\).",
+   "explain_vi": "Sai. \\(\\sqrt{A^2}=|A|\\) nên \\(\\sqrt{(-2)^2}=|-2|=2\\).",
+   "images": [],
+   "id": "88c5c95aa081",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Compute \\(\\sqrt{#}+\\sqrt{#}\\).",
+   "en": "Compute \\(\\sqrt{289}+\\sqrt{49}\\).",
+   "vi": "Tính \\(\\sqrt{289}+\\sqrt{49}\\).",
+   "options": [],
+   "answer": "24",
+   "explain_en": "Answer: 24. \\(17+7=24\\).",
+   "explain_vi": "Đáp số: 24. \\(17+7=24\\).",
+   "images": [],
+   "id": "f22f1b2cfda0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Use a calculator to find \\(\\sqrt{#}\\), rounded to two decimal places.",
+   "en": "Use a calculator to find \\(\\sqrt{24}\\), rounded to two decimal places.",
+   "vi": "Dùng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"calculator\">máy tính cầm tay</b> tính \\(\\sqrt{24}\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"round to two decimal places\">làm tròn đến chữ số thập phân thứ hai</b>.",
+   "options": [],
+   "answer": "4.90",
+   "explain_en": "Answer: 4.90. \\(\\sqrt{24}\\approx 4.90\\).",
+   "explain_vi": "Đáp số: 4,90. \\(\\sqrt{24}\\approx 4{,}90\\).",
+   "images": [],
+   "id": "0b212f76ebeb",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Only one of these numbers has no square root. Which one?",
+   "en": "Only one of these numbers has no square root. Which one?",
+   "vi": "Chỉ có một số không có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"square root\">căn bậc hai</b>. Đó là số nào?",
+   "options": [
+    "\\(-32\\)",
+    "\\(0\\)",
+    "\\(23\\)",
+    "\\(40\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. A negative number has no square root.",
+   "explain_vi": "Đáp án a. Số âm không có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"square root\">căn bậc hai</b>.",
+   "images": [],
+   "id": "71c7e2ffc9d8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D1",
+   "type": "mcq",
+   "form": "What is the radicand of \\(#\\sqrt{#x-#}\\)?",
+   "en": "What is the radicand of \\(2\\sqrt{5x-4}\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"radicand\">Biểu thức lấy căn</b> của \\(2\\sqrt{5x-4}\\) là gì?",
+   "options": [
+    "\\(5x-4\\)",
+    "\\(2\\)",
+    "\\(2(5x-4)\\)",
+    "\\(\\sqrt{5x-4}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. The radicand is the expression under the root sign.",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radicand\">Biểu thức lấy căn</b> là biểu thức nằm dưới dấu căn.",
+   "images": [],
+   "id": "67d96ca7b787",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D1",
+   "type": "mcq",
+   "form": "\\(\\sqrt{#^#}\\) is equal to…",
+   "en": "\\(\\sqrt{13^2}\\) is equal to…",
+   "vi": "\\(\\sqrt{13^2}\\) bằng…",
+   "options": [
+    "\\(\\pm 13\\)",
+    "\\(-13\\)",
+    "\\(169\\)",
+    "\\(13\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\sqrt{a^2}=a\\) for \\(a\\ge0\\).",
+   "explain_vi": "Đáp án d. \\(\\sqrt{a^2}=a\\) với \\(a\\ge0\\).",
+   "images": [],
+   "id": "28f4d3ac0a57",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Compute \\(\\sqrt{(#-#)^#}\\).",
+   "en": "Compute \\(\\sqrt{(12-4)^2}\\).",
+   "vi": "Tính \\(\\sqrt{(12-4)^2}\\).",
+   "options": [
+    "\\(-8\\)",
+    "\\(8\\)",
+    "\\(64\\)",
+    "\\(16\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\sqrt{(12-4)^2}=|8|=8\\).",
+   "explain_vi": "Đáp án b. \\(\\sqrt{(12-4)^2}=|8|=8\\).",
+   "images": [],
+   "id": "c7083b7f9745",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D2",
+   "type": "mcq",
+   "form": "For which \\(x\\) is \\(\\sqrt{#-x}\\) defined?",
+   "en": "For which \\(x\\) is \\(\\sqrt{11-x}\\) defined?",
+   "vi": "Biểu thức \\(\\sqrt{11-x}\\) xác định khi nào?",
+   "options": [
+    "\\(x\\le -11\\)",
+    "\\(x\\lt 11\\)",
+    "\\(x\\ge 11\\)",
+    "\\(x\\le 11\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(11-x\\ge0\\Leftrightarrow x\\le 11\\).",
+   "explain_vi": "Đáp án d. \\(11-x\\ge0\\Leftrightarrow x\\le 11\\).",
+   "images": [],
+   "id": "8cfce1706414",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Solve \\(x^#=#\\).",
+   "en": "Solve \\(x^2=11\\).",
+   "vi": "Giải <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(x^2=11\\).",
+   "options": [
+    "\\(x=\\pm 121\\)",
+    "\\(x=\\pm\\sqrt{11}\\)",
+    "\\(x=\\sqrt{11}\\)",
+    "\\(x=\\dfrac{11}{2}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(x\\) is a square root of 11: \\(x=\\sqrt{11}\\) or \\(x=-\\sqrt{11}\\).",
+   "explain_vi": "Đáp án b. \\(x\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"square root\">căn bậc hai</b> của 11: \\(x=\\sqrt{11}\\) hoặc \\(x=-\\sqrt{11}\\).",
+   "images": [],
+   "id": "59c2bbcefe43",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Compare \\(#\\) and \\(\\sqrt{#}\\) without a calculator.",
+   "en": "Compare \\(9\\) and \\(\\sqrt{78}\\) without a calculator.",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"compare\">So sánh</b> \\(9\\) và \\(\\sqrt{78}\\) mà không dùng máy tính.",
+   "options": [
+    "\\(9\\gt \\sqrt{78}\\)",
+    "\\(9\\le\\sqrt{78}\\)",
+    "\\(9=\\sqrt{78}\\)",
+    "\\(9\\lt \\sqrt{78}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(9=\\sqrt{81}\\) and \\(81\\gt 78\\).",
+   "explain_vi": "Đáp án a. \\(9=\\sqrt{81}\\) và \\(81\\gt 78\\).",
+   "images": [],
+   "id": "63e8a463c4ac",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Find the value of \\(\\sqrt{#x+#}\\) at \\(x=#\\).",
+   "en": "Find the value of \\(\\sqrt{2x+5}\\) at \\(x=2\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"evaluate\">Tính giá trị</b> của \\(\\sqrt{2x+5}\\) tại \\(x=2\\).",
+   "options": [
+    "\\(4\\)",
+    "\\(9\\)",
+    "\\(3\\)",
+    "\\(-3\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The radicand equals \\(9\\), so the value is \\(\\sqrt{9}=3\\).",
+   "explain_vi": "Đáp án c. Biểu thức dưới dấu căn bằng \\(9\\) nên giá trị là \\(\\sqrt{9}=3\\).",
+   "images": [],
+   "id": "c6499105cc48",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Simplify \\(\\sqrt{(x-#)^#}\\) for \\(x\\gt #\\).",
+   "en": "Simplify \\(\\sqrt{(x-7)^2}\\) for \\(x\\gt 7\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"simplify\">Rút gọn</b> \\(\\sqrt{(x-7)^2}\\) với \\(x\\gt 7\\).",
+   "options": [
+    "\\(x+7\\)",
+    "\\((x-7)^2\\)",
+    "\\(x-7\\)",
+    "\\(7-x\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\sqrt{A^2}=|A|\\); here \\(x-7\\) is positive.",
+   "explain_vi": "Đáp án c. \\(\\sqrt{A^2}=|A|\\); ở đây \\(x-7\\) dương.",
+   "images": [],
+   "id": "79c6a43300e6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A square garden has an area of # m². How many meters of fence are needed to go around it?",
+   "en": "A square garden has an area of 841 m². How many meters of fence are needed to go around it?",
+   "vi": "Một mảnh vườn hình vuông có diện tích 841 m². Cần bao nhiêu mét <b class=\"mbl-term\" tabindex=\"0\" data-en=\"fence\">hàng rào</b> để rào quanh mảnh vườn?",
+   "options": [
+    "\\(116\\text{ m}\\)",
+    "\\(58\\text{ m}\\)",
+    "\\(29\\text{ m}\\)",
+    "\\(210\\text{ m}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Side \\(=\\sqrt{841}=29\\) m; perimeter \\(=4\\cdot29=116\\) m.",
+   "explain_vi": "Đáp án a. Cạnh \\(=\\sqrt{841}=29\\) m; chu vi \\(=4\\cdot29=116\\) m.",
+   "images": [],
+   "id": "df135d00a66b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D4",
+   "type": "mcq",
+   "form": "Compute \\(A=\\sqrt{(#+\\sqrt{#})^#}-\\sqrt{(#-\\sqrt{#})^#}\\) without a calculator.",
+   "en": "Compute \\(A=\\sqrt{(3+\\sqrt{11})^2}-\\sqrt{(3-\\sqrt{11})^2}\\) without a calculator.",
+   "vi": "Tính \\(A=\\sqrt{(3+\\sqrt{11})^2}-\\sqrt{(3-\\sqrt{11})^2}\\) mà không dùng máy tính.",
+   "options": [
+    "\\(0\\)",
+    "\\(6\\)",
+    "\\(-6\\)",
+    "\\(2\\sqrt{11}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(3-\\sqrt{11}\\lt0\\) because \\(9\\lt 11\\); so \\(A=(3+\\sqrt{11})-(\\sqrt{11}-3)=6\\).",
+   "explain_vi": "Đáp án b. \\(3-\\sqrt{11}\\lt0\\) vì \\(9\\lt 11\\); nên \\(A=(3+\\sqrt{11})-(\\sqrt{11}-3)=6\\).",
+   "images": [],
+   "id": "ada7b587cd19",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D4",
+   "type": "mcq",
+   "form": "Given \\(A=\\sqrt{x^#-#x+#}\\) with \\(x\\gt #\\). Find \\(A\\) at \\(x=#\\).",
+   "en": "Given \\(A=\\sqrt{x^2-8x+16}\\) with \\(x\\gt 4\\). Find \\(A\\) at \\(x=10\\).",
+   "vi": "Cho \\(A=\\sqrt{x^2-8x+16}\\) với \\(x\\gt 4\\). Tính \\(A\\) tại \\(x=10\\).",
+   "options": [
+    "\\(14\\)",
+    "\\(-6\\)",
+    "\\(6\\)",
+    "\\(36\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(A=\\sqrt{(x-4)^2}=|x-4|=x-4\\) (because \\(x\\gt 4\\)); at \\(x=10\\): \\(A=6\\).",
+   "explain_vi": "Đáp án c. \\(A=\\sqrt{(x-4)^2}=|x-4|=x-4\\) (vì \\(x\\gt 4\\)); tại \\(x=10\\): \\(A=6\\).",
+   "images": [],
+   "id": "242e0d611c76",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  }
+ ]
+}

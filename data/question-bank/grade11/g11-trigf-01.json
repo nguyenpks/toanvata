@@ -1,0 +1,1017 @@
+{
+ "lesson": "g11-trigf-01",
+ "grade": 11,
+ "no": 1,
+ "title": "Giá trị lượng giác của góc lượng giác",
+ "path": "lessons/grade11/trigonometric-functions/radians-and-trigonometric-functions.html",
+ "items": [
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Convert \\(#^\\circ\\) to radians.",
+   "en": "Convert \\(60^\\circ\\) to radians.",
+   "vi": "Đổi \\(60^\\circ\\) sang <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radian\">radian</b>.",
+   "options": [
+    "\\(\\dfrac{\\pi}{6}\\)",
+    "\\(\\dfrac{\\pi}{3}\\)",
+    "\\(\\dfrac{\\pi}{2}\\)",
+    "\\(\\dfrac{2\\pi}{3}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(60\\cdot\\dfrac{\\pi}{180}=\\dfrac{\\pi}{3}\\).",
+   "explain_vi": "Đáp án b. \\(60\\cdot\\dfrac{\\pi}{180}=\\dfrac{\\pi}{3}\\).",
+   "images": [],
+   "id": "cabff24105e0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "What is \\(\\cos\\pi\\)?",
+   "en": "What is \\(\\cos\\pi\\)?",
+   "vi": "\\(\\cos\\pi\\) bằng bao nhiêu?",
+   "options": [
+    "\\(0\\)",
+    "\\(1\\)",
+    "\\(-1\\)",
+    "\\(\\dfrac12\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. At angle \\(\\pi\\) the point is \\((-1;0)\\).",
+   "explain_vi": "Đáp án c. Tại góc \\(\\pi\\), điểm trên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> là \\((-1;0)\\).",
+   "images": [],
+   "id": "4ceb6f00c4a8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "What is \\(\\sin\\dfrac{\\pi}{#}\\)?",
+   "en": "What is \\(\\sin\\dfrac{\\pi}{6}\\)?",
+   "vi": "\\(\\sin\\dfrac{\\pi}{6}\\) bằng bao nhiêu?",
+   "options": [
+    "\\(\\dfrac{\\sqrt3}{2}\\)",
+    "\\(\\dfrac12\\)",
+    "\\(1\\)",
+    "\\(\\dfrac{\\sqrt2}{2}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\sin 30^\\circ=\\dfrac12\\).",
+   "explain_vi": "Đáp án b. \\(\\sin 30^\\circ=\\dfrac12\\).",
+   "images": [],
+   "id": "9fe0d51eab55",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "The angles \\(\\dfrac{\\pi}{#}\\) and \\(\\dfrac{#\\pi}{#}\\) have the same terminal side.",
+   "en": "The angles \\(\\dfrac{\\pi}{3}\\) and \\(\\dfrac{7\\pi}{3}\\) have the same terminal side.",
+   "vi": "Hai góc \\(\\dfrac{\\pi}{3}\\) và \\(\\dfrac{7\\pi}{3}\\) có cùng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"terminal side\">tia cuối</b>.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. \\(\\dfrac{7\\pi}{3}-\\dfrac{\\pi}{3}=2\\pi\\).",
+   "explain_vi": "Đúng. \\(\\dfrac{7\\pi}{3}-\\dfrac{\\pi}{3}=2\\pi\\).",
+   "images": [],
+   "id": "53979d497253",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(\\sin^#\\alpha+\\cos^#\\alpha=#\\) for every angle \\(\\alpha\\).",
+   "en": "\\(\\sin^2\\alpha+\\cos^2\\alpha=1\\) for every angle \\(\\alpha\\).",
+   "vi": "\\(\\sin^2\\alpha+\\cos^2\\alpha=1\\) với mọi góc \\(\\alpha\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. The point \\(P(\\cos\\alpha;\\sin\\alpha)\\) is on the trigonometric circle.",
+   "explain_vi": "Đúng. Điểm \\(P(\\cos\\alpha;\\sin\\alpha)\\) nằm trên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"trigonometric circle\">đường tròn lượng giác</b>.",
+   "images": [],
+   "id": "e1268588e7b8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "Given \\(\\cos\\alpha=#\\) and \\(\\dfrac{#\\pi}{#}\\lt\\alpha\\lt#\\pi\\). Find \\(\\sin\\alpha\\).",
+   "en": "Given \\(\\cos\\alpha=0.6\\) and \\(\\dfrac{3\\pi}{2}\\lt\\alpha\\lt2\\pi\\). Find \\(\\sin\\alpha\\).",
+   "vi": "Cho \\(\\cos\\alpha=0{,}6\\) và \\(\\dfrac{3\\pi}{2}\\lt\\alpha\\lt2\\pi\\). Tính \\(\\sin\\alpha\\).",
+   "options": [],
+   "answer": "-0.8|-4/5",
+   "explain_en": "Answer: \\(-0.8\\). \\(\\sin^2\\alpha=0.64\\) and sine is negative in quadrant IV.",
+   "explain_vi": "Đáp số: \\(-0{,}8\\). \\(\\sin^2\\alpha=0{,}64\\) và sin âm ở <b class=\"mbl-term\" tabindex=\"0\" data-en=\"quadrant\">góc phần tư</b> IV.",
+   "images": [],
+   "id": "a87f95127a6a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "On a circle of radius # cm, a central angle is # rad. Find the arc length in cm.",
+   "en": "On a circle of radius 3 cm, a central angle is 2 rad. Find the arc length in cm.",
+   "vi": "Trên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 3 cm, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"central angle\">góc ở tâm</b> là 2 rad. Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"arc length\">độ dài cung</b> (cm).",
+   "options": [],
+   "answer": "6",
+   "explain_en": "Answer: 6. \\(\\ell=R\\alpha=3\\cdot 2=6\\).",
+   "explain_vi": "Đáp số: 6. \\(\\ell=R\\alpha=3\\cdot 2=6\\).",
+   "images": [],
+   "id": "3c5f178fe780",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Given \\(\\dfrac{#\\pi}{#}\\lt\\alpha\\lt#\\pi\\). Which value is positive?",
+   "en": "Given \\(\\dfrac{3\\pi}{2}\\lt\\alpha\\lt2\\pi\\). Which value is positive?",
+   "vi": "Cho \\(\\dfrac{3\\pi}{2}\\lt\\alpha\\lt2\\pi\\). Giá trị nào dương?",
+   "options": [
+    "\\(\\tan\\alpha\\)",
+    "\\(\\sin\\alpha\\cos\\alpha\\)",
+    "\\(\\cos\\alpha\\)",
+    "\\(\\sin\\alpha\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\alpha\\) is in quadrant IV, so only \\(\\cos\\alpha\\gt0\\) among the options.",
+   "explain_vi": "Đáp án c. \\(\\alpha\\) thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"quadrant\">góc phần tư</b> IV nên trong các phương án chỉ có \\(\\cos\\alpha\\gt0\\).",
+   "images": [],
+   "id": "a699eb0744a2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Given \\(\\sin\\alpha+\\cos\\alpha=\\dfrac{#}{#}\\). Find \\(\\sin\\alpha\\cos\\alpha\\).",
+   "en": "Given \\(\\sin\\alpha+\\cos\\alpha=\\dfrac{2}{3}\\). Find \\(\\sin\\alpha\\cos\\alpha\\).",
+   "vi": "Cho \\(\\sin\\alpha+\\cos\\alpha=\\dfrac{2}{3}\\). Tính \\(\\sin\\alpha\\cos\\alpha\\).",
+   "options": [
+    "\\(-\\dfrac{5}{9}\\)",
+    "\\(\\dfrac{5}{18}\\)",
+    "\\(-\\dfrac{5}{18}\\)",
+    "\\(\\dfrac{2}{9}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Square both sides: \\(1+2\\sin\\alpha\\cos\\alpha=\\dfrac{4}{9}\\), so \\(\\sin\\alpha\\cos\\alpha=-\\dfrac{5}{18}\\).",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"square both sides\">Bình phương hai vế</b>: \\(1+2\\sin\\alpha\\cos\\alpha=\\dfrac{4}{9}\\) nên \\(\\sin\\alpha\\cos\\alpha=-\\dfrac{5}{18}\\).",
+   "images": [],
+   "id": "09bfcdd20877",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "How many points on the trigonometric circle represent the angles \\(\\alpha=\\dfrac{\\pi}{#}+\\dfrac{k\\pi}{#}\\) \\((k\\in\\mathbb Z)\\)?",
+   "en": "How many points on the trigonometric circle represent the angles \\(\\alpha=\\dfrac{\\pi}{12}+\\dfrac{k\\pi}{2}\\) \\((k\\in\\mathbb Z)\\)?",
+   "vi": "Có bao nhiêu điểm trên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"trigonometric circle\">đường tròn lượng giác</b> biểu diễn các góc \\(\\alpha=\\dfrac{\\pi}{12}+\\dfrac{k\\pi}{2}\\) \\((k\\in\\mathbb Z)\\)?",
+   "options": [
+    "\\(2\\)",
+    "\\(4\\)",
+    "\\(8\\)",
+    "\\(5\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Consecutive points differ by \\(\\dfrac{\\pi}{2}\\); a full turn \\(2\\pi\\) contains \\(4\\) such steps, so there are \\(4\\) points.",
+   "explain_vi": "Đáp án b. Hai điểm liên tiếp cách nhau một cung \\(\\dfrac{\\pi}{2}\\); một vòng \\(2\\pi\\) chứa \\(4\\) bước như vậy nên có \\(4\\) điểm.",
+   "images": [],
+   "id": "56b146d8f38e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "In the figure, \\(M\\) is a point on the trigonometric circle. Which number is a measure of the oriented angle \\((OA,OM)\\)?",
+   "en": "In the figure, \\(M\\) is a point on the trigonometric circle. Which number is a measure of the oriented angle \\((OA,OM)\\)?<img src=\"../../../img/tex/4a3426d727620a86.svg\" alt=\"Point M on the trigonometric circle\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Trong hình vẽ, \\(M\\) là một điểm trên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"trigonometric circle\">đường tròn lượng giác</b>. Số nào là một số đo của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"oriented angle\">góc lượng giác</b> \\((OA,OM)\\)?<img src=\"../../../img/tex/4a3426d727620a86.svg\" alt=\"Điểm M trên đường tròn lượng giác\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "\\(\\dfrac{5\\pi}{4}\\)",
+    "\\(\\dfrac{11\\pi}{4}\\)",
+    "\\(\\dfrac{15\\pi}{4}\\)",
+    "\\(\\dfrac{\\pi}{4}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(M\\) has coordinates \\(\\left(\\dfrac{\\sqrt2}{2};\\,-\\dfrac{\\sqrt2}{2}\\right)\\), so \\((OA,OM)=\\dfrac{7\\pi}{4}+k2\\pi\\); with \\(k=1\\) we get \\(\\dfrac{15\\pi}{4}\\).",
+   "explain_vi": "Đáp án c. \\(M\\) có tọa độ \\(\\left(\\dfrac{\\sqrt2}{2};\\,-\\dfrac{\\sqrt2}{2}\\right)\\) nên \\((OA,OM)=\\dfrac{7\\pi}{4}+k2\\pi\\); với \\(k=1\\) được \\(\\dfrac{15\\pi}{4}\\).",
+   "images": [
+    "img/tex/4a3426d727620a86.svg"
+   ],
+   "id": "093ad6d78320",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "In the figure, the points \\(M\\) and \\(N\\) on the trigonometric circle represent the angles \\(\\alpha\\) and \\(\\beta\\); they are symmetric with respect to the axis \\(Ox\\). Which equality is true?",
+   "en": "In the figure, the points \\(M\\) and \\(N\\) on the trigonometric circle represent the angles \\(\\alpha\\) and \\(\\beta\\); they are symmetric with respect to the axis \\(Ox\\). Which equality is true?<img src=\"../../../img/tex/49f2a2aac3caf56d.svg\" alt=\"Two symmetric points on the trigonometric circle\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Trong hình vẽ, hai điểm \\(M\\), \\(N\\) trên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"trigonometric circle\">đường tròn lượng giác</b> biểu diễn các góc \\(\\alpha\\), \\(\\beta\\) và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"symmetric about\">đối xứng nhau qua</b> trục \\(Ox\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"identity\">Đẳng thức</b> nào đúng?<img src=\"../../../img/tex/49f2a2aac3caf56d.svg\" alt=\"Hai điểm đối xứng trên đường tròn lượng giác\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "\\(\\sin\\beta=\\cos\\alpha\\)",
+    "\\(\\cos\\beta=\\cos\\alpha\\)",
+    "\\(\\sin\\beta=\\sin\\alpha\\)",
+    "\\(\\tan\\beta=\\tan\\alpha\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\beta=-\\alpha+k2\\pi\\), so the cosines are equal.",
+   "explain_vi": "Đáp án b. \\(\\beta=-\\alpha+k2\\pi\\) nên hai giá trị cos bằng nhau.",
+   "images": [
+    "img/tex/49f2a2aac3caf56d.svg"
+   ],
+   "id": "186d60c3722c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Simplify \\(A=\\cos\\left(\\dfrac{\\pi}{#}+\\alpha\\right)-\\sin(\\pi-\\alpha)\\).",
+   "en": "Simplify \\(A=\\cos\\left(\\dfrac{\\pi}{2}+\\alpha\\right)-\\sin(\\pi-\\alpha)\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"simplify an expression\">Rút gọn biểu thức</b> \\(A=\\cos\\left(\\dfrac{\\pi}{2}+\\alpha\\right)-\\sin(\\pi-\\alpha)\\).",
+   "options": [
+    "\\(2\\cos\\alpha\\)",
+    "\\(-2\\sin\\alpha\\)",
+    "\\(0\\)",
+    "\\(2\\sin\\alpha\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\cos\\left(\\dfrac{\\pi}{2}+\\alpha\\right)=-\\sin\\alpha\\), \\(\\sin(\\pi-\\alpha)=\\sin\\alpha\\), so \\(A=-2\\sin\\alpha\\).",
+   "explain_vi": "Đáp án b. \\(\\cos\\left(\\dfrac{\\pi}{2}+\\alpha\\right)=-\\sin\\alpha\\), \\(\\sin(\\pi-\\alpha)=\\sin\\alpha\\) nên \\(A=-2\\sin\\alpha\\).",
+   "images": [],
+   "id": "b5e2ea724705",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The minute hand of a clock is \\(#\\) cm long. In \\(#\\) minutes, how far does its tip travel?",
+   "en": "The minute hand of a clock is \\(10\\) cm long. In \\(40\\) minutes, how far does its tip travel?",
+   "vi": "Kim phút của một chiếc đồng hồ dài \\(10\\) cm. Trong \\(40\\) phút, đầu kim đi được quãng đường bao nhiêu?",
+   "options": [
+    "\\(\\dfrac{80\\pi}{3}\\ \\text{cm}\\)",
+    "\\(\\dfrac{20\\pi}{3}\\ \\text{cm}\\)",
+    "\\(\\dfrac{40\\pi}{3}\\ \\text{cm}\\)",
+    "\\(2400\\ \\text{cm}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. In \\(40\\) minutes the hand turns \\(\\dfrac{40}{60}\\cdot2\\pi=\\dfrac{4\\pi}{3}\\) rad, so \\(\\ell=10\\cdot\\dfrac{4\\pi}{3}=\\dfrac{40\\pi}{3}\\) cm.",
+   "explain_vi": "Đáp án c. Trong \\(40\\) phút kim quay \\(\\dfrac{40}{60}\\cdot2\\pi=\\dfrac{4\\pi}{3}\\) rad nên \\(\\ell=10\\cdot\\dfrac{4\\pi}{3}=\\dfrac{40\\pi}{3}\\) cm.",
+   "images": [],
+   "id": "27501d717efa",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The terminal side of the angle \\(\\alpha=-\\dfrac{#\\pi}{#}\\) lies in which quadrant?",
+   "en": "The terminal side of the angle \\(\\alpha=-\\dfrac{7\\pi}{6}\\) lies in which quadrant?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"terminal side\">Tia cuối</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"oriented angle\">góc lượng giác</b> \\(\\alpha=-\\dfrac{7\\pi}{6}\\) nằm ở <b class=\"mbl-term\" tabindex=\"0\" data-en=\"quadrant\">góc phần tư</b> nào?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">Quadrant III</span><span class=\"vi\">Góc phần tư III</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Quadrant IV</span><span class=\"vi\">Góc phần tư IV</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Quadrant I</span><span class=\"vi\">Góc phần tư I</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Quadrant II</span><span class=\"vi\">Góc phần tư II</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(-\\dfrac{7\\pi}{6}=\\dfrac{5\\pi}{6}-1\\cdot2\\pi\\), and \\(\\dfrac{5\\pi}{6}\\) is in quadrant II.",
+   "explain_vi": "Đáp án d. \\(-\\dfrac{7\\pi}{6}=\\dfrac{5\\pi}{6}-1\\cdot2\\pi\\), mà \\(\\dfrac{5\\pi}{6}\\) thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"quadrant\">góc phần tư</b> II.",
+   "images": [],
+   "id": "10561c4f9097",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Convert \\(#^\\circ\\) to radians.",
+   "en": "Convert \\(150^\\circ\\) to radians.",
+   "vi": "Đổi \\(150^\\circ\\) sang <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radian\">radian</b>.",
+   "options": [
+    "\\(\\dfrac{2\\pi}{3}\\)",
+    "\\(\\dfrac{3\\pi}{4}\\)",
+    "\\(\\dfrac{5\\pi}{6}\\)",
+    "\\(\\dfrac{\\pi}{6}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(150\\cdot\\dfrac{\\pi}{180}=\\dfrac{5\\pi}{6}\\).",
+   "explain_vi": "Đáp án c. \\(150\\cdot\\dfrac{\\pi}{180}=\\dfrac{5\\pi}{6}\\).",
+   "images": [],
+   "id": "b28ff95a24d2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "What is \\(\\cos\\dfrac{#\\pi}{#}\\)?",
+   "en": "What is \\(\\cos\\dfrac{2\\pi}{3}\\)?",
+   "vi": "\\(\\cos\\dfrac{2\\pi}{3}\\) bằng bao nhiêu?",
+   "options": [
+    "\\(\\dfrac12\\)",
+    "\\(-\\dfrac12\\)",
+    "\\(-\\dfrac{\\sqrt3}{2}\\)",
+    "\\(\\dfrac{\\sqrt3}{2}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\cos\\dfrac{2\\pi}{3}=\\cos\\left(\\pi-\\dfrac{\\pi}{3}\\right)=-\\dfrac12\\).",
+   "explain_vi": "Đáp án b. \\(\\cos\\dfrac{2\\pi}{3}=\\cos\\left(\\pi-\\dfrac{\\pi}{3}\\right)=-\\dfrac12\\).",
+   "images": [],
+   "id": "2719079a89ea",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "What is \\(\\sin\\dfrac{\\pi}{#}\\)?",
+   "en": "What is \\(\\sin\\dfrac{\\pi}{3}\\)?",
+   "vi": "\\(\\sin\\dfrac{\\pi}{3}\\) bằng bao nhiêu?",
+   "options": [
+    "\\(\\dfrac12\\)",
+    "\\(\\dfrac{\\sqrt2}{2}\\)",
+    "\\(\\dfrac{\\sqrt3}{2}\\)",
+    "\\(\\sqrt3\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\sin 60^\\circ=\\dfrac{\\sqrt3}{2}\\).",
+   "explain_vi": "Đáp án c. \\(\\sin 60^\\circ=\\dfrac{\\sqrt3}{2}\\).",
+   "images": [],
+   "id": "01f74227fe34",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "If \\(\\cos\\alpha=#\\) then \\(\\sin\\alpha=#\\).",
+   "en": "If \\(\\cos\\alpha=0.8\\) then \\(\\sin\\alpha=0.2\\).",
+   "vi": "Nếu \\(\\cos\\alpha=0{,}8\\) thì \\(\\sin\\alpha=0{,}2\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. \\(\\sin^2\\alpha=1-0.64=0.36\\), so \\(\\sin\\alpha=\\pm 0.6\\).",
+   "explain_vi": "Sai. \\(\\sin^2\\alpha=1-0{,}64=0{,}36\\) nên \\(\\sin\\alpha=\\pm 0{,}6\\).",
+   "images": [],
+   "id": "e6c8916dd7e9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "The angles \\(-\\dfrac{\\pi}{#}\\) and \\(\\dfrac{#\\pi}{#}\\) have the same terminal side.",
+   "en": "The angles \\(-\\dfrac{\\pi}{3}\\) and \\(\\dfrac{5\\pi}{3}\\) have the same terminal side.",
+   "vi": "Hai góc \\(-\\dfrac{\\pi}{3}\\) và \\(\\dfrac{5\\pi}{3}\\) có cùng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"terminal side\">tia cuối</b>.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. \\(\\dfrac{5\\pi}{3}-\\left(-\\dfrac{\\pi}{3}\\right)=2\\pi\\).",
+   "explain_vi": "Đúng. \\(\\dfrac{5\\pi}{3}-\\left(-\\dfrac{\\pi}{3}\\right)=2\\pi\\).",
+   "images": [],
+   "id": "9c51022215c7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "Given \\(\\sin\\alpha=#\\) and \\(\\dfrac{\\pi}{#}\\lt\\alpha\\lt\\pi\\). Find \\(\\cos\\alpha\\).",
+   "en": "Given \\(\\sin\\alpha=0.6\\) and \\(\\dfrac{\\pi}{2}\\lt\\alpha\\lt\\pi\\). Find \\(\\cos\\alpha\\).",
+   "vi": "Cho \\(\\sin\\alpha=0{,}6\\) và \\(\\dfrac{\\pi}{2}\\lt\\alpha\\lt\\pi\\). Tính \\(\\cos\\alpha\\).",
+   "options": [],
+   "answer": "-0.8|-4/5",
+   "explain_en": "Answer: \\(-0.8\\). \\(\\cos^2\\alpha=0.64\\) and cosine is negative in quadrant II.",
+   "explain_vi": "Đáp số: \\(-0{,}8\\). \\(\\cos^2\\alpha=0{,}64\\) và cos âm ở <b class=\"mbl-term\" tabindex=\"0\" data-en=\"quadrant\">góc phần tư</b> II.",
+   "images": [],
+   "id": "9e6ac2574f71",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "On a circle of radius # cm, a central angle is # rad. Find the arc length in cm.",
+   "en": "On a circle of radius 5 cm, a central angle is 1.2 rad. Find the arc length in cm.",
+   "vi": "Trên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 5 cm, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"central angle\">góc ở tâm</b> là 1,2 rad. Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"arc length\">độ dài cung</b> (cm).",
+   "options": [],
+   "answer": "6",
+   "explain_en": "Answer: 6. \\(\\ell=5\\cdot 1.2=6\\).",
+   "explain_vi": "Đáp số: 6. \\(\\ell=5\\cdot 1{,}2=6\\).",
+   "images": [],
+   "id": "72abcd2cf84a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Given \\(\\sin\\alpha+\\cos\\alpha=\\dfrac{#}{#}\\). Find \\(\\sin\\alpha\\cos\\alpha\\).",
+   "en": "Given \\(\\sin\\alpha+\\cos\\alpha=\\dfrac{7}{5}\\). Find \\(\\sin\\alpha\\cos\\alpha\\).",
+   "vi": "Cho \\(\\sin\\alpha+\\cos\\alpha=\\dfrac{7}{5}\\). Tính \\(\\sin\\alpha\\cos\\alpha\\).",
+   "options": [
+    "\\(-\\dfrac{12}{25}\\)",
+    "\\(\\dfrac{49}{50}\\)",
+    "\\(\\dfrac{24}{25}\\)",
+    "\\(\\dfrac{12}{25}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Square both sides: \\(1+2\\sin\\alpha\\cos\\alpha=\\dfrac{49}{25}\\), so \\(\\sin\\alpha\\cos\\alpha=\\dfrac{12}{25}\\).",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"square both sides\">Bình phương hai vế</b>: \\(1+2\\sin\\alpha\\cos\\alpha=\\dfrac{49}{25}\\) nên \\(\\sin\\alpha\\cos\\alpha=\\dfrac{12}{25}\\).",
+   "images": [],
+   "id": "2d4616fc2349",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "How many points on the trigonometric circle represent the angles \\(\\alpha=\\dfrac{\\pi}{#}+\\dfrac{k\\pi}{#}\\) \\((k\\in\\mathbb Z)\\)?",
+   "en": "How many points on the trigonometric circle represent the angles \\(\\alpha=\\dfrac{\\pi}{6}+\\dfrac{k\\pi}{3}\\) \\((k\\in\\mathbb Z)\\)?",
+   "vi": "Có bao nhiêu điểm trên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"trigonometric circle\">đường tròn lượng giác</b> biểu diễn các góc \\(\\alpha=\\dfrac{\\pi}{6}+\\dfrac{k\\pi}{3}\\) \\((k\\in\\mathbb Z)\\)?",
+   "options": [
+    "\\(3\\)",
+    "\\(7\\)",
+    "\\(12\\)",
+    "\\(6\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Consecutive points differ by \\(\\dfrac{\\pi}{3}\\); a full turn \\(2\\pi\\) contains \\(6\\) such steps, so there are \\(6\\) points.",
+   "explain_vi": "Đáp án d. Hai điểm liên tiếp cách nhau một cung \\(\\dfrac{\\pi}{3}\\); một vòng \\(2\\pi\\) chứa \\(6\\) bước như vậy nên có \\(6\\) điểm.",
+   "images": [],
+   "id": "b6fd98a1c832",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "In the figure, the points \\(M\\) and \\(N\\) on the trigonometric circle represent the angles \\(\\alpha\\) and \\(\\beta\\); they are symmetric with respect to the axis \\(Oy\\). Which equality is true?",
+   "en": "In the figure, the points \\(M\\) and \\(N\\) on the trigonometric circle represent the angles \\(\\alpha\\) and \\(\\beta\\); they are symmetric with respect to the axis \\(Oy\\). Which equality is true?<img src=\"../../../img/tex/b4c13ba05d36c182.svg\" alt=\"Two symmetric points on the trigonometric circle\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Trong hình vẽ, hai điểm \\(M\\), \\(N\\) trên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"trigonometric circle\">đường tròn lượng giác</b> biểu diễn các góc \\(\\alpha\\), \\(\\beta\\) và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"symmetric about\">đối xứng nhau qua</b> trục \\(Oy\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"identity\">Đẳng thức</b> nào đúng?<img src=\"../../../img/tex/b4c13ba05d36c182.svg\" alt=\"Hai điểm đối xứng trên đường tròn lượng giác\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "\\(\\sin\\beta=\\cos\\alpha\\)",
+    "\\(\\tan\\beta=\\tan\\alpha\\)",
+    "\\(\\sin\\beta=\\sin\\alpha\\)",
+    "\\(\\cos\\beta=\\cos\\alpha\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\beta=\\pi-\\alpha+k2\\pi\\), so the sines are equal.",
+   "explain_vi": "Đáp án c. \\(\\beta=\\pi-\\alpha+k2\\pi\\) nên hai giá trị sin bằng nhau.",
+   "images": [
+    "img/tex/b4c13ba05d36c182.svg"
+   ],
+   "id": "a043fd0ab5e1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Let \\(\\pi\\lt\\alpha\\lt\\dfrac{#\\pi}{#}\\). Which expression is positive?",
+   "en": "Let \\(\\pi\\lt\\alpha\\lt\\dfrac{3\\pi}{2}\\). Which expression is positive?",
+   "vi": "Cho góc \\(\\alpha\\) thỏa mãn \\(\\pi\\lt\\alpha\\lt\\dfrac{3\\pi}{2}\\). Biểu thức nào dương?",
+   "options": [
+    "\\(\\sin\\alpha\\)",
+    "\\(\\tan\\alpha\\)",
+    "\\(\\sin\\alpha+\\cos\\alpha\\)",
+    "\\(\\cos\\alpha\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\alpha\\) is in quadrant III, so only \\(\\tan\\alpha\\gt0\\) among the options.",
+   "explain_vi": "Đáp án b. \\(\\alpha\\) thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"quadrant\">góc phần tư</b> III nên trong các phương án chỉ có \\(\\tan\\alpha\\gt0\\).",
+   "images": [],
+   "id": "599ea8e0f5a8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Simplify \\(A=\\sin(\\pi+\\alpha)+\\cos\\left(\\dfrac{\\pi}{#}-\\alpha\\right)\\).",
+   "en": "Simplify \\(A=\\sin(\\pi+\\alpha)+\\cos\\left(\\dfrac{\\pi}{2}-\\alpha\\right)\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"simplify an expression\">Rút gọn biểu thức</b> \\(A=\\sin(\\pi+\\alpha)+\\cos\\left(\\dfrac{\\pi}{2}-\\alpha\\right)\\).",
+   "options": [
+    "\\(0\\)",
+    "\\(2\\sin\\alpha\\)",
+    "\\(-2\\sin\\alpha\\)",
+    "\\(2\\cos\\alpha\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\sin(\\pi+\\alpha)=-\\sin\\alpha\\), \\(\\cos\\left(\\dfrac{\\pi}{2}-\\alpha\\right)=\\sin\\alpha\\), so \\(A=0\\).",
+   "explain_vi": "Đáp án a. \\(\\sin(\\pi+\\alpha)=-\\sin\\alpha\\), \\(\\cos\\left(\\dfrac{\\pi}{2}-\\alpha\\right)=\\sin\\alpha\\) nên \\(A=0\\).",
+   "images": [],
+   "id": "1b3566985c82",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The minute hand of a clock is \\(#\\) cm long. In \\(#\\) minutes, how far does its tip travel?",
+   "en": "The minute hand of a clock is \\(10\\) cm long. In \\(20\\) minutes, how far does its tip travel?",
+   "vi": "Kim phút của một chiếc đồng hồ dài \\(10\\) cm. Trong \\(20\\) phút, đầu kim đi được quãng đường bao nhiêu?",
+   "options": [
+    "\\(\\dfrac{20\\pi}{3}\\ \\text{cm}\\)",
+    "\\(\\dfrac{40\\pi}{3}\\ \\text{cm}\\)",
+    "\\(\\dfrac{10\\pi}{3}\\ \\text{cm}\\)",
+    "\\(1200\\ \\text{cm}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. In \\(20\\) minutes the hand turns \\(\\dfrac{20}{60}\\cdot2\\pi=\\dfrac{2\\pi}{3}\\) rad, so \\(\\ell=10\\cdot\\dfrac{2\\pi}{3}=\\dfrac{20\\pi}{3}\\) cm.",
+   "explain_vi": "Đáp án a. Trong \\(20\\) phút kim quay \\(\\dfrac{20}{60}\\cdot2\\pi=\\dfrac{2\\pi}{3}\\) rad nên \\(\\ell=10\\cdot\\dfrac{2\\pi}{3}=\\dfrac{20\\pi}{3}\\) cm.",
+   "images": [],
+   "id": "aba9d9c12504",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The point \\(M\\) in the figure lies on the trigonometric circle. Which value can be a measure of the angle \\((OA,OM)\\)?",
+   "en": "The point \\(M\\) in the figure lies on the trigonometric circle. Which value can be a measure of the angle \\((OA,OM)\\)?<img src=\"../../../img/tex/8e8a400d7d6705d9.svg\" alt=\"Point M on the trigonometric circle\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Điểm \\(M\\) trong hình nằm trên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"trigonometric circle\">đường tròn lượng giác</b>. Giá trị nào có thể là số đo của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"oriented angle\">góc lượng giác</b> \\((OA,OM)\\)?<img src=\"../../../img/tex/8e8a400d7d6705d9.svg\" alt=\"Điểm M trên đường tròn lượng giác\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "\\(\\dfrac{14\\pi}{3}\\)",
+    "\\(-\\dfrac{\\pi}{3}\\)",
+    "\\(-\\dfrac{2\\pi}{3}\\)",
+    "\\(-\\dfrac{5\\pi}{3}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(M\\) has coordinates \\(\\left(\\dfrac12;\\,-\\dfrac{\\sqrt3}{2}\\right)\\), so \\((OA,OM)=\\dfrac{5\\pi}{3}+k2\\pi\\); with \\(k=-1\\) we get \\(-\\dfrac{\\pi}{3}\\).",
+   "explain_vi": "Đáp án b. \\(M\\) có tọa độ \\(\\left(\\dfrac12;\\,-\\dfrac{\\sqrt3}{2}\\right)\\) nên \\((OA,OM)=\\dfrac{5\\pi}{3}+k2\\pi\\); với \\(k=-1\\) được \\(-\\dfrac{\\pi}{3}\\).",
+   "images": [
+    "img/tex/8e8a400d7d6705d9.svg"
+   ],
+   "id": "c270cef9c17a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The terminal side of the angle \\(\\alpha=-\\dfrac{#\\pi}{#}\\) lies in which quadrant?",
+   "en": "The terminal side of the angle \\(\\alpha=-\\dfrac{19\\pi}{6}\\) lies in which quadrant?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"terminal side\">Tia cuối</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"oriented angle\">góc lượng giác</b> \\(\\alpha=-\\dfrac{19\\pi}{6}\\) nằm ở <b class=\"mbl-term\" tabindex=\"0\" data-en=\"quadrant\">góc phần tư</b> nào?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">Quadrant III</span><span class=\"vi\">Góc phần tư III</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Quadrant II</span><span class=\"vi\">Góc phần tư II</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Quadrant IV</span><span class=\"vi\">Góc phần tư IV</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Quadrant I</span><span class=\"vi\">Góc phần tư I</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(-\\dfrac{19\\pi}{6}=\\dfrac{5\\pi}{6}-2\\cdot2\\pi\\), and \\(\\dfrac{5\\pi}{6}\\) is in quadrant II.",
+   "explain_vi": "Đáp án b. \\(-\\dfrac{19\\pi}{6}=\\dfrac{5\\pi}{6}-2\\cdot2\\pi\\), mà \\(\\dfrac{5\\pi}{6}\\) thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"quadrant\">góc phần tư</b> II.",
+   "images": [],
+   "id": "ccea2c8c6103",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Convert \\(\\dfrac{#\\pi}{#}\\) rad to degrees.",
+   "en": "Convert \\(\\dfrac{3\\pi}{4}\\) rad to degrees.",
+   "vi": "Đổi \\(\\dfrac{3\\pi}{4}\\) rad sang độ.",
+   "options": [
+    "\\(120^\\circ\\)",
+    "\\(135^\\circ\\)",
+    "\\(150^\\circ\\)",
+    "\\(45^\\circ\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\dfrac{3\\pi}{4}\\cdot\\dfrac{180}{\\pi}=135\\).",
+   "explain_vi": "Đáp án b. \\(\\dfrac{3\\pi}{4}\\cdot\\dfrac{180}{\\pi}=135\\).",
+   "images": [],
+   "id": "f7fa80468fcb",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "What is \\(\\sin\\left(-\\dfrac{\\pi}{#}\\right)\\)?",
+   "en": "What is \\(\\sin\\left(-\\dfrac{\\pi}{6}\\right)\\)?",
+   "vi": "\\(\\sin\\left(-\\dfrac{\\pi}{6}\\right)\\) bằng bao nhiêu?",
+   "options": [
+    "\\(\\dfrac12\\)",
+    "\\(-\\dfrac12\\)",
+    "\\(-\\dfrac{\\sqrt3}{2}\\)",
+    "\\(0\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\sin(-\\alpha)=-\\sin\\alpha\\), so the value is \\(-\\dfrac12\\).",
+   "explain_vi": "Đáp án b. \\(\\sin(-\\alpha)=-\\sin\\alpha\\) nên giá trị là \\(-\\dfrac12\\).",
+   "images": [],
+   "id": "1ee8b2ed7959",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "What is \\(\\tan\\dfrac{\\pi}{#}\\)?",
+   "en": "What is \\(\\tan\\dfrac{\\pi}{4}\\)?",
+   "vi": "\\(\\tan\\dfrac{\\pi}{4}\\) bằng bao nhiêu?",
+   "options": [
+    "\\(0\\)",
+    "\\(1\\)",
+    "\\(\\sqrt3\\)",
+    "\\(\\dfrac{\\sqrt3}{3}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\sin\\dfrac{\\pi}{4}=\\cos\\dfrac{\\pi}{4}\\), so the quotient is 1.",
+   "explain_vi": "Đáp án b. \\(\\sin\\dfrac{\\pi}{4}=\\cos\\dfrac{\\pi}{4}\\) nên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"quotient\">thương</b> bằng 1.",
+   "images": [],
+   "id": "c8cc7474adb0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "If \\(\\cos\\alpha=#\\), then \\(\\sin\\alpha=\\pm #\\).",
+   "en": "If \\(\\cos\\alpha=0.6\\), then \\(\\sin\\alpha=\\pm 0.8\\).",
+   "vi": "Nếu \\(\\cos\\alpha=0{,}6\\) thì \\(\\sin\\alpha=\\pm 0{,}8\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. \\(\\sin^2\\alpha=1-0.36=0.64\\).",
+   "explain_vi": "Đúng. \\(\\sin^2\\alpha=1-0{,}36=0{,}64\\).",
+   "images": [],
+   "id": "d1f51989e264",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "The angles \\(\\dfrac{\\pi}{#}\\) and \\(\\dfrac{#\\pi}{#}\\) have the same terminal side.",
+   "en": "The angles \\(\\dfrac{\\pi}{6}\\) and \\(\\dfrac{7\\pi}{6}\\) have the same terminal side.",
+   "vi": "Hai góc \\(\\dfrac{\\pi}{6}\\) và \\(\\dfrac{7\\pi}{6}\\) có cùng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"terminal side\">tia cuối</b>.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. Their difference is \\(\\pi\\), not a multiple of \\(2\\pi\\).",
+   "explain_vi": "Sai. Hiệu của chúng là \\(\\pi\\), không phải bội của \\(2\\pi\\).",
+   "images": [],
+   "id": "3563ebedc02a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Given \\(\\cos\\alpha=-#\\) and \\(\\pi\\lt\\alpha\\lt\\dfrac{#\\pi}{#}\\). Find \\(\\sin\\alpha\\).",
+   "en": "Given \\(\\cos\\alpha=-0.6\\) and \\(\\pi\\lt\\alpha\\lt\\dfrac{3\\pi}{2}\\). Find \\(\\sin\\alpha\\).",
+   "vi": "Cho \\(\\cos\\alpha=-0{,}6\\) và \\(\\pi\\lt\\alpha\\lt\\dfrac{3\\pi}{2}\\). Tính \\(\\sin\\alpha\\).",
+   "options": [],
+   "answer": "-0.8|-4/5",
+   "explain_en": "Answer: \\(-0.8\\). \\(\\sin^2\\alpha=0.64\\) and sine is negative in quadrant III.",
+   "explain_vi": "Đáp số: \\(-0{,}8\\). \\(\\sin^2\\alpha=0{,}64\\) và sin âm ở <b class=\"mbl-term\" tabindex=\"0\" data-en=\"quadrant\">góc phần tư</b> III.",
+   "images": [],
+   "id": "e437debc0b37",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "On a circle of radius # cm, a central angle is # rad. Find the arc length in cm.",
+   "en": "On a circle of radius 2.5 cm, a central angle is 4 rad. Find the arc length in cm.",
+   "vi": "Trên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 2,5 cm, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"central angle\">góc ở tâm</b> là 4 rad. Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"arc length\">độ dài cung</b> (cm).",
+   "options": [],
+   "answer": "10",
+   "explain_en": "Answer: 10. \\(\\ell=2.5\\cdot 4=10\\).",
+   "explain_vi": "Đáp số: 10. \\(\\ell=2{,}5\\cdot 4=10\\).",
+   "images": [],
+   "id": "9522e485dcad",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Given \\(\\sin\\alpha+\\cos\\alpha=-\\dfrac{#}{#}\\). Find \\(\\sin\\alpha\\cos\\alpha\\).",
+   "en": "Given \\(\\sin\\alpha+\\cos\\alpha=-\\dfrac{1}{3}\\). Find \\(\\sin\\alpha\\cos\\alpha\\).",
+   "vi": "Cho \\(\\sin\\alpha+\\cos\\alpha=-\\dfrac{1}{3}\\). Tính \\(\\sin\\alpha\\cos\\alpha\\).",
+   "options": [
+    "\\(\\dfrac{4}{9}\\)",
+    "\\(-\\dfrac{4}{9}\\)",
+    "\\(-\\dfrac{8}{9}\\)",
+    "\\(\\dfrac{1}{18}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Square both sides: \\(1+2\\sin\\alpha\\cos\\alpha=\\dfrac{1}{9}\\), so \\(\\sin\\alpha\\cos\\alpha=-\\dfrac{4}{9}\\).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"square both sides\">Bình phương hai vế</b>: \\(1+2\\sin\\alpha\\cos\\alpha=\\dfrac{1}{9}\\) nên \\(\\sin\\alpha\\cos\\alpha=-\\dfrac{4}{9}\\).",
+   "images": [],
+   "id": "16f5d08e572c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "How many points on the trigonometric circle represent the angles \\(\\alpha=\\dfrac{\\pi}{#}+\\dfrac{k\\pi}{#}\\) \\((k\\in\\mathbb Z)\\)?",
+   "en": "How many points on the trigonometric circle represent the angles \\(\\alpha=\\dfrac{\\pi}{3}+\\dfrac{k\\pi}{3}\\) \\((k\\in\\mathbb Z)\\)?",
+   "vi": "Có bao nhiêu điểm trên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"trigonometric circle\">đường tròn lượng giác</b> biểu diễn các góc \\(\\alpha=\\dfrac{\\pi}{3}+\\dfrac{k\\pi}{3}\\) \\((k\\in\\mathbb Z)\\)?",
+   "options": [
+    "\\(12\\)",
+    "\\(7\\)",
+    "\\(6\\)",
+    "\\(3\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Consecutive points differ by \\(\\dfrac{\\pi}{3}\\); a full turn \\(2\\pi\\) contains \\(6\\) such steps, so there are \\(6\\) points.",
+   "explain_vi": "Đáp án c. Hai điểm liên tiếp cách nhau một cung \\(\\dfrac{\\pi}{3}\\); một vòng \\(2\\pi\\) chứa \\(6\\) bước như vậy nên có \\(6\\) điểm.",
+   "images": [],
+   "id": "ba7295139436",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "In the figure, the points \\(M\\) and \\(N\\) on the trigonometric circle represent the angles \\(\\alpha\\) and \\(\\beta\\); they are symmetric with respect to the origin \\(O\\). Which equality is true?",
+   "en": "In the figure, the points \\(M\\) and \\(N\\) on the trigonometric circle represent the angles \\(\\alpha\\) and \\(\\beta\\); they are symmetric with respect to the origin \\(O\\). Which equality is true?<img src=\"../../../img/tex/12cbafa595a82e20.svg\" alt=\"Two symmetric points on the trigonometric circle\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Trong hình vẽ, hai điểm \\(M\\), \\(N\\) trên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"trigonometric circle\">đường tròn lượng giác</b> biểu diễn các góc \\(\\alpha\\), \\(\\beta\\) và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"symmetric about\">đối xứng nhau qua</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"origin\">gốc tọa độ</b> \\(O\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"identity\">Đẳng thức</b> nào đúng?<img src=\"../../../img/tex/12cbafa595a82e20.svg\" alt=\"Hai điểm đối xứng trên đường tròn lượng giác\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "\\(\\sin\\beta=\\cos\\alpha\\)",
+    "\\(\\tan\\beta=\\tan\\alpha\\)",
+    "\\(\\cos\\beta=\\cos\\alpha\\)",
+    "\\(\\sin\\beta=\\sin\\alpha\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\beta=\\pi+\\alpha+k2\\pi\\), so the tangents are equal.",
+   "explain_vi": "Đáp án b. \\(\\beta=\\pi+\\alpha+k2\\pi\\) nên hai giá trị tan bằng nhau.",
+   "images": [
+    "img/tex/12cbafa595a82e20.svg"
+   ],
+   "id": "0ce74b85522e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Look at the point \\(M\\) on the trigonometric circle in the figure. Choose a measure of the oriented angle \\((OA,OM)\\).",
+   "en": "Look at the point \\(M\\) on the trigonometric circle in the figure. Choose a measure of the oriented angle \\((OA,OM)\\).<img src=\"../../../img/tex/c198118001d94143.svg\" alt=\"Point M on the trigonometric circle\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Quan sát điểm \\(M\\) trên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"trigonometric circle\">đường tròn lượng giác</b> trong hình. Chọn một số đo của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"oriented angle\">góc lượng giác</b> \\((OA,OM)\\).<img src=\"../../../img/tex/c198118001d94143.svg\" alt=\"Điểm M trên đường tròn lượng giác\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "\\(\\dfrac{13\\pi}{6}\\)",
+    "\\(\\dfrac{5\\pi}{6}\\)",
+    "\\(-\\dfrac{\\pi}{6}\\)",
+    "\\(-\\dfrac{5\\pi}{6}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(M\\) has coordinates \\(\\left(-\\dfrac{\\sqrt3}{2};\\,-\\dfrac12\\right)\\), so \\((OA,OM)=\\dfrac{7\\pi}{6}+k2\\pi\\); with \\(k=-1\\) we get \\(-\\dfrac{5\\pi}{6}\\).",
+   "explain_vi": "Đáp án d. \\(M\\) có tọa độ \\(\\left(-\\dfrac{\\sqrt3}{2};\\,-\\dfrac12\\right)\\) nên \\((OA,OM)=\\dfrac{7\\pi}{6}+k2\\pi\\); với \\(k=-1\\) được \\(-\\dfrac{5\\pi}{6}\\).",
+   "images": [
+    "img/tex/c198118001d94143.svg"
+   ],
+   "id": "d7aa9047e7f2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Simplify \\(A=\\sin(\\pi-\\alpha)-\\sin(\\pi+\\alpha)\\).",
+   "en": "Simplify \\(A=\\sin(\\pi-\\alpha)-\\sin(\\pi+\\alpha)\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"simplify an expression\">Rút gọn biểu thức</b> \\(A=\\sin(\\pi-\\alpha)-\\sin(\\pi+\\alpha)\\).",
+   "options": [
+    "\\(0\\)",
+    "\\(2\\cos\\alpha\\)",
+    "\\(-2\\sin\\alpha\\)",
+    "\\(2\\sin\\alpha\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\sin(\\pi-\\alpha)=\\sin\\alpha\\), \\(\\sin(\\pi+\\alpha)=-\\sin\\alpha\\), so \\(A=2\\sin\\alpha\\).",
+   "explain_vi": "Đáp án d. \\(\\sin(\\pi-\\alpha)=\\sin\\alpha\\), \\(\\sin(\\pi+\\alpha)=-\\sin\\alpha\\) nên \\(A=2\\sin\\alpha\\).",
+   "images": [],
+   "id": "ca2cb60278bf",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Suppose \\(\\dfrac{\\pi}{#}\\lt\\alpha\\lt\\pi\\). Which of these is greater than #?",
+   "en": "Suppose \\(\\dfrac{\\pi}{2}\\lt\\alpha\\lt\\pi\\). Which of these is greater than 0?",
+   "vi": "Giả sử \\(\\dfrac{\\pi}{2}\\lt\\alpha\\lt\\pi\\). Giá trị nào lớn hơn 0?",
+   "options": [
+    "\\(\\tan\\alpha\\)",
+    "\\(\\cos\\alpha\\)",
+    "\\(\\cot\\alpha\\)",
+    "\\(\\sin\\alpha\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\alpha\\) is in quadrant II, so only \\(\\sin\\alpha\\gt0\\) among the options.",
+   "explain_vi": "Đáp án d. \\(\\alpha\\) thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"quadrant\">góc phần tư</b> II nên trong các phương án chỉ có \\(\\sin\\alpha\\gt0\\).",
+   "images": [],
+   "id": "3870d80578d9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The minute hand of a clock is \\(#\\) cm long. In \\(#\\) minutes, how far does its tip travel?",
+   "en": "The minute hand of a clock is \\(9\\) cm long. In \\(15\\) minutes, how far does its tip travel?",
+   "vi": "Kim phút của một chiếc đồng hồ dài \\(9\\) cm. Trong \\(15\\) phút, đầu kim đi được quãng đường bao nhiêu?",
+   "options": [
+    "\\(\\dfrac{9\\pi}{2}\\ \\text{cm}\\)",
+    "\\(9\\pi\\ \\text{cm}\\)",
+    "\\(\\dfrac{9\\pi}{4}\\ \\text{cm}\\)",
+    "\\(810\\ \\text{cm}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. In \\(15\\) minutes the hand turns \\(\\dfrac{15}{60}\\cdot2\\pi=\\dfrac{\\pi}{2}\\) rad, so \\(\\ell=9\\cdot\\dfrac{\\pi}{2}=\\dfrac{9\\pi}{2}\\) cm.",
+   "explain_vi": "Đáp án a. Trong \\(15\\) phút kim quay \\(\\dfrac{15}{60}\\cdot2\\pi=\\dfrac{\\pi}{2}\\) rad nên \\(\\ell=9\\cdot\\dfrac{\\pi}{2}=\\dfrac{9\\pi}{2}\\) cm.",
+   "images": [],
+   "id": "8738e58fc0d5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The terminal side of the angle \\(\\alpha=-\\dfrac{#\\pi}{#}\\) lies in which quadrant?",
+   "en": "The terminal side of the angle \\(\\alpha=-\\dfrac{3\\pi}{4}\\) lies in which quadrant?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"terminal side\">Tia cuối</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"oriented angle\">góc lượng giác</b> \\(\\alpha=-\\dfrac{3\\pi}{4}\\) nằm ở <b class=\"mbl-term\" tabindex=\"0\" data-en=\"quadrant\">góc phần tư</b> nào?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">Quadrant IV</span><span class=\"vi\">Góc phần tư IV</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Quadrant III</span><span class=\"vi\">Góc phần tư III</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Quadrant II</span><span class=\"vi\">Góc phần tư II</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Quadrant I</span><span class=\"vi\">Góc phần tư I</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(-\\dfrac{3\\pi}{4}=\\dfrac{5\\pi}{4}-1\\cdot2\\pi\\), and \\(\\dfrac{5\\pi}{4}\\) is in quadrant III.",
+   "explain_vi": "Đáp án b. \\(-\\dfrac{3\\pi}{4}=\\dfrac{5\\pi}{4}-1\\cdot2\\pi\\), mà \\(\\dfrac{5\\pi}{4}\\) thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"quadrant\">góc phần tư</b> III.",
+   "images": [],
+   "id": "d6c51e9f2950",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  }
+ ]
+}

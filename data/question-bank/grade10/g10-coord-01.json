@@ -1,0 +1,1029 @@
+{
+ "lesson": "g10-coord-01",
+ "grade": 10,
+ "no": 19,
+ "title": "Phương trình đường thẳng",
+ "path": "lessons/grade10/plane-coordinates/line-equations.html",
+ "items": [
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "A normal vector of \\(#x-#y+#=#\\) is…",
+   "en": "A normal vector of \\(3x-2y+5=0\\) is…",
+   "vi": "Một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"normal vector of a line\">vectơ pháp tuyến của đường thẳng</b> \\(3x-2y+5=0\\) là…",
+   "options": [
+    "\\(\\vec n=(-2;\\,-3)\\)",
+    "\\(\\vec n=(3;\\,5)\\)",
+    "\\(\\vec n=(6;\\,-4)\\)",
+    "\\(\\vec n=(2;\\,3)\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\vec n=(a;b)=(3;\\,-2)\\) or a multiple.",
+   "explain_vi": "Đáp án c. \\(\\vec n=(a;b)=(3;\\,-2)\\) hoặc bội khác 0.",
+   "images": [],
+   "id": "78be71255e66",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "The line through \\(A(#;\\,#)\\) and \\(B(#;\\,#)\\) is…",
+   "en": "The line through \\(A(1;\\,1)\\) and \\(B(3;\\,5)\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">Đường thẳng</b> qua \\(A(1;\\,1)\\) và \\(B(3;\\,5)\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b>…",
+   "options": [
+    "\\(x+2y-3=0\\)",
+    "\\(2x-y+1=0\\)",
+    "\\(2x-y-1=0\\)",
+    "\\(x-2y=0\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\overrightarrow{AB}=(2;\\,4)\\Rightarrow\\vec n=(4;\\,-2)\\).",
+   "explain_vi": "Đáp án c. \\(\\overrightarrow{AB}=(2;\\,4)\\Rightarrow\\vec n=(4;\\,-2)\\).",
+   "images": [],
+   "id": "e136b4187724",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "The slope of the line through \\(A(#;\\,#)\\) and \\(B(#;\\,#)\\) is…",
+   "en": "The slope of the line through \\(A(0;\\,1)\\) and \\(B(2;\\,7)\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"slope\">Hệ số góc</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> qua \\(A(0;\\,1)\\) và \\(B(2;\\,7)\\) là…",
+   "options": [
+    "\\(\\dfrac{1}{3}\\)",
+    "\\(-3\\)",
+    "\\(3\\)",
+    "\\(-\\dfrac{1}{3}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(k=\\dfrac{y_B-y_A}{x_B-x_A}\\).",
+   "explain_vi": "Đáp án c. \\(k=\\dfrac{y_B-y_A}{x_B-x_A}\\).",
+   "images": [],
+   "id": "abc75024ff00",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "The point \\((#;\\,#)\\) lies on \\(\\begin{cases}x=#+#t\\\\y=#-t\\end{cases}\\).",
+   "en": "The point \\((5;\\,0)\\) lies on \\(\\begin{cases}x=1+2t\\\\y=2-t\\end{cases}\\).",
+   "vi": "Điểm \\((5;\\,0)\\) thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(\\begin{cases}x=1+2t\\\\y=2-t\\end{cases}\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "From \\(x\\): \\(t=2\\); then \\(y=0\\).",
+   "explain_vi": "Từ \\(x\\): \\(t=2\\); khi đó \\(y=0\\).",
+   "images": [],
+   "id": "7ac259b14ec0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(\\vec u=(#;\\,#)\\) is a direction vector of \\(#x-y+#=#\\).",
+   "en": "\\(\\vec u=(1;\\,2)\\) is a direction vector of \\(2x-y+3=0\\).",
+   "vi": "\\(\\vec u=(1;\\,2)\\) là một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"direction vector\">vectơ chỉ phương</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(2x-y+3=0\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "\\(\\vec n\\cdot\\vec u=0\\).",
+   "explain_vi": "\\(\\vec n\\cdot\\vec u=0\\).",
+   "images": [],
+   "id": "7bc09e57a9d7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "A fare \\(y\\) (thousand VND) is linear in the distance \\(x\\) (km): # km costs #, # km costs #. Find the fare for # km.",
+   "en": "A fare \\(y\\) (thousand VND) is linear in the distance \\(x\\) (km): 2 km costs 26, 6 km costs 58. Find the fare for 10 km.",
+   "vi": "Cước \\(y\\) (nghìn đồng) phụ thuộc bậc nhất vào quãng đường \\(x\\) (km): đi 2 km hết 26, đi 6 km hết 58. Tính tiền đi 10 km.",
+   "options": [],
+   "answer": "90",
+   "explain_en": "\\(y=8x+10\\).",
+   "explain_vi": "\\(y=8x+10\\), \\(x=10\\Rightarrow y=90\\).",
+   "images": [],
+   "id": "7395e4ed9edf",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "The line through \\(M(#;\\,#)\\) with normal vector \\(\\vec n=(#;\\,#)\\) is \\(#x+#y+c=#\\). Find \\(c\\).",
+   "en": "The line through \\(M(1;\\,2)\\) with normal vector \\(\\vec n=(2;\\,3)\\) is \\(2x+3y+c=0\\). Find \\(c\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">Đường thẳng</b> qua \\(M(1;\\,2)\\), có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"normal vector\">vectơ pháp tuyến</b> \\(\\vec n=(2;\\,3)\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(2x+3y+c=0\\). Tìm \\(c\\).",
+   "options": [],
+   "answer": "-8",
+   "explain_en": "\\(c=-(2\\cdot1+3\\cdot2)=-8\\).",
+   "explain_vi": "\\(c=-(2\\cdot1+3\\cdot2)=-8\\).",
+   "images": [],
+   "id": "03e015df9e1b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "A direction vector of \\(x-#y-#=#\\) is…",
+   "en": "A direction vector of \\(x-2y-2=0\\) is…",
+   "vi": "Một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"direction vector\">vectơ chỉ phương</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(x-2y-2=0\\) là…",
+   "options": [
+    "\\(\\vec u=(1;\\,-2)\\)",
+    "\\(\\vec u=(-2;\\,-1)\\)",
+    "\\(\\vec u=(-2;\\,1)\\)",
+    "\\(\\vec u=(1;\\,2)\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\vec u=(b;-a)\\perp\\vec n=(a;b)\\).",
+   "explain_vi": "Đáp án b. \\(\\vec u=(b;-a)\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"perpendicular\">vuông góc</b> với \\(\\vec n=(a;b)\\).",
+   "images": [],
+   "id": "ec20c6321cae",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "A normal vector of \\(x+#y-#=#\\) is…",
+   "en": "A normal vector of \\(x+3y-3=0\\) is…",
+   "vi": "Một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"normal vector of a line\">vectơ pháp tuyến của đường thẳng</b> \\(x+3y-3=0\\) là…",
+   "options": [
+    "\\(\\vec n=(3;\\,-1)\\)",
+    "\\(\\vec n=(1;\\,-3)\\)",
+    "\\(\\vec n=(-1;\\,-3)\\)",
+    "\\(\\vec n=(-3;\\,1)\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(ax+by+c=0\\) has normal vector \\((a;b)=(1;\\,3)\\) (or a non-zero multiple).",
+   "explain_vi": "Đáp án c. \\(ax+by+c=0\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"normal vector\">vectơ pháp tuyến</b> \\((a;b)=(1;\\,3)\\) (hoặc bội khác 0).",
+   "images": [],
+   "id": "73c28eee5ff6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The line cutting \\(Ox\\) at \\(A(#;#)\\) and \\(Oy\\) at \\(B(#;#)\\) is…",
+   "en": "The line cutting \\(Ox\\) at \\(A(2;0)\\) and \\(Oy\\) at \\(B(0;4)\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">Đường thẳng</b> cắt \\(Ox\\) tại \\(A(2;0)\\) và \\(Oy\\) tại \\(B(0;4)\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b>…",
+   "options": [
+    "\\(x+2y-4=0\\)",
+    "\\(2x+y-4=0\\)",
+    "\\(2x-y-4=0\\)",
+    "\\(2x+y+4=0\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\dfrac{x}{2}+\\dfrac{y}{4}=1\\).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">Phương trình</b> đoạn chắn \\(\\dfrac{x}{2}+\\dfrac{y}{4}=1\\).",
+   "images": [],
+   "id": "d6aff435ffca",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The line through \\(A(#;\\,#)\\) and \\(B(-#;\\,#)\\) is…",
+   "en": "The line through \\(A(1;\\,3)\\) and \\(B(-3;\\,0)\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">Đường thẳng</b> đi qua \\(A(1;\\,3)\\) và \\(B(-3;\\,0)\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b>…",
+   "options": [
+    "\\(3x-4y+10=0\\)",
+    "\\(3x-4y-9=0\\)",
+    "\\(3x-4y+9=0\\)",
+    "\\(4x+3y-13=0\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\overrightarrow{AB}=(-4;\\,-3)\\Rightarrow\\vec n=(-3;\\,4)\\).",
+   "explain_vi": "Đáp án c. \\(\\overrightarrow{AB}=(-4;\\,-3)\\Rightarrow\\vec n=(-3;\\,4)\\), thay \\(A\\) để tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b> tự do.",
+   "images": [],
+   "id": "c733d81f106e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The line through \\(M(#;\\,#)\\) with normal vector \\(\\vec n=(-#;\\,-#)\\) is…",
+   "en": "The line through \\(M(3;\\,4)\\) with normal vector \\(\\vec n=(-1;\\,-2)\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">Đường thẳng</b> đi qua \\(M(3;\\,4)\\) và có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"normal vector\">vectơ pháp tuyến</b> \\(\\vec n=(-1;\\,-2)\\) là…",
+   "options": [
+    "\\(2x-y+11=0\\)",
+    "\\(x+2y-11=0\\)",
+    "\\(3x+4y+11=0\\)",
+    "\\(x+2y+9=0\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(-1(x-3)-2(y-4)=0\\).",
+   "explain_vi": "Đáp án b. \\(-1(x-3)-2(y-4)=0\\).",
+   "images": [],
+   "id": "865aeded7bea",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The line through \\(M(-#;\\,-#)\\) with direction vector \\(\\vec u=(#;\\,#)\\) has parametric equations…",
+   "en": "The line through \\(M(-1;\\,-3)\\) with direction vector \\(\\vec u=(2;\\,3)\\) has parametric equations…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">Đường thẳng</b> đi qua \\(M(-1;\\,-3)\\), có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"direction vector\">vectơ chỉ phương</b> \\(\\vec u=(2;\\,3)\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parametric equations\">phương trình tham số</b>…",
+   "options": [
+    "\\(\\begin{cases}x=-1+2t\\\\y=-3+3t\\end{cases}\\)",
+    "\\(\\begin{cases}x=2-t\\\\y=3-3t\\end{cases}\\)",
+    "\\(\\begin{cases}x=-1+3t\\\\y=-3+2t\\end{cases}\\)",
+    "\\(\\begin{cases}x=1+2t\\\\y=3+3t\\end{cases}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(x=x_0+at\\), \\(y=y_0+bt\\).",
+   "explain_vi": "Đáp án a. \\(x=x_0+at\\), \\(y=y_0+bt\\) với \\(M(x_0;y_0)\\), \\(\\vec u=(a;b)\\).",
+   "images": [],
+   "id": "fe4aa229ae62",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The slope of the line through \\(A(#;\\,#)\\) and \\(B(-#;\\,-#)\\) is…",
+   "en": "The slope of the line through \\(A(2;\\,2)\\) and \\(B(-1;\\,-3)\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"slope\">Hệ số góc</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> đi qua \\(A(2;\\,2)\\) và \\(B(-1;\\,-3)\\) là…",
+   "options": [
+    "\\(\\dfrac{5}{3}\\)",
+    "\\(-\\dfrac{5}{3}\\)",
+    "\\(\\dfrac{3}{5}\\)",
+    "\\(-\\dfrac{3}{5}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(k=\\dfrac{y_B-y_A}{x_B-x_A}=\\dfrac{5}{3}\\).",
+   "explain_vi": "Đáp án a. \\(k=\\dfrac{y_B-y_A}{x_B-x_A}=\\dfrac{5}{3}\\).",
+   "images": [],
+   "id": "1ebafffb3833",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Which point lies on \\(x-#y-#=#\\)?",
+   "en": "Which point lies on \\(x-3y-13=0\\)?",
+   "vi": "Điểm nào thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(x-3y-13=0\\)?",
+   "options": [
+    "\\((3;\\,-5)\\)",
+    "\\((1;\\,-4)\\)",
+    "\\((-1;\\,-3)\\)",
+    "\\((-1;\\,-4)\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Substitute: \\(1\\cdot(1)-3\\cdot(-4)-13=0\\).",
+   "explain_vi": "Đáp án b. Thay tọa độ: \\(1\\cdot(1)-3\\cdot(-4)-13=0\\).",
+   "images": [],
+   "id": "2a0268cbfb6d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "A normal vector of \\(x+#y-#=#\\) is…",
+   "en": "A normal vector of \\(x+4y-3=0\\) is…",
+   "vi": "Một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"normal vector of a line\">vectơ pháp tuyến của đường thẳng</b> \\(x+4y-3=0\\) là…",
+   "options": [
+    "\\(\\vec n=(4;\\,-1)\\)",
+    "\\(\\vec n=(1;\\,-3)\\)",
+    "\\(\\vec n=(-4;\\,1)\\)",
+    "\\(\\vec n=(-1;\\,-4)\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\vec n=(a;b)=(1;\\,4)\\) or a multiple.",
+   "explain_vi": "Đáp án d. \\(\\vec n=(a;b)=(1;\\,4)\\) hoặc bội khác 0.",
+   "images": [],
+   "id": "bc4e3dd5f25d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "The line through \\(A(-#;\\,#)\\) and \\(B(#;\\,#)\\) is…",
+   "en": "The line through \\(A(-2;\\,3)\\) and \\(B(1;\\,0)\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">Đường thẳng</b> qua \\(A(-2;\\,3)\\) và \\(B(1;\\,0)\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b>…",
+   "options": [
+    "\\(x-y+5=0\\)",
+    "\\(x+y-1=0\\)",
+    "\\(x+y+1=0\\)",
+    "\\(x+y=0\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\overrightarrow{AB}=(3;\\,-3)\\Rightarrow\\vec n=(-3;\\,-3)\\).",
+   "explain_vi": "Đáp án b. \\(\\overrightarrow{AB}=(3;\\,-3)\\Rightarrow\\vec n=(-3;\\,-3)\\).",
+   "images": [],
+   "id": "a7157ca49da7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "The slope of the line through \\(A(#;\\,-#)\\) and \\(B(#;\\,#)\\) is…",
+   "en": "The slope of the line through \\(A(1;\\,-2)\\) and \\(B(4;\\,4)\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"slope\">Hệ số góc</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> qua \\(A(1;\\,-2)\\) và \\(B(4;\\,4)\\) là…",
+   "options": [
+    "\\(\\dfrac{1}{2}\\)",
+    "\\(-2\\)",
+    "\\(2\\)",
+    "\\(-\\dfrac{1}{2}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(k=\\dfrac{y_B-y_A}{x_B-x_A}\\).",
+   "explain_vi": "Đáp án c. \\(k=\\dfrac{y_B-y_A}{x_B-x_A}\\).",
+   "images": [],
+   "id": "66570fdb73c1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "The point \\((#;\\,#)\\) lies on \\(\\begin{cases}x=#t\\\\y=-#+#t\\end{cases}\\).",
+   "en": "The point \\((6;\\,4)\\) lies on \\(\\begin{cases}x=3t\\\\y=-1+2t\\end{cases}\\).",
+   "vi": "Điểm \\((6;\\,4)\\) thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(\\begin{cases}x=3t\\\\y=-1+2t\\end{cases}\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "From \\(x\\): \\(t=2\\); then \\(y=3\\).",
+   "explain_vi": "Từ \\(x\\): \\(t=2\\); khi đó \\(y=3\\).",
+   "images": [],
+   "id": "f021f1122329",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(\\vec u=(#;\\,#)\\) is a direction vector of \\(#x+y-#=#\\).",
+   "en": "\\(\\vec u=(3;\\,1)\\) is a direction vector of \\(3x+y-2=0\\).",
+   "vi": "\\(\\vec u=(3;\\,1)\\) là một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"direction vector\">vectơ chỉ phương</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(3x+y-2=0\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "\\(\\vec n\\cdot\\vec u=10\\).",
+   "explain_vi": "\\(\\vec n\\cdot\\vec u=10\\).",
+   "images": [],
+   "id": "9ccaaa25e429",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "A fare \\(y\\) (thousand VND) is linear in the distance \\(x\\) (km): # km costs #, # km costs #. Find the fare for # km.",
+   "en": "A fare \\(y\\) (thousand VND) is linear in the distance \\(x\\) (km): 3 km costs 33, 7 km costs 61. Find the fare for 12 km.",
+   "vi": "Cước \\(y\\) (nghìn đồng) phụ thuộc bậc nhất vào quãng đường \\(x\\) (km): đi 3 km hết 33, đi 7 km hết 61. Tính tiền đi 12 km.",
+   "options": [],
+   "answer": "96",
+   "explain_en": "\\(y=7x+12\\).",
+   "explain_vi": "\\(y=7x+12\\), \\(x=12\\Rightarrow y=96\\).",
+   "images": [],
+   "id": "f742a3532792",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "The line through \\(M(-#;\\,#)\\) with normal vector \\(\\vec n=(#;\\,-#)\\) is \\(#x-#y+c=#\\). Find \\(c\\).",
+   "en": "The line through \\(M(-1;\\,3)\\) with normal vector \\(\\vec n=(4;\\,-1)\\) is \\(4x-1y+c=0\\). Find \\(c\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">Đường thẳng</b> qua \\(M(-1;\\,3)\\), có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"normal vector\">vectơ pháp tuyến</b> \\(\\vec n=(4;\\,-1)\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(4x-1y+c=0\\). Tìm \\(c\\).",
+   "options": [],
+   "answer": "7",
+   "explain_en": "\\(c=-(4\\cdot-1-1\\cdot3)=7\\).",
+   "explain_vi": "\\(c=-(4\\cdot-1-1\\cdot3)=7\\).",
+   "images": [],
+   "id": "ecd634690ceb",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "A direction vector of \\(-x-#=#\\) is…",
+   "en": "A direction vector of \\(-x-4=0\\) is…",
+   "vi": "Một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"direction vector\">vectơ chỉ phương</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(-x-4=0\\) là…",
+   "options": [
+    "\\(\\vec u=(1;\\,-1)\\)",
+    "\\(\\vec u=(0;\\,1)\\)",
+    "\\(\\vec u=(-1;\\,0)\\)",
+    "\\(\\vec u=(-1;\\,1)\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\vec u=(b;-a)\\perp\\vec n=(a;b)\\).",
+   "explain_vi": "Đáp án b. \\(\\vec u=(b;-a)\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"perpendicular\">vuông góc</b> với \\(\\vec n=(a;b)\\).",
+   "images": [],
+   "id": "9ed58f2732a1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "A normal vector of \\(x-y-#=#\\) is…",
+   "en": "A normal vector of \\(x-y-3=0\\) is…",
+   "vi": "Một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"normal vector of a line\">vectơ pháp tuyến của đường thẳng</b> \\(x-y-3=0\\) là…",
+   "options": [
+    "\\(\\vec n=(-1;\\,-1)\\)",
+    "\\(\\vec n=(2;\\,-2)\\)",
+    "\\(\\vec n=(1;\\,-3)\\)",
+    "\\(\\vec n=(1;\\,1)\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(ax+by+c=0\\) has normal vector \\((a;b)=(1;\\,-1)\\) (or a non-zero multiple).",
+   "explain_vi": "Đáp án b. \\(ax+by+c=0\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"normal vector\">vectơ pháp tuyến</b> \\((a;b)=(1;\\,-1)\\) (hoặc bội khác 0).",
+   "images": [],
+   "id": "fa1a5a0f6e93",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The line cutting \\(Ox\\) at \\(A(#;#)\\) and \\(Oy\\) at \\(B(#;-#)\\) is…",
+   "en": "The line cutting \\(Ox\\) at \\(A(4;0)\\) and \\(Oy\\) at \\(B(0;-2)\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">Đường thẳng</b> cắt \\(Ox\\) tại \\(A(4;0)\\) và \\(Oy\\) tại \\(B(0;-2)\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b>…",
+   "options": [
+    "\\(x+2y-4=0\\)",
+    "\\(x-2y+4=0\\)",
+    "\\(x-2y-4=0\\)",
+    "\\(2x-y+4=0\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\dfrac{x}{4}+\\dfrac{y}{-2}=1\\).",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">Phương trình</b> đoạn chắn \\(\\dfrac{x}{4}+\\dfrac{y}{-2}=1\\).",
+   "images": [],
+   "id": "30626a71aaa3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The line through \\(A(#;\\,-#)\\) and \\(B(#;\\,#)\\) is…",
+   "en": "The line through \\(A(4;\\,-1)\\) and \\(B(0;\\,3)\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">Đường thẳng</b> đi qua \\(A(4;\\,-1)\\) và \\(B(0;\\,3)\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b>…",
+   "options": [
+    "\\(x+y-3=0\\)",
+    "\\(x+y+3=0\\)",
+    "\\(x-y-5=0\\)",
+    "\\(x+y-2=0\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\overrightarrow{AB}=(-4;\\,4)\\Rightarrow\\vec n=(4;\\,4)\\).",
+   "explain_vi": "Đáp án a. \\(\\overrightarrow{AB}=(-4;\\,4)\\Rightarrow\\vec n=(4;\\,4)\\), thay \\(A\\) để tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b> tự do.",
+   "images": [],
+   "id": "a63d67890995",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The line through \\(M(-#;\\,-#)\\) with direction vector \\(\\vec u=(#;\\,#)\\) has parametric equations…",
+   "en": "The line through \\(M(-2;\\,-1)\\) with direction vector \\(\\vec u=(2;\\,3)\\) has parametric equations…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">Đường thẳng</b> đi qua \\(M(-2;\\,-1)\\), có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"direction vector\">vectơ chỉ phương</b> \\(\\vec u=(2;\\,3)\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parametric equations\">phương trình tham số</b>…",
+   "options": [
+    "\\(\\begin{cases}x=2+2t\\\\y=1+3t\\end{cases}\\)",
+    "\\(\\begin{cases}x=-2+2t\\\\y=-1+3t\\end{cases}\\)",
+    "\\(\\begin{cases}x=-2+3t\\\\y=-1+2t\\end{cases}\\)",
+    "\\(\\begin{cases}x=2-2t\\\\y=3-t\\end{cases}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(x=x_0+at\\), \\(y=y_0+bt\\).",
+   "explain_vi": "Đáp án b. \\(x=x_0+at\\), \\(y=y_0+bt\\) với \\(M(x_0;y_0)\\), \\(\\vec u=(a;b)\\).",
+   "images": [],
+   "id": "4563076cbb28",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The line through \\(M(-#;\\,-#)\\) with normal vector \\(\\vec n=(#;\\,#)\\) is…",
+   "en": "The line through \\(M(-4;\\,-2)\\) with normal vector \\(\\vec n=(3;\\,2)\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">Đường thẳng</b> đi qua \\(M(-4;\\,-2)\\) và có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"normal vector\">vectơ pháp tuyến</b> \\(\\vec n=(3;\\,2)\\) là…",
+   "options": [
+    "\\(2x+y-8=0\\)",
+    "\\(3x+2y-16=0\\)",
+    "\\(2x-3y+16=0\\)",
+    "\\(3x+2y+16=0\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(3(x+4)+2(y+2)=0\\).",
+   "explain_vi": "Đáp án d. \\(3(x+4)+2(y+2)=0\\).",
+   "images": [],
+   "id": "9e8df460feca",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The slope of the line through \\(A(#;\\,-#)\\) and \\(B(-#;\\,-#)\\) is…",
+   "en": "The slope of the line through \\(A(0;\\,-4)\\) and \\(B(-2;\\,-1)\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"slope\">Hệ số góc</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> đi qua \\(A(0;\\,-4)\\) và \\(B(-2;\\,-1)\\) là…",
+   "options": [
+    "\\(\\dfrac{3}{2}\\)",
+    "\\(\\dfrac{2}{3}\\)",
+    "\\(-\\dfrac{3}{2}\\)",
+    "\\(-\\dfrac{2}{3}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(k=\\dfrac{y_B-y_A}{x_B-x_A}=-\\dfrac{3}{2}\\).",
+   "explain_vi": "Đáp án c. \\(k=\\dfrac{y_B-y_A}{x_B-x_A}=-\\dfrac{3}{2}\\).",
+   "images": [],
+   "id": "bf3c82f1084d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Which point lies on \\(-x+#y+#=#\\)?",
+   "en": "Which point lies on \\(-x+2y+3=0\\)?",
+   "vi": "Điểm nào thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(-x+2y+3=0\\)?",
+   "options": [
+    "\\((1;\\,-1)\\)",
+    "\\((1;\\,0)\\)",
+    "\\((0;\\,-1)\\)",
+    "\\((-1;\\,1)\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Substitute: \\(-1\\cdot(1)+2\\cdot(-1)+3=0\\).",
+   "explain_vi": "Đáp án a. Thay tọa độ: \\(-1\\cdot(1)+2\\cdot(-1)+3=0\\).",
+   "images": [],
+   "id": "22845a9436d4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "A normal vector of \\(#x+#y+#=#\\) is…",
+   "en": "A normal vector of \\(5x+2y+1=0\\) is…",
+   "vi": "Một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"normal vector of a line\">vectơ pháp tuyến của đường thẳng</b> \\(5x+2y+1=0\\) là…",
+   "options": [
+    "\\(\\vec n=(2;\\,-5)\\)",
+    "\\(\\vec n=(5;\\,1)\\)",
+    "\\(\\vec n=(15;\\,6)\\)",
+    "\\(\\vec n=(-2;\\,5)\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\vec n=(a;b)=(5;\\,2)\\) or a multiple.",
+   "explain_vi": "Đáp án c. \\(\\vec n=(a;b)=(5;\\,2)\\) hoặc bội khác 0.",
+   "images": [],
+   "id": "8058818bd847",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "The line through \\(A(#;\\,-#)\\) and \\(B(#;\\,#)\\) is…",
+   "en": "The line through \\(A(0;\\,-3)\\) and \\(B(4;\\,1)\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">Đường thẳng</b> qua \\(A(0;\\,-3)\\) và \\(B(4;\\,1)\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b>…",
+   "options": [
+    "\\(x+y+3=0\\)",
+    "\\(x-y-3=0\\)",
+    "\\(x-y+3=0\\)",
+    "\\(x-y+2=0\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\overrightarrow{AB}=(4;\\,4)\\Rightarrow\\vec n=(4;\\,-4)\\).",
+   "explain_vi": "Đáp án b. \\(\\overrightarrow{AB}=(4;\\,4)\\Rightarrow\\vec n=(4;\\,-4)\\).",
+   "images": [],
+   "id": "a929cc1ffcf8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "The slope of the line through \\(A(-#;\\,#)\\) and \\(B(#;\\,-#)\\) is…",
+   "en": "The slope of the line through \\(A(-1;\\,3)\\) and \\(B(3;\\,-5)\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"slope\">Hệ số góc</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> qua \\(A(-1;\\,3)\\) và \\(B(3;\\,-5)\\) là…",
+   "options": [
+    "\\(-\\dfrac{1}{2}\\)",
+    "\\(2\\)",
+    "\\(\\dfrac{1}{2}\\)",
+    "\\(-2\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(k=\\dfrac{y_B-y_A}{x_B-x_A}\\).",
+   "explain_vi": "Đáp án d. \\(k=\\dfrac{y_B-y_A}{x_B-x_A}\\).",
+   "images": [],
+   "id": "1a7e9fe22681",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "The point \\((#;\\,-#)\\) lies on \\(\\begin{cases}x=#+t\\\\y=-#t\\end{cases}\\).",
+   "en": "The point \\((4;\\,-5)\\) lies on \\(\\begin{cases}x=2+t\\\\y=-2t\\end{cases}\\).",
+   "vi": "Điểm \\((4;\\,-5)\\) thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(\\begin{cases}x=2+t\\\\y=-2t\\end{cases}\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "From \\(x\\): \\(t=2\\); then \\(y=-4\\).",
+   "explain_vi": "Từ \\(x\\): \\(t=2\\); khi đó \\(y=-4\\).",
+   "images": [],
+   "id": "333c7720d0db",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(\\vec u=(#;\\,#)\\) is a direction vector of \\(x-#y+#=#\\).",
+   "en": "\\(\\vec u=(3;\\,1)\\) is a direction vector of \\(x-3y+4=0\\).",
+   "vi": "\\(\\vec u=(3;\\,1)\\) là một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"direction vector\">vectơ chỉ phương</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(x-3y+4=0\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "\\(\\vec n\\cdot\\vec u=0\\).",
+   "explain_vi": "\\(\\vec n\\cdot\\vec u=0\\).",
+   "images": [],
+   "id": "f779172c4e5f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "A fare \\(y\\) (thousand VND) is linear in the distance \\(x\\) (km): # km costs #, # km costs #. Find the fare for # km.",
+   "en": "A fare \\(y\\) (thousand VND) is linear in the distance \\(x\\) (km): 1 km costs 20, 5 km costs 52. Find the fare for 8 km.",
+   "vi": "Cước \\(y\\) (nghìn đồng) phụ thuộc bậc nhất vào quãng đường \\(x\\) (km): đi 1 km hết 20, đi 5 km hết 52. Tính tiền đi 8 km.",
+   "options": [],
+   "answer": "76",
+   "explain_en": "\\(y=8x+12\\).",
+   "explain_vi": "\\(y=8x+12\\), \\(x=8\\Rightarrow y=76\\).",
+   "images": [],
+   "id": "36f7e17e817f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "The line through \\(M(#;\\,-#)\\) with normal vector \\(\\vec n=(-#;\\,#)\\) is \\(-#x+#y+c=#\\). Find \\(c\\).",
+   "en": "The line through \\(M(2;\\,-2)\\) with normal vector \\(\\vec n=(-3;\\,5)\\) is \\(-3x+5y+c=0\\). Find \\(c\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">Đường thẳng</b> qua \\(M(2;\\,-2)\\), có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"normal vector\">vectơ pháp tuyến</b> \\(\\vec n=(-3;\\,5)\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(-3x+5y+c=0\\). Tìm \\(c\\).",
+   "options": [],
+   "answer": "16",
+   "explain_en": "\\(c=-(-3\\cdot2+5\\cdot-2)=16\\).",
+   "explain_vi": "\\(c=-(-3\\cdot2+5\\cdot-2)=16\\).",
+   "images": [],
+   "id": "7c5df232800a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "A direction vector of \\(x+#y-#=#\\) is…",
+   "en": "A direction vector of \\(x+3y-5=0\\) is…",
+   "vi": "Một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"direction vector\">vectơ chỉ phương</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(x+3y-5=0\\) là…",
+   "options": [
+    "\\(\\vec u=(1;\\,3)\\)",
+    "\\(\\vec u=(3;\\,-1)\\)",
+    "\\(\\vec u=(1;\\,-3)\\)",
+    "\\(\\vec u=(3;\\,1)\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\vec u=(b;-a)\\perp\\vec n=(a;b)\\).",
+   "explain_vi": "Đáp án b. \\(\\vec u=(b;-a)\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"perpendicular\">vuông góc</b> với \\(\\vec n=(a;b)\\).",
+   "images": [],
+   "id": "318c28b61d84",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "A normal vector of \\(-#x-#y+#=#\\) is…",
+   "en": "A normal vector of \\(-3x-2y+5=0\\) is…",
+   "vi": "Một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"normal vector of a line\">vectơ pháp tuyến của đường thẳng</b> \\(-3x-2y+5=0\\) là…",
+   "options": [
+    "\\(\\vec n=(2;\\,-3)\\)",
+    "\\(\\vec n=(-2;\\,3)\\)",
+    "\\(\\vec n=(-3;\\,5)\\)",
+    "\\(\\vec n=(-6;\\,-4)\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(ax+by+c=0\\) has normal vector \\((a;b)=(-3;\\,-2)\\) (or a non-zero multiple).",
+   "explain_vi": "Đáp án d. \\(ax+by+c=0\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"normal vector\">vectơ pháp tuyến</b> \\((a;b)=(-3;\\,-2)\\) (hoặc bội khác 0).",
+   "images": [],
+   "id": "ce11373894d6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The line cutting \\(Ox\\) at \\(A(#;#)\\) and \\(Oy\\) at \\(B(#;#)\\) is…",
+   "en": "The line cutting \\(Ox\\) at \\(A(3;0)\\) and \\(Oy\\) at \\(B(0;4)\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">Đường thẳng</b> cắt \\(Ox\\) tại \\(A(3;0)\\) và \\(Oy\\) tại \\(B(0;4)\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b>…",
+   "options": [
+    "\\(3x+4y-12=0\\)",
+    "\\(4x+3y-12=0\\)",
+    "\\(4x-3y-12=0\\)",
+    "\\(4x+3y+12=0\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\dfrac{x}{3}+\\dfrac{y}{4}=1\\).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">Phương trình</b> đoạn chắn \\(\\dfrac{x}{3}+\\dfrac{y}{4}=1\\).",
+   "images": [],
+   "id": "2c2dfe792cdb",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The line through \\(A(#;\\,-#)\\) and \\(B(#;\\,-#)\\) is…",
+   "en": "The line through \\(A(5;\\,-3)\\) and \\(B(2;\\,-2)\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">Đường thẳng</b> đi qua \\(A(5;\\,-3)\\) và \\(B(2;\\,-2)\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b>…",
+   "options": [
+    "\\(x+3y-4=0\\)",
+    "\\(x+3y+4=0\\)",
+    "\\(3x-y-18=0\\)",
+    "\\(x+3y+5=0\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\overrightarrow{AB}=(-3;\\,1)\\Rightarrow\\vec n=(1;\\,3)\\).",
+   "explain_vi": "Đáp án b. \\(\\overrightarrow{AB}=(-3;\\,1)\\Rightarrow\\vec n=(1;\\,3)\\), thay \\(A\\) để tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b> tự do.",
+   "images": [],
+   "id": "7d2d3017dbdd",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The line through \\(M(-#;\\,#)\\) with direction vector \\(\\vec u=(#;\\,-#)\\) has parametric equations…",
+   "en": "The line through \\(M(-4;\\,0)\\) with direction vector \\(\\vec u=(3;\\,-1)\\) has parametric equations…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">Đường thẳng</b> đi qua \\(M(-4;\\,0)\\), có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"direction vector\">vectơ chỉ phương</b> \\(\\vec u=(3;\\,-1)\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parametric equations\">phương trình tham số</b>…",
+   "options": [
+    "\\(\\begin{cases}x=-4+3t\\\\y=-t\\end{cases}\\)",
+    "\\(\\begin{cases}x=-4-t\\\\y=3t\\end{cases}\\)",
+    "\\(\\begin{cases}x=4+3t\\\\y=-t\\end{cases}\\)",
+    "\\(\\begin{cases}x=3-4t\\\\y=-1\\end{cases}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(x=x_0+at\\), \\(y=y_0+bt\\).",
+   "explain_vi": "Đáp án a. \\(x=x_0+at\\), \\(y=y_0+bt\\) với \\(M(x_0;y_0)\\), \\(\\vec u=(a;b)\\).",
+   "images": [],
+   "id": "369565119c0b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The line through \\(M(-#;\\,-#)\\) with normal vector \\(\\vec n=(-#;\\,-#)\\) is…",
+   "en": "The line through \\(M(-4;\\,-1)\\) with normal vector \\(\\vec n=(-2;\\,-1)\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">Đường thẳng</b> đi qua \\(M(-4;\\,-1)\\) và có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"normal vector\">vectơ pháp tuyến</b> \\(\\vec n=(-2;\\,-1)\\) là…",
+   "options": [
+    "\\(2x+y-11=0\\)",
+    "\\(x-2y-9=0\\)",
+    "\\(2x+y+9=0\\)",
+    "\\(4x+y+9=0\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(-2(x+4)-1(y+1)=0\\).",
+   "explain_vi": "Đáp án c. \\(-2(x+4)-1(y+1)=0\\).",
+   "images": [],
+   "id": "cd313322b364",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The slope of the line through \\(A(#;\\,#)\\) and \\(B(-#;\\,-#)\\) is…",
+   "en": "The slope of the line through \\(A(5;\\,0)\\) and \\(B(-3;\\,-1)\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"slope\">Hệ số góc</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> đi qua \\(A(5;\\,0)\\) và \\(B(-3;\\,-1)\\) là…",
+   "options": [
+    "\\(8\\)",
+    "\\(\\dfrac{1}{8}\\)",
+    "\\(-8\\)",
+    "\\(-\\dfrac{1}{8}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(k=\\dfrac{y_B-y_A}{x_B-x_A}=\\dfrac{1}{8}\\).",
+   "explain_vi": "Đáp án b. \\(k=\\dfrac{y_B-y_A}{x_B-x_A}=\\dfrac{1}{8}\\).",
+   "images": [],
+   "id": "16284442876d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Which point lies on \\(-#x+#y+#=#\\)?",
+   "en": "Which point lies on \\(-3x+2y+13=0\\)?",
+   "vi": "Điểm nào thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(-3x+2y+13=0\\)?",
+   "options": [
+    "\\((3;\\,0)\\)",
+    "\\((2;\\,-1)\\)",
+    "\\((2;\\,-4)\\)",
+    "\\((3;\\,-2)\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Substitute: \\(-3\\cdot(3)+2\\cdot(-2)+13=0\\).",
+   "explain_vi": "Đáp án d. Thay tọa độ: \\(-3\\cdot(3)+2\\cdot(-2)+13=0\\).",
+   "images": [],
+   "id": "5aa60f498bc8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  }
+ ]
+}

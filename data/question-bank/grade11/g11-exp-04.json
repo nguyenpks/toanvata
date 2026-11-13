@@ -1,0 +1,1574 @@
+{
+ "lesson": "g11-exp-04",
+ "grade": 11,
+ "no": 19,
+ "title": "Lôgarit",
+ "path": "lessons/grade11/exponential-functions/logarithms.html",
+ "items": [
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Given \\(\\log_{#}#=a\\), \\(\\log_{#}#=\\)…",
+   "en": "Given \\(\\log_{2}3=a\\), \\(\\log_{2}18=\\)…",
+   "vi": "Cho \\(\\log_{2}3=a\\). Khi đó \\(\\log_{2}18=\\)…",
+   "options": [
+    "\\(2+1a\\)",
+    "\\(1+2a\\)",
+    "\\(2a\\)",
+    "\\(1\\cdot2a\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(18=2^{1}\\cdot3^{2}\\).",
+   "explain_vi": "Đáp án b. \\(18=2^{1}\\cdot3^{2}\\).",
+   "images": [],
+   "id": "175b98940295",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(\\log_{#}#+\\log_{#}#=\\)…",
+   "en": "\\(\\log_{6}4+\\log_{6}9=\\)…",
+   "vi": "\\(\\log_{6}4+\\log_{6}9=\\)…",
+   "options": [
+    "\\(\\log_{6}13\\)",
+    "\\(3\\)",
+    "\\(36\\)",
+    "\\(2\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\log_{6}36=2\\).",
+   "explain_vi": "Đáp án d. \\(\\log_{6}36=2\\).",
+   "images": [],
+   "id": "61de034f8ccc",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(\\log_{#}#=\\)…",
+   "en": "\\(\\log_{2}32=\\)…",
+   "vi": "\\(\\log_{2}32=\\)…",
+   "options": [
+    "\\(5\\)",
+    "\\(-5\\)",
+    "\\(6\\)",
+    "\\(16\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(2^{5}=32\\).",
+   "explain_vi": "Đáp án a. \\(2^{5}=32\\).",
+   "images": [],
+   "id": "00e735aa45f0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(\\log_# #=\\dfrac#\\).",
+   "en": "\\(\\log_4 8=\\dfrac32\\).",
+   "vi": "\\(\\log_4 8=\\dfrac32\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "\\(4^{3/2}=8\\).",
+   "explain_vi": "\\(4^{3/2}=8\\).",
+   "images": [],
+   "id": "f39c19a8178e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(\\log_#(#+#)=\\log_# #+\\log_# #\\).",
+   "en": "\\(\\log_2(4+4)=\\log_2 4+\\log_2 4\\).",
+   "vi": "\\(\\log_2(4+4)=\\log_2 4+\\log_2 4\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "Left: \\(\\log_2 8=3\\); right: \\(4\\).",
+   "explain_vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"left-hand side (LHS)\">Vế trái</b> \\(\\log_2 8=3\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"right-hand side (RHS)\">vế phải</b> \\(4\\).",
+   "images": [],
+   "id": "2af4da0ac3f2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "Compute \\(\\log_{#}#-\\log_{#}#\\).",
+   "en": "Compute \\(\\log_{2}96-\\log_{2}3\\).",
+   "vi": "Tính \\(\\log_{2}96-\\log_{2}3\\).",
+   "options": [],
+   "answer": "5",
+   "explain_en": "\\(\\log_{2}32=5\\).",
+   "explain_vi": "\\(\\log_{2}\\dfrac{96}{3}=\\log_{2}32=5\\).",
+   "images": [],
+   "id": "77ba83add68f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "Sound levels \\(L=#\\log\\dfrac{I}{I_#}\\): # dB and # dB. How many times more intense is the louder sound?",
+   "en": "Sound levels \\(L=10\\log\\dfrac{I}{I_0}\\): 40 dB and 70 dB. How many times more intense is the louder sound?",
+   "vi": "Hai âm có mức cường độ \\(L=10\\log\\dfrac{I}{I_0}\\) là 40 dB và 70 dB. Âm lớn hơn có cường độ gấp bao nhiêu lần?",
+   "options": [],
+   "answer": "1000",
+   "explain_en": "\\(\\dfrac{I_2}{I_1}=10^{(70-40)/10}=10^{3}\\).",
+   "explain_vi": "\\(\\dfrac{I_2}{I_1}=10^{(70-40)/10}=10^{3}\\).",
+   "images": [],
+   "id": "aaa4fb29b8f9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Given \\(\\log #\\approx#\\). How many digits does \\(#^{#}\\) have?",
+   "en": "Given \\(\\log 3\\approx0.4771\\). How many digits does \\(3^{87}\\) have?",
+   "vi": "Biết \\(\\log 3\\approx0{,}4771\\). Số \\(3^{87}\\) có bao nhiêu chữ số?",
+   "options": [
+    "\\(41\\)",
+    "\\(42\\)",
+    "\\(87\\)",
+    "\\(43\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\log 3^{87}=87\\log 3\\approx41.51\\); the number of digits is \\(\\lfloor 41.51\\rfloor+1=42\\).",
+   "explain_vi": "Đáp án b. \\(\\log 3^{87}=87\\log 3\\approx41{,}51\\); số chữ số là \\(\\lfloor 41{,}51\\rfloor+1=42\\).",
+   "images": [],
+   "id": "70299ffd50b6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Money is saved at \\(#\\%\\) per year, compounded yearly. After how many whole years does it first at least double?",
+   "en": "Money is saved at \\(6\\%\\) per year, compounded yearly. After how many whole years does it first at least double?",
+   "vi": "Gửi tiết kiệm với lãi suất \\(6\\%\\)/năm, lãi nhập gốc hằng năm. Sau ít nhất bao nhiêu năm thì số tiền đạt ít nhất gấp đôi số tiền ban đầu?",
+   "options": [
+    "\\(14\\)",
+    "\\(11\\)",
+    "\\(12\\)",
+    "\\(13\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(1.06^n\\ge2\\iff n\\ge\\log_{1.06}2\\approx11.90\\), so \\(n=12\\).",
+   "explain_vi": "Đáp án c. \\(1{,}06^n\\ge2\\iff n\\ge\\log_{1{,}06}2\\approx11{,}90\\) nên \\(n=12\\).",
+   "images": [],
+   "id": "7c67ee1eeb2a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The expression \\(\\log_{x+#}(#-x)\\) is defined when…",
+   "en": "The expression \\(\\log_{x+1}(3-x)\\) is defined when…",
+   "vi": "Biểu thức \\(\\log_{x+1}(3-x)\\) có nghĩa khi…",
+   "options": [
+    "\\(-1\\lt x\\lt 3\\)",
+    "\\(x\\gt -1,\\ x\\ne 0\\)",
+    "\\(-1\\lt x\\lt 3,\\ x\\ne 0\\)",
+    "\\(x\\lt 3,\\ x\\ne 0\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Need \\(x+1\\gt0\\), \\(x+1\\ne1\\) and \\(3-x\\gt0\\): \\(-1\\lt x\\lt 3,\\ x\\ne 0\\).",
+   "explain_vi": "Đáp án c. Cần \\(x+1\\gt0\\), \\(x+1\\ne1\\) và \\(3-x\\gt0\\): \\(-1\\lt x\\lt 3,\\ x\\ne 0\\).",
+   "images": [],
+   "id": "ade2293faf1e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Using the table, \\(\\log #\\approx\\)…\\(x\\)\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(\\log x\\)\\(\\approx#\\)\\(\\approx#\\)\\(\\approx#\\)\\(\\approx#\\)",
+   "en": "Using the table, \\(\\log 22.5\\approx\\)…<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">\\(x\\)</th><td>\\(2\\)</td><td>\\(3\\)</td><td>\\(5\\)</td><td>\\(7\\)</td></tr><tr><th scope=\"row\">\\(\\log x\\)</th><td>\\(\\approx0.3010\\)</td><td>\\(\\approx0.4771\\)</td><td>\\(\\approx0.6990\\)</td><td>\\(\\approx0.8451\\)</td></tr></tbody></table></div>",
+   "vi": "Dùng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"table of values\">bảng giá trị</b>, \\(\\log 22{,}5\\approx\\)…<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">\\(x\\)</th><td>\\(2\\)</td><td>\\(3\\)</td><td>\\(5\\)</td><td>\\(7\\)</td></tr><tr><th scope=\"row\">\\(\\log x\\)</th><td>\\(\\approx0{,}3010\\)</td><td>\\(\\approx0{,}4771\\)</td><td>\\(\\approx0{,}6990\\)</td><td>\\(\\approx0{,}8451\\)</td></tr></tbody></table></div>",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(1.5283\\)</span><span class=\"vi\">\\(1{,}5283\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(1.3522\\)</span><span class=\"vi\">\\(1{,}3522\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(1.0512\\)</span><span class=\"vi\">\\(1{,}0512\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(2.3522\\)</span><span class=\"vi\">\\(2{,}3522\\)</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\log 22.5=2\\log 3 + 2\\log 5 - 1\\approx1.3522\\).",
+   "explain_vi": "Đáp án b. \\(\\log 22{,}5=2\\log 3 + 2\\log 5 - 1\\approx1{,}3522\\).",
+   "images": [],
+   "id": "2b6184093ed3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Which number is positive?",
+   "en": "Which number is positive?",
+   "vi": "Số nào dương?",
+   "options": [
+    "\\(\\log_{5}\\dfrac{3}{4}\\)",
+    "\\(\\log_{\\frac{1}{2}}\\dfrac{3}{4}\\)",
+    "\\(\\log_{3}\\dfrac{1}{2}\\)",
+    "\\(\\log_{3}\\dfrac{2}{5}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\log_ax\\gt0\\) when \\(a\\) and \\(x\\) are both greater than 1 or both less than 1; only \\(\\log_{\\frac{1}{2}}\\dfrac{3}{4}\\) is positive.",
+   "explain_vi": "Đáp án b. \\(\\log_ax\\gt0\\) khi \\(a\\), \\(x\\) cùng lớn hơn 1 hoặc cùng nhỏ hơn 1; chỉ có \\(\\log_{\\frac{1}{2}}\\dfrac{3}{4}\\) dương.",
+   "images": [],
+   "id": "81f229db8c6b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(#^{\\log_{#}#}=\\)…",
+   "en": "\\(9^{\\log_{3}7}=\\)…",
+   "vi": "\\(9^{\\log_{3}7}=\\)…",
+   "options": [
+    "\\(14\\)",
+    "\\(49\\)",
+    "\\(343\\)",
+    "\\(7\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(9^{\\log_{3}7}=\\left(3^{\\log_{3}7}\\right)^{2}=7^{2}=49\\).",
+   "explain_vi": "Đáp án b. \\(9^{\\log_{3}7}=\\left(3^{\\log_{3}7}\\right)^{2}=7^{2}=49\\).",
+   "images": [],
+   "id": "e5c022504401",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\log_{#}#\\cdot\\log_{#}#=\\)…",
+   "en": "\\(\\log_{2}7\\cdot\\log_{7}4=\\)…",
+   "vi": "\\(\\log_{2}7\\cdot\\log_{7}4=\\)…",
+   "options": [
+    "\\(2\\)",
+    "\\(1\\)",
+    "\\(7\\)",
+    "\\(3\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\log_ab\\cdot\\log_bc=\\log_ac\\): \\(\\log_{2}4=2\\).",
+   "explain_vi": "Đáp án a. \\(\\log_ab\\cdot\\log_bc=\\log_ac\\): \\(\\log_{2}4=2\\).",
+   "images": [],
+   "id": "ef6cb0223013",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\text{pH}=-\\log[\\text{H}^+]\\). A solution has \\([\\text{H}^+]=#\\cdot#^{-#}\\) mol/l. Given \\(\\log #\\approx#\\), its pH (to one decimal place) is…",
+   "en": "\\(\\text{pH}=-\\log[\\text{H}^+]\\). A solution has \\([\\text{H}^+]=3\\cdot10^{-4}\\) mol/l. Given \\(\\log 3\\approx0.4771\\), its pH (to one decimal place) is…",
+   "vi": "\\(\\text{pH}=-\\log[\\text{H}^+]\\). Một dung dịch có \\([\\text{H}^+]=3\\cdot10^{-4}\\) mol/l. Biết \\(\\log 3\\approx0{,}4771\\), độ pH của dung dịch (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"round to the nearest tenth\">làm tròn đến hàng phần mười</b>) là…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(2.5\\)</span><span class=\"vi\">\\(2{,}5\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(3.5\\)</span><span class=\"vi\">\\(3{,}5\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(4.5\\)</span><span class=\"vi\">\\(4{,}5\\)</span></span>",
+    "\\(4\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\text{pH}=-(\\log 3-4)=4-\\log 3\\approx3.5\\).",
+   "explain_vi": "Đáp án b. \\(\\text{pH}=-(\\log 3-4)=4-\\log 3\\approx3{,}5\\).",
+   "images": [],
+   "id": "22ef28761db7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Given \\(\\log_{#}#=a\\), \\(\\log_{#}#=\\)…",
+   "en": "Given \\(\\log_{3}2=a\\), \\(\\log_{3}18=\\)…",
+   "vi": "Cho \\(\\log_{3}2=a\\). Khi đó \\(\\log_{3}18=\\)…",
+   "options": [
+    "\\(1+2a\\)",
+    "\\(2+1a\\)",
+    "\\(2a\\)",
+    "\\(2\\cdot1a\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(18=3^{2}\\cdot2^{1}\\).",
+   "explain_vi": "Đáp án b. \\(18=3^{2}\\cdot2^{1}\\).",
+   "images": [],
+   "id": "c9770a4694da",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(\\log_{#}#+\\log_{#}#=\\)…",
+   "en": "\\(\\log_{10}25+\\log_{10}40=\\)…",
+   "vi": "\\(\\log_{10}25+\\log_{10}40=\\)…",
+   "options": [
+    "\\(\\log_{10}65\\)",
+    "\\(4\\)",
+    "\\(1000\\)",
+    "\\(3\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\log_{10}1000=3\\).",
+   "explain_vi": "Đáp án d. \\(\\log_{10}1000=3\\).",
+   "images": [],
+   "id": "6cdcb1a91867",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(\\log_{#}{\\dfrac{#}{#}}=\\)…",
+   "en": "\\(\\log_{3}{\\dfrac{1}{27}}=\\)…",
+   "vi": "\\(\\log_{3}{\\dfrac{1}{27}}=\\)…",
+   "options": [
+    "\\(3\\)",
+    "\\(-3\\)",
+    "\\(-2\\)",
+    "\\(\\dfrac{1}{81}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(3^{-3}=\\dfrac{1}{27}\\).",
+   "explain_vi": "Đáp án b. \\(3^{-3}=\\dfrac{1}{27}\\).",
+   "images": [],
+   "id": "277fef3314b9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(\\ln e^#=#\\).",
+   "en": "\\(\\ln e^5=5\\).",
+   "vi": "\\(\\ln e^5=5\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "\\(\\log_a a^{\\alpha}=\\alpha\\).",
+   "explain_vi": "\\(\\log_a a^{\\alpha}=\\alpha\\).",
+   "images": [],
+   "id": "4a4697b701b3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(\\log_# x^#=#\\log_# x\\) for every \\(x\\ne#\\).",
+   "en": "\\(\\log_3 x^2=2\\log_3 x\\) for every \\(x\\ne0\\).",
+   "vi": "\\(\\log_3 x^2=2\\log_3 x\\) với mọi \\(x\\ne0\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "Only for \\(x\\gt0\\); in general \\(2\\log_3|x|\\).",
+   "explain_vi": "Chỉ đúng khi \\(x\\gt0\\); tổng quát là \\(2\\log_3|x|\\).",
+   "images": [],
+   "id": "30a2cf73f31d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "Compute \\(\\log_{#}#-\\log_{#}#\\).",
+   "en": "Compute \\(\\log_{3}162-\\log_{3}2\\).",
+   "vi": "Tính \\(\\log_{3}162-\\log_{3}2\\).",
+   "options": [],
+   "answer": "4",
+   "explain_en": "\\(\\log_{3}81=4\\).",
+   "explain_vi": "\\(\\log_{3}\\dfrac{162}{2}=\\log_{3}81=4\\).",
+   "images": [],
+   "id": "4ed622d7a86d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "Sound levels \\(L=#\\log\\dfrac{I}{I_#}\\): # dB and # dB. How many times more intense is the louder sound?",
+   "en": "Sound levels \\(L=10\\log\\dfrac{I}{I_0}\\): 50 dB and 80 dB. How many times more intense is the louder sound?",
+   "vi": "Hai âm có mức cường độ \\(L=10\\log\\dfrac{I}{I_0}\\) là 50 dB và 80 dB. Âm lớn hơn có cường độ gấp bao nhiêu lần?",
+   "options": [],
+   "answer": "1000",
+   "explain_en": "\\(\\dfrac{I_2}{I_1}=10^{(80-50)/10}=10^{3}\\).",
+   "explain_vi": "\\(\\dfrac{I_2}{I_1}=10^{(80-50)/10}=10^{3}\\).",
+   "images": [],
+   "id": "426c188c57aa",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Given \\(\\log #\\approx#\\). How many digits does \\(#^{#}\\) have?",
+   "en": "Given \\(\\log 7\\approx0.8451\\). How many digits does \\(7^{74}\\) have?",
+   "vi": "Biết \\(\\log 7\\approx0{,}8451\\). Số \\(7^{74}\\) có bao nhiêu chữ số?",
+   "options": [
+    "\\(64\\)",
+    "\\(63\\)",
+    "\\(74\\)",
+    "\\(62\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\log 7^{74}=74\\log 7\\approx62.54\\); the number of digits is \\(\\lfloor 62.54\\rfloor+1=63\\).",
+   "explain_vi": "Đáp án b. \\(\\log 7^{74}=74\\log 7\\approx62{,}54\\); số chữ số là \\(\\lfloor 62{,}54\\rfloor+1=63\\).",
+   "images": [],
+   "id": "bdbe8c494faa",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Money is saved at \\(#\\%\\) per year, compounded yearly. After how many whole years does it first at least double?",
+   "en": "Money is saved at \\(9\\%\\) per year, compounded yearly. After how many whole years does it first at least double?",
+   "vi": "Gửi tiết kiệm với lãi suất \\(9\\%\\)/năm, lãi nhập gốc hằng năm. Sau ít nhất bao nhiêu năm thì số tiền đạt ít nhất gấp đôi số tiền ban đầu?",
+   "options": [
+    "\\(10\\)",
+    "\\(9\\)",
+    "\\(8\\)",
+    "\\(11\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(1.09^n\\ge2\\iff n\\ge\\log_{1.09}2\\approx8.04\\), so \\(n=9\\).",
+   "explain_vi": "Đáp án b. \\(1{,}09^n\\ge2\\iff n\\ge\\log_{1{,}09}2\\approx8{,}04\\) nên \\(n=9\\).",
+   "images": [],
+   "id": "afbd99c96cc4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The expression \\(\\log_{x+#}(#-x)\\) is defined when…",
+   "en": "The expression \\(\\log_{x+2}(4-x)\\) is defined when…",
+   "vi": "Biểu thức \\(\\log_{x+2}(4-x)\\) có nghĩa khi…",
+   "options": [
+    "\\(-2\\lt x\\lt 4,\\ x\\ne -1\\)",
+    "\\(x\\lt 4,\\ x\\ne -1\\)",
+    "\\(x\\gt -2,\\ x\\ne -1\\)",
+    "\\(-2\\lt x\\lt 4\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Need \\(x+2\\gt0\\), \\(x+2\\ne1\\) and \\(4-x\\gt0\\): \\(-2\\lt x\\lt 4,\\ x\\ne -1\\).",
+   "explain_vi": "Đáp án a. Cần \\(x+2\\gt0\\), \\(x+2\\ne1\\) và \\(4-x\\gt0\\): \\(-2\\lt x\\lt 4,\\ x\\ne -1\\).",
+   "images": [],
+   "id": "2fdba1fc8f7a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Using the table, \\(\\log #\\approx\\)…\\(x\\)\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(\\log x\\)\\(\\approx#\\)\\(\\approx#\\)\\(\\approx#\\)\\(\\approx#\\)",
+   "en": "Using the table, \\(\\log 630\\approx\\)…<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">\\(x\\)</th><td>\\(2\\)</td><td>\\(3\\)</td><td>\\(5\\)</td><td>\\(7\\)</td></tr><tr><th scope=\"row\">\\(\\log x\\)</th><td>\\(\\approx0.3010\\)</td><td>\\(\\approx0.4771\\)</td><td>\\(\\approx0.6990\\)</td><td>\\(\\approx0.8451\\)</td></tr></tbody></table></div>",
+   "vi": "Dùng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"table of values\">bảng giá trị</b>, \\(\\log 630\\approx\\)…<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">\\(x\\)</th><td>\\(2\\)</td><td>\\(3\\)</td><td>\\(5\\)</td><td>\\(7\\)</td></tr><tr><th scope=\"row\">\\(\\log x\\)</th><td>\\(\\approx0{,}3010\\)</td><td>\\(\\approx0{,}4771\\)</td><td>\\(\\approx0{,}6990\\)</td><td>\\(\\approx0{,}8451\\)</td></tr></tbody></table></div>",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(3.7993\\)</span><span class=\"vi\">\\(3{,}7993\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(2.7993\\)</span><span class=\"vi\">\\(2{,}7993\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(2.9754\\)</span><span class=\"vi\">\\(2{,}9754\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(2.4983\\)</span><span class=\"vi\">\\(2{,}4983\\)</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\log 630=2\\log 2 + 2\\log 3 + 2\\log 5 + \\log 7 - 1\\approx2.7993\\).",
+   "explain_vi": "Đáp án b. \\(\\log 630=2\\log 2 + 2\\log 3 + 2\\log 5 + \\log 7 - 1\\approx2{,}7993\\).",
+   "images": [],
+   "id": "8f8aa644b288",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Which logarithm is greater than #?",
+   "en": "Which logarithm is greater than 0?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"logarithm\">Lôgarit</b> nào lớn hơn 0?",
+   "options": [
+    "\\(\\log_{\\frac{1}{3}}7\\)",
+    "\\(\\log_{\\frac{1}{3}}\\dfrac{3}{2}\\)",
+    "\\(\\log_{\\frac{2}{3}}\\dfrac{2}{5}\\)",
+    "\\(\\log_{\\frac{2}{3}}3\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\log_ax\\gt0\\) when \\(a\\) and \\(x\\) are both greater than 1 or both less than 1; only \\(\\log_{\\frac{2}{3}}\\dfrac{2}{5}\\) is positive.",
+   "explain_vi": "Đáp án c. \\(\\log_ax\\gt0\\) khi \\(a\\), \\(x\\) cùng lớn hơn 1 hoặc cùng nhỏ hơn 1; chỉ có \\(\\log_{\\frac{2}{3}}\\dfrac{2}{5}\\) dương.",
+   "images": [],
+   "id": "ffecce0cc292",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(#^{\\log_{#}#}=\\)…",
+   "en": "\\(8^{\\log_{2}3}=\\)…",
+   "vi": "\\(8^{\\log_{2}3}=\\)…",
+   "options": [
+    "\\(27\\)",
+    "\\(3\\)",
+    "\\(9\\)",
+    "\\(81\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(8^{\\log_{2}3}=\\left(2^{\\log_{2}3}\\right)^{3}=3^{3}=27\\).",
+   "explain_vi": "Đáp án a. \\(8^{\\log_{2}3}=\\left(2^{\\log_{2}3}\\right)^{3}=3^{3}=27\\).",
+   "images": [],
+   "id": "492c41a1facd",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\log_{#}#\\cdot\\log_{#}#=\\)…",
+   "en": "\\(\\log_{5}3\\cdot\\log_{3}625=\\)…",
+   "vi": "\\(\\log_{5}3\\cdot\\log_{3}625=\\)…",
+   "options": [
+    "\\(3\\)",
+    "<span class=\"txi\"><span class=\"en\">\\(0.25\\)</span><span class=\"vi\">\\(0{,}25\\)</span></span>",
+    "\\(4\\)",
+    "\\(5\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\log_ab\\cdot\\log_bc=\\log_ac\\): \\(\\log_{5}625=4\\).",
+   "explain_vi": "Đáp án c. \\(\\log_ab\\cdot\\log_bc=\\log_ac\\): \\(\\log_{5}625=4\\).",
+   "images": [],
+   "id": "409f0cfdcf03",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\text{pH}=-\\log[\\text{H}^+]\\). A solution has \\([\\text{H}^+]=#\\cdot#^{-#}\\) mol/l. Given \\(\\log #\\approx#\\), its pH (to one decimal place) is…",
+   "en": "\\(\\text{pH}=-\\log[\\text{H}^+]\\). A solution has \\([\\text{H}^+]=2\\cdot10^{-8}\\) mol/l. Given \\(\\log 2\\approx0.3010\\), its pH (to one decimal place) is…",
+   "vi": "\\(\\text{pH}=-\\log[\\text{H}^+]\\). Một dung dịch có \\([\\text{H}^+]=2\\cdot10^{-8}\\) mol/l. Biết \\(\\log 2\\approx0{,}3010\\), độ pH của dung dịch (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"round to the nearest tenth\">làm tròn đến hàng phần mười</b>) là…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(7.3\\)</span><span class=\"vi\">\\(7{,}3\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(7.7\\)</span><span class=\"vi\">\\(7{,}7\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(8.3\\)</span><span class=\"vi\">\\(8{,}3\\)</span></span>",
+    "\\(8\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\text{pH}=-(\\log 2-8)=8-\\log 2\\approx7.7\\).",
+   "explain_vi": "Đáp án b. \\(\\text{pH}=-(\\log 2-8)=8-\\log 2\\approx7{,}7\\).",
+   "images": [],
+   "id": "7d434f178f36",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Given \\(\\log_{#}#=a\\), \\(\\log_{#}#=\\)…",
+   "en": "Given \\(\\log_{2}5=a\\), \\(\\log_{2}200=\\)…",
+   "vi": "Cho \\(\\log_{2}5=a\\). Khi đó \\(\\log_{2}200=\\)…",
+   "options": [
+    "\\(2+3a\\)",
+    "\\(3+2a\\)",
+    "\\(6a\\)",
+    "\\(3\\cdot2a\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(200=2^{3}\\cdot5^{2}\\).",
+   "explain_vi": "Đáp án b. \\(200=2^{3}\\cdot5^{2}\\).",
+   "images": [],
+   "id": "dd8370d319f5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(\\log_{#}#+\\log_{#}#=\\)…",
+   "en": "\\(\\log_{2}8+\\log_{2}16=\\)…",
+   "vi": "\\(\\log_{2}8+\\log_{2}16=\\)…",
+   "options": [
+    "\\(\\log_{2}24\\)",
+    "\\(8\\)",
+    "\\(128\\)",
+    "\\(7\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\log_{2}128=7\\).",
+   "explain_vi": "Đáp án d. \\(\\log_{2}128=7\\).",
+   "images": [],
+   "id": "f88b847ad47b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(\\log_{#}#=\\)…",
+   "en": "\\(\\log_{5}125=\\)…",
+   "vi": "\\(\\log_{5}125=\\)…",
+   "options": [
+    "\\(3\\)",
+    "\\(-3\\)",
+    "\\(4\\)",
+    "\\(25\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(5^{3}=125\\).",
+   "explain_vi": "Đáp án a. \\(5^{3}=125\\).",
+   "images": [],
+   "id": "e04605665a46",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(#^{\\log_# #}=#\\).",
+   "en": "\\(5^{\\log_5 7}=7\\).",
+   "vi": "\\(5^{\\log_5 7}=7\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "\\(a^{\\log_a b}=b\\).",
+   "explain_vi": "\\(a^{\\log_a b}=b\\).",
+   "images": [],
+   "id": "832be56e1d5f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(\\log_{\\frac#}#=#\\).",
+   "en": "\\(\\log_{\\frac12}8=3\\).",
+   "vi": "\\(\\log_{\\frac12}8=3\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "\\(\\left(\\dfrac12\\right)^{-3}=8\\), so it is \\(-3\\).",
+   "explain_vi": "\\(\\left(\\dfrac12\\right)^{-3}=8\\) nên bằng \\(-3\\).",
+   "images": [],
+   "id": "0cfd99ff74d9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Compute \\(\\log_{#}#-\\log_{#}#\\).",
+   "en": "Compute \\(\\log_{5}375-\\log_{5}3\\).",
+   "vi": "Tính \\(\\log_{5}375-\\log_{5}3\\).",
+   "options": [],
+   "answer": "3",
+   "explain_en": "\\(\\log_{5}125=3\\).",
+   "explain_vi": "\\(\\log_{5}\\dfrac{375}{3}=\\log_{5}125=3\\).",
+   "images": [],
+   "id": "49c7d239087d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Sound levels \\(L=#\\log\\dfrac{I}{I_#}\\): # dB and # dB. How many times more intense is the louder sound?",
+   "en": "Sound levels \\(L=10\\log\\dfrac{I}{I_0}\\): 20 dB and 50 dB. How many times more intense is the louder sound?",
+   "vi": "Hai âm có mức cường độ \\(L=10\\log\\dfrac{I}{I_0}\\) là 20 dB và 50 dB. Âm lớn hơn có cường độ gấp bao nhiêu lần?",
+   "options": [],
+   "answer": "1000",
+   "explain_en": "\\(\\dfrac{I_2}{I_1}=10^{(50-20)/10}=10^{3}\\).",
+   "explain_vi": "\\(\\dfrac{I_2}{I_1}=10^{(50-20)/10}=10^{3}\\).",
+   "images": [],
+   "id": "e8f5e729bf81",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Choose the positive number.",
+   "en": "Choose the positive number.",
+   "vi": "Chọn số dương.",
+   "options": [
+    "\\(\\log_{\\frac{1}{2}}7\\)",
+    "\\(\\log_{2}\\dfrac{3}{4}\\)",
+    "\\(\\log_{\\frac{1}{3}}\\dfrac{1}{2}\\)",
+    "\\(\\log_{\\frac{2}{3}}5\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\log_ax\\gt0\\) when \\(a\\) and \\(x\\) are both greater than 1 or both less than 1; only \\(\\log_{\\frac{1}{3}}\\dfrac{1}{2}\\) is positive.",
+   "explain_vi": "Đáp án c. \\(\\log_ax\\gt0\\) khi \\(a\\), \\(x\\) cùng lớn hơn 1 hoặc cùng nhỏ hơn 1; chỉ có \\(\\log_{\\frac{1}{3}}\\dfrac{1}{2}\\) dương.",
+   "images": [],
+   "id": "d56ad2533a66",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Given \\(\\log #\\approx#\\). How many digits does \\(#^{#}\\) have?",
+   "en": "Given \\(\\log 7\\approx0.8451\\). How many digits does \\(7^{25}\\) have?",
+   "vi": "Biết \\(\\log 7\\approx0{,}8451\\). Số \\(7^{25}\\) có bao nhiêu chữ số?",
+   "options": [
+    "\\(22\\)",
+    "\\(21\\)",
+    "\\(23\\)",
+    "\\(25\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\log 7^{25}=25\\log 7\\approx21.13\\); the number of digits is \\(\\lfloor 21.13\\rfloor+1=22\\).",
+   "explain_vi": "Đáp án a. \\(\\log 7^{25}=25\\log 7\\approx21{,}13\\); số chữ số là \\(\\lfloor 21{,}13\\rfloor+1=22\\).",
+   "images": [],
+   "id": "7a53e8901f7d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Money is saved at \\(#\\%\\) per year, compounded yearly. After how many whole years does it first at least triple?",
+   "en": "Money is saved at \\(9\\%\\) per year, compounded yearly. After how many whole years does it first at least triple?",
+   "vi": "Gửi tiết kiệm với lãi suất \\(9\\%\\)/năm, lãi nhập gốc hằng năm. Sau ít nhất bao nhiêu năm thì số tiền đạt ít nhất gấp ba số tiền ban đầu?",
+   "options": [
+    "\\(13\\)",
+    "\\(15\\)",
+    "\\(14\\)",
+    "\\(12\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(1.09^n\\ge3\\iff n\\ge\\log_{1.09}3\\approx12.75\\), so \\(n=13\\).",
+   "explain_vi": "Đáp án a. \\(1{,}09^n\\ge3\\iff n\\ge\\log_{1{,}09}3\\approx12{,}75\\) nên \\(n=13\\).",
+   "images": [],
+   "id": "bdeaa704db24",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The expression \\(\\log_{x+#}(#-x)\\) is defined when…",
+   "en": "The expression \\(\\log_{x+2}(3-x)\\) is defined when…",
+   "vi": "Biểu thức \\(\\log_{x+2}(3-x)\\) có nghĩa khi…",
+   "options": [
+    "\\(-2\\lt x\\lt 3,\\ x\\ne -1\\)",
+    "\\(x\\gt -2,\\ x\\ne -1\\)",
+    "\\(x\\lt 3,\\ x\\ne -1\\)",
+    "\\(-2\\lt x\\lt 3\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Need \\(x+2\\gt0\\), \\(x+2\\ne1\\) and \\(3-x\\gt0\\): \\(-2\\lt x\\lt 3,\\ x\\ne -1\\).",
+   "explain_vi": "Đáp án a. Cần \\(x+2\\gt0\\), \\(x+2\\ne1\\) và \\(3-x\\gt0\\): \\(-2\\lt x\\lt 3,\\ x\\ne -1\\).",
+   "images": [],
+   "id": "79106363df6b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Using the table, \\(\\log #\\approx\\)…\\(x\\)\\(#\\)\\(#\\)\\(#\\)\\(#\\)\\(\\log x\\)\\(\\approx#\\)\\(\\approx#\\)\\(\\approx#\\)\\(\\approx#\\)",
+   "en": "Using the table, \\(\\log 45\\approx\\)…<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">\\(x\\)</th><td>\\(2\\)</td><td>\\(3\\)</td><td>\\(5\\)</td><td>\\(7\\)</td></tr><tr><th scope=\"row\">\\(\\log x\\)</th><td>\\(\\approx0.3010\\)</td><td>\\(\\approx0.4771\\)</td><td>\\(\\approx0.6990\\)</td><td>\\(\\approx0.8451\\)</td></tr></tbody></table></div>",
+   "vi": "Dùng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"table of values\">bảng giá trị</b>, \\(\\log 45\\approx\\)…<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">\\(x\\)</th><td>\\(2\\)</td><td>\\(3\\)</td><td>\\(5\\)</td><td>\\(7\\)</td></tr><tr><th scope=\"row\">\\(\\log x\\)</th><td>\\(\\approx0{,}3010\\)</td><td>\\(\\approx0{,}4771\\)</td><td>\\(\\approx0{,}6990\\)</td><td>\\(\\approx0{,}8451\\)</td></tr></tbody></table></div>",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(1.8293\\)</span><span class=\"vi\">\\(1{,}8293\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(1.6532\\)</span><span class=\"vi\">\\(1{,}6532\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(1.3522\\)</span><span class=\"vi\">\\(1{,}3522\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(2.6532\\)</span><span class=\"vi\">\\(2{,}6532\\)</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\log 45=2\\log 3 + \\log 5\\approx1.6532\\).",
+   "explain_vi": "Đáp án b. \\(\\log 45=2\\log 3 + \\log 5\\approx1{,}6532\\).",
+   "images": [],
+   "id": "e423459d4986",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(#^{\\log_{#}#}=\\)…",
+   "en": "\\(27^{\\log_{3}7}=\\)…",
+   "vi": "\\(27^{\\log_{3}7}=\\)…",
+   "options": [
+    "\\(2401\\)",
+    "\\(7\\)",
+    "\\(343\\)",
+    "\\(21\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(27^{\\log_{3}7}=\\left(3^{\\log_{3}7}\\right)^{3}=7^{3}=343\\).",
+   "explain_vi": "Đáp án c. \\(27^{\\log_{3}7}=\\left(3^{\\log_{3}7}\\right)^{3}=7^{3}=343\\).",
+   "images": [],
+   "id": "21c660ff9580",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\log_{#}#\\cdot\\log_{#}#=\\)…",
+   "en": "\\(\\log_{3}7\\cdot\\log_{7}243=\\)…",
+   "vi": "\\(\\log_{3}7\\cdot\\log_{7}243=\\)…",
+   "options": [
+    "\\(4\\)",
+    "\\(7\\)",
+    "\\(5\\)",
+    "\\(6\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\log_ab\\cdot\\log_bc=\\log_ac\\): \\(\\log_{3}243=5\\).",
+   "explain_vi": "Đáp án c. \\(\\log_ab\\cdot\\log_bc=\\log_ac\\): \\(\\log_{3}243=5\\).",
+   "images": [],
+   "id": "654a8f858845",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\text{pH}=-\\log[\\text{H}^+]\\). A solution has \\([\\text{H}^+]=#\\cdot#^{-#}\\) mol/l. Given \\(\\log #\\approx#\\), its pH (to one decimal place) is…",
+   "en": "\\(\\text{pH}=-\\log[\\text{H}^+]\\). A solution has \\([\\text{H}^+]=3\\cdot10^{-6}\\) mol/l. Given \\(\\log 3\\approx0.4771\\), its pH (to one decimal place) is…",
+   "vi": "\\(\\text{pH}=-\\log[\\text{H}^+]\\). Một dung dịch có \\([\\text{H}^+]=3\\cdot10^{-6}\\) mol/l. Biết \\(\\log 3\\approx0{,}4771\\), độ pH của dung dịch (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"round to the nearest tenth\">làm tròn đến hàng phần mười</b>) là…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(4.5\\)</span><span class=\"vi\">\\(4{,}5\\)</span></span>",
+    "\\(6\\)",
+    "<span class=\"txi\"><span class=\"en\">\\(5.5\\)</span><span class=\"vi\">\\(5{,}5\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(6.5\\)</span><span class=\"vi\">\\(6{,}5\\)</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\text{pH}=-(\\log 3-6)=6-\\log 3\\approx5.5\\).",
+   "explain_vi": "Đáp án c. \\(\\text{pH}=-(\\log 3-6)=6-\\log 3\\approx5{,}5\\).",
+   "images": [],
+   "id": "67b2c2d7b7cf",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Given \\(\\log_{#}#=a\\). Then \\(\\log_{#}#=\\)…",
+   "en": "Given \\(\\log_{3}2=a\\). Then \\(\\log_{3}12=\\)…",
+   "vi": "Cho \\(\\log_{3}2=a\\). Khi đó \\(\\log_{3}12=\\)…",
+   "options": [
+    "\\(2+2a\\)",
+    "\\(2+1a\\)",
+    "\\(1+2a\\)",
+    "\\(2a\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(12=3^{1}\\cdot2^{2}\\Rightarrow\\log_{3}12=1+2\\log_{3}2\\).",
+   "explain_vi": "Đáp án c. \\(12=3^{1}\\cdot2^{2}\\Rightarrow\\log_{3}12=1+2\\log_{3}2\\).",
+   "images": [],
+   "id": "41feb10ccd78",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "If \\(\\log_{#}x=-#\\) then \\(x=\\)…",
+   "en": "If \\(\\log_{3}x=-2\\) then \\(x=\\)…",
+   "vi": "Nếu \\(\\log_{3}x=-2\\) thì \\(x=\\)…",
+   "options": [
+    "\\(\\dfrac{1}{9}\\)",
+    "\\(-\\dfrac{1}{9}\\)",
+    "\\(\\dfrac{1}{3}\\)",
+    "\\(-6\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(x=3^{-2}\\).",
+   "explain_vi": "Đáp án a. \\(\\log_a x=c\\iff x=a^c\\): \\(x=3^{-2}\\).",
+   "images": [],
+   "id": "6fabad9f2766",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Sound level \\(L=#\\log\\dfrac{I}{I_#}\\) (dB). A sound with \\(I=#^{#}I_#\\) has level…",
+   "en": "Sound level \\(L=10\\log\\dfrac{I}{I_0}\\) (dB). A sound with \\(I=10^{8}I_0\\) has level…",
+   "vi": "Mức cường độ âm \\(L=10\\log\\dfrac{I}{I_0}\\) (dB). Âm có \\(I=10^{8}I_0\\) có mức cường độ…",
+   "options": [
+    "\\(90\\text{ dB}\\)",
+    "\\(80\\text{ dB}\\)",
+    "\\(1000\\text{ dB}\\)",
+    "\\(8\\text{ dB}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(10\\cdot8=80\\).",
+   "explain_vi": "Đáp án b. \\(L=10\\log10^{8}=80\\) dB.",
+   "images": [],
+   "id": "214811a65ff4",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(#^{#\\log_{#}#}=\\)…",
+   "en": "\\(2^{3\\log_{2}3}=\\)…",
+   "vi": "\\(2^{3\\log_{2}3}=\\)…",
+   "options": [
+    "\\(27\\)",
+    "\\(9\\)",
+    "\\(3\\)",
+    "\\(6\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(a^{\\log_a b}=b\\): \\(2^{3\\log_{2}3}=3^{3}=27\\).",
+   "explain_vi": "Đáp án a. \\(a^{\\log_a b}=b\\): \\(2^{3\\log_{2}3}=3^{3}=27\\).",
+   "images": [],
+   "id": "583b559a14b8",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\log_{#}#+\\log_{#}#=\\)…",
+   "en": "\\(\\log_{10}5+\\log_{10}2=\\)…",
+   "vi": "\\(\\log_{10}5+\\log_{10}2=\\)…",
+   "options": [
+    "\\(2\\)",
+    "\\(0\\)",
+    "\\(1\\)",
+    "\\(7\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Use \\(\\log_a M\\pm\\log_a N=\\log_a(MN)\\) / \\(\\log_a\\dfrac MN\\): \\(\\log_{10}10=1\\).",
+   "explain_vi": "Đáp án c. \\(\\log_a M+\\log_a N=\\log_a(MN)\\), \\(\\log_a M-\\log_a N=\\log_a\\dfrac MN\\): được \\(\\log_{10}10=1\\).",
+   "images": [],
+   "id": "b042f7148a77",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\log_{#}#=\\)…",
+   "en": "\\(\\log_{9}3=\\)…",
+   "vi": "\\(\\log_{9}3=\\)…",
+   "options": [
+    "\\(\\dfrac{1}{2}\\)",
+    "\\(\\dfrac{1}{3}\\)",
+    "\\(2\\)",
+    "\\(\\dfrac{3}{2}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\log_{9}3=\\dfrac{\\log_{3}3}{\\log_{3}9}=\\dfrac{1}{2}\\).",
+   "explain_vi": "Đáp án a. Đổi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"base\">cơ số</b>: \\(\\log_{9}3=\\dfrac{\\log_{3}3}{\\log_{3}9}=\\dfrac{1}{2}\\).",
+   "images": [],
+   "id": "c5d9636b0dd1",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\log_{#}((x-#)^#)\\) is defined when…",
+   "en": "\\(\\log_{2}((x-1)^2)\\) is defined when…",
+   "vi": "\\(\\log_{3}((x-1)^2)\\) có nghĩa khi…",
+   "options": [
+    "\\(x\\ge1\\)",
+    "\\(x\\ne1\\)",
+    "\\(x\\in\\mathbb R\\)",
+    "\\(x\\gt1\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Need \\((x-1)^2\\gt0\\).",
+   "explain_vi": "Đáp án b. Cần \\((x-1)^2\\gt0\\).",
+   "images": [],
+   "id": "fec86cb49b20",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\log_{#}{\\dfrac{#}{\\sqrt{#}}}=\\)…",
+   "en": "\\(\\log_{3}{\\dfrac{1}{\\sqrt{3}}}=\\)…",
+   "vi": "\\(\\log_{3}{\\dfrac{1}{\\sqrt{3}}}=\\)…",
+   "options": [
+    "\\(-1\\)",
+    "\\(-\\dfrac{1}{2}\\)",
+    "\\(\\dfrac{1}{2}\\)",
+    "\\(-2\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(3^{-\\frac{1}{2}}=\\dfrac{1}{\\sqrt{3}}\\).",
+   "explain_vi": "Đáp án b. Vì \\(3^{-\\frac{1}{2}}=\\dfrac{1}{\\sqrt{3}}\\).",
+   "images": [],
+   "id": "a5a1a1b34ea7",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Given \\(\\log_{#}#=a\\). Then \\(\\log_{#}#=\\)…",
+   "en": "Given \\(\\log_{3}5=a\\). Then \\(\\log_{3}225=\\)…",
+   "vi": "Cho \\(\\log_{3}5=a\\). Khi đó \\(\\log_{3}225=\\)…",
+   "options": [
+    "\\(2+2a\\)",
+    "\\(3+2a\\)",
+    "\\(2\\cdot2a\\)",
+    "\\(4a\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(225=3^{2}\\cdot5^{2}\\Rightarrow\\log_{3}225=2+2\\log_{3}5\\).",
+   "explain_vi": "Đáp án a. \\(225=3^{2}\\cdot5^{2}\\Rightarrow\\log_{3}225=2+2\\log_{3}5\\).",
+   "images": [],
+   "id": "f6e3b97d79c5",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "If \\(\\log_{#}x=#\\) then \\(x=\\)…",
+   "en": "If \\(\\log_{5}x=2\\) then \\(x=\\)…",
+   "vi": "Nếu \\(\\log_{5}x=2\\) thì \\(x=\\)…",
+   "options": [
+    "\\(25\\)",
+    "\\(32\\)",
+    "\\(10\\)",
+    "\\(125\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(x=5^{2}\\).",
+   "explain_vi": "Đáp án a. \\(\\log_a x=c\\iff x=a^c\\): \\(x=5^{2}\\).",
+   "images": [],
+   "id": "b69166c4cfa8",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Sound level \\(L=#\\log\\dfrac{I}{I_#}\\) (dB). A sound with \\(I=#^{#}I_#\\) has level…",
+   "en": "Sound level \\(L=10\\log\\dfrac{I}{I_0}\\) (dB). A sound with \\(I=10^{5}I_0\\) has level…",
+   "vi": "Mức cường độ âm \\(L=10\\log\\dfrac{I}{I_0}\\) (dB). Âm có \\(I=10^{5}I_0\\) có mức cường độ…",
+   "options": [
+    "\\(50\\text{ dB}\\)",
+    "\\(1000\\text{ dB}\\)",
+    "\\(5\\text{ dB}\\)",
+    "\\(60\\text{ dB}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(10\\cdot5=50\\).",
+   "explain_vi": "Đáp án a. \\(L=10\\log10^{5}=50\\) dB.",
+   "images": [],
+   "id": "3684f3b3af4c",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(#^{#\\log_{#}#}=\\)…",
+   "en": "\\(2^{2\\log_{2}5}=\\)…",
+   "vi": "\\(2^{2\\log_{2}5}=\\)…",
+   "options": [
+    "\\(25\\)",
+    "\\(4\\)",
+    "\\(5\\)",
+    "\\(10\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(a^{\\log_a b}=b\\): \\(2^{2\\log_{2}5}=5^{2}=25\\).",
+   "explain_vi": "Đáp án a. \\(a^{\\log_a b}=b\\): \\(2^{2\\log_{2}5}=5^{2}=25\\).",
+   "images": [],
+   "id": "9e2087dabad1",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\log_{#}#+\\log_{#}#=\\)…",
+   "en": "\\(\\log_{2}4+\\log_{2}2=\\)…",
+   "vi": "\\(\\log_{2}4+\\log_{2}2=\\)…",
+   "options": [
+    "\\(4\\)",
+    "\\(3\\)",
+    "\\(2\\)",
+    "\\(6\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Use \\(\\log_a M\\pm\\log_a N=\\log_a(MN)\\) / \\(\\log_a\\dfrac MN\\): \\(\\log_{2}8=3\\).",
+   "explain_vi": "Đáp án b. \\(\\log_a M+\\log_a N=\\log_a(MN)\\), \\(\\log_a M-\\log_a N=\\log_a\\dfrac MN\\): được \\(\\log_{2}8=3\\).",
+   "images": [],
+   "id": "2d26b059179d",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\log_{#}#=\\)…",
+   "en": "\\(\\log_{32}4=\\)…",
+   "vi": "\\(\\log_{32}4=\\)…",
+   "options": [
+    "\\(\\dfrac{2}{5}\\)",
+    "\\(\\dfrac{7}{5}\\)",
+    "\\(\\dfrac{5}{2}\\)",
+    "\\(\\dfrac{1}{8}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\log_{32}4=\\dfrac{\\log_{2}4}{\\log_{2}32}=\\dfrac{2}{5}\\).",
+   "explain_vi": "Đáp án a. Đổi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"base\">cơ số</b>: \\(\\log_{32}4=\\dfrac{\\log_{2}4}{\\log_{2}32}=\\dfrac{2}{5}\\).",
+   "images": [],
+   "id": "cbfa9721764a",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\log_{#}((x+#)^#)\\) is defined when…",
+   "en": "\\(\\log_{2}((x+2)^2)\\) is defined when…",
+   "vi": "\\(\\log_{5}((x+2)^2)\\) có nghĩa khi…",
+   "options": [
+    "\\(x\\ne-2\\)",
+    "\\(x\\in\\mathbb R\\)",
+    "\\(x\\ge-2\\)",
+    "\\(x\\gt-2\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Need \\((x+2)^2\\gt0\\).",
+   "explain_vi": "Đáp án a. Cần \\((x+2)^2\\gt0\\).",
+   "images": [],
+   "id": "1c11e29a31e4",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\log_{#}{#\\sqrt{#}}=\\)…",
+   "en": "\\(\\log_{10}{10\\sqrt{10}}=\\)…",
+   "vi": "\\(\\log_{10}{10\\sqrt{10}}=\\)…",
+   "options": [
+    "\\(-\\dfrac{3}{2}\\)",
+    "\\(\\dfrac{5}{2}\\)",
+    "\\(\\dfrac{3}{2}\\)",
+    "\\(\\dfrac{2}{3}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(10^{\\frac{3}{2}}=10\\sqrt{10}\\).",
+   "explain_vi": "Đáp án c. Vì \\(10^{\\frac{3}{2}}=10\\sqrt{10}\\).",
+   "images": [],
+   "id": "3341c46a9b2c",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Sound levels \\(L=#\\log\\dfrac{I}{I_#}\\): # dB and # dB. How many times more intense is the louder sound?",
+   "en": "Sound levels \\(L=10\\log\\dfrac{I}{I_0}\\): 30 dB and 70 dB. How many times more intense is the louder sound?",
+   "vi": "Hai âm có mức cường độ \\(L=10\\log\\dfrac{I}{I_0}\\) là 30 dB và 70 dB. Âm lớn hơn có cường độ gấp bao nhiêu lần?",
+   "options": [],
+   "answer": "10000",
+   "explain_en": "\\(\\dfrac{I_2}{I_1}=10^{(70-30)/10}=10^{4}\\).",
+   "explain_vi": "\\(\\dfrac{I_2}{I_1}=10^{(70-30)/10}=10^{4}\\).",
+   "images": [],
+   "id": "f6ba95bba0a7",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Given \\(\\log_{#}#=a\\). Then \\(\\log_{#}#=\\)…",
+   "en": "Given \\(\\log_{2}5=a\\). Then \\(\\log_{2}100=\\)…",
+   "vi": "Cho \\(\\log_{2}5=a\\). Khi đó \\(\\log_{2}100=\\)…",
+   "options": [
+    "\\(2\\cdot2a\\)",
+    "\\(4a\\)",
+    "\\(3+2a\\)",
+    "\\(2+2a\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(100=2^{2}\\cdot5^{2}\\Rightarrow\\log_{2}100=2+2\\log_{2}5\\).",
+   "explain_vi": "Đáp án d. \\(100=2^{2}\\cdot5^{2}\\Rightarrow\\log_{2}100=2+2\\log_{2}5\\).",
+   "images": [],
+   "id": "d70ff22dd165",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "If \\(\\log_{#}x=#\\) then \\(x=\\)…",
+   "en": "If \\(\\log_{5}x=3\\) then \\(x=\\)…",
+   "vi": "Nếu \\(\\log_{5}x=3\\) thì \\(x=\\)…",
+   "options": [
+    "\\(243\\)",
+    "\\(125\\)",
+    "\\(15\\)",
+    "\\(625\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(x=5^{3}\\).",
+   "explain_vi": "Đáp án b. \\(\\log_a x=c\\iff x=a^c\\): \\(x=5^{3}\\).",
+   "images": [],
+   "id": "e8f0a8229503",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Sound level \\(L=#\\log\\dfrac{I}{I_#}\\) (dB). A sound with \\(I=#^{#}I_#\\) has level…",
+   "en": "Sound level \\(L=10\\log\\dfrac{I}{I_0}\\) (dB). A sound with \\(I=10^{10}I_0\\) has level…",
+   "vi": "Mức cường độ âm \\(L=10\\log\\dfrac{I}{I_0}\\) (dB). Âm có \\(I=10^{10}I_0\\) có mức cường độ…",
+   "options": [
+    "\\(1000\\text{ dB}\\)",
+    "\\(100\\text{ dB}\\)",
+    "\\(110\\text{ dB}\\)",
+    "\\(10\\text{ dB}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(10\\cdot10=100\\).",
+   "explain_vi": "Đáp án b. \\(L=10\\log10^{10}=100\\) dB.",
+   "images": [],
+   "id": "4d7f6c84f324",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(#^{#\\log_{#}#}=\\)…",
+   "en": "\\(2^{3\\log_{2}5}=\\)…",
+   "vi": "\\(2^{3\\log_{2}5}=\\)…",
+   "options": [
+    "\\(15\\)",
+    "\\(5\\)",
+    "\\(125\\)",
+    "\\(6\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(a^{\\log_a b}=b\\): \\(2^{3\\log_{2}5}=5^{3}=125\\).",
+   "explain_vi": "Đáp án c. \\(a^{\\log_a b}=b\\): \\(2^{3\\log_{2}5}=5^{3}=125\\).",
+   "images": [],
+   "id": "c09fe42e2caa",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\log_{#}#+\\log_{#}#=\\)…",
+   "en": "\\(\\log_{6}24+\\log_{6}9=\\)…",
+   "vi": "\\(\\log_{6}24+\\log_{6}9=\\)…",
+   "options": [
+    "\\(2\\)",
+    "\\(33\\)",
+    "\\(4\\)",
+    "\\(3\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Use \\(\\log_a M\\pm\\log_a N=\\log_a(MN)\\) / \\(\\log_a\\dfrac MN\\): \\(\\log_{6}216=3\\).",
+   "explain_vi": "Đáp án d. \\(\\log_a M+\\log_a N=\\log_a(MN)\\), \\(\\log_a M-\\log_a N=\\log_a\\dfrac MN\\): được \\(\\log_{6}216=3\\).",
+   "images": [],
+   "id": "c57fde887864",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\log_{#}#=\\)…",
+   "en": "\\(\\log_{2}4=\\)…",
+   "vi": "\\(\\log_{2}4=\\)…",
+   "options": [
+    "\\(3\\)",
+    "\\(\\dfrac{1}{2}\\)",
+    "\\(2\\)",
+    "\\(-2\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(2^{2}=4\\).",
+   "explain_vi": "Đáp án c. Vì \\(2^{2}=4\\).",
+   "images": [],
+   "id": "284d562b7dbd",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\log_{#}#=\\)…",
+   "en": "\\(\\log_{3}9=\\)…",
+   "vi": "\\(\\log_{3}9=\\)…",
+   "options": [
+    "\\(3\\)",
+    "\\(2\\)",
+    "\\(1\\)",
+    "\\(\\dfrac{1}{2}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\log_{3}9=\\dfrac{\\log_{3}9}{\\log_{3}3}=\\dfrac{2}{1}\\).",
+   "explain_vi": "Đáp án b. Đổi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"base\">cơ số</b>: \\(\\log_{3}9=\\dfrac{\\log_{3}9}{\\log_{3}3}=\\dfrac{2}{1}\\).",
+   "images": [],
+   "id": "e3008bf74de4",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\log_{#}((x+#)^#)\\) is defined when…",
+   "en": "\\(\\log_{5}((x+1)^2)\\) is defined when…",
+   "vi": "\\(\\log_{5}((x+1)^2)\\) có nghĩa khi…",
+   "options": [
+    "\\(x\\ne-1\\)",
+    "\\(x\\ge-1\\)",
+    "\\(x\\in\\mathbb R\\)",
+    "\\(x\\gt-1\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Need \\((x+1)^2\\gt0\\).",
+   "explain_vi": "Đáp án a. Cần \\((x+1)^2\\gt0\\).",
+   "images": [],
+   "id": "4fcdef3d85e0",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  }
+ ]
+}

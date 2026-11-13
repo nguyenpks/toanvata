@@ -1,0 +1,1563 @@
+{
+ "lesson": "g12-coord-02",
+ "grade": 12,
+ "no": 8,
+ "title": "Biểu thức tọa độ của các phép toán vectơ",
+ "path": "lessons/grade12/vectors-in-space/vector-coordinates.html",
+ "items": [
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(\\vec a=(#;#;#)\\), \\(\\vec b=(#;-#;#)\\). Then \\(#\\vec a-\\vec b=\\)…",
+   "en": "\\(\\vec a=(1;2;0)\\), \\(\\vec b=(3;-1;2)\\). Then \\(2\\vec a-\\vec b=\\)…",
+   "vi": "Cho \\(\\vec a=(1;2;0)\\), \\(\\vec b=(3;-1;2)\\). Khi đó \\(2\\vec a-\\vec b=\\)…",
+   "options": [
+    "\\((-1;5;-2)\\)",
+    "\\((5;3;2)\\)",
+    "\\((4;1;2)\\)",
+    "\\((5;-4;4)\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Work coordinate by coordinate.",
+   "explain_vi": "Đáp án a. Tính từng tọa độ.",
+   "images": [],
+   "id": "096a2493820f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(\\vec u=(#;-#;#)\\), \\(\\vec v=(#;#;#)\\). Then \\(\\vec u\\cdot\\vec v=\\)…",
+   "en": "\\(\\vec u=(2;-1;3)\\), \\(\\vec v=(1;4;2)\\). Then \\(\\vec u\\cdot\\vec v=\\)…",
+   "vi": "Cho \\(\\vec u=(2;-1;3)\\), \\(\\vec v=(1;4;2)\\). Khi đó \\(\\vec u\\cdot\\vec v=\\)…",
+   "options": [
+    "\\(-4\\)",
+    "\\(6\\)",
+    "\\(1\\)",
+    "\\(4\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(x_1x_2+y_1y_2+z_1z_2=4\\).",
+   "explain_vi": "Đáp án d. \\(x_1x_2+y_1y_2+z_1z_2=4\\).",
+   "images": [],
+   "id": "0f7433d86bc6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(\\vec w=(#;-#;#)\\). Then \\(|\\vec w|=\\)…",
+   "en": "\\(\\vec w=(2;-3;6)\\). Then \\(|\\vec w|=\\)…",
+   "vi": "Cho \\(\\vec w=(2;-3;6)\\). Khi đó \\(|\\vec w|=\\)…",
+   "options": [
+    "\\(49\\)",
+    "\\(8\\)",
+    "\\(7\\)",
+    "\\(11\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(|\\vec w|=\\sqrt{49}=7\\).",
+   "explain_vi": "Đáp án c. \\(|\\vec w|=\\sqrt{49}=7\\).",
+   "images": [],
+   "id": "a47227ddb6fa",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(\\vec e=(#;#;#)\\) and \\(\\vec f=(#;-#;#)\\) are perpendicular.",
+   "en": "\\(\\vec e=(1;2;2)\\) and \\(\\vec f=(2;-2;1)\\) are perpendicular.",
+   "vi": "Hai vectơ \\(\\vec e=(1;2;2)\\) và \\(\\vec f=(2;-2;1)\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"perpendicular\">vuông góc</b>.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "Check whether \\(\\vec e\\cdot\\vec f=0\\) is 0.",
+   "explain_vi": "Kiểm tra \\(\\vec e\\cdot\\vec f=0\\) có bằng 0 không.",
+   "images": [],
+   "id": "61a6f9ead954",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(\\vec p=(#;-#;#)\\) and \\(\\vec q=(#;-#;#)\\) are collinear.",
+   "en": "\\(\\vec p=(1;-2;3)\\) and \\(\\vec q=(2;-4;6)\\) are collinear.",
+   "vi": "Hai vectơ \\(\\vec p=(1;-2;3)\\) và \\(\\vec q=(2;-4;6)\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"collinear vectors\">cùng phương</b>.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "Collinear means \\(\\vec q=k\\vec p\\): all three ratios must be equal.",
+   "explain_vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"collinear vectors\">Cùng phương</b> nghĩa là \\(\\vec q=k\\vec p\\): cả ba <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ratio\">tỉ số</b> phải bằng nhau.",
+   "images": [],
+   "id": "cf2d45259978",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "Points \\(P(#;#;#)\\) and \\(Q(#;-#;-#)\\). Find \\(|\\overrightarrow{PQ}|\\).",
+   "en": "Points \\(P(4;2;5)\\) and \\(Q(2;-1;-1)\\). Find \\(|\\overrightarrow{PQ}|\\).",
+   "vi": "Cho \\(P(4;2;5)\\), \\(Q(2;-1;-1)\\). Tính \\(|\\overrightarrow{PQ}|\\).",
+   "options": [],
+   "answer": "7",
+   "explain_en": "\\(\\overrightarrow{PQ}=Q-P\\), so \\(|\\overrightarrow{PQ}|=7\\).",
+   "explain_vi": "\\(\\overrightarrow{PQ}=Q-P\\) nên \\(|\\overrightarrow{PQ}|=7\\).",
+   "images": [],
+   "id": "efb4e29f1b55",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "\\(\\vec g=(#;#;#)\\), \\(\\vec h=(#;#;m)\\). Find \\(m\\) so that \\(\\vec g\\perp\\vec h\\).",
+   "en": "\\(\\vec g=(1;2;2)\\), \\(\\vec h=(4;3;m)\\). Find \\(m\\) so that \\(\\vec g\\perp\\vec h\\).",
+   "vi": "Cho \\(\\vec g=(1;2;2)\\), \\(\\vec h=(4;3;m)\\). Tìm \\(m\\) để \\(\\vec g\\perp\\vec h\\).",
+   "options": [],
+   "answer": "-5",
+   "explain_en": "\\(\\vec g\\cdot\\vec h=0\\) gives \\(m=-5\\).",
+   "explain_vi": "\\(\\vec g\\cdot\\vec h=0\\) cho \\(m=-5\\).",
+   "images": [],
+   "id": "647821786e61",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "A drone hovers still under three forces \\(\\vec F_#=(#;\\,#;\\,-#)\\), \\(\\vec F_#=(#;\\,-#;\\,-#)\\) and \\(\\vec F_#\\) (newtons). Then \\(\\vec F_#=\\)…",
+   "en": "A drone hovers still under three forces \\(\\vec F_1=(0;\\,4;\\,-5)\\), \\(\\vec F_2=(4;\\,-4;\\,-2)\\) and \\(\\vec F_3\\) (newtons). Then \\(\\vec F_3=\\)…",
+   "vi": "Một drone đứng yên dưới tác dụng của ba lực \\(\\vec F_1=(0;\\,4;\\,-5)\\), \\(\\vec F_2=(4;\\,-4;\\,-2)\\) và \\(\\vec F_3\\) (đơn vị N). Khi đó \\(\\vec F_3=\\)…",
+   "options": [
+    "\\((-4;\\,8;\\,-3)\\)",
+    "\\((-4;\\,0;\\,7)\\)",
+    "\\((4;\\,0;\\,-7)\\)",
+    "\\((4;\\,-8;\\,3)\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Standing still: \\(\\vec F_1+\\vec F_2+\\vec F_3=\\vec0\\Rightarrow\\vec F_3=-(\\vec F_1+\\vec F_2)=(-4;\\,0;\\,7)\\).",
+   "explain_vi": "Đáp án b. Đứng yên: \\(\\vec F_1+\\vec F_2+\\vec F_3=\\vec0\\Rightarrow\\vec F_3=-(\\vec F_1+\\vec F_2)=(-4;\\,0;\\,7)\\).",
+   "images": [],
+   "id": "e181e38bbfa7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The angle between \\(\\vec a=(#;\\,#;\\,#)\\) and \\(\\vec b=(#;\\,#;\\,-#)\\) is…",
+   "en": "The angle between \\(\\vec a=(0;\\,1;\\,1)\\) and \\(\\vec b=(0;\\,0;\\,-3)\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"angle between vectors\">Góc giữa hai vectơ</b> \\(\\vec a=(0;\\,1;\\,1)\\) và \\(\\vec b=(0;\\,0;\\,-3)\\) bằng…",
+   "options": [
+    "\\(150^\\circ\\)",
+    "\\(135^\\circ\\)",
+    "\\(45^\\circ\\)",
+    "\\(120^\\circ\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\cos=\\dfrac{-3}{\\sqrt{2}\\cdot\\sqrt{9}}\\), whose square is \\(\\dfrac{1}{2}\\); the angle is \\(135^\\circ\\).",
+   "explain_vi": "Đáp án b. \\(\\cos=\\dfrac{-3}{\\sqrt{2}\\cdot\\sqrt{9}}\\), bình phương bằng \\(\\dfrac{1}{2}\\); góc bằng \\(135^\\circ\\).",
+   "images": [],
+   "id": "90bbf1a03446",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The rectangular box \\(OABC.O'A'B'C'\\) has \\(O\\) at the origin and \\(B'(#;\\,#;\\,#)\\) (see the figure). Then \\(\\overrightarrow{OB'}\\cdot\\overrightarrow{CA'}=\\)…",
+   "en": "The rectangular box \\(OABC.O'A'B'C'\\) has \\(O\\) at the origin and \\(B'(2;\\,3;\\,4)\\) (see the figure). Then \\(\\overrightarrow{OB'}\\cdot\\overrightarrow{CA'}=\\)…<img src=\"../../../img/fig3d/251ea34fcb8c5589.svg\" alt=\"Box\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelepiped\">Hình hộp</b> chữ nhật \\(OABC.O'A'B'C'\\) có \\(O\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"origin\">gốc tọa độ</b> và \\(B'(2;\\,3;\\,4)\\) (xem hình). Khi đó \\(\\overrightarrow{OB'}\\cdot\\overrightarrow{CA'}=\\)…<img src=\"../../../img/fig3d/251ea34fcb8c5589.svg\" alt=\"Box\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "\\(-11\\)",
+    "\\(11\\)",
+    "\\(29\\)",
+    "\\(13\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\overrightarrow{OB'}=(2;\\,3;\\,4)\\), \\(\\overrightarrow{CA'}=(2;\\,-3;\\,4)\\), dot product \\(11\\).",
+   "explain_vi": "Đáp án b. \\(\\overrightarrow{OB'}=(2;\\,3;\\,4)\\), \\(\\overrightarrow{CA'}=(2;\\,-3;\\,4)\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"dot product (scalar product)\">tích vô hướng</b> bằng \\(11\\).",
+   "images": [
+    "img/fig3d/251ea34fcb8c5589.svg"
+   ],
+   "id": "6006b033c1c3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(A(#;\\,#;\\,#)\\), \\(B(-#;\\,#;\\,#)\\), \\(C(#;\\,-#;\\,-#)\\). Then \\(\\cos\\widehat{BAC}=\\)…",
+   "en": "\\(A(1;\\,3;\\,3)\\), \\(B(-1;\\,2;\\,1)\\), \\(C(0;\\,-1;\\,-5)\\). Then \\(\\cos\\widehat{BAC}=\\)…",
+   "vi": "Cho \\(A(1;\\,3;\\,3)\\), \\(B(-1;\\,2;\\,1)\\), \\(C(0;\\,-1;\\,-5)\\). Khi đó \\(\\cos\\widehat{BAC}=\\)…",
+   "options": [
+    "\\(\\dfrac{11}{45}\\)",
+    "\\(\\dfrac{22}{27}\\)",
+    "\\(-\\dfrac{22}{27}\\)",
+    "\\(\\dfrac{11}{27}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\overrightarrow{AB}=(-2;\\,-1;\\,-2)\\), \\(\\overrightarrow{AC}=(-1;\\,-4;\\,-8)\\): \\(\\cos=\\dfrac{22}{3\\cdot9}=\\dfrac{22}{27}\\).",
+   "explain_vi": "Đáp án b. \\(\\overrightarrow{AB}=(-2;\\,-1;\\,-2)\\), \\(\\overrightarrow{AC}=(-1;\\,-4;\\,-8)\\): \\(\\cos=\\dfrac{22}{3\\cdot9}=\\dfrac{22}{27}\\).",
+   "images": [],
+   "id": "818a76a43e0f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\vec a+\\vec b=(#;\\,-#;\\,#)\\) and \\(\\vec a-\\vec b=(#;\\,-#;\\,#)\\). Then \\(\\vec b=\\)…",
+   "en": "\\(\\vec a+\\vec b=(10;\\,-1;\\,3)\\) and \\(\\vec a-\\vec b=(0;\\,-1;\\,3)\\). Then \\(\\vec b=\\)…",
+   "vi": "Cho \\(\\vec a+\\vec b=(10;\\,-1;\\,3)\\) và \\(\\vec a-\\vec b=(0;\\,-1;\\,3)\\). Khi đó \\(\\vec b=\\)…",
+   "options": [
+    "\\((5;\\,0;\\,0)\\)",
+    "\\((0;\\,-1;\\,3)\\)",
+    "\\((5;\\,-1;\\,3)\\)",
+    "\\((10;\\,-1;\\,3)\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Add or subtract the two equalities: \\(\\vec a=\\dfrac{(10;\\,-1;\\,3)+(0;\\,-1;\\,3)}{2}=(5;\\,-1;\\,3)\\), \\(\\vec b=(5;\\,0;\\,0)\\).",
+   "explain_vi": "Đáp án a. Cộng hoặc trừ hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"identity\">đẳng thức</b>: \\(\\vec a=\\dfrac{(10;\\,-1;\\,3)+(0;\\,-1;\\,3)}{2}=(5;\\,-1;\\,3)\\), \\(\\vec b=(5;\\,0;\\,0)\\).",
+   "images": [],
+   "id": "fbbd4a735fce",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\vec a=(#;m;#)\\), \\(\\vec b=(-#;\\,-#;\\,#)\\). The angle between \\(\\vec a\\) and \\(\\vec b\\) is obtuse exactly when…",
+   "en": "\\(\\vec a=(3;m;2)\\), \\(\\vec b=(-1;\\,-1;\\,3)\\). The angle between \\(\\vec a\\) and \\(\\vec b\\) is obtuse exactly when…",
+   "vi": "Cho \\(\\vec a=(3;m;2)\\), \\(\\vec b=(-1;\\,-1;\\,3)\\). Góc giữa \\(\\vec a\\) và \\(\\vec b\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"obtuse angle\">góc tù</b> khi và chỉ khi…",
+   "options": [
+    "\\(m\\lt 3\\)",
+    "\\(m\\gt 3\\)",
+    "\\(m\\gt -3\\)",
+    "\\(m=3\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Obtuse \\(\\Leftrightarrow\\vec a\\cdot\\vec b\\lt0\\) (the vectors are never collinear here): \\(3-1m\\lt0\\Leftrightarrow m\\gt 3\\).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"obtuse angle\">Góc tù</b> \\(\\Leftrightarrow\\vec a\\cdot\\vec b\\lt0\\) (ở đây hai vectơ không thể <b class=\"mbl-term\" tabindex=\"0\" data-en=\"collinear vectors\">cùng phương</b>): \\(3-1m\\lt0\\Leftrightarrow m\\gt 3\\).",
+   "images": [],
+   "id": "ca85907b9bd3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\vec a=(m;-#;-#)\\) with \\(m\\gt#\\) and \\(|\\vec a|=#\\). Then \\(m=\\)…",
+   "en": "\\(\\vec a=(m;-6;-6)\\) with \\(m\\gt0\\) and \\(|\\vec a|=11\\). Then \\(m=\\)…",
+   "vi": "Cho \\(\\vec a=(m;-6;-6)\\) với \\(m\\gt0\\) và \\(|\\vec a|=11\\). Khi đó \\(m=\\)…",
+   "options": [
+    "\\(11\\)",
+    "\\(49\\)",
+    "\\(7\\)",
+    "\\(-1\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(m^2+36+36=121\\Rightarrow m^2=49\\Rightarrow m=7\\).",
+   "explain_vi": "Đáp án c. \\(m^2+36+36=121\\Rightarrow m^2=49\\Rightarrow m=7\\).",
+   "images": [],
+   "id": "c52068ac694d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\vec b\\) has the opposite direction to \\(\\vec a=(-#;\\,#;\\,#)\\) and \\(|\\vec b|=#\\). Then \\(\\vec b=\\)…",
+   "en": "\\(\\vec b\\) has the opposite direction to \\(\\vec a=(-4;\\,3;\\,12)\\) and \\(|\\vec b|=26\\). Then \\(\\vec b=\\)…",
+   "vi": "Vectơ \\(\\vec b\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"opposite directions\">ngược hướng</b> với \\(\\vec a=(-4;\\,3;\\,12)\\) và \\(|\\vec b|=26\\). Khi đó \\(\\vec b=\\)…",
+   "options": [
+    "\\((8;\\,-6;\\,-24)\\)",
+    "\\((-8;\\,6;\\,24)\\)",
+    "\\((104;\\,-78;\\,-312)\\)",
+    "\\((4;\\,-3;\\,-12)\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(|\\vec a|=13\\), so \\(\\vec b=-2\\vec a=(8;\\,-6;\\,-24)\\).",
+   "explain_vi": "Đáp án a. \\(|\\vec a|=13\\), nên \\(\\vec b=-2\\vec a=(8;\\,-6;\\,-24)\\).",
+   "images": [],
+   "id": "b59e43a32949",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(\\vec a=(#;-#;#)\\), \\(\\vec b=(#;#;-#)\\). Then \\(\\vec a+#\\vec b=\\)…",
+   "en": "\\(\\vec a=(2;-1;3)\\), \\(\\vec b=(0;4;-2)\\). Then \\(\\vec a+3\\vec b=\\)…",
+   "vi": "Cho \\(\\vec a=(2;-1;3)\\), \\(\\vec b=(0;4;-2)\\). Khi đó \\(\\vec a+3\\vec b=\\)…",
+   "options": [
+    "\\((2;11;-3)\\)",
+    "\\((2;-13;9)\\)",
+    "\\((2;3;1)\\)",
+    "\\((6;1;7)\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Work coordinate by coordinate.",
+   "explain_vi": "Đáp án a. Tính từng tọa độ.",
+   "images": [],
+   "id": "87f60108018b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(\\vec u=(#;#;-#)\\), \\(\\vec v=(#;#;#)\\). Then \\(\\vec u\\cdot\\vec v=\\)…",
+   "en": "\\(\\vec u=(3;0;-2)\\), \\(\\vec v=(1;5;4)\\). Then \\(\\vec u\\cdot\\vec v=\\)…",
+   "vi": "Cho \\(\\vec u=(3;0;-2)\\), \\(\\vec v=(1;5;4)\\). Khi đó \\(\\vec u\\cdot\\vec v=\\)…",
+   "options": [
+    "\\(-5\\)",
+    "\\(5\\)",
+    "\\(-3\\)",
+    "\\(-8\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(x_1x_2+y_1y_2+z_1z_2=-5\\).",
+   "explain_vi": "Đáp án a. \\(x_1x_2+y_1y_2+z_1z_2=-5\\).",
+   "images": [],
+   "id": "22eb3ea13c97",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(\\vec w=(-#;#;#)\\). Then \\(|\\vec w|=\\)…",
+   "en": "\\(\\vec w=(-4;4;7)\\). Then \\(|\\vec w|=\\)…",
+   "vi": "Cho \\(\\vec w=(-4;4;7)\\). Khi đó \\(|\\vec w|=\\)…",
+   "options": [
+    "\\(81\\)",
+    "\\(10\\)",
+    "\\(9\\)",
+    "\\(15\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(|\\vec w|=\\sqrt{81}=9\\).",
+   "explain_vi": "Đáp án c. \\(|\\vec w|=\\sqrt{81}=9\\).",
+   "images": [],
+   "id": "4add85e58d1b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(\\vec e=(#;#;#)\\) and \\(\\vec f=(#;#;#)\\) are perpendicular.",
+   "en": "\\(\\vec e=(3;0;4)\\) and \\(\\vec f=(4;1;3)\\) are perpendicular.",
+   "vi": "Hai vectơ \\(\\vec e=(3;0;4)\\) và \\(\\vec f=(4;1;3)\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"perpendicular\">vuông góc</b>.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "Check whether \\(\\vec e\\cdot\\vec f=24\\) is 0.",
+   "explain_vi": "Kiểm tra \\(\\vec e\\cdot\\vec f=24\\) có bằng 0 không.",
+   "images": [],
+   "id": "abed1a73e568",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(\\vec p=(#;#;#)\\) and \\(\\vec q=(#;#;#)\\) are collinear.",
+   "en": "\\(\\vec p=(2;1;0)\\) and \\(\\vec q=(6;3;1)\\) are collinear.",
+   "vi": "Hai vectơ \\(\\vec p=(2;1;0)\\) và \\(\\vec q=(6;3;1)\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"collinear vectors\">cùng phương</b>.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "Collinear means \\(\\vec q=k\\vec p\\): all three ratios must be equal.",
+   "explain_vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"collinear vectors\">Cùng phương</b> nghĩa là \\(\\vec q=k\\vec p\\): cả ba <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ratio\">tỉ số</b> phải bằng nhau.",
+   "images": [],
+   "id": "a85234e5e1d5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "Points \\(P(#;#;-#)\\) and \\(Q(#;-#;-#)\\). Find \\(|\\overrightarrow{PQ}|\\).",
+   "en": "Points \\(P(2;0;-1)\\) and \\(Q(1;-4;-9)\\). Find \\(|\\overrightarrow{PQ}|\\).",
+   "vi": "Cho \\(P(2;0;-1)\\), \\(Q(1;-4;-9)\\). Tính \\(|\\overrightarrow{PQ}|\\).",
+   "options": [],
+   "answer": "9",
+   "explain_en": "\\(\\overrightarrow{PQ}=Q-P\\), so \\(|\\overrightarrow{PQ}|=9\\).",
+   "explain_vi": "\\(\\overrightarrow{PQ}=Q-P\\) nên \\(|\\overrightarrow{PQ}|=9\\).",
+   "images": [],
+   "id": "42941a7e1abb",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "\\(\\vec g=(#;-#;#)\\), \\(\\vec h=(#;#;m)\\). Find \\(m\\) so that \\(\\vec g\\perp\\vec h\\).",
+   "en": "\\(\\vec g=(3;-1;2)\\), \\(\\vec h=(1;5;m)\\). Find \\(m\\) so that \\(\\vec g\\perp\\vec h\\).",
+   "vi": "Cho \\(\\vec g=(3;-1;2)\\), \\(\\vec h=(1;5;m)\\). Tìm \\(m\\) để \\(\\vec g\\perp\\vec h\\).",
+   "options": [],
+   "answer": "1",
+   "explain_en": "\\(\\vec g\\cdot\\vec h=0\\) gives \\(m=1\\).",
+   "explain_vi": "\\(\\vec g\\cdot\\vec h=0\\) cho \\(m=1\\).",
+   "images": [],
+   "id": "cc33cccaf0e0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "A drone hovers still under three forces \\(\\vec F_#=(-#;\\,-#;\\,-#)\\), \\(\\vec F_#=(#;\\,-#;\\,#)\\) and \\(\\vec F_#\\) (newtons). Then \\(\\vec F_#=\\)…",
+   "en": "A drone hovers still under three forces \\(\\vec F_1=(-8;\\,-8;\\,-7)\\), \\(\\vec F_2=(6;\\,-4;\\,2)\\) and \\(\\vec F_3\\) (newtons). Then \\(\\vec F_3=\\)…",
+   "vi": "Một drone đứng yên dưới tác dụng của ba lực \\(\\vec F_1=(-8;\\,-8;\\,-7)\\), \\(\\vec F_2=(6;\\,-4;\\,2)\\) và \\(\\vec F_3\\) (đơn vị N). Khi đó \\(\\vec F_3=\\)…",
+   "options": [
+    "\\((-14;\\,-4;\\,-9)\\)",
+    "\\((2;\\,12;\\,5)\\)",
+    "\\((14;\\,4;\\,9)\\)",
+    "\\((-2;\\,-12;\\,-5)\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Standing still: \\(\\vec F_1+\\vec F_2+\\vec F_3=\\vec0\\Rightarrow\\vec F_3=-(\\vec F_1+\\vec F_2)=(2;\\,12;\\,5)\\).",
+   "explain_vi": "Đáp án b. Đứng yên: \\(\\vec F_1+\\vec F_2+\\vec F_3=\\vec0\\Rightarrow\\vec F_3=-(\\vec F_1+\\vec F_2)=(2;\\,12;\\,5)\\).",
+   "images": [],
+   "id": "d9cd0e987370",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The angle between \\(\\vec a=(-#;\\,-#;\\,#)\\) and \\(\\vec b=(-#;\\,#;\\,-#)\\) is…",
+   "en": "The angle between \\(\\vec a=(-1;\\,-2;\\,3)\\) and \\(\\vec b=(-2;\\,3;\\,-1)\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"angle between vectors\">Góc giữa hai vectơ</b> \\(\\vec a=(-1;\\,-2;\\,3)\\) và \\(\\vec b=(-2;\\,3;\\,-1)\\) bằng…",
+   "options": [
+    "\\(150^\\circ\\)",
+    "\\(60^\\circ\\)",
+    "\\(135^\\circ\\)",
+    "\\(120^\\circ\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\cos=\\dfrac{-7}{\\sqrt{14}\\cdot\\sqrt{14}}\\), whose square is \\(\\dfrac{1}{4}\\); the angle is \\(120^\\circ\\).",
+   "explain_vi": "Đáp án d. \\(\\cos=\\dfrac{-7}{\\sqrt{14}\\cdot\\sqrt{14}}\\), bình phương bằng \\(\\dfrac{1}{4}\\); góc bằng \\(120^\\circ\\).",
+   "images": [],
+   "id": "f9eefd055f17",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The rectangular box \\(OABC.O'A'B'C'\\) has \\(O\\) at the origin and \\(B'(#;\\,#;\\,#)\\) (see the figure). Then \\(\\overrightarrow{A'C}\\cdot\\overrightarrow{OB}=\\)…",
+   "en": "The rectangular box \\(OABC.O'A'B'C'\\) has \\(O\\) at the origin and \\(B'(4;\\,3;\\,2)\\) (see the figure). Then \\(\\overrightarrow{A'C}\\cdot\\overrightarrow{OB}=\\)…<img src=\"../../../img/fig3d/b5b8a77084b62e2e.svg\" alt=\"Box\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelepiped\">Hình hộp</b> chữ nhật \\(OABC.O'A'B'C'\\) có \\(O\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"origin\">gốc tọa độ</b> và \\(B'(4;\\,3;\\,2)\\) (xem hình). Khi đó \\(\\overrightarrow{A'C}\\cdot\\overrightarrow{OB}=\\)…<img src=\"../../../img/fig3d/b5b8a77084b62e2e.svg\" alt=\"Box\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "\\(29\\)",
+    "\\(-7\\)",
+    "\\(7\\)",
+    "\\(-5\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\overrightarrow{A'C}=(-4;\\,3;\\,-2)\\), \\(\\overrightarrow{OB}=(4;\\,3;\\,0)\\), dot product \\(-7\\).",
+   "explain_vi": "Đáp án b. \\(\\overrightarrow{A'C}=(-4;\\,3;\\,-2)\\), \\(\\overrightarrow{OB}=(4;\\,3;\\,0)\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"dot product (scalar product)\">tích vô hướng</b> bằng \\(-7\\).",
+   "images": [
+    "img/fig3d/b5b8a77084b62e2e.svg"
+   ],
+   "id": "927e3ef64bce",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(A(-#;\\,-#;\\,#)\\), \\(B(-#;\\,#;\\,-#)\\), \\(C(-#;\\,-#;\\,#)\\). Then \\(\\cos\\widehat{BAC}=\\)…",
+   "en": "\\(A(-2;\\,-1;\\,2)\\), \\(B(-1;\\,3;\\,-6)\\), \\(C(-3;\\,-3;\\,4)\\). Then \\(\\cos\\widehat{BAC}=\\)…",
+   "vi": "Cho \\(A(-2;\\,-1;\\,2)\\), \\(B(-1;\\,3;\\,-6)\\), \\(C(-3;\\,-3;\\,4)\\). Khi đó \\(\\cos\\widehat{BAC}=\\)…",
+   "options": [
+    "\\(\\dfrac{25}{27}\\)",
+    "\\(-\\dfrac{5}{18}\\)",
+    "\\(-\\dfrac{25}{27}\\)",
+    "\\(-\\dfrac{25}{54}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\overrightarrow{AB}=(1;\\,4;\\,-8)\\), \\(\\overrightarrow{AC}=(-1;\\,-2;\\,2)\\): \\(\\cos=\\dfrac{-25}{9\\cdot3}=-\\dfrac{25}{27}\\).",
+   "explain_vi": "Đáp án c. \\(\\overrightarrow{AB}=(1;\\,4;\\,-8)\\), \\(\\overrightarrow{AC}=(-1;\\,-2;\\,2)\\): \\(\\cos=\\dfrac{-25}{9\\cdot3}=-\\dfrac{25}{27}\\).",
+   "images": [],
+   "id": "153e22c90a7f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\vec a+\\vec b=(#;\\,-#;\\,#)\\) and \\(\\vec a-\\vec b=(-#;\\,#;\\,-#)\\). Then \\(\\vec a=\\)…",
+   "en": "\\(\\vec a+\\vec b=(8;\\,-7;\\,6)\\) and \\(\\vec a-\\vec b=(-2;\\,1;\\,-4)\\). Then \\(\\vec a=\\)…",
+   "vi": "Cho \\(\\vec a+\\vec b=(8;\\,-7;\\,6)\\) và \\(\\vec a-\\vec b=(-2;\\,1;\\,-4)\\). Khi đó \\(\\vec a=\\)…",
+   "options": [
+    "\\((8;\\,-7;\\,6)\\)",
+    "\\((5;\\,-4;\\,5)\\)",
+    "\\((-2;\\,1;\\,-4)\\)",
+    "\\((3;\\,-3;\\,1)\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Add or subtract the two equalities: \\(\\vec a=\\dfrac{(8;\\,-7;\\,6)+(-2;\\,1;\\,-4)}{2}=(3;\\,-3;\\,1)\\), \\(\\vec b=(5;\\,-4;\\,5)\\).",
+   "explain_vi": "Đáp án d. Cộng hoặc trừ hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"identity\">đẳng thức</b>: \\(\\vec a=\\dfrac{(8;\\,-7;\\,6)+(-2;\\,1;\\,-4)}{2}=(3;\\,-3;\\,1)\\), \\(\\vec b=(5;\\,-4;\\,5)\\).",
+   "images": [],
+   "id": "19dc80507b7e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\vec a=(#;m;-#)\\), \\(\\vec b=(#;\\,#;\\,-#)\\). The angle between \\(\\vec a\\) and \\(\\vec b\\) is obtuse exactly when…",
+   "en": "\\(\\vec a=(1;m;-3)\\), \\(\\vec b=(1;\\,2;\\,-1)\\). The angle between \\(\\vec a\\) and \\(\\vec b\\) is obtuse exactly when…",
+   "vi": "Cho \\(\\vec a=(1;m;-3)\\), \\(\\vec b=(1;\\,2;\\,-1)\\). Góc giữa \\(\\vec a\\) và \\(\\vec b\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"obtuse angle\">góc tù</b> khi và chỉ khi…",
+   "options": [
+    "\\(m\\lt -2\\)",
+    "\\(m\\gt -2\\)",
+    "\\(m\\lt 2\\)",
+    "\\(m=-2\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Obtuse \\(\\Leftrightarrow\\vec a\\cdot\\vec b\\lt0\\) (the vectors are never collinear here): \\(4+2m\\lt0\\Leftrightarrow m\\lt -2\\).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"obtuse angle\">Góc tù</b> \\(\\Leftrightarrow\\vec a\\cdot\\vec b\\lt0\\) (ở đây hai vectơ không thể <b class=\"mbl-term\" tabindex=\"0\" data-en=\"collinear vectors\">cùng phương</b>): \\(4+2m\\lt0\\Leftrightarrow m\\lt -2\\).",
+   "images": [],
+   "id": "b26cb9858334",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\vec a=(m;#;-#)\\) with \\(m\\gt#\\) and \\(|\\vec a|=#\\). Then \\(m=\\)…",
+   "en": "\\(\\vec a=(m;3;-2)\\) with \\(m\\gt0\\) and \\(|\\vec a|=7\\). Then \\(m=\\)…",
+   "vi": "Cho \\(\\vec a=(m;3;-2)\\) với \\(m\\gt0\\) và \\(|\\vec a|=7\\). Khi đó \\(m=\\)…",
+   "options": [
+    "\\(36\\)",
+    "\\(7\\)",
+    "\\(2\\)",
+    "\\(6\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(m^2+9+4=49\\Rightarrow m^2=36\\Rightarrow m=6\\).",
+   "explain_vi": "Đáp án d. \\(m^2+9+4=49\\Rightarrow m^2=36\\Rightarrow m=6\\).",
+   "images": [],
+   "id": "48ccd07068de",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\vec b\\) has the opposite direction to \\(\\vec a=(#;\\,-#;\\,#)\\) and \\(|\\vec b|=#\\). Then \\(\\vec b=\\)…",
+   "en": "\\(\\vec b\\) has the opposite direction to \\(\\vec a=(3;\\,-4;\\,12)\\) and \\(|\\vec b|=26\\). Then \\(\\vec b=\\)…",
+   "vi": "Vectơ \\(\\vec b\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"opposite directions\">ngược hướng</b> với \\(\\vec a=(3;\\,-4;\\,12)\\) và \\(|\\vec b|=26\\). Khi đó \\(\\vec b=\\)…",
+   "options": [
+    "\\((-3;\\,4;\\,-12)\\)",
+    "\\((6;\\,-8;\\,24)\\)",
+    "\\((-6;\\,8;\\,-24)\\)",
+    "\\((-78;\\,104;\\,-312)\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(|\\vec a|=13\\), so \\(\\vec b=-2\\vec a=(-6;\\,8;\\,-24)\\).",
+   "explain_vi": "Đáp án c. \\(|\\vec a|=13\\), nên \\(\\vec b=-2\\vec a=(-6;\\,8;\\,-24)\\).",
+   "images": [],
+   "id": "ecf5ae640fbb",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(\\vec a=(-#;#;#)\\), \\(\\vec b=(#;#;-#)\\). Then \\(#\\vec a+#\\vec b=\\)…",
+   "en": "\\(\\vec a=(-2;0;1)\\), \\(\\vec b=(1;1;-1)\\). Then \\(3\\vec a+2\\vec b=\\)…",
+   "vi": "Cho \\(\\vec a=(-2;0;1)\\), \\(\\vec b=(1;1;-1)\\). Khi đó \\(3\\vec a+2\\vec b=\\)…",
+   "options": [
+    "\\((-8;-2;5)\\)",
+    "\\((-1;1;0)\\)",
+    "\\((-1;3;-1)\\)",
+    "\\((-4;2;1)\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Work coordinate by coordinate.",
+   "explain_vi": "Đáp án d. Tính từng tọa độ.",
+   "images": [],
+   "id": "754808694b2e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(\\vec u=(#;#;-#)\\), \\(\\vec v=(#;#;#)\\). Then \\(\\vec u\\cdot\\vec v=\\)…",
+   "en": "\\(\\vec u=(0;2;-1)\\), \\(\\vec v=(5;3;2)\\). Then \\(\\vec u\\cdot\\vec v=\\)…",
+   "vi": "Cho \\(\\vec u=(0;2;-1)\\), \\(\\vec v=(5;3;2)\\). Khi đó \\(\\vec u\\cdot\\vec v=\\)…",
+   "options": [
+    "\\(-4\\)",
+    "\\(6\\)",
+    "\\(1\\)",
+    "\\(4\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(x_1x_2+y_1y_2+z_1z_2=4\\).",
+   "explain_vi": "Đáp án d. \\(x_1x_2+y_1y_2+z_1z_2=4\\).",
+   "images": [],
+   "id": "a2898ebbbad6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(\\vec w=(#;-#;-#)\\). Then \\(|\\vec w|=\\)…",
+   "en": "\\(\\vec w=(6;-6;-7)\\). Then \\(|\\vec w|=\\)…",
+   "vi": "Cho \\(\\vec w=(6;-6;-7)\\). Khi đó \\(|\\vec w|=\\)…",
+   "options": [
+    "\\(121\\)",
+    "\\(12\\)",
+    "\\(19\\)",
+    "\\(11\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(|\\vec w|=\\sqrt{121}=11\\).",
+   "explain_vi": "Đáp án d. \\(|\\vec w|=\\sqrt{121}=11\\).",
+   "images": [],
+   "id": "7d7b16a6e3a5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(\\vec e=(#;#;#)\\) and \\(\\vec f=(#;-#;#)\\) are perpendicular.",
+   "en": "\\(\\vec e=(1;1;1)\\) and \\(\\vec f=(2;-3;1)\\) are perpendicular.",
+   "vi": "Hai vectơ \\(\\vec e=(1;1;1)\\) và \\(\\vec f=(2;-3;1)\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"perpendicular\">vuông góc</b>.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "Check whether \\(\\vec e\\cdot\\vec f=0\\) is 0.",
+   "explain_vi": "Kiểm tra \\(\\vec e\\cdot\\vec f=0\\) có bằng 0 không.",
+   "images": [],
+   "id": "c331c1f1cff8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(\\vec p=(#;#;-#)\\) and \\(\\vec q=(-#;#;#)\\) are collinear.",
+   "en": "\\(\\vec p=(3;0;-1)\\) and \\(\\vec q=(-6;0;2)\\) are collinear.",
+   "vi": "Hai vectơ \\(\\vec p=(3;0;-1)\\) và \\(\\vec q=(-6;0;2)\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"collinear vectors\">cùng phương</b>.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "Collinear means \\(\\vec q=k\\vec p\\): all three ratios must be equal.",
+   "explain_vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"collinear vectors\">Cùng phương</b> nghĩa là \\(\\vec q=k\\vec p\\): cả ba <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ratio\">tỉ số</b> phải bằng nhau.",
+   "images": [],
+   "id": "3a5870ff055b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Points \\(P(#;#;#)\\) and \\(Q(#;#;#)\\). Find \\(|\\overrightarrow{PQ}|\\).",
+   "en": "Points \\(P(1;1;1)\\) and \\(Q(3;11;12)\\). Find \\(|\\overrightarrow{PQ}|\\).",
+   "vi": "Cho \\(P(1;1;1)\\), \\(Q(3;11;12)\\). Tính \\(|\\overrightarrow{PQ}|\\).",
+   "options": [],
+   "answer": "15",
+   "explain_en": "\\(\\overrightarrow{PQ}=Q-P\\), so \\(|\\overrightarrow{PQ}|=15\\).",
+   "explain_vi": "\\(\\overrightarrow{PQ}=Q-P\\) nên \\(|\\overrightarrow{PQ}|=15\\).",
+   "images": [],
+   "id": "eee398f29c33",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "\\(\\vec g=(#;#;-#)\\), \\(\\vec h=(#;-#;m)\\). Find \\(m\\) so that \\(\\vec g\\perp\\vec h\\).",
+   "en": "\\(\\vec g=(2;2;-1)\\), \\(\\vec h=(3;-1;m)\\). Find \\(m\\) so that \\(\\vec g\\perp\\vec h\\).",
+   "vi": "Cho \\(\\vec g=(2;2;-1)\\), \\(\\vec h=(3;-1;m)\\). Tìm \\(m\\) để \\(\\vec g\\perp\\vec h\\).",
+   "options": [],
+   "answer": "4",
+   "explain_en": "\\(\\vec g\\cdot\\vec h=0\\) gives \\(m=4\\).",
+   "explain_vi": "\\(\\vec g\\cdot\\vec h=0\\) cho \\(m=4\\).",
+   "images": [],
+   "id": "241aa85c5ee7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "A drone hovers still under three forces \\(\\vec F_#=(-#;\\,-#;\\,#)\\), \\(\\vec F_#=(#;\\,#;\\,#)\\) and \\(\\vec F_#\\) (newtons). Then \\(\\vec F_#=\\)…",
+   "en": "A drone hovers still under three forces \\(\\vec F_1=(-1;\\,-4;\\,4)\\), \\(\\vec F_2=(1;\\,6;\\,1)\\) and \\(\\vec F_3\\) (newtons). Then \\(\\vec F_3=\\)…",
+   "vi": "Một drone đứng yên dưới tác dụng của ba lực \\(\\vec F_1=(-1;\\,-4;\\,4)\\), \\(\\vec F_2=(1;\\,6;\\,1)\\) và \\(\\vec F_3\\) (đơn vị N). Khi đó \\(\\vec F_3=\\)…",
+   "options": [
+    "\\((0;\\,-2;\\,-5)\\)",
+    "\\((-2;\\,-10;\\,3)\\)",
+    "\\((0;\\,2;\\,5)\\)",
+    "\\((2;\\,10;\\,-3)\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Standing still: \\(\\vec F_1+\\vec F_2+\\vec F_3=\\vec0\\Rightarrow\\vec F_3=-(\\vec F_1+\\vec F_2)=(0;\\,-2;\\,-5)\\).",
+   "explain_vi": "Đáp án a. Đứng yên: \\(\\vec F_1+\\vec F_2+\\vec F_3=\\vec0\\Rightarrow\\vec F_3=-(\\vec F_1+\\vec F_2)=(0;\\,-2;\\,-5)\\).",
+   "images": [],
+   "id": "0f5b60bc179f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The angle between \\(\\vec a=(#;\\,#;\\,#)\\) and \\(\\vec b=(-#;\\,#;\\,#)\\) is…",
+   "en": "The angle between \\(\\vec a=(1;\\,0;\\,1)\\) and \\(\\vec b=(-3;\\,0;\\,0)\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"angle between vectors\">Góc giữa hai vectơ</b> \\(\\vec a=(1;\\,0;\\,1)\\) và \\(\\vec b=(-3;\\,0;\\,0)\\) bằng…",
+   "options": [
+    "\\(45^\\circ\\)",
+    "\\(150^\\circ\\)",
+    "\\(135^\\circ\\)",
+    "\\(120^\\circ\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\cos=\\dfrac{-3}{\\sqrt{2}\\cdot\\sqrt{9}}\\), whose square is \\(\\dfrac{1}{2}\\); the angle is \\(135^\\circ\\).",
+   "explain_vi": "Đáp án c. \\(\\cos=\\dfrac{-3}{\\sqrt{2}\\cdot\\sqrt{9}}\\), bình phương bằng \\(\\dfrac{1}{2}\\); góc bằng \\(135^\\circ\\).",
+   "images": [],
+   "id": "2ca86aca1a21",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The rectangular box \\(OABC.O'A'B'C'\\) has \\(O\\) at the origin and \\(B'(#;\\,#;\\,#)\\) (see the figure). Then \\(\\overrightarrow{AC'}\\cdot\\overrightarrow{OB'}=\\)…",
+   "en": "The rectangular box \\(OABC.O'A'B'C'\\) has \\(O\\) at the origin and \\(B'(3;\\,4;\\,2)\\) (see the figure). Then \\(\\overrightarrow{AC'}\\cdot\\overrightarrow{OB'}=\\)…<img src=\"../../../img/fig3d/0f2fa9242b2f6c04.svg\" alt=\"Box\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelepiped\">Hình hộp</b> chữ nhật \\(OABC.O'A'B'C'\\) có \\(O\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"origin\">gốc tọa độ</b> và \\(B'(3;\\,4;\\,2)\\) (xem hình). Khi đó \\(\\overrightarrow{AC'}\\cdot\\overrightarrow{OB'}=\\)…<img src=\"../../../img/fig3d/0f2fa9242b2f6c04.svg\" alt=\"Box\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "\\(13\\)",
+    "\\(-11\\)",
+    "\\(29\\)",
+    "\\(11\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\overrightarrow{AC'}=(-3;\\,4;\\,2)\\), \\(\\overrightarrow{OB'}=(3;\\,4;\\,2)\\), dot product \\(11\\).",
+   "explain_vi": "Đáp án d. \\(\\overrightarrow{AC'}=(-3;\\,4;\\,2)\\), \\(\\overrightarrow{OB'}=(3;\\,4;\\,2)\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"dot product (scalar product)\">tích vô hướng</b> bằng \\(11\\).",
+   "images": [
+    "img/fig3d/0f2fa9242b2f6c04.svg"
+   ],
+   "id": "9b21cb5134f1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(A(-#;\\,#;\\,-#)\\), \\(B(-#;\\,#;\\,-#)\\), \\(C(-#;\\,-#;\\,-#)\\). Then \\(\\cos\\widehat{BAC}=\\)…",
+   "en": "\\(A(-1;\\,0;\\,-2)\\), \\(B(-2;\\,4;\\,-10)\\), \\(C(-7;\\,-2;\\,-5)\\). Then \\(\\cos\\widehat{BAC}=\\)…",
+   "vi": "Cho \\(A(-1;\\,0;\\,-2)\\), \\(B(-2;\\,4;\\,-10)\\), \\(C(-7;\\,-2;\\,-5)\\). Khi đó \\(\\cos\\widehat{BAC}=\\)…",
+   "options": [
+    "\\(\\dfrac{11}{63}\\)",
+    "\\(-\\dfrac{22}{63}\\)",
+    "\\(\\dfrac{11}{65}\\)",
+    "\\(\\dfrac{22}{63}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\overrightarrow{AB}=(-1;\\,4;\\,-8)\\), \\(\\overrightarrow{AC}=(-6;\\,-2;\\,-3)\\): \\(\\cos=\\dfrac{22}{9\\cdot7}=\\dfrac{22}{63}\\).",
+   "explain_vi": "Đáp án d. \\(\\overrightarrow{AB}=(-1;\\,4;\\,-8)\\), \\(\\overrightarrow{AC}=(-6;\\,-2;\\,-3)\\): \\(\\cos=\\dfrac{22}{9\\cdot7}=\\dfrac{22}{63}\\).",
+   "images": [],
+   "id": "0b3dcbb59b8f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\vec a+\\vec b=(#;\\,#;\\,-#)\\) and \\(\\vec a-\\vec b=(-#;\\,#;\\,-#)\\). Then \\(\\vec b=\\)…",
+   "en": "\\(\\vec a+\\vec b=(2;\\,0;\\,-7)\\) and \\(\\vec a-\\vec b=(-4;\\,10;\\,-3)\\). Then \\(\\vec b=\\)…",
+   "vi": "Cho \\(\\vec a+\\vec b=(2;\\,0;\\,-7)\\) và \\(\\vec a-\\vec b=(-4;\\,10;\\,-3)\\). Khi đó \\(\\vec b=\\)…",
+   "options": [
+    "\\((2;\\,0;\\,-7)\\)",
+    "\\((3;\\,-5;\\,-2)\\)",
+    "\\((-4;\\,10;\\,-3)\\)",
+    "\\((-1;\\,5;\\,-5)\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Add or subtract the two equalities: \\(\\vec a=\\dfrac{(2;\\,0;\\,-7)+(-4;\\,10;\\,-3)}{2}=(-1;\\,5;\\,-5)\\), \\(\\vec b=(3;\\,-5;\\,-2)\\).",
+   "explain_vi": "Đáp án b. Cộng hoặc trừ hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"identity\">đẳng thức</b>: \\(\\vec a=\\dfrac{(2;\\,0;\\,-7)+(-4;\\,10;\\,-3)}{2}=(-1;\\,5;\\,-5)\\), \\(\\vec b=(3;\\,-5;\\,-2)\\).",
+   "images": [],
+   "id": "6c7b52931571",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\vec a=(#;m;-#)\\), \\(\\vec b=(-#;\\,-#;\\,-#)\\). The angle between \\(\\vec a\\) and \\(\\vec b\\) is obtuse exactly when…",
+   "en": "\\(\\vec a=(2;m;-3)\\), \\(\\vec b=(-3;\\,-1;\\,-3)\\). The angle between \\(\\vec a\\) and \\(\\vec b\\) is obtuse exactly when…",
+   "vi": "Cho \\(\\vec a=(2;m;-3)\\), \\(\\vec b=(-3;\\,-1;\\,-3)\\). Góc giữa \\(\\vec a\\) và \\(\\vec b\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"obtuse angle\">góc tù</b> khi và chỉ khi…",
+   "options": [
+    "\\(m\\gt 3\\)",
+    "\\(m\\lt 3\\)",
+    "\\(m=3\\)",
+    "\\(m\\gt -3\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Obtuse \\(\\Leftrightarrow\\vec a\\cdot\\vec b\\lt0\\) (the vectors are never collinear here): \\(3-1m\\lt0\\Leftrightarrow m\\gt 3\\).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"obtuse angle\">Góc tù</b> \\(\\Leftrightarrow\\vec a\\cdot\\vec b\\lt0\\) (ở đây hai vectơ không thể <b class=\"mbl-term\" tabindex=\"0\" data-en=\"collinear vectors\">cùng phương</b>): \\(3-1m\\lt0\\Leftrightarrow m\\gt 3\\).",
+   "images": [],
+   "id": "f484440e34d5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\vec a=(m;#;-#)\\) with \\(m\\gt#\\) and \\(|\\vec a|=#\\). Then \\(m=\\)…",
+   "en": "\\(\\vec a=(m;6;-2)\\) with \\(m\\gt0\\) and \\(|\\vec a|=7\\). Then \\(m=\\)…",
+   "vi": "Cho \\(\\vec a=(m;6;-2)\\) với \\(m\\gt0\\) và \\(|\\vec a|=7\\). Khi đó \\(m=\\)…",
+   "options": [
+    "\\(-1\\)",
+    "\\(3\\)",
+    "\\(9\\)",
+    "\\(7\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(m^2+36+4=49\\Rightarrow m^2=9\\Rightarrow m=3\\).",
+   "explain_vi": "Đáp án b. \\(m^2+36+4=49\\Rightarrow m^2=9\\Rightarrow m=3\\).",
+   "images": [],
+   "id": "2685220fe286",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\vec b\\) has the opposite direction to \\(\\vec a=(#;\\,#;\\,#)\\) and \\(|\\vec b|=#\\). Then \\(\\vec b=\\)…",
+   "en": "\\(\\vec b\\) has the opposite direction to \\(\\vec a=(1;\\,8;\\,4)\\) and \\(|\\vec b|=18\\). Then \\(\\vec b=\\)…",
+   "vi": "Vectơ \\(\\vec b\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"opposite directions\">ngược hướng</b> với \\(\\vec a=(1;\\,8;\\,4)\\) và \\(|\\vec b|=18\\). Khi đó \\(\\vec b=\\)…",
+   "options": [
+    "\\((-18;\\,-144;\\,-72)\\)",
+    "\\((-1;\\,-8;\\,-4)\\)",
+    "\\((2;\\,16;\\,8)\\)",
+    "\\((-2;\\,-16;\\,-8)\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(|\\vec a|=9\\), so \\(\\vec b=-2\\vec a=(-2;\\,-16;\\,-8)\\).",
+   "explain_vi": "Đáp án d. \\(|\\vec a|=9\\), nên \\(\\vec b=-2\\vec a=(-2;\\,-16;\\,-8)\\).",
+   "images": [],
+   "id": "3401bdfc840e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\vec a=(#;#;#)\\), \\(\\vec b=(#;#;m)\\) are collinear. Find \\(m\\).",
+   "en": "\\(\\vec a=(3;4;4)\\), \\(\\vec b=(9;12;m)\\) are collinear. Find \\(m\\).",
+   "vi": "Cho \\(\\vec a=(3;4;4)\\), \\(\\vec b=(9;12;m)\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"collinear vectors\">cùng phương</b>. Tìm \\(m\\).",
+   "options": [
+    "\\(13\\)",
+    "\\(-12\\)",
+    "\\(12\\)",
+    "\\(4\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\vec b=k\\vec a\\) with \\(k=3\\); so \\(m=12\\).",
+   "explain_vi": "Đáp án c. \\(\\vec b=k\\vec a\\) với \\(k=3\\); suy ra \\(m=12\\).",
+   "images": [],
+   "id": "938ab674f259",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\vec a=(#;#;-#)\\), \\(\\vec b=(-#;-#;-#)\\). Then \\(#\\vec a-#\\vec b=\\)…",
+   "en": "\\(\\vec a=(3;5;-2)\\), \\(\\vec b=(-2;-5;-3)\\). Then \\(2\\vec a-3\\vec b=\\)…",
+   "vi": "Cho \\(\\vec a=(3;5;-2)\\), \\(\\vec b=(-2;-5;-3)\\). Khi đó \\(2\\vec a-3\\vec b=\\)…",
+   "options": [
+    "\\((12;25;5)\\)",
+    "\\((1;0;-5)\\)",
+    "\\((0;-5;-13)\\)",
+    "\\((5;10;1)\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Do each coordinate separately.",
+   "explain_vi": "Đáp án a. Tính từng tọa độ riêng.",
+   "images": [],
+   "id": "fb0148768011",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\vec a=(#;-#;#)\\), \\(\\vec b=(#;#;-#)\\). Then \\(-#\\vec a+#\\vec b=\\)…",
+   "en": "\\(\\vec a=(4;-2;3)\\), \\(\\vec b=(0;2;-5)\\). Then \\(-1\\vec a+2\\vec b=\\)…",
+   "vi": "Cho \\(\\vec a=(4;-2;3)\\), \\(\\vec b=(0;2;-5)\\). Khi đó \\(-1\\vec a+2\\vec b=\\)…",
+   "options": [
+    "\\((4;-4;8)\\)",
+    "\\((-4;6;-13)\\)",
+    "\\((4;0;-2)\\)",
+    "\\((-4;-2;7)\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Do each coordinate separately.",
+   "explain_vi": "Đáp án b. Tính từng tọa độ riêng.",
+   "images": [],
+   "id": "7ac224be79b8",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\vec a=(#;-#;#)\\). Then \\(|\\vec a|=\\)…",
+   "en": "\\(\\vec a=(2;-6;3)\\). Then \\(|\\vec a|=\\)…",
+   "vi": "Cho \\(\\vec a=(2;-6;3)\\). Khi đó \\(|\\vec a|=\\)…",
+   "options": [
+    "\\(7\\)",
+    "\\(8\\)",
+    "\\(49\\)",
+    "\\(11\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(|\\vec a|=\\sqrt{x^2+y^2+z^2}=\\sqrt{49}=7\\).",
+   "explain_vi": "Đáp án a. \\(|\\vec a|=\\sqrt{x^2+y^2+z^2}=\\sqrt{49}=7\\).",
+   "images": [],
+   "id": "0071bb9577e8",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\vec a=(#;-#;-#)\\), \\(\\vec b=(#;#;#)\\). Then \\(\\cos(\\vec a,\\vec b)=\\)…",
+   "en": "\\(\\vec a=(1;-2;-2)\\), \\(\\vec b=(2;0;0)\\). Then \\(\\cos(\\vec a,\\vec b)=\\)…",
+   "vi": "Cho \\(\\vec a=(1;-2;-2)\\), \\(\\vec b=(2;0;0)\\). Khi đó \\(\\cos(\\vec a,\\vec b)=\\)…",
+   "options": [
+    "\\(\\dfrac12\\)",
+    "\\(\\dfrac13\\)",
+    "\\(0\\)",
+    "\\(-\\dfrac12\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\cos=\\dfrac{\\vec a\\cdot\\vec b}{|\\vec a||\\vec b|}\\).",
+   "explain_vi": "Đáp án b. \\(\\cos=\\dfrac{\\vec a\\cdot\\vec b}{|\\vec a||\\vec b|}\\).",
+   "images": [],
+   "id": "5ae3bd0c8494",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\vec a=(#;-#;-#)\\), \\(\\vec b=(#;#;m)\\). Find \\(m\\) so that \\(\\vec a\\perp\\vec b\\).",
+   "en": "\\(\\vec a=(2;-1;-3)\\), \\(\\vec b=(3;0;m)\\). Find \\(m\\) so that \\(\\vec a\\perp\\vec b\\).",
+   "vi": "Cho \\(\\vec a=(2;-1;-3)\\), \\(\\vec b=(3;0;m)\\). Tìm \\(m\\) để \\(\\vec a\\perp\\vec b\\).",
+   "options": [
+    "\\(3\\)",
+    "\\(1\\)",
+    "\\(2\\)",
+    "\\(-2\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\vec a\\cdot\\vec b=0\\) gives a linear equation in \\(m\\): \\(m=2\\).",
+   "explain_vi": "Đáp án c. \\(\\vec a\\cdot\\vec b=0\\) cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> bậc nhất theo \\(m\\): \\(m=2\\).",
+   "images": [],
+   "id": "cf00bf889f6d",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\vec a=(-#;#;-#)\\), \\(\\vec b=(#;#;-#)\\). Then \\(\\vec a\\cdot\\vec b=\\)…",
+   "en": "\\(\\vec a=(-1;2;-2)\\), \\(\\vec b=(0;2;-4)\\). Then \\(\\vec a\\cdot\\vec b=\\)…",
+   "vi": "Cho \\(\\vec a=(-1;2;-2)\\), \\(\\vec b=(0;2;-4)\\). Khi đó \\(\\vec a\\cdot\\vec b=\\)…",
+   "options": [
+    "\\(-12\\)",
+    "\\(10\\)",
+    "\\(12\\)",
+    "\\(14\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\vec a\\cdot\\vec b=x_1x_2+y_1y_2+z_1z_2=12\\).",
+   "explain_vi": "Đáp án c. \\(\\vec a\\cdot\\vec b=x_1x_2+y_1y_2+z_1z_2=12\\).",
+   "images": [],
+   "id": "ed9d4ae61de0",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\vec a=(-#;#;-#)\\), \\(\\vec b=(#;-#;-#)\\). Then \\(\\vec a\\cdot\\vec b=\\)…",
+   "en": "\\(\\vec a=(-4;2;-1)\\), \\(\\vec b=(0;-1;-1)\\). Then \\(\\vec a\\cdot\\vec b=\\)…",
+   "vi": "Cho \\(\\vec a=(-4;2;-1)\\), \\(\\vec b=(0;-1;-1)\\). Khi đó \\(\\vec a\\cdot\\vec b=\\)…",
+   "options": [
+    "\\(-3\\)",
+    "\\(1\\)",
+    "\\(-1\\)",
+    "\\(-2\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\vec a\\cdot\\vec b=x_1x_2+y_1y_2+z_1z_2=-1\\).",
+   "explain_vi": "Đáp án c. \\(\\vec a\\cdot\\vec b=x_1x_2+y_1y_2+z_1z_2=-1\\).",
+   "images": [],
+   "id": "9dd4f9a8a1cc",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\vec a=(#;#;#)\\), \\(\\vec b=(#;#;-#)\\). Then \\(\\vec a+\\vec b=\\)…",
+   "en": "\\(\\vec a=(0;5;2)\\), \\(\\vec b=(2;4;-3)\\). Then \\(\\vec a+\\vec b=\\)…",
+   "vi": "Cho \\(\\vec a=(0;5;2)\\), \\(\\vec b=(2;4;-3)\\). Khi đó \\(\\vec a+\\vec b=\\)…",
+   "options": [
+    "\\((-2;1;5)\\)",
+    "\\((3;10;0)\\)",
+    "\\((2;9;-1)\\)",
+    "\\((4;11;1)\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Do each coordinate separately.",
+   "explain_vi": "Đáp án c. Tính từng tọa độ riêng.",
+   "images": [],
+   "id": "f198ca572873",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\vec a=(#;#;#)\\), \\(\\vec b=(#;#;m)\\) are collinear. Find \\(m\\).",
+   "en": "\\(\\vec a=(1;4;3)\\), \\(\\vec b=(2;8;m)\\) are collinear. Find \\(m\\).",
+   "vi": "Cho \\(\\vec a=(1;4;3)\\), \\(\\vec b=(2;8;m)\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"collinear vectors\">cùng phương</b>. Tìm \\(m\\).",
+   "options": [
+    "\\(3\\)",
+    "\\(7\\)",
+    "\\(6\\)",
+    "\\(-6\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\vec b=k\\vec a\\) with \\(k=2\\); so \\(m=6\\).",
+   "explain_vi": "Đáp án c. \\(\\vec b=k\\vec a\\) với \\(k=2\\); suy ra \\(m=6\\).",
+   "images": [],
+   "id": "cae7a1ba2226",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\vec a=(#;#;#)\\), \\(\\vec b=(#;-#;-#)\\). Then \\(-#\\vec a+#\\vec b=\\)…",
+   "en": "\\(\\vec a=(1;5;2)\\), \\(\\vec b=(1;-2;-2)\\). Then \\(-1\\vec a+2\\vec b=\\)…",
+   "vi": "Cho \\(\\vec a=(1;5;2)\\), \\(\\vec b=(1;-2;-2)\\). Khi đó \\(-1\\vec a+2\\vec b=\\)…",
+   "options": [
+    "\\((2;3;0)\\)",
+    "\\((-3;-1;2)\\)",
+    "\\((1;-9;-6)\\)",
+    "\\((0;7;4)\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Do each coordinate separately.",
+   "explain_vi": "Đáp án c. Tính từng tọa độ riêng.",
+   "images": [],
+   "id": "2344fde4655b",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\vec a=(#;#;#)\\), \\(\\vec b=(#;-#;m)\\). Find \\(m\\) so that \\(\\vec a\\perp\\vec b\\).",
+   "en": "\\(\\vec a=(0;3;3)\\), \\(\\vec b=(0;-4;m)\\). Find \\(m\\) so that \\(\\vec a\\perp\\vec b\\).",
+   "vi": "Cho \\(\\vec a=(0;3;3)\\), \\(\\vec b=(0;-4;m)\\). Tìm \\(m\\) để \\(\\vec a\\perp\\vec b\\).",
+   "options": [
+    "\\(3\\)",
+    "\\(4\\)",
+    "\\(5\\)",
+    "\\(-4\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\vec a\\cdot\\vec b=0\\) gives a linear equation in \\(m\\): \\(m=4\\).",
+   "explain_vi": "Đáp án b. \\(\\vec a\\cdot\\vec b=0\\) cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> bậc nhất theo \\(m\\): \\(m=4\\).",
+   "images": [],
+   "id": "0b552fe2ff0c",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\vec a=(#;#;-#)\\), \\(\\vec b=(#;#;-#)\\). Then \\(\\vec a\\cdot\\vec b=\\)…",
+   "en": "\\(\\vec a=(2;2;-5)\\), \\(\\vec b=(3;0;-2)\\). Then \\(\\vec a\\cdot\\vec b=\\)…",
+   "vi": "Cho \\(\\vec a=(2;2;-5)\\), \\(\\vec b=(3;0;-2)\\). Khi đó \\(\\vec a\\cdot\\vec b=\\)…",
+   "options": [
+    "\\(18\\)",
+    "\\(16\\)",
+    "\\(14\\)",
+    "\\(-16\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\vec a\\cdot\\vec b=x_1x_2+y_1y_2+z_1z_2=16\\).",
+   "explain_vi": "Đáp án b. \\(\\vec a\\cdot\\vec b=x_1x_2+y_1y_2+z_1z_2=16\\).",
+   "images": [],
+   "id": "40ff195804de",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\vec a=(#;-#;#)\\), \\(\\vec b=(-#;-#;#)\\). Then \\(\\vec a\\cdot\\vec b=\\)…",
+   "en": "\\(\\vec a=(4;-3;5)\\), \\(\\vec b=(-5;-5;5)\\). Then \\(\\vec a\\cdot\\vec b=\\)…",
+   "vi": "Cho \\(\\vec a=(4;-3;5)\\), \\(\\vec b=(-5;-5;5)\\). Khi đó \\(\\vec a\\cdot\\vec b=\\)…",
+   "options": [
+    "\\(18\\)",
+    "\\(22\\)",
+    "\\(-20\\)",
+    "\\(20\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\vec a\\cdot\\vec b=x_1x_2+y_1y_2+z_1z_2=20\\).",
+   "explain_vi": "Đáp án d. \\(\\vec a\\cdot\\vec b=x_1x_2+y_1y_2+z_1z_2=20\\).",
+   "images": [],
+   "id": "8fd777a40a54",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\vec a=(#;-#;#)\\). Then \\(|\\vec a|=\\)…",
+   "en": "\\(\\vec a=(3;-12;4)\\). Then \\(|\\vec a|=\\)…",
+   "vi": "Cho \\(\\vec a=(3;-12;4)\\). Khi đó \\(|\\vec a|=\\)…",
+   "options": [
+    "\\(19\\)",
+    "\\(14\\)",
+    "\\(169\\)",
+    "\\(13\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(|\\vec a|=\\sqrt{x^2+y^2+z^2}=\\sqrt{169}=13\\).",
+   "explain_vi": "Đáp án d. \\(|\\vec a|=\\sqrt{x^2+y^2+z^2}=\\sqrt{169}=13\\).",
+   "images": [],
+   "id": "fa58940e6b52",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\vec a=(-#;#;#)\\), \\(\\vec b=(#;-#;#)\\). Then \\(\\cos(\\vec a,\\vec b)=\\)…",
+   "en": "\\(\\vec a=(-2;2;1)\\), \\(\\vec b=(0;-2;0)\\). Then \\(\\cos(\\vec a,\\vec b)=\\)…",
+   "vi": "Cho \\(\\vec a=(-2;2;1)\\), \\(\\vec b=(0;-2;0)\\). Khi đó \\(\\cos(\\vec a,\\vec b)=\\)…",
+   "options": [
+    "\\(\\dfrac12\\)",
+    "\\(-\\dfrac12\\)",
+    "\\(0\\)",
+    "\\(-\\dfrac23\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\cos=\\dfrac{\\vec a\\cdot\\vec b}{|\\vec a||\\vec b|}\\).",
+   "explain_vi": "Đáp án d. \\(\\cos=\\dfrac{\\vec a\\cdot\\vec b}{|\\vec a||\\vec b|}\\).",
+   "images": [],
+   "id": "8f74e1434881",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\vec a=(#;#;#)\\), \\(\\vec b=(-#;-#;m)\\) are collinear. Find \\(m\\).",
+   "en": "\\(\\vec a=(3;2;1)\\), \\(\\vec b=(-6;-4;m)\\) are collinear. Find \\(m\\).",
+   "vi": "Cho \\(\\vec a=(3;2;1)\\), \\(\\vec b=(-6;-4;m)\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"collinear vectors\">cùng phương</b>. Tìm \\(m\\).",
+   "options": [
+    "\\(2\\)",
+    "\\(-2\\)",
+    "\\(1\\)",
+    "\\(-1\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\vec b=k\\vec a\\) with \\(k=-2\\); so \\(m=-2\\).",
+   "explain_vi": "Đáp án b. \\(\\vec b=k\\vec a\\) với \\(k=-2\\); suy ra \\(m=-2\\).",
+   "images": [],
+   "id": "be17d1ad6f5b",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\vec a=(#;#;-#)\\), \\(\\vec b=(-#;#;#)\\). Then \\(\\vec a\\cdot\\vec b=\\)…",
+   "en": "\\(\\vec a=(2;4;-4)\\), \\(\\vec b=(-1;3;3)\\). Then \\(\\vec a\\cdot\\vec b=\\)…",
+   "vi": "Cho \\(\\vec a=(2;4;-4)\\), \\(\\vec b=(-1;3;3)\\). Khi đó \\(\\vec a\\cdot\\vec b=\\)…",
+   "options": [
+    "\\(2\\)",
+    "\\(-4\\)",
+    "\\(0\\)",
+    "\\(-2\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\vec a\\cdot\\vec b=x_1x_2+y_1y_2+z_1z_2=-2\\).",
+   "explain_vi": "Đáp án d. \\(\\vec a\\cdot\\vec b=x_1x_2+y_1y_2+z_1z_2=-2\\).",
+   "images": [],
+   "id": "35fd8ddccbbc",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\vec a=(#;#;-#)\\). Then \\(|\\vec a|=\\)…",
+   "en": "\\(\\vec a=(15;6;-10)\\). Then \\(|\\vec a|=\\)…",
+   "vi": "Cho \\(\\vec a=(15;6;-10)\\). Khi đó \\(|\\vec a|=\\)…",
+   "options": [
+    "\\(361\\)",
+    "\\(19\\)",
+    "\\(31\\)",
+    "\\(20\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(|\\vec a|=\\sqrt{x^2+y^2+z^2}=\\sqrt{361}=19\\).",
+   "explain_vi": "Đáp án b. \\(|\\vec a|=\\sqrt{x^2+y^2+z^2}=\\sqrt{361}=19\\).",
+   "images": [],
+   "id": "c4ba99a99293",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\vec a=(#;-#;-#)\\), \\(\\vec b=(#;#;#)\\). Then \\(\\cos(\\vec a,\\vec b)=\\)…",
+   "en": "\\(\\vec a=(2;-1;-2)\\), \\(\\vec b=(0;2;0)\\). Then \\(\\cos(\\vec a,\\vec b)=\\)…",
+   "vi": "Cho \\(\\vec a=(2;-1;-2)\\), \\(\\vec b=(0;2;0)\\). Khi đó \\(\\cos(\\vec a,\\vec b)=\\)…",
+   "options": [
+    "\\(\\dfrac12\\)",
+    "\\(-\\dfrac13\\)",
+    "\\(0\\)",
+    "\\(-\\dfrac12\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\cos=\\dfrac{\\vec a\\cdot\\vec b}{|\\vec a||\\vec b|}\\).",
+   "explain_vi": "Đáp án b. \\(\\cos=\\dfrac{\\vec a\\cdot\\vec b}{|\\vec a||\\vec b|}\\).",
+   "images": [],
+   "id": "77f0c00e62a7",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\vec a=(#;-#;-#)\\), \\(\\vec b=(-#;#;-#)\\). Then \\(\\vec a+\\vec b=\\)…",
+   "en": "\\(\\vec a=(4;-5;-4)\\), \\(\\vec b=(-4;0;-3)\\). Then \\(\\vec a+\\vec b=\\)…",
+   "vi": "Cho \\(\\vec a=(4;-5;-4)\\), \\(\\vec b=(-4;0;-3)\\). Khi đó \\(\\vec a+\\vec b=\\)…",
+   "options": [
+    "\\((2;-3;-5)\\)",
+    "\\((0;-5;-7)\\)",
+    "\\((1;-4;-6)\\)",
+    "\\((8;-5;-1)\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Do each coordinate separately.",
+   "explain_vi": "Đáp án b. Tính từng tọa độ riêng.",
+   "images": [],
+   "id": "71fa239851d2",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\vec a=(-#;-#;#)\\), \\(\\vec b=(-#;-#;m)\\). Find \\(m\\) so that \\(\\vec a\\perp\\vec b\\).",
+   "en": "\\(\\vec a=(-1;-1;1)\\), \\(\\vec b=(-2;-1;m)\\). Find \\(m\\) so that \\(\\vec a\\perp\\vec b\\).",
+   "vi": "Cho \\(\\vec a=(-1;-1;1)\\), \\(\\vec b=(-2;-1;m)\\). Tìm \\(m\\) để \\(\\vec a\\perp\\vec b\\).",
+   "options": [
+    "\\(3\\)",
+    "\\(-4\\)",
+    "\\(-3\\)",
+    "\\(-2\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\vec a\\cdot\\vec b=0\\) gives a linear equation in \\(m\\): \\(m=-3\\).",
+   "explain_vi": "Đáp án c. \\(\\vec a\\cdot\\vec b=0\\) cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> bậc nhất theo \\(m\\): \\(m=-3\\).",
+   "images": [],
+   "id": "56d8a7f282c9",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\vec a=(-#;-#;-#)\\), \\(\\vec b=(-#;#;#)\\). Then \\(#\\vec a+\\vec b=\\)…",
+   "en": "\\(\\vec a=(-5;-2;-2)\\), \\(\\vec b=(-4;4;4)\\). Then \\(2\\vec a+\\vec b=\\)…",
+   "vi": "Cho \\(\\vec a=(-5;-2;-2)\\), \\(\\vec b=(-4;4;4)\\). Khi đó \\(2\\vec a+\\vec b=\\)…",
+   "options": [
+    "\\((-9;2;2)\\)",
+    "\\((-6;-8;-8)\\)",
+    "\\((-14;0;0)\\)",
+    "\\((-1;-6;-6)\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Do each coordinate separately.",
+   "explain_vi": "Đáp án c. Tính từng tọa độ riêng.",
+   "images": [],
+   "id": "fa422854a8ee",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\vec a=(-#;-#;-#)\\), \\(\\vec b=(-#;-#;#)\\). Then \\(\\vec a\\cdot\\vec b=\\)…",
+   "en": "\\(\\vec a=(-2;-4;-4)\\), \\(\\vec b=(-1;-1;4)\\). Then \\(\\vec a\\cdot\\vec b=\\)…",
+   "vi": "Cho \\(\\vec a=(-2;-4;-4)\\), \\(\\vec b=(-1;-1;4)\\). Khi đó \\(\\vec a\\cdot\\vec b=\\)…",
+   "options": [
+    "\\(-10\\)",
+    "\\(-12\\)",
+    "\\(10\\)",
+    "\\(-8\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\vec a\\cdot\\vec b=x_1x_2+y_1y_2+z_1z_2=-10\\).",
+   "explain_vi": "Đáp án a. \\(\\vec a\\cdot\\vec b=x_1x_2+y_1y_2+z_1z_2=-10\\).",
+   "images": [],
+   "id": "a73276c2a4c4",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  }
+ ]
+}

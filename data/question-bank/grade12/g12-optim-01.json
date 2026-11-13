@@ -1,0 +1,1587 @@
+{
+ "lesson": "g12-optim-01",
+ "grade": 12,
+ "no": 5,
+ "title": "Ứng dụng đạo hàm để giải quyết một số vấn đề thực tiễn",
+ "path": "lessons/grade12/derivative-applications/optimization-problems.html",
+ "items": [
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "A box is made from a square sheet of side # cm by cutting corner squares of side \\(x\\). The volume is largest when \\(x=\\)…",
+   "en": "A box is made from a square sheet of side 12 cm by cutting corner squares of side \\(x\\). The volume is largest when \\(x=\\)…",
+   "vi": "Làm hộp từ tấm bìa vuông cạnh 12 cm bằng cách cắt bốn góc cạnh \\(x\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"volume\">Thể tích</b> lớn nhất khi \\(x=\\)…",
+   "options": [
+    "\\(4\\ \\text{cm}\\)",
+    "\\(2\\ \\text{cm}\\)",
+    "\\(3\\ \\text{cm}\\)",
+    "\\(6\\ \\text{cm}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(V'=(12-2x)(12-6x)=0\\) gives \\(x=2\\).",
+   "explain_vi": "Đáp án b. \\(V'=(12-2x)(12-6x)=0\\) cho \\(x=2\\).",
+   "images": [],
+   "id": "cf93b76756dd",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "A rectangle has perimeter # m. Its largest area is…",
+   "en": "A rectangle has perimeter 24 m. Its largest area is…",
+   "vi": "Hình chữ nhật có chu vi 24 m. Diện tích lớn nhất của nó là…",
+   "options": [
+    "\\(18\\ \\text{m}^2\\)",
+    "\\(36\\ \\text{m}^2\\)",
+    "\\(72\\ \\text{m}^2\\)",
+    "\\(40\\ \\text{m}^2\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(x+y=12\\), so \\(A=x(12-x)\\) is largest at \\(x=6\\).",
+   "explain_vi": "Đáp án b. \\(x+y=12\\) nên \\(A=x(12-x)\\) lớn nhất tại \\(x=6\\).",
+   "images": [],
+   "id": "e6fb8163dbc9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "There is # m of fence and a river forms one side. The largest area is…",
+   "en": "There is 40 m of fence and a river forms one side. The largest area is…",
+   "vi": "Có 40 m <b class=\"mbl-term\" tabindex=\"0\" data-en=\"fence\">hàng rào</b>, bờ sông làm một cạnh. Diện tích lớn nhất là…",
+   "options": [
+    "\\(100\\ \\text{m}^2\\)",
+    "\\(200\\ \\text{m}^2\\)",
+    "\\(400\\ \\text{m}^2\\)",
+    "\\(210\\ \\text{m}^2\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(A=x(40-2x)\\), maximum at \\(x=10\\).",
+   "explain_vi": "Đáp án b. \\(A=x(40-2x)\\), lớn nhất tại \\(x=10\\).",
+   "images": [],
+   "id": "a9710db4ee94",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "Among rectangles of perimeter # m, the square has the largest area.",
+   "en": "Among rectangles of perimeter 32 m, the square has the largest area.",
+   "vi": "Trong các hình chữ nhật có chu vi 32 m, hình vuông có diện tích lớn nhất.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "The largest area occurs when the two sides are equal.",
+   "explain_vi": "Diện tích lớn nhất khi hai cạnh bằng nhau.",
+   "images": [],
+   "id": "a0fd504eec65",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "For \\(C(x)=x+\\dfrac{#}{x}\\) with \\(x\\gt#\\), the smallest value is #.",
+   "en": "For \\(C(x)=x+\\dfrac{9}{x}\\) with \\(x\\gt0\\), the smallest value is 6.",
+   "vi": "Với \\(C(x)=x+\\dfrac{9}{x}\\), \\(x\\gt0\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"minimum value\">giá trị nhỏ nhất</b> là 6.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "\\(C'=0\\) at \\(x=3\\) and \\(C(3)=6\\).",
+   "explain_vi": "\\(C'=0\\) tại \\(x=3\\) và \\(C(3)=6\\).",
+   "images": [],
+   "id": "8b9e98b11bbf",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "The profit is \\(P(x)=-x^#+#x-#\\) (million VND). Find the largest profit.",
+   "en": "The profit is \\(P(x)=-x^2+6x-5\\) (million VND). Find the largest profit.",
+   "vi": "Lợi nhuận là \\(P(x)=-x^2+6x-5\\) (triệu đồng). Tìm lợi nhuận lớn nhất.",
+   "options": [],
+   "answer": "4",
+   "explain_en": "The vertex is at \\(x=3\\): \\(P=4\\).",
+   "explain_vi": "Đỉnh tại \\(x=3\\): \\(P=4\\).",
+   "images": [],
+   "id": "9ea4a5c50514",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "Two numbers have sum #. Find the smallest value of the sum of their squares.",
+   "en": "Two numbers have sum 10. Find the smallest value of the sum of their squares.",
+   "vi": "Hai số có tổng bằng 10. Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"minimum value\">giá trị nhỏ nhất</b> của tổng bình phương hai số đó.",
+   "options": [],
+   "answer": "50",
+   "explain_en": "The minimum is at \\(x=5\\): \\(2\\cdot5^2=50\\).",
+   "explain_vi": "Nhỏ nhất khi hai số bằng nhau (\\(5\\)): \\(2\\cdot5^2=50\\).",
+   "images": [],
+   "id": "eb849b93ae28",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "A cinema sells \\(#\\) tickets a day at \\(#\\) thousand VND each. Each time the price rises by \\(#\\) thousand VND, it sells \\(#\\) fewer tickets. Which price (thousand VND) gives the largest revenue?",
+   "en": "A cinema sells \\(320\\) tickets a day at \\(60\\) thousand VND each. Each time the price rises by \\(5\\) thousand VND, it sells \\(20\\) fewer tickets. Which price (thousand VND) gives the largest revenue?",
+   "vi": "Một rạp chiếu phim bán được \\(320\\) vé mỗi ngày với giá \\(60\\) nghìn đồng/vé. Cứ tăng giá thêm \\(5\\) nghìn đồng thì bán ít đi \\(20\\) vé. Giá vé bao nhiêu (nghìn đồng) thì doanh thu lớn nhất?",
+   "options": [
+    "\\(60\\)",
+    "\\(70\\)",
+    "\\(65\\)",
+    "\\(75\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. After \\(x\\) rises: \\(R(x)=(60+5x)(320-20x)\\), \\(R'(x)=0\\Leftrightarrow x=2\\), price \\(60+5\\cdot2=70\\).",
+   "explain_vi": "Đáp án b. Sau \\(x\\) lần tăng: \\(R(x)=(60+5x)(320-20x)\\), \\(R'(x)=0\\Leftrightarrow x=2\\), giá vé \\(60+5\\cdot2=70\\).",
+   "images": [],
+   "id": "c03257a457bf",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "A closed cylindrical can must hold \\(#\\pi\\ \\text{cm}^#\\). Which base radius (cm) uses the least metal (smallest total surface area)?",
+   "en": "A closed cylindrical can must hold \\(16\\pi\\ \\text{cm}^3\\). Which base radius (cm) uses the least metal (smallest total surface area)?",
+   "vi": "Một lon hình trụ có nắp cần chứa \\(16\\pi\\ \\text{cm}^3\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">Bán kính</b> đáy bằng bao nhiêu (cm) thì tốn ít vật liệu nhất (diện tích toàn phần nhỏ nhất)?",
+   "options": [
+    "\\(4\\)",
+    "\\(5\\)",
+    "\\(2\\)",
+    "\\(3\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(h=\\dfrac{16}{r^2}\\), \\(S=2\\pi r^2+\\dfrac{32\\pi}{r}\\), \\(S'=4\\pi r-\\dfrac{32\\pi}{r^2}=0\\Leftrightarrow r^3=8\\Leftrightarrow r=2\\).",
+   "explain_vi": "Đáp án c. \\(h=\\dfrac{16}{r^2}\\), \\(S=2\\pi r^2+\\dfrac{32\\pi}{r}\\), \\(S'=4\\pi r-\\dfrac{32\\pi}{r^2}=0\\Leftrightarrow r^3=8\\Leftrightarrow r=2\\).",
+   "images": [],
+   "id": "4be304480a3f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "A farmer uses \\(#\\) m of fence to build a rectangular pen divided into \\(#\\) equal parts by fences parallel to one side (see the figure). What is the largest total area (m²)?",
+   "en": "A farmer uses \\(120\\) m of fence to build a rectangular pen divided into \\(2\\) equal parts by fences parallel to one side (see the figure). What is the largest total area (m²)?<img src=\"../../../img/tex/8c2558324491147e.svg\" alt=\"Pens\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Một bác nông dân dùng \\(120\\) m lưới rào thành một khu hình chữ nhật, chia thành \\(2\\) ô bằng nhau bởi các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"fence\">hàng rào</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b> với một cạnh (xem hình). Tổng diện tích lớn nhất là bao nhiêu (m²)?<img src=\"../../../img/tex/8c2558324491147e.svg\" alt=\"Chuồng\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "\\(900\\)",
+    "\\(620\\)",
+    "\\(225\\)",
+    "\\(600\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(2x+3y=120\\), \\(S=xy=\\dfrac{x(120-2x)}{3}\\), \\(S'=0\\Leftrightarrow x=30\\), \\(y=20\\), \\(S=600\\).",
+   "explain_vi": "Đáp án d. \\(2x+3y=120\\), \\(S=xy=\\dfrac{x(120-2x)}{3}\\), \\(S'=0\\Leftrightarrow x=30\\), \\(y=20\\), \\(S=600\\).",
+   "images": [
+    "img/tex/8c2558324491147e.svg"
+   ],
+   "id": "d19e393a1b6b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "A power station \\(A\\) is on one bank of a straight river \\(#\\) km wide; a factory \\(B\\) is on the other bank, \\(#\\) km from the point \\(H\\) opposite \\(A\\) (see the figure). A cable goes underwater from \\(A\\) to \\(M\\) on the other bank, then along the bank to \\(B\\). It costs \\(#\\) million VND per km underwater and \\(#\\) million VND per km on land. How far from \\(H\\) should \\(M\\) be (km) to make the cost smallest?",
+   "en": "A power station \\(A\\) is on one bank of a straight river \\(5\\) km wide; a factory \\(B\\) is on the other bank, \\(16\\) km from the point \\(H\\) opposite \\(A\\) (see the figure). A cable goes underwater from \\(A\\) to \\(M\\) on the other bank, then along the bank to \\(B\\). It costs \\(130\\) million VND per km underwater and \\(120\\) million VND per km on land. How far from \\(H\\) should \\(M\\) be (km) to make the cost smallest?<img src=\"../../../img/tex/ac530421cff86085.svg\" alt=\"River and cable\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,380px);height:auto\">",
+   "vi": "Nhà máy điện \\(A\\) ở một bờ sông thẳng rộng \\(5\\) km; xưởng \\(B\\) ở bờ bên kia, cách điểm \\(H\\) đối diện \\(A\\) là \\(16\\) km (xem hình). Dây điện đi dưới nước từ \\(A\\) tới \\(M\\) ở bờ bên kia rồi đi dọc bờ tới \\(B\\). Chi phí là \\(130\\) triệu đồng/km dưới nước và \\(120\\) triệu đồng/km trên bờ. Điểm \\(M\\) cách \\(H\\) bao nhiêu km thì chi phí nhỏ nhất?<img src=\"../../../img/tex/ac530421cff86085.svg\" alt=\"Dòng sông và đường dây\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,380px);height:auto\">",
+   "options": [
+    "\\(12\\)",
+    "\\(16\\)",
+    "\\(0\\)",
+    "\\(5\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(C(x)=130\\sqrt{25+x^2}+120(16-x)\\); \\(C'(x)=0\\Leftrightarrow 13 x=12\\sqrt{25+x^2}\\Leftrightarrow x=12\\).",
+   "explain_vi": "Đáp án a. \\(C(x)=130\\sqrt{25+x^2}+120(16-x)\\); \\(C'(x)=0\\Leftrightarrow 13 x=12\\sqrt{25+x^2}\\Leftrightarrow x=12\\).",
+   "images": [
+    "img/tex/ac530421cff86085.svg"
+   ],
+   "id": "451382987696",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "A window has the shape of a rectangle \\(ABCD\\) inscribed in a semicircle of radius \\(R=#\\) dm (see the figure; \\(A\\), \\(B\\) lie on the diameter). What is the largest possible area of the rectangle (dm²)?",
+   "en": "A window has the shape of a rectangle \\(ABCD\\) inscribed in a semicircle of radius \\(R=12\\) dm (see the figure; \\(A\\), \\(B\\) lie on the diameter). What is the largest possible area of the rectangle (dm²)?<img src=\"../../../img/tex/873a99865aaaef60.svg\" alt=\"Rectangle in a semicircle\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,330px);height:auto\">",
+   "vi": "Một ô cửa có dạng hình chữ nhật \\(ABCD\\) nội tiếp nửa hình tròn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> \\(R=12\\) dm (xem hình; \\(A\\), \\(B\\) nằm trên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diameter\">đường kính</b>). Diện tích lớn nhất của hình chữ nhật là bao nhiêu (dm²)?<img src=\"../../../img/tex/873a99865aaaef60.svg\" alt=\"Hình chữ nhật nội tiếp nửa hình tròn\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,330px);height:auto\">",
+   "options": [
+    "\\(144\\)",
+    "\\(72\\)",
+    "\\(288\\)",
+    "\\(108\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Let \\(OB=x\\); then \\(BC=\\sqrt{144-x^2}\\) and \\(S=2x\\sqrt{144-x^2}\\). \\(S^2=4x^2(144-x^2)\\) is largest when \\(x^2=72\\), so \\(S_{\\max}=R^2=144\\).",
+   "explain_vi": "Đáp án a. Đặt \\(OB=x\\); khi đó \\(BC=\\sqrt{144-x^2}\\) và \\(S=2x\\sqrt{144-x^2}\\). \\(S^2=4x^2(144-x^2)\\) lớn nhất khi \\(x^2=72\\), nên \\(S_{\\max}=R^2=144\\).",
+   "images": [
+    "img/tex/873a99865aaaef60.svg"
+   ],
+   "id": "dcf8b133ad9f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "After an injection, the concentration of a drug in the blood is \\(C(t)=\\dfrac{#t}{t^#+#}\\) (mg/l), \\(t\\) in hours. After how many hours is the concentration highest?",
+   "en": "After an injection, the concentration of a drug in the blood is \\(C(t)=\\dfrac{4t}{t^2+16}\\) (mg/l), \\(t\\) in hours. After how many hours is the concentration highest?",
+   "vi": "Sau khi tiêm, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"concentration\">nồng độ</b> thuốc trong máu là \\(C(t)=\\dfrac{4t}{t^2+16}\\) (mg/l), \\(t\\) tính bằng giờ. Sau bao nhiêu giờ thì <b class=\"mbl-term\" tabindex=\"0\" data-en=\"concentration\">nồng độ</b> cao nhất?",
+   "options": [
+    "\\(8\\)",
+    "\\(4\\)",
+    "\\(16\\)",
+    "\\(5\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(C'(t)=\\dfrac{4(16-t^2)}{(t^2+16)^2}=0\\Leftrightarrow t=4\\); \\(C'\\) changes from \\(+\\) to \\(-\\).",
+   "explain_vi": "Đáp án b. \\(C'(t)=\\dfrac{4(16-t^2)}{(t^2+16)^2}=0\\Leftrightarrow t=4\\); \\(C'\\) đổi dấu từ \\(+\\) sang \\(-\\).",
+   "images": [],
+   "id": "77221ab73d0b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "At noon ship \\(A\\) is \\(#\\) km east of port \\(O\\) and sails west towards \\(O\\) at \\(#\\) km/h; at the same time ship \\(B\\) leaves \\(O\\) sailing north at \\(#\\) km/h. After how many hours are the ships closest?",
+   "en": "At noon ship \\(A\\) is \\(25\\) km east of port \\(O\\) and sails west towards \\(O\\) at \\(4\\) km/h; at the same time ship \\(B\\) leaves \\(O\\) sailing north at \\(3\\) km/h. After how many hours are the ships closest?<img src=\"../../../img/tex/578d272d866aa255.svg\" alt=\"Two ships\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Lúc 12 giờ, tàu \\(A\\) cách cảng \\(O\\) \\(25\\) km về phía đông và đi về phía tây (về \\(O\\)) với <b class=\"mbl-term\" tabindex=\"0\" data-en=\"velocity\">vận tốc</b> \\(4\\) km/h; cùng lúc tàu \\(B\\) rời \\(O\\) đi về phía bắc với <b class=\"mbl-term\" tabindex=\"0\" data-en=\"velocity\">vận tốc</b> \\(3\\) km/h. Sau bao nhiêu giờ hai tàu gần nhau nhất?<img src=\"../../../img/tex/578d272d866aa255.svg\" alt=\"Hai con tàu\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "\\(\\dfrac{25}{7}\\)",
+    "\\(5\\)",
+    "<span class=\"txi\"><span class=\"en\">\\(6.25\\)</span><span class=\"vi\">\\(6{,}25\\)</span></span>",
+    "\\(4\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(AB^2=(25-4t)^2+(3t)^2\\); its derivative \\(2(25)t-2\\cdot25\\cdot4=0\\Leftrightarrow t=4\\).",
+   "explain_vi": "Đáp án d. \\(AB^2=(25-4t)^2+(3t)^2\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"derivative\">đạo hàm</b> \\(2(25)t-2\\cdot25\\cdot4=0\\Leftrightarrow t=4\\).",
+   "images": [
+    "img/tex/578d272d866aa255.svg"
+   ],
+   "id": "e3aabf430941",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The printed part of a poster has area \\(#\\ \\text{dm}^#\\). The margins are \\(#\\) dm at the top and bottom and \\(#\\) dm at each side (see the figure). What is the smallest possible area of the poster (dm²)?",
+   "en": "The printed part of a poster has area \\(96\\ \\text{dm}^2\\). The margins are \\(3\\) dm at the top and bottom and \\(2\\) dm at each side (see the figure). What is the smallest possible area of the poster (dm²)?<img src=\"../../../img/tex/6c12c0564f20b38e.svg\" alt=\"Poster\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,200px);height:auto\">",
+   "vi": "Phần in chữ của một tấm áp phích có diện tích \\(96\\ \\text{dm}^2\\). Lề trên và lề dưới đều rộng \\(3\\) dm, lề hai bên đều rộng \\(2\\) dm (xem hình). Diện tích nhỏ nhất của tấm áp phích là bao nhiêu (dm²)?<img src=\"../../../img/tex/6c12c0564f20b38e.svg\" alt=\"Áp phích\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,200px);height:auto\">",
+   "options": [
+    "\\(224\\)",
+    "\\(240\\)",
+    "\\(216\\)",
+    "\\(192\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Printed part \\(x\\times y\\), \\(xy=96\\): \\(S=(x+4)(y+6)=120+6x+\\dfrac{384}{x}\\), smallest at \\(x=8\\), \\(y=12\\): \\(S=12\\cdot18=216\\).",
+   "explain_vi": "Đáp án c. Phần chữ \\(x\\times y\\), \\(xy=96\\): \\(S=(x+4)(y+6)=120+6x+\\dfrac{384}{x}\\), nhỏ nhất khi \\(x=8\\), \\(y=12\\): \\(S=12\\cdot18=216\\).",
+   "images": [
+    "img/tex/6c12c0564f20b38e.svg"
+   ],
+   "id": "081659d4f984",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "A box is made from a square sheet of side # cm by cutting corner squares of side \\(x\\). The volume is largest when \\(x=\\)…",
+   "en": "A box is made from a square sheet of side 18 cm by cutting corner squares of side \\(x\\). The volume is largest when \\(x=\\)…",
+   "vi": "Làm hộp từ tấm bìa vuông cạnh 18 cm bằng cách cắt bốn góc cạnh \\(x\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"volume\">Thể tích</b> lớn nhất khi \\(x=\\)…",
+   "options": [
+    "\\(6\\ \\text{cm}\\)",
+    "\\(3\\ \\text{cm}\\)",
+    "\\(4\\ \\text{cm}\\)",
+    "\\(9\\ \\text{cm}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(V'=(18-2x)(18-6x)=0\\) gives \\(x=3\\).",
+   "explain_vi": "Đáp án b. \\(V'=(18-2x)(18-6x)=0\\) cho \\(x=3\\).",
+   "images": [],
+   "id": "2ab485995cf9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "A rectangle has perimeter # m. Its largest area is…",
+   "en": "A rectangle has perimeter 36 m. Its largest area is…",
+   "vi": "Hình chữ nhật có chu vi 36 m. Diện tích lớn nhất của nó là…",
+   "options": [
+    "\\(40\\ \\text{m}^2\\)",
+    "\\(81\\ \\text{m}^2\\)",
+    "\\(162\\ \\text{m}^2\\)",
+    "\\(85\\ \\text{m}^2\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(x+y=18\\), so \\(A=x(18-x)\\) is largest at \\(x=9\\).",
+   "explain_vi": "Đáp án b. \\(x+y=18\\) nên \\(A=x(18-x)\\) lớn nhất tại \\(x=9\\).",
+   "images": [],
+   "id": "c1c05066754f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "There is # m of fence and a river forms one side. The largest area is…",
+   "en": "There is 80 m of fence and a river forms one side. The largest area is…",
+   "vi": "Có 80 m <b class=\"mbl-term\" tabindex=\"0\" data-en=\"fence\">hàng rào</b>, bờ sông làm một cạnh. Diện tích lớn nhất là…",
+   "options": [
+    "\\(400\\ \\text{m}^2\\)",
+    "\\(800\\ \\text{m}^2\\)",
+    "\\(1600\\ \\text{m}^2\\)",
+    "\\(810\\ \\text{m}^2\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(A=x(80-2x)\\), maximum at \\(x=20\\).",
+   "explain_vi": "Đáp án b. \\(A=x(80-2x)\\), lớn nhất tại \\(x=20\\).",
+   "images": [],
+   "id": "2755d062befd",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "Among rectangles of perimeter # m, the one with length twice its width has the largest area.",
+   "en": "Among rectangles of perimeter 44 m, the one with length twice its width has the largest area.",
+   "vi": "Trong các hình chữ nhật có chu vi 44 m, hình chữ nhật có chiều dài gấp đôi chiều rộng có diện tích lớn nhất.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "The largest area occurs when the two sides are equal.",
+   "explain_vi": "Diện tích lớn nhất khi hai cạnh bằng nhau.",
+   "images": [],
+   "id": "5f75ce6f2ae6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "For \\(C(x)=x+\\dfrac{#}{x}\\) with \\(x\\gt#\\), the smallest value is #.",
+   "en": "For \\(C(x)=x+\\dfrac{16}{x}\\) with \\(x\\gt0\\), the smallest value is 4.",
+   "vi": "Với \\(C(x)=x+\\dfrac{16}{x}\\), \\(x\\gt0\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"minimum value\">giá trị nhỏ nhất</b> là 4.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "\\(C'=0\\) at \\(x=4\\) and \\(C(4)=8\\).",
+   "explain_vi": "\\(C'=0\\) tại \\(x=4\\) và \\(C(4)=8\\).",
+   "images": [],
+   "id": "3a3d6ce065f9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "The profit is \\(P(x)=-x^#+#x-#\\) (million VND). Find the largest profit.",
+   "en": "The profit is \\(P(x)=-x^2+10x-9\\) (million VND). Find the largest profit.",
+   "vi": "Lợi nhuận là \\(P(x)=-x^2+10x-9\\) (triệu đồng). Tìm lợi nhuận lớn nhất.",
+   "options": [],
+   "answer": "16",
+   "explain_en": "The vertex is at \\(x=5\\): \\(P=16\\).",
+   "explain_vi": "Đỉnh tại \\(x=5\\): \\(P=16\\).",
+   "images": [],
+   "id": "66eface36213",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "Two numbers have sum #. Find the smallest value of the sum of their squares.",
+   "en": "Two numbers have sum 16. Find the smallest value of the sum of their squares.",
+   "vi": "Hai số có tổng bằng 16. Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"minimum value\">giá trị nhỏ nhất</b> của tổng bình phương hai số đó.",
+   "options": [],
+   "answer": "128",
+   "explain_en": "The minimum is at \\(x=8\\): \\(2\\cdot8^2=128\\).",
+   "explain_vi": "Nhỏ nhất khi hai số bằng nhau (\\(8\\)): \\(2\\cdot8^2=128\\).",
+   "images": [],
+   "id": "f101f70b41f4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "A cinema sells \\(#\\) tickets a day at \\(#\\) thousand VND each. Each time the price rises by \\(#\\) thousand VND, it sells \\(#\\) fewer tickets. Which price (thousand VND) gives the largest revenue?",
+   "en": "A cinema sells \\(130\\) tickets a day at \\(60\\) thousand VND each. Each time the price rises by \\(5\\) thousand VND, it sells \\(5\\) fewer tickets. Which price (thousand VND) gives the largest revenue?",
+   "vi": "Một rạp chiếu phim bán được \\(130\\) vé mỗi ngày với giá \\(60\\) nghìn đồng/vé. Cứ tăng giá thêm \\(5\\) nghìn đồng thì bán ít đi \\(5\\) vé. Giá vé bao nhiêu (nghìn đồng) thì doanh thu lớn nhất?",
+   "options": [
+    "\\(60\\)",
+    "\\(100\\)",
+    "\\(95\\)",
+    "\\(90\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. After \\(x\\) rises: \\(R(x)=(60+5x)(130-5x)\\), \\(R'(x)=0\\Leftrightarrow x=7\\), price \\(60+5\\cdot7=95\\).",
+   "explain_vi": "Đáp án c. Sau \\(x\\) lần tăng: \\(R(x)=(60+5x)(130-5x)\\), \\(R'(x)=0\\Leftrightarrow x=7\\), giá vé \\(60+5\\cdot7=95\\).",
+   "images": [],
+   "id": "55edeebb7712",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "A closed cylindrical can must hold \\(#\\pi\\ \\text{cm}^#\\). Which base radius (cm) uses the least metal (smallest total surface area)?",
+   "en": "A closed cylindrical can must hold \\(54\\pi\\ \\text{cm}^3\\). Which base radius (cm) uses the least metal (smallest total surface area)?",
+   "vi": "Một lon hình trụ có nắp cần chứa \\(54\\pi\\ \\text{cm}^3\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">Bán kính</b> đáy bằng bao nhiêu (cm) thì tốn ít vật liệu nhất (diện tích toàn phần nhỏ nhất)?",
+   "options": [
+    "\\(2\\)",
+    "\\(3\\)",
+    "\\(6\\)",
+    "\\(4\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(h=\\dfrac{54}{r^2}\\), \\(S=2\\pi r^2+\\dfrac{108\\pi}{r}\\), \\(S'=4\\pi r-\\dfrac{108\\pi}{r^2}=0\\Leftrightarrow r^3=27\\Leftrightarrow r=3\\).",
+   "explain_vi": "Đáp án b. \\(h=\\dfrac{54}{r^2}\\), \\(S=2\\pi r^2+\\dfrac{108\\pi}{r}\\), \\(S'=4\\pi r-\\dfrac{108\\pi}{r^2}=0\\Leftrightarrow r^3=27\\Leftrightarrow r=3\\).",
+   "images": [],
+   "id": "29ced72c0428",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "A farmer uses \\(#\\) m of fence to build a rectangular pen divided into \\(#\\) equal parts by fences parallel to one side (see the figure). What is the largest total area (m²)?",
+   "en": "A farmer uses \\(180\\) m of fence to build a rectangular pen divided into \\(2\\) equal parts by fences parallel to one side (see the figure). What is the largest total area (m²)?<img src=\"../../../img/tex/8c2558324491147e.svg\" alt=\"Pens\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Một bác nông dân dùng \\(180\\) m lưới rào thành một khu hình chữ nhật, chia thành \\(2\\) ô bằng nhau bởi các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"fence\">hàng rào</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b> với một cạnh (xem hình). Tổng diện tích lớn nhất là bao nhiêu (m²)?<img src=\"../../../img/tex/8c2558324491147e.svg\" alt=\"Chuồng\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "\\(1350\\)",
+    "\\(1380\\)",
+    "\\(2025\\)",
+    "<span class=\"txi\"><span class=\"en\">\\(506.25\\)</span><span class=\"vi\">\\(506{,}25\\)</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(2x+3y=180\\), \\(S=xy=\\dfrac{x(180-2x)}{3}\\), \\(S'=0\\Leftrightarrow x=45\\), \\(y=30\\), \\(S=1350\\).",
+   "explain_vi": "Đáp án a. \\(2x+3y=180\\), \\(S=xy=\\dfrac{x(180-2x)}{3}\\), \\(S'=0\\Leftrightarrow x=45\\), \\(y=30\\), \\(S=1350\\).",
+   "images": [
+    "img/tex/8c2558324491147e.svg"
+   ],
+   "id": "69753db05c59",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "A power station \\(A\\) is on one bank of a straight river \\(#\\) km wide; a factory \\(B\\) is on the other bank, \\(#\\) km from the point \\(H\\) opposite \\(A\\) (see the figure). A cable goes underwater from \\(A\\) to \\(M\\) on the other bank, then along the bank to \\(B\\). It costs \\(#\\) million VND per km underwater and \\(#\\) million VND per km on land. How far from \\(H\\) should \\(M\\) be (km) to make the cost smallest?",
+   "en": "A power station \\(A\\) is on one bank of a straight river \\(4\\) km wide; a factory \\(B\\) is on the other bank, \\(6\\) km from the point \\(H\\) opposite \\(A\\) (see the figure). A cable goes underwater from \\(A\\) to \\(M\\) on the other bank, then along the bank to \\(B\\). It costs \\(100\\) million VND per km underwater and \\(60\\) million VND per km on land. How far from \\(H\\) should \\(M\\) be (km) to make the cost smallest?<img src=\"../../../img/tex/d6587038cc8a70e8.svg\" alt=\"River and cable\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,380px);height:auto\">",
+   "vi": "Nhà máy điện \\(A\\) ở một bờ sông thẳng rộng \\(4\\) km; xưởng \\(B\\) ở bờ bên kia, cách điểm \\(H\\) đối diện \\(A\\) là \\(6\\) km (xem hình). Dây điện đi dưới nước từ \\(A\\) tới \\(M\\) ở bờ bên kia rồi đi dọc bờ tới \\(B\\). Chi phí là \\(100\\) triệu đồng/km dưới nước và \\(60\\) triệu đồng/km trên bờ. Điểm \\(M\\) cách \\(H\\) bao nhiêu km thì chi phí nhỏ nhất?<img src=\"../../../img/tex/d6587038cc8a70e8.svg\" alt=\"Dòng sông và đường dây\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,380px);height:auto\">",
+   "options": [
+    "\\(6\\)",
+    "\\(4\\)",
+    "\\(3\\)",
+    "\\(0\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(C(x)=100\\sqrt{16+x^2}+60(6-x)\\); \\(C'(x)=0\\Leftrightarrow 5 x=3\\sqrt{16+x^2}\\Leftrightarrow x=3\\).",
+   "explain_vi": "Đáp án c. \\(C(x)=100\\sqrt{16+x^2}+60(6-x)\\); \\(C'(x)=0\\Leftrightarrow 5 x=3\\sqrt{16+x^2}\\Leftrightarrow x=3\\).",
+   "images": [
+    "img/tex/d6587038cc8a70e8.svg"
+   ],
+   "id": "d8889dc2f19b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "A window has the shape of a rectangle \\(ABCD\\) inscribed in a semicircle of radius \\(R=#\\) dm (see the figure; \\(A\\), \\(B\\) lie on the diameter). What is the largest possible area of the rectangle (dm²)?",
+   "en": "A window has the shape of a rectangle \\(ABCD\\) inscribed in a semicircle of radius \\(R=4\\) dm (see the figure; \\(A\\), \\(B\\) lie on the diameter). What is the largest possible area of the rectangle (dm²)?<img src=\"../../../img/tex/873a99865aaaef60.svg\" alt=\"Rectangle in a semicircle\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,330px);height:auto\">",
+   "vi": "Một ô cửa có dạng hình chữ nhật \\(ABCD\\) nội tiếp nửa hình tròn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> \\(R=4\\) dm (xem hình; \\(A\\), \\(B\\) nằm trên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diameter\">đường kính</b>). Diện tích lớn nhất của hình chữ nhật là bao nhiêu (dm²)?<img src=\"../../../img/tex/873a99865aaaef60.svg\" alt=\"Hình chữ nhật nội tiếp nửa hình tròn\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,330px);height:auto\">",
+   "options": [
+    "\\(12\\)",
+    "\\(16\\)",
+    "\\(8\\)",
+    "\\(32\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Let \\(OB=x\\); then \\(BC=\\sqrt{16-x^2}\\) and \\(S=2x\\sqrt{16-x^2}\\). \\(S^2=4x^2(16-x^2)\\) is largest when \\(x^2=8\\), so \\(S_{\\max}=R^2=16\\).",
+   "explain_vi": "Đáp án b. Đặt \\(OB=x\\); khi đó \\(BC=\\sqrt{16-x^2}\\) và \\(S=2x\\sqrt{16-x^2}\\). \\(S^2=4x^2(16-x^2)\\) lớn nhất khi \\(x^2=8\\), nên \\(S_{\\max}=R^2=16\\).",
+   "images": [
+    "img/tex/873a99865aaaef60.svg"
+   ],
+   "id": "e2f40feb3955",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "After an injection, the concentration of a drug in the blood is \\(C(t)=\\dfrac{#t}{t^#+#}\\) (mg/l), \\(t\\) in hours. What is the highest concentration (mg/l)?",
+   "en": "After an injection, the concentration of a drug in the blood is \\(C(t)=\\dfrac{4t}{t^2+1}\\) (mg/l), \\(t\\) in hours. What is the highest concentration (mg/l)?",
+   "vi": "Sau khi tiêm, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"concentration\">nồng độ</b> thuốc trong máu là \\(C(t)=\\dfrac{4t}{t^2+1}\\) (mg/l), \\(t\\) tính bằng giờ. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"concentration\">Nồng độ</b> cao nhất là bao nhiêu (mg/l)?",
+   "options": [
+    "\\(3\\)",
+    "\\(4\\)",
+    "\\(2\\)",
+    "\\(5\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Highest at \\(t=1\\): \\(C(1)=\\dfrac{4}{2}=2\\).",
+   "explain_vi": "Đáp án c. Cao nhất khi \\(t=1\\): \\(C(1)=\\dfrac{4}{2}=2\\).",
+   "images": [],
+   "id": "e3b09eb20d30",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "At noon ship \\(A\\) is \\(#\\) km east of port \\(O\\) and sails west towards \\(O\\) at \\(#\\) km/h; at the same time ship \\(B\\) leaves \\(O\\) sailing north at \\(#\\) km/h. After how many hours are the ships closest?",
+   "en": "At noon ship \\(A\\) is \\(100\\) km east of port \\(O\\) and sails west towards \\(O\\) at \\(6\\) km/h; at the same time ship \\(B\\) leaves \\(O\\) sailing north at \\(8\\) km/h. After how many hours are the ships closest?<img src=\"../../../img/tex/578d272d866aa255.svg\" alt=\"Two ships\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Lúc 12 giờ, tàu \\(A\\) cách cảng \\(O\\) \\(100\\) km về phía đông và đi về phía tây (về \\(O\\)) với <b class=\"mbl-term\" tabindex=\"0\" data-en=\"velocity\">vận tốc</b> \\(6\\) km/h; cùng lúc tàu \\(B\\) rời \\(O\\) đi về phía bắc với <b class=\"mbl-term\" tabindex=\"0\" data-en=\"velocity\">vận tốc</b> \\(8\\) km/h. Sau bao nhiêu giờ hai tàu gần nhau nhất?<img src=\"../../../img/tex/578d272d866aa255.svg\" alt=\"Hai con tàu\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "\\(\\dfrac{50}{7}\\)",
+    "\\(6\\)",
+    "\\(7\\)",
+    "\\(\\dfrac{50}{3}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(AB^2=(100-6t)^2+(8t)^2\\); its derivative \\(2(100)t-2\\cdot100\\cdot6=0\\Leftrightarrow t=6\\).",
+   "explain_vi": "Đáp án b. \\(AB^2=(100-6t)^2+(8t)^2\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"derivative\">đạo hàm</b> \\(2(100)t-2\\cdot100\\cdot6=0\\Leftrightarrow t=6\\).",
+   "images": [
+    "img/tex/578d272d866aa255.svg"
+   ],
+   "id": "b39bb6c2979e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The printed part of a poster has area \\(#\\ \\text{dm}^#\\). The margins are \\(#\\) dm at the top and bottom and \\(#\\) dm at each side (see the figure). What is the smallest possible area of the poster (dm²)?",
+   "en": "The printed part of a poster has area \\(48\\ \\text{dm}^2\\). The margins are \\(4\\) dm at the top and bottom and \\(3\\) dm at each side (see the figure). What is the smallest possible area of the poster (dm²)?<img src=\"../../../img/tex/2d7c4a527069f39f.svg\" alt=\"Poster\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,225px);height:auto\">",
+   "vi": "Phần in chữ của một tấm áp phích có diện tích \\(48\\ \\text{dm}^2\\). Lề trên và lề dưới đều rộng \\(4\\) dm, lề hai bên đều rộng \\(3\\) dm (xem hình). Diện tích nhỏ nhất của tấm áp phích là bao nhiêu (dm²)?<img src=\"../../../img/tex/2d7c4a527069f39f.svg\" alt=\"Áp phích\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,225px);height:auto\">",
+   "options": [
+    "\\(144\\)",
+    "\\(240\\)",
+    "\\(192\\)",
+    "\\(196\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Printed part \\(x\\times y\\), \\(xy=48\\): \\(S=(x+6)(y+8)=96+8x+\\dfrac{288}{x}\\), smallest at \\(x=6\\), \\(y=8\\): \\(S=12\\cdot16=192\\).",
+   "explain_vi": "Đáp án c. Phần chữ \\(x\\times y\\), \\(xy=48\\): \\(S=(x+6)(y+8)=96+8x+\\dfrac{288}{x}\\), nhỏ nhất khi \\(x=6\\), \\(y=8\\): \\(S=12\\cdot16=192\\).",
+   "images": [
+    "img/tex/2d7c4a527069f39f.svg"
+   ],
+   "id": "90c4bd0d8d3a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "A box is made from a square sheet of side # cm by cutting corner squares of side \\(x\\). The volume is largest when \\(x=\\)…",
+   "en": "A box is made from a square sheet of side 30 cm by cutting corner squares of side \\(x\\). The volume is largest when \\(x=\\)…",
+   "vi": "Làm hộp từ tấm bìa vuông cạnh 30 cm bằng cách cắt bốn góc cạnh \\(x\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"volume\">Thể tích</b> lớn nhất khi \\(x=\\)…",
+   "options": [
+    "\\(10\\ \\text{cm}\\)",
+    "\\(5\\ \\text{cm}\\)",
+    "\\(7\\ \\text{cm}\\)",
+    "\\(15\\ \\text{cm}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(V'=(30-2x)(30-6x)=0\\) gives \\(x=5\\).",
+   "explain_vi": "Đáp án b. \\(V'=(30-2x)(30-6x)=0\\) cho \\(x=5\\).",
+   "images": [],
+   "id": "4c0571e7a4f2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "A rectangle has perimeter # m. Its largest area is…",
+   "en": "A rectangle has perimeter 52 m. Its largest area is…",
+   "vi": "Hình chữ nhật có chu vi 52 m. Diện tích lớn nhất của nó là…",
+   "options": [
+    "\\(84\\ \\text{m}^2\\)",
+    "\\(338\\ \\text{m}^2\\)",
+    "\\(169\\ \\text{m}^2\\)",
+    "\\(173\\ \\text{m}^2\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(x+y=26\\), so \\(A=x(26-x)\\) is largest at \\(x=13\\).",
+   "explain_vi": "Đáp án c. \\(x+y=26\\) nên \\(A=x(26-x)\\) lớn nhất tại \\(x=13\\).",
+   "images": [],
+   "id": "62dfabc36c4a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "There is # m of fence and a river forms one side. The largest area is…",
+   "en": "There is 120 m of fence and a river forms one side. The largest area is…",
+   "vi": "Có 120 m <b class=\"mbl-term\" tabindex=\"0\" data-en=\"fence\">hàng rào</b>, bờ sông làm một cạnh. Diện tích lớn nhất là…",
+   "options": [
+    "\\(900\\ \\text{m}^2\\)",
+    "\\(3600\\ \\text{m}^2\\)",
+    "\\(1800\\ \\text{m}^2\\)",
+    "\\(1810\\ \\text{m}^2\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(A=x(120-2x)\\), maximum at \\(x=30\\).",
+   "explain_vi": "Đáp án c. \\(A=x(120-2x)\\), lớn nhất tại \\(x=30\\).",
+   "images": [],
+   "id": "3830f715ed00",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "Among rectangles of perimeter # m, the square has the largest area.",
+   "en": "Among rectangles of perimeter 60 m, the square has the largest area.",
+   "vi": "Trong các hình chữ nhật có chu vi 60 m, hình vuông có diện tích lớn nhất.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "The largest area occurs when the two sides are equal.",
+   "explain_vi": "Diện tích lớn nhất khi hai cạnh bằng nhau.",
+   "images": [],
+   "id": "c8f88076cb6f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "For \\(C(x)=x+\\dfrac{#}{x}\\) with \\(x\\gt#\\), the smallest value is #.",
+   "en": "For \\(C(x)=x+\\dfrac{25}{x}\\) with \\(x\\gt0\\), the smallest value is 5.",
+   "vi": "Với \\(C(x)=x+\\dfrac{25}{x}\\), \\(x\\gt0\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"minimum value\">giá trị nhỏ nhất</b> là 5.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "\\(C'=0\\) at \\(x=5\\) and \\(C(5)=10\\).",
+   "explain_vi": "\\(C'=0\\) tại \\(x=5\\) và \\(C(5)=10\\).",
+   "images": [],
+   "id": "9da29f986d21",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "The profit is \\(P(x)=-x^#+#x-#\\) (million VND). Find the largest profit.",
+   "en": "The profit is \\(P(x)=-x^2+14x-12\\) (million VND). Find the largest profit.",
+   "vi": "Lợi nhuận là \\(P(x)=-x^2+14x-12\\) (triệu đồng). Tìm lợi nhuận lớn nhất.",
+   "options": [],
+   "answer": "37",
+   "explain_en": "The vertex is at \\(x=7\\): \\(P=37\\).",
+   "explain_vi": "Đỉnh tại \\(x=7\\): \\(P=37\\).",
+   "images": [],
+   "id": "3c198f190857",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Two numbers have sum #. Find the smallest value of the sum of their squares.",
+   "en": "Two numbers have sum 22. Find the smallest value of the sum of their squares.",
+   "vi": "Hai số có tổng bằng 22. Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"minimum value\">giá trị nhỏ nhất</b> của tổng bình phương hai số đó.",
+   "options": [],
+   "answer": "242",
+   "explain_en": "The minimum is at \\(x=11\\): \\(2\\cdot11^2=242\\).",
+   "explain_vi": "Nhỏ nhất khi hai số bằng nhau (\\(11\\)): \\(2\\cdot11^2=242\\).",
+   "images": [],
+   "id": "72715607ef94",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "A cinema sells \\(#\\) tickets a day at \\(#\\) thousand VND each. Each time the price rises by \\(#\\) thousand VND, it sells \\(#\\) fewer tickets. Which price (thousand VND) gives the largest revenue?",
+   "en": "A cinema sells \\(240\\) tickets a day at \\(40\\) thousand VND each. Each time the price rises by \\(10\\) thousand VND, it sells \\(20\\) fewer tickets. Which price (thousand VND) gives the largest revenue?",
+   "vi": "Một rạp chiếu phim bán được \\(240\\) vé mỗi ngày với giá \\(40\\) nghìn đồng/vé. Cứ tăng giá thêm \\(10\\) nghìn đồng thì bán ít đi \\(20\\) vé. Giá vé bao nhiêu (nghìn đồng) thì doanh thu lớn nhất?",
+   "options": [
+    "\\(70\\)",
+    "\\(40\\)",
+    "\\(80\\)",
+    "\\(90\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. After \\(x\\) rises: \\(R(x)=(40+10x)(240-20x)\\), \\(R'(x)=0\\Leftrightarrow x=4\\), price \\(40+10\\cdot4=80\\).",
+   "explain_vi": "Đáp án c. Sau \\(x\\) lần tăng: \\(R(x)=(40+10x)(240-20x)\\), \\(R'(x)=0\\Leftrightarrow x=4\\), giá vé \\(40+10\\cdot4=80\\).",
+   "images": [],
+   "id": "25834f98f7bd",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "A closed cylindrical can must hold \\(#\\pi\\ \\text{cm}^#\\). What is the smallest possible total surface area (cm²)?",
+   "en": "A closed cylindrical can must hold \\(54\\pi\\ \\text{cm}^3\\). What is the smallest possible total surface area (cm²)?",
+   "vi": "Một lon hình trụ có nắp cần chứa \\(54\\pi\\ \\text{cm}^3\\). Diện tích toàn phần nhỏ nhất của lon là bao nhiêu (cm²)?",
+   "options": [
+    "\\(54\\pi\\)",
+    "\\(60\\pi\\)",
+    "\\(36\\pi\\)",
+    "\\(72\\pi\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. The minimum is at \\(r=3\\), \\(h=6\\): \\(S=2\\pi\\cdot9+2\\pi\\cdot3\\cdot6=54\\pi\\).",
+   "explain_vi": "Đáp án a. Nhỏ nhất khi \\(r=3\\), \\(h=6\\): \\(S=2\\pi\\cdot9+2\\pi\\cdot3\\cdot6=54\\pi\\).",
+   "images": [],
+   "id": "6585441a02db",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "A farmer uses \\(#\\) m of fence to build a rectangular pen divided into \\(#\\) equal parts by fences parallel to one side (see the figure). What is the largest total area (m²)?",
+   "en": "A farmer uses \\(80\\) m of fence to build a rectangular pen divided into \\(3\\) equal parts by fences parallel to one side (see the figure). What is the largest total area (m²)?<img src=\"../../../img/tex/6c0e655efcb69b61.svg\" alt=\"Pens\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Một bác nông dân dùng \\(80\\) m lưới rào thành một khu hình chữ nhật, chia thành \\(3\\) ô bằng nhau bởi các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"fence\">hàng rào</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b> với một cạnh (xem hình). Tổng diện tích lớn nhất là bao nhiêu (m²)?<img src=\"../../../img/tex/6c0e655efcb69b61.svg\" alt=\"Chuồng\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "\\(400\\)",
+    "\\(80\\)",
+    "\\(200\\)",
+    "\\(\\dfrac{800}{3}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(2x+4y=80\\), \\(S=xy=\\dfrac{x(80-2x)}{4}\\), \\(S'=0\\Leftrightarrow x=20\\), \\(y=10\\), \\(S=200\\).",
+   "explain_vi": "Đáp án c. \\(2x+4y=80\\), \\(S=xy=\\dfrac{x(80-2x)}{4}\\), \\(S'=0\\Leftrightarrow x=20\\), \\(y=10\\), \\(S=200\\).",
+   "images": [
+    "img/tex/6c0e655efcb69b61.svg"
+   ],
+   "id": "7fdde03716b7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "A power station \\(A\\) is on one bank of a straight river \\(#\\) km wide; a factory \\(B\\) is on the other bank, \\(#\\) km from the point \\(H\\) opposite \\(A\\) (see the figure). A cable goes underwater from \\(A\\) to \\(M\\) on the other bank, then along the bank to \\(B\\). It costs \\(#\\) million VND per km underwater and \\(#\\) million VND per km on land. How far from \\(H\\) should \\(M\\) be (km) to make the cost smallest?",
+   "en": "A power station \\(A\\) is on one bank of a straight river \\(5\\) km wide; a factory \\(B\\) is on the other bank, \\(18\\) km from the point \\(H\\) opposite \\(A\\) (see the figure). A cable goes underwater from \\(A\\) to \\(M\\) on the other bank, then along the bank to \\(B\\). It costs \\(130\\) million VND per km underwater and \\(120\\) million VND per km on land. How far from \\(H\\) should \\(M\\) be (km) to make the cost smallest?<img src=\"../../../img/tex/3d30344a3c368b0f.svg\" alt=\"River and cable\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,380px);height:auto\">",
+   "vi": "Nhà máy điện \\(A\\) ở một bờ sông thẳng rộng \\(5\\) km; xưởng \\(B\\) ở bờ bên kia, cách điểm \\(H\\) đối diện \\(A\\) là \\(18\\) km (xem hình). Dây điện đi dưới nước từ \\(A\\) tới \\(M\\) ở bờ bên kia rồi đi dọc bờ tới \\(B\\). Chi phí là \\(130\\) triệu đồng/km dưới nước và \\(120\\) triệu đồng/km trên bờ. Điểm \\(M\\) cách \\(H\\) bao nhiêu km thì chi phí nhỏ nhất?<img src=\"../../../img/tex/3d30344a3c368b0f.svg\" alt=\"Dòng sông và đường dây\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,380px);height:auto\">",
+   "options": [
+    "\\(12\\)",
+    "\\(18\\)",
+    "\\(0\\)",
+    "\\(5\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(C(x)=130\\sqrt{25+x^2}+120(18-x)\\); \\(C'(x)=0\\Leftrightarrow 13 x=12\\sqrt{25+x^2}\\Leftrightarrow x=12\\).",
+   "explain_vi": "Đáp án a. \\(C(x)=130\\sqrt{25+x^2}+120(18-x)\\); \\(C'(x)=0\\Leftrightarrow 13 x=12\\sqrt{25+x^2}\\Leftrightarrow x=12\\).",
+   "images": [
+    "img/tex/3d30344a3c368b0f.svg"
+   ],
+   "id": "7bd7e4201d0f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "A window has the shape of a rectangle \\(ABCD\\) inscribed in a semicircle of radius \\(R=#\\) dm (see the figure; \\(A\\), \\(B\\) lie on the diameter). What is the largest possible area of the rectangle (dm²)?",
+   "en": "A window has the shape of a rectangle \\(ABCD\\) inscribed in a semicircle of radius \\(R=6\\) dm (see the figure; \\(A\\), \\(B\\) lie on the diameter). What is the largest possible area of the rectangle (dm²)?<img src=\"../../../img/tex/873a99865aaaef60.svg\" alt=\"Rectangle in a semicircle\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,330px);height:auto\">",
+   "vi": "Một ô cửa có dạng hình chữ nhật \\(ABCD\\) nội tiếp nửa hình tròn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> \\(R=6\\) dm (xem hình; \\(A\\), \\(B\\) nằm trên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diameter\">đường kính</b>). Diện tích lớn nhất của hình chữ nhật là bao nhiêu (dm²)?<img src=\"../../../img/tex/873a99865aaaef60.svg\" alt=\"Hình chữ nhật nội tiếp nửa hình tròn\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,330px);height:auto\">",
+   "options": [
+    "\\(72\\)",
+    "\\(18\\)",
+    "\\(36\\)",
+    "\\(27\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Let \\(OB=x\\); then \\(BC=\\sqrt{36-x^2}\\) and \\(S=2x\\sqrt{36-x^2}\\). \\(S^2=4x^2(36-x^2)\\) is largest when \\(x^2=18\\), so \\(S_{\\max}=R^2=36\\).",
+   "explain_vi": "Đáp án c. Đặt \\(OB=x\\); khi đó \\(BC=\\sqrt{36-x^2}\\) và \\(S=2x\\sqrt{36-x^2}\\). \\(S^2=4x^2(36-x^2)\\) lớn nhất khi \\(x^2=18\\), nên \\(S_{\\max}=R^2=36\\).",
+   "images": [
+    "img/tex/873a99865aaaef60.svg"
+   ],
+   "id": "3a33721f1f7b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "After an injection, the concentration of a drug in the blood is \\(C(t)=\\dfrac{#t}{t^#+#}\\) (mg/l), \\(t\\) in hours. What is the highest concentration (mg/l)?",
+   "en": "After an injection, the concentration of a drug in the blood is \\(C(t)=\\dfrac{3t}{t^2+1}\\) (mg/l), \\(t\\) in hours. What is the highest concentration (mg/l)?",
+   "vi": "Sau khi tiêm, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"concentration\">nồng độ</b> thuốc trong máu là \\(C(t)=\\dfrac{3t}{t^2+1}\\) (mg/l), \\(t\\) tính bằng giờ. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"concentration\">Nồng độ</b> cao nhất là bao nhiêu (mg/l)?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(3.5\\)</span><span class=\"vi\">\\(3{,}5\\)</span></span>",
+    "\\(3\\)",
+    "<span class=\"txi\"><span class=\"en\">\\(2.5\\)</span><span class=\"vi\">\\(2{,}5\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(1.5\\)</span><span class=\"vi\">\\(1{,}5\\)</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Highest at \\(t=1\\): \\(C(1)=\\dfrac{3}{2}=1.5\\).",
+   "explain_vi": "Đáp án d. Cao nhất khi \\(t=1\\): \\(C(1)=\\dfrac{3}{2}=1{,}5\\).",
+   "images": [],
+   "id": "9cf65b950cd1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Ship \\(A\\) is \\(#\\) km east of port \\(O\\) and sails west towards \\(O\\) at \\(#\\) km/h; at the same time ship \\(B\\) leaves \\(O\\) sailing north at \\(#\\) km/h. What is the smallest distance between them (km)?",
+   "en": "Ship \\(A\\) is \\(50\\) km east of port \\(O\\) and sails west towards \\(O\\) at \\(4\\) km/h; at the same time ship \\(B\\) leaves \\(O\\) sailing north at \\(3\\) km/h. What is the smallest distance between them (km)?<img src=\"../../../img/tex/578d272d866aa255.svg\" alt=\"Two ships\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Tàu \\(A\\) cách cảng \\(O\\) \\(50\\) km về phía đông, đi về phía tây (về \\(O\\)) với <b class=\"mbl-term\" tabindex=\"0\" data-en=\"velocity\">vận tốc</b> \\(4\\) km/h; cùng lúc tàu \\(B\\) rời \\(O\\) đi về phía bắc với <b class=\"mbl-term\" tabindex=\"0\" data-en=\"velocity\">vận tốc</b> \\(3\\) km/h. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">Khoảng cách</b> nhỏ nhất giữa hai tàu là bao nhiêu km?<img src=\"../../../img/tex/578d272d866aa255.svg\" alt=\"Hai con tàu\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "\\(40\\)",
+    "\\(25\\)",
+    "\\(30\\)",
+    "\\(35\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Smallest at \\(t=8\\): \\(AB=\\sqrt{18^2+24^2}=30\\).",
+   "explain_vi": "Đáp án c. Nhỏ nhất khi \\(t=8\\): \\(AB=\\sqrt{18^2+24^2}=30\\).",
+   "images": [
+    "img/tex/578d272d866aa255.svg"
+   ],
+   "id": "1c5b97175f52",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The printed part of a poster has area \\(#\\ \\text{dm}^#\\). The margins are \\(#\\) dm at the top and bottom and \\(#\\) dm at each side (see the figure). What is the smallest possible area of the poster (dm²)?",
+   "en": "The printed part of a poster has area \\(24\\ \\text{dm}^2\\). The margins are \\(3\\) dm at the top and bottom and \\(2\\) dm at each side (see the figure). What is the smallest possible area of the poster (dm²)?<img src=\"../../../img/tex/f3d09075d4a5592c.svg\" alt=\"Poster\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,200px);height:auto\">",
+   "vi": "Phần in chữ của một tấm áp phích có diện tích \\(24\\ \\text{dm}^2\\). Lề trên và lề dưới đều rộng \\(3\\) dm, lề hai bên đều rộng \\(2\\) dm (xem hình). Diện tích nhỏ nhất của tấm áp phích là bao nhiêu (dm²)?<img src=\"../../../img/tex/f3d09075d4a5592c.svg\" alt=\"Áp phích\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,200px);height:auto\">",
+   "options": [
+    "\\(100\\)",
+    "\\(96\\)",
+    "\\(120\\)",
+    "\\(72\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Printed part \\(x\\times y\\), \\(xy=24\\): \\(S=(x+4)(y+6)=48+6x+\\dfrac{96}{x}\\), smallest at \\(x=4\\), \\(y=6\\): \\(S=8\\cdot12=96\\).",
+   "explain_vi": "Đáp án b. Phần chữ \\(x\\times y\\), \\(xy=24\\): \\(S=(x+4)(y+6)=48+6x+\\dfrac{96}{x}\\), nhỏ nhất khi \\(x=4\\), \\(y=6\\): \\(S=8\\cdot12=96\\).",
+   "images": [
+    "img/tex/f3d09075d4a5592c.svg"
+   ],
+   "id": "716ca37d3f01",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "A box is made from a square sheet of side # cm by cutting a square of side x from each corner. Which x gives the largest volume?",
+   "en": "A box is made from a square sheet of side 18 cm by cutting a square of side x from each corner. Which x gives the largest volume?",
+   "vi": "Làm hộp không nắp từ tấm bìa hình vuông cạnh 18 cm bằng cách cắt bốn góc là bốn hình vuông cạnh x. Giá trị x nào cho thể tích lớn nhất?",
+   "options": [
+    "\\(4\\ \\text{cm}\\)",
+    "\\(3\\ \\text{cm}\\)",
+    "\\(6\\ \\text{cm}\\)",
+    "\\(9\\ \\text{cm}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(V=x(18-2x)^2\\), \\(V'=0\\) gives \\(x=3\\) (the other root \\(x=9\\) gives \\(V=0\\)).",
+   "explain_vi": "Đáp án b. \\(V=x(18-2x)^2\\), \\(V'=0\\) cho \\(x=3\\) (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b> \\(x=9\\) cho \\(V=0\\)).",
+   "images": [],
+   "id": "b0b0bccfc927",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "A box is made from a square sheet of side # cm by cutting four equal corner squares. The largest volume is…",
+   "en": "A box is made from a square sheet of side 12 cm by cutting four equal corner squares. The largest volume is…",
+   "vi": "Hộp không nắp làm từ tấm bìa hình vuông cạnh 12 cm bằng cách cắt bốn góc bằng nhau. Thể tích lớn nhất là…",
+   "options": [
+    "\\(136\\ \\text{cm}^3\\)",
+    "\\(128\\ \\text{cm}^3\\)",
+    "\\(216\\ \\text{cm}^3\\)",
+    "\\(64\\ \\text{cm}^3\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(x=2\\): \\(V=2\\cdot8^2=128\\).",
+   "explain_vi": "Đáp án b. \\(x=2\\): \\(V=2\\cdot8^2=128\\).",
+   "images": [],
+   "id": "66ef35c5f1ac",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "A farmer has # m of fence and uses a river as one side of a rectangular field. The largest area is…",
+   "en": "A farmer has 160 m of fence and uses a river as one side of a rectangular field. The largest area is…",
+   "vi": "Một người có 160 m <b class=\"mbl-term\" tabindex=\"0\" data-en=\"fence\">hàng rào</b>, dùng bờ sông làm một cạnh của mảnh đất hình chữ nhật. Diện tích lớn nhất là…",
+   "options": [
+    "\\(4267\\ \\text{m}^2\\)",
+    "\\(3200\\ \\text{m}^2\\)",
+    "\\(6400\\ \\text{m}^2\\)",
+    "\\(1600\\ \\text{m}^2\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(2x+y=160\\), \\(A=x(160-2x)\\); the maximum is at \\(x=40\\): \\(A=3200\\).",
+   "explain_vi": "Đáp án b. \\(2x+y=160\\), \\(A=x(160-2x)\\); lớn nhất tại \\(x=40\\): \\(A=3200\\).",
+   "images": [],
+   "id": "84f80e3ae881",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "A rectangle has area # m². Its smallest possible perimeter is…",
+   "en": "A rectangle has area 16 m². Its smallest possible perimeter is…",
+   "vi": "Một hình chữ nhật có diện tích 16 m². Chu vi nhỏ nhất có thể là…",
+   "options": [
+    "\\(16\\ \\text{m}\\)",
+    "\\(18\\ \\text{m}\\)",
+    "\\(8\\ \\text{m}\\)",
+    "\\(32\\ \\text{m}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(2(x+\\dfrac{16}{x})\\) is smallest at \\(x=4\\): \\(4\\cdot4=16\\).",
+   "explain_vi": "Đáp án a. \\(2(x+\\dfrac{16}{x})\\) nhỏ nhất tại \\(x=4\\): \\(4\\cdot4=16\\).",
+   "images": [],
+   "id": "3f79eb40592d",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "A rectangle has perimeter # m. Its largest possible area is…",
+   "en": "A rectangle has perimeter 32 m. Its largest possible area is…",
+   "vi": "Một hình chữ nhật có chu vi 32 m. Diện tích lớn nhất có thể là…",
+   "options": [
+    "\\(68\\ \\text{m}^2\\)",
+    "\\(64\\ \\text{m}^2\\)",
+    "\\(32\\ \\text{m}^2\\)",
+    "\\(128\\ \\text{m}^2\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. With \\(x+y=16\\), \\(A=x(16-x)\\) is largest at \\(x=8\\): \\(A=64\\).",
+   "explain_vi": "Đáp án b. Với \\(x+y=16\\), \\(A=x(16-x)\\) lớn nhất khi \\(x=8\\): \\(A=64\\).",
+   "images": [],
+   "id": "803ffb8ebe3a",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The cost per item is \\(C(x)=x+\\dfrac{#}{x}\\) (thousand VND) for \\(x\\gt#\\). Its smallest value is…",
+   "en": "The cost per item is \\(C(x)=x+\\dfrac{9}{x}\\) (thousand VND) for \\(x\\gt0\\). Its smallest value is…",
+   "vi": "Chi phí mỗi sản phẩm là \\(C(x)=x+\\dfrac{9}{x}\\) (nghìn đồng), \\(x\\gt0\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"minimum value\">Giá trị nhỏ nhất</b> của \\(C\\) là…",
+   "options": [
+    "\\(9\\)",
+    "\\(7\\)",
+    "\\(6\\)",
+    "\\(3\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(C'=1-\\dfrac{9}{x^2}=0\\) at \\(x=3\\): \\(C=6\\).",
+   "explain_vi": "Đáp án c. \\(C'=1-\\dfrac{9}{x^2}=0\\) tại \\(x=3\\): \\(C=6\\).",
+   "images": [],
+   "id": "7baff7fca098",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The profit is \\(P(x)=-x^#+#x-#\\) (million VND). The largest profit is…",
+   "en": "The profit is \\(P(x)=-x^2+12x-12\\) (million VND). The largest profit is…",
+   "vi": "Lợi nhuận là \\(P(x)=-x^2+12x-12\\) (triệu đồng). Lợi nhuận lớn nhất là…",
+   "options": [
+    "\\(24\\)",
+    "\\(36\\)",
+    "\\(22\\)",
+    "\\(6\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. The vertex is at \\(x=6\\): \\(P=24\\).",
+   "explain_vi": "Đáp án a. Đỉnh <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parabola\">parabol</b> tại \\(x=6\\): \\(P=24\\).",
+   "images": [],
+   "id": "b09cd1659e6d",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Two numbers have sum #. The smallest possible value of the sum of their squares is…",
+   "en": "Two numbers have sum 10. The smallest possible value of the sum of their squares is…",
+   "vi": "Hai số có tổng bằng 10. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"minimum value\">Giá trị nhỏ nhất</b> của tổng bình phương hai số đó là…",
+   "options": [
+    "\\(25\\)",
+    "\\(100\\)",
+    "\\(50\\)",
+    "\\(52\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(x^2+(10-x)^2\\) is smallest at \\(x=5\\): \\(2\\cdot5^2=50\\).",
+   "explain_vi": "Đáp án c. \\(x^2+(10-x)^2\\) nhỏ nhất tại \\(x=5\\): \\(2\\cdot5^2=50\\).",
+   "images": [],
+   "id": "1e4cb4d8551c",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "A box is made from a square sheet of side # cm by cutting a square of side x from each corner. Which x gives the largest volume?",
+   "en": "A box is made from a square sheet of side 24 cm by cutting a square of side x from each corner. Which x gives the largest volume?",
+   "vi": "Làm hộp không nắp từ tấm bìa hình vuông cạnh 24 cm bằng cách cắt bốn góc là bốn hình vuông cạnh x. Giá trị x nào cho thể tích lớn nhất?",
+   "options": [
+    "\\(8\\ \\text{cm}\\)",
+    "\\(6\\ \\text{cm}\\)",
+    "\\(4\\ \\text{cm}\\)",
+    "\\(12\\ \\text{cm}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(V=x(24-2x)^2\\), \\(V'=0\\) gives \\(x=4\\) (the other root \\(x=12\\) gives \\(V=0\\)).",
+   "explain_vi": "Đáp án c. \\(V=x(24-2x)^2\\), \\(V'=0\\) cho \\(x=4\\) (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b> \\(x=12\\) cho \\(V=0\\)).",
+   "images": [],
+   "id": "241b4dcdf3ba",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "A box is made from a square sheet of side # cm by cutting four equal corner squares. The largest volume is…",
+   "en": "A box is made from a square sheet of side 18 cm by cutting four equal corner squares. The largest volume is…",
+   "vi": "Hộp không nắp làm từ tấm bìa hình vuông cạnh 18 cm bằng cách cắt bốn góc bằng nhau. Thể tích lớn nhất là…",
+   "options": [
+    "\\(432\\ \\text{cm}^3\\)",
+    "\\(440\\ \\text{cm}^3\\)",
+    "\\(729\\ \\text{cm}^3\\)",
+    "\\(216\\ \\text{cm}^3\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(x=3\\): \\(V=3\\cdot12^2=432\\).",
+   "explain_vi": "Đáp án a. \\(x=3\\): \\(V=3\\cdot12^2=432\\).",
+   "images": [],
+   "id": "c199e2391903",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "A farmer has # m of fence and uses a river as one side of a rectangular field. The largest area is…",
+   "en": "A farmer has 60 m of fence and uses a river as one side of a rectangular field. The largest area is…",
+   "vi": "Một người có 60 m <b class=\"mbl-term\" tabindex=\"0\" data-en=\"fence\">hàng rào</b>, dùng bờ sông làm một cạnh của mảnh đất hình chữ nhật. Diện tích lớn nhất là…",
+   "options": [
+    "\\(900\\ \\text{m}^2\\)",
+    "\\(225\\ \\text{m}^2\\)",
+    "\\(450\\ \\text{m}^2\\)",
+    "\\(601\\ \\text{m}^2\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(2x+y=60\\), \\(A=x(60-2x)\\); the maximum is at \\(x=15\\): \\(A=450\\).",
+   "explain_vi": "Đáp án c. \\(2x+y=60\\), \\(A=x(60-2x)\\); lớn nhất tại \\(x=15\\): \\(A=450\\).",
+   "images": [],
+   "id": "e05deab05813",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "A rectangle has area # m². Its smallest possible perimeter is…",
+   "en": "A rectangle has area 36 m². Its smallest possible perimeter is…",
+   "vi": "Một hình chữ nhật có diện tích 36 m². Chu vi nhỏ nhất có thể là…",
+   "options": [
+    "\\(12\\ \\text{m}\\)",
+    "\\(26\\ \\text{m}\\)",
+    "\\(48\\ \\text{m}\\)",
+    "\\(24\\ \\text{m}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(2(x+\\dfrac{36}{x})\\) is smallest at \\(x=6\\): \\(4\\cdot6=24\\).",
+   "explain_vi": "Đáp án d. \\(2(x+\\dfrac{36}{x})\\) nhỏ nhất tại \\(x=6\\): \\(4\\cdot6=24\\).",
+   "images": [],
+   "id": "050d7017cdbe",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "A rectangle has perimeter # m. Its largest possible area is…",
+   "en": "A rectangle has perimeter 60 m. Its largest possible area is…",
+   "vi": "Một hình chữ nhật có chu vi 60 m. Diện tích lớn nhất có thể là…",
+   "options": [
+    "\\(450\\ \\text{m}^2\\)",
+    "\\(225\\ \\text{m}^2\\)",
+    "\\(112\\ \\text{m}^2\\)",
+    "\\(229\\ \\text{m}^2\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. With \\(x+y=30\\), \\(A=x(30-x)\\) is largest at \\(x=15\\): \\(A=225\\).",
+   "explain_vi": "Đáp án b. Với \\(x+y=30\\), \\(A=x(30-x)\\) lớn nhất khi \\(x=15\\): \\(A=225\\).",
+   "images": [],
+   "id": "c62bbb0b415a",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The cost per item is \\(C(x)=x+\\dfrac{#}{x}\\) (thousand VND) for \\(x\\gt#\\). Its smallest value is…",
+   "en": "The cost per item is \\(C(x)=x+\\dfrac{25}{x}\\) (thousand VND) for \\(x\\gt0\\). Its smallest value is…",
+   "vi": "Chi phí mỗi sản phẩm là \\(C(x)=x+\\dfrac{25}{x}\\) (nghìn đồng), \\(x\\gt0\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"minimum value\">Giá trị nhỏ nhất</b> của \\(C\\) là…",
+   "options": [
+    "\\(11\\)",
+    "\\(10\\)",
+    "\\(5\\)",
+    "\\(25\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(C'=1-\\dfrac{25}{x^2}=0\\) at \\(x=5\\): \\(C=10\\).",
+   "explain_vi": "Đáp án b. \\(C'=1-\\dfrac{25}{x^2}=0\\) tại \\(x=5\\): \\(C=10\\).",
+   "images": [],
+   "id": "ea13bcf2cc53",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The profit is \\(P(x)=-x^#+#x-#\\) (million VND). The largest profit is…",
+   "en": "The profit is \\(P(x)=-x^2+10x-20\\) (million VND). The largest profit is…",
+   "vi": "Lợi nhuận là \\(P(x)=-x^2+10x-20\\) (triệu đồng). Lợi nhuận lớn nhất là…",
+   "options": [
+    "\\(25\\)",
+    "\\(8\\)",
+    "\\(3\\)",
+    "\\(5\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. The vertex is at \\(x=5\\): \\(P=5\\).",
+   "explain_vi": "Đáp án d. Đỉnh <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parabola\">parabol</b> tại \\(x=5\\): \\(P=5\\).",
+   "images": [],
+   "id": "7b47fcb95c74",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Two numbers have sum #. The smallest possible value of the sum of their squares is…",
+   "en": "Two numbers have sum 8. The smallest possible value of the sum of their squares is…",
+   "vi": "Hai số có tổng bằng 8. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"minimum value\">Giá trị nhỏ nhất</b> của tổng bình phương hai số đó là…",
+   "options": [
+    "\\(16\\)",
+    "\\(32\\)",
+    "\\(34\\)",
+    "\\(64\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(x^2+(8-x)^2\\) is smallest at \\(x=4\\): \\(2\\cdot4^2=32\\).",
+   "explain_vi": "Đáp án b. \\(x^2+(8-x)^2\\) nhỏ nhất tại \\(x=4\\): \\(2\\cdot4^2=32\\).",
+   "images": [],
+   "id": "faf30cc9fa84",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "A box is made from a square sheet of side # cm by cutting a square of side x from each corner. Which x gives the largest volume?",
+   "en": "A box is made from a square sheet of side 12 cm by cutting a square of side x from each corner. Which x gives the largest volume?",
+   "vi": "Làm hộp không nắp từ tấm bìa hình vuông cạnh 12 cm bằng cách cắt bốn góc là bốn hình vuông cạnh x. Giá trị x nào cho thể tích lớn nhất?",
+   "options": [
+    "\\(4\\ \\text{cm}\\)",
+    "\\(2\\ \\text{cm}\\)",
+    "\\(3\\ \\text{cm}\\)",
+    "\\(6\\ \\text{cm}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(V=x(12-2x)^2\\), \\(V'=0\\) gives \\(x=2\\) (the other root \\(x=6\\) gives \\(V=0\\)).",
+   "explain_vi": "Đáp án b. \\(V=x(12-2x)^2\\), \\(V'=0\\) cho \\(x=2\\) (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b> \\(x=6\\) cho \\(V=0\\)).",
+   "images": [],
+   "id": "8fa49a47d713",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "A box is made from a square sheet of side # cm by cutting four equal corner squares. The largest volume is…",
+   "en": "A box is made from a square sheet of side 6 cm by cutting four equal corner squares. The largest volume is…",
+   "vi": "Hộp không nắp làm từ tấm bìa hình vuông cạnh 6 cm bằng cách cắt bốn góc bằng nhau. Thể tích lớn nhất là…",
+   "options": [
+    "\\(16\\ \\text{cm}^3\\)",
+    "\\(8\\ \\text{cm}^3\\)",
+    "\\(24\\ \\text{cm}^3\\)",
+    "\\(27\\ \\text{cm}^3\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(x=1\\): \\(V=1\\cdot4^2=16\\).",
+   "explain_vi": "Đáp án a. \\(x=1\\): \\(V=1\\cdot4^2=16\\).",
+   "images": [],
+   "id": "0bf7fa1e0c5f",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "A farmer has # m of fence and uses a river as one side of a rectangular field. The largest area is…",
+   "en": "A farmer has 40 m of fence and uses a river as one side of a rectangular field. The largest area is…",
+   "vi": "Một người có 40 m <b class=\"mbl-term\" tabindex=\"0\" data-en=\"fence\">hàng rào</b>, dùng bờ sông làm một cạnh của mảnh đất hình chữ nhật. Diện tích lớn nhất là…",
+   "options": [
+    "\\(200\\ \\text{m}^2\\)",
+    "\\(100\\ \\text{m}^2\\)",
+    "\\(267\\ \\text{m}^2\\)",
+    "\\(400\\ \\text{m}^2\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(2x+y=40\\), \\(A=x(40-2x)\\); the maximum is at \\(x=10\\): \\(A=200\\).",
+   "explain_vi": "Đáp án a. \\(2x+y=40\\), \\(A=x(40-2x)\\); lớn nhất tại \\(x=10\\): \\(A=200\\).",
+   "images": [],
+   "id": "1bdb6f0a08ae",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "A rectangle has area # m². Its smallest possible perimeter is…",
+   "en": "A rectangle has area 64 m². Its smallest possible perimeter is…",
+   "vi": "Một hình chữ nhật có diện tích 64 m². Chu vi nhỏ nhất có thể là…",
+   "options": [
+    "\\(64\\ \\text{m}\\)",
+    "\\(32\\ \\text{m}\\)",
+    "\\(34\\ \\text{m}\\)",
+    "\\(16\\ \\text{m}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(2(x+\\dfrac{64}{x})\\) is smallest at \\(x=8\\): \\(4\\cdot8=32\\).",
+   "explain_vi": "Đáp án b. \\(2(x+\\dfrac{64}{x})\\) nhỏ nhất tại \\(x=8\\): \\(4\\cdot8=32\\).",
+   "images": [],
+   "id": "d17e65db0638",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "A rectangle has perimeter # m. Its largest possible area is…",
+   "en": "A rectangle has perimeter 16 m. Its largest possible area is…",
+   "vi": "Một hình chữ nhật có chu vi 16 m. Diện tích lớn nhất có thể là…",
+   "options": [
+    "\\(20\\ \\text{m}^2\\)",
+    "\\(16\\ \\text{m}^2\\)",
+    "\\(32\\ \\text{m}^2\\)",
+    "\\(8\\ \\text{m}^2\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. With \\(x+y=8\\), \\(A=x(8-x)\\) is largest at \\(x=4\\): \\(A=16\\).",
+   "explain_vi": "Đáp án b. Với \\(x+y=8\\), \\(A=x(8-x)\\) lớn nhất khi \\(x=4\\): \\(A=16\\).",
+   "images": [],
+   "id": "8cf6a20f83c9",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The cost per item is \\(C(x)=x+\\dfrac{#}{x}\\) (thousand VND) for \\(x\\gt#\\). Its smallest value is…",
+   "en": "The cost per item is \\(C(x)=x+\\dfrac{64}{x}\\) (thousand VND) for \\(x\\gt0\\). Its smallest value is…",
+   "vi": "Chi phí mỗi sản phẩm là \\(C(x)=x+\\dfrac{64}{x}\\) (nghìn đồng), \\(x\\gt0\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"minimum value\">Giá trị nhỏ nhất</b> của \\(C\\) là…",
+   "options": [
+    "\\(64\\)",
+    "\\(8\\)",
+    "\\(16\\)",
+    "\\(17\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(C'=1-\\dfrac{64}{x^2}=0\\) at \\(x=8\\): \\(C=16\\).",
+   "explain_vi": "Đáp án c. \\(C'=1-\\dfrac{64}{x^2}=0\\) tại \\(x=8\\): \\(C=16\\).",
+   "images": [],
+   "id": "c959ece67916",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The profit is \\(P(x)=-x^#+#x-#\\) (million VND). The largest profit is…",
+   "en": "The profit is \\(P(x)=-x^2+8x-5\\) (million VND). The largest profit is…",
+   "vi": "Lợi nhuận là \\(P(x)=-x^2+8x-5\\) (triệu đồng). Lợi nhuận lớn nhất là…",
+   "options": [
+    "\\(16\\)",
+    "\\(11\\)",
+    "\\(4\\)",
+    "\\(9\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. The vertex is at \\(x=4\\): \\(P=11\\).",
+   "explain_vi": "Đáp án b. Đỉnh <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parabola\">parabol</b> tại \\(x=4\\): \\(P=11\\).",
+   "images": [],
+   "id": "fbd9052c5849",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Two numbers have sum #. The smallest possible value of the sum of their squares is…",
+   "en": "Two numbers have sum 14. The smallest possible value of the sum of their squares is…",
+   "vi": "Hai số có tổng bằng 14. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"minimum value\">Giá trị nhỏ nhất</b> của tổng bình phương hai số đó là…",
+   "options": [
+    "\\(196\\)",
+    "\\(100\\)",
+    "\\(49\\)",
+    "\\(98\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(x^2+(14-x)^2\\) is smallest at \\(x=7\\): \\(2\\cdot7^2=98\\).",
+   "explain_vi": "Đáp án d. \\(x^2+(14-x)^2\\) nhỏ nhất tại \\(x=7\\): \\(2\\cdot7^2=98\\).",
+   "images": [],
+   "id": "6e4b3272bd6c",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  }
+ ]
+}

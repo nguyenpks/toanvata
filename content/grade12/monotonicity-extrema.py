@@ -473,7 +473,7 @@ TOPIC12 = ('Applications of Derivatives', 'Ứng dụng đạo hàm')
 
 (a1, _), (a2, _), (a3, _) = _cap['g12-mono-01'], _cap['g12-mono-02'], _cap['g12-mono-03']
 _pr = _relabel(a1[10], 0, ('monotonicity', 'tính đơn điệu')) + _relabel(a2[10], 3, ('extrema', 'cực trị'))
-_prac1 = _add_self(_pr, SELF(sp_g12.M1, start=21, avoid=[t[1] for t in _pr]), 'G', SELF_T)
+_prac1 = _add_self(_pr, __import__('sp_g12r2').dset(_pr, __import__('sp_g12r2').D1, (12011, 12012, 12013)), 'G', SELF_T)
 _prac1.sort(key=lambda t: t[2][0])         # giữ thứ tự theo mức học
 lesson(id='g12-mono-01', title_en='Monotonicity and Extrema of Functions', title_vi='Tính đơn điệu và cực trị của hàm số', topic=TOPIC12,
   catalog_title_vi='Tính đơn điệu và cực trị của hàm số', description_vi='Bài 1 – Dùng đạo hàm xét chiều biến thiên, tìm cực trị bằng bảng xét dấu và đạo hàm cấp hai; bài toán tham số đơn giản.',
@@ -485,7 +485,7 @@ lesson(id='g12-mono-01', title_en='Monotonicity and Extrema of Functions', title
   description='Use the derivative to find where a function increases or decreases and to find its local extrema.', level='Intermediate', minutes=80,
   prerequisites=[], tags=['monotonicity', 'extrema', 'derivative', 'sign table'], order=10)
 
-_prac2 = _add_self(a3[10], SELF(sp_g12.M2, start=11, avoid=[t[1] for t in a3[10]]), 'D', SELF_T)
+_prac2 = _add_self(a3[10], __import__('sp_g12r2').dset(a3[10], __import__('sp_g12r2').D2, (12021, 12022, 12023)), 'D', SELF_T)
 lesson(id='g12-mono-03', title_en='Maximum and Minimum Values', title_vi='Giá trị lớn nhất và giá trị nhỏ nhất của hàm số', topic=TOPIC12,
   catalog_title_vi='Giá trị lớn nhất và giá trị nhỏ nhất của hàm số', description_vi='Bài 2 – Tìm giá trị lớn nhất, nhỏ nhất trên một đoạn bằng đạo hàm; bài toán tối ưu trong thực tế.',
   tags_vi=['giá trị lớn nhất', 'giá trị nhỏ nhất', 'đoạn', 'tối ưu'],

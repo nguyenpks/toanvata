@@ -1,0 +1,1317 @@
+{
+ "lesson": "g9-circles-04",
+ "grade": 9,
+ "no": 16,
+ "title": "Vị trí tương đối của đường thẳng và đường tròn",
+ "path": "lessons/grade9/circles/line-and-circle.html",
+ "items": [
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Circle \\((O;\\,#\\text{ cm})\\) and a line \\(a\\) at distance \\(d=#\\) cm from \\(O\\). What is their relative position?",
+   "en": "Circle \\((O;\\,14\\text{ cm})\\) and a line \\(a\\) at distance \\(d=11.5\\) cm from \\(O\\). What is their relative position?",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> \\((O;\\,14\\text{ cm})\\) và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(a\\) cách \\(O\\) một đoạn \\(d=11{,}5\\) cm. Vị trí tương đối của chúng là gì?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">they are tangent (one common point)</span><span class=\"vi\">tiếp xúc nhau (có một điểm chung)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">they intersect (two common points)</span><span class=\"vi\">cắt nhau (có hai điểm chung)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">they do not intersect (no common point)</span><span class=\"vi\">không giao nhau (không có điểm chung)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">they have three common points</span><span class=\"vi\">có ba điểm chung</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Compare \\(d=11.5\\) with \\(R=14\\).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"compare\">So sánh</b> \\(d=11{,}5\\) với \\(R=14\\).",
+   "images": [],
+   "id": "aef71d203cb2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(B\\) lies on \\((O;\\,#\\text{ cm})\\). A line \\(a\\) is tangent to the circle at \\(B\\) when…",
+   "en": "\\(B\\) lies on \\((O;\\,6\\text{ cm})\\). A line \\(a\\) is tangent to the circle at \\(B\\) when…",
+   "vi": "\\(B\\) nằm trên \\((O;\\,6\\text{ cm})\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">Đường thẳng</b> \\(a\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tangent to a circle\">tiếp tuyến của đường tròn</b> tại \\(B\\) khi…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">it passes through \\(B\\) and through \\(O\\)</span><span class=\"vi\">đi qua \\(B\\) và đi qua \\(O\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">it passes through \\(B\\) and is perpendicular to \\(OB\\)</span><span class=\"vi\">đi qua \\(B\\) và vuông góc với \\(OB\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">it is at distance 6 cm from \\(B\\)</span><span class=\"vi\">cách \\(B\\) một đoạn 6 cm</span></span>",
+    "<span class=\"txi\"><span class=\"en\">it passes through \\(B\\) and is parallel to \\(OB\\)</span><span class=\"vi\">đi qua \\(B\\) và song song với \\(OB\\)</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. A line through a point of the circle, perpendicular to the radius at that point, is a tangent.",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">Đường thẳng</b> đi qua một điểm của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"perpendicular\">vuông góc</b> với <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> đi qua điểm đó là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tangent line\">tiếp tuyến</b>.",
+   "images": [],
+   "id": "8a8898368e99",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(PA\\) is tangent to \\((O;\\,#\\text{ cm})\\) at \\(A\\) and \\(OP=#\\) cm. Find \\(PA\\).",
+   "en": "\\(PA\\) is tangent to \\((O;\\,40\\text{ cm})\\) at \\(A\\) and \\(OP=41\\) cm. Find \\(PA\\).",
+   "vi": "\\(PA\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tangent line\">tiếp tuyến</b> của \\((O;\\,40\\text{ cm})\\) tại \\(A\\) và \\(OP=41\\) cm. Tính \\(PA\\).",
+   "options": [
+    "\\(81\\text{ cm}\\)",
+    "\\(9\\text{ cm}\\)",
+    "\\(40\\text{ cm}\\)",
+    "\\(1\\text{ cm}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(OA\\perp PA\\), so \\(PA=\\sqrt{OP^2-OA^2}=\\sqrt{41^2-40^2}=9\\) cm.",
+   "explain_vi": "Đáp án b. \\(OA\\perp PA\\) nên \\(PA=\\sqrt{OP^2-OA^2}=\\sqrt{41^2-40^2}=9\\) cm.",
+   "images": [],
+   "id": "a608b31631e5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "From \\(P\\) outside \\((O;\\,#\\text{ cm})\\), tangents \\(PA\\), \\(PB\\) are drawn (\\(A\\), \\(B\\) on the circle) and \\(PA=#\\) cm. Then \\(PB=#\\) cm.",
+   "en": "From \\(P\\) outside \\((O;\\,12\\text{ cm})\\), tangents \\(PA\\), \\(PB\\) are drawn (\\(A\\), \\(B\\) on the circle) and \\(PA=9\\) cm. Then \\(PB=12\\) cm.",
+   "vi": "Từ điểm \\(P\\) nằm ngoài \\((O;\\,12\\text{ cm})\\) kẻ hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tangent line\">tiếp tuyến</b> \\(PA\\), \\(PB\\) (\\(A\\), \\(B\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"point of tangency\">tiếp điểm</b>) và \\(PA=9\\) cm. Khi đó \\(PB=12\\) cm.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. The two tangent segments from one point are equal: \\(PB=PA=9\\) cm.",
+   "explain_vi": "Sai. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tangent segments from a point\">Hai tiếp tuyến cắt nhau</b> tại \\(P\\) thì \\(PA=PB=9\\) cm.",
+   "images": [],
+   "id": "7ee15375b50f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "Line \\(a\\) is at distance # cm from the center of \\((O;\\,#\\text{ cm})\\). Then \\(a\\) and the circle have exactly # common point.",
+   "en": "Line \\(a\\) is at distance 4 cm from the center of \\((O;\\,4\\text{ cm})\\). Then \\(a\\) and the circle have exactly 1 common point.",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">Đường thẳng</b> \\(a\\) cách tâm của \\((O;\\,4\\text{ cm})\\) một đoạn 4 cm. Khi đó \\(a\\) và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> có đúng 1 <b class=\"mbl-term\" tabindex=\"0\" data-en=\"common point\">điểm chung</b>.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. \\(d=4\\), \\(R=4\\): exactly one common point.",
+   "explain_vi": "Đúng. \\(d=4\\), \\(R=4\\): có 1 <b class=\"mbl-term\" tabindex=\"0\" data-en=\"common point\">điểm chung</b>.",
+   "images": [],
+   "id": "06e546c489d4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "Line \\(a\\) is at distance # cm from the center of \\((O;\\,#\\text{ cm})\\) and cuts it at \\(A\\), \\(B\\). Find \\(AB\\) (cm).",
+   "en": "Line \\(a\\) is at distance 12 cm from the center of \\((O;\\,15\\text{ cm})\\) and cuts it at \\(A\\), \\(B\\). Find \\(AB\\) (cm).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">Đường thẳng</b> \\(a\\) cách tâm \\((O;\\,15\\text{ cm})\\) một đoạn 12 cm và cắt <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> tại \\(A\\), \\(B\\). Tính \\(AB\\) (cm).",
+   "options": [],
+   "answer": "18",
+   "explain_en": "Answer: 18. \\(H\\) is the foot of the perpendicular from \\(O\\): \\(AH=\\sqrt{15^2-12^2}=9\\), \\(AB=2AH=18\\).",
+   "explain_vi": "Đáp số: 18. Gọi \\(H\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"foot of the perpendicular\">chân đường vuông góc</b> kẻ từ \\(O\\): \\(AH=\\sqrt{15^2-12^2}=9\\), \\(AB=2AH=18\\).",
+   "images": [],
+   "id": "64bd89d4729e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "\\(PA\\) is tangent to \\((O;\\,#\\text{ cm})\\) at \\(A\\) and \\(PA=#\\) cm. Find \\(OP\\) (cm).",
+   "en": "\\(PA\\) is tangent to \\((O;\\,3\\text{ cm})\\) at \\(A\\) and \\(PA=4\\) cm. Find \\(OP\\) (cm).",
+   "vi": "\\(PA\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tangent line\">tiếp tuyến</b> của \\((O;\\,3\\text{ cm})\\) tại \\(A\\) và \\(PA=4\\) cm. Tính \\(OP\\) (cm).",
+   "options": [],
+   "answer": "5",
+   "explain_en": "Answer: 5. \\(OP=\\sqrt{OA^2+PA^2}=\\sqrt{3^2+4^2}=5\\).",
+   "explain_vi": "Đáp số: 5. \\(OP=\\sqrt{OA^2+PA^2}=\\sqrt{3^2+4^2}=5\\).",
+   "images": [],
+   "id": "b1c90748c972",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Line \\(a\\) is at distance \\(d\\) from the center of \\((O;\\,#)\\). They intersect exactly when…",
+   "en": "Line \\(a\\) is at distance \\(d\\) from the center of \\((O;\\,9)\\). They intersect exactly when…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">Đường thẳng</b> \\(a\\) cách tâm của \\((O;\\,9)\\) một đoạn \\(d\\). Chúng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersect\">cắt nhau</b> khi và chỉ khi…",
+   "options": [
+    "\\(d\\lt 9\\)",
+    "\\(d=18\\)",
+    "\\(d\\gt 9\\)",
+    "\\(d=9\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Intersect: \\(d\\lt R\\); tangent: \\(d=R\\); no common point: \\(d\\gt R\\).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersect\">Cắt nhau</b>: \\(d\\lt R\\); tiếp xúc: \\(d=R\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"have no common point\">không giao nhau</b>: \\(d\\gt R\\).",
+   "images": [],
+   "id": "36f21be19c33",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Line \\(a\\) is tangent to \\((O)\\) and their common point is \\(A\\). The point \\(A\\) is called…",
+   "en": "Line \\(a\\) is tangent to \\((O)\\) and their common point is \\(A\\). The point \\(A\\) is called…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">Đường thẳng</b> \\(a\\) tiếp xúc với \\((O)\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"common point\">điểm chung</b> của chúng là \\(A\\). Điểm \\(A\\) được gọi là…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">an intersection point of two secants</span><span class=\"vi\">giao điểm của hai cát tuyến</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the midpoint</span><span class=\"vi\">trung điểm</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the center</span><span class=\"vi\">tâm</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the point of tangency</span><span class=\"vi\">tiếp điểm</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Definitions of tangent, secant and point of tangency.",
+   "explain_vi": "Đáp án d. Định nghĩa <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tangent line\">tiếp tuyến</b>, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"secant line\">cát tuyến</b>, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"point of tangency\">tiếp điểm</b>.",
+   "images": [],
+   "id": "41f3ffe14a7c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Line \\(a\\) is tangent to \\((O;\\,#\\text{ cm})\\) at \\(E\\). What is the angle between \\(a\\) and \\(OE\\)?",
+   "en": "Line \\(a\\) is tangent to \\((O;\\,11\\text{ cm})\\) at \\(E\\). What is the angle between \\(a\\) and \\(OE\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">Đường thẳng</b> \\(a\\) tiếp xúc với \\((O;\\,11\\text{ cm})\\) tại \\(E\\). Góc giữa \\(a\\) và \\(OE\\) bằng bao nhiêu?",
+   "options": [
+    "\\(45^\\circ\\)",
+    "\\(90^\\circ\\)",
+    "\\(180^\\circ\\)",
+    "\\(60^\\circ\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. A tangent is perpendicular to the radius at the point of tangency.",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tangent line\">Tiếp tuyến</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"perpendicular\">vuông góc</b> với <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> đi qua <b class=\"mbl-term\" tabindex=\"0\" data-en=\"point of tangency\">tiếp điểm</b>.",
+   "images": [],
+   "id": "09a318b3ad62",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Circle \\((O;\\,#\\text{ cm})\\); the distances from \\(O\\) to lines \\(d\\), \\(a\\), \\(b\\) are #, #, # cm. Which line is a tangent?",
+   "en": "Circle \\((O;\\,7\\text{ cm})\\); the distances from \\(O\\) to lines \\(d\\), \\(a\\), \\(b\\) are 7, 11, 4 cm. Which line is a tangent?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">Đường tròn</b> \\((O;\\,7\\text{ cm})\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">khoảng cách</b> từ \\(O\\) đến các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(d\\), \\(a\\), \\(b\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"respectively\">lần lượt</b> là 7; 11; 4 cm. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">Đường thẳng</b> nào là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tangent line\">tiếp tuyến</b>?",
+   "options": [
+    "\\(d\\)",
+    "\\(a\\)",
+    "\\(b\\)",
+    "<span class=\"txi\"><span class=\"en\">none of them</span><span class=\"vi\">không có đường nào</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Tangent: \\(d=R=7\\).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tangent line\">Tiếp tuyến</b>: \\(d=R=7\\).",
+   "images": [],
+   "id": "e2b87600267f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D2",
+   "type": "mcq",
+   "form": "How many common points do \\((O;\\,#\\text{ cm})\\) and a line at distance # cm from \\(O\\) have?",
+   "en": "How many common points do \\((O;\\,3\\text{ cm})\\) and a line at distance 0 cm from \\(O\\) have?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">Đường tròn</b> \\((O;\\,3\\text{ cm})\\) và một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> cách \\(O\\) một đoạn 0 cm có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"common point\">điểm chung</b>?",
+   "options": [
+    "\\(2\\)",
+    "\\(1\\)",
+    "\\(0\\)",
+    "\\(3\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(d=0\\), \\(R=3\\).",
+   "explain_vi": "Đáp án a. \\(d=0\\), \\(R=3\\).",
+   "images": [],
+   "id": "53d102102aaa",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Tangents \\(PA\\), \\(PB\\) to \\((O)\\) are drawn from \\(P\\), and \\(\\widehat{APB}=#^\\circ\\). Find \\(\\widehat{APO}\\).",
+   "en": "Tangents \\(PA\\), \\(PB\\) to \\((O)\\) are drawn from \\(P\\), and \\(\\widehat{APB}=156^\\circ\\). Find \\(\\widehat{APO}\\).",
+   "vi": "Từ \\(P\\) kẻ hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tangent line\">tiếp tuyến</b> \\(PA\\), \\(PB\\) tới \\((O)\\) và \\(\\widehat{APB}=156^\\circ\\). Tính \\(\\widehat{APO}\\).",
+   "options": [
+    "\\(12^\\circ\\)",
+    "\\(78^\\circ\\)",
+    "\\(24^\\circ\\)",
+    "\\(156^\\circ\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(PO\\) bisects \\(\\widehat{APB}\\): \\(\\widehat{APO}=78^\\circ\\).",
+   "explain_vi": "Đáp án b. \\(PO\\) là tia phân giác của \\(\\widehat{APB}\\): \\(\\widehat{APO}=78^\\circ\\).",
+   "images": [],
+   "id": "02f94c4296c2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D3",
+   "type": "mcq",
+   "form": "From \\(P\\) with \\(OP=#\\) cm, tangents \\(PA\\), \\(PB\\) to \\((O;\\,#\\text{ cm})\\) are drawn. Find \\(PA+PB\\).",
+   "en": "From \\(P\\) with \\(OP=29\\) cm, tangents \\(PA\\), \\(PB\\) to \\((O;\\,20\\text{ cm})\\) are drawn. Find \\(PA+PB\\).",
+   "vi": "Từ điểm \\(P\\) với \\(OP=29\\) cm kẻ hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tangent line\">tiếp tuyến</b> \\(PA\\), \\(PB\\) tới \\((O;\\,20\\text{ cm})\\). Tính \\(PA+PB\\).",
+   "options": [
+    "\\(42\\text{ cm}\\)",
+    "\\(18\\text{ cm}\\)",
+    "\\(21\\text{ cm}\\)",
+    "\\(58\\text{ cm}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(PA=PB=\\sqrt{29^2-20^2}=21\\) cm.",
+   "explain_vi": "Đáp án a. \\(PA=PB=\\sqrt{29^2-20^2}=21\\) cm.",
+   "images": [],
+   "id": "81ad7445d519",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Tangents \\(PA\\), \\(PB\\) are drawn from \\(P\\) to \\((O;\\,#\\text{ cm})\\) and \\(OP=#\\) cm. Find the area of quadrilateral \\(OAPB\\).",
+   "en": "Tangents \\(PA\\), \\(PB\\) are drawn from \\(P\\) to \\((O;\\,21\\text{ cm})\\) and \\(OP=29\\) cm. Find the area of quadrilateral \\(OAPB\\).",
+   "vi": "Từ \\(P\\) kẻ hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tangent line\">tiếp tuyến</b> \\(PA\\), \\(PB\\) tới \\((O;\\,21\\text{ cm})\\), biết \\(OP=29\\) cm. Tính diện tích tứ giác \\(OAPB\\).",
+   "options": [
+    "\\(580\\text{ cm}^2\\)",
+    "\\(210\\text{ cm}^2\\)",
+    "\\(420\\text{ cm}^2\\)",
+    "\\(609\\text{ cm}^2\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(PA=20\\); \\(S_{OAPB}=2S_{OAP}=OA\\cdot PA=21\\cdot20=420\\) cm².",
+   "explain_vi": "Đáp án c. \\(PA=20\\); \\(S_{OAPB}=2S_{OAP}=OA\\cdot PA=21\\cdot20=420\\) cm².",
+   "images": [],
+   "id": "7acf0476f5bb",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Tangents \\(PA\\), \\(PB\\) to \\((O)\\) meet at \\(P\\) and \\(\\widehat{APB}=#^\\circ\\). Find \\(\\widehat{AOB}\\).",
+   "en": "Tangents \\(PA\\), \\(PB\\) to \\((O)\\) meet at \\(P\\) and \\(\\widehat{APB}=124^\\circ\\). Find \\(\\widehat{AOB}\\).",
+   "vi": "Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tangent line\">tiếp tuyến</b> tại \\(A\\), \\(B\\) của \\((O)\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersect\">cắt nhau</b> tại \\(P\\) và \\(\\widehat{APB}=124^\\circ\\). Tính \\(\\widehat{AOB}\\).",
+   "options": [
+    "\\(214^\\circ\\)",
+    "\\(236^\\circ\\)",
+    "\\(56^\\circ\\)",
+    "\\(124^\\circ\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. In quadrilateral \\(OAPB\\): \\(\\widehat A=\\widehat B=90^\\circ\\), so \\(\\widehat{AOB}=360^\\circ-180^\\circ-124^\\circ=56^\\circ\\).",
+   "explain_vi": "Đáp án c. Tứ giác \\(OAPB\\) có \\(\\widehat A=\\widehat B=90^\\circ\\) nên \\(\\widehat{AOB}=360^\\circ-180^\\circ-124^\\circ=56^\\circ\\).",
+   "images": [],
+   "id": "a3729b0454dc",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A circular park has radius # m. A straight road passes # m from the center of the park. How long is the part of the road inside the park?",
+   "en": "A circular park has radius 40 m. A straight road passes 32 m from the center of the park. How long is the part of the road inside the park?",
+   "vi": "Một công viên hình tròn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 40 m. Một con <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> đi qua cách tâm công viên 32 m. Đoạn đường <b class=\"mbl-term\" tabindex=\"0\" data-en=\"lies in\">nằm trong</b> công viên dài bao nhiêu mét?",
+   "options": [
+    "\\(80\\text{ m}\\)",
+    "\\(16\\text{ m}\\)",
+    "\\(48\\text{ m}\\)",
+    "\\(24\\text{ m}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Half of it is \\(\\sqrt{40^2-32^2}=24\\) m; the road inside is \\(48\\) m.",
+   "explain_vi": "Đáp án c. Nửa đoạn đường là \\(\\sqrt{40^2-32^2}=24\\) m; đoạn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"lies in\">nằm trong</b> công viên dài \\(48\\) m.",
+   "images": [],
+   "id": "053606308287",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A straight wooden bar touches a circular wheel of radius # dm only at point \\(A\\) (the bar is tangent to the wheel). The end \\(P\\) of the bar is # dm from the center \\(O\\) of the wheel. Find \\(PA\\).",
+   "en": "A straight wooden bar touches a circular wheel of radius 60 dm only at point \\(A\\) (the bar is tangent to the wheel). The end \\(P\\) of the bar is 87 dm from the center \\(O\\) of the wheel. Find \\(PA\\).",
+   "vi": "Một thanh gỗ thẳng tựa tiếp xúc với một bánh xe hình tròn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 60 dm tại điểm \\(A\\). Đầu thanh gỗ là điểm \\(P\\) cách tâm \\(O\\) của bánh xe 87 dm. Tính \\(PA\\).",
+   "options": [
+    "\\(27\\text{ dm}\\)",
+    "\\(123\\text{ dm}\\)",
+    "\\(147\\text{ dm}\\)",
+    "\\(63\\text{ dm}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(OA\\perp PA\\): \\(PA=\\sqrt{87^2-60^2}=63\\) dm.",
+   "explain_vi": "Đáp án d. \\(OA\\perp PA\\): \\(PA=\\sqrt{87^2-60^2}=63\\) dm.",
+   "images": [],
+   "id": "004547ea5354",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D4",
+   "type": "mcq",
+   "form": "Tangents \\(PA\\), \\(PB\\) are drawn from \\(P\\) to \\((O;\\,#\\text{ cm})\\) with \\(OP=#\\) cm. Find \\(\\widehat{AOB}\\).",
+   "en": "Tangents \\(PA\\), \\(PB\\) are drawn from \\(P\\) to \\((O;\\,15\\text{ cm})\\) with \\(OP=30\\) cm. Find \\(\\widehat{AOB}\\).",
+   "vi": "Từ \\(P\\) kẻ hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tangent line\">tiếp tuyến</b> \\(PA\\), \\(PB\\) tới \\((O;\\,15\\text{ cm})\\) với \\(OP=30\\) cm. Tính \\(\\widehat{AOB}\\).",
+   "options": [
+    "\\(60^\\circ\\)",
+    "\\(150^\\circ\\)",
+    "\\(120^\\circ\\)",
+    "\\(30^\\circ\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\cos\\widehat{AOP}=\\dfrac{OA}{OP}\\Rightarrow\\widehat{AOP}=60^\\circ\\), so \\(\\widehat{AOB}=120^\\circ\\).",
+   "explain_vi": "Đáp án c. \\(\\cos\\widehat{AOP}=\\dfrac{OA}{OP}\\Rightarrow\\widehat{AOP}=60^\\circ\\) nên \\(\\widehat{AOB}=120^\\circ\\).",
+   "images": [],
+   "id": "8b304d0dbecf",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Circle \\((O;\\,#\\text{ cm})\\) and a line \\(a\\) at distance \\(d=#\\) cm from \\(O\\). What is their relative position?",
+   "en": "Circle \\((O;\\,4\\text{ cm})\\) and a line \\(a\\) at distance \\(d=7.5\\) cm from \\(O\\). What is their relative position?",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> \\((O;\\,4\\text{ cm})\\) và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(a\\) cách \\(O\\) một đoạn \\(d=7{,}5\\) cm. Vị trí tương đối của chúng là gì?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">they are tangent (one common point)</span><span class=\"vi\">tiếp xúc nhau (có một điểm chung)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">they intersect (two common points)</span><span class=\"vi\">cắt nhau (có hai điểm chung)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">they do not intersect (no common point)</span><span class=\"vi\">không giao nhau (không có điểm chung)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">they have three common points</span><span class=\"vi\">có ba điểm chung</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Compare \\(d=7.5\\) with \\(R=4\\).",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"compare\">So sánh</b> \\(d=7{,}5\\) với \\(R=4\\).",
+   "images": [],
+   "id": "12fedded5bf9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(N\\) lies on \\((O;\\,#\\text{ cm})\\). A line \\(a\\) is tangent to the circle at \\(N\\) when…",
+   "en": "\\(N\\) lies on \\((O;\\,18\\text{ cm})\\). A line \\(a\\) is tangent to the circle at \\(N\\) when…",
+   "vi": "\\(N\\) nằm trên \\((O;\\,18\\text{ cm})\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">Đường thẳng</b> \\(a\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tangent to a circle\">tiếp tuyến của đường tròn</b> tại \\(N\\) khi…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">it passes through \\(N\\) and is parallel to \\(ON\\)</span><span class=\"vi\">đi qua \\(N\\) và song song với \\(ON\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">it passes through \\(N\\) and is perpendicular to \\(ON\\)</span><span class=\"vi\">đi qua \\(N\\) và vuông góc với \\(ON\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">it is at distance 18 cm from \\(N\\)</span><span class=\"vi\">cách \\(N\\) một đoạn 18 cm</span></span>",
+    "<span class=\"txi\"><span class=\"en\">it passes through \\(N\\) and through \\(O\\)</span><span class=\"vi\">đi qua \\(N\\) và đi qua \\(O\\)</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. A line through a point of the circle, perpendicular to the radius at that point, is a tangent.",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">Đường thẳng</b> đi qua một điểm của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"perpendicular\">vuông góc</b> với <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> đi qua điểm đó là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tangent line\">tiếp tuyến</b>.",
+   "images": [],
+   "id": "7a5868ab158f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(PA\\) is tangent to \\((O;\\,#\\text{ cm})\\) at \\(A\\) and \\(OP=#\\) cm. Find \\(PA\\).",
+   "en": "\\(PA\\) is tangent to \\((O;\\,15\\text{ cm})\\) at \\(A\\) and \\(OP=17\\) cm. Find \\(PA\\).",
+   "vi": "\\(PA\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tangent line\">tiếp tuyến</b> của \\((O;\\,15\\text{ cm})\\) tại \\(A\\) và \\(OP=17\\) cm. Tính \\(PA\\).",
+   "options": [
+    "\\(2\\text{ cm}\\)",
+    "\\(15\\text{ cm}\\)",
+    "\\(8\\text{ cm}\\)",
+    "\\(32\\text{ cm}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(OA\\perp PA\\), so \\(PA=\\sqrt{OP^2-OA^2}=\\sqrt{17^2-15^2}=8\\) cm.",
+   "explain_vi": "Đáp án c. \\(OA\\perp PA\\) nên \\(PA=\\sqrt{OP^2-OA^2}=\\sqrt{17^2-15^2}=8\\) cm.",
+   "images": [],
+   "id": "1a625f55900f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "From \\(P\\) outside \\((O;\\,#\\text{ cm})\\), tangents \\(PA\\), \\(PB\\) are drawn (\\(A\\), \\(B\\) on the circle) and \\(PA=#\\) cm. Then \\(PB=#\\) cm.",
+   "en": "From \\(P\\) outside \\((O;\\,24\\text{ cm})\\), tangents \\(PA\\), \\(PB\\) are drawn (\\(A\\), \\(B\\) on the circle) and \\(PA=7\\) cm. Then \\(PB=7\\) cm.",
+   "vi": "Từ điểm \\(P\\) nằm ngoài \\((O;\\,24\\text{ cm})\\) kẻ hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tangent line\">tiếp tuyến</b> \\(PA\\), \\(PB\\) (\\(A\\), \\(B\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"point of tangency\">tiếp điểm</b>) và \\(PA=7\\) cm. Khi đó \\(PB=7\\) cm.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. The two tangent segments from one point are equal: \\(PB=PA=7\\) cm.",
+   "explain_vi": "Đúng. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tangent segments from a point\">Hai tiếp tuyến cắt nhau</b> tại \\(P\\) thì \\(PA=PB=7\\) cm.",
+   "images": [],
+   "id": "442caad34af6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "Line \\(a\\) is at distance # cm from the center of \\((O;\\,#\\text{ cm})\\). Then \\(a\\) and the circle have exactly # common point.",
+   "en": "Line \\(a\\) is at distance 6.5 cm from the center of \\((O;\\,6\\text{ cm})\\). Then \\(a\\) and the circle have exactly 1 common point.",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">Đường thẳng</b> \\(a\\) cách tâm của \\((O;\\,6\\text{ cm})\\) một đoạn 6,5 cm. Khi đó \\(a\\) và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> có đúng 1 <b class=\"mbl-term\" tabindex=\"0\" data-en=\"common point\">điểm chung</b>.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. \\(d=6.5\\), \\(R=6\\): no common point.",
+   "explain_vi": "Sai. \\(d=6{,}5\\), \\(R=6\\): có 0 <b class=\"mbl-term\" tabindex=\"0\" data-en=\"common point\">điểm chung</b>.",
+   "images": [],
+   "id": "acf3e202351e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "Line \\(a\\) is at distance # cm from the center of \\((O;\\,#\\text{ cm})\\) and cuts it at \\(A\\), \\(B\\). Find \\(AB\\) (cm).",
+   "en": "Line \\(a\\) is at distance 20 cm from the center of \\((O;\\,25\\text{ cm})\\) and cuts it at \\(A\\), \\(B\\). Find \\(AB\\) (cm).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">Đường thẳng</b> \\(a\\) cách tâm \\((O;\\,25\\text{ cm})\\) một đoạn 20 cm và cắt <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> tại \\(A\\), \\(B\\). Tính \\(AB\\) (cm).",
+   "options": [],
+   "answer": "30",
+   "explain_en": "Answer: 30. \\(H\\) is the foot of the perpendicular from \\(O\\): \\(AH=\\sqrt{25^2-20^2}=15\\), \\(AB=2AH=30\\).",
+   "explain_vi": "Đáp số: 30. Gọi \\(H\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"foot of the perpendicular\">chân đường vuông góc</b> kẻ từ \\(O\\): \\(AH=\\sqrt{25^2-20^2}=15\\), \\(AB=2AH=30\\).",
+   "images": [],
+   "id": "8b697e3a9839",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "\\(PA\\) is tangent to \\((O;\\,#\\text{ cm})\\) at \\(A\\) and \\(PA=#\\) cm. Find \\(OP\\) (cm).",
+   "en": "\\(PA\\) is tangent to \\((O;\\,21\\text{ cm})\\) at \\(A\\) and \\(PA=20\\) cm. Find \\(OP\\) (cm).",
+   "vi": "\\(PA\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tangent line\">tiếp tuyến</b> của \\((O;\\,21\\text{ cm})\\) tại \\(A\\) và \\(PA=20\\) cm. Tính \\(OP\\) (cm).",
+   "options": [],
+   "answer": "29",
+   "explain_en": "Answer: 29. \\(OP=\\sqrt{OA^2+PA^2}=\\sqrt{21^2+20^2}=29\\).",
+   "explain_vi": "Đáp số: 29. \\(OP=\\sqrt{OA^2+PA^2}=\\sqrt{21^2+20^2}=29\\).",
+   "images": [],
+   "id": "caf091386764",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Line \\(a\\) is at distance \\(d\\) from the center of \\((O;\\,#)\\). They do not intersect exactly when…",
+   "en": "Line \\(a\\) is at distance \\(d\\) from the center of \\((O;\\,4)\\). They do not intersect exactly when…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">Đường thẳng</b> \\(a\\) cách tâm của \\((O;\\,4)\\) một đoạn \\(d\\). Chúng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"have no common point\">không giao nhau</b> khi và chỉ khi…",
+   "options": [
+    "\\(d=0\\)",
+    "\\(d=4\\)",
+    "\\(d\\lt 4\\)",
+    "\\(d\\gt 4\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Intersect: \\(d\\lt R\\); tangent: \\(d=R\\); no common point: \\(d\\gt R\\).",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersect\">Cắt nhau</b>: \\(d\\lt R\\); tiếp xúc: \\(d=R\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"have no common point\">không giao nhau</b>: \\(d\\gt R\\).",
+   "images": [],
+   "id": "d0919a8c6eb5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Line \\(a\\) is tangent to \\((O)\\) and their common point is \\(B\\). The point \\(B\\) is called…",
+   "en": "Line \\(a\\) is tangent to \\((O)\\) and their common point is \\(B\\). The point \\(B\\) is called…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">Đường thẳng</b> \\(a\\) tiếp xúc với \\((O)\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"common point\">điểm chung</b> của chúng là \\(B\\). Điểm \\(B\\) được gọi là…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">the point of tangency</span><span class=\"vi\">tiếp điểm</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the midpoint</span><span class=\"vi\">trung điểm</span></span>",
+    "<span class=\"txi\"><span class=\"en\">an intersection point of two secants</span><span class=\"vi\">giao điểm của hai cát tuyến</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the center</span><span class=\"vi\">tâm</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Definitions of tangent, secant and point of tangency.",
+   "explain_vi": "Đáp án a. Định nghĩa <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tangent line\">tiếp tuyến</b>, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"secant line\">cát tuyến</b>, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"point of tangency\">tiếp điểm</b>.",
+   "images": [],
+   "id": "79126daf69bb",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Line \\(a\\) is tangent to \\((O;\\,#\\text{ cm})\\) at \\(H\\). What is the angle between \\(a\\) and \\(OH\\)?",
+   "en": "Line \\(a\\) is tangent to \\((O;\\,3\\text{ cm})\\) at \\(H\\). What is the angle between \\(a\\) and \\(OH\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">Đường thẳng</b> \\(a\\) tiếp xúc với \\((O;\\,3\\text{ cm})\\) tại \\(H\\). Góc giữa \\(a\\) và \\(OH\\) bằng bao nhiêu?",
+   "options": [
+    "\\(180^\\circ\\)",
+    "\\(60^\\circ\\)",
+    "\\(90^\\circ\\)",
+    "\\(45^\\circ\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. A tangent is perpendicular to the radius at the point of tangency.",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tangent line\">Tiếp tuyến</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"perpendicular\">vuông góc</b> với <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> đi qua <b class=\"mbl-term\" tabindex=\"0\" data-en=\"point of tangency\">tiếp điểm</b>.",
+   "images": [],
+   "id": "ceef7e0a7b74",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Circle \\((O;\\,#\\text{ cm})\\); the distances from \\(O\\) to lines \\(m\\), \\(a\\), \\(b\\) are #, #, # cm. Which line is a tangent?",
+   "en": "Circle \\((O;\\,8\\text{ cm})\\); the distances from \\(O\\) to lines \\(m\\), \\(a\\), \\(b\\) are 4, 12, 8 cm. Which line is a tangent?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">Đường tròn</b> \\((O;\\,8\\text{ cm})\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">khoảng cách</b> từ \\(O\\) đến các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(m\\), \\(a\\), \\(b\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"respectively\">lần lượt</b> là 4; 12; 8 cm. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">Đường thẳng</b> nào là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tangent line\">tiếp tuyến</b>?",
+   "options": [
+    "\\(m\\)",
+    "\\(b\\)",
+    "\\(a\\)",
+    "<span class=\"txi\"><span class=\"en\">none of them</span><span class=\"vi\">không có đường nào</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Tangent: \\(d=R=8\\).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tangent line\">Tiếp tuyến</b>: \\(d=R=8\\).",
+   "images": [],
+   "id": "780eb8adf462",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D2",
+   "type": "mcq",
+   "form": "How many common points do \\((O;\\,#\\text{ cm})\\) and a line at distance # cm from \\(O\\) have?",
+   "en": "How many common points do \\((O;\\,12\\text{ cm})\\) and a line at distance 4 cm from \\(O\\) have?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">Đường tròn</b> \\((O;\\,12\\text{ cm})\\) và một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> cách \\(O\\) một đoạn 4 cm có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"common point\">điểm chung</b>?",
+   "options": [
+    "\\(2\\)",
+    "\\(3\\)",
+    "\\(1\\)",
+    "\\(0\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(d=4\\), \\(R=12\\).",
+   "explain_vi": "Đáp án a. \\(d=4\\), \\(R=12\\).",
+   "images": [],
+   "id": "3a3843ab48ef",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Tangents \\(PA\\), \\(PB\\) to \\((O)\\) are drawn from \\(P\\), and \\(\\widehat{APB}=#^\\circ\\). Find \\(\\widehat{APO}\\).",
+   "en": "Tangents \\(PA\\), \\(PB\\) to \\((O)\\) are drawn from \\(P\\), and \\(\\widehat{APB}=88^\\circ\\). Find \\(\\widehat{APO}\\).",
+   "vi": "Từ \\(P\\) kẻ hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tangent line\">tiếp tuyến</b> \\(PA\\), \\(PB\\) tới \\((O)\\) và \\(\\widehat{APB}=88^\\circ\\). Tính \\(\\widehat{APO}\\).",
+   "options": [
+    "\\(46^\\circ\\)",
+    "\\(92^\\circ\\)",
+    "\\(44^\\circ\\)",
+    "\\(88^\\circ\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(PO\\) bisects \\(\\widehat{APB}\\): \\(\\widehat{APO}=44^\\circ\\).",
+   "explain_vi": "Đáp án c. \\(PO\\) là tia phân giác của \\(\\widehat{APB}\\): \\(\\widehat{APO}=44^\\circ\\).",
+   "images": [],
+   "id": "35487212a89a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D3",
+   "type": "mcq",
+   "form": "From \\(P\\) with \\(OP=#\\) cm, tangents \\(PA\\), \\(PB\\) to \\((O;\\,#\\text{ cm})\\) are drawn. Find \\(PA+PB\\).",
+   "en": "From \\(P\\) with \\(OP=17\\) cm, tangents \\(PA\\), \\(PB\\) to \\((O;\\,8\\text{ cm})\\) are drawn. Find \\(PA+PB\\).",
+   "vi": "Từ điểm \\(P\\) với \\(OP=17\\) cm kẻ hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tangent line\">tiếp tuyến</b> \\(PA\\), \\(PB\\) tới \\((O;\\,8\\text{ cm})\\). Tính \\(PA+PB\\).",
+   "options": [
+    "\\(30\\text{ cm}\\)",
+    "\\(18\\text{ cm}\\)",
+    "\\(15\\text{ cm}\\)",
+    "\\(34\\text{ cm}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(PA=PB=\\sqrt{17^2-8^2}=15\\) cm.",
+   "explain_vi": "Đáp án a. \\(PA=PB=\\sqrt{17^2-8^2}=15\\) cm.",
+   "images": [],
+   "id": "0486724c7f6c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Tangents \\(PA\\), \\(PB\\) are drawn from \\(P\\) to \\((O;\\,#\\text{ cm})\\) and \\(OP=#\\) cm. Find the area of quadrilateral \\(OAPB\\).",
+   "en": "Tangents \\(PA\\), \\(PB\\) are drawn from \\(P\\) to \\((O;\\,7\\text{ cm})\\) and \\(OP=25\\) cm. Find the area of quadrilateral \\(OAPB\\).",
+   "vi": "Từ \\(P\\) kẻ hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tangent line\">tiếp tuyến</b> \\(PA\\), \\(PB\\) tới \\((O;\\,7\\text{ cm})\\), biết \\(OP=25\\) cm. Tính diện tích tứ giác \\(OAPB\\).",
+   "options": [
+    "\\(600\\text{ cm}^2\\)",
+    "\\(84\\text{ cm}^2\\)",
+    "\\(175\\text{ cm}^2\\)",
+    "\\(168\\text{ cm}^2\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(PA=24\\); \\(S_{OAPB}=2S_{OAP}=OA\\cdot PA=7\\cdot24=168\\) cm².",
+   "explain_vi": "Đáp án d. \\(PA=24\\); \\(S_{OAPB}=2S_{OAP}=OA\\cdot PA=7\\cdot24=168\\) cm².",
+   "images": [],
+   "id": "6cc5cb9137bc",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Tangents \\(PA\\), \\(PB\\) to \\((O)\\) meet at \\(P\\) and \\(\\widehat{APB}=#^\\circ\\). Find \\(\\widehat{AOB}\\).",
+   "en": "Tangents \\(PA\\), \\(PB\\) to \\((O)\\) meet at \\(P\\) and \\(\\widehat{APB}=153^\\circ\\). Find \\(\\widehat{AOB}\\).",
+   "vi": "Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tangent line\">tiếp tuyến</b> tại \\(A\\), \\(B\\) của \\((O)\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersect\">cắt nhau</b> tại \\(P\\) và \\(\\widehat{APB}=153^\\circ\\). Tính \\(\\widehat{AOB}\\).",
+   "options": [
+    "\\(243^\\circ\\)",
+    "\\(27^\\circ\\)",
+    "\\(207^\\circ\\)",
+    "\\(153^\\circ\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. In quadrilateral \\(OAPB\\): \\(\\widehat A=\\widehat B=90^\\circ\\), so \\(\\widehat{AOB}=360^\\circ-180^\\circ-153^\\circ=27^\\circ\\).",
+   "explain_vi": "Đáp án b. Tứ giác \\(OAPB\\) có \\(\\widehat A=\\widehat B=90^\\circ\\) nên \\(\\widehat{AOB}=360^\\circ-180^\\circ-153^\\circ=27^\\circ\\).",
+   "images": [],
+   "id": "f25401581268",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A circular park has radius # m. A straight road passes # m from the center of the park. How long is the part of the road inside the park?",
+   "en": "A circular park has radius 250 m. A straight road passes 240 m from the center of the park. How long is the part of the road inside the park?",
+   "vi": "Một công viên hình tròn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 250 m. Một con <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> đi qua cách tâm công viên 240 m. Đoạn đường <b class=\"mbl-term\" tabindex=\"0\" data-en=\"lies in\">nằm trong</b> công viên dài bao nhiêu mét?",
+   "options": [
+    "\\(70\\text{ m}\\)",
+    "\\(500\\text{ m}\\)",
+    "\\(20\\text{ m}\\)",
+    "\\(140\\text{ m}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Half of it is \\(\\sqrt{250^2-240^2}=70\\) m; the road inside is \\(140\\) m.",
+   "explain_vi": "Đáp án d. Nửa đoạn đường là \\(\\sqrt{250^2-240^2}=70\\) m; đoạn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"lies in\">nằm trong</b> công viên dài \\(140\\) m.",
+   "images": [],
+   "id": "97247d070236",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A straight wooden bar touches a circular wheel of radius # dm only at point \\(A\\) (the bar is tangent to the wheel). The end \\(P\\) of the bar is # dm from the center \\(O\\) of the wheel. Find \\(PA\\).",
+   "en": "A straight wooden bar touches a circular wheel of radius 14 dm only at point \\(A\\) (the bar is tangent to the wheel). The end \\(P\\) of the bar is 50 dm from the center \\(O\\) of the wheel. Find \\(PA\\).",
+   "vi": "Một thanh gỗ thẳng tựa tiếp xúc với một bánh xe hình tròn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 14 dm tại điểm \\(A\\). Đầu thanh gỗ là điểm \\(P\\) cách tâm \\(O\\) của bánh xe 50 dm. Tính \\(PA\\).",
+   "options": [
+    "\\(48\\text{ dm}\\)",
+    "\\(64\\text{ dm}\\)",
+    "\\(62\\text{ dm}\\)",
+    "\\(36\\text{ dm}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(OA\\perp PA\\): \\(PA=\\sqrt{50^2-14^2}=48\\) dm.",
+   "explain_vi": "Đáp án a. \\(OA\\perp PA\\): \\(PA=\\sqrt{50^2-14^2}=48\\) dm.",
+   "images": [],
+   "id": "b9bc9bf1570e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D4",
+   "type": "mcq",
+   "form": "Tangents \\(PA\\), \\(PB\\) are drawn from \\(P\\) to \\((O;\\,#\\text{ cm})\\) with \\(OP=#\\) cm. Find \\(\\widehat{AOB}\\).",
+   "en": "Tangents \\(PA\\), \\(PB\\) are drawn from \\(P\\) to \\((O;\\,9\\text{ cm})\\) with \\(OP=18\\) cm. Find \\(\\widehat{AOB}\\).",
+   "vi": "Từ \\(P\\) kẻ hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tangent line\">tiếp tuyến</b> \\(PA\\), \\(PB\\) tới \\((O;\\,9\\text{ cm})\\) với \\(OP=18\\) cm. Tính \\(\\widehat{AOB}\\).",
+   "options": [
+    "\\(150^\\circ\\)",
+    "\\(30^\\circ\\)",
+    "\\(60^\\circ\\)",
+    "\\(120^\\circ\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\cos\\widehat{AOP}=\\dfrac{OA}{OP}\\Rightarrow\\widehat{AOP}=60^\\circ\\), so \\(\\widehat{AOB}=120^\\circ\\).",
+   "explain_vi": "Đáp án d. \\(\\cos\\widehat{AOP}=\\dfrac{OA}{OP}\\Rightarrow\\widehat{AOP}=60^\\circ\\) nên \\(\\widehat{AOB}=120^\\circ\\).",
+   "images": [],
+   "id": "f1b7ca99c069",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Circle \\((O;\\,#\\text{ cm})\\) and a line \\(a\\) at distance \\(d=#\\) cm from \\(O\\). What is their relative position?",
+   "en": "Circle \\((O;\\,7\\text{ cm})\\) and a line \\(a\\) at distance \\(d=7\\) cm from \\(O\\). What is their relative position?",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> \\((O;\\,7\\text{ cm})\\) và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(a\\) cách \\(O\\) một đoạn \\(d=7\\) cm. Vị trí tương đối của chúng là gì?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">they intersect (two common points)</span><span class=\"vi\">cắt nhau (có hai điểm chung)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">they are tangent (one common point)</span><span class=\"vi\">tiếp xúc nhau (có một điểm chung)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">they do not intersect (no common point)</span><span class=\"vi\">không giao nhau (không có điểm chung)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">they have three common points</span><span class=\"vi\">có ba điểm chung</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Compare \\(d=7\\) with \\(R=7\\).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"compare\">So sánh</b> \\(d=7\\) với \\(R=7\\).",
+   "images": [],
+   "id": "eeac9f745c20",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(N\\) lies on \\((O;\\,#\\text{ cm})\\). A line \\(a\\) is tangent to the circle at \\(N\\) when…",
+   "en": "\\(N\\) lies on \\((O;\\,2\\text{ cm})\\). A line \\(a\\) is tangent to the circle at \\(N\\) when…",
+   "vi": "\\(N\\) nằm trên \\((O;\\,2\\text{ cm})\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">Đường thẳng</b> \\(a\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tangent to a circle\">tiếp tuyến của đường tròn</b> tại \\(N\\) khi…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">it passes through \\(N\\) and is perpendicular to \\(ON\\)</span><span class=\"vi\">đi qua \\(N\\) và vuông góc với \\(ON\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">it passes through \\(N\\) and through \\(O\\)</span><span class=\"vi\">đi qua \\(N\\) và đi qua \\(O\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">it is at distance 2 cm from \\(N\\)</span><span class=\"vi\">cách \\(N\\) một đoạn 2 cm</span></span>",
+    "<span class=\"txi\"><span class=\"en\">it passes through \\(N\\) and is parallel to \\(ON\\)</span><span class=\"vi\">đi qua \\(N\\) và song song với \\(ON\\)</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. A line through a point of the circle, perpendicular to the radius at that point, is a tangent.",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">Đường thẳng</b> đi qua một điểm của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"perpendicular\">vuông góc</b> với <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> đi qua điểm đó là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tangent line\">tiếp tuyến</b>.",
+   "images": [],
+   "id": "f230b05befd0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(PA\\) is tangent to \\((O;\\,#\\text{ cm})\\) at \\(A\\) and \\(OP=#\\) cm. Find \\(PA\\).",
+   "en": "\\(PA\\) is tangent to \\((O;\\,7\\text{ cm})\\) at \\(A\\) and \\(OP=25\\) cm. Find \\(PA\\).",
+   "vi": "\\(PA\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tangent line\">tiếp tuyến</b> của \\((O;\\,7\\text{ cm})\\) tại \\(A\\) và \\(OP=25\\) cm. Tính \\(PA\\).",
+   "options": [
+    "\\(24\\text{ cm}\\)",
+    "\\(7\\text{ cm}\\)",
+    "\\(32\\text{ cm}\\)",
+    "\\(18\\text{ cm}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(OA\\perp PA\\), so \\(PA=\\sqrt{OP^2-OA^2}=\\sqrt{25^2-7^2}=24\\) cm.",
+   "explain_vi": "Đáp án a. \\(OA\\perp PA\\) nên \\(PA=\\sqrt{OP^2-OA^2}=\\sqrt{25^2-7^2}=24\\) cm.",
+   "images": [],
+   "id": "87ff2bf8ab05",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "From \\(P\\) outside \\((O;\\,#\\text{ cm})\\), tangents \\(PA\\), \\(PB\\) are drawn (\\(A\\), \\(B\\) on the circle) and \\(PA=#\\) cm. Then \\(PB=#\\) cm.",
+   "en": "From \\(P\\) outside \\((O;\\,12\\text{ cm})\\), tangents \\(PA\\), \\(PB\\) are drawn (\\(A\\), \\(B\\) on the circle) and \\(PA=9\\) cm. Then \\(PB=9\\) cm.",
+   "vi": "Từ điểm \\(P\\) nằm ngoài \\((O;\\,12\\text{ cm})\\) kẻ hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tangent line\">tiếp tuyến</b> \\(PA\\), \\(PB\\) (\\(A\\), \\(B\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"point of tangency\">tiếp điểm</b>) và \\(PA=9\\) cm. Khi đó \\(PB=9\\) cm.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. The two tangent segments from one point are equal: \\(PB=PA=9\\) cm.",
+   "explain_vi": "Đúng. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tangent segments from a point\">Hai tiếp tuyến cắt nhau</b> tại \\(P\\) thì \\(PA=PB=9\\) cm.",
+   "images": [],
+   "id": "6d4ec60fe9b7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "Line \\(a\\) is at distance # cm from the center of \\((O;\\,#\\text{ cm})\\). Then \\(a\\) and the circle have exactly # common points.",
+   "en": "Line \\(a\\) is at distance 2.5 cm from the center of \\((O;\\,3\\text{ cm})\\). Then \\(a\\) and the circle have exactly 2 common points.",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">Đường thẳng</b> \\(a\\) cách tâm của \\((O;\\,3\\text{ cm})\\) một đoạn 2,5 cm. Khi đó \\(a\\) và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> có đúng 2 <b class=\"mbl-term\" tabindex=\"0\" data-en=\"common point\">điểm chung</b>.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. \\(d=2.5\\), \\(R=3\\): two common points.",
+   "explain_vi": "Đúng. \\(d=2{,}5\\), \\(R=3\\): có 2 <b class=\"mbl-term\" tabindex=\"0\" data-en=\"common point\">điểm chung</b>.",
+   "images": [],
+   "id": "ccf3b0a5ab32",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Line \\(a\\) is at distance # cm from the center of \\((O;\\,#\\text{ cm})\\) and cuts it at \\(A\\), \\(B\\). Find \\(AB\\) (cm).",
+   "en": "Line \\(a\\) is at distance 3 cm from the center of \\((O;\\,5\\text{ cm})\\) and cuts it at \\(A\\), \\(B\\). Find \\(AB\\) (cm).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">Đường thẳng</b> \\(a\\) cách tâm \\((O;\\,5\\text{ cm})\\) một đoạn 3 cm và cắt <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> tại \\(A\\), \\(B\\). Tính \\(AB\\) (cm).",
+   "options": [],
+   "answer": "8",
+   "explain_en": "Answer: 8. \\(H\\) is the foot of the perpendicular from \\(O\\): \\(AH=\\sqrt{5^2-3^2}=4\\), \\(AB=2AH=8\\).",
+   "explain_vi": "Đáp số: 8. Gọi \\(H\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"foot of the perpendicular\">chân đường vuông góc</b> kẻ từ \\(O\\): \\(AH=\\sqrt{5^2-3^2}=4\\), \\(AB=2AH=8\\).",
+   "images": [],
+   "id": "90b656d582da",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "\\(PA\\) is tangent to \\((O;\\,#\\text{ cm})\\) at \\(A\\) and \\(PA=#\\) cm. Find \\(OP\\) (cm).",
+   "en": "\\(PA\\) is tangent to \\((O;\\,20\\text{ cm})\\) at \\(A\\) and \\(PA=15\\) cm. Find \\(OP\\) (cm).",
+   "vi": "\\(PA\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tangent line\">tiếp tuyến</b> của \\((O;\\,20\\text{ cm})\\) tại \\(A\\) và \\(PA=15\\) cm. Tính \\(OP\\) (cm).",
+   "options": [],
+   "answer": "25",
+   "explain_en": "Answer: 25. \\(OP=\\sqrt{OA^2+PA^2}=\\sqrt{20^2+15^2}=25\\).",
+   "explain_vi": "Đáp số: 25. \\(OP=\\sqrt{OA^2+PA^2}=\\sqrt{20^2+15^2}=25\\).",
+   "images": [],
+   "id": "3803427b9f9f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D1",
+   "type": "mcq",
+   "form": "A line that has two common points with a circle is called…",
+   "en": "A line that has two common points with a circle is called…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">Đường thẳng</b> có hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"common point\">điểm chung</b> với <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> được gọi là…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">a radius</span><span class=\"vi\">bán kính</span></span>",
+    "<span class=\"txi\"><span class=\"en\">an arc</span><span class=\"vi\">cung</span></span>",
+    "<span class=\"txi\"><span class=\"en\">a secant</span><span class=\"vi\">cát tuyến</span></span>",
+    "<span class=\"txi\"><span class=\"en\">a tangent</span><span class=\"vi\">tiếp tuyến</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Definitions of tangent, secant and point of tangency.",
+   "explain_vi": "Đáp án c. Định nghĩa <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tangent line\">tiếp tuyến</b>, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"secant line\">cát tuyến</b>, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"point of tangency\">tiếp điểm</b>.",
+   "images": [],
+   "id": "204602eaa537",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Line \\(a\\) is at distance \\(d\\) from the center of \\((O;\\,#)\\). They do not intersect exactly when…",
+   "en": "Line \\(a\\) is at distance \\(d\\) from the center of \\((O;\\,13)\\). They do not intersect exactly when…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">Đường thẳng</b> \\(a\\) cách tâm của \\((O;\\,13)\\) một đoạn \\(d\\). Chúng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"have no common point\">không giao nhau</b> khi và chỉ khi…",
+   "options": [
+    "\\(d=13\\)",
+    "\\(d=0\\)",
+    "\\(d\\gt 13\\)",
+    "\\(d\\lt 13\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Intersect: \\(d\\lt R\\); tangent: \\(d=R\\); no common point: \\(d\\gt R\\).",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersect\">Cắt nhau</b>: \\(d\\lt R\\); tiếp xúc: \\(d=R\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"have no common point\">không giao nhau</b>: \\(d\\gt R\\).",
+   "images": [],
+   "id": "ab29f4164ebf",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Line \\(a\\) is tangent to \\((O;\\,#\\text{ cm})\\) at \\(A\\). What is the angle between \\(a\\) and \\(OA\\)?",
+   "en": "Line \\(a\\) is tangent to \\((O;\\,5\\text{ cm})\\) at \\(A\\). What is the angle between \\(a\\) and \\(OA\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">Đường thẳng</b> \\(a\\) tiếp xúc với \\((O;\\,5\\text{ cm})\\) tại \\(A\\). Góc giữa \\(a\\) và \\(OA\\) bằng bao nhiêu?",
+   "options": [
+    "\\(180^\\circ\\)",
+    "\\(90^\\circ\\)",
+    "\\(60^\\circ\\)",
+    "\\(45^\\circ\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. A tangent is perpendicular to the radius at the point of tangency.",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tangent line\">Tiếp tuyến</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"perpendicular\">vuông góc</b> với <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> đi qua <b class=\"mbl-term\" tabindex=\"0\" data-en=\"point of tangency\">tiếp điểm</b>.",
+   "images": [],
+   "id": "45ceae6520ab",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Circle \\((O;\\,#\\text{ cm})\\); the distances from \\(O\\) to lines \\(a\\), \\(c\\), \\(b\\) are #, #, # cm. Which line is a tangent?",
+   "en": "Circle \\((O;\\,5\\text{ cm})\\); the distances from \\(O\\) to lines \\(a\\), \\(c\\), \\(b\\) are 9, 3, 5 cm. Which line is a tangent?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">Đường tròn</b> \\((O;\\,5\\text{ cm})\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">khoảng cách</b> từ \\(O\\) đến các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(a\\), \\(c\\), \\(b\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"respectively\">lần lượt</b> là 9; 3; 5 cm. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">Đường thẳng</b> nào là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tangent line\">tiếp tuyến</b>?",
+   "options": [
+    "\\(b\\)",
+    "\\(c\\)",
+    "<span class=\"txi\"><span class=\"en\">none of them</span><span class=\"vi\">không có đường nào</span></span>",
+    "\\(a\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Tangent: \\(d=R=5\\).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tangent line\">Tiếp tuyến</b>: \\(d=R=5\\).",
+   "images": [],
+   "id": "dd3a2f7be589",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D2",
+   "type": "mcq",
+   "form": "How many common points do \\((O;\\,#\\text{ cm})\\) and a line at distance # cm from \\(O\\) have?",
+   "en": "How many common points do \\((O;\\,6\\text{ cm})\\) and a line at distance 6 cm from \\(O\\) have?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">Đường tròn</b> \\((O;\\,6\\text{ cm})\\) và một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> cách \\(O\\) một đoạn 6 cm có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"common point\">điểm chung</b>?",
+   "options": [
+    "\\(1\\)",
+    "\\(3\\)",
+    "\\(0\\)",
+    "\\(2\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(d=6\\), \\(R=6\\).",
+   "explain_vi": "Đáp án a. \\(d=6\\), \\(R=6\\).",
+   "images": [],
+   "id": "9a686c7cdf0c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Tangents \\(PA\\), \\(PB\\) to \\((O)\\) are drawn from \\(P\\), and \\(\\widehat{APB}=#^\\circ\\). Find \\(\\widehat{APO}\\).",
+   "en": "Tangents \\(PA\\), \\(PB\\) to \\((O)\\) are drawn from \\(P\\), and \\(\\widehat{APB}=122^\\circ\\). Find \\(\\widehat{APO}\\).",
+   "vi": "Từ \\(P\\) kẻ hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tangent line\">tiếp tuyến</b> \\(PA\\), \\(PB\\) tới \\((O)\\) và \\(\\widehat{APB}=122^\\circ\\). Tính \\(\\widehat{APO}\\).",
+   "options": [
+    "\\(122^\\circ\\)",
+    "\\(58^\\circ\\)",
+    "\\(61^\\circ\\)",
+    "\\(29^\\circ\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(PO\\) bisects \\(\\widehat{APB}\\): \\(\\widehat{APO}=61^\\circ\\).",
+   "explain_vi": "Đáp án c. \\(PO\\) là tia phân giác của \\(\\widehat{APB}\\): \\(\\widehat{APO}=61^\\circ\\).",
+   "images": [],
+   "id": "5d3bec524239",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D3",
+   "type": "mcq",
+   "form": "From \\(P\\) with \\(OP=#\\) cm, tangents \\(PA\\), \\(PB\\) to \\((O;\\,#\\text{ cm})\\) are drawn. Find \\(PA+PB\\).",
+   "en": "From \\(P\\) with \\(OP=17\\) cm, tangents \\(PA\\), \\(PB\\) to \\((O;\\,15\\text{ cm})\\) are drawn. Find \\(PA+PB\\).",
+   "vi": "Từ điểm \\(P\\) với \\(OP=17\\) cm kẻ hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tangent line\">tiếp tuyến</b> \\(PA\\), \\(PB\\) tới \\((O;\\,15\\text{ cm})\\). Tính \\(PA+PB\\).",
+   "options": [
+    "\\(16\\text{ cm}\\)",
+    "\\(8\\text{ cm}\\)",
+    "\\(4\\text{ cm}\\)",
+    "\\(34\\text{ cm}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(PA=PB=\\sqrt{17^2-15^2}=8\\) cm.",
+   "explain_vi": "Đáp án a. \\(PA=PB=\\sqrt{17^2-15^2}=8\\) cm.",
+   "images": [],
+   "id": "1ac21eeb04e8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Tangents \\(PA\\), \\(PB\\) are drawn from \\(P\\) to \\((O;\\,#\\text{ cm})\\) and \\(OP=#\\) cm. Find the area of quadrilateral \\(OAPB\\).",
+   "en": "Tangents \\(PA\\), \\(PB\\) are drawn from \\(P\\) to \\((O;\\,8\\text{ cm})\\) and \\(OP=10\\) cm. Find the area of quadrilateral \\(OAPB\\).",
+   "vi": "Từ \\(P\\) kẻ hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tangent line\">tiếp tuyến</b> \\(PA\\), \\(PB\\) tới \\((O;\\,8\\text{ cm})\\), biết \\(OP=10\\) cm. Tính diện tích tứ giác \\(OAPB\\).",
+   "options": [
+    "\\(24\\text{ cm}^2\\)",
+    "\\(48\\text{ cm}^2\\)",
+    "\\(80\\text{ cm}^2\\)",
+    "\\(60\\text{ cm}^2\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(PA=6\\); \\(S_{OAPB}=2S_{OAP}=OA\\cdot PA=8\\cdot6=48\\) cm².",
+   "explain_vi": "Đáp án b. \\(PA=6\\); \\(S_{OAPB}=2S_{OAP}=OA\\cdot PA=8\\cdot6=48\\) cm².",
+   "images": [],
+   "id": "0cae7d6cb70e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Tangents \\(PA\\), \\(PB\\) to \\((O)\\) meet at \\(P\\) and \\(\\widehat{APB}=#^\\circ\\). Find \\(\\widehat{AOB}\\).",
+   "en": "Tangents \\(PA\\), \\(PB\\) to \\((O)\\) meet at \\(P\\) and \\(\\widehat{APB}=125^\\circ\\). Find \\(\\widehat{AOB}\\).",
+   "vi": "Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tangent line\">tiếp tuyến</b> tại \\(A\\), \\(B\\) của \\((O)\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersect\">cắt nhau</b> tại \\(P\\) và \\(\\widehat{APB}=125^\\circ\\). Tính \\(\\widehat{AOB}\\).",
+   "options": [
+    "\\(125^\\circ\\)",
+    "\\(55^\\circ\\)",
+    "\\(215^\\circ\\)",
+    "\\(235^\\circ\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. In quadrilateral \\(OAPB\\): \\(\\widehat A=\\widehat B=90^\\circ\\), so \\(\\widehat{AOB}=360^\\circ-180^\\circ-125^\\circ=55^\\circ\\).",
+   "explain_vi": "Đáp án b. Tứ giác \\(OAPB\\) có \\(\\widehat A=\\widehat B=90^\\circ\\) nên \\(\\widehat{AOB}=360^\\circ-180^\\circ-125^\\circ=55^\\circ\\).",
+   "images": [],
+   "id": "950ac2889e58",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A circular park has radius # m. A straight road passes # m from the center of the park. How long is the part of the road inside the park?",
+   "en": "A circular park has radius 50 m. A straight road passes 48 m from the center of the park. How long is the part of the road inside the park?",
+   "vi": "Một công viên hình tròn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 50 m. Một con <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> đi qua cách tâm công viên 48 m. Đoạn đường <b class=\"mbl-term\" tabindex=\"0\" data-en=\"lies in\">nằm trong</b> công viên dài bao nhiêu mét?",
+   "options": [
+    "\\(28\\text{ m}\\)",
+    "\\(4\\text{ m}\\)",
+    "\\(100\\text{ m}\\)",
+    "\\(14\\text{ m}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Half of it is \\(\\sqrt{50^2-48^2}=14\\) m; the road inside is \\(28\\) m.",
+   "explain_vi": "Đáp án a. Nửa đoạn đường là \\(\\sqrt{50^2-48^2}=14\\) m; đoạn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"lies in\">nằm trong</b> công viên dài \\(28\\) m.",
+   "images": [],
+   "id": "acb15af24eca",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A straight wooden bar touches a circular wheel of radius # dm only at point \\(A\\) (the bar is tangent to the wheel). The end \\(P\\) of the bar is # dm from the center \\(O\\) of the wheel. Find \\(PA\\).",
+   "en": "A straight wooden bar touches a circular wheel of radius 10 dm only at point \\(A\\) (the bar is tangent to the wheel). The end \\(P\\) of the bar is 26 dm from the center \\(O\\) of the wheel. Find \\(PA\\).",
+   "vi": "Một thanh gỗ thẳng tựa tiếp xúc với một bánh xe hình tròn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 10 dm tại điểm \\(A\\). Đầu thanh gỗ là điểm \\(P\\) cách tâm \\(O\\) của bánh xe 26 dm. Tính \\(PA\\).",
+   "options": [
+    "\\(34\\text{ dm}\\)",
+    "\\(24\\text{ dm}\\)",
+    "\\(16\\text{ dm}\\)",
+    "\\(36\\text{ dm}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(OA\\perp PA\\): \\(PA=\\sqrt{26^2-10^2}=24\\) dm.",
+   "explain_vi": "Đáp án b. \\(OA\\perp PA\\): \\(PA=\\sqrt{26^2-10^2}=24\\) dm.",
+   "images": [],
+   "id": "81d5d3f3eec3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D4",
+   "type": "mcq",
+   "form": "Tangents \\(PA\\), \\(PB\\) are drawn from \\(P\\) to \\((O;\\,#\\text{ cm})\\) with \\(OP=#\\) cm. Find \\(\\widehat{AOB}\\).",
+   "en": "Tangents \\(PA\\), \\(PB\\) are drawn from \\(P\\) to \\((O;\\,2\\text{ cm})\\) with \\(OP=4\\) cm. Find \\(\\widehat{AOB}\\).",
+   "vi": "Từ \\(P\\) kẻ hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tangent line\">tiếp tuyến</b> \\(PA\\), \\(PB\\) tới \\((O;\\,2\\text{ cm})\\) với \\(OP=4\\) cm. Tính \\(\\widehat{AOB}\\).",
+   "options": [
+    "\\(120^\\circ\\)",
+    "\\(60^\\circ\\)",
+    "\\(150^\\circ\\)",
+    "\\(30^\\circ\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\cos\\widehat{AOP}=\\dfrac{OA}{OP}\\Rightarrow\\widehat{AOP}=60^\\circ\\), so \\(\\widehat{AOB}=120^\\circ\\).",
+   "explain_vi": "Đáp án a. \\(\\cos\\widehat{AOP}=\\dfrac{OA}{OP}\\Rightarrow\\widehat{AOP}=60^\\circ\\) nên \\(\\widehat{AOB}=120^\\circ\\).",
+   "images": [],
+   "id": "6acf4125fead",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  }
+ ]
+}

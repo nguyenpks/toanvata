@@ -1,0 +1,1317 @@
+{
+ "lesson": "g9-quadratic-01",
+ "grade": 9,
+ "no": 18,
+ "title": "Hàm số y = ax² (a ≠ 0)",
+ "path": "lessons/grade9/quadratic-functions-equations/function-y-ax2.html",
+ "items": [
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "For \\(y=-\\dfrac{#}{#}x^#\\), find \\(y\\) when \\(x=-#\\).",
+   "en": "For \\(y=-\\dfrac{1}{4}x^2\\), find \\(y\\) when \\(x=-6\\).",
+   "vi": "Với <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(y=-\\dfrac{1}{4}x^2\\), tính \\(y\\) khi \\(x=-6\\).",
+   "options": [
+    "\\(-9\\)",
+    "\\(\\dfrac{3}{2}\\)",
+    "\\(9\\)",
+    "\\(3\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(y=-\\dfrac{1}{4}\\cdot(-6)^2=-9\\).",
+   "explain_vi": "Đáp án a. \\(y=-\\dfrac{1}{4}\\cdot(-6)^2=-9\\).",
+   "images": [],
+   "id": "76666852dc40",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "The graph of \\(y=ax^#\\) passes through \\(M(-#;\\,-#)\\). Find \\(a\\).",
+   "en": "The graph of \\(y=ax^2\\) passes through \\(M(-4;\\,-4)\\). Find \\(a\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">Đồ thị hàm số</b> \\(y=ax^2\\) đi qua điểm \\(M(-4;\\,-4)\\). Tìm \\(a\\).",
+   "options": [
+    "\\(\\dfrac{1}{4}\\)",
+    "\\(-64\\)",
+    "\\(-\\dfrac{1}{4}\\)",
+    "\\(1\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(-4=a\\cdot(-4)^2\\Rightarrow a=-\\dfrac{1}{4}\\).",
+   "explain_vi": "Đáp án c. \\(-4=a\\cdot(-4)^2\\Rightarrow a=-\\dfrac{1}{4}\\).",
+   "images": [],
+   "id": "402e03c11594",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Which point lies on the graph of \\(y=-\\dfrac{#}{#}x^#\\)?",
+   "en": "Which point lies on the graph of \\(y=-\\dfrac{1}{3}x^2\\)?",
+   "vi": "Điểm nào thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">đồ thị hàm số</b> \\(y=-\\dfrac{1}{3}x^2\\)?",
+   "options": [
+    "\\((4;\\,-\\dfrac{4}{3})\\)",
+    "\\((-1;\\,\\dfrac{2}{3})\\)",
+    "\\((-5;\\,\\dfrac{25}{3})\\)",
+    "\\((1;\\,-\\dfrac{1}{3})\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Check \\(y=-\\dfrac{1}{3}\\cdot x^2\\) at each point.",
+   "explain_vi": "Đáp án d. Thay tọa độ từng điểm vào \\(y=-\\dfrac{1}{3}\\cdot x^2\\).",
+   "images": [],
+   "id": "9c173c394004",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "Apart from the vertex \\(O\\), the graph of \\(y=\\dfrac{#}{#}x^#\\) lies above the \\(x\\)-axis.",
+   "en": "Apart from the vertex \\(O\\), the graph of \\(y=\\dfrac{1}{4}x^2\\) lies above the \\(x\\)-axis.",
+   "vi": "Ngoài đỉnh \\(O\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">đồ thị hàm số</b> \\(y=\\dfrac{1}{4}x^2\\) nằm phía trên trục hoành.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. \\(a=\\dfrac{1}{4}\\) is positive, so the parabola lies above the \\(x\\)-axis.",
+   "explain_vi": "Đúng. \\(a=\\dfrac{1}{4}\\) dương nên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parabola\">parabol</b> nằm phía trên trục hoành.",
+   "images": [],
+   "id": "a0397f1a2cfd",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(A(#;\\,-\\dfrac{#}{#})\\) lies on the graph of \\(y=-\\dfrac{#}{#}x^#\\). Then \\(B(-#;\\,-\\dfrac{#}{#})\\) also lies on this graph.",
+   "en": "\\(A(5;\\,-\\dfrac{25}{4})\\) lies on the graph of \\(y=-\\dfrac{1}{4}x^2\\). Then \\(B(-5;\\,-\\dfrac{25}{4})\\) also lies on this graph.",
+   "vi": "\\(A(5;\\,-\\dfrac{25}{4})\\) thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">đồ thị hàm số</b> \\(y=-\\dfrac{1}{4}x^2\\). Khi đó \\(B(-5;\\,-\\dfrac{25}{4})\\) cũng thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> này.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. The graph is symmetric about \\(Oy\\): \\((-5;\\,-\\dfrac{25}{4})\\) lies on it; \\((-5;\\,\\dfrac{25}{4})\\) does not.",
+   "explain_vi": "Đúng. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">Đồ thị</b> nhận \\(Oy\\) làm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"axis of symmetry\">trục đối xứng</b>: \\((-5;\\,-\\dfrac{25}{4})\\) thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b>, \\((-5;\\,\\dfrac{25}{4})\\) thì không.",
+   "images": [],
+   "id": "6fde407ed90c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "Find the positive abscissa of the point on the graph of \\(y=-#x^#\\) whose ordinate is \\(-#\\).",
+   "en": "Find the positive abscissa of the point on the graph of \\(y=-2x^2\\) whose ordinate is \\(-2\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"abscissa\">hoành độ</b> dương của điểm thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">đồ thị hàm số</b> \\(y=-2x^2\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ordinate\">tung độ</b> bằng \\(-2\\).",
+   "options": [],
+   "answer": "1",
+   "explain_en": "Answer: 1. \\(-2x^2=-2\\Rightarrow x^2=1\\Rightarrow x=\\pm1\\); the positive one is \\(1\\).",
+   "explain_vi": "Đáp số: 1. \\(-2x^2=-2\\Rightarrow x^2=1\\Rightarrow x=\\pm1\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"abscissa\">hoành độ</b> dương là \\(1\\).",
+   "images": [],
+   "id": "d8aaae611c20",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "The parabola \\(y=ax^#\\) passes through \\((#;\\,\\dfrac{#}{#})\\). Find \\(a\\) (decimal answer).",
+   "en": "The parabola \\(y=ax^2\\) passes through \\((1;\\,\\dfrac{5}{2})\\). Find \\(a\\) (decimal answer).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"parabola\">Parabol</b> \\(y=ax^2\\) đi qua điểm \\((1;\\,\\dfrac{5}{2})\\). Tìm \\(a\\) (ghi dạng số thập phân).",
+   "options": [],
+   "answer": "2.5",
+   "explain_en": "Answer: 2.5. \\(a=\\dfrac{\\dfrac{5}{2}}{1}=2.5\\).",
+   "explain_vi": "Đáp số: 2,5. \\(a=\\dfrac{\\dfrac{5}{2}}{1}=2{,}5\\).",
+   "images": [],
+   "id": "17363afbea18",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D1",
+   "type": "mcq",
+   "form": "What is the coefficient \\(a\\) of the function \\(y=-\\dfrac{#}{#}x^#\\)?",
+   "en": "What is the coefficient \\(a\\) of the function \\(y=-\\dfrac{1}{4}x^2\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">Hệ số</b> \\(a\\) của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(y=-\\dfrac{1}{4}x^2\\) là bao nhiêu?",
+   "options": [
+    "\\(-4\\)",
+    "\\(\\dfrac{1}{4}\\)",
+    "\\(-\\dfrac{1}{2}\\)",
+    "\\(-\\dfrac{1}{4}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(a=-\\dfrac{1}{4}\\).",
+   "explain_vi": "Đáp án d. \\(a=-\\dfrac{1}{4}\\).",
+   "images": [],
+   "id": "0bcca93ccb41",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D1",
+   "type": "mcq",
+   "form": "What is the vertex of the parabola \\(y=\\dfrac{#}{#}x^#\\)?",
+   "en": "What is the vertex of the parabola \\(y=\\dfrac{1}{4}x^2\\)?",
+   "vi": "Đỉnh của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parabola\">parabol</b> \\(y=\\dfrac{1}{4}x^2\\) là điểm nào?",
+   "options": [
+    "\\((0;\\,\\dfrac{1}{4})\\)",
+    "\\((1;\\,\\dfrac{1}{4})\\)",
+    "\\((\\dfrac{1}{4};\\,0)\\)",
+    "\\(O(0;\\,0)\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. The graph of \\(y=ax^2\\) has vertex \\(O\\).",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">Đồ thị hàm số</b> \\(y=ax^2\\) có đỉnh là \\(O\\).",
+   "images": [],
+   "id": "2afe22a99587",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Which function of the variable \\(z\\) has the form \\(y=az^#\\ (a\\ne#)\\)?",
+   "en": "Which function of the variable \\(z\\) has the form \\(y=az^2\\ (a\\ne0)\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">Hàm số</b> nào của biến \\(z\\) có dạng \\(y=az^2\\ (a\\ne0)\\)?",
+   "options": [
+    "\\(y=\\dfrac{\\dfrac{1}{3}}{z^2}\\)",
+    "\\(y=\\dfrac{1}{3}z^2\\)",
+    "\\(y=\\dfrac{1}{3}z+5\\)",
+    "\\(y=\\dfrac{1}{3}z^3\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Only \\(y=\\dfrac{1}{3}z^2\\) has this form, with \\(a=\\dfrac{1}{3}\\).",
+   "explain_vi": "Đáp án b. Chỉ \\(y=\\dfrac{1}{3}z^2\\) có dạng này, với \\(a=\\dfrac{1}{3}\\).",
+   "images": [],
+   "id": "6d16d64ddf2e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D2",
+   "type": "mcq",
+   "form": "For \\(y=-\\dfrac{#}{#}x^#\\), compare \\(y_#=y(-#)\\) and \\(y_#=y(#)\\).",
+   "en": "For \\(y=-\\dfrac{1}{3}x^2\\), compare \\(y_1=y(-2)\\) and \\(y_2=y(4)\\).",
+   "vi": "Với \\(y=-\\dfrac{1}{3}x^2\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"compare\">so sánh</b> \\(y_1=y(-2)\\) và \\(y_2=y(4)\\).",
+   "options": [
+    "\\(y_1=y_2\\)",
+    "\\(y_1\\lt y_2\\)",
+    "\\(y_1\\gt y_2\\)",
+    "<span class=\"txi\"><span class=\"en\">cannot be compared</span><span class=\"vi\">không so sánh được</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(y_1=-\\dfrac{4}{3}\\), \\(y_2=-\\dfrac{16}{3}\\).",
+   "explain_vi": "Đáp án c. \\(y_1=-\\dfrac{4}{3}\\), \\(y_2=-\\dfrac{16}{3}\\).",
+   "images": [],
+   "id": "ce39899a2ecd",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D2",
+   "type": "mcq",
+   "form": "For \\(y=\\dfrac{#}{#}x^#\\), the values of \\(y\\) at \\(x=-#;\\ -#;\\ #\\) are…",
+   "en": "For \\(y=\\dfrac{1}{4}x^2\\), the values of \\(y\\) at \\(x=-3;\\ -1;\\ 3\\) are…",
+   "vi": "Với \\(y=\\dfrac{1}{4}x^2\\), giá trị của \\(y\\) tại \\(x=-3;\\ -1;\\ 3\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"respectively\">lần lượt</b> là…",
+   "options": [
+    "\\(-\\dfrac{9}{4};\\ -\\dfrac{1}{4};\\ -\\dfrac{9}{4}\\)",
+    "\\(-\\dfrac{3}{4};\\ -\\dfrac{1}{4};\\ \\dfrac{3}{4}\\)",
+    "\\(\\dfrac{9}{4};\\ \\dfrac{1}{4};\\ \\dfrac{9}{4}\\)",
+    "\\(\\dfrac{9}{16};\\ \\dfrac{1}{16};\\ \\dfrac{9}{16}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Compute \\(\\dfrac{1}{4}\\cdot x^2\\) for each \\(x\\).",
+   "explain_vi": "Đáp án c. Tính \\(\\dfrac{1}{4}\\cdot x^2\\) với từng \\(x\\).",
+   "images": [],
+   "id": "5408965c0eba",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D2",
+   "type": "mcq",
+   "form": "The parabola \\(y=ax^#\\) passes through \\((#;\\,-#)\\). Then…",
+   "en": "The parabola \\(y=ax^2\\) passes through \\((4;\\,-48)\\). Then…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"parabola\">Parabol</b> \\(y=ax^2\\) đi qua điểm \\((4;\\,-48)\\). Khi đó…",
+   "options": [
+    "\\(a\\gt 0\\)",
+    "\\(a=0\\)",
+    "\\(a=3\\)",
+    "\\(a\\lt 0\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(a=-3\\).",
+   "explain_vi": "Đáp án d. \\(a=-3\\).",
+   "images": [],
+   "id": "17e4d4d03237",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D3",
+   "type": "mcq",
+   "form": "A stone falls a distance \\(s=#t^#\\) (m) after \\(t\\) seconds. How far has it fallen after # s?",
+   "en": "A stone falls a distance \\(s=4.9t^2\\) (m) after \\(t\\) seconds. How far has it fallen after 3 s?",
+   "vi": "Một hòn đá rơi được quãng đường \\(s=4{,}9t^2\\) (m) sau \\(t\\) giây. Sau 3 giây hòn đá rơi được bao nhiêu mét?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(29.4\\text{ m}\\)</span><span class=\"vi\">\\(29{,}4\\text{ m}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(14.7\\text{ m}\\)</span><span class=\"vi\">\\(14{,}7\\text{ m}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(44.1\\text{ m}\\)</span><span class=\"vi\">\\(44{,}1\\text{ m}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(78.4\\text{ m}\\)</span><span class=\"vi\">\\(78{,}4\\text{ m}\\)</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(s=4.9\\cdot3^2=44.1\\) m.",
+   "explain_vi": "Đáp án c. \\(s=4{,}9\\cdot3^2=44{,}1\\) m.",
+   "images": [],
+   "id": "9bb0b9212d2a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D3",
+   "type": "mcq",
+   "form": "An arch has the shape of the parabola \\(y=ax^#\\) with its top at \\(O\\). Its base is # m wide and it is # m high. Find \\(a\\).",
+   "en": "An arch has the shape of the parabola \\(y=ax^2\\) with its top at \\(O\\). Its base is 8 m wide and it is 4 m high. Find \\(a\\).",
+   "vi": "Một cổng có dạng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parabola\">parabol</b> \\(y=ax^2\\) với đỉnh cổng là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"origin\">gốc tọa độ</b> \\(O\\). Chân cổng rộng 8 m, cổng cao 4 m. Tìm \\(a\\).",
+   "options": [
+    "\\(\\dfrac{1}{4}\\)",
+    "\\(-\\dfrac{1}{4}\\)",
+    "\\(\\dfrac{1}{2}\\)",
+    "\\(-\\dfrac{1}{2}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. The foot of the arch is the point \\((4;\\,-4)\\): \\(-4=a\\cdot4^2\\Rightarrow a=-\\dfrac{1}{4}\\).",
+   "explain_vi": "Đáp án b. Chân cổng là điểm \\((4;\\,-4)\\): \\(-4=a\\cdot4^2\\Rightarrow a=-\\dfrac{1}{4}\\).",
+   "images": [],
+   "id": "9a1525320be4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Find the points of the graph of \\(y=\\dfrac{#}{#}x^#\\) whose ordinate is \\(\\dfrac{#}{#}\\).",
+   "en": "Find the points of the graph of \\(y=\\dfrac{1}{4}x^2\\) whose ordinate is \\(\\dfrac{1}{4}\\).",
+   "vi": "Tìm các điểm thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">đồ thị hàm số</b> \\(y=\\dfrac{1}{4}x^2\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ordinate\">tung độ</b> bằng \\(\\dfrac{1}{4}\\).",
+   "options": [
+    "\\((\\dfrac{1}{4};\\,1),\\ (-\\dfrac{1}{4};\\,1)\\)",
+    "\\((1;\\,\\dfrac{1}{4})\\)",
+    "\\((1;\\,\\dfrac{1}{4}),\\ (1;\\,-\\dfrac{1}{4})\\)",
+    "\\((-1;\\,\\dfrac{1}{4}),\\ (1;\\,\\dfrac{1}{4})\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(x^2=1\\Rightarrow x=\\pm1\\); the two points are symmetric about \\(Oy\\).",
+   "explain_vi": "Đáp án d. \\(x^2=1\\Rightarrow x=\\pm1\\); hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"symmetric point\">điểm đối xứng</b> nhau qua \\(Oy\\).",
+   "images": [],
+   "id": "4b45c235b2d2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A parabolic arch is # m wide at the base and # m high. A truck # m wide and # m high drives through the middle. Can it pass?",
+   "en": "A parabolic arch is 12 m wide at the base and 9 m high. A truck 2 m wide and 4 m high drives through the middle. Can it pass?",
+   "vi": "Một cổng hình <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parabola\">parabol</b> rộng 12 m ở chân và cao 9 m. Một xe tải rộng 2 m, cao 4 m đi vào chính giữa cổng. Xe có qua được không?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">it cannot be decided</span><span class=\"vi\">không xác định được</span></span>",
+    "<span class=\"txi\"><span class=\"en\">yes</span><span class=\"vi\">qua được</span></span>",
+    "<span class=\"txi\"><span class=\"en\">only if it drives on the edge of the road</span><span class=\"vi\">chỉ qua được khi đi sát mép</span></span>",
+    "<span class=\"txi\"><span class=\"en\">no</span><span class=\"vi\">không qua được</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. With \\(y=ax^2\\), \\(a=-\\dfrac{9}{6^2}\\); at \\(x=1\\) the arch is \\(9+a\\cdot1^2\\approx8.75\\) m above the ground, more than 4 m.",
+   "explain_vi": "Đáp án b. Với \\(y=ax^2\\), \\(a=-\\dfrac{9}{6^2}\\); tại \\(x=1\\) cổng cao \\(9+a\\cdot1^2\\approx8{,}75\\) m so với mặt đất, lớn hơn 4 m.",
+   "images": [],
+   "id": "cfa2eaac40d9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A prism on a square base of side \\(a\\) has volume \\(V=#a^#\\). If \\(a\\) is multiplied by #, \\(V\\) is multiplied by…",
+   "en": "A prism on a square base of side \\(a\\) has volume \\(V=10a^2\\). If \\(a\\) is multiplied by 5, \\(V\\) is multiplied by…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"prism\">Hình lăng trụ</b> đáy hình vuông cạnh \\(a\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"volume\">thể tích</b> \\(V=10a^2\\). Nếu \\(a\\) tăng 5 lần thì \\(V\\) tăng…",
+   "options": [
+    "\\(5\\)",
+    "\\(125\\)",
+    "\\(25\\)",
+    "\\(10\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The quantity is proportional to the square: \\(5^2=25\\).",
+   "explain_vi": "Đáp án c. Đại lượng tỉ lệ với bình phương: \\(5^2=25\\).",
+   "images": [],
+   "id": "530594ebcbaf",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D4",
+   "type": "mcq",
+   "form": "The total surface area of a cube is \\(S=#a^#\\) (cm²), where \\(a\\) is its edge. Find the edge of a cube with \\(S=#\\) cm².",
+   "en": "The total surface area of a cube is \\(S=6a^2\\) (cm²), where \\(a\\) is its edge. Find the edge of a cube with \\(S=150\\) cm².",
+   "vi": "Diện tích toàn phần của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"cube\">hình lập phương</b> cạnh \\(a\\) là \\(S=6a^2\\) (cm²). Tìm cạnh của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"cube\">hình lập phương</b> có \\(S=150\\) cm².",
+   "options": [
+    "\\(25\\text{ cm}\\)",
+    "\\(5\\text{ cm}\\)",
+    "\\(6\\text{ cm}\\)",
+    "\\(10\\text{ cm}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(6a^2=150\\Rightarrow a^2=25\\Rightarrow a=5\\).",
+   "explain_vi": "Đáp án b. \\(6a^2=150\\Rightarrow a^2=25\\Rightarrow a=5\\).",
+   "images": [],
+   "id": "2bcb05661b4b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "For \\(y=#x^#\\), find \\(y\\) when \\(x=-#\\).",
+   "en": "For \\(y=3x^2\\), find \\(y\\) when \\(x=-2\\).",
+   "vi": "Với <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(y=3x^2\\), tính \\(y\\) khi \\(x=-2\\).",
+   "options": [
+    "\\(-6\\)",
+    "\\(13\\)",
+    "\\(12\\)",
+    "\\(-12\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(y=3\\cdot(-2)^2=12\\).",
+   "explain_vi": "Đáp án c. \\(y=3\\cdot(-2)^2=12\\).",
+   "images": [],
+   "id": "6144f1f12b9d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "The graph of \\(y=ax^#\\) passes through \\(M(#;\\,#)\\). Find \\(a\\).",
+   "en": "The graph of \\(y=ax^2\\) passes through \\(M(2;\\,12)\\). Find \\(a\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">Đồ thị hàm số</b> \\(y=ax^2\\) đi qua điểm \\(M(2;\\,12)\\). Tìm \\(a\\).",
+   "options": [
+    "\\(-3\\)",
+    "\\(3\\)",
+    "\\(6\\)",
+    "\\(48\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(12=a\\cdot(2)^2\\Rightarrow a=3\\).",
+   "explain_vi": "Đáp án b. \\(12=a\\cdot(2)^2\\Rightarrow a=3\\).",
+   "images": [],
+   "id": "437deff29510",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Which point lies on the graph of \\(y=#x^#\\)?",
+   "en": "Which point lies on the graph of \\(y=3x^2\\)?",
+   "vi": "Điểm nào thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">đồ thị hàm số</b> \\(y=3x^2\\)?",
+   "options": [
+    "\\((-2;\\,-12)\\)",
+    "\\((3;\\,9)\\)",
+    "\\((-5;\\,75)\\)",
+    "\\((5;\\,76)\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Check \\(y=3\\cdot x^2\\) at each point.",
+   "explain_vi": "Đáp án c. Thay tọa độ từng điểm vào \\(y=3\\cdot x^2\\).",
+   "images": [],
+   "id": "cf535f8999db",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "Apart from the vertex \\(O\\), the graph of \\(y=\\dfrac{#}{#}x^#\\) lies above the \\(x\\)-axis.",
+   "en": "Apart from the vertex \\(O\\), the graph of \\(y=\\dfrac{3}{2}x^2\\) lies above the \\(x\\)-axis.",
+   "vi": "Ngoài đỉnh \\(O\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">đồ thị hàm số</b> \\(y=\\dfrac{3}{2}x^2\\) nằm phía trên trục hoành.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. \\(a=\\dfrac{3}{2}\\) is positive, so the parabola lies above the \\(x\\)-axis.",
+   "explain_vi": "Đúng. \\(a=\\dfrac{3}{2}\\) dương nên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parabola\">parabol</b> nằm phía trên trục hoành.",
+   "images": [],
+   "id": "2305639cd5bb",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(A(-#;\\,#)\\) lies on the graph of \\(y=#x^#\\). Then \\(B(#;\\,-#)\\) also lies on this graph.",
+   "en": "\\(A(-4;\\,32)\\) lies on the graph of \\(y=2x^2\\). Then \\(B(4;\\,-32)\\) also lies on this graph.",
+   "vi": "\\(A(-4;\\,32)\\) thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">đồ thị hàm số</b> \\(y=2x^2\\). Khi đó \\(B(4;\\,-32)\\) cũng thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> này.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. The graph is symmetric about \\(Oy\\): \\((4;\\,32)\\) lies on it; \\((4;\\,-32)\\) does not.",
+   "explain_vi": "Sai. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">Đồ thị</b> nhận \\(Oy\\) làm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"axis of symmetry\">trục đối xứng</b>: \\((4;\\,32)\\) thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b>, \\((4;\\,-32)\\) thì không.",
+   "images": [],
+   "id": "e280febf033c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "Find the positive abscissa of the point on the graph of \\(y=#x^#\\) whose ordinate is \\(#\\).",
+   "en": "Find the positive abscissa of the point on the graph of \\(y=3x^2\\) whose ordinate is \\(12\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"abscissa\">hoành độ</b> dương của điểm thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">đồ thị hàm số</b> \\(y=3x^2\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ordinate\">tung độ</b> bằng \\(12\\).",
+   "options": [],
+   "answer": "2",
+   "explain_en": "Answer: 2. \\(3x^2=12\\Rightarrow x^2=4\\Rightarrow x=\\pm2\\); the positive one is \\(2\\).",
+   "explain_vi": "Đáp số: 2. \\(3x^2=12\\Rightarrow x^2=4\\Rightarrow x=\\pm2\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"abscissa\">hoành độ</b> dương là \\(2\\).",
+   "images": [],
+   "id": "cb7599675c22",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "The parabola \\(y=ax^#\\) passes through \\((-#;\\,#)\\). Find \\(a\\) (decimal answer).",
+   "en": "The parabola \\(y=ax^2\\) passes through \\((-2;\\,10)\\). Find \\(a\\) (decimal answer).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"parabola\">Parabol</b> \\(y=ax^2\\) đi qua điểm \\((-2;\\,10)\\). Tìm \\(a\\) (ghi dạng số thập phân).",
+   "options": [],
+   "answer": "2.5",
+   "explain_en": "Answer: 2.5. \\(a=\\dfrac{10}{4}=2.5\\).",
+   "explain_vi": "Đáp số: 2,5. \\(a=\\dfrac{10}{4}=2{,}5\\).",
+   "images": [],
+   "id": "9e844cb4db97",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D1",
+   "type": "mcq",
+   "form": "What is the coefficient \\(a\\) of the function \\(y=-\\dfrac{#}{#}x^#\\)?",
+   "en": "What is the coefficient \\(a\\) of the function \\(y=-\\dfrac{1}{3}x^2\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">Hệ số</b> \\(a\\) của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(y=-\\dfrac{1}{3}x^2\\) là bao nhiêu?",
+   "options": [
+    "\\(-3\\)",
+    "\\(\\dfrac{1}{3}\\)",
+    "\\(-\\dfrac{2}{3}\\)",
+    "\\(-\\dfrac{1}{3}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(a=-\\dfrac{1}{3}\\).",
+   "explain_vi": "Đáp án d. \\(a=-\\dfrac{1}{3}\\).",
+   "images": [],
+   "id": "d882fd0d4a65",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D1",
+   "type": "mcq",
+   "form": "What is the vertex of the parabola \\(y=\\dfrac{#}{#}x^#\\)?",
+   "en": "What is the vertex of the parabola \\(y=\\dfrac{3}{2}x^2\\)?",
+   "vi": "Đỉnh của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parabola\">parabol</b> \\(y=\\dfrac{3}{2}x^2\\) là điểm nào?",
+   "options": [
+    "\\(O(0;\\,0)\\)",
+    "\\((0;\\,\\dfrac{3}{2})\\)",
+    "\\((\\dfrac{3}{2};\\,0)\\)",
+    "\\((1;\\,\\dfrac{3}{2})\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. The graph of \\(y=ax^2\\) has vertex \\(O\\).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">Đồ thị hàm số</b> \\(y=ax^2\\) có đỉnh là \\(O\\).",
+   "images": [],
+   "id": "9ff70cd4a249",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Which function of the variable \\(t\\) has the form \\(y=at^#\\ (a\\ne#)\\)?",
+   "en": "Which function of the variable \\(t\\) has the form \\(y=at^2\\ (a\\ne0)\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">Hàm số</b> nào của biến \\(t\\) có dạng \\(y=at^2\\ (a\\ne0)\\)?",
+   "options": [
+    "\\(y=\\dfrac{1}{2}t^3\\)",
+    "\\(y=\\dfrac{1}{2}t-4\\)",
+    "\\(y=\\dfrac{1}{2}t^2\\)",
+    "\\(y=\\dfrac{\\dfrac{1}{2}}{t^2}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Only \\(y=\\dfrac{1}{2}t^2\\) has this form, with \\(a=\\dfrac{1}{2}\\).",
+   "explain_vi": "Đáp án c. Chỉ \\(y=\\dfrac{1}{2}t^2\\) có dạng này, với \\(a=\\dfrac{1}{2}\\).",
+   "images": [],
+   "id": "7895efbc7d6e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D2",
+   "type": "mcq",
+   "form": "For \\(y=\\dfrac{#}{#}x^#\\), compare \\(y_#=y(#)\\) and \\(y_#=y(#)\\).",
+   "en": "For \\(y=\\dfrac{1}{2}x^2\\), compare \\(y_1=y(2)\\) and \\(y_2=y(6)\\).",
+   "vi": "Với \\(y=\\dfrac{1}{2}x^2\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"compare\">so sánh</b> \\(y_1=y(2)\\) và \\(y_2=y(6)\\).",
+   "options": [
+    "\\(y_1=y_2\\)",
+    "\\(y_1\\gt y_2\\)",
+    "\\(y_1\\lt y_2\\)",
+    "<span class=\"txi\"><span class=\"en\">cannot be compared</span><span class=\"vi\">không so sánh được</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(y_1=2\\), \\(y_2=18\\).",
+   "explain_vi": "Đáp án c. \\(y_1=2\\), \\(y_2=18\\).",
+   "images": [],
+   "id": "3f06f3aeea5c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D2",
+   "type": "mcq",
+   "form": "For \\(y=\\dfrac{#}{#}x^#\\), the values of \\(y\\) at \\(x=-#;\\ -#;\\ -#\\) are…",
+   "en": "For \\(y=\\dfrac{1}{3}x^2\\), the values of \\(y\\) at \\(x=-3;\\ -2;\\ -1\\) are…",
+   "vi": "Với \\(y=\\dfrac{1}{3}x^2\\), giá trị của \\(y\\) tại \\(x=-3;\\ -2;\\ -1\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"respectively\">lần lượt</b> là…",
+   "options": [
+    "\\(1;\\ \\dfrac{4}{9};\\ \\dfrac{1}{9}\\)",
+    "\\(-3;\\ -\\dfrac{4}{3};\\ -\\dfrac{1}{3}\\)",
+    "\\(3;\\ \\dfrac{4}{3};\\ \\dfrac{1}{3}\\)",
+    "\\(-1;\\ -\\dfrac{2}{3};\\ -\\dfrac{1}{3}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Compute \\(\\dfrac{1}{3}\\cdot x^2\\) for each \\(x\\).",
+   "explain_vi": "Đáp án c. Tính \\(\\dfrac{1}{3}\\cdot x^2\\) với từng \\(x\\).",
+   "images": [],
+   "id": "c10387a8c98d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D2",
+   "type": "mcq",
+   "form": "The parabola \\(y=ax^#\\) passes through \\((#;\\,-#)\\). Then…",
+   "en": "The parabola \\(y=ax^2\\) passes through \\((1;\\,-3)\\). Then…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"parabola\">Parabol</b> \\(y=ax^2\\) đi qua điểm \\((1;\\,-3)\\). Khi đó…",
+   "options": [
+    "\\(a=0\\)",
+    "\\(a=3\\)",
+    "\\(a\\lt 0\\)",
+    "\\(a\\gt 0\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(a=-3\\).",
+   "explain_vi": "Đáp án c. \\(a=-3\\).",
+   "images": [],
+   "id": "6b75c28d7f9e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D3",
+   "type": "mcq",
+   "form": "A stone falls a distance \\(s=#t^#\\) (m) after \\(t\\) seconds. How far has it fallen after # s?",
+   "en": "A stone falls a distance \\(s=4.9t^2\\) (m) after \\(t\\) seconds. How far has it fallen after 4 s?",
+   "vi": "Một hòn đá rơi được quãng đường \\(s=4{,}9t^2\\) (m) sau \\(t\\) giây. Sau 4 giây hòn đá rơi được bao nhiêu mét?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(39.2\\text{ m}\\)</span><span class=\"vi\">\\(39{,}2\\text{ m}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(78.4\\text{ m}\\)</span><span class=\"vi\">\\(78{,}4\\text{ m}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(122.5\\text{ m}\\)</span><span class=\"vi\">\\(122{,}5\\text{ m}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(19.6\\text{ m}\\)</span><span class=\"vi\">\\(19{,}6\\text{ m}\\)</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(s=4.9\\cdot4^2=78.4\\) m.",
+   "explain_vi": "Đáp án b. \\(s=4{,}9\\cdot4^2=78{,}4\\) m.",
+   "images": [],
+   "id": "b49e81998b20",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D3",
+   "type": "mcq",
+   "form": "An arch has the shape of the parabola \\(y=ax^#\\) with its top at \\(O\\). Its base is # m wide and it is # m high. Find \\(a\\).",
+   "en": "An arch has the shape of the parabola \\(y=ax^2\\) with its top at \\(O\\). Its base is 10 m wide and it is 5 m high. Find \\(a\\).",
+   "vi": "Một cổng có dạng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parabola\">parabol</b> \\(y=ax^2\\) với đỉnh cổng là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"origin\">gốc tọa độ</b> \\(O\\). Chân cổng rộng 10 m, cổng cao 5 m. Tìm \\(a\\).",
+   "options": [
+    "\\(\\dfrac{1}{5}\\)",
+    "\\(\\dfrac{1}{2}\\)",
+    "\\(-\\dfrac{1}{5}\\)",
+    "\\(-\\dfrac{2}{5}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The foot of the arch is the point \\((5;\\,-5)\\): \\(-5=a\\cdot5^2\\Rightarrow a=-\\dfrac{1}{5}\\).",
+   "explain_vi": "Đáp án c. Chân cổng là điểm \\((5;\\,-5)\\): \\(-5=a\\cdot5^2\\Rightarrow a=-\\dfrac{1}{5}\\).",
+   "images": [],
+   "id": "8c8cf63152c3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Find the points of the graph of \\(y=-x^#\\) whose ordinate is \\(-#\\).",
+   "en": "Find the points of the graph of \\(y=-x^2\\) whose ordinate is \\(-4\\).",
+   "vi": "Tìm các điểm thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">đồ thị hàm số</b> \\(y=-x^2\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ordinate\">tung độ</b> bằng \\(-4\\).",
+   "options": [
+    "\\((2;\\,-4),\\ (2;\\,4)\\)",
+    "\\((-2;\\,-4),\\ (2;\\,-4)\\)",
+    "\\((2;\\,-4)\\)",
+    "\\((-4;\\,2),\\ (4;\\,2)\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(x^2=4\\Rightarrow x=\\pm2\\); the two points are symmetric about \\(Oy\\).",
+   "explain_vi": "Đáp án b. \\(x^2=4\\Rightarrow x=\\pm2\\); hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"symmetric point\">điểm đối xứng</b> nhau qua \\(Oy\\).",
+   "images": [],
+   "id": "2c6ca58f069f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A parabolic arch is # m wide at the base and # m high. A truck # m wide and # m high drives through the middle. Can it pass?",
+   "en": "A parabolic arch is 6 m wide at the base and 4.5 m high. A truck 2.4 m wide and 3 m high drives through the middle. Can it pass?",
+   "vi": "Một cổng hình <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parabola\">parabol</b> rộng 6 m ở chân và cao 4,5 m. Một xe tải rộng 2,4 m, cao 3 m đi vào chính giữa cổng. Xe có qua được không?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">yes</span><span class=\"vi\">qua được</span></span>",
+    "<span class=\"txi\"><span class=\"en\">no</span><span class=\"vi\">không qua được</span></span>",
+    "<span class=\"txi\"><span class=\"en\">only if it drives on the edge of the road</span><span class=\"vi\">chỉ qua được khi đi sát mép</span></span>",
+    "<span class=\"txi\"><span class=\"en\">it cannot be decided</span><span class=\"vi\">không xác định được</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. With \\(y=ax^2\\), \\(a=-\\dfrac{4.5}{3^2}\\); at \\(x=1.2\\) the arch is \\(4.5+a\\cdot1.2^2\\approx3.78\\) m above the ground, more than 3 m.",
+   "explain_vi": "Đáp án a. Với \\(y=ax^2\\), \\(a=-\\dfrac{4{,}5}{3^2}\\); tại \\(x=1{,}2\\) cổng cao \\(4{,}5+a\\cdot1{,}2^2\\approx3{,}78\\) m so với mặt đất, lớn hơn 3 m.",
+   "images": [],
+   "id": "cadd4721490d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D4",
+   "type": "mcq",
+   "form": "The area of a circle is \\(S=\\pi r^#\\). If the radius is multiplied by #, the area is multiplied by…",
+   "en": "The area of a circle is \\(S=\\pi r^2\\). If the radius is multiplied by 4, the area is multiplied by…",
+   "vi": "Diện tích hình tròn là \\(S=\\pi r^2\\). Nếu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> tăng 4 lần thì diện tích tăng…",
+   "options": [
+    "\\(16\\)",
+    "\\(64\\)",
+    "\\(8\\)",
+    "\\(4\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. The quantity is proportional to the square: \\(4^2=16\\).",
+   "explain_vi": "Đáp án a. Đại lượng tỉ lệ với bình phương: \\(4^2=16\\).",
+   "images": [],
+   "id": "67f3173c7c61",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D4",
+   "type": "mcq",
+   "form": "The total surface area of a cube is \\(S=#a^#\\) (cm²), where \\(a\\) is its edge. Find the edge of a cube with \\(S=#\\) cm².",
+   "en": "The total surface area of a cube is \\(S=6a^2\\) (cm²), where \\(a\\) is its edge. Find the edge of a cube with \\(S=384\\) cm².",
+   "vi": "Diện tích toàn phần của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"cube\">hình lập phương</b> cạnh \\(a\\) là \\(S=6a^2\\) (cm²). Tìm cạnh của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"cube\">hình lập phương</b> có \\(S=384\\) cm².",
+   "options": [
+    "\\(64\\text{ cm}\\)",
+    "\\(16\\text{ cm}\\)",
+    "\\(9\\text{ cm}\\)",
+    "\\(8\\text{ cm}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(6a^2=384\\Rightarrow a^2=64\\Rightarrow a=8\\).",
+   "explain_vi": "Đáp án d. \\(6a^2=384\\Rightarrow a^2=64\\Rightarrow a=8\\).",
+   "images": [],
+   "id": "e98de586df4a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "For \\(y=-#x^#\\), find \\(y\\) when \\(x=-#\\).",
+   "en": "For \\(y=-2x^2\\), find \\(y\\) when \\(x=-2\\).",
+   "vi": "Với <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(y=-2x^2\\), tính \\(y\\) khi \\(x=-2\\).",
+   "options": [
+    "\\(8\\)",
+    "\\(4\\)",
+    "\\(-7\\)",
+    "\\(-8\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(y=-2\\cdot(-2)^2=-8\\).",
+   "explain_vi": "Đáp án d. \\(y=-2\\cdot(-2)^2=-8\\).",
+   "images": [],
+   "id": "8f1239b95276",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "The graph of \\(y=ax^#\\) passes through \\(M(-#;\\,-#)\\). Find \\(a\\).",
+   "en": "The graph of \\(y=ax^2\\) passes through \\(M(-1;\\,-1)\\). Find \\(a\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">Đồ thị hàm số</b> \\(y=ax^2\\) đi qua điểm \\(M(-1;\\,-1)\\). Tìm \\(a\\).",
+   "options": [
+    "\\(1\\)",
+    "\\(-1\\)",
+    "\\(2\\)",
+    "\\(0\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(-1=a\\cdot(-1)^2\\Rightarrow a=-1\\).",
+   "explain_vi": "Đáp án b. \\(-1=a\\cdot(-1)^2\\Rightarrow a=-1\\).",
+   "images": [],
+   "id": "0d6d88350020",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Which point lies on the graph of \\(y=#x^#\\)?",
+   "en": "Which point lies on the graph of \\(y=2x^2\\)?",
+   "vi": "Điểm nào thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">đồ thị hàm số</b> \\(y=2x^2\\)?",
+   "options": [
+    "\\((5;\\,51)\\)",
+    "\\((4;\\,8)\\)",
+    "\\((-4;\\,32)\\)",
+    "\\((-5;\\,-50)\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Check \\(y=2\\cdot x^2\\) at each point.",
+   "explain_vi": "Đáp án c. Thay tọa độ từng điểm vào \\(y=2\\cdot x^2\\).",
+   "images": [],
+   "id": "905667946449",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "Apart from the vertex \\(O\\), the graph of \\(y=-#x^#\\) lies below the \\(x\\)-axis.",
+   "en": "Apart from the vertex \\(O\\), the graph of \\(y=-3x^2\\) lies below the \\(x\\)-axis.",
+   "vi": "Ngoài đỉnh \\(O\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">đồ thị hàm số</b> \\(y=-3x^2\\) nằm phía dưới trục hoành.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. \\(a=-3\\) is negative, so the parabola lies below the \\(x\\)-axis.",
+   "explain_vi": "Đúng. \\(a=-3\\) âm nên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parabola\">parabol</b> nằm phía dưới trục hoành.",
+   "images": [],
+   "id": "9c4c791141d5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(A(#;\\,\\dfrac{#}{#})\\) lies on the graph of \\(y=\\dfrac{#}{#}x^#\\). Then \\(B(-#;\\,-\\dfrac{#}{#})\\) also lies on this graph.",
+   "en": "\\(A(2;\\,\\dfrac{4}{3})\\) lies on the graph of \\(y=\\dfrac{1}{3}x^2\\). Then \\(B(-2;\\,-\\dfrac{4}{3})\\) also lies on this graph.",
+   "vi": "\\(A(2;\\,\\dfrac{4}{3})\\) thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">đồ thị hàm số</b> \\(y=\\dfrac{1}{3}x^2\\). Khi đó \\(B(-2;\\,-\\dfrac{4}{3})\\) cũng thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> này.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. The graph is symmetric about \\(Oy\\): \\((-2;\\,\\dfrac{4}{3})\\) lies on it; \\((-2;\\,-\\dfrac{4}{3})\\) does not.",
+   "explain_vi": "Sai. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">Đồ thị</b> nhận \\(Oy\\) làm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"axis of symmetry\">trục đối xứng</b>: \\((-2;\\,\\dfrac{4}{3})\\) thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b>, \\((-2;\\,-\\dfrac{4}{3})\\) thì không.",
+   "images": [],
+   "id": "9b032102678b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Find the positive abscissa of the point on the graph of \\(y=-\\dfrac{#}{#}x^#\\) whose ordinate is \\(-\\dfrac{#}{#}\\).",
+   "en": "Find the positive abscissa of the point on the graph of \\(y=-\\dfrac{1}{2}x^2\\) whose ordinate is \\(-\\dfrac{25}{2}\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"abscissa\">hoành độ</b> dương của điểm thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">đồ thị hàm số</b> \\(y=-\\dfrac{1}{2}x^2\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ordinate\">tung độ</b> bằng \\(-\\dfrac{25}{2}\\).",
+   "options": [],
+   "answer": "5",
+   "explain_en": "Answer: 5. \\(-\\dfrac{1}{2}x^2=-\\dfrac{25}{2}\\Rightarrow x^2=25\\Rightarrow x=\\pm5\\); the positive one is \\(5\\).",
+   "explain_vi": "Đáp số: 5. \\(-\\dfrac{1}{2}x^2=-\\dfrac{25}{2}\\Rightarrow x^2=25\\Rightarrow x=\\pm5\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"abscissa\">hoành độ</b> dương là \\(5\\).",
+   "images": [],
+   "id": "8119d5a8e3d5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "The parabola \\(y=ax^#\\) passes through \\((#;\\,#)\\). Find \\(a\\) (decimal answer).",
+   "en": "The parabola \\(y=ax^2\\) passes through \\((3;\\,18)\\). Find \\(a\\) (decimal answer).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"parabola\">Parabol</b> \\(y=ax^2\\) đi qua điểm \\((3;\\,18)\\). Tìm \\(a\\) (ghi dạng số thập phân).",
+   "options": [],
+   "answer": "2",
+   "explain_en": "Answer: 2. \\(a=\\dfrac{18}{9}=2\\).",
+   "explain_vi": "Đáp số: 2. \\(a=\\dfrac{18}{9}=2\\).",
+   "images": [],
+   "id": "2ad35d111a77",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D1",
+   "type": "mcq",
+   "form": "What is the axis of symmetry of the parabola \\(y=#x^#\\)?",
+   "en": "What is the axis of symmetry of the parabola \\(y=3x^2\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"axis of symmetry\">Trục đối xứng</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parabola\">parabol</b> \\(y=3x^2\\) là gì?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">it has no axis of symmetry</span><span class=\"vi\">không có trục đối xứng</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the \\(x\\)-axis \\(Ox\\)</span><span class=\"vi\">trục hoành \\(Ox\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the \\(y\\)-axis \\(Oy\\)</span><span class=\"vi\">trục tung \\(Oy\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the line \\(y=x\\)</span><span class=\"vi\">đường thẳng \\(y=x\\)</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The parabola is symmetric about \\(Oy\\).",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parabola\">Parabol</b> nhận \\(Oy\\) làm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"axis of symmetry\">trục đối xứng</b>.",
+   "images": [],
+   "id": "f6cc0e07fa08",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D1",
+   "type": "mcq",
+   "form": "What is the coefficient \\(a\\) of the function \\(y=#x^#\\)?",
+   "en": "What is the coefficient \\(a\\) of the function \\(y=2x^2\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">Hệ số</b> \\(a\\) của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">hàm số</b> \\(y=2x^2\\) là bao nhiêu?",
+   "options": [
+    "\\(\\dfrac{1}{2}\\)",
+    "\\(2\\)",
+    "\\(4\\)",
+    "\\(-2\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(a=2\\).",
+   "explain_vi": "Đáp án b. \\(a=2\\).",
+   "images": [],
+   "id": "27d38a0db376",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Which function of the variable \\(x\\) has the form \\(y=ax^#\\ (a\\ne#)\\)?",
+   "en": "Which function of the variable \\(x\\) has the form \\(y=ax^2\\ (a\\ne0)\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">Hàm số</b> nào của biến \\(x\\) có dạng \\(y=ax^2\\ (a\\ne0)\\)?",
+   "options": [
+    "\\(y=\\dfrac{1}{3}x+4\\)",
+    "\\(y=\\dfrac{1}{3}x^3\\)",
+    "\\(y=\\dfrac{1}{3}x^2\\)",
+    "\\(y=\\dfrac{\\dfrac{1}{3}}{x^2}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Only \\(y=\\dfrac{1}{3}x^2\\) has this form, with \\(a=\\dfrac{1}{3}\\).",
+   "explain_vi": "Đáp án c. Chỉ \\(y=\\dfrac{1}{3}x^2\\) có dạng này, với \\(a=\\dfrac{1}{3}\\).",
+   "images": [],
+   "id": "0cc938d32957",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D2",
+   "type": "mcq",
+   "form": "For \\(y=-\\dfrac{#}{#}x^#\\), compare \\(y_#=y(#)\\) and \\(y_#=y(#)\\).",
+   "en": "For \\(y=-\\dfrac{1}{2}x^2\\), compare \\(y_1=y(4)\\) and \\(y_2=y(2)\\).",
+   "vi": "Với \\(y=-\\dfrac{1}{2}x^2\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"compare\">so sánh</b> \\(y_1=y(4)\\) và \\(y_2=y(2)\\).",
+   "options": [
+    "\\(y_1\\gt y_2\\)",
+    "\\(y_1\\lt y_2\\)",
+    "<span class=\"txi\"><span class=\"en\">cannot be compared</span><span class=\"vi\">không so sánh được</span></span>",
+    "\\(y_1=y_2\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(y_1=-8\\), \\(y_2=-2\\).",
+   "explain_vi": "Đáp án b. \\(y_1=-8\\), \\(y_2=-2\\).",
+   "images": [],
+   "id": "39f826ae44e4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D2",
+   "type": "mcq",
+   "form": "For \\(y=\\dfrac{#}{#}x^#\\), the values of \\(y\\) at \\(x=-#;\\ #;\\ #\\) are…",
+   "en": "For \\(y=\\dfrac{1}{2}x^2\\), the values of \\(y\\) at \\(x=-1;\\ 1;\\ 3\\) are…",
+   "vi": "Với \\(y=\\dfrac{1}{2}x^2\\), giá trị của \\(y\\) tại \\(x=-1;\\ 1;\\ 3\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"respectively\">lần lượt</b> là…",
+   "options": [
+    "\\(-\\dfrac{1}{2};\\ \\dfrac{1}{2};\\ \\dfrac{3}{2}\\)",
+    "\\(\\dfrac{1}{2};\\ \\dfrac{1}{2};\\ \\dfrac{9}{2}\\)",
+    "\\(-\\dfrac{1}{2};\\ -\\dfrac{1}{2};\\ -\\dfrac{9}{2}\\)",
+    "\\(\\dfrac{1}{4};\\ \\dfrac{1}{4};\\ \\dfrac{9}{4}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Compute \\(\\dfrac{1}{2}\\cdot x^2\\) for each \\(x\\).",
+   "explain_vi": "Đáp án b. Tính \\(\\dfrac{1}{2}\\cdot x^2\\) với từng \\(x\\).",
+   "images": [],
+   "id": "9a10457c98b3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D2",
+   "type": "mcq",
+   "form": "The parabola \\(y=ax^#\\) passes through \\((#;\\,\\dfrac{#}{#})\\). Then…",
+   "en": "The parabola \\(y=ax^2\\) passes through \\((1;\\,\\dfrac{1}{3})\\). Then…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"parabola\">Parabol</b> \\(y=ax^2\\) đi qua điểm \\((1;\\,\\dfrac{1}{3})\\). Khi đó…",
+   "options": [
+    "\\(a\\lt 0\\)",
+    "\\(a=-\\dfrac{1}{3}\\)",
+    "\\(a\\gt 0\\)",
+    "\\(a=0\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(a=\\dfrac{1}{3}\\).",
+   "explain_vi": "Đáp án c. \\(a=\\dfrac{1}{3}\\).",
+   "images": [],
+   "id": "393bf2b33ad6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D3",
+   "type": "mcq",
+   "form": "A stone falls a distance \\(s=#t^#\\) (m) after \\(t\\) seconds. How far has it fallen after # s?",
+   "en": "A stone falls a distance \\(s=4.9t^2\\) (m) after \\(t\\) seconds. How far has it fallen after 2 s?",
+   "vi": "Một hòn đá rơi được quãng đường \\(s=4{,}9t^2\\) (m) sau \\(t\\) giây. Sau 2 giây hòn đá rơi được bao nhiêu mét?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(20.3\\text{ m}\\)</span><span class=\"vi\">\\(20{,}3\\text{ m}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(9.8\\text{ m}\\)</span><span class=\"vi\">\\(9{,}8\\text{ m}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(19.6\\text{ m}\\)</span><span class=\"vi\">\\(19{,}6\\text{ m}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(44.1\\text{ m}\\)</span><span class=\"vi\">\\(44{,}1\\text{ m}\\)</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(s=4.9\\cdot2^2=19.6\\) m.",
+   "explain_vi": "Đáp án c. \\(s=4{,}9\\cdot2^2=19{,}6\\) m.",
+   "images": [],
+   "id": "6586852941b0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D3",
+   "type": "mcq",
+   "form": "An arch has the shape of the parabola \\(y=ax^#\\) with its top at \\(O\\). Its base is # m wide and it is # m high. Find \\(a\\).",
+   "en": "An arch has the shape of the parabola \\(y=ax^2\\) with its top at \\(O\\). Its base is 12 m wide and it is 9 m high. Find \\(a\\).",
+   "vi": "Một cổng có dạng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parabola\">parabol</b> \\(y=ax^2\\) với đỉnh cổng là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"origin\">gốc tọa độ</b> \\(O\\). Chân cổng rộng 12 m, cổng cao 9 m. Tìm \\(a\\).",
+   "options": [
+    "\\(\\dfrac{1}{4}\\)",
+    "\\(\\dfrac{3}{4}\\)",
+    "\\(-\\dfrac{1}{2}\\)",
+    "\\(-\\dfrac{1}{4}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. The foot of the arch is the point \\((6;\\,-9)\\): \\(-9=a\\cdot6^2\\Rightarrow a=-\\dfrac{1}{4}\\).",
+   "explain_vi": "Đáp án d. Chân cổng là điểm \\((6;\\,-9)\\): \\(-9=a\\cdot6^2\\Rightarrow a=-\\dfrac{1}{4}\\).",
+   "images": [],
+   "id": "e808d26362ad",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Find the points of the graph of \\(y=x^#\\) whose ordinate is \\(#\\).",
+   "en": "Find the points of the graph of \\(y=x^2\\) whose ordinate is \\(25\\).",
+   "vi": "Tìm các điểm thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph of a function\">đồ thị hàm số</b> \\(y=x^2\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ordinate\">tung độ</b> bằng \\(25\\).",
+   "options": [
+    "\\((5;\\,25),\\ (5;\\,-25)\\)",
+    "\\((5;\\,25)\\)",
+    "\\((-5;\\,25),\\ (5;\\,25)\\)",
+    "\\((25;\\,5),\\ (-25;\\,5)\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(x^2=25\\Rightarrow x=\\pm5\\); the two points are symmetric about \\(Oy\\).",
+   "explain_vi": "Đáp án c. \\(x^2=25\\Rightarrow x=\\pm5\\); hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"symmetric point\">điểm đối xứng</b> nhau qua \\(Oy\\).",
+   "images": [],
+   "id": "a74abf9110d0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A parabolic arch is # m wide at the base and # m high. A truck # m wide and # m high drives through the middle. Can it pass?",
+   "en": "A parabolic arch is 8 m wide at the base and 4 m high. A truck 3 m wide and 3.5 m high drives through the middle. Can it pass?",
+   "vi": "Một cổng hình <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parabola\">parabol</b> rộng 8 m ở chân và cao 4 m. Một xe tải rộng 3 m, cao 3,5 m đi vào chính giữa cổng. Xe có qua được không?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">yes</span><span class=\"vi\">qua được</span></span>",
+    "<span class=\"txi\"><span class=\"en\">only if it drives on the edge of the road</span><span class=\"vi\">chỉ qua được khi đi sát mép</span></span>",
+    "<span class=\"txi\"><span class=\"en\">it cannot be decided</span><span class=\"vi\">không xác định được</span></span>",
+    "<span class=\"txi\"><span class=\"en\">no</span><span class=\"vi\">không qua được</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. With \\(y=ax^2\\), \\(a=-\\dfrac{4}{4^2}\\); at \\(x=1.5\\) the arch is \\(4+a\\cdot1.5^2\\approx3.44\\) m above the ground, less than 3.5 m.",
+   "explain_vi": "Đáp án d. Với \\(y=ax^2\\), \\(a=-\\dfrac{4}{4^2}\\); tại \\(x=1{,}5\\) cổng cao \\(4+a\\cdot1{,}5^2\\approx3{,}44\\) m so với mặt đất, nhỏ hơn 3,5 m.",
+   "images": [],
+   "id": "461c738893e7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A prism on a square base of side \\(a\\) has volume \\(V=#a^#\\). If \\(a\\) is multiplied by #, \\(V\\) is multiplied by…",
+   "en": "A prism on a square base of side \\(a\\) has volume \\(V=10a^2\\). If \\(a\\) is multiplied by 3, \\(V\\) is multiplied by…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"prism\">Hình lăng trụ</b> đáy hình vuông cạnh \\(a\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"volume\">thể tích</b> \\(V=10a^2\\). Nếu \\(a\\) tăng 3 lần thì \\(V\\) tăng…",
+   "options": [
+    "\\(6\\)",
+    "\\(9\\)",
+    "\\(3\\)",
+    "\\(27\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. The quantity is proportional to the square: \\(3^2=9\\).",
+   "explain_vi": "Đáp án b. Đại lượng tỉ lệ với bình phương: \\(3^2=9\\).",
+   "images": [],
+   "id": "a55a4bc09d86",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D4",
+   "type": "mcq",
+   "form": "The total surface area of a cube is \\(S=#a^#\\) (cm²), where \\(a\\) is its edge. Find the edge of a cube with \\(S=#\\) cm².",
+   "en": "The total surface area of a cube is \\(S=6a^2\\) (cm²), where \\(a\\) is its edge. Find the edge of a cube with \\(S=54\\) cm².",
+   "vi": "Diện tích toàn phần của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"cube\">hình lập phương</b> cạnh \\(a\\) là \\(S=6a^2\\) (cm²). Tìm cạnh của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"cube\">hình lập phương</b> có \\(S=54\\) cm².",
+   "options": [
+    "\\(6\\text{ cm}\\)",
+    "\\(9\\text{ cm}\\)",
+    "\\(4\\text{ cm}\\)",
+    "\\(3\\text{ cm}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(6a^2=54\\Rightarrow a^2=9\\Rightarrow a=3\\).",
+   "explain_vi": "Đáp án d. \\(6a^2=54\\Rightarrow a^2=9\\Rightarrow a=3\\).",
+   "images": [],
+   "id": "166b552cf975",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  }
+ ]
+}

@@ -249,7 +249,8 @@ checks = [
     ('I understand the English instructions in this lesson.', 'Em hiểu các yêu cầu bằng tiếng Anh trong bài này.'),
 ]
 
-_SP = SELF(sp_g12.M3, start=11, avoid=[t[1] for t in practice])
+import sp_g12r2 as R4
+_SP = R4.dset(practice, R4.D3, (12031, 12032, 12033))
 _L = chr(ord(practice[-1][0][0][0]) + 1)
 lesson(id=LID, title_en='Asymptotes of Graphs', title_vi='Đường tiệm cận của đồ thị hàm số', topic=(CAT, 'Ứng dụng đạo hàm'),
        catalog_title_vi='Đường tiệm cận của đồ thị hàm số', description_vi='Bài 3 – Tìm tiệm cận đứng, tiệm cận ngang và tiệm cận xiên bằng giới hạn; phân biệt tiệm cận với điểm hổng.',

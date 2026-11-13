@@ -1,0 +1,1689 @@
+{
+ "lesson": "g11-exp-06",
+ "grade": 11,
+ "no": 21,
+ "title": "Phương trình, bất phương trình mũ và lôgarit",
+ "path": "lessons/grade11/exponential-functions/exp-log-equations.html",
+ "items": [
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Find \\(x\\) such that \\(\\log_{#}(x-#)=#\\).",
+   "en": "Find \\(x\\) such that \\(\\log_{2}(x-1)=3\\).",
+   "vi": "Tìm \\(x\\) thỏa mãn \\(\\log_{2}(x-1)=3\\).",
+   "options": [
+    "\\(x=7\\)",
+    "\\(x=9\\)",
+    "\\(x=10\\)",
+    "\\(x=8\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(x-1=2^{3}\\).",
+   "explain_vi": "Đáp án b. \\(x-1=2^{3}=8\\Rightarrow x=9\\).",
+   "images": [],
+   "id": "4da9c1b943bd",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Solve \\(#^{x+#}=#\\).",
+   "en": "Solve \\(2^{x+1}=16\\).",
+   "vi": "Giải <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(2^{x+1}=16\\).",
+   "options": [
+    "\\(x=4\\)",
+    "\\(x=-3\\)",
+    "\\(x=3\\)",
+    "\\(x=2\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(x+1=4\\).",
+   "explain_vi": "Đáp án c. \\(16=2^{4}\\Rightarrow x+1=4\\).",
+   "images": [],
+   "id": "9a12822835b6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "The solution set of the inequality \\(#^x\\gt#\\) is described by…",
+   "en": "The solution set of the inequality \\(3^x\\gt9\\) is described by…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution set\">Tập nghiệm</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"inequality (with a variable)\">bất phương trình</b> \\(3^x\\gt9\\) được mô tả bởi…",
+   "options": [
+    "\\(x\\lt2\\)",
+    "\\(x\\gt-2\\)",
+    "\\(x\\gt2\\)",
+    "\\(x\\gt9\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(9=3^{2}\\).",
+   "explain_vi": "Đáp án c. \\(9=3^{2}\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"base\">cơ số</b> lớn hơn 1.",
+   "images": [],
+   "id": "84bd481aa20f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(\\left(\\dfrac#\\right)^x\\lt#\\iff x\\gt-#\\).",
+   "en": "\\(\\left(\\dfrac13\\right)^x\\lt9\\iff x\\gt-2\\).",
+   "vi": "\\(\\left(\\dfrac13\\right)^x\\lt9\\iff x\\gt-2\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "\\(9=\\left(\\dfrac13\\right)^{-2}\\), base \\(\\lt1\\): reverse.",
+   "explain_vi": "\\(9=\\left(\\dfrac13\\right)^{-2}\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"base\">cơ số</b> nhỏ hơn 1: đổi chiều.",
+   "images": [],
+   "id": "b02a3c138674",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(\\log_#(x-#)+\\log_#(x+#)=#\\) has the solutions \\(x=\\pm#\\).",
+   "en": "\\(\\log_2(x-1)+\\log_2(x+1)=3\\) has the solutions \\(x=\\pm3\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">Phương trình</b> \\(\\log_2(x-1)+\\log_2(x+1)=3\\) có hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b> \\(x=\\pm3\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "Need \\(x\\gt1\\): only \\(x=3\\).",
+   "explain_vi": "Điều kiện \\(x\\gt1\\): chỉ có \\(x=3\\).",
+   "images": [],
+   "id": "b8e3485efa74",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "Find the sum of the solutions of \\(#^x-#\\cdot#^x+#=#\\).",
+   "en": "Find the sum of the solutions of \\(4^x-5\\cdot2^x+4=0\\).",
+   "vi": "Tính tổng các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution of an equation\">nghiệm của phương trình</b> \\(4^x-5\\cdot2^x+4=0\\).",
+   "options": [],
+   "answer": "2",
+   "explain_en": "\\(t=2^x\\): \\(t=1\\), \\(t=4\\Rightarrow x=0,\\ x=2\\).",
+   "explain_vi": "Đặt \\(t=2^x\\gt0\\): \\(t=1\\), \\(t=4\\Rightarrow x=0,\\ x=2\\).",
+   "images": [],
+   "id": "5c0ce0795c52",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "Money at #%/year compound interest. After at least how many full years does it reach # times the deposit?",
+   "en": "Money at 8%/year compound interest. After at least how many full years does it reach 2 times the deposit?",
+   "vi": "Gửi tiết kiệm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"compound interest\">lãi kép</b> 8%/năm. Sau ít nhất bao nhiêu năm (tròn năm) số tiền đạt từ 2 lần số tiền gửi trở lên?",
+   "options": [],
+   "answer": "10",
+   "explain_en": "\\(n\\ge\\log_{1.08}2\\approx9.01\\).",
+   "explain_vi": "\\(n\\ge\\log_{1{,}08}2\\approx9{,}01\\).",
+   "images": [],
+   "id": "3fc58b03057b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "A town has a population \\(P(t)=P_#e^{#t}\\), where \\(t\\) is the number of years after #. In which year does the population first exceed \\(#\\) times \\(P_#\\)?",
+   "en": "A town has a population \\(P(t)=P_0e^{0.02t}\\), where \\(t\\) is the number of years after 2020. In which year does the population first exceed \\(1.5\\) times \\(P_0\\)?",
+   "vi": "Dân số một thị trấn là \\(P(t)=P_0e^{0{,}02t}\\), với \\(t\\) là số năm kể từ năm 2020. Năm nào dân số lần đầu vượt quá \\(1{,}5\\) lần \\(P_0\\)?",
+   "options": [
+    "\\(2040\\)",
+    "\\(2041\\)",
+    "\\(2042\\)",
+    "\\(2095\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(e^{0.02t}\\gt1.5\\iff t\\gt\\dfrac{\\ln 1.5}{0.02}\\approx20.27\\): year \\(2020+21\\).",
+   "explain_vi": "Đáp án b. \\(e^{0{,}02t}\\gt1{,}5\\iff t\\gt\\dfrac{\\ln 1{,}5}{0{,}02}\\approx20{,}27\\): năm \\(2020+21\\).",
+   "images": [],
+   "id": "87844cfc8885",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "How many integers \\(x\\) satisfy \\(#^{x^#-#x}\\le #^{#}\\)?",
+   "en": "How many integers \\(x\\) satisfy \\(3^{x^2-4x}\\le 3^{0}\\)?",
+   "vi": "Có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"integers\">số nguyên</b> \\(x\\) thỏa mãn \\(3^{x^2-4x}\\le 3^{0}\\)?",
+   "options": [
+    "\\(5\\)",
+    "\\(6\\)",
+    "\\(3\\)",
+    "\\(4\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Base \\(3\\gt1\\): \\(x^2-4x\\le0\\iff 0\\le x\\le 4\\): 5 integers.",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"base\">Cơ số</b> \\(3\\gt1\\): \\(x^2-4x\\le0\\iff 0\\le x\\le 4\\): có 5 <b class=\"mbl-term\" tabindex=\"0\" data-en=\"integers\">số nguyên</b>.",
+   "images": [],
+   "id": "4c9f40ca1931",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "How many solutions does the equation \\(\\log_{#}(x-#)+\\log_{#}(x+#)=\\log_{#}#\\) have?",
+   "en": "How many solutions does the equation \\(\\log_{5}(x-4)+\\log_{5}(x+1)=\\log_{5}24\\) have?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">Phương trình</b> \\(\\log_{5}(x-4)+\\log_{5}(x+1)=\\log_{5}24\\) có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b>?",
+   "options": [
+    "\\(1\\)",
+    "\\(3\\)",
+    "\\(2\\)",
+    "\\(0\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Condition \\(x\\gt4\\). Then \\((x-4)(x+1)=24\\) gives \\(x=-4\\) or \\(x=7\\); 1 of them satisfy the condition.",
+   "explain_vi": "Đáp án a. Điều kiện \\(x\\gt4\\). Khi đó \\((x-4)(x+1)=24\\) cho \\(x=-4\\) hoặc \\(x=7\\); có 1 <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b> thỏa mãn điều kiện.",
+   "images": [],
+   "id": "31d0c091b5ac",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Solve \\(\\log_#(x-#)+\\log_#(x+#)=\\log_#\\). Step #: \\(\\log_#(x^#-#)=\\log_#\\). Step #: \\(x^#=#\\). Step #: \\(x=\\pm#\\). In which step is the first mistake?",
+   "en": "Solve \\(\\log_2(x-1)+\\log_2(x+1)=\\log_215\\). Step 1: \\(\\log_2(x^2-1)=\\log_215\\). Step 2: \\(x^2=16\\). Step 3: \\(x=\\pm4\\). In which step is the first mistake?",
+   "vi": "Giải <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(\\log_2(x-1)+\\log_2(x+1)=\\log_215\\). Bước 1: \\(\\log_2(x^2-1)=\\log_215\\). Bước 2: \\(x^2=16\\). Bước 3: \\(x=\\pm4\\). Lời giải sai từ bước nào?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">There is no mistake.</span><span class=\"vi\">Không có bước nào sai.</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Step 1</span><span class=\"vi\">Bước 1</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Step 2</span><span class=\"vi\">Bước 2</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Step 3</span><span class=\"vi\">Bước 3</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. The condition \\(x\\gt1\\) was not checked: only \\(x=4\\).",
+   "explain_vi": "Đáp án d. Chưa đối chiếu điều kiện \\(x\\gt1\\): chỉ nhận \\(x=4\\).",
+   "images": [],
+   "id": "d22adecba359",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The amount of a medicine in the blood halves every # hours: \\(m(t)=m_#\\left(\\dfrac#\\right)^{t/#}\\). After at least how many whole hours is at most #% of it left?",
+   "en": "The amount of a medicine in the blood halves every 10 hours: \\(m(t)=m_0\\left(\\dfrac12\\right)^{t/10}\\). After at least how many whole hours is at most 20% of it left?",
+   "vi": "Lượng một loại thuốc trong máu giảm một nửa sau mỗi 10 giờ: \\(m(t)=m_0\\left(\\dfrac12\\right)^{t/10}\\). Sau ít nhất bao nhiêu giờ (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"integers\">số nguyên</b>) thì lượng còn lại không quá 20%?",
+   "options": [
+    "\\(25\\)",
+    "\\(23\\)",
+    "\\(34\\)",
+    "\\(24\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\left(\\dfrac12\\right)^{t/10}\\le0.2\\iff t\\ge10\\log_25\\approx23.22\\).",
+   "explain_vi": "Đáp án d. \\(\\left(\\dfrac12\\right)^{t/10}\\le0{,}2\\iff t\\ge10\\log_25\\approx23{,}22\\).",
+   "images": [],
+   "id": "68fd0155b26b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The product of the solutions of \\(#^{x^#-#x}=#^{#}\\) is…",
+   "en": "The product of the solutions of \\(5^{x^2-3x}=5^{12}\\) is…",
+   "vi": "Tích các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution of an equation\">nghiệm của phương trình</b> \\(5^{x^2-3x}=5^{12}\\) bằng…",
+   "options": [
+    "\\(-12\\)",
+    "\\(3\\)",
+    "\\(12\\)",
+    "\\(-3\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(x^2-3x-12=0\\) has two solutions; by Viète their product is \\(-12\\).",
+   "explain_vi": "Đáp án a. \\(x^2-3x-12=0\\) có hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b>; theo <b class=\"mbl-term\" tabindex=\"0\" data-en=\"Viète's theorem (Vieta's formulas)\">định lí Viète</b>, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"product of the roots\">tích hai nghiệm</b> là \\(-12\\).",
+   "images": [],
+   "id": "f384051b36c5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The smallest integer \\(x\\) satisfying \\(\\log_{\\frac#}(x+#)\\lt-#\\) is…",
+   "en": "The smallest integer \\(x\\) satisfying \\(\\log_{\\frac12}(x+1)\\lt-4\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"integers\">Số nguyên</b> \\(x\\) nhỏ nhất thỏa mãn \\(\\log_{\\frac12}(x+1)\\lt-4\\) là…",
+   "options": [
+    "\\(0\\)",
+    "\\(15\\)",
+    "\\(16\\)",
+    "\\(-16\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Base \\(\\dfrac12\\lt1\\): reverse the sign, \\(x+1\\gt\\left(\\dfrac12\\right)^{-4}=16\\), so \\(x\\gt15\\).",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"base\">Cơ số</b> \\(\\dfrac12\\lt1\\): đổi chiều, \\(x+1\\gt\\left(\\dfrac12\\right)^{-4}=16\\) nên \\(x\\gt15\\).",
+   "images": [],
+   "id": "14300305c72b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "What is the condition of the equation \\(\\log_{#}(x+#)+\\log_{#}(#-x)=#\\)?",
+   "en": "What is the condition of the equation \\(\\log_{2}(x+1)+\\log_{2}(6-x)=2\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"condition for the equation to be defined (restriction)\">Điều kiện xác định</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(\\log_{2}(x+1)+\\log_{2}(6-x)=2\\) là…",
+   "options": [
+    "\\(x\\in(-1;\\,6)\\)",
+    "\\(x\\lt6\\)",
+    "\\(x\\in[-1;\\,6]\\)",
+    "\\(x\\gt-1\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Need \\(x+1\\gt0\\) and \\(6-x\\gt0\\): \\(-1\\lt x\\lt6\\).",
+   "explain_vi": "Đáp án a. Cần \\(x+1\\gt0\\) và \\(6-x\\gt0\\): \\(-1\\lt x\\lt6\\).",
+   "images": [],
+   "id": "259395e021ea",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Find \\(x\\) such that \\(\\log_{#}(x+#)=#\\).",
+   "en": "Find \\(x\\) such that \\(\\log_{3}(x+2)=2\\).",
+   "vi": "Tìm \\(x\\) thỏa mãn \\(\\log_{3}(x+2)=2\\).",
+   "options": [
+    "\\(x=4\\)",
+    "\\(x=7\\)",
+    "\\(x=6\\)",
+    "\\(x=11\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(x+2=3^{2}\\).",
+   "explain_vi": "Đáp án b. \\(x+2=3^{2}=9\\Rightarrow x=7\\).",
+   "images": [],
+   "id": "ac68da8f9265",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Solve \\(#^{#x-#}=#\\).",
+   "en": "Solve \\(3^{2x-1}=27\\).",
+   "vi": "Giải <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(3^{2x-1}=27\\).",
+   "options": [
+    "\\(x=3\\)",
+    "\\(x=-2\\)",
+    "\\(x=2\\)",
+    "\\(x=1\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(2x-1=3\\).",
+   "explain_vi": "Đáp án c. \\(27=3^{3}\\Rightarrow 2x-1=3\\).",
+   "images": [],
+   "id": "29faa0e99a70",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "The solution set of the inequality \\(\\left(\\dfrac{#}{#}\\right)^x\\ge#\\) is described by…",
+   "en": "The solution set of the inequality \\(\\left(\\dfrac{1}{2}\\right)^x\\ge8\\) is described by…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution set\">Tập nghiệm</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"inequality (with a variable)\">bất phương trình</b> \\(\\left(\\dfrac{1}{2}\\right)^x\\ge8\\) được mô tả bởi…",
+   "options": [
+    "\\(x\\ge-3\\)",
+    "\\(x\\le3\\)",
+    "\\(x\\le8\\)",
+    "\\(x\\le-3\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(8=\\left(\\dfrac{1}{2}\\right)^{-3}\\).",
+   "explain_vi": "Đáp án d. \\(8=\\left(\\dfrac{1}{2}\\right)^{-3}\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"base\">cơ số</b> nhỏ hơn 1.",
+   "images": [],
+   "id": "f0a4daf6db37",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "The equation \\(#^x=-#\\) has the solution \\(x=-#\\).",
+   "en": "The equation \\(3^x=-9\\) has the solution \\(x=-2\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">Phương trình</b> \\(3^x=-9\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b> \\(x=-2\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "\\(3^x\\gt0\\): no solution.",
+   "explain_vi": "\\(3^x\\gt0\\) nên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"no solution\">vô nghiệm</b>.",
+   "images": [],
+   "id": "699f55cd4cc6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(\\log_# x\\lt#\\iff#\\lt x\\lt#\\).",
+   "en": "\\(\\log_3 x\\lt2\\iff0\\lt x\\lt9\\).",
+   "vi": "\\(\\log_3 x\\lt2\\iff0\\lt x\\lt9\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "\\(x\\gt0\\) and \\(x\\lt3^2\\).",
+   "explain_vi": "\\(x\\gt0\\) và \\(x\\lt3^2\\).",
+   "images": [],
+   "id": "02b1920f9478",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "Find the sum of the solutions of \\(#^x-#\\cdot#^x+#=#\\).",
+   "en": "Find the sum of the solutions of \\(9^x-4\\cdot3^x+3=0\\).",
+   "vi": "Tính tổng các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution of an equation\">nghiệm của phương trình</b> \\(9^x-4\\cdot3^x+3=0\\).",
+   "options": [],
+   "answer": "1",
+   "explain_en": "\\(t=3^x\\): \\(t=1\\), \\(t=3\\Rightarrow x=0,\\ x=1\\).",
+   "explain_vi": "Đặt \\(t=3^x\\gt0\\): \\(t=1\\), \\(t=3\\Rightarrow x=0,\\ x=1\\).",
+   "images": [],
+   "id": "50f70f4b6009",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "Money at #%/year compound interest. After at least how many full years does it reach # times the deposit?",
+   "en": "Money at 6%/year compound interest. After at least how many full years does it reach 1.5 times the deposit?",
+   "vi": "Gửi tiết kiệm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"compound interest\">lãi kép</b> 6%/năm. Sau ít nhất bao nhiêu năm (tròn năm) số tiền đạt từ 1,5 lần số tiền gửi trở lên?",
+   "options": [],
+   "answer": "7",
+   "explain_en": "\\(n\\ge\\log_{1.06}1.5\\approx6.96\\).",
+   "explain_vi": "\\(n\\ge\\log_{1{,}06}1{,}5\\approx6{,}96\\).",
+   "images": [],
+   "id": "6aeb620f5a08",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "A town has a population \\(P(t)=P_#e^{#t}\\), where \\(t\\) is the number of years after #. In which year does the population first exceed \\(#\\) times \\(P_#\\)?",
+   "en": "A town has a population \\(P(t)=P_0e^{0.015t}\\), where \\(t\\) is the number of years after 2024. In which year does the population first exceed \\(2\\) times \\(P_0\\)?",
+   "vi": "Dân số một thị trấn là \\(P(t)=P_0e^{0{,}015t}\\), với \\(t\\) là số năm kể từ năm 2024. Năm nào dân số lần đầu vượt quá \\(2\\) lần \\(P_0\\)?",
+   "options": [
+    "\\(2157\\)",
+    "\\(2072\\)",
+    "\\(2071\\)",
+    "\\(2070\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(e^{0.015t}\\gt2\\iff t\\gt\\dfrac{\\ln 2}{0.015}\\approx46.21\\): year \\(2024+47\\).",
+   "explain_vi": "Đáp án c. \\(e^{0{,}015t}\\gt2\\iff t\\gt\\dfrac{\\ln 2}{0{,}015}\\approx46{,}21\\): năm \\(2024+47\\).",
+   "images": [],
+   "id": "8e1b099a16f9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "How many integers \\(x\\) satisfy \\(#^{x^#+x}\\le #^{#}\\)?",
+   "en": "How many integers \\(x\\) satisfy \\(3^{x^2+x}\\le 3^{0}\\)?",
+   "vi": "Có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"integers\">số nguyên</b> \\(x\\) thỏa mãn \\(3^{x^2+x}\\le 3^{0}\\)?",
+   "options": [
+    "\\(2\\)",
+    "\\(3\\)",
+    "\\(4\\)",
+    "\\(1\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Base \\(3\\gt1\\): \\(x^2+x\\le0\\iff -1\\le x\\le 0\\): 2 integers.",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"base\">Cơ số</b> \\(3\\gt1\\): \\(x^2+x\\le0\\iff -1\\le x\\le 0\\): có 2 <b class=\"mbl-term\" tabindex=\"0\" data-en=\"integers\">số nguyên</b>.",
+   "images": [],
+   "id": "993418b27e8f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "How many solutions does the equation \\(\\log_{#}(x)+\\log_{#}(x-#)=\\log_{#}#\\) have?",
+   "en": "How many solutions does the equation \\(\\log_{2}(x)+\\log_{2}(x-1)=\\log_{2}30\\) have?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">Phương trình</b> \\(\\log_{2}(x)+\\log_{2}(x-1)=\\log_{2}30\\) có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b>?",
+   "options": [
+    "\\(2\\)",
+    "\\(1\\)",
+    "\\(3\\)",
+    "\\(0\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Condition \\(x\\gt1\\). Then \\((x)(x-1)=30\\) gives \\(x=-5\\) or \\(x=6\\); 1 of them satisfy the condition.",
+   "explain_vi": "Đáp án b. Điều kiện \\(x\\gt1\\). Khi đó \\((x)(x-1)=30\\) cho \\(x=-5\\) hoặc \\(x=6\\); có 1 <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b> thỏa mãn điều kiện.",
+   "images": [],
+   "id": "b73ca83754f6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Solve \\(\\left(\\dfrac#{#}\\right)^x\\gt#\\). Step #: \\(#=\\left(\\dfrac#{#}\\right)^{-#}\\). Step #: so \\(x\\gt-#\\). Step #: the solution set is \\((-#;+\\infty)\\). In which step is the first mistake?",
+   "en": "Solve \\(\\left(\\dfrac1{3}\\right)^x\\gt27\\). Step 1: \\(27=\\left(\\dfrac1{3}\\right)^{-3}\\). Step 2: so \\(x\\gt-3\\). Step 3: the solution set is \\((-3;+\\infty)\\). In which step is the first mistake?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"solve an inequality\">Giải bất phương trình</b> \\(\\left(\\dfrac1{3}\\right)^x\\gt27\\). Bước 1: \\(27=\\left(\\dfrac1{3}\\right)^{-3}\\). Bước 2: suy ra \\(x\\gt-3\\). Bước 3: <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution set\">tập nghiệm</b> là \\((-3;+\\infty)\\). Lời giải sai từ bước nào?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">There is no mistake.</span><span class=\"vi\">Không có bước nào sai.</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Step 2</span><span class=\"vi\">Bước 2</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Step 1</span><span class=\"vi\">Bước 1</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Step 3</span><span class=\"vi\">Bước 3</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. The base is less than 1, so the sign must be reversed: \\(x\\lt-3\\).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"base\">Cơ số</b> nhỏ hơn 1 nên phải đổi chiều: \\(x\\lt-3\\).",
+   "images": [],
+   "id": "cb571e93cc51",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The amount of a medicine in the blood halves every # hours: \\(m(t)=m_#\\left(\\dfrac#\\right)^{t/#}\\). After at least how many whole hours is at most #% of it left?",
+   "en": "The amount of a medicine in the blood halves every 10 hours: \\(m(t)=m_0\\left(\\dfrac12\\right)^{t/10}\\). After at least how many whole hours is at most 30% of it left?",
+   "vi": "Lượng một loại thuốc trong máu giảm một nửa sau mỗi 10 giờ: \\(m(t)=m_0\\left(\\dfrac12\\right)^{t/10}\\). Sau ít nhất bao nhiêu giờ (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"integers\">số nguyên</b>) thì lượng còn lại không quá 30%?",
+   "options": [
+    "\\(28\\)",
+    "\\(16\\)",
+    "\\(17\\)",
+    "\\(18\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\left(\\dfrac12\\right)^{t/10}\\le0.3\\iff t\\ge10\\log_2\\dfrac{10}{3}\\approx17.37\\).",
+   "explain_vi": "Đáp án d. \\(\\left(\\dfrac12\\right)^{t/10}\\le0{,}3\\iff t\\ge10\\log_2\\dfrac{10}{3}\\approx17{,}37\\).",
+   "images": [],
+   "id": "ebecf71ef9ab",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The product of the solutions of \\(#^{x^#+#x}=#^{#}\\) is…",
+   "en": "The product of the solutions of \\(7^{x^2+5x}=7^{10}\\) is…",
+   "vi": "Tích các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution of an equation\">nghiệm của phương trình</b> \\(7^{x^2+5x}=7^{10}\\) bằng…",
+   "options": [
+    "\\(5\\)",
+    "\\(10\\)",
+    "\\(-10\\)",
+    "\\(-5\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(x^2+5x-10=0\\) has two solutions; by Viète their product is \\(-10\\).",
+   "explain_vi": "Đáp án c. \\(x^2+5x-10=0\\) có hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b>; theo <b class=\"mbl-term\" tabindex=\"0\" data-en=\"Viète's theorem (Vieta's formulas)\">định lí Viète</b>, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"product of the roots\">tích hai nghiệm</b> là \\(-10\\).",
+   "images": [],
+   "id": "443a30abec11",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The smallest integer \\(x\\) satisfying \\(\\log_{\\frac#}(x-#)\\lt-#\\) is…",
+   "en": "The smallest integer \\(x\\) satisfying \\(\\log_{\\frac12}(x-1)\\lt-2\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"integers\">Số nguyên</b> \\(x\\) nhỏ nhất thỏa mãn \\(\\log_{\\frac12}(x-1)\\lt-2\\) là…",
+   "options": [
+    "\\(-2\\)",
+    "\\(6\\)",
+    "\\(2\\)",
+    "\\(5\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Base \\(\\dfrac12\\lt1\\): reverse the sign, \\(x-1\\gt\\left(\\dfrac12\\right)^{-2}=4\\), so \\(x\\gt5\\).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"base\">Cơ số</b> \\(\\dfrac12\\lt1\\): đổi chiều, \\(x-1\\gt\\left(\\dfrac12\\right)^{-2}=4\\) nên \\(x\\gt5\\).",
+   "images": [],
+   "id": "f124f71790ab",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "What is the condition of the equation \\(\\log_{#}(x+#)+\\log_{#}(#-x)=#\\)?",
+   "en": "What is the condition of the equation \\(\\log_{3}(x+4)+\\log_{3}(3-x)=1\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"condition for the equation to be defined (restriction)\">Điều kiện xác định</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(\\log_{3}(x+4)+\\log_{3}(3-x)=1\\) là…",
+   "options": [
+    "\\(x\\gt-4\\)",
+    "\\(x\\in[-4;\\,3]\\)",
+    "\\(x\\in(-4;\\,3)\\)",
+    "\\(x\\lt3\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Need \\(x+4\\gt0\\) and \\(3-x\\gt0\\): \\(-4\\lt x\\lt3\\).",
+   "explain_vi": "Đáp án c. Cần \\(x+4\\gt0\\) và \\(3-x\\gt0\\): \\(-4\\lt x\\lt3\\).",
+   "images": [],
+   "id": "7a1fe1fcc43b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Find \\(x\\) such that \\(\\log_{#}(x-#)=#\\).",
+   "en": "Find \\(x\\) such that \\(\\log_{5}(x-3)=1\\).",
+   "vi": "Tìm \\(x\\) thỏa mãn \\(\\log_{5}(x-3)=1\\).",
+   "options": [
+    "\\(x=4\\)",
+    "\\(x=8\\)",
+    "\\(x=2\\)",
+    "\\(x=9\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(x-3=5^{1}\\).",
+   "explain_vi": "Đáp án b. \\(x-3=5^{1}=5\\Rightarrow x=8\\).",
+   "images": [],
+   "id": "20df3b116e2f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Solve \\(#^{x+#}=\\dfrac{#}{#}\\).",
+   "en": "Solve \\(5^{x+3}=\\dfrac{1}{5}\\).",
+   "vi": "Giải <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(5^{x+3}=\\dfrac{1}{5}\\).",
+   "options": [
+    "\\(x=-3\\)",
+    "\\(x=4\\)",
+    "\\(x=-1\\)",
+    "\\(x=-4\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(x+3=-1\\).",
+   "explain_vi": "Đáp án d. \\(\\dfrac{1}{5}=5^{-1}\\Rightarrow x+3=-1\\).",
+   "images": [],
+   "id": "56b7a4c3d138",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "The solution set of the inequality \\(\\left(\\dfrac{#}{#}\\right)^x\\lt\\dfrac{#}{#}\\) is described by…",
+   "en": "The solution set of the inequality \\(\\left(\\dfrac{1}{3}\\right)^x\\lt\\dfrac{1}{9}\\) is described by…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution set\">Tập nghiệm</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"inequality (with a variable)\">bất phương trình</b> \\(\\left(\\dfrac{1}{3}\\right)^x\\lt\\dfrac{1}{9}\\) được mô tả bởi…",
+   "options": [
+    "\\(x\\lt2\\)",
+    "\\(x\\gt-2\\)",
+    "\\(x\\gt2\\)",
+    "\\(x\\gt\\dfrac{1}{9}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\dfrac{1}{9}=\\left(\\dfrac{1}{3}\\right)^{2}\\).",
+   "explain_vi": "Đáp án c. \\(\\dfrac{1}{9}=\\left(\\dfrac{1}{3}\\right)^{2}\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"base\">cơ số</b> nhỏ hơn 1.",
+   "images": [],
+   "id": "7519799e6b31",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(#^x=#\\iff x=\\log_# #\\).",
+   "en": "\\(5^x=7\\iff x=\\log_5 7\\).",
+   "vi": "\\(5^x=7\\iff x=\\log_5 7\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "Definition of the logarithm.",
+   "explain_vi": "Theo định nghĩa <b class=\"mbl-term\" tabindex=\"0\" data-en=\"logarithm\">lôgarit</b>.",
+   "images": [],
+   "id": "26f9a5dcba8b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(\\log_{\\frac#}x\\gt#\\iff x\\lt\\dfrac#\\).",
+   "en": "\\(\\log_{\\frac12}x\\gt1\\iff x\\lt\\dfrac12\\).",
+   "vi": "\\(\\log_{\\frac12}x\\gt1\\iff x\\lt\\dfrac12\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "Also need \\(x\\gt0\\): \\(0\\lt x\\lt\\dfrac12\\).",
+   "explain_vi": "Còn cần \\(x\\gt0\\): \\(0\\lt x\\lt\\dfrac12\\).",
+   "images": [],
+   "id": "42d850dc3667",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Find the sum of the solutions of \\(#^x-#\\cdot#^x+#=#\\).",
+   "en": "Find the sum of the solutions of \\(9^x-12\\cdot3^x+27=0\\).",
+   "vi": "Tính tổng các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution of an equation\">nghiệm của phương trình</b> \\(9^x-12\\cdot3^x+27=0\\).",
+   "options": [],
+   "answer": "3",
+   "explain_en": "\\(t=3^x\\): \\(t=3\\), \\(t=9\\Rightarrow x=1,\\ x=2\\).",
+   "explain_vi": "Đặt \\(t=3^x\\gt0\\): \\(t=3\\), \\(t=9\\Rightarrow x=1,\\ x=2\\).",
+   "images": [],
+   "id": "b7434a5b86da",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Money at #%/year compound interest. After at least how many full years does it reach # times the deposit?",
+   "en": "Money at 10%/year compound interest. After at least how many full years does it reach 3 times the deposit?",
+   "vi": "Gửi tiết kiệm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"compound interest\">lãi kép</b> 10%/năm. Sau ít nhất bao nhiêu năm (tròn năm) số tiền đạt từ 3 lần số tiền gửi trở lên?",
+   "options": [],
+   "answer": "12",
+   "explain_en": "\\(n\\ge\\log_{1.1}3\\approx11.53\\).",
+   "explain_vi": "\\(n\\ge\\log_{1{,}1}3\\approx11{,}53\\).",
+   "images": [],
+   "id": "89cdea47c7bf",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "A town has a population \\(P(t)=P_#e^{#t}\\), where \\(t\\) is the number of years after #. In which year does the population first exceed \\(#\\) times \\(P_#\\)?",
+   "en": "A town has a population \\(P(t)=P_0e^{0.025t}\\), where \\(t\\) is the number of years after 2025. In which year does the population first exceed \\(1.25\\) times \\(P_0\\)?",
+   "vi": "Dân số một thị trấn là \\(P(t)=P_0e^{0{,}025t}\\), với \\(t\\) là số năm kể từ năm 2025. Năm nào dân số lần đầu vượt quá \\(1{,}25\\) lần \\(P_0\\)?",
+   "options": [
+    "\\(2035\\)",
+    "\\(2033\\)",
+    "\\(2075\\)",
+    "\\(2034\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(e^{0.025t}\\gt1.25\\iff t\\gt\\dfrac{\\ln 1.25}{0.025}\\approx8.93\\): year \\(2025+9\\).",
+   "explain_vi": "Đáp án d. \\(e^{0{,}025t}\\gt1{,}25\\iff t\\gt\\dfrac{\\ln 1{,}25}{0{,}025}\\approx8{,}93\\): năm \\(2025+9\\).",
+   "images": [],
+   "id": "ac59565aec3d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "How many integers \\(x\\) satisfy \\(#^{x^#-x}\\le #^{#}\\)?",
+   "en": "How many integers \\(x\\) satisfy \\(2^{x^2-x}\\le 2^{2}\\)?",
+   "vi": "Có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"integers\">số nguyên</b> \\(x\\) thỏa mãn \\(2^{x^2-x}\\le 2^{2}\\)?",
+   "options": [
+    "\\(2\\)",
+    "\\(3\\)",
+    "\\(5\\)",
+    "\\(4\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Base \\(2\\gt1\\): \\(x^2-x\\le2\\iff -1\\le x\\le 2\\): 4 integers.",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"base\">Cơ số</b> \\(2\\gt1\\): \\(x^2-x\\le2\\iff -1\\le x\\le 2\\): có 4 <b class=\"mbl-term\" tabindex=\"0\" data-en=\"integers\">số nguyên</b>.",
+   "images": [],
+   "id": "fb729ff15c73",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "How many solutions does the equation \\(\\log_{#}(x-#)+\\log_{#}(x-#)=\\log_{#}#\\) have?",
+   "en": "How many solutions does the equation \\(\\log_{2}(x-2)+\\log_{2}(x-3)=\\log_{2}2\\) have?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">Phương trình</b> \\(\\log_{2}(x-2)+\\log_{2}(x-3)=\\log_{2}2\\) có bao nhiêu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b>?",
+   "options": [
+    "\\(2\\)",
+    "\\(0\\)",
+    "\\(3\\)",
+    "\\(1\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Condition \\(x\\gt3\\). Then \\((x-2)(x-3)=2\\) gives \\(x=1\\) or \\(x=4\\); 1 of them satisfy the condition.",
+   "explain_vi": "Đáp án d. Điều kiện \\(x\\gt3\\). Khi đó \\((x-2)(x-3)=2\\) cho \\(x=1\\) hoặc \\(x=4\\); có 1 <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b> thỏa mãn điều kiện.",
+   "images": [],
+   "id": "6c761f8b5ddb",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Solve \\(\\log_{#}x^#=#\\). Step #: condition \\(x\\ne#\\). Step #: \\(\\log_{#}x^#=#\\log_{#}x\\), so \\(\\log_{#}x=#\\). Step #: \\(x=#\\). In which step is the first mistake?",
+   "en": "Solve \\(\\log_{3}x^2=4\\). Step 1: condition \\(x\\ne0\\). Step 2: \\(\\log_{3}x^2=2\\log_{3}x\\), so \\(\\log_{3}x=2\\). Step 3: \\(x=9\\). In which step is the first mistake?",
+   "vi": "Giải <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(\\log_{3}x^2=4\\). Bước 1: điều kiện \\(x\\ne0\\). Bước 2: \\(\\log_{3}x^2=2\\log_{3}x\\) nên \\(\\log_{3}x=2\\). Bước 3: \\(x=9\\). Lời giải sai từ bước nào?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">There is no mistake.</span><span class=\"vi\">Không có bước nào sai.</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Step 3</span><span class=\"vi\">Bước 3</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Step 1</span><span class=\"vi\">Bước 1</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Step 2</span><span class=\"vi\">Bước 2</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\log_{3}x^2=2\\log_{3}|x|\\); the solutions are \\(x=\\pm9\\).",
+   "explain_vi": "Đáp án d. \\(\\log_{3}x^2=2\\log_{3}|x|\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b> là \\(x=\\pm9\\).",
+   "images": [],
+   "id": "a40f90e02262",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The amount of a medicine in the blood halves every # hours: \\(m(t)=m_#\\left(\\dfrac#\\right)^{t/#}\\). After at least how many whole hours is at most #% of it left?",
+   "en": "The amount of a medicine in the blood halves every 20 hours: \\(m(t)=m_0\\left(\\dfrac12\\right)^{t/20}\\). After at least how many whole hours is at most 20% of it left?",
+   "vi": "Lượng một loại thuốc trong máu giảm một nửa sau mỗi 20 giờ: \\(m(t)=m_0\\left(\\dfrac12\\right)^{t/20}\\). Sau ít nhất bao nhiêu giờ (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"integers\">số nguyên</b>) thì lượng còn lại không quá 20%?",
+   "options": [
+    "\\(46\\)",
+    "\\(47\\)",
+    "\\(50\\)",
+    "\\(67\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\left(\\dfrac12\\right)^{t/20}\\le0.2\\iff t\\ge20\\log_25\\approx46.44\\).",
+   "explain_vi": "Đáp án b. \\(\\left(\\dfrac12\\right)^{t/20}\\le0{,}2\\iff t\\ge20\\log_25\\approx46{,}44\\).",
+   "images": [],
+   "id": "a5294a938904",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The product of the solutions of \\(#^{x^#+#x}=#^{#}\\) is…",
+   "en": "The product of the solutions of \\(7^{x^2+2x}=7^{5}\\) is…",
+   "vi": "Tích các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solution of an equation\">nghiệm của phương trình</b> \\(7^{x^2+2x}=7^{5}\\) bằng…",
+   "options": [
+    "\\(-5\\)",
+    "\\(2\\)",
+    "\\(-2\\)",
+    "\\(5\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(x^2+2x-5=0\\) has two solutions; by Viète their product is \\(-5\\).",
+   "explain_vi": "Đáp án a. \\(x^2+2x-5=0\\) có hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b>; theo <b class=\"mbl-term\" tabindex=\"0\" data-en=\"Viète's theorem (Vieta's formulas)\">định lí Viète</b>, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"product of the roots\">tích hai nghiệm</b> là \\(-5\\).",
+   "images": [],
+   "id": "b55ba513b95b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The smallest integer \\(x\\) satisfying \\(\\log_{\\frac#}(x-#)\\lt-#\\) is…",
+   "en": "The smallest integer \\(x\\) satisfying \\(\\log_{\\frac12}(x-4)\\lt-2\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"integers\">Số nguyên</b> \\(x\\) nhỏ nhất thỏa mãn \\(\\log_{\\frac12}(x-4)\\lt-2\\) là…",
+   "options": [
+    "\\(1\\)",
+    "\\(8\\)",
+    "\\(5\\)",
+    "\\(9\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Base \\(\\dfrac12\\lt1\\): reverse the sign, \\(x-4\\gt\\left(\\dfrac12\\right)^{-2}=4\\), so \\(x\\gt8\\).",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"base\">Cơ số</b> \\(\\dfrac12\\lt1\\): đổi chiều, \\(x-4\\gt\\left(\\dfrac12\\right)^{-2}=4\\) nên \\(x\\gt8\\).",
+   "images": [],
+   "id": "1b1e6f872c0f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "What is the condition of the equation \\(\\log_{#}(x-#)+\\log_{#}(#-x)=#\\)?",
+   "en": "What is the condition of the equation \\(\\log_{3}(x-1)+\\log_{3}(8-x)=0\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"condition for the equation to be defined (restriction)\">Điều kiện xác định</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(\\log_{3}(x-1)+\\log_{3}(8-x)=0\\) là…",
+   "options": [
+    "\\(x\\in(1;\\,8)\\)",
+    "\\(x\\in[1;\\,8]\\)",
+    "\\(x\\lt8\\)",
+    "\\(x\\gt1\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Need \\(x-1\\gt0\\) and \\(8-x\\gt0\\): \\(1\\lt x\\lt8\\).",
+   "explain_vi": "Đáp án a. Cần \\(x-1\\gt0\\) và \\(8-x\\gt0\\): \\(1\\lt x\\lt8\\).",
+   "images": [],
+   "id": "5cbd7b6e7e97",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Solve \\(#^x\\gt#\\).",
+   "en": "Solve \\(3^x\\gt9\\).",
+   "vi": "Giải bất <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(3^x\\gt9\\).",
+   "options": [
+    "\\(x\\lt2\\)",
+    "\\(x\\gt-2\\)",
+    "\\(x\\gt2\\)",
+    "\\(x\\gt9\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(9=3^{2}\\).",
+   "explain_vi": "Đáp án c. \\(9=3^{2}\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"base\">cơ số</b> lớn hơn 1.",
+   "images": [],
+   "id": "16118e497a18",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Solve \\(\\log_{#}(x-#)=#\\).",
+   "en": "Solve \\(\\log_{2}(x-1)=3\\).",
+   "vi": "Giải <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(\\log_{2}(x-1)=3\\).",
+   "options": [
+    "\\(x=7\\)",
+    "\\(x=9\\)",
+    "\\(x=10\\)",
+    "\\(x=8\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(x-1=2^{3}\\).",
+   "explain_vi": "Đáp án b. \\(x-1=2^{3}=8\\Rightarrow x=9\\).",
+   "images": [],
+   "id": "70008c74931d",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Money is saved at #%/year compound interest. After at least how many full years is it at least # times the deposit?",
+   "en": "Money is saved at 7%/year compound interest. After at least how many full years is it at least 2 times the deposit?",
+   "vi": "Gửi tiết kiệm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"compound interest\">lãi kép</b> 7%/năm. Sau ít nhất bao nhiêu năm (tròn năm) số tiền ít nhất gấp 2 lần số tiền gửi?",
+   "options": [
+    "\\(11\\)",
+    "\\(12\\)",
+    "\\(15\\)",
+    "\\(10\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(n\\ge\\log_{1.07}2\\approx10.24\\).",
+   "explain_vi": "Đáp án a. \\((1+0{,}07)^n\\ge2\\iff n\\ge\\log_{1{,}07}2\\approx10{,}24\\).",
+   "images": [],
+   "id": "942fd3e8ff8d",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Solve \\(#^{x+#}=#\\).",
+   "en": "Solve \\(5^{x+1}=25\\).",
+   "vi": "Giải <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(5^{x+1}=25\\).",
+   "options": [
+    "\\(x=2\\)",
+    "\\(x=-1\\)",
+    "\\(x=1\\)",
+    "\\(x=3\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(25=5^{2}\\Rightarrow x+1=2\\).",
+   "explain_vi": "Đáp án c. \\(25=5^{2}\\) nên \\(x+1=2\\).",
+   "images": [],
+   "id": "1760f59333d7",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Solve \\(#^{x^#+x+#}=#\\).",
+   "en": "Solve \\(3^{x^2+x+1}=3\\).",
+   "vi": "Giải <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(3^{x^2+x+1}=3\\).",
+   "options": [
+    "\\(S=\\varnothing\\)",
+    "\\(S=\\{-1;\\,0\\}\\)",
+    "\\(S=\\{0;\\,1\\}\\)",
+    "\\(S=\\{0\\}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Exponents: \\(x^2+x+1=1\\iff(x+1)(x)=0\\).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"compare\">So sánh</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"exponent\">số mũ</b>: \\(x^2+x+1=1\\iff(x+1)(x)=0\\).",
+   "images": [],
+   "id": "c2322e0e504c",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Solve \\(\\left(\\dfrac{#}{#}\\right)^x\\le#\\).",
+   "en": "Solve \\(\\left(\\dfrac{1}{3}\\right)^x\\le9\\).",
+   "vi": "Giải bất <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(\\left(\\dfrac{1}{3}\\right)^x\\le9\\).",
+   "options": [
+    "\\(x\\ge2\\)",
+    "\\(x\\le-2\\)",
+    "\\(x\\ge-2\\)",
+    "\\(x\\ge9\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(9=\\left(\\dfrac{1}{3}\\right)^{-2}\\); the base is less than 1.",
+   "explain_vi": "Đáp án c. \\(9=\\left(\\dfrac{1}{3}\\right)^{-2}\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"base\">cơ số</b> nhỏ hơn 1 nên đổi chiều.",
+   "images": [],
+   "id": "7561391ba29b",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Solve \\(\\log_#(x^#+#x)=\\log_#(#x+#)\\).",
+   "en": "Solve \\(\\log_2(x^2+5x)=\\log_2(3x+3)\\).",
+   "vi": "Giải <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(\\log_2(x^2+5x)=\\log_2(3x+3)\\).",
+   "options": [
+    "\\(S=\\{-3\\}\\)",
+    "\\(S=\\{1\\}\\)",
+    "\\(S=\\{-3;\\,1\\}\\)",
+    "\\(S=\\varnothing\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(x^2+5x=3x+3\\): roots -3, 1; need \\(3x+3\\gt0\\).",
+   "explain_vi": "Đáp án b. \\(x^2+5x=3x+3\\): <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b> -3, 1; cần \\(3x+3\\gt0\\).",
+   "images": [],
+   "id": "a56c5a1303e5",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Solve \\(\\log_{#}(x-#)=#\\).",
+   "en": "Solve \\(\\log_{3}(x-2)=1\\).",
+   "vi": "Giải <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(\\log_{3}(x-2)=1\\).",
+   "options": [
+    "\\(x=5\\)",
+    "\\(x=3\\)",
+    "\\(x=6\\)",
+    "\\(x=1\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(x-2=3^{1}=3\\).",
+   "explain_vi": "Đáp án a. \\(x-2=3^{1}=3\\Rightarrow x=5\\) (thỏa \\(x-2\\gt0\\)).",
+   "images": [],
+   "id": "6b8d6ebc9088",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Solve \\(\\log_{#}(x-#)\\lt#\\).",
+   "en": "Solve \\(\\log_{3}(x-1)\\lt1\\).",
+   "vi": "Giải bất <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(\\log_{3}(x-1)\\lt1\\).",
+   "options": [
+    "\\(1\\lt x\\lt2\\)",
+    "\\(x\\gt4\\)",
+    "\\(x\\lt4\\)",
+    "\\(1\\lt x\\lt4\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Domain \\(x\\gt1\\); \\(1=\\log_{3}3\\).",
+   "explain_vi": "Đáp án d. Điều kiện \\(x\\gt1\\); \\(1=\\log_{3}3\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"base\">cơ số</b> lớn hơn 1.",
+   "images": [],
+   "id": "e998657d06e5",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The sum of the solutions of \\(#^x-#\\cdot#^x+#=#\\) is…",
+   "en": "The sum of the solutions of \\(4^x-3\\cdot2^x+2=0\\) is…",
+   "vi": "Tổng các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(4^x-3\\cdot2^x+2=0\\) là…",
+   "options": [
+    "\\(2\\)",
+    "\\(0\\)",
+    "\\(3\\)",
+    "\\(1\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(t=2^x\\gt0\\): \\(t^2-3t+2=0\\Rightarrow t=2,\\ t=1\\Rightarrow x=1,\\ x=0\\).",
+   "explain_vi": "Đáp án d. Đặt \\(t=2^x\\gt0\\): \\(t^2-3t+2=0\\Rightarrow t=2,\\ t=1\\Rightarrow x=1,\\ x=0\\).",
+   "images": [],
+   "id": "ee0b28cda22c",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Solve \\(\\left(\\dfrac{#}{#}\\right)^x\\ge#\\).",
+   "en": "Solve \\(\\left(\\dfrac{1}{2}\\right)^x\\ge8\\).",
+   "vi": "Giải bất <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(\\left(\\dfrac{1}{2}\\right)^x\\ge8\\).",
+   "options": [
+    "\\(x\\ge-3\\)",
+    "\\(x\\le3\\)",
+    "\\(x\\le8\\)",
+    "\\(x\\le-3\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(8=\\left(\\dfrac{1}{2}\\right)^{-3}\\).",
+   "explain_vi": "Đáp án d. \\(8=\\left(\\dfrac{1}{2}\\right)^{-3}\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"base\">cơ số</b> nhỏ hơn 1.",
+   "images": [],
+   "id": "70405c85f49f",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Solve \\(\\log_{#}(x+#)=#\\).",
+   "en": "Solve \\(\\log_{3}(x+2)=2\\).",
+   "vi": "Giải <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(\\log_{3}(x+2)=2\\).",
+   "options": [
+    "\\(x=4\\)",
+    "\\(x=7\\)",
+    "\\(x=6\\)",
+    "\\(x=11\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(x+2=3^{2}\\).",
+   "explain_vi": "Đáp án b. \\(x+2=3^{2}=9\\Rightarrow x=7\\).",
+   "images": [],
+   "id": "3eeb1acb8281",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Money is saved at #%/year compound interest. After at least how many full years is it at least # times the deposit?",
+   "en": "Money is saved at 12%/year compound interest. After at least how many full years is it at least 3 times the deposit?",
+   "vi": "Gửi tiết kiệm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"compound interest\">lãi kép</b> 12%/năm. Sau ít nhất bao nhiêu năm (tròn năm) số tiền ít nhất gấp 3 lần số tiền gửi?",
+   "options": [
+    "\\(10\\)",
+    "\\(11\\)",
+    "\\(17\\)",
+    "\\(9\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(n\\ge\\log_{1.12}3\\approx9.69\\).",
+   "explain_vi": "Đáp án a. \\((1+0{,}12)^n\\ge3\\iff n\\ge\\log_{1{,}12}3\\approx9{,}69\\).",
+   "images": [],
+   "id": "66c047eab5ea",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Solve \\(#^{#x}=#\\).",
+   "en": "Solve \\(3^{3x}=27\\).",
+   "vi": "Giải <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(3^{3x}=27\\).",
+   "options": [
+    "\\(x=-1\\)",
+    "\\(x=0\\)",
+    "\\(x=1\\)",
+    "\\(x=2\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(27=3^{3}\\Rightarrow 3x=3\\).",
+   "explain_vi": "Đáp án c. \\(27=3^{3}\\) nên \\(3x=3\\).",
+   "images": [],
+   "id": "6ba53b076912",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Solve \\(#^{x^#+#x-#}=\\dfrac{#}{#}\\).",
+   "en": "Solve \\(3^{x^2+3x-1}=\\dfrac{1}{3}\\).",
+   "vi": "Giải <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(3^{x^2+3x-1}=\\dfrac{1}{3}\\).",
+   "options": [
+    "\\(S=\\varnothing\\)",
+    "\\(S=\\{0;\\,3\\}\\)",
+    "\\(S=\\{0\\}\\)",
+    "\\(S=\\{-3;\\,0\\}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Exponents: \\(x^2+3x-1=-1\\iff(x+3)(x)=0\\).",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"compare\">So sánh</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"exponent\">số mũ</b>: \\(x^2+3x-1=-1\\iff(x+3)(x)=0\\).",
+   "images": [],
+   "id": "99a57ae635ee",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Solve \\(\\left(\\dfrac{#}{#}\\right)^x\\lt\\dfrac{#}{#}\\).",
+   "en": "Solve \\(\\left(\\dfrac{1}{3}\\right)^x\\lt\\dfrac{1}{27}\\).",
+   "vi": "Giải bất <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(\\left(\\dfrac{1}{3}\\right)^x\\lt\\dfrac{1}{27}\\).",
+   "options": [
+    "\\(x\\lt3\\)",
+    "\\(x\\gt-3\\)",
+    "\\(x\\gt\\dfrac{1}{27}\\)",
+    "\\(x\\gt3\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\dfrac{1}{27}=\\left(\\dfrac{1}{3}\\right)^{3}\\); the base is less than 1.",
+   "explain_vi": "Đáp án d. \\(\\dfrac{1}{27}=\\left(\\dfrac{1}{3}\\right)^{3}\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"base\">cơ số</b> nhỏ hơn 1 nên đổi chiều.",
+   "images": [],
+   "id": "3cfb7434454b",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Solve \\(\\log_#(x^#+#x)=\\log_#(#x+#)\\).",
+   "en": "Solve \\(\\log_2(x^2+2x)=\\log_2(2x+4)\\).",
+   "vi": "Giải <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(\\log_2(x^2+2x)=\\log_2(2x+4)\\).",
+   "options": [
+    "\\(S=\\{2\\}\\)",
+    "\\(S=\\{-2\\}\\)",
+    "\\(S=\\varnothing\\)",
+    "\\(S=\\{-2;\\,2\\}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(x^2+2x=2x+4\\): roots -2, 2; need \\(2x+4\\gt0\\).",
+   "explain_vi": "Đáp án a. \\(x^2+2x=2x+4\\): <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b> -2, 2; cần \\(2x+4\\gt0\\).",
+   "images": [],
+   "id": "351dacc84f9b",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Solve \\(\\log_{#}(x+#)=#\\).",
+   "en": "Solve \\(\\log_{2}(x+3)=1\\).",
+   "vi": "Giải <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(\\log_{2}(x+3)=1\\).",
+   "options": [
+    "\\(x=-1\\)",
+    "\\(x=0\\)",
+    "\\(x=-2\\)",
+    "\\(x=5\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(x+3=2^{1}=2\\).",
+   "explain_vi": "Đáp án a. \\(x+3=2^{1}=2\\Rightarrow x=-1\\) (thỏa \\(x+3\\gt0\\)).",
+   "images": [],
+   "id": "e3f0d63c2b72",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Solve \\(\\log_{#}(x-#)\\lt-#\\).",
+   "en": "Solve \\(\\log_{2}(x-1)\\lt-1\\).",
+   "vi": "Giải bất <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(\\log_{2}(x-1)\\lt-1\\).",
+   "options": [
+    "\\(x\\lt\\dfrac{3}{2}\\)",
+    "\\(x\\gt\\dfrac{3}{2}\\)",
+    "\\(1\\lt x\\lt0\\)",
+    "\\(1\\lt x\\lt\\dfrac{3}{2}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Domain \\(x\\gt1\\); \\(-1=\\log_{2}\\dfrac{1}{2}\\).",
+   "explain_vi": "Đáp án d. Điều kiện \\(x\\gt1\\); \\(-1=\\log_{2}\\dfrac{1}{2}\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"base\">cơ số</b> lớn hơn 1.",
+   "images": [],
+   "id": "b06d47ca2f6e",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The sum of the solutions of \\(#^x-#\\cdot#^x+#=#\\) is…",
+   "en": "The sum of the solutions of \\(4^x-5\\cdot2^x+4=0\\) is…",
+   "vi": "Tổng các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(4^x-5\\cdot2^x+4=0\\) là…",
+   "options": [
+    "\\(4\\)",
+    "\\(5\\)",
+    "\\(2\\)",
+    "\\(0\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(t=2^x\\gt0\\): \\(t^2-5t+4=0\\Rightarrow t=1,\\ t=4\\Rightarrow x=0,\\ x=2\\).",
+   "explain_vi": "Đáp án c. Đặt \\(t=2^x\\gt0\\): \\(t^2-5t+4=0\\Rightarrow t=1,\\ t=4\\Rightarrow x=0,\\ x=2\\).",
+   "images": [],
+   "id": "f7b5bd3283db",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Solve \\(\\left(\\dfrac{#}{#}\\right)^x\\lt\\dfrac{#}{#}\\).",
+   "en": "Solve \\(\\left(\\dfrac{1}{3}\\right)^x\\lt\\dfrac{1}{9}\\).",
+   "vi": "Giải bất <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(\\left(\\dfrac{1}{3}\\right)^x\\lt\\dfrac{1}{9}\\).",
+   "options": [
+    "\\(x\\lt2\\)",
+    "\\(x\\gt-2\\)",
+    "\\(x\\gt2\\)",
+    "\\(x\\gt\\dfrac{1}{9}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\dfrac{1}{9}=\\left(\\dfrac{1}{3}\\right)^{2}\\).",
+   "explain_vi": "Đáp án c. \\(\\dfrac{1}{9}=\\left(\\dfrac{1}{3}\\right)^{2}\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"base\">cơ số</b> nhỏ hơn 1.",
+   "images": [],
+   "id": "3c60b14c8620",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Solve \\(\\log_{#}(x-#)=#\\).",
+   "en": "Solve \\(\\log_{5}(x-3)=1\\).",
+   "vi": "Giải <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(\\log_{5}(x-3)=1\\).",
+   "options": [
+    "\\(x=4\\)",
+    "\\(x=8\\)",
+    "\\(x=2\\)",
+    "\\(x=9\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(x-3=5^{1}\\).",
+   "explain_vi": "Đáp án b. \\(x-3=5^{1}=5\\Rightarrow x=8\\).",
+   "images": [],
+   "id": "34aef30a4c1d",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Money is saved at #%/year compound interest. After at least how many full years is it at least # times the deposit?",
+   "en": "Money is saved at 12%/year compound interest. After at least how many full years is it at least 2 times the deposit?",
+   "vi": "Gửi tiết kiệm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"compound interest\">lãi kép</b> 12%/năm. Sau ít nhất bao nhiêu năm (tròn năm) số tiền ít nhất gấp 2 lần số tiền gửi?",
+   "options": [
+    "\\(8\\)",
+    "\\(9\\)",
+    "\\(6\\)",
+    "\\(7\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(n\\ge\\log_{1.12}2\\approx6.12\\).",
+   "explain_vi": "Đáp án d. \\((1+0{,}12)^n\\ge2\\iff n\\ge\\log_{1{,}12}2\\approx6{,}12\\).",
+   "images": [],
+   "id": "3a7ae55a87ea",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Solve \\(#^{x+#}=\\dfrac{#}{#}\\).",
+   "en": "Solve \\(2^{x+2}=\\dfrac{1}{2}\\).",
+   "vi": "Giải <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(2^{x+2}=\\dfrac{1}{2}\\).",
+   "options": [
+    "\\(x=1\\)",
+    "\\(x=-2\\)",
+    "\\(x=3\\)",
+    "\\(x=-3\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\dfrac{1}{2}=2^{-1}\\Rightarrow x+2=-1\\).",
+   "explain_vi": "Đáp án d. \\(\\dfrac{1}{2}=2^{-1}\\) nên \\(x+2=-1\\).",
+   "images": [],
+   "id": "c7c14d9cb37e",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Solve \\(#^{x^#-x-#}=#\\).",
+   "en": "Solve \\(3^{x^2-x-1}=243\\).",
+   "vi": "Giải <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(3^{x^2-x-1}=243\\).",
+   "options": [
+    "\\(S=\\{3\\}\\)",
+    "\\(S=\\varnothing\\)",
+    "\\(S=\\{-3;\\,2\\}\\)",
+    "\\(S=\\{-2;\\,3\\}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Exponents: \\(x^2-x-1=5\\iff(x+2)(x-3)=0\\).",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"compare\">So sánh</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"exponent\">số mũ</b>: \\(x^2-x-1=5\\iff(x+2)(x-3)=0\\).",
+   "images": [],
+   "id": "40f6b278c444",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Solve \\(\\left(\\dfrac{#}{#}\\right)^x\\le#\\).",
+   "en": "Solve \\(\\left(\\dfrac{1}{2}\\right)^x\\le4\\).",
+   "vi": "Giải bất <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(\\left(\\dfrac{1}{2}\\right)^x\\le4\\).",
+   "options": [
+    "\\(x\\ge2\\)",
+    "\\(x\\ge-2\\)",
+    "\\(x\\ge4\\)",
+    "\\(x\\le-2\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(4=\\left(\\dfrac{1}{2}\\right)^{-2}\\); the base is less than 1.",
+   "explain_vi": "Đáp án b. \\(4=\\left(\\dfrac{1}{2}\\right)^{-2}\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"base\">cơ số</b> nhỏ hơn 1 nên đổi chiều.",
+   "images": [],
+   "id": "662d0e8c62f4",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Solve \\(\\log_#(x^#-#x)=\\log_#(x)\\).",
+   "en": "Solve \\(\\log_2(x^2-3x)=\\log_2(x)\\).",
+   "vi": "Giải <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(\\log_2(x^2-3x)=\\log_2(x)\\).",
+   "options": [
+    "\\(S=\\varnothing\\)",
+    "\\(S=\\{4\\}\\)",
+    "\\(S=\\{0;\\,4\\}\\)",
+    "\\(S=\\{0\\}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(x^2-3x=x\\): roots 0, 4; need \\(x\\gt0\\).",
+   "explain_vi": "Đáp án b. \\(x^2-3x=x\\): <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b> 0, 4; cần \\(x\\gt0\\).",
+   "images": [],
+   "id": "380d2865e232",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Solve \\(\\log_{#}(x)\\lt#\\).",
+   "en": "Solve \\(\\log_{2}(x)\\lt2\\).",
+   "vi": "Giải bất <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(\\log_{2}(x)\\lt2\\).",
+   "options": [
+    "\\(x\\gt4\\)",
+    "\\(x\\lt4\\)",
+    "\\(0\\lt x\\lt2\\)",
+    "\\(0\\lt x\\lt4\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Domain \\(x\\gt0\\); \\(2=\\log_{2}4\\).",
+   "explain_vi": "Đáp án d. Điều kiện \\(x\\gt0\\); \\(2=\\log_{2}4\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"base\">cơ số</b> lớn hơn 1.",
+   "images": [],
+   "id": "8d7c49a9fc28",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Solve \\(\\log_{#}(x+#)=#\\).",
+   "en": "Solve \\(\\log_{5}(x+2)=1\\).",
+   "vi": "Giải <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(\\log_{5}(x+2)=1\\).",
+   "options": [
+    "\\(x=4\\)",
+    "\\(x=3\\)",
+    "\\(x=-1\\)",
+    "\\(x=7\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(x+2=5^{1}=5\\).",
+   "explain_vi": "Đáp án b. \\(x+2=5^{1}=5\\Rightarrow x=3\\) (thỏa \\(x+2\\gt0\\)).",
+   "images": [],
+   "id": "cdf01a5907e5",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The sum of the solutions of \\(#^x-#\\cdot#^x+#=#\\) is…",
+   "en": "The sum of the solutions of \\(9^x-10\\cdot3^x+9=0\\) is…",
+   "vi": "Tổng các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(9^x-10\\cdot3^x+9=0\\) là…",
+   "options": [
+    "\\(10\\)",
+    "\\(0\\)",
+    "\\(2\\)",
+    "\\(9\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(t=3^x\\gt0\\): \\(t^2-10t+9=0\\Rightarrow t=1,\\ t=9\\Rightarrow x=0,\\ x=2\\).",
+   "explain_vi": "Đáp án c. Đặt \\(t=3^x\\gt0\\): \\(t^2-10t+9=0\\Rightarrow t=1,\\ t=9\\Rightarrow x=0,\\ x=2\\).",
+   "images": [],
+   "id": "49ac6b241908",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  }
+ ]
+}
