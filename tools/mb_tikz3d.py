@@ -184,6 +184,16 @@ def tikz(cfg):
     allp = [pr(p) for p in P.values()]
     cx = sum(x for x, _ in allp) / len(allp); cy = sum(y for _, y in allp) / len(allp)
     nol = set(cfg.get('nolabel', [])); lp = cfg.get('labelpos', {})
+    segs2d = [(pr(a3), pr(b3)) for a3, b3 in drawn]
+    for hc in cfg.get('hcircles', []):
+        C = P[hc['c']]; Rr = hc['R']
+        cpts = [pr((C[0] + Rr * math.cos(2 * math.pi * k_ / 60), C[1] + Rr * math.sin(2 * math.pi * k_ / 60), C[2])) for k_ in range(61)]
+        segs2d += list(zip(cpts, cpts[1:]))
+    for sp in cfg.get('spheres', []):
+        (sx, sy), Rr = pr(P[sp['c']]), sp['R']
+        cpts = [(sx + Rr * math.cos(2 * math.pi * k_ / 60), sy + Rr * math.sin(2 * math.pi * k_ / 60)) for k_ in range(61)]
+        segs2d += list(zip(cpts, cpts[1:]))
+    placed_pts = [pr(p) for k_, p in P.items() if not k_.startswith('_')]; placed_boxes = []
     for k, p in P.items():
         x, y = pr(p)
         if k not in sn and not k.startswith('_') and k not in nol: body.append('\\fill (%.4f,%.4f) circle[radius=1.3pt];' % (x, y))
@@ -203,7 +213,28 @@ def tikz(cfg):
             def score(th):
                 gap = min([abs((th - d0 + math.pi) % (2 * math.pi) - math.pi) for d0 in dirs] or [math.pi])
                 return min(gap, math.radians(70)) + 0.25 * math.cos(th - out)
-            best = max((math.radians(45 * i) for i in range(8)), key=score)
+            # 13/11/2026: nhãn không được để BẤT KÌ nét nào (liền, đứt, đường tròn) đi qua – kể cả nét không qua điểm này;
+            # cũng tránh đè lên điểm khác và nhãn đã đặt. Phạt theo độ dài phần nét nằm trong khung nhãn.
+            hw = (0.11 * len(_lab(k)) + 0.07) / s; hh = 0.17 / s; gap0 = 0.05 / s
+            def box(th):
+                c, sn_ = math.cos(th), math.sin(th)
+                bx = x + c * (hw + gap0) * (1 if abs(c) > 0.3 else 0); by = y + sn_ * (hh + gap0) * (1 if abs(sn_) > 0.3 else 0)
+                return bx - hw, by - hh, bx + hw, by + hh
+            def clash(th):
+                x0, y0, x1, y1 = box(th); pen = 0.0
+                for (xa, ya), (xb, yb) in segs2d:
+                    for q in range(25):
+                        u = (q + .5) / 25; px_, py_ = xa + (xb - xa) * u, ya + (yb - ya) * u
+                        if x0 < px_ < x1 and y0 < py_ < y1: pen += 1.0 / 25 * math.hypot(xb - xa, yb - ya)
+                for (qx, qy) in placed_pts:
+                    if (qx, qy) != (x, y) and x0 - 0.04 / s < qx < x1 + 0.04 / s and y0 - 0.04 / s < qy < y1 + 0.04 / s: pen += 2 * hw
+                for (u0, v0, u1, v1) in placed_boxes:
+                    if not (x1 < u0 or u1 < x0 or y1 < v0 or v1 < y0): pen += 4 * hw
+                return pen
+            cands = [math.radians(45 * i) for i in range(8)]
+            pens = {th: clash(th) for th in cands}; low = min(pens.values())
+            best = max((th for th in cands if pens[th] <= low + 1e-9), key=score)
+            placed_boxes.append(box(best))
             anc = _anchor(math.cos(best), math.sin(best))
         body.append('\\node[anchor=%s,inner sep=2pt] at (%.4f,%.4f) {$%s$};' % (anc, x, y, _lab(k)))
     cols = ''.join('\\definecolor{%s}{HTML}{%s}\n' % (v, k) for k, v in defs.items())

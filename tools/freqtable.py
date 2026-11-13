@@ -45,7 +45,8 @@ class FT:
     def cum(s, i): return sum(s.f[:i + 1])
     def mean(s): return sum(s.f[i] * s.mid(i) for i in range(s.k)) / s.n
 
-def FREQ(edges, freqs, rows=('group', 'freq'), last_closed=False, rel='pct', total=True, cls='', caption=None, labels=None, unknown=None):
+def FREQ(edges, freqs, rows=('group', 'freq'), last_closed=False, rel='pct', total=True, cls='', caption=None, labels=None, unknown=None, lang=None):
+    """lang='en' | 'vi': nhãn và dấu thập phân theo một ngôn ngữ (dùng cho bảng song ngữ T(en, vi)); None: như cũ."""
     t = edges if isinstance(edges, FT) else FT(edges, freqs, last_closed)
     def relcell(i):
         v = t.rel(i)
@@ -59,13 +60,14 @@ def FREQ(edges, freqs, rows=('group', 'freq'), last_closed=False, rel='pct', tot
     out.append('<tbody>')
     for r in rows:
         vi, en, sy = LABELS[r]
-        lab = (labels or {}).get(r) or '%s%s' % (vi, (' \\(%s\\)' % sy) if sy else '')
+        lab = (labels or {}).get(r) or '%s%s' % (en if lang == 'en' else vi, (' \\(%s\\)' % sy) if sy else '')
         row = '<tr><th scope="row">%s</th>' % lab
         row += ''.join(('<th scope="col">%s</th>' if r == 'group' else '<td>%s</td>') % cells[r](i) for i in range(t.k))
-        if total: row += '<td class="mbl-freq-tot">%s</td>' % (tot[r] if r != 'group' else 'Cộng')
+        if total: row += '<td class="mbl-freq-tot">%s</td>' % (tot[r] if r != 'group' else ('Total' if lang == 'en' else 'Cộng'))
         out.append(row + '</tr>')
     out.append('</tbody></table></div>')
-    return ''.join(out)
+    h = ''.join(out)
+    return h.replace('{,}', '.') if lang == 'en' else h
 
 if __name__ == '__main__':
     print(FREQ([0, 10, 20, 30, 40], [4, 12, 20, 14], rows=('group', 'mid', 'freq', 'rel', 'cum')))

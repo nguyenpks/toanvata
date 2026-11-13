@@ -18,7 +18,7 @@ goals = [('use the derivatives of \\(x^n\\), \\(\\sqrt x\\), trigonometric, expo
          ('solve tangent and rate-of-change problems.', 'giải bài toán tiếp tuyến và tốc độ thay đổi.')]
 phrases = [('<b>Differentiate the inside function too.</b>', 'Nhớ nhân thêm đạo hàm của hàm bên trong.'), ('<b>The derivative of a product is not the product of the derivatives.</b>', 'Đạo hàm của tích không bằng tích các đạo hàm.'),
            ('<b>Write the function as a power before differentiating.</b>', 'Viết hàm số dưới dạng lũy thừa trước khi lấy đạo hàm.'), ('<b>The tangent has slope four at this point.</b>', 'Tiếp tuyến tại điểm này có hệ số góc bằng 4.'), ('<b>Check the domain first.</b>', 'Kiểm tra tập xác định trước.')]
-review = T('From Bài 31: \\(f′(x_0)\\) as a limit, \\((x^2)′=2x\\), \\((x^3)′=3x^2\\), \\(\\left(\\frac1x\\right)′=-\\frac1{x^2}\\), tangent \\(y=f′(x_0)(x-x_0)+f(x_0)\\). From Chapter I and VI: \\(\\sin\\), \\(\\cos\\), \\(e^x\\), \\(\\ln x\\).',
+review = T('From Lesson 31: \\(f′(x_0)\\) as a limit, \\((x^2)′=2x\\), \\((x^3)′=3x^2\\), \\(\\left(\\frac1x\\right)′=-\\frac1{x^2}\\), tangent \\(y=f′(x_0)(x-x_0)+f(x_0)\\). From Chapter I and VI: \\(\\sin\\), \\(\\cos\\), \\(e^x\\), \\(\\ln x\\).',
            'Từ Bài 31: định nghĩa \\(f′(x_0)\\), \\((x^2)′=2x\\), \\((x^3)′=3x^2\\), \\(\\left(\\frac1x\\right)′=-\\frac1{x^2}\\), tiếp tuyến \\(y=f′(x_0)(x-x_0)+f(x_0)\\). Từ Chương I và VI: hàm \\(\\sin\\), \\(\\cos\\), \\(e^x\\), \\(\\ln x\\).')
 
 theory = '<h3>32.1 %s</h3>' % TI('Derivatives of basic functions', 'Đạo hàm của một số hàm số thường gặp')
@@ -47,8 +47,8 @@ examples += EXAMPLE(4, ('Intermediate', 'Trung bình'), ('Tangent of a cubic', '
   T('\\(y′=3x^2-6x\\).', '\\(y′=3x^2-6x\\).'), [T('At \\(x=1\\): \\(y=0\\), \\(y′=-3\\): \\(y=-3(x-1)=-3x+3\\).', 'Tại \\(x=1\\): \\(y=0\\), \\(y′=-3\\): \\(y=-3(x-1)=-3x+3\\).'),
    T('\\(3x^2-6x=9\\iff x=-1\\) or \\(x=3\\). Points \\((-1;-2)\\), \\((3;2)\\): \\(y=9x+7\\) and \\(y=9x-25\\).', '\\(3x^2-6x=9\\iff x=-1\\) hoặc \\(x=3\\). Tiếp điểm \\((-1;-2)\\), \\((3;2)\\): \\(y=9x+7\\) và \\(y=9x-25\\).')],
   T('\\(y=-3x+3\\); \\(y=9x+7\\), \\(y=9x-25\\).', '\\(y=-3x+3\\); \\(y=9x+7\\), \\(y=9x-25\\).'))
-examples += EXAMPLE(5, ('Advanced', 'Nâng cao'), ('Cooling coffee', 'Cốc cà phê nguội dần'), T('The temperature of a cup of coffee is \\(T(t)=25+65e^{-0{,}05t}\\) (°C, \\(t\\) in minutes). Find the rate of change of the temperature at \\(t=0\\) and \\(t=20\\).', 'Nhiệt độ của một cốc cà phê sau \\(t\\) phút là \\(T(t)=25+65e^{-0{,}05t}\\) (°C). Tính tốc độ thay đổi nhiệt độ tại \\(t=0\\) và \\(t=20\\).'),
-  T('\\((e^u)′=u′e^u\\).', '\\((e^u)′=u′e^u\\).'), [T('\\(T′(t)=-3{,}25e^{-0{,}05t}\\).', '\\(T′(t)=65\\cdot(-0{,}05)e^{-0{,}05t}=-3{,}25e^{-0{,}05t}\\).'), T('\\(T′(0)=-3{,}25\\); \\(T′(20)=-3{,}25e^{-1}\\approx-1{,}2\\) °C/min.', '\\(T′(0)=-3{,}25\\); \\(T′(20)=-3{,}25e^{-1}\\approx-1{,}2\\) °C/phút.')],
+examples += EXAMPLE(5, ('Advanced', 'Nâng cao'), ('Cooling coffee', 'Cốc cà phê nguội dần'), T('The temperature of a cup of coffee is \\(T(t)=25+65e^{-0.05t}\\) (°C, \\(t\\) in minutes). Find the rate of change of the temperature at \\(t=0\\) and \\(t=20\\).', 'Nhiệt độ của một cốc cà phê sau \\(t\\) phút là \\(T(t)=25+65e^{-0{,}05t}\\) (°C). Tính tốc độ thay đổi nhiệt độ tại \\(t=0\\) và \\(t=20\\).'),
+  T('\\((e^u)′=u′e^u\\).', '\\((e^u)′=u′e^u\\).'), [T('\\(T′(t)=-3.25e^{-0.05t}\\).', '\\(T′(t)=65\\cdot(-0{,}05)e^{-0{,}05t}=-3{,}25e^{-0{,}05t}\\).'), T('\\(T′(0)=-3.25\\); \\(T′(20)=-3.25e^{-1}\\approx-1.2\\) °C/min.', '\\(T′(0)=-3{,}25\\); \\(T′(20)=-3{,}25e^{-1}\\approx-1{,}2\\) °C/phút.')],
   T('The coffee cools about 3,25 °C/min at first, then only about 1,2 °C/min.', 'Lúc đầu cà phê nguội khoảng 3,25 °C mỗi phút, sau 20 phút chỉ còn khoảng 1,2 °C mỗi phút.'))
 assert abs(3.25 * math.exp(-1) - 1.2) < 0.01
 examples = EXFIG(examples, 4, GRAPH({'view': [-2, 4, -6, 6], 'functions': [{'f': 'x^3-3x^2+2', 'label': 'y = x³ − 3x² + 2'}], 'tangent': {'f': 0, 'at': [1, 3], 'min': -1.5, 'max': 3.8}},
@@ -64,7 +64,7 @@ def lvl(P):
     if kind == 'sin': cor, wr, f = "\\(y′=%d\\cos(%dx+1)\\)" % (kk, kk), ["\\(y′=\\cos(%dx+1)\\)" % kk, "\\(y′=-%d\\cos(%dx+1)\\)" % (kk, kk), "\\(y′=%d\\sin(%dx+1)\\)" % (kk, kk)], '\\sin(%dx+1)' % kk
     elif kind == 'exp': cor, wr, f = "\\(y′=%de^{%dx-1}\\)" % (kk, kk), ["\\(y′=e^{%dx-1}\\)" % kk, "\\(y′=(%dx-1)e^{%dx-2}\\)" % (kk, kk), "\\(y′=%de^{%dx}\\)" % (kk, kk)], 'e^{%dx-1}' % kk
     else: cor, wr, f = "\\(y′=\\dfrac{%d}{%dx+1}\\)" % (kk, kk), ["\\(y′=\\dfrac{1}{%dx+1}\\)" % kk, "\\(y′=\\dfrac{%d}{x}\\)" % kk, "\\(y′=%d\\ln(%dx+1)\\)" % (kk, kk)], '\\ln(%dx+1)' % kk
-    o2 = M4(2, 'The derivative of \\(y=%s\\) is…' % f, 'Đạo hàm của hàm số \\(y=%s\\) là…' % f, cor, wr, 'Chain rule, \\(u′=%d\\).' % kk, 'Hàm hợp với \\(u′=%d\\).' % kk)
+    o2 = M4(2, 'If \\(y=%s\\), then \\(y′\\) equals…' % f, 'Nếu \\(y=%s\\) thì \\(y′\\) bằng…' % f, cor, wr, 'Chain rule, \\(u′=%d\\).' % kk, 'Hàm hợp với \\(u′=%d\\).' % kk)
     bb, x0 = P['tan']; cs = [1, 0, bb, 0]; m = 3 * x0 * x0 + bb; y0 = x0 ** 3 + bb * x0; cc = y0 - m * x0
     L = lambda m_, c_: '\\(y=%s\\)' % P_([m_, c_])
     o3 = M4(3, 'The tangent to \\(y=%s\\) at the point with abscissa \\(%d\\) is…' % (P_(cs), x0), 'Tiếp tuyến của đồ thị \\(y=%s\\) tại điểm có hoành độ \\(%d\\) là…' % (P_(cs), x0), L(m, cc),
@@ -87,7 +87,9 @@ PP = [dict(quot=(2, 1, -1), chain=('sin', 3), tan=(-3, 2),
       dict(quot=(3, -2, -3), chain=('ln', 4), tan=(-2, -2),
            t4=(('\\((\\tan x)′=1+\\tan^2x\\) where \\(\\cos x\\ne0\\).', '\\((\\tan x)′=1+\\tan^2x\\) với \\(\\cos x\\ne0\\).'), True), t5=(('\\((\\sqrt{x^2+1})′=\\dfrac1{2\\sqrt{x^2+1}}\\).', '\\((\\sqrt{x^2+1})′=\\dfrac1{2\\sqrt{x^2+1}}\\).'), False), prod=(-4, 3, 1), pow=(3, 2))]
 practice = three(lvl, PP)
-practice = with_self(practice, S.M32S11, start=8)
+# Hiệu chỉnh 13/11/2026: phần D gồm 8 dạng khác nhau, không lặp "The derivative of …" (tools/sp_g11r.py)
+import sp_g11r as R
+practice = R.with_d(practice, R.D32, seeds=(3201, 3202, 3203))
 mistakes = [('<b>\\((uv)′=u′v′\\).</b> Wrong: use \\(u′v+uv′\\).', '<b>Viết \\((uv)′=u′v′\\).</b> Sai: phải là \\(u′v+uv′\\).'),
             ('<b>Forgetting \\(u′\\) in the chain rule.</b> \\((\\sin 3x)′=3\\cos 3x\\), not \\(\\cos 3x\\).', '<b>Quên nhân \\(u′\\) khi tính đạo hàm hàm hợp.</b> \\((\\sin 3x)′=3\\cos 3x\\), không phải \\(\\cos 3x\\).'),
             ('<b>Sign errors in the quotient rule.</b> The numerator is \\(u′v-uv′\\), in this order.', '<b>Sai dấu ở quy tắc thương.</b> Tử số là \\(u′v-uv′\\), đúng thứ tự.'),

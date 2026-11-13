@@ -1,0 +1,41 @@
+\documentclass[tikz,border=3pt]{standalone}
+\usetikzlibrary{arrows.meta}
+\begin{document}
+\definecolor{c_ax}{HTML}{475569}
+\definecolor{c_hl}{HTML}{C2410C}
+\definecolor{c2}{HTML}{1F2937}
+\definecolor{c3}{HTML}{64748B}
+\begin{tikzpicture}[x=0.8843cm,y=0.8843cm,line cap=round,line join=round]
+\draw[c2,line width=0.99pt] (-0.0662,3.5204) -- (-0.0918,-0.8030);
+\draw[c2,line width=0.99pt] (-0.0662,3.5204) -- (-2.6000,0.0000);
+\draw[c2,line width=0.99pt] (-2.6000,0.0000) -- (-0.0918,-0.8030);
+\draw[c2,line width=0.99pt] (-0.0662,3.5204) -- (3.5134,0.6424);
+\draw[c2,line width=0.79pt,dash pattern=on 3pt off 2pt] (-2.6000,0.0000) -- (3.5134,0.6424);
+\draw[c2,line width=0.99pt] (-0.0918,-0.8030) -- (3.5134,0.6424);
+\draw[c2,line width=0.99pt] (-0.6997,2.6403) -- (-0.0764,1.7911);
+\draw[c2,line width=0.99pt] (-0.0764,1.7911) -- (2.3202,1.6017);
+\draw[c2,line width=0.79pt,dash pattern=on 3pt off 2pt] (-0.6997,2.6403) -- (2.3202,1.6017);
+\draw[c3,line width=0.58pt,dash pattern=on 3pt off 2pt] (-0.0764,1.7911) -- (2.4165,-1.6059);
+\draw[c3,line width=0.58pt,dash pattern=on 3pt off 2pt] (-0.0918,-0.8030) -- (2.4165,-1.6059);
+\draw[c3,line width=0.58pt,dash pattern=on 3pt off 2pt] (2.3202,1.6017) -- (5.3160,1.3650);
+\draw[c3,line width=0.58pt,dash pattern=on 3pt off 2pt] (3.5134,0.6424) -- (5.3160,1.3650);
+\draw[c3,line width=0.58pt,dash pattern=on 3pt off 2pt] (2.3202,1.6017) -- (4.7361,0.7708);
+\draw[c3,line width=0.58pt,dash pattern=on 3pt off 2pt] (3.5134,0.6424) -- (4.7361,0.7708);
+\node[anchor=east,inner sep=2pt] at (-2.6000,0.0000) {$B$};
+\node[anchor=north,inner sep=2pt] at (-0.0918,-0.8030) {$C$};
+\node[anchor=north,inner sep=2pt] at (3.5134,0.6424) {$D$};
+\node[anchor=south east,inner sep=2pt] at (-0.0662,3.5204) {$A$};
+\fill (-0.6997,2.6403) circle[radius=1.3pt];
+\node[anchor=south east,inner sep=2pt] at (-0.6997,2.6403) {$M$};
+\fill (-0.0764,1.7911) circle[radius=1.3pt];
+\node[anchor=east,inner sep=2pt] at (-0.0764,1.7911) {$N$};
+\fill (2.3202,1.6017) circle[radius=1.3pt];
+\node[anchor=north,inner sep=2pt] at (2.3202,1.6017) {$P$};
+\fill (2.4165,-1.6059) circle[radius=1.3pt];
+\node[anchor=north,inner sep=2pt] at (2.4165,-1.6059) {$I$};
+\fill (5.3160,1.3650) circle[radius=1.3pt];
+\node[anchor=west,inner sep=2pt] at (5.3160,1.3650) {$J$};
+\fill (4.7361,0.7708) circle[radius=1.3pt];
+\node[anchor=west,inner sep=2pt] at (4.7361,0.7708) {$K$};
+\end{tikzpicture}
+\end{document}
