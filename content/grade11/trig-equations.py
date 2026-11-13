@@ -213,6 +213,8 @@ Q3 = [
   [SHORT(6, (r'Solve \(\tan x=1\). What is the smallest positive solution in degrees?', r'Giải \(\tan x=1\). Nghiệm dương nhỏ nhất theo độ là bao nhiêu?'), '45', 'number', ('Enter a number of degrees.', 'Nhập số đo theo độ.'), (r'Answer: 45. \(\tan 45^\circ=1\).', r'Đáp số: 45. \(\tan 45^\circ=1\).')),
    SHORT(7, (r'How many solutions does \(\cos x=1.2\) have in \([0;2\pi]\)?', r'Phương trình \(\cos x=1{,}2\) có bao nhiêu nghiệm trong \([0;2\pi]\)?'), '0', 'number', HN, (r'Answer: 0, because \(\cos x\le 1\).', r'Đáp số: 0, vì \(\cos x\le 1\).'))]]
 practice = LEVEL_PRACTICE([('A. Multiple Choice', 'A. Trắc nghiệm'), ('B. True or False', 'B. Đúng hoặc sai'), ('C. Short Answer', 'C. Trả lời ngắn')], {1: Q1, 2: Q2, 3: Q3})
+import sp_g11r as RR, sp_g11r2 as R2
+practice = RR.with_d(practice, R2.D4, seeds=(1041, 1042, 1043))
 
 mistakes = [
  (r'<b>Missing family.</b> For \(\sin x=\sin\alpha\) giving only \(x=\alpha+k2\pi\). The second family \(\pi-\alpha+k2\pi\) is also needed.', r'<b>Thiếu họ nghiệm.</b> Với \(\sin x=\sin\alpha\) chỉ viết \(x=\alpha+k2\pi\). Còn phải có họ \(\pi-\alpha+k2\pi\).'),
@@ -227,7 +229,7 @@ summary = [
  (r'\(\sin x=m\) and \(\cos x=m\) have no solution if \(|m|>1\); \(\tan x=m\) and \(\cot x=m\) have solutions for every \(m\).', r'\(\sin x=m\) và \(\cos x=m\) vô nghiệm nếu \(|m|>1\); \(\tan x=m\) và \(\cot x=m\) có nghiệm với mọi \(m\).'),
  ('To find solutions in an interval, solve in general first and then choose the integers k.', 'Để tìm nghiệm trong một khoảng, giải tổng quát trước rồi chọn các số nguyên k.'),
  ('Use the formulas of Lesson 2 to turn a sum into a product first; each factor gives a basic equation.', 'Dùng công thức ở Bài 2 để biến tổng thành tích; mỗi thừa số cho một phương trình cơ bản.'),
- ('Key English phrases: solve the equation; write the general solution; find the solutions in the interval; the equation has no solution.', 'Cụm tiếng Anh cần nhớ: solve the equation (giải phương trình); write the general solution (viết họ nghiệm); find the solutions in the interval (tìm nghiệm trong khoảng); the equation has no solution (phương trình vô nghiệm).'),
+ ('Key English phrases: solve the equation; write the general solution; find the solutions in the interval; the equation has no solution.', 'Cụm từ cần nhớ (chạm vào để xem tiếng Anh): <b class="mbl-term" tabindex="0" data-en="solve the equation">giải phương trình</b>; <b class="mbl-term" tabindex="0" data-en="write the general solution">viết họ nghiệm</b>; <b class="mbl-term" tabindex="0" data-en="find the solutions in the interval">tìm nghiệm trong khoảng</b>; <b class="mbl-term" tabindex="0" data-en="the equation has no solution">phương trình vô nghiệm</b>.'),
 ]
 checks = [
  ('I can say when sin x = m and cos x = m have no solution.', 'Tôi nói được khi nào sin x = m và cos x = m vô nghiệm.'),

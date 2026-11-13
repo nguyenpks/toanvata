@@ -255,3 +255,23 @@ Quyết định của giáo viên: tự luyện lớp 10–12 **giữ 3 mức đ
 Kiểm tra: bộ test "TẤT CẢ ĐẠT"; kiểm tra độc lập (đọc lại đề trên trang, tự tính bằng chương trình riêng) **192/192 câu mới đúng**, 33 câu A–C cũ kiểm tay đúng; độ thuần ngôn ngữ Mức 1 và Mức 3 = 0; số thập phân đúng dấu theo ngôn ngữ.
 
 Công cụ: `tools/sp_g11r.py` (ngân hàng mới, hàm `assemble`, `with_d`); `tools/mb_tikz3d.py` (nhãn điểm tránh mọi nét vẽ, kể cả nét không đi qua điểm đó, đường tròn, nhãn khác); `tools/freqtable.py` (thêm `lang='en'|'vi'`, mặc định giữ nguyên).
+
+## Kết quả hiệu chỉnh đợt 2 (13/11/2026) – Lớp 11, Bài 1–5, 8, 15, 16, 19
+
+Mọi bài nay có **15 câu/mức, 15 dạng khác nhau trong mỗi mức**; phần D gồm 8 dạng mới, không lặp dạng của A–C.
+
+| Bài | Trước | Thay đổi chính | Câu có hình/bảng (mỗi mức) |
+|---|---|---|---|
+| 1. Giá trị lượng giác của góc lượng giác | 7 câu, không có D | Thêm D: góc phần tư của số đo lớn, đọc số đo từ điểm \(M\) trên đường tròn (có hình chiếu), dấu giá trị lượng giác, kim đồng hồ, rút gọn bằng góc liên quan, \(\sin\alpha\cos\alpha\) từ tổng, số điểm biểu diễn, hai điểm đối xứng (có hình) | 2 |
+| 2. Công thức lượng giác | 7 câu | Thêm D: công thức cộng với bộ ba Pythagore, \(\tan(a\pm b)\), tích → tổng, tổng → tích, giá trị đúng của 15°/75°/105°/165°, rút gọn bằng công thức nhân đôi, đưa về \(R\sin(x+\varphi)\), bài tượng trên bệ (có hình) | 1 |
+| 3. Hàm số lượng giác | 7 câu; A3 trùng dạng C6 | A3 thay bằng nhận biết hàm chẵn/lẻ. Thêm D: khoảng đồng biến, chu kì, nhận dạng hàm, giao điểm hai đồ thị, độ sâu mực nước (đều đọc từ đồ thị), so sánh nhờ tính đơn điệu, vòng quay, phép tịnh tiến đồ thị | 5 |
+| 4. Phương trình lượng giác cơ bản | 7 câu | Thêm D: \(\sin/\cos(x+c)=\dots\), tổng nghiệm trên đoạn, \(\tan\) theo độ, điều kiện có nghiệm theo \(m\), nhận dạng phương trình từ điểm trên đường tròn, lò xo, \(\cot\), đọc nghiệm từ đồ thị | 2 |
+| 5. Dãy số | 7 câu | Thêm D: công thức từ đồ thị điểm, que diêm (có hình), tổng triệt tiêu, số hạng lớn/nhỏ nhất, đếm số hạng âm, ao cá (truy hồi), tham số để dãy tăng, số nào là số hạng | 2 |
+| 8. Mẫu số liệu ghép nhóm | Bảng lẫn hai thứ tiếng; bối cảnh "bóng đèn" 3 lần/mức | Viết lại toàn bộ 15 câu: đếm, nhóm có tần số lớn nhất, giá trị đại diện, đầu mút, tỉ lệ, tần số thiếu, phần trăm, số liệu thô, số nhóm cần, tần số tương đối thiếu, biểu đồ tần số (2 câu), lỗi ghép nhóm, gộp nhóm, so sánh hai lớp. Bảng/biểu đồ đúng ngôn ngữ của mức | 12–13 |
+| 15. Giới hạn của dãy số | D lặp 7/8 dạng của A–C | D mới: tổng \(1+2+\dots+n\), tìm tham số, tìm công bội, căn chia đa thức, giới hạn vô cực, đọc từ đồ thị điểm, kẹp \((\sin n)/n\), dãy truy hồi | 1 |
+| 16. Giới hạn của hàm số | D lặp 7/8 dạng | D mới: giới hạn một bên từ đồ thị có bước nhảy, từ đồ thị có tiệm cận, \(\sqrt{x^2+ax}-x\), \(x\to-\infty\) với căn, tìm \(a,b\), đa thức tại vô cực, bảng giá trị, \(|x-a|\) | 3 |
+| 19. Lôgarit | D lặp 5/8 dạng; đáp số "10000" | D mới: tích \(\log_ab\cdot\log_bc\), dấu của lôgarit, điều kiện xác định, số năm gửi tiết kiệm, dùng bảng lôgarit, \(a^{k\log_ab}\), số chữ số của \(a^n\), độ pH. Câu dB mức 3 đổi thành 20 dB/50 dB (đáp số 1000) | 1 |
+
+Kiểm tra: bộ test "TẤT CẢ ĐẠT"; kiểm tra độc lập `scripts/audit10.py` đọc đề, bảng **và tọa độ trong hình TikZ** rồi tự tính lại: **240/240 câu đúng**; Mức 3 không còn chữ Việt; số thập phân đúng dấu; mọi đáp số trả lời ngắn ≤ 4 kí tự.
+
+Công cụ: `tools/sp_g11r2.py` (ngân hàng đợt 2), `tools/fig2d.py` (hình 2D: đường tròn lượng giác, đồ thị, biểu đồ tần số; mọi nhãn chọn chỗ không bị nét vẽ đi qua).

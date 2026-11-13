@@ -1,0 +1,48 @@
+\documentclass[border=4pt]{standalone}
+\usepackage{fontspec}
+\usepackage{amsmath}
+\usepackage{unicode-math}
+\setmainfont{Latin Modern Roman}
+\setmathfont{Latin Modern Math}
+\usepackage{pgfplots}
+\usepackage{pgfplotstable}
+\pgfplotsset{compat=1.18}
+\usepackage{tkz-euclide}
+\usetikzlibrary{arrows.meta,calc,angles,quotes,patterns,3d,backgrounds}
+\definecolor{ink}{HTML}{123428}
+\definecolor{asy}{HTML}{475569}
+\definecolor{mint}{HTML}{86e0bd}
+\tikzset{asym/.style={asy, line width=0.9pt, dash pattern=on 5pt off 3.5pt},
+         guide/.style={gray!70, line width=0.6pt, densely dotted},
+         dot/.style={circle, inner sep=0pt, minimum size=5pt, draw=white, line width=0.5pt},
+         odot/.style={circle, inner sep=0pt, minimum size=5.5pt, fill=white, line width=1pt},
+         lab/.style={font=\footnotesize, inner sep=1.5pt, text=ink}}
+\begin{document}
+\begin{tikzpicture}
+\draw[ink!85, line width=0.7pt, -{Stealth[length=2.4mm]}] (0,0) -- (7.700,0);
+\draw[ink!85, line width=0.7pt, -{Stealth[length=2.4mm]}] (0,0) -- (0,4.600);
+\draw[draw={rgb,255:red,4;green,107;blue,77}, fill={rgb,255:red,134;green,224;blue,189}, line width=0.6pt] (0.000,0) rectangle (1.800,3.938);
+\node[font=\small, text=ink, above] at (0.900,3.938) {$15$};
+\draw[draw={rgb,255:red,4;green,107;blue,77}, fill={rgb,255:red,134;green,224;blue,189}, line width=0.6pt] (1.800,0) rectangle (3.600,1.575);
+\node[font=\small, text=ink, above] at (2.700,1.575) {$6$};
+\draw[draw={rgb,255:red,4;green,107;blue,77}, fill={rgb,255:red,134;green,224;blue,189}, line width=0.6pt] (3.600,0) rectangle (5.400,1.838);
+\node[font=\small, text=ink, above] at (4.500,1.838) {$7$};
+\draw[draw={rgb,255:red,4;green,107;blue,77}, fill={rgb,255:red,134;green,224;blue,189}, line width=0.6pt] (5.400,0) rectangle (7.200,2.100);
+\node[font=\small, text=ink, above] at (6.300,2.100) {$8$};
+\draw[ink!70] (0.000,0) -- (0.000,-0.08) node[below, font=\small, text=ink] {$50$};
+\draw[ink!70] (1.800,0) -- (1.800,-0.08) node[below, font=\small, text=ink] {$55$};
+\draw[ink!70] (3.600,0) -- (3.600,-0.08) node[below, font=\small, text=ink] {$60$};
+\draw[ink!70] (5.400,0) -- (5.400,-0.08) node[below, font=\small, text=ink] {$65$};
+\draw[ink!70] (7.200,0) -- (7.200,-0.08) node[below, font=\small, text=ink] {$70$};
+\draw[ink!70] (0,0.525) -- (-0.08,0.525) node[left, font=\small, text=ink] {$2$};
+\draw[ink!70] (0,1.050) -- (-0.08,1.050) node[left, font=\small, text=ink] {$4$};
+\draw[ink!70] (0,1.575) -- (-0.08,1.575) node[left, font=\small, text=ink] {$6$};
+\draw[ink!70] (0,2.100) -- (-0.08,2.100) node[left, font=\small, text=ink] {$8$};
+\draw[ink!70] (0,2.625) -- (-0.08,2.625) node[left, font=\small, text=ink] {$10$};
+\draw[ink!70] (0,3.150) -- (-0.08,3.150) node[left, font=\small, text=ink] {$12$};
+\draw[ink!70] (0,3.675) -- (-0.08,3.675) node[left, font=\small, text=ink] {$14$};
+\draw[ink!70] (0,4.200) -- (-0.08,4.200) node[left, font=\small, text=ink] {$16$};
+\node[font=\small, text=ink, anchor=north east] at (7.700,-0.55) {Khối lượng (g)};
+\node[font=\small, text=ink, anchor=south west] at (0.12,4.600) {Số quả trứng};
+\end{tikzpicture}
+\end{document}

@@ -209,7 +209,11 @@ S3 = [
    TF(5, (r'\(y=\cot x\) is decreasing on \((0;\pi)\).', r'\(y=\cot x\) nghịch biến trên \((0;\pi)\).'), 'true', (r'True. \(\cot x\) is decreasing on every interval \((k\pi;\pi+k\pi)\).', r'Đúng. \(\cot x\) nghịch biến trên mỗi khoảng \((k\pi;\pi+k\pi)\).'))],
   [SHORT(6, (r'Find the maximum value of \(y=5-2\cos x\).', r'Tìm giá trị lớn nhất của \(y=5-2\cos x\).'), '7', 'number', HNUM, (r'Answer: 7. The greatest value is at \(\cos x=-1\): \(5+2=7\).', r'Đáp số: 7. Giá trị lớn nhất đạt khi \(\cos x=-1\): \(5+2=7\).')),
    SHORT(7, (r'How many solutions does \(\cos x=1.2\) have in \([0;2\pi]\)?', r'Phương trình \(\cos x=1{,}2\) có bao nhiêu nghiệm trong \([0;2\pi]\)?'), '0', 'number', HN, (r'Answer: 0, because \(\cos x\le 1\).', r'Đáp số: 0, vì \(\cos x\le 1\).'))]]
+# Hiệu chỉnh 13/11/2026: câu A3 cũ (giá trị lớn nhất) trùng dạng với C6 → thay bằng câu nhận biết hàm số chẵn/lẻ.
+import sp_g11r as RR, sp_g11r2 as R2
+for _lv, _S in ((1, S1), (2, S2), (3, S3)): _S[0][2] = R2.mcq_one(R2.b3_odd, 3, 1030 + _lv, _lv)
 practice = LEVEL_PRACTICE([('A. Multiple Choice', 'A. Trắc nghiệm'), ('B. True or False', 'B. Đúng hoặc sai'), ('C. Short Answer', 'C. Trả lời ngắn')], {1: S1, 2: S2, 3: S3})
+practice = RR.with_d(practice, R2.D3, seeds=(1031, 1032, 1033))
 
 mistakes = [
  (r'<b>Periods.</b> Giving \(2\pi\) as the period of \(\tan x\). The period of \(\tan x\) is \(\pi\).', r'<b>Chu kì.</b> Cho rằng chu kì của \(\tan x\) là \(2\pi\). Chu kì của \(\tan x\) là \(\pi\).'),
@@ -223,7 +227,7 @@ summary = [
  (r'\(\tan x\): period \(\pi\), undefined at \(\dfrac{\pi}{2}+k\pi\); \(\cot x\): period \(\pi\), undefined at \(k\pi\); both have range \(\mathbb{R}\) and are odd.', r'\(\tan x\): chu kì \(\pi\), không xác định tại \(\dfrac{\pi}{2}+k\pi\); \(\cot x\): chu kì \(\pi\), không xác định tại \(k\pi\); cả hai có tập giá trị \(\mathbb{R}\) và là hàm số lẻ.'),
  (r'For \(y=a\sin(bx+c)+d\): amplitude \(|a|\), period \(\dfrac{2\pi}{|b|}\), maximum \(|a|+d\), minimum \(-|a|+d\).', r'Với \(y=a\sin(bx+c)+d\): biên độ \(|a|\), chu kì \(\dfrac{2\pi}{|b|}\), lớn nhất \(|a|+d\), nhỏ nhất \(-|a|+d\).'),
  ('Sine increases on (−π/2; π/2) and decreases on (π/2; 3π/2); cosine decreases on (0; π) and increases on (π; 2π); tan increases and cot decreases on every interval of their domain.', 'sin đồng biến trên (−π/2; π/2), nghịch biến trên (π/2; 3π/2); cos nghịch biến trên (0; π), đồng biến trên (π; 2π); tan đồng biến, cot nghịch biến trên từng khoảng thuộc tập xác định.'),
- ('Key English phrases: find the period; state the domain and range; find the maximum value; on which intervals is the function increasing.', 'Cụm tiếng Anh cần nhớ: find the period (tìm chu kì); state the domain and range (nêu tập xác định và tập giá trị); find the maximum value (tìm giá trị lớn nhất); on which intervals is the function increasing (đồng biến trên những khoảng nào).'),
+ ('Key English phrases: find the period; state the domain and range; find the maximum value; on which intervals is the function increasing.', 'Cụm từ cần nhớ (chạm vào để xem tiếng Anh): <b class="mbl-term" tabindex="0" data-en="find the period">tìm chu kì</b>; <b class="mbl-term" tabindex="0" data-en="state the domain and range">nêu tập xác định và tập giá trị</b>; <b class="mbl-term" tabindex="0" data-en="find the maximum value">tìm giá trị lớn nhất</b>; <b class="mbl-term" tabindex="0" data-en="on which intervals is the function increasing">đồng biến trên những khoảng nào</b>.'),
 ]
 checks = [
  ('I can state the domain, range, period and parity of sine, cosine, tangent and cotangent.', 'Tôi nêu được tập xác định, tập giá trị, chu kì và tính chẵn lẻ của sin, cos, tan, cot.'),

@@ -197,6 +197,8 @@ S3 = [
   [SHORT(6, (r'On a circle of radius 2.5 cm, a central angle is 4 rad. Find the arc length in cm.', r'Trên đường tròn bán kính 2,5 cm, góc ở tâm là 4 rad. Tính độ dài cung (cm).'), '10', 'number', ('Enter a number.', 'Nhập một số.'), (r'Answer: 10. \(\ell=2.5\cdot 4=10\).', r'Đáp số: 10. \(\ell=2{,}5\cdot 4=10\).')),
    SHORT(7, (r'Given \(\cos\alpha=-0.6\) and \(\pi\lt\alpha\lt\dfrac{3\pi}{2}\). Find \(\sin\alpha\).', r'Cho \(\cos\alpha=-0{,}6\) và \(\pi\lt\alpha\lt\dfrac{3\pi}{2}\). Tính \(\sin\alpha\).'), '-0.8|-4/5', 'number', ('Enter a number.', 'Nhập một số.'), (r'Answer: \(-0.8\). \(\sin^2\alpha=0.64\) and sine is negative in quadrant III.', r'Đáp số: \(-0{,}8\). \(\sin^2\alpha=0{,}64\) và sin âm ở góc phần tư III.'))]]
 practice = LEVEL_PRACTICE([('A. Multiple Choice', 'A. Trắc nghiệm'), ('B. True or False', 'B. Đúng hoặc sai'), ('C. Short Answer', 'C. Trả lời ngắn')], {1: S1, 2: S2, 3: S3})
+import sp_g11r as RR, sp_g11r2 as R2
+practice = RR.with_d(practice, R2.D1, seeds=(1011, 1012, 1013))
 
 mistakes = [
  (r'<b>Math knowledge.</b> Using \(\pi=180\) instead of \(\pi\) rad \(=180^\circ\). Check: \(\dfrac{\pi}{2}\) rad is \(90^\circ\).', r'<b>Kiến thức Toán.</b> Viết \(\pi=180\) thay vì \(\pi\) rad \(=180^\circ\). Kiểm tra: \(\dfrac{\pi}{2}\) rad là \(90^\circ\).'),
@@ -211,7 +213,7 @@ summary = [
  (r'On the trigonometric circle, \(P(\cos\alpha;\sin\alpha)\), \(\tan\alpha=\dfrac{\sin\alpha}{\cos\alpha}\), \(\cot\alpha=\dfrac{\cos\alpha}{\sin\alpha}\).', r'Trên đường tròn lượng giác, \(P(\cos\alpha;\sin\alpha)\), \(\tan\alpha=\dfrac{\sin\alpha}{\cos\alpha}\), \(\cot\alpha=\dfrac{\cos\alpha}{\sin\alpha}\).'),
  (r'Signs: sin is positive in quadrants I, II; cos in I, IV; tan and cot in I, III.', r'Dấu: sin dương ở góc phần tư I, II; cos dương ở I, IV; tan và cot dương ở I, III.'),
  (r'\(\sin^2\alpha+\cos^2\alpha=1\), \(1+\tan^2\alpha=\dfrac{1}{\cos^2\alpha}\), \(1+\cot^2\alpha=\dfrac{1}{\sin^2\alpha}\).', r'\(\sin^2\alpha+\cos^2\alpha=1\), \(1+\tan^2\alpha=\dfrac{1}{\cos^2\alpha}\), \(1+\cot^2\alpha=\dfrac{1}{\sin^2\alpha}\).'),
- ('Key English phrases: convert to radians; find the arc length; find the exact value; in which quadrant.', 'Cụm tiếng Anh cần nhớ: convert to radians (đổi sang radian); find the arc length (tìm độ dài cung); find the exact value (tìm giá trị chính xác); in which quadrant (ở góc phần tư nào).'),
+ ('Key English phrases: convert to radians; find the arc length; find the exact value; in which quadrant.', 'Cụm từ cần nhớ (chạm vào để xem tiếng Anh): <b class="mbl-term" tabindex="0" data-en="convert to radians">đổi sang radian</b>; <b class="mbl-term" tabindex="0" data-en="find the arc length">tìm độ dài cung</b>; <b class="mbl-term" tabindex="0" data-en="find the exact value">tìm giá trị chính xác</b>; <b class="mbl-term" tabindex="0" data-en="in which quadrant">ở góc phần tư nào</b>.'),
 ]
 checks = [
  ('I can find all measures of an oriented angle.', 'Tôi tìm được mọi số đo của một góc lượng giác.'),

@@ -192,6 +192,8 @@ Q3 = [
   [SHORT(6, ('Fibonacci: \\(u_1=u_2=1,\\ u_{n+2}=u_{n+1}+u_n\\). Find \\(u_7\\).', 'Dãy Fibonacci: \\(u_1=u_2=1,\\ u_{n+2}=u_{n+1}+u_n\\). Tìm \\(u_7\\).'), '13', 'number', HN, ('Answer: 13: \\(1,1,2,3,5,8,13\\).', 'Đáp số: 13: \\(1,1,2,3,5,8,13\\).')),
    SHORT(7, ('For \\(u_n=n^2-1\\), which positive n gives \\(u_n=80\\)?', 'Với \\(u_n=n^2-1\\), số nguyên dương n nào cho \\(u_n=80\\)?'), '9', 'number', HN, ('Answer: 9: \\(n^2=81\\).', 'Đáp số: 9: \\(n^2=81\\).'))]]
 practice = LEVEL_PRACTICE([('A. Multiple Choice', 'A. Trắc nghiệm'), ('B. True or False', 'B. Đúng hoặc sai'), ('C. Short Answer', 'C. Trả lời ngắn')], {1: Q1, 2: Q2, 3: Q3})
+import sp_g11r as RR, sp_g11r2 as R2
+practice = RR.with_d(practice, R2.D5, seeds=(1051, 1052, 1053))
 
 mistakes = [
  ('<b>Index shift.</b> Taking \\(u_0\\) as the first term. Here the first term is \\(u_1\\).', '<b>Lệch chỉ số.</b> Coi \\(u_0\\) là số hạng đầu. Ở đây số hạng đầu là \\(u_1\\).'),
@@ -204,7 +206,7 @@ summary = [
  ('A sequence is a function on the positive integers; it is given by a formula, a description or a recursive formula.', 'Dãy số là hàm số trên tập các số nguyên dương; cho bằng công thức, bằng mô tả hoặc bằng công thức truy hồi.'),
  ('Increasing: \\(u_{n+1}>u_n\\) for all n; decreasing: \\(u_{n+1}<u_n\\) for all n. Study the sign of \\(u_{n+1}-u_n\\).', 'Tăng: \\(u_{n+1}>u_n\\) với mọi n; giảm: \\(u_{n+1}<u_n\\) với mọi n. Xét dấu \\(u_{n+1}-u_n\\).'),
  ('Bounded above: \\(u_n\\le M\\); bounded below: \\(u_n\\ge m\\); bounded: both.', 'Bị chặn trên: \\(u_n\\le M\\); bị chặn dưới: \\(u_n\\ge m\\); bị chặn: cả hai.'),
- ('Key English phrases: find the first five terms; find the general term; is the sequence increasing or decreasing; is the sequence bounded.', 'Cụm tiếng Anh cần nhớ: find the first five terms (tìm năm số hạng đầu); find the general term (tìm số hạng tổng quát); increasing or decreasing (tăng hay giảm); bounded (bị chặn).'),
+ ('Key English phrases: find the first five terms; find the general term; is the sequence increasing or decreasing; is the sequence bounded.', 'Cụm từ cần nhớ (chạm vào để xem tiếng Anh): <b class="mbl-term" tabindex="0" data-en="find the first five terms">tìm năm số hạng đầu</b>; <b class="mbl-term" tabindex="0" data-en="find the general term">tìm số hạng tổng quát</b>; <b class="mbl-term" tabindex="0" data-en="increasing or decreasing">tăng hay giảm</b>; <b class="mbl-term" tabindex="0" data-en="bounded">bị chặn</b>.'),
 ]
 checks = [
  ('I can find terms of a sequence from a formula or a recursive formula.', 'Tôi tìm được số hạng của dãy từ công thức hoặc công thức truy hồi.'),

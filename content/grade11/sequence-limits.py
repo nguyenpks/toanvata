@@ -20,7 +20,7 @@ goals = [('understand the limit of a sequence and the basic limits;', 'hiểu kh
          ('recognise infinite limits.', 'nhận biết [[giới hạn vô cực]].')]
 phrases = [('<b>Find the limit of the sequence.</b>', 'Tìm giới hạn của dãy số.'), ('<b>Divide the numerator and the denominator by \\(n^2\\).</b>', 'Chia cả tử và mẫu cho \\(n^2\\).'), ('<b>The sequence tends to zero.</b>', 'Dãy số dần tới 0.'),
            ('<b>Find the sum of the infinite geometric series.</b>', 'Tính tổng của cấp số nhân lùi vô hạn.'), ('<b>The limit is plus infinity.</b>', 'Giới hạn bằng dương vô cực.')]
-review = T('From Bài 5–7: a sequence \\((u_n)\\); a geometric progression \\(u_n=u_1q^{n-1}\\) has \\(S_n=u_1\\dfrac{1-q^n}{1-q}\\) (\\(q\\ne1\\)). Also \\(\\left|q^n\\right|=|q|^n\\) becomes very small when \\(|q|\\lt1\\).', 'Từ Bài 5–7: dãy số \\((u_n)\\); cấp số nhân \\(u_n=u_1q^{n-1}\\) có \\(S_n=u_1\\dfrac{1-q^n}{1-q}\\) (\\(q\\ne1\\)). Khi \\(|q|\\lt1\\) thì \\(|q^n|=|q|^n\\) rất nhỏ khi \\(n\\) lớn.')
+review = T('From Lessons 5–7: a sequence \\((u_n)\\); a geometric progression \\(u_n=u_1q^{n-1}\\) has \\(S_n=u_1\\dfrac{1-q^n}{1-q}\\) (\\(q\\ne1\\)). Also \\(\\left|q^n\\right|=|q|^n\\) becomes very small when \\(|q|\\lt1\\).', 'Từ Bài 5–7: dãy số \\((u_n)\\); cấp số nhân \\(u_n=u_1q^{n-1}\\) có \\(S_n=u_1\\dfrac{1-q^n}{1-q}\\) (\\(q\\ne1\\)). Khi \\(|q|\\lt1\\) thì \\(|q^n|=|q|^n\\) rất nhỏ khi \\(n\\) lớn.')
 pts = [{'x': n, 'y': round(1 + (-1) ** n / n, 4)} for n in range(1, 13)]
 theory = '<h3>15.1 %s</h3>' % TI('Finite limits', 'Giới hạn hữu hạn của dãy số')
 theory += BOX('blue', ('Definition', 'Định nghĩa'), UL([T('\\(\\lim u_n=0\\) if \\(|u_n|\\) can be made smaller than any positive number, for all \\(n\\) large enough.', '\\(\\lim\\limits_{n\\to+\\infty}u_n=0\\) nếu \\(|u_n|\\) có thể nhỏ hơn một số dương bé tùy ý, kể từ một số hạng nào đó trở đi.'),
@@ -85,7 +85,9 @@ PP = [dict(rat=([3, -1, 2], [6, 0, 5]), geo=(F(16), F(1, 2)), sq=6, t4=0, dec=(5
       dict(rat=([4, 1], [2, -3, 1]), geo=(F(9), F(1, 3)), sq=10, t4=1, dec=(36, 2, False), ball=(3, F(2, 3)), exp=(3, 2, 1, 4)),
       dict(rat=([-5, 2, 0], [10, 1, -7]), geo=(F(25), F(4, 5)), sq=8, t4=2, dec=(12, 2, True), ball=(4, F(3, 5)), exp=(1, 5, 1, 2))]
 practice = three(lvl, PP)
-practice = with_self(practice, S.M15S11, start=8)
+import sp_g11r as RR, sp_g11r2 as R2
+# Hiệu chỉnh 13/11/2026: phần D cũ lặp lại các dạng của A–C → 8 dạng mới.
+practice = RR.with_d(practice, R2.D15, seeds=(1151, 1152, 1153))
 mistakes = [('<b>"\\(\\infty-\\infty=0\\)".</b> \\(\\sqrt{n^2+4n}-n\\to2\\): transform before taking the limit.', '<b>"\\(\\infty-\\infty=0\\)".</b> \\(\\sqrt{n^2+4n}-n\\to2\\): phải biến đổi trước khi lấy giới hạn.'),
             ('<b>Dividing by the wrong power.</b> Divide by the highest power of \\(n\\) in the <b>denominator</b>.', '<b>Chia sai lũy thừa.</b> Chia cho lũy thừa bậc cao nhất của \\(n\\) ở <b>mẫu</b>.'),
             ('<b>Using \\(S=\\dfrac{u_1}{1-q}\\) when \\(|q|\\ge1\\).</b> The formula needs \\(|q|\\lt1\\).', '<b>Dùng \\(S=\\dfrac{u_1}{1-q}\\) khi \\(|q|\\ge1\\).</b> Công thức chỉ đúng khi \\(|q|\\lt1\\).'),
@@ -93,7 +95,7 @@ mistakes = [('<b>"\\(\\infty-\\infty=0\\)".</b> \\(\\sqrt{n^2+4n}-n\\to2\\): tra
 summary = [('\\(\\lim\\frac1{n^k}=0\\), \\(\\lim q^n=0\\) (\\(|q|\\lt1\\)), \\(\\lim c=c\\); limits respect \\(+,-,\\times,:\\) and \\(\\sqrt{\\ }\\).', '\\(\\lim\\frac1{n^k}=0\\), \\(\\lim q^n=0\\) (\\(|q|\\lt1\\)), \\(\\lim c=c\\); giới hạn tương thích với \\(+,-,\\times,:\\) và \\(\\sqrt{\\ }\\).'),
            ('Rational in \\(n\\): divide by the highest power of the denominator.', 'Phân thức theo \\(n\\): chia cho lũy thừa cao nhất của mẫu.'),
            ('\\(S=\\dfrac{u_1}{1-q}\\) for \\(|q|\\lt1\\).', '\\(S=\\dfrac{u_1}{1-q}\\) với \\(|q|\\lt1\\).'),
-           ('\\(\\lim n^k=+\\infty\\), \\(\\lim q^n=+\\infty\\) (\\(q\\gt1\\)). Key words: limit, converge, infinity.', '\\(\\lim n^k=+\\infty\\), \\(\\lim q^n=+\\infty\\) (\\(q\\gt1\\)). Từ cần nhớ: limit, converge, infinity.')]
+           ('\\(\\lim n^k=+\\infty\\), \\(\\lim q^n=+\\infty\\) (\\(q\\gt1\\)). Key words: limit, converge, infinity.', '\\(\\lim n^k=+\\infty\\), \\(\\lim q^n=+\\infty\\) (\\(q\\gt1\\)). Từ cần nhớ (chạm vào để xem tiếng Anh): <b class="mbl-term" tabindex="0" data-en="limit">giới hạn</b>, <b class="mbl-term" tabindex="0" data-en="converge">hội tụ</b>, <b class="mbl-term" tabindex="0" data-en="infinity">vô cực</b>.')]
 checks = [('I know the basic limits of sequences.', 'Em nhớ các giới hạn cơ bản của dãy số.'), ('I can compute limits of rational expressions in \\(n\\).', 'Em tính được giới hạn của phân thức theo \\(n\\).'),
           ('I can sum an infinite geometric series.', 'Em tính được tổng cấp số nhân lùi vô hạn.'), ('I can recognise an infinite limit.', 'Em nhận biết được giới hạn vô cực.')]
 LL('g11-limits-03', 'Limits of Sequences', CV, ('Limits and Continuity', 'Giới hạn. Hàm số liên tục'), 'limits', 'sequence-limits', 160, 'Intermediate', 70, ('sequences, geometric progressions', 'dãy số, cấp số nhân'),

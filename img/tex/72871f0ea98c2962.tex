@@ -1,0 +1,47 @@
+\documentclass[border=4pt]{standalone}
+\usepackage{fontspec}
+\usepackage{amsmath}
+\usepackage{unicode-math}
+\setmainfont{Latin Modern Roman}
+\setmathfont{Latin Modern Math}
+\usepackage{pgfplots}
+\usepackage{pgfplotstable}
+\pgfplotsset{compat=1.18}
+\usepackage{tkz-euclide}
+\usetikzlibrary{arrows.meta,calc,angles,quotes,patterns,3d,backgrounds}
+\definecolor{ink}{HTML}{123428}
+\definecolor{asy}{HTML}{475569}
+\definecolor{mint}{HTML}{86e0bd}
+\tikzset{asym/.style={asy, line width=0.9pt, dash pattern=on 5pt off 3.5pt},
+         guide/.style={gray!70, line width=0.6pt, densely dotted},
+         dot/.style={circle, inner sep=0pt, minimum size=5pt, draw=white, line width=0.5pt},
+         odot/.style={circle, inner sep=0pt, minimum size=5.5pt, fill=white, line width=1pt},
+         lab/.style={font=\footnotesize, inner sep=1.5pt, text=ink}}
+\begin{document}
+\begin{tikzpicture}
+\draw[color={rgb,255:red,194;green,65;blue,12}, line width=1.6pt] (0.000,0.000) -- (0.750,0.000);
+\draw[color={rgb,255:red,194;green,65;blue,12}, line width=1.6pt] (0.000,0.750) -- (0.750,0.750);
+\draw[color={rgb,255:red,194;green,65;blue,12}, line width=1.6pt] (0.000,0.000) -- (0.000,0.750);
+\draw[color={rgb,255:red,194;green,65;blue,12}, line width=1.6pt] (0.750,0.000) -- (0.750,0.750);
+\node[font=\small, text=ink] at (0.375,-0.45) {$n=1$};
+\draw[color={rgb,255:red,194;green,65;blue,12}, line width=1.6pt] (1.750,0.000) -- (2.500,0.000);
+\draw[color={rgb,255:red,194;green,65;blue,12}, line width=1.6pt] (1.750,0.750) -- (2.500,0.750);
+\draw[color={rgb,255:red,194;green,65;blue,12}, line width=1.6pt] (1.750,0.000) -- (1.750,0.750);
+\draw[color={rgb,255:red,194;green,65;blue,12}, line width=1.6pt] (2.500,0.000) -- (3.250,0.000);
+\draw[color={rgb,255:red,194;green,65;blue,12}, line width=1.6pt] (2.500,0.750) -- (3.250,0.750);
+\draw[color={rgb,255:red,194;green,65;blue,12}, line width=1.6pt] (2.500,0.000) -- (2.500,0.750);
+\draw[color={rgb,255:red,194;green,65;blue,12}, line width=1.6pt] (3.250,0.000) -- (3.250,0.750);
+\node[font=\small, text=ink] at (2.500,-0.45) {$n=2$};
+\draw[color={rgb,255:red,194;green,65;blue,12}, line width=1.6pt] (4.250,0.000) -- (5.000,0.000);
+\draw[color={rgb,255:red,194;green,65;blue,12}, line width=1.6pt] (4.250,0.750) -- (5.000,0.750);
+\draw[color={rgb,255:red,194;green,65;blue,12}, line width=1.6pt] (4.250,0.000) -- (4.250,0.750);
+\draw[color={rgb,255:red,194;green,65;blue,12}, line width=1.6pt] (5.000,0.000) -- (5.750,0.000);
+\draw[color={rgb,255:red,194;green,65;blue,12}, line width=1.6pt] (5.000,0.750) -- (5.750,0.750);
+\draw[color={rgb,255:red,194;green,65;blue,12}, line width=1.6pt] (5.000,0.000) -- (5.000,0.750);
+\draw[color={rgb,255:red,194;green,65;blue,12}, line width=1.6pt] (5.750,0.000) -- (6.500,0.000);
+\draw[color={rgb,255:red,194;green,65;blue,12}, line width=1.6pt] (5.750,0.750) -- (6.500,0.750);
+\draw[color={rgb,255:red,194;green,65;blue,12}, line width=1.6pt] (5.750,0.000) -- (5.750,0.750);
+\draw[color={rgb,255:red,194;green,65;blue,12}, line width=1.6pt] (6.500,0.000) -- (6.500,0.750);
+\node[font=\small, text=ink] at (5.375,-0.45) {$n=3$};
+\end{tikzpicture}
+\end{document}

@@ -27,7 +27,7 @@ theory += BOX('blue', ('Definition', 'Định nghĩa'), T('When there are many d
 theory += '<h3>5.2 %s</h3>' % TI('Frequency tables', 'Bảng tần số, tần suất và tần số tích lũy')
 theory += BOX('mint', ('Formulas', 'Công thức'), M('f_i=\\dfrac{n_i}{n}\\cdot100\\%'), T('The <b>cumulative frequency</b> of a group is \\(n_1+\\dots+n_i\\): the number of values smaller than the right end of the group.', '[[Tần số tích lũy]] của một nhóm là \\(n_1+\\dots+n_i\\): số giá trị nhỏ hơn đầu mút phải của nhóm đó.'))
 from freqtable import FREQ
-theory += FREQ([0, 10, 20, 30, 40], [4, 12, 40, 24], rows=('group', 'mid', 'freq', 'rel', 'cum'))
+theory += T(FREQ([0, 10, 20, 30, 40], [4, 12, 40, 24], rows=('group', 'mid', 'freq', 'rel', 'cum'), lang='en'), FREQ([0, 10, 20, 30, 40], [4, 12, 40, 24], rows=('group', 'mid', 'freq', 'rel', 'cum'), lang='vi'))
 theory += '<h3>5.3 %s</h3>' % TI('Midpoints and histograms', 'Giá trị đại diện và biểu đồ cột')
 theory += BOX('blue', ('Midpoint', 'Giá trị đại diện'), T('The <b>midpoint</b> of \\([a;b)\\) is \\(x=\\dfrac{a+b}{2}\\). It stands for all values in the group when we need one number. In a <b>histogram</b>, the height of each bar is the frequency (or relative frequency) of its group.', '[[Giá trị đại diện]] của nhóm \\([a;b)\\) là \\(x=\\dfrac{a+b}{2}\\); dùng khi cần một số thay cho cả nhóm. Trong [[biểu đồ cột (biểu đồ tần số)]], chiều cao mỗi cột là tần số (hoặc tần suất) của nhóm.'))
 theory += BOX('yellow', ('Watch out!', 'Lưu ý'), T('Groups must not overlap and must cover all the data. The relative frequencies add up to \\(100\\%\\).', 'Các nhóm không được chồng lên nhau và phải phủ hết số liệu. Các tần suất cộng lại bằng \\(100\\%\\).'))
@@ -45,12 +45,9 @@ assert 4 + 12 + 16 + 8 == 40 and (16 + 8) / 40 == .6
 def tab(edges, fs):
     from freqtable import FREQ
     return FREQ(edges, fs)
-import gq, gq_build
-from gq import *
-PLAN = [(11, [q_count_lt, q_modal_group, q_raw2tab], [tf_edge, tf_count], [sh_pct, sh_missing]), (12, [q_pct_lt, q_valid_grouping, q_missing], [tf_pct, tf_edge], [sh_count_ge, sh_count_lt]), (13, [q_count_ge, q_mid, q_raw2tab], [tf_count, tf_pct], [sh_pct, sh_count_ge])]
-practice = gq_build.make_levels(PLAN)
-SELFQ = [q_count_lt, q_count_ge, q_pct_lt, q_modal_group, q_mid, q_missing, q_raw2tab, q_valid_grouping]
-practice = with_self(practice, SELFQ, start=8)
+# Hiệu chỉnh 13/11/2026: viết lại toàn bộ bài tập – mỗi mức 15 câu thuộc 15 dạng khác nhau, bảng số liệu đúng ngôn ngữ của mức.
+import sp_g11r as RR, sp_g11r2 as R2
+practice = RR.assemble(R2.A8, R2.B8, R2.C8, R2.D8, seeds=(801, 802, 803), ctx_factory=RR.stats_ctx)
 mistakes = [('<b>Putting a value in the wrong group.</b> A value equal to the right end belongs to the next group.', '<b>Xếp sai nhóm.</b> Giá trị bằng đầu mút phải thuộc nhóm kế tiếp.'), ('<b>Mixing frequency and relative frequency.</b> Relative frequency is a percentage of the total.', '<b>Nhầm tần số với tần suất.</b> Tần suất là phần trăm so với tổng.'), ('<b>Cumulative frequency of the wrong group.</b> “Less than 15” means all groups before 15.', '<b>Sai tần số tích lũy.</b> “Nhỏ hơn 15” nghĩa là cộng mọi nhóm đứng trước 15.'), ('<b>Using an end value as the midpoint.</b> The midpoint is \\(\\dfrac{a+b}{2}\\).', '<b>Dùng đầu mút làm giá trị đại diện.</b> Giá trị đại diện là \\(\\dfrac{a+b}{2}\\).'), ('<b>Groups of different widths.</b> Keep equal widths when drawing a histogram.', '<b>Các nhóm có độ rộng khác nhau.</b> Khi vẽ biểu đồ cột nên giữ độ rộng bằng nhau.')]
 summary = [('Grouped data: groups \\([a;b)\\), frequency \\(n_i\\), sample size \\(n\\).', 'Số liệu ghép nhóm: nhóm \\([a;b)\\), tần số \\(n_i\\), cỡ mẫu \\(n\\).'), ('Relative frequency \\(f_i=\\dfrac{n_i}{n}\\cdot100\\%\\); cumulative frequency adds up.', 'Tần suất \\(f_i=\\dfrac{n_i}{n}\\cdot100\\%\\); tần số tích lũy là cộng dồn.'), ('Midpoint \\(x_i=\\dfrac{a+b}{2}\\).', 'Giá trị đại diện \\(x_i=\\dfrac{a+b}{2}\\).'), ('Key English words: grouped data, frequency, relative frequency, histogram.', 'Từ tiếng Anh cần nhớ: grouped data, frequency, relative frequency, histogram.')]
 checks = [('I can make a frequency table from data.', 'Tôi lập được bảng tần số từ số liệu.'), ('I can find relative and cumulative frequencies.', 'Tôi tìm được tần suất và tần số tích lũy.'), ('I can find the midpoint of a group.', 'Tôi tìm được giá trị đại diện của nhóm.'), ('I can describe data in a simple English sentence.', 'Tôi nhận xét được số liệu bằng một câu tiếng Anh đơn giản.'), STD_SUMMARY_CHECK_EN()]

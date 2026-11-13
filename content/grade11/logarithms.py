@@ -10,7 +10,7 @@ CV = 'Lôgarit'
 vocab = defs(CV, [
  ('logar', 'logarithm', 'lôgarit', 'for \\(a\\gt0\\), \\(a\\ne1\\), \\(b\\gt0\\): \\(\\log_a b=\\alpha\\iff a^{\\alpha}=b\\).', 'với \\(a\\gt0\\), \\(a\\ne1\\), \\(b\\gt0\\): \\(\\log_a b=\\alpha\\iff a^{\\alpha}=b\\).', 'The logarithm of eight to base two is three.', '\\(\\log_a b\\)'),
  ('lg10', 'common logarithm', 'lôgarit thập phân', 'the logarithm to base 10, written \\(\\log b\\) (or \\(\\lg b\\)).', 'lôgarit cơ số 10, kí hiệu \\(\\log b\\) (hoặc \\(\\lg b\\)).', 'log 1000 = 3.', '\\(\\log\\)'),
- ('lnat', 'natural logarithm', 'lôgarit tự nhiên', 'the logarithm to base \\(e\\approx2{,}718\\), written \\(\\ln b\\).', 'lôgarit cơ số \\(e\\approx2{,}718\\), kí hiệu \\(\\ln b\\).', 'ln e = 1.', '\\(\\ln\\)'),
+ ('lnat', 'natural logarithm', 'lôgarit tự nhiên', 'the logarithm to base \\(e\\approx2.718\\), written \\(\\ln b\\).', 'lôgarit cơ số \\(e\\approx2{,}718\\), kí hiệu \\(\\ln b\\).', 'ln e = 1.', '\\(\\ln\\)'),
  ('chbase', 'change of base formula', 'công thức đổi cơ số', '\\(\\log_a b=\\dfrac{\\log_c b}{\\log_c a}\\).', '\\(\\log_a b=\\dfrac{\\log_c b}{\\log_c a}\\).', 'Use the change of base formula.', '')])
 goals = [('state the definition of the logarithm and its basic properties;', 'phát biểu định nghĩa [[lôgarit]] và các tính chất cơ bản;'),
          ('compute logarithms and use the product, quotient and power rules;', 'tính lôgarit và dùng quy tắc tích, thương, lũy thừa;'),
@@ -18,10 +18,10 @@ goals = [('state the definition of the logarithm and its basic properties;', 'ph
          ('apply logarithms to scales (pH, decibel, Richter).', 'vận dụng lôgarit vào các thang đo (pH, đêxiben, Richter).')]
 phrases = [('<b>The logarithm of eight to base two is three.</b>', '\\(\\log_2 8=3\\).'), ('<b>Two to the power three equals eight.</b>', '\\(2^3=8\\).'), ('<b>The log of a product is the sum of the logs.</b>', 'Lôgarit của một tích bằng tổng các lôgarit.'),
            ('<b>Change to base ten.</b>', 'Đổi sang cơ số 10.'), ('<b>An increase of one unit means ten times stronger.</b>', 'Tăng 1 đơn vị nghĩa là mạnh gấp 10 lần.')]
-review = T('From Bài 18: \\(a^{\\alpha}a^{\\beta}=a^{\\alpha+\\beta}\\), \\(\\dfrac{a^{\\alpha}}{a^{\\beta}}=a^{\\alpha-\\beta}\\), \\((a^{\\alpha})^{\\beta}=a^{\\alpha\\beta}\\), \\(a^{\\frac mn}=\\sqrt[n]{a^m}\\) (\\(a\\gt0\\)). The logarithm answers the question "to which power must I raise \\(a\\) to get \\(b\\)?".',
+review = T('From Lesson 18: \\(a^{\\alpha}a^{\\beta}=a^{\\alpha+\\beta}\\), \\(\\dfrac{a^{\\alpha}}{a^{\\beta}}=a^{\\alpha-\\beta}\\), \\((a^{\\alpha})^{\\beta}=a^{\\alpha\\beta}\\), \\(a^{\\frac mn}=\\sqrt[n]{a^m}\\) (\\(a\\gt0\\)). The logarithm answers the question "to which power must I raise \\(a\\) to get \\(b\\)?".',
            'Từ Bài 18: \\(a^{\\alpha}a^{\\beta}=a^{\\alpha+\\beta}\\), \\(\\dfrac{a^{\\alpha}}{a^{\\beta}}=a^{\\alpha-\\beta}\\), \\((a^{\\alpha})^{\\beta}=a^{\\alpha\\beta}\\), \\(a^{\\frac mn}=\\sqrt[n]{a^m}\\) (\\(a\\gt0\\)). Lôgarit trả lời câu hỏi "phải nâng \\(a\\) lên lũy thừa bao nhiêu để được \\(b\\)?".')
 theory = '<h3>19.1 %s</h3>' % TI('The logarithm', 'Khái niệm lôgarit')
-theory += BOX('blue', ('Definition', 'Định nghĩa'), T('Let \\(a\\gt0\\), \\(a\\ne1\\), \\(b\\gt0\\). The number \\(\\alpha\\) with \\(a^{\\alpha}=b\\) is the logarithm of \\(b\\) to base \\(a\\): \\[\\log_a b=\\alpha\\iff a^{\\alpha}=b.\\] Base 10: \\(\\log b\\) (common logarithm); base \\(e\\approx2{,}718\\): \\(\\ln b\\) (natural logarithm).',
+theory += BOX('blue', ('Definition', 'Định nghĩa'), T('Let \\(a\\gt0\\), \\(a\\ne1\\), \\(b\\gt0\\). The number \\(\\alpha\\) with \\(a^{\\alpha}=b\\) is the logarithm of \\(b\\) to base \\(a\\): \\[\\log_a b=\\alpha\\iff a^{\\alpha}=b.\\] Base 10: \\(\\log b\\) (common logarithm); base \\(e\\approx2.718\\): \\(\\ln b\\) (natural logarithm).',
   'Cho \\(a\\gt0\\), \\(a\\ne1\\), \\(b\\gt0\\). Số \\(\\alpha\\) thỏa \\(a^{\\alpha}=b\\) là lôgarit cơ số \\(a\\) của \\(b\\): \\[\\log_a b=\\alpha\\iff a^{\\alpha}=b.\\] Cơ số 10: \\(\\log b\\) (lôgarit thập phân); cơ số \\(e\\approx2{,}718\\): \\(\\ln b\\) (lôgarit tự nhiên).'))
 theory += BOX('mint', ('Immediate properties', 'Tính chất'), T('\\(\\log_a1=0\\); \\(\\log_a a=1\\); \\(\\log_a a^{\\alpha}=\\alpha\\); \\(a^{\\log_a b}=b\\). Examples: \\(\\log_2 8=3\\), \\(\\log_3\\frac19=-2\\), \\(\\log 1000=3\\), \\(\\ln e^2=2\\).',
   '\\(\\log_a1=0\\); \\(\\log_a a=1\\); \\(\\log_a a^{\\alpha}=\\alpha\\); \\(a^{\\log_a b}=b\\). Ví dụ: \\(\\log_2 8=3\\), \\(\\log_3\\frac19=-2\\), \\(\\log 1000=3\\), \\(\\ln e^2=2\\).'))
@@ -30,7 +30,7 @@ theory += BOX('blue', ('For \\(a\\gt0\\), \\(a\\ne1\\), \\(M,N\\gt0\\)', 'Với 
   T('\\(\\log_a M^{\\alpha}=\\alpha\\log_a M\\); in particular \\(\\log_a\\dfrac1N=-\\log_a N\\), \\(\\log_a\\sqrt[n]{M}=\\dfrac1n\\log_a M\\).', '\\(\\log_a M^{\\alpha}=\\alpha\\log_a M\\); đặc biệt \\(\\log_a\\dfrac1N=-\\log_a N\\), \\(\\log_a\\sqrt[n]{M}=\\dfrac1n\\log_a M\\).'),
   T('Change of base (\\(c\\gt0\\), \\(c\\ne1\\)): \\(\\log_a b=\\dfrac{\\log_c b}{\\log_c a}\\); hence \\(\\log_a b=\\dfrac{1}{\\log_b a}\\) (\\(b\\ne1\\)) and \\(\\log_{a^{\\alpha}}b=\\dfrac1{\\alpha}\\log_a b\\).', 'Đổi cơ số (\\(c\\gt0\\), \\(c\\ne1\\)): \\(\\log_a b=\\dfrac{\\log_c b}{\\log_c a}\\); suy ra \\(\\log_a b=\\dfrac{1}{\\log_b a}\\) (\\(b\\ne1\\)) và \\(\\log_{a^{\\alpha}}b=\\dfrac1{\\alpha}\\log_a b\\).')]))
 vals = [(2, math.log10(2)), (3, math.log10(3)), (5, math.log10(5)), (7, math.log10(7))]
-theory += TBL([TI('\\(x\\)', '\\(x\\)')] + ['\\(%d\\)' % x for x, _ in vals], [[TI('\\(\\log x\\) (calculator)', '\\(\\log x\\) (máy tính)')] + ['\\(\\approx%s\\)' % ('%.4f' % v).replace('.', '{,}') for _, v in vals]])
+theory += TBL([TI('\\(x\\)', '\\(x\\)')] + ['\\(%d\\)' % x for x, _ in vals], [[TI('\\(\\log x\\) (calculator)', '\\(\\log x\\) (máy tính)')] + [TI('\\(\\approx%s\\)' % ('%.4f' % v), '\\(\\approx%s\\)' % ('%.4f' % v).replace('.', '{,}')) for _, v in vals]])
 theory += BOX('yellow', ('Watch out!', 'Lưu ý'), T('There is <b>no</b> rule for \\(\\log_a(M+N)\\): \\(\\log_2(2+2)=2\\ne\\log_2 2+\\log_2 2=2\\) is only a coincidence; \\(\\log_2(4+4)=3\\ne4\\). Also \\(\\log_a M^2=2\\log_a|M|\\) when \\(M\\) may be negative.', '<b>Không có</b> quy tắc cho \\(\\log_a(M+N)\\): \\(\\log_2(4+4)=3\\ne\\log_2 4+\\log_2 4=4\\). Ngoài ra \\(\\log_a M^2=2\\log_a|M|\\) khi \\(M\\) có thể âm.'))
 
 assert 2 ** 3 == 8 and F(1, 9) == F(3) ** -2 and F(1, 2) ** -2 == 4 and 10 ** 3 == 1000
@@ -53,7 +53,7 @@ examples += EXAMPLE(4, ('Intermediate', 'Trung bình'), ('Powers with logarithmi
 assert 10 ** (F(72, 10) - F(52, 10)) == 100 and 10 ** ((90 - 60) // 10) == 1000
 examples += EXAMPLE(5, ('Advanced', 'Nâng cao'), ('Earthquakes and noise', 'Động đất và tiếng ồn'), T('a) The Richter magnitude is \\(M=\\log\\dfrac{A}{A_0}\\) (\\(A\\): amplitude). How many times larger is the amplitude of a 7.2 earthquake than that of a 5.2 one? b) Sound level \\(L=10\\log\\dfrac{I}{I_0}\\) (dB). A street is 60 dB, a concert 90 dB. Compare the intensities.', 'a) Độ lớn động đất theo Richter là \\(M=\\log\\dfrac{A}{A_0}\\) (\\(A\\): biên độ). Biên độ trận 7,2 độ lớn gấp bao nhiêu lần trận 5,2 độ? b) Mức cường độ âm \\(L=10\\log\\dfrac{I}{I_0}\\) (dB). Đường phố 60 dB, buổi hòa nhạc 90 dB. So sánh cường độ âm.'),
   T('Subtract the two equations: \\(\\log\\frac{A_1}{A_0}-\\log\\frac{A_2}{A_0}=\\log\\frac{A_1}{A_2}\\).', 'Trừ hai đẳng thức: \\(\\log\\frac{A_1}{A_0}-\\log\\frac{A_2}{A_0}=\\log\\frac{A_1}{A_2}\\).'),
-  [T('a) \\(\\log\\dfrac{A_1}{A_2}=7{,}2-5{,}2=2\\Rightarrow\\dfrac{A_1}{A_2}=10^2=100\\).', 'a) \\(\\log\\dfrac{A_1}{A_2}=7{,}2-5{,}2=2\\Rightarrow\\dfrac{A_1}{A_2}=10^2=100\\).'), T('b) \\(10\\log\\dfrac{I_1}{I_2}=90-60=30\\Rightarrow\\dfrac{I_1}{I_2}=10^3=1000\\).', 'b) \\(10\\log\\dfrac{I_1}{I_2}=90-60=30\\Rightarrow\\dfrac{I_1}{I_2}=10^3=1000\\).')],
+  [T('a) \\(\\log\\dfrac{A_1}{A_2}=7.2-5.2=2\\Rightarrow\\dfrac{A_1}{A_2}=10^2=100\\).', 'a) \\(\\log\\dfrac{A_1}{A_2}=7{,}2-5{,}2=2\\Rightarrow\\dfrac{A_1}{A_2}=10^2=100\\).'), T('b) \\(10\\log\\dfrac{I_1}{I_2}=90-60=30\\Rightarrow\\dfrac{I_1}{I_2}=10^3=1000\\).', 'b) \\(10\\log\\dfrac{I_1}{I_2}=90-60=30\\Rightarrow\\dfrac{I_1}{I_2}=10^3=1000\\).')],
   T('a) 100 times; b) the concert is 1000 times more intense (although "only" 30 dB louder).', 'a) 100 lần; b) cường độ âm buổi hòa nhạc gấp 1000 lần (dù "chỉ" hơn 30 dB).'))
 
 def lvl(P):
@@ -82,9 +82,11 @@ TE = (('\\(5^{\\log_5 7}=7\\).', '\\(5^{\\log_5 7}=7\\).', '\\(a^{\\log_a b}=b\\
 TF_ = (('\\(\\log_{\\frac12}8=3\\).', '\\(\\log_{\\frac12}8=3\\).', '\\(\\left(\\frac12\\right)^{-3}=8\\), so it is \\(-3\\).', '\\(\\left(\\frac12\\right)^{-3}=8\\) nên bằng \\(-3\\).'), False)
 PP = [dict(val=(2, 5), sum=(6, 4, 9), expr=(2, 3, 1, 2), tf=(TA, TB), q=(2, 96, 3), db=(40, 70)),
       dict(val=(3, -3), sum=(10, 25, 40), expr=(3, 2, 2, 1), tf=(TC, TD), q=(3, 162, 2), db=(50, 80)),
-      dict(val=(5, 3), sum=(2, 8, 16), expr=(2, 5, 3, 2), tf=(TE, TF_), q=(5, 375, 3), db=(30, 70))]
+      dict(val=(5, 3), sum=(2, 8, 16), expr=(2, 5, 3, 2), tf=(TE, TF_), q=(5, 375, 3), db=(20, 50))]
 practice = three(lvl, PP)
-practice = with_self(practice, S.M19S11, start=8)
+import sp_g11r as RR, sp_g11r2 as R2
+# Hiệu chỉnh 13/11/2026: phần D cũ lặp lại các dạng của A–C → 8 dạng mới.
+practice = RR.with_d(practice, R2.D19, seeds=(1191, 1192, 1193))
 mistakes = [('<b>\\(\\log_a(M+N)=\\log_a M+\\log_a N\\).</b> False – the sum rule is for products.', '<b>\\(\\log_a(M+N)=\\log_a M+\\log_a N\\).</b> Sai – quy tắc tổng chỉ dùng cho tích.'),
             ('<b>\\(\\dfrac{\\log_a M}{\\log_a N}=\\log_a\\dfrac MN\\).</b> False; \\(\\dfrac{\\log_a M}{\\log_a N}=\\log_N M\\).', '<b>\\(\\dfrac{\\log_a M}{\\log_a N}=\\log_a\\dfrac MN\\).</b> Sai; \\(\\dfrac{\\log_a M}{\\log_a N}=\\log_N M\\).'),
             ('<b>Ignoring the conditions.</b> \\(\\log_a b\\) needs \\(a\\gt0\\), \\(a\\ne1\\), \\(b\\gt0\\): \\(\\log_2(-4)\\) is meaningless.', '<b>Quên điều kiện.</b> \\(\\log_a b\\) cần \\(a\\gt0\\), \\(a\\ne1\\), \\(b\\gt0\\): \\(\\log_2(-4)\\) không có nghĩa.'),
@@ -92,7 +94,7 @@ mistakes = [('<b>\\(\\log_a(M+N)=\\log_a M+\\log_a N\\).</b> False – the sum r
 summary = [('\\(\\log_a b=\\alpha\\iff a^{\\alpha}=b\\) (\\(a\\gt0\\), \\(a\\ne1\\), \\(b\\gt0\\)); \\(\\log_a1=0\\), \\(\\log_a a=1\\), \\(a^{\\log_a b}=b\\).', '\\(\\log_a b=\\alpha\\iff a^{\\alpha}=b\\) (\\(a\\gt0\\), \\(a\\ne1\\), \\(b\\gt0\\)); \\(\\log_a1=0\\), \\(\\log_a a=1\\), \\(a^{\\log_a b}=b\\).'),
            ('\\(\\log_a(MN)=\\log_a M+\\log_a N\\), \\(\\log_a\\frac MN=\\log_a M-\\log_a N\\), \\(\\log_a M^{\\alpha}=\\alpha\\log_a M\\).', '\\(\\log_a(MN)=\\log_a M+\\log_a N\\), \\(\\log_a\\frac MN=\\log_a M-\\log_a N\\), \\(\\log_a M^{\\alpha}=\\alpha\\log_a M\\).'),
            ('\\(\\log_a b=\\dfrac{\\log_c b}{\\log_c a}\\); \\(\\log\\) = base 10, \\(\\ln\\) = base \\(e\\).', '\\(\\log_a b=\\dfrac{\\log_c b}{\\log_c a}\\); \\(\\log\\) là cơ số 10, \\(\\ln\\) là cơ số \\(e\\).'),
-           ('Key words: logarithm, base, common logarithm, natural logarithm, change of base.', 'Từ cần nhớ: logarithm, base, common logarithm, natural logarithm, change of base.')]
+           ('Key words: logarithm, base, common logarithm, natural logarithm, change of base.', 'Từ cần nhớ (chạm vào để xem tiếng Anh): <b class="mbl-term" tabindex="0" data-en="logarithm">lôgarit</b>, <b class="mbl-term" tabindex="0" data-en="base">cơ số</b>, <b class="mbl-term" tabindex="0" data-en="common logarithm">lôgarit thập phân</b>, <b class="mbl-term" tabindex="0" data-en="natural logarithm">lôgarit tự nhiên</b>, <b class="mbl-term" tabindex="0" data-en="change of base">đổi cơ số</b>.')]
 checks = [('I can compute simple logarithms.', 'Em tính được các lôgarit đơn giản.'), ('I can use the product, quotient and power rules.', 'Em dùng được quy tắc tích, thương, lũy thừa.'),
           ('I can change the base of a logarithm.', 'Em đổi được cơ số của lôgarit.'), ('I can use logarithmic scales (pH, dB, Richter).', 'Em vận dụng được các thang đo lôgarit (pH, dB, Richter).')]
 LL('g11-exp-04', 'Logarithms', CV, ('Exponential and Logarithmic Functions', 'Hàm số mũ và hàm số lôgarit'), 'exponential-functions', 'logarithms', 200, 'Intermediate', 70, ('powers with real exponents', 'lũy thừa với số mũ thực'),

@@ -191,6 +191,8 @@ P3 = [
   [SHORT(6, (r'Compute \(8\sin 15^\circ\cos 15^\circ\).', r'Tính \(8\sin 15^\circ\cos 15^\circ\).'), '2', 'number', H, (r'Answer: 2. It equals \(4\sin 30^\circ\).', r'Đáp số: 2. Biểu thức bằng \(4\sin 30^\circ\).')),
    SHORT(7, (r'Given \(\cos 2\alpha=-0.2\), find \(\sin^2\alpha\).', r'Cho \(\cos 2\alpha=-0{,}2\). Tính \(\sin^2\alpha\).'), '0.6|3/5', 'number', H, (r'Answer: \(0.6\). \(\sin^2\alpha=\dfrac{1+0.2}{2}\).', r'Đáp số: \(0{,}6\). \(\sin^2\alpha=\dfrac{1+0{,}2}{2}\).'))]]
 practice = LEVEL_PRACTICE([('A. Multiple Choice', 'A. Trắc nghiệm'), ('B. True or False', 'B. Đúng hoặc sai'), ('C. Short Answer', 'C. Trả lời ngắn')], {1: P1, 2: P2, 3: P3})
+import sp_g11r as RR, sp_g11r2 as R2
+practice = RR.with_d(practice, R2.D2, seeds=(1021, 1022, 1023))
 
 mistakes = [
  (r'<b>Sums.</b> Writing \(\sin(a+b)=\sin a+\sin b\). Use \(\sin(a+b)=\sin a\cos b+\cos a\sin b\).', r'<b>Tổng.</b> Viết \(\sin(a+b)=\sin a+\sin b\). Phải dùng \(\sin(a+b)=\sin a\cos b+\cos a\sin b\).'),
@@ -204,7 +206,7 @@ summary = [
  (r'\(\sin 2a=2\sin a\cos a\); \(\cos 2a=\cos^2 a-\sin^2 a=2\cos^2 a-1=1-2\sin^2 a\); \(\tan 2a=\dfrac{2\tan a}{1-\tan^2 a}\).', r'\(\sin 2a=2\sin a\cos a\); \(\cos 2a=\cos^2 a-\sin^2 a=2\cos^2 a-1=1-2\sin^2 a\); \(\tan 2a=\dfrac{2\tan a}{1-\tan^2 a}\).'),
  (r'\(\sin^2 a=\dfrac{1-\cos 2a}{2}\), \(\cos^2 a=\dfrac{1+\cos 2a}{2}\).', r'\(\sin^2 a=\dfrac{1-\cos 2a}{2}\), \(\cos^2 a=\dfrac{1+\cos 2a}{2}\).'),
  ('Product-to-sum and sum-to-product formulas turn products into sums and sums into products; they help simplify and solve equations.', 'Công thức tích thành tổng và tổng thành tích giúp đổi qua lại giữa tích và tổng, dùng để rút gọn và giải phương trình.'),
- ('Key English phrases: simplify the expression; prove the identity; express the product as a sum.', 'Cụm tiếng Anh cần nhớ: simplify the expression (rút gọn biểu thức); prove the identity (chứng minh đẳng thức); express the product as a sum (biến đổi tích thành tổng).'),
+ ('Key English phrases: simplify the expression; prove the identity; express the product as a sum.', 'Cụm từ cần nhớ (chạm vào để xem tiếng Anh): <b class="mbl-term" tabindex="0" data-en="simplify the expression">rút gọn biểu thức</b>; <b class="mbl-term" tabindex="0" data-en="prove the identity">chứng minh đẳng thức</b>; <b class="mbl-term" tabindex="0" data-en="express the product as a sum">biến đổi tích thành tổng</b>.'),
 ]
 checks = [
  ('I can use the addition formulas to find exact values.', 'Tôi dùng được công thức cộng để tìm giá trị chính xác.'),
