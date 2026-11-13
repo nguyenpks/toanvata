@@ -51,7 +51,7 @@ try:
             ok('[[' not in plain and '\\\\(' not in plain, '%s: còn [[ ]] hoặc \\\\( trong trang' % L['id'])
             pg.evaluate("() => document.querySelectorAll('figure img').forEach(i => { i.loading = 'eager'; })"); pg.wait_for_timeout(300)
             nb = pg.evaluate("() => [...document.querySelectorAll('figure img')].filter(i => i.complete && i.naturalWidth > 0).length")
-            want = len(re.findall(r'<figure[^>]*>\s*<img', html))   # hình LaTeX tĩnh (PGFPlots, tkz-euclide, TikZ)
+            want = sum(len(re.findall(r'<img', f)) for f in re.findall(r'<figure.*?</figure>', html, flags=re.S))   # hình LaTeX tĩnh (PGFPlots, tkz-euclide, TikZ); biểu đồ song ngữ có 2 ảnh/hình
             ok(nb == want, '%s: %d/%d hình LaTeX tải được' % (L['id'], nb, want))
             pg.click('button[data-level="1"]'); pg.wait_for_timeout(200)
             ok(not errs, '%s: lỗi JavaScript %s' % (L['id'], errs))

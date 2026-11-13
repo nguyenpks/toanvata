@@ -107,9 +107,12 @@ def BANK(groups, start=1, seeds=(911, 922, 933)):
                     if q['en'] not in used and (kind != 'mcq' or len(set(q['opts'])) == 4): break
                 else: raise RuntimeError('không sinh được câu không trùng: ' + b.__name__)
                 assert '<' not in q['en'].replace('<b>', '').replace('</b>', '') and '<' not in q['vi'].replace('<b>', '').replace('</b>', ''), q['en']
+                # Hình/bảng kèm đề (biểu đồ, bảng tần số – Chương VII): HTML riêng cho tiếng Anh và tiếng Việt, ghép sau đề.
+                used.add(q['en'])
+                if 'fig' in q: q = dict(q, en=q['en'] + q['fig'][0], vi=q['vi'] + q['fig'][1])
                 # Từ "nghiệm" đứng riêng được gắn tự động với mục từ chung "zero (root)" (dùng cho hàm số lớp 11–12);
                 # ở lớp 9 đó là nghiệm của phương trình/hệ, nên chú thích tiếng Anh là "solution".
-                used.add(q['en']); items.append(_vcomma(_render(kind, q, n, r)).replace('data-en="zero (root)">', 'data-en="solution">').replace('data-en="velocity">', 'data-en="speed">')); n += 1
+                items.append(_vcomma(_render(kind, q, n, r)).replace('data-en="zero (root)">', 'data-en="solution">').replace('data-en="velocity">', 'data-en="speed">')); n += 1
             sets.append(items)
         out[lv] = sets
     return out
