@@ -210,11 +210,21 @@
     const u = A.user();
     if (u) return `<h1>Tài khoản</h1><div class="card mint acct-card"><h3>${esc(u.ten)}</h3><p>Lớp ${esc(u.lop)} · Tên đăng nhập: <b>${esc(u.tk)}</b></p>
       <p class="muted">${esc(A.status || 'Tiến độ học của bạn được lưu vào tài khoản.')}</p>
-      <div class="row"><a class="btn" href="#/dashboard">Vào học</a><a class="btn ghost" href="#/progress">Xem tiến độ</a><button class="btn ghost" data-action="logout">Đăng xuất</button></div></div>`;
+      <div class="row"><a class="btn" href="#/dashboard">Vào học</a><a class="btn ghost" href="#/progress">Xem tiến độ</a><button class="btn ghost" data-action="logout">Đăng xuất</button></div></div>
+      <form id="passForm" class="card login-card pass-card" autocomplete="off">
+        <h2>Đổi mật khẩu</h2>
+        <input type="text" name="username" value="${esc(u.tk)}" autocomplete="username" hidden>
+        <label class="field">Mật khẩu hiện tại<input name="old" type="password" required autocomplete="current-password"></label>
+        <label class="field">Mật khẩu mới<input name="new1" type="password" required minlength="6" maxlength="30" autocomplete="new-password" placeholder="Từ 6 đến 30 kí tự, không có dấu cách"></label>
+        <label class="field">Nhập lại mật khẩu mới<input name="new2" type="password" required minlength="6" maxlength="30" autocomplete="new-password"></label>
+        <p id="passMsg" class="err" role="alert"></p>
+        <button class="btn" type="submit">Đổi mật khẩu</button>
+        <p class="muted"><small>Quên mật khẩu hiện tại, hãy hỏi giáo viên để được cấp lại.</small></p>
+      </form>`;
     return `<h1>Đăng nhập</h1>
     <form id="loginForm" class="card login-card" autocomplete="on">
       <label class="field">Tên đăng nhập<input name="user" required autocomplete="username" autocapitalize="none" spellcheck="false" placeholder="Ví dụ: MNNAnh10a1"></label>
-      <label class="field">Mật khẩu<input name="pass" type="password" required autocomplete="current-password" inputmode="numeric" placeholder="Mật khẩu do giáo viên cấp"></label>
+      <label class="field">Mật khẩu<input name="pass" type="password" required autocomplete="current-password" placeholder="Mật khẩu do giáo viên cấp"></label>
       <p id="loginMsg" class="err" role="alert"></p>
       <button class="btn" type="submit">Đăng nhập</button>
       <p class="muted"><small>Tài khoản do giáo viên cấp. Quên mật khẩu, hãy hỏi giáo viên. Trên máy dùng chung, nhớ bấm Đăng xuất khi học xong.</small></p>
@@ -236,7 +246,7 @@
         <form id="loginForm" class="card login-card" autocomplete="on">
           <h2>Đăng nhập tài khoản</h2>
           <label class="field">Tên đăng nhập<input name="user" required autocomplete="username" autocapitalize="none" spellcheck="false" placeholder="Ví dụ: MNNAnh10a1"></label>
-          <label class="field">Mật khẩu<input name="pass" type="password" required autocomplete="current-password" inputmode="numeric" placeholder="Mật khẩu do giáo viên cấp"></label>
+          <label class="field">Mật khẩu<input name="pass" type="password" required autocomplete="current-password" placeholder="Mật khẩu do giáo viên cấp"></label>
           <p id="loginMsg" class="err" role="alert"></p>
           <button class="btn" type="submit">Đăng nhập</button>
           <p class="muted"><small>Tiến độ lưu theo tài khoản, học tiếp được trên máy khác. Tài khoản do giáo viên cấp.</small></p>
@@ -306,6 +316,20 @@
       const fromGate = document.body.classList.contains('gated');
       A.login(d.get('user').trim(), d.get('pass').trim()).then(() => { acctUI(); if (fromGate) render(); else go('/dashboard'); })
         .catch((err) => { msg.textContent = err.message; btn.disabled = false; btn.textContent = 'Đăng nhập'; });
+      return;
+    }
+    if (f.id === 'passForm') {
+      e.preventDefault(); const d = new FormData(f), btn = f.querySelector('button[type=submit]'), msg = $('#passMsg');
+      const o = String(d.get('old')).trim(), n1 = String(d.get('new1')).trim(), n2 = String(d.get('new2')).trim();
+      msg.className = 'err'; msg.textContent = '';
+      if (n1.length < 6 || n1.length > 30) { msg.textContent = 'Mật khẩu mới phải dài từ 6 đến 30 kí tự.'; return; }
+      if (/\s/.test(n1)) { msg.textContent = 'Mật khẩu mới không được có dấu cách.'; return; }
+      if (n1 !== n2) { msg.textContent = 'Hai lần nhập mật khẩu mới không giống nhau.'; return; }
+      if (n1 === o) { msg.textContent = 'Mật khẩu mới phải khác mật khẩu hiện tại.'; return; }
+      btn.disabled = true; btn.textContent = 'Đang đổi…';
+      A.changePass(o, n1).then(() => { f.reset(); msg.className = 'ok-msg'; msg.textContent = 'Đã đổi mật khẩu. Lần sau đăng nhập bằng mật khẩu mới.'; })
+        .catch((err) => { msg.textContent = err.message; })
+        .then(() => { btn.disabled = false; btn.textContent = 'Đổi mật khẩu'; });
       return;
     }
     if (f.id === 'searchForm') { e.preventDefault(); go('/courses', { q: $('#q').value.trim() }); }

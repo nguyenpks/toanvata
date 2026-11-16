@@ -139,6 +139,15 @@
         if (handleAuth(res) || !res.ok) return; merge(res.progress); notify(); flush();
       }, function () { /* mất mạng: dùng bản trên máy */ });
     },
+    /* Đổi mật khẩu: cần mật khẩu hiện tại; máy chủ ghi mật khẩu mới vào trang HocSinh */
+    changePass: function (oldPass, newPass) {
+      var s = session(); if (!API || !s) return Promise.reject(new Error('Hãy đăng nhập trước.'));
+      return post({ action: 'changePass', token: s.token, oldPass: oldPass, newPass: newPass }).then(function (res) {
+        if (handleAuth(res)) throw new Error('Phiên đăng nhập hết hạn, hãy đăng nhập lại.');
+        if (!res.ok) throw new Error(res.error || 'Không đổi được mật khẩu.');
+        return true;
+      }, function () { throw new Error('Không kết nối được máy chủ. Kiểm tra mạng Internet.'); });
+    },
     pending: function () { var a = outbox(); return a ? a.length : 0; },
     onChange: function (f) { listeners.push(f); }
   };
