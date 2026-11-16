@@ -220,12 +220,42 @@
       <p class="muted"><small>Tài khoản do giáo viên cấp. Quên mật khẩu, hãy hỏi giáo viên. Trên máy dùng chung, nhớ bấm Đăng xuất khi học xong.</small></p>
     </form>`;
   }
+  /* ===== MÀN HÌNH CHÀO (bước đầu tiên khi vào trang) =====
+     Chưa đăng nhập và chưa chọn "Học với tư cách khách" trong phiên này thì hiện màn hình chọn.
+     Lựa chọn khách lưu ở sessionStorage: đóng trình duyệt rồi mở lại sẽ được hỏi lại (hợp với máy dùng chung). */
+  const GUEST = 'mathbridge_guest';
+  function isGuest() { try { return sessionStorage.getItem(GUEST) === '1'; } catch (e) { return true; } }
+  function setGuest(on) { try { if (on) sessionStorage.setItem(GUEST, '1'); else sessionStorage.removeItem(GUEST); } catch (e) { /* bị chặn: bỏ qua */ } }
+  function needGate() { return A.enabled && !A.user() && !isGuest(); }
+  function gateView() {
+    return `<section class="gate" aria-labelledby="gateTitle">
+      <div class="gate-brand">TOÁN VÀ TIẾNG ANH<small>Toán thật dễ, Tiếng Anh thật hay</small></div>
+      <h1 id="gateTitle">Chào mừng em đến với lớp học!</h1>
+      <p class="muted">Chọn cách vào học:</p>
+      <div class="gate-grid">
+        <form id="loginForm" class="card login-card" autocomplete="on">
+          <h2>Đăng nhập tài khoản</h2>
+          <label class="field">Tên đăng nhập<input name="user" required autocomplete="username" autocapitalize="none" spellcheck="false" placeholder="Ví dụ: MNNAnh10a1"></label>
+          <label class="field">Mật khẩu<input name="pass" type="password" required autocomplete="current-password" inputmode="numeric" placeholder="Mật khẩu do giáo viên cấp"></label>
+          <p id="loginMsg" class="err" role="alert"></p>
+          <button class="btn" type="submit">Đăng nhập</button>
+          <p class="muted"><small>Tiến độ lưu theo tài khoản, học tiếp được trên máy khác. Tài khoản do giáo viên cấp.</small></p>
+        </form>
+        <div class="card guest-card">
+          <h2>Tài khoản khách</h2>
+          <p>Vào học ngay, không cần tài khoản.</p>
+          <p class="muted"><small>Tiến độ chỉ lưu trên trình duyệt của máy này và không gửi về giáo viên. Có thể đăng nhập sau bằng nút Đăng nhập ở góc trên.</small></p>
+          <button class="btn ghost" type="button" data-action="guest">Vào học với tài khoản khách</button>
+        </div>
+      </div>
+    </section>`;
+  }
   function acctUI() {
     const el = $('#acct'); if (!el) return;
     if (!A.enabled) { el.innerHTML = ''; return; }
     const u = A.user();
     el.innerHTML = u ? `<a class="acct-chip" href="#/login" title="Tài khoản"><span class="acct-dot">${esc((u.ten.split(' ').pop() || '?')[0])}</span><span class="acct-name">${esc(u.ten.split(' ').slice(-2).join(' '))}</span></a>`
-      : '<a class="btn small ghost" href="#/login">Đăng nhập</a>';
+      : `${isGuest() ? '<span class="acct-guest">Khách</span>' : ''}<a class="btn small ghost" href="#/login">Đăng nhập</a>`;
   }
 
   /* ===== ĐIỀU HƯỚNG ===== */
@@ -247,7 +277,9 @@
     const [path, qs] = (location.hash.slice(1) || '/').split('?');
     const params = new URLSearchParams(qs || ''), parts = path.split('/').filter(Boolean), route = parts[0] || 'home';
     const view = $('#view'); currentId = null;
+    document.body.classList.toggle('gated', !error && needGate());
     if (error) view.innerHTML = `<h1>Không tải được dữ liệu</h1>${box(esc(error))}`;
+    else if (needGate()) { view.innerHTML = gateView(); closeMenu(); window.scrollTo(0, 0); return; }
     else if (route === 'home') view.innerHTML = home();
     else if (route === 'dashboard') view.innerHTML = dashboard();
     else if (route === 'courses') view.innerHTML = courses(params);
@@ -271,7 +303,8 @@
     if (f.id === 'loginForm') {
       e.preventDefault(); const d = new FormData(f), btn = f.querySelector('button[type=submit]'), msg = $('#loginMsg');
       btn.disabled = true; btn.textContent = 'Đang đăng nhập…'; msg.textContent = '';
-      A.login(d.get('user').trim(), d.get('pass').trim()).then(() => { acctUI(); go('/dashboard'); })
+      const fromGate = document.body.classList.contains('gated');
+      A.login(d.get('user').trim(), d.get('pass').trim()).then(() => { acctUI(); if (fromGate) render(); else go('/dashboard'); })
         .catch((err) => { msg.textContent = err.message; btn.disabled = false; btn.textContent = 'Đăng nhập'; });
       return;
     }
@@ -291,8 +324,10 @@
     } else if (b.dataset.action === 'complete') {
       if (!P.markComplete(b.dataset.id)) alert('Không lưu được tiến độ. Trình duyệt có thể đang chặn LocalStorage.');
       completeUI();
+    } else if (b.dataset.action === 'guest') {
+      setGuest(true); acctUI(); render();
     } else if (b.dataset.action === 'logout') {
-      b.disabled = true; A.logout().then(() => { acctUI(); go('/login'); render(); });
+      b.disabled = true; A.logout().then(() => { setGuest(false); acctUI(); go('/'); render(); });
     } else if (b.dataset.action === 'reset') {
       if (confirm('Xóa toàn bộ tiến độ đã lưu trên trình duyệt này?')) { P.reset(); render(); }
     }
@@ -309,7 +344,7 @@
   window.addEventListener('hashchange', render);
   window.addEventListener('storage', (e) => { if (e.key === P.KEY && !currentId) render(); });
   A.onChange(() => { acctUI(); const r = (location.hash.slice(1) || '/').split('?')[0].split('/')[1] || 'home';
-    if (currentId) completeUI(); else if (['dashboard', 'progress'].indexOf(r) >= 0 || (r === 'login' && !document.getElementById('loginForm'))) render(); });
+    if (needGate() && !document.body.classList.contains('gated')) render(); else if (currentId) completeUI(); else if (['dashboard', 'progress'].indexOf(r) >= 0 || (r === 'login' && !document.getElementById('loginForm'))) render(); });
 
   const NC = { cache: 'no-cache' };   /* luôn hỏi lại máy chủ: bài mới đẩy lên GitHub hiện ngay, không bị bản cũ trong bộ nhớ đệm */
   async function init() {

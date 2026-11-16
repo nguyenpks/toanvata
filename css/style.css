@@ -145,3 +145,19 @@ h4.cat{margin:14px 0 8px;color:var(--muted);font-size:15px}
 /* Menu Chọn nhanh: lớp có bài thụt vào dưới cấp học */
 #side a.qg{padding:6px 14px 6px 30px;min-height:34px;font-size:14.5px}
 #side a.qg small{display:inline;margin-left:6px}
+
+/* Màn hình chào: đăng nhập hoặc tài khoản khách (bước đầu tiên khi vào trang) */
+body.gated .top,body.gated #side,body.gated #scrim,body.gated .foot,body.gated .skip{display:none}
+body.gated .layout{display:block}
+body.gated #view{max-width:880px;margin:0 auto;padding:32px 16px}
+.gate{text-align:center}
+.gate-brand{font-weight:800;font-size:22px;color:var(--accent-deep);letter-spacing:.5px;margin-bottom:6px}
+.gate-brand small{display:block;font-weight:500;font-size:14px;color:var(--muted)}
+.gate h1{margin:14px 0 4px}
+.gate-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;margin-top:16px;text-align:left}
+.gate .login-card{max-width:none}
+.gate h2{margin:0 0 4px;font-size:18px}
+.guest-card{display:flex;flex-direction:column;gap:10px}
+.guest-card .btn{margin-top:auto}
+.acct-guest{font-size:13px;color:var(--muted);margin-right:8px}
+.gate>p{margin-left:auto;margin-right:auto}
