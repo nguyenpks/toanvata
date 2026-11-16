@@ -106,7 +106,7 @@ theory += BOX('blue', ('Implication', 'Mệnh đề kéo theo'),
 theory += TBL([r'\(P\)', r'\(Q\)', r'\(P\Rightarrow Q\)'], [[TI('true', 'đúng'), TI('true', 'đúng'), TI('true', 'đúng')], [TI('true', 'đúng'), TI('false', 'sai'), TI('false', 'sai')], [TI('false', 'sai'), TI('true', 'đúng'), TI('true', 'đúng')], [TI('false', 'sai'), TI('false', 'sai'), TI('true', 'đúng')]])
 theory += BOX('mint', ('Equivalence and conditions', 'Mệnh đề tương đương và điều kiện'),
   T('If both \\(P\\Rightarrow Q\\) and \\(Q\\Rightarrow P\\) are true, we write \\(P\\Leftrightarrow Q\\) and read “\\(P\\) if and only if \\(Q\\)”. We say \\(P\\) is a <b>necessary and sufficient condition</b> for \\(Q\\).', 'Nếu cả \\(P\\Rightarrow Q\\) và \\(Q\\Rightarrow P\\) đều đúng, ta viết \\(P\\Leftrightarrow Q\\) và đọc “\\(P\\) khi và chỉ khi \\(Q\\)”; \\(P\\) là [[điều kiện cần và đủ]] để có \\(Q\\).'),
-  T('When \\(P\\Rightarrow Q\\) is true: \\(P\\) is a <i>sufficient</i> condition for \\(Q\\) (đủ), and \\(Q\\) is a <i>necessary</i> condition for \\(P\\) (cần).', 'Khi \\(P\\Rightarrow Q\\) đúng: \\(P\\) là điều kiện <i>đủ</i> để có \\(Q\\), còn \\(Q\\) là điều kiện <i>cần</i> để có \\(P\\).'),
+  T('When \\(P\\Rightarrow Q\\) is true: \\(P\\) is a <i>sufficient</i> condition for \\(Q\\), and \\(Q\\) is a <i>necessary</i> condition for \\(P\\).', 'Khi \\(P\\Rightarrow Q\\) đúng: \\(P\\) là điều kiện <i>đủ</i> để có \\(Q\\), còn \\(Q\\) là điều kiện <i>cần</i> để có \\(P\\).'),
   T('To show a statement is false, one <b>counterexample</b> is enough.', 'Để chứng tỏ một phát biểu sai, chỉ cần một [[phản ví dụ]].'))
 
 theory += '<h3>5.4 %s</h3>' % TI('For all and there exists', 'Kí hiệu ∀ và ∃')
@@ -126,11 +126,11 @@ examples = EXAMPLE(1, ('Basic', 'Cơ bản'), ('Is it a proposition?', 'Có ph�
    T('(c) It is a proposition, and it is false because \\(2^5=32\\).', '(c) Là mệnh đề sai vì \\(2^5=32\\).')],
   T('(a) true proposition; (b) not a proposition; (c) false proposition.', '(a) mệnh đề đúng; (b) không phải mệnh đề; (c) mệnh đề sai.'))
 examples += EXAMPLE(2, ('Basic', 'Cơ bản'), ('Writing a negation', 'Lập mệnh đề phủ định'),
-  T('Write the negation of each proposition and say which one is true. (a) \\(P\\): “17 is divisible by 3”. (b) \\(Q\\): \\(\\sqrt2>1.4\\).', 'Lập phủ định của mỗi mệnh đề và cho biết mệnh đề nào đúng. (a) \\(P\\): “17 chia hết cho 3”. (b) \\(Q\\): \\(\\sqrt2>1.4\\).'),
+  T('Write the negation of each proposition and say which one is true. (a) \\(P\\): “17 is divisible by 3”. (b) \\(Q\\): \\(\\sqrt2>1.4\\).', 'Lập phủ định của mỗi mệnh đề và cho biết mệnh đề nào đúng. (a) \\(P\\): “17 chia hết cho 3”. (b) \\(Q\\): \\(\\sqrt2>1{,}4\\).'),
   ('Negate the sentence, and for an inequality use the table of negations.', 'Phủ định cả câu; với bất đẳng thức dùng bảng phủ định.'),
   [T('(a) \\(\\overline{P}\\): “17 is not divisible by 3”. \\(17=3\\cdot5+2\\), so \\(P\\) is false and \\(\\overline{P}\\) is true.', '(a) \\(\\overline{P}\\): “17 không chia hết cho 3”. \\(17=3\\cdot5+2\\) nên \\(P\\) sai, \\(\\overline{P}\\) đúng.'),
-   T('(b) \\(\\overline{Q}\\): \\(\\sqrt2\\le1.4\\). Since \\(\\sqrt2\\approx1.4142>1.4\\), \\(Q\\) is true and \\(\\overline{Q}\\) is false.', '(b) \\(\\overline{Q}\\): \\(\\sqrt2\\le1.4\\). Vì \\(\\sqrt2\\approx1.4142>1.4\\) nên \\(Q\\) đúng, \\(\\overline{Q}\\) sai.')],
-  T('(a) “17 is not divisible by 3” (true); (b) \\(\\sqrt2\\le1.4\\) (false).', '(a) “17 không chia hết cho 3” (đúng); (b) \\(\\sqrt2\\le1.4\\) (sai).'))
+   T('(b) \\(\\overline{Q}\\): \\(\\sqrt2\\le1.4\\). Since \\(\\sqrt2\\approx1.4142>1.4\\), \\(Q\\) is true and \\(\\overline{Q}\\) is false.', '(b) \\(\\overline{Q}\\): \\(\\sqrt2\\le1{,}4\\). Vì \\(\\sqrt2\\approx1{,}4142>1{,}4\\) nên \\(Q\\) đúng, \\(\\overline{Q}\\) sai.')],
+  T('(a) “17 is not divisible by 3” (true); (b) \\(\\sqrt2\\le1.4\\) (false).', '(a) “17 không chia hết cho 3” (đúng); (b) \\(\\sqrt2\\le1{,}4\\) (sai).'))
 examples += EXAMPLE(3, ('Intermediate', 'Trung bình'), ('An implication and its converse', 'Mệnh đề kéo theo và mệnh đề đảo'),
   T('Let \\(P\\): “\\(n\\) is divisible by 6” and \\(Q\\): “\\(n\\) is divisible by 3”. Is \\(P\\Rightarrow Q\\) true? State the converse and decide if it is true.', 'Cho \\(P\\): “\\(n\\) chia hết cho 6” và \\(Q\\): “\\(n\\) chia hết cho 3”. \\(P\\Rightarrow Q\\) có đúng không? Phát biểu mệnh đề đảo và xét tính đúng sai.'),
   ('A statement about all \\(n\\) is true only if there is no counterexample.', 'Phát biểu về mọi \\(n\\) chỉ đúng khi không có phản ví dụ.'),
@@ -196,7 +196,7 @@ summary = [
  ('\\(\\overline{P}\\) has the opposite truth value of \\(P\\). Negations: \\(=\\to\\ne\\), \\(>\\to\\le\\), \\(\\ge\\to\\lt\\).', '\\(\\overline{P}\\) có giá trị trái ngược \\(P\\). Phủ định: \\(=\\to\\ne\\), \\(>\\to\\le\\), \\(\\ge\\to\\lt\\).'),
  ('\\(P\\Rightarrow Q\\) is false only when \\(P\\) is true and \\(Q\\) is false. \\(P\\Leftrightarrow Q\\) needs both directions.', '\\(P\\Rightarrow Q\\) chỉ sai khi \\(P\\) đúng và \\(Q\\) sai. \\(P\\Leftrightarrow Q\\) cần cả hai chiều.'),
  ('\\(\\forall\\): true only if no counterexample. \\(\\exists\\): true if one example works. Negation swaps \\(\\forall\\) and \\(\\exists\\).', '\\(\\forall\\): đúng khi không có phản ví dụ. \\(\\exists\\): đúng khi có một ví dụ. Phủ định đổi \\(\\forall\\) và \\(\\exists\\).'),
- ('Key English phrases: true or false; write the negation; if … then …; if and only if; give a counterexample.', 'Cụm tiếng Anh cần nhớ: true or false (đúng hay sai); write the negation (viết phủ định); if … then …; if and only if; give a counterexample.'),
+ ('Key English phrases: true or false; write the negation; if … then …; if and only if; give a counterexample.', 'Cụm từ cần nhớ (chạm vào để xem tiếng Anh): <b class="mbl-term" tabindex="0" data-en="true or false">đúng hay sai</b>; <b class="mbl-term" tabindex="0" data-en="write the negation">viết phủ định</b>; <b class="mbl-term" tabindex="0" data-en="if … then …">nếu … thì …</b>; <b class="mbl-term" tabindex="0" data-en="if and only if">khi và chỉ khi</b>; <b class="mbl-term" tabindex="0" data-en="give a counterexample">nêu phản ví dụ</b>.'),
 ]
 checks = [
  ('I can tell a proposition from an open statement.', 'Tôi phân biệt được mệnh đề với mệnh đề chứa biến.'),

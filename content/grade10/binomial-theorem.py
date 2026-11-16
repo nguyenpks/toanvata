@@ -19,7 +19,7 @@ goals = [('recognise the binomial expansion of \\((a+b)^4\\) and \\((a+b)^5\\);'
          ('use expansions to approximate numbers (compound interest).', 'dùng khai triển để tính gần đúng (lãi kép).')]
 phrases = [('<b>Expand the binomial.</b>', 'Khai triển nhị thức.'), ('<b>The coefficient of x cubed is ten.</b>', 'Hệ số của \\(x^3\\) bằng 10.'), ('<b>The expansion has five terms.</b>', 'Khai triển có năm số hạng.'),
            ('<b>The powers of a go down and the powers of b go up.</b>', 'Số mũ của \\(a\\) giảm dần, số mũ của \\(b\\) tăng dần.'), ('<b>Watch the sign of each term.</b>', 'Chú ý dấu của từng số hạng.')]
-review = T('From Bài 24: \\(C_n^k=\\dfrac{n!}{k!(n-k)!}\\), \\(C_n^k=C_n^{n-k}\\). From Grade 8: \\((a+b)^2=a^2+2ab+b^2\\), \\((a+b)^3=a^3+3a^2b+3ab^2+b^3\\).', 'Từ Bài 24: \\(C_n^k=\\dfrac{n!}{k!(n-k)!}\\), \\(C_n^k=C_n^{n-k}\\). Từ lớp 8: \\((a+b)^2=a^2+2ab+b^2\\), \\((a+b)^3=a^3+3a^2b+3ab^2+b^3\\).')
+review = T('From Lesson 24: \\(C_n^k=\\dfrac{n!}{k!(n-k)!}\\), \\(C_n^k=C_n^{n-k}\\). From Grade 8: \\((a+b)^2=a^2+2ab+b^2\\), \\((a+b)^3=a^3+3a^2b+3ab^2+b^3\\).', 'Từ Bài 24: \\(C_n^k=\\dfrac{n!}{k!(n-k)!}\\), \\(C_n^k=C_n^{n-k}\\). Từ lớp 8: \\((a+b)^2=a^2+2ab+b^2\\), \\((a+b)^3=a^3+3a^2b+3ab^2+b^3\\).')
 theory = '<h3>25.1 %s</h3>' % TI('Expanding \\((a+b)^4\\) and \\((a+b)^5\\)', 'Khai triển \\((a+b)^4\\) và \\((a+b)^5\\)')
 theory += BOX('blue', ('Formulas', 'Công thức'), UL([T('\\((a+b)^4=a^4+4a^3b+6a^2b^2+4ab^3+b^4\\).', '\\((a+b)^4=a^4+4a^3b+6a^2b^2+4ab^3+b^4\\).'),
   T('\\((a+b)^5=a^5+5a^4b+10a^3b^2+10a^2b^3+5ab^4+b^5\\).', '\\((a+b)^5=a^5+5a^4b+10a^3b^2+10a^2b^3+5ab^4+b^5\\).'),
@@ -58,8 +58,8 @@ examples += EXAMPLE(4, ('Intermediate', 'Trung bình'), ('Constant term', 'Số 
 assert abs(1.02 ** 5 - 1.1040808032) < 1e-12 and abs((1 + 5 * 0.02 + 10 * 0.0004) - 1.104) < 1e-12
 examples += EXAMPLE(5, ('Advanced', 'Nâng cao'), ('Compound interest', 'Lãi kép'), T('You deposit 100 million VND at 2% per year, compound interest, for 5 years. Use the first three terms of \\((1+0{,}02)^5\\) to estimate the final amount, and compare with the exact value.', 'Gửi 100 triệu đồng, lãi kép 2%/năm trong 5 năm. Dùng ba số hạng đầu của khai triển \\((1+0{,}02)^5\\) để ước tính số tiền nhận được và so sánh với giá trị đúng.'),
   T('Amount \\(=100(1+0{,}02)^5\\).', 'Số tiền \\(=100(1+0{,}02)^5\\).'),
-  [T('\\((1+0{,}02)^5\\approx1+5\\cdot0{,}02+10\\cdot0{,}02^2=1{,}104\\).', '\\((1+0{,}02)^5\\approx1+5\\cdot0{,}02+10\\cdot0{,}02^2=1{,}104\\).'), T('Estimate 110,4 million; exact \\(1{,}02^5=1{,}10408\\ldots\\): 110,408 million. The error is under 10 000 VND.', 'Ước tính 110,4 triệu; giá trị đúng \\(1{,}02^5=1{,}10408\\ldots\\): 110,408 triệu. Sai số dưới 10 000 đồng.')],
-  T('About 110,4 million VND.', 'Khoảng 110,4 triệu đồng.'))
+  [T('\\((1+0{,}02)^5\\approx1+5\\cdot0{,}02+10\\cdot0{,}02^2=1{,}104\\).', '\\((1+0{,}02)^5\\approx1+5\\cdot0{,}02+10\\cdot0{,}02^2=1{,}104\\).'), T('Estimate 110.4 million; exact \\(1{,}02^5=1{,}10408\\ldots\\): 110.408 million. The error is under 10 000 VND.', 'Ước tính 110,4 triệu; giá trị đúng \\(1{,}02^5=1{,}10408\\ldots\\): 110,408 triệu. Sai số dưới 10 000 đồng.')],
+  T('About 110.4 million VND.', 'Khoảng 110,4 triệu đồng.'))
 
 
 def lvl(P):
@@ -96,7 +96,7 @@ mistakes = [('<b>Not raising the coefficient.</b> \\((2x)^3=8x^3\\), not \\(2x^3
             ('<b>Confusing "term number \\(k\\)" with \\(b^k\\).</b> Term number \\(k+1\\) contains \\(b^k\\).', '<b>Nhầm "số hạng thứ \\(k\\)" với \\(b^k\\).</b> Số hạng thứ \\(k+1\\) chứa \\(b^k\\).'), ('<b>Giving the term instead of the coefficient.</b> The coefficient of \\(x^3\\) in \\(1080x^3\\) is 1080.', '<b>Ghi số hạng thay cho hệ số.</b> Hệ số của \\(x^3\\) trong \\(1080x^3\\) là 1080.')]
 summary = [('\\((a+b)^4\\): 1, 4, 6, 4, 1; \\((a+b)^5\\): 1, 5, 10, 10, 5, 1 (Pascal\'s triangle).', '\\((a+b)^4\\): 1, 4, 6, 4, 1; \\((a+b)^5\\): 1, 5, 10, 10, 5, 1 (tam giác Pascal).'),
            ('Term with \\(b^k\\): \\(C_n^ka^{n-k}b^k\\); \\(n+1\\) terms; exponents add to \\(n\\).', 'Số hạng chứa \\(b^k\\): \\(C_n^ka^{n-k}b^k\\); có \\(n+1\\) số hạng; tổng số mũ bằng \\(n\\).'),
-           ('Sum of coefficients: put \\(x=1\\); \\((1+x)^n\\approx1+nx\\) for small \\(x\\).', 'Tổng các hệ số: thay \\(x=1\\); \\((1+x)^n\\approx1+nx\\) khi \\(x\\) nhỏ.'), ('Key words: binomial theorem, coefficient, term, Pascal\'s triangle.', 'Từ cần nhớ: binomial theorem, coefficient, term, Pascal\'s triangle.')]
+           ('Sum of coefficients: put \\(x=1\\); \\((1+x)^n\\approx1+nx\\) for small \\(x\\).', 'Tổng các hệ số: thay \\(x=1\\); \\((1+x)^n\\approx1+nx\\) khi \\(x\\) nhỏ.'), ('Key words: binomial theorem, coefficient, term, Pascal\'s triangle.', 'Từ cần nhớ (chạm vào để xem tiếng Anh): <b class="mbl-term" tabindex="0" data-en="binomial theorem">công thức nhị thức Newton</b>; <b class="mbl-term" tabindex="0" data-en="coefficient">hệ số</b>; <b class="mbl-term" tabindex="0" data-en="term">hạng tử</b>; <b class="mbl-term" tabindex="0" data-en="Pascal&#39;s triangle">tam giác Pascal</b>.')]
 checks = [('I can expand \\((a+b)^4\\), \\((a+b)^5\\).', 'Em khai triển được \\((a+b)^4\\), \\((a+b)^5\\).'), ('I can find a given coefficient or term.', 'Em tìm được hệ số, số hạng theo yêu cầu.'),
           ('I can read Pascal\'s triangle.', 'Em đọc được tam giác Pascal.'), ('I can approximate with the first terms.', 'Em tính gần đúng bằng vài số hạng đầu.')]
 LL('g10-comb-03', 'The Binomial Theorem', CV, ('Combinatorics', 'Đại số tổ hợp'), 'combinatorics', 'binomial-theorem', 250, 'Intermediate', 60, ('combinations', 'tổ hợp'),

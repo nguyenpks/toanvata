@@ -40,7 +40,7 @@ def terms(vi):
             raise KeyError('Thuật ngữ chưa có trong vocab.json: ' + k)
         _used_terms[k] = _vocab[k]
         return '<b class="mbl-term" tabindex="0" data-en="%s">%s</b>' % (_vocab[k], shown)
-    return re.sub(r'\[\[(.+?)\]\]', rep, vi)
+    return tabfix(re.sub(r'\[\[(.+?)\]\]', rep, vi), 'vi')
 
 _AUTO = {}
 def autoterms(html):
@@ -52,14 +52,37 @@ def autoterms(html):
     rx = _AUTO['re']
     if not rx: return html
     def rep(m):
-        k = m.group(1).lower(); _used_terms[k] = _vocab[k]
+        k = m.group(1).lower()
+        # 14/11/2026: không gắn nhầm nghĩa – "xét nghiệm" (test) không phải "nghiệm" (root); "khoảng 25%", "có khoảng bao nhiêu" (about) không phải "khoảng" (interval)
+        before, after = m.string[:m.start()], m.string[m.end():]
+        if k == 'nghiệm' and re.search(r'(xét|trắc|thử|kinh|thực|thí|tiên|hậu)\s+$', before, re.I): return m.group(1)
+        if k == 'khoảng' and (re.match(r'\s*(\d|bao nhiêu|một|hai|ba|mười)', after) or re.search(r'(có|còn|chiếm|mất)\s+$', before, re.I)): return m.group(1)
+        _used_terms[k] = _vocab[k]
         return '<b class="mbl-term" tabindex="0" data-en="%s">%s</b>' % (_vocab[k], m.group(1))
     parts = re.split(r'(<b class="mbl-term".*?</b>|\\\(.*?\\\)|\\\[.*?\\\]|<[^>]*>)', html, flags=re.S)
     return ''.join(x if i % 2 else rx.sub(rep, x) for i, x in enumerate(parts))
 
+_TAB_EN = [('Tần số tương đối', 'Relative frequency'), ('Tần số tích lũy', 'Cumulative frequency'), ('Giá trị đại diện', 'Midpoint'), ('Tần số', 'Frequency'), ('Nhóm', 'Group'), ('Cộng', 'Total')]
+def tabfix(h, lang):
+    """Bảng tần số trong chuỗi một ngôn ngữ: bỏ nhãn song ngữ "Việt / English", dịch nhãn cột/hàng, dấu thập phân đúng ngôn ngữ."""
+    if '<table' not in h: return h
+    def one(m):
+        t = m.group(0)
+        def cell(c):
+            tag, body = c.group(1), c.group(2)
+            if ' / ' in body:
+                a, b = body.split(' / ', 1); body = b if lang == 'en' else a
+            elif lang == 'en':
+                for vi, en in _TAB_EN:
+                    if body.startswith(vi): body = en + body[len(vi):]; break
+            return '<%s%s</%s>' % (tag, body, tag.split()[0].rstrip('>'))
+        t = re.sub(r'<(t[hd][^>]*>)(.*?)</t[hd]>', cell, t, flags=re.S)
+        return t.replace('{,}', '.') if lang == 'en' else t
+    return re.sub(r'<table class="mbl-table mbl-freq.*?</table>', one, h, flags=re.S)
+
 def plain(en):
     if '[[' in en: raise ValueError('Không dùng [[ ]] trong tiếng Anh: ' + en)
-    return en
+    return tabfix(en, 'en').replace('{,}', '.')
 
 BTN = '<button type="button" class="mbl-tr" data-tr aria-expanded="false" aria-label="Dịch sang tiếng Việt" title="Dịch sang tiếng Việt">🌐 VI</button>'
 
@@ -260,7 +283,10 @@ def MCQ(n, q, opts, ans, expl, raw=False):
         # nếu không MathJax nhận "\(<span…" / "\(\(10\) m/s\)" và báo lỗi đỏ. Phương án công thức thuần vẫn được bọc như cũ.
         if t.lstrip().startswith('<') or '\\(' in t: return t
         return t if (t.startswith('\\(') and t.endswith('\\)') and t.count('\\(') == 1) else '\\(%s\\)' % t
-    o = ''.join('<label><input type="radio" name="%s" value="%s"><span>%s</span></label>' % (name, 'abcd'[i], _o(t)) for i, t in enumerate(opts))
+    def _o2(t):
+        h = _o(t)      # số thập phân dùng chung cho hai ngôn ngữ → tách: tiếng Anh dấu chấm, tiếng Việt dấu phẩy
+        return TI(h, h) if '{,}' in h and 'class="en"' not in h else h
+    o = ''.join('<label><input type="radio" name="%s" value="%s"><span>%s</span></label>' % (name, 'abcd'[i], _o2(t)) for i, t in enumerate(opts))
     return ('<div class="mbl-item" data-type="mcq" data-answer="%s"><div class="mbl-qtext"><b>%d.</b></div>%s<div class="mbl-opts">%s</div>%s'
             '<div class="mbl-explain" hidden>%s</div></div>') % (ans, n, T(*q, auto=True), o, _actions(), T(*expl, auto=True))
 

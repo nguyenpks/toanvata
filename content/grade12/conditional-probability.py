@@ -80,8 +80,9 @@ WF = (('If \\(P(A\\mid B)=0{,}6\\) then \\(P(A\\cap B)=0{,}6\\).', 'Nếu \\(P(A
 PP = [dict(f=(F(4, 10), F(1, 10)), tab=(8, 12, 6, 14), draw=(5, 4), tf=(WA, WB), **{'and': (F(1, 2), F(6, 10))}, med=(500, 40, 30)),
       dict(f=(F(5, 10), F(2, 10)), tab=(10, 15, 12, 13), draw=(3, 6), tf=(WC, WD), **{'and': (F(3, 4), F(4, 10))}, med=(800, 50, 35)),
       dict(f=(F(8, 10), F(6, 10)), tab=(9, 21, 15, 25), draw=(4, 5), tf=(WE, WF), **{'and': (F(2, 5), F(5, 10))}, med=(1000, 80, 52))]
-practice = three(lvl, PP)
-practice = with_self(practice, S.M18S12, start=8)
+# Hiệu chỉnh 14/11/2026: giữ 7 câu A–C cũ, thêm 5 câu A–C và phần D mới (8 dạng; sơ đồ cây, bảng hai chiều, biểu đồ Venn) → mỗi mức 20 câu.
+import sp_g12r4 as R4
+practice = R4.build(R4.old_sets(three(lvl, PP)), R4.B18['A'], R4.B18['B'], R4.B18['C'], R4.B18['D'], seeds=(12181, 12182, 12183))
 mistakes = [('<b>Dividing by \\(n(\\Omega)\\) instead of \\(n(B)\\).</b> Given \\(B\\), the sample space is \\(B\\).', '<b>Chia cho \\(n(\\Omega)\\) thay vì \\(n(B)\\).</b> Khi biết \\(B\\), không gian mẫu là \\(B\\).'),
             ('<b>Mixing up \\(P(A\\mid B)\\) and \\(P(B\\mid A)\\).</b> Ask: which event is known?', '<b>Nhầm \\(P(A\\mid B)\\) với \\(P(B\\mid A)\\).</b> Tự hỏi: biến cố nào đã biết?'),
             ('<b>Forgetting that the box changes without replacement.</b>', '<b>Quên rằng hộp thay đổi khi lấy không hoàn lại.</b>'),
@@ -89,7 +90,7 @@ mistakes = [('<b>Dividing by \\(n(\\Omega)\\) instead of \\(n(B)\\).</b> Given \
 summary = [('\\(P(A\\mid B)=\\dfrac{P(A\\cap B)}{P(B)}=\\dfrac{n(A\\cap B)}{n(B)}\\) (equally likely outcomes).', '\\(P(A\\mid B)=\\dfrac{P(A\\cap B)}{P(B)}=\\dfrac{n(A\\cap B)}{n(B)}\\) (kết quả đồng khả năng).'),
            ('\\(P(A\\cap B)=P(B)P(A\\mid B)\\); \\(P(\\overline A\\mid B)=1-P(A\\mid B)\\).', '\\(P(A\\cap B)=P(B)P(A\\mid B)\\); \\(P(\\overline A\\mid B)=1-P(A\\mid B)\\).'),
            ('\\(A\\), \\(B\\) independent \\(\\iff P(A\\mid B)=P(A)\\iff P(A\\cap B)=P(A)P(B)\\).', '\\(A\\), \\(B\\) độc lập \\(\\iff P(A\\mid B)=P(A)\\iff P(A\\cap B)=P(A)P(B)\\).'),
-           ('Key words: conditional probability, given, multiplication rule, independent, without replacement.', 'Từ cần nhớ: conditional probability, given, multiplication rule, independent, without replacement.')]
+           ('Key words: conditional probability, given, multiplication rule, independent, without replacement.', 'Từ cần nhớ (chạm vào để xem tiếng Anh): <b class="mbl-term" tabindex="0" data-en="conditional probability">xác suất có điều kiện</b>; <b class="mbl-term" tabindex="0" data-en="given">biết rằng</b>; <b class="mbl-term" tabindex="0" data-en="multiplication rule">công thức nhân xác suất</b>; <b class="mbl-term" tabindex="0" data-en="independent">độc lập</b>; <b class="mbl-term" tabindex="0" data-en="without replacement">không hoàn lại</b>.')]
 checks = [('I can compute \\(P(A\\mid B)\\) from a table or by counting.', 'Em tính được \\(P(A\\mid B)\\) từ bảng số liệu hoặc bằng cách đếm.'), ('I can use the formula \\(\\dfrac{P(A\\cap B)}{P(B)}\\).', 'Em dùng được công thức \\(\\dfrac{P(A\\cap B)}{P(B)}\\).'),
           ('I can use the multiplication rule for successive draws.', 'Em dùng được công thức nhân cho các lần lấy liên tiếp.'), ('I can check whether two events are independent.', 'Em kiểm tra được hai biến cố có độc lập không.')]
 LL('g12-prob-01', 'Conditional Probability', CV, ('Conditional Probability', 'Xác suất có điều kiện'), 'probability', 'conditional-probability', 180, 'Intermediate', 80, ('classical probability, independent events', 'xác suất cổ điển, biến cố độc lập'),

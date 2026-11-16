@@ -20,7 +20,7 @@ goals = [('compute a definite integral with the Newton–Leibniz formula;', 'tí
          ('interpret an integral as an area, a distance or a total change.', 'hiểu tích phân là diện tích [[hình thang cong]], [[quãng đường đi được]] hay [[tổng lượng biến thiên]].')]
 phrases = [('<b>Evaluate the definite integral.</b>', 'Tính tích phân.'), ('<b>Split the integral at \\(x=1\\).</b>', 'Tách tích phân tại \\(x=1\\).'), ('<b>Find the area of the region under the curve.</b>', 'Tính diện tích hình thang cong.'),
            ('<b>How far does the car travel before it stops?</b>', 'Ô tô đi thêm được bao xa thì dừng?'), ('<b>The integral of the rate gives the total change.</b>', 'Tích phân của tốc độ cho tổng lượng thay đổi.')]
-review = T('From Bài 11: \\(\\int x^\\alpha dx=\\dfrac{x^{\\alpha+1}}{\\alpha+1}+C\\), \\(\\int\\dfrac1xdx=\\ln|x|+C\\), \\(\\int\\sin x\\,dx=-\\cos x+C\\), \\(\\int\\cos x\\,dx=\\sin x+C\\), \\(\\int e^xdx=e^x+C\\), \\(\\int a^xdx=\\dfrac{a^x}{\\ln a}+C\\); if \\(v(t)=s′(t)\\), then \\(s\\) is an antiderivative of \\(v\\).',
+review = T('From Lesson 11: \\(\\int x^\\alpha dx=\\dfrac{x^{\\alpha+1}}{\\alpha+1}+C\\), \\(\\int\\dfrac1xdx=\\ln|x|+C\\), \\(\\int\\sin x\\,dx=-\\cos x+C\\), \\(\\int\\cos x\\,dx=\\sin x+C\\), \\(\\int e^xdx=e^x+C\\), \\(\\int a^xdx=\\dfrac{a^x}{\\ln a}+C\\); if \\(v(t)=s′(t)\\), then \\(s\\) is an antiderivative of \\(v\\).',
            'Từ Bài 11: \\(\\int x^\\alpha dx=\\dfrac{x^{\\alpha+1}}{\\alpha+1}+C\\), \\(\\int\\dfrac1xdx=\\ln|x|+C\\), \\(\\int\\sin x\\,dx=-\\cos x+C\\), \\(\\int\\cos x\\,dx=\\sin x+C\\), \\(\\int e^xdx=e^x+C\\), \\(\\int a^xdx=\\dfrac{a^x}{\\ln a}+C\\); nếu \\(v(t)=s′(t)\\) thì \\(s\\) là một nguyên hàm của \\(v\\).')
 FA = {2: F(1, 2), 0: 1}; area = defint(FA, 1, 3); assert area == F(19, 3)
 pts = [[1, 0]] + [[round(1 + 2 * i / 40, 4), round(float(ev(FA, F(1) + F(2 * i, 40))), 4)] for i in range(41)] + [[3, 0]]
@@ -88,7 +88,8 @@ PP = [dict(poly=({2: 3, 0: -1}, (0, 2)), basic=0, prop=((2, 7, 3), (-1, 2)), t4=
       dict(poly=({2: 6, 1: -4, 0: 1}, (1, 3)), basic=4, prop=((-1, 5, 2), (3, 2)), t4=1, abs=((2, 5), False), brake=(24, 4), tank=(30, F(5, 2), 8)),
       dict(poly=({3: 4, 1: -6}, (-1, 2)), basic=5, prop=((4, 10, -3), (2, 3)), t4=2, abs=((3, 4), True), brake=(18, 6), tank=(25, 6, 5))]
 practice = three(lvl, PP)
-practice = with_self(practice, S.M12S12, start=8)
+import sp_g11r as RR, sp_g12r as R3
+practice = RR.with_d(practice, R3.D12, seeds=(12121, 12122, 12123))
 mistakes = [('<b>\\(F(a)-F(b)\\).</b> The order is upper limit minus lower limit: \\(F(b)-F(a)\\).', '<b>Tính \\(F(a)-F(b)\\).</b> Thứ tự đúng là cận trên trừ cận dưới: \\(F(b)-F(a)\\).'),
             ('<b>Keeping \\(+C\\).</b> In a definite integral the constant cancels; the answer is a number.', '<b>Giữ lại \\(+C\\).</b> Trong tích phân hằng số bị triệt tiêu; kết quả là một số.'),
             ('<b>Dropping the absolute value.</b> \\(\\int_0^3|x-1|dx\\ne\\int_0^3(x-1)dx\\): split where the sign changes.', '<b>Bỏ dấu giá trị tuyệt đối.</b> \\(\\int_0^3|x-1|dx\\ne\\int_0^3(x-1)dx\\): phải tách tại điểm đổi dấu.'),
@@ -96,7 +97,7 @@ mistakes = [('<b>\\(F(a)-F(b)\\).</b> The order is upper limit minus lower limit
 summary = [('\\(\\int_a^bf(x)\\,dx=F(b)-F(a)\\) (\\(F′=f\\)); \\(\\int_a^a=0\\), \\(\\int_b^a=-\\int_a^b\\).', '\\(\\int_a^bf(x)\\,dx=F(b)-F(a)\\) (\\(F′=f\\)); \\(\\int_a^a=0\\), \\(\\int_b^a=-\\int_a^b\\).'),
            ('Linearity and splitting: \\(\\int_a^b=\\int_a^c+\\int_c^b\\).', 'Tính tuyến tính và tách cận: \\(\\int_a^b=\\int_a^c+\\int_c^b\\).'),
            ('\\(f\\ge0\\): the integral is the area under the curve; \\(\\int_a^bv(t)\\,dt\\): distance; \\(\\int_a^bF′\\): total change.', '\\(f\\ge0\\): tích phân là diện tích hình thang cong; \\(\\int_a^bv(t)\\,dt\\): quãng đường; \\(\\int_a^bF′\\): tổng lượng biến thiên.'),
-           ('Key words: definite integral, limits, area, total change.', 'Từ cần nhớ: definite integral, limits, area, total change.')]
+           ('Key words: definite integral, limits, area, total change.', 'Từ cần nhớ (chạm vào để xem tiếng Anh): <b class="mbl-term" tabindex="0" data-en="definite integral">tích phân</b>; <b class="mbl-term" tabindex="0" data-en="limits">cận tích phân</b>; <b class="mbl-term" tabindex="0" data-en="area">diện tích</b>; <b class="mbl-term" tabindex="0" data-en="total change">tổng lượng biến thiên</b>.')]
 checks = [('I can compute a definite integral with the Newton–Leibniz formula.', 'Em tính được tích phân bằng công thức Newton – Leibniz.'), ('I can use the properties of integrals.', 'Em dùng được các tính chất của tích phân.'),
           ('I can handle an absolute value by splitting the interval.', 'Em tính được tích phân có dấu giá trị tuyệt đối.'), ('I can interpret an integral as an area, a distance or a total change.', 'Em hiểu tích phân là diện tích, quãng đường hay tổng lượng biến thiên.')]
 LL('g12-int-02', 'Definite Integrals', CV, ('Antiderivatives and Integrals', 'Nguyên hàm và tích phân'), 'integrals', 'definite-integrals', 120, 'Intermediate', 75, ('antiderivatives, table of basic antiderivatives', 'nguyên hàm, bảng nguyên hàm cơ bản'),

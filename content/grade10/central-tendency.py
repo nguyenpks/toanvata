@@ -25,7 +25,7 @@ phrases = [('<b>Find the mean of the data.</b>', 'Tìm số trung bình của m�
            ('<b>Which value appears most often?</b>', 'Giá trị nào xuất hiện nhiều nhất?'), ('<b>The median describes the data better.</b>', 'Trung vị mô tả mẫu số liệu tốt hơn.')]
 review = T('From lower grades: a data sample is a list of values \\(x_1,\\dots,x_n\\); \\(n\\) is the sample size. A frequency table lists each value \\(x_i\\) and its frequency \\(n_i\\), with \\(n_1+\\dots+n_k=n\\).', 'Từ lớp dưới: mẫu số liệu là dãy giá trị \\(x_1,\\dots,x_n\\); \\(n\\) là cỡ mẫu. Bảng tần số ghi mỗi giá trị \\(x_i\\) và tần số \\(n_i\\), với \\(n_1+\\dots+n_k=n\\).')
 theory = '<h3>13.1 %s</h3>' % TI('The mean', 'Số trung bình')
-theory += BOX('blue', ('Formulas', 'Công thức'), M('\\bar x=\\dfrac{x_1+x_2+\\dots+x_n}{n},\\qquad \\bar x=\\dfrac{n_1x_1+n_2x_2+\\dots+n_kx_k}{n}\\ \\text{(bảng tần số)}'),
+theory += BOX('blue', ('Formulas', 'Công thức'), M('\\bar x=\\dfrac{x_1+x_2+\\dots+x_n}{n},\\qquad \\bar x=\\dfrac{n_1x_1+n_2x_2+\\dots+n_kx_k}{n}'),
   T('The mean uses every value, so it is a good "centre" when the data have no extreme values.', 'Số trung bình dùng mọi giá trị nên là đại diện tốt khi mẫu không có giá trị bất thường.'))
 theory += '<h3>13.2 %s</h3>' % TI('Median and quartiles', 'Trung vị và tứ phân vị')
 theory += BOX('mint', ('Median \\(M_e\\)', 'Trung vị \\(M_e\\)'), UL([T('Sort the data. If \\(n\\) is odd, \\(M_e\\) is the middle value (position \\(\\frac{n+1}{2}\\)).', 'Sắp xếp mẫu theo thứ tự không giảm. Nếu \\(n\\) lẻ, \\(M_e\\) là giá trị đứng giữa (vị trí \\(\\frac{n+1}{2}\\)).'),
@@ -101,7 +101,7 @@ mistakes = [('<b>Not sorting.</b> The median and quartiles are found on the <b>s
 summary = [('\\(\\bar x=\\dfrac{\\sum x_i}{n}=\\dfrac{\\sum n_ix_i}{n}\\).', '\\(\\bar x=\\dfrac{\\sum x_i}{n}=\\dfrac{\\sum n_ix_i}{n}\\).'),
            ('\\(M_e\\): middle value(s) of the sorted data. \\(Q_1,Q_3\\): medians of the two halves (without \\(M_e\\) when \\(n\\) is odd).', '\\(M_e\\): giá trị (hai giá trị) đứng giữa của mẫu đã sắp xếp. \\(Q_1,Q_3\\): trung vị của hai nửa (không tính \\(M_e\\) khi \\(n\\) lẻ).'),
            ('\\(M_o\\): the value with the largest frequency.', '\\(M_o\\): giá trị có tần số lớn nhất.'),
-           ('With extreme values prefer the median. Key words: mean, median, quartile, mode.', 'Khi có giá trị bất thường, ưu tiên trung vị. Từ cần nhớ: mean, median, quartile, mode.')]
+           ('With extreme values prefer the median. Key words: mean, median, quartile, mode.', 'Khi có giá trị bất thường, ưu tiên trung vị. Từ cần nhớ (chạm vào để xem tiếng Anh): <b class="mbl-term" tabindex="0" data-en="mean">số trung bình</b>; <b class="mbl-term" tabindex="0" data-en="median">trung tuyến</b>; <b class="mbl-term" tabindex="0" data-en="quartile">tứ phân vị</b>; <b class="mbl-term" tabindex="0" data-en="mode">mốt</b>.')]
 checks = [('I can compute the mean, also from a frequency table.', 'Em tính được số trung bình, kể cả từ bảng tần số.'), ('I can find the median and the quartiles.', 'Em tìm được trung vị và tứ phân vị.'),
           ('I can find the mode.', 'Em tìm được mốt.'), ('I can choose a suitable measure for real data.', 'Em chọn được số đặc trưng phù hợp với số liệu thực tế.')]
 LL('g10-stats-02', 'Measures of Central Tendency', CV, ('Statistics', 'Các số đặc trưng của mẫu số liệu không ghép nhóm'), 'statistics', 'central-tendency', 130, 'Beginner', 60, ('data samples, frequency tables', 'mẫu số liệu, bảng tần số'),

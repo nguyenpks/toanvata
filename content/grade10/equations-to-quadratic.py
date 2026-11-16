@@ -18,7 +18,7 @@ goals = [('recognise equations that reduce to quadratic equations;', 'nhận bi�
          ('set up and solve such equations in real problems.', 'lập và giải phương trình trong bài toán thực tế.')]
 phrases = [('<b>Square both sides.</b>', 'Bình phương hai vế.'), ('<b>Check each root in the original equation.</b>', 'Thử lại từng nghiệm vào phương trình ban đầu.'),
            ('<b>This root is extraneous, so we reject it.</b>', 'Nghiệm này là nghiệm ngoại lai nên bị loại.'), ('<b>Put \\(t\\) equals \\(x\\) squared, with \\(t\\) not negative.</b>', 'Đặt \\(t=x^2\\), \\(t\\ge0\\).'), ('<b>The solution set is three.</b>', 'Tập nghiệm là \\(\\{3\\}\\).')]
-review = T('From Bài 17 and Grade 9: solving \\(ax^2+bx+c=0\\) with \\(\\Delta\\); \\(\\sqrt{A}\\) is defined when \\(A\\ge0\\) and \\(\\sqrt A\\ge0\\); \\(\\sqrt A=B\\iff B\\ge0\\) and \\(A=B^2\\).',
+review = T('From Lesson 17 and Grade 9: solving \\(ax^2+bx+c=0\\) with \\(\\Delta\\); \\(\\sqrt{A}\\) is defined when \\(A\\ge0\\) and \\(\\sqrt A\\ge0\\); \\(\\sqrt A=B\\iff B\\ge0\\) and \\(A=B^2\\).',
            'Từ Bài 17 và lớp 9: giải \\(ax^2+bx+c=0\\) bằng \\(\\Delta\\); \\(\\sqrt{A}\\) có nghĩa khi \\(A\\ge0\\) và \\(\\sqrt A\\ge0\\); \\(\\sqrt A=B\\iff B\\ge0\\) và \\(A=B^2\\).')
 theory = '<h3>18.1 %s</h3>' % TI('Equations of the form \\(\\sqrt{ax^2+bx+c}=\\sqrt{dx^2+ex+f}\\)', 'Phương trình dạng \\(\\sqrt{ax^2+bx+c}=\\sqrt{dx^2+ex+f}\\)')
 theory += BOX('blue', ('Method', 'Cách giải'), UL([T('Square both sides: \\(ax^2+bx+c=dx^2+ex+f\\) and solve this quadratic (or linear) equation.', 'Bình phương hai vế: \\(ax^2+bx+c=dx^2+ex+f\\), giải phương trình bậc hai (hoặc bậc nhất) nhận được.'),
@@ -89,7 +89,7 @@ mistakes = [('<b>Not checking the roots after squaring.</b> Squaring can add ext
 summary = [('\\(\\sqrt{f}=\\sqrt{g}\\): square, solve \\(f=g\\), keep roots with \\(f\\ge0\\) (or \\(g\\ge0\\)).', '\\(\\sqrt{f}=\\sqrt{g}\\): bình phương, giải \\(f=g\\), giữ nghiệm có \\(f\\ge0\\) (hoặc \\(g\\ge0\\)).'),
            ('\\(\\sqrt{f}=g\\iff g\\ge0\\) and \\(f=g^2\\).', '\\(\\sqrt{f}=g\\iff g\\ge0\\) và \\(f=g^2\\).'),
            ('\\(ax^4+bx^2+c=0\\): \\(t=x^2\\ge0\\).', '\\(ax^4+bx^2+c=0\\): đặt \\(t=x^2\\ge0\\).'),
-           ('Key words: square root, square both sides, extraneous root, biquadratic.', 'Từ cần nhớ: square root, square both sides, extraneous root, biquadratic.')]
+           ('Key words: square root, square both sides, extraneous root, biquadratic.', 'Từ cần nhớ (chạm vào để xem tiếng Anh): <b class="mbl-term" tabindex="0" data-en="square root">căn bậc hai</b>; <b class="mbl-term" tabindex="0" data-en="square both sides">bình phương hai vế</b>; <b class="mbl-term" tabindex="0" data-en="extraneous root">nghiệm ngoại lai</b>; <b class="mbl-term" tabindex="0" data-en="biquadratic">trùng phương</b>.')]
 checks = [('I can solve \\(\\sqrt{f(x)}=\\sqrt{g(x)}\\).', 'Em giải được phương trình \\(\\sqrt{f(x)}=\\sqrt{g(x)}\\).'), ('I can solve \\(\\sqrt{f(x)}=g(x)\\) and reject extraneous roots.', 'Em giải được \\(\\sqrt{f(x)}=g(x)\\) và loại được nghiệm ngoại lai.'),
           ('I can solve a biquadratic equation.', 'Em giải được phương trình trùng phương.'), ('I can set up an equation from a real problem.', 'Em lập được phương trình từ bài toán thực tế.')]
 LL('g10-func-04', 'Equations Reducible to Quadratics', CV, ('Functions and Graphs', 'Hàm số, đồ thị và ứng dụng'), 'functions', 'equations-to-quadratic', 180, 'Intermediate', 65, ('quadratic equations, square roots', 'phương trình bậc hai, căn bậc hai'),

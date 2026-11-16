@@ -1,0 +1,21 @@
+\documentclass[tikz,border=3pt]{standalone}
+\usetikzlibrary{arrows.meta}
+\begin{document}
+\definecolor{c_ax}{HTML}{475569}
+\definecolor{c_hl}{HTML}{C2410C}
+\definecolor{c2}{HTML}{86E0BD}
+\definecolor{c3}{HTML}{93C5FD}
+\begin{tikzpicture}[x=1.0938cm,y=1.0938cm,line cap=round,line join=round]
+\shade[ball color=c3!25!white,opacity=.35] (3.2000,0.0000) circle[radius=1.8000];
+\shade[ball color=c2!25!white,opacity=.35] (0.0000,0.0000) circle[radius=1.4000];
+\draw[c_hl,line width=1.35pt] (0.0000,0.0000) -- (3.2000,0.0000);
+\draw[line width=0.9pt] (0.0000,0.0000) circle[radius=1.4000];
+\draw[line width=0.9pt] (3.2000,0.0000) circle[radius=1.8000];
+\fill (0.0000,0.0000) circle[radius=1.3pt];
+\node[anchor=east,inner sep=2pt] at (0.0000,0.0000) {$I$};
+\fill (3.2000,0.0000) circle[radius=1.3pt];
+\node[anchor=west,inner sep=2pt] at (3.2000,0.0000) {$J$};
+\fill (1.4000,0.0000) circle[radius=1.3pt];
+\node[anchor=south,inner sep=2pt] at (1.4000,0.0000) {$T$};
+\end{tikzpicture}
+\end{document}

@@ -104,13 +104,17 @@ def circle_svg(pts, segs=(), proj=None, showA=True, R=1.9, dashed=(), rays=()):
     return c.svg()
 
 # ---------------------------------------------------------------- đồ thị hàm số (TikZ thuần)
-def graph_svg(curves, xr, yr, xticks, yticks, hlines=(), vlines=(), dots=(), W=9.0, H=4.6, names=('x', 'y'), hlabel=True):
+def graph_svg(curves, xr, yr, xticks, yticks, hlines=(), vlines=(), dots=(), W=9.0, H=4.6, names=('x', 'y'), hlabel=True, fills=()):
     """curves: [(f, màu)] f trả None ngoài miền; xticks: [(giá trị, tex)]; yticks: [(giá trị, tex)];
     hlines/vlines: [(giá trị, tex hoặc None)] nét đứt; dots: [(x, y, rỗng?)]."""
     (x0, x1), (y0, y1) = xr, yr
     sx = W / (x1 - x0); sy = H / (y1 - y0); X = lambda x: (x - x0) * sx; Y = lambda y: (y - y0) * sy
     c = Canvas()
     oy = Y(0) if y0 <= 0 <= y1 else 0.0; ox = X(0) if x0 <= 0 <= x1 else 0.0
+    for top, bot, a, b in fills:      # vùng tô: giữa hai hàm top, bot trên [a; b] (vẽ trước, không tính là vật cản)
+        n = 120; up = [(X(a + (b - a) * i / n), Y(top(a + (b - a) * i / n))) for i in range(n + 1)]
+        dn = [(X(a + (b - a) * i / n), Y(bot(a + (b - a) * i / n))) for i in range(n, -1, -1)]
+        c.o.append('\\fill[color=%s, opacity=0.28] %s -- cycle;' % (col(GREEN), ' -- '.join('(%.3f,%.3f)' % p for p in up + dn)))
     c.poly([(0, oy), (W + 0.35, oy)], 'ink!85, line width=0.7pt, -{Stealth[length=2.4mm]}')
     c.poly([(ox, 0), (ox, H + 0.35)], 'ink!85, line width=0.7pt, -{Stealth[length=2.4mm]}')
     for v, t in hlines: c.poly([(0, Y(v)), (W, Y(v))], 'asy, line width=0.8pt, dash pattern=on 5pt off 3.5pt')

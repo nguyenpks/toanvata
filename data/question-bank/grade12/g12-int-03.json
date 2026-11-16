@@ -157,192 +157,190 @@
    "level": 1,
    "section": "D",
    "type": "mcq",
-   "form": "A gate has the shape of a parabola arch, width \\(#\\) m at the ground and height \\(#\\) m. Its area is…",
-   "en": "A gate has the shape of a parabola arch, width \\(4\\) m at the ground and height \\(3\\) m. Its area is…",
-   "vi": "Một cổng có dạng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parabola\">parabol</b>, bề rộng chân cổng \\(4\\) m, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"height\">chiều cao</b> \\(3\\) m. Diện tích cổng là…",
+   "form": "A hemispherical bowl has radius \\(#\\) cm. Water in it is \\(#\\) cm deep. Using \\(V=\\pi\\displaystyle\\int_{#}^{#}\\left(#-x^#\\right)dx\\) (rotating a circle about \\(Ox\\)), the volume of water (cm³) is…",
+   "en": "A hemispherical bowl has radius \\(10\\) cm. Water in it is \\(5\\) cm deep. Using \\(V=\\pi\\displaystyle\\int_{5}^{10}\\left(100-x^2\\right)dx\\) (rotating a circle about \\(Ox\\)), the volume of water (cm³) is…",
+   "vi": "Một cái bát hình bán cầu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> \\(10\\) cm chứa nước sâu \\(5\\) cm. Dùng \\(V=\\pi\\displaystyle\\int_{5}^{10}\\left(100-x^2\\right)dx\\) (quay <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> quanh \\(Ox\\)), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"volume\">thể tích</b> nước (cm³) là",
    "options": [
-    "\\(8\\ \\text{m}^2\\)",
-    "\\(6\\ \\text{m}^2\\)",
-    "\\(12\\ \\text{m}^2\\)",
-    "\\(4\\ \\text{m}^2\\)"
+    "\\(\\dfrac{1375\\pi}{3}\\)",
+    "\\(\\dfrac{625\\pi}{6}\\)",
+    "\\(\\dfrac{625\\pi}{3}\\)",
+    "\\(250\\pi\\)"
    ],
-   "answer": "a",
-   "explain_en": "Answer: a. Put the arch as \\(y=3-\\dfrac{3}{4}x^2\\) on \\(\\left[-2;2\\right]\\); the integral gives \\(\\dfrac23\\cdot4\\cdot3=8\\).",
-   "explain_vi": "Đáp án a. Đặt cổng là \\(y=3-\\dfrac{3}{4}x^2\\) trên \\(\\left[-2;2\\right]\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"definite integral\">tích phân</b> cho \\(\\dfrac23\\cdot4\\cdot3=8\\).",
+   "answer": "c",
+   "explain_en": "Answer: c. \\(V=\\pi\\left[100x-\\dfrac{x^3}{3}\\right]_{5}^{10}=\\pi h^2\\left(R-\\dfrac h3\\right)=\\dfrac{625\\pi}{3}\\).",
+   "explain_vi": "Đáp án c. \\(V=\\pi\\left[100x-\\dfrac{x^3}{3}\\right]_{5}^{10}=\\pi h^2\\left(R-\\dfrac h3\\right)=\\dfrac{625\\pi}{3}\\).",
    "images": [],
-   "id": "3c386c62cad3",
+   "id": "8822b219f587",
    "status": "đang dùng",
    "sources": [
-    "hiện tại",
-    "9dde968"
+    "hiện tại"
    ]
   },
   {
    "level": 1,
    "section": "D",
    "type": "mcq",
-   "form": "A solid lies between the planes \\(x=#\\) and \\(x=#\\). Its cross-section at \\(x\\) has area \\(S(x)=x+#\\). Its volume is…",
-   "en": "A solid lies between the planes \\(x=0\\) and \\(x=2\\). Its cross-section at \\(x\\) has area \\(S(x)=x+2\\). Its volume is…",
-   "vi": "Một vật thể nằm giữa hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> \\(x=0\\) và \\(x=2\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"cross-section\">thiết diện</b> tại \\(x\\) có diện tích \\(S(x)=x+2\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"volume\">Thể tích</b> vật thể là…",
+   "form": "A solid lies between the planes \\(x=#\\) and \\(x=#\\). Its cross-section perpendicular to \\(Ox\\) at \\(x\\) is an equilateral triangle with side \\(x\\). Its volume is…",
+   "en": "A solid lies between the planes \\(x=0\\) and \\(x=4\\). Its cross-section perpendicular to \\(Ox\\) at \\(x\\) is an equilateral triangle with side \\(x\\). Its volume is…",
+   "vi": "Một vật thể nằm giữa hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> \\(x=0\\) và \\(x=4\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"cross-section\">Thiết diện</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"perpendicular\">vuông góc</b> với \\(Ox\\) tại \\(x\\) là một tam giác đều cạnh \\(x\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"volume\">Thể tích</b> vật thể là",
    "options": [
-    "\\(8\\)",
-    "\\(6\\)",
-    "\\(4\\)",
-    "\\(6\\pi\\)"
+    "\\(\\dfrac{16\\sqrt{3}}{3}\\)",
+    "\\(\\dfrac{64}{3}\\)",
+    "\\(\\dfrac{64\\sqrt{3}}{3}\\)",
+    "\\(\\dfrac{32\\sqrt{3}}{3}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(S(x)=\\dfrac{\\sqrt3}{4}x^2\\), \\(V=\\displaystyle\\int_0^{4}S(x)\\,dx=\\dfrac{16\\sqrt{3}}{3}\\).",
+   "explain_vi": "Đáp án a. \\(S(x)=\\dfrac{\\sqrt3}{4}x^2\\), \\(V=\\displaystyle\\int_0^{4}S(x)\\,dx=\\dfrac{16\\sqrt{3}}{3}\\).",
+   "images": [],
+   "id": "7ddd4e89e07d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The region between \\(y=x\\) and \\(y=x^#\\) for \\(#\\le x\\le#\\) is rotated about \\(Ox\\). The volume of the solid is…",
+   "en": "The region between \\(y=x\\) and \\(y=x^2\\) for \\(0\\le x\\le1\\) is rotated about \\(Ox\\). The volume of the solid is…",
+   "vi": "Miền giữa hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> \\(y=x\\) và \\(y=x^2\\) với \\(0\\le x\\le1\\) quay quanh trục \\(Ox\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"volume\">Thể tích</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solid of revolution\">khối tròn xoay</b> là",
+   "options": [
+    "\\(\\dfrac{\\pi}{3}\\)",
+    "\\(\\dfrac{2\\pi}{15}\\)",
+    "\\(\\dfrac{\\pi}{6}\\)",
+    "\\(\\dfrac{\\pi}{30}\\)"
    ],
    "answer": "b",
-   "explain_en": "Answer: b. \\(V=\\int_0^{2}S(x)\\,dx=6\\).",
-   "explain_vi": "Đáp án b. \\(V=\\int_0^{2}S(x)\\,dx=6\\).",
+   "explain_en": "Answer: b. Washer: \\(V=\\pi\\displaystyle\\int_{0}^{1}\\left(f^2-g^2\\right)dx\\) with the upper curve \\(f\\); this is not \\(\\pi\\displaystyle\\int(f-g)^2dx\\). Answer: \\(\\dfrac{2\\pi}{15}\\).",
+   "explain_vi": "Đáp án b. Khối có lỗ: \\(V=\\pi\\displaystyle\\int_{0}^{1}\\left(f^2-g^2\\right)dx\\) với \\(f\\) là đường phía trên; không phải \\(\\pi\\displaystyle\\int(f-g)^2dx\\). Đáp số: \\(\\dfrac{2\\pi}{15}\\).",
    "images": [],
-   "id": "42cd2b75afd6",
+   "id": "d1221f0a1317",
    "status": "đang dùng",
    "sources": [
-    "hiện tại",
-    "9dde968"
+    "hiện tại"
    ]
   },
   {
    "level": 1,
    "section": "D",
    "type": "mcq",
-   "form": "Rotating the region under \\(y=x\\), \\(#\\le x\\le#\\), about the \\(x\\)-axis gives a cone of volume…",
-   "en": "Rotating the region under \\(y=x\\), \\(0\\le x\\le3\\), about the \\(x\\)-axis gives a cone of volume…",
-   "vi": "Quay hình phẳng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"limit\">giới hạn</b> bởi \\(y=x\\), trục hoành, \\(x=3\\) quanh trục \\(Ox\\) được khối nón có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"volume\">thể tích</b>…",
+   "form": "The region between \\(y=x^#\\) and the line \\(y=m\\) (\\(m\\gt#\\)) has area \\(\\dfrac{#}{#}\\). Then \\(m=\\)…",
+   "en": "The region between \\(y=x^2\\) and the line \\(y=m\\) (\\(m\\gt0\\)) has area \\(\\dfrac{256}{3}\\). Then \\(m=\\)…",
+   "vi": "Miền <b class=\"mbl-term\" tabindex=\"0\" data-en=\"limit\">giới hạn</b> bởi \\(y=x^2\\) và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(y=m\\) (\\(m\\gt0\\)) có diện tích \\(\\dfrac{256}{3}\\). Khi đó \\(m=\\)",
    "options": [
-    "\\(9\\)",
-    "\\(\\dfrac{27\\pi}{2}\\)",
-    "\\(9\\pi\\)",
-    "\\(27\\pi\\)"
+    "\\(17\\)",
+    "\\(256\\)",
+    "\\(16\\)",
+    "\\(4\\)"
    ],
    "answer": "c",
-   "explain_en": "Answer: c. \\(V=\\pi\\int_0^{3}(x)^2dx=9\\pi\\).",
-   "explain_vi": "Đáp án c. \\(V=\\pi\\int_0^{3}(x)^2dx=9\\pi\\).",
+   "explain_en": "Answer: c. The curves meet at \\(x=\\pm\\sqrt m\\): \\(S=\\displaystyle\\int_{-\\sqrt m}^{\\sqrt m}(m-x^2)dx=\\dfrac43m\\sqrt m=\\dfrac{256}{3}\\Rightarrow m=16\\).",
+   "explain_vi": "Đáp án c. Hai đường <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersect\">cắt nhau</b> tại \\(x=\\pm\\sqrt m\\): \\(S=\\displaystyle\\int_{-\\sqrt m}^{\\sqrt m}(m-x^2)dx=\\dfrac43m\\sqrt m=\\dfrac{256}{3}\\Rightarrow m=16\\).",
    "images": [],
-   "id": "0698feec6958",
+   "id": "37a4ee89d8ef",
    "status": "đang dùng",
    "sources": [
-    "hiện tại",
-    "9dde968"
+    "hiện tại"
    ]
   },
   {
    "level": 1,
    "section": "D",
    "type": "mcq",
-   "form": "The area between \\(y=x^#\\) and \\(y=#x\\) is…",
-   "en": "The area between \\(y=x^2\\) and \\(y=4x\\) is…",
-   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"area of a plane region\">Diện tích hình phẳng</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"limit\">giới hạn</b> bởi \\(y=x^2\\) và \\(y=4x\\) là…",
+   "form": "The region under \\(y=x^#\\) over \\([#;\\,#]\\) (and above \\(Ox\\)) is rotated about \\(Ox\\). The volume of the solid is…",
+   "en": "The region under \\(y=x^2\\) over \\([0;\\,2]\\) (and above \\(Ox\\)) is rotated about \\(Ox\\). The volume of the solid is…",
+   "vi": "Miền nằm dưới <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> \\(y=x^2\\) trên đoạn \\([0;\\,2]\\) (và phía trên \\(Ox\\)) quay quanh trục \\(Ox\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"volume\">Thể tích</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solid of revolution\">khối tròn xoay</b> là",
    "options": [
-    "\\(\\dfrac{64}{3}\\)",
-    "\\(8\\)",
-    "\\(32\\)",
-    "\\(\\dfrac{32}{3}\\)"
+    "\\(\\dfrac{32}{5}\\)",
+    "\\(\\dfrac{32\\pi}{5}\\)",
+    "\\(\\dfrac{16\\pi}{5}\\)",
+    "\\(\\dfrac{8\\pi}{3}\\)"
    ],
-   "answer": "d",
-   "explain_en": "Answer: d. Intersections \\(x=0\\), \\(x=4\\); \\(S=\\int_0^{4}(4x-x^2)\\,dx=\\dfrac{32}{3}\\).",
-   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersection point\">Giao điểm</b> \\(x=0\\), \\(x=4\\); \\(S=\\int_0^{4}(4x-x^2)\\,dx=\\dfrac{32}{3}\\).",
+   "answer": "b",
+   "explain_en": "Answer: b. \\(V=\\pi\\displaystyle\\int_a^b f^2(x)\\,dx=\\dfrac{32\\pi}{5}\\) (do not forget \\(\\pi\\) and the square).",
+   "explain_vi": "Đáp án b. \\(V=\\pi\\displaystyle\\int_a^b f^2(x)\\,dx=\\dfrac{32\\pi}{5}\\) (đừng quên \\(\\pi\\) và bình phương).",
    "images": [],
-   "id": "3872e352502a",
+   "id": "51e12e0cd435",
    "status": "đang dùng",
    "sources": [
-    "hiện tại",
-    "9dde968"
+    "hiện tại"
    ]
   },
   {
    "level": 1,
    "section": "D",
    "type": "mcq",
-   "form": "The area bounded by \\(y=x^#-#\\), the \\(x\\)-axis, \\(x=-#\\) and \\(x=#\\) is…",
-   "en": "The area bounded by \\(y=x^2-9\\), the \\(x\\)-axis, \\(x=-3\\) and \\(x=3\\) is…",
-   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"area of a plane region\">Diện tích hình phẳng</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"limit\">giới hạn</b> bởi \\(y=x^2-9\\), trục hoành, \\(x=-3\\), \\(x=3\\) là…",
+   "form": "The shaded region is bounded by \\(y=x^#-#\\), the axis \\(Ox\\) and the lines \\(x=#\\), \\(x=#\\) (see the figure). Its area is…",
+   "en": "The shaded region is bounded by \\(y=x^2-4\\), the axis \\(Ox\\) and the lines \\(x=0\\), \\(x=3\\) (see the figure). Its area is…<img src=\"../../../img/tex/f95ec9c4453229b9.svg\" alt=\"Region crossing the axis\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,260px);height:auto\">",
+   "vi": "Miền tô đậm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"limit\">giới hạn</b> bởi \\(y=x^2-4\\), trục \\(Ox\\) và các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(x=0\\), \\(x=3\\) (xem hình). Diện tích miền đó là<img src=\"../../../img/tex/f95ec9c4453229b9.svg\" alt=\"Miền cắt trục hoành\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,260px);height:auto\">",
    "options": [
-    "\\(36\\)",
-    "\\(18\\)",
-    "\\(72\\)",
-    "\\(-36\\)"
+    "\\(\\dfrac{23}{3}\\)",
+    "\\(-3\\)",
+    "\\(3\\)",
+    "\\(\\dfrac{16}{3}\\)"
    ],
    "answer": "a",
-   "explain_en": "Answer: a. \\(x^2-9\\le0\\) on \\([-3;3]\\): \\(S=\\int_{-3}^{3}(9-x^2)\\,dx=36\\).",
-   "explain_vi": "Đáp án a. \\(x^2-9\\le0\\) trên \\([-3;3]\\): \\(S=\\int_{-3}^{3}(9-x^2)\\,dx=36\\).",
-   "images": [],
-   "id": "80e9fe659997",
+   "explain_en": "Answer: a. The graph crosses \\(Ox\\) at \\(x=2\\), so split: \\(S=\\displaystyle\\int_0^{2}(4-x^2)dx+\\int_{2}^{3}(x^2-4)dx=\\dfrac{23}{3}\\) (not \\(\\left|\\int_0^{3}\\right|\\)).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">Đồ thị</b> cắt \\(Ox\\) tại \\(x=2\\) nên tách: \\(S=\\displaystyle\\int_0^{2}(4-x^2)dx+\\int_{2}^{3}(x^2-4)dx=\\dfrac{23}{3}\\) (không phải \\(\\left|\\int_0^{3}\\right|\\)).",
+   "images": [
+    "img/tex/f95ec9c4453229b9.svg"
+   ],
+   "id": "4a5abff6a7e4",
    "status": "đang dùng",
    "sources": [
-    "hiện tại",
-    "9dde968"
+    "hiện tại"
    ]
   },
   {
    "level": 1,
    "section": "D",
    "type": "mcq",
-   "form": "The area bounded by \\(y=x^#-#x\\) and the \\(x\\)-axis is…",
-   "en": "The area bounded by \\(y=x^3-9x\\) and the \\(x\\)-axis is…",
-   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"area of a plane region\">Diện tích hình phẳng</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"limit\">giới hạn</b> bởi \\(y=x^3-9x\\) và trục hoành là…",
+   "form": "The shaded region is bounded by the parabola \\(y=x^#-x+#\\) and the line \\(y=x+#\\) (see the figure). Its area is…",
+   "en": "The shaded region is bounded by the parabola \\(y=x^2-x+3\\) and the line \\(y=x+3\\) (see the figure). Its area is…<img src=\"../../../img/tex/f7dae075049be811.svg\" alt=\"Region between a parabola and a line\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Miền tô đậm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"limit\">giới hạn</b> bởi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parabola\">parabol</b> \\(y=x^2-x+3\\) và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(y=x+3\\) (xem hình). Diện tích miền đó là<img src=\"../../../img/tex/f7dae075049be811.svg\" alt=\"Miền giữa parabol và đường thẳng\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
    "options": [
-    "\\(\\dfrac{81}{2}\\)",
-    "\\(\\dfrac{81}{4}\\)",
-    "\\(81\\)",
-    "\\(0\\)"
+    "\\(\\dfrac{4}{3}\\)",
+    "\\(\\dfrac{8}{3}\\)",
+    "\\(2\\)",
+    "\\(\\dfrac{2}{3}\\)"
    ],
    "answer": "a",
-   "explain_en": "Answer: a. Roots \\(-3,0,3\\); the function changes sign at 0, so \\(S=2\\int_0^{3}(9x-x^3)\\,dx=\\dfrac{81}{2}\\) (not \\(\\int_{-3}^{3}=0\\)).",
-   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">Nghiệm</b> \\(-3,0,3\\); hàm đổi dấu tại 0 nên \\(S=2\\int_0^{3}(9x-x^3)\\,dx=\\dfrac{81}{2}\\) (không phải \\(\\int_{-3}^{3}=0\\)).",
-   "images": [],
-   "id": "79769f80d4b3",
+   "explain_en": "Answer: a. The curves meet at \\(x=0\\), \\(x=2\\): \\(S=\\displaystyle\\int_{0}^{2}\\left|(x^2-x+3)-(x+3)\\right|dx=\\dfrac{4}{3}\\).",
+   "explain_vi": "Đáp án a. Hai đường <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersect\">cắt nhau</b> tại \\(x=0\\), \\(x=2\\): \\(S=\\displaystyle\\int_{0}^{2}\\left|(x^2-x+3)-(x+3)\\right|dx=\\dfrac{4}{3}\\).",
+   "images": [
+    "img/tex/f7dae075049be811.svg"
+   ],
+   "id": "4efe02a075ba",
    "status": "đang dùng",
    "sources": [
-    "hiện tại",
-    "9dde968"
+    "hiện tại"
    ]
   },
   {
    "level": 1,
    "section": "D",
    "type": "mcq",
-   "form": "The area of the region bounded by \\(y=-x^#+#x\\) and the \\(x\\)-axis is…",
-   "en": "The area of the region bounded by \\(y=-x^2+6x\\) and the \\(x\\)-axis is…",
-   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"area of a plane region\">Diện tích hình phẳng</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"limit\">giới hạn</b> bởi \\(y=-x^2+6x\\) và trục hoành là…",
+   "form": "Which integral gives the area of the shaded region bounded by \\(y=x\\), \\(y=x^#\\) and \\(x=#\\)?",
+   "en": "Which integral gives the area of the shaded region bounded by \\(y=x\\), \\(y=x^2\\) and \\(x=2\\)?<img src=\"../../../img/tex/a5cda1c6c859db64.svg\" alt=\"Shaded region\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,260px);height:auto\">",
+   "vi": "Diện tích miền tô đậm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"limit\">giới hạn</b> bởi \\(y=x\\), \\(y=x^2\\) và \\(x=2\\) được tính bởi công thức nào?<img src=\"../../../img/tex/a5cda1c6c859db64.svg\" alt=\"Miền tô đậm\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,260px);height:auto\">",
    "options": [
-    "\\(36\\)",
-    "\\(-36\\)",
-    "\\(18\\)",
-    "\\(72\\)"
+    "\\(\\displaystyle\\int_{0}^{1}\\left(x-x^2\\right)dx+\\displaystyle\\int_{1}^{2}\\left(x^2-x\\right)dx\\)",
+    "\\(\\displaystyle\\int_{0}^{1}\\left(x-x^2\\right)dx+\\displaystyle\\int_{1}^{2}\\left(x-x^2\\right)dx\\)",
+    "\\(\\displaystyle\\int_{0}^{2}\\left(x^2-x\\right)dx\\)",
+    "\\(\\displaystyle\\int_{0}^{2}\\left(x-x^2\\right)dx\\)"
    ],
    "answer": "a",
-   "explain_en": "Answer: a. Roots \\(0\\), \\(6\\); \\(S=\\int_0^{6}(-x^2+6x)\\,dx=\\dfrac{6^3}{6}=36\\).",
-   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">Nghiệm</b> \\(0\\), \\(6\\); \\(S=\\int_0^{6}(-x^2+6x)\\,dx=\\dfrac{6^3}{6}=36\\).",
-   "images": [],
-   "id": "d085298f54d8",
-   "status": "đang dùng",
-   "sources": [
-    "hiện tại",
-    "9dde968"
-   ]
-  },
-  {
-   "level": 1,
-   "section": "D",
-   "type": "mcq",
-   "form": "The volume obtained by rotating the region under \\(y=\\sqrt x\\), \\(#\\le x\\le#\\), about \\(Ox\\) is…",
-   "en": "The volume obtained by rotating the region under \\(y=\\sqrt x\\), \\(0\\le x\\le4\\), about \\(Ox\\) is…",
-   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"volume\">Thể tích</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solid of revolution\">khối tròn xoay</b> khi quay hình phẳng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"limit\">giới hạn</b> bởi \\(y=\\sqrt x\\), trục hoành, \\(x=4\\) quanh \\(Ox\\) là…",
-   "options": [
-    "\\(16\\pi\\)",
-    "\\(\\dfrac{128\\pi}{3}\\)",
-    "\\(8\\pi\\)",
-    "\\(8\\)"
+   "explain_en": "Answer: a. The curves cross at \\(x=1\\); on each piece subtract the lower curve from the upper one.",
+   "explain_vi": "Đáp án a. Hai đường <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersect\">cắt nhau</b> tại \\(x=1\\); trên mỗi đoạn lấy đường trên trừ đường dưới.",
+   "images": [
+    "img/tex/a5cda1c6c859db64.svg"
    ],
-   "answer": "c",
-   "explain_en": "Answer: c. \\(V=\\pi\\int_0^{4}x\\,dx=8\\pi\\).",
-   "explain_vi": "Đáp án c. \\(V=\\pi\\int_0^{4}x\\,dx=8\\pi\\).",
-   "images": [],
-   "id": "185603788855",
+   "id": "1db3bc9f83f3",
    "status": "đang dùng",
    "sources": [
-    "hiện tại",
-    "9dde968"
+    "hiện tại"
    ]
   },
   {
@@ -497,192 +495,190 @@
    "level": 2,
    "section": "D",
    "type": "mcq",
-   "form": "A gate has the shape of a parabola arch, width \\(#\\) m at the ground and height \\(#\\) m. Its area is…",
-   "en": "A gate has the shape of a parabola arch, width \\(8\\) m at the ground and height \\(6\\) m. Its area is…",
-   "vi": "Một cổng có dạng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parabola\">parabol</b>, bề rộng chân cổng \\(8\\) m, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"height\">chiều cao</b> \\(6\\) m. Diện tích cổng là…",
+   "form": "A hemispherical bowl has radius \\(#\\) cm. Water in it is \\(#\\) cm deep. Using \\(V=\\pi\\displaystyle\\int_{#}^{#}\\left(#-x^#\\right)dx\\) (rotating a circle about \\(Ox\\)), the volume of water (cm³) is…",
+   "en": "A hemispherical bowl has radius \\(3\\) cm. Water in it is \\(1\\) cm deep. Using \\(V=\\pi\\displaystyle\\int_{2}^{3}\\left(9-x^2\\right)dx\\) (rotating a circle about \\(Ox\\)), the volume of water (cm³) is…",
+   "vi": "Một cái bát hình bán cầu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> \\(3\\) cm chứa nước sâu \\(1\\) cm. Dùng \\(V=\\pi\\displaystyle\\int_{2}^{3}\\left(9-x^2\\right)dx\\) (quay <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> quanh \\(Ox\\)), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"volume\">thể tích</b> nước (cm³) là",
    "options": [
-    "\\(48\\ \\text{m}^2\\)",
-    "\\(16\\ \\text{m}^2\\)",
-    "\\(32\\ \\text{m}^2\\)",
-    "\\(24\\ \\text{m}^2\\)"
+    "\\(3\\pi\\)",
+    "\\(\\dfrac{4\\pi}{3}\\)",
+    "\\(\\dfrac{46\\pi}{3}\\)",
+    "\\(\\dfrac{8\\pi}{3}\\)"
    ],
-   "answer": "c",
-   "explain_en": "Answer: c. Put the arch as \\(y=6-\\dfrac{6}{16}x^2\\) on \\(\\left[-4;4\\right]\\); the integral gives \\(\\dfrac23\\cdot8\\cdot6=32\\).",
-   "explain_vi": "Đáp án c. Đặt cổng là \\(y=6-\\dfrac{6}{16}x^2\\) trên \\(\\left[-4;4\\right]\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"definite integral\">tích phân</b> cho \\(\\dfrac23\\cdot8\\cdot6=32\\).",
+   "answer": "d",
+   "explain_en": "Answer: d. \\(V=\\pi\\left[9x-\\dfrac{x^3}{3}\\right]_{2}^{3}=\\pi h^2\\left(R-\\dfrac h3\\right)=\\dfrac{8\\pi}{3}\\).",
+   "explain_vi": "Đáp án d. \\(V=\\pi\\left[9x-\\dfrac{x^3}{3}\\right]_{2}^{3}=\\pi h^2\\left(R-\\dfrac h3\\right)=\\dfrac{8\\pi}{3}\\).",
    "images": [],
-   "id": "004eea458e3c",
+   "id": "93cf47a63f48",
    "status": "đang dùng",
    "sources": [
-    "hiện tại",
-    "9dde968"
+    "hiện tại"
    ]
   },
   {
    "level": 2,
    "section": "D",
    "type": "mcq",
-   "form": "A solid lies between the planes \\(x=#\\) and \\(x=#\\). Its cross-section at \\(x\\) has area \\(S(x)=#x+#\\). Its volume is…",
-   "en": "A solid lies between the planes \\(x=0\\) and \\(x=3\\). Its cross-section at \\(x\\) has area \\(S(x)=4x+1\\). Its volume is…",
-   "vi": "Một vật thể nằm giữa hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> \\(x=0\\) và \\(x=3\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"cross-section\">thiết diện</b> tại \\(x\\) có diện tích \\(S(x)=4x+1\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"volume\">Thể tích</b> vật thể là…",
+   "form": "A solid lies between the planes \\(x=#\\) and \\(x=#\\). Its cross-section perpendicular to \\(Ox\\) at \\(x\\) is a semicircle with diameter \\(x\\). Its volume is…",
+   "en": "A solid lies between the planes \\(x=0\\) and \\(x=6\\). Its cross-section perpendicular to \\(Ox\\) at \\(x\\) is a semicircle with diameter \\(x\\). Its volume is…",
+   "vi": "Một vật thể nằm giữa hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> \\(x=0\\) và \\(x=6\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"cross-section\">Thiết diện</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"perpendicular\">vuông góc</b> với \\(Ox\\) tại \\(x\\) là một nửa hình tròn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diameter\">đường kính</b> \\(x\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"volume\">Thể tích</b> vật thể là",
    "options": [
-    "\\(13\\)",
-    "\\(21\\pi\\)",
-    "\\(21\\)",
-    "\\(39\\)"
-   ],
-   "answer": "c",
-   "explain_en": "Answer: c. \\(V=\\int_0^{3}S(x)\\,dx=21\\).",
-   "explain_vi": "Đáp án c. \\(V=\\int_0^{3}S(x)\\,dx=21\\).",
-   "images": [],
-   "id": "517edc89ef6b",
-   "status": "đang dùng",
-   "sources": [
-    "hiện tại",
-    "9dde968"
-   ]
-  },
-  {
-   "level": 2,
-   "section": "D",
-   "type": "mcq",
-   "form": "Rotating the region under \\(y=\\dfrac#x\\), \\(#\\le x\\le#\\), about the \\(x\\)-axis gives a cone of volume…",
-   "en": "Rotating the region under \\(y=\\dfrac12x\\), \\(0\\le x\\le2\\), about the \\(x\\)-axis gives a cone of volume…",
-   "vi": "Quay hình phẳng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"limit\">giới hạn</b> bởi \\(y=\\dfrac12x\\), trục hoành, \\(x=2\\) quanh trục \\(Ox\\) được khối nón có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"volume\">thể tích</b>…",
-   "options": [
-    "\\(\\pi\\)",
-    "\\(\\dfrac{2\\pi}{3}\\)",
-    "\\(2\\pi\\)",
-    "\\(\\dfrac{2}{3}\\)"
-   ],
-   "answer": "b",
-   "explain_en": "Answer: b. \\(V=\\pi\\int_0^{2}(\\dfrac12x)^2dx=\\dfrac{2\\pi}{3}\\).",
-   "explain_vi": "Đáp án b. \\(V=\\pi\\int_0^{2}(\\dfrac12x)^2dx=\\dfrac{2\\pi}{3}\\).",
-   "images": [],
-   "id": "003d8ea8df0a",
-   "status": "đang dùng",
-   "sources": [
-    "hiện tại",
-    "9dde968"
-   ]
-  },
-  {
-   "level": 2,
-   "section": "D",
-   "type": "mcq",
-   "form": "The area between \\(y=x^#\\) and \\(y=x\\) is…",
-   "en": "The area between \\(y=x^2\\) and \\(y=x\\) is…",
-   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"area of a plane region\">Diện tích hình phẳng</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"limit\">giới hạn</b> bởi \\(y=x^2\\) và \\(y=x\\) là…",
-   "options": [
-    "\\(\\dfrac{1}{6}\\)",
-    "\\(\\dfrac{1}{2}\\)",
-    "\\(\\dfrac{1}{3}\\)",
-    "\\(\\dfrac{1}{12}\\)"
-   ],
-   "answer": "a",
-   "explain_en": "Answer: a. Intersections \\(x=0\\), \\(x=1\\); \\(S=\\int_0^{1}(x-x^2)\\,dx=\\dfrac{1}{6}\\).",
-   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersection point\">Giao điểm</b> \\(x=0\\), \\(x=1\\); \\(S=\\int_0^{1}(x-x^2)\\,dx=\\dfrac{1}{6}\\).",
-   "images": [],
-   "id": "1141095b1c8f",
-   "status": "đang dùng",
-   "sources": [
-    "hiện tại",
-    "9dde968"
-   ]
-  },
-  {
-   "level": 2,
-   "section": "D",
-   "type": "mcq",
-   "form": "The area bounded by \\(y=x^#-#\\), the \\(x\\)-axis, \\(x=-#\\) and \\(x=#\\) is…",
-   "en": "The area bounded by \\(y=x^2-1\\), the \\(x\\)-axis, \\(x=-1\\) and \\(x=1\\) is…",
-   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"area of a plane region\">Diện tích hình phẳng</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"limit\">giới hạn</b> bởi \\(y=x^2-1\\), trục hoành, \\(x=-1\\), \\(x=1\\) là…",
-   "options": [
-    "\\(-\\dfrac{4}{3}\\)",
-    "\\(\\dfrac{8}{3}\\)",
-    "\\(\\dfrac{4}{3}\\)",
-    "\\(\\dfrac{2}{3}\\)"
-   ],
-   "answer": "c",
-   "explain_en": "Answer: c. \\(x^2-1\\le0\\) on \\([-1;1]\\): \\(S=\\int_{-1}^{1}(1-x^2)\\,dx=\\dfrac{4}{3}\\).",
-   "explain_vi": "Đáp án c. \\(x^2-1\\le0\\) trên \\([-1;1]\\): \\(S=\\int_{-1}^{1}(1-x^2)\\,dx=\\dfrac{4}{3}\\).",
-   "images": [],
-   "id": "cf4ac55e7630",
-   "status": "đang dùng",
-   "sources": [
-    "hiện tại",
-    "9dde968"
-   ]
-  },
-  {
-   "level": 2,
-   "section": "D",
-   "type": "mcq",
-   "form": "The area bounded by \\(y=x^#-#x\\) and the \\(x\\)-axis is…",
-   "en": "The area bounded by \\(y=x^3-4x\\) and the \\(x\\)-axis is…",
-   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"area of a plane region\">Diện tích hình phẳng</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"limit\">giới hạn</b> bởi \\(y=x^3-4x\\) và trục hoành là…",
-   "options": [
-    "\\(8\\)",
-    "\\(4\\)",
-    "\\(16\\)",
-    "\\(0\\)"
-   ],
-   "answer": "a",
-   "explain_en": "Answer: a. Roots \\(-2,0,2\\); the function changes sign at 0, so \\(S=2\\int_0^{2}(4x-x^3)\\,dx=8\\) (not \\(\\int_{-2}^{2}=0\\)).",
-   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">Nghiệm</b> \\(-2,0,2\\); hàm đổi dấu tại 0 nên \\(S=2\\int_0^{2}(4x-x^3)\\,dx=8\\) (không phải \\(\\int_{-2}^{2}=0\\)).",
-   "images": [],
-   "id": "8920c414f88b",
-   "status": "đang dùng",
-   "sources": [
-    "hiện tại",
-    "9dde968"
-   ]
-  },
-  {
-   "level": 2,
-   "section": "D",
-   "type": "mcq",
-   "form": "The area of the region bounded by \\(y=-x^#+#x\\) and the \\(x\\)-axis is…",
-   "en": "The area of the region bounded by \\(y=-x^2+4x\\) and the \\(x\\)-axis is…",
-   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"area of a plane region\">Diện tích hình phẳng</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"limit\">giới hạn</b> bởi \\(y=-x^2+4x\\) và trục hoành là…",
-   "options": [
-    "\\(8\\)",
-    "\\(\\dfrac{32}{3}\\)",
-    "\\(\\dfrac{64}{3}\\)",
-    "\\(-\\dfrac{32}{3}\\)"
-   ],
-   "answer": "b",
-   "explain_en": "Answer: b. Roots \\(0\\), \\(4\\); \\(S=\\int_0^{4}(-x^2+4x)\\,dx=\\dfrac{4^3}{6}=\\dfrac{32}{3}\\).",
-   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">Nghiệm</b> \\(0\\), \\(4\\); \\(S=\\int_0^{4}(-x^2+4x)\\,dx=\\dfrac{4^3}{6}=\\dfrac{32}{3}\\).",
-   "images": [],
-   "id": "0cf236e3db85",
-   "status": "đang dùng",
-   "sources": [
-    "hiện tại",
-    "9dde968"
-   ]
-  },
-  {
-   "level": 2,
-   "section": "D",
-   "type": "mcq",
-   "form": "The volume obtained by rotating the region under \\(y=\\sqrt x\\), \\(#\\le x\\le#\\), about \\(Ox\\) is…",
-   "en": "The volume obtained by rotating the region under \\(y=\\sqrt x\\), \\(0\\le x\\le6\\), about \\(Ox\\) is…",
-   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"volume\">Thể tích</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solid of revolution\">khối tròn xoay</b> khi quay hình phẳng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"limit\">giới hạn</b> bởi \\(y=\\sqrt x\\), trục hoành, \\(x=6\\) quanh \\(Ox\\) là…",
-   "options": [
-    "\\(18\\pi\\)",
-    "\\(18\\)",
     "\\(36\\pi\\)",
-    "\\(144\\pi\\)"
+    "\\(9\\pi\\)",
+    "\\(72\\pi\\)",
+    "\\(18\\pi\\)"
    ],
-   "answer": "a",
-   "explain_en": "Answer: a. \\(V=\\pi\\int_0^{6}x\\,dx=18\\pi\\).",
-   "explain_vi": "Đáp án a. \\(V=\\pi\\int_0^{6}x\\,dx=18\\pi\\).",
+   "answer": "b",
+   "explain_en": "Answer: b. \\(S(x)=\\dfrac{\\pi}{8}x^2\\), \\(V=\\displaystyle\\int_0^{6}S(x)\\,dx=9\\pi\\).",
+   "explain_vi": "Đáp án b. \\(S(x)=\\dfrac{\\pi}{8}x^2\\), \\(V=\\displaystyle\\int_0^{6}S(x)\\,dx=9\\pi\\).",
    "images": [],
-   "id": "af27608ea04a",
+   "id": "99367d44fbe9",
    "status": "đang dùng",
    "sources": [
-    "hiện tại",
-    "9dde968"
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The region between \\(y=\\sqrt x\\) and \\(y=x\\) for \\(#\\le x\\le#\\) is rotated about \\(Ox\\). The volume of the solid is…",
+   "en": "The region between \\(y=\\sqrt x\\) and \\(y=x\\) for \\(0\\le x\\le1\\) is rotated about \\(Ox\\). The volume of the solid is…",
+   "vi": "Miền giữa hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> \\(y=\\sqrt x\\) và \\(y=x\\) với \\(0\\le x\\le1\\) quay quanh trục \\(Ox\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"volume\">Thể tích</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solid of revolution\">khối tròn xoay</b> là",
+   "options": [
+    "\\(\\dfrac{\\pi}{3}\\)",
+    "\\(\\dfrac{\\pi}{6}\\)",
+    "\\(\\dfrac{\\pi}{30}\\)",
+    "\\(\\dfrac{\\pi}{2}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Washer: \\(V=\\pi\\displaystyle\\int_{0}^{1}\\left(f^2-g^2\\right)dx\\) with the upper curve \\(f\\); this is not \\(\\pi\\displaystyle\\int(f-g)^2dx\\). Answer: \\(\\dfrac{\\pi}{6}\\).",
+   "explain_vi": "Đáp án b. Khối có lỗ: \\(V=\\pi\\displaystyle\\int_{0}^{1}\\left(f^2-g^2\\right)dx\\) với \\(f\\) là đường phía trên; không phải \\(\\pi\\displaystyle\\int(f-g)^2dx\\). Đáp số: \\(\\dfrac{\\pi}{6}\\).",
+   "images": [],
+   "id": "e26fbfa3927f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The region between \\(y=x^#\\) and the line \\(y=m\\) (\\(m\\gt#\\)) has area \\(\\dfrac{#}{#}\\). Then \\(m=\\)…",
+   "en": "The region between \\(y=x^2\\) and the line \\(y=m\\) (\\(m\\gt0\\)) has area \\(\\dfrac{4}{3}\\). Then \\(m=\\)…",
+   "vi": "Miền <b class=\"mbl-term\" tabindex=\"0\" data-en=\"limit\">giới hạn</b> bởi \\(y=x^2\\) và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(y=m\\) (\\(m\\gt0\\)) có diện tích \\(\\dfrac{4}{3}\\). Khi đó \\(m=\\)",
+   "options": [
+    "\\(3\\)",
+    "\\(2\\)",
+    "\\(4\\)",
+    "\\(1\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. The curves meet at \\(x=\\pm\\sqrt m\\): \\(S=\\displaystyle\\int_{-\\sqrt m}^{\\sqrt m}(m-x^2)dx=\\dfrac43m\\sqrt m=\\dfrac{4}{3}\\Rightarrow m=1\\).",
+   "explain_vi": "Đáp án d. Hai đường <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersect\">cắt nhau</b> tại \\(x=\\pm\\sqrt m\\): \\(S=\\displaystyle\\int_{-\\sqrt m}^{\\sqrt m}(m-x^2)dx=\\dfrac43m\\sqrt m=\\dfrac{4}{3}\\Rightarrow m=1\\).",
+   "images": [],
+   "id": "b13a53abb214",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The region under \\(y=\\dfrac#x\\) over \\([#;\\,#]\\) (and above \\(Ox\\)) is rotated about \\(Ox\\). The volume of the solid is…",
+   "en": "The region under \\(y=\\dfrac1x\\) over \\([1;\\,2]\\) (and above \\(Ox\\)) is rotated about \\(Ox\\). The volume of the solid is…",
+   "vi": "Miền nằm dưới <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> \\(y=\\dfrac1x\\) trên đoạn \\([1;\\,2]\\) (và phía trên \\(Ox\\)) quay quanh trục \\(Ox\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"volume\">Thể tích</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solid of revolution\">khối tròn xoay</b> là",
+   "options": [
+    "\\(\\dfrac12\\)",
+    "\\(2\\pi\\)",
+    "\\(\\dfrac{\\pi}{2}\\)",
+    "\\(\\pi\\ln2\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(V=\\pi\\displaystyle\\int_a^b f^2(x)\\,dx=\\dfrac{\\pi}{2}\\) (do not forget \\(\\pi\\) and the square).",
+   "explain_vi": "Đáp án c. \\(V=\\pi\\displaystyle\\int_a^b f^2(x)\\,dx=\\dfrac{\\pi}{2}\\) (đừng quên \\(\\pi\\) và bình phương).",
+   "images": [],
+   "id": "75069c01f97e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The shaded region is bounded by \\(y=x^#-#\\), the axis \\(Ox\\) and the lines \\(x=#\\), \\(x=#\\) (see the figure). Its area is…",
+   "en": "The shaded region is bounded by \\(y=x^2-1\\), the axis \\(Ox\\) and the lines \\(x=0\\), \\(x=3\\) (see the figure). Its area is…<img src=\"../../../img/tex/947fabbe0da6b126.svg\" alt=\"Region crossing the axis\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,260px);height:auto\">",
+   "vi": "Miền tô đậm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"limit\">giới hạn</b> bởi \\(y=x^2-1\\), trục \\(Ox\\) và các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(x=0\\), \\(x=3\\) (xem hình). Diện tích miền đó là<img src=\"../../../img/tex/947fabbe0da6b126.svg\" alt=\"Miền cắt trục hoành\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,260px);height:auto\">",
+   "options": [
+    "\\(\\dfrac{22}{3}\\)",
+    "\\(8\\)",
+    "\\(6\\)",
+    "\\(\\dfrac{2}{3}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. The graph crosses \\(Ox\\) at \\(x=1\\), so split: \\(S=\\displaystyle\\int_0^{1}(1-x^2)dx+\\int_{1}^{3}(x^2-1)dx=\\dfrac{22}{3}\\) (not \\(\\left|\\int_0^{3}\\right|\\)).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">Đồ thị</b> cắt \\(Ox\\) tại \\(x=1\\) nên tách: \\(S=\\displaystyle\\int_0^{1}(1-x^2)dx+\\int_{1}^{3}(x^2-1)dx=\\dfrac{22}{3}\\) (không phải \\(\\left|\\int_0^{3}\\right|\\)).",
+   "images": [
+    "img/tex/947fabbe0da6b126.svg"
+   ],
+   "id": "833064d66437",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The shaded region is bounded by the parabola \\(y=-x^#+#x\\) and the line \\(y=-x+#\\) (see the figure). Its area is…",
+   "en": "The shaded region is bounded by the parabola \\(y=-x^2+3x\\) and the line \\(y=-x+3\\) (see the figure). Its area is…<img src=\"../../../img/tex/4297ec4e2e1ef830.svg\" alt=\"Region between a parabola and a line\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Miền tô đậm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"limit\">giới hạn</b> bởi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parabola\">parabol</b> \\(y=-x^2+3x\\) và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(y=-x+3\\) (xem hình). Diện tích miền đó là<img src=\"../../../img/tex/4297ec4e2e1ef830.svg\" alt=\"Miền giữa parabol và đường thẳng\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "\\(\\dfrac{2}{3}\\)",
+    "\\(2\\)",
+    "\\(\\dfrac{8}{3}\\)",
+    "\\(\\dfrac{4}{3}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. The curves meet at \\(x=1\\), \\(x=3\\): \\(S=\\displaystyle\\int_{1}^{3}\\left|(-x^2+3x)-(-x+3)\\right|dx=\\dfrac{4}{3}\\).",
+   "explain_vi": "Đáp án d. Hai đường <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersect\">cắt nhau</b> tại \\(x=1\\), \\(x=3\\): \\(S=\\displaystyle\\int_{1}^{3}\\left|(-x^2+3x)-(-x+3)\\right|dx=\\dfrac{4}{3}\\).",
+   "images": [
+    "img/tex/4297ec4e2e1ef830.svg"
+   ],
+   "id": "6642377f1909",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The shaded region lies between \\(y=#x\\) and \\(y=x^#\\), from the origin to \\(x=#\\). Its area equals…",
+   "en": "The shaded region lies between \\(y=2x\\) and \\(y=x^2\\), from the origin to \\(x=3\\). Its area equals…<img src=\"../../../img/tex/dedfc9d8cf2beeeb.svg\" alt=\"Shaded region\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,260px);height:auto\">",
+   "vi": "Miền tô đậm nằm giữa \\(y=2x\\) và \\(y=x^2\\), từ <b class=\"mbl-term\" tabindex=\"0\" data-en=\"origin\">gốc tọa độ</b> đến \\(x=3\\). Diện tích miền đó bằng<img src=\"../../../img/tex/dedfc9d8cf2beeeb.svg\" alt=\"Miền tô đậm\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,260px);height:auto\">",
+   "options": [
+    "\\(\\displaystyle\\int_{0}^{2}\\left(2x-x^2\\right)dx+\\displaystyle\\int_{2}^{3}\\left(2x-x^2\\right)dx\\)",
+    "\\(\\displaystyle\\int_{0}^{2}\\left(2x-x^2\\right)dx+\\displaystyle\\int_{2}^{3}\\left(x^2-2x\\right)dx\\)",
+    "\\(\\displaystyle\\int_{0}^{3}\\left(2x-x^2\\right)dx\\)",
+    "\\(\\displaystyle\\int_{0}^{3}\\left(x^2-2x\\right)dx\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. The curves cross at \\(x=2\\); on each piece subtract the lower curve from the upper one.",
+   "explain_vi": "Đáp án b. Hai đường <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersect\">cắt nhau</b> tại \\(x=2\\); trên mỗi đoạn lấy đường trên trừ đường dưới.",
+   "images": [
+    "img/tex/dedfc9d8cf2beeeb.svg"
+   ],
+   "id": "95a850e0ef54",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
    ]
   },
   {
@@ -837,6 +833,564 @@
    "level": 3,
    "section": "D",
    "type": "mcq",
+   "form": "A hemispherical bowl has radius \\(#\\) cm. Water in it is \\(#\\) cm deep. Using \\(V=\\pi\\displaystyle\\int_{#}^{#}\\left(#-x^#\\right)dx\\) (rotating a circle about \\(Ox\\)), the volume of water (cm³) is…",
+   "en": "A hemispherical bowl has radius \\(9\\) cm. Water in it is \\(5\\) cm deep. Using \\(V=\\pi\\displaystyle\\int_{4}^{9}\\left(81-x^2\\right)dx\\) (rotating a circle about \\(Ox\\)), the volume of water (cm³) is…",
+   "vi": "Một cái bát hình bán cầu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> \\(9\\) cm chứa nước sâu \\(5\\) cm. Dùng \\(V=\\pi\\displaystyle\\int_{4}^{9}\\left(81-x^2\\right)dx\\) (quay <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> quanh \\(Ox\\)), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"volume\">thể tích</b> nước (cm³) là",
+   "options": [
+    "\\(225\\pi\\)",
+    "\\(\\dfrac{550\\pi}{3}\\)",
+    "\\(\\dfrac{275\\pi}{3}\\)",
+    "\\(\\dfrac{908\\pi}{3}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(V=\\pi\\left[81x-\\dfrac{x^3}{3}\\right]_{4}^{9}=\\pi h^2\\left(R-\\dfrac h3\\right)=\\dfrac{550\\pi}{3}\\).",
+   "explain_vi": "Đáp án b. \\(V=\\pi\\left[81x-\\dfrac{x^3}{3}\\right]_{4}^{9}=\\pi h^2\\left(R-\\dfrac h3\\right)=\\dfrac{550\\pi}{3}\\).",
+   "images": [],
+   "id": "16ae0b2171f5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "A solid lies between the planes \\(x=#\\) and \\(x=#\\). Its cross-section perpendicular to \\(Ox\\) at \\(x\\) is a semicircle with diameter \\(x\\). Its volume is…",
+   "en": "A solid lies between the planes \\(x=0\\) and \\(x=4\\). Its cross-section perpendicular to \\(Ox\\) at \\(x\\) is a semicircle with diameter \\(x\\). Its volume is…",
+   "vi": "Một vật thể nằm giữa hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> \\(x=0\\) và \\(x=4\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"cross-section\">Thiết diện</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"perpendicular\">vuông góc</b> với \\(Ox\\) tại \\(x\\) là một nửa hình tròn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diameter\">đường kính</b> \\(x\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"volume\">Thể tích</b> vật thể là",
+   "options": [
+    "\\(\\dfrac{32\\pi}{3}\\)",
+    "\\(\\dfrac{64\\pi}{3}\\)",
+    "\\(\\dfrac{8\\pi}{3}\\)",
+    "\\(\\dfrac{16\\pi}{3}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(S(x)=\\dfrac{\\pi}{8}x^2\\), \\(V=\\displaystyle\\int_0^{4}S(x)\\,dx=\\dfrac{8\\pi}{3}\\).",
+   "explain_vi": "Đáp án c. \\(S(x)=\\dfrac{\\pi}{8}x^2\\), \\(V=\\displaystyle\\int_0^{4}S(x)\\,dx=\\dfrac{8\\pi}{3}\\).",
+   "images": [],
+   "id": "69c12ef1ce41",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Choose the correct formula for the area of the shaded region (curves \\(y=x\\), \\(y=x^#\\), line \\(x=#\\)).",
+   "en": "Choose the correct formula for the area of the shaded region (curves \\(y=x\\), \\(y=x^2\\), line \\(x=2\\)).<img src=\"../../../img/tex/a5cda1c6c859db64.svg\" alt=\"Shaded region\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,260px);height:auto\">",
+   "vi": "Chọn công thức đúng tính diện tích miền tô đậm (các đường \\(y=x\\), \\(y=x^2\\), \\(x=2\\)).<img src=\"../../../img/tex/a5cda1c6c859db64.svg\" alt=\"Miền tô đậm\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,260px);height:auto\">",
+   "options": [
+    "\\(\\displaystyle\\int_{0}^{2}\\left(x-x^2\\right)dx\\)",
+    "\\(\\displaystyle\\int_{0}^{2}\\left(x^2-x\\right)dx\\)",
+    "\\(\\displaystyle\\int_{0}^{1}\\left(x-x^2\\right)dx+\\displaystyle\\int_{1}^{2}\\left(x^2-x\\right)dx\\)",
+    "\\(\\displaystyle\\int_{0}^{1}\\left(x-x^2\\right)dx+\\displaystyle\\int_{1}^{2}\\left(x-x^2\\right)dx\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The curves cross at \\(x=1\\); on each piece subtract the lower curve from the upper one.",
+   "explain_vi": "Đáp án c. Hai đường <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersect\">cắt nhau</b> tại \\(x=1\\); trên mỗi đoạn lấy đường trên trừ đường dưới.",
+   "images": [
+    "img/tex/a5cda1c6c859db64.svg"
+   ],
+   "id": "27f1ede99eec",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The region between \\(y=x\\) and \\(y=x^#\\) for \\(#\\le x\\le#\\) is rotated about \\(Ox\\). The volume of the solid is…",
+   "en": "The region between \\(y=x\\) and \\(y=x^3\\) for \\(0\\le x\\le1\\) is rotated about \\(Ox\\). The volume of the solid is…",
+   "vi": "Miền giữa hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> \\(y=x\\) và \\(y=x^3\\) với \\(0\\le x\\le1\\) quay quanh trục \\(Ox\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"volume\">Thể tích</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solid of revolution\">khối tròn xoay</b> là",
+   "options": [
+    "\\(\\dfrac{\\pi}{12}\\)",
+    "\\(\\dfrac{4\\pi}{21}\\)",
+    "\\(\\dfrac{2\\pi}{7}\\)",
+    "\\(\\dfrac{\\pi}{4}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Washer: \\(V=\\pi\\displaystyle\\int_{0}^{1}\\left(f^2-g^2\\right)dx\\) with the upper curve \\(f\\); this is not \\(\\pi\\displaystyle\\int(f-g)^2dx\\). Answer: \\(\\dfrac{4\\pi}{21}\\).",
+   "explain_vi": "Đáp án b. Khối có lỗ: \\(V=\\pi\\displaystyle\\int_{0}^{1}\\left(f^2-g^2\\right)dx\\) với \\(f\\) là đường phía trên; không phải \\(\\pi\\displaystyle\\int(f-g)^2dx\\). Đáp số: \\(\\dfrac{4\\pi}{21}\\).",
+   "images": [],
+   "id": "dfc02b7a2b8f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The region between \\(y=x^#\\) and the line \\(y=m\\) (\\(m\\gt#\\)) has area \\(#\\). Then \\(m=\\)…",
+   "en": "The region between \\(y=x^2\\) and the line \\(y=m\\) (\\(m\\gt0\\)) has area \\(36\\). Then \\(m=\\)…",
+   "vi": "Miền <b class=\"mbl-term\" tabindex=\"0\" data-en=\"limit\">giới hạn</b> bởi \\(y=x^2\\) và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(y=m\\) (\\(m\\gt0\\)) có diện tích \\(36\\). Khi đó \\(m=\\)",
+   "options": [
+    "\\(3\\)",
+    "\\(9\\)",
+    "\\(81\\)",
+    "\\(10\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. The curves meet at \\(x=\\pm\\sqrt m\\): \\(S=\\displaystyle\\int_{-\\sqrt m}^{\\sqrt m}(m-x^2)dx=\\dfrac43m\\sqrt m=36\\Rightarrow m=9\\).",
+   "explain_vi": "Đáp án b. Hai đường <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersect\">cắt nhau</b> tại \\(x=\\pm\\sqrt m\\): \\(S=\\displaystyle\\int_{-\\sqrt m}^{\\sqrt m}(m-x^2)dx=\\dfrac43m\\sqrt m=36\\Rightarrow m=9\\).",
+   "images": [],
+   "id": "8518bd8c9754",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The region under \\(y=e^x\\) over \\([#;\\,#]\\) (and above \\(Ox\\)) is rotated about \\(Ox\\). The volume of the solid is…",
+   "en": "The region under \\(y=e^x\\) over \\([0;\\,1]\\) (and above \\(Ox\\)) is rotated about \\(Ox\\). The volume of the solid is…",
+   "vi": "Miền nằm dưới <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> \\(y=e^x\\) trên đoạn \\([0;\\,1]\\) (và phía trên \\(Ox\\)) quay quanh trục \\(Ox\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"volume\">Thể tích</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solid of revolution\">khối tròn xoay</b> là",
+   "options": [
+    "\\(\\dfrac{e^2-1}{2}\\)",
+    "\\(\\pi(e^2-1)\\)",
+    "\\(\\pi(e-1)\\)",
+    "\\(\\dfrac{\\pi(e^2-1)}{2}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(V=\\pi\\displaystyle\\int_a^b f^2(x)\\,dx=\\dfrac{\\pi(e^2-1)}{2}\\) (do not forget \\(\\pi\\) and the square).",
+   "explain_vi": "Đáp án d. \\(V=\\pi\\displaystyle\\int_a^b f^2(x)\\,dx=\\dfrac{\\pi(e^2-1)}{2}\\) (đừng quên \\(\\pi\\) và bình phương).",
+   "images": [],
+   "id": "7f9251541acd",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The shaded region is bounded by \\(y=x^#-#\\), the axis \\(Ox\\) and the lines \\(x=#\\), \\(x=#\\) (see the figure). Its area is…",
+   "en": "The shaded region is bounded by \\(y=x^2-1\\), the axis \\(Ox\\) and the lines \\(x=0\\), \\(x=2\\) (see the figure). Its area is…<img src=\"../../../img/tex/9959d68e7f7841ec.svg\" alt=\"Region crossing the axis\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,260px);height:auto\">",
+   "vi": "Miền tô đậm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"limit\">giới hạn</b> bởi \\(y=x^2-1\\), trục \\(Ox\\) và các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(x=0\\), \\(x=2\\) (xem hình). Diện tích miền đó là<img src=\"../../../img/tex/9959d68e7f7841ec.svg\" alt=\"Miền cắt trục hoành\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,260px);height:auto\">",
+   "options": [
+    "\\(\\dfrac{8}{3}\\)",
+    "\\(3\\)",
+    "\\(\\dfrac{2}{3}\\)",
+    "\\(2\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. The graph crosses \\(Ox\\) at \\(x=1\\), so split: \\(S=\\displaystyle\\int_0^{1}(1-x^2)dx+\\int_{1}^{2}(x^2-1)dx=2\\) (not \\(\\left|\\int_0^{2}\\right|\\)).",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">Đồ thị</b> cắt \\(Ox\\) tại \\(x=1\\) nên tách: \\(S=\\displaystyle\\int_0^{1}(1-x^2)dx+\\int_{1}^{2}(x^2-1)dx=2\\) (không phải \\(\\left|\\int_0^{2}\\right|\\)).",
+   "images": [
+    "img/tex/9959d68e7f7841ec.svg"
+   ],
+   "id": "d3cf2055da1b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The shaded region is bounded by the parabola \\(y=x^#+#x+#\\) and the line \\(y=#\\) (see the figure). Its area is…",
+   "en": "The shaded region is bounded by the parabola \\(y=x^2+2x+2\\) and the line \\(y=2\\) (see the figure). Its area is…<img src=\"../../../img/tex/1dfde6cbea8556b2.svg\" alt=\"Region between a parabola and a line\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Miền tô đậm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"limit\">giới hạn</b> bởi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parabola\">parabol</b> \\(y=x^2+2x+2\\) và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(y=2\\) (xem hình). Diện tích miền đó là<img src=\"../../../img/tex/1dfde6cbea8556b2.svg\" alt=\"Miền giữa parabol và đường thẳng\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "\\(\\dfrac{4}{3}\\)",
+    "\\(\\dfrac{8}{3}\\)",
+    "\\(\\dfrac{2}{3}\\)",
+    "\\(2\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. The curves meet at \\(x=-2\\), \\(x=0\\): \\(S=\\displaystyle\\int_{-2}^{0}\\left|(x^2+2x+2)-(2)\\right|dx=\\dfrac{4}{3}\\).",
+   "explain_vi": "Đáp án a. Hai đường <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersect\">cắt nhau</b> tại \\(x=-2\\), \\(x=0\\): \\(S=\\displaystyle\\int_{-2}^{0}\\left|(x^2+2x+2)-(2)\\right|dx=\\dfrac{4}{3}\\).",
+   "images": [
+    "img/tex/1dfde6cbea8556b2.svg"
+   ],
+   "id": "eb0571807aa5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "A gate has the shape of a parabola arch, width \\(#\\) m at the ground and height \\(#\\) m. Its area is…",
+   "en": "A gate has the shape of a parabola arch, width \\(4\\) m at the ground and height \\(3\\) m. Its area is…",
+   "vi": "Một cổng có dạng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parabola\">parabol</b>, bề rộng chân cổng \\(4\\) m, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"height\">chiều cao</b> \\(3\\) m. Diện tích cổng là…",
+   "options": [
+    "\\(8\\ \\text{m}^2\\)",
+    "\\(6\\ \\text{m}^2\\)",
+    "\\(12\\ \\text{m}^2\\)",
+    "\\(4\\ \\text{m}^2\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Put the arch as \\(y=3-\\dfrac{3}{4}x^2\\) on \\(\\left[-2;2\\right]\\); the integral gives \\(\\dfrac23\\cdot4\\cdot3=8\\).",
+   "explain_vi": "Đáp án a. Đặt cổng là \\(y=3-\\dfrac{3}{4}x^2\\) trên \\(\\left[-2;2\\right]\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"definite integral\">tích phân</b> cho \\(\\dfrac23\\cdot4\\cdot3=8\\).",
+   "images": [],
+   "id": "3c386c62cad3",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "A solid lies between the planes \\(x=#\\) and \\(x=#\\). Its cross-section at \\(x\\) has area \\(S(x)=x+#\\). Its volume is…",
+   "en": "A solid lies between the planes \\(x=0\\) and \\(x=2\\). Its cross-section at \\(x\\) has area \\(S(x)=x+2\\). Its volume is…",
+   "vi": "Một vật thể nằm giữa hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> \\(x=0\\) và \\(x=2\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"cross-section\">thiết diện</b> tại \\(x\\) có diện tích \\(S(x)=x+2\\). Thể tích vật thể là…",
+   "options": [
+    "\\(8\\)",
+    "\\(6\\)",
+    "\\(4\\)",
+    "\\(6\\pi\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(V=\\int_0^{2}S(x)\\,dx=6\\).",
+   "explain_vi": "Đáp án b. \\(V=\\int_0^{2}S(x)\\,dx=6\\).",
+   "images": [],
+   "id": "42cd2b75afd6",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Rotating the region under \\(y=x\\), \\(#\\le x\\le#\\), about the \\(x\\)-axis gives a cone of volume…",
+   "en": "Rotating the region under \\(y=x\\), \\(0\\le x\\le3\\), about the \\(x\\)-axis gives a cone of volume…",
+   "vi": "Quay hình phẳng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"limit\">giới hạn</b> bởi \\(y=x\\), trục hoành, \\(x=3\\) quanh trục \\(Ox\\) được khối nón có thể tích…",
+   "options": [
+    "\\(9\\)",
+    "\\(\\dfrac{27\\pi}{2}\\)",
+    "\\(9\\pi\\)",
+    "\\(27\\pi\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(V=\\pi\\int_0^{3}(x)^2dx=9\\pi\\).",
+   "explain_vi": "Đáp án c. \\(V=\\pi\\int_0^{3}(x)^2dx=9\\pi\\).",
+   "images": [],
+   "id": "0698feec6958",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The area between \\(y=x^#\\) and \\(y=#x\\) is…",
+   "en": "The area between \\(y=x^2\\) and \\(y=4x\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"area of a plane region\">Diện tích hình phẳng</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"limit\">giới hạn</b> bởi \\(y=x^2\\) và \\(y=4x\\) là…",
+   "options": [
+    "\\(\\dfrac{64}{3}\\)",
+    "\\(8\\)",
+    "\\(32\\)",
+    "\\(\\dfrac{32}{3}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Intersections \\(x=0\\), \\(x=4\\); \\(S=\\int_0^{4}(4x-x^2)\\,dx=\\dfrac{32}{3}\\).",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersection point\">Giao điểm</b> \\(x=0\\), \\(x=4\\); \\(S=\\int_0^{4}(4x-x^2)\\,dx=\\dfrac{32}{3}\\).",
+   "images": [],
+   "id": "3872e352502a",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The area bounded by \\(y=x^#-#\\), the \\(x\\)-axis, \\(x=-#\\) and \\(x=#\\) is…",
+   "en": "The area bounded by \\(y=x^2-9\\), the \\(x\\)-axis, \\(x=-3\\) and \\(x=3\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"area of a plane region\">Diện tích hình phẳng</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"limit\">giới hạn</b> bởi \\(y=x^2-9\\), trục hoành, \\(x=-3\\), \\(x=3\\) là…",
+   "options": [
+    "\\(36\\)",
+    "\\(18\\)",
+    "\\(72\\)",
+    "\\(-36\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(x^2-9\\le0\\) on \\([-3;3]\\): \\(S=\\int_{-3}^{3}(9-x^2)\\,dx=36\\).",
+   "explain_vi": "Đáp án a. \\(x^2-9\\le0\\) trên \\([-3;3]\\): \\(S=\\int_{-3}^{3}(9-x^2)\\,dx=36\\).",
+   "images": [],
+   "id": "80e9fe659997",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The area bounded by \\(y=x^#-#x\\) and the \\(x\\)-axis is…",
+   "en": "The area bounded by \\(y=x^3-9x\\) and the \\(x\\)-axis is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"area of a plane region\">Diện tích hình phẳng</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"limit\">giới hạn</b> bởi \\(y=x^3-9x\\) và trục hoành là…",
+   "options": [
+    "\\(\\dfrac{81}{2}\\)",
+    "\\(\\dfrac{81}{4}\\)",
+    "\\(81\\)",
+    "\\(0\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Roots \\(-3,0,3\\); the function changes sign at 0, so \\(S=2\\int_0^{3}(9x-x^3)\\,dx=\\dfrac{81}{2}\\) (not \\(\\int_{-3}^{3}=0\\)).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">Nghiệm</b> \\(-3,0,3\\); hàm đổi dấu tại 0 nên \\(S=2\\int_0^{3}(9x-x^3)\\,dx=\\dfrac{81}{2}\\) (không phải \\(\\int_{-3}^{3}=0\\)).",
+   "images": [],
+   "id": "79769f80d4b3",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The area of the region bounded by \\(y=-x^#+#x\\) and the \\(x\\)-axis is…",
+   "en": "The area of the region bounded by \\(y=-x^2+6x\\) and the \\(x\\)-axis is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"area of a plane region\">Diện tích hình phẳng</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"limit\">giới hạn</b> bởi \\(y=-x^2+6x\\) và trục hoành là…",
+   "options": [
+    "\\(36\\)",
+    "\\(-36\\)",
+    "\\(18\\)",
+    "\\(72\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Roots \\(0\\), \\(6\\); \\(S=\\int_0^{6}(-x^2+6x)\\,dx=\\dfrac{6^3}{6}=36\\).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">Nghiệm</b> \\(0\\), \\(6\\); \\(S=\\int_0^{6}(-x^2+6x)\\,dx=\\dfrac{6^3}{6}=36\\).",
+   "images": [],
+   "id": "d085298f54d8",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The volume obtained by rotating the region under \\(y=\\sqrt x\\), \\(#\\le x\\le#\\), about \\(Ox\\) is…",
+   "en": "The volume obtained by rotating the region under \\(y=\\sqrt x\\), \\(0\\le x\\le4\\), about \\(Ox\\) is…",
+   "vi": "Thể tích <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solid of revolution\">khối tròn xoay</b> khi quay hình phẳng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"limit\">giới hạn</b> bởi \\(y=\\sqrt x\\), trục hoành, \\(x=4\\) quanh \\(Ox\\) là…",
+   "options": [
+    "\\(16\\pi\\)",
+    "\\(\\dfrac{128\\pi}{3}\\)",
+    "\\(8\\pi\\)",
+    "\\(8\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(V=\\pi\\int_0^{4}x\\,dx=8\\pi\\).",
+   "explain_vi": "Đáp án c. \\(V=\\pi\\int_0^{4}x\\,dx=8\\pi\\).",
+   "images": [],
+   "id": "185603788855",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "A gate has the shape of a parabola arch, width \\(#\\) m at the ground and height \\(#\\) m. Its area is…",
+   "en": "A gate has the shape of a parabola arch, width \\(8\\) m at the ground and height \\(6\\) m. Its area is…",
+   "vi": "Một cổng có dạng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parabola\">parabol</b>, bề rộng chân cổng \\(8\\) m, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"height\">chiều cao</b> \\(6\\) m. Diện tích cổng là…",
+   "options": [
+    "\\(48\\ \\text{m}^2\\)",
+    "\\(16\\ \\text{m}^2\\)",
+    "\\(32\\ \\text{m}^2\\)",
+    "\\(24\\ \\text{m}^2\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Put the arch as \\(y=6-\\dfrac{6}{16}x^2\\) on \\(\\left[-4;4\\right]\\); the integral gives \\(\\dfrac23\\cdot8\\cdot6=32\\).",
+   "explain_vi": "Đáp án c. Đặt cổng là \\(y=6-\\dfrac{6}{16}x^2\\) trên \\(\\left[-4;4\\right]\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"definite integral\">tích phân</b> cho \\(\\dfrac23\\cdot8\\cdot6=32\\).",
+   "images": [],
+   "id": "004eea458e3c",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "A solid lies between the planes \\(x=#\\) and \\(x=#\\). Its cross-section at \\(x\\) has area \\(S(x)=#x+#\\). Its volume is…",
+   "en": "A solid lies between the planes \\(x=0\\) and \\(x=3\\). Its cross-section at \\(x\\) has area \\(S(x)=4x+1\\). Its volume is…",
+   "vi": "Một vật thể nằm giữa hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> \\(x=0\\) và \\(x=3\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"cross-section\">thiết diện</b> tại \\(x\\) có diện tích \\(S(x)=4x+1\\). Thể tích vật thể là…",
+   "options": [
+    "\\(13\\)",
+    "\\(21\\pi\\)",
+    "\\(21\\)",
+    "\\(39\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(V=\\int_0^{3}S(x)\\,dx=21\\).",
+   "explain_vi": "Đáp án c. \\(V=\\int_0^{3}S(x)\\,dx=21\\).",
+   "images": [],
+   "id": "517edc89ef6b",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Rotating the region under \\(y=\\dfrac#x\\), \\(#\\le x\\le#\\), about the \\(x\\)-axis gives a cone of volume…",
+   "en": "Rotating the region under \\(y=\\dfrac12x\\), \\(0\\le x\\le2\\), about the \\(x\\)-axis gives a cone of volume…",
+   "vi": "Quay hình phẳng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"limit\">giới hạn</b> bởi \\(y=\\dfrac12x\\), trục hoành, \\(x=2\\) quanh trục \\(Ox\\) được khối nón có thể tích…",
+   "options": [
+    "\\(\\pi\\)",
+    "\\(\\dfrac{2\\pi}{3}\\)",
+    "\\(2\\pi\\)",
+    "\\(\\dfrac{2}{3}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(V=\\pi\\int_0^{2}(\\dfrac12x)^2dx=\\dfrac{2\\pi}{3}\\).",
+   "explain_vi": "Đáp án b. \\(V=\\pi\\int_0^{2}(\\dfrac12x)^2dx=\\dfrac{2\\pi}{3}\\).",
+   "images": [],
+   "id": "003d8ea8df0a",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The area between \\(y=x^#\\) and \\(y=x\\) is…",
+   "en": "The area between \\(y=x^2\\) and \\(y=x\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"area of a plane region\">Diện tích hình phẳng</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"limit\">giới hạn</b> bởi \\(y=x^2\\) và \\(y=x\\) là…",
+   "options": [
+    "\\(\\dfrac{1}{6}\\)",
+    "\\(\\dfrac{1}{2}\\)",
+    "\\(\\dfrac{1}{3}\\)",
+    "\\(\\dfrac{1}{12}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Intersections \\(x=0\\), \\(x=1\\); \\(S=\\int_0^{1}(x-x^2)\\,dx=\\dfrac{1}{6}\\).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersection point\">Giao điểm</b> \\(x=0\\), \\(x=1\\); \\(S=\\int_0^{1}(x-x^2)\\,dx=\\dfrac{1}{6}\\).",
+   "images": [],
+   "id": "1141095b1c8f",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The area bounded by \\(y=x^#-#\\), the \\(x\\)-axis, \\(x=-#\\) and \\(x=#\\) is…",
+   "en": "The area bounded by \\(y=x^2-1\\), the \\(x\\)-axis, \\(x=-1\\) and \\(x=1\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"area of a plane region\">Diện tích hình phẳng</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"limit\">giới hạn</b> bởi \\(y=x^2-1\\), trục hoành, \\(x=-1\\), \\(x=1\\) là…",
+   "options": [
+    "\\(-\\dfrac{4}{3}\\)",
+    "\\(\\dfrac{8}{3}\\)",
+    "\\(\\dfrac{4}{3}\\)",
+    "\\(\\dfrac{2}{3}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(x^2-1\\le0\\) on \\([-1;1]\\): \\(S=\\int_{-1}^{1}(1-x^2)\\,dx=\\dfrac{4}{3}\\).",
+   "explain_vi": "Đáp án c. \\(x^2-1\\le0\\) trên \\([-1;1]\\): \\(S=\\int_{-1}^{1}(1-x^2)\\,dx=\\dfrac{4}{3}\\).",
+   "images": [],
+   "id": "cf4ac55e7630",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The area bounded by \\(y=x^#-#x\\) and the \\(x\\)-axis is…",
+   "en": "The area bounded by \\(y=x^3-4x\\) and the \\(x\\)-axis is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"area of a plane region\">Diện tích hình phẳng</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"limit\">giới hạn</b> bởi \\(y=x^3-4x\\) và trục hoành là…",
+   "options": [
+    "\\(8\\)",
+    "\\(4\\)",
+    "\\(16\\)",
+    "\\(0\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Roots \\(-2,0,2\\); the function changes sign at 0, so \\(S=2\\int_0^{2}(4x-x^3)\\,dx=8\\) (not \\(\\int_{-2}^{2}=0\\)).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">Nghiệm</b> \\(-2,0,2\\); hàm đổi dấu tại 0 nên \\(S=2\\int_0^{2}(4x-x^3)\\,dx=8\\) (không phải \\(\\int_{-2}^{2}=0\\)).",
+   "images": [],
+   "id": "8920c414f88b",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The area of the region bounded by \\(y=-x^#+#x\\) and the \\(x\\)-axis is…",
+   "en": "The area of the region bounded by \\(y=-x^2+4x\\) and the \\(x\\)-axis is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"area of a plane region\">Diện tích hình phẳng</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"limit\">giới hạn</b> bởi \\(y=-x^2+4x\\) và trục hoành là…",
+   "options": [
+    "\\(8\\)",
+    "\\(\\dfrac{32}{3}\\)",
+    "\\(\\dfrac{64}{3}\\)",
+    "\\(-\\dfrac{32}{3}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Roots \\(0\\), \\(4\\); \\(S=\\int_0^{4}(-x^2+4x)\\,dx=\\dfrac{4^3}{6}=\\dfrac{32}{3}\\).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">Nghiệm</b> \\(0\\), \\(4\\); \\(S=\\int_0^{4}(-x^2+4x)\\,dx=\\dfrac{4^3}{6}=\\dfrac{32}{3}\\).",
+   "images": [],
+   "id": "0cf236e3db85",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The volume obtained by rotating the region under \\(y=\\sqrt x\\), \\(#\\le x\\le#\\), about \\(Ox\\) is…",
+   "en": "The volume obtained by rotating the region under \\(y=\\sqrt x\\), \\(0\\le x\\le6\\), about \\(Ox\\) is…",
+   "vi": "Thể tích <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solid of revolution\">khối tròn xoay</b> khi quay hình phẳng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"limit\">giới hạn</b> bởi \\(y=\\sqrt x\\), trục hoành, \\(x=6\\) quanh \\(Ox\\) là…",
+   "options": [
+    "\\(18\\pi\\)",
+    "\\(18\\)",
+    "\\(36\\pi\\)",
+    "\\(144\\pi\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(V=\\pi\\int_0^{6}x\\,dx=18\\pi\\).",
+   "explain_vi": "Đáp án a. \\(V=\\pi\\int_0^{6}x\\,dx=18\\pi\\).",
+   "images": [],
+   "id": "af27608ea04a",
+   "status": "đã thay ra",
+   "sources": [
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
    "form": "A gate has the shape of a parabola arch, width \\(#\\) m at the ground and height \\(#\\) m. Its area is…",
    "en": "A gate has the shape of a parabola arch, width \\(5\\) m at the ground and height \\(3\\) m. Its area is…",
    "vi": "Một cổng có dạng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parabola\">parabol</b>, bề rộng chân cổng \\(5\\) m, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"height\">chiều cao</b> \\(3\\) m. Diện tích cổng là…",
@@ -851,9 +1405,8 @@
    "explain_vi": "Đáp án b. Đặt cổng là \\(y=3-\\dfrac{3}{\\dfrac{25}{4}}x^2\\) trên \\(\\left[-\\dfrac{5}{2};\\dfrac{5}{2}\\right]\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"definite integral\">tích phân</b> cho \\(\\dfrac23\\cdot5\\cdot3=10\\).",
    "images": [],
    "id": "7a682ae59f8b",
-   "status": "đang dùng",
+   "status": "đã thay ra",
    "sources": [
-    "hiện tại",
     "9dde968"
    ]
   },
@@ -863,7 +1416,7 @@
    "type": "mcq",
    "form": "A solid lies between the planes \\(x=#\\) and \\(x=#\\). Its cross-section at \\(x\\) has area \\(S(x)=#x\\). Its volume is…",
    "en": "A solid lies between the planes \\(x=0\\) and \\(x=2\\). Its cross-section at \\(x\\) has area \\(S(x)=3x\\). Its volume is…",
-   "vi": "Một vật thể nằm giữa hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> \\(x=0\\) và \\(x=2\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"cross-section\">thiết diện</b> tại \\(x\\) có diện tích \\(S(x)=3x\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"volume\">Thể tích</b> vật thể là…",
+   "vi": "Một vật thể nằm giữa hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> \\(x=0\\) và \\(x=2\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"cross-section\">thiết diện</b> tại \\(x\\) có diện tích \\(S(x)=3x\\). Thể tích vật thể là…",
    "options": [
     "\\(12\\)",
     "\\(8\\)",
@@ -875,9 +1428,8 @@
    "explain_vi": "Đáp án c. \\(V=\\int_0^{2}S(x)\\,dx=6\\).",
    "images": [],
    "id": "9f18480c66b9",
-   "status": "đang dùng",
+   "status": "đã thay ra",
    "sources": [
-    "hiện tại",
     "9dde968"
    ]
   },
@@ -887,7 +1439,7 @@
    "type": "mcq",
    "form": "Rotating the region under \\(y=#x\\), \\(#\\le x\\le#\\), about the \\(x\\)-axis gives a cone of volume…",
    "en": "Rotating the region under \\(y=2x\\), \\(0\\le x\\le4\\), about the \\(x\\)-axis gives a cone of volume…",
-   "vi": "Quay hình phẳng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"limit\">giới hạn</b> bởi \\(y=2x\\), trục hoành, \\(x=4\\) quanh trục \\(Ox\\) được khối nón có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"volume\">thể tích</b>…",
+   "vi": "Quay hình phẳng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"limit\">giới hạn</b> bởi \\(y=2x\\), trục hoành, \\(x=4\\) quanh trục \\(Ox\\) được khối nón có thể tích…",
    "options": [
     "\\(\\dfrac{256}{3}\\)",
     "\\(256\\pi\\)",
@@ -899,9 +1451,8 @@
    "explain_vi": "Đáp án c. \\(V=\\pi\\int_0^{4}(2x)^2dx=\\dfrac{256\\pi}{3}\\).",
    "images": [],
    "id": "c78ffeac6110",
-   "status": "đang dùng",
+   "status": "đã thay ra",
    "sources": [
-    "hiện tại",
     "9dde968"
    ]
   },
@@ -923,9 +1474,8 @@
    "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersection point\">Giao điểm</b> \\(x=0\\), \\(x=6\\); \\(S=\\int_0^{6}(6x-x^2)\\,dx=36\\).",
    "images": [],
    "id": "9b37a3fb79e5",
-   "status": "đang dùng",
+   "status": "đã thay ra",
    "sources": [
-    "hiện tại",
     "9dde968"
    ]
   },
@@ -947,9 +1497,8 @@
    "explain_vi": "Đáp án b. \\(x^2-4\\le0\\) trên \\([-2;2]\\): \\(S=\\int_{-2}^{2}(4-x^2)\\,dx=\\dfrac{32}{3}\\).",
    "images": [],
    "id": "4ef94cf52b1e",
-   "status": "đang dùng",
+   "status": "đã thay ra",
    "sources": [
-    "hiện tại",
     "9dde968"
    ]
   },
@@ -971,9 +1520,8 @@
    "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">Nghiệm</b> \\(-1,0,1\\); hàm đổi dấu tại 0 nên \\(S=2\\int_0^{1}(1x-x^3)\\,dx=\\dfrac{1}{2}\\) (không phải \\(\\int_{-1}^{1}=0\\)).",
    "images": [],
    "id": "abcfa4f04fad",
-   "status": "đang dùng",
+   "status": "đã thay ra",
    "sources": [
-    "hiện tại",
     "9dde968"
    ]
   },
@@ -995,9 +1543,8 @@
    "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">Nghiệm</b> \\(0\\), \\(1\\); \\(S=\\int_0^{1}(-x^2+1x)\\,dx=\\dfrac{1^3}{6}=\\dfrac{1}{6}\\).",
    "images": [],
    "id": "09ab02c68f7f",
-   "status": "đang dùng",
+   "status": "đã thay ra",
    "sources": [
-    "hiện tại",
     "9dde968"
    ]
   },
@@ -1007,7 +1554,7 @@
    "type": "mcq",
    "form": "The volume obtained by rotating the region under \\(y=\\sqrt x\\), \\(#\\le x\\le#\\), about \\(Ox\\) is…",
    "en": "The volume obtained by rotating the region under \\(y=\\sqrt x\\), \\(0\\le x\\le3\\), about \\(Ox\\) is…",
-   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"volume\">Thể tích</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solid of revolution\">khối tròn xoay</b> khi quay hình phẳng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"limit\">giới hạn</b> bởi \\(y=\\sqrt x\\), trục hoành, \\(x=3\\) quanh \\(Ox\\) là…",
+   "vi": "Thể tích <b class=\"mbl-term\" tabindex=\"0\" data-en=\"solid of revolution\">khối tròn xoay</b> khi quay hình phẳng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"limit\">giới hạn</b> bởi \\(y=\\sqrt x\\), trục hoành, \\(x=3\\) quanh \\(Ox\\) là…",
    "options": [
     "\\(18\\pi\\)",
     "\\(\\dfrac{9}{2}\\)",
@@ -1019,9 +1566,8 @@
    "explain_vi": "Đáp án d. \\(V=\\pi\\int_0^{3}x\\,dx=\\dfrac{9\\pi}{2}\\).",
    "images": [],
    "id": "9c99c5a78b61",
-   "status": "đang dùng",
+   "status": "đã thay ra",
    "sources": [
-    "hiện tại",
     "9dde968"
    ]
   }

@@ -1,0 +1,32 @@
+\documentclass[border=4pt]{standalone}
+\usepackage{fontspec}
+\usepackage{amsmath}
+\usepackage{unicode-math}
+\setmainfont{Latin Modern Roman}
+\setmathfont{Latin Modern Math}
+\usepackage{pgfplots}
+\usepackage{pgfplotstable}
+\pgfplotsset{compat=1.18}
+\usepackage{tkz-euclide}
+\usetikzlibrary{arrows.meta,calc,angles,quotes,patterns,3d,backgrounds}
+\definecolor{ink}{HTML}{123428}
+\definecolor{asy}{HTML}{475569}
+\definecolor{mint}{HTML}{86e0bd}
+\tikzset{asym/.style={asy, line width=0.9pt, dash pattern=on 5pt off 3.5pt},
+         guide/.style={gray!70, line width=0.6pt, densely dotted},
+         dot/.style={circle, inner sep=0pt, minimum size=5pt, draw=white, line width=0.5pt},
+         odot/.style={circle, inner sep=0pt, minimum size=5.5pt, fill=white, line width=1pt},
+         lab/.style={font=\footnotesize, inner sep=1.5pt, text=ink}}
+\begin{document}
+\begin{tikzpicture}
+\draw[ink, line width=0.7pt, dash pattern=on 3pt off 2pt] (3.067,0.000) -- (4.600,2.656);
+\draw[ink, line width=0.7pt, dash pattern=on 3pt off 2pt] (1.533,2.656) -- (4.600,2.656);
+\draw[color={rgb,255:red,194;green,65;blue,12}, line width=1.2pt, -{Stealth[length=2.8mm]}] (0.000,0.000) -- (3.067,0.000);
+\draw[color={rgb,255:red,194;green,65;blue,12}, line width=1.2pt, -{Stealth[length=2.8mm]}] (0.000,0.000) -- (1.533,2.656);
+\draw[color={rgb,255:red,4;green,107;blue,77}, line width=1.2pt, -{Stealth[length=2.8mm]}] (0.000,0.000) -- (4.600,2.656);
+\fill[color={rgb,255:red,18;green,52;blue,40}] (0.000,0.000) circle (2.2pt);
+\node[font=\small, text=ink, inner sep=0.5pt] at (-0.300,0.300) {$O$};
+\node[font=\small, text=ink, inner sep=0.5pt, fill=white] at (1.533,0.320) {$\vec F_1$};
+\node[font=\small, text=ink, inner sep=0.5pt, fill=white] at (0.490,1.488) {$\vec F_2$};
+\end{tikzpicture}
+\end{document}

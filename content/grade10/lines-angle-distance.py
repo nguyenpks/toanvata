@@ -20,7 +20,7 @@ goals = [(e.replace('[[angle between two lines|angl2]]', 'angle between two line
 phrases = [('<b>The two lines are parallel.</b>', 'Hai đường thẳng song song.'), ('<b>The normal vectors are perpendicular, so the lines are perpendicular.</b>', 'Hai vectơ pháp tuyến vuông góc nên hai đường thẳng vuông góc.'),
            ('<b>The angle between the two lines is forty-five degrees.</b>', 'Góc giữa hai đường thẳng bằng 45°.'), ('<b>The distance from M to the line is two units.</b>', 'Khoảng cách từ M đến đường thẳng bằng 2 đơn vị.'),
            ('<b>Take the absolute value of the numerator.</b>', 'Lấy giá trị tuyệt đối ở tử số.')]
-review = T('From Bài 19: \\(ax+by+c=0\\) has normal vector \\(\\vec n=(a;b)\\). From Bài 11: \\(\\cos(\\vec u,\\vec v)=\\dfrac{\\vec u\\cdot\\vec v}{|\\vec u|\\,|\\vec v|}\\), \\(\\vec u\\perp\\vec v\\iff\\vec u\\cdot\\vec v=0\\).',
+review = T('From Lesson 19: \\(ax+by+c=0\\) has normal vector \\(\\vec n=(a;b)\\). From Lesson 11: \\(\\cos(\\vec u,\\vec v)=\\dfrac{\\vec u\\cdot\\vec v}{|\\vec u|\\,|\\vec v|}\\), \\(\\vec u\\perp\\vec v\\iff\\vec u\\cdot\\vec v=0\\).',
            'Từ Bài 19: \\(ax+by+c=0\\) có vectơ pháp tuyến \\(\\vec n=(a;b)\\). Từ Bài 11: \\(\\cos(\\vec u,\\vec v)=\\dfrac{\\vec u\\cdot\\vec v}{|\\vec u|\\,|\\vec v|}\\), \\(\\vec u\\perp\\vec v\\iff\\vec u\\cdot\\vec v=0\\).')
 theory = '<h3>20.1 %s</h3>' % TI('Relative position of two lines', 'Vị trí tương đối giữa hai đường thẳng')
 theory += BOX('blue', ('Rule', 'Quy tắc'), UL([T('For \\(\\Delta_1: a_1x+b_1y+c_1=0\\) and \\(\\Delta_2: a_2x+b_2y+c_2=0\\), the number of common points is the number of solutions of the system of the two equations: one solution – they <b>intersect</b>; no solution – they are <b>parallel</b>; infinitely many – they <b>coincide</b>.',
@@ -73,7 +73,7 @@ examples += EXAMPLE(5, ('Advanced', 'Nâng cao'), ('The nearest point of a railw
   T('The shortest road is perpendicular to \\(\\Delta\\): \\(TH\\) has direction \\(\\vec n=(1;2)\\).', 'Đường ngắn nhất vuông góc với \\(\\Delta\\): \\(TH\\) có vectơ chỉ phương \\(\\vec n=(1;2)\\).'),
   [T('\\(d=\\dfrac{|4+12-7|}{\\sqrt5}=\\dfrac9{\\sqrt5}=\\dfrac{9\\sqrt5}5\\approx4{,}02\\) km.', '\\(d=\\dfrac{|4+12-7|}{\\sqrt5}=\\dfrac9{\\sqrt5}=\\dfrac{9\\sqrt5}5\\approx4{,}02\\) km.'),
    T('\\(TH: x=4+t,\\ y=6+2t\\); substitute: \\(4+t+12+4t-7=0\\Rightarrow t=-\\frac95\\); \\(H\\left(\\frac{11}5;\\frac{12}5\\right)\\).', '\\(TH: x=4+t,\\ y=6+2t\\); thay vào \\(\\Delta\\): \\(4+t+12+4t-7=0\\Rightarrow t=-\\frac95\\); \\(H\\left(\\frac{11}5;\\frac{12}5\\right)\\).')],
-  T('About 4,02 km, meeting the railway at \\(H(2{,}2;\\,2{,}4)\\).', 'Khoảng 4,02 km, gặp đường ray tại \\(H(2{,}2;\\,2{,}4)\\).'))
+  T('About 4.02 km, meeting the railway at \\(H(2{,}2;\\,2{,}4)\\).', 'Khoảng 4,02 km, gặp đường ray tại \\(H(2{,}2;\\,2{,}4)\\).'))
 
 
 def lvl(P):
@@ -116,7 +116,7 @@ mistakes = [('<b>Forgetting the absolute value in \\(\\cos\\varphi\\).</b> An an
 summary = [('Position: solve the system, or compare \\(\\vec n_1\\), \\(\\vec n_2\\) and test one point; \\(\\perp\\iff a_1a_2+b_1b_2=0\\).', 'Vị trí tương đối: giải hệ, hoặc so sánh \\(\\vec n_1\\), \\(\\vec n_2\\) và thử một điểm; vuông góc \\(\\iff a_1a_2+b_1b_2=0\\).'),
            ('Angle: \\(\\cos\\varphi=\\dfrac{|a_1a_2+b_1b_2|}{\\sqrt{a_1^2+b_1^2}\\sqrt{a_2^2+b_2^2}}\\), \\(0^\\circ\\le\\varphi\\le90^\\circ\\).', 'Góc: \\(\\cos\\varphi=\\dfrac{|a_1a_2+b_1b_2|}{\\sqrt{a_1^2+b_1^2}\\sqrt{a_2^2+b_2^2}}\\), \\(0^\\circ\\le\\varphi\\le90^\\circ\\).'),
            ('Distance: \\(d(M,\\Delta)=\\dfrac{|ax_0+by_0+c|}{\\sqrt{a^2+b^2}}\\); parallel lines: \\(\\dfrac{|c_1-c_2|}{\\sqrt{a^2+b^2}}\\).', 'Khoảng cách: \\(d(M,\\Delta)=\\dfrac{|ax_0+by_0+c|}{\\sqrt{a^2+b^2}}\\); hai đường song song: \\(\\dfrac{|c_1-c_2|}{\\sqrt{a^2+b^2}}\\).'),
-           ('Key words: parallel, coincident, perpendicular, angle between lines, distance.', 'Từ cần nhớ: parallel, coincident, perpendicular, angle between lines, distance.')]
+           ('Key words: parallel, coincident, perpendicular, angle between lines, distance.', 'Từ cần nhớ (chạm vào để xem tiếng Anh): <b class="mbl-term" tabindex="0" data-en="parallel">song song</b>; <b class="mbl-term" tabindex="0" data-en="coincident">trùng nhau</b>; <b class="mbl-term" tabindex="0" data-en="perpendicular">vuông góc</b>; <b class="mbl-term" tabindex="0" data-en="angle between lines">góc giữa hai đường thẳng</b>; <b class="mbl-term" tabindex="0" data-en="distance">khoảng cách</b>.')]
 checks = [('I can decide the relative position of two lines.', 'Em xét được vị trí tương đối của hai đường thẳng.'), ('I can compute the angle between two lines.', 'Em tính được góc giữa hai đường thẳng.'),
           ('I can compute distances from a point and between parallel lines.', 'Em tính được khoảng cách từ một điểm và giữa hai đường song song.'), ('I can use distances for areas and shortest routes.', 'Em dùng khoảng cách để tính diện tích, đường đi ngắn nhất.')]
 LL('g10-coord-02', 'Relative Position, Angle and Distance', CV, ('Coordinate Geometry in the Plane', 'Phương pháp tọa độ trong mặt phẳng'), 'plane-coordinates', 'lines-angle-distance', 200, 'Intermediate', 70, ('equations of a line, dot product', 'phương trình đường thẳng, tích vô hướng'),

@@ -20,7 +20,7 @@ goals = [('compute the variance of grouped data with the two formulas;', 'tính 
          ('compare the stability of two samples in real situations.', 'so sánh mức độ [[ổn định (đồng đều)]] của hai mẫu số liệu trong thực tế.')]
 phrases = [('<b>Compute the variance of the grouped data.</b>', 'Tính phương sai của mẫu số liệu ghép nhóm.'), ('<b>Find the standard deviation, rounded to the hundredths.</b>', 'Tìm độ lệch chuẩn, làm tròn đến hàng phần trăm.'),
            ('<b>Which machine is more stable?</b>', 'Máy nào hoạt động ổn định hơn?'), ('<b>The data are more spread out.</b>', 'Số liệu phân tán hơn.'), ('<b>Use the midpoints of the groups.</b>', 'Dùng giá trị đại diện của các nhóm.')]
-review = T('From Bài 9 and Grade 11: for grouped data with groups \\([u_i;u_{i+1})\\), the midpoint is \\(x_i=\\dfrac{u_i+u_{i+1}}2\\) and the mean is \\(\\bar x=\\dfrac{n_1x_1+\\dots+n_kx_k}{n}\\). The range and the interquartile range measure spread but use only a few values.',
+review = T('From Lesson 9 and Grade 11: for grouped data with groups \\([u_i;u_{i+1})\\), the midpoint is \\(x_i=\\dfrac{u_i+u_{i+1}}2\\) and the mean is \\(\\bar x=\\dfrac{n_1x_1+\\dots+n_kx_k}{n}\\). The range and the interquartile range measure spread but use only a few values.',
            'Từ Bài 9 và lớp 11: với mẫu ghép nhóm có các nhóm \\([u_i;u_{i+1})\\), [[giá trị đại diện]] là \\(x_i=\\dfrac{u_i+u_{i+1}}2\\) và số trung bình \\(\\bar x=\\dfrac{n_1x_1+\\dots+n_kx_k}{n}\\). Khoảng biến thiên và khoảng tứ phân vị đo độ phân tán nhưng chỉ dùng một vài giá trị.')
 LB = lambda g, f: {'group': g, 'freq': f}
 theory = '<h3>10.1 %s</h3>' % TI('Variance and standard deviation of grouped data', 'Phương sai và độ lệch chuẩn của mẫu số liệu ghép nhóm')
@@ -92,8 +92,9 @@ def lvl(P):
 PP = [dict(t=16, c=0, sum=(20, 50, 16), cmp=((F(52), F(12, 10)), (F(54), F(25, 10)), ('Rice yield (quintals/ha) of two fields.', 'Năng suất lúa (tạ/ha) của hai ruộng.')), t4=38, t4ok=True, t5=0, t6=9, t7=12),
       dict(t=4, c=1, sum=(25, 40, 9), cmp=((F(500), F(42, 10)), (F(498), F(31, 10)), ('Volume (ml) of bottles filled by two machines.', 'Thể tích (ml) chai do hai máy chiết rót.')), t4=11, t4ok=False, t5=1, t6=13, t7=25),
       dict(t=2, c=2, sum=(40, 75, 49), cmp=((F(8), F(9, 10)), (F(85, 10), F(15, 10)), ('Scores of two shooters.', 'Điểm bắn của hai xạ thủ.')), t4=29, t4ok=True, t5=2, t6=24, t7=22)]
-practice = three(lvl, PP)
-practice = with_self(practice, S.M10S12, start=8)
+# Hiệu chỉnh 14/11/2026: mỗi mức 20 câu (A 6 · B 3 · C 3 · D 8), mỗi câu một dạng; bộ cũ (lvl, PP) đưa vào ngân hàng câu hỏi.
+import sp_g12r4 as R4
+practice = R4.build({}, R4.B10['A'], R4.B10['B'], R4.B10['C'], R4.B10['D'], seeds=(12101, 12102, 12103), ctx_factory=R4.sctx)
 mistakes = [('<b>Using the group ends instead of the midpoints.</b> \\(x_i\\) is the midpoint of the group.', '<b>Dùng đầu mút nhóm thay cho giá trị đại diện.</b> \\(x_i\\) là giá trị chính giữa của nhóm.'),
             ('<b>Forgetting to subtract \\(\\bar x^2\\).</b> \\(s^2=\\dfrac1n\\sum n_ix_i^2-\\bar x^2\\), not \\(\\dfrac1n\\sum n_ix_i^2\\).', '<b>Quên trừ \\(\\bar x^2\\).</b> \\(s^2=\\dfrac1n\\sum n_ix_i^2-\\bar x^2\\), không phải \\(\\dfrac1n\\sum n_ix_i^2\\).'),
             ('<b>Mixing up \\(s\\) and \\(s^2\\).</b> \\(s\\) is the square root; it has the unit of the data.', '<b>Nhầm \\(s\\) và \\(s^2\\).</b> \\(s\\) là căn bậc hai của \\(s^2\\) và cùng đơn vị với số liệu.'),
@@ -101,7 +102,7 @@ mistakes = [('<b>Using the group ends instead of the midpoints.</b> \\(x_i\\) is
 summary = [('\\(s^2=\\dfrac1n\\sum n_i(x_i-\\bar x)^2=\\dfrac1n\\sum n_ix_i^2-\\bar x^2\\); \\(s=\\sqrt{s^2}\\).', '\\(s^2=\\dfrac1n\\sum n_i(x_i-\\bar x)^2=\\dfrac1n\\sum n_ix_i^2-\\bar x^2\\); \\(s=\\sqrt{s^2}\\).'),
            ('\\(x_i\\) are the midpoints of the groups; the result is an estimate.', '\\(x_i\\) là giá trị đại diện của các nhóm; kết quả là giá trị xấp xỉ.'),
            ('Smaller \\(s\\): data more concentrated, more stable.', '\\(s\\) nhỏ hơn: số liệu tập trung hơn, ổn định hơn.'),
-           ('Key words: variance, standard deviation, spread, stable.', 'Từ cần nhớ: variance, standard deviation, spread, stable.')]
+           ('Key words: variance, standard deviation, spread, stable.', 'Từ cần nhớ (chạm vào để xem tiếng Anh): <b class="mbl-term" tabindex="0" data-en="variance">phương sai</b>; <b class="mbl-term" tabindex="0" data-en="standard deviation">độ lệch chuẩn</b>; <b class="mbl-term" tabindex="0" data-en="spread">độ phân tán</b>; <b class="mbl-term" tabindex="0" data-en="stable">ổn định</b>.')]
 checks = [('I can compute the variance of grouped data.', 'Em tính được phương sai của mẫu số liệu ghép nhóm.'), ('I can find the standard deviation and its unit.', 'Em tìm được độ lệch chuẩn và đơn vị của nó.'),
           ('I can compare the stability of two samples.', 'Em so sánh được độ ổn định của hai mẫu.'), ('I know how \\(s\\) changes when the data are shifted or scaled.', 'Em biết \\(s\\) thay đổi thế nào khi cộng hay nhân số liệu với một số.')]
 LL('g12-stats-02', 'Variance and Standard Deviation', CV, ('Statistics', 'Các số đặc trưng đo mức độ phân tán'), 'statistics', 'variance-standard-deviation', 100, 'Intermediate', 65, ('grouped data, mean, range and interquartile range', 'số liệu ghép nhóm, số trung bình, khoảng biến thiên và khoảng tứ phân vị'),

@@ -194,7 +194,7 @@ summary = [
  (r'Solution region = a half-plane. Boundary: solid for \(\le,\ge\), dashed for \(\lt,\gt\). Choose the side with a test point.', r'Miền nghiệm là nửa mặt phẳng. Đường biên: nét liền với \(\le,\ge\), nét đứt với \(\lt,\gt\). Chọn phía bằng điểm kiểm tra.'),
  (r'System: take the intersection of the half-planes; vertices are intersections of boundary lines.', r'Hệ: lấy giao các nửa mặt phẳng; đỉnh là giao điểm các đường biên.'),
  (r'Linear expressions reach largest and smallest values at vertices of the region.', r'Biểu thức bậc nhất đạt giá trị lớn nhất, nhỏ nhất tại đỉnh của miền.'),
- (r'Key English phrases: solution region, boundary line, at most, at least.', r'Cụm tiếng Anh cần nhớ: solution region (miền nghiệm), boundary line (đường biên), at most (nhiều nhất), at least (ít nhất).')]
+ (r'Key English phrases: solution region, boundary line, at most, at least.', r'Cụm từ cần nhớ (chạm vào để xem tiếng Anh): <b class="mbl-term" tabindex="0" data-en="solution region">miền nghiệm</b>; <b class="mbl-term" tabindex="0" data-en="boundary line">đường biên</b>; <b class="mbl-term" tabindex="0" data-en="at most">nhiều nhất</b>; <b class="mbl-term" tabindex="0" data-en="at least">ít nhất</b>.')]
 checks = [
  (r'I can test whether a pair is a solution.', r'Tôi kiểm tra được một cặp số có là nghiệm không.'),
  (r'I can draw the boundary line with the correct style.', r'Tôi vẽ được đường biên đúng nét liền hay nét đứt.'),

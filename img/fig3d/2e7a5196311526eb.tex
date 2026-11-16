@@ -1,0 +1,43 @@
+\documentclass[tikz,border=3pt]{standalone}
+\usetikzlibrary{arrows.meta}
+\begin{document}
+\definecolor{c_ax}{HTML}{475569}
+\definecolor{c_hl}{HTML}{C2410C}
+\definecolor{c2}{HTML}{86E0BD}
+\definecolor{c3}{HTML}{1F2937}
+\begin{tikzpicture}[x=0.5600cm,y=0.5600cm,line cap=round,line join=round]
+\fill[c2,fill opacity=0.45] (-1.7321,-1.0000) -- (3.0000,0.0000) -- (0.0000,6.0000) -- cycle;
+\draw[c_ax,line width=0.56pt,dash pattern=on 3pt off 2pt] (0.0000,0.0000) -- (-1.7321,-1.0000);
+\draw[c_ax,line width=0.70pt,-{Stealth[length=5pt]}] (-1.7321,-1.0000) -- (-3.4641,-2.0000);
+\node[anchor=north east,text=c_ax] at (-3.4641,-2.0000) {$x$};
+\draw[c_ax,line width=0.56pt,dash pattern=on 3pt off 2pt] (0.0000,0.0000) -- (3.0000,0.0000);
+\draw[c_ax,line width=0.70pt,-{Stealth[length=5pt]}] (3.0000,0.0000) -- (8.0000,0.0000);
+\node[anchor=west,text=c_ax] at (8.0000,0.0000) {$y$};
+\draw[c_ax,line width=0.56pt,dash pattern=on 3pt off 2pt] (0.0000,0.0000) -- (0.0000,6.0000);
+\draw[c_ax,line width=0.70pt,-{Stealth[length=5pt]}] (0.0000,6.0000) -- (0.0000,8.0000);
+\node[anchor=south,text=c_ax] at (0.0000,8.0000) {$z$};
+\draw[c3,line width=0.79pt,dash pattern=on 3pt off 2pt] (-1.7321,-1.0000) -- (0.0000,0.0000);
+\draw[c3,line width=0.79pt,dash pattern=on 3pt off 2pt] (3.0000,0.0000) -- (0.0000,0.0000);
+\draw[c3,line width=0.99pt] (1.2679,-1.0000) -- (3.0000,0.0000);
+\draw[c3,line width=0.99pt] (-1.7321,-1.0000) -- (1.2679,-1.0000);
+\draw[c3,line width=0.79pt,dash pattern=on 3pt off 2pt] (0.0000,0.0000) -- (0.0000,6.0000);
+\draw[c3,line width=0.99pt] (-1.7321,-1.0000) -- (-1.7321,5.0000);
+\draw[c3,line width=0.99pt] (-1.7321,5.0000) -- (0.0000,6.0000);
+\draw[c3,line width=0.99pt] (3.0000,6.0000) -- (0.0000,6.0000);
+\draw[c3,line width=0.99pt] (3.0000,0.0000) -- (3.0000,6.0000);
+\draw[c3,line width=0.99pt] (1.2679,-1.0000) -- (1.2679,5.0000);
+\draw[c3,line width=0.99pt] (-1.7321,5.0000) -- (1.2679,5.0000);
+\draw[c3,line width=0.99pt] (1.2679,5.0000) -- (3.0000,6.0000);
+\draw[c3,line width=0.64pt,dash pattern=on 3pt off 2pt] (-1.7321,-1.0000) -- (3.0000,0.0000);
+\draw[c3,line width=0.64pt,dash pattern=on 3pt off 2pt] (3.0000,0.0000) -- (0.0000,6.0000);
+\draw[c3,line width=0.64pt,dash pattern=on 3pt off 2pt] (0.0000,6.0000) -- (-1.7321,-1.0000);
+\node[anchor=north,inner sep=2pt] at (0.0000,0.0000) {$O$};
+\node[anchor=north,inner sep=2pt] at (-1.7321,-1.0000) {$A$};
+\node[anchor=north,inner sep=2pt] at (3.0000,0.0000) {$C$};
+\node[anchor=north,inner sep=2pt] at (1.2679,-1.0000) {$B$};
+\node[anchor=east,inner sep=2pt] at (0.0000,6.0000) {$O'$};
+\node[anchor=east,inner sep=2pt] at (-1.7321,5.0000) {$A'$};
+\node[anchor=south,inner sep=2pt] at (3.0000,6.0000) {$C'$};
+\node[anchor=south,inner sep=2pt] at (1.2679,5.0000) {$B'$};
+\end{tikzpicture}
+\end{document}

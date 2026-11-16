@@ -9,6 +9,29 @@
    "level": 1,
    "section": "A",
    "type": "mcq",
+   "form": "Box # has # red and # white balls; box # has # red and # white balls. One ball is moved from box # to box #, then a ball is drawn from box #. \\(P(\\text{red})=\\)…",
+   "en": "Box 1 has 5 red and 3 white balls; box 2 has 2 red and 1 white balls. One ball is moved from box 1 to box 2, then a ball is drawn from box 2. \\(P(\\text{red})=\\)…",
+   "vi": "Hộp 1 có 5 bi đỏ, 3 bi trắng; hộp 2 có 2 bi đỏ, 1 bi trắng. Chuyển một bi từ hộp 1 sang hộp 2 rồi lấy một bi từ hộp 2. Xác suất lấy được bi đỏ là…",
+   "options": [
+    "\\(\\dfrac{2}{3}\\)",
+    "\\(\\dfrac{21}{32}\\)",
+    "\\(\\dfrac{3}{4}\\)",
+    "\\(\\dfrac{7}{11}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\dfrac{5}{8}\\cdot\\dfrac{3}{4}+\\dfrac{3}{8}\\cdot\\dfrac{2}{4}=\\dfrac{21}{32}\\).",
+   "explain_vi": "Đáp án b. \\(\\dfrac{5}{8}\\cdot\\dfrac{3}{4}+\\dfrac{3}{8}\\cdot\\dfrac{2}{4}=\\dfrac{21}{32}\\).",
+   "images": [],
+   "id": "08a57fb0a935",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
    "form": "Box #: # red, # white; box #: # red, # white. Choose a box at random, then a ball. \\(P(\\text{red})=\\)…",
    "en": "Box 1: 4 red, 1 white; box 2: 2 red, 3 white. Choose a box at random, then a ball. \\(P(\\text{red})=\\)…",
    "vi": "Hộp 1: 4 đỏ, 1 trắng; hộp 2: 2 đỏ, 3 trắng. Chọn ngẫu nhiên một hộp rồi lấy một bi. Xác suất được bi đỏ là…",
@@ -25,32 +48,56 @@
    "id": "2a5a3a0e1074",
    "status": "đang dùng",
    "sources": [
-    "hiện tại",
-    "9dde968"
+    "hiện tại"
    ]
   },
   {
    "level": 1,
    "section": "A",
    "type": "mcq",
-   "form": "Same notation: \\(P(B)=#\\), \\(P(A\\mid B)=#\\), \\(P(A\\mid\\overline B)=#\\). \\(P(B\\mid A)=\\)…",
-   "en": "Same notation: \\(P(B)=0.4\\), \\(P(A\\mid B)=0.5\\), \\(P(A\\mid\\overline B)=0.1\\). \\(P(B\\mid A)=\\)…",
-   "vi": "Cho \\(P(B)=0{,}4\\), \\(P(A\\mid B)=0{,}5\\), \\(P(A\\mid\\overline B)=0{,}1\\). Khi đó \\(P(B\\mid A)=\\)…",
+   "form": "From the tree diagram, \\(P(\\overline B\\mid A)=\\)…",
+   "en": "From the tree diagram, \\(P(\\overline B\\mid A)=\\)…<img src=\"../../../img/tex/49cebc6649f68c42.svg\" alt=\"Tree diagram\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,330px);height:auto\">",
+   "vi": "Theo <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tree diagram\">sơ đồ hình cây</b>, \\(P(\\overline B\\mid A)=\\)…<img src=\"../../../img/tex/f063dee73971ca68.svg\" alt=\"Sơ đồ hình cây\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,330px);height:auto\">",
    "options": [
-    "\\(\\dfrac{10}{13}\\)",
-    "<span class=\"txi\"><span class=\"en\">\\(0.2\\)</span><span class=\"vi\">\\(0{,}2\\)</span></span>",
-    "<span class=\"txi\"><span class=\"en\">\\(0.5\\)</span><span class=\"vi\">\\(0{,}5\\)</span></span>",
-    "<span class=\"txi\"><span class=\"en\">\\(0.26\\)</span><span class=\"vi\">\\(0{,}26\\)</span></span>"
+    "\\(\\dfrac{7}{16}\\)",
+    "\\(\\dfrac{7}{50}\\)",
+    "\\(\\dfrac{1}{5}\\)",
+    "\\(\\dfrac{7}{10}\\)"
    ],
    "answer": "a",
-   "explain_en": "Answer: a. Bayes: \\(P(A)=0.26\\).",
-   "explain_vi": "Đáp án a. Bayes: \\(P(A)=0{,}26\\), \\(P(B\\mid A)=\\dfrac{10}{13}\\).",
-   "images": [],
-   "id": "0ddb51ebec4b",
+   "explain_en": "Answer: a. \\(P(A)=0.32\\); \\(P(\\overline B\\mid A)=\\dfrac{0.14}{0.32}=\\dfrac{7}{16}\\).",
+   "explain_vi": "Đáp án a. \\(P(A)=0{,}32\\); \\(P(\\overline B\\mid A)=\\dfrac{0{,}14}{0{,}32}=\\dfrac{7}{16}\\).",
+   "images": [
+    "img/tex/49cebc6649f68c42.svg",
+    "img/tex/f063dee73971ca68.svg"
+   ],
+   "id": "bb6c74d5b076",
    "status": "đang dùng",
    "sources": [
-    "hiện tại",
-    "9dde968"
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Three machines I, II, III make #%, #%, #% of the products of a factory; their defect rates are #%, #%, #%. A product is found defective. The probability that it was made by machine III is…",
+   "en": "Three machines I, II, III make 50%, 30%, 20% of the products of a factory; their defect rates are 5%, 2%, 5%. A product is found defective. The probability that it was made by machine III is…",
+   "vi": "Ba máy I, II, III sản xuất <b class=\"mbl-term\" tabindex=\"0\" data-en=\"respectively\">lần lượt</b> 50%, 30%, 20% sản phẩm của nhà máy; tỉ lệ phế phẩm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"respectively\">lần lượt</b> 5%, 2%, 5%. Lấy được một phế phẩm. Xác suất phế phẩm đó do máy III sản xuất là…",
+   "options": [
+    "\\(\\dfrac{1}{100}\\)",
+    "\\(\\dfrac{10}{41}\\)",
+    "\\(\\dfrac{5}{12}\\)",
+    "\\(\\dfrac{1}{5}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(P(A)=4.1\\%\\); \\(P(B_3\\mid A)=\\dfrac{20\\cdot5}{410}=\\dfrac{10}{41}\\).",
+   "explain_vi": "Đáp án b. \\(P(A)=4{,}1\\%\\); \\(P(B_3\\mid A)=\\dfrac{20\\cdot5}{410}=\\dfrac{10}{41}\\).",
+   "images": [],
+   "id": "d3eefe1ec912",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
    ]
   },
   {
@@ -73,8 +120,51 @@
    "id": "c4a0c4248a1e",
    "status": "đang dùng",
    "sources": [
-    "hiện tại",
-    "9dde968"
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(P(B)=#\\), \\(P(A\\mid B)=#\\), \\(P(A\\mid\\overline B)=#\\). \\(P(B\\mid A)=\\)…",
+   "en": "\\(P(B)=0.4\\), \\(P(A\\mid B)=0.5\\), \\(P(A\\mid\\overline B)=0.1\\). \\(P(B\\mid A)=\\)…",
+   "vi": "Cho \\(P(B)=0{,}4\\), \\(P(A\\mid B)=0{,}5\\), \\(P(A\\mid\\overline B)=0{,}1\\). Khi đó \\(P(B\\mid A)=\\)…",
+   "options": [
+    "\\(\\dfrac{10}{13}\\)",
+    "<span class=\"txi\"><span class=\"en\">\\(0.2\\)</span><span class=\"vi\">\\(0{,}2\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.5\\)</span><span class=\"vi\">\\(0{,}5\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.26\\)</span><span class=\"vi\">\\(0{,}26\\)</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Bayes: \\(P(A)=0.26\\).",
+   "explain_vi": "Đáp án a. Bayes: \\(P(A)=0{,}26\\), \\(P(B\\mid A)=\\dfrac{10}{13}\\).",
+   "images": [],
+   "id": "3a44407a730d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "From the tree diagram: knowing that \\(A\\) occurred makes \\(B\\) more likely, i.e. \\(P(B\\mid A)\\gt P(B)\\).",
+   "en": "From the tree diagram: knowing that \\(A\\) occurred makes \\(B\\) more likely, i.e. \\(P(B\\mid A)\\gt P(B)\\).<img src=\"../../../img/tex/8e31113dfcd76824.svg\" alt=\"Tree diagram\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,330px);height:auto\">",
+   "vi": "Theo <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tree diagram\">sơ đồ hình cây</b>: biết \\(A\\) đã xảy ra thì \\(B\\) dễ xảy ra hơn, tức là \\(P(B\\mid A)\\gt P(B)\\).<img src=\"../../../img/tex/a3ffd3afc35dd5b4.svg\" alt=\"Sơ đồ hình cây\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,330px);height:auto\">",
+   "options": [],
+   "answer": "false",
+   "explain_en": "\\(P(A)=0.44\\), \\(P(B\\mid A)=\\dfrac{0.04}{0.44}=\\dfrac{1}{11}\\), \\(P(B)=0.2\\).",
+   "explain_vi": "\\(P(A)=0{,}44\\), \\(P(B\\mid A)=\\dfrac{0{,}04}{0{,}44}=\\dfrac{1}{11}\\), \\(P(B)=0{,}2\\).",
+   "images": [
+    "img/tex/8e31113dfcd76824.svg",
+    "img/tex/a3ffd3afc35dd5b4.svg"
+   ],
+   "id": "da193c38f08e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
    ]
   },
   {
@@ -92,8 +182,7 @@
    "id": "66b1c91a45db",
    "status": "đang dùng",
    "sources": [
-    "hiện tại",
-    "9dde968"
+    "hiện tại"
    ]
   },
   {
@@ -111,8 +200,7 @@
    "id": "6989c529651f",
    "status": "đang dùng",
    "sources": [
-    "hiện tại",
-    "9dde968"
+    "hiện tại"
    ]
   },
   {
@@ -121,7 +209,7 @@
    "type": "short",
    "form": "A student knows the answer to a #-option question with probability #, otherwise guesses. He answered correctly. Find the probability that he knew it (decimal).",
    "en": "A student knows the answer to a 2-option question with probability 0.6, otherwise guesses. He answered correctly. Find the probability that he knew it (decimal).",
-   "vi": "Câu trắc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b> 2 phương án; học sinh biết đáp án với xác suất 0{,}6, nếu không thì chọn ngẫu nhiên. Em trả lời đúng. Tính xác suất em biết đáp án (dạng thập phân).",
+   "vi": "Câu trắc nghiệm 2 phương án; học sinh biết đáp án với xác suất 0{,}6, nếu không thì chọn ngẫu nhiên. Em trả lời đúng. Tính xác suất em biết đáp án (dạng thập phân).",
    "options": [],
    "answer": "0.75",
    "explain_en": "\\(\\dfrac{0.6}{0.6+0.4\\cdot\\dfrac1{2}}=0.75\\).",
@@ -129,6 +217,1148 @@
    "images": [],
    "id": "5d1554e9df64",
    "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "In the tree diagram one branch is unknown. Given \\(P(A)=#\\), find \\(P(A\\mid\\overline B)\\) as a percentage.",
+   "en": "In the tree diagram one branch is unknown. Given \\(P(A)=0.48\\), find \\(P(A\\mid\\overline B)\\) as a percentage.<img src=\"../../../img/tex/ed3bc4730553f336.svg\" alt=\"Tree diagram\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,330px);height:auto\">",
+   "vi": "Trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tree diagram\">sơ đồ hình cây</b> có một nhánh chưa biết. Biết \\(P(A)=0{,}48\\), tìm \\(P(A\\mid\\overline B)\\) theo phần trăm.<img src=\"../../../img/tex/cebe93467730adcb.svg\" alt=\"Sơ đồ hình cây\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,330px);height:auto\">",
+   "options": [],
+   "answer": "40",
+   "explain_en": "\\(0.48=0.4\\cdot0.6+0.6\\cdot y\\Rightarrow y=0.4\\), i.e. 40%.",
+   "explain_vi": "\\(0{,}48=0{,}4\\cdot0{,}6+0{,}6\\cdot y\\Rightarrow y=0{,}4\\), tức 40%.",
+   "images": [
+    "img/tex/cebe93467730adcb.svg",
+    "img/tex/ed3bc4730553f336.svg"
+   ],
+   "id": "9038e760238c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "Machines make #%, #%, #% of the products; defect rates #%, #%, #%. Find \\(P(\\text{defective})\\) as a percentage (e.g. # means #%).",
+   "en": "Machines make 50%, 30%, 20% of the products; defect rates 2%, 3%, 5%. Find \\(P(\\text{defective})\\) as a percentage (e.g. 2.5 means 2.5%).",
+   "vi": "Ba máy sản xuất 50%, 30%, 20% sản phẩm; tỉ lệ phế phẩm 2%, 3%, 5%. Tính xác suất lấy được phế phẩm theo phần trăm (ví dụ 2,5 nghĩa là 2,5%).",
+   "options": [],
+   "answer": "2.9",
+   "explain_en": "\\(\\sum P(B_i)P(A\\mid B_i)=0.029=2.9\\%\\).",
+   "explain_vi": "\\(\\sum P(B_i)P(A\\mid B_i)=0{,}029=2{,}9\\%\\).",
+   "images": [],
+   "id": "32d513170be1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "A box is chosen, then one ball is drawn: box # (chosen with probability \\(\\dfrac{#}{#}\\)) has # red and # white balls; box # (chosen with probability \\(\\dfrac{#}{#}\\)) has # red and # white balls; box # (chosen with probability \\(\\dfrac{#}{#}\\)) has # red and # white balls. The ball is red. From which box did it most probably come?",
+   "en": "A box is chosen, then one ball is drawn: box 1 (chosen with probability \\(\\dfrac{1}{3}\\)) has 2 red and 3 white balls; box 2 (chosen with probability \\(\\dfrac{1}{3}\\)) has 1 red and 1 white balls; box 3 (chosen with probability \\(\\dfrac{1}{3}\\)) has 5 red and 1 white balls. The ball is red. From which box did it most probably come?",
+   "vi": "Chọn một hộp rồi lấy một bi: hộp 1 (được chọn với xác suất \\(\\dfrac{1}{3}\\)) có 2 bi đỏ, 3 bi trắng; hộp 2 (được chọn với xác suất \\(\\dfrac{1}{3}\\)) có 1 bi đỏ, 1 bi trắng; hộp 3 (được chọn với xác suất \\(\\dfrac{1}{3}\\)) có 5 bi đỏ, 1 bi trắng. Bi lấy được màu đỏ. Bi đó nhiều khả năng nhất là của hộp nào?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">Box 2</span><span class=\"vi\">Hộp 2</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Box 1</span><span class=\"vi\">Hộp 1</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Box 3</span><span class=\"vi\">Hộp 3</span></span>",
+    "<span class=\"txi\"><span class=\"en\">All boxes are equally likely</span><span class=\"vi\">Ba hộp có khả năng như nhau</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Posterior probabilities: \\(\\dfrac{3}{13}\\), \\(\\dfrac{15}{52}\\), \\(\\dfrac{25}{52}\\).",
+   "explain_vi": "Đáp án c. Các xác suất hậu nghiệm: \\(\\dfrac{3}{13}\\), \\(\\dfrac{15}{52}\\), \\(\\dfrac{25}{52}\\).",
+   "images": [],
+   "id": "868f72187a8f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "A die is rolled. Which family of events forms a complete system (exclusive and covering all outcomes)?",
+   "en": "A die is rolled. Which family of events forms a complete system (exclusive and covering all outcomes)?",
+   "vi": "Gieo một con xúc xắc. Nhóm biến cố nào là một hệ đầy đủ (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"mutually exclusive\">xung khắc</b> từng đôi và phủ mọi kết quả)?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(B_1\\): \"the die shows 1 or 2\", \\(B_2\\): \"3 or 4\", \\(B_3\\): \"5 or 6\".</span><span class=\"vi\">\\(B_1\\): \"xúc xắc ra 1 hoặc 2\", \\(B_2\\): \"ra 3 hoặc 4\", \\(B_3\\): \"ra 5 hoặc 6\".</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(B_1\\): \"an odd number\", \\(B_2\\): \"a number less than 4\".</span><span class=\"vi\">\\(B_1\\): \"ra số lẻ\", \\(B_2\\): \"ra số nhỏ hơn 4\".</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(B_1\\): \"an even number\", \\(B_2\\): \"a number greater than 3\".</span><span class=\"vi\">\\(B_1\\): \"ra số chẵn\", \\(B_2\\): \"ra số lớn hơn 3\".</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(B_1\\): \"1 or 2\", \\(B_2\\): \"4 or 5\".</span><span class=\"vi\">\\(B_1\\): \"ra 1 hoặc 2\", \\(B_2\\): \"ra 4 hoặc 5\".</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Only this family is pairwise exclusive and its events cover all cases.",
+   "explain_vi": "Đáp án a. Chỉ nhóm này <b class=\"mbl-term\" tabindex=\"0\" data-en=\"mutually exclusive\">xung khắc</b> từng đôi và các biến cố phủ hết mọi trường hợp.",
+   "images": [],
+   "id": "b5b7288f43bc",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "A disease affects #% of people (\\(B\\): \"the person has the disease\"). Test X is positive for #% of the cases with \\(B\\) and #% of the cases without \\(B\\); test Y for #% and #%. A case tests positive. With which test is the result more trustworthy?",
+   "en": "A disease affects 5% of people (\\(B\\): \"the person has the disease\"). Test X is positive for 95% of the cases with \\(B\\) and 10% of the cases without \\(B\\); test Y for 85% and 2%. A case tests positive. With which test is the result more trustworthy?",
+   "vi": "Một bệnh có tỉ lệ mắc 5% (\\(B\\): \"người đó mắc bệnh\"). Xét nghiệm X dương tính với 95% trường hợp có \\(B\\) và 10% trường hợp không có \\(B\\); xét nghiệm Y <b class=\"mbl-term\" tabindex=\"0\" data-en=\"respectively\">lần lượt</b> 85% và 2%. Một trường hợp cho kết quả dương tính. Với xét nghiệm nào kết quả đáng tin hơn?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">Test X, because it gives a larger \\(P(B\\mid+)\\).</span><span class=\"vi\">Xét nghiệm X, vì nó cho \\(P(B\\mid+)\\) lớn hơn.</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Test X, because it detects more cases with \\(B\\).</span><span class=\"vi\">Xét nghiệm X, vì phát hiện được nhiều trường hợp có \\(B\\) hơn.</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Both tests are equally reliable.</span><span class=\"vi\">Hai xét nghiệm tin cậy như nhau.</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Test Y, because \\(P(B\\mid+)\\) is larger for it.</span><span class=\"vi\">Xét nghiệm Y, vì với nó \\(P(B\\mid+)\\) lớn hơn.</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. X: \\(P(B\\mid+)=\\dfrac{1}{3}\\approx0.33\\); Y: \\(\\dfrac{85}{123}\\approx0.69\\).",
+   "explain_vi": "Đáp án d. X: \\(P(B\\mid+)=\\dfrac{1}{3}\\approx0{,}33\\); Y: \\(\\dfrac{85}{123}\\approx0{,}69\\).",
+   "images": [],
+   "id": "4d6977e71ca1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "A disease affects #% of people. A test is positive for #% of sick and #% of healthy people. A student computed the probability that a person with a positive test is sick. Step #: \\(P(+)=#\\cdot#+#\\cdot#=#\\). Step #: \\(P(\\text{sick}\\mid+)=P(+\\mid\\text{sick})=#\\). Which comment is correct?",
+   "en": "A disease affects 2% of people. A test is positive for 95% of sick and 4% of healthy people. A student computed the probability that a person with a positive test is sick. Step 1: \\(P(+)=0.02\\cdot0.95+0.98\\cdot0.04=0.0582\\). Step 2: \\(P(\\text{sick}\\mid+)=P(+\\mid\\text{sick})=0.95\\). Which comment is correct?",
+   "vi": "Một bệnh có tỉ lệ mắc 2%. Xét nghiệm dương tính với 95% người bệnh và 4% người khỏe. Một bạn tính xác suất người xét nghiệm dương tính bị bệnh. Bước 1: \\(P(+)=0{,}02\\cdot0{,}95+0{,}98\\cdot0{,}04=0{,}0582\\). Bước 2: \\(P(\\text{bệnh}\\mid+)=P(+\\mid\\text{bệnh})=0{,}95\\). Nhận xét nào đúng?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">Step 1 is wrong.</span><span class=\"vi\">Bước 1 sai.</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Step 2 is wrong: \\(P(\\text{sick}\\mid+)=\\dfrac{P(\\text{sick})P(+\\mid\\text{sick})}{P(+)}\\).</span><span class=\"vi\">Bước 2 sai: \\(P(\\text{bệnh}\\mid+)=\\dfrac{P(\\text{bệnh})P(+\\mid\\text{bệnh})}{P(+)}\\).</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Both steps are correct.</span><span class=\"vi\">Cả hai bước đều đúng.</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Step 1 must use \\(P(+)=0.95+0.04\\).</span><span class=\"vi\">Bước 1 phải dùng \\(P(+)=0{,}95+0{,}04\\).</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(P(\\text{sick}\\mid+)=\\dfrac{0.019}{0.0582}=\\dfrac{95}{291}\\), far from \\(0.95\\).",
+   "explain_vi": "Đáp án b. \\(P(\\text{bệnh}\\mid+)=\\dfrac{0{,}019}{0{,}0582}=\\dfrac{95}{291}\\), khác xa \\(0{,}95\\).",
+   "images": [],
+   "id": "c9ed15cee011",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "A disease affects #% of people. A test is positive for #% of sick and #% of healthy people; two tests on the same person are independent given the health status. A person tests positive twice. The probability that the person is sick is…",
+   "en": "A disease affects 2% of people. A test is positive for 80% of sick and 20% of healthy people; two tests on the same person are independent given the health status. A person tests positive twice. The probability that the person is sick is…",
+   "vi": "Một bệnh có tỉ lệ mắc 2%. Xét nghiệm dương tính với 80% người bệnh và 20% người khỏe; hai lần xét nghiệm trên cùng một người độc lập khi biết tình trạng bệnh. Một người dương tính cả hai lần. Xác suất người đó bị bệnh là…",
+   "options": [
+    "\\(\\dfrac{16}{25}\\)",
+    "\\(\\dfrac{4}{53}\\)",
+    "\\(\\dfrac{8}{625}\\)",
+    "\\(\\dfrac{16}{65}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(P=\\dfrac{0.02\\cdot0.8^2}{0.02\\cdot0.8^2+0.98\\cdot0.2^2}=\\dfrac{16}{65}\\) (after one test only \\(\\dfrac{4}{53}\\)).",
+   "explain_vi": "Đáp án d. \\(P=\\dfrac{0{,}02\\cdot0{,}8^2}{0{,}02\\cdot0{,}8^2+0{,}98\\cdot0{,}2^2}=\\dfrac{16}{65}\\) (sau một lần chỉ là \\(\\dfrac{4}{53}\\)).",
+   "images": [],
+   "id": "d5e9844c33f9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "A farm buys #% of its rice seeds from supplier X and the rest from supplier Y. #% of X seeds and #% of Y seeds germinate. A seed does not germinate. The probability that it came from X (see the tree diagram) is…",
+   "en": "A farm buys 70% of its rice seeds from supplier X and the rest from supplier Y. 80% of X seeds and 75% of Y seeds germinate. A seed does not germinate. The probability that it came from X (see the tree diagram) is…<img src=\"../../../img/tex/6e130d67305cc9ec.svg\" alt=\"Tree diagram\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,330px);height:auto\">",
+   "vi": "Một hợp tác xã mua 70% hạt giống lúa của cơ sở X, còn lại của cơ sở Y. Tỉ lệ nảy mầm của hạt X là 80%, của hạt Y là 75%. Một hạt không nảy mầm. Xác suất hạt đó của cơ sở X (xem <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tree diagram\">sơ đồ hình cây</b>) là…<img src=\"../../../img/tex/c326a722588a958a.svg\" alt=\"Sơ đồ hình cây\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,330px);height:auto\">",
+   "options": [
+    "\\(\\dfrac{28}{43}\\)",
+    "\\(\\dfrac{7}{10}\\)",
+    "\\(\\dfrac{112}{157}\\)",
+    "\\(\\dfrac{15}{43}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(P(\\overline G)=0.7\\cdot0.2+0.3\\cdot0.25=0.215\\); \\(P(X\\mid\\overline G)=\\dfrac{0.14}{0.215}=\\dfrac{28}{43}\\).",
+   "explain_vi": "Đáp án a. \\(P(\\overline G)=0{,}7\\cdot0{,}2+0{,}3\\cdot0{,}25=0{,}215\\); \\(P(X\\mid\\overline G)=\\dfrac{0{,}14}{0{,}215}=\\dfrac{28}{43}\\).",
+   "images": [
+    "img/tex/6e130d67305cc9ec.svg",
+    "img/tex/c326a722588a958a.svg"
+   ],
+   "id": "79f5d388b766",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "In a town of # people, #% have a disease. A test is positive for #% of sick and #% of healthy people. If everyone is tested, about how many positive results are expected? (Tree diagram: \\(B\\) = sick, \\(A\\) = positive.)",
+   "en": "In a town of 10000 people, 5% have a disease. A test is positive for 90% of sick and 5% of healthy people. If everyone is tested, about how many positive results are expected? (Tree diagram: \\(B\\) = sick, \\(A\\) = positive.)<img src=\"../../../img/tex/9a0e4df9aec10441.svg\" alt=\"Tree diagram\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,330px);height:auto\">",
+   "vi": "Một thị trấn có 10000 người, 5% mắc một bệnh. Xét nghiệm dương tính với 90% người bệnh và 5% người khỏe. Nếu xét nghiệm tất cả, có khoảng bao nhiêu kết quả dương tính? (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"tree diagram\">Sơ đồ hình cây</b>: \\(B\\) – bị bệnh, \\(A\\) – dương tính.)<img src=\"../../../img/tex/04b660c81fdf5d88.svg\" alt=\"Sơ đồ hình cây\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,330px);height:auto\">",
+   "options": [
+    "\\(475\\)",
+    "\\(925\\)",
+    "\\(500\\)",
+    "\\(450\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Sick and positive: \\(10000\\cdot0.05\\cdot0.9=450\\); healthy and positive: \\(475\\); total positive \\(925\\).",
+   "explain_vi": "Đáp án b. Bệnh và dương tính: \\(10000\\cdot0{,}05\\cdot0{,}9=450\\); khỏe mà dương tính: \\(475\\); tổng số dương tính \\(925\\).",
+   "images": [
+    "img/tex/04b660c81fdf5d88.svg",
+    "img/tex/9a0e4df9aec10441.svg"
+   ],
+   "id": "3ad691526f67",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(P(A\\mid B)=#\\), \\(P(A\\mid\\overline B)=#\\) and \\(P(B\\mid A)=#\\). Then \\(P(B)=\\)…",
+   "en": "\\(P(A\\mid B)=0.6\\), \\(P(A\\mid\\overline B)=0.1\\) and \\(P(B\\mid A)=0.8\\). Then \\(P(B)=\\)…",
+   "vi": "\\(P(A\\mid B)=0{,}6\\), \\(P(A\\mid\\overline B)=0{,}1\\) và \\(P(B\\mid A)=0{,}8\\). Khi đó \\(P(B)=\\)…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(0.4\\)</span><span class=\"vi\">\\(0{,}4\\)</span></span>",
+    "\\(\\dfrac{2}{15}\\)",
+    "<span class=\"txi\"><span class=\"en\">\\(0.8\\)</span><span class=\"vi\">\\(0{,}8\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.6\\)</span><span class=\"vi\">\\(0{,}6\\)</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Put \\(p=P(B)\\): \\(\\dfrac{0.6 p}{0.6 p+0.1(1-p)}=0.8\\Rightarrow p=0.4\\).",
+   "explain_vi": "Đáp án a. Đặt \\(p=P(B)\\): \\(\\dfrac{0{,}6 p}{0{,}6 p+0{,}1(1-p)}=0{,}8\\Rightarrow p=0{,}4\\).",
+   "images": [],
+   "id": "af8bbd294f5d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Bag A holds # green and # yellow tickets; bag B holds # green and # yellow. A ticket is taken from A and put into B; then a ticket is drawn from B. The probability that it is green is…",
+   "en": "Bag A holds 1 green and 5 yellow tickets; bag B holds 2 green and 5 yellow. A ticket is taken from A and put into B; then a ticket is drawn from B. The probability that it is green is…",
+   "vi": "Túi A có 1 phiếu xanh, 5 phiếu vàng; túi B có 2 phiếu xanh, 5 phiếu vàng. Lấy một phiếu từ A bỏ vào B rồi rút một phiếu từ B. Xác suất rút được phiếu xanh là…",
+   "options": [
+    "\\(\\dfrac{2}{7}\\)",
+    "\\(\\dfrac{13}{48}\\)",
+    "\\(\\dfrac{3}{8}\\)",
+    "\\(\\dfrac{3}{13}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\dfrac{1}{6}\\cdot\\dfrac{3}{8}+\\dfrac{5}{6}\\cdot\\dfrac{2}{8}=\\dfrac{13}{48}\\).",
+   "explain_vi": "Đáp án b. \\(\\dfrac{1}{6}\\cdot\\dfrac{3}{8}+\\dfrac{5}{6}\\cdot\\dfrac{2}{8}=\\dfrac{13}{48}\\).",
+   "images": [],
+   "id": "86b2059f8024",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Box #: # red, # white; box #: # red, # white. Choose a box at random, then a ball. \\(P(\\text{red})=\\)…",
+   "en": "Box 1: 1 red, 3 white; box 2: 3 red, 2 white. Choose a box at random, then a ball. \\(P(\\text{red})=\\)…",
+   "vi": "Hộp 1: 1 đỏ, 3 trắng; hộp 2: 3 đỏ, 2 trắng. Chọn ngẫu nhiên một hộp rồi lấy một bi. Xác suất được bi đỏ là…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(0.425\\)</span><span class=\"vi\">\\(0{,}425\\)</span></span>",
+    "\\(\\dfrac{4}{9}\\)",
+    "<span class=\"txi\"><span class=\"en\">\\(0.15\\)</span><span class=\"vi\">\\(0{,}15\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.5\\)</span><span class=\"vi\">\\(0{,}5\\)</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\dfrac12\\cdot\\dfrac{1}{4}+\\dfrac12\\cdot\\dfrac{3}{5}\\).",
+   "explain_vi": "Đáp án a. \\(\\dfrac12\\cdot\\dfrac{1}{4}+\\dfrac12\\cdot\\dfrac{3}{5}=0{,}425\\).",
+   "images": [],
+   "id": "49c2bdaad8ae",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Given that \\(A\\) occurred, the probability that \\(B\\) did NOT occur (tree diagram) is…",
+   "en": "Given that \\(A\\) occurred, the probability that \\(B\\) did NOT occur (tree diagram) is…<img src=\"../../../img/tex/a164634a2415805d.svg\" alt=\"Tree diagram\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,330px);height:auto\">",
+   "vi": "Biết \\(A\\) đã xảy ra, xác suất \\(B\\) KHÔNG xảy ra (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"tree diagram\">sơ đồ hình cây</b>) là…<img src=\"../../../img/tex/9c40a6bd31fc13b2.svg\" alt=\"Sơ đồ hình cây\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,330px);height:auto\">",
+   "options": [
+    "\\(\\dfrac{2}{11}\\)",
+    "\\(\\dfrac{3}{25}\\)",
+    "\\(\\dfrac{3}{10}\\)",
+    "\\(\\dfrac{2}{5}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(P(A)=0.66\\); \\(P(\\overline B\\mid A)=\\dfrac{0.12}{0.66}=\\dfrac{2}{11}\\).",
+   "explain_vi": "Đáp án a. \\(P(A)=0{,}66\\); \\(P(\\overline B\\mid A)=\\dfrac{0{,}12}{0{,}66}=\\dfrac{2}{11}\\).",
+   "images": [
+    "img/tex/9c40a6bd31fc13b2.svg",
+    "img/tex/a164634a2415805d.svg"
+   ],
+   "id": "4c44c282a07e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Three farms I, II, III supply #%, #%, #% of the oranges of a market; #%, #%, #% of their oranges are spoiled. A spoiled orange is found. The probability that it came from farm II is…",
+   "en": "Three farms I, II, III supply 40%, 35%, 25% of the oranges of a market; 1%, 5%, 3% of their oranges are spoiled. A spoiled orange is found. The probability that it came from farm II is…",
+   "vi": "Ba trang trại I, II, III cung cấp 40%, 35%, 25% số cam của một chợ; tỉ lệ cam hỏng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"respectively\">lần lượt</b> 1%, 5%, 3%. Phát hiện một quả cam hỏng. Xác suất quả cam đó từ trang trại II là…",
+   "options": [
+    "\\(\\dfrac{7}{400}\\)",
+    "\\(\\dfrac{35}{58}\\)",
+    "\\(\\dfrac{5}{9}\\)",
+    "\\(\\dfrac{7}{20}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(P(A)=2.9\\%\\); \\(P(B_2\\mid A)=\\dfrac{35\\cdot5}{290}=\\dfrac{35}{58}\\).",
+   "explain_vi": "Đáp án b. \\(P(A)=2{,}9\\%\\); \\(P(B_2\\mid A)=\\dfrac{35\\cdot5}{290}=\\dfrac{35}{58}\\).",
+   "images": [],
+   "id": "dffd02ab78de",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(P(B)=#\\), \\(P(A\\mid B)=#\\), \\(P(A\\mid\\overline B)=#\\). \\(P(A)=\\)…",
+   "en": "\\(P(B)=0.6\\), \\(P(A\\mid B)=0.5\\), \\(P(A\\mid\\overline B)=0.3\\). \\(P(A)=\\)…",
+   "vi": "Cho \\(P(B)=0{,}6\\), \\(P(A\\mid B)=0{,}5\\), \\(P(A\\mid\\overline B)=0{,}3\\). Khi đó \\(P(A)=\\)…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(0.3\\)</span><span class=\"vi\">\\(0{,}3\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.42\\)</span><span class=\"vi\">\\(0{,}42\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.48\\)</span><span class=\"vi\">\\(0{,}48\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.4\\)</span><span class=\"vi\">\\(0{,}4\\)</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Total probability.",
+   "explain_vi": "Đáp án b. Xác suất toàn phần: \\(0{,}6\\cdot0{,}5+0{,}4\\cdot0{,}3=0{,}42\\).",
+   "images": [],
+   "id": "e97c2e437fd9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(P(B)=#\\), \\(P(A\\mid B)=#\\), \\(P(A\\mid\\overline B)=#\\). \\(P(B\\mid A)=\\)…",
+   "en": "\\(P(B)=0.2\\), \\(P(A\\mid B)=0.9\\), \\(P(A\\mid\\overline B)=0.3\\). \\(P(B\\mid A)=\\)…",
+   "vi": "Cho \\(P(B)=0{,}2\\), \\(P(A\\mid B)=0{,}9\\), \\(P(A\\mid\\overline B)=0{,}3\\). Khi đó \\(P(B\\mid A)=\\)…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(0.18\\)</span><span class=\"vi\">\\(0{,}18\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.9\\)</span><span class=\"vi\">\\(0{,}9\\)</span></span>",
+    "\\(\\dfrac{3}{7}\\)",
+    "<span class=\"txi\"><span class=\"en\">\\(0.42\\)</span><span class=\"vi\">\\(0{,}42\\)</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Bayes: \\(P(A)=0.42\\).",
+   "explain_vi": "Đáp án c. Bayes: \\(P(A)=0{,}42\\), \\(P(B\\mid A)=\\dfrac{3}{7}\\).",
+   "images": [],
+   "id": "364ba4d6b69d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "If \\(A\\) and \\(B\\) are independent, then \\(P(B\\mid A)=P(B)\\).",
+   "en": "If \\(A\\) and \\(B\\) are independent, then \\(P(B\\mid A)=P(B)\\).",
+   "vi": "Nếu \\(A\\) và \\(B\\) độc lập thì \\(P(B\\mid A)=P(B)\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "Knowing \\(A\\) does not change the chance of \\(B\\).",
+   "explain_vi": "Biết \\(A\\) không làm thay đổi khả năng xảy ra của \\(B\\).",
+   "images": [],
+   "id": "d1d670df4ce5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "In the tree diagram, \\(P(B\\mid A)\\gt P(B)\\) (\\(A\\) makes \\(B\\) more likely).",
+   "en": "In the tree diagram, \\(P(B\\mid A)\\gt P(B)\\) (\\(A\\) makes \\(B\\) more likely).<img src=\"../../../img/tex/f83db438d967a10f.svg\" alt=\"Tree diagram\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,330px);height:auto\">",
+   "vi": "Trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tree diagram\">sơ đồ hình cây</b>, \\(P(B\\mid A)\\gt P(B)\\) (\\(A\\) làm \\(B\\) dễ xảy ra hơn).<img src=\"../../../img/tex/4c67d45ed5b643c1.svg\" alt=\"Sơ đồ hình cây\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,330px);height:auto\">",
+   "options": [],
+   "answer": "false",
+   "explain_en": "\\(P(A)=0.52\\), \\(P(B\\mid A)=\\dfrac{0.04}{0.52}=\\dfrac{1}{13}\\), \\(P(B)=0.2\\).",
+   "explain_vi": "\\(P(A)=0{,}52\\), \\(P(B\\mid A)=\\dfrac{0{,}04}{0{,}52}=\\dfrac{1}{13}\\), \\(P(B)=0{,}2\\).",
+   "images": [
+    "img/tex/4c67d45ed5b643c1.svg",
+    "img/tex/f83db438d967a10f.svg"
+   ],
+   "id": "b9e7cb813fd2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(P(B\\mid A)+P(\\overline B\\mid A)=#\\) only when \\(A\\), \\(B\\) are independent.",
+   "en": "\\(P(B\\mid A)+P(\\overline B\\mid A)=1\\) only when \\(A\\), \\(B\\) are independent.",
+   "vi": "\\(P(B\\mid A)+P(\\overline B\\mid A)=1\\) chỉ đúng khi \\(A\\), \\(B\\) độc lập.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "It is always true (complementary events given \\(A\\)).",
+   "explain_vi": "Luôn đúng (hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"complementary event\">biến cố đối</b> khi đã biết \\(A\\)).",
+   "images": [],
+   "id": "5913b68f0ac1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "A student knows the answer to a #-option question with probability #, otherwise guesses. He answered correctly. Find the probability that he knew it (decimal).",
+   "en": "A student knows the answer to a 4-option question with probability 0.5, otherwise guesses. He answered correctly. Find the probability that he knew it (decimal).",
+   "vi": "Câu trắc nghiệm 4 phương án; học sinh biết đáp án với xác suất 0{,}5, nếu không thì chọn ngẫu nhiên. Em trả lời đúng. Tính xác suất em biết đáp án (dạng thập phân).",
+   "options": [],
+   "answer": "0.8",
+   "explain_en": "\\(\\dfrac{0.5}{0.5+0.5\\cdot\\dfrac1{4}}=0.8\\).",
+   "explain_vi": "\\(\\dfrac{0{,}5}{0{,}5+0{,}5\\cdot\\dfrac1{4}}=0{,}8\\).",
+   "images": [],
+   "id": "c002464dfaee",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "Machines make #%, #%, #% of the products; defect rates #%, #%, #%. Find \\(P(\\text{defective})\\) as a percentage (e.g. # means #%).",
+   "en": "Machines make 40%, 35%, 25% of the products; defect rates 1%, 2%, 4%. Find \\(P(\\text{defective})\\) as a percentage (e.g. 2.5 means 2.5%).",
+   "vi": "Ba máy sản xuất 40%, 35%, 25% sản phẩm; tỉ lệ phế phẩm 1%, 2%, 4%. Tính xác suất lấy được phế phẩm theo phần trăm (ví dụ 2,5 nghĩa là 2,5%).",
+   "options": [],
+   "answer": "2.1",
+   "explain_en": "\\(\\sum P(B_i)P(A\\mid B_i)=0.021=2.1\\%\\).",
+   "explain_vi": "\\(\\sum P(B_i)P(A\\mid B_i)=0{,}021=2{,}1\\%\\).",
+   "images": [],
+   "id": "d5d8ceae5060",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "The overall probability of \\(A\\) is \\(#\\). Find the missing branch \\(P(A\\mid\\overline B)\\) (in %).",
+   "en": "The overall probability of \\(A\\) is \\(0.42\\). Find the missing branch \\(P(A\\mid\\overline B)\\) (in %).<img src=\"../../../img/tex/ed3bc4730553f336.svg\" alt=\"Tree diagram\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,330px);height:auto\">",
+   "vi": "Xác suất của \\(A\\) là \\(0{,}42\\). Tìm nhánh còn thiếu \\(P(A\\mid\\overline B)\\) (đơn vị %).<img src=\"../../../img/tex/cebe93467730adcb.svg\" alt=\"Sơ đồ hình cây\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,330px);height:auto\">",
+   "options": [],
+   "answer": "30",
+   "explain_en": "\\(0.42=0.4\\cdot0.6+0.6\\cdot y\\Rightarrow y=0.3\\), i.e. 30%.",
+   "explain_vi": "\\(0{,}42=0{,}4\\cdot0{,}6+0{,}6\\cdot y\\Rightarrow y=0{,}3\\), tức 30%.",
+   "images": [
+    "img/tex/cebe93467730adcb.svg",
+    "img/tex/ed3bc4730553f336.svg"
+   ],
+   "id": "ede468615cbf",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "#% of the chicken eggs in an incubator come from farm X, the rest from farm Y. Hatching rates are #% (X) and #% (Y). An egg does not hatch. Using the tree diagram, find the probability that it came from X.",
+   "en": "70% of the chicken eggs in an incubator come from farm X, the rest from farm Y. Hatching rates are 90% (X) and 75% (Y). An egg does not hatch. Using the tree diagram, find the probability that it came from X.<img src=\"../../../img/tex/00ca1dedc9a30ad0.svg\" alt=\"Tree diagram\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,330px);height:auto\">",
+   "vi": "70% số trứng gà trong lò ấp của trại X, còn lại của trại Y. Tỉ lệ nở là 90% (X) và 75% (Y). Một quả trứng không nở. Dùng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tree diagram\">sơ đồ hình cây</b>, tính xác suất quả trứng đó của trại X.<img src=\"../../../img/tex/3adeac83742a3061.svg\" alt=\"Sơ đồ hình cây\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,330px);height:auto\">",
+   "options": [
+    "\\(\\dfrac{14}{29}\\)",
+    "\\(\\dfrac{15}{29}\\)",
+    "\\(\\dfrac{7}{10}\\)",
+    "\\(\\dfrac{14}{19}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(P(\\overline G)=0.7\\cdot0.1+0.3\\cdot0.25=0.145\\); \\(P(X\\mid\\overline G)=\\dfrac{0.07}{0.145}=\\dfrac{14}{29}\\).",
+   "explain_vi": "Đáp án a. \\(P(\\overline G)=0{,}7\\cdot0{,}1+0{,}3\\cdot0{,}25=0{,}145\\); \\(P(X\\mid\\overline G)=\\dfrac{0{,}07}{0{,}145}=\\dfrac{14}{29}\\).",
+   "images": [
+    "img/tex/00ca1dedc9a30ad0.svg",
+    "img/tex/3adeac83742a3061.svg"
+   ],
+   "id": "d5f8b85fbe27",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "#% of the e-mails are spam. A filter flags #% of spam and #% of normal e-mails; two different filters of this kind work independently given the type of e-mail. Both flag an e-mail. The probability that it is spam is…",
+   "en": "10% of the e-mails are spam. A filter flags 90% of spam and 20% of normal e-mails; two different filters of this kind work independently given the type of e-mail. Both flag an e-mail. The probability that it is spam is…",
+   "vi": "10% thư điện tử là thư rác. Một bộ lọc đánh dấu 90% thư rác và 20% thư thường; hai bộ lọc loại này hoạt động độc lập khi biết loại thư. Cả hai cùng đánh dấu một thư. Xác suất thư đó là thư rác là…",
+   "options": [
+    "\\(\\dfrac{81}{1000}\\)",
+    "\\(\\dfrac{1}{3}\\)",
+    "\\(\\dfrac{9}{13}\\)",
+    "\\(\\dfrac{81}{100}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(P=\\dfrac{0.1\\cdot0.9^2}{0.1\\cdot0.9^2+0.9\\cdot0.2^2}=\\dfrac{9}{13}\\) (after one test only \\(\\dfrac{1}{3}\\)).",
+   "explain_vi": "Đáp án c. \\(P=\\dfrac{0{,}1\\cdot0{,}9^2}{0{,}1\\cdot0{,}9^2+0{,}9\\cdot0{,}2^2}=\\dfrac{9}{13}\\) (sau một lần chỉ là \\(\\dfrac{1}{3}\\)).",
+   "images": [],
+   "id": "e6d040205f7b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "#% of the parts in a factory are faulty (\\(B\\): \"the part is faulty\"). Test X is positive for #% of the cases with \\(B\\) and #% of the cases without \\(B\\); test Y for #% and #%. A case tests positive. With which test is the result more trustworthy?",
+   "en": "5% of the parts in a factory are faulty (\\(B\\): \"the part is faulty\"). Test X is positive for 95% of the cases with \\(B\\) and 5% of the cases without \\(B\\); test Y for 80% and 1%. A case tests positive. With which test is the result more trustworthy?",
+   "vi": "5% linh kiện của một nhà máy bị lỗi (\\(B\\): \"linh kiện bị lỗi\"). Xét nghiệm X dương tính với 95% trường hợp có \\(B\\) và 5% trường hợp không có \\(B\\); xét nghiệm Y <b class=\"mbl-term\" tabindex=\"0\" data-en=\"respectively\">lần lượt</b> 80% và 1%. Một trường hợp cho kết quả dương tính. Với xét nghiệm nào kết quả đáng tin hơn?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">Test Y, because \\(P(B\\mid+)\\) is larger for it.</span><span class=\"vi\">Xét nghiệm Y, vì với nó \\(P(B\\mid+)\\) lớn hơn.</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Test X, because it gives a larger \\(P(B\\mid+)\\).</span><span class=\"vi\">Xét nghiệm X, vì nó cho \\(P(B\\mid+)\\) lớn hơn.</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Both tests are equally reliable.</span><span class=\"vi\">Hai xét nghiệm tin cậy như nhau.</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Test X, because it detects more cases with \\(B\\).</span><span class=\"vi\">Xét nghiệm X, vì phát hiện được nhiều trường hợp có \\(B\\) hơn.</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. X: \\(P(B\\mid+)=\\dfrac{1}{2}\\approx0.5\\); Y: \\(\\dfrac{80}{99}\\approx0.81\\).",
+   "explain_vi": "Đáp án a. X: \\(P(B\\mid+)=\\dfrac{1}{2}\\approx0{,}5\\); Y: \\(\\dfrac{80}{99}\\approx0{,}81\\).",
+   "images": [],
+   "id": "5e8e7975363e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "A disease affects #% of people. A test is positive for #% of sick and #% of healthy people. A student computed the probability that a person with a positive test is sick. Step #: \\(P(+)=#\\cdot#+#\\cdot#=#\\). Step #: \\(P(\\text{sick}\\mid+)=P(+\\mid\\text{sick})=#\\). Which comment is correct?",
+   "en": "A disease affects 2% of people. A test is positive for 98% of sick and 2% of healthy people. A student computed the probability that a person with a positive test is sick. Step 1: \\(P(+)=0.02\\cdot0.98+0.98\\cdot0.02=0.0392\\). Step 2: \\(P(\\text{sick}\\mid+)=P(+\\mid\\text{sick})=0.98\\). Which comment is correct?",
+   "vi": "Một bệnh có tỉ lệ mắc 2%. Xét nghiệm dương tính với 98% người bệnh và 2% người khỏe. Một bạn tính xác suất người xét nghiệm dương tính bị bệnh. Bước 1: \\(P(+)=0{,}02\\cdot0{,}98+0{,}98\\cdot0{,}02=0{,}0392\\). Bước 2: \\(P(\\text{bệnh}\\mid+)=P(+\\mid\\text{bệnh})=0{,}98\\). Nhận xét nào đúng?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">Both steps are correct.</span><span class=\"vi\">Cả hai bước đều đúng.</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Step 1 must use \\(P(+)=0.98+0.02\\).</span><span class=\"vi\">Bước 1 phải dùng \\(P(+)=0{,}98+0{,}02\\).</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Step 1 is wrong.</span><span class=\"vi\">Bước 1 sai.</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Step 2 is wrong: \\(P(\\text{sick}\\mid+)=\\dfrac{P(\\text{sick})P(+\\mid\\text{sick})}{P(+)}\\).</span><span class=\"vi\">Bước 2 sai: \\(P(\\text{bệnh}\\mid+)=\\dfrac{P(\\text{bệnh})P(+\\mid\\text{bệnh})}{P(+)}\\).</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(P(\\text{sick}\\mid+)=\\dfrac{0.0196}{0.0392}=\\dfrac{1}{2}\\), far from \\(0.98\\).",
+   "explain_vi": "Đáp án d. \\(P(\\text{bệnh}\\mid+)=\\dfrac{0{,}0196}{0{,}0392}=\\dfrac{1}{2}\\), khác xa \\(0{,}98\\).",
+   "images": [],
+   "id": "e4cdd668fd93",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "A school screens # students for a condition affecting #% of them; the screening is positive for #% of affected and #% of unaffected students. About how many students will be screened positive? (Tree diagram: \\(B\\) = sick, \\(A\\) = positive.)",
+   "en": "A school screens 1000 students for a condition affecting 4% of them; the screening is positive for 95% of affected and 5% of unaffected students. About how many students will be screened positive? (Tree diagram: \\(B\\) = sick, \\(A\\) = positive.)<img src=\"../../../img/tex/5637ae2047908caa.svg\" alt=\"Tree diagram\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,330px);height:auto\">",
+   "vi": "Một trường sàng lọc 1000 học sinh về một tình trạng có ở 4% học sinh; kết quả dương tính với 95% em có và 5% em không có tình trạng đó. Khoảng bao nhiêu học sinh có kết quả dương tính? (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"tree diagram\">Sơ đồ hình cây</b>: \\(B\\) – bị bệnh, \\(A\\) – dương tính.)<img src=\"../../../img/tex/97f31edf2ddc0f48.svg\" alt=\"Sơ đồ hình cây\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,330px);height:auto\">",
+   "options": [
+    "\\(38\\)",
+    "\\(86\\)",
+    "\\(48\\)",
+    "\\(40\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Sick and positive: \\(1000\\cdot0.04\\cdot0.95=38\\); healthy and positive: \\(48\\); total positive \\(86\\).",
+   "explain_vi": "Đáp án b. Bệnh và dương tính: \\(1000\\cdot0{,}04\\cdot0{,}95=38\\); khỏe mà dương tính: \\(48\\); tổng số dương tính \\(86\\).",
+   "images": [
+    "img/tex/5637ae2047908caa.svg",
+    "img/tex/97f31edf2ddc0f48.svg"
+   ],
+   "id": "27f088a94d05",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Knowing \\(P(B\\mid A)=\\dfrac{#}{#}\\), \\(P(A\\mid B)=#\\), \\(P(A\\mid\\overline B)=#\\), find the prior probability \\(P(B)\\).",
+   "en": "Knowing \\(P(B\\mid A)=\\dfrac{2}{3}\\), \\(P(A\\mid B)=0.8\\), \\(P(A\\mid\\overline B)=0.1\\), find the prior probability \\(P(B)\\).",
+   "vi": "Biết \\(P(B\\mid A)=\\dfrac{2}{3}\\), \\(P(A\\mid B)=0{,}8\\), \\(P(A\\mid\\overline B)=0{,}1\\), tìm xác suất tiên nghiệm \\(P(B)\\).",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(0.8\\)</span><span class=\"vi\">\\(0{,}8\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.2\\)</span><span class=\"vi\">\\(0{,}2\\)</span></span>",
+    "\\(\\dfrac{1}{12}\\)",
+    "\\(\\dfrac{2}{3}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Put \\(p=P(B)\\): \\(\\dfrac{0.8 p}{0.8 p+0.1(1-p)}=\\dfrac{2}{3}\\Rightarrow p=0.2\\).",
+   "explain_vi": "Đáp án b. Đặt \\(p=P(B)\\): \\(\\dfrac{0{,}8 p}{0{,}8 p+0{,}1(1-p)}=\\dfrac{2}{3}\\Rightarrow p=0{,}2\\).",
+   "images": [],
+   "id": "2a6d9cf4ed36",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Three boxes: box # (chosen with probability \\(\\dfrac{#}{#}\\)) has # red and # white balls; box # (chosen with probability \\(\\dfrac{#}{#}\\)) has # red and # white balls; box # (chosen with probability \\(\\dfrac{#}{#}\\)) has # red and # white balls. A red ball was drawn. Which box is the most likely source?",
+   "en": "Three boxes: box 1 (chosen with probability \\(\\dfrac{1}{2}\\)) has 3 red and 3 white balls; box 2 (chosen with probability \\(\\dfrac{1}{3}\\)) has 1 red and 3 white balls; box 3 (chosen with probability \\(\\dfrac{1}{6}\\)) has 4 red and 2 white balls. A red ball was drawn. Which box is the most likely source?",
+   "vi": "Ba hộp: hộp 1 (được chọn với xác suất \\(\\dfrac{1}{2}\\)) có 3 bi đỏ, 3 bi trắng; hộp 2 (được chọn với xác suất \\(\\dfrac{1}{3}\\)) có 1 bi đỏ, 3 bi trắng; hộp 3 (được chọn với xác suất \\(\\dfrac{1}{6}\\)) có 4 bi đỏ, 2 bi trắng. Lấy được một bi đỏ. Hộp nào có khả năng cao nhất?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">Box 3</span><span class=\"vi\">Hộp 3</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Box 2</span><span class=\"vi\">Hộp 2</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Box 1</span><span class=\"vi\">Hộp 1</span></span>",
+    "<span class=\"txi\"><span class=\"en\">All boxes are equally likely</span><span class=\"vi\">Ba hộp có khả năng như nhau</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Posterior probabilities: \\(\\dfrac{9}{16}\\), \\(\\dfrac{3}{16}\\), \\(\\dfrac{1}{4}\\).",
+   "explain_vi": "Đáp án c. Các xác suất hậu nghiệm: \\(\\dfrac{9}{16}\\), \\(\\dfrac{3}{16}\\), \\(\\dfrac{1}{4}\\).",
+   "images": [],
+   "id": "87c39ac49570",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Which of the following is a complete system of events?",
+   "en": "Which of the following is a complete system of events?",
+   "vi": "Nhóm biến cố nào sau đây là một hệ đầy đủ?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(B_1\\): \"the student is in grade 10\", \\(B_2\\): \"grade 11\", \\(B_3\\): \"grade 12\" (a high school student is chosen).</span><span class=\"vi\">\\(B_1\\): \"học sinh lớp 10\", \\(B_2\\): \"lớp 11\", \\(B_3\\): \"lớp 12\" (chọn một học sinh THPT).</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(B_1\\): \"grade 10\", \\(B_2\\): \"grade 11\".</span><span class=\"vi\">\\(B_1\\): \"lớp 10\", \\(B_2\\): \"lớp 11\".</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(B_1\\): \"the student is a girl\", \\(B_2\\): \"the student is in grade 10\".</span><span class=\"vi\">\\(B_1\\): \"học sinh là nữ\", \\(B_2\\): \"học sinh lớp 10\".</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(B_1\\): \"the student likes Math\", \\(B_2\\): \"the student likes Physics\".</span><span class=\"vi\">\\(B_1\\): \"học sinh thích Toán\", \\(B_2\\): \"học sinh thích Vật lí\".</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Only this family is pairwise exclusive and its events cover all cases.",
+   "explain_vi": "Đáp án a. Chỉ nhóm này <b class=\"mbl-term\" tabindex=\"0\" data-en=\"mutually exclusive\">xung khắc</b> từng đôi và các biến cố phủ hết mọi trường hợp.",
+   "images": [],
+   "id": "79635ebe1625",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Basket #: # ripe and # unripe mangoes; basket #: # ripe and # unripe. A mango is moved from basket # to basket #, then one mango is taken from basket #. Find the probability that it is ripe.",
+   "en": "Basket 1: 1 ripe and 4 unripe mangoes; basket 2: 5 ripe and 1 unripe. A mango is moved from basket 1 to basket 2, then one mango is taken from basket 2. Find the probability that it is ripe.",
+   "vi": "Rổ 1 có 1 quả xoài chín, 4 quả xanh; rổ 2 có 5 quả chín, 1 quả xanh. Chuyển một quả từ rổ 1 sang rổ 2 rồi lấy một quả từ rổ 2. Tính xác suất lấy được quả chín.",
+   "options": [
+    "\\(\\dfrac{5}{6}\\)",
+    "\\(\\dfrac{26}{35}\\)",
+    "\\(\\dfrac{6}{7}\\)",
+    "\\(\\dfrac{6}{11}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\dfrac{1}{5}\\cdot\\dfrac{6}{7}+\\dfrac{4}{5}\\cdot\\dfrac{5}{7}=\\dfrac{26}{35}\\).",
+   "explain_vi": "Đáp án b. \\(\\dfrac{1}{5}\\cdot\\dfrac{6}{7}+\\dfrac{4}{5}\\cdot\\dfrac{5}{7}=\\dfrac{26}{35}\\).",
+   "images": [],
+   "id": "cab479bb4453",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Box #: # red, # white; box #: # red, # white. Choose a box at random, then a ball. \\(P(\\text{red})=\\)…",
+   "en": "Box 1: 2 red, 2 white; box 2: 1 red, 4 white. Choose a box at random, then a ball. \\(P(\\text{red})=\\)…",
+   "vi": "Hộp 1: 2 đỏ, 2 trắng; hộp 2: 1 đỏ, 4 trắng. Chọn ngẫu nhiên một hộp rồi lấy một bi. Xác suất được bi đỏ là…",
+   "options": [
+    "\\(\\dfrac{1}{3}\\)",
+    "<span class=\"txi\"><span class=\"en\">\\(0.1\\)</span><span class=\"vi\">\\(0{,}1\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.5\\)</span><span class=\"vi\">\\(0{,}5\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.35\\)</span><span class=\"vi\">\\(0{,}35\\)</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\dfrac12\\cdot\\dfrac{2}{4}+\\dfrac12\\cdot\\dfrac{1}{5}\\).",
+   "explain_vi": "Đáp án d. \\(\\dfrac12\\cdot\\dfrac{2}{4}+\\dfrac12\\cdot\\dfrac{1}{5}=0{,}35\\).",
+   "images": [],
+   "id": "b489991ccd04",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Three bus lines I, II, III carry #%, #%, #% of the students of a school; the late rates are #%, #%, #%. A student arrives late. The probability that the student took line I is…",
+   "en": "Three bus lines I, II, III carry 30%, 30%, 40% of the students of a school; the late rates are 5%, 4%, 2%. A student arrives late. The probability that the student took line I is…",
+   "vi": "Ba tuyến xe buýt I, II, III chở 30%, 30%, 40% học sinh của trường; tỉ lệ đến muộn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"respectively\">lần lượt</b> 5%, 4%, 2%. Một học sinh đến muộn. Xác suất học sinh đó đi tuyến I là…",
+   "options": [
+    "\\(\\dfrac{3}{200}\\)",
+    "\\(\\dfrac{5}{11}\\)",
+    "\\(\\dfrac{3}{10}\\)",
+    "\\(\\dfrac{3}{7}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(P(A)=3.5\\%\\); \\(P(B_1\\mid A)=\\dfrac{30\\cdot5}{350}=\\dfrac{3}{7}\\).",
+   "explain_vi": "Đáp án d. \\(P(A)=3{,}5\\%\\); \\(P(B_1\\mid A)=\\dfrac{30\\cdot5}{350}=\\dfrac{3}{7}\\).",
+   "images": [],
+   "id": "c1629506ee11",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Use the tree diagram to find \\(P(\\overline B\\mid A)\\).",
+   "en": "Use the tree diagram to find \\(P(\\overline B\\mid A)\\).<img src=\"../../../img/tex/cc40f202ff786f45.svg\" alt=\"Tree diagram\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,330px);height:auto\">",
+   "vi": "Dùng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tree diagram\">sơ đồ hình cây</b>, tính \\(P(\\overline B\\mid A)\\).<img src=\"../../../img/tex/95337561e3d8dc07.svg\" alt=\"Sơ đồ hình cây\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,330px);height:auto\">",
+   "options": [
+    "\\(\\dfrac{3}{17}\\)",
+    "\\(\\dfrac{3}{50}\\)",
+    "\\(\\dfrac{1}{10}\\)",
+    "\\(\\dfrac{3}{5}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(P(A)=0.34\\); \\(P(\\overline B\\mid A)=\\dfrac{0.06}{0.34}=\\dfrac{3}{17}\\).",
+   "explain_vi": "Đáp án a. \\(P(A)=0{,}34\\); \\(P(\\overline B\\mid A)=\\dfrac{0{,}06}{0{,}34}=\\dfrac{3}{17}\\).",
+   "images": [
+    "img/tex/95337561e3d8dc07.svg",
+    "img/tex/cc40f202ff786f45.svg"
+   ],
+   "id": "509d056ae749",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(P(B)=#\\), \\(P(A\\mid B)=#\\), \\(P(A\\mid\\overline B)=#\\). \\(P(A)=\\)…",
+   "en": "\\(P(B)=0.2\\), \\(P(A\\mid B)=0.9\\), \\(P(A\\mid\\overline B)=0.4\\). \\(P(A)=\\)…",
+   "vi": "Cho \\(P(B)=0{,}2\\), \\(P(A\\mid B)=0{,}9\\), \\(P(A\\mid\\overline B)=0{,}4\\). Khi đó \\(P(A)=\\)…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(0.5\\)</span><span class=\"vi\">\\(0{,}5\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.18\\)</span><span class=\"vi\">\\(0{,}18\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.26\\)</span><span class=\"vi\">\\(0{,}26\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.65\\)</span><span class=\"vi\">\\(0{,}65\\)</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Total probability.",
+   "explain_vi": "Đáp án a. Xác suất toàn phần: \\(0{,}2\\cdot0{,}9+0{,}8\\cdot0{,}4=0{,}5\\).",
+   "images": [],
+   "id": "71ab4100d6b0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(P(B)=#\\), \\(P(A\\mid B)=#\\), \\(P(A\\mid\\overline B)=#\\). \\(P(B\\mid A)=\\)…",
+   "en": "\\(P(B)=0.5\\), \\(P(A\\mid B)=0.8\\), \\(P(A\\mid\\overline B)=0.2\\). \\(P(B\\mid A)=\\)…",
+   "vi": "Cho \\(P(B)=0{,}5\\), \\(P(A\\mid B)=0{,}8\\), \\(P(A\\mid\\overline B)=0{,}2\\). Khi đó \\(P(B\\mid A)=\\)…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(0.4\\)</span><span class=\"vi\">\\(0{,}4\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.5\\)</span><span class=\"vi\">\\(0{,}5\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.2\\)</span><span class=\"vi\">\\(0{,}2\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.8\\)</span><span class=\"vi\">\\(0{,}8\\)</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Bayes: \\(P(A)=0.5\\).",
+   "explain_vi": "Đáp án d. Bayes: \\(P(A)=0{,}5\\), \\(P(B\\mid A)=0{,}8\\).",
+   "images": [],
+   "id": "ce722c2ae246",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "The denominator of Bayes' formula is the total probability \\(P(A)\\).",
+   "en": "The denominator of Bayes' formula is the total probability \\(P(A)\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"denominator\">Mẫu số</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"Bayes' formula\">công thức Bayes</b> là xác suất toàn phần \\(P(A)\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "\\(P(A)=\\sum P(B_i)P(A\\mid B_i)\\).",
+   "explain_vi": "\\(P(A)=\\sum P(B_i)P(A\\mid B_i)\\).",
+   "images": [],
+   "id": "af5376eb511d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "Using the tree diagram: \\(P(B\\mid A)\\lt P(B)\\).",
+   "en": "Using the tree diagram: \\(P(B\\mid A)\\lt P(B)\\).<img src=\"../../../img/tex/fdb680db9b03b4b1.svg\" alt=\"Tree diagram\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,330px);height:auto\">",
+   "vi": "Dùng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tree diagram\">sơ đồ hình cây</b>: \\(P(B\\mid A)\\lt P(B)\\).<img src=\"../../../img/tex/2cc82f68c899e689.svg\" alt=\"Sơ đồ hình cây\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,330px);height:auto\">",
+   "options": [],
+   "answer": "true",
+   "explain_en": "\\(P(A)=0.45\\), \\(P(B\\mid A)=\\dfrac{0.15}{0.45}=\\dfrac{1}{3}\\), \\(P(B)=0.5\\).",
+   "explain_vi": "\\(P(A)=0{,}45\\), \\(P(B\\mid A)=\\dfrac{0{,}15}{0{,}45}=\\dfrac{1}{3}\\), \\(P(B)=0{,}5\\).",
+   "images": [
+    "img/tex/2cc82f68c899e689.svg",
+    "img/tex/fdb680db9b03b4b1.svg"
+   ],
+   "id": "1a1628eca2ad",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "With prevalence #%, a test with #% sensitivity gives \\(P(\\text{sick}\\mid+)=#\\).",
+   "en": "With prevalence 1%, a test with 99% sensitivity gives \\(P(\\text{sick}\\mid+)=0.99\\).",
+   "vi": "Với tỉ lệ mắc 1%, xét nghiệm có độ nhạy 99% cho \\(P(\\text{bệnh}\\mid+)=0{,}99\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "\\(0.99\\) is \\(P(+\\mid\\text{sick})\\); \\(P(\\text{sick}\\mid+)\\) is much smaller.",
+   "explain_vi": "\\(0{,}99\\) là \\(P(+\\mid\\text{bệnh})\\); \\(P(\\text{bệnh}\\mid+)\\) nhỏ hơn nhiều.",
+   "images": [],
+   "id": "6ed8b394d05e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "A student knows the answer to a #-option question with probability #, otherwise guesses. He answered correctly. Find the probability that he knew it (decimal).",
+   "en": "A student knows the answer to a 4-option question with probability 0.2, otherwise guesses. He answered correctly. Find the probability that he knew it (decimal).",
+   "vi": "Câu trắc nghiệm 4 phương án; học sinh biết đáp án với xác suất 0{,}2, nếu không thì chọn ngẫu nhiên. Em trả lời đúng. Tính xác suất em biết đáp án (dạng thập phân).",
+   "options": [],
+   "answer": "0.5",
+   "explain_en": "\\(\\dfrac{0.2}{0.2+0.8\\cdot\\dfrac1{4}}=0.5\\).",
+   "explain_vi": "\\(\\dfrac{0{,}2}{0{,}2+0{,}8\\cdot\\dfrac1{4}}=0{,}5\\).",
+   "images": [],
+   "id": "4fb5a05d0413",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Knowing \\(P(A)=#\\), calculate \\(P(A\\mid\\overline B)\\) and write it in percent.",
+   "en": "Knowing \\(P(A)=0.35\\), calculate \\(P(A\\mid\\overline B)\\) and write it in percent.<img src=\"../../../img/tex/25c18b22f2d5404f.svg\" alt=\"Tree diagram\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,330px);height:auto\">",
+   "vi": "Biết \\(P(A)=0{,}35\\), tính \\(P(A\\mid\\overline B)\\) và viết dưới dạng phần trăm.<img src=\"../../../img/tex/1d0b30da1417a79b.svg\" alt=\"Sơ đồ hình cây\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,330px);height:auto\">",
+   "options": [],
+   "answer": "25",
+   "explain_en": "\\(0.35=0.4\\cdot0.5+0.6\\cdot y\\Rightarrow y=0.25\\), i.e. 25%.",
+   "explain_vi": "\\(0{,}35=0{,}4\\cdot0{,}5+0{,}6\\cdot y\\Rightarrow y=0{,}25\\), tức 25%.",
+   "images": [
+    "img/tex/1d0b30da1417a79b.svg",
+    "img/tex/25c18b22f2d5404f.svg"
+   ],
+   "id": "168b88d63b88",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Machines make #%, #%, #% of the products; defect rates #%, #%, #%. Find \\(P(\\text{defective})\\) as a percentage (e.g. # means #%).",
+   "en": "Machines make 60%, 25%, 15% of the products; defect rates 3%, 4%, 2%. Find \\(P(\\text{defective})\\) as a percentage (e.g. 2.5 means 2.5%).",
+   "vi": "Ba máy sản xuất 60%, 25%, 15% sản phẩm; tỉ lệ phế phẩm 3%, 4%, 2%. Tính xác suất lấy được phế phẩm theo phần trăm (ví dụ 2,5 nghĩa là 2,5%).",
+   "options": [],
+   "answer": "3.1",
+   "explain_en": "\\(\\sum P(B_i)P(A\\mid B_i)=0.031=3.1\\%\\).",
+   "explain_vi": "\\(\\sum P(B_i)P(A\\mid B_i)=0{,}031=3{,}1\\%\\).",
+   "images": [],
+   "id": "3435eafeb6d2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "#% of the seeds in a batch are infected (\\(B\\): \"the seed is infected\"). Test X is positive for #% of the cases with \\(B\\) and #% of the cases without \\(B\\); test Y for #% and #%. A case tests positive. With which test is the result more trustworthy?",
+   "en": "2% of the seeds in a batch are infected (\\(B\\): \"the seed is infected\"). Test X is positive for 95% of the cases with \\(B\\) and 5% of the cases without \\(B\\); test Y for 80% and 1%. A case tests positive. With which test is the result more trustworthy?",
+   "vi": "2% hạt giống trong một lô bị nhiễm bệnh (\\(B\\): \"hạt bị nhiễm bệnh\"). Xét nghiệm X dương tính với 95% trường hợp có \\(B\\) và 5% trường hợp không có \\(B\\); xét nghiệm Y <b class=\"mbl-term\" tabindex=\"0\" data-en=\"respectively\">lần lượt</b> 80% và 1%. Một trường hợp cho kết quả dương tính. Với xét nghiệm nào kết quả đáng tin hơn?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">Test X, because it detects more cases with \\(B\\).</span><span class=\"vi\">Xét nghiệm X, vì phát hiện được nhiều trường hợp có \\(B\\) hơn.</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Test X, because it gives a larger \\(P(B\\mid+)\\).</span><span class=\"vi\">Xét nghiệm X, vì nó cho \\(P(B\\mid+)\\) lớn hơn.</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Both tests are equally reliable.</span><span class=\"vi\">Hai xét nghiệm tin cậy như nhau.</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Test Y, because \\(P(B\\mid+)\\) is larger for it.</span><span class=\"vi\">Xét nghiệm Y, vì với nó \\(P(B\\mid+)\\) lớn hơn.</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. X: \\(P(B\\mid+)=\\dfrac{19}{68}\\approx0.28\\); Y: \\(\\dfrac{80}{129}\\approx0.62\\).",
+   "explain_vi": "Đáp án d. X: \\(P(B\\mid+)=\\dfrac{19}{68}\\approx0{,}28\\); Y: \\(\\dfrac{80}{129}\\approx0{,}62\\).",
+   "images": [],
+   "id": "6c5c7fa2a965",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "A disease affects #% of people. A test is positive for #% of sick and #% of healthy people. A student computed the probability that a person with a positive test is sick. Step #: \\(P(+)=#\\cdot#+#\\cdot#=#\\). Step #: \\(P(\\text{sick}\\mid+)=P(+\\mid\\text{sick})=#\\). Which comment is correct?",
+   "en": "A disease affects 5% of people. A test is positive for 95% of sick and 4% of healthy people. A student computed the probability that a person with a positive test is sick. Step 1: \\(P(+)=0.05\\cdot0.95+0.95\\cdot0.04=0.0855\\). Step 2: \\(P(\\text{sick}\\mid+)=P(+\\mid\\text{sick})=0.95\\). Which comment is correct?",
+   "vi": "Một bệnh có tỉ lệ mắc 5%. Xét nghiệm dương tính với 95% người bệnh và 4% người khỏe. Một bạn tính xác suất người xét nghiệm dương tính bị bệnh. Bước 1: \\(P(+)=0{,}05\\cdot0{,}95+0{,}95\\cdot0{,}04=0{,}0855\\). Bước 2: \\(P(\\text{bệnh}\\mid+)=P(+\\mid\\text{bệnh})=0{,}95\\). Nhận xét nào đúng?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">Step 1 is wrong.</span><span class=\"vi\">Bước 1 sai.</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Both steps are correct.</span><span class=\"vi\">Cả hai bước đều đúng.</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Step 2 is wrong: \\(P(\\text{sick}\\mid+)=\\dfrac{P(\\text{sick})P(+\\mid\\text{sick})}{P(+)}\\).</span><span class=\"vi\">Bước 2 sai: \\(P(\\text{bệnh}\\mid+)=\\dfrac{P(\\text{bệnh})P(+\\mid\\text{bệnh})}{P(+)}\\).</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Step 1 must use \\(P(+)=0.95+0.04\\).</span><span class=\"vi\">Bước 1 phải dùng \\(P(+)=0{,}95+0{,}04\\).</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(P(\\text{sick}\\mid+)=\\dfrac{0.0475}{0.0855}=\\dfrac{5}{9}\\), far from \\(0.95\\).",
+   "explain_vi": "Đáp án c. \\(P(\\text{bệnh}\\mid+)=\\dfrac{0{,}0475}{0{,}0855}=\\dfrac{5}{9}\\), khác xa \\(0{,}95\\).",
+   "images": [],
+   "id": "7faadcddcd0b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "A garden plants #% of its seedlings from nursery X and the rest from nursery Y. #% of X and #% of Y seedlings survive. A seedling dies. The probability that it came from X (see the tree diagram) is…",
+   "en": "A garden plants 60% of its seedlings from nursery X and the rest from nursery Y. 85% of X and 60% of Y seedlings survive. A seedling dies. The probability that it came from X (see the tree diagram) is…<img src=\"../../../img/tex/1bac864a2a9d1b86.svg\" alt=\"Tree diagram\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,330px);height:auto\">",
+   "vi": "Một vườn trồng 60% cây giống của vườn ươm X, còn lại của vườn ươm Y. Tỉ lệ sống của cây X là 85%, cây Y là 60%. Một cây bị chết. Xác suất cây đó của vườn ươm X (xem <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tree diagram\">sơ đồ hình cây</b>) là…<img src=\"../../../img/tex/767cae0a093ab119.svg\" alt=\"Sơ đồ hình cây\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,330px);height:auto\">",
+   "options": [
+    "\\(\\dfrac{16}{25}\\)",
+    "\\(\\dfrac{9}{25}\\)",
+    "\\(\\dfrac{3}{5}\\)",
+    "\\(\\dfrac{17}{25}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(P(\\overline G)=0.6\\cdot0.15+0.4\\cdot0.4=0.25\\); \\(P(X\\mid\\overline G)=\\dfrac{0.09}{0.25}=\\dfrac{9}{25}\\).",
+   "explain_vi": "Đáp án b. \\(P(\\overline G)=0{,}6\\cdot0{,}15+0{,}4\\cdot0{,}4=0{,}25\\); \\(P(X\\mid\\overline G)=\\dfrac{0{,}09}{0{,}25}=\\dfrac{9}{25}\\).",
+   "images": [
+    "img/tex/1bac864a2a9d1b86.svg",
+    "img/tex/767cae0a093ab119.svg"
+   ],
+   "id": "47c43cc3ad89",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "A machine is faulty with probability #%. A sensor gives an alarm for #% of faulty and #% of good machines; two sensors work independently given the state. Both sensors alarm. The probability that the machine is faulty is…",
+   "en": "A machine is faulty with probability 10%. A sensor gives an alarm for 80% of faulty and 10% of good machines; two sensors work independently given the state. Both sensors alarm. The probability that the machine is faulty is…",
+   "vi": "Một máy bị lỗi với xác suất 10%. Một cảm biến báo động với 80% máy lỗi và 10% máy tốt; hai cảm biến hoạt động độc lập khi biết tình trạng máy. Cả hai cùng báo động. Xác suất máy bị lỗi là…",
+   "options": [
+    "\\(\\dfrac{16}{25}\\)",
+    "\\(\\dfrac{64}{73}\\)",
+    "\\(\\dfrac{8}{125}\\)",
+    "\\(\\dfrac{8}{17}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(P=\\dfrac{0.1\\cdot0.8^2}{0.1\\cdot0.8^2+0.9\\cdot0.1^2}=\\dfrac{64}{73}\\) (after one test only \\(\\dfrac{8}{17}\\)).",
+   "explain_vi": "Đáp án b. \\(P=\\dfrac{0{,}1\\cdot0{,}8^2}{0{,}1\\cdot0{,}8^2+0{,}9\\cdot0{,}1^2}=\\dfrac{64}{73}\\) (sau một lần chỉ là \\(\\dfrac{8}{17}\\)).",
+   "images": [],
+   "id": "c3e46959890c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Among # people, #% are sick; the test is positive for #% of the sick and #% of the healthy. About how many people are sick AND test positive? (Tree diagram: \\(B\\) = sick, \\(A\\) = positive.)",
+   "en": "Among 2000 people, 2% are sick; the test is positive for 95% of the sick and 5% of the healthy. About how many people are sick AND test positive? (Tree diagram: \\(B\\) = sick, \\(A\\) = positive.)<img src=\"../../../img/tex/4aac9a054d1090d8.svg\" alt=\"Tree diagram\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,330px);height:auto\">",
+   "vi": "Trong 2000 người có 2% người bệnh; xét nghiệm dương tính với 95% người bệnh và 5% người khỏe. Có khoảng bao nhiêu người vừa bị bệnh vừa dương tính? (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"tree diagram\">Sơ đồ hình cây</b>: \\(B\\) – bị bệnh, \\(A\\) – dương tính.)<img src=\"../../../img/tex/1a9c59f9f18732ba.svg\" alt=\"Sơ đồ hình cây\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,330px);height:auto\">",
+   "options": [
+    "\\(40\\)",
+    "\\(38\\)",
+    "\\(98\\)",
+    "\\(136\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Sick and positive: \\(2000\\cdot0.02\\cdot0.95=38\\); healthy and positive: \\(98\\); total positive \\(136\\).",
+   "explain_vi": "Đáp án b. Bệnh và dương tính: \\(2000\\cdot0{,}02\\cdot0{,}95=38\\); khỏe mà dương tính: \\(98\\); tổng số dương tính \\(136\\).",
+   "images": [
+    "img/tex/1a9c59f9f18732ba.svg",
+    "img/tex/4aac9a054d1090d8.svg"
+   ],
+   "id": "2f3896e0ebf4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Find \\(P(B)\\) if \\(P(A\\mid B)=#\\), \\(P(A\\mid\\overline B)=#\\), \\(P(B\\mid A)=\\dfrac{#}{#}\\).",
+   "en": "Find \\(P(B)\\) if \\(P(A\\mid B)=0.6\\), \\(P(A\\mid\\overline B)=0.2\\), \\(P(B\\mid A)=\\dfrac{2}{3}\\).",
+   "vi": "Tìm \\(P(B)\\) nếu \\(P(A\\mid B)=0{,}6\\), \\(P(A\\mid\\overline B)=0{,}2\\), \\(P(B\\mid A)=\\dfrac{2}{3}\\).",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(0.6\\)</span><span class=\"vi\">\\(0{,}6\\)</span></span>",
+    "\\(\\dfrac{2}{9}\\)",
+    "\\(\\dfrac{2}{3}\\)",
+    "<span class=\"txi\"><span class=\"en\">\\(0.4\\)</span><span class=\"vi\">\\(0{,}4\\)</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Put \\(p=P(B)\\): \\(\\dfrac{0.6 p}{0.6 p+0.2(1-p)}=\\dfrac{2}{3}\\Rightarrow p=0.4\\).",
+   "explain_vi": "Đáp án d. Đặt \\(p=P(B)\\): \\(\\dfrac{0{,}6 p}{0{,}6 p+0{,}2(1-p)}=\\dfrac{2}{3}\\Rightarrow p=0{,}4\\).",
+   "images": [],
+   "id": "48acf7ede577",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "For the law of total probability we need a complete system. Which one is it?",
+   "en": "For the law of total probability we need a complete system. Which one is it?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"law of total probability\">Công thức xác suất toàn phần</b> cần một hệ đầy đủ các biến cố. Đó là nhóm nào?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(B_1\\): \"the temperature is above 30°C\", \\(B_2\\): \"it rains\".</span><span class=\"vi\">\\(B_1\\): \"nhiệt độ trên 30°C\", \\(B_2\\): \"trời mưa\".</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(B\\): \"it rains tomorrow\", \\(\\overline B\\): \"it does not rain tomorrow\".</span><span class=\"vi\">\\(B\\): \"ngày mai mưa\", \\(\\overline B\\): \"ngày mai không mưa\".</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(B_1\\): \"it rains tomorrow\", \\(B_2\\): \"it is windy tomorrow\".</span><span class=\"vi\">\\(B_1\\): \"ngày mai mưa\", \\(B_2\\): \"ngày mai có gió\".</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(B_1\\): \"it rains tomorrow\", \\(B_2\\): \"it is sunny all day tomorrow\".</span><span class=\"vi\">\\(B_1\\): \"ngày mai mưa\", \\(B_2\\): \"ngày mai nắng cả ngày\".</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Only this family is pairwise exclusive and its events cover all cases.",
+   "explain_vi": "Đáp án b. Chỉ nhóm này <b class=\"mbl-term\" tabindex=\"0\" data-en=\"mutually exclusive\">xung khắc</b> từng đôi và các biến cố phủ hết mọi trường hợp.",
+   "images": [],
+   "id": "708bdfe29ed6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Given that the ball drawn is red (box # (chosen with probability \\(\\dfrac{#}{#}\\)) has # red and # white balls; box # (chosen with probability \\(\\dfrac{#}{#}\\)) has # red and # white balls; box # (chosen with probability \\(\\dfrac{#}{#}\\)) has # red and # white balls), the box with the largest posterior probability is…",
+   "en": "Given that the ball drawn is red (box 1 (chosen with probability \\(\\dfrac{1}{5}\\)) has 5 red and 2 white balls; box 2 (chosen with probability \\(\\dfrac{2}{5}\\)) has 2 red and 2 white balls; box 3 (chosen with probability \\(\\dfrac{2}{5}\\)) has 4 red and 5 white balls), the box with the largest posterior probability is…",
+   "vi": "Biết bi lấy được màu đỏ (hộp 1 (được chọn với xác suất \\(\\dfrac{1}{5}\\)) có 5 bi đỏ, 2 bi trắng; hộp 2 (được chọn với xác suất \\(\\dfrac{2}{5}\\)) có 2 bi đỏ, 2 bi trắng; hộp 3 (được chọn với xác suất \\(\\dfrac{2}{5}\\)) có 4 bi đỏ, 5 bi trắng), hộp có xác suất hậu nghiệm lớn nhất là…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">Box 1</span><span class=\"vi\">Hộp 1</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Box 3</span><span class=\"vi\">Hộp 3</span></span>",
+    "<span class=\"txi\"><span class=\"en\">All boxes are equally likely</span><span class=\"vi\">Ba hộp có khả năng như nhau</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Box 2</span><span class=\"vi\">Hộp 2</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Posterior probabilities: \\(\\dfrac{45}{164}\\), \\(\\dfrac{63}{164}\\), \\(\\dfrac{14}{41}\\).",
+   "explain_vi": "Đáp án d. Các xác suất hậu nghiệm: \\(\\dfrac{45}{164}\\), \\(\\dfrac{63}{164}\\), \\(\\dfrac{14}{41}\\).",
+   "images": [],
+   "id": "817d5c8c5427",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Same notation: \\(P(B)=#\\), \\(P(A\\mid B)=#\\), \\(P(A\\mid\\overline B)=#\\). \\(P(B\\mid A)=\\)…",
+   "en": "Same notation: \\(P(B)=0.4\\), \\(P(A\\mid B)=0.5\\), \\(P(A\\mid\\overline B)=0.1\\). \\(P(B\\mid A)=\\)…",
+   "vi": "Cho \\(P(B)=0{,}4\\), \\(P(A\\mid B)=0{,}5\\), \\(P(A\\mid\\overline B)=0{,}1\\). Khi đó \\(P(B\\mid A)=\\)…",
+   "options": [
+    "\\(\\dfrac{10}{13}\\)",
+    "<span class=\"txi\"><span class=\"en\">\\(0.2\\)</span><span class=\"vi\">\\(0{,}2\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.5\\)</span><span class=\"vi\">\\(0{,}5\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.26\\)</span><span class=\"vi\">\\(0{,}26\\)</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Bayes: \\(P(A)=0.26\\).",
+   "explain_vi": "Đáp án a. Bayes: \\(P(A)=0{,}26\\), \\(P(B\\mid A)=\\dfrac{10}{13}\\).",
+   "images": [],
+   "id": "0ddb51ebec4b",
+   "status": "đã thay ra",
    "sources": [
     "hiện tại",
     "9dde968"
@@ -147,7 +1377,7 @@
    "explain_vi": "\\(\\sum P(B_i)P(A\\mid B_i)=0{,}029\\).",
    "images": [],
    "id": "a23b7dbb16e9",
-   "status": "đang dùng",
+   "status": "đã thay ra",
    "sources": [
     "hiện tại",
     "9dde968"
@@ -171,7 +1401,7 @@
    "explain_vi": "Đáp án c. Bayes: \\(\\dfrac{0{,}2\\cdot0{,}7}{0{,}18}=\\dfrac{7}{9}\\).",
    "images": [],
    "id": "083ec96daf16",
-   "status": "đang dùng",
+   "status": "đã thay ra",
    "sources": [
     "hiện tại",
     "9dde968"
@@ -195,7 +1425,7 @@
    "explain_vi": "Đáp án c. \\(0{,}05\\cdot0{,}99+0{,}95\\cdot0{,}04=0{,}0875\\).",
    "images": [],
    "id": "a02cc8a1548f",
-   "status": "đang dùng",
+   "status": "đã thay ra",
    "sources": [
     "hiện tại",
     "9dde968"
@@ -219,7 +1449,7 @@
    "explain_vi": "Đáp án a. Xét hai trường hợp bi chuyển sang: \\(\\dfrac{5}{9}\\cdot\\dfrac{6}{10}+\\dfrac{4}{9}\\cdot\\dfrac{5}{10}=\\dfrac{5}{9}\\).",
    "images": [],
    "id": "71f490c3ae94",
-   "status": "đang dùng",
+   "status": "đã thay ra",
    "sources": [
     "hiện tại",
     "9dde968"
@@ -243,7 +1473,7 @@
    "explain_vi": "Đáp án a. \\(P(H_1\\mid D)=\\dfrac{\\dfrac12\\cdot\\dfrac{1}{7}}{\\dfrac{23}{77}}=\\dfrac{11}{46}\\).",
    "images": [],
    "id": "08a36dd0891e",
-   "status": "đang dùng",
+   "status": "đã thay ra",
    "sources": [
     "hiện tại",
     "9dde968"
@@ -267,7 +1497,7 @@
    "explain_vi": "Đáp án b. \\(\\dfrac12\\cdot\\dfrac{4}{6}+\\dfrac12\\cdot\\dfrac{1}{5}=\\dfrac{13}{30}\\).",
    "images": [],
    "id": "88bccaf3a798",
-   "status": "đang dùng",
+   "status": "đã thay ra",
    "sources": [
     "hiện tại",
     "9dde968"
@@ -291,7 +1521,7 @@
    "explain_vi": "Đáp án b. \\(\\dfrac{42}{80}\\cdot\\dfrac{11}{42}+\\dfrac{38}{80}\\cdot\\dfrac{19}{38}=\\dfrac{30}{80}\\).",
    "images": [],
    "id": "bfaad6f6c53d",
-   "status": "đang dùng",
+   "status": "đã thay ra",
    "sources": [
     "hiện tại",
     "9dde968"
@@ -315,7 +1545,7 @@
    "explain_vi": "Đáp án b. Bayes: \\(\\dfrac{0{,}05\\cdot0{,}9}{0{,}14}=\\dfrac{9}{28}\\) – nhỏ hơn nhiều so với độ nhạy \\(0{,}9\\).",
    "images": [],
    "id": "b38e92fea2be",
-   "status": "đang dùng",
+   "status": "đã thay ra",
    "sources": [
     "hiện tại",
     "9dde968"
@@ -339,7 +1569,7 @@
    "explain_vi": "Đáp án c. Bayes: \\(\\dfrac{0{,}6}{0{,}6+0{,}4\\cdot\\dfrac1{4}}=\\dfrac{6}{7}\\).",
    "images": [],
    "id": "30e39791fb2b",
-   "status": "đang dùng",
+   "status": "đã thay ra",
    "sources": [
     "hiện tại",
     "9dde968"
@@ -363,7 +1593,7 @@
    "explain_vi": "Đáp án d. Xác suất toàn phần: \\(0{,}2\\cdot0{,}5+0{,}8\\cdot0{,}2=0{,}26\\).",
    "images": [],
    "id": "bfd3741a0085",
-   "status": "đang dùng",
+   "status": "đã thay ra",
    "sources": [
     "hiện tại",
     "9dde968"
@@ -387,7 +1617,7 @@
    "explain_vi": "Đáp án c. Bayes: \\(\\dfrac{0{,}35\\cdot0{,}03}{0{,}037}=\\dfrac{21}{74}\\).",
    "images": [],
    "id": "1f46ce227a84",
-   "status": "đang dùng",
+   "status": "đã thay ra",
    "sources": [
     "hiện tại",
     "9dde968"
@@ -411,7 +1641,7 @@
    "explain_vi": "Đáp án c. Xác suất toàn phần: \\(\\sum P(B_i)P(A\\mid B_i)=0{,}031\\).",
    "images": [],
    "id": "c03e1989ef86",
-   "status": "đang dùng",
+   "status": "đã thay ra",
    "sources": [
     "hiện tại",
     "9dde968"
@@ -435,7 +1665,7 @@
    "explain_vi": "Đáp án b. \\(P(A)=P(B)P(A\\mid B)+P(\\overline B)P(A\\mid\\overline B)=0{,}44\\).",
    "images": [],
    "id": "c3f9b57878e7",
-   "status": "đang dùng",
+   "status": "đã thay ra",
    "sources": [
     "hiện tại",
     "9dde968"
@@ -459,7 +1689,7 @@
    "explain_vi": "Đáp án c. \\(P(A)=P(B)P(A\\mid B)+P(\\overline B)P(A\\mid\\overline B)=0{,}36\\).",
    "images": [],
    "id": "4da16590b829",
-   "status": "đang dùng",
+   "status": "đã thay ra",
    "sources": [
     "hiện tại",
     "9dde968"
@@ -483,7 +1713,7 @@
    "explain_vi": "Đáp án b. Bayes: \\(P(B\\mid A)=\\dfrac{P(B)P(A\\mid B)}{P(A)}\\) với \\(P(A)=0{,}26\\).",
    "images": [],
    "id": "c0671347a252",
-   "status": "đang dùng",
+   "status": "đã thay ra",
    "sources": [
     "hiện tại",
     "9dde968"
@@ -507,31 +1737,7 @@
    "explain_vi": "Đáp án d. \\(P(\\overline A)=P(B)P(\\overline A\\mid B)+P(\\overline B)P(\\overline A\\mid\\overline B)=0{,}75\\), rồi dùng Bayes.",
    "images": [],
    "id": "a7d574d408c0",
-   "status": "đang dùng",
-   "sources": [
-    "hiện tại",
-    "9dde968"
-   ]
-  },
-  {
-   "level": 2,
-   "section": "A",
-   "type": "mcq",
-   "form": "Box #: # red, # white; box #: # red, # white. Choose a box at random, then a ball. \\(P(\\text{red})=\\)…",
-   "en": "Box 1: 1 red, 3 white; box 2: 3 red, 2 white. Choose a box at random, then a ball. \\(P(\\text{red})=\\)…",
-   "vi": "Hộp 1: 1 đỏ, 3 trắng; hộp 2: 3 đỏ, 2 trắng. Chọn ngẫu nhiên một hộp rồi lấy một bi. Xác suất được bi đỏ là…",
-   "options": [
-    "<span class=\"txi\"><span class=\"en\">\\(0.425\\)</span><span class=\"vi\">\\(0{,}425\\)</span></span>",
-    "\\(\\dfrac{4}{9}\\)",
-    "<span class=\"txi\"><span class=\"en\">\\(0.15\\)</span><span class=\"vi\">\\(0{,}15\\)</span></span>",
-    "<span class=\"txi\"><span class=\"en\">\\(0.5\\)</span><span class=\"vi\">\\(0{,}5\\)</span></span>"
-   ],
-   "answer": "a",
-   "explain_en": "Answer: a. \\(\\dfrac12\\cdot\\dfrac{1}{4}+\\dfrac12\\cdot\\dfrac{3}{5}\\).",
-   "explain_vi": "Đáp án a. \\(\\dfrac12\\cdot\\dfrac{1}{4}+\\dfrac12\\cdot\\dfrac{3}{5}=0{,}425\\).",
-   "images": [],
-   "id": "49c2bdaad8ae",
-   "status": "đang dùng",
+   "status": "đã thay ra",
    "sources": [
     "hiện tại",
     "9dde968"
@@ -555,31 +1761,7 @@
    "explain_vi": "Đáp án c. Bayes: \\(P(A)=0{,}42\\), \\(P(B\\mid A)=\\dfrac{3}{7}\\).",
    "images": [],
    "id": "fd6b8c97f663",
-   "status": "đang dùng",
-   "sources": [
-    "hiện tại",
-    "9dde968"
-   ]
-  },
-  {
-   "level": 2,
-   "section": "A",
-   "type": "mcq",
-   "form": "\\(P(B)=#\\), \\(P(A\\mid B)=#\\), \\(P(A\\mid\\overline B)=#\\). \\(P(A)=\\)…",
-   "en": "\\(P(B)=0.6\\), \\(P(A\\mid B)=0.5\\), \\(P(A\\mid\\overline B)=0.3\\). \\(P(A)=\\)…",
-   "vi": "Cho \\(P(B)=0{,}6\\), \\(P(A\\mid B)=0{,}5\\), \\(P(A\\mid\\overline B)=0{,}3\\). Khi đó \\(P(A)=\\)…",
-   "options": [
-    "<span class=\"txi\"><span class=\"en\">\\(0.3\\)</span><span class=\"vi\">\\(0{,}3\\)</span></span>",
-    "<span class=\"txi\"><span class=\"en\">\\(0.42\\)</span><span class=\"vi\">\\(0{,}42\\)</span></span>",
-    "<span class=\"txi\"><span class=\"en\">\\(0.48\\)</span><span class=\"vi\">\\(0{,}48\\)</span></span>",
-    "<span class=\"txi\"><span class=\"en\">\\(0.4\\)</span><span class=\"vi\">\\(0{,}4\\)</span></span>"
-   ],
-   "answer": "b",
-   "explain_en": "Answer: b. Total probability.",
-   "explain_vi": "Đáp án b. Xác suất toàn phần: \\(0{,}6\\cdot0{,}5+0{,}4\\cdot0{,}3=0{,}42\\).",
-   "images": [],
-   "id": "e97c2e437fd9",
-   "status": "đang dùng",
+   "status": "đã thay ra",
    "sources": [
     "hiện tại",
     "9dde968"
@@ -598,45 +1780,7 @@
    "explain_vi": "\\(0{,}5\\cdot0{,}4+0{,}5\\cdot0{,}2=0{,}3\\).",
    "images": [],
    "id": "1c39aa76e6c8",
-   "status": "đang dùng",
-   "sources": [
-    "hiện tại",
-    "9dde968"
-   ]
-  },
-  {
-   "level": 2,
-   "section": "B",
-   "type": "tf",
-   "form": "\\(P(B\\mid A)+P(\\overline B\\mid A)=#\\) only when \\(A\\), \\(B\\) are independent.",
-   "en": "\\(P(B\\mid A)+P(\\overline B\\mid A)=1\\) only when \\(A\\), \\(B\\) are independent.",
-   "vi": "\\(P(B\\mid A)+P(\\overline B\\mid A)=1\\) chỉ đúng khi \\(A\\), \\(B\\) độc lập.",
-   "options": [],
-   "answer": "false",
-   "explain_en": "It is always true (complementary events given \\(A\\)).",
-   "explain_vi": "Luôn đúng (hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"complementary event\">biến cố đối</b> khi đã biết \\(A\\)).",
-   "images": [],
-   "id": "5913b68f0ac1",
-   "status": "đang dùng",
-   "sources": [
-    "hiện tại",
-    "9dde968"
-   ]
-  },
-  {
-   "level": 2,
-   "section": "C",
-   "type": "short",
-   "form": "A student knows the answer to a #-option question with probability #, otherwise guesses. He answered correctly. Find the probability that he knew it (decimal).",
-   "en": "A student knows the answer to a 4-option question with probability 0.5, otherwise guesses. He answered correctly. Find the probability that he knew it (decimal).",
-   "vi": "Câu trắc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b> 4 phương án; học sinh biết đáp án với xác suất 0{,}5, nếu không thì chọn ngẫu nhiên. Em trả lời đúng. Tính xác suất em biết đáp án (dạng thập phân).",
-   "options": [],
-   "answer": "0.8",
-   "explain_en": "\\(\\dfrac{0.5}{0.5+0.5\\cdot\\dfrac1{4}}=0.8\\).",
-   "explain_vi": "\\(\\dfrac{0{,}5}{0{,}5+0{,}5\\cdot\\dfrac1{4}}=0{,}8\\).",
-   "images": [],
-   "id": "c002464dfaee",
-   "status": "đang dùng",
+   "status": "đã thay ra",
    "sources": [
     "hiện tại",
     "9dde968"
@@ -655,7 +1799,7 @@
    "explain_vi": "\\(\\sum P(B_i)P(A\\mid B_i)=0{,}021\\).",
    "images": [],
    "id": "d93eee18c534",
-   "status": "đang dùng",
+   "status": "đã thay ra",
    "sources": [
     "hiện tại",
     "9dde968"
@@ -679,7 +1823,7 @@
    "explain_vi": "Đáp án a. Bayes: \\(\\dfrac{0{,}2\\cdot0{,}8}{0{,}2}=0{,}8\\).",
    "images": [],
    "id": "cb17919a2c1f",
-   "status": "đang dùng",
+   "status": "đã thay ra",
    "sources": [
     "hiện tại",
     "9dde968"
@@ -703,7 +1847,7 @@
    "explain_vi": "Đáp án c. \\(0{,}02\\cdot0{,}95+0{,}98\\cdot0{,}02=0{,}0386\\).",
    "images": [],
    "id": "66402a8296f0",
-   "status": "đang dùng",
+   "status": "đã thay ra",
    "sources": [
     "hiện tại",
     "9dde968"
@@ -727,7 +1871,7 @@
    "explain_vi": "Đáp án b. Xét hai trường hợp bi chuyển sang: \\(\\dfrac{4}{9}\\cdot\\dfrac{3}{5}+\\dfrac{5}{9}\\cdot\\dfrac{2}{5}=\\dfrac{22}{45}\\).",
    "images": [],
    "id": "242dd8e36b51",
-   "status": "đang dùng",
+   "status": "đã thay ra",
    "sources": [
     "hiện tại",
     "9dde968"
@@ -751,7 +1895,7 @@
    "explain_vi": "Đáp án c. \\(P(H_1\\mid D)=\\dfrac{\\dfrac12\\cdot\\dfrac{6}{7}}{\\dfrac{37}{70}}=\\dfrac{30}{37}\\).",
    "images": [],
    "id": "972611ced9c6",
-   "status": "đang dùng",
+   "status": "đã thay ra",
    "sources": [
     "hiện tại",
     "9dde968"
@@ -775,7 +1919,7 @@
    "explain_vi": "Đáp án c. \\(\\dfrac12\\cdot\\dfrac{3}{7}+\\dfrac12\\cdot\\dfrac{4}{8}=\\dfrac{13}{28}\\).",
    "images": [],
    "id": "27c56f820299",
-   "status": "đang dùng",
+   "status": "đã thay ra",
    "sources": [
     "hiện tại",
     "9dde968"
@@ -799,7 +1943,7 @@
    "explain_vi": "Đáp án a. \\(\\dfrac{36}{80}\\cdot\\dfrac{10}{36}+\\dfrac{44}{80}\\cdot\\dfrac{15}{44}=\\dfrac{25}{80}\\).",
    "images": [],
    "id": "4530ea8639d6",
-   "status": "đang dùng",
+   "status": "đã thay ra",
    "sources": [
     "hiện tại",
     "9dde968"
@@ -823,7 +1967,7 @@
    "explain_vi": "Đáp án a. Bayes: \\(\\dfrac{0{,}02\\cdot0{,}99}{0{,}059}=\\dfrac{99}{295}\\) – nhỏ hơn nhiều so với độ nhạy \\(0{,}99\\).",
    "images": [],
    "id": "6634eef62ade",
-   "status": "đang dùng",
+   "status": "đã thay ra",
    "sources": [
     "hiện tại",
     "9dde968"
@@ -847,7 +1991,7 @@
    "explain_vi": "Đáp án a. Bayes: \\(\\dfrac{0{,}7}{0{,}7+0{,}3\\cdot\\dfrac1{4}}=\\dfrac{28}{31}\\).",
    "images": [],
    "id": "a30094369b83",
-   "status": "đang dùng",
+   "status": "đã thay ra",
    "sources": [
     "hiện tại",
     "9dde968"
@@ -871,7 +2015,7 @@
    "explain_vi": "Đáp án c. Xác suất toàn phần: \\(0{,}4\\cdot0{,}5+0{,}6\\cdot0{,}2=0{,}32\\).",
    "images": [],
    "id": "79cffd5d402a",
-   "status": "đang dùng",
+   "status": "đã thay ra",
    "sources": [
     "hiện tại",
     "9dde968"
@@ -895,7 +2039,7 @@
    "explain_vi": "Đáp án d. Bayes: \\(\\dfrac{0{,}2\\cdot0{,}04}{0{,}031}=\\dfrac{8}{31}\\).",
    "images": [],
    "id": "1f684c48218b",
-   "status": "đang dùng",
+   "status": "đã thay ra",
    "sources": [
     "hiện tại",
     "9dde968"
@@ -919,7 +2063,7 @@
    "explain_vi": "Đáp án a. Xác suất toàn phần: \\(\\sum P(B_i)P(A\\mid B_i)=0{,}0345\\).",
    "images": [],
    "id": "d501ee60eeeb",
-   "status": "đang dùng",
+   "status": "đã thay ra",
    "sources": [
     "hiện tại",
     "9dde968"
@@ -943,7 +2087,7 @@
    "explain_vi": "Đáp án c. \\(P(A)=P(B)P(A\\mid B)+P(\\overline B)P(A\\mid\\overline B)=0{,}54\\).",
    "images": [],
    "id": "40690156e4c4",
-   "status": "đang dùng",
+   "status": "đã thay ra",
    "sources": [
     "hiện tại",
     "9dde968"
@@ -967,7 +2111,7 @@
    "explain_vi": "Đáp án d. \\(P(A)=P(B)P(A\\mid B)+P(\\overline B)P(A\\mid\\overline B)=0{,}31\\).",
    "images": [],
    "id": "81dc1944450f",
-   "status": "đang dùng",
+   "status": "đã thay ra",
    "sources": [
     "hiện tại",
     "9dde968"
@@ -991,7 +2135,7 @@
    "explain_vi": "Đáp án d. Bayes: \\(P(B\\mid A)=\\dfrac{P(B)P(A\\mid B)}{P(A)}\\) với \\(P(A)=0{,}65\\).",
    "images": [],
    "id": "1e756086ce60",
-   "status": "đang dùng",
+   "status": "đã thay ra",
    "sources": [
     "hiện tại",
     "9dde968"
@@ -1015,31 +2159,7 @@
    "explain_vi": "Đáp án d. \\(P(\\overline A)=P(B)P(\\overline A\\mid B)+P(\\overline B)P(\\overline A\\mid\\overline B)=0{,}69\\), rồi dùng Bayes.",
    "images": [],
    "id": "14e33d0fc306",
-   "status": "đang dùng",
-   "sources": [
-    "hiện tại",
-    "9dde968"
-   ]
-  },
-  {
-   "level": 3,
-   "section": "A",
-   "type": "mcq",
-   "form": "Box #: # red, # white; box #: # red, # white. Choose a box at random, then a ball. \\(P(\\text{red})=\\)…",
-   "en": "Box 1: 2 red, 2 white; box 2: 1 red, 4 white. Choose a box at random, then a ball. \\(P(\\text{red})=\\)…",
-   "vi": "Hộp 1: 2 đỏ, 2 trắng; hộp 2: 1 đỏ, 4 trắng. Chọn ngẫu nhiên một hộp rồi lấy một bi. Xác suất được bi đỏ là…",
-   "options": [
-    "\\(\\dfrac{1}{3}\\)",
-    "<span class=\"txi\"><span class=\"en\">\\(0.1\\)</span><span class=\"vi\">\\(0{,}1\\)</span></span>",
-    "<span class=\"txi\"><span class=\"en\">\\(0.5\\)</span><span class=\"vi\">\\(0{,}5\\)</span></span>",
-    "<span class=\"txi\"><span class=\"en\">\\(0.35\\)</span><span class=\"vi\">\\(0{,}35\\)</span></span>"
-   ],
-   "answer": "d",
-   "explain_en": "Answer: d. \\(\\dfrac12\\cdot\\dfrac{2}{4}+\\dfrac12\\cdot\\dfrac{1}{5}\\).",
-   "explain_vi": "Đáp án d. \\(\\dfrac12\\cdot\\dfrac{2}{4}+\\dfrac12\\cdot\\dfrac{1}{5}=0{,}35\\).",
-   "images": [],
-   "id": "b489991ccd04",
-   "status": "đang dùng",
+   "status": "đã thay ra",
    "sources": [
     "hiện tại",
     "9dde968"
@@ -1063,88 +2183,7 @@
    "explain_vi": "Đáp án d. Bayes: \\(P(A)=0{,}5\\), \\(P(B\\mid A)=0{,}8\\).",
    "images": [],
    "id": "8c2b1da5ef75",
-   "status": "đang dùng",
-   "sources": [
-    "hiện tại",
-    "9dde968"
-   ]
-  },
-  {
-   "level": 3,
-   "section": "A",
-   "type": "mcq",
-   "form": "\\(P(B)=#\\), \\(P(A\\mid B)=#\\), \\(P(A\\mid\\overline B)=#\\). \\(P(A)=\\)…",
-   "en": "\\(P(B)=0.2\\), \\(P(A\\mid B)=0.9\\), \\(P(A\\mid\\overline B)=0.4\\). \\(P(A)=\\)…",
-   "vi": "Cho \\(P(B)=0{,}2\\), \\(P(A\\mid B)=0{,}9\\), \\(P(A\\mid\\overline B)=0{,}4\\). Khi đó \\(P(A)=\\)…",
-   "options": [
-    "<span class=\"txi\"><span class=\"en\">\\(0.5\\)</span><span class=\"vi\">\\(0{,}5\\)</span></span>",
-    "<span class=\"txi\"><span class=\"en\">\\(0.18\\)</span><span class=\"vi\">\\(0{,}18\\)</span></span>",
-    "<span class=\"txi\"><span class=\"en\">\\(0.26\\)</span><span class=\"vi\">\\(0{,}26\\)</span></span>",
-    "<span class=\"txi\"><span class=\"en\">\\(0.65\\)</span><span class=\"vi\">\\(0{,}65\\)</span></span>"
-   ],
-   "answer": "a",
-   "explain_en": "Answer: a. Total probability.",
-   "explain_vi": "Đáp án a. Xác suất toàn phần: \\(0{,}2\\cdot0{,}9+0{,}8\\cdot0{,}4=0{,}5\\).",
-   "images": [],
-   "id": "71ab4100d6b0",
-   "status": "đang dùng",
-   "sources": [
-    "hiện tại",
-    "9dde968"
-   ]
-  },
-  {
-   "level": 3,
-   "section": "B",
-   "type": "tf",
-   "form": "The denominator of Bayes' formula is the total probability \\(P(A)\\).",
-   "en": "The denominator of Bayes' formula is the total probability \\(P(A)\\).",
-   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"denominator\">Mẫu số</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"Bayes' formula\">công thức Bayes</b> là xác suất toàn phần \\(P(A)\\).",
-   "options": [],
-   "answer": "true",
-   "explain_en": "\\(P(A)=\\sum P(B_i)P(A\\mid B_i)\\).",
-   "explain_vi": "\\(P(A)=\\sum P(B_i)P(A\\mid B_i)\\).",
-   "images": [],
-   "id": "af5376eb511d",
-   "status": "đang dùng",
-   "sources": [
-    "hiện tại",
-    "9dde968"
-   ]
-  },
-  {
-   "level": 3,
-   "section": "B",
-   "type": "tf",
-   "form": "With prevalence #%, a test with #% sensitivity gives \\(P(\\text{sick}\\mid+)=#\\).",
-   "en": "With prevalence 1%, a test with 99% sensitivity gives \\(P(\\text{sick}\\mid+)=0.99\\).",
-   "vi": "Với tỉ lệ mắc 1%, xét <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b> có độ nhạy 99% cho \\(P(\\text{bệnh}\\mid+)=0{,}99\\).",
-   "options": [],
-   "answer": "false",
-   "explain_en": "\\(0.99\\) is \\(P(+\\mid\\text{sick})\\); \\(P(\\text{sick}\\mid+)\\) is much smaller.",
-   "explain_vi": "\\(0{,}99\\) là \\(P(+\\mid\\text{bệnh})\\); \\(P(\\text{bệnh}\\mid+)\\) nhỏ hơn nhiều.",
-   "images": [],
-   "id": "6ed8b394d05e",
-   "status": "đang dùng",
-   "sources": [
-    "hiện tại",
-    "9dde968"
-   ]
-  },
-  {
-   "level": 3,
-   "section": "C",
-   "type": "short",
-   "form": "A student knows the answer to a #-option question with probability #, otherwise guesses. He answered correctly. Find the probability that he knew it (decimal).",
-   "en": "A student knows the answer to a 4-option question with probability 0.2, otherwise guesses. He answered correctly. Find the probability that he knew it (decimal).",
-   "vi": "Câu trắc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b> 4 phương án; học sinh biết đáp án với xác suất 0{,}2, nếu không thì chọn ngẫu nhiên. Em trả lời đúng. Tính xác suất em biết đáp án (dạng thập phân).",
-   "options": [],
-   "answer": "0.5",
-   "explain_en": "\\(\\dfrac{0.2}{0.2+0.8\\cdot\\dfrac1{4}}=0.5\\).",
-   "explain_vi": "\\(\\dfrac{0{,}2}{0{,}2+0{,}8\\cdot\\dfrac1{4}}=0{,}5\\).",
-   "images": [],
-   "id": "4fb5a05d0413",
-   "status": "đang dùng",
+   "status": "đã thay ra",
    "sources": [
     "hiện tại",
     "9dde968"
@@ -1163,7 +2202,7 @@
    "explain_vi": "\\(\\sum P(B_i)P(A\\mid B_i)=0{,}031\\).",
    "images": [],
    "id": "a9d853309060",
-   "status": "đang dùng",
+   "status": "đã thay ra",
    "sources": [
     "hiện tại",
     "9dde968"
@@ -1187,7 +2226,7 @@
    "explain_vi": "Đáp án b. Bayes: \\(\\dfrac{0{,}4\\cdot0{,}8}{0{,}35}=\\dfrac{32}{35}\\).",
    "images": [],
    "id": "383574b2a35a",
-   "status": "đang dùng",
+   "status": "đã thay ra",
    "sources": [
     "hiện tại",
     "9dde968"
@@ -1211,7 +2250,7 @@
    "explain_vi": "Đáp án a. \\(0{,}01\\cdot0{,}98+0{,}99\\cdot0{,}05=0{,}0593\\).",
    "images": [],
    "id": "5af2eedeb146",
-   "status": "đang dùng",
+   "status": "đã thay ra",
    "sources": [
     "hiện tại",
     "9dde968"
@@ -1235,7 +2274,7 @@
    "explain_vi": "Đáp án c. Xét hai trường hợp bi chuyển sang: \\(\\dfrac{5}{7}\\cdot\\dfrac{2}{5}+\\dfrac{2}{7}\\cdot\\dfrac{1}{5}=\\dfrac{12}{35}\\).",
    "images": [],
    "id": "245297d23ddd",
-   "status": "đang dùng",
+   "status": "đã thay ra",
    "sources": [
     "hiện tại",
     "9dde968"
@@ -1259,7 +2298,7 @@
    "explain_vi": "Đáp án b. \\(P(H_1\\mid D)=\\dfrac{\\dfrac12\\cdot\\dfrac{1}{7}}{\\dfrac{11}{56}}=\\dfrac{4}{11}\\).",
    "images": [],
    "id": "a6f46f3369e1",
-   "status": "đang dùng",
+   "status": "đã thay ra",
    "sources": [
     "hiện tại",
     "9dde968"
@@ -1283,7 +2322,7 @@
    "explain_vi": "Đáp án c. \\(\\dfrac12\\cdot\\dfrac{2}{4}+\\dfrac12\\cdot\\dfrac{3}{5}=0{,}55\\).",
    "images": [],
    "id": "ff10dc1ce058",
-   "status": "đang dùng",
+   "status": "đã thay ra",
    "sources": [
     "hiện tại",
     "9dde968"
@@ -1307,7 +2346,7 @@
    "explain_vi": "Đáp án a. \\(\\dfrac{40}{75}\\cdot\\dfrac{14}{40}+\\dfrac{35}{75}\\cdot\\dfrac{11}{35}=\\dfrac{25}{75}\\).",
    "images": [],
    "id": "9c8f5a04f35a",
-   "status": "đang dùng",
+   "status": "đã thay ra",
    "sources": [
     "hiện tại",
     "9dde968"
@@ -1331,7 +2370,7 @@
    "explain_vi": "Đáp án b. Bayes: \\(\\dfrac{0{,}01\\cdot0{,}99}{0{,}0495}=0{,}2\\) – nhỏ hơn nhiều so với độ nhạy \\(0{,}99\\).",
    "images": [],
    "id": "d0f2265d34b9",
-   "status": "đang dùng",
+   "status": "đã thay ra",
    "sources": [
     "hiện tại",
     "9dde968"
@@ -1355,7 +2394,7 @@
    "explain_vi": "Đáp án b. Bayes: \\(\\dfrac{0{,}5}{0{,}5+0{,}5\\cdot\\dfrac1{5}}=\\dfrac{5}{6}\\).",
    "images": [],
    "id": "90a2539c093b",
-   "status": "đang dùng",
+   "status": "đã thay ra",
    "sources": [
     "hiện tại",
     "9dde968"
@@ -1379,7 +2418,7 @@
    "explain_vi": "Đáp án b. Xác suất toàn phần: \\(0{,}3\\cdot0{,}6+0{,}7\\cdot0{,}1=0{,}25\\).",
    "images": [],
    "id": "77b6b5729d9b",
-   "status": "đang dùng",
+   "status": "đã thay ra",
    "sources": [
     "hiện tại",
     "9dde968"
@@ -1403,7 +2442,7 @@
    "explain_vi": "Đáp án b. Bayes: \\(\\dfrac{0{,}45\\cdot0{,}02}{0{,}029}=\\dfrac{9}{29}\\).",
    "images": [],
    "id": "6d814d1f4689",
-   "status": "đang dùng",
+   "status": "đã thay ra",
    "sources": [
     "hiện tại",
     "9dde968"
@@ -1427,7 +2466,7 @@
    "explain_vi": "Đáp án d. Xác suất toàn phần: \\(\\sum P(B_i)P(A\\mid B_i)=0{,}032\\).",
    "images": [],
    "id": "a035ee9fa9b2",
-   "status": "đang dùng",
+   "status": "đã thay ra",
    "sources": [
     "hiện tại",
     "9dde968"
@@ -1451,7 +2490,7 @@
    "explain_vi": "Đáp án c. \\(P(A)=P(B)P(A\\mid B)+P(\\overline B)P(A\\mid\\overline B)=0{,}56\\).",
    "images": [],
    "id": "7133a1c50fd7",
-   "status": "đang dùng",
+   "status": "đã thay ra",
    "sources": [
     "hiện tại",
     "9dde968"
@@ -1475,7 +2514,7 @@
    "explain_vi": "Đáp án b. \\(P(A)=P(B)P(A\\mid B)+P(\\overline B)P(A\\mid\\overline B)=0{,}17\\).",
    "images": [],
    "id": "76d71ccddea4",
-   "status": "đang dùng",
+   "status": "đã thay ra",
    "sources": [
     "hiện tại",
     "9dde968"
@@ -1499,7 +2538,7 @@
    "explain_vi": "Đáp án a. Bayes: \\(P(B\\mid A)=\\dfrac{P(B)P(A\\mid B)}{P(A)}\\) với \\(P(A)=0{,}58\\).",
    "images": [],
    "id": "51209ab4eef2",
-   "status": "đang dùng",
+   "status": "đã thay ra",
    "sources": [
     "hiện tại",
     "9dde968"
@@ -1523,7 +2562,7 @@
    "explain_vi": "Đáp án d. \\(P(\\overline A)=P(B)P(\\overline A\\mid B)+P(\\overline B)P(\\overline A\\mid\\overline B)=0{,}61\\), rồi dùng Bayes.",
    "images": [],
    "id": "4a7eaa5d3ce6",
-   "status": "đang dùng",
+   "status": "đã thay ra",
    "sources": [
     "hiện tại",
     "9dde968"

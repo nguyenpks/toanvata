@@ -323,3 +323,16 @@ Phần D mới (`tools/sp_g12r2.py`), nhiều câu đọc đồ thị và bảng
 | 4. Khảo sát hàm số | nhận dạng hàm bậc ba từ đồ thị, nhận dạng hàm phân thức từ đồ thị, dấu của \(a\), \(d\), điều kiện \(f(x)=m\) có 3 nghiệm, số nghiệm \(kf(x)+c=0\), diện tích tam giác ba điểm cực trị hàm trùng phương, nhận dạng hàm từ bảng biến thiên, số giao điểm | 6/8 |
 
 Kiểm tra: test "TẤT CẢ ĐẠT"; `scripts/audit12.py` (đọc đồ thị và bảng biến thiên trong tệp TikZ, tự tính lại) 96/96 câu đúng.
+
+## Kết quả hiệu chỉnh lớp 12 – đợt 3 (13/11/2026): Bài 13–16
+
+Phần D mới (`tools/sp_g12r3.py`; câu cũ vẫn trong thư viện câu hỏi):
+
+| Bài | Dạng mới ở phần D | Câu có hình |
+|---|---|---|
+| 13. Ứng dụng hình học của tích phân | diện tích giữa parabol và đường thẳng (miền tô đậm), diện tích miền cắt trục hoành (phải tách tích phân), thể tích khối tròn xoay (\(1/x\), \(\sin x\), \(e^x\), …), khối có lỗ (hiệu hai bình phương), nước trong bát bán cầu, tìm \(m\) theo diện tích, thiết diện tam giác đều/nửa hình tròn, chọn công thức tích phân đúng | 3/8 |
+| 14. Phương trình mặt phẳng | qua ba điểm bất kì, qua điểm và song song mặt phẳng, mặt phẳng trung trực, mặt phẳng qua ba đỉnh hình hộp, hình chiếu của điểm, điểm đối xứng, tìm \(m\) theo khoảng cách, thể tích tứ diện chắn trên các trục | 1/8 |
+| 15. Phương trình đường thẳng | vị trí tương đối hai đường thẳng, qua điểm song song đường thẳng, vuông góc với hai vectơ, hình chiếu của điểm lên đường thẳng, khoảng cách từ điểm đến đường thẳng, đường chéo hình hộp, tìm \(m\) để đường thẳng song song mặt phẳng, tia laser chạm sàn | 1/8 |
+| 16. Công thức tính góc | côsin góc giữa hai đường chéo hình hộp, \(\tan\) góc giữa đường chéo và mặt đáy, góc giữa mặt phẳng \((ACO′)\) và đáy, tìm \(m\) theo góc với \((Oxy)\), mặt dốc qua ba điểm, góc với trục tọa độ, tia nắng, góc giữa đường thẳng (chính tắc) và mặt phẳng | 3/8 |
+
+Kiểm tra: test "TẤT CẢ ĐẠT"; `scripts/audit13.py` 96/96 câu đúng.

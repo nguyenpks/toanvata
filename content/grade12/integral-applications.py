@@ -22,7 +22,7 @@ goals = [('compute the area between a graph and the \\(x\\)-axis, splitting wher
          ('solve real problems: arches, tanks, vases.', 'giải bài toán thực tế: [[vòm (cổng) parabol]], bồn chứa, lọ hoa.')]
 phrases = [('<b>Find the area of the shaded region.</b>', 'Tính diện tích phần tô màu.'), ('<b>Find the intersection points of the two graphs.</b>', 'Tìm giao điểm của hai đồ thị.'), ('<b>Rotate the region about the x-axis.</b>', 'Quay hình phẳng quanh trục hoành.'),
            ('<b>Find the volume of the solid of revolution.</b>', 'Tính thể tích khối tròn xoay.'), ('<b>Split the integral where the function changes sign.</b>', 'Tách tích phân tại điểm hàm số đổi dấu.')]
-review = T('From Bài 12: \\(\\int_a^bf(x)\\,dx=F(b)-F(a)\\); \\(\\int_a^b=\\int_a^c+\\int_c^b\\); \\(\\int|f|\\): split at the points where \\(f\\) changes sign. If \\(f\\ge0\\), \\(\\int_a^bf\\) is the area under the graph.', 'Từ Bài 12: \\(\\int_a^bf(x)\\,dx=F(b)-F(a)\\); \\(\\int_a^b=\\int_a^c+\\int_c^b\\); \\(\\int|f|\\): tách tại các điểm \\(f\\) đổi dấu. Nếu \\(f\\ge0\\) thì \\(\\int_a^bf\\) là diện tích dưới đồ thị.')
+review = T('From Lesson 12: \\(\\int_a^bf(x)\\,dx=F(b)-F(a)\\); \\(\\int_a^b=\\int_a^c+\\int_c^b\\); \\(\\int|f|\\): split at the points where \\(f\\) changes sign. If \\(f\\ge0\\), \\(\\int_a^bf\\) is the area under the graph.', 'Từ Bài 12: \\(\\int_a^bf(x)\\,dx=F(b)-F(a)\\); \\(\\int_a^b=\\int_a^c+\\int_c^b\\); \\(\\int|f|\\): tách tại các điểm \\(f\\) đổi dấu. Nếu \\(f\\ge0\\) thì \\(\\int_a^bf\\) là diện tích dưới đồ thị.')
 N = 40; xs = [-1 + 3 * i / N for i in range(N + 1)]
 reg = [[round(x, 4), round(x + 2, 4)] for x in xs] + [[round(x, 4), round(x * x, 4)] for x in reversed(xs)]
 assert defint({0: 2, 1: 1, 2: -1}, -1, 2) == F(9, 2)
@@ -91,7 +91,9 @@ PP = [dict(par=2, two=3, cone=(2, 3), cub=(1, True), sq=(2, True), gate=(6, 3), 
       dict(par=4, two=2, cone=(3, 6), cub=(2, False), sq=(3, False), gate=(9, 4), xs=(6, 'tri')),
       dict(par=6, two=5, cone=(1, 2), cub=(3, True), sq=(5, True), gate=(12, 5), xs=(6, 'sq'))]
 practice = three(lvl, PP)
-practice = with_self(practice, S.M13S12, start=8)
+import sp_g12r2 as R4, sp_g12r3 as R5
+_ds = R4.dset(practice, R5.D13, (12131, 12132, 12133))
+practice = practice + [(("D. Self-practice: Multiple Choice", "D. Tự luyện: trắc nghiệm"), _ds[lv], [lv]) for lv in (1, 2, 3)]
 mistakes = [('<b>Forgetting \\(|\\ |\\).</b> When the graph crosses the axis, split the integral; otherwise parts cancel.', '<b>Quên dấu \\(|\\ |\\).</b> Khi đồ thị cắt trục hoành phải tách tích phân, nếu không các phần sẽ triệt tiêu.'),
             ('<b>Wrong limits.</b> For the area between two graphs, the limits are the intersection points.', '<b>Sai cận.</b> Với diện tích giữa hai đồ thị, cận là hoành độ giao điểm.'),
             ('<b>\\(\\pi\\left(\\int f\\right)^2\\).</b> The volume is \\(\\pi\\int f^2\\): square the function, then integrate.', '<b>\\(\\pi\\left(\\int f\\right)^2\\).</b> Thể tích là \\(\\pi\\int f^2\\): bình phương hàm số rồi mới lấy tích phân.'),
@@ -99,7 +101,7 @@ mistakes = [('<b>Forgetting \\(|\\ |\\).</b> When the graph crosses the axis, sp
 summary = [('\\(S=\\int_a^b|f(x)|\\,dx\\); \\(S=\\int_a^b|f(x)-g(x)|\\,dx\\).', '\\(S=\\int_a^b|f(x)|\\,dx\\); \\(S=\\int_a^b|f(x)-g(x)|\\,dx\\).'),
            ('Find intersection points, split where the sign changes.', 'Tìm giao điểm, tách tại điểm đổi dấu.'),
            ('\\(V=\\int_a^bS(x)\\,dx\\); \\(V=\\pi\\int_a^bf^2(x)\\,dx\\) (rotation about \\(Ox\\)).', '\\(V=\\int_a^bS(x)\\,dx\\); \\(V=\\pi\\int_a^bf^2(x)\\,dx\\) (quay quanh \\(Ox\\)).'),
-           ('Parabolic arch: \\(\\frac23\\cdot\\text{width}\\cdot\\text{height}\\). Key words: area, volume, cross-section, solid of revolution.', 'Vòm parabol: \\(\\frac23\\cdot\\text{rộng}\\cdot\\text{cao}\\). Từ cần nhớ: area, volume, cross-section, solid of revolution.')]
+           ('Parabolic arch: \\(\\frac23\\cdot\\text{width}\\cdot\\text{height}\\). Key words: area, volume, cross-section, solid of revolution.', 'Vòm parabol: \\(\\frac23\\cdot\\text{rộng}\\cdot\\text{cao}\\). Từ cần nhớ (chạm vào để xem tiếng Anh): <b class="mbl-term" tabindex="0" data-en="area">diện tích</b>; <b class="mbl-term" tabindex="0" data-en="volume">thể tích</b>; <b class="mbl-term" tabindex="0" data-en="cross-section">thiết diện</b>; <b class="mbl-term" tabindex="0" data-en="solid of revolution">khối tròn xoay</b>.')]
 checks = [('I can find the area between a graph and the \\(x\\)-axis.', 'Em tính được diện tích giữa đồ thị và trục hoành.'), ('I can find the area between two graphs.', 'Em tính được diện tích giữa hai đồ thị.'),
           ('I can find a volume from cross-sections.', 'Em tính được thể tích theo thiết diện.'), ('I can find the volume of a solid of revolution.', 'Em tính được thể tích khối tròn xoay.')]
 LL('g12-int-03', 'Geometric Applications of Integrals', CV, ('Antiderivatives and Integrals', 'Nguyên hàm và tích phân'), 'integrals', 'integral-applications', 130, 'Intermediate', 75, ('definite integrals, absolute values', 'tích phân, dấu giá trị tuyệt đối'),

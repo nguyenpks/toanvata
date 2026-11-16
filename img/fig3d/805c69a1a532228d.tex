@@ -1,0 +1,24 @@
+\documentclass[tikz,border=3pt]{standalone}
+\usetikzlibrary{arrows.meta}
+\begin{document}
+\definecolor{c_ax}{HTML}{475569}
+\definecolor{c_hl}{HTML}{C2410C}
+\definecolor{c2}{HTML}{0F766E}
+\definecolor{c3}{HTML}{86E0BD}
+\begin{tikzpicture}[x=1.4000cm,y=1.4000cm,line cap=round,line join=round]
+\shade[ball color=c3!25!white,opacity=.35] (0.0000,0.0000) circle[radius=2.0000];
+\draw[c_hl,line width=1.35pt] (-1.6000,-1.2000) -- (1.6000,-1.2000);
+\draw[c_hl,line width=1.08pt,dash pattern=on 3pt off 2pt] (0.0000,0.0000) -- (0.0000,-1.2000);
+\draw[c2,line width=0.90pt,dash pattern=on 3pt off 2pt] (0.0000,0.0000) -- (1.6000,-1.2000);
+\draw[line width=0.9pt] (0.0000,0.0000) circle[radius=2.0000];
+\draw[line width=0.5pt] (0.0000,-0.9200) -- (0.2800,-0.9200) -- (0.2800,-1.2000);
+\fill (0.0000,0.0000) circle[radius=1.3pt];
+\node[anchor=south,inner sep=2pt] at (0.0000,0.0000) {$I$};
+\fill (0.0000,-1.2000) circle[radius=1.3pt];
+\node[anchor=north,inner sep=2pt] at (0.0000,-1.2000) {$K$};
+\fill (-1.6000,-1.2000) circle[radius=1.3pt];
+\node[anchor=east,inner sep=2pt] at (-1.6000,-1.2000) {$M$};
+\fill (1.6000,-1.2000) circle[radius=1.3pt];
+\node[anchor=west,inner sep=2pt] at (1.6000,-1.2000) {$N$};
+\end{tikzpicture}
+\end{document}

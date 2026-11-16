@@ -19,7 +19,7 @@ goals = [('recognise the law of total probability and Bayes\' formula;', 'nhận
          ('solve problems on quality control, medical tests and classification.', 'giải bài toán kiểm tra chất lượng sản phẩm, xét nghiệm y tế, phân loại.')]
 phrases = [('<b>Multiply along each branch, then add.</b>', 'Nhân theo từng nhánh rồi cộng lại.'), ('<b>The product came from machine one.</b>', 'Sản phẩm do máy I sản xuất.'), ('<b>Given that the test is positive.</b>', 'Biết rằng kết quả xét nghiệm dương tính.'),
            ('<b>Bayes\' formula reverses the condition.</b>', 'Công thức Bayes đảo chiều điều kiện.'), ('<b>The prior probability is updated.</b>', 'Xác suất ban đầu được cập nhật.')]
-review = T('From Bài 18: \\(P(A\\mid B)=\\dfrac{P(A\\cap B)}{P(B)}\\); multiplication rule \\(P(A\\cap B)=P(B)P(A\\mid B)\\); \\(P(\\overline B)=1-P(B)\\).',
+review = T('From Lesson 18: \\(P(A\\mid B)=\\dfrac{P(A\\cap B)}{P(B)}\\); multiplication rule \\(P(A\\cap B)=P(B)P(A\\mid B)\\); \\(P(\\overline B)=1-P(B)\\).',
            'Từ Bài 18: \\(P(A\\mid B)=\\dfrac{P(A\\cap B)}{P(B)}\\); công thức nhân \\(P(A\\cap B)=P(B)P(A\\mid B)\\); \\(P(\\overline B)=1-P(B)\\).')
 theory = '<h3>19.1 %s</h3>' % TI('The law of total probability', 'Công thức xác suất toàn phần')
 theory += BOX('blue', ('Formula', 'Công thức'), T('For events \\(A\\), \\(B\\) with \\(0\\lt P(B)\\lt1\\): \\[P(A)=P(B)\\,P(A\\mid B)+P(\\overline B)\\,P(A\\mid\\overline B).\\] Reason: \\(A=(A\\cap B)\\cup(A\\cap\\overline B)\\), two exclusive events; apply the multiplication rule to each. More generally, for a complete system \\(B_1,\\dots,B_n\\): \\(P(A)=\\sum_{i=1}^{n}P(B_i)P(A\\mid B_i)\\).',
@@ -61,7 +61,7 @@ def lvl(P):
     o1 = M4(1, '\\(P(B)=%s\\), \\(P(A\\mid B)=%s\\), \\(P(A\\mid\\overline B)=%s\\). \\(P(A)=\\)…' % (PE(b), PE(x), PE(y)), 'Cho \\(P(B)=%s\\), \\(P(A\\mid B)=%s\\), \\(P(A\\mid\\overline B)=%s\\). Khi đó \\(P(A)=\\)…' % (PV(b), PV(x), PV(y)), '\\(%s\\)' % PV(c),
             ['\\(%s\\)' % PV(b * x), '\\(%s\\)' % PV(b * x + b * y), '\\(%s\\)' % PV((x + y) / 2), '\\(%s\\)' % PV((1 - b) * x + b * y)], 'Total probability.', 'Xác suất toàn phần: \\(%s\\cdot%s+%s\\cdot%s=%s\\).' % (PV(b), PV(x), PV(1 - b), PV(y), PV(c)))
     b2, x2, y2 = P['by']; pa = b2 * x2 + (1 - b2) * y2; c2 = b2 * x2 / pa
-    o2 = M4(2, 'Same notation: \\(P(B)=%s\\), \\(P(A\\mid B)=%s\\), \\(P(A\\mid\\overline B)=%s\\). \\(P(B\\mid A)=\\)…' % (PE(b2), PE(x2), PE(y2)), 'Cho \\(P(B)=%s\\), \\(P(A\\mid B)=%s\\), \\(P(A\\mid\\overline B)=%s\\). Khi đó \\(P(B\\mid A)=\\)…' % (PV(b2), PV(x2), PV(y2)), '\\(%s\\)' % PV(c2),
+    o2 = M4(2, '\\(P(B)=%s\\), \\(P(A\\mid B)=%s\\), \\(P(A\\mid\\overline B)=%s\\). \\(P(B\\mid A)=\\)…' % (PE(b2), PE(x2), PE(y2)), 'Cho \\(P(B)=%s\\), \\(P(A\\mid B)=%s\\), \\(P(A\\mid\\overline B)=%s\\). Khi đó \\(P(B\\mid A)=\\)…' % (PV(b2), PV(x2), PV(y2)), '\\(%s\\)' % PV(c2),
             ['\\(%s\\)' % PV(b2 * x2), '\\(%s\\)' % PV(x2), '\\(%s\\)' % PV(pa), '\\(%s\\)' % PV(1 - c2)], 'Bayes: \\(P(A)=%s\\).' % PE(pa), 'Bayes: \\(P(A)=%s\\), \\(P(B\\mid A)=%s\\).' % (PV(pa), PV(c2)))
     r1, w1, r2, w2 = P['urn']; c3 = F(1, 2) * F(r1, r1 + w1) + F(1, 2) * F(r2, r2 + w2)
     o3 = M4(3, 'Box 1: %d red, %d white; box 2: %d red, %d white. Choose a box at random, then a ball. \\(P(\\text{red})=\\)…' % (r1, w1, r2, w2), 'Hộp 1: %d đỏ, %d trắng; hộp 2: %d đỏ, %d trắng. Chọn ngẫu nhiên một hộp rồi lấy một bi. Xác suất được bi đỏ là…' % (r1, w1, r2, w2), '\\(%s\\)' % PV(c3),
@@ -69,8 +69,8 @@ def lvl(P):
     (e4, v4_), (e5, v5_) = P['tf']
     t4 = tf(4, e4[0], e4[1], v4_, e4[2], e4[3]); t5 = tf(5, e5[0], e5[1], v5_, e5[2], e5[3])
     sh6, d6 = P['fact']; v6 = sum(F(a, 100) * F(b_, 100) for a, b_ in zip(sh6, d6))
-    s6 = sh(6, 'Machines make %d%%, %d%%, %d%% of the products; defect rates %d%%, %d%%, %d%%. Find \\(P(\\text{defective})\\) (decimal).' % (tuple(sh6) + tuple(d6)), 'Ba máy sản xuất %d%%, %d%%, %d%% sản phẩm; tỉ lệ phế phẩm %d%%, %d%%, %d%%. Tính xác suất lấy được phế phẩm (dạng thập phân).' % (tuple(sh6) + tuple(d6)), PE(v6),
-            '\\(\\sum P(B_i)P(A\\mid B_i)=%s\\).' % PE(v6), '\\(\\sum P(B_i)P(A\\mid B_i)=%s\\).' % PV(v6))
+    s6 = sh(6, 'Machines make %d%%, %d%%, %d%% of the products; defect rates %d%%, %d%%, %d%%. Find \\(P(\\text{defective})\\) as a percentage (e.g. 2.5 means 2.5%%).' % (tuple(sh6) + tuple(d6)), 'Ba máy sản xuất %d%%, %d%%, %d%% sản phẩm; tỉ lệ phế phẩm %d%%, %d%%, %d%%. Tính xác suất lấy được phế phẩm theo phần trăm (ví dụ 2,5 nghĩa là 2,5%%).' % (tuple(sh6) + tuple(d6)), PE(v6 * 100),
+            '\\(\\sum P(B_i)P(A\\mid B_i)=%s=%s\\%%\\).' % (PE(v6), PE(v6 * 100)), '\\(\\sum P(B_i)P(A\\mid B_i)=%s=%s\\%%\\).' % (PV(v6), PV(v6 * 100)))
     k7, m7 = P['quiz']; v7 = k7 / (k7 + (1 - k7) * F(1, m7)); assert v7.denominator in (2, 4, 5, 8, 10, 20, 25, 40, 50, 100)
     s7 = sh(7, 'A student knows the answer to a %d-option question with probability %s, otherwise guesses. He answered correctly. Find the probability that he knew it (decimal).' % (m7, PE(k7)), 'Câu trắc nghiệm %d phương án; học sinh biết đáp án với xác suất %s, nếu không thì chọn ngẫu nhiên. Em trả lời đúng. Tính xác suất em biết đáp án (dạng thập phân).' % (m7, PV(k7)), PE(v7),
             '\\(\\dfrac{%s}{%s+%s\\cdot\\frac1{%d}}=%s\\).' % (PE(k7), PE(k7), PE(1 - k7), m7, PE(v7)), '\\(\\dfrac{%s}{%s+%s\\cdot\\frac1{%d}}=%s\\).' % (PV(k7), PV(k7), PV(1 - k7), m7, PV(v7)))
@@ -80,12 +80,14 @@ ZB = (('\\(P(B\\mid A)=P(B)P(A\\mid B)\\).', '\\(P(B\\mid A)=P(B)P(A\\mid B)\\).
 ZC = (('If \\(P(B)=0{,}5\\), \\(P(A\\mid B)=0{,}4\\), \\(P(A\\mid\\overline B)=0{,}2\\) then \\(P(A)=0{,}3\\).', 'Nếu \\(P(B)=0{,}5\\), \\(P(A\\mid B)=0{,}4\\), \\(P(A\\mid\\overline B)=0{,}2\\) thì \\(P(A)=0{,}3\\).', '\\(0{,}5\\cdot0{,}4+0{,}5\\cdot0{,}2=0{,}3\\).', '\\(0{,}5\\cdot0{,}4+0{,}5\\cdot0{,}2=0{,}3\\).'), True)
 ZD = (('\\(P(B\\mid A)+P(\\overline B\\mid A)=1\\) only when \\(A\\), \\(B\\) are independent.', '\\(P(B\\mid A)+P(\\overline B\\mid A)=1\\) chỉ đúng khi \\(A\\), \\(B\\) độc lập.', 'It is always true (complementary events given \\(A\\)).', 'Luôn đúng (hai biến cố đối khi đã biết \\(A\\)).'), False)
 ZE = (('With prevalence 1%, a test with 99% sensitivity gives \\(P(\\text{sick}\\mid+)=0{,}99\\).', 'Với tỉ lệ mắc 1%, xét nghiệm có độ nhạy 99% cho \\(P(\\text{bệnh}\\mid+)=0{,}99\\).', '\\(0{,}99\\) is \\(P(+\\mid\\text{sick})\\); \\(P(\\text{sick}\\mid+)\\) is much smaller.', '\\(0{,}99\\) là \\(P(+\\mid\\text{bệnh})\\); \\(P(\\text{bệnh}\\mid+)\\) nhỏ hơn nhiều.'), False)
+ZG = (('If \\(A\\) and \\(B\\) are independent, then \\(P(B\\mid A)=P(B)\\).', 'Nếu \\(A\\) và \\(B\\) độc lập thì \\(P(B\\mid A)=P(B)\\).', 'Knowing \\(A\\) does not change the chance of \\(B\\).', 'Biết \\(A\\) không làm thay đổi khả năng xảy ra của \\(B\\).'), True)   # 14/11/2026: thay ZC (trùng dạng với câu 1)
 ZF = (('The denominator of Bayes\' formula is the total probability \\(P(A)\\).', 'Mẫu số của công thức Bayes là xác suất toàn phần \\(P(A)\\).', '\\(P(A)=\\sum P(B_i)P(A\\mid B_i)\\).', '\\(P(A)=\\sum P(B_i)P(A\\mid B_i)\\).'), True)
 PP = [dict(tp=(F(3, 10), F(6, 10), F(2, 10)), by=(F(4, 10), F(5, 10), F(1, 10)), urn=(4, 1, 2, 3), tf=(ZA, ZB), fact=((50, 30, 20), (2, 3, 5)), quiz=(F(6, 10), 2)),
-      dict(tp=(F(6, 10), F(5, 10), F(3, 10)), by=(F(2, 10), F(9, 10), F(3, 10)), urn=(1, 3, 3, 2), tf=(ZC, ZD), fact=((40, 35, 25), (1, 2, 4)), quiz=(F(1, 2), 4)),
+      dict(tp=(F(6, 10), F(5, 10), F(3, 10)), by=(F(2, 10), F(9, 10), F(3, 10)), urn=(1, 3, 3, 2), tf=(ZG, ZD), fact=((40, 35, 25), (1, 2, 4)), quiz=(F(1, 2), 4)),
       dict(tp=(F(2, 10), F(9, 10), F(4, 10)), by=(F(5, 10), F(8, 10), F(2, 10)), urn=(2, 2, 1, 4), tf=(ZE, ZF), fact=((60, 25, 15), (3, 4, 2)), quiz=(F(2, 10), 4))]
-practice = three(lvl, PP)
-practice = with_self(practice, S.M19S12, start=8)
+# Hiệu chỉnh 14/11/2026: giữ 7 câu A–C cũ (sửa câu 2 và câu 6), thêm 5 câu A–C và phần D mới (8 dạng; sơ đồ cây) → mỗi mức 20 câu.
+import sp_g12r4 as R4
+practice = R4.build(R4.old_sets(three(lvl, PP)), R4.B19['A'], R4.B19['B'], R4.B19['C'], R4.B19['D'], seeds=(12191, 12192, 12193))
 mistakes = [('<b>Adding the conditional probabilities.</b> \\(P(A)\\ne P(A\\mid B)+P(A\\mid\\overline B)\\); each must be weighted by \\(P(B)\\), \\(P(\\overline B)\\).', '<b>Cộng các xác suất có điều kiện.</b> \\(P(A)\\ne P(A\\mid B)+P(A\\mid\\overline B)\\); mỗi số phải nhân với \\(P(B)\\), \\(P(\\overline B)\\).'),
             ('<b>Forgetting the denominator in Bayes\' formula.</b> \\(P(B)P(A\\mid B)\\) is \\(P(A\\cap B)\\), not \\(P(B\\mid A)\\).', '<b>Quên mẫu số trong công thức Bayes.</b> \\(P(B)P(A\\mid B)\\) là \\(P(A\\cap B)\\), không phải \\(P(B\\mid A)\\).'),
             ('<b>Confusing \\(P(+\\mid\\text{sick})\\) with \\(P(\\text{sick}\\mid+)\\).</b>', '<b>Nhầm \\(P(+\\mid\\text{bệnh})\\) với \\(P(\\text{bệnh}\\mid+)\\).</b>'),
@@ -93,7 +95,7 @@ mistakes = [('<b>Adding the conditional probabilities.</b> \\(P(A)\\ne P(A\\mid 
 summary = [('Total probability: \\(P(A)=P(B)P(A\\mid B)+P(\\overline B)P(A\\mid\\overline B)\\) (or \\(\\sum P(B_i)P(A\\mid B_i)\\)).', 'Xác suất toàn phần: \\(P(A)=P(B)P(A\\mid B)+P(\\overline B)P(A\\mid\\overline B)\\) (hoặc \\(\\sum P(B_i)P(A\\mid B_i)\\)).'),
            ('Bayes: \\(P(B\\mid A)=\\dfrac{P(B)P(A\\mid B)}{P(A)}\\).', 'Bayes: \\(P(B\\mid A)=\\dfrac{P(B)P(A\\mid B)}{P(A)}\\).'),
            ('Tree diagram: multiply along branches, add branches ending in \\(A\\).', 'Sơ đồ hình cây: nhân theo nhánh, cộng các nhánh dẫn tới \\(A\\).'),
-           ('Key words: total probability, Bayes\' formula, complete system, prior, posterior.', 'Từ cần nhớ: total probability, Bayes\' formula, complete system, prior, posterior.')]
+           ('Key words: total probability, Bayes\' formula, complete system, prior, posterior.', 'Từ cần nhớ (chạm vào để xem tiếng Anh): <b class="mbl-term" tabindex="0" data-en="total probability">xác suất toàn phần</b>; <b class="mbl-term" tabindex="0" data-en="Bayes&#39; formula">công thức Bayes</b>; <b class="mbl-term" tabindex="0" data-en="complete system">hệ đầy đủ</b>; <b class="mbl-term" tabindex="0" data-en="prior">xác suất tiên nghiệm</b>; <b class="mbl-term" tabindex="0" data-en="posterior">xác suất hậu nghiệm</b>.')]
 checks = [('I can identify \\(B\\), \\(\\overline B\\) and \\(A\\) in a problem.', 'Em xác định được \\(B\\), \\(\\overline B\\) và \\(A\\) trong bài toán.'), ('I can use the law of total probability.', 'Em dùng được công thức xác suất toàn phần.'),
           ('I can use Bayes\' formula.', 'Em dùng được công thức Bayes.'), ('I can interpret results in quality control and medical tests.', 'Em giải thích được kết quả trong kiểm tra chất lượng, xét nghiệm y tế.')]
 LL('g12-prob-02', "Total Probability and Bayes' Formula", CV, ('Conditional Probability', 'Xác suất có điều kiện'), 'probability', 'total-probability-bayes', 190, 'Advanced', 85, ('conditional probability, multiplication rule', 'xác suất có điều kiện, công thức nhân'),

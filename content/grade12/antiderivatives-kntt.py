@@ -87,7 +87,8 @@ PP = [dict(poly={2: 6, 1: -2, 0: 3}, mix=MIX[0], init=({1: 2, 0: 1}, (0, 3), 2),
       dict(poly={3: 4, 1: 6, 0: -1}, mix=MIX[1], init=({1: -4, 0: 3}, (1, 2), 3), chk=({4: 1, 1: 2}, '4x^{3}+2x', False), t5=1, mot=(10, 3, 8), init2=({1: 6, 0: 1}, (0, -3), 3)),
       dict(poly={2: -9, 1: 4, 0: 2}, mix=MIX[2], init=({2: 3, 1: -2}, (2, 1), -1), chk=({3: 2, 1: -5, 0: 1}, '6x^{2}-5', True), t5=2, mot=(12, 4, 5), init2=({3: 4, 1: -2}, (1, 0), 2))]
 practice = three(lvl, PP)
-practice = with_self(practice, S.M11S12, start=8)
+import sp_g11r as RR, sp_g12r as R3
+practice = RR.with_d(practice, R3.D11, seeds=(12111, 12112, 12113))
 mistakes = [('<b>Forgetting \\(+C\\).</b> \\(\\int f(x)\\,dx\\) is a family of functions.', '<b>Quên \\(+C\\).</b> \\(\\int f(x)\\,dx\\) là một họ hàm số.'),
             ('<b>Differentiating instead of integrating.</b> \\(\\int x^3dx=\\dfrac{x^4}4+C\\), not \\(3x^2\\).', '<b>Lấy đạo hàm thay vì nguyên hàm.</b> \\(\\int x^3dx=\\dfrac{x^4}4+C\\), không phải \\(3x^2\\).'),
             ('<b>Sign of \\(\\int\\sin x\\,dx\\).</b> It is \\(-\\cos x+C\\).', '<b>Sai dấu ở \\(\\int\\sin x\\,dx\\).</b> Kết quả là \\(-\\cos x+C\\).'),
@@ -95,7 +96,7 @@ mistakes = [('<b>Forgetting \\(+C\\).</b> \\(\\int f(x)\\,dx\\) is a family of f
 summary = [('\\(F\\) is an antiderivative of \\(f\\iff F′=f\\); \\(\\int f(x)\\,dx=F(x)+C\\).', '\\(F\\) là nguyên hàm của \\(f\\iff F′=f\\); \\(\\int f(x)\\,dx=F(x)+C\\).'),
            ('\\(\\int kf=k\\int f\\) (\\(k\\ne0\\)); \\(\\int(f\\pm g)=\\int f\\pm\\int g\\).', '\\(\\int kf=k\\int f\\) (\\(k\\ne0\\)); \\(\\int(f\\pm g)=\\int f\\pm\\int g\\).'),
            ('Table: \\(x^\\alpha\\to\\dfrac{x^{\\alpha+1}}{\\alpha+1}\\), \\(\\dfrac1x\\to\\ln|x|\\), \\(\\sin\\to-\\cos\\), \\(\\cos\\to\\sin\\), \\(e^x\\to e^x\\), \\(a^x\\to\\dfrac{a^x}{\\ln a}\\).', 'Bảng: \\(x^\\alpha\\to\\dfrac{x^{\\alpha+1}}{\\alpha+1}\\), \\(\\dfrac1x\\to\\ln|x|\\), \\(\\sin\\to-\\cos\\), \\(\\cos\\to\\sin\\), \\(e^x\\to e^x\\), \\(a^x\\to\\dfrac{a^x}{\\ln a}\\).'),
-           ('An initial condition fixes \\(C\\). Key words: antiderivative, integral, constant of integration.', 'Điều kiện ban đầu xác định \\(C\\). Từ cần nhớ: antiderivative, integral, constant of integration.')]
+           ('An initial condition fixes \\(C\\). Key words: antiderivative, integral, constant of integration.', 'Điều kiện ban đầu xác định \\(C\\). Từ cần nhớ (chạm vào để xem tiếng Anh): <b class="mbl-term" tabindex="0" data-en="antiderivative">nguyên hàm</b>; <b class="mbl-term" tabindex="0" data-en="integral">tích phân</b>; <b class="mbl-term" tabindex="0" data-en="constant of integration">hằng số tích phân</b>.')]
 checks = [('I can say what an antiderivative is and check one by differentiating.', 'Em nêu được khái niệm nguyên hàm và kiểm tra bằng đạo hàm.'), ('I can use the table and the two properties.', 'Em dùng được bảng nguyên hàm và hai tính chất.'),
           ('I can find \\(F\\) with an initial condition.', 'Em tìm được \\(F\\) thỏa mãn điều kiện ban đầu.'), ('I can solve a motion problem with antiderivatives.', 'Em giải được bài toán chuyển động bằng nguyên hàm.')]
 LL('g12-int-01', 'Antiderivatives', CV, ('Antiderivatives and Integrals', 'Nguyên hàm và tích phân'), 'integrals', 'antiderivatives', 110, 'Intermediate', 70, ('derivatives of basic functions', 'đạo hàm của các hàm số sơ cấp'),
