@@ -110,6 +110,7 @@ b.mbl-term:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
 body:not([data-level="1"]) b.mbl-term{font-weight:inherit;color:inherit;cursor:inherit;background:none}
 .mbl-tip{position:absolute;z-index:50;max-width:240px;padding:4px 10px;border-radius:8px;background:#123428;color:#fff;font-size:14px;line-height:1.4;pointer-events:none;box-shadow:0 2px 8px rgba(0,0,0,.2)}
 .mbl-tip[hidden]{display:none}
+.mbl-tip-note{margin-top:4px;padding-top:4px;border-top:1px solid rgba(255,255,255,.3);font-size:12.5px;line-height:1.35;opacity:.92}
 /* Bộ chuyển đổi ba mức */
 .mbl-levels{display:flex;gap:8px;flex-wrap:nowrap;margin:10px 0 4px;padding:6px 0;position:sticky;top:0;z-index:20;background:#fff}
 .mbl-levels.is-floating{position:relative}

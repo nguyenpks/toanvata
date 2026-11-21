@@ -33,6 +33,31 @@
    "level": 1,
    "section": "A",
    "type": "mcq",
+   "form": "A garden is a right triangle \\(ABC\\) with \\(AB=#\\) m, \\(AC=#\\) m (right angle at \\(A\\)). A rectangular vegetable bed has one corner at \\(A\\), two sides along \\(AB\\), \\(AC\\) and the opposite corner \\(M\\) on \\(BC\\) (see the figure). The largest area of the bed (m²) is…",
+   "en": "A garden is a right triangle \\(ABC\\) with \\(AB=24\\) m, \\(AC=10\\) m (right angle at \\(A\\)). A rectangular vegetable bed has one corner at \\(A\\), two sides along \\(AB\\), \\(AC\\) and the opposite corner \\(M\\) on \\(BC\\) (see the figure). The largest area of the bed (m²) is…<img src=\"../../../img/tex/3ddf52081f13c6d4.svg\" alt=\"Rectangle in a right triangle\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Một mảnh vườn hình tam giác \\(ABC\\) vuông tại \\(A\\), \\(AB=24\\) m, \\(AC=10\\) m. Người ta làm một luống rau hình chữ nhật có một đỉnh tại \\(A\\), hai cạnh nằm trên \\(AB\\), \\(AC\\) và đỉnh đối diện \\(M\\) nằm trên \\(BC\\) (xem hình). Diện tích lớn nhất của luống rau (m²) là…<img src=\"../../../img/tex/3ddf52081f13c6d4.svg\" alt=\"Hình chữ nhật trong tam giác vuông\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "\\(60\\)",
+    "\\(120\\)",
+    "\\(30\\)",
+    "\\(80\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. With sides \\(x\\) on \\(AB\\) and \\(y\\) on \\(AC\\): \\(\\dfrac{x}{24}+\\dfrac{y}{10}=1\\), so \\(S=xy=\\dfrac{10}{24}x(24-x)\\), \\(S'=0\\Leftrightarrow x=12\\), \\(y=5\\), \\(S_{\\max}=60\\).",
+   "explain_vi": "Đáp án a. Gọi các cạnh là \\(x\\) (trên \\(AB\\)) và \\(y\\) (trên \\(AC\\)): \\(\\dfrac{x}{24}+\\dfrac{y}{10}=1\\), nên \\(S=xy=\\dfrac{10}{24}x(24-x)\\), \\(S'=0\\Leftrightarrow x=12\\), \\(y=5\\), \\(S_{\\max}=60\\).",
+   "images": [
+    "img/tex/3ddf52081f13c6d4.svg"
+   ],
+   "id": "c386fcde948a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
    "form": "A rectangle has perimeter # m. Its largest area is…",
    "en": "A rectangle has perimeter 24 m. Its largest area is…",
    "vi": "Hình chữ nhật có chu vi 24 m. Diện tích lớn nhất của nó là…",
@@ -51,6 +76,54 @@
    "sources": [
     "hiện tại",
     "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "A self-driving test car moves on a straight track; its distance from the start is \\(s(t)=-t^#+#t^#+#t\\) (m), \\(#\\le t\\le #\\) (s). Its largest velocity (m/s) is…",
+   "en": "A self-driving test car moves on a straight track; its distance from the start is \\(s(t)=-t^3+9t^2+3t\\) (m), \\(0\\le t\\le 5\\) (s). Its largest velocity (m/s) is…",
+   "vi": "Một xe tự lái chạy thử trên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b>, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance travelled\">quãng đường đi được</b> là \\(s(t)=-t^3+9t^2+3t\\) (m), \\(0\\le t\\le 5\\) (s). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"velocity\">Vận tốc</b> lớn nhất của xe (m/s) là…",
+   "options": [
+    "\\(63\\)",
+    "\\(18\\)",
+    "\\(3\\)",
+    "\\(30\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(v(t)=s'(t)=-3t^2+18t+3\\), \\(v'(t)=-6t+18=0\\Leftrightarrow t=3\\in[0;\\,5]\\). \\(v(0)=3\\), \\(v(3)=30\\), \\(v(5)=18\\), so \\(v_{\\max}=30\\).",
+   "explain_vi": "Đáp án d. \\(v(t)=s'(t)=-3t^2+18t+3\\), \\(v'(t)=-6t+18=0\\Leftrightarrow t=3\\in[0;\\,5]\\). \\(v(0)=3\\), \\(v(3)=30\\), \\(v(5)=18\\), nên \\(v_{\\max}=30\\).",
+   "images": [],
+   "id": "55d3280a9d54",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "The figure shows the graph of \\(V'(t)\\), the rate of change of the volume \\(V(t)\\) of water in a reservoir, for \\(#\\le t\\le #\\) (\\(t\\) in hours). At what time \\(t\\) is the volume of water largest?",
+   "en": "The figure shows the graph of \\(V'(t)\\), the rate of change of the volume \\(V(t)\\) of water in a reservoir, for \\(0\\le t\\le 8\\) (\\(t\\) in hours). At what time \\(t\\) is the volume of water largest?<img src=\"../../../img/tex/35c9ad8d4eb0e3cd.svg\" alt=\"Graph of V&#x27;(t)\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,380px);height:auto\">",
+   "vi": "Hình bên là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> của \\(V'(t)\\) – <b class=\"mbl-term\" tabindex=\"0\" data-en=\"rate of change\">tốc độ thay đổi</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"volume\">thể tích</b> \\(V(t)\\) của nước trong một hồ chứa, với \\(0\\le t\\le 8\\) (\\(t\\) tính bằng giờ). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"volume\">Thể tích</b> nước lớn nhất tại thời điểm \\(t\\) nào?<img src=\"../../../img/tex/35c9ad8d4eb0e3cd.svg\" alt=\"Đồ thị của V&#x27;(t)\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,380px);height:auto\">",
+   "options": [
+    "\\(3\\)",
+    "\\(8\\)",
+    "\\(6\\)",
+    "\\(0\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(V'(t)\\gt0\\) on \\((0;\\,6)\\) and \\(V'(t)\\lt0\\) on \\((6;\\,8]\\): \\(V\\) increases, then decreases, so it is largest at \\(t=6\\). (The top of the graph of \\(V'\\) only shows when water rises fastest.)",
+   "explain_vi": "Đáp án c. \\(V'(t)\\gt0\\) trên \\((0;\\,6)\\) và \\(V'(t)\\lt0\\) trên \\((6;\\,8]\\): \\(V\\) tăng rồi giảm nên lớn nhất tại \\(t=6\\). (Đỉnh <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> \\(V'\\) chỉ là lúc nước dâng nhanh nhất.)",
+   "images": [
+    "img/tex/35c9ad8d4eb0e3cd.svg"
+   ],
+   "id": "ab1c93f78981",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
    ]
   },
   {
@@ -113,6 +186,44 @@
    "sources": [
     "hiện tại",
     "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "In a culture, the number of bacteria (thousands) after \\(t\\) hours is \\(N(t)=t^#-#t^#+#t+#\\). During \\(#\\le t\\le #\\), the number of bacteria is largest at \\(t=#\\).",
+   "en": "In a culture, the number of bacteria (thousands) after \\(t\\) hours is \\(N(t)=t^3-15t^2+63t+20\\). During \\(0\\le t\\le 8\\), the number of bacteria is largest at \\(t=3\\).",
+   "vi": "Trong một môi trường nuôi cấy, số vi khuẩn (nghìn con) sau \\(t\\) giờ là \\(N(t)=t^3-15t^2+63t+20\\). Trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"interval\">khoảng</b> \\(0\\le t\\le 8\\), số vi khuẩn lớn nhất tại thời điểm \\(t=3\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "\\(N'(t)=3t^2-30t+63=3(t-3)(t-7)\\). Compare the critical points with the ends: \\(N(0)=20\\), \\(N(3)=101\\), \\(N(7)=69\\), \\(N(8)=76\\). The largest value is at \\(t=3\\), so the statement is true.",
+   "explain_vi": "\\(N'(t)=3t^2-30t+63=3(t-3)(t-7)\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"compare\">So sánh</b> giá trị tại các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"critical point\">điểm tới hạn</b> và hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"endpoint\">đầu mút</b>: \\(N(0)=20\\), \\(N(3)=101\\), \\(N(7)=69\\), \\(N(8)=76\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">Giá trị lớn nhất</b> đạt tại \\(t=3\\), nên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"proposition\">mệnh đề</b> đúng.",
+   "images": [],
+   "id": "b3fb96b256a2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "A rectangular yard of area \\(#\\ \\text{m}^#\\) is built beside a road. The side along the road (thick in the figure) is a wall costing \\(#\\,#\\) VND per meter; the other three sides are a fence costing \\(#\\,#\\) VND per meter. Find the smallest total cost (million VND).",
+   "en": "A rectangular yard of area \\(200\\ \\text{m}^2\\) is built beside a road. The side along the road (thick in the figure) is a wall costing \\(300\\,000\\) VND per meter; the other three sides are a fence costing \\(100\\,000\\) VND per meter. Find the smallest total cost (million VND).<img src=\"../../../img/tex/f4c5fca753c90d82.svg\" alt=\"Rectangular yard: wall (thick) and fence (dashed)\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,280px);height:auto\">",
+   "vi": "Một khu đất hình chữ nhật rộng \\(200\\ \\text{m}^2\\) nằm cạnh đường. Cạnh giáp đường (nét đậm trên hình) xây tường giá \\(300\\,000\\) đồng/m, ba cạnh còn lại rào lưới giá \\(100\\,000\\) đồng/m. Tìm tổng chi phí nhỏ nhất (triệu đồng).<img src=\"../../../img/tex/f4c5fca753c90d82.svg\" alt=\"Khu đất hình chữ nhật: tường (nét đậm) và lưới rào (nét đứt)\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,280px);height:auto\">",
+   "options": [],
+   "answer": "8",
+   "explain_en": "With \\(y=\\dfrac{200}{x}\\): \\(C(x)=0.4\\left(x+\\dfrac{100}{x}\\right)\\) (million VND), \\(C'(x)=0\\Leftrightarrow x^2=100\\Leftrightarrow x=10\\); \\(C(10)=8\\).",
+   "explain_vi": "Với \\(y=\\dfrac{200}{x}\\): \\(C(x)=0{,}4\\left(x+\\dfrac{100}{x}\\right)\\) (triệu đồng), \\(C'(x)=0\\Leftrightarrow x^2=100\\Leftrightarrow x=10\\); \\(C(10)=8\\).",
+   "images": [
+    "img/tex/f4c5fca753c90d82.svg"
+   ],
+   "id": "1bfd0abf735c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
    ]
   },
   {
@@ -399,6 +510,54 @@
    "level": 2,
    "section": "A",
    "type": "mcq",
+   "form": "A triangular plot \\(ABC\\) has a right angle at \\(A\\), \\(AB=#\\) m and \\(AC=#\\) m. A farmer marks a rectangle with a vertex at \\(A\\) and the opposite vertex \\(M\\) on \\(BC\\) (figure). What is the greatest possible area (m²)?",
+   "en": "A triangular plot \\(ABC\\) has a right angle at \\(A\\), \\(AB=12\\) m and \\(AC=8\\) m. A farmer marks a rectangle with a vertex at \\(A\\) and the opposite vertex \\(M\\) on \\(BC\\) (figure). What is the greatest possible area (m²)?<img src=\"../../../img/tex/d267e09f228c50f0.svg\" alt=\"Rectangle in a right triangle\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Một thửa đất hình tam giác \\(ABC\\) vuông tại \\(A\\), \\(AB=12\\) m, \\(AC=8\\) m. Bác nông dân rào một hình chữ nhật có một đỉnh tại \\(A\\) và đỉnh đối diện \\(M\\) thuộc \\(BC\\) (hình vẽ). Diện tích lớn nhất có thể là bao nhiêu (m²)?<img src=\"../../../img/tex/d267e09f228c50f0.svg\" alt=\"Hình chữ nhật trong tam giác vuông\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "\\(24\\)",
+    "\\(48\\)",
+    "\\(12\\)",
+    "\\(32\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. With sides \\(x\\) on \\(AB\\) and \\(y\\) on \\(AC\\): \\(\\dfrac{x}{12}+\\dfrac{y}{8}=1\\), so \\(S=xy=\\dfrac{8}{12}x(12-x)\\), \\(S'=0\\Leftrightarrow x=6\\), \\(y=4\\), \\(S_{\\max}=24\\).",
+   "explain_vi": "Đáp án a. Gọi các cạnh là \\(x\\) (trên \\(AB\\)) và \\(y\\) (trên \\(AC\\)): \\(\\dfrac{x}{12}+\\dfrac{y}{8}=1\\), nên \\(S=xy=\\dfrac{8}{12}x(12-x)\\), \\(S'=0\\Leftrightarrow x=6\\), \\(y=4\\), \\(S_{\\max}=24\\).",
+   "images": [
+    "img/tex/d267e09f228c50f0.svg"
+   ],
+   "id": "73b645aacb59",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "The position of a toy train is \\(s(t)=-t^#+#t^#+#t\\) (m) for \\(t\\in[#;\\,#]\\) (s). Find the maximum velocity (m/s).",
+   "en": "The position of a toy train is \\(s(t)=-t^3+9t^2+5t\\) (m) for \\(t\\in[0;\\,5]\\) (s). Find the maximum velocity (m/s).",
+   "vi": "Vị trí của một tàu đồ chơi là \\(s(t)=-t^3+9t^2+5t\\) (m) với \\(t\\in[0;\\,5]\\) (s). Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"velocity\">vận tốc</b> lớn nhất (m/s).",
+   "options": [
+    "\\(69\\)",
+    "\\(20\\)",
+    "\\(5\\)",
+    "\\(32\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(v(t)=s'(t)=-3t^2+18t+5\\), \\(v'(t)=-6t+18=0\\Leftrightarrow t=3\\in[0;\\,5]\\). \\(v(0)=5\\), \\(v(3)=32\\), \\(v(5)=20\\), so \\(v_{\\max}=32\\).",
+   "explain_vi": "Đáp án d. \\(v(t)=s'(t)=-3t^2+18t+5\\), \\(v'(t)=-6t+18=0\\Leftrightarrow t=3\\in[0;\\,5]\\). \\(v(0)=5\\), \\(v(3)=32\\), \\(v(5)=20\\), nên \\(v_{\\max}=32\\).",
+   "images": [],
+   "id": "5b6a43ea1e7b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
    "form": "There is # m of fence and a river forms one side. The largest area is…",
    "en": "There is 80 m of fence and a river forms one side. The largest area is…",
    "vi": "Có 80 m <b class=\"mbl-term\" tabindex=\"0\" data-en=\"fence\">hàng rào</b>, bờ sông làm một cạnh. Diện tích lớn nhất là…",
@@ -417,6 +576,49 @@
    "sources": [
     "hiện tại",
     "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Water flows into and out of a tank. The graph of \\(V'(t)\\) on \\([#;\\,#]\\) is shown (\\(t\\) in hours). The amount of water in the tank is greatest at \\(t=\\)…",
+   "en": "Water flows into and out of a tank. The graph of \\(V'(t)\\) on \\([0;\\,11]\\) is shown (\\(t\\) in hours). The amount of water in the tank is greatest at \\(t=\\)…<img src=\"../../../img/tex/b075cd52820987f4.svg\" alt=\"Graph of V&#x27;(t)\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,380px);height:auto\">",
+   "vi": "Nước vừa chảy vào vừa chảy ra khỏi một bể. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">Đồ thị</b> của \\(V'(t)\\) trên \\([0;\\,11]\\) cho như hình (\\(t\\) tính bằng giờ). Lượng nước trong bể nhiều nhất khi \\(t=\\)…<img src=\"../../../img/tex/b075cd52820987f4.svg\" alt=\"Đồ thị của V&#x27;(t)\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,380px);height:auto\">",
+   "options": [
+    "\\(4\\)",
+    "\\(11\\)",
+    "\\(0\\)",
+    "\\(8\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(V'(t)\\gt0\\) on \\((0;\\,8)\\) and \\(V'(t)\\lt0\\) on \\((8;\\,11]\\): \\(V\\) increases, then decreases, so it is largest at \\(t=8\\). (The top of the graph of \\(V'\\) only shows when water rises fastest.)",
+   "explain_vi": "Đáp án d. \\(V'(t)\\gt0\\) trên \\((0;\\,8)\\) và \\(V'(t)\\lt0\\) trên \\((8;\\,11]\\): \\(V\\) tăng rồi giảm nên lớn nhất tại \\(t=8\\). (Đỉnh <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> \\(V'\\) chỉ là lúc nước dâng nhanh nhất.)",
+   "images": [
+    "img/tex/b075cd52820987f4.svg"
+   ],
+   "id": "909a3f4ab754",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "A lab models a bacteria colony by \\(N(t)=t^#-#t^#+#t+#\\) (thousand cells), \\(t\\) in hours. On the interval \\([#;\\,#]\\), the number of bacteria is smallest at \\(t=#\\).",
+   "en": "A lab models a bacteria colony by \\(N(t)=t^3-15t^2+63t+50\\) (thousand cells), \\(t\\) in hours. On the interval \\([0;\\,10]\\), the number of bacteria is smallest at \\(t=7\\).",
+   "vi": "Một phòng thí nghiệm mô tả đàn vi khuẩn bởi \\(N(t)=t^3-15t^2+63t+50\\) (nghìn con), \\(t\\) tính bằng giờ. Trên đoạn \\([0;\\,10]\\), số vi khuẩn nhỏ nhất tại thời điểm \\(t=7\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "\\(N'(t)=3t^2-30t+63=3(t-3)(t-7)\\). Compare the critical points with the ends: \\(N(0)=50\\), \\(N(3)=131\\), \\(N(7)=99\\), \\(N(10)=180\\). The smallest value is at \\(t=0\\), so the statement is false.",
+   "explain_vi": "\\(N'(t)=3t^2-30t+63=3(t-3)(t-7)\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"compare\">So sánh</b> giá trị tại các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"critical point\">điểm tới hạn</b> và hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"endpoint\">đầu mút</b>: \\(N(0)=50\\), \\(N(3)=131\\), \\(N(7)=99\\), \\(N(10)=180\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"minimum value\">Giá trị nhỏ nhất</b> đạt tại \\(t=0\\), nên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"proposition\">mệnh đề</b> sai.",
+   "images": [],
+   "id": "f98779e7c70c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
    ]
   },
   {
@@ -455,6 +657,26 @@
    "sources": [
     "hiện tại",
     "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "A school builds a rectangular garden of \\(#\\ \\text{m}^#\\). One side \\(x\\) is a brick wall (\\(#\\,#\\) VND/m), the other three sides are wire fence (\\(#\\,#\\) VND/m), as in the figure. Find \\(x\\) (m) so that the cost is smallest.",
+   "en": "A school builds a rectangular garden of \\(1125\\ \\text{m}^2\\). One side \\(x\\) is a brick wall (\\(300\\,000\\) VND/m), the other three sides are wire fence (\\(200\\,000\\) VND/m), as in the figure. Find \\(x\\) (m) so that the cost is smallest.<img src=\"../../../img/tex/f4c5fca753c90d82.svg\" alt=\"Rectangular yard: wall (thick) and fence (dashed)\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,280px);height:auto\">",
+   "vi": "Một trường làm vườn hình chữ nhật diện tích \\(1125\\ \\text{m}^2\\). Một cạnh dài \\(x\\) xây tường gạch (\\(300\\,000\\) đồng/m), ba cạnh còn lại rào lưới (\\(200\\,000\\) đồng/m) như hình. Tìm \\(x\\) (m) để chi phí nhỏ nhất.<img src=\"../../../img/tex/f4c5fca753c90d82.svg\" alt=\"Khu đất hình chữ nhật: tường (nét đậm) và lưới rào (nét đứt)\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,280px);height:auto\">",
+   "options": [],
+   "answer": "30",
+   "explain_en": "With \\(y=\\dfrac{1125}{x}\\): \\(C(x)=0.5\\left(x+\\dfrac{900}{x}\\right)\\) (million VND), \\(C'(x)=0\\Leftrightarrow x^2=900\\Leftrightarrow x=30\\); \\(C(30)=30\\).",
+   "explain_vi": "Với \\(y=\\dfrac{1125}{x}\\): \\(C(x)=0{,}5\\left(x+\\dfrac{900}{x}\\right)\\) (triệu đồng), \\(C'(x)=0\\Leftrightarrow x^2=900\\Leftrightarrow x=30\\); \\(C(30)=30\\).",
+   "images": [
+    "img/tex/f4c5fca753c90d82.svg"
+   ],
+   "id": "799f48fa8c4d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
    ]
   },
   {
@@ -717,6 +939,31 @@
    "level": 3,
    "section": "A",
    "type": "mcq",
+   "form": "A lake gains and loses water; the graph of the rate \\(V'(t)\\) for \\(t\\in[#;\\,#]\\) (hours) is given. Choose the time when the lake holds the most water.",
+   "en": "A lake gains and loses water; the graph of the rate \\(V'(t)\\) for \\(t\\in[0;\\,9]\\) (hours) is given. Choose the time when the lake holds the most water.<img src=\"../../../img/tex/218c54117bb4653e.svg\" alt=\"Graph of V&#x27;(t)\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,380px);height:auto\">",
+   "vi": "Một hồ nước vừa nhận vừa mất nước; <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> tốc độ \\(V'(t)\\) với \\(t\\in[0;\\,9]\\) (giờ) cho như hình. Chọn thời điểm hồ chứa nhiều nước nhất.<img src=\"../../../img/tex/218c54117bb4653e.svg\" alt=\"Đồ thị của V&#x27;(t)\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,380px);height:auto\">",
+   "options": [
+    "\\(3\\)",
+    "\\(9\\)",
+    "\\(0\\)",
+    "\\(6\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(V'(t)\\gt0\\) on \\((0;\\,6)\\) and \\(V'(t)\\lt0\\) on \\((6;\\,9]\\): \\(V\\) increases, then decreases, so it is largest at \\(t=6\\). (The top of the graph of \\(V'\\) only shows when water rises fastest.)",
+   "explain_vi": "Đáp án d. \\(V'(t)\\gt0\\) trên \\((0;\\,6)\\) và \\(V'(t)\\lt0\\) trên \\((6;\\,9]\\): \\(V\\) tăng rồi giảm nên lớn nhất tại \\(t=6\\). (Đỉnh <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> \\(V'\\) chỉ là lúc nước dâng nhanh nhất.)",
+   "images": [
+    "img/tex/218c54117bb4653e.svg"
+   ],
+   "id": "657792f01ea7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
    "form": "A rectangle has perimeter # m. Its largest area is…",
    "en": "A rectangle has perimeter 52 m. Its largest area is…",
    "vi": "Hình chữ nhật có chu vi 52 m. Diện tích lớn nhất của nó là…",
@@ -735,6 +982,54 @@
    "sources": [
     "hiện tại",
     "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "In the first \\(#\\) seconds a robot covers \\(s(t)=-t^#+#t^#+#t\\) meters along a line. What is its highest speed (m/s)?",
+   "en": "In the first \\(7\\) seconds a robot covers \\(s(t)=-t^3+12t^2+9t\\) meters along a line. What is its highest speed (m/s)?",
+   "vi": "Trong \\(7\\) giây đầu, một robot đi được \\(s(t)=-t^3+12t^2+9t\\) mét trên một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b>. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"velocity\">Vận tốc</b> lớn nhất của robot (m/s) là bao nhiêu?",
+   "options": [
+    "\\(164\\)",
+    "\\(57\\)",
+    "\\(30\\)",
+    "\\(9\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(v(t)=s'(t)=-3t^2+24t+9\\), \\(v'(t)=-6t+24=0\\Leftrightarrow t=4\\in[0;\\,7]\\). \\(v(0)=9\\), \\(v(4)=57\\), \\(v(7)=30\\), so \\(v_{\\max}=57\\).",
+   "explain_vi": "Đáp án b. \\(v(t)=s'(t)=-3t^2+24t+9\\), \\(v'(t)=-6t+24=0\\Leftrightarrow t=4\\in[0;\\,7]\\). \\(v(0)=9\\), \\(v(4)=57\\), \\(v(7)=30\\), nên \\(v_{\\max}=57\\).",
+   "images": [],
+   "id": "7b3eb3863f12",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "In the right triangle \\(ABC\\) (\\(\\widehat{A}=#^\\circ\\), \\(AB=#\\) m, \\(AC=#\\) m) a rectangular fish pond is dug: one vertex at \\(A\\), the opposite vertex \\(M\\) on \\(BC\\) (figure). Find the maximum area of the pond (m²).",
+   "en": "In the right triangle \\(ABC\\) (\\(\\widehat{A}=90^\\circ\\), \\(AB=20\\) m, \\(AC=12\\) m) a rectangular fish pond is dug: one vertex at \\(A\\), the opposite vertex \\(M\\) on \\(BC\\) (figure). Find the maximum area of the pond (m²).<img src=\"../../../img/tex/ec34ba7fe500988a.svg\" alt=\"Rectangle in a right triangle\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Trong tam giác \\(ABC\\) vuông tại \\(A\\) (\\(AB=20\\) m, \\(AC=12\\) m) người ta đào một ao cá hình chữ nhật: một đỉnh tại \\(A\\), đỉnh đối diện \\(M\\) thuộc \\(BC\\) (hình vẽ). Tìm diện tích lớn nhất của ao (m²).<img src=\"../../../img/tex/ec34ba7fe500988a.svg\" alt=\"Hình chữ nhật trong tam giác vuông\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "\\(60\\)",
+    "\\(120\\)",
+    "\\(30\\)",
+    "\\(80\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. With sides \\(x\\) on \\(AB\\) and \\(y\\) on \\(AC\\): \\(\\dfrac{x}{20}+\\dfrac{y}{12}=1\\), so \\(S=xy=\\dfrac{12}{20}x(20-x)\\), \\(S'=0\\Leftrightarrow x=10\\), \\(y=6\\), \\(S_{\\max}=60\\).",
+   "explain_vi": "Đáp án a. Gọi các cạnh là \\(x\\) (trên \\(AB\\)) và \\(y\\) (trên \\(AC\\)): \\(\\dfrac{x}{20}+\\dfrac{y}{12}=1\\), nên \\(S=xy=\\dfrac{12}{20}x(20-x)\\), \\(S'=0\\Leftrightarrow x=10\\), \\(y=6\\), \\(S_{\\max}=60\\).",
+   "images": [
+    "img/tex/ec34ba7fe500988a.svg"
+   ],
+   "id": "26e5a8744d57",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
    ]
   },
   {
@@ -797,6 +1092,44 @@
    "sources": [
     "hiện tại",
     "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "The bacteria count is \\(N(t)=t^#-#t^#+#t+#\\) (thousands) for \\(t\\in[#;\\,#]\\) hours. Then the number of bacteria is largest at \\(t=#\\).",
+   "en": "The bacteria count is \\(N(t)=t^3-9t^2+15t+30\\) (thousands) for \\(t\\in[0;\\,6]\\) hours. Then the number of bacteria is largest at \\(t=1\\).",
+   "vi": "Số vi khuẩn là \\(N(t)=t^3-9t^2+15t+30\\) (nghìn con) với \\(t\\in[0;\\,6]\\) giờ. Khi đó số vi khuẩn lớn nhất tại thời điểm \\(t=1\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "\\(N'(t)=3t^2-18t+15=3(t-1)(t-5)\\). Compare the critical points with the ends: \\(N(0)=30\\), \\(N(1)=37\\), \\(N(5)=5\\), \\(N(6)=12\\). The largest value is at \\(t=1\\), so the statement is true.",
+   "explain_vi": "\\(N'(t)=3t^2-18t+15=3(t-1)(t-5)\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"compare\">So sánh</b> giá trị tại các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"critical point\">điểm tới hạn</b> và hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"endpoint\">đầu mút</b>: \\(N(0)=30\\), \\(N(1)=37\\), \\(N(5)=5\\), \\(N(6)=12\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">Giá trị lớn nhất</b> đạt tại \\(t=1\\), nên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"proposition\">mệnh đề</b> đúng.",
+   "images": [],
+   "id": "b1106041f72c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "A parking lot shaped like a rectangle has area \\(#\\ \\text{m}^#\\). Its front side is a wall at \\(#\\,#\\) VND per meter and the remaining sides are a fence at \\(#\\,#\\) VND per meter (figure). What is the least possible cost (million VND)?",
+   "en": "A parking lot shaped like a rectangle has area \\(1200\\ \\text{m}^2\\). Its front side is a wall at \\(500\\,000\\) VND per meter and the remaining sides are a fence at \\(100\\,000\\) VND per meter (figure). What is the least possible cost (million VND)?<img src=\"../../../img/tex/f4c5fca753c90d82.svg\" alt=\"Rectangular yard: wall (thick) and fence (dashed)\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,280px);height:auto\">",
+   "vi": "Một bãi đỗ xe hình chữ nhật có diện tích \\(1200\\ \\text{m}^2\\). Cạnh phía trước xây tường giá \\(500\\,000\\) đồng/m, các cạnh còn lại rào lưới giá \\(100\\,000\\) đồng/m (hình vẽ). Chi phí nhỏ nhất là bao nhiêu triệu đồng?<img src=\"../../../img/tex/f4c5fca753c90d82.svg\" alt=\"Khu đất hình chữ nhật: tường (nét đậm) và lưới rào (nét đứt)\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,280px);height:auto\">",
+   "options": [],
+   "answer": "24",
+   "explain_en": "With \\(y=\\dfrac{1200}{x}\\): \\(C(x)=0.6\\left(x+\\dfrac{400}{x}\\right)\\) (million VND), \\(C'(x)=0\\Leftrightarrow x^2=400\\Leftrightarrow x=20\\); \\(C(20)=24\\).",
+   "explain_vi": "Với \\(y=\\dfrac{1200}{x}\\): \\(C(x)=0{,}6\\left(x+\\dfrac{400}{x}\\right)\\) (triệu đồng), \\(C'(x)=0\\Leftrightarrow x^2=400\\Leftrightarrow x=20\\); \\(C(20)=24\\).",
+   "images": [
+    "img/tex/f4c5fca753c90d82.svg"
+   ],
+   "id": "a823de9aca0d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
    ]
   },
   {

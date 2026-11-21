@@ -377,6 +377,14 @@
     if (top < sy + 2) top = r.bottom + sy + 6;
     tip.style.left = left + 'px'; tip.style.top = top + 'px';
   }
+  function showTip2(el) {                                   /* đặt lại vị trí khi tooltip có thêm dòng ghi chú (không xóa nội dung) */
+    var r = el.getBoundingClientRect(), sx = window.pageXOffset, sy = window.pageYOffset;
+    var left = r.left + sx + r.width / 2 - tip.offsetWidth / 2;
+    left = Math.max(sx + 6, Math.min(left, sx + document.documentElement.clientWidth - tip.offsetWidth - 6));
+    var top = r.top + sy - tip.offsetHeight - 6;
+    if (top < sy + 2) top = r.bottom + sy + 6;
+    tip.style.left = left + 'px'; tip.style.top = top + 'px'; tip.hidden = false; tipFor = el;
+  }
   function termOf(t) { return t && t.closest ? t.closest('b.mbl-term') : null; }
   document.addEventListener('pointerdown', function (e) { touchMode = e.pointerType === 'touch' || e.pointerType === 'pen'; }, true);
   document.addEventListener('mouseover', function (e) { var a = termOf(e.target); if (a && !touchMode) showTip(a); });
@@ -406,22 +414,36 @@
     return best;
   }
   if (tts && tts.addEventListener) tts.addEventListener('voiceschanged', function () { cachedVoice = null; });
+  try { if (tts) tts.getVoices(); } catch (e) { /* nạp sẵn danh sách giọng (Android nạp chậm) */ }
   function stopSpeech() {
-    try { if (tts) tts.cancel(); } catch (e) { /* bỏ qua */ }
+    try { if (tts && (tts.speaking || tts.pending)) tts.cancel(); } catch (e) { /* bỏ qua */ }
     if (speakingBtn) { speakingBtn.classList.remove('is-speaking'); speakingBtn.setAttribute('aria-pressed', 'false'); speakingBtn = null; }
   }
-  function speak(text, btn) {
-    if (!tts || !text) return;
+  /* Không phát được âm (trình duyệt trong Zalo/Facebook, máy chưa có giọng tiếng Anh…): báo ngay dưới từ vừa chạm. */
+  var NO_SOUND = 'Chưa phát được âm. Hãy mở trang bằng Chrome (hoặc Safari) và cài giọng đọc tiếng Anh trong Cài đặt → Chuyển văn bản thành giọng nói.';
+  function noSound(el) {
+    if (!el || level !== 1 || !el.classList || !el.classList.contains('mbl-term')) return;
+    showTip(el); var n = document.createElement('div'); n.className = 'mbl-tip-note'; n.textContent = NO_SOUND; tip.appendChild(n); showTip2(el);
+  }
+  function speak(text, btn, el) {
+    if (!text) return;
+    if (!tts || !window.SpeechSynthesisUtterance) { noSound(el); return; }
     var again = btn && btn === speakingBtn;
+    var busy = false; try { busy = tts.speaking || tts.pending; } catch (e) { /* bỏ qua */ }
     stopSpeech();
     if (again) return;
-    var u = new SpeechSynthesisUtterance(text), v = pickVoice();
+    var u = new SpeechSynthesisUtterance(text), v = pickVoice(), started = false;
     u.lang = 'en-US'; u.rate = 0.9; u.pitch = 1;
     if (v) { u.voice = v; u.lang = v.lang; }
     if (btn) { speakingBtn = btn; btn.classList.add('is-speaking'); btn.setAttribute('aria-pressed', 'true'); }
     var done = function () { if (btn && speakingBtn === btn) { btn.classList.remove('is-speaking'); btn.setAttribute('aria-pressed', 'false'); speakingBtn = null; } };
-    u.onend = done; u.onerror = done;
-    tts.speak(u);
+    u.onstart = function () { started = true; };
+    u.onend = done; u.onerror = function () { done(); if (!started) noSound(el); };
+    window.__mbUtter = u;                                   /* giữ tham chiếu: Chrome Android có thể bỏ câu đọc bị thu gom bộ nhớ */
+    var go = function () { try { tts.resume(); } catch (e) { /* bỏ qua */ } tts.speak(u); };
+    /* Chrome Android: gọi speak() ngay sau cancel() thì câu mới bị bỏ – chỉ chờ một chút khi vừa phải dừng câu cũ. */
+    if (busy) setTimeout(go, 120); else go();
+    if (el) setTimeout(function () { var on = false; try { on = tts.speaking; } catch (e) { /* bỏ qua */ } if (!started && !on && tipFor === el) noSound(el); }, 2500);
   }
   window.addEventListener('pagehide', stopSpeech);
   document.addEventListener('click', function (e) {
@@ -430,7 +452,7 @@
     var w = e.target.closest ? e.target.closest('b.mbl-en') : null;
     if (w) { speak(w.textContent, null); return; }
     var t = e.target.closest ? e.target.closest('b.mbl-term') : null;
-    if (t && level === 1) speak(t.getAttribute('data-en'), null);
+    if (t && level === 1) speak(t.getAttribute('data-en'), null, t);
   });
   document.addEventListener('keydown', function (e) {
     if (e.key !== 'Enter' && e.key !== ' ') return;
@@ -438,7 +460,7 @@
     if (!w) return;
     e.preventDefault();
     if (w.classList.contains('mbl-en')) speak(w.textContent, null);
-    else if (level === 1) speak(w.getAttribute('data-en'), null);
+    else if (level === 1) speak(w.getAttribute('data-en'), null, w);
   });
 
   $$('.mbl-quiz').forEach(updateScore);

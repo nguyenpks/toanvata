@@ -1,0 +1,37 @@
+\documentclass[border=4pt]{standalone}
+\usepackage{fontspec}
+\usepackage{amsmath}
+\usepackage{unicode-math}
+\setmainfont{Latin Modern Roman}
+\setmathfont{Latin Modern Math}
+\usepackage{pgfplots}
+\usepackage{pgfplotstable}
+\pgfplotsset{compat=1.18}
+\usepackage{tkz-euclide}
+\usetikzlibrary{arrows.meta,calc,angles,quotes,patterns,3d,backgrounds}
+\definecolor{ink}{HTML}{123428}
+\definecolor{asy}{HTML}{475569}
+\definecolor{mint}{HTML}{86e0bd}
+\tikzset{asym/.style={asy, line width=0.9pt, dash pattern=on 5pt off 3.5pt},
+         guide/.style={gray!70, line width=0.6pt, densely dotted},
+         dot/.style={circle, inner sep=0pt, minimum size=5pt, draw=white, line width=0.5pt},
+         odot/.style={circle, inner sep=0pt, minimum size=5.5pt, fill=white, line width=1pt},
+         lab/.style={font=\footnotesize, inner sep=1.5pt, text=ink}}
+\begin{document}
+\begin{tikzpicture}
+\draw[color={rgb,255:red,4;green,107;blue,77}, line width=1.3pt] (0.000,0.000) -- (4.200,0.000) -- (0.000,2.520) -- cycle;
+\fill[color={rgb,255:red,194;green,65;blue,12}, opacity=0.25] (0,0) rectangle (2.310,1.134);
+\draw[color={rgb,255:red,194;green,65;blue,12}, line width=1.1pt] (0.000,0.000) -- (2.310,0.000) -- (2.310,1.134) -- (0.000,1.134) -- cycle;
+\draw[ink, line width=0.6pt] (0.000,0.220) -- (0.220,0.220) -- (0.220,0.000);
+\fill[color={rgb,255:red,4;green,107;blue,77}] (0.000,0.000) circle (2.2pt);
+\node[font=\small, text=ink, inner sep=0.5pt] at (-0.300,-0.250) {$A$};
+\fill[color={rgb,255:red,4;green,107;blue,77}] (4.200,0.000) circle (2.2pt);
+\node[font=\small, text=ink, inner sep=0.5pt] at (4.500,-0.250) {$B$};
+\fill[color={rgb,255:red,4;green,107;blue,77}] (0.000,2.520) circle (2.2pt);
+\node[font=\small, text=ink, inner sep=0.5pt] at (-0.300,2.720) {$C$};
+\fill[color={rgb,255:red,4;green,107;blue,77}] (2.310,1.134) circle (2.2pt);
+\node[font=\small, text=ink, inner sep=0.5pt] at (2.610,1.384) {$M$};
+\node[font=\small, text=ink, inner sep=0.5pt] at (1.155,-0.300) {$x$};
+\node[font=\small, text=ink, inner sep=0.5pt] at (-0.300,0.567) {$y$};
+\end{tikzpicture}
+\end{document}
