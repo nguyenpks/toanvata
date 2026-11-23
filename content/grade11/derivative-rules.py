@@ -59,7 +59,7 @@ def lvl(P):
     a, b, c = P['quot']; k = a * c - b
     q = lambda n: "\\(y′=\\dfrac{%d}{(x%+d)^2}\\)" % (n, c)
     o1 = M4(1, 'The derivative of \\(y=\\dfrac{%s}{x%+d}\\) is…' % (P_([a, b]), c), 'Đạo hàm của hàm số \\(y=\\dfrac{%s}{x%+d}\\) là…' % (P_([a, b]), c), q(k), [q(-k), q(a * c + b), "\\(y′=\\dfrac{%d}{x%+d}\\)" % (k, c)],
-            '\\(\\dfrac{ad-bc}{(cx+d)^2}\\).', 'Tử số: \\(%d\\cdot(%d)-(%d)\\cdot1=%d\\).' % (a, c, b, k))
+            '\\(\\left(\\dfrac{ax+b}{cx+d}\\right)′=\\dfrac{ad-bc}{(cx+d)^2}\\); numerator: \\(%d\\cdot(%d)-(%d)\\cdot1=%d\\).' % (a, c, b, k), '\\(\\left(\\dfrac{ax+b}{cx+d}\\right)′=\\dfrac{ad-bc}{(cx+d)^2}\\); tử số: \\(%d\\cdot(%d)-(%d)\\cdot1=%d\\).' % (a, c, b, k))
     kind, kk = P['chain']
     if kind == 'sin': cor, wr, f = "\\(y′=%d\\cos(%dx+1)\\)" % (kk, kk), ["\\(y′=\\cos(%dx+1)\\)" % kk, "\\(y′=-%d\\cos(%dx+1)\\)" % (kk, kk), "\\(y′=%d\\sin(%dx+1)\\)" % (kk, kk)], '\\sin(%dx+1)' % kk
     elif kind == 'exp': cor, wr, f = "\\(y′=%de^{%dx-1}\\)" % (kk, kk), ["\\(y′=e^{%dx-1}\\)" % kk, "\\(y′=(%dx-1)e^{%dx-2}\\)" % (kk, kk), "\\(y′=%de^{%dx}\\)" % (kk, kk)], 'e^{%dx-1}' % kk
@@ -68,15 +68,15 @@ def lvl(P):
     bb, x0 = P['tan']; cs = [1, 0, bb, 0]; m = 3 * x0 * x0 + bb; y0 = x0 ** 3 + bb * x0; cc = y0 - m * x0
     L = lambda m_, c_: '\\(y=%s\\)' % P_([m_, c_])
     o3 = M4(3, 'The tangent to \\(y=%s\\) at the point with abscissa \\(%d\\) is…' % (P_(cs), x0), 'Tiếp tuyến của đồ thị \\(y=%s\\) tại điểm có hoành độ \\(%d\\) là…' % (P_(cs), x0), L(m, cc),
-            [L(m, y0), L(m, -cc), L(y0, cc), L(-m, cc)], '\\(y=f′(x_0)(x-x_0)+f(x_0)\\).', '\\(f′(%d)=%d\\), \\(f(%d)=%d\\).' % (x0, m, x0, y0))
+            [L(m, y0), L(m, -cc), L(y0, cc), L(-m, cc)], '\\(y=f′(x_0)(x-x_0)+f(x_0)\\) with \\(f′(%d)=%d\\), \\(f(%d)=%d\\).' % (x0, m, x0, y0), '\\(y=f′(x_0)(x-x_0)+f(x_0)\\) với \\(f′(%d)=%d\\), \\(f(%d)=%d\\).' % (x0, m, x0, y0))
     (se, sv), v4 = P['t4']
     t4 = tf(4, se, sv, v4, 'Check with the rules.', 'Đối chiếu với quy tắc tính đạo hàm.')
     (te, tv), v5 = P['t5']
     t5 = tf(5, te, tv, v5, 'Chain rule.', 'Quy tắc đạo hàm hàm hợp.')
     pa, pb, x6 = P['prod']; v6 = 2 * x6 * (x6 + pb) + (x6 * x6 + pa)
-    s6 = sh(6, '\\(f(x)=(x^2%+d)(x%+d)\\). Find \\(f′(%d)\\).' % (pa, pb, x6), 'Cho \\(f(x)=(x^2%+d)(x%+d)\\). Tính \\(f′(%d)\\).' % (pa, pb, x6), v6, '\\((uv)′=u′v+uv′\\).', '\\(f′(x)=2x(x%+d)+(x^2%+d)\\).' % (pb, pa))
+    s6 = sh(6, '\\(f(x)=(x^2%+d)(x%+d)\\). Find \\(f′(%d)\\).' % (pa, pb, x6), 'Cho \\(f(x)=(x^2%+d)(x%+d)\\). Tính \\(f′(%d)\\).' % (pa, pb, x6), v6, '\\((uv)′=u′v+uv′\\): \\(f′(x)=2x(x%+d)+(x^2%+d)\\), \\(f′(%d)=%d\\).' % (pb, pa, x6, v6), '\\((uv)′=u′v+uv′\\): \\(f′(x)=2x(x%+d)+(x^2%+d)\\), \\(f′(%d)=%d\\).' % (pb, pa, x6, v6))
     n7, x7 = P['pow']; v7 = 2 * n7 * (2 * x7 - 1) ** (n7 - 1)
-    s7 = sh(7, '\\(f(x)=(2x-1)^{%d}\\). Find \\(f′(%d)\\).' % (n7, x7), 'Cho \\(f(x)=(2x-1)^{%d}\\). Tính \\(f′(%d)\\).' % (n7, x7), v7, '\\((u^n)′=nu^{n-1}u′\\).', '\\(f′(x)=%d\\cdot2(2x-1)^{%d}\\).' % (n7, n7 - 1))
+    s7 = sh(7, '\\(f(x)=(2x-1)^{%d}\\). Find \\(f′(%d)\\).' % (n7, x7), 'Cho \\(f(x)=(2x-1)^{%d}\\). Tính \\(f′(%d)\\).' % (n7, x7), v7, '\\((u^n)′=nu^{n-1}u′\\): \\(f′(x)=%d\\cdot2(2x-1)^{%d}\\), \\(f′(%d)=%d\\).' % (n7, n7 - 1, x7, v7), '\\((u^n)′=nu^{n-1}u′\\): \\(f′(x)=%d\\cdot2(2x-1)^{%d}\\), \\(f′(%d)=%d\\).' % (n7, n7 - 1, x7, v7))
     return [[o1, o2, o3], [t4, t5], [s6, s7]]
 
 

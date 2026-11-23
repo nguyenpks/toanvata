@@ -15,7 +15,7 @@ vocab = defs(CV, [
  ('without', 'without replacement', 'không hoàn lại', 'a drawn object is not put back, so the second draw depends on the first.', 'vật đã lấy không được trả lại, nên lần lấy sau phụ thuộc lần lấy trước.', 'Two balls are drawn without replacement.', '')])
 goals = [('understand what "the probability of \\(A\\) given \\(B\\)" means;', 'hiểu ý nghĩa của [[xác suất có điều kiện]] "\\(A\\) khi biết \\(B\\)";'),
          ('compute \\(P(A\\mid B)\\) by the formula or by counting in the reduced sample space;', 'tính \\(P(A\\mid B)\\) bằng công thức hoặc bằng cách đếm trên không gian mẫu thu hẹp;'),
-         ('use the multiplication rule for successive draws and recognise independent events;', 'dùng [[công thức nhân xác suất]] cho các lần lấy liên tiếp và nhận biết [[hai biến cố độc lập]];'),
+         ('use the multiplication rule for successive draws and recognize independent events;', 'dùng [[công thức nhân xác suất]] cho các lần lấy liên tiếp và nhận biết [[hai biến cố độc lập]];'),
          ('interpret conditional probabilities in surveys and medical tests.', 'giải thích xác suất có điều kiện trong khảo sát và xét nghiệm y tế.')]
 phrases = [('<b>The probability of \\(A\\) given \\(B\\).</b>', 'Xác suất của \\(A\\) với điều kiện \\(B\\).'), ('<b>We know that \\(B\\) has happened.</b>', 'Ta biết \\(B\\) đã xảy ra.'), ('<b>The sample space shrinks to \\(B\\).</b>', 'Không gian mẫu thu hẹp thành \\(B\\).'),
            ('<b>The balls are drawn without replacement.</b>', 'Các viên bi được lấy không hoàn lại.'), ('<b>The two events are independent.</b>', 'Hai biến cố độc lập.')]
@@ -66,7 +66,7 @@ def lvl(P):
     t4 = tf(4, e4[0], e4[1], v4_, e4[2], e4[3]); t5 = tf(5, e5[0], e5[1], v5_, e5[2], e5[3])
     pa6, pb6 = P['and']; s6v = pa6 * pb6
     s6 = sh(6, '\\(P(B)=%s\\), \\(P(A\\mid B)=%s\\). Find \\(P(A\\cap B)\\) (decimal).' % (S.PE(pb6), S.PE(pa6)), 'Cho \\(P(B)=%s\\), \\(P(A\\mid B)=%s\\). Tính \\(P(A\\cap B)\\) (viết dạng thập phân).' % (PV(pb6), PV(pa6)), S.PE(s6v),
-            '\\(%s\\cdot%s=%s\\).' % (S.PE(pb6), S.PE(pa6), S.PE(s6v)), '\\(P(A\\cap B)=P(B)P(A\\mid B)=%s\\).' % PV(s6v))
+            '\\(P(A\\cap B)=P(B)P(A\\mid B)=%s\\cdot%s=%s\\).' % (S.PE(pb6), S.PE(pa6), S.PE(s6v)), '\\(P(A\\cap B)=P(B)P(A\\mid B)=%s\\cdot%s=%s\\).' % (PV(pb6), PV(pa6), PV(s6v)))
     tot, pos, tp = P['med']; v7 = F(tp, pos); assert v7.denominator in (2, 4, 5, 10, 20, 25, 50, 100)
     s7 = sh(7, 'In a survey of %d people, %d tested positive, of whom %d were actually sick. Find \\(P(\\text{sick}\\mid+)\\) (decimal).' % (tot, pos, tp), 'Khảo sát %d người: %d người dương tính, trong đó %d người thật sự mắc bệnh. Tính \\(P(\\text{bệnh}\\mid+)\\) (viết dạng thập phân).' % (tot, pos, tp), S.PE(v7),
             '\\(\\frac{%d}{%d}=%s\\).' % (tp, pos, S.PE(v7)), '\\(\\frac{%d}{%d}=%s\\).' % (tp, pos, PV(v7)))

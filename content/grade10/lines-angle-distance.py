@@ -12,7 +12,7 @@ vocab = defs(CV, [
  ('relpos', 'relative position of two lines', 'vị trí tương đối của hai đường thẳng', 'intersecting, parallel or coincident.', 'cắt nhau, song song hoặc trùng nhau.', 'Find the relative position of the two lines.', ''),
  ('angl2', 'angle between two lines', 'góc giữa hai đường thẳng', 'the smallest angle formed by the two lines, between \\(0^\\circ\\) and \\(90^\\circ\\).', 'góc nhỏ nhất tạo bởi hai đường thẳng, có số đo từ \\(0^\\circ\\) đến \\(90^\\circ\\).', 'The angle between the lines is 45°.', '\\(\\varphi\\)'),
  ('dptl', 'distance from a point to a line', 'khoảng cách từ một điểm đến một đường thẳng', 'the length of the perpendicular segment from the point to the line.', 'độ dài đoạn vuông góc kẻ từ điểm đến đường thẳng.', 'The distance from M to the line is 2.', '\\(d(M,\\Delta)\\)')])
-goals = [('recognise when two lines intersect, are parallel, coincide or are perpendicular;', 'nhận biết điều kiện để hai đường thẳng cắt nhau, song song, trùng nhau, vuông góc;'),
+goals = [('recognize when two lines intersect, are parallel, coincide or are perpendicular;', 'nhận biết điều kiện để hai đường thẳng cắt nhau, song song, trùng nhau, vuông góc;'),
          ('find the [[angle between two lines|angl2]] from normal (or direction) vectors;', 'tính [[góc giữa hai đường thẳng]] từ vectơ pháp tuyến (hoặc vectơ chỉ phương);'),
          ('compute the [[distance from a point to a line|dptl]] and between two parallel lines;', 'tính [[khoảng cách từ một điểm đến một đường thẳng]] và giữa hai đường thẳng song song;'),
          ('solve problems on areas, heights and shortest routes.', 'giải bài toán về diện tích, đường cao, đường đi ngắn nhất.')]
@@ -76,6 +76,9 @@ examples += EXAMPLE(5, ('Advanced', 'Nâng cao'), ('The nearest point of a railw
   T('About 4.02 km, meeting the railway at \\(H(2{,}2;\\,2{,}4)\\).', 'Khoảng 4,02 km, gặp đường ray tại \\(H(2{,}2;\\,2{,}4)\\).'))
 
 
+def _s(x): return '(%d)' % x if x < 0 else '%d' % x
+
+
 def lvl(P):
     (a, b, c), k, kind = P['pos']; a2, b2, c2 = (k * a, k * b, k * c + 3) if kind == 0 else (-b, a, 2)
     names = [('parallel', 'song song'), ('perpendicular', 'vuông góc'), ('coincident', 'trùng nhau'), ('intersecting, not perpendicular', 'cắt nhau nhưng không vuông góc')]
@@ -84,11 +87,11 @@ def lvl(P):
             [TI(*names[j]) for j in range(4) if j != right], 'Compare \\(\\vec n_1=%s\\), \\(\\vec n_2=%s\\).' % (V2((a, b)), V2((a2, b2))), 'So sánh \\(\\vec n_1=%s\\) và \\(\\vec n_2=%s\\).' % (V2((a, b)), V2((a2, b2))))
     (p, q, cc), M = P['dist']; N = abs(p * M[0] + q * M[1] + cc); s = p * p + q * q
     o2 = M4(2, 'The distance from \\(M%s\\) to \\(%s\\) is…' % (V2(M), leq(p, q, cc)), 'Khoảng cách từ \\(M%s\\) đến đường thẳng \\(%s\\) là…' % (V2(M), leq(p, q, cc)), '\\(%s\\)' % surd(N, s),
-            ['\\(%s\\)' % str(N), '\\(%s\\)' % surd(N, s * s), '\\(%s\\)' % surd(abs(p * M[0] + q * M[1] - cc), s)], '\\(d=\\dfrac{|ax_0+by_0+c|}{\\sqrt{a^2+b^2}}\\).', '\\(d=\\dfrac{|%d\\cdot(%d)%+d\\cdot(%d)%+d|}{\\sqrt{%d}}=%s\\).' % (p, M[0], q, M[1], cc, s, surd(N, s)))
+            ['\\(%s\\)' % str(N), '\\(%s\\)' % surd(N, s * s), '\\(%s\\)' % surd(abs(p * M[0] + q * M[1] - cc), s)], '\\(d=\\dfrac{|ax_0+by_0+c|}{\\sqrt{a^2+b^2}}=\\dfrac{|%d\\cdot%s%+d\\cdot%s%+d|}{\\sqrt{%d}}=%s\\).' % (p, _s(M[0]), q, _s(M[1]), cc, s, surd(N, s)), '\\(d=\\dfrac{|ax_0+by_0+c|}{\\sqrt{a^2+b^2}}=\\dfrac{|%d\\cdot%s%+d\\cdot%s%+d|}{\\sqrt{%d}}=%s\\).' % (p, _s(M[0]), q, _s(M[1]), cc, s, surd(N, s)))
     n1, n2 = P['ang']; pp = abs(n1[0] * n2[0] + n1[1] * n2[1]); ss = (n1[0] ** 2 + n1[1] ** 2) * (n2[0] ** 2 + n2[1] ** 2); cos = pp / math.sqrt(ss)
     deg = round(math.degrees(math.acos(cos))); assert abs(math.degrees(math.acos(cos)) - deg) < 1e-6 and deg in (45, 90, 60, 30)
     o3 = M4(3, 'The angle between \\(%s\\) and \\(%s\\) is…' % (leq(*n1, 1), leq(*n2, -2)), 'Góc giữa hai đường thẳng \\(%s\\) và \\(%s\\) bằng…' % (leq(*n1, 1), leq(*n2, -2)), '\\(%d^\\circ\\)' % deg,
-            ['\\(%d^\\circ\\)' % x for x in (30, 60, 90, 135, 45) if x != deg], '\\(\\cos\\varphi=\\dfrac{%d}{\\sqrt{%d}}\\).' % (pp, ss), '\\(\\cos\\varphi=\\dfrac{|\\vec n_1\\cdot\\vec n_2|}{|\\vec n_1||\\vec n_2|}=\\dfrac{%d}{\\sqrt{%d}}\\).' % (pp, ss))
+            ['\\(%d^\\circ\\)' % x for x in (30, 60, 90, 135, 45) if x != deg], '\\(\\cos\\varphi=\\dfrac{|\\vec n_1\\cdot\\vec n_2|}{|\\vec n_1||\\vec n_2|}=\\dfrac{%d}{\\sqrt{%d}}\\), so \\(\\varphi=%d^\\circ\\).' % (pp, ss, deg), '\\(\\cos\\varphi=\\dfrac{|\\vec n_1\\cdot\\vec n_2|}{|\\vec n_1||\\vec n_2|}=\\dfrac{%d}{\\sqrt{%d}}\\) nên \\(\\varphi=%d^\\circ\\).' % (pp, ss, deg))
     (u, v, w), (u2, v2) = P['perp']; tv = u * u2 + v * v2 == 0
     t4 = tf(4, 'The lines \\(%s\\) and \\(%s\\) are perpendicular.' % (leq(u, v, w), leq(u2, v2, 3)), 'Hai đường thẳng \\(%s\\) và \\(%s\\) vuông góc với nhau.' % (leq(u, v, w), leq(u2, v2, 3)), tv,
             '\\(a_1a_2+b_1b_2=%d\\).' % (u * u2 + v * v2), '\\(a_1a_2+b_1b_2=%d\\).' % (u * u2 + v * v2))
@@ -97,10 +100,10 @@ def lvl(P):
             '\\(d=\\dfrac{%d}{%d}=%s\\).' % (N5, math.isqrt(e * e + f * f), fr(real)), '\\(d=\\dfrac{%d}{%d}=%s\\).' % (N5, math.isqrt(e * e + f * f), fr(real)))
     (h, i), c1, c2 = P['par']; dd = F(abs(c1 - c2), math.isqrt(h * h + i * i)); assert dd.denominator == 1
     s6 = sh(6, 'Find the distance between the parallel lines \\(%s\\) and \\(%s\\).' % (leq(h, i, c1), leq(h, i, c2)), 'Tính khoảng cách giữa hai đường thẳng song song \\(%s\\) và \\(%s\\).' % (leq(h, i, c1), leq(h, i, c2)), int(dd),
-            '\\(\\dfrac{|c_1-c_2|}{\\sqrt{a^2+b^2}}=\\dfrac{%d}{%d}\\).' % (abs(c1 - c2), math.isqrt(h * h + i * i)), '\\(\\dfrac{|c_1-c_2|}{\\sqrt{a^2+b^2}}=\\dfrac{%d}{%d}=%d\\).' % (abs(c1 - c2), math.isqrt(h * h + i * i), int(dd)))
+            '\\(\\dfrac{|c_1-c_2|}{\\sqrt{a^2+b^2}}=\\dfrac{%d}{%d}=%d\\).' % (abs(c1 - c2), math.isqrt(h * h + i * i), int(dd)), '\\(\\dfrac{|c_1-c_2|}{\\sqrt{a^2+b^2}}=\\dfrac{%d}{%d}=%d\\).' % (abs(c1 - c2), math.isqrt(h * h + i * i), int(dd)))
     (j, kk, l), Hh = P['pipe']; N7 = abs(j * Hh[0] + kk * Hh[1] + l); d7 = F(N7, math.isqrt(j * j + kk * kk)) * 100; assert d7.denominator == 1
-    s7 = sh(7, 'On a map (unit 100 m) a house is at \\(H%s\\) and a water main runs along \\(%s\\). Find the length in metres of the shortest pipe from the house to the main.' % (V2(Hh), leq(j, kk, l)), 'Trên bản đồ (đơn vị 100 m), một ngôi nhà ở \\(H%s\\), đường ống chính chạy theo đường thẳng \\(%s\\). Tính chiều dài (mét) đoạn ống ngắn nhất nối nhà với đường ống chính.' % (V2(Hh), leq(j, kk, l)), int(d7),
-            '\\(d=\\dfrac{%d}{%d}\\) units.' % (N7, math.isqrt(j * j + kk * kk)), '\\(d=\\dfrac{%d}{%d}\\) đơn vị \\(=%d\\) m.' % (N7, math.isqrt(j * j + kk * kk), int(d7)))
+    s7 = sh(7, 'On a map (unit 100 m) a house is at \\(H%s\\) and a water main runs along \\(%s\\). Find the length in meters of the shortest pipe from the house to the main.' % (V2(Hh), leq(j, kk, l)), 'Trên bản đồ (đơn vị 100 m), một ngôi nhà ở \\(H%s\\), đường ống chính chạy theo đường thẳng \\(%s\\). Tính chiều dài (mét) đoạn ống ngắn nhất nối nhà với đường ống chính.' % (V2(Hh), leq(j, kk, l)), int(d7),
+            '\\(d=\\dfrac{%d}{%d}\\) units \\(=%d\\) m.' % (N7, math.isqrt(j * j + kk * kk), int(d7)), '\\(d=\\dfrac{%d}{%d}\\) đơn vị \\(=%d\\) m.' % (N7, math.isqrt(j * j + kk * kk), int(d7)))
     return [[o1, o2, o3], [t4, t5], [s6, s7]]
 
 

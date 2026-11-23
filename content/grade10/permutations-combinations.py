@@ -12,7 +12,7 @@ vocab = defs(CV, [
  ('arrang', 'arrangement (k-permutation)', 'chỉnh hợp', 'an ordered choice of \\(k\\) of \\(n\\) elements; \\(A_n^k=\\dfrac{n!}{(n-k)!}\\).', 'cách chọn \\(k\\) trong \\(n\\) phần tử có sắp thứ tự; \\(A_n^k=\\dfrac{n!}{(n-k)!}\\).', 'The podium is an arrangement of 3 of 8 runners.', '\\(A_n^k\\)'),
  ('combin', 'combination', 'tổ hợp', 'an unordered choice of \\(k\\) of \\(n\\) elements; \\(C_n^k=\\dfrac{n!}{k!(n-k)!}\\).', 'cách chọn \\(k\\) trong \\(n\\) phần tử không kể thứ tự; \\(C_n^k=\\dfrac{n!}{k!(n-k)!}\\).', 'A team of 3 is a combination.', '\\(C_n^k\\)'),
  ('factorial', 'factorial', 'giai thừa', '\\(n!=1\\cdot2\\cdots n\\), \\(0!=1\\).', '\\(n!=1\\cdot2\\cdots n\\), quy ước \\(0!=1\\).', '5! = 120.', '\\(n!\\)')])
-goals = [('recognise permutations, arrangements and combinations and their formulas;', 'nhận biết [[hoán vị]], [[chỉnh hợp]], [[tổ hợp]] và công thức tính;'),
+goals = [('recognize permutations, arrangements and combinations and their formulas;', 'nhận biết [[hoán vị]], [[chỉnh hợp]], [[tổ hợp]] và công thức tính;'),
          ('decide whether order matters and choose the right formula;', 'xác định có quan tâm thứ tự hay không để chọn công thức phù hợp;'),
          ('count arrangements, selections and seatings with conditions;', 'đếm số cách sắp xếp, lựa chọn, xếp chỗ có điều kiện;'),
          ('solve real problems (teams, lotteries, tournaments).', 'giải bài toán thực tế (lập đội, xổ số, giải đấu).')]
@@ -65,15 +65,16 @@ def lvl(P):
     n5, claim = P['diag']; real = C(n5, 2) - n5
     t5 = tf(5, 'A convex polygon with %d sides has %d diagonals.' % (n5, claim), 'Đa giác lồi %d cạnh có %d đường chéo.' % (n5, claim), real == claim, '\\(C_{%d}^2-%d=%d\\).' % (n5, n5, real), '\\(C_{%d}^2-%d=%d\\).' % (n5, n5, real))
     m, f, a, b = P['team']; real6 = C(m, a) * C(f, b)
-    s6 = sh(6, 'A class has %d boys and %d girls. How many ways to choose %d boys and %d girls?' % (m, f, a, b), 'Một lớp có %d nam, %d nữ. Có bao nhiêu cách chọn %d nam và %d nữ?' % (m, f, a, b), real6,
-            '\\(C_{%d}^{%d}\\cdot C_{%d}^{%d}\\).' % (m, a, f, b), '\\(C_{%d}^{%d}\\cdot C_{%d}^{%d}=%d\\).' % (m, a, f, b, real6))
+    s6 = sh(6, 'A class has %d boys and %d girls. How many ways to choose %s and %s?' % (m, f, '1 boy' if a == 1 else '%d boys' % a, '1 girl' if b == 1 else '%d girls' % b), 'Một lớp có %d nam, %d nữ. Có bao nhiêu cách chọn %d nam và %d nữ?' % (m, f, a, b), real6,
+            'Choose the boys, then the girls (rule of product): \\(C_{%d}^{%d}\\cdot C_{%d}^{%d}=%d\\).' % (m, a, f, b, real6), 'Chọn nam rồi chọn nữ (quy tắc nhân): \\(C_{%d}^{%d}\\cdot C_{%d}^{%d}=%d\\).' % (m, a, f, b, real6))
     (te, tv), n7, k7 = P['real']; real7 = C(n7, k7)
-    s7 = sh(7, te, tv, real7, '\\(C_{%d}^{%d}\\).' % (n7, k7), 'Không kể thứ tự: \\(C_{%d}^{%d}=%d\\).' % (n7, k7, real7))
+    assert len(str(real7)) <= 4
+    s7 = sh(7, te, tv, real7, 'Order does not matter: \\(C_{%d}^{%d}=%d\\).' % (n7, k7, real7), 'Không kể thứ tự: \\(C_{%d}^{%d}=%d\\).' % (n7, k7, real7))
     return [[o1, o2, o3], [t4, t5], [s6, s7]]
 
 
 assert C(10, 3) == C(10, 7) and A(8, 2) != C(8, 2) and A(7, 3) == 6 * C(7, 3)
-PP = [dict(perm=6, arr=(10, 3), comb=(12, 4), id=(('\\(C_{10}^3=C_{10}^7\\).', '\\(C_{10}^3=C_{10}^7\\).'), True), diag=(6, 9), team=(8, 6, 2, 1), real=(('A lottery ticket picks 5 numbers from 1 to 35 (order not important). How many tickets are there?', 'Mỗi vé xổ số chọn 5 số từ 1 đến 35 (không kể thứ tự). Có bao nhiêu vé khác nhau?'), 35, 5)),
+PP = [dict(perm=6, arr=(10, 3), comb=(12, 4), id=(('\\(C_{10}^3=C_{10}^7\\).', '\\(C_{10}^3=C_{10}^7\\).'), True), diag=(6, 9), team=(8, 6, 2, 1), real=(('A lottery ticket picks 3 numbers from 1 to 20 (order not important). How many tickets are there?', 'Mỗi vé xổ số chọn 3 số từ 1 đến 20 (không kể thứ tự). Có bao nhiêu vé khác nhau?'), 20, 3)),
       dict(perm=7, arr=(12, 2), comb=(15, 3), id=(('\\(A_8^2=C_8^2\\).', '\\(A_8^2=C_8^2\\).'), False), diag=(8, 24), team=(10, 7, 1, 2), real=(('A league has 20 teams; every two teams play exactly one match. How many matches?', 'Một giải đấu có 20 đội, mỗi hai đội gặp nhau đúng một trận. Có bao nhiêu trận?'), 20, 2)),
       dict(perm=5, arr=(9, 4), comb=(14, 5), id=(('\\(A_7^3=3!\\cdot C_7^3\\).', '\\(A_7^3=3!\\cdot C_7^3\\).'), True), diag=(10, 35), team=(9, 8, 2, 2), real=(('A test takes 3 questions from a bank of 30 (order not important). How many different tests?', 'Một đề kiểm tra lấy 3 câu từ ngân hàng 30 câu (không kể thứ tự). Có bao nhiêu đề khác nhau?'), 30, 3))]
 practice = three(lvl, PP)

@@ -80,7 +80,7 @@ def o5_speed(r, lv, ctx):
     good = v(p); assert all(v(t) <= good for t in range(0, T + 1))
     qe = V(lv, ['A self-driving test car moves on a straight track; its distance from the start is \\(s(t)=-t^3+%dt^2+%dt\\) (m), \\(0\\le t\\le %d\\) (s). Its largest velocity (m/s) is…',
                 'The position of a toy train is \\(s(t)=-t^3+%dt^2+%dt\\) (m) for \\(t\\in[0;\\,%d]\\) (s). Find the maximum velocity (m/s).',
-                'In the first \\(%d\\) seconds a robot covers \\(s(t)=-t^3+%dt^2+%dt\\) metres along a line. What is its highest speed (m/s)?'.replace('metres', 'meters')])
+                'In the first \\(%d\\) seconds a robot covers \\(s(t)=-t^3+%dt^2+%dt\\) meters along a line. What is its highest speed (m/s)?'.replace('meters', 'meters')])
     qv = V(lv, ['Một xe tự lái chạy thử trên đường thẳng, quãng đường đi được là \\(s(t)=-t^3+%dt^2+%dt\\) (m), \\(0\\le t\\le %d\\) (s). Vận tốc lớn nhất của xe (m/s) là…',
                 'Vị trí của một tàu đồ chơi là \\(s(t)=-t^3+%dt^2+%dt\\) (m) với \\(t\\in[0;\\,%d]\\) (s). Tìm vận tốc lớn nhất (m/s).',
                 'Trong \\(%d\\) giây đầu, một robot đi được \\(s(t)=-t^3+%dt^2+%dt\\) mét trên một đường thẳng. Vận tốc lớn nhất của robot (m/s) là bao nhiêu?'])

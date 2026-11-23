@@ -16,7 +16,7 @@ vocab = defs(CV, [
 goals = [('list the outcomes of an experiment with tables and tree diagrams;', 'liệt kê kết quả của phép thử bằng bảng, sơ đồ hình cây;'),
          ('compute probabilities by listing and by combinations;', 'tính xác suất bằng phương pháp liệt kê và bằng tổ hợp;'),
          ('run or read a simulation and compare the [[tần suất thực nghiệm]] with the probability;', 'thực hiện hoặc đọc kết quả [[mô phỏng]], so sánh [[tần suất thực nghiệm]] với xác suất;'),
-         ('analyse simple games of chance.', 'phân tích các trò chơi may rủi đơn giản.')]
+         ('analyze simple games of chance.', 'phân tích các trò chơi may rủi đơn giản.')]
 goals[2] = ('run or read a simulation and compare the experimental frequency with the probability;', goals[2][1])
 phrases = [('<b>Draw a tree with three levels.</b>', 'Vẽ sơ đồ cây ba tầng.'), ('<b>Each branch is equally likely.</b>', 'Mỗi nhánh đồng khả năng.'),
            ('<b>The experimental frequency gets closer to the probability.</b>', 'Tần suất thực nghiệm tiến gần đến xác suất.'), ('<b>We repeated the experiment six hundred times.</b>', 'Chúng ta lặp lại phép thử 600 lần.'), ('<b>The game is not fair.</b>', 'Trò chơi không công bằng.')]
@@ -68,21 +68,21 @@ examples = EXFIG(examples, 1, mb_pgf.img(tree, 'Tree of three coin tosses', 400)
 def lvl(P):
     m = P['max']; k1 = sum(max(a, b) == m for a, b in D2)
     o1 = M4(1, 'Two dice are rolled. P(the larger number is %d) =…' % m, 'Gieo hai con xúc xắc. Xác suất số chấm lớn nhất bằng %d là…' % m, '\\(%s\\)' % fr(F(k1, 36)),
-            ['\\(%s\\)' % fr(F(1, 6)), '\\(%s\\)' % fr(F(m, 36)), '\\(%s\\)' % fr(F(2 * m, 36))], '%d outcomes.' % k1, 'Có \\(2\\cdot%d-1=%d\\) kết quả thuận lợi.' % (m, k1))
+            ['\\(%s\\)' % fr(F(1, 6)), '\\(%s\\)' % fr(F(m, 36)), '\\(%s\\)' % fr(F(2 * m, 36))], 'There are \\(2\\cdot%d-1=%d\\) favorable outcomes, so \\(P=%s\\).' % (m, k1, fr(F(k1, 36))), 'Có \\(2\\cdot%d-1=%d\\) kết quả thuận lợi, nên \\(P=%s\\).' % (m, k1, fr(F(k1, 36))))
     d = P['diff']; k2 = sum(abs(a - b) == d for a, b in D2)
     o2 = M4(2, 'Two dice are rolled. P(the difference is %d) =…' % d, 'Gieo hai con xúc xắc. Xác suất hiệu số chấm (lớn trừ nhỏ) bằng %d là…' % d, '\\(%s\\)' % fr(F(k2, 36)),
-            ['\\(%s\\)' % fr(F(6 - d, 36)), '\\(%s\\)' % fr(F(1, 6)) if F(k2, 36) != F(1, 6) else '\\(%s\\)' % fr(F(1, 9)), '\\(%s\\)' % fr(F(k2 + 2, 36))], '%d outcomes.' % k2, 'Có %d cặp thỏa mãn.' % k2)
+            ['\\(%s\\)' % fr(F(6 - d, 36)), '\\(%s\\)' % fr(F(1, 6)) if F(k2, 36) != F(1, 6) else '\\(%s\\)' % fr(F(1, 9)), '\\(%s\\)' % fr(F(k2 + 2, 36))], 'There are %d suitable pairs, so \\(P=%s\\).' % (k2, fr(F(k2, 36))), 'Có %d cặp thỏa mãn, nên \\(P=%s\\).' % (k2, fr(F(k2, 36))))
     n = P['adj']
     o3 = M4(3, '%d students including An and Bình line up at random. P(An and Bình are adjacent) =…' % n, '%d học sinh, trong đó có An và Bình, xếp hàng ngẫu nhiên. Xác suất An và Bình đứng cạnh nhau là…' % n, '\\(%s\\)' % fr(F(2, n)),
-            ['\\(%s\\)' % fr(F(1, n)), '\\(%s\\)' % fr(F(2, n - 1)), '\\(%s\\)' % fr(F(1, n - 1))], '\\(\\dfrac{2(n-1)!}{n!}\\).', '\\(\\dfrac{2\\cdot(%d-1)!}{%d!}=%s\\).' % (n, n, fr(F(2, n))))
+            ['\\(%s\\)' % fr(F(1, n)), '\\(%s\\)' % fr(F(2, n - 1)), '\\(%s\\)' % fr(F(1, n - 1))], '\\(\\dfrac{2\\cdot(%d-1)!}{%d!}=%s\\).' % (n, n, fr(F(2, n))), '\\(\\dfrac{2\\cdot(%d-1)!}{%d!}=%s\\).' % (n, n, fr(F(2, n))))
     (se, sv), v4 = P['kids']
-    t4 = tf(4, se, sv, v4, 'Use the 8-branch tree.', 'Dùng sơ đồ cây 8 nhánh.')
+    t4 = tf(4, se, sv, v4, *P['xk'])
     (te, tv), v5 = P['sim']
-    t5 = tf(5, te, tv, v5, 'Frequency estimates probability.', 'Tần suất chỉ ước lượng xác suất, dao động quanh xác suất khi số lần thử lớn.')
+    t5 = tf(5, te, tv, v5, 'The frequency only estimates the probability; it varies around the probability when the number of trials is large.', 'Tần suất chỉ ước lượng xác suất, dao động quanh xác suất khi số lần thử lớn.')
     (fe, fv), k6 = P['fav']
-    s6 = sh(6, fe, fv, k6, 'Count in the table.', 'Đếm trong bảng 36 ô.')
+    s6 = sh(6, fe, fv, k6, *P['xf'])
     (ee, ev), k7 = P['exp']
-    s7 = sh(7, ee, ev, k7, 'Expected count \\(\\approx N\\cdot P\\).', 'Số lần dự kiến \\(\\approx N\\cdot P\\).')
+    s7 = sh(7, ee, ev, k7, *P['xe'])
     return [[o1, o2, o3], [t4, t5], [s6, s7]]
 
 
@@ -99,6 +99,17 @@ PP = [dict(max=4, diff=2, adj=5, kids=(('Family with 3 children: P(all girls) = 
            sim=(('After 5 tails in a row, the next toss is more likely to be a head.', 'Sau 5 lần ngửa liên tiếp, lần gieo tiếp theo dễ ra mặt sấp hơn.'), False),
            fav=(('Two dice are rolled. How many outcomes have numbers differing by 1?', 'Gieo hai con xúc xắc. Có bao nhiêu kết quả mà hai số chấm hơn kém nhau 1?'), 10),
            exp=(('Two dice are rolled 360 times. About how many times do we expect a sum of 7?', 'Gieo hai con xúc xắc 360 lần. Dự kiến có khoảng bao nhiêu lần tổng bằng 7?'), 60))]
+# Sửa lỗi trình bày 23/11/2026: lời giải đi đến đáp số, hai ngôn ngữ tương đương.
+XP = [dict(xk=('The tree has 8 equally likely branches; only GGG gives all girls: \\(P=\\dfrac18\\).', 'Sơ đồ cây có 8 nhánh đồng khả năng; chỉ GGG là cả ba con gái: \\(P=\\dfrac18\\).'),
+           xf=('Count in the 36-cell table: \\((3,6),(4,5),(5,4),(6,3)\\) – 4 outcomes.', 'Đếm trong bảng 36 ô: \\((3,6),(4,5),(5,4),(6,3)\\) – 4 kết quả.'),
+           xe=('Expected count \\(\\approx N\\cdot P=600\\cdot\\dfrac16=100\\).', 'Số lần dự kiến \\(\\approx N\\cdot P=600\\cdot\\dfrac16=100\\).')),
+      dict(xk=('The tree has 8 equally likely branches; exactly one boy: BGG, GBG, GGB, so \\(P=\\dfrac38\\ne\\dfrac13\\).', 'Sơ đồ cây có 8 nhánh đồng khả năng; đúng một con trai: TGG, GTG, GGT nên \\(P=\\dfrac38\\ne\\dfrac13\\).'),
+           xf=('Count in the 36-cell table: \\((2,6),(6,2),(3,4),(4,3)\\) – 4 outcomes.', 'Đếm trong bảng 36 ô: \\((2,6),(6,2),(3,4),(4,3)\\) – 4 kết quả.'),
+           xe=('Expected count \\(\\approx N\\cdot P=300\\cdot\\dfrac14=75\\).', 'Số lần dự kiến \\(\\approx N\\cdot P=300\\cdot\\dfrac14=75\\).')),
+      dict(xk=('Complement "all girls": \\(P=1-\\dfrac18=\\dfrac78\\).', 'Biến cố đối "cả ba con gái": \\(P=1-\\dfrac18=\\dfrac78\\).'),
+           xf=('Count in the 36-cell table: the pairs \\((1,2),(2,3),(3,4),(4,5),(5,6)\\) and their reverses – 10 outcomes.', 'Đếm trong bảng 36 ô: các cặp \\((1,2),(2,3),(3,4),(4,5),(5,6)\\) và các cặp đảo ngược – 10 kết quả.'),
+           xe=('Expected count \\(\\approx N\\cdot P=360\\cdot\\dfrac{6}{36}=60\\).', 'Số lần dự kiến \\(\\approx N\\cdot P=360\\cdot\\dfrac{6}{36}=60\\).'))]
+for _p, _x in zip(PP, XP): _p.update(_x)
 practice = three(lvl, PP)
 practice = with_self(practice, S.M27S10, start=8)
 mistakes = [('<b>Forgetting the order in a tree.</b> \\(SSN\\), \\(SNS\\), \\(NSS\\) are three different outcomes.', '<b>Bỏ qua thứ tự trong sơ đồ cây.</b> \\(SSN\\), \\(SNS\\), \\(NSS\\) là ba kết quả khác nhau.'),

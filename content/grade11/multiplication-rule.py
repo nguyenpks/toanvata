@@ -75,23 +75,23 @@ examples = EXFIG(examples, 2, mb_pgf.img(tree, 'Tree diagram for two shooters', 
 def lvl(P):
     p, q = P['pq']
     o1 = M4(1, 'Two independent shooters hit with probabilities %s and %s. P(exactly one hits) =…' % (dd(p), dd(q)), 'Hai xạ thủ bắn độc lập với xác suất trúng %s và %s. Xác suất có đúng một người bắn trúng là…' % (dd(p), dd(q)), '\\(%s\\)' % dd(p * (1 - q) + q * (1 - p)),
-            ['\\(%s\\)' % dd(p * q), '\\(%s\\)' % dd(1 - (1 - p) * (1 - q)), '\\(%s\\)' % dd((1 - p) * (1 - q)), '\\(%s\\)' % dd(p * (1 - q))], 'Two exclusive branches.', '\\(%s\\cdot%s+%s\\cdot%s\\).' % (dd(p), dd(1 - q), dd(1 - p), dd(q)))
+            ['\\(%s\\)' % dd(p * q), '\\(%s\\)' % dd(1 - (1 - p) * (1 - q)), '\\(%s\\)' % dd((1 - p) * (1 - q)), '\\(%s\\)' % dd(p * (1 - q))], 'Two mutually exclusive branches: \\(%s\\cdot%s+%s\\cdot%s=%s\\).' % (dd(p), dd(1 - q), dd(1 - p), dd(q), dd(p * (1 - q) + (1 - p) * q)), 'Hai nhánh xung khắc: \\(%s\\cdot%s+%s\\cdot%s=%s\\).' % (dd(p), dd(1 - q), dd(1 - p), dd(q), dd(p * (1 - q) + (1 - p) * q)))
     a, b, c = P['ser']
     o2 = M4(2, 'A device has 3 independent parts in series with reliabilities %s, %s, %s. P(device works) =…' % (dd(a), dd(b), dd(c)), 'Một thiết bị gồm 3 bộ phận mắc nối tiếp, hoạt động độc lập với độ tin cậy %s, %s, %s. Xác suất thiết bị hoạt động là…' % (dd(a), dd(b), dd(c)), '\\(%s\\)' % dd(a * b * c),
-            ['\\(%s\\)' % dd(1 - (1 - a) * (1 - b) * (1 - c)), '\\(%s\\)' % dd(min(a, b, c)), '\\(%s\\)' % dd(a * b), '\\(%s\\)' % dd((a + b + c) / 3)], 'Series: multiply.', 'Nối tiếp: \\(%s\\cdot%s\\cdot%s\\).' % (dd(a), dd(b), dd(c)))
+            ['\\(%s\\)' % dd(1 - (1 - a) * (1 - b) * (1 - c)), '\\(%s\\)' % dd(min(a, b, c)), '\\(%s\\)' % dd(a * b), '\\(%s\\)' % dd((a + b + c) / 3)], 'In series: multiply, \\(%s\\cdot%s\\cdot%s=%s\\).' % (dd(a), dd(b), dd(c), dd(a * b * c)), 'Nối tiếp: nhân, \\(%s\\cdot%s\\cdot%s=%s\\).' % (dd(a), dd(b), dd(c), dd(a * b * c)))
     k, n = P['kick']
     o3 = M4(3, 'Each kick scores with probability %s, independently. P(at least one goal in %d kicks) =…' % (dd(k), n), 'Mỗi lần sút thành công với xác suất %s, các lần độc lập. Xác suất có ít nhất một lần thành công trong %d lần sút là…' % (dd(k), n), '\\(%s\\)' % dd(1 - (1 - k) ** n),
-            ['\\(%s\\)' % dd(k ** n), '\\(%s\\)' % dd((1 - k) ** n), '\\(%s\\)' % dd(1 - k ** n)], 'Complement: all miss.', '\\(1-(1-%s)^%d\\).' % (dd(k), n))
+            ['\\(%s\\)' % dd(k ** n), '\\(%s\\)' % dd((1 - k) ** n), '\\(%s\\)' % dd(1 - k ** n)], 'Complement "all miss": \\(1-(1-%s)^%d=%s\\).' % (dd(k), n, dd(1 - (1 - k) ** n)), 'Biến cố đối "trượt hết": \\(1-(1-%s)^%d=%s\\).' % (dd(k), n, dd(1 - (1 - k) ** n)))
     (se, sv), v4 = P['t4']
     t4 = tf(4, se, sv, v4, 'Independence is needed for the product.', 'Công thức nhân chỉ đúng cho biến cố độc lập.')
     (te, tv), v5 = P['t5']
     t5 = tf(5, te, tv, v5, 'Series multiplies, parallel uses the complement.', 'Nối tiếp: nhân; song song: dùng biến cố đối.')
     u, v = P['par']
     s6 = sh(6, 'Two backup generators work independently with reliabilities %s and %s. The reliability of the pair (at least one works), in percent, is…' % (dd(u), dd(v)), 'Hai máy phát điện dự phòng hoạt động độc lập với độ tin cậy %s và %s. Độ tin cậy của hệ (có ít nhất một máy chạy) bằng bao nhiêu phần trăm?' % (dd(u), dd(v)),
-            int((1 - (1 - u) * (1 - v)) * 100), '\\(1-(1-u)(1-v)\\).', '\\(1-%s\\cdot%s\\).' % (dd(1 - u), dd(1 - v)))
+            int((1 - (1 - u) * (1 - v)) * 100), '\\(1-(1-u)(1-v)=1-%s\\cdot%s=%s\\), i.e. %d%%.' % (dd(1 - u), dd(1 - v), dd(1 - (1 - u) * (1 - v)), int((1 - (1 - u) * (1 - v)) * 100)), '\\(1-(1-u)(1-v)=1-%s\\cdot%s=%s\\), tức là %d%%.' % (dd(1 - u), dd(1 - v), dd(1 - (1 - u) * (1 - v)), int((1 - (1 - u) * (1 - v)) * 100)))
     m = P['dice']
     s7 = sh(7, 'Two dice are rolled. P(both show a number at most %d) \\(=\\dfrac{a}{36}\\). Find \\(a\\).' % m, 'Gieo hai con xúc xắc. Xác suất cả hai con đều ra số chấm không lớn hơn %d bằng \\(\\dfrac{a}{36}\\). Tìm \\(a\\).' % m,
-            m * m, '\\(\\frac m6\\cdot\\frac m6\\).', '\\(\\dfrac{%d}{6}\\cdot\\dfrac{%d}{6}=\\dfrac{%d}{36}\\).' % (m, m, m * m))
+            m * m, '\\(\\dfrac{%d}{6}\\cdot\\dfrac{%d}{6}=\\dfrac{%d}{36}\\).' % (m, m, m * m), '\\(\\dfrac{%d}{6}\\cdot\\dfrac{%d}{6}=\\dfrac{%d}{36}\\).' % (m, m, m * m))
     return [[o1, o2, o3], [t4, t5], [s6, s7]]
 
 

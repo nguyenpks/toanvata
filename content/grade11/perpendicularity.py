@@ -49,7 +49,7 @@ vocab = [
  ('<b>projection</b> – the shadow of a point or a line on a plane, along a perpendicular.', '[[Hình chiếu]] – “bóng” của điểm hoặc đường thẳng trên mặt phẳng, theo phương vuông góc.'),
  ('<b>angle between a line and a plane</b> – the angle between the line and its projection on the plane.', '[[Góc giữa đường thẳng và mặt phẳng]] – góc giữa đường thẳng và hình chiếu của nó trên mặt phẳng.'),
  ('<b>perpendicular planes</b> – two planes that make a right angle.', '[[Hai mặt phẳng vuông góc]] – hai mặt phẳng tạo thành góc vuông.'),
- ('<b>diagonal</b> – a segment joining two vertices that are not neighbours.', '[[Đường chéo]] – đoạn nối hai đỉnh không kề nhau.'),
+ ('<b>diagonal</b> – a segment joining two vertices that are not neighbors.', '[[Đường chéo]] – đoạn nối hai đỉnh không kề nhau.'),
  ('<b>tangent to a circle</b> – a line that touches the circle at exactly one point.', '[[Tiếp tuyến của đường tròn]] – đường thẳng chỉ có một điểm chung với đường tròn.'),
  ('<b>height</b> – the distance from the apex to the base.', '[[Chiều cao]] – khoảng cách từ đỉnh đến mặt đáy.'),
 ]
@@ -68,7 +68,7 @@ review = (
       {'type': 'point', 'id': 'P', 'at': [1, 3.5]}, {'type': 'perpendicular', 'from': 'P', 'to': 'AB', 'foot': 'H', 'footName': 'H'},
       {'type': 'angle', 'points': ['B', 'H', 'P'], 'radius': 0.6}]},
       cap=('H is the foot of the perpendicular from P to AB; the square marks the right angle.', 'H là chân đường vuông góc hạ từ P xuống AB; ô vuông nhỏ kí hiệu góc vuông.'), alt=('A perpendicular from a point to a line', ''), height=320) +
- T(r'<b>Tangent to a circle.</b> The tangent at a point \(T\) of a circle with centre \(O\) is the line through \(T\) perpendicular to the radius \(OT\).', r'<b>Tiếp tuyến của đường tròn.</b> Tiếp tuyến tại điểm \(T\) của đường tròn tâm \(O\) là đường thẳng qua \(T\) vuông góc với bán kính \(OT\).') +
+ T(r'<b>Tangent to a circle.</b> The tangent at a point \(T\) of a circle with center \(O\) is the line through \(T\) perpendicular to the radius \(OT\).', r'<b>Tiếp tuyến của đường tròn.</b> Tiếp tuyến tại điểm \(T\) của đường tròn tâm \(O\) là đường thẳng qua \(T\) vuông góc với bán kính \(OT\).') +
   GEO({'view': [-6, 6, -4, 5], 'steps': [
       {'type': 'point', 'id': 'O', 'at': [-1, 0]}, {'type': 'point', 'id': 'R', 'at': [2, 0]}, {'type': 'circle', 'id': 'c', 'center': 'O', 'through': 'R'},
       {'type': 'glider', 'id': 'T', 'at': [-1, 3], 'on': 'c'}, {'type': 'tangent', 'center': 'O', 'at': 'T', 'showRadius': True}]},

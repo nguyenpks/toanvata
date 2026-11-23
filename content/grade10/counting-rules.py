@@ -11,7 +11,7 @@ vocab = defs(CV, [
  ('rsum', 'rule of sum', 'quy tắc cộng', 'if a job can be done in one of two ways with no common outcome, having \\(m\\) and \\(n\\) options, there are \\(m+n\\) ways.', 'nếu một công việc được hoàn thành bởi một trong hai phương án không trùng nhau, có \\(m\\) và \\(n\\) cách, thì có \\(m+n\\) cách.', 'By the rule of sum there are 9 ways.', '\\(m+n\\)'),
  ('rprod', 'rule of product', 'quy tắc nhân', 'if a job has two successive stages with \\(m\\) and \\(n\\) options, there are \\(m\\cdot n\\) ways.', 'nếu một công việc gồm hai công đoạn liên tiếp có \\(m\\) và \\(n\\) cách, thì có \\(m\\cdot n\\) cách.', 'By the rule of product there are 6 outfits.', '\\(m\\cdot n\\)'),
  ('treed', 'tree diagram', 'sơ đồ hình cây', 'a diagram whose branches list all outcomes stage by stage.', 'sơ đồ liệt kê mọi kết quả theo từng công đoạn bằng các nhánh.', 'Draw a tree diagram of the outfits.', '')])
-goals = [('recognise the rule of sum and the rule of product;', 'nhận biết [[quy tắc cộng]] và [[quy tắc nhân]];'),
+goals = [('recognize the rule of sum and the rule of product;', 'nhận biết [[quy tắc cộng]] và [[quy tắc nhân]];'),
          ('list outcomes with a [[sơ đồ hình cây]] tree diagram;', 'liệt kê kết quả bằng [[sơ đồ hình cây]];'),
          ('count numbers, codes and routes, splitting into cases and stages;', 'đếm số, mã, đường đi bằng cách chia trường hợp và chia công đoạn;'),
          ('use the complement to count "at least one" situations.', 'dùng phần bù để đếm các tình huống "có ít nhất một".')]
@@ -67,31 +67,36 @@ examples = EXFIG(examples, 2, mb_pgf.img(tree, 'Tree diagram of 6 outfits', 420)
 
 def lvl(P):
     a, b, c = P['sum']
-    o1 = M4(1, 'A library shelf has %d maths books, %d physics books and %d chemistry books (all different). In how many ways can you borrow one book?' % (a, b, c), 'Một giá sách có %d cuốn Toán, %d cuốn Vật lí, %d cuốn Hóa học (đôi một khác nhau). Có bao nhiêu cách mượn một cuốn?' % (a, b, c), '\\(%d\\)' % (a + b + c),
-            ['\\(%d\\)' % (a * b * c), '\\(%d\\)' % (a * b + c), '\\(%d\\)' % (a + b)], 'Rule of sum.', 'Quy tắc cộng: \\(%d+%d+%d\\).' % (a, b, c))
+    o1 = M4(1, 'A library shelf has %d math books, %d physics books and %d chemistry books (all different). In how many ways can you borrow one book?' % (a, b, c), 'Một giá sách có %d cuốn Toán, %d cuốn Vật lí, %d cuốn Hóa học (đôi một khác nhau). Có bao nhiêu cách mượn một cuốn?' % (a, b, c), '\\(%d\\)' % (a + b + c),
+            ['\\(%d\\)' % (a * b * c), '\\(%d\\)' % (a * b + c), '\\(%d\\)' % (a + b)], 'Rule of sum: \\(%d+%d+%d=%d\\).' % (a, b, c, a + b + c), 'Quy tắc cộng: \\(%d+%d+%d=%d\\).' % (a, b, c, a + b + c))
     x, y, z = P['prod']
     o2 = M4(2, 'A set menu has one starter (%d kinds), one main dish (%d kinds) and one drink (%d kinds). How many menus?' % (x, y, z), 'Một suất ăn gồm một món khai vị (%d loại), một món chính (%d loại) và một đồ uống (%d loại). Có bao nhiêu suất ăn khác nhau?' % (x, y, z), '\\(%d\\)' % (x * y * z),
-            ['\\(%d\\)' % (x + y + z), '\\(%d\\)' % (x * y + z), '\\(%d\\)' % (x * (y + z))], 'Rule of product.', 'Quy tắc nhân: \\(%d\\cdot%d\\cdot%d\\).' % (x, y, z))
+            ['\\(%d\\)' % (x + y + z), '\\(%d\\)' % (x * y + z), '\\(%d\\)' % (x * (y + z))], 'Rule of product: \\(%d\\cdot%d\\cdot%d=%d\\).' % (x, y, z, x * y * z), 'Quy tắc nhân: \\(%d\\cdot%d\\cdot%d=%d\\).' % (x, y, z, x * y * z))
     m, n, k = P['route']
     o3 = M4(3, 'A→B: %d roads; B→C: %d roads; A→C directly: %d roads. Ways from A to C?' % (m, n, k), 'Từ A đến B có %d đường, từ B đến C có %d đường, từ A đến thẳng C có %d đường. Số cách đi từ A đến C là…' % (m, n, k), '\\(%d\\)' % (m * n + k),
-            ['\\(%d\\)' % (m + n + k), '\\(%d\\)' % (m * n * k), '\\(%d\\)' % (m * n)], 'Via B: \\(%d\\cdot%d\\); direct: %d.' % (m, n, k), 'Qua B: \\(%d\\cdot%d\\); đi thẳng: %d; cộng lại.' % (m, n, k))
+            ['\\(%d\\)' % (m + n + k), '\\(%d\\)' % (m * n * k), '\\(%d\\)' % (m * n)], 'Via B: \\(%d\\cdot%d=%d\\); direct: %d; add them: %d.' % (m, n, m * n, k, m * n + k), 'Qua B: \\(%d\\cdot%d=%d\\); đi thẳng: %d; cộng lại: %d.' % (m, n, m * n, k, m * n + k))
     Dg, L, claim = P['rep']; n4 = len(Dg); real = (n4 - (1 if 0 in Dg else 0)) * n4 ** (L - 1)
     t4 = tf(4, 'From the digits \\(%s\\) one can form exactly %d numbers with %d digits (repetition allowed).' % (',\\,'.join(map(str, Dg)), claim, L), 'Từ các chữ số \\(%s\\) lập được đúng %d số có %d chữ số (các chữ số có thể lặp lại).' % (',\\,'.join(map(str, Dg)), claim, L), real == claim,
-            'There are %d such numbers.' % real, 'Có \\(%d\\cdot%d^{%d}=%d\\) số.' % (n4 - (1 if 0 in Dg else 0), n4, L - 1, real))
+            'There are \\(%d\\cdot%d^{%d}=%d\\) such numbers.' % (n4 - (1 if 0 in Dg else 0), n4, L - 1, real), 'Có \\(%d\\cdot%d^{%d}=%d\\) số.' % (n4 - (1 if 0 in Dg else 0), n4, L - 1, real))
     N, claim5 = P['div']; real5 = sum(1 for d in range(1, N + 1) if N % d == 0)
-    t5 = tf(5, '%d has exactly %d positive divisors.' % (N, claim5), 'Số %d có đúng %d ước nguyên dương.' % (N, claim5), real5 == claim5, 'It has %d.' % real5, 'Phân tích thừa số nguyên tố rồi nhân các (số mũ + 1): có %d ước.' % real5)
+    t5 = tf(5, '%d has exactly %d positive divisors.' % (N, claim5), 'Số %d có đúng %d ước nguyên dương.' % (N, claim5), real5 == claim5, 'Factor it into primes and multiply the (exponents + 1): it has %d divisors.' % real5, 'Phân tích thừa số nguyên tố rồi nhân các (số mũ + 1): có %d ước.' % real5)
     Dd = P['dist']; real6 = sum(1 for p in itertools.permutations(Dd, 3) if p[0] != 0)
     s6 = sh(6, 'How many 3-digit numbers with distinct digits can be formed from \\(%s\\)?' % ',\\,'.join(map(str, Dd)), 'Từ các chữ số \\(%s\\) lập được bao nhiêu số có 3 chữ số đôi một khác nhau?' % ',\\,'.join(map(str, Dd)), real6,
-            'First digit not 0, no repetition.', 'Chữ số đầu khác 0, các chữ số không lặp: %d số.' % real6)
-    L7 = P['pin']; real7 = math.perm(10, L7)
-    s7 = sh(7, 'A door code has %d digits, all different. How many codes are possible?' % L7, 'Mã khóa cửa gồm %d chữ số đôi một khác nhau. Có bao nhiêu mã?' % L7, real7,
-            '\\(10\\cdot9\\cdots\\).', 'Quy tắc nhân: \\(%s=%d\\).' % ('\\cdot'.join(str(10 - i) for i in range(L7)), real7))
+            'The first digit is not 0 and no digit repeats: %d numbers.' % real6, 'Chữ số đầu khác 0, các chữ số không lặp: %d số.' % real6)
+    L7 = P['pin']; K7 = 10
+    if isinstance(L7, tuple): L7, K7 = L7      # Sửa 23/11/2026: đáp số trả lời ngắn tối đa 4 kí tự (A_10^5 = 30240 quá dài)
+    real7 = math.perm(K7, L7); assert len(str(real7)) <= 4
+    if K7 == 10: q7 = ('A door code has %d digits, all different. How many codes are possible?' % L7, 'Mã khóa cửa gồm %d chữ số đôi một khác nhau. Có bao nhiêu mã?' % L7)
+    else: q7 = ('A door code has %d different digits, each chosen from 1 to %d. How many codes are possible?' % (L7, K7), 'Mã khóa cửa gồm %d chữ số đôi một khác nhau, mỗi chữ số lấy từ 1 đến %d. Có bao nhiêu mã?' % (L7, K7))
+    pr7 = '\\cdot'.join(str(K7 - i) for i in range(L7))
+    s7 = sh(7, q7[0], q7[1], real7,
+            'Rule of product: \\(%s=%d\\).' % (pr7, real7), 'Quy tắc nhân: \\(%s=%d\\).' % (pr7, real7))
     return [[o1, o2, o3], [t4, t5], [s6, s7]]
 
 
 PP = [dict(sum=(7, 5, 4), prod=(3, 5, 4), route=(3, 4, 2), rep=([1, 2, 3, 4], 3, 64), div=(72, 12), dist=[0, 1, 2, 3, 4], pin=3),
       dict(sum=(12, 9, 6), prod=(4, 6, 3), route=(5, 3, 2), rep=([0, 1, 2, 3, 5], 3, 125), div=(100, 9), dist=[1, 3, 5, 7, 9], pin=4),
-      dict(sum=(15, 8, 11), prod=(2, 7, 5), route=(4, 3, 2), rep=([0, 2, 4, 6], 4, 192), div=(90, 10), dist=[0, 2, 4, 6, 8, 9], pin=5)]
+      dict(sum=(15, 8, 11), prod=(2, 7, 5), route=(4, 3, 2), rep=([0, 2, 4, 6], 4, 192), div=(90, 10), dist=[0, 2, 4, 6, 8, 9], pin=(5, 7))]
 practice = three(lvl, PP)
 practice = with_self(practice, S.M23S10, start=8)
 mistakes = [('<b>Adding instead of multiplying.</b> Shirt <i>and then</i> trousers are stages: multiply.', '<b>Cộng thay vì nhân.</b> Chọn áo <i>rồi</i> chọn quần là các công đoạn: phải nhân.'),

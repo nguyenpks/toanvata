@@ -12,7 +12,7 @@ vocab = defs(CV, [
  ('squaring', 'square both sides', 'bình phương hai vế', 'raise both sides to the power 2; it may create extra roots, so every root must be checked.', 'nâng hai vế lên lũy thừa 2; có thể sinh nghiệm thừa nên phải thử lại.', 'Square both sides of the equation.', ''),
  ('extrarts', 'extraneous root', 'nghiệm ngoại lai', 'a root of the squared equation that does not satisfy the original equation.', 'nghiệm của phương trình sau khi bình phương nhưng không thỏa mãn phương trình ban đầu.', 'x = −3 is an extraneous root.', ''),
  ('biquad', 'biquadratic equation', 'phương trình trùng phương', '\\(ax^4+bx^2+c=0\\) (\\(a\\ne0\\)); put \\(t=x^2\\ge0\\).', '\\(ax^4+bx^2+c=0\\) (\\(a\\ne0\\)); đặt \\(t=x^2\\ge0\\).', 'A biquadratic equation can have four roots.', '')])
-goals = [('recognise equations that reduce to quadratic equations;', 'nhận biết các dạng phương trình quy về phương trình bậc hai;'),
+goals = [('recognize equations that reduce to quadratic equations;', 'nhận biết các dạng phương trình quy về phương trình bậc hai;'),
          ('solve \\(\\sqrt{f(x)}=\\sqrt{g(x)}\\) and \\(\\sqrt{f(x)}=g(x)\\) by squaring and checking;', 'giải [[phương trình chứa căn thức]] \\(\\sqrt{f(x)}=\\sqrt{g(x)}\\), \\(\\sqrt{f(x)}=g(x)\\) bằng cách [[bình phương hai vế]] rồi thử lại;'),
          ('solve biquadratic equations with a new unknown;', 'giải [[phương trình trùng phương]] bằng cách đặt ẩn phụ;'),
          ('set up and solve such equations in real problems.', 'lập và giải phương trình trong bài toán thực tế.')]
@@ -72,7 +72,7 @@ def lvl(P):
             'Left side \\(\\sqrt{%d}\\), right side \\(%d\\).' % (val, x5 - 1), 'Vế trái \\(\\sqrt{%d}\\), vế phải \\(%d\\).' % (val, x5 - 1))
     c6, r61, r62 = P['sum']; a6, b6 = r61 + r62 - 2 * c6, c6 * c6 - r61 * r62
     s6 = sh(6, 'Find the sum of all solutions of \\(%s=%s\\).' % (S.lhs(a6, b6), S.rhs(c6)), 'Tính tổng các nghiệm của phương trình \\(%s=%s\\).' % (S.lhs(a6, b6), S.rhs(c6)), sum(x for x in (r61, r62) if x >= c6),
-            'Valid roots: %s.' % ', '.join(str(x) for x in (r61, r62) if x >= c6), 'Nghiệm thỏa mãn: %s.' % ', '.join(str(x) for x in (r61, r62) if x >= c6))
+            'Square both sides (with \\(x\\ge%d\\)): \\(x=%d\\) or \\(x=%d\\); valid roots: %s; their sum is %d.' % (c6, r61, r62, ', '.join(str(x) for x in (r61, r62) if x >= c6), sum(x for x in (r61, r62) if x >= c6)), 'Bình phương hai vế (với \\(x\\ge%d\\)): \\(x=%d\\) hoặc \\(x=%d\\); nghiệm thỏa mãn: %s; tổng bằng %d.' % (c6, r61, r62, ', '.join(str(x) for x in (r61, r62) if x >= c6), sum(x for x in (r61, r62) if x >= c6)))
     h = P['rope']; x7 = 4 * h // 3; assert x7 * x7 + h * h == (2 * x7 - h) ** 2
     s7 = sh(7, 'A \\(%d\\) m pole; a rope from its top to the ground, \\(x\\) m from the foot, is \\(%d\\) m shorter than \\(2x\\). Find \\(x\\) (m).' % (h, h), 'Cột cao \\(%d\\) m; dây nối đỉnh cột với điểm trên mặt đất cách chân cột \\(x\\) m, ngắn hơn \\(2x\\) là \\(%d\\) m. Tìm \\(x\\) (m).' % (h, h), x7,
             '\\(\\sqrt{x^2+%d}=2x-%d\\Rightarrow3x^2-%dx=0\\), \\(x=%d\\) (reject 0).' % (h * h, h, 4 * h, x7), '\\(\\sqrt{x^2+%d}=2x-%d\\Rightarrow3x^2-%dx=0\\), \\(x=%d\\) (loại \\(x=0\\)).' % (h * h, h, 4 * h, x7))

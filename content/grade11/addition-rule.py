@@ -63,23 +63,23 @@ examples = EXFIG(examples, 3, mb_pgf.img(venn, 'Venn diagram with counts', 380))
 def lvl(P):
     p, q, r = P['pqr']
     o1 = M4(1, '\\(P(A)=%s\\), \\(P(B)=%s\\), \\(P(AB)=%s\\). \\(P(\\overline A\\,\\overline B)=\\)…' % (dd(p), dd(q), dd(r)), 'Cho \\(P(A)=%s\\), \\(P(B)=%s\\), \\(P(AB)=%s\\). Khi đó \\(P(\\overline A\\,\\overline B)=\\)…' % (dd(p), dd(q), dd(r)), '\\(%s\\)' % dd(1 - p - q + r),
-            ['\\(%s\\)' % dd(p + q - r), '\\(%s\\)' % dd((1 - p) * (1 - q)), '\\(%s\\)' % dd(1 - r), '\\(%s\\)' % dd(abs(1 - p - q))], '\\(1-P(A\\cup B)\\).', '\\(\\overline A\\,\\overline B\\) là biến cố đối của \\(A\\cup B\\): \\(1-(%s+%s-%s)\\).' % (dd(p), dd(q), dd(r)))
+            ['\\(%s\\)' % dd(p + q - r), '\\(%s\\)' % dd((1 - p) * (1 - q)), '\\(%s\\)' % dd(1 - r), '\\(%s\\)' % dd(abs(1 - p - q))], '\\(\\overline A\\,\\overline B\\) is the complement of \\(A\\cup B\\): \\(1-(%s+%s-%s)=%s\\).' % (dd(p), dd(q), dd(r), dd(1 - p - q + r)), '\\(\\overline A\\,\\overline B\\) là biến cố đối của \\(A\\cup B\\): \\(1-(%s+%s-%s)=%s\\).' % (dd(p), dd(q), dd(r), dd(1 - p - q + r)))
     n, a, b, c = P['srv']
-    o2 = M4(2, 'Of %d students, %d like maths, %d like English, %d like both. P(a random student likes exactly one of them) =…' % (n, a, b, c), 'Trong %d học sinh có %d em thích Toán, %d em thích Tiếng Anh, %d em thích cả hai. Chọn ngẫu nhiên một em. Xác suất em đó thích đúng một trong hai môn là…' % (n, a, b, c),
-            '\\(%s\\)' % fr(F(a + b - 2 * c, n)), ['\\(%s\\)' % fr(F(a + b - c, n)), '\\(%s\\)' % fr(F(c, n)), '\\(%s\\)' % fr(F(n - a - b + c, n)), '\\(%s\\)' % fr(F(a - c, n))], 'Union minus intersection.', '\\(\\dfrac{%d+%d-2\\cdot%d}{%d}\\).' % (a, b, c, n))
+    o2 = M4(2, 'Of %d students, %d like math, %d like English, %d like both. P(a random student likes exactly one of them) =…' % (n, a, b, c), 'Trong %d học sinh có %d em thích Toán, %d em thích Tiếng Anh, %d em thích cả hai. Chọn ngẫu nhiên một em. Xác suất em đó thích đúng một trong hai môn là…' % (n, a, b, c),
+            '\\(%s\\)' % fr(F(a + b - 2 * c, n)), ['\\(%s\\)' % fr(F(a + b - c, n)), '\\(%s\\)' % fr(F(c, n)), '\\(%s\\)' % fr(F(n - a - b + c, n)), '\\(%s\\)' % fr(F(a - c, n))], 'Exactly one: \\(\\dfrac{%d+%d-2\\cdot%d}{%d}=%s\\).' % (a, b, c, n, fr(F(a + b - 2 * c, n))), 'Đúng một: \\(\\dfrac{%d+%d-2\\cdot%d}{%d}=%s\\).' % (a, b, c, n, fr(F(a + b - 2 * c, n))))
     u, v = P['ind']
     o3 = M4(3, 'Independent events: \\(P(A)=%s\\), \\(P(B)=%s\\). \\(P(A\\cup B)=\\)…' % (dd(u), dd(v)), 'Hai biến cố độc lập với \\(P(A)=%s\\), \\(P(B)=%s\\). Khi đó \\(P(A\\cup B)=\\)…' % (dd(u), dd(v)), '\\(%s\\)' % dd(u + v - u * v),
-            ['\\(%s\\)' % dd(u * v), '\\(%s\\)' % dd(min(u + v, 1)) if u + v != u + v - u * v else '\\(1\\)', '\\(%s\\)' % dd((1 - u) * (1 - v))], '\\(P(A)+P(B)-P(A)P(B)\\).', '\\(%s+%s-%s\\cdot%s\\).' % (dd(u), dd(v), dd(u), dd(v)))
+            ['\\(%s\\)' % dd(u * v), '\\(%s\\)' % dd(min(u + v, 1)) if u + v != u + v - u * v else '\\(1\\)', '\\(%s\\)' % dd((1 - u) * (1 - v))], '\\(P(A)+P(B)-P(A)P(B)=%s+%s-%s\\cdot%s=%s\\).' % (dd(u), dd(v), dd(u), dd(v), dd(u + v - u * v)), '\\(P(A)+P(B)-P(A)P(B)=%s+%s-%s\\cdot%s=%s\\).' % (dd(u), dd(v), dd(u), dd(v), dd(u + v - u * v)))
     (se, sv), v4 = P['t4']
     t4 = tf(4, se, sv, v4, 'Check with the addition rule.', 'Kiểm tra bằng công thức cộng.')
     (te, tv), v5 = P['t5']
     t5 = tf(5, te, tv, v5, 'Probabilities never exceed 1.', 'Xác suất không vượt quá 1; xem lại điều kiện xung khắc.')
     N, m1, m2 = P['div']; l = m1 * m2 // math.gcd(m1, m2)
     s6 = sh(6, 'Tickets 1–%d. How many tickets are divisible by neither %d nor %d?' % (N, m1, m2), 'Có %d vé đánh số từ 1 đến %d. Có bao nhiêu vé có số không chia hết cho %d và không chia hết cho %d?' % (N, N, m1, m2),
-            N - (N // m1 + N // m2 - N // l), '\\(N-n(A\\cup B)\\).', '\\(%d-(%d+%d-%d)\\).' % (N, N // m1, N // m2, N // l))
+            N - (N // m1 + N // m2 - N // l), '\\(N-n(A\\cup B)=%d-(%d+%d-%d)=%d\\).' % (N, N // m1, N // m2, N // l, N - (N // m1 + N // m2 - N // l)), '\\(N-n(A\\cup B)=%d-(%d+%d-%d)=%d\\).' % (N, N // m1, N // m2, N // l, N - (N // m1 + N // m2 - N // l)))
     w1, w2 = P['pct']
     s7 = sh(7, 'Two alarms ring independently with probabilities %s and %s. P(at least one rings), in percent, is…' % (dd(w1), dd(w2)), 'Hai chuông báo động hoạt động độc lập, xác suất reo khi có sự cố lần lượt là %s và %s. Xác suất có ít nhất một chuông reo bằng bao nhiêu phần trăm?' % (dd(w1), dd(w2)),
-            int((1 - (1 - w1) * (1 - w2)) * 100), '\\(1-P(\\overline A)P(\\overline B)\\).', '\\(1-(1-%s)(1-%s)\\).' % (dd(w1), dd(w2)))
+            int((1 - (1 - w1) * (1 - w2)) * 100), '\\(1-P(\\overline A)P(\\overline B)=1-(1-%s)(1-%s)=%s\\), i.e. %d%%.' % (dd(w1), dd(w2), dd(1 - (1 - w1) * (1 - w2)), int((1 - (1 - w1) * (1 - w2)) * 100)), '\\(1-P(\\overline A)P(\\overline B)=1-(1-%s)(1-%s)=%s\\), tức là %d%%.' % (dd(w1), dd(w2), dd(1 - (1 - w1) * (1 - w2)), int((1 - (1 - w1) * (1 - w2)) * 100)))
     return [[o1, o2, o3], [t4, t5], [s6, s7]]
 
 

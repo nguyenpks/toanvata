@@ -1,0 +1,378 @@
+{
+ "lesson": "g11-limits-02",
+ "grade": 11,
+ "no": null,
+ "title": "Giới hạn của hàm số",
+ "path": "lessons/grade11/limits/limits-of-functions.html",
+ "items": [
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Find \\(\\lim_{x\\to #}(x^#+#x)\\).",
+   "en": "Find \\(\\lim_{x\\to 2}(x^2+3x)\\).",
+   "vi": "Tìm \\(\\lim_{x\\to 2}(x^2+3x)\\).",
+   "options": [
+    "\\(10\\)",
+    "\\(6\\)",
+    "\\(8\\)",
+    "\\(12\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Substitute: \\(4+6=10\\).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"substitution\">Thay trực tiếp</b>: \\(4+6=10\\).",
+   "images": [],
+   "id": "44727ca360b2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Find \\(\\lim_{x\\to #}\\dfrac{x^#-#}{x-#}\\).",
+   "en": "Find \\(\\lim_{x\\to 1}\\dfrac{x^2-1}{x-1}\\).",
+   "vi": "Tìm \\(\\lim_{x\\to 1}\\dfrac{x^2-1}{x-1}\\).",
+   "options": [
+    "\\(0\\)",
+    "\\(1\\)",
+    "\\(2\\)",
+    "<span class=\"txi\"><span class=\"en\">does not exist</span><span class=\"vi\">không tồn tại</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\dfrac{x^2-1}{x-1}=x+1\\to 2\\).",
+   "explain_vi": "Đáp án c. \\(\\dfrac{x^2-1}{x-1}=x+1\\to 2\\).",
+   "images": [],
+   "id": "0d48919d7950",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Find \\(\\lim_{x\\to+\\infty}\\dfrac#x\\).",
+   "en": "Find \\(\\lim_{x\\to+\\infty}\\dfrac1x\\).",
+   "vi": "Tìm \\(\\lim_{x\\to+\\infty}\\dfrac1x\\).",
+   "options": [
+    "\\(0\\)",
+    "\\(1\\)",
+    "\\(+\\infty\\)",
+    "\\(-\\infty\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. For very large \\(x\\), \\(\\dfrac1x\\) is close to 0.",
+   "explain_vi": "Đáp án a. Với \\(x\\) rất lớn, \\(\\dfrac1x\\) rất gần 0.",
+   "images": [],
+   "id": "290eeb4bb224",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(\\lim_{x\\to #}\\dfrac#x=+\\infty\\).",
+   "en": "\\(\\lim_{x\\to 0}\\dfrac1x=+\\infty\\).",
+   "vi": "\\(\\lim_{x\\to 0}\\dfrac1x=+\\infty\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. On the right the values go to \\(+\\infty\\), on the left to \\(-\\infty\\). The limit does not exist.",
+   "explain_vi": "Sai. Bên phải giá trị <b class=\"mbl-term\" tabindex=\"0\" data-en=\"approaches\">tiến tới</b> \\(+\\infty\\), bên trái <b class=\"mbl-term\" tabindex=\"0\" data-en=\"approaches\">tiến tới</b> \\(-\\infty\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"limit\">Giới hạn</b> không tồn tại.",
+   "images": [],
+   "id": "cf9c733fc512",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "Find \\(\\lim_{x\\to #}\\dfrac{x^#-#}{x-#}\\).",
+   "en": "Find \\(\\lim_{x\\to 3}\\dfrac{x^2-9}{x-3}\\).",
+   "vi": "Tìm \\(\\lim_{x\\to 3}\\dfrac{x^2-9}{x-3}\\).",
+   "options": [],
+   "answer": "6",
+   "explain_en": "Answer: 6. \\(x+3\\to 6\\).",
+   "explain_vi": "Đáp số: 6. \\(x+3\\to 6\\).",
+   "images": [],
+   "id": "1636b2f2a02f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "Find \\(\\lim_{x\\to -#}(#x+#)\\).",
+   "en": "Find \\(\\lim_{x\\to -1}(2x+5)\\).",
+   "vi": "Tìm \\(\\lim_{x\\to -1}(2x+5)\\).",
+   "options": [],
+   "answer": "3",
+   "explain_en": "Answer: 3. \\(2\\cdot(-1)+5=3\\).",
+   "explain_vi": "Đáp số: 3. \\(2\\cdot(-1)+5=3\\).",
+   "images": [],
+   "id": "8e069c6b1a42",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Find \\(\\lim_{x\\to #}\\dfrac{x^#-#}{x-#}\\).",
+   "en": "Find \\(\\lim_{x\\to 2}\\dfrac{x^2-4}{x-2}\\).",
+   "vi": "Tìm \\(\\lim_{x\\to 2}\\dfrac{x^2-4}{x-2}\\).",
+   "options": [
+    "\\(0\\)",
+    "\\(2\\)",
+    "\\(4\\)",
+    "<span class=\"txi\"><span class=\"en\">does not exist</span><span class=\"vi\">không tồn tại</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(x+2\\to 4\\).",
+   "explain_vi": "Đáp án c. \\(x+2\\to 4\\).",
+   "images": [],
+   "id": "6da4e6f4aa6c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Find \\(\\lim_{x\\to -#}(x^#-#x)\\).",
+   "en": "Find \\(\\lim_{x\\to -1}(x^2-4x)\\).",
+   "vi": "Tìm \\(\\lim_{x\\to -1}(x^2-4x)\\).",
+   "options": [
+    "\\(3\\)",
+    "\\(5\\)",
+    "\\(-5\\)",
+    "\\(-3\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(1+4=5\\).",
+   "explain_vi": "Đáp án b. \\(1+4=5\\).",
+   "images": [],
+   "id": "97252c2bf550",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Find \\(\\lim_{x\\to+\\infty}\\dfrac{#x+#}{x+#}\\).",
+   "en": "Find \\(\\lim_{x\\to+\\infty}\\dfrac{2x+1}{x+3}\\).",
+   "vi": "Tìm \\(\\lim_{x\\to+\\infty}\\dfrac{2x+1}{x+3}\\).",
+   "options": [
+    "\\(1\\)",
+    "\\(2\\)",
+    "\\(3\\)",
+    "\\(+\\infty\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Divide by \\(x\\): \\(\\dfrac{2+1/x}{1+3/x}\\to 2\\).",
+   "explain_vi": "Đáp án b. Chia cho \\(x\\): \\(\\dfrac{2+1/x}{1+3/x}\\to 2\\).",
+   "images": [],
+   "id": "99d8b1d49248",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(\\lim_{x\\to #}\\dfrac{|x|}{x}=#\\).",
+   "en": "\\(\\lim_{x\\to 0}\\dfrac{|x|}{x}=1\\).",
+   "vi": "\\(\\lim_{x\\to 0}\\dfrac{|x|}{x}=1\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. On the right the quotient is 1, on the left it is \\(-1\\). The limit does not exist.",
+   "explain_vi": "Sai. Bên phải <b class=\"mbl-term\" tabindex=\"0\" data-en=\"quotient\">thương</b> bằng 1, bên trái bằng \\(-1\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"limit\">Giới hạn</b> không tồn tại.",
+   "images": [],
+   "id": "c85f27c9e3b9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "Find \\(\\lim_{x\\to #}(#x-#)\\).",
+   "en": "Find \\(\\lim_{x\\to 4}(3x-2)\\).",
+   "vi": "Tìm \\(\\lim_{x\\to 4}(3x-2)\\).",
+   "options": [],
+   "answer": "10",
+   "explain_en": "Answer: 10. \\(12-2=10\\).",
+   "explain_vi": "Đáp số: 10. \\(12-2=10\\).",
+   "images": [],
+   "id": "1096a56c0313",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "Find \\(\\lim_{x\\to -#}\\dfrac{x^#-#}{x+#}\\).",
+   "en": "Find \\(\\lim_{x\\to -2}\\dfrac{x^2-4}{x+2}\\).",
+   "vi": "Tìm \\(\\lim_{x\\to -2}\\dfrac{x^2-4}{x+2}\\).",
+   "options": [],
+   "answer": "-4",
+   "explain_en": "Answer: \\(-4\\). \\(x-2\\to -4\\).",
+   "explain_vi": "Đáp số: \\(-4\\). \\(x-2\\to -4\\).",
+   "images": [],
+   "id": "7159dacd752b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Find \\(\\lim_{x\\to #}(x^#-#x)\\).",
+   "en": "Find \\(\\lim_{x\\to 3}(x^2-2x)\\).",
+   "vi": "Tìm \\(\\lim_{x\\to 3}(x^2-2x)\\).",
+   "options": [
+    "\\(3\\)",
+    "\\(0\\)",
+    "\\(15\\)",
+    "\\(-3\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(9-6=3\\).",
+   "explain_vi": "Đáp án a. \\(9-6=3\\).",
+   "images": [],
+   "id": "81fc0f9bb5e2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Find \\(\\lim_{x\\to -#}\\dfrac{x^#-#}{x+#}\\).",
+   "en": "Find \\(\\lim_{x\\to -3}\\dfrac{x^2-9}{x+3}\\).",
+   "vi": "Tìm \\(\\lim_{x\\to -3}\\dfrac{x^2-9}{x+3}\\).",
+   "options": [
+    "\\(-6\\)",
+    "\\(6\\)",
+    "\\(0\\)",
+    "<span class=\"txi\"><span class=\"en\">does not exist</span><span class=\"vi\">không tồn tại</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(x-3\\to -6\\).",
+   "explain_vi": "Đáp án a. \\(x-3\\to -6\\).",
+   "images": [],
+   "id": "39fc6f552605",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Find \\(\\lim_{x\\to-\\infty}\\dfrac{#x^#+#}{x^#+#}\\).",
+   "en": "Find \\(\\lim_{x\\to-\\infty}\\dfrac{3x^2+1}{x^2+5}\\).",
+   "vi": "Tìm \\(\\lim_{x\\to-\\infty}\\dfrac{3x^2+1}{x^2+5}\\).",
+   "options": [
+    "\\(0\\)",
+    "\\(1\\)",
+    "\\(3\\)",
+    "\\(+\\infty\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The degrees are equal: \\(\\dfrac31=3\\).",
+   "explain_vi": "Đáp án c. Hai bậc bằng nhau: \\(\\dfrac31=3\\).",
+   "images": [],
+   "id": "8fa3f109b521",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "If \\(f(a)\\) is not defined, then \\(\\lim_{x\\to a}f(x)\\) cannot exist.",
+   "en": "If \\(f(a)\\) is not defined, then \\(\\lim_{x\\to a}f(x)\\) cannot exist.",
+   "vi": "Nếu \\(f(a)\\) không xác định thì \\(\\lim_{x\\to a}f(x)\\) không thể tồn tại.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. Example: \\(\\dfrac{x^2-4}{x-2}\\) is not defined at 2 but its limit there is 4.",
+   "explain_vi": "Sai. Ví dụ \\(\\dfrac{x^2-4}{x-2}\\) không xác định tại 2 nhưng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"limit\">giới hạn</b> tại đó bằng 4.",
+   "images": [],
+   "id": "02bb335e7272",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Find \\(\\lim_{x\\to #}\\dfrac{x^#-#}{x-#}\\).",
+   "en": "Find \\(\\lim_{x\\to 5}\\dfrac{x^2-25}{x-5}\\).",
+   "vi": "Tìm \\(\\lim_{x\\to 5}\\dfrac{x^2-25}{x-5}\\).",
+   "options": [],
+   "answer": "10",
+   "explain_en": "Answer: 10. \\(x+5\\to 10\\).",
+   "explain_vi": "Đáp số: 10. \\(x+5\\to 10\\).",
+   "images": [],
+   "id": "359fbe7d8a22",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Find \\(\\lim_{x\\to -#}(#-#x)\\).",
+   "en": "Find \\(\\lim_{x\\to -2}(5-2x)\\).",
+   "vi": "Tìm \\(\\lim_{x\\to -2}(5-2x)\\).",
+   "options": [],
+   "answer": "9",
+   "explain_en": "Answer: 9. \\(5+4=9\\).",
+   "explain_vi": "Đáp số: 9. \\(5+4=9\\).",
+   "images": [],
+   "id": "a14bcb92016f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  }
+ ]
+}

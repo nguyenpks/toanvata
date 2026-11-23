@@ -13,7 +13,7 @@ vocab = defs(CV, [
  ('logfn', 'logarithmic function', 'hàm số lôgarit', '\\(y=\\log_a x\\) (\\(a\\gt0\\), \\(a\\ne1\\)); domain \\((0;+\\infty)\\), range \\(\\mathbb R\\).', '\\(y=\\log_a x\\) (\\(a\\gt0\\), \\(a\\ne1\\)); tập xác định \\((0;+\\infty)\\), tập giá trị \\(\\mathbb R\\).', 'The logarithmic function grows slowly.', '\\(\\log_a x\\)'),
  ('asym0', 'horizontal / vertical asymptote', 'tiệm cận ngang / tiệm cận đứng (đồ thị mũ, lôgarit)', '\\(y=a^x\\) approaches the line \\(y=0\\); \\(y=\\log_a x\\) approaches the line \\(x=0\\).', 'đồ thị \\(y=a^x\\) tiến sát đường \\(y=0\\); đồ thị \\(y=\\log_a x\\) tiến sát đường \\(x=0\\).', 'The x-axis is an asymptote of y = 2^x.', ''),
  ('expgrow', 'exponential growth / decay', 'tăng trưởng / suy giảm theo hàm mũ', 'a quantity multiplied by the same factor in equal time steps: \\(N=N_0a^{t}\\).', 'đại lượng được nhân với cùng một hệ số sau mỗi khoảng thời gian bằng nhau: \\(N=N_0a^{t}\\).', 'Bacteria show exponential growth.', '')])
-goals = [('recognise exponential and logarithmic functions and their key features;', 'nhận biết [[hàm số mũ]], [[hàm số lôgarit]] và các đặc trưng cơ bản;'),
+goals = [('recognize exponential and logarithmic functions and their key features;', 'nhận biết [[hàm số mũ]], [[hàm số lôgarit]] và các đặc trưng cơ bản;'),
          ('find domains, decide monotonicity and sketch the graphs;', 'tìm tập xác định, xét tính đơn điệu và vẽ đồ thị;'),
          ('compare numbers using monotonicity;', 'so sánh các số dựa vào tính đơn điệu;'),
          ('model growth and decay with exponential and logarithmic functions.', 'mô hình hóa bài toán [[tăng trưởng / suy giảm theo hàm mũ|tăng trưởng / suy giảm theo hàm mũ]].')]
@@ -35,7 +35,7 @@ theory += TBL(['', TI('\\(y=\\log_a x\\), \\(a\\gt1\\)', '\\(y=\\log_a x\\), \\(
   [TI('Asymptote', 'Tiệm cận'), TI('\\(x=0\\) (as \\(x\\to0^+\\))', '\\(x=0\\) (khi \\(x\\to0^+\\))'), TI('\\(x=0\\) (as \\(x\\to0^+\\))', '\\(x=0\\) (khi \\(x\\to0^+\\))')]])
 theory += GRAPH({'view': [-4, 6, -4, 6], 'functions': [{'f': 'a^x', 'label': 'y = aˣ'}, {'f': 'log(a,x)', 'label': 'y = logₐx'}, {'f': 'x', 'label': 'y = x'}],
   'params': [{'name': 'a', 'min': 0.2, 'max': 4, 'value': 2, 'step': 0.1}], 'family': [{'a': 2, '_labels': {'0': 'y = 2ˣ', '1': 'y = log₂x'}, '_colors': {'0': '#046b4d', '1': '#0e7490'}}, {'a': 0.5, '_labels': {'0': 'y = (1/2)ˣ', '1': 'y = log_{1/2}x'}, '_colors': {'0': '#c2410c', '1': '#be185d'}}], 'points': [{'x': 0, 'y': 1, 'label': '(0; 1)'}, {'x': 1, 'y': 0, 'label': '(1; 0)'}]},
-  cap=('Solid colours: \\(a=2\\) (green, teal) and \\(a=\\frac12\\) (orange, pink); for each \\(a\\) the exponential curve passes through \\((0;1)\\) and the logarithmic curve through \\((1;0)\\). Both graphs rise when \\(a\\gt1\\) and fall when \\(0\\lt a\\lt1\\); they are symmetric about \\(y=x\\) because \\(y=\\log_a x\\iff x=a^y\\). (\\(a=1\\) is not allowed.)', 'Màu xanh lá, xanh lơ: \\(a=2\\); màu cam, hồng: \\(a=\\frac12\\); với mỗi \\(a\\), đường mũ đi qua \\((0;1)\\), đường lôgarit đi qua \\((1;0)\\). Hai đồ thị cùng đi lên khi \\(a\\gt1\\), cùng đi xuống khi \\(0\\lt a\\lt1\\); chúng đối xứng qua \\(y=x\\) vì \\(y=\\log_a x\\iff x=a^y\\). (Không xét \\(a=1\\).)'),
+  cap=('Solid colors: \\(a=2\\) (green, teal) and \\(a=\\frac12\\) (orange, pink); for each \\(a\\) the exponential curve passes through \\((0;1)\\) and the logarithmic curve through \\((1;0)\\). Both graphs rise when \\(a\\gt1\\) and fall when \\(0\\lt a\\lt1\\); they are symmetric about \\(y=x\\) because \\(y=\\log_a x\\iff x=a^y\\). (\\(a=1\\) is not allowed.)', 'Màu xanh lá, xanh lơ: \\(a=2\\); màu cam, hồng: \\(a=\\frac12\\); với mỗi \\(a\\), đường mũ đi qua \\((0;1)\\), đường lôgarit đi qua \\((1;0)\\). Hai đồ thị cùng đi lên khi \\(a\\gt1\\), cùng đi xuống khi \\(0\\lt a\\lt1\\); chúng đối xứng qua \\(y=x\\) vì \\(y=\\log_a x\\iff x=a^y\\). (Không xét \\(a=1\\).)'),
   alt=('Graphs of y = a^x and y = log_a x for a = 2 and a = 1/2', 'Đồ thị y = aˣ và y = logₐx với a = 2 và a = 1/2'), height=320)
 theory += BOX('mint', ('Comparing', 'So sánh'), T('\\(a\\gt1\\): \\(a^{u}\\lt a^{v}\\iff u\\lt v\\); \\(\\log_a u\\lt\\log_a v\\iff0\\lt u\\lt v\\). \\(0\\lt a\\lt1\\): both inequalities reverse.', '\\(a\\gt1\\): \\(a^{u}\\lt a^{v}\\iff u\\lt v\\); \\(\\log_a u\\lt\\log_a v\\iff0\\lt u\\lt v\\). \\(0\\lt a\\lt1\\): cả hai đổi chiều.'))
 theory += BOX('yellow', ('Watch out!', 'Lưu ý'), T('\\(y=x^2\\) is a power function, not an exponential one (the variable is in the base). \\(y=a^x\\) never touches \\(Ox\\): \\(a^x\\gt0\\) for all \\(x\\).', '\\(y=x^2\\) là hàm lũy thừa, không phải hàm mũ (biến nằm ở cơ số). Đồ thị \\(y=a^x\\) không bao giờ chạm \\(Ox\\): \\(a^x\\gt0\\) với mọi \\(x\\).'))
@@ -45,7 +45,7 @@ examples = EXAMPLE(1, ('Basic', 'Cơ bản'), ('Domains', 'Tập xác định'),
   T('\\(D=(-\\infty;1)\\cup(3;+\\infty)\\); \\(D=[-1;2)\\).', '\\(D=(-\\infty;1)\\cup(3;+\\infty)\\); \\(D=[-1;2)\\).'))
 assert math.pi / 4 < 1 < math.sqrt(2) and 0.7 ** 2.5 > 0.7 ** 3 and math.log(3, 0.5) < math.log(2, 0.5)
 examples += EXAMPLE(2, ('Basic', 'Cơ bản'), ('Monotonicity and comparison', 'Tính đơn điệu và so sánh'), T('a) Which are increasing: \\(y=\\left(\\frac{\\pi}{4}\\right)^x\\), \\(y=\\log_{\\sqrt2}x\\), \\(y=e^{-x}\\)? b) Compare \\(0{,}7^{2{,}5}\\) and \\(0{,}7^{3}\\); \\(\\log_{0{,}5}3\\) and \\(\\log_{0{,}5}2\\).', 'a) Hàm số nào đồng biến: \\(y=\\left(\\frac{\\pi}{4}\\right)^x\\), \\(y=\\log_{\\sqrt2}x\\), \\(y=e^{-x}\\)? b) So sánh \\(0{,}7^{2{,}5}\\) và \\(0{,}7^{3}\\); \\(\\log_{0{,}5}3\\) và \\(\\log_{0{,}5}2\\).'),
-  T('Look at the base.', 'Xét cơ số.'), [T('a) \\(\\frac\\pi4\\lt1\\): decreasing; \\(\\sqrt2\\gt1\\): increasing; \\(e^{-x}=\\left(\\frac1e\\right)^x\\): decreasing.', 'a) \\(\\frac\\pi4\\lt1\\): nghịch biến; \\(\\sqrt2\\gt1\\): đồng biến; \\(e^{-x}=\\left(\\frac1e\\right)^x\\): nghịch biến.'),
+  T('Look at the base: greater than 1 means increasing, in \\((0;1)\\) means decreasing.', 'Xét cơ số.'), [T('a) \\(\\frac\\pi4\\lt1\\): decreasing; \\(\\sqrt2\\gt1\\): increasing; \\(e^{-x}=\\left(\\frac1e\\right)^x\\): decreasing.', 'a) \\(\\frac\\pi4\\lt1\\): nghịch biến; \\(\\sqrt2\\gt1\\): đồng biến; \\(e^{-x}=\\left(\\frac1e\\right)^x\\): nghịch biến.'),
   T('b) Base \\(0{,}7\\lt1\\), \\(2{,}5\\lt3\\Rightarrow0{,}7^{2{,}5}\\gt0{,}7^3\\); base \\(0{,}5\\lt1\\), \\(3\\gt2\\Rightarrow\\log_{0{,}5}3\\lt\\log_{0{,}5}2\\).', 'b) Cơ số \\(0{,}7\\lt1\\), \\(2{,}5\\lt3\\Rightarrow0{,}7^{2{,}5}\\gt0{,}7^3\\); cơ số \\(0{,}5\\lt1\\), \\(3\\gt2\\Rightarrow\\log_{0{,}5}3\\lt\\log_{0{,}5}2\\).')],
   T('Only \\(y=\\log_{\\sqrt2}x\\) is increasing; \\(0{,}7^{2{,}5}\\gt0{,}7^3\\); \\(\\log_{0{,}5}3\\lt\\log_{0{,}5}2\\).', 'Chỉ \\(y=\\log_{\\sqrt2}x\\) đồng biến; \\(0{,}7^{2{,}5}\\gt0{,}7^3\\); \\(\\log_{0{,}5}3\\lt\\log_{0{,}5}2\\).'))
 assert 3 ** 2 == 9 and F(1, 2) ** -2 == 4
@@ -65,10 +65,10 @@ examples += EXAMPLE(5, ('Advanced', 'Nâng cao'), ('Bacteria growth', 'Sự sinh
 def lvl(P):
     p, q = P['dom']
     o1 = M4(1, 'The domain of \\(y=\\log_2(%s)\\) is…' % poly([1, -(p + q), p * q]), 'Tập xác định của hàm số \\(y=\\log_2(%s)\\) là…' % poly([1, -(p + q), p * q]), '\\((-\\infty;%d)\\cup(%d;+\\infty)\\)' % (p, q),
-            ['\\((%d;%d)\\)' % (p, q), '\\([%d;%d]\\)' % (p, q), '\\(\\mathbb R\\)'], 'Need \\((%s)(%s)\\gt0\\).' % (fac(p), fac(q)), 'Cần \\((%s)(%s)\\gt0\\).' % (fac(p), fac(q)))
+            ['\\((%d;%d)\\)' % (p, q), '\\([%d;%d]\\)' % (p, q), '\\(\\mathbb R\\)'], 'We need \\((%s)(%s)\\gt0\\).' % (fac(p), fac(q)), 'Cần \\((%s)(%s)\\gt0\\).' % (fac(p), fac(q)))
     good, bads, want, wen, wvi = P['mono']
     o2 = M4(2, 'Which function is %s %s?' % ('increasing' if want else 'decreasing', wen), 'Hàm số nào %s %s?' % ('đồng biến' if want else 'nghịch biến', wvi), '\\(%s\\)' % good, ['\\(%s\\)' % b for b in bads],
-            'Look at the base.', 'Xét cơ số: lớn hơn 1 thì đồng biến, thuộc \\((0;1)\\) thì nghịch biến.')
+            'Look at the base: greater than 1 means increasing, in \\((0;1)\\) means decreasing.', 'Xét cơ số: lớn hơn 1 thì đồng biến, thuộc \\((0;1)\\) thì nghịch biến.')
     kind, xx, k, a = P['base']
     q3 = ('The graph of \\(y=\\log_a x\\) passes through \\((%s;\\,%d)\\). Then \\(a=\\)…' % (frn(xx), k), 'Đồ thị \\(y=\\log_a x\\) đi qua \\((%s;\\,%d)\\). Khi đó \\(a=\\)…' % (frn(xx), k)) if kind == 'log' else \
          ('The graph of \\(y=a^x\\) passes through \\((%d;\\,%s)\\). Then \\(a=\\)…' % (k, frn(xx)), 'Đồ thị \\(y=a^x\\) đi qua \\((%d;\\,%s)\\). Khi đó \\(a=\\)…' % (k, frn(xx)))
@@ -77,10 +77,10 @@ def lvl(P):
     (e4, v4_), (e5, v5_) = P['tf']
     t4 = tf(4, e4[0], e4[1], v4_, e4[2], e4[3]); t5 = tf(5, e5[0], e5[1], v5_, e5[2], e5[3])
     b6, s6_, x6 = P['val']; v6 = math.log(x6 + s6_, b6); v6 = round(v6); assert b6 ** v6 == x6 + s6_
-    s6 = sh(6, '\\(f(x)=\\log_{%d}(x%+d)\\). Compute \\(f(%d)\\).' % (b6, s6_, x6), 'Cho \\(f(x)=\\log_{%d}(x%+d)\\). Tính \\(f(%d)\\).' % (b6, s6_, x6), v6, '\\(\\log_{%d}%d=%d\\).' % (b6, x6 + s6_, v6), '\\(f(%d)=\\log_{%d}%d=%d\\).' % (x6, b6, x6 + s6_, v6))
+    s6 = sh(6, '\\(f(x)=\\log_{%d}(x%+d)\\). Compute \\(f(%d)\\).' % (b6, s6_, x6), 'Cho \\(f(x)=\\log_{%d}(x%+d)\\). Tính \\(f(%d)\\).' % (b6, s6_, x6), v6, '\\(f(%d)=\\log_{%d}%d=%d\\).' % (x6, b6, x6 + s6_, v6), '\\(f(%d)=\\log_{%d}%d=%d\\).' % (x6, b6, x6 + s6_, v6))
     N0, T7, t7 = P['bact']; N7 = N0 * 2 ** (t7 // T7); assert t7 % T7 == 0
     s7 = sh(7, 'Bacteria: \\(N(t)=%d\\cdot2^{t/%d}\\) (\\(t\\) in minutes). Find \\(N(%d)\\).' % (N0, T7, t7), 'Vi khuẩn: \\(N(t)=%d\\cdot2^{t/%d}\\) (\\(t\\) tính bằng phút). Tính \\(N(%d)\\).' % (N0, T7, t7), N7,
-            '\\(%d\\cdot2^{%d}=%d\\).' % (N0, t7 // T7, N7), '\\(%d\\cdot2^{%d}=%d\\).' % (N0, t7 // T7, N7))
+            '\\(N(%d)=%d\\cdot2^{%d/%d}=%d\\cdot2^{%d}=%d\\).' % (t7, N0, t7, T7, N0, t7 // T7, N7), '\\(N(%d)=%d\\cdot2^{%d/%d}=%d\\cdot2^{%d}=%d\\).' % (t7, N0, t7, T7, N0, t7 // T7, N7))
     return [[o1, o2, o3], [t4, t5], [s6, s7]]
 UA = (('The graph of \\(y=a^x\\) (\\(a\\gt0\\), \\(a\\ne1\\)) lies above the \\(x\\)-axis.', 'Đồ thị hàm số \\(y=a^x\\) (\\(a\\gt0\\), \\(a\\ne1\\)) nằm phía trên trục hoành.', '\\(a^x\\gt0\\) for all \\(x\\).', '\\(a^x\\gt0\\) với mọi \\(x\\).'), True)
 UB = (('\\(y=\\log_{\\frac13}x\\) is increasing on \\((0;+\\infty)\\).', 'Hàm số \\(y=\\log_{\\frac13}x\\) đồng biến trên \\((0;+\\infty)\\).', 'Base \\(\\frac13\\lt1\\): decreasing.', 'Cơ số \\(\\frac13\\lt1\\): nghịch biến.'), False)
@@ -90,7 +90,7 @@ UE = (('\\(\\log_{0{,}2}5\\lt\\log_{0{,}2}3\\).', '\\(\\log_{0{,}2}5\\lt\\log_{0
 UF = (('The domain of \\(y=\\ln(x-2)\\) is \\([2;+\\infty)\\).', 'Tập xác định của \\(y=\\ln(x-2)\\) là \\([2;+\\infty)\\).', 'Need \\(x-2\\gt0\\): \\((2;+\\infty)\\).', 'Cần \\(x-2\\gt0\\): \\((2;+\\infty)\\).'), False)
 PP = [dict(dom=(1, 4), mono=('y=3^x', ['y=\\left(\\frac12\\right)^x', 'y=\\log_{0{,}5}x', 'y=e^{-x}'], True, 'on its domain', 'trên tập xác định của nó'), base=('log', 8, 3, 2), tf=(UA, UB), val=(2, 1, 7), bact=(500, 30, 90)),
       dict(dom=(-2, 3), mono=('y=\\log_{\\frac25}x', ['y=\\ln x', 'y=\\left(\\frac43\\right)^x', 'y=\\log_{\\sqrt5}x'], False, 'on its domain', 'trên tập xác định của nó'), base=('exp', 27, 3, 3), tf=(UC, UD), val=(3, -2, 11), bact=(200, 20, 80)),
-      dict(dom=(-4, 0), mono=('y=\\left(\\frac{e}{2}\\right)^x', ['y=\\left(\\frac{2}{e}\\right)^x', 'y=\\left(\\frac{\\pi}{4}\\right)^x', 'y=0{,}9^x'], True, 'on \\(\\mathbb R\\)', 'trên \\(\\mathbb R\\)'), base=('exp', F(1, 4), -2, 2), tf=(UE, UF), val=(5, 4, 21), bact=(1000, 15, 60))]
+      dict(dom=(-4, 0), mono=('y=\\left(\\frac{e}{2}\\right)^x', ['y=\\left(\\frac{2}{e}\\right)^x', 'y=\\left(\\frac{\\pi}{4}\\right)^x', 'y=0{,}9^x'], True, 'on \\(\\mathbb R\\)', 'trên \\(\\mathbb R\\)'), base=('exp', F(1, 4), -2, 2), tf=(UE, UF), val=(5, 4, 21), bact=(500, 15, 60))]
 practice = three(lvl, PP)
 practice = with_self(practice, S.M20S11, start=8)
 mistakes = [('<b>Treating \\(y=x^3\\) as exponential.</b> In an exponential function the <i>variable is the exponent</i>.', '<b>Coi \\(y=x^3\\) là hàm số mũ.</b> Ở hàm số mũ, <i>biến nằm ở số mũ</i>.'),

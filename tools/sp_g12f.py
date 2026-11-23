@@ -37,24 +37,24 @@ def _n(r):
 # ================= Bài 17. Phương trình mặt cầu =================
 def sp_cr(r, lv):
     I = _I(r); R = r.randint(1, 6)
-    return dict(en='The sphere \\(%s\\) has centre and radius…' % sph(I, R * R), vi='Mặt cầu \\(%s\\) có tâm và bán kính là…' % sph(I, R * R),
+    return dict(en='The sphere \\(%s\\) has center and radius…' % sph(I, R * R), vi='Mặt cầu \\(%s\\) có tâm và bán kính là…' % sph(I, R * R),
       opts=pick_opts(r, 'I%s,\\ R=%d' % (V3(I), R), ['I%s,\\ R=%d' % (V3(tuple(-x for x in I)), R) if any(I) else 'I(1;\\,1;\\,1),\\ R=%d' % R, 'I%s,\\ R=%d' % (V3(I), R * R), 'I%s,\\ R=%d' % (V3(tuple(-x for x in I)), R * R) if any(I) else 'I(0;\\,0;\\,0),\\ R=%d' % (R + 1), 'I%s,\\ R=%d' % (V3(I), R + 1)]), ans=0,
       ee='\\((x-a)^2+(y-b)^2+(z-c)^2=R^2\\): \\(I(a;b;c)\\), \\(R=\\sqrt{%d}=%d\\).' % (R * R, R), ev='\\((x-a)^2+(y-b)^2+(z-c)^2=R^2\\): tâm \\(I(a;b;c)\\), \\(R=\\sqrt{%d}=%d\\).' % (R * R, R))
 def sp_gen(r, lv):
     I = _I(r); R = r.randint(1, 6); d = dot(I, I) - R * R
     if not any(I): raise AssertionError
-    return dict(en='The sphere \\(%s\\) has centre and radius…' % gen(I, d), vi='Mặt cầu \\(%s\\) có tâm và bán kính là…' % gen(I, d),
+    return dict(en='The sphere \\(%s\\) has center and radius…' % gen(I, d), vi='Mặt cầu \\(%s\\) có tâm và bán kính là…' % gen(I, d),
       opts=pick_opts(r, 'I%s,\\ R=%d' % (V3(I), R), ['I%s,\\ R=%d' % (V3(tuple(-x for x in I)), R), 'I%s,\\ R=%d' % (V3(tuple(2 * x for x in I)), R), 'I%s,\\ R=\\sqrt{%d}' % (V3(I), dot(I, I) + d) if dot(I, I) + d > 0 else 'I%s,\\ R=%d' % (V3(I), R + 1), 'I%s,\\ R=%d' % (V3(I), R + 2)]), ans=0,
       ee='\\(a,b,c\\) are minus half the coefficients; \\(R^2=a^2+b^2+c^2-d=%d\\).' % (R * R), ev='\\(a,b,c\\) bằng âm một nửa các hệ số; \\(R^2=a^2+b^2+c^2-d=%d\\).' % (R * R))
 def sp_write(r, lv):
     I = _I(r); R = r.randint(1, 5)
-    return dict(en='The sphere with centre \\(I%s\\) and radius \\(%d\\) is…' % (V3(I), R), vi='Mặt cầu tâm \\(I%s\\), bán kính \\(%d\\) có phương trình…' % (V3(I), R),
+    return dict(en='The sphere with center \\(I%s\\) and radius \\(%d\\) is…' % (V3(I), R), vi='Mặt cầu tâm \\(I%s\\), bán kính \\(%d\\) có phương trình…' % (V3(I), R),
       opts=pick_opts(r, sph(I, R * R), [sph(I, R), sph(tuple(-x for x in I), R * R) if any(I) else sph((1, 0, 0), R * R), sph(tuple(-x for x in I), R) if any(I) else sph(I, 2 * R), sph(I, 2 * R * R)]), ans=0,
       ee='Right side is \\(R^2=%d\\).' % (R * R), ev='Vế phải là \\(R^2=%d\\).' % (R * R))
 def sp_through(r, lv):
     I = _I(r); A = _I(r); R2 = dot(sub(A, I), sub(A, I))
     if R2 == 0: raise AssertionError
-    return dict(en='The sphere with centre \\(I%s\\) passing through \\(A%s\\) is…' % (V3(I), V3(A)), vi='Mặt cầu tâm \\(I%s\\) và đi qua \\(A%s\\) có phương trình…' % (V3(I), V3(A)),
+    return dict(en='The sphere with center \\(I%s\\) passing through \\(A%s\\) is…' % (V3(I), V3(A)), vi='Mặt cầu tâm \\(I%s\\) và đi qua \\(A%s\\) có phương trình…' % (V3(I), V3(A)),
       opts=pick_opts(r, sph(I, R2), [sph(A, R2), sph(I, R2 + 1), sph(I, dot(A, A)) if dot(A, A) != R2 else sph(I, R2 * 2), sph(tuple(-x for x in I), R2) if any(I) else sph(I, R2 + 2)]), ans=0,
       ee='\\(R^2=IA^2=%d\\).' % R2, ev='\\(R^2=IA^2=%d\\).' % R2)
 def sp_diam(r, lv):
@@ -63,7 +63,7 @@ def sp_diam(r, lv):
     A = sub(I, h); B = tuple(i + k for i, k in zip(I, h)); R2 = dot(h, h)
     return dict(en='The sphere with diameter \\(AB\\), \\(A%s\\), \\(B%s\\), is…' % (V3(A), V3(B)), vi='Mặt cầu đường kính \\(AB\\) với \\(A%s\\), \\(B%s\\) có phương trình…' % (V3(A), V3(B)),
       opts=pick_opts(r, sph(I, R2), [sph(I, 4 * R2), sph(A, R2), sph(I, 2 * R2), sph(B, 4 * R2)]), ans=0,
-      ee='Centre = midpoint \\(I%s\\), \\(R=\\frac{AB}{2}\\), \\(R^2=%d\\).' % (V3(I), R2), ev='Tâm là trung điểm \\(I%s\\), \\(R=\\frac{AB}{2}\\), \\(R^2=%d\\).' % (V3(I), R2))
+      ee='Center = midpoint \\(I%s\\), \\(R=\\frac{AB}{2}\\), \\(R^2=%d\\).' % (V3(I), R2), ev='Tâm là trung điểm \\(I%s\\), \\(R=\\frac{AB}{2}\\), \\(R^2=%d\\).' % (V3(I), R2))
 def sp_cond(r, lv):
     I = _I(r)
     if not any(I): raise AssertionError
@@ -74,7 +74,7 @@ def sp_cond(r, lv):
 def sp_pt(r, lv):
     I = _I(r); R = r.randint(2, 5); A = tuple(i + r.randint(-3, 3) for i in I); d2 = dot(sub(A, I), sub(A, I))
     pos = 0 if d2 < R * R else 1 if d2 == R * R else 2
-    L = [TT('inside the sphere', 'nằm trong mặt cầu'), TT('on the sphere', 'nằm trên mặt cầu'), TT('outside the sphere', 'nằm ngoài mặt cầu'), TT('at the centre', 'trùng với tâm')]
+    L = [TT('inside the sphere', 'nằm trong mặt cầu'), TT('on the sphere', 'nằm trên mặt cầu'), TT('outside the sphere', 'nằm ngoài mặt cầu'), TT('at the center', 'trùng với tâm')]
     if d2 == 0: raise AssertionError
     return dict(en='Where is \\(A%s\\) relative to the sphere \\(%s\\)?' % (V3(A), sph(I, R * R)), vi='Điểm \\(A%s\\) có vị trí thế nào so với mặt cầu \\(%s\\)?' % (V3(A), sph(I, R * R)),
       opts=[L[pos]] + [L[j] for j in range(4) if j != pos], ans=0,
@@ -82,7 +82,7 @@ def sp_pt(r, lv):
 def sp_tan(r, lv):
     I = _I(r); n, L = _n(r); t = r.choice([1, 2, -1, -2]); Dd = -dot(n, I) + t * L
     d = abs(dot(n, I) + Dd) // L; assert d * L == abs(dot(n, I) + Dd)
-    return dict(en='The sphere with centre \\(I%s\\) tangent to \\((P): %s\\) has radius…' % (V3(I), eq(*n, Dd)), vi='Mặt cầu tâm \\(I%s\\) tiếp xúc với \\((P): %s\\) có bán kính…' % (V3(I), eq(*n, Dd)),
+    return dict(en='The sphere with center \\(I%s\\) tangent to \\((P): %s\\) has radius…' % (V3(I), eq(*n, Dd)), vi='Mặt cầu tâm \\(I%s\\) tiếp xúc với \\((P): %s\\) có bán kính…' % (V3(I), eq(*n, Dd)),
       opts=pick_opts(r, str(d), [str(d * L), str(d * d), str(abs(Dd)) if abs(Dd) not in (d, d * L, d * d) else str(d + 1), str(d + L)]), ans=0,
       ee='\\(R=d(I,(P))=\\dfrac{|%d|}{%d}=%d\\).' % (dot(n, I) + Dd, L, d), ev='\\(R=d(I,(P))=\\dfrac{|%d|}{%d}=%d\\).' % (dot(n, I) + Dd, L, d))
 def sp_plane(r, lv):
@@ -90,7 +90,7 @@ def sp_plane(r, lv):
     if d == R and r.random() < .5: pass
     Dd = -dot(n, I) + d * L * r.choice([1, -1])
     pos = 0 if d < R else 1 if d == R else 2
-    opts = [TT('they cut along a circle', 'cắt nhau theo một đường tròn'), TT('they are tangent', 'tiếp xúc nhau'), TT('they have no common point', 'không có điểm chung'), TT('the plane passes through the centre', 'mặt phẳng đi qua tâm')]
+    opts = [TT('they cut along a circle', 'cắt nhau theo một đường tròn'), TT('they are tangent', 'tiếp xúc nhau'), TT('they have no common point', 'không có điểm chung'), TT('the plane passes through the center', 'mặt phẳng đi qua tâm')]
     return dict(en='Relative position of \\((S): %s\\) and \\((P): %s\\):' % (sph(I, R * R), eq(*n, Dd)), vi='Vị trí tương đối của \\((S): %s\\) và \\((P): %s\\) là…' % (sph(I, R * R), eq(*n, Dd)),
       opts=[opts[pos]] + [opts[j] for j in range(4) if j != pos], ans=0,
       ee='\\(d(I,(P))=%d\\), \\(R=%d\\).' % (d, R), ev='\\(d(I,(P))=%d\\), \\(R=%d\\).' % (d, R))
@@ -110,7 +110,7 @@ def sp_on(r, lv):
       ee='\\(IA^2=%d=R^2\\).' % (R * R), ev='\\(IA^2=%d=R^2\\).' % (R * R))
 def sp_foot(r, lv):
     I = _I(r); n, L = _n(r); t = r.choice([1, -1, 2]); H = tuple(i - t * k for i, k in zip(I, n)); Dd = -dot(n, H)
-    return dict(en='The sphere with centre \\(I%s\\) touches \\((P): %s\\) at…' % (V3(I), eq(*n, Dd)), vi='Mặt cầu tâm \\(I%s\\) tiếp xúc với \\((P): %s\\) tại điểm…' % (V3(I), eq(*n, Dd)),
+    return dict(en='The sphere with center \\(I%s\\) touches \\((P): %s\\) at…' % (V3(I), eq(*n, Dd)), vi='Mặt cầu tâm \\(I%s\\) tiếp xúc với \\((P): %s\\) tại điểm…' % (V3(I), eq(*n, Dd)),
       opts=pick_opts(r, V3(H), [V3(tuple(i + t * k for i, k in zip(I, n))), V3(n), V3(tuple(i - k for i, k in zip(I, n))) if t != 1 else V3(tuple(i - 2 * k for i, k in zip(I, n))), V3(I)]), ans=0,
       ee='Projection of \\(I\\) on \\((P)\\): \\(I-%d\\vec n=%s\\).' % (t, V3(H)), ev='Hình chiếu của \\(I\\) trên \\((P)\\): \\(H=I-%d\\vec n=%s\\).' % (t, V3(H)))
 def sp_wifi(r, lv):
@@ -123,7 +123,7 @@ def sp_wifi(r, lv):
       opts=o, ans=0, ee='\\(IA^2=%d\\), \\(R^2=%d\\).' % (dot(v, v), R * R), ev='\\(IA^2=%d\\), \\(R^2=%d\\).' % (dot(v, v), R * R))
 def sp_ground(r, lv):
     I = (r.randint(-3, 3), r.randint(-3, 3), r.randint(1, 6)); R = I[2]
-    return dict(en='A ball with centre \\(I%s\\) rests on the floor \\((Oxy)\\). Its equation is…' % V3(I), vi='Quả bóng tâm \\(I%s\\) đặt trên sàn \\((Oxy)\\) (tiếp xúc với sàn). Phương trình mặt cầu là…' % V3(I),
+    return dict(en='A ball with center \\(I%s\\) rests on the floor \\((Oxy)\\). Its equation is…' % V3(I), vi='Quả bóng tâm \\(I%s\\) đặt trên sàn \\((Oxy)\\) (tiếp xúc với sàn). Phương trình mặt cầu là…' % V3(I),
       opts=pick_opts(r, sph(I, R * R), [sph(I, R), sph(I, dot(I, I)), sph(I, (R + 1) ** 2), sph(I, I[0] ** 2 + I[1] ** 2 if I[0] or I[1] else 1)]), ans=0,
       ee='\\(R=d(I,(Oxy))=|z_I|=%d\\).' % R, ev='\\(R=d(I,(Oxy))=|z_I|=%d\\).' % R)
 def sp_line(r, lv):
@@ -278,7 +278,7 @@ def by_test(r, lv):
 def tp_rain(r, lv):
     pr = _pct(r, 2, 6) * 10 / 10; pr = F(r.choice([2, 3, 4, 5, 6]), 10); lr, ln = F(r.choice([3, 4, 5, 6]), 10), F(r.choice([1, 2]), 10); c = pr * lr + (1 - pr) * ln
     return dict(en='It rains with probability %s. If it rains, Nam is late with probability %s; otherwise %s. \\(P(\\text{Nam is late})=\\)…' % (PE(pr), PE(lr), PE(ln)), vi='Xác suất trời mưa là %s. Nếu mưa, Nam đi học muộn với xác suất %s; nếu không mưa là %s. Xác suất Nam đi học muộn là…' % (P(pr), P(lr), P(ln)),
-      opts=popts(r, c, [lr + ln, pr * lr, (lr + ln) / 2, pr * lr + pr * ln, 1 - c]), ans=0, ee='Total probability.', ev='Xác suất toàn phần: \\(%s\\cdot%s+%s\\cdot%s=%s\\).' % (P(pr), P(lr), P(1 - pr), P(ln), P(c)))
+      opts=popts(r, c, [lr + ln, pr * lr, (lr + ln) / 2, pr * lr + pr * ln, 1 - c]), ans=0, ee='Total probability: \\(%s\\cdot%s+%s\\cdot%s=%s\\).' % (PE(pr), PE(lr), PE(1 - pr), PE(ln), PE(c)), ev='Xác suất toàn phần: \\(%s\\cdot%s+%s\\cdot%s=%s\\).' % (P(pr), P(lr), P(1 - pr), P(ln), P(c)))
 def by_spam(r, lv):
     s = F(r.choice([2, 3, 4, 5]), 10); w1, w0 = F(r.choice([4, 5, 6, 7, 8]), 10), F(r.choice([1, 2]), 20); pa = s * w1 + (1 - s) * w0; c = s * w1 / pa
     return dict(en='%s%% of e-mails are spam. The word "FREE" appears in %s%% of spam and %s%% of normal e-mails. An e-mail contains "FREE". \\(P(\\text{spam})=\\)…' % (PE(s * 100), PE(w1 * 100), PE(w0 * 100)), vi='%s%% thư là thư rác. Từ "FREE" xuất hiện trong %s%% thư rác và %s%% thư thường. Một thư có chữ "FREE". Xác suất đó là thư rác là…' % (P(s * 100), P(w1 * 100), P(w0 * 100)),

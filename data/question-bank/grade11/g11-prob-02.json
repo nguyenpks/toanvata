@@ -1,0 +1,1053 @@
+{
+ "lesson": "g11-prob-02",
+ "grade": 11,
+ "no": 29,
+ "title": "Công thức cộng xác suất",
+ "path": "lessons/grade11/probability-rules/addition-rule.html",
+ "items": [
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Independent events: \\(P(A)=#\\), \\(P(B)=#\\). \\(P(A\\cup B)=\\)…",
+   "en": "Independent events: \\(P(A)=0.5\\), \\(P(B)=0.4\\). \\(P(A\\cup B)=\\)…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"independent events\">Hai biến cố độc lập</b> với \\(P(A)=0{,}5\\), \\(P(B)=0{,}4\\). Khi đó \\(P(A\\cup B)=\\)…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(0.2\\)</span><span class=\"vi\">\\(0{,}2\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.9\\)</span><span class=\"vi\">\\(0{,}9\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.7\\)</span><span class=\"vi\">\\(0{,}7\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.3\\)</span><span class=\"vi\">\\(0{,}3\\)</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(P(A)+P(B)-P(A)P(B)=0.5+0.4-0.5\\cdot0.4=0.7\\).",
+   "explain_vi": "Đáp án c. \\(P(A)+P(B)-P(A)P(B)=0{,}5+0{,}4-0{,}5\\cdot0{,}4=0{,}7\\).",
+   "images": [],
+   "id": "c3abdb503d7b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Of # students, # like math, # like English, # like both. P(a random student likes exactly one of them) =…",
+   "en": "Of 40 students, 22 like math, 18 like English, 8 like both. P(a random student likes exactly one of them) =…",
+   "vi": "Trong 40 học sinh có 22 em thích Toán, 18 em thích Tiếng Anh, 8 em thích cả hai. Chọn ngẫu nhiên một em. Xác suất em đó thích đúng một trong hai môn là…",
+   "options": [
+    "\\(\\dfrac{4}{5}\\)",
+    "\\(\\dfrac{1}{5}\\)",
+    "\\(\\dfrac{3}{5}\\)",
+    "\\(\\dfrac{7}{20}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Exactly one: \\(\\dfrac{22+18-2\\cdot8}{40}=\\dfrac{3}{5}\\).",
+   "explain_vi": "Đáp án c. Đúng một: \\(\\dfrac{22+18-2\\cdot8}{40}=\\dfrac{3}{5}\\).",
+   "images": [],
+   "id": "75bc03fca124",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(P(A)=#\\), \\(P(B)=#\\), \\(P(AB)=#\\). \\(P(\\overline A\\,\\overline B)=\\)…",
+   "en": "\\(P(A)=0.6\\), \\(P(B)=0.5\\), \\(P(AB)=0.3\\). \\(P(\\overline A\\,\\overline B)=\\)…",
+   "vi": "Cho \\(P(A)=0{,}6\\), \\(P(B)=0{,}5\\), \\(P(AB)=0{,}3\\). Khi đó \\(P(\\overline A\\,\\overline B)=\\)…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(0.2\\)</span><span class=\"vi\">\\(0{,}2\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.8\\)</span><span class=\"vi\">\\(0{,}8\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.7\\)</span><span class=\"vi\">\\(0{,}7\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.1\\)</span><span class=\"vi\">\\(0{,}1\\)</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\overline A\\,\\overline B\\) is the complement of \\(A\\cup B\\): \\(1-(0.6+0.5-0.3)=0.2\\).",
+   "explain_vi": "Đáp án a. \\(\\overline A\\,\\overline B\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"complementary event\">biến cố đối</b> của \\(A\\cup B\\): \\(1-(0{,}6+0{,}5-0{,}3)=0{,}2\\).",
+   "images": [],
+   "id": "9fe30b9c1df5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "If \\(P(A)=#\\), \\(P(B)=#\\) and \\(A\\), \\(B\\) are mutually exclusive, then \\(P(A\\cup B)=#\\).",
+   "en": "If \\(P(A)=0.4\\), \\(P(B)=0.3\\) and \\(A\\), \\(B\\) are mutually exclusive, then \\(P(A\\cup B)=0.7\\).",
+   "vi": "Nếu \\(P(A)=0{,}4\\), \\(P(B)=0{,}3\\) và \\(A\\), \\(B\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"mutually exclusive\">xung khắc</b> thì \\(P(A\\cup B)=0{,}7\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "Check with the addition rule.",
+   "explain_vi": "Kiểm tra bằng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"addition formula\">công thức cộng</b>.",
+   "images": [],
+   "id": "75c669ac273d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "Two events with \\(P(A)=#\\) and \\(P(B)=#\\) can be mutually exclusive.",
+   "en": "Two events with \\(P(A)=0.7\\) and \\(P(B)=0.6\\) can be mutually exclusive.",
+   "vi": "Có hai biến cố <b class=\"mbl-term\" tabindex=\"0\" data-en=\"mutually exclusive\">xung khắc</b> với \\(P(A)=0{,}7\\) và \\(P(B)=0{,}6\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "Probabilities never exceed 1.",
+   "explain_vi": "Xác suất không vượt quá 1; xem lại điều kiện <b class=\"mbl-term\" tabindex=\"0\" data-en=\"mutually exclusive\">xung khắc</b>.",
+   "images": [],
+   "id": "77d8777b349a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "Tickets #–#. How many tickets are divisible by neither # nor #?",
+   "en": "Tickets 1–60. How many tickets are divisible by neither 2 nor 3?",
+   "vi": "Có 60 vé đánh số từ 1 đến 60. Có bao nhiêu vé có số không chia hết cho 2 và không chia hết cho 3?",
+   "options": [],
+   "answer": "20",
+   "explain_en": "\\(N-n(A\\cup B)=60-(30+20-10)=20\\).",
+   "explain_vi": "\\(N-n(A\\cup B)=60-(30+20-10)=20\\).",
+   "images": [],
+   "id": "9927f3fc82c7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "Two alarms ring independently with probabilities # and #. P(at least one rings), in percent, is…",
+   "en": "Two alarms ring independently with probabilities 0.9 and 0.8. P(at least one rings), in percent, is…",
+   "vi": "Hai chuông báo động hoạt động độc lập, xác suất reo khi có sự cố <b class=\"mbl-term\" tabindex=\"0\" data-en=\"respectively\">lần lượt</b> là 0{,}9 và 0{,}8. Xác suất có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"at least one\">ít nhất một</b> chuông reo bằng bao nhiêu phần trăm?",
+   "options": [],
+   "answer": "98",
+   "explain_en": "\\(1-P(\\overline A)P(\\overline B)=1-(1-0.9)(1-0.8)=0.98\\), i.e. 98%.",
+   "explain_vi": "\\(1-P(\\overline A)P(\\overline B)=1-(1-0{,}9)(1-0{,}8)=0{,}98\\), tức là 98%.",
+   "images": [],
+   "id": "d093ac9c6404",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "# dice are rolled. P(at least one shows #) =…",
+   "en": "2 dice are rolled. P(at least one shows 4) =…",
+   "vi": "Gieo 2 con xúc xắc. Xác suất có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"at least one\">ít nhất một</b> con xuất hiện mặt 4 chấm là…",
+   "options": [
+    "\\(\\dfrac{25}{36}\\)",
+    "\\(\\dfrac{1}{36}\\)",
+    "\\(\\dfrac{1}{3}\\)",
+    "\\(\\dfrac{11}{36}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Complementary event \"no die shows 4\": \\(\\left(\\dfrac56\\right)^2\\); subtract it from 1: \\(P=\\dfrac{11}{36}\\).",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"complementary event\">Biến cố đối</b> \"không con nào ra mặt 4\": \\(\\left(\\dfrac56\\right)^2\\); lấy 1 trừ đi: \\(P=\\dfrac{11}{36}\\).",
+   "images": [],
+   "id": "afc393df80f0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "A number is chosen at random from # to #. P(divisible by # or by #) =…",
+   "en": "A number is chosen at random from 1 to 20. P(divisible by 3 or by 4) =…",
+   "vi": "Chọn ngẫu nhiên một số từ 1 đến 20. Xác suất số đó chia hết cho 3 hoặc cho 4 là…",
+   "options": [
+    "\\(\\dfrac{1}{20}\\)",
+    "\\(\\dfrac{1}{2}\\)",
+    "\\(\\dfrac{11}{20}\\)",
+    "\\(\\dfrac{3}{10}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Addition rule: \\(6+5-1=10\\) numbers (subtract the numbers divisible by both), so \\(P=\\dfrac{1}{2}\\).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"addition formula\">Công thức cộng</b>: \\(6+5-1=10\\) số (trừ các số chia hết cho cả hai), nên \\(P=\\dfrac{1}{2}\\).",
+   "images": [],
+   "id": "e0f7405a8280",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "In a class of # students, # play football, # play badminton and # play both. A student is chosen at random. P(plays at least one of the two) =…",
+   "en": "In a class of 50 students, 17 play football, 19 play badminton and 4 play both. A student is chosen at random. P(plays at least one of the two) =…",
+   "vi": "Một lớp có 50 học sinh, 17 em chơi bóng đá, 19 em chơi cầu lông, 4 em chơi cả hai. Chọn ngẫu nhiên một em. Xác suất em đó chơi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"at least one\">ít nhất một</b> trong hai môn là…",
+   "options": [
+    "\\(\\dfrac{18}{25}\\)",
+    "\\(\\dfrac{14}{25}\\)",
+    "\\(\\dfrac{16}{25}\\)",
+    "\\(\\dfrac{2}{25}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(P(A\\cup B)=\\dfrac{17}{50}+\\dfrac{19}{50}-\\dfrac{4}{50}=\\dfrac{16}{25}\\).",
+   "explain_vi": "Đáp án c. \\(P(A\\cup B)=\\dfrac{17}{50}+\\dfrac{19}{50}-\\dfrac{4}{50}=\\dfrac{16}{25}\\).",
+   "images": [],
+   "id": "48633e554787",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "In a survey of # people, # read newspaper X, # read Y, # read both. P(a random person reads neither) =…",
+   "en": "In a survey of 40 people, 20 read newspaper X, 12 read Y, 7 read both. P(a random person reads neither) =…",
+   "vi": "Khảo sát 40 người: 20 người đọc báo X, 12 người đọc báo Y, 7 người đọc cả hai. Chọn ngẫu nhiên một người. Xác suất người đó không đọc báo nào là…",
+   "options": [
+    "\\(\\dfrac{3}{8}\\)",
+    "\\(\\dfrac{7}{40}\\)",
+    "\\(\\dfrac{5}{8}\\)",
+    "\\(\\dfrac{1}{5}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(1-P(X\\cup Y)=1-\\dfrac{20+12-7}{40}=\\dfrac{3}{8}\\).",
+   "explain_vi": "Đáp án a. \\(1-P(X\\cup Y)=1-\\dfrac{20+12-7}{40}=\\dfrac{3}{8}\\).",
+   "images": [],
+   "id": "aa3ab6dc332d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(A\\), \\(B\\) are mutually exclusive, \\(P(A)=#\\), \\(P(B)=#\\). Then \\(P(A\\cup B)=\\)…",
+   "en": "\\(A\\), \\(B\\) are mutually exclusive, \\(P(A)=0.1\\), \\(P(B)=0.4\\). Then \\(P(A\\cup B)=\\)…",
+   "vi": "Hai biến cố \\(A\\), \\(B\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"mutually exclusive\">xung khắc</b>, \\(P(A)=0{,}1\\), \\(P(B)=0{,}4\\). Khi đó \\(P(A\\cup B)=\\)…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(0.3\\)</span><span class=\"vi\">\\(0{,}3\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.04\\)</span><span class=\"vi\">\\(0{,}04\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.5\\)</span><span class=\"vi\">\\(0{,}5\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.46\\)</span><span class=\"vi\">\\(0{,}46\\)</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Mutually exclusive, so \\(P(AB)=0\\): \\(P(A\\cup B)=0.1+0.4=0.5\\).",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"mutually exclusive\">Xung khắc</b> nên \\(P(AB)=0\\): \\(P(A\\cup B)=0{,}1+0{,}4=0{,}5\\).",
+   "images": [],
+   "id": "a04746117ae6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(P(A)=#\\), \\(P(B)=#\\), \\(P(AB)=#\\). Then \\(P(A\\cup B)=\\)…",
+   "en": "\\(P(A)=0.4\\), \\(P(B)=0.5\\), \\(P(AB)=0.2\\). Then \\(P(A\\cup B)=\\)…",
+   "vi": "Cho \\(P(A)=0{,}4\\), \\(P(B)=0{,}5\\), \\(P(AB)=0{,}2\\). Khi đó \\(P(A\\cup B)=\\)…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(0.7\\)</span><span class=\"vi\">\\(0{,}7\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.5\\)</span><span class=\"vi\">\\(0{,}5\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.2\\)</span><span class=\"vi\">\\(0{,}2\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.9\\)</span><span class=\"vi\">\\(0{,}9\\)</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Addition rule: \\(0.4+0.5-0.2=0.7\\).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"addition formula\">Công thức cộng</b>: \\(0{,}4+0{,}5-0{,}2=0{,}7\\).",
+   "images": [],
+   "id": "2f353f8901ef",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(P(A)=#\\), \\(P(B)=#\\), \\(P(AB)=#\\). Then \\(P(A\\cup B)=\\)…",
+   "en": "\\(P(A)=0.75\\), \\(P(B)=0.25\\), \\(P(AB)=0.1\\). Then \\(P(A\\cup B)=\\)…",
+   "vi": "Cho \\(P(A)=0{,}75\\), \\(P(B)=0{,}25\\), \\(P(AB)=0{,}1\\). Khi đó \\(P(A\\cup B)=\\)…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(0.9\\)</span><span class=\"vi\">\\(0{,}9\\)</span></span>",
+    "\\(1\\)",
+    "<span class=\"txi\"><span class=\"en\">\\(0.1875\\)</span><span class=\"vi\">\\(0{,}1875\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.8\\)</span><span class=\"vi\">\\(0{,}8\\)</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Addition rule: \\(0.75+0.25-0.1=0.9\\).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"addition formula\">Công thức cộng</b>: \\(0{,}75+0{,}25-0{,}1=0{,}9\\).",
+   "images": [],
+   "id": "dca44248dc43",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(P(A)=#\\), \\(P(B)=#\\), \\(P(A\\cup B)=#\\). Then \\(P(AB)=\\)…",
+   "en": "\\(P(A)=0.75\\), \\(P(B)=0.6\\), \\(P(A\\cup B)=1\\). Then \\(P(AB)=\\)…",
+   "vi": "Cho \\(P(A)=0{,}75\\), \\(P(B)=0{,}6\\), \\(P(A\\cup B)=1\\). Khi đó \\(P(AB)=\\)…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(0.25\\)</span><span class=\"vi\">\\(0{,}25\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.35\\)</span><span class=\"vi\">\\(0{,}35\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.45\\)</span><span class=\"vi\">\\(0{,}45\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.4\\)</span><span class=\"vi\">\\(0{,}4\\)</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(P(AB)=P(A)+P(B)-P(A\\cup B)=0.75+0.6-1=0.35\\).",
+   "explain_vi": "Đáp án b. \\(P(AB)=P(A)+P(B)-P(A\\cup B)=0{,}75+0{,}6-1=0{,}35\\).",
+   "images": [],
+   "id": "8a1668c788db",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Independent events: \\(P(A)=#\\), \\(P(B)=#\\). \\(P(A\\cup B)=\\)…",
+   "en": "Independent events: \\(P(A)=0.6\\), \\(P(B)=0.7\\). \\(P(A\\cup B)=\\)…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"independent events\">Hai biến cố độc lập</b> với \\(P(A)=0{,}6\\), \\(P(B)=0{,}7\\). Khi đó \\(P(A\\cup B)=\\)…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(0.42\\)</span><span class=\"vi\">\\(0{,}42\\)</span></span>",
+    "\\(1\\)",
+    "<span class=\"txi\"><span class=\"en\">\\(0.12\\)</span><span class=\"vi\">\\(0{,}12\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.88\\)</span><span class=\"vi\">\\(0{,}88\\)</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(P(A)+P(B)-P(A)P(B)=0.6+0.7-0.6\\cdot0.7=0.88\\).",
+   "explain_vi": "Đáp án d. \\(P(A)+P(B)-P(A)P(B)=0{,}6+0{,}7-0{,}6\\cdot0{,}7=0{,}88\\).",
+   "images": [],
+   "id": "f520ae17f57f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Of # students, # like math, # like English, # like both. P(a random student likes exactly one of them) =…",
+   "en": "Of 45 students, 20 like math, 25 like English, 12 like both. P(a random student likes exactly one of them) =…",
+   "vi": "Trong 45 học sinh có 20 em thích Toán, 25 em thích Tiếng Anh, 12 em thích cả hai. Chọn ngẫu nhiên một em. Xác suất em đó thích đúng một trong hai môn là…",
+   "options": [
+    "\\(\\dfrac{11}{15}\\)",
+    "\\(\\dfrac{4}{15}\\)",
+    "\\(\\dfrac{8}{45}\\)",
+    "\\(\\dfrac{7}{15}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Exactly one: \\(\\dfrac{20+25-2\\cdot12}{45}=\\dfrac{7}{15}\\).",
+   "explain_vi": "Đáp án d. Đúng một: \\(\\dfrac{20+25-2\\cdot12}{45}=\\dfrac{7}{15}\\).",
+   "images": [],
+   "id": "10082b375767",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(P(A)=#\\), \\(P(B)=#\\), \\(P(AB)=#\\). \\(P(\\overline A\\,\\overline B)=\\)…",
+   "en": "\\(P(A)=0.7\\), \\(P(B)=0.4\\), \\(P(AB)=0.2\\). \\(P(\\overline A\\,\\overline B)=\\)…",
+   "vi": "Cho \\(P(A)=0{,}7\\), \\(P(B)=0{,}4\\), \\(P(AB)=0{,}2\\). Khi đó \\(P(\\overline A\\,\\overline B)=\\)…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(0.1\\)</span><span class=\"vi\">\\(0{,}1\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.9\\)</span><span class=\"vi\">\\(0{,}9\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.18\\)</span><span class=\"vi\">\\(0{,}18\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.8\\)</span><span class=\"vi\">\\(0{,}8\\)</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\overline A\\,\\overline B\\) is the complement of \\(A\\cup B\\): \\(1-(0.7+0.4-0.2)=0.1\\).",
+   "explain_vi": "Đáp án a. \\(\\overline A\\,\\overline B\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"complementary event\">biến cố đối</b> của \\(A\\cup B\\): \\(1-(0{,}7+0{,}4-0{,}2)=0{,}1\\).",
+   "images": [],
+   "id": "38f11d59382f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "For any events, \\(P(A\\cup B)=P(A)+P(B)\\).",
+   "en": "For any events, \\(P(A\\cup B)=P(A)+P(B)\\).",
+   "vi": "Với hai biến cố bất kì, \\(P(A\\cup B)=P(A)+P(B)\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "Probabilities never exceed 1.",
+   "explain_vi": "Xác suất không vượt quá 1; xem lại điều kiện <b class=\"mbl-term\" tabindex=\"0\" data-en=\"mutually exclusive\">xung khắc</b>.",
+   "images": [],
+   "id": "4c905df57092",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "For any events, \\(P(A\\cup B)\\le P(A)+P(B)\\).",
+   "en": "For any events, \\(P(A\\cup B)\\le P(A)+P(B)\\).",
+   "vi": "Với hai biến cố bất kì, \\(P(A\\cup B)\\le P(A)+P(B)\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "Check with the addition rule.",
+   "explain_vi": "Kiểm tra bằng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"addition formula\">công thức cộng</b>.",
+   "images": [],
+   "id": "2948bdeed2fe",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "Tickets #–#. How many tickets are divisible by neither # nor #?",
+   "en": "Tickets 1–100. How many tickets are divisible by neither 4 nor 10?",
+   "vi": "Có 100 vé đánh số từ 1 đến 100. Có bao nhiêu vé có số không chia hết cho 4 và không chia hết cho 10?",
+   "options": [],
+   "answer": "70",
+   "explain_en": "\\(N-n(A\\cup B)=100-(25+10-5)=70\\).",
+   "explain_vi": "\\(N-n(A\\cup B)=100-(25+10-5)=70\\).",
+   "images": [],
+   "id": "66a2c5bb03ad",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "Two alarms ring independently with probabilities # and #. P(at least one rings), in percent, is…",
+   "en": "Two alarms ring independently with probabilities 0.7 and 0.6. P(at least one rings), in percent, is…",
+   "vi": "Hai chuông báo động hoạt động độc lập, xác suất reo khi có sự cố <b class=\"mbl-term\" tabindex=\"0\" data-en=\"respectively\">lần lượt</b> là 0{,}7 và 0{,}6. Xác suất có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"at least one\">ít nhất một</b> chuông reo bằng bao nhiêu phần trăm?",
+   "options": [],
+   "answer": "88",
+   "explain_en": "\\(1-P(\\overline A)P(\\overline B)=1-(1-0.7)(1-0.6)=0.88\\), i.e. 88%.",
+   "explain_vi": "\\(1-P(\\overline A)P(\\overline B)=1-(1-0{,}7)(1-0{,}6)=0{,}88\\), tức là 88%.",
+   "images": [],
+   "id": "722bc28d1c11",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "# dice are rolled. P(at least one shows #) =…",
+   "en": "3 dice are rolled. P(at least one shows 1) =…",
+   "vi": "Gieo 3 con xúc xắc. Xác suất có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"at least one\">ít nhất một</b> con xuất hiện mặt 1 chấm là…",
+   "options": [
+    "\\(\\dfrac{125}{216}\\)",
+    "\\(\\dfrac{1}{216}\\)",
+    "\\(\\dfrac{91}{216}\\)",
+    "\\(\\dfrac{1}{2}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Complementary event \"no die shows 1\": \\(\\left(\\dfrac56\\right)^3\\); subtract it from 1: \\(P=\\dfrac{91}{216}\\).",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"complementary event\">Biến cố đối</b> \"không con nào ra mặt 1\": \\(\\left(\\dfrac56\\right)^3\\); lấy 1 trừ đi: \\(P=\\dfrac{91}{216}\\).",
+   "images": [],
+   "id": "15f93dcdd2ce",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "A number is chosen at random from # to #. P(divisible by # or by #) =…",
+   "en": "A number is chosen at random from 1 to 20. P(divisible by 2 or by 5) =…",
+   "vi": "Chọn ngẫu nhiên một số từ 1 đến 20. Xác suất số đó chia hết cho 2 hoặc cho 5 là…",
+   "options": [
+    "\\(\\dfrac{3}{5}\\)",
+    "\\(\\dfrac{13}{20}\\)",
+    "\\(\\dfrac{7}{10}\\)",
+    "\\(\\dfrac{1}{10}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Addition rule: \\(10+4-2=12\\) numbers (subtract the numbers divisible by both), so \\(P=\\dfrac{3}{5}\\).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"addition formula\">Công thức cộng</b>: \\(10+4-2=12\\) số (trừ các số chia hết cho cả hai), nên \\(P=\\dfrac{3}{5}\\).",
+   "images": [],
+   "id": "064facf402d9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "In a class of # students, # play football, # play badminton and # play both. A student is chosen at random. P(plays at least one of the two) =…",
+   "en": "In a class of 40 students, 16 play football, 17 play badminton and 10 play both. A student is chosen at random. P(plays at least one of the two) =…",
+   "vi": "Một lớp có 40 học sinh, 16 em chơi bóng đá, 17 em chơi cầu lông, 10 em chơi cả hai. Chọn ngẫu nhiên một em. Xác suất em đó chơi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"at least one\">ít nhất một</b> trong hai môn là…",
+   "options": [
+    "\\(\\dfrac{13}{40}\\)",
+    "\\(\\dfrac{33}{40}\\)",
+    "\\(\\dfrac{1}{4}\\)",
+    "\\(\\dfrac{23}{40}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(P(A\\cup B)=\\dfrac{16}{40}+\\dfrac{17}{40}-\\dfrac{10}{40}=\\dfrac{23}{40}\\).",
+   "explain_vi": "Đáp án d. \\(P(A\\cup B)=\\dfrac{16}{40}+\\dfrac{17}{40}-\\dfrac{10}{40}=\\dfrac{23}{40}\\).",
+   "images": [],
+   "id": "e028179b4497",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "In a survey of # people, # read newspaper X, # read Y, # read both. P(a random person reads neither) =…",
+   "en": "In a survey of 50 people, 16 read newspaper X, 10 read Y, 4 read both. P(a random person reads neither) =…",
+   "vi": "Khảo sát 50 người: 16 người đọc báo X, 10 người đọc báo Y, 4 người đọc cả hai. Chọn ngẫu nhiên một người. Xác suất người đó không đọc báo nào là…",
+   "options": [
+    "\\(\\dfrac{12}{25}\\)",
+    "\\(\\dfrac{11}{25}\\)",
+    "\\(\\dfrac{2}{25}\\)",
+    "\\(\\dfrac{14}{25}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(1-P(X\\cup Y)=1-\\dfrac{16+10-4}{50}=\\dfrac{14}{25}\\).",
+   "explain_vi": "Đáp án d. \\(1-P(X\\cup Y)=1-\\dfrac{16+10-4}{50}=\\dfrac{14}{25}\\).",
+   "images": [],
+   "id": "0e22a635d2eb",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(A\\), \\(B\\) are mutually exclusive, \\(P(A)=#\\), \\(P(B)=#\\). Then \\(P(A\\cup B)=\\)…",
+   "en": "\\(A\\), \\(B\\) are mutually exclusive, \\(P(A)=0.2\\), \\(P(B)=0.5\\). Then \\(P(A\\cup B)=\\)…",
+   "vi": "Hai biến cố \\(A\\), \\(B\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"mutually exclusive\">xung khắc</b>, \\(P(A)=0{,}2\\), \\(P(B)=0{,}5\\). Khi đó \\(P(A\\cup B)=\\)…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(0.1\\)</span><span class=\"vi\">\\(0{,}1\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.7\\)</span><span class=\"vi\">\\(0{,}7\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.6\\)</span><span class=\"vi\">\\(0{,}6\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.3\\)</span><span class=\"vi\">\\(0{,}3\\)</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Mutually exclusive, so \\(P(AB)=0\\): \\(P(A\\cup B)=0.2+0.5=0.7\\).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"mutually exclusive\">Xung khắc</b> nên \\(P(AB)=0\\): \\(P(A\\cup B)=0{,}2+0{,}5=0{,}7\\).",
+   "images": [],
+   "id": "1f2e047679a1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(P(A)=#\\), \\(P(B)=#\\), \\(P(AB)=#\\). Then \\(P(A\\cup B)=\\)…",
+   "en": "\\(P(A)=0.25\\), \\(P(B)=0.4\\), \\(P(AB)=0.2\\). Then \\(P(A\\cup B)=\\)…",
+   "vi": "Cho \\(P(A)=0{,}25\\), \\(P(B)=0{,}4\\), \\(P(AB)=0{,}2\\). Khi đó \\(P(A\\cup B)=\\)…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(0.45\\)</span><span class=\"vi\">\\(0{,}45\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.1\\)</span><span class=\"vi\">\\(0{,}1\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.25\\)</span><span class=\"vi\">\\(0{,}25\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.65\\)</span><span class=\"vi\">\\(0{,}65\\)</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Addition rule: \\(0.25+0.4-0.2=0.45\\).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"addition formula\">Công thức cộng</b>: \\(0{,}25+0{,}4-0{,}2=0{,}45\\).",
+   "images": [],
+   "id": "f2b9205ba9c4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(P(A)=#\\), \\(P(B)=#\\), \\(P(AB)=#\\). Then \\(P(A\\cup B)=\\)…",
+   "en": "\\(P(A)=0.5\\), \\(P(B)=0.6\\), \\(P(AB)=0.3\\). Then \\(P(A\\cup B)=\\)…",
+   "vi": "Cho \\(P(A)=0{,}5\\), \\(P(B)=0{,}6\\), \\(P(AB)=0{,}3\\). Khi đó \\(P(A\\cup B)=\\)…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(0.5\\)</span><span class=\"vi\">\\(0{,}5\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.8\\)</span><span class=\"vi\">\\(0{,}8\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(1.1\\)</span><span class=\"vi\">\\(1{,}1\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.3\\)</span><span class=\"vi\">\\(0{,}3\\)</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Addition rule: \\(0.5+0.6-0.3=0.8\\).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"addition formula\">Công thức cộng</b>: \\(0{,}5+0{,}6-0{,}3=0{,}8\\).",
+   "images": [],
+   "id": "7502f7060c73",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(P(A)=#\\), \\(P(B)=#\\), \\(P(A\\cup B)=#\\). Then \\(P(AB)=\\)…",
+   "en": "\\(P(A)=0.25\\), \\(P(B)=0.7\\), \\(P(A\\cup B)=0.9\\). Then \\(P(AB)=\\)…",
+   "vi": "Cho \\(P(A)=0{,}25\\), \\(P(B)=0{,}7\\), \\(P(A\\cup B)=0{,}9\\). Khi đó \\(P(AB)=\\)…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(0.05\\)</span><span class=\"vi\">\\(0{,}05\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.65\\)</span><span class=\"vi\">\\(0{,}65\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.2\\)</span><span class=\"vi\">\\(0{,}2\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.175\\)</span><span class=\"vi\">\\(0{,}175\\)</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(P(AB)=P(A)+P(B)-P(A\\cup B)=0.25+0.7-0.9=0.05\\).",
+   "explain_vi": "Đáp án a. \\(P(AB)=P(A)+P(B)-P(A\\cup B)=0{,}25+0{,}7-0{,}9=0{,}05\\).",
+   "images": [],
+   "id": "9334f04b4540",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Independent events: \\(P(A)=#\\), \\(P(B)=#\\). \\(P(A\\cup B)=\\)…",
+   "en": "Independent events: \\(P(A)=0.8\\), \\(P(B)=0.3\\). \\(P(A\\cup B)=\\)…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"independent events\">Hai biến cố độc lập</b> với \\(P(A)=0{,}8\\), \\(P(B)=0{,}3\\). Khi đó \\(P(A\\cup B)=\\)…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(0.24\\)</span><span class=\"vi\">\\(0{,}24\\)</span></span>",
+    "\\(1\\)",
+    "<span class=\"txi\"><span class=\"en\">\\(0.14\\)</span><span class=\"vi\">\\(0{,}14\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.86\\)</span><span class=\"vi\">\\(0{,}86\\)</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(P(A)+P(B)-P(A)P(B)=0.8+0.3-0.8\\cdot0.3=0.86\\).",
+   "explain_vi": "Đáp án d. \\(P(A)+P(B)-P(A)P(B)=0{,}8+0{,}3-0{,}8\\cdot0{,}3=0{,}86\\).",
+   "images": [],
+   "id": "cc53def42c78",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Of # students, # like math, # like English, # like both. P(a random student likes exactly one of them) =…",
+   "en": "Of 50 students, 28 like math, 21 like English, 9 like both. P(a random student likes exactly one of them) =…",
+   "vi": "Trong 50 học sinh có 28 em thích Toán, 21 em thích Tiếng Anh, 9 em thích cả hai. Chọn ngẫu nhiên một em. Xác suất em đó thích đúng một trong hai môn là…",
+   "options": [
+    "\\(\\dfrac{31}{50}\\)",
+    "\\(\\dfrac{4}{5}\\)",
+    "\\(\\dfrac{9}{50}\\)",
+    "\\(\\dfrac{1}{5}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Exactly one: \\(\\dfrac{28+21-2\\cdot9}{50}=\\dfrac{31}{50}\\).",
+   "explain_vi": "Đáp án a. Đúng một: \\(\\dfrac{28+21-2\\cdot9}{50}=\\dfrac{31}{50}\\).",
+   "images": [],
+   "id": "243634b20c94",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(P(A)=#\\), \\(P(B)=#\\), \\(P(AB)=#\\). \\(P(\\overline A\\,\\overline B)=\\)…",
+   "en": "\\(P(A)=0.5\\), \\(P(B)=0.6\\), \\(P(AB)=0.4\\). \\(P(\\overline A\\,\\overline B)=\\)…",
+   "vi": "Cho \\(P(A)=0{,}5\\), \\(P(B)=0{,}6\\), \\(P(AB)=0{,}4\\). Khi đó \\(P(\\overline A\\,\\overline B)=\\)…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(0.3\\)</span><span class=\"vi\">\\(0{,}3\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.7\\)</span><span class=\"vi\">\\(0{,}7\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.2\\)</span><span class=\"vi\">\\(0{,}2\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.6\\)</span><span class=\"vi\">\\(0{,}6\\)</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\overline A\\,\\overline B\\) is the complement of \\(A\\cup B\\): \\(1-(0.5+0.6-0.4)=0.3\\).",
+   "explain_vi": "Đáp án a. \\(\\overline A\\,\\overline B\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"complementary event\">biến cố đối</b> của \\(A\\cup B\\): \\(1-(0{,}5+0{,}6-0{,}4)=0{,}3\\).",
+   "images": [],
+   "id": "1ed3c351d3d5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "If \\(P(A\\cup B)=P(A)+P(B)\\) and \\(P(A),P(B)>#\\), then \\(A\\), \\(B\\) cannot be independent.",
+   "en": "If \\(P(A\\cup B)=P(A)+P(B)\\) and \\(P(A),P(B)>0\\), then \\(A\\), \\(B\\) cannot be independent.",
+   "vi": "Nếu \\(P(A\\cup B)=P(A)+P(B)\\) và \\(P(A),P(B)>0\\) thì \\(A\\), \\(B\\) không thể độc lập.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "Check with the addition rule.",
+   "explain_vi": "Kiểm tra bằng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"addition formula\">công thức cộng</b>.",
+   "images": [],
+   "id": "58daf55d169a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(P(\\text{exactly one})=P(A)+P(B)-P(AB)\\).",
+   "en": "\\(P(\\text{exactly one})=P(A)+P(B)-P(AB)\\).",
+   "vi": "\\(P(\\text{đúng một trong hai})=P(A)+P(B)-P(AB)\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "Probabilities never exceed 1.",
+   "explain_vi": "Xác suất không vượt quá 1; xem lại điều kiện <b class=\"mbl-term\" tabindex=\"0\" data-en=\"mutually exclusive\">xung khắc</b>.",
+   "images": [],
+   "id": "8e7c4235aeb5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Tickets #–#. How many tickets are divisible by neither # nor #?",
+   "en": "Tickets 1–90. How many tickets are divisible by neither 6 nor 9?",
+   "vi": "Có 90 vé đánh số từ 1 đến 90. Có bao nhiêu vé có số không chia hết cho 6 và không chia hết cho 9?",
+   "options": [],
+   "answer": "70",
+   "explain_en": "\\(N-n(A\\cup B)=90-(15+10-5)=70\\).",
+   "explain_vi": "\\(N-n(A\\cup B)=90-(15+10-5)=70\\).",
+   "images": [],
+   "id": "ba4d1de9e83a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Two alarms ring independently with probabilities # and #. P(at least one rings), in percent, is…",
+   "en": "Two alarms ring independently with probabilities 0.5 and 0.4. P(at least one rings), in percent, is…",
+   "vi": "Hai chuông báo động hoạt động độc lập, xác suất reo khi có sự cố <b class=\"mbl-term\" tabindex=\"0\" data-en=\"respectively\">lần lượt</b> là 0{,}5 và 0{,}4. Xác suất có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"at least one\">ít nhất một</b> chuông reo bằng bao nhiêu phần trăm?",
+   "options": [],
+   "answer": "70",
+   "explain_en": "\\(1-P(\\overline A)P(\\overline B)=1-(1-0.5)(1-0.4)=0.7\\), i.e. 70%.",
+   "explain_vi": "\\(1-P(\\overline A)P(\\overline B)=1-(1-0{,}5)(1-0{,}4)=0{,}7\\), tức là 70%.",
+   "images": [],
+   "id": "a86ec01781a3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "# dice are rolled. P(at least one shows #) =…",
+   "en": "2 dice are rolled. P(at least one shows 6) =…",
+   "vi": "Gieo 2 con xúc xắc. Xác suất có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"at least one\">ít nhất một</b> con xuất hiện mặt 6 chấm là…",
+   "options": [
+    "\\(\\dfrac{25}{36}\\)",
+    "\\(\\dfrac{1}{36}\\)",
+    "\\(\\dfrac{1}{3}\\)",
+    "\\(\\dfrac{11}{36}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Complementary event \"no die shows 6\": \\(\\left(\\dfrac56\\right)^2\\); subtract it from 1: \\(P=\\dfrac{11}{36}\\).",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"complementary event\">Biến cố đối</b> \"không con nào ra mặt 6\": \\(\\left(\\dfrac56\\right)^2\\); lấy 1 trừ đi: \\(P=\\dfrac{11}{36}\\).",
+   "images": [],
+   "id": "7eb84d49ed35",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "A number is chosen at random from # to #. P(divisible by # or by #) =…",
+   "en": "A number is chosen at random from 1 to 30. P(divisible by 2 or by 5) =…",
+   "vi": "Chọn ngẫu nhiên một số từ 1 đến 30. Xác suất số đó chia hết cho 2 hoặc cho 5 là…",
+   "options": [
+    "\\(\\dfrac{7}{10}\\)",
+    "\\(\\dfrac{19}{30}\\)",
+    "\\(\\dfrac{3}{5}\\)",
+    "\\(\\dfrac{1}{10}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Addition rule: \\(15+6-3=18\\) numbers (subtract the numbers divisible by both), so \\(P=\\dfrac{3}{5}\\).",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"addition formula\">Công thức cộng</b>: \\(15+6-3=18\\) số (trừ các số chia hết cho cả hai), nên \\(P=\\dfrac{3}{5}\\).",
+   "images": [],
+   "id": "69870b812827",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "In a class of # students, # play football, # play badminton and # play both. A student is chosen at random. P(plays at least one of the two) =…",
+   "en": "In a class of 45 students, 13 play football, 17 play badminton and 10 play both. A student is chosen at random. P(plays at least one of the two) =…",
+   "vi": "Một lớp có 45 học sinh, 13 em chơi bóng đá, 17 em chơi cầu lông, 10 em chơi cả hai. Chọn ngẫu nhiên một em. Xác suất em đó chơi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"at least one\">ít nhất một</b> trong hai môn là…",
+   "options": [
+    "\\(\\dfrac{2}{9}\\)",
+    "\\(\\dfrac{5}{9}\\)",
+    "\\(\\dfrac{2}{3}\\)",
+    "\\(\\dfrac{4}{9}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(P(A\\cup B)=\\dfrac{13}{45}+\\dfrac{17}{45}-\\dfrac{10}{45}=\\dfrac{4}{9}\\).",
+   "explain_vi": "Đáp án d. \\(P(A\\cup B)=\\dfrac{13}{45}+\\dfrac{17}{45}-\\dfrac{10}{45}=\\dfrac{4}{9}\\).",
+   "images": [],
+   "id": "42e00bd8e103",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "In a survey of # people, # read newspaper X, # read Y, # read both. P(a random person reads neither) =…",
+   "en": "In a survey of 40 people, 19 read newspaper X, 10 read Y, 3 read both. P(a random person reads neither) =…",
+   "vi": "Khảo sát 40 người: 19 người đọc báo X, 10 người đọc báo Y, 3 người đọc cả hai. Chọn ngẫu nhiên một người. Xác suất người đó không đọc báo nào là…",
+   "options": [
+    "\\(\\dfrac{7}{20}\\)",
+    "\\(\\dfrac{3}{40}\\)",
+    "\\(\\dfrac{11}{40}\\)",
+    "\\(\\dfrac{13}{20}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(1-P(X\\cup Y)=1-\\dfrac{19+10-3}{40}=\\dfrac{7}{20}\\).",
+   "explain_vi": "Đáp án a. \\(1-P(X\\cup Y)=1-\\dfrac{19+10-3}{40}=\\dfrac{7}{20}\\).",
+   "images": [],
+   "id": "78e41b45bd4f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(A\\), \\(B\\) are mutually exclusive, \\(P(A)=#\\), \\(P(B)=#\\). Then \\(P(A\\cup B)=\\)…",
+   "en": "\\(A\\), \\(B\\) are mutually exclusive, \\(P(A)=0.5\\), \\(P(B)=0.1\\). Then \\(P(A\\cup B)=\\)…",
+   "vi": "Hai biến cố \\(A\\), \\(B\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"mutually exclusive\">xung khắc</b>, \\(P(A)=0{,}5\\), \\(P(B)=0{,}1\\). Khi đó \\(P(A\\cup B)=\\)…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(0.55\\)</span><span class=\"vi\">\\(0{,}55\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.05\\)</span><span class=\"vi\">\\(0{,}05\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.6\\)</span><span class=\"vi\">\\(0{,}6\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.4\\)</span><span class=\"vi\">\\(0{,}4\\)</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Mutually exclusive, so \\(P(AB)=0\\): \\(P(A\\cup B)=0.5+0.1=0.6\\).",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"mutually exclusive\">Xung khắc</b> nên \\(P(AB)=0\\): \\(P(A\\cup B)=0{,}5+0{,}1=0{,}6\\).",
+   "images": [],
+   "id": "b54b7a139cbd",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(P(A)=#\\), \\(P(B)=#\\), \\(P(AB)=#\\). Then \\(P(A\\cup B)=\\)…",
+   "en": "\\(P(A)=0.5\\), \\(P(B)=0.6\\), \\(P(AB)=0.2\\). Then \\(P(A\\cup B)=\\)…",
+   "vi": "Cho \\(P(A)=0{,}5\\), \\(P(B)=0{,}6\\), \\(P(AB)=0{,}2\\). Khi đó \\(P(A\\cup B)=\\)…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(0.3\\)</span><span class=\"vi\">\\(0{,}3\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(1.1\\)</span><span class=\"vi\">\\(1{,}1\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.7\\)</span><span class=\"vi\">\\(0{,}7\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.9\\)</span><span class=\"vi\">\\(0{,}9\\)</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Addition rule: \\(0.5+0.6-0.2=0.9\\).",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"addition formula\">Công thức cộng</b>: \\(0{,}5+0{,}6-0{,}2=0{,}9\\).",
+   "images": [],
+   "id": "7828e0e601cc",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(P(A)=#\\), \\(P(B)=#\\), \\(P(AB)=#\\). Then \\(P(A\\cup B)=\\)…",
+   "en": "\\(P(A)=0.6\\), \\(P(B)=0.75\\), \\(P(AB)=0.4\\). Then \\(P(A\\cup B)=\\)…",
+   "vi": "Cho \\(P(A)=0{,}6\\), \\(P(B)=0{,}75\\), \\(P(AB)=0{,}4\\). Khi đó \\(P(A\\cup B)=\\)…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(0.55\\)</span><span class=\"vi\">\\(0{,}55\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.95\\)</span><span class=\"vi\">\\(0{,}95\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.45\\)</span><span class=\"vi\">\\(0{,}45\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(1.35\\)</span><span class=\"vi\">\\(1{,}35\\)</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Addition rule: \\(0.6+0.75-0.4=0.95\\).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"addition formula\">Công thức cộng</b>: \\(0{,}6+0{,}75-0{,}4=0{,}95\\).",
+   "images": [],
+   "id": "a789d2f9db0d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(P(A)=#\\), \\(P(B)=#\\), \\(P(A\\cup B)=#\\). Then \\(P(AB)=\\)…",
+   "en": "\\(P(A)=0.9\\), \\(P(B)=0.5\\), \\(P(A\\cup B)=1\\). Then \\(P(AB)=\\)…",
+   "vi": "Cho \\(P(A)=0{,}9\\), \\(P(B)=0{,}5\\), \\(P(A\\cup B)=1\\). Khi đó \\(P(AB)=\\)…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(0.45\\)</span><span class=\"vi\">\\(0{,}45\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.4\\)</span><span class=\"vi\">\\(0{,}4\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.5\\)</span><span class=\"vi\">\\(0{,}5\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.1\\)</span><span class=\"vi\">\\(0{,}1\\)</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(P(AB)=P(A)+P(B)-P(A\\cup B)=0.9+0.5-1=0.4\\).",
+   "explain_vi": "Đáp án b. \\(P(AB)=P(A)+P(B)-P(A\\cup B)=0{,}9+0{,}5-1=0{,}4\\).",
+   "images": [],
+   "id": "bbb34cbf6323",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Of # students, # like maths, # like English, # like both. P(a random student likes exactly one of them) =…",
+   "en": "Of 40 students, 22 like maths, 18 like English, 8 like both. P(a random student likes exactly one of them) =…",
+   "vi": "Trong 40 học sinh có 22 em thích Toán, 18 em thích Tiếng Anh, 8 em thích cả hai. Chọn ngẫu nhiên một em. Xác suất em đó thích đúng một trong hai môn là…",
+   "options": [
+    "\\(\\dfrac{4}{5}\\)",
+    "\\(\\dfrac{1}{5}\\)",
+    "\\(\\dfrac{3}{5}\\)",
+    "\\(\\dfrac{7}{20}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Union minus intersection.",
+   "explain_vi": "Đáp án c. \\(\\dfrac{22+18-2\\cdot8}{40}\\).",
+   "images": [],
+   "id": "c3bad9239bbb",
+   "status": "đã thay ra",
+   "sources": [
+    "bản trước sửa lỗi trình bày 23/11/2026"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Of # students, # like maths, # like English, # like both. P(a random student likes exactly one of them) =…",
+   "en": "Of 45 students, 20 like maths, 25 like English, 12 like both. P(a random student likes exactly one of them) =…",
+   "vi": "Trong 45 học sinh có 20 em thích Toán, 25 em thích Tiếng Anh, 12 em thích cả hai. Chọn ngẫu nhiên một em. Xác suất em đó thích đúng một trong hai môn là…",
+   "options": [
+    "\\(\\dfrac{11}{15}\\)",
+    "\\(\\dfrac{4}{15}\\)",
+    "\\(\\dfrac{8}{45}\\)",
+    "\\(\\dfrac{7}{15}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Union minus intersection.",
+   "explain_vi": "Đáp án d. \\(\\dfrac{20+25-2\\cdot12}{45}\\).",
+   "images": [],
+   "id": "d828f7be5925",
+   "status": "đã thay ra",
+   "sources": [
+    "bản trước sửa lỗi trình bày 23/11/2026"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Of # students, # like maths, # like English, # like both. P(a random student likes exactly one of them) =…",
+   "en": "Of 50 students, 28 like maths, 21 like English, 9 like both. P(a random student likes exactly one of them) =…",
+   "vi": "Trong 50 học sinh có 28 em thích Toán, 21 em thích Tiếng Anh, 9 em thích cả hai. Chọn ngẫu nhiên một em. Xác suất em đó thích đúng một trong hai môn là…",
+   "options": [
+    "\\(\\dfrac{31}{50}\\)",
+    "\\(\\dfrac{4}{5}\\)",
+    "\\(\\dfrac{9}{50}\\)",
+    "\\(\\dfrac{1}{5}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Union minus intersection.",
+   "explain_vi": "Đáp án a. \\(\\dfrac{28+21-2\\cdot9}{50}\\).",
+   "images": [],
+   "id": "03b31bd87c70",
+   "status": "đã thay ra",
+   "sources": [
+    "bản trước sửa lỗi trình bày 23/11/2026"
+   ]
+  }
+ ]
+}

@@ -13,7 +13,7 @@ vocab = defs(CV, [
  ('bayesf', "Bayes' formula", 'công thức Bayes', '\\(P(B\\mid A)=\\dfrac{P(B)P(A\\mid B)}{P(A)}\\): it reverses a conditional probability.', '\\(P(B\\mid A)=\\dfrac{P(B)P(A\\mid B)}{P(A)}\\): đảo chiều một xác suất có điều kiện.', "Bayes' formula updates the probability.", ''),
  ('partition', 'complete system of events', 'hệ biến cố đầy đủ', 'events \\(B_1,\\dots,B_n\\), pairwise exclusive, with union \\(\\Omega\\) and positive probabilities.', 'các biến cố \\(B_1,\\dots,B_n\\) đôi một xung khắc, hợp bằng \\(\\Omega\\), có xác suất dương.', 'B and its complement form a complete system.', ''),
  ('treediag', 'tree diagram', 'sơ đồ hình cây', 'a diagram whose branches carry probabilities; multiply along a branch, add the branches.', 'sơ đồ mà mỗi nhánh ghi xác suất; nhân dọc theo nhánh, cộng các nhánh.', 'Draw a tree diagram for the two machines.', '')])
-goals = [('recognise the law of total probability and Bayes\' formula;', 'nhận biết [[công thức xác suất toàn phần]] và [[công thức Bayes]];'),
+goals = [('recognize the law of total probability and Bayes\' formula;', 'nhận biết [[công thức xác suất toàn phần]] và [[công thức Bayes]];'),
          ('identify a complete system of events and the given conditional probabilities;', 'xác định [[hệ biến cố đầy đủ]] và các xác suất có điều kiện đã cho;'),
          ('compute \\(P(A)\\) and the "reverse" probability \\(P(B\\mid A)\\), using a tree diagram;', 'tính \\(P(A)\\) và xác suất "ngược" \\(P(B\\mid A)\\), dùng [[sơ đồ hình cây]];'),
          ('solve problems on quality control, medical tests and classification.', 'giải bài toán kiểm tra chất lượng sản phẩm, xét nghiệm y tế, phân loại.')]
@@ -59,10 +59,10 @@ examples += EXAMPLE(5, ('Advanced', 'Nâng cao'), ('Three classes', 'Ba lớp h�
 def lvl(P):
     b, x, y = P['tp']; c = b * x + (1 - b) * y
     o1 = M4(1, '\\(P(B)=%s\\), \\(P(A\\mid B)=%s\\), \\(P(A\\mid\\overline B)=%s\\). \\(P(A)=\\)…' % (PE(b), PE(x), PE(y)), 'Cho \\(P(B)=%s\\), \\(P(A\\mid B)=%s\\), \\(P(A\\mid\\overline B)=%s\\). Khi đó \\(P(A)=\\)…' % (PV(b), PV(x), PV(y)), '\\(%s\\)' % PV(c),
-            ['\\(%s\\)' % PV(b * x), '\\(%s\\)' % PV(b * x + b * y), '\\(%s\\)' % PV((x + y) / 2), '\\(%s\\)' % PV((1 - b) * x + b * y)], 'Total probability.', 'Xác suất toàn phần: \\(%s\\cdot%s+%s\\cdot%s=%s\\).' % (PV(b), PV(x), PV(1 - b), PV(y), PV(c)))
+            ['\\(%s\\)' % PV(b * x), '\\(%s\\)' % PV(b * x + b * y), '\\(%s\\)' % PV((x + y) / 2), '\\(%s\\)' % PV((1 - b) * x + b * y)], 'Total probability: \\(%s\\cdot%s+%s\\cdot%s=%s\\).' % (PE(b), PE(x), PE(1 - b), PE(y), PE(c)), 'Xác suất toàn phần: \\(%s\\cdot%s+%s\\cdot%s=%s\\).' % (PV(b), PV(x), PV(1 - b), PV(y), PV(c)))
     b2, x2, y2 = P['by']; pa = b2 * x2 + (1 - b2) * y2; c2 = b2 * x2 / pa
     o2 = M4(2, '\\(P(B)=%s\\), \\(P(A\\mid B)=%s\\), \\(P(A\\mid\\overline B)=%s\\). \\(P(B\\mid A)=\\)…' % (PE(b2), PE(x2), PE(y2)), 'Cho \\(P(B)=%s\\), \\(P(A\\mid B)=%s\\), \\(P(A\\mid\\overline B)=%s\\). Khi đó \\(P(B\\mid A)=\\)…' % (PV(b2), PV(x2), PV(y2)), '\\(%s\\)' % PV(c2),
-            ['\\(%s\\)' % PV(b2 * x2), '\\(%s\\)' % PV(x2), '\\(%s\\)' % PV(pa), '\\(%s\\)' % PV(1 - c2)], 'Bayes: \\(P(A)=%s\\).' % PE(pa), 'Bayes: \\(P(A)=%s\\), \\(P(B\\mid A)=%s\\).' % (PV(pa), PV(c2)))
+            ['\\(%s\\)' % PV(b2 * x2), '\\(%s\\)' % PV(x2), '\\(%s\\)' % PV(pa), '\\(%s\\)' % PV(1 - c2)], 'Bayes: \\(P(A)=%s\\), \\(P(B\\mid A)=%s\\).' % (PE(pa), PE(c2)), 'Bayes: \\(P(A)=%s\\), \\(P(B\\mid A)=%s\\).' % (PV(pa), PV(c2)))
     r1, w1, r2, w2 = P['urn']; c3 = F(1, 2) * F(r1, r1 + w1) + F(1, 2) * F(r2, r2 + w2)
     o3 = M4(3, 'Box 1: %d red, %d white; box 2: %d red, %d white. Choose a box at random, then a ball. \\(P(\\text{red})=\\)…' % (r1, w1, r2, w2), 'Hộp 1: %d đỏ, %d trắng; hộp 2: %d đỏ, %d trắng. Chọn ngẫu nhiên một hộp rồi lấy một bi. Xác suất được bi đỏ là…' % (r1, w1, r2, w2), '\\(%s\\)' % PV(c3),
             ['\\(%s\\)' % PV(F(r1 + r2, r1 + w1 + r2 + w2)), '\\(%s\\)' % PV(F(r1, r1 + w1) * F(r2, r2 + w2)), '\\(%s\\)' % PV(F(1, 2)), '\\(%s\\)' % PV(1 - c3)], '\\(\\frac12\\cdot\\frac{%d}{%d}+\\frac12\\cdot\\frac{%d}{%d}\\).' % (r1, r1 + w1, r2, r2 + w2), '\\(\\frac12\\cdot\\frac{%d}{%d}+\\frac12\\cdot\\frac{%d}{%d}=%s\\).' % (r1, r1 + w1, r2, r2 + w2, PV(c3)))

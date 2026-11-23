@@ -48,7 +48,7 @@ def fn_pt(r, lv):
     bad = [(x0 + 1, a * x0 + b), (x0, a * x0 + b + 1), (-x0 if x0 else 2, a * x0 + b), (x0 + 2, a * x0 + b - 1)]
     bad = [p for p in bad if p[1] != a * p[0] + b]
     return dict(en='Which point lies on the graph of \\(y=%s\\)?' % poly([a, b]), vi='Điểm nào thuộc đồ thị hàm số \\(y=%s\\)?' % poly([a, b]),
-      opts=pick_opts(r, '(%d;\\,%d)' % good, ['(%d;\\,%d)' % p for p in bad]), ans=0, ee='\\(%s\\) at \\(x=%d\\) gives \\(%d\\).' % (poly([a, b]), x0, good[1]), ev='Thay \\(x=%d\\) được \\(y=%d\\).' % (x0, good[1]))
+      opts=pick_opts(r, '(%d;\\,%d)' % good, ['(%d;\\,%d)' % p for p in bad]), ans=0, ee='Substitute \\(x=%d\\): \\(y=%d\\).' % (x0, good[1]), ev='Thay \\(x=%d\\) được \\(y=%d\\).' % (x0, good[1]))
 def fn_mono(r, lv):
     kind = r.choice(['lin', 'inv', 'sq']);
     if kind == 'lin':

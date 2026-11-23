@@ -195,7 +195,7 @@ def i_brake(r, lv):
       ee='Stops when \\(v=0\\): \\(t=%s\\). \\(s=\\int_0^{%s}(%d-%dt)\\,dt=%s\\).' % (DE(T), DE(T), v0, a, DE(s)), ev='Dừng khi \\(v=0\\): \\(t=%s\\). \\(s=\\int_0^{%s}(%d-%dt)\\,dt=%s\\).' % (D(T), D(T), v0, a, D(s)))
 def i_tank(r, lv):
     a, b, T = r.choice([(20, 2, 10), (30, 4, 5), (10, 1, 20), (50, 6, 10), (12, 3, 8)]); V = a * T + b * T * T / 2
-    return dict(en='Water flows into a tank at the rate \\(r(t)=%d+%dt\\) (litres per minute). How much water flows in during the first \\(%d\\) minutes?' % (a, b, T), vi='Nước chảy vào bể với tốc độ \\(r(t)=%d+%dt\\) (lít/phút). Trong \\(%d\\) phút đầu, lượng nước chảy vào bể là…' % (a, b, T),
+    return dict(en='Water flows into a tank at the rate \\(r(t)=%d+%dt\\) (liters per minute). How much water flows in during the first \\(%d\\) minutes?' % (a, b, T), vi='Nước chảy vào bể với tốc độ \\(r(t)=%d+%dt\\) (lít/phút). Trong \\(%d\\) phút đầu, lượng nước chảy vào bể là…' % (a, b, T),
       opts=pick_opts(r, '%s\\ \\text{l}' % D(V), ['%s\\ \\text{l}' % D(w) for w in (a + b * T, (a + b * T) * T, a * T + b * T * T, V - a * T)]), ans=0,
       ee='Total change \\(=\\int_0^{%d}r(t)\\,dt=%d\\cdot%d+\\dfrac{%d}{2}\\cdot%d^2=%s\\).' % (T, a, T, b, T, DE(V)), ev='Tổng lượng biến thiên \\(=\\int_0^{%d}r(t)\\,dt=%d\\cdot%d+\\dfrac{%d}{2}\\cdot%d^2=%s\\).' % (T, a, T, b, T, D(V)))
 def i_swap(r, lv):

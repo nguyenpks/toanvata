@@ -119,9 +119,9 @@ pr = [pr] if False else [(pr[0], pr[1]), (('B. True or False', 'B. Đúng hoặc
   TF(6, ('True or false: \\(f(x)=\\dfrac1x\\) is decreasing on its whole domain \\(\\mathbb{R}\\setminus\\{0\\}\\).', 'Đúng hay sai: \\(f(x)=\\dfrac1x\\) nghịch biến trên toàn bộ tập xác định \\(\\mathbb{R}\\setminus\\{0\\}\\).'), 'false',
      ('False. It is decreasing on \\((-\\infty,0)\\) and on \\((0,+\\infty)\\) separately. But \\(-1<1\\) while \\(f(-1)=-1<f(1)=1\\).', 'Sai. Hàm số nghịch biến trên từng khoảng \\((-\\infty,0)\\) và \\((0,+\\infty)\\). Nhưng \\(-1<1\\) mà \\(f(-1)=-1<f(1)=1\\).'))]),
  (('C. Short Answer', 'C. Trả lời ngắn'), [
-  SHORT(7, ('Write the interval on which \\(f(x)=x^2-6x+5\\) is decreasing.', 'Viết khoảng mà hàm số \\(f(x)=x^2-6x+5\\) nghịch biến.'), '(-inf,3)|(-inf,3]', 'interval',
-        ('Format: (-inf,3). You may type inf for infinity.', 'Định dạng: (-inf,3). Có thể gõ inf cho vô cực.'),
-        ('Answer: \\((-\\infty,3)\\). \\(f\'(x)=2x-6<0\\) when \\(x<3\\).', 'Đáp án: \\((-\\infty,3)\\). \\(f\'(x)=2x-6<0\\) khi \\(x<3\\).')),
+  SHORT(7, ('The function \\(f(x)=x^2-6x+5\\) is decreasing on \\((-\\infty;\\,a)\\). Find the largest possible value of \\(a\\).', 'Hàm số \\(f(x)=x^2-6x+5\\) nghịch biến trên khoảng \\((-\\infty;\\,a)\\). Tìm giá trị lớn nhất của \\(a\\).'), '3', 'number',
+        ('Enter a whole number.', 'Nhập một số nguyên.'),
+        ('Answer: 3. \\(f\'(x)=2x-6<0\\) when \\(x<3\\), so \\(f\\) is decreasing on \\((-\\infty;\\,3)\\) and the largest \\(a\\) is 3.', 'Đáp án: 3. \\(f\'(x)=2x-6<0\\) khi \\(x<3\\) nên \\(f\\) nghịch biến trên \\((-\\infty;\\,3)\\); giá trị lớn nhất của \\(a\\) là 3.')),
   SHORT(8, ('How many solutions does \\(f\'(x)=0\\) have for \\(f(x)=x^4-2x^2\\)?', 'Với \\(f(x)=x^4-2x^2\\), phương trình \\(f\'(x)=0\\) có bao nhiêu nghiệm?'), '3', 'number',
         ('Enter a whole number.', 'Nhập một số nguyên.'),
         ('Answer: 3. \\(f\'(x)=4x^3-4x=4x(x-1)(x+1)\\).', 'Đáp án: 3. \\(f\'(x)=4x^3-4x=4x(x-1)(x+1)\\).')),
@@ -144,8 +144,8 @@ S2 = [
       r'This is the derivative test.§Đây là định lí về dấu của đạo hàm.'),
   _t(6, r'True or false: \(f(x)=-\dfrac1x\) is increasing on its whole domain \(\mathbb{R}\setminus\{0\}\).§Đúng hay sai: \(f(x)=-\dfrac1x\) đồng biến trên toàn bộ tập xác định \(\mathbb{R}\setminus\{0\}\).', 'false',
       r'It is increasing on \((-\infty,0)\) and on \((0,+\infty)\) separately. But \(-1<1\) while \(f(-1)=1>f(1)=-1\).§Hàm số đồng biến trên từng khoảng \((-\infty,0)\) và \((0,+\infty)\). Nhưng \(-1<1\) mà \(f(-1)=1>f(1)=-1\).')],
- [_s(7, r'Write the interval on which \(f(x)=x^2-8x+3\) is decreasing.§Viết khoảng mà hàm số \(f(x)=x^2-8x+3\) nghịch biến.', '(-inf,4)|(-inf,4]', r'\((-\infty,4)\)', 'i',
-      r'\(f′(x)=2x-8<0\) when \(x<4\).§\(f′(x)=2x-8<0\) khi \(x<4\).'),
+ [_s(7, r'The function \(f(x)=x^2-8x+3\) is decreasing on \((-\infty;\,a)\). Find the largest possible value of \(a\).§Hàm số \(f(x)=x^2-8x+3\) nghịch biến trên khoảng \((-\infty;\,a)\). Tìm giá trị lớn nhất của \(a\).', '4', '4', 'w',
+      r'\(f′(x)=2x-8<0\) when \(x<4\), so \(f\) is decreasing on \((-\infty;\,4)\) and the largest \(a\) is 4.§\(f′(x)=2x-8<0\) khi \(x<4\) nên \(f\) nghịch biến trên \((-\infty;\,4)\); giá trị lớn nhất của \(a\) là 4.'),
   _s(8, r'How many solutions does \(f′(x)=0\) have for \(f(x)=x^3-3x^2\)?§Với \(f(x)=x^3-3x^2\), phương trình \(f′(x)=0\) có bao nhiêu nghiệm?', '2', '2', 'w',
       r'\(f′(x)=3x^2-6x=3x(x-2)\), so \(x=0\) or \(x=2\).§\(f′(x)=3x^2-6x=3x(x-2)\) nên \(x=0\) hoặc \(x=2\).'),
   _s(9, r'Find the smallest integer \(m\) such that \(f(x)=x^3+6x^2+mx\) is increasing on \(\mathbb{R}\).§Tìm số nguyên \(m\) nhỏ nhất để \(f(x)=x^3+6x^2+mx\) đồng biến trên \(\mathbb{R}\).', '12', '12', 'w',
@@ -165,8 +165,8 @@ S3 = [
       r'By the derivative test, \(f\) is increasing on \((a,b)\).§Theo định lí về dấu của đạo hàm, \(f\) đồng biến trên \((a,b)\).'),
   _t(6, r'True or false: \(f(x)=\dfrac{x+2}{x-1}\) is decreasing on its whole domain \(\mathbb{R}\setminus\{1\}\).§Đúng hay sai: \(f(x)=\dfrac{x+2}{x-1}\) nghịch biến trên toàn bộ tập xác định \(\mathbb{R}\setminus\{1\}\).', 'false',
       r'It is decreasing on \((-\infty,1)\) and on \((1,+\infty)\) separately. But \(0<2\) while \(f(0)=-2<f(2)=4\).§Hàm số nghịch biến trên từng khoảng \((-\infty,1)\) và \((1,+\infty)\). Nhưng \(0<2\) mà \(f(0)=-2<f(2)=4\).')],
- [_s(7, r'Write the interval on which \(f(x)=x^2-10x+7\) is decreasing.§Viết khoảng mà hàm số \(f(x)=x^2-10x+7\) nghịch biến.', '(-inf,5)|(-inf,5]', r'\((-\infty,5)\)', 'i',
-      r'\(f′(x)=2x-10<0\) when \(x<5\).§\(f′(x)=2x-10<0\) khi \(x<5\).'),
+ [_s(7, r'The function \(f(x)=x^2-10x+7\) is decreasing on \((-\infty;\,a)\). Find the largest possible value of \(a\).§Hàm số \(f(x)=x^2-10x+7\) nghịch biến trên khoảng \((-\infty;\,a)\). Tìm giá trị lớn nhất của \(a\).', '5', '5', 'w',
+      r'\(f′(x)=2x-10<0\) when \(x<5\), so \(f\) is decreasing on \((-\infty;\,5)\) and the largest \(a\) is 5.§\(f′(x)=2x-10<0\) khi \(x<5\) nên \(f\) nghịch biến trên \((-\infty;\,5)\); giá trị lớn nhất của \(a\) là 5.'),
   _s(8, r'How many solutions does \(f′(x)=0\) have for \(f(x)=x^4+2x^2\)?§Với \(f(x)=x^4+2x^2\), phương trình \(f′(x)=0\) có bao nhiêu nghiệm?', '1', '1', 'w',
       r'\(f′(x)=4x^3+4x=4x(x^2+1)\), which is zero only at \(x=0\).§\(f′(x)=4x^3+4x=4x(x^2+1)\) chỉ bằng 0 tại \(x=0\).'),
   _s(9, r'Find the smallest integer \(m\) such that \(f(x)=x^3+x^2+mx\) is increasing on \(\mathbb{R}\).§Tìm số nguyên \(m\) nhỏ nhất để \(f(x)=x^3+x^2+mx\) đồng biến trên \(\mathbb{R}\).', '1', '1', 'w',
@@ -407,7 +407,7 @@ S2 = [
   _s(9, r'Find the maximum value of \(f(x)=x^4-8x^2\) on \([0,3]\).§Tìm giá trị lớn nhất của \(f(x)=x^4-8x^2\) trên đoạn \([0,3]\).', '9', '9', 'n',
       r'\(f(0)=0\), \(f(2)=-16\), \(f(3)=9\).§\(f(0)=0\), \(f(2)=-16\), \(f(3)=9\).'),
   _s(10, r'A rectangle has perimeter 40 cm. What is the largest possible area, in \(\text{cm}^2\)?§Một hình chữ nhật có chu vi 40 cm. Diện tích lớn nhất là bao nhiêu \(\text{cm}^2\)?', '100', '100', 'n',
-      r'100 (a square with side 10 cm).§100 (hình vuông cạnh 10 cm).')]]
+      r'With sides \(x\) and \(20-x\): \(S=x(20-x)\) is largest at \(x=10\), so the maximum area is 100 (a square with side 10 cm).§Với hai cạnh \(x\) và \(20-x\): \(S=x(20-x)\) lớn nhất tại \(x=10\), diện tích lớn nhất là 100 (hình vuông cạnh 10 cm).')]]
 S3 = [
  [_m(1, r'What is the maximum value of \(f(x)=-x^2-2x+5\) on \(\mathbb{R}\)?§Giá trị lớn nhất của \(f(x)=-x^2-2x+5\) trên \(\mathbb{R}\) là bao nhiêu?', ['5', '6', '7', '4'], 'b',
       r'The vertex is at \(x=-1\), and \(f(-1)=-1+2+5=6\).§Đỉnh tại \(x=-1\), và \(f(-1)=-1+2+5=6\).'),
@@ -428,7 +428,7 @@ S3 = [
   _s(9, r'Find the maximum value of \(f(x)=x^4-4x^2\) on \([0,3]\).§Tìm giá trị lớn nhất của \(f(x)=x^4-4x^2\) trên đoạn \([0,3]\).', '45', '45', 'n',
       r'\(f(0)=0\), \(f(\sqrt2)=-4\), \(f(3)=45\).§\(f(0)=0\), \(f(\sqrt2)=-4\), \(f(3)=45\).'),
   _s(10, r'A rectangle has perimeter 36 cm. What is the largest possible area, in \(\text{cm}^2\)?§Một hình chữ nhật có chu vi 36 cm. Diện tích lớn nhất là bao nhiêu \(\text{cm}^2\)?', '81', '81', 'n',
-      r'81 (a square with side 9 cm).§81 (hình vuông cạnh 9 cm).')]]
+      r'With sides \(x\) and \(18-x\): \(S=x(18-x)\) is largest at \(x=9\), so the maximum area is 81 (a square with side 9 cm).§Với hai cạnh \(x\) và \(18-x\): \(S=x(18-x)\) lớn nhất tại \(x=9\), diện tích lớn nhất là 81 (hình vuông cạnh 9 cm).')]]
 _T = [t for t, _ in pr3]
 S1 = [g for _, g in pr3]
 pr3 = LEVEL_PRACTICE(_T, {1: S1, 2: S2, 3: S3})

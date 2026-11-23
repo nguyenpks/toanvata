@@ -56,23 +56,23 @@ assert abs(2 * math.pi ** 2 - 19.74) < 0.01
 def lvl(P):
     a, b, c, x0 = P['poly']; cs = [a, b, c, 1]; v = 6 * a * x0 + 2 * b
     o1 = M4(1, 'For \\(f(x)=%s\\), \\(f″(%d)=\\)…' % (P_(cs), x0), 'Cho \\(f(x)=%s\\). Khi đó \\(f″(%d)=\\)…' % (P_(cs), x0), '\\(%d\\)' % v,
-            ['\\(%d\\)' % (3 * a * x0 * x0 + 2 * b * x0 + c), '\\(%d\\)' % (3 * a * x0 + 2 * b), '\\(%d\\)' % (6 * a * x0 + b), '\\(%d\\)' % (-v)], 'Twice.', '\\(f′(x)=%s\\), \\(f″(x)=%s\\).' % (P_([3 * a, 2 * b, c]), P_([6 * a, 2 * b])))
+            ['\\(%d\\)' % (3 * a * x0 * x0 + 2 * b * x0 + c), '\\(%d\\)' % (3 * a * x0 + 2 * b), '\\(%d\\)' % (6 * a * x0 + b), '\\(%d\\)' % (-v)], 'Differentiate twice: \\(f′(x)=%s\\), \\(f″(x)=%s\\), so \\(f″(%d)=%d\\).' % (P_([3 * a, 2 * b, c]), P_([6 * a, 2 * b]), x0, v), 'Đạo hàm hai lần: \\(f′(x)=%s\\), \\(f″(x)=%s\\), nên \\(f″(%d)=%d\\).' % (P_([3 * a, 2 * b, c]), P_([6 * a, 2 * b]), x0, v))
     kind, k = P['trig']
     if kind == 'sin': f, cor, wr = '\\sin %dx' % k, "\\(y″=-%d\\sin %dx\\)" % (k * k, k), ["\\(y″=%d\\sin %dx\\)" % (k * k, k), "\\(y″=-%d\\sin %dx\\)" % (k, k), "\\(y″=-%d\\cos %dx\\)" % (k * k, k)]
     else: f, cor, wr = 'e^{-%dx}' % k, "\\(y″=%de^{-%dx}\\)" % (k * k, k), ["\\(y″=-%de^{-%dx}\\)" % (k * k, k), "\\(y″=%de^{-%dx}\\)" % (2 * k, k), "\\(y″=-%de^{-%dx}\\)" % (k, k)]
     o2 = M4(2, 'For \\(y=%s\\)…' % f, 'Đạo hàm cấp hai của \\(y=%s\\) là…' % f, cor, wr, 'Chain rule twice.', 'Mỗi lần lấy đạo hàm nhân thêm \\(%s\\).' % (('%d' % k) if kind == 'sin' else '-%d' % k))
     p, q, t0 = P['mot']; cs2 = [1, -p, q, 0]; acc = 6 * t0 - 2 * p
     o3 = M4(3, 'An object moves with \\(s(t)=%s\\) (m, s). The acceleration at \\(t=%d\\) is…' % (P_(cs2, 't'), t0), 'Một vật chuyển động theo \\(s(t)=%s\\) (m, s). Gia tốc tại \\(t=%d\\) là…' % (P_(cs2, 't'), t0), '\\(%d\\) m/s²' % acc,
-            ['\\(%d\\) m/s²' % (3 * t0 * t0 - 2 * p * t0 + q), '\\(%d\\) m/s²' % (6 * t0 - p), '\\(%d\\) m/s²' % (t0 ** 3 - p * t0 * t0 + q * t0), '\\(%d\\) m/s²' % (3 * t0 - 2 * p)], '\\(a=s″\\).', '\\(v=%s\\), \\(a=%s\\).' % (P_([3, -2 * p, q], 't'), P_([6, -2 * p], 't')))
+            ['\\(%d\\) m/s²' % (3 * t0 * t0 - 2 * p * t0 + q), '\\(%d\\) m/s²' % (6 * t0 - p), '\\(%d\\) m/s²' % (t0 ** 3 - p * t0 * t0 + q * t0), '\\(%d\\) m/s²' % (3 * t0 - 2 * p)], '\\(v=s′=%s\\), \\(a=s″=%s\\); at \\(t=%d\\): \\(a=%d\\) m/s².' % (P_([3, -2 * p, q], 't'), P_([6, -2 * p], 't'), t0, acc), '\\(v=s′=%s\\), \\(a=s″=%s\\); tại \\(t=%d\\): \\(a=%d\\) m/s².' % (P_([3, -2 * p, q], 't'), P_([6, -2 * p], 't'), t0, acc))
     (se, sv), v4 = P['t4']
     t4 = tf(4, se, sv, v4, 'Compute directly.', 'Tính trực tiếp đạo hàm cấp hai.')
     (te, tv), v5 = P['t5']
     t5 = tf(5, te, tv, v5, 'Velocity vs acceleration.', 'Phân biệt vận tốc và gia tốc.')
     u, w = P['brake']
-    s6 = sh(6, 'After braking a car travels \\(s(t)=%dt-%s t^2\\) (m). How many metres does it travel before stopping?' % (u, fr(F(w, 2))), 'Sau khi phanh, ô tô đi được \\(s(t)=%dt-%s\\,t^2\\) (m). Ô tô đi thêm bao nhiêu mét thì dừng hẳn?' % (u, fr(F(w, 2))),
-            int(F(u * u, 2 * w)), '\\(v=0\\).', '\\(v=%d-%dt=0\\Rightarrow t=%s\\); thay vào \\(s(t)\\).' % (u, w, fr(F(u, w))))
+    s6 = sh(6, 'After braking a car travels \\(s(t)=%dt-%s t^2\\) (m). How many meters does it travel before stopping?' % (u, fr(F(w, 2))), 'Sau khi phanh, ô tô đi được \\(s(t)=%dt-%s\\,t^2\\) (m). Ô tô đi thêm bao nhiêu mét thì dừng hẳn?' % (u, fr(F(w, 2))),
+            int(F(u * u, 2 * w)), '\\(v=%d-%dt=0\\Rightarrow t=%s\\); substitute into \\(s(t)\\): \\(s=%s\\) m.' % (u, w, fr(F(u, w)), fr(F(u * u, 2 * w))), '\\(v=%d-%dt=0\\Rightarrow t=%s\\); thay vào \\(s(t)\\): \\(s=%s\\) m.' % (u, w, fr(F(u, w)), fr(F(u * u, 2 * w))))
     n, x7 = P['high']
-    s7 = sh(7, '\\(f(x)=x^%d\\). Find \\(f‴(%d)\\).' % (n, x7), 'Cho \\(f(x)=x^%d\\). Tính đạo hàm cấp ba \\(f‴(%d)\\).' % (n, x7), n * (n - 1) * (n - 2) * x7 ** (n - 3), 'Three times.', '\\(f‴(x)=%d\\cdot%d\\cdot%d\\,x^{%d}\\).' % (n, n - 1, n - 2, n - 3))
+    s7 = sh(7, '\\(f(x)=x^%d\\). Find \\(f‴(%d)\\).' % (n, x7), 'Cho \\(f(x)=x^%d\\). Tính đạo hàm cấp ba \\(f‴(%d)\\).' % (n, x7), n * (n - 1) * (n - 2) * x7 ** (n - 3), 'Differentiate three times: \\(f‴(x)=%d\\cdot%d\\cdot%d\\,x^{%d}\\), \\(f‴(%d)=%d\\).' % (n, n - 1, n - 2, n - 3, x7, n * (n - 1) * (n - 2) * x7 ** (n - 3)), 'Đạo hàm ba lần: \\(f‴(x)=%d\\cdot%d\\cdot%d\\,x^{%d}\\), \\(f‴(%d)=%d\\).' % (n, n - 1, n - 2, n - 3, x7, n * (n - 1) * (n - 2) * x7 ** (n - 3)))
     return [[o1, o2, o3], [t4, t5], [s6, s7]]
 
 

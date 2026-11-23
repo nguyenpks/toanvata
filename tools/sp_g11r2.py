@@ -422,7 +422,7 @@ def b3_tide_fig(r, lv, ctx):
     assert len(sol) == 1 and abs(sol[0] - round(sol[0])) < 1e-9; good = int(round(sol[0]))
     fn = G.graph_svg([(f, G.BLUE)], (0, 24), (0, c + A + 1.5), G.int_ticks(3, 24, 3), [(v, str(v)) for v in (c - A, c, c + A)], names=('t', 'h'), W=9, H=4.2)
     w = ('highest', 'cao nhất') if ask == 'max' else ('lowest', 'thấp nhất')
-    return dict(en='The figure shows the water depth \\(h\\) (m) at a harbour \\(t\\) hours after midnight, \\(h=%d+%d\\%s\\dfrac{\\pi t}{6}\\). In the first 12 hours \\((0\\lt t\\lt12)\\), when is the water %s?' % (c, A, trig, w[0]),
+    return dict(en='The figure shows the water depth \\(h\\) (m) at a harbor \\(t\\) hours after midnight, \\(h=%d+%d\\%s\\dfrac{\\pi t}{6}\\). In the first 12 hours \\((0\\lt t\\lt12)\\), when is the water %s?' % (c, A, trig, w[0]),
                 vi='Hình vẽ biểu diễn độ sâu \\(h\\) (m) của mực nước ở một cảng sau \\(t\\) giờ kể từ 0 giờ, \\(h=%d+%d\\%s\\dfrac{\\pi t}{6}\\). Trong 12 giờ đầu \\((0\\lt t\\lt12)\\), mực nước %s lúc mấy giờ?' % (c, A, trig, w[1]),
                 opts=['%d' % x for x in [good] + [v for v in (3, 6, 9, 12) if v != good]], fig=G.FIG(fn, 'Water depth over time', 'Độ sâu mực nước theo thời gian', 440),
                 ee='The %s value \\(%d\\) m is reached when \\(\\%s\\dfrac{\\pi t}{6}=%s1\\), i.e. \\(t=%d\\).' % (w[0], ext, trig, '' if ask == 'max' else '-', good),

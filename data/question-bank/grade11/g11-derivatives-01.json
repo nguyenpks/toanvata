@@ -1,0 +1,378 @@
+{
+ "lesson": "g11-derivatives-01",
+ "grade": 11,
+ "no": null,
+ "title": "Đạo hàm: định nghĩa và tiếp tuyến",
+ "path": "lessons/grade11/derivatives/derivative-definition.html",
+ "items": [
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "If \\(f(x)=x^#\\), what is \\(f'(#)\\)?",
+   "en": "If \\(f(x)=x^2\\), what is \\(f'(1)\\)?",
+   "vi": "Nếu \\(f(x)=x^2\\) thì \\(f'(1)\\) bằng bao nhiêu?",
+   "options": [
+    "\\(1\\)",
+    "\\(2\\)",
+    "\\(3\\)",
+    "\\(0\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(f'(x)=2x\\), so \\(f'(1)=2\\).",
+   "explain_vi": "Đáp án b. \\(f'(x)=2x\\) nên \\(f'(1)=2\\).",
+   "images": [],
+   "id": "cf4f975e6b32",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "If \\(f(x)=x^#\\), what is \\(f'(#)\\)?",
+   "en": "If \\(f(x)=x^3\\), what is \\(f'(2)\\)?",
+   "vi": "Nếu \\(f(x)=x^3\\) thì \\(f'(2)\\) bằng bao nhiêu?",
+   "options": [
+    "\\(6\\)",
+    "\\(8\\)",
+    "\\(12\\)",
+    "\\(3\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(f'(x)=3x^2\\), so \\(f'(2)=12\\).",
+   "explain_vi": "Đáp án c. \\(f'(x)=3x^2\\) nên \\(f'(2)=12\\).",
+   "images": [],
+   "id": "9d5f51df626e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "What is the tangent line to \\(y=x^#\\) at \\((#;#)\\)?",
+   "en": "What is the tangent line to \\(y=x^2\\) at \\((1;1)\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"tangent line\">Tiếp tuyến</b> của \\(y=x^2\\) tại \\((1;1)\\) là đường nào?",
+   "options": [
+    "\\(y=2x-1\\)",
+    "\\(y=x\\)",
+    "\\(y=2x+1\\)",
+    "\\(y=x-1\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(y=2(x-1)+1=2x-1\\).",
+   "explain_vi": "Đáp án a. \\(y=2(x-1)+1=2x-1\\).",
+   "images": [],
+   "id": "4c9715043ebc",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "If \\(f'(x_#)=#\\), the tangent line at \\(x_#\\) is horizontal.",
+   "en": "If \\(f'(x_0)=0\\), the tangent line at \\(x_0\\) is horizontal.",
+   "vi": "Nếu \\(f'(x_0)=0\\) thì <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tangent line\">tiếp tuyến</b> tại \\(x_0\\) nằm ngang.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. A line with slope 0 is horizontal.",
+   "explain_vi": "Đúng. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">Đường thẳng</b> có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"slope\">hệ số góc</b> 0 thì nằm ngang.",
+   "images": [],
+   "id": "a64d1519d5aa",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "Find the slope of the tangent line to \\(y=x^#\\) at \\(x=-#\\).",
+   "en": "Find the slope of the tangent line to \\(y=x^3\\) at \\(x=-1\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"slope\">hệ số góc</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tangent line\">tiếp tuyến</b> của \\(y=x^3\\) tại \\(x=-1\\).",
+   "options": [],
+   "answer": "3",
+   "explain_en": "Answer: 3. \\(3\\cdot(-1)^2=3\\).",
+   "explain_vi": "Đáp số: 3. \\(3\\cdot(-1)^2=3\\).",
+   "images": [],
+   "id": "041d4e2cc0b5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "If \\(f(x)=x^#-#x\\), find \\(f'(#)\\).",
+   "en": "If \\(f(x)=x^2-3x\\), find \\(f'(4)\\).",
+   "vi": "Cho \\(f(x)=x^2-3x\\). Tìm \\(f'(4)\\).",
+   "options": [],
+   "answer": "5",
+   "explain_en": "Answer: 5. \\(f'(x)=2x-3\\), \\(f'(4)=5\\).",
+   "explain_vi": "Đáp số: 5. \\(f'(x)=2x-3\\), \\(f'(4)=5\\).",
+   "images": [],
+   "id": "6847493fa1a0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "If \\(f(x)=x^#\\), what is \\(f'(#)\\)?",
+   "en": "If \\(f(x)=x^3\\), what is \\(f'(1)\\)?",
+   "vi": "Nếu \\(f(x)=x^3\\) thì \\(f'(1)\\) bằng bao nhiêu?",
+   "options": [
+    "\\(1\\)",
+    "\\(2\\)",
+    "\\(3\\)",
+    "\\(0\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(3\\cdot 1^2=3\\).",
+   "explain_vi": "Đáp án c. \\(3\\cdot 1^2=3\\).",
+   "images": [],
+   "id": "ea4eef1a4010",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "If \\(f(x)=x^#\\), what is \\(f'(-#)\\)?",
+   "en": "If \\(f(x)=x^2\\), what is \\(f'(-3)\\)?",
+   "vi": "Nếu \\(f(x)=x^2\\) thì \\(f'(-3)\\) bằng bao nhiêu?",
+   "options": [
+    "\\(6\\)",
+    "\\(-6\\)",
+    "\\(-3\\)",
+    "\\(9\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(f'(x)=2x\\), so \\(f'(-3)=-6\\).",
+   "explain_vi": "Đáp án b. \\(f'(x)=2x\\) nên \\(f'(-3)=-6\\).",
+   "images": [],
+   "id": "ce8613bbf87a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "What is the tangent line to \\(y=x^#\\) at \\((#;#)\\)?",
+   "en": "What is the tangent line to \\(y=x^3\\) at \\((1;1)\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"tangent line\">Tiếp tuyến</b> của \\(y=x^3\\) tại \\((1;1)\\) là đường nào?",
+   "options": [
+    "\\(y=3x+2\\)",
+    "\\(y=3x-2\\)",
+    "\\(y=x\\)",
+    "\\(y=3x-1\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(y=3(x-1)+1=3x-2\\).",
+   "explain_vi": "Đáp án b. \\(y=3(x-1)+1=3x-2\\).",
+   "images": [],
+   "id": "fefb656d49c1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "If \\(f'(x_#)\\gt #\\), the tangent line goes down from left to right.",
+   "en": "If \\(f'(x_0)\\gt 0\\), the tangent line goes down from left to right.",
+   "vi": "Nếu \\(f'(x_0)\\gt 0\\) thì <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tangent line\">tiếp tuyến</b> đi xuống từ trái sang phải.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. A positive slope means the line goes up.",
+   "explain_vi": "Sai. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"slope\">Hệ số góc</b> dương nghĩa là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> đi lên.",
+   "images": [],
+   "id": "75208a0521a7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "Find the slope of the tangent line to \\(y=x^#-x\\) at \\(x=#\\).",
+   "en": "Find the slope of the tangent line to \\(y=x^3-x\\) at \\(x=2\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"slope\">hệ số góc</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tangent line\">tiếp tuyến</b> của \\(y=x^3-x\\) tại \\(x=2\\).",
+   "options": [],
+   "answer": "11",
+   "explain_en": "Answer: 11. \\(y'=3x^2-1=11\\).",
+   "explain_vi": "Đáp số: 11. \\(y'=3x^2-1=11\\).",
+   "images": [],
+   "id": "5dd4c4a3b9d0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "If \\(f(x)=x^#+#x\\), find \\(f'(#)\\).",
+   "en": "If \\(f(x)=x^2+5x\\), find \\(f'(1)\\).",
+   "vi": "Cho \\(f(x)=x^2+5x\\). Tìm \\(f'(1)\\).",
+   "options": [],
+   "answer": "7",
+   "explain_en": "Answer: 7. \\(f'(x)=2x+5\\).",
+   "explain_vi": "Đáp số: 7. \\(f'(x)=2x+5\\).",
+   "images": [],
+   "id": "b2d5e6d99f27",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "If \\(f(x)=x^#\\), what is \\(f'(#)\\)?",
+   "en": "If \\(f(x)=x^2\\), what is \\(f'(5)\\)?",
+   "vi": "Nếu \\(f(x)=x^2\\) thì \\(f'(5)\\) bằng bao nhiêu?",
+   "options": [
+    "\\(5\\)",
+    "\\(10\\)",
+    "\\(25\\)",
+    "\\(2\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(2\\cdot 5=10\\).",
+   "explain_vi": "Đáp án b. \\(2\\cdot 5=10\\).",
+   "images": [],
+   "id": "8371dacf63d2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "If \\(f(x)=x^#\\), what is \\(f'(-#)\\)?",
+   "en": "If \\(f(x)=x^3\\), what is \\(f'(-2)\\)?",
+   "vi": "Nếu \\(f(x)=x^3\\) thì \\(f'(-2)\\) bằng bao nhiêu?",
+   "options": [
+    "\\(-12\\)",
+    "\\(12\\)",
+    "\\(-8\\)",
+    "\\(8\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(3\\cdot(-2)^2=12\\).",
+   "explain_vi": "Đáp án b. \\(3\\cdot(-2)^2=12\\).",
+   "images": [],
+   "id": "90b7772909cc",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "What is the tangent line to \\(y=x^#\\) at \\((-#;#)\\)?",
+   "en": "What is the tangent line to \\(y=x^2\\) at \\((-1;1)\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"tangent line\">Tiếp tuyến</b> của \\(y=x^2\\) tại \\((-1;1)\\) là đường nào?",
+   "options": [
+    "\\(y=2x+1\\)",
+    "\\(y=-2x+1\\)",
+    "\\(y=-2x-1\\)",
+    "\\(y=2x-1\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The slope is \\(2\\cdot(-1)=-2\\): \\(y=-2(x+1)+1=-2x-1\\).",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"slope\">Hệ số góc</b> là \\(2\\cdot(-1)=-2\\): \\(y=-2(x+1)+1=-2x-1\\).",
+   "images": [],
+   "id": "7a8f5dc8ce54",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "The function \\(y=|x|\\) has a derivative at \\(x=#\\).",
+   "en": "The function \\(y=|x|\\) has a derivative at \\(x=0\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">Hàm số</b> \\(y=|x|\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"differentiable\">có đạo hàm</b> tại \\(x=0\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. The graph has a sharp corner at 0.",
+   "explain_vi": "Sai. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">Đồ thị</b> có góc nhọn tại 0.",
+   "images": [],
+   "id": "96bde6478158",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Find the slope of the tangent line to \\(y=x^#+#x\\) at \\(x=#\\).",
+   "en": "Find the slope of the tangent line to \\(y=x^3+2x\\) at \\(x=1\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"slope\">hệ số góc</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tangent line\">tiếp tuyến</b> của \\(y=x^3+2x\\) tại \\(x=1\\).",
+   "options": [],
+   "answer": "5",
+   "explain_en": "Answer: 5. \\(y'=3x^2+2=5\\).",
+   "explain_vi": "Đáp số: 5. \\(y'=3x^2+2=5\\).",
+   "images": [],
+   "id": "06f1292f4635",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "If \\(f(x)=x^#-#x\\), find \\(f'(#)\\).",
+   "en": "If \\(f(x)=x^2-6x\\), find \\(f'(5)\\).",
+   "vi": "Cho \\(f(x)=x^2-6x\\). Tìm \\(f'(5)\\).",
+   "options": [],
+   "answer": "4",
+   "explain_en": "Answer: 4. \\(f'(x)=2x-6\\).",
+   "explain_vi": "Đáp số: 4. \\(f'(x)=2x-6\\).",
+   "images": [],
+   "id": "3ba3a2e203d3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  }
+ ]
+}

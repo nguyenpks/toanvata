@@ -231,7 +231,7 @@ _T = [t for t, _ in practice]
 S1 = [g for _, g in practice]
 practice = LEVEL_PRACTICE(_T, {1: S1, 2: S2, 3: S3})
 
-mistakes = [('<b>Forgetting to simplify.</b> A cancelled factor such as \\(x-1\\) gives a hole, not a vertical asymptote.', '<b>Quên rút gọn.</b> Nhân tử đã được rút gọn như \\(x-1\\) chỉ cho [[điểm hổng]], không cho tiệm cận đứng.'),
+mistakes = [('<b>Forgetting to simplify.</b> A canceled factor such as \\(x-1\\) gives a hole, not a vertical asymptote.', '<b>Quên rút gọn.</b> Nhân tử đã được rút gọn như \\(x-1\\) chỉ cho [[điểm hổng]], không cho tiệm cận đứng.'),
         ('<b>Checking only one end.</b> A horizontal asymptote must be checked at \\(+\\infty\\) and at \\(-\\infty\\). The graph of \\(y=\\arctan x\\) has two different ones.', '<b>Chỉ xét một phía.</b> Phải xét [[tiệm cận ngang]] cả khi \\(x\\to+\\infty\\) và \\(x\\to-\\infty\\). Đồ thị \\(y=\\arctan x\\) có hai tiệm cận ngang khác nhau.'),
         ('<b>Mixing up \\(x=a\\) and \\(y=b\\).</b> Vertical asymptotes are lines \\(x=a\\) (zeros of the denominator). Horizontal asymptotes are lines \\(y=b\\) (limits at infinity).', '<b>Nhầm \\(x=a\\) với \\(y=b\\).</b> Tiệm cận đứng có dạng \\(x=a\\) (nghiệm của mẫu số). Tiệm cận ngang có dạng \\(y=b\\) (giới hạn tại vô cực).'),
         ('<b>Looking for an oblique asymptote at the wrong time.</b> For a rational function it exists only when \\(\\deg P=\\deg Q+1\\).', '<b>Tìm tiệm cận xiên sai lúc.</b> Với hàm phân thức, tiệm cận xiên chỉ có khi \\(\\deg P=\\deg Q+1\\).')]

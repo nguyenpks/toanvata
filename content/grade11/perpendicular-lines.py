@@ -10,7 +10,7 @@ CV = 'Hai đường thẳng vuông góc'
 vocab = defs(CV, [
  ('anglsp', 'angle between two lines in space', 'góc giữa hai đường thẳng trong không gian', 'the angle between two intersecting lines through any point \\(O\\), parallel to the given lines; from \\(0^\\circ\\) to \\(90^\\circ\\).', 'góc giữa hai đường thẳng cùng đi qua một điểm \\(O\\) và lần lượt song song (hoặc trùng) với hai đường thẳng đã cho; từ \\(0^\\circ\\) đến \\(90^\\circ\\).', 'The angle between AB and B′C′ is 90°.', '\\((a,b)\\)'),
  ('perpl', 'perpendicular lines (in space)', 'hai đường thẳng vuông góc (trong không gian)', 'two lines whose angle is \\(90^\\circ\\); they may not intersect.', 'hai đường thẳng tạo với nhau góc \\(90^\\circ\\); chúng có thể không cắt nhau.', 'AB and B′C′ are perpendicular.', '\\(a\\perp b\\)')])
-goals = [('define the angle between two lines in space and recognise perpendicular lines;', 'nêu được định nghĩa [[góc giữa hai đường thẳng trong không gian]] và nhận biết [[hai đường thẳng vuông góc (trong không gian)|hai đường thẳng vuông góc (trong không gian)]];'),
+goals = [('define the angle between two lines in space and recognize perpendicular lines;', 'nêu được định nghĩa [[góc giữa hai đường thẳng trong không gian]] và nhận biết [[hai đường thẳng vuông góc (trong không gian)|hai đường thẳng vuông góc (trong không gian)]];'),
          ('compute that angle by translating one line to meet the other;', 'tính góc đó bằng cách dựng đường thẳng song song để đưa về hai đường cắt nhau;'),
          ('prove that two lines are perpendicular in cubes, pyramids and tetrahedra;', 'chứng minh hai đường thẳng vuông góc trong hình lập phương, hình chóp, tứ diện;'),
          ('use right angles of real structures (beams, frames, rooms).', 'nhận ra và vận dụng góc vuông trong các kết cấu thực tế (dầm, khung, phòng).')]
@@ -66,21 +66,21 @@ def lvl(P):
             ['\\(%d^\\circ\\)' % x for x in (0, 45, 60, 90, 30) if x != d][:3], ee + '.', ev + '.')
     a, b, d2, why, ang = P['pyr']
     o2 = M4(2, '\\(S.ABCD\\): square base, all edges equal. The angle between \\(%s\\) and \\(%s\\) is…' % (a, b), 'Hình chóp \\(S.ABCD\\) có đáy hình vuông và tất cả các cạnh bằng nhau. Góc giữa \\(%s\\) và \\(%s\\) bằng…' % (a, b), '\\(%d^\\circ\\)' % d2,
-            ['\\(%d^\\circ\\)' % x for x in (45, 30, 60, 90) if x != d2], '\\(%s\\); angle \\(%s\\).' % (why, ang), '\\(%s\\); xét góc \\(%s\\).' % (why, ang))
+            ['\\(%d^\\circ\\)' % x for x in (45, 30, 60, 90) if x != d2], '\\(%s\\); consider the angle \\(%s\\).' % (why, ang), '\\(%s\\); xét góc \\(%s\\).' % (why, ang))
     x, y, z = P['box']
     o3 = M4(3, 'Box \\(ABCD.A\'B\'C\'D\'\\): \\(AB=%d\\), \\(AD=%d\\). The cosine of the angle between \\(AB\\) and \\(A\'C\'\\) is…' % (x, y), 'Hình hộp chữ nhật \\(ABCD.A\'B\'C\'D\'\\) có \\(AB=%d\\), \\(AD=%d\\). Côsin của góc giữa \\(AB\\) và \\(A\'C\'\\) bằng…' % (x, y), '\\(%s\\)' % fr(F(x, z)),
-            ['\\(%s\\)' % fr(F(y, z)), '\\(%s\\)' % fr(F(x, y)), '\\(%s\\)' % fr(F(y, x))], '\\(A\'C\'\\parallel AC=%d\\).' % z, '\\(A\'C\'\\parallel AC\\), \\(AC=%d\\): \\(\\cos\\widehat{BAC}=\\dfrac{%d}{%d}\\).' % (z, x, z))
+            ['\\(%s\\)' % fr(F(y, z)), '\\(%s\\)' % fr(F(x, y)), '\\(%s\\)' % fr(F(y, x))], '\\(A\'C\'\\parallel AC\\), \\(AC=%d\\): \\(\\cos\\widehat{BAC}=\\dfrac{%d}{%d}\\).' % (z, x, z), '\\(A\'C\'\\parallel AC\\), \\(AC=%d\\): \\(\\cos\\widehat{BAC}=\\dfrac{%d}{%d}\\).' % (z, x, z))
     (se, sv), val = P['stmt']
     t4 = tf(4, se, sv, val, 'Think of the edges of a cube.', 'Hãy nghĩ đến các cạnh của hình lập phương.')
     (l1, l2), v5 = P['cstmt']
     t5 = tf(5, 'In the cube \\(ABCD.A\'B\'C\'D\'\\): \\(%s\\perp %s\\).' % (l1, l2), 'Trong hình lập phương \\(ABCD.A\'B\'C\'D\'\\): \\(%s\\perp %s\\).' % (l1, l2), v5,
-            'Translate one line to meet the other.', 'Dời một đường thẳng để cắt đường kia rồi xét tam giác.')
+            'Translate one line to meet the other, then consider the triangle.', 'Dời một đường thẳng để cắt đường kia rồi xét tam giác.')
     k, rad, ans6 = P['tet']; MN = ('%d\\sqrt{%d}' % (k, rad) if rad > 1 else str(k))
     s6 = sh(6, 'Tetrahedron \\(ABCD\\): \\(AB=CD=%d\\), \\(M\\), \\(N\\) midpoints of \\(BC\\), \\(AD\\), \\(MN=%s\\). Find \\((AB,CD)\\) in degrees.' % (2 * k, MN), 'Tứ diện \\(ABCD\\) có \\(AB=CD=%d\\), \\(M\\), \\(N\\) là trung điểm \\(BC\\), \\(AD\\), \\(MN=%s\\). Tính \\((AB,CD)\\) (độ).' % (2 * k, MN), ans6,
-            '\\(P\\) midpoint of \\(AC\\): \\(\\cos\\widehat{MPN}=%s\\).' % fr(F(2 - rad, 2)), '\\(P\\) là trung điểm \\(AC\\): \\(PM=PN=%d\\), \\(\\cos\\widehat{MPN}=%s\\).' % (k, fr(F(2 - rad, 2))))
+            '\\(P\\) is the midpoint of \\(AC\\): \\(PM=PN=%d\\), \\(\\cos\\widehat{MPN}=%s\\), so the angle between the lines is \\(%d^\\circ\\).' % (k, fr(F(2 - rad, 2)), ans6), '\\(P\\) là trung điểm \\(AC\\): \\(PM=PN=%d\\), \\(\\cos\\widehat{MPN}=%s\\) nên góc giữa hai đường thẳng bằng \\(%d^\\circ\\).' % (k, fr(F(2 - rad, 2)), ans6))
     ab, ad, ans7 = P['box2']
     s7 = sh(7, 'Box \\(ABCD.A\'B\'C\'D\'\\) with \\(AB=%s\\), \\(AD=%s\\). Find the angle (degrees) between \\(AB\\) and \\(A\'C\'\\).' % (ab, ad), 'Hình hộp chữ nhật \\(ABCD.A\'B\'C\'D\'\\) có \\(AB=%s\\), \\(AD=%s\\). Tính góc (độ) giữa \\(AB\\) và \\(A\'C\'\\).' % (ab, ad), ans7,
-            '\\(\\tan\\widehat{BAC}=\\dfrac{BC}{AB}\\).', '\\(A\'C\'\\parallel AC\\), \\(\\tan\\widehat{BAC}=\\dfrac{BC}{AB}=\\dfrac{%s}{%s}\\).' % (ad, ab))
+            '\\(A\'C\'\\parallel AC\\), \\(\\tan\\widehat{BAC}=\\dfrac{BC}{AB}=\\dfrac{%s}{%s}\\), so the angle is \\(%d^\\circ\\).' % (ad, ab, ans7), '\\(A\'C\'\\parallel AC\\), \\(\\tan\\widehat{BAC}=\\dfrac{BC}{AB}=\\dfrac{%s}{%s}\\) nên góc bằng \\(%d^\\circ\\).' % (ad, ab, ans7))
     return [[o1, o2, o3], [t4, t5], [s6, s7]]
 
 

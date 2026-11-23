@@ -119,19 +119,18 @@
    "level": 1,
    "section": "C",
    "type": "short",
-   "form": "A class has # boys and # girls. How many ways to choose # boys and # girls?",
-   "en": "A class has 8 boys and 6 girls. How many ways to choose 2 boys and 1 girls?",
+   "form": "A class has # boys and # girls. How many ways to choose # boys and # girl?",
+   "en": "A class has 8 boys and 6 girls. How many ways to choose 2 boys and 1 girl?",
    "vi": "Một lớp có 8 nam, 6 nữ. Có bao nhiêu cách chọn 2 nam và 1 nữ?",
    "options": [],
    "answer": "168",
-   "explain_en": "\\(C_{8}^{2}\\cdot C_{6}^{1}\\).",
-   "explain_vi": "\\(C_{8}^{2}\\cdot C_{6}^{1}=168\\).",
+   "explain_en": "Choose the boys, then the girls (rule of product): \\(C_{8}^{2}\\cdot C_{6}^{1}=168\\).",
+   "explain_vi": "Chọn nam rồi chọn nữ (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"rule of product\">quy tắc nhân</b>): \\(C_{8}^{2}\\cdot C_{6}^{1}=168\\).",
    "images": [],
-   "id": "df29e2c96cc2",
+   "id": "b2444d8e4cba",
    "status": "đang dùng",
    "sources": [
-    "hiện tại",
-    "9dde968"
+    "hiện tại"
    ]
   },
   {
@@ -139,18 +138,17 @@
    "section": "C",
    "type": "short",
    "form": "A lottery ticket picks # numbers from # to # (order not important). How many tickets are there?",
-   "en": "A lottery ticket picks 5 numbers from 1 to 35 (order not important). How many tickets are there?",
-   "vi": "Mỗi vé xổ số chọn 5 số từ 1 đến 35 (không kể thứ tự). Có bao nhiêu vé khác nhau?",
+   "en": "A lottery ticket picks 3 numbers from 1 to 20 (order not important). How many tickets are there?",
+   "vi": "Mỗi vé xổ số chọn 3 số từ 1 đến 20 (không kể thứ tự). Có bao nhiêu vé khác nhau?",
    "options": [],
-   "answer": "324632",
-   "explain_en": "\\(C_{35}^{5}\\).",
-   "explain_vi": "Không kể thứ tự: \\(C_{35}^{5}=324632\\).",
+   "answer": "1140",
+   "explain_en": "Order does not matter: \\(C_{20}^{3}=1140\\).",
+   "explain_vi": "Không kể thứ tự: \\(C_{20}^{3}=1140\\).",
    "images": [],
-   "id": "84742f2d16ea",
+   "id": "4b2560b2fd17",
    "status": "đang dùng",
    "sources": [
-    "hiện tại",
-    "9dde968"
+    "hiện tại"
    ]
   },
   {
@@ -167,7 +165,7 @@
     "\\(3600\\)"
    ],
    "answer": "b",
-   "explain_en": "Answer: b. Glue An–Bình into one block: \\(2\\cdot(7-1)!\\).",
+   "explain_en": "Answer: b. Treat An–Bình as one block: \\((7-1)!\\) arrangements, and the block can be swapped in 2 ways: \\(2\\cdot6!=1440\\).",
    "explain_vi": "Đáp án b. Coi An–Bình là một \"khối\": \\((7-1)!\\) cách xếp, khối có 2 cách đổi chỗ: \\(2\\cdot6!=1440\\).",
    "images": [],
    "id": "b2453ffce8d9",
@@ -191,7 +189,7 @@
     "\\(55\\)"
    ],
    "answer": "c",
-   "explain_en": "Answer: c. \\(C_{11}^3\\).",
+   "explain_en": "Answer: c. Each triangle is a combination of 3 points: \\(C_{11}^3=165\\).",
    "explain_vi": "Đáp án c. Mỗi tam giác ứng với một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"combination\">tổ hợp</b> chập 3: \\(C_{11}^3=165\\).",
    "images": [],
    "id": "451b07e90eb5",
@@ -205,8 +203,8 @@
    "level": 1,
    "section": "D",
    "type": "mcq",
-   "form": "A class has # boys and # girls. Choose a team of # boys and # girls. How many teams?",
-   "en": "A class has 10 boys and 7 girls. Choose a team of 2 boys and 1 girls. How many teams?",
+   "form": "A class has # boys and # girls. Choose a team of # boys and # girl. How many teams?",
+   "en": "A class has 10 boys and 7 girls. Choose a team of 2 boys and 1 girl. How many teams?",
    "vi": "Một lớp có 10 nam và 7 nữ. Chọn một đội gồm 2 nam và 1 nữ. Có bao nhiêu cách?",
    "options": [
     "\\(52\\)",
@@ -215,14 +213,13 @@
     "\\(680\\)"
    ],
    "answer": "c",
-   "explain_en": "Answer: c. \\(C_{10}^{2}\\cdot C_{7}^{1}\\).",
+   "explain_en": "Answer: c. Choose the boys, then the girls (rule of product): \\(C_{10}^{2}\\cdot C_{7}^{1}=315\\).",
    "explain_vi": "Đáp án c. Chọn nam rồi chọn nữ (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"rule of product\">quy tắc nhân</b>): \\(C_{10}^{2}\\cdot C_{7}^{1}=315\\).",
    "images": [],
-   "id": "cd9690d58093",
+   "id": "8ed05ed2a18d",
    "status": "đang dùng",
    "sources": [
-    "hiện tại",
-    "9dde968"
+    "hiện tại"
    ]
   },
   {
@@ -239,7 +236,7 @@
     "\\(1716\\)"
    ],
    "answer": "d",
-   "explain_en": "Answer: d. Order matters: \\(A_{13}^3\\).",
+   "explain_en": "Answer: d. The positions are different (order matters): \\(A_{13}^3=13\\cdot12\\cdot11=1716\\).",
    "explain_vi": "Đáp án d. Có phân biệt chức vụ (có thứ tự): \\(A_{13}^3=13\\cdot12\\cdot11=1716\\).",
    "images": [],
    "id": "3ca22e1ed213",
@@ -263,7 +260,7 @@
     "\\(45\\)"
    ],
    "answer": "b",
-   "explain_en": "Answer: b. No order: \\(C_{10}^{3}\\).",
+   "explain_en": "Answer: b. Order does not matter: \\(C_{10}^{3}=120\\).",
    "explain_vi": "Đáp án b. Không phân biệt thứ tự: \\(C_{10}^{3}=120\\).",
    "images": [],
    "id": "135d6c19a7d7",
@@ -287,7 +284,7 @@
     "\\(36\\)"
    ],
    "answer": "a",
-   "explain_en": "Answer: a. \\(C_{8}^2\\).",
+   "explain_en": "Answer: a. Each handshake is an unordered pair: \\(C_{8}^2=28\\).",
    "explain_vi": "Đáp án a. Mỗi cái bắt tay ứng với một cặp không thứ tự: \\(C_{8}^2=28\\).",
    "images": [],
    "id": "679c9f46d51d",
@@ -311,7 +308,7 @@
     "\\(1760\\)"
    ],
    "answer": "a",
-   "explain_en": "Answer: a. Complement: all choices minus all-boy choices.",
+   "explain_en": "Answer: a. Use the complement: \\(C_{13}^{4}-C_{5}^{4}=710\\).",
    "explain_vi": "Đáp án a. Dùng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"complement\">phần bù</b>: \\(C_{13}^{4}-C_{5}^{4}=710\\).",
    "images": [],
    "id": "c1a3f30ae395",
@@ -335,7 +332,7 @@
     "\\(88\\)"
    ],
    "answer": "b",
-   "explain_en": "Answer: b. Segments joining two vertices minus the sides.",
+   "explain_en": "Answer: b. Segments joining two vertices minus the sides: \\(C_{11}^2-11=44\\).",
    "explain_vi": "Đáp án b. Số đoạn nối hai đỉnh trừ số cạnh: \\(C_{11}^2-11=44\\).",
    "images": [],
    "id": "84a6d59332d4",
@@ -359,7 +356,7 @@
     "\\(64\\)"
    ],
    "answer": "a",
-   "explain_en": "Answer: a. A permutation of 8 elements: \\(8!\\).",
+   "explain_en": "Answer: a. Each arrangement is a permutation of 8 elements: \\(P_{8}=8!=40320\\).",
    "explain_vi": "Đáp án a. Mỗi cách xếp là một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"permutation\">hoán vị</b> của 8 <b class=\"mbl-term\" tabindex=\"0\" data-en=\"element\">phần tử</b>: \\(P_{8}=8!=40320\\).",
    "images": [],
    "id": "dec8c56cf44c",
@@ -483,19 +480,18 @@
    "level": 2,
    "section": "C",
    "type": "short",
-   "form": "A class has # boys and # girls. How many ways to choose # boys and # girls?",
-   "en": "A class has 10 boys and 7 girls. How many ways to choose 1 boys and 2 girls?",
+   "form": "A class has # boys and # girls. How many ways to choose # boy and # girls?",
+   "en": "A class has 10 boys and 7 girls. How many ways to choose 1 boy and 2 girls?",
    "vi": "Một lớp có 10 nam, 7 nữ. Có bao nhiêu cách chọn 1 nam và 2 nữ?",
    "options": [],
    "answer": "210",
-   "explain_en": "\\(C_{10}^{1}\\cdot C_{7}^{2}\\).",
-   "explain_vi": "\\(C_{10}^{1}\\cdot C_{7}^{2}=210\\).",
+   "explain_en": "Choose the boys, then the girls (rule of product): \\(C_{10}^{1}\\cdot C_{7}^{2}=210\\).",
+   "explain_vi": "Chọn nam rồi chọn nữ (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"rule of product\">quy tắc nhân</b>): \\(C_{10}^{1}\\cdot C_{7}^{2}=210\\).",
    "images": [],
-   "id": "44da0af87fdf",
+   "id": "f70f42222b40",
    "status": "đang dùng",
    "sources": [
-    "hiện tại",
-    "9dde968"
+    "hiện tại"
    ]
   },
   {
@@ -507,7 +503,7 @@
    "vi": "Một giải đấu có 20 đội, mỗi hai đội gặp nhau đúng một trận. Có bao nhiêu trận?",
    "options": [],
    "answer": "190",
-   "explain_en": "\\(C_{20}^{2}\\).",
+   "explain_en": "Order does not matter: \\(C_{20}^{2}=190\\).",
    "explain_vi": "Không kể thứ tự: \\(C_{20}^{2}=190\\).",
    "images": [],
    "id": "bcadfa40600e",
@@ -531,7 +527,7 @@
     "\\(48\\)"
    ],
    "answer": "d",
-   "explain_en": "Answer: d. Glue An–Bình into one block: \\(2\\cdot(5-1)!\\).",
+   "explain_en": "Answer: d. Treat An–Bình as one block: \\((5-1)!\\) arrangements, and the block can be swapped in 2 ways: \\(2\\cdot4!=48\\).",
    "explain_vi": "Đáp án d. Coi An–Bình là một \"khối\": \\((5-1)!\\) cách xếp, khối có 2 cách đổi chỗ: \\(2\\cdot4!=48\\).",
    "images": [],
    "id": "6a0a50a9db4b",
@@ -555,7 +551,7 @@
     "\\(66\\)"
    ],
    "answer": "b",
-   "explain_en": "Answer: b. \\(C_{12}^3\\).",
+   "explain_en": "Answer: b. Each triangle is a combination of 3 points: \\(C_{12}^3=220\\).",
    "explain_vi": "Đáp án b. Mỗi tam giác ứng với một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"combination\">tổ hợp</b> chập 3: \\(C_{12}^3=220\\).",
    "images": [],
    "id": "33666cdebaa3",
@@ -569,8 +565,8 @@
    "level": 2,
    "section": "D",
    "type": "mcq",
-   "form": "A class has # boys and # girls. Choose a team of # boys and # girls. How many teams?",
-   "en": "A class has 8 boys and 5 girls. Choose a team of 3 boys and 1 girls. How many teams?",
+   "form": "A class has # boys and # girls. Choose a team of # boys and # girl. How many teams?",
+   "en": "A class has 8 boys and 5 girls. Choose a team of 3 boys and 1 girl. How many teams?",
    "vi": "Một lớp có 8 nam và 5 nữ. Chọn một đội gồm 3 nam và 1 nữ. Có bao nhiêu cách?",
    "options": [
     "\\(280\\)",
@@ -579,14 +575,13 @@
     "\\(61\\)"
    ],
    "answer": "a",
-   "explain_en": "Answer: a. \\(C_{8}^{3}\\cdot C_{5}^{1}\\).",
+   "explain_en": "Answer: a. Choose the boys, then the girls (rule of product): \\(C_{8}^{3}\\cdot C_{5}^{1}=280\\).",
    "explain_vi": "Đáp án a. Chọn nam rồi chọn nữ (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"rule of product\">quy tắc nhân</b>): \\(C_{8}^{3}\\cdot C_{5}^{1}=280\\).",
    "images": [],
-   "id": "25b6b2d2fb6a",
+   "id": "02359a9dd053",
    "status": "đang dùng",
    "sources": [
-    "hiện tại",
-    "9dde968"
+    "hiện tại"
    ]
   },
   {
@@ -603,7 +598,7 @@
     "\\(27\\)"
    ],
    "answer": "c",
-   "explain_en": "Answer: c. Order matters: \\(A_{9}^3\\).",
+   "explain_en": "Answer: c. The positions are different (order matters): \\(A_{9}^3=9\\cdot8\\cdot7=504\\).",
    "explain_vi": "Đáp án c. Có phân biệt chức vụ (có thứ tự): \\(A_{9}^3=9\\cdot8\\cdot7=504\\).",
    "images": [],
    "id": "b2f78055a5c1",
@@ -627,7 +622,7 @@
     "\\(364\\)"
    ],
    "answer": "d",
-   "explain_en": "Answer: d. No order: \\(C_{14}^{3}\\).",
+   "explain_en": "Answer: d. Order does not matter: \\(C_{14}^{3}=364\\).",
    "explain_vi": "Đáp án d. Không phân biệt thứ tự: \\(C_{14}^{3}=364\\).",
    "images": [],
    "id": "d1cd94095258",
@@ -651,7 +646,7 @@
     "\\(420\\)"
    ],
    "answer": "a",
-   "explain_en": "Answer: a. \\(C_{21}^2\\).",
+   "explain_en": "Answer: a. Each handshake is an unordered pair: \\(C_{21}^2=210\\).",
    "explain_vi": "Đáp án a. Mỗi cái bắt tay ứng với một cặp không thứ tự: \\(C_{21}^2=210\\).",
    "images": [],
    "id": "5667c82327e8",
@@ -675,7 +670,7 @@
     "\\(120\\)"
    ],
    "answer": "c",
-   "explain_en": "Answer: c. Complement: all choices minus all-boy choices.",
+   "explain_en": "Answer: c. Use the complement: \\(C_{10}^{3}-C_{7}^{3}=85\\).",
    "explain_vi": "Đáp án c. Dùng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"complement\">phần bù</b>: \\(C_{10}^{3}-C_{7}^{3}=85\\).",
    "images": [],
    "id": "7ccb42d9c517",
@@ -699,7 +694,7 @@
     "\\(15\\)"
    ],
    "answer": "a",
-   "explain_en": "Answer: a. Segments joining two vertices minus the sides.",
+   "explain_en": "Answer: a. Segments joining two vertices minus the sides: \\(C_{6}^2-6=9\\).",
    "explain_vi": "Đáp án a. Số đoạn nối hai đỉnh trừ số cạnh: \\(C_{6}^2-6=9\\).",
    "images": [],
    "id": "bed8c45276bf",
@@ -723,7 +718,7 @@
     "\\(823543\\)"
    ],
    "answer": "b",
-   "explain_en": "Answer: b. A permutation of 7 elements: \\(7!\\).",
+   "explain_en": "Answer: b. Each arrangement is a permutation of 7 elements: \\(P_{7}=7!=5040\\).",
    "explain_vi": "Đáp án b. Mỗi cách xếp là một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"permutation\">hoán vị</b> của 7 <b class=\"mbl-term\" tabindex=\"0\" data-en=\"element\">phần tử</b>: \\(P_{7}=7!=5040\\).",
    "images": [],
    "id": "9782195ed739",
@@ -852,8 +847,8 @@
    "vi": "Một lớp có 9 nam, 8 nữ. Có bao nhiêu cách chọn 2 nam và 2 nữ?",
    "options": [],
    "answer": "1008",
-   "explain_en": "\\(C_{9}^{2}\\cdot C_{8}^{2}\\).",
-   "explain_vi": "\\(C_{9}^{2}\\cdot C_{8}^{2}=1008\\).",
+   "explain_en": "Choose the boys, then the girls (rule of product): \\(C_{9}^{2}\\cdot C_{8}^{2}=1008\\).",
+   "explain_vi": "Chọn nam rồi chọn nữ (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"rule of product\">quy tắc nhân</b>): \\(C_{9}^{2}\\cdot C_{8}^{2}=1008\\).",
    "images": [],
    "id": "125d4c7e63a1",
    "status": "đang dùng",
@@ -871,7 +866,7 @@
    "vi": "Một đề kiểm tra lấy 3 câu từ ngân hàng 30 câu (không kể thứ tự). Có bao nhiêu đề khác nhau?",
    "options": [],
    "answer": "4060",
-   "explain_en": "\\(C_{30}^{3}\\).",
+   "explain_en": "Order does not matter: \\(C_{30}^{3}=4060\\).",
    "explain_vi": "Không kể thứ tự: \\(C_{30}^{3}=4060\\).",
    "images": [],
    "id": "5ffbb4abbc3f",
@@ -895,7 +890,7 @@
     "\\(40320\\)"
    ],
    "answer": "c",
-   "explain_en": "Answer: c. Glue An–Bình into one block: \\(2\\cdot(8-1)!\\).",
+   "explain_en": "Answer: c. Treat An–Bình as one block: \\((8-1)!\\) arrangements, and the block can be swapped in 2 ways: \\(2\\cdot7!=10080\\).",
    "explain_vi": "Đáp án c. Coi An–Bình là một \"khối\": \\((8-1)!\\) cách xếp, khối có 2 cách đổi chỗ: \\(2\\cdot7!=10080\\).",
    "images": [],
    "id": "89cbf542c872",
@@ -919,7 +914,7 @@
     "\\(336\\)"
    ],
    "answer": "b",
-   "explain_en": "Answer: b. \\(C_{8}^3\\).",
+   "explain_en": "Answer: b. Each triangle is a combination of 3 points: \\(C_{8}^3=56\\).",
    "explain_vi": "Đáp án b. Mỗi tam giác ứng với một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"combination\">tổ hợp</b> chập 3: \\(C_{8}^3=56\\).",
    "images": [],
    "id": "74901e0f3452",
@@ -933,8 +928,8 @@
    "level": 3,
    "section": "D",
    "type": "mcq",
-   "form": "A class has # boys and # girls. Choose a team of # boys and # girls. How many teams?",
-   "en": "A class has 9 boys and 8 girls. Choose a team of 1 boys and 3 girls. How many teams?",
+   "form": "A class has # boys and # girls. Choose a team of # boy and # girls. How many teams?",
+   "en": "A class has 9 boys and 8 girls. Choose a team of 1 boy and 3 girls. How many teams?",
    "vi": "Một lớp có 9 nam và 8 nữ. Chọn một đội gồm 1 nam và 3 nữ. Có bao nhiêu cách?",
    "options": [
     "\\(65\\)",
@@ -943,14 +938,13 @@
     "\\(504\\)"
    ],
    "answer": "d",
-   "explain_en": "Answer: d. \\(C_{9}^{1}\\cdot C_{8}^{3}\\).",
+   "explain_en": "Answer: d. Choose the boys, then the girls (rule of product): \\(C_{9}^{1}\\cdot C_{8}^{3}=504\\).",
    "explain_vi": "Đáp án d. Chọn nam rồi chọn nữ (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"rule of product\">quy tắc nhân</b>): \\(C_{9}^{1}\\cdot C_{8}^{3}=504\\).",
    "images": [],
-   "id": "21cbb97853f2",
+   "id": "d7d22416a7e5",
    "status": "đang dùng",
    "sources": [
-    "hiện tại",
-    "9dde968"
+    "hiện tại"
    ]
   },
   {
@@ -967,7 +961,7 @@
     "\\(343\\)"
    ],
    "answer": "a",
-   "explain_en": "Answer: a. Order matters: \\(A_{7}^3\\).",
+   "explain_en": "Answer: a. The positions are different (order matters): \\(A_{7}^3=7\\cdot6\\cdot5=210\\).",
    "explain_vi": "Đáp án a. Có phân biệt chức vụ (có thứ tự): \\(A_{7}^3=7\\cdot6\\cdot5=210\\).",
    "images": [],
    "id": "13ee319f97ee",
@@ -991,7 +985,7 @@
     "\\(36\\)"
    ],
    "answer": "b",
-   "explain_en": "Answer: b. No order: \\(C_{9}^{3}\\).",
+   "explain_en": "Answer: b. Order does not matter: \\(C_{9}^{3}=84\\).",
    "explain_vi": "Đáp án b. Không phân biệt thứ tự: \\(C_{9}^{3}=84\\).",
    "images": [],
    "id": "f11a64400250",
@@ -1015,7 +1009,7 @@
     "\\(306\\)"
    ],
    "answer": "a",
-   "explain_en": "Answer: a. \\(C_{18}^2\\).",
+   "explain_en": "Answer: a. Each handshake is an unordered pair: \\(C_{18}^2=153\\).",
    "explain_vi": "Đáp án a. Mỗi cái bắt tay ứng với một cặp không thứ tự: \\(C_{18}^2=153\\).",
    "images": [],
    "id": "2a1a266bcfe9",
@@ -1039,7 +1033,7 @@
     "\\(3060\\)"
    ],
    "answer": "b",
-   "explain_en": "Answer: b. Complement: all choices minus all-boy choices.",
+   "explain_en": "Answer: b. Use the complement: \\(C_{18}^{4}-C_{10}^{4}=2850\\).",
    "explain_vi": "Đáp án b. Dùng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"complement\">phần bù</b>: \\(C_{18}^{4}-C_{10}^{4}=2850\\).",
    "images": [],
    "id": "4418dd7eb29a",
@@ -1063,7 +1057,7 @@
     "\\(0\\)"
    ],
    "answer": "b",
-   "explain_en": "Answer: b. Segments joining two vertices minus the sides.",
+   "explain_en": "Answer: b. Segments joining two vertices minus the sides: \\(C_{5}^2-5=5\\).",
    "explain_vi": "Đáp án b. Số đoạn nối hai đỉnh trừ số cạnh: \\(C_{5}^2-5=5\\).",
    "images": [],
    "id": "d52ee340ab3c",
@@ -1087,11 +1081,140 @@
     "\\(16\\)"
    ],
    "answer": "b",
-   "explain_en": "Answer: b. A permutation of 4 elements: \\(4!\\).",
+   "explain_en": "Answer: b. Each arrangement is a permutation of 4 elements: \\(P_{4}=4!=24\\).",
    "explain_vi": "Đáp án b. Mỗi cách xếp là một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"permutation\">hoán vị</b> của 4 <b class=\"mbl-term\" tabindex=\"0\" data-en=\"element\">phần tử</b>: \\(P_{4}=4!=24\\).",
    "images": [],
    "id": "675ccdf4fb7e",
    "status": "đang dùng",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "A class has # boys and # girls. How many ways to choose # boys and # girls?",
+   "en": "A class has 8 boys and 6 girls. How many ways to choose 2 boys and 1 girls?",
+   "vi": "Một lớp có 8 nam, 6 nữ. Có bao nhiêu cách chọn 2 nam và 1 nữ?",
+   "options": [],
+   "answer": "168",
+   "explain_en": "\\(C_{8}^{2}\\cdot C_{6}^{1}\\).",
+   "explain_vi": "\\(C_{8}^{2}\\cdot C_{6}^{1}=168\\).",
+   "images": [],
+   "id": "df29e2c96cc2",
+   "status": "đã thay ra",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "A lottery ticket picks # numbers from # to # (order not important). How many tickets are there?",
+   "en": "A lottery ticket picks 5 numbers from 1 to 35 (order not important). How many tickets are there?",
+   "vi": "Mỗi vé xổ số chọn 5 số từ 1 đến 35 (không kể thứ tự). Có bao nhiêu vé khác nhau?",
+   "options": [],
+   "answer": "324632",
+   "explain_en": "\\(C_{35}^{5}\\).",
+   "explain_vi": "Không kể thứ tự: \\(C_{35}^{5}=324632\\).",
+   "images": [],
+   "id": "84742f2d16ea",
+   "status": "đã thay ra",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "A class has # boys and # girls. Choose a team of # boys and # girls. How many teams?",
+   "en": "A class has 10 boys and 7 girls. Choose a team of 2 boys and 1 girls. How many teams?",
+   "vi": "Một lớp có 10 nam và 7 nữ. Chọn một đội gồm 2 nam và 1 nữ. Có bao nhiêu cách?",
+   "options": [
+    "\\(52\\)",
+    "\\(630\\)",
+    "\\(315\\)",
+    "\\(680\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(C_{10}^{2}\\cdot C_{7}^{1}\\).",
+   "explain_vi": "Đáp án c. Chọn nam rồi chọn nữ (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"rule of product\">quy tắc nhân</b>): \\(C_{10}^{2}\\cdot C_{7}^{1}=315\\).",
+   "images": [],
+   "id": "cd9690d58093",
+   "status": "đã thay ra",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "A class has # boys and # girls. How many ways to choose # boys and # girls?",
+   "en": "A class has 10 boys and 7 girls. How many ways to choose 1 boys and 2 girls?",
+   "vi": "Một lớp có 10 nam, 7 nữ. Có bao nhiêu cách chọn 1 nam và 2 nữ?",
+   "options": [],
+   "answer": "210",
+   "explain_en": "\\(C_{10}^{1}\\cdot C_{7}^{2}\\).",
+   "explain_vi": "\\(C_{10}^{1}\\cdot C_{7}^{2}=210\\).",
+   "images": [],
+   "id": "44da0af87fdf",
+   "status": "đã thay ra",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "A class has # boys and # girls. Choose a team of # boys and # girls. How many teams?",
+   "en": "A class has 8 boys and 5 girls. Choose a team of 3 boys and 1 girls. How many teams?",
+   "vi": "Một lớp có 8 nam và 5 nữ. Chọn một đội gồm 3 nam và 1 nữ. Có bao nhiêu cách?",
+   "options": [
+    "\\(280\\)",
+    "\\(715\\)",
+    "\\(1680\\)",
+    "\\(61\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(C_{8}^{3}\\cdot C_{5}^{1}\\).",
+   "explain_vi": "Đáp án a. Chọn nam rồi chọn nữ (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"rule of product\">quy tắc nhân</b>): \\(C_{8}^{3}\\cdot C_{5}^{1}=280\\).",
+   "images": [],
+   "id": "25b6b2d2fb6a",
+   "status": "đã thay ra",
+   "sources": [
+    "hiện tại",
+    "9dde968"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "A class has # boys and # girls. Choose a team of # boys and # girls. How many teams?",
+   "en": "A class has 9 boys and 8 girls. Choose a team of 1 boys and 3 girls. How many teams?",
+   "vi": "Một lớp có 9 nam và 8 nữ. Chọn một đội gồm 1 nam và 3 nữ. Có bao nhiêu cách?",
+   "options": [
+    "\\(65\\)",
+    "\\(3024\\)",
+    "\\(2380\\)",
+    "\\(504\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(C_{9}^{1}\\cdot C_{8}^{3}\\).",
+   "explain_vi": "Đáp án d. Chọn nam rồi chọn nữ (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"rule of product\">quy tắc nhân</b>): \\(C_{9}^{1}\\cdot C_{8}^{3}=504\\).",
+   "images": [],
+   "id": "21cbb97853f2",
+   "status": "đã thay ra",
    "sources": [
     "hiện tại",
     "9dde968"

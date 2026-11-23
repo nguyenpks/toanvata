@@ -13,7 +13,7 @@ vocab = defs(CV, [
  ('binthm', 'binomial theorem', 'công thức nhị thức Newton', '\\((a+b)^n=\\sum_{k=0}^{n}C_n^ka^{n-k}b^k\\) (here \\(n=4,5\\)).', '\\((a+b)^n=\\sum_{k=0}^{n}C_n^ka^{n-k}b^k\\) (ở đây \\(n=4,5\\)).', 'Expand (x + 2)^4 by the binomial theorem.', ''),
  ('bincoef', 'binomial coefficient', 'hệ số nhị thức', 'the number \\(C_n^k\\) in front of \\(a^{n-k}b^k\\).', 'số \\(C_n^k\\) đứng trước \\(a^{n-k}b^k\\).', 'The binomial coefficients of n = 4 are 1, 4, 6, 4, 1.', '\\(C_n^k\\)'),
  ('pascal', 'Pascal\'s triangle', 'tam giác Pascal', 'a triangle of numbers in which each entry is the sum of the two above it; row \\(n\\) lists \\(C_n^0,\\dots,C_n^n\\).', 'bảng số hình tam giác, mỗi số bằng tổng hai số ngay trên nó; hàng \\(n\\) gồm \\(C_n^0,\\dots,C_n^n\\).', 'Read the coefficients from Pascal\'s triangle.', '')])
-goals = [('recognise the binomial expansion of \\((a+b)^4\\) and \\((a+b)^5\\);', 'nhận biết [[công thức nhị thức Newton]] khai triển \\((a+b)^4\\), \\((a+b)^5\\);'),
+goals = [('recognize the binomial expansion of \\((a+b)^4\\) and \\((a+b)^5\\);', 'nhận biết [[công thức nhị thức Newton]] khai triển \\((a+b)^4\\), \\((a+b)^5\\);'),
          ('read the coefficients from combinations or Pascal\'s triangle;', 'đọc [[hệ số nhị thức]] bằng tổ hợp hoặc [[tam giác Pascal]];'),
          ('expand binomials and find a given coefficient or term;', 'khai triển nhị thức, tìm hệ số hoặc số hạng theo yêu cầu;'),
          ('use expansions to approximate numbers (compound interest).', 'dùng khai triển để tính gần đúng (lãi kép).')]
@@ -68,10 +68,10 @@ def lvl(P):
             ['\\(%d\\)' % C(n, k), '\\(%d\\)' % (C(n, k) * a ** k), '\\(%d\\)' % -c], 'Term \\(C_{%d}^{%d}(%dx)^{%d}(%d)^{%d}\\).' % (n, n - k, a, k, b, n - k), 'Số hạng \\(C_{%d}^{%d}(%dx)^{%d}(%d)^{%d}\\).' % (n, n - k, a, k, b, n - k))
     (a2, b2, n2) = P['sum']; s2 = (a2 + b2) ** n2
     o2 = M4(2, 'The sum of the coefficients of \\(%s\\) is…' % binom_str(a2, b2, n2), 'Tổng các hệ số trong khai triển \\(%s\\) là…' % binom_str(a2, b2, n2), '\\(%d\\)' % s2,
-            ['\\(%d\\)' % 2 ** n2, '\\(%d\\)' % (abs(a2) + abs(b2)) ** n2 if (abs(a2) + abs(b2)) ** n2 != s2 else '\\(%d\\)' % (s2 + 1), '\\(%d\\)' % (a2 ** n2 + b2 ** n2)], 'Put \\(x=1\\).', 'Thay \\(x=1\\): \\((%d%+d)^{%d}=%d\\).' % (a2, b2, n2, s2))
+            ['\\(%d\\)' % 2 ** n2, '\\(%d\\)' % (abs(a2) + abs(b2)) ** n2 if (abs(a2) + abs(b2)) ** n2 != s2 else '\\(%d\\)' % (s2 + 1), '\\(%d\\)' % (a2 ** n2 + b2 ** n2)], 'Put \\(x=1\\): \\((%d%+d)^{%d}=%d\\).' % (a2, b2, n2, s2), 'Thay \\(x=1\\): \\((%d%+d)^{%d}=%d\\).' % (a2, b2, n2, s2))
     (a3, b3) = P['mid']; m3 = C(4, 2) * a3 ** 2 * b3 ** 2
     o3 = M4(3, 'The middle term of \\(%s\\) is…' % binom_str(a3, b3, 4), 'Số hạng chính giữa của khai triển \\(%s\\) là…' % binom_str(a3, b3, 4), '\\(%s\\)' % mono(m3, 2),
-            ['\\(%s\\)' % mono(C(4, 2), 2), '\\(%s\\)' % mono(m3, 3), '\\(%s\\)' % mono(4 * a3 ** 3 * b3, 3)], 'Third of five terms.', 'Số hạng thứ ba trong năm số hạng: \\(C_4^2(%dx)^2(%d)^2\\).' % (a3, b3))
+            ['\\(%s\\)' % mono(C(4, 2), 2), '\\(%s\\)' % mono(m3, 3), '\\(%s\\)' % mono(4 * a3 ** 3 * b3, 3)], 'The third of the five terms: \\(C_4^2(%dx)^2(%d)^2=%s\\).' % (a3, b3, mono(m3, 2)), 'Số hạng thứ ba trong năm số hạng: \\(C_4^2(%dx)^2(%d)^2=%s\\).' % (a3, b3, mono(m3, 2)))
     (se, sv), val = P['stmt']
     t4 = tf(4, se, sv, val, 'Expand or use \\(C_n^k\\).', 'Khai triển hoặc dùng \\(C_n^k\\) để kiểm tra.')
     cc, claim = P['const']; real = C(4, 2) * cc ** 2
@@ -79,10 +79,10 @@ def lvl(P):
             '\\(k=2\\): \\(C_4^2\\cdot(%d)^2=%d\\).' % (cc, real), '\\(k=2\\): \\(C_4^2\\cdot(%d)^2=%d\\).' % (cc, real))
     (a6, b6, n6, k6) = P['short']; c6 = C(n6, k6) * a6 ** k6 * b6 ** (n6 - k6)
     s6 = sh(6, 'Find the coefficient of \\(x^{%d}\\) in \\(%s\\).' % (k6, binom_str(a6, b6, n6)), 'Tìm hệ số của \\(x^{%d}\\) trong khai triển \\(%s\\).' % (k6, binom_str(a6, b6, n6)), c6,
-            '\\(C_{%d}^{%d}\\cdot%d^{%d}\\cdot(%d)^{%d}\\).' % (n6, k6, a6, k6, b6, n6 - k6), '\\(C_{%d}^{%d}\\cdot%d^{%d}\\cdot(%d)^{%d}=%d\\).' % (n6, k6, a6, k6, b6, n6 - k6, c6))
+            '\\(C_{%d}^{%d}\\cdot%d^{%d}\\cdot(%d)^{%d}=%d\\).' % (n6, k6, a6, k6, b6, n6 - k6, c6), '\\(C_{%d}^{%d}\\cdot%d^{%d}\\cdot(%d)^{%d}=%d\\).' % (n6, k6, a6, k6, b6, n6 - k6, c6))
     M, r, years, est = P['money']
     s7 = sh(7, 'Deposit %d million VND at %d%% per year compound interest for %d years. Using the first two terms of the binomial expansion, estimate the final amount (million VND).' % (M, r, years), 'Gửi %d triệu đồng, lãi kép %d%%/năm trong %d năm. Dùng hai số hạng đầu của khai triển nhị thức, ước tính số tiền nhận được (triệu đồng).' % (M, r, years), est,
-            '\\((1+x)^n\\approx1+nx\\).', '\\(%d(1+%s)^{%d}\\approx%d(1+%d\\cdot%s)=%d\\).' % (M, fr(F(r, 100)), years, M, years, fr(F(r, 100)), est))
+            '\\((1+x)^n\\approx1+nx\\): \\(%d(1+%s)^{%d}\\approx%d(1+%d\\cdot%s)=%d\\).' % (M, fr(F(r, 100)), years, M, years, fr(F(r, 100)), est), '\\((1+x)^n\\approx1+nx\\): \\(%d(1+%s)^{%d}\\approx%d(1+%d\\cdot%s)=%d\\).' % (M, fr(F(r, 100)), years, M, years, fr(F(r, 100)), est))
     return [[o1, o2, o3], [t4, t5], [s6, s7]]
 
 

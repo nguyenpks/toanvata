@@ -7,7 +7,7 @@ import sp_g10b, trigval as TV
 
 CV = 'Giá trị lượng giác của góc từ 0° đến 180°'
 vocab = defs(CV, [
- ('semicircle', 'unit semicircle', 'nửa đường tròn đơn vị', 'the upper half of the circle with centre \\(O\\) and radius 1.', 'nửa trên của đường tròn tâm \\(O\\), bán kính 1.', 'Draw a point on the unit semicircle.', ''),
+ ('semicircle', 'unit semicircle', 'nửa đường tròn đơn vị', 'the upper half of the circle with center \\(O\\) and radius 1.', 'nửa trên của đường tròn tâm \\(O\\), bán kính 1.', 'Draw a point on the unit semicircle.', ''),
  ('sine', 'sine', 'sin (sin của góc)', 'the \\(y\\)-coordinate of the point on the unit semicircle.', 'tung độ của điểm trên nửa đường tròn đơn vị.', 'The sine of 30 degrees is one half.', '\\(\\sin\\alpha\\)'),
  ('cosine', 'cosine', 'cos (cos của góc)', 'the \\(x\\)-coordinate of the point on the unit semicircle.', 'hoành độ của điểm trên nửa đường tròn đơn vị.', 'The cosine of 60 degrees is one half.', '\\(\\cos\\alpha\\)'),
  ('tangent', 'tangent', 'tan (tang của góc)', '\\(\\sin\\alpha\\) divided by \\(\\cos\\alpha\\).', '\\(\\sin\\alpha\\) chia \\(\\cos\\alpha\\) (khi \\(\\cos\\alpha\\ne0\\)).', 'The tangent of 45 degrees is 1.', '\\(\\tan\\alpha\\)'),

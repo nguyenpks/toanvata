@@ -5,6 +5,7 @@ sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), '..'
 from mb_quick import *
 import sp_g10f as S
 from sp_g10f import poly, D, iv
+_E = lambda x: str(x.numerator) if x.denominator == 1 else ('%g' % float(x))
 
 CV = 'Hàm số bậc hai'
 vocab = defs(CV, [
@@ -17,7 +18,7 @@ vocab = defs(CV, [
 goals = [('find the vertex, the axis of symmetry and the direction of a parabola;', 'tìm [[đỉnh|đỉnh (của parabol)]], [[trục đối xứng]] và chiều [[bề lõm|bề lõm quay lên / quay xuống]] của [[parabol]];'),
          ('draw the graph and the table of variations of \\(y=ax^2+bx+c\\);', 'vẽ đồ thị và lập [[bảng biến thiên]] của [[hàm số bậc hai]];'),
          ('find the largest or smallest value;', 'tìm giá trị lớn nhất, nhỏ nhất;'),
-         ('solve optimisation problems (areas, prices, heights).', 'giải bài toán tối ưu thực tế (diện tích, giá bán, độ cao).')]
+         ('solve optimization problems (areas, prices, heights).', 'giải bài toán tối ưu thực tế (diện tích, giá bán, độ cao).')]
 phrases = [('<b>Find the vertex of the parabola.</b>', 'Tìm đỉnh của parabol.'), ('<b>The parabola opens upward.</b>', 'Parabol có bề lõm quay lên.'), ('<b>Draw the table of variations.</b>', 'Lập bảng biến thiên.'),
            ('<b>Find the maximum height of the ball.</b>', 'Tìm độ cao lớn nhất của quả bóng.'), ('<b>Which width gives the largest area?</b>', 'Chiều rộng nào cho diện tích lớn nhất?')]
 review = T('From Lesson 15: domain, graph, increasing/decreasing. From Grade 9: \\(y=ax^2\\) is a parabola with vertex \\(O\\); \\(ax^2+bx+c=0\\) has \\(\\Delta=b^2-4ac\\). Completing the square: \\(ax^2+bx+c=a\\left(x+\\dfrac b{2a}\\right)^2-\\dfrac{\\Delta}{4a}\\).', 'Từ Bài 15: tập xác định, đồ thị, đồng biến/nghịch biến. Từ lớp 9: \\(y=ax^2\\) là parabol đỉnh \\(O\\); phương trình \\(ax^2+bx+c=0\\) có \\(\\Delta=b^2-4ac\\). Biến đổi: \\(ax^2+bx+c=a\\left(x+\\dfrac b{2a}\\right)^2-\\dfrac{\\Delta}{4a}\\).')
@@ -72,27 +73,27 @@ def lvl(P):
             '\\(a%s0\\): the vertex value %s is the %s value.' % ('\\gt' if a5 > 0 else '\\lt', fr(F(k5)), 'smallest' if a5 > 0 else 'largest'), '\\(a%s0\\): tung độ đỉnh %s là giá trị %s.' % ('\\gt' if a5 > 0 else '\\lt', fr(F(k5)), 'nhỏ nhất' if a5 > 0 else 'lớn nhất'))
     (h6, k6), (x6, y6) = P['find']; a6 = F(y6 - k6, (x6 - h6) ** 2)
     s6 = sh(6, 'The parabola \\(y=ax^2+bx+c\\) has vertex \\(I(%d;\\,%d)\\) and passes through \\(M(%d;\\,%d)\\). Find \\(a\\).' % (h6, k6, x6, y6), 'Parabol \\(y=ax^2+bx+c\\) có đỉnh \\(I(%d;\\,%d)\\) và đi qua \\(M(%d;\\,%d)\\). Tìm \\(a\\).' % (h6, k6, x6, y6), str(a6.numerator) if a6.denominator == 1 else str(float(a6)),
-            '\\(%d=a(%d-%d)^2+%d\\Rightarrow a=%s\\).' % (y6, x6, h6, k6, fr(a6)), '\\(%d=a(%d-%d)^2+%d\\Rightarrow a=%s\\).' % (y6, x6, h6, k6, fr(a6)))
+            '\\(y=a(x-x_I)^2+y_I\\): \\(%d=a(%d-%s)^2%+d\\Rightarrow a=%s\\).' % (y6, x6, '(%d)' % h6 if h6 < 0 else h6, k6, fr(a6) if a6.denominator == 1 else fr(a6) + '=' + _E(a6)), '\\(y=a(x-x_I)^2+y_I\\): \\(%d=a(%d-%s)^2%+d\\Rightarrow a=%s\\).' % (y6, x6, '(%d)' % h6 if h6 < 0 else h6, k6, fr(a6) if a6.denominator == 1 else fr(a6) + '=' + D(a6)))
     v0, h0 = P['ball']; t = F(v0, 10); H = -5 * t * t + v0 * t + h0
     s7 = sh(7, 'A ball is thrown up with height \\(h(t)=-5t^2+%dt+%d\\) (m). Find its greatest height (m).' % (v0, h0), 'Một quả bóng được ném lên với độ cao \\(h(t)=-5t^2+%dt+%d\\) (m). Tìm độ cao lớn nhất của bóng (m).' % (v0, h0), str(float(H)) if H.denominator != 1 else H.numerator,
-            'Vertex \\(t=%s\\): \\(h=%s\\).' % (str(float(t)), str(float(H))), 'Đỉnh \\(t=%s\\): \\(h=%s\\).' % (D(t), D(H)))
+            'Vertex \\(t=-\\dfrac{b}{2a}=%s\\): \\(h=%s\\) m.' % (_E(t), _E(H)), 'Đỉnh \\(t=-\\dfrac{b}{2a}=%s\\): \\(h=%s\\) m.' % (D(t), D(H)))
     return [[o1, o2, o3], [t4, t5], [s6, s7]]
 PP = [dict(v=(1, 3, -2), m=(2, -1, 1), fence=24, ax=(1, 2, 1, 2), ext=(-1, 1, 4, 'max'), find=((1, 2), (3, 10)), ball=(20, 1)),
       dict(v=(-1, 2, 5), m=(-1, 3, 2), fence=36, ax=(2, -1, 0, 1), ext=(2, -1, -3, 'max'), find=((-2, 1), (0, -7)), ball=(10, 2)),
-      dict(v=(2, -1, 3), m=(3, 1, -2), fence=60, ax=(-3, 1, 2, 1), ext=(F(1, 2), 2, -1, 'min'), find=((2, -3), (4, 3)), ball=(15, 1))]
+      dict(v=(2, -1, 3), m=(3, 1, -2), fence=60, ax=(-3, 1, 2, 1), ext=(F(1, 2), 2, -1, 'min'), find=((2, -3), (4, 3)), ball=(14, 2))]
 practice = three(lvl, PP)
 practice = with_self(practice, S.M16S10, start=8)
 mistakes = [('<b>Forgetting the minus sign.</b> \\(x_I=-\\dfrac{b}{2a}\\): for \\(y=x^2-4x+3\\), \\(x_I=2\\), not \\(-2\\).', '<b>Quên dấu trừ.</b> \\(x_I=-\\dfrac{b}{2a}\\): với \\(y=x^2-4x+3\\), \\(x_I=2\\), không phải \\(-2\\).'),
             ('<b>Mixing up the direction.</b> \\(a\\gt0\\): the vertex is the lowest point (minimum).', '<b>Nhầm chiều bề lõm.</b> \\(a\\gt0\\): đỉnh là điểm thấp nhất (giá trị nhỏ nhất).'),
             ('<b>Giving \\(x_I\\) as the extreme value.</b> The largest/smallest value is \\(y_I\\).', '<b>Lấy \\(x_I\\) làm giá trị lớn nhất/nhỏ nhất.</b> Giá trị đó là \\(y_I\\).'),
-            ('<b>Ignoring real conditions.</b> In optimisation, the variable must stay in its allowed interval.', '<b>Bỏ qua điều kiện thực tế.</b> Trong bài toán tối ưu, biến phải thuộc khoảng cho phép.')]
+            ('<b>Ignoring real conditions.</b> In optimization, the variable must stay in its allowed interval.', '<b>Bỏ qua điều kiện thực tế.</b> Trong bài toán tối ưu, biến phải thuộc khoảng cho phép.')]
 summary = [('\\(y=ax^2+bx+c\\) (\\(a\\ne0\\)): parabola, vertex \\(I\\left(-\\frac b{2a};-\\frac\\Delta{4a}\\right)\\), axis \\(x=-\\frac b{2a}\\).', '\\(y=ax^2+bx+c\\) (\\(a\\ne0\\)): parabol, đỉnh \\(I\\left(-\\frac b{2a};-\\frac\\Delta{4a}\\right)\\), trục \\(x=-\\frac b{2a}\\).'),
            ('\\(a\\gt0\\): decreasing then increasing, minimum at \\(I\\); \\(a\\lt0\\): increasing then decreasing, maximum at \\(I\\).', '\\(a\\gt0\\): nghịch biến rồi đồng biến, nhỏ nhất tại \\(I\\); \\(a\\lt0\\): đồng biến rồi nghịch biến, lớn nhất tại \\(I\\).'),
            ('Vertex form: \\(y=a(x-x_I)^2+y_I\\).', 'Dạng đỉnh: \\(y=a(x-x_I)^2+y_I\\).'),
            ('Key words: quadratic function, parabola, vertex, axis of symmetry, maximum, minimum.', 'Từ cần nhớ (chạm vào để xem tiếng Anh): <b class="mbl-term" tabindex="0" data-en="quadratic function">hàm số bậc hai</b>; <b class="mbl-term" tabindex="0" data-en="parabola">parabol</b>; <b class="mbl-term" tabindex="0" data-en="vertex">đỉnh</b>; <b class="mbl-term" tabindex="0" data-en="axis of symmetry">trục đối xứng</b>; <b class="mbl-term" tabindex="0" data-en="maximum">giá trị lớn nhất</b>; <b class="mbl-term" tabindex="0" data-en="minimum">giá trị nhỏ nhất</b>.')]
 checks = [('I can find the vertex and the axis of a parabola.', 'Em tìm được đỉnh và trục đối xứng của parabol.'), ('I can draw the graph and the table of variations.', 'Em vẽ được đồ thị và lập bảng biến thiên.'),
-          ('I can find the largest or smallest value.', 'Em tìm được giá trị lớn nhất, nhỏ nhất.'), ('I can solve a simple optimisation problem.', 'Em giải được bài toán tối ưu đơn giản.')]
+          ('I can find the largest or smallest value.', 'Em tìm được giá trị lớn nhất, nhỏ nhất.'), ('I can solve a simple optimization problem.', 'Em giải được bài toán tối ưu đơn giản.')]
 LL('g10-func-02', 'Quadratic Functions', CV, ('Functions and Graphs', 'Hàm số, đồ thị và ứng dụng'), 'functions', 'quadratic-functions', 160, 'Intermediate', 70, ('functions, quadratic equations', 'hàm số, phương trình bậc hai'),
-   'Quadratic functions: parabola, vertex, axis, variations, largest and smallest values, optimisation problems.', 'Bài 16 – Hàm số bậc hai: parabol, đỉnh, trục đối xứng, sự biến thiên, giá trị lớn nhất, nhỏ nhất, bài toán tối ưu.',
+   'Quadratic functions: parabola, vertex, axis, variations, largest and smallest values, optimization problems.', 'Bài 16 – Hàm số bậc hai: parabol, đỉnh, trục đối xứng, sự biến thiên, giá trị lớn nhất, nhỏ nhất, bài toán tối ưu.',
    ['quadratic function', 'parabola', 'vertex', 'axis of symmetry'], ['hàm số bậc hai', 'parabol', 'đỉnh', 'trục đối xứng'],
    goals, vocab, phrases, review, theory, examples, practice, mistakes, summary, checks, prerequisites=['g10-func-01'])

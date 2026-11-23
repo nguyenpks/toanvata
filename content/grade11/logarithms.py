@@ -69,10 +69,10 @@ def lvl(P):
     (e4, v4_), (e5, v5_) = P['tf']
     t4 = tf(4, e4[0], e4[1], v4_, e4[2], e4[3]); t5 = tf(5, e5[0], e5[1], v5_, e5[2], e5[3])
     b6, M6, N6 = P['q']; v6 = round(math.log(M6 // N6, b6)); assert b6 ** v6 * N6 == M6
-    s6 = sh(6, 'Compute \\(%s-%s\\).' % (lg(b6, M6), lg(b6, N6)), 'Tính \\(%s-%s\\).' % (lg(b6, M6), lg(b6, N6)), v6, '\\(\\log_{%d}%d=%d\\).' % (b6, M6 // N6, v6), '\\(\\log_{%d}\\dfrac{%d}{%d}=\\log_{%d}%d=%d\\).' % (b6, M6, N6, b6, M6 // N6, v6))
+    s6 = sh(6, 'Compute \\(%s-%s\\).' % (lg(b6, M6), lg(b6, N6)), 'Tính \\(%s-%s\\).' % (lg(b6, M6), lg(b6, N6)), v6, '\\(\\log_{%d}\\dfrac{%d}{%d}=\\log_{%d}%d=%d\\).' % (b6, M6, N6, b6, M6 // N6, v6), '\\(\\log_{%d}\\dfrac{%d}{%d}=\\log_{%d}%d=%d\\).' % (b6, M6, N6, b6, M6 // N6, v6))
     L1, L2 = P['db']; k7 = (L2 - L1) // 10
     s7 = sh(7, 'Sound levels \\(L=10\\log\\frac{I}{I_0}\\): %d dB and %d dB. How many times more intense is the louder sound?' % (L1, L2), 'Hai âm có mức cường độ \\(L=10\\log\\frac{I}{I_0}\\) là %d dB và %d dB. Âm lớn hơn có cường độ gấp bao nhiêu lần?' % (L1, L2), 10 ** k7,
-            '\\(\\frac{I_2}{I_1}=10^{(%d-%d)/10}=10^{%d}\\).' % (L2, L1, k7), '\\(\\frac{I_2}{I_1}=10^{(%d-%d)/10}=10^{%d}\\).' % (L2, L1, k7))
+            '\\(\\frac{I_2}{I_1}=10^{(%d-%d)/10}=10^{%d}=%d\\).' % (L2, L1, k7, 10 ** k7), '\\(\\frac{I_2}{I_1}=10^{(%d-%d)/10}=10^{%d}=%d\\).' % (L2, L1, k7, 10 ** k7))
     return [[o1, o2, o3], [t4, t5], [s6, s7]]
 TA = (('\\(\\log_2(4+4)=\\log_2 4+\\log_2 4\\).', '\\(\\log_2(4+4)=\\log_2 4+\\log_2 4\\).', 'Left: \\(\\log_2 8=3\\); right: \\(4\\).', 'Vế trái \\(\\log_2 8=3\\); vế phải \\(4\\).'), False)
 TB = (('\\(\\log_4 8=\\dfrac32\\).', '\\(\\log_4 8=\\dfrac32\\).', '\\(4^{3/2}=8\\).', '\\(4^{3/2}=8\\).'), True)

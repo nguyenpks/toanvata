@@ -26,7 +26,7 @@ phrases = [('<b>Find the mean of the data.</b>', 'Tìm số trung bình của m�
 review = T('From lower grades: a data sample is a list of values \\(x_1,\\dots,x_n\\); \\(n\\) is the sample size. A frequency table lists each value \\(x_i\\) and its frequency \\(n_i\\), with \\(n_1+\\dots+n_k=n\\).', 'Từ lớp dưới: mẫu số liệu là dãy giá trị \\(x_1,\\dots,x_n\\); \\(n\\) là cỡ mẫu. Bảng tần số ghi mỗi giá trị \\(x_i\\) và tần số \\(n_i\\), với \\(n_1+\\dots+n_k=n\\).')
 theory = '<h3>13.1 %s</h3>' % TI('The mean', 'Số trung bình')
 theory += BOX('blue', ('Formulas', 'Công thức'), M('\\bar x=\\dfrac{x_1+x_2+\\dots+x_n}{n},\\qquad \\bar x=\\dfrac{n_1x_1+n_2x_2+\\dots+n_kx_k}{n}'),
-  T('The mean uses every value, so it is a good "centre" when the data have no extreme values.', 'Số trung bình dùng mọi giá trị nên là đại diện tốt khi mẫu không có giá trị bất thường.'))
+  T('The mean uses every value, so it is a good "center" when the data have no extreme values.', 'Số trung bình dùng mọi giá trị nên là đại diện tốt khi mẫu không có giá trị bất thường.'))
 theory += '<h3>13.2 %s</h3>' % TI('Median and quartiles', 'Trung vị và tứ phân vị')
 theory += BOX('mint', ('Median \\(M_e\\)', 'Trung vị \\(M_e\\)'), UL([T('Sort the data. If \\(n\\) is odd, \\(M_e\\) is the middle value (position \\(\\frac{n+1}{2}\\)).', 'Sắp xếp mẫu theo thứ tự không giảm. Nếu \\(n\\) lẻ, \\(M_e\\) là giá trị đứng giữa (vị trí \\(\\frac{n+1}{2}\\)).'),
   T('If \\(n\\) is even, \\(M_e\\) is the mean of the two middle values (positions \\(\\frac n2\\) and \\(\\frac n2+1\\)).', 'Nếu \\(n\\) chẵn, \\(M_e\\) là trung bình cộng của hai giá trị đứng giữa (vị trí \\(\\frac n2\\) và \\(\\frac n2+1\\)).')]))
@@ -36,7 +36,7 @@ X1 = [3, 5, 6, 7, 8, 9, 10, 12, 13, 15, 20]; assert quartiles(X1) == (6, 9, 13)
 theory += TBL([TI('Position', 'Vị trí')] + [str(i + 1) for i in range(11)], [[TI('Value', 'Giá trị')] + ['<b>%d</b>' % x if x in (6, 9, 13) else str(x) for x in X1]])
 theory += '<p class="mbl-note">%s</p>' % TI('\\(n=11\\): \\(Q_2=9\\) (6th value); lower half \\(3,5,6,7,8\\) gives \\(Q_1=6\\); upper half \\(10,12,13,15,20\\) gives \\(Q_3=13\\).', '\\(n=11\\): \\(Q_2=9\\) (giá trị thứ 6); nửa trái \\(3,5,6,7,8\\) cho \\(Q_1=6\\); nửa phải \\(10,12,13,15,20\\) cho \\(Q_3=13\\).')
 theory += '<h3>13.3 %s</h3>' % TI('The mode', 'Mốt')
-theory += BOX('mint', ('Mode \\(M_o\\)', 'Mốt \\(M_o\\)'), T('The value with the largest frequency. A sample may have more than one mode. The mode is useful for "most common" questions (shoe sizes, favourite colours).', 'Giá trị có tần số lớn nhất. Một mẫu có thể có nhiều mốt. Mốt hữu ích khi hỏi "phổ biến nhất" (cỡ giày, màu sắc ưa thích).'))
+theory += BOX('mint', ('Mode \\(M_o\\)', 'Mốt \\(M_o\\)'), T('The value with the largest frequency. A sample may have more than one mode. The mode is useful for "most common" questions (shoe sizes, favorite colors).', 'Giá trị có tần số lớn nhất. Một mẫu có thể có nhiều mốt. Mốt hữu ích khi hỏi "phổ biến nhất" (cỡ giày, màu sắc ưa thích).'))
 theory += BOX('yellow', ('Which measure?', 'Chọn số đặc trưng nào?'), T('Extreme values pull the mean but hardly change the median. With extreme values, prefer the median (and quartiles); otherwise the mean is fine.', 'Giá trị bất thường kéo lệch số trung bình nhưng hầu như không ảnh hưởng trung vị. Khi mẫu có giá trị bất thường, nên dùng trung vị (và tứ phân vị); nếu không, dùng số trung bình.'))
 
 E1 = [2, 3, 3, 4, 5, 5, 5, 6]; assert (mean(E1), median(E1), modes(E1)[0]) == (F(33, 8), F(9, 2), [5])
@@ -50,7 +50,7 @@ examples += EXAMPLE(2, ('Basic', 'Cơ bản'), ('Shoe sizes', 'Cỡ giày'), T('
   [T('\\(\\sum n_ix_i=36\\cdot3+37\\cdot7+38\\cdot12+39\\cdot15+40\\cdot9+41\\cdot4=1932\\); \\(\\bar x=\\dfrac{1932}{50}=38.64\\).', '\\(\\sum n_ix_i=36\\cdot3+37\\cdot7+38\\cdot12+39\\cdot15+40\\cdot9+41\\cdot4=1932\\); \\(\\bar x=\\dfrac{1932}{50}=38{,}64\\).'), T('Largest frequency 15: \\(M_o=39\\).', 'Tần số lớn nhất là 15: \\(M_o=39\\).')],
   T('\\(\\bar x=38.64\\), \\(M_o=39\\). Order size 39 the most: a "size 38.64" does not exist, so the mode is the useful measure here.', '\\(\\bar x=38{,}64\\), \\(M_o=39\\). Nên nhập nhiều nhất cỡ 39: không có giày "cỡ 38,64" nên mốt mới là số đặc trưng có ích ở đây.'))
 E3 = [24, 18, 30, 21, 27, 15, 33, 20, 26, 22]; s3 = sorted(E3); q3 = quartiles(E3); assert q3 == (20, 23, 27)
-examples += EXAMPLE(3, ('Intermediate', 'Trung bình'), ('Quartiles with an even \\(n\\)', 'Tứ phân vị khi \\(n\\) chẵn'), T('Minutes 10 students spend travelling to school: \\(%s\\). Find \\(Q_1, Q_2, Q_3\\).' % L(E3, False), 'Thời gian (phút) đến trường của 10 bạn: \\(%s\\). Tìm \\(Q_1, Q_2, Q_3\\).' % L(E3)),
+examples += EXAMPLE(3, ('Intermediate', 'Trung bình'), ('Quartiles with an even \\(n\\)', 'Tứ phân vị khi \\(n\\) chẵn'), T('Minutes 10 students spend traveling to school: \\(%s\\). Find \\(Q_1, Q_2, Q_3\\).' % L(E3, False), 'Thời gian (phút) đến trường của 10 bạn: \\(%s\\). Tìm \\(Q_1, Q_2, Q_3\\).' % L(E3)),
   T('Sort first; with \\(n=10\\) each half has 5 values.', 'Sắp xếp trước; với \\(n=10\\) mỗi nửa có 5 giá trị.'),
   [T('Sorted: \\(%s\\).' % L(s3, False), 'Sắp xếp: \\(%s\\).' % L(s3)), T('\\(Q_2=\\dfrac{%d+%d}{2}=%s\\) (5th and 6th values).' % (s3[4], s3[5], DE(q3[1])), '\\(Q_2=\\dfrac{%d+%d}{2}=%s\\) (giá trị thứ 5 và 6).' % (s3[4], s3[5], D(q3[1]))),
    T('Lower half \\(%s\\): \\(Q_1=%d\\). Upper half \\(%s\\): \\(Q_3=%d\\).' % (L(s3[:5], False), q3[0], L(s3[5:], False), q3[2]), 'Nửa trái \\(%s\\): \\(Q_1=%d\\). Nửa phải \\(%s\\): \\(Q_3=%d\\).' % (L(s3[:5]), q3[0], L(s3[5:]), q3[2]))],
@@ -77,7 +77,7 @@ def lvl(P):
     o3 = M4(3, '%s: \\(%s\\). The first quartile \\(Q_1\\) is…' % (ctx[0], L(xs, False)), '%s: \\(%s\\). Tứ phân vị thứ nhất \\(Q_1\\) là…' % (ctx[1], L(xs)), D(q1), [D(q3), D(q2), D(q1 + 1), D(s[len(s) // 4])],
             '\\(Q_1\\) is the median of the lower half: \\(Q_1=%s\\) (\\(Q_3=%s\\)).' % (DE(q1), DE(q3)), '\\(Q_1\\) là trung vị của nửa trái: \\(Q_1=%s\\) (\\(Q_3=%s\\)).' % (D(q1), D(q3)))
     ys, claim = P['mode']; mo, k = modes(ys); ok = [claim] == mo
-    t4 = tf(4, 'Votes for favourite fruit (coded): \\(%s\\). The mode is %d.' % (L(ys, False), claim), 'Kết quả bình chọn loại quả yêu thích (đã mã hóa): \\(%s\\). Mốt của mẫu là %d.' % (L(ys), claim), ok,
+    t4 = tf(4, 'Votes for favorite fruit (coded): \\(%s\\). The mode is %d.' % (L(ys, False), claim), 'Kết quả bình chọn loại quả yêu thích (đã mã hóa): \\(%s\\). Mốt của mẫu là %d.' % (L(ys), claim), ok,
             'The mode is %s (frequency %d).' % (' and '.join(map(str, mo)), k), 'Mốt là %s (tần số %d).' % (' và '.join(map(str, mo)), k))
     zs, extra = P['ext']; t5ok = abs(median(zs + [extra]) - median(zs)) < abs(mean(zs + [extra]) - mean(zs))
     t5 = tf(5, 'Data \\(%s\\). Adding the value %d changes the median less than it changes the mean.' % (L(zs, False), extra), 'Mẫu \\(%s\\). Thêm giá trị %d vào mẫu thì trung vị thay đổi ít hơn số trung bình.' % (L(zs), extra), t5ok,

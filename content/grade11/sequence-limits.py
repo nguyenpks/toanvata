@@ -17,7 +17,7 @@ vocab = defs(CV, [
 goals = [('understand the limit of a sequence and the basic limits;', 'hiểu khái niệm [[giới hạn của dãy số]] và các giới hạn cơ bản;'),
          ('use the limit theorems to find limits of quotients, powers and roots;', 'dùng các định lí về giới hạn để tính giới hạn của thương, lũy thừa, căn thức;'),
          ('find the sum of an infinite geometric series and write a repeating decimal as a fraction;', 'tính tổng [[cấp số nhân lùi vô hạn]] và viết [[số thập phân vô hạn tuần hoàn]] thành phân số;'),
-         ('recognise infinite limits.', 'nhận biết [[giới hạn vô cực]].')]
+         ('recognize infinite limits.', 'nhận biết [[giới hạn vô cực]].')]
 phrases = [('<b>Find the limit of the sequence.</b>', 'Tìm giới hạn của dãy số.'), ('<b>Divide the numerator and the denominator by \\(n^2\\).</b>', 'Chia cả tử và mẫu cho \\(n^2\\).'), ('<b>The sequence tends to zero.</b>', 'Dãy số dần tới 0.'),
            ('<b>Find the sum of the infinite geometric series.</b>', 'Tính tổng của cấp số nhân lùi vô hạn.'), ('<b>The limit is plus infinity.</b>', 'Giới hạn bằng dương vô cực.')]
 review = T('From Lessons 5–7: a sequence \\((u_n)\\); a geometric progression \\(u_n=u_1q^{n-1}\\) has \\(S_n=u_1\\dfrac{1-q^n}{1-q}\\) (\\(q\\ne1\\)). Also \\(\\left|q^n\\right|=|q|^n\\) becomes very small when \\(|q|\\lt1\\).', 'Từ Bài 5–7: dãy số \\((u_n)\\); cấp số nhân \\(u_n=u_1q^{n-1}\\) có \\(S_n=u_1\\dfrac{1-q^n}{1-q}\\) (\\(q\\ne1\\)). Khi \\(|q|\\lt1\\) thì \\(|q^n|=|q|^n\\) rất nhỏ khi \\(n\\) lớn.')
@@ -52,7 +52,7 @@ examples += EXAMPLE(4, ('Intermediate', 'Trung bình'), ('Series and decimals', 
   [T('(a) \\(u_1=1\\), \\(q=-\\dfrac12\\): \\(S=\\dfrac{1}{1+\\frac12}=\\dfrac23\\).', '(a) \\(u_1=1\\), \\(q=-\\dfrac12\\): \\(S=\\dfrac{1}{1+\\frac12}=\\dfrac23\\).'), T('(b) \\(0.(27)=\\dfrac{27}{100}+\\dfrac{27}{100^2}+\\dots=\\dfrac{\\frac{27}{100}}{1-\\frac1{100}}=\\dfrac{27}{99}\\).', '(b) \\(0{,}(27)=\\dfrac{27}{100}+\\dfrac{27}{100^2}+\\dots=\\dfrac{\\frac{27}{100}}{1-\\frac1{100}}=\\dfrac{27}{99}\\).')],
   T('(a) \\(\\dfrac23\\); (b) \\(\\dfrac{3}{11}\\).', '(a) \\(\\dfrac23\\); (b) \\(\\dfrac{3}{11}\\).'))
 T5 = 2 + 2 * 2 * F(3, 4) / (1 - F(3, 4)); assert T5 == 14
-examples += EXAMPLE(5, ('Advanced', 'Nâng cao'), ('A bouncing ball', 'Quả bóng nảy'), T('A ball is dropped from 2 m. After each bounce it rises to \\(\\frac34\\) of the previous height. Find the total distance travelled (assume it bounces forever, with smaller and smaller heights).', 'Thả quả bóng từ độ cao 2 m. Sau mỗi lần chạm đất, bóng nảy lên bằng \\(\\frac34\\) độ cao trước đó. Tính tổng quãng đường bóng đi được (giả sử bóng nảy mãi với độ cao ngày càng nhỏ).'),
+examples += EXAMPLE(5, ('Advanced', 'Nâng cao'), ('A bouncing ball', 'Quả bóng nảy'), T('A ball is dropped from 2 m. After each bounce it rises to \\(\\frac34\\) of the previous height. Find the total distance traveled (assume it bounces forever, with smaller and smaller heights).', 'Thả quả bóng từ độ cao 2 m. Sau mỗi lần chạm đất, bóng nảy lên bằng \\(\\frac34\\) độ cao trước đó. Tính tổng quãng đường bóng đi được (giả sử bóng nảy mãi với độ cao ngày càng nhỏ).'),
   T('After the first fall, each bounce adds an up and a down of the same length.', 'Sau lần rơi đầu, mỗi lần nảy gồm một đoạn lên và một đoạn xuống bằng nhau.'),
   [T('Heights after bounces: \\(2\\cdot\\frac34, 2\\left(\\frac34\\right)^2,\\dots\\), sum \\(=\\dfrac{\\frac32}{1-\\frac34}=6\\) m.', 'Các độ cao sau mỗi lần nảy: \\(2\\cdot\\frac34, 2\\left(\\frac34\\right)^2,\\dots\\), tổng \\(=\\dfrac{\\frac32}{1-\\frac34}=6\\) m.'), T('Total \\(=2+2\\cdot6\\).', 'Tổng quãng đường \\(=2+2\\cdot6\\).')],
   T('14 m – a finite distance, although the ball bounces infinitely many times.', '14 m – một quãng đường hữu hạn dù bóng nảy vô số lần.'))
@@ -75,7 +75,7 @@ def lvl(P):
     p, k, ok = P['dec']; v5 = F(p, 10 ** k - 1); claim = v5 if ok else F(p, 10 ** k); per = str(p).zfill(k)
     t5 = tf(5, '\\(0.(%s)=%s\\).' % (per, fr(claim)), '\\(0{,}(%s)=%s\\).' % (per, fr(claim)), ok, '\\(0.(%s)=\\dfrac{%d}{%d}=%s\\).' % (per, p, 10 ** k - 1, fr(v5)), '\\(0{,}(%s)=\\dfrac{%d}{%d}=%s\\).' % (per, p, 10 ** k - 1, fr(v5)))
     h, q6 = P['ball']; T6 = h + 2 * h * q6 / (1 - q6); assert T6.denominator == 1
-    s6 = sh(6, 'A ball is dropped from \\(%d\\) m and each time rises to \\(%s\\) of the previous height. Find the total distance travelled (m).' % (h, fr(q6)), 'Thả quả bóng từ độ cao \\(%d\\) m, mỗi lần nảy lên bằng \\(%s\\) độ cao trước. Tính tổng quãng đường bóng đi được (m).' % (h, fr(q6)), T6.numerator,
+    s6 = sh(6, 'A ball is dropped from \\(%d\\) m and each time rises to \\(%s\\) of the previous height. Find the total distance traveled (m).' % (h, fr(q6)), 'Thả quả bóng từ độ cao \\(%d\\) m, mỗi lần nảy lên bằng \\(%s\\) độ cao trước. Tính tổng quãng đường bóng đi được (m).' % (h, fr(q6)), T6.numerator,
             '\\(%d+2\\cdot\\dfrac{%s}{1-%s}=%d\\).' % (h, fr(h * q6), fr(q6), T6), '\\(%d+2\\cdot\\dfrac{%s}{1-%s}=%d\\).' % (h, fr(h * q6), fr(q6), T6))
     (a7, B, c7, d7) = P['exp']; v7 = F(a7, c7); assert v7.denominator == 1
     s7 = sh(7, 'Find \\(%s\\dfrac{%d\\cdot%d^{n+1}+%d}{%d^{n}+%d}\\).' % (LN, a7, B, d7, B, c7),
@@ -97,7 +97,7 @@ summary = [('\\(\\lim\\frac1{n^k}=0\\), \\(\\lim q^n=0\\) (\\(|q|\\lt1\\)), \\(\
            ('\\(S=\\dfrac{u_1}{1-q}\\) for \\(|q|\\lt1\\).', '\\(S=\\dfrac{u_1}{1-q}\\) với \\(|q|\\lt1\\).'),
            ('\\(\\lim n^k=+\\infty\\), \\(\\lim q^n=+\\infty\\) (\\(q\\gt1\\)). Key words: limit, converge, infinity.', '\\(\\lim n^k=+\\infty\\), \\(\\lim q^n=+\\infty\\) (\\(q\\gt1\\)). Từ cần nhớ (chạm vào để xem tiếng Anh): <b class="mbl-term" tabindex="0" data-en="limit">giới hạn</b>, <b class="mbl-term" tabindex="0" data-en="converge">hội tụ</b>, <b class="mbl-term" tabindex="0" data-en="infinity">vô cực</b>.')]
 checks = [('I know the basic limits of sequences.', 'Em nhớ các giới hạn cơ bản của dãy số.'), ('I can compute limits of rational expressions in \\(n\\).', 'Em tính được giới hạn của phân thức theo \\(n\\).'),
-          ('I can sum an infinite geometric series.', 'Em tính được tổng cấp số nhân lùi vô hạn.'), ('I can recognise an infinite limit.', 'Em nhận biết được giới hạn vô cực.')]
+          ('I can sum an infinite geometric series.', 'Em tính được tổng cấp số nhân lùi vô hạn.'), ('I can recognize an infinite limit.', 'Em nhận biết được giới hạn vô cực.')]
 LL('g11-limits-03', 'Limits of Sequences', CV, ('Limits and Continuity', 'Giới hạn. Hàm số liên tục'), 'limits', 'sequence-limits', 160, 'Intermediate', 70, ('sequences, geometric progressions', 'dãy số, cấp số nhân'),
    'Finite limits of sequences, limit theorems, infinite geometric series, repeating decimals and infinite limits.', 'Bài 15 – Giới hạn hữu hạn của dãy số, định lí về giới hạn, cấp số nhân lùi vô hạn, số thập phân tuần hoàn, giới hạn vô cực.',
    ['limit', 'sequence', 'geometric series', 'infinity'], ['giới hạn', 'dãy số', 'cấp số nhân lùi vô hạn', 'vô cực'],

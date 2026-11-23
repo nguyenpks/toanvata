@@ -1,0 +1,1007 @@
+{
+ "lesson": "g11-space-08",
+ "grade": 11,
+ "no": 14,
+ "title": "Phép chiếu song song",
+ "path": "lessons/grade11/lines-and-planes-in-space/parallel-projection.html",
+ "items": [
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "A vertical post \\(#\\) m high casts a \\(#\\) m shadow on flat ground. At the same time a vertical tower casts a \\(#\\) m shadow. The tower is…",
+   "en": "A vertical post \\(2\\) m high casts a \\(2.5\\) m shadow on flat ground. At the same time a vertical tower casts a \\(30\\) m shadow. The tower is…",
+   "vi": "Một cột mốc thẳng đứng cao \\(2\\) m có bóng dài \\(2{,}5\\) m trên mặt đất phẳng. Cùng lúc đó, một tòa tháp thẳng đứng có bóng dài \\(30\\) m. Tháp cao…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(37.5\\ \\text{m}\\)</span><span class=\"vi\">\\(37{,}5\\ \\text{m}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(29.5\\ \\text{m}\\)</span><span class=\"vi\">\\(29{,}5\\ \\text{m}\\)</span></span>",
+    "\\(24\\ \\text{m}\\)",
+    "\\(30\\ \\text{m}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\dfrac{h}{30}=\\dfrac{2}{2.5}\\Rightarrow h=24\\).",
+   "explain_vi": "Đáp án c. \\(\\dfrac{h}{30}=\\dfrac{2}{2{,}5}\\Rightarrow h=24\\).",
+   "images": [],
+   "id": "0716ebe4ad11",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Trapezoid \\(ABCD\\): \\(AB\\parallel CD\\), \\(AB=#\\,CD\\). In its drawing \\(A'B'C'D'\\), \\(C'D'=#\\) cm. Then \\(A'B'=\\)…",
+   "en": "Trapezoid \\(ABCD\\): \\(AB\\parallel CD\\), \\(AB=2\\,CD\\). In its drawing \\(A'B'C'D'\\), \\(C'D'=4\\) cm. Then \\(A'B'=\\)…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"trapezoid\">Hình thang</b> \\(ABCD\\): \\(AB\\parallel CD\\), \\(AB=2\\,CD\\). Trên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"drawing of a solid (representation)\">hình biểu diễn</b> \\(A'B'C'D'\\) có \\(C'D'=4\\) cm. Khi đó \\(A'B'=\\)…",
+   "options": [
+    "\\(4\\ \\text{cm}\\)",
+    "\\(8\\ \\text{cm}\\)",
+    "\\(2\\ \\text{cm}\\)",
+    "\\(12\\ \\text{cm}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Parallel segments keep their ratio: \\(A'B'=2\\cdot4=8\\).",
+   "explain_vi": "Đáp án b. Hai đoạn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b> giữ nguyên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ratio\">tỉ số</b>: \\(A'B'=2\\cdot4=8\\).",
+   "images": [],
+   "id": "768527432157",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(M\\) is on segment \\(AB\\) with \\(AM:MB=#:#\\). The image of \\(AB\\) under a parallel projection has length \\(A'B'=#\\). Then \\(A'M'=\\)…",
+   "en": "\\(M\\) is on segment \\(AB\\) with \\(AM:MB=1:2\\). The image of \\(AB\\) under a parallel projection has length \\(A'B'=12\\). Then \\(A'M'=\\)…",
+   "vi": "Điểm \\(M\\) thuộc đoạn \\(AB\\), \\(AM:MB=1:2\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"image (of a point or a figure)\">Hình chiếu song song</b> của \\(AB\\) có độ dài \\(A'B'=12\\). Khi đó \\(A'M'=\\)…",
+   "options": [
+    "\\(4\\)",
+    "\\(8\\)",
+    "\\(6\\)",
+    "\\(5\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\dfrac{A'M'}{A'B'}=\\dfrac{AM}{AB}=\\dfrac{1}{3}\\).",
+   "explain_vi": "Đáp án a. \\(\\dfrac{A'M'}{A'B'}=\\dfrac{AM}{AB}=\\dfrac{1}{3}\\).",
+   "images": [],
+   "id": "9c0f55480b85",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "A parallel projection keeps the midpoint of a segment.",
+   "en": "A parallel projection keeps the midpoint of a segment.",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel projection\">Phép chiếu song song</b> biến <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> của đoạn thẳng thành <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"projection\">hình chiếu</b>.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "Kept: collinearity, order, parallelism, ratios on parallel lines (so midpoints). Not kept: lengths, angles.",
+   "explain_vi": "Được giữ: <b class=\"mbl-term\" tabindex=\"0\" data-en=\"collinear\">thẳng hàng</b>, thứ tự, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b>, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ratio\">tỉ số</b> trên các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b> (nên giữ <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b>). Không giữ: độ dài, góc.",
+   "images": [],
+   "id": "10f91f15709a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "The image of a square can be a rectangle that is not a square.",
+   "en": "The image of a square can be a rectangle that is not a square.",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"image (of a point or a figure)\">Hình chiếu song song</b> của hình vuông có thể là hình chữ nhật không phải hình vuông.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "A parallelogram always goes to a parallelogram; angles may change; a circle usually goes to an ellipse.",
+   "explain_vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelogram\">Hình bình hành</b> luôn biến thành <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelogram\">hình bình hành</b>; góc có thể đổi; <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> thường biến thành <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ellipse\">đường elip</b>.",
+   "images": [],
+   "id": "e76a9db4d2c1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "Two vertical poles stand on flat ground. The first is \\(#\\) m high with a \\(#\\) m shadow. The second has a \\(#\\) m shadow at the same moment. How tall is the second pole (m)?",
+   "en": "Two vertical poles stand on flat ground. The first is \\(1.5\\) m high with a \\(2\\) m shadow. The second has a \\(10\\) m shadow at the same moment. How tall is the second pole (m)?",
+   "vi": "Hai cột thẳng đứng trên mặt đất phẳng. Cột thứ nhất cao \\(1{,}5\\) m, bóng dài \\(2\\) m. Cùng lúc đó, cột thứ hai có bóng dài \\(10\\) m. Cột thứ hai cao bao nhiêu mét?",
+   "options": [],
+   "answer": "7.5",
+   "explain_en": "Same ratio height : shadow: \\(h=10\\cdot\\dfrac{1.5}{2}=7.5\\).",
+   "explain_vi": "Cùng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ratio\">tỉ số</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"height\">chiều cao</b> : bóng: \\(h=10\\cdot\\dfrac{1{,}5}{2}=7{,}5\\).",
+   "images": [],
+   "id": "afba3507bf75",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "\\(M\\) is on segment \\(AB\\) with \\(AM:MB=#:#\\). Under a parallel projection, \\(A'M'=#\\). Find \\(A'B'\\).",
+   "en": "\\(M\\) is on segment \\(AB\\) with \\(AM:MB=1:3\\). Under a parallel projection, \\(A'M'=5\\). Find \\(A'B'\\).",
+   "vi": "Điểm \\(M\\) thuộc đoạn \\(AB\\), \\(AM:MB=1:3\\). Qua một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel projection\">phép chiếu song song</b>, \\(A'M'=5\\). Tính \\(A'B'\\).",
+   "options": [],
+   "answer": "20",
+   "explain_en": "\\(A'B'=A'M'\\cdot\\dfrac{4}{1}=20\\).",
+   "explain_vi": "\\(A'B'=A'M'\\cdot\\dfrac{4}{1}=20\\).",
+   "images": [],
+   "id": "f297945a567e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "In a drawing of a solid (a parallel projection), a rectangle is usually drawn as…",
+   "en": "In a drawing of a solid (a parallel projection), a rectangle is usually drawn as…",
+   "vi": "Trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"drawing of a solid (representation)\">hình biểu diễn</b> của một hình không gian (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel projection\">phép chiếu song song</b>), hình chữ nhật thường được vẽ thành…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">always a rectangle</span><span class=\"vi\">luôn là hình chữ nhật</span></span>",
+    "<span class=\"txi\"><span class=\"en\">a trapezoid</span><span class=\"vi\">hình thang</span></span>",
+    "<span class=\"txi\"><span class=\"en\">a parallelogram</span><span class=\"vi\">hình bình hành</span></span>",
+    "<span class=\"txi\"><span class=\"en\">a triangle</span><span class=\"vi\">tam giác</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Parallel projection keeps parallelism and ratios on parallel segments, but not angles or lengths.",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel projection\">Phép chiếu song song</b> giữ tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b> và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ratio\">tỉ số</b> các đoạn thẳng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b>, nhưng không giữ góc và độ dài.",
+   "images": [],
+   "id": "ce9b3d379b31",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Sunlight is a parallel projection. At the same moment, a vertical stick # m high casts a shadow # m long on flat ground, and a vertical flagpole casts a shadow # m long. The flagpole is…",
+   "en": "Sunlight is a parallel projection. At the same moment, a vertical stick 1.8 m high casts a shadow 2.4 m long on flat ground, and a vertical flagpole casts a shadow 12 m long. The flagpole is…",
+   "vi": "Ánh nắng mặt trời là một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel projection\">phép chiếu song song</b>. Cùng một thời điểm, chiếc cọc thẳng đứng cao 1,8 m có bóng dài 2,4 m trên mặt đất phẳng, còn cột cờ thẳng đứng có bóng dài 12 m. Cột cờ cao…",
+   "options": [
+    "\\(9\\ \\text{m}\\)",
+    "<span class=\"txi\"><span class=\"en\">\\(11.4\\ \\text{m}\\)</span><span class=\"vi\">\\(11{,}4\\ \\text{m}\\)</span></span>",
+    "\\(12\\ \\text{m}\\)",
+    "\\(16\\ \\text{m}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Parallel segments keep their ratio: \\(\\dfrac{h}{12}=\\dfrac{1.8}{2.4}\\), so \\(h=9\\) m.",
+   "explain_vi": "Đáp án a. Hai đoạn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b> giữ <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ratio\">tỉ số</b>: \\(\\dfrac{h}{12}=\\dfrac{1{,}8}{2{,}4}\\) nên \\(h=9\\) m.",
+   "images": [],
+   "id": "b25a85461689",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Under a parallel projection (plane of the figure not parallel to the direction), the image of the centroid \\(G\\) of triangle \\(ABC\\) is…",
+   "en": "Under a parallel projection (plane of the figure not parallel to the direction), the image of the centroid \\(G\\) of triangle \\(ABC\\) is…",
+   "vi": "Qua <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel projection\">phép chiếu song song</b> (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> chứa hình không <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b> với <b class=\"mbl-term\" tabindex=\"0\" data-en=\"direction of projection\">phương chiếu</b>), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"projection\">hình chiếu</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"centroid\">trọng tâm</b> \\(G\\) của tam giác \\(ABC\\) là…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">the centroid of triangle \\(A'B'C'\\)</span><span class=\"vi\">trọng tâm tam giác \\(A'B'C'\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the orthocentre of the image</span><span class=\"vi\">trực tâm của hình chiếu</span></span>",
+    "<span class=\"txi\"><span class=\"en\">a point that cannot be determined</span><span class=\"vi\">một điểm không xác định được</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the circumcentre of the image</span><span class=\"vi\">tâm đường tròn ngoại tiếp hình chiếu</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Midpoints and ratios on a line are kept, so medians go to medians and diagonals to diagonals.",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">Trung điểm</b> và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ratio\">tỉ số</b> trên một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> được giữ nên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"median\">trung tuyến</b> biến thành <b class=\"mbl-term\" tabindex=\"0\" data-en=\"median\">trung tuyến</b>, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b> thành <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b>.",
+   "images": [],
+   "id": "995139838896",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Which property is \\lt b\\gt not\\lt /b\\gt always kept by a parallel projection?",
+   "en": "Which property is \\lt b\\gt not\\lt /b\\gt  always kept by a parallel projection?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel projection\">Phép chiếu song song</b> \\lt b\\gt không\\lt /b\\gt  luôn giữ nguyên tính chất nào sau đây?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">the order of three points on a line</span><span class=\"vi\">thứ tự ba điểm trên một đường thẳng</span></span>",
+    "<span class=\"txi\"><span class=\"en\">a right angle</span><span class=\"vi\">góc vuông</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the ratio of two segments on one line</span><span class=\"vi\">tỉ số hai đoạn thẳng nằm trên một đường thẳng</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the midpoint of a segment</span><span class=\"vi\">trung điểm của đoạn thẳng</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Angles and lengths can change; parallelism, midpoints and ratios on a line are kept.",
+   "explain_vi": "Đáp án b. Góc và độ dài có thể thay đổi; tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b>, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ratio\">tỉ số</b> trên một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> được giữ nguyên.",
+   "images": [],
+   "id": "a55720a51664",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(ABCD\\) is a trapezoid with \\(AB\\parallel CD\\) and \\(AB=#\\,CD\\). Its image under a parallel projection is \\(A'B'C'D'\\) with \\(C'D'=#\\). Then \\(A'B'=\\)…",
+   "en": "\\(ABCD\\) is a trapezoid with \\(AB\\parallel CD\\) and \\(AB=2\\,CD\\). Its image under a parallel projection is \\(A'B'C'D'\\) with \\(C'D'=6\\). Then \\(A'B'=\\)…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"trapezoid\">Hình thang</b> \\(ABCD\\) có \\(AB\\parallel CD\\), \\(AB=2\\,CD\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"image (of a point or a figure)\">Hình chiếu song song</b> của nó là \\(A'B'C'D'\\) với \\(C'D'=6\\). Khi đó \\(A'B'=\\)…",
+   "options": [
+    "\\(3\\)",
+    "\\(12\\)",
+    "\\(6\\)",
+    "\\(18\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. The images of parallel segments keep their ratio: \\(A'B'=2\\cdot6=12\\).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"projection\">Hình chiếu</b> của hai đoạn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b> giữ nguyên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ratio\">tỉ số</b>: \\(A'B'=2\\cdot6=12\\).",
+   "images": [],
+   "id": "c354b9cf48ec",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(ABCD\\) is a trapezoid with \\(AB\\parallel CD\\) and \\(AB=\\dfrac{#}{#}\\,CD\\). Its image under a parallel projection is \\(A'B'C'D'\\) with \\(C'D'=#\\). Then \\(A'B'=\\)…",
+   "en": "\\(ABCD\\) is a trapezoid with \\(AB\\parallel CD\\) and \\(AB=\\dfrac{3}{2}\\,CD\\). Its image under a parallel projection is \\(A'B'C'D'\\) with \\(C'D'=6\\). Then \\(A'B'=\\)…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"trapezoid\">Hình thang</b> \\(ABCD\\) có \\(AB\\parallel CD\\), \\(AB=\\dfrac{3}{2}\\,CD\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"image (of a point or a figure)\">Hình chiếu song song</b> của nó là \\(A'B'C'D'\\) với \\(C'D'=6\\). Khi đó \\(A'B'=\\)…",
+   "options": [
+    "\\(4\\)",
+    "\\(15\\)",
+    "\\(6\\)",
+    "\\(9\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. The images of parallel segments keep their ratio: \\(A'B'=\\dfrac{3}{2}\\cdot6=9\\).",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"projection\">Hình chiếu</b> của hai đoạn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b> giữ nguyên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ratio\">tỉ số</b>: \\(A'B'=\\dfrac{3}{2}\\cdot6=9\\).",
+   "images": [],
+   "id": "b88df4afe471",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(M\\) lies on segment \\(AB\\) with \\(\\dfrac{AM}{MB}=\\dfrac{#}{#}\\). Under a parallel projection, \\(A,B,M\\) go to \\(A',B',M'\\) and \\(A'B'=#\\). Then \\(A'M'=\\)…",
+   "en": "\\(M\\) lies on segment \\(AB\\) with \\(\\dfrac{AM}{MB}=\\dfrac{3}{5}\\). Under a parallel projection, \\(A,B,M\\) go to \\(A',B',M'\\) and \\(A'B'=16\\). Then \\(A'M'=\\)…",
+   "vi": "Điểm \\(M\\) thuộc đoạn \\(AB\\) với \\(\\dfrac{AM}{MB}=\\dfrac{3}{5}\\). Qua một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel projection\">phép chiếu song song</b>, \\(A,B,M\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"projection\">hình chiếu</b> \\(A',B',M'\\) và \\(A'B'=16\\). Khi đó \\(A'M'=\\)…",
+   "options": [
+    "\\(8\\)",
+    "\\(6\\)",
+    "\\(10\\)",
+    "\\(\\dfrac{48}{5}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Parallel projection keeps the ratio on a line: \\(\\dfrac{A'M'}{A'B'}=\\dfrac{AM}{AB}=\\dfrac{3}{8}\\).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel projection\">Phép chiếu song song</b> giữ nguyên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ratio\">tỉ số</b> trên một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b>: \\(\\dfrac{A'M'}{A'B'}=\\dfrac{AM}{AB}=\\dfrac{3}{8}\\).",
+   "images": [],
+   "id": "ed98449a4dd2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(M\\) lies on segment \\(AB\\) with \\(\\dfrac{AM}{MB}=\\dfrac{#}{#}\\). Under a parallel projection, \\(A,B,M\\) go to \\(A',B',M'\\) and \\(A'B'=#\\). Then \\(A'M'=\\)…",
+   "en": "\\(M\\) lies on segment \\(AB\\) with \\(\\dfrac{AM}{MB}=\\dfrac{1}{4}\\). Under a parallel projection, \\(A,B,M\\) go to \\(A',B',M'\\) and \\(A'B'=20\\). Then \\(A'M'=\\)…",
+   "vi": "Điểm \\(M\\) thuộc đoạn \\(AB\\) với \\(\\dfrac{AM}{MB}=\\dfrac{1}{4}\\). Qua một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel projection\">phép chiếu song song</b>, \\(A,B,M\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"projection\">hình chiếu</b> \\(A',B',M'\\) và \\(A'B'=20\\). Khi đó \\(A'M'=\\)…",
+   "options": [
+    "\\(5\\)",
+    "\\(4\\)",
+    "\\(10\\)",
+    "\\(16\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Parallel projection keeps the ratio on a line: \\(\\dfrac{A'M'}{A'B'}=\\dfrac{AM}{AB}=\\dfrac{1}{5}\\).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel projection\">Phép chiếu song song</b> giữ nguyên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ratio\">tỉ số</b> trên một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b>: \\(\\dfrac{A'M'}{A'B'}=\\dfrac{AM}{AB}=\\dfrac{1}{5}\\).",
+   "images": [],
+   "id": "0ed0b58d6ab9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "A vertical post \\(#\\) m high casts a \\(#\\) m shadow on flat ground. At the same time a vertical tower casts a \\(#\\) m shadow. The tower is…",
+   "en": "A vertical post \\(1.6\\) m high casts a \\(2\\) m shadow on flat ground. At the same time a vertical tower casts a \\(25\\) m shadow. The tower is…",
+   "vi": "Một cột mốc thẳng đứng cao \\(1{,}6\\) m có bóng dài \\(2\\) m trên mặt đất phẳng. Cùng lúc đó, một tòa tháp thẳng đứng có bóng dài \\(25\\) m. Tháp cao…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(31.25\\ \\text{m}\\)</span><span class=\"vi\">\\(31{,}25\\ \\text{m}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(24.6\\ \\text{m}\\)</span><span class=\"vi\">\\(24{,}6\\ \\text{m}\\)</span></span>",
+    "\\(20\\ \\text{m}\\)",
+    "\\(25\\ \\text{m}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\dfrac{h}{25}=\\dfrac{1.6}{2}\\Rightarrow h=20\\).",
+   "explain_vi": "Đáp án c. \\(\\dfrac{h}{25}=\\dfrac{1{,}6}{2}\\Rightarrow h=20\\).",
+   "images": [],
+   "id": "e4b258149482",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Trapezoid \\(ABCD\\): \\(AB\\parallel CD\\), \\(AB=#\\,CD\\). In its drawing \\(A'B'C'D'\\), \\(C'D'=#\\) cm. Then \\(A'B'=\\)…",
+   "en": "Trapezoid \\(ABCD\\): \\(AB\\parallel CD\\), \\(AB=3\\,CD\\). In its drawing \\(A'B'C'D'\\), \\(C'D'=5\\) cm. Then \\(A'B'=\\)…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"trapezoid\">Hình thang</b> \\(ABCD\\): \\(AB\\parallel CD\\), \\(AB=3\\,CD\\). Trên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"drawing of a solid (representation)\">hình biểu diễn</b> \\(A'B'C'D'\\) có \\(C'D'=5\\) cm. Khi đó \\(A'B'=\\)…",
+   "options": [
+    "\\(5\\ \\text{cm}\\)",
+    "\\(\\dfrac{5}{3}\\ \\text{cm}\\)",
+    "\\(15\\ \\text{cm}\\)",
+    "\\(20\\ \\text{cm}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Parallel segments keep their ratio: \\(A'B'=3\\cdot5=15\\).",
+   "explain_vi": "Đáp án c. Hai đoạn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b> giữ nguyên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ratio\">tỉ số</b>: \\(A'B'=3\\cdot5=15\\).",
+   "images": [],
+   "id": "ff7e08e69e01",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(M\\) is on segment \\(AB\\) with \\(AM:MB=#:#\\). The image of \\(AB\\) under a parallel projection has length \\(A'B'=#\\). Then \\(A'M'=\\)…",
+   "en": "\\(M\\) is on segment \\(AB\\) with \\(AM:MB=2:3\\). The image of \\(AB\\) under a parallel projection has length \\(A'B'=20\\). Then \\(A'M'=\\)…",
+   "vi": "Điểm \\(M\\) thuộc đoạn \\(AB\\), \\(AM:MB=2:3\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"image (of a point or a figure)\">Hình chiếu song song</b> của \\(AB\\) có độ dài \\(A'B'=20\\). Khi đó \\(A'M'=\\)…",
+   "options": [
+    "\\(8\\)",
+    "\\(12\\)",
+    "\\(\\dfrac{40}{3}\\)",
+    "\\(10\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\dfrac{A'M'}{A'B'}=\\dfrac{AM}{AB}=\\dfrac{2}{5}\\).",
+   "explain_vi": "Đáp án a. \\(\\dfrac{A'M'}{A'B'}=\\dfrac{AM}{AB}=\\dfrac{2}{5}\\).",
+   "images": [],
+   "id": "0b36372e12ae",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "A parallel projection keeps the length of every segment.",
+   "en": "A parallel projection keeps the length of every segment.",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel projection\">Phép chiếu song song</b> giữ nguyên độ dài mọi đoạn thẳng.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "Kept: collinearity, order, parallelism, ratios on parallel lines (so midpoints). Not kept: lengths, angles.",
+   "explain_vi": "Được giữ: <b class=\"mbl-term\" tabindex=\"0\" data-en=\"collinear\">thẳng hàng</b>, thứ tự, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b>, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ratio\">tỉ số</b> trên các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b> (nên giữ <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b>). Không giữ: độ dài, góc.",
+   "images": [],
+   "id": "bda5053e1462",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "The image of a parallelogram can be a trapezoid with unequal bases.",
+   "en": "The image of a parallelogram can be a trapezoid with unequal bases.",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"image (of a point or a figure)\">Hình chiếu song song</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelogram\">hình bình hành</b> có thể là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"trapezoid\">hình thang</b> có hai đáy không bằng nhau.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "A parallelogram always goes to a parallelogram; angles may change; a circle usually goes to an ellipse.",
+   "explain_vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelogram\">Hình bình hành</b> luôn biến thành <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelogram\">hình bình hành</b>; góc có thể đổi; <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> thường biến thành <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ellipse\">đường elip</b>.",
+   "images": [],
+   "id": "c30dd2a1f1c3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "Two vertical poles stand on flat ground. The first is \\(#\\) m high with a \\(#\\) m shadow. The second has a \\(#\\) m shadow at the same moment. How tall is the second pole (m)?",
+   "en": "Two vertical poles stand on flat ground. The first is \\(1.8\\) m high with a \\(2.4\\) m shadow. The second has a \\(14\\) m shadow at the same moment. How tall is the second pole (m)?",
+   "vi": "Hai cột thẳng đứng trên mặt đất phẳng. Cột thứ nhất cao \\(1{,}8\\) m, bóng dài \\(2{,}4\\) m. Cùng lúc đó, cột thứ hai có bóng dài \\(14\\) m. Cột thứ hai cao bao nhiêu mét?",
+   "options": [],
+   "answer": "10.5",
+   "explain_en": "Same ratio height : shadow: \\(h=14\\cdot\\dfrac{1.8}{2.4}=10.5\\).",
+   "explain_vi": "Cùng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ratio\">tỉ số</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"height\">chiều cao</b> : bóng: \\(h=14\\cdot\\dfrac{1{,}8}{2{,}4}=10{,}5\\).",
+   "images": [],
+   "id": "95874f55fbf8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "\\(M\\) is on segment \\(AB\\) with \\(AM:MB=#:#\\). Under a parallel projection, \\(A'M'=#\\). Find \\(A'B'\\).",
+   "en": "\\(M\\) is on segment \\(AB\\) with \\(AM:MB=2:3\\). Under a parallel projection, \\(A'M'=8\\). Find \\(A'B'\\).",
+   "vi": "Điểm \\(M\\) thuộc đoạn \\(AB\\), \\(AM:MB=2:3\\). Qua một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel projection\">phép chiếu song song</b>, \\(A'M'=8\\). Tính \\(A'B'\\).",
+   "options": [],
+   "answer": "20",
+   "explain_en": "\\(A'B'=A'M'\\cdot\\dfrac{5}{2}=20\\).",
+   "explain_vi": "\\(A'B'=A'M'\\cdot\\dfrac{5}{2}=20\\).",
+   "images": [],
+   "id": "a4896a3d8023",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "In a drawing of a solid (a parallel projection), a regular hexagon is usually drawn as…",
+   "en": "In a drawing of a solid (a parallel projection), a regular hexagon is usually drawn as…",
+   "vi": "Trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"drawing of a solid (representation)\">hình biểu diễn</b> của một hình không gian (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel projection\">phép chiếu song song</b>), lục giác đều thường được vẽ thành…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">a hexagon with three pairs of parallel opposite sides</span><span class=\"vi\">lục giác có ba cặp cạnh đối song song</span></span>",
+    "<span class=\"txi\"><span class=\"en\">a parallelogram</span><span class=\"vi\">hình bình hành</span></span>",
+    "<span class=\"txi\"><span class=\"en\">a triangle</span><span class=\"vi\">tam giác</span></span>",
+    "<span class=\"txi\"><span class=\"en\">always a square</span><span class=\"vi\">luôn là hình vuông</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Parallel projection keeps parallelism and ratios on parallel segments, but not angles or lengths.",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel projection\">Phép chiếu song song</b> giữ tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b> và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ratio\">tỉ số</b> các đoạn thẳng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b>, nhưng không giữ góc và độ dài.",
+   "images": [],
+   "id": "2785b45640b1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Sunlight is a parallel projection. At the same moment, a vertical stick # m high casts a shadow # m long on flat ground, and a vertical flagpole casts a shadow # m long. The flagpole is…",
+   "en": "Sunlight is a parallel projection. At the same moment, a vertical stick 1.5 m high casts a shadow 2 m long on flat ground, and a vertical flagpole casts a shadow 15 m long. The flagpole is…",
+   "vi": "Ánh nắng mặt trời là một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel projection\">phép chiếu song song</b>. Cùng một thời điểm, chiếc cọc thẳng đứng cao 1,5 m có bóng dài 2 m trên mặt đất phẳng, còn cột cờ thẳng đứng có bóng dài 15 m. Cột cờ cao…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(14.5\\ \\text{m}\\)</span><span class=\"vi\">\\(14{,}5\\ \\text{m}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(11.25\\ \\text{m}\\)</span><span class=\"vi\">\\(11{,}25\\ \\text{m}\\)</span></span>",
+    "\\(20\\ \\text{m}\\)",
+    "\\(15\\ \\text{m}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Parallel segments keep their ratio: \\(\\dfrac{h}{15}=\\dfrac{1.5}{2}\\), so \\(h=11.25\\) m.",
+   "explain_vi": "Đáp án b. Hai đoạn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b> giữ <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ratio\">tỉ số</b>: \\(\\dfrac{h}{15}=\\dfrac{1{,}5}{2}\\) nên \\(h=11{,}25\\) m.",
+   "images": [],
+   "id": "5090ffbdaaf7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Under a parallel projection (plane of the figure not parallel to the direction), the image of the midpoint \\(I\\) of \\(AB\\) is…",
+   "en": "Under a parallel projection (plane of the figure not parallel to the direction), the image of the midpoint \\(I\\) of \\(AB\\) is…",
+   "vi": "Qua <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel projection\">phép chiếu song song</b> (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> chứa hình không <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b> với <b class=\"mbl-term\" tabindex=\"0\" data-en=\"direction of projection\">phương chiếu</b>), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"projection\">hình chiếu</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> \\(I\\) của \\(AB\\) là…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">the orthocentre of the image</span><span class=\"vi\">trực tâm của hình chiếu</span></span>",
+    "<span class=\"txi\"><span class=\"en\">a point that cannot be determined</span><span class=\"vi\">một điểm không xác định được</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the midpoint of \\(A'B'\\)</span><span class=\"vi\">trung điểm của \\(A'B'\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the circumcentre of the image</span><span class=\"vi\">tâm đường tròn ngoại tiếp hình chiếu</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Midpoints and ratios on a line are kept, so medians go to medians and diagonals to diagonals.",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">Trung điểm</b> và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ratio\">tỉ số</b> trên một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> được giữ nên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"median\">trung tuyến</b> biến thành <b class=\"mbl-term\" tabindex=\"0\" data-en=\"median\">trung tuyến</b>, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b> thành <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b>.",
+   "images": [],
+   "id": "e66f6326a394",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Which of these is \\lt b\\gt not\\lt /b\\gt preserved by every parallel projection?",
+   "en": "Which of these is \\lt b\\gt not\\lt /b\\gt  preserved by every parallel projection?",
+   "vi": "Yếu tố nào sau đây \\lt b\\gt không\\lt /b\\gt  được bảo toàn qua mọi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel projection\">phép chiếu song song</b>?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">the length of a segment</span><span class=\"vi\">độ dài đoạn thẳng</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the ratio of two segments on one line</span><span class=\"vi\">tỉ số hai đoạn thẳng nằm trên một đường thẳng</span></span>",
+    "<span class=\"txi\"><span class=\"en\">parallelism of lines (not parallel to the direction)</span><span class=\"vi\">tính song song của hai đường thẳng (không song song với phương chiếu)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the order of three points on a line</span><span class=\"vi\">thứ tự ba điểm trên một đường thẳng</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Angles and lengths can change; parallelism, midpoints and ratios on a line are kept.",
+   "explain_vi": "Đáp án a. Góc và độ dài có thể thay đổi; tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b>, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ratio\">tỉ số</b> trên một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> được giữ nguyên.",
+   "images": [],
+   "id": "03b9000d6ae6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(ABCD\\) is a trapezoid with \\(AB\\parallel CD\\) and \\(AB=#\\,CD\\). Its image under a parallel projection is \\(A'B'C'D'\\) with \\(C'D'=#\\). Then \\(A'B'=\\)…",
+   "en": "\\(ABCD\\) is a trapezoid with \\(AB\\parallel CD\\) and \\(AB=3\\,CD\\). Its image under a parallel projection is \\(A'B'C'D'\\) with \\(C'D'=3\\). Then \\(A'B'=\\)…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"trapezoid\">Hình thang</b> \\(ABCD\\) có \\(AB\\parallel CD\\), \\(AB=3\\,CD\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"image (of a point or a figure)\">Hình chiếu song song</b> của nó là \\(A'B'C'D'\\) với \\(C'D'=3\\). Khi đó \\(A'B'=\\)…",
+   "options": [
+    "\\(1\\)",
+    "\\(3\\)",
+    "\\(9\\)",
+    "\\(12\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The images of parallel segments keep their ratio: \\(A'B'=3\\cdot3=9\\).",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"projection\">Hình chiếu</b> của hai đoạn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b> giữ nguyên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ratio\">tỉ số</b>: \\(A'B'=3\\cdot3=9\\).",
+   "images": [],
+   "id": "403b7c32f903",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(ABCD\\) is a trapezoid with \\(AB\\parallel CD\\) and \\(AB=\\dfrac{#}{#}\\,CD\\). Its image under a parallel projection is \\(A'B'C'D'\\) with \\(C'D'=#\\). Then \\(A'B'=\\)…",
+   "en": "\\(ABCD\\) is a trapezoid with \\(AB\\parallel CD\\) and \\(AB=\\dfrac{1}{2}\\,CD\\). Its image under a parallel projection is \\(A'B'C'D'\\) with \\(C'D'=2\\). Then \\(A'B'=\\)…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"trapezoid\">Hình thang</b> \\(ABCD\\) có \\(AB\\parallel CD\\), \\(AB=\\dfrac{1}{2}\\,CD\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"image (of a point or a figure)\">Hình chiếu song song</b> của nó là \\(A'B'C'D'\\) với \\(C'D'=2\\). Khi đó \\(A'B'=\\)…",
+   "options": [
+    "\\(3\\)",
+    "\\(1\\)",
+    "\\(4\\)",
+    "\\(2\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. The images of parallel segments keep their ratio: \\(A'B'=\\dfrac{1}{2}\\cdot2=1\\).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"projection\">Hình chiếu</b> của hai đoạn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b> giữ nguyên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ratio\">tỉ số</b>: \\(A'B'=\\dfrac{1}{2}\\cdot2=1\\).",
+   "images": [],
+   "id": "72eae959feed",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(M\\) lies on segment \\(AB\\) with \\(\\dfrac{AM}{MB}=\\dfrac{#}{#}\\). Under a parallel projection, \\(A,B,M\\) go to \\(A',B',M'\\) and \\(A'B'=#\\). Then \\(A'M'=\\)…",
+   "en": "\\(M\\) lies on segment \\(AB\\) with \\(\\dfrac{AM}{MB}=\\dfrac{1}{4}\\). Under a parallel projection, \\(A,B,M\\) go to \\(A',B',M'\\) and \\(A'B'=10\\). Then \\(A'M'=\\)…",
+   "vi": "Điểm \\(M\\) thuộc đoạn \\(AB\\) với \\(\\dfrac{AM}{MB}=\\dfrac{1}{4}\\). Qua một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel projection\">phép chiếu song song</b>, \\(A,B,M\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"projection\">hình chiếu</b> \\(A',B',M'\\) và \\(A'B'=10\\). Khi đó \\(A'M'=\\)…",
+   "options": [
+    "\\(2\\)",
+    "\\(5\\)",
+    "\\(\\dfrac{5}{2}\\)",
+    "\\(8\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Parallel projection keeps the ratio on a line: \\(\\dfrac{A'M'}{A'B'}=\\dfrac{AM}{AB}=\\dfrac{1}{5}\\).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel projection\">Phép chiếu song song</b> giữ nguyên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ratio\">tỉ số</b> trên một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b>: \\(\\dfrac{A'M'}{A'B'}=\\dfrac{AM}{AB}=\\dfrac{1}{5}\\).",
+   "images": [],
+   "id": "6c9594779bc1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(M\\) lies on segment \\(AB\\) with \\(\\dfrac{AM}{MB}=\\dfrac{#}{#}\\). Under a parallel projection, \\(A,B,M\\) go to \\(A',B',M'\\) and \\(A'B'=#\\). Then \\(A'M'=\\)…",
+   "en": "\\(M\\) lies on segment \\(AB\\) with \\(\\dfrac{AM}{MB}=\\dfrac{1}{3}\\). Under a parallel projection, \\(A,B,M\\) go to \\(A',B',M'\\) and \\(A'B'=8\\). Then \\(A'M'=\\)…",
+   "vi": "Điểm \\(M\\) thuộc đoạn \\(AB\\) với \\(\\dfrac{AM}{MB}=\\dfrac{1}{3}\\). Qua một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel projection\">phép chiếu song song</b>, \\(A,B,M\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"projection\">hình chiếu</b> \\(A',B',M'\\) và \\(A'B'=8\\). Khi đó \\(A'M'=\\)…",
+   "options": [
+    "\\(\\dfrac{8}{3}\\)",
+    "\\(4\\)",
+    "\\(6\\)",
+    "\\(2\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Parallel projection keeps the ratio on a line: \\(\\dfrac{A'M'}{A'B'}=\\dfrac{AM}{AB}=\\dfrac{1}{4}\\).",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel projection\">Phép chiếu song song</b> giữ nguyên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ratio\">tỉ số</b> trên một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b>: \\(\\dfrac{A'M'}{A'B'}=\\dfrac{AM}{AB}=\\dfrac{1}{4}\\).",
+   "images": [],
+   "id": "a49ca1cc83f8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "A vertical post \\(#\\) m high casts a \\(#\\) m shadow on flat ground. At the same time a vertical tower casts a \\(#\\) m shadow. The tower is…",
+   "en": "A vertical post \\(1.2\\) m high casts a \\(1.5\\) m shadow on flat ground. At the same time a vertical tower casts a \\(40\\) m shadow. The tower is…",
+   "vi": "Một cột mốc thẳng đứng cao \\(1{,}2\\) m có bóng dài \\(1{,}5\\) m trên mặt đất phẳng. Cùng lúc đó, một tòa tháp thẳng đứng có bóng dài \\(40\\) m. Tháp cao…",
+   "options": [
+    "\\(50\\ \\text{m}\\)",
+    "<span class=\"txi\"><span class=\"en\">\\(39.7\\ \\text{m}\\)</span><span class=\"vi\">\\(39{,}7\\ \\text{m}\\)</span></span>",
+    "\\(32\\ \\text{m}\\)",
+    "\\(40\\ \\text{m}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\dfrac{h}{40}=\\dfrac{1.2}{1.5}\\Rightarrow h=32\\).",
+   "explain_vi": "Đáp án c. \\(\\dfrac{h}{40}=\\dfrac{1{,}2}{1{,}5}\\Rightarrow h=32\\).",
+   "images": [],
+   "id": "b0ed4db10f81",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Trapezoid \\(ABCD\\): \\(AB\\parallel CD\\), \\(AB=\\dfrac{#}{#}\\,CD\\). In its drawing \\(A'B'C'D'\\), \\(C'D'=#\\) cm. Then \\(A'B'=\\)…",
+   "en": "Trapezoid \\(ABCD\\): \\(AB\\parallel CD\\), \\(AB=\\dfrac{3}{2}\\,CD\\). In its drawing \\(A'B'C'D'\\), \\(C'D'=6\\) cm. Then \\(A'B'=\\)…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"trapezoid\">Hình thang</b> \\(ABCD\\): \\(AB\\parallel CD\\), \\(AB=\\dfrac{3}{2}\\,CD\\). Trên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"drawing of a solid (representation)\">hình biểu diễn</b> \\(A'B'C'D'\\) có \\(C'D'=6\\) cm. Khi đó \\(A'B'=\\)…",
+   "options": [
+    "\\(6\\ \\text{cm}\\)",
+    "\\(9\\ \\text{cm}\\)",
+    "\\(4\\ \\text{cm}\\)",
+    "\\(15\\ \\text{cm}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Parallel segments keep their ratio: \\(A'B'=\\dfrac{3}{2}\\cdot6=9\\).",
+   "explain_vi": "Đáp án b. Hai đoạn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b> giữ nguyên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ratio\">tỉ số</b>: \\(A'B'=\\dfrac{3}{2}\\cdot6=9\\).",
+   "images": [],
+   "id": "f6ddb0c48231",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(M\\) is on segment \\(AB\\) with \\(AM:MB=#:#\\). The image of \\(AB\\) under a parallel projection has length \\(A'B'=#\\). Then \\(A'M'=\\)…",
+   "en": "\\(M\\) is on segment \\(AB\\) with \\(AM:MB=3:1\\). The image of \\(AB\\) under a parallel projection has length \\(A'B'=16\\). Then \\(A'M'=\\)…",
+   "vi": "Điểm \\(M\\) thuộc đoạn \\(AB\\), \\(AM:MB=3:1\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"image (of a point or a figure)\">Hình chiếu song song</b> của \\(AB\\) có độ dài \\(A'B'=16\\). Khi đó \\(A'M'=\\)…",
+   "options": [
+    "\\(4\\)",
+    "\\(12\\)",
+    "\\(48\\)",
+    "\\(8\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\dfrac{A'M'}{A'B'}=\\dfrac{AM}{AB}=\\dfrac{3}{4}\\).",
+   "explain_vi": "Đáp án b. \\(\\dfrac{A'M'}{A'B'}=\\dfrac{AM}{AB}=\\dfrac{3}{4}\\).",
+   "images": [],
+   "id": "23a674e67c56",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "A parallel projection keeps right angles.",
+   "en": "A parallel projection keeps right angles.",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel projection\">Phép chiếu song song</b> biến góc vuông thành góc vuông.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "Kept: collinearity, order, parallelism, ratios on parallel lines (so midpoints). Not kept: lengths, angles.",
+   "explain_vi": "Được giữ: <b class=\"mbl-term\" tabindex=\"0\" data-en=\"collinear\">thẳng hàng</b>, thứ tự, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b>, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ratio\">tỉ số</b> trên các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b> (nên giữ <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b>). Không giữ: độ dài, góc.",
+   "images": [],
+   "id": "cdd8c3de5547",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "The image of a circle (in a plane not parallel to \\(l\\)) can be an ellipse.",
+   "en": "The image of a circle (in a plane not parallel to \\(l\\)) can be an ellipse.",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"image (of a point or a figure)\">Hình chiếu song song</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> chứa nó không <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b> với \\(l\\)) có thể là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ellipse\">đường elip</b>.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "A parallelogram always goes to a parallelogram; angles may change; a circle usually goes to an ellipse.",
+   "explain_vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelogram\">Hình bình hành</b> luôn biến thành <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelogram\">hình bình hành</b>; góc có thể đổi; <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> thường biến thành <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ellipse\">đường elip</b>.",
+   "images": [],
+   "id": "1bce36df4d74",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Two vertical poles stand on flat ground. The first is \\(#\\) m high with a \\(#\\) m shadow. The second has a \\(#\\) m shadow at the same moment. How tall is the second pole (m)?",
+   "en": "Two vertical poles stand on flat ground. The first is \\(2\\) m high with a \\(5\\) m shadow. The second has a \\(18\\) m shadow at the same moment. How tall is the second pole (m)?",
+   "vi": "Hai cột thẳng đứng trên mặt đất phẳng. Cột thứ nhất cao \\(2\\) m, bóng dài \\(5\\) m. Cùng lúc đó, cột thứ hai có bóng dài \\(18\\) m. Cột thứ hai cao bao nhiêu mét?",
+   "options": [],
+   "answer": "7.2",
+   "explain_en": "Same ratio height : shadow: \\(h=18\\cdot\\dfrac{2}{5}=7.2\\).",
+   "explain_vi": "Cùng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ratio\">tỉ số</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"height\">chiều cao</b> : bóng: \\(h=18\\cdot\\dfrac{2}{5}=7{,}2\\).",
+   "images": [],
+   "id": "e15fc5bc7fbe",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "\\(M\\) is on segment \\(AB\\) with \\(AM:MB=#:#\\). Under a parallel projection, \\(A'M'=#\\). Find \\(A'B'\\).",
+   "en": "\\(M\\) is on segment \\(AB\\) with \\(AM:MB=3:4\\). Under a parallel projection, \\(A'M'=9\\). Find \\(A'B'\\).",
+   "vi": "Điểm \\(M\\) thuộc đoạn \\(AB\\), \\(AM:MB=3:4\\). Qua một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel projection\">phép chiếu song song</b>, \\(A'M'=9\\). Tính \\(A'B'\\).",
+   "options": [],
+   "answer": "21",
+   "explain_en": "\\(A'B'=A'M'\\cdot\\dfrac{7}{3}=21\\).",
+   "explain_vi": "\\(A'B'=A'M'\\cdot\\dfrac{7}{3}=21\\).",
+   "images": [],
+   "id": "49e7a689d0e0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "A parallel projection may change which of the following?",
+   "en": "A parallel projection may change which of the following?",
+   "vi": "Qua <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel projection\">phép chiếu song song</b>, yếu tố nào sau đây có thể bị thay đổi?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">the ratio of two segments on one line</span><span class=\"vi\">tỉ số hai đoạn thẳng nằm trên một đường thẳng</span></span>",
+    "<span class=\"txi\"><span class=\"en\">a right angle</span><span class=\"vi\">góc vuông</span></span>",
+    "<span class=\"txi\"><span class=\"en\">parallelism of lines (not parallel to the direction)</span><span class=\"vi\">tính song song của hai đường thẳng (không song song với phương chiếu)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the midpoint of a segment</span><span class=\"vi\">trung điểm của đoạn thẳng</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Angles and lengths can change; parallelism, midpoints and ratios on a line are kept.",
+   "explain_vi": "Đáp án b. Góc và độ dài có thể thay đổi; tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b>, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ratio\">tỉ số</b> trên một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> được giữ nguyên.",
+   "images": [],
+   "id": "a4e3d26d9143",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "In a drawing of a solid (a parallel projection), an isosceles trapezoid is usually drawn as…",
+   "en": "In a drawing of a solid (a parallel projection), an isosceles trapezoid is usually drawn as…",
+   "vi": "Trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"drawing of a solid (representation)\">hình biểu diễn</b> của một hình không gian (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel projection\">phép chiếu song song</b>), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"trapezoid\">hình thang</b> cân thường được vẽ thành…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">always a square</span><span class=\"vi\">luôn là hình vuông</span></span>",
+    "<span class=\"txi\"><span class=\"en\">an ellipse</span><span class=\"vi\">đường elip</span></span>",
+    "<span class=\"txi\"><span class=\"en\">a triangle</span><span class=\"vi\">tam giác</span></span>",
+    "<span class=\"txi\"><span class=\"en\">a trapezoid</span><span class=\"vi\">hình thang</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Parallel projection keeps parallelism and ratios on parallel segments, but not angles or lengths.",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel projection\">Phép chiếu song song</b> giữ tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b> và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ratio\">tỉ số</b> các đoạn thẳng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b>, nhưng không giữ góc và độ dài.",
+   "images": [],
+   "id": "3d5d37f9c07d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Sunlight is a parallel projection. At the same moment, a vertical stick # m high casts a shadow # m long on flat ground, and a vertical flagpole casts a shadow # m long. The flagpole is…",
+   "en": "Sunlight is a parallel projection. At the same moment, a vertical stick 1.8 m high casts a shadow 2.4 m long on flat ground, and a vertical flagpole casts a shadow 7.2 m long. The flagpole is…",
+   "vi": "Ánh nắng mặt trời là một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel projection\">phép chiếu song song</b>. Cùng một thời điểm, chiếc cọc thẳng đứng cao 1,8 m có bóng dài 2,4 m trên mặt đất phẳng, còn cột cờ thẳng đứng có bóng dài 7,2 m. Cột cờ cao…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(6.6\\ \\text{m}\\)</span><span class=\"vi\">\\(6{,}6\\ \\text{m}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(9.6\\ \\text{m}\\)</span><span class=\"vi\">\\(9{,}6\\ \\text{m}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(5.4\\ \\text{m}\\)</span><span class=\"vi\">\\(5{,}4\\ \\text{m}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(7.2\\ \\text{m}\\)</span><span class=\"vi\">\\(7{,}2\\ \\text{m}\\)</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Parallel segments keep their ratio: \\(\\dfrac{h}{7.2}=\\dfrac{1.8}{2.4}\\), so \\(h=5.4\\) m.",
+   "explain_vi": "Đáp án c. Hai đoạn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b> giữ <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ratio\">tỉ số</b>: \\(\\dfrac{h}{7{,}2}=\\dfrac{1{,}8}{2{,}4}\\) nên \\(h=5{,}4\\) m.",
+   "images": [],
+   "id": "acbabadf6b53",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Under a parallel projection (plane of the figure not parallel to the direction), the image of the center \\(O\\) of the parallelogram \\(ABCD\\) is…",
+   "en": "Under a parallel projection (plane of the figure not parallel to the direction), the image of the center \\(O\\) of the parallelogram \\(ABCD\\) is…",
+   "vi": "Qua <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel projection\">phép chiếu song song</b> (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> chứa hình không <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b> với <b class=\"mbl-term\" tabindex=\"0\" data-en=\"direction of projection\">phương chiếu</b>), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"projection\">hình chiếu</b> của tâm \\(O\\) của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelogram\">hình bình hành</b> \\(ABCD\\) là…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">a point that cannot be determined</span><span class=\"vi\">một điểm không xác định được</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the circumcentre of the image</span><span class=\"vi\">tâm đường tròn ngoại tiếp hình chiếu</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the center of the parallelogram \\(A'B'C'D'\\)</span><span class=\"vi\">tâm hình bình hành \\(A'B'C'D'\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the orthocentre of the image</span><span class=\"vi\">trực tâm của hình chiếu</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Midpoints and ratios on a line are kept, so medians go to medians and diagonals to diagonals.",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">Trung điểm</b> và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ratio\">tỉ số</b> trên một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> được giữ nên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"median\">trung tuyến</b> biến thành <b class=\"mbl-term\" tabindex=\"0\" data-en=\"median\">trung tuyến</b>, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b> thành <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b>.",
+   "images": [],
+   "id": "46fb8a9ae372",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(ABCD\\) is a trapezoid with \\(AB\\parallel CD\\) and \\(AB=#\\,CD\\). Its image under a parallel projection is \\(A'B'C'D'\\) with \\(C'D'=#\\). Then \\(A'B'=\\)…",
+   "en": "\\(ABCD\\) is a trapezoid with \\(AB\\parallel CD\\) and \\(AB=4\\,CD\\). Its image under a parallel projection is \\(A'B'C'D'\\) with \\(C'D'=4\\). Then \\(A'B'=\\)…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"trapezoid\">Hình thang</b> \\(ABCD\\) có \\(AB\\parallel CD\\), \\(AB=4\\,CD\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"image (of a point or a figure)\">Hình chiếu song song</b> của nó là \\(A'B'C'D'\\) với \\(C'D'=4\\). Khi đó \\(A'B'=\\)…",
+   "options": [
+    "\\(20\\)",
+    "\\(4\\)",
+    "\\(1\\)",
+    "\\(16\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. The images of parallel segments keep their ratio: \\(A'B'=4\\cdot4=16\\).",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"projection\">Hình chiếu</b> của hai đoạn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b> giữ nguyên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ratio\">tỉ số</b>: \\(A'B'=4\\cdot4=16\\).",
+   "images": [],
+   "id": "14b8e2849e5a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(ABCD\\) is a trapezoid with \\(AB\\parallel CD\\) and \\(AB=\\dfrac{#}{#}\\,CD\\). Its image under a parallel projection is \\(A'B'C'D'\\) with \\(C'D'=#\\). Then \\(A'B'=\\)…",
+   "en": "\\(ABCD\\) is a trapezoid with \\(AB\\parallel CD\\) and \\(AB=\\dfrac{1}{2}\\,CD\\). Its image under a parallel projection is \\(A'B'C'D'\\) with \\(C'D'=8\\). Then \\(A'B'=\\)…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"trapezoid\">Hình thang</b> \\(ABCD\\) có \\(AB\\parallel CD\\), \\(AB=\\dfrac{1}{2}\\,CD\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"image (of a point or a figure)\">Hình chiếu song song</b> của nó là \\(A'B'C'D'\\) với \\(C'D'=8\\). Khi đó \\(A'B'=\\)…",
+   "options": [
+    "\\(12\\)",
+    "\\(16\\)",
+    "\\(4\\)",
+    "\\(8\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The images of parallel segments keep their ratio: \\(A'B'=\\dfrac{1}{2}\\cdot8=4\\).",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"projection\">Hình chiếu</b> của hai đoạn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b> giữ nguyên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ratio\">tỉ số</b>: \\(A'B'=\\dfrac{1}{2}\\cdot8=4\\).",
+   "images": [],
+   "id": "0af1fcbddb57",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(M\\) lies on segment \\(AB\\) with \\(\\dfrac{AM}{MB}=\\dfrac{#}{#}\\). Under a parallel projection, \\(A,B,M\\) go to \\(A',B',M'\\) and \\(A'B'=#\\). Then \\(A'M'=\\)…",
+   "en": "\\(M\\) lies on segment \\(AB\\) with \\(\\dfrac{AM}{MB}=\\dfrac{1}{2}\\). Under a parallel projection, \\(A,B,M\\) go to \\(A',B',M'\\) and \\(A'B'=6\\). Then \\(A'M'=\\)…",
+   "vi": "Điểm \\(M\\) thuộc đoạn \\(AB\\) với \\(\\dfrac{AM}{MB}=\\dfrac{1}{2}\\). Qua một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel projection\">phép chiếu song song</b>, \\(A,B,M\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"projection\">hình chiếu</b> \\(A',B',M'\\) và \\(A'B'=6\\). Khi đó \\(A'M'=\\)…",
+   "options": [
+    "\\(3\\)",
+    "\\(6\\)",
+    "\\(2\\)",
+    "\\(4\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Parallel projection keeps the ratio on a line: \\(\\dfrac{A'M'}{A'B'}=\\dfrac{AM}{AB}=\\dfrac{1}{3}\\).",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel projection\">Phép chiếu song song</b> giữ nguyên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ratio\">tỉ số</b> trên một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b>: \\(\\dfrac{A'M'}{A'B'}=\\dfrac{AM}{AB}=\\dfrac{1}{3}\\).",
+   "images": [],
+   "id": "c6ec10bac14d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(M\\) lies on segment \\(AB\\) with \\(\\dfrac{AM}{MB}=\\dfrac{#}{#}\\). Under a parallel projection, \\(A,B,M\\) go to \\(A',B',M'\\) and \\(A'B'=#\\). Then \\(A'M'=\\)…",
+   "en": "\\(M\\) lies on segment \\(AB\\) with \\(\\dfrac{AM}{MB}=\\dfrac{1}{4}\\). Under a parallel projection, \\(A,B,M\\) go to \\(A',B',M'\\) and \\(A'B'=5\\). Then \\(A'M'=\\)…",
+   "vi": "Điểm \\(M\\) thuộc đoạn \\(AB\\) với \\(\\dfrac{AM}{MB}=\\dfrac{1}{4}\\). Qua một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel projection\">phép chiếu song song</b>, \\(A,B,M\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"projection\">hình chiếu</b> \\(A',B',M'\\) và \\(A'B'=5\\). Khi đó \\(A'M'=\\)…",
+   "options": [
+    "\\(\\dfrac{5}{4}\\)",
+    "\\(1\\)",
+    "\\(\\dfrac{5}{2}\\)",
+    "\\(4\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Parallel projection keeps the ratio on a line: \\(\\dfrac{A'M'}{A'B'}=\\dfrac{AM}{AB}=\\dfrac{1}{5}\\).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel projection\">Phép chiếu song song</b> giữ nguyên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ratio\">tỉ số</b> trên một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b>: \\(\\dfrac{A'M'}{A'B'}=\\dfrac{AM}{AB}=\\dfrac{1}{5}\\).",
+   "images": [],
+   "id": "ffe8fe6bd55f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Under a parallel projection (plane of the figure not parallel to the direction), the image of the centre \\(O\\) of the parallelogram \\(ABCD\\) is…",
+   "en": "Under a parallel projection (plane of the figure not parallel to the direction), the image of the centre \\(O\\) of the parallelogram \\(ABCD\\) is…",
+   "vi": "Qua <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel projection\">phép chiếu song song</b> (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> chứa hình không <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b> với <b class=\"mbl-term\" tabindex=\"0\" data-en=\"direction of projection\">phương chiếu</b>), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"projection\">hình chiếu</b> của tâm \\(O\\) của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelogram\">hình bình hành</b> \\(ABCD\\) là…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">a point that cannot be determined</span><span class=\"vi\">một điểm không xác định được</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the circumcentre of the image</span><span class=\"vi\">tâm đường tròn ngoại tiếp hình chiếu</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the centre of the parallelogram \\(A'B'C'D'\\)</span><span class=\"vi\">tâm hình bình hành \\(A'B'C'D'\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the orthocentre of the image</span><span class=\"vi\">trực tâm của hình chiếu</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Midpoints and ratios on a line are kept, so medians go to medians and diagonals to diagonals.",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">Trung điểm</b> và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ratio\">tỉ số</b> trên một đường thẳng được giữ nên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"median\">trung tuyến</b> biến thành <b class=\"mbl-term\" tabindex=\"0\" data-en=\"median\">trung tuyến</b>, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b> thành <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b>.",
+   "images": [],
+   "id": "4d71d0bd875f",
+   "status": "đã thay ra",
+   "sources": [
+    "bản trước sửa lỗi trình bày 23/11/2026"
+   ]
+  }
+ ]
+}

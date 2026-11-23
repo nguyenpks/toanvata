@@ -1,0 +1,984 @@
+{
+ "lesson": "g11-exp-03",
+ "grade": 11,
+ "no": 18,
+ "title": "Lũy thừa với số mũ thực",
+ "path": "lessons/grade11/exponential-functions/real-exponents.html",
+ "items": [
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Compare \\(#^{\\sqrt#}\\) and \\(#^{#}\\).",
+   "en": "Compare \\(3^{\\sqrt2}\\) and \\(3^{1.4}\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"compare\">So sánh</b> \\(3^{\\sqrt2}\\) và \\(3^{1{,}4}\\).",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(3^{\\sqrt2}\\lt3^{1.4}\\)</span><span class=\"vi\">\\(3^{\\sqrt2}\\lt3^{1{,}4}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(3^{\\sqrt2}=3^{1.4}\\)</span><span class=\"vi\">\\(3^{\\sqrt2}=3^{1{,}4}\\)</span></span>",
+    "\\(3^{\\sqrt2}\\lt0\\)",
+    "<span class=\"txi\"><span class=\"en\">\\(3^{\\sqrt2}\\gt3^{1.4}\\)</span><span class=\"vi\">\\(3^{\\sqrt2}\\gt3^{1{,}4}\\)</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Compare the exponents \\(\\sqrt2\\) and \\(1.4\\), then look at the base \\(3\\).",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"compare\">So sánh</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"exponent\">số mũ</b> \\(\\sqrt2\\) và \\(1{,}4\\), rồi xét <b class=\"mbl-term\" tabindex=\"0\" data-en=\"base\">cơ số</b> \\(3\\).",
+   "images": [],
+   "id": "7ea92cd7eb54",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "For \\(a\\gt#\\): \\(\\dfrac{\\left(a^{\\frac{#}{#}}\\right)^{#}}{a^{#}}=\\)…",
+   "en": "For \\(a\\gt0\\): \\(\\dfrac{\\left(a^{\\frac{1}{2}}\\right)^{4}}{a^{1}}=\\)…",
+   "vi": "Với \\(a\\gt0\\): \\(\\dfrac{\\left(a^{\\frac{1}{2}}\\right)^{4}}{a^{1}}=\\)…",
+   "options": [
+    "\\(a^{\\frac{7}{2}}\\)",
+    "\\(a^{2}\\)",
+    "\\(a^{3}\\)",
+    "\\(a\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\dfrac{1}{2}\\cdot4-1=1\\).",
+   "explain_vi": "Đáp án d. \\(\\dfrac{1}{2}\\cdot4-1=1\\).",
+   "images": [],
+   "id": "a94c30050994",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(#^{\\frac{#}{#}}=\\)…",
+   "en": "\\(8^{\\frac{2}{3}}=\\)…",
+   "vi": "\\(8^{\\frac{2}{3}}=\\)…",
+   "options": [
+    "\\(4\\)",
+    "\\(\\dfrac{1}{4}\\)",
+    "\\(-4\\)",
+    "\\(\\dfrac{16}{3}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(8^{\\frac{2}{3}}=2^{3\\cdot\\frac{2}{3}}=4\\).",
+   "explain_vi": "Đáp án a. \\(8^{\\frac{2}{3}}=2^{3\\cdot\\frac{2}{3}}=4\\).",
+   "images": [],
+   "id": "c7c90b19c88f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "\\((a^{m})^{n}=a^{m+n}\\) for every \\(a\\gt#\\).",
+   "en": "\\((a^{m})^{n}=a^{m+n}\\) for every \\(a\\gt0\\).",
+   "vi": "\\((a^{m})^{n}=a^{m+n}\\) với mọi \\(a\\gt0\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "In general \\((a^m)^n=a^{mn}\\).",
+   "explain_vi": "Đúng là \\((a^m)^n=a^{mn}\\).",
+   "images": [],
+   "id": "4a59fbbcb9f9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(\\sqrt[#]{-#}=-#\\).",
+   "en": "\\(\\sqrt[3]{-27}=-3\\).",
+   "vi": "\\(\\sqrt[3]{-27}=-3\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "\\((-3)^3=-27\\) and odd roots are unique.",
+   "explain_vi": "\\((-3)^3=-27\\) và căn bậc lẻ là duy nhất.",
+   "images": [],
+   "id": "c690fcb15abe",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "A substance has a half-life of \\(#\\) days. Starting with \\(#\\) g, how many grams remain after \\(#\\) days?",
+   "en": "A substance has a half-life of \\(10\\) days. Starting with \\(800\\) g, how many grams remain after \\(30\\) days?",
+   "vi": "Một chất có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"half-life\">chu kì bán rã</b> \\(10\\) ngày. Ban đầu có \\(800\\) g, sau \\(30\\) ngày còn lại bao nhiêu gam?",
+   "options": [],
+   "answer": "100",
+   "explain_en": "\\(800\\left(\\dfrac12\\right)^{3}=100\\).",
+   "explain_vi": "\\(800\\left(\\dfrac12\\right)^{3}=100\\).",
+   "images": [],
+   "id": "28f5ea8fad1d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "Compute \\(#^{\\frac{#}{#}}+#^{\\frac{#}{#}}\\).",
+   "en": "Compute \\(32^{\\frac{3}{5}}+27^{\\frac{2}{3}}\\).",
+   "vi": "Tính \\(32^{\\frac{3}{5}}+27^{\\frac{2}{3}}\\).",
+   "options": [],
+   "answer": "17",
+   "explain_en": "Write each base as a power of a prime; the sum is \\(17\\).",
+   "explain_vi": "Viết mỗi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"base\">cơ số</b> thành <b class=\"mbl-term\" tabindex=\"0\" data-en=\"power\">lũy thừa</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"integers\">số nguyên</b> tố; tổng bằng \\(17\\).",
+   "images": [],
+   "id": "17f2efb05106",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "A radioactive substance has a half-life of # years. From # g, how much remains after # years?",
+   "en": "A radioactive substance has a half-life of 30 years. From 640 g, how much remains after 120 years?",
+   "vi": "Một chất phóng xạ có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"half-life\">chu kì bán rã</b> 30 năm. Từ 640 g, sau 120 năm còn lại bao nhiêu gam?",
+   "options": [
+    "\\(40\\ \\text{g}\\)",
+    "\\(160\\ \\text{g}\\)",
+    "\\(80\\ \\text{g}\\)",
+    "\\(20\\ \\text{g}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(m=640\\left(\\dfrac12\\right)^{4}=40\\).",
+   "explain_vi": "Đáp án a. \\(m=640\\left(\\dfrac12\\right)^{4}=40\\).",
+   "images": [],
+   "id": "6e1b8bc7bda9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Compare \\(\\left(\\dfrac{#}{#}\\right)^{\\sqrt#}\\) and \\(\\left(\\dfrac{#}{#}\\right)^{#}\\)",
+   "en": "Compare \\(\\left(\\dfrac{1}{2}\\right)^{\\sqrt2}\\) and \\(\\left(\\dfrac{1}{2}\\right)^{1.5}\\)",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"compare\">So sánh</b> \\(\\left(\\dfrac{1}{2}\\right)^{\\sqrt2}\\) và \\(\\left(\\dfrac{1}{2}\\right)^{1{,}5}\\)",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(\\left(\\dfrac{1}{2}\\right)^{\\sqrt2}=\\left(\\dfrac{1}{2}\\right)^{1.5}\\)</span><span class=\"vi\">\\(\\left(\\dfrac{1}{2}\\right)^{\\sqrt2}=\\left(\\dfrac{1}{2}\\right)^{1{,}5}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(\\left(\\dfrac{1}{2}\\right)^{\\sqrt2}\\gt\\left(\\dfrac{1}{2}\\right)^{1.5}\\)</span><span class=\"vi\">\\(\\left(\\dfrac{1}{2}\\right)^{\\sqrt2}\\gt\\left(\\dfrac{1}{2}\\right)^{1{,}5}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(\\left(\\dfrac{1}{2}\\right)^{\\sqrt2}\\lt\\left(\\dfrac{1}{2}\\right)^{1.5}\\)</span><span class=\"vi\">\\(\\left(\\dfrac{1}{2}\\right)^{\\sqrt2}\\lt\\left(\\dfrac{1}{2}\\right)^{1{,}5}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Cannot compare</span><span class=\"vi\">Không so sánh được</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\sqrt2 \\lt 1.5\\) and the base is less than 1.",
+   "explain_vi": "Đáp án b. \\(\\sqrt2 \\lt 1{,}5\\) và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"base\">cơ số</b> nhỏ hơn 1.",
+   "images": [],
+   "id": "4ae2f8905be9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "For \\(a\\gt#\\): \\(\\dfrac{a^{\\frac{#}{#}}\\cdot a^{\\frac{#}{#}}}{a^{\\frac{#}{#}}}=\\)…",
+   "en": "For \\(a\\gt0\\): \\(\\dfrac{a^{\\frac{7}{3}}\\cdot a^{\\frac{7}{3}}}{a^{\\frac{1}{2}}}=\\)…",
+   "vi": "Với \\(a\\gt0\\): \\(\\dfrac{a^{\\frac{7}{3}}\\cdot a^{\\frac{7}{3}}}{a^{\\frac{1}{2}}}=\\)…",
+   "options": [
+    "\\(a^{\\frac{25}{6}}\\)",
+    "\\(a^{\\frac{31}{6}}\\)",
+    "\\(a^{\\frac{89}{18}}\\)",
+    "\\(a^{\\frac{98}{9}}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Add exponents when multiplying, subtract when dividing: \\(\\dfrac{7}{3}+\\dfrac{7}{3}-\\dfrac{1}{2}=\\dfrac{25}{6}\\).",
+   "explain_vi": "Đáp án a. Nhân thì cộng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"exponent\">số mũ</b>, chia thì trừ <b class=\"mbl-term\" tabindex=\"0\" data-en=\"exponent\">số mũ</b>: \\(\\dfrac{7}{3}+\\dfrac{7}{3}-\\dfrac{1}{2}=\\dfrac{25}{6}\\).",
+   "images": [],
+   "id": "e99b24ee0ed9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "For \\(x\\gt#\\): \\(x^{#}\\cdot\\sqrt[#]{x^{#}}=\\)…",
+   "en": "For \\(x\\gt0\\): \\(x^{2}\\cdot\\sqrt[4]{x^{1}}=\\)…",
+   "vi": "Với \\(x\\gt0\\): \\(x^{2}\\cdot\\sqrt[4]{x^{1}}=\\)…",
+   "options": [
+    "\\(x^{\\frac{3}{4}}\\)",
+    "\\(x^{6}\\)",
+    "\\(x^{\\frac{9}{4}}\\)",
+    "\\(x^{\\frac{1}{2}}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\sqrt[4]{x^{1}}=x^{\\frac{1}{4}}\\); \\(2+\\dfrac{1}{4}=\\dfrac{9}{4}\\).",
+   "explain_vi": "Đáp án c. \\(\\sqrt[4]{x^{1}}=x^{\\frac{1}{4}}\\); \\(2+\\dfrac{1}{4}=\\dfrac{9}{4}\\).",
+   "images": [],
+   "id": "e38854a70d98",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "You deposit # million VND at #% per year, compound interest. After # years the balance is… (million VND)",
+   "en": "You deposit 10 million VND at 10% per year, compound interest. After 3 years the balance is… (million VND)",
+   "vi": "Gửi tiết kiệm 10 triệu đồng, lãi suất 10%/năm, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"compound interest\">lãi kép</b>. Sau 3 năm số tiền là… (triệu đồng)",
+   "options": [
+    "\\(13\\)",
+    "<span class=\"txi\"><span class=\"en\">\\(14.31\\)</span><span class=\"vi\">\\(14{,}31\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(13.31\\)</span><span class=\"vi\">\\(13{,}31\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(14.641\\)</span><span class=\"vi\">\\(14{,}641\\)</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(A=10\\left(1+\\dfrac{10}{100}\\right)^{3}=13.31\\).",
+   "explain_vi": "Đáp án c. \\(A=10\\left(1+\\dfrac{10}{100}\\right)^{3}=13{,}31\\).",
+   "images": [],
+   "id": "2c1af92971ad",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(#^{#}=\\)…",
+   "en": "\\(4^{1}=\\)…",
+   "vi": "\\(4^{1}=\\)…",
+   "options": [
+    "\\(5\\)",
+    "\\(-4\\)",
+    "\\(\\dfrac{1}{4}\\)",
+    "\\(4\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(4=2^{2}\\), so \\(4^{1}=2^{2\\cdot1}=4\\).",
+   "explain_vi": "Đáp án d. \\(4=2^{2}\\) nên \\(4^{1}=2^{2\\cdot1}=4\\).",
+   "images": [],
+   "id": "0f0113834376",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(#^{-#}=\\)…",
+   "en": "\\(3^{-2}=\\)…",
+   "vi": "\\(3^{-2}=\\)…",
+   "options": [
+    "\\(\\dfrac{1}{9}\\)",
+    "\\(-9\\)",
+    "\\(-\\dfrac{1}{9}\\)",
+    "\\(9\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(a^{-n}=\\dfrac1{a^n}\\).",
+   "explain_vi": "Đáp án a. \\(a^{-n}=\\dfrac1{a^n}\\).",
+   "images": [],
+   "id": "5a9841d970d1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(#^{-\\frac{#}{#}}=\\)…",
+   "en": "\\(125^{-\\frac{2}{3}}=\\)…",
+   "vi": "\\(125^{-\\frac{2}{3}}=\\)…",
+   "options": [
+    "\\(26\\)",
+    "\\(\\dfrac{1}{25}\\)",
+    "\\(\\dfrac{1}{5}\\)",
+    "\\(25\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(125=5^{3}\\), so \\(125^{-\\frac{2}{3}}=5^{3\\cdot-\\frac{2}{3}}=\\dfrac{1}{25}\\).",
+   "explain_vi": "Đáp án b. \\(125=5^{3}\\) nên \\(125^{-\\frac{2}{3}}=5^{3\\cdot-\\frac{2}{3}}=\\dfrac{1}{25}\\).",
+   "images": [],
+   "id": "c0a7f245905f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Compare \\(#^{\\sqrt#}\\) and \\(#^{#}\\).",
+   "en": "Compare \\(0.5^{\\sqrt3}\\) and \\(0.5^{1.8}\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"compare\">So sánh</b> \\(0{,}5^{\\sqrt3}\\) và \\(0{,}5^{1{,}8}\\).",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(0.5^{\\sqrt3}\\lt0.5^{1.8}\\)</span><span class=\"vi\">\\(0{,}5^{\\sqrt3}\\lt0{,}5^{1{,}8}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.5^{\\sqrt3}=0.5^{1.8}\\)</span><span class=\"vi\">\\(0{,}5^{\\sqrt3}=0{,}5^{1{,}8}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.5^{\\sqrt3}\\lt0\\)</span><span class=\"vi\">\\(0{,}5^{\\sqrt3}\\lt0\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.5^{\\sqrt3}\\gt0.5^{1.8}\\)</span><span class=\"vi\">\\(0{,}5^{\\sqrt3}\\gt0{,}5^{1{,}8}\\)</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Compare the exponents \\(\\sqrt3\\) and \\(1.8\\), then look at the base \\(0.5\\).",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"compare\">So sánh</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"exponent\">số mũ</b> \\(\\sqrt3\\) và \\(1{,}8\\), rồi xét <b class=\"mbl-term\" tabindex=\"0\" data-en=\"base\">cơ số</b> \\(0{,}5\\).",
+   "images": [],
+   "id": "49e5c4d8e675",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "For \\(a\\gt#\\): \\(\\dfrac{\\left(a^{\\frac{#}{#}}\\right)^{\\frac{#}{#}}}{a^{\\frac{#}{#}}}=\\)…",
+   "en": "For \\(a\\gt0\\): \\(\\dfrac{\\left(a^{\\frac{2}{3}}\\right)^{\\frac{3}{2}}}{a^{\\frac{1}{2}}}=\\)…",
+   "vi": "Với \\(a\\gt0\\): \\(\\dfrac{\\left(a^{\\frac{2}{3}}\\right)^{\\frac{3}{2}}}{a^{\\frac{1}{2}}}=\\)…",
+   "options": [
+    "\\(a^{\\frac{5}{3}}\\)",
+    "\\(a^{\\frac{1}{2}}\\)",
+    "\\(a^{\\frac{3}{2}}\\)",
+    "\\(a^{2}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\dfrac{2}{3}\\cdot\\dfrac{3}{2}-\\dfrac{1}{2}=\\dfrac{1}{2}\\).",
+   "explain_vi": "Đáp án b. \\(\\dfrac{2}{3}\\cdot\\dfrac{3}{2}-\\dfrac{1}{2}=\\dfrac{1}{2}\\).",
+   "images": [],
+   "id": "5e0314a3e39a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(#^{-\\frac{#}{#}}=\\)…",
+   "en": "\\(16^{-\\frac{3}{4}}=\\)…",
+   "vi": "\\(16^{-\\frac{3}{4}}=\\)…",
+   "options": [
+    "\\(8\\)",
+    "\\(-\\dfrac{1}{8}\\)",
+    "\\(-12\\)",
+    "\\(\\dfrac{1}{8}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(16^{-\\frac{3}{4}}=2^{4\\cdot-\\frac{3}{4}}=\\dfrac{1}{8}\\).",
+   "explain_vi": "Đáp án d. \\(16^{-\\frac{3}{4}}=2^{4\\cdot-\\frac{3}{4}}=\\dfrac{1}{8}\\).",
+   "images": [],
+   "id": "49b1254b447b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "After # half-lives, \\(\\dfrac#\\) of the substance remains.",
+   "en": "After 3 half-lives, \\(\\dfrac18\\) of the substance remains.",
+   "vi": "Sau 3 <b class=\"mbl-term\" tabindex=\"0\" data-en=\"half-life\">chu kì bán rã</b>, còn lại \\(\\dfrac18\\) lượng chất ban đầu.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "\\(\\left(\\dfrac12\\right)^3=\\dfrac18\\).",
+   "explain_vi": "\\(\\left(\\dfrac12\\right)^3=\\dfrac18\\).",
+   "images": [],
+   "id": "2e78ecbac6c8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(\\sqrt[#]{(-#)^#}=-#\\).",
+   "en": "\\(\\sqrt[4]{(-3)^4}=-3\\).",
+   "vi": "\\(\\sqrt[4]{(-3)^4}=-3\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "Even root: \\(\\sqrt[4]{a^4}=|a|=3\\).",
+   "explain_vi": "Căn bậc chẵn: \\(\\sqrt[4]{a^4}=|a|=3\\).",
+   "images": [],
+   "id": "4d86b8cfd5cd",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "A substance has a half-life of \\(#\\) days. Starting with \\(#\\) g, how many grams remain after \\(#\\) days?",
+   "en": "A substance has a half-life of \\(8\\) days. Starting with \\(640\\) g, how many grams remain after \\(32\\) days?",
+   "vi": "Một chất có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"half-life\">chu kì bán rã</b> \\(8\\) ngày. Ban đầu có \\(640\\) g, sau \\(32\\) ngày còn lại bao nhiêu gam?",
+   "options": [],
+   "answer": "40",
+   "explain_en": "\\(640\\left(\\dfrac12\\right)^{4}=40\\).",
+   "explain_vi": "\\(640\\left(\\dfrac12\\right)^{4}=40\\).",
+   "images": [],
+   "id": "53235fc656b4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "Compute \\(#^{\\frac{#}{#}}+#^{\\frac{#}{#}}\\).",
+   "en": "Compute \\(16^{\\frac{3}{4}}+125^{\\frac{1}{3}}\\).",
+   "vi": "Tính \\(16^{\\frac{3}{4}}+125^{\\frac{1}{3}}\\).",
+   "options": [],
+   "answer": "13",
+   "explain_en": "Write each base as a power of a prime; the sum is \\(13\\).",
+   "explain_vi": "Viết mỗi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"base\">cơ số</b> thành <b class=\"mbl-term\" tabindex=\"0\" data-en=\"power\">lũy thừa</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"integers\">số nguyên</b> tố; tổng bằng \\(13\\).",
+   "images": [],
+   "id": "29e46889a3bb",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "A radioactive substance has a half-life of # years. From # g, how much remains after # years?",
+   "en": "A radioactive substance has a half-life of 12 years. From 80 g, how much remains after 36 years?",
+   "vi": "Một chất phóng xạ có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"half-life\">chu kì bán rã</b> 12 năm. Từ 80 g, sau 36 năm còn lại bao nhiêu gam?",
+   "options": [
+    "\\(\\dfrac{40}{3}\\ \\text{g}\\)",
+    "\\(20\\ \\text{g}\\)",
+    "\\(5\\ \\text{g}\\)",
+    "\\(10\\ \\text{g}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(m=80\\left(\\dfrac12\\right)^{3}=10\\).",
+   "explain_vi": "Đáp án d. \\(m=80\\left(\\dfrac12\\right)^{3}=10\\).",
+   "images": [],
+   "id": "3cb57e32ff1a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Compare \\(\\left(\\dfrac{#}{#}\\right)^{\\sqrt#}\\) and \\(\\left(\\dfrac{#}{#}\\right)^{#}\\)",
+   "en": "Compare \\(\\left(\\dfrac{2}{3}\\right)^{\\sqrt3}\\) and \\(\\left(\\dfrac{2}{3}\\right)^{1.7}\\)",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"compare\">So sánh</b> \\(\\left(\\dfrac{2}{3}\\right)^{\\sqrt3}\\) và \\(\\left(\\dfrac{2}{3}\\right)^{1{,}7}\\)",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(\\left(\\dfrac{2}{3}\\right)^{\\sqrt3}\\lt\\left(\\dfrac{2}{3}\\right)^{1.7}\\)</span><span class=\"vi\">\\(\\left(\\dfrac{2}{3}\\right)^{\\sqrt3}\\lt\\left(\\dfrac{2}{3}\\right)^{1{,}7}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(\\left(\\dfrac{2}{3}\\right)^{\\sqrt3}=\\left(\\dfrac{2}{3}\\right)^{1.7}\\)</span><span class=\"vi\">\\(\\left(\\dfrac{2}{3}\\right)^{\\sqrt3}=\\left(\\dfrac{2}{3}\\right)^{1{,}7}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Cannot compare</span><span class=\"vi\">Không so sánh được</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(\\left(\\dfrac{2}{3}\\right)^{\\sqrt3}\\gt\\left(\\dfrac{2}{3}\\right)^{1.7}\\)</span><span class=\"vi\">\\(\\left(\\dfrac{2}{3}\\right)^{\\sqrt3}\\gt\\left(\\dfrac{2}{3}\\right)^{1{,}7}\\)</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\sqrt3 \\gt 1.7\\) and the base is less than 1.",
+   "explain_vi": "Đáp án a. \\(\\sqrt3 \\gt 1{,}7\\) và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"base\">cơ số</b> nhỏ hơn 1.",
+   "images": [],
+   "id": "c568db8ca1e4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "For \\(a\\gt#\\): \\(\\dfrac{a^{\\frac{#}{#}}\\cdot a^{\\frac{#}{#}}}{a^{\\frac{#}{#}}}=\\)…",
+   "en": "For \\(a\\gt0\\): \\(\\dfrac{a^{\\frac{1}{6}}\\cdot a^{\\frac{5}{6}}}{a^{\\frac{1}{4}}}=\\)…",
+   "vi": "Với \\(a\\gt0\\): \\(\\dfrac{a^{\\frac{1}{6}}\\cdot a^{\\frac{5}{6}}}{a^{\\frac{1}{4}}}=\\)…",
+   "options": [
+    "\\(a^{\\frac{5}{4}}\\)",
+    "\\(a^{-\\frac{1}{9}}\\)",
+    "\\(a^{\\frac{3}{4}}\\)",
+    "\\(a^{\\frac{5}{9}}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Add exponents when multiplying, subtract when dividing: \\(\\dfrac{1}{6}+\\dfrac{5}{6}-\\dfrac{1}{4}=\\dfrac{3}{4}\\).",
+   "explain_vi": "Đáp án c. Nhân thì cộng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"exponent\">số mũ</b>, chia thì trừ <b class=\"mbl-term\" tabindex=\"0\" data-en=\"exponent\">số mũ</b>: \\(\\dfrac{1}{6}+\\dfrac{5}{6}-\\dfrac{1}{4}=\\dfrac{3}{4}\\).",
+   "images": [],
+   "id": "c4dcc8862615",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "For \\(x\\gt#\\): \\(x^{#}\\cdot\\sqrt[#]{x^{#}}=\\)…",
+   "en": "For \\(x\\gt0\\): \\(x^{2}\\cdot\\sqrt[4]{x^{5}}=\\)…",
+   "vi": "Với \\(x\\gt0\\): \\(x^{2}\\cdot\\sqrt[4]{x^{5}}=\\)…",
+   "options": [
+    "\\(x^{\\frac{5}{2}}\\)",
+    "\\(x^{\\frac{14}{5}}\\)",
+    "\\(x^{\\frac{13}{4}}\\)",
+    "\\(x^{\\frac{7}{4}}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\sqrt[4]{x^{5}}=x^{\\frac{5}{4}}\\); \\(2+\\dfrac{5}{4}=\\dfrac{13}{4}\\).",
+   "explain_vi": "Đáp án c. \\(\\sqrt[4]{x^{5}}=x^{\\frac{5}{4}}\\); \\(2+\\dfrac{5}{4}=\\dfrac{13}{4}\\).",
+   "images": [],
+   "id": "c2563d8bcdd1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "You deposit # million VND at #% per year, compound interest. After # years the balance is… (million VND)",
+   "en": "You deposit 100 million VND at 10% per year, compound interest. After 3 years the balance is… (million VND)",
+   "vi": "Gửi tiết kiệm 100 triệu đồng, lãi suất 10%/năm, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"compound interest\">lãi kép</b>. Sau 3 năm số tiền là… (triệu đồng)",
+   "options": [
+    "\\(130\\)",
+    "<span class=\"txi\"><span class=\"en\">\\(146.41\\)</span><span class=\"vi\">\\(146{,}41\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(134.1\\)</span><span class=\"vi\">\\(134{,}1\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(133.1\\)</span><span class=\"vi\">\\(133{,}1\\)</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(A=100\\left(1+\\dfrac{10}{100}\\right)^{3}=133.1\\).",
+   "explain_vi": "Đáp án d. \\(A=100\\left(1+\\dfrac{10}{100}\\right)^{3}=133{,}1\\).",
+   "images": [],
+   "id": "13344b099909",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(#^{-\\frac{#}{#}}=\\)…",
+   "en": "\\(32^{-\\frac{1}{5}}=\\)…",
+   "vi": "\\(32^{-\\frac{1}{5}}=\\)…",
+   "options": [
+    "\\(2\\)",
+    "\\(3\\)",
+    "\\(\\dfrac{1}{2}\\)",
+    "\\(1\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(32=2^{5}\\), so \\(32^{-\\frac{1}{5}}=2^{5\\cdot-\\frac{1}{5}}=\\dfrac{1}{2}\\).",
+   "explain_vi": "Đáp án c. \\(32=2^{5}\\) nên \\(32^{-\\frac{1}{5}}=2^{5\\cdot-\\frac{1}{5}}=\\dfrac{1}{2}\\).",
+   "images": [],
+   "id": "7f14b9cb96a7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(#^{\\frac{#}{#}}=\\)…",
+   "en": "\\(32^{\\frac{3}{5}}=\\)…",
+   "vi": "\\(32^{\\frac{3}{5}}=\\)…",
+   "options": [
+    "\\(9\\)",
+    "\\(16\\)",
+    "\\(8\\)",
+    "\\(\\dfrac{1}{8}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(32=2^{5}\\), so \\(32^{\\frac{3}{5}}=2^{5\\cdot\\frac{3}{5}}=8\\).",
+   "explain_vi": "Đáp án c. \\(32=2^{5}\\) nên \\(32^{\\frac{3}{5}}=2^{5\\cdot\\frac{3}{5}}=8\\).",
+   "images": [],
+   "id": "cdf5b42fe870",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\left(\\dfrac#{#}\\right)^{#}=\\)…",
+   "en": "\\(\\left(\\dfrac1{3}\\right)^{1}=\\)…",
+   "vi": "\\(\\left(\\dfrac1{3}\\right)^{1}=\\)…",
+   "options": [
+    "\\(3\\)",
+    "\\(-\\dfrac{1}{3}\\)",
+    "\\(\\dfrac{1}{3}\\)",
+    "\\(-3\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(a^{-n}=\\dfrac1{a^n}\\).",
+   "explain_vi": "Đáp án c. \\(a^{-n}=\\dfrac1{a^n}\\).",
+   "images": [],
+   "id": "74717783ff08",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Compare \\(\\left(\\dfrac#\\right)^{\\pi}\\) and \\(\\left(\\dfrac#\\right)^{#}\\).",
+   "en": "Compare \\(\\left(\\dfrac43\\right)^{\\pi}\\) and \\(\\left(\\dfrac43\\right)^{3.15}\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"compare\">So sánh</b> \\(\\left(\\dfrac43\\right)^{\\pi}\\) và \\(\\left(\\dfrac43\\right)^{3{,}15}\\).",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(\\left(\\dfrac43\\right)^{\\pi}\\gt\\left(\\dfrac43\\right)^{3.15}\\)</span><span class=\"vi\">\\(\\left(\\dfrac43\\right)^{\\pi}\\gt\\left(\\dfrac43\\right)^{3{,}15}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(\\left(\\dfrac43\\right)^{\\pi}\\lt\\left(\\dfrac43\\right)^{3.15}\\)</span><span class=\"vi\">\\(\\left(\\dfrac43\\right)^{\\pi}\\lt\\left(\\dfrac43\\right)^{3{,}15}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(\\left(\\dfrac43\\right)^{\\pi}=\\left(\\dfrac43\\right)^{3.15}\\)</span><span class=\"vi\">\\(\\left(\\dfrac43\\right)^{\\pi}=\\left(\\dfrac43\\right)^{3{,}15}\\)</span></span>",
+    "\\(\\left(\\dfrac43\\right)^{\\pi}\\lt0\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Compare the exponents \\(\\pi\\) and \\(3.15\\), then look at the base \\(\\left(\\dfrac43\\right)\\).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"compare\">So sánh</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"exponent\">số mũ</b> \\(\\pi\\) và \\(3{,}15\\), rồi xét <b class=\"mbl-term\" tabindex=\"0\" data-en=\"base\">cơ số</b> \\(\\left(\\dfrac43\\right)\\).",
+   "images": [],
+   "id": "eafe293649c5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "For \\(a\\gt#\\): \\(\\dfrac{\\left(a^{\\frac{#}{#}}\\right)^{#}}{a^{\\frac{#}{#}}}=\\)…",
+   "en": "For \\(a\\gt0\\): \\(\\dfrac{\\left(a^{\\frac{3}{4}}\\right)^{2}}{a^{\\frac{5}{2}}}=\\)…",
+   "vi": "Với \\(a\\gt0\\): \\(\\dfrac{\\left(a^{\\frac{3}{4}}\\right)^{2}}{a^{\\frac{5}{2}}}=\\)…",
+   "options": [
+    "\\(a^{-1}\\)",
+    "\\(a^{\\frac{1}{4}}\\)",
+    "\\(a^{\\frac{15}{4}}\\)",
+    "\\(a^{4}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\dfrac{3}{4}\\cdot2-\\dfrac{5}{2}=-1\\).",
+   "explain_vi": "Đáp án a. \\(\\dfrac{3}{4}\\cdot2-\\dfrac{5}{2}=-1\\).",
+   "images": [],
+   "id": "1e4fec953f4a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(#^{-\\frac{#}{#}}=\\)…",
+   "en": "\\(27^{-\\frac{2}{3}}=\\)…",
+   "vi": "\\(27^{-\\frac{2}{3}}=\\)…",
+   "options": [
+    "\\(9\\)",
+    "\\(-\\dfrac{1}{9}\\)",
+    "\\(-18\\)",
+    "\\(\\dfrac{1}{9}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(27^{-\\frac{2}{3}}=3^{3\\cdot-\\frac{2}{3}}=\\dfrac{1}{9}\\).",
+   "explain_vi": "Đáp án d. \\(27^{-\\frac{2}{3}}=3^{3\\cdot-\\frac{2}{3}}=\\dfrac{1}{9}\\).",
+   "images": [],
+   "id": "6c118d9d330d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(#^{\\sqrt#}\\cdot#^{\\sqrt#}=#^{#\\sqrt#}\\).",
+   "en": "\\(5^{\\sqrt2}\\cdot5^{\\sqrt8}=5^{3\\sqrt2}\\).",
+   "vi": "\\(5^{\\sqrt2}\\cdot5^{\\sqrt8}=5^{3\\sqrt2}\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "\\(\\sqrt2+2\\sqrt2=3\\sqrt2\\).",
+   "explain_vi": "\\(\\sqrt2+2\\sqrt2=3\\sqrt2\\).",
+   "images": [],
+   "id": "10f0925b19fb",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "\\((-#)^{\\frac#}=-#\\).",
+   "en": "\\((-8)^{\\frac13}=-2\\).",
+   "vi": "\\((-8)^{\\frac13}=-2\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "Rational exponents need a positive base: \\((-8)^{\\frac13}\\) is not defined.",
+   "explain_vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"rational exponent\">Số mũ hữu tỉ</b> cần <b class=\"mbl-term\" tabindex=\"0\" data-en=\"base\">cơ số</b> dương: \\((-8)^{\\frac13}\\) không có nghĩa.",
+   "images": [],
+   "id": "9a428ad4178f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "A substance has a half-life of \\(#\\) days. Starting with \\(#\\) g, how many grams remain after \\(#\\) days?",
+   "en": "A substance has a half-life of \\(5\\) days. Starting with \\(1200\\) g, how many grams remain after \\(15\\) days?",
+   "vi": "Một chất có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"half-life\">chu kì bán rã</b> \\(5\\) ngày. Ban đầu có \\(1200\\) g, sau \\(15\\) ngày còn lại bao nhiêu gam?",
+   "options": [],
+   "answer": "150",
+   "explain_en": "\\(1200\\left(\\dfrac12\\right)^{3}=150\\).",
+   "explain_vi": "\\(1200\\left(\\dfrac12\\right)^{3}=150\\).",
+   "images": [],
+   "id": "a27eb5823075",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Compute \\(#^{\\frac{#}{#}}+#^{\\frac{#}{#}}\\).",
+   "en": "Compute \\(81^{\\frac{1}{4}}+64^{\\frac{5}{6}}\\).",
+   "vi": "Tính \\(81^{\\frac{1}{4}}+64^{\\frac{5}{6}}\\).",
+   "options": [],
+   "answer": "35",
+   "explain_en": "Write each base as a power of a prime; the sum is \\(35\\).",
+   "explain_vi": "Viết mỗi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"base\">cơ số</b> thành <b class=\"mbl-term\" tabindex=\"0\" data-en=\"power\">lũy thừa</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"integers\">số nguyên</b> tố; tổng bằng \\(35\\).",
+   "images": [],
+   "id": "fb538af7943b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "A radioactive substance has a half-life of # years. From # g, how much remains after # years?",
+   "en": "A radioactive substance has a half-life of 8 years. From 640 g, how much remains after 32 years?",
+   "vi": "Một chất phóng xạ có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"half-life\">chu kì bán rã</b> 8 năm. Từ 640 g, sau 32 năm còn lại bao nhiêu gam?",
+   "options": [
+    "\\(160\\ \\text{g}\\)",
+    "\\(20\\ \\text{g}\\)",
+    "\\(80\\ \\text{g}\\)",
+    "\\(40\\ \\text{g}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(m=640\\left(\\dfrac12\\right)^{4}=40\\).",
+   "explain_vi": "Đáp án d. \\(m=640\\left(\\dfrac12\\right)^{4}=40\\).",
+   "images": [],
+   "id": "2a6eb65e601f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Compare \\(\\left(#\\right)^{\\sqrt#}\\) and \\(\\left(#\\right)^{#}\\)",
+   "en": "Compare \\(\\left(3\\right)^{\\sqrt2}\\) and \\(\\left(3\\right)^{1.5}\\)",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"compare\">So sánh</b> \\(\\left(3\\right)^{\\sqrt2}\\) và \\(\\left(3\\right)^{1{,}5}\\)",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(\\left(3\\right)^{\\sqrt2}\\gt\\left(3\\right)^{1.5}\\)</span><span class=\"vi\">\\(\\left(3\\right)^{\\sqrt2}\\gt\\left(3\\right)^{1{,}5}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Cannot compare</span><span class=\"vi\">Không so sánh được</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(\\left(3\\right)^{\\sqrt2}\\lt\\left(3\\right)^{1.5}\\)</span><span class=\"vi\">\\(\\left(3\\right)^{\\sqrt2}\\lt\\left(3\\right)^{1{,}5}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(\\left(3\\right)^{\\sqrt2}=\\left(3\\right)^{1.5}\\)</span><span class=\"vi\">\\(\\left(3\\right)^{\\sqrt2}=\\left(3\\right)^{1{,}5}\\)</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\sqrt2 \\lt 1.5\\) and the base is greater than 1.",
+   "explain_vi": "Đáp án c. \\(\\sqrt2 \\lt 1{,}5\\) và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"base\">cơ số</b> lớn hơn 1.",
+   "images": [],
+   "id": "e35b952a8e3b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "For \\(a\\gt#\\): \\(\\dfrac{a^{\\frac{#}{#}}\\cdot a^{\\frac{#}{#}}}{a^{\\frac{#}{#}}}=\\)…",
+   "en": "For \\(a\\gt0\\): \\(\\dfrac{a^{\\frac{5}{2}}\\cdot a^{\\frac{3}{2}}}{a^{\\frac{7}{2}}}=\\)…",
+   "vi": "Với \\(a\\gt0\\): \\(\\dfrac{a^{\\frac{5}{2}}\\cdot a^{\\frac{3}{2}}}{a^{\\frac{7}{2}}}=\\)…",
+   "options": [
+    "\\(a^{\\frac{15}{2}}\\)",
+    "\\(a^{\\frac{15}{14}}\\)",
+    "\\(a^{\\frac{1}{2}}\\)",
+    "\\(a^{\\frac{1}{4}}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Add exponents when multiplying, subtract when dividing: \\(\\dfrac{5}{2}+\\dfrac{3}{2}-\\dfrac{7}{2}=\\dfrac{1}{2}\\).",
+   "explain_vi": "Đáp án c. Nhân thì cộng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"exponent\">số mũ</b>, chia thì trừ <b class=\"mbl-term\" tabindex=\"0\" data-en=\"exponent\">số mũ</b>: \\(\\dfrac{5}{2}+\\dfrac{3}{2}-\\dfrac{7}{2}=\\dfrac{1}{2}\\).",
+   "images": [],
+   "id": "9086c40b9464",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "For \\(x\\gt#\\): \\(x^{#}\\cdot\\sqrt[#]{x^{#}}=\\)…",
+   "en": "For \\(x\\gt0\\): \\(x^{2}\\cdot\\sqrt[5]{x^{1}}=\\)…",
+   "vi": "Với \\(x\\gt0\\): \\(x^{2}\\cdot\\sqrt[5]{x^{1}}=\\)…",
+   "options": [
+    "\\(x^{7}\\)",
+    "\\(x^{\\frac{11}{5}}\\)",
+    "\\(x^{\\frac{3}{5}}\\)",
+    "\\(x^{\\frac{2}{5}}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\sqrt[5]{x^{1}}=x^{\\frac{1}{5}}\\); \\(2+\\dfrac{1}{5}=\\dfrac{11}{5}\\).",
+   "explain_vi": "Đáp án b. \\(\\sqrt[5]{x^{1}}=x^{\\frac{1}{5}}\\); \\(2+\\dfrac{1}{5}=\\dfrac{11}{5}\\).",
+   "images": [],
+   "id": "b0188845d276",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "You deposit # million VND at #% per year, compound interest. After # years the balance is… (million VND)",
+   "en": "You deposit 20 million VND at 8% per year, compound interest. After 2 years the balance is… (million VND)",
+   "vi": "Gửi tiết kiệm 20 triệu đồng, lãi suất 8%/năm, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"compound interest\">lãi kép</b>. Sau 2 năm số tiền là… (triệu đồng)",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(23.328\\)</span><span class=\"vi\">\\(23{,}328\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(24.328\\)</span><span class=\"vi\">\\(24{,}328\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(25.19424\\)</span><span class=\"vi\">\\(25{,}19424\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(23.2\\)</span><span class=\"vi\">\\(23{,}2\\)</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(A=20\\left(1+\\dfrac{8}{100}\\right)^{2}=23.328\\).",
+   "explain_vi": "Đáp án a. \\(A=20\\left(1+\\dfrac{8}{100}\\right)^{2}=23{,}328\\).",
+   "images": [],
+   "id": "5ae78ff5a821",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(#^{-#}=\\)…",
+   "en": "\\(9^{-1}=\\)…",
+   "vi": "\\(9^{-1}=\\)…",
+   "options": [
+    "\\(10\\)",
+    "\\(9\\)",
+    "\\(\\dfrac{1}{9}\\)",
+    "\\(-9\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(9=3^{2}\\), so \\(9^{-1}=3^{2\\cdot-1}=\\dfrac{1}{9}\\).",
+   "explain_vi": "Đáp án c. \\(9=3^{2}\\) nên \\(9^{-1}=3^{2\\cdot-1}=\\dfrac{1}{9}\\).",
+   "images": [],
+   "id": "791993651edd",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(#^{-\\frac{#}{#}}=\\)…",
+   "en": "\\(8^{-\\frac{2}{3}}=\\)…",
+   "vi": "\\(8^{-\\frac{2}{3}}=\\)…",
+   "options": [
+    "\\(4\\)",
+    "\\(\\dfrac{1}{2}\\)",
+    "\\(\\dfrac{1}{4}\\)",
+    "\\(5\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(8=2^{3}\\), so \\(8^{-\\frac{2}{3}}=2^{3\\cdot-\\frac{2}{3}}=\\dfrac{1}{4}\\).",
+   "explain_vi": "Đáp án c. \\(8=2^{3}\\) nên \\(8^{-\\frac{2}{3}}=2^{3\\cdot-\\frac{2}{3}}=\\dfrac{1}{4}\\).",
+   "images": [],
+   "id": "fafc5ec2cc3e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(\\left(\\dfrac#{#}\\right)^{#}=\\)…",
+   "en": "\\(\\left(\\dfrac1{3}\\right)^{3}=\\)…",
+   "vi": "\\(\\left(\\dfrac1{3}\\right)^{3}=\\)…",
+   "options": [
+    "\\(27\\)",
+    "\\(-27\\)",
+    "\\(-\\dfrac{1}{27}\\)",
+    "\\(\\dfrac{1}{27}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(a^{-n}=\\dfrac1{a^n}\\).",
+   "explain_vi": "Đáp án d. \\(a^{-n}=\\dfrac1{a^n}\\).",
+   "images": [],
+   "id": "44a579dae5a3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  }
+ ]
+}

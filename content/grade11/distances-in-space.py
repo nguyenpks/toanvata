@@ -49,7 +49,7 @@ examples += EXAMPLE(3, ('Intermediate', 'Trung bình'), ('Point to a slanted pla
   [T('\\(SB=5\\); \\(AH=\\dfrac{SA\\cdot AB}{SB}=\\dfrac{12}5\\) (check: \\(\\frac19+\\frac1{16}=\\frac{25}{144}\\)).', '\\(SB=5\\); \\(AH=\\dfrac{SA\\cdot AB}{SB}=\\dfrac{12}5\\) (kiểm tra: \\(\\frac19+\\frac1{16}=\\frac{25}{144}\\)).'), T('\\(D\\) lies on \\(AD\\parallel(SBC)\\): \\(d(D,(SBC))=d(A,(SBC))\\).', '\\(D\\) thuộc \\(AD\\parallel(SBC)\\): \\(d(D,(SBC))=d(A,(SBC))\\).')],
   T('Both equal \\(\\dfrac{12}5\\).', 'Cả hai bằng \\(\\dfrac{12}5\\).'))
 examples += EXAMPLE(4, ('Intermediate', 'Trung bình'), ('Skew lines in a cube', 'Hai đường chéo nhau trong hình lập phương'), T('Cube \\(ABCD.A\'B\'C\'D\'\\) with edge \\(a\\). Find \\(d(AA\',BD)\\) and \\(d(BB\',AC)\\).', 'Hình lập phương \\(ABCD.A\'B\'C\'D\'\\) cạnh \\(a\\). Tính \\(d(AA\',BD)\\) và \\(d(BB\',AC)\\).'),
-  T('\\(O\\) the centre of \\(ABCD\\).', 'Gọi \\(O\\) là tâm hình vuông \\(ABCD\\).'), [T('\\(AO\\perp BD\\) (square), \\(AO\\perp AA\'\\) (\\(AA\'\\perp\\) base): \\(d(AA\',BD)=AO=\\dfrac{a\\sqrt2}2\\).', '\\(AO\\perp BD\\) (hình vuông), \\(AO\\perp AA\'\\) (\\(AA\'\\perp\\) đáy): \\(d(AA\',BD)=AO=\\dfrac{a\\sqrt2}2\\).'), T('Likewise \\(BO\\) is the common perpendicular of \\(BB\'\\), \\(AC\\).', 'Tương tự \\(BO\\) là đoạn vuông góc chung của \\(BB\'\\) và \\(AC\\).')],
+  T('\\(O\\) the center of \\(ABCD\\).', 'Gọi \\(O\\) là tâm hình vuông \\(ABCD\\).'), [T('\\(AO\\perp BD\\) (square), \\(AO\\perp AA\'\\) (\\(AA\'\\perp\\) base): \\(d(AA\',BD)=AO=\\dfrac{a\\sqrt2}2\\).', '\\(AO\\perp BD\\) (hình vuông), \\(AO\\perp AA\'\\) (\\(AA\'\\perp\\) đáy): \\(d(AA\',BD)=AO=\\dfrac{a\\sqrt2}2\\).'), T('Likewise \\(BO\\) is the common perpendicular of \\(BB\'\\), \\(AC\\).', 'Tương tự \\(BO\\) là đoạn vuông góc chung của \\(BB\'\\) và \\(AC\\).')],
   T('Both equal \\(\\dfrac{a\\sqrt2}2\\).', 'Cả hai bằng \\(\\dfrac{a\\sqrt2}2\\).'))
 assert abs(1.2 / math.sqrt(3) - 0.693) < 1e-3
 examples += EXAMPLE(5, ('Advanced', 'Nâng cao'), ('A glass shelf in a corner', 'Tấm kính góc phòng'), T('In a room corner \\(O\\) the floor and two walls are pairwise perpendicular. A triangular glass shelf is fixed at \\(A\\), \\(B\\), \\(C\\) on the three edges with \\(OA=OB=OC=1{,}2\\) m. How far is the corner from the glass?', 'Tại góc phòng \\(O\\), sàn và hai bức tường đôi một vuông góc. Một tấm kính tam giác được gắn tại \\(A\\), \\(B\\), \\(C\\) trên ba cạnh góc phòng với \\(OA=OB=OC=1{,}2\\) m. Góc phòng cách tấm kính bao xa?'),
@@ -62,23 +62,23 @@ examples = EXFIG(examples, 5, GEO3D({'solid': ['O', 'A', 'B', 'C'], 'points': {'
 def lvl(P):
     h, a, s = P['asbc']
     o1 = M4(1, '\\(S.ABCD\\): square base of side %d, \\(SA\\perp(ABCD)\\), \\(SA=%d\\). \\(d(A,(SBC))=\\)…' % (a, h), 'Hình chóp \\(S.ABCD\\) có đáy là hình vuông cạnh %d, \\(SA\\perp(ABCD)\\), \\(SA=%d\\). \\(d(A,(SBC))\\) bằng…' % (a, h), '\\(%s\\)' % fr(F(h * a, s)),
-            ['\\(%d\\)' % h, '\\(%d\\)' % a, '\\(%s\\)' % fr(F(s, 2))], '\\(AH\\perp SB\\), \\(AH=\\dfrac{SA\\cdot AB}{SB}\\).', 'Kẻ \\(AH\\perp SB\\): \\(AH=\\dfrac{SA\\cdot AB}{SB}=\\dfrac{%d\\cdot%d}{%d}\\).' % (h, a, s))
+            ['\\(%d\\)' % h, '\\(%d\\)' % a, '\\(%s\\)' % fr(F(s, 2))], 'Draw \\(AH\\perp SB\\): \\(AH=\\dfrac{SA\\cdot AB}{SB}=\\dfrac{%d\\cdot%d}{%d}=%s\\).' % (h, a, s, fr(F(h * a, s))), 'Kẻ \\(AH\\perp SB\\): \\(AH=\\dfrac{SA\\cdot AB}{SB}=\\dfrac{%d\\cdot%d}{%d}=%s\\).' % (h, a, s, fr(F(h * a, s))))
     p, q, ok, ee, ev = P['cube']
     o2 = M4(2, 'Cube \\(ABCD.A\'B\'C\'D\'\\) with edge \\(a\\). The distance between \\(%s\\) and \\(%s\\) is…' % (p, q), 'Hình lập phương \\(ABCD.A\'B\'C\'D\'\\) cạnh \\(a\\). Khoảng cách giữa \\(%s\\) và \\(%s\\) bằng…' % (p, q), '\\(%s\\)' % ok,
             ['\\(%s\\)' % o for o in ['a', 'a\\sqrt2', '\\dfrac{a\\sqrt2}{2}', '\\dfrac{a\\sqrt3}{3}', 'a\\sqrt3'] if o != ok][:3], ee[0].upper() + ee[1:] + '.', ev[0].upper() + ev[1:] + '.')
     h3, a3, s3 = P['sbc']
     o3 = M4(3, '\\(S.ABCD\\): square base of side %d, \\(SA\\perp(ABCD)\\), \\(SA=%d\\). \\(d(S,BC)=\\)…' % (a3, h3), 'Hình chóp \\(S.ABCD\\) có đáy là hình vuông cạnh %d, \\(SA\\perp(ABCD)\\), \\(SA=%d\\). \\(d(S,BC)\\) bằng…' % (a3, h3), '\\(%d\\)' % s3,
-            ['\\(%d\\)' % h3, '\\(%s\\)' % rt(h3 * h3 + 2 * a3 * a3), '\\(%s\\)' % fr(F(h3 * a3, s3))], '\\(SB\\perp BC\\).', '\\(BC\\perp(SAB)\\) nên \\(SB\\perp BC\\): \\(d=SB=%d\\).' % s3)
+            ['\\(%d\\)' % h3, '\\(%s\\)' % rt(h3 * h3 + 2 * a3 * a3), '\\(%s\\)' % fr(F(h3 * a3, s3))], '\\(BC\\perp(SAB)\\), so \\(SB\\perp BC\\): \\(d=SB=%d\\).' % s3, '\\(BC\\perp(SAB)\\) nên \\(SB\\perp BC\\): \\(d=SB=%d\\).' % s3)
     (se, sv), val = P['stmt']
     t4 = tf(4, se, sv, val, 'Recall the definitions.', 'Nhớ lại các định nghĩa khoảng cách.')
     (le, lv_), v5 = P['ccheck']
-    t5 = tf(5, le, lv_, v5, 'Find the perpendicular segment.', 'Tìm đoạn vuông góc tương ứng.')
+    t5 = tf(5, le, lv_, v5, 'Find the corresponding perpendicular segment.', 'Tìm đoạn vuông góc tương ứng.')
     h6, a6, s6_ = P['int']; d6 = F(h6 * a6, s6_); assert d6.denominator == 1
     s6 = sh(6, '\\(S.ABCD\\): square base of side %d, \\(SA\\perp(ABCD)\\), \\(SA=%d\\). Find \\(d(A,(SBC))\\).' % (a6, h6), 'Hình chóp \\(S.ABCD\\) có đáy là hình vuông cạnh %d, \\(SA\\perp(ABCD)\\), \\(SA=%d\\). Tính \\(d(A,(SBC))\\).' % (a6, h6), int(d6),
-            '\\(AH=\\dfrac{SA\\cdot AB}{SB}\\).', '\\(SB=%d\\), \\(AH=\\dfrac{%d\\cdot%d}{%d}=%d\\).' % (s6_, h6, a6, s6_, int(d6)))
+            '\\(SB=%d\\), \\(AH=\\dfrac{SA\\cdot AB}{SB}=\\dfrac{%d\\cdot%d}{%d}=%d\\).' % (s6_, h6, a6, s6_, int(d6)), '\\(SB=%d\\), \\(AH=\\dfrac{%d\\cdot%d}{%d}=%d\\).' % (s6_, h6, a6, s6_, int(d6)))
     a7, h7, so7 = P['tent']
     s7 = sh(7, 'A square courtyard \\(ABCD\\) has side %d m; a pole \\(SA=%d\\) m stands vertically at \\(A\\). A rope runs from \\(S\\) to the diagonal \\(BD\\) along the shortest path. How long is it (m)?' % (a7, h7), 'Một sân hình vuông \\(ABCD\\) cạnh %d m; cột \\(SA=%d\\) m dựng thẳng đứng tại \\(A\\). Căng dây từ \\(S\\) đến đường chéo \\(BD\\) theo đường ngắn nhất. Sợi dây dài bao nhiêu mét?' % (a7, h7), so7,
-            'Shortest to \\(BD\\): \\(SO\\), \\(O\\) the centre.', 'Đường ngắn nhất là \\(SO\\) (\\(BD\\perp(SAO)\\)): \\(SO=\\sqrt{%d+%d}=%d\\).' % (h7 * h7, a7 * a7 // 2, so7))
+            'The shortest segment is \\(SO\\) (\\(BD\\perp(SAO)\\)): \\(SO=\\sqrt{%d+%d}=%d\\).' % (h7 * h7, a7 * a7 // 2, so7), 'Đường ngắn nhất là \\(SO\\) (\\(BD\\perp(SAO)\\)): \\(SO=\\sqrt{%d+%d}=%d\\).' % (h7 * h7, a7 * a7 // 2, so7))
     return [[o1, o2, o3], [t4, t5], [s6, s7]]
 
 

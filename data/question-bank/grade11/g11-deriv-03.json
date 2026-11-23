@@ -1,0 +1,1038 @@
+{
+ "lesson": "g11-deriv-03",
+ "grade": 11,
+ "no": 33,
+ "title": "Đạo hàm cấp hai",
+ "path": "lessons/grade11/derivatives/second-derivative.html",
+ "items": [
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "An object moves with \\(s(t)=t^#-#t^#+#t\\) (m, s). The acceleration at \\(t=#\\) is…",
+   "en": "An object moves with \\(s(t)=t^3-6t^2+5t\\) (m, s). The acceleration at \\(t=3\\) is…",
+   "vi": "Một vật chuyển động theo \\(s(t)=t^3-6t^2+5t\\) (m, s). Gia tốc tại \\(t=3\\) là…",
+   "options": [
+    "\\(-4\\) m/s²",
+    "\\(12\\) m/s²",
+    "\\(-12\\) m/s²",
+    "\\(6\\) m/s²"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(v=s'=3t^2-12t+5\\), \\(a=s''=6t-12\\); at \\(t=3\\): \\(a=6\\) m/s².",
+   "explain_vi": "Đáp án d. \\(v=s'=3t^2-12t+5\\), \\(a=s''=6t-12\\); tại \\(t=3\\): \\(a=6\\) m/s².",
+   "images": [],
+   "id": "99d9a5fb7180",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "For \\(f(x)=x^#-#x^#+#x+#\\), \\(f''(#)=\\)…",
+   "en": "For \\(f(x)=x^3-3x^2+2x+1\\), \\(f''(2)=\\)…",
+   "vi": "Cho \\(f(x)=x^3-3x^2+2x+1\\). Khi đó \\(f''(2)=\\)…",
+   "options": [
+    "\\(6\\)",
+    "\\(2\\)",
+    "\\(0\\)",
+    "\\(9\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Differentiate twice: \\(f'(x)=3x^2-6x+2\\), \\(f''(x)=6x-6\\), so \\(f''(2)=6\\).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"derivative\">Đạo hàm</b> hai lần: \\(f'(x)=3x^2-6x+2\\), \\(f''(x)=6x-6\\), nên \\(f''(2)=6\\).",
+   "images": [],
+   "id": "e712b306c0da",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "For \\(y=\\sin #x\\)…",
+   "en": "For \\(y=\\sin 2x\\)…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"second derivative\">Đạo hàm cấp hai</b> của \\(y=\\sin 2x\\) là…",
+   "options": [
+    "\\(y''=4\\sin 2x\\)",
+    "\\(y''=-2\\sin 2x\\)",
+    "\\(y''=-4\\sin 2x\\)",
+    "\\(y''=-4\\cos 2x\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Chain rule twice.",
+   "explain_vi": "Đáp án c. Mỗi lần lấy <b class=\"mbl-term\" tabindex=\"0\" data-en=\"derivative\">đạo hàm</b> nhân thêm \\(2\\).",
+   "images": [],
+   "id": "823dfdd710b5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "If the acceleration is zero, the object is at rest.",
+   "en": "If the acceleration is zero, the object is at rest.",
+   "vi": "Nếu gia tốc bằng 0 thì vật đứng yên.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "Velocity vs acceleration.",
+   "explain_vi": "Phân biệt <b class=\"mbl-term\" tabindex=\"0\" data-en=\"velocity\">vận tốc</b> và gia tốc.",
+   "images": [],
+   "id": "cf9778e95036",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(y=\\sin x\\) satisfies \\(y''+y=#\\).",
+   "en": "\\(y=\\sin x\\) satisfies \\(y''+y=0\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">Hàm số</b> \\(y=\\sin x\\) thỏa mãn \\(y''+y=0\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "Compute directly.",
+   "explain_vi": "Tính trực tiếp <b class=\"mbl-term\" tabindex=\"0\" data-en=\"second derivative\">đạo hàm cấp hai</b>.",
+   "images": [],
+   "id": "587ec192d879",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "After braking a car travels \\(s(t)=#t-# t^#\\) (m). How many meters does it travel before stopping?",
+   "en": "After braking a car travels \\(s(t)=20t-2 t^2\\) (m). How many meters does it travel before stopping?",
+   "vi": "Sau khi phanh, ô tô đi được \\(s(t)=20t-2\\,t^2\\) (m). Ô tô đi thêm bao nhiêu mét thì dừng hẳn?",
+   "options": [],
+   "answer": "50",
+   "explain_en": "\\(v=20-4t=0\\Rightarrow t=5\\); substitute into \\(s(t)\\): \\(s=50\\) m.",
+   "explain_vi": "\\(v=20-4t=0\\Rightarrow t=5\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"substitute\">thay vào</b> \\(s(t)\\): \\(s=50\\) m.",
+   "images": [],
+   "id": "1e883910bc83",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "\\(f(x)=x^#\\). Find \\(f‴(#)\\).",
+   "en": "\\(f(x)=x^4\\). Find \\(f‴(2)\\).",
+   "vi": "Cho \\(f(x)=x^4\\). Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"derivative\">đạo hàm</b> cấp ba \\(f‴(2)\\).",
+   "options": [],
+   "answer": "48",
+   "explain_en": "Differentiate three times: \\(f‴(x)=4\\cdot3\\cdot2\\,x^{1}\\), \\(f‴(2)=48\\).",
+   "explain_vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"derivative\">Đạo hàm</b> ba lần: \\(f‴(x)=4\\cdot3\\cdot2\\,x^{1}\\), \\(f‴(2)=48\\).",
+   "images": [],
+   "id": "94a022c415e7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "For \\(f(x)=x^#-#x^#+#x+#\\), \\(f''(#)=\\)…",
+   "en": "For \\(f(x)=x^3-2x^2+3x+2\\), \\(f''(0)=\\)…",
+   "vi": "Cho \\(f(x)=x^3-2x^2+3x+2\\). Khi đó \\(f''(0)=\\)…",
+   "options": [
+    "\\(3\\)",
+    "\\(4\\)",
+    "\\(-2\\)",
+    "\\(-4\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(f'(x)=3x^2-4x+3\\), \\(f''(x)=6x-4\\).",
+   "explain_vi": "Đáp án d. \\(f'(x)=3x^2-4x+3\\), \\(f''(x)=6x-4\\).",
+   "images": [],
+   "id": "fa327c20be4f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "For \\(f(x)=x^#-#x^#+x+#\\), the equation \\(f''(x)=#\\) has the solution…",
+   "en": "For \\(f(x)=x^3-6x^2+x+1\\), the equation \\(f''(x)=0\\) has the solution…",
+   "vi": "Cho \\(f(x)=x^3-6x^2+x+1\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">Phương trình</b> \\(f''(x)=0\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b> là…",
+   "options": [
+    "\\(x=-2\\)",
+    "\\(x=1\\)",
+    "\\(x=2\\)",
+    "\\(x=4\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(f''(x)=6x-12\\).",
+   "explain_vi": "Đáp án c. \\(f''(x)=6x-12=0\\).",
+   "images": [],
+   "id": "07f7fd35eabc",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "For \\(y=\\cos #x\\), \\(y''=\\)…",
+   "en": "For \\(y=\\cos 4x\\), \\(y''=\\)…",
+   "vi": "Cho \\(y=\\cos 4x\\). Khi đó…",
+   "options": [
+    "\\(y''=-4\\cos 4x\\)",
+    "\\(y''=-16\\sin 4x\\)",
+    "\\(y''=16\\cos 4x\\)",
+    "\\(y''=-16\\cos 4x\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Differentiate twice; each time multiply by \\(4\\): \\(y''=-16\\,y\\).",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"derivative\">Đạo hàm</b> hai lần, mỗi lần nhân thêm \\(4\\): \\(y''=-16\\,y\\).",
+   "images": [],
+   "id": "c296f2ce1a41",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "For \\(y=\\ln(#x)\\) (\\(x\\gt #\\)), \\(y''=\\)…",
+   "en": "For \\(y=\\ln(5x)\\) (\\(x\\gt 0\\)), \\(y''=\\)…",
+   "vi": "Cho \\(y=\\ln(5x)\\) với \\(x\\gt 0\\). Khi đó \\(y''=\\)…",
+   "options": [
+    "\\(-\\dfrac{5}{x^2}\\)",
+    "\\(-\\dfrac{1}{x^2}\\)",
+    "\\(\\dfrac{1}{x^2}\\)",
+    "\\(-\\dfrac{25}{x^2}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(y'=\\dfrac{5}{5x}=\\dfrac1x\\), \\(y''=-\\dfrac1{x^2}\\).",
+   "explain_vi": "Đáp án b. \\(y'=\\dfrac{5}{5x}=\\dfrac1x\\), \\(y''=-\\dfrac1{x^2}\\).",
+   "images": [],
+   "id": "e06f0dfd16bd",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "For \\(y=e^{#x}\\), \\(y''=\\)…",
+   "en": "For \\(y=e^{3x}\\), \\(y''=\\)…",
+   "vi": "Cho \\(y=e^{3x}\\). Khi đó…",
+   "options": [
+    "\\(y''=e^{3x}\\)",
+    "\\(y''=3e^{3x}\\)",
+    "\\(y''=6e^{3x}\\)",
+    "\\(y''=9e^{3x}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Each derivative multiplies by \\(3\\).",
+   "explain_vi": "Đáp án d. Mỗi lần lấy <b class=\"mbl-term\" tabindex=\"0\" data-en=\"derivative\">đạo hàm</b> nhân thêm \\(3\\).",
+   "images": [],
+   "id": "ee4aca312b4d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\((x^#)''=\\)…",
+   "en": "\\((x^4)''=\\)…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"second derivative\">Đạo hàm cấp hai</b> của \\(y=x^4\\) là…",
+   "options": [
+    "\\(16x^{2}\\)",
+    "\\(12x^{2}\\)",
+    "\\(4x^{3}\\)",
+    "\\(12x^{3}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\((x^n)''=n(n-1)x^{n-2}\\).",
+   "explain_vi": "Đáp án b. \\((x^n)''=n(n-1)x^{n-2}\\).",
+   "images": [],
+   "id": "130debc9f833",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(s(t)=t^#-#t^#+#t\\) (m, s). The acceleration at \\(t=#\\) is… (m/s²)",
+   "en": "\\(s(t)=t^3-9t^2+4t\\) (m, s). The acceleration at \\(t=3\\) is… (m/s²)",
+   "vi": "Một vật chuyển động theo <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(s(t)=t^3-9t^2+4t\\) (\\(s\\): mét, \\(t\\): giây). Gia tốc tại \\(t=3\\) là… (m/s²)",
+   "options": [
+    "\\(-23\\)",
+    "\\(0\\)",
+    "\\(-9\\)",
+    "\\(9\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(v(t)=3t^2-18t+4\\), \\(a(t)=6t-18\\).",
+   "explain_vi": "Đáp án b. \\(v(t)=3t^2-18t+4\\), \\(a(t)=6t-18\\).",
+   "images": [],
+   "id": "e8130f416163",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(s(t)=t^#-#t^#+#t\\). At which time is the acceleration zero?",
+   "en": "\\(s(t)=t^3-9t^2+51t\\). At which time is the acceleration zero?",
+   "vi": "Một vật chuyển động theo \\(s(t)=t^3-9t^2+51t\\) (\\(t\\) giây). Gia tốc bằng 0 tại thời điểm…",
+   "options": [
+    "\\(t=3\\)",
+    "\\(t=4\\)",
+    "\\(t=6\\)",
+    "\\(t=9\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(a(t)=s''(t)=6t-18=0\\).",
+   "explain_vi": "Đáp án a. \\(a(t)=s''(t)=6t-18=0\\).",
+   "images": [],
+   "id": "6adf346a8ca2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "An object moves with \\(s(t)=t^#-#t^#+#t\\) (m, s). The acceleration at \\(t=#\\) is…",
+   "en": "An object moves with \\(s(t)=t^3-9t^2+10t\\) (m, s). The acceleration at \\(t=2\\) is…",
+   "vi": "Một vật chuyển động theo \\(s(t)=t^3-9t^2+10t\\) (m, s). Gia tốc tại \\(t=2\\) là…",
+   "options": [
+    "\\(-6\\) m/s²",
+    "\\(-14\\) m/s²",
+    "\\(3\\) m/s²",
+    "\\(-8\\) m/s²"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(v=s'=3t^2-18t+10\\), \\(a=s''=6t-18\\); at \\(t=2\\): \\(a=-6\\) m/s².",
+   "explain_vi": "Đáp án a. \\(v=s'=3t^2-18t+10\\), \\(a=s''=6t-18\\); tại \\(t=2\\): \\(a=-6\\) m/s².",
+   "images": [],
+   "id": "4855b4d79ea1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "For \\(f(x)=#x^#+x^#-#x+#\\), \\(f''(-#)=\\)…",
+   "en": "For \\(f(x)=2x^3+x^2-4x+1\\), \\(f''(-1)=\\)…",
+   "vi": "Cho \\(f(x)=2x^3+x^2-4x+1\\). Khi đó \\(f''(-1)=\\)…",
+   "options": [
+    "\\(0\\)",
+    "\\(-4\\)",
+    "\\(-10\\)",
+    "\\(-11\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Differentiate twice: \\(f'(x)=6x^2+2x-4\\), \\(f''(x)=12x+2\\), so \\(f''(-1)=-10\\).",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"derivative\">Đạo hàm</b> hai lần: \\(f'(x)=6x^2+2x-4\\), \\(f''(x)=12x+2\\), nên \\(f''(-1)=-10\\).",
+   "images": [],
+   "id": "7f82730cc482",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "For \\(y=e^{-#x}\\)…",
+   "en": "For \\(y=e^{-3x}\\)…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"second derivative\">Đạo hàm cấp hai</b> của \\(y=e^{-3x}\\) là…",
+   "options": [
+    "\\(y''=-9e^{-3x}\\)",
+    "\\(y''=9e^{-3x}\\)",
+    "\\(y''=6e^{-3x}\\)",
+    "\\(y''=-3e^{-3x}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Chain rule twice.",
+   "explain_vi": "Đáp án b. Mỗi lần lấy <b class=\"mbl-term\" tabindex=\"0\" data-en=\"derivative\">đạo hàm</b> nhân thêm \\(-3\\).",
+   "images": [],
+   "id": "a69cb233fee3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "If \\(v\\gt#\\) and \\(a\\lt#\\), the object is speeding up.",
+   "en": "If \\(v\\gt0\\) and \\(a\\lt0\\), the object is speeding up.",
+   "vi": "Nếu \\(v\\gt0\\) và \\(a\\lt0\\) thì vật chuyển động nhanh dần.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "Velocity vs acceleration.",
+   "explain_vi": "Phân biệt <b class=\"mbl-term\" tabindex=\"0\" data-en=\"velocity\">vận tốc</b> và gia tốc.",
+   "images": [],
+   "id": "3eea3c9d891d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "The second derivative of a quadratic function is a constant.",
+   "en": "The second derivative of a quadratic function is a constant.",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"second derivative\">Đạo hàm cấp hai</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"quadratic function\">hàm số bậc hai</b> là một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"constant\">hằng số</b>.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "Compute directly.",
+   "explain_vi": "Tính trực tiếp <b class=\"mbl-term\" tabindex=\"0\" data-en=\"second derivative\">đạo hàm cấp hai</b>.",
+   "images": [],
+   "id": "481fd00a3fd0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "After braking a car travels \\(s(t)=#t-# t^#\\) (m). How many meters does it travel before stopping?",
+   "en": "After braking a car travels \\(s(t)=30t-3 t^2\\) (m). How many meters does it travel before stopping?",
+   "vi": "Sau khi phanh, ô tô đi được \\(s(t)=30t-3\\,t^2\\) (m). Ô tô đi thêm bao nhiêu mét thì dừng hẳn?",
+   "options": [],
+   "answer": "75",
+   "explain_en": "\\(v=30-6t=0\\Rightarrow t=5\\); substitute into \\(s(t)\\): \\(s=75\\) m.",
+   "explain_vi": "\\(v=30-6t=0\\Rightarrow t=5\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"substitute\">thay vào</b> \\(s(t)\\): \\(s=75\\) m.",
+   "images": [],
+   "id": "8d22058daae0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "\\(f(x)=x^#\\). Find \\(f‴(#)\\).",
+   "en": "\\(f(x)=x^5\\). Find \\(f‴(1)\\).",
+   "vi": "Cho \\(f(x)=x^5\\). Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"derivative\">đạo hàm</b> cấp ba \\(f‴(1)\\).",
+   "options": [],
+   "answer": "60",
+   "explain_en": "Differentiate three times: \\(f‴(x)=5\\cdot4\\cdot3\\,x^{2}\\), \\(f‴(1)=60\\).",
+   "explain_vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"derivative\">Đạo hàm</b> ba lần: \\(f‴(x)=5\\cdot4\\cdot3\\,x^{2}\\), \\(f‴(1)=60\\).",
+   "images": [],
+   "id": "9854deb5a052",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "For \\(f(x)=#x^#+x^#+#x+#\\), \\(f''(#)=\\)…",
+   "en": "For \\(f(x)=3x^3+x^2+5x+1\\), \\(f''(1)=\\)…",
+   "vi": "Cho \\(f(x)=3x^3+x^2+5x+1\\). Khi đó \\(f''(1)=\\)…",
+   "options": [
+    "\\(11\\)",
+    "\\(19\\)",
+    "\\(20\\)",
+    "\\(16\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(f'(x)=9x^2+2x+5\\), \\(f''(x)=18x+2\\).",
+   "explain_vi": "Đáp án c. \\(f'(x)=9x^2+2x+5\\), \\(f''(x)=18x+2\\).",
+   "images": [],
+   "id": "2fa9b5710694",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "For \\(f(x)=x^#-#x^#-#x+#\\), the equation \\(f''(x)=#\\) has the solution…",
+   "en": "For \\(f(x)=x^3-3x^2-2x+1\\), the equation \\(f''(x)=0\\) has the solution…",
+   "vi": "Cho \\(f(x)=x^3-3x^2-2x+1\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">Phương trình</b> \\(f''(x)=0\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b> là…",
+   "options": [
+    "\\(x=1\\)",
+    "\\(x=2\\)",
+    "\\(x=-1\\)",
+    "\\(x=\\dfrac{1}{2}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(f''(x)=6x-6\\).",
+   "explain_vi": "Đáp án a. \\(f''(x)=6x-6=0\\).",
+   "images": [],
+   "id": "b22d4f52fa13",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "For \\(y=\\ln(#x)\\) (\\(x\\gt #\\)), \\(y''=\\)…",
+   "en": "For \\(y=\\ln(4x)\\) (\\(x\\gt 0\\)), \\(y''=\\)…",
+   "vi": "Cho \\(y=\\ln(4x)\\) với \\(x\\gt 0\\). Khi đó \\(y''=\\)…",
+   "options": [
+    "\\(\\dfrac{1}{x^2}\\)",
+    "\\(-\\dfrac{4}{x^2}\\)",
+    "\\(-\\dfrac{16}{x^2}\\)",
+    "\\(-\\dfrac{1}{x^2}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(y'=\\dfrac{4}{4x}=\\dfrac1x\\), \\(y''=-\\dfrac1{x^2}\\).",
+   "explain_vi": "Đáp án d. \\(y'=\\dfrac{4}{4x}=\\dfrac1x\\), \\(y''=-\\dfrac1{x^2}\\).",
+   "images": [],
+   "id": "062713679017",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "For \\(y=\\sin #x\\), \\(y''=\\)…",
+   "en": "For \\(y=\\sin 3x\\), \\(y''=\\)…",
+   "vi": "Cho \\(y=\\sin 3x\\). Khi đó…",
+   "options": [
+    "\\(y''=9\\sin 3x\\)",
+    "\\(y''=-9\\sin 3x\\)",
+    "\\(y''=-3\\sin 3x\\)",
+    "\\(y''=-9\\cos 3x\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Differentiate twice; each time multiply by \\(3\\): \\(y''=-9\\,y\\).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"derivative\">Đạo hàm</b> hai lần, mỗi lần nhân thêm \\(3\\): \\(y''=-9\\,y\\).",
+   "images": [],
+   "id": "b997619d5036",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "For \\(y=e^{#x}\\), \\(y''=\\)…",
+   "en": "For \\(y=e^{5x}\\), \\(y''=\\)…",
+   "vi": "Cho \\(y=e^{5x}\\). Khi đó…",
+   "options": [
+    "\\(y''=e^{5x}\\)",
+    "\\(y''=25e^{5x}\\)",
+    "\\(y''=10e^{5x}\\)",
+    "\\(y''=5e^{5x}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Each derivative multiplies by \\(5\\).",
+   "explain_vi": "Đáp án b. Mỗi lần lấy <b class=\"mbl-term\" tabindex=\"0\" data-en=\"derivative\">đạo hàm</b> nhân thêm \\(5\\).",
+   "images": [],
+   "id": "80a3835d114f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\((x^#)''=\\)…",
+   "en": "\\((x^6)''=\\)…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"second derivative\">Đạo hàm cấp hai</b> của \\(y=x^6\\) là…",
+   "options": [
+    "\\(6x^{5}\\)",
+    "\\(30x^{4}\\)",
+    "\\(36x^{4}\\)",
+    "\\(30x^{5}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\((x^n)''=n(n-1)x^{n-2}\\).",
+   "explain_vi": "Đáp án b. \\((x^n)''=n(n-1)x^{n-2}\\).",
+   "images": [],
+   "id": "274fdcce8200",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(s(t)=t^#-#t^#+#t\\) (m, s). The acceleration at \\(t=#\\) is… (m/s²)",
+   "en": "\\(s(t)=t^3-3t^2+7t\\) (m, s). The acceleration at \\(t=4\\) is… (m/s²)",
+   "vi": "Một vật chuyển động theo <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(s(t)=t^3-3t^2+7t\\) (\\(s\\): mét, \\(t\\): giây). Gia tốc tại \\(t=4\\) là… (m/s²)",
+   "options": [
+    "\\(6\\)",
+    "\\(31\\)",
+    "\\(18\\)",
+    "\\(21\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(v(t)=3t^2-6t+7\\), \\(a(t)=6t-6\\).",
+   "explain_vi": "Đáp án c. \\(v(t)=3t^2-6t+7\\), \\(a(t)=6t-6\\).",
+   "images": [],
+   "id": "26f2798ede92",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(s(t)=t^#-#t^#+#t\\). At which time is the acceleration zero?",
+   "en": "\\(s(t)=t^3-9t^2+30t\\). At which time is the acceleration zero?",
+   "vi": "Một vật chuyển động theo \\(s(t)=t^3-9t^2+30t\\) (\\(t\\) giây). Gia tốc bằng 0 tại thời điểm…",
+   "options": [
+    "\\(t=4\\)",
+    "\\(t=9\\)",
+    "\\(t=3\\)",
+    "\\(t=6\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(a(t)=s''(t)=6t-18=0\\).",
+   "explain_vi": "Đáp án c. \\(a(t)=s''(t)=6t-18=0\\).",
+   "images": [],
+   "id": "6e7194bd07ab",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "An object moves with \\(s(t)=t^#-#t^#+#t\\) (m, s). The acceleration at \\(t=#\\) is…",
+   "en": "An object moves with \\(s(t)=t^3-3t^2+7t\\) (m, s). The acceleration at \\(t=4\\) is…",
+   "vi": "Một vật chuyển động theo \\(s(t)=t^3-3t^2+7t\\) (m, s). Gia tốc tại \\(t=4\\) là…",
+   "options": [
+    "\\(18\\) m/s²",
+    "\\(31\\) m/s²",
+    "\\(21\\) m/s²",
+    "\\(44\\) m/s²"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(v=s'=3t^2-6t+7\\), \\(a=s''=6t-6\\); at \\(t=4\\): \\(a=18\\) m/s².",
+   "explain_vi": "Đáp án a. \\(v=s'=3t^2-6t+7\\), \\(a=s''=6t-6\\); tại \\(t=4\\): \\(a=18\\) m/s².",
+   "images": [],
+   "id": "f33f575db507",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "For \\(f(x)=-x^#+#x^#+#x+#\\), \\(f''(#)=\\)…",
+   "en": "For \\(f(x)=-x^3+4x^2+3x+1\\), \\(f''(1)=\\)…",
+   "vi": "Cho \\(f(x)=-x^3+4x^2+3x+1\\). Khi đó \\(f''(1)=\\)…",
+   "options": [
+    "\\(2\\)",
+    "\\(8\\)",
+    "\\(5\\)",
+    "\\(-2\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Differentiate twice: \\(f'(x)=-3x^2+8x+3\\), \\(f''(x)=-6x+8\\), so \\(f''(1)=2\\).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"derivative\">Đạo hàm</b> hai lần: \\(f'(x)=-3x^2+8x+3\\), \\(f''(x)=-6x+8\\), nên \\(f''(1)=2\\).",
+   "images": [],
+   "id": "7ee594f4fae1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "For \\(y=\\sin #x\\)…",
+   "en": "For \\(y=\\sin 3x\\)…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"second derivative\">Đạo hàm cấp hai</b> của \\(y=\\sin 3x\\) là…",
+   "options": [
+    "\\(y''=9\\sin 3x\\)",
+    "\\(y''=-3\\sin 3x\\)",
+    "\\(y''=-9\\sin 3x\\)",
+    "\\(y''=-9\\cos 3x\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Chain rule twice.",
+   "explain_vi": "Đáp án c. Mỗi lần lấy <b class=\"mbl-term\" tabindex=\"0\" data-en=\"derivative\">đạo hàm</b> nhân thêm \\(3\\).",
+   "images": [],
+   "id": "ad615d700d37",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "\\((x^#)^{(#)}=#\\).",
+   "en": "\\((x^5)^{(5)}=120\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"derivative\">Đạo hàm</b> cấp năm của \\(x^5\\) bằng 120.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "Compute directly.",
+   "explain_vi": "Tính trực tiếp <b class=\"mbl-term\" tabindex=\"0\" data-en=\"second derivative\">đạo hàm cấp hai</b>.",
+   "images": [],
+   "id": "4eac62a03b92",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(\\left(\\ln x\\right)''=\\dfrac#{x^#}\\) for \\(x\\gt#\\).",
+   "en": "\\(\\left(\\ln x\\right)''=\\dfrac1{x^2}\\) for \\(x\\gt0\\).",
+   "vi": "\\(\\left(\\ln x\\right)''=\\dfrac1{x^2}\\) với \\(x\\gt0\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "Velocity vs acceleration.",
+   "explain_vi": "Phân biệt <b class=\"mbl-term\" tabindex=\"0\" data-en=\"velocity\">vận tốc</b> và gia tốc.",
+   "images": [],
+   "id": "65eef68b1490",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "After braking a car travels \\(s(t)=#t-# t^#\\) (m). How many meters does it travel before stopping?",
+   "en": "After braking a car travels \\(s(t)=24t-4 t^2\\) (m). How many meters does it travel before stopping?",
+   "vi": "Sau khi phanh, ô tô đi được \\(s(t)=24t-4\\,t^2\\) (m). Ô tô đi thêm bao nhiêu mét thì dừng hẳn?",
+   "options": [],
+   "answer": "36",
+   "explain_en": "\\(v=24-8t=0\\Rightarrow t=3\\); substitute into \\(s(t)\\): \\(s=36\\) m.",
+   "explain_vi": "\\(v=24-8t=0\\Rightarrow t=3\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"substitute\">thay vào</b> \\(s(t)\\): \\(s=36\\) m.",
+   "images": [],
+   "id": "0ab41165176a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "\\(f(x)=x^#\\). Find \\(f‴(#)\\).",
+   "en": "\\(f(x)=x^4\\). Find \\(f‴(3)\\).",
+   "vi": "Cho \\(f(x)=x^4\\). Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"derivative\">đạo hàm</b> cấp ba \\(f‴(3)\\).",
+   "options": [],
+   "answer": "72",
+   "explain_en": "Differentiate three times: \\(f‴(x)=4\\cdot3\\cdot2\\,x^{1}\\), \\(f‴(3)=72\\).",
+   "explain_vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"derivative\">Đạo hàm</b> ba lần: \\(f‴(x)=4\\cdot3\\cdot2\\,x^{1}\\), \\(f‴(3)=72\\).",
+   "images": [],
+   "id": "682f2ccd14e8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "For \\(f(x)=-#x^#-#x^#-#x+#\\), \\(f''(-#)=\\)…",
+   "en": "For \\(f(x)=-3x^3-2x^2-2x+4\\), \\(f''(-2)=\\)…",
+   "vi": "Cho \\(f(x)=-3x^3-2x^2-2x+4\\). Khi đó \\(f''(-2)=\\)…",
+   "options": [
+    "\\(32\\)",
+    "\\(-30\\)",
+    "\\(34\\)",
+    "\\(14\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(f'(x)=-9x^2-4x-2\\), \\(f''(x)=-18x-4\\).",
+   "explain_vi": "Đáp án a. \\(f'(x)=-9x^2-4x-2\\), \\(f''(x)=-18x-4\\).",
+   "images": [],
+   "id": "703a9d03bf68",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "For \\(f(x)=x^#-#x^#-x+#\\), the equation \\(f''(x)=#\\) has the solution…",
+   "en": "For \\(f(x)=x^3-3x^2-x+1\\), the equation \\(f''(x)=0\\) has the solution…",
+   "vi": "Cho \\(f(x)=x^3-3x^2-x+1\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">Phương trình</b> \\(f''(x)=0\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"zero (root)\">nghiệm</b> là…",
+   "options": [
+    "\\(x=-1\\)",
+    "\\(x=2\\)",
+    "\\(x=\\dfrac{1}{2}\\)",
+    "\\(x=1\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(f''(x)=6x-6\\).",
+   "explain_vi": "Đáp án d. \\(f''(x)=6x-6=0\\).",
+   "images": [],
+   "id": "b6abe4d04b76",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "For \\(y=\\ln(#x)\\) (\\(x\\gt #\\)), \\(y''=\\)…",
+   "en": "For \\(y=\\ln(3x)\\) (\\(x\\gt 0\\)), \\(y''=\\)…",
+   "vi": "Cho \\(y=\\ln(3x)\\) với \\(x\\gt 0\\). Khi đó \\(y''=\\)…",
+   "options": [
+    "\\(-\\dfrac{9}{x^2}\\)",
+    "\\(-\\dfrac{3}{x^2}\\)",
+    "\\(\\dfrac{1}{x^2}\\)",
+    "\\(-\\dfrac{1}{x^2}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(y'=\\dfrac{3}{3x}=\\dfrac1x\\), \\(y''=-\\dfrac1{x^2}\\).",
+   "explain_vi": "Đáp án d. \\(y'=\\dfrac{3}{3x}=\\dfrac1x\\), \\(y''=-\\dfrac1{x^2}\\).",
+   "images": [],
+   "id": "bbce1a8d6344",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "For \\(y=\\sin #x\\), \\(y''=\\)…",
+   "en": "For \\(y=\\sin 5x\\), \\(y''=\\)…",
+   "vi": "Cho \\(y=\\sin 5x\\). Khi đó…",
+   "options": [
+    "\\(y''=-5\\sin 5x\\)",
+    "\\(y''=-25\\sin 5x\\)",
+    "\\(y''=25\\sin 5x\\)",
+    "\\(y''=-25\\cos 5x\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Differentiate twice; each time multiply by \\(5\\): \\(y''=-25\\,y\\).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"derivative\">Đạo hàm</b> hai lần, mỗi lần nhân thêm \\(5\\): \\(y''=-25\\,y\\).",
+   "images": [],
+   "id": "3d3095a55b4e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "For \\(y=e^{#x}\\), \\(y''=\\)…",
+   "en": "For \\(y=e^{4x}\\), \\(y''=\\)…",
+   "vi": "Cho \\(y=e^{4x}\\). Khi đó…",
+   "options": [
+    "\\(y''=8e^{4x}\\)",
+    "\\(y''=4e^{4x}\\)",
+    "\\(y''=e^{4x}\\)",
+    "\\(y''=16e^{4x}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Each derivative multiplies by \\(4\\).",
+   "explain_vi": "Đáp án d. Mỗi lần lấy <b class=\"mbl-term\" tabindex=\"0\" data-en=\"derivative\">đạo hàm</b> nhân thêm \\(4\\).",
+   "images": [],
+   "id": "4b84d926e45b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\((x^#)''=\\)…",
+   "en": "\\((x^5)''=\\)…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"second derivative\">Đạo hàm cấp hai</b> của \\(y=x^5\\) là…",
+   "options": [
+    "\\(20x^{4}\\)",
+    "\\(25x^{3}\\)",
+    "\\(20x^{3}\\)",
+    "\\(5x^{4}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\((x^n)''=n(n-1)x^{n-2}\\).",
+   "explain_vi": "Đáp án c. \\((x^n)''=n(n-1)x^{n-2}\\).",
+   "images": [],
+   "id": "db92749e1851",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(s(t)=t^#-#t^#+#t\\) (m, s). The acceleration at \\(t=#\\) is… (m/s²)",
+   "en": "\\(s(t)=t^3-9t^2+2t\\) (m, s). The acceleration at \\(t=3\\) is… (m/s²)",
+   "vi": "Một vật chuyển động theo <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(s(t)=t^3-9t^2+2t\\) (\\(s\\): mét, \\(t\\): giây). Gia tốc tại \\(t=3\\) là… (m/s²)",
+   "options": [
+    "\\(-25\\)",
+    "\\(9\\)",
+    "\\(-9\\)",
+    "\\(0\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(v(t)=3t^2-18t+2\\), \\(a(t)=6t-18\\).",
+   "explain_vi": "Đáp án d. \\(v(t)=3t^2-18t+2\\), \\(a(t)=6t-18\\).",
+   "images": [],
+   "id": "bb8949cf494f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(s(t)=t^#-#t^#+#t\\). At which time is the acceleration zero?",
+   "en": "\\(s(t)=t^3-6t^2+55t\\). At which time is the acceleration zero?",
+   "vi": "Một vật chuyển động theo \\(s(t)=t^3-6t^2+55t\\) (\\(t\\) giây). Gia tốc bằng 0 tại thời điểm…",
+   "options": [
+    "\\(t=3\\)",
+    "\\(t=4\\)",
+    "\\(t=2\\)",
+    "\\(t=6\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(a(t)=s''(t)=6t-12=0\\).",
+   "explain_vi": "Đáp án c. \\(a(t)=s''(t)=6t-12=0\\).",
+   "images": [],
+   "id": "8de57cf06a20",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "After braking a car travels \\(s(t)=#t-# t^#\\) (m). How many metres does it travel before stopping?",
+   "en": "After braking a car travels \\(s(t)=20t-2 t^2\\) (m). How many metres does it travel before stopping?",
+   "vi": "Sau khi phanh, ô tô đi được \\(s(t)=20t-2\\,t^2\\) (m). Ô tô đi thêm bao nhiêu mét thì dừng hẳn?",
+   "options": [],
+   "answer": "50",
+   "explain_en": "\\(v=0\\).",
+   "explain_vi": "\\(v=20-4t=0\\Rightarrow t=5\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"substitute\">thay vào</b> \\(s(t)\\).",
+   "images": [],
+   "id": "f283e15f00ae",
+   "status": "đã thay ra",
+   "sources": [
+    "bản trước sửa lỗi trình bày 23/11/2026"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "After braking a car travels \\(s(t)=#t-# t^#\\) (m). How many metres does it travel before stopping?",
+   "en": "After braking a car travels \\(s(t)=30t-3 t^2\\) (m). How many metres does it travel before stopping?",
+   "vi": "Sau khi phanh, ô tô đi được \\(s(t)=30t-3\\,t^2\\) (m). Ô tô đi thêm bao nhiêu mét thì dừng hẳn?",
+   "options": [],
+   "answer": "75",
+   "explain_en": "\\(v=0\\).",
+   "explain_vi": "\\(v=30-6t=0\\Rightarrow t=5\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"substitute\">thay vào</b> \\(s(t)\\).",
+   "images": [],
+   "id": "51389f117209",
+   "status": "đã thay ra",
+   "sources": [
+    "bản trước sửa lỗi trình bày 23/11/2026"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "After braking a car travels \\(s(t)=#t-# t^#\\) (m). How many metres does it travel before stopping?",
+   "en": "After braking a car travels \\(s(t)=24t-4 t^2\\) (m). How many metres does it travel before stopping?",
+   "vi": "Sau khi phanh, ô tô đi được \\(s(t)=24t-4\\,t^2\\) (m). Ô tô đi thêm bao nhiêu mét thì dừng hẳn?",
+   "options": [],
+   "answer": "36",
+   "explain_en": "\\(v=0\\).",
+   "explain_vi": "\\(v=24-8t=0\\Rightarrow t=3\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"substitute\">thay vào</b> \\(s(t)\\).",
+   "images": [],
+   "id": "349ee7c69502",
+   "status": "đã thay ra",
+   "sources": [
+    "bản trước sửa lỗi trình bày 23/11/2026"
+   ]
+  }
+ ]
+}

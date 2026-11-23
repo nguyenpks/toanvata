@@ -78,7 +78,7 @@ assert all(abs(math.cos(x / 100)) <= 1 for x in range(0, 700)) and 1.01 > 1 and 
 meta = dict(level=('Intermediate', 'Trung bình'), time=('about 65 minutes', 'khoảng 65 phút'),
             before=('trigonometric functions, their graphs and periods (Lesson 3) and the trigonometric formulas (Lesson 2)', 'hàm số lượng giác, đồ thị và chu kì (Bài 3), công thức lượng giác (Bài 2)'))
 goals = [
- ('recognise the four basic trigonometric equations;', 'nhận biết bốn [[phương trình lượng giác cơ bản]];'),
+ ('recognize the four basic trigonometric equations;', 'nhận biết bốn [[phương trình lượng giác cơ bản]];'),
  ('write the [[general solution]] of each basic equation.', 'viết [[họ nghiệm]] của từng phương trình cơ bản.'),
  ('pick the solutions in a given interval;', 'chọn các [[nghiệm]] thuộc một [[khoảng]] cho trước;'),
  ('combine the trigonometric formulas to solve simple equations.', 'kết hợp công thức lượng giác để giải các phương trình đơn giản.'),

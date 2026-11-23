@@ -16,7 +16,7 @@ vocab = defs(CV, [
 goals = [('decide whether a function is continuous at a point and find a parameter that makes it continuous;', 'xét tính [[liên tục tại một điểm]] của hàm số và tìm tham số để hàm số liên tục;'),
          ('state the intervals on which elementary functions are continuous;', 'chỉ ra các khoảng mà [[hàm số sơ cấp]] [[liên tục trên một khoảng]];'),
          ('use the intermediate value theorem to show that an equation has roots;', 'dùng [[định lí giá trị trung gian]] để chứng minh phương trình có nghiệm;'),
-         ('recognise continuous processes in real life.', 'nhận biết các quá trình biến đổi liên tục trong thực tế.')]
+         ('recognize continuous processes in real life.', 'nhận biết các quá trình biến đổi liên tục trong thực tế.')]
 phrases = [('<b>The function is continuous at \\(x\\) equals two.</b>', 'Hàm số liên tục tại \\(x=2\\).'), ('<b>The graph is an unbroken curve.</b>', 'Đồ thị là một đường liền nét.'), ('<b>The function is discontinuous at one.</b>', 'Hàm số gián đoạn tại 1.'),
            ('<b>\\(f(0)\\) and \\(f(1)\\) have opposite signs.</b>', '\\(f(0)\\) và \\(f(1)\\) trái dấu.'), ('<b>The equation has at least one root in the interval.</b>', 'Phương trình có ít nhất một nghiệm trong khoảng đó.')]
 review = T('From Bài 16: \\(\\lim\\limits_{x\\to x_0}f(x)=L\\iff\\lim\\limits_{x\\to x_0^-}f(x)=\\lim\\limits_{x\\to x_0^+}f(x)=L\\); the form \\(\\frac00\\) is removed by factorising. Domain: denominators \\(\\ne0\\), expressions under \\(\\sqrt{\\ }\\) \\(\\ge0\\).',

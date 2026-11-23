@@ -59,7 +59,7 @@ def gp_money(r, lv):
     if rate == 5 and P % 400: P = 400
     A = P * (100 + rate) ** n // 100 ** n; assert A * 100 ** n == P * (100 + rate) ** n
     return dict(en='You deposit %d million dong at a compound interest of %d%% per year. How many million dong will you have after %d years?' % (P, rate, n), vi='Gửi %d triệu đồng với lãi kép %d%%/năm. Sau %d năm có bao nhiêu triệu đồng?' % (P, rate, n),
-      opts=pick_opts(r, str(A), [str(P + n * P * rate // 100), str(A + 1), str(A - 1), str(P * rate)], fill=lambda k: str(A + 5 * k)), ans=0, ee='\\(A=P(1+r)^n=%d\\cdot(1.%02d)^{%d}=%d\\).' % (P, rate, n, A), ev='\\(A=P(1+r)^n=%d\\cdot(1{,}%02d)^{%d}=%d\\).' % (P, rate, n, A))
+      opts=pick_opts(r, str(A), [str(P + n * P * rate // 100), str(A + 1), str(A - 1), str(P * rate)], fill=lambda k: str(A + 5 * k)), ans=0, ee='\\(A=P(1+r)^n=%d\\cdot%s^{%d}=%d\\).' % (P, '(%g)' % (1 + rate / 100), n, A), ev='\\(A=P(1+r)^n=%d\\cdot%s^{%d}=%d\\).' % (P, ('(%g)' % (1 + rate / 100)).replace('.', '{,}'), n, A))
 def gp_count(r, lv):
     u1 = r.choice([1, 2, 3]); q = r.choice([2, 3]); n = r.randint(5, 9) if q == 2 else r.randint(4, 6); last = u1 * q ** (n - 1)
     return dict(en='How many terms does the geometric sequence \\(%d,\\ %d,\\ %d,\\dots,\\ %d\\) have?' % (u1, u1 * q, u1 * q * q, last), vi='Cấp số nhân \\(%d,\\ %d,\\ %d,\\dots,\\ %d\\) có bao nhiêu số hạng?' % (u1, u1 * q, u1 * q * q, last),

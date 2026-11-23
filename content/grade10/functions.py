@@ -16,7 +16,7 @@ vocab = defs(CV, [
  ('incr10', 'increasing function', 'hàm số đồng biến', '\\(x_1\\lt x_2\\Rightarrow f(x_1)\\lt f(x_2)\\): the graph goes up from left to right.', '\\(x_1\\lt x_2\\Rightarrow f(x_1)\\lt f(x_2)\\): đồ thị đi lên từ trái sang phải.', 'The function is increasing on \\((0;+\\infty)\\).', ''),
  ('decr10', 'decreasing function', 'hàm số nghịch biến', '\\(x_1\\lt x_2\\Rightarrow f(x_1)\\gt f(x_2)\\): the graph goes down from left to right.', '\\(x_1\\lt x_2\\Rightarrow f(x_1)\\gt f(x_2)\\): đồ thị đi xuống từ trái sang phải.', 'The function is decreasing on \\(\\mathbb R\\).', ''),
  ('piece10', 'piecewise-defined function', 'hàm số cho bởi nhiều công thức', 'a function given by different formulas on different parts of the domain.', 'hàm số có công thức khác nhau trên các phần khác nhau của tập xác định.', 'The electricity bill is a piecewise function.', '')])
-goals = [('recognise a function given by a table, a graph or a formula;', 'nhận biết [[hàm số]] cho bằng bảng, biểu đồ, công thức;'),
+goals = [('recognize a function given by a table, a graph or a formula;', 'nhận biết [[hàm số]] cho bằng bảng, biểu đồ, công thức;'),
          ('find the domain and compute values, also for piecewise functions;', 'tìm [[tập xác định]], tính giá trị hàm số, kể cả [[hàm số cho bởi nhiều công thức]];'),
          ('read a graph: points on the graph, range, increasing and decreasing intervals;', 'đọc [[đồ thị hàm số]]: điểm thuộc đồ thị, [[tập giá trị]], khoảng [[đồng biến|hàm số đồng biến]], [[nghịch biến|hàm số nghịch biến]];'),
          ('build simple functions from real situations.', 'thiết lập hàm số mô tả tình huống thực tế đơn giản.')]
@@ -74,7 +74,7 @@ def lvl(P):
     t5 = tf(5, 'The range of \\(y=x^2%+d\\) is \\(%s\\).' % (c5, claim), 'Tập giá trị của hàm số \\(y=x^2%+d\\) là \\(%s\\).' % (c5, claim), ok5, '\\(x^2\\ge0\\) with equality at \\(x=0\\), so \\(y\\ge%d\\) and \\(y=%d\\) is reached.' % (c5, c5), '\\(x^2\\ge0\\), dấu bằng tại \\(x=0\\) nên \\(y\\ge%d\\) và đạt \\(y=%d\\).' % (c5, c5))
     (x1, f1, x2, f2), xq = P['pw']; v6 = f1(xq) if xq < x1 else f2(xq)
     s6 = sh(6, '\\(f(x)=%s\\) if \\(x\\lt%d\\) and \\(f(x)=%s\\) if \\(x\\ge%d\\). Find \\(f(%d)+f(%d)\\).' % (P['pwt'][0], x1, P['pwt'][1], x1, xq, x2), 'Cho \\(f(x)=%s\\) khi \\(x\\lt%d\\), \\(f(x)=%s\\) khi \\(x\\ge%d\\). Tính \\(f(%d)+f(%d)\\).' % (P['pwt'][0], x1, P['pwt'][1], x1, xq, x2),
-            v6 + (f1(x2) if x2 < x1 else f2(x2)), '\\(f(%d)=%d\\), \\(f(%d)=%d\\).' % (xq, v6, x2, f1(x2) if x2 < x1 else f2(x2)), '\\(f(%d)=%d\\), \\(f(%d)=%d\\).' % (xq, v6, x2, f1(x2) if x2 < x1 else f2(x2)))
+            v6 + (f1(x2) if x2 < x1 else f2(x2)), '\\(f(%d)=%d\\), \\(f(%d)=%d\\), so the sum is %d.' % (xq, v6, x2, f1(x2) if x2 < x1 else f2(x2), v6 + (f1(x2) if x2 < x1 else f2(x2))), '\\(f(%d)=%d\\), \\(f(%d)=%d\\) nên tổng bằng %d.' % (xq, v6, x2, f1(x2) if x2 < x1 else f2(x2), v6 + (f1(x2) if x2 < x1 else f2(x2))))
     kwh = P['kwh']; tiers = [(50, F('1.8')), (50, F('1.9')), (100, F('2.2'))]; left = kwh; bill = F(0)
     for lim, pr in tiers: u = min(left, lim); bill += u * pr; left -= u
     assert left == 0

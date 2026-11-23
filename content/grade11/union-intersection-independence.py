@@ -13,7 +13,7 @@ vocab = defs(CV, [
  ('mutexcl', 'mutually exclusive', 'xung khắc', 'two events that cannot occur together: \\(A\\cap B=\\varnothing\\).', 'hai biến cố không thể cùng xảy ra: \\(A\\cap B=\\varnothing\\).', '"Even" and "odd" are mutually exclusive.', '\\(AB=\\varnothing\\)'),
  ('indepev11', 'independent events', 'biến cố độc lập', 'events where the occurrence of one does not change the probability of the other; then \\(P(AB)=P(A)P(B)\\).', 'hai biến cố mà việc xảy ra hay không của biến cố này không làm thay đổi xác suất của biến cố kia; khi đó \\(P(AB)=P(A)P(B)\\).', 'Two different dice give independent events.', '')])
 goals = [('describe the union and the intersection of two events as sets of outcomes;', 'mô tả [[biến cố hợp]] và [[biến cố giao]] dưới dạng tập hợp các kết quả;'),
-         ('recognise mutually exclusive events and independent events;', 'nhận biết hai biến cố [[xung khắc]] và hai [[biến cố độc lập]];'),
+         ('recognize mutually exclusive events and independent events;', 'nhận biết hai biến cố [[xung khắc]] và hai [[biến cố độc lập]];'),
          ('use \\(P(AB)=P(A)P(B)\\) for independent events and check independence with it;', 'dùng \\(P(AB)=P(A)P(B)\\) cho hai biến cố độc lập và dùng đẳng thức này để kiểm tra tính độc lập;'),
          ('translate real situations (shooters, machines, weather) into unions and intersections.', 'chuyển tình huống thực tế (xạ thủ, máy móc, thời tiết) thành biến cố hợp, giao.')]
 phrases = [('<b>A or B occurs.</b>', 'A hoặc B xảy ra.'), ('<b>Both A and B occur.</b>', 'Cả A và B cùng xảy ra.'), ('<b>The two events cannot happen at the same time.</b>', 'Hai biến cố không thể cùng xảy ra.'),
@@ -82,24 +82,24 @@ def dstr(x):
 def lvl(P):
     (A, B, ae, be, av, bv) = P['sets']   # dữ liệu xếp (tên EN của A, tên EN của B, tên VI của A, tên VI của B) – sửa M-007
     o1 = M4(1, 'A die is rolled. \\(A\\): "%s", \\(B\\): "%s". The event \\(A\\cap B\\) is…' % (ae, be), 'Gieo một con xúc xắc. \\(A\\): "%s", \\(B\\): "%s". Biến cố \\(A\\cap B\\) là…' % (av, bv), '\\(%s\\)' % S.setstr(A & B),
-            ['\\(%s\\)' % S.setstr(A | B), '\\(%s\\)' % S.setstr(A - B), '\\(%s\\)' % S.setstr(B - A)], 'Common outcomes.', 'Các kết quả thuộc cả \\(A\\) và \\(B\\).')
+            ['\\(%s\\)' % S.setstr(A | B), '\\(%s\\)' % S.setstr(A - B), '\\(%s\\)' % S.setstr(B - A)], 'The outcomes in both \\(A\\) and \\(B\\).', 'Các kết quả thuộc cả \\(A\\) và \\(B\\).')
     p, q = P['pq']
     o2 = M4(2, '\\(A\\), \\(B\\) are independent, \\(P(A)=%s\\), \\(P(B)=%s\\). \\(P(A\\overline B)=\\)…' % (dstr(p), dstr(q)), 'Hai biến cố \\(A\\), \\(B\\) độc lập, \\(P(A)=%s\\), \\(P(B)=%s\\). Khi đó \\(P(A\\overline B)=\\)…' % (dstr(p), dstr(q)), '\\(%s\\)' % dstr(p * (1 - q)),
-            ['\\(%s\\)' % dstr(p * q), '\\(%s\\)' % dstr((1 - p) * q), '\\(%s\\)' % dstr((1 - p) * (1 - q))], '\\(A\\), \\(\\overline B\\) are independent.', '\\(A\\) và \\(\\overline B\\) độc lập: \\(%s\\cdot(1-%s)\\).' % (dstr(p), dstr(q)))
+            ['\\(%s\\)' % dstr(p * q), '\\(%s\\)' % dstr((1 - p) * q), '\\(%s\\)' % dstr((1 - p) * (1 - q))], '\\(A\\) and \\(\\overline B\\) are independent: \\(%s\\cdot(1-%s)=%s\\).' % (dstr(p), dstr(q), dstr(p * (1 - q))), '\\(A\\) và \\(\\overline B\\) độc lập: \\(%s\\cdot(1-%s)=%s\\).' % (dstr(p), dstr(q), dstr(p * (1 - q))))
     a, b, c, d = P['box']
     pr = F(a, a + b) * F(c, c + d)
     o3 = M4(3, 'Box I: %d red, %d blue; box II: %d red, %d blue. One ball from each box. P(both blue) =…' % (a, b, c, d), 'Hộp I có %d bi đỏ, %d bi xanh; hộp II có %d bi đỏ, %d bi xanh. Lấy mỗi hộp một viên. Xác suất lấy được hai viên xanh là…' % (a, b, c, d), '\\(%s\\)' % fr(F(b, a + b) * F(d, c + d)),
-            ['\\(%s\\)' % fr(pr), '\\(%s\\)' % fr(F(b + d, a + b + c + d)), '\\(%s\\)' % fr(F(b, a + b) + F(d, c + d) - F(b, a + b) * F(d, c + d))], 'Independent draws.', 'Hai lần lấy độc lập: \\(\\dfrac{%d}{%d}\\cdot\\dfrac{%d}{%d}\\).' % (b, a + b, d, c + d))
+            ['\\(%s\\)' % fr(pr), '\\(%s\\)' % fr(F(b + d, a + b + c + d)), '\\(%s\\)' % fr(F(b, a + b) + F(d, c + d) - F(b, a + b) * F(d, c + d))], 'The two draws are independent: \\(\\dfrac{%d}{%d}\\cdot\\dfrac{%d}{%d}=%s\\).' % (b, a + b, d, c + d, fr(F(b, a + b) * F(d, c + d))), 'Hai lần lấy độc lập: \\(\\dfrac{%d}{%d}\\cdot\\dfrac{%d}{%d}=%s\\).' % (b, a + b, d, c + d, fr(F(b, a + b) * F(d, c + d))))
     (se, sv), v4 = P['t4']
     t4 = tf(4, se, sv, v4, 'Compare the definitions.', 'Đối chiếu định nghĩa xung khắc và độc lập.')
     (te, tv), v5 = P['t5']
     t5 = tf(5, te, tv, v5, 'Translate into union/intersection.', 'Chuyển sang ngôn ngữ hợp, giao.')
     N, m1, m2 = P['div']; l = m1 * m2 // math.gcd(m1, m2)
     s6 = sh(6, 'A number is chosen from 1 to %d. \\(A\\): "divisible by %d", \\(B\\): "divisible by %d". How many outcomes are in \\(A\\cup B\\)?' % (N, m1, m2), 'Chọn một số từ 1 đến %d. \\(A\\): "chia hết cho %d", \\(B\\): "chia hết cho %d". Biến cố \\(A\\cup B\\) có bao nhiêu kết quả thuận lợi?' % (N, m1, m2),
-            N // m1 + N // m2 - N // l, '\\(n(A)+n(B)-n(AB)\\).', '\\(%d+%d-%d\\) (\\(AB\\): chia hết cho %d).' % (N // m1, N // m2, N // l, l))
+            N // m1 + N // m2 - N // l, '\\(n(A)+n(B)-n(AB)=%d+%d-%d=%d\\) (\\(AB\\): divisible by %d).' % (N // m1, N // m2, N // l, N // m1 + N // m2 - N // l, l), '\\(n(A)+n(B)-n(AB)=%d+%d-%d=%d\\) (\\(AB\\): chia hết cho %d).' % (N // m1, N // m2, N // l, N // m1 + N // m2 - N // l, l))
     u, v = P['pct']
     s7 = sh(7, 'Two machines work independently with probabilities %s and %s. P(both work), as a percentage, is…' % (dstr(u), dstr(v)), 'Hai máy hoạt động độc lập với xác suất tốt lần lượt %s và %s. Xác suất cả hai máy đều tốt bằng bao nhiêu phần trăm?' % (dstr(u), dstr(v)),
-            int(u * v * 100), '\\(P(AB)=P(A)P(B)\\).', '\\(%s\\cdot%s=%s\\).' % (dstr(u), dstr(v), dstr(u * v)))
+            int(u * v * 100), '\\(P(AB)=P(A)P(B)=%s\\cdot%s=%s\\), i.e. %d%%.' % (dstr(u), dstr(v), dstr(u * v), int(u * v * 100)), '\\(P(AB)=P(A)P(B)=%s\\cdot%s=%s\\), tức là %d%%.' % (dstr(u), dstr(v), dstr(u * v), int(u * v * 100)))
     return [[o1, o2, o3], [t4, t5], [s6, s7]]
 
 

@@ -141,7 +141,7 @@ def tg_height(r, lv):
     wr = {30: [fr(F(L, 2)) for _ in range(0)]}
     wrong = ['%d\\cos %d^\\circ' % (L, 90 - a) if False else (fr(F(L * 3, 2)) if a == 30 else '%d\\sqrt3' % L), '%d' % L, '%d\\sqrt2' % L, '%s' % fr(F(L, 3)), '\\dfrac{%d\\sqrt3}{3}' % L]
     other = {30: ['\\dfrac{%d\\sqrt3}{2}' % L, '\\dfrac{%d\\sqrt2}{2}' % L], 45: ['\\dfrac{%d\\sqrt3}{2}' % L, fr(F(L, 2))], 60: [fr(F(L, 2)), '\\dfrac{%d\\sqrt2}{2}' % L]}[a]
-    return dict(en='A ladder %d m long leans on a wall and makes an angle of \\(%d^\\circ\\) with the ground. How high does it reach (in metres)?' % (L, a), vi='Một chiếc thang dài %d m dựa vào tường, tạo với mặt đất góc \\(%d^\\circ\\). Thang chạm tường ở độ cao bao nhiêu mét?' % (L, a),
+    return dict(en='A ladder %d m long leans on a wall and makes an angle of \\(%d^\\circ\\) with the ground. How high does it reach (in meters)?' % (L, a), vi='Một chiếc thang dài %d m dựa vào tường, tạo với mặt đất góc \\(%d^\\circ\\). Thang chạm tường ở độ cao bao nhiêu mét?' % (L, a),
       opts=[val] + other + ['%d' % L], ans=0, ee='Height \\(=%d\\sin %d^\\circ=%s\\) m.' % (L, a, val), ev='Độ cao \\(=%d\\sin %d^\\circ=%s\\) m.' % (L, a, val))
 
 B5 = [tg_special, tg_cos_obtuse, tg_tan_expr, tg_supp, tg_angle, tg_height, tg_special, tg_cos_obtuse]

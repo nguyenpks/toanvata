@@ -11,7 +11,7 @@ vocab = defs(CV, [
  ('geneq2', 'general equation of a line', 'phương trình tổng quát của đường thẳng', '\\(ax+by+c=0\\) with \\(a^2+b^2\\ne0\\); \\(\\vec n=(a;b)\\) is a normal vector.', '\\(ax+by+c=0\\) với \\(a^2+b^2\\ne0\\); \\(\\vec n=(a;b)\\) là một vectơ pháp tuyến.', 'Write the general equation of the line.', ''),
  ('nvec2', 'normal vector of a line', 'vectơ pháp tuyến của đường thẳng', 'a non-zero vector perpendicular to the direction of the line.', 'vectơ khác \\(\\vec0\\) có giá vuông góc với đường thẳng.', 'The normal vector is (2; −3).', '\\(\\vec n\\)'),
  ('slopeform', 'slope–intercept form', 'phương trình theo hệ số góc', '\\(y=kx+m\\); \\(k\\) is the slope.', '\\(y=kx+m\\); \\(k\\) là hệ số góc.', 'The line y = 2x + 1 has slope 2.', '')])
-goals = [('recognise direction vectors, normal vectors and the forms of the equation of a line;', 'nhận biết [[vectơ chỉ phương]], [[vectơ pháp tuyến của đường thẳng]] và các dạng phương trình đường thẳng;'),
+goals = [('recognize direction vectors, normal vectors and the forms of the equation of a line;', 'nhận biết [[vectơ chỉ phương]], [[vectơ pháp tuyến của đường thẳng]] và các dạng phương trình đường thẳng;'),
          ('write parametric and general equations from given data (a point and a vector, two points, a slope);', 'viết [[phương trình tham số]] và [[phương trình tổng quát của đường thẳng]] khi biết một điểm và một vectơ, hai điểm, hệ số góc;'),
          ('solve coordinate problems on lines in a triangle (altitudes, medians);', 'giải bài toán tọa độ về đường cao, đường trung tuyến trong tam giác;'),
          ('model linear relations in real life with a line.', 'mô hình hóa quan hệ bậc nhất trong thực tế bằng đường thẳng.')]
@@ -80,7 +80,7 @@ def lvl(P):
             '\\(c=-(%d\\cdot%d%+d\\cdot%d)=%d\\).' % (n6[0], M6[0], n6[1], M6[1], c6), '\\(c=-(%d\\cdot%d%+d\\cdot%d)=%d\\).' % (n6[0], M6[0], n6[1], M6[1], c6))
     (x1, y1), (x2, y2), x7 = P['taxi']; k7 = F(y2 - y1, x2 - x1); m7 = y1 - k7 * x1; y7 = k7 * x7 + m7; assert y7.denominator == 1
     s7 = sh(7, 'A fare \\(y\\) (thousand VND) is linear in the distance \\(x\\) (km): %d km costs %d, %d km costs %d. Find the fare for %d km.' % (x1, y1, x2, y2, x7), 'Cước \\(y\\) (nghìn đồng) phụ thuộc bậc nhất vào quãng đường \\(x\\) (km): đi %d km hết %d, đi %d km hết %d. Tính tiền đi %d km.' % (x1, y1, x2, y2, x7), int(y7),
-            '\\(y=%sx%+d\\).' % (fr(k7), int(m7)), '\\(y=%sx%+d\\), \\(x=%d\\Rightarrow y=%d\\).' % (fr(k7), int(m7), x7, int(y7)))
+            '\\(y=%sx%+d\\), \\(x=%d\\Rightarrow y=%d\\).' % (fr(k7), int(m7), x7, int(y7)), '\\(y=%sx%+d\\), \\(x=%d\\Rightarrow y=%d\\).' % (fr(k7), int(m7), x7, int(y7)))
     return [[o1, o2, o3], [t4, t5], [s6, s7]]
 PP = [dict(nv=((3, -2, 5), 2), two=((1, 1), (3, 5)), slope=((0, 1), (2, 7)), dir=((2, -1, 3), (1, 2)), on=((1, 2), (2, -1), (5, 0)), c=((1, 2), (2, 3)), taxi=((2, 26), (6, 58), 10)),
       dict(nv=((1, 4, -3), -1), two=((-2, 3), (1, 0)), slope=((1, -2), (4, 4)), dir=((3, 1, -2), (3, 1)), on=((0, -1), (3, 2), (6, 4)), c=((-1, 3), (4, -1)), taxi=((3, 33), (7, 61), 12)),

@@ -1,0 +1,984 @@
+{
+ "lesson": "g11-perp-01",
+ "grade": 11,
+ "no": 22,
+ "title": "Hai đường thẳng vuông góc",
+ "path": "lessons/grade11/perpendicularity-in-space/perpendicular-lines.html",
+ "items": [
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Box \\(ABCD.A'B'C'D'\\): \\(AB=#\\), \\(AD=#\\). The cosine of the angle between \\(AB\\) and \\(A'C'\\) is…",
+   "en": "Box \\(ABCD.A'B'C'D'\\): \\(AB=3\\), \\(AD=4\\). The cosine of the angle between \\(AB\\) and \\(A'C'\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelepiped\">Hình hộp</b> chữ nhật \\(ABCD.A'B'C'D'\\) có \\(AB=3\\), \\(AD=4\\). Côsin của góc giữa \\(AB\\) và \\(A'C'\\) bằng…",
+   "options": [
+    "\\(\\dfrac{4}{5}\\)",
+    "\\(\\dfrac{3}{5}\\)",
+    "\\(\\dfrac{3}{4}\\)",
+    "\\(\\dfrac{4}{3}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(A'C'\\parallel AC\\), \\(AC=5\\): \\(\\cos\\widehat{BAC}=\\dfrac{3}{5}\\).",
+   "explain_vi": "Đáp án b. \\(A'C'\\parallel AC\\), \\(AC=5\\): \\(\\cos\\widehat{BAC}=\\dfrac{3}{5}\\).",
+   "images": [],
+   "id": "fbbe6c78f32d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "In the cube \\(ABCD.A'B'C'D'\\), the angle between \\(AB\\) and \\(B'C'\\) is…",
+   "en": "In the cube \\(ABCD.A'B'C'D'\\), the angle between \\(AB\\) and \\(B'C'\\) is…",
+   "vi": "Trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"cube\">hình lập phương</b> \\(ABCD.A'B'C'D'\\), góc giữa \\(AB\\) và \\(B'C'\\) bằng…",
+   "options": [
+    "\\(0^\\circ\\)",
+    "\\(45^\\circ\\)",
+    "\\(60^\\circ\\)",
+    "\\(90^\\circ\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(B'C'\\parallel BC\\perp AB\\).",
+   "explain_vi": "Đáp án d. \\(B'C'\\parallel BC\\) mà \\(BC\\perp AB\\).",
+   "images": [],
+   "id": "5f0e5d7c3266",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(S.ABCD\\): square base, all edges equal. The angle between \\(SA\\) and \\(BC\\) is…",
+   "en": "\\(S.ABCD\\): square base, all edges equal. The angle between \\(SA\\) and \\(BC\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">Hình chóp</b> \\(S.ABCD\\) có đáy hình vuông và tất cả các cạnh bằng nhau. Góc giữa \\(SA\\) và \\(BC\\) bằng…",
+   "options": [
+    "\\(45^\\circ\\)",
+    "\\(30^\\circ\\)",
+    "\\(60^\\circ\\)",
+    "\\(90^\\circ\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(BC\\parallel AD\\); consider the angle \\(\\widehat{SAD}\\).",
+   "explain_vi": "Đáp án c. \\(BC\\parallel AD\\); xét góc \\(\\widehat{SAD}\\).",
+   "images": [],
+   "id": "98b99e6fccc3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "In space, two lines perpendicular to a third line are parallel.",
+   "en": "In space, two lines perpendicular to a third line are parallel.",
+   "vi": "Trong không gian, hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> cùng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"perpendicular\">vuông góc</b> với một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> thứ ba thì <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b> với nhau.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "Think of the edges of a cube.",
+   "explain_vi": "Hãy nghĩ đến các cạnh của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"cube\">hình lập phương</b>.",
+   "images": [],
+   "id": "cc063703c128",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "In the cube \\(ABCD.A'B'C'D'\\): \\(AC\\perp B'D'\\).",
+   "en": "In the cube \\(ABCD.A'B'C'D'\\): \\(AC\\perp B'D'\\).",
+   "vi": "Trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"cube\">hình lập phương</b> \\(ABCD.A'B'C'D'\\): \\(AC\\perp B'D'\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "Translate one line to meet the other, then consider the triangle.",
+   "explain_vi": "Dời một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> để cắt đường kia rồi xét tam giác.",
+   "images": [],
+   "id": "7262b45a39cc",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "Box \\(ABCD.A'B'C'D'\\) with \\(AB=#\\), \\(AD=#\\sqrt#\\). Find the angle (degrees) between \\(AB\\) and \\(A'C'\\).",
+   "en": "Box \\(ABCD.A'B'C'D'\\) with \\(AB=4\\), \\(AD=4\\sqrt3\\). Find the angle (degrees) between \\(AB\\) and \\(A'C'\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelepiped\">Hình hộp</b> chữ nhật \\(ABCD.A'B'C'D'\\) có \\(AB=4\\), \\(AD=4\\sqrt3\\). Tính góc (độ) giữa \\(AB\\) và \\(A'C'\\).",
+   "options": [],
+   "answer": "60",
+   "explain_en": "\\(A'C'\\parallel AC\\), \\(\\tan\\widehat{BAC}=\\dfrac{BC}{AB}=\\dfrac{4\\sqrt3}{4}\\), so the angle is \\(60^\\circ\\).",
+   "explain_vi": "\\(A'C'\\parallel AC\\), \\(\\tan\\widehat{BAC}=\\dfrac{BC}{AB}=\\dfrac{4\\sqrt3}{4}\\) nên góc bằng \\(60^\\circ\\).",
+   "images": [],
+   "id": "8ca1df1a965a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "Tetrahedron \\(ABCD\\): \\(AB=CD=#\\), \\(M\\), \\(N\\) midpoints of \\(BC\\), \\(AD\\), \\(MN=#\\sqrt{#}\\). Find \\((AB,CD)\\) in degrees.",
+   "en": "Tetrahedron \\(ABCD\\): \\(AB=CD=6\\), \\(M\\), \\(N\\) midpoints of \\(BC\\), \\(AD\\), \\(MN=3\\sqrt{2}\\). Find \\((AB,CD)\\) in degrees.",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"tetrahedron\">Tứ diện</b> \\(ABCD\\) có \\(AB=CD=6\\), \\(M\\), \\(N\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> \\(BC\\), \\(AD\\), \\(MN=3\\sqrt{2}\\). Tính \\((AB,CD)\\) (độ).",
+   "options": [],
+   "answer": "90",
+   "explain_en": "\\(P\\) is the midpoint of \\(AC\\): \\(PM=PN=3\\), \\(\\cos\\widehat{MPN}=0\\), so the angle between the lines is \\(90^\\circ\\).",
+   "explain_vi": "\\(P\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> \\(AC\\): \\(PM=PN=3\\), \\(\\cos\\widehat{MPN}=0\\) nên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"angle between two lines\">góc giữa hai đường thẳng</b> bằng \\(90^\\circ\\).",
+   "images": [],
+   "id": "5999159806f4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "A box \\(ABCD.A'B'C'D'\\) has \\(AB=#\\), \\(AD=#\\), \\(AA'=#\\). If \\(\\varphi\\) is the angle between \\(AB\\) and \\(A'C'\\), then \\(\\cos\\varphi=\\)…",
+   "en": "A box \\(ABCD.A'B'C'D'\\) has \\(AB=5\\), \\(AD=12\\), \\(AA'=5\\). If \\(\\varphi\\) is the angle between \\(AB\\) and \\(A'C'\\), then \\(\\cos\\varphi=\\)…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelepiped\">Hình hộp</b> chữ nhật \\(ABCD.A'B'C'D'\\) có \\(AB=5\\), \\(AD=12\\), \\(AA'=5\\). Gọi \\(\\varphi\\) là góc giữa \\(AB\\) và \\(A'C'\\). Khi đó \\(\\cos\\varphi=\\)…",
+   "options": [
+    "\\(\\dfrac{5}{12}\\)",
+    "\\(\\dfrac{12}{5}\\)",
+    "\\(\\dfrac{5}{13}\\)",
+    "\\(\\dfrac{12}{13}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(A'C'\\parallel AC\\): \\(\\cos\\widehat{BAC}=\\dfrac{AB}{AC}=\\dfrac{5}{13}\\).",
+   "explain_vi": "Đáp án c. \\(A'C'\\parallel AC\\): \\(\\cos\\widehat{BAC}=\\dfrac{AB}{AC}=\\dfrac{5}{13}\\).",
+   "images": [],
+   "id": "423e02dc5afb",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "A box \\(ABCD.A'B'C'D'\\) has \\(AB=#\\), \\(AD=#\\), \\(AA'=#\\). If \\(\\varphi\\) is the angle between \\(BB'\\) and \\(AC'\\), then \\(\\cos\\varphi=\\)…",
+   "en": "A box \\(ABCD.A'B'C'D'\\) has \\(AB=4\\), \\(AD=8\\), \\(AA'=1\\). If \\(\\varphi\\) is the angle between \\(BB'\\) and \\(AC'\\), then \\(\\cos\\varphi=\\)…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelepiped\">Hình hộp</b> chữ nhật \\(ABCD.A'B'C'D'\\) có \\(AB=4\\), \\(AD=8\\), \\(AA'=1\\). Gọi \\(\\varphi\\) là góc giữa \\(BB'\\) và \\(AC'\\). Khi đó \\(\\cos\\varphi=\\)…",
+   "options": [
+    "\\(\\dfrac{1}{12}\\)",
+    "\\(\\dfrac{4}{9}\\)",
+    "\\(\\dfrac{1}{9}\\)",
+    "\\(\\dfrac{8}{9}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(BB'\\parallel CC'\\): \\(\\cos\\widehat{AC'C}=\\dfrac{CC'}{AC'}=\\dfrac{1}{9}\\) with \\(AC'=\\sqrt{16+64+1}=9\\).",
+   "explain_vi": "Đáp án c. \\(BB'\\parallel CC'\\): \\(\\cos\\widehat{AC'C}=\\dfrac{CC'}{AC'}=\\dfrac{1}{9}\\) với \\(AC'=\\sqrt{16+64+1}=9\\).",
+   "images": [],
+   "id": "8d3574a73b64",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "A room is # m long, # m wide and # m high. A cable runs along a diagonal of the floor. If \\(\\varphi\\) is the angle between the cable and a # m edge of the ceiling, then \\(\\cos\\varphi=\\)…",
+   "en": "A room is 8 m long, 15 m wide and 4 m high. A cable runs along a diagonal of the floor. If \\(\\varphi\\) is the angle between the cable and a 15 m edge of the ceiling, then \\(\\cos\\varphi=\\)…",
+   "vi": "Một căn phòng dài 8 m, rộng 15 m, cao 4 m. Một sợi cáp chạy theo <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b> sàn nhà. Gọi \\(\\varphi\\) là góc giữa sợi cáp và một cạnh dài 15 m của trần nhà. Khi đó \\(\\cos\\varphi=\\)…",
+   "options": [
+    "\\(\\dfrac{15}{17}\\)",
+    "\\(\\dfrac{4}{17}\\)",
+    "\\(\\dfrac{15}{8}\\)",
+    "\\(\\dfrac{8}{17}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. The ceiling edge is parallel to a floor edge of length 15 m; the floor diagonal is 17 m, so \\(\\cos\\varphi=\\dfrac{15}{17}\\).",
+   "explain_vi": "Đáp án a. Cạnh trần <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b> với cạnh sàn dài 15 m; <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b> sàn dài 17 m nên \\(\\cos\\varphi=\\dfrac{15}{17}\\).",
+   "images": [],
+   "id": "24db92663aad",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Cube \\(ABCD.A'B'C'D'\\) with edge #. The angle between \\(A'B\\) and \\(B'C\\) is…",
+   "en": "Cube \\(ABCD.A'B'C'D'\\) with edge 8. The angle between \\(A'B\\) and \\(B'C\\) is…",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"cube\">hình lập phương</b> \\(ABCD.A'B'C'D'\\) cạnh 8. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"angle between two lines\">Góc giữa hai đường thẳng</b> \\(A'B\\) và \\(B'C\\) bằng…",
+   "options": [
+    "\\(45^\\circ\\)",
+    "\\(30^\\circ\\)",
+    "\\(0^\\circ\\)",
+    "\\(60^\\circ\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(A'B\\parallel D'C\\); triangle \\(B'CD'\\) is equilateral.",
+   "explain_vi": "Đáp án d. \\(A'B\\parallel D'C\\); tam giác \\(B'CD'\\) đều.",
+   "images": [],
+   "id": "0188b853715f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Cube \\(ABCD.A'B'C'D'\\) with edge #. The angle between \\(AD\\) and \\(B'C'\\) is…",
+   "en": "Cube \\(ABCD.A'B'C'D'\\) with edge 5. The angle between \\(AD\\) and \\(B'C'\\) is…",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"cube\">hình lập phương</b> \\(ABCD.A'B'C'D'\\) cạnh 5. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"angle between two lines\">Góc giữa hai đường thẳng</b> \\(AD\\) và \\(B'C'\\) bằng…",
+   "options": [
+    "\\(60^\\circ\\)",
+    "\\(0^\\circ\\)",
+    "\\(30^\\circ\\)",
+    "\\(45^\\circ\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(B'C'\\parallel BC\\parallel AD\\).",
+   "explain_vi": "Đáp án b. \\(B'C'\\parallel BC\\parallel AD\\).",
+   "images": [],
+   "id": "669e98402ce3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Pyramid \\(S.ABCD\\): \\(ABCD\\) is a square of side # and all lateral edges equal #. The angle between \\(SA\\) and \\(SC\\) is…",
+   "en": "Pyramid \\(S.ABCD\\): \\(ABCD\\) is a square of side 5 and all lateral edges equal 5. The angle between \\(SA\\) and \\(SC\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">Hình chóp</b> \\(S.ABCD\\) có đáy là hình vuông cạnh 5 và tất cả các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"lateral edge\">cạnh bên</b> bằng 5. Góc giữa \\(SA\\) và \\(SC\\) bằng…",
+   "options": [
+    "\\(90^\\circ\\)",
+    "\\(30^\\circ\\)",
+    "\\(45^\\circ\\)",
+    "\\(0^\\circ\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(SA^2+SC^2=2a^2=AC^2\\); use the angle \\(\\widehat{ASC}\\) (the lateral faces are equilateral triangles).",
+   "explain_vi": "Đáp án a. \\(SA^2+SC^2=2a^2=AC^2\\); xét góc \\(\\widehat{ASC}\\) (các mặt bên là tam giác đều).",
+   "images": [],
+   "id": "27da18ce2fd0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Pyramid \\(S.ABCD\\): \\(ABCD\\) is a square of side # and all lateral edges equal #. The angle between \\(SB\\) and \\(AD\\) is…",
+   "en": "Pyramid \\(S.ABCD\\): \\(ABCD\\) is a square of side 6 and all lateral edges equal 6. The angle between \\(SB\\) and \\(AD\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">Hình chóp</b> \\(S.ABCD\\) có đáy là hình vuông cạnh 6 và tất cả các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"lateral edge\">cạnh bên</b> bằng 6. Góc giữa \\(SB\\) và \\(AD\\) bằng…",
+   "options": [
+    "\\(45^\\circ\\)",
+    "\\(0^\\circ\\)",
+    "\\(30^\\circ\\)",
+    "\\(60^\\circ\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(AD\\parallel BC\\); use the angle \\(\\widehat{SBC}\\) (the lateral faces are equilateral triangles).",
+   "explain_vi": "Đáp án d. \\(AD\\parallel BC\\); xét góc \\(\\widehat{SBC}\\) (các mặt bên là tam giác đều).",
+   "images": [],
+   "id": "d13ac60ab2ca",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Tetrahedron \\(ABCD\\): \\(AB=CD=#\\); \\(M\\), \\(N\\) are the midpoints of \\(BC\\), \\(AD\\) and \\(MN=#\\sqrt{#}\\). The angle between \\(AB\\) and \\(CD\\) is…",
+   "en": "Tetrahedron \\(ABCD\\): \\(AB=CD=12\\); \\(M\\), \\(N\\) are the midpoints of \\(BC\\), \\(AD\\) and \\(MN=6\\sqrt{3}\\). The angle between \\(AB\\) and \\(CD\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"tetrahedron\">Tứ diện</b> \\(ABCD\\) có \\(AB=CD=12\\); \\(M\\), \\(N\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> của \\(BC\\), \\(AD\\) và \\(MN=6\\sqrt{3}\\). Góc giữa \\(AB\\) và \\(CD\\) bằng…",
+   "options": [
+    "\\(90^\\circ\\)",
+    "\\(60^\\circ\\)",
+    "\\(30^\\circ\\)",
+    "\\(45^\\circ\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Let \\(P\\) be the midpoint of \\(AC\\): \\(PM=PN=6\\), \\(\\cos\\widehat{MPN}=-\\dfrac{1}{2}\\); the angle between the two lines is the corresponding acute (or right) angle, \\(60^\\circ\\).",
+   "explain_vi": "Đáp án b. Gọi \\(P\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> \\(AC\\): \\(PM=PN=6\\), \\(\\cos\\widehat{MPN}=-\\dfrac{1}{2}\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"angle between two lines\">góc giữa hai đường thẳng</b> là góc nhọn (hoặc vuông) tương ứng, bằng \\(60^\\circ\\).",
+   "images": [],
+   "id": "34849e777aaa",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Box \\(ABCD.A'B'C'D'\\): \\(AB=#\\), \\(AD=#\\). The cosine of the angle between \\(AB\\) and \\(A'C'\\) is…",
+   "en": "Box \\(ABCD.A'B'C'D'\\): \\(AB=5\\), \\(AD=12\\). The cosine of the angle between \\(AB\\) and \\(A'C'\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelepiped\">Hình hộp</b> chữ nhật \\(ABCD.A'B'C'D'\\) có \\(AB=5\\), \\(AD=12\\). Côsin của góc giữa \\(AB\\) và \\(A'C'\\) bằng…",
+   "options": [
+    "\\(\\dfrac{12}{13}\\)",
+    "\\(\\dfrac{5}{12}\\)",
+    "\\(\\dfrac{5}{13}\\)",
+    "\\(\\dfrac{12}{5}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(A'C'\\parallel AC\\), \\(AC=13\\): \\(\\cos\\widehat{BAC}=\\dfrac{5}{13}\\).",
+   "explain_vi": "Đáp án c. \\(A'C'\\parallel AC\\), \\(AC=13\\): \\(\\cos\\widehat{BAC}=\\dfrac{5}{13}\\).",
+   "images": [],
+   "id": "6e75cb97affd",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "In the cube \\(ABCD.A'B'C'D'\\), the angle between \\(A'B\\) and \\(B'C\\) is…",
+   "en": "In the cube \\(ABCD.A'B'C'D'\\), the angle between \\(A'B\\) and \\(B'C\\) is…",
+   "vi": "Trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"cube\">hình lập phương</b> \\(ABCD.A'B'C'D'\\), góc giữa \\(A'B\\) và \\(B'C\\) bằng…",
+   "options": [
+    "\\(0^\\circ\\)",
+    "\\(45^\\circ\\)",
+    "\\(90^\\circ\\)",
+    "\\(60^\\circ\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(A'B\\parallel D'C\\); triangle \\(B'CD'\\) is equilateral.",
+   "explain_vi": "Đáp án d. \\(A'B\\parallel D'C\\); tam giác \\(B'CD'\\) đều.",
+   "images": [],
+   "id": "6be690cd9a95",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(S.ABCD\\): square base, all edges equal. The angle between \\(SA\\) and \\(SC\\) is…",
+   "en": "\\(S.ABCD\\): square base, all edges equal. The angle between \\(SA\\) and \\(SC\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">Hình chóp</b> \\(S.ABCD\\) có đáy hình vuông và tất cả các cạnh bằng nhau. Góc giữa \\(SA\\) và \\(SC\\) bằng…",
+   "options": [
+    "\\(45^\\circ\\)",
+    "\\(30^\\circ\\)",
+    "\\(90^\\circ\\)",
+    "\\(60^\\circ\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(SA^2+SC^2=2a^2=AC^2\\); consider the angle \\(\\widehat{ASC}\\).",
+   "explain_vi": "Đáp án c. \\(SA^2+SC^2=2a^2=AC^2\\); xét góc \\(\\widehat{ASC}\\).",
+   "images": [],
+   "id": "4271a6f99280",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "If \\(a\\parallel b\\) and \\(c\\perp a\\), then \\(c\\perp b\\).",
+   "en": "If \\(a\\parallel b\\) and \\(c\\perp a\\), then \\(c\\perp b\\).",
+   "vi": "Nếu \\(a\\parallel b\\) và \\(c\\perp a\\) thì \\(c\\perp b\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "Think of the edges of a cube.",
+   "explain_vi": "Hãy nghĩ đến các cạnh của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"cube\">hình lập phương</b>.",
+   "images": [],
+   "id": "059dba68595f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "In the cube \\(ABCD.A'B'C'D'\\): \\(A'B\\perp AD'\\).",
+   "en": "In the cube \\(ABCD.A'B'C'D'\\): \\(A'B\\perp AD'\\).",
+   "vi": "Trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"cube\">hình lập phương</b> \\(ABCD.A'B'C'D'\\): \\(A'B\\perp AD'\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "Translate one line to meet the other, then consider the triangle.",
+   "explain_vi": "Dời một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> để cắt đường kia rồi xét tam giác.",
+   "images": [],
+   "id": "1d17748c4e1a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "Box \\(ABCD.A'B'C'D'\\) with \\(AB=#\\), \\(AD=#\\). Find the angle (degrees) between \\(AB\\) and \\(A'C'\\).",
+   "en": "Box \\(ABCD.A'B'C'D'\\) with \\(AB=5\\), \\(AD=5\\). Find the angle (degrees) between \\(AB\\) and \\(A'C'\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelepiped\">Hình hộp</b> chữ nhật \\(ABCD.A'B'C'D'\\) có \\(AB=5\\), \\(AD=5\\). Tính góc (độ) giữa \\(AB\\) và \\(A'C'\\).",
+   "options": [],
+   "answer": "45",
+   "explain_en": "\\(A'C'\\parallel AC\\), \\(\\tan\\widehat{BAC}=\\dfrac{BC}{AB}=\\dfrac{5}{5}\\), so the angle is \\(45^\\circ\\).",
+   "explain_vi": "\\(A'C'\\parallel AC\\), \\(\\tan\\widehat{BAC}=\\dfrac{BC}{AB}=\\dfrac{5}{5}\\) nên góc bằng \\(45^\\circ\\).",
+   "images": [],
+   "id": "2afc0307c6de",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "Tetrahedron \\(ABCD\\): \\(AB=CD=#\\), \\(M\\), \\(N\\) midpoints of \\(BC\\), \\(AD\\), \\(MN=#\\sqrt{#}\\). Find \\((AB,CD)\\) in degrees.",
+   "en": "Tetrahedron \\(ABCD\\): \\(AB=CD=4\\), \\(M\\), \\(N\\) midpoints of \\(BC\\), \\(AD\\), \\(MN=2\\sqrt{3}\\). Find \\((AB,CD)\\) in degrees.",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"tetrahedron\">Tứ diện</b> \\(ABCD\\) có \\(AB=CD=4\\), \\(M\\), \\(N\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> \\(BC\\), \\(AD\\), \\(MN=2\\sqrt{3}\\). Tính \\((AB,CD)\\) (độ).",
+   "options": [],
+   "answer": "60",
+   "explain_en": "\\(P\\) is the midpoint of \\(AC\\): \\(PM=PN=2\\), \\(\\cos\\widehat{MPN}=-\\dfrac{1}{2}\\), so the angle between the lines is \\(60^\\circ\\).",
+   "explain_vi": "\\(P\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> \\(AC\\): \\(PM=PN=2\\), \\(\\cos\\widehat{MPN}=-\\dfrac{1}{2}\\) nên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"angle between two lines\">góc giữa hai đường thẳng</b> bằng \\(60^\\circ\\).",
+   "images": [],
+   "id": "81d951b639af",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "A box \\(ABCD.A'B'C'D'\\) has \\(AB=#\\), \\(AD=#\\), \\(AA'=#\\). If \\(\\varphi\\) is the angle between \\(AB\\) and \\(A'C'\\), then \\(\\cos\\varphi=\\)…",
+   "en": "A box \\(ABCD.A'B'C'D'\\) has \\(AB=4\\), \\(AD=3\\), \\(AA'=5\\). If \\(\\varphi\\) is the angle between \\(AB\\) and \\(A'C'\\), then \\(\\cos\\varphi=\\)…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelepiped\">Hình hộp</b> chữ nhật \\(ABCD.A'B'C'D'\\) có \\(AB=4\\), \\(AD=3\\), \\(AA'=5\\). Gọi \\(\\varphi\\) là góc giữa \\(AB\\) và \\(A'C'\\). Khi đó \\(\\cos\\varphi=\\)…",
+   "options": [
+    "\\(\\dfrac{3}{5}\\)",
+    "\\(\\dfrac{4}{5}\\)",
+    "\\(\\dfrac{4}{3}\\)",
+    "\\(\\dfrac{3}{4}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(A'C'\\parallel AC\\): \\(\\cos\\widehat{BAC}=\\dfrac{AB}{AC}=\\dfrac{4}{5}\\).",
+   "explain_vi": "Đáp án b. \\(A'C'\\parallel AC\\): \\(\\cos\\widehat{BAC}=\\dfrac{AB}{AC}=\\dfrac{4}{5}\\).",
+   "images": [],
+   "id": "edacea8c68f2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "A box \\(ABCD.A'B'C'D'\\) has \\(AB=#\\), \\(AD=#\\), \\(AA'=#\\). If \\(\\varphi\\) is the angle between \\(BB'\\) and \\(AC'\\), then \\(\\cos\\varphi=\\)…",
+   "en": "A box \\(ABCD.A'B'C'D'\\) has \\(AB=6\\), \\(AD=6\\), \\(AA'=7\\). If \\(\\varphi\\) is the angle between \\(BB'\\) and \\(AC'\\), then \\(\\cos\\varphi=\\)…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelepiped\">Hình hộp</b> chữ nhật \\(ABCD.A'B'C'D'\\) có \\(AB=6\\), \\(AD=6\\), \\(AA'=7\\). Gọi \\(\\varphi\\) là góc giữa \\(BB'\\) và \\(AC'\\). Khi đó \\(\\cos\\varphi=\\)…",
+   "options": [
+    "\\(\\dfrac{4}{11}\\)",
+    "\\(\\dfrac{7}{11}\\)",
+    "\\(\\dfrac{6}{11}\\)",
+    "\\(\\dfrac{7}{12}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(BB'\\parallel CC'\\): \\(\\cos\\widehat{AC'C}=\\dfrac{CC'}{AC'}=\\dfrac{7}{11}\\) with \\(AC'=\\sqrt{36+36+49}=11\\).",
+   "explain_vi": "Đáp án b. \\(BB'\\parallel CC'\\): \\(\\cos\\widehat{AC'C}=\\dfrac{CC'}{AC'}=\\dfrac{7}{11}\\) với \\(AC'=\\sqrt{36+36+49}=11\\).",
+   "images": [],
+   "id": "3c664cd17630",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "A room is # m long, # m wide and # m high. A cable runs along a diagonal of the floor. If \\(\\varphi\\) is the angle between the cable and a # m edge of the ceiling, then \\(\\cos\\varphi=\\)…",
+   "en": "A room is 6 m long, 8 m wide and 4 m high. A cable runs along a diagonal of the floor. If \\(\\varphi\\) is the angle between the cable and a 8 m edge of the ceiling, then \\(\\cos\\varphi=\\)…",
+   "vi": "Một căn phòng dài 6 m, rộng 8 m, cao 4 m. Một sợi cáp chạy theo <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b> sàn nhà. Gọi \\(\\varphi\\) là góc giữa sợi cáp và một cạnh dài 8 m của trần nhà. Khi đó \\(\\cos\\varphi=\\)…",
+   "options": [
+    "\\(\\dfrac{3}{5}\\)",
+    "\\(\\dfrac{2}{5}\\)",
+    "\\(\\dfrac{4}{3}\\)",
+    "\\(\\dfrac{4}{5}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. The ceiling edge is parallel to a floor edge of length 8 m; the floor diagonal is 10 m, so \\(\\cos\\varphi=\\dfrac{8}{10}\\).",
+   "explain_vi": "Đáp án d. Cạnh trần <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b> với cạnh sàn dài 8 m; <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b> sàn dài 10 m nên \\(\\cos\\varphi=\\dfrac{8}{10}\\).",
+   "images": [],
+   "id": "1f673692c3e8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Cube \\(ABCD.A'B'C'D'\\) with edge #. The angle between \\(A'B\\) and \\(AD'\\) is…",
+   "en": "Cube \\(ABCD.A'B'C'D'\\) with edge 6. The angle between \\(A'B\\) and \\(AD'\\) is…",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"cube\">hình lập phương</b> \\(ABCD.A'B'C'D'\\) cạnh 6. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"angle between two lines\">Góc giữa hai đường thẳng</b> \\(A'B\\) và \\(AD'\\) bằng…",
+   "options": [
+    "\\(60^\\circ\\)",
+    "\\(30^\\circ\\)",
+    "\\(0^\\circ\\)",
+    "\\(45^\\circ\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(A'B\\parallel D'C\\); triangle \\(ACD'\\) is equilateral.",
+   "explain_vi": "Đáp án a. \\(A'B\\parallel D'C\\); tam giác \\(ACD'\\) đều.",
+   "images": [],
+   "id": "5396ed38c117",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Cube \\(ABCD.A'B'C'D'\\) with edge #. The angle between \\(AB\\) and \\(A'C'\\) is…",
+   "en": "Cube \\(ABCD.A'B'C'D'\\) with edge 8. The angle between \\(AB\\) and \\(A'C'\\) is…",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"cube\">hình lập phương</b> \\(ABCD.A'B'C'D'\\) cạnh 8. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"angle between two lines\">Góc giữa hai đường thẳng</b> \\(AB\\) và \\(A'C'\\) bằng…",
+   "options": [
+    "\\(30^\\circ\\)",
+    "\\(45^\\circ\\)",
+    "\\(0^\\circ\\)",
+    "\\(60^\\circ\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(A'C'\\parallel AC\\), \\(\\widehat{BAC}=45^\\circ\\).",
+   "explain_vi": "Đáp án b. \\(A'C'\\parallel AC\\), \\(\\widehat{BAC}=45^\\circ\\).",
+   "images": [],
+   "id": "be4581d32442",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Pyramid \\(S.ABCD\\): \\(ABCD\\) is a square of side # and all lateral edges equal #. The angle between \\(SB\\) and \\(AD\\) is…",
+   "en": "Pyramid \\(S.ABCD\\): \\(ABCD\\) is a square of side 2 and all lateral edges equal 2. The angle between \\(SB\\) and \\(AD\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">Hình chóp</b> \\(S.ABCD\\) có đáy là hình vuông cạnh 2 và tất cả các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"lateral edge\">cạnh bên</b> bằng 2. Góc giữa \\(SB\\) và \\(AD\\) bằng…",
+   "options": [
+    "\\(30^\\circ\\)",
+    "\\(0^\\circ\\)",
+    "\\(45^\\circ\\)",
+    "\\(60^\\circ\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(AD\\parallel BC\\); use the angle \\(\\widehat{SBC}\\) (the lateral faces are equilateral triangles).",
+   "explain_vi": "Đáp án d. \\(AD\\parallel BC\\); xét góc \\(\\widehat{SBC}\\) (các mặt bên là tam giác đều).",
+   "images": [],
+   "id": "a8c577dc2dbf",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Pyramid \\(S.ABCD\\): \\(ABCD\\) is a square of side # and all lateral edges equal #. The angle between \\(SB\\) and \\(SD\\) is…",
+   "en": "Pyramid \\(S.ABCD\\): \\(ABCD\\) is a square of side 5 and all lateral edges equal 5. The angle between \\(SB\\) and \\(SD\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">Hình chóp</b> \\(S.ABCD\\) có đáy là hình vuông cạnh 5 và tất cả các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"lateral edge\">cạnh bên</b> bằng 5. Góc giữa \\(SB\\) và \\(SD\\) bằng…",
+   "options": [
+    "\\(30^\\circ\\)",
+    "\\(0^\\circ\\)",
+    "\\(90^\\circ\\)",
+    "\\(45^\\circ\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(SB^2+SD^2=2a^2=BD^2\\); use the angle \\(\\widehat{BSD}\\) (the lateral faces are equilateral triangles).",
+   "explain_vi": "Đáp án c. \\(SB^2+SD^2=2a^2=BD^2\\); xét góc \\(\\widehat{BSD}\\) (các mặt bên là tam giác đều).",
+   "images": [],
+   "id": "edad2c702c17",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Tetrahedron \\(ABCD\\): \\(AB=CD=#\\); \\(M\\), \\(N\\) are the midpoints of \\(BC\\), \\(AD\\) and \\(MN=#\\sqrt{#}\\). The angle between \\(AB\\) and \\(CD\\) is…",
+   "en": "Tetrahedron \\(ABCD\\): \\(AB=CD=8\\); \\(M\\), \\(N\\) are the midpoints of \\(BC\\), \\(AD\\) and \\(MN=4\\sqrt{2}\\). The angle between \\(AB\\) and \\(CD\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"tetrahedron\">Tứ diện</b> \\(ABCD\\) có \\(AB=CD=8\\); \\(M\\), \\(N\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> của \\(BC\\), \\(AD\\) và \\(MN=4\\sqrt{2}\\). Góc giữa \\(AB\\) và \\(CD\\) bằng…",
+   "options": [
+    "\\(60^\\circ\\)",
+    "\\(30^\\circ\\)",
+    "\\(45^\\circ\\)",
+    "\\(90^\\circ\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Let \\(P\\) be the midpoint of \\(AC\\): \\(PM=PN=4\\), \\(\\cos\\widehat{MPN}=0\\); the angle between the two lines is the corresponding acute (or right) angle, \\(90^\\circ\\).",
+   "explain_vi": "Đáp án d. Gọi \\(P\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> \\(AC\\): \\(PM=PN=4\\), \\(\\cos\\widehat{MPN}=0\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"angle between two lines\">góc giữa hai đường thẳng</b> là góc nhọn (hoặc vuông) tương ứng, bằng \\(90^\\circ\\).",
+   "images": [],
+   "id": "a3a4eb1a8c2a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Box \\(ABCD.A'B'C'D'\\): \\(AB=#\\), \\(AD=#\\). The cosine of the angle between \\(AB\\) and \\(A'C'\\) is…",
+   "en": "Box \\(ABCD.A'B'C'D'\\): \\(AB=8\\), \\(AD=6\\). The cosine of the angle between \\(AB\\) and \\(A'C'\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelepiped\">Hình hộp</b> chữ nhật \\(ABCD.A'B'C'D'\\) có \\(AB=8\\), \\(AD=6\\). Côsin của góc giữa \\(AB\\) và \\(A'C'\\) bằng…",
+   "options": [
+    "\\(\\dfrac{3}{5}\\)",
+    "\\(\\dfrac{4}{5}\\)",
+    "\\(\\dfrac{4}{3}\\)",
+    "\\(\\dfrac{3}{4}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(A'C'\\parallel AC\\), \\(AC=10\\): \\(\\cos\\widehat{BAC}=\\dfrac{8}{10}\\).",
+   "explain_vi": "Đáp án b. \\(A'C'\\parallel AC\\), \\(AC=10\\): \\(\\cos\\widehat{BAC}=\\dfrac{8}{10}\\).",
+   "images": [],
+   "id": "e14ccc38e707",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "In the cube \\(ABCD.A'B'C'D'\\), the angle between \\(AC\\) and \\(A'D'\\) is…",
+   "en": "In the cube \\(ABCD.A'B'C'D'\\), the angle between \\(AC\\) and \\(A'D'\\) is…",
+   "vi": "Trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"cube\">hình lập phương</b> \\(ABCD.A'B'C'D'\\), góc giữa \\(AC\\) và \\(A'D'\\) bằng…",
+   "options": [
+    "\\(0^\\circ\\)",
+    "\\(60^\\circ\\)",
+    "\\(90^\\circ\\)",
+    "\\(45^\\circ\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(A'D'\\parallel AD\\), \\(\\widehat{CAD}=45^\\circ\\).",
+   "explain_vi": "Đáp án d. \\(A'D'\\parallel AD\\), \\(\\widehat{CAD}=45^\\circ\\).",
+   "images": [],
+   "id": "eb87b6dd6a26",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(S.ABCD\\): square base, all edges equal. The angle between \\(SB\\) and \\(AD\\) is…",
+   "en": "\\(S.ABCD\\): square base, all edges equal. The angle between \\(SB\\) and \\(AD\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">Hình chóp</b> \\(S.ABCD\\) có đáy hình vuông và tất cả các cạnh bằng nhau. Góc giữa \\(SB\\) và \\(AD\\) bằng…",
+   "options": [
+    "\\(45^\\circ\\)",
+    "\\(30^\\circ\\)",
+    "\\(60^\\circ\\)",
+    "\\(90^\\circ\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(AD\\parallel BC\\); consider the angle \\(\\widehat{SBC}\\).",
+   "explain_vi": "Đáp án c. \\(AD\\parallel BC\\); xét góc \\(\\widehat{SBC}\\).",
+   "images": [],
+   "id": "085e5697e06d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "In the cube \\(ABCD.A'B'C'D'\\): \\(BD\\perp A'C'\\).",
+   "en": "In the cube \\(ABCD.A'B'C'D'\\): \\(BD\\perp A'C'\\).",
+   "vi": "Trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"cube\">hình lập phương</b> \\(ABCD.A'B'C'D'\\): \\(BD\\perp A'C'\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "Translate one line to meet the other, then consider the triangle.",
+   "explain_vi": "Dời một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> để cắt đường kia rồi xét tam giác.",
+   "images": [],
+   "id": "2f8044e30553",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "Two perpendicular lines in space always intersect.",
+   "en": "Two perpendicular lines in space always intersect.",
+   "vi": "Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"perpendicular\">vuông góc</b> trong không gian luôn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersect\">cắt nhau</b>.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "Think of the edges of a cube.",
+   "explain_vi": "Hãy nghĩ đến các cạnh của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"cube\">hình lập phương</b>.",
+   "images": [],
+   "id": "76ce509a12ac",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Box \\(ABCD.A'B'C'D'\\) with \\(AB=#\\), \\(AD=#\\sqrt#\\). Find the angle (degrees) between \\(AB\\) and \\(A'C'\\).",
+   "en": "Box \\(ABCD.A'B'C'D'\\) with \\(AB=6\\), \\(AD=2\\sqrt3\\). Find the angle (degrees) between \\(AB\\) and \\(A'C'\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelepiped\">Hình hộp</b> chữ nhật \\(ABCD.A'B'C'D'\\) có \\(AB=6\\), \\(AD=2\\sqrt3\\). Tính góc (độ) giữa \\(AB\\) và \\(A'C'\\).",
+   "options": [],
+   "answer": "30",
+   "explain_en": "\\(A'C'\\parallel AC\\), \\(\\tan\\widehat{BAC}=\\dfrac{BC}{AB}=\\dfrac{2\\sqrt3}{6}\\), so the angle is \\(30^\\circ\\).",
+   "explain_vi": "\\(A'C'\\parallel AC\\), \\(\\tan\\widehat{BAC}=\\dfrac{BC}{AB}=\\dfrac{2\\sqrt3}{6}\\) nên góc bằng \\(30^\\circ\\).",
+   "images": [],
+   "id": "9192001d5487",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Tetrahedron \\(ABCD\\): \\(AB=CD=#\\), \\(M\\), \\(N\\) midpoints of \\(BC\\), \\(AD\\), \\(MN=#\\). Find \\((AB,CD)\\) in degrees.",
+   "en": "Tetrahedron \\(ABCD\\): \\(AB=CD=10\\), \\(M\\), \\(N\\) midpoints of \\(BC\\), \\(AD\\), \\(MN=5\\). Find \\((AB,CD)\\) in degrees.",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"tetrahedron\">Tứ diện</b> \\(ABCD\\) có \\(AB=CD=10\\), \\(M\\), \\(N\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> \\(BC\\), \\(AD\\), \\(MN=5\\). Tính \\((AB,CD)\\) (độ).",
+   "options": [],
+   "answer": "60",
+   "explain_en": "\\(P\\) is the midpoint of \\(AC\\): \\(PM=PN=5\\), \\(\\cos\\widehat{MPN}=\\dfrac{1}{2}\\), so the angle between the lines is \\(60^\\circ\\).",
+   "explain_vi": "\\(P\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> \\(AC\\): \\(PM=PN=5\\), \\(\\cos\\widehat{MPN}=\\dfrac{1}{2}\\) nên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"angle between two lines\">góc giữa hai đường thẳng</b> bằng \\(60^\\circ\\).",
+   "images": [],
+   "id": "d4ce88b3612d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "A box \\(ABCD.A'B'C'D'\\) has \\(AB=#\\), \\(AD=#\\), \\(AA'=#\\). If \\(\\varphi\\) is the angle between \\(AB\\) and \\(A'C'\\), then \\(\\cos\\varphi=\\)…",
+   "en": "A box \\(ABCD.A'B'C'D'\\) has \\(AB=12\\), \\(AD=5\\), \\(AA'=8\\). If \\(\\varphi\\) is the angle between \\(AB\\) and \\(A'C'\\), then \\(\\cos\\varphi=\\)…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelepiped\">Hình hộp</b> chữ nhật \\(ABCD.A'B'C'D'\\) có \\(AB=12\\), \\(AD=5\\), \\(AA'=8\\). Gọi \\(\\varphi\\) là góc giữa \\(AB\\) và \\(A'C'\\). Khi đó \\(\\cos\\varphi=\\)…",
+   "options": [
+    "\\(\\dfrac{12}{13}\\)",
+    "\\(\\dfrac{12}{5}\\)",
+    "\\(\\dfrac{5}{12}\\)",
+    "\\(\\dfrac{5}{13}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(A'C'\\parallel AC\\): \\(\\cos\\widehat{BAC}=\\dfrac{AB}{AC}=\\dfrac{12}{13}\\).",
+   "explain_vi": "Đáp án a. \\(A'C'\\parallel AC\\): \\(\\cos\\widehat{BAC}=\\dfrac{AB}{AC}=\\dfrac{12}{13}\\).",
+   "images": [],
+   "id": "5a30f65785db",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "A box \\(ABCD.A'B'C'D'\\) has \\(AB=#\\), \\(AD=#\\), \\(AA'=#\\). If \\(\\varphi\\) is the angle between \\(BB'\\) and \\(AC'\\), then \\(\\cos\\varphi=\\)…",
+   "en": "A box \\(ABCD.A'B'C'D'\\) has \\(AB=4\\), \\(AD=4\\), \\(AA'=7\\). If \\(\\varphi\\) is the angle between \\(BB'\\) and \\(AC'\\), then \\(\\cos\\varphi=\\)…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelepiped\">Hình hộp</b> chữ nhật \\(ABCD.A'B'C'D'\\) có \\(AB=4\\), \\(AD=4\\), \\(AA'=7\\). Gọi \\(\\varphi\\) là góc giữa \\(BB'\\) và \\(AC'\\). Khi đó \\(\\cos\\varphi=\\)…",
+   "options": [
+    "\\(\\dfrac{4}{9}\\)",
+    "\\(\\dfrac{7}{8}\\)",
+    "\\(\\dfrac{2}{9}\\)",
+    "\\(\\dfrac{7}{9}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(BB'\\parallel CC'\\): \\(\\cos\\widehat{AC'C}=\\dfrac{CC'}{AC'}=\\dfrac{7}{9}\\) with \\(AC'=\\sqrt{16+16+49}=9\\).",
+   "explain_vi": "Đáp án d. \\(BB'\\parallel CC'\\): \\(\\cos\\widehat{AC'C}=\\dfrac{CC'}{AC'}=\\dfrac{7}{9}\\) với \\(AC'=\\sqrt{16+16+49}=9\\).",
+   "images": [],
+   "id": "8aeb602312b9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "A room is # m long, # m wide and # m high. A cable runs along a diagonal of the floor. If \\(\\varphi\\) is the angle between the cable and a # m edge of the ceiling, then \\(\\cos\\varphi=\\)…",
+   "en": "A room is 5 m long, 12 m wide and 3 m high. A cable runs along a diagonal of the floor. If \\(\\varphi\\) is the angle between the cable and a 12 m edge of the ceiling, then \\(\\cos\\varphi=\\)…",
+   "vi": "Một căn phòng dài 5 m, rộng 12 m, cao 3 m. Một sợi cáp chạy theo <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b> sàn nhà. Gọi \\(\\varphi\\) là góc giữa sợi cáp và một cạnh dài 12 m của trần nhà. Khi đó \\(\\cos\\varphi=\\)…",
+   "options": [
+    "\\(\\dfrac{12}{5}\\)",
+    "\\(\\dfrac{3}{13}\\)",
+    "\\(\\dfrac{12}{13}\\)",
+    "\\(\\dfrac{5}{13}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The ceiling edge is parallel to a floor edge of length 12 m; the floor diagonal is 13 m, so \\(\\cos\\varphi=\\dfrac{12}{13}\\).",
+   "explain_vi": "Đáp án c. Cạnh trần <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b> với cạnh sàn dài 12 m; <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b> sàn dài 13 m nên \\(\\cos\\varphi=\\dfrac{12}{13}\\).",
+   "images": [],
+   "id": "f1471b16dd91",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Cube \\(ABCD.A'B'C'D'\\) with edge #. The angle between \\(A'B\\) and \\(B'C\\) is…",
+   "en": "Cube \\(ABCD.A'B'C'D'\\) with edge 2. The angle between \\(A'B\\) and \\(B'C\\) is…",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"cube\">hình lập phương</b> \\(ABCD.A'B'C'D'\\) cạnh 2. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"angle between two lines\">Góc giữa hai đường thẳng</b> \\(A'B\\) và \\(B'C\\) bằng…",
+   "options": [
+    "\\(30^\\circ\\)",
+    "\\(45^\\circ\\)",
+    "\\(60^\\circ\\)",
+    "\\(0^\\circ\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(A'B\\parallel D'C\\); triangle \\(B'CD'\\) is equilateral.",
+   "explain_vi": "Đáp án c. \\(A'B\\parallel D'C\\); tam giác \\(B'CD'\\) đều.",
+   "images": [],
+   "id": "b6dd62c32439",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Cube \\(ABCD.A'B'C'D'\\) with edge #. The angle between \\(A'B\\) and \\(B'C\\) is…",
+   "en": "Cube \\(ABCD.A'B'C'D'\\) with edge 3. The angle between \\(A'B\\) and \\(B'C\\) is…",
+   "vi": "Cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"cube\">hình lập phương</b> \\(ABCD.A'B'C'D'\\) cạnh 3. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"angle between two lines\">Góc giữa hai đường thẳng</b> \\(A'B\\) và \\(B'C\\) bằng…",
+   "options": [
+    "\\(0^\\circ\\)",
+    "\\(60^\\circ\\)",
+    "\\(45^\\circ\\)",
+    "\\(30^\\circ\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(A'B\\parallel D'C\\); triangle \\(B'CD'\\) is equilateral.",
+   "explain_vi": "Đáp án b. \\(A'B\\parallel D'C\\); tam giác \\(B'CD'\\) đều.",
+   "images": [],
+   "id": "852049558de7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Pyramid \\(S.ABCD\\): \\(ABCD\\) is a square of side # and all lateral edges equal #. The angle between \\(SA\\) and \\(CD\\) is…",
+   "en": "Pyramid \\(S.ABCD\\): \\(ABCD\\) is a square of side 2 and all lateral edges equal 2. The angle between \\(SA\\) and \\(CD\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">Hình chóp</b> \\(S.ABCD\\) có đáy là hình vuông cạnh 2 và tất cả các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"lateral edge\">cạnh bên</b> bằng 2. Góc giữa \\(SA\\) và \\(CD\\) bằng…",
+   "options": [
+    "\\(0^\\circ\\)",
+    "\\(60^\\circ\\)",
+    "\\(45^\\circ\\)",
+    "\\(30^\\circ\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(CD\\parallel AB\\); use the angle \\(\\widehat{SAB}\\) (the lateral faces are equilateral triangles).",
+   "explain_vi": "Đáp án b. \\(CD\\parallel AB\\); xét góc \\(\\widehat{SAB}\\) (các mặt bên là tam giác đều).",
+   "images": [],
+   "id": "6697e8a6e70f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Pyramid \\(S.ABCD\\): \\(ABCD\\) is a square of side # and all lateral edges equal #. The angle between \\(SB\\) and \\(AD\\) is…",
+   "en": "Pyramid \\(S.ABCD\\): \\(ABCD\\) is a square of side 8 and all lateral edges equal 8. The angle between \\(SB\\) and \\(AD\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">Hình chóp</b> \\(S.ABCD\\) có đáy là hình vuông cạnh 8 và tất cả các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"lateral edge\">cạnh bên</b> bằng 8. Góc giữa \\(SB\\) và \\(AD\\) bằng…",
+   "options": [
+    "\\(30^\\circ\\)",
+    "\\(60^\\circ\\)",
+    "\\(0^\\circ\\)",
+    "\\(45^\\circ\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(AD\\parallel BC\\); use the angle \\(\\widehat{SBC}\\) (the lateral faces are equilateral triangles).",
+   "explain_vi": "Đáp án b. \\(AD\\parallel BC\\); xét góc \\(\\widehat{SBC}\\) (các mặt bên là tam giác đều).",
+   "images": [],
+   "id": "232fe4287a94",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Tetrahedron \\(ABCD\\): \\(AB=CD=#\\); \\(M\\), \\(N\\) are the midpoints of \\(BC\\), \\(AD\\) and \\(MN=#\\). The angle between \\(AB\\) and \\(CD\\) is…",
+   "en": "Tetrahedron \\(ABCD\\): \\(AB=CD=6\\); \\(M\\), \\(N\\) are the midpoints of \\(BC\\), \\(AD\\) and \\(MN=3\\). The angle between \\(AB\\) and \\(CD\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"tetrahedron\">Tứ diện</b> \\(ABCD\\) có \\(AB=CD=6\\); \\(M\\), \\(N\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> của \\(BC\\), \\(AD\\) và \\(MN=3\\). Góc giữa \\(AB\\) và \\(CD\\) bằng…",
+   "options": [
+    "\\(30^\\circ\\)",
+    "\\(90^\\circ\\)",
+    "\\(45^\\circ\\)",
+    "\\(60^\\circ\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Let \\(P\\) be the midpoint of \\(AC\\): \\(PM=PN=3\\), \\(\\cos\\widehat{MPN}=\\dfrac{1}{2}\\); the angle between the two lines is the corresponding acute (or right) angle, \\(60^\\circ\\).",
+   "explain_vi": "Đáp án d. Gọi \\(P\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> \\(AC\\): \\(PM=PN=3\\), \\(\\cos\\widehat{MPN}=\\dfrac{1}{2}\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"angle between two lines\">góc giữa hai đường thẳng</b> là góc nhọn (hoặc vuông) tương ứng, bằng \\(60^\\circ\\).",
+   "images": [],
+   "id": "ec5e45e4b8a2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  }
+ ]
+}

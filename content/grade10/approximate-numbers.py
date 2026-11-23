@@ -20,7 +20,7 @@ goals = [('tell an exact value from an approximate number;', 'phân biệt [[s�
          ('find the absolute error, the accuracy and the relative error;', 'xác định [[sai số tuyệt đối]], [[độ chính xác]] và [[sai số tương đối]];'),
          ('round an approximate number with a given accuracy and state the error of rounding;', '[[quy tròn]] số gần đúng với độ chính xác cho trước và nêu sai số của số quy tròn;'),
          ('compare the precision of two measurements in real life.', 'so sánh độ chính xác của hai phép đo trong thực tế.')]
-phrases = [('<b>Find the absolute error.</b>', 'Tìm sai số tuyệt đối.'), ('<b>The length is 152 plus or minus 0.2 metres.</b>', 'Chiều dài là 152 cộng trừ 0,2 mét.'),
+phrases = [('<b>Find the absolute error.</b>', 'Tìm sai số tuyệt đối.'), ('<b>The length is 152 plus or minus 0.2 meters.</b>', 'Chiều dài là 152 cộng trừ 0,2 mét.'),
            ('<b>Estimate the relative error.</b>', 'Ước lượng sai số tương đối.'), ('<b>Round the number to the nearest hundredth.</b>', 'Quy tròn số đến hàng phần trăm.'), ('<b>Which measurement is more precise?</b>', 'Phép đo nào chính xác hơn?')]
 review = T('Rounding rule from lower grades: look at the first digit after the rounding place; if it is 5 or more, add 1 to the rounding digit; otherwise keep it. Then drop (or replace by 0) the digits after it. Example: \\(3.14159\\approx3.14\\) (hundredths), \\(2\\,841\\,675\\approx2\\,842\\,000\\) (thousands).',
            'Quy tắc làm tròn đã học: xét chữ số ngay sau hàng quy tròn; nếu chữ số đó lớn hơn hoặc bằng 5 thì cộng thêm 1 vào chữ số của hàng quy tròn, nếu nhỏ hơn 5 thì giữ nguyên; rồi bỏ đi (hoặc thay bằng 0) các chữ số phía sau. Ví dụ: \\(3{,}14159\\approx3{,}14\\) (hàng phần trăm), \\(2\\,841\\,675\\approx2\\,842\\,000\\) (hàng nghìn).')
@@ -90,16 +90,22 @@ def lvl(P):
     x6, uu = P['round']; u6 = [x for x in UNIT if x[0] == uu][0]; r6 = rnd(x6, uu)
     s6 = sh(6, 'Round \\(%s\\) to the %s.' % (E(x6), u6[1]), 'Quy tròn số \\(%s\\) đến hàng %s.' % (D(x6), u6[2]), E(r6) if r6.denominator != 1 else r6.numerator, 'The digit after the rounding place decides: \\(%s\\).' % E(r6), 'Xét chữ số ngay sau hàng quy tròn: \\(%s\\).' % D(r6))
     s, ds = P['sq']; dS = (s + ds) ** 2 - s * s
-    s7 = sh(7, 'A square tile has side \\(%s\\pm%s\\) cm. Its area is written as \\(%s\\ \\text{cm}^2\\). Find the largest possible absolute error of this area.' % (E(s), E(ds), E(s * s)),
-            'Một viên gạch hình vuông có cạnh \\(%s\\pm%s\\) cm, diện tích được ghi là \\(%s\\ \\text{cm}^2\\). Tìm sai số tuyệt đối lớn nhất có thể của diện tích này.' % (D(s), D(ds), D(s * s)), E(dS),
-            '\\((%s+%s)^2-%s=%s\\); the other side gives \\(%s-(%s-%s)^2=%s\\), which is smaller.' % (E(s), E(ds), E(s * s), E(dS), E(s * s), E(s), E(ds), E(s * s - (s - ds) ** 2)),
-            '\\((%s+%s)^2-%s=%s\\); phía còn lại cho \\(%s-(%s-%s)^2=%s\\), nhỏ hơn.' % (D(s), D(ds), D(s * s), D(dS), D(s * s), D(s), D(ds), D(s * s - (s - ds) ** 2)))
+    # Sửa 23/11/2026: đáp số trả lời ngắn tối đa 4 kí tự → khi cần thì yêu cầu làm tròn đến hàng phần mười.
+    rq7, ap7, dK = ('', ''), ('', ''), dS
+    if len(E(dS)) > 4:
+        dK = F(math.floor(dS * 10 + F(1, 2)), 10); r1 = '%.1f' % float(dK)
+        rq7 = (' Round your answer to one decimal place.', ' Làm tròn kết quả đến hàng phần mười.'); ap7 = ('\\approx%s' % r1, '\\approx%s' % r1.replace('.', '{,}'))
+    assert len(E(dK)) <= 4
+    s7 = sh(7, 'A square tile has side \\(%s\\pm%s\\) cm. Its area is written as \\(%s\\ \\text{cm}^2\\). Find the largest possible absolute error of this area.' % (E(s), E(ds), E(s * s)) + rq7[0],
+            'Một viên gạch hình vuông có cạnh \\(%s\\pm%s\\) cm, diện tích được ghi là \\(%s\\ \\text{cm}^2\\). Tìm sai số tuyệt đối lớn nhất có thể của diện tích này.' % (D(s), D(ds), D(s * s)) + rq7[1], E(dK),
+            '\\((%s+%s)^2-%s=%s%s\\); the other side gives \\(%s-(%s-%s)^2=%s\\), which is smaller.' % (E(s), E(ds), E(s * s), E(dS), ap7[0], E(s * s), E(s), E(ds), E(s * s - (s - ds) ** 2)),
+            '\\((%s+%s)^2-%s=%s%s\\); phía còn lại cho \\(%s-(%s-%s)^2=%s\\), nhỏ hơn.' % (D(s), D(ds), D(s * s), D(dS), ap7[1], D(s * s), D(s), D(ds), D(s * s - (s - ds) ** 2)))
     return [[o1, o2, o3], [t4, t5], [s6, s7]]
-PP = [dict(abs=(('A bottle of juice.', 'Một chai nước ép.', 'litres', 'lít'), F(4986, 1000), F(5)), int=(('A child\'s height (cm) is', 'Chiều cao (cm) của một em bé là'), F(1085, 10), F(5, 10)), rd=(F(375684, 100000), F(3, 1000)),
+PP = [dict(abs=(('A bottle of juice.', 'Một chai nước ép.', 'liters', 'lít'), F(4986, 1000), F(5)), int=(('A child\'s height (cm) is', 'Chiều cao (cm) của một em bé là'), F(1085, 10), F(5, 10)), rd=(F(375684, 100000), F(3, 1000)),
            rel=(F(125, 10), F(5, 100), F(4, 10), True), cmp=((('a desk', 'chiếc bàn'), F(120), F(5, 10)), (('a classroom', 'phòng học'), F(900), F(2)), None), round=(F(271828, 100000), F(1, 100)), sq=(F(20), F(1, 10))),
       dict(abs=(('A bag of rice.', 'Một túi gạo.', 'kg', 'kg'), F(10035, 1000), F(10)), int=(('The mass of a parcel is (kg)', 'Khối lượng một kiện hàng là (kg)'), F(253, 10), F(2, 10)), rd=(F(4518237), F(400)),
            rel=(F(48), F(2, 10), F(3, 10), False), cmp=((('a field', 'sân bóng'), F(10500), F(10)), (('a pencil', 'cây bút chì'), F(18), F(1, 10)), None), round=(F(1732051, 1000), F(1)), sq=(F(30), F(2, 10))),
-      dict(abs=(('A can of paint.', 'Một thùng sơn.', 'litres', 'lít'), F(17862, 1000), F(18)), int=(('A road is (km)', 'Một con đường dài (km)'), F(126, 10), F(5, 100)), rd=(F(1234567, 10000), F(4, 100)),
+      dict(abs=(('A can of paint.', 'Một thùng sơn.', 'liters', 'lít'), F(17862, 1000), F(18)), int=(('A road is (km)', 'Một con đường dài (km)'), F(126, 10), F(5, 100)), rd=(F(1234567, 10000), F(4, 100)),
            rel=(F(96), F(3, 10), F(5, 10), True), cmp=((('a hair', 'sợi tóc'), F(8, 100), F(1, 100)), (('a book', 'cuốn sách'), F(24), F(1, 10)), None), round=(F(6283185, 1000), F(10)), sq=(F(25), F(1, 2)))]
 practice = three(lvl, PP)
 practice = with_self(practice, S.M12S10, start=8)

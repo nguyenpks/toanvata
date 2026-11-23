@@ -123,7 +123,7 @@ def pp_planes_box(r, lv):
 def pp_shelf(r, lv):
     n = r.choice([4, 5, 6, 7]); g = r.choice([30, 32, 35, 40]); t = r.choice([2, 3])
     H = (n - 1) * g + n * t
-    return dict(en='A bookcase has %d shelves (boards) of thickness %d cm, all parallel to the floor; the gap between two neighbouring shelves is %d cm. From the bottom of the lowest board to the top of the highest board is…' % (n, t, g),
+    return dict(en='A bookcase has %d shelves (boards) of thickness %d cm, all parallel to the floor; the gap between two neighboring shelves is %d cm. From the bottom of the lowest board to the top of the highest board is…' % (n, t, g),
       vi='Một giá sách có %d tấm kệ dày %d cm, đều song song với sàn; khoảng hở giữa hai kệ liền nhau là %d cm. Khoảng cách từ mặt dưới kệ thấp nhất đến mặt trên kệ cao nhất là…' % (n, t, g),
       opts=pick_opts(r, '%d\\ \\text{cm}' % H, ['%d\\ \\text{cm}' % x for x in (n * g + n * t, (n - 1) * g, (n - 1) * (g + t), n * (g + t) + t)]), ans=0,
       ee='\\(%d\\) boards and \\(%d\\) gaps: \\(%d\\cdot%d+%d\\cdot%d=%d\\).' % (n, n - 1, n, t, n - 1, g, H), ev='\\(%d\\) tấm kệ và \\(%d\\) khoảng hở: \\(%d\\cdot%d+%d\\cdot%d=%d\\).' % (n, n - 1, n, t, n - 1, g, H))
@@ -171,7 +171,7 @@ def pj_par(r, lv):
 def pj_centroid(r, lv):
     obj = r.choice([('the centroid \\(G\\) of triangle \\(ABC\\)', 'trọng tâm \\(G\\) của tam giác \\(ABC\\)', 'the centroid of triangle \\(A′B′C′\\)', 'trọng tâm tam giác \\(A′B′C′\\)'),
                     ('the midpoint \\(I\\) of \\(AB\\)', 'trung điểm \\(I\\) của \\(AB\\)', 'the midpoint of \\(A′B′\\)', 'trung điểm của \\(A′B′\\)'),
-                    ('the centre \\(O\\) of the parallelogram \\(ABCD\\)', 'tâm \\(O\\) của hình bình hành \\(ABCD\\)', 'the centre of the parallelogram \\(A′B′C′D′\\)', 'tâm hình bình hành \\(A′B′C′D′\\)')])
+                    ('the center \\(O\\) of the parallelogram \\(ABCD\\)', 'tâm \\(O\\) của hình bình hành \\(ABCD\\)', 'the center of the parallelogram \\(A′B′C′D′\\)', 'tâm hình bình hành \\(A′B′C′D′\\)')])
     wrong = [('the orthocentre of the image', 'trực tâm của hình chiếu'), ('the circumcentre of the image', 'tâm đường tròn ngoại tiếp hình chiếu'), ('a point that cannot be determined', 'một điểm không xác định được')]
     return dict(en='Under a parallel projection (plane of the figure not parallel to the direction), the image of %s is…' % obj[0], vi='Qua phép chiếu song song (mặt phẳng chứa hình không song song với phương chiếu), hình chiếu của %s là…' % obj[1],
       opts=[TT(obj[2], obj[3])] + [TT(a, b) for a, b in wrong], ans=0, ee='Midpoints and ratios on a line are kept, so medians go to medians and diagonals to diagonals.', ev='Trung điểm và tỉ số trên một đường thẳng được giữ nên trung tuyến biến thành trung tuyến, đường chéo thành đường chéo.')

@@ -13,7 +13,7 @@ vocab = defs(CV, [
  ('logeq', 'logarithmic equation', 'phương trình lôgarit', 'an equation with the unknown inside a logarithm, e.g. \\(\\log_a x=b\\).', 'phương trình có ẩn nằm dưới dấu lôgarit, ví dụ \\(\\log_a x=b\\).', 'Check the domain of the logarithmic equation.', ''),
  ('expineq', 'exponential inequality', 'bất phương trình mũ', 'an inequality with the unknown in the exponent, e.g. \\(a^x\\gt b\\).', 'bất phương trình có ẩn ở số mũ, ví dụ \\(a^x\\gt b\\).', 'Solve the exponential inequality.', ''),
  ('logineq', 'logarithmic inequality', 'bất phương trình lôgarit', 'an inequality with the unknown inside a logarithm.', 'bất phương trình có ẩn nằm dưới dấu lôgarit.', 'Solve the logarithmic inequality.', '')])
-goals = [('recognise basic exponential and logarithmic equations and inequalities;', 'nhận biết [[phương trình mũ]], [[phương trình lôgarit]], [[bất phương trình mũ]], [[bất phương trình lôgarit]] cơ bản;'),
+goals = [('recognize basic exponential and logarithmic equations and inequalities;', 'nhận biết [[phương trình mũ]], [[phương trình lôgarit]], [[bất phương trình mũ]], [[bất phương trình lôgarit]] cơ bản;'),
          ('solve them by bringing both sides to the same base or by taking logarithms;', 'giải bằng cách đưa về cùng cơ số hoặc lấy lôgarit hai vế;'),
          ('use a new unknown \\(t=a^x\\) and always check the conditions;', 'đặt ẩn phụ \\(t=a^x\\) và luôn kiểm tra điều kiện;'),
          ('solve real problems (interest, growth, decay) with them.', 'giải bài toán thực tế (lãi suất, tăng trưởng, suy giảm).')]
@@ -57,23 +57,23 @@ examples += EXAMPLE(5, ('Advanced', 'Nâng cao'), ('How long to save?', 'Gửi t
 def lvl(P):
     a1, m1, n1, k1 = P['e1']; x1 = F(k1 - n1, m1); assert x1.denominator == 1; ex1 = poly([m1, n1]); R1 = frn(F(a1) ** k1)
     o1 = M4(1, 'Solve \\(%d^{%s}=%s\\).' % (a1, ex1, R1), 'Giải phương trình \\(%d^{%s}=%s\\).' % (a1, ex1, R1), '\\(x=%d\\)' % x1, ['\\(x=%d\\)' % (x1 + 1), '\\(x=%d\\)' % (-x1 if x1 else 2), '\\(x=%d\\)' % k1, '\\(x=%d\\)' % (x1 - 1)],
-            '\\(%s=%d\\).' % (ex1, k1), '\\(%s=%d^{%d}\\Rightarrow %s=%d\\).' % (R1, a1, k1, ex1, k1))  # T-002: thiếu dấu cách tạo \Rightarrowx
+            '\\(%s=%d^{%d}\\Rightarrow %s=%d\\Rightarrow x=%d\\).' % (R1, a1, k1, ex1, k1, int(x1)), '\\(%s=%d^{%d}\\Rightarrow %s=%d\\Rightarrow x=%d\\).' % (R1, a1, k1, ex1, k1, int(x1)))  # T-002: thiếu dấu cách tạo \Rightarrowx
     a2, b2, c2 = P['l1']; x2 = a2 ** c2 - b2
     o2 = M4(2, 'Find \\(x\\) such that \\(\\log_{%d}(x%+d)=%d\\).' % (a2, b2, c2), 'Tìm \\(x\\) thỏa mãn \\(\\log_{%d}(x%+d)=%d\\).' % (a2, b2, c2), '\\(x=%d\\)' % x2, ['\\(x=%d\\)' % (a2 * c2 - b2), '\\(x=%d\\)' % (c2 ** a2 - b2), '\\(x=%d\\)' % (a2 ** c2 + b2), '\\(x=%d\\)' % (x2 + 1), '\\(x=%d\\)' % (x2 - 1), '\\(x=%d\\)' % (a2 ** (c2 + 1) - b2)],
-            '\\(x%+d=%d^{%d}\\).' % (b2, a2, c2), '\\(x%+d=%d^{%d}=%d\\Rightarrow x=%d\\).' % (b2, a2, c2, a2 ** c2, x2))
+            '\\(x%+d=%d^{%d}=%d\\Rightarrow x=%d\\).' % (b2, a2, c2, a2 ** c2, x2), '\\(x%+d=%d^{%d}=%d\\Rightarrow x=%d\\).' % (b2, a2, c2, a2 ** c2, x2))
     base3, k3, rel3 = P['i1']; inc = F(base3) > 1; flip = {'\\gt': '\\lt', '\\lt': '\\gt', '\\ge': '\\le', '\\le': '\\ge'}; rr = rel3 if inc else flip[rel3]
     B3 = str(base3) if F(base3).denominator == 1 else '\\left(%s\\right)' % frn(base3); R3 = frn(F(base3) ** k3)
     o3 = M4(3, 'The solution set of the inequality \\(%s^x%s%s\\) is described by…' % (B3, rel3, R3), 'Tập nghiệm của bất phương trình \\(%s^x%s%s\\) được mô tả bởi…' % (B3, rel3, R3), '\\(x%s%d\\)' % (rr, k3), ['\\(x%s%d\\)' % (flip[rr], k3), '\\(x%s%d\\)' % (rr, -k3), '\\(x%s%s\\)' % (rr, R3)],
-            '\\(%s=%s^{%d}\\).' % (R3, B3, k3), '\\(%s=%s^{%d}\\); cơ số %s 1.' % (R3, B3, k3, 'lớn hơn' if inc else 'nhỏ hơn'))
+            '\\(%s=%s^{%d}\\); the base is %s than 1.' % (R3, B3, k3, 'greater' if inc else 'less'), '\\(%s=%s^{%d}\\); cơ số %s 1.' % (R3, B3, k3, 'lớn hơn' if inc else 'nhỏ hơn'))
     (e4, v4_), (e5, v5_) = P['tf']
     t4 = tf(4, e4[0], e4[1], v4_, e4[2], e4[3]); t5 = tf(5, e5[0], e5[1], v5_, e5[2], e5[3])
     a6, i6, j6 = P['sub']; u, v = a6 ** i6, a6 ** j6
     s6 = sh(6, 'Find the sum of the solutions of \\(%d^x-%d\\cdot%d^x+%d=0\\).' % (a6 * a6, u + v, a6, u * v), 'Tính tổng các nghiệm của phương trình \\(%d^x-%d\\cdot%d^x+%d=0\\).' % (a6 * a6, u + v, a6, u * v), i6 + j6,
-            '\\(t=%d^x\\): \\(t=%d\\), \\(t=%d\\Rightarrow x=%d,\\ x=%d\\).' % (a6, u, v, i6, j6), 'Đặt \\(t=%d^x\\gt0\\): \\(t=%d\\), \\(t=%d\\Rightarrow x=%d,\\ x=%d\\).' % (a6, u, v, i6, j6))
+            'Put \\(t=%d^x\\gt0\\): \\(t=%d\\), \\(t=%d\\Rightarrow x=%d,\\ x=%d\\); the sum is %d.' % (a6, u, v, i6, j6, i6 + j6), 'Đặt \\(t=%d^x\\gt0\\): \\(t=%d\\), \\(t=%d\\Rightarrow x=%d,\\ x=%d\\); tổng bằng %d.' % (a6, u, v, i6, j6, i6 + j6))
     rate, k7 = P['save']; n = 0; val = F(1)
     while val < k7: n += 1; val *= F(100 + rate, 100)
     s7 = sh(7, 'Money at %d%%/year compound interest. After at least how many full years does it reach %s times the deposit?' % (rate, '%g' % float(k7)), 'Gửi tiết kiệm lãi kép %d%%/năm. Sau ít nhất bao nhiêu năm (tròn năm) số tiền đạt từ %s lần số tiền gửi trở lên?' % (rate, ('%g' % float(k7)).replace('.', ',')), n,
-            '\\(n\\ge\\log_{%s}%s\\approx%.2f\\).' % (('%g' % (1 + rate / 100)), ('%g' % float(k7)), math.log(float(k7)) / math.log(1 + rate / 100)), '\\(n\\ge\\log_{%s}%s\\approx%s\\).' % (('%g' % (1 + rate / 100)).replace('.', '{,}'), ('%g' % float(k7)).replace('.', '{,}'), ('%.2f' % (math.log(float(k7)) / math.log(1 + rate / 100))).replace('.', '{,}')))
+            '\\(n\\ge\\log_{%s}%s\\approx%.2f\\), so \\(n=%d\\).' % (('%g' % (1 + rate / 100)), ('%g' % float(k7)), math.log(float(k7)) / math.log(1 + rate / 100), n), '\\(n\\ge\\log_{%s}%s\\approx%s\\) nên \\(n=%d\\).' % (('%g' % (1 + rate / 100)).replace('.', '{,}'), ('%g' % float(k7)).replace('.', '{,}'), ('%.2f' % (math.log(float(k7)) / math.log(1 + rate / 100))).replace('.', '{,}'), n))
     return [[o1, o2, o3], [t4, t5], [s6, s7]]
 VA = (('\\(\\log_2(x-1)+\\log_2(x+1)=3\\) has the solutions \\(x=\\pm3\\).', 'Phương trình \\(\\log_2(x-1)+\\log_2(x+1)=3\\) có hai nghiệm \\(x=\\pm3\\).', 'Need \\(x\\gt1\\): only \\(x=3\\).', 'Điều kiện \\(x\\gt1\\): chỉ có \\(x=3\\).'), False)
 VB = (('\\(\\left(\\frac13\\right)^x\\lt9\\iff x\\gt-2\\).', '\\(\\left(\\frac13\\right)^x\\lt9\\iff x\\gt-2\\).', '\\(9=\\left(\\frac13\\right)^{-2}\\), base \\(\\lt1\\): reverse.', '\\(9=\\left(\\frac13\\right)^{-2}\\), cơ số nhỏ hơn 1: đổi chiều.'), True)

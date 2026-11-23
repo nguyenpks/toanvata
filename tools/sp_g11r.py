@@ -328,7 +328,7 @@ def _gt_case(r):
         planes = (('M', 'B', 'D'), ('S', 'A', 'C')); good = ('M', 'O')
         cand = [('M', 'O'), ('S', 'O'), ('M', 'B'), ('B', 'D'), ('M', 'D'), ('A', 'M')]
         cfg = G(PYR, 'SABCD', {'O': P['O'], 'M': P['M']}, [('A', 'C'), ('B', 'D'), ('M', 'B'), ('M', 'D')])
-        txt = ('the pyramid \\(S.ABCD\\) has a parallelogram base with centre \\(O\\), and \\(M\\) is the midpoint of \\(SC\\)', 'hình chóp \\(S.ABCD\\) có đáy là hình bình hành tâm \\(O\\), \\(M\\) là trung điểm của \\(SC\\)')
+        txt = ('the pyramid \\(S.ABCD\\) has a parallelogram base with center \\(O\\), and \\(M\\) is the midpoint of \\(SC\\)', 'hình chóp \\(S.ABCD\\) có đáy là hình bình hành tâm \\(O\\), \\(M\\) là trung điểm của \\(SC\\)')
     for X in good: assert all(on_plane(P[X], *[P[n] for n in pln]) for pln in planes)
     ok = [c for c in cand if all(on_plane(P[c[0]], *[P[n] for n in pln]) and on_plane(P[c[1]], *[P[n] for n in pln]) for pln in planes)]
     assert ok == [good]
@@ -338,7 +338,7 @@ def g10_gt(r, lv, ctx):
     P, planes, good, cand, cfg, txt = _gt_case(r)
     wr = cand[1:]; r.shuffle(wr)
     o = lambda c: '\\(%s\\)' % L2(*c)
-    return dict(en='In the figure, %s. The line of intersection of %s and %s is…' % (txt[0].replace('centre', 'center'), pl(*planes[0]), pl(*planes[1])), vi='Trong hình vẽ, %s. Giao tuyến của %s và %s là…' % (txt[1], pl(*planes[0]), pl(*planes[1])),
+    return dict(en='In the figure, %s. The line of intersection of %s and %s is…' % (txt[0].replace('center', 'center'), pl(*planes[0]), pl(*planes[1])), vi='Trong hình vẽ, %s. Giao tuyến của %s và %s là…' % (txt[1], pl(*planes[0]), pl(*planes[1])),
                 opts=[o(good)] + [o(c) for c in wr[:3]], ee='\\(%s\\) and \\(%s\\) are two common points of the two planes.' % good, ev='\\(%s\\) và \\(%s\\) là hai điểm chung của hai mặt phẳng.' % good,
                 fig=fig3(cfg, 'Pyramid S.ABCD'))
 
@@ -837,7 +837,7 @@ def d_velocity(r, lv, ctx):
     a, b, c = r.choice([1, 2]), r.randint(-6, 6), r.randint(1, 9); t0 = r.randint(1, 5)
     s_ = _p([a, b, c, 0], 't'); v = 3 * a * t0 * t0 + 2 * b * t0 + c
     if v <= 0: raise AssertionError
-    return dict(en='An object moves with \\(s(t)=%s\\) (metres, \\(t\\) in seconds). Its velocity at \\(t=%d\\) s is…'.replace('metres', 'meters') % (s_, t0), vi='Một vật chuyển động theo phương trình \\(s(t)=%s\\) (mét, \\(t\\) tính bằng giây). Vận tốc của vật tại \\(t=%d\\) giây là…' % (s_, t0),
+    return dict(en='An object moves with \\(s(t)=%s\\) (meters, \\(t\\) in seconds). Its velocity at \\(t=%d\\) s is…'.replace('meters', 'meters') % (s_, t0), vi='Một vật chuyển động theo phương trình \\(s(t)=%s\\) (mét, \\(t\\) tính bằng giây). Vận tốc của vật tại \\(t=%d\\) giây là…' % (s_, t0),
                 opts=[tx('\\(%d\\) m/s' % v, '\\(%d\\) m/s' % v), tx('\\(%d\\) m/s' % (a * t0 ** 3 + b * t0 ** 2 + c * t0), '\\(%d\\) m/s' % (a * t0 ** 3 + b * t0 ** 2 + c * t0)), tx('\\(%d\\) m/s' % (6 * a * t0 + 2 * b), '\\(%d\\) m/s' % (6 * a * t0 + 2 * b)), tx('\\(%d\\) m/s' % (v + c), '\\(%d\\) m/s' % (v + c))],
                 ee='\\(v(t)=s^{\\prime}(t)=%s\\), \\(v(%d)=%d\\).' % (_p([3 * a, 2 * b, c], 't'), t0, v), ev='\\(v(t)=s^{\\prime}(t)=%s\\), \\(v(%d)=%d\\).' % (_p([3 * a, 2 * b, c], 't'), t0, v))
 def d_balloon(r, lv, ctx):

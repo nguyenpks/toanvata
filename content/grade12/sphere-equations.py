@@ -14,7 +14,7 @@ vocab = defs(CV, [
  ('sphgen', 'general equation of a sphere', 'phương trình tổng quát của mặt cầu', '\\(x^2+y^2+z^2-2ax-2by-2cz+d=0\\) with \\(a^2+b^2+c^2-d\\gt0\\).', '\\(x^2+y^2+z^2-2ax-2by-2cz+d=0\\) với \\(a^2+b^2+c^2-d\\gt0\\).', 'Find the center from the general equation.', ''),
  ('tanplane', 'tangent plane', 'tiếp diện', 'a plane with exactly one common point with the sphere; then \\(d(I,(P))=R\\).', 'mặt phẳng có đúng một điểm chung với mặt cầu; khi đó \\(d(I,(P))=R\\).', 'The plane is tangent to the sphere.', ''),
  ('secircle', 'cross-section circle', 'đường tròn giao tuyến', 'the circle where a plane cuts a sphere; radius \\(r=\\sqrt{R^2-d^2}\\).', 'đường tròn là giao của mặt phẳng và mặt cầu; bán kính \\(r=\\sqrt{R^2-d^2}\\).', 'The plane cuts the sphere along a circle of radius 4.', '')])
-goals = [('recognise the equation of a sphere and read its center and radius;', 'nhận biết phương trình [[mặt cầu]], xác định tâm và bán kính;'),
+goals = [('recognize the equation of a sphere and read its center and radius;', 'nhận biết phương trình [[mặt cầu]], xác định tâm và bán kính;'),
          ('write the equation of a sphere from given conditions (center and point, diameter, tangent plane);', 'viết phương trình mặt cầu khi biết tâm và một điểm, đường kính, tiếp diện;'),
          ('decide the position of a point, a plane or a line relative to a sphere;', 'xét vị trí tương đối của điểm, mặt phẳng, đường thẳng với mặt cầu;'),
          ('solve problems on tangency and cross-sections, including real situations.', 'giải bài toán về [[tiếp diện]], [[đường tròn giao tuyến]], kể cả tình huống thực tế.')]
@@ -69,7 +69,7 @@ examples += EXAMPLE(5, ('Advanced', 'Nâng cao'), ('Wi-Fi coverage', 'Vùng ph�
 def lvl(P):
     I1, R1 = P['gen']; d1 = dot(I1, I1) - R1 * R1; nI = tuple(-x for x in I1)
     o1 = M4(1, 'Center and radius of \\(%s\\):' % gen(I1, d1), 'Tâm và bán kính của mặt cầu \\(%s\\) là…' % gen(I1, d1), '\\(I%s,\\ R=%d\\)' % (V3(I1), R1),
-            ['\\(I%s,\\ R=%d\\)' % (V3(nI), R1), '\\(I%s,\\ R=%d\\)' % (V3(I1), R1 * R1), '\\(I%s,\\ R=%d\\)' % (V3(tuple(2 * x for x in I1)), R1)], '\\(R^2=%d\\).' % (R1 * R1), '\\(R^2=a^2+b^2+c^2-d=%d\\).' % (R1 * R1))
+            ['\\(I%s,\\ R=%d\\)' % (V3(nI), R1), '\\(I%s,\\ R=%d\\)' % (V3(I1), R1 * R1), '\\(I%s,\\ R=%d\\)' % (V3(tuple(2 * x for x in I1)), R1)], '\\(R^2=a^2+b^2+c^2-d=%d\\).' % (R1 * R1), '\\(R^2=a^2+b^2+c^2-d=%d\\).' % (R1 * R1))
     I2, A2 = P['thr']; R2 = dot(sub(A2, I2), sub(A2, I2))
     o2 = M4(2, 'The sphere with center \\(I%s\\) through \\(A%s\\):' % (V3(I2), V3(A2)), 'Mặt cầu tâm \\(I%s\\) đi qua \\(A%s\\) là…' % (V3(I2), V3(A2)), '\\(%s\\)' % sph(I2, R2), ['\\(%s\\)' % sph(A2, R2), '\\(%s\\)' % sph(I2, R2 + 1), '\\(%s\\)' % sph(tuple(-x for x in I2), R2)],
             '\\(R^2=IA^2=%d\\).' % R2, '\\(R^2=IA^2=%d\\).' % R2)
@@ -81,13 +81,13 @@ def lvl(P):
     t4 = tf(4, '\\(%s\\) is the equation of a sphere.' % gen(I4_, m4), '\\(%s\\) là phương trình của một mặt cầu.' % gen(I4_, m4), truth4, '\\(a^2+b^2+c^2-d=%d\\).' % (k4 - m4), '\\(a^2+b^2+c^2-d=%d\\).' % (k4 - m4))
     I5, R5, A5 = P['on']; truth5 = dot(sub(A5, I5), sub(A5, I5)) == R5 * R5
     t5 = tf(5, 'The point \\(A%s\\) lies on \\(%s\\).' % (V3(A5), sph(I5, R5 * R5)), 'Điểm \\(A%s\\) thuộc mặt cầu \\(%s\\).' % (V3(A5), sph(I5, R5 * R5)), truth5,
-            '\\(IA^2=%d\\).' % dot(sub(A5, I5), sub(A5, I5)), '\\(IA^2=%d\\), \\(R^2=%d\\).' % (dot(sub(A5, I5), sub(A5, I5)), R5 * R5))
+            '\\(IA^2=%d\\), \\(R^2=%d\\).' % (dot(sub(A5, I5), sub(A5, I5)), R5 * R5), '\\(IA^2=%d\\), \\(R^2=%d\\).' % (dot(sub(A5, I5), sub(A5, I5)), R5 * R5))
     I6, n6, D6 = P['tan']; L6 = int(math.isqrt(dot(n6, n6))); R6 = F(abs(dot(n6, I6) + D6), L6); assert R6.denominator == 1
     s6 = sh(6, 'Find the radius of the sphere with center \\(I%s\\) tangent to \\((P): %s\\).' % (V3(I6), eq(*n6, D6)), 'Tìm bán kính mặt cầu tâm \\(I%s\\) tiếp xúc với \\((P): %s\\).' % (V3(I6), eq(*n6, D6)), int(R6),
             '\\(R=\\dfrac{|%d|}{%d}=%d\\).' % (dot(n6, I6) + D6, L6, R6), '\\(R=d(I,(P))=\\dfrac{|%d|}{%d}=%d\\).' % (dot(n6, I6) + D6, L6, R6))
     R7, d7, h7 = P['sec']; r7 = int(math.isqrt(R7 * R7 - d7 * d7)); assert r7 * r7 == R7 * R7 - d7 * d7
     s7 = sh(7, 'A ball of radius %d cm is cut by a plane %d cm from its center. Find the radius of the cut (cm).' % (R7, d7), 'Một quả cầu bán kính %d cm bị cắt bởi mặt phẳng cách tâm %d cm. Tính bán kính của mặt cắt (cm).' % (R7, d7), r7,
-            '\\(r=\\sqrt{%d-%d}=%d\\).' % (R7 * R7, d7 * d7, r7), '\\(r=\\sqrt{R^2-d^2}=\\sqrt{%d-%d}=%d\\).' % (R7 * R7, d7 * d7, r7))
+            '\\(r=\\sqrt{R^2-d^2}=\\sqrt{%d-%d}=%d\\).' % (R7 * R7, d7 * d7, r7), '\\(r=\\sqrt{R^2-d^2}=\\sqrt{%d-%d}=%d\\).' % (R7 * R7, d7 * d7, r7))
     return [[o1, o2, o3], [t4, t5], [s6, s7]]
 PP = [dict(gen=((1, -2, 2), 2), thr=((0, 1, -1), (2, 3, 0)), pl=((1, 0, 2), 3, (1, 2, 2), 2), cond=((1, 2, -1), 7), on=((1, 0, -2), 3, (2, 2, 0)), tan=((1, 1, 1), (2, 1, 2), 4), sec=(10, 6, 0)),
       dict(gen=((2, 1, -3), 3), thr=((1, -1, 2), (3, 1, 3)), pl=((0, 2, -1), 4, (2, -1, 2), 4), cond=((2, -1, 0), 6), on=((0, 1, 1), 5, (3, 5, 2)), tan=((2, -1, 0), (1, -2, 2), 5), sec=(13, 5, 0)),

@@ -272,6 +272,16 @@ def _actions():
             '<button type="button" class="mbl-btn ghost" data-act="retry" hidden>%s</button></div>'
             '<div class="mbl-fb" role="status" aria-live="polite" hidden></div>') % (TI('Check Answer', 'Kiểm tra đáp án'), TI('Try Again', 'Làm lại'))
 
+def _cl(s):
+    # Sửa lỗi trình bày 23/11/2026: chỉ áp dụng cho lời giải (không đổi đề → không đổi khóa ngân hàng câu hỏi).
+    s = re.sub(r'\\cdot\((\d+)\)(?!\()', r'\\cdot \1', s)          # 3\cdot(2) → 3\cdot 2 (số âm vẫn giữ ngoặc)
+    s = re.sub(r'\+\s*-(?=[\d\\(])', '-', s)                       # +-3 → -3
+    s = re.sub(r'(?<=[\w)}])--(?=[\d\\(])', '+', s)                # 0--2 → 0+2
+    s = re.sub(r'(?<=[\d})])[+-]\(0\)', '', s)                     # 16-(0) → 16
+    return s
+
+def _ex(expl): return T(_cl(expl[0]), _cl(expl[1]), auto=True)
+
 def MCQ(n, q, opts, ans, expl, raw=False):
     """raw=True: các phương án là văn bản/HTML (không bọc công thức), ví dụ câu hỏi chọn câu lệnh tiếng Anh."""
     _qid[0] += 1
@@ -288,7 +298,7 @@ def MCQ(n, q, opts, ans, expl, raw=False):
         return TI(h, h) if '{,}' in h and 'class="en"' not in h else h
     o = ''.join('<label><input type="radio" name="%s" value="%s"><span>%s</span></label>' % (name, 'abcd'[i], _o2(t)) for i, t in enumerate(opts))
     return ('<div class="mbl-item" data-type="mcq" data-answer="%s"><div class="mbl-qtext"><b>%d.</b></div>%s<div class="mbl-opts">%s</div>%s'
-            '<div class="mbl-explain" hidden>%s</div></div>') % (ans, n, T(*q, auto=True), o, _actions(), T(*expl, auto=True))
+            '<div class="mbl-explain" hidden>%s</div></div>') % (ans, n, T(*q, auto=True), o, _actions(), _ex(expl))
 
 def TF(n, q, ans, expl):
     _qid[0] += 1
@@ -296,12 +306,12 @@ def TF(n, q, ans, expl):
     o = ('<label><input type="radio" name="%s" value="true"><span>%s</span></label>'
          '<label><input type="radio" name="%s" value="false"><span>%s</span></label>') % (name, TI('True', 'Đúng'), name, TI('False', 'Sai'))
     return ('<div class="mbl-item" data-type="tf" data-answer="%s"><div class="mbl-qtext"><b>%d.</b></div>%s<div class="mbl-opts tf">%s</div>%s'
-            '<div class="mbl-explain" hidden>%s</div></div>') % (ans, n, T(*q, auto=True), o, _actions(), T(*expl, auto=True))
+            '<div class="mbl-explain" hidden>%s</div></div>') % (ans, n, T(*q, auto=True), o, _actions(), _ex(expl))
 
 def SHORT(n, q, key, kind, hint, expl):
     return ('<div class="mbl-item" data-type="short" data-kind="%s" data-answer="%s"><div class="mbl-qtext"><b>%d.</b></div>%s%s'
             '<p><input class="mbl-input" type="text" inputmode="text" autocomplete="off" aria-label="Answer"></p>%s'
-            '<div class="mbl-explain" hidden>%s</div></div>') % (kind, key, n, T(*q, auto=True), T(*hint), _actions(), T(*expl, auto=True))
+            '<div class="mbl-explain" hidden>%s</div></div>') % (kind, key, n, T(*q, auto=True), T(*hint), _actions(), _ex(expl))
 
 def QUIZ(groups):
     s = '<div class="mbl-quiz"><p class="mbl-scorebar"><span class="mbl-score" aria-live="polite"></span></p>'

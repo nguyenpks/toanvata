@@ -1,0 +1,1053 @@
+{
+ "lesson": "g11-perp-05",
+ "grade": 11,
+ "no": 26,
+ "title": "Khoảng cách trong không gian",
+ "path": "lessons/grade11/perpendicularity-in-space/distances-in-space.html",
+ "items": [
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Cube \\(ABCD.A'B'C'D'\\) with edge \\(a\\). The distance between \\(A\\) and \\((BDD'B')\\) is…",
+   "en": "Cube \\(ABCD.A'B'C'D'\\) with edge \\(a\\). The distance between \\(A\\) and \\((BDD'B')\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"cube\">Hình lập phương</b> \\(ABCD.A'B'C'D'\\) cạnh \\(a\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">Khoảng cách</b> giữa \\(A\\) và \\((BDD'B')\\) bằng…",
+   "options": [
+    "\\(\\dfrac{a\\sqrt2}{2}\\)",
+    "\\(a\\)",
+    "\\(a\\sqrt2\\)",
+    "\\(\\dfrac{a\\sqrt3}{3}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Distance to the diagonal plane = half the diagonal \\(AC\\).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">Khoảng cách</b> bằng \\(AO=\\dfrac12AC\\).",
+   "images": [],
+   "id": "46a5c60399fa",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(S.ABCD\\): square base of side #, \\(SA\\perp(ABCD)\\), \\(SA=#\\). \\(d(A,(SBC))=\\)…",
+   "en": "\\(S.ABCD\\): square base of side 4, \\(SA\\perp(ABCD)\\), \\(SA=3\\). \\(d(A,(SBC))=\\)…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">Hình chóp</b> \\(S.ABCD\\) có đáy là hình vuông cạnh 4, \\(SA\\perp(ABCD)\\), \\(SA=3\\). \\(d(A,(SBC))\\) bằng…",
+   "options": [
+    "\\(\\dfrac{12}{5}\\)",
+    "\\(3\\)",
+    "\\(4\\)",
+    "\\(\\dfrac{5}{2}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Draw \\(AH\\perp SB\\): \\(AH=\\dfrac{SA\\cdot AB}{SB}=\\dfrac{3\\cdot4}{5}=\\dfrac{12}{5}\\).",
+   "explain_vi": "Đáp án a. Kẻ \\(AH\\perp SB\\): \\(AH=\\dfrac{SA\\cdot AB}{SB}=\\dfrac{3\\cdot4}{5}=\\dfrac{12}{5}\\).",
+   "images": [],
+   "id": "05b71c312fed",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(S.ABCD\\): square base of side #, \\(SA\\perp(ABCD)\\), \\(SA=#\\). \\(d(S,BC)=\\)…",
+   "en": "\\(S.ABCD\\): square base of side 8, \\(SA\\perp(ABCD)\\), \\(SA=6\\). \\(d(S,BC)=\\)…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">Hình chóp</b> \\(S.ABCD\\) có đáy là hình vuông cạnh 8, \\(SA\\perp(ABCD)\\), \\(SA=6\\). \\(d(S,BC)\\) bằng…",
+   "options": [
+    "\\(6\\)",
+    "\\(2\\sqrt{41}\\)",
+    "\\(\\dfrac{24}{5}\\)",
+    "\\(10\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(BC\\perp(SAB)\\), so \\(SB\\perp BC\\): \\(d=SB=10\\).",
+   "explain_vi": "Đáp án d. \\(BC\\perp(SAB)\\) nên \\(SB\\perp BC\\): \\(d=SB=10\\).",
+   "images": [],
+   "id": "5d778ca70dec",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "In a cube of edge \\(a\\): \\(d(A,(A'BD))=\\dfrac{a\\sqrt#}{#}\\).",
+   "en": "In a cube of edge \\(a\\): \\(d(A,(A'BD))=\\dfrac{a\\sqrt3}{3}\\).",
+   "vi": "Trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"cube\">hình lập phương</b> cạnh \\(a\\): \\(d(A,(A'BD))=\\dfrac{a\\sqrt3}{3}\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "Find the corresponding perpendicular segment.",
+   "explain_vi": "Tìm đoạn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"perpendicular\">vuông góc</b> tương ứng.",
+   "images": [],
+   "id": "10906f6f54e1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "The distance between two skew lines is the length of their common perpendicular segment.",
+   "en": "The distance between two skew lines is the length of their common perpendicular segment.",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance between two skew lines\">Khoảng cách giữa hai đường thẳng chéo nhau</b> bằng độ dài đoạn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"perpendicular\">vuông góc</b> chung của chúng.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "Recall the definitions.",
+   "explain_vi": "Nhớ lại các định nghĩa <b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">khoảng cách</b>.",
+   "images": [],
+   "id": "7442f9e1dc28",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "A square courtyard \\(ABCD\\) has side # m; a pole \\(SA=#\\) m stands vertically at \\(A\\). A rope runs from \\(S\\) to the diagonal \\(BD\\) along the shortest path. How long is it (m)?",
+   "en": "A square courtyard \\(ABCD\\) has side 8 m; a pole \\(SA=2\\) m stands vertically at \\(A\\). A rope runs from \\(S\\) to the diagonal \\(BD\\) along the shortest path. How long is it (m)?",
+   "vi": "Một sân hình vuông \\(ABCD\\) cạnh 8 m; cột \\(SA=2\\) m dựng thẳng đứng tại \\(A\\). Căng dây từ \\(S\\) đến <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b> \\(BD\\) theo đường ngắn nhất. Sợi dây dài bao nhiêu mét?",
+   "options": [],
+   "answer": "6",
+   "explain_en": "The shortest segment is \\(SO\\) (\\(BD\\perp(SAO)\\)): \\(SO=\\sqrt{4+32}=6\\).",
+   "explain_vi": "Đường ngắn nhất là \\(SO\\) (\\(BD\\perp(SAO)\\)): \\(SO=\\sqrt{4+32}=6\\).",
+   "images": [],
+   "id": "a7bcd85bc2a0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "\\(S.ABCD\\): square base of side #, \\(SA\\perp(ABCD)\\), \\(SA=#\\). Find \\(d(A,(SBC))\\).",
+   "en": "\\(S.ABCD\\): square base of side 20, \\(SA\\perp(ABCD)\\), \\(SA=15\\). Find \\(d(A,(SBC))\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">Hình chóp</b> \\(S.ABCD\\) có đáy là hình vuông cạnh 20, \\(SA\\perp(ABCD)\\), \\(SA=15\\). Tính \\(d(A,(SBC))\\).",
+   "options": [],
+   "answer": "12",
+   "explain_en": "\\(SB=25\\), \\(AH=\\dfrac{SA\\cdot AB}{SB}=\\dfrac{15\\cdot20}{25}=12\\).",
+   "explain_vi": "\\(SB=25\\), \\(AH=\\dfrac{15\\cdot20}{25}=12\\).",
+   "images": [],
+   "id": "7ee0f1ad9f27",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Box \\(ABCD.A'B'C'D'\\): \\(AB=#\\), \\(AD=#\\), \\(AA'=#\\). The distance between \\((ABB'A')\\) and \\((DCC'D')\\) is…",
+   "en": "Box \\(ABCD.A'B'C'D'\\): \\(AB=7\\), \\(AD=5\\), \\(AA'=9\\). The distance between \\((ABB'A')\\) and \\((DCC'D')\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelepiped\">Hình hộp</b> chữ nhật \\(ABCD.A'B'C'D'\\) có \\(AB=7\\), \\(AD=5\\), \\(AA'=9\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">Khoảng cách</b> giữa hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> \\((ABB'A')\\) và \\((DCC'D')\\) bằng…",
+   "options": [
+    "\\(\\sqrt{74}\\)",
+    "\\(7\\)",
+    "\\(5\\)",
+    "\\(9\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(AD\\) is perpendicular to both faces, so the distance is \\(AD=5\\).",
+   "explain_vi": "Đáp án c. \\(AD\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"perpendicular\">vuông góc</b> với cả hai mặt nên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">khoảng cách</b> bằng \\(AD=5\\).",
+   "images": [],
+   "id": "2aa6e1f4641e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Cube \\(ABCD.A'B'C'D'\\) with edge \\(a\\). The distance from \\(AB\\) to \\(C'D'\\) is…",
+   "en": "Cube \\(ABCD.A'B'C'D'\\) with edge \\(a\\). The distance from \\(AB\\) to \\(C'D'\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"cube\">Hình lập phương</b> \\(ABCD.A'B'C'D'\\) cạnh \\(a\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">Khoảng cách</b> giữa \\(AB\\) và \\(C'D'\\) bằng…",
+   "options": [
+    "\\(\\dfrac{a\\sqrt3}{3}\\)",
+    "\\(a\\sqrt2\\)",
+    "\\(\\dfrac{a\\sqrt2}{2}\\)",
+    "\\(a\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Parallel lines; distance \\(BC'\\).",
+   "explain_vi": "Đáp án b. Hai đường <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b>; <b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">khoảng cách</b> \\(BC'\\).",
+   "images": [],
+   "id": "aa79f0ab910f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "Regular pyramid \\(S.ABCD\\): base side #, height \\(SO=#\\). The distance from \\(O\\) to \\((SCD)\\) is…",
+   "en": "Regular pyramid \\(S.ABCD\\): base side 12, height \\(SO=8\\). The distance from \\(O\\) to \\((SCD)\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">Hình chóp</b> tứ giác đều \\(S.ABCD\\) có cạnh đáy 12, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"height\">chiều cao</b> \\(SO=8\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">Khoảng cách</b> từ \\(O\\) đến <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> \\((SCD)\\) bằng…",
+   "options": [
+    "\\(8\\)",
+    "\\(\\dfrac{48}{5}\\)",
+    "\\(\\dfrac{24}{5}\\)",
+    "\\(6\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Let \\(M\\) be the midpoint of \\(CD\\) and draw \\(OH\\perp SM\\): \\(OH=\\dfrac{SO\\cdot OM}{SM}=\\dfrac{8\\cdot6}{10}=\\dfrac{24}{5}\\).",
+   "explain_vi": "Đáp án c. Gọi \\(M\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> \\(CD\\), kẻ \\(OH\\perp SM\\): \\(OH=\\dfrac{SO\\cdot OM}{SM}=\\dfrac{8\\cdot6}{10}=\\dfrac{24}{5}\\).",
+   "images": [],
+   "id": "352ba9f60060",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(OA\\), \\(OB\\), \\(OC\\) are pairwise perpendicular and \\(OA=OB=OC=#\\). The distance from \\(O\\) to \\((ABC)\\) is…",
+   "en": "\\(OA\\), \\(OB\\), \\(OC\\) are pairwise perpendicular and \\(OA=OB=OC=4\\). The distance from \\(O\\) to \\((ABC)\\) is…",
+   "vi": "Cho \\(OA\\), \\(OB\\), \\(OC\\) đôi một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"perpendicular\">vuông góc</b> và \\(OA=OB=OC=4\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">Khoảng cách</b> từ \\(O\\) đến <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> \\((ABC)\\) bằng…",
+   "options": [
+    "\\(4\\)",
+    "\\(4\\sqrt3\\)",
+    "\\(\\dfrac{4\\sqrt3}{3}\\)",
+    "\\(2\\sqrt2\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\dfrac1{d^2}=\\dfrac1{OA^2}+\\dfrac1{OB^2}+\\dfrac1{OC^2}=\\dfrac3{16}\\Rightarrow d=\\dfrac{4\\sqrt3}{3}\\).",
+   "explain_vi": "Đáp án c. \\(\\dfrac1{d^2}=\\dfrac1{OA^2}+\\dfrac1{OB^2}+\\dfrac1{OC^2}=\\dfrac3{16}\\Rightarrow d=\\dfrac{4\\sqrt3}{3}\\).",
+   "images": [],
+   "id": "ac87c10595a4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(S.ABCD\\): square base of side #, \\(SA\\perp(ABCD)\\), \\(SA=#\\). The distance from \\(A\\) to \\((SBC)\\) is…",
+   "en": "\\(S.ABCD\\): square base of side 6, \\(SA\\perp(ABCD)\\), \\(SA=8\\). The distance from \\(A\\) to \\((SBC)\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">Hình chóp</b> \\(S.ABCD\\) có đáy là hình vuông cạnh 6, \\(SA\\perp(ABCD)\\), \\(SA=8\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">Khoảng cách</b> từ \\(A\\) đến <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> \\((SBC)\\) bằng…",
+   "options": [
+    "\\(\\dfrac{24}{7}\\)",
+    "\\(\\dfrac{24}{5}\\)",
+    "\\(8\\)",
+    "\\(6\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Draw \\(AH\\perp SB\\); since \\(BC\\perp(SAB)\\), \\(AH\\perp(SBC)\\): \\(AH=\\dfrac{SA\\cdot AB}{SB}=\\dfrac{8\\cdot6}{10}=\\dfrac{24}{5}\\).",
+   "explain_vi": "Đáp án b. Kẻ \\(AH\\perp SB\\); vì \\(BC\\perp(SAB)\\) nên \\(AH\\perp(SBC)\\): \\(AH=\\dfrac{SA\\cdot AB}{SB}=\\dfrac{8\\cdot6}{10}=\\dfrac{24}{5}\\).",
+   "images": [],
+   "id": "5eb0325073aa",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(S.ABCD\\): square base of side #, \\(SA\\perp(ABCD)\\), \\(SA=#\\). The distance from \\(A\\) to \\((SBC)\\) is…",
+   "en": "\\(S.ABCD\\): square base of side 15, \\(SA\\perp(ABCD)\\), \\(SA=8\\). The distance from \\(A\\) to \\((SBC)\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">Hình chóp</b> \\(S.ABCD\\) có đáy là hình vuông cạnh 15, \\(SA\\perp(ABCD)\\), \\(SA=8\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">Khoảng cách</b> từ \\(A\\) đến <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> \\((SBC)\\) bằng…",
+   "options": [
+    "\\(8\\)",
+    "\\(\\dfrac{120}{23}\\)",
+    "\\(\\dfrac{120}{17}\\)",
+    "\\(15\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Draw \\(AH\\perp SB\\); since \\(BC\\perp(SAB)\\), \\(AH\\perp(SBC)\\): \\(AH=\\dfrac{SA\\cdot AB}{SB}=\\dfrac{8\\cdot15}{17}=\\dfrac{120}{17}\\).",
+   "explain_vi": "Đáp án c. Kẻ \\(AH\\perp SB\\); vì \\(BC\\perp(SAB)\\) nên \\(AH\\perp(SBC)\\): \\(AH=\\dfrac{SA\\cdot AB}{SB}=\\dfrac{8\\cdot15}{17}=\\dfrac{120}{17}\\).",
+   "images": [],
+   "id": "3783e56af480",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(S.ABCD\\): square base of side #, \\(SA\\perp(ABCD)\\), \\(SA=#\\). The distance from \\(S\\) to the line \\(BC\\) is…",
+   "en": "\\(S.ABCD\\): square base of side 12, \\(SA\\perp(ABCD)\\), \\(SA=5\\). The distance from \\(S\\) to the line \\(BC\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">Hình chóp</b> \\(S.ABCD\\) có đáy là hình vuông cạnh 12, \\(SA\\perp(ABCD)\\), \\(SA=5\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">Khoảng cách</b> từ \\(S\\) đến <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(BC\\) bằng…",
+   "options": [
+    "\\(5\\)",
+    "\\(13\\)",
+    "\\(\\sqrt{313}\\)",
+    "\\(12\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(BC\\perp(SAB)\\), so \\(SB\\perp BC\\): the distance is \\(SB=\\sqrt{25+144}=13\\).",
+   "explain_vi": "Đáp án b. \\(BC\\perp(SAB)\\) nên \\(SB\\perp BC\\): <b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">khoảng cách</b> là \\(SB=\\sqrt{25+144}=13\\).",
+   "images": [],
+   "id": "74f30d543880",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(S.ABCD\\): square base of side #, center \\(O\\), \\(SA\\perp(ABCD)\\), \\(SA=#\\). The distance from \\(S\\) to \\(BD\\) is…",
+   "en": "\\(S.ABCD\\): square base of side 8, center \\(O\\), \\(SA\\perp(ABCD)\\), \\(SA=2\\). The distance from \\(S\\) to \\(BD\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">Hình chóp</b> \\(S.ABCD\\) có đáy là hình vuông cạnh 8 tâm \\(O\\), \\(SA\\perp(ABCD)\\), \\(SA=2\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">Khoảng cách</b> từ \\(S\\) đến <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(BD\\) bằng…",
+   "options": [
+    "\\(2\\)",
+    "\\(2\\sqrt{17}\\)",
+    "\\(6\\)",
+    "\\(4\\sqrt2\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(BD\\perp AC\\), \\(BD\\perp SA\\), so \\(BD\\perp SO\\): the distance is \\(SO=\\sqrt{SA^2+AO^2}=\\sqrt{4+32}=6\\).",
+   "explain_vi": "Đáp án c. \\(BD\\perp AC\\), \\(BD\\perp SA\\) nên \\(BD\\perp SO\\): <b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">khoảng cách</b> là \\(SO=\\sqrt{SA^2+AO^2}=\\sqrt{4+32}=6\\).",
+   "images": [],
+   "id": "5cdb17a83ee4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Cube \\(ABCD.A'B'C'D'\\) with edge \\(a\\). The distance between \\(A\\) and \\((A'BD)\\) is…",
+   "en": "Cube \\(ABCD.A'B'C'D'\\) with edge \\(a\\). The distance between \\(A\\) and \\((A'BD)\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"cube\">Hình lập phương</b> \\(ABCD.A'B'C'D'\\) cạnh \\(a\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">Khoảng cách</b> giữa \\(A\\) và \\((A'BD)\\) bằng…",
+   "options": [
+    "\\(\\dfrac{a\\sqrt3}{3}\\)",
+    "\\(a\\)",
+    "\\(a\\sqrt2\\)",
+    "\\(\\dfrac{a\\sqrt2}{2}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\dfrac{1}{d^2}=\\dfrac1{a^2}+\\dfrac1{a^2}+\\dfrac1{a^2}\\).",
+   "explain_vi": "Đáp án a. \\(\\dfrac{1}{d^2}=\\dfrac1{a^2}+\\dfrac1{a^2}+\\dfrac1{a^2}\\).",
+   "images": [],
+   "id": "9ee49d4a99a7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(S.ABCD\\): square base of side #, \\(SA\\perp(ABCD)\\), \\(SA=#\\). \\(d(A,(SBC))=\\)…",
+   "en": "\\(S.ABCD\\): square base of side 12, \\(SA\\perp(ABCD)\\), \\(SA=5\\). \\(d(A,(SBC))=\\)…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">Hình chóp</b> \\(S.ABCD\\) có đáy là hình vuông cạnh 12, \\(SA\\perp(ABCD)\\), \\(SA=5\\). \\(d(A,(SBC))\\) bằng…",
+   "options": [
+    "\\(5\\)",
+    "\\(\\dfrac{60}{13}\\)",
+    "\\(12\\)",
+    "\\(\\dfrac{13}{2}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Draw \\(AH\\perp SB\\): \\(AH=\\dfrac{SA\\cdot AB}{SB}=\\dfrac{5\\cdot12}{13}=\\dfrac{60}{13}\\).",
+   "explain_vi": "Đáp án b. Kẻ \\(AH\\perp SB\\): \\(AH=\\dfrac{SA\\cdot AB}{SB}=\\dfrac{5\\cdot12}{13}=\\dfrac{60}{13}\\).",
+   "images": [],
+   "id": "24b6b3fc928c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(S.ABCD\\): square base of side #, \\(SA\\perp(ABCD)\\), \\(SA=#\\). \\(d(S,BC)=\\)…",
+   "en": "\\(S.ABCD\\): square base of side 12, \\(SA\\perp(ABCD)\\), \\(SA=5\\). \\(d(S,BC)=\\)…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">Hình chóp</b> \\(S.ABCD\\) có đáy là hình vuông cạnh 12, \\(SA\\perp(ABCD)\\), \\(SA=5\\). \\(d(S,BC)\\) bằng…",
+   "options": [
+    "\\(5\\)",
+    "\\(\\sqrt{313}\\)",
+    "\\(\\dfrac{60}{13}\\)",
+    "\\(13\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(BC\\perp(SAB)\\), so \\(SB\\perp BC\\): \\(d=SB=13\\).",
+   "explain_vi": "Đáp án d. \\(BC\\perp(SAB)\\) nên \\(SB\\perp BC\\): \\(d=SB=13\\).",
+   "images": [],
+   "id": "71406c6eb290",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "In a cube of edge \\(a\\): \\(d(AB,C'D')=a\\).",
+   "en": "In a cube of edge \\(a\\): \\(d(AB,C'D')=a\\).",
+   "vi": "Trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"cube\">hình lập phương</b> cạnh \\(a\\): \\(d(AB,C'D')=a\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "Find the corresponding perpendicular segment.",
+   "explain_vi": "Tìm đoạn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"perpendicular\">vuông góc</b> tương ứng.",
+   "images": [],
+   "id": "9246540b247a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "The distance from a point to a plane is the length of any segment from the point to the plane.",
+   "en": "The distance from a point to a plane is the length of any segment from the point to the plane.",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance from a point to a plane\">Khoảng cách từ một điểm đến một mặt phẳng</b> bằng độ dài một đoạn thẳng bất kì nối điểm đó với <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b>.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "Recall the definitions.",
+   "explain_vi": "Nhớ lại các định nghĩa <b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">khoảng cách</b>.",
+   "images": [],
+   "id": "833cbfb49532",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "A square courtyard \\(ABCD\\) has side # m; a pole \\(SA=#\\) m stands vertically at \\(A\\). A rope runs from \\(S\\) to the diagonal \\(BD\\) along the shortest path. How long is it (m)?",
+   "en": "A square courtyard \\(ABCD\\) has side 12 m; a pole \\(SA=3\\) m stands vertically at \\(A\\). A rope runs from \\(S\\) to the diagonal \\(BD\\) along the shortest path. How long is it (m)?",
+   "vi": "Một sân hình vuông \\(ABCD\\) cạnh 12 m; cột \\(SA=3\\) m dựng thẳng đứng tại \\(A\\). Căng dây từ \\(S\\) đến <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b> \\(BD\\) theo đường ngắn nhất. Sợi dây dài bao nhiêu mét?",
+   "options": [],
+   "answer": "9",
+   "explain_en": "The shortest segment is \\(SO\\) (\\(BD\\perp(SAO)\\)): \\(SO=\\sqrt{9+72}=9\\).",
+   "explain_vi": "Đường ngắn nhất là \\(SO\\) (\\(BD\\perp(SAO)\\)): \\(SO=\\sqrt{9+72}=9\\).",
+   "images": [],
+   "id": "b5d5fe75edaf",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "\\(S.ABCD\\): square base of side #, \\(SA\\perp(ABCD)\\), \\(SA=#\\). Find \\(d(A,(SBC))\\).",
+   "en": "\\(S.ABCD\\): square base of side 40, \\(SA\\perp(ABCD)\\), \\(SA=30\\). Find \\(d(A,(SBC))\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">Hình chóp</b> \\(S.ABCD\\) có đáy là hình vuông cạnh 40, \\(SA\\perp(ABCD)\\), \\(SA=30\\). Tính \\(d(A,(SBC))\\).",
+   "options": [],
+   "answer": "24",
+   "explain_en": "\\(SB=50\\), \\(AH=\\dfrac{SA\\cdot AB}{SB}=\\dfrac{30\\cdot40}{50}=24\\).",
+   "explain_vi": "\\(SB=50\\), \\(AH=\\dfrac{30\\cdot40}{50}=24\\).",
+   "images": [],
+   "id": "56365e7a4202",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Box \\(ABCD.A'B'C'D'\\): \\(AB=#\\), \\(AD=#\\), \\(AA'=#\\). The distance between \\((ABB'A')\\) and \\((DCC'D')\\) is…",
+   "en": "Box \\(ABCD.A'B'C'D'\\): \\(AB=8\\), \\(AD=9\\), \\(AA'=2\\). The distance between \\((ABB'A')\\) and \\((DCC'D')\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelepiped\">Hình hộp</b> chữ nhật \\(ABCD.A'B'C'D'\\) có \\(AB=8\\), \\(AD=9\\), \\(AA'=2\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">Khoảng cách</b> giữa hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> \\((ABB'A')\\) và \\((DCC'D')\\) bằng…",
+   "options": [
+    "\\(9\\)",
+    "\\(2\\)",
+    "\\(\\sqrt{145}\\)",
+    "\\(8\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(AD\\) is perpendicular to both faces, so the distance is \\(AD=9\\).",
+   "explain_vi": "Đáp án a. \\(AD\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"perpendicular\">vuông góc</b> với cả hai mặt nên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">khoảng cách</b> bằng \\(AD=9\\).",
+   "images": [],
+   "id": "68dc2556eaf4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Cube \\(ABCD.A'B'C'D'\\) with edge \\(a\\). The distance from \\(AA'\\) to \\(BD\\) is…",
+   "en": "Cube \\(ABCD.A'B'C'D'\\) with edge \\(a\\). The distance from \\(AA'\\) to \\(BD\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"cube\">Hình lập phương</b> \\(ABCD.A'B'C'D'\\) cạnh \\(a\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">Khoảng cách</b> giữa \\(AA'\\) và \\(BD\\) bằng…",
+   "options": [
+    "\\(a\\sqrt2\\)",
+    "\\(a\\)",
+    "\\(\\dfrac{a\\sqrt2}{2}\\)",
+    "\\(\\dfrac{a\\sqrt3}{3}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(AO\\) is the common perpendicular.",
+   "explain_vi": "Đáp án c. \\(AO\\) là đoạn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"perpendicular\">vuông góc</b> chung.",
+   "images": [],
+   "id": "ee3b8bc942bd",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "Regular pyramid \\(S.ABCD\\): base side #, height \\(SO=#\\). The distance from \\(O\\) to \\((SCD)\\) is…",
+   "en": "Regular pyramid \\(S.ABCD\\): base side 24, height \\(SO=9\\). The distance from \\(O\\) to \\((SCD)\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">Hình chóp</b> tứ giác đều \\(S.ABCD\\) có cạnh đáy 24, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"height\">chiều cao</b> \\(SO=9\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">Khoảng cách</b> từ \\(O\\) đến <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> \\((SCD)\\) bằng…",
+   "options": [
+    "\\(\\dfrac{72}{5}\\)",
+    "\\(\\dfrac{36}{5}\\)",
+    "\\(12\\)",
+    "\\(9\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Let \\(M\\) be the midpoint of \\(CD\\) and draw \\(OH\\perp SM\\): \\(OH=\\dfrac{SO\\cdot OM}{SM}=\\dfrac{9\\cdot12}{15}=\\dfrac{36}{5}\\).",
+   "explain_vi": "Đáp án b. Gọi \\(M\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> \\(CD\\), kẻ \\(OH\\perp SM\\): \\(OH=\\dfrac{SO\\cdot OM}{SM}=\\dfrac{9\\cdot12}{15}=\\dfrac{36}{5}\\).",
+   "images": [],
+   "id": "501c989208d5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(OA\\), \\(OB\\), \\(OC\\) are pairwise perpendicular and \\(OA=OB=OC=#\\). The distance from \\(O\\) to \\((ABC)\\) is…",
+   "en": "\\(OA\\), \\(OB\\), \\(OC\\) are pairwise perpendicular and \\(OA=OB=OC=3\\). The distance from \\(O\\) to \\((ABC)\\) is…",
+   "vi": "Cho \\(OA\\), \\(OB\\), \\(OC\\) đôi một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"perpendicular\">vuông góc</b> và \\(OA=OB=OC=3\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">Khoảng cách</b> từ \\(O\\) đến <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> \\((ABC)\\) bằng…",
+   "options": [
+    "\\(\\dfrac{3\\sqrt2}{2}\\)",
+    "\\(3\\)",
+    "\\(3\\sqrt3\\)",
+    "\\(\\sqrt3\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\dfrac1{d^2}=\\dfrac1{OA^2}+\\dfrac1{OB^2}+\\dfrac1{OC^2}=\\dfrac3{9}\\Rightarrow d=\\sqrt3\\).",
+   "explain_vi": "Đáp án d. \\(\\dfrac1{d^2}=\\dfrac1{OA^2}+\\dfrac1{OB^2}+\\dfrac1{OC^2}=\\dfrac3{9}\\Rightarrow d=\\sqrt3\\).",
+   "images": [],
+   "id": "572fe4c48ad5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(S.ABCD\\): square base of side #, \\(SA\\perp(ABCD)\\), \\(SA=#\\). The distance from \\(A\\) to \\((SBC)\\) is…",
+   "en": "\\(S.ABCD\\): square base of side 12, \\(SA\\perp(ABCD)\\), \\(SA=9\\). The distance from \\(A\\) to \\((SBC)\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">Hình chóp</b> \\(S.ABCD\\) có đáy là hình vuông cạnh 12, \\(SA\\perp(ABCD)\\), \\(SA=9\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">Khoảng cách</b> từ \\(A\\) đến <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> \\((SBC)\\) bằng…",
+   "options": [
+    "\\(12\\)",
+    "\\(\\dfrac{36}{5}\\)",
+    "\\(9\\)",
+    "\\(\\dfrac{36}{7}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Draw \\(AH\\perp SB\\); since \\(BC\\perp(SAB)\\), \\(AH\\perp(SBC)\\): \\(AH=\\dfrac{SA\\cdot AB}{SB}=\\dfrac{9\\cdot12}{15}=\\dfrac{36}{5}\\).",
+   "explain_vi": "Đáp án b. Kẻ \\(AH\\perp SB\\); vì \\(BC\\perp(SAB)\\) nên \\(AH\\perp(SBC)\\): \\(AH=\\dfrac{SA\\cdot AB}{SB}=\\dfrac{9\\cdot12}{15}=\\dfrac{36}{5}\\).",
+   "images": [],
+   "id": "454bbe4296dc",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(S.ABCD\\): square base of side #, \\(SA\\perp(ABCD)\\), \\(SA=#\\). The distance from \\(A\\) to \\((SBC)\\) is…",
+   "en": "\\(S.ABCD\\): square base of side 4, \\(SA\\perp(ABCD)\\), \\(SA=3\\). The distance from \\(A\\) to \\((SBC)\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">Hình chóp</b> \\(S.ABCD\\) có đáy là hình vuông cạnh 4, \\(SA\\perp(ABCD)\\), \\(SA=3\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">Khoảng cách</b> từ \\(A\\) đến <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> \\((SBC)\\) bằng…",
+   "options": [
+    "\\(4\\)",
+    "\\(\\dfrac{12}{5}\\)",
+    "\\(3\\)",
+    "\\(\\dfrac{12}{7}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Draw \\(AH\\perp SB\\); since \\(BC\\perp(SAB)\\), \\(AH\\perp(SBC)\\): \\(AH=\\dfrac{SA\\cdot AB}{SB}=\\dfrac{3\\cdot4}{5}=\\dfrac{12}{5}\\).",
+   "explain_vi": "Đáp án b. Kẻ \\(AH\\perp SB\\); vì \\(BC\\perp(SAB)\\) nên \\(AH\\perp(SBC)\\): \\(AH=\\dfrac{SA\\cdot AB}{SB}=\\dfrac{3\\cdot4}{5}=\\dfrac{12}{5}\\).",
+   "images": [],
+   "id": "bf9317bd6027",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(S.ABCD\\): square base of side #, \\(SA\\perp(ABCD)\\), \\(SA=#\\). The distance from \\(S\\) to the line \\(BC\\) is…",
+   "en": "\\(S.ABCD\\): square base of side 15, \\(SA\\perp(ABCD)\\), \\(SA=8\\). The distance from \\(S\\) to the line \\(BC\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">Hình chóp</b> \\(S.ABCD\\) có đáy là hình vuông cạnh 15, \\(SA\\perp(ABCD)\\), \\(SA=8\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">Khoảng cách</b> từ \\(S\\) đến <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(BC\\) bằng…",
+   "options": [
+    "\\(\\sqrt{514}\\)",
+    "\\(8\\)",
+    "\\(17\\)",
+    "\\(15\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(BC\\perp(SAB)\\), so \\(SB\\perp BC\\): the distance is \\(SB=\\sqrt{64+225}=17\\).",
+   "explain_vi": "Đáp án c. \\(BC\\perp(SAB)\\) nên \\(SB\\perp BC\\): <b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">khoảng cách</b> là \\(SB=\\sqrt{64+225}=17\\).",
+   "images": [],
+   "id": "4ff829630ca1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(S.ABCD\\): square base of side #, center \\(O\\), \\(SA\\perp(ABCD)\\), \\(SA=#\\). The distance from \\(S\\) to \\(BD\\) is…",
+   "en": "\\(S.ABCD\\): square base of side 4, center \\(O\\), \\(SA\\perp(ABCD)\\), \\(SA=1\\). The distance from \\(S\\) to \\(BD\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">Hình chóp</b> \\(S.ABCD\\) có đáy là hình vuông cạnh 4 tâm \\(O\\), \\(SA\\perp(ABCD)\\), \\(SA=1\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">Khoảng cách</b> từ \\(S\\) đến <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(BD\\) bằng…",
+   "options": [
+    "\\(1\\)",
+    "\\(3\\)",
+    "\\(2\\sqrt2\\)",
+    "\\(\\sqrt{17}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(BD\\perp AC\\), \\(BD\\perp SA\\), so \\(BD\\perp SO\\): the distance is \\(SO=\\sqrt{SA^2+AO^2}=\\sqrt{1+8}=3\\).",
+   "explain_vi": "Đáp án b. \\(BD\\perp AC\\), \\(BD\\perp SA\\) nên \\(BD\\perp SO\\): <b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">khoảng cách</b> là \\(SO=\\sqrt{SA^2+AO^2}=\\sqrt{1+8}=3\\).",
+   "images": [],
+   "id": "bbd24d077d86",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Cube \\(ABCD.A'B'C'D'\\) with edge \\(a\\). The distance between \\(AB\\) and \\(C'D'\\) is…",
+   "en": "Cube \\(ABCD.A'B'C'D'\\) with edge \\(a\\). The distance between \\(AB\\) and \\(C'D'\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"cube\">Hình lập phương</b> \\(ABCD.A'B'C'D'\\) cạnh \\(a\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">Khoảng cách</b> giữa \\(AB\\) và \\(C'D'\\) bằng…",
+   "options": [
+    "\\(a\\)",
+    "\\(a\\sqrt2\\)",
+    "\\(\\dfrac{a\\sqrt2}{2}\\)",
+    "\\(\\dfrac{a\\sqrt3}{3}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Parallel lines; distance \\(BC'\\).",
+   "explain_vi": "Đáp án b. Hai đường <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b>; <b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">khoảng cách</b> \\(BC'\\).",
+   "images": [],
+   "id": "f2346fd0e792",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(S.ABCD\\): square base of side #, \\(SA\\perp(ABCD)\\), \\(SA=#\\). \\(d(A,(SBC))=\\)…",
+   "en": "\\(S.ABCD\\): square base of side 6, \\(SA\\perp(ABCD)\\), \\(SA=8\\). \\(d(A,(SBC))=\\)…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">Hình chóp</b> \\(S.ABCD\\) có đáy là hình vuông cạnh 6, \\(SA\\perp(ABCD)\\), \\(SA=8\\). \\(d(A,(SBC))\\) bằng…",
+   "options": [
+    "\\(\\dfrac{24}{5}\\)",
+    "\\(8\\)",
+    "\\(6\\)",
+    "\\(5\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Draw \\(AH\\perp SB\\): \\(AH=\\dfrac{SA\\cdot AB}{SB}=\\dfrac{8\\cdot6}{10}=\\dfrac{24}{5}\\).",
+   "explain_vi": "Đáp án a. Kẻ \\(AH\\perp SB\\): \\(AH=\\dfrac{SA\\cdot AB}{SB}=\\dfrac{8\\cdot6}{10}=\\dfrac{24}{5}\\).",
+   "images": [],
+   "id": "e9a221158a12",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(S.ABCD\\): square base of side #, \\(SA\\perp(ABCD)\\), \\(SA=#\\). \\(d(S,BC)=\\)…",
+   "en": "\\(S.ABCD\\): square base of side 12, \\(SA\\perp(ABCD)\\), \\(SA=9\\). \\(d(S,BC)=\\)…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">Hình chóp</b> \\(S.ABCD\\) có đáy là hình vuông cạnh 12, \\(SA\\perp(ABCD)\\), \\(SA=9\\). \\(d(S,BC)\\) bằng…",
+   "options": [
+    "\\(9\\)",
+    "\\(3\\sqrt{41}\\)",
+    "\\(\\dfrac{36}{5}\\)",
+    "\\(15\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(BC\\perp(SAB)\\), so \\(SB\\perp BC\\): \\(d=SB=15\\).",
+   "explain_vi": "Đáp án d. \\(BC\\perp(SAB)\\) nên \\(SB\\perp BC\\): \\(d=SB=15\\).",
+   "images": [],
+   "id": "f4fe3d1c9b0a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "If \\((P)\\parallel(Q)\\), \\(d((P),(Q))=d(M,(Q))\\) for every \\(M\\in(P)\\).",
+   "en": "If \\((P)\\parallel(Q)\\), \\(d((P),(Q))=d(M,(Q))\\) for every \\(M\\in(P)\\).",
+   "vi": "Nếu \\((P)\\parallel(Q)\\) thì \\(d((P),(Q))=d(M,(Q))\\) với mọi \\(M\\in(P)\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "Recall the definitions.",
+   "explain_vi": "Nhớ lại các định nghĩa <b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">khoảng cách</b>.",
+   "images": [],
+   "id": "5ab7cb10ae26",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "In a cube of edge \\(a\\): \\(d(AA',BD)=\\dfrac{a\\sqrt#}{#}\\).",
+   "en": "In a cube of edge \\(a\\): \\(d(AA',BD)=\\dfrac{a\\sqrt2}{2}\\).",
+   "vi": "Trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"cube\">hình lập phương</b> cạnh \\(a\\): \\(d(AA',BD)=\\dfrac{a\\sqrt2}{2}\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "Find the corresponding perpendicular segment.",
+   "explain_vi": "Tìm đoạn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"perpendicular\">vuông góc</b> tương ứng.",
+   "images": [],
+   "id": "cfc5680bc782",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "A square courtyard \\(ABCD\\) has side # m; a pole \\(SA=#\\) m stands vertically at \\(A\\). A rope runs from \\(S\\) to the diagonal \\(BD\\) along the shortest path. How long is it (m)?",
+   "en": "A square courtyard \\(ABCD\\) has side 16 m; a pole \\(SA=4\\) m stands vertically at \\(A\\). A rope runs from \\(S\\) to the diagonal \\(BD\\) along the shortest path. How long is it (m)?",
+   "vi": "Một sân hình vuông \\(ABCD\\) cạnh 16 m; cột \\(SA=4\\) m dựng thẳng đứng tại \\(A\\). Căng dây từ \\(S\\) đến <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b> \\(BD\\) theo đường ngắn nhất. Sợi dây dài bao nhiêu mét?",
+   "options": [],
+   "answer": "12",
+   "explain_en": "The shortest segment is \\(SO\\) (\\(BD\\perp(SAO)\\)): \\(SO=\\sqrt{16+128}=12\\).",
+   "explain_vi": "Đường ngắn nhất là \\(SO\\) (\\(BD\\perp(SAO)\\)): \\(SO=\\sqrt{16+128}=12\\).",
+   "images": [],
+   "id": "12c4acd32325",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "\\(S.ABCD\\): square base of side #, \\(SA\\perp(ABCD)\\), \\(SA=#\\). Find \\(d(A,(SBC))\\).",
+   "en": "\\(S.ABCD\\): square base of side 15, \\(SA\\perp(ABCD)\\), \\(SA=20\\). Find \\(d(A,(SBC))\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">Hình chóp</b> \\(S.ABCD\\) có đáy là hình vuông cạnh 15, \\(SA\\perp(ABCD)\\), \\(SA=20\\). Tính \\(d(A,(SBC))\\).",
+   "options": [],
+   "answer": "12",
+   "explain_en": "\\(SB=25\\), \\(AH=\\dfrac{SA\\cdot AB}{SB}=\\dfrac{20\\cdot15}{25}=12\\).",
+   "explain_vi": "\\(SB=25\\), \\(AH=\\dfrac{20\\cdot15}{25}=12\\).",
+   "images": [],
+   "id": "4c6f795c4062",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Box \\(ABCD.A'B'C'D'\\): \\(AB=#\\), \\(AD=#\\), \\(AA'=#\\). The distance between \\((ABB'A')\\) and \\((DCC'D')\\) is…",
+   "en": "Box \\(ABCD.A'B'C'D'\\): \\(AB=6\\), \\(AD=3\\), \\(AA'=5\\). The distance between \\((ABB'A')\\) and \\((DCC'D')\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelepiped\">Hình hộp</b> chữ nhật \\(ABCD.A'B'C'D'\\) có \\(AB=6\\), \\(AD=3\\), \\(AA'=5\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">Khoảng cách</b> giữa hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> \\((ABB'A')\\) và \\((DCC'D')\\) bằng…",
+   "options": [
+    "\\(6\\)",
+    "\\(3\\)",
+    "\\(3\\sqrt{5}\\)",
+    "\\(5\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(AD\\) is perpendicular to both faces, so the distance is \\(AD=3\\).",
+   "explain_vi": "Đáp án b. \\(AD\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"perpendicular\">vuông góc</b> với cả hai mặt nên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">khoảng cách</b> bằng \\(AD=3\\).",
+   "images": [],
+   "id": "1a5b2f6ede15",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Cube \\(ABCD.A'B'C'D'\\) with edge \\(a\\). The distance from \\((ABCD)\\) to \\((A'B'C'D')\\) is…",
+   "en": "Cube \\(ABCD.A'B'C'D'\\) with edge \\(a\\). The distance from \\((ABCD)\\) to \\((A'B'C'D')\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"cube\">Hình lập phương</b> \\(ABCD.A'B'C'D'\\) cạnh \\(a\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">Khoảng cách</b> giữa \\((ABCD)\\) và \\((A'B'C'D')\\) bằng…",
+   "options": [
+    "\\(a\\sqrt2\\)",
+    "\\(a\\)",
+    "\\(\\dfrac{a\\sqrt2}{2}\\)",
+    "\\(\\dfrac{a\\sqrt3}{3}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Parallel faces at distance \\(AA'\\).",
+   "explain_vi": "Đáp án b. Hai mặt <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b> cách nhau \\(AA'\\).",
+   "images": [],
+   "id": "7b7ce4f86686",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "Regular pyramid \\(S.ABCD\\): base side #, height \\(SO=#\\). The distance from \\(O\\) to \\((SCD)\\) is…",
+   "en": "Regular pyramid \\(S.ABCD\\): base side 10, height \\(SO=12\\). The distance from \\(O\\) to \\((SCD)\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">Hình chóp</b> tứ giác đều \\(S.ABCD\\) có cạnh đáy 10, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"height\">chiều cao</b> \\(SO=12\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">Khoảng cách</b> từ \\(O\\) đến <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> \\((SCD)\\) bằng…",
+   "options": [
+    "\\(\\dfrac{120}{13}\\)",
+    "\\(12\\)",
+    "\\(\\dfrac{60}{13}\\)",
+    "\\(5\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Let \\(M\\) be the midpoint of \\(CD\\) and draw \\(OH\\perp SM\\): \\(OH=\\dfrac{SO\\cdot OM}{SM}=\\dfrac{12\\cdot5}{13}=\\dfrac{60}{13}\\).",
+   "explain_vi": "Đáp án c. Gọi \\(M\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> \\(CD\\), kẻ \\(OH\\perp SM\\): \\(OH=\\dfrac{SO\\cdot OM}{SM}=\\dfrac{12\\cdot5}{13}=\\dfrac{60}{13}\\).",
+   "images": [],
+   "id": "c5a7f5f1bb4f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(OA\\), \\(OB\\), \\(OC\\) are pairwise perpendicular and \\(OA=OB=OC=#\\). The distance from \\(O\\) to \\((ABC)\\) is…",
+   "en": "\\(OA\\), \\(OB\\), \\(OC\\) are pairwise perpendicular and \\(OA=OB=OC=1\\). The distance from \\(O\\) to \\((ABC)\\) is…",
+   "vi": "Cho \\(OA\\), \\(OB\\), \\(OC\\) đôi một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"perpendicular\">vuông góc</b> và \\(OA=OB=OC=1\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">Khoảng cách</b> từ \\(O\\) đến <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> \\((ABC)\\) bằng…",
+   "options": [
+    "\\(\\sqrt3\\)",
+    "\\(\\dfrac{\\sqrt3}{3}\\)",
+    "\\(\\dfrac{\\sqrt2}{2}\\)",
+    "\\(1\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\dfrac1{d^2}=\\dfrac1{OA^2}+\\dfrac1{OB^2}+\\dfrac1{OC^2}=\\dfrac3{1}\\Rightarrow d=\\dfrac{\\sqrt3}{3}\\).",
+   "explain_vi": "Đáp án b. \\(\\dfrac1{d^2}=\\dfrac1{OA^2}+\\dfrac1{OB^2}+\\dfrac1{OC^2}=\\dfrac3{1}\\Rightarrow d=\\dfrac{\\sqrt3}{3}\\).",
+   "images": [],
+   "id": "33f1f1cc71bb",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(S.ABCD\\): square base of side #, \\(SA\\perp(ABCD)\\), \\(SA=#\\). The distance from \\(A\\) to \\((SBC)\\) is…",
+   "en": "\\(S.ABCD\\): square base of side 3, \\(SA\\perp(ABCD)\\), \\(SA=4\\). The distance from \\(A\\) to \\((SBC)\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">Hình chóp</b> \\(S.ABCD\\) có đáy là hình vuông cạnh 3, \\(SA\\perp(ABCD)\\), \\(SA=4\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">Khoảng cách</b> từ \\(A\\) đến <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> \\((SBC)\\) bằng…",
+   "options": [
+    "\\(\\dfrac{12}{5}\\)",
+    "\\(4\\)",
+    "\\(\\dfrac{12}{7}\\)",
+    "\\(3\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Draw \\(AH\\perp SB\\); since \\(BC\\perp(SAB)\\), \\(AH\\perp(SBC)\\): \\(AH=\\dfrac{SA\\cdot AB}{SB}=\\dfrac{4\\cdot3}{5}=\\dfrac{12}{5}\\).",
+   "explain_vi": "Đáp án a. Kẻ \\(AH\\perp SB\\); vì \\(BC\\perp(SAB)\\) nên \\(AH\\perp(SBC)\\): \\(AH=\\dfrac{SA\\cdot AB}{SB}=\\dfrac{4\\cdot3}{5}=\\dfrac{12}{5}\\).",
+   "images": [],
+   "id": "79565bb8d86d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(S.ABCD\\): square base of side #, \\(SA\\perp(ABCD)\\), \\(SA=#\\). The distance from \\(A\\) to \\((SBC)\\) is…",
+   "en": "\\(S.ABCD\\): square base of side 5, \\(SA\\perp(ABCD)\\), \\(SA=12\\). The distance from \\(A\\) to \\((SBC)\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">Hình chóp</b> \\(S.ABCD\\) có đáy là hình vuông cạnh 5, \\(SA\\perp(ABCD)\\), \\(SA=12\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">Khoảng cách</b> từ \\(A\\) đến <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> \\((SBC)\\) bằng…",
+   "options": [
+    "\\(\\dfrac{60}{17}\\)",
+    "\\(12\\)",
+    "\\(5\\)",
+    "\\(\\dfrac{60}{13}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Draw \\(AH\\perp SB\\); since \\(BC\\perp(SAB)\\), \\(AH\\perp(SBC)\\): \\(AH=\\dfrac{SA\\cdot AB}{SB}=\\dfrac{12\\cdot5}{13}=\\dfrac{60}{13}\\).",
+   "explain_vi": "Đáp án d. Kẻ \\(AH\\perp SB\\); vì \\(BC\\perp(SAB)\\) nên \\(AH\\perp(SBC)\\): \\(AH=\\dfrac{SA\\cdot AB}{SB}=\\dfrac{12\\cdot5}{13}=\\dfrac{60}{13}\\).",
+   "images": [],
+   "id": "2fb9943991fe",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(S.ABCD\\): square base of side #, \\(SA\\perp(ABCD)\\), \\(SA=#\\). The distance from \\(S\\) to the line \\(BC\\) is…",
+   "en": "\\(S.ABCD\\): square base of side 4, \\(SA\\perp(ABCD)\\), \\(SA=3\\). The distance from \\(S\\) to the line \\(BC\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">Hình chóp</b> \\(S.ABCD\\) có đáy là hình vuông cạnh 4, \\(SA\\perp(ABCD)\\), \\(SA=3\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">Khoảng cách</b> từ \\(S\\) đến <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(BC\\) bằng…",
+   "options": [
+    "\\(4\\)",
+    "\\(3\\)",
+    "\\(\\sqrt{41}\\)",
+    "\\(5\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(BC\\perp(SAB)\\), so \\(SB\\perp BC\\): the distance is \\(SB=\\sqrt{9+16}=5\\).",
+   "explain_vi": "Đáp án d. \\(BC\\perp(SAB)\\) nên \\(SB\\perp BC\\): <b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">khoảng cách</b> là \\(SB=\\sqrt{9+16}=5\\).",
+   "images": [],
+   "id": "c33c9cbd829c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(S.ABCD\\): square base of side #, center \\(O\\), \\(SA\\perp(ABCD)\\), \\(SA=#\\). The distance from \\(S\\) to \\(BD\\) is…",
+   "en": "\\(S.ABCD\\): square base of side 12, center \\(O\\), \\(SA\\perp(ABCD)\\), \\(SA=3\\). The distance from \\(S\\) to \\(BD\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">Hình chóp</b> \\(S.ABCD\\) có đáy là hình vuông cạnh 12 tâm \\(O\\), \\(SA\\perp(ABCD)\\), \\(SA=3\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">Khoảng cách</b> từ \\(S\\) đến <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(BD\\) bằng…",
+   "options": [
+    "\\(3\\)",
+    "\\(9\\)",
+    "\\(3\\sqrt{17}\\)",
+    "\\(6\\sqrt2\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(BD\\perp AC\\), \\(BD\\perp SA\\), so \\(BD\\perp SO\\): the distance is \\(SO=\\sqrt{SA^2+AO^2}=\\sqrt{9+72}=9\\).",
+   "explain_vi": "Đáp án b. \\(BD\\perp AC\\), \\(BD\\perp SA\\) nên \\(BD\\perp SO\\): <b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">khoảng cách</b> là \\(SO=\\sqrt{SA^2+AO^2}=\\sqrt{9+72}=9\\).",
+   "images": [],
+   "id": "98fd12611667",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(S.ABCD\\): square base of side #, centre \\(O\\), \\(SA\\perp(ABCD)\\), \\(SA=#\\). The distance from \\(S\\) to \\(BD\\) is…",
+   "en": "\\(S.ABCD\\): square base of side 8, centre \\(O\\), \\(SA\\perp(ABCD)\\), \\(SA=2\\). The distance from \\(S\\) to \\(BD\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">Hình chóp</b> \\(S.ABCD\\) có đáy là hình vuông cạnh 8 tâm \\(O\\), \\(SA\\perp(ABCD)\\), \\(SA=2\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"interval\">Khoảng</b> cách từ \\(S\\) đến đường thẳng \\(BD\\) bằng…",
+   "options": [
+    "\\(2\\)",
+    "\\(2\\sqrt{17}\\)",
+    "\\(6\\)",
+    "\\(4\\sqrt2\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(BD\\perp(SAO)\\Rightarrow SO\\perp BD\\).",
+   "explain_vi": "Đáp án c. \\(BD\\perp AC\\), \\(BD\\perp SA\\) nên \\(BD\\perp SO\\): <b class=\"mbl-term\" tabindex=\"0\" data-en=\"interval\">khoảng</b> cách là \\(SO=\\sqrt{SA^2+AO^2}=\\sqrt{4+32}=6\\).",
+   "images": [],
+   "id": "b959099dfb86",
+   "status": "đã thay ra",
+   "sources": [
+    "bản trước sửa lỗi trình bày 23/11/2026"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(S.ABCD\\): square base of side #, centre \\(O\\), \\(SA\\perp(ABCD)\\), \\(SA=#\\). The distance from \\(S\\) to \\(BD\\) is…",
+   "en": "\\(S.ABCD\\): square base of side 4, centre \\(O\\), \\(SA\\perp(ABCD)\\), \\(SA=1\\). The distance from \\(S\\) to \\(BD\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">Hình chóp</b> \\(S.ABCD\\) có đáy là hình vuông cạnh 4 tâm \\(O\\), \\(SA\\perp(ABCD)\\), \\(SA=1\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"interval\">Khoảng</b> cách từ \\(S\\) đến đường thẳng \\(BD\\) bằng…",
+   "options": [
+    "\\(1\\)",
+    "\\(3\\)",
+    "\\(2\\sqrt2\\)",
+    "\\(\\sqrt{17}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(BD\\perp(SAO)\\Rightarrow SO\\perp BD\\).",
+   "explain_vi": "Đáp án b. \\(BD\\perp AC\\), \\(BD\\perp SA\\) nên \\(BD\\perp SO\\): <b class=\"mbl-term\" tabindex=\"0\" data-en=\"interval\">khoảng</b> cách là \\(SO=\\sqrt{SA^2+AO^2}=\\sqrt{1+8}=3\\).",
+   "images": [],
+   "id": "aeb1861895bc",
+   "status": "đã thay ra",
+   "sources": [
+    "bản trước sửa lỗi trình bày 23/11/2026"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "\\(S.ABCD\\): square base of side #, centre \\(O\\), \\(SA\\perp(ABCD)\\), \\(SA=#\\). The distance from \\(S\\) to \\(BD\\) is…",
+   "en": "\\(S.ABCD\\): square base of side 12, centre \\(O\\), \\(SA\\perp(ABCD)\\), \\(SA=3\\). The distance from \\(S\\) to \\(BD\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">Hình chóp</b> \\(S.ABCD\\) có đáy là hình vuông cạnh 12 tâm \\(O\\), \\(SA\\perp(ABCD)\\), \\(SA=3\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"interval\">Khoảng</b> cách từ \\(S\\) đến đường thẳng \\(BD\\) bằng…",
+   "options": [
+    "\\(3\\)",
+    "\\(9\\)",
+    "\\(3\\sqrt{17}\\)",
+    "\\(6\\sqrt2\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(BD\\perp(SAO)\\Rightarrow SO\\perp BD\\).",
+   "explain_vi": "Đáp án b. \\(BD\\perp AC\\), \\(BD\\perp SA\\) nên \\(BD\\perp SO\\): <b class=\"mbl-term\" tabindex=\"0\" data-en=\"interval\">khoảng</b> cách là \\(SO=\\sqrt{SA^2+AO^2}=\\sqrt{9+72}=9\\).",
+   "images": [],
+   "id": "729dc536a65f",
+   "status": "đã thay ra",
+   "sources": [
+    "bản trước sửa lỗi trình bày 23/11/2026"
+   ]
+  }
+ ]
+}

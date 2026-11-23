@@ -10,14 +10,14 @@ CV = 'Định nghĩa và ý nghĩa của đạo hàm'
 vocab = defs(CV, [
  ('deriv31', 'derivative at a point', 'đạo hàm tại một điểm', 'the limit \\(f′(x_0)=\\lim\\limits_{x\\to x_0}\\dfrac{f(x)-f(x_0)}{x-x_0}\\), if it is finite.', 'giới hạn hữu hạn \\(f′(x_0)=\\lim\\limits_{x\\to x_0}\\dfrac{f(x)-f(x_0)}{x-x_0}\\) (nếu có).', 'The derivative at 3 is 6.', '\\(f′(x_0)\\)'),
  ('instvel', 'instantaneous velocity', 'vận tốc tức thời', 'the derivative of the position function: \\(v(t_0)=s′(t_0)\\).', 'đạo hàm của hàm quãng đường: \\(v(t_0)=s′(t_0)\\).', 'The instantaneous velocity at t = 2 s is 19.6 m/s.', '\\(s′(t_0)\\)'),
- ('avgvel', 'average velocity', 'vận tốc trung bình', 'distance travelled divided by time: \\(\\dfrac{s(t)-s(t_0)}{t-t_0}\\).', 'quãng đường chia cho thời gian: \\(\\dfrac{s(t)-s(t_0)}{t-t_0}\\).', 'The average velocity on [2; 3] is 24.5 m/s.', ''),
+ ('avgvel', 'average velocity', 'vận tốc trung bình', 'distance traveled divided by time: \\(\\dfrac{s(t)-s(t_0)}{t-t_0}\\).', 'quãng đường chia cho thời gian: \\(\\dfrac{s(t)-s(t_0)}{t-t_0}\\).', 'The average velocity on [2; 3] is 24.5 m/s.', ''),
  ('margcost', 'marginal cost', 'chi phí biên', 'the derivative \\(C′(x)\\) of the cost function; approximately the cost of one more item.', 'đạo hàm \\(C′(x)\\) của hàm chi phí; xấp xỉ chi phí làm thêm một sản phẩm.', 'The marginal cost at 100 items is 40 thousand đồng.', '\\(C′(x)\\)')])
 goals = [('define the derivative at a point as a limit and compute it from the definition;', 'phát biểu định nghĩa [[đạo hàm tại một điểm]] và tính đạo hàm bằng định nghĩa;'),
          ('interpret \\(f′(x_0)\\) as the slope of the tangent and write the tangent equation;', 'hiểu \\(f′(x_0)\\) là [[hệ số góc]] của [[tiếp tuyến]] và viết phương trình tiếp tuyến;'),
          ('interpret the derivative as an instantaneous rate of change (velocity, marginal cost);', 'hiểu đạo hàm là tốc độ thay đổi tức thời ([[vận tốc tức thời]], [[chi phí biên]]);'),
-         ('recognise points where a function has no derivative.', 'nhận biết điểm mà hàm số không [[có đạo hàm]].')]
+         ('recognize points where a function has no derivative.', 'nhận biết điểm mà hàm số không [[có đạo hàm]].')]
 phrases = [('<b>The secant line turns into the tangent line.</b>', 'Cát tuyến dần trở thành tiếp tuyến.'), ('<b>The derivative is the slope of the tangent.</b>', 'Đạo hàm là hệ số góc của tiếp tuyến.'),
-           ('<b>The instantaneous velocity at two seconds is twenty metres per second.</b>', 'Vận tốc tức thời tại giây thứ hai là 20 m/s.'), ('<b>Let h tend to zero.</b>', 'Cho h dần tới 0.'), ('<b>The graph has a corner, so there is no derivative there.</b>', 'Đồ thị có góc nhọn nên tại đó không có đạo hàm.')]
+           ('<b>The instantaneous velocity at two seconds is twenty meters per second.</b>', 'Vận tốc tức thời tại giây thứ hai là 20 m/s.'), ('<b>Let h tend to zero.</b>', 'Cho h dần tới 0.'), ('<b>The graph has a corner, so there is no derivative there.</b>', 'Đồ thị có góc nhọn nên tại đó không có đạo hàm.')]
 review = T('From Chapter V: \\(\\lim\\limits_{x\\to x_0}\\), removing the factor \\(x-x_0\\) in \\(\\frac00\\) limits. From Grade 10: a line with slope \\(k\\) through \\((x_0;y_0)\\) is \\(y=k(x-x_0)+y_0\\).',
            'Từ Chương V: giới hạn \\(\\lim\\limits_{x\\to x_0}\\), khử dạng \\(\\frac00\\) bằng cách rút gọn nhân tử \\(x-x_0\\). Từ lớp 10: đường thẳng hệ số góc \\(k\\) qua \\((x_0;y_0)\\) là \\(y=k(x-x_0)+y_0\\).')
 
@@ -68,24 +68,24 @@ def lvl(P):
     a, b, x0 = P['df']
     v = 2 * a * x0 + b
     o1 = M4(1, 'By definition, for \\(f(x)=%s\\), \\(f′(%d)=\\)…' % (poly_tex([a, b, 0]), x0), 'Dùng định nghĩa, với \\(f(x)=%s\\) thì \\(f′(%d)=\\)…' % (poly_tex([a, b, 0]), x0), '\\(%d\\)' % v,
-            ['\\(%d\\)' % (a * x0 * x0 + b * x0), '\\(%d\\)' % (a * x0 + b), '\\(%d\\)' % (2 * a * x0), '\\(%d\\)' % (-v)], '\\(\\dfrac{\\Delta y}{h}=2ax_0+b+ah\\).', '\\(\\dfrac{\\Delta y}{h}=%d+%sh\\to%d\\).' % (v, '' if a == 1 else str(a), v))
+            ['\\(%d\\)' % (a * x0 * x0 + b * x0), '\\(%d\\)' % (a * x0 + b), '\\(%d\\)' % (2 * a * x0), '\\(%d\\)' % (-v)], '\\(\\dfrac{\\Delta y}{h}=%d+%sh\\to%d\\).' % (v, '' if a == 1 else str(a), v), '\\(\\dfrac{\\Delta y}{h}=%d+%sh\\to%d\\).' % (v, '' if a == 1 else str(a), v))
     x1 = P['tan']; m, c = 3 * x1 * x1, -2 * x1 ** 3
     L = lambda m_, c_: '\\(y=%s\\)' % poly_tex([m_, c_])
     o2 = M4(2, 'The tangent to \\(y=x^3\\) at the point with abscissa \\(%d\\) is…' % x1, 'Tiếp tuyến của đồ thị \\(y=x^3\\) tại điểm có hoành độ \\(%d\\) là…' % x1, L(m, c),
-            [L(m, -c), L(m, x1 ** 3), L(3 * x1, c), L(-m, c)], '\\(y=3x_0^2(x-x_0)+x_0^3\\).', '\\(f′(%d)=%d\\), \\(f(%d)=%d\\): \\(y=%d(x-(%d))+(%d)\\).' % (x1, m, x1, x1 ** 3, m, x1, x1 ** 3))
+            [L(m, -c), L(m, x1 ** 3), L(3 * x1, c), L(-m, c)], '\\(f′(%d)=%d\\), \\(f(%d)=%d\\): \\(y=%d(x-(%d))+(%d)\\).' % (x1, m, x1, x1 ** 3, m, x1, x1 ** 3), '\\(f′(%d)=%d\\), \\(f(%d)=%d\\): \\(y=%d(x-(%d))+(%d)\\).' % (x1, m, x1, x1 ** 3, m, x1, x1 ** 3))
     k, t0 = P['vel']
     o3 = M4(3, 'An object moves with \\(s(t)=%dt^2\\) (m, s). Its instantaneous velocity at \\(t=%d\\) is…' % (k, t0), 'Một vật chuyển động theo \\(s(t)=%dt^2\\) (m, s). Vận tốc tức thời tại \\(t=%d\\) là…' % (k, t0), '\\(%d\\) m/s' % (2 * k * t0),
-            ['\\(%d\\) m/s' % (k * t0 * t0), '\\(%d\\) m/s' % (k * t0), '\\(%d\\) m/s' % (k * (2 * t0 + 1)), '\\(%d\\) m/s' % (4 * k * t0)], '\\(v=s′(t)=%dt\\).' % (2 * k), '\\(v(t)=s′(t)=%dt\\); vận tốc trung bình trên \\([%d;%d]\\) là \\(%d\\) m/s, khác vận tốc tức thời.' % (2 * k, t0, t0 + 1, k * (2 * t0 + 1)))
+            ['\\(%d\\) m/s' % (k * t0 * t0), '\\(%d\\) m/s' % (k * t0), '\\(%d\\) m/s' % (k * (2 * t0 + 1)), '\\(%d\\) m/s' % (4 * k * t0)], '\\(v(t)=s′(t)=%dt\\); the average velocity on \\([%d;%d]\\) is \\(%d\\) m/s, which differs from the instantaneous velocity.' % (2 * k, t0, t0 + 1, k * (2 * t0 + 1)), '\\(v(t)=s′(t)=%dt\\); vận tốc trung bình trên \\([%d;%d]\\) là \\(%d\\) m/s, khác vận tốc tức thời.' % (2 * k, t0, t0 + 1, k * (2 * t0 + 1)))
     (se, sv), v4 = P['t4']
     t4 = tf(4, se, sv, v4, 'Recall the geometric meaning.', 'Nhớ lại ý nghĩa hình học, mối liên hệ với tính liên tục.')
     (te, tv), v5 = P['t5']
     t5 = tf(5, te, tv, v5, 'Average vs instantaneous.', 'Phân biệt tốc độ trung bình và tức thời.')
     p, q, x2 = P['slope']
     s6 = sh(6, 'Find the slope of the tangent to \\(y=%s\\) at \\(x=%d\\).' % (poly_tex([1, 0, p, q]), x2), 'Tìm hệ số góc của tiếp tuyến của đồ thị \\(y=%s\\) tại điểm có hoành độ \\(x=%d\\).' % (poly_tex([1, 0, p, q]), x2),
-            3 * x2 * x2 + p, '\\(f′(x)=3x^2%+d\\).' % p, '\\(f′(x)=3x^2%+d\\), \\(f′(%d)=%d\\).' % (p, x2, 3 * x2 * x2 + p))
+            3 * x2 * x2 + p, '\\(f′(x)=3x^2%+d\\), \\(f′(%d)=%d\\).' % (p, x2, 3 * x2 * x2 + p), '\\(f′(x)=3x^2%+d\\), \\(f′(%d)=%d\\).' % (p, x2, 3 * x2 * x2 + p))
     a7, b7, n7 = P['cost']
     s7 = sh(7, 'Cost \\(C(x)=%s\\,x^2+%dx+1000\\) (thousand đồng). Find the marginal cost \\(C′(%d)\\).' % (fr(a7), b7, n7), 'Chi phí \\(C(x)=%s\\,x^2+%dx+1000\\) (nghìn đồng) khi sản xuất \\(x\\) sản phẩm. Tính chi phí biên \\(C′(%d)\\).' % (fr(a7), b7, n7),
-            int(2 * a7 * n7 + b7), '\\(C′(x)=2ax+b\\).', '\\(C′(x)=%s x+%d\\), \\(C′(%d)=%d\\).' % (fr(2 * a7), b7, n7, int(2 * a7 * n7 + b7)))
+            int(2 * a7 * n7 + b7), '\\(C′(x)=%s x+%d\\), \\(C′(%d)=%d\\).' % (fr(2 * a7), b7, n7, int(2 * a7 * n7 + b7)), '\\(C′(x)=%s x+%d\\), \\(C′(%d)=%d\\).' % (fr(2 * a7), b7, n7, int(2 * a7 * n7 + b7)))
     return [[o1, o2, o3], [t4, t5], [s6, s7]]
 
 

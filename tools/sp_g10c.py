@@ -25,7 +25,7 @@ def v7_eq(r, lv):
         p, v, eq = _eqvec(r, P, pairs)
         if eq: break
     c = r.choice(eq); wr = [x for x in pairs if sub(P, *x) != v and (sub(P, *x) == tuple(-t for t in v) or x[0] == p[0] or x[1] == p[1] or x[0] == c[0])]
-    r.shuffle(wr); fig = 'parallelogram \\(ABCD\\) with centre \\(O\\)' if P is PGM else 'regular hexagon \\(ABCDEF\\) with centre \\(O\\)'; figv = 'hình bình hành \\(ABCD\\) tâm \\(O\\)' if P is PGM else 'lục giác đều \\(ABCDEF\\) tâm \\(O\\)'
+    r.shuffle(wr); fig = 'parallelogram \\(ABCD\\) with center \\(O\\)' if P is PGM else 'regular hexagon \\(ABCDEF\\) with center \\(O\\)'; figv = 'hình bình hành \\(ABCD\\) tâm \\(O\\)' if P is PGM else 'lục giác đều \\(ABCDEF\\) tâm \\(O\\)'
     f = lambda x: ov(*x)
     return dict(en='In the %s, which vector equals \\(%s\\)?' % (fig, ov(*p)), vi='Cho %s. Vectơ nào bằng \\(%s\\)?' % (figv, ov(*p)), opts=pick_opts(r, f(c), [f(x) for x in wr]), ans=0,
       ee='Equal vectors have the same direction and the same length: \\(%s=%s\\).' % (ov(*p), ov(*c)), ev='Hai vectơ bằng nhau khi cùng hướng và cùng độ dài: \\(%s=%s\\).' % (ov(*p), ov(*c)))
@@ -36,7 +36,7 @@ def v7_len(r, lv):
     elif kind == 'rect':
         p, q, h = r.choice(PY); en = 'ABCD is a rectangle with AB = %d and AD = %d. Then \\(|%s|=\\)…' % (p, q, ov('A', 'C')); vi = 'ABCD là hình chữ nhật có AB = %d, AD = %d. Khi đó \\(|%s|=\\)…' % (p, q, ov('A', 'C')); c = h; wr = [p + q, q, h + 1, h - 1]; e = 'Pythagoras: \\(\\sqrt{%d^2+%d^2}=%d\\).' % (p, q, h); ev = 'Định lí Pi-ta-go: \\(\\sqrt{%d^2+%d^2}=%d\\).' % (p, q, h)
     elif kind == 'hexAD':
-        en = 'ABCDEF is a regular hexagon with side %d. Then \\(|%s|=\\)…' % (a, ov('A', 'D')); vi = 'ABCDEF là lục giác đều cạnh %d. Khi đó \\(|%s|=\\)…' % (a, ov('A', 'D')); c = 2 * a; wr = [a, 3 * a, 4 * a, a * a]; e = 'AD passes through the centre: AD = 2·side.'; ev = 'AD đi qua tâm: AD bằng hai lần cạnh.'
+        en = 'ABCDEF is a regular hexagon with side %d. Then \\(|%s|=\\)…' % (a, ov('A', 'D')); vi = 'ABCDEF là lục giác đều cạnh %d. Khi đó \\(|%s|=\\)…' % (a, ov('A', 'D')); c = 2 * a; wr = [a, 3 * a, 4 * a, a * a]; e = 'AD passes through the center: AD = 2·side.'; ev = 'AD đi qua tâm: AD bằng hai lần cạnh.'
     else:
         en = 'ABCDEF is a regular hexagon with side %d. Then \\(|%s|^2=\\)…' % (a, ov('A', 'C')); vi = 'ABCDEF là lục giác đều cạnh %d. Khi đó \\(|%s|^2=\\)…' % (a, ov('A', 'C')); c = 3 * a * a; wr = [a * a, 2 * a * a, 4 * a * a, 6 * a]; e = '\\(AC=a\\sqrt3\\) (law of cosines with \\(120^\\circ\\)).'; ev = '\\(AC=a\\sqrt3\\) (định lí cô-sin với góc \\(120^\\circ\\)).'
     return dict(en=en, vi=vi, opts=pick_opts(r, str(c), [str(x) for x in wr], fill=lambda k: str(c + 3 * k)), ans=0, ee=e, ev=ev)
@@ -48,7 +48,7 @@ def v7_dir(r, lv):
         if cr == 0: break
     same = (u[0] * v[0] + u[1] * v[1]) > 0 and any(u[i] * v[i] > 0 for i in range(2)) if False else None
     k = next((v[i] / u[i]) for i in range(2) if u[i] != 0); ans = 0 if k > 0 else 1
-    return dict(en='In the regular hexagon \\(ABCDEF\\) with centre \\(O\\), the vectors \\(%s\\) and \\(%s\\) are…' % (ov(*p), ov(*q)), vi='Trong lục giác đều \\(ABCDEF\\) tâm \\(O\\), hai vectơ \\(%s\\) và \\(%s\\)…' % (ov(*p), ov(*q)),
+    return dict(en='In the regular hexagon \\(ABCDEF\\) with center \\(O\\), the vectors \\(%s\\) and \\(%s\\) are…' % (ov(*p), ov(*q)), vi='Trong lục giác đều \\(ABCDEF\\) tâm \\(O\\), hai vectơ \\(%s\\) và \\(%s\\)…' % (ov(*p), ov(*q)),
       opts=['\\text{in the same direction}', '\\text{in opposite directions}', '\\text{not collinear}', '\\text{equal}'] if False else ['cùng hướng', 'ngược hướng', 'không cùng phương', 'bằng nhau'], ans=ans, ee='They are collinear; compare the directions along the line.', ev='Hai vectơ cùng phương; xét hướng dọc theo đường thẳng.') if k != 1 else None
 M7S = [v7_count, v7_eq, v7_len, v7_eq, v7_count, v7_len, v7_eq, v7_len]
 
@@ -79,7 +79,7 @@ def v8_hex(r, lv):
         tgt = [x for x in names if sub(P, 'O', x) == v]
         if tgt and abs(names.index(a) - names.index(b)) in (2, 4): break
     t = tgt[0]; f = lambda x: x; wr = [ov('O', x) for x in names if x != t] + [ov(t, 'O')]; r.shuffle(wr)
-    return dict(en='\\(ABCDEF\\) is a regular hexagon with centre \\(O\\). \\(%s+%s=\\)…' % (ov('O', a), ov('O', b)), vi='\\(ABCDEF\\) là lục giác đều tâm \\(O\\). \\(%s+%s=\\)…' % (ov('O', a), ov('O', b)), opts=pick_opts(r, f(ov('O', t)), [f(x) for x in wr]), ans=0, ee='The sum is the diagonal of the rhombus built on \\(O%s\\) and \\(O%s\\).' % (a, b), ev='Tổng là vectơ đường chéo của hình thoi dựng trên hai vectơ \\(O%s\\), \\(O%s\\).' % (a, b))
+    return dict(en='\\(ABCDEF\\) is a regular hexagon with center \\(O\\). \\(%s+%s=\\)…' % (ov('O', a), ov('O', b)), vi='\\(ABCDEF\\) là lục giác đều tâm \\(O\\). \\(%s+%s=\\)…' % (ov('O', a), ov('O', b)), opts=pick_opts(r, f(ov('O', t)), [f(x) for x in wr]), ans=0, ee='The sum is the diagonal of the rhombus built on \\(O%s\\) and \\(O%s\\).' % (a, b), ev='Tổng là vectơ đường chéo của hình thoi dựng trên hai vectơ \\(O%s\\), \\(O%s\\).' % (a, b))
 def v8_force(r, lv):
     p, q, h = r.choice(PY); k = r.choice([1, 2, 5, 10]) if lv < 3 else r.choice([10, 20])
     return dict(en='Two forces of %d N and %d N act at one point at a right angle. The resultant force is…' % (p * k, q * k), vi='Hai lực %d N và %d N cùng tác dụng lên một vật tại một điểm, vuông góc với nhau. Hợp lực có độ lớn…' % (p * k, q * k),

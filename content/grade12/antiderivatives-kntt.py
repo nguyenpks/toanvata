@@ -74,7 +74,7 @@ def lvl(P):
             '\\(F′(x)=%s\\).' % ptex(deriv(Fc)), '\\(F′(x)=%s\\).' % ptex(deriv(Fc)))
     rr = RULES[P['t5']]; t5 = tf(5, rr[1], rr[2], rr[0], 'Check by differentiating: \\((\\ln|x|)′=\\dfrac1x\\) for \\(x\\ne0\\); \\(\\left(\\dfrac{3^x}{\\ln3}\\right)′=3^x\\); there is no product rule for antiderivatives.', 'Kiểm tra bằng đạo hàm: \\((\\ln|x|)′=\\dfrac1x\\) với \\(x\\ne0\\); \\(\\left(\\dfrac{3^x}{\\ln3}\\right)′=3^x\\); không có quy tắc nguyên hàm của tích như vậy.')
     v0, a, T_ = P['mot']; s = v0 * T_ + F(a) * T_ * T_ / 2; assert s.denominator == 1
-    s6 = sh(6, 'A motorbike has velocity \\(v(t)=%d+%st\\) (m/s) and \\(s(0)=0\\). How many metres does it travel in the first \\(%d\\) seconds?' % (v0, DE(a), T_), 'Một xe máy có vận tốc \\(v(t)=%d+%st\\) (m/s) và \\(s(0)=0\\). Trong \\(%d\\) giây đầu xe đi được bao nhiêu mét?' % (v0, D(a), T_), s.numerator,
+    s6 = sh(6, 'A motorbike has velocity \\(v(t)=%d+%st\\) (m/s) and \\(s(0)=0\\). How many meters does it travel in the first \\(%d\\) seconds?' % (v0, DE(a), T_), 'Một xe máy có vận tốc \\(v(t)=%d+%st\\) (m/s) và \\(s(0)=0\\). Trong \\(%d\\) giây đầu xe đi được bao nhiêu mét?' % (v0, D(a), T_), s.numerator,
             '\\(s(t)=%dt+%st^2\\); \\(s(%d)=%d\\).' % (v0, DE(F(a) / 2), T_, s), '\\(s(t)=%dt+%st^2\\); \\(s(%d)=%d\\).' % (v0, D(F(a) / 2), T_, s))
     G, (g0, gy), g1 = P['init2']; IG = integ(G); CG = gy - ev(IG, g0); vv = ev(IG, g1) + CG; assert vv.denominator == 1
     s7 = sh(7, '\\(F\\) is an antiderivative of \\(f(x)=%s\\) with \\(F(%d)=%d\\). Find \\(F(%d)\\).' % (ptex(G), g0, gy, g1), 'Cho \\(F\\) là một nguyên hàm của \\(f(x)=%s\\) thỏa mãn \\(F(%d)=%d\\). Tính \\(F(%d)\\).' % (ptex(G), g0, gy, g1), vv.numerator,

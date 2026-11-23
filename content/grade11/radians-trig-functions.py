@@ -60,9 +60,9 @@ goals = [
 vocab = [
  ('<b>oriented angle</b> – an angle with a direction of rotation from the initial side to the terminal side.', '[[Góc lượng giác]] – góc có kèm chiều quay từ [[tia đầu]] đến [[tia cuối]].'),
  ('<b>initial side, terminal side</b> – the starting ray and the ending ray of the rotation.', '[[Tia đầu]], [[tia cuối]] – tia bắt đầu và tia kết thúc của phép quay.'),
- ('<b>radian</b> – the angle at the centre of a circle that cuts an arc as long as the radius.', '[[Radian]] – góc ở tâm của đường tròn chắn cung có độ dài bằng bán kính.'),
+ ('<b>radian</b> – the angle at the center of a circle that cuts an arc as long as the radius.', '[[Radian]] – góc ở tâm của đường tròn chắn cung có độ dài bằng bán kính.'),
  (r'<b>degree</b> – one 360th of a full turn: \(1^\circ=\dfrac{\pi}{180}\) rad.', r'[[Độ]] – một phần 360 của vòng tròn: \(1^\circ=\dfrac{\pi}{180}\) rad.'),
- ('<b>trigonometric circle</b> – the circle of radius 1, centre at the origin, with a chosen direction of rotation.', '[[Đường tròn lượng giác]] – đường tròn bán kính 1, tâm ở gốc tọa độ, có chọn chiều quay.'),
+ ('<b>trigonometric circle</b> – the circle of radius 1, center at the origin, with a chosen direction of rotation.', '[[Đường tròn lượng giác]] – đường tròn bán kính 1, tâm ở gốc tọa độ, có chọn chiều quay.'),
  ('<b>arc length</b> – the length of part of a circle.', '[[Độ dài cung]] – độ dài một phần của đường tròn.'),
  ('<b>sine, cosine, tangent, cotangent</b> – the four trigonometric functions of an angle.', '[[sin]], [[cos]], [[tan]], [[cot]] – bốn giá trị lượng giác của một góc.'),
  ('<b>quadrant</b> – one of the four parts of the coordinate plane.', '[[Góc phần tư]] – một trong bốn phần của mặt phẳng tọa độ.'),

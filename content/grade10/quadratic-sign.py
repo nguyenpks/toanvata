@@ -13,7 +13,7 @@ vocab = defs(CV, [
  ('signtab', 'sign table', 'bảng xét dấu', 'a table showing on which intervals an expression is positive or negative.', 'bảng cho biết biểu thức dương, âm trên những khoảng nào.', 'Make a sign table for f(x).', ''),
  ('qineq', 'quadratic inequality', 'bất phương trình bậc hai', 'an inequality \\(ax^2+bx+c\\gt0\\) (or \\(\\lt\\), \\(\\ge\\), \\(\\le\\)) with \\(a\\ne0\\).', 'bất phương trình dạng \\(ax^2+bx+c\\gt0\\) (hoặc \\(\\lt\\), \\(\\ge\\), \\(\\le\\)) với \\(a\\ne0\\).', 'Solve the quadratic inequality.', ''),
  ('samesign', 'same sign as \\(a\\)', 'cùng dấu với hệ số a', 'having the same sign (+ or −) as the leading coefficient \\(a\\).', 'có cùng dấu (+ hoặc −) với hệ số \\(a\\).', 'Outside the roots, f(x) has the same sign as a.', '')])
-goals = [('recognise a quadratic trinomial, its roots and its discriminant;', 'nhận biết [[tam thức bậc hai]], nghiệm và [[biệt thức]] của nó;'),
+goals = [('recognize a quadratic trinomial, its roots and its discriminant;', 'nhận biết [[tam thức bậc hai]], nghiệm và [[biệt thức]] của nó;'),
          ('find the sign of \\(f(x)=ax^2+bx+c\\) with the sign theorem and a sign table;', 'xét dấu tam thức bậc hai bằng định lí về dấu và [[bảng xét dấu]];'),
          ('solve quadratic inequalities;', 'giải [[bất phương trình bậc hai]];'),
          ('use the sign of a trinomial in real problems (profit, height, conditions for all \\(x\\)).', 'vận dụng dấu tam thức vào bài toán thực tế (lợi nhuận, độ cao, điều kiện đúng với mọi \\(x\\)).')]
@@ -67,16 +67,16 @@ def lvl(P):
             'Roots \\(%s\\), \\(%s\\); \\(a=%d\\).' % (fr(F(u)), fr(F(v)), a2), 'Nghiệm \\(%s\\), \\(%s\\); \\(a=%d\\).' % (fr(F(u)), fr(F(v)), a2))
     s3 = P['all']; k3 = s3 * s3
     o3 = M4(3, '\\(x^2+2mx+%d\\gt0\\) for all \\(x\\in\\mathbb R\\) when…' % k3, '\\(x^2+2mx+%d\\gt0\\) với mọi \\(x\\in\\mathbb R\\) khi…' % k3, '\\(-%d\\lt m\\lt%d\\)' % (s3, s3),
-            ['\\(-%d\\le m\\le%d\\)' % (s3, s3), '\\(m\\gt%d\\)' % s3, '\\(m\\in(-\\infty;-%d)\\cup(%d;+\\infty)\\)' % (s3, s3)], '\\(\\Delta\'=m^2-%d\\lt0\\).' % k3, '\\(\\Delta\'=m^2-%d\\lt0\\iff-%d\\lt m\\lt%d\\).' % (k3, s3, s3))
+            ['\\(-%d\\le m\\le%d\\)' % (s3, s3), '\\(m\\gt%d\\)' % s3, '\\(m\\in(-\\infty;-%d)\\cup(%d;+\\infty)\\)' % (s3, s3)], '\\(\\Delta\'=m^2-%d\\lt0\\iff-%d\\lt m\\lt%d\\).' % (k3, s3, s3), '\\(\\Delta\'=m^2-%d\\lt0\\iff-%d\\lt m\\lt%d\\).' % (k3, s3, s3))
     (a4, b4, c4), claim4 = P['tf4']; d4 = b4 * b4 - 4 * a4 * c4; truth4 = (d4 < 0 and ((a4 > 0) == (claim4 == 'pos')))
     t4 = tf(4, '\\(%s%s0\\) for every \\(x\\in\\mathbb R\\).' % (poly([a4, b4, c4]), '\\gt' if claim4 == 'pos' else '\\lt'), '\\(%s%s0\\) với mọi \\(x\\in\\mathbb R\\).' % (poly([a4, b4, c4]), '\\gt' if claim4 == 'pos' else '\\lt'), truth4,
             '\\(\\Delta=%d\\), \\(a=%d\\).' % (d4, a4), '\\(\\Delta=%d\\), \\(a=%d\\).' % (d4, a4))
     (p5, q5), x5, cl5 = P['tf5']; f5 = (x5 - p5) * (x5 - q5); truth5 = f5 < 0
     t5 = tf(5, '\\(x=%d\\) is a solution of \\(%s\\lt0\\).' % (x5, poly([1, -(p5 + q5), p5 * q5])), '\\(x=%d\\) là một nghiệm của bất phương trình \\(%s\\lt0\\).' % (x5, poly([1, -(p5 + q5), p5 * q5])), truth5,
-            '\\(f(%d)=%d\\).' % (x5, f5), '\\(f(%d)=%d\\).' % (x5, f5))
+            '\\(f(%d)=%d%s0\\).' % (x5, f5, '\\lt' if f5 < 0 else '\\ge'), '\\(f(%d)=%d%s0\\).' % (x5, f5, '\\lt' if f5 < 0 else '\\ge'))
     p6, q6, cl6 = P['cnt']; n6 = q6 - p6 + 1 if cl6 else q6 - p6 - 1
     s6 = sh(6, 'How many integers satisfy \\(%s%s0\\)?' % (poly([1, -(p6 + q6), p6 * q6]), '\\le' if cl6 else '\\lt'), 'Bất phương trình \\(%s%s0\\) có bao nhiêu nghiệm nguyên?' % (poly([1, -(p6 + q6), p6 * q6]), '\\le' if cl6 else '\\lt'), n6,
-            'Solution set \\(%s\\).' % seg(p6, q6, cl6), 'Tập nghiệm \\(%s\\).' % seg(p6, q6, cl6))
+            'Solution set \\(%s\\); it contains %d integers.' % (seg(p6, q6, cl6), n6), 'Tập nghiệm \\(%s\\); có %d số nguyên.' % (seg(p6, q6, cl6), n6))
     t1, t2, H = P['ball']; c7 = -5 * t1 * t2 + H; assert c7 >= 0
     s7 = sh(7, 'A ball\'s height is \\(h(t)=%s\\) (m). For how many seconds is it higher than %d m?' % (poly([-5, 5 * (t1 + t2), c7], 't'), H), 'Độ cao của quả bóng là \\(h(t)=%s\\) (m). Bóng ở cao hơn %d m trong bao nhiêu giây?' % (poly([-5, 5 * (t1 + t2), c7], 't'), H), t2 - t1,
             '\\(h(t)\\gt%d\\iff%d\\lt t\\lt%d\\): \\(%d\\) s.' % (H, t1, t2, t2 - t1), '\\(h(t)\\gt%d\\iff%d\\lt t\\lt%d\\): \\(%d\\) giây.' % (H, t1, t2, t2 - t1))

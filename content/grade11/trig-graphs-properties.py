@@ -122,7 +122,7 @@ theory += TABLE([('Property', 'Tính chất'), (r'\(y=\sin x\)', r'\(y=\sin x\)'
   [TI('decreasing on', 'nghịch biến trên'), r'\(\left(\dfrac{\pi}{2}+k2\pi;\ \dfrac{3\pi}{2}+k2\pi\right)\)', r'\((k2\pi;\ \pi+k2\pi)\)']])
 theory += GRAPH({'view': [-4.2, 4.2, -1.6, 1.6], 'pi': True, 'functions': [{'f': 'sin(x)', 'label': 'y = sin x'}], 'mark': {'extrema': [0]}, 'monotone': {'f': 0}},
                 cap=('Green parts: sin x is increasing. Orange parts: sin x is decreasing. The turning points are the maximum and minimum values.', 'Phần xanh: sin x đồng biến. Phần cam: sin x nghịch biến. Các điểm đổi chiều là điểm có giá trị lớn nhất, nhỏ nhất.'),
-                alt=('Sine curve coloured by increasing and decreasing parts', ''), height=320)
+                alt=('Sine curve colored by increasing and decreasing parts', ''), height=320)
 theory += BOX('mint', ('Effect of the numbers a, b, c, d', 'Ảnh hưởng của các số a, b, c, d'),
   M(r'y=a\sin(bx+c)+d'),
   T(r'The amplitude is \(|a|\); the period is \(\dfrac{2\pi}{|b|}\); \(c\) shifts the wave horizontally; \(d\) shifts it vertically. The maximum value is \(|a|+d\) and the minimum value is \(-|a|+d\).',
@@ -173,7 +173,7 @@ examples += EXAMPLE(4, ('Advanced', 'Nâng cao'), ('Period of a sum', 'Chu kì c
    T(r'A smaller candidate fails: for \(T=\pi\), \(\cos(3x+3\pi)=-\cos 3x\), so \(f(x+\pi)\ne f(x)\).', r'Ứng viên nhỏ hơn không đúng: với \(T=\pi\), \(\cos(3x+3\pi)=-\cos 3x\) nên \(f(x+\pi)\ne f(x)\).')],
   r'The period is \(2\pi\).')
 examples += EXAMPLE(5, ('Advanced', 'Nâng cao'), ('Modelling the tide', 'Mô hình hóa thủy triều'),
-  T(r'At a harbour the water depth (in metres) \(t\) hours after midnight is \(h(t)=4+1.5\sin\dfrac{\pi t}{6}\). Find the period, the highest and lowest depth, and the times in \([0;12]\) when \(h=4.75\).', r'Ở một bến cảng, độ sâu của nước (mét) sau \(t\) giờ kể từ nửa đêm là \(h(t)=4+1{,}5\sin\dfrac{\pi t}{6}\). Tìm chu kì, độ sâu lớn nhất và nhỏ nhất, và các thời điểm trong \([0;12]\) mà \(h=4{,}75\).') +
+  T(r'At a harbor the water depth (in meters) \(t\) hours after midnight is \(h(t)=4+1.5\sin\dfrac{\pi t}{6}\). Find the period, the highest and lowest depth, and the times in \([0;12]\) when \(h=4.75\).', r'Ở một bến cảng, độ sâu của nước (mét) sau \(t\) giờ kể từ nửa đêm là \(h(t)=4+1{,}5\sin\dfrac{\pi t}{6}\). Tìm chu kì, độ sâu lớn nhất và nhỏ nhất, và các thời điểm trong \([0;12]\) mà \(h=4{,}75\).') +
   GRAPH({'view': [-0.5, 13, 1, 7], 'functions': [{'f': '4+1.5*sin(pi*x/6)', 'label': 'h(t) = 4 + 1.5 sin(πt/6)'}, {'f': '4.75', 'label': 'h = 4.75', 'color': '#c2410c', 'width': 1.8}], 'mark': {'extrema': [0], 'intersections': [[0, 1]]}, 'xname': 't', 'yname': 'h'},
         alt=('Tide curve crossing the level 4.75', ''), height=300),
   (r'It has the form \(a\sin(bt)+d\) with \(a=1.5\), \(b=\dfrac{\pi}{6}\), \(d=4\).', r'Hàm có dạng \(a\sin(bt)+d\) với \(a=1{,}5\), \(b=\dfrac{\pi}{6}\), \(d=4\).'),

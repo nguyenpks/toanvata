@@ -974,7 +974,7 @@ def p18_d_union(r, lv, ctx):
     if pab > min(pa, pb) or not dec(pab): raise AssertionError
     good = pa + pb - pab
     E = [('\\(P(A)=%s\\), \\(P(B\\mid A)=%s\\), \\(P(B)=%s\\). Then \\(P(A\\cup B)=\\)…', '\\(P(A)=%s\\), \\(P(B\\mid A)=%s\\), \\(P(B)=%s\\). Khi đó \\(P(A\\cup B)=\\)…'),
-         ('The probability of rain is %s; if it rains, the football match is cancelled with probability %s; overall a match is cancelled with probability %s. The probability that it rains or the match is cancelled is…', 'Xác suất trời mưa là %s; nếu mưa thì trận bóng bị hoãn với xác suất %s; xác suất trận bóng bị hoãn là %s. Xác suất trời mưa hoặc trận bóng bị hoãn là…'),
+         ('The probability of rain is %s; if it rains, the football match is canceled with probability %s; overall a match is canceled with probability %s. The probability that it rains or the match is canceled is…', 'Xác suất trời mưa là %s; nếu mưa thì trận bóng bị hoãn với xác suất %s; xác suất trận bóng bị hoãn là %s. Xác suất trời mưa hoặc trận bóng bị hoãn là…'),
          ('A student revises with probability %s; given that he revises, he passes with probability %s; he passes with probability %s. The probability that he revises or passes is…', 'Một học sinh ôn bài với xác suất %s; nếu ôn bài thì đạt với xác suất %s; xác suất đạt là %s. Xác suất học sinh ôn bài hoặc đạt là…')][(lv - 1) % 3]
     return dict(en=E[0] % (pe(pa), pe(x), pe(pb)), vi=E[1] % (pv(pa), pv(x), pv(pb)), opts=popt(good, [pa + pb, pa + pb - pa * pb, pab, pa + pb - x, 1 - pab]),
                 ee='\\(P(A\\cap B)=P(A)P(B\\mid A)=%s\\); \\(P(A\\cup B)=%s+%s-%s=%s\\).' % (pe(pab), pe(pa), pe(pb), pe(pab), pe(good)),

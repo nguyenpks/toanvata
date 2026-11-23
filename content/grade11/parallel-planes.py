@@ -14,7 +14,7 @@ vocab = defs(CV, [
  ('pped', 'parallelepiped', 'hình hộp', 'a prism whose base is a parallelogram; all six faces are parallelograms.', 'hình lăng trụ có đáy là hình bình hành; cả sáu mặt đều là hình bình hành.', 'The four diagonals of a parallelepiped meet at one point.', ''),
  ('frust', 'frustum (truncated pyramid)', 'hình chóp cụt', 'the part of a pyramid between the base and a plane parallel to the base.', 'phần của hình chóp nằm giữa đáy và một mặt phẳng song song với đáy.', 'A lampshade has the shape of a frustum.', ''),
  ('thsp', 'Thales\' theorem in space', 'định lí Thalès trong không gian', 'three parallel planes cut any two lines in proportional segments.', 'ba mặt phẳng song song chắn trên hai cát tuyến bất kì những đoạn thẳng tương ứng tỉ lệ.', '\\(\\frac{AB}{A′B′}=\\frac{BC}{B′C′}\\).', '')])
-goals = [('recognise parallel planes and prove that two planes are parallel;', 'nhận biết [[hai mặt phẳng song song]] và chứng minh hai mặt phẳng song song;'),
+goals = [('recognize parallel planes and prove that two planes are parallel;', 'nhận biết [[hai mặt phẳng song song]] và chứng minh hai mặt phẳng song song;'),
          ('use the properties of parallel planes to find lines of intersection;', 'dùng tính chất của hai mặt phẳng song song để tìm giao tuyến;'),
          ('apply Thales\' theorem in space;', 'vận dụng [[định lí Thalès trong không gian]];'),
          ('describe prisms, parallelepipeds and frustums and compute with them.', 'mô tả [[hình lăng trụ]], [[hình hộp]], [[hình chóp cụt]] và tính toán trên các hình đó.')]

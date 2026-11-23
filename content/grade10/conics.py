@@ -13,7 +13,7 @@ vocab = defs(CV, [
  ('parabc', 'parabola (conic)', 'đường parabol (conic)', 'the set of points equidistant from a focus \\(F\\) and a directrix \\(\\Delta\\).', 'tập hợp các điểm cách đều tiêu điểm \\(F\\) và đường chuẩn \\(\\Delta\\).', 'A satellite dish has a parabolic section.', '\\((P)\\)'),
  ('focus', 'focus (plural foci)', 'tiêu điểm', 'a fixed point used to define a conic.', 'điểm cố định dùng để định nghĩa đường conic.', 'The foci are F1 and F2.', '\\(F\\)'),
  ('directrix', 'directrix', 'đường chuẩn', 'the fixed line in the definition of a parabola.', 'đường thẳng cố định trong định nghĩa parabol.', 'The directrix is x = −2.', '\\(\\Delta\\)')])
-goals = [('recognise the ellipse, the hyperbola and the parabola from their definitions;', 'nhận biết [[đường elip]], [[đường hypebol]], đường parabol qua định nghĩa;'),
+goals = [('recognize the ellipse, the hyperbola and the parabola from their definitions;', 'nhận biết [[đường elip]], [[đường hypebol]], đường parabol qua định nghĩa;'),
          ('read and write their standard equations, [[tiêu điểm]] and other features;', 'đọc và viết phương trình chính tắc, xác định [[tiêu điểm]], đỉnh, độ dài các trục, [[đường chuẩn]];'),
          ('use the focal properties \\(MF_1+MF_2=2a\\), \\(|MF_1-MF_2|=2a\\), \\(MF=d(M,\\Delta)\\);', 'vận dụng tính chất \\(MF_1+MF_2=2a\\), \\(|MF_1-MF_2|=2a\\), \\(MF=d(M,\\Delta)\\);'),
          ('model real objects: orbits, cooling towers, satellite dishes.', 'mô hình hóa các vật thể thực tế: quỹ đạo, tháp làm nguội, chảo ăng-ten.')]
@@ -76,7 +76,7 @@ examples += EXAMPLE(5, ('Advanced', 'Nâng cao'), ('Where to put the receiver?',
 def lvl(P):
     a, b, c = P['ell']
     o1 = M4(1, 'The foci of \\(%s\\) are…' % efrm(a * a, b * b), 'Tiêu điểm của elip \\(%s\\) là…' % efrm(a * a, b * b), '\\(F_{1,2}(\\pm%d;0)\\)' % c,
-            ['\\(F_{1,2}(\\pm%d;0)\\)' % a, '\\(F_{1,2}(0;\\pm%d)\\)' % c, '\\(F_{1,2}(\\pm%d;0)\\)' % b], '\\(c^2=a^2-b^2\\).', '\\(c^2=a^2-b^2=%d\\Rightarrow c=%d\\).' % (c * c, c))
+            ['\\(F_{1,2}(\\pm%d;0)\\)' % a, '\\(F_{1,2}(0;\\pm%d)\\)' % c, '\\(F_{1,2}(\\pm%d;0)\\)' % b], '\\(c^2=a^2-b^2=%d\\Rightarrow c=%d\\).' % (c * c, c), '\\(c^2=a^2-b^2=%d\\Rightarrow c=%d\\).' % (c * c, c))
     ha, hc = P['hyp']; hb2 = hc * hc - ha * ha
     o2 = M4(2, 'The hyperbola with vertices \\((\\pm%d;0)\\) and foci \\((\\pm%d;0)\\) is…' % (ha, hc), 'Hypebol có đỉnh \\((\\pm%d;0)\\) và tiêu điểm \\((\\pm%d;0)\\) là…' % (ha, hc), '\\(%s\\)' % hfrm(ha * ha, hb2),
             ['\\(%s\\)' % hfrm(ha * ha, hc * hc + ha * ha), '\\(%s\\)' % efrm(hc * hc, hb2) if hc * hc != hb2 else '\\(%s\\)' % efrm(hc * hc, 1), '\\(%s\\)' % hfrm(hc * hc, ha * ha)], '\\(b^2=c^2-a^2\\).', '\\(b^2=c^2-a^2=%d\\).' % hb2)
@@ -90,10 +90,10 @@ def lvl(P):
     t5 = tf(5, '\\(%s\\) is %s.' % (eq5, names[said5][0]), '\\(%s\\) là %s.' % (eq5, names[said5][1]), kind5 == said5, 'It is %s.' % names[kind5][0], 'Đó là %s.' % names[kind5][1])
     a6, b6, c6 = P['foc']
     s6 = sh(6, 'Find the focal distance \\(F_1F_2\\) of \\(%s\\).' % efrm(a6 * a6, b6 * b6), 'Tính tiêu cự \\(F_1F_2\\) của elip \\(%s\\).' % efrm(a6 * a6, b6 * b6), 2 * c6,
-            '\\(c=\\sqrt{a^2-b^2}=%d\\).' % c6, '\\(c=\\sqrt{a^2-b^2}=%d\\Rightarrow F_1F_2=2c=%d\\).' % (c6, 2 * c6))
+            '\\(c=\\sqrt{a^2-b^2}=%d\\Rightarrow F_1F_2=2c=%d\\).' % (c6, 2 * c6), '\\(c=\\sqrt{a^2-b^2}=%d\\Rightarrow F_1F_2=2c=%d\\).' % (c6, 2 * c6))
     D, h = P['dish']; two_p = F((D // 2) ** 2, h); f = two_p / 4; assert f.denominator == 1
-    s7 = sh(7, 'A satellite dish (parabolic section) has diameter %d cm and depth %d cm. How many centimetres from the vertex is the focus?' % (D, h), 'Chảo ăng-ten (thiết diện parabol) có đường kính miệng %d cm và độ sâu %d cm. Tiêu điểm cách đỉnh chảo bao nhiêu xentimét?' % (D, h), int(f),
-            '\\(y^2=2px\\) through \\((%d;%d)\\).' % (h, D // 2), '\\(y^2=2px\\) đi qua \\((%d;%d)\\): \\(2p=%s\\), tiêu điểm cách đỉnh \\(\\frac p2=%d\\) cm.' % (h, D // 2, fr(two_p), int(f)))
+    s7 = sh(7, 'A satellite dish (parabolic section) has diameter %d cm and depth %d cm. How many centimeters from the vertex is the focus?' % (D, h), 'Chảo ăng-ten (thiết diện parabol) có đường kính miệng %d cm và độ sâu %d cm. Tiêu điểm cách đỉnh chảo bao nhiêu xentimét?' % (D, h), int(f),
+            '\\(y^2=2px\\) passes through \\((%d;%d)\\): \\(2p=%s\\), so the focus is \\(\\frac p2=%d\\) cm from the vertex.' % (h, D // 2, fr(two_p), int(f)), '\\(y^2=2px\\) đi qua \\((%d;%d)\\): \\(2p=%s\\), tiêu điểm cách đỉnh \\(\\frac p2=%d\\) cm.' % (h, D // 2, fr(two_p), int(f)))
     return [[o1, o2, o3], [t4, t5], [s6, s7]]
 
 

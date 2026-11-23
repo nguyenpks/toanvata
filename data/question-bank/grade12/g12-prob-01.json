@@ -248,8 +248,8 @@
    "vi": "Cho \\(P(B)=0{,}6\\), \\(P(A\\mid B)=0{,}5\\). Tính \\(P(A\\cap B)\\) (viết dạng thập phân).",
    "options": [],
    "answer": "0.3",
-   "explain_en": "\\(0.6\\cdot0.5=0.3\\).",
-   "explain_vi": "\\(P(A\\cap B)=P(B)P(A\\mid B)=0{,}3\\).",
+   "explain_en": "\\(P(A\\cap B)=P(B)P(A\\mid B)=0.6\\cdot0.5=0.3\\).",
+   "explain_vi": "\\(P(A\\cap B)=P(B)P(A\\mid B)=0{,}6\\cdot0{,}5=0{,}3\\).",
    "images": [],
    "id": "51cb82052ed8",
    "status": "đang dùng",
@@ -686,8 +686,8 @@
    "vi": "Cho \\(P(B)=0{,}4\\), \\(P(A\\mid B)=0{,}75\\). Tính \\(P(A\\cap B)\\) (viết dạng thập phân).",
    "options": [],
    "answer": "0.3",
-   "explain_en": "\\(0.4\\cdot0.75=0.3\\).",
-   "explain_vi": "\\(P(A\\cap B)=P(B)P(A\\mid B)=0{,}3\\).",
+   "explain_en": "\\(P(A\\cap B)=P(B)P(A\\mid B)=0.4\\cdot0.75=0.3\\).",
+   "explain_vi": "\\(P(A\\cap B)=P(B)P(A\\mid B)=0{,}4\\cdot0{,}75=0{,}3\\).",
    "images": [],
    "id": "27288f9d01ec",
    "status": "đang dùng",
@@ -839,8 +839,8 @@
    "level": 2,
    "section": "D",
    "type": "mcq",
-   "form": "The probability of rain is #; if it rains, the football match is cancelled with probability #; overall a match is cancelled with probability #. The probability that it rains or the match is cancelled is…",
-   "en": "The probability of rain is 0.2; if it rains, the football match is cancelled with probability 0.4; overall a match is cancelled with probability 0.3. The probability that it rains or the match is cancelled is…",
+   "form": "The probability of rain is #; if it rains, the football match is canceled with probability #; overall a match is canceled with probability #. The probability that it rains or the match is canceled is…",
+   "en": "The probability of rain is 0.2; if it rains, the football match is canceled with probability 0.4; overall a match is canceled with probability 0.3. The probability that it rains or the match is canceled is…",
    "vi": "Xác suất trời mưa là 0{,}2; nếu mưa thì trận bóng bị hoãn với xác suất 0{,}4; xác suất trận bóng bị hoãn là 0{,}3. Xác suất trời mưa hoặc trận bóng bị hoãn là…",
    "options": [
     "<span class=\"txi\"><span class=\"en\">\\(0.5\\)</span><span class=\"vi\">\\(0{,}5\\)</span></span>",
@@ -852,7 +852,7 @@
    "explain_en": "Answer: d. \\(P(A\\cap B)=P(A)P(B\\mid A)=0.08\\); \\(P(A\\cup B)=0.2+0.3-0.08=0.42\\).",
    "explain_vi": "Đáp án d. \\(P(A\\cap B)=P(A)P(B\\mid A)=0{,}08\\); \\(P(A\\cup B)=0{,}2+0{,}3-0{,}08=0{,}42\\).",
    "images": [],
-   "id": "ca0fe549bf11",
+   "id": "2f6b71541aab",
    "status": "đang dùng",
    "sources": [
     "hiện tại"
@@ -1124,8 +1124,8 @@
    "vi": "Cho \\(P(B)=0{,}5\\), \\(P(A\\mid B)=0{,}4\\). Tính \\(P(A\\cap B)\\) (viết dạng thập phân).",
    "options": [],
    "answer": "0.2",
-   "explain_en": "\\(0.5\\cdot0.4=0.2\\).",
-   "explain_vi": "\\(P(A\\cap B)=P(B)P(A\\mid B)=0{,}2\\).",
+   "explain_en": "\\(P(A\\cap B)=P(B)P(A\\mid B)=0.5\\cdot0.4=0.2\\).",
+   "explain_vi": "\\(P(A\\cap B)=P(B)P(A\\mid B)=0{,}5\\cdot0{,}4=0{,}2\\).",
    "images": [],
    "id": "abfa982bbac1",
    "status": "đang dùng",
@@ -1845,6 +1845,29 @@
    "sources": [
     "hiện tại",
     "9dde968"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The probability of rain is #; if it rains, the football match is cancelled with probability #; overall a match is cancelled with probability #. The probability that it rains or the match is cancelled is…",
+   "en": "The probability of rain is 0.2; if it rains, the football match is cancelled with probability 0.4; overall a match is cancelled with probability 0.3. The probability that it rains or the match is cancelled is…",
+   "vi": "Xác suất trời mưa là 0{,}2; nếu mưa thì trận bóng bị hoãn với xác suất 0{,}4; xác suất trận bóng bị hoãn là 0{,}3. Xác suất trời mưa hoặc trận bóng bị hoãn là…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(0.5\\)</span><span class=\"vi\">\\(0{,}5\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.44\\)</span><span class=\"vi\">\\(0{,}44\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.08\\)</span><span class=\"vi\">\\(0{,}08\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.42\\)</span><span class=\"vi\">\\(0{,}42\\)</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(P(A\\cap B)=P(A)P(B\\mid A)=0.08\\); \\(P(A\\cup B)=0.2+0.3-0.08=0.42\\).",
+   "explain_vi": "Đáp án d. \\(P(A\\cap B)=P(A)P(B\\mid A)=0{,}08\\); \\(P(A\\cup B)=0{,}2+0{,}3-0{,}08=0{,}42\\).",
+   "images": [],
+   "id": "ca0fe549bf11",
+   "status": "đã thay ra",
+   "sources": [
+    "hiện tại"
    ]
   },
   {

@@ -14,16 +14,16 @@ vocab = defs(CV, [
  ('event10', 'event', 'biến cố (phép thử)', 'a subset of the sample space.', 'một tập con của không gian mẫu.', 'A is the event "the sum is 7".', '\\(A\\subset\\Omega\\)'),
  ('compev', 'complementary event', 'biến cố đối', 'the event \\(\\overline A=\\Omega\\setminus A\\): "\\(A\\) does not occur".', 'biến cố \\(\\overline A=\\Omega\\setminus A\\): "\\(A\\) không xảy ra".', 'The complement of "at least one boy" is "all girls".', '\\(\\overline A\\)'),
  ('classprob', 'classical probability', 'định nghĩa cổ điển của xác suất', '\\(P(A)=\\dfrac{n(A)}{n(\\Omega)}\\) when all outcomes are equally likely.', '\\(P(A)=\\dfrac{n(A)}{n(\\Omega)}\\) khi các kết quả đồng khả năng.', 'The probability of a six is 1/6.', '\\(P(A)\\)')])
-goals = [('recognise random experiments, sample spaces and events;', 'nhận biết [[phép thử ngẫu nhiên]], [[không gian mẫu]], [[biến cố (phép thử)|biến cố (phép thử)]], [[biến cố đối]];'),
+goals = [('recognize random experiments, sample spaces and events;', 'nhận biết [[phép thử ngẫu nhiên]], [[không gian mẫu]], [[biến cố (phép thử)|biến cố (phép thử)]], [[biến cố đối]];'),
          ('compute probabilities with the classical definition;', 'tính xác suất bằng [[định nghĩa cổ điển của xác suất]];'),
-         ('count favourable outcomes with tables, trees and combinations;', 'đếm số kết quả thuận lợi bằng bảng, sơ đồ cây, tổ hợp;'),
+         ('count favorable outcomes with tables, trees and combinations;', 'đếm số kết quả thuận lợi bằng bảng, sơ đồ cây, tổ hợp;'),
          ('use complements and interpret lotteries and games.', 'dùng biến cố đối; giải thích cơ hội trong xổ số, trò chơi.')]
-phrases = [('<b>The sample space has thirty-six equally likely outcomes.</b>', 'Không gian mẫu có 36 kết quả đồng khả năng.'), ('<b>There are six favourable outcomes.</b>', 'Có 6 kết quả thuận lợi.'),
+phrases = [('<b>The sample space has thirty-six equally likely outcomes.</b>', 'Không gian mẫu có 36 kết quả đồng khả năng.'), ('<b>There are six favorable outcomes.</b>', 'Có 6 kết quả thuận lợi.'),
            ('<b>The probability of the complement is one minus the probability.</b>', 'Xác suất của biến cố đối bằng 1 trừ xác suất của biến cố.'), ('<b>The chance of winning is very small.</b>', 'Cơ hội trúng thưởng rất nhỏ.'), ('<b>List all the outcomes.</b>', 'Liệt kê tất cả các kết quả.')]
 review = T('From Lesson 23–24: rules of sum and product, \\(C_n^k\\). From Lesson 2: subsets, complement \\(\\Omega\\setminus A\\).', 'Từ Bài 23–24: quy tắc cộng, quy tắc nhân, \\(C_n^k\\). Từ Bài 2: tập con, phần bù \\(\\Omega\\setminus A\\).')
 theory = '<h3>26.1 %s</h3>' % TI('Experiments, sample spaces, events', 'Phép thử, không gian mẫu, biến cố')
 theory += BOX('blue', ('Definitions', 'Định nghĩa'), UL([T('A random experiment has outcomes we cannot predict; the set of all outcomes is the sample space \\(\\Omega\\).', 'Phép thử ngẫu nhiên có kết quả không đoán trước được; tập hợp mọi kết quả là không gian mẫu \\(\\Omega\\).'),
-  T('An event is a subset \\(A\\subset\\Omega\\); outcomes in \\(A\\) are <b>favourable</b> to \\(A\\). \\(\\Omega\\) is the sure event, \\(\\varnothing\\) the impossible event.', 'Biến cố là một tập con \\(A\\subset\\Omega\\); các kết quả thuộc \\(A\\) là kết quả <b>thuận lợi</b> cho \\(A\\). \\(\\Omega\\) là biến cố chắc chắn, \\(\\varnothing\\) là biến cố không thể.'),
+  T('An event is a subset \\(A\\subset\\Omega\\); outcomes in \\(A\\) are <b>favorable</b> to \\(A\\). \\(\\Omega\\) is the sure event, \\(\\varnothing\\) the impossible event.', 'Biến cố là một tập con \\(A\\subset\\Omega\\); các kết quả thuộc \\(A\\) là kết quả <b>thuận lợi</b> cho \\(A\\). \\(\\Omega\\) là biến cố chắc chắn, \\(\\varnothing\\) là biến cố không thể.'),
   T('The complementary event \\(\\overline A=\\Omega\\setminus A\\) occurs exactly when \\(A\\) does not.', 'Biến cố đối \\(\\overline A=\\Omega\\setminus A\\) xảy ra khi và chỉ khi \\(A\\) không xảy ra.')]))
 theory += '<h3>26.2 %s</h3>' % TI('Classical definition of probability', 'Định nghĩa cổ điển của xác suất')
 theory += BOX('mint', ('Formula and properties', 'Công thức và tính chất'), UL([T('If all outcomes of \\(\\Omega\\) are equally likely: \\(P(A)=\\dfrac{n(A)}{n(\\Omega)}\\).', 'Nếu các kết quả của \\(\\Omega\\) đồng khả năng: \\(P(A)=\\dfrac{n(A)}{n(\\Omega)}\\).'),
@@ -47,7 +47,7 @@ examples += EXAMPLE(2, ('Basic', 'Cơ bản'), ('Two dice', 'Hai con xúc xắc'
   T('Both equal \\(\\dfrac16\\).', 'Cả hai bằng \\(\\dfrac16\\).'))
 assert F(C(5, 2) * 4, C(9, 3)) == F(10, 21)
 examples += EXAMPLE(3, ('Intermediate', 'Trung bình'), ('Drawing balls', 'Lấy cầu'), T('A box has 5 red and 4 blue balls. Three balls are drawn at random. Find the probability of exactly 2 red balls.', 'Một hộp có 5 quả cầu đỏ và 4 quả cầu xanh. Lấy ngẫu nhiên 3 quả. Tính xác suất lấy được đúng 2 quả đỏ.'),
-  T('\\(n(\\Omega)=C_9^3\\).', '\\(n(\\Omega)=C_9^3\\).'), [T('\\(n(\\Omega)=84\\); favourable: \\(C_5^2\\cdot C_4^1=10\\cdot4=40\\).', '\\(n(\\Omega)=84\\); thuận lợi: \\(C_5^2\\cdot C_4^1=10\\cdot4=40\\).')], T('\\(\\dfrac{40}{84}=\\dfrac{10}{21}\\).', '\\(\\dfrac{40}{84}=\\dfrac{10}{21}\\).'))
+  T('\\(n(\\Omega)=C_9^3\\).', '\\(n(\\Omega)=C_9^3\\).'), [T('\\(n(\\Omega)=84\\); favorable: \\(C_5^2\\cdot C_4^1=10\\cdot4=40\\).', '\\(n(\\Omega)=84\\); thuận lợi: \\(C_5^2\\cdot C_4^1=10\\cdot4=40\\).')], T('\\(\\dfrac{40}{84}=\\dfrac{10}{21}\\).', '\\(\\dfrac{40}{84}=\\dfrac{10}{21}\\).'))
 assert 1 - F(C(12, 4), C(20, 4)) == F(290, 323)
 examples += EXAMPLE(4, ('Intermediate', 'Trung bình'), ('Using the complement', 'Dùng biến cố đối'), T('A group has 8 boys and 12 girls. Four students are chosen at random. Find the probability that at least one boy is chosen.', 'Một nhóm có 8 nam và 12 nữ. Chọn ngẫu nhiên 4 bạn. Tính xác suất chọn được ít nhất một nam.'),
   T('Complement: all four are girls.', 'Biến cố đối: cả bốn bạn đều là nữ.'), [T('\\(P(\\overline A)=\\dfrac{C_{12}^4}{C_{20}^4}=\\dfrac{495}{4845}=\\dfrac{33}{323}\\).', '\\(P(\\overline A)=\\dfrac{C_{12}^4}{C_{20}^4}=\\dfrac{495}{4845}=\\dfrac{33}{323}\\).')],
@@ -55,14 +55,14 @@ examples += EXAMPLE(4, ('Intermediate', 'Trung bình'), ('Using the complement',
 p3 = F(C(6, 3) * C(39, 3), C(45, 6)); assert p3 == F(9139, 407253)
 examples += EXAMPLE(5, ('Advanced', 'Nâng cao'), ('Mega 6/45: three correct numbers', 'Mega 6/45: trúng ba số'), T('A Mega 6/45 ticket has 6 numbers; 6 winning numbers are drawn from 1–45. What is the probability that a ticket matches exactly 3 winning numbers?', 'Mỗi vé Mega 6/45 có 6 số; xổ ra 6 số trúng thưởng trong 45 số. Tính xác suất một vé trùng đúng 3 số trúng thưởng.'),
   T('Choose which 3 of the 6 winning numbers are on the ticket, and 3 of the 39 others.', 'Chọn 3 trong 6 số trúng có trên vé và 3 trong 39 số còn lại.'),
-  [T('\\(n(\\Omega)=C_{45}^6=8\\,145\\,060\\); favourable \\(C_6^3\\cdot C_{39}^3=20\\cdot9139=182\\,780\\).', '\\(n(\\Omega)=C_{45}^6=8\\,145\\,060\\); thuận lợi \\(C_6^3\\cdot C_{39}^3=20\\cdot9139=182\\,780\\).'), T('\\(P\\approx0{,}0224\\): about 1 ticket in 45.', '\\(P\\approx0{,}0224\\): khoảng 1 vé trong 45 vé.')],
+  [T('\\(n(\\Omega)=C_{45}^6=8\\,145\\,060\\); favorable \\(C_6^3\\cdot C_{39}^3=20\\cdot9139=182\\,780\\).', '\\(n(\\Omega)=C_{45}^6=8\\,145\\,060\\); thuận lợi \\(C_6^3\\cdot C_{39}^3=20\\cdot9139=182\\,780\\).'), T('\\(P\\approx0{,}0224\\): about 1 ticket in 45.', '\\(P\\approx0{,}0224\\): khoảng 1 vé trong 45 vé.')],
   T('\\(P=\\dfrac{9139}{407253}\\approx2{,}2\\%\\).', '\\(P=\\dfrac{9139}{407253}\\approx2{,}2\\%\\).'))
 
 
 def lvl(P):
     s = P['sum']; k = sum(1 for a, b in D2 if a + b == s)
     o1 = M4(1, 'Two dice are rolled. \\(P(\\text{sum}=%d)=\\)…' % s, 'Gieo hai con xúc xắc. \\(P(\\text{tổng}=%d)\\) bằng…' % s, '\\(%s\\)' % fr(F(k, 36)),
-            ['\\(%s\\)' % fr(F(1, 11)), '\\(%s\\)' % fr(F(k + 1, 36)), '\\(%s\\)' % fr(F(k, 6))], '%d favourable outcomes.' % k, 'Có %d kết quả thuận lợi trên 36.' % k)
+            ['\\(%s\\)' % fr(F(1, 11)), '\\(%s\\)' % fr(F(k + 1, 36)), '\\(%s\\)' % fr(F(k, 6))], '%d favorable outcomes.' % k, 'Có %d kết quả thuận lợi trên 36.' % k)
     n, kk = P['coin']
     o2 = M4(2, '%d coins are tossed. \\(P(\\text{exactly %d heads})=\\)…' % (n, kk), 'Gieo %d đồng xu. Xác suất có đúng %d mặt sấp là…' % (n, kk), '\\(%s\\)' % fr(F(C(n, kk), 2 ** n)),
             ['\\(%s\\)' % fr(F(1, 2 ** n)), '\\(%s\\)' % fr(F(kk, n)), '\\(%s\\)' % fr(F(1, n + 1))], '\\(C_{%d}^{%d}/2^{%d}\\).' % (n, kk, n), '\\(\\dfrac{C_{%d}^{%d}}{2^{%d}}\\).' % (n, kk, n))
@@ -73,11 +73,11 @@ def lvl(P):
     t4 = tf(4, 'A box has %d red and %d green balls. One is drawn. \\(P(\\text{not red})=%s\\).' % (r_, g_, fr(claim)), 'Hộp có %d cầu đỏ và %d cầu xanh. Lấy ngẫu nhiên 1 quả. Xác suất không lấy được quả đỏ là \\(%s\\).' % (r_, g_, fr(claim)), real == claim,
             '\\(1-\\dfrac{%d}{%d}=%s\\).' % (r_, r_ + g_, fr(real)), '\\(P(\\overline A)=1-\\dfrac{%d}{%d}=%s\\).' % (r_, r_ + g_, fr(real)))
     (te, tv), v5 = P['dice']
-    t5 = tf(5, te, tv, v5, 'Use the 36-cell table.', 'Dùng bảng 36 ô.')
+    t5 = tf(5, te, tv, v5, *P['xd'])
     (oe, ov), n6 = P['omega']
-    s6 = sh(6, oe, ov, n6, 'Rule of product / combinations.', 'Dùng quy tắc nhân hoặc tổ hợp.')
+    s6 = sh(6, oe, ov, n6, *P['xo'])
     (le, lv_), n7 = P['lotto']
-    s7 = sh(7, le, lv_, n7, 'Choose the matching numbers, then the others.', 'Chọn các số trùng, rồi chọn các số còn lại.')
+    s7 = sh(7, le, lv_, n7, *P['xl'])
     return [[o1, o2, o3], [t4, t5], [s6, s7]]
 
 
@@ -91,11 +91,22 @@ PP = [dict(sum=8, coin=(3, 2), two=(4, 5), comp=((3, 7), F(7, 10)), dice=(('Two 
       dict(sum=10, coin=(4, 2), two=(3, 7), comp=((2, 6), F(3, 4)), dice=(('Two dice: P(at least one six) = 11/36.', 'Gieo hai con xúc xắc: xác suất có ít nhất một mặt 6 chấm bằng \\(\\frac{11}{36}\\).'), True),
            omega=(('Three dice are rolled. How many elements does the sample space have?', 'Gieo ba con xúc xắc. Không gian mẫu có bao nhiêu phần tử?'), 216),
            lotto=(('In a 5/35 lottery, how many tickets match exactly 3 of the 5 winning numbers?', 'Trong xổ số 5/35, có bao nhiêu vé trùng đúng 3 trong 5 số trúng thưởng?'), C(5, 3) * C(30, 2)))]
+# Sửa lỗi trình bày 23/11/2026: lời giải đi đến đáp số, hai ngôn ngữ tương đương.
+XP = [dict(xd=('Use the 36-cell table: 6 outcomes have equal numbers, so \\(P=\\dfrac{6}{36}=\\dfrac16\\).', 'Dùng bảng 36 ô: có 6 kết quả hai mặt bằng nhau nên \\(P=\\dfrac{6}{36}=\\dfrac16\\).'),
+           xo=('Choose 2 of 10 without order: \\(n(\\Omega)=C_{10}^2=45\\).', 'Chọn 2 trong 10 không kể thứ tự: \\(n(\\Omega)=C_{10}^2=45\\).'),
+           xl=('Choose 4 of the 5 winning numbers and 1 of the other 30: \\(C_5^4\\cdot C_{30}^1=5\\cdot30=150\\).', 'Chọn 4 trong 5 số trúng và 1 trong 30 số còn lại: \\(C_5^4\\cdot C_{30}^1=5\\cdot30=150\\).')),
+      dict(xd=('Use the 36-cell table: 18 outcomes have an odd sum, so \\(P=\\dfrac{18}{36}=\\dfrac12\\ne\\dfrac13\\).', 'Dùng bảng 36 ô: có 18 kết quả tổng lẻ nên \\(P=\\dfrac{18}{36}=\\dfrac12\\ne\\dfrac13\\).'),
+           xo=('Rule of product: \\(n(\\Omega)=2^3\\cdot6=48\\).', 'Quy tắc nhân: \\(n(\\Omega)=2^3\\cdot6=48\\).'),
+           xl=('Choose 5 of the 6 winning numbers and 1 of the other 39: \\(C_6^5\\cdot C_{39}^1=6\\cdot39=234\\).', 'Chọn 5 trong 6 số trúng và 1 trong 39 số còn lại: \\(C_6^5\\cdot C_{39}^1=6\\cdot39=234\\).')),
+      dict(xd=('Complement "no six": \\(P=1-\\left(\\dfrac56\\right)^2=\\dfrac{11}{36}\\).', 'Biến cố đối "không có mặt 6": \\(P=1-\\left(\\dfrac56\\right)^2=\\dfrac{11}{36}\\).'),
+           xo=('Rule of product: \\(n(\\Omega)=6^3=216\\).', 'Quy tắc nhân: \\(n(\\Omega)=6^3=216\\).'),
+           xl=('Choose 3 of the 5 winning numbers and 2 of the other 30: \\(C_5^3\\cdot C_{30}^2=10\\cdot435=4350\\).', 'Chọn 3 trong 5 số trúng và 2 trong 30 số còn lại: \\(C_5^3\\cdot C_{30}^2=10\\cdot435=4350\\).'))]
+for _p, _x in zip(PP, XP): _p.update(_x)
 practice = three(lvl, PP)
 practice = with_self(practice, S.M26S10, start=8)
 mistakes = [('<b>Using outcomes that are not equally likely.</b> Sums of two dice are not equally likely: use ordered pairs.', '<b>Dùng các kết quả không đồng khả năng.</b> Các tổng của hai xúc xắc không đồng khả năng: phải dùng cặp có thứ tự.'),
             ('<b>Counting \\((1,6)\\) and \\((6,1)\\) as one outcome.</b> The two dice are different: they are two outcomes.', '<b>Coi \\((1,6)\\) và \\((6,1)\\) là một kết quả.</b> Hai con xúc xắc khác nhau: đó là hai kết quả.'),
-            ('<b>Mixing order and no order.</b> If \\(n(\\Omega)\\) uses \\(C\\), the favourable count must use \\(C\\) too.', '<b>Lẫn lộn có thứ tự và không thứ tự.</b> Nếu \\(n(\\Omega)\\) dùng \\(C\\) thì số kết quả thuận lợi cũng phải dùng \\(C\\).'),
+            ('<b>Mixing order and no order.</b> If \\(n(\\Omega)\\) uses \\(C\\), the favorable count must use \\(C\\) too.', '<b>Lẫn lộn có thứ tự và không thứ tự.</b> Nếu \\(n(\\Omega)\\) dùng \\(C\\) thì số kết quả thuận lợi cũng phải dùng \\(C\\).'),
             ('<b>Long case-work for "at least".</b> Use \\(P(A)=1-P(\\overline A)\\).', '<b>Chia nhiều trường hợp cho "ít nhất".</b> Dùng \\(P(A)=1-P(\\overline A)\\).')]
 summary = [('\\(\\Omega\\): all outcomes; event \\(A\\subset\\Omega\\); \\(\\overline A=\\Omega\\setminus A\\).', '\\(\\Omega\\): mọi kết quả; biến cố \\(A\\subset\\Omega\\); \\(\\overline A=\\Omega\\setminus A\\).'), ('\\(P(A)=\\dfrac{n(A)}{n(\\Omega)}\\) (equally likely outcomes).', '\\(P(A)=\\dfrac{n(A)}{n(\\Omega)}\\) (các kết quả đồng khả năng).'),
            ('\\(0\\le P(A)\\le1\\); \\(P(\\overline A)=1-P(A)\\).', '\\(0\\le P(A)\\le1\\); \\(P(\\overline A)=1-P(A)\\).'), ('Key words: experiment, sample space, event, complement, probability.', 'Từ cần nhớ (chạm vào để xem tiếng Anh): <b class="mbl-term" tabindex="0" data-en="experiment">phép thử</b>; <b class="mbl-term" tabindex="0" data-en="sample space">không gian mẫu</b>; <b class="mbl-term" tabindex="0" data-en="event">biến cố</b>; <b class="mbl-term" tabindex="0" data-en="complement">phần bù</b>; <b class="mbl-term" tabindex="0" data-en="probability">xác suất</b>.')]

@@ -219,7 +219,7 @@ def sk_nsol(r, lv):
 def sk_center(r, lv):
     a = r.choice([1, 2]); b = r.choice([-6, -3, 3, 6, 9]) * a; c = r.randint(-5, 5); d = r.randint(-5, 5)
     x0 = F(-b, 3 * a); y0 = a * x0 ** 3 + b * x0 ** 2 + c * x0 + d; t = lambda p, q: '(%s;%s)' % (fr(p), fr(q))
-    return dict(en='Find the centre of symmetry of the graph of \\(y=%s\\).' % poly([a, b, c, d]), vi='Tìm tâm đối xứng của đồ thị hàm số \\(y=%s\\).' % poly([a, b, c, d]),
+    return dict(en='Find the center of symmetry of the graph of \\(y=%s\\).' % poly([a, b, c, d]), vi='Tìm tâm đối xứng của đồ thị hàm số \\(y=%s\\).' % poly([a, b, c, d]),
       opts=pick_opts(r, t(x0, y0), [t(-x0, y0), t(x0, -y0), t(y0, x0), t(x0 + 1, y0)], fill=lambda k: t(x0 + k, y0 + 2 * k)), ans=0, ee='\\(y\'\'=0\\) at \\(x_0=-\\dfrac{b}{3a}=%s\\); then \\(y_0=%s\\).' % (fr(x0), fr(y0)), ev='\\(y\'\'=0\\) tại \\(x_0=-\\dfrac{b}{3a}=%s\\); khi đó \\(y_0=%s\\).' % (fr(x0), fr(y0)))
 def sk_hyper(r, lv):
     while True:
@@ -373,7 +373,7 @@ def vc_pyr(r, lv):
     A, B, C = (0, 0, 0), (4, 1, 0), (5, 4, 0); D = tuple(a + c - b for a, b, c in zip(A, B, C)); S = (1, 2, 6); O = tuple((a + c) / 2 for a, c in zip(A, C))
     pt = dict(A=A, B=B, C=C, D=D); tot = [sum(pt[v[1]][i] - S[i] for v in case[:-1]) for i in range(3)]; assert all(abs(tot[i] - k * (O[i] - S[i])) < 1e-9 for i in range(3))
     cand = ['%s\\overrightarrow{SO}' % (k if k != 1 else ''), '\\overrightarrow{SO}', '%d\\overrightarrow{SO}' % (2 * k), '\\vec0', '\\dfrac12\\overrightarrow{SO}']
-    return dict(en='\\(S.ABCD\\) is a pyramid whose base is a parallelogram with centre \\(O\\). Then \\(%s=\\)…' % lhs, vi='Cho hình chóp \\(S.ABCD\\) có đáy là hình bình hành tâm \\(O\\). Khi đó \\(%s=\\)…' % lhs,
+    return dict(en='\\(S.ABCD\\) is a pyramid whose base is a parallelogram with center \\(O\\). Then \\(%s=\\)…' % lhs, vi='Cho hình chóp \\(S.ABCD\\) có đáy là hình bình hành tâm \\(O\\). Khi đó \\(%s=\\)…' % lhs,
       opts=pick_opts(r, cand[0], cand[1:]), ans=0,
       ee='\\(O\\) is the midpoint of \\(AC\\) and of \\(BD\\), so \\(\\overrightarrow{SA}+\\overrightarrow{SC}=\\overrightarrow{SB}+\\overrightarrow{SD}=2\\overrightarrow{SO}\\).',
       ev='\\(O\\) là trung điểm của \\(AC\\) và của \\(BD\\) nên \\(\\overrightarrow{SA}+\\overrightarrow{SC}=\\overrightarrow{SB}+\\overrightarrow{SD}=2\\overrightarrow{SO}\\).')

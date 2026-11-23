@@ -43,7 +43,7 @@ examples += EXAMPLE(2, ('Basic', 'Cơ bản'), ('Three perpendicular edges', 'Ba
   T('\\(OB\\), \\(OC\\) meet at \\(O\\).', '\\(OB\\), \\(OC\\) cắt nhau tại \\(O\\).'),
   [T('\\(OA\\perp OB\\), \\(OA\\perp OC\\): \\(OA\\perp(OBC)\\).', '\\(OA\\perp OB\\), \\(OA\\perp OC\\): \\(OA\\perp(OBC)\\).'), T('Each of \\(AB\\), \\(BC\\), \\(CA\\) is the hypotenuse of an isosceles right triangle with legs \\(a\\): equal to \\(a\\sqrt2\\).', 'Mỗi cạnh \\(AB\\), \\(BC\\), \\(CA\\) là cạnh huyền của tam giác vuông cân có cạnh góc vuông \\(a\\): bằng \\(a\\sqrt2\\).')],
   T('\\(ABC\\) is equilateral with side \\(a\\sqrt2\\).', 'Tam giác \\(ABC\\) đều cạnh \\(a\\sqrt2\\).'))
-examples += EXAMPLE(3, ('Intermediate', 'Trung bình'), ('A diagonal perpendicular to an edge', 'Đường chéo vuông góc với cạnh bên'), T('\\(S.ABCD\\): square base with centre \\(O\\), \\(SA\\perp(ABCD)\\). Prove \\(BD\\perp(SAC)\\) and \\(BD\\perp SC\\).', 'Hình chóp \\(S.ABCD\\) có đáy là hình vuông tâm \\(O\\), \\(SA\\perp(ABCD)\\). Chứng minh \\(BD\\perp(SAC)\\) và \\(BD\\perp SC\\).'),
+examples += EXAMPLE(3, ('Intermediate', 'Trung bình'), ('A diagonal perpendicular to an edge', 'Đường chéo vuông góc với cạnh bên'), T('\\(S.ABCD\\): square base with center \\(O\\), \\(SA\\perp(ABCD)\\). Prove \\(BD\\perp(SAC)\\) and \\(BD\\perp SC\\).', 'Hình chóp \\(S.ABCD\\) có đáy là hình vuông tâm \\(O\\), \\(SA\\perp(ABCD)\\). Chứng minh \\(BD\\perp(SAC)\\) và \\(BD\\perp SC\\).'),
   T('Strategy: a plane containing \\(SC\\) and perpendicular to \\(BD\\).', 'Chiến lược: tìm mặt phẳng chứa \\(SC\\) và vuông góc với \\(BD\\).'),
   [T('\\(BD\\perp AC\\) (diagonals of a square), \\(BD\\perp SA\\); \\(AC\\cap SA=A\\): \\(BD\\perp(SAC)\\).', '\\(BD\\perp AC\\) (hai đường chéo hình vuông), \\(BD\\perp SA\\); \\(AC\\cap SA=A\\): \\(BD\\perp(SAC)\\).'), T('\\(SC\\subset(SAC)\\Rightarrow BD\\perp SC\\).', '\\(SC\\subset(SAC)\\Rightarrow BD\\perp SC\\).')],
   T('\\(BD\\perp(SAC)\\), so \\(BD\\perp SC\\) (they are skew!).', '\\(BD\\perp(SAC)\\) nên \\(BD\\perp SC\\) (hai đường này chéo nhau!).'))
@@ -63,23 +63,23 @@ examples += EXAMPLE(5, ('Advanced', 'Nâng cao'), ('Is the pole vertical?', 'C�
 def lvl(P):
     pl, ok, bad = P['sq']
     o1 = M4(1, '\\(S.ABCD\\): square base, \\(SA\\perp(ABCD)\\). Which line is perpendicular to \\(%s\\)?' % pl, 'Hình chóp \\(S.ABCD\\) có đáy hình vuông, \\(SA\\perp(ABCD)\\). Đường thẳng nào vuông góc với mặt phẳng \\(%s\\)?' % pl, '\\(%s\\)' % ok, ['\\(%s\\)' % b for b in bad],
-            '\\(%s\\perp SA\\) and a second line of \\(%s\\).' % (ok, pl), '\\(%s\\) vuông góc với \\(SA\\) và với một đường thẳng khác của \\(%s\\) cắt \\(SA\\).' % (ok, pl))
+            '\\(%s\\) is perpendicular to \\(SA\\) and to another line of \\(%s\\) that meets \\(SA\\).' % (ok, pl), '\\(%s\\) vuông góc với \\(SA\\) và với một đường thẳng khác của \\(%s\\) cắt \\(SA\\).' % (ok, pl))
     v, line, okp, badp = P['tri']
     o2 = M4(2, '\\(S.ABC\\): \\(SA\\perp(ABC)\\), triangle \\(ABC\\) right-angled at \\(%s\\). Then \\(%s\\) is perpendicular to…' % (v, line), 'Hình chóp \\(S.ABC\\) có \\(SA\\perp(ABC)\\), tam giác \\(ABC\\) vuông tại \\(%s\\). Khi đó \\(%s\\) vuông góc với mặt phẳng…' % (v, line), '\\(%s\\)' % okp, ['\\(%s\\)' % b for b in badp],
             '\\(%s\\perp SA\\) and \\(%s\\) is perpendicular to the other leg.' % (line, line), '\\(%s\\perp SA\\) và \\(%s\\) vuông góc với cạnh góc vuông còn lại.' % (line, line))
     h, a, d = P['sc']
     o3 = M4(3, '\\(S.ABCD\\): square base of side %d, \\(SA\\perp(ABCD)\\), \\(SA=%d\\). Then \\(SC=\\)…' % (a, h), 'Hình chóp \\(S.ABCD\\) có đáy là hình vuông cạnh %d, \\(SA\\perp(ABCD)\\), \\(SA=%d\\). Độ dài \\(SC\\) bằng…' % (a, h), '\\(%d\\)' % d,
-            ['\\(%s\\)' % w for w in [S.rt(h * h + a * a), str(h + a), S.rt(2 * a * a), S.rt(h * h + 4 * a * a)] if w != str(d)][:3], '\\(SA\\perp AC\\), \\(AC=%d\\sqrt2\\).' % a, '\\(SA\\perp AC\\), \\(AC=%d\\sqrt2\\): \\(SC=\\sqrt{%d+%d}=%d\\).' % (a, h * h, 2 * a * a, d))
+            ['\\(%s\\)' % w for w in [S.rt(h * h + a * a), str(h + a), S.rt(2 * a * a), S.rt(h * h + 4 * a * a)] if w != str(d)][:3], '\\(SA\\perp AC\\), \\(AC=%d\\sqrt2\\): \\(SC=\\sqrt{%d+%d}=%d\\).' % (a, h * h, 2 * a * a, d), '\\(SA\\perp AC\\), \\(AC=%d\\sqrt2\\): \\(SC=\\sqrt{%d+%d}=%d\\).' % (a, h * h, 2 * a * a, d))
     (se, sv), val = P['stmt']
     t4 = tf(4, se, sv, val, 'Recall the criterion and the properties.', 'Nhớ lại điều kiện vuông góc và các tính chất.')
     (l1, l2), v5, why = P['st5']
     t5 = tf(5, '\\(S.ABCD\\): square base, \\(SA\\perp(ABCD)\\). Then \\(%s\\perp %s\\).' % (l1, l2), 'Hình chóp \\(S.ABCD\\) có đáy hình vuông, \\(SA\\perp(ABCD)\\). Khi đó \\(%s\\perp %s\\).' % (l1, l2), v5, why[0], why[1])
     x, y, z, w = P['diag']
     s6 = sh(6, 'Box \\(ABCD.A\'B\'C\'D\'\\): \\(AB=%d\\), \\(AD=%d\\), \\(AA\'=%d\\). Find \\(A\'C\\).' % (x, y, z), 'Hình hộp chữ nhật \\(ABCD.A\'B\'C\'D\'\\) có \\(AB=%d\\), \\(AD=%d\\), \\(AA\'=%d\\). Tính \\(A\'C\\).' % (x, y, z), w,
-            '\\(AA\'\\perp AC\\).', '\\(AA\'\\perp(ABCD)\\) nên \\(AA\'\\perp AC\\): \\(A\'C=\\sqrt{%d+%d+%d}=%d\\).' % (x * x, y * y, z * z, w))
+            '\\(AA\'\\perp(ABCD)\\), so \\(AA\'\\perp AC\\): \\(A\'C=\\sqrt{%d+%d+%d}=%d\\).' % (x * x, y * y, z * z, w), '\\(AA\'\\perp(ABCD)\\) nên \\(AA\'\\perp AC\\): \\(A\'C=\\sqrt{%d+%d+%d}=%d\\).' % (x * x, y * y, z * z, w))
     p, q, c = P['pole']
     s7 = sh(7, 'A %d m pole stands perpendicular to flat ground. A rope joins its top to a peg %d m from its foot. Find the length of the rope (m).' % (p, q), 'Một cột cao %d m dựng vuông góc với mặt đất phẳng. Sợi dây nối đỉnh cột với cọc cách chân cột %d m. Tính chiều dài sợi dây (m).' % (p, q), c,
-            'The pole is perpendicular to the ground line through its foot.', 'Cột vuông góc với đường thẳng qua chân cột nằm trên mặt đất: \\(\\sqrt{%d+%d}=%d\\).' % (p * p, q * q, c))
+            'The pole is perpendicular to the line through its foot on the ground: \\(\\sqrt{%d+%d}=%d\\).' % (p * p, q * q, c), 'Cột vuông góc với đường thẳng qua chân cột nằm trên mặt đất: \\(\\sqrt{%d+%d}=%d\\).' % (p * p, q * q, c))
     return [[o1, o2, o3], [t4, t5], [s6, s7]]
 
 

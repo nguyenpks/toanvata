@@ -1,0 +1,378 @@
+{
+ "lesson": "g11-space-02",
+ "grade": 11,
+ "no": null,
+ "title": "Đường thẳng và mặt phẳng song song",
+ "path": "lessons/grade11/lines-and-planes-in-space/parallel-lines-and-planes.html",
+ "items": [
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "How many other edges of a cube are parallel to a given edge?",
+   "en": "How many other edges of a cube are parallel to a given edge?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"cube\">Hình lập phương</b> có bao nhiêu cạnh khác <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b> với một cạnh cho trước?",
+   "options": [
+    "\\(1\\)",
+    "\\(2\\)",
+    "\\(3\\)",
+    "\\(4\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The other three edges in the same direction.",
+   "explain_vi": "Đáp án c. Ba cạnh còn lại <b class=\"mbl-term\" tabindex=\"0\" data-en=\"collinear vectors\">cùng phương</b>.",
+   "images": [],
+   "id": "41d0be5ff766",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "In a cube \\(ABCD.A'B'C'D'\\), what is the position of the edges \\(AB\\) and \\(CD\\)?",
+   "en": "In a cube \\(ABCD.A'B'C'D'\\), what is the position of the edges \\(AB\\) and \\(CD\\)?",
+   "vi": "Trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"cube\">hình lập phương</b> \\(ABCD.A'B'C'D'\\), hai cạnh \\(AB\\) và \\(CD\\) có vị trí nào?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">parallel</span><span class=\"vi\">song song</span></span>",
+    "<span class=\"txi\"><span class=\"en\">intersecting</span><span class=\"vi\">cắt nhau</span></span>",
+    "<span class=\"txi\"><span class=\"en\">skew</span><span class=\"vi\">chéo nhau</span></span>",
+    "<span class=\"txi\"><span class=\"en\">identical</span><span class=\"vi\">trùng nhau</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. They are opposite sides of the face ABCD, which is a square.",
+   "explain_vi": "Đáp án a. Chúng là hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"opposite side\">cạnh đối</b> của mặt ABCD, là hình vuông.",
+   "images": [],
+   "id": "0a72cccef5a1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "The line \\(a\\) and the plane \\((P)\\) have no common point. Then:",
+   "en": "The line \\(a\\) and the plane \\((P)\\) have no common point. Then:",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">Đường thẳng</b> \\(a\\) và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> \\((P)\\) không có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"common point\">điểm chung</b>. Khi đó:",
+   "options": [
+    "\\(a\\parallel(P)\\)",
+    "\\(a\\subset(P)\\)",
+    "\\(a\\ \\text{cắt}\\ (P)\\)",
+    "\\(a=(P)\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. This is the definition of a line parallel to a plane.",
+   "explain_vi": "Đáp án a. Đây chính là định nghĩa <b class=\"mbl-term\" tabindex=\"0\" data-en=\"a line parallel to a plane\">đường thẳng song song với mặt phẳng</b>.",
+   "images": [],
+   "id": "fd7a35ca4bc5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "Two lines with no common point are parallel.",
+   "en": "Two lines with no common point are parallel.",
+   "vi": "Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> không có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"common point\">điểm chung</b> thì <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b>.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. They may be skew.",
+   "explain_vi": "Sai. Chúng có thể chéo nhau.",
+   "images": [],
+   "id": "02eb62ac4a83",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "For an edge \\(AB\\) of a cube, how many faces are parallel to the line \\(AB\\)?",
+   "en": "For an edge \\(AB\\) of a cube, how many faces are parallel to the line \\(AB\\)?",
+   "vi": "Với cạnh \\(AB\\) của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"cube\">hình lập phương</b>, có bao nhiêu mặt <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b> với <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(AB\\)?",
+   "options": [],
+   "answer": "2",
+   "explain_en": "Answer: 2. The faces CDD′C′ and A′B′C′D′ (they contain edges parallel to AB).",
+   "explain_vi": "Đáp số: 2. Các mặt CDD′C′ và A′B′C′D′ (chứa các cạnh <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b> với AB).",
+   "images": [],
+   "id": "56f0942250a6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "How many edges of a cube are skew to a given edge?",
+   "en": "How many edges of a cube are skew to a given edge?",
+   "vi": "Có bao nhiêu cạnh của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"cube\">hình lập phương</b> chéo nhau với một cạnh cho trước?",
+   "options": [],
+   "answer": "4",
+   "explain_en": "Answer: 4. Total 12 = 1 (itself) + 3 parallel + 4 intersecting + 4 skew.",
+   "explain_vi": "Đáp số: 4. Tổng 12 = 1 (chính nó) + 3 <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b> + 4 <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersect\">cắt nhau</b> + 4 chéo nhau.",
+   "images": [],
+   "id": "c8ef9cbeeb5a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "How many other edges of a triangular prism are parallel to the edge \\(AB\\)?",
+   "en": "How many other edges of a triangular prism are parallel to the edge \\(AB\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"prism\">Hình lăng trụ</b> tam giác có bao nhiêu cạnh khác <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b> với cạnh \\(AB\\)?",
+   "options": [
+    "\\(1\\)",
+    "\\(2\\)",
+    "\\(3\\)",
+    "\\(0\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Only \\(A'B'\\).",
+   "explain_vi": "Đáp án a. Chỉ có \\(A'B'\\).",
+   "images": [],
+   "id": "babee2cca1bb",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "In a triangular prism \\(ABC.A'B'C'\\), what is the position of the edges \\(AB\\) and \\(B'C'\\)?",
+   "en": "In a triangular prism \\(ABC.A'B'C'\\), what is the position of the edges \\(AB\\) and \\(B'C'\\)?",
+   "vi": "Trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"prism\">hình lăng trụ</b> tam giác \\(ABC.A'B'C'\\), hai cạnh \\(AB\\) và \\(B'C'\\) có vị trí nào?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">skew</span><span class=\"vi\">chéo nhau</span></span>",
+    "<span class=\"txi\"><span class=\"en\">parallel</span><span class=\"vi\">song song</span></span>",
+    "<span class=\"txi\"><span class=\"en\">intersecting</span><span class=\"vi\">cắt nhau</span></span>",
+    "<span class=\"txi\"><span class=\"en\">identical</span><span class=\"vi\">trùng nhau</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(B'C'\\parallel BC\\), which meets \\(AB\\). The lines \\(AB\\) and \\(B'C'\\) have no common point and are not in one plane.",
+   "explain_vi": "Đáp án a. \\(B'C'\\parallel BC\\) mà \\(BC\\) cắt \\(AB\\). Hai đường \\(AB\\) và \\(B'C'\\) không có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"common point\">điểm chung</b> và không cùng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b>.",
+   "images": [],
+   "id": "9fcffd38ab79",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "\\(a\\parallel b\\), \\(b\\subset(P)\\) and \\(a\\not\\subset(P)\\). Then:",
+   "en": "\\(a\\parallel b\\), \\(b\\subset(P)\\) and \\(a\\not\\subset(P)\\). Then:",
+   "vi": "\\(a\\parallel b\\), \\(b\\subset(P)\\) và \\(a\\not\\subset(P)\\). Khi đó:",
+   "options": [
+    "\\(a\\subset(P)\\)",
+    "\\(a\\parallel(P)\\)",
+    "\\(a\\perp(P)\\)",
+    "\\(a=b\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. This is the theorem of 5.2.",
+   "explain_vi": "Đáp án b. Đây là định lí ở mục 5.2.",
+   "images": [],
+   "id": "257c574e9c38",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "Two lines parallel to the same plane are parallel to each other.",
+   "en": "Two lines parallel to the same plane are parallel to each other.",
+   "vi": "Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> cùng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b> với một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> thì <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b> với nhau.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. They can intersect or be skew.",
+   "explain_vi": "Sai. Chúng có thể <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersect\">cắt nhau</b> hoặc chéo nhau.",
+   "images": [],
+   "id": "0013329bd9ae",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "For the edge \\(AB\\) of a triangular prism, how many faces are parallel to the line \\(AB\\)?",
+   "en": "For the edge \\(AB\\) of a triangular prism, how many faces are parallel to the line \\(AB\\)?",
+   "vi": "Với cạnh \\(AB\\) của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"prism\">hình lăng trụ</b> tam giác, có bao nhiêu mặt <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b> với <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(AB\\)?",
+   "options": [],
+   "answer": "1",
+   "explain_en": "Answer: 1. Only the face \\(A'B'C'\\).",
+   "explain_vi": "Đáp số: 1. Chỉ có mặt \\(A'B'C'\\).",
+   "images": [],
+   "id": "372c4697f965",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "How many edges of a triangular prism are skew to the edge \\(AB\\)?",
+   "en": "How many edges of a triangular prism are skew to the edge \\(AB\\)?",
+   "vi": "Có bao nhiêu cạnh của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"prism\">hình lăng trụ</b> tam giác chéo nhau với cạnh \\(AB\\)?",
+   "options": [],
+   "answer": "3",
+   "explain_en": "Answer: 3. The edges \\(B'C'\\), \\(C'A'\\), \\(CC'\\).",
+   "explain_vi": "Đáp số: 3. Đó là các cạnh \\(B'C'\\), \\(C'A'\\), \\(CC'\\).",
+   "images": [],
+   "id": "81023b2b0d0d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "How many other edges of the pyramid \\(S.ABCD\\) are parallel to the edge \\(AB\\)?",
+   "en": "How many other edges of the pyramid \\(S.ABCD\\) are parallel to the edge \\(AB\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">Hình chóp</b> \\(S.ABCD\\) có bao nhiêu cạnh khác <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b> với cạnh \\(AB\\)?",
+   "options": [
+    "\\(0\\)",
+    "\\(1\\)",
+    "\\(2\\)",
+    "\\(3\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Only \\(CD\\).",
+   "explain_vi": "Đáp án b. Chỉ có \\(CD\\).",
+   "images": [],
+   "id": "2e89893ed557",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "In the pyramid \\(S.ABCD\\) (\\(ABCD\\) is a parallelogram), what is the position of \\(SC\\) and \\(AB\\)?",
+   "en": "In the pyramid \\(S.ABCD\\) (\\(ABCD\\) is a parallelogram), what is the position of \\(SC\\) and \\(AB\\)?",
+   "vi": "Trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">hình chóp</b> \\(S.ABCD\\) (\\(ABCD\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelogram\">hình bình hành</b>), hai đường \\(SC\\) và \\(AB\\) có vị trí nào?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">intersecting</span><span class=\"vi\">cắt nhau</span></span>",
+    "<span class=\"txi\"><span class=\"en\">parallel</span><span class=\"vi\">song song</span></span>",
+    "<span class=\"txi\"><span class=\"en\">identical</span><span class=\"vi\">trùng nhau</span></span>",
+    "<span class=\"txi\"><span class=\"en\">skew</span><span class=\"vi\">chéo nhau</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(SC\\) meets the base only at \\(C\\), which is not on \\(AB\\); and \\(SC\\) is not in the base plane.",
+   "explain_vi": "Đáp án d. \\(SC\\) chỉ gặp mặt đáy tại \\(C\\) không thuộc \\(AB\\); và \\(SC\\) không <b class=\"mbl-term\" tabindex=\"0\" data-en=\"lies in\">nằm trong</b> mặt đáy.",
+   "images": [],
+   "id": "35aa312d3e3c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "The plane \\((Q)\\) contains \\(a\\), \\(a\\parallel(P)\\) and \\((Q)\\cap(P)=b\\). Then:",
+   "en": "The plane \\((Q)\\) contains \\(a\\), \\(a\\parallel(P)\\) and \\((Q)\\cap(P)=b\\). Then:",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">Mặt phẳng</b> \\((Q)\\) chứa \\(a\\), \\(a\\parallel(P)\\) và \\((Q)\\cap(P)=b\\). Khi đó:",
+   "options": [
+    "\\(a\\perp b\\)",
+    "\\(a\\ \\text{cắt}\\ b\\)",
+    "\\(a=b\\)",
+    "\\(a\\parallel b\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. This is the second theorem of 5.2.",
+   "explain_vi": "Đáp án d. Đây là định lí thứ hai ở mục 5.2.",
+   "images": [],
+   "id": "94c0cf4e51c4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "If \\(a\\parallel b\\) and \\(b\\parallel c\\) (three different lines), then \\(a\\parallel c\\).",
+   "en": "If \\(a\\parallel b\\) and \\(b\\parallel c\\) (three different lines), then \\(a\\parallel c\\).",
+   "vi": "Nếu \\(a\\parallel b\\) và \\(b\\parallel c\\) (ba <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> phân biệt) thì \\(a\\parallel c\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. Parallelism of lines in space is transitive.",
+   "explain_vi": "Đúng. Quan hệ <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b> giữa các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> trong không gian có tính bắc cầu.",
+   "images": [],
+   "id": "6a59297a57a1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "For the edge \\(AB\\) of the pyramid \\(S.ABCD\\), how many faces are parallel to the line \\(AB\\)?",
+   "en": "For the edge \\(AB\\) of the pyramid \\(S.ABCD\\), how many faces are parallel to the line \\(AB\\)?",
+   "vi": "Với cạnh \\(AB\\) của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">hình chóp</b> \\(S.ABCD\\), có bao nhiêu mặt <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b> với <b class=\"mbl-term\" tabindex=\"0\" data-en=\"line\">đường thẳng</b> \\(AB\\)?",
+   "options": [],
+   "answer": "1",
+   "explain_en": "Answer: 1. The face \\(SCD\\), since \\(AB\\parallel CD\\).",
+   "explain_vi": "Đáp số: 1. Mặt \\(SCD\\), vì \\(AB\\parallel CD\\).",
+   "images": [],
+   "id": "b3429b2ca56a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "How many edges of the pyramid \\(S.ABCD\\) are skew to the edge \\(AB\\)?",
+   "en": "How many edges of the pyramid \\(S.ABCD\\) are skew to the edge \\(AB\\)?",
+   "vi": "Có bao nhiêu cạnh của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"pyramid\">hình chóp</b> \\(S.ABCD\\) chéo nhau với cạnh \\(AB\\)?",
+   "options": [],
+   "answer": "2",
+   "explain_en": "Answer: 2. The edges \\(SC\\) and \\(SD\\).",
+   "explain_vi": "Đáp số: 2. Đó là các cạnh \\(SC\\) và \\(SD\\).",
+   "images": [],
+   "id": "7581edc159f1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  }
+ ]
+}

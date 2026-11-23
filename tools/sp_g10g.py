@@ -36,21 +36,21 @@ def ts_all(r, lv):
     # f(x) = x^2 - 2mx + k  >  0 với mọi x  <=>  Δ' = m^2 - k < 0  <=>  -s < m < s
     return dict(en='\\(x^2-2mx+%d\\gt0\\) for every real \\(x\\) exactly when…' % k, vi='\\(x^2-2mx+%d\\gt0\\) với mọi \\(x\\in\\mathbb R\\) khi và chỉ khi…' % k,
       opts=pick_opts(r, '-%d\\lt m\\lt%d' % (s, s), ['m\\in(-\\infty;\\,-%d)\\cup(%d;\\,+\\infty)' % (s, s), '-%d\\le m\\le%d' % (s, s), '0\\lt m\\lt%d' % k, 'm\\lt%d' % s]), ans=0,
-      ee='\\(a=1\\gt0\\), need \\(\\Delta\'=m^2-%d\\lt0\\).' % k, ev='\\(a=1\\gt0\\), cần \\(\\Delta\'=m^2-%d\\lt0\\iff-%d\\lt m\\lt%d\\).' % (k, s, s))
+      ee='\\(a=1\\gt0\\), we need \\(\\Delta\'=m^2-%d\\lt0\\iff-%d\\lt m\\lt%d\\).' % (k, s, s), ev='\\(a=1\\gt0\\), cần \\(\\Delta\'=m^2-%d\\lt0\\iff-%d\\lt m\\lt%d\\).' % (k, s, s))
 def ts_double(r, lv):
     p = r.randint(-4, 4); a = r.choice([1, -1, 4, -4, 9]); cs = [a, -2 * a * p, a * p * p]
     rel = r.choice(['\\gt', '\\ge']) if a > 0 else r.choice(['\\lt', '\\le'])
     ok = '\\mathbb R\\setminus\\{%d\\}' % p if rel in ('\\gt', '\\lt') else '\\mathbb R'
     return dict(en='Solve \\(%s%s0\\).' % (poly(cs), rel), vi='Giải bất phương trình \\(%s%s0\\).' % (poly(cs), rel),
       opts=pick_opts(r, ok, ['\\varnothing', '\\{%d\\}' % p, '\\mathbb R' if ok != '\\mathbb R' else '\\mathbb R\\setminus\\{%d\\}' % p, '(%d;\\,+\\infty)' % p]), ans=0,
-      ee='\\(\\Delta=0\\): \\(f(x)=%s(x%+d)^2\\) has the sign of \\(a\\) except at \\(x=%d\\).' % ('' if a == 1 else '-' if a == -1 else a, -p, p), ev='\\(\\Delta=0\\): \\(f(x)\\) cùng dấu \\(a\\) với mọi \\(x\\ne%d\\).' % p)
+      ee='\\(\\Delta=0\\): \\(f(x)=%s(x%+d)^2\\) has the sign of \\(a\\) for every \\(x\\ne%d\\).' % ('' if a == 1 else '-' if a == -1 else a, -p, p), ev='\\(\\Delta=0\\): \\(f(x)=%s(x%+d)^2\\) cùng dấu \\(a\\) với mọi \\(x\\ne%d\\).' % ('' if a == 1 else '-' if a == -1 else a, -p, p))
 def ts_count(r, lv):
     p, q = _roots(r, -4, 8)
     if q - p < 2: raise AssertionError
     cs = [1, -(p + q), p * q]; closed = r.random() < .5; n = q - p + 1 if closed else q - p - 1
     return dict(en='How many integers \\(x\\) satisfy \\(%s%s0\\)?' % (poly(cs), '\\le' if closed else '\\lt'), vi='Bất phương trình \\(%s%s0\\) có bao nhiêu nghiệm nguyên?' % (poly(cs), '\\le' if closed else '\\lt'),
       opts=pick_opts(r, str(n), [str(n + 1), str(n + 2), str(n - 1) if n > 1 else str(n + 3), TT('infinitely many', 'vô số')]), ans=0,
-      ee='Solution set \\(%s\\).' % seg(p, q, closed), ev='Tập nghiệm \\(%s\\).' % seg(p, q, closed))
+      ee='Solution set \\(%s\\); it contains %d integers.' % (seg(p, q, closed), n), ev='Tập nghiệm \\(%s\\); có %d số nguyên.' % (seg(p, q, closed), n))
 def ts_profit(r, lv):
     p, q = _roots(r, 2, 15)
     if q - p < 3: raise AssertionError
@@ -70,7 +70,7 @@ def ts_delta(r, lv):
     a = r.choice([1, 2, -1, -2, 3]); b = r.randint(-4, 4); c = r.randint(-5, 6); d = b * b - 4 * a * c
     return dict(en='The discriminant of \\(%s\\) is…' % poly([a, b, c]), vi='Biệt thức của tam thức \\(%s\\) là…' % poly([a, b, c]),
       opts=pick_opts(r, '\\Delta=%d' % d, ['\\Delta=%d' % (b * b + 4 * a * c), '\\Delta=%d' % (b * b - 2 * a * c), '\\Delta=%d' % (-d) if d else '\\Delta=1', '\\Delta=%d' % (b - 4 * a * c)]), ans=0,
-      ee='\\(\\Delta=b^2-4ac=%d-4\\cdot(%d)\\cdot(%d)\\).' % (b * b, a, c), ev='\\(\\Delta=b^2-4ac=%d-4\\cdot(%d)\\cdot(%d)=%d\\).' % (b * b, a, c, d))
+      ee='\\(\\Delta=b^2-4ac=%d-4\\cdot(%d)\\cdot(%d)=%d\\).' % (b * b, a, c, d), ev='\\(\\Delta=b^2-4ac=%d-4\\cdot(%d)\\cdot(%d)=%d\\).' % (b * b, a, c, d))
 M17S10 = [ts_delta, ts_sign, ts_ineq, ts_double, ts_all, ts_count, ts_profit, ts_ball]
 # ================= Bài 18. Phương trình quy về phương trình bậc hai =================
 def _t2(r):
@@ -102,7 +102,7 @@ def eq_bi(r, lv):
     n = sum(1 if t == 0 else 2 if t > 0 else 0 for t in (u, v))
     return dict(en='How many real roots does \\(%s=0\\) have?' % poly(cs), vi='Phương trình \\(%s=0\\) có bao nhiêu nghiệm thực?' % poly(cs),
       opts=pick_opts(r, str(n), [str(k) for k in range(5) if k != n]), ans=0,
-      ee='Put \\(t=x^2\\ge0\\): \\(t=%d\\) or \\(t=%d\\).' % (u, v), ev='Đặt \\(t=x^2\\ge0\\): \\(t=%d\\) hoặc \\(t=%d\\); mỗi \\(t\\gt0\\) cho 2 nghiệm, \\(t=0\\) cho 1 nghiệm.' % (u, v))
+      ee='Put \\(t=x^2\\ge0\\): \\(t=%d\\) or \\(t=%d\\); each \\(t\\gt0\\) gives 2 roots and \\(t=0\\) gives 1 root.' % (u, v), ev='Đặt \\(t=x^2\\ge0\\): \\(t=%d\\) hoặc \\(t=%d\\); mỗi \\(t\\gt0\\) cho 2 nghiệm, \\(t=0\\) cho 1 nghiệm.' % (u, v))
 def eq_extra(r, lv):
     c, r1, r2, a, b = _t2(r)
     return dict(en='After squaring \\(%s=%s\\) we get the roots %d and %d. Which is extraneous?' % (lhs(a, b), rhs(c), min(r1, r2), max(r1, r2)), vi='Bình phương hai vế phương trình \\(%s=%s\\) được hai nghiệm %d và %d. Nghiệm nào là nghiệm ngoại lai?' % (lhs(a, b), rhs(c), min(r1, r2), max(r1, r2)),
@@ -186,7 +186,7 @@ def l_par(r, lv):
     if not all(u) or M == u: raise AssertionError
     return dict(en='The line through \\(M%s\\) with direction vector \\(\\vec u=%s\\) has parametric equations…' % (V2(M), V2(u)), vi='Đường thẳng đi qua \\(M%s\\), có vectơ chỉ phương \\(\\vec u=%s\\) có phương trình tham số…' % (V2(M), V2(u)),
       opts=pick_opts(r, pr2(M, u), [pr2(u, M), pr2((-M[0], -M[1]), u) if any(M) else pr2(M, (u[0], -u[1])), pr2(M, (u[1], u[0])) if u[0] != u[1] else pr2(M, (u[0], -u[1])), pr2(M, (-u[1], u[0]))]), ans=0,
-      ee='\\(x=x_0+at\\), \\(y=y_0+bt\\).', ev='\\(x=x_0+at\\), \\(y=y_0+bt\\) với \\(M(x_0;y_0)\\), \\(\\vec u=(a;b)\\).')
+      ee='\\(x=x_0+at\\), \\(y=y_0+bt\\) with \\(M(x_0;y_0)\\), \\(\\vec u=(a;b)\\).', ev='\\(x=x_0+at\\), \\(y=y_0+bt\\) với \\(M(x_0;y_0)\\), \\(\\vec u=(a;b)\\).')
 def l_on(r, lv):
     a, b = _vec(r); P = _pt(r); c = -(a * P[0] + b * P[1]); others = []
     for _ in range(50):

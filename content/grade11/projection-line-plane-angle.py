@@ -47,7 +47,7 @@ examples += EXAMPLE(3, ('Intermediate', 'Trung bình'), ('A diagonal of a cube',
   T('\\(\\tan\\varphi=\\dfrac{\\sqrt2}2\\), \\(\\varphi\\approx35{,}26^\\circ\\).', '\\(\\tan\\varphi=\\dfrac{\\sqrt2}2\\), \\(\\varphi\\approx35{,}26^\\circ\\).'))
 examples = EXFIG(examples, 3, GEO3D(fig('cube', seg=[['A', 'C', {'color': BL}], ['A′', 'C', {'color': HL}]], angles=[['A′', 'C', 'A']], right=[['A′', 'A', 'C']]), alt=('Cube with the angle between A′C and the base', '')))
 examples += EXAMPLE(4, ('Intermediate', 'Trung bình'), ('A regular pyramid', 'Hình chóp đều'), T('Regular pyramid \\(S.ABCD\\) with base side \\(a\\) and lateral edge \\(a\\sqrt2\\). Find the angle between \\(SA\\) and the base, and the height.', 'Hình chóp tứ giác đều \\(S.ABCD\\) có cạnh đáy \\(a\\), cạnh bên \\(a\\sqrt2\\). Tính góc giữa \\(SA\\) và đáy, và chiều cao của hình chóp.'),
-  T('In a regular pyramid the projection of \\(S\\) is the centre \\(O\\).', 'Trong hình chóp đều, hình chiếu của \\(S\\) là tâm \\(O\\) của đáy.'),
+  T('In a regular pyramid the projection of \\(S\\) is the center \\(O\\).', 'Trong hình chóp đều, hình chiếu của \\(S\\) là tâm \\(O\\) của đáy.'),
   [T('\\(AO=\\dfrac{a\\sqrt2}2\\); \\(\\cos\\widehat{SAO}=\\dfrac{AO}{SA}=\\dfrac12\\Rightarrow\\widehat{SAO}=60^\\circ\\).', '\\(AO=\\dfrac{a\\sqrt2}2\\); \\(\\cos\\widehat{SAO}=\\dfrac{AO}{SA}=\\dfrac12\\Rightarrow\\widehat{SAO}=60^\\circ\\).'), T('\\(SO=\\sqrt{2a^2-\\frac{a^2}2}=\\dfrac{a\\sqrt6}2\\).', '\\(SO=\\sqrt{2a^2-\\frac{a^2}2}=\\dfrac{a\\sqrt6}2\\).')],
   T('\\(60^\\circ\\); \\(SO=\\dfrac{a\\sqrt6}2\\).', '\\(60^\\circ\\); \\(SO=\\dfrac{a\\sqrt6}2\\).'))
 assert math.isclose(math.degrees(math.atan(0.6 / 7.2)), 4.76, abs_tol=0.01)
@@ -60,12 +60,12 @@ examples += EXAMPLE(5, ('Advanced', 'Nâng cao'), ('A wheelchair ramp', 'Đườ
 def lvl(P):
     side, sa, d1 = P['sb']
     o1 = M4(1, '\\(S.ABCD\\): square base of side %d, \\(SA\\perp(ABCD)\\), \\(SA=%s\\). The angle between \\(SB\\) and the base is…' % (side, sa), 'Hình chóp \\(S.ABCD\\) có đáy là hình vuông cạnh %d, \\(SA\\perp(ABCD)\\), \\(SA=%s\\). Góc giữa \\(SB\\) và mặt đáy bằng…' % (side, sa), '\\(%d^\\circ\\)' % d1,
-            ['\\(%d^\\circ\\)' % x for x in (30, 45, 60, 90) if x != d1], '\\(\\tan\\widehat{SBA}=\\dfrac{SA}{AB}\\).', '\\(\\tan\\widehat{SBA}=\\dfrac{SA}{AB}\\).')
+            ['\\(%d^\\circ\\)' % x for x in (30, 45, 60, 90) if x != d1], '\\(\\tan\\widehat{SBA}=\\dfrac{SA}{AB}\\), so the angle is \\(%d^\\circ\\).' % d1, '\\(\\tan\\widehat{SBA}=\\dfrac{SA}{AB}\\) nên góc bằng \\(%d^\\circ\\).' % d1)
     side2, sa2, d2 = P['sc']
     o2 = M4(2, '\\(S.ABCD\\): square base of side %d, \\(SA\\perp(ABCD)\\), \\(SA=%s\\). The angle between \\(SC\\) and the base is…' % (side2, sa2), 'Hình chóp \\(S.ABCD\\) có đáy là hình vuông cạnh %d, \\(SA\\perp(ABCD)\\), \\(SA=%s\\). Góc giữa \\(SC\\) và mặt đáy bằng…' % (side2, sa2), '\\(%d^\\circ\\)' % d2,
-            ['\\(%d^\\circ\\)' % x for x in (30, 45, 60, 90) if x != d2], '\\(\\tan\\widehat{SCA}=\\dfrac{SA}{AC}\\), \\(AC=%d\\sqrt2\\).' % side2, '\\(\\tan\\widehat{SCA}=\\dfrac{SA}{AC}\\) với \\(AC=%d\\sqrt2\\).' % side2)
+            ['\\(%d^\\circ\\)' % x for x in (30, 45, 60, 90) if x != d2], '\\(\\tan\\widehat{SCA}=\\dfrac{SA}{AC}\\) with \\(AC=%d\\sqrt2\\), so the angle is \\(%d^\\circ\\).' % (side2, d2), '\\(\\tan\\widehat{SCA}=\\dfrac{SA}{AC}\\) với \\(AC=%d\\sqrt2\\) nên góc bằng \\(%d^\\circ\\).' % (side2, d2))
     s, p = P['proj']
-    o3 = M4(3, '\\(S.ABCD\\) (square base, centre \\(O\\)), \\(SA\\perp(ABCD)\\). The projection of \\(%s\\) on \\((ABCD)\\) is…' % s, 'Hình chóp \\(S.ABCD\\) có đáy hình vuông tâm \\(O\\), \\(SA\\perp(ABCD)\\). Hình chiếu vuông góc của \\(%s\\) lên \\((ABCD)\\) là…' % s, '\\(%s\\)' % p,
+    o3 = M4(3, '\\(S.ABCD\\) (square base, center \\(O\\)), \\(SA\\perp(ABCD)\\). The projection of \\(%s\\) on \\((ABCD)\\) is…' % s, 'Hình chóp \\(S.ABCD\\) có đáy hình vuông tâm \\(O\\), \\(SA\\perp(ABCD)\\). Hình chiếu vuông góc của \\(%s\\) lên \\((ABCD)\\) là…' % s, '\\(%s\\)' % p,
             ['\\(%s\\)' % x for x in ('BC', 'BD', 'CD', 'AB', 'AC', 'AD') if x != p][:3], 'The projection of \\(S\\) is \\(A\\).', 'Hình chiếu của \\(S\\) là \\(A\\).')
     (se, sv), val = P['stmt']
     t4 = tf(4, se, sv, val, 'Recall the definition.', 'Nhớ lại định nghĩa góc giữa đường thẳng và mặt phẳng.')
@@ -73,10 +73,10 @@ def lvl(P):
     t5 = tf(5, '\\(S.ABCD\\): square base, \\(SA\\perp(ABCD)\\). Then \\(%s\\perp %s\\).' % (l1, l2), 'Hình chóp \\(S.ABCD\\) có đáy hình vuông, \\(SA\\perp(ABCD)\\). Khi đó \\(%s\\perp %s\\).' % (l1, l2), v5, why[0], why[1])
     side6, so6, d6 = P['reg']
     s6 = sh(6, 'Regular pyramid \\(S.ABCD\\): base side %d, height \\(SO=%s\\). Find the angle (degrees) between a lateral edge and the base.' % (side6, so6), 'Hình chóp tứ giác đều \\(S.ABCD\\) có cạnh đáy %d, chiều cao \\(SO=%s\\). Tính góc (độ) giữa cạnh bên và mặt đáy.' % (side6, so6), d6,
-            '\\(\\tan\\widehat{SAO}=\\dfrac{SO}{AO}\\), \\(AO=\\dfrac{%d\\sqrt2}2\\).' % side6, '\\(\\tan\\widehat{SAO}=\\dfrac{SO}{AO}\\) với \\(AO=\\dfrac{%d\\sqrt2}2\\).' % side6)
+            '\\(\\tan\\widehat{SAO}=\\dfrac{SO}{AO}\\) with \\(AO=\\dfrac{%d\\sqrt2}2\\), so the angle is \\(%d^\\circ\\).' % (side6, d6), '\\(\\tan\\widehat{SAO}=\\dfrac{SO}{AO}\\) với \\(AO=\\dfrac{%d\\sqrt2}2\\) nên góc bằng \\(%d^\\circ\\).' % (side6, d6))
     a, b, c = P['lad']
     s7 = sh(7, 'A %d m ladder leans on a vertical wall with its top %d m high. Find the length (m) of its orthogonal projection on the flat ground.' % (c, b), 'Một chiếc thang dài %d m dựa vào tường thẳng đứng, đỉnh thang cao %d m. Tính độ dài (m) hình chiếu vuông góc của thang trên mặt đất phẳng.' % (c, b), a,
-            '\\(\\sqrt{%d-%d}\\).' % (c * c, b * b), 'Hình chiếu là đoạn nối chân thang với chân tường: \\(\\sqrt{%d-%d}=%d\\).' % (c * c, b * b, a))
+            'The projection is the segment from the foot of the ladder to the foot of the wall: \\(\\sqrt{%d-%d}=%d\\).' % (c * c, b * b, a), 'Hình chiếu là đoạn nối chân thang với chân tường: \\(\\sqrt{%d-%d}=%d\\).' % (c * c, b * b, a))
     return [[o1, o2, o3], [t4, t5], [s6, s7]]
 
 
@@ -92,7 +92,7 @@ for pp in PP:
 practice = three(lvl, PP)
 practice = with_self(practice, S.M24S11, start=8)
 mistakes = [('<b>Using an edge of the base instead of the projection.</b> \\((SC,(ABCD))=\\widehat{SCA}\\), not \\(\\widehat{SCB}\\).', '<b>Lấy cạnh đáy thay cho hình chiếu.</b> \\((SC,(ABCD))=\\widehat{SCA}\\), không phải \\(\\widehat{SCB}\\).'),
-            ('<b>Putting the foot of the height at a vertex of a regular pyramid.</b> The projection of the apex is the centre \\(O\\).', '<b>Đặt chân đường cao của hình chóp đều tại một đỉnh.</b> Hình chiếu của đỉnh là tâm \\(O\\) của đáy.'),
+            ('<b>Putting the foot of the height at a vertex of a regular pyramid.</b> The projection of the apex is the center \\(O\\).', '<b>Đặt chân đường cao của hình chóp đều tại một đỉnh.</b> Hình chiếu của đỉnh là tâm \\(O\\) của đáy.'),
             ('<b>Mixing \\(\\tan\\) and \\(\\sin\\).</b> \\(\\tan=\\dfrac{SH}{HM}\\) (height over projection); \\(\\sin=\\dfrac{SH}{SM}\\).', '<b>Nhầm \\(\\tan\\) và \\(\\sin\\).</b> \\(\\tan=\\dfrac{SH}{HM}\\) (chiều cao chia hình chiếu); \\(\\sin=\\dfrac{SH}{SM}\\).'),
             ('<b>Applying the three perpendiculars theorem to a line not in the plane.</b> The line \\(a\\) must lie in \\((P)\\).', '<b>Dùng định lí ba đường vuông góc khi \\(a\\) không nằm trong mặt phẳng.</b> Đường \\(a\\) phải nằm trong \\((P)\\).')]
 summary = [('Projection of \\(M\\): foot of the perpendicular; of a line: project two points.', 'Hình chiếu của \\(M\\): chân đường vuông góc; của đường thẳng: chiếu hai điểm.'),

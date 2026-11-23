@@ -90,7 +90,7 @@ theory += BOX('mint', ('Theorem', 'Định lí'),
   T(r'If \(a\parallel(P)\) and a plane \((Q)\) contains \(a\) and meets \((P)\) along \(b\), then \(a\parallel b\).', r'Nếu \(a\parallel(P)\) và mặt phẳng \((Q)\) chứa \(a\), cắt \((P)\) theo giao tuyến \(b\) thì \(a\parallel b\).'))
 PYR = {'solid': ['S', 'A', 'B', 'C', 'D'], 'box': [[-4, 4], [-3, 3], [-1, 4]], 'points': {'A': A, 'B': B, 'C': C, 'D': D, 'S': S, 'O': O, 'M': tuple(M)},
        'polygons': [['A', 'B', 'C', 'D']], 'segments': [['S', 'A'], ['S', 'B'], ['S', 'C'], ['S', 'D'], ['A', 'C', {'dash': True, 'color': '#64748b', 'width': 1.6}], ['B', 'D', {'dash': True, 'color': '#64748b', 'width': 1.6}], ['O', 'M', {'color': '#c2410c', 'width': 4}]]}
-theory += GEO3D(PYR, cap=('Pyramid S.ABCD: ABCD is a parallelogram with centre O; M is the midpoint of SC. OM is a midline of triangle SAC.', 'Hình chóp S.ABCD: ABCD là hình bình hành tâm O; M là trung điểm của SC. OM là đường trung bình của tam giác SAC.'), alt=('Pyramid with the segment OM', ''), height=380)
+theory += GEO3D(PYR, cap=('Pyramid S.ABCD: ABCD is a parallelogram with center O; M is the midpoint of SC. OM is a midline of triangle SAC.', 'Hình chóp S.ABCD: ABCD là hình bình hành tâm O; M là trung điểm của SC. OM là đường trung bình của tam giác SAC.'), alt=('Pyramid with the segment OM', ''), height=380)
 
 theory += '<h3>5.3 %s</h3>' % TI('Parallel planes', 'Hai mặt phẳng song song')
 theory += BOX('mint', ('Theorem', 'Định lí'),
@@ -103,10 +103,10 @@ examples = EXAMPLE(1, ('Basic', 'Cơ bản'), ('A line parallel to the base', '�
    T(r'\(AB\subset(ABCD)\) and \(MN\not\subset(ABCD)\), so \(MN\parallel(ABCD)\).', r'\(AB\subset(ABCD)\) và \(MN\not\subset(ABCD)\) nên \(MN\parallel(ABCD)\).'),
    T(r'\(ABCD\) is a parallelogram: \(AB\parallel CD\). Hence \(MN\parallel CD\).', r'\(ABCD\) là hình bình hành: \(AB\parallel CD\). Suy ra \(MN\parallel CD\).')],
   TI('Proved.', 'Đã chứng minh.'))
-examples += EXAMPLE(2, ('Intermediate', 'Trung bình'), ('The centre and a midpoint', 'Tâm đáy và một trung điểm'),
+examples += EXAMPLE(2, ('Intermediate', 'Trung bình'), ('The center and a midpoint', 'Tâm đáy và một trung điểm'),
   T(r'In the pyramid of the figure in 5.2, prove that \(OM\parallel(SAB)\) and \(OM\parallel(SAD)\).', r'Trong hình chóp ở hình mục 5.2, chứng minh \(OM\parallel(SAB)\) và \(OM\parallel(SAD)\).'),
   (r'First show \(OM\parallel SA\).', r'Trước hết chứng minh \(OM\parallel SA\).'),
-  [T(r'\(O\) is the midpoint of \(AC\) (centre of the parallelogram) and \(M\) is the midpoint of \(SC\). So \(OM\) is the midline of triangle \(SAC\): \(OM\parallel SA\).', r'\(O\) là trung điểm \(AC\) (tâm hình bình hành), \(M\) là trung điểm \(SC\). Vậy \(OM\) là đường trung bình của tam giác \(SAC\): \(OM\parallel SA\).'),
+  [T(r'\(O\) is the midpoint of \(AC\) (center of the parallelogram) and \(M\) is the midpoint of \(SC\). So \(OM\) is the midline of triangle \(SAC\): \(OM\parallel SA\).', r'\(O\) là trung điểm \(AC\) (tâm hình bình hành), \(M\) là trung điểm \(SC\). Vậy \(OM\) là đường trung bình của tam giác \(SAC\): \(OM\parallel SA\).'),
    T(r'\(SA\subset(SAB)\) and \(OM\not\subset(SAB)\), so \(OM\parallel(SAB)\).', r'\(SA\subset(SAB)\) và \(OM\not\subset(SAB)\) nên \(OM\parallel(SAB)\).'),
    T(r'\(SA\subset(SAD)\) and \(OM\not\subset(SAD)\), so \(OM\parallel(SAD)\).', r'\(SA\subset(SAD)\) và \(OM\not\subset(SAD)\) nên \(OM\parallel(SAD)\).')],
   TI('Proved.', 'Đã chứng minh.'))

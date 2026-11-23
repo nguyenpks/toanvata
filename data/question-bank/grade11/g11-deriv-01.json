@@ -1,0 +1,1053 @@
+{
+ "lesson": "g11-deriv-01",
+ "grade": 11,
+ "no": 31,
+ "title": "Định nghĩa và ý nghĩa của đạo hàm",
+ "path": "lessons/grade11/derivatives/derivative-meaning.html",
+ "items": [
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "An object moves with \\(s(t)=#t^#\\) (m, s). Its instantaneous velocity at \\(t=#\\) is…",
+   "en": "An object moves with \\(s(t)=5t^2\\) (m, s). Its instantaneous velocity at \\(t=2\\) is…",
+   "vi": "Một vật chuyển động theo \\(s(t)=5t^2\\) (m, s). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"instantaneous velocity\">Vận tốc tức thời</b> tại \\(t=2\\) là…",
+   "options": [
+    "\\(10\\) m/s",
+    "\\(25\\) m/s",
+    "\\(40\\) m/s",
+    "\\(20\\) m/s"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(v(t)=s'(t)=10t\\); the average velocity on \\([2;3]\\) is \\(25\\) m/s, which differs from the instantaneous velocity.",
+   "explain_vi": "Đáp án d. \\(v(t)=s'(t)=10t\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"average velocity\">vận tốc trung bình</b> trên \\([2;3]\\) là \\(25\\) m/s, khác <b class=\"mbl-term\" tabindex=\"0\" data-en=\"instantaneous velocity\">vận tốc tức thời</b>.",
+   "images": [],
+   "id": "3a34eb47647c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "By definition, for \\(f(x)=x^#-#x\\), \\(f'(#)=\\)…",
+   "en": "By definition, for \\(f(x)=x^2-3x\\), \\(f'(4)=\\)…",
+   "vi": "Dùng định nghĩa, với \\(f(x)=x^2-3x\\) thì \\(f'(4)=\\)…",
+   "options": [
+    "\\(5\\)",
+    "\\(4\\)",
+    "\\(1\\)",
+    "\\(8\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\dfrac{\\Delta y}{h}=5+h\\to5\\).",
+   "explain_vi": "Đáp án a. \\(\\dfrac{\\Delta y}{h}=5+h\\to5\\).",
+   "images": [],
+   "id": "2f7372e79b3b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "The tangent to \\(y=x^#\\) at the point with abscissa \\(#\\) is…",
+   "en": "The tangent to \\(y=x^3\\) at the point with abscissa \\(1\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"tangent line\">Tiếp tuyến</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> \\(y=x^3\\) tại điểm có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"abscissa\">hoành độ</b> \\(1\\) là…",
+   "options": [
+    "\\(y=3x-2\\)",
+    "\\(y=3x+2\\)",
+    "\\(y=3x+1\\)",
+    "\\(y=-3x-2\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(f'(1)=3\\), \\(f(1)=1\\): \\(y=3(x-(1))+(1)\\).",
+   "explain_vi": "Đáp án a. \\(f'(1)=3\\), \\(f(1)=1\\): \\(y=3(x-(1))+(1)\\).",
+   "images": [],
+   "id": "6b76a5cf5bbe",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "If \\(f'(x_#)=#\\), the tangent at \\(x_#\\) is horizontal.",
+   "en": "If \\(f'(x_0)=0\\), the tangent at \\(x_0\\) is horizontal.",
+   "vi": "Nếu \\(f'(x_0)=0\\) thì <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tangent line\">tiếp tuyến</b> tại điểm có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"abscissa\">hoành độ</b> \\(x_0\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallel\">song song</b> hoặc trùng với trục \\(Ox\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "Recall the geometric meaning.",
+   "explain_vi": "Nhớ lại ý nghĩa hình học, mối liên hệ với tính liên tục.",
+   "images": [],
+   "id": "05f187b4ebec",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "The average velocity on \\([#;#]\\) always equals the instantaneous velocity at \\(t=#\\).",
+   "en": "The average velocity on \\([2;3]\\) always equals the instantaneous velocity at \\(t=2\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"average velocity\">Vận tốc trung bình</b> trên \\([2;3]\\) luôn bằng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"instantaneous velocity\">vận tốc tức thời</b> tại \\(t=2\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "Average vs instantaneous.",
+   "explain_vi": "Phân biệt tốc độ trung bình và tức thời.",
+   "images": [],
+   "id": "b965206127ee",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "Cost \\(C(x)=\\dfrac{#}{#}\\,x^#+#x+#\\) (thousand đồng). Find the marginal cost \\(C'(#)\\).",
+   "en": "Cost \\(C(x)=\\dfrac{1}{10}\\,x^2+30x+1000\\) (thousand đồng). Find the marginal cost \\(C'(100)\\).",
+   "vi": "Chi phí \\(C(x)=\\dfrac{1}{10}\\,x^2+30x+1000\\) (nghìn đồng) khi sản xuất \\(x\\) sản phẩm. Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"marginal cost\">chi phí biên</b> \\(C'(100)\\).",
+   "options": [],
+   "answer": "50",
+   "explain_en": "\\(C'(x)=\\dfrac{1}{5} x+30\\), \\(C'(100)=50\\).",
+   "explain_vi": "\\(C'(x)=\\dfrac{1}{5} x+30\\), \\(C'(100)=50\\).",
+   "images": [],
+   "id": "589d84acae33",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "Find the slope of the tangent to \\(y=x^#-#x+#\\) at \\(x=#\\).",
+   "en": "Find the slope of the tangent to \\(y=x^3-2x+1\\) at \\(x=2\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"slope\">hệ số góc</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tangent line\">tiếp tuyến</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> \\(y=x^3-2x+1\\) tại điểm có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"abscissa\">hoành độ</b> \\(x=2\\).",
+   "options": [],
+   "answer": "10",
+   "explain_en": "\\(f'(x)=3x^2-2\\), \\(f'(2)=10\\).",
+   "explain_vi": "\\(f'(x)=3x^2-2\\), \\(f'(2)=10\\).",
+   "images": [],
+   "id": "80b3dd39b9c0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "A car moves with \\(s(t)=#t^#+#t\\) (meters, seconds). Its instantaneous velocity at \\(t=#\\) is… (m/s)",
+   "en": "A car moves with \\(s(t)=5t^2+9t\\) (meters, seconds). Its instantaneous velocity at \\(t=3\\) is… (m/s)",
+   "vi": "Một ô tô chuyển động theo <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(s(t)=5t^2+9t\\) (\\(s\\) tính bằng mét, \\(t\\) bằng giây). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"instantaneous velocity\">Vận tốc tức thời</b> tại \\(t=3\\) là… (m/s)",
+   "options": [
+    "\\(39\\)",
+    "\\(24\\)",
+    "\\(30\\)",
+    "\\(72\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(v(t)=s'(t)=10t+9\\); substitute \\(t=3\\): \\(v=39\\) m/s.",
+   "explain_vi": "Đáp án a. \\(v(t)=s'(t)=10t+9\\), thay \\(t=3\\): \\(v=39\\) m/s.",
+   "images": [],
+   "id": "50eac586549b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "For \\(f(x)=#x^#+x-#\\), using the definition, \\(f'(-#)=\\)…",
+   "en": "For \\(f(x)=3x^2+x-2\\), using the definition, \\(f'(-3)=\\)…",
+   "vi": "Cho \\(f(x)=3x^2+x-2\\). Theo định nghĩa, \\(f'(-3)=\\)…",
+   "options": [
+    "\\(-17\\)",
+    "\\(-8\\)",
+    "\\(22\\)",
+    "\\(-18\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\dfrac{f(x_0+h)-f(x_0)}{h}=2ax_0+b+ah\\to 2\\cdot3\\cdot-3+1\\) as \\(h\\to0\\).",
+   "explain_vi": "Đáp án a. \\(\\dfrac{f(x_0+h)-f(x_0)}{h}=2ax_0+b+ah\\to 2\\cdot3\\cdot-3+1\\) khi \\(h\\to0\\).",
+   "images": [],
+   "id": "a733819212be",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "For \\(f(x)=\\dfrac#x\\), \\(f'(-#)=\\)…",
+   "en": "For \\(f(x)=\\dfrac1x\\), \\(f'(-2)=\\)…",
+   "vi": "Cho \\(f(x)=\\dfrac1x\\). Khi đó \\(f'(-2)=\\)…",
+   "options": [
+    "\\(-\\dfrac{1}{2}\\)",
+    "\\(-\\dfrac{1}{4}\\)",
+    "\\(\\dfrac{1}{4}\\)",
+    "\\(\\dfrac{1}{2}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\dfrac{f(x_0+h)-f(x_0)}{h}=\\dfrac{-1}{x_0(x_0+h)}\\to-\\dfrac1{x_0^2}\\).",
+   "explain_vi": "Đáp án b. \\(\\dfrac{f(x_0+h)-f(x_0)}{h}=\\dfrac{-1}{x_0(x_0+h)}\\to-\\dfrac1{x_0^2}\\).",
+   "images": [],
+   "id": "f686cea8ffb5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "For \\(f(x)=x^#-#x+#\\), using the definition, \\(f'(-#)=\\)…",
+   "en": "For \\(f(x)=x^2-2x+3\\), using the definition, \\(f'(-1)=\\)…",
+   "vi": "Cho \\(f(x)=x^2-2x+3\\). Theo định nghĩa, \\(f'(-1)=\\)…",
+   "options": [
+    "\\(-3\\)",
+    "\\(6\\)",
+    "\\(-4\\)",
+    "\\(-2\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\dfrac{f(x_0+h)-f(x_0)}{h}=2ax_0+b+ah\\to 2\\cdot1\\cdot-1-2\\) as \\(h\\to0\\).",
+   "explain_vi": "Đáp án c. \\(\\dfrac{f(x_0+h)-f(x_0)}{h}=2ax_0+b+ah\\to 2\\cdot1\\cdot-1-2\\) khi \\(h\\to0\\).",
+   "images": [],
+   "id": "3356e9e5742e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The average rate of change of \\(f(x)=x^#\\) on \\([-#;#]\\) is…",
+   "en": "The average rate of change of \\(f(x)=x^2\\) on \\([-2;2]\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"rate of change\">Tốc độ thay đổi</b> trung bình của \\(f(x)=x^2\\) trên đoạn \\([-2;2]\\) là…",
+   "options": [
+    "\\(4\\)",
+    "\\(-4\\)",
+    "\\(0\\)",
+    "\\(1\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\dfrac{4-4}{2-(-2)}\\) (the slope of the secant).",
+   "explain_vi": "Đáp án c. \\(\\dfrac{4-4}{2-(-2)}\\) (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"slope\">hệ số góc</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"secant line\">cát tuyến</b>).",
+   "images": [],
+   "id": "bd35c6f5e67b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The cost of producing \\(x\\) items is \\(C(x)=\\dfrac{#}{#}\\,x^#+#x+#\\) (thousand đồng). The marginal cost \\(C'(#)\\) is…",
+   "en": "The cost of producing \\(x\\) items is \\(C(x)=\\dfrac{1}{10}\\,x^2+50x+500\\) (thousand đồng). The marginal cost \\(C'(50)\\) is…",
+   "vi": "Chi phí sản xuất \\(x\\) sản phẩm là \\(C(x)=\\dfrac{1}{10}\\,x^2+50x+500\\) (nghìn đồng). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"marginal cost\">Chi phí biên</b> \\(C'(50)\\) bằng…",
+   "options": [
+    "\\(60\\)",
+    "\\(3250\\)",
+    "\\(10\\)",
+    "\\(55\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(C'(x)=\\dfrac{1}{5} x+50\\); the marginal cost approximates the cost of making one more product.",
+   "explain_vi": "Đáp án a. \\(C'(x)=\\dfrac{1}{5} x+50\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"marginal cost\">chi phí biên</b> xấp xỉ chi phí làm thêm sản phẩm tiếp theo.",
+   "images": [],
+   "id": "4449127ce8f4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The slope of the tangent to \\(y=x^#\\) at the point with abscissa \\(-#\\) is…",
+   "en": "The slope of the tangent to \\(y=x^2\\) at the point with abscissa \\(-1\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"slope\">Hệ số góc</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tangent line\">tiếp tuyến</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> \\(y=x^2\\) tại điểm có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"abscissa\">hoành độ</b> \\(-1\\) là…",
+   "options": [
+    "\\(1\\)",
+    "\\(-2\\)",
+    "\\(2\\)",
+    "\\(-1\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. The slope equals \\(f'(x_0)\\) with \\((x^2)'=2x\\).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"slope\">Hệ số góc</b> bằng \\(f'(x_0)\\) với \\((x^2)'=2x\\).",
+   "images": [],
+   "id": "1aaa1a521210",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "The tangent to the parabola \\(y=x^#\\) at the point \\((-#;#)\\) is…",
+   "en": "The tangent to the parabola \\(y=x^2\\) at the point \\((-1;1)\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"tangent line\">Tiếp tuyến</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parabola\">parabol</b> \\(y=x^2\\) tại điểm \\((-1;1)\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> là…",
+   "options": [
+    "\\(y=-x\\)",
+    "\\(y=-2x+1\\)",
+    "\\(y=-2x-1\\)",
+    "\\(y=2x-1\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(y=-2(x-(-1))+1\\).",
+   "explain_vi": "Đáp án c. \\(y=-2(x-(-1))+1\\).",
+   "images": [],
+   "id": "79a23e23ad44",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "An object moves with \\(s(t)=#t^#\\) (m, s). Its instantaneous velocity at \\(t=#\\) is…",
+   "en": "An object moves with \\(s(t)=4t^2\\) (m, s). Its instantaneous velocity at \\(t=3\\) is…",
+   "vi": "Một vật chuyển động theo \\(s(t)=4t^2\\) (m, s). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"instantaneous velocity\">Vận tốc tức thời</b> tại \\(t=3\\) là…",
+   "options": [
+    "\\(36\\) m/s",
+    "\\(12\\) m/s",
+    "\\(28\\) m/s",
+    "\\(24\\) m/s"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(v(t)=s'(t)=8t\\); the average velocity on \\([3;4]\\) is \\(28\\) m/s, which differs from the instantaneous velocity.",
+   "explain_vi": "Đáp án d. \\(v(t)=s'(t)=8t\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"average velocity\">vận tốc trung bình</b> trên \\([3;4]\\) là \\(28\\) m/s, khác <b class=\"mbl-term\" tabindex=\"0\" data-en=\"instantaneous velocity\">vận tốc tức thời</b>.",
+   "images": [],
+   "id": "5dd1f4e8ea0d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "By definition, for \\(f(x)=#x^#+x\\), \\(f'(-#)=\\)…",
+   "en": "By definition, for \\(f(x)=2x^2+x\\), \\(f'(-1)=\\)…",
+   "vi": "Dùng định nghĩa, với \\(f(x)=2x^2+x\\) thì \\(f'(-1)=\\)…",
+   "options": [
+    "\\(1\\)",
+    "\\(-3\\)",
+    "\\(-1\\)",
+    "\\(-4\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\dfrac{\\Delta y}{h}=-3+2h\\to-3\\).",
+   "explain_vi": "Đáp án b. \\(\\dfrac{\\Delta y}{h}=-3+2h\\to-3\\).",
+   "images": [],
+   "id": "e3f38b4f3d63",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "The tangent to \\(y=x^#\\) at the point with abscissa \\(-#\\) is…",
+   "en": "The tangent to \\(y=x^3\\) at the point with abscissa \\(-1\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"tangent line\">Tiếp tuyến</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> \\(y=x^3\\) tại điểm có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"abscissa\">hoành độ</b> \\(-1\\) là…",
+   "options": [
+    "\\(y=3x+2\\)",
+    "\\(y=3x-2\\)",
+    "\\(y=3x-1\\)",
+    "\\(y=-3x+2\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(f'(-1)=3\\), \\(f(-1)=-1\\): \\(y=3(x-(-1))+(-1)\\).",
+   "explain_vi": "Đáp án a. \\(f'(-1)=3\\), \\(f(-1)=-1\\): \\(y=3(x-(-1))+(-1)\\).",
+   "images": [],
+   "id": "ebd45fcfb746",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "If \\(f'(x_#)\\gt#\\), the tangent at \\(x_#\\) goes up from left to right.",
+   "en": "If \\(f'(x_0)\\gt0\\), the tangent at \\(x_0\\) goes up from left to right.",
+   "vi": "Nếu \\(f'(x_0)\\gt0\\) thì <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tangent line\">tiếp tuyến</b> tại \\(x_0\\) đi lên từ trái sang phải.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "Average vs instantaneous.",
+   "explain_vi": "Phân biệt tốc độ trung bình và tức thời.",
+   "images": [],
+   "id": "b4bb79948026",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "If \\(f\\) is continuous at \\(x_#\\) then \\(f\\) has a derivative at \\(x_#\\).",
+   "en": "If \\(f\\) is continuous at \\(x_0\\) then \\(f\\) has a derivative at \\(x_0\\).",
+   "vi": "Nếu \\(f\\) liên tục tại \\(x_0\\) thì \\(f\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"differentiable\">có đạo hàm</b> tại \\(x_0\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "Recall the geometric meaning.",
+   "explain_vi": "Nhớ lại ý nghĩa hình học, mối liên hệ với tính liên tục.",
+   "images": [],
+   "id": "74d18e51631d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "Cost \\(C(x)=\\dfrac{#}{#}\\,x^#+#x+#\\) (thousand đồng). Find the marginal cost \\(C'(#)\\).",
+   "en": "Cost \\(C(x)=\\dfrac{1}{5}\\,x^2+50x+1000\\) (thousand đồng). Find the marginal cost \\(C'(40)\\).",
+   "vi": "Chi phí \\(C(x)=\\dfrac{1}{5}\\,x^2+50x+1000\\) (nghìn đồng) khi sản xuất \\(x\\) sản phẩm. Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"marginal cost\">chi phí biên</b> \\(C'(40)\\).",
+   "options": [],
+   "answer": "66",
+   "explain_en": "\\(C'(x)=\\dfrac{2}{5} x+50\\), \\(C'(40)=66\\).",
+   "explain_vi": "\\(C'(x)=\\dfrac{2}{5} x+50\\), \\(C'(40)=66\\).",
+   "images": [],
+   "id": "7682073902df",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "Find the slope of the tangent to \\(y=x^#+x-#\\) at \\(x=-#\\).",
+   "en": "Find the slope of the tangent to \\(y=x^3+x-4\\) at \\(x=-1\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"slope\">hệ số góc</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tangent line\">tiếp tuyến</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> \\(y=x^3+x-4\\) tại điểm có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"abscissa\">hoành độ</b> \\(x=-1\\).",
+   "options": [],
+   "answer": "4",
+   "explain_en": "\\(f'(x)=3x^2+1\\), \\(f'(-1)=4\\).",
+   "explain_vi": "\\(f'(x)=3x^2+1\\), \\(f'(-1)=4\\).",
+   "images": [],
+   "id": "3df1f05b1336",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "A car moves with \\(s(t)=#t^#+#t\\) (meters, seconds). Its instantaneous velocity at \\(t=#\\) is… (m/s)",
+   "en": "A car moves with \\(s(t)=5t^2+6t\\) (meters, seconds). Its instantaneous velocity at \\(t=4\\) is… (m/s)",
+   "vi": "Một ô tô chuyển động theo <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(s(t)=5t^2+6t\\) (\\(s\\) tính bằng mét, \\(t\\) bằng giây). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"instantaneous velocity\">Vận tốc tức thời</b> tại \\(t=4\\) là… (m/s)",
+   "options": [
+    "\\(46\\)",
+    "\\(26\\)",
+    "\\(40\\)",
+    "\\(104\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(v(t)=s'(t)=10t+6\\); substitute \\(t=4\\): \\(v=46\\) m/s.",
+   "explain_vi": "Đáp án a. \\(v(t)=s'(t)=10t+6\\), thay \\(t=4\\): \\(v=46\\) m/s.",
+   "images": [],
+   "id": "f4d6ebd32e83",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "For \\(f(x)=#x^#+x+#\\), using the definition, \\(f'(#)=\\)…",
+   "en": "For \\(f(x)=3x^2+x+5\\), using the definition, \\(f'(3)=\\)…",
+   "vi": "Cho \\(f(x)=3x^2+x+5\\). Theo định nghĩa, \\(f'(3)=\\)…",
+   "options": [
+    "\\(35\\)",
+    "\\(18\\)",
+    "\\(19\\)",
+    "\\(10\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\dfrac{f(x_0+h)-f(x_0)}{h}=2ax_0+b+ah\\to 2\\cdot3\\cdot3+1\\) as \\(h\\to0\\).",
+   "explain_vi": "Đáp án c. \\(\\dfrac{f(x_0+h)-f(x_0)}{h}=2ax_0+b+ah\\to 2\\cdot3\\cdot3+1\\) khi \\(h\\to0\\).",
+   "images": [],
+   "id": "7db2648ef35e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "For \\(f(x)=-#x^#-#x\\), using the definition, \\(f'(-#)=\\)…",
+   "en": "For \\(f(x)=-2x^2-4x\\), using the definition, \\(f'(-2)=\\)…",
+   "vi": "Cho \\(f(x)=-2x^2-4x\\). Theo định nghĩa, \\(f'(-2)=\\)…",
+   "options": [
+    "\\(-4\\)",
+    "\\(4\\)",
+    "\\(8\\)",
+    "\\(0\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\dfrac{f(x_0+h)-f(x_0)}{h}=2ax_0+b+ah\\to 2\\cdot-2\\cdot-2-4\\) as \\(h\\to0\\).",
+   "explain_vi": "Đáp án b. \\(\\dfrac{f(x_0+h)-f(x_0)}{h}=2ax_0+b+ah\\to 2\\cdot-2\\cdot-2-4\\) khi \\(h\\to0\\).",
+   "images": [],
+   "id": "4743352a3823",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "For \\(f(x)=\\dfrac#x\\), \\(f'(#)=\\)…",
+   "en": "For \\(f(x)=\\dfrac1x\\), \\(f'(4)=\\)…",
+   "vi": "Cho \\(f(x)=\\dfrac1x\\). Khi đó \\(f'(4)=\\)…",
+   "options": [
+    "\\(\\dfrac{1}{16}\\)",
+    "\\(\\dfrac{1}{4}\\)",
+    "\\(-\\dfrac{1}{4}\\)",
+    "\\(-\\dfrac{1}{16}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\dfrac{f(x_0+h)-f(x_0)}{h}=\\dfrac{-1}{x_0(x_0+h)}\\to-\\dfrac1{x_0^2}\\).",
+   "explain_vi": "Đáp án d. \\(\\dfrac{f(x_0+h)-f(x_0)}{h}=\\dfrac{-1}{x_0(x_0+h)}\\to-\\dfrac1{x_0^2}\\).",
+   "images": [],
+   "id": "160794615fb0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The average rate of change of \\(f(x)=x^#\\) on \\([#;#]\\) is…",
+   "en": "The average rate of change of \\(f(x)=x^2\\) on \\([2;3]\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"rate of change\">Tốc độ thay đổi</b> trung bình của \\(f(x)=x^2\\) trên đoạn \\([2;3]\\) là…",
+   "options": [
+    "\\(5\\)",
+    "\\(4\\)",
+    "\\(1\\)",
+    "\\(6\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\dfrac{9-4}{3-(2)}\\) (the slope of the secant).",
+   "explain_vi": "Đáp án a. \\(\\dfrac{9-4}{3-(2)}\\) (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"slope\">hệ số góc</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"secant line\">cát tuyến</b>).",
+   "images": [],
+   "id": "8d1172921334",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The cost of producing \\(x\\) items is \\(C(x)=\\dfrac{#}{#}\\,x^#+#x+#\\) (thousand đồng). The marginal cost \\(C'(#)\\) is…",
+   "en": "The cost of producing \\(x\\) items is \\(C(x)=\\dfrac{1}{10}\\,x^2+30x+500\\) (thousand đồng). The marginal cost \\(C'(20)\\) is…",
+   "vi": "Chi phí sản xuất \\(x\\) sản phẩm là \\(C(x)=\\dfrac{1}{10}\\,x^2+30x+500\\) (nghìn đồng). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"marginal cost\">Chi phí biên</b> \\(C'(20)\\) bằng…",
+   "options": [
+    "\\(1140\\)",
+    "\\(32\\)",
+    "\\(4\\)",
+    "\\(34\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(C'(x)=\\dfrac{1}{5} x+30\\); the marginal cost approximates the cost of making one more product.",
+   "explain_vi": "Đáp án d. \\(C'(x)=\\dfrac{1}{5} x+30\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"marginal cost\">chi phí biên</b> xấp xỉ chi phí làm thêm sản phẩm tiếp theo.",
+   "images": [],
+   "id": "6bb813d5fdac",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The slope of the tangent to \\(y=x^#\\) at the point with abscissa \\(#\\) is…",
+   "en": "The slope of the tangent to \\(y=x^2\\) at the point with abscissa \\(3\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"slope\">Hệ số góc</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tangent line\">tiếp tuyến</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> \\(y=x^2\\) tại điểm có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"abscissa\">hoành độ</b> \\(3\\) là…",
+   "options": [
+    "\\(-6\\)",
+    "\\(9\\)",
+    "\\(6\\)",
+    "\\(7\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The slope equals \\(f'(x_0)\\) with \\((x^2)'=2x\\).",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"slope\">Hệ số góc</b> bằng \\(f'(x_0)\\) với \\((x^2)'=2x\\).",
+   "images": [],
+   "id": "8e1c72c24841",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "The tangent to the parabola \\(y=x^#\\) at the point \\((-#;#)\\) is…",
+   "en": "The tangent to the parabola \\(y=x^2\\) at the point \\((-2;4)\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"tangent line\">Tiếp tuyến</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parabola\">parabol</b> \\(y=x^2\\) tại điểm \\((-2;4)\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> là…",
+   "options": [
+    "\\(y=-2x\\)",
+    "\\(y=-4x-4\\)",
+    "\\(y=4x-4\\)",
+    "\\(y=-4x+4\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(y=-4(x-(-2))+4\\).",
+   "explain_vi": "Đáp án b. \\(y=-4(x-(-2))+4\\).",
+   "images": [],
+   "id": "eab2ba7c98fe",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "An object moves with \\(s(t)=#t^#\\) (m, s). Its instantaneous velocity at \\(t=#\\) is…",
+   "en": "An object moves with \\(s(t)=3t^2\\) (m, s). Its instantaneous velocity at \\(t=4\\) is…",
+   "vi": "Một vật chuyển động theo \\(s(t)=3t^2\\) (m, s). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"instantaneous velocity\">Vận tốc tức thời</b> tại \\(t=4\\) là…",
+   "options": [
+    "\\(48\\) m/s",
+    "\\(12\\) m/s",
+    "\\(27\\) m/s",
+    "\\(24\\) m/s"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(v(t)=s'(t)=6t\\); the average velocity on \\([4;5]\\) is \\(27\\) m/s, which differs from the instantaneous velocity.",
+   "explain_vi": "Đáp án d. \\(v(t)=s'(t)=6t\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"average velocity\">vận tốc trung bình</b> trên \\([4;5]\\) là \\(27\\) m/s, khác <b class=\"mbl-term\" tabindex=\"0\" data-en=\"instantaneous velocity\">vận tốc tức thời</b>.",
+   "images": [],
+   "id": "5e11dd695f65",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "By definition, for \\(f(x)=-x^#+#x\\), \\(f'(#)=\\)…",
+   "en": "By definition, for \\(f(x)=-x^2+4x\\), \\(f'(3)=\\)…",
+   "vi": "Dùng định nghĩa, với \\(f(x)=-x^2+4x\\) thì \\(f'(3)=\\)…",
+   "options": [
+    "\\(3\\)",
+    "\\(-2\\)",
+    "\\(1\\)",
+    "\\(-6\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\dfrac{\\Delta y}{h}=-2-1h\\to-2\\).",
+   "explain_vi": "Đáp án b. \\(\\dfrac{\\Delta y}{h}=-2-1h\\to-2\\).",
+   "images": [],
+   "id": "1180b8706e61",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "The tangent to \\(y=x^#\\) at the point with abscissa \\(#\\) is…",
+   "en": "The tangent to \\(y=x^3\\) at the point with abscissa \\(2\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"tangent line\">Tiếp tuyến</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> \\(y=x^3\\) tại điểm có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"abscissa\">hoành độ</b> \\(2\\) là…",
+   "options": [
+    "\\(y=12x+16\\)",
+    "\\(y=12x+8\\)",
+    "\\(y=12x-16\\)",
+    "\\(y=6x-16\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(f'(2)=12\\), \\(f(2)=8\\): \\(y=12(x-(2))+(8)\\).",
+   "explain_vi": "Đáp án c. \\(f'(2)=12\\), \\(f(2)=8\\): \\(y=12(x-(2))+(8)\\).",
+   "images": [],
+   "id": "67a50ce95163",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "If \\(s(t)\\) is the position, \\(s'(t_#)\\) is the average velocity on \\([#;t_#]\\).",
+   "en": "If \\(s(t)\\) is the position, \\(s'(t_0)\\) is the average velocity on \\([0;t_0]\\).",
+   "vi": "Nếu \\(s(t)\\) là quãng đường thì \\(s'(t_0)\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"average velocity\">vận tốc trung bình</b> trên \\([0;t_0]\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "Average vs instantaneous.",
+   "explain_vi": "Phân biệt tốc độ trung bình và tức thời.",
+   "images": [],
+   "id": "82f7018b5278",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(y=|x-#|\\) has no derivative at \\(x=#\\).",
+   "en": "\\(y=|x-1|\\) has no derivative at \\(x=1\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"function\">Hàm số</b> \\(y=|x-1|\\) không <b class=\"mbl-term\" tabindex=\"0\" data-en=\"differentiable\">có đạo hàm</b> tại \\(x=1\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "Recall the geometric meaning.",
+   "explain_vi": "Nhớ lại ý nghĩa hình học, mối liên hệ với tính liên tục.",
+   "images": [],
+   "id": "b49b49089a73",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Cost \\(C(x)=\\dfrac{#}{#}\\,x^#+#x+#\\) (thousand đồng). Find the marginal cost \\(C'(#)\\).",
+   "en": "Cost \\(C(x)=\\dfrac{1}{2}\\,x^2+20x+1000\\) (thousand đồng). Find the marginal cost \\(C'(30)\\).",
+   "vi": "Chi phí \\(C(x)=\\dfrac{1}{2}\\,x^2+20x+1000\\) (nghìn đồng) khi sản xuất \\(x\\) sản phẩm. Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"marginal cost\">chi phí biên</b> \\(C'(30)\\).",
+   "options": [],
+   "answer": "50",
+   "explain_en": "\\(C'(x)=1 x+20\\), \\(C'(30)=50\\).",
+   "explain_vi": "\\(C'(x)=1 x+20\\), \\(C'(30)=50\\).",
+   "images": [],
+   "id": "0a38575ac6b2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Find the slope of the tangent to \\(y=x^#-#x+#\\) at \\(x=-#\\).",
+   "en": "Find the slope of the tangent to \\(y=x^3-5x+2\\) at \\(x=-2\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"slope\">hệ số góc</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tangent line\">tiếp tuyến</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> \\(y=x^3-5x+2\\) tại điểm có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"abscissa\">hoành độ</b> \\(x=-2\\).",
+   "options": [],
+   "answer": "7",
+   "explain_en": "\\(f'(x)=3x^2-5\\), \\(f'(-2)=7\\).",
+   "explain_vi": "\\(f'(x)=3x^2-5\\), \\(f'(-2)=7\\).",
+   "images": [],
+   "id": "e05270ad1d8a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "A car moves with \\(s(t)=#t^#+#t\\) (meters, seconds). Its instantaneous velocity at \\(t=#\\) is… (m/s)",
+   "en": "A car moves with \\(s(t)=3t^2+4t\\) (meters, seconds). Its instantaneous velocity at \\(t=3\\) is… (m/s)",
+   "vi": "Một ô tô chuyển động theo <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(s(t)=3t^2+4t\\) (\\(s\\) tính bằng mét, \\(t\\) bằng giây). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"instantaneous velocity\">Vận tốc tức thời</b> tại \\(t=3\\) là… (m/s)",
+   "options": [
+    "\\(18\\)",
+    "\\(13\\)",
+    "\\(22\\)",
+    "\\(39\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(v(t)=s'(t)=6t+4\\); substitute \\(t=3\\): \\(v=22\\) m/s.",
+   "explain_vi": "Đáp án c. \\(v(t)=s'(t)=6t+4\\), thay \\(t=3\\): \\(v=22\\) m/s.",
+   "images": [],
+   "id": "671785542505",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "For \\(f(x)=#x^#-#\\), using the definition, \\(f'(#)=\\)…",
+   "en": "For \\(f(x)=3x^2-4\\), using the definition, \\(f'(2)=\\)…",
+   "vi": "Cho \\(f(x)=3x^2-4\\). Theo định nghĩa, \\(f'(2)=\\)…",
+   "options": [
+    "\\(8\\)",
+    "\\(6\\)",
+    "\\(12\\)",
+    "\\(-12\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\dfrac{f(x_0+h)-f(x_0)}{h}=2ax_0+b+ah\\to 2\\cdot3\\cdot2+0\\) as \\(h\\to0\\).",
+   "explain_vi": "Đáp án c. \\(\\dfrac{f(x_0+h)-f(x_0)}{h}=2ax_0+b+ah\\to 2\\cdot3\\cdot2+0\\) khi \\(h\\to0\\).",
+   "images": [],
+   "id": "3b82c411b396",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "For \\(f(x)=-#x^#-#x-#\\), using the definition, \\(f'(-#)=\\)…",
+   "en": "For \\(f(x)=-3x^2-2x-2\\), using the definition, \\(f'(-3)=\\)…",
+   "vi": "Cho \\(f(x)=-3x^2-2x-2\\). Theo định nghĩa, \\(f'(-3)=\\)…",
+   "options": [
+    "\\(16\\)",
+    "\\(7\\)",
+    "\\(18\\)",
+    "\\(-23\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\dfrac{f(x_0+h)-f(x_0)}{h}=2ax_0+b+ah\\to 2\\cdot-3\\cdot-3-2\\) as \\(h\\to0\\).",
+   "explain_vi": "Đáp án a. \\(\\dfrac{f(x_0+h)-f(x_0)}{h}=2ax_0+b+ah\\to 2\\cdot-3\\cdot-3-2\\) khi \\(h\\to0\\).",
+   "images": [],
+   "id": "3380b623f43e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "For \\(f(x)=\\dfrac#x\\), \\(f'(-#)=\\)…",
+   "en": "For \\(f(x)=\\dfrac1x\\), \\(f'(-3)=\\)…",
+   "vi": "Cho \\(f(x)=\\dfrac1x\\). Khi đó \\(f'(-3)=\\)…",
+   "options": [
+    "\\(\\dfrac{1}{9}\\)",
+    "\\(-\\dfrac{1}{9}\\)",
+    "\\(\\dfrac{1}{3}\\)",
+    "\\(-\\dfrac{1}{3}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\dfrac{f(x_0+h)-f(x_0)}{h}=\\dfrac{-1}{x_0(x_0+h)}\\to-\\dfrac1{x_0^2}\\).",
+   "explain_vi": "Đáp án b. \\(\\dfrac{f(x_0+h)-f(x_0)}{h}=\\dfrac{-1}{x_0(x_0+h)}\\to-\\dfrac1{x_0^2}\\).",
+   "images": [],
+   "id": "42e844671c08",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The average rate of change of \\(f(x)=x^#\\) on \\([#;#]\\) is…",
+   "en": "The average rate of change of \\(f(x)=x^2\\) on \\([1;4]\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"rate of change\">Tốc độ thay đổi</b> trung bình của \\(f(x)=x^2\\) trên đoạn \\([1;4]\\) là…",
+   "options": [
+    "\\(15\\)",
+    "\\(2\\)",
+    "\\(8\\)",
+    "\\(5\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\dfrac{16-1}{4-(1)}\\) (the slope of the secant).",
+   "explain_vi": "Đáp án d. \\(\\dfrac{16-1}{4-(1)}\\) (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"slope\">hệ số góc</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"secant line\">cát tuyến</b>).",
+   "images": [],
+   "id": "9dcd3f5fc19c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The cost of producing \\(x\\) items is \\(C(x)=\\dfrac{#}{#}\\,x^#+#x+#\\) (thousand đồng). The marginal cost \\(C'(#)\\) is…",
+   "en": "The cost of producing \\(x\\) items is \\(C(x)=\\dfrac{1}{2}\\,x^2+20x+500\\) (thousand đồng). The marginal cost \\(C'(20)\\) is…",
+   "vi": "Chi phí sản xuất \\(x\\) sản phẩm là \\(C(x)=\\dfrac{1}{2}\\,x^2+20x+500\\) (nghìn đồng). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"marginal cost\">Chi phí biên</b> \\(C'(20)\\) bằng…",
+   "options": [
+    "\\(1100\\)",
+    "\\(40\\)",
+    "\\(20\\)",
+    "\\(30\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(C'(x)=1 x+20\\); the marginal cost approximates the cost of making one more product.",
+   "explain_vi": "Đáp án b. \\(C'(x)=1 x+20\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"marginal cost\">chi phí biên</b> xấp xỉ chi phí làm thêm sản phẩm tiếp theo.",
+   "images": [],
+   "id": "4d195c906f9c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The slope of the tangent to \\(y=x^#\\) at the point with abscissa \\(#\\) is…",
+   "en": "The slope of the tangent to \\(y=x^2\\) at the point with abscissa \\(1\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"slope\">Hệ số góc</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tangent line\">tiếp tuyến</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"graph\">đồ thị</b> \\(y=x^2\\) tại điểm có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"abscissa\">hoành độ</b> \\(1\\) là…",
+   "options": [
+    "\\(3\\)",
+    "\\(1\\)",
+    "\\(-2\\)",
+    "\\(2\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. The slope equals \\(f'(x_0)\\) with \\((x^2)'=2x\\).",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"slope\">Hệ số góc</b> bằng \\(f'(x_0)\\) với \\((x^2)'=2x\\).",
+   "images": [],
+   "id": "145e208769f0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "The tangent to the parabola \\(y=x^#\\) at the point \\((-#;#)\\) is…",
+   "en": "The tangent to the parabola \\(y=x^2\\) at the point \\((-3;9)\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"tangent line\">Tiếp tuyến</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parabola\">parabol</b> \\(y=x^2\\) tại điểm \\((-3;9)\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> là…",
+   "options": [
+    "\\(y=-3x\\)",
+    "\\(y=-6x-9\\)",
+    "\\(y=-6x+9\\)",
+    "\\(y=6x-9\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(y=-6(x-(-3))+9\\).",
+   "explain_vi": "Đáp án b. \\(y=-6(x-(-3))+9\\).",
+   "images": [],
+   "id": "42095bbc9153",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D",
+   "type": "mcq",
+   "form": "A car moves with \\(s(t)=#t^#+#t\\) (metres, seconds). Its instantaneous velocity at \\(t=#\\) is… (m/s)",
+   "en": "A car moves with \\(s(t)=5t^2+9t\\) (metres, seconds). Its instantaneous velocity at \\(t=3\\) is… (m/s)",
+   "vi": "Một ô tô chuyển động theo <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(s(t)=5t^2+9t\\) (\\(s\\) tính bằng mét, \\(t\\) bằng giây). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"instantaneous velocity\">Vận tốc tức thời</b> tại \\(t=3\\) là… (m/s)",
+   "options": [
+    "\\(39\\)",
+    "\\(24\\)",
+    "\\(30\\)",
+    "\\(72\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(v(t)=s'(t)\\).",
+   "explain_vi": "Đáp án a. \\(v(t)=s'(t)=10t+9\\), thay \\(t=3\\).",
+   "images": [],
+   "id": "e1964a1c8a5e",
+   "status": "đã thay ra",
+   "sources": [
+    "bản trước sửa lỗi trình bày 23/11/2026"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D",
+   "type": "mcq",
+   "form": "A car moves with \\(s(t)=#t^#+#t\\) (metres, seconds). Its instantaneous velocity at \\(t=#\\) is… (m/s)",
+   "en": "A car moves with \\(s(t)=5t^2+6t\\) (metres, seconds). Its instantaneous velocity at \\(t=4\\) is… (m/s)",
+   "vi": "Một ô tô chuyển động theo <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(s(t)=5t^2+6t\\) (\\(s\\) tính bằng mét, \\(t\\) bằng giây). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"instantaneous velocity\">Vận tốc tức thời</b> tại \\(t=4\\) là… (m/s)",
+   "options": [
+    "\\(46\\)",
+    "\\(26\\)",
+    "\\(40\\)",
+    "\\(104\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(v(t)=s'(t)\\).",
+   "explain_vi": "Đáp án a. \\(v(t)=s'(t)=10t+6\\), thay \\(t=4\\).",
+   "images": [],
+   "id": "38c08bf004a6",
+   "status": "đã thay ra",
+   "sources": [
+    "bản trước sửa lỗi trình bày 23/11/2026"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D",
+   "type": "mcq",
+   "form": "A car moves with \\(s(t)=#t^#+#t\\) (metres, seconds). Its instantaneous velocity at \\(t=#\\) is… (m/s)",
+   "en": "A car moves with \\(s(t)=3t^2+4t\\) (metres, seconds). Its instantaneous velocity at \\(t=3\\) is… (m/s)",
+   "vi": "Một ô tô chuyển động theo <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equation\">phương trình</b> \\(s(t)=3t^2+4t\\) (\\(s\\) tính bằng mét, \\(t\\) bằng giây). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"instantaneous velocity\">Vận tốc tức thời</b> tại \\(t=3\\) là… (m/s)",
+   "options": [
+    "\\(18\\)",
+    "\\(13\\)",
+    "\\(22\\)",
+    "\\(39\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(v(t)=s'(t)\\).",
+   "explain_vi": "Đáp án c. \\(v(t)=s'(t)=6t+4\\), thay \\(t=3\\).",
+   "images": [],
+   "id": "cd4bfa6e1b6a",
+   "status": "đã thay ra",
+   "sources": [
+    "bản trước sửa lỗi trình bày 23/11/2026"
+   ]
+  }
+ ]
+}
