@@ -1,0 +1,38 @@
+\documentclass[border=4pt]{standalone}
+\usepackage{fontspec}
+\usepackage{amsmath}
+\usepackage{unicode-math}
+\setmainfont{Latin Modern Roman}
+\setmathfont{Latin Modern Math}
+\usepackage{pgfplots}
+\usepackage{pgfplotstable}
+\pgfplotsset{compat=1.18}
+\usepackage{tkz-euclide}
+\usetikzlibrary{arrows.meta,calc,angles,quotes,patterns,3d,backgrounds}
+\definecolor{ink}{HTML}{123428}
+\definecolor{asy}{HTML}{475569}
+\definecolor{mint}{HTML}{86e0bd}
+\tikzset{asym/.style={asy, line width=0.9pt, dash pattern=on 5pt off 3.5pt},
+         guide/.style={gray!70, line width=0.6pt, densely dotted},
+         dot/.style={circle, inner sep=0pt, minimum size=5pt, draw=white, line width=0.5pt},
+         odot/.style={circle, inner sep=0pt, minimum size=5.5pt, fill=white, line width=1pt},
+         lab/.style={font=\footnotesize, inner sep=1.5pt, text=ink}}
+\begin{document}
+\begin{tikzpicture}
+\draw[color={rgb,255:red,4;green,107;blue,77}, line width=1.1pt] (0,0) circle (1.900);
+\draw[ink, line width=0.85pt] (-1.785,0.650) -- (1.785,-0.650);
+\draw[ink, line width=0.85pt] (0.950,1.645) -- (-0.650,-1.785);
+\draw[ink, line width=0.85pt] (-1.785,0.650) -- (0.950,1.645);
+\draw[ink, line width=0.85pt] (-0.650,-1.785) -- (1.785,-0.650);
+\fill[color={rgb,255:red,31;green,41;blue,55}] (-1.785,0.650) circle (2.2pt);
+\fill[color={rgb,255:red,31;green,41;blue,55}] (1.785,-0.650) circle (2.2pt);
+\fill[color={rgb,255:red,31;green,41;blue,55}] (0.950,1.645) circle (2.2pt);
+\fill[color={rgb,255:red,31;green,41;blue,55}] (-0.650,-1.785) circle (2.2pt);
+\fill[color={rgb,255:red,31;green,41;blue,55}] (0.156,-0.057) circle (2.2pt);
+\node[font=\small, text=ink, inner sep=0.5pt] at (-2.105,0.766) {$A$};
+\node[font=\small, text=ink, inner sep=0.5pt] at (2.105,-0.766) {$B$};
+\node[font=\small, text=ink, inner sep=0.5pt] at (1.120,1.940) {$C$};
+\node[font=\small, text=ink, inner sep=0.5pt] at (-0.766,-2.105) {$D$};
+\node[font=\small, text=ink, inner sep=0.5pt] at (0.259,-0.339) {$M$};
+\end{tikzpicture}
+\end{document}

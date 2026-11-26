@@ -1,0 +1,1266 @@
+{
+ "lesson": "g9-inscribed-02",
+ "grade": 9,
+ "no": 28,
+ "title": "Đường tròn ngoại tiếp và đường tròn nội tiếp của một tam giác",
+ "path": "lessons/grade9/circumcircle-incircle/circumcircle-incircle-triangle.html",
+ "items": [
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "An equilateral triangle has side # cm. Find the radius of its circumcircle.",
+   "en": "An equilateral triangle has side 18 cm. Find the radius of its circumcircle.",
+   "vi": "Tam giác đều có cạnh 18 cm. Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circumradius\">bán kính đường tròn ngoại tiếp</b> của tam giác.",
+   "options": [
+    "\\(3\\sqrt3\\text{ cm}\\)",
+    "\\(6\\sqrt2\\text{ cm}\\)",
+    "\\(9\\sqrt3\\text{ cm}\\)",
+    "\\(6\\sqrt3\\text{ cm}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(R=\\dfrac{a\\sqrt3}{3}\\), \\(r=\\dfrac{a\\sqrt3}{6}\\) with \\(a=18\\): \\(R=6\\sqrt3\\text{ cm}\\).",
+   "explain_vi": "Đáp án d. \\(R=\\dfrac{a\\sqrt3}{3}\\), \\(r=\\dfrac{a\\sqrt3}{6}\\) với \\(a=18\\): \\(R=6\\sqrt3\\text{ cm}\\).",
+   "images": [],
+   "id": "db635b587463",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "The center of the incircle of triangle \\(ABC\\) is the point where … meet.",
+   "en": "The center of the incircle of triangle \\(ABC\\) is the point where … meet.",
+   "vi": "Tâm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> nội tiếp tam giác \\(ABC\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersection point\">giao điểm</b> của …",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">the three angle bisectors</span><span class=\"vi\">ba đường phân giác trong</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the three altitudes</span><span class=\"vi\">ba đường cao</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the three perpendicular bisectors of the sides</span><span class=\"vi\">ba đường trung trực của ba cạnh</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the three medians</span><span class=\"vi\">ba đường trung tuyến</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. The incenter is equidistant from the three sides, so it lies on the three angle bisectors.",
+   "explain_vi": "Đáp án a. Tâm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> nội tiếp cách đều ba cạnh nên nằm trên ba đường phân giác trong.",
+   "images": [],
+   "id": "31003addeb7c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Triangle \\(ABC\\) is right-angled at \\(A\\), \\(AB=#\\) cm, \\(AC=#\\) cm. Find the radius of its circumcircle.",
+   "en": "Triangle \\(ABC\\) is right-angled at \\(A\\), \\(AB=9\\) cm, \\(AC=12\\) cm. Find the radius of its circumcircle.",
+   "vi": "Tam giác \\(ABC\\) vuông tại \\(A\\) có \\(AB=9\\) cm, \\(AC=12\\) cm. Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circumradius\">bán kính đường tròn ngoại tiếp</b> tam giác đó.",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(10.5\\text{ cm}\\)</span><span class=\"vi\">\\(10{,}5\\text{ cm}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(7.2\\text{ cm}\\)</span><span class=\"vi\">\\(7{,}2\\text{ cm}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(7.5\\text{ cm}\\)</span><span class=\"vi\">\\(7{,}5\\text{ cm}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(15\\text{ cm}\\)</span><span class=\"vi\">\\(15\\text{ cm}\\)</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(BC=\\sqrt{9^2+12^2}=15\\); the center is the midpoint of the hypotenuse, \\(R=\\dfrac{BC}{2}=7.5\\) cm.",
+   "explain_vi": "Đáp án c. \\(BC=\\sqrt{9^2+12^2}=15\\); tâm là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"hypotenuse\">cạnh huyền</b>, \\(R=\\dfrac{BC}{2}=7{,}5\\) cm.",
+   "images": [],
+   "id": "2ed5aa0dfbbf",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "A right triangle has legs # cm and # cm. The radius of its circumcircle is \\(#\\) cm.",
+   "en": "A right triangle has legs 5 cm and 12 cm. The radius of its circumcircle is \\(6.5\\) cm.",
+   "vi": "Một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"right triangle\">tam giác vuông</b> có hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"leg (of a right triangle)\">cạnh góc vuông</b> 5 cm và 12 cm. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circumradius\">Bán kính đường tròn ngoại tiếp</b> tam giác đó là \\(6{,}5\\) cm.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. Hypotenuse \\(13\\) cm; \\(R=6.5\\) cm.",
+   "explain_vi": "Đúng. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"hypotenuse\">Cạnh huyền</b> \\(13\\) cm; \\(R=6{,}5\\) cm.",
+   "images": [],
+   "id": "b359775eaf08",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "In an equilateral triangle \\(HIK\\), the circumradius is # times the inradius.",
+   "en": "In an equilateral triangle \\(HIK\\), the circumradius is 3 times the inradius.",
+   "vi": "Trong tam giác đều \\(HIK\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circumradius\">bán kính đường tròn ngoại tiếp</b> gấp 3 lần <b class=\"mbl-term\" tabindex=\"0\" data-en=\"inradius\">bán kính đường tròn nội tiếp</b>.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. \\(R=\\dfrac{a\\sqrt3}{3}=2\\cdot\\dfrac{a\\sqrt3}{6}=2r\\).",
+   "explain_vi": "Sai. \\(R=\\dfrac{a\\sqrt3}{3}=2\\cdot\\dfrac{a\\sqrt3}{6}=2r\\).",
+   "images": [],
+   "id": "6fd21529809f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "An equilateral triangle has circumradius # cm. Find its inradius (cm).",
+   "en": "An equilateral triangle has circumradius 14 cm. Find its inradius (cm).",
+   "vi": "Một tam giác đều có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circumradius\">bán kính đường tròn ngoại tiếp</b> 14 cm. Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"inradius\">bán kính đường tròn nội tiếp</b> (cm).",
+   "options": [],
+   "answer": "7",
+   "explain_en": "Answer: 7. \\(r=\\dfrac{R}{2}=7\\).",
+   "explain_vi": "Đáp số: 7. \\(r=\\dfrac{R}{2}=7\\).",
+   "images": [],
+   "id": "af0406d7df85",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "Triangle \\(MNP\\) is right-angled at \\(M\\) with \\(MN=#\\) cm and \\(MP=#\\) cm. Find the radius (cm) of its circumcircle.",
+   "en": "Triangle \\(MNP\\) is right-angled at \\(M\\) with \\(MN=3\\) cm and \\(MP=4\\) cm. Find the radius (cm) of its circumcircle.",
+   "vi": "Tam giác \\(MNP\\) vuông tại \\(M\\) có \\(MN=3\\) cm, \\(MP=4\\) cm. Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> (cm) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> ngoại tiếp tam giác.",
+   "options": [],
+   "answer": "2.5",
+   "explain_en": "Answer: 2.5. \\(NP=5\\), \\(R=\\dfrac{NP}{2}=2.5\\).",
+   "explain_vi": "Đáp số: 2,5. \\(NP=5\\), \\(R=\\dfrac{NP}{2}=2{,}5\\).",
+   "images": [],
+   "id": "109bd7126712",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D1",
+   "type": "mcq",
+   "form": "For an equilateral triangle with side \\(a\\), the height \\(h\\) is…",
+   "en": "For an equilateral triangle with side \\(a\\), the height \\(h\\) is…",
+   "vi": "Với tam giác đều cạnh \\(a\\), đường cao \\(h\\) là…",
+   "options": [
+    "\\(h=\\dfrac{a\\sqrt2}{2}\\)",
+    "\\(h=\\dfrac{a\\sqrt3}{3}\\)",
+    "\\(h=\\dfrac{a\\sqrt3}{2}\\)",
+    "\\(h=a\\sqrt3\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(h=\\dfrac{a\\sqrt3}{2}\\), \\(R=\\dfrac23h=\\dfrac{a\\sqrt3}{3}\\), \\(r=\\dfrac13h=\\dfrac{a\\sqrt3}{6}\\).",
+   "explain_vi": "Đáp án c. \\(h=\\dfrac{a\\sqrt3}{2}\\), \\(R=\\dfrac23h=\\dfrac{a\\sqrt3}{3}\\), \\(r=\\dfrac13h=\\dfrac{a\\sqrt3}{6}\\).",
+   "images": [],
+   "id": "d3e44e49041d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Triangle \\(ABC\\) is inscribed in a circle (the circle is its circumcircle) when…",
+   "en": "Triangle \\(ABC\\) is inscribed in a circle (the circle is its circumcircle) when…",
+   "vi": "Tam giác \\(ABC\\) nội tiếp <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> ngoại tiếp tam giác) khi…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">its center is a vertex</span><span class=\"vi\">tâm là một đỉnh của tam giác</span></span>",
+    "<span class=\"txi\"><span class=\"en\">its three vertices lie on the circle</span><span class=\"vi\">ba đỉnh của tam giác nằm trên đường tròn</span></span>",
+    "<span class=\"txi\"><span class=\"en\">its three sides touch the circle</span><span class=\"vi\">ba cạnh của tam giác tiếp xúc với đường tròn</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the circle lies inside the triangle</span><span class=\"vi\">đường tròn nằm trong tam giác</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. The circumcircle passes through the three vertices.",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">Đường tròn</b> ngoại tiếp đi qua ba đỉnh của tam giác.",
+   "images": [],
+   "id": "b86d850da93d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Triangle \\(ABC\\) is right-angled at \\(A\\). The center of its circumcircle is…",
+   "en": "Triangle \\(ABC\\) is right-angled at \\(A\\). The center of its circumcircle is…",
+   "vi": "Tam giác \\(ABC\\) vuông tại \\(A\\). Tâm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> ngoại tiếp tam giác là…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">a point outside the triangle</span><span class=\"vi\">một điểm nằm ngoài tam giác</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the midpoint of \\(AB\\)</span><span class=\"vi\">trung điểm của \\(AB\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the midpoint of \\(BC\\)</span><span class=\"vi\">trung điểm của \\(BC\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the vertex \\(A\\)</span><span class=\"vi\">đỉnh \\(A\\)</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The right angle subtends a semicircle, so \\(BC\\) is a diameter.",
+   "explain_vi": "Đáp án c. Góc vuông chắn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"semicircle\">nửa đường tròn</b> nên \\(BC\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diameter\">đường kính</b>.",
+   "images": [],
+   "id": "49961d2ecc69",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D2",
+   "type": "mcq",
+   "form": "A right triangle has legs # cm and # cm. Find the length (circumference) of its circumcircle.",
+   "en": "A right triangle has legs 3 cm and 4 cm. Find the length (circumference) of its circumcircle.",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"right triangle\">Tam giác vuông</b> có hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"leg (of a right triangle)\">cạnh góc vuông</b> 3 cm và 4 cm. Tính độ dài <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> ngoại tiếp tam giác.",
+   "options": [
+    "\\(10\\pi\\text{ cm}\\)",
+    "\\(\\dfrac{5\\pi}{2}\\text{ cm}\\)",
+    "\\(5\\pi\\text{ cm}\\)",
+    "\\(7\\pi\\text{ cm}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(C=2\\pi R=\\pi\\cdot5=5\\pi\\text{ cm}\\).",
+   "explain_vi": "Đáp án c. \\(C=2\\pi R=\\pi\\cdot5=5\\pi\\text{ cm}\\).",
+   "images": [],
+   "id": "1d68836f9764",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D2",
+   "type": "mcq",
+   "form": "An equilateral triangle has height # cm. Find the radius of its incircle.",
+   "en": "An equilateral triangle has height 6 cm. Find the radius of its incircle.",
+   "vi": "Tam giác đều có đường cao 6 cm. Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"inradius\">bán kính đường tròn nội tiếp</b> của tam giác.",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(4\\text{ cm}\\)</span><span class=\"vi\">\\(4\\text{ cm}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(3\\text{ cm}\\)</span><span class=\"vi\">\\(3\\text{ cm}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(6\\text{ cm}\\)</span><span class=\"vi\">\\(6\\text{ cm}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(2\\text{ cm}\\)</span><span class=\"vi\">\\(2\\text{ cm}\\)</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. The center divides the height in the ratio \\(2:1\\): \\(R=\\dfrac23h=4\\), \\(r=\\dfrac13h=2\\).",
+   "explain_vi": "Đáp án d. Tâm chia đường cao theo <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ratio\">tỉ số</b> \\(2:1\\): \\(R=\\dfrac23h=4\\), \\(r=\\dfrac13h=2\\).",
+   "images": [],
+   "id": "88489723ad5f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Triangle \\(ABC\\) has angles \\(#^\\circ\\), \\(#^\\circ\\), \\(#^\\circ\\). The center of its circumcircle is…",
+   "en": "Triangle \\(ABC\\) has angles \\(114^\\circ\\), \\(42^\\circ\\), \\(24^\\circ\\). The center of its circumcircle is…",
+   "vi": "Tam giác \\(ABC\\) có ba góc \\(114^\\circ\\), \\(42^\\circ\\), \\(24^\\circ\\). Tâm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> ngoại tiếp tam giác…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">outside the triangle</span><span class=\"vi\">nằm bên ngoài tam giác</span></span>",
+    "<span class=\"txi\"><span class=\"en\">inside the triangle</span><span class=\"vi\">nằm bên trong tam giác</span></span>",
+    "<span class=\"txi\"><span class=\"en\">at a vertex of the triangle</span><span class=\"vi\">trùng với một đỉnh của tam giác</span></span>",
+    "<span class=\"txi\"><span class=\"en\">at the midpoint of the longest side</span><span class=\"vi\">là trung điểm của cạnh lớn nhất</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Acute triangle: inside; right triangle: midpoint of the hypotenuse; obtuse triangle: outside.",
+   "explain_vi": "Đáp án a. Tam giác nhọn: tâm ở trong; <b class=\"mbl-term\" tabindex=\"0\" data-en=\"right triangle\">tam giác vuông</b>: <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"hypotenuse\">cạnh huyền</b>; tam giác tù: tâm ở ngoài.",
+   "images": [],
+   "id": "2ac1f716a475",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D3",
+   "type": "mcq",
+   "form": "An equilateral triangle has inradius \\(r=#\\) cm. Find its side.",
+   "en": "An equilateral triangle has inradius \\(r=4\\) cm. Find its side.",
+   "vi": "Tam giác đều có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"inradius\">bán kính đường tròn nội tiếp</b> \\(r=4\\) cm. Tính độ dài cạnh.",
+   "options": [
+    "\\(12\\text{ cm}\\)",
+    "\\(8\\sqrt3\\text{ cm}\\)",
+    "\\(\\dfrac{4\\sqrt3}{3}\\text{ cm}\\)",
+    "\\(4\\sqrt2\\text{ cm}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(a=2r\\sqrt3=8\\sqrt3\\text{ cm}\\).",
+   "explain_vi": "Đáp án b. \\(a=2r\\sqrt3=8\\sqrt3\\text{ cm}\\).",
+   "images": [],
+   "id": "f64255d82e60",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Triangle \\(ABC\\) is inscribed in \\((O)\\) and \\(\\widehat{BAC}=#^\\circ\\). Find \\(\\widehat{BOC}\\).",
+   "en": "Triangle \\(ABC\\) is inscribed in \\((O)\\) and \\(\\widehat{BAC}=62^\\circ\\). Find \\(\\widehat{BOC}\\).",
+   "vi": "Tam giác \\(ABC\\) nội tiếp <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> \\((O)\\) và \\(\\widehat{BAC}=62^\\circ\\). Tính \\(\\widehat{BOC}\\).",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(118^\\circ\\)</span><span class=\"vi\">\\(118^\\circ\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(121^\\circ\\)</span><span class=\"vi\">\\(121^\\circ\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(62^\\circ\\)</span><span class=\"vi\">\\(62^\\circ\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(124^\\circ\\)</span><span class=\"vi\">\\(124^\\circ\\)</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\widehat{BOC}\\) is the central angle intercepting the same arc \\(BC\\) as the inscribed angle \\(\\widehat{BAC}\\): \\(2\\cdot62^\\circ=124^\\circ\\).",
+   "explain_vi": "Đáp án d. \\(\\widehat{BOC}\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"central angle\">góc ở tâm</b> chắn cùng cung \\(BC\\) với <b class=\"mbl-term\" tabindex=\"0\" data-en=\"inscribed angle\">góc nội tiếp</b> \\(\\widehat{BAC}\\): \\(2\\cdot62^\\circ=124^\\circ\\).",
+   "images": [],
+   "id": "9537b8309a2b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Triangle \\(ABC\\) is right-angled and isosceles at \\(A\\) with \\(AB=AC=#\\) cm. Find the radius of its circumcircle.",
+   "en": "Triangle \\(ABC\\) is right-angled and isosceles at \\(A\\) with \\(AB=AC=12\\) cm. Find the radius of its circumcircle.<img src=\"../../../img/tex/999517e03c71e8b9.svg\" alt=\"Figure\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,280px);height:auto\">",
+   "vi": "Tam giác \\(ABC\\) vuông cân tại \\(A\\) có \\(AB=AC=12\\) cm. Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circumradius\">bán kính đường tròn ngoại tiếp</b> tam giác.<img src=\"../../../img/tex/999517e03c71e8b9.svg\" alt=\"Hình vẽ\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,280px);height:auto\">",
+   "options": [
+    "\\(6\\sqrt2\\text{ cm}\\)",
+    "\\(6\\sqrt3\\text{ cm}\\)",
+    "\\(12\\sqrt2\\text{ cm}\\)",
+    "\\(6\\text{ cm}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(BC=12\\sqrt2\\), \\(R=\\dfrac{BC}{2}=6\\sqrt2\\text{ cm}\\).",
+   "explain_vi": "Đáp án a. \\(BC=12\\sqrt2\\), \\(R=\\dfrac{BC}{2}=6\\sqrt2\\text{ cm}\\).",
+   "images": [
+    "img/tex/999517e03c71e8b9.svg"
+   ],
+   "id": "9835934b2708",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A garden has the shape of a right triangle \\(ABC\\) (right angle at \\(A\\)), \\(AB=#\\) m, \\(AC=#\\) m. A lamp must be equally far from \\(A\\), \\(B\\), \\(C\\). Where is it, and how far from each corner?",
+   "en": "A garden has the shape of a right triangle \\(ABC\\) (right angle at \\(A\\)), \\(AB=7\\) m, \\(AC=24\\) m. A lamp must be equally far from \\(A\\), \\(B\\), \\(C\\). Where is it, and how far from each corner?",
+   "vi": "Một khu vườn có dạng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"right triangle\">tam giác vuông</b> \\(ABC\\) (vuông tại \\(A\\)), \\(AB=7\\) m, \\(AC=24\\) m. Cần đặt một đèn chiếu cách đều ba góc vườn \\(A\\), \\(B\\), \\(C\\). Đặt đèn ở đâu và cách mỗi góc bao xa?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">at the midpoint of \\(BC\\), \\(25\\) m</span><span class=\"vi\">tại trung điểm \\(BC\\), cách \\(25\\) m</span></span>",
+    "<span class=\"txi\"><span class=\"en\">at the vertex \\(A\\), \\(12.5\\) m</span><span class=\"vi\">tại góc \\(A\\), cách \\(12{,}5\\) m</span></span>",
+    "<span class=\"txi\"><span class=\"en\">at the incenter, \\(3\\) m</span><span class=\"vi\">tại tâm đường tròn nội tiếp, cách \\(3\\) m</span></span>",
+    "<span class=\"txi\"><span class=\"en\">at the midpoint of \\(BC\\), \\(12.5\\) m</span><span class=\"vi\">tại trung điểm \\(BC\\), cách \\(12{,}5\\) m</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Equally far from the three vertices: the circumcenter = midpoint of the hypotenuse \\(BC=25\\); distance \\(R=12.5\\) m.",
+   "explain_vi": "Đáp án d. Cách đều ba đỉnh: tâm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> ngoại tiếp = <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"hypotenuse\">cạnh huyền</b> \\(BC=25\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">khoảng cách</b> \\(R=12{,}5\\) m.",
+   "images": [],
+   "id": "043df7afc92c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A yard has the shape of an equilateral triangle with side # m. What is the area of the largest round flower bed that fits inside the yard?",
+   "en": "A yard has the shape of an equilateral triangle with side 18 m. What is the area of the largest round flower bed that fits inside the yard?",
+   "vi": "Một sân có dạng tam giác đều cạnh 18 m. Tính diện tích bồn hoa hình tròn lớn nhất đặt được trong sân.",
+   "options": [
+    "\\(108\\pi\\text{ m}^2\\)",
+    "\\(54\\pi\\text{ m}^2\\)",
+    "\\(81\\pi\\text{ m}^2\\)",
+    "\\(27\\pi\\text{ m}^2\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. The largest circle is the incircle: \\(r=\\dfrac{18\\sqrt3}{6}=3\\sqrt3\\text{ m}\\); \\(S=\\pi r^2=27\\pi\\text{ m}^2\\).",
+   "explain_vi": "Đáp án d. Hình tròn lớn nhất là hình tròn nội tiếp: \\(r=\\dfrac{18\\sqrt3}{6}=3\\sqrt3\\text{ m}\\); \\(S=\\pi r^2=27\\pi\\text{ m}^2\\).",
+   "images": [],
+   "id": "1c7ec00c93c9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D4",
+   "type": "mcq",
+   "form": "An equilateral triangle is inscribed in a circle of radius # cm. Find its perimeter.",
+   "en": "An equilateral triangle is inscribed in a circle of radius 4 cm. Find its perimeter.",
+   "vi": "Một tam giác đều nội tiếp <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 4 cm. Tính chu vi tam giác.",
+   "options": [
+    "\\(12\\sqrt3\\text{ cm}\\)",
+    "\\(4\\sqrt3\\text{ cm}\\)",
+    "\\(12\\text{ cm}\\)",
+    "\\(24\\text{ cm}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(a=R\\sqrt3=4\\sqrt3\\text{ cm}\\); perimeter \\(3a=12\\sqrt3\\text{ cm}\\).",
+   "explain_vi": "Đáp án a. \\(a=R\\sqrt3=4\\sqrt3\\text{ cm}\\); chu vi \\(3a=12\\sqrt3\\text{ cm}\\).",
+   "images": [],
+   "id": "8194c85a0c8e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "An equilateral triangle has side # cm. Find the radius of its incircle.",
+   "en": "An equilateral triangle has side 12 cm. Find the radius of its incircle.",
+   "vi": "Tam giác đều có cạnh 12 cm. Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"inradius\">bán kính đường tròn nội tiếp</b> của tam giác.",
+   "options": [
+    "\\(6\\sqrt3\\text{ cm}\\)",
+    "\\(4\\sqrt2\\text{ cm}\\)",
+    "\\(4\\sqrt3\\text{ cm}\\)",
+    "\\(2\\sqrt3\\text{ cm}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(R=\\dfrac{a\\sqrt3}{3}\\), \\(r=\\dfrac{a\\sqrt3}{6}\\) with \\(a=12\\): \\(r=2\\sqrt3\\text{ cm}\\).",
+   "explain_vi": "Đáp án d. \\(R=\\dfrac{a\\sqrt3}{3}\\), \\(r=\\dfrac{a\\sqrt3}{6}\\) với \\(a=12\\): \\(r=2\\sqrt3\\text{ cm}\\).",
+   "images": [],
+   "id": "624bd7846c13",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "The center of the incircle of triangle \\(DEF\\) is the point where … meet.",
+   "en": "The center of the incircle of triangle \\(DEF\\) is the point where … meet.",
+   "vi": "Tâm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> nội tiếp tam giác \\(DEF\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersection point\">giao điểm</b> của …",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">the three medians</span><span class=\"vi\">ba đường trung tuyến</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the three altitudes</span><span class=\"vi\">ba đường cao</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the three angle bisectors</span><span class=\"vi\">ba đường phân giác trong</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the three perpendicular bisectors of the sides</span><span class=\"vi\">ba đường trung trực của ba cạnh</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The incenter is equidistant from the three sides, so it lies on the three angle bisectors.",
+   "explain_vi": "Đáp án c. Tâm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> nội tiếp cách đều ba cạnh nên nằm trên ba đường phân giác trong.",
+   "images": [],
+   "id": "c0c2c5f6df98",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Triangle \\(ABC\\) is right-angled at \\(A\\), \\(AB=#\\) cm, \\(AC=#\\) cm. Find the radius of its circumcircle.",
+   "en": "Triangle \\(ABC\\) is right-angled at \\(A\\), \\(AB=12\\) cm, \\(AC=16\\) cm. Find the radius of its circumcircle.",
+   "vi": "Tam giác \\(ABC\\) vuông tại \\(A\\) có \\(AB=12\\) cm, \\(AC=16\\) cm. Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circumradius\">bán kính đường tròn ngoại tiếp</b> tam giác đó.",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(14\\text{ cm}\\)</span><span class=\"vi\">\\(14\\text{ cm}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(10\\text{ cm}\\)</span><span class=\"vi\">\\(10\\text{ cm}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(20\\text{ cm}\\)</span><span class=\"vi\">\\(20\\text{ cm}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(9.6\\text{ cm}\\)</span><span class=\"vi\">\\(9{,}6\\text{ cm}\\)</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(BC=\\sqrt{12^2+16^2}=20\\); the center is the midpoint of the hypotenuse, \\(R=\\dfrac{BC}{2}=10\\) cm.",
+   "explain_vi": "Đáp án b. \\(BC=\\sqrt{12^2+16^2}=20\\); tâm là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"hypotenuse\">cạnh huyền</b>, \\(R=\\dfrac{BC}{2}=10\\) cm.",
+   "images": [],
+   "id": "47521c7a2404",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "A right triangle has legs # cm and # cm. The radius of its circumcircle is \\(#\\) cm.",
+   "en": "A right triangle has legs 6 cm and 8 cm. The radius of its circumcircle is \\(5\\) cm.",
+   "vi": "Một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"right triangle\">tam giác vuông</b> có hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"leg (of a right triangle)\">cạnh góc vuông</b> 6 cm và 8 cm. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circumradius\">Bán kính đường tròn ngoại tiếp</b> tam giác đó là \\(5\\) cm.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. Hypotenuse \\(10\\) cm; \\(R=5\\) cm.",
+   "explain_vi": "Đúng. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"hypotenuse\">Cạnh huyền</b> \\(10\\) cm; \\(R=5\\) cm.",
+   "images": [],
+   "id": "65cc41004cc7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "The center \\(I\\) of the incircle of triangle \\(ABC\\) is equidistant from its three vertices.",
+   "en": "The center \\(I\\) of the incircle of triangle \\(ABC\\) is equidistant from its three vertices.",
+   "vi": "Tâm \\(I\\) của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> nội tiếp tam giác \\(ABC\\) cách đều ba đỉnh của tam giác.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. \\(I\\) is equidistant from the three sides (the distance is \\(r\\)), not in general from the vertices.",
+   "explain_vi": "Sai. \\(I\\) cách đều ba cạnh (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">khoảng cách</b> bằng \\(r\\)); nói chung không cách đều ba đỉnh.",
+   "images": [],
+   "id": "3c9c7d26b92c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "An equilateral triangle has inradius # cm. Find its circumradius (cm).",
+   "en": "An equilateral triangle has inradius 5 cm. Find its circumradius (cm).",
+   "vi": "Một tam giác đều có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"inradius\">bán kính đường tròn nội tiếp</b> 5 cm. Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circumradius\">bán kính đường tròn ngoại tiếp</b> (cm).",
+   "options": [],
+   "answer": "10",
+   "explain_en": "Answer: 10. \\(R=2r=10\\).",
+   "explain_vi": "Đáp số: 10. \\(R=2r=10\\).",
+   "images": [],
+   "id": "4bbaac0ee6db",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "Triangle \\(MNP\\) is right-angled at \\(M\\) with \\(MN=#\\) cm and \\(MP=#\\) cm. Find the radius (cm) of its circumcircle.",
+   "en": "Triangle \\(MNP\\) is right-angled at \\(M\\) with \\(MN=5\\) cm and \\(MP=12\\) cm. Find the radius (cm) of its circumcircle.",
+   "vi": "Tam giác \\(MNP\\) vuông tại \\(M\\) có \\(MN=5\\) cm, \\(MP=12\\) cm. Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> (cm) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> ngoại tiếp tam giác.",
+   "options": [],
+   "answer": "6.5",
+   "explain_en": "Answer: 6.5. \\(NP=13\\), \\(R=\\dfrac{NP}{2}=6.5\\).",
+   "explain_vi": "Đáp số: 6,5. \\(NP=13\\), \\(R=\\dfrac{NP}{2}=6{,}5\\).",
+   "images": [],
+   "id": "d5a93a43c471",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D1",
+   "type": "mcq",
+   "form": "For an equilateral triangle with side \\(a\\), the inradius \\(r\\) is…",
+   "en": "For an equilateral triangle with side \\(a\\), the inradius \\(r\\) is…",
+   "vi": "Với tam giác đều cạnh \\(a\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"inradius\">bán kính đường tròn nội tiếp</b> \\(r\\) là…",
+   "options": [
+    "\\(r=\\dfrac{a\\sqrt3}{3}\\)",
+    "\\(r=\\dfrac{a\\sqrt3}{6}\\)",
+    "\\(r=\\dfrac{a\\sqrt3}{2}\\)",
+    "\\(r=\\dfrac{a}{2}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(h=\\dfrac{a\\sqrt3}{2}\\), \\(R=\\dfrac23h=\\dfrac{a\\sqrt3}{3}\\), \\(r=\\dfrac13h=\\dfrac{a\\sqrt3}{6}\\).",
+   "explain_vi": "Đáp án b. \\(h=\\dfrac{a\\sqrt3}{2}\\), \\(R=\\dfrac23h=\\dfrac{a\\sqrt3}{3}\\), \\(r=\\dfrac13h=\\dfrac{a\\sqrt3}{6}\\).",
+   "images": [],
+   "id": "66608fa13c0d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Triangle \\(MNP\\) is inscribed in a circle (the circle is its circumcircle) when…",
+   "en": "Triangle \\(MNP\\) is inscribed in a circle (the circle is its circumcircle) when…",
+   "vi": "Tam giác \\(MNP\\) nội tiếp <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> ngoại tiếp tam giác) khi…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">the circle lies inside the triangle</span><span class=\"vi\">đường tròn nằm trong tam giác</span></span>",
+    "<span class=\"txi\"><span class=\"en\">its three vertices lie on the circle</span><span class=\"vi\">ba đỉnh của tam giác nằm trên đường tròn</span></span>",
+    "<span class=\"txi\"><span class=\"en\">its center is a vertex</span><span class=\"vi\">tâm là một đỉnh của tam giác</span></span>",
+    "<span class=\"txi\"><span class=\"en\">its three sides touch the circle</span><span class=\"vi\">ba cạnh của tam giác tiếp xúc với đường tròn</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. The circumcircle passes through the three vertices.",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">Đường tròn</b> ngoại tiếp đi qua ba đỉnh của tam giác.",
+   "images": [],
+   "id": "582f25548030",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Triangle \\(MNP\\) is right-angled at \\(M\\). The center of its circumcircle is…",
+   "en": "Triangle \\(MNP\\) is right-angled at \\(M\\). The center of its circumcircle is…",
+   "vi": "Tam giác \\(MNP\\) vuông tại \\(M\\). Tâm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> ngoại tiếp tam giác là…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">the midpoint of \\(MN\\)</span><span class=\"vi\">trung điểm của \\(MN\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the midpoint of \\(NP\\)</span><span class=\"vi\">trung điểm của \\(NP\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the vertex \\(M\\)</span><span class=\"vi\">đỉnh \\(M\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">a point outside the triangle</span><span class=\"vi\">một điểm nằm ngoài tam giác</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. The right angle subtends a semicircle, so \\(NP\\) is a diameter.",
+   "explain_vi": "Đáp án b. Góc vuông chắn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"semicircle\">nửa đường tròn</b> nên \\(NP\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diameter\">đường kính</b>.",
+   "images": [],
+   "id": "a46df63e756b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D2",
+   "type": "mcq",
+   "form": "A right triangle has legs # cm and # cm. Find the area of the disk bounded by its circumcircle.",
+   "en": "A right triangle has legs 12 cm and 16 cm. Find the area of the disk bounded by its circumcircle.",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"right triangle\">Tam giác vuông</b> có hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"leg (of a right triangle)\">cạnh góc vuông</b> 12 cm và 16 cm. Tính diện tích hình tròn ngoại tiếp tam giác.",
+   "options": [
+    "\\(96\\pi\\text{ cm}^2\\)",
+    "\\(100\\pi\\text{ cm}^2\\)",
+    "\\(10\\pi\\text{ cm}^2\\)",
+    "\\(400\\pi\\text{ cm}^2\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(R=\\dfrac{20}{2}\\); \\(S=\\pi R^2=100\\pi\\text{ cm}^2\\).",
+   "explain_vi": "Đáp án b. \\(R=\\dfrac{20}{2}\\); \\(S=\\pi R^2=100\\pi\\text{ cm}^2\\).",
+   "images": [],
+   "id": "b06233be321f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D2",
+   "type": "mcq",
+   "form": "An equilateral triangle has height # cm. Find the radius of its incircle.",
+   "en": "An equilateral triangle has height 9 cm. Find the radius of its incircle.",
+   "vi": "Tam giác đều có đường cao 9 cm. Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"inradius\">bán kính đường tròn nội tiếp</b> của tam giác.",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(3\\text{ cm}\\)</span><span class=\"vi\">\\(3\\text{ cm}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(6\\text{ cm}\\)</span><span class=\"vi\">\\(6\\text{ cm}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(9\\text{ cm}\\)</span><span class=\"vi\">\\(9\\text{ cm}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(4.5\\text{ cm}\\)</span><span class=\"vi\">\\(4{,}5\\text{ cm}\\)</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. The center divides the height in the ratio \\(2:1\\): \\(R=\\dfrac23h=6\\), \\(r=\\dfrac13h=3\\).",
+   "explain_vi": "Đáp án a. Tâm chia đường cao theo <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ratio\">tỉ số</b> \\(2:1\\): \\(R=\\dfrac23h=6\\), \\(r=\\dfrac13h=3\\).",
+   "images": [],
+   "id": "2168133970d9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Triangle \\(ABC\\) has angles \\(#^\\circ\\), \\(#^\\circ\\), \\(#^\\circ\\). The center of its circumcircle is…",
+   "en": "Triangle \\(ABC\\) has angles \\(68^\\circ\\), \\(42^\\circ\\), \\(70^\\circ\\). The center of its circumcircle is…",
+   "vi": "Tam giác \\(ABC\\) có ba góc \\(68^\\circ\\), \\(42^\\circ\\), \\(70^\\circ\\). Tâm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> ngoại tiếp tam giác…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">outside the triangle</span><span class=\"vi\">nằm bên ngoài tam giác</span></span>",
+    "<span class=\"txi\"><span class=\"en\">at a vertex of the triangle</span><span class=\"vi\">trùng với một đỉnh của tam giác</span></span>",
+    "<span class=\"txi\"><span class=\"en\">at the midpoint of the longest side</span><span class=\"vi\">là trung điểm của cạnh lớn nhất</span></span>",
+    "<span class=\"txi\"><span class=\"en\">inside the triangle</span><span class=\"vi\">nằm bên trong tam giác</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Acute triangle: inside; right triangle: midpoint of the hypotenuse; obtuse triangle: outside.",
+   "explain_vi": "Đáp án d. Tam giác nhọn: tâm ở trong; <b class=\"mbl-term\" tabindex=\"0\" data-en=\"right triangle\">tam giác vuông</b>: <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"hypotenuse\">cạnh huyền</b>; tam giác tù: tâm ở ngoài.",
+   "images": [],
+   "id": "74fff9d2dedf",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D3",
+   "type": "mcq",
+   "form": "An equilateral triangle has circumradius \\(R=#\\) cm. Find its side.",
+   "en": "An equilateral triangle has circumradius \\(R=4\\) cm. Find its side.",
+   "vi": "Tam giác đều có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circumradius\">bán kính đường tròn ngoại tiếp</b> \\(R=4\\) cm. Tính độ dài cạnh.",
+   "options": [
+    "\\(4\\sqrt2\\text{ cm}\\)",
+    "\\(12\\text{ cm}\\)",
+    "\\(4\\sqrt3\\text{ cm}\\)",
+    "\\(\\dfrac{4\\sqrt3}{3}\\text{ cm}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(a=R\\sqrt3=4\\sqrt3\\text{ cm}\\).",
+   "explain_vi": "Đáp án c. \\(a=R\\sqrt3=4\\sqrt3\\text{ cm}\\).",
+   "images": [],
+   "id": "52dd23ff7310",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Triangle \\(ABC\\) is inscribed in \\((O)\\) and \\(\\widehat{BAC}=#^\\circ\\). Find \\(\\widehat{BOC}\\).",
+   "en": "Triangle \\(ABC\\) is inscribed in \\((O)\\) and \\(\\widehat{BAC}=60^\\circ\\). Find \\(\\widehat{BOC}\\).",
+   "vi": "Tam giác \\(ABC\\) nội tiếp <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> \\((O)\\) và \\(\\widehat{BAC}=60^\\circ\\). Tính \\(\\widehat{BOC}\\).",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(130^\\circ\\)</span><span class=\"vi\">\\(130^\\circ\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(60^\\circ\\)</span><span class=\"vi\">\\(60^\\circ\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(120^\\circ\\)</span><span class=\"vi\">\\(120^\\circ\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(125^\\circ\\)</span><span class=\"vi\">\\(125^\\circ\\)</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\widehat{BOC}\\) is the central angle intercepting the same arc \\(BC\\) as the inscribed angle \\(\\widehat{BAC}\\): \\(2\\cdot60^\\circ=120^\\circ\\).",
+   "explain_vi": "Đáp án c. \\(\\widehat{BOC}\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"central angle\">góc ở tâm</b> chắn cùng cung \\(BC\\) với <b class=\"mbl-term\" tabindex=\"0\" data-en=\"inscribed angle\">góc nội tiếp</b> \\(\\widehat{BAC}\\): \\(2\\cdot60^\\circ=120^\\circ\\).",
+   "images": [],
+   "id": "7bbcb3b94419",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Triangle \\(ABC\\) is right-angled and isosceles at \\(A\\) with \\(AB=AC=#\\) cm. Find the radius of its circumcircle.",
+   "en": "Triangle \\(ABC\\) is right-angled and isosceles at \\(A\\) with \\(AB=AC=3\\) cm. Find the radius of its circumcircle.<img src=\"../../../img/tex/999517e03c71e8b9.svg\" alt=\"Figure\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,280px);height:auto\">",
+   "vi": "Tam giác \\(ABC\\) vuông cân tại \\(A\\) có \\(AB=AC=3\\) cm. Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circumradius\">bán kính đường tròn ngoại tiếp</b> tam giác.<img src=\"../../../img/tex/999517e03c71e8b9.svg\" alt=\"Hình vẽ\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,280px);height:auto\">",
+   "options": [
+    "\\(\\dfrac{3}{2}\\text{ cm}\\)",
+    "\\(\\dfrac{3\\sqrt2}{2}\\text{ cm}\\)",
+    "\\(3\\sqrt2\\text{ cm}\\)",
+    "\\(\\dfrac{3\\sqrt3}{2}\\text{ cm}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(BC=3\\sqrt2\\), \\(R=\\dfrac{BC}{2}=\\dfrac{3\\sqrt2}{2}\\text{ cm}\\).",
+   "explain_vi": "Đáp án b. \\(BC=3\\sqrt2\\), \\(R=\\dfrac{BC}{2}=\\dfrac{3\\sqrt2}{2}\\text{ cm}\\).",
+   "images": [
+    "img/tex/999517e03c71e8b9.svg"
+   ],
+   "id": "41e4cb5f2857",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A garden has the shape of a right triangle \\(ABC\\) (right angle at \\(A\\)), \\(AB=#\\) m, \\(AC=#\\) m. A lamp must be equally far from \\(A\\), \\(B\\), \\(C\\). Where is it, and how far from each corner?",
+   "en": "A garden has the shape of a right triangle \\(ABC\\) (right angle at \\(A\\)), \\(AB=12\\) m, \\(AC=16\\) m. A lamp must be equally far from \\(A\\), \\(B\\), \\(C\\). Where is it, and how far from each corner?",
+   "vi": "Một khu vườn có dạng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"right triangle\">tam giác vuông</b> \\(ABC\\) (vuông tại \\(A\\)), \\(AB=12\\) m, \\(AC=16\\) m. Cần đặt một đèn chiếu cách đều ba góc vườn \\(A\\), \\(B\\), \\(C\\). Đặt đèn ở đâu và cách mỗi góc bao xa?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">at the incenter, \\(4\\) m</span><span class=\"vi\">tại tâm đường tròn nội tiếp, cách \\(4\\) m</span></span>",
+    "<span class=\"txi\"><span class=\"en\">at the midpoint of \\(BC\\), \\(20\\) m</span><span class=\"vi\">tại trung điểm \\(BC\\), cách \\(20\\) m</span></span>",
+    "<span class=\"txi\"><span class=\"en\">at the vertex \\(A\\), \\(10\\) m</span><span class=\"vi\">tại góc \\(A\\), cách \\(10\\) m</span></span>",
+    "<span class=\"txi\"><span class=\"en\">at the midpoint of \\(BC\\), \\(10\\) m</span><span class=\"vi\">tại trung điểm \\(BC\\), cách \\(10\\) m</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Equally far from the three vertices: the circumcenter = midpoint of the hypotenuse \\(BC=20\\); distance \\(R=10\\) m.",
+   "explain_vi": "Đáp án d. Cách đều ba đỉnh: tâm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> ngoại tiếp = <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"hypotenuse\">cạnh huyền</b> \\(BC=20\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">khoảng cách</b> \\(R=10\\) m.",
+   "images": [],
+   "id": "4b3712f858f3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A yard has the shape of an equilateral triangle with side # m. What is the area of the largest round flower bed that fits inside the yard?",
+   "en": "A yard has the shape of an equilateral triangle with side 12 m. What is the area of the largest round flower bed that fits inside the yard?",
+   "vi": "Một sân có dạng tam giác đều cạnh 12 m. Tính diện tích bồn hoa hình tròn lớn nhất đặt được trong sân.",
+   "options": [
+    "\\(36\\pi\\text{ m}^2\\)",
+    "\\(24\\pi\\text{ m}^2\\)",
+    "\\(12\\pi\\text{ m}^2\\)",
+    "\\(48\\pi\\text{ m}^2\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The largest circle is the incircle: \\(r=\\dfrac{12\\sqrt3}{6}=2\\sqrt3\\text{ m}\\); \\(S=\\pi r^2=12\\pi\\text{ m}^2\\).",
+   "explain_vi": "Đáp án c. Hình tròn lớn nhất là hình tròn nội tiếp: \\(r=\\dfrac{12\\sqrt3}{6}=2\\sqrt3\\text{ m}\\); \\(S=\\pi r^2=12\\pi\\text{ m}^2\\).",
+   "images": [],
+   "id": "d6653361d77a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D4",
+   "type": "mcq",
+   "form": "An equilateral triangle is inscribed in a circle of radius # cm. Find its perimeter.",
+   "en": "An equilateral triangle is inscribed in a circle of radius 8 cm. Find its perimeter.",
+   "vi": "Một tam giác đều nội tiếp <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 8 cm. Tính chu vi tam giác.",
+   "options": [
+    "\\(24\\text{ cm}\\)",
+    "\\(24\\sqrt3\\text{ cm}\\)",
+    "\\(8\\sqrt3\\text{ cm}\\)",
+    "\\(48\\text{ cm}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(a=R\\sqrt3=8\\sqrt3\\text{ cm}\\); perimeter \\(3a=24\\sqrt3\\text{ cm}\\).",
+   "explain_vi": "Đáp án b. \\(a=R\\sqrt3=8\\sqrt3\\text{ cm}\\); chu vi \\(3a=24\\sqrt3\\text{ cm}\\).",
+   "images": [],
+   "id": "c33116d1e1e7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "An equilateral triangle has side # cm. Find the radius of its circumcircle.",
+   "en": "An equilateral triangle has side 12 cm. Find the radius of its circumcircle.",
+   "vi": "Tam giác đều có cạnh 12 cm. Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circumradius\">bán kính đường tròn ngoại tiếp</b> của tam giác.",
+   "options": [
+    "\\(6\\sqrt3\\text{ cm}\\)",
+    "\\(2\\sqrt3\\text{ cm}\\)",
+    "\\(4\\sqrt2\\text{ cm}\\)",
+    "\\(4\\sqrt3\\text{ cm}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(R=\\dfrac{a\\sqrt3}{3}\\), \\(r=\\dfrac{a\\sqrt3}{6}\\) with \\(a=12\\): \\(R=4\\sqrt3\\text{ cm}\\).",
+   "explain_vi": "Đáp án d. \\(R=\\dfrac{a\\sqrt3}{3}\\), \\(r=\\dfrac{a\\sqrt3}{6}\\) với \\(a=12\\): \\(R=4\\sqrt3\\text{ cm}\\).",
+   "images": [],
+   "id": "7cde80b52953",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "The center of the circumcircle of triangle \\(ABC\\) is the point where … meet.",
+   "en": "The center of the circumcircle of triangle \\(ABC\\) is the point where … meet.",
+   "vi": "Tâm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> ngoại tiếp tam giác \\(ABC\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersection point\">giao điểm</b> của …",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">the three medians</span><span class=\"vi\">ba đường trung tuyến</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the three perpendicular bisectors of the sides</span><span class=\"vi\">ba đường trung trực của ba cạnh</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the three altitudes</span><span class=\"vi\">ba đường cao</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the three angle bisectors</span><span class=\"vi\">ba đường phân giác</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. The circumcenter is equidistant from the three vertices, so it lies on the three perpendicular bisectors.",
+   "explain_vi": "Đáp án b. Tâm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> ngoại tiếp cách đều ba đỉnh nên nằm trên ba đường trung trực.",
+   "images": [],
+   "id": "c1f03b16e30f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Triangle \\(ABC\\) is right-angled at \\(A\\), \\(AB=#\\) cm, \\(AC=#\\) cm. Find the radius of its circumcircle.",
+   "en": "Triangle \\(ABC\\) is right-angled at \\(A\\), \\(AB=18\\) cm, \\(AC=24\\) cm. Find the radius of its circumcircle.",
+   "vi": "Tam giác \\(ABC\\) vuông tại \\(A\\) có \\(AB=18\\) cm, \\(AC=24\\) cm. Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circumradius\">bán kính đường tròn ngoại tiếp</b> tam giác đó.",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(30\\text{ cm}\\)</span><span class=\"vi\">\\(30\\text{ cm}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(21\\text{ cm}\\)</span><span class=\"vi\">\\(21\\text{ cm}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(14.4\\text{ cm}\\)</span><span class=\"vi\">\\(14{,}4\\text{ cm}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(15\\text{ cm}\\)</span><span class=\"vi\">\\(15\\text{ cm}\\)</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(BC=\\sqrt{18^2+24^2}=30\\); the center is the midpoint of the hypotenuse, \\(R=\\dfrac{BC}{2}=15\\) cm.",
+   "explain_vi": "Đáp án d. \\(BC=\\sqrt{18^2+24^2}=30\\); tâm là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"hypotenuse\">cạnh huyền</b>, \\(R=\\dfrac{BC}{2}=15\\) cm.",
+   "images": [],
+   "id": "510b5e65cb96",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "A right triangle has legs # cm and # cm. The radius of its circumcircle is \\(#\\) cm.",
+   "en": "A right triangle has legs 9 cm and 12 cm. The radius of its circumcircle is \\(7.5\\) cm.",
+   "vi": "Một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"right triangle\">tam giác vuông</b> có hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"leg (of a right triangle)\">cạnh góc vuông</b> 9 cm và 12 cm. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circumradius\">Bán kính đường tròn ngoại tiếp</b> tam giác đó là \\(7{,}5\\) cm.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. Hypotenuse \\(15\\) cm; \\(R=7.5\\) cm.",
+   "explain_vi": "Đúng. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"hypotenuse\">Cạnh huyền</b> \\(15\\) cm; \\(R=7{,}5\\) cm.",
+   "images": [],
+   "id": "2a7d200e415c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "In an equilateral triangle \\(MNP\\), the circumradius is # times the inradius.",
+   "en": "In an equilateral triangle \\(MNP\\), the circumradius is 0.5 times the inradius.",
+   "vi": "Trong tam giác đều \\(MNP\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circumradius\">bán kính đường tròn ngoại tiếp</b> gấp 0,5 lần <b class=\"mbl-term\" tabindex=\"0\" data-en=\"inradius\">bán kính đường tròn nội tiếp</b>.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. \\(R=\\dfrac{a\\sqrt3}{3}=2\\cdot\\dfrac{a\\sqrt3}{6}=2r\\).",
+   "explain_vi": "Sai. \\(R=\\dfrac{a\\sqrt3}{3}=2\\cdot\\dfrac{a\\sqrt3}{6}=2r\\).",
+   "images": [],
+   "id": "e276ebfe6757",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "An equilateral triangle has inradius # cm. Find its circumradius (cm).",
+   "en": "An equilateral triangle has inradius 8 cm. Find its circumradius (cm).",
+   "vi": "Một tam giác đều có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"inradius\">bán kính đường tròn nội tiếp</b> 8 cm. Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circumradius\">bán kính đường tròn ngoại tiếp</b> (cm).",
+   "options": [],
+   "answer": "16",
+   "explain_en": "Answer: 16. \\(R=2r=16\\).",
+   "explain_vi": "Đáp số: 16. \\(R=2r=16\\).",
+   "images": [],
+   "id": "a117a178bc75",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Triangle \\(MNP\\) is right-angled at \\(M\\) with \\(MN=#\\) cm and \\(MP=#\\) cm. Find the radius (cm) of its circumcircle.",
+   "en": "Triangle \\(MNP\\) is right-angled at \\(M\\) with \\(MN=6\\) cm and \\(MP=8\\) cm. Find the radius (cm) of its circumcircle.",
+   "vi": "Tam giác \\(MNP\\) vuông tại \\(M\\) có \\(MN=6\\) cm, \\(MP=8\\) cm. Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> (cm) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> ngoại tiếp tam giác.",
+   "options": [],
+   "answer": "5",
+   "explain_en": "Answer: 5. \\(NP=10\\), \\(R=\\dfrac{NP}{2}=5\\).",
+   "explain_vi": "Đáp số: 5. \\(NP=10\\), \\(R=\\dfrac{NP}{2}=5\\).",
+   "images": [],
+   "id": "05a7fcd7b347",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D1",
+   "type": "mcq",
+   "form": "For an equilateral triangle with side \\(a\\), the circumradius \\(R\\) is…",
+   "en": "For an equilateral triangle with side \\(a\\), the circumradius \\(R\\) is…",
+   "vi": "Với tam giác đều cạnh \\(a\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circumradius\">bán kính đường tròn ngoại tiếp</b> \\(R\\) là…",
+   "options": [
+    "\\(R=\\dfrac{a\\sqrt3}{3}\\)",
+    "\\(R=\\dfrac{a\\sqrt3}{6}\\)",
+    "\\(R=a\\sqrt3\\)",
+    "\\(R=\\dfrac{a\\sqrt3}{2}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(h=\\dfrac{a\\sqrt3}{2}\\), \\(R=\\dfrac23h=\\dfrac{a\\sqrt3}{3}\\), \\(r=\\dfrac13h=\\dfrac{a\\sqrt3}{6}\\).",
+   "explain_vi": "Đáp án a. \\(h=\\dfrac{a\\sqrt3}{2}\\), \\(R=\\dfrac23h=\\dfrac{a\\sqrt3}{3}\\), \\(r=\\dfrac13h=\\dfrac{a\\sqrt3}{6}\\).",
+   "images": [],
+   "id": "aa109b63a8d2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D1",
+   "type": "mcq",
+   "form": "The incircle of triangle \\(MNP\\) is the circle that…",
+   "en": "The incircle of triangle \\(MNP\\) is the circle that…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">Đường tròn</b> nội tiếp tam giác \\(MNP\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b>…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">its center is the midpoint of a side</span><span class=\"vi\">có tâm là trung điểm một cạnh</span></span>",
+    "<span class=\"txi\"><span class=\"en\">it touches all three sides</span><span class=\"vi\">tiếp xúc với cả ba cạnh</span></span>",
+    "<span class=\"txi\"><span class=\"en\">it passes through the three vertices</span><span class=\"vi\">đi qua ba đỉnh</span></span>",
+    "<span class=\"txi\"><span class=\"en\">it passes through the midpoints of the sides</span><span class=\"vi\">đi qua trung điểm ba cạnh</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. The incircle lies inside the triangle and touches all three sides.",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">Đường tròn</b> nội tiếp <b class=\"mbl-term\" tabindex=\"0\" data-en=\"lies in\">nằm trong</b> tam giác và tiếp xúc với ba cạnh.",
+   "images": [],
+   "id": "62d3124f32a7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Triangle \\(DEF\\) is right-angled at \\(D\\). The center of its circumcircle is…",
+   "en": "Triangle \\(DEF\\) is right-angled at \\(D\\). The center of its circumcircle is…",
+   "vi": "Tam giác \\(DEF\\) vuông tại \\(D\\). Tâm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> ngoại tiếp tam giác là…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">the midpoint of \\(DE\\)</span><span class=\"vi\">trung điểm của \\(DE\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the midpoint of \\(EF\\)</span><span class=\"vi\">trung điểm của \\(EF\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the vertex \\(D\\)</span><span class=\"vi\">đỉnh \\(D\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">a point outside the triangle</span><span class=\"vi\">một điểm nằm ngoài tam giác</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. The right angle subtends a semicircle, so \\(EF\\) is a diameter.",
+   "explain_vi": "Đáp án b. Góc vuông chắn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"semicircle\">nửa đường tròn</b> nên \\(EF\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diameter\">đường kính</b>.",
+   "images": [],
+   "id": "3c32c49dfc1d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D2",
+   "type": "mcq",
+   "form": "A right triangle has legs # cm and # cm. Find the length (circumference) of its circumcircle.",
+   "en": "A right triangle has legs 8 cm and 15 cm. Find the length (circumference) of its circumcircle.",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"right triangle\">Tam giác vuông</b> có hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"leg (of a right triangle)\">cạnh góc vuông</b> 8 cm và 15 cm. Tính độ dài <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> ngoại tiếp tam giác.",
+   "options": [
+    "\\(34\\pi\\text{ cm}\\)",
+    "\\(\\dfrac{17\\pi}{2}\\text{ cm}\\)",
+    "\\(23\\pi\\text{ cm}\\)",
+    "\\(17\\pi\\text{ cm}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(C=2\\pi R=\\pi\\cdot17=17\\pi\\text{ cm}\\).",
+   "explain_vi": "Đáp án d. \\(C=2\\pi R=\\pi\\cdot17=17\\pi\\text{ cm}\\).",
+   "images": [],
+   "id": "2d2eef20d4d1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D2",
+   "type": "mcq",
+   "form": "An equilateral triangle has height # cm. Find the radius of its incircle.",
+   "en": "An equilateral triangle has height 27 cm. Find the radius of its incircle.",
+   "vi": "Tam giác đều có đường cao 27 cm. Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"inradius\">bán kính đường tròn nội tiếp</b> của tam giác.",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(27\\text{ cm}\\)</span><span class=\"vi\">\\(27\\text{ cm}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(9\\text{ cm}\\)</span><span class=\"vi\">\\(9\\text{ cm}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(13.5\\text{ cm}\\)</span><span class=\"vi\">\\(13{,}5\\text{ cm}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(18\\text{ cm}\\)</span><span class=\"vi\">\\(18\\text{ cm}\\)</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. The center divides the height in the ratio \\(2:1\\): \\(R=\\dfrac23h=18\\), \\(r=\\dfrac13h=9\\).",
+   "explain_vi": "Đáp án b. Tâm chia đường cao theo <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ratio\">tỉ số</b> \\(2:1\\): \\(R=\\dfrac23h=18\\), \\(r=\\dfrac13h=9\\).",
+   "images": [],
+   "id": "386085338e6c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Triangle \\(ABC\\) has angles \\(#^\\circ\\), \\(#^\\circ\\), \\(#^\\circ\\). The center of its circumcircle is…",
+   "en": "Triangle \\(ABC\\) has angles \\(69^\\circ\\), \\(65^\\circ\\), \\(46^\\circ\\). The center of its circumcircle is…",
+   "vi": "Tam giác \\(ABC\\) có ba góc \\(69^\\circ\\), \\(65^\\circ\\), \\(46^\\circ\\). Tâm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> ngoại tiếp tam giác…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">inside the triangle</span><span class=\"vi\">nằm bên trong tam giác</span></span>",
+    "<span class=\"txi\"><span class=\"en\">at the midpoint of the longest side</span><span class=\"vi\">là trung điểm của cạnh lớn nhất</span></span>",
+    "<span class=\"txi\"><span class=\"en\">outside the triangle</span><span class=\"vi\">nằm bên ngoài tam giác</span></span>",
+    "<span class=\"txi\"><span class=\"en\">at a vertex of the triangle</span><span class=\"vi\">trùng với một đỉnh của tam giác</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Acute triangle: inside; right triangle: midpoint of the hypotenuse; obtuse triangle: outside.",
+   "explain_vi": "Đáp án a. Tam giác nhọn: tâm ở trong; <b class=\"mbl-term\" tabindex=\"0\" data-en=\"right triangle\">tam giác vuông</b>: <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"hypotenuse\">cạnh huyền</b>; tam giác tù: tâm ở ngoài.",
+   "images": [],
+   "id": "dd6e1a8bd997",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D3",
+   "type": "mcq",
+   "form": "An equilateral triangle has circumradius \\(R=#\\) cm. Find its side.",
+   "en": "An equilateral triangle has circumradius \\(R=8\\) cm. Find its side.",
+   "vi": "Tam giác đều có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circumradius\">bán kính đường tròn ngoại tiếp</b> \\(R=8\\) cm. Tính độ dài cạnh.",
+   "options": [
+    "\\(24\\text{ cm}\\)",
+    "\\(8\\sqrt2\\text{ cm}\\)",
+    "\\(\\dfrac{8\\sqrt3}{3}\\text{ cm}\\)",
+    "\\(8\\sqrt3\\text{ cm}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(a=R\\sqrt3=8\\sqrt3\\text{ cm}\\).",
+   "explain_vi": "Đáp án d. \\(a=R\\sqrt3=8\\sqrt3\\text{ cm}\\).",
+   "images": [],
+   "id": "e9338c08c2f5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Triangle \\(ABC\\) is inscribed in \\((O)\\) and \\(\\widehat{BAC}=#^\\circ\\). Find \\(\\widehat{BOC}\\).",
+   "en": "Triangle \\(ABC\\) is inscribed in \\((O)\\) and \\(\\widehat{BAC}=34^\\circ\\). Find \\(\\widehat{BOC}\\).",
+   "vi": "Tam giác \\(ABC\\) nội tiếp <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> \\((O)\\) và \\(\\widehat{BAC}=34^\\circ\\). Tính \\(\\widehat{BOC}\\).",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(34^\\circ\\)</span><span class=\"vi\">\\(34^\\circ\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(146^\\circ\\)</span><span class=\"vi\">\\(146^\\circ\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(107^\\circ\\)</span><span class=\"vi\">\\(107^\\circ\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(68^\\circ\\)</span><span class=\"vi\">\\(68^\\circ\\)</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\widehat{BOC}\\) is the central angle intercepting the same arc \\(BC\\) as the inscribed angle \\(\\widehat{BAC}\\): \\(2\\cdot34^\\circ=68^\\circ\\).",
+   "explain_vi": "Đáp án d. \\(\\widehat{BOC}\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"central angle\">góc ở tâm</b> chắn cùng cung \\(BC\\) với <b class=\"mbl-term\" tabindex=\"0\" data-en=\"inscribed angle\">góc nội tiếp</b> \\(\\widehat{BAC}\\): \\(2\\cdot34^\\circ=68^\\circ\\).",
+   "images": [],
+   "id": "865707b8ae18",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Triangle \\(ABC\\) is right-angled and isosceles at \\(A\\) with \\(AB=AC=#\\) cm. Find the radius of its circumcircle.",
+   "en": "Triangle \\(ABC\\) is right-angled and isosceles at \\(A\\) with \\(AB=AC=7\\) cm. Find the radius of its circumcircle.<img src=\"../../../img/tex/999517e03c71e8b9.svg\" alt=\"Figure\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,280px);height:auto\">",
+   "vi": "Tam giác \\(ABC\\) vuông cân tại \\(A\\) có \\(AB=AC=7\\) cm. Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circumradius\">bán kính đường tròn ngoại tiếp</b> tam giác.<img src=\"../../../img/tex/999517e03c71e8b9.svg\" alt=\"Hình vẽ\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,280px);height:auto\">",
+   "options": [
+    "\\(\\dfrac{7\\sqrt2}{2}\\text{ cm}\\)",
+    "\\(\\dfrac{7\\sqrt3}{2}\\text{ cm}\\)",
+    "\\(\\dfrac{7}{2}\\text{ cm}\\)",
+    "\\(7\\sqrt2\\text{ cm}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(BC=7\\sqrt2\\), \\(R=\\dfrac{BC}{2}=\\dfrac{7\\sqrt2}{2}\\text{ cm}\\).",
+   "explain_vi": "Đáp án a. \\(BC=7\\sqrt2\\), \\(R=\\dfrac{BC}{2}=\\dfrac{7\\sqrt2}{2}\\text{ cm}\\).",
+   "images": [
+    "img/tex/999517e03c71e8b9.svg"
+   ],
+   "id": "ebba79b5b232",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A garden has the shape of a right triangle \\(ABC\\) (right angle at \\(A\\)), \\(AB=#\\) m, \\(AC=#\\) m. A lamp must be equally far from \\(A\\), \\(B\\), \\(C\\). Where is it, and how far from each corner?",
+   "en": "A garden has the shape of a right triangle \\(ABC\\) (right angle at \\(A\\)), \\(AB=3\\) m, \\(AC=4\\) m. A lamp must be equally far from \\(A\\), \\(B\\), \\(C\\). Where is it, and how far from each corner?",
+   "vi": "Một khu vườn có dạng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"right triangle\">tam giác vuông</b> \\(ABC\\) (vuông tại \\(A\\)), \\(AB=3\\) m, \\(AC=4\\) m. Cần đặt một đèn chiếu cách đều ba góc vườn \\(A\\), \\(B\\), \\(C\\). Đặt đèn ở đâu và cách mỗi góc bao xa?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">at the incenter, \\(1\\) m</span><span class=\"vi\">tại tâm đường tròn nội tiếp, cách \\(1\\) m</span></span>",
+    "<span class=\"txi\"><span class=\"en\">at the midpoint of \\(BC\\), \\(2.5\\) m</span><span class=\"vi\">tại trung điểm \\(BC\\), cách \\(2{,}5\\) m</span></span>",
+    "<span class=\"txi\"><span class=\"en\">at the midpoint of \\(BC\\), \\(5\\) m</span><span class=\"vi\">tại trung điểm \\(BC\\), cách \\(5\\) m</span></span>",
+    "<span class=\"txi\"><span class=\"en\">at the vertex \\(A\\), \\(2.5\\) m</span><span class=\"vi\">tại góc \\(A\\), cách \\(2{,}5\\) m</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Equally far from the three vertices: the circumcenter = midpoint of the hypotenuse \\(BC=5\\); distance \\(R=2.5\\) m.",
+   "explain_vi": "Đáp án b. Cách đều ba đỉnh: tâm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> ngoại tiếp = <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"hypotenuse\">cạnh huyền</b> \\(BC=5\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"distance\">khoảng cách</b> \\(R=2{,}5\\) m.",
+   "images": [],
+   "id": "9b7e958e99d6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A yard has the shape of an equilateral triangle with side # m. What is the area of the largest round flower bed that fits inside the yard?",
+   "en": "A yard has the shape of an equilateral triangle with side 30 m. What is the area of the largest round flower bed that fits inside the yard?",
+   "vi": "Một sân có dạng tam giác đều cạnh 30 m. Tính diện tích bồn hoa hình tròn lớn nhất đặt được trong sân.",
+   "options": [
+    "\\(300\\pi\\text{ m}^2\\)",
+    "\\(225\\pi\\text{ m}^2\\)",
+    "\\(150\\pi\\text{ m}^2\\)",
+    "\\(75\\pi\\text{ m}^2\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. The largest circle is the incircle: \\(r=\\dfrac{30\\sqrt3}{6}=5\\sqrt3\\text{ m}\\); \\(S=\\pi r^2=75\\pi\\text{ m}^2\\).",
+   "explain_vi": "Đáp án d. Hình tròn lớn nhất là hình tròn nội tiếp: \\(r=\\dfrac{30\\sqrt3}{6}=5\\sqrt3\\text{ m}\\); \\(S=\\pi r^2=75\\pi\\text{ m}^2\\).",
+   "images": [],
+   "id": "b7cb389b890b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D4",
+   "type": "mcq",
+   "form": "An equilateral triangle is inscribed in a circle of radius # cm. Find its perimeter.",
+   "en": "An equilateral triangle is inscribed in a circle of radius 11 cm. Find its perimeter.",
+   "vi": "Một tam giác đều nội tiếp <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 11 cm. Tính chu vi tam giác.",
+   "options": [
+    "\\(33\\sqrt3\\text{ cm}\\)",
+    "\\(33\\text{ cm}\\)",
+    "\\(11\\sqrt3\\text{ cm}\\)",
+    "\\(66\\text{ cm}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(a=R\\sqrt3=11\\sqrt3\\text{ cm}\\); perimeter \\(3a=33\\sqrt3\\text{ cm}\\).",
+   "explain_vi": "Đáp án a. \\(a=R\\sqrt3=11\\sqrt3\\text{ cm}\\); chu vi \\(3a=33\\sqrt3\\text{ cm}\\).",
+   "images": [],
+   "id": "c762e47ab7d6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  }
+ ]
+}

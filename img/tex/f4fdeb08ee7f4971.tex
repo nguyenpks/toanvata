@@ -1,0 +1,60 @@
+\documentclass[border=4pt]{standalone}
+\usepackage{fontspec}
+\usepackage{amsmath}
+\usepackage{unicode-math}
+\setmainfont{Latin Modern Roman}
+\setmathfont{Latin Modern Math}
+\usepackage{pgfplots}
+\usepackage{pgfplotstable}
+\pgfplotsset{compat=1.18}
+\usepackage{tkz-euclide}
+\usetikzlibrary{arrows.meta,calc,angles,quotes,patterns,3d,backgrounds}
+\definecolor{ink}{HTML}{123428}
+\definecolor{asy}{HTML}{475569}
+\definecolor{mint}{HTML}{86e0bd}
+\tikzset{asym/.style={asy, line width=0.9pt, dash pattern=on 5pt off 3.5pt},
+         guide/.style={gray!70, line width=0.6pt, densely dotted},
+         dot/.style={circle, inner sep=0pt, minimum size=5pt, draw=white, line width=0.5pt},
+         odot/.style={circle, inner sep=0pt, minimum size=5.5pt, fill=white, line width=1pt},
+         lab/.style={font=\footnotesize, inner sep=1.5pt, text=ink}}
+\begin{document}
+\begin{tikzpicture}
+\fill[ink] (0,0) circle (1.8pt);
+\node[draw={rgb,255:red,4;green,107;blue,77}, fill=white, rounded corners=2pt, inner sep=2pt, font=\small, text=ink, anchor=west] (a0) at (1.700,1.860) {cơm};
+\draw[color={rgb,255:red,4;green,107;blue,77}, line width=0.8pt] (0.08,0) -- (a0.west);
+\node[draw={rgb,255:red,194;green,65;blue,12}, fill=white, rounded corners=2pt, inner sep=2pt, font=\small, text=ink, anchor=west] (b0) at (4.355,2.480) {trà};
+\draw[color={rgb,255:red,194;green,65;blue,12}, line width=0.8pt] (a0.east) -- (b0.west);
+\node[anchor=west, font=\small, text=ink] at (6.225,2.480) {cơm, trà};
+\node[draw={rgb,255:red,194;green,65;blue,12}, fill=white, rounded corners=2pt, inner sep=2pt, font=\small, text=ink, anchor=west] (b1) at (4.355,1.860) {nước ép};
+\draw[color={rgb,255:red,194;green,65;blue,12}, line width=0.8pt] (a0.east) -- (b1.west);
+\node[anchor=west, font=\small, text=ink] at (6.225,1.860) {cơm, nước ép};
+\node[draw={rgb,255:red,194;green,65;blue,12}, fill=white, rounded corners=2pt, inner sep=2pt, font=\small, text=ink, anchor=west] (b2) at (4.355,1.240) {nước lọc};
+\draw[color={rgb,255:red,194;green,65;blue,12}, line width=0.8pt] (a0.east) -- (b2.west);
+\node[anchor=west, font=\small, text=ink] at (6.225,1.240) {cơm, nước lọc};
+\node[draw={rgb,255:red,4;green,107;blue,77}, fill=white, rounded corners=2pt, inner sep=2pt, font=\small, text=ink, anchor=west] (a1) at (1.700,0.000) {bánh mì};
+\draw[color={rgb,255:red,4;green,107;blue,77}, line width=0.8pt] (0.08,0) -- (a1.west);
+\node[draw={rgb,255:red,194;green,65;blue,12}, fill=white, rounded corners=2pt, inner sep=2pt, font=\small, text=ink, anchor=west] (b3) at (4.355,0.620) {trà};
+\draw[color={rgb,255:red,194;green,65;blue,12}, line width=0.8pt] (a1.east) -- (b3.west);
+\node[anchor=west, font=\small, text=ink] at (6.225,0.620) {bánh mì, trà};
+\node[draw={rgb,255:red,194;green,65;blue,12}, fill=white, rounded corners=2pt, inner sep=2pt, font=\small, text=ink, anchor=west] (b4) at (4.355,0.000) {nước ép};
+\draw[color={rgb,255:red,194;green,65;blue,12}, line width=0.8pt] (a1.east) -- (b4.west);
+\node[anchor=west, font=\small, text=ink] at (6.225,0.000) {bánh mì, nước ép};
+\node[draw={rgb,255:red,194;green,65;blue,12}, fill=white, rounded corners=2pt, inner sep=2pt, font=\small, text=ink, anchor=west] (b5) at (4.355,-0.620) {nước lọc};
+\draw[color={rgb,255:red,194;green,65;blue,12}, line width=0.8pt] (a1.east) -- (b5.west);
+\node[anchor=west, font=\small, text=ink] at (6.225,-0.620) {bánh mì, nước lọc};
+\node[draw={rgb,255:red,4;green,107;blue,77}, fill=white, rounded corners=2pt, inner sep=2pt, font=\small, text=ink, anchor=west] (a2) at (1.700,-1.860) {mì};
+\draw[color={rgb,255:red,4;green,107;blue,77}, line width=0.8pt] (0.08,0) -- (a2.west);
+\node[draw={rgb,255:red,194;green,65;blue,12}, fill=white, rounded corners=2pt, inner sep=2pt, font=\small, text=ink, anchor=west] (b6) at (4.355,-1.240) {trà};
+\draw[color={rgb,255:red,194;green,65;blue,12}, line width=0.8pt] (a2.east) -- (b6.west);
+\node[anchor=west, font=\small, text=ink] at (6.225,-1.240) {mì, trà};
+\node[draw={rgb,255:red,194;green,65;blue,12}, fill=white, rounded corners=2pt, inner sep=2pt, font=\small, text=ink, anchor=west] (b7) at (4.355,-1.860) {nước ép};
+\draw[color={rgb,255:red,194;green,65;blue,12}, line width=0.8pt] (a2.east) -- (b7.west);
+\node[anchor=west, font=\small, text=ink] at (6.225,-1.860) {mì, nước ép};
+\node[draw={rgb,255:red,194;green,65;blue,12}, fill=white, rounded corners=2pt, inner sep=2pt, font=\small, text=ink, anchor=west] (b8) at (4.355,-2.480) {nước lọc};
+\draw[color={rgb,255:red,194;green,65;blue,12}, line width=0.8pt] (a2.east) -- (b8.west);
+\node[anchor=west, font=\small, text=ink] at (6.225,-2.480) {mì, nước lọc};
+\node[font=\small\bfseries, text=ink, anchor=west] at (1.700,3.100) {Món ăn};
+\node[font=\small\bfseries, text=ink, anchor=west] at (4.355,3.100) {Đồ uống};
+\node[font=\small\bfseries, text=ink, anchor=west] at (6.225,3.100) {Kết quả};
+\end{tikzpicture}
+\end{document}

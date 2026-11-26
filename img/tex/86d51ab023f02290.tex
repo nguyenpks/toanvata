@@ -1,0 +1,43 @@
+\documentclass[border=4pt]{standalone}
+\usepackage{fontspec}
+\usepackage{amsmath}
+\usepackage{unicode-math}
+\setmainfont{Latin Modern Roman}
+\setmathfont{Latin Modern Math}
+\usepackage{pgfplots}
+\usepackage{pgfplotstable}
+\pgfplotsset{compat=1.18}
+\usepackage{tkz-euclide}
+\usetikzlibrary{arrows.meta,calc,angles,quotes,patterns,3d,backgrounds}
+\definecolor{ink}{HTML}{123428}
+\definecolor{asy}{HTML}{475569}
+\definecolor{mint}{HTML}{86e0bd}
+\tikzset{asym/.style={asy, line width=0.9pt, dash pattern=on 5pt off 3.5pt},
+         guide/.style={gray!70, line width=0.6pt, densely dotted},
+         dot/.style={circle, inner sep=0pt, minimum size=5pt, draw=white, line width=0.5pt},
+         odot/.style={circle, inner sep=0pt, minimum size=5.5pt, fill=white, line width=1pt},
+         lab/.style={font=\footnotesize, inner sep=1.5pt, text=ink}}
+\begin{document}
+\begin{tikzpicture}
+\fill[ink] (0,0) circle (1.8pt);
+\node[draw={rgb,255:red,4;green,107;blue,77}, fill=white, rounded corners=2pt, inner sep=2pt, font=\small, text=ink, anchor=west] (a0) at (1.700,0.620) {N};
+\draw[color={rgb,255:red,4;green,107;blue,77}, line width=0.8pt] (0.08,0) -- (a0.west);
+\node[draw={rgb,255:red,194;green,65;blue,12}, fill=white, rounded corners=2pt, inner sep=2pt, font=\small, text=ink, anchor=west] (b0) at (3.885,0.930) {N};
+\draw[color={rgb,255:red,194;green,65;blue,12}, line width=0.8pt] (a0.east) -- (b0.west);
+\node[anchor=west, font=\small, text=ink] at (5.870,0.930) {NN};
+\node[draw={rgb,255:red,194;green,65;blue,12}, fill=white, rounded corners=2pt, inner sep=2pt, font=\small, text=ink, anchor=west] (b1) at (3.885,0.310) {S};
+\draw[color={rgb,255:red,194;green,65;blue,12}, line width=0.8pt] (a0.east) -- (b1.west);
+\node[anchor=west, font=\small, text=ink] at (5.870,0.310) {NS};
+\node[draw={rgb,255:red,4;green,107;blue,77}, fill=white, rounded corners=2pt, inner sep=2pt, font=\small, text=ink, anchor=west] (a1) at (1.700,-0.620) {S};
+\draw[color={rgb,255:red,4;green,107;blue,77}, line width=0.8pt] (0.08,0) -- (a1.west);
+\node[draw={rgb,255:red,194;green,65;blue,12}, fill=white, rounded corners=2pt, inner sep=2pt, font=\small, text=ink, anchor=west] (b2) at (3.885,-0.310) {N};
+\draw[color={rgb,255:red,194;green,65;blue,12}, line width=0.8pt] (a1.east) -- (b2.west);
+\node[anchor=west, font=\small, text=ink] at (5.870,-0.310) {SN};
+\node[draw={rgb,255:red,194;green,65;blue,12}, fill=white, rounded corners=2pt, inner sep=2pt, font=\small, text=ink, anchor=west] (b3) at (3.885,-0.930) {S};
+\draw[color={rgb,255:red,194;green,65;blue,12}, line width=0.8pt] (a1.east) -- (b3.west);
+\node[anchor=west, font=\small, text=ink] at (5.870,-0.930) {SS};
+\node[font=\small\bfseries, text=ink, anchor=west] at (1.700,1.550) {Đồng xu 1};
+\node[font=\small\bfseries, text=ink, anchor=west] at (3.885,1.550) {Đồng xu 2};
+\node[font=\small\bfseries, text=ink, anchor=west] at (5.870,1.550) {Kết quả};
+\end{tikzpicture}
+\end{document}

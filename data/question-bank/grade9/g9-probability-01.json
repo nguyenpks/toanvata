@@ -1,0 +1,1275 @@
+{
+ "lesson": "g9-probability-01",
+ "grade": 9,
+ "no": 25,
+ "title": "Phép thử ngẫu nhiên và không gian mẫu",
+ "path": "lessons/grade9/probability/random-experiments-sample-spaces.html",
+ "items": [
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "A box has # tickets numbered #, #, #, #, #, #, #, #. One is taken at random. The sample space is…",
+   "en": "A box has 8 tickets numbered 20, 21, 22, 23, 24, 25, 26, 27. One is taken at random. The sample space is…",
+   "vi": "Một hộp có 8 lá phiếu đánh số 20, 21, 22, 23, 24, 25, 26, 27. Lấy ngẫu nhiên một lá phiếu. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sample space\">Không gian mẫu</b> là…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(\\Omega=\\{20;\\,21;\\,22;\\,23;\\,24;\\,25;\\,26;\\,27\\}\\)</span><span class=\"vi\">\\(\\Omega=\\{20;\\,21;\\,22;\\,23;\\,24;\\,25;\\,26;\\,27\\}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(\\Omega=\\{20;\\,21;\\,22;\\,23;\\,24;\\,25;\\,26\\}\\)</span><span class=\"vi\">\\(\\Omega=\\{20;\\,21;\\,22;\\,23;\\,24;\\,25;\\,26\\}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(\\Omega=\\{21;\\,22;\\,23;\\,24;\\,25;\\,26;\\,27;\\,28\\}\\)</span><span class=\"vi\">\\(\\Omega=\\{21;\\,22;\\,23;\\,24;\\,25;\\,26;\\,27;\\,28\\}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(\\Omega=\\{8\\}\\)</span><span class=\"vi\">\\(\\Omega=\\{8\\}\\)</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\Omega\\) is the set of all possible outcomes: \\(\\Omega=\\{20;\\,21;\\,22;\\,23;\\,24;\\,25;\\,26;\\,27\\}\\).",
+   "explain_vi": "Đáp án a. \\(\\Omega\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"set\">tập hợp</b> tất cả các kết quả có thể: \\(\\Omega=\\{20;\\,21;\\,22;\\,23;\\,24;\\,25;\\,26;\\,27\\}\\).",
+   "images": [],
+   "id": "ac356442e4b2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "A canteen offers # main dishes and # drinks. Minh chooses one main dish and one drink at random. How many outcomes are there?",
+   "en": "A canteen offers 3 main dishes and 3 drinks. Minh chooses one main dish and one drink at random. How many outcomes are there?",
+   "vi": "Căng tin có 3 món chính và 3 loại đồ uống. Minh chọn ngẫu nhiên một món chính và một loại đồ uống. Có bao nhiêu kết quả có thể?",
+   "options": [
+    "\\(9\\)",
+    "\\(6\\)",
+    "\\(3\\)",
+    "\\(10\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Each outcome is an ordered pair: \\(3\\cdot3=9\\) outcomes.",
+   "explain_vi": "Đáp án a. Mỗi kết quả là một cặp có thứ tự: có \\(3\\cdot3=9\\) kết quả.",
+   "images": [],
+   "id": "bd73eca3fc83",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Which of the following is a random experiment?",
+   "en": "Which of the following is a random experiment?",
+   "vi": "Hoạt động nào sau đây là một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"random experiment\">phép thử ngẫu nhiên</b>?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">dropping a stone and seeing whether it falls down</span><span class=\"vi\">thả một hòn đá và xem nó có rơi xuống không</span></span>",
+    "<span class=\"txi\"><span class=\"en\">counting the corners of a square</span><span class=\"vi\">đếm số góc của một hình vuông</span></span>",
+    "<span class=\"txi\"><span class=\"en\">tossing a coin and seeing which side faces up</span><span class=\"vi\">tung một đồng xu và xem mặt nào xuất hiện</span></span>",
+    "<span class=\"txi\"><span class=\"en\">counting the days in a week</span><span class=\"vi\">đếm số ngày trong một tuần</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. In a random experiment we cannot know the outcome in advance, but we know all the possible outcomes. Answer: tossing a coin and seeing which side faces up.",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"random experiment\">Phép thử ngẫu nhiên</b>: không biết trước kết quả nhưng biết tất cả các kết quả có thể. Đáp án: tung một đồng xu và xem mặt nào xuất hiện.",
+   "images": [],
+   "id": "258eb5caa41a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "A bag has # balls numbered # to #. Take one ball, do not put it back, then take a second ball. The sample space has # outcomes.",
+   "en": "A bag has 4 balls numbered 1 to 4. Take one ball, do not put it back, then take a second ball. The sample space has 16 outcomes.",
+   "vi": "Một túi có 4 quả bóng đánh số từ 1 đến 4. Lấy một quả, không trả lại túi, rồi lấy quả thứ hai. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sample space\">Không gian mẫu</b> có 16 kết quả.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. Without replacement: \\(4\\cdot3=12\\) ordered pairs.",
+   "explain_vi": "Sai. Không trả lại: có \\(4\\cdot3=12\\) cặp có thứ tự.",
+   "images": [],
+   "id": "ef79b9a339e7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "A box has # cards numbered # to #. Draw one card, do not put it back, then draw a second card. The outcome \\((#;\\,#)\\) belongs to the sample space.",
+   "en": "A box has 7 cards numbered 1 to 7. Draw one card, do not put it back, then draw a second card. The outcome \\((1;\\,1)\\) belongs to the sample space.",
+   "vi": "Một hộp có 7 tấm thẻ đánh số từ 1 đến 7. Rút một thẻ, không trả lại hộp, rồi rút thẻ thứ hai. Kết quả \\((1;\\,1)\\) thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sample space\">không gian mẫu</b>.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. Without putting back, the two cards are different, so \\((1;\\,1)\\notin\\Omega\\).",
+   "explain_vi": "Sai. Không trả lại nên hai thẻ khác nhau, do đó \\((1;\\,1)\\notin\\Omega\\).",
+   "images": [],
+   "id": "8e45ed6b6e64",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "A set lunch: choose one of # rice dishes, one of # soups and one of # fruits. A student chooses at random. How many outcomes does the sample space have?",
+   "en": "A set lunch: choose one of 2 rice dishes, one of 3 soups and one of 3 fruits. A student chooses at random. How many outcomes does the sample space have?",
+   "vi": "Một suất ăn trưa gồm: một trong 2 món cơm, một trong 3 món canh và một trong 3 loại trái cây. Một học sinh chọn ngẫu nhiên. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sample space\">Không gian mẫu</b> có bao nhiêu kết quả?",
+   "options": [],
+   "answer": "18",
+   "explain_en": "Answer: 18. Three steps: \\(2\\cdot3\\cdot3=18\\).",
+   "explain_vi": "Đáp số: 18. Ba bước chọn: \\(2\\cdot3\\cdot3=18\\).",
+   "images": [],
+   "id": "f13feacd7908",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "The teacher chooses at random # of the # students An, Chi, Lan, Minh to clean the board (the order does not matter). How many outcomes does the sample space have?",
+   "en": "The teacher chooses at random 2 of the 4 students An, Chi, Lan, Minh to clean the board (the order does not matter). How many outcomes does the sample space have?",
+   "vi": "Cô giáo chọn ngẫu nhiên 2 trong 4 bạn An, Chi, Lan, Minh để lau bảng (không phân biệt thứ tự). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sample space\">Không gian mẫu</b> có bao nhiêu kết quả?",
+   "options": [],
+   "answer": "6",
+   "explain_en": "Answer: 6. List the pairs: An–Chi, An–Lan, An–Minh… In total \\(3+2+1=6\\).",
+   "explain_vi": "Đáp số: 6. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"listing method\">Liệt kê</b> các cặp: An–Chi, An–Lan, An–Minh… Tổng cộng \\(3+2+1=6\\).",
+   "images": [],
+   "id": "ff28af25fa90",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D1",
+   "type": "mcq",
+   "form": "The sample space \\(\\Omega\\) of a random experiment is…",
+   "en": "The sample space \\(\\Omega\\) of a random experiment is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"sample space\">Không gian mẫu</b> \\(\\Omega\\) của một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"random experiment\">phép thử ngẫu nhiên</b> là…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">one possible outcome</span><span class=\"vi\">một kết quả có thể</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the set of all possible outcomes</span><span class=\"vi\">tập hợp tất cả các kết quả có thể</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the outcome that happens</span><span class=\"vi\">kết quả xảy ra</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the number of times we do the experiment</span><span class=\"vi\">số lần thực hiện phép thử</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Definition of the sample space.",
+   "explain_vi": "Đáp án b. Định nghĩa <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sample space\">không gian mẫu</b>.",
+   "images": [],
+   "id": "8133a83aa35f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D1",
+   "type": "mcq",
+   "form": "The spinner in the figure has # equal sectors. It is spun once and we read the number where the arrow stops. The sample space is…",
+   "en": "The spinner in the figure has 5 equal sectors. It is spun once and we read the number where the arrow stops. The sample space is…<img src=\"../../../img/tex/1bcf8d5ee7473c2c.svg\" alt=\"Spinner\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,260px);height:auto\">",
+   "vi": "Vòng quay trong hình có 5 hình quạt bằng nhau. Quay một lần và đọc số mà kim chỉ vào khi dừng. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sample space\">Không gian mẫu</b> là…<img src=\"../../../img/tex/1bcf8d5ee7473c2c.svg\" alt=\"Vòng quay\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,260px);height:auto\">",
+   "options": [
+    "\\(\\Omega=\\{2;\\,4;\\,6;\\,8\\}\\)",
+    "\\(\\Omega=\\{5\\}\\)",
+    "\\(\\Omega=\\{2;\\,4;\\,6;\\,8;\\,10\\}\\)",
+    "\\(\\Omega=\\{1;\\,2;\\,3;\\,4;\\,5\\}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. All numbers on the spinner: \\(\\Omega=\\{2;\\,4;\\,6;\\,8;\\,10\\}\\).",
+   "explain_vi": "Đáp án c. Tất cả các số trên vòng quay: \\(\\Omega=\\{2;\\,4;\\,6;\\,8;\\,10\\}\\).",
+   "images": [
+    "img/tex/1bcf8d5ee7473c2c.svg"
+   ],
+   "id": "787d1ee01eb8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Two coins are tossed (H: heads, T: tails). Which of the following is NOT an outcome?",
+   "en": "Two coins are tossed (H: heads, T: tails). Which of the following is NOT an outcome?",
+   "vi": "Gieo hai đồng xu (N: ngửa, S: sấp). Kết quả nào sau đây KHÔNG thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sample space\">không gian mẫu</b>?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(HT\\)</span><span class=\"vi\">\\(NS\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(TH\\)</span><span class=\"vi\">\\(SN\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(TT\\)</span><span class=\"vi\">\\(SS\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(HHT\\)</span><span class=\"vi\">\\(NNS\\)</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Each outcome has exactly two letters (one per coin).",
+   "explain_vi": "Đáp án d. Mỗi kết quả gồm đúng hai chữ cái (ứng với hai đồng xu).",
+   "images": [],
+   "id": "9e6a8ed2559d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D2",
+   "type": "mcq",
+   "form": "A bag has # balls: white (W), blue (B) (one of each color). Take one ball at random, then toss a coin (H: heads, T: tails). Which is the sample space?",
+   "en": "A bag has 2 balls: white (W), blue (B) (one of each color). Take one ball at random, then toss a coin (H: heads, T: tails). Which is the sample space?",
+   "vi": "Một túi có 2 quả bóng: trắng (T), xanh (X) (mỗi màu một quả). Lấy ngẫu nhiên một quả bóng rồi gieo một đồng xu (N: ngửa, S: sấp). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sample space\">Không gian mẫu</b> là…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(\\Omega=\\{(W;\\,H);\\,(W;\\,T);\\,(B;\\,H);\\,(B;\\,T)\\}\\)</span><span class=\"vi\">\\(\\Omega=\\{(T;\\,N);\\,(T;\\,S);\\,(X;\\,N);\\,(X;\\,S)\\}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(\\Omega=\\{(W;\\,H);\\,(B;\\,H)\\}\\)</span><span class=\"vi\">\\(\\Omega=\\{(T;\\,N);\\,(X;\\,N)\\}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(\\Omega=\\{(H;\\,W);\\,(H;\\,B);\\,(T;\\,W)\\}\\)</span><span class=\"vi\">\\(\\Omega=\\{(N;\\,T);\\,(N;\\,X);\\,(S;\\,T)\\}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(\\Omega=\\{W;\\,B;\\,H;\\,T\\}\\)</span><span class=\"vi\">\\(\\Omega=\\{T;\\,X;\\,N;\\,S\\}\\)</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Each outcome is a pair (ball; coin): \\(2\\cdot2=4\\) outcomes.",
+   "explain_vi": "Đáp án a. Mỗi kết quả là một cặp (bóng; đồng xu): có \\(2\\cdot2=4\\) kết quả.",
+   "images": [],
+   "id": "adc750c818a2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D2",
+   "type": "mcq",
+   "form": "A box contains pens of # different colors. Take one, keep it out, then take one more. How many outcomes does the sample space have (the order matters)?",
+   "en": "A box contains pens of 4 different colors. Take one, keep it out, then take one more. How many outcomes does the sample space have (the order matters)?",
+   "vi": "Một hộp có 4 chiếc bút có màu khác nhau. Lấy ra một chiếc, không trả lại, rồi lấy tiếp một chiếc nữa. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sample space\">Không gian mẫu</b> có bao nhiêu kết quả (có phân biệt thứ tự)?",
+   "options": [
+    "\\(16\\)",
+    "\\(8\\)",
+    "\\(12\\)",
+    "\\(6\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. 4 choices for the first and 3 for the second: \\(4\\cdot3=12\\).",
+   "explain_vi": "Đáp án c. Lần đầu có 4 cách, lần sau có 3 cách: \\(4\\cdot3=12\\).",
+   "images": [],
+   "id": "0a6e0eb15d26",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D2",
+   "type": "mcq",
+   "form": "The tree diagram shows how Lan chooses breakfast at random. How many outcomes contain noodles?",
+   "en": "The tree diagram shows how Lan chooses breakfast at random. How many outcomes contain noodles?<img src=\"../../../img/tex/c55442d47393f73a.svg\" alt=\"Tree diagram\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,420px);height:auto\">",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"tree diagram\">Sơ đồ hình cây</b> cho biết cách Lan chọn ngẫu nhiên bữa sáng. Có bao nhiêu kết quả có món mì?<img src=\"../../../img/tex/b53dd1bf835450af.svg\" alt=\"Sơ đồ hình cây\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,420px);height:auto\">",
+   "options": [
+    "\\(2\\)",
+    "\\(3\\)",
+    "\\(1\\)",
+    "\\(6\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. The branch “noodles” has 2 drinks after it.",
+   "explain_vi": "Đáp án a. Nhánh “mì” có 2 nhánh đồ uống.",
+   "images": [
+    "img/tex/b53dd1bf835450af.svg",
+    "img/tex/c55442d47393f73a.svg"
+   ],
+   "id": "c90670b176eb",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D3",
+   "type": "mcq",
+   "form": "A locker code has one letter from A, B followed by one digit from # to #. A code is chosen at random. How many outcomes are there? Give one example.",
+   "en": "A locker code has one letter from A, B followed by one digit from 1 to 5. A code is chosen at random. How many outcomes are there? Give one example.",
+   "vi": "Mã khóa tủ gồm một chữ cái trong các chữ A, B, theo sau là một chữ số từ 1 đến 5. Chọn ngẫu nhiên một mã. Có bao nhiêu kết quả có thể? Nêu một ví dụ.",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">10 outcomes, e.g. B5</span><span class=\"vi\">10 kết quả, ví dụ B5</span></span>",
+    "<span class=\"txi\"><span class=\"en\">10 outcomes, e.g. 5A</span><span class=\"vi\">10 kết quả, ví dụ 5A</span></span>",
+    "<span class=\"txi\"><span class=\"en\">7 outcomes, e.g. A1</span><span class=\"vi\">7 kết quả, ví dụ A1</span></span>",
+    "<span class=\"txi\"><span class=\"en\">10 outcomes, e.g. A6</span><span class=\"vi\">10 kết quả, ví dụ A6</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(2\\cdot5=10\\) codes; the letter comes first and the digit is from 1 to 5.",
+   "explain_vi": "Đáp án a. \\(2\\cdot5=10\\) mã; chữ cái đứng trước, chữ số từ 1 đến 5.",
+   "images": [],
+   "id": "66c7c9a376d9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Spinner # has the numbers # to # and spinner # has the letters A, B, C, D. The table lists the sample space of spinning both (# outcomes). Which outcome is hidden by “?”?Spinner # \\ Spinner #ABCD#\\((#;\\,A)\\)\\((#;\\,B)\\)\\((#;\\,C)\\)\\((#;\\,D)\\)#\\((#;\\,A)\\)\\((#;\\,B)\\)\\((#;\\,C)\\)?#\\((#;\\,A)\\)\\((#;\\,B)\\)\\((#;\\,C)\\)\\((#;\\,D)\\)",
+   "en": "Spinner 1 has the numbers 1 to 3 and spinner 2 has the letters A, B, C, D. The table lists the sample space of spinning both (12 outcomes). Which outcome is hidden by “?”?<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"col\">Spinner 1 \\ Spinner 2</th><th scope=\"col\">A</th><th scope=\"col\">B</th><th scope=\"col\">C</th><th scope=\"col\">D</th></tr><tr><th scope=\"row\">1</th><td>\\((1;\\,A)\\)</td><td>\\((1;\\,B)\\)</td><td>\\((1;\\,C)\\)</td><td>\\((1;\\,D)\\)</td></tr><tr><th scope=\"row\">2</th><td>\\((2;\\,A)\\)</td><td>\\((2;\\,B)\\)</td><td>\\((2;\\,C)\\)</td><td>?</td></tr><tr><th scope=\"row\">3</th><td>\\((3;\\,A)\\)</td><td>\\((3;\\,B)\\)</td><td>\\((3;\\,C)\\)</td><td>\\((3;\\,D)\\)</td></tr></tbody></table></div>",
+   "vi": "Vòng quay 1 có các số từ 1 đến 3, vòng quay 2 có các chữ A, B, C, D. Bảng dưới <b class=\"mbl-term\" tabindex=\"0\" data-en=\"listing method\">liệt kê</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sample space\">không gian mẫu</b> khi quay cả hai vòng (12 kết quả). Ô “?” là kết quả nào?<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"col\">Vòng 1 \\ Vòng 2</th><th scope=\"col\">A</th><th scope=\"col\">B</th><th scope=\"col\">C</th><th scope=\"col\">D</th></tr><tr><th scope=\"row\">1</th><td>\\((1;\\,A)\\)</td><td>\\((1;\\,B)\\)</td><td>\\((1;\\,C)\\)</td><td>\\((1;\\,D)\\)</td></tr><tr><th scope=\"row\">2</th><td>\\((2;\\,A)\\)</td><td>\\((2;\\,B)\\)</td><td>\\((2;\\,C)\\)</td><td>?</td></tr><tr><th scope=\"row\">3</th><td>\\((3;\\,A)\\)</td><td>\\((3;\\,B)\\)</td><td>\\((3;\\,C)\\)</td><td>\\((3;\\,D)\\)</td></tr></tbody></table></div>",
+   "options": [
+    "\\((2;\\,A)\\)",
+    "\\((2;\\,D)\\)",
+    "\\((D;\\,2)\\)",
+    "\\((3;\\,D)\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Row 2 and column D: \\((2;\\,D)\\).",
+   "explain_vi": "Đáp án b. Hàng 2, cột D: \\((2;\\,D)\\).",
+   "images": [],
+   "id": "5f6ca479ad52",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Use a tree diagram: when three coins are tossed, how many outcomes does the sample space have?",
+   "en": "Use a tree diagram: when three coins are tossed, how many outcomes does the sample space have?",
+   "vi": "Dùng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tree diagram\">sơ đồ hình cây</b>: khi gieo ba đồng xu, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sample space\">không gian mẫu</b> có bao nhiêu kết quả?",
+   "options": [
+    "\\(4\\)",
+    "\\(8\\)",
+    "\\(16\\)",
+    "\\(6\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Each step doubles the branches: \\(2^{3}=8\\).",
+   "explain_vi": "Đáp án b. Mỗi bước nhân đôi số nhánh: \\(2^{3}=8\\).",
+   "images": [],
+   "id": "4f2fdbc39eaf",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D4",
+   "type": "mcq",
+   "form": "# teams play a football tournament; every two teams play each other exactly once. A reporter chooses one match at random to write about. How many outcomes does the sample space have?",
+   "en": "6 teams play a football tournament; every two teams play each other exactly once. A reporter chooses one match at random to write about. How many outcomes does the sample space have?",
+   "vi": "6 đội bóng thi đấu vòng tròn một lượt (hai đội bất kì gặp nhau đúng một lần). Một phóng viên chọn ngẫu nhiên một trận để viết bài. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sample space\">Không gian mẫu</b> có bao nhiêu kết quả?",
+   "options": [
+    "\\(15\\)",
+    "\\(6\\)",
+    "\\(36\\)",
+    "\\(30\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. The matches are the unordered pairs of teams: \\(\\dfrac{6\\cdot5}{2}=15\\).",
+   "explain_vi": "Đáp án a. Mỗi trận ứng với một cặp đội không phân biệt thứ tự: \\(\\dfrac{6\\cdot5}{2}=15\\).",
+   "images": [],
+   "id": "aa5b6d5142b9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A security code is one letter (from # letters) followed by two DIFFERENT digits chosen from #, #, #, #. A code is chosen at random. How many outcomes does the sample space have?",
+   "en": "A security code is one letter (from 3 letters) followed by two DIFFERENT digits chosen from 1, 2, 3, 4. A code is chosen at random. How many outcomes does the sample space have?",
+   "vi": "Mã bảo mật gồm một chữ cái (trong 3 chữ cái) theo sau là hai chữ số KHÁC NHAU lấy từ 1, 2, 3, 4. Chọn ngẫu nhiên một mã. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sample space\">Không gian mẫu</b> có bao nhiêu kết quả?",
+   "options": [
+    "\\(10\\)",
+    "\\(48\\)",
+    "\\(12\\)",
+    "\\(36\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Tree diagram: 3 letters, then 4 digits, then 3 digits: \\(3\\cdot4\\cdot3=36\\).",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tree diagram\">Sơ đồ hình cây</b>: 3 chữ cái, rồi 4 chữ số, rồi 3 chữ số: \\(3\\cdot4\\cdot3=36\\).",
+   "images": [],
+   "id": "92abb48895a0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D4",
+   "type": "mcq",
+   "form": "Toss a coin. If it shows heads, roll a die; if it shows tails, spin a spinner with # equal sectors numbered # to #. How many outcomes does the sample space have?",
+   "en": "Toss a coin. If it shows heads, roll a die; if it shows tails, spin a spinner with 4 equal sectors numbered 1 to 4. How many outcomes does the sample space have?",
+   "vi": "Gieo một đồng xu. Nếu được mặt ngửa thì gieo tiếp một con xúc xắc; nếu được mặt sấp thì quay một vòng quay có 4 hình quạt bằng nhau đánh số từ 1 đến 4. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sample space\">Không gian mẫu</b> có bao nhiêu kết quả?",
+   "options": [
+    "\\(8\\)",
+    "\\(24\\)",
+    "\\(12\\)",
+    "\\(10\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Tree diagram: the heads branch has 6 outcomes, the tails branch has 4: \\(6+4=10\\).",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tree diagram\">Sơ đồ hình cây</b>: nhánh ngửa có 6 kết quả, nhánh sấp có 4 kết quả: \\(6+4=10\\).",
+   "images": [],
+   "id": "9a117ac31a3b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "A canteen offers # main dishes and # drinks. Minh chooses one main dish and one drink at random. How many outcomes are there?",
+   "en": "A canteen offers 4 main dishes and 3 drinks. Minh chooses one main dish and one drink at random. How many outcomes are there?",
+   "vi": "Căng tin có 4 món chính và 3 loại đồ uống. Minh chọn ngẫu nhiên một món chính và một loại đồ uống. Có bao nhiêu kết quả có thể?",
+   "options": [
+    "\\(4\\)",
+    "\\(13\\)",
+    "\\(7\\)",
+    "\\(12\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Each outcome is an ordered pair: \\(4\\cdot3=12\\) outcomes.",
+   "explain_vi": "Đáp án d. Mỗi kết quả là một cặp có thứ tự: có \\(4\\cdot3=12\\) kết quả.",
+   "images": [],
+   "id": "b7b86528faa9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "A die is rolled once. The sample space is…",
+   "en": "A die is rolled once. The sample space is…",
+   "vi": "Gieo một con xúc xắc một lần. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sample space\">Không gian mẫu</b> là…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(\\Omega=\\{2;\\,4;\\,6\\}\\)</span><span class=\"vi\">\\(\\Omega=\\{2;\\,4;\\,6\\}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(\\Omega=\\{1;\\,2;\\,3;\\,4;\\,5;\\,6\\}\\)</span><span class=\"vi\">\\(\\Omega=\\{1;\\,2;\\,3;\\,4;\\,5;\\,6\\}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(\\Omega=\\{1;\\,2;\\,3;\\,4;\\,5\\}\\)</span><span class=\"vi\">\\(\\Omega=\\{1;\\,2;\\,3;\\,4;\\,5\\}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(\\Omega=\\{0;\\,1;\\,2;\\,3;\\,4;\\,5;\\,6\\}\\)</span><span class=\"vi\">\\(\\Omega=\\{0;\\,1;\\,2;\\,3;\\,4;\\,5;\\,6\\}\\)</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\Omega\\) is the set of all possible outcomes: \\(\\Omega=\\{1;\\,2;\\,3;\\,4;\\,5;\\,6\\}\\).",
+   "explain_vi": "Đáp án b. \\(\\Omega\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"set\">tập hợp</b> tất cả các kết quả có thể: \\(\\Omega=\\{1;\\,2;\\,3;\\,4;\\,5;\\,6\\}\\).",
+   "images": [],
+   "id": "00edeac38975",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Which activity below is NOT a random experiment?",
+   "en": "Which activity below is NOT a random experiment?",
+   "vi": "Trong các hoạt động dưới đây, hoạt động nào KHÔNG phải là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"random experiment\">phép thử ngẫu nhiên</b>?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">choosing a student at random from class 9A and noting the month of birth</span><span class=\"vi\">chọn ngẫu nhiên một học sinh lớp 9A và xem bạn đó sinh vào tháng nào</span></span>",
+    "<span class=\"txi\"><span class=\"en\">drawing a card without looking from a box of cards numbered 1 to 10</span><span class=\"vi\">rút ngẫu nhiên một tấm thẻ từ hộp có 10 tấm thẻ đánh số từ 1 đến 10</span></span>",
+    "<span class=\"txi\"><span class=\"en\">dropping a stone and seeing whether it falls down</span><span class=\"vi\">thả một hòn đá và xem nó có rơi xuống không</span></span>",
+    "<span class=\"txi\"><span class=\"en\">tossing a coin and seeing which side faces up</span><span class=\"vi\">tung một đồng xu và xem mặt nào xuất hiện</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. In a random experiment we cannot know the outcome in advance, but we know all the possible outcomes. Answer: dropping a stone and seeing whether it falls down.",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"random experiment\">Phép thử ngẫu nhiên</b>: không biết trước kết quả nhưng biết tất cả các kết quả có thể. Đáp án: thả một hòn đá và xem nó có rơi xuống không.",
+   "images": [],
+   "id": "804b7c77c0d5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "A bag has # balls numbered # to #. Take one ball, do not put it back, then take a second ball. The sample space has # outcomes.",
+   "en": "A bag has 7 balls numbered 1 to 7. Take one ball, do not put it back, then take a second ball. The sample space has 42 outcomes.",
+   "vi": "Một túi có 7 quả bóng đánh số từ 1 đến 7. Lấy một quả, không trả lại túi, rồi lấy quả thứ hai. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sample space\">Không gian mẫu</b> có 42 kết quả.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. Without replacement: \\(7\\cdot6=42\\) ordered pairs.",
+   "explain_vi": "Đúng. Không trả lại: có \\(7\\cdot6=42\\) cặp có thứ tự.",
+   "images": [],
+   "id": "d2b798c1df2b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "A box has # cards numbered # to #. Draw one card, put it back, then draw a second card. The outcome \\((#;\\,#)\\) belongs to the sample space.",
+   "en": "A box has 6 cards numbered 1 to 6. Draw one card, put it back, then draw a second card. The outcome \\((3;\\,6)\\) belongs to the sample space.",
+   "vi": "Một hộp có 6 tấm thẻ đánh số từ 1 đến 6. Rút một thẻ, trả lại hộp, rồi rút thẻ thứ hai. Kết quả \\((3;\\,6)\\) thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sample space\">không gian mẫu</b>.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. The card is put back, so the two numbers can be equal or different: \\((3;\\,6)\\in\\Omega\\).",
+   "explain_vi": "Đúng. Thẻ được trả lại nên hai số có thể bằng nhau hoặc khác nhau: \\((3;\\,6)\\in\\Omega\\).",
+   "images": [],
+   "id": "3ea55f70cd8c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "A set lunch: choose one of # rice dishes, one of # soups and one of # fruits. A student chooses at random. How many outcomes does the sample space have?",
+   "en": "A set lunch: choose one of 4 rice dishes, one of 4 soups and one of 2 fruits. A student chooses at random. How many outcomes does the sample space have?",
+   "vi": "Một suất ăn trưa gồm: một trong 4 món cơm, một trong 4 món canh và một trong 2 loại trái cây. Một học sinh chọn ngẫu nhiên. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sample space\">Không gian mẫu</b> có bao nhiêu kết quả?",
+   "options": [],
+   "answer": "32",
+   "explain_en": "Answer: 32. Three steps: \\(4\\cdot4\\cdot2=32\\).",
+   "explain_vi": "Đáp số: 32. Ba bước chọn: \\(4\\cdot4\\cdot2=32\\).",
+   "images": [],
+   "id": "946fd0bc27b0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "The teacher chooses at random # of the # students An, Chi, Lan, Minh, Nam, Khoa to clean the board (the order does not matter). How many outcomes does the sample space have?",
+   "en": "The teacher chooses at random 2 of the 6 students An, Chi, Lan, Minh, Nam, Khoa to clean the board (the order does not matter). How many outcomes does the sample space have?",
+   "vi": "Cô giáo chọn ngẫu nhiên 2 trong 6 bạn An, Chi, Lan, Minh, Nam, Khoa để lau bảng (không phân biệt thứ tự). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sample space\">Không gian mẫu</b> có bao nhiêu kết quả?",
+   "options": [],
+   "answer": "15",
+   "explain_en": "Answer: 15. List the pairs: An–Chi, An–Lan, An–Minh, An–Nam, An–Khoa… In total \\(5+4+3+2+1=15\\).",
+   "explain_vi": "Đáp số: 15. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"listing method\">Liệt kê</b> các cặp: An–Chi, An–Lan, An–Minh, An–Nam, An–Khoa… Tổng cộng \\(5+4+3+2+1=15\\).",
+   "images": [],
+   "id": "a59b150deb93",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D1",
+   "type": "mcq",
+   "form": "A coin is tossed and a die is rolled (H: heads, T: tails). Which of the following is NOT an outcome?",
+   "en": "A coin is tossed and a die is rolled (H: heads, T: tails). Which of the following is NOT an outcome?",
+   "vi": "Gieo một đồng xu và một con xúc xắc (N: ngửa, S: sấp). Kết quả nào sau đây KHÔNG thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sample space\">không gian mẫu</b>?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\((T;\\,1)\\)</span><span class=\"vi\">\\((S;\\,1)\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\((T;\\,4)\\)</span><span class=\"vi\">\\((S;\\,4)\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\((H;\\,7)\\)</span><span class=\"vi\">\\((N;\\,7)\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\((H;\\,6)\\)</span><span class=\"vi\">\\((N;\\,6)\\)</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. A die has only the numbers 1 to 6.",
+   "explain_vi": "Đáp án c. Con xúc xắc chỉ có từ 1 đến 6 chấm.",
+   "images": [],
+   "id": "8e86e7923850",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D1",
+   "type": "mcq",
+   "form": "An experiment is called random when…",
+   "en": "An experiment is called random when…",
+   "vi": "Một phép thử được gọi là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"random experiment\">phép thử ngẫu nhiên</b> khi…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">we do not know the outcome in advance, but we know all possible outcomes</span><span class=\"vi\">không biết trước kết quả nhưng biết tất cả các kết quả có thể</span></span>",
+    "<span class=\"txi\"><span class=\"en\">we do not know any possible outcome</span><span class=\"vi\">không biết được kết quả có thể nào</span></span>",
+    "<span class=\"txi\"><span class=\"en\">there is only one possible outcome</span><span class=\"vi\">chỉ có một kết quả có thể</span></span>",
+    "<span class=\"txi\"><span class=\"en\">we know the outcome in advance</span><span class=\"vi\">biết trước kết quả</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Definition of a random experiment.",
+   "explain_vi": "Đáp án a. Định nghĩa <b class=\"mbl-term\" tabindex=\"0\" data-en=\"random experiment\">phép thử ngẫu nhiên</b>.",
+   "images": [],
+   "id": "544d13082c87",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D1",
+   "type": "mcq",
+   "form": "The spinner in the figure has # equal sectors. It is spun once and we read the number where the arrow stops. The sample space is…",
+   "en": "The spinner in the figure has 7 equal sectors. It is spun once and we read the number where the arrow stops. The sample space is…<img src=\"../../../img/tex/080fdbe668b0010f.svg\" alt=\"Spinner\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,260px);height:auto\">",
+   "vi": "Vòng quay trong hình có 7 hình quạt bằng nhau. Quay một lần và đọc số mà kim chỉ vào khi dừng. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sample space\">Không gian mẫu</b> là…<img src=\"../../../img/tex/080fdbe668b0010f.svg\" alt=\"Vòng quay\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,260px);height:auto\">",
+   "options": [
+    "\\(\\Omega=\\{10;\\,11;\\,12;\\,13;\\,14;\\,15\\}\\)",
+    "\\(\\Omega=\\{7\\}\\)",
+    "\\(\\Omega=\\{10;\\,11;\\,12;\\,13;\\,14;\\,15;\\,16\\}\\)",
+    "\\(\\Omega=\\{1;\\,2;\\,3;\\,4;\\,5;\\,6;\\,7\\}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. All numbers on the spinner: \\(\\Omega=\\{10;\\,11;\\,12;\\,13;\\,14;\\,15;\\,16\\}\\).",
+   "explain_vi": "Đáp án c. Tất cả các số trên vòng quay: \\(\\Omega=\\{10;\\,11;\\,12;\\,13;\\,14;\\,15;\\,16\\}\\).",
+   "images": [
+    "img/tex/080fdbe668b0010f.svg"
+   ],
+   "id": "5fa016fa8428",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D2",
+   "type": "mcq",
+   "form": "A bag has # balls: red (R), white (W), blue (B) (one of each color). Take one ball at random, then toss a coin (H: heads, T: tails). Which is the sample space?",
+   "en": "A bag has 3 balls: red (R), white (W), blue (B) (one of each color). Take one ball at random, then toss a coin (H: heads, T: tails). Which is the sample space?",
+   "vi": "Một túi có 3 quả bóng: đỏ (Đ), trắng (T), xanh (X) (mỗi màu một quả). Lấy ngẫu nhiên một quả bóng rồi gieo một đồng xu (N: ngửa, S: sấp). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sample space\">Không gian mẫu</b> là…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(\\Omega=\\{(H;\\,R);\\,(H;\\,W);\\,(H;\\,B);\\,(T;\\,R);\\,(T;\\,W)\\}\\)</span><span class=\"vi\">\\(\\Omega=\\{(N;\\,Đ);\\,(N;\\,T);\\,(N;\\,X);\\,(S;\\,Đ);\\,(S;\\,T)\\}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(\\Omega=\\{(R;\\,H);\\,(W;\\,H);\\,(B;\\,H)\\}\\)</span><span class=\"vi\">\\(\\Omega=\\{(Đ;\\,N);\\,(T;\\,N);\\,(X;\\,N)\\}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(\\Omega=\\{R;\\,W;\\,B;\\,H;\\,T\\}\\)</span><span class=\"vi\">\\(\\Omega=\\{Đ;\\,T;\\,X;\\,N;\\,S\\}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(\\Omega=\\{(R;\\,H);\\,(R;\\,T);\\,(W;\\,H);\\,(W;\\,T);\\,(B;\\,H);\\,(B;\\,T)\\}\\)</span><span class=\"vi\">\\(\\Omega=\\{(Đ;\\,N);\\,(Đ;\\,S);\\,(T;\\,N);\\,(T;\\,S);\\,(X;\\,N);\\,(X;\\,S)\\}\\)</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Each outcome is a pair (ball; coin): \\(3\\cdot2=6\\) outcomes.",
+   "explain_vi": "Đáp án d. Mỗi kết quả là một cặp (bóng; đồng xu): có \\(3\\cdot2=6\\) kết quả.",
+   "images": [],
+   "id": "0edd951cf518",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D2",
+   "type": "mcq",
+   "form": "A box contains cards numbered # to #. Take one, put it back, then take one more. How many outcomes does the sample space have (the order matters)?",
+   "en": "A box contains cards numbered 1 to 6. Take one, put it back, then take one more. How many outcomes does the sample space have (the order matters)?",
+   "vi": "Một hộp có 6 tấm thẻ đánh số từ 1 đến 6. Lấy ra một chiếc, trả lại hộp, rồi lấy tiếp một chiếc nữa. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sample space\">Không gian mẫu</b> có bao nhiêu kết quả (có phân biệt thứ tự)?",
+   "options": [
+    "\\(30\\)",
+    "\\(15\\)",
+    "\\(12\\)",
+    "\\(36\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. 6 choices for the first and 6 for the second: \\(6\\cdot6=36\\).",
+   "explain_vi": "Đáp án d. Lần đầu có 6 cách, lần sau có 6 cách: \\(6\\cdot6=36\\).",
+   "images": [],
+   "id": "68cfd6217757",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D2",
+   "type": "mcq",
+   "form": "The tree diagram shows how Minh chooses breakfast at random. How many outcomes contain noodles?",
+   "en": "The tree diagram shows how Minh chooses breakfast at random. How many outcomes contain noodles?<img src=\"../../../img/tex/a33975b33671cabf.svg\" alt=\"Tree diagram\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,420px);height:auto\">",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"tree diagram\">Sơ đồ hình cây</b> cho biết cách Minh chọn ngẫu nhiên bữa sáng. Có bao nhiêu kết quả có món mì?<img src=\"../../../img/tex/f4fdeb08ee7f4971.svg\" alt=\"Sơ đồ hình cây\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,420px);height:auto\">",
+   "options": [
+    "\\(3\\)",
+    "\\(9\\)",
+    "\\(4\\)",
+    "\\(1\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. The branch “noodles” has 3 drinks after it.",
+   "explain_vi": "Đáp án a. Nhánh “mì” có 3 nhánh đồ uống.",
+   "images": [
+    "img/tex/a33975b33671cabf.svg",
+    "img/tex/f4fdeb08ee7f4971.svg"
+   ],
+   "id": "5febec7daa77",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D3",
+   "type": "mcq",
+   "form": "A locker code has one letter from X, Y, Z followed by one digit from # to #. A code is chosen at random. How many outcomes are there? Give one example.",
+   "en": "A locker code has one letter from X, Y, Z followed by one digit from 1 to 5. A code is chosen at random. How many outcomes are there? Give one example.",
+   "vi": "Mã khóa tủ gồm một chữ cái trong các chữ X, Y, Z, theo sau là một chữ số từ 1 đến 5. Chọn ngẫu nhiên một mã. Có bao nhiêu kết quả có thể? Nêu một ví dụ.",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">15 outcomes, e.g. X6</span><span class=\"vi\">15 kết quả, ví dụ X6</span></span>",
+    "<span class=\"txi\"><span class=\"en\">15 outcomes, e.g. 5X</span><span class=\"vi\">15 kết quả, ví dụ 5X</span></span>",
+    "<span class=\"txi\"><span class=\"en\">8 outcomes, e.g. X1</span><span class=\"vi\">8 kết quả, ví dụ X1</span></span>",
+    "<span class=\"txi\"><span class=\"en\">15 outcomes, e.g. Z5</span><span class=\"vi\">15 kết quả, ví dụ Z5</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(3\\cdot5=15\\) codes; the letter comes first and the digit is from 1 to 5.",
+   "explain_vi": "Đáp án d. \\(3\\cdot5=15\\) mã; chữ cái đứng trước, chữ số từ 1 đến 5.",
+   "images": [],
+   "id": "ae16e0d35a9c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Spinner # has the numbers # to # and spinner # has the letters A, B, C. The table lists the sample space of spinning both (# outcomes). Which outcome is hidden by “?”?Spinner # \\ Spinner #ABC#\\((#;\\,A)\\)\\((#;\\,B)\\)\\((#;\\,C)\\)#\\((#;\\,A)\\)\\((#;\\,B)\\)\\((#;\\,C)\\)#\\((#;\\,A)\\)?\\((#;\\,C)\\)#\\((#;\\,A)\\)\\((#;\\,B)\\)\\((#;\\,C)\\)",
+   "en": "Spinner 1 has the numbers 1 to 4 and spinner 2 has the letters A, B, C. The table lists the sample space of spinning both (12 outcomes). Which outcome is hidden by “?”?<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"col\">Spinner 1 \\ Spinner 2</th><th scope=\"col\">A</th><th scope=\"col\">B</th><th scope=\"col\">C</th></tr><tr><th scope=\"row\">1</th><td>\\((1;\\,A)\\)</td><td>\\((1;\\,B)\\)</td><td>\\((1;\\,C)\\)</td></tr><tr><th scope=\"row\">2</th><td>\\((2;\\,A)\\)</td><td>\\((2;\\,B)\\)</td><td>\\((2;\\,C)\\)</td></tr><tr><th scope=\"row\">3</th><td>\\((3;\\,A)\\)</td><td>?</td><td>\\((3;\\,C)\\)</td></tr><tr><th scope=\"row\">4</th><td>\\((4;\\,A)\\)</td><td>\\((4;\\,B)\\)</td><td>\\((4;\\,C)\\)</td></tr></tbody></table></div>",
+   "vi": "Vòng quay 1 có các số từ 1 đến 4, vòng quay 2 có các chữ A, B, C. Bảng dưới <b class=\"mbl-term\" tabindex=\"0\" data-en=\"listing method\">liệt kê</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sample space\">không gian mẫu</b> khi quay cả hai vòng (12 kết quả). Ô “?” là kết quả nào?<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"col\">Vòng 1 \\ Vòng 2</th><th scope=\"col\">A</th><th scope=\"col\">B</th><th scope=\"col\">C</th></tr><tr><th scope=\"row\">1</th><td>\\((1;\\,A)\\)</td><td>\\((1;\\,B)\\)</td><td>\\((1;\\,C)\\)</td></tr><tr><th scope=\"row\">2</th><td>\\((2;\\,A)\\)</td><td>\\((2;\\,B)\\)</td><td>\\((2;\\,C)\\)</td></tr><tr><th scope=\"row\">3</th><td>\\((3;\\,A)\\)</td><td>?</td><td>\\((3;\\,C)\\)</td></tr><tr><th scope=\"row\">4</th><td>\\((4;\\,A)\\)</td><td>\\((4;\\,B)\\)</td><td>\\((4;\\,C)\\)</td></tr></tbody></table></div>",
+   "options": [
+    "\\((3;\\,C)\\)",
+    "\\((4;\\,B)\\)",
+    "\\((B;\\,3)\\)",
+    "\\((3;\\,B)\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Row 3 and column B: \\((3;\\,B)\\).",
+   "explain_vi": "Đáp án d. Hàng 3, cột B: \\((3;\\,B)\\).",
+   "images": [],
+   "id": "1e323b911078",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Use a tree diagram: when a coin is tossed four times, how many outcomes does the sample space have?",
+   "en": "Use a tree diagram: when a coin is tossed four times, how many outcomes does the sample space have?",
+   "vi": "Dùng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tree diagram\">sơ đồ hình cây</b>: khi gieo một đồng xu bốn lần, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sample space\">không gian mẫu</b> có bao nhiêu kết quả?",
+   "options": [
+    "\\(5\\)",
+    "\\(8\\)",
+    "\\(16\\)",
+    "\\(14\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Each step doubles the branches: \\(2^{4}=16\\).",
+   "explain_vi": "Đáp án c. Mỗi bước nhân đôi số nhánh: \\(2^{4}=16\\).",
+   "images": [],
+   "id": "8c79cc782b6f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D4",
+   "type": "mcq",
+   "form": "# teams play a football tournament; every two teams play each other exactly once. A reporter chooses one match at random to write about. How many outcomes does the sample space have?",
+   "en": "7 teams play a football tournament; every two teams play each other exactly once. A reporter chooses one match at random to write about. How many outcomes does the sample space have?",
+   "vi": "7 đội bóng thi đấu vòng tròn một lượt (hai đội bất kì gặp nhau đúng một lần). Một phóng viên chọn ngẫu nhiên một trận để viết bài. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sample space\">Không gian mẫu</b> có bao nhiêu kết quả?",
+   "options": [
+    "\\(21\\)",
+    "\\(7\\)",
+    "\\(49\\)",
+    "\\(42\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. The matches are the unordered pairs of teams: \\(\\dfrac{7\\cdot6}{2}=21\\).",
+   "explain_vi": "Đáp án a. Mỗi trận ứng với một cặp đội không phân biệt thứ tự: \\(\\dfrac{7\\cdot6}{2}=21\\).",
+   "images": [],
+   "id": "c8c8aeeb4f47",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A security code is one letter (from # letters) followed by two DIFFERENT digits chosen from #, #, #, #, #. A code is chosen at random. How many outcomes does the sample space have?",
+   "en": "A security code is one letter (from 3 letters) followed by two DIFFERENT digits chosen from 1, 2, 3, 4, 5. A code is chosen at random. How many outcomes does the sample space have?",
+   "vi": "Mã bảo mật gồm một chữ cái (trong 3 chữ cái) theo sau là hai chữ số KHÁC NHAU lấy từ 1, 2, 3, 4, 5. Chọn ngẫu nhiên một mã. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sample space\">Không gian mẫu</b> có bao nhiêu kết quả?",
+   "options": [
+    "\\(75\\)",
+    "\\(15\\)",
+    "\\(12\\)",
+    "\\(60\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Tree diagram: 3 letters, then 5 digits, then 4 digits: \\(3\\cdot5\\cdot4=60\\).",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tree diagram\">Sơ đồ hình cây</b>: 3 chữ cái, rồi 5 chữ số, rồi 4 chữ số: \\(3\\cdot5\\cdot4=60\\).",
+   "images": [],
+   "id": "7204abd51aa5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D4",
+   "type": "mcq",
+   "form": "Toss a coin. If it shows heads, roll a die; if it shows tails, spin a spinner with # equal sectors numbered # to #. How many outcomes does the sample space have?",
+   "en": "Toss a coin. If it shows heads, roll a die; if it shows tails, spin a spinner with 3 equal sectors numbered 1 to 3. How many outcomes does the sample space have?",
+   "vi": "Gieo một đồng xu. Nếu được mặt ngửa thì gieo tiếp một con xúc xắc; nếu được mặt sấp thì quay một vòng quay có 3 hình quạt bằng nhau đánh số từ 1 đến 3. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sample space\">Không gian mẫu</b> có bao nhiêu kết quả?",
+   "options": [
+    "\\(6\\)",
+    "\\(9\\)",
+    "\\(18\\)",
+    "\\(12\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Tree diagram: the heads branch has 6 outcomes, the tails branch has 3: \\(6+3=9\\).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tree diagram\">Sơ đồ hình cây</b>: nhánh ngửa có 6 kết quả, nhánh sấp có 3 kết quả: \\(6+3=9\\).",
+   "images": [],
+   "id": "c54a52eb31d6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "A spinner has # equal sectors numbered # to #. It is spun once. The sample space is…",
+   "en": "A spinner has 3 equal sectors numbered 1 to 3. It is spun once. The sample space is…",
+   "vi": "Một vòng quay có 3 hình quạt bằng nhau đánh số từ 1 đến 3. Quay một lần. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sample space\">Không gian mẫu</b> là…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(\\Omega=\\{3\\}\\)</span><span class=\"vi\">\\(\\Omega=\\{3\\}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(\\Omega=\\{1;\\,2;\\,3\\}\\)</span><span class=\"vi\">\\(\\Omega=\\{1;\\,2;\\,3\\}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(\\Omega=\\{0;\\,1;\\,2;\\,3\\}\\)</span><span class=\"vi\">\\(\\Omega=\\{0;\\,1;\\,2;\\,3\\}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(\\Omega=\\{1;\\,2\\}\\)</span><span class=\"vi\">\\(\\Omega=\\{1;\\,2\\}\\)</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\Omega\\) is the set of all possible outcomes: \\(\\Omega=\\{1;\\,2;\\,3\\}\\).",
+   "explain_vi": "Đáp án b. \\(\\Omega\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"set\">tập hợp</b> tất cả các kết quả có thể: \\(\\Omega=\\{1;\\,2;\\,3\\}\\).",
+   "images": [],
+   "id": "0c057e66b047",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Two coins are tossed together. How many outcomes does the sample space have?",
+   "en": "Two coins are tossed together. How many outcomes does the sample space have?",
+   "vi": "Gieo đồng thời hai đồng xu. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sample space\">Không gian mẫu</b> có bao nhiêu kết quả?",
+   "options": [
+    "\\(2\\)",
+    "\\(8\\)",
+    "\\(4\\)",
+    "\\(3\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Each outcome is an ordered pair: \\(2\\cdot2=4\\) outcomes.",
+   "explain_vi": "Đáp án c. Mỗi kết quả là một cặp có thứ tự: có \\(2\\cdot2=4\\) kết quả.",
+   "images": [],
+   "id": "592eb5615f68",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Which of the following is NOT a random experiment?",
+   "en": "Which of the following is NOT a random experiment?",
+   "vi": "Hoạt động nào sau đây KHÔNG phải là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"random experiment\">phép thử ngẫu nhiên</b>?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">spinning a spinner with 5 equal sectors and reading the number</span><span class=\"vi\">quay một vòng quay có 5 hình quạt bằng nhau và xem kim chỉ vào số nào</span></span>",
+    "<span class=\"txi\"><span class=\"en\">dropping a stone and seeing whether it falls down</span><span class=\"vi\">thả một hòn đá và xem nó có rơi xuống không</span></span>",
+    "<span class=\"txi\"><span class=\"en\">drawing a card without looking from a box of cards numbered 1 to 10</span><span class=\"vi\">rút ngẫu nhiên một tấm thẻ từ hộp có 10 tấm thẻ đánh số từ 1 đến 10</span></span>",
+    "<span class=\"txi\"><span class=\"en\">rolling a die and reading the number on top</span><span class=\"vi\">gieo một con xúc xắc và xem số chấm xuất hiện</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. In a random experiment we cannot know the outcome in advance, but we know all the possible outcomes. Answer: dropping a stone and seeing whether it falls down.",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"random experiment\">Phép thử ngẫu nhiên</b>: không biết trước kết quả nhưng biết tất cả các kết quả có thể. Đáp án: thả một hòn đá và xem nó có rơi xuống không.",
+   "images": [],
+   "id": "eb8a638d8719",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "A bag has # balls numbered # to #. Take one ball, put it back, then take a second ball. The sample space has # outcomes.",
+   "en": "A bag has 3 balls numbered 1 to 3. Take one ball, put it back, then take a second ball. The sample space has 6 outcomes.",
+   "vi": "Một túi có 3 quả bóng đánh số từ 1 đến 3. Lấy một quả, trả lại túi, rồi lấy quả thứ hai. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sample space\">Không gian mẫu</b> có 6 kết quả.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. With replacement: \\(3\\cdot3=9\\) ordered pairs.",
+   "explain_vi": "Sai. Có trả lại: có \\(3\\cdot3=9\\) cặp có thứ tự.",
+   "images": [],
+   "id": "239836e8f140",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "A box has # cards numbered # to #. Draw one card, do not put it back, then draw a second card. The outcome \\((#;\\,#)\\) belongs to the sample space.",
+   "en": "A box has 7 cards numbered 1 to 7. Draw one card, do not put it back, then draw a second card. The outcome \\((1;\\,7)\\) belongs to the sample space.",
+   "vi": "Một hộp có 7 tấm thẻ đánh số từ 1 đến 7. Rút một thẻ, không trả lại hộp, rồi rút thẻ thứ hai. Kết quả \\((1;\\,7)\\) thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sample space\">không gian mẫu</b>.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. Two different cards: \\((1;\\,7)\\in\\Omega\\).",
+   "explain_vi": "Đúng. Hai thẻ khác nhau: \\((1;\\,7)\\in\\Omega\\).",
+   "images": [],
+   "id": "43bf5a9562a8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "A set lunch: choose one of # rice dishes, one of # soups and one of # fruits. A student chooses at random. How many outcomes does the sample space have?",
+   "en": "A set lunch: choose one of 3 rice dishes, one of 2 soups and one of 2 fruits. A student chooses at random. How many outcomes does the sample space have?",
+   "vi": "Một suất ăn trưa gồm: một trong 3 món cơm, một trong 2 món canh và một trong 2 loại trái cây. Một học sinh chọn ngẫu nhiên. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sample space\">Không gian mẫu</b> có bao nhiêu kết quả?",
+   "options": [],
+   "answer": "12",
+   "explain_en": "Answer: 12. Three steps: \\(3\\cdot2\\cdot2=12\\).",
+   "explain_vi": "Đáp số: 12. Ba bước chọn: \\(3\\cdot2\\cdot2=12\\).",
+   "images": [],
+   "id": "92fab5f5f309",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "The teacher chooses at random # of the # students An, Chi, Lan, Minh, Nam to clean the board (the order does not matter). How many outcomes does the sample space have?",
+   "en": "The teacher chooses at random 2 of the 5 students An, Chi, Lan, Minh, Nam to clean the board (the order does not matter). How many outcomes does the sample space have?",
+   "vi": "Cô giáo chọn ngẫu nhiên 2 trong 5 bạn An, Chi, Lan, Minh, Nam để lau bảng (không phân biệt thứ tự). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sample space\">Không gian mẫu</b> có bao nhiêu kết quả?",
+   "options": [],
+   "answer": "10",
+   "explain_en": "Answer: 10. List the pairs: An–Chi, An–Lan, An–Minh, An–Nam… In total \\(4+3+2+1=10\\).",
+   "explain_vi": "Đáp số: 10. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"listing method\">Liệt kê</b> các cặp: An–Chi, An–Lan, An–Minh, An–Nam… Tổng cộng \\(4+3+2+1=10\\).",
+   "images": [],
+   "id": "d4ab23c53153",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D1",
+   "type": "mcq",
+   "form": "A red die and a blue die are rolled; an outcome \\((a;\\,b)\\) means \\(a\\) on the red die and \\(b\\) on the blue die. Which statement is correct?",
+   "en": "A red die and a blue die are rolled; an outcome \\((a;\\,b)\\) means \\(a\\) on the red die and \\(b\\) on the blue die. Which statement is correct?",
+   "vi": "Gieo một con xúc xắc đỏ và một con xúc xắc xanh; kết quả \\((a;\\,b)\\) nghĩa là xúc xắc đỏ ra \\(a\\) chấm, xúc xắc xanh ra \\(b\\) chấm. Khẳng định nào đúng?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\((2;\\,5)\\) and \\((5;\\,2)\\) are different outcomes</span><span class=\"vi\">\\((2;\\,5)\\) và \\((5;\\,2)\\) là hai kết quả khác nhau</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the sample space has 12 outcomes</span><span class=\"vi\">không gian mẫu có 12 kết quả</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\((2;\\,5)\\) and \\((5;\\,2)\\) are the same outcome</span><span class=\"vi\">\\((2;\\,5)\\) và \\((5;\\,2)\\) là cùng một kết quả</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\((5;\\,2)\\) is not an outcome</span><span class=\"vi\">\\((5;\\,2)\\) không phải là kết quả có thể</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. The order matters: red 2 – blue 5 differs from red 5 – blue 2; \\(n(\\Omega)=36\\).",
+   "explain_vi": "Đáp án a. Có phân biệt thứ tự: đỏ 2 – xanh 5 khác đỏ 5 – xanh 2; <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sample space\">không gian mẫu</b> có 36 kết quả.",
+   "images": [],
+   "id": "6f2c680918ad",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D1",
+   "type": "mcq",
+   "form": "The spinner in the figure has # equal sectors. It is spun once and we read the number where the arrow stops. The sample space is…",
+   "en": "The spinner in the figure has 4 equal sectors. It is spun once and we read the number where the arrow stops. The sample space is…<img src=\"../../../img/tex/05e9f526420c6dd7.svg\" alt=\"Spinner\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,260px);height:auto\">",
+   "vi": "Vòng quay trong hình có 4 hình quạt bằng nhau. Quay một lần và đọc số mà kim chỉ vào khi dừng. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sample space\">Không gian mẫu</b> là…<img src=\"../../../img/tex/05e9f526420c6dd7.svg\" alt=\"Vòng quay\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,260px);height:auto\">",
+   "options": [
+    "\\(\\Omega=\\{10;\\,11;\\,12;\\,13\\}\\)",
+    "\\(\\Omega=\\{10;\\,11;\\,12\\}\\)",
+    "\\(\\Omega=\\{1;\\,2;\\,3;\\,4\\}\\)",
+    "\\(\\Omega=\\{4\\}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. All numbers on the spinner: \\(\\Omega=\\{10;\\,11;\\,12;\\,13\\}\\).",
+   "explain_vi": "Đáp án a. Tất cả các số trên vòng quay: \\(\\Omega=\\{10;\\,11;\\,12;\\,13\\}\\).",
+   "images": [
+    "img/tex/05e9f526420c6dd7.svg"
+   ],
+   "id": "3163f45b8b1a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Two dice are rolled. Which of the following is NOT an outcome?",
+   "en": "Two dice are rolled. Which of the following is NOT an outcome?",
+   "vi": "Gieo hai con xúc xắc. Kết quả nào sau đây KHÔNG thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sample space\">không gian mẫu</b>?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\((6;\\,2)\\)</span><span class=\"vi\">\\((6;\\,2)\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\((2;\\,6)\\)</span><span class=\"vi\">\\((2;\\,6)\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\((3;\\,3)\\)</span><span class=\"vi\">\\((3;\\,3)\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\((2;\\,0)\\)</span><span class=\"vi\">\\((2;\\,0)\\)</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Each die shows a number from 1 to 6.",
+   "explain_vi": "Đáp án d. Mỗi con xúc xắc ra từ 1 đến 6 chấm.",
+   "images": [],
+   "id": "99d610da927a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D2",
+   "type": "mcq",
+   "form": "A bag has # balls: red (R), blue (B), yellow (Y) (one of each color). Take one ball at random, then toss a coin (H: heads, T: tails). Which is the sample space?",
+   "en": "A bag has 3 balls: red (R), blue (B), yellow (Y) (one of each color). Take one ball at random, then toss a coin (H: heads, T: tails). Which is the sample space?",
+   "vi": "Một túi có 3 quả bóng: đỏ (Đ), xanh (X), vàng (V) (mỗi màu một quả). Lấy ngẫu nhiên một quả bóng rồi gieo một đồng xu (N: ngửa, S: sấp). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sample space\">Không gian mẫu</b> là…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(\\Omega=\\{(R;\\,H);\\,(B;\\,H);\\,(Y;\\,H)\\}\\)</span><span class=\"vi\">\\(\\Omega=\\{(Đ;\\,N);\\,(X;\\,N);\\,(V;\\,N)\\}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(\\Omega=\\{R;\\,B;\\,Y;\\,H;\\,T\\}\\)</span><span class=\"vi\">\\(\\Omega=\\{Đ;\\,X;\\,V;\\,N;\\,S\\}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(\\Omega=\\{(H;\\,R);\\,(H;\\,B);\\,(H;\\,Y);\\,(T;\\,R);\\,(T;\\,B)\\}\\)</span><span class=\"vi\">\\(\\Omega=\\{(N;\\,Đ);\\,(N;\\,X);\\,(N;\\,V);\\,(S;\\,Đ);\\,(S;\\,X)\\}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(\\Omega=\\{(R;\\,H);\\,(R;\\,T);\\,(B;\\,H);\\,(B;\\,T);\\,(Y;\\,H);\\,(Y;\\,T)\\}\\)</span><span class=\"vi\">\\(\\Omega=\\{(Đ;\\,N);\\,(Đ;\\,S);\\,(X;\\,N);\\,(X;\\,S);\\,(V;\\,N);\\,(V;\\,S)\\}\\)</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Each outcome is a pair (ball; coin): \\(3\\cdot2=6\\) outcomes.",
+   "explain_vi": "Đáp án d. Mỗi kết quả là một cặp (bóng; đồng xu): có \\(3\\cdot2=6\\) kết quả.",
+   "images": [],
+   "id": "2e7883fd6a89",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D2",
+   "type": "mcq",
+   "form": "A box contains cards numbered # to #. Take one, put it back, then take one more. How many outcomes does the sample space have (the order matters)?",
+   "en": "A box contains cards numbered 1 to 5. Take one, put it back, then take one more. How many outcomes does the sample space have (the order matters)?",
+   "vi": "Một hộp có 5 tấm thẻ đánh số từ 1 đến 5. Lấy ra một chiếc, trả lại hộp, rồi lấy tiếp một chiếc nữa. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sample space\">Không gian mẫu</b> có bao nhiêu kết quả (có phân biệt thứ tự)?",
+   "options": [
+    "\\(26\\)",
+    "\\(20\\)",
+    "\\(25\\)",
+    "\\(10\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. 5 choices for the first and 5 for the second: \\(5\\cdot5=25\\).",
+   "explain_vi": "Đáp án c. Lần đầu có 5 cách, lần sau có 5 cách: \\(5\\cdot5=25\\).",
+   "images": [],
+   "id": "30fd096b50ec",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D2",
+   "type": "mcq",
+   "form": "The tree diagram shows how Hoa chooses breakfast at random. How many outcomes contain pho?",
+   "en": "The tree diagram shows how Hoa chooses breakfast at random. How many outcomes contain pho?<img src=\"../../../img/tex/5f1d91004f84d4ad.svg\" alt=\"Tree diagram\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,420px);height:auto\">",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"tree diagram\">Sơ đồ hình cây</b> cho biết cách Hoa chọn ngẫu nhiên bữa sáng. Có bao nhiêu kết quả có món phở?<img src=\"../../../img/tex/2a5f751e30ee709d.svg\" alt=\"Sơ đồ hình cây\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,420px);height:auto\">",
+   "options": [
+    "\\(4\\)",
+    "\\(9\\)",
+    "\\(3\\)",
+    "\\(1\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The branch “pho” has 3 drinks after it.",
+   "explain_vi": "Đáp án c. Nhánh “phở” có 3 nhánh đồ uống.",
+   "images": [
+    "img/tex/2a5f751e30ee709d.svg",
+    "img/tex/5f1d91004f84d4ad.svg"
+   ],
+   "id": "e3ed3d4e0dfa",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D3",
+   "type": "mcq",
+   "form": "A locker code has one letter from X, Y, Z followed by one digit from # to #. A code is chosen at random. How many outcomes are there? Give one example.",
+   "en": "A locker code has one letter from X, Y, Z followed by one digit from 1 to 6. A code is chosen at random. How many outcomes are there? Give one example.",
+   "vi": "Mã khóa tủ gồm một chữ cái trong các chữ X, Y, Z, theo sau là một chữ số từ 1 đến 6. Chọn ngẫu nhiên một mã. Có bao nhiêu kết quả có thể? Nêu một ví dụ.",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">18 outcomes, e.g. X7</span><span class=\"vi\">18 kết quả, ví dụ X7</span></span>",
+    "<span class=\"txi\"><span class=\"en\">9 outcomes, e.g. X1</span><span class=\"vi\">9 kết quả, ví dụ X1</span></span>",
+    "<span class=\"txi\"><span class=\"en\">18 outcomes, e.g. 6X</span><span class=\"vi\">18 kết quả, ví dụ 6X</span></span>",
+    "<span class=\"txi\"><span class=\"en\">18 outcomes, e.g. Z6</span><span class=\"vi\">18 kết quả, ví dụ Z6</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(3\\cdot6=18\\) codes; the letter comes first and the digit is from 1 to 6.",
+   "explain_vi": "Đáp án d. \\(3\\cdot6=18\\) mã; chữ cái đứng trước, chữ số từ 1 đến 6.",
+   "images": [],
+   "id": "ac96ba8b1f55",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Spinner # has the numbers # to # and spinner # has the letters A, B, C, D, E. The table lists the sample space of spinning both (# outcomes). Which outcome is hidden by “?”?Spinner # \\ Spinner #ABCDE#\\((#;\\,A)\\)?\\((#;\\,C)\\)\\((#;\\,D)\\)\\((#;\\,E)\\)#\\((#;\\,A)\\)\\((#;\\,B)\\)\\((#;\\,C)\\)\\((#;\\,D)\\)\\((#;\\,E)\\)#\\((#;\\,A)\\)\\((#;\\,B)\\)\\((#;\\,C)\\)\\((#;\\,D)\\)\\((#;\\,E)\\)",
+   "en": "Spinner 1 has the numbers 1 to 3 and spinner 2 has the letters A, B, C, D, E. The table lists the sample space of spinning both (15 outcomes). Which outcome is hidden by “?”?<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"col\">Spinner 1 \\ Spinner 2</th><th scope=\"col\">A</th><th scope=\"col\">B</th><th scope=\"col\">C</th><th scope=\"col\">D</th><th scope=\"col\">E</th></tr><tr><th scope=\"row\">1</th><td>\\((1;\\,A)\\)</td><td>?</td><td>\\((1;\\,C)\\)</td><td>\\((1;\\,D)\\)</td><td>\\((1;\\,E)\\)</td></tr><tr><th scope=\"row\">2</th><td>\\((2;\\,A)\\)</td><td>\\((2;\\,B)\\)</td><td>\\((2;\\,C)\\)</td><td>\\((2;\\,D)\\)</td><td>\\((2;\\,E)\\)</td></tr><tr><th scope=\"row\">3</th><td>\\((3;\\,A)\\)</td><td>\\((3;\\,B)\\)</td><td>\\((3;\\,C)\\)</td><td>\\((3;\\,D)\\)</td><td>\\((3;\\,E)\\)</td></tr></tbody></table></div>",
+   "vi": "Vòng quay 1 có các số từ 1 đến 3, vòng quay 2 có các chữ A, B, C, D, E. Bảng dưới <b class=\"mbl-term\" tabindex=\"0\" data-en=\"listing method\">liệt kê</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sample space\">không gian mẫu</b> khi quay cả hai vòng (15 kết quả). Ô “?” là kết quả nào?<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"col\">Vòng 1 \\ Vòng 2</th><th scope=\"col\">A</th><th scope=\"col\">B</th><th scope=\"col\">C</th><th scope=\"col\">D</th><th scope=\"col\">E</th></tr><tr><th scope=\"row\">1</th><td>\\((1;\\,A)\\)</td><td>?</td><td>\\((1;\\,C)\\)</td><td>\\((1;\\,D)\\)</td><td>\\((1;\\,E)\\)</td></tr><tr><th scope=\"row\">2</th><td>\\((2;\\,A)\\)</td><td>\\((2;\\,B)\\)</td><td>\\((2;\\,C)\\)</td><td>\\((2;\\,D)\\)</td><td>\\((2;\\,E)\\)</td></tr><tr><th scope=\"row\">3</th><td>\\((3;\\,A)\\)</td><td>\\((3;\\,B)\\)</td><td>\\((3;\\,C)\\)</td><td>\\((3;\\,D)\\)</td><td>\\((3;\\,E)\\)</td></tr></tbody></table></div>",
+   "options": [
+    "\\((1;\\,C)\\)",
+    "\\((B;\\,1)\\)",
+    "\\((1;\\,B)\\)",
+    "\\((2;\\,B)\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Row 1 and column B: \\((1;\\,B)\\).",
+   "explain_vi": "Đáp án c. Hàng 1, cột B: \\((1;\\,B)\\).",
+   "images": [],
+   "id": "32c368ba5544",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Use a tree diagram: when a family has three children (B: boy, G: girl, in order of birth), how many outcomes does the sample space have?",
+   "en": "Use a tree diagram: when a family has three children (B: boy, G: girl, in order of birth), how many outcomes does the sample space have?",
+   "vi": "Dùng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tree diagram\">sơ đồ hình cây</b>: khi một gia đình có ba con (T: trai, G: gái, theo thứ tự sinh), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sample space\">không gian mẫu</b> có bao nhiêu kết quả?",
+   "options": [
+    "\\(8\\)",
+    "\\(6\\)",
+    "\\(4\\)",
+    "\\(16\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Each step doubles the branches: \\(2^{3}=8\\).",
+   "explain_vi": "Đáp án a. Mỗi bước nhân đôi số nhánh: \\(2^{3}=8\\).",
+   "images": [],
+   "id": "7f4375d1ca83",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D4",
+   "type": "mcq",
+   "form": "# teams play a football tournament; every two teams play each other exactly once. A reporter chooses one match at random to write about. How many outcomes does the sample space have?",
+   "en": "5 teams play a football tournament; every two teams play each other exactly once. A reporter chooses one match at random to write about. How many outcomes does the sample space have?",
+   "vi": "5 đội bóng thi đấu vòng tròn một lượt (hai đội bất kì gặp nhau đúng một lần). Một phóng viên chọn ngẫu nhiên một trận để viết bài. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sample space\">Không gian mẫu</b> có bao nhiêu kết quả?",
+   "options": [
+    "\\(10\\)",
+    "\\(25\\)",
+    "\\(5\\)",
+    "\\(20\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. The matches are the unordered pairs of teams: \\(\\dfrac{5\\cdot4}{2}=10\\).",
+   "explain_vi": "Đáp án a. Mỗi trận ứng với một cặp đội không phân biệt thứ tự: \\(\\dfrac{5\\cdot4}{2}=10\\).",
+   "images": [],
+   "id": "537ef2bb33cc",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A security code is one letter (from # letters) followed by two DIFFERENT digits chosen from #, #, #, #. A code is chosen at random. How many outcomes does the sample space have?",
+   "en": "A security code is one letter (from 2 letters) followed by two DIFFERENT digits chosen from 1, 2, 3, 4. A code is chosen at random. How many outcomes does the sample space have?",
+   "vi": "Mã bảo mật gồm một chữ cái (trong 2 chữ cái) theo sau là hai chữ số KHÁC NHAU lấy từ 1, 2, 3, 4. Chọn ngẫu nhiên một mã. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sample space\">Không gian mẫu</b> có bao nhiêu kết quả?",
+   "options": [
+    "\\(24\\)",
+    "\\(9\\)",
+    "\\(32\\)",
+    "\\(8\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Tree diagram: 2 letters, then 4 digits, then 3 digits: \\(2\\cdot4\\cdot3=24\\).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tree diagram\">Sơ đồ hình cây</b>: 2 chữ cái, rồi 4 chữ số, rồi 3 chữ số: \\(2\\cdot4\\cdot3=24\\).",
+   "images": [],
+   "id": "6077fdfddcc1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D4",
+   "type": "mcq",
+   "form": "Toss a coin. If it shows heads, roll a die; if it shows tails, spin a spinner with # equal sectors numbered # to #. How many outcomes does the sample space have?",
+   "en": "Toss a coin. If it shows heads, roll a die; if it shows tails, spin a spinner with 5 equal sectors numbered 1 to 5. How many outcomes does the sample space have?",
+   "vi": "Gieo một đồng xu. Nếu được mặt ngửa thì gieo tiếp một con xúc xắc; nếu được mặt sấp thì quay một vòng quay có 5 hình quạt bằng nhau đánh số từ 1 đến 5. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sample space\">Không gian mẫu</b> có bao nhiêu kết quả?",
+   "options": [
+    "\\(10\\)",
+    "\\(11\\)",
+    "\\(30\\)",
+    "\\(12\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Tree diagram: the heads branch has 6 outcomes, the tails branch has 5: \\(6+5=11\\).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tree diagram\">Sơ đồ hình cây</b>: nhánh ngửa có 6 kết quả, nhánh sấp có 5 kết quả: \\(6+5=11\\).",
+   "images": [],
+   "id": "8c3180d8928e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  }
+ ]
+}

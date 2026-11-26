@@ -1,0 +1,40 @@
+\documentclass[border=4pt]{standalone}
+\usepackage{fontspec}
+\usepackage{amsmath}
+\usepackage{unicode-math}
+\setmainfont{Latin Modern Roman}
+\setmathfont{Latin Modern Math}
+\usepackage{pgfplots}
+\usepackage{pgfplotstable}
+\pgfplotsset{compat=1.18}
+\usepackage{tkz-euclide}
+\usetikzlibrary{arrows.meta,calc,angles,quotes,patterns,3d,backgrounds}
+\definecolor{ink}{HTML}{123428}
+\definecolor{asy}{HTML}{475569}
+\definecolor{mint}{HTML}{86e0bd}
+\tikzset{asym/.style={asy, line width=0.9pt, dash pattern=on 5pt off 3.5pt},
+         guide/.style={gray!70, line width=0.6pt, densely dotted},
+         dot/.style={circle, inner sep=0pt, minimum size=5pt, draw=white, line width=0.5pt},
+         odot/.style={circle, inner sep=0pt, minimum size=5.5pt, fill=white, line width=1pt},
+         lab/.style={font=\footnotesize, inner sep=1.5pt, text=ink}}
+\begin{document}
+\begin{tikzpicture}
+\draw[color={rgb,255:red,4;green,107;blue,77}, line width=1.1pt] (0,0) circle (1.900);
+\draw[ink, line width=0.85pt] (-0.650,1.785) -- (-1.556,-1.090);
+\draw[ink, line width=0.85pt] (-1.556,-1.090) -- (0.950,-1.645);
+\draw[ink, line width=0.85pt] (0.950,-1.645) -- (1.645,0.950);
+\draw[ink, line width=0.85pt] (1.645,0.950) -- (-0.650,1.785);
+\draw[color={rgb,255:red,194;green,65;blue,12}, line width=0.9pt] (-0.776,1.385) -- (-0.745,1.376) -- (-0.714,1.370) -- (-0.682,1.367) -- (-0.650,1.365) -- (-0.618,1.367) -- (-0.586,1.370) -- (-0.554,1.376) -- (-0.524,1.385) -- (-0.493,1.396) -- (-0.464,1.409) -- (-0.436,1.424) -- (-0.409,1.441) -- (-0.383,1.461) -- (-0.359,1.482) -- (-0.337,1.505) -- (-0.317,1.530) -- (-0.298,1.556) -- (-0.282,1.583) -- (-0.267,1.612) -- (-0.255,1.642);
+\draw[color={rgb,255:red,194;green,65;blue,12}, line width=0.9pt] (1.059,-1.240) -- (1.026,-1.232) -- (0.992,-1.228) -- (0.958,-1.226) -- (0.924,-1.226) -- (0.891,-1.230) -- (0.857,-1.236) -- (0.825,-1.245) -- (0.793,-1.256) -- (0.762,-1.270) -- (0.732,-1.286) -- (0.704,-1.305) -- (0.677,-1.326) -- (0.652,-1.349) -- (0.629,-1.374) -- (0.609,-1.401) -- (0.590,-1.429) -- (0.574,-1.459) -- (0.560,-1.490) -- (0.549,-1.522) -- (0.540,-1.555);
+\fill[color={rgb,255:red,31;green,41;blue,55}] (-0.650,1.785) circle (2.2pt);
+\fill[color={rgb,255:red,31;green,41;blue,55}] (-1.556,-1.090) circle (2.2pt);
+\fill[color={rgb,255:red,31;green,41;blue,55}] (0.950,-1.645) circle (2.2pt);
+\fill[color={rgb,255:red,31;green,41;blue,55}] (1.645,0.950) circle (2.2pt);
+\fill[color={rgb,255:red,31;green,41;blue,55}] (0.000,0.000) circle (2.2pt);
+\node[font=\small, text=ink, inner sep=0.5pt] at (-0.766,2.105) {$A$};
+\node[font=\small, text=ink, inner sep=0.5pt] at (-1.835,-1.285) {$B$};
+\node[font=\small, text=ink, inner sep=0.5pt] at (1.120,-1.940) {$C$};
+\node[font=\small, text=ink, inner sep=0.5pt] at (1.940,1.120) {$D$};
+\node[font=\small, text=ink, inner sep=0.5pt] at (-0.103,-0.282) {$O$};
+\end{tikzpicture}
+\end{document}

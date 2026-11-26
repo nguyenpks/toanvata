@@ -1,0 +1,63 @@
+\documentclass[border=4pt]{standalone}
+\usepackage{fontspec}
+\usepackage{amsmath}
+\usepackage{unicode-math}
+\setmainfont{Latin Modern Roman}
+\setmathfont{Latin Modern Math}
+\usepackage{pgfplots}
+\usepackage{pgfplotstable}
+\pgfplotsset{compat=1.18}
+\usepackage{tkz-euclide}
+\usetikzlibrary{arrows.meta,calc,angles,quotes,patterns,3d,backgrounds}
+\definecolor{ink}{HTML}{123428}
+\definecolor{asy}{HTML}{475569}
+\definecolor{mint}{HTML}{86e0bd}
+\tikzset{asym/.style={asy, line width=0.9pt, dash pattern=on 5pt off 3.5pt},
+         guide/.style={gray!70, line width=0.6pt, densely dotted},
+         dot/.style={circle, inner sep=0pt, minimum size=5pt, draw=white, line width=0.5pt},
+         odot/.style={circle, inner sep=0pt, minimum size=5.5pt, fill=white, line width=1pt},
+         lab/.style={font=\footnotesize, inner sep=1.5pt, text=ink}}
+\begin{document}
+\begin{tikzpicture}
+\draw[gray!25, line width=0.4pt] (0,0.629) -- (8.200,0.629);
+\draw[gray!25, line width=0.4pt] (0,1.257) -- (8.200,1.257);
+\draw[gray!25, line width=0.4pt] (0,1.886) -- (8.200,1.886);
+\draw[gray!25, line width=0.4pt] (0,2.514) -- (8.200,2.514);
+\draw[gray!25, line width=0.4pt] (0,3.143) -- (8.200,3.143);
+\draw[gray!25, line width=0.4pt] (0,3.771) -- (8.200,3.771);
+\draw[gray!25, line width=0.4pt] (0,4.400) -- (8.200,4.400);
+\draw[ink!85, line width=0.7pt, -{Stealth[length=2.4mm]}] (0,0) -- (8.600,0);
+\draw[ink!85, line width=0.7pt, -{Stealth[length=2.4mm]}] (0,0) -- (0,4.900);
+\draw[ink!40, dash pattern=on 2pt off 2pt] (0.800,0) -- (0.800,1.886);
+\draw[ink!40, dash pattern=on 2pt off 2pt] (2.400,0) -- (2.400,3.143);
+\draw[ink!40, dash pattern=on 2pt off 2pt] (4.000,0) -- (4.000,3.771);
+\draw[ink!40, dash pattern=on 2pt off 2pt] (5.600,0) -- (5.600,2.514);
+\draw[ink!40, dash pattern=on 2pt off 2pt] (7.200,0) -- (7.200,1.257);
+\draw[color={rgb,255:red,194;green,65;blue,12}, line width=1.3pt] (0.800,1.886) -- (2.400,3.143) -- (4.000,3.771) -- (5.600,2.514) -- (7.200,1.257);
+\fill[color={rgb,255:red,194;green,65;blue,12}] (0.800,1.886) circle (2.4pt);
+\node[font=\footnotesize, text=ink, below right=2pt] at (0.800,1.886) {$15\%$};
+\draw[ink!70] (0.800,0) -- (0.800,-0.08) node[below, font=\small, text=ink] {$7.5$};
+\fill[color={rgb,255:red,194;green,65;blue,12}] (2.400,3.143) circle (2.4pt);
+\node[font=\footnotesize, text=ink, above left=1pt] at (2.400,3.143) {$25\%$};
+\draw[ink!70] (2.400,0) -- (2.400,-0.08) node[below, font=\small, text=ink] {$12.5$};
+\fill[color={rgb,255:red,194;green,65;blue,12}] (4.000,3.771) circle (2.4pt);
+\node[font=\footnotesize, text=ink, above=3pt] at (4.000,3.771) {$30\%$};
+\draw[ink!70] (4.000,0) -- (4.000,-0.08) node[below, font=\small, text=ink] {$17.5$};
+\fill[color={rgb,255:red,194;green,65;blue,12}] (5.600,2.514) circle (2.4pt);
+\node[font=\footnotesize, text=ink, above right=1pt] at (5.600,2.514) {$20\%$};
+\draw[ink!70] (5.600,0) -- (5.600,-0.08) node[below, font=\small, text=ink] {$22.5$};
+\fill[color={rgb,255:red,194;green,65;blue,12}] (7.200,1.257) circle (2.4pt);
+\node[font=\footnotesize, text=ink, below right=2pt] at (7.200,1.257) {$10\%$};
+\draw[ink!70] (7.200,0) -- (7.200,-0.08) node[below, font=\small, text=ink] {$27.5$};
+\draw[ink!70] (0,0.629) -- (-0.08,0.629) node[left, font=\small, text=ink] {$5\%$};
+\draw[ink!70] (0,1.257) -- (-0.08,1.257) node[left, font=\small, text=ink] {$10\%$};
+\draw[ink!70] (0,1.886) -- (-0.08,1.886) node[left, font=\small, text=ink] {$15\%$};
+\draw[ink!70] (0,2.514) -- (-0.08,2.514) node[left, font=\small, text=ink] {$20\%$};
+\draw[ink!70] (0,3.143) -- (-0.08,3.143) node[left, font=\small, text=ink] {$25\%$};
+\draw[ink!70] (0,3.771) -- (-0.08,3.771) node[left, font=\small, text=ink] {$30\%$};
+\draw[ink!70] (0,4.400) -- (-0.08,4.400) node[left, font=\small, text=ink] {$35\%$};
+\node[font=\small, text=ink, anchor=north east] at (8.600,-0.55) {Time (minutes)};
+\node[font=\small, text=ink, anchor=south west] at (0.12,4.900) {Relative frequency};
+\node[font=\bfseries\small, text=ink] at (4.000,5.850) {Time to school of 40 students in class 9A};
+\end{tikzpicture}
+\end{document}

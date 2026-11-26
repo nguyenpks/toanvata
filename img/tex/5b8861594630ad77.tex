@@ -1,0 +1,55 @@
+\documentclass[border=4pt]{standalone}
+\usepackage{fontspec}
+\usepackage{amsmath}
+\usepackage{unicode-math}
+\setmainfont{Latin Modern Roman}
+\setmathfont{Latin Modern Math}
+\usepackage{pgfplots}
+\usepackage{pgfplotstable}
+\pgfplotsset{compat=1.18}
+\usepackage{tkz-euclide}
+\usetikzlibrary{arrows.meta,calc,angles,quotes,patterns,3d,backgrounds}
+\definecolor{ink}{HTML}{123428}
+\definecolor{asy}{HTML}{475569}
+\definecolor{mint}{HTML}{86e0bd}
+\tikzset{asym/.style={asy, line width=0.9pt, dash pattern=on 5pt off 3.5pt},
+         guide/.style={gray!70, line width=0.6pt, densely dotted},
+         dot/.style={circle, inner sep=0pt, minimum size=5pt, draw=white, line width=0.5pt},
+         odot/.style={circle, inner sep=0pt, minimum size=5.5pt, fill=white, line width=1pt},
+         lab/.style={font=\footnotesize, inner sep=1.5pt, text=ink}}
+\begin{document}
+\begin{tikzpicture}
+\draw[gray!25, line width=0.4pt] (0,0.880) -- (8.200,0.880);
+\draw[gray!25, line width=0.4pt] (0,1.760) -- (8.200,1.760);
+\draw[gray!25, line width=0.4pt] (0,2.640) -- (8.200,2.640);
+\draw[gray!25, line width=0.4pt] (0,3.520) -- (8.200,3.520);
+\draw[gray!25, line width=0.4pt] (0,4.400) -- (8.200,4.400);
+\draw[ink!85, line width=0.7pt, -{Stealth[length=2.4mm]}] (0,0) -- (8.600,0);
+\draw[ink!85, line width=0.7pt, -{Stealth[length=2.4mm]}] (0,0) -- (0,4.900);
+\draw[ink!40, dash pattern=on 2pt off 2pt] (1.000,0) -- (1.000,3.872);
+\draw[ink!40, dash pattern=on 2pt off 2pt] (3.000,0) -- (3.000,0.704);
+\draw[ink!40, dash pattern=on 2pt off 2pt] (5.000,0) -- (5.000,2.816);
+\draw[ink!40, dash pattern=on 2pt off 2pt] (7.000,0) -- (7.000,1.408);
+\draw[color={rgb,255:red,194;green,65;blue,12}, line width=1.3pt] (1.000,3.872) -- (3.000,0.704) -- (5.000,2.816) -- (7.000,1.408);
+\fill[color={rgb,255:red,194;green,65;blue,12}] (1.000,3.872) circle (2.4pt);
+\node[font=\footnotesize, text=ink, above=3pt] at (1.000,3.872) {$44\%$};
+\draw[ink!70] (1.000,0) -- (1.000,-0.08) node[below, font=\small, text=ink] {$15$};
+\fill[color={rgb,255:red,194;green,65;blue,12}] (3.000,0.704) circle (2.4pt);
+\node[font=\footnotesize, text=ink, below right=2pt] at (3.000,0.704) {$8\%$};
+\draw[ink!70] (3.000,0) -- (3.000,-0.08) node[below, font=\small, text=ink] {$25$};
+\fill[color={rgb,255:red,194;green,65;blue,12}] (5.000,2.816) circle (2.4pt);
+\node[font=\footnotesize, text=ink, above=3pt] at (5.000,2.816) {$32\%$};
+\draw[ink!70] (5.000,0) -- (5.000,-0.08) node[below, font=\small, text=ink] {$35$};
+\fill[color={rgb,255:red,194;green,65;blue,12}] (7.000,1.408) circle (2.4pt);
+\node[font=\footnotesize, text=ink, below right=2pt] at (7.000,1.408) {$16\%$};
+\draw[ink!70] (7.000,0) -- (7.000,-0.08) node[below, font=\small, text=ink] {$45$};
+\draw[ink!70] (0,0.880) -- (-0.08,0.880) node[left, font=\small, text=ink] {$10\%$};
+\draw[ink!70] (0,1.760) -- (-0.08,1.760) node[left, font=\small, text=ink] {$20\%$};
+\draw[ink!70] (0,2.640) -- (-0.08,2.640) node[left, font=\small, text=ink] {$30\%$};
+\draw[ink!70] (0,3.520) -- (-0.08,3.520) node[left, font=\small, text=ink] {$40\%$};
+\draw[ink!70] (0,4.400) -- (-0.08,4.400) node[left, font=\small, text=ink] {$50\%$};
+\node[font=\small, text=ink, anchor=north east] at (8.600,-0.55) {Lượng mưa (mm)};
+\node[font=\small, text=ink, anchor=south west] at (0.12,4.900) {Tần số tương đối};
+\node[font=\bfseries\small, text=ink] at (4.000,5.850) {Biểu đồ tần số tương đối ghép nhóm dạng đoạn thẳng};
+\end{tikzpicture}
+\end{document}

@@ -1,0 +1,1282 @@
+{
+ "lesson": "g9-inscribed-04",
+ "grade": 9,
+ "no": 30,
+ "title": "Đa giác đều",
+ "path": "lessons/grade9/circumcircle-incircle/regular-polygons.html",
+ "items": [
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Find each interior angle of a regular hexagon.",
+   "en": "Find each interior angle of a regular hexagon.",
+   "vi": "Tính số đo mỗi góc trong của lục giác đều.",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(120^\\circ\\)</span><span class=\"vi\">\\(120^\\circ\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(125^\\circ\\)</span><span class=\"vi\">\\(125^\\circ\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(60^\\circ\\)</span><span class=\"vi\">\\(60^\\circ\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(150^\\circ\\)</span><span class=\"vi\">\\(150^\\circ\\)</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Sum of interior angles \\((6-2)\\cdot180^\\circ=720^\\circ\\); each angle \\(\\dfrac{720^\\circ}{6}=120^\\circ\\).",
+   "explain_vi": "Đáp án a. Tổng các góc trong \\((6-2)\\cdot180^\\circ=720^\\circ\\); mỗi góc \\(\\dfrac{720^\\circ}{6}=120^\\circ\\).",
+   "images": [],
+   "id": "9f0d4b4ced5b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "What is the central angle of a regular octagon (the angle subtended at the center by one side)?",
+   "en": "What is the central angle of a regular octagon (the angle subtended at the center by one side)?<img src=\"../../../img/tex/24ee6d2de56d0fa3.svg\" alt=\"Figure\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"central angle\">Góc ở tâm</b> của bát giác đều (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"central angle\">góc ở tâm</b> chắn một cạnh) bằng bao nhiêu?<img src=\"../../../img/tex/24ee6d2de56d0fa3.svg\" alt=\"Hình vẽ\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(22.5^\\circ\\)</span><span class=\"vi\">\\(22{,}5^\\circ\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(135^\\circ\\)</span><span class=\"vi\">\\(135^\\circ\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(45^\\circ\\)</span><span class=\"vi\">\\(45^\\circ\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(90^\\circ\\)</span><span class=\"vi\">\\(90^\\circ\\)</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\dfrac{360^\\circ}{8}=45^\\circ\\).",
+   "explain_vi": "Đáp án c. \\(\\dfrac{360^\\circ}{8}=45^\\circ\\).",
+   "images": [
+    "img/tex/24ee6d2de56d0fa3.svg"
+   ],
+   "id": "08d5a0eb96b1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Which figure is NOT a regular polygon?",
+   "en": "Which figure is NOT a regular polygon?",
+   "vi": "Hình nào sau đây KHÔNG phải là đa giác đều?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">an isosceles right triangle</span><span class=\"vi\">tam giác vuông cân</span></span>",
+    "<span class=\"txi\"><span class=\"en\">an equilateral triangle</span><span class=\"vi\">tam giác đều</span></span>",
+    "<span class=\"txi\"><span class=\"en\">a square</span><span class=\"vi\">hình vuông</span></span>",
+    "<span class=\"txi\"><span class=\"en\">a regular hexagon</span><span class=\"vi\">lục giác đều</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. A regular polygon has all sides equal and all angles equal.",
+   "explain_vi": "Đáp án a. Đa giác đều là đa giác có tất cả các cạnh bằng nhau và tất cả các góc bằng nhau.",
+   "images": [],
+   "id": "611d623599e6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "A regular hexagon is inscribed in a circle of radius # cm. Each side of the hexagon is \\(#\\) cm long.",
+   "en": "A regular hexagon is inscribed in a circle of radius 18 cm. Each side of the hexagon is \\(18\\) cm long.",
+   "vi": "Một lục giác đều nội tiếp <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 18 cm. Mỗi cạnh của lục giác dài \\(18\\) cm.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. The central angle is \\(60^\\circ\\), so each triangle \\(OAB\\) is equilateral: side \\(=R=18\\) cm.",
+   "explain_vi": "Đúng. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"central angle\">Góc ở tâm</b> bằng \\(60^\\circ\\) nên mỗi tam giác \\(OAB\\) đều: cạnh \\(=R=18\\) cm.",
+   "images": [],
+   "id": "4f4ace9bdeb8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "The rotation about the center \\(O\\) through \\(#^\\circ\\) maps the square onto itself.",
+   "en": "The rotation about the center \\(O\\) through \\(20^\\circ\\) maps the square onto itself.",
+   "vi": "Phép quay tâm \\(O\\) góc \\(20^\\circ\\) biến hình vuông thành chính nó.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. It works exactly for multiples of \\(\\dfrac{360^\\circ}{4}=90^\\circ\\). 20 is not a multiple of 90.",
+   "explain_vi": "Sai. Chỉ đúng khi góc quay là bội của \\(\\dfrac{360^\\circ}{4}=90^\\circ\\). 20 không là bội của 90.",
+   "images": [],
+   "id": "8fbf5784b1a2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "How many rotations about its center with angle \\(\\alpha\\), \\(#^\\circ\\lt\\alpha\\le#^\\circ\\), map a regular #-gon onto itself?",
+   "en": "How many rotations about its center with angle \\(\\alpha\\), \\(0^\\circ\\lt\\alpha\\le360^\\circ\\), map a regular 12-gon onto itself?",
+   "vi": "Có bao nhiêu phép quay tâm \\(O\\) góc \\(\\alpha\\) (\\(0^\\circ\\lt\\alpha\\le360^\\circ\\)) biến đa giác đều 12 cạnh tâm \\(O\\) thành chính nó?",
+   "options": [],
+   "answer": "12",
+   "explain_en": "Answer: 12. The angles \\(30^\\circ, 60^\\circ, \\dots, 360^\\circ\\): 12 rotations.",
+   "explain_vi": "Đáp số: 12. Các góc \\(30^\\circ, 60^\\circ, \\dots, 360^\\circ\\): có 12 phép quay.",
+   "images": [],
+   "id": "44d06af3dafa",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "The central angle of a regular polygon is \\(#^\\circ\\). How many sides does it have?",
+   "en": "The central angle of a regular polygon is \\(45^\\circ\\). How many sides does it have?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"central angle\">Góc ở tâm</b> của một đa giác đều bằng \\(45^\\circ\\). Đa giác đó có bao nhiêu cạnh?",
+   "options": [],
+   "answer": "8",
+   "explain_en": "Answer: 8. \\(n=\\dfrac{360}{45}=8\\).",
+   "explain_vi": "Đáp số: 8. \\(n=\\dfrac{360}{45}=8\\).",
+   "images": [],
+   "id": "a105692b8944",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D1",
+   "type": "mcq",
+   "form": "The rotations that map the square \\(ABCD\\) onto itself have their center at…",
+   "en": "The rotations that map the square \\(ABCD\\) onto itself have their center at…<img src=\"../../../img/tex/8400bb0075e1f8c8.svg\" alt=\"Figure\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Các phép quay biến hình vuông \\(ABCD\\) thành chính nó có tâm quay là…<img src=\"../../../img/tex/8400bb0075e1f8c8.svg\" alt=\"Hình vẽ\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">the midpoint of \\(AB\\)</span><span class=\"vi\">trung điểm của \\(AB\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the vertex \\(A\\)</span><span class=\"vi\">đỉnh \\(A\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the center \\(O\\) of the polygon</span><span class=\"vi\">tâm \\(O\\) của đa giác</span></span>",
+    "<span class=\"txi\"><span class=\"en\">any point inside the polygon</span><span class=\"vi\">một điểm bất kì trong đa giác</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The center of the circumcircle (center of the polygon).",
+   "explain_vi": "Đáp án c. Tâm của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> ngoại tiếp (tâm của đa giác).",
+   "images": [
+    "img/tex/8400bb0075e1f8c8.svg"
+   ],
+   "id": "8b44c937029f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D1",
+   "type": "mcq",
+   "form": "What is the smallest positive angle of a rotation about the center that maps a regular #-gon onto itself?",
+   "en": "What is the smallest positive angle of a rotation about the center that maps a regular 12-gon onto itself?",
+   "vi": "Góc quay dương nhỏ nhất của phép quay quanh tâm biến đa giác đều 12 cạnh thành chính nó là bao nhiêu?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(30^\\circ\\)</span><span class=\"vi\">\\(30^\\circ\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(180^\\circ\\)</span><span class=\"vi\">\\(180^\\circ\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(15^\\circ\\)</span><span class=\"vi\">\\(15^\\circ\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(60^\\circ\\)</span><span class=\"vi\">\\(60^\\circ\\)</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\dfrac{360^\\circ}{12}=30^\\circ\\).",
+   "explain_vi": "Đáp án a. \\(\\dfrac{360^\\circ}{12}=30^\\circ\\).",
+   "images": [],
+   "id": "9834f32b665b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Why is a rhombus with a \\(#^\\circ\\) angle NOT a regular polygon?",
+   "en": "Why is a rhombus with a \\(70^\\circ\\) angle NOT a regular polygon?",
+   "vi": "Vì sao hình thoi có một góc \\(70^\\circ\\) KHÔNG phải là đa giác đều?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">it has only 4 sides</span><span class=\"vi\">nó chỉ có 4 cạnh</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the sides are equal but the angles are not all equal</span><span class=\"vi\">các cạnh bằng nhau nhưng các góc không bằng nhau</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the angles are equal but the sides are not</span><span class=\"vi\">các góc bằng nhau nhưng các cạnh không bằng nhau</span></span>",
+    "<span class=\"txi\"><span class=\"en\">it is not convex</span><span class=\"vi\">nó không lồi</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Its angles are \\(70^\\circ\\) and \\(110^\\circ\\).",
+   "explain_vi": "Đáp án b. Các góc của nó là \\(70^\\circ\\) và \\(110^\\circ\\).",
+   "images": [],
+   "id": "55e14516d60e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Each interior angle of a regular #-gon is \\(#^\\circ\\). What is each exterior angle?",
+   "en": "Each interior angle of a regular 15-gon is \\(156^\\circ\\). What is each exterior angle?",
+   "vi": "Mỗi góc trong của đa giác đều 15 cạnh bằng \\(156^\\circ\\). Mỗi góc ngoài bằng bao nhiêu?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(78^\\circ\\)</span><span class=\"vi\">\\(78^\\circ\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(156^\\circ\\)</span><span class=\"vi\">\\(156^\\circ\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(24^\\circ\\)</span><span class=\"vi\">\\(24^\\circ\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(204^\\circ\\)</span><span class=\"vi\">\\(204^\\circ\\)</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(180^\\circ-156^\\circ=24^\\circ\\) (also \\(\\dfrac{360^\\circ}{15}\\)).",
+   "explain_vi": "Đáp án c. \\(180^\\circ-156^\\circ=24^\\circ\\) (cũng bằng \\(\\dfrac{360^\\circ}{15}\\)).",
+   "images": [],
+   "id": "8e12705d6248",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D2",
+   "type": "mcq",
+   "form": "What is the sum of the interior angles of a regular polygon with # sides?",
+   "en": "What is the sum of the interior angles of a regular polygon with 10 sides?",
+   "vi": "Tổng các góc trong của một đa giác đều 10 cạnh bằng bao nhiêu?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(1980^\\circ\\)</span><span class=\"vi\">\\(1980^\\circ\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(1620^\\circ\\)</span><span class=\"vi\">\\(1620^\\circ\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(1800^\\circ\\)</span><span class=\"vi\">\\(1800^\\circ\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(1440^\\circ\\)</span><span class=\"vi\">\\(1440^\\circ\\)</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\((n-2)\\cdot180^\\circ=8\\cdot180^\\circ=1440^\\circ\\).",
+   "explain_vi": "Đáp án d. \\((n-2)\\cdot180^\\circ=8\\cdot180^\\circ=1440^\\circ\\).",
+   "images": [],
+   "id": "6018c37d0494",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Which rotation about its center maps a square onto itself?",
+   "en": "Which rotation about its center maps a square onto itself?",
+   "vi": "Phép quay nào quanh tâm biến hình vuông thành chính nó?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">rotation through \\(135^\\circ\\)</span><span class=\"vi\">phép quay góc \\(135^\\circ\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">rotation through \\(180^\\circ\\)</span><span class=\"vi\">phép quay góc \\(180^\\circ\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">rotation through \\(100^\\circ\\)</span><span class=\"vi\">phép quay góc \\(100^\\circ\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">rotation through \\(45^\\circ\\)</span><span class=\"vi\">phép quay góc \\(45^\\circ\\)</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Multiples of \\(90^\\circ\\) work: \\(180=2\\cdot90\\).",
+   "explain_vi": "Đáp án b. Các bội của \\(90^\\circ\\) đều thỏa mãn: \\(180=2\\cdot90\\).",
+   "images": [],
+   "id": "a07894739e73",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D3",
+   "type": "mcq",
+   "form": "A regular hexagon is inscribed in a circle of radius # cm. Find its perimeter.",
+   "en": "A regular hexagon is inscribed in a circle of radius 15 cm. Find its perimeter.<img src=\"../../../img/tex/82e9718d260a3303.svg\" alt=\"Figure\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Một lục giác đều nội tiếp <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 15 cm. Tính chu vi lục giác.<img src=\"../../../img/tex/82e9718d260a3303.svg\" alt=\"Hình vẽ\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(45\\text{ cm}\\)</span><span class=\"vi\">\\(45\\text{ cm}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(90\\text{ cm}\\)</span><span class=\"vi\">\\(90\\text{ cm}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(96\\text{ cm}\\)</span><span class=\"vi\">\\(96\\text{ cm}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(180\\text{ cm}\\)</span><span class=\"vi\">\\(180\\text{ cm}\\)</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Side \\(=R=15\\); perimeter \\(6\\cdot15=90\\) cm.",
+   "explain_vi": "Đáp án b. Cạnh \\(=R=15\\); chu vi \\(6\\cdot15=90\\) cm.",
+   "images": [
+    "img/tex/82e9718d260a3303.svg"
+   ],
+   "id": "e18a9ea39dc3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D3",
+   "type": "mcq",
+   "form": "A square \\(ABCD\\) is inscribed in a circle of radius # cm. Find its area.",
+   "en": "A square \\(ABCD\\) is inscribed in a circle of radius 11 cm. Find its area.<img src=\"../../../img/tex/a5da58fe72082c0c.svg\" alt=\"Figure\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Hình vuông \\(ABCD\\) nội tiếp <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 11 cm. Tính diện tích hình vuông.<img src=\"../../../img/tex/a5da58fe72082c0c.svg\" alt=\"Hình vẽ\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "\\(363\\text{ cm}^2\\)",
+    "\\(121\\text{ cm}^2\\)",
+    "\\(242\\text{ cm}^2\\)",
+    "\\(484\\text{ cm}^2\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The diagonals are diameters \\(2R\\); area \\(=\\dfrac{(2R)^2}{2}=2R^2=242\\) cm².",
+   "explain_vi": "Đáp án c. Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b> là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diameter\">đường kính</b> \\(2R\\); diện tích \\(=\\dfrac{(2R)^2}{2}=2R^2=242\\) cm².",
+   "images": [
+    "img/tex/a5da58fe72082c0c.svg"
+   ],
+   "id": "ef12d7febaa3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D3",
+   "type": "mcq",
+   "form": "An equilateral triangle is inscribed in a circle of radius # cm. Find its side.",
+   "en": "An equilateral triangle is inscribed in a circle of radius 2 cm. Find its side.",
+   "vi": "Tam giác đều nội tiếp <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 2 cm. Tính độ dài cạnh tam giác.",
+   "options": [
+    "\\(4\\text{ cm}\\)",
+    "\\(2\\sqrt3\\text{ cm}\\)",
+    "\\(\\sqrt3\\text{ cm}\\)",
+    "\\(2\\sqrt2\\text{ cm}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Central angle \\(120^\\circ\\): side \\(=2R\\sin60^\\circ=R\\sqrt3=2\\sqrt3\\text{ cm}\\).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"central angle\">Góc ở tâm</b> \\(120^\\circ\\): cạnh \\(=2R\\sin60^\\circ=R\\sqrt3=2\\sqrt3\\text{ cm}\\).",
+   "images": [],
+   "id": "072927bf3caa",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A gear wheel has # equally spaced teeth (its outline is symmetric like a regular #-gon). It turns so that each tooth moves # places forward. Through what angle has it turned?",
+   "en": "A gear wheel has 24 equally spaced teeth (its outline is symmetric like a regular 24-gon). It turns so that each tooth moves 5 places forward. Through what angle has it turned?",
+   "vi": "Một bánh răng có 24 răng cách đều nhau (đường viền đối xứng như đa giác đều 24 cạnh). Bánh răng quay sao cho mỗi răng tiến lên 5 vị trí. Bánh răng đã quay một góc bao nhiêu?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(90^\\circ\\)</span><span class=\"vi\">\\(90^\\circ\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(15^\\circ\\)</span><span class=\"vi\">\\(15^\\circ\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(75^\\circ\\)</span><span class=\"vi\">\\(75^\\circ\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(37.5^\\circ\\)</span><span class=\"vi\">\\(37{,}5^\\circ\\)</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. One place = \\(\\dfrac{360^\\circ}{24}=15^\\circ\\); \\(5\\) places = \\(75^\\circ\\).",
+   "explain_vi": "Đáp án c. Một vị trí ứng với \\(\\dfrac{360^\\circ}{24}=15^\\circ\\); \\(5\\) vị trí ứng với \\(75^\\circ\\).",
+   "images": [],
+   "id": "7a210d1be513",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A hexagonal floor tile is a regular hexagon with side # cm. Find its area.",
+   "en": "A hexagonal floor tile is a regular hexagon with side 2 cm. Find its area.",
+   "vi": "Một viên gạch lát nền hình lục giác đều cạnh 2 cm. Tính diện tích viên gạch.",
+   "options": [
+    "\\(12\\sqrt3\\text{ cm}^2\\)",
+    "\\(6\\sqrt3\\text{ cm}^2\\)",
+    "\\(24\\sqrt3\\text{ cm}^2\\)",
+    "\\(1\\sqrt3\\text{ cm}^2\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Six equilateral triangles of side 2: \\(6\\cdot\\dfrac{2^2\\sqrt3}{4}=6\\sqrt3\\) cm².",
+   "explain_vi": "Đáp án b. Sáu tam giác đều cạnh 2: \\(6\\cdot\\dfrac{2^2\\sqrt3}{4}=6\\sqrt3\\) cm².",
+   "images": [],
+   "id": "4999c53ad55d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D4",
+   "type": "mcq",
+   "form": "Tiles of one kind of regular polygon must cover a floor without gaps or overlaps (the angles at each vertex add up to \\(#^\\circ\\)). Which shape works?",
+   "en": "Tiles of one kind of regular polygon must cover a floor without gaps or overlaps (the angles at each vertex add up to \\(360^\\circ\\)). Which shape works?",
+   "vi": "Lát kín mặt sàn bằng các viên gạch cùng một loại đa giác đều (tổng các góc tại mỗi đỉnh chung bằng \\(360^\\circ\\)). Dùng loại nào được?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">regular octagon</span><span class=\"vi\">bát giác đều</span></span>",
+    "<span class=\"txi\"><span class=\"en\">regular decagon</span><span class=\"vi\">thập giác đều</span></span>",
+    "<span class=\"txi\"><span class=\"en\">equilateral triangle</span><span class=\"vi\">tam giác đều</span></span>",
+    "<span class=\"txi\"><span class=\"en\">regular pentagon</span><span class=\"vi\">ngũ giác đều</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Interior angle \\(60^\\circ\\) divides \\(360^\\circ\\).",
+   "explain_vi": "Đáp án c. Góc trong \\(60^\\circ\\) là ước của \\(360^\\circ\\).",
+   "images": [],
+   "id": "d2a4cef5770d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Find each interior angle of a regular decagon.",
+   "en": "Find each interior angle of a regular decagon.",
+   "vi": "Tính số đo mỗi góc trong của thập giác đều.",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(36^\\circ\\)</span><span class=\"vi\">\\(36^\\circ\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(144^\\circ\\)</span><span class=\"vi\">\\(144^\\circ\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(162^\\circ\\)</span><span class=\"vi\">\\(162^\\circ\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(149^\\circ\\)</span><span class=\"vi\">\\(149^\\circ\\)</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Sum of interior angles \\((10-2)\\cdot180^\\circ=1440^\\circ\\); each angle \\(\\dfrac{1440^\\circ}{10}=144^\\circ\\).",
+   "explain_vi": "Đáp án b. Tổng các góc trong \\((10-2)\\cdot180^\\circ=1440^\\circ\\); mỗi góc \\(\\dfrac{1440^\\circ}{10}=144^\\circ\\).",
+   "images": [],
+   "id": "9dcd3f6f4f22",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "What is the central angle of a regular hexagon (the angle subtended at the center by one side)?",
+   "en": "What is the central angle of a regular hexagon (the angle subtended at the center by one side)?<img src=\"../../../img/tex/82e9718d260a3303.svg\" alt=\"Figure\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"central angle\">Góc ở tâm</b> của lục giác đều (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"central angle\">góc ở tâm</b> chắn một cạnh) bằng bao nhiêu?<img src=\"../../../img/tex/82e9718d260a3303.svg\" alt=\"Hình vẽ\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(120^\\circ\\)</span><span class=\"vi\">\\(120^\\circ\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(30^\\circ\\)</span><span class=\"vi\">\\(30^\\circ\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(60^\\circ\\)</span><span class=\"vi\">\\(60^\\circ\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(65^\\circ\\)</span><span class=\"vi\">\\(65^\\circ\\)</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\dfrac{360^\\circ}{6}=60^\\circ\\).",
+   "explain_vi": "Đáp án c. \\(\\dfrac{360^\\circ}{6}=60^\\circ\\).",
+   "images": [
+    "img/tex/82e9718d260a3303.svg"
+   ],
+   "id": "098334ab6310",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Which figure is a regular polygon?",
+   "en": "Which figure is a regular polygon?",
+   "vi": "Hình nào sau đây là đa giác đều?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">a rhombus with a \\(60^\\circ\\) angle</span><span class=\"vi\">hình thoi có một góc \\(60^\\circ\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">an isosceles right triangle</span><span class=\"vi\">tam giác vuông cân</span></span>",
+    "<span class=\"txi\"><span class=\"en\">an equilateral triangle</span><span class=\"vi\">tam giác đều</span></span>",
+    "<span class=\"txi\"><span class=\"en\">a rectangle 3 cm × 5 cm</span><span class=\"vi\">hình chữ nhật 3 cm × 5 cm</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. A regular polygon has all sides equal and all angles equal.",
+   "explain_vi": "Đáp án c. Đa giác đều là đa giác có tất cả các cạnh bằng nhau và tất cả các góc bằng nhau.",
+   "images": [],
+   "id": "df09e1cfc1b4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "A regular hexagon is inscribed in a circle of radius # cm. Each side of the hexagon is \\(#\\) cm long.",
+   "en": "A regular hexagon is inscribed in a circle of radius 5 cm. Each side of the hexagon is \\(5\\) cm long.",
+   "vi": "Một lục giác đều nội tiếp <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 5 cm. Mỗi cạnh của lục giác dài \\(5\\) cm.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. The central angle is \\(60^\\circ\\), so each triangle \\(OAB\\) is equilateral: side \\(=R=5\\) cm.",
+   "explain_vi": "Đúng. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"central angle\">Góc ở tâm</b> bằng \\(60^\\circ\\) nên mỗi tam giác \\(OAB\\) đều: cạnh \\(=R=5\\) cm.",
+   "images": [],
+   "id": "4926a9922cfc",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "The rotation about the center \\(O\\) through \\(#^\\circ\\) maps the regular hexagon onto itself.",
+   "en": "The rotation about the center \\(O\\) through \\(80^\\circ\\) maps the regular hexagon onto itself.",
+   "vi": "Phép quay tâm \\(O\\) góc \\(80^\\circ\\) biến lục giác đều thành chính nó.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. It works exactly for multiples of \\(\\dfrac{360^\\circ}{6}=60^\\circ\\). 80 is not a multiple of 60.",
+   "explain_vi": "Sai. Chỉ đúng khi góc quay là bội của \\(\\dfrac{360^\\circ}{6}=60^\\circ\\). 80 không là bội của 60.",
+   "images": [],
+   "id": "d75273d2f767",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "How many rotations about its center with angle \\(\\alpha\\), \\(#^\\circ\\lt\\alpha\\le#^\\circ\\), map a regular decagon onto itself?",
+   "en": "How many rotations about its center with angle \\(\\alpha\\), \\(0^\\circ\\lt\\alpha\\le360^\\circ\\), map a regular decagon onto itself?",
+   "vi": "Có bao nhiêu phép quay tâm \\(O\\) góc \\(\\alpha\\) (\\(0^\\circ\\lt\\alpha\\le360^\\circ\\)) biến thập giác đều tâm \\(O\\) thành chính nó?",
+   "options": [],
+   "answer": "10",
+   "explain_en": "Answer: 10. The angles \\(36^\\circ, 72^\\circ, \\dots, 360^\\circ\\): 10 rotations.",
+   "explain_vi": "Đáp số: 10. Các góc \\(36^\\circ, 72^\\circ, \\dots, 360^\\circ\\): có 10 phép quay.",
+   "images": [],
+   "id": "0725a1291d39",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "The central angle of a regular polygon is \\(#^\\circ\\). How many sides does it have?",
+   "en": "The central angle of a regular polygon is \\(30^\\circ\\). How many sides does it have?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"central angle\">Góc ở tâm</b> của một đa giác đều bằng \\(30^\\circ\\). Đa giác đó có bao nhiêu cạnh?",
+   "options": [],
+   "answer": "12",
+   "explain_en": "Answer: 12. \\(n=\\dfrac{360}{30}=12\\).",
+   "explain_vi": "Đáp số: 12. \\(n=\\dfrac{360}{30}=12\\).",
+   "images": [],
+   "id": "0b090d9b7f23",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D1",
+   "type": "mcq",
+   "form": "The rotations that map the equilateral triangle \\(ABC\\) onto itself have their center at…",
+   "en": "The rotations that map the equilateral triangle \\(ABC\\) onto itself have their center at…<img src=\"../../../img/tex/6f44ac08cc20c31a.svg\" alt=\"Figure\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Các phép quay biến tam giác đều \\(ABC\\) thành chính nó có tâm quay là…<img src=\"../../../img/tex/6f44ac08cc20c31a.svg\" alt=\"Hình vẽ\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">the vertex \\(A\\)</span><span class=\"vi\">đỉnh \\(A\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the midpoint of \\(AB\\)</span><span class=\"vi\">trung điểm của \\(AB\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the center \\(O\\) of the polygon</span><span class=\"vi\">tâm \\(O\\) của đa giác</span></span>",
+    "<span class=\"txi\"><span class=\"en\">any point inside the polygon</span><span class=\"vi\">một điểm bất kì trong đa giác</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The center of the circumcircle (center of the polygon).",
+   "explain_vi": "Đáp án c. Tâm của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> ngoại tiếp (tâm của đa giác).",
+   "images": [
+    "img/tex/6f44ac08cc20c31a.svg"
+   ],
+   "id": "2d6f72be3937",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D1",
+   "type": "mcq",
+   "form": "What is the smallest positive angle of a rotation about the center that maps a regular hexagon onto itself?",
+   "en": "What is the smallest positive angle of a rotation about the center that maps a regular hexagon onto itself?",
+   "vi": "Góc quay dương nhỏ nhất của phép quay quanh tâm biến lục giác đều thành chính nó là bao nhiêu?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(180^\\circ\\)</span><span class=\"vi\">\\(180^\\circ\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(30^\\circ\\)</span><span class=\"vi\">\\(30^\\circ\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(120^\\circ\\)</span><span class=\"vi\">\\(120^\\circ\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(60^\\circ\\)</span><span class=\"vi\">\\(60^\\circ\\)</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\dfrac{360^\\circ}{6}=60^\\circ\\).",
+   "explain_vi": "Đáp án d. \\(\\dfrac{360^\\circ}{6}=60^\\circ\\).",
+   "images": [],
+   "id": "8c0b784cb835",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Why is a # cm × # cm rectangle NOT a regular polygon?",
+   "en": "Why is a 4 cm × 6 cm rectangle NOT a regular polygon?",
+   "vi": "Vì sao hình chữ nhật 4 cm × 6 cm KHÔNG phải là đa giác đều?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">it has no center</span><span class=\"vi\">nó không có tâm</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the sides are equal but the angles are not</span><span class=\"vi\">các cạnh bằng nhau nhưng các góc không bằng nhau</span></span>",
+    "<span class=\"txi\"><span class=\"en\">it is not convex</span><span class=\"vi\">nó không lồi</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the angles are equal but the sides are not all equal</span><span class=\"vi\">các góc bằng nhau nhưng các cạnh không bằng nhau</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. All angles are \\(90^\\circ\\), but the sides are 4 cm and 6 cm.",
+   "explain_vi": "Đáp án d. Các góc đều bằng \\(90^\\circ\\) nhưng các cạnh là 4 cm và 6 cm.",
+   "images": [],
+   "id": "ac13383b1e15",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Each interior angle of a regular #-gon is \\(#^\\circ\\). What is each exterior angle?",
+   "en": "Each interior angle of a regular 12-gon is \\(150^\\circ\\). What is each exterior angle?",
+   "vi": "Mỗi góc trong của đa giác đều 12 cạnh bằng \\(150^\\circ\\). Mỗi góc ngoài bằng bao nhiêu?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(210^\\circ\\)</span><span class=\"vi\">\\(210^\\circ\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(30^\\circ\\)</span><span class=\"vi\">\\(30^\\circ\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(75^\\circ\\)</span><span class=\"vi\">\\(75^\\circ\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(150^\\circ\\)</span><span class=\"vi\">\\(150^\\circ\\)</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(180^\\circ-150^\\circ=30^\\circ\\) (also \\(\\dfrac{360^\\circ}{12}\\)).",
+   "explain_vi": "Đáp án b. \\(180^\\circ-150^\\circ=30^\\circ\\) (cũng bằng \\(\\dfrac{360^\\circ}{12}\\)).",
+   "images": [],
+   "id": "461a829571b1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D2",
+   "type": "mcq",
+   "form": "What is the sum of the interior angles of a regular polygon with # sides?",
+   "en": "What is the sum of the interior angles of a regular polygon with 5 sides?",
+   "vi": "Tổng các góc trong của một đa giác đều 5 cạnh bằng bao nhiêu?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(720^\\circ\\)</span><span class=\"vi\">\\(720^\\circ\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(540^\\circ\\)</span><span class=\"vi\">\\(540^\\circ\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(900^\\circ\\)</span><span class=\"vi\">\\(900^\\circ\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(1080^\\circ\\)</span><span class=\"vi\">\\(1080^\\circ\\)</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\((n-2)\\cdot180^\\circ=3\\cdot180^\\circ=540^\\circ\\).",
+   "explain_vi": "Đáp án b. \\((n-2)\\cdot180^\\circ=3\\cdot180^\\circ=540^\\circ\\).",
+   "images": [],
+   "id": "df3a4c183c00",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Which rotation about its center maps a equilateral triangle onto itself?",
+   "en": "Which rotation about its center maps a equilateral triangle onto itself?",
+   "vi": "Phép quay nào quanh tâm biến tam giác đều thành chính nó?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">rotation through \\(100^\\circ\\)</span><span class=\"vi\">phép quay góc \\(100^\\circ\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">rotation through \\(90^\\circ\\)</span><span class=\"vi\">phép quay góc \\(90^\\circ\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">rotation through \\(120^\\circ\\)</span><span class=\"vi\">phép quay góc \\(120^\\circ\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">rotation through \\(180^\\circ\\)</span><span class=\"vi\">phép quay góc \\(180^\\circ\\)</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Multiples of \\(120^\\circ\\) work: \\(120=1\\cdot120\\).",
+   "explain_vi": "Đáp án c. Các bội của \\(120^\\circ\\) đều thỏa mãn: \\(120=1\\cdot120\\).",
+   "images": [],
+   "id": "59265ae30ca4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D3",
+   "type": "mcq",
+   "form": "A regular hexagon is inscribed in a circle of radius # cm. Find its perimeter.",
+   "en": "A regular hexagon is inscribed in a circle of radius 11 cm. Find its perimeter.<img src=\"../../../img/tex/82e9718d260a3303.svg\" alt=\"Figure\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Một lục giác đều nội tiếp <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 11 cm. Tính chu vi lục giác.<img src=\"../../../img/tex/82e9718d260a3303.svg\" alt=\"Hình vẽ\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(132\\text{ cm}\\)</span><span class=\"vi\">\\(132\\text{ cm}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(72\\text{ cm}\\)</span><span class=\"vi\">\\(72\\text{ cm}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(33\\text{ cm}\\)</span><span class=\"vi\">\\(33\\text{ cm}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(66\\text{ cm}\\)</span><span class=\"vi\">\\(66\\text{ cm}\\)</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Side \\(=R=11\\); perimeter \\(6\\cdot11=66\\) cm.",
+   "explain_vi": "Đáp án d. Cạnh \\(=R=11\\); chu vi \\(6\\cdot11=66\\) cm.",
+   "images": [
+    "img/tex/82e9718d260a3303.svg"
+   ],
+   "id": "be0c02a3e39b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D3",
+   "type": "mcq",
+   "form": "A square \\(ABCD\\) is inscribed in a circle of radius # cm. Find its area.",
+   "en": "A square \\(ABCD\\) is inscribed in a circle of radius 15 cm. Find its area.<img src=\"../../../img/tex/a5da58fe72082c0c.svg\" alt=\"Figure\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Hình vuông \\(ABCD\\) nội tiếp <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 15 cm. Tính diện tích hình vuông.<img src=\"../../../img/tex/a5da58fe72082c0c.svg\" alt=\"Hình vẽ\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "\\(225\\text{ cm}^2\\)",
+    "\\(675\\text{ cm}^2\\)",
+    "\\(450\\text{ cm}^2\\)",
+    "\\(900\\text{ cm}^2\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The diagonals are diameters \\(2R\\); area \\(=\\dfrac{(2R)^2}{2}=2R^2=450\\) cm².",
+   "explain_vi": "Đáp án c. Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b> là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diameter\">đường kính</b> \\(2R\\); diện tích \\(=\\dfrac{(2R)^2}{2}=2R^2=450\\) cm².",
+   "images": [
+    "img/tex/a5da58fe72082c0c.svg"
+   ],
+   "id": "3086ff2c7a6f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D3",
+   "type": "mcq",
+   "form": "An equilateral triangle is inscribed in a circle of radius # cm. Find its side.",
+   "en": "An equilateral triangle is inscribed in a circle of radius 4 cm. Find its side.",
+   "vi": "Tam giác đều nội tiếp <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 4 cm. Tính độ dài cạnh tam giác.",
+   "options": [
+    "\\(8\\text{ cm}\\)",
+    "\\(2\\sqrt3\\text{ cm}\\)",
+    "\\(4\\sqrt2\\text{ cm}\\)",
+    "\\(4\\sqrt3\\text{ cm}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Central angle \\(120^\\circ\\): side \\(=2R\\sin60^\\circ=R\\sqrt3=4\\sqrt3\\text{ cm}\\).",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"central angle\">Góc ở tâm</b> \\(120^\\circ\\): cạnh \\(=2R\\sin60^\\circ=R\\sqrt3=4\\sqrt3\\text{ cm}\\).",
+   "images": [],
+   "id": "118dc8e8f079",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A gear wheel has # equally spaced teeth (its outline is symmetric like a regular #-gon). It turns so that each tooth moves # places forward. Through what angle has it turned?",
+   "en": "A gear wheel has 18 equally spaced teeth (its outline is symmetric like a regular 18-gon). It turns so that each tooth moves 2 places forward. Through what angle has it turned?",
+   "vi": "Một bánh răng có 18 răng cách đều nhau (đường viền đối xứng như đa giác đều 18 cạnh). Bánh răng quay sao cho mỗi răng tiến lên 2 vị trí. Bánh răng đã quay một góc bao nhiêu?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(60^\\circ\\)</span><span class=\"vi\">\\(60^\\circ\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(45^\\circ\\)</span><span class=\"vi\">\\(45^\\circ\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(20^\\circ\\)</span><span class=\"vi\">\\(20^\\circ\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(40^\\circ\\)</span><span class=\"vi\">\\(40^\\circ\\)</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. One place = \\(\\dfrac{360^\\circ}{18}=20^\\circ\\); \\(2\\) places = \\(40^\\circ\\).",
+   "explain_vi": "Đáp án d. Một vị trí ứng với \\(\\dfrac{360^\\circ}{18}=20^\\circ\\); \\(2\\) vị trí ứng với \\(40^\\circ\\).",
+   "images": [],
+   "id": "ee187ccf184f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A hexagonal floor tile is a regular hexagon with side # cm. Find its area.",
+   "en": "A hexagonal floor tile is a regular hexagon with side 10 cm. Find its area.",
+   "vi": "Một viên gạch lát nền hình lục giác đều cạnh 10 cm. Tính diện tích viên gạch.",
+   "options": [
+    "\\(150\\sqrt3\\text{ cm}^2\\)",
+    "\\(300\\sqrt3\\text{ cm}^2\\)",
+    "\\(25\\sqrt3\\text{ cm}^2\\)",
+    "\\(600\\sqrt3\\text{ cm}^2\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Six equilateral triangles of side 10: \\(6\\cdot\\dfrac{10^2\\sqrt3}{4}=150\\sqrt3\\) cm².",
+   "explain_vi": "Đáp án a. Sáu tam giác đều cạnh 10: \\(6\\cdot\\dfrac{10^2\\sqrt3}{4}=150\\sqrt3\\) cm².",
+   "images": [],
+   "id": "93e890d9dd1a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D4",
+   "type": "mcq",
+   "form": "Which regular polygon can tile a plane by itself (its interior angle divides \\(#^\\circ\\))?",
+   "en": "Which regular polygon can tile a plane by itself (its interior angle divides \\(360^\\circ\\))?",
+   "vi": "Đa giác đều nào tự lát kín được <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> (góc trong của nó là ước của \\(360^\\circ\\))?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">regular pentagon</span><span class=\"vi\">ngũ giác đều</span></span>",
+    "<span class=\"txi\"><span class=\"en\">regular decagon</span><span class=\"vi\">thập giác đều</span></span>",
+    "<span class=\"txi\"><span class=\"en\">regular 12-gon</span><span class=\"vi\">đa giác đều 12 cạnh</span></span>",
+    "<span class=\"txi\"><span class=\"en\">equilateral triangle</span><span class=\"vi\">tam giác đều</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Interior angle \\(60^\\circ\\) divides \\(360^\\circ\\).",
+   "explain_vi": "Đáp án d. Góc trong \\(60^\\circ\\) là ước của \\(360^\\circ\\).",
+   "images": [],
+   "id": "59e91c878c03",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Find each interior angle of a equilateral triangle.",
+   "en": "Find each interior angle of a equilateral triangle.",
+   "vi": "Tính số đo mỗi góc trong của tam giác đều.",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(65^\\circ\\)</span><span class=\"vi\">\\(65^\\circ\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(180^\\circ\\)</span><span class=\"vi\">\\(180^\\circ\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(120^\\circ\\)</span><span class=\"vi\">\\(120^\\circ\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(60^\\circ\\)</span><span class=\"vi\">\\(60^\\circ\\)</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Sum of interior angles \\((3-2)\\cdot180^\\circ=180^\\circ\\); each angle \\(\\dfrac{180^\\circ}{3}=60^\\circ\\).",
+   "explain_vi": "Đáp án d. Tổng các góc trong \\((3-2)\\cdot180^\\circ=180^\\circ\\); mỗi góc \\(\\dfrac{180^\\circ}{3}=60^\\circ\\).",
+   "images": [],
+   "id": "8ff30aa2f4cc",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "What is the central angle of a regular #-gon (the angle subtended at the center by one side)?",
+   "en": "What is the central angle of a regular 12-gon (the angle subtended at the center by one side)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"central angle\">Góc ở tâm</b> của đa giác đều 12 cạnh (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"central angle\">góc ở tâm</b> chắn một cạnh) bằng bao nhiêu?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(30^\\circ\\)</span><span class=\"vi\">\\(30^\\circ\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(60^\\circ\\)</span><span class=\"vi\">\\(60^\\circ\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(15^\\circ\\)</span><span class=\"vi\">\\(15^\\circ\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(150^\\circ\\)</span><span class=\"vi\">\\(150^\\circ\\)</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\dfrac{360^\\circ}{12}=30^\\circ\\).",
+   "explain_vi": "Đáp án a. \\(\\dfrac{360^\\circ}{12}=30^\\circ\\).",
+   "images": [],
+   "id": "14f2dd3dfa8c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Which of these polygons has all sides equal AND all angles equal?",
+   "en": "Which of these polygons has all sides equal AND all angles equal?",
+   "vi": "Đa giác nào sau đây có tất cả các cạnh bằng nhau VÀ tất cả các góc bằng nhau?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">a square</span><span class=\"vi\">hình vuông</span></span>",
+    "<span class=\"txi\"><span class=\"en\">a rhombus with a \\(60^\\circ\\) angle</span><span class=\"vi\">hình thoi có một góc \\(60^\\circ\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">an isosceles trapezoid</span><span class=\"vi\">hình thang cân</span></span>",
+    "<span class=\"txi\"><span class=\"en\">an isosceles right triangle</span><span class=\"vi\">tam giác vuông cân</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. A regular polygon has all sides equal and all angles equal.",
+   "explain_vi": "Đáp án a. Đa giác đều là đa giác có tất cả các cạnh bằng nhau và tất cả các góc bằng nhau.",
+   "images": [],
+   "id": "3fb0ab61303e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "A regular hexagon is inscribed in a circle of radius # cm. Each side of the hexagon is \\(#\\) cm long.",
+   "en": "A regular hexagon is inscribed in a circle of radius 20 cm. Each side of the hexagon is \\(20\\) cm long.",
+   "vi": "Một lục giác đều nội tiếp <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 20 cm. Mỗi cạnh của lục giác dài \\(20\\) cm.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. The central angle is \\(60^\\circ\\), so each triangle \\(OAB\\) is equilateral: side \\(=R=20\\) cm.",
+   "explain_vi": "Đúng. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"central angle\">Góc ở tâm</b> bằng \\(60^\\circ\\) nên mỗi tam giác \\(OAB\\) đều: cạnh \\(=R=20\\) cm.",
+   "images": [],
+   "id": "bd4143932398",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "The rotation about the center \\(O\\) through \\(#^\\circ\\) maps the square onto itself.",
+   "en": "The rotation about the center \\(O\\) through \\(180^\\circ\\) maps the square onto itself.",
+   "vi": "Phép quay tâm \\(O\\) góc \\(180^\\circ\\) biến hình vuông thành chính nó.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. It works exactly for multiples of \\(\\dfrac{360^\\circ}{4}=90^\\circ\\). 180 is a multiple of 90.",
+   "explain_vi": "Đúng. Chỉ đúng khi góc quay là bội của \\(\\dfrac{360^\\circ}{4}=90^\\circ\\). 180 là bội của 90.",
+   "images": [],
+   "id": "2a9f0e2f59a3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Each interior angle of a regular polygon is \\(#^\\circ\\). How many sides does it have?",
+   "en": "Each interior angle of a regular polygon is \\(144^\\circ\\). How many sides does it have?",
+   "vi": "Mỗi góc trong của một đa giác đều bằng \\(144^\\circ\\). Đa giác đó có bao nhiêu cạnh?",
+   "options": [],
+   "answer": "10",
+   "explain_en": "Answer: 10. Each exterior angle is \\(180^\\circ-144^\\circ=36^\\circ\\); \\(n=\\dfrac{360}{36}=10\\).",
+   "explain_vi": "Đáp số: 10. Mỗi góc ngoài bằng \\(180^\\circ-144^\\circ=36^\\circ\\); \\(n=\\dfrac{360}{36}=10\\).",
+   "images": [],
+   "id": "bbada0013556",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "How many rotations about its center with angle \\(\\alpha\\), \\(#^\\circ\\lt\\alpha\\le#^\\circ\\), map a regular nonagon onto itself?",
+   "en": "How many rotations about its center with angle \\(\\alpha\\), \\(0^\\circ\\lt\\alpha\\le360^\\circ\\), map a regular nonagon onto itself?",
+   "vi": "Có bao nhiêu phép quay tâm \\(O\\) góc \\(\\alpha\\) (\\(0^\\circ\\lt\\alpha\\le360^\\circ\\)) biến cửu giác đều tâm \\(O\\) thành chính nó?",
+   "options": [],
+   "answer": "9",
+   "explain_en": "Answer: 9. The angles \\(40^\\circ, 80^\\circ, \\dots, 360^\\circ\\): 9 rotations.",
+   "explain_vi": "Đáp số: 9. Các góc \\(40^\\circ, 80^\\circ, \\dots, 360^\\circ\\): có 9 phép quay.",
+   "images": [],
+   "id": "8d800703a422",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D1",
+   "type": "mcq",
+   "form": "A polygon is called regular when…",
+   "en": "A polygon is called regular when…",
+   "vi": "Một đa giác được gọi là đa giác đều khi…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">all its sides are equal</span><span class=\"vi\">tất cả các cạnh bằng nhau</span></span>",
+    "<span class=\"txi\"><span class=\"en\">it is inscribed in a circle</span><span class=\"vi\">nội tiếp được một đường tròn</span></span>",
+    "<span class=\"txi\"><span class=\"en\">all its angles are equal</span><span class=\"vi\">tất cả các góc bằng nhau</span></span>",
+    "<span class=\"txi\"><span class=\"en\">all its sides are equal and all its angles are equal</span><span class=\"vi\">tất cả các cạnh bằng nhau và tất cả các góc bằng nhau</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Both conditions are needed.",
+   "explain_vi": "Đáp án d. Cần cả hai điều kiện.",
+   "images": [],
+   "id": "a893d927f995",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D1",
+   "type": "mcq",
+   "form": "The rotations that map the regular hexagon \\(ABCDEF\\) onto itself have their center at…",
+   "en": "The rotations that map the regular hexagon \\(ABCDEF\\) onto itself have their center at…<img src=\"../../../img/tex/a739978299415714.svg\" alt=\"Figure\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Các phép quay biến lục giác đều \\(ABCDEF\\) thành chính nó có tâm quay là…<img src=\"../../../img/tex/a739978299415714.svg\" alt=\"Hình vẽ\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">any point inside the polygon</span><span class=\"vi\">một điểm bất kì trong đa giác</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the vertex \\(A\\)</span><span class=\"vi\">đỉnh \\(A\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the midpoint of \\(AB\\)</span><span class=\"vi\">trung điểm của \\(AB\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the center \\(O\\) of the polygon</span><span class=\"vi\">tâm \\(O\\) của đa giác</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. The center of the circumcircle (center of the polygon).",
+   "explain_vi": "Đáp án d. Tâm của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> ngoại tiếp (tâm của đa giác).",
+   "images": [
+    "img/tex/a739978299415714.svg"
+   ],
+   "id": "456a19612220",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D1",
+   "type": "mcq",
+   "form": "What is the smallest positive angle of a rotation about the center that maps a regular pentagon onto itself?",
+   "en": "What is the smallest positive angle of a rotation about the center that maps a regular pentagon onto itself?",
+   "vi": "Góc quay dương nhỏ nhất của phép quay quanh tâm biến ngũ giác đều thành chính nó là bao nhiêu?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(180^\\circ\\)</span><span class=\"vi\">\\(180^\\circ\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(144^\\circ\\)</span><span class=\"vi\">\\(144^\\circ\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(36^\\circ\\)</span><span class=\"vi\">\\(36^\\circ\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(72^\\circ\\)</span><span class=\"vi\">\\(72^\\circ\\)</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\dfrac{360^\\circ}{5}=72^\\circ\\).",
+   "explain_vi": "Đáp án d. \\(\\dfrac{360^\\circ}{5}=72^\\circ\\).",
+   "images": [],
+   "id": "e961fa6ba54a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Each interior angle of a regular #-gon is \\(#^\\circ\\). What is each exterior angle?",
+   "en": "Each interior angle of a regular 18-gon is \\(160^\\circ\\). What is each exterior angle?",
+   "vi": "Mỗi góc trong của đa giác đều 18 cạnh bằng \\(160^\\circ\\). Mỗi góc ngoài bằng bao nhiêu?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(80^\\circ\\)</span><span class=\"vi\">\\(80^\\circ\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(20^\\circ\\)</span><span class=\"vi\">\\(20^\\circ\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(200^\\circ\\)</span><span class=\"vi\">\\(200^\\circ\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(160^\\circ\\)</span><span class=\"vi\">\\(160^\\circ\\)</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(180^\\circ-160^\\circ=20^\\circ\\) (also \\(\\dfrac{360^\\circ}{18}\\)).",
+   "explain_vi": "Đáp án b. \\(180^\\circ-160^\\circ=20^\\circ\\) (cũng bằng \\(\\dfrac{360^\\circ}{18}\\)).",
+   "images": [],
+   "id": "44e77a95ef30",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D2",
+   "type": "mcq",
+   "form": "What is the sum of the interior angles of a regular polygon with # sides?",
+   "en": "What is the sum of the interior angles of a regular polygon with 12 sides?",
+   "vi": "Tổng các góc trong của một đa giác đều 12 cạnh bằng bao nhiêu?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(2160^\\circ\\)</span><span class=\"vi\">\\(2160^\\circ\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(1980^\\circ\\)</span><span class=\"vi\">\\(1980^\\circ\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(1800^\\circ\\)</span><span class=\"vi\">\\(1800^\\circ\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(2340^\\circ\\)</span><span class=\"vi\">\\(2340^\\circ\\)</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\((n-2)\\cdot180^\\circ=10\\cdot180^\\circ=1800^\\circ\\).",
+   "explain_vi": "Đáp án c. \\((n-2)\\cdot180^\\circ=10\\cdot180^\\circ=1800^\\circ\\).",
+   "images": [],
+   "id": "c76a012af8d2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Which rotation about its center maps a regular pentagon onto itself?",
+   "en": "Which rotation about its center maps a regular pentagon onto itself?",
+   "vi": "Phép quay nào quanh tâm biến ngũ giác đều thành chính nó?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">rotation through \\(100^\\circ\\)</span><span class=\"vi\">phép quay góc \\(100^\\circ\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">rotation through \\(108^\\circ\\)</span><span class=\"vi\">phép quay góc \\(108^\\circ\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">rotation through \\(72^\\circ\\)</span><span class=\"vi\">phép quay góc \\(72^\\circ\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">rotation through \\(90^\\circ\\)</span><span class=\"vi\">phép quay góc \\(90^\\circ\\)</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Multiples of \\(72^\\circ\\) work: \\(72=1\\cdot72\\).",
+   "explain_vi": "Đáp án c. Các bội của \\(72^\\circ\\) đều thỏa mãn: \\(72=1\\cdot72\\).",
+   "images": [],
+   "id": "cebf66aac2a9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D3",
+   "type": "mcq",
+   "form": "A regular hexagon is inscribed in a circle of radius # cm. Find its perimeter.",
+   "en": "A regular hexagon is inscribed in a circle of radius 8 cm. Find its perimeter.<img src=\"../../../img/tex/82e9718d260a3303.svg\" alt=\"Figure\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Một lục giác đều nội tiếp <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 8 cm. Tính chu vi lục giác.<img src=\"../../../img/tex/82e9718d260a3303.svg\" alt=\"Hình vẽ\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(24\\text{ cm}\\)</span><span class=\"vi\">\\(24\\text{ cm}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(48\\text{ cm}\\)</span><span class=\"vi\">\\(48\\text{ cm}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(96\\text{ cm}\\)</span><span class=\"vi\">\\(96\\text{ cm}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(54\\text{ cm}\\)</span><span class=\"vi\">\\(54\\text{ cm}\\)</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Side \\(=R=8\\); perimeter \\(6\\cdot8=48\\) cm.",
+   "explain_vi": "Đáp án b. Cạnh \\(=R=8\\); chu vi \\(6\\cdot8=48\\) cm.",
+   "images": [
+    "img/tex/82e9718d260a3303.svg"
+   ],
+   "id": "33cc7f235a26",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D3",
+   "type": "mcq",
+   "form": "A square \\(ABCD\\) is inscribed in a circle of radius # cm. Find its area.",
+   "en": "A square \\(ABCD\\) is inscribed in a circle of radius 13 cm. Find its area.<img src=\"../../../img/tex/a5da58fe72082c0c.svg\" alt=\"Figure\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "vi": "Hình vuông \\(ABCD\\) nội tiếp <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 13 cm. Tính diện tích hình vuông.<img src=\"../../../img/tex/a5da58fe72082c0c.svg\" alt=\"Hình vẽ\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,300px);height:auto\">",
+   "options": [
+    "\\(507\\text{ cm}^2\\)",
+    "\\(676\\text{ cm}^2\\)",
+    "\\(338\\text{ cm}^2\\)",
+    "\\(169\\text{ cm}^2\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The diagonals are diameters \\(2R\\); area \\(=\\dfrac{(2R)^2}{2}=2R^2=338\\) cm².",
+   "explain_vi": "Đáp án c. Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b> là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diameter\">đường kính</b> \\(2R\\); diện tích \\(=\\dfrac{(2R)^2}{2}=2R^2=338\\) cm².",
+   "images": [
+    "img/tex/a5da58fe72082c0c.svg"
+   ],
+   "id": "03fc05614f0c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D3",
+   "type": "mcq",
+   "form": "An equilateral triangle is inscribed in a circle of radius # cm. Find its side.",
+   "en": "An equilateral triangle is inscribed in a circle of radius 10 cm. Find its side.",
+   "vi": "Tam giác đều nội tiếp <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 10 cm. Tính độ dài cạnh tam giác.",
+   "options": [
+    "\\(10\\sqrt3\\text{ cm}\\)",
+    "\\(20\\text{ cm}\\)",
+    "\\(5\\sqrt3\\text{ cm}\\)",
+    "\\(10\\sqrt2\\text{ cm}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Central angle \\(120^\\circ\\): side \\(=2R\\sin60^\\circ=R\\sqrt3=10\\sqrt3\\text{ cm}\\).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"central angle\">Góc ở tâm</b> \\(120^\\circ\\): cạnh \\(=2R\\sin60^\\circ=R\\sqrt3=10\\sqrt3\\text{ cm}\\).",
+   "images": [],
+   "id": "50a34ab63d2e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A gear wheel has # equally spaced teeth (its outline is symmetric like a regular #-gon). It turns so that each tooth moves # places forward. Through what angle has it turned?",
+   "en": "A gear wheel has 30 equally spaced teeth (its outline is symmetric like a regular 30-gon). It turns so that each tooth moves 3 places forward. Through what angle has it turned?",
+   "vi": "Một bánh răng có 30 răng cách đều nhau (đường viền đối xứng như đa giác đều 30 cạnh). Bánh răng quay sao cho mỗi răng tiến lên 3 vị trí. Bánh răng đã quay một góc bao nhiêu?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(12^\\circ\\)</span><span class=\"vi\">\\(12^\\circ\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(36^\\circ\\)</span><span class=\"vi\">\\(36^\\circ\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(48^\\circ\\)</span><span class=\"vi\">\\(48^\\circ\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(18^\\circ\\)</span><span class=\"vi\">\\(18^\\circ\\)</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. One place = \\(\\dfrac{360^\\circ}{30}=12^\\circ\\); \\(3\\) places = \\(36^\\circ\\).",
+   "explain_vi": "Đáp án b. Một vị trí ứng với \\(\\dfrac{360^\\circ}{30}=12^\\circ\\); \\(3\\) vị trí ứng với \\(36^\\circ\\).",
+   "images": [],
+   "id": "7daab5e3f975",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A hexagonal floor tile is a regular hexagon with side # cm. Find its area.",
+   "en": "A hexagonal floor tile is a regular hexagon with side 8 cm. Find its area.",
+   "vi": "Một viên gạch lát nền hình lục giác đều cạnh 8 cm. Tính diện tích viên gạch.",
+   "options": [
+    "\\(16\\sqrt3\\text{ cm}^2\\)",
+    "\\(96\\sqrt3\\text{ cm}^2\\)",
+    "\\(384\\sqrt3\\text{ cm}^2\\)",
+    "\\(192\\sqrt3\\text{ cm}^2\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Six equilateral triangles of side 8: \\(6\\cdot\\dfrac{8^2\\sqrt3}{4}=96\\sqrt3\\) cm².",
+   "explain_vi": "Đáp án b. Sáu tam giác đều cạnh 8: \\(6\\cdot\\dfrac{8^2\\sqrt3}{4}=96\\sqrt3\\) cm².",
+   "images": [],
+   "id": "13125e36c5ae",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D4",
+   "type": "mcq",
+   "form": "Which regular polygon CANNOT tile a floor by itself?",
+   "en": "Which regular polygon CANNOT tile a floor by itself?",
+   "vi": "Đa giác đều nào KHÔNG tự lát kín được mặt sàn?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">regular hexagon</span><span class=\"vi\">lục giác đều</span></span>",
+    "<span class=\"txi\"><span class=\"en\">equilateral triangle</span><span class=\"vi\">tam giác đều</span></span>",
+    "<span class=\"txi\"><span class=\"en\">square</span><span class=\"vi\">hình vuông</span></span>",
+    "<span class=\"txi\"><span class=\"en\">regular decagon</span><span class=\"vi\">thập giác đều</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Its interior angle \\(144^\\circ\\) does not divide \\(360^\\circ\\).",
+   "explain_vi": "Đáp án d. Góc trong \\(144^\\circ\\) không là ước của \\(360^\\circ\\).",
+   "images": [],
+   "id": "830409c53323",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  }
+ ]
+}

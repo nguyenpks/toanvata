@@ -1,0 +1,1266 @@
+{
+ "lesson": "g9-probability-02",
+ "grade": 9,
+ "no": 26,
+ "title": "Xác suất của biến cố liên quan tới phép thử",
+ "path": "lessons/grade9/probability/probability-of-events.html",
+ "items": [
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "A bag has # red, # yellow, # white balls of the same size. One ball is taken at random. Find the probability that it is red.",
+   "en": "A bag has 4 red, 6 yellow, 3 white balls of the same size. One ball is taken at random. Find the probability that it is red.",
+   "vi": "Một túi có 4 quả bóng đỏ, 6 quả bóng vàng, 3 quả bóng trắng; các quả bóng có cùng kích thước. Lấy ngẫu nhiên một quả. Tính xác suất lấy được quả bóng màu đỏ.",
+   "options": [
+    "\\(\\dfrac{4}{9}\\)",
+    "\\(\\dfrac{9}{13}\\)",
+    "\\(\\dfrac{4}{13}\\)",
+    "\\(\\dfrac{1}{3}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(n(\\Omega)=13\\), favorable: 4; \\(P=\\dfrac{4}{13}\\).",
+   "explain_vi": "Đáp án c. \\(n(\\Omega)=13\\), số kết quả thuận lợi: 4; \\(P=\\dfrac{4}{13}\\).",
+   "images": [],
+   "id": "126149bd4ee5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "A box has # cards numbered # to #. One card is drawn at random. What is the probability that its number is a multiple of #?",
+   "en": "A box has 30 cards numbered 1 to 30. One card is drawn at random. What is the probability that its number is a multiple of 5?",
+   "vi": "Một hộp có 30 tấm thẻ đánh số từ 1 đến 30. Rút ngẫu nhiên một thẻ. Tính xác suất để số trên thẻ là bội của 5.",
+   "options": [
+    "\\(\\dfrac{4}{5}\\)",
+    "\\(\\dfrac{7}{30}\\)",
+    "\\(\\dfrac{1}{5}\\)",
+    "\\(\\dfrac{1}{6}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(n(\\Omega)=30\\); multiples of 5: 5, 10, 15, 20, 25, 30 (6 cards); \\(P=\\dfrac{6}{30}=\\dfrac{1}{5}\\).",
+   "explain_vi": "Đáp án c. \\(n(\\Omega)=30\\); các bội của 5: 5, 10, 15, 20, 25, 30 (6 thẻ); \\(P=\\dfrac{6}{30}=\\dfrac{1}{5}\\).",
+   "images": [],
+   "id": "c68322ea4f9a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "A fair die is rolled once. Find the probability that it shows an even number.",
+   "en": "A fair die is rolled once. Find the probability that it shows an even number.",
+   "vi": "Gieo một con xúc xắc cân đối một lần. Tính xác suất của biến cố “Số chấm chẵn”.",
+   "options": [
+    "\\(\\dfrac{1}{2}\\)",
+    "\\(\\dfrac{1}{6}\\)",
+    "\\(\\dfrac{1}{3}\\)",
+    "\\(\\dfrac{3}{5}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Favorable outcomes: 2, 4, 6, so \\(P=\\dfrac{3}{6}=\\dfrac{1}{2}\\).",
+   "explain_vi": "Đáp án a. Các kết quả thuận lợi: 2, 4, 6, nên \\(P=\\dfrac{3}{6}=\\dfrac{1}{2}\\).",
+   "images": [],
+   "id": "408a278fe518",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "Two dice are rolled. Exactly # outcomes are favorable to the event “the sum of the two numbers is #”.",
+   "en": "Two dice are rolled. Exactly 3 outcomes are favorable to the event “the sum of the two numbers is 3”.",
+   "vi": "Gieo hai con xúc xắc. Có đúng 3 kết quả thuận lợi cho biến cố “Tổng số chấm trên hai con xúc xắc bằng 3”.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. The favorable outcomes: \\((1;\\,2)\\), \\((2;\\,1)\\) (2 outcomes).",
+   "explain_vi": "Sai. Các kết quả thuận lợi: \\((1;\\,2)\\), \\((2;\\,1)\\) (2 kết quả).",
+   "images": [],
+   "id": "84f1486a101f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "Two fair coins are tossed. The probability that no coin shows heads is \\(\\dfrac{#}{#}\\).",
+   "en": "Two fair coins are tossed. The probability that no coin shows heads is \\(\\dfrac{1}{4}\\).",
+   "vi": "Gieo hai đồng xu cân đối. Xác suất của biến cố “Không có đồng xu nào ngửa” bằng \\(\\dfrac{1}{4}\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. \\(\\Omega=\\{HH;\\,HT;\\,TH;\\,TT\\}\\) (4 equally likely outcomes): \\(P=\\dfrac{1}{4}\\).",
+   "explain_vi": "Đúng. \\(\\Omega=\\{NN;\\,NS;\\,SN;\\,SS\\}\\) (4 kết quả <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equally likely\">đồng khả năng</b>): \\(P=\\dfrac{1}{4}\\).",
+   "images": [],
+   "id": "9ff6cfed7687",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "Among # tickets, there are # winning tickets. One is chosen at random. Find the probability of getting a winning ticket (write it as a decimal).",
+   "en": "Among 20 tickets, there are 4 winning tickets. One is chosen at random. Find the probability of getting a winning ticket (write it as a decimal).",
+   "vi": "Trong 20 lá phiếu có 4 phiếu trúng thưởng. Chọn ngẫu nhiên một lá phiếu. Tính xác suất chọn được phiếu trúng thưởng (viết dưới dạng số thập phân).",
+   "options": [],
+   "answer": "0.2",
+   "explain_en": "Answer: 0.2. \\(P=\\dfrac{4}{20}=0.2\\).",
+   "explain_vi": "Đáp số: 0,2. \\(P=\\dfrac{4}{20}=0{,}2\\).",
+   "images": [],
+   "id": "90a7573b0cf9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "Two dice are rolled. How many outcomes are favorable to the event “both numbers are greater than #”?",
+   "en": "Two dice are rolled. How many outcomes are favorable to the event “both numbers are greater than 4”?",
+   "vi": "Gieo hai con xúc xắc. Có bao nhiêu kết quả thuận lợi cho biến cố “Cả hai số chấm đều lớn hơn 4”?",
+   "options": [],
+   "answer": "4",
+   "explain_en": "Answer: 4. \\((5;\\,5)\\), \\((5;\\,6)\\), \\((6;\\,5)\\), \\((6;\\,6)\\): 4 outcomes.",
+   "explain_vi": "Đáp số: 4. \\((5;\\,5)\\), \\((5;\\,6)\\), \\((6;\\,5)\\), \\((6;\\,6)\\): 4 kết quả.",
+   "images": [],
+   "id": "5fc27b3b2658",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D1",
+   "type": "mcq",
+   "form": "A die is rolled. Which set lists the outcomes favorable to the event “the die shows an even number”?",
+   "en": "A die is rolled. Which set lists the outcomes favorable to the event “the die shows an even number”?",
+   "vi": "Gieo một con xúc xắc. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"set\">Tập hợp</b> nào gồm các kết quả thuận lợi cho biến cố “Số chấm chẵn”?",
+   "options": [
+    "\\(\\{2;\\,4\\}\\)",
+    "\\(\\{1;\\,2;\\,3;\\,4;\\,5;\\,6\\}\\)",
+    "\\(\\{1;\\,3;\\,5\\}\\)",
+    "\\(\\{2;\\,4;\\,6\\}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. The outcomes that make the event happen: \\(\\{2;\\,4;\\,6\\}\\).",
+   "explain_vi": "Đáp án d. Các kết quả làm cho biến cố xảy ra: \\(\\{2;\\,4;\\,6\\}\\).",
+   "images": [],
+   "id": "a5cc9c577987",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D1",
+   "type": "mcq",
+   "form": "The spinner has # equal sectors. It is spun once. What is the probability that the arrow stops at a number greater than #?",
+   "en": "The spinner has 5 equal sectors. It is spun once. What is the probability that the arrow stops at a number greater than 6?<img src=\"../../../img/tex/e061eb7f98ca4ecc.svg\" alt=\"Spinner\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,260px);height:auto\">",
+   "vi": "Vòng quay có 5 hình quạt bằng nhau. Quay một lần. Tính xác suất để kim dừng ở số lớn hơn 6.<img src=\"../../../img/tex/e061eb7f98ca4ecc.svg\" alt=\"Vòng quay\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,260px);height:auto\">",
+   "options": [
+    "\\(\\dfrac{2}{5}\\)",
+    "\\(\\dfrac{3}{5}\\)",
+    "\\(\\dfrac{1}{4}\\)",
+    "\\(\\dfrac{1}{5}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Favorable: 8, 9, 12; \\(P=\\dfrac{3}{5}\\).",
+   "explain_vi": "Đáp án b. Kết quả thuận lợi: 8, 9, 12; \\(P=\\dfrac{3}{5}\\).",
+   "images": [
+    "img/tex/e061eb7f98ca4ecc.svg"
+   ],
+   "id": "e952cb77d7fc",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Which number CANNOT be the probability of an event?",
+   "en": "Which number CANNOT be the probability of an event?",
+   "vi": "Số nào KHÔNG thể là xác suất của một biến cố?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(-0.3\\)</span><span class=\"vi\">\\(-0{,}3\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.07\\)</span><span class=\"vi\">\\(0{,}07\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(1\\)</span><span class=\"vi\">\\(1\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(0.5\\)</span><span class=\"vi\">\\(0{,}5\\)</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Always \\(0\\le P(A)\\le 1\\).",
+   "explain_vi": "Đáp án a. Luôn có \\(0\\le P(A)\\le 1\\).",
+   "images": [],
+   "id": "6a4e2e312b4d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D2",
+   "type": "mcq",
+   "form": "A fair coin is tossed and a fair die is rolled. Find the probability of getting tails and a number greater than #.",
+   "en": "A fair coin is tossed and a fair die is rolled. Find the probability of getting tails and a number greater than 4.",
+   "vi": "Gieo một đồng xu và một con xúc xắc cân đối. Tính xác suất được mặt sấp và số chấm lớn hơn 4.",
+   "options": [
+    "\\(\\dfrac{1}{6}\\)",
+    "\\(\\dfrac{1}{2}\\)",
+    "\\(\\dfrac{1}{4}\\)",
+    "\\(\\dfrac{1}{3}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(n(\\Omega)=12\\); favorable: \\((T;\\,5)\\), \\((T;\\,6)\\); \\(P=\\dfrac{2}{12}=\\dfrac{1}{6}\\).",
+   "explain_vi": "Đáp án a. \\(n(\\Omega)=12\\); thuận lợi: \\((S;\\,5)\\), \\((S;\\,6)\\); \\(P=\\dfrac{2}{12}=\\dfrac{1}{6}\\).",
+   "images": [],
+   "id": "479d7c13f3ec",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D2",
+   "type": "mcq",
+   "form": "A whole number from # to # is chosen at random. What is the probability that it is a prime number?",
+   "en": "A whole number from 20 to 44 is chosen at random. What is the probability that it is a prime number?",
+   "vi": "Chọn ngẫu nhiên một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"natural numbers\">số tự nhiên</b> từ 20 đến 44. Tính xác suất để số được chọn là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"integers\">số nguyên</b> tố.",
+   "options": [
+    "\\(\\dfrac{7}{25}\\)",
+    "\\(\\dfrac{19}{25}\\)",
+    "\\(\\dfrac{6}{25}\\)",
+    "\\(\\dfrac{1}{4}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(n(\\Omega)=44-20+1=25\\); favorable: 23, 29, 31, 37, 41, 43; \\(P=\\dfrac{6}{25}\\).",
+   "explain_vi": "Đáp án c. \\(n(\\Omega)=44-20+1=25\\); thuận lợi: 23, 29, 31, 37, 41, 43; \\(P=\\dfrac{6}{25}\\).",
+   "images": [],
+   "id": "e9dfe6d4f605",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Spinner # (numbers # to #) and spinner # (numbers # to #) are spun; the table shows all equally likely outcomes. Find the probability that the two numbers are equal.Spinner # \\ Spinner #\\((#;\\,#)\\)\\((#;\\,#)\\)\\((#;\\,#)\\)\\((#;\\,#)\\)#\\((#;\\,#)\\)\\((#;\\,#)\\)\\((#;\\,#)\\)\\((#;\\,#)\\)#\\((#;\\,#)\\)\\((#;\\,#)\\)\\((#;\\,#)\\)\\((#;\\,#)\\)#\\((#;\\,#)\\)\\((#;\\,#)\\)\\((#;\\,#)\\)\\((#;\\,#)\\)",
+   "en": "Spinner 1 (numbers 1 to 4) and spinner 2 (numbers 1 to 4) are spun; the table shows all equally likely outcomes. Find the probability that the two numbers are equal.<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"col\">Spinner 1 \\ Spinner 2</th><th scope=\"col\">1</th><th scope=\"col\">2</th><th scope=\"col\">3</th><th scope=\"col\">4</th></tr><tr><th scope=\"row\">1</th><td>\\((1;\\,1)\\)</td><td>\\((1;\\,2)\\)</td><td>\\((1;\\,3)\\)</td><td>\\((1;\\,4)\\)</td></tr><tr><th scope=\"row\">2</th><td>\\((2;\\,1)\\)</td><td>\\((2;\\,2)\\)</td><td>\\((2;\\,3)\\)</td><td>\\((2;\\,4)\\)</td></tr><tr><th scope=\"row\">3</th><td>\\((3;\\,1)\\)</td><td>\\((3;\\,2)\\)</td><td>\\((3;\\,3)\\)</td><td>\\((3;\\,4)\\)</td></tr><tr><th scope=\"row\">4</th><td>\\((4;\\,1)\\)</td><td>\\((4;\\,2)\\)</td><td>\\((4;\\,3)\\)</td><td>\\((4;\\,4)\\)</td></tr></tbody></table></div>",
+   "vi": "Quay vòng quay 1 (số 1 đến 4) và vòng quay 2 (số 1 đến 4); bảng dưới <b class=\"mbl-term\" tabindex=\"0\" data-en=\"listing method\">liệt kê</b> các kết quả <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equally likely\">đồng khả năng</b>. Tính xác suất để hai số bằng nhau.<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"col\">Vòng 1 \\ Vòng 2</th><th scope=\"col\">1</th><th scope=\"col\">2</th><th scope=\"col\">3</th><th scope=\"col\">4</th></tr><tr><th scope=\"row\">1</th><td>\\((1;\\,1)\\)</td><td>\\((1;\\,2)\\)</td><td>\\((1;\\,3)\\)</td><td>\\((1;\\,4)\\)</td></tr><tr><th scope=\"row\">2</th><td>\\((2;\\,1)\\)</td><td>\\((2;\\,2)\\)</td><td>\\((2;\\,3)\\)</td><td>\\((2;\\,4)\\)</td></tr><tr><th scope=\"row\">3</th><td>\\((3;\\,1)\\)</td><td>\\((3;\\,2)\\)</td><td>\\((3;\\,3)\\)</td><td>\\((3;\\,4)\\)</td></tr><tr><th scope=\"row\">4</th><td>\\((4;\\,1)\\)</td><td>\\((4;\\,2)\\)</td><td>\\((4;\\,3)\\)</td><td>\\((4;\\,4)\\)</td></tr></tbody></table></div>",
+   "options": [
+    "\\(\\dfrac{1}{2}\\)",
+    "\\(\\dfrac{3}{4}\\)",
+    "\\(\\dfrac{1}{4}\\)",
+    "\\(\\dfrac{5}{16}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(n(\\Omega)=16\\); favorable: \\((1;\\,1)\\), \\((2;\\,2)\\), \\((3;\\,3)\\), \\((4;\\,4)\\); \\(P=\\dfrac{4}{16}=\\dfrac{1}{4}\\).",
+   "explain_vi": "Đáp án c. \\(n(\\Omega)=16\\); thuận lợi: \\((1;\\,1)\\), \\((2;\\,2)\\), \\((3;\\,3)\\), \\((4;\\,4)\\); \\(P=\\dfrac{4}{16}=\\dfrac{1}{4}\\).",
+   "images": [],
+   "id": "767919b57b4d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D3",
+   "type": "mcq",
+   "form": "A box has # cards numbered # to #. Draw a card, do not put it back, then draw a second card. Find the probability that the sum of the two numbers is greater than #.",
+   "en": "A box has 6 cards numbered 1 to 6. Draw a card, do not put it back, then draw a second card. Find the probability that the sum of the two numbers is greater than 7.",
+   "vi": "Hộp có 6 tấm thẻ đánh số từ 1 đến 6. Rút một thẻ, không trả lại, rồi rút thẻ thứ hai. Tính xác suất để tổng hai số lớn hơn 7.",
+   "options": [
+    "\\(\\dfrac{2}{5}\\)",
+    "\\(\\dfrac{7}{15}\\)",
+    "\\(\\dfrac{1}{3}\\)",
+    "\\(\\dfrac{3}{5}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(n(\\Omega)=6\\cdot5=30\\) ordered pairs; 12 of them are favorable; \\(P=\\dfrac{12}{30}=\\dfrac{2}{5}\\).",
+   "explain_vi": "Đáp án a. \\(n(\\Omega)=6\\cdot5=30\\) cặp có thứ tự; có 12 cặp thuận lợi; \\(P=\\dfrac{12}{30}=\\dfrac{2}{5}\\).",
+   "images": [],
+   "id": "de28c3789896",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D3",
+   "type": "mcq",
+   "form": "A family has # children. Assume that boys (B) and girls (G) are equally likely and the order of birth matters. Find the probability that the family has all the children are of the same sex.",
+   "en": "A family has 3 children. Assume that boys (B) and girls (G) are equally likely and the order of birth matters. Find the probability that the family has all the children are of the same sex.",
+   "vi": "Một gia đình có 3 con. Giả sử sinh con trai (T) và con gái (G) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equally likely\">đồng khả năng</b> và có phân biệt thứ tự sinh. Tính xác suất để gia đình đó các con đều cùng giới tính.",
+   "options": [
+    "\\(\\dfrac{3}{8}\\)",
+    "\\(\\dfrac{1}{4}\\)",
+    "\\(\\dfrac{3}{4}\\)",
+    "\\(\\dfrac{1}{2}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Tree diagram: \\(n(\\Omega)=2^{3}=8\\); 2 favorable outcomes; \\(P=\\dfrac{2}{8}=\\dfrac{1}{4}\\).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tree diagram\">Sơ đồ hình cây</b>: \\(n(\\Omega)=2^{3}=8\\); có 2 kết quả thuận lợi; \\(P=\\dfrac{2}{8}=\\dfrac{1}{4}\\).",
+   "images": [],
+   "id": "3d3dc0df9ef7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Two fair dice are rolled. Find the probability of the event “the sum is #”.",
+   "en": "Two fair dice are rolled. Find the probability of the event “the sum is 7”.",
+   "vi": "Gieo hai con xúc xắc cân đối. Tính xác suất của biến cố “Tổng số chấm bằng 7”.",
+   "options": [
+    "\\(\\dfrac{1}{6}\\)",
+    "\\(\\dfrac{7}{36}\\)",
+    "\\(\\dfrac{6}{11}\\)",
+    "\\(\\dfrac{1}{2}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(n(\\Omega)=36\\); 6 favorable outcomes; \\(P=\\dfrac{6}{36}=\\dfrac{1}{6}\\).",
+   "explain_vi": "Đáp án a. \\(n(\\Omega)=36\\); có 6 kết quả thuận lợi; \\(P=\\dfrac{6}{36}=\\dfrac{1}{6}\\).",
+   "images": [],
+   "id": "547ad58f3e1f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D4",
+   "type": "mcq",
+   "form": "Box A has # balls, # of them red. Box B has # balls, # of them red. You win if you take a red ball. From which box should you take one ball at random?",
+   "en": "Box A has 9 balls, 7 of them red. Box B has 11 balls, 8 of them red. You win if you take a red ball. From which box should you take one ball at random?",
+   "vi": "Hộp A có 9 quả bóng, trong đó 7 quả màu đỏ. Hộp B có 11 quả bóng, trong đó 8 quả màu đỏ. Lấy được quả đỏ thì thắng. Nên lấy ngẫu nhiên một quả từ hộp nào?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">both boxes give the same chance</span><span class=\"vi\">hai hộp như nhau</span></span>",
+    "<span class=\"txi\"><span class=\"en\">cannot be decided</span><span class=\"vi\">không thể biết được</span></span>",
+    "<span class=\"txi\"><span class=\"en\">box B, because it has more red balls</span><span class=\"vi\">hộp B, vì có nhiều quả đỏ hơn</span></span>",
+    "<span class=\"txi\"><span class=\"en\">box A</span><span class=\"vi\">hộp A</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(P_A=\\dfrac{7}{9}\\approx0.78\\), \\(P_B=\\dfrac{8}{11}\\approx0.73\\): choose box A.",
+   "explain_vi": "Đáp án d. \\(P_A=\\dfrac{7}{9}\\approx0{,}78\\), \\(P_B=\\dfrac{8}{11}\\approx0{,}73\\): chọn hộp A.",
+   "images": [],
+   "id": "11841ac38366",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D4",
+   "type": "mcq",
+   "form": "Minh and Hoa roll two dice. Minh wins if the sum is at least #; otherwise Hoa wins. Who is more likely to win?",
+   "en": "Minh and Hoa roll two dice. Minh wins if the sum is at least 8; otherwise Hoa wins. Who is more likely to win?",
+   "vi": "Minh và Hoa gieo hai con xúc xắc. Nếu tổng số chấm không nhỏ hơn 8 thì Minh thắng, ngược lại Hoa thắng. Bạn nào có khả năng thắng cao hơn?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">the game is fair, both have probability \\(\\dfrac{1}{2}\\)</span><span class=\"vi\">trò chơi công bằng, hai bạn có cùng xác suất \\(\\dfrac{1}{2}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Minh, because \\(\\dfrac{21}{36}\\gt\\dfrac{15}{36}\\)</span><span class=\"vi\">Minh, vì \\(\\dfrac{21}{36}\\gt\\dfrac{15}{36}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Hoa, because \\(\\dfrac{21}{36}\\gt\\dfrac{15}{36}\\)</span><span class=\"vi\">Hoa, vì \\(\\dfrac{21}{36}\\gt\\dfrac{15}{36}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">we cannot compare, it is only luck</span><span class=\"vi\">không so sánh được, chỉ do may mắn</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Sum at least 8: 15 outcomes, so \\(P(Minh)=\\dfrac{15}{36}\\), \\(P(Hoa)=\\dfrac{21}{36}\\).",
+   "explain_vi": "Đáp án c. Tổng không nhỏ hơn 8: có 15 kết quả, nên xác suất Minh thắng là \\(\\dfrac{15}{36}\\), xác suất Hoa thắng là \\(\\dfrac{21}{36}\\).",
+   "images": [],
+   "id": "8dbbb86d0bb6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D4",
+   "type": "mcq",
+   "form": "Two fair dice are rolled. What is the probability that at least one die shows a #?",
+   "en": "Two fair dice are rolled. What is the probability that at least one die shows a 6?",
+   "vi": "Gieo hai con xúc xắc cân đối. Tính xác suất để có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"at least one\">ít nhất một</b> con xúc xắc ra mặt 6 chấm.",
+   "options": [
+    "\\(\\dfrac{25}{36}\\)",
+    "\\(\\dfrac{11}{36}\\)",
+    "\\(\\dfrac{1}{6}\\)",
+    "\\(\\dfrac{1}{3}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Complement: no 6 on either die, \\(5\\cdot5=25\\) outcomes. \\(P=1-\\dfrac{25}{36}=\\dfrac{11}{36}\\).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"complementary event\">Biến cố đối</b>: không con nào ra 6 chấm, có \\(5\\cdot5=25\\) kết quả. \\(P=1-\\dfrac{25}{36}=\\dfrac{11}{36}\\).",
+   "images": [],
+   "id": "30bcd3b7b270",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "A bag has # yellow, # red, # white balls of the same size. One ball is taken at random. Find the probability that it is yellow.",
+   "en": "A bag has 8 yellow, 5 red, 7 white balls of the same size. One ball is taken at random. Find the probability that it is yellow.",
+   "vi": "Một túi có 8 quả bóng vàng, 5 quả bóng đỏ, 7 quả bóng trắng; các quả bóng có cùng kích thước. Lấy ngẫu nhiên một quả. Tính xác suất lấy được quả bóng màu vàng.",
+   "options": [
+    "\\(\\dfrac{3}{5}\\)",
+    "\\(\\dfrac{2}{5}\\)",
+    "\\(\\dfrac{1}{3}\\)",
+    "\\(\\dfrac{2}{3}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(n(\\Omega)=20\\), favorable: 8; \\(P=\\dfrac{8}{20}=\\dfrac{2}{5}\\).",
+   "explain_vi": "Đáp án b. \\(n(\\Omega)=20\\), số kết quả thuận lợi: 8; \\(P=\\dfrac{8}{20}=\\dfrac{2}{5}\\).",
+   "images": [],
+   "id": "e3a69ad8f7f6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "A box has # cards numbered # to #. One card is drawn at random. What is the probability that its number is a prime number?",
+   "en": "A box has 10 cards numbered 1 to 10. One card is drawn at random. What is the probability that its number is a prime number?",
+   "vi": "Một hộp có 10 tấm thẻ đánh số từ 1 đến 10. Rút ngẫu nhiên một thẻ. Tính xác suất để số trên thẻ là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"integers\">số nguyên</b> tố.",
+   "options": [
+    "\\(\\dfrac{1}{2}\\)",
+    "\\(\\dfrac{2}{5}\\)",
+    "\\(\\dfrac{1}{4}\\)",
+    "\\(\\dfrac{3}{5}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(n(\\Omega)=10\\); prime numbers: 2, 3, 5, 7 (4 cards); \\(P=\\dfrac{4}{10}=\\dfrac{2}{5}\\).",
+   "explain_vi": "Đáp án b. \\(n(\\Omega)=10\\); các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"integers\">số nguyên</b> tố: 2, 3, 5, 7 (4 thẻ); \\(P=\\dfrac{4}{10}=\\dfrac{2}{5}\\).",
+   "images": [],
+   "id": "479ad857ec2c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "A fair die is rolled once. Find the probability that it shows an odd number.",
+   "en": "A fair die is rolled once. Find the probability that it shows an odd number.",
+   "vi": "Gieo một con xúc xắc cân đối một lần. Tính xác suất của biến cố “Số chấm lẻ”.",
+   "options": [
+    "\\(\\dfrac{1}{2}\\)",
+    "\\(\\dfrac{1}{3}\\)",
+    "\\(\\dfrac{1}{6}\\)",
+    "\\(\\dfrac{3}{5}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Favorable outcomes: 1, 3, 5, so \\(P=\\dfrac{3}{6}=\\dfrac{1}{2}\\).",
+   "explain_vi": "Đáp án a. Các kết quả thuận lợi: 1, 3, 5, nên \\(P=\\dfrac{3}{6}=\\dfrac{1}{2}\\).",
+   "images": [],
+   "id": "b5dd5f9ee6dc",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "Two dice are rolled. Exactly # outcomes are favorable to the event “the sum of the two numbers is #”.",
+   "en": "Two dice are rolled. Exactly 3 outcomes are favorable to the event “the sum of the two numbers is 4”.",
+   "vi": "Gieo hai con xúc xắc. Có đúng 3 kết quả thuận lợi cho biến cố “Tổng số chấm trên hai con xúc xắc bằng 4”.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. The favorable outcomes: \\((1;\\,3)\\), \\((2;\\,2)\\), \\((3;\\,1)\\) (3 outcomes).",
+   "explain_vi": "Đúng. Các kết quả thuận lợi: \\((1;\\,3)\\), \\((2;\\,2)\\), \\((3;\\,1)\\) (3 kết quả).",
+   "images": [],
+   "id": "542c1d716758",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "Two fair coins are tossed. The probability that at least one coin shows heads is \\(\\dfrac{#}{#}\\).",
+   "en": "Two fair coins are tossed. The probability that at least one coin shows heads is \\(\\dfrac{3}{4}\\).",
+   "vi": "Gieo hai đồng xu cân đối. Xác suất của biến cố “Có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"at least one\">ít nhất một</b> đồng xu ngửa” bằng \\(\\dfrac{3}{4}\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. \\(\\Omega=\\{HH;\\,HT;\\,TH;\\,TT\\}\\) (4 equally likely outcomes): \\(P=\\dfrac{3}{4}\\).",
+   "explain_vi": "Đúng. \\(\\Omega=\\{NN;\\,NS;\\,SN;\\,SS\\}\\) (4 kết quả <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equally likely\">đồng khả năng</b>): \\(P=\\dfrac{3}{4}\\).",
+   "images": [],
+   "id": "ac93b76462a8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "Among # seeds, there are # red-flower seeds. One is chosen at random. Find the probability of getting a red-flower seed (write it as a decimal).",
+   "en": "Among 25 seeds, there are 7 red-flower seeds. One is chosen at random. Find the probability of getting a red-flower seed (write it as a decimal).",
+   "vi": "Trong 25 hạt giống có 7 hạt cho hoa đỏ. Chọn ngẫu nhiên một hạt giống. Tính xác suất chọn được hạt cho hoa đỏ (viết dưới dạng số thập phân).",
+   "options": [],
+   "answer": "0.28",
+   "explain_en": "Answer: 0.28. \\(P=\\dfrac{7}{25}=0.28\\).",
+   "explain_vi": "Đáp số: 0,28. \\(P=\\dfrac{7}{25}=0{,}28\\).",
+   "images": [],
+   "id": "76ced2a415c4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "Two dice are rolled. How many outcomes are favorable to the event “the two numbers differ by #”?",
+   "en": "Two dice are rolled. How many outcomes are favorable to the event “the two numbers differ by 2”?",
+   "vi": "Gieo hai con xúc xắc. Có bao nhiêu kết quả thuận lợi cho biến cố “Hai số chấm hơn kém nhau 2”?",
+   "options": [],
+   "answer": "8",
+   "explain_en": "Answer: 8. \\((1;\\,3)\\), \\((2;\\,4)\\), \\((3;\\,1)\\), \\((3;\\,5)\\), \\((4;\\,2)\\), \\((4;\\,6)\\), \\((5;\\,3)\\), \\((6;\\,4)\\): 8 outcomes.",
+   "explain_vi": "Đáp số: 8. \\((1;\\,3)\\), \\((2;\\,4)\\), \\((3;\\,1)\\), \\((3;\\,5)\\), \\((4;\\,2)\\), \\((4;\\,6)\\), \\((5;\\,3)\\), \\((6;\\,4)\\): 8 kết quả.",
+   "images": [],
+   "id": "29c9b84804a2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D1",
+   "type": "mcq",
+   "form": "A die is rolled. Which set lists the outcomes favorable to the event “the die shows an odd number”?",
+   "en": "A die is rolled. Which set lists the outcomes favorable to the event “the die shows an odd number”?",
+   "vi": "Gieo một con xúc xắc. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"set\">Tập hợp</b> nào gồm các kết quả thuận lợi cho biến cố “Số chấm lẻ”?",
+   "options": [
+    "\\(\\{1;\\,2;\\,3;\\,4;\\,5;\\,6\\}\\)",
+    "\\(\\{2;\\,4;\\,6\\}\\)",
+    "\\(\\{1;\\,3\\}\\)",
+    "\\(\\{1;\\,3;\\,5\\}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. The outcomes that make the event happen: \\(\\{1;\\,3;\\,5\\}\\).",
+   "explain_vi": "Đáp án d. Các kết quả làm cho biến cố xảy ra: \\(\\{1;\\,3;\\,5\\}\\).",
+   "images": [],
+   "id": "1450b11913ae",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D1",
+   "type": "mcq",
+   "form": "For which object are all the outcomes equally likely?",
+   "en": "For which object are all the outcomes equally likely?",
+   "vi": "Với vật nào sau đây, các kết quả có thể là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equally likely\">đồng khả năng</b>?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">a die with one face heavier than the others</span><span class=\"vi\">một con xúc xắc bị làm nặng một mặt</span></span>",
+    "<span class=\"txi\"><span class=\"en\">a coin bent on one side</span><span class=\"vi\">một đồng xu bị cong một phía</span></span>",
+    "<span class=\"txi\"><span class=\"en\">a spinner with sectors of different sizes</span><span class=\"vi\">một vòng quay có các hình quạt không bằng nhau</span></span>",
+    "<span class=\"txi\"><span class=\"en\">a fair die</span><span class=\"vi\">một con xúc xắc cân đối và đồng chất</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. A fair die: each face has the same chance \\(\\dfrac{1}{6}\\).",
+   "explain_vi": "Đáp án d. Xúc xắc cân đối và đồng chất: mỗi mặt có cùng khả năng xuất hiện \\(\\dfrac{1}{6}\\).",
+   "images": [],
+   "id": "569a147df249",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D1",
+   "type": "mcq",
+   "form": "The spinner has # equal sectors. It is spun once. What is the probability that the arrow stops at a number greater than #?",
+   "en": "The spinner has 4 equal sectors. It is spun once. What is the probability that the arrow stops at a number greater than 6?<img src=\"../../../img/tex/d7a6cd277db41fa4.svg\" alt=\"Spinner\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,260px);height:auto\">",
+   "vi": "Vòng quay có 4 hình quạt bằng nhau. Quay một lần. Tính xác suất để kim dừng ở số lớn hơn 6.<img src=\"../../../img/tex/d7a6cd277db41fa4.svg\" alt=\"Vòng quay\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,260px);height:auto\">",
+   "options": [
+    "\\(\\dfrac{1}{4}\\)",
+    "\\(\\dfrac{1}{6}\\)",
+    "\\(1\\)",
+    "\\(\\dfrac{1}{2}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Favorable: 9, 12; \\(P=\\dfrac{2}{4}=\\dfrac{1}{2}\\).",
+   "explain_vi": "Đáp án d. Kết quả thuận lợi: 9, 12; \\(P=\\dfrac{2}{4}=\\dfrac{1}{2}\\).",
+   "images": [
+    "img/tex/d7a6cd277db41fa4.svg"
+   ],
+   "id": "509cdd0c0e57",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D2",
+   "type": "mcq",
+   "form": "A fair coin is tossed and a fair die is rolled. Find the probability of getting heads and a #.",
+   "en": "A fair coin is tossed and a fair die is rolled. Find the probability of getting heads and a 6.",
+   "vi": "Gieo một đồng xu và một con xúc xắc cân đối. Tính xác suất được mặt ngửa và mặt 6 chấm.",
+   "options": [
+    "\\(\\dfrac{1}{8}\\)",
+    "\\(\\dfrac{1}{2}\\)",
+    "\\(\\dfrac{1}{12}\\)",
+    "\\(\\dfrac{1}{6}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(n(\\Omega)=12\\); favorable: \\((H;\\,6)\\); \\(P=\\dfrac{1}{12}\\).",
+   "explain_vi": "Đáp án c. \\(n(\\Omega)=12\\); thuận lợi: \\((N;\\,6)\\); \\(P=\\dfrac{1}{12}\\).",
+   "images": [],
+   "id": "2836b4c47bb0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D2",
+   "type": "mcq",
+   "form": "A whole number from # to # is chosen at random. What is the probability that it is a multiple of #?",
+   "en": "A whole number from 30 to 44 is chosen at random. What is the probability that it is a multiple of 7?",
+   "vi": "Chọn ngẫu nhiên một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"natural numbers\">số tự nhiên</b> từ 30 đến 44. Tính xác suất để số được chọn là bội của 7.",
+   "options": [
+    "\\(\\dfrac{1}{5}\\)",
+    "\\(\\dfrac{13}{15}\\)",
+    "\\(\\dfrac{2}{15}\\)",
+    "\\(\\dfrac{1}{7}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(n(\\Omega)=44-30+1=15\\); favorable: 35, 42; \\(P=\\dfrac{2}{15}\\).",
+   "explain_vi": "Đáp án c. \\(n(\\Omega)=44-30+1=15\\); thuận lợi: 35, 42; \\(P=\\dfrac{2}{15}\\).",
+   "images": [],
+   "id": "f9cd9c1c52c3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Spinner # (numbers # to #) and spinner # (numbers # to #) are spun; the table shows all equally likely outcomes. Find the probability that the number on spinner # is greater.Spinner # \\ Spinner #\\((#;\\,#)\\)\\((#;\\,#)\\)\\((#;\\,#)\\)\\((#;\\,#)\\)#\\((#;\\,#)\\)\\((#;\\,#)\\)\\((#;\\,#)\\)\\((#;\\,#)\\)#\\((#;\\,#)\\)\\((#;\\,#)\\)\\((#;\\,#)\\)\\((#;\\,#)\\)#\\((#;\\,#)\\)\\((#;\\,#)\\)\\((#;\\,#)\\)\\((#;\\,#)\\)",
+   "en": "Spinner 1 (numbers 1 to 4) and spinner 2 (numbers 1 to 4) are spun; the table shows all equally likely outcomes. Find the probability that the number on spinner 1 is greater.<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"col\">Spinner 1 \\ Spinner 2</th><th scope=\"col\">1</th><th scope=\"col\">2</th><th scope=\"col\">3</th><th scope=\"col\">4</th></tr><tr><th scope=\"row\">1</th><td>\\((1;\\,1)\\)</td><td>\\((1;\\,2)\\)</td><td>\\((1;\\,3)\\)</td><td>\\((1;\\,4)\\)</td></tr><tr><th scope=\"row\">2</th><td>\\((2;\\,1)\\)</td><td>\\((2;\\,2)\\)</td><td>\\((2;\\,3)\\)</td><td>\\((2;\\,4)\\)</td></tr><tr><th scope=\"row\">3</th><td>\\((3;\\,1)\\)</td><td>\\((3;\\,2)\\)</td><td>\\((3;\\,3)\\)</td><td>\\((3;\\,4)\\)</td></tr><tr><th scope=\"row\">4</th><td>\\((4;\\,1)\\)</td><td>\\((4;\\,2)\\)</td><td>\\((4;\\,3)\\)</td><td>\\((4;\\,4)\\)</td></tr></tbody></table></div>",
+   "vi": "Quay vòng quay 1 (số 1 đến 4) và vòng quay 2 (số 1 đến 4); bảng dưới <b class=\"mbl-term\" tabindex=\"0\" data-en=\"listing method\">liệt kê</b> các kết quả <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equally likely\">đồng khả năng</b>. Tính xác suất để số ở vòng quay 1 lớn hơn.<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"col\">Vòng 1 \\ Vòng 2</th><th scope=\"col\">1</th><th scope=\"col\">2</th><th scope=\"col\">3</th><th scope=\"col\">4</th></tr><tr><th scope=\"row\">1</th><td>\\((1;\\,1)\\)</td><td>\\((1;\\,2)\\)</td><td>\\((1;\\,3)\\)</td><td>\\((1;\\,4)\\)</td></tr><tr><th scope=\"row\">2</th><td>\\((2;\\,1)\\)</td><td>\\((2;\\,2)\\)</td><td>\\((2;\\,3)\\)</td><td>\\((2;\\,4)\\)</td></tr><tr><th scope=\"row\">3</th><td>\\((3;\\,1)\\)</td><td>\\((3;\\,2)\\)</td><td>\\((3;\\,3)\\)</td><td>\\((3;\\,4)\\)</td></tr><tr><th scope=\"row\">4</th><td>\\((4;\\,1)\\)</td><td>\\((4;\\,2)\\)</td><td>\\((4;\\,3)\\)</td><td>\\((4;\\,4)\\)</td></tr></tbody></table></div>",
+   "options": [
+    "\\(\\dfrac{7}{16}\\)",
+    "\\(\\dfrac{5}{8}\\)",
+    "\\(\\dfrac{3}{4}\\)",
+    "\\(\\dfrac{3}{8}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(n(\\Omega)=16\\); favorable: \\((2;\\,1)\\), \\((3;\\,1)\\), \\((3;\\,2)\\), \\((4;\\,1)\\), \\((4;\\,2)\\), \\((4;\\,3)\\); \\(P=\\dfrac{6}{16}=\\dfrac{3}{8}\\).",
+   "explain_vi": "Đáp án d. \\(n(\\Omega)=16\\); thuận lợi: \\((2;\\,1)\\), \\((3;\\,1)\\), \\((3;\\,2)\\), \\((4;\\,1)\\), \\((4;\\,2)\\), \\((4;\\,3)\\); \\(P=\\dfrac{6}{16}=\\dfrac{3}{8}\\).",
+   "images": [],
+   "id": "9fe494d448de",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D3",
+   "type": "mcq",
+   "form": "A box has # cards numbered # to #. Draw a card, do not put it back, then draw a second card. Find the probability that the sum of the two numbers is greater than #.",
+   "en": "A box has 4 cards numbered 1 to 4. Draw a card, do not put it back, then draw a second card. Find the probability that the sum of the two numbers is greater than 5.",
+   "vi": "Hộp có 4 tấm thẻ đánh số từ 1 đến 4. Rút một thẻ, không trả lại, rồi rút thẻ thứ hai. Tính xác suất để tổng hai số lớn hơn 5.",
+   "options": [
+    "\\(\\dfrac{1}{3}\\)",
+    "\\(\\dfrac{2}{3}\\)",
+    "\\(\\dfrac{1}{4}\\)",
+    "\\(\\dfrac{1}{2}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(n(\\Omega)=4\\cdot3=12\\) ordered pairs; 4 of them are favorable; \\(P=\\dfrac{4}{12}=\\dfrac{1}{3}\\).",
+   "explain_vi": "Đáp án a. \\(n(\\Omega)=4\\cdot3=12\\) cặp có thứ tự; có 4 cặp thuận lợi; \\(P=\\dfrac{4}{12}=\\dfrac{1}{3}\\).",
+   "images": [],
+   "id": "28201c460d72",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D3",
+   "type": "mcq",
+   "form": "A family has # children. Assume that boys (B) and girls (G) are equally likely and the order of birth matters. Find the probability that the family has at least one girl.",
+   "en": "A family has 3 children. Assume that boys (B) and girls (G) are equally likely and the order of birth matters. Find the probability that the family has at least one girl.",
+   "vi": "Một gia đình có 3 con. Giả sử sinh con trai (T) và con gái (G) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equally likely\">đồng khả năng</b> và có phân biệt thứ tự sinh. Tính xác suất để gia đình đó có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"at least one\">ít nhất một</b> con gái.",
+   "options": [
+    "\\(1\\)",
+    "\\(\\dfrac{1}{2}\\)",
+    "\\(\\dfrac{1}{8}\\)",
+    "\\(\\dfrac{7}{8}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Tree diagram: \\(n(\\Omega)=2^{3}=8\\); 7 favorable outcomes; \\(P=\\dfrac{7}{8}\\).",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tree diagram\">Sơ đồ hình cây</b>: \\(n(\\Omega)=2^{3}=8\\); có 7 kết quả thuận lợi; \\(P=\\dfrac{7}{8}\\).",
+   "images": [],
+   "id": "c2d6ba6b3e97",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Two fair dice are rolled. Find the probability of the event “the two dice show the same number”.",
+   "en": "Two fair dice are rolled. Find the probability of the event “the two dice show the same number”.",
+   "vi": "Gieo hai con xúc xắc cân đối. Tính xác suất của biến cố “Hai con xúc xắc có cùng số chấm”.",
+   "options": [
+    "\\(\\dfrac{1}{6}\\)",
+    "\\(\\dfrac{1}{2}\\)",
+    "\\(\\dfrac{7}{36}\\)",
+    "\\(\\dfrac{6}{11}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(n(\\Omega)=36\\); 6 favorable outcomes; \\(P=\\dfrac{6}{36}=\\dfrac{1}{6}\\).",
+   "explain_vi": "Đáp án a. \\(n(\\Omega)=36\\); có 6 kết quả thuận lợi; \\(P=\\dfrac{6}{36}=\\dfrac{1}{6}\\).",
+   "images": [],
+   "id": "217178f3197f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D4",
+   "type": "mcq",
+   "form": "Box A has # balls, # of them red. Box B has # balls, # of them red. You win if you take a red ball. From which box should you take one ball at random?",
+   "en": "Box A has 8 balls, 7 of them red. Box B has 11 balls, 8 of them red. You win if you take a red ball. From which box should you take one ball at random?",
+   "vi": "Hộp A có 8 quả bóng, trong đó 7 quả màu đỏ. Hộp B có 11 quả bóng, trong đó 8 quả màu đỏ. Lấy được quả đỏ thì thắng. Nên lấy ngẫu nhiên một quả từ hộp nào?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">box B, because it has more red balls</span><span class=\"vi\">hộp B, vì có nhiều quả đỏ hơn</span></span>",
+    "<span class=\"txi\"><span class=\"en\">both boxes give the same chance</span><span class=\"vi\">hai hộp như nhau</span></span>",
+    "<span class=\"txi\"><span class=\"en\">cannot be decided</span><span class=\"vi\">không thể biết được</span></span>",
+    "<span class=\"txi\"><span class=\"en\">box A</span><span class=\"vi\">hộp A</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(P_A=\\dfrac{7}{8}\\approx0.88\\), \\(P_B=\\dfrac{8}{11}\\approx0.73\\): choose box A.",
+   "explain_vi": "Đáp án d. \\(P_A=\\dfrac{7}{8}\\approx0{,}88\\), \\(P_B=\\dfrac{8}{11}\\approx0{,}73\\): chọn hộp A.",
+   "images": [],
+   "id": "7e2d26860ff0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D4",
+   "type": "mcq",
+   "form": "Mai and Lan roll two dice. Mai wins if the sum is at least #; otherwise Lan wins. Who is more likely to win?",
+   "en": "Mai and Lan roll two dice. Mai wins if the sum is at least 8; otherwise Lan wins. Who is more likely to win?",
+   "vi": "Mai và Lan gieo hai con xúc xắc. Nếu tổng số chấm không nhỏ hơn 8 thì Mai thắng, ngược lại Lan thắng. Bạn nào có khả năng thắng cao hơn?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">Mai, because \\(\\dfrac{21}{36}\\gt\\dfrac{15}{36}\\)</span><span class=\"vi\">Mai, vì \\(\\dfrac{21}{36}\\gt\\dfrac{15}{36}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the game is fair, both have probability \\(\\dfrac{1}{2}\\)</span><span class=\"vi\">trò chơi công bằng, hai bạn có cùng xác suất \\(\\dfrac{1}{2}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">we cannot compare, it is only luck</span><span class=\"vi\">không so sánh được, chỉ do may mắn</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Lan, because \\(\\dfrac{21}{36}\\gt\\dfrac{15}{36}\\)</span><span class=\"vi\">Lan, vì \\(\\dfrac{21}{36}\\gt\\dfrac{15}{36}\\)</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Sum at least 8: 15 outcomes, so \\(P(Mai)=\\dfrac{15}{36}\\), \\(P(Lan)=\\dfrac{21}{36}\\).",
+   "explain_vi": "Đáp án d. Tổng không nhỏ hơn 8: có 15 kết quả, nên xác suất Mai thắng là \\(\\dfrac{15}{36}\\), xác suất Lan thắng là \\(\\dfrac{21}{36}\\).",
+   "images": [],
+   "id": "f7b360867bac",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D4",
+   "type": "mcq",
+   "form": "Two fair dice are rolled. What is the probability that the two numbers are DIFFERENT?",
+   "en": "Two fair dice are rolled. What is the probability that the two numbers are DIFFERENT?",
+   "vi": "Gieo hai con xúc xắc cân đối. Tính xác suất để hai số chấm KHÁC nhau.",
+   "options": [
+    "\\(\\dfrac{5}{6}\\)",
+    "\\(\\dfrac{29}{36}\\)",
+    "\\(\\dfrac{1}{6}\\)",
+    "\\(\\dfrac{1}{2}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Complement: both equal (6 outcomes). \\(P=1-\\dfrac{6}{36}=\\dfrac{5}{6}\\).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"complementary event\">Biến cố đối</b>: hai số bằng nhau (6 kết quả). \\(P=1-\\dfrac{6}{36}=\\dfrac{5}{6}\\).",
+   "images": [],
+   "id": "2422c87dbef8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "A bag has # white, # yellow, # blue balls of the same size. One ball is taken at random. Find the probability that it is white.",
+   "en": "A bag has 2 white, 7 yellow, 8 blue balls of the same size. One ball is taken at random. Find the probability that it is white.",
+   "vi": "Một túi có 2 quả bóng trắng, 7 quả bóng vàng, 8 quả bóng xanh; các quả bóng có cùng kích thước. Lấy ngẫu nhiên một quả. Tính xác suất lấy được quả bóng màu trắng.",
+   "options": [
+    "\\(\\dfrac{15}{17}\\)",
+    "\\(\\dfrac{2}{15}\\)",
+    "\\(\\dfrac{1}{3}\\)",
+    "\\(\\dfrac{2}{17}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(n(\\Omega)=17\\), favorable: 2; \\(P=\\dfrac{2}{17}\\).",
+   "explain_vi": "Đáp án d. \\(n(\\Omega)=17\\), số kết quả thuận lợi: 2; \\(P=\\dfrac{2}{17}\\).",
+   "images": [],
+   "id": "e04691563c18",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "A box has # cards numbered # to #. One card is drawn at random. What is the probability that its number is a multiple of #?",
+   "en": "A box has 30 cards numbered 1 to 30. One card is drawn at random. What is the probability that its number is a multiple of 4?",
+   "vi": "Một hộp có 30 tấm thẻ đánh số từ 1 đến 30. Rút ngẫu nhiên một thẻ. Tính xác suất để số trên thẻ là bội của 4.",
+   "options": [
+    "\\(\\dfrac{1}{7}\\)",
+    "\\(\\dfrac{23}{30}\\)",
+    "\\(\\dfrac{7}{30}\\)",
+    "\\(\\dfrac{4}{15}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(n(\\Omega)=30\\); multiples of 4: 4, 8, 12, 16, 20, 24, 28 (7 cards); \\(P=\\dfrac{7}{30}\\).",
+   "explain_vi": "Đáp án c. \\(n(\\Omega)=30\\); các bội của 4: 4, 8, 12, 16, 20, 24, 28 (7 thẻ); \\(P=\\dfrac{7}{30}\\).",
+   "images": [],
+   "id": "e2fe18b05f35",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "A fair die is rolled once. Find the probability that it shows a multiple of #.",
+   "en": "A fair die is rolled once. Find the probability that it shows a multiple of 3.",
+   "vi": "Gieo một con xúc xắc cân đối một lần. Tính xác suất của biến cố “Số chấm là bội của 3”.",
+   "options": [
+    "\\(\\dfrac{1}{3}\\)",
+    "\\(\\dfrac{1}{6}\\)",
+    "\\(\\dfrac{2}{3}\\)",
+    "\\(\\dfrac{2}{5}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Favorable outcomes: 3, 6, so \\(P=\\dfrac{2}{6}=\\dfrac{1}{3}\\).",
+   "explain_vi": "Đáp án a. Các kết quả thuận lợi: 3, 6, nên \\(P=\\dfrac{2}{6}=\\dfrac{1}{3}\\).",
+   "images": [],
+   "id": "9774bb005441",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "Two dice are rolled. Exactly # outcomes are favorable to the event “the sum of the two numbers is #”.",
+   "en": "Two dice are rolled. Exactly 4 outcomes are favorable to the event “the sum of the two numbers is 9”.",
+   "vi": "Gieo hai con xúc xắc. Có đúng 4 kết quả thuận lợi cho biến cố “Tổng số chấm trên hai con xúc xắc bằng 9”.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. The favorable outcomes: \\((3;\\,6)\\), \\((4;\\,5)\\), \\((5;\\,4)\\), \\((6;\\,3)\\) (4 outcomes).",
+   "explain_vi": "Đúng. Các kết quả thuận lợi: \\((3;\\,6)\\), \\((4;\\,5)\\), \\((5;\\,4)\\), \\((6;\\,3)\\) (4 kết quả).",
+   "images": [],
+   "id": "f5f051c241dc",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "Two fair coins are tossed. The probability that the two coins show the same side is \\(\\dfrac{#}{#}\\).",
+   "en": "Two fair coins are tossed. The probability that the two coins show the same side is \\(\\dfrac{1}{2}\\).",
+   "vi": "Gieo hai đồng xu cân đối. Xác suất của biến cố “Hai đồng xu cùng mặt” bằng \\(\\dfrac{1}{2}\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. \\(\\Omega=\\{HH;\\,HT;\\,TH;\\,TT\\}\\) (4 equally likely outcomes): \\(P=\\dfrac{1}{2}\\).",
+   "explain_vi": "Đúng. \\(\\Omega=\\{NN;\\,NS;\\,SN;\\,SS\\}\\) (4 kết quả <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equally likely\">đồng khả năng</b>): \\(P=\\dfrac{1}{2}\\).",
+   "images": [],
+   "id": "01d8e0eeeec7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Among # seeds, there are # red-flower seeds. One is chosen at random. Find the probability of getting a red-flower seed (write it as a decimal).",
+   "en": "Among 20 seeds, there are 9 red-flower seeds. One is chosen at random. Find the probability of getting a red-flower seed (write it as a decimal).",
+   "vi": "Trong 20 hạt giống có 9 hạt cho hoa đỏ. Chọn ngẫu nhiên một hạt giống. Tính xác suất chọn được hạt cho hoa đỏ (viết dưới dạng số thập phân).",
+   "options": [],
+   "answer": "0.45",
+   "explain_en": "Answer: 0.45. \\(P=\\dfrac{9}{20}=0.45\\).",
+   "explain_vi": "Đáp số: 0,45. \\(P=\\dfrac{9}{20}=0{,}45\\).",
+   "images": [],
+   "id": "dd2ca618cbe7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Two dice are rolled. How many outcomes are favorable to the event “the product of the two numbers is #”?",
+   "en": "Two dice are rolled. How many outcomes are favorable to the event “the product of the two numbers is 4”?",
+   "vi": "Gieo hai con xúc xắc. Có bao nhiêu kết quả thuận lợi cho biến cố “Tích số chấm trên hai con xúc xắc bằng 4”?",
+   "options": [],
+   "answer": "3",
+   "explain_en": "Answer: 3. \\((1;\\,4)\\), \\((2;\\,2)\\), \\((4;\\,1)\\): 3 outcomes.",
+   "explain_vi": "Đáp số: 3. \\((1;\\,4)\\), \\((2;\\,2)\\), \\((4;\\,1)\\): 3 kết quả.",
+   "images": [],
+   "id": "841e6b9f75ab",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D1",
+   "type": "mcq",
+   "form": "A die is rolled. Which set lists the outcomes favorable to the event “the die shows a number at least #”?",
+   "en": "A die is rolled. Which set lists the outcomes favorable to the event “the die shows a number at least 2”?",
+   "vi": "Gieo một con xúc xắc. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"set\">Tập hợp</b> nào gồm các kết quả thuận lợi cho biến cố “Số chấm không nhỏ hơn 2”?",
+   "options": [
+    "\\(\\{1\\}\\)",
+    "\\(\\{2;\\,3;\\,4;\\,5\\}\\)",
+    "\\(\\{2;\\,3;\\,4;\\,5;\\,6\\}\\)",
+    "\\(\\{1;\\,2;\\,3;\\,4;\\,5;\\,6\\}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The outcomes that make the event happen: \\(\\{2;\\,3;\\,4;\\,5;\\,6\\}\\).",
+   "explain_vi": "Đáp án c. Các kết quả làm cho biến cố xảy ra: \\(\\{2;\\,3;\\,4;\\,5;\\,6\\}\\).",
+   "images": [],
+   "id": "93667400e35d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D1",
+   "type": "mcq",
+   "form": "The outcomes of an experiment are equally likely; \\(n(A)\\) is the number of favorable outcomes of \\(A\\). Then…",
+   "en": "The outcomes of an experiment are equally likely; \\(n(A)\\) is the number of favorable outcomes of \\(A\\). Then…",
+   "vi": "Các kết quả của phép thử là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equally likely\">đồng khả năng</b>; \\(n(A)\\) là số kết quả thuận lợi cho \\(A\\). Khi đó…",
+   "options": [
+    "\\(P(A)=n(\\Omega)-n(A)\\)",
+    "\\(P(A)=\\dfrac{n(A)}{n(\\Omega)}\\)",
+    "\\(P(A)=\\dfrac{n(\\Omega)}{n(A)}\\)",
+    "\\(P(A)=n(A)\\cdot n(\\Omega)\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(P(A)=\\dfrac{n(A)}{n(\\Omega)}\\).",
+   "explain_vi": "Đáp án b. \\(P(A)=\\dfrac{n(A)}{n(\\Omega)}\\).",
+   "images": [],
+   "id": "fa610592e7e4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D1",
+   "type": "mcq",
+   "form": "The spinner has # equal sectors. It is spun once. What is the probability that the arrow stops at a number greater than #?",
+   "en": "The spinner has 8 equal sectors. It is spun once. What is the probability that the arrow stops at a number greater than 6?<img src=\"../../../img/tex/0269976113f38097.svg\" alt=\"Spinner\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,260px);height:auto\">",
+   "vi": "Vòng quay có 8 hình quạt bằng nhau. Quay một lần. Tính xác suất để kim dừng ở số lớn hơn 6.<img src=\"../../../img/tex/0269976113f38097.svg\" alt=\"Vòng quay\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,260px);height:auto\">",
+   "options": [
+    "\\(\\dfrac{3}{8}\\)",
+    "\\(\\dfrac{5}{12}\\)",
+    "\\(\\dfrac{1}{8}\\)",
+    "\\(\\dfrac{5}{8}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Favorable: 7, 8, 9, 10, 11; \\(P=\\dfrac{5}{8}\\).",
+   "explain_vi": "Đáp án d. Kết quả thuận lợi: 7, 8, 9, 10, 11; \\(P=\\dfrac{5}{8}\\).",
+   "images": [
+    "img/tex/0269976113f38097.svg"
+   ],
+   "id": "28fefdb7ad81",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D2",
+   "type": "mcq",
+   "form": "A fair coin is tossed and a fair die is rolled. Find the probability of getting tails and a number at most #.",
+   "en": "A fair coin is tossed and a fair die is rolled. Find the probability of getting tails and a number at most 2.",
+   "vi": "Gieo một đồng xu và một con xúc xắc cân đối. Tính xác suất được mặt sấp và số chấm không quá 2.",
+   "options": [
+    "\\(\\dfrac{1}{4}\\)",
+    "\\(\\dfrac{1}{6}\\)",
+    "\\(\\dfrac{1}{3}\\)",
+    "\\(\\dfrac{1}{2}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(n(\\Omega)=12\\); favorable: \\((T;\\,1)\\), \\((T;\\,2)\\); \\(P=\\dfrac{2}{12}=\\dfrac{1}{6}\\).",
+   "explain_vi": "Đáp án b. \\(n(\\Omega)=12\\); thuận lợi: \\((S;\\,1)\\), \\((S;\\,2)\\); \\(P=\\dfrac{2}{12}=\\dfrac{1}{6}\\).",
+   "images": [],
+   "id": "8495f4a617a4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D2",
+   "type": "mcq",
+   "form": "A whole number from # to # is chosen at random. What is the probability that it is a number with two equal digits?",
+   "en": "A whole number from 20 to 34 is chosen at random. What is the probability that it is a number with two equal digits?",
+   "vi": "Chọn ngẫu nhiên một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"natural numbers\">số tự nhiên</b> từ 20 đến 34. Tính xác suất để số được chọn là số có hai chữ số giống nhau.",
+   "options": [
+    "\\(\\dfrac{1}{5}\\)",
+    "\\(\\dfrac{13}{15}\\)",
+    "\\(\\dfrac{2}{15}\\)",
+    "\\(\\dfrac{1}{7}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(n(\\Omega)=34-20+1=15\\); favorable: 22, 33; \\(P=\\dfrac{2}{15}\\).",
+   "explain_vi": "Đáp án c. \\(n(\\Omega)=34-20+1=15\\); thuận lợi: 22, 33; \\(P=\\dfrac{2}{15}\\).",
+   "images": [],
+   "id": "529b3cb6b7bc",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Spinner # (numbers # to #) and spinner # (numbers # to #) are spun; the table shows all equally likely outcomes. Find the probability that the sum of the two numbers is #.Spinner # \\ Spinner #\\((#;\\,#)\\)\\((#;\\,#)\\)\\((#;\\,#)\\)\\((#;\\,#)\\)#\\((#;\\,#)\\)\\((#;\\,#)\\)\\((#;\\,#)\\)\\((#;\\,#)\\)#\\((#;\\,#)\\)\\((#;\\,#)\\)\\((#;\\,#)\\)\\((#;\\,#)\\)#\\((#;\\,#)\\)\\((#;\\,#)\\)\\((#;\\,#)\\)\\((#;\\,#)\\)",
+   "en": "Spinner 1 (numbers 1 to 4) and spinner 2 (numbers 1 to 4) are spun; the table shows all equally likely outcomes. Find the probability that the sum of the two numbers is 4.<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"col\">Spinner 1 \\ Spinner 2</th><th scope=\"col\">1</th><th scope=\"col\">2</th><th scope=\"col\">3</th><th scope=\"col\">4</th></tr><tr><th scope=\"row\">1</th><td>\\((1;\\,1)\\)</td><td>\\((1;\\,2)\\)</td><td>\\((1;\\,3)\\)</td><td>\\((1;\\,4)\\)</td></tr><tr><th scope=\"row\">2</th><td>\\((2;\\,1)\\)</td><td>\\((2;\\,2)\\)</td><td>\\((2;\\,3)\\)</td><td>\\((2;\\,4)\\)</td></tr><tr><th scope=\"row\">3</th><td>\\((3;\\,1)\\)</td><td>\\((3;\\,2)\\)</td><td>\\((3;\\,3)\\)</td><td>\\((3;\\,4)\\)</td></tr><tr><th scope=\"row\">4</th><td>\\((4;\\,1)\\)</td><td>\\((4;\\,2)\\)</td><td>\\((4;\\,3)\\)</td><td>\\((4;\\,4)\\)</td></tr></tbody></table></div>",
+   "vi": "Quay vòng quay 1 (số 1 đến 4) và vòng quay 2 (số 1 đến 4); bảng dưới <b class=\"mbl-term\" tabindex=\"0\" data-en=\"listing method\">liệt kê</b> các kết quả <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equally likely\">đồng khả năng</b>. Tính xác suất để tổng hai số bằng 4.<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"col\">Vòng 1 \\ Vòng 2</th><th scope=\"col\">1</th><th scope=\"col\">2</th><th scope=\"col\">3</th><th scope=\"col\">4</th></tr><tr><th scope=\"row\">1</th><td>\\((1;\\,1)\\)</td><td>\\((1;\\,2)\\)</td><td>\\((1;\\,3)\\)</td><td>\\((1;\\,4)\\)</td></tr><tr><th scope=\"row\">2</th><td>\\((2;\\,1)\\)</td><td>\\((2;\\,2)\\)</td><td>\\((2;\\,3)\\)</td><td>\\((2;\\,4)\\)</td></tr><tr><th scope=\"row\">3</th><td>\\((3;\\,1)\\)</td><td>\\((3;\\,2)\\)</td><td>\\((3;\\,3)\\)</td><td>\\((3;\\,4)\\)</td></tr><tr><th scope=\"row\">4</th><td>\\((4;\\,1)\\)</td><td>\\((4;\\,2)\\)</td><td>\\((4;\\,3)\\)</td><td>\\((4;\\,4)\\)</td></tr></tbody></table></div>",
+   "options": [
+    "\\(\\dfrac{3}{16}\\)",
+    "\\(\\dfrac{3}{8}\\)",
+    "\\(\\dfrac{1}{4}\\)",
+    "\\(\\dfrac{13}{16}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(n(\\Omega)=16\\); favorable: \\((1;\\,3)\\), \\((2;\\,2)\\), \\((3;\\,1)\\); \\(P=\\dfrac{3}{16}\\).",
+   "explain_vi": "Đáp án a. \\(n(\\Omega)=16\\); thuận lợi: \\((1;\\,3)\\), \\((2;\\,2)\\), \\((3;\\,1)\\); \\(P=\\dfrac{3}{16}\\).",
+   "images": [],
+   "id": "d3048ec27a1c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D3",
+   "type": "mcq",
+   "form": "A box has # cards numbered # to #. Draw a card, do not put it back, then draw a second card. Find the probability that the sum of the two numbers is greater than #.",
+   "en": "A box has 5 cards numbered 1 to 5. Draw a card, do not put it back, then draw a second card. Find the probability that the sum of the two numbers is greater than 6.",
+   "vi": "Hộp có 5 tấm thẻ đánh số từ 1 đến 5. Rút một thẻ, không trả lại, rồi rút thẻ thứ hai. Tính xác suất để tổng hai số lớn hơn 6.",
+   "options": [
+    "\\(\\dfrac{3}{5}\\)",
+    "\\(\\dfrac{1}{2}\\)",
+    "\\(\\dfrac{8}{25}\\)",
+    "\\(\\dfrac{2}{5}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(n(\\Omega)=5\\cdot4=20\\) ordered pairs; 8 of them are favorable; \\(P=\\dfrac{8}{20}=\\dfrac{2}{5}\\).",
+   "explain_vi": "Đáp án d. \\(n(\\Omega)=5\\cdot4=20\\) cặp có thứ tự; có 8 cặp thuận lợi; \\(P=\\dfrac{8}{20}=\\dfrac{2}{5}\\).",
+   "images": [],
+   "id": "5b5f0f60c37c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D3",
+   "type": "mcq",
+   "form": "A family has # children. Assume that boys (B) and girls (G) are equally likely and the order of birth matters. Find the probability that the family has exactly one girl.",
+   "en": "A family has 3 children. Assume that boys (B) and girls (G) are equally likely and the order of birth matters. Find the probability that the family has exactly one girl.",
+   "vi": "Một gia đình có 3 con. Giả sử sinh con trai (T) và con gái (G) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"equally likely\">đồng khả năng</b> và có phân biệt thứ tự sinh. Tính xác suất để gia đình đó có đúng một con gái.",
+   "options": [
+    "\\(\\dfrac{5}{8}\\)",
+    "\\(\\dfrac{1}{2}\\)",
+    "\\(\\dfrac{3}{4}\\)",
+    "\\(\\dfrac{3}{8}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Tree diagram: \\(n(\\Omega)=2^{3}=8\\); 3 favorable outcomes; \\(P=\\dfrac{3}{8}\\).",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"tree diagram\">Sơ đồ hình cây</b>: \\(n(\\Omega)=2^{3}=8\\); có 3 kết quả thuận lợi; \\(P=\\dfrac{3}{8}\\).",
+   "images": [],
+   "id": "e65b382d74c7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Two fair dice are rolled. Find the probability of the event “the sum is at least #”.",
+   "en": "Two fair dice are rolled. Find the probability of the event “the sum is at least 11”.",
+   "vi": "Gieo hai con xúc xắc cân đối. Tính xác suất của biến cố “Tổng số chấm không nhỏ hơn 11”.",
+   "options": [
+    "\\(\\dfrac{1}{9}\\)",
+    "\\(\\dfrac{1}{12}\\)",
+    "\\(\\dfrac{3}{11}\\)",
+    "\\(\\dfrac{1}{4}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(n(\\Omega)=36\\); 3 favorable outcomes; \\(P=\\dfrac{3}{36}=\\dfrac{1}{12}\\).",
+   "explain_vi": "Đáp án b. \\(n(\\Omega)=36\\); có 3 kết quả thuận lợi; \\(P=\\dfrac{3}{36}=\\dfrac{1}{12}\\).",
+   "images": [],
+   "id": "8fa7b37b3797",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D4",
+   "type": "mcq",
+   "form": "An and Nam roll two dice. An wins if the sum is at least #; otherwise Nam wins. Who is more likely to win?",
+   "en": "An and Nam roll two dice. An wins if the sum is at least 9; otherwise Nam wins. Who is more likely to win?",
+   "vi": "An và Nam gieo hai con xúc xắc. Nếu tổng số chấm không nhỏ hơn 9 thì An thắng, ngược lại Nam thắng. Bạn nào có khả năng thắng cao hơn?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">An, because \\(\\dfrac{26}{36}\\gt\\dfrac{10}{36}\\)</span><span class=\"vi\">An, vì \\(\\dfrac{26}{36}\\gt\\dfrac{10}{36}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the game is fair, both have probability \\(\\dfrac{1}{2}\\)</span><span class=\"vi\">trò chơi công bằng, hai bạn có cùng xác suất \\(\\dfrac{1}{2}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Nam, because \\(\\dfrac{26}{36}\\gt\\dfrac{10}{36}\\)</span><span class=\"vi\">Nam, vì \\(\\dfrac{26}{36}\\gt\\dfrac{10}{36}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">we cannot compare, it is only luck</span><span class=\"vi\">không so sánh được, chỉ do may mắn</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Sum at least 9: 10 outcomes, so \\(P(An)=\\dfrac{10}{36}\\), \\(P(Nam)=\\dfrac{26}{36}\\).",
+   "explain_vi": "Đáp án c. Tổng không nhỏ hơn 9: có 10 kết quả, nên xác suất An thắng là \\(\\dfrac{10}{36}\\), xác suất Nam thắng là \\(\\dfrac{26}{36}\\).",
+   "images": [],
+   "id": "3488c03f6085",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D4",
+   "type": "mcq",
+   "form": "Box A has # balls, # of them red. Box B has # balls, # of them red. You win if you take a red ball. From which box should you take one ball at random?",
+   "en": "Box A has 15 balls, 7 of them red. Box B has 8 balls, 5 of them red. You win if you take a red ball. From which box should you take one ball at random?",
+   "vi": "Hộp A có 15 quả bóng, trong đó 7 quả màu đỏ. Hộp B có 8 quả bóng, trong đó 5 quả màu đỏ. Lấy được quả đỏ thì thắng. Nên lấy ngẫu nhiên một quả từ hộp nào?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">box A, because it has more red balls</span><span class=\"vi\">hộp A, vì có nhiều quả đỏ hơn</span></span>",
+    "<span class=\"txi\"><span class=\"en\">box B</span><span class=\"vi\">hộp B</span></span>",
+    "<span class=\"txi\"><span class=\"en\">both boxes give the same chance</span><span class=\"vi\">hai hộp như nhau</span></span>",
+    "<span class=\"txi\"><span class=\"en\">cannot be decided</span><span class=\"vi\">không thể biết được</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(P_A=\\dfrac{7}{15}\\approx0.47\\), \\(P_B=\\dfrac{5}{8}\\approx0.62\\): choose box B.",
+   "explain_vi": "Đáp án b. \\(P_A=\\dfrac{7}{15}\\approx0{,}47\\), \\(P_B=\\dfrac{5}{8}\\approx0{,}62\\): chọn hộp B.",
+   "images": [],
+   "id": "6e68891a7668",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D4",
+   "type": "mcq",
+   "form": "In a school fair, # of the # lucky tickets win a prize. A student buys one ticket. What is the probability that the ticket does NOT win?",
+   "en": "In a school fair, 2 of the 50 lucky tickets win a prize. A student buys one ticket. What is the probability that the ticket does NOT win?",
+   "vi": "Ở hội chợ của trường, trong 50 phiếu bốc thăm có 2 phiếu trúng thưởng. Một bạn mua một phiếu. Tính xác suất để phiếu đó KHÔNG trúng thưởng.",
+   "options": [
+    "\\(\\dfrac{1}{2}\\)",
+    "\\(\\dfrac{1}{25}\\)",
+    "\\(\\dfrac{24}{25}\\)",
+    "\\(\\dfrac{12}{13}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(P(\\overline{A})=1-P(A)=1-\\dfrac{2}{50}=\\dfrac{24}{25}\\).",
+   "explain_vi": "Đáp án c. \\(P(\\overline{A})=1-P(A)=1-\\dfrac{2}{50}=\\dfrac{24}{25}\\).",
+   "images": [],
+   "id": "18aaf0b1c6b7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  }
+ ]
+}

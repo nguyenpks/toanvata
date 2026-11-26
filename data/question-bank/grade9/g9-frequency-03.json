@@ -1,0 +1,1296 @@
+{
+ "lesson": "g9-frequency-03",
+ "grade": 9,
+ "no": 24,
+ "title": "Bảng tần số, tần số tương đối ghép nhóm và biểu đồ",
+ "path": "lessons/grade9/frequency-relative-frequency/grouped-frequency-tables-charts.html",
+ "items": [
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "The data on time are grouped into the groups \\([#;\\,#)\\), \\([#;\\,#)\\), \\([#;\\,#)\\), \\([#;\\,#)\\), \\([#;\\,#)\\), \\([#;\\,#)\\). Which group contains the value \\(#\\)?",
+   "en": "The data on time are grouped into the groups \\([0;\\,5)\\), \\([5;\\,10)\\), \\([10;\\,15)\\), \\([15;\\,20)\\), \\([20;\\,25)\\), \\([25;\\,30)\\). Which group contains the value \\(15\\)?",
+   "vi": "Dữ liệu về thời gian được ghép thành các nhóm \\([0;\\,5)\\), \\([5;\\,10)\\), \\([10;\\,15)\\), \\([15;\\,20)\\), \\([20;\\,25)\\), \\([25;\\,30)\\). Giá trị \\(15\\) thuộc nhóm nào?",
+   "options": [
+    "\\([10;\\,15)\\)",
+    "\\([25;\\,30)\\)",
+    "\\([20;\\,25)\\)",
+    "\\([15;\\,20)\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. The group \\([a;\\,b)\\) contains \\(a\\) but not \\(b\\): \\(15\\le 15\\lt 20\\).",
+   "explain_vi": "Đáp án d. Nhóm \\([a;\\,b)\\) chứa \\(a\\) nhưng không chứa \\(b\\): \\(15\\le 15\\lt 20\\).",
+   "images": [],
+   "id": "a899d55502d0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "The grouped frequency table shows the heights (in cm) of # students. What is the relative frequency of the group \\([#;\\,#)\\)?Group (Height (cm))[#; #)[#; #)[#; #)[#; #)[#; #)[#; #)Frequency (m)#",
+   "en": "The grouped frequency table shows the heights (in cm) of 40 students. What is the relative frequency of the group \\([160;\\,165)\\)?<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Group (Height (cm))</th><td>[150; 155)</td><td>[155; 160)</td><td>[160; 165)</td><td>[165; 170)</td><td>[170; 175)</td><td>[175; 180)</td></tr><tr><th scope=\"row\">Frequency (m)</th><td>3</td><td>5</td><td>15</td><td>2</td><td>8</td><td>7</td></tr></tbody></table></div>",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"grouped frequency table\">Bảng tần số ghép nhóm</b> cho biết <b class=\"mbl-term\" tabindex=\"0\" data-en=\"height\">chiều cao</b> (cm) của 40 học sinh. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"relative frequency\">Tần số tương đối</b> của nhóm \\([160;\\,165)\\) là bao nhiêu?<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Nhóm (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"height\">Chiều cao</b> (cm))</th><td>[150; 155)</td><td>[155; 160)</td><td>[160; 165)</td><td>[165; 170)</td><td>[170; 175)</td><td>[175; 180)</td></tr><tr><th scope=\"row\"><b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">Tần số</b> (m)</th><td>3</td><td>5</td><td>15</td><td>2</td><td>8</td><td>7</td></tr></tbody></table></div>",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(62.5\\%\\)</span><span class=\"vi\">\\(62{,}5\\%\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(15\\%\\)</span><span class=\"vi\">\\(15\\%\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(37.5\\%\\)</span><span class=\"vi\">\\(37{,}5\\%\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(5\\%\\)</span><span class=\"vi\">\\(5\\%\\)</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(f=\\dfrac{15}{40}\\cdot100\\%=37.5\\%\\).",
+   "explain_vi": "Đáp án c. \\(f=\\dfrac{15}{40}\\cdot100\\%=37{,}5\\%\\).",
+   "images": [],
+   "id": "76eaf227b1ce",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "The smallest value of a data set is # and the largest is #. The data are grouped into groups \\([#;\\,#)\\), \\([#;\\,#)\\), … of the same width #. How many groups are needed?",
+   "en": "The smallest value of a data set is 43 and the largest is 146. The data are grouped into groups \\([40;\\,60)\\), \\([60;\\,80)\\), … of the same width 20. How many groups are needed?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"minimum value\">Giá trị nhỏ nhất</b> của một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"denominator\">mẫu số</b> liệu là 43, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">giá trị lớn nhất</b> là 146. Ghép số liệu thành các nhóm \\([40;\\,60)\\), \\([60;\\,80)\\), … có cùng độ dài 20. Cần bao nhiêu nhóm?",
+   "options": [
+    "\\(6\\)",
+    "\\(7\\)",
+    "\\(5\\)",
+    "\\(8\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. The last group must contain 146: \\([140;\\,160)\\). From 40 to 160 there are \\(\\dfrac{160-40}{20}=6\\) groups.",
+   "explain_vi": "Đáp án a. Nhóm cuối phải chứa 146: \\([140;\\,160)\\). Từ 40 đến 160 có \\(\\dfrac{160-40}{20}=6\\) nhóm.",
+   "images": [],
+   "id": "ac933be9b54f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "Here are the speeds (in km/h) of # motorbikes passing a speed camera: #, #, #, #, #, #, #, #, #, #, #, #, #, #, #, #, #, #, #, #. The group \\([#;\\,#)\\) has frequency #.",
+   "en": "Here are the speeds (in km/h) of 20 motorbikes passing a speed camera: 66, 56, 41, 71, 50, 59, 77, 45, 48, 57, 43, 54, 47, 74, 49, 70, 43, 49, 50, 54. The group \\([60;\\,70)\\) has frequency 1.",
+   "vi": "Dưới đây là tốc độ (km/h) của 20 xe máy đi qua một trạm đo tốc độ: 66, 56, 41, 71, 50, 59, 77, 45, 48, 57, 43, 54, 47, 74, 49, 70, 43, 49, 50, 54. Nhóm \\([60;\\,70)\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">tần số</b> 1.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. Count the values \\(x\\) with \\(60\\le x\\lt 70\\) (the value 60 belongs to this group, the value 70 does not): there are 1.",
+   "explain_vi": "Đúng. Đếm các giá trị \\(x\\) thỏa mãn \\(60\\le x\\lt 70\\) (giá trị 60 thuộc nhóm này, giá trị 70 thì không): có 1 giá trị.",
+   "images": [],
+   "id": "8e48f69fd31b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "In the relative frequency line chart of grouped data, the point of the group \\([#;\\,#)\\) has horizontal coordinate \\(#\\).",
+   "en": "In the relative frequency line chart of grouped data, the point of the group \\([90;\\,120)\\) has horizontal coordinate \\(120\\).",
+   "vi": "Trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"grouped relative frequency chart\">biểu đồ tần số tương đối ghép nhóm</b> dạng đoạn thẳng, điểm ứng với nhóm \\([90;\\,120)\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"abscissa\">hoành độ</b> \\(120\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. The horizontal coordinate is the midpoint \\(\\dfrac{90+120}{2}=105\\).",
+   "explain_vi": "Sai. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"abscissa\">Hoành độ</b> là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint (representative value)\">giá trị đại diện</b> \\(\\dfrac{90+120}{2}=105\\).",
+   "images": [],
+   "id": "619f5adf8d5b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "The grouped frequency table shows the scores (out of #) of # students in a math contest, with one frequency missing. Find the missing frequency.Group (Score)[#; #)[#; #)[#; #)[#; #)[#; #)[#; #)Frequency (m)#?#",
+   "en": "The grouped frequency table shows the scores (out of 100) of 20 students in a math contest, with one frequency missing. Find the missing frequency.<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Group (Score)</th><td>[40; 50)</td><td>[50; 60)</td><td>[60; 70)</td><td>[70; 80)</td><td>[80; 90)</td><td>[90; 100)</td></tr><tr><th scope=\"row\">Frequency (m)</th><td>11</td><td>2</td><td>?</td><td>1</td><td>1</td><td>2</td></tr></tbody></table></div>",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"grouped frequency table\">Bảng tần số ghép nhóm</b> cho biết điểm (thang điểm 100) của 20 học sinh trong một cuộc thi Toán, trong đó bị mất một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">tần số</b>. Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">tần số</b> còn thiếu.<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Nhóm (Điểm)</th><td>[40; 50)</td><td>[50; 60)</td><td>[60; 70)</td><td>[70; 80)</td><td>[80; 90)</td><td>[90; 100)</td></tr><tr><th scope=\"row\"><b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">Tần số</b> (m)</th><td>11</td><td>2</td><td>?</td><td>1</td><td>1</td><td>2</td></tr></tbody></table></div>",
+   "options": [],
+   "answer": "3",
+   "explain_en": "Answer: 3. \\(20-(11+2+1+1+2)=3\\).",
+   "explain_vi": "Đáp số: 3. \\(20-(11+2+1+1+2)=3\\).",
+   "images": [],
+   "id": "7cd8608405a6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "The relative frequency histogram shows the heights (in cm) of # students. What percentage of the students have a value of at least # cm?",
+   "en": "The relative frequency histogram shows the heights (in cm) of 25 students. What percentage of the students have a value of at least 160 cm?<img src=\"../../../img/tex/7ad8b794958734ff.svg\" alt=\"Relative frequency histogram\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,460px);height:auto\">",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"grouped relative frequency chart\">Biểu đồ tần số tương đối ghép nhóm</b> dạng cột cho biết <b class=\"mbl-term\" tabindex=\"0\" data-en=\"height\">chiều cao</b> (cm) của 25 học sinh. Bao nhiêu phần trăm số học sinh có giá trị từ 160 cm trở lên?<img src=\"../../../img/tex/7b6bd7f9e44115f1.svg\" alt=\"Biểu đồ tần số tương đối ghép nhóm\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,460px);height:auto\">",
+   "options": [],
+   "answer": "8",
+   "explain_en": "Answer: 8. Add the bars from 160 on: \\(8=8\\).",
+   "explain_vi": "Đáp số: 8. Cộng các cột từ 160 trở đi: \\(8=8\\).",
+   "images": [
+    "img/tex/7ad8b794958734ff.svg",
+    "img/tex/7b6bd7f9e44115f1.svg"
+   ],
+   "id": "f8ac60ea3b5b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D1",
+   "type": "mcq",
+   "form": "A grouped frequency table about time has the frequencies #, #, #, #, #. What is the sample size?",
+   "en": "A grouped frequency table about time has the frequencies 13, 10, 11, 4, 3. What is the sample size?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"grouped frequency table\">Bảng tần số ghép nhóm</b> về thời gian có các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">tần số</b> 13, 10, 11, 4, 3. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sample size\">Cỡ mẫu</b> bằng bao nhiêu?",
+   "options": [
+    "\\(41\\)",
+    "\\(5\\)",
+    "\\(38\\)",
+    "\\(13\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(n=13+10+11+4+3=41\\).",
+   "explain_vi": "Đáp án a. \\(n=13+10+11+4+3=41\\).",
+   "images": [],
+   "id": "5c6d7e26eb84",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D1",
+   "type": "mcq",
+   "form": "The histogram shows the speeds (in km/h) of # motorbikes passing a speed camera. Which group has the greatest frequency?",
+   "en": "The histogram shows the speeds (in km/h) of 25 motorbikes passing a speed camera. Which group has the greatest frequency?<img src=\"../../../img/tex/241df357af0a5659.svg\" alt=\"Grouped frequency chart\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,460px);height:auto\">",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency chart\">Biểu đồ tần số</b> ghép nhóm dạng cột cho biết tốc độ (km/h) của 25 xe máy đi qua một trạm đo tốc độ. Nhóm nào có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">tần số</b> lớn nhất?<img src=\"../../../img/tex/a858b7d4768b52fb.svg\" alt=\"Biểu đồ tần số ghép nhóm\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,460px);height:auto\">",
+   "options": [
+    "\\([50;\\,60)\\)",
+    "\\([40;\\,50)\\)",
+    "\\([60;\\,70)\\)",
+    "\\([70;\\,80)\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The highest bar: \\([60;\\,70)\\), frequency 10.",
+   "explain_vi": "Đáp án c. Cột cao nhất: \\([60;\\,70)\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">tần số</b> 10.",
+   "images": [
+    "img/tex/241df357af0a5659.svg",
+    "img/tex/a858b7d4768b52fb.svg"
+   ],
+   "id": "6c26ea9bec68",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D1",
+   "type": "mcq",
+   "form": "What is the width of the group \\([#;\\,#)\\)?",
+   "en": "What is the width of the group \\([150;\\,160)\\)?",
+   "vi": "Độ dài của nhóm \\([150;\\,160)\\) bằng bao nhiêu?",
+   "options": [
+    "\\(310\\)",
+    "\\(155\\)",
+    "\\(11\\)",
+    "\\(10\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Width \\(=160-150=10\\).",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"class width (group width)\">Độ dài nhóm</b> \\(=160-150=10\\).",
+   "images": [],
+   "id": "b8c55caad9ca",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Here are the heights (in cm) of # students: #, #, #, #, #, #, #, #, #, #, #, #, #, #, #, #, #, #, #, #. Group the data into \\([#;\\,#)\\), \\([#;\\,#)\\), \\([#;\\,#)\\), \\([#;\\,#)\\). What is the frequency of the group \\([#;\\,#)\\)?",
+   "en": "Here are the heights (in cm) of 20 students: 155, 150, 158, 149, 146, 155, 156, 156, 151, 161, 158, 157, 156, 159, 159, 159, 157, 155, 159, 153. Group the data into \\([145;\\,150)\\), \\([150;\\,155)\\), \\([155;\\,160)\\), \\([160;\\,165)\\). What is the frequency of the group \\([150;\\,155)\\)?",
+   "vi": "Dưới đây là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"height\">chiều cao</b> (cm) của 20 học sinh: 155, 150, 158, 149, 146, 155, 156, 156, 151, 161, 158, 157, 156, 159, 159, 159, 157, 155, 159, 153. Ghép số liệu thành các nhóm \\([145;\\,150)\\), \\([150;\\,155)\\), \\([155;\\,160)\\), \\([160;\\,165)\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">Tần số</b> của nhóm \\([150;\\,155)\\) là bao nhiêu?",
+   "options": [
+    "\\(2\\)",
+    "\\(3\\)",
+    "\\(4\\)",
+    "\\(5\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Values \\(x\\) with \\(150\\le x\\lt 155\\): 3 values.",
+   "explain_vi": "Đáp án b. Các giá trị \\(x\\) với \\(150\\le x\\lt 155\\): có 3 giá trị.",
+   "images": [],
+   "id": "4620418e9c5e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D2",
+   "type": "mcq",
+   "form": "The grouped relative frequency table shows the daily rainfall (in mm) on # rainy days. How many days are in the group \\([#;\\,#)\\)?Group (Rainfall (mm))[#; #)[#; #)[#; #)[#; #)[#; #)[#; #)Relative frequency (f)#%#%#%#%#%#%",
+   "en": "The grouped relative frequency table shows the daily rainfall (in mm) on 40 rainy days. How many days are in the group \\([40;\\,50)\\)?<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Group (Rainfall (mm))</th><td>[0; 10)</td><td>[10; 20)</td><td>[20; 30)</td><td>[30; 40)</td><td>[40; 50)</td><td>[50; 60)</td></tr><tr><th scope=\"row\">Relative frequency (f)</th><td>10%</td><td>17.5%</td><td>7.5%</td><td>30%</td><td>25%</td><td>10%</td></tr></tbody></table></div>",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"grouped relative frequency table\">Bảng tần số tương đối ghép nhóm</b> cho biết lượng mưa (mm) trong 40 ngày mưa. Có bao nhiêu ngày thuộc nhóm \\([40;\\,50)\\)?<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Nhóm (Lượng mưa (mm))</th><td>[0; 10)</td><td>[10; 20)</td><td>[20; 30)</td><td>[30; 40)</td><td>[40; 50)</td><td>[50; 60)</td></tr><tr><th scope=\"row\"><b class=\"mbl-term\" tabindex=\"0\" data-en=\"relative frequency\">Tần số tương đối</b> (f)</th><td>10%</td><td>17,5%</td><td>7,5%</td><td>30%</td><td>25%</td><td>10%</td></tr></tbody></table></div>",
+   "options": [
+    "\\(10\\)",
+    "\\(11\\)",
+    "\\(9\\)",
+    "\\(25\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(m=40\\cdot25\\%=10\\).",
+   "explain_vi": "Đáp án a. \\(m=40\\cdot25\\%=10\\).",
+   "images": [],
+   "id": "3b081e0b8dd4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D2",
+   "type": "mcq",
+   "form": "The table shows the heights (in cm) of # students. In the relative frequency line chart, the point of the group \\([#;\\,#)\\) has coordinates…Group (Height (cm))[#; #)[#; #)[#; #)[#; #)Frequency (m)#",
+   "en": "The table shows the heights (in cm) of 40 students. In the relative frequency line chart, the point of the group \\([160;\\,165)\\) has coordinates…<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Group (Height (cm))</th><td>[145; 150)</td><td>[150; 155)</td><td>[155; 160)</td><td>[160; 165)</td></tr><tr><th scope=\"row\">Frequency (m)</th><td>14</td><td>13</td><td>8</td><td>5</td></tr></tbody></table></div>",
+   "vi": "Bảng dưới đây cho biết <b class=\"mbl-term\" tabindex=\"0\" data-en=\"height\">chiều cao</b> (cm) của 40 học sinh. Trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"grouped relative frequency chart\">biểu đồ tần số tương đối ghép nhóm</b> dạng đoạn thẳng, điểm ứng với nhóm \\([160;\\,165)\\) có tọa độ là…<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Nhóm (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"height\">Chiều cao</b> (cm))</th><td>[145; 150)</td><td>[150; 155)</td><td>[155; 160)</td><td>[160; 165)</td></tr><tr><th scope=\"row\"><b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">Tần số</b> (m)</th><td>14</td><td>13</td><td>8</td><td>5</td></tr></tbody></table></div>",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\((160;\\,12.5)\\)</span><span class=\"vi\">\\((160;\\,12{,}5)\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\((162.5;\\,12.5)\\)</span><span class=\"vi\">\\((162{,}5;\\,12{,}5)\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\((162.5;\\,5)\\)</span><span class=\"vi\">\\((162{,}5;\\,5)\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\((165;\\,12.5)\\)</span><span class=\"vi\">\\((165;\\,12{,}5)\\)</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. (midpoint; relative frequency) \\(=\\left(\\dfrac{160+165}{2};\\,\\dfrac{5}{40}\\cdot100\\right)=(162.5;\\,12.5)\\).",
+   "explain_vi": "Đáp án b. (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint (representative value)\">giá trị đại diện</b>; <b class=\"mbl-term\" tabindex=\"0\" data-en=\"relative frequency\">tần số tương đối</b>) \\(=\\left(\\dfrac{160+165}{2};\\,\\dfrac{5}{40}\\cdot100\\right)=(162{,}5;\\,12{,}5)\\).",
+   "images": [],
+   "id": "6b248870a088",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D3",
+   "type": "mcq",
+   "form": "The relative frequency line chart shows the daily rainfall (in mm) on # rainy days. How many days are in the group whose midpoint is \\(#\\)?",
+   "en": "The relative frequency line chart shows the daily rainfall (in mm) on 40 rainy days. How many days are in the group whose midpoint is \\(45\\)?<img src=\"../../../img/tex/d2b68d96287ef648.svg\" alt=\"Relative frequency line chart\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,460px);height:auto\">",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"grouped relative frequency chart\">Biểu đồ tần số tương đối ghép nhóm</b> dạng đoạn thẳng cho biết lượng mưa (mm) trong 40 ngày mưa. Có bao nhiêu ngày thuộc nhóm có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint (representative value)\">giá trị đại diện</b> \\(45\\)?<img src=\"../../../img/tex/f4462335aa9dda41.svg\" alt=\"Biểu đồ tần số tương đối ghép nhóm dạng đoạn thẳng\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,460px);height:auto\">",
+   "options": [
+    "\\(6\\)",
+    "\\(15\\)",
+    "\\(34\\)",
+    "\\(7\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. The midpoint \\(45\\) belongs to \\([40;\\,50)\\) with \\(f=15\\%\\): \\(m=40\\cdot15\\%=6\\).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint (representative value)\">Giá trị đại diện</b> \\(45\\) ứng với nhóm \\([40;\\,50)\\) có \\(f=15\\%\\): \\(m=40\\cdot15\\%=6\\).",
+   "images": [
+    "img/tex/d2b68d96287ef648.svg",
+    "img/tex/f4462335aa9dda41.svg"
+   ],
+   "id": "5365f4ee6f57",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D3",
+   "type": "mcq",
+   "form": "The table shows a grouped frequency table with groups of width #. If we regroup the data into groups of width #, what is the frequency of the new group \\([#;\\,#)\\)?Group (Rainfall (mm))[#; #)[#; #)[#; #)[#; #)Frequency (m)#",
+   "en": "The table shows a grouped frequency table with groups of width 10. If we regroup the data into groups of width 20, what is the frequency of the new group \\([20;\\,40)\\)?<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Group (Rainfall (mm))</th><td>[0; 10)</td><td>[10; 20)</td><td>[20; 30)</td><td>[30; 40)</td></tr><tr><th scope=\"row\">Frequency (m)</th><td>9</td><td>13</td><td>7</td><td>11</td></tr></tbody></table></div>",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"grouped frequency table\">Bảng tần số ghép nhóm</b> dưới đây có các nhóm độ dài 10. Nếu ghép lại thành các nhóm có độ dài 20 thì nhóm mới \\([20;\\,40)\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">tần số</b> bằng bao nhiêu?<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Nhóm (Lượng mưa (mm))</th><td>[0; 10)</td><td>[10; 20)</td><td>[20; 30)</td><td>[30; 40)</td></tr><tr><th scope=\"row\"><b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">Tần số</b> (m)</th><td>9</td><td>13</td><td>7</td><td>11</td></tr></tbody></table></div>",
+   "options": [
+    "\\(11\\)",
+    "\\(7\\)",
+    "\\(20\\)",
+    "\\(18\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\([20;\\,40)\\) is the union of \\([20;\\,30)\\) and \\([30;\\,40)\\): \\(7+11=18\\).",
+   "explain_vi": "Đáp án d. Nhóm \\([20;\\,40)\\) gồm hai nhóm \\([20;\\,30)\\) và \\([30;\\,40)\\): \\(7+11=18\\).",
+   "images": [],
+   "id": "8b7a25af37c5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D3",
+   "type": "mcq",
+   "form": "We draw the relative frequency histogram for the table below (the daily screen time (in minutes) of # students). How high is the bar of the group \\([#;\\,#)\\)?Group (Screen time (minutes))[#; #)[#; #)[#; #)[#; #)[#; #)Frequency (m)#",
+   "en": "We draw the relative frequency histogram for the table below (the daily screen time (in minutes) of 40 students). How high is the bar of the group \\([120;\\,150)\\)?<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Group (Screen time (minutes))</th><td>[30; 60)</td><td>[60; 90)</td><td>[90; 120)</td><td>[120; 150)</td><td>[150; 180)</td></tr><tr><th scope=\"row\">Frequency (m)</th><td>5</td><td>4</td><td>9</td><td>12</td><td>10</td></tr></tbody></table></div>",
+   "vi": "Vẽ <b class=\"mbl-term\" tabindex=\"0\" data-en=\"grouped relative frequency chart\">biểu đồ tần số tương đối ghép nhóm</b> dạng cột cho bảng dưới đây (thời gian dùng điện thoại mỗi ngày (phút) của 40 học sinh). Cột ứng với nhóm \\([120;\\,150)\\) cao bao nhiêu?<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Nhóm (Thời gian (phút))</th><td>[30; 60)</td><td>[60; 90)</td><td>[90; 120)</td><td>[120; 150)</td><td>[150; 180)</td></tr><tr><th scope=\"row\"><b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">Tần số</b> (m)</th><td>5</td><td>4</td><td>9</td><td>12</td><td>10</td></tr></tbody></table></div>",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(60\\%\\)</span><span class=\"vi\">\\(60\\%\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(12\\%\\)</span><span class=\"vi\">\\(12\\%\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(30\\%\\)</span><span class=\"vi\">\\(30\\%\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(70\\%\\)</span><span class=\"vi\">\\(70\\%\\)</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Height = relative frequency \\(=\\dfrac{12}{40}\\cdot100\\%=30\\%\\).",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"height\">Chiều cao</b> cột = <b class=\"mbl-term\" tabindex=\"0\" data-en=\"relative frequency\">tần số tương đối</b> \\(=\\dfrac{12}{40}\\cdot100\\%=30\\%\\).",
+   "images": [],
+   "id": "0288e7f7d3b9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D4",
+   "type": "mcq",
+   "form": "The histogram shows the speeds of # motorbikes on a road with a speed limit of # km/h. What percentage of the motorbikes were speeding (speed at least # km/h)?",
+   "en": "The histogram shows the speeds of 40 motorbikes on a road with a speed limit of 50 km/h. What percentage of the motorbikes were speeding (speed at least 50 km/h)?<img src=\"../../../img/tex/2ded6902bc6d21fa.svg\" alt=\"Speeds of 40 motorbikes\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,460px);height:auto\">",
+   "vi": "Biểu đồ dưới đây cho biết tốc độ của 40 xe máy trên một đoạn đường có tốc độ tối đa cho phép 50 km/h. Bao nhiêu phần trăm số xe đã chạy quá tốc độ (từ 50 km/h trở lên)?<img src=\"../../../img/tex/3af60bb96afdc12c.svg\" alt=\"Tốc độ của 40 xe máy\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,460px);height:auto\">",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(19\\%\\)</span><span class=\"vi\">\\(19\\%\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(22.5\\%\\)</span><span class=\"vi\">\\(22{,}5\\%\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(52.5\\%\\)</span><span class=\"vi\">\\(52{,}5\\%\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(47.5\\%\\)</span><span class=\"vi\">\\(47{,}5\\%\\)</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Groups \\([50;\\,60)\\), \\([60;\\,70)\\), \\([70;\\,80)\\): \\(7+3+9=19\\) motorbikes; \\(\\dfrac{19}{40}\\cdot100\\%=47.5\\%\\).",
+   "explain_vi": "Đáp án d. Các nhóm \\([50;\\,60)\\), \\([60;\\,70)\\), \\([70;\\,80)\\): \\(7+3+9=19\\) xe; \\(\\dfrac{19}{40}\\cdot100\\%=47{,}5\\%\\).",
+   "images": [
+    "img/tex/2ded6902bc6d21fa.svg",
+    "img/tex/3af60bb96afdc12c.svg"
+   ],
+   "id": "72d51df3cc95",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D4",
+   "type": "mcq",
+   "form": "The values of a data set of # observations lie between # and #. We want between # and # groups of the same width, starting at a multiple of the width. Which grouping is suitable?",
+   "en": "The values of a data set of 40 observations lie between 142 and 179. We want between 4 and 8 groups of the same width, starting at a multiple of the width. Which grouping is suitable?",
+   "vi": "Các giá trị của một mẫu 40 số liệu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"lies in\">nằm trong</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"interval\">khoảng</b> từ 142 đến 179. Ta muốn ghép thành từ 4 đến 8 nhóm có cùng độ dài, nhóm đầu bắt đầu tại một bội của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"class width (group width)\">độ dài nhóm</b>. Cách ghép nào phù hợp?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">width 1 (38 groups)</span><span class=\"vi\">độ dài 1 (38 nhóm)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">width 5 (8 groups)</span><span class=\"vi\">độ dài 5 (8 nhóm)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">width 20 (2 groups)</span><span class=\"vi\">độ dài 20 (2 nhóm)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">width 2 (19 groups)</span><span class=\"vi\">độ dài 2 (19 nhóm)</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Width 5: groups from \\(140\\) to \\(180\\), that is 8 groups. Too many groups (or too few) make the table hard to read.",
+   "explain_vi": "Đáp án b. Độ dài 5: các nhóm từ \\(140\\) đến \\(180\\), tức là 8 nhóm. Quá nhiều (hoặc quá ít) nhóm thì bảng khó đọc, khó nhận xét.",
+   "images": [],
+   "id": "ef1e0a35ecb0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D4",
+   "type": "mcq",
+   "form": "Two schools take part in a math contest. School X has # students and school Y has # students; their scores are grouped below. In which school is the proportion of students scoring at least # points higher?Group[#; #)[#; #)[#; #)[#; #)Frequency – X#Frequency – Y#",
+   "en": "Two schools take part in a math contest. School X has 40 students and school Y has 25 students; their scores are grouped below. In which school is the proportion of students scoring at least 80 points higher?<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Group</th><td>[60; 70)</td><td>[70; 80)</td><td>[80; 90)</td><td>[90; 100)</td></tr><tr><th scope=\"row\">Frequency – X</th><td>9</td><td>14</td><td>14</td><td>3</td></tr><tr><th scope=\"row\">Frequency – Y</th><td>3</td><td>9</td><td>8</td><td>5</td></tr></tbody></table></div>",
+   "vi": "Hai trường tham gia một cuộc thi Toán. Trường X có 40 học sinh, trường Y có 25 học sinh; điểm được ghép nhóm như bảng dưới. Trường nào có tỉ lệ học sinh đạt từ 80 điểm trở lên cao hơn?<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Nhóm</th><td>[60; 70)</td><td>[70; 80)</td><td>[80; 90)</td><td>[90; 100)</td></tr><tr><th scope=\"row\"><b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">Tần số</b> – X</th><td>9</td><td>14</td><td>14</td><td>3</td></tr><tr><th scope=\"row\"><b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">Tần số</b> – Y</th><td>3</td><td>9</td><td>8</td><td>5</td></tr></tbody></table></div>",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">X (42.5% > 52%)</span><span class=\"vi\">X (42,5% > 52%)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">X (17 > 13)</span><span class=\"vi\">X (17 > 13)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Y (52% > 42.5%)</span><span class=\"vi\">Y (52% > 42,5%)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the two are the same</span><span class=\"vi\">như nhau</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. X: \\(\\dfrac{14+3}{40}\\cdot100\\%=42.5\\%\\); Y: \\(\\dfrac{8+5}{25}\\cdot100\\%=52\\%\\). The sample sizes differ, so compare relative frequencies.",
+   "explain_vi": "Đáp án c. X: \\(\\dfrac{14+3}{40}\\cdot100\\%=42{,}5\\%\\); Y: \\(\\dfrac{8+5}{25}\\cdot100\\%=52\\%\\). Hai mẫu có cỡ khác nhau nên phải <b class=\"mbl-term\" tabindex=\"0\" data-en=\"compare\">so sánh</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"relative frequency\">tần số tương đối</b>.",
+   "images": [],
+   "id": "dd56f619a2a4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "The data on screen time are grouped into the groups \\([#;\\,#)\\), \\([#;\\,#)\\), \\([#;\\,#)\\), \\([#;\\,#)\\). Which group contains the value \\(#\\)?",
+   "en": "The data on screen time are grouped into the groups \\([30;\\,60)\\), \\([60;\\,90)\\), \\([90;\\,120)\\), \\([120;\\,150)\\). Which group contains the value \\(60\\)?",
+   "vi": "Dữ liệu về thời gian dùng điện thoại được ghép thành các nhóm \\([30;\\,60)\\), \\([60;\\,90)\\), \\([90;\\,120)\\), \\([120;\\,150)\\). Giá trị \\(60\\) thuộc nhóm nào?",
+   "options": [
+    "\\([60;\\,90)\\)",
+    "\\([120;\\,150)\\)",
+    "\\([30;\\,60)\\)",
+    "\\([90;\\,120)\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. The group \\([a;\\,b)\\) contains \\(a\\) but not \\(b\\): \\(60\\le 60\\lt 90\\).",
+   "explain_vi": "Đáp án a. Nhóm \\([a;\\,b)\\) chứa \\(a\\) nhưng không chứa \\(b\\): \\(60\\le 60\\lt 90\\).",
+   "images": [],
+   "id": "fb1fe940501e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "The grouped frequency table shows the heights (in cm) of # students. What is the relative frequency of the group \\([#;\\,#)\\)?Group (Height (cm))[#; #)[#; #)[#; #)[#; #)[#; #)[#; #)Frequency (m)#",
+   "en": "The grouped frequency table shows the heights (in cm) of 50 students. What is the relative frequency of the group \\([150;\\,155)\\)?<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Group (Height (cm))</th><td>[145; 150)</td><td>[150; 155)</td><td>[155; 160)</td><td>[160; 165)</td><td>[165; 170)</td><td>[170; 175)</td></tr><tr><th scope=\"row\">Frequency (m)</th><td>5</td><td>4</td><td>10</td><td>11</td><td>10</td><td>10</td></tr></tbody></table></div>",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"grouped frequency table\">Bảng tần số ghép nhóm</b> cho biết <b class=\"mbl-term\" tabindex=\"0\" data-en=\"height\">chiều cao</b> (cm) của 50 học sinh. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"relative frequency\">Tần số tương đối</b> của nhóm \\([150;\\,155)\\) là bao nhiêu?<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Nhóm (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"height\">Chiều cao</b> (cm))</th><td>[145; 150)</td><td>[150; 155)</td><td>[155; 160)</td><td>[160; 165)</td><td>[165; 170)</td><td>[170; 175)</td></tr><tr><th scope=\"row\"><b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">Tần số</b> (m)</th><td>5</td><td>4</td><td>10</td><td>11</td><td>10</td><td>10</td></tr></tbody></table></div>",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(8\\%\\)</span><span class=\"vi\">\\(8\\%\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(92\\%\\)</span><span class=\"vi\">\\(92\\%\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(4\\%\\)</span><span class=\"vi\">\\(4\\%\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(20\\%\\)</span><span class=\"vi\">\\(20\\%\\)</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(f=\\dfrac{4}{50}\\cdot100\\%=8\\%\\).",
+   "explain_vi": "Đáp án a. \\(f=\\dfrac{4}{50}\\cdot100\\%=8\\%\\).",
+   "images": [],
+   "id": "4b37c5e2c745",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "The smallest value of a data set is # and the largest is #. The data are grouped into groups \\([#;\\,#)\\), \\([#;\\,#)\\), … of the same width #. How many groups are needed?",
+   "en": "The smallest value of a data set is 41 and the largest is 74. The data are grouped into groups \\([40;\\,50)\\), \\([50;\\,60)\\), … of the same width 10. How many groups are needed?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"minimum value\">Giá trị nhỏ nhất</b> của một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"denominator\">mẫu số</b> liệu là 41, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">giá trị lớn nhất</b> là 74. Ghép số liệu thành các nhóm \\([40;\\,50)\\), \\([50;\\,60)\\), … có cùng độ dài 10. Cần bao nhiêu nhóm?",
+   "options": [
+    "\\(3\\)",
+    "\\(4\\)",
+    "\\(5\\)",
+    "\\(6\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. The last group must contain 74: \\([70;\\,80)\\). From 40 to 80 there are \\(\\dfrac{80-40}{10}=4\\) groups.",
+   "explain_vi": "Đáp án b. Nhóm cuối phải chứa 74: \\([70;\\,80)\\). Từ 40 đến 80 có \\(\\dfrac{80-40}{10}=4\\) nhóm.",
+   "images": [],
+   "id": "f0e8d2b18f72",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "Here are the speeds (in km/h) of # motorbikes passing a speed camera: #, #, #, #, #, #, #, #, #, #, #, #, #, #, #, #, #, #, #, #. The group \\([#;\\,#)\\) has frequency #.",
+   "en": "Here are the speeds (in km/h) of 20 motorbikes passing a speed camera: 30, 40, 21, 27, 57, 28, 39, 28, 26, 39, 37, 25, 26, 23, 29, 20, 39, 38, 31, 35. The group \\([30;\\,40)\\) has frequency 8.",
+   "vi": "Dưới đây là tốc độ (km/h) của 20 xe máy đi qua một trạm đo tốc độ: 30, 40, 21, 27, 57, 28, 39, 28, 26, 39, 37, 25, 26, 23, 29, 20, 39, 38, 31, 35. Nhóm \\([30;\\,40)\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">tần số</b> 8.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. Count the values \\(x\\) with \\(30\\le x\\lt 40\\) (the value 30 belongs to this group, the value 40 does not): there are 8.",
+   "explain_vi": "Đúng. Đếm các giá trị \\(x\\) thỏa mãn \\(30\\le x\\lt 40\\) (giá trị 30 thuộc nhóm này, giá trị 40 thì không): có 8 giá trị.",
+   "images": [],
+   "id": "1f9210ef4a9e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "In the relative frequency line chart of grouped data, the point of the group \\([#;\\,#)\\) has horizontal coordinate \\(#\\).",
+   "en": "In the relative frequency line chart of grouped data, the point of the group \\([5;\\,10)\\) has horizontal coordinate \\(5\\).",
+   "vi": "Trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"grouped relative frequency chart\">biểu đồ tần số tương đối ghép nhóm</b> dạng đoạn thẳng, điểm ứng với nhóm \\([5;\\,10)\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"abscissa\">hoành độ</b> \\(5\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. The horizontal coordinate is the midpoint \\(\\dfrac{5+10}{2}=7.5\\).",
+   "explain_vi": "Sai. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"abscissa\">Hoành độ</b> là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint (representative value)\">giá trị đại diện</b> \\(\\dfrac{5+10}{2}=7{,}5\\).",
+   "images": [],
+   "id": "8de28dec4aca",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "The grouped frequency table shows the speeds (in km/h) of # motorbikes passing a speed camera, with one frequency missing. Find the missing frequency.Group (Speed (km/h))[#; #)[#; #)[#; #)[#; #)Frequency (m)#?",
+   "en": "The grouped frequency table shows the speeds (in km/h) of 40 motorbikes passing a speed camera, with one frequency missing. Find the missing frequency.<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Group (Speed (km/h))</th><td>[30; 40)</td><td>[40; 50)</td><td>[50; 60)</td><td>[60; 70)</td></tr><tr><th scope=\"row\">Frequency (m)</th><td>14</td><td>9</td><td>5</td><td>?</td></tr></tbody></table></div>",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"grouped frequency table\">Bảng tần số ghép nhóm</b> cho biết tốc độ (km/h) của 40 xe máy đi qua một trạm đo tốc độ, trong đó bị mất một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">tần số</b>. Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">tần số</b> còn thiếu.<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Nhóm (Tốc độ (km/h))</th><td>[30; 40)</td><td>[40; 50)</td><td>[50; 60)</td><td>[60; 70)</td></tr><tr><th scope=\"row\"><b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">Tần số</b> (m)</th><td>14</td><td>9</td><td>5</td><td>?</td></tr></tbody></table></div>",
+   "options": [],
+   "answer": "12",
+   "explain_en": "Answer: 12. \\(40-(14+9+5)=12\\).",
+   "explain_vi": "Đáp số: 12. \\(40-(14+9+5)=12\\).",
+   "images": [],
+   "id": "6ac62788cb9e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "The relative frequency histogram shows the daily rainfall (in mm) on # rainy days. What percentage of the days have a value less than # mm?",
+   "en": "The relative frequency histogram shows the daily rainfall (in mm) on 25 rainy days. What percentage of the days have a value less than 50 mm?<img src=\"../../../img/tex/2144bf233720e23b.svg\" alt=\"Relative frequency histogram\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,460px);height:auto\">",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"grouped relative frequency chart\">Biểu đồ tần số tương đối ghép nhóm</b> dạng cột cho biết lượng mưa (mm) trong 25 ngày mưa. Bao nhiêu phần trăm số ngày có giá trị nhỏ hơn 50 mm?<img src=\"../../../img/tex/c683ab431479c749.svg\" alt=\"Biểu đồ tần số tương đối ghép nhóm\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,460px);height:auto\">",
+   "options": [],
+   "answer": "84",
+   "explain_en": "Answer: 84. Add the bars before 50: \\(44+20+20=84\\).",
+   "explain_vi": "Đáp số: 84. Cộng các cột đứng trước 50: \\(44+20+20=84\\).",
+   "images": [
+    "img/tex/2144bf233720e23b.svg",
+    "img/tex/c683ab431479c749.svg"
+   ],
+   "id": "a650e0a54f32",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D1",
+   "type": "mcq",
+   "form": "In a grouped relative frequency table, the sum of all relative frequencies is…",
+   "en": "In a grouped relative frequency table, the sum of all relative frequencies is…",
+   "vi": "Trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"grouped relative frequency table\">bảng tần số tương đối ghép nhóm</b>, tổng tất cả các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"relative frequency\">tần số tương đối</b> bằng…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(100\\%\\)</span><span class=\"vi\">\\(100\\%\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the number of groups</span><span class=\"vi\">số nhóm</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the sample size \\(n\\)</span><span class=\"vi\">cỡ mẫu \\(n\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(1\\%\\)</span><span class=\"vi\">\\(1\\%\\)</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(f_1+f_2+\\dots+f_k=100\\%\\).",
+   "explain_vi": "Đáp án a. \\(f_1+f_2+\\dots+f_k=100\\%\\).",
+   "images": [],
+   "id": "ee2d80321de4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D1",
+   "type": "mcq",
+   "form": "The histogram shows the time (in minutes) # students take to go to school. Which group has the greatest frequency?",
+   "en": "The histogram shows the time (in minutes) 20 students take to go to school. Which group has the greatest frequency?<img src=\"../../../img/tex/4e4164f598ac6e07.svg\" alt=\"Grouped frequency chart\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,460px);height:auto\">",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency chart\">Biểu đồ tần số</b> ghép nhóm dạng cột cho biết thời gian (phút) đi từ nhà đến trường của 20 học sinh. Nhóm nào có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">tần số</b> lớn nhất?<img src=\"../../../img/tex/03e6f826fa8e1219.svg\" alt=\"Biểu đồ tần số ghép nhóm\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,460px);height:auto\">",
+   "options": [
+    "\\([10;\\,15)\\)",
+    "\\([20;\\,25)\\)",
+    "\\([15;\\,20)\\)",
+    "\\([5;\\,10)\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. The highest bar: \\([10;\\,15)\\), frequency 9.",
+   "explain_vi": "Đáp án a. Cột cao nhất: \\([10;\\,15)\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">tần số</b> 9.",
+   "images": [
+    "img/tex/03e6f826fa8e1219.svg",
+    "img/tex/4e4164f598ac6e07.svg"
+   ],
+   "id": "2f43a06ae773",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Which statement about the group \\([#;\\,#)\\) is correct?",
+   "en": "Which statement about the group \\([40;\\,45)\\) is correct?",
+   "vi": "Khẳng định nào về nhóm \\([40;\\,45)\\) là đúng?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(40\\) belongs to it, \\(45\\) does not</span><span class=\"vi\">\\(40\\) thuộc nhóm, \\(45\\) không thuộc nhóm</span></span>",
+    "<span class=\"txi\"><span class=\"en\">neither \\(40\\) nor \\(45\\) belongs to it</span><span class=\"vi\">cả \\(40\\) và \\(45\\) đều không thuộc nhóm</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(40\\) does not belong to it, \\(45\\) does</span><span class=\"vi\">\\(40\\) không thuộc nhóm, \\(45\\) thuộc nhóm</span></span>",
+    "<span class=\"txi\"><span class=\"en\">both \\(40\\) and \\(45\\) belong to it</span><span class=\"vi\">cả \\(40\\) và \\(45\\) đều thuộc nhóm</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\([40;\\,45)\\) means \\(40\\le x\\lt 45\\).",
+   "explain_vi": "Đáp án a. \\([40;\\,45)\\) gồm các giá trị \\(x\\) với \\(40\\le x\\lt 45\\).",
+   "images": [],
+   "id": "2d14f26a698b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Here are the daily rainfall (in mm) on # rainy days: #, #, #, #, #, #, #, #, #, #, #, #, #, #, #, #, #, #, #, #. Group the data into \\([#;\\,#)\\), \\([#;\\,#)\\), \\([#;\\,#)\\), \\([#;\\,#)\\). What is the frequency of the group \\([#;\\,#)\\)?",
+   "en": "Here are the daily rainfall (in mm) on 20 rainy days: 51, 51, 30, 36, 32, 29, 55, 40, 33, 26, 50, 55, 51, 33, 52, 42, 36, 30, 41, 30. Group the data into \\([20;\\,30)\\), \\([30;\\,40)\\), \\([40;\\,50)\\), \\([50;\\,60)\\). What is the frequency of the group \\([40;\\,50)\\)?",
+   "vi": "Dưới đây là lượng mưa (mm) trong 20 ngày mưa: 51, 51, 30, 36, 32, 29, 55, 40, 33, 26, 50, 55, 51, 33, 52, 42, 36, 30, 41, 30. Ghép số liệu thành các nhóm \\([20;\\,30)\\), \\([30;\\,40)\\), \\([40;\\,50)\\), \\([50;\\,60)\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">Tần số</b> của nhóm \\([40;\\,50)\\) là bao nhiêu?",
+   "options": [
+    "\\(7\\)",
+    "\\(2\\)",
+    "\\(3\\)",
+    "\\(4\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Values \\(x\\) with \\(40\\le x\\lt 50\\): 3 values.",
+   "explain_vi": "Đáp án c. Các giá trị \\(x\\) với \\(40\\le x\\lt 50\\): có 3 giá trị.",
+   "images": [],
+   "id": "3fe7fa418938",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D2",
+   "type": "mcq",
+   "form": "The grouped relative frequency table shows the heights (in cm) of # students. How many students are in the group \\([#;\\,#)\\)?Group (Height (cm))[#; #)[#; #)[#; #)[#; #)[#; #)Relative frequency (f)#%#%#%#%#%",
+   "en": "The grouped relative frequency table shows the heights (in cm) of 50 students. How many students are in the group \\([165;\\,170)\\)?<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Group (Height (cm))</th><td>[155; 160)</td><td>[160; 165)</td><td>[165; 170)</td><td>[170; 175)</td><td>[175; 180)</td></tr><tr><th scope=\"row\">Relative frequency (f)</th><td>12%</td><td>18%</td><td>30%</td><td>14%</td><td>26%</td></tr></tbody></table></div>",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"grouped relative frequency table\">Bảng tần số tương đối ghép nhóm</b> cho biết <b class=\"mbl-term\" tabindex=\"0\" data-en=\"height\">chiều cao</b> (cm) của 50 học sinh. Có bao nhiêu học sinh thuộc nhóm \\([165;\\,170)\\)?<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Nhóm (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"height\">Chiều cao</b> (cm))</th><td>[155; 160)</td><td>[160; 165)</td><td>[165; 170)</td><td>[170; 175)</td><td>[175; 180)</td></tr><tr><th scope=\"row\"><b class=\"mbl-term\" tabindex=\"0\" data-en=\"relative frequency\">Tần số tương đối</b> (f)</th><td>12%</td><td>18%</td><td>30%</td><td>14%</td><td>26%</td></tr></tbody></table></div>",
+   "options": [
+    "\\(14\\)",
+    "\\(15\\)",
+    "\\(30\\)",
+    "\\(16\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(m=50\\cdot30\\%=15\\).",
+   "explain_vi": "Đáp án b. \\(m=50\\cdot30\\%=15\\).",
+   "images": [],
+   "id": "4fa64562c964",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D2",
+   "type": "mcq",
+   "form": "The table shows the daily screen time (in minutes) of # students. In the relative frequency line chart, the point of the group \\([#;\\,#)\\) has coordinates…Group (Screen time (minutes))[#; #)[#; #)[#; #)[#; #)[#; #)[#; #)Frequency (m)#",
+   "en": "The table shows the daily screen time (in minutes) of 40 students. In the relative frequency line chart, the point of the group \\([120;\\,150)\\) has coordinates…<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Group (Screen time (minutes))</th><td>[0; 30)</td><td>[30; 60)</td><td>[60; 90)</td><td>[90; 120)</td><td>[120; 150)</td><td>[150; 180)</td></tr><tr><th scope=\"row\">Frequency (m)</th><td>2</td><td>12</td><td>2</td><td>7</td><td>4</td><td>13</td></tr></tbody></table></div>",
+   "vi": "Bảng dưới đây cho biết thời gian dùng điện thoại mỗi ngày (phút) của 40 học sinh. Trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"grouped relative frequency chart\">biểu đồ tần số tương đối ghép nhóm</b> dạng đoạn thẳng, điểm ứng với nhóm \\([120;\\,150)\\) có tọa độ là…<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Nhóm (Thời gian (phút))</th><td>[0; 30)</td><td>[30; 60)</td><td>[60; 90)</td><td>[90; 120)</td><td>[120; 150)</td><td>[150; 180)</td></tr><tr><th scope=\"row\"><b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">Tần số</b> (m)</th><td>2</td><td>12</td><td>2</td><td>7</td><td>4</td><td>13</td></tr></tbody></table></div>",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\((135;\\,10)\\)</span><span class=\"vi\">\\((135;\\,10)\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\((120;\\,10)\\)</span><span class=\"vi\">\\((120;\\,10)\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\((150;\\,10)\\)</span><span class=\"vi\">\\((150;\\,10)\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\((135;\\,4)\\)</span><span class=\"vi\">\\((135;\\,4)\\)</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. (midpoint; relative frequency) \\(=\\left(\\dfrac{120+150}{2};\\,\\dfrac{4}{40}\\cdot100\\right)=(135;\\,10)\\).",
+   "explain_vi": "Đáp án a. (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint (representative value)\">giá trị đại diện</b>; <b class=\"mbl-term\" tabindex=\"0\" data-en=\"relative frequency\">tần số tương đối</b>) \\(=\\left(\\dfrac{120+150}{2};\\,\\dfrac{4}{40}\\cdot100\\right)=(135;\\,10)\\).",
+   "images": [],
+   "id": "673bac8fe791",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D3",
+   "type": "mcq",
+   "form": "The relative frequency line chart shows the speeds (in km/h) of # motorbikes passing a speed camera. How many motorbikes are in the group whose midpoint is \\(#\\)?",
+   "en": "The relative frequency line chart shows the speeds (in km/h) of 40 motorbikes passing a speed camera. How many motorbikes are in the group whose midpoint is \\(35\\)?<img src=\"../../../img/tex/6e0e4c820687d433.svg\" alt=\"Relative frequency line chart\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,460px);height:auto\">",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"grouped relative frequency chart\">Biểu đồ tần số tương đối ghép nhóm</b> dạng đoạn thẳng cho biết tốc độ (km/h) của 40 xe máy đi qua một trạm đo tốc độ. Có bao nhiêu xe máy thuộc nhóm có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint (representative value)\">giá trị đại diện</b> \\(35\\)?<img src=\"../../../img/tex/d0c4eaebe87c0ee7.svg\" alt=\"Biểu đồ tần số tương đối ghép nhóm dạng đoạn thẳng\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,460px);height:auto\">",
+   "options": [
+    "\\(38\\)",
+    "\\(3\\)",
+    "\\(2\\)",
+    "\\(5\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The midpoint \\(35\\) belongs to \\([30;\\,40)\\) with \\(f=5\\%\\): \\(m=40\\cdot5\\%=2\\).",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint (representative value)\">Giá trị đại diện</b> \\(35\\) ứng với nhóm \\([30;\\,40)\\) có \\(f=5\\%\\): \\(m=40\\cdot5\\%=2\\).",
+   "images": [
+    "img/tex/6e0e4c820687d433.svg",
+    "img/tex/d0c4eaebe87c0ee7.svg"
+   ],
+   "id": "6a064e7a3b60",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D3",
+   "type": "mcq",
+   "form": "The table shows a grouped frequency table with groups of width #. If we regroup the data into groups of width #, what is the frequency of the new group \\([#;\\,#)\\)?Group (Screen time (minutes))[#; #)[#; #)[#; #)[#; #)Frequency (m)#",
+   "en": "The table shows a grouped frequency table with groups of width 30. If we regroup the data into groups of width 60, what is the frequency of the new group \\([60;\\,120)\\)?<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Group (Screen time (minutes))</th><td>[0; 30)</td><td>[30; 60)</td><td>[60; 90)</td><td>[90; 120)</td></tr><tr><th scope=\"row\">Frequency (m)</th><td>2</td><td>1</td><td>8</td><td>9</td></tr></tbody></table></div>",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"grouped frequency table\">Bảng tần số ghép nhóm</b> dưới đây có các nhóm độ dài 30. Nếu ghép lại thành các nhóm có độ dài 60 thì nhóm mới \\([60;\\,120)\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">tần số</b> bằng bao nhiêu?<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Nhóm (Thời gian (phút))</th><td>[0; 30)</td><td>[30; 60)</td><td>[60; 90)</td><td>[90; 120)</td></tr><tr><th scope=\"row\"><b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">Tần số</b> (m)</th><td>2</td><td>1</td><td>8</td><td>9</td></tr></tbody></table></div>",
+   "options": [
+    "\\(8\\)",
+    "\\(9\\)",
+    "\\(17\\)",
+    "\\(11\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\([60;\\,120)\\) is the union of \\([60;\\,90)\\) and \\([90;\\,120)\\): \\(8+9=17\\).",
+   "explain_vi": "Đáp án c. Nhóm \\([60;\\,120)\\) gồm hai nhóm \\([60;\\,90)\\) và \\([90;\\,120)\\): \\(8+9=17\\).",
+   "images": [],
+   "id": "3cda41f6acd2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D3",
+   "type": "mcq",
+   "form": "We draw the relative frequency histogram for the table below (the masses (in grams) of # eggs). How high is the bar of the group \\([#;\\,#)\\)?Group (Mass (g))[#; #)[#; #)[#; #)[#; #)Frequency (m)#",
+   "en": "We draw the relative frequency histogram for the table below (the masses (in grams) of 50 eggs). How high is the bar of the group \\([65;\\,70)\\)?<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Group (Mass (g))</th><td>[50; 55)</td><td>[55; 60)</td><td>[60; 65)</td><td>[65; 70)</td></tr><tr><th scope=\"row\">Frequency (m)</th><td>13</td><td>9</td><td>15</td><td>13</td></tr></tbody></table></div>",
+   "vi": "Vẽ <b class=\"mbl-term\" tabindex=\"0\" data-en=\"grouped relative frequency chart\">biểu đồ tần số tương đối ghép nhóm</b> dạng cột cho bảng dưới đây (khối lượng (g) của 50 quả trứng gà). Cột ứng với nhóm \\([65;\\,70)\\) cao bao nhiêu?<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Nhóm (Khối lượng (g))</th><td>[50; 55)</td><td>[55; 60)</td><td>[60; 65)</td><td>[65; 70)</td></tr><tr><th scope=\"row\"><b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">Tần số</b> (m)</th><td>13</td><td>9</td><td>15</td><td>13</td></tr></tbody></table></div>",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(26\\%\\)</span><span class=\"vi\">\\(26\\%\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(13\\%\\)</span><span class=\"vi\">\\(13\\%\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(74\\%\\)</span><span class=\"vi\">\\(74\\%\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(52\\%\\)</span><span class=\"vi\">\\(52\\%\\)</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Height = relative frequency \\(=\\dfrac{13}{50}\\cdot100\\%=26\\%\\).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"height\">Chiều cao</b> cột = <b class=\"mbl-term\" tabindex=\"0\" data-en=\"relative frequency\">tần số tương đối</b> \\(=\\dfrac{13}{50}\\cdot100\\%=26\\%\\).",
+   "images": [],
+   "id": "b0d199852ac3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D4",
+   "type": "mcq",
+   "form": "Class #A has # students and class #B has # students. The table shows the time (minutes) they take to go to school. In which class is the proportion of students who need at least # minutes higher?Group[#; #)[#; #)[#; #)[#; #)Frequency – #A#Frequency – #B#",
+   "en": "Class 9A has 40 students and class 9B has 20 students. The table shows the time (minutes) they take to go to school. In which class is the proportion of students who need at least 15 minutes higher?<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Group</th><td>[5; 10)</td><td>[10; 15)</td><td>[15; 20)</td><td>[20; 25)</td></tr><tr><th scope=\"row\">Frequency – 9A</th><td>7</td><td>11</td><td>14</td><td>8</td></tr><tr><th scope=\"row\">Frequency – 9B</th><td>3</td><td>5</td><td>8</td><td>4</td></tr></tbody></table></div>",
+   "vi": "Lớp 9A có 40 học sinh, lớp 9B có 20 học sinh. Bảng dưới cho biết thời gian (phút) đi đến trường của các em. Lớp nào có tỉ lệ học sinh cần từ 15 phút trở lên cao hơn?<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Nhóm</th><td>[5; 10)</td><td>[10; 15)</td><td>[15; 20)</td><td>[20; 25)</td></tr><tr><th scope=\"row\"><b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">Tần số</b> – 9A</th><td>7</td><td>11</td><td>14</td><td>8</td></tr><tr><th scope=\"row\"><b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">Tần số</b> – 9B</th><td>3</td><td>5</td><td>8</td><td>4</td></tr></tbody></table></div>",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">9B (60% > 55%)</span><span class=\"vi\">9B (60% > 55%)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">9A (55% > 60%)</span><span class=\"vi\">9A (55% > 60%)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">9A (22 > 12)</span><span class=\"vi\">9A (22 > 12)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the two are the same</span><span class=\"vi\">như nhau</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. 9A: \\(\\dfrac{14+8}{40}\\cdot100\\%=55\\%\\); 9B: \\(\\dfrac{8+4}{20}\\cdot100\\%=60\\%\\). The sample sizes differ, so compare relative frequencies.",
+   "explain_vi": "Đáp án a. 9A: \\(\\dfrac{14+8}{40}\\cdot100\\%=55\\%\\); 9B: \\(\\dfrac{8+4}{20}\\cdot100\\%=60\\%\\). Hai mẫu có cỡ khác nhau nên phải <b class=\"mbl-term\" tabindex=\"0\" data-en=\"compare\">so sánh</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"relative frequency\">tần số tương đối</b>.",
+   "images": [],
+   "id": "cd352afe6994",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D4",
+   "type": "mcq",
+   "form": "The histogram shows the speeds of # motorbikes on a road with a speed limit of # km/h. What percentage of the motorbikes were speeding (speed at least # km/h)?",
+   "en": "The histogram shows the speeds of 50 motorbikes on a road with a speed limit of 50 km/h. What percentage of the motorbikes were speeding (speed at least 50 km/h)?<img src=\"../../../img/tex/05389280cf5ad5b6.svg\" alt=\"Speeds of 50 motorbikes\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,460px);height:auto\">",
+   "vi": "Biểu đồ dưới đây cho biết tốc độ của 50 xe máy trên một đoạn đường có tốc độ tối đa cho phép 50 km/h. Bao nhiêu phần trăm số xe đã chạy quá tốc độ (từ 50 km/h trở lên)?<img src=\"../../../img/tex/0c78fc892d900d8e.svg\" alt=\"Tốc độ của 50 xe máy\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,460px);height:auto\">",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(64\\%\\)</span><span class=\"vi\">\\(64\\%\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(36\\%\\)</span><span class=\"vi\">\\(36\\%\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(32\\%\\)</span><span class=\"vi\">\\(32\\%\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(8\\%\\)</span><span class=\"vi\">\\(8\\%\\)</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Groups \\([50;\\,60)\\), \\([60;\\,70)\\), \\([70;\\,80)\\): \\(4+12+16=32\\) motorbikes; \\(\\dfrac{32}{50}\\cdot100\\%=64\\%\\).",
+   "explain_vi": "Đáp án a. Các nhóm \\([50;\\,60)\\), \\([60;\\,70)\\), \\([70;\\,80)\\): \\(4+12+16=32\\) xe; \\(\\dfrac{32}{50}\\cdot100\\%=64\\%\\).",
+   "images": [
+    "img/tex/05389280cf5ad5b6.svg",
+    "img/tex/0c78fc892d900d8e.svg"
+   ],
+   "id": "5c124a1f2419",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D4",
+   "type": "mcq",
+   "form": "The values of a data set of # observations lie between # and #. We want between # and # groups of the same width, starting at a multiple of the width. Which grouping is suitable?",
+   "en": "The values of a data set of 40 observations lie between 41 and 68. We want between 4 and 8 groups of the same width, starting at a multiple of the width. Which grouping is suitable?",
+   "vi": "Các giá trị của một mẫu 40 số liệu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"lies in\">nằm trong</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"interval\">khoảng</b> từ 41 đến 68. Ta muốn ghép thành từ 4 đến 8 nhóm có cùng độ dài, nhóm đầu bắt đầu tại một bội của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"class width (group width)\">độ dài nhóm</b>. Cách ghép nào phù hợp?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">width 2 (15 groups)</span><span class=\"vi\">độ dài 2 (15 nhóm)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">width 5 (6 groups)</span><span class=\"vi\">độ dài 5 (6 nhóm)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">width 10 (3 groups)</span><span class=\"vi\">độ dài 10 (3 nhóm)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">width 20 (2 groups)</span><span class=\"vi\">độ dài 20 (2 nhóm)</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Width 5: groups from \\(40\\) to \\(70\\), that is 6 groups. Too many groups (or too few) make the table hard to read.",
+   "explain_vi": "Đáp án b. Độ dài 5: các nhóm từ \\(40\\) đến \\(70\\), tức là 6 nhóm. Quá nhiều (hoặc quá ít) nhóm thì bảng khó đọc, khó nhận xét.",
+   "images": [],
+   "id": "046ab79f02ef",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "The data on time are grouped into the groups \\([#;\\,#)\\), \\([#;\\,#)\\), \\([#;\\,#)\\), \\([#;\\,#)\\), \\([#;\\,#)\\), \\([#;\\,#)\\). Which group contains the value \\(#\\)?",
+   "en": "The data on time are grouped into the groups \\([5;\\,10)\\), \\([10;\\,15)\\), \\([15;\\,20)\\), \\([20;\\,25)\\), \\([25;\\,30)\\), \\([30;\\,35)\\). Which group contains the value \\(21\\)?",
+   "vi": "Dữ liệu về thời gian được ghép thành các nhóm \\([5;\\,10)\\), \\([10;\\,15)\\), \\([15;\\,20)\\), \\([20;\\,25)\\), \\([25;\\,30)\\), \\([30;\\,35)\\). Giá trị \\(21\\) thuộc nhóm nào?",
+   "options": [
+    "\\([25;\\,30)\\)",
+    "\\([30;\\,35)\\)",
+    "\\([15;\\,20)\\)",
+    "\\([20;\\,25)\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. The group \\([a;\\,b)\\) contains \\(a\\) but not \\(b\\): \\(20\\le 21\\lt 25\\).",
+   "explain_vi": "Đáp án d. Nhóm \\([a;\\,b)\\) chứa \\(a\\) nhưng không chứa \\(b\\): \\(20\\le 21\\lt 25\\).",
+   "images": [],
+   "id": "41ff0ef47b0d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "The grouped frequency table shows the heights (in cm) of # students. What is the relative frequency of the group \\([#;\\,#)\\)?Group (Height (cm))[#; #)[#; #)[#; #)[#; #)[#; #)Frequency (m)#",
+   "en": "The grouped frequency table shows the heights (in cm) of 40 students. What is the relative frequency of the group \\([155;\\,160)\\)?<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Group (Height (cm))</th><td>[145; 150)</td><td>[150; 155)</td><td>[155; 160)</td><td>[160; 165)</td><td>[165; 170)</td></tr><tr><th scope=\"row\">Frequency (m)</th><td>10</td><td>4</td><td>9</td><td>2</td><td>15</td></tr></tbody></table></div>",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"grouped frequency table\">Bảng tần số ghép nhóm</b> cho biết <b class=\"mbl-term\" tabindex=\"0\" data-en=\"height\">chiều cao</b> (cm) của 40 học sinh. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"relative frequency\">Tần số tương đối</b> của nhóm \\([155;\\,160)\\) là bao nhiêu?<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Nhóm (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"height\">Chiều cao</b> (cm))</th><td>[145; 150)</td><td>[150; 155)</td><td>[155; 160)</td><td>[160; 165)</td><td>[165; 170)</td></tr><tr><th scope=\"row\"><b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">Tần số</b> (m)</th><td>10</td><td>4</td><td>9</td><td>2</td><td>15</td></tr></tbody></table></div>",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(77.5\\%\\)</span><span class=\"vi\">\\(77{,}5\\%\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(22.5\\%\\)</span><span class=\"vi\">\\(22{,}5\\%\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(5\\%\\)</span><span class=\"vi\">\\(5\\%\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(9\\%\\)</span><span class=\"vi\">\\(9\\%\\)</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(f=\\dfrac{9}{40}\\cdot100\\%=22.5\\%\\).",
+   "explain_vi": "Đáp án b. \\(f=\\dfrac{9}{40}\\cdot100\\%=22{,}5\\%\\).",
+   "images": [],
+   "id": "a82433b36324",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "The smallest value of a data set is # and the largest is #. The data are grouped into groups \\([#;\\,#)\\), \\([#;\\,#)\\), … of the same width #. How many groups are needed?",
+   "en": "The smallest value of a data set is 25 and the largest is 46. The data are grouped into groups \\([25;\\,30)\\), \\([30;\\,35)\\), … of the same width 5. How many groups are needed?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"minimum value\">Giá trị nhỏ nhất</b> của một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"denominator\">mẫu số</b> liệu là 25, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"maximum value\">giá trị lớn nhất</b> là 46. Ghép số liệu thành các nhóm \\([25;\\,30)\\), \\([30;\\,35)\\), … có cùng độ dài 5. Cần bao nhiêu nhóm?",
+   "options": [
+    "\\(5\\)",
+    "\\(4\\)",
+    "\\(7\\)",
+    "\\(6\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. The last group must contain 46: \\([45;\\,50)\\). From 25 to 50 there are \\(\\dfrac{50-25}{5}=5\\) groups.",
+   "explain_vi": "Đáp án a. Nhóm cuối phải chứa 46: \\([45;\\,50)\\). Từ 25 đến 50 có \\(\\dfrac{50-25}{5}=5\\) nhóm.",
+   "images": [],
+   "id": "4f0b1beac72c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "Here are the daily screen time (in minutes) of # students: #, #, #, #, #, #, #, #, #, #, #, #, #, #, #, #, #, #, #, #. The group \\([#;\\,#)\\) has frequency #.",
+   "en": "Here are the daily screen time (in minutes) of 20 students: 146, 147, 132, 120, 106, 137, 128, 75, 131, 90, 99, 128, 136, 173, 67, 139, 139, 128, 120, 145. The group \\([90;\\,120)\\) has frequency 4.",
+   "vi": "Dưới đây là thời gian dùng điện thoại mỗi ngày (phút) của 20 học sinh: 146, 147, 132, 120, 106, 137, 128, 75, 131, 90, 99, 128, 136, 173, 67, 139, 139, 128, 120, 145. Nhóm \\([90;\\,120)\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">tần số</b> 4.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. Count the values \\(x\\) with \\(90\\le x\\lt 120\\) (the value 90 belongs to this group, the value 120 does not): there are 3.",
+   "explain_vi": "Sai. Đếm các giá trị \\(x\\) thỏa mãn \\(90\\le x\\lt 120\\) (giá trị 90 thuộc nhóm này, giá trị 120 thì không): có 3 giá trị.",
+   "images": [],
+   "id": "aa59ac85526f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "In the relative frequency line chart of grouped data, the point of the group \\([#;\\,#)\\) has horizontal coordinate \\(#\\).",
+   "en": "In the relative frequency line chart of grouped data, the point of the group \\([10;\\,20)\\) has horizontal coordinate \\(5\\).",
+   "vi": "Trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"grouped relative frequency chart\">biểu đồ tần số tương đối ghép nhóm</b> dạng đoạn thẳng, điểm ứng với nhóm \\([10;\\,20)\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"abscissa\">hoành độ</b> \\(5\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. The horizontal coordinate is the midpoint \\(\\dfrac{10+20}{2}=15\\).",
+   "explain_vi": "Sai. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"abscissa\">Hoành độ</b> là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint (representative value)\">giá trị đại diện</b> \\(\\dfrac{10+20}{2}=15\\).",
+   "images": [],
+   "id": "66d62a2fa254",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "The grouped frequency table shows the time (in minutes) # students take to go to school, with one frequency missing. Find the missing frequency.Group (Time (minutes))[#; #)[#; #)[#; #)[#; #)Frequency (m)?#",
+   "en": "The grouped frequency table shows the time (in minutes) 40 students take to go to school, with one frequency missing. Find the missing frequency.<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Group (Time (minutes))</th><td>[10; 15)</td><td>[15; 20)</td><td>[20; 25)</td><td>[25; 30)</td></tr><tr><th scope=\"row\">Frequency (m)</th><td>?</td><td>7</td><td>11</td><td>10</td></tr></tbody></table></div>",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"grouped frequency table\">Bảng tần số ghép nhóm</b> cho biết thời gian (phút) đi từ nhà đến trường của 40 học sinh, trong đó bị mất một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">tần số</b>. Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">tần số</b> còn thiếu.<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Nhóm (Thời gian (phút))</th><td>[10; 15)</td><td>[15; 20)</td><td>[20; 25)</td><td>[25; 30)</td></tr><tr><th scope=\"row\"><b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">Tần số</b> (m)</th><td>?</td><td>7</td><td>11</td><td>10</td></tr></tbody></table></div>",
+   "options": [],
+   "answer": "12",
+   "explain_en": "Answer: 12. \\(40-(7+11+10)=12\\).",
+   "explain_vi": "Đáp số: 12. \\(40-(7+11+10)=12\\).",
+   "images": [],
+   "id": "afffded660f5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "The relative frequency histogram shows the daily screen time (in minutes) of # students. What percentage of the students have a value less than # minutes?",
+   "en": "The relative frequency histogram shows the daily screen time (in minutes) of 20 students. What percentage of the students have a value less than 90 minutes?<img src=\"../../../img/tex/173bc6b2856e4887.svg\" alt=\"Relative frequency histogram\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,460px);height:auto\">",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"grouped relative frequency chart\">Biểu đồ tần số tương đối ghép nhóm</b> dạng cột cho biết thời gian dùng điện thoại mỗi ngày (phút) của 20 học sinh. Bao nhiêu phần trăm số học sinh có giá trị nhỏ hơn 90 phút?<img src=\"../../../img/tex/8ec0bf8c4282171f.svg\" alt=\"Biểu đồ tần số tương đối ghép nhóm\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,460px);height:auto\">",
+   "options": [],
+   "answer": "25",
+   "explain_en": "Answer: 25. Add the bars before 90: \\(25=25\\).",
+   "explain_vi": "Đáp số: 25. Cộng các cột đứng trước 90: \\(25=25\\).",
+   "images": [
+    "img/tex/173bc6b2856e4887.svg",
+    "img/tex/8ec0bf8c4282171f.svg"
+   ],
+   "id": "4df1749906de",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D1",
+   "type": "mcq",
+   "form": "A grouped frequency table about mass has the frequencies #, #, #, #. What is the sample size?",
+   "en": "A grouped frequency table about mass has the frequencies 14, 6, 1, 7. What is the sample size?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"grouped frequency table\">Bảng tần số ghép nhóm</b> về khối lượng có các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">tần số</b> 14, 6, 1, 7. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sample size\">Cỡ mẫu</b> bằng bao nhiêu?",
+   "options": [
+    "\\(14\\)",
+    "\\(28\\)",
+    "\\(4\\)",
+    "\\(21\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(n=14+6+1+7=28\\).",
+   "explain_vi": "Đáp án b. \\(n=14+6+1+7=28\\).",
+   "images": [],
+   "id": "7bbfa00d7e61",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D1",
+   "type": "mcq",
+   "form": "The histogram shows the masses (in grams) of # eggs. Which group has the greatest frequency?",
+   "en": "The histogram shows the masses (in grams) of 25 eggs. Which group has the greatest frequency?<img src=\"../../../img/tex/426cc80b9c8837d4.svg\" alt=\"Grouped frequency chart\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,460px);height:auto\">",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency chart\">Biểu đồ tần số</b> ghép nhóm dạng cột cho biết khối lượng (g) của 25 quả trứng gà. Nhóm nào có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">tần số</b> lớn nhất?<img src=\"../../../img/tex/a1b01946b4d2344c.svg\" alt=\"Biểu đồ tần số ghép nhóm\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,460px);height:auto\">",
+   "options": [
+    "\\([55;\\,60)\\)",
+    "\\([45;\\,50)\\)",
+    "\\([60;\\,65)\\)",
+    "\\([50;\\,55)\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. The highest bar: \\([50;\\,55)\\), frequency 9.",
+   "explain_vi": "Đáp án d. Cột cao nhất: \\([50;\\,55)\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">tần số</b> 9.",
+   "images": [
+    "img/tex/426cc80b9c8837d4.svg",
+    "img/tex/a1b01946b4d2344c.svg"
+   ],
+   "id": "57ee4e9e697d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D1",
+   "type": "mcq",
+   "form": "What is the width of the group \\([#;\\,#)\\)?",
+   "en": "What is the width of the group \\([10;\\,20)\\)?",
+   "vi": "Độ dài của nhóm \\([10;\\,20)\\) bằng bao nhiêu?",
+   "options": [
+    "\\(11\\)",
+    "\\(15\\)",
+    "\\(10\\)",
+    "\\(30\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Width \\(=20-10=10\\).",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"class width (group width)\">Độ dài nhóm</b> \\(=20-10=10\\).",
+   "images": [],
+   "id": "f3786006a4e6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Here are the daily rainfall (in mm) on # rainy days: #, #, #, #, #, #, #, #, #, #, #, #, #, #, #, #, #, #, #, #. Group the data into \\([#;\\,#)\\), \\([#;\\,#)\\), \\([#;\\,#)\\), \\([#;\\,#)\\). What is the frequency of the group \\([#;\\,#)\\)?",
+   "en": "Here are the daily rainfall (in mm) on 20 rainy days: 27, 25, 42, 30, 39, 14, 20, 46, 40, 30, 48, 40, 17, 44, 21, 14, 40, 49, 44, 40. Group the data into \\([10;\\,20)\\), \\([20;\\,30)\\), \\([30;\\,40)\\), \\([40;\\,50)\\). What is the frequency of the group \\([30;\\,40)\\)?",
+   "vi": "Dưới đây là lượng mưa (mm) trong 20 ngày mưa: 27, 25, 42, 30, 39, 14, 20, 46, 40, 30, 48, 40, 17, 44, 21, 14, 40, 49, 44, 40. Ghép số liệu thành các nhóm \\([10;\\,20)\\), \\([20;\\,30)\\), \\([30;\\,40)\\), \\([40;\\,50)\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">Tần số</b> của nhóm \\([30;\\,40)\\) là bao nhiêu?",
+   "options": [
+    "\\(5\\)",
+    "\\(4\\)",
+    "\\(3\\)",
+    "\\(2\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Values \\(x\\) with \\(30\\le x\\lt 40\\): 3 values.",
+   "explain_vi": "Đáp án c. Các giá trị \\(x\\) với \\(30\\le x\\lt 40\\): có 3 giá trị.",
+   "images": [],
+   "id": "be70b4b06f96",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D2",
+   "type": "mcq",
+   "form": "The grouped relative frequency table shows the scores (out of #) of # students in a math contest. How many students are in the group \\([#;\\,#)\\)?Group (Score)[#; #)[#; #)[#; #)[#; #)[#; #)[#; #)Relative frequency (f)#%#%#%#%#%#%",
+   "en": "The grouped relative frequency table shows the scores (out of 100) of 40 students in a math contest. How many students are in the group \\([80;\\,90)\\)?<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Group (Score)</th><td>[40; 50)</td><td>[50; 60)</td><td>[60; 70)</td><td>[70; 80)</td><td>[80; 90)</td><td>[90; 100)</td></tr><tr><th scope=\"row\">Relative frequency (f)</th><td>30%</td><td>20%</td><td>2.5%</td><td>25%</td><td>10%</td><td>12.5%</td></tr></tbody></table></div>",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"grouped relative frequency table\">Bảng tần số tương đối ghép nhóm</b> cho biết điểm (thang điểm 100) của 40 học sinh trong một cuộc thi Toán. Có bao nhiêu học sinh thuộc nhóm \\([80;\\,90)\\)?<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Nhóm (Điểm)</th><td>[40; 50)</td><td>[50; 60)</td><td>[60; 70)</td><td>[70; 80)</td><td>[80; 90)</td><td>[90; 100)</td></tr><tr><th scope=\"row\"><b class=\"mbl-term\" tabindex=\"0\" data-en=\"relative frequency\">Tần số tương đối</b> (f)</th><td>30%</td><td>20%</td><td>2,5%</td><td>25%</td><td>10%</td><td>12,5%</td></tr></tbody></table></div>",
+   "options": [
+    "\\(5\\)",
+    "\\(3\\)",
+    "\\(10\\)",
+    "\\(4\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(m=40\\cdot10\\%=4\\).",
+   "explain_vi": "Đáp án d. \\(m=40\\cdot10\\%=4\\).",
+   "images": [],
+   "id": "74b13b206b08",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D2",
+   "type": "mcq",
+   "form": "The table shows the heights (in cm) of # students. In the relative frequency line chart, the point of the group \\([#;\\,#)\\) has coordinates…Group (Height (cm))[#; #)[#; #)[#; #)[#; #)[#; #)Frequency (m)#",
+   "en": "The table shows the heights (in cm) of 40 students. In the relative frequency line chart, the point of the group \\([155;\\,160)\\) has coordinates…<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Group (Height (cm))</th><td>[150; 155)</td><td>[155; 160)</td><td>[160; 165)</td><td>[165; 170)</td><td>[170; 175)</td></tr><tr><th scope=\"row\">Frequency (m)</th><td>13</td><td>1</td><td>10</td><td>15</td><td>1</td></tr></tbody></table></div>",
+   "vi": "Bảng dưới đây cho biết <b class=\"mbl-term\" tabindex=\"0\" data-en=\"height\">chiều cao</b> (cm) của 40 học sinh. Trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"grouped relative frequency chart\">biểu đồ tần số tương đối ghép nhóm</b> dạng đoạn thẳng, điểm ứng với nhóm \\([155;\\,160)\\) có tọa độ là…<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Nhóm (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"height\">Chiều cao</b> (cm))</th><td>[150; 155)</td><td>[155; 160)</td><td>[160; 165)</td><td>[165; 170)</td><td>[170; 175)</td></tr><tr><th scope=\"row\"><b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">Tần số</b> (m)</th><td>13</td><td>1</td><td>10</td><td>15</td><td>1</td></tr></tbody></table></div>",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\((157.5;\\,1)\\)</span><span class=\"vi\">\\((157{,}5;\\,1)\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\((160;\\,2.5)\\)</span><span class=\"vi\">\\((160;\\,2{,}5)\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\((155;\\,2.5)\\)</span><span class=\"vi\">\\((155;\\,2{,}5)\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\((157.5;\\,2.5)\\)</span><span class=\"vi\">\\((157{,}5;\\,2{,}5)\\)</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. (midpoint; relative frequency) \\(=\\left(\\dfrac{155+160}{2};\\,\\dfrac{1}{40}\\cdot100\\right)=(157.5;\\,2.5)\\).",
+   "explain_vi": "Đáp án d. (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint (representative value)\">giá trị đại diện</b>; <b class=\"mbl-term\" tabindex=\"0\" data-en=\"relative frequency\">tần số tương đối</b>) \\(=\\left(\\dfrac{155+160}{2};\\,\\dfrac{1}{40}\\cdot100\\right)=(157{,}5;\\,2{,}5)\\).",
+   "images": [],
+   "id": "33d05f663178",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D3",
+   "type": "mcq",
+   "form": "The relative frequency line chart shows the daily rainfall (in mm) on # rainy days. How many days are in the group whose midpoint is \\(#\\)?",
+   "en": "The relative frequency line chart shows the daily rainfall (in mm) on 25 rainy days. How many days are in the group whose midpoint is \\(35\\)?<img src=\"../../../img/tex/03d0be11cf5f3f6b.svg\" alt=\"Relative frequency line chart\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,460px);height:auto\">",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"grouped relative frequency chart\">Biểu đồ tần số tương đối ghép nhóm</b> dạng đoạn thẳng cho biết lượng mưa (mm) trong 25 ngày mưa. Có bao nhiêu ngày thuộc nhóm có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint (representative value)\">giá trị đại diện</b> \\(35\\)?<img src=\"../../../img/tex/5b8861594630ad77.svg\" alt=\"Biểu đồ tần số tương đối ghép nhóm dạng đoạn thẳng\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,460px);height:auto\">",
+   "options": [
+    "\\(8\\)",
+    "\\(32\\)",
+    "\\(17\\)",
+    "\\(9\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. The midpoint \\(35\\) belongs to \\([30;\\,40)\\) with \\(f=32\\%\\): \\(m=25\\cdot32\\%=8\\).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint (representative value)\">Giá trị đại diện</b> \\(35\\) ứng với nhóm \\([30;\\,40)\\) có \\(f=32\\%\\): \\(m=25\\cdot32\\%=8\\).",
+   "images": [
+    "img/tex/03d0be11cf5f3f6b.svg",
+    "img/tex/5b8861594630ad77.svg"
+   ],
+   "id": "bf4938793ae8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D3",
+   "type": "mcq",
+   "form": "The table shows a grouped frequency table with groups of width #. If we regroup the data into groups of width #, what is the frequency of the new group \\([#;\\,#)\\)?Group (Mass (g))[#; #)[#; #)[#; #)[#; #)Frequency (m)#",
+   "en": "The table shows a grouped frequency table with groups of width 5. If we regroup the data into groups of width 10, what is the frequency of the new group \\([50;\\,60)\\)?<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Group (Mass (g))</th><td>[40; 45)</td><td>[45; 50)</td><td>[50; 55)</td><td>[55; 60)</td></tr><tr><th scope=\"row\">Frequency (m)</th><td>10</td><td>14</td><td>6</td><td>10</td></tr></tbody></table></div>",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"grouped frequency table\">Bảng tần số ghép nhóm</b> dưới đây có các nhóm độ dài 5. Nếu ghép lại thành các nhóm có độ dài 10 thì nhóm mới \\([50;\\,60)\\) có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">tần số</b> bằng bao nhiêu?<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Nhóm (Khối lượng (g))</th><td>[40; 45)</td><td>[45; 50)</td><td>[50; 55)</td><td>[55; 60)</td></tr><tr><th scope=\"row\"><b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">Tần số</b> (m)</th><td>10</td><td>14</td><td>6</td><td>10</td></tr></tbody></table></div>",
+   "options": [
+    "\\(16\\)",
+    "\\(10\\)",
+    "\\(6\\)",
+    "\\(20\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\([50;\\,60)\\) is the union of \\([50;\\,55)\\) and \\([55;\\,60)\\): \\(6+10=16\\).",
+   "explain_vi": "Đáp án a. Nhóm \\([50;\\,60)\\) gồm hai nhóm \\([50;\\,55)\\) và \\([55;\\,60)\\): \\(6+10=16\\).",
+   "images": [],
+   "id": "ecb915236e1f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D3",
+   "type": "mcq",
+   "form": "We draw the relative frequency histogram for the table below (the scores (out of #) of # students in a math contest). How high is the bar of the group \\([#;\\,#)\\)?Group (Score)[#; #)[#; #)[#; #)[#; #)Frequency (m)#",
+   "en": "We draw the relative frequency histogram for the table below (the scores (out of 100) of 20 students in a math contest). How high is the bar of the group \\([40;\\,50)\\)?<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Group (Score)</th><td>[40; 50)</td><td>[50; 60)</td><td>[60; 70)</td><td>[70; 80)</td></tr><tr><th scope=\"row\">Frequency (m)</th><td>11</td><td>5</td><td>3</td><td>1</td></tr></tbody></table></div>",
+   "vi": "Vẽ <b class=\"mbl-term\" tabindex=\"0\" data-en=\"grouped relative frequency chart\">biểu đồ tần số tương đối ghép nhóm</b> dạng cột cho bảng dưới đây (điểm (thang điểm 100) của 20 học sinh trong một cuộc thi Toán). Cột ứng với nhóm \\([40;\\,50)\\) cao bao nhiêu?<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Nhóm (Điểm)</th><td>[40; 50)</td><td>[50; 60)</td><td>[60; 70)</td><td>[70; 80)</td></tr><tr><th scope=\"row\"><b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">Tần số</b> (m)</th><td>11</td><td>5</td><td>3</td><td>1</td></tr></tbody></table></div>",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(55\\%\\)</span><span class=\"vi\">\\(55\\%\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(60\\%\\)</span><span class=\"vi\">\\(60\\%\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(11\\%\\)</span><span class=\"vi\">\\(11\\%\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(45\\%\\)</span><span class=\"vi\">\\(45\\%\\)</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Height = relative frequency \\(=\\dfrac{11}{20}\\cdot100\\%=55\\%\\).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"height\">Chiều cao</b> cột = <b class=\"mbl-term\" tabindex=\"0\" data-en=\"relative frequency\">tần số tương đối</b> \\(=\\dfrac{11}{20}\\cdot100\\%=55\\%\\).",
+   "images": [],
+   "id": "f7030b38e79c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D4",
+   "type": "mcq",
+   "form": "The histogram shows the speeds of # motorbikes on a road with a speed limit of # km/h. What percentage of the motorbikes were speeding (speed at least # km/h)?",
+   "en": "The histogram shows the speeds of 50 motorbikes on a road with a speed limit of 60 km/h. What percentage of the motorbikes were speeding (speed at least 60 km/h)?<img src=\"../../../img/tex/62febc0e5a090838.svg\" alt=\"Speeds of 50 motorbikes\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,460px);height:auto\">",
+   "vi": "Biểu đồ dưới đây cho biết tốc độ của 50 xe máy trên một đoạn đường có tốc độ tối đa cho phép 60 km/h. Bao nhiêu phần trăm số xe đã chạy quá tốc độ (từ 60 km/h trở lên)?<img src=\"../../../img/tex/9c6404c07be541bc.svg\" alt=\"Tốc độ của 50 xe máy\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,460px);height:auto\">",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(18\\%\\)</span><span class=\"vi\">\\(18\\%\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(64\\%\\)</span><span class=\"vi\">\\(64\\%\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(36\\%\\)</span><span class=\"vi\">\\(36\\%\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(8\\%\\)</span><span class=\"vi\">\\(8\\%\\)</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Groups \\([60;\\,70)\\), \\([70;\\,80)\\): \\(14+4=18\\) motorbikes; \\(\\dfrac{18}{50}\\cdot100\\%=36\\%\\).",
+   "explain_vi": "Đáp án c. Các nhóm \\([60;\\,70)\\), \\([70;\\,80)\\): \\(14+4=18\\) xe; \\(\\dfrac{18}{50}\\cdot100\\%=36\\%\\).",
+   "images": [
+    "img/tex/62febc0e5a090838.svg",
+    "img/tex/9c6404c07be541bc.svg"
+   ],
+   "id": "76f93b3a3163",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D4",
+   "type": "mcq",
+   "form": "The values of a data set of # observations lie between # and #. We want between # and # groups of the same width, starting at a multiple of the width. Which grouping is suitable?",
+   "en": "The values of a data set of 40 observations lie between 31 and 78. We want between 4 and 8 groups of the same width, starting at a multiple of the width. Which grouping is suitable?",
+   "vi": "Các giá trị của một mẫu 40 số liệu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"lies in\">nằm trong</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"interval\">khoảng</b> từ 31 đến 78. Ta muốn ghép thành từ 4 đến 8 nhóm có cùng độ dài, nhóm đầu bắt đầu tại một bội của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"class width (group width)\">độ dài nhóm</b>. Cách ghép nào phù hợp?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">width 10 (5 groups)</span><span class=\"vi\">độ dài 10 (5 nhóm)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">width 2 (25 groups)</span><span class=\"vi\">độ dài 2 (25 nhóm)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">width 20 (3 groups)</span><span class=\"vi\">độ dài 20 (3 nhóm)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">width 50 (2 groups)</span><span class=\"vi\">độ dài 50 (2 nhóm)</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Width 10: groups from \\(30\\) to \\(80\\), that is 5 groups. Too many groups (or too few) make the table hard to read.",
+   "explain_vi": "Đáp án a. Độ dài 10: các nhóm từ \\(30\\) đến \\(80\\), tức là 5 nhóm. Quá nhiều (hoặc quá ít) nhóm thì bảng khó đọc, khó nhận xét.",
+   "images": [],
+   "id": "e06fa3b2f487",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D4",
+   "type": "mcq",
+   "form": "Two schools take part in a math contest. School X has # students and school Y has # students; their scores are grouped below. In which school is the proportion of students scoring at least # points higher?Group[#; #)[#; #)[#; #)[#; #)Frequency – X#Frequency – Y#",
+   "en": "Two schools take part in a math contest. School X has 40 students and school Y has 20 students; their scores are grouped below. In which school is the proportion of students scoring at least 80 points higher?<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Group</th><td>[60; 70)</td><td>[70; 80)</td><td>[80; 90)</td><td>[90; 100)</td></tr><tr><th scope=\"row\">Frequency – X</th><td>3</td><td>12</td><td>13</td><td>12</td></tr><tr><th scope=\"row\">Frequency – Y</th><td>1</td><td>6</td><td>9</td><td>4</td></tr></tbody></table></div>",
+   "vi": "Hai trường tham gia một cuộc thi Toán. Trường X có 40 học sinh, trường Y có 20 học sinh; điểm được ghép nhóm như bảng dưới. Trường nào có tỉ lệ học sinh đạt từ 80 điểm trở lên cao hơn?<div class=\"mbl-tablewrap mbl-freqwrap\"><table class=\"mbl-table mbl-freq\"><tbody><tr><th scope=\"row\">Nhóm</th><td>[60; 70)</td><td>[70; 80)</td><td>[80; 90)</td><td>[90; 100)</td></tr><tr><th scope=\"row\"><b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">Tần số</b> – X</th><td>3</td><td>12</td><td>13</td><td>12</td></tr><tr><th scope=\"row\"><b class=\"mbl-term\" tabindex=\"0\" data-en=\"frequency\">Tần số</b> – Y</th><td>1</td><td>6</td><td>9</td><td>4</td></tr></tbody></table></div>",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">the two are the same</span><span class=\"vi\">như nhau</span></span>",
+    "<span class=\"txi\"><span class=\"en\">X (25 > 13)</span><span class=\"vi\">X (25 > 13)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">X (62.5% > 65%)</span><span class=\"vi\">X (62,5% > 65%)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Y (65% > 62.5%)</span><span class=\"vi\">Y (65% > 62,5%)</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. X: \\(\\dfrac{13+12}{40}\\cdot100\\%=62.5\\%\\); Y: \\(\\dfrac{9+4}{20}\\cdot100\\%=65\\%\\). The sample sizes differ, so compare relative frequencies.",
+   "explain_vi": "Đáp án d. X: \\(\\dfrac{13+12}{40}\\cdot100\\%=62{,}5\\%\\); Y: \\(\\dfrac{9+4}{20}\\cdot100\\%=65\\%\\). Hai mẫu có cỡ khác nhau nên phải <b class=\"mbl-term\" tabindex=\"0\" data-en=\"compare\">so sánh</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"relative frequency\">tần số tương đối</b>.",
+   "images": [],
+   "id": "946f0bf92e4c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  }
+ ]
+}

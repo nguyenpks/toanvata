@@ -1,0 +1,1266 @@
+{
+ "lesson": "g9-solids-02",
+ "grade": 9,
+ "no": 32,
+ "title": "Hình cầu",
+ "path": "lessons/grade9/solids/spheres.html",
+ "items": [
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "A plane at distance # cm from the center of a sphere of radius # cm cuts the sphere. Find the radius of the cross-section.",
+   "en": "A plane at distance 12 cm from the center of a sphere of radius 15 cm cuts the sphere. Find the radius of the cross-section.",
+   "vi": "Một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> cách tâm hình cầu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 15 cm một khoảng 12 cm cắt hình cầu. Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> của mặt cắt.",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(9\\text{ cm}\\)</span><span class=\"vi\">\\(9\\text{ cm}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(27\\text{ cm}\\)</span><span class=\"vi\">\\(27\\text{ cm}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(3\\text{ cm}\\)</span><span class=\"vi\">\\(3\\text{ cm}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(12\\text{ cm}\\)</span><span class=\"vi\">\\(12\\text{ cm}\\)</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. The cross-section is a circle of radius \\(\\sqrt{R^2-d^2}=\\sqrt{15^2-12^2}=9\\) cm.",
+   "explain_vi": "Đáp án a. Mặt cắt là hình tròn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> \\(\\sqrt{R^2-d^2}=\\sqrt{15^2-12^2}=9\\) cm.",
+   "images": [],
+   "id": "fee8d00e4d84",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "A sphere has radius # cm. Find the area of its surface.",
+   "en": "A sphere has radius 11 cm. Find the area of its surface.<img src=\"../../../img/tex/c0ea1c3e503e867a.svg\" alt=\"Figure\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,200px);height:auto\">",
+   "vi": "Một hình cầu có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 11 cm. Tính diện tích <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sphere\">mặt cầu</b>.<img src=\"../../../img/tex/c0ea1c3e503e867a.svg\" alt=\"Hình vẽ\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,200px);height:auto\">",
+   "options": [
+    "\\(\\dfrac{5324\\pi}{3}\\text{ cm}^2\\)",
+    "\\(484\\pi\\text{ cm}^2\\)",
+    "\\(121\\pi\\text{ cm}^2\\)",
+    "\\(242\\pi\\text{ cm}^2\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(S=4\\pi R^2=4\\pi\\cdot11^2=484\\pi\\text{ cm}^2\\).",
+   "explain_vi": "Đáp án b. \\(S=4\\pi R^2=4\\pi\\cdot11^2=484\\pi\\text{ cm}^2\\).",
+   "images": [
+    "img/tex/c0ea1c3e503e867a.svg"
+   ],
+   "id": "9d05682e84ac",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Find the volume of a ball of radius # cm.",
+   "en": "Find the volume of a ball of radius 3 cm.",
+   "vi": "Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"volume\">thể tích</b> hình cầu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 3 cm.",
+   "options": [
+    "\\(27\\pi\\text{ cm}^3\\)",
+    "\\(108\\pi\\text{ cm}^3\\)",
+    "\\(36\\pi\\text{ cm}^3\\)",
+    "\\(12\\pi\\text{ cm}^3\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(V=\\dfrac43\\pi R^3=\\dfrac43\\pi\\cdot3^3=36\\pi\\text{ cm}^3\\).",
+   "explain_vi": "Đáp án c. \\(V=\\dfrac43\\pi R^3=\\dfrac43\\pi\\cdot3^3=36\\pi\\text{ cm}^3\\).",
+   "images": [],
+   "id": "772d53852d5b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "A ball of radius # cm has surface area \\(#\\pi\\text{ cm}^#\\).",
+   "en": "A ball of radius 8 cm has surface area \\(256\\pi\\text{ cm}^2\\).",
+   "vi": "Hình cầu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 8 cm có diện tích <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sphere\">mặt cầu</b> là \\(256\\pi\\text{ cm}^2\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. \\(4\\pi R^2=256\\pi\\text{ cm}^2\\).",
+   "explain_vi": "Đúng. \\(4\\pi R^2=256\\pi\\text{ cm}^2\\).",
+   "images": [],
+   "id": "c7ee3d95c445",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "A hemisphere of radius # cm has volume \\(#\\pi\\text{ cm}^#\\).",
+   "en": "A hemisphere of radius 12 cm has volume \\(1152\\pi\\text{ cm}^3\\).",
+   "vi": "Nửa hình cầu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 12 cm có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"volume\">thể tích</b> \\(1152\\pi\\text{ cm}^3\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. \\(\\dfrac12\\cdot\\dfrac43\\pi R^3=\\dfrac23\\pi\\cdot12^3=1152\\pi\\text{ cm}^3\\).",
+   "explain_vi": "Đúng. \\(\\dfrac12\\cdot\\dfrac43\\pi R^3=\\dfrac23\\pi\\cdot12^3=1152\\pi\\text{ cm}^3\\).",
+   "images": [],
+   "id": "f11e4e5eadd9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "A ball has diameter # cm. Its surface area is \\(k\\pi\\) cm². Find \\(k\\).",
+   "en": "A ball has diameter 10 cm. Its surface area is \\(k\\pi\\) cm². Find \\(k\\).",
+   "vi": "Một quả bóng có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diameter\">đường kính</b> 10 cm. Diện tích <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sphere\">mặt cầu</b> là \\(k\\pi\\) cm². Tìm \\(k\\).",
+   "options": [],
+   "answer": "100",
+   "explain_en": "Answer: 100. \\(R=5\\); \\(S=4\\pi\\cdot5^2=100\\pi\\).",
+   "explain_vi": "Đáp số: 100. \\(R=5\\); \\(S=4\\pi\\cdot5^2=100\\pi\\).",
+   "images": [],
+   "id": "33aaaad60dba",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "A ball has radius # cm. Its volume is \\(k\\pi\\) cm³. Find \\(k\\).",
+   "en": "A ball has radius 9 cm. Its volume is \\(k\\pi\\) cm³. Find \\(k\\).",
+   "vi": "Hình cầu có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 9 cm. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"volume\">Thể tích</b> là \\(k\\pi\\) cm³. Tìm \\(k\\).",
+   "options": [],
+   "answer": "972",
+   "explain_en": "Answer: 972. \\(V=\\dfrac43\\pi\\cdot9^3=972\\pi\\).",
+   "explain_vi": "Đáp số: 972. \\(V=\\dfrac43\\pi\\cdot9^3=972\\pi\\).",
+   "images": [],
+   "id": "a9e3b480f2bc",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D1",
+   "type": "mcq",
+   "form": "A ball has diameter # cm. What is its radius?",
+   "en": "A ball has diameter 12 cm. What is its radius?",
+   "vi": "Một hình cầu có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diameter\">đường kính</b> 12 cm. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">Bán kính</b> của nó là bao nhiêu?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(3\\text{ cm}\\)</span><span class=\"vi\">\\(3\\text{ cm}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(24\\text{ cm}\\)</span><span class=\"vi\">\\(24\\text{ cm}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(12\\text{ cm}\\)</span><span class=\"vi\">\\(12\\text{ cm}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(6\\text{ cm}\\)</span><span class=\"vi\">\\(6\\text{ cm}\\)</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(R=\\dfrac{d}{2}=6\\) cm.",
+   "explain_vi": "Đáp án d. \\(R=\\dfrac{d}{2}=6\\) cm.",
+   "images": [],
+   "id": "5fe350336bb5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D1",
+   "type": "mcq",
+   "form": "A plane through the center of a sphere cuts its surface in…",
+   "en": "A plane through the center of a sphere cuts its surface in…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">Mặt phẳng</b> đi qua tâm cắt <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sphere\">mặt cầu</b> theo…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">a point</span><span class=\"vi\">một điểm</span></span>",
+    "<span class=\"txi\"><span class=\"en\">a small circle of half the radius</span><span class=\"vi\">đường tròn có bán kính bằng một nửa</span></span>",
+    "<span class=\"txi\"><span class=\"en\">an ellipse</span><span class=\"vi\">một hình elip</span></span>",
+    "<span class=\"txi\"><span class=\"en\">a great circle (radius equal to the radius of the sphere)</span><span class=\"vi\">đường tròn lớn (bán kính bằng bán kính hình cầu)</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. The cross-section through the center is a great circle.",
+   "explain_vi": "Đáp án d. Mặt cắt qua tâm là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> lớn.",
+   "images": [],
+   "id": "4c052ae2fccc",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Which formula gives the volume of a ball of radius \\(R\\)?",
+   "en": "Which formula gives the volume of a ball of radius \\(R\\)?",
+   "vi": "Công thức nào cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"volume\">thể tích</b> hình cầu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> \\(R\\)?",
+   "options": [
+    "\\(V=4\\pi R^3\\)",
+    "\\(V=\\dfrac43\\pi R^3\\)",
+    "\\(V=\\dfrac13\\pi R^3\\)",
+    "\\(V=\\pi R^3\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(V=\\dfrac43\\pi R^3\\).",
+   "explain_vi": "Đáp án b. \\(V=\\dfrac43\\pi R^3\\).",
+   "images": [],
+   "id": "8fd56dbc0815",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D2",
+   "type": "mcq",
+   "form": "A solid hemisphere of radius # cm (curved surface and flat base). Find its total surface area.",
+   "en": "A solid hemisphere of radius 3 cm (curved surface and flat base). Find its total surface area.",
+   "vi": "Một khối nửa hình cầu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 3 cm (gồm mặt cong và mặt đáy phẳng). Tính diện tích toàn phần.",
+   "options": [
+    "\\(36\\pi\\text{ cm}^2\\)",
+    "\\(27\\pi\\text{ cm}^2\\)",
+    "\\(9\\pi\\text{ cm}^2\\)",
+    "\\(18\\pi\\text{ cm}^2\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Curved part \\(2\\pi R^2\\), base \\(\\pi R^2\\): total \\(3\\pi R^2=27\\pi\\text{ cm}^2\\).",
+   "explain_vi": "Đáp án b. Mặt cong \\(2\\pi R^2\\), mặt đáy \\(\\pi R^2\\): tổng \\(3\\pi R^2=27\\pi\\text{ cm}^2\\).",
+   "images": [],
+   "id": "ea4066707e11",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D2",
+   "type": "mcq",
+   "form": "The radius of a ball is multiplied by #. Its surface area is multiplied by…",
+   "en": "The radius of a ball is multiplied by 3. Its surface area is multiplied by…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">Bán kính</b> hình cầu tăng gấp 3 lần. Diện tích <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sphere\">mặt cầu</b> tăng gấp bao nhiêu lần?",
+   "options": [
+    "\\(3\\)",
+    "\\(6\\)",
+    "\\(9\\)",
+    "\\(27\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(S\\) is proportional to \\(R^2\\), \\(V\\) to \\(R^3\\): factor \\(9\\).",
+   "explain_vi": "Đáp án c. \\(S\\) tỉ lệ với \\(R^2\\), \\(V\\) tỉ lệ với \\(R^3\\): gấp \\(9\\) lần.",
+   "images": [],
+   "id": "097cfd67df82",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D2",
+   "type": "mcq",
+   "form": "The surface of a sphere has area \\(#\\pi\\text{ cm}^#\\). Find the radius.",
+   "en": "The surface of a sphere has area \\(576\\pi\\text{ cm}^2\\). Find the radius.",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"sphere\">Mặt cầu</b> có diện tích \\(576\\pi\\text{ cm}^2\\). Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> hình cầu.",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(12\\text{ cm}\\)</span><span class=\"vi\">\\(12\\text{ cm}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(144\\text{ cm}\\)</span><span class=\"vi\">\\(144\\text{ cm}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(145\\text{ cm}\\)</span><span class=\"vi\">\\(145\\text{ cm}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(24\\text{ cm}\\)</span><span class=\"vi\">\\(24\\text{ cm}\\)</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(4\\pi R^2=576\\pi\\Rightarrow R^2=144\\Rightarrow R=12\\) cm.",
+   "explain_vi": "Đáp án a. \\(4\\pi R^2=576\\pi\\Rightarrow R^2=144\\Rightarrow R=12\\) cm.",
+   "images": [],
+   "id": "470e9abe7d39",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D3",
+   "type": "mcq",
+   "form": "A ball of radius # cm fits exactly in a cylindrical box (it touches the two bases and the side). What fraction of the box does the ball fill?",
+   "en": "A ball of radius 6 cm fits exactly in a cylindrical box (it touches the two bases and the side). What fraction of the box does the ball fill?",
+   "vi": "Một quả bóng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 6 cm đặt vừa khít trong một hộp hình trụ (tiếp xúc với hai đáy và mặt xung quanh). Quả bóng chiếm bao nhiêu phần <b class=\"mbl-term\" tabindex=\"0\" data-en=\"volume\">thể tích</b> hộp?",
+   "options": [
+    "\\(\\dfrac23\\)",
+    "\\(\\dfrac34\\)",
+    "\\(\\dfrac12\\)",
+    "\\(\\dfrac13\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Box: \\(\\pi R^2\\cdot2R=2\\pi R^3\\); ball: \\(\\dfrac43\\pi R^3\\); ratio \\(\\dfrac23\\).",
+   "explain_vi": "Đáp án a. Hộp: \\(\\pi R^2\\cdot2R=2\\pi R^3\\); bóng: \\(\\dfrac43\\pi R^3\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ratio\">tỉ số</b> \\(\\dfrac23\\).",
+   "images": [],
+   "id": "b177c06a316a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D3",
+   "type": "mcq",
+   "form": "A gas tank is a cylinder (radius # dm, length # dm) with a hemisphere of the same radius at each end. Find its volume.",
+   "en": "A gas tank is a cylinder (radius 3 dm, length 6 dm) with a hemisphere of the same radius at each end. Find its volume.",
+   "vi": "Một bồn chứa gồm một hình trụ (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 3 dm, dài 6 dm) và hai nửa hình cầu cùng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> ở hai đầu. Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"volume\">thể tích</b> bồn.",
+   "options": [
+    "\\(72\\pi\\text{ dm}^3\\)",
+    "\\(54\\pi\\text{ dm}^3\\)",
+    "\\(91\\pi\\text{ dm}^3\\)",
+    "\\(90\\pi\\text{ dm}^3\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Cylinder \\(\\pi\\cdot3^2\\cdot6=54\\pi\\); two hemispheres = one ball \\(\\dfrac43\\pi\\cdot3^3=36\\pi\\); total \\(90\\pi\\text{ dm}^3\\).",
+   "explain_vi": "Đáp án d. Hình trụ \\(\\pi\\cdot3^2\\cdot6=54\\pi\\); hai nửa hình cầu = một hình cầu \\(\\dfrac43\\pi\\cdot3^3=36\\pi\\); tổng \\(90\\pi\\text{ dm}^3\\).",
+   "images": [],
+   "id": "44da92bbf0e6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D3",
+   "type": "mcq",
+   "form": "A sphere has surface area \\(#\\pi\\text{ cm}^#\\). Find the length of a great circle.",
+   "en": "A sphere has surface area \\(36\\pi\\text{ cm}^2\\). Find the length of a great circle.",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"sphere\">Mặt cầu</b> có diện tích \\(36\\pi\\text{ cm}^2\\). Tính độ dài một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> lớn.",
+   "options": [
+    "\\(12\\pi\\text{ cm}\\)",
+    "\\(3\\pi\\text{ cm}\\)",
+    "\\(9\\pi\\text{ cm}\\)",
+    "\\(6\\pi\\text{ cm}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(R=3\\); great circle \\(2\\pi R=6\\pi\\text{ cm}\\).",
+   "explain_vi": "Đáp án d. \\(R=3\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> lớn \\(2\\pi R=6\\pi\\text{ cm}\\).",
+   "images": [],
+   "id": "c5c6e8f7cecc",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A metal ball of radius # cm is melted and recast into small balls of radius # cm. How many small balls are made?",
+   "en": "A metal ball of radius 12 cm is melted and recast into small balls of radius 4 cm. How many small balls are made?",
+   "vi": "Nấu chảy một quả cầu kim loại <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 12 cm để đúc thành các viên bi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 4 cm. Đúc được bao nhiêu viên bi?",
+   "options": [
+    "\\(54\\)",
+    "\\(9\\)",
+    "\\(3\\)",
+    "\\(27\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\dfrac{\\dfrac43\\pi\\cdot12^3}{\\dfrac43\\pi\\cdot4^3}=\\left(\\dfrac{12}{4}\\right)^3=27\\).",
+   "explain_vi": "Đáp án d. \\(\\dfrac{\\dfrac43\\pi\\cdot12^3}{\\dfrac43\\pi\\cdot4^3}=\\left(\\dfrac{12}{4}\\right)^3=27\\).",
+   "images": [],
+   "id": "64d40bb25ab9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D4",
+   "type": "mcq",
+   "form": "The roof of a planetarium is a hemisphere with diameter # m. Painting costs # thousand VND per m². How much does it cost to paint the outside of the roof? (\\(\\pi\\approx#\\))",
+   "en": "The roof of a planetarium is a hemisphere with diameter 4 m. Painting costs 250 thousand VND per m². How much does it cost to paint the outside of the roof? (\\(\\pi\\approx3.14\\))",
+   "vi": "Mái vòm của một nhà chiếu hình vũ trụ có dạng nửa <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sphere\">mặt cầu</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diameter\">đường kính</b> 4 m. Sơn mỗi mét vuông tốn 250 nghìn đồng. Chi phí sơn mặt ngoài mái vòm là bao nhiêu? (\\(\\pi\\approx3{,}14\\))",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">9420 thousand VND</span><span class=\"vi\">9420 nghìn đồng</span></span>",
+    "<span class=\"txi\"><span class=\"en\">12560 thousand VND</span><span class=\"vi\">12560 nghìn đồng</span></span>",
+    "<span class=\"txi\"><span class=\"en\">6280 thousand VND</span><span class=\"vi\">6280 nghìn đồng</span></span>",
+    "<span class=\"txi\"><span class=\"en\">3140 thousand VND</span><span class=\"vi\">3140 nghìn đồng</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(S=2\\pi R^2\\approx2\\cdot3.14\\cdot2^2=25.12\\) m²; cost \\(6280\\) thousand VND.",
+   "explain_vi": "Đáp án c. \\(S=2\\pi R^2\\approx2\\cdot3{,}14\\cdot2^2=25{,}12\\) m²; chi phí \\(6280\\) nghìn đồng.",
+   "images": [],
+   "id": "66c17f0f417e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D4",
+   "type": "mcq",
+   "form": "Three tennis balls of radius # cm fit exactly in a cylindrical tube (they touch the side, each other and the two ends). Find the empty volume in the tube.",
+   "en": "Three tennis balls of radius 3 cm fit exactly in a cylindrical tube (they touch the side, each other and the two ends). Find the empty volume in the tube.",
+   "vi": "Ba quả bóng tennis <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 3 cm đặt vừa khít trong một hộp hình trụ (tiếp xúc mặt xung quanh, tiếp xúc nhau và tiếp xúc hai đáy). Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"volume\">thể tích</b> phần không gian trống trong hộp.",
+   "options": [
+    "\\(108\\pi\\text{ cm}^3\\)",
+    "\\(54\\pi\\text{ cm}^3\\)",
+    "\\(126\\pi\\text{ cm}^3\\)",
+    "\\(162\\pi\\text{ cm}^3\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Tube: \\(\\pi\\cdot3^2\\cdot18=162\\pi\\); balls: \\(3\\cdot\\dfrac43\\pi\\cdot3^3=108\\pi\\); empty \\(54\\pi\\text{ cm}^3\\).",
+   "explain_vi": "Đáp án b. Hộp: \\(\\pi\\cdot3^2\\cdot18=162\\pi\\); ba quả bóng: \\(3\\cdot\\dfrac43\\pi\\cdot3^3=108\\pi\\); phần trống \\(54\\pi\\text{ cm}^3\\).",
+   "images": [],
+   "id": "061a9e984381",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "A plane at distance # cm from the center of a sphere of radius # cm cuts the sphere. Find the radius of the cross-section.",
+   "en": "A plane at distance 8 cm from the center of a sphere of radius 17 cm cuts the sphere. Find the radius of the cross-section.",
+   "vi": "Một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> cách tâm hình cầu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 17 cm một khoảng 8 cm cắt hình cầu. Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> của mặt cắt.",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(25\\text{ cm}\\)</span><span class=\"vi\">\\(25\\text{ cm}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(8\\text{ cm}\\)</span><span class=\"vi\">\\(8\\text{ cm}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(9\\text{ cm}\\)</span><span class=\"vi\">\\(9\\text{ cm}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(15\\text{ cm}\\)</span><span class=\"vi\">\\(15\\text{ cm}\\)</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. The cross-section is a circle of radius \\(\\sqrt{R^2-d^2}=\\sqrt{17^2-8^2}=15\\) cm.",
+   "explain_vi": "Đáp án d. Mặt cắt là hình tròn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> \\(\\sqrt{R^2-d^2}=\\sqrt{17^2-8^2}=15\\) cm.",
+   "images": [],
+   "id": "b74f217336a7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "A sphere has radius # cm. Find the area of its surface.",
+   "en": "A sphere has radius 7 cm. Find the area of its surface.<img src=\"../../../img/tex/c0ea1c3e503e867a.svg\" alt=\"Figure\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,200px);height:auto\">",
+   "vi": "Một hình cầu có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 7 cm. Tính diện tích <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sphere\">mặt cầu</b>.<img src=\"../../../img/tex/c0ea1c3e503e867a.svg\" alt=\"Hình vẽ\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,200px);height:auto\">",
+   "options": [
+    "\\(196\\pi\\text{ cm}^2\\)",
+    "\\(98\\pi\\text{ cm}^2\\)",
+    "\\(49\\pi\\text{ cm}^2\\)",
+    "\\(\\dfrac{1372\\pi}{3}\\text{ cm}^2\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(S=4\\pi R^2=4\\pi\\cdot7^2=196\\pi\\text{ cm}^2\\).",
+   "explain_vi": "Đáp án a. \\(S=4\\pi R^2=4\\pi\\cdot7^2=196\\pi\\text{ cm}^2\\).",
+   "images": [
+    "img/tex/c0ea1c3e503e867a.svg"
+   ],
+   "id": "84e6936b2363",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Find the volume of a ball of radius # cm.",
+   "en": "Find the volume of a ball of radius 9 cm.",
+   "vi": "Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"volume\">thể tích</b> hình cầu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 9 cm.",
+   "options": [
+    "\\(108\\pi\\text{ cm}^3\\)",
+    "\\(324\\pi\\text{ cm}^3\\)",
+    "\\(729\\pi\\text{ cm}^3\\)",
+    "\\(972\\pi\\text{ cm}^3\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(V=\\dfrac43\\pi R^3=\\dfrac43\\pi\\cdot9^3=972\\pi\\text{ cm}^3\\).",
+   "explain_vi": "Đáp án d. \\(V=\\dfrac43\\pi R^3=\\dfrac43\\pi\\cdot9^3=972\\pi\\text{ cm}^3\\).",
+   "images": [],
+   "id": "b32df0a25f46",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "A ball of radius # cm has surface area \\(#\\pi\\text{ cm}^#\\).",
+   "en": "A ball of radius 2 cm has surface area \\(32\\pi\\text{ cm}^2\\).",
+   "vi": "Hình cầu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 2 cm có diện tích <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sphere\">mặt cầu</b> là \\(32\\pi\\text{ cm}^2\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. \\(4\\pi R^2=16\\pi\\text{ cm}^2\\).",
+   "explain_vi": "Sai. \\(4\\pi R^2=16\\pi\\text{ cm}^2\\).",
+   "images": [],
+   "id": "e507548fbef3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "A hemisphere of radius # cm has volume \\(#\\pi\\text{ cm}^#\\).",
+   "en": "A hemisphere of radius 12 cm has volume \\(576\\pi\\text{ cm}^3\\).",
+   "vi": "Nửa hình cầu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 12 cm có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"volume\">thể tích</b> \\(576\\pi\\text{ cm}^3\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. \\(\\dfrac12\\cdot\\dfrac43\\pi R^3=\\dfrac23\\pi\\cdot12^3=1152\\pi\\text{ cm}^3\\).",
+   "explain_vi": "Sai. \\(\\dfrac12\\cdot\\dfrac43\\pi R^3=\\dfrac23\\pi\\cdot12^3=1152\\pi\\text{ cm}^3\\).",
+   "images": [],
+   "id": "15700641860e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "A ball has diameter # cm. Its surface area is \\(k\\pi\\) cm². Find \\(k\\).",
+   "en": "A ball has diameter 4 cm. Its surface area is \\(k\\pi\\) cm². Find \\(k\\).",
+   "vi": "Một quả bóng có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diameter\">đường kính</b> 4 cm. Diện tích <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sphere\">mặt cầu</b> là \\(k\\pi\\) cm². Tìm \\(k\\).",
+   "options": [],
+   "answer": "16",
+   "explain_en": "Answer: 16. \\(R=2\\); \\(S=4\\pi\\cdot2^2=16\\pi\\).",
+   "explain_vi": "Đáp số: 16. \\(R=2\\); \\(S=4\\pi\\cdot2^2=16\\pi\\).",
+   "images": [],
+   "id": "e74362ab3c15",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "A ball has radius # cm. Its volume is \\(k\\pi\\) cm³. Find \\(k\\).",
+   "en": "A ball has radius 3 cm. Its volume is \\(k\\pi\\) cm³. Find \\(k\\).",
+   "vi": "Hình cầu có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 3 cm. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"volume\">Thể tích</b> là \\(k\\pi\\) cm³. Tìm \\(k\\).",
+   "options": [],
+   "answer": "36",
+   "explain_en": "Answer: 36. \\(V=\\dfrac43\\pi\\cdot3^3=36\\pi\\).",
+   "explain_vi": "Đáp số: 36. \\(V=\\dfrac43\\pi\\cdot3^3=36\\pi\\).",
+   "images": [],
+   "id": "5202a8ae531c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D1",
+   "type": "mcq",
+   "form": "A ball has diameter # cm. What is its radius?",
+   "en": "A ball has diameter 34 cm. What is its radius?",
+   "vi": "Một hình cầu có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diameter\">đường kính</b> 34 cm. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">Bán kính</b> của nó là bao nhiêu?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(18\\text{ cm}\\)</span><span class=\"vi\">\\(18\\text{ cm}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(34\\text{ cm}\\)</span><span class=\"vi\">\\(34\\text{ cm}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(68\\text{ cm}\\)</span><span class=\"vi\">\\(68\\text{ cm}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(17\\text{ cm}\\)</span><span class=\"vi\">\\(17\\text{ cm}\\)</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(R=\\dfrac{d}{2}=17\\) cm.",
+   "explain_vi": "Đáp án d. \\(R=\\dfrac{d}{2}=17\\) cm.",
+   "images": [],
+   "id": "881072b25a44",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D1",
+   "type": "mcq",
+   "form": "The set of all points in space at distance \\(R\\) from a point \\(O\\) is…",
+   "en": "The set of all points in space at distance \\(R\\) from a point \\(O\\) is…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"set\">Tập hợp</b> tất cả các điểm trong không gian cách điểm \\(O\\) một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"interval\">khoảng</b> \\(R\\) là…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">a surface of a sphere</span><span class=\"vi\">mặt cầu</span></span>",
+    "<span class=\"txi\"><span class=\"en\">a hemisphere</span><span class=\"vi\">nửa hình cầu</span></span>",
+    "<span class=\"txi\"><span class=\"en\">a solid ball</span><span class=\"vi\">hình cầu (khối)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">a great circle</span><span class=\"vi\">đường tròn lớn</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Points at distance exactly \\(R\\) form the surface of the sphere; the solid ball also contains the inside points.",
+   "explain_vi": "Đáp án a. Các điểm cách \\(O\\) đúng \\(R\\) tạo thành <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sphere\">mặt cầu</b>; hình cầu (khối) gồm cả các điểm bên trong.",
+   "images": [],
+   "id": "2b62e85bbed2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Which formula gives the area of the surface of a sphere of radius \\(R\\)?",
+   "en": "Which formula gives the area of the surface of a sphere of radius \\(R\\)?",
+   "vi": "Công thức nào cho diện tích <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sphere\">mặt cầu</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> \\(R\\)?",
+   "options": [
+    "\\(S=2\\pi R^2\\)",
+    "\\(S=\\dfrac43\\pi R^2\\)",
+    "\\(S=\\pi R^2\\)",
+    "\\(S=4\\pi R^2\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(S=4\\pi R^2\\).",
+   "explain_vi": "Đáp án d. \\(S=4\\pi R^2\\).",
+   "images": [],
+   "id": "27d4650bd125",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D2",
+   "type": "mcq",
+   "form": "A solid hemisphere of radius # cm (curved surface and flat base). Find its total surface area.",
+   "en": "A solid hemisphere of radius 8 cm (curved surface and flat base). Find its total surface area.",
+   "vi": "Một khối nửa hình cầu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 8 cm (gồm mặt cong và mặt đáy phẳng). Tính diện tích toàn phần.",
+   "options": [
+    "\\(256\\pi\\text{ cm}^2\\)",
+    "\\(128\\pi\\text{ cm}^2\\)",
+    "\\(192\\pi\\text{ cm}^2\\)",
+    "\\(64\\pi\\text{ cm}^2\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Curved part \\(2\\pi R^2\\), base \\(\\pi R^2\\): total \\(3\\pi R^2=192\\pi\\text{ cm}^2\\).",
+   "explain_vi": "Đáp án c. Mặt cong \\(2\\pi R^2\\), mặt đáy \\(\\pi R^2\\): tổng \\(3\\pi R^2=192\\pi\\text{ cm}^2\\).",
+   "images": [],
+   "id": "b07869a77966",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D2",
+   "type": "mcq",
+   "form": "The radius of a ball is multiplied by #. Its volume is multiplied by…",
+   "en": "The radius of a ball is multiplied by 3. Its volume is multiplied by…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">Bán kính</b> hình cầu tăng gấp 3 lần. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"volume\">Thể tích</b> hình cầu tăng gấp bao nhiêu lần?",
+   "options": [
+    "\\(9\\)",
+    "\\(3\\)",
+    "\\(6\\)",
+    "\\(27\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(S\\) is proportional to \\(R^2\\), \\(V\\) to \\(R^3\\): factor \\(27\\).",
+   "explain_vi": "Đáp án d. \\(S\\) tỉ lệ với \\(R^2\\), \\(V\\) tỉ lệ với \\(R^3\\): gấp \\(27\\) lần.",
+   "images": [],
+   "id": "daa1a550b1b1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D2",
+   "type": "mcq",
+   "form": "The surface of a sphere has area \\(#\\pi\\text{ cm}^#\\). Find the radius.",
+   "en": "The surface of a sphere has area \\(484\\pi\\text{ cm}^2\\). Find the radius.",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"sphere\">Mặt cầu</b> có diện tích \\(484\\pi\\text{ cm}^2\\). Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> hình cầu.",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(22\\text{ cm}\\)</span><span class=\"vi\">\\(22\\text{ cm}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(122\\text{ cm}\\)</span><span class=\"vi\">\\(122\\text{ cm}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(11\\text{ cm}\\)</span><span class=\"vi\">\\(11\\text{ cm}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(121\\text{ cm}\\)</span><span class=\"vi\">\\(121\\text{ cm}\\)</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(4\\pi R^2=484\\pi\\Rightarrow R^2=121\\Rightarrow R=11\\) cm.",
+   "explain_vi": "Đáp án c. \\(4\\pi R^2=484\\pi\\Rightarrow R^2=121\\Rightarrow R=11\\) cm.",
+   "images": [],
+   "id": "7e907dceb4d8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D3",
+   "type": "mcq",
+   "form": "A ball of radius # cm fits exactly in a cylindrical box (it touches the two bases and the side). What fraction of the box does the ball fill?",
+   "en": "A ball of radius 3 cm fits exactly in a cylindrical box (it touches the two bases and the side). What fraction of the box does the ball fill?",
+   "vi": "Một quả bóng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 3 cm đặt vừa khít trong một hộp hình trụ (tiếp xúc với hai đáy và mặt xung quanh). Quả bóng chiếm bao nhiêu phần <b class=\"mbl-term\" tabindex=\"0\" data-en=\"volume\">thể tích</b> hộp?",
+   "options": [
+    "\\(\\dfrac13\\)",
+    "\\(\\dfrac23\\)",
+    "\\(\\dfrac34\\)",
+    "\\(\\dfrac12\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Box: \\(\\pi R^2\\cdot2R=2\\pi R^3\\); ball: \\(\\dfrac43\\pi R^3\\); ratio \\(\\dfrac23\\).",
+   "explain_vi": "Đáp án b. Hộp: \\(\\pi R^2\\cdot2R=2\\pi R^3\\); bóng: \\(\\dfrac43\\pi R^3\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ratio\">tỉ số</b> \\(\\dfrac23\\).",
+   "images": [],
+   "id": "d5c005e5d833",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D3",
+   "type": "mcq",
+   "form": "A gas tank is a cylinder (radius # dm, length # dm) with a hemisphere of the same radius at each end. Find its volume.",
+   "en": "A gas tank is a cylinder (radius 9 dm, length 8 dm) with a hemisphere of the same radius at each end. Find its volume.",
+   "vi": "Một bồn chứa gồm một hình trụ (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 9 dm, dài 8 dm) và hai nửa hình cầu cùng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> ở hai đầu. Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"volume\">thể tích</b> bồn.",
+   "options": [
+    "\\(1134\\pi\\text{ dm}^3\\)",
+    "\\(1620\\pi\\text{ dm}^3\\)",
+    "\\(972\\pi\\text{ dm}^3\\)",
+    "\\(648\\pi\\text{ dm}^3\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Cylinder \\(\\pi\\cdot9^2\\cdot8=648\\pi\\); two hemispheres = one ball \\(\\dfrac43\\pi\\cdot9^3=972\\pi\\); total \\(1620\\pi\\text{ dm}^3\\).",
+   "explain_vi": "Đáp án b. Hình trụ \\(\\pi\\cdot9^2\\cdot8=648\\pi\\); hai nửa hình cầu = một hình cầu \\(\\dfrac43\\pi\\cdot9^3=972\\pi\\); tổng \\(1620\\pi\\text{ dm}^3\\).",
+   "images": [],
+   "id": "8bff8ab0622c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D3",
+   "type": "mcq",
+   "form": "A sphere has surface area \\(#\\pi\\text{ cm}^#\\). Find the length of a great circle.",
+   "en": "A sphere has surface area \\(900\\pi\\text{ cm}^2\\). Find the length of a great circle.",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"sphere\">Mặt cầu</b> có diện tích \\(900\\pi\\text{ cm}^2\\). Tính độ dài một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> lớn.",
+   "options": [
+    "\\(30\\pi\\text{ cm}\\)",
+    "\\(60\\pi\\text{ cm}\\)",
+    "\\(225\\pi\\text{ cm}\\)",
+    "\\(15\\pi\\text{ cm}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(R=15\\); great circle \\(2\\pi R=30\\pi\\text{ cm}\\).",
+   "explain_vi": "Đáp án a. \\(R=15\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> lớn \\(2\\pi R=30\\pi\\text{ cm}\\).",
+   "images": [],
+   "id": "74ec2c36e819",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A metal ball of radius # cm is melted and recast into small balls of radius # cm. How many small balls are made?",
+   "en": "A metal ball of radius 8 cm is melted and recast into small balls of radius 2 cm. How many small balls are made?",
+   "vi": "Nấu chảy một quả cầu kim loại <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 8 cm để đúc thành các viên bi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 2 cm. Đúc được bao nhiêu viên bi?",
+   "options": [
+    "\\(64\\)",
+    "\\(16\\)",
+    "\\(128\\)",
+    "\\(4\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\dfrac{\\dfrac43\\pi\\cdot8^3}{\\dfrac43\\pi\\cdot2^3}=\\left(\\dfrac{8}{2}\\right)^3=64\\).",
+   "explain_vi": "Đáp án a. \\(\\dfrac{\\dfrac43\\pi\\cdot8^3}{\\dfrac43\\pi\\cdot2^3}=\\left(\\dfrac{8}{2}\\right)^3=64\\).",
+   "images": [],
+   "id": "b01c48cc084f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D4",
+   "type": "mcq",
+   "form": "The roof of a planetarium is a hemisphere with diameter # m. Painting costs # thousand VND per m². How much does it cost to paint the outside of the roof? (\\(\\pi\\approx#\\))",
+   "en": "The roof of a planetarium is a hemisphere with diameter 10 m. Painting costs 100 thousand VND per m². How much does it cost to paint the outside of the roof? (\\(\\pi\\approx3.14\\))",
+   "vi": "Mái vòm của một nhà chiếu hình vũ trụ có dạng nửa <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sphere\">mặt cầu</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diameter\">đường kính</b> 10 m. Sơn mỗi mét vuông tốn 100 nghìn đồng. Chi phí sơn mặt ngoài mái vòm là bao nhiêu? (\\(\\pi\\approx3{,}14\\))",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">15700 thousand VND</span><span class=\"vi\">15700 nghìn đồng</span></span>",
+    "<span class=\"txi\"><span class=\"en\">23550 thousand VND</span><span class=\"vi\">23550 nghìn đồng</span></span>",
+    "<span class=\"txi\"><span class=\"en\">7850 thousand VND</span><span class=\"vi\">7850 nghìn đồng</span></span>",
+    "<span class=\"txi\"><span class=\"en\">31400 thousand VND</span><span class=\"vi\">31400 nghìn đồng</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(S=2\\pi R^2\\approx2\\cdot3.14\\cdot5^2=157\\) m²; cost \\(15700\\) thousand VND.",
+   "explain_vi": "Đáp án a. \\(S=2\\pi R^2\\approx2\\cdot3{,}14\\cdot5^2=157\\) m²; chi phí \\(15700\\) nghìn đồng.",
+   "images": [],
+   "id": "7dc327510ef0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D4",
+   "type": "mcq",
+   "form": "Three tennis balls of radius # cm fit exactly in a cylindrical tube (they touch the side, each other and the two ends). Find the empty volume in the tube.",
+   "en": "Three tennis balls of radius 2 cm fit exactly in a cylindrical tube (they touch the side, each other and the two ends). Find the empty volume in the tube.",
+   "vi": "Ba quả bóng tennis <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 2 cm đặt vừa khít trong một hộp hình trụ (tiếp xúc mặt xung quanh, tiếp xúc nhau và tiếp xúc hai đáy). Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"volume\">thể tích</b> phần không gian trống trong hộp.",
+   "options": [
+    "\\(48\\pi\\text{ cm}^3\\)",
+    "\\(\\dfrac{112\\pi}{3}\\text{ cm}^3\\)",
+    "\\(32\\pi\\text{ cm}^3\\)",
+    "\\(16\\pi\\text{ cm}^3\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Tube: \\(\\pi\\cdot2^2\\cdot12=48\\pi\\); balls: \\(3\\cdot\\dfrac43\\pi\\cdot2^3=32\\pi\\); empty \\(16\\pi\\text{ cm}^3\\).",
+   "explain_vi": "Đáp án d. Hộp: \\(\\pi\\cdot2^2\\cdot12=48\\pi\\); ba quả bóng: \\(3\\cdot\\dfrac43\\pi\\cdot2^3=32\\pi\\); phần trống \\(16\\pi\\text{ cm}^3\\).",
+   "images": [],
+   "id": "2f201a5c0454",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "A plane at distance # cm from the center of a sphere of radius # cm cuts the sphere. Find the radius of the cross-section.",
+   "en": "A plane at distance 7 cm from the center of a sphere of radius 25 cm cuts the sphere. Find the radius of the cross-section.",
+   "vi": "Một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> cách tâm hình cầu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 25 cm một khoảng 7 cm cắt hình cầu. Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> của mặt cắt.",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(18\\text{ cm}\\)</span><span class=\"vi\">\\(18\\text{ cm}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(7\\text{ cm}\\)</span><span class=\"vi\">\\(7\\text{ cm}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(32\\text{ cm}\\)</span><span class=\"vi\">\\(32\\text{ cm}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(24\\text{ cm}\\)</span><span class=\"vi\">\\(24\\text{ cm}\\)</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. The cross-section is a circle of radius \\(\\sqrt{R^2-d^2}=\\sqrt{25^2-7^2}=24\\) cm.",
+   "explain_vi": "Đáp án d. Mặt cắt là hình tròn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> \\(\\sqrt{R^2-d^2}=\\sqrt{25^2-7^2}=24\\) cm.",
+   "images": [],
+   "id": "33db204c6de4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "A sphere has diameter # cm. Find the area of its surface.",
+   "en": "A sphere has diameter 20 cm. Find the area of its surface.<img src=\"../../../img/tex/c0ea1c3e503e867a.svg\" alt=\"Figure\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,200px);height:auto\">",
+   "vi": "Một hình cầu có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diameter\">đường kính</b> 20 cm. Tính diện tích <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sphere\">mặt cầu</b>.<img src=\"../../../img/tex/c0ea1c3e503e867a.svg\" alt=\"Hình vẽ\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,200px);height:auto\">",
+   "options": [
+    "\\(\\dfrac{4000\\pi}{3}\\text{ cm}^2\\)",
+    "\\(100\\pi\\text{ cm}^2\\)",
+    "\\(200\\pi\\text{ cm}^2\\)",
+    "\\(400\\pi\\text{ cm}^2\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(S=4\\pi R^2=4\\pi\\cdot10^2=400\\pi\\text{ cm}^2\\).",
+   "explain_vi": "Đáp án d. \\(S=4\\pi R^2=4\\pi\\cdot10^2=400\\pi\\text{ cm}^2\\).",
+   "images": [
+    "img/tex/c0ea1c3e503e867a.svg"
+   ],
+   "id": "5b9a333b9e4b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Find the volume of a ball of radius # cm.",
+   "en": "Find the volume of a ball of radius 6 cm.",
+   "vi": "Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"volume\">thể tích</b> hình cầu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 6 cm.",
+   "options": [
+    "\\(48\\pi\\text{ cm}^3\\)",
+    "\\(216\\pi\\text{ cm}^3\\)",
+    "\\(144\\pi\\text{ cm}^3\\)",
+    "\\(288\\pi\\text{ cm}^3\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(V=\\dfrac43\\pi R^3=\\dfrac43\\pi\\cdot6^3=288\\pi\\text{ cm}^3\\).",
+   "explain_vi": "Đáp án d. \\(V=\\dfrac43\\pi R^3=\\dfrac43\\pi\\cdot6^3=288\\pi\\text{ cm}^3\\).",
+   "images": [],
+   "id": "79cf5301eed0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "A ball of radius # cm has surface area \\(#\\pi\\text{ cm}^#\\).",
+   "en": "A ball of radius 7 cm has surface area \\(392\\pi\\text{ cm}^2\\).",
+   "vi": "Hình cầu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 7 cm có diện tích <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sphere\">mặt cầu</b> là \\(392\\pi\\text{ cm}^2\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. \\(4\\pi R^2=196\\pi\\text{ cm}^2\\).",
+   "explain_vi": "Sai. \\(4\\pi R^2=196\\pi\\text{ cm}^2\\).",
+   "images": [],
+   "id": "c2e53116d401",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "A hemisphere of radius # cm has volume \\(#\\pi\\text{ cm}^#\\).",
+   "en": "A hemisphere of radius 9 cm has volume \\(486\\pi\\text{ cm}^3\\).",
+   "vi": "Nửa hình cầu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 9 cm có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"volume\">thể tích</b> \\(486\\pi\\text{ cm}^3\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. \\(\\dfrac12\\cdot\\dfrac43\\pi R^3=\\dfrac23\\pi\\cdot9^3=486\\pi\\text{ cm}^3\\).",
+   "explain_vi": "Đúng. \\(\\dfrac12\\cdot\\dfrac43\\pi R^3=\\dfrac23\\pi\\cdot9^3=486\\pi\\text{ cm}^3\\).",
+   "images": [],
+   "id": "f39815fd0cd3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "A ball has diameter # cm. Its surface area is \\(k\\pi\\) cm². Find \\(k\\).",
+   "en": "A ball has diameter 16 cm. Its surface area is \\(k\\pi\\) cm². Find \\(k\\).",
+   "vi": "Một quả bóng có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diameter\">đường kính</b> 16 cm. Diện tích <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sphere\">mặt cầu</b> là \\(k\\pi\\) cm². Tìm \\(k\\).",
+   "options": [],
+   "answer": "256",
+   "explain_en": "Answer: 256. \\(R=8\\); \\(S=4\\pi\\cdot8^2=256\\pi\\).",
+   "explain_vi": "Đáp số: 256. \\(R=8\\); \\(S=4\\pi\\cdot8^2=256\\pi\\).",
+   "images": [],
+   "id": "ede641a2d1d6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "A ball has radius # cm. Its volume is \\(k\\pi\\) cm³. Find \\(k\\).",
+   "en": "A ball has radius 6 cm. Its volume is \\(k\\pi\\) cm³. Find \\(k\\).",
+   "vi": "Hình cầu có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 6 cm. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"volume\">Thể tích</b> là \\(k\\pi\\) cm³. Tìm \\(k\\).",
+   "options": [],
+   "answer": "288",
+   "explain_en": "Answer: 288. \\(V=\\dfrac43\\pi\\cdot6^3=288\\pi\\).",
+   "explain_vi": "Đáp số: 288. \\(V=\\dfrac43\\pi\\cdot6^3=288\\pi\\).",
+   "images": [],
+   "id": "634fd56fedc8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D1",
+   "type": "mcq",
+   "form": "A ball has diameter # cm. What is its radius?",
+   "en": "A ball has diameter 14 cm. What is its radius?",
+   "vi": "Một hình cầu có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diameter\">đường kính</b> 14 cm. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">Bán kính</b> của nó là bao nhiêu?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(8\\text{ cm}\\)</span><span class=\"vi\">\\(8\\text{ cm}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(28\\text{ cm}\\)</span><span class=\"vi\">\\(28\\text{ cm}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(14\\text{ cm}\\)</span><span class=\"vi\">\\(14\\text{ cm}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(7\\text{ cm}\\)</span><span class=\"vi\">\\(7\\text{ cm}\\)</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(R=\\dfrac{d}{2}=7\\) cm.",
+   "explain_vi": "Đáp án d. \\(R=\\dfrac{d}{2}=7\\) cm.",
+   "images": [],
+   "id": "34de70fc7e4f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Every plane cutting a ball (and not just touching it) gives a cross-section that is…",
+   "en": "Every plane cutting a ball (and not just touching it) gives a cross-section that is…",
+   "vi": "Mọi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"plane\">mặt phẳng</b> cắt hình cầu (không chỉ tiếp xúc) đều cho mặt cắt là…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">a triangle</span><span class=\"vi\">một tam giác</span></span>",
+    "<span class=\"txi\"><span class=\"en\">an ellipse that is not a circle</span><span class=\"vi\">một hình elip không phải hình tròn</span></span>",
+    "<span class=\"txi\"><span class=\"en\">a square</span><span class=\"vi\">một hình vuông</span></span>",
+    "<span class=\"txi\"><span class=\"en\">a circle (disk)</span><span class=\"vi\">một hình tròn</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. The cross-section of a ball is always a disk.",
+   "explain_vi": "Đáp án d. Mặt cắt của hình cầu luôn là một hình tròn.",
+   "images": [],
+   "id": "75839d852591",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Which formula gives the volume of a hemisphere of radius \\(R\\)?",
+   "en": "Which formula gives the volume of a hemisphere of radius \\(R\\)?",
+   "vi": "Công thức nào cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"volume\">thể tích</b> nửa hình cầu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> \\(R\\)?",
+   "options": [
+    "\\(V=2\\pi R^3\\)",
+    "\\(V=\\dfrac43\\pi R^3\\)",
+    "\\(V=\\dfrac23\\pi R^3\\)",
+    "\\(V=\\dfrac13\\pi R^3\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(V=\\dfrac23\\pi R^3\\).",
+   "explain_vi": "Đáp án c. \\(V=\\dfrac23\\pi R^3\\).",
+   "images": [],
+   "id": "370a65150c15",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D2",
+   "type": "mcq",
+   "form": "A solid hemisphere of radius # cm (curved surface and flat base). Find its total surface area.",
+   "en": "A solid hemisphere of radius 5 cm (curved surface and flat base). Find its total surface area.",
+   "vi": "Một khối nửa hình cầu <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 5 cm (gồm mặt cong và mặt đáy phẳng). Tính diện tích toàn phần.",
+   "options": [
+    "\\(25\\pi\\text{ cm}^2\\)",
+    "\\(100\\pi\\text{ cm}^2\\)",
+    "\\(50\\pi\\text{ cm}^2\\)",
+    "\\(75\\pi\\text{ cm}^2\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Curved part \\(2\\pi R^2\\), base \\(\\pi R^2\\): total \\(3\\pi R^2=75\\pi\\text{ cm}^2\\).",
+   "explain_vi": "Đáp án d. Mặt cong \\(2\\pi R^2\\), mặt đáy \\(\\pi R^2\\): tổng \\(3\\pi R^2=75\\pi\\text{ cm}^2\\).",
+   "images": [],
+   "id": "0a1e751215cc",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D2",
+   "type": "mcq",
+   "form": "The radius of a ball is multiplied by #. Its volume is multiplied by…",
+   "en": "The radius of a ball is multiplied by 2. Its volume is multiplied by…",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">Bán kính</b> hình cầu tăng gấp 2 lần. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"volume\">Thể tích</b> hình cầu tăng gấp bao nhiêu lần?",
+   "options": [
+    "\\(8\\)",
+    "\\(4\\)",
+    "\\(2\\)",
+    "\\(9\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(S\\) is proportional to \\(R^2\\), \\(V\\) to \\(R^3\\): factor \\(8\\).",
+   "explain_vi": "Đáp án a. \\(S\\) tỉ lệ với \\(R^2\\), \\(V\\) tỉ lệ với \\(R^3\\): gấp \\(8\\) lần.",
+   "images": [],
+   "id": "95d3c02c04e9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D2",
+   "type": "mcq",
+   "form": "The surface of a sphere has area \\(#\\pi\\text{ cm}^#\\). Find the radius.",
+   "en": "The surface of a sphere has area \\(100\\pi\\text{ cm}^2\\). Find the radius.",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"sphere\">Mặt cầu</b> có diện tích \\(100\\pi\\text{ cm}^2\\). Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> hình cầu.",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(10\\text{ cm}\\)</span><span class=\"vi\">\\(10\\text{ cm}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(26\\text{ cm}\\)</span><span class=\"vi\">\\(26\\text{ cm}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(5\\text{ cm}\\)</span><span class=\"vi\">\\(5\\text{ cm}\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(25\\text{ cm}\\)</span><span class=\"vi\">\\(25\\text{ cm}\\)</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(4\\pi R^2=100\\pi\\Rightarrow R^2=25\\Rightarrow R=5\\) cm.",
+   "explain_vi": "Đáp án c. \\(4\\pi R^2=100\\pi\\Rightarrow R^2=25\\Rightarrow R=5\\) cm.",
+   "images": [],
+   "id": "5cb33617fa1e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D3",
+   "type": "mcq",
+   "form": "A ball of radius # cm fits exactly in a cylindrical box (it touches the two bases and the side). What fraction of the box does the ball fill?",
+   "en": "A ball of radius 8 cm fits exactly in a cylindrical box (it touches the two bases and the side). What fraction of the box does the ball fill?",
+   "vi": "Một quả bóng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 8 cm đặt vừa khít trong một hộp hình trụ (tiếp xúc với hai đáy và mặt xung quanh). Quả bóng chiếm bao nhiêu phần <b class=\"mbl-term\" tabindex=\"0\" data-en=\"volume\">thể tích</b> hộp?",
+   "options": [
+    "\\(\\dfrac34\\)",
+    "\\(\\dfrac12\\)",
+    "\\(\\dfrac23\\)",
+    "\\(\\dfrac13\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Box: \\(\\pi R^2\\cdot2R=2\\pi R^3\\); ball: \\(\\dfrac43\\pi R^3\\); ratio \\(\\dfrac23\\).",
+   "explain_vi": "Đáp án c. Hộp: \\(\\pi R^2\\cdot2R=2\\pi R^3\\); bóng: \\(\\dfrac43\\pi R^3\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"ratio\">tỉ số</b> \\(\\dfrac23\\).",
+   "images": [],
+   "id": "0587ca84950c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D3",
+   "type": "mcq",
+   "form": "A gas tank is a cylinder (radius # dm, length # dm) with a hemisphere of the same radius at each end. Find its volume.",
+   "en": "A gas tank is a cylinder (radius 9 dm, length 10 dm) with a hemisphere of the same radius at each end. Find its volume.",
+   "vi": "Một bồn chứa gồm một hình trụ (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 9 dm, dài 10 dm) và hai nửa hình cầu cùng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> ở hai đầu. Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"volume\">thể tích</b> bồn.",
+   "options": [
+    "\\(1782\\pi\\text{ dm}^3\\)",
+    "\\(1134\\pi\\text{ dm}^3\\)",
+    "\\(1296\\pi\\text{ dm}^3\\)",
+    "\\(810\\pi\\text{ dm}^3\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Cylinder \\(\\pi\\cdot9^2\\cdot10=810\\pi\\); two hemispheres = one ball \\(\\dfrac43\\pi\\cdot9^3=972\\pi\\); total \\(1782\\pi\\text{ dm}^3\\).",
+   "explain_vi": "Đáp án a. Hình trụ \\(\\pi\\cdot9^2\\cdot10=810\\pi\\); hai nửa hình cầu = một hình cầu \\(\\dfrac43\\pi\\cdot9^3=972\\pi\\); tổng \\(1782\\pi\\text{ dm}^3\\).",
+   "images": [],
+   "id": "e787b6610e82",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D3",
+   "type": "mcq",
+   "form": "A sphere has surface area \\(#\\pi\\text{ cm}^#\\). Find the length of a great circle.",
+   "en": "A sphere has surface area \\(324\\pi\\text{ cm}^2\\). Find the length of a great circle.",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"sphere\">Mặt cầu</b> có diện tích \\(324\\pi\\text{ cm}^2\\). Tính độ dài một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> lớn.",
+   "options": [
+    "\\(36\\pi\\text{ cm}\\)",
+    "\\(81\\pi\\text{ cm}\\)",
+    "\\(9\\pi\\text{ cm}\\)",
+    "\\(18\\pi\\text{ cm}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(R=9\\); great circle \\(2\\pi R=18\\pi\\text{ cm}\\).",
+   "explain_vi": "Đáp án d. \\(R=9\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"circle\">đường tròn</b> lớn \\(2\\pi R=18\\pi\\text{ cm}\\).",
+   "images": [],
+   "id": "c634fa293f38",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A metal ball of radius # cm is melted and recast into small balls of radius # cm. How many small balls are made?",
+   "en": "A metal ball of radius 6 cm is melted and recast into small balls of radius 3 cm. How many small balls are made?",
+   "vi": "Nấu chảy một quả cầu kim loại <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 6 cm để đúc thành các viên bi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 3 cm. Đúc được bao nhiêu viên bi?",
+   "options": [
+    "\\(8\\)",
+    "\\(16\\)",
+    "\\(4\\)",
+    "\\(2\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\dfrac{\\dfrac43\\pi\\cdot6^3}{\\dfrac43\\pi\\cdot3^3}=\\left(\\dfrac{6}{3}\\right)^3=8\\).",
+   "explain_vi": "Đáp án a. \\(\\dfrac{\\dfrac43\\pi\\cdot6^3}{\\dfrac43\\pi\\cdot3^3}=\\left(\\dfrac{6}{3}\\right)^3=8\\).",
+   "images": [],
+   "id": "b92369b5da0c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D4",
+   "type": "mcq",
+   "form": "The roof of a planetarium is a hemisphere with diameter # m. Painting costs # thousand VND per m². How much does it cost to paint the outside of the roof? (\\(\\pi\\approx#\\))",
+   "en": "The roof of a planetarium is a hemisphere with diameter 6 m. Painting costs 150 thousand VND per m². How much does it cost to paint the outside of the roof? (\\(\\pi\\approx3.14\\))",
+   "vi": "Mái vòm của một nhà chiếu hình vũ trụ có dạng nửa <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sphere\">mặt cầu</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diameter\">đường kính</b> 6 m. Sơn mỗi mét vuông tốn 150 nghìn đồng. Chi phí sơn mặt ngoài mái vòm là bao nhiêu? (\\(\\pi\\approx3{,}14\\))",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">4239 thousand VND</span><span class=\"vi\">4239 nghìn đồng</span></span>",
+    "<span class=\"txi\"><span class=\"en\">12717 thousand VND</span><span class=\"vi\">12717 nghìn đồng</span></span>",
+    "<span class=\"txi\"><span class=\"en\">16956 thousand VND</span><span class=\"vi\">16956 nghìn đồng</span></span>",
+    "<span class=\"txi\"><span class=\"en\">8478 thousand VND</span><span class=\"vi\">8478 nghìn đồng</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(S=2\\pi R^2\\approx2\\cdot3.14\\cdot3^2=56.52\\) m²; cost \\(8478\\) thousand VND.",
+   "explain_vi": "Đáp án d. \\(S=2\\pi R^2\\approx2\\cdot3{,}14\\cdot3^2=56{,}52\\) m²; chi phí \\(8478\\) nghìn đồng.",
+   "images": [],
+   "id": "6574d1375545",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D4",
+   "type": "mcq",
+   "form": "Three tennis balls of radius # cm fit exactly in a cylindrical tube (they touch the side, each other and the two ends). Find the empty volume in the tube.",
+   "en": "Three tennis balls of radius 5 cm fit exactly in a cylindrical tube (they touch the side, each other and the two ends). Find the empty volume in the tube.",
+   "vi": "Ba quả bóng tennis <b class=\"mbl-term\" tabindex=\"0\" data-en=\"radius (pl. radii)\">bán kính</b> 5 cm đặt vừa khít trong một hộp hình trụ (tiếp xúc mặt xung quanh, tiếp xúc nhau và tiếp xúc hai đáy). Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"volume\">thể tích</b> phần không gian trống trong hộp.",
+   "options": [
+    "\\(\\dfrac{1750\\pi}{3}\\text{ cm}^3\\)",
+    "\\(250\\pi\\text{ cm}^3\\)",
+    "\\(750\\pi\\text{ cm}^3\\)",
+    "\\(500\\pi\\text{ cm}^3\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Tube: \\(\\pi\\cdot5^2\\cdot30=750\\pi\\); balls: \\(3\\cdot\\dfrac43\\pi\\cdot5^3=500\\pi\\); empty \\(250\\pi\\text{ cm}^3\\).",
+   "explain_vi": "Đáp án b. Hộp: \\(\\pi\\cdot5^2\\cdot30=750\\pi\\); ba quả bóng: \\(3\\cdot\\dfrac43\\pi\\cdot5^3=500\\pi\\); phần trống \\(250\\pi\\text{ cm}^3\\).",
+   "images": [],
+   "id": "4b42e15834f9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  }
+ ]
+}

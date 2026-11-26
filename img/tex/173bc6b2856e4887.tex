@@ -1,0 +1,49 @@
+\documentclass[border=4pt]{standalone}
+\usepackage{fontspec}
+\usepackage{amsmath}
+\usepackage{unicode-math}
+\setmainfont{Latin Modern Roman}
+\setmathfont{Latin Modern Math}
+\usepackage{pgfplots}
+\usepackage{pgfplotstable}
+\pgfplotsset{compat=1.18}
+\usepackage{tkz-euclide}
+\usetikzlibrary{arrows.meta,calc,angles,quotes,patterns,3d,backgrounds}
+\definecolor{ink}{HTML}{123428}
+\definecolor{asy}{HTML}{475569}
+\definecolor{mint}{HTML}{86e0bd}
+\tikzset{asym/.style={asy, line width=0.9pt, dash pattern=on 5pt off 3.5pt},
+         guide/.style={gray!70, line width=0.6pt, densely dotted},
+         dot/.style={circle, inner sep=0pt, minimum size=5pt, draw=white, line width=0.5pt},
+         odot/.style={circle, inner sep=0pt, minimum size=5.5pt, fill=white, line width=1pt},
+         lab/.style={font=\footnotesize, inner sep=1.5pt, text=ink}}
+\begin{document}
+\begin{tikzpicture}
+\draw[gray!25, line width=0.4pt] (0,1.100) -- (8.200,1.100);
+\draw[gray!25, line width=0.4pt] (0,2.200) -- (8.200,2.200);
+\draw[gray!25, line width=0.4pt] (0,3.300) -- (8.200,3.300);
+\draw[gray!25, line width=0.4pt] (0,4.400) -- (8.200,4.400);
+\draw[ink!85, line width=0.7pt, -{Stealth[length=2.4mm]}] (0,0) -- (8.600,0);
+\draw[ink!85, line width=0.7pt, -{Stealth[length=2.4mm]}] (0,0) -- (0,4.900);
+\draw[draw={rgb,255:red,4;green,107;blue,77}, fill={rgb,255:red,134;green,224;blue,189}, line width=0.6pt] (0.000,0) rectangle (2.000,2.750);
+\node[font=\footnotesize, text=ink, above] at (1.000,2.750) {$25\%$};
+\draw[draw={rgb,255:red,4;green,107;blue,77}, fill={rgb,255:red,134;green,224;blue,189}, line width=0.6pt] (2.000,0) rectangle (4.000,1.650);
+\node[font=\footnotesize, text=ink, above] at (3.000,1.650) {$15\%$};
+\draw[draw={rgb,255:red,4;green,107;blue,77}, fill={rgb,255:red,134;green,224;blue,189}, line width=0.6pt] (4.000,0) rectangle (6.000,3.850);
+\node[font=\footnotesize, text=ink, above] at (5.000,3.850) {$35\%$};
+\draw[draw={rgb,255:red,4;green,107;blue,77}, fill={rgb,255:red,134;green,224;blue,189}, line width=0.6pt] (6.000,0) rectangle (8.000,2.750);
+\node[font=\footnotesize, text=ink, above] at (7.000,2.750) {$25\%$};
+\draw[ink!70] (0.000,0) -- (0.000,-0.08) node[below, font=\small, text=ink] {$60$};
+\draw[ink!70] (2.000,0) -- (2.000,-0.08) node[below, font=\small, text=ink] {$90$};
+\draw[ink!70] (4.000,0) -- (4.000,-0.08) node[below, font=\small, text=ink] {$120$};
+\draw[ink!70] (6.000,0) -- (6.000,-0.08) node[below, font=\small, text=ink] {$150$};
+\draw[ink!70] (8.000,0) -- (8.000,-0.08) node[below, font=\small, text=ink] {$180$};
+\draw[ink!70] (0,1.100) -- (-0.08,1.100) node[left, font=\small, text=ink] {$10\%$};
+\draw[ink!70] (0,2.200) -- (-0.08,2.200) node[left, font=\small, text=ink] {$20\%$};
+\draw[ink!70] (0,3.300) -- (-0.08,3.300) node[left, font=\small, text=ink] {$30\%$};
+\draw[ink!70] (0,4.400) -- (-0.08,4.400) node[left, font=\small, text=ink] {$40\%$};
+\node[font=\small, text=ink, anchor=north east] at (8.600,-0.55) {Screen time (minutes)};
+\node[font=\small, text=ink, anchor=south west] at (0.12,4.900) {Relative frequency};
+\node[font=\bfseries\small, text=ink] at (4.000,5.850) {Relative frequency histogram};
+\end{tikzpicture}
+\end{document}

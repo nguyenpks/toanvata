@@ -1,6 +1,6 @@
 # DÀN Ý KHỐI LỚP 9 – Website "Toán và Tiếng Anh"
 
-> **Trạng thái: ĐÃ DUYỆT (12/11/2026).** Soạn lần lượt theo thứ tự bài, mỗi lần 4 bài. Đã soạn: Bài 1–8.
+> **Trạng thái: ĐÃ DUYỆT (12/11/2026).** Soạn lần lượt theo thứ tự bài, mỗi lần 4 bài. Đã soạn: **đủ 32 bài** (đợt 25/11/2026: Bài 24–32).
 > Tài liệu chuyên ngành: *Tài liệu hướng dẫn triển khai dạy học cấp THCS bằng tiếng Anh – Môn Toán – Khối 9* (Bộ GD&ĐT, Hà Nội 2026), gọi tắt **TLTA**. Số trang ghi theo mục lục TLTA.
 > Sách giáo khoa: **Toán 9 – Kết nối tri thức với cuộc sống (KNTT)**. Thứ tự 32 bài, 10 chương của TLTA trùng khớp hoàn toàn với KNTT (xem điểm cần quyết định Q1).
 
@@ -19,6 +19,7 @@
 | Q8 | Bài 6: **đưa vào** biểu diễn tập nghiệm trên trục số. |
 | Q9 | Bài 9: giữ công thức khối lượng tương đối tính, **có giải thích ngắn**. |
 | Q10 | Soạn từ Bài 1, lần lượt theo thứ tự, **4 bài mỗi lần**. |
+| Q11 | (25/11/2026) Bài 26, Bài 27: **bỏ hình tương tác**, dùng hình/bảng tĩnh. Bài 28–30 làm tương tự (hình tĩnh). |
 
 ## 0. Quy ước chung
 
@@ -352,7 +353,7 @@
 - **TLTA:** Lesson 26, tr. 93–96; Mini project Ch.8 (tr. 147).
 - **Thuật ngữ:** event, favorable outcome, equally likely outcomes, probability, fair (coin/die).
 - **Cần biết trước:** Bài 25.
-- **Hình/bảng:** bảng không gian mẫu tô màu kết quả thuận lợi (tương tác).
+- **Hình/bảng:** bảng không gian mẫu tô màu kết quả thuận lợi (tĩnh, xem Q11).
 
 ---
 
@@ -368,7 +369,7 @@
 - **TLTA:** Lesson 27, tr. 98–100.
 - **Thuật ngữ:** inscribed angle, vertex, intercepted arc, subtend, angles subtended by the same arc, semicircle.
 - **Cần biết trước:** Bài 14.
-- **Hình/bảng:** hình tương tác kéo đỉnh góc trên cung, số đo góc không đổi.
+- **Hình/bảng:** hình tĩnh có nhiều đỉnh trên cùng một cung, các góc nội tiếp bằng nhau (xem Q11).
 
 ### Bài 28. Đường tròn ngoại tiếp và đường tròn nội tiếp của một tam giác — `g9-inscribed-02`
 *Circumcircle and Incircle of a Triangle*
@@ -379,7 +380,7 @@
 - **TLTA:** Lesson 28, tr. 101–103.
 - **Thuật ngữ:** circumcircle, circumcenter, circumradius, incircle, incenter, inradius, perpendicular bisector, angle bisector, equidistant.
 - **Cần biết trước:** đường trung trực, tia phân giác, các đường đồng quy (lớp 7); Bài 13.
-- **Hình/bảng:** hình tương tác kéo đỉnh tam giác, hai đường tròn cập nhật theo.
+- **Hình/bảng:** hình tĩnh: tam giác với đường tròn ngoại tiếp, nội tiếp; tam giác vuông (xem Q11).
 
 ### Bài 29. Tứ giác nội tiếp — `g9-inscribed-03`
 *Cyclic Quadrilaterals*
@@ -390,7 +391,7 @@
 - **TLTA:** Lesson 29, tr. 104–106; Mini project Ch.9 (tr. 151).
 - **Thuật ngữ:** cyclic quadrilateral, opposite angles, supplementary angles, circumcircle, circumradius, converse.
 - **Cần biết trước:** Bài 27.
-- **Hình/bảng:** hình tương tác kéo một đỉnh trên đường tròn, tổng hai góc đối luôn 180°.
+- **Hình/bảng:** hình tĩnh tứ giác nội tiếp, hình chữ nhật nội tiếp (xem Q11).
 
 ### Bài 30. Đa giác đều — `g9-inscribed-04`
 *Regular Polygons*
@@ -401,7 +402,7 @@
 - **TLTA:** Lesson 30, tr. 107–109.
 - **Thuật ngữ:** polygon, regular polygon, vertex/vertices, interior angle, central angle, rotation, center of rotation, angle of rotation, map … onto itself.
 - **Cần biết trước:** Bài 28.
-- **Hình/bảng:** đa giác đều tương tác (thanh trượt $n$, nút quay $\dfrac{360^\circ}{n}$).
+- **Hình/bảng:** hình tĩnh tam giác đều, hình vuông, lục giác đều nội tiếp có góc ở tâm (xem Q11).
 
 ---
 
