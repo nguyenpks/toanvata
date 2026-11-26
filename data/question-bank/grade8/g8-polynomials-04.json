@@ -1,0 +1,1260 @@
+{
+ "lesson": "g8-polynomials-04",
+ "grade": 8,
+ "no": 4,
+ "title": "Phép nhân đa thức",
+ "path": "lessons/grade8/polynomials/multiplying-polynomials.html",
+ "items": [
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Expand \\((#x+#y)(#x-#y)\\).",
+   "en": "Expand \\((5x+5y)(3x-4y)\\).",
+   "vi": "Thực hiện phép nhân \\((5x+5y)(3x-4y)\\).",
+   "options": [
+    "\\(15x^2-35xy-20y^2\\)",
+    "\\(15x^2-5xy-20y^2\\)",
+    "\\(15x^2-20y^2\\)",
+    "\\(-15x^2+5xy+20y^2\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Multiply each term of the first polynomial by each term of the second, then combine: \\(15x^2-5xy-20y^2\\).",
+   "explain_vi": "Đáp án b. Nhân mỗi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b> của đa thức thứ nhất với từng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b> của đa thức thứ hai rồi thu gọn: \\(15x^2-5xy-20y^2\\).",
+   "images": [],
+   "id": "ac25e2fb8b34",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Find the product \\(#x^#y(x^#y^#+#xy^#+#x^#)\\).",
+   "en": "Find the product \\(4x^2y(x^2y^2+4xy^2+2x^2)\\).",
+   "vi": "Thực hiện phép nhân \\(4x^2y(x^2y^2+4xy^2+2x^2)\\).",
+   "options": [
+    "\\(4x^4y^3+16x^3y^3+8x^4y\\)",
+    "\\(4x^4y^3+4xy^2+2x^2\\)",
+    "\\(-4x^4y^3-16x^3y^3-8x^4y\\)",
+    "\\(4x^4y^3+16x^3y^3+8x^4y+4x^2y\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Multiply the monomial by each term of the polynomial.",
+   "explain_vi": "Đáp án a. Nhân đơn thức với từng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b> của đa thức rồi cộng các tích.",
+   "images": [],
+   "id": "0b191a33b2cd",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "In the product \\((x-#)(x^#-#x-#)\\), what is the coefficient of \\(x\\)?",
+   "en": "In the product \\((x-1)(x^2-2x-5)\\), what is the coefficient of \\(x\\)?",
+   "vi": "Trong tích \\((x-1)(x^2-2x-5)\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b> của \\(x\\) là",
+   "options": [
+    "\\(-5\\)",
+    "\\(3\\)",
+    "\\(-3\\)",
+    "\\(2\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The product is \\(x^3-3x^2-3x+5\\).",
+   "explain_vi": "Đáp án c. Tích bằng \\(x^3-3x^2-3x+5\\).",
+   "images": [],
+   "id": "bf7dd9ea90af",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "The product \\((-x^#y^#-#x^#y^#)(-xy^#+#)\\) is a polynomial of degree #.",
+   "en": "The product \\((-x^3y^3-8x^3y^2)(-xy^2+3)\\) is a polynomial of degree 6.",
+   "vi": "Tích \\((-x^3y^3-8x^3y^2)(-xy^2+3)\\) là một đa thức bậc 6.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. The product has degree \\(6+3=9\\).",
+   "explain_vi": "Sai. Tích có bậc \\(6+3=9\\).",
+   "images": [],
+   "id": "401d24747569",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "\\((x-#)(x+#)=x^#-#x-#\\).",
+   "en": "\\((x-7)(x+5)=x^2-2x-35\\).",
+   "vi": "\\((x-7)(x+5)=x^2-2x-35\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. \\((x-7)(x+5)=x^2-2x-35\\).",
+   "explain_vi": "Đúng. \\((x-7)(x+5)=x^2-2x-35\\).",
+   "images": [],
+   "id": "b8b8023a9cd3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "Show that the value of \\(P=(x^#+#y)(x+#)-(x^#-#y)(x-#)-#x^#-#xy+#\\) does not depend on the variables. What is this value?",
+   "en": "Show that the value of \\(P=(x^2+2y)(x+1)-(x^2-2y)(x-1)-2x^2-4xy+15\\) does not depend on the variables. What is this value?",
+   "vi": "Chứng tỏ giá trị của biểu thức \\(P=(x^2+2y)(x+1)-(x^2-2y)(x-1)-2x^2-4xy+15\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"independent of the variables\">không phụ thuộc vào giá trị của biến</b>. Giá trị đó bằng bao nhiêu?",
+   "options": [],
+   "answer": "15",
+   "explain_en": "Answer: 15. The first two products give \\(2x^2+4xy\\); everything cancels except \\(15\\).",
+   "explain_vi": "Đáp số: 15. Hiệu hai tích đầu bằng \\(2x^2+4xy\\); các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b> chứa biến triệt tiêu hết, còn lại \\(15\\).",
+   "images": [],
+   "id": "b438f2b992b9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "Simplify \\(A=x(x^#-#y)-x^#(x+#y)+y(#x+y)\\), then find its value at \\(x=#,\\ y=#\\).",
+   "en": "Simplify \\(A=x(x^2-3y)-x^2(x+3y)+y(3x+y)\\), then find its value at \\(x=3,\\ y=2\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"simplify an expression\">Rút gọn biểu thức</b> \\(A=x(x^2-3y)-x^2(x+3y)+y(3x+y)\\) rồi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"evaluate\">tính giá trị</b> tại \\(x=3,\\ y=2\\).",
+   "options": [],
+   "answer": "-50",
+   "explain_en": "Answer: -50. \\(A=-3x^2y+y^2=-50\\).",
+   "explain_vi": "Đáp số: -50. \\(A=-3x^2y+y^2=-50\\).",
+   "images": [],
+   "id": "352f3cf3d1a5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Before combining like terms, how many products do we get when we expand \\((-#x^#-x^#)(-#y^#-#y^#-y-#)\\)?",
+   "en": "Before combining like terms, how many products do we get when we expand \\((-4x^4-x^3)(-2y^3-3y^2-y-1)\\)?",
+   "vi": "Khi nhân \\((-4x^4-x^3)(-2y^3-3y^2-y-1)\\), trước khi thu gọn ta được bao nhiêu tích?",
+   "options": [
+    "\\(4\\)",
+    "\\(8\\)",
+    "\\(6\\)",
+    "\\(9\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Each of the 2 terms is multiplied by each of the 4 terms: \\(2\\cdot4=8\\) products.",
+   "explain_vi": "Đáp án b. Mỗi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b> trong 2 <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b> nhân với từng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b> trong 4 <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b>: \\(2\\cdot4=8\\) tích.",
+   "images": [],
+   "id": "fb2eb3628f63",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Find the product \\(-#x^#yz^#\\cdot (-#x^#y^#)\\).",
+   "en": "Find the product \\(-3x^3yz^2\\cdot (-4x^2y^3)\\).",
+   "vi": "Tính tích \\(-3x^3yz^2\\cdot (-4x^2y^3)\\).",
+   "options": [
+    "\\(-12x^5y^4z^2\\)",
+    "\\(12x^6y^3\\)",
+    "\\(-7x^5y^4z^2\\)",
+    "\\(12x^5y^4z^2\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Multiply the coefficients, add the exponents.",
+   "explain_vi": "Đáp án d. Nhân các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b>, cộng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"exponent\">số mũ</b> của cùng một biến.",
+   "images": [],
+   "id": "36f3c442e1aa",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D1",
+   "type": "mcq",
+   "form": "To multiply a monomial by a polynomial, we…",
+   "en": "To multiply a monomial by a polynomial, we…",
+   "vi": "Muốn nhân một đơn thức với một đa thức, ta…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">multiply the monomial by each term of the polynomial and add the products</span><span class=\"vi\">nhân đơn thức với từng hạng tử của đa thức rồi cộng các tích với nhau</span></span>",
+    "<span class=\"txi\"><span class=\"en\">add the monomial to each term of the polynomial</span><span class=\"vi\">cộng đơn thức với từng hạng tử của đa thức</span></span>",
+    "<span class=\"txi\"><span class=\"en\">multiply the monomial by the first term only</span><span class=\"vi\">chỉ nhân đơn thức với hạng tử đầu tiên</span></span>",
+    "<span class=\"txi\"><span class=\"en\">multiply the coefficients and multiply the exponents</span><span class=\"vi\">nhân các hệ số và nhân các số mũ</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Distributive property: \\(A(B+C)=AB+AC\\).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"distributive property\">Tính chất phân phối</b>: \\(A(B+C)=AB+AC\\).",
+   "images": [],
+   "id": "7d961d70abeb",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Expand \\((#x-#)(x^#-#x-#)\\).",
+   "en": "Expand \\((2x-3)(x^2-2x-3)\\).",
+   "vi": "Thực hiện phép nhân \\((2x-3)(x^2-2x-3)\\).",
+   "options": [
+    "\\(2x^3-7x^2+9\\)",
+    "\\(-2x^3+7x^2-9\\)",
+    "\\(2x^3-7x^2+2x+9\\)",
+    "\\(2x^3+9\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(2x^3-7x^2+9\\).",
+   "explain_vi": "Đáp án a. \\(2x^3-7x^2+9\\).",
+   "images": [],
+   "id": "b8dfbcd1bb6f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Expand \\(x^#(x+#)(x-#)\\).",
+   "en": "Expand \\(x^2(x+1)(x-4)\\).",
+   "vi": "Thực hiện phép nhân \\(x^2(x+1)(x-4)\\).",
+   "options": [
+    "\\(x^4-4x^2\\)",
+    "\\(-x^4+3x^3+4x^2\\)",
+    "\\(x^4-4x^3-3x^2\\)",
+    "\\(x^4-3x^3-4x^2\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. First \\((x+1)(x-4)=x^2-3x-4\\), then multiply by \\(x^2\\).",
+   "explain_vi": "Đáp án d. Tính \\((x+1)(x-4)=x^2-3x-4\\) rồi nhân với \\(x^2\\).",
+   "images": [],
+   "id": "5c11813d9fb8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Simplify \\(x(x+#y)-y(-#x+y)\\).",
+   "en": "Simplify \\(x(x+2y)-y(-3x+y)\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"simplify an expression\">Rút gọn biểu thức</b> \\(x(x+2y)-y(-3x+y)\\).",
+   "options": [
+    "\\(x^2-xy+y^2\\)",
+    "\\(-x^2-5xy+y^2\\)",
+    "\\(x^2+5xy-y^2\\)",
+    "\\(x^2+5xy+y^2\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(x^2+5xy-y^2\\).",
+   "explain_vi": "Đáp án c. \\(x^2+5xy-y^2\\).",
+   "images": [],
+   "id": "3f998d98799f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Find \\(x\\), given that \\(x(x+#)-(x-#)(x+#)=#\\).",
+   "en": "Find \\(x\\), given that \\(x(x+6)-(x-4)(x+4)=70\\).",
+   "vi": "Tìm \\(x\\), biết \\(x(x+6)-(x-4)(x+4)=70\\).",
+   "options": [
+    "\\(11\\)",
+    "\\(9\\)",
+    "\\(\\dfrac{35}{3}\\)",
+    "\\(-9\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(x^2+6x-x^2+16=70\\Rightarrow 6x=54\\Rightarrow x=9\\).",
+   "explain_vi": "Đáp án b. \\(x^2+6x-x^2+16=70\\Rightarrow 6x=54\\Rightarrow x=9\\).",
+   "images": [],
+   "id": "d40b83e21c12",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Find the value of \\(A=x(x^#-#y)-x^#(x+#y)+y(-x+y)\\) at \\(x=#,\\ y=#\\).",
+   "en": "Find the value of \\(A=x(x^2-3y)-x^2(x+4y)+y(-x+y)\\) at \\(x=1,\\ y=2\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"evaluate\">Tính giá trị</b> của biểu thức \\(A=x(x^2-3y)-x^2(x+4y)+y(-x+y)\\) tại \\(x=1,\\ y=2\\).",
+   "options": [
+    "\\(-12\\)",
+    "\\(-8\\)",
+    "\\(12\\)",
+    "\\(-23\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Simplify first: \\(A=-4x^2y-4xy+y^2\\), so \\(A=-12\\).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"simplify\">Rút gọn</b> trước: \\(A=-4x^2y-4xy+y^2\\), suy ra \\(A=-12\\).",
+   "images": [],
+   "id": "3ed3ba19a112",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D3",
+   "type": "mcq",
+   "form": "The value of \\(P=(x^#+#y)(x+#)-(x^#-#y)(x-#)-#x^#-#xy+#\\) does not depend on \\(x\\) and \\(y\\). Find it.",
+   "en": "The value of \\(P=(x^2+2y)(x+1)-(x^2-2y)(x-1)-2x^2-4xy+9\\) does not depend on \\(x\\) and \\(y\\). Find it.",
+   "vi": "Giá trị của biểu thức \\(P=(x^2+2y)(x+1)-(x^2-2y)(x-1)-2x^2-4xy+9\\) không phụ thuộc vào \\(x\\), \\(y\\). Giá trị đó là",
+   "options": [
+    "\\(9\\)",
+    "\\(11\\)",
+    "\\(-9\\)",
+    "\\(7\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Expanding gives \\(P=9\\).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"expand\">Khai triển</b> và thu gọn được \\(P=9\\).",
+   "images": [],
+   "id": "0981be59e9bf",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A deposit of #,# VND earns \\(x=#\\%\\) interest per year, compounded yearly. After # years the amount is \\(#\\,#\\,#(#+x)(#+x)\\) VND. How much is it?",
+   "en": "A deposit of 50,000,000 VND earns \\(x=5\\%\\) interest per year, compounded yearly. After 2 years the amount is \\(50\\,000\\,000(1+x)(1+x)\\) VND. How much is it?",
+   "vi": "Gửi tiết kiệm 50 000 000 đồng với lãi suất \\(x=5\\%\\) một năm, tiền lãi năm trước được nhập vào gốc năm sau (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"compound interest\">lãi kép</b>). Sau 2 năm, số tiền có được là \\(50\\,000\\,000(1+x)(1+x)\\) đồng. Số tiền đó là bao nhiêu?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">52,500,000 VND</span><span class=\"vi\">52 500 000 đồng</span></span>",
+    "<span class=\"txi\"><span class=\"en\">60,500,000 VND</span><span class=\"vi\">60 500 000 đồng</span></span>",
+    "<span class=\"txi\"><span class=\"en\">55,000,000 VND</span><span class=\"vi\">55 000 000 đồng</span></span>",
+    "<span class=\"txi\"><span class=\"en\">55,125,000 VND</span><span class=\"vi\">55 125 000 đồng</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\((1+x)(1+x)=1+2x+x^2\\); with \\(x=0.05\\): the amount is 55,125,000 VND.",
+   "explain_vi": "Đáp án d. \\((1+x)(1+x)=1+2x+x^2\\); với \\(x=0{,}05\\): số tiền là 55 125 000 đồng.",
+   "images": [],
+   "id": "5121432588e1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A photo is \\(x\\) cm by \\(y\\) cm. It is put in a frame of width # cm on every side. Write the area of the frame (not the photo) as a polynomial and find it when \\(x=#,\\ y=#\\).",
+   "en": "A photo is \\(x\\) cm by \\(y\\) cm. It is put in a frame of width 2 cm on every side. Write the area of the frame (not the photo) as a polynomial and find it when \\(x=25,\\ y=12\\).",
+   "vi": "Một bức ảnh hình chữ nhật kích thước \\(x\\) cm và \\(y\\) cm được lồng vào khung rộng 2 cm ở mỗi phía. Viết đa thức biểu thị diện tích phần khung (không tính ảnh) và tính diện tích đó khi \\(x=25,\\ y=12\\).",
+   "options": [
+    "\\(4x+4y+8;\\ 156\\text{ cm}^2\\)",
+    "\\(4x+4y+16;\\ 172\\text{ cm}^2\\)",
+    "\\(xy+4x+4y+16;\\ 464\\text{ cm}^2\\)",
+    "\\(4x+4y+16;\\ 164\\text{ cm}^2\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\((x+4)(y+4)-xy=4x+4y+16\\); at the given values: \\(164\\) cm².",
+   "explain_vi": "Đáp án d. \\((x+4)(y+4)-xy=4x+4y+16\\); thay số được \\(164\\) cm².",
+   "images": [],
+   "id": "bef18ebc98d6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A tank has a rectangular base \\((x+#)\\) dm by \\((x+#)\\) dm and height \\(x\\) dm. Write its volume as a polynomial and find how many liters it holds when \\(x=#\\).",
+   "en": "A tank has a rectangular base \\((x+3)\\) dm by \\((x+4)\\) dm and height \\(x\\) dm. Write its volume as a polynomial and find how many liters it holds when \\(x=8\\).",
+   "vi": "Một bể nước có đáy là hình chữ nhật kích thước \\((x+3)\\) dm và \\((x+4)\\) dm, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"height\">chiều cao</b> \\(x\\) dm. Viết đa thức biểu thị <b class=\"mbl-term\" tabindex=\"0\" data-en=\"volume\">thể tích</b> của bể và tính bể chứa được bao nhiêu lít nước khi \\(x=8\\).",
+   "options": [
+    "\\(x^3+7x^2+12x;\\ 1056\\)",
+    "\\(x^3+7x^2+12x;\\ 1120\\)",
+    "\\(x^3+12x;\\ 608\\)",
+    "\\(x^3+7x^2+12x+12;\\ 1068\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(V=x(x+3)(x+4)=x^3+7x^2+12x\\); at \\(x=8\\): \\(1056\\) dm³ = 1056 liters.",
+   "explain_vi": "Đáp án a. \\(V=x(x+3)(x+4)=x^3+7x^2+12x\\); khi \\(x=8\\): \\(1056\\) dm³ = 1056 lít.",
+   "images": [],
+   "id": "2cf0c2f89f65",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Expand \\((#x-y)(-x+#y)\\).",
+   "en": "Expand \\((3x-y)(-x+2y)\\).",
+   "vi": "Thực hiện phép nhân \\((3x-y)(-x+2y)\\).",
+   "options": [
+    "\\(3x^2-7xy+2y^2\\)",
+    "\\(-3x^2-2y^2\\)",
+    "\\(-3x^2+7xy-2y^2\\)",
+    "\\(-3x^2+5xy-2y^2\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Multiply each term of the first polynomial by each term of the second, then combine: \\(-3x^2+7xy-2y^2\\).",
+   "explain_vi": "Đáp án c. Nhân mỗi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b> của đa thức thứ nhất với từng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b> của đa thức thứ hai rồi thu gọn: \\(-3x^2+7xy-2y^2\\).",
+   "images": [],
+   "id": "6c61fceaf375",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Find the product \\(-#x^#y(-#x^#y^#-x^#-#x)\\).",
+   "en": "Find the product \\(-4x^2y(-5x^2y^2-x^2-5x)\\).",
+   "vi": "Thực hiện phép nhân \\(-4x^2y(-5x^2y^2-x^2-5x)\\).",
+   "options": [
+    "\\(20x^4y^3-x^2-5x\\)",
+    "\\(-20x^4y^3-4x^4y-20x^3y\\)",
+    "\\(20x^4y^3+4x^4y+20x^3y-4x^2y\\)",
+    "\\(20x^4y^3+4x^4y+20x^3y\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Multiply the monomial by each term of the polynomial.",
+   "explain_vi": "Đáp án d. Nhân đơn thức với từng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b> của đa thức rồi cộng các tích.",
+   "images": [],
+   "id": "46d4eb3d3705",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "In the product \\((#x-#)(x^#-#x+#)\\), what is the coefficient of \\(x\\)?",
+   "en": "In the product \\((5x-2)(x^2-3x+1)\\), what is the coefficient of \\(x\\)?",
+   "vi": "Trong tích \\((5x-2)(x^2-3x+1)\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b> của \\(x\\) là",
+   "options": [
+    "\\(11\\)",
+    "\\(6\\)",
+    "\\(-11\\)",
+    "\\(5\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. The product is \\(5x^3-17x^2+11x-2\\).",
+   "explain_vi": "Đáp án a. Tích bằng \\(5x^3-17x^2+11x-2\\).",
+   "images": [],
+   "id": "e289cf39b0d9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "The product \\((#y^#-#y)(#y^#-#y)\\) is a polynomial of degree #.",
+   "en": "The product \\((2y^2-2y)(2y^2-6y)\\) is a polynomial of degree 4.",
+   "vi": "Tích \\((2y^2-2y)(2y^2-6y)\\) là một đa thức bậc 4.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. The product has degree \\(2+2=4\\).",
+   "explain_vi": "Đúng. Tích có bậc \\(2+2=4\\).",
+   "images": [],
+   "id": "684a898dc0b0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "\\((x-#)(x+#)=x^#-#\\).",
+   "en": "\\((x-8)(x+8)=x^2-64\\).",
+   "vi": "\\((x-8)(x+8)=x^2-64\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. \\((x-8)(x+8)=x^2-64\\).",
+   "explain_vi": "Đúng. \\((x-8)(x+8)=x^2-64\\).",
+   "images": [],
+   "id": "a34808394e8e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "Show that the value of \\(P=(x^#+#y)(x+#)-(x^#-#y)(x-#)-#x^#-#xy-#\\) does not depend on the variables. What is this value?",
+   "en": "Show that the value of \\(P=(x^2+3y)(x+1)-(x^2-3y)(x-1)-2x^2-6xy-12\\) does not depend on the variables. What is this value?",
+   "vi": "Chứng tỏ giá trị của biểu thức \\(P=(x^2+3y)(x+1)-(x^2-3y)(x-1)-2x^2-6xy-12\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"independent of the variables\">không phụ thuộc vào giá trị của biến</b>. Giá trị đó bằng bao nhiêu?",
+   "options": [],
+   "answer": "-12",
+   "explain_en": "Answer: -12. The first two products give \\(2x^2+6xy\\); everything cancels except \\(-12\\).",
+   "explain_vi": "Đáp số: -12. Hiệu hai tích đầu bằng \\(2x^2+6xy\\); các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b> chứa biến triệt tiêu hết, còn lại \\(-12\\).",
+   "images": [],
+   "id": "65b07a3683f8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "Simplify \\(A=x(x^#-#y)-x^#(x+y)+y(#x+y)\\), then find its value at \\(x=-#,\\ y=-#\\).",
+   "en": "Simplify \\(A=x(x^2-3y)-x^2(x+y)+y(4x+y)\\), then find its value at \\(x=-1,\\ y=-2\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"simplify an expression\">Rút gọn biểu thức</b> \\(A=x(x^2-3y)-x^2(x+y)+y(4x+y)\\) rồi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"evaluate\">tính giá trị</b> tại \\(x=-1,\\ y=-2\\).",
+   "options": [],
+   "answer": "8",
+   "explain_en": "Answer: 8. \\(A=-x^2y+xy+y^2=8\\).",
+   "explain_vi": "Đáp số: 8. \\(A=-x^2y+xy+y^2=8\\).",
+   "images": [],
+   "id": "54b4a86aac94",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Before combining like terms, how many products do we get when we expand \\((-#x^#-#x^#)(-#y^#-#y^#+#y-#)\\)?",
+   "en": "Before combining like terms, how many products do we get when we expand \\((-5x^4-4x^3)(-3y^3-3y^2+3y-2)\\)?",
+   "vi": "Khi nhân \\((-5x^4-4x^3)(-3y^3-3y^2+3y-2)\\), trước khi thu gọn ta được bao nhiêu tích?",
+   "options": [
+    "\\(8\\)",
+    "\\(6\\)",
+    "\\(4\\)",
+    "\\(9\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Each of the 2 terms is multiplied by each of the 4 terms: \\(2\\cdot4=8\\) products.",
+   "explain_vi": "Đáp án a. Mỗi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b> trong 2 <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b> nhân với từng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b> trong 4 <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b>: \\(2\\cdot4=8\\) tích.",
+   "images": [],
+   "id": "ec092247dee8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Find the product \\(-#x^#yz^#\\cdot #x^#y\\).",
+   "en": "Find the product \\(-4x^2yz^2\\cdot 2x^3y\\).",
+   "vi": "Tính tích \\(-4x^2yz^2\\cdot 2x^3y\\).",
+   "options": [
+    "\\(-8x^6y\\)",
+    "\\(-8x^5y^2z^2\\)",
+    "\\(-2x^5y^2z^2\\)",
+    "\\(8x^5y^2z^2\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Multiply the coefficients, add the exponents.",
+   "explain_vi": "Đáp án b. Nhân các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b>, cộng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"exponent\">số mũ</b> của cùng một biến.",
+   "images": [],
+   "id": "e7f3822e5050",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Which rule is used to multiply a monomial by a polynomial?",
+   "en": "Which rule is used to multiply a monomial by a polynomial?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"rule of product\">Quy tắc nhân</b> đơn thức với đa thức là",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">multiply the monomial by the first term only</span><span class=\"vi\">chỉ nhân đơn thức với hạng tử đầu tiên</span></span>",
+    "<span class=\"txi\"><span class=\"en\">multiply the coefficients and multiply the exponents</span><span class=\"vi\">nhân các hệ số và nhân các số mũ</span></span>",
+    "<span class=\"txi\"><span class=\"en\">add the monomial to each term of the polynomial</span><span class=\"vi\">cộng đơn thức với từng hạng tử của đa thức</span></span>",
+    "<span class=\"txi\"><span class=\"en\">multiply the monomial by each term of the polynomial and add the products</span><span class=\"vi\">nhân đơn thức với từng hạng tử của đa thức rồi cộng các tích với nhau</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Distributive property: \\(A(B+C)=AB+AC\\).",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"distributive property\">Tính chất phân phối</b>: \\(A(B+C)=AB+AC\\).",
+   "images": [],
+   "id": "8738a743f598",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Expand \\(#x^#(x-#)(x+#)\\).",
+   "en": "Expand \\(2x^2(x-3)(x+4)\\).",
+   "vi": "Thực hiện phép nhân \\(2x^2(x-3)(x+4)\\).",
+   "options": [
+    "\\(2x^4-24x^3+2x^2\\)",
+    "\\(-2x^4-2x^3+24x^2\\)",
+    "\\(2x^4+2x^3-24x^2\\)",
+    "\\(2x^4-24x^2\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. First \\((x-3)(x+4)=x^2+x-12\\), then multiply by \\(2x^2\\).",
+   "explain_vi": "Đáp án c. Tính \\((x-3)(x+4)=x^2+x-12\\) rồi nhân với \\(2x^2\\).",
+   "images": [],
+   "id": "92475eb87491",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Expand \\((#x-#)(x^#-#x-#)\\).",
+   "en": "Expand \\((3x-4)(x^2-4x-2)\\).",
+   "vi": "Thực hiện phép nhân \\((3x-4)(x^2-4x-2)\\).",
+   "options": [
+    "\\(3x^3-16x^2+10x+8\\)",
+    "\\(-3x^3+16x^2-10x-8\\)",
+    "\\(3x^3-16x^2+12x+8\\)",
+    "\\(3x^3+8\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(3x^3-16x^2+10x+8\\).",
+   "explain_vi": "Đáp án a. \\(3x^3-16x^2+10x+8\\).",
+   "images": [],
+   "id": "67a861b8347c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Simplify \\(x(x-#y)-y(#x+y)\\).",
+   "en": "Simplify \\(x(x-5y)-y(3x+y)\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"simplify an expression\">Rút gọn biểu thức</b> \\(x(x-5y)-y(3x+y)\\).",
+   "options": [
+    "\\(x^2-2xy+y^2\\)",
+    "\\(-x^2+8xy+y^2\\)",
+    "\\(x^2-8xy-y^2\\)",
+    "\\(x^2-8xy+y^2\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(x^2-8xy-y^2\\).",
+   "explain_vi": "Đáp án c. \\(x^2-8xy-y^2\\).",
+   "images": [],
+   "id": "b216889cdf22",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Find \\(x\\), given that \\(x(x+#)-(x-#)(x+#)=#\\).",
+   "en": "Find \\(x\\), given that \\(x(x+4)-(x-3)(x+3)=29\\).",
+   "vi": "Tìm \\(x\\), biết \\(x(x+4)-(x-3)(x+3)=29\\).",
+   "options": [
+    "\\(5\\)",
+    "\\(\\dfrac{13}{2}\\)",
+    "\\(-5\\)",
+    "\\(\\dfrac{29}{4}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(x^2+4x-x^2+9=29\\Rightarrow 4x=20\\Rightarrow x=5\\).",
+   "explain_vi": "Đáp án a. \\(x^2+4x-x^2+9=29\\Rightarrow 4x=20\\Rightarrow x=5\\).",
+   "images": [],
+   "id": "920ff6224e1e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Find the value of \\(A=x(x^#+#y)-x^#(x-#y)+y(-#x+y)\\) at \\(x=#,\\ y=#\\).",
+   "en": "Find the value of \\(A=x(x^2+4y)-x^2(x-2y)+y(-3x+y)\\) at \\(x=3,\\ y=1\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"evaluate\">Tính giá trị</b> của biểu thức \\(A=x(x^2+4y)-x^2(x-2y)+y(-3x+y)\\) tại \\(x=3,\\ y=1\\).",
+   "options": [
+    "\\(18\\)",
+    "\\(-22\\)",
+    "\\(28\\)",
+    "\\(22\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Simplify first: \\(A=2x^2y+xy+y^2\\), so \\(A=22\\).",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"simplify\">Rút gọn</b> trước: \\(A=2x^2y+xy+y^2\\), suy ra \\(A=22\\).",
+   "images": [],
+   "id": "4c4c2ce00212",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D3",
+   "type": "mcq",
+   "form": "The value of \\(P=(x^#+y)(x+#)-(x^#-y)(x-#)-#x^#-#xy+#\\) does not depend on \\(x\\) and \\(y\\). Find it.",
+   "en": "The value of \\(P=(x^2+y)(x+1)-(x^2-y)(x-1)-2x^2-2xy+7\\) does not depend on \\(x\\) and \\(y\\). Find it.",
+   "vi": "Giá trị của biểu thức \\(P=(x^2+y)(x+1)-(x^2-y)(x-1)-2x^2-2xy+7\\) không phụ thuộc vào \\(x\\), \\(y\\). Giá trị đó là",
+   "options": [
+    "\\(7\\)",
+    "\\(5\\)",
+    "\\(-7\\)",
+    "\\(9\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Expanding gives \\(P=7\\).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"expand\">Khai triển</b> và thu gọn được \\(P=7\\).",
+   "images": [],
+   "id": "3eb06b8d5364",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A deposit of #,# VND earns \\(x=#\\%\\) interest per year, compounded yearly. After # years the amount is \\(#\\,#\\,#(#+x)(#+x)\\) VND. How much is it?",
+   "en": "A deposit of 80,000,000 VND earns \\(x=7\\%\\) interest per year, compounded yearly. After 2 years the amount is \\(80\\,000\\,000(1+x)(1+x)\\) VND. How much is it?",
+   "vi": "Gửi tiết kiệm 80 000 000 đồng với lãi suất \\(x=7\\%\\) một năm, tiền lãi năm trước được nhập vào gốc năm sau (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"compound interest\">lãi kép</b>). Sau 2 năm, số tiền có được là \\(80\\,000\\,000(1+x)(1+x)\\) đồng. Số tiền đó là bao nhiêu?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">103,968,000 VND</span><span class=\"vi\">103 968 000 đồng</span></span>",
+    "<span class=\"txi\"><span class=\"en\">91,200,000 VND</span><span class=\"vi\">91 200 000 đồng</span></span>",
+    "<span class=\"txi\"><span class=\"en\">91,592,000 VND</span><span class=\"vi\">91 592 000 đồng</span></span>",
+    "<span class=\"txi\"><span class=\"en\">85,600,000 VND</span><span class=\"vi\">85 600 000 đồng</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\((1+x)(1+x)=1+2x+x^2\\); with \\(x=0.07\\): the amount is 91,592,000 VND.",
+   "explain_vi": "Đáp án c. \\((1+x)(1+x)=1+2x+x^2\\); với \\(x=0{,}07\\): số tiền là 91 592 000 đồng.",
+   "images": [],
+   "id": "f6273ffbc713",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A photo is \\(x\\) cm by \\(y\\) cm. It is put in a frame of width # cm on every side. Write the area of the frame (not the photo) as a polynomial and find it when \\(x=#,\\ y=#\\).",
+   "en": "A photo is \\(x\\) cm by \\(y\\) cm. It is put in a frame of width 2 cm on every side. Write the area of the frame (not the photo) as a polynomial and find it when \\(x=26,\\ y=10\\).",
+   "vi": "Một bức ảnh hình chữ nhật kích thước \\(x\\) cm và \\(y\\) cm được lồng vào khung rộng 2 cm ở mỗi phía. Viết đa thức biểu thị diện tích phần khung (không tính ảnh) và tính diện tích đó khi \\(x=26,\\ y=10\\).",
+   "options": [
+    "\\(4x+4y+16;\\ 160\\text{ cm}^2\\)",
+    "\\(xy+4x+4y+16;\\ 420\\text{ cm}^2\\)",
+    "\\(4x+4y+8;\\ 152\\text{ cm}^2\\)",
+    "\\(4x+4y+16;\\ 168\\text{ cm}^2\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\((x+4)(y+4)-xy=4x+4y+16\\); at the given values: \\(160\\) cm².",
+   "explain_vi": "Đáp án a. \\((x+4)(y+4)-xy=4x+4y+16\\); thay số được \\(160\\) cm².",
+   "images": [],
+   "id": "dc7715cefd0d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A tank has a rectangular base \\((x+#)\\) dm by \\((x+#)\\) dm and height \\(x\\) dm. Write its volume as a polynomial and find how many liters it holds when \\(x=#\\).",
+   "en": "A tank has a rectangular base \\((x+1)\\) dm by \\((x+2)\\) dm and height \\(x\\) dm. Write its volume as a polynomial and find how many liters it holds when \\(x=4\\).",
+   "vi": "Một bể nước có đáy là hình chữ nhật kích thước \\((x+1)\\) dm và \\((x+2)\\) dm, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"height\">chiều cao</b> \\(x\\) dm. Viết đa thức biểu thị <b class=\"mbl-term\" tabindex=\"0\" data-en=\"volume\">thể tích</b> của bể và tính bể chứa được bao nhiêu lít nước khi \\(x=4\\).",
+   "options": [
+    "\\(x^3+2x;\\ 72\\)",
+    "\\(x^3+3x^2+2x;\\ 136\\)",
+    "\\(x^3+3x^2+2x+2;\\ 122\\)",
+    "\\(x^3+3x^2+2x;\\ 120\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(V=x(x+1)(x+2)=x^3+3x^2+2x\\); at \\(x=4\\): \\(120\\) dm³ = 120 liters.",
+   "explain_vi": "Đáp án d. \\(V=x(x+1)(x+2)=x^3+3x^2+2x\\); khi \\(x=4\\): \\(120\\) dm³ = 120 lít.",
+   "images": [],
+   "id": "785195d6a46a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Expand \\((#x-#y)(-#x+#y)\\).",
+   "en": "Expand \\((2x-2y)(-2x+5y)\\).",
+   "vi": "Thực hiện phép nhân \\((2x-2y)(-2x+5y)\\).",
+   "options": [
+    "\\(4x^2-14xy+10y^2\\)",
+    "\\(-4x^2-10y^2\\)",
+    "\\(-4x^2+6xy-10y^2\\)",
+    "\\(-4x^2+14xy-10y^2\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Multiply each term of the first polynomial by each term of the second, then combine: \\(-4x^2+14xy-10y^2\\).",
+   "explain_vi": "Đáp án d. Nhân mỗi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b> của đa thức thứ nhất với từng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b> của đa thức thứ hai rồi thu gọn: \\(-4x^2+14xy-10y^2\\).",
+   "images": [],
+   "id": "16313415d639",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Find the product \\(#xy^#(-x^#y^#-#xy-#y)\\).",
+   "en": "Find the product \\(5xy^2(-x^2y^2-4xy-2y)\\).",
+   "vi": "Thực hiện phép nhân \\(5xy^2(-x^2y^2-4xy-2y)\\).",
+   "options": [
+    "\\(-5x^3y^4-20x^2y^3-10xy^3+5xy^2\\)",
+    "\\(5x^3y^4+20x^2y^3+10xy^3\\)",
+    "\\(-5x^3y^4-20x^2y^3-10xy^3\\)",
+    "\\(-5x^3y^4-4xy-2y\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Multiply the monomial by each term of the polynomial.",
+   "explain_vi": "Đáp án c. Nhân đơn thức với từng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b> của đa thức rồi cộng các tích.",
+   "images": [],
+   "id": "1db5d73458ce",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "In the product \\((x+#)(x^#+x+#)\\), what is the coefficient of \\(x^#\\)?",
+   "en": "In the product \\((x+5)(x^2+x+1)\\), what is the coefficient of \\(x^2\\)?",
+   "vi": "Trong tích \\((x+5)(x^2+x+1)\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b> của \\(x^2\\) là",
+   "options": [
+    "\\(6\\)",
+    "\\(1\\)",
+    "\\(-6\\)",
+    "\\(5\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. The product is \\(x^3+6x^2+6x+5\\).",
+   "explain_vi": "Đáp án a. Tích bằng \\(x^3+6x^2+6x+5\\).",
+   "images": [],
+   "id": "1701f6e78752",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "The product \\((#x^#y^#+#x^#)(#x^#y^#+#y^#)\\) is a polynomial of degree #.",
+   "en": "The product \\((2x^2y^2+5x^3)(7x^2y^2+8y^2)\\) is a polynomial of degree 8.",
+   "vi": "Tích \\((2x^2y^2+5x^3)(7x^2y^2+8y^2)\\) là một đa thức bậc 8.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. The product has degree \\(4+4=8\\).",
+   "explain_vi": "Đúng. Tích có bậc \\(4+4=8\\).",
+   "images": [],
+   "id": "a9dff566b562",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "\\((x-#)(x-#)=x^#-#x+#\\).",
+   "en": "\\((x-7)(x-9)=x^2-16x+63\\).",
+   "vi": "\\((x-7)(x-9)=x^2-16x+63\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. \\((x-7)(x-9)=x^2-16x+63\\).",
+   "explain_vi": "Đúng. \\((x-7)(x-9)=x^2-16x+63\\).",
+   "images": [],
+   "id": "68ebf5826be8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Show that the value of \\(P=(x^#+#y)(x+#)-(x^#-#y)(x-#)-#x^#-#xy+#\\) does not depend on the variables. What is this value?",
+   "en": "Show that the value of \\(P=(x^2+4y)(x+1)-(x^2-4y)(x-1)-2x^2-8xy+14\\) does not depend on the variables. What is this value?",
+   "vi": "Chứng tỏ giá trị của biểu thức \\(P=(x^2+4y)(x+1)-(x^2-4y)(x-1)-2x^2-8xy+14\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"independent of the variables\">không phụ thuộc vào giá trị của biến</b>. Giá trị đó bằng bao nhiêu?",
+   "options": [],
+   "answer": "14",
+   "explain_en": "Answer: 14. The first two products give \\(2x^2+8xy\\); everything cancels except \\(14\\).",
+   "explain_vi": "Đáp số: 14. Hiệu hai tích đầu bằng \\(2x^2+8xy\\); các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b> chứa biến triệt tiêu hết, còn lại \\(14\\).",
+   "images": [],
+   "id": "ecf3c1392a1f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Simplify \\(A=x(x^#+#y)-x^#(x-#y)+y(#x+y)\\), then find its value at \\(x=#,\\ y=-#\\).",
+   "en": "Simplify \\(A=x(x^2+4y)-x^2(x-3y)+y(4x+y)\\), then find its value at \\(x=3,\\ y=-1\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"simplify an expression\">Rút gọn biểu thức</b> \\(A=x(x^2+4y)-x^2(x-3y)+y(4x+y)\\) rồi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"evaluate\">tính giá trị</b> tại \\(x=3,\\ y=-1\\).",
+   "options": [],
+   "answer": "-50",
+   "explain_en": "Answer: -50. \\(A=3x^2y+8xy+y^2=-50\\).",
+   "explain_vi": "Đáp số: -50. \\(A=3x^2y+8xy+y^2=-50\\).",
+   "images": [],
+   "id": "adfa488a8e55",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Before combining like terms, how many products do we get when we expand \\((#x^#-#x^#-#x-#)(#y^#-#y+#)\\)?",
+   "en": "Before combining like terms, how many products do we get when we expand \\((5x^4-3x^3-4x-5)(3y^2-5y+5)\\)?",
+   "vi": "Khi nhân \\((5x^4-3x^3-4x-5)(3y^2-5y+5)\\), trước khi thu gọn ta được bao nhiêu tích?",
+   "options": [
+    "\\(7\\)",
+    "\\(12\\)",
+    "\\(4\\)",
+    "\\(13\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Each of the 4 terms is multiplied by each of the 3 terms: \\(4\\cdot3=12\\) products.",
+   "explain_vi": "Đáp án b. Mỗi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b> trong 4 <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b> nhân với từng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b> trong 3 <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b>: \\(4\\cdot3=12\\) tích.",
+   "images": [],
+   "id": "2fc4babf1009",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Find the product \\(-#x^#y^#z^#\\cdot (-#x^#y)\\).",
+   "en": "Find the product \\(-5x^2y^3z^3\\cdot (-2x^2y)\\).",
+   "vi": "Tính tích \\(-5x^2y^3z^3\\cdot (-2x^2y)\\).",
+   "options": [
+    "\\(10x^4y^4z^3\\)",
+    "\\(-7x^4y^4z^3\\)",
+    "\\(-10x^4y^4z^3\\)",
+    "\\(10x^4y^3\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Multiply the coefficients, add the exponents.",
+   "explain_vi": "Đáp án a. Nhân các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b>, cộng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"exponent\">số mũ</b> của cùng một biến.",
+   "images": [],
+   "id": "f037b212cbc9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D1",
+   "type": "mcq",
+   "form": "How do we find \\(A\\cdot(B+C)\\) when \\(A\\) is a monomial?",
+   "en": "How do we find \\(A\\cdot(B+C)\\) when \\(A\\) is a monomial?",
+   "vi": "Muốn tính \\(A\\cdot(B+C)\\) với \\(A\\) là đơn thức, ta làm thế nào?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">multiply the monomial by the first term only</span><span class=\"vi\">chỉ nhân đơn thức với hạng tử đầu tiên</span></span>",
+    "<span class=\"txi\"><span class=\"en\">multiply the coefficients and multiply the exponents</span><span class=\"vi\">nhân các hệ số và nhân các số mũ</span></span>",
+    "<span class=\"txi\"><span class=\"en\">multiply the monomial by each term of the polynomial and add the products</span><span class=\"vi\">nhân đơn thức với từng hạng tử của đa thức rồi cộng các tích với nhau</span></span>",
+    "<span class=\"txi\"><span class=\"en\">add the monomial to each term of the polynomial</span><span class=\"vi\">cộng đơn thức với từng hạng tử của đa thức</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Distributive property: \\(A(B+C)=AB+AC\\).",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"distributive property\">Tính chất phân phối</b>: \\(A(B+C)=AB+AC\\).",
+   "images": [],
+   "id": "f5e2bedfd0d7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Expand \\(#x^#(x-#)(x-#)\\).",
+   "en": "Expand \\(2x^2(x-4)(x-4)\\).",
+   "vi": "Thực hiện phép nhân \\(2x^2(x-4)(x-4)\\).",
+   "options": [
+    "\\(2x^4-16x^3+32x^2\\)",
+    "\\(2x^4+32x^3-16x^2\\)",
+    "\\(2x^4+32x^2\\)",
+    "\\(-2x^4+16x^3-32x^2\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. First \\((x-4)(x-4)=x^2-8x+16\\), then multiply by \\(2x^2\\).",
+   "explain_vi": "Đáp án a. Tính \\((x-4)(x-4)=x^2-8x+16\\) rồi nhân với \\(2x^2\\).",
+   "images": [],
+   "id": "f8346c14a2fd",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Expand \\((-#x-#)(x^#+#x+#)\\).",
+   "en": "Expand \\((-3x-1)(x^2+4x+3)\\).",
+   "vi": "Thực hiện phép nhân \\((-3x-1)(x^2+4x+3)\\).",
+   "options": [
+    "\\(-3x^3-3\\)",
+    "\\(-3x^3-13x^2-11x-3\\)",
+    "\\(-3x^3-13x^2-13x-3\\)",
+    "\\(3x^3+13x^2+13x+3\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(-3x^3-13x^2-13x-3\\).",
+   "explain_vi": "Đáp án c. \\(-3x^3-13x^2-13x-3\\).",
+   "images": [],
+   "id": "0ca8e6609208",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Simplify \\(x(x-#y)-y(-#x+y)\\).",
+   "en": "Simplify \\(x(x-5y)-y(-4x+y)\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"simplify an expression\">Rút gọn biểu thức</b> \\(x(x-5y)-y(-4x+y)\\).",
+   "options": [
+    "\\(x^2-xy+y^2\\)",
+    "\\(-x^2+xy+y^2\\)",
+    "\\(x^2-xy-y^2\\)",
+    "\\(x^2-9xy+y^2\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(x^2-xy-y^2\\).",
+   "explain_vi": "Đáp án c. \\(x^2-xy-y^2\\).",
+   "images": [],
+   "id": "8dc76cafd017",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Find \\(x\\), given that \\(x(x+#)-(x-#)(x+#)=#\\).",
+   "en": "Find \\(x\\), given that \\(x(x+1)-(x-1)(x+1)=10\\).",
+   "vi": "Tìm \\(x\\), biết \\(x(x+1)-(x-1)(x+1)=10\\).",
+   "options": [
+    "\\(10\\)",
+    "\\(7\\)",
+    "\\(9\\)",
+    "\\(-9\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(x^2+x-x^2+1=10\\Rightarrow x=9\\Rightarrow x=9\\).",
+   "explain_vi": "Đáp án c. \\(x^2+x-x^2+1=10\\Rightarrow x=9\\Rightarrow x=9\\).",
+   "images": [],
+   "id": "96e354fc904b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Find the value of \\(A=x(x^#-#y)-x^#(x-#y)+y(-#x+y)\\) at \\(x=#,\\ y=-#\\).",
+   "en": "Find the value of \\(A=x(x^2-3y)-x^2(x-4y)+y(-4x+y)\\) at \\(x=1,\\ y=-1\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"evaluate\">Tính giá trị</b> của biểu thức \\(A=x(x^2-3y)-x^2(x-4y)+y(-4x+y)\\) tại \\(x=1,\\ y=-1\\).",
+   "options": [
+    "\\(-4\\)",
+    "\\(12\\)",
+    "\\(2\\)",
+    "\\(4\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Simplify first: \\(A=4x^2y-7xy+y^2\\), so \\(A=4\\).",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"simplify\">Rút gọn</b> trước: \\(A=4x^2y-7xy+y^2\\), suy ra \\(A=4\\).",
+   "images": [],
+   "id": "00a94155b4c5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D3",
+   "type": "mcq",
+   "form": "The value of \\(P=(x^#+#y)(x+#)-(x^#-#y)(x-#)-#x^#-#xy-#\\) does not depend on \\(x\\) and \\(y\\). Find it.",
+   "en": "The value of \\(P=(x^2+4y)(x+1)-(x^2-4y)(x-1)-2x^2-8xy-13\\) does not depend on \\(x\\) and \\(y\\). Find it.",
+   "vi": "Giá trị của biểu thức \\(P=(x^2+4y)(x+1)-(x^2-4y)(x-1)-2x^2-8xy-13\\) không phụ thuộc vào \\(x\\), \\(y\\). Giá trị đó là",
+   "options": [
+    "\\(13\\)",
+    "\\(-15\\)",
+    "\\(-11\\)",
+    "\\(-13\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Expanding gives \\(P=-13\\).",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"expand\">Khai triển</b> và thu gọn được \\(P=-13\\).",
+   "images": [],
+   "id": "fc00acd7cf17",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A deposit of #,# VND earns \\(x=#\\%\\) interest per year, compounded yearly. After # years the amount is \\(#\\,#\\,#(#+x)(#+x)\\) VND. How much is it?",
+   "en": "A deposit of 120,000,000 VND earns \\(x=6\\%\\) interest per year, compounded yearly. After 2 years the amount is \\(120\\,000\\,000(1+x)(1+x)\\) VND. How much is it?",
+   "vi": "Gửi tiết kiệm 120 000 000 đồng với lãi suất \\(x=6\\%\\) một năm, tiền lãi năm trước được nhập vào gốc năm sau (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"compound interest\">lãi kép</b>). Sau 2 năm, số tiền có được là \\(120\\,000\\,000(1+x)(1+x)\\) đồng. Số tiền đó là bao nhiêu?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">134,400,000 VND</span><span class=\"vi\">134 400 000 đồng</span></span>",
+    "<span class=\"txi\"><span class=\"en\">134,832,000 VND</span><span class=\"vi\">134 832 000 đồng</span></span>",
+    "<span class=\"txi\"><span class=\"en\">127,200,000 VND</span><span class=\"vi\">127 200 000 đồng</span></span>",
+    "<span class=\"txi\"><span class=\"en\">150,528,000 VND</span><span class=\"vi\">150 528 000 đồng</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\((1+x)(1+x)=1+2x+x^2\\); with \\(x=0.06\\): the amount is 134,832,000 VND.",
+   "explain_vi": "Đáp án b. \\((1+x)(1+x)=1+2x+x^2\\); với \\(x=0{,}06\\): số tiền là 134 832 000 đồng.",
+   "images": [],
+   "id": "3322f83219a4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A photo is \\(x\\) cm by \\(y\\) cm. It is put in a frame of width # cm on every side. Write the area of the frame (not the photo) as a polynomial and find it when \\(x=#,\\ y=#\\).",
+   "en": "A photo is \\(x\\) cm by \\(y\\) cm. It is put in a frame of width 3 cm on every side. Write the area of the frame (not the photo) as a polynomial and find it when \\(x=21,\\ y=11\\).",
+   "vi": "Một bức ảnh hình chữ nhật kích thước \\(x\\) cm và \\(y\\) cm được lồng vào khung rộng 3 cm ở mỗi phía. Viết đa thức biểu thị diện tích phần khung (không tính ảnh) và tính diện tích đó khi \\(x=21,\\ y=11\\).",
+   "options": [
+    "\\(6x+6y+36;\\ 228\\text{ cm}^2\\)",
+    "\\(6x+6y+36;\\ 240\\text{ cm}^2\\)",
+    "\\(xy+6x+6y+36;\\ 459\\text{ cm}^2\\)",
+    "\\(6x+6y+18;\\ 210\\text{ cm}^2\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\((x+6)(y+6)-xy=6x+6y+36\\); at the given values: \\(228\\) cm².",
+   "explain_vi": "Đáp án a. \\((x+6)(y+6)-xy=6x+6y+36\\); thay số được \\(228\\) cm².",
+   "images": [],
+   "id": "81464e4ee80f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A tank has a rectangular base \\((x+#)\\) dm by \\((x+#)\\) dm and height \\(x\\) dm. Write its volume as a polynomial and find how many liters it holds when \\(x=#\\).",
+   "en": "A tank has a rectangular base \\((x+4)\\) dm by \\((x+3)\\) dm and height \\(x\\) dm. Write its volume as a polynomial and find how many liters it holds when \\(x=3\\).",
+   "vi": "Một bể nước có đáy là hình chữ nhật kích thước \\((x+4)\\) dm và \\((x+3)\\) dm, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"height\">chiều cao</b> \\(x\\) dm. Viết đa thức biểu thị <b class=\"mbl-term\" tabindex=\"0\" data-en=\"volume\">thể tích</b> của bể và tính bể chứa được bao nhiêu lít nước khi \\(x=3\\).",
+   "options": [
+    "\\(x^3+7x^2+12x+12;\\ 138\\)",
+    "\\(x^3+7x^2+12x;\\ 135\\)",
+    "\\(x^3+7x^2+12x;\\ 126\\)",
+    "\\(x^3+12x;\\ 63\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(V=x(x+4)(x+3)=x^3+7x^2+12x\\); at \\(x=3\\): \\(126\\) dm³ = 126 liters.",
+   "explain_vi": "Đáp án c. \\(V=x(x+4)(x+3)=x^3+7x^2+12x\\); khi \\(x=3\\): \\(126\\) dm³ = 126 lít.",
+   "images": [],
+   "id": "20c2109b7c30",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  }
+ ]
+}

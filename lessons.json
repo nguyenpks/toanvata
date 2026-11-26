@@ -1,5 +1,100 @@
 [
   {
+    "id": "g8-polynomials-01",
+    "grade": 8,
+    "category": "Đa thức",
+    "title": "Đơn thức",
+    "description": "Bài 1 – Đơn thức, đơn thức thu gọn, hệ số, phần biến, bậc; đơn thức đồng dạng và cộng, trừ đơn thức đồng dạng.",
+    "level": "Beginner",
+    "estimatedMinutes": 45,
+    "prerequisites": [],
+    "path": "lessons/grade8/polynomials/monomials.html",
+    "tags": [
+      "đơn thức",
+      "đơn thức thu gọn",
+      "bậc của đơn thức",
+      "đơn thức đồng dạng"
+    ],
+    "no": 1
+  },
+  {
+    "id": "g8-polynomials-02",
+    "grade": 8,
+    "category": "Đa thức",
+    "title": "Đa thức",
+    "description": "Bài 2 – Đa thức, hạng tử, đa thức thu gọn, bậc của đa thức, giá trị của đa thức.",
+    "level": "Beginner",
+    "estimatedMinutes": 45,
+    "prerequisites": [
+      "g8-polynomials-01"
+    ],
+    "path": "lessons/grade8/polynomials/polynomials.html",
+    "tags": [
+      "đa thức",
+      "hạng tử",
+      "đa thức thu gọn",
+      "bậc của đa thức"
+    ],
+    "no": 2
+  },
+  {
+    "id": "g8-polynomials-03",
+    "grade": 8,
+    "category": "Đa thức",
+    "title": "Phép cộng và phép trừ đa thức",
+    "description": "Bài 3 – Cộng, trừ hai đa thức; quy tắc bỏ dấu ngoặc; tìm đa thức chưa biết.",
+    "level": "Beginner",
+    "estimatedMinutes": 45,
+    "prerequisites": [
+      "g8-polynomials-02"
+    ],
+    "path": "lessons/grade8/polynomials/adding-subtracting-polynomials.html",
+    "tags": [
+      "cộng đa thức",
+      "trừ đa thức",
+      "bỏ dấu ngoặc"
+    ],
+    "no": 3
+  },
+  {
+    "id": "g8-polynomials-04",
+    "grade": 8,
+    "category": "Đa thức",
+    "title": "Phép nhân đa thức",
+    "description": "Bài 4 – Nhân đơn thức với đa thức, nhân đa thức với đa thức; rút gọn, tính giá trị biểu thức.",
+    "level": "Intermediate",
+    "estimatedMinutes": 60,
+    "prerequisites": [
+      "g8-polynomials-03"
+    ],
+    "path": "lessons/grade8/polynomials/multiplying-polynomials.html",
+    "tags": [
+      "nhân đa thức",
+      "tính chất phân phối",
+      "khai triển"
+    ],
+    "no": 4
+  },
+  {
+    "id": "g8-polynomials-05",
+    "grade": 8,
+    "category": "Đa thức",
+    "title": "Phép chia đa thức cho đơn thức",
+    "description": "Bài 5 – Chia đơn thức cho đơn thức, chia đa thức cho đơn thức (trường hợp chia hết).",
+    "level": "Intermediate",
+    "estimatedMinutes": 45,
+    "prerequisites": [
+      "g8-polynomials-04"
+    ],
+    "path": "lessons/grade8/polynomials/dividing-polynomials-by-monomials.html",
+    "tags": [
+      "chia đơn thức",
+      "chia đa thức cho đơn thức",
+      "chia hết"
+    ],
+    "no": 5
+  },
+  {
     "id": "g9-systems-01",
     "grade": 9,
     "category": "Phương trình và hệ hai phương trình bậc nhất hai ẩn",

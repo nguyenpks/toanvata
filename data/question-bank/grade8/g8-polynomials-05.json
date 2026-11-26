@@ -1,0 +1,1260 @@
+{
+ "lesson": "g8-polynomials-05",
+ "grade": 8,
+ "no": 5,
+ "title": "Phép chia đa thức cho đơn thức",
+ "path": "lessons/grade8/polynomials/dividing-polynomials-by-monomials.html",
+ "items": [
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Find the quotient \\(#x^#yz^#\\div (-#yz^#)\\).",
+   "en": "Find the quotient \\(25x^3yz^3\\div (-5yz^2)\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"quotient\">thương</b> của phép chia \\(25x^3yz^3:(-5yz^2)\\).",
+   "options": [
+    "\\(5x^3z\\)",
+    "\\(-125x^3z\\)",
+    "\\(-5x^3y^2z^5\\)",
+    "\\(-5x^3z\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Divide the coefficients and subtract the exponents of like bases.",
+   "explain_vi": "Đáp án d. Chia <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b> cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b>, trừ <b class=\"mbl-term\" tabindex=\"0\" data-en=\"exponent\">số mũ</b> của cùng một biến.",
+   "images": [],
+   "id": "3340b9044855",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Find the quotient \\((-#x^#y^#-#x^#y-#x^#y^#)\\div #x^#y\\).",
+   "en": "Find the quotient \\((-6x^3y^3-8x^4y-2x^3y^2)\\div 2x^2y\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"quotient\">thương</b> của phép chia \\((-6x^3y^3-8x^4y-2x^3y^2):2x^2y\\).",
+   "options": [
+    "\\(-3xy^2-4x^2-xy+1\\)",
+    "\\(3xy^2+4x^2+xy\\)",
+    "\\(-8x^4y-2x^3y^2-3xy^2\\)",
+    "\\(-3xy^2-4x^2-xy\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Divide each term of the polynomial by the monomial: \\(-3xy^2-4x^2-xy\\).",
+   "explain_vi": "Đáp án d. Chia từng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b> của đa thức cho đơn thức rồi cộng các kết quả: \\(-3xy^2-4x^2-xy\\).",
+   "images": [],
+   "id": "6003eb48bf3d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Which division is exact (the dividend is divisible by the divisor)?",
+   "en": "Which division is exact (the dividend is divisible by the divisor)?",
+   "vi": "Phép chia nào là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"exact division\">phép chia hết</b>?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(-2x^2y^4z^3\\div (-y^6z^3)\\)</span><span class=\"vi\">\\(-2x^2y^4z^3:(-y^6z^3)\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(-12x^4y^3z^4\\div 4x^4z^3\\)</span><span class=\"vi\">\\(-12x^4y^3z^4:4x^4z^3\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(3x^3yz^4\\div x^5z\\)</span><span class=\"vi\">\\(3x^3yz^4:x^5z\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(4x^2y^2z^4\\div (-2x^3y)\\)</span><span class=\"vi\">\\(4x^2y^2z^4:(-2x^3y)\\)</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(A\\) is divisible by \\(B\\) when every variable of \\(B\\) is in \\(A\\) with an exponent not greater than its exponent in \\(A\\).",
+   "explain_vi": "Đáp án b. Đơn thức \\(A\\) chia hết cho đơn thức \\(B\\) khi mỗi biến của \\(B\\) đều là biến của \\(A\\) với <b class=\"mbl-term\" tabindex=\"0\" data-en=\"exponent\">số mũ</b> không lớn hơn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"exponent\">số mũ</b> của nó trong \\(A\\).",
+   "images": [],
+   "id": "b184508c971f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "The monomial \\(-#x^#y^#z\\) is divisible by the monomial \\(-#y^#z^#\\).",
+   "en": "The monomial \\(-9x^2y^3z\\) is divisible by the monomial \\(-3y^2z^2\\).",
+   "vi": "Đơn thức \\(-9x^2y^3z\\) chia hết cho đơn thức \\(-3y^2z^2\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. Because some variable of \\(-3y^2z^2\\) has a larger exponent than in \\(-9x^2y^3z\\).",
+   "explain_vi": "Sai. Vì có biến của \\(-3y^2z^2\\) với <b class=\"mbl-term\" tabindex=\"0\" data-en=\"exponent\">số mũ</b> lớn hơn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"exponent\">số mũ</b> của nó trong \\(-9x^2y^3z\\).",
+   "images": [],
+   "id": "83e4d9e28876",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(#x^#yz^#\\div #x^#yz=-#z^#\\).",
+   "en": "\\(4x^3yz^4\\div 2x^3yz=-2z^3\\).",
+   "vi": "\\(4x^3yz^4:2x^3yz=-2z^3\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. The quotient is \\(2z^3\\).",
+   "explain_vi": "Sai. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"quotient\">Thương</b> đúng là \\(2z^3\\).",
+   "images": [],
+   "id": "a1763602d147",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "Find the smallest natural number \\(n\\) such that the monomial \\(-#x^ny^{#}\\) is divisible by \\(#x^{#}y^{#}\\).",
+   "en": "Find the smallest natural number \\(n\\) such that the monomial \\(-7x^ny^{6}\\) is divisible by \\(3x^{4}y^{4}\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"natural numbers\">số tự nhiên</b> \\(n\\) nhỏ nhất để đơn thức \\(-7x^ny^{6}\\) chia hết cho đơn thức \\(3x^{4}y^{4}\\).",
+   "options": [],
+   "answer": "4",
+   "explain_en": "Answer: 4. We need \\(n\\ge 4\\) (and \\(6\\ge 4\\) already holds), so the smallest \\(n\\) is 4.",
+   "explain_vi": "Đáp số: 4. Cần \\(n\\ge 4\\) (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"exponent\">số mũ</b> của \\(y\\): \\(6\\ge 4\\) đã thỏa mãn) nên \\(n\\) nhỏ nhất là 4.",
+   "images": [],
+   "id": "54c51662d08d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "Let \\(Q=(x^#y^#-#x^#y+#x^#y)\\div x^#y\\). Find the value of \\(Q\\) at \\(x=#,\\ y=-#\\).",
+   "en": "Let \\(Q=(x^4y^3-4x^4y+5x^2y)\\div x^2y\\). Find the value of \\(Q\\) at \\(x=2,\\ y=-1\\).",
+   "vi": "Cho \\(Q=(x^4y^3-4x^4y+5x^2y):x^2y\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"evaluate\">Tính giá trị</b> của \\(Q\\) tại \\(x=2,\\ y=-1\\).",
+   "options": [],
+   "answer": "-7",
+   "explain_en": "Answer: -7. \\(Q=x^2y^2-4x^2+5\\), so \\(Q=-7\\).",
+   "explain_vi": "Đáp số: -7. \\(Q=x^2y^2-4x^2+5\\), suy ra \\(Q=-7\\).",
+   "images": [],
+   "id": "8e88e6ea4ede",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Find \\(x^{#}\\div x^{#}\\).",
+   "en": "Find \\(x^{9}\\div x^{2}\\).",
+   "vi": "Tính \\(x^{9}:x^{2}\\).",
+   "options": [
+    "\\(x^{7}\\)",
+    "\\(1\\)",
+    "\\(x^{18}\\)",
+    "\\(x^{11}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(x^m\\div x^n=x^{m-n}\\ (m\\ge n)\\).",
+   "explain_vi": "Đáp án a. \\(x^m:x^n=x^{m-n}\\ (m\\ge n)\\).",
+   "images": [],
+   "id": "5401e7aee583",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D1",
+   "type": "mcq",
+   "form": "How do we divide a polynomial by a monomial?",
+   "en": "How do we divide a polynomial by a monomial?",
+   "vi": "Quy tắc chia đa thức cho đơn thức là",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">divide each term of the polynomial by the monomial and add the results</span><span class=\"vi\">chia từng hạng tử của đa thức cho đơn thức rồi cộng các kết quả</span></span>",
+    "<span class=\"txi\"><span class=\"en\">divide only the first term by the monomial</span><span class=\"vi\">chỉ chia hạng tử đầu tiên cho đơn thức</span></span>",
+    "<span class=\"txi\"><span class=\"en\">subtract the monomial from each term</span><span class=\"vi\">trừ mỗi hạng tử cho đơn thức</span></span>",
+    "<span class=\"txi\"><span class=\"en\">divide the coefficients and add the exponents</span><span class=\"vi\">chia các hệ số và cộng các số mũ</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\((A+B)\\div C=A\\div C+B\\div C\\).",
+   "explain_vi": "Đáp án a. \\((A+B):C=A:C+B:C\\).",
+   "images": [],
+   "id": "065bc19e8daf",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D1",
+   "type": "mcq",
+   "form": "The monomial \\(#x^#y^#z^#\\) is divisible by which monomial?",
+   "en": "The monomial \\(5x^4y^2z^4\\) is divisible by which monomial?",
+   "vi": "Đơn thức \\(5x^4y^2z^4\\) chia hết cho đơn thức nào sau đây?",
+   "options": [
+    "\\(-3x^4y^3z^2\\)",
+    "\\(-x^2y^5z^3\\)",
+    "\\(4x^2y^3z^4\\)",
+    "\\(5x^2y^2z^3\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Compare the exponents of each variable.",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"compare\">So sánh</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"exponent\">số mũ</b> của từng biến.",
+   "images": [],
+   "id": "e3fb7006138d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Divide \\((#x^#y-#x^#y^#-#x^#y)\\div (-#x^#y)\\).",
+   "en": "Divide \\((8x^4y-10x^3y^2-4x^3y)\\div (-2x^2y)\\).",
+   "vi": "Thực hiện phép chia \\((8x^4y-10x^3y^2-4x^3y):(-2x^2y)\\).",
+   "options": [
+    "\\(4x^2-5xy-2x\\)",
+    "\\(-4x^2+5xy+2x+1\\)",
+    "\\(-10x^3y^2-4x^3y-4x^2\\)",
+    "\\(-4x^2+5xy+2x\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Divide each term of the polynomial by the monomial: \\(-4x^2+5xy+2x\\).",
+   "explain_vi": "Đáp án d. Chia từng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b> của đa thức cho đơn thức rồi cộng các kết quả: \\(-4x^2+5xy+2x\\).",
+   "images": [],
+   "id": "8329ac7942b9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Find the polynomial \\(A\\) such that \\(A\\cdot #xy=#x^#y^#+#x^#y^#-#xy\\).",
+   "en": "Find the polynomial \\(A\\) such that \\(A\\cdot 5xy=30x^3y^3+30x^2y^3-30xy\\).",
+   "vi": "Tìm đa thức \\(A\\) biết \\(A\\cdot 5xy=30x^3y^3+30x^2y^3-30xy\\).",
+   "options": [
+    "\\(-6x^2y^2-6xy^2+6\\)",
+    "\\(6x^2y^2+6xy^2-6\\)",
+    "\\(150x^4y^4+150x^3y^4-150x^2y^2\\)",
+    "\\(6x^2y^2+6xy^2-5\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(A=(30x^3y^3+30x^2y^3-30xy)\\div 5xy=6x^2y^2+6xy^2-6\\).",
+   "explain_vi": "Đáp án b. \\(A=(30x^3y^3+30x^2y^3-30xy):5xy=6x^2y^2+6xy^2-6\\).",
+   "images": [],
+   "id": "ae59bd583141",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Which monomial is the quotient of \\(-#x^#y^#\\div (-#y)\\)?",
+   "en": "Which monomial is the quotient of \\(-15x^2y^4\\div (-6y)\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"quotient\">Thương</b> của phép chia \\(-15x^2y^4:(-6y)\\) là",
+   "options": [
+    "\\(\\dfrac{2}{5}x^2y^3\\)",
+    "\\(\\dfrac{5}{2}x^2y^3\\)",
+    "\\(\\dfrac{5}{2}x^2y^5\\)",
+    "\\(-\\dfrac{5}{2}x^2y^3\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\dfrac{5}{2}x^2y^3\\).",
+   "explain_vi": "Đáp án b. \\(\\dfrac{5}{2}x^2y^3\\).",
+   "images": [],
+   "id": "73dd83c6c9ad",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Find the largest natural number \\(n\\) such that \\(#x^#y^#+#x^#y^#\\) is divisible by \\(x^ny^{#}\\).",
+   "en": "Find the largest natural number \\(n\\) such that \\(9x^5y^2+4x^3y^3\\) is divisible by \\(x^ny^{2}\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"natural numbers\">số tự nhiên</b> \\(n\\) lớn nhất để đa thức \\(9x^5y^2+4x^3y^3\\) chia hết cho đơn thức \\(x^ny^{2}\\).",
+   "options": [
+    "\\(5\\)",
+    "\\(3\\)",
+    "\\(2\\)",
+    "\\(4\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Every term must be divisible: \\(n\\le 3\\) and \\(n\\le 5\\), so \\(n=3\\).",
+   "explain_vi": "Đáp án b. Mọi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b> đều phải chia hết: \\(n\\le 3\\) và \\(n\\le 5\\) nên \\(n=3\\).",
+   "images": [],
+   "id": "dad3cdb4dde7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Find the value of \\((-#x^#y-#x^#y^#-#x^#y)\\div (-#x^#y)\\) at \\(x=-#,\\ y=#\\).",
+   "en": "Find the value of \\((-8x^4y-20x^3y^2-24x^2y)\\div (-4x^2y)\\) at \\(x=-1,\\ y=1\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"evaluate\">Tính giá trị</b> của biểu thức \\((-8x^4y-20x^3y^2-24x^2y):(-4x^2y)\\) tại \\(x=-1,\\ y=1\\).",
+   "options": [
+    "\\(4\\)",
+    "\\(-3\\)",
+    "\\(3\\)",
+    "\\(-12\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The quotient is \\(2x^2+5xy+6\\), its value is \\(3\\).",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"quotient\">Thương</b> là \\(2x^2+5xy+6\\), có giá trị \\(3\\).",
+   "images": [],
+   "id": "92e8f63465c4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Simplify \\(M=(-#x^#y^#+#x^#y^#-#x^#y)\\div xy-(#x^#y^#+#x^#y^#-#x^#y^#)\\div #x^#y\\).",
+   "en": "Simplify \\(M=(-3x^3y^2+4x^2y^2-3x^2y)\\div xy-(30x^4y^3+20x^3y^3-25x^2y^3)\\div 5x^2y\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"simplify an expression\">Rút gọn biểu thức</b> \\(M=(-3x^3y^2+4x^2y^2-3x^2y):xy-(30x^4y^3+20x^3y^3-25x^2y^3):5x^2y\\).",
+   "options": [
+    "\\(6x^2y^2-3x^2y+4xy^2+4xy-5y^2-3x\\)",
+    "\\(6x^2y^2+3x^2y+4xy^2-4xy-5y^2+3x\\)",
+    "\\(-6x^2y^2-3x^2y-4xy^2+4xy+5y^2-3x\\)",
+    "\\(-6x^2y^2-3x^2y-4xy^2+4xy+5y^2-3x+1\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(M=(-3x^2y+4xy-3x)-(6x^2y^2+4xy^2-5y^2)=-6x^2y^2-3x^2y-4xy^2+4xy+5y^2-3x\\).",
+   "explain_vi": "Đáp án c. \\(M=(-3x^2y+4xy-3x)-(6x^2y^2+4xy^2-5y^2)=-6x^2y^2-3x^2y-4xy^2+4xy+5y^2-3x\\).",
+   "images": [],
+   "id": "f20fc7fbff63",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A box in the shape of a rectangular prism has volume \\(#x^#+#x^#\\) (cm³) and base area \\(#x^#\\) (cm²). Find its height when \\(x=#\\).",
+   "en": "A box in the shape of a rectangular prism has volume \\(8x^3+10x^2\\) (cm³) and base area \\(2x^2\\) (cm²). Find its height when \\(x=5\\).",
+   "vi": "Một chiếc hộp <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelepiped\">hình hộp</b> chữ nhật có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"volume\">thể tích</b> \\(8x^3+10x^2\\) (cm³) và diện tích đáy \\(2x^2\\) (cm²). Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"height\">chiều cao</b> của hộp khi \\(x=5\\).",
+   "options": [
+    "\\(25\\)",
+    "\\(1250\\)",
+    "\\(20\\)",
+    "\\(30\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Height \\(=(8x^3+10x^2)\\div 2x^2=4x+5\\); at \\(x=5\\): 25 cm.",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"height\">Chiều cao</b> \\(=(8x^3+10x^2):2x^2=4x+5\\); khi \\(x=5\\): 25 cm.",
+   "images": [],
+   "id": "b8e254e8b993",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A class of \\(#x\\) students pays \\(#x^#+#xy\\) thousand VND in total for a trip, shared equally. How much does each student pay? Find it for \\(x=#,\\ y=#\\).",
+   "en": "A class of \\(3x\\) students pays \\(15x^2+12xy\\) thousand VND in total for a trip, shared equally. How much does each student pay? Find it for \\(x=2,\\ y=22\\).",
+   "vi": "Một lớp có \\(3x\\) học sinh góp tổng cộng \\(15x^2+12xy\\) nghìn đồng cho chuyến tham quan, mỗi bạn góp như nhau. Mỗi bạn góp bao nhiêu? Tính số tiền đó khi \\(x=2,\\ y=22\\).",
+   "options": [
+    "\\(5x+12y;\\ 274\\)",
+    "\\(5x+4y;\\ 98\\)",
+    "\\(5x^2+4xy;\\ 196\\)",
+    "\\(5x+4y;\\ 294\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\((15x^2+12xy)\\div 3x=5x+4y\\) thousand VND; for the given values: 98 thousand VND.",
+   "explain_vi": "Đáp án b. \\((15x^2+12xy):3x=5x+4y\\) (nghìn đồng); thay số: 98 nghìn đồng.",
+   "images": [],
+   "id": "75dc3da9c431",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A rectangle has area \\(#x^#y+#x^#y^#\\) (cm²) and width \\(#x^#y\\) (cm). Find its length, then evaluate it for \\(x=#,\\ y=#\\).",
+   "en": "A rectangle has area \\(16x^3y+12x^2y^2\\) (cm²) and width \\(4x^2y\\) (cm). Find its length, then evaluate it for \\(x=5,\\ y=2\\).",
+   "vi": "Một hình chữ nhật có diện tích \\(16x^3y+12x^2y^2\\) (cm²) và chiều rộng \\(4x^2y\\) (cm). Tìm chiều dài của hình chữ nhật rồi tính chiều dài khi \\(x=5,\\ y=2\\).",
+   "options": [
+    "\\(4x+3y;\\ 27\\text{ cm}\\)",
+    "\\(4x+3y;\\ 26\\text{ cm}\\)",
+    "\\(4x-3y;\\ 14\\text{ cm}\\)",
+    "\\(4x^2+3xy;\\ 130\\text{ cm}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Length \\(=(16x^3y+12x^2y^2)\\div 4x^2y=4x+3y\\); at \\(x=5,\\ y=2\\): \\(26\\) cm.",
+   "explain_vi": "Đáp án b. Chiều dài \\(=(16x^3y+12x^2y^2):4x^2y=4x+3y\\); khi \\(x=5,\\ y=2\\): \\(26\\) cm.",
+   "images": [],
+   "id": "be382b1f8307",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Find the quotient \\((#x^#y^#+#x^#y^#+#xy^#)\\div (-#xy^#)\\).",
+   "en": "Find the quotient \\((20x^3y^2+12x^2y^3+4xy^2)\\div (-4xy^2)\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"quotient\">thương</b> của phép chia \\((20x^3y^2+12x^2y^3+4xy^2):(-4xy^2)\\).",
+   "options": [
+    "\\(12x^2y^3+4xy^2-5x^2\\)",
+    "\\(-5x^2-3xy-1\\)",
+    "\\(-5x^2-3xy\\)",
+    "\\(5x^2+3xy+1\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Divide each term of the polynomial by the monomial: \\(-5x^2-3xy-1\\).",
+   "explain_vi": "Đáp án b. Chia từng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b> của đa thức cho đơn thức rồi cộng các kết quả: \\(-5x^2-3xy-1\\).",
+   "images": [],
+   "id": "c34e4df546a7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Find the quotient \\(-#x^#y^#z^#\\div (-#y^#z^#)\\).",
+   "en": "Find the quotient \\(-12x^4y^3z^3\\div (-6y^3z^2)\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"quotient\">thương</b> của phép chia \\(-12x^4y^3z^3:(-6y^3z^2)\\).",
+   "options": [
+    "\\(2x^4z\\)",
+    "\\(2x^4y^6z^5\\)",
+    "\\(72x^4z\\)",
+    "\\(-2x^4z\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Divide the coefficients and subtract the exponents of like bases.",
+   "explain_vi": "Đáp án a. Chia <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b> cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b>, trừ <b class=\"mbl-term\" tabindex=\"0\" data-en=\"exponent\">số mũ</b> của cùng một biến.",
+   "images": [],
+   "id": "5f7464e37461",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Which monomial division is exact?",
+   "en": "Which monomial division is exact?",
+   "vi": "Phép chia đơn thức nào sau đây là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"exact division\">phép chia hết</b>?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(6xy^4z^4\\div y^3z^2\\)</span><span class=\"vi\">\\(6xy^4z^4:y^3z^2\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(-24xy^3z^3\\div 6y^4z\\)</span><span class=\"vi\">\\(-24xy^3z^3:6y^4z\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(-xy^4z^4\\div x^3y^2\\)</span><span class=\"vi\">\\(-xy^4z^4:x^3y^2\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(-11xy^3z^2\\div (-3y^2z^4)\\)</span><span class=\"vi\">\\(-11xy^3z^2:(-3y^2z^4)\\)</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(A\\) is divisible by \\(B\\) when every variable of \\(B\\) is in \\(A\\) with an exponent not greater than its exponent in \\(A\\).",
+   "explain_vi": "Đáp án a. Đơn thức \\(A\\) chia hết cho đơn thức \\(B\\) khi mỗi biến của \\(B\\) đều là biến của \\(A\\) với <b class=\"mbl-term\" tabindex=\"0\" data-en=\"exponent\">số mũ</b> không lớn hơn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"exponent\">số mũ</b> của nó trong \\(A\\).",
+   "images": [],
+   "id": "95531376ee5d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "The monomial \\(-#xyz\\) is divisible by the monomial \\(#x\\).",
+   "en": "The monomial \\(-10xyz\\) is divisible by the monomial \\(5x\\).",
+   "vi": "Đơn thức \\(-10xyz\\) chia hết cho đơn thức \\(5x\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. Because every variable of \\(5x\\) appears in \\(-10xyz\\) with an exponent that is not greater.",
+   "explain_vi": "Đúng. Vì mỗi biến của \\(5x\\) đều có trong \\(-10xyz\\) với <b class=\"mbl-term\" tabindex=\"0\" data-en=\"exponent\">số mũ</b> không lớn hơn.",
+   "images": [],
+   "id": "1541b1023ada",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(-#x^#y^#z^#\\div (-#xz^#)=#xy^#\\).",
+   "en": "\\(-10x^2y^2z^3\\div (-5xz^3)=2xy^2\\).",
+   "vi": "\\(-10x^2y^2z^3:(-5xz^3)=2xy^2\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. The quotient is \\(2xy^2\\).",
+   "explain_vi": "Đúng. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"quotient\">Thương</b> đúng là \\(2xy^2\\).",
+   "images": [],
+   "id": "3227b003dd12",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "Find the smallest natural number \\(n\\) such that the monomial \\(-#x^ny^{#}\\) is divisible by \\(-#x^{#}y^{#}\\).",
+   "en": "Find the smallest natural number \\(n\\) such that the monomial \\(-9x^ny^{7}\\) is divisible by \\(-6x^{4}y^{2}\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"natural numbers\">số tự nhiên</b> \\(n\\) nhỏ nhất để đơn thức \\(-9x^ny^{7}\\) chia hết cho đơn thức \\(-6x^{4}y^{2}\\).",
+   "options": [],
+   "answer": "4",
+   "explain_en": "Answer: 4. We need \\(n\\ge 4\\) (and \\(7\\ge 2\\) already holds), so the smallest \\(n\\) is 4.",
+   "explain_vi": "Đáp số: 4. Cần \\(n\\ge 4\\) (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"exponent\">số mũ</b> của \\(y\\): \\(7\\ge 2\\) đã thỏa mãn) nên \\(n\\) nhỏ nhất là 4.",
+   "images": [],
+   "id": "24f9a06d4b7d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "Let \\(Q=(#x^#y^#+#x^#y^#-#xy^#)\\div #xy^#\\). Find the value of \\(Q\\) at \\(x=-#,\\ y=#\\).",
+   "en": "Let \\(Q=(2x^2y^4+2x^2y^2-10xy^3)\\div 2xy^2\\). Find the value of \\(Q\\) at \\(x=-1,\\ y=3\\).",
+   "vi": "Cho \\(Q=(2x^2y^4+2x^2y^2-10xy^3):2xy^2\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"evaluate\">Tính giá trị</b> của \\(Q\\) tại \\(x=-1,\\ y=3\\).",
+   "options": [],
+   "answer": "-25",
+   "explain_en": "Answer: -25. \\(Q=xy^2+x-5y\\), so \\(Q=-25\\).",
+   "explain_vi": "Đáp số: -25. \\(Q=xy^2+x-5y\\), suy ra \\(Q=-25\\).",
+   "images": [],
+   "id": "3e4916eb7cbd",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Complete: to divide a polynomial by a monomial, …",
+   "en": "Complete: to divide a polynomial by a monomial, …",
+   "vi": "Hoàn thành: muốn chia đa thức cho đơn thức, …",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">subtract the monomial from each term</span><span class=\"vi\">trừ mỗi hạng tử cho đơn thức</span></span>",
+    "<span class=\"txi\"><span class=\"en\">divide each term of the polynomial by the monomial and add the results</span><span class=\"vi\">chia từng hạng tử của đa thức cho đơn thức rồi cộng các kết quả</span></span>",
+    "<span class=\"txi\"><span class=\"en\">divide only the first term by the monomial</span><span class=\"vi\">chỉ chia hạng tử đầu tiên cho đơn thức</span></span>",
+    "<span class=\"txi\"><span class=\"en\">divide the coefficients and add the exponents</span><span class=\"vi\">chia các hệ số và cộng các số mũ</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\((A+B)\\div C=A\\div C+B\\div C\\).",
+   "explain_vi": "Đáp án b. \\((A+B):C=A:C+B:C\\).",
+   "images": [],
+   "id": "f99a2d59a29e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Find \\(x^{#}\\div x^{#}\\).",
+   "en": "Find \\(x^{10}\\div x^{3}\\).",
+   "vi": "Tính \\(x^{10}:x^{3}\\).",
+   "options": [
+    "\\(1\\)",
+    "\\(x^{13}\\)",
+    "\\(x^{30}\\)",
+    "\\(x^{7}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(x^m\\div x^n=x^{m-n}\\ (m\\ge n)\\).",
+   "explain_vi": "Đáp án d. \\(x^m:x^n=x^{m-n}\\ (m\\ge n)\\).",
+   "images": [],
+   "id": "fbbac0c83299",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D1",
+   "type": "mcq",
+   "form": "The monomial \\(-#xy^#z\\) is divisible by which monomial?",
+   "en": "The monomial \\(-7xy^3z\\) is divisible by which monomial?",
+   "vi": "Đơn thức \\(-7xy^3z\\) chia hết cho đơn thức nào sau đây?",
+   "options": [
+    "\\(5z^3\\)",
+    "\\(-2y^2\\)",
+    "\\(-3x^3y^2z^3\\)",
+    "\\(2xy^3z^3\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Compare the exponents of each variable.",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"compare\">So sánh</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"exponent\">số mũ</b> của từng biến.",
+   "images": [],
+   "id": "cca5d61f51d0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Divide \\((-#x^#y^#-x^#y+#x^#y^#)\\div x^#y\\).",
+   "en": "Divide \\((-6x^3y^3-x^3y+5x^2y^2)\\div x^2y\\).",
+   "vi": "Thực hiện phép chia \\((-6x^3y^3-x^3y+5x^2y^2):x^2y\\).",
+   "options": [
+    "\\(-6xy^2-x+5y\\)",
+    "\\(-x^3y+5x^2y^2-6xy^2\\)",
+    "\\(-6xy^2-x+5y+1\\)",
+    "\\(6xy^2+x-5y\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Divide each term of the polynomial by the monomial: \\(-6xy^2-x+5y\\).",
+   "explain_vi": "Đáp án a. Chia từng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b> của đa thức cho đơn thức rồi cộng các kết quả: \\(-6xy^2-x+5y\\).",
+   "images": [],
+   "id": "f888f3058caf",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Find the polynomial \\(A\\) such that \\(A\\cdot (-x^#y^#)=#x^#y^#-#x^#y^#+#x^#y^#\\).",
+   "en": "Find the polynomial \\(A\\) such that \\(A\\cdot (-x^2y^2)=6x^3y^3-2x^3y^2+2x^2y^3\\).",
+   "vi": "Tìm đa thức \\(A\\) biết \\(A\\cdot (-x^2y^2)=6x^3y^3-2x^3y^2+2x^2y^3\\).",
+   "options": [
+    "\\(-6xy+2x-2y+1\\)",
+    "\\(-6x^5y^5+2x^5y^4-2x^4y^5\\)",
+    "\\(-6xy+2x-2y\\)",
+    "\\(6xy-2x+2y\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(A=(6x^3y^3-2x^3y^2+2x^2y^3)\\div (-x^2y^2)=-6xy+2x-2y\\).",
+   "explain_vi": "Đáp án c. \\(A=(6x^3y^3-2x^3y^2+2x^2y^3):(-x^2y^2)=-6xy+2x-2y\\).",
+   "images": [],
+   "id": "9a206c89b73f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Which monomial is the quotient of \\(#x^#y\\div #y\\)?",
+   "en": "Which monomial is the quotient of \\(7x^3y\\div 2y\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"quotient\">Thương</b> của phép chia \\(7x^3y:2y\\) là",
+   "options": [
+    "\\(-\\dfrac{7}{2}x^3\\)",
+    "\\(\\dfrac{7}{2}x^3y^2\\)",
+    "\\(\\dfrac{7}{2}x^3\\)",
+    "\\(\\dfrac{2}{7}x^3\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(\\dfrac{7}{2}x^3\\).",
+   "explain_vi": "Đáp án c. \\(\\dfrac{7}{2}x^3\\).",
+   "images": [],
+   "id": "5d6858db3f3c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Find the largest natural number \\(n\\) such that \\(x^#y^#+#x^#y^#\\) is divisible by \\(x^ny^{#}\\).",
+   "en": "Find the largest natural number \\(n\\) such that \\(x^9y^2+8x^7y^3\\) is divisible by \\(x^ny^{2}\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"natural numbers\">số tự nhiên</b> \\(n\\) lớn nhất để đa thức \\(x^9y^2+8x^7y^3\\) chia hết cho đơn thức \\(x^ny^{2}\\).",
+   "options": [
+    "\\(7\\)",
+    "\\(9\\)",
+    "\\(2\\)",
+    "\\(8\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Every term must be divisible: \\(n\\le 7\\) and \\(n\\le 9\\), so \\(n=7\\).",
+   "explain_vi": "Đáp án a. Mọi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b> đều phải chia hết: \\(n\\le 7\\) và \\(n\\le 9\\) nên \\(n=7\\).",
+   "images": [],
+   "id": "51b01c1ee99f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Find the value of \\((-#x^#y^#-#x^#y+#xy^#)\\div (-#xy)\\) at \\(x=#,\\ y=#\\).",
+   "en": "Find the value of \\((-8x^3y^2-10x^2y+12xy^2)\\div (-2xy)\\) at \\(x=1,\\ y=3\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"evaluate\">Tính giá trị</b> của biểu thức \\((-8x^3y^2-10x^2y+12xy^2):(-2xy)\\) tại \\(x=1,\\ y=3\\).",
+   "options": [
+    "\\(-1\\)",
+    "\\(6\\)",
+    "\\(1\\)",
+    "\\(0\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. The quotient is \\(4x^2y+5x-6y\\), its value is \\(-1\\).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"quotient\">Thương</b> là \\(4x^2y+5x-6y\\), có giá trị \\(-1\\).",
+   "images": [],
+   "id": "ddbd7e8af7af",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Simplify \\(M=(-#x^#y^#-#x^#y^#-#xy^#)\\div #xy^#-(-#x^#y^#+#xy^#+#xy^#)\\div #xy\\).",
+   "en": "Simplify \\(M=(-3x^3y^3-15x^2y^2-12xy^3)\\div 3xy^2-(-20x^2y^3+10xy^3+15xy^2)\\div 5xy\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"simplify an expression\">Rút gọn biểu thức</b> \\(M=(-3x^3y^3-15x^2y^2-12xy^3):3xy^2-(-20x^2y^3+10xy^3+15xy^2):5xy\\).",
+   "options": [
+    "\\(-x^2y+4xy^2-2y^2-5x-7y+1\\)",
+    "\\(-x^2y-4xy^2+2y^2-5x-y\\)",
+    "\\(-x^2y+4xy^2-2y^2-5x-7y\\)",
+    "\\(x^2y-4xy^2+2y^2+5x+7y\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(M=(-x^2y-5x-4y)-(-4xy^2+2y^2+3y)=-x^2y+4xy^2-2y^2-5x-7y\\).",
+   "explain_vi": "Đáp án c. \\(M=(-x^2y-5x-4y)-(-4xy^2+2y^2+3y)=-x^2y+4xy^2-2y^2-5x-7y\\).",
+   "images": [],
+   "id": "93b26212c9ea",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A box in the shape of a rectangular prism has volume \\(#x^#+#x^#\\) (cm³) and base area \\(#x^#\\) (cm²). Find its height when \\(x=#\\).",
+   "en": "A box in the shape of a rectangular prism has volume \\(20x^3+8x^2\\) (cm³) and base area \\(4x^2\\) (cm²). Find its height when \\(x=6\\).",
+   "vi": "Một chiếc hộp <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelepiped\">hình hộp</b> chữ nhật có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"volume\">thể tích</b> \\(20x^3+8x^2\\) (cm³) và diện tích đáy \\(4x^2\\) (cm²). Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"height\">chiều cao</b> của hộp khi \\(x=6\\).",
+   "options": [
+    "\\(32\\)",
+    "\\(30\\)",
+    "\\(34\\)",
+    "\\(4608\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Height \\(=(20x^3+8x^2)\\div 4x^2=5x+2\\); at \\(x=6\\): 32 cm.",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"height\">Chiều cao</b> \\(=(20x^3+8x^2):4x^2=5x+2\\); khi \\(x=6\\): 32 cm.",
+   "images": [],
+   "id": "703881df0a07",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A class of \\(#x\\) students pays \\(#x^#+#xy\\) thousand VND in total for a trip, shared equally. How much does each student pay? Find it for \\(x=#,\\ y=#\\).",
+   "en": "A class of \\(4x\\) students pays \\(8x^2+8xy\\) thousand VND in total for a trip, shared equally. How much does each student pay? Find it for \\(x=2,\\ y=18\\).",
+   "vi": "Một lớp có \\(4x\\) học sinh góp tổng cộng \\(8x^2+8xy\\) nghìn đồng cho chuyến tham quan, mỗi bạn góp như nhau. Mỗi bạn góp bao nhiêu? Tính số tiền đó khi \\(x=2,\\ y=18\\).",
+   "options": [
+    "\\(2x^2+2xy;\\ 80\\)",
+    "\\(2x+2y;\\ 40\\)",
+    "\\(2x+2y;\\ 160\\)",
+    "\\(2x+8y;\\ 148\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\((8x^2+8xy)\\div 4x=2x+2y\\) thousand VND; for the given values: 40 thousand VND.",
+   "explain_vi": "Đáp án b. \\((8x^2+8xy):4x=2x+2y\\) (nghìn đồng); thay số: 40 nghìn đồng.",
+   "images": [],
+   "id": "eeeee5329a1f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A rectangle has area \\(#x^#y+#x^#y^#\\) (cm²) and width \\(#x^#y\\) (cm). Find its length, then evaluate it for \\(x=#,\\ y=#\\).",
+   "en": "A rectangle has area \\(6x^3y+9x^2y^2\\) (cm²) and width \\(3x^2y\\) (cm). Find its length, then evaluate it for \\(x=2,\\ y=3\\).",
+   "vi": "Một hình chữ nhật có diện tích \\(6x^3y+9x^2y^2\\) (cm²) và chiều rộng \\(3x^2y\\) (cm). Tìm chiều dài của hình chữ nhật rồi tính chiều dài khi \\(x=2,\\ y=3\\).",
+   "options": [
+    "\\(2x^2+3xy;\\ 26\\text{ cm}\\)",
+    "\\(2x-3y;\\ -5\\text{ cm}\\)",
+    "\\(2x+3y;\\ 14\\text{ cm}\\)",
+    "\\(2x+3y;\\ 13\\text{ cm}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Length \\(=(6x^3y+9x^2y^2)\\div 3x^2y=2x+3y\\); at \\(x=2,\\ y=3\\): \\(13\\) cm.",
+   "explain_vi": "Đáp án d. Chiều dài \\(=(6x^3y+9x^2y^2):3x^2y=2x+3y\\); khi \\(x=2,\\ y=3\\): \\(13\\) cm.",
+   "images": [],
+   "id": "04c7f726ab41",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Find the quotient \\(#xy^#z^#\\div (-#y^#z)\\).",
+   "en": "Find the quotient \\(30xy^3z^2\\div (-6y^2z)\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"quotient\">thương</b> của phép chia \\(30xy^3z^2:(-6y^2z)\\).",
+   "options": [
+    "\\(-180xyz\\)",
+    "\\(5xyz\\)",
+    "\\(-5xyz\\)",
+    "\\(-5xy^5z^3\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Divide the coefficients and subtract the exponents of like bases.",
+   "explain_vi": "Đáp án c. Chia <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b> cho <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b>, trừ <b class=\"mbl-term\" tabindex=\"0\" data-en=\"exponent\">số mũ</b> của cùng một biến.",
+   "images": [],
+   "id": "c2f0ec7f974f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Find the quotient \\((#x^#y^#+#x^#y-#xy^#)\\div (-xy)\\).",
+   "en": "Find the quotient \\((2x^2y^3+6x^3y-4xy^2)\\div (-xy)\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"quotient\">thương</b> của phép chia \\((2x^2y^3+6x^3y-4xy^2):(-xy)\\).",
+   "options": [
+    "\\(2xy^2+6x^2-4y\\)",
+    "\\(-2xy^2-6x^2+4y\\)",
+    "\\(-2xy^2-6x^2+4y+1\\)",
+    "\\(6x^3y-6xy^2\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Divide each term of the polynomial by the monomial: \\(-2xy^2-6x^2+4y\\).",
+   "explain_vi": "Đáp án b. Chia từng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b> của đa thức cho đơn thức rồi cộng các kết quả: \\(-2xy^2-6x^2+4y\\).",
+   "images": [],
+   "id": "02334779eb57",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "In which case is the first monomial divisible by the second?",
+   "en": "In which case is the first monomial divisible by the second?",
+   "vi": "Trường hợp nào đơn thức thứ nhất chia hết cho đơn thức thứ hai?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">\\(-25x^2y^2z\\div (-5x^3y^2)\\)</span><span class=\"vi\">\\(-25x^2y^2z:(-5x^3y^2)\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(6xy^2z^2\\div 2x^2y^2\\)</span><span class=\"vi\">\\(6xy^2z^2:2x^2y^2\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(-5x^2yz^3\\div (-3x^2)\\)</span><span class=\"vi\">\\(-5x^2yz^3:(-3x^2)\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">\\(-16x^4yz^3\\div 4x^4yz^4\\)</span><span class=\"vi\">\\(-16x^4yz^3:4x^4yz^4\\)</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(A\\) is divisible by \\(B\\) when every variable of \\(B\\) is in \\(A\\) with an exponent not greater than its exponent in \\(A\\).",
+   "explain_vi": "Đáp án c. Đơn thức \\(A\\) chia hết cho đơn thức \\(B\\) khi mỗi biến của \\(B\\) đều là biến của \\(A\\) với <b class=\"mbl-term\" tabindex=\"0\" data-en=\"exponent\">số mũ</b> không lớn hơn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"exponent\">số mũ</b> của nó trong \\(A\\).",
+   "images": [],
+   "id": "8356a9a8942e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "The monomial \\(-#x^#y^#z^#\\) is divisible by the monomial \\(-#x^#y^#z^#\\).",
+   "en": "The monomial \\(-20x^2y^4z^4\\) is divisible by the monomial \\(-5x^2y^5z^3\\).",
+   "vi": "Đơn thức \\(-20x^2y^4z^4\\) chia hết cho đơn thức \\(-5x^2y^5z^3\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. Because some variable of \\(-5x^2y^5z^3\\) has a larger exponent than in \\(-20x^2y^4z^4\\).",
+   "explain_vi": "Sai. Vì có biến của \\(-5x^2y^5z^3\\) với <b class=\"mbl-term\" tabindex=\"0\" data-en=\"exponent\">số mũ</b> lớn hơn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"exponent\">số mũ</b> của nó trong \\(-20x^2y^4z^4\\).",
+   "images": [],
+   "id": "84901cf1eccf",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(-#xy^#z\\div (-#xy^#)=\\dfrac{#}{#}z\\).",
+   "en": "\\(-10xy^4z\\div (-4xy^4)=\\dfrac{5}{2}z\\).",
+   "vi": "\\(-10xy^4z:(-4xy^4)=\\dfrac{5}{2}z\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. The quotient is \\(\\dfrac{5}{2}z\\).",
+   "explain_vi": "Đúng. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"quotient\">Thương</b> đúng là \\(\\dfrac{5}{2}z\\).",
+   "images": [],
+   "id": "55f12641d3c1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Find the smallest natural number \\(n\\) such that the monomial \\(-#x^ny^{#}\\) is divisible by \\(#x^{#}y^{#}\\).",
+   "en": "Find the smallest natural number \\(n\\) such that the monomial \\(-5x^ny^{7}\\) is divisible by \\(9x^{2}y^{3}\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"natural numbers\">số tự nhiên</b> \\(n\\) nhỏ nhất để đơn thức \\(-5x^ny^{7}\\) chia hết cho đơn thức \\(9x^{2}y^{3}\\).",
+   "options": [],
+   "answer": "2",
+   "explain_en": "Answer: 2. We need \\(n\\ge 2\\) (and \\(7\\ge 3\\) already holds), so the smallest \\(n\\) is 2.",
+   "explain_vi": "Đáp số: 2. Cần \\(n\\ge 2\\) (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"exponent\">số mũ</b> của \\(y\\): \\(7\\ge 3\\) đã thỏa mãn) nên \\(n\\) nhỏ nhất là 2.",
+   "images": [],
+   "id": "72f6a700fb95",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Let \\(Q=(-#x^#y^#+#x^#y-#xy)\\div (-#xy)\\). Find the value of \\(Q\\) at \\(x=-#,\\ y=#\\).",
+   "en": "Let \\(Q=(-6x^2y^3+4x^3y-12xy)\\div (-2xy)\\). Find the value of \\(Q\\) at \\(x=-1,\\ y=1\\).",
+   "vi": "Cho \\(Q=(-6x^2y^3+4x^3y-12xy):(-2xy)\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"evaluate\">Tính giá trị</b> của \\(Q\\) tại \\(x=-1,\\ y=1\\).",
+   "options": [],
+   "answer": "1",
+   "explain_en": "Answer: 1. \\(Q=3xy^2-2x^2+6\\), so \\(Q=1\\).",
+   "explain_vi": "Đáp số: 1. \\(Q=3xy^2-2x^2+6\\), suy ra \\(Q=1\\).",
+   "images": [],
+   "id": "fe429343e0f1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Find \\(x^{#}\\div x^{#}\\).",
+   "en": "Find \\(x^{6}\\div x^{4}\\).",
+   "vi": "Tính \\(x^{6}:x^{4}\\).",
+   "options": [
+    "\\(1\\)",
+    "\\(x^{10}\\)",
+    "\\(x^{2}\\)",
+    "\\(x^{24}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(x^m\\div x^n=x^{m-n}\\ (m\\ge n)\\).",
+   "explain_vi": "Đáp án c. \\(x^m:x^n=x^{m-n}\\ (m\\ge n)\\).",
+   "images": [],
+   "id": "3c7e6e8310a0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D1",
+   "type": "mcq",
+   "form": "The monomial \\(#xy^#z^#\\) is divisible by which monomial?",
+   "en": "The monomial \\(7xy^4z^2\\) is divisible by which monomial?",
+   "vi": "Đơn thức \\(7xy^4z^2\\) chia hết cho đơn thức nào sau đây?",
+   "options": [
+    "\\(-5x^5\\)",
+    "\\(-4x^2y^2z\\)",
+    "\\(5xy^4z^2\\)",
+    "\\(6x^2yz\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Compare the exponents of each variable.",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"compare\">So sánh</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"exponent\">số mũ</b> của từng biến.",
+   "images": [],
+   "id": "2a5424f60902",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Which rule is used to divide a polynomial by a monomial?",
+   "en": "Which rule is used to divide a polynomial by a monomial?",
+   "vi": "Muốn chia đa thức \\(A\\) cho đơn thức \\(B\\), ta làm thế nào?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">divide each term of the polynomial by the monomial and add the results</span><span class=\"vi\">chia từng hạng tử của đa thức cho đơn thức rồi cộng các kết quả</span></span>",
+    "<span class=\"txi\"><span class=\"en\">divide only the first term by the monomial</span><span class=\"vi\">chỉ chia hạng tử đầu tiên cho đơn thức</span></span>",
+    "<span class=\"txi\"><span class=\"en\">divide the coefficients and add the exponents</span><span class=\"vi\">chia các hệ số và cộng các số mũ</span></span>",
+    "<span class=\"txi\"><span class=\"en\">subtract the monomial from each term</span><span class=\"vi\">trừ mỗi hạng tử cho đơn thức</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\((A+B)\\div C=A\\div C+B\\div C\\).",
+   "explain_vi": "Đáp án a. \\((A+B):C=A:C+B:C\\).",
+   "images": [],
+   "id": "d35ad350eab9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Divide \\((-#x^#y+#x^#y+#x^#y)\\div (-x^#y)\\).",
+   "en": "Divide \\((-2x^4y+5x^3y+4x^2y)\\div (-x^2y)\\).",
+   "vi": "Thực hiện phép chia \\((-2x^4y+5x^3y+4x^2y):(-x^2y)\\).",
+   "options": [
+    "\\(5x^3y+4x^2y+2x^2\\)",
+    "\\(2x^2-5x-4\\)",
+    "\\(-2x^2+5x+4\\)",
+    "\\(2x^2-5x-3\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Divide each term of the polynomial by the monomial: \\(2x^2-5x-4\\).",
+   "explain_vi": "Đáp án b. Chia từng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b> của đa thức cho đơn thức rồi cộng các kết quả: \\(2x^2-5x-4\\).",
+   "images": [],
+   "id": "49ba2f18f5a6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Find the polynomial \\(A\\) such that \\(A\\cdot (-#xy^#)=#x^#y^#-#x^#y^#-#xy^#\\).",
+   "en": "Find the polynomial \\(A\\) such that \\(A\\cdot (-2xy^2)=6x^2y^3-4x^2y^2-2xy^3\\).",
+   "vi": "Tìm đa thức \\(A\\) biết \\(A\\cdot (-2xy^2)=6x^2y^3-4x^2y^2-2xy^3\\).",
+   "options": [
+    "\\(-3xy+2x+y\\)",
+    "\\(3xy-2x-y\\)",
+    "\\(-3xy+2x+y+1\\)",
+    "\\(-12x^3y^5+8x^3y^4+4x^2y^5\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(A=(6x^2y^3-4x^2y^2-2xy^3)\\div (-2xy^2)=-3xy+2x+y\\).",
+   "explain_vi": "Đáp án a. \\(A=(6x^2y^3-4x^2y^2-2xy^3):(-2xy^2)=-3xy+2x+y\\).",
+   "images": [],
+   "id": "7c6a6d11780c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Which monomial is the quotient of \\(-#x^#y^#\\div (-#y^#)\\)?",
+   "en": "Which monomial is the quotient of \\(-15x^3y^4\\div (-6y^2)\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"quotient\">Thương</b> của phép chia \\(-15x^3y^4:(-6y^2)\\) là",
+   "options": [
+    "\\(\\dfrac{5}{2}x^3y^2\\)",
+    "\\(\\dfrac{5}{2}x^3y^6\\)",
+    "\\(-\\dfrac{5}{2}x^3y^2\\)",
+    "\\(\\dfrac{2}{5}x^3y^2\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\dfrac{5}{2}x^3y^2\\).",
+   "explain_vi": "Đáp án a. \\(\\dfrac{5}{2}x^3y^2\\).",
+   "images": [],
+   "id": "9d105b0e68ad",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Find the largest natural number \\(n\\) such that \\(#x^#y+#x^#y^#\\) is divisible by \\(x^ny^{#}\\).",
+   "en": "Find the largest natural number \\(n\\) such that \\(8x^8y+8x^6y^2\\) is divisible by \\(x^ny^{1}\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"natural numbers\">số tự nhiên</b> \\(n\\) lớn nhất để đa thức \\(8x^8y+8x^6y^2\\) chia hết cho đơn thức \\(x^ny^{1}\\).",
+   "options": [
+    "\\(6\\)",
+    "\\(7\\)",
+    "\\(8\\)",
+    "\\(1\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Every term must be divisible: \\(n\\le 6\\) and \\(n\\le 8\\), so \\(n=6\\).",
+   "explain_vi": "Đáp án a. Mọi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b> đều phải chia hết: \\(n\\le 6\\) và \\(n\\le 8\\) nên \\(n=6\\).",
+   "images": [],
+   "id": "ed08af2d00a5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Find the value of \\((#x^#y^#-#x^#y^#+#x^#y^#)\\div (-#x^#y)\\) at \\(x=-#,\\ y=-#\\).",
+   "en": "Find the value of \\((30x^4y^3-30x^4y^2+15x^3y^2)\\div (-5x^2y)\\) at \\(x=-2,\\ y=-1\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"evaluate\">Tính giá trị</b> của biểu thức \\((30x^4y^3-30x^4y^2+15x^3y^2):(-5x^2y)\\) tại \\(x=-2,\\ y=-1\\).",
+   "options": [
+    "\\(-1080\\)",
+    "\\(-53\\)",
+    "\\(-54\\)",
+    "\\(54\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The quotient is \\(-6x^2y^2+6x^2y-3xy\\), its value is \\(-54\\).",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"quotient\">Thương</b> là \\(-6x^2y^2+6x^2y-3xy\\), có giá trị \\(-54\\).",
+   "images": [],
+   "id": "22b00ddc8fd8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Simplify \\(M=(#x^#y^#+#x^#y^#+#x^#y^#)\\div #x^#y^#-(#x^#y^#-#x^#y+#x^#y^#)\\div #x^#y\\).",
+   "en": "Simplify \\(M=(12x^4y^3+16x^4y^2+24x^3y^2)\\div 4x^2y^2-(10x^3y^3-25x^3y+30x^2y^2)\\div 5x^2y\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"simplify an expression\">Rút gọn biểu thức</b> \\(M=(12x^4y^3+16x^4y^2+24x^3y^2):4x^2y^2-(10x^3y^3-25x^3y+30x^2y^2):5x^2y\\).",
+   "options": [
+    "\\(-3x^2y+2xy^2-4x^2-11x+6y\\)",
+    "\\(3x^2y+2xy^2+4x^2+x+6y\\)",
+    "\\(3x^2y-2xy^2+4x^2+11x-6y+1\\)",
+    "\\(3x^2y-2xy^2+4x^2+11x-6y\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(M=(3x^2y+4x^2+6x)-(2xy^2-5x+6y)=3x^2y-2xy^2+4x^2+11x-6y\\).",
+   "explain_vi": "Đáp án d. \\(M=(3x^2y+4x^2+6x)-(2xy^2-5x+6y)=3x^2y-2xy^2+4x^2+11x-6y\\).",
+   "images": [],
+   "id": "414e44f66932",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A box in the shape of a rectangular prism has volume \\(#x^#+#x^#\\) (cm³) and base area \\(#x^#\\) (cm²). Find its height when \\(x=#\\).",
+   "en": "A box in the shape of a rectangular prism has volume \\(3x^3+15x^2\\) (cm³) and base area \\(3x^2\\) (cm²). Find its height when \\(x=6\\).",
+   "vi": "Một chiếc hộp <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelepiped\">hình hộp</b> chữ nhật có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"volume\">thể tích</b> \\(3x^3+15x^2\\) (cm³) và diện tích đáy \\(3x^2\\) (cm²). Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"height\">chiều cao</b> của hộp khi \\(x=6\\).",
+   "options": [
+    "\\(6\\)",
+    "\\(16\\)",
+    "\\(1188\\)",
+    "\\(11\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Height \\(=(3x^3+15x^2)\\div 3x^2=x+5\\); at \\(x=6\\): 11 cm.",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"height\">Chiều cao</b> \\(=(3x^3+15x^2):3x^2=x+5\\); khi \\(x=6\\): 11 cm.",
+   "images": [],
+   "id": "97b6947ea905",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A class of \\(#x\\) students pays \\(#x^#+#xy\\) thousand VND in total for a trip, shared equally. How much does each student pay? Find it for \\(x=#,\\ y=#\\).",
+   "en": "A class of \\(3x\\) students pays \\(9x^2+3xy\\) thousand VND in total for a trip, shared equally. How much does each student pay? Find it for \\(x=3,\\ y=26\\).",
+   "vi": "Một lớp có \\(3x\\) học sinh góp tổng cộng \\(9x^2+3xy\\) nghìn đồng cho chuyến tham quan, mỗi bạn góp như nhau. Mỗi bạn góp bao nhiêu? Tính số tiền đó khi \\(x=3,\\ y=26\\).",
+   "options": [
+    "\\(3x+y;\\ 35\\)",
+    "\\(3x+y;\\ 105\\)",
+    "\\(3x^2+xy;\\ 105\\)",
+    "\\(3x+3y;\\ 87\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\((9x^2+3xy)\\div 3x=3x+y\\) thousand VND; for the given values: 35 thousand VND.",
+   "explain_vi": "Đáp án a. \\((9x^2+3xy):3x=3x+y\\) (nghìn đồng); thay số: 35 nghìn đồng.",
+   "images": [],
+   "id": "eeee85215ca1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A rectangle has area \\(#x^#y+#x^#y^#\\) (cm²) and width \\(x^#y\\) (cm). Find its length, then evaluate it for \\(x=#,\\ y=#\\).",
+   "en": "A rectangle has area \\(4x^3y+3x^2y^2\\) (cm²) and width \\(x^2y\\) (cm). Find its length, then evaluate it for \\(x=6,\\ y=2\\).",
+   "vi": "Một hình chữ nhật có diện tích \\(4x^3y+3x^2y^2\\) (cm²) và chiều rộng \\(x^2y\\) (cm). Tìm chiều dài của hình chữ nhật rồi tính chiều dài khi \\(x=6,\\ y=2\\).",
+   "options": [
+    "\\(4x^2+3xy;\\ 180\\text{ cm}\\)",
+    "\\(4x+3y;\\ 31\\text{ cm}\\)",
+    "\\(4x+3y;\\ 30\\text{ cm}\\)",
+    "\\(4x-3y;\\ 18\\text{ cm}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Length \\(=(4x^3y+3x^2y^2)\\div x^2y=4x+3y\\); at \\(x=6,\\ y=2\\): \\(30\\) cm.",
+   "explain_vi": "Đáp án c. Chiều dài \\(=(4x^3y+3x^2y^2):x^2y=4x+3y\\); khi \\(x=6,\\ y=2\\): \\(30\\) cm.",
+   "images": [],
+   "id": "4199b2d8be60",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1260 @@
+{
+ "lesson": "g8-polynomials-02",
+ "grade": 8,
+ "no": 2,
+ "title": "Đa thức",
+ "path": "lessons/grade8/polynomials/polynomials.html",
+ "items": [
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Find the degree of the polynomial \\(#+#x^#+#x^#y^#-#x^#y^#-#x^#y^#\\).",
+   "en": "Find the degree of the polynomial \\(3+7x^3+5x^3y^4-9x^3y^3-5x^3y^4\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"degree of a polynomial\">bậc của đa thức</b> \\(3+7x^3+5x^3y^4-9x^3y^3-5x^3y^4\\).",
+   "options": [
+    "\\(7\\)",
+    "\\(3\\)",
+    "\\(6\\)",
+    "\\(4\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Simplify first: \\(-9x^3y^3+7x^3+3\\); the term of highest degree has degree \\(6\\).",
+   "explain_vi": "Đáp án c. Thu gọn trước: \\(-9x^3y^3+7x^3+3\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b> có bậc cao nhất có bậc \\(6\\).",
+   "images": [],
+   "id": "9d54ad7427c5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Only one of these expressions is a polynomial. Which one?",
+   "en": "Only one of these expressions is a polynomial. Which one?",
+   "vi": "Chỉ có một biểu thức là đa thức. Đó là biểu thức nào?",
+   "options": [
+    "\\(6x^2y^2-2xy+3\\)",
+    "\\(\\dfrac{x+y}{x}\\)",
+    "\\(\\sqrt{xy}+7\\)",
+    "\\(x^2+\\sqrt{x}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. A polynomial is a sum of monomials. The other expressions contain a variable in a denominator or a square root of a variable.",
+   "explain_vi": "Đáp án a. Đa thức là một tổng của những đơn thức. Các biểu thức còn lại có biến ở mẫu hoặc căn của biến.",
+   "images": [],
+   "id": "8bf58e8b49b6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Simplify the polynomial \\(-#x^#y-#xy+#x^#y-#x^#y^#+#xy\\).",
+   "en": "Simplify the polynomial \\(-3x^2y-5xy+2x^2y-4x^2y^3+14xy\\).",
+   "vi": "Thu gọn đa thức \\(-3x^2y-5xy+2x^2y-4x^2y^3+14xy\\).",
+   "options": [
+    "\\(-4x^2y^3-x^2y+9xy\\)",
+    "\\(4x^2y^3-x^2y+9xy\\)",
+    "\\(-4x^2y^3-x^2y+10xy\\)",
+    "\\(4x^2y^3+x^2y+9xy\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Group and add the like terms.",
+   "explain_vi": "Đáp án a. Nhóm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"like terms\">các hạng tử đồng dạng</b> rồi cộng các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b>.",
+   "images": [],
+   "id": "5a5c956429aa",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "The polynomial \\(#x^#y^#+x^#+xy+#y^#\\) has # terms.",
+   "en": "The polynomial \\(4x^2y^3+x^3+xy+5y^2\\) has 4 terms.",
+   "vi": "Đa thức \\(4x^2y^3+x^3+xy+5y^2\\) có 4 <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b>.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. Its terms are \\(4x^2y^3,\\ x^3,\\ xy,\\ 5y^2\\): 4 terms.",
+   "explain_vi": "Đúng. Các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b> là \\(4x^2y^3,\\ x^3,\\ xy,\\ 5y^2\\): 4 <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b>.",
+   "images": [],
+   "id": "bb3fff321e9b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "The polynomial \\(-#x^#y^#+#x^#y^#-#xy^#+#x^#y^#+#x^#y\\) has degree #.",
+   "en": "The polynomial \\(-4x^4y^3+4x^4y^3-3xy^3+8x^2y^2+2x^3y\\) has degree 7.",
+   "vi": "Đa thức \\(-4x^4y^3+4x^4y^3-3xy^3+8x^2y^2+2x^3y\\) có bậc là 7.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. After simplifying: \\(2x^3y+8x^2y^2-3xy^3\\), so the degree is 4.",
+   "explain_vi": "Sai. Thu gọn được \\(2x^3y+8x^2y^2-3xy^3\\) nên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"degree of a polynomial\">bậc của đa thức</b> là 4.",
+   "images": [],
+   "id": "703c90aa7158",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "Find the value of the polynomial \\(P=-#x^#y-#xy-#x\\) at \\(x=-#,\\ y=#\\).",
+   "en": "Find the value of the polynomial \\(P=-6x^2y-5xy-2x\\) at \\(x=-3,\\ y=3\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"evaluate\">Tính giá trị</b> của đa thức \\(P=-6x^2y-5xy-2x\\) tại \\(x=-3,\\ y=3\\).",
+   "options": [],
+   "answer": "-111",
+   "explain_en": "Answer: -111. Substitute and calculate: \\(P=-111\\).",
+   "explain_vi": "Đáp số: -111. Thay \\(x=-3,\\ y=3\\) rồi tính: \\(P=-111\\).",
+   "images": [],
+   "id": "65fb0f9bdf9e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "What is the degree of the polynomial \\(x^#y^#z^#-#x^#z^#-#x^#y^#z^#+#x^#y^#z^#+#x^#y^#z\\)?",
+   "en": "What is the degree of the polynomial \\(x^2y^2z^3-9x^3z^2-5x^3y^4z^2+5x^3y^4z^2+6x^3y^2z\\)?",
+   "vi": "Đa thức \\(x^2y^2z^3-9x^3z^2-5x^3y^4z^2+5x^3y^4z^2+6x^3y^2z\\) có bậc bằng bao nhiêu?",
+   "options": [],
+   "answer": "7",
+   "explain_en": "Answer: 7. Simplify: \\(x^2y^2z^3+6x^3y^2z-9x^3z^2\\). Degree \\(7\\).",
+   "explain_vi": "Đáp số: 7. Thu gọn: \\(x^2y^2z^3+6x^3y^2z-9x^3z^2\\). Bậc \\(7\\).",
+   "images": [],
+   "id": "57a3c79ceba8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D1",
+   "type": "mcq",
+   "form": "The polynomial \\(-#x^#y^#+#x^#y-#xy^#+#\\) is…",
+   "en": "The polynomial \\(-6x^3y^3+3x^3y-5xy^3+2\\) is…",
+   "vi": "Đa thức \\(-6x^3y^3+3x^3y-5xy^3+2\\) là",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">a polynomial with 4 terms</span><span class=\"vi\">đa thức có 4 hạng tử</span></span>",
+    "<span class=\"txi\"><span class=\"en\">a binomial</span><span class=\"vi\">nhị thức (đa thức có 2 hạng tử)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">a monomial</span><span class=\"vi\">đơn thức</span></span>",
+    "<span class=\"txi\"><span class=\"en\">a trinomial</span><span class=\"vi\">tam thức (đa thức có 3 hạng tử)</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. It has 4 terms.",
+   "explain_vi": "Đáp án a. Đa thức có 4 <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b>.",
+   "images": [],
+   "id": "1473edd482d6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D1",
+   "type": "mcq",
+   "form": "What are the terms of the polynomial \\(-#x^#y-#x^#y^#+#\\)?",
+   "en": "What are the terms of the polynomial \\(-8x^3y-3x^2y^2+8\\)?",
+   "vi": "Các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b> của đa thức \\(-8x^3y-3x^2y^2+8\\) là",
+   "options": [
+    "\\(8x^3y;\\ 3x^2y^2;\\ -8\\)",
+    "\\(-8x^3y;\\ -3x^2y^2;\\ 8\\)",
+    "\\(x^3y;\\ x^2y^2;\\ 8\\)",
+    "\\(8x^3y;\\ 3x^2y^2;\\ 8\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Each term keeps its own sign.",
+   "explain_vi": "Đáp án b. Mỗi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b> mang theo dấu đứng trước nó.",
+   "images": [],
+   "id": "744ba80f1c57",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D1",
+   "type": "mcq",
+   "form": "What is the constant term of the polynomial \\(-#x^#+#x^#y^#-#xy-#\\)?",
+   "en": "What is the constant term of the polynomial \\(-3x^2+6x^3y^3-2xy-6\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">Hệ số</b> tự do (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b> không chứa biến) của đa thức \\(-3x^2+6x^3y^3-2xy-6\\) là",
+   "options": [
+    "\\(4\\)",
+    "\\(-6\\)",
+    "\\(-3\\)",
+    "\\(6\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. The constant term is the term without variables: \\(-6\\).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">Hạng tử</b> không chứa biến là \\(-6\\).",
+   "images": [],
+   "id": "43b4894bd0d4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D2",
+   "type": "mcq",
+   "form": "After simplifying \\(-#xy^#-#-#xy^#+#x^#\\), what is the coefficient of \\(x^#\\)?",
+   "en": "After simplifying \\(-4xy^3-1-4xy^3+4x^2\\), what is the coefficient of \\(x^2\\)?",
+   "vi": "Sau khi thu gọn đa thức \\(-4xy^3-1-4xy^3+4x^2\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b> chứa \\(x^2\\) là",
+   "options": [
+    "\\(-4\\)",
+    "\\(2\\)",
+    "\\(5\\)",
+    "\\(4\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Add the coefficients of the terms in \\(x^2\\): \\(4\\).",
+   "explain_vi": "Đáp án d. Cộng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b> các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b> chứa \\(x^2\\): \\(4\\).",
+   "images": [],
+   "id": "75ee8f361494",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Which polynomial is the simplified form of \\(#-#x^#y^#-#y^#+#x+#y^#+#x^#y^#\\)?",
+   "en": "Which polynomial is the simplified form of \\(3-15x^2y^2-5y^2+4x+9y^2+6x^2y^2\\)?",
+   "vi": "Dạng thu gọn của đa thức \\(3-15x^2y^2-5y^2+4x+9y^2+6x^2y^2\\) là",
+   "options": [
+    "\\(9x^2y^2-4y^2-4x-3\\)",
+    "\\(-9x^2y^2+4y^2+4x\\)",
+    "\\(-9x^2y^2+4y^2+4x+3\\)",
+    "\\(-9x^2y^2+6y^2+4x+3\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Combine the like terms.",
+   "explain_vi": "Đáp án c. Cộng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"like terms\">các hạng tử đồng dạng</b>.",
+   "images": [],
+   "id": "fd173647f1d8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Which terms of the polynomial \\(-#x^#-#xy+#x+#y-#\\) have degree #?",
+   "en": "Which terms of the polynomial \\(-3x^2-7xy+3x+2y-2\\) have degree 2?",
+   "vi": "Các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b> bậc 2 của đa thức \\(-3x^2-7xy+3x+2y-2\\) là",
+   "options": [
+    "\\(3x;\\ 2y\\)",
+    "\\(-3x^2;\\ -7xy\\)",
+    "\\(-3x^2;\\ -7xy;\\ 3x\\)",
+    "\\(x^2\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Add the exponents in each term and keep those equal to 2.",
+   "explain_vi": "Đáp án b. Cộng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"exponent\">số mũ</b> các biến của từng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b>, chọn các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b> có tổng bằng 2.",
+   "images": [],
+   "id": "b5694200b2a3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Find \\(a\\) so that the polynomial \\(ax^#y^#+#x^#y^#-#-#xy\\) has degree #.",
+   "en": "Find \\(a\\) so that the polynomial \\(ax^2y^2+8x^2y^2-5-5xy\\) has degree 2.",
+   "vi": "Tìm \\(a\\) để đa thức \\(ax^2y^2+8x^2y^2-5-5xy\\) có bậc bằng 2.",
+   "options": [
+    "\\(-8\\)",
+    "\\(0\\)",
+    "\\(8\\)",
+    "\\(2\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. The terms in \\(x^2y^2\\) must cancel: \\(a+8=0\\Rightarrow a=-8\\).",
+   "explain_vi": "Đáp án a. Các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b> chứa \\(x^2y^2\\) phải triệt tiêu: \\(a+8=0\\Rightarrow a=-8\\).",
+   "images": [],
+   "id": "46cf493343aa",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Find the value of \\(A=-#y^#+\\dfrac{#}{#}xy+#x^#y-\\dfrac{#}{#}xy\\) at \\(x=-#,\\ y=#\\).",
+   "en": "Find the value of \\(A=-3y^2+\\dfrac{1}{3}xy+4x^2y-\\dfrac{1}{3}xy\\) at \\(x=-2,\\ y=2\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"evaluate\">Tính giá trị</b> của đa thức \\(A=-3y^2+\\dfrac{1}{3}xy+4x^2y-\\dfrac{1}{3}xy\\) tại \\(x=-2,\\ y=2\\).",
+   "options": [
+    "\\(\\dfrac{56}{3}\\)",
+    "\\(40\\)",
+    "\\(-20\\)",
+    "\\(20\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Simplify first: \\(A=4x^2y-3y^2\\), so \\(A=20\\).",
+   "explain_vi": "Đáp án d. Thu gọn trước: \\(A=4x^2y-3y^2\\), suy ra \\(A=20\\).",
+   "images": [],
+   "id": "0138b4533732",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Simplify \\(#x^#y^#-#+#x^#y^#-#x^#y^#-y^#\\). What is the coefficient of its term of highest degree?",
+   "en": "Simplify \\(3x^2y^3-2+6x^3y^3-6x^3y^3-y^3\\). What is the coefficient of its term of highest degree?",
+   "vi": "Thu gọn đa thức \\(3x^2y^3-2+6x^3y^3-6x^3y^3-y^3\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">Hệ số</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b> có bậc cao nhất là",
+   "options": [
+    "\\(6\\)",
+    "\\(-3\\)",
+    "\\(5\\)",
+    "\\(3\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(3x^2y^3-y^3-2\\); the term of highest degree is \\(3x^2y^3\\).",
+   "explain_vi": "Đáp án d. \\(3x^2y^3-y^3-2\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b> bậc cao nhất là \\(3x^2y^3\\).",
+   "images": [],
+   "id": "e5b82144caf6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A box has length \\(x\\) cm, width \\(y\\) cm and height \\(z\\) cm. Its total surface area is \\(S=#xy+#yz+#zx\\). Find \\(S\\) when \\(x=#,\\ y=#,\\ z=#\\).",
+   "en": "A box has length \\(x\\) cm, width \\(y\\) cm and height \\(z\\) cm. Its total surface area is \\(S=2xy+2yz+2zx\\). Find \\(S\\) when \\(x=7,\\ y=8,\\ z=4\\).",
+   "vi": "Một chiếc hộp <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelepiped\">hình hộp</b> chữ nhật có chiều dài \\(x\\) cm, chiều rộng \\(y\\) cm, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"height\">chiều cao</b> \\(z\\) cm. Tổng diện tích các mặt của hộp là \\(S=2xy+2yz+2zx\\). Tính \\(S\\) khi \\(x=7,\\ y=8,\\ z=4\\).",
+   "options": [
+    "\\(224\\text{ cm}^2\\)",
+    "\\(232\\text{ cm}^2\\)",
+    "\\(116\\text{ cm}^2\\)",
+    "\\(172\\text{ cm}^2\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(S=2(7\\cdot8+8\\cdot4+4\\cdot7)=232\\) cm².",
+   "explain_vi": "Đáp án b. \\(S=2(7\\cdot8+8\\cdot4+4\\cdot7)=232\\) cm².",
+   "images": [],
+   "id": "56a600afa29a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A notebook costs # thousand VND, a pen costs # thousand VND and a box of crayons costs # thousand VND. Buying \\(x\\) notebooks, \\(y\\) pens and \\(z\\) boxes of crayons costs \\(T=#x+#y+#z\\) (thousand VND). Find \\(T\\) for \\(x=#,\\ y=#,\\ z=#\\).",
+   "en": "A notebook costs 6 thousand VND, a pen costs 7 thousand VND and a box of crayons costs 30 thousand VND. Buying \\(x\\) notebooks, \\(y\\) pens and \\(z\\) boxes of crayons costs \\(T=6x+7y+30z\\) (thousand VND). Find \\(T\\) for \\(x=6,\\ y=8,\\ z=1\\).",
+   "vi": "Một quyển vở giá 6 nghìn đồng, một cây bút giá 7 nghìn đồng, một hộp bút màu giá 30 nghìn đồng. Mua \\(x\\) quyển vở, \\(y\\) cây bút và \\(z\\) hộp bút màu hết \\(T=6x+7y+30z\\) (nghìn đồng). Tính \\(T\\) khi \\(x=6,\\ y=8,\\ z=1\\).",
+   "options": [
+    "\\(115\\)",
+    "\\(152\\)",
+    "\\(122\\)",
+    "\\(43\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(T=6\\cdot6+7\\cdot8+30\\cdot1=122\\) thousand VND.",
+   "explain_vi": "Đáp án c. \\(T=6\\cdot6+7\\cdot8+30\\cdot1=122\\) (nghìn đồng).",
+   "images": [],
+   "id": "924ba8b5633c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D4",
+   "type": "mcq",
+   "form": "From a rectangular sheet of cardboard \\(x\\) cm by \\(y\\) cm, four squares with side # cm are cut from the corners. The remaining area is \\(S=xy-#\\) (cm²). Find \\(S\\) when \\(x=#,\\ y=#\\).",
+   "en": "From a rectangular sheet of cardboard \\(x\\) cm by \\(y\\) cm, four squares with side 2 cm are cut from the corners. The remaining area is \\(S=xy-16\\) (cm²). Find \\(S\\) when \\(x=23,\\ y=14\\).",
+   "vi": "Từ một tấm bìa hình chữ nhật kích thước \\(x\\) cm và \\(y\\) cm, người ta cắt bỏ ở bốn góc bốn hình vuông cạnh 2 cm. Diện tích phần còn lại là \\(S=xy-16\\) (cm²). Tính \\(S\\) khi \\(x=23,\\ y=14\\).",
+   "options": [
+    "\\(314\\)",
+    "\\(322\\)",
+    "\\(318\\)",
+    "\\(306\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(S=23\\cdot14-16=306\\) cm².",
+   "explain_vi": "Đáp án d. \\(S=23\\cdot14-16=306\\) cm².",
+   "images": [],
+   "id": "9267dbd1d655",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Choose the polynomial.",
+   "en": "Choose the polynomial.",
+   "vi": "Chọn biểu thức là đa thức.",
+   "options": [
+    "\\(4xy-\\dfrac{1}{y}\\)",
+    "\\(\\dfrac{x+y}{x}\\)",
+    "\\(y+5y^2-7xy\\)",
+    "\\(x^2+\\sqrt{x}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. A polynomial is a sum of monomials. The other expressions contain a variable in a denominator or a square root of a variable.",
+   "explain_vi": "Đáp án c. Đa thức là một tổng của những đơn thức. Các biểu thức còn lại có biến ở mẫu hoặc căn của biến.",
+   "images": [],
+   "id": "6f3531ab5c12",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Find the degree of the polynomial \\(-#xy^#-#x^#+x^#y^#+#x^#y-x^#y^#\\).",
+   "en": "Find the degree of the polynomial \\(-3xy^3-8x^3+x^4y^4+5x^3y-x^4y^4\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"degree of a polynomial\">bậc của đa thức</b> \\(-3xy^3-8x^3+x^4y^4+5x^3y-x^4y^4\\).",
+   "options": [
+    "\\(8\\)",
+    "\\(4\\)",
+    "\\(3\\)",
+    "\\(5\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Simplify first: \\(5x^3y-3xy^3-8x^3\\); the term of highest degree has degree \\(4\\).",
+   "explain_vi": "Đáp án b. Thu gọn trước: \\(5x^3y-3xy^3-8x^3\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b> có bậc cao nhất có bậc \\(4\\).",
+   "images": [],
+   "id": "bafd8875aaef",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Simplify the polynomial \\(-#y+#y+#-#+#x^#-#x^#\\).",
+   "en": "Simplify the polynomial \\(-4y+8y+7-3+13x^3-5x^3\\).",
+   "vi": "Thu gọn đa thức \\(-4y+8y+7-3+13x^3-5x^3\\).",
+   "options": [
+    "\\(-8x^3+4y+4\\)",
+    "\\(10x^3+4y+4\\)",
+    "\\(8x^3+4y+4\\)",
+    "\\(8x^3+4y+5\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Group and add the like terms.",
+   "explain_vi": "Đáp án c. Nhóm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"like terms\">các hạng tử đồng dạng</b> rồi cộng các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b>.",
+   "images": [],
+   "id": "daccef99f32a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "The polynomial \\(#x^#y^#-#xy^#-#x^#y^#-#y^#+#x^#y^#\\) has degree #.",
+   "en": "The polynomial \\(3x^3y^4-3xy^2-3x^3y^4-2y^3+6x^3y^3\\) has degree 7.",
+   "vi": "Đa thức \\(3x^3y^4-3xy^2-3x^3y^4-2y^3+6x^3y^3\\) có bậc là 7.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. After simplifying: \\(6x^3y^3-3xy^2-2y^3\\), so the degree is 6.",
+   "explain_vi": "Sai. Thu gọn được \\(6x^3y^3-3xy^2-2y^3\\) nên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"degree of a polynomial\">bậc của đa thức</b> là 6.",
+   "images": [],
+   "id": "33151c2c9d3a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "The polynomial \\(-#x^#y^#-#y^#\\) has # terms.",
+   "en": "The polynomial \\(-3x^3y^2-3y^2\\) has 1 terms.",
+   "vi": "Đa thức \\(-3x^3y^2-3y^2\\) có 1 <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b>.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. Its terms are \\(-3x^3y^2,\\ -3y^2\\): 2 terms.",
+   "explain_vi": "Sai. Các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b> là \\(-3x^3y^2,\\ -3y^2\\): 2 <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b>.",
+   "images": [],
+   "id": "9925278181a2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "Find the value of the polynomial \\(P=#x^#y+y^#+#y\\) at \\(x=-#,\\ y=#\\).",
+   "en": "Find the value of the polynomial \\(P=2x^2y+y^2+4y\\) at \\(x=-1,\\ y=2\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"evaluate\">Tính giá trị</b> của đa thức \\(P=2x^2y+y^2+4y\\) tại \\(x=-1,\\ y=2\\).",
+   "options": [],
+   "answer": "16",
+   "explain_en": "Answer: 16. Substitute and calculate: \\(P=16\\).",
+   "explain_vi": "Đáp số: 16. Thay \\(x=-1,\\ y=2\\) rồi tính: \\(P=16\\).",
+   "images": [],
+   "id": "e135cd06e02b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "What is the degree of the polynomial \\(#x^#y^#+#xy+#y-#x^#y^#-#x^#y^#\\)?",
+   "en": "What is the degree of the polynomial \\(3x^4y^4+7xy+3y-5x^2y^2-3x^4y^4\\)?",
+   "vi": "Đa thức \\(3x^4y^4+7xy+3y-5x^2y^2-3x^4y^4\\) có bậc bằng bao nhiêu?",
+   "options": [],
+   "answer": "4",
+   "explain_en": "Answer: 4. Simplify: \\(-5x^2y^2+7xy+3y\\). Degree \\(4\\).",
+   "explain_vi": "Đáp số: 4. Thu gọn: \\(-5x^2y^2+7xy+3y\\). Bậc \\(4\\).",
+   "images": [],
+   "id": "02beaab1a927",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D1",
+   "type": "mcq",
+   "form": "The polynomial \\(#x^#y^#+#x^#y-x\\) is…",
+   "en": "The polynomial \\(5x^3y^2+7x^2y-x\\) is…",
+   "vi": "Đa thức \\(5x^3y^2+7x^2y-x\\) là",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">a binomial</span><span class=\"vi\">nhị thức (đa thức có 2 hạng tử)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">a monomial</span><span class=\"vi\">đơn thức</span></span>",
+    "<span class=\"txi\"><span class=\"en\">a polynomial with 4 terms</span><span class=\"vi\">đa thức có 4 hạng tử</span></span>",
+    "<span class=\"txi\"><span class=\"en\">a trinomial</span><span class=\"vi\">tam thức (đa thức có 3 hạng tử)</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. It has 3 terms.",
+   "explain_vi": "Đáp án d. Đa thức có 3 <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b>.",
+   "images": [],
+   "id": "4054dfec2def",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D1",
+   "type": "mcq",
+   "form": "What are the terms of the polynomial \\(#x^#y^#-#xy-#x\\)?",
+   "en": "What are the terms of the polynomial \\(9x^2y^2-3xy-8x\\)?",
+   "vi": "Các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b> của đa thức \\(9x^2y^2-3xy-8x\\) là",
+   "options": [
+    "\\(9x^2y^2;\\ 3xy;\\ 8x\\)",
+    "\\(-9x^2y^2;\\ 3xy;\\ 8x\\)",
+    "\\(9x^2y^2;\\ -3xy;\\ -8x\\)",
+    "\\(x^2y^2;\\ xy;\\ x\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Each term keeps its own sign.",
+   "explain_vi": "Đáp án c. Mỗi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b> mang theo dấu đứng trước nó.",
+   "images": [],
+   "id": "1d6d511c81ef",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D1",
+   "type": "mcq",
+   "form": "What is the constant term of the polynomial \\(#y-#+#x^#y+y^#\\)?",
+   "en": "What is the constant term of the polynomial \\(3y-14+5x^2y+y^2\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">Hệ số</b> tự do (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b> không chứa biến) của đa thức \\(3y-14+5x^2y+y^2\\) là",
+   "options": [
+    "\\(4\\)",
+    "\\(5\\)",
+    "\\(-14\\)",
+    "\\(14\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The constant term is the term without variables: \\(-14\\).",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">Hạng tử</b> không chứa biến là \\(-14\\).",
+   "images": [],
+   "id": "f5488f6af56f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D2",
+   "type": "mcq",
+   "form": "After simplifying \\(#xy-#xy^#-#xy-#x^#y^#-#x^#y^#\\), what is the coefficient of \\(x^#y^#\\)?",
+   "en": "After simplifying \\(7xy-8xy^3-2xy-2x^2y^2-5x^2y^2\\), what is the coefficient of \\(x^2y^2\\)?",
+   "vi": "Sau khi thu gọn đa thức \\(7xy-8xy^3-2xy-2x^2y^2-5x^2y^2\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b> chứa \\(x^2y^2\\) là",
+   "options": [
+    "\\(-7\\)",
+    "\\(-6\\)",
+    "\\(-2\\)",
+    "\\(7\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Add the coefficients of the terms in \\(x^2y^2\\): \\(-7\\).",
+   "explain_vi": "Đáp án a. Cộng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b> các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b> chứa \\(x^2y^2\\): \\(-7\\).",
+   "images": [],
+   "id": "8c37101f18f2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Which polynomial is the simplified form of \\(-#x^#y^#-#x-x^#y^#+#y^#+y-#y^#\\)?",
+   "en": "Which polynomial is the simplified form of \\(-7x^2y^2-7x-x^2y^2+5y^2+y-10y^2\\)?",
+   "vi": "Dạng thu gọn của đa thức \\(-7x^2y^2-7x-x^2y^2+5y^2+y-10y^2\\) là",
+   "options": [
+    "\\(8x^2y^2+5y^2+7x-y\\)",
+    "\\(-8x^2y^2-5y^2-7x\\)",
+    "\\(-8x^2y^2-3y^2-7x+y\\)",
+    "\\(-8x^2y^2-5y^2-7x+y\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Combine the like terms.",
+   "explain_vi": "Đáp án d. Cộng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"like terms\">các hạng tử đồng dạng</b>.",
+   "images": [],
+   "id": "1284ec5e8922",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Which terms of the polynomial \\(#x^#y^#-#x^#y^#+x^#y-#y^#-#x\\) have degree #?",
+   "en": "Which terms of the polynomial \\(5x^3y^2-2x^2y^3+x^2y-3y^3-6x\\) have degree 3?",
+   "vi": "Các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b> bậc 3 của đa thức \\(5x^3y^2-2x^2y^3+x^2y-3y^3-6x\\) là",
+   "options": [
+    "\\(x^2y;\\ -3y^3;\\ 5x^3y^2\\)",
+    "\\(5x^3y^2;\\ -2x^2y^3\\)",
+    "\\(x^2y;\\ -3y^3\\)",
+    "\\(5x^3y^2\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Add the exponents in each term and keep those equal to 3.",
+   "explain_vi": "Đáp án c. Cộng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"exponent\">số mũ</b> các biến của từng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b>, chọn các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b> có tổng bằng 3.",
+   "images": [],
+   "id": "d07efc6ffdc2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Find \\(a\\) so that the polynomial \\(ax^#y-#x^#y+#x+#xy\\) has degree #.",
+   "en": "Find \\(a\\) so that the polynomial \\(ax^2y-5x^2y+3x+7xy\\) has degree 2.",
+   "vi": "Tìm \\(a\\) để đa thức \\(ax^2y-5x^2y+3x+7xy\\) có bậc bằng 2.",
+   "options": [
+    "\\(-5\\)",
+    "\\(2\\)",
+    "\\(0\\)",
+    "\\(5\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. The terms in \\(x^2y\\) must cancel: \\(a-5=0\\Rightarrow a=5\\).",
+   "explain_vi": "Đáp án d. Các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b> chứa \\(x^2y\\) phải triệt tiêu: \\(a-5=0\\Rightarrow a=5\\).",
+   "images": [],
+   "id": "3f252cf2a749",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Find the value of \\(A=-#y+#xy^#-x^#y+x^#y\\) at \\(x=-#,\\ y=#\\).",
+   "en": "Find the value of \\(A=-3y+2xy^2-x^2y+x^2y\\) at \\(x=-1,\\ y=1\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"evaluate\">Tính giá trị</b> của đa thức \\(A=-3y+2xy^2-x^2y+x^2y\\) tại \\(x=-1,\\ y=1\\).",
+   "options": [
+    "\\(-10\\)",
+    "\\(-4\\)",
+    "\\(-5\\)",
+    "\\(5\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Simplify first: \\(A=2xy^2-3y\\), so \\(A=-5\\).",
+   "explain_vi": "Đáp án c. Thu gọn trước: \\(A=2xy^2-3y\\), suy ra \\(A=-5\\).",
+   "images": [],
+   "id": "728f000363dd",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Simplify \\(#xy-x^#y^#+#x^#y^#+x^#y^#+#y^#\\). What is the coefficient of its term of highest degree?",
+   "en": "Simplify \\(2xy-x^4y^4+9x^3y^3+x^4y^4+9y^2\\). What is the coefficient of its term of highest degree?",
+   "vi": "Thu gọn đa thức \\(2xy-x^4y^4+9x^3y^3+x^4y^4+9y^2\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">Hệ số</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b> có bậc cao nhất là",
+   "options": [
+    "\\(-1\\)",
+    "\\(6\\)",
+    "\\(-9\\)",
+    "\\(9\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(9x^3y^3+2xy+9y^2\\); the term of highest degree is \\(9x^3y^3\\).",
+   "explain_vi": "Đáp án d. \\(9x^3y^3+2xy+9y^2\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b> bậc cao nhất là \\(9x^3y^3\\).",
+   "images": [],
+   "id": "a30250f7dd0e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A box has length \\(x\\) cm, width \\(y\\) cm and height \\(z\\) cm. Its total surface area is \\(S=#xy+#yz+#zx\\). Find \\(S\\) when \\(x=#,\\ y=#,\\ z=#\\).",
+   "en": "A box has length \\(x\\) cm, width \\(y\\) cm and height \\(z\\) cm. Its total surface area is \\(S=2xy+2yz+2zx\\). Find \\(S\\) when \\(x=4,\\ y=8,\\ z=7\\).",
+   "vi": "Một chiếc hộp <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelepiped\">hình hộp</b> chữ nhật có chiều dài \\(x\\) cm, chiều rộng \\(y\\) cm, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"height\">chiều cao</b> \\(z\\) cm. Tổng diện tích các mặt của hộp là \\(S=2xy+2yz+2zx\\). Tính \\(S\\) khi \\(x=4,\\ y=8,\\ z=7\\).",
+   "options": [
+    "\\(232\\text{ cm}^2\\)",
+    "\\(148\\text{ cm}^2\\)",
+    "\\(224\\text{ cm}^2\\)",
+    "\\(116\\text{ cm}^2\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(S=2(4\\cdot8+8\\cdot7+7\\cdot4)=232\\) cm².",
+   "explain_vi": "Đáp án a. \\(S=2(4\\cdot8+8\\cdot7+7\\cdot4)=232\\) cm².",
+   "images": [],
+   "id": "9e9740d90c00",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A notebook costs # thousand VND, a pen costs # thousand VND and a box of crayons costs # thousand VND. Buying \\(x\\) notebooks, \\(y\\) pens and \\(z\\) boxes of crayons costs \\(T=#x+#y+#z\\) (thousand VND). Find \\(T\\) for \\(x=#,\\ y=#,\\ z=#\\).",
+   "en": "A notebook costs 10 thousand VND, a pen costs 7 thousand VND and a box of crayons costs 45 thousand VND. Buying \\(x\\) notebooks, \\(y\\) pens and \\(z\\) boxes of crayons costs \\(T=10x+7y+45z\\) (thousand VND). Find \\(T\\) for \\(x=6,\\ y=5,\\ z=1\\).",
+   "vi": "Một quyển vở giá 10 nghìn đồng, một cây bút giá 7 nghìn đồng, một hộp bút màu giá 45 nghìn đồng. Mua \\(x\\) quyển vở, \\(y\\) cây bút và \\(z\\) hộp bút màu hết \\(T=10x+7y+45z\\) (nghìn đồng). Tính \\(T\\) khi \\(x=6,\\ y=5,\\ z=1\\).",
+   "options": [
+    "\\(62\\)",
+    "\\(140\\)",
+    "\\(133\\)",
+    "\\(185\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(T=10\\cdot6+7\\cdot5+45\\cdot1=140\\) thousand VND.",
+   "explain_vi": "Đáp án b. \\(T=10\\cdot6+7\\cdot5+45\\cdot1=140\\) (nghìn đồng).",
+   "images": [],
+   "id": "9e57e70c3df4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D4",
+   "type": "mcq",
+   "form": "From a rectangular sheet of cardboard \\(x\\) cm by \\(y\\) cm, four squares with side # cm are cut from the corners. The remaining area is \\(S=xy-#\\) (cm²). Find \\(S\\) when \\(x=#,\\ y=#\\).",
+   "en": "From a rectangular sheet of cardboard \\(x\\) cm by \\(y\\) cm, four squares with side 3 cm are cut from the corners. The remaining area is \\(S=xy-36\\) (cm²). Find \\(S\\) when \\(x=19,\\ y=23\\).",
+   "vi": "Từ một tấm bìa hình chữ nhật kích thước \\(x\\) cm và \\(y\\) cm, người ta cắt bỏ ở bốn góc bốn hình vuông cạnh 3 cm. Diện tích phần còn lại là \\(S=xy-36\\) (cm²). Tính \\(S\\) khi \\(x=19,\\ y=23\\).",
+   "options": [
+    "\\(425\\)",
+    "\\(437\\)",
+    "\\(401\\)",
+    "\\(428\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(S=19\\cdot23-36=401\\) cm².",
+   "explain_vi": "Đáp án c. \\(S=19\\cdot23-36=401\\) cm².",
+   "images": [],
+   "id": "b2d426d15e84",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Find the degree of the polynomial \\(-#xy-#x^#y^#-#xy^#+#x^#y^#+#y\\).",
+   "en": "Find the degree of the polynomial \\(-6xy-4x^2y^2-6xy^2+4x^2y^2+9y\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"degree of a polynomial\">bậc của đa thức</b> \\(-6xy-4x^2y^2-6xy^2+4x^2y^2+9y\\).",
+   "options": [
+    "\\(3\\)",
+    "\\(4\\)",
+    "\\(1\\)",
+    "\\(6\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Simplify first: \\(-6xy^2-6xy+9y\\); the term of highest degree has degree \\(3\\).",
+   "explain_vi": "Đáp án a. Thu gọn trước: \\(-6xy^2-6xy+9y\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b> có bậc cao nhất có bậc \\(3\\).",
+   "images": [],
+   "id": "777b71582c4d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Simplify the polynomial \\(-#y^#+#xy^#-#x^#y^#+x^#y^#-#xy^#-#y^#\\).",
+   "en": "Simplify the polynomial \\(-4y^2+9xy^3-2x^2y^3+x^2y^3-2xy^3-2y^2\\).",
+   "vi": "Thu gọn đa thức \\(-4y^2+9xy^3-2x^2y^3+x^2y^3-2xy^3-2y^2\\).",
+   "options": [
+    "\\(x^2y^3+7xy^3+6y^2\\)",
+    "\\(-x^2y^3+7xy^3-5y^2\\)",
+    "\\(-x^2y^3+7xy^3-6y^2\\)",
+    "\\(x^2y^3+7xy^3-6y^2\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Group and add the like terms.",
+   "explain_vi": "Đáp án c. Nhóm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"like terms\">các hạng tử đồng dạng</b> rồi cộng các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b>.",
+   "images": [],
+   "id": "2189fbe744dc",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Which expression is a polynomial?",
+   "en": "Which expression is a polynomial?",
+   "vi": "Biểu thức nào là đa thức?",
+   "options": [
+    "\\(-2xy^2+8-3x\\)",
+    "\\(6xy-\\dfrac{1}{y}\\)",
+    "\\(7xy-\\dfrac{1}{y}\\)",
+    "\\(\\sqrt{xy}+4\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. A polynomial is a sum of monomials. The other expressions contain a variable in a denominator or a square root of a variable.",
+   "explain_vi": "Đáp án a. Đa thức là một tổng của những đơn thức. Các biểu thức còn lại có biến ở mẫu hoặc căn của biến.",
+   "images": [],
+   "id": "207c5f14bad4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "The polynomial \\(#x^#y^#-#xy^#-#xy^#+#xy\\) has # terms.",
+   "en": "The polynomial \\(9x^3y^3-2xy^3-4xy^2+2xy\\) has 4 terms.",
+   "vi": "Đa thức \\(9x^3y^3-2xy^3-4xy^2+2xy\\) có 4 <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b>.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. Its terms are \\(9x^3y^3,\\ -2xy^3,\\ -4xy^2,\\ 2xy\\): 4 terms.",
+   "explain_vi": "Đúng. Các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b> là \\(9x^3y^3,\\ -2xy^3,\\ -4xy^2,\\ 2xy\\): 4 <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b>.",
+   "images": [],
+   "id": "d4b3b615e5ed",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "The polynomial \\(-#x^#y^#+#+#x^#y^#-#x^#y-#x\\) has degree #.",
+   "en": "The polynomial \\(-6x^2y^3+9+6x^2y^3-8x^2y-3x\\) has degree 5.",
+   "vi": "Đa thức \\(-6x^2y^3+9+6x^2y^3-8x^2y-3x\\) có bậc là 5.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. After simplifying: \\(-8x^2y-3x+9\\), so the degree is 3.",
+   "explain_vi": "Sai. Thu gọn được \\(-8x^2y-3x+9\\) nên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"degree of a polynomial\">bậc của đa thức</b> là 3.",
+   "images": [],
+   "id": "432316ca0e6e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Find the value of the polynomial \\(P=x^#y^#+#x^#y+#\\) at \\(x=#,\\ y=-#\\).",
+   "en": "Find the value of the polynomial \\(P=x^2y^2+2x^2y+6\\) at \\(x=3,\\ y=-2\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"evaluate\">Tính giá trị</b> của đa thức \\(P=x^2y^2+2x^2y+6\\) tại \\(x=3,\\ y=-2\\).",
+   "options": [],
+   "answer": "6",
+   "explain_en": "Answer: 6. Substitute and calculate: \\(P=6\\).",
+   "explain_vi": "Đáp số: 6. Thay \\(x=3,\\ y=-2\\) rồi tính: \\(P=6\\).",
+   "images": [],
+   "id": "bfde9ec1935a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "What is the degree of the polynomial \\(-#x^#y^#+#y^#-#x^#y^#-#+#x^#y^#\\)?",
+   "en": "What is the degree of the polynomial \\(-4x^2y^3+8y^2-6x^4y^4-7+6x^4y^4\\)?",
+   "vi": "Đa thức \\(-4x^2y^3+8y^2-6x^4y^4-7+6x^4y^4\\) có bậc bằng bao nhiêu?",
+   "options": [],
+   "answer": "5",
+   "explain_en": "Answer: 5. Simplify: \\(-4x^2y^3+8y^2-7\\). Degree \\(5\\).",
+   "explain_vi": "Đáp số: 5. Thu gọn: \\(-4x^2y^3+8y^2-7\\). Bậc \\(5\\).",
+   "images": [],
+   "id": "d43427471a1f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D1",
+   "type": "mcq",
+   "form": "The polynomial \\(#x^#y^#+x^#y+x^#y+#\\) is…",
+   "en": "The polynomial \\(6x^2y^3+x^3y+x^2y+4\\) is…",
+   "vi": "Đa thức \\(6x^2y^3+x^3y+x^2y+4\\) là",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">a polynomial with 4 terms</span><span class=\"vi\">đa thức có 4 hạng tử</span></span>",
+    "<span class=\"txi\"><span class=\"en\">a monomial</span><span class=\"vi\">đơn thức</span></span>",
+    "<span class=\"txi\"><span class=\"en\">a binomial</span><span class=\"vi\">nhị thức (đa thức có 2 hạng tử)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">a trinomial</span><span class=\"vi\">tam thức (đa thức có 3 hạng tử)</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. It has 4 terms.",
+   "explain_vi": "Đáp án a. Đa thức có 4 <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b>.",
+   "images": [],
+   "id": "5cd9b6ce2626",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D1",
+   "type": "mcq",
+   "form": "What are the terms of the polynomial \\(-#x^#y^#-#xy^#+#xy\\)?",
+   "en": "What are the terms of the polynomial \\(-2x^2y^2-3xy^3+8xy\\)?",
+   "vi": "Các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b> của đa thức \\(-2x^2y^2-3xy^3+8xy\\) là",
+   "options": [
+    "\\(2x^2y^2;\\ 3xy^3;\\ 8xy\\)",
+    "\\(x^2y^2;\\ xy^3;\\ xy\\)",
+    "\\(2x^2y^2;\\ 3xy^3;\\ -8xy\\)",
+    "\\(-2x^2y^2;\\ -3xy^3;\\ 8xy\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Each term keeps its own sign.",
+   "explain_vi": "Đáp án d. Mỗi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b> mang theo dấu đứng trước nó.",
+   "images": [],
+   "id": "c9afef680ef4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D1",
+   "type": "mcq",
+   "form": "What is the constant term of the polynomial \\(-#+#x^#y^#+#x^#y+xy^#\\)?",
+   "en": "What is the constant term of the polynomial \\(-5+8x^2y^3+3x^3y+xy^3\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">Hệ số</b> tự do (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b> không chứa biến) của đa thức \\(-5+8x^2y^3+3x^3y+xy^3\\) là",
+   "options": [
+    "\\(3\\)",
+    "\\(-5\\)",
+    "\\(5\\)",
+    "\\(4\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. The constant term is the term without variables: \\(-5\\).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">Hạng tử</b> không chứa biến là \\(-5\\).",
+   "images": [],
+   "id": "ddda309078cb",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D2",
+   "type": "mcq",
+   "form": "After simplifying \\(#x^#y+#y^#+#xy^#-#x^#y-#y^#\\), what is the coefficient of \\(xy^#\\)?",
+   "en": "After simplifying \\(7x^2y+10y^2+2xy^3-13x^2y-8y^2\\), what is the coefficient of \\(xy^3\\)?",
+   "vi": "Sau khi thu gọn đa thức \\(7x^2y+10y^2+2xy^3-13x^2y-8y^2\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b> chứa \\(xy^3\\) là",
+   "options": [
+    "\\(3\\)",
+    "\\(-2\\)",
+    "\\(2\\)",
+    "\\(0\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Add the coefficients of the terms in \\(xy^3\\): \\(2\\).",
+   "explain_vi": "Đáp án c. Cộng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b> các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b> chứa \\(xy^3\\): \\(2\\).",
+   "images": [],
+   "id": "31d956471fe9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Which polynomial is the simplified form of \\(-#x^#y^#-#xy^#+#x^#y^#-#x^#y+#y^#-#y^#\\)?",
+   "en": "Which polynomial is the simplified form of \\(-10x^2y^2-4xy^2+5x^2y^2-3x^2y+7y^2-12y^2\\)?",
+   "vi": "Dạng thu gọn của đa thức \\(-10x^2y^2-4xy^2+5x^2y^2-3x^2y+7y^2-12y^2\\) là",
+   "options": [
+    "\\(-5x^2y^2-3x^2y-4xy^2\\)",
+    "\\(5x^2y^2+3x^2y+4xy^2+5y^2\\)",
+    "\\(-5x^2y^2-3x^2y-4xy^2-5y^2\\)",
+    "\\(-5x^2y^2-x^2y-4xy^2-5y^2\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Combine the like terms.",
+   "explain_vi": "Đáp án c. Cộng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"like terms\">các hạng tử đồng dạng</b>.",
+   "images": [],
+   "id": "a3cee65b7a25",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Which terms of the polynomial \\(-#x^#y-#x^#y^#-#xy^#-#y^#+#x\\) have degree #?",
+   "en": "Which terms of the polynomial \\(-6x^3y-8x^2y^2-6xy^2-5y^2+8x\\) have degree 2?",
+   "vi": "Các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b> bậc 2 của đa thức \\(-6x^3y-8x^2y^2-6xy^2-5y^2+8x\\) là",
+   "options": [
+    "\\(-5y^2;\\ -6x^3y\\)",
+    "\\(-6x^3y;\\ -8x^2y^2\\)",
+    "\\(-6x^3y\\)",
+    "\\(-5y^2\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Add the exponents in each term and keep those equal to 2.",
+   "explain_vi": "Đáp án d. Cộng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"exponent\">số mũ</b> các biến của từng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b>, chọn các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b> có tổng bằng 2.",
+   "images": [],
+   "id": "7056f5cdc208",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Find \\(a\\) so that the polynomial \\(axy^#-xy^#+#xy-#y\\) has degree #.",
+   "en": "Find \\(a\\) so that the polynomial \\(axy^3-xy^3+2xy-2y\\) has degree 2.",
+   "vi": "Tìm \\(a\\) để đa thức \\(axy^3-xy^3+2xy-2y\\) có bậc bằng 2.",
+   "options": [
+    "\\(1\\)",
+    "\\(0\\)",
+    "\\(2\\)",
+    "\\(-1\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. The terms in \\(xy^3\\) must cancel: \\(a-1=0\\Rightarrow a=1\\).",
+   "explain_vi": "Đáp án a. Các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b> chứa \\(xy^3\\) phải triệt tiêu: \\(a-1=0\\Rightarrow a=1\\).",
+   "images": [],
+   "id": "b787ff3500e2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Find the value of \\(A=#x^#y^#+\\dfrac{#}{#}xy-\\dfrac{#}{#}xy+#y\\) at \\(x=-#,\\ y=#\\).",
+   "en": "Find the value of \\(A=5x^2y^2+\\dfrac{5}{3}xy-\\dfrac{5}{3}xy+4y\\) at \\(x=-1,\\ y=1\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"evaluate\">Tính giá trị</b> của đa thức \\(A=5x^2y^2+\\dfrac{5}{3}xy-\\dfrac{5}{3}xy+4y\\) tại \\(x=-1,\\ y=1\\).",
+   "options": [
+    "\\(18\\)",
+    "\\(-9\\)",
+    "\\(\\dfrac{32}{3}\\)",
+    "\\(9\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Simplify first: \\(A=5x^2y^2+4y\\), so \\(A=9\\).",
+   "explain_vi": "Đáp án d. Thu gọn trước: \\(A=5x^2y^2+4y\\), suy ra \\(A=9\\).",
+   "images": [],
+   "id": "9f9900e15c71",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Simplify \\(-#x^#y^#+#y^#+#x-#x^#y^#+#x^#y^#\\). What is the coefficient of its term of highest degree?",
+   "en": "Simplify \\(-6x^3y^2+6y^2+4x-2x^4y^2+2x^4y^2\\). What is the coefficient of its term of highest degree?",
+   "vi": "Thu gọn đa thức \\(-6x^3y^2+6y^2+4x-2x^4y^2+2x^4y^2\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">Hệ số</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b> có bậc cao nhất là",
+   "options": [
+    "\\(5\\)",
+    "\\(-6\\)",
+    "\\(-2\\)",
+    "\\(6\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(-6x^3y^2+6y^2+4x\\); the term of highest degree is \\(-6x^3y^2\\).",
+   "explain_vi": "Đáp án b. \\(-6x^3y^2+6y^2+4x\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b> bậc cao nhất là \\(-6x^3y^2\\).",
+   "images": [],
+   "id": "4f07bb7c6369",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A box has length \\(x\\) cm, width \\(y\\) cm and height \\(z\\) cm. Its total surface area is \\(S=#xy+#yz+#zx\\). Find \\(S\\) when \\(x=#,\\ y=#,\\ z=#\\).",
+   "en": "A box has length \\(x\\) cm, width \\(y\\) cm and height \\(z\\) cm. Its total surface area is \\(S=2xy+2yz+2zx\\). Find \\(S\\) when \\(x=6,\\ y=8,\\ z=3\\).",
+   "vi": "Một chiếc hộp <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelepiped\">hình hộp</b> chữ nhật có chiều dài \\(x\\) cm, chiều rộng \\(y\\) cm, <b class=\"mbl-term\" tabindex=\"0\" data-en=\"height\">chiều cao</b> \\(z\\) cm. Tổng diện tích các mặt của hộp là \\(S=2xy+2yz+2zx\\). Tính \\(S\\) khi \\(x=6,\\ y=8,\\ z=3\\).",
+   "options": [
+    "\\(138\\text{ cm}^2\\)",
+    "\\(180\\text{ cm}^2\\)",
+    "\\(90\\text{ cm}^2\\)",
+    "\\(144\\text{ cm}^2\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(S=2(6\\cdot8+8\\cdot3+3\\cdot6)=180\\) cm².",
+   "explain_vi": "Đáp án b. \\(S=2(6\\cdot8+8\\cdot3+3\\cdot6)=180\\) cm².",
+   "images": [],
+   "id": "886cadde9f02",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A notebook costs # thousand VND, a pen costs # thousand VND and a box of crayons costs # thousand VND. Buying \\(x\\) notebooks, \\(y\\) pens and \\(z\\) boxes of crayons costs \\(T=#x+#y+#z\\) (thousand VND). Find \\(T\\) for \\(x=#,\\ y=#,\\ z=#\\).",
+   "en": "A notebook costs 10 thousand VND, a pen costs 4 thousand VND and a box of crayons costs 45 thousand VND. Buying \\(x\\) notebooks, \\(y\\) pens and \\(z\\) boxes of crayons costs \\(T=10x+4y+45z\\) (thousand VND). Find \\(T\\) for \\(x=5,\\ y=3,\\ z=2\\).",
+   "vi": "Một quyển vở giá 10 nghìn đồng, một cây bút giá 4 nghìn đồng, một hộp bút màu giá 45 nghìn đồng. Mua \\(x\\) quyển vở, \\(y\\) cây bút và \\(z\\) hộp bút màu hết \\(T=10x+4y+45z\\) (nghìn đồng). Tính \\(T\\) khi \\(x=5,\\ y=3,\\ z=2\\).",
+   "options": [
+    "\\(148\\)",
+    "\\(59\\)",
+    "\\(197\\)",
+    "\\(152\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(T=10\\cdot5+4\\cdot3+45\\cdot2=152\\) thousand VND.",
+   "explain_vi": "Đáp án d. \\(T=10\\cdot5+4\\cdot3+45\\cdot2=152\\) (nghìn đồng).",
+   "images": [],
+   "id": "e9dc43889d65",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D4",
+   "type": "mcq",
+   "form": "From a rectangular sheet of cardboard \\(x\\) cm by \\(y\\) cm, four squares with side # cm are cut from the corners. The remaining area is \\(S=xy-#\\) (cm²). Find \\(S\\) when \\(x=#,\\ y=#\\).",
+   "en": "From a rectangular sheet of cardboard \\(x\\) cm by \\(y\\) cm, four squares with side 5 cm are cut from the corners. The remaining area is \\(S=xy-100\\) (cm²). Find \\(S\\) when \\(x=30,\\ y=20\\).",
+   "vi": "Từ một tấm bìa hình chữ nhật kích thước \\(x\\) cm và \\(y\\) cm, người ta cắt bỏ ở bốn góc bốn hình vuông cạnh 5 cm. Diện tích phần còn lại là \\(S=xy-100\\) (cm²). Tính \\(S\\) khi \\(x=30,\\ y=20\\).",
+   "options": [
+    "\\(600\\)",
+    "\\(500\\)",
+    "\\(580\\)",
+    "\\(575\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(S=30\\cdot20-100=500\\) cm².",
+   "explain_vi": "Đáp án b. \\(S=30\\cdot20-100=500\\) cm².",
+   "images": [],
+   "id": "8a4f0e76a387",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  }
+ ]
+}

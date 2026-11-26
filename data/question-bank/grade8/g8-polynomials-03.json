@@ -1,0 +1,1260 @@
+{
+ "lesson": "g8-polynomials-03",
+ "grade": 8,
+ "no": 3,
+ "title": "Phép cộng và phép trừ đa thức",
+ "path": "lessons/grade8/polynomials/adding-subtracting-polynomials.html",
+ "items": [
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Find the polynomial \\(M\\) such that \\(M+(#x^#y^#+#x^#+#xy)=-#x^#y^#-xy+#y\\).",
+   "en": "Find the polynomial \\(M\\) such that \\(M+(7x^2y^2+2x^2+9xy)=-8x^2y^2-xy+5y\\).",
+   "vi": "Tìm đa thức \\(M\\) biết \\(M+(7x^2y^2+2x^2+9xy)=-8x^2y^2-xy+5y\\).",
+   "options": [
+    "\\(-15x^2y^2-2x^2-10xy+5y\\)",
+    "\\(15x^2y^2+2x^2+10xy-5y\\)",
+    "\\(-15x^2y^2-2x^2-10xy+5y+1\\)",
+    "\\(-x^2y^2+2x^2+8xy+5y\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(M=(-8x^2y^2-xy+5y)-(7x^2y^2+2x^2+9xy)=-15x^2y^2-2x^2-10xy+5y\\).",
+   "explain_vi": "Đáp án a. \\(M=(-8x^2y^2-xy+5y)-(7x^2y^2+2x^2+9xy)=-15x^2y^2-2x^2-10xy+5y\\).",
+   "images": [],
+   "id": "2555a3d8e379",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Given \\(A=#x^#y^#+y^#-y\\) and \\(B=#x^#y^#+#xy^#-#y^#\\). Find \\(A-B\\).",
+   "en": "Given \\(A=2x^2y^2+y^2-y\\) and \\(B=3x^2y^2+5xy^2-8y^2\\). Find \\(A-B\\).",
+   "vi": "Cho \\(A=2x^2y^2+y^2-y\\) và \\(B=3x^2y^2+5xy^2-8y^2\\). Tính \\(A-B\\).",
+   "options": [
+    "\\(-x^2y^2-5xy^2+9y^2-y\\)",
+    "\\(x^2y^2+5xy^2-9y^2+y\\)",
+    "\\(5x^2y^2+5xy^2-7y^2-y\\)",
+    "\\(-x^2y^2+5xy^2-7y^2-y\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(A-B=(2x^2y^2+y^2-y)-(3x^2y^2+5xy^2-8y^2)\\): change the sign of <b>every</b> term of \\(B\\), then combine: \\(-x^2y^2-5xy^2+9y^2-y\\).",
+   "explain_vi": "Đáp án a. \\(A-B=(2x^2y^2+y^2-y)-(3x^2y^2+5xy^2-8y^2)\\): đổi dấu <b>tất cả</b> các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b> của \\(B\\) rồi thu gọn: \\(-x^2y^2-5xy^2+9y^2-y\\).",
+   "images": [],
+   "id": "f6a41ad3a7ec",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Given \\(P=-#x^#+#y+#\\) and \\(Q=-#x^#+#x-#y\\). Find \\(P+Q\\).",
+   "en": "Given \\(P=-9x^2+3y+7\\) and \\(Q=-2x^2+9x-5y\\). Find \\(P+Q\\).",
+   "vi": "Cho \\(P=-9x^2+3y+7\\) và \\(Q=-2x^2+9x-5y\\). Tính \\(P+Q\\).",
+   "options": [
+    "\\(-7x^2-9x+8y+7\\)",
+    "\\(11x^2-9x+2y-7\\)",
+    "\\(7x^2+9x-8y-7\\)",
+    "\\(-11x^2+9x-2y+7\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Remove the brackets and combine like terms: \\(P+Q=-11x^2+9x-2y+7\\).",
+   "explain_vi": "Đáp án d. Bỏ dấu ngoặc rồi cộng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"like terms\">các hạng tử đồng dạng</b>: \\(P+Q=-11x^2+9x-2y+7\\).",
+   "images": [],
+   "id": "3d626d25c502",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "Given \\(A=#x^#y^#-#x^#y^#+#xy^#\\) and \\(B=#x^#y^#+#x^#y^#+#xy^#-#\\). The polynomial \\(A-B\\) has degree #.",
+   "en": "Given \\(A=9x^3y^3-4x^3y^2+5xy^2\\) and \\(B=9x^3y^3+4x^3y^2+5xy^2-5\\). The polynomial \\(A-B\\) has degree 6.",
+   "vi": "Cho \\(A=9x^3y^3-4x^3y^2+5xy^2\\) và \\(B=9x^3y^3+4x^3y^2+5xy^2-5\\). Đa thức \\(A-B\\) có bậc 6.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. \\(A-B=-8x^3y^2+5\\) has degree 5 (the terms of highest degree cancel).",
+   "explain_vi": "Sai. \\(A-B=-8x^3y^2+5\\) có bậc 5 (các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b> bậc cao nhất triệt tiêu).",
+   "images": [],
+   "id": "6bcac86c34b2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "If \\(A=-#x^#y^#-#xy+#\\) and \\(B=#xy+#y-#\\), then \\(A+B=-#x^#y^#-xy+#y-#\\).",
+   "en": "If \\(A=-5x^2y^2-4xy+2\\) and \\(B=3xy+7y-7\\), then \\(A+B=-5x^2y^2-xy+7y-5\\).",
+   "vi": "Nếu \\(A=-5x^2y^2-4xy+2\\) và \\(B=3xy+7y-7\\) thì \\(A+B=-5x^2y^2-xy+7y-5\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. \\(A+B=-5x^2y^2-xy+7y-5\\).",
+   "explain_vi": "Đúng. \\(A+B=-5x^2y^2-xy+7y-5\\).",
+   "images": [],
+   "id": "4933650cebd1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "Given \\(A=#x^#y^#-#x^#y-#xy^#\\) and \\(B=-#x^#y+#xy^#-#\\). Find the value of \\(A+B\\) at \\(x=#,\\ y=#\\).",
+   "en": "Given \\(A=5x^2y^2-2x^2y-2xy^2\\) and \\(B=-4x^2y+4xy^2-1\\). Find the value of \\(A+B\\) at \\(x=3,\\ y=1\\).",
+   "vi": "Cho \\(A=5x^2y^2-2x^2y-2xy^2\\) và \\(B=-4x^2y+4xy^2-1\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"evaluate\">Tính giá trị</b> của \\(A+B\\) tại \\(x=3,\\ y=1\\).",
+   "options": [],
+   "answer": "-4",
+   "explain_en": "Answer: -4. \\(A+B=5x^2y^2-6x^2y+2xy^2-1\\); substitute: \\(-4\\).",
+   "explain_vi": "Đáp số: -4. \\(A+B=5x^2y^2-6x^2y+2xy^2-1\\); thay số được \\(-4\\).",
+   "images": [],
+   "id": "a6e7fea76c97",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "Given \\(A=-#x^#y^#+#x^#y-#x\\) and \\(B=#x^#y^#+#y^#-#x\\). In \\(A-B\\), what is the coefficient of \\(x^#y^#\\)?",
+   "en": "Given \\(A=-5x^2y^2+9x^2y-9x\\) and \\(B=9x^2y^2+2y^2-3x\\). In \\(A-B\\), what is the coefficient of \\(x^2y^2\\)?",
+   "vi": "Cho \\(A=-5x^2y^2+9x^2y-9x\\) và \\(B=9x^2y^2+2y^2-3x\\). Trong đa thức \\(A-B\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b> chứa \\(x^2y^2\\) là bao nhiêu?",
+   "options": [],
+   "answer": "-14",
+   "explain_en": "Answer: -14. \\((-5)-(9)=-14\\).",
+   "explain_vi": "Đáp số: -14. \\((-5)-(9)=-14\\).",
+   "images": [],
+   "id": "fb07ff7a8d6d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Given \\(A=#y^#+#x-#y\\) and \\(B=#x^#y^#-#x+#y\\). Which expression is \\(A-B\\)?",
+   "en": "Given \\(A=9y^2+9x-8y\\) and \\(B=8x^2y^2-8x+6y\\). Which expression is \\(A-B\\)?",
+   "vi": "Cho \\(A=9y^2+9x-8y\\) và \\(B=8x^2y^2-8x+6y\\). Biểu thức nào biểu diễn \\(A-B\\)?",
+   "options": [
+    "\\(9y^2+9x-8y-8x^2y^2-8x+6y\\)",
+    "\\((8x^2y^2-8x+6y)-(9y^2+9x-8y)\\)",
+    "\\((9y^2+9x-8y)-(8x^2y^2-8x+6y)\\)",
+    "\\((9y^2+9x-8y)+(8x^2y^2-8x+6y)\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Put each polynomial in brackets: the minus sign applies to the whole of \\(B\\).",
+   "explain_vi": "Đáp án c. Đặt mỗi đa thức trong dấu ngoặc: dấu trừ áp dụng cho cả đa thức \\(B\\).",
+   "images": [],
+   "id": "762166d2aae8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Remove the brackets: \\(-(#x^#y^#+#xy^#-#x)\\).",
+   "en": "Remove the brackets: \\(-(8x^2y^2+8xy^2-8x)\\).",
+   "vi": "Bỏ dấu ngoặc: \\(-(8x^2y^2+8xy^2-8x)\\).",
+   "options": [
+    "\\(-8x^2y^2+8xy^2-8x\\)",
+    "\\(8x^2y^2+8xy^2-8x\\)",
+    "\\(-8x^2y^2-8xy^2-8x\\)",
+    "\\(-8x^2y^2-8xy^2+8x\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. A minus sign in front of brackets changes the sign of every term inside.",
+   "explain_vi": "Đáp án d. Dấu trừ đứng trước dấu ngoặc: đổi dấu tất cả các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b> trong ngoặc.",
+   "images": [],
+   "id": "9e0bead9eba3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Which rule is used to find the difference of two polynomials?",
+   "en": "Which rule is used to find the difference of two polynomials?",
+   "vi": "Quy tắc nào dùng để tính hiệu hai đa thức?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">remove the brackets without changing any sign</span><span class=\"vi\">bỏ dấu ngoặc mà không đổi dấu hạng tử nào</span></span>",
+    "<span class=\"txi\"><span class=\"en\">change the sign of the first term of \\(B\\) only</span><span class=\"vi\">chỉ đổi dấu hạng tử đầu tiên của \\(B\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">subtract the coefficients and the exponents of like terms</span><span class=\"vi\">trừ cả hệ số và số mũ của các hạng tử đồng dạng</span></span>",
+    "<span class=\"txi\"><span class=\"en\">change the sign of every term of \\(B\\), then add it to \\(A\\) and combine like terms</span><span class=\"vi\">đổi dấu tất cả các hạng tử của \\(B\\) rồi cộng với \\(A\\), thu gọn các hạng tử đồng dạng</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(A-B=A+(-B)\\).",
+   "explain_vi": "Đáp án d. \\(A-B=A+(-B)\\).",
+   "images": [],
+   "id": "c13c2757ea92",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Find \\(M\\), given that \\(M-(-#xy^#-#x^#-#xy)=#x^#y^#-#x^#+#xy\\).",
+   "en": "Find \\(M\\), given that \\(M-(-5xy^3-9x^3-8xy)=6x^2y^2-9x^3+6xy\\).",
+   "vi": "Tìm đa thức \\(M\\), biết \\(M-(-5xy^3-9x^3-8xy)=6x^2y^2-9x^3+6xy\\).",
+   "options": [
+    "\\(-6x^2y^2-5xy^3-14xy\\)",
+    "\\(-6x^2y^2+5xy^3+18x^3+2xy\\)",
+    "\\(6x^2y^2-5xy^3-18x^3-2xy\\)",
+    "\\(6x^2y^2+5xy^3+14xy\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(M=(6x^2y^2-9x^3+6xy)+(-5xy^3-9x^3-8xy)=6x^2y^2-5xy^3-18x^3-2xy\\).",
+   "explain_vi": "Đáp án c. \\(M=(6x^2y^2-9x^3+6xy)+(-5xy^3-9x^3-8xy)=6x^2y^2-5xy^3-18x^3-2xy\\).",
+   "images": [],
+   "id": "9f526af7c7a3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Find the sum of \\(-xy-#yz-#z\\) and \\(#xz-#yz+#z\\).",
+   "en": "Find the sum of \\(-xy-4yz-6z\\) and \\(2xz-4yz+6z\\).",
+   "vi": "Tính tổng của hai đa thức \\(-xy-4yz-6z\\) và \\(2xz-4yz+6z\\).",
+   "options": [
+    "\\(-xy-2xz-12z\\)",
+    "\\(-xy+2xz-8yz\\)",
+    "\\(2xz-8yz\\)",
+    "\\(xy-2xz+8yz\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(-xy+2xz-8yz\\).",
+   "explain_vi": "Đáp án b. \\(-xy+2xz-8yz\\).",
+   "images": [],
+   "id": "335b8bb75959",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Given \\(A=#x^#y^#+#y^#+#y\\) and \\(B=-#x^#y^#-#x^#y-#y\\). Which polynomial equals \\(A-B\\)?",
+   "en": "Given \\(A=8x^2y^2+8y^2+9y\\) and \\(B=-8x^2y^2-9x^2y-2y\\). Which polynomial equals \\(A-B\\)?",
+   "vi": "Cho \\(A=8x^2y^2+8y^2+9y\\) và \\(B=-8x^2y^2-9x^2y-2y\\). Đa thức \\(A-B\\) là",
+   "options": [
+    "\\(-9x^2y+8y^2+7y\\)",
+    "\\(-16x^2y^2-9x^2y-8y^2-11y\\)",
+    "\\(16x^2y^2+9x^2y+8y^2+11y\\)",
+    "\\(16x^2y^2-9x^2y+8y^2+7y\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(A-B=(8x^2y^2+8y^2+9y)-(-8x^2y^2-9x^2y-2y)\\): change the sign of <b>every</b> term of \\(B\\), then combine: \\(16x^2y^2+9x^2y+8y^2+11y\\).",
+   "explain_vi": "Đáp án c. \\(A-B=(8x^2y^2+8y^2+9y)-(-8x^2y^2-9x^2y-2y)\\): đổi dấu <b>tất cả</b> các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b> của \\(B\\) rồi thu gọn: \\(16x^2y^2+9x^2y+8y^2+11y\\).",
+   "images": [],
+   "id": "868dc62a5832",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Given \\(A=-#x^#y+y^#-#x\\) and \\(B=-#x^#y-#x+#y\\). Evaluate \\(A-B\\) at \\(x=-#,\\ y=-#\\).",
+   "en": "Given \\(A=-2x^2y+y^2-2x\\) and \\(B=-3x^2y-5x+5y\\). Evaluate \\(A-B\\) at \\(x=-1,\\ y=-3\\).",
+   "vi": "Cho \\(A=-2x^2y+y^2-2x\\) và \\(B=-3x^2y-5x+5y\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"evaluate\">Tính giá trị</b> của \\(A-B\\) tại \\(x=-1,\\ y=-3\\).",
+   "options": [
+    "\\(-18\\)",
+    "\\(-2\\)",
+    "\\(18\\)",
+    "\\(16\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(A-B=x^2y+y^2+3x-5y=18\\).",
+   "explain_vi": "Đáp án c. \\(A-B=x^2y+y^2+3x-5y=18\\).",
+   "images": [],
+   "id": "24b6d758ea50",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Given \\(A=-#x^#y^#-#x^#y-#y^#\\) and \\(B=#x^#y^#-#y^#+#\\). What is the degree of \\(A+B\\)?",
+   "en": "Given \\(A=-6x^3y^2-9x^2y-8y^3\\) and \\(B=6x^3y^2-7y^3+8\\). What is the degree of \\(A+B\\)?",
+   "vi": "Cho \\(A=-6x^3y^2-9x^2y-8y^3\\) và \\(B=6x^3y^2-7y^3+8\\). Đa thức \\(A+B\\) có bậc là",
+   "options": [
+    "\\(10\\)",
+    "\\(3\\)",
+    "\\(5\\)",
+    "\\(4\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(A+B=-9x^2y-15y^3+8\\).",
+   "explain_vi": "Đáp án b. \\(A+B=-9x^2y-15y^3+8\\).",
+   "images": [],
+   "id": "4100c8eda96f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Given \\(M=-#xy+#y^#+#\\), \\(N=#x^#-#xy+#\\), \\(P=-xy^#+#x\\). Find \\(M+N-P\\).",
+   "en": "Given \\(M=-3xy+4y^2+2\\), \\(N=3x^2-2xy+3\\), \\(P=-xy^2+5x\\). Find \\(M+N-P\\).",
+   "vi": "Cho \\(M=-3xy+4y^2+2\\), \\(N=3x^2-2xy+3\\), \\(P=-xy^2+5x\\). Tính \\(M+N-P\\).",
+   "options": [
+    "\\(-xy^2+3x^2-5xy+4y^2+5x+5\\)",
+    "\\(xy^2-3x^2-xy+4y^2-5x-1\\)",
+    "\\(xy^2+3x^2-5xy+4y^2+5x+5\\)",
+    "\\(xy^2+3x^2-5xy+4y^2-5x+5\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(M+N-P=xy^2+3x^2-5xy+4y^2-5x+5\\).",
+   "explain_vi": "Đáp án d. \\(M+N-P=xy^2+3x^2-5xy+4y^2-5x+5\\).",
+   "images": [],
+   "id": "3217d0576a9f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A workshop sells \\(x\\) products. Its revenue is \\(R=-#x^#+#x\\) and its cost is \\(C=#x+#\\) (thousand VND). Find the profit \\(R-C\\) when \\(x=#\\).",
+   "en": "A workshop sells \\(x\\) products. Its revenue is \\(R=-2x^2+150x\\) and its cost is \\(C=30x+500\\) (thousand VND). Find the profit \\(R-C\\) when \\(x=20\\).",
+   "vi": "Một xưởng bán \\(x\\) sản phẩm, doanh thu là \\(R=-2x^2+150x\\) và chi phí là \\(C=30x+500\\) (nghìn đồng). Tính lợi nhuận \\(R-C\\) khi \\(x=20\\).",
+   "options": [
+    "\\(2100\\)",
+    "\\(3300\\)",
+    "\\(1100\\)",
+    "\\(2200\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(R-C=-2x^2+120x-500\\); at \\(x=20\\) the profit is 1100 thousand VND.",
+   "explain_vi": "Đáp án c. \\(R-C=-2x^2+120x-500\\); khi \\(x=20\\), lợi nhuận là 1100 nghìn đồng.",
+   "images": [],
+   "id": "383c87c05b97",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D4",
+   "type": "mcq",
+   "form": "Find the polynomial \\(P\\) such that \\(P+(-#x^#y^#-#xy^#-#)=#x^#y^#-#x^#y+xy^#\\), then evaluate \\(P\\) at \\(x=#,\\ y=-#\\).",
+   "en": "Find the polynomial \\(P\\) such that \\(P+(-2x^2y^2-2xy^2-4)=2x^2y^2-3x^2y+xy^2\\), then evaluate \\(P\\) at \\(x=2,\\ y=-2\\).",
+   "vi": "Tìm đa thức \\(P\\) biết \\(P+(-2x^2y^2-2xy^2-4)=2x^2y^2-3x^2y+xy^2\\), rồi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"evaluate\">tính giá trị</b> của \\(P\\) tại \\(x=2,\\ y=-2\\).",
+   "options": [
+    "\\(-116\\)",
+    "\\(116\\)",
+    "\\(12\\)",
+    "\\(64\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(P=(2x^2y^2-3x^2y+xy^2)-(-2x^2y^2-2xy^2-4)=4x^2y^2-3x^2y+3xy^2+4\\), so \\(P=116\\).",
+   "explain_vi": "Đáp án b. \\(P=(2x^2y^2-3x^2y+xy^2)-(-2x^2y^2-2xy^2-4)=4x^2y^2-3x^2y+3xy^2+4\\), suy ra \\(P=116\\).",
+   "images": [],
+   "id": "5d9ae93fecd7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D4",
+   "type": "mcq",
+   "form": "The sides of a triangle are \\(#x+#y\\), \\(#x-y+#\\) and \\(#y+#\\) (cm). Write its perimeter as a polynomial and find it when \\(x=#,\\ y=#\\).",
+   "en": "The sides of a triangle are \\(5x+5y\\), \\(4x-y+4\\) and \\(2y+4\\) (cm). Write its perimeter as a polynomial and find it when \\(x=2,\\ y=1\\).",
+   "vi": "Ba cạnh của một tam giác có độ dài \\(5x+5y\\), \\(4x-y+4\\) và \\(2y+4\\) (cm). Viết đa thức biểu thị chu vi tam giác và tính chu vi khi \\(x=2,\\ y=1\\).",
+   "options": [
+    "\\(9x+8y+8;\\ 34\\text{ cm}\\)",
+    "\\(9x+2y;\\ 20\\text{ cm}\\)",
+    "\\(9x+6y+8;\\ 34\\text{ cm}\\)",
+    "\\(9x+6y+8;\\ 32\\text{ cm}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(9x+6y+8\\) cm; at \\(x=2,\\ y=1\\): \\(32\\) cm.",
+   "explain_vi": "Đáp án d. Chu vi \\(9x+6y+8\\) (cm); khi \\(x=2,\\ y=1\\): \\(32\\) cm.",
+   "images": [],
+   "id": "1d03fabe2982",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Find the polynomial \\(M\\) such that \\(M-(#x^#y+#x+#)=-#x^#y+x^#+#x\\).",
+   "en": "Find the polynomial \\(M\\) such that \\(M-(5x^2y+8x+8)=-4x^2y+x^2+4x\\).",
+   "vi": "Tìm đa thức \\(M\\) biết \\(M-(5x^2y+8x+8)=-4x^2y+x^2+4x\\).",
+   "options": [
+    "\\(-x^2y-x^2-12x-8\\)",
+    "\\(x^2y+x^2+12x+8\\)",
+    "\\(9x^2y-x^2+4x+8\\)",
+    "\\(-9x^2y+x^2-4x-8\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(M=(-4x^2y+x^2+4x)+(5x^2y+8x+8)=x^2y+x^2+12x+8\\).",
+   "explain_vi": "Đáp án b. \\(M=(-4x^2y+x^2+4x)+(5x^2y+8x+8)=x^2y+x^2+12x+8\\).",
+   "images": [],
+   "id": "516e39f36374",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Given \\(A=#x^#-#xy+#y\\) and \\(B=#x^#-#xy-#y^#\\). Find \\(A-B\\).",
+   "en": "Given \\(A=8x^2-2xy+2y\\) and \\(B=9x^2-2xy-7y^2\\). Find \\(A-B\\).",
+   "vi": "Cho \\(A=8x^2-2xy+2y\\) và \\(B=9x^2-2xy-7y^2\\). Tính \\(A-B\\).",
+   "options": [
+    "\\(-x^2+7y^2+2y\\)",
+    "\\(x^2-7y^2-2y\\)",
+    "\\(-x^2-4xy-7y^2+2y\\)",
+    "\\(17x^2-4xy-7y^2+2y\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(A-B=(8x^2-2xy+2y)-(9x^2-2xy-7y^2)\\): change the sign of <b>every</b> term of \\(B\\), then combine: \\(-x^2+7y^2+2y\\).",
+   "explain_vi": "Đáp án a. \\(A-B=(8x^2-2xy+2y)-(9x^2-2xy-7y^2)\\): đổi dấu <b>tất cả</b> các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b> của \\(B\\) rồi thu gọn: \\(-x^2+7y^2+2y\\).",
+   "images": [],
+   "id": "358a2dea11bf",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Given \\(P=#x^#y^#+#xy^#+#y\\) and \\(Q=-#x^#y^#-#xy^#+#x\\). Find \\(P+Q\\).",
+   "en": "Given \\(P=8x^2y^2+9xy^2+3y\\) and \\(Q=-6x^2y^2-5xy^2+7x\\). Find \\(P+Q\\).",
+   "vi": "Cho \\(P=8x^2y^2+9xy^2+3y\\) và \\(Q=-6x^2y^2-5xy^2+7x\\). Tính \\(P+Q\\).",
+   "options": [
+    "\\(14x^2y^2+14xy^2-7x+3y\\)",
+    "\\(-2x^2y^2-4xy^2-7x-3y\\)",
+    "\\(2x^2y^2+4xy^2+7x+3y\\)",
+    "\\(-14x^2y^2-14xy^2+7x-3y\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Remove the brackets and combine like terms: \\(P+Q=2x^2y^2+4xy^2+7x+3y\\).",
+   "explain_vi": "Đáp án c. Bỏ dấu ngoặc rồi cộng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"like terms\">các hạng tử đồng dạng</b>: \\(P+Q=2x^2y^2+4xy^2+7x+3y\\).",
+   "images": [],
+   "id": "2ba26dece5a6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "Given \\(A=#x^#y+#x^#+#xy^#\\) and \\(B=#x^#y-#x^#-#\\). The polynomial \\(A-B\\) has degree #.",
+   "en": "Given \\(A=4x^3y+5x^3+8xy^2\\) and \\(B=4x^3y-2x^3-5\\). The polynomial \\(A-B\\) has degree 4.",
+   "vi": "Cho \\(A=4x^3y+5x^3+8xy^2\\) và \\(B=4x^3y-2x^3-5\\). Đa thức \\(A-B\\) có bậc 4.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. \\(A-B=7x^3+8xy^2+5\\) has degree 3 (the terms of highest degree cancel).",
+   "explain_vi": "Sai. \\(A-B=7x^3+8xy^2+5\\) có bậc 3 (các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b> bậc cao nhất triệt tiêu).",
+   "images": [],
+   "id": "19f133e68325",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "If \\(A=-#x^#y^#+#x^#y+#xy\\) and \\(B=#x^#y^#+#xy^#-#xy\\), then \\(A-B=-#x^#y^#+#x^#y-#xy^#+#xy\\).",
+   "en": "If \\(A=-6x^2y^2+5x^2y+8xy\\) and \\(B=7x^2y^2+8xy^2-8xy\\), then \\(A-B=-13x^2y^2+5x^2y-8xy^2+16xy\\).",
+   "vi": "Nếu \\(A=-6x^2y^2+5x^2y+8xy\\) và \\(B=7x^2y^2+8xy^2-8xy\\) thì \\(A-B=-13x^2y^2+5x^2y-8xy^2+16xy\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. \\(A-B=-13x^2y^2+5x^2y-8xy^2+16xy\\).",
+   "explain_vi": "Đúng. \\(A-B=-13x^2y^2+5x^2y-8xy^2+16xy\\).",
+   "images": [],
+   "id": "ba7c4fd7de28",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "Given \\(A=#x^#y^#+xy+#y^#\\) and \\(B=-#xy^#+#xy-#y^#\\). In \\(A-B\\), what is the coefficient of \\(xy\\)?",
+   "en": "Given \\(A=8x^2y^2+xy+6y^2\\) and \\(B=-2xy^2+2xy-8y^2\\). In \\(A-B\\), what is the coefficient of \\(xy\\)?",
+   "vi": "Cho \\(A=8x^2y^2+xy+6y^2\\) và \\(B=-2xy^2+2xy-8y^2\\). Trong đa thức \\(A-B\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b> chứa \\(xy\\) là bao nhiêu?",
+   "options": [],
+   "answer": "-1",
+   "explain_en": "Answer: -1. \\((1)-(2)=-1\\).",
+   "explain_vi": "Đáp số: -1. \\((1)-(2)=-1\\).",
+   "images": [],
+   "id": "cbcdec35ca6a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "Given \\(A=#xy^#+#y^#+#\\) and \\(B=#x^#+#y^#-#\\). Find the value of \\(A+B\\) at \\(x=-#,\\ y=-#\\).",
+   "en": "Given \\(A=3xy^2+6y^2+1\\) and \\(B=6x^2+6y^2-1\\). Find the value of \\(A+B\\) at \\(x=-3,\\ y=-2\\).",
+   "vi": "Cho \\(A=3xy^2+6y^2+1\\) và \\(B=6x^2+6y^2-1\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"evaluate\">Tính giá trị</b> của \\(A+B\\) tại \\(x=-3,\\ y=-2\\).",
+   "options": [],
+   "answer": "66",
+   "explain_en": "Answer: 66. \\(A+B=3xy^2+6x^2+12y^2\\); substitute: \\(66\\).",
+   "explain_vi": "Đáp số: 66. \\(A+B=3xy^2+6x^2+12y^2\\); thay số được \\(66\\).",
+   "images": [],
+   "id": "a9fa78812e6d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Given \\(A=-#xy^#-#xy+y^#\\) and \\(B=xy^#-xy+#y\\). Which expression is \\(A-B\\)?",
+   "en": "Given \\(A=-3xy^2-8xy+y^2\\) and \\(B=xy^2-xy+5y\\). Which expression is \\(A-B\\)?",
+   "vi": "Cho \\(A=-3xy^2-8xy+y^2\\) và \\(B=xy^2-xy+5y\\). Biểu thức nào biểu diễn \\(A-B\\)?",
+   "options": [
+    "\\((-3xy^2-8xy+y^2)+(xy^2-xy+5y)\\)",
+    "\\(-3xy^2-8xy+y^2-xy^2-xy+5y\\)",
+    "\\((-3xy^2-8xy+y^2)-(xy^2-xy+5y)\\)",
+    "\\((xy^2-xy+5y)-(-3xy^2-8xy+y^2)\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Put each polynomial in brackets: the minus sign applies to the whole of \\(B\\).",
+   "explain_vi": "Đáp án c. Đặt mỗi đa thức trong dấu ngoặc: dấu trừ áp dụng cho cả đa thức \\(B\\).",
+   "images": [],
+   "id": "59c86532d815",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Remove the brackets: \\(-(-#x^#+y^#-#)\\).",
+   "en": "Remove the brackets: \\(-(-7x^2+y^2-1)\\).",
+   "vi": "Bỏ dấu ngoặc: \\(-(-7x^2+y^2-1)\\).",
+   "options": [
+    "\\(7x^2-y^2+1\\)",
+    "\\(7x^2+y^2-1\\)",
+    "\\(7x^2-y^2-1\\)",
+    "\\(-7x^2+y^2-1\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. A minus sign in front of brackets changes the sign of every term inside.",
+   "explain_vi": "Đáp án a. Dấu trừ đứng trước dấu ngoặc: đổi dấu tất cả các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b> trong ngoặc.",
+   "images": [],
+   "id": "254593f4e005",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D1",
+   "type": "mcq",
+   "form": "To subtract a polynomial, we…",
+   "en": "To subtract a polynomial, we…",
+   "vi": "Muốn trừ một đa thức, ta…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">subtract the coefficients and the exponents of like terms</span><span class=\"vi\">trừ cả hệ số và số mũ của các hạng tử đồng dạng</span></span>",
+    "<span class=\"txi\"><span class=\"en\">change the sign of every term of \\(B\\), then add it to \\(A\\) and combine like terms</span><span class=\"vi\">đổi dấu tất cả các hạng tử của \\(B\\) rồi cộng với \\(A\\), thu gọn các hạng tử đồng dạng</span></span>",
+    "<span class=\"txi\"><span class=\"en\">remove the brackets without changing any sign</span><span class=\"vi\">bỏ dấu ngoặc mà không đổi dấu hạng tử nào</span></span>",
+    "<span class=\"txi\"><span class=\"en\">change the sign of the first term of \\(B\\) only</span><span class=\"vi\">chỉ đổi dấu hạng tử đầu tiên của \\(B\\)</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(A-B=A+(-B)\\).",
+   "explain_vi": "Đáp án b. \\(A-B=A+(-B)\\).",
+   "images": [],
+   "id": "ccba9844bc77",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Find \\(M\\), given that \\(M-(-#y^#+#xy-#y^#)=-#x^#y^#-#y^#-#y^#\\).",
+   "en": "Find \\(M\\), given that \\(M-(-4y^3+8xy-4y^2)=-3x^3y^3-9y^3-7y^2\\).",
+   "vi": "Tìm đa thức \\(M\\), biết \\(M-(-4y^3+8xy-4y^2)=-3x^3y^3-9y^3-7y^2\\).",
+   "options": [
+    "\\(-3x^3y^3-5y^3-8xy-3y^2\\)",
+    "\\(-3x^3y^3-13y^3+8xy-11y^2\\)",
+    "\\(3x^3y^3+5y^3+8xy+3y^2\\)",
+    "\\(3x^3y^3+13y^3-8xy+11y^2\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(M=(-3x^3y^3-9y^3-7y^2)+(-4y^3+8xy-4y^2)=-3x^3y^3-13y^3+8xy-11y^2\\).",
+   "explain_vi": "Đáp án b. \\(M=(-3x^3y^3-9y^3-7y^2)+(-4y^3+8xy-4y^2)=-3x^3y^3-13y^3+8xy-11y^2\\).",
+   "images": [],
+   "id": "05c95007bd2e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Find the sum of \\(-#xyz+#xy+#\\) and \\(#xy+#yz+#\\).",
+   "en": "Find the sum of \\(-5xyz+9xy+2\\) and \\(3xy+5yz+5\\).",
+   "vi": "Tính tổng của hai đa thức \\(-5xyz+9xy+2\\) và \\(3xy+5yz+5\\).",
+   "options": [
+    "\\(-4xyz+12xy+5yz+7\\)",
+    "\\(5xyz-12xy-5yz-7\\)",
+    "\\(-5xyz+6xy-5yz-3\\)",
+    "\\(-5xyz+12xy+5yz+7\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(-5xyz+12xy+5yz+7\\).",
+   "explain_vi": "Đáp án d. \\(-5xyz+12xy+5yz+7\\).",
+   "images": [],
+   "id": "6305f40bd8ac",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Given \\(A=-#x^#y+#xy+#y\\) and \\(B=#x^#y-#x^#-#y\\). Which polynomial equals \\(A-B\\)?",
+   "en": "Given \\(A=-2x^2y+9xy+9y\\) and \\(B=4x^2y-5x^2-8y\\). Which polynomial equals \\(A-B\\)?",
+   "vi": "Cho \\(A=-2x^2y+9xy+9y\\) và \\(B=4x^2y-5x^2-8y\\). Đa thức \\(A-B\\) là",
+   "options": [
+    "\\(-6x^2y-5x^2+9xy+y\\)",
+    "\\(-6x^2y+5x^2+9xy+17y\\)",
+    "\\(6x^2y-5x^2-9xy-17y\\)",
+    "\\(2x^2y-5x^2+9xy+y\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(A-B=(-2x^2y+9xy+9y)-(4x^2y-5x^2-8y)\\): change the sign of <b>every</b> term of \\(B\\), then combine: \\(-6x^2y+5x^2+9xy+17y\\).",
+   "explain_vi": "Đáp án b. \\(A-B=(-2x^2y+9xy+9y)-(4x^2y-5x^2-8y)\\): đổi dấu <b>tất cả</b> các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b> của \\(B\\) rồi thu gọn: \\(-6x^2y+5x^2+9xy+17y\\).",
+   "images": [],
+   "id": "8ee47f621583",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Given \\(A=#x^#y+#xy^#+#xy\\) and \\(B=#x^#y-#xy^#+#y^#\\). Evaluate \\(A-B\\) at \\(x=#,\\ y=-#\\).",
+   "en": "Given \\(A=2x^2y+3xy^2+4xy\\) and \\(B=2x^2y-4xy^2+3y^2\\). Evaluate \\(A-B\\) at \\(x=2,\\ y=-1\\).",
+   "vi": "Cho \\(A=2x^2y+3xy^2+4xy\\) và \\(B=2x^2y-4xy^2+3y^2\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"evaluate\">Tính giá trị</b> của \\(A-B\\) tại \\(x=2,\\ y=-1\\).",
+   "options": [
+    "\\(-23\\)",
+    "\\(-3\\)",
+    "\\(-7\\)",
+    "\\(3\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(A-B=7xy^2+4xy-3y^2=3\\).",
+   "explain_vi": "Đáp án d. \\(A-B=7xy^2+4xy-3y^2=3\\).",
+   "images": [],
+   "id": "cf29a43df8ae",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Given \\(A=-#x^#y^#+#x^#y+#x^#\\) and \\(B=#x^#y^#+xy^#+#x^#\\). What is the degree of \\(A+B\\)?",
+   "en": "Given \\(A=-9x^3y^2+3x^2y+9x^2\\) and \\(B=9x^3y^2+xy^2+5x^2\\). What is the degree of \\(A+B\\)?",
+   "vi": "Cho \\(A=-9x^3y^2+3x^2y+9x^2\\) và \\(B=9x^3y^2+xy^2+5x^2\\). Đa thức \\(A+B\\) có bậc là",
+   "options": [
+    "\\(10\\)",
+    "\\(3\\)",
+    "\\(4\\)",
+    "\\(5\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(A+B=3x^2y+xy^2+14x^2\\).",
+   "explain_vi": "Đáp án b. \\(A+B=3x^2y+xy^2+14x^2\\).",
+   "images": [],
+   "id": "d9775c7ba25c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Given \\(M=-x^#y^#+#xy^#-#xy\\), \\(N=-#xy^#-#xy-#\\), \\(P=#x^#y^#+#y^#\\). Find \\(M+N-P\\).",
+   "en": "Given \\(M=-x^2y^2+3xy^2-2xy\\), \\(N=-6xy^2-3xy-1\\), \\(P=4x^2y^2+4y^2\\). Find \\(M+N-P\\).",
+   "vi": "Cho \\(M=-x^2y^2+3xy^2-2xy\\), \\(N=-6xy^2-3xy-1\\), \\(P=4x^2y^2+4y^2\\). Tính \\(M+N-P\\).",
+   "options": [
+    "\\(-5x^2y^2-3xy^2-5xy-4y^2-1\\)",
+    "\\(3x^2y^2-3xy^2-5xy+4y^2-1\\)",
+    "\\(-5x^2y^2-3xy^2-5xy+4y^2-1\\)",
+    "\\(-5x^2y^2+9xy^2+xy-4y^2+1\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(M+N-P=-5x^2y^2-3xy^2-5xy-4y^2-1\\).",
+   "explain_vi": "Đáp án a. \\(M+N-P=-5x^2y^2-3xy^2-5xy-4y^2-1\\).",
+   "images": [],
+   "id": "4ec4f16f18c3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A workshop sells \\(x\\) products. Its revenue is \\(R=-#x^#+#x\\) and its cost is \\(C=#x+#\\) (thousand VND). Find the profit \\(R-C\\) when \\(x=#\\).",
+   "en": "A workshop sells \\(x\\) products. Its revenue is \\(R=-2x^2+150x\\) and its cost is \\(C=20x+300\\) (thousand VND). Find the profit \\(R-C\\) when \\(x=30\\).",
+   "vi": "Một xưởng bán \\(x\\) sản phẩm, doanh thu là \\(R=-2x^2+150x\\) và chi phí là \\(C=20x+300\\) (nghìn đồng). Tính lợi nhuận \\(R-C\\) khi \\(x=30\\).",
+   "options": [
+    "\\(1800\\)",
+    "\\(2700\\)",
+    "\\(2400\\)",
+    "\\(3600\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(R-C=-2x^2+130x-300\\); at \\(x=30\\) the profit is 1800 thousand VND.",
+   "explain_vi": "Đáp án a. \\(R-C=-2x^2+130x-300\\); khi \\(x=30\\), lợi nhuận là 1800 nghìn đồng.",
+   "images": [],
+   "id": "696d8133593e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D4",
+   "type": "mcq",
+   "form": "Find the polynomial \\(P\\) such that \\(P+(#x^#y-#x-#)=#x^#y^#+#x^#y-x\\), then evaluate \\(P\\) at \\(x=-#,\\ y=-#\\).",
+   "en": "Find the polynomial \\(P\\) such that \\(P+(4x^2y-5x-3)=2x^2y^2+2x^2y-x\\), then evaluate \\(P\\) at \\(x=-2,\\ y=-2\\).",
+   "vi": "Tìm đa thức \\(P\\) biết \\(P+(4x^2y-5x-3)=2x^2y^2+2x^2y-x\\), rồi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"evaluate\">tính giá trị</b> của \\(P\\) tại \\(x=-2,\\ y=-2\\).",
+   "options": [
+    "\\(-7\\)",
+    "\\(-43\\)",
+    "\\(18\\)",
+    "\\(43\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(P=(2x^2y^2+2x^2y-x)-(4x^2y-5x-3)=2x^2y^2-2x^2y+4x+3\\), so \\(P=43\\).",
+   "explain_vi": "Đáp án d. \\(P=(2x^2y^2+2x^2y-x)-(4x^2y-5x-3)=2x^2y^2-2x^2y+4x+3\\), suy ra \\(P=43\\).",
+   "images": [],
+   "id": "8af4df8e608e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D4",
+   "type": "mcq",
+   "form": "The sides of a triangle are \\(#x+#y\\), \\(#x-y+#\\) and \\(y+#\\) (cm). Write its perimeter as a polynomial and find it when \\(x=#,\\ y=#\\).",
+   "en": "The sides of a triangle are \\(2x+3y\\), \\(4x-y+3\\) and \\(y+1\\) (cm). Write its perimeter as a polynomial and find it when \\(x=6,\\ y=4\\).",
+   "vi": "Ba cạnh của một tam giác có độ dài \\(2x+3y\\), \\(4x-y+3\\) và \\(y+1\\) (cm). Viết đa thức biểu thị chu vi tam giác và tính chu vi khi \\(x=6,\\ y=4\\).",
+   "options": [
+    "\\(6x+3y+4;\\ 54\\text{ cm}\\)",
+    "\\(6x+3y+4;\\ 52\\text{ cm}\\)",
+    "\\(6x+5y+4;\\ 60\\text{ cm}\\)",
+    "\\(6x+y+2;\\ 42\\text{ cm}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(6x+3y+4\\) cm; at \\(x=6,\\ y=4\\): \\(52\\) cm.",
+   "explain_vi": "Đáp án b. Chu vi \\(6x+3y+4\\) (cm); khi \\(x=6,\\ y=4\\): \\(52\\) cm.",
+   "images": [],
+   "id": "6a5f52a76636",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Find the polynomial \\(M\\) such that \\(M-(#y^#+#x-#)=#x^#+#y^#+#x\\).",
+   "en": "Find the polynomial \\(M\\) such that \\(M-(7y^2+7x-4)=4x^2+3y^2+8x\\).",
+   "vi": "Tìm đa thức \\(M\\) biết \\(M-(7y^2+7x-4)=4x^2+3y^2+8x\\).",
+   "options": [
+    "\\(-4x^2+4y^2-x-4\\)",
+    "\\(4x^2+10y^2+15x-4\\)",
+    "\\(4x^2-4y^2+x+4\\)",
+    "\\(-4x^2-10y^2-15x+4\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(M=(4x^2+3y^2+8x)+(7y^2+7x-4)=4x^2+10y^2+15x-4\\).",
+   "explain_vi": "Đáp án b. \\(M=(4x^2+3y^2+8x)+(7y^2+7x-4)=4x^2+10y^2+15x-4\\).",
+   "images": [],
+   "id": "83f44b57b162",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Given \\(A=#x^#y^#-#x^#-#\\) and \\(B=-x^#y^#+#x^#-#x\\). Find \\(A-B\\).",
+   "en": "Given \\(A=9x^2y^2-6x^2-1\\) and \\(B=-x^2y^2+4x^2-2x\\). Find \\(A-B\\).",
+   "vi": "Cho \\(A=9x^2y^2-6x^2-1\\) và \\(B=-x^2y^2+4x^2-2x\\). Tính \\(A-B\\).",
+   "options": [
+    "\\(10x^2y^2-2x^2-2x-1\\)",
+    "\\(10x^2y^2-10x^2+2x-1\\)",
+    "\\(8x^2y^2-2x^2-2x-1\\)",
+    "\\(-10x^2y^2+10x^2-2x+1\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(A-B=(9x^2y^2-6x^2-1)-(-x^2y^2+4x^2-2x)\\): change the sign of <b>every</b> term of \\(B\\), then combine: \\(10x^2y^2-10x^2+2x-1\\).",
+   "explain_vi": "Đáp án b. \\(A-B=(9x^2y^2-6x^2-1)-(-x^2y^2+4x^2-2x)\\): đổi dấu <b>tất cả</b> các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b> của \\(B\\) rồi thu gọn: \\(10x^2y^2-10x^2+2x-1\\).",
+   "images": [],
+   "id": "95bbd7d77c66",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Given \\(P=#x^#y^#+#x^#y-#x^#\\) and \\(Q=#x^#y^#-#x^#-xy\\). Find \\(P+Q\\).",
+   "en": "Given \\(P=2x^2y^2+6x^2y-6x^2\\) and \\(Q=4x^2y^2-5x^2-xy\\). Find \\(P+Q\\).",
+   "vi": "Cho \\(P=2x^2y^2+6x^2y-6x^2\\) và \\(Q=4x^2y^2-5x^2-xy\\). Tính \\(P+Q\\).",
+   "options": [
+    "\\(-2x^2y^2+6x^2y-x^2+xy\\)",
+    "\\(2x^2y^2-6x^2y+x^2-xy\\)",
+    "\\(6x^2y^2+6x^2y-11x^2-xy\\)",
+    "\\(-6x^2y^2-6x^2y+11x^2+xy\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Remove the brackets and combine like terms: \\(P+Q=6x^2y^2+6x^2y-11x^2-xy\\).",
+   "explain_vi": "Đáp án c. Bỏ dấu ngoặc rồi cộng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"like terms\">các hạng tử đồng dạng</b>: \\(P+Q=6x^2y^2+6x^2y-11x^2-xy\\).",
+   "images": [],
+   "id": "f4636696bb58",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "Given \\(A=-#x^#y-#xy-#x\\) and \\(B=-#x^#y-x^#+#x\\). The polynomial \\(A-B\\) has degree #.",
+   "en": "Given \\(A=-4x^2y-9xy-8x\\) and \\(B=-4x^2y-x^2+5x\\). The polynomial \\(A-B\\) has degree 2.",
+   "vi": "Cho \\(A=-4x^2y-9xy-8x\\) và \\(B=-4x^2y-x^2+5x\\). Đa thức \\(A-B\\) có bậc 2.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. \\(A-B=x^2-9xy-13x\\) has degree 2 (the terms of highest degree cancel).",
+   "explain_vi": "Đúng. \\(A-B=x^2-9xy-13x\\) có bậc 2 (các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b> bậc cao nhất triệt tiêu).",
+   "images": [],
+   "id": "7dfa8371e652",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "If \\(A=-x^#y+#x^#-#y^#\\) and \\(B=-#x^#y-#y^#-#x\\), then \\(A-B=#x^#y+#x^#-#y^#-#x\\).",
+   "en": "If \\(A=-x^2y+4x^2-6y^2\\) and \\(B=-5x^2y-7y^2-8x\\), then \\(A-B=4x^2y+4x^2-13y^2-8x\\).",
+   "vi": "Nếu \\(A=-x^2y+4x^2-6y^2\\) và \\(B=-5x^2y-7y^2-8x\\) thì \\(A-B=4x^2y+4x^2-13y^2-8x\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. \\(A-B=4x^2y+4x^2+y^2+8x\\).",
+   "explain_vi": "Sai. \\(A-B=4x^2y+4x^2+y^2+8x\\).",
+   "images": [],
+   "id": "3194a2287c91",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Given \\(A=-#x^#y^#-#x^#y-#x^#\\) and \\(B=-#x^#y^#+x^#+#\\). In \\(A-B\\), what is the coefficient of \\(x^#y^#\\)?",
+   "en": "Given \\(A=-3x^2y^2-6x^2y-5x^2\\) and \\(B=-2x^2y^2+x^2+9\\). In \\(A-B\\), what is the coefficient of \\(x^2y^2\\)?",
+   "vi": "Cho \\(A=-3x^2y^2-6x^2y-5x^2\\) và \\(B=-2x^2y^2+x^2+9\\). Trong đa thức \\(A-B\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b> của <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b> chứa \\(x^2y^2\\) là bao nhiêu?",
+   "options": [],
+   "answer": "-1",
+   "explain_en": "Answer: -1. \\((-3)-(-2)=-1\\).",
+   "explain_vi": "Đáp số: -1. \\((-3)-(-2)=-1\\).",
+   "images": [],
+   "id": "78c7a6620f90",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Given \\(A=-#xy^#-xy+#\\) and \\(B=-#xy-#y^#+#\\). Find the value of \\(A+B\\) at \\(x=-#,\\ y=#\\).",
+   "en": "Given \\(A=-4xy^2-xy+4\\) and \\(B=-3xy-5y^2+1\\). Find the value of \\(A+B\\) at \\(x=-3,\\ y=1\\).",
+   "vi": "Cho \\(A=-4xy^2-xy+4\\) và \\(B=-3xy-5y^2+1\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"evaluate\">Tính giá trị</b> của \\(A+B\\) tại \\(x=-3,\\ y=1\\).",
+   "options": [],
+   "answer": "24",
+   "explain_en": "Answer: 24. \\(A+B=-4xy^2-4xy-5y^2+5\\); substitute: \\(24\\).",
+   "explain_vi": "Đáp số: 24. \\(A+B=-4xy^2-4xy-5y^2+5\\); thay số được \\(24\\).",
+   "images": [],
+   "id": "b259c6bea2c0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Given \\(A=#x^#y+#xy^#-#y^#\\) and \\(B=#x^#y-#xy^#-#x^#\\). Which expression is \\(A-B\\)?",
+   "en": "Given \\(A=8x^2y+4xy^2-2y^2\\) and \\(B=4x^2y-9xy^2-9x^2\\). Which expression is \\(A-B\\)?",
+   "vi": "Cho \\(A=8x^2y+4xy^2-2y^2\\) và \\(B=4x^2y-9xy^2-9x^2\\). Biểu thức nào biểu diễn \\(A-B\\)?",
+   "options": [
+    "\\((4x^2y-9xy^2-9x^2)-(8x^2y+4xy^2-2y^2)\\)",
+    "\\((8x^2y+4xy^2-2y^2)+(4x^2y-9xy^2-9x^2)\\)",
+    "\\((8x^2y+4xy^2-2y^2)-(4x^2y-9xy^2-9x^2)\\)",
+    "\\(8x^2y+4xy^2-2y^2-4x^2y-9xy^2-9x^2\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Put each polynomial in brackets: the minus sign applies to the whole of \\(B\\).",
+   "explain_vi": "Đáp án c. Đặt mỗi đa thức trong dấu ngoặc: dấu trừ áp dụng cho cả đa thức \\(B\\).",
+   "images": [],
+   "id": "9d0f60b613a4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Remove the brackets: \\(-(#x^#y-#x^#-#x)\\).",
+   "en": "Remove the brackets: \\(-(9x^2y-2x^2-4x)\\).",
+   "vi": "Bỏ dấu ngoặc: \\(-(9x^2y-2x^2-4x)\\).",
+   "options": [
+    "\\(-9x^2y+2x^2+4x\\)",
+    "\\(-9x^2y-2x^2-4x\\)",
+    "\\(-9x^2y+2x^2-4x\\)",
+    "\\(9x^2y-2x^2-4x\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. A minus sign in front of brackets changes the sign of every term inside.",
+   "explain_vi": "Đáp án a. Dấu trừ đứng trước dấu ngoặc: đổi dấu tất cả các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b> trong ngoặc.",
+   "images": [],
+   "id": "bf8782e3b30b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D1",
+   "type": "mcq",
+   "form": "When we find \\(A-B\\), we…",
+   "en": "When we find \\(A-B\\), we…",
+   "vi": "Khi tính \\(A-B\\), ta…",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">subtract the coefficients and the exponents of like terms</span><span class=\"vi\">trừ cả hệ số và số mũ của các hạng tử đồng dạng</span></span>",
+    "<span class=\"txi\"><span class=\"en\">change the sign of the first term of \\(B\\) only</span><span class=\"vi\">chỉ đổi dấu hạng tử đầu tiên của \\(B\\)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">change the sign of every term of \\(B\\), then add it to \\(A\\) and combine like terms</span><span class=\"vi\">đổi dấu tất cả các hạng tử của \\(B\\) rồi cộng với \\(A\\), thu gọn các hạng tử đồng dạng</span></span>",
+    "<span class=\"txi\"><span class=\"en\">remove the brackets without changing any sign</span><span class=\"vi\">bỏ dấu ngoặc mà không đổi dấu hạng tử nào</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(A-B=A+(-B)\\).",
+   "explain_vi": "Đáp án c. \\(A-B=A+(-B)\\).",
+   "images": [],
+   "id": "7d01156a85a5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Find \\(M\\), given that \\(M-(#x^#y^#-#x^#y-#y^#)=#x^#y^#-#x^#y+#x^#y\\).",
+   "en": "Find \\(M\\), given that \\(M-(6x^3y^2-4x^3y-6y^2)=8x^3y^2-4x^3y+4x^2y\\).",
+   "vi": "Tìm đa thức \\(M\\), biết \\(M-(6x^3y^2-4x^3y-6y^2)=8x^3y^2-4x^3y+4x^2y\\).",
+   "options": [
+    "\\(-14x^3y^2+8x^3y-4x^2y+6y^2\\)",
+    "\\(-2x^3y^2-4x^2y-6y^2\\)",
+    "\\(2x^3y^2+4x^2y+6y^2\\)",
+    "\\(14x^3y^2-8x^3y+4x^2y-6y^2\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(M=(8x^3y^2-4x^3y+4x^2y)+(6x^3y^2-4x^3y-6y^2)=14x^3y^2-8x^3y+4x^2y-6y^2\\).",
+   "explain_vi": "Đáp án d. \\(M=(8x^3y^2-4x^3y+4x^2y)+(6x^3y^2-4x^3y-6y^2)=14x^3y^2-8x^3y+4x^2y-6y^2\\).",
+   "images": [],
+   "id": "922807d0bcda",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Find the sum of \\(#xz+#z-#\\) and \\(xz+#x-#z\\).",
+   "en": "Find the sum of \\(8xz+8z-8\\) and \\(xz+8x-7z\\).",
+   "vi": "Tính tổng của hai đa thức \\(8xz+8z-8\\) và \\(xz+8x-7z\\).",
+   "options": [
+    "\\(9xz+8x+z-8\\)",
+    "\\(-9xz-8x-z+8\\)",
+    "\\(7xz-8x+15z-8\\)",
+    "\\(10xz+8x+z-8\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(9xz+8x+z-8\\).",
+   "explain_vi": "Đáp án a. \\(9xz+8x+z-8\\).",
+   "images": [],
+   "id": "b5ce590311a1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Given \\(A=#x^#y^#+#xy^#+xy\\) and \\(B=#x^#y-#xy^#+#xy\\). Which polynomial equals \\(A-B\\)?",
+   "en": "Given \\(A=8x^2y^2+6xy^2+xy\\) and \\(B=3x^2y-3xy^2+3xy\\). Which polynomial equals \\(A-B\\)?",
+   "vi": "Cho \\(A=8x^2y^2+6xy^2+xy\\) và \\(B=3x^2y-3xy^2+3xy\\). Đa thức \\(A-B\\) là",
+   "options": [
+    "\\(8x^2y^2-3x^2y+3xy^2+4xy\\)",
+    "\\(8x^2y^2-3x^2y+9xy^2-2xy\\)",
+    "\\(-8x^2y^2+3x^2y-9xy^2+2xy\\)",
+    "\\(8x^2y^2+3x^2y+3xy^2+4xy\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(A-B=(8x^2y^2+6xy^2+xy)-(3x^2y-3xy^2+3xy)\\): change the sign of <b>every</b> term of \\(B\\), then combine: \\(8x^2y^2-3x^2y+9xy^2-2xy\\).",
+   "explain_vi": "Đáp án b. \\(A-B=(8x^2y^2+6xy^2+xy)-(3x^2y-3xy^2+3xy)\\): đổi dấu <b>tất cả</b> các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b> của \\(B\\) rồi thu gọn: \\(8x^2y^2-3x^2y+9xy^2-2xy\\).",
+   "images": [],
+   "id": "b6b218564371",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Given \\(A=#xy^#+#x^#+#\\) and \\(B=-#xy^#-xy^#-#x^#-#\\). What is the degree of \\(A+B\\)?",
+   "en": "Given \\(A=7xy^3+7x^2+8\\) and \\(B=-7xy^3-xy^2-5x^2-8\\). What is the degree of \\(A+B\\)?",
+   "vi": "Cho \\(A=7xy^3+7x^2+8\\) và \\(B=-7xy^3-xy^2-5x^2-8\\). Đa thức \\(A+B\\) có bậc là",
+   "options": [
+    "\\(3\\)",
+    "\\(4\\)",
+    "\\(1\\)",
+    "\\(8\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(A+B=-xy^2+2x^2\\).",
+   "explain_vi": "Đáp án a. \\(A+B=-xy^2+2x^2\\).",
+   "images": [],
+   "id": "ba89bfad8741",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Given \\(A=-#xy^#-x^#-#y^#\\) and \\(B=-#xy^#-#xy-y^#\\). Evaluate \\(A-B\\) at \\(x=#,\\ y=-#\\).",
+   "en": "Given \\(A=-2xy^2-x^2-4y^2\\) and \\(B=-4xy^2-2xy-y^2\\). Evaluate \\(A-B\\) at \\(x=1,\\ y=-2\\).",
+   "vi": "Cho \\(A=-2xy^2-x^2-4y^2\\) và \\(B=-4xy^2-2xy-y^2\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"evaluate\">Tính giá trị</b> của \\(A-B\\) tại \\(x=1,\\ y=-2\\).",
+   "options": [
+    "\\(-8\\)",
+    "\\(9\\)",
+    "\\(-9\\)",
+    "\\(-41\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(A-B=2xy^2-x^2+2xy-3y^2=-9\\).",
+   "explain_vi": "Đáp án c. \\(A-B=2xy^2-x^2+2xy-3y^2=-9\\).",
+   "images": [],
+   "id": "4390dd9345ff",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Given \\(M=-#y^#+#x+#\\), \\(N=y^#-y-#\\), \\(P=#y+#\\). Find \\(M+N-P\\).",
+   "en": "Given \\(M=-2y^2+6x+3\\), \\(N=y^2-y-5\\), \\(P=6y+4\\). Find \\(M+N-P\\).",
+   "vi": "Cho \\(M=-2y^2+6x+3\\), \\(N=y^2-y-5\\), \\(P=6y+4\\). Tính \\(M+N-P\\).",
+   "options": [
+    "\\(-y^2+6x+5y+2\\)",
+    "\\(-y^2+6x-7y+2\\)",
+    "\\(-3y^2+6x-5y+4\\)",
+    "\\(-y^2+6x-7y-6\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(M+N-P=-y^2+6x-7y-6\\).",
+   "explain_vi": "Đáp án d. \\(M+N-P=-y^2+6x-7y-6\\).",
+   "images": [],
+   "id": "8aa30c413928",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A workshop sells \\(x\\) products. Its revenue is \\(R=-x^#+#x\\) and its cost is \\(C=#x+#\\) (thousand VND). Find the profit \\(R-C\\) when \\(x=#\\).",
+   "en": "A workshop sells \\(x\\) products. Its revenue is \\(R=-x^2+100x\\) and its cost is \\(C=40x+800\\) (thousand VND). Find the profit \\(R-C\\) when \\(x=30\\).",
+   "vi": "Một xưởng bán \\(x\\) sản phẩm, doanh thu là \\(R=-x^2+100x\\) và chi phí là \\(C=40x+800\\) (nghìn đồng). Tính lợi nhuận \\(R-C\\) khi \\(x=30\\).",
+   "options": [
+    "\\(2100\\)",
+    "\\(100\\)",
+    "\\(1700\\)",
+    "\\(4100\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(R-C=-x^2+60x-800\\); at \\(x=30\\) the profit is 100 thousand VND.",
+   "explain_vi": "Đáp án b. \\(R-C=-x^2+60x-800\\); khi \\(x=30\\), lợi nhuận là 100 nghìn đồng.",
+   "images": [],
+   "id": "61b5feaa7ba8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D4",
+   "type": "mcq",
+   "form": "Find the polynomial \\(P\\) such that \\(P+(-#x^#y^#-#xy^#-#x^#)=x^#y^#-#x^#+#xy\\), then evaluate \\(P\\) at \\(x=#,\\ y=-#\\).",
+   "en": "Find the polynomial \\(P\\) such that \\(P+(-2x^2y^2-4xy^2-4x^2)=x^2y^2-4x^2+3xy\\), then evaluate \\(P\\) at \\(x=2,\\ y=-2\\).",
+   "vi": "Tìm đa thức \\(P\\) biết \\(P+(-2x^2y^2-4xy^2-4x^2)=x^2y^2-4x^2+3xy\\), rồi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"evaluate\">tính giá trị</b> của \\(P\\) tại \\(x=2,\\ y=-2\\).",
+   "options": [
+    "\\(-12\\)",
+    "\\(-68\\)",
+    "\\(-92\\)",
+    "\\(68\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(P=(x^2y^2-4x^2+3xy)-(-2x^2y^2-4xy^2-4x^2)=3x^2y^2+4xy^2+3xy\\), so \\(P=68\\).",
+   "explain_vi": "Đáp án d. \\(P=(x^2y^2-4x^2+3xy)-(-2x^2y^2-4xy^2-4x^2)=3x^2y^2+4xy^2+3xy\\), suy ra \\(P=68\\).",
+   "images": [],
+   "id": "4fa985263fe8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D4",
+   "type": "mcq",
+   "form": "The sides of a triangle are \\(#x+y\\), \\(#x-y+#\\) and \\(#y+#\\) (cm). Write its perimeter as a polynomial and find it when \\(x=#,\\ y=#\\).",
+   "en": "The sides of a triangle are \\(3x+y\\), \\(5x-y+2\\) and \\(3y+4\\) (cm). Write its perimeter as a polynomial and find it when \\(x=2,\\ y=3\\).",
+   "vi": "Ba cạnh của một tam giác có độ dài \\(3x+y\\), \\(5x-y+2\\) và \\(3y+4\\) (cm). Viết đa thức biểu thị chu vi tam giác và tính chu vi khi \\(x=2,\\ y=3\\).",
+   "options": [
+    "\\(8x+5y+6;\\ 37\\text{ cm}\\)",
+    "\\(8x-3y-2;\\ 5\\text{ cm}\\)",
+    "\\(8x+3y+6;\\ 33\\text{ cm}\\)",
+    "\\(8x+3y+6;\\ 31\\text{ cm}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(8x+3y+6\\) cm; at \\(x=2,\\ y=3\\): \\(31\\) cm.",
+   "explain_vi": "Đáp án d. Chu vi \\(8x+3y+6\\) (cm); khi \\(x=2,\\ y=3\\): \\(31\\) cm.",
+   "images": [],
+   "id": "628e6f49f045",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1260 @@
+{
+ "lesson": "g8-polynomials-01",
+ "grade": 8,
+ "no": 1,
+ "title": "Đơn thức",
+ "path": "lessons/grade8/polynomials/monomials.html",
+ "items": [
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Find the degree of the monomial \\(#x^#y^#\\cdot #x^#y^#\\).",
+   "en": "Find the degree of the monomial \\(4x^4y^4\\cdot 2x^2y^3\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"degree of a monomial\">bậc của đơn thức</b> \\(4x^4y^4\\cdot 2x^2y^3\\).",
+   "options": [
+    "\\(13\\)",
+    "\\(14\\)",
+    "\\(40\\)",
+    "\\(12\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Simplify: \\(8x^6y^7\\). The degree is \\(6+7=13\\).",
+   "explain_vi": "Đáp án a. Thu gọn: \\(8x^6y^7\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"degree of a monomial\">Bậc của đơn thức</b> là \\(6+7=13\\).",
+   "images": [],
+   "id": "76c1f959c4f3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Which expression is a monomial?",
+   "en": "Which expression is a monomial?",
+   "vi": "Biểu thức nào là đơn thức?",
+   "options": [
+    "\\(-\\dfrac{3}{2}x^3\\)",
+    "\\(\\dfrac{7}{xy}\\)",
+    "\\(\\sqrt{x}\\)",
+    "\\(\\dfrac{9}{x}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. A monomial is a number, a variable, or a product of numbers and variables. The other expressions contain a sum/difference, a variable in a denominator or a square root of a variable.",
+   "explain_vi": "Đáp án a. Đơn thức là một số, một biến hoặc một tích giữa các số và các biến. Các biểu thức còn lại có phép cộng/trừ, có biến ở mẫu hoặc căn của biến.",
+   "images": [],
+   "id": "94581c5fb08d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Which monomial is like \\(-x^#y\\)?",
+   "en": "Which monomial is like \\(-x^2y\\)?",
+   "vi": "Đơn thức nào đồng dạng với đơn thức \\(-x^2y\\)?",
+   "options": [
+    "\\(-x^2yz\\)",
+    "\\(4x^2y\\)",
+    "\\(-x^3y\\)",
+    "\\(-xy^2\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Like terms have nonzero coefficients and the same literal part \\(x^2y\\).",
+   "explain_vi": "Đáp án b. Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"like terms (like monomials)\">đơn thức đồng dạng</b> có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b> khác 0 và cùng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"literal part\">phần biến</b> \\(x^2y\\).",
+   "images": [],
+   "id": "352846bb48ff",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "The coefficient of the monomial \\(-#x^#y\\) is \\(#\\).",
+   "en": "The coefficient of the monomial \\(-2x^3y\\) is \\(4\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">Hệ số</b> của đơn thức \\(-2x^3y\\) là \\(4\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. The coefficient is the number part: \\(-2\\).",
+   "explain_vi": "Sai. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">Hệ số</b> là phần số: \\(-2\\).",
+   "images": [],
+   "id": "e7f5ff33ef95",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "The monomials \\(#xy^#\\) and \\(-#xy^#\\) are like terms.",
+   "en": "The monomials \\(7xy^4\\) and \\(-6xy^4\\) are like terms.",
+   "vi": "Hai đơn thức \\(7xy^4\\) và \\(-6xy^4\\) đồng dạng.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. Both have the literal part \\(xy^4\\).",
+   "explain_vi": "Đúng. Cả hai có cùng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"literal part\">phần biến</b> \\(xy^4\\).",
+   "images": [],
+   "id": "d645ac2f7e6f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "Find the value of the monomial \\(-#x^#y^#\\) at \\(x=-#,\\ y=#\\).",
+   "en": "Find the value of the monomial \\(-5x^2y^2\\) at \\(x=-3,\\ y=1\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"evaluate\">Tính giá trị</b> của đơn thức \\(-5x^2y^2\\) tại \\(x=-3,\\ y=1\\).",
+   "options": [],
+   "answer": "-45",
+   "explain_en": "Answer: -45. \\(-5\\cdot(-3)^{2}\\cdot 1^{2}=-45\\).",
+   "explain_vi": "Đáp số: -45. \\(-5\\cdot(-3)^{2}\\cdot 1^{2}=-45\\).",
+   "images": [],
+   "id": "fc724e27d78a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "Simplify the monomial \\(#x^#y^#\\cdot #xyz^#\\). What is its degree?",
+   "en": "Simplify the monomial \\(5x^4y^2\\cdot 3xyz^2\\). What is its degree?",
+   "vi": "Thu gọn đơn thức \\(5x^4y^2\\cdot 3xyz^2\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"simplified monomial\">Đơn thức thu gọn</b> có bậc bằng bao nhiêu?",
+   "options": [],
+   "answer": "10",
+   "explain_en": "Answer: 10. \\(5x^4y^2\\cdot 3xyz^2=15x^5y^3z^2\\), degree \\(10\\).",
+   "explain_vi": "Đáp số: 10. \\(5x^4y^2\\cdot 3xyz^2=15x^5y^3z^2\\), bậc \\(10\\).",
+   "images": [],
+   "id": "7c9733d73b9b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D1",
+   "type": "mcq",
+   "form": "How many of the following expressions are monomials? \\(\\sqrt{x};\\ #xy-#;\\ \\dfrac{#}{xy};\\ -\\dfrac{#}{#}x^#y^#;\\ #xy-#\\)",
+   "en": "How many of the following expressions are monomials? \\(\\sqrt{x};\\ 5xy-4;\\ \\dfrac{5}{xy};\\ -\\dfrac{2}{3}x^2y^2;\\ 2xy-3\\)",
+   "vi": "Trong các biểu thức sau, có bao nhiêu đơn thức? \\(\\sqrt{x};\\ 5xy-4;\\ \\dfrac{5}{xy};\\ -\\dfrac{2}{3}x^2y^2;\\ 2xy-3\\)",
+   "options": [
+    "\\(0\\)",
+    "\\(4\\)",
+    "\\(2\\)",
+    "\\(1\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. An expression with a sum/difference, a variable in a denominator or a root of a variable is not a monomial.",
+   "explain_vi": "Đáp án d. Biểu thức có phép cộng/trừ, có biến ở mẫu hoặc căn của biến thì không là đơn thức.",
+   "images": [],
+   "id": "4ee7a5b9102f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D1",
+   "type": "mcq",
+   "form": "What is the coefficient of the monomial \\(-#x^#y^#\\)?",
+   "en": "What is the coefficient of the monomial \\(-9x^2y^3\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">Hệ số</b> của đơn thức \\(-9x^2y^3\\) là",
+   "options": [
+    "\\(9\\)",
+    "\\(5\\)",
+    "\\(10\\)",
+    "\\(-9\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. The coefficient is the number in front of the literal part.",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">Hệ số</b> là phần số đứng trước <b class=\"mbl-term\" tabindex=\"0\" data-en=\"literal part\">phần biến</b>.",
+   "images": [],
+   "id": "38b2cd63c7ca",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D1",
+   "type": "mcq",
+   "form": "What is the literal part of the monomial \\(-#xy\\)?",
+   "en": "What is the literal part of the monomial \\(-7xy\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"literal part\">Phần biến</b> của đơn thức \\(-7xy\\) là",
+   "options": [
+    "\\(xy\\)",
+    "\\(-7xy\\)",
+    "\\(x^2y\\)",
+    "\\(xy^2\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. The literal part is the product of the variables: \\(xy\\).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"literal part\">Phần biến</b> là tích các biến: \\(xy\\).",
+   "images": [],
+   "id": "b1d4221ed5dd",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Find the sum \\(-#x^#y^#+#x^#y^#-#x^#y^#\\).",
+   "en": "Find the sum \\(-7x^2y^2+2x^2y^2-8x^2y^2\\).",
+   "vi": "Tính tổng \\(-7x^2y^2+2x^2y^2-8x^2y^2\\).",
+   "options": [
+    "\\(-13x^2y^2\\)",
+    "\\(3x^2y^2\\)",
+    "\\(13x^2y^2\\)",
+    "\\(-13x^6y^6\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Add the coefficients, keep the literal part: \\((-7)+(2)+(-8)=-13\\).",
+   "explain_vi": "Đáp án a. Cộng các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b>, giữ nguyên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"literal part\">phần biến</b>: \\((-7)+(2)+(-8)=-13\\).",
+   "images": [],
+   "id": "ec087f8e0fab",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Simplify \\(-#xy\\cdot #xy\\).",
+   "en": "Simplify \\(-2xy\\cdot 2xy\\).",
+   "vi": "Thu gọn đơn thức \\(-2xy\\cdot 2xy\\).",
+   "options": [
+    "\\(-4xy\\)",
+    "\\(4x^2y^2\\)",
+    "\\(0x^2y^2\\)",
+    "\\(-4x^2y^2\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Multiply the coefficients and add the exponents of each variable.",
+   "explain_vi": "Đáp án d. Nhân các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b> với nhau và cộng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"exponent\">số mũ</b> của từng biến.",
+   "images": [],
+   "id": "f97cf902a6ee",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D2",
+   "type": "mcq",
+   "form": "What is the degree of the monomial \\(#^#x^#y^#\\)?",
+   "en": "What is the degree of the monomial \\(2^2x^3y^4\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"degree of a monomial\">Bậc của đơn thức</b> \\(2^2x^3y^4\\) là",
+   "options": [
+    "\\(2\\)",
+    "\\(9\\)",
+    "\\(4\\)",
+    "\\(7\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(2^2\\) is part of the coefficient; only the exponents of the variables count: \\(3+4=7\\).",
+   "explain_vi": "Đáp án d. \\(2^2\\) thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b>; chỉ cộng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"exponent\">số mũ</b> của các biến: \\(3+4=7\\).",
+   "images": [],
+   "id": "53e6fe96516a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Find the monomial \\(A\\) such that \\(A-#xyz=#xyz\\).",
+   "en": "Find the monomial \\(A\\) such that \\(A-6xyz=4xyz\\).",
+   "vi": "Tìm đơn thức \\(A\\) biết \\(A-6xyz=4xyz\\).",
+   "options": [
+    "\\(10xyz\\)",
+    "\\(-2xyz\\)",
+    "\\(10x^2y^2z^2\\)",
+    "\\(-10xyz\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(A=4xyz+6xyz=10xyz\\).",
+   "explain_vi": "Đáp án a. \\(A=4xyz+6xyz=10xyz\\).",
+   "images": [],
+   "id": "b53450b523e2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Find the value of \\(A=-x^#y^#-#x^#y^#+\\dfrac{#}{#}x^#y^#\\) at \\(x=#,\\ y=#\\).",
+   "en": "Find the value of \\(A=-x^2y^2-5x^2y^2+\\dfrac{5}{2}x^2y^2\\) at \\(x=3,\\ y=2\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"evaluate\">Tính giá trị</b> của biểu thức \\(A=-x^2y^2-5x^2y^2+\\dfrac{5}{2}x^2y^2\\) tại \\(x=3,\\ y=2\\).",
+   "options": [
+    "\\(-6\\)",
+    "\\(-126\\)",
+    "\\(-252\\)",
+    "\\(126\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. First combine like terms: \\(A=-\\dfrac{7}{2}x^2y^2\\). Then \\(A=-126\\).",
+   "explain_vi": "Đáp án b. Thu gọn trước: \\(A=-\\dfrac{7}{2}x^2y^2\\). Thay số được \\(A=-126\\).",
+   "images": [],
+   "id": "6965444c50c2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Simplify \\(-x^#y^#\\cdot #x^#y\\cdot (-#xy^#)\\), then give the coefficient of the result.",
+   "en": "Simplify \\(-x^2y^2\\cdot 4x^2y\\cdot (-2xy^2)\\), then give the coefficient of the result.",
+   "vi": "Thu gọn đơn thức \\(-x^2y^2\\cdot 4x^2y\\cdot (-2xy^2)\\) rồi cho biết <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b>.",
+   "options": [
+    "\\(-8\\)",
+    "\\(1\\)",
+    "\\(10\\)",
+    "\\(8\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(8x^5y^5\\); coefficient \\(8\\).",
+   "explain_vi": "Đáp án d. \\(8x^5y^5\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b> \\(8\\).",
+   "images": [],
+   "id": "0431e3fd4bc6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A box in the shape of a rectangular prism has length \\(#x\\) cm, width \\(#x\\) cm and height \\(#x\\) cm. Find its volume when \\(x=#\\).",
+   "en": "A box in the shape of a rectangular prism has length \\(2x\\) cm, width \\(2x\\) cm and height \\(3x\\) cm. Find its volume when \\(x=6\\).",
+   "vi": "Một chiếc hộp <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelepiped\">hình hộp</b> chữ nhật có chiều dài \\(2x\\) cm, chiều rộng \\(2x\\) cm và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"height\">chiều cao</b> \\(3x\\) cm. Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"volume\">thể tích</b> của hộp khi \\(x=6\\).",
+   "options": [
+    "\\(2592\\text{ cm}^3\\)",
+    "\\(42\\text{ cm}^3\\)",
+    "\\(432\\text{ cm}^3\\)",
+    "\\(72\\text{ cm}^3\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(V=2x\\cdot 2x\\cdot 3x=12x^3=12\\cdot 216=2592\\) cm³.",
+   "explain_vi": "Đáp án a. \\(V=2x\\cdot 2x\\cdot 3x=12x^3=12\\cdot 216=2592\\) cm³.",
+   "images": [],
+   "id": "b555b0767197",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A rectangular garden is \\(#x\\) m long and \\(#x\\) m wide. A square pond with side \\(x\\) m is dug in it. Write the area of the remaining part as a monomial and evaluate it for \\(x=#\\).",
+   "en": "A rectangular garden is \\(4x\\) m long and \\(4x\\) m wide. A square pond with side \\(x\\) m is dug in it. Write the area of the remaining part as a monomial and evaluate it for \\(x=3\\).",
+   "vi": "Một mảnh vườn hình chữ nhật dài \\(4x\\) m, rộng \\(4x\\) m. Người ta đào một cái ao hình vuông cạnh \\(x\\) m trong vườn. Viết đơn thức biểu thị diện tích phần đất còn lại và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"evaluate\">tính giá trị</b> tại \\(x=3\\).",
+   "options": [
+    "\\(17x^2;\\ 153\\text{ m}^2\\)",
+    "\\(15x^2;\\ 135\\text{ m}^2\\)",
+    "\\(15x;\\ 45\\text{ m}^2\\)",
+    "\\(16x^2;\\ 144\\text{ m}^2\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(4x\\cdot 4x-(x)^2=16x^2-1x^2=15x^2\\); at \\(x=3\\): \\(15\\cdot 9=135\\) m².",
+   "explain_vi": "Đáp án b. \\(4x\\cdot 4x-(x)^2=16x^2-1x^2=15x^2\\); tại \\(x=3\\): \\(15\\cdot 9=135\\) m².",
+   "images": [],
+   "id": "bf13f6d2bb8d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D4",
+   "type": "mcq",
+   "form": "The monomials \\(#x^{a+#}y^{#}\\) and \\(#x^{#}y^{b+#}\\) are like terms. Find \\(a+b\\).",
+   "en": "The monomials \\(3x^{a+3}y^{5}\\) and \\(4x^{4}y^{b+1}\\) are like terms. Find \\(a+b\\).",
+   "vi": "Biết hai đơn thức \\(3x^{a+3}y^{5}\\) và \\(4x^{4}y^{b+1}\\) đồng dạng. Tính \\(a+b\\).",
+   "options": [
+    "\\(5\\)",
+    "\\(9\\)",
+    "\\(20\\)",
+    "\\(6\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Same literal part: \\(a+3=4\\Rightarrow a=1\\); \\(b+1=5\\Rightarrow b=4\\). So \\(a+b=5\\).",
+   "explain_vi": "Đáp án a. Cùng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"literal part\">phần biến</b>: \\(a+3=4\\Rightarrow a=1\\); \\(b+1=5\\Rightarrow b=4\\). Vậy \\(a+b=5\\).",
+   "images": [],
+   "id": "39bf0341d8d4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Find the degree of the monomial \\(xy^#\\cdot #xy^#\\).",
+   "en": "Find the degree of the monomial \\(xy^4\\cdot 6xy^3\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"degree of a monomial\">bậc của đơn thức</b> \\(xy^4\\cdot 6xy^3\\).",
+   "options": [
+    "\\(9\\)",
+    "\\(10\\)",
+    "\\(8\\)",
+    "\\(20\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Simplify: \\(6x^2y^7\\). The degree is \\(2+7=9\\).",
+   "explain_vi": "Đáp án a. Thu gọn: \\(6x^2y^7\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"degree of a monomial\">Bậc của đơn thức</b> là \\(2+7=9\\).",
+   "images": [],
+   "id": "51bdeaa87041",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Only one of these expressions is a monomial. Which one?",
+   "en": "Only one of these expressions is a monomial. Which one?",
+   "vi": "Chỉ có một biểu thức là đơn thức. Đó là biểu thức nào?",
+   "options": [
+    "\\(6xy-4\\)",
+    "\\(8x^2y^2\\)",
+    "\\(9x+y\\)",
+    "\\(x^2-8\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. A monomial is a number, a variable, or a product of numbers and variables. The other expressions contain a sum/difference, a variable in a denominator or a square root of a variable.",
+   "explain_vi": "Đáp án b. Đơn thức là một số, một biến hoặc một tích giữa các số và các biến. Các biểu thức còn lại có phép cộng/trừ, có biến ở mẫu hoặc căn của biến.",
+   "images": [],
+   "id": "0a04a1362efc",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Which monomial is like \\(-#x^#y\\)?",
+   "en": "Which monomial is like \\(-8x^3y\\)?",
+   "vi": "Đơn thức nào đồng dạng với đơn thức \\(-8x^3y\\)?",
+   "options": [
+    "\\(-8x^4y\\)",
+    "\\(-8xy^3\\)",
+    "\\(-8x^3yz\\)",
+    "\\(6x^3y\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Like terms have nonzero coefficients and the same literal part \\(x^3y\\).",
+   "explain_vi": "Đáp án d. Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"like terms (like monomials)\">đơn thức đồng dạng</b> có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b> khác 0 và cùng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"literal part\">phần biến</b> \\(x^3y\\).",
+   "images": [],
+   "id": "79f70dcc6328",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "The coefficient of the monomial \\(\\dfrac{#}{#}xy^#\\) is \\(\\dfrac{#}{#}\\).",
+   "en": "The coefficient of the monomial \\(\\dfrac{1}{5}xy^2\\) is \\(\\dfrac{1}{5}\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">Hệ số</b> của đơn thức \\(\\dfrac{1}{5}xy^2\\) là \\(\\dfrac{1}{5}\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. The coefficient is the number part: \\(\\dfrac{1}{5}\\).",
+   "explain_vi": "Đúng. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">Hệ số</b> là phần số: \\(\\dfrac{1}{5}\\).",
+   "images": [],
+   "id": "aa810f47eac1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "The monomials \\(-#x^#y^#\\) and \\(#x^#y^#\\) are like terms.",
+   "en": "The monomials \\(-7x^3y^4\\) and \\(6x^4y^3\\) are like terms.",
+   "vi": "Hai đơn thức \\(-7x^3y^4\\) và \\(6x^4y^3\\) đồng dạng.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. The literal parts \\(x^3y^4\\) and \\(x^4y^3\\) are different.",
+   "explain_vi": "Sai. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"literal part\">Phần biến</b> \\(x^3y^4\\) và \\(x^4y^3\\) khác nhau.",
+   "images": [],
+   "id": "95b927f8f2db",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "Find the value of the monomial \\(-#x^#y^#\\) at \\(x=-#,\\ y=-#\\).",
+   "en": "Find the value of the monomial \\(-4x^2y^2\\) at \\(x=-2,\\ y=-1\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"evaluate\">Tính giá trị</b> của đơn thức \\(-4x^2y^2\\) tại \\(x=-2,\\ y=-1\\).",
+   "options": [],
+   "answer": "-16",
+   "explain_en": "Answer: -16. \\(-4\\cdot(-2)^{2}\\cdot(-1)^{2}=-16\\).",
+   "explain_vi": "Đáp số: -16. \\(-4\\cdot(-2)^{2}\\cdot(-1)^{2}=-16\\).",
+   "images": [],
+   "id": "c1a1c8a9e11f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "Simplify the monomial \\(-#x^#y^#\\cdot x^#y^#z^#\\). What is its degree?",
+   "en": "Simplify the monomial \\(-3x^2y^3\\cdot x^2y^2z^2\\). What is its degree?",
+   "vi": "Thu gọn đơn thức \\(-3x^2y^3\\cdot x^2y^2z^2\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"simplified monomial\">Đơn thức thu gọn</b> có bậc bằng bao nhiêu?",
+   "options": [],
+   "answer": "11",
+   "explain_en": "Answer: 11. \\(-3x^2y^3\\cdot x^2y^2z^2=-3x^4y^5z^2\\), degree \\(11\\).",
+   "explain_vi": "Đáp số: 11. \\(-3x^2y^3\\cdot x^2y^2z^2=-3x^4y^5z^2\\), bậc \\(11\\).",
+   "images": [],
+   "id": "e89811486238",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D1",
+   "type": "mcq",
+   "form": "How many of the following expressions are monomials? \\(#x^#y^#;\\ -#x^#;\\ -y;\\ x+\\dfrac{#}{y};\\ x^#-#\\)",
+   "en": "How many of the following expressions are monomials? \\(7x^3y^2;\\ -8x^2;\\ -y;\\ x+\\dfrac{1}{y};\\ x^2-2\\)",
+   "vi": "Trong các biểu thức sau, có bao nhiêu đơn thức? \\(7x^3y^2;\\ -8x^2;\\ -y;\\ x+\\dfrac{1}{y};\\ x^2-2\\)",
+   "options": [
+    "\\(2\\)",
+    "\\(4\\)",
+    "\\(3\\)",
+    "\\(5\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. An expression with a sum/difference, a variable in a denominator or a root of a variable is not a monomial.",
+   "explain_vi": "Đáp án c. Biểu thức có phép cộng/trừ, có biến ở mẫu hoặc căn của biến thì không là đơn thức.",
+   "images": [],
+   "id": "8d5f9cc5463b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D1",
+   "type": "mcq",
+   "form": "What is the coefficient of the monomial \\(-#x^#y^#\\)?",
+   "en": "What is the coefficient of the monomial \\(-4x^3y^3\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">Hệ số</b> của đơn thức \\(-4x^3y^3\\) là",
+   "options": [
+    "\\(-4\\)",
+    "\\(5\\)",
+    "\\(4\\)",
+    "\\(6\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. The coefficient is the number in front of the literal part.",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">Hệ số</b> là phần số đứng trước <b class=\"mbl-term\" tabindex=\"0\" data-en=\"literal part\">phần biến</b>.",
+   "images": [],
+   "id": "aac3eca12982",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D1",
+   "type": "mcq",
+   "form": "What is the literal part of the monomial \\(#x^#y^#\\)?",
+   "en": "What is the literal part of the monomial \\(2x^4y^3\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"literal part\">Phần biến</b> của đơn thức \\(2x^4y^3\\) là",
+   "options": [
+    "\\(x^4y^3\\)",
+    "\\(x^4y^4\\)",
+    "\\(x^3y^4\\)",
+    "\\(2x^4y^3\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. The literal part is the product of the variables: \\(x^4y^3\\).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"literal part\">Phần biến</b> là tích các biến: \\(x^4y^3\\).",
+   "images": [],
+   "id": "fd24a4f44056",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Find the sum \\(-#xy+#xy-xy\\).",
+   "en": "Find the sum \\(-4xy+8xy-xy\\).",
+   "vi": "Tính tổng \\(-4xy+8xy-xy\\).",
+   "options": [
+    "\\(3x^3y^3\\)",
+    "\\(3xy\\)",
+    "\\(5xy\\)",
+    "\\(-3xy\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Add the coefficients, keep the literal part: \\((-4)+(8)+(-1)=3\\).",
+   "explain_vi": "Đáp án b. Cộng các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b>, giữ nguyên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"literal part\">phần biến</b>: \\((-4)+(8)+(-1)=3\\).",
+   "images": [],
+   "id": "880e11547a83",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Simplify \\(#xy\\cdot x^#y\\).",
+   "en": "Simplify \\(7xy\\cdot x^3y\\).",
+   "vi": "Thu gọn đơn thức \\(7xy\\cdot x^3y\\).",
+   "options": [
+    "\\(-7x^4y^2\\)",
+    "\\(8x^4y^2\\)",
+    "\\(7x^3y\\)",
+    "\\(7x^4y^2\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Multiply the coefficients and add the exponents of each variable.",
+   "explain_vi": "Đáp án d. Nhân các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b> với nhau và cộng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"exponent\">số mũ</b> của từng biến.",
+   "images": [],
+   "id": "2f024b64db65",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D2",
+   "type": "mcq",
+   "form": "What is the degree of the monomial \\(#^#x^#y^#\\)?",
+   "en": "What is the degree of the monomial \\(2^3x^3y^4\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"degree of a monomial\">Bậc của đơn thức</b> \\(2^3x^3y^4\\) là",
+   "options": [
+    "\\(3\\)",
+    "\\(10\\)",
+    "\\(7\\)",
+    "\\(8\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(2^3\\) is part of the coefficient; only the exponents of the variables count: \\(3+4=7\\).",
+   "explain_vi": "Đáp án c. \\(2^3\\) thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b>; chỉ cộng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"exponent\">số mũ</b> của các biến: \\(3+4=7\\).",
+   "images": [],
+   "id": "2ac8ab18dd1c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Find the monomial \\(A\\) such that \\(A+#x^#yz^#=-#x^#yz^#\\).",
+   "en": "Find the monomial \\(A\\) such that \\(A+6x^2yz^2=-9x^2yz^2\\).",
+   "vi": "Tìm đơn thức \\(A\\) biết \\(A+6x^2yz^2=-9x^2yz^2\\).",
+   "options": [
+    "\\(-15x^4y^2z^4\\)",
+    "\\(-15x^2yz^2\\)",
+    "\\(-3x^2yz^2\\)",
+    "\\(15x^2yz^2\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(A=-9x^2yz^2-6x^2yz^2=-15x^2yz^2\\).",
+   "explain_vi": "Đáp án b. \\(A=-9x^2yz^2-6x^2yz^2=-15x^2yz^2\\).",
+   "images": [],
+   "id": "e9a212978423",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Find the value of \\(A=-x^#y^#+#x^#y^#+x^#y^#\\) at \\(x=#,\\ y=-#\\).",
+   "en": "Find the value of \\(A=-x^2y^2+6x^2y^2+x^2y^2\\) at \\(x=3,\\ y=-1\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"evaluate\">Tính giá trị</b> của biểu thức \\(A=-x^2y^2+6x^2y^2+x^2y^2\\) tại \\(x=3,\\ y=-1\\).",
+   "options": [
+    "\\(5\\)",
+    "\\(54\\)",
+    "\\(-54\\)",
+    "\\(108\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. First combine like terms: \\(A=6x^2y^2\\). Then \\(A=54\\).",
+   "explain_vi": "Đáp án b. Thu gọn trước: \\(A=6x^2y^2\\). Thay số được \\(A=54\\).",
+   "images": [],
+   "id": "6e034b7880f8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Simplify \\(#x^#\\cdot (-#y^#)\\cdot (-#xy)\\), then give the coefficient of the result.",
+   "en": "Simplify \\(2x^2\\cdot (-2y^2)\\cdot (-4xy)\\), then give the coefficient of the result.",
+   "vi": "Thu gọn đơn thức \\(2x^2\\cdot (-2y^2)\\cdot (-4xy)\\) rồi cho biết <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b>.",
+   "options": [
+    "\\(16\\)",
+    "\\(6\\)",
+    "\\(-16\\)",
+    "\\(-4\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(16x^3y^3\\); coefficient \\(16\\).",
+   "explain_vi": "Đáp án a. \\(16x^3y^3\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b> \\(16\\).",
+   "images": [],
+   "id": "95a00ac865ea",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A box in the shape of a rectangular prism has length \\(#x\\) cm, width \\(#x\\) cm and height \\(#x\\) cm. Find its volume when \\(x=#\\).",
+   "en": "A box in the shape of a rectangular prism has length \\(2x\\) cm, width \\(2x\\) cm and height \\(4x\\) cm. Find its volume when \\(x=3\\).",
+   "vi": "Một chiếc hộp <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelepiped\">hình hộp</b> chữ nhật có chiều dài \\(2x\\) cm, chiều rộng \\(2x\\) cm và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"height\">chiều cao</b> \\(4x\\) cm. Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"volume\">thể tích</b> của hộp khi \\(x=3\\).",
+   "options": [
+    "\\(48\\text{ cm}^3\\)",
+    "\\(144\\text{ cm}^3\\)",
+    "\\(432\\text{ cm}^3\\)",
+    "\\(24\\text{ cm}^3\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(V=2x\\cdot 2x\\cdot 4x=16x^3=16\\cdot 27=432\\) cm³.",
+   "explain_vi": "Đáp án c. \\(V=2x\\cdot 2x\\cdot 4x=16x^3=16\\cdot 27=432\\) cm³.",
+   "images": [],
+   "id": "dc63be6a3a0d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A rectangular garden is \\(#x\\) m long and \\(#x\\) m wide. A square pond with side \\(#x\\) m is dug in it. Write the area of the remaining part as a monomial and evaluate it for \\(x=#\\).",
+   "en": "A rectangular garden is \\(6x\\) m long and \\(6x\\) m wide. A square pond with side \\(2x\\) m is dug in it. Write the area of the remaining part as a monomial and evaluate it for \\(x=6\\).",
+   "vi": "Một mảnh vườn hình chữ nhật dài \\(6x\\) m, rộng \\(6x\\) m. Người ta đào một cái ao hình vuông cạnh \\(2x\\) m trong vườn. Viết đơn thức biểu thị diện tích phần đất còn lại và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"evaluate\">tính giá trị</b> tại \\(x=6\\).",
+   "options": [
+    "\\(32x;\\ 192\\text{ m}^2\\)",
+    "\\(40x^2;\\ 1440\\text{ m}^2\\)",
+    "\\(32x^2;\\ 1152\\text{ m}^2\\)",
+    "\\(36x^2;\\ 1296\\text{ m}^2\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(6x\\cdot 6x-(2x)^2=36x^2-4x^2=32x^2\\); at \\(x=6\\): \\(32\\cdot 36=1152\\) m².",
+   "explain_vi": "Đáp án c. \\(6x\\cdot 6x-(2x)^2=36x^2-4x^2=32x^2\\); tại \\(x=6\\): \\(32\\cdot 36=1152\\) m².",
+   "images": [],
+   "id": "d0a407aa6560",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D4",
+   "type": "mcq",
+   "form": "The monomials \\(-#x^{a+#}y^{#}\\) and \\(#x^{#}y^{b}\\) are like terms. Find \\(a+b\\).",
+   "en": "The monomials \\(-2x^{a+1}y^{4}\\) and \\(3x^{4}y^{b}\\) are like terms. Find \\(a+b\\).",
+   "vi": "Biết hai đơn thức \\(-2x^{a+1}y^{4}\\) và \\(3x^{4}y^{b}\\) đồng dạng. Tính \\(a+b\\).",
+   "options": [
+    "\\(8\\)",
+    "\\(5\\)",
+    "\\(7\\)",
+    "\\(16\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Same literal part: \\(a+1=4\\Rightarrow a=3\\); \\(b=4\\Rightarrow b=4\\). So \\(a+b=7\\).",
+   "explain_vi": "Đáp án c. Cùng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"literal part\">phần biến</b>: \\(a+1=4\\Rightarrow a=3\\); \\(b=4\\Rightarrow b=4\\). Vậy \\(a+b=7\\).",
+   "images": [],
+   "id": "2d4dfd95449b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Find the degree of the monomial \\(x^#y^#\\cdot x^#y\\).",
+   "en": "Find the degree of the monomial \\(x^3y^3\\cdot x^2y\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"degree of a monomial\">bậc của đơn thức</b> \\(x^3y^3\\cdot x^2y\\).",
+   "options": [
+    "\\(8\\)",
+    "\\(9\\)",
+    "\\(18\\)",
+    "\\(10\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Simplify: \\(x^5y^4\\). The degree is \\(5+4=9\\).",
+   "explain_vi": "Đáp án b. Thu gọn: \\(x^5y^4\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"degree of a monomial\">Bậc của đơn thức</b> là \\(5+4=9\\).",
+   "images": [],
+   "id": "e5085f4229c2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Which monomial is like \\(-#x^#y^#\\)?",
+   "en": "Which monomial is like \\(-3x^4y^3\\)?",
+   "vi": "Đơn thức nào đồng dạng với đơn thức \\(-3x^4y^3\\)?",
+   "options": [
+    "\\(2x^4y^3\\)",
+    "\\(-3x^5y^3\\)",
+    "\\(-3x^4y^3z\\)",
+    "\\(-3x^3y^4\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Like terms have nonzero coefficients and the same literal part \\(x^4y^3\\).",
+   "explain_vi": "Đáp án a. Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"like terms (like monomials)\">đơn thức đồng dạng</b> có <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b> khác 0 và cùng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"literal part\">phần biến</b> \\(x^4y^3\\).",
+   "images": [],
+   "id": "e1531f3258b6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Which of the following is a monomial?",
+   "en": "Which of the following is a monomial?",
+   "vi": "Biểu thức nào sau đây là đơn thức?",
+   "options": [
+    "\\(2xy\\)",
+    "\\(\\dfrac{3}{x}\\)",
+    "\\(x+\\dfrac{1}{y}\\)",
+    "\\(5x+y\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. A monomial is a number, a variable, or a product of numbers and variables. The other expressions contain a sum/difference, a variable in a denominator or a square root of a variable.",
+   "explain_vi": "Đáp án a. Đơn thức là một số, một biến hoặc một tích giữa các số và các biến. Các biểu thức còn lại có phép cộng/trừ, có biến ở mẫu hoặc căn của biến.",
+   "images": [],
+   "id": "58ea8ce739a8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "The coefficient of the monomial \\(xy^#\\) is \\(-#\\).",
+   "en": "The coefficient of the monomial \\(xy^2\\) is \\(-1\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">Hệ số</b> của đơn thức \\(xy^2\\) là \\(-1\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. The coefficient is the number part: \\(1\\).",
+   "explain_vi": "Sai. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">Hệ số</b> là phần số: \\(1\\).",
+   "images": [],
+   "id": "adce6dded164",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "The monomials \\(-#xy^#\\) and \\(-#x^#y\\) are like terms.",
+   "en": "The monomials \\(-2xy^2\\) and \\(-6x^2y\\) are like terms.",
+   "vi": "Hai đơn thức \\(-2xy^2\\) và \\(-6x^2y\\) đồng dạng.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. The literal parts \\(xy^2\\) and \\(x^2y\\) are different.",
+   "explain_vi": "Sai. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"literal part\">Phần biến</b> \\(xy^2\\) và \\(x^2y\\) khác nhau.",
+   "images": [],
+   "id": "5e1fbe628375",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Find the value of the monomial \\(x^#y^#\\) at \\(x=#,\\ y=-#\\).",
+   "en": "Find the value of the monomial \\(x^2y^2\\) at \\(x=3,\\ y=-1\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"evaluate\">Tính giá trị</b> của đơn thức \\(x^2y^2\\) tại \\(x=3,\\ y=-1\\).",
+   "options": [],
+   "answer": "9",
+   "explain_en": "Answer: 9. \\(1\\cdot 3^{2}\\cdot(-1)^{2}=9\\).",
+   "explain_vi": "Đáp số: 9. \\(1\\cdot 3^{2}\\cdot(-1)^{2}=9\\).",
+   "images": [],
+   "id": "cbff7007d6ee",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Simplify the monomial \\(#x^#y^#\\cdot #xy^#z^#\\). What is its degree?",
+   "en": "Simplify the monomial \\(4x^2y^3\\cdot 3xy^2z^3\\). What is its degree?",
+   "vi": "Thu gọn đơn thức \\(4x^2y^3\\cdot 3xy^2z^3\\). <b class=\"mbl-term\" tabindex=\"0\" data-en=\"simplified monomial\">Đơn thức thu gọn</b> có bậc bằng bao nhiêu?",
+   "options": [],
+   "answer": "11",
+   "explain_en": "Answer: 11. \\(4x^2y^3\\cdot 3xy^2z^3=12x^3y^5z^3\\), degree \\(11\\).",
+   "explain_vi": "Đáp số: 11. \\(4x^2y^3\\cdot 3xy^2z^3=12x^3y^5z^3\\), bậc \\(11\\).",
+   "images": [],
+   "id": "125db3facd4d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D1",
+   "type": "mcq",
+   "form": "How many of the following expressions are monomials? \\(-#x^#;\\ #x^#y^#;\\ x+\\dfrac{#}{y};\\ x^#-#;\\ -#y\\)",
+   "en": "How many of the following expressions are monomials? \\(-7x^3;\\ 7x^3y^2;\\ x+\\dfrac{1}{y};\\ x^2-3;\\ -5y\\)",
+   "vi": "Trong các biểu thức sau, có bao nhiêu đơn thức? \\(-7x^3;\\ 7x^3y^2;\\ x+\\dfrac{1}{y};\\ x^2-3;\\ -5y\\)",
+   "options": [
+    "\\(4\\)",
+    "\\(5\\)",
+    "\\(3\\)",
+    "\\(2\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. An expression with a sum/difference, a variable in a denominator or a root of a variable is not a monomial.",
+   "explain_vi": "Đáp án c. Biểu thức có phép cộng/trừ, có biến ở mẫu hoặc căn của biến thì không là đơn thức.",
+   "images": [],
+   "id": "fbc7aad4eb47",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D1",
+   "type": "mcq",
+   "form": "What is the coefficient of the monomial \\(\\dfrac{#}{#}xy^#z^#\\)?",
+   "en": "What is the coefficient of the monomial \\(\\dfrac{5}{3}xy^3z^2\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">Hệ số</b> của đơn thức \\(\\dfrac{5}{3}xy^3z^2\\) là",
+   "options": [
+    "\\(\\dfrac{5}{3}\\)",
+    "\\(\\dfrac{8}{3}\\)",
+    "\\(6\\)",
+    "\\(-\\dfrac{5}{3}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. The coefficient is the number in front of the literal part.",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">Hệ số</b> là phần số đứng trước <b class=\"mbl-term\" tabindex=\"0\" data-en=\"literal part\">phần biến</b>.",
+   "images": [],
+   "id": "7c44fe22873d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D1",
+   "type": "mcq",
+   "form": "What is the literal part of the monomial \\(#x^#y\\)?",
+   "en": "What is the literal part of the monomial \\(8x^3y\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"literal part\">Phần biến</b> của đơn thức \\(8x^3y\\) là",
+   "options": [
+    "\\(x^3y^2\\)",
+    "\\(x^3y\\)",
+    "\\(8x^3y\\)",
+    "\\(xy^3\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. The literal part is the product of the variables: \\(x^3y\\).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"literal part\">Phần biến</b> là tích các biến: \\(x^3y\\).",
+   "images": [],
+   "id": "efa1b43ca20c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Find the sum \\(xy+#xy+#xy\\).",
+   "en": "Find the sum \\(xy+5xy+8xy\\).",
+   "vi": "Tính tổng \\(xy+5xy+8xy\\).",
+   "options": [
+    "\\(-14xy\\)",
+    "\\(14x^3y^3\\)",
+    "\\(-2xy\\)",
+    "\\(14xy\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Add the coefficients, keep the literal part: \\((1)+(5)+(8)=14\\).",
+   "explain_vi": "Đáp án d. Cộng các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b>, giữ nguyên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"literal part\">phần biến</b>: \\((1)+(5)+(8)=14\\).",
+   "images": [],
+   "id": "548eb1191746",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Simplify \\(-\\dfrac{#}{#}x^#y\\cdot #x^#y\\).",
+   "en": "Simplify \\(-\\dfrac{3}{4}x^3y\\cdot 3x^2y\\).",
+   "vi": "Thu gọn đơn thức \\(-\\dfrac{3}{4}x^3y\\cdot 3x^2y\\).",
+   "options": [
+    "\\(-\\dfrac{9}{4}x^6y\\)",
+    "\\(-\\dfrac{9}{4}x^5y\\)",
+    "\\(\\dfrac{9}{4}x^5y^2\\)",
+    "\\(-\\dfrac{9}{4}x^5y^2\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Multiply the coefficients and add the exponents of each variable.",
+   "explain_vi": "Đáp án d. Nhân các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b> với nhau và cộng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"exponent\">số mũ</b> của từng biến.",
+   "images": [],
+   "id": "126ea452ab73",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D2",
+   "type": "mcq",
+   "form": "What is the degree of the monomial \\(#^#x^#y^#\\)?",
+   "en": "What is the degree of the monomial \\(3^3x^2y^3\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"degree of a monomial\">Bậc của đơn thức</b> \\(3^3x^2y^3\\) là",
+   "options": [
+    "\\(27\\)",
+    "\\(3\\)",
+    "\\(5\\)",
+    "\\(8\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(3^3\\) is part of the coefficient; only the exponents of the variables count: \\(2+3=5\\).",
+   "explain_vi": "Đáp án c. \\(3^3\\) thuộc <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b>; chỉ cộng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"exponent\">số mũ</b> của các biến: \\(2+3=5\\).",
+   "images": [],
+   "id": "172977bc7ea3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Find the monomial \\(A\\) such that \\(A+#x^#y^#z^#=#x^#y^#z^#\\).",
+   "en": "Find the monomial \\(A\\) such that \\(A+7x^2y^2z^2=5x^2y^2z^2\\).",
+   "vi": "Tìm đơn thức \\(A\\) biết \\(A+7x^2y^2z^2=5x^2y^2z^2\\).",
+   "options": [
+    "\\(2x^2y^2z^2\\)",
+    "\\(-2x^4y^4z^4\\)",
+    "\\(12x^2y^2z^2\\)",
+    "\\(-2x^2y^2z^2\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(A=5x^2y^2z^2-7x^2y^2z^2=-2x^2y^2z^2\\).",
+   "explain_vi": "Đáp án d. \\(A=5x^2y^2z^2-7x^2y^2z^2=-2x^2y^2z^2\\).",
+   "images": [],
+   "id": "8f881f7a0572",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Find the value of \\(A=#x^#y^#-#x^#y^#-#x^#y^#\\) at \\(x=#,\\ y=#\\).",
+   "en": "Find the value of \\(A=4x^2y^2-6x^2y^2-2x^2y^2\\) at \\(x=2,\\ y=3\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"evaluate\">Tính giá trị</b> của biểu thức \\(A=4x^2y^2-6x^2y^2-2x^2y^2\\) tại \\(x=2,\\ y=3\\).",
+   "options": [
+    "\\(-144\\)",
+    "\\(144\\)",
+    "\\(-2\\)",
+    "\\(-288\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. First combine like terms: \\(A=-4x^2y^2\\). Then \\(A=-144\\).",
+   "explain_vi": "Đáp án a. Thu gọn trước: \\(A=-4x^2y^2\\). Thay số được \\(A=-144\\).",
+   "images": [],
+   "id": "6e9758b99b4c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Simplify \\(#x^#\\cdot (-#x)\\cdot #x^#y^#\\), then give the coefficient of the result.",
+   "en": "Simplify \\(4x^2\\cdot (-2x)\\cdot 4x^2y^2\\), then give the coefficient of the result.",
+   "vi": "Thu gọn đơn thức \\(4x^2\\cdot (-2x)\\cdot 4x^2y^2\\) rồi cho biết <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b>.",
+   "options": [
+    "\\(7\\)",
+    "\\(6\\)",
+    "\\(-32\\)",
+    "\\(32\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(-32x^5y^2\\); coefficient \\(-32\\).",
+   "explain_vi": "Đáp án c. \\(-32x^5y^2\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b> \\(-32\\).",
+   "images": [],
+   "id": "2e03930bbba6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A box in the shape of a rectangular prism has length \\(#x\\) cm, width \\(#x\\) cm and height \\(#x\\) cm. Find its volume when \\(x=#\\).",
+   "en": "A box in the shape of a rectangular prism has length \\(2x\\) cm, width \\(4x\\) cm and height \\(3x\\) cm. Find its volume when \\(x=5\\).",
+   "vi": "Một chiếc hộp <b class=\"mbl-term\" tabindex=\"0\" data-en=\"parallelepiped\">hình hộp</b> chữ nhật có chiều dài \\(2x\\) cm, chiều rộng \\(4x\\) cm và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"height\">chiều cao</b> \\(3x\\) cm. Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"volume\">thể tích</b> của hộp khi \\(x=5\\).",
+   "options": [
+    "\\(600\\text{ cm}^3\\)",
+    "\\(3000\\text{ cm}^3\\)",
+    "\\(120\\text{ cm}^3\\)",
+    "\\(45\\text{ cm}^3\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(V=2x\\cdot 4x\\cdot 3x=24x^3=24\\cdot 125=3000\\) cm³.",
+   "explain_vi": "Đáp án b. \\(V=2x\\cdot 4x\\cdot 3x=24x^3=24\\cdot 125=3000\\) cm³.",
+   "images": [],
+   "id": "ded7998c92d4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A rectangular garden is \\(#x\\) m long and \\(#x\\) m wide. A square pond with side \\(x\\) m is dug in it. Write the area of the remaining part as a monomial and evaluate it for \\(x=#\\).",
+   "en": "A rectangular garden is \\(4x\\) m long and \\(4x\\) m wide. A square pond with side \\(x\\) m is dug in it. Write the area of the remaining part as a monomial and evaluate it for \\(x=5\\).",
+   "vi": "Một mảnh vườn hình chữ nhật dài \\(4x\\) m, rộng \\(4x\\) m. Người ta đào một cái ao hình vuông cạnh \\(x\\) m trong vườn. Viết đơn thức biểu thị diện tích phần đất còn lại và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"evaluate\">tính giá trị</b> tại \\(x=5\\).",
+   "options": [
+    "\\(15x^2;\\ 375\\text{ m}^2\\)",
+    "\\(15x;\\ 75\\text{ m}^2\\)",
+    "\\(16x^2;\\ 400\\text{ m}^2\\)",
+    "\\(17x^2;\\ 425\\text{ m}^2\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(4x\\cdot 4x-(x)^2=16x^2-1x^2=15x^2\\); at \\(x=5\\): \\(15\\cdot 25=375\\) m².",
+   "explain_vi": "Đáp án a. \\(4x\\cdot 4x-(x)^2=16x^2-1x^2=15x^2\\); tại \\(x=5\\): \\(15\\cdot 25=375\\) m².",
+   "images": [],
+   "id": "b417af3a49ff",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D4",
+   "type": "mcq",
+   "form": "The monomials \\(-#x^{a+#}y^{#}\\) and \\(#x^{#}y^{b+#}\\) are like terms. Find \\(a+b\\).",
+   "en": "The monomials \\(-4x^{a+2}y^{3}\\) and \\(4x^{6}y^{b+2}\\) are like terms. Find \\(a+b\\).",
+   "vi": "Biết hai đơn thức \\(-4x^{a+2}y^{3}\\) và \\(4x^{6}y^{b+2}\\) đồng dạng. Tính \\(a+b\\).",
+   "options": [
+    "\\(18\\)",
+    "\\(6\\)",
+    "\\(9\\)",
+    "\\(5\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Same literal part: \\(a+2=6\\Rightarrow a=4\\); \\(b+2=3\\Rightarrow b=1\\). So \\(a+b=5\\).",
+   "explain_vi": "Đáp án d. Cùng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"literal part\">phần biến</b>: \\(a+2=6\\Rightarrow a=4\\); \\(b+2=3\\Rightarrow b=1\\). Vậy \\(a+b=5\\).",
+   "images": [],
+   "id": "feb31367f1ed",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  }
+ ]
+}
