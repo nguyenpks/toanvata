@@ -39,7 +39,7 @@ goals = [
 vocab = [
  (r'<b>quadratic equation in one unknown</b> – \(ax^2+bx+c=0\) with \(a\ne0\).', r'[[Phương trình bậc hai một ẩn]] – \(ax^2+bx+c=0\) với \(a\ne0\).'),
  (r'<b>incomplete equation</b> – \(b=0\) or \(c=0\).', r'[[Phương trình khuyết]] – \(b=0\) hoặc \(c=0\).'),
- (r'<b>discriminant / reduced discriminant</b> – \(\Delta=b^2-4ac\); \(\Delta^{\prime}=b^{\prime}^2-ac\) when \(b=2b^{\prime}\).', r'[[Biệt thức]] / [[biệt thức thu gọn]] – \(\Delta=b^2-4ac\); \(\Delta^{\prime}=b^{\prime}^2-ac\) khi \(b=2b^{\prime}\).'),
+ (r'<b>discriminant / reduced discriminant</b> – \(\Delta=b^2-4ac\); \(\Delta^{\prime}={b^{\prime}}^2-ac\) when \(b=2b^{\prime}\).', r'[[Biệt thức]] / [[biệt thức thu gọn]] – \(\Delta=b^2-4ac\); \(\Delta^{\prime}={b^{\prime}}^2-ac\) khi \(b=2b^{\prime}\).'),
  (r'<b>two distinct roots / double root / no real roots</b> – \(\Delta\gt0\) / \(\Delta=0\) / \(\Delta\lt0\).', r'[[Hai nghiệm phân biệt]] / [[nghiệm kép]] / [[vô nghiệm]] – \(\Delta\gt0\) / \(\Delta=0\) / \(\Delta\lt0\).'),
  (r'<b>quadratic formula</b> – \(x_{1,2}=\dfrac{-b\pm\sqrt\Delta}{2a}\).', r'[[Công thức nghiệm]] – \(x_{1,2}=\dfrac{-b\pm\sqrt\Delta}{2a}\).')]
 phrases = [
@@ -61,7 +61,7 @@ theory += TABLE([('\\(\\Delta=b^2-4ac\\)', '\\(\\Delta=b^2-4ac\\)'), ('Roots', '
    [TI('\\(\\Delta=0\\)', '\\(\\Delta=0\\)'), TI('a double root \\(x_1=x_2=-\\dfrac{b}{2a}\\)', 'nghiệm kép \\(x_1=x_2=-\\dfrac{b}{2a}\\)')],
    [TI('\\(\\Delta\\lt0\\)', '\\(\\Delta\\lt0\\)'), TI('no real roots', 'vô nghiệm')]])
 theory += BOX('mint', ('Reduced formula', 'Công thức nghiệm thu gọn'),
-  T(r'If \(b=2b^{\prime}\), let \(\Delta^{\prime}=b^{\prime}^2-ac\). If \(\Delta^{\prime}\gt0\): \(x_{1,2}=\dfrac{-b^{\prime}\pm\sqrt{\Delta^{\prime}}}{a}\); if \(\Delta^{\prime}=0\): \(x_1=x_2=-\dfrac{b^{\prime}}{a}\); if \(\Delta^{\prime}\lt0\): no real roots.', r'Nếu \(b=2b^{\prime}\), đặt \(\Delta^{\prime}=b^{\prime}^2-ac\). Nếu \(\Delta^{\prime}\gt0\): \(x_{1,2}=\dfrac{-b^{\prime}\pm\sqrt{\Delta^{\prime}}}{a}\); nếu \(\Delta^{\prime}=0\): \(x_1=x_2=-\dfrac{b^{\prime}}{a}\); nếu \(\Delta^{\prime}\lt0\): vô nghiệm.'),
+  T(r'If \(b=2b^{\prime}\), let \(\Delta^{\prime}={b^{\prime}}^2-ac\). If \(\Delta^{\prime}\gt0\): \(x_{1,2}=\dfrac{-b^{\prime}\pm\sqrt{\Delta^{\prime}}}{a}\); if \(\Delta^{\prime}=0\): \(x_1=x_2=-\dfrac{b^{\prime}}{a}\); if \(\Delta^{\prime}\lt0\): no real roots.', r'Nếu \(b=2b^{\prime}\), đặt \(\Delta^{\prime}={b^{\prime}}^2-ac\). Nếu \(\Delta^{\prime}\gt0\): \(x_{1,2}=\dfrac{-b^{\prime}\pm\sqrt{\Delta^{\prime}}}{a}\); nếu \(\Delta^{\prime}=0\): \(x_1=x_2=-\dfrac{b^{\prime}}{a}\); nếu \(\Delta^{\prime}\lt0\): vô nghiệm.'),
   T(r'Note: if \(a\) and \(c\) have opposite signs, then \(ac\lt0\), \(\Delta\gt0\) and the equation has two distinct roots.', r'Chú ý: nếu \(a\), \(c\) trái dấu thì \(ac\lt0\), \(\Delta\gt0\) và phương trình có hai nghiệm phân biệt.'))
 theory += BOX('yellow', ('Calculator', 'Dùng máy tính cầm tay'),
   T(r'Choose the equation mode \(ax^2+bx+c=0\), enter \(a\), \(b\), \(c\) and read \(x_1\), \(x_2\).', r'Chọn chế độ giải phương trình \(ax^2+bx+c=0\), nhập \(a\), \(b\), \(c\) rồi đọc \(x_1\), \(x_2\).'))
@@ -108,7 +108,7 @@ mistakes = [
 summary = [
  (r'\(ax^2+bx+c=0\ (a\ne0)\); \(\Delta=b^2-4ac\).', r'\(ax^2+bx+c=0\ (a\ne0)\); \(\Delta=b^2-4ac\).'),
  (r'\(\Delta\gt0\): \(x_{1,2}=\dfrac{-b\pm\sqrt\Delta}{2a}\); \(\Delta=0\): \(x=-\dfrac b{2a}\); \(\Delta\lt0\): no real roots.', r'\(\Delta\gt0\): \(x_{1,2}=\dfrac{-b\pm\sqrt\Delta}{2a}\); \(\Delta=0\): \(x=-\dfrac b{2a}\); \(\Delta\lt0\): vô nghiệm.'),
- (r'\(b=2b^{\prime}\): \(\Delta^{\prime}=b^{\prime}^2-ac\), \(x_{1,2}=\dfrac{-b^{\prime}\pm\sqrt{\Delta^{\prime}}}{a}\); \(ac\lt0\Rightarrow\) two distinct roots.', r'\(b=2b^{\prime}\): \(\Delta^{\prime}=b^{\prime}^2-ac\), \(x_{1,2}=\dfrac{-b^{\prime}\pm\sqrt{\Delta^{\prime}}}{a}\); \(ac\lt0\Rightarrow\) có hai nghiệm phân biệt.'),
+ (r'\(b=2b^{\prime}\): \(\Delta^{\prime}={b^{\prime}}^2-ac\), \(x_{1,2}=\dfrac{-b^{\prime}\pm\sqrt{\Delta^{\prime}}}{a}\); \(ac\lt0\Rightarrow\) two distinct roots.', r'\(b=2b^{\prime}\): \(\Delta^{\prime}={b^{\prime}}^2-ac\), \(x_{1,2}=\dfrac{-b^{\prime}\pm\sqrt{\Delta^{\prime}}}{a}\); \(ac\lt0\Rightarrow\) có hai nghiệm phân biệt.'),
  (r'Key English: quadratic equation in one unknown, incomplete equation, discriminant, reduced discriminant, two distinct roots, double root, no real roots, quadratic formula.', r'Thuật ngữ cần nhớ (chạm vào để xem tiếng Anh): [[phương trình bậc hai một ẩn]], [[phương trình khuyết]], [[biệt thức]], [[biệt thức thu gọn]], [[hai nghiệm phân biệt]], [[nghiệm kép]], [[vô nghiệm]], [[công thức nghiệm]].')]
 checks = [
  (r'I can recognize a quadratic equation and its coefficients.', r'Em nhận biết được phương trình bậc hai và các hệ số.'),

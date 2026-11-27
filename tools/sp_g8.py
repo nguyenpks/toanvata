@@ -2,7 +2,8 @@
 """Ngân hàng câu hỏi sinh tự động cho Toán 8 (KNTT) – Chương I. Đa thức (Bài 1–5).
 Dùng chung khung BANK / ABCD_TITLES của sp_g9 (3 mức ngôn ngữ; A, B, C rồi D1–D4).
 Đa thức biểu diễn bằng dict {(mũ x, mũ y, mũ z): hệ số Fraction}; mọi đáp án do máy tính tính và tự kiểm lại."""
-import random
+import random, re
+from math import gcd
 from fractions import Fraction as F
 from sp_g9 import tx, nz, pick_opts, BANK, ABCD_TITLES
 from mb_selfpractice import fr
@@ -1036,3 +1037,587 @@ def b5_d4_share(r, lv):
 L5_GROUPS = [[('mcq', b5_exact), ('mcq', b5_mm), ('mcq', b5_pm)], [('tf', b5_tf_div), ('tf', b5_tf_q)], [('short', b5_short_val), ('short', b5_short_n)],
              [('mcq', b5_d1_rule), ('mcq', b5_d1_pow), ('mcq', b5_d1_which)], [('mcq', b5_d2_mm), ('mcq', b5_d2_pm), ('mcq', b5_d2_findP)],
              [('mcq', b5_d3_two), ('mcq', b5_d3_val), ('mcq', b5_d3_n)], [('mcq', b5_d4_rect), ('mcq', b5_d4_box), ('mcq', b5_d4_share)]]
+
+# =====================================================================================================
+# CHƯƠNG II. HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG (Bài 6–9)
+# =====================================================================================================
+XV, YV = (1, 0, 0), (0, 1, 0)
+def L(a, b, v1=XV, v2=(0, 0, 0)):
+    """Nhị thức a·v1 + b·v2 (mặc định ax + b)."""
+    return Poly.of([(a, v1), (b, v2)])
+def br(p): return '(%s)' % p.tex()
+def sq(p): return '(%s)^2' % p.tex()
+def cb(p): return '(%s)^3' % p.tex()
+def tpoly(r, pp, bads, fill=None):
+    """Phương án là đa thức (so sánh theo giá trị); bỏ phương án trùng giá trị với đáp án."""
+    bads = [b for b in bads if b != pp]
+    return pick_opts(r, pp.tex(), [b.tex() for b in bads], fill=(lambda t: fill(t).tex()) if fill else None)
+
+def _ab(r, two=False, lo=1, hi=5):
+    """(A, B) dạng (ax, b) hoặc (ax, by)."""
+    a = r.randint(lo, hi); b = r.randint(1, 9)
+    A = M(a, XV); B = M(b, YV) if two else M(b, (0, 0, 0))
+    return A, B, a, b
+
+# ----------------------------------------------------------------------------------- BÀI 6
+def b6_expand(r, lv):
+    A, B, a, b = _ab(r, r.random() < .5); s = r.choice([1, -1]); P = A + s * B; R = P * P
+    w1 = A * A + B * B * s; w2 = A * A + s * 2 * A * B * F(1, 2) + B * B; w3 = A * A - s * 2 * A * B + B * B
+    return dict(en='Expand \\(%s\\).' % sq(P), vi='Khai triển \\(%s\\).' % sq(P), opts=tpoly(r, R, [w1, w2, w3, A * A + B * B]), ans=0,
+                ee='\\((A%sB)^2=A^2%s2AB+B^2\\) with \\(A=%s,\\ B=%s\\): \\(%s\\).' % ('+' if s > 0 else '-', '+' if s > 0 else '-', A.tex(), B.tex(), R.tex()),
+                ev='\\((A%sB)^2=A^2%s2AB+B^2\\) với \\(A=%s,\\ B=%s\\): \\(%s\\).' % ('+' if s > 0 else '-', '+' if s > 0 else '-', A.tex(), B.tex(), R.tex()))
+
+def b6_dsq(r, lv):
+    A, B, a, b = _ab(r, r.random() < .4, 1, 6)
+    if gcd(a, b) > 1: raise AssertionError
+    P = A * A - B * B
+    good = '%s%s' % (br(A - B), br(A + B)); bads = [sq(A - B), sq(A + B), '%s%s' % (br(A - B), br(B - A)) if False else '%s%s' % (br(A * 1 - B * 2 if b > 1 else A - B * 3), br(A + B * 2 if b > 1 else A + B * 3)), '(%s)(%s)' % ((A - B).tex(), (A - B).tex())]
+    bads = list(dict.fromkeys(x for x in bads if x != good))
+    return dict(en='Write \\(%s\\) as a product.' % P.tex(), vi='Viết đa thức \\(%s\\) dưới dạng tích.' % P.tex(), opts=pick_opts(r, good, bads), ans=0,
+                ee='\\(A^2-B^2=(A-B)(A+B)\\) with \\(A=%s,\\ B=%s\\).' % (A.tex(), B.tex()), ev='\\(A^2-B^2=(A-B)(A+B)\\) với \\(A=%s,\\ B=%s\\).' % (A.tex(), B.tex()))
+
+def b6_identity(r, lv):
+    a = r.randint(1, 6); b = r.randint(2, 9)
+    good = '(x+%d)^2=x^2+%dx+%d' % (a, 2 * a, a * a)
+    bads = ['(x+%d)^2=x^2+%d' % (a, a * a), '%dx+%d=%dx' % (b, a, b + a), 'x^2-%d=0' % (a * a), '(x-%d)^2=x^2-%d' % (a, a * a)]
+    r.shuffle(bads); bads = bads[:3]
+    q = PICK(r, [('Which equality is an identity?', 'Đẳng thức nào là hằng đẳng thức?'), ('Which equality is true for every value of \\(x\\)?', 'Đẳng thức nào đúng với mọi giá trị của \\(x\\)?'),
+                 ('Choose the identity.', 'Chọn đẳng thức là hằng đẳng thức.'), ('Only one of these equalities is an identity. Which one?', 'Chỉ có một đẳng thức là hằng đẳng thức. Đó là đẳng thức nào?')])
+    return dict(en=q[0], vi=q[1], opts=[good] + bads, ans=0, ee='An identity is an equality that is true for all values of the variables.', ev='Hằng đẳng thức là đẳng thức mà hai vế luôn nhận cùng một giá trị với mọi giá trị của biến.')
+
+def b6_tf_sq(r, lv):
+    a = r.randint(2, 9); s = r.choice([1, -1]); truth = r.random() < .5; P = L(1, s * a); R = P * P
+    claim = R if truth else Poly.of([(1, (2, 0, 0)), (s * a * a if s > 0 else -a * a, (0, 0, 0))])
+    return dict(en='\\(%s=%s\\).' % (sq(P), claim.tex()), vi='\\(%s=%s\\).' % (sq(P), claim.tex()), ans=(claim == R),
+                ee='\\(%s=%s\\): do not forget the middle term \\(%s\\).' % (sq(P), R.tex(), mtex(2 * s * a, XV)), ev='\\(%s=%s\\): không được quên hạng tử \\(%s\\).' % (sq(P), R.tex(), mtex(2 * s * a, XV)))
+
+def b6_tf_dsq(r, lv):
+    a, k = r.randint(1, 5), r.randint(1, 9); truth = r.random() < .5
+    P = Poly.of([(a * a, (2, 0, 0)), (-k * k, (0, 0, 0))])
+    claim = '(%s)(%s)' % (L(a, -k).tex(), L(a, k).tex()) if truth else r.choice([sq(L(a, -k)), '(%s)(%s)' % (L(a, -k).tex(), L(-a, k).tex())])
+    return dict(en='\\(%s=%s\\).' % (P.tex(), claim), vi='\\(%s=%s\\).' % (P.tex(), claim), ans=truth,
+                ee='\\(%s=(%s)(%s)\\).' % (P.tex(), L(a, -k).tex(), L(a, k).tex()), ev='\\(%s=(%s)(%s)\\).' % (P.tex(), L(a, -k).tex(), L(a, k).tex()))
+
+def b6_short_fast(r, lv):
+    kind = r.choice(['sq', 'prod'])
+    if kind == 'sq':
+        base, k, s = r.choice([20, 30, 40, 50, 60, 70, 100]), r.randint(1, 3), r.choice([1, -1]); n = base + s * k; v = n * n
+        return dict(en='Calculate \\(%d^2\\) quickly using an identity.' % n, vi='Tính nhanh \\(%d^2\\) bằng hằng đẳng thức.' % n, key=str(v),
+                    ee='\\(%d^2=(%d%s%d)^2=%d%s%d+%d=%d\\).' % (n, base, '+' if s > 0 else '-', k, base * base, '+' if s > 0 else '-', 2 * base * k, k * k, v),
+                    ev='\\(%d^2=(%d%s%d)^2=%d%s%d+%d=%d\\).' % (n, base, '+' if s > 0 else '-', k, base * base, '+' if s > 0 else '-', 2 * base * k, k * k, v))
+    base, k = r.choice([20, 30, 40, 50, 60, 70]), r.randint(1, 4); v = base * base - k * k
+    return dict(en='Calculate \\(%d\\cdot %d\\) quickly using an identity.' % (base - k, base + k), vi='Tính nhanh \\(%d\\cdot %d\\) bằng hằng đẳng thức.' % (base - k, base + k), key=str(v),
+                ee='\\((%d-%d)(%d+%d)=%d^2-%d^2=%d\\).' % (base, k, base, k, base, k, v), ev='\\((%d-%d)(%d+%d)=%d^2-%d^2=%d\\).' % (base, k, base, k, base, k, v))
+
+def b6_short_mid(r, lv):
+    a, b = r.randint(1, 5), r.randint(1, 9); s = r.choice([1, -1]); m = 2 * a * b
+    t = '%sx^2%s\\square\\, x+%d=(%sx%s%d)^2' % ('' if a == 1 else a * a, '+' if s > 0 else '-', b * b, '' if a == 1 else a, '+' if s > 0 else '-', b)
+    return dict(en='Find the positive number in the box: \\(%s\\).' % t, vi='Tìm số dương thích hợp điền vào ô trống: \\(%s\\).' % t, key=str(m),
+                ee='The middle term is \\(2\\cdot %sx\\cdot %d=%dx\\).' % ('' if a == 1 else a, b, m), ev='Hạng tử giữa là \\(2\\cdot %sx\\cdot %d=%dx\\).' % ('' if a == 1 else a, b, m))
+
+ID_FORMS = [('(A+B)^2', 'A^2+2AB+B^2', ['A^2+B^2', 'A^2+AB+B^2', 'A^2-2AB+B^2'], 'the square of a sum', 'bình phương của một tổng'),
+            ('(A-B)^2', 'A^2-2AB+B^2', ['A^2-B^2', 'A^2+2AB-B^2', 'A^2-AB+B^2'], 'the square of a difference', 'bình phương của một hiệu'),
+            ('A^2-B^2', '(A-B)(A+B)', ['(A-B)^2', '(A+B)^2', '(B-A)(A+B)'], 'the difference of two squares', 'hiệu hai bình phương')]
+def b6_d1_formula(r, lv):
+    lhs, good, bads, en, vi = PICK(r, ID_FORMS)
+    return dict(en='Complete the identity (%s): \\(%s=\\,?\\)' % (en, lhs), vi='Hoàn thành hằng đẳng thức (%s): \\(%s=\\,?\\)' % (vi, lhs), opts=[good] + bads, ans=0,
+                ee='\\(%s=%s\\).' % (lhs, good), ev='\\(%s=%s\\).' % (lhs, good))
+
+def b6_d1_read(r, lv):
+    lhs, good, bads, en, vi = PICK(r, ID_FORMS)
+    o = [tx(x[3], x[4]) for x in ID_FORMS if x[0] == lhs] + [tx(x[3], x[4]) for x in ID_FORMS if x[0] != lhs] + [tx('the sum of two squares', 'tổng hai bình phương')]
+    return dict(en='How do we read \\(%s\\)?' % lhs, vi='Biểu thức \\(%s\\) được gọi là' % lhs, opts=o, ans=0, ee='\\(%s\\) is %s.' % (lhs, en), ev='\\(%s\\) là %s.' % (lhs, vi))
+
+def b6_d1_AB(r, lv):
+    a, b = r.randint(2, 6), r.randint(1, 9); s = r.choice([1, -1]); P = L(a, s * b) * L(a, s * b)
+    good = 'A=%dx,\\ B=%d' % (a, b); bads = ['A=%dx,\\ B=%d' % (a * a, b * b), 'A=%dx,\\ B=%d' % (a, b * b), 'A=x,\\ B=%d' % b]
+    return dict(en='Write \\(%s\\) in the form \\((A%sB)^2\\). Then…' % (P.tex(), '+' if s > 0 else '-'), vi='Viết \\(%s\\) dưới dạng \\((A%sB)^2\\). Khi đó' % (P.tex(), '+' if s > 0 else '-'),
+                opts=pick_opts(r, good, bads), ans=0, ee='\\(%s=(%dx)^2%s2\\cdot%dx\\cdot%d+%d^2\\).' % (P.tex(), a, '+' if s > 0 else '-', a, b, b), ev='\\(%s=(%dx)^2%s2\\cdot%dx\\cdot%d+%d^2\\).' % (P.tex(), a, '+' if s > 0 else '-', a, b, b))
+
+def b6_d2_exp(r, lv):
+    A, B, a, b = _ab(r, True, 1, 5); P = A - B; R = P * P
+    return dict(en='Expand \\(%s\\).' % sq(P), vi='Khai triển \\(%s\\).' % sq(P), opts=tpoly(r, R, [A * A - B * B, A * A + 2 * A * B + B * B, A * A - A * B + B * B]), ans=0,
+                ee='\\(%s\\).' % R.tex(), ev='\\(%s\\).' % R.tex())
+
+def b6_d2_conj(r, lv):
+    A, B, a, b = _ab(r, True, 2, 7); R = (A - B) * (A + B)
+    return dict(en='Find the product \\(%s%s\\).' % (br(A - B), br(A + B)), vi='Tính \\(%s%s\\).' % (br(A - B), br(A + B)),
+                opts=tpoly(r, R, [A * A + B * B, (A - B) * (A - B), Poly.of([(a, (2, 0, 0)), (-b, (0, 2, 0))])]), ans=0,
+                ee='\\((A-B)(A+B)=A^2-B^2=%s\\).' % R.tex(), ev='\\((A-B)(A+B)=A^2-B^2=%s\\).' % R.tex())
+
+def b6_d2_tosq(r, lv):
+    a, b = r.randint(1, 5), r.randint(1, 9)
+    if gcd(a, b) > 1: raise AssertionError
+    s = r.choice([1, -1]); P = L(a, s * b); R = P * P
+    good = sq(P); bads = [sq(L(a, -s * b)), sq(L(a * a, s * b)) if a > 1 else sq(L(1, s * b * 2)), '(%s)(%s)' % (L(a, -b).tex(), L(a, b).tex())]
+    return dict(en='Write \\(%s\\) as the square of a binomial.' % R.tex(), vi='Viết đa thức \\(%s\\) dưới dạng bình phương của một tổng hoặc một hiệu.' % R.tex(), opts=pick_opts(r, good, bads), ans=0,
+                ee='\\(%s=%s\\).' % (R.tex(), good), ev='\\(%s=%s\\).' % (R.tex(), good))
+
+def b6_d3_simp(r, lv):
+    a = r.randint(1, 9); kind = r.choice(['-', '+']); P1, P2 = L(1, a), L(1, -a)
+    R = P1 * P1 - P2 * P2 if kind == '-' else P1 * P1 + P2 * P2
+    bads = [M(2 * a, XV), Poly.of([(2, (2, 0, 0))]), M(4 * a, XV) if kind == '+' else Poly.of([(2, (2, 0, 0)), (2 * a * a, (0, 0, 0))]), M(0, XV) + M(a * a * 2, (0, 0, 0))]
+    return dict(en='Simplify \\(%s%s%s\\).' % (sq(P1), kind, sq(P2)), vi='Rút gọn biểu thức \\(%s%s%s\\).' % (sq(P1), kind, sq(P2)), opts=tpoly(r, R, bads, lambda t: R + M(t, (0, 0, 0))), ans=0,
+                ee='\\(=%s\\).' % R.tex(), ev='\\(=%s\\).' % R.tex())
+
+def b6_d3_val(r, lv):
+    s = r.choice([1, -1]); base = r.choice([10, 20, 50, 100]); y = r.randint(1, 9); x = base - s * y
+    P = '%s' % ('x^2+2xy+y^2' if s > 0 else 'x^2-2xy+y^2'); v = base * base
+    return dict(en='Find the value of \\(%s\\) at \\(x=%d,\\ y=%d\\).' % (P, x, y), vi='Tính giá trị của biểu thức \\(%s\\) tại \\(x=%d,\\ y=%d\\).' % (P, x, y),
+                opts=nopts(r, v, [x * x + y * y, (x - s * y) ** 2, v + 2 * x * y], step=100), ans=0,
+                ee='\\(%s=(x%sy)^2=%d^2=%d\\).' % (P, '+' if s > 0 else '-', base, v), ev='\\(%s=(x%sy)^2=%d^2=%d\\).' % (P, '+' if s > 0 else '-', base, v))
+
+def b6_d3_fast(r, lv):
+    base, k = r.choice([30, 40, 50, 60, 70, 80]), r.randint(2, 9); v = base * base - k * k
+    return dict(en='Calculate quickly: \\(%d\\cdot %d\\).' % (base - k, base + k), vi='Tính nhanh: \\(%d\\cdot %d\\).' % (base - k, base + k), opts=nopts(r, v, [base * base + k * k, base * base, v - 10]), ans=0,
+                ee='\\(=%d^2-%d^2=%d-%d=%d\\).' % (base, k, base * base, k * k, v), ev='\\(=%d^2-%d^2=%d-%d=%d\\).' % (base, k, base * base, k * k, v))
+
+def b6_d4_ab(r, lv):
+    while True:
+        a, b = r.randint(2, 9), r.randint(1, 8)
+        if a > b: break
+    s2, p = a * a + b * b, a * b; ask = r.choice(['+', '-']); v = a + b if ask == '+' else a - b
+    return dict(en='Given \\(a>b>0\\), \\(a^2+b^2=%d\\) and \\(ab=%d\\). Find \\(a%sb\\).' % (s2, p, ask), vi='Cho \\(a>b>0\\) thỏa mãn \\(a^2+b^2=%d\\) và \\(ab=%d\\). Tính \\(a%sb\\).' % (s2, p, ask),
+                opts=nopts(r, v, [a - b if ask == '+' else a + b, s2 + 2 * p if ask == '+' else s2 - 2 * p, v + 1]), ans=0,
+                ee='\\((a%sb)^2=a^2+b^2%s2ab=%d\\) and \\(a%sb>0\\), so \\(a%sb=%d\\).' % (ask, ask, v * v, ask, ask, v),
+                ev='\\((a%sb)^2=a^2+b^2%s2ab=%d\\) mà \\(a%sb>0\\) nên \\(a%sb=%d\\).' % (ask, ask, v * v, ask, ask, v))
+
+def b6_d4_garden(r, lv):
+    k = r.randint(1, 5); x = r.randint(6, 20); inc = 2 * k * x + k * k
+    return dict(en='A square garden has side \\(x\\) m. Each side is increased by %d m, and the area increases by %d m². Find \\(x\\).' % (k, inc),
+                vi='Một mảnh vườn hình vuông cạnh \\(x\\) m. Người ta mở rộng mỗi cạnh thêm %d m thì diện tích tăng thêm %d m². Tìm \\(x\\).' % (k, inc),
+                opts=nopts(r, x, [F(inc, 2 * k), x + k, F(inc - k * k, k)]), ans=0,
+                ee='\\((x+%d)^2-x^2=%dx+%d=%d\\Rightarrow x=%d\\).' % (k, 2 * k, k * k, inc, x), ev='\\((x+%d)^2-x^2=%dx+%d=%d\\Rightarrow x=%d\\).' % (k, 2 * k, k * k, inc, x))
+
+def b6_d4_min(r, lv):
+    a, c = r.randint(1, 9), r.randint(1, 15); P = Poly.of([(1, (2, 0, 0)), (-2 * a, XV), (a * a + c, (0, 0, 0))])
+    return dict(en='Find the smallest value of \\(P=%s\\).' % P.tex(), vi='Tìm giá trị nhỏ nhất của biểu thức \\(P=%s\\).' % P.tex(), opts=nopts(r, c, [a * a + c, a, -c]), ans=0,
+                ee='\\(P=(x-%d)^2+%d\\ge %d\\); equality at \\(x=%d\\).' % (a, c, c, a), ev='\\(P=(x-%d)^2+%d\\ge %d\\); dấu bằng xảy ra khi \\(x=%d\\).' % (a, c, c, a))
+
+L6_GROUPS = [[('mcq', b6_expand), ('mcq', b6_dsq), ('mcq', b6_identity)], [('tf', b6_tf_sq), ('tf', b6_tf_dsq)], [('short', b6_short_fast), ('short', b6_short_mid)],
+             [('mcq', b6_d1_formula), ('mcq', b6_d1_read), ('mcq', b6_d1_AB)], [('mcq', b6_d2_exp), ('mcq', b6_d2_conj), ('mcq', b6_d2_tosq)],
+             [('mcq', b6_d3_simp), ('mcq', b6_d3_val), ('mcq', b6_d3_fast)], [('mcq', b6_d4_ab), ('mcq', b6_d4_garden), ('mcq', b6_d4_min)]]
+
+# ----------------------------------------------------------------------------------- BÀI 7
+def b7_exp(r, lv, s=None):
+    a = r.randint(1, 3); b = r.randint(1, 5); s = s or r.choice([1, -1]); P = L(a, s * b); R = P * P * P
+    A, B = M(a, XV), M(s * b, (0, 0, 0))
+    w1 = A * A * A + B * B * B; w2 = A * A * A + 3 * A * A * B + 3 * A * B * B * -1 + B * B * B; w3 = A * A * A + A * A * B + A * B * B + B * B * B
+    return dict(en='Expand \\(%s\\).' % cb(P), vi='Khai triển \\(%s\\).' % cb(P), opts=tpoly(r, R, [w1, w2, w3, A * A * A + 3 * A * B * B + B * B * B]), ans=0,
+                ee='\\((A%sB)^3=A^3%s3A^2B+3AB^2%sB^3\\): \\(%s\\).' % ('+' if s > 0 else '-', '+' if s > 0 else '-', '+' if s > 0 else '-', R.tex()),
+                ev='\\((A%sB)^3=A^3%s3A^2B+3AB^2%sB^3\\): \\(%s\\).' % ('+' if s > 0 else '-', '+' if s > 0 else '-', '+' if s > 0 else '-', R.tex()))
+def b7_exp_sum(r, lv): return b7_exp(r, lv, 1)
+def b7_exp_diff(r, lv): return b7_exp(r, lv, -1)
+
+def b7_tocube(r, lv):
+    a, b = r.randint(1, 3), r.randint(1, 5)
+    if gcd(a, b) > 1: raise AssertionError
+    s = r.choice([1, -1]); P = L(a, s * b); R = P * P * P
+    good = cb(P); bads = [cb(L(a, -s * b)), cb(L(a, s * b * 3)) if b < 4 else cb(L(a, s * (b + 1))), '(%s)^3' % L(a * a * a, s * b * b * b).tex() if a > 1 or b > 1 else cb(L(1, s * 2))]
+    bads = [x for x in dict.fromkeys(bads) if x != good]
+    return dict(en='Write \\(%s\\) as a cube.' % R.tex(), vi='Viết đa thức \\(%s\\) dưới dạng lập phương của một tổng hoặc một hiệu.' % R.tex(), opts=pick_opts(r, good, bads, fill=lambda t: cb(L(a, s * (b + t + 1)))), ans=0,
+                ee='\\(%s=%s\\).' % (R.tex(), good), ev='\\(%s=%s\\).' % (R.tex(), good))
+
+def b7_tf_cube(r, lv):
+    a = r.randint(1, 6); s = r.choice([1, -1]); truth = r.random() < .5; P = L(1, s * a); R = P * P * P
+    claim = R if truth else Poly.of([(1, (3, 0, 0)), (s * a ** 3, (0, 0, 0))])
+    return dict(en='\\(%s=%s\\).' % (cb(P), claim.tex()), vi='\\(%s=%s\\).' % (cb(P), claim.tex()), ans=(claim == R), ee='\\(%s=%s\\).' % (cb(P), R.tex()), ev='\\(%s=%s\\).' % (cb(P), R.tex()))
+
+def b7_tf_sign(r, lv):
+    a = r.randint(1, 9); k = r.choice([2, 3]); truth = r.random() < .5
+    lhs = '(x-%d)^%d' % (a, k); rhs = ('-(%d-x)^%d' if (k == 3) == truth else '(%d-x)^%d') % (a, k)
+    real = (k == 2 and not rhs.startswith('-')) or (k == 3 and rhs.startswith('-'))
+    return dict(en='\\(%s=%s\\) for every \\(x\\).' % (lhs, rhs), vi='\\(%s=%s\\) với mọi \\(x\\).' % (lhs, rhs), ans=real,
+                ee='\\((A-B)^2=(B-A)^2\\) but \\((A-B)^3=-(B-A)^3\\).', ev='\\((A-B)^2=(B-A)^2\\) nhưng \\((A-B)^3=-(B-A)^3\\).')
+
+def b7_short_val(r, lv):
+    a = r.randint(1, 5); s = r.choice([1, -1]); base = r.choice([10, 20, 100]); x = base - s * a
+    R = L(1, s * a) * L(1, s * a) * L(1, s * a); v = base ** 3
+    return dict(en='Find the value of \\(%s\\) at \\(x=%d\\).' % (R.tex(), x), vi='Tính giá trị của biểu thức \\(%s\\) tại \\(x=%d\\).' % (R.tex(), x), key=str(v),
+                ee='\\(=(x%s%d)^3=%d^3=%d\\).' % ('+' if s > 0 else '-', a, base, v), ev='\\(=(x%s%d)^3=%d^3=%d\\).' % ('+' if s > 0 else '-', a, base, v))
+
+def b7_short_coef(r, lv):
+    a, b = r.randint(1, 3), r.randint(1, 4); s = r.choice([1, -1]); P = L(a, s * b); R = P * P * P; k = r.choice([1, 2])
+    return dict(en='In the expansion of \\(%s\\), what is the coefficient of \\(%s\\)?' % (cb(P), vpart((k, 0, 0))), vi='Trong khai triển của \\(%s\\), hệ số của \\(%s\\) là bao nhiêu?' % (cb(P), vpart((k, 0, 0))),
+                key=num(R[(k, 0, 0)]), ee='\\(%s=%s\\).' % (cb(P), R.tex()), ev='\\(%s=%s\\).' % (cb(P), R.tex()))
+
+CUBE_FORMS = [('(A+B)^3', 'A^3+3A^2B+3AB^2+B^3', ['A^3+B^3', 'A^3+3AB+B^3', 'A^3-3A^2B+3AB^2-B^3'], 'the cube of a sum', 'lập phương của một tổng'),
+              ('(A-B)^3', 'A^3-3A^2B+3AB^2-B^3', ['A^3-B^3', 'A^3-3A^2B-3AB^2-B^3', 'A^3+3A^2B+3AB^2-B^3'], 'the cube of a difference', 'lập phương của một hiệu')]
+def b7_d1_formula(r, lv):
+    lhs, good, bads, en, vi = PICK(r, CUBE_FORMS); form = r.choice([0, 1])
+    q = (('Complete the identity (%s): \\(%s=\\,?\\)' % (en, lhs), 'Hoàn thành hằng đẳng thức (%s): \\(%s=\\,?\\)' % (vi, lhs)) if form == 0 else
+         ('Which expression is equal to \\(%s\\)?' % lhs, 'Biểu thức nào bằng \\(%s\\)?' % lhs))
+    return dict(en=q[0], vi=q[1], opts=[good] + bads, ans=0, ee='\\(%s=%s\\).' % (lhs, good), ev='\\(%s=%s\\).' % (lhs, good))
+
+def b7_d1_const(r, lv):
+    a = r.randint(2, 6); s = r.choice([1, -1]); P = L(1, s * a); c = (s * a) ** 3
+    return dict(en='What is the constant term in the expansion of \\(%s\\)?' % cb(P), vi='Hạng tử tự do (không chứa \\(x\\)) trong khai triển của \\(%s\\) là' % cb(P),
+                opts=nopts(r, c, [-c, s * 3 * a, s * a]), ans=0, ee='It is \\(B^3=(%d)^3=%d\\).' % (s * a, c), ev='Đó là \\(B^3=(%d)^3=%d\\).' % (s * a, c))
+
+def b7_d1_AB(r, lv):
+    a, b = r.randint(2, 4), r.randint(1, 5); s = r.choice([1, -1]); R = L(a, s * b) * L(a, s * b) * L(a, s * b)
+    good = 'A=%dx,\\ B=%d' % (a, b); bads = ['A=%dx,\\ B=%d' % (a ** 3, b ** 3), 'A=%dx,\\ B=%d' % (a, b ** 3), 'A=x,\\ B=%d' % b]
+    return dict(en='Write \\(%s\\) in the form \\((A%sB)^3\\). Then…' % (R.tex(), '+' if s > 0 else '-'), vi='Viết \\(%s\\) dưới dạng \\((A%sB)^3\\). Khi đó' % (R.tex(), '+' if s > 0 else '-'),
+                opts=pick_opts(r, good, bads), ans=0, ee='\\(A^3=%dx^3\\Rightarrow A=%dx\\); \\(B^3=%d\\Rightarrow B=%d\\).' % (a ** 3, a, b ** 3, b), ev='\\(A^3=%dx^3\\Rightarrow A=%dx\\); \\(B^3=%d\\Rightarrow B=%d\\).' % (a ** 3, a, b ** 3, b))
+
+def b7_d2_two(r, lv):
+    a, b = r.randint(1, 3), r.randint(1, 3); s = r.choice([1, -1]); P = Poly.of([(a, XV), (s * b, YV)]); R = P * P * P
+    A, B = M(a, XV), M(s * b, YV)
+    return dict(en='Expand \\(%s\\).' % cb(P), vi='Khai triển \\(%s\\).' % cb(P), opts=tpoly(r, R, [A * A * A + B * B * B, A * A * A + 3 * A * B + B * B * B if False else A * A * A + 3 * A * A * B - 3 * A * B * B + B * B * B, A * A * A + A * A * B + A * B * B + B * B * B]), ans=0,
+                ee='\\(%s\\).' % R.tex(), ev='\\(%s\\).' % R.tex())
+
+def b7_d2_tocube(r, lv):
+    q = b7_tocube(r, lv); q['en'] = q['en'].replace('Write', 'Which cube equals').replace(' as a cube.', '?'); q['vi'] = q['vi'].replace('Viết đa thức', 'Đa thức').replace(' dưới dạng lập phương của một tổng hoặc một hiệu.', ' bằng'); return q
+
+def b7_d2_coef(r, lv):
+    a, b = r.randint(2, 3), r.randint(1, 4); s = r.choice([1, -1]); P = L(a, s * b); R = P * P * P
+    c = R[(2, 0, 0)]
+    return dict(en='What is the coefficient of \\(x^2\\) in the expansion of \\(%s\\)?' % cb(P), vi='Hệ số của \\(x^2\\) trong khai triển của \\(%s\\) là' % cb(P),
+                opts=nopts(r, c, [s * 3 * a * b, a * a * s * b, -c]), ans=0, ee='\\(3A^2B=3\\cdot(%dx)^2\\cdot(%d)=%s\\).' % (a, s * b, mtex(c, (2, 0, 0))), ev='\\(3A^2B=3\\cdot(%dx)^2\\cdot(%d)=%s\\).' % (a, s * b, mtex(c, (2, 0, 0))))
+
+def b7_d3_val(r, lv):
+    a = r.randint(1, 4); s = r.choice([1, -1]); base = r.choice([10, 20, 30]); x = base - s * a; R = L(1, s * a) * L(1, s * a) * L(1, s * a); v = base ** 3
+    return dict(en='Write \\(%s\\) as a cube and evaluate it at \\(x=%d\\).' % (R.tex(), x), vi='Viết biểu thức \\(%s\\) dưới dạng lập phương rồi tính giá trị tại \\(x=%d\\).' % (R.tex(), x),
+                opts=nopts(r, v, [x ** 3, (x + s * a) ** 3 + 1, base ** 2], step=1000), ans=0, ee='\\((x%s%d)^3=%d^3=%d\\).' % ('+' if s > 0 else '-', a, base, v), ev='\\((x%s%d)^3=%d^3=%d\\).' % ('+' if s > 0 else '-', a, base, v))
+
+def b7_d3_indep(r, lv):
+    a = r.randint(1, 4); P1, P2 = L(1, a), L(1, -a); D = P1 * P1 * P1 - P2 * P2 * P2   # = 6a x^2 + 2a^3
+    k = 6 * a; c = 2 * a ** 3
+    t = '%s-%s-%dx^2' % (cb(P1), cb(P2), k)
+    return dict(en='Show that \\(%s\\) does not depend on \\(x\\). Its value is…' % t, vi='Biểu thức \\(%s\\) không phụ thuộc vào \\(x\\) và có giá trị bằng' % t,
+                opts=nopts(r, c, [0, a ** 3, 2 * a]), ans=0, ee='\\(%s-%s=%s\\), so the expression equals \\(%d\\).' % (cb(P1), cb(P2), D.tex(), c), ev='\\(%s-%s=%s\\) nên biểu thức bằng \\(%d\\).' % (cb(P1), cb(P2), D.tex(), c))
+
+def b7_d3_fast(r, lv):
+    base, k = r.choice([10, 20, 100]), 1; s = r.choice([1, -1]); n = base + s * k; v = n ** 3
+    return dict(en='Calculate \\(%d^3\\) using \\((A%sB)^3\\).' % (n, '+' if s > 0 else '-'), vi='Tính \\(%d^3\\) bằng hằng đẳng thức \\((A%sB)^3\\).' % (n, '+' if s > 0 else '-'),
+                opts=nopts(r, v, [base ** 3 + s * 1, base ** 3 + s * 3 * base * base, v + 2 * base]), ans=0,
+                ee='\\((%d%s1)^3=%d%s%d+%d%s1=%d\\).' % (base, '+' if s > 0 else '-', base ** 3, '+' if s > 0 else '-', 3 * base * base, 3 * base, '+' if s > 0 else '-', v),
+                ev='\\((%d%s1)^3=%d%s%d+%d%s1=%d\\).' % (base, '+' if s > 0 else '-', base ** 3, '+' if s > 0 else '-', 3 * base * base, 3 * base, '+' if s > 0 else '-', v))
+
+def b7_d4_grow(r, lv):
+    x, k = r.randint(4, 12), r.randint(1, 3); inc = (x + k) ** 3 - x ** 3; P = L(1, k) * L(1, k) * L(1, k) - M(1, (3, 0, 0))
+    return dict(en='A cube has edge \\(x\\) cm. Each edge is increased by %d cm. Write the increase of its volume as a polynomial and evaluate it for \\(x=%d\\).' % (k, x),
+                vi='Một khối lập phương có cạnh \\(x\\) cm. Người ta tăng mỗi cạnh thêm %d cm. Viết đa thức biểu thị phần thể tích tăng thêm và tính giá trị khi \\(x=%d\\).' % (k, x),
+                opts=pick_opts(r, '%s;\\ %d\\text{ cm}^3' % (P.tex(), inc), ['%d;\\ %d\\text{ cm}^3' % (k ** 3, k ** 3), '%s;\\ %d\\text{ cm}^3' % ((P - M(3 * k * k, XV)).tex(), inc - 3 * k * k * x), '%s;\\ %d\\text{ cm}^3' % ((L(1, k) * L(1, k) * L(1, k)).tex(), (x + k) ** 3)]), ans=0,
+                ee='\\((x+%d)^3-x^3=%s\\); at \\(x=%d\\): \\(%d\\) cm³.' % (k, P.tex(), x, inc), ev='\\((x+%d)^3-x^3=%s\\); khi \\(x=%d\\): \\(%d\\) cm³.' % (k, P.tex(), x, inc))
+
+def b7_d4_sum(r, lv):
+    a, b = r.sample(range(1, 9), 2); s, p = a + b, a * b; v = a ** 3 + b ** 3
+    return dict(en='Use \\((a+b)^3=a^3+b^3+3ab(a+b)\\): given \\(a+b=%d\\) and \\(ab=%d\\), find \\(a^3+b^3\\).' % (s, p), vi='Sử dụng \\((a+b)^3=a^3+b^3+3ab(a+b)\\): cho \\(a+b=%d\\) và \\(ab=%d\\), tính \\(a^3+b^3\\).' % (s, p),
+                opts=nopts(r, v, [s ** 3, s ** 3 + 3 * p * s, s ** 3 - p * s]), ans=0, ee='\\(a^3+b^3=%d^3-3\\cdot%d\\cdot%d=%d\\).' % (s, p, s, v), ev='\\(a^3+b^3=%d^3-3\\cdot%d\\cdot%d=%d\\).' % (s, p, s, v))
+
+def b7_d4_cut(r, lv):
+    x, k = r.randint(8, 15), r.randint(1, 3); d = x ** 3 - (x - k) ** 3
+    return dict(en='A wooden cube has edge \\(x\\) cm. It is cut down so that each edge is %d cm shorter. By how much does the volume decrease when \\(x=%d\\)?' % (k, x),
+                vi='Một khối gỗ hình lập phương cạnh \\(x\\) cm được gọt bớt để mỗi cạnh ngắn đi %d cm. Thể tích khối gỗ giảm bao nhiêu khi \\(x=%d\\)?' % (k, x),
+                opts=pick_opts(r, '%d\\text{ cm}^3' % d, ['%d\\text{ cm}^3' % (k ** 3), '%d\\text{ cm}^3' % ((x - k) ** 3), '%d\\text{ cm}^3' % (3 * k * x * x)]), ans=0,
+                ee='\\(x^3-(x-%d)^3=%d^3-%d^3=%d\\) cm³.' % (k, x, x - k, d), ev='\\(x^3-(x-%d)^3=%d^3-%d^3=%d\\) cm³.' % (k, x, x - k, d))
+
+L7_GROUPS = [[('mcq', b7_exp_sum), ('mcq', b7_exp_diff), ('mcq', b7_tocube)], [('tf', b7_tf_cube), ('tf', b7_tf_sign)], [('short', b7_short_val), ('short', b7_short_coef)],
+             [('mcq', b7_d1_formula), ('mcq', b7_d1_const), ('mcq', b7_d1_AB)], [('mcq', b7_d2_two), ('mcq', b7_d2_tocube), ('mcq', b7_d2_coef)],
+             [('mcq', b7_d3_val), ('mcq', b7_d3_indep), ('mcq', b7_d3_fast)], [('mcq', b7_d4_grow), ('mcq', b7_d4_sum), ('mcq', b7_d4_cut)]]
+
+# ----------------------------------------------------------------------------------- BÀI 8
+def _cubes(r, two=False, hi=3):
+    a, b = r.randint(1, hi), r.randint(1, 5)
+    A = M(a, XV); B = M(b, YV) if two else M(b, (0, 0, 0))
+    return A, B
+
+def tri(A, B, s):
+    """A² ∓ AB + B² (s=+1 cho tổng hai lập phương: dấu trừ ở giữa)."""
+    return A * A - s * A * B + B * B
+
+def b8_expand(r, lv):
+    A, B = _cubes(r, r.random() < .3); s = r.choice([1, -1]); R = A * A * A + s * B * B * B
+    t = '%s%s' % (br(A + s * B), br(tri(A, B, s)))
+    return dict(en='Find the product \\(%s\\).' % t, vi='Tính \\(%s\\).' % t, opts=tpoly(r, R, [A * A * A - s * B * B * B, (A + s * B) * (A + s * B) * (A + s * B), A * A * A + s * B * B]), ans=0,
+                ee='It is the %s of two cubes: \\(%s\\).' % ('sum' if s > 0 else 'difference', R.tex()), ev='Đây là %s hai lập phương: \\(%s\\).' % ('tổng' if s > 0 else 'hiệu', R.tex()))
+
+def _fac_opts(r, A, B, s):
+    good = '%s%s' % (br(A + s * B), br(tri(A, B, s)))
+    bads = ['%s%s' % (br(A + s * B), br(tri(A, B, -s))), '%s%s' % (br(A - s * B), br(tri(A, B, s))), '%s%s' % (br(A + s * B), br(A * A + B * B))]
+    return good, bads
+
+def b8_fac(r, lv, s=None):
+    A, B = _cubes(r, r.random() < .3)
+    if gcd(int(list(A.values())[0]), int(list(B.values())[0])) > 1: raise AssertionError
+    s = s or r.choice([1, -1]); P = A * A * A + s * B * B * B
+    good, bads = _fac_opts(r, A, B, s)
+    return dict(en='Write \\(%s\\) as a product.' % P.tex(), vi='Viết đa thức \\(%s\\) dưới dạng tích.' % P.tex(), opts=pick_opts(r, good, bads), ans=0,
+                ee='\\(A^3%sB^3=(A%sB)(A^2%sAB+B^2)\\) with \\(A=%s,\\ B=%s\\).' % ('+' if s > 0 else '-', '+' if s > 0 else '-', '-' if s > 0 else '+', A.tex(), B.tex()),
+                ev='\\(A^3%sB^3=(A%sB)(A^2%sAB+B^2)\\) với \\(A=%s,\\ B=%s\\).' % ('+' if s > 0 else '-', '+' if s > 0 else '-', '-' if s > 0 else '+', A.tex(), B.tex()))
+def b8_fac_diff(r, lv): return b8_fac(r, lv, -1)
+def b8_fac_sum(r, lv):
+    q = b8_fac(r, lv, 1); q['en'] = q['en'].replace('Write', 'Factor').replace(' as a product.', '.'); q['vi'] = q['vi'].replace('Viết đa thức', 'Phân tích đa thức').replace(' dưới dạng tích.', ' thành tích.'); return q
+
+def b8_tf_prod(r, lv):
+    a = r.randint(1, 9); s = r.choice([1, -1]); truth = r.random() < .5; A, B = M(1, XV), M(a, (0, 0, 0))
+    t2 = tri(A, B, s) if truth else tri(A, B, -s); R = A * A * A + s * B * B * B
+    return dict(en='\\(%s%s=%s\\).' % (br(A + s * B), br(t2), R.tex()), vi='\\(%s%s=%s\\).' % (br(A + s * B), br(t2), R.tex()), ans=((A + s * B) * t2 == R),
+                ee='\\(%s%s=%s\\).' % (br(A + s * B), br(tri(A, B, s)), R.tex()), ev='\\(%s%s=%s\\).' % (br(A + s * B), br(tri(A, B, s)), R.tex()))
+
+def b8_tf_cube(r, lv):
+    a = r.randint(1, 6); s = r.choice([1, -1]); truth = r.random() < .5; P = Poly.of([(1, (3, 0, 0)), (s * a ** 3, (0, 0, 0))])
+    claim = '(x%s%d)(x^2%s%dx+%d)' % ('+' if s > 0 else '-', a, '-' if s > 0 else '+', a, a * a) if truth else '(x%s%d)^3' % ('+' if s > 0 else '-', a)
+    return dict(en='\\(%s=%s\\).' % (P.tex(), claim), vi='\\(%s=%s\\).' % (P.tex(), claim), ans=truth,
+                ee='\\(%s=(x%s%d)(x^2%s%dx+%d)\\); note \\((x%s%d)^3\\ne %s\\).' % (P.tex(), '+' if s > 0 else '-', a, '-' if s > 0 else '+', a, a * a, '+' if s > 0 else '-', a, P.tex()),
+                ev='\\(%s=(x%s%d)(x^2%s%dx+%d)\\); chú ý \\((x%s%d)^3\\ne %s\\).' % (P.tex(), '+' if s > 0 else '-', a, '-' if s > 0 else '+', a, a * a, '+' if s > 0 else '-', a, P.tex()))
+
+def b8_short_ab(r, lv):
+    a, b = r.sample(range(1, 8), 2); s = r.choice([1, -1])
+    if s < 0 and a < b: a, b = b, a
+    if s > 0: v = a ** 3 + b ** 3; en = 'Given \\(a+b=%d\\) and \\(ab=%d\\), find \\(a^3+b^3\\).' % (a + b, a * b); vi = 'Cho \\(a+b=%d\\) và \\(ab=%d\\). Tính \\(a^3+b^3\\).' % (a + b, a * b)
+    else: v = a ** 3 - b ** 3; en = 'Given \\(a-b=%d\\) and \\(ab=%d\\), find \\(a^3-b^3\\).' % (a - b, a * b); vi = 'Cho \\(a-b=%d\\) và \\(ab=%d\\). Tính \\(a^3-b^3\\).' % (a - b, a * b)
+    if s > 0: e = '\\(a^3+b^3=(a+b)^3-3ab(a+b)=%d\\).' % v
+    else: e = '\\(a^3-b^3=(a-b)^3+3ab(a-b)=%d\\).' % v
+    return dict(en=en, vi=vi, key=str(v), ee=e, ev=e)
+
+def b8_short_const(r, lv):
+    a = r.randint(1, 6); s = r.choice([1, -1]); A, B = M(1, XV), M(a, (0, 0, 0)); c = s * a ** 3
+    t = '%s%s-x^3' % (br(A + s * B), br(tri(A, B, s)))
+    return dict(en='Simplify \\(%s\\). What number do you get?' % t, vi='Rút gọn biểu thức \\(%s\\). Kết quả là số nào?' % t, key=str(c),
+                ee='\\(=x^3%s%d-x^3=%d\\).' % ('+' if s > 0 else '-', a ** 3, c), ev='\\(=x^3%s%d-x^3=%d\\).' % ('+' if s > 0 else '-', a ** 3, c))
+
+SC_FORMS = [('A^3+B^3', '(A+B)(A^2-AB+B^2)', ['(A+B)(A^2+AB+B^2)', '(A+B)^3', '(A-B)(A^2-AB+B^2)'], 'the sum of two cubes', 'tổng hai lập phương'),
+            ('A^3-B^3', '(A-B)(A^2+AB+B^2)', ['(A-B)(A^2-AB+B^2)', '(A-B)^3', '(A+B)(A^2+AB+B^2)'], 'the difference of two cubes', 'hiệu hai lập phương')]
+def b8_d1_formula(r, lv):
+    lhs, good, bads, en, vi = PICK(r, SC_FORMS); form = r.choice([0, 1])
+    q = (('Complete the identity (%s): \\(%s=\\,?\\)' % (en, lhs), 'Hoàn thành hằng đẳng thức (%s): \\(%s=\\,?\\)' % (vi, lhs)) if form == 0 else
+         ('Which product is equal to \\(%s\\)?' % lhs, 'Tích nào bằng \\(%s\\)?' % lhs))
+    return dict(en=q[0], vi=q[1], opts=[good] + bads, ans=0, ee='\\(%s=%s\\).' % (lhs, good), ev='\\(%s=%s\\).' % (lhs, good))
+
+def b8_d1_fill(r, lv):
+    a = r.randint(2, 9); s = r.choice([1, -1]); A, B = M(1, XV), M(a, (0, 0, 0)); P = A * A * A + s * B * B * B
+    good = tri(A, B, s); bads = [tri(A, B, -s), A * A + B * B, (A + s * B) * (A + s * B)]
+    return dict(en='Fill in the missing factor: \\(%s=%s\\cdot(\\ \\dots\\ )\\).' % (P.tex(), br(A + s * B)), vi='Điền đa thức thích hợp vào chỗ trống: \\(%s=%s\\cdot(\\ \\dots\\ )\\).' % (P.tex(), br(A + s * B)),
+                opts=tpoly(r, good, bads), ans=0, ee='The missing factor is \\(%s\\).' % good.tex(), ev='Đa thức cần điền là \\(%s\\).' % good.tex())
+
+def b8_d1_read(r, lv):
+    forms = [('A^3+B^3', 'the sum of two cubes', 'tổng hai lập phương'), ('A^3-B^3', 'the difference of two cubes', 'hiệu hai lập phương'),
+             ('(A+B)^3', 'the cube of a sum', 'lập phương của một tổng'), ('(A-B)^3', 'the cube of a difference', 'lập phương của một hiệu')]
+    i = r.randrange(4); o = [tx(forms[i][1], forms[i][2])] + [tx(f[1], f[2]) for j, f in enumerate(forms) if j != i]
+    return dict(en='How do we read \\(%s\\)?' % forms[i][0], vi='Biểu thức \\(%s\\) được gọi là' % forms[i][0], opts=o, ans=0, ee='\\(%s\\) is %s.' % (forms[i][0], forms[i][1]), ev='\\(%s\\) là %s.' % (forms[i][0], forms[i][2]))
+
+def b8_d2_fac2(r, lv):
+    A, B = _cubes(r, True)
+    if gcd(int(list(A.values())[0]), int(list(B.values())[0])) > 1: raise AssertionError
+    s = r.choice([1, -1]); P = A * A * A + s * B * B * B; good, bads = _fac_opts(r, A, B, s)
+    return dict(en='Factor \\(%s\\).' % P.tex(), vi='Phân tích đa thức \\(%s\\) thành nhân tử.' % P.tex(), opts=pick_opts(r, good, bads), ans=0, ee='\\(%s=%s\\).' % (P.tex(), good), ev='\\(%s=%s\\).' % (P.tex(), good))
+
+def b8_d2_exp(r, lv):
+    A, B = _cubes(r, True); s = r.choice([1, -1]); R = A * A * A + s * B * B * B
+    t = '%s%s' % (br(A + s * B), br(tri(A, B, s)))
+    return dict(en='Expand \\(%s\\).' % t, vi='Thực hiện phép nhân \\(%s\\).' % t, opts=tpoly(r, R, [A * A * A - s * B * B * B, (A + s * B) * (A + s * B) * (A + s * B), A * A * A + s * 3 * A * B * B * 0 + s * B * B]), ans=0,
+                ee='\\(=%s\\).' % R.tex(), ev='\\(=%s\\).' % R.tex())
+
+def b8_d2_diff2(r, lv):
+    a = r.randint(1, 6); A, B = M(1, XV), M(a, (0, 0, 0)); R = (A + B) * tri(A, B, 1) - (A - B) * tri(A, B, -1)
+    t = '%s%s-%s%s' % (br(A + B), br(tri(A, B, 1)), br(A - B), br(tri(A, B, -1)))
+    return dict(en='Simplify \\(%s\\).' % t, vi='Rút gọn biểu thức \\(%s\\).' % t, opts=tpoly(r, R, [M(0, XV) + M(2, (3, 0, 0)), M(0, XV) + M(a ** 3, (0, 0, 0)), M(0, XV) + M(-2 * a ** 3, (0, 0, 0))]), ans=0,
+                ee='\\((x^3+%d)-(x^3-%d)=%d\\).' % (a ** 3, a ** 3, 2 * a ** 3), ev='\\((x^3+%d)-(x^3-%d)=%d\\).' % (a ** 3, a ** 3, 2 * a ** 3))
+
+def b8_d3_ab(r, lv):
+    while True:
+        a, b = r.randint(2, 9), r.randint(1, 8)
+        if a > b: break
+    v = a ** 3 - b ** 3; d, p = a - b, a * b
+    return dict(en='Given \\(a-b=%d\\) and \\(ab=%d\\), find \\(a^3-b^3\\).' % (d, p), vi='Cho \\(a-b=%d\\) và \\(ab=%d\\). Tính \\(a^3-b^3\\).' % (d, p),
+                opts=nopts(r, v, [d ** 3, d ** 3 - 3 * p * d, d * p]), ans=0, ee='\\(a^3-b^3=(a-b)^3+3ab(a-b)=%d+%d=%d\\).' % (d ** 3, 3 * p * d, v), ev='\\(a^3-b^3=(a-b)^3+3ab(a-b)=%d+%d=%d\\).' % (d ** 3, 3 * p * d, v))
+
+def b8_d3_val(r, lv):
+    a, k = r.randint(1, 4), r.randint(2, 6); A, B = M(1, XV), M(a, (0, 0, 0))
+    R = (A - B) * tri(A, B, -1) - M(1, XV) * Poly.of([(1, (2, 0, 0)), (-k, (0, 0, 0))])     # = kx - a^3
+    x = nz(r, -6, 6); v = R.at(x)
+    t = '%s%s-x(x^2-%d)' % (br(A - B), br(tri(A, B, -1)), k)
+    return dict(en='Simplify \\(A=%s\\), then find its value at \\(x=%d\\).' % (t, x), vi='Rút gọn biểu thức \\(A=%s\\) rồi tính giá trị tại \\(x=%d\\).' % (t, x),
+                opts=nopts(r, v, [k * x + a ** 3, -v, v - k]), ans=0, ee='\\(A=%s\\), so \\(A=%d\\).' % (R.tex(), v), ev='\\(A=%s\\) nên \\(A=%d\\).' % (R.tex(), v))
+
+def b8_d3_x(r, lv):
+    a, k = r.randint(1, 3), r.randint(2, 6); x = nz(r, -6, 6); A, B = M(1, XV), M(a, (0, 0, 0))
+    c = a ** 3 + k * x    # (x+a)(x^2-ax+a^2) - x(x^2-k) = a^3 + kx
+    t = '%s%s-x(x^2-%d)=%d' % (br(A + B), br(tri(A, B, 1)), k, c)
+    return dict(en='Find \\(x\\), given that \\(%s\\).' % t, vi='Tìm \\(x\\), biết \\(%s\\).' % t, opts=nopts(r, x, [-x, F(c, k), F(c + a ** 3, k)]), ans=0,
+                ee='\\(x^3+%d-x^3+%dx=%d\\Rightarrow %dx=%d\\Rightarrow x=%d\\).' % (a ** 3, k, c, k, c - a ** 3, x), ev='\\(x^3+%d-x^3+%dx=%d\\Rightarrow %dx=%d\\Rightarrow x=%d\\).' % (a ** 3, k, c, k, c - a ** 3, x))
+
+def b8_d4_tank(r, lv):
+    k = r.randint(1, 3); x = r.randint(k + 6, 15); v = x ** 3 - k ** 3
+    good = '(x-%d)(x^2+%sx+%d);\\ %d' % (k, '' if k == 1 else k, k * k, v)
+    bads = ['(x-%d)(x^2-%sx+%d);\\ %d' % (k, '' if k == 1 else k, k * k, (x - k) * (x * x - k * x + k * k)), '(x-%d)^3;\\ %d' % (k, (x - k) ** 3), '(x-%d)(x^2+%sx+%d);\\ %d' % (k, '' if k == 1 else k, k * k, v + k ** 3 * 2)]
+    return dict(en='A cube-shaped tank has edge \\(x\\) dm. A cube-shaped stone block with edge %d dm lies at the bottom. The amount of water needed to fill the tank is \\(x^3-%d\\) liters. Write it as a product and find it when \\(x=%d\\).' % (k, k ** 3, x),
+                vi='Một bể nước hình lập phương cạnh \\(x\\) dm, dưới đáy có đặt một khối đá hình lập phương cạnh %d dm. Lượng nước cần đổ để đầy bể là \\(x^3-%d\\) (lít). Viết biểu thức đó dưới dạng tích và tính giá trị khi \\(x=%d\\).' % (k, k ** 3, x),
+                opts=pick_opts(r, good, bads), ans=0, ee='\\(x^3-%d=(x-%d)(x^2+%sx+%d)\\); at \\(x=%d\\): %d liters.' % (k ** 3, k, '' if k == 1 else k, k * k, x, v),
+                ev='\\(x^3-%d=(x-%d)(x^2+%sx+%d)\\); khi \\(x=%d\\): %d lít.' % (k ** 3, k, '' if k == 1 else k, k * k, x, v))
+
+def b8_d4_two(r, lv):
+    a, b = r.sample(range(2, 10), 2); v = a ** 3 + b ** 3
+    return dict(en='Two cubes have edges \\(a\\) cm and \\(b\\) cm with \\(a+b=%d\\) and \\(ab=%d\\). Find their total volume.' % (a + b, a * b), vi='Hai khối lập phương có cạnh \\(a\\) cm và \\(b\\) cm, biết \\(a+b=%d\\) và \\(ab=%d\\). Tính tổng thể tích của hai khối.' % (a + b, a * b),
+                opts=pick_opts(r, '%d\\text{ cm}^3' % v, ['%d\\text{ cm}^3' % (a + b) ** 3, '%d\\text{ cm}^3' % ((a + b) ** 3 - a * b * (a + b)), '%d\\text{ cm}^3' % ((a + b) ** 3 + 3 * a * b * (a + b))]), ans=0,
+                ee='\\(a^3+b^3=(a+b)^3-3ab(a+b)=%d\\) cm³.' % v, ev='\\(a^3+b^3=(a+b)^3-3ab(a+b)=%d\\) cm³.' % v)
+
+def b8_d4_shell(r, lv):
+    x = r.randint(3, 12); v = (x + 1) ** 3 - (x - 1) ** 3
+    return dict(en='A hollow cube box has outer edge \\((x+1)\\) cm and inner edge \\((x-1)\\) cm. The volume of its walls is \\((x+1)^3-(x-1)^3\\). Find this volume when \\(x=%d\\).' % x,
+                vi='Một chiếc hộp hình lập phương rỗng có cạnh ngoài \\((x+1)\\) cm và cạnh trong \\((x-1)\\) cm. Thể tích phần vỏ hộp là \\((x+1)^3-(x-1)^3\\). Tính thể tích đó khi \\(x=%d\\).' % x,
+                opts=pick_opts(r, '%d\\text{ cm}^3' % v, ['%d\\text{ cm}^3' % (2 * x ** 3), '%d\\text{ cm}^3' % (6 * x * x), '%d\\text{ cm}^3' % 2]), ans=0,
+                ee='\\(A^3-B^3=(A-B)(A^2+AB+B^2)=2(3x^2+1)=6x^2+2=%d\\) cm³.' % v, ev='\\(A^3-B^3=(A-B)(A^2+AB+B^2)=2(3x^2+1)=6x^2+2=%d\\) cm³.' % v)
+
+L8_GROUPS = [[('mcq', b8_expand), ('mcq', b8_fac_diff), ('mcq', b8_fac_sum)], [('tf', b8_tf_prod), ('tf', b8_tf_cube)], [('short', b8_short_ab), ('short', b8_short_const)],
+             [('mcq', b8_d1_formula), ('mcq', b8_d1_fill), ('mcq', b8_d1_read)], [('mcq', b8_d2_fac2), ('mcq', b8_d2_exp), ('mcq', b8_d2_diff2)],
+             [('mcq', b8_d3_ab), ('mcq', b8_d3_val), ('mcq', b8_d3_x)], [('mcq', b8_d4_tank), ('mcq', b8_d4_two), ('mcq', b8_d4_shell)]]
+
+# ----------------------------------------------------------------------------------- BÀI 9
+
+def b9_common(r, lv):
+    while True:
+        g = r.randint(2, 6); e1, e2 = rexp(r, 2, 1, 3), rexp(r, 2, 1, 3); m = tuple(min(a, b) for a, b in zip(e1, e2))
+        c1, c2 = nz(r, -5, 5), nz(r, -5, 5)
+        if gcd(abs(c1), abs(c2)) == 1 and e1 != e2: break
+    k = M(g, m); u, w = M(c1, tuple(a - b for a, b in zip(e1, m))), M(c2, tuple(a - b for a, b in zip(e2, m))); P = k * (u + w)
+    good = '%s%s' % (k.tex(), br(u + w))
+    bads = ['%s%s' % (k.tex(), br(-u + w)), '%s%s' % (k.tex(), br(u - w)), '%s%s' % (k.tex(), br(u + w + M(1, (0, 0, 0))))]
+    return dict(en='Factor \\(%s\\) by taking out the common factor.' % P.tex(), vi='Phân tích đa thức \\(%s\\) thành nhân tử bằng cách đặt nhân tử chung.' % P.tex(),
+                opts=pick_opts(r, good, bads), ans=0, ee='The greatest common factor is \\(%s\\): \\(%s\\).' % (k.tex(), good), ev='Nhân tử chung là \\(%s\\): \\(%s\\).' % (k.tex(), good))
+
+def b9_ident(r, lv):
+    a, b = r.randint(1, 5), r.randint(1, 9)
+    if gcd(a, b) > 1: raise AssertionError
+    kind = r.choice(['dsq', 'sq'])
+    if kind == 'dsq':
+        P = Poly.of([(a * a, (2, 0, 0)), (-b * b, (0, 0, 0))]); good = '(%s)(%s)' % (L(a, -b).tex(), L(a, b).tex()); bads = [sq(L(a, -b)), sq(L(a, b)), '(%s)(%s)' % (L(a, -b).tex(), L(-a, -b).tex())]
+    else:
+        s = r.choice([1, -1]); P = L(a, s * b) * L(a, s * b); good = sq(L(a, s * b)); bads = [sq(L(a, -s * b)), '(%s)(%s)' % (L(a, -b).tex(), L(a, b).tex()), sq(L(a * a, s * b)) if a > 1 else sq(L(1, s * b * b))]
+    return dict(en='Factor \\(%s\\) using an identity.' % P.tex(), vi='Phân tích đa thức \\(%s\\) thành nhân tử bằng hằng đẳng thức.' % P.tex(), opts=pick_opts(r, good, bads), ans=0,
+                ee='\\(%s=%s\\).' % (P.tex(), good), ev='\\(%s=%s\\).' % (P.tex(), good))
+
+def _group(r):
+    """(x + a y)(b x + c) khai triển 4 hạng tử, nhóm được."""
+    a, b, c = nz(r, -5, 5), r.randint(1, 4), nz(r, -6, 6)
+    F1, F2 = Poly.of([(1, XV), (a, YV)]), L(b, c)
+    return F1, F2, F1 * F2
+
+def b9_group(r, lv):
+    F1, F2, P = _group(r)
+    if len(P) != 4: raise AssertionError
+    od = [(1 * F2.order()[0][0], (2, 0, 0)), (F1[YV] * F2.order()[0][0], (1, 1, 0)), (F2[(0, 0, 0)], XV), (F1[YV] * F2[(0, 0, 0)], YV)]
+    t = ptex(od); good = '%s%s' % (br(F1), br(F2))
+    bads = ['%s%s' % (br(Poly.of([(1, XV), (-F1[YV], YV)])), br(F2)), '%s%s' % (br(F1), br(L(F2[XV], -F2[(0, 0, 0)]))), '%s%s' % (br(Poly.of([(1, XV), (F1[YV], (0, 0, 0))])), br(Poly.of([(F2[XV], XV), (F2[(0, 0, 0)], YV)])))]
+    return dict(en='Factor \\(%s\\) by grouping terms.' % t, vi='Phân tích đa thức \\(%s\\) thành nhân tử bằng cách nhóm hạng tử.' % t, opts=pick_opts(r, good, bads), ans=0,
+                ee='Group the first two and the last two terms: \\(%s\\).' % good, ev='Nhóm hai hạng tử đầu và hai hạng tử cuối: \\(%s\\).' % good)
+
+def b9_tf_fac(r, lv):
+    a = r.randint(2, 9); truth = r.random() < .5; P = Poly.of([(1, (2, 0, 0)), (-a * a, (0, 0, 0))])
+    claim = '(x-%d)(x+%d)' % (a, a) if truth else r.choice(['(x-%d)^2' % a, '(x-%d)(x+%d)' % (a * a, 1)])
+    return dict(en='\\(%s=%s\\).' % (P.tex(), claim), vi='\\(%s=%s\\).' % (P.tex(), claim), ans=truth, ee='\\(%s=(x-%d)(x+%d)\\).' % (P.tex(), a, a), ev='\\(%s=(x-%d)(x+%d)\\).' % (P.tex(), a, a))
+
+def b9_tf_group(r, lv):
+    a, b = r.randint(1, 9), r.randint(1, 9); truth = r.random() < .5
+    t = 'x^2+%dx+%sx+%d' % (a, '' if b == 1 else b, a * b) if False else 'x^2+%dx-%sx-%d' % (a, '' if b == 1 else b, a * b)
+    good = '(x+%d)(x-%d)' % (a, b); claim = good if truth else '(x-%d)(x+%d)' % (a, b)
+    if a == b and not truth: claim = '(x+%d)^2' % a
+    return dict(en='\\(%s=%s\\).' % (t, claim), vi='\\(%s=%s\\).' % (t, claim), ans=truth,
+                ee='\\(x(x+%d)-%s(x+%d)=(x+%d)(x-%d)\\).' % (a, b, a, a, b), ev='\\(x(x+%d)-%s(x+%d)=(x+%d)(x-%d)\\).' % (a, b, a, a, b))
+
+def b9_short_x(r, lv):
+    a = r.randint(1, 6); x0 = nz(r, -9, 9); b = a * x0
+    t = '%sx^2%s=0' % ('' if a == 1 else a, mtex(-b, XV, False))
+    return dict(en='Find the nonzero value of \\(x\\) such that \\(%s\\).' % t, vi='Tìm giá trị \\(x\\) khác 0 thỏa mãn \\(%s\\).' % t, key=str(x0),
+                ee='\\(%sx(x%s)=0\\Rightarrow x=0\\) or \\(x=%d\\).' % ('' if a == 1 else a, mtex(-x0, (0, 0, 0), False), x0), ev='\\(%sx(x%s)=0\\Rightarrow x=0\\) hoặc \\(x=%d\\).' % ('' if a == 1 else a, mtex(-x0, (0, 0, 0), False), x0))
+
+def b9_short_fast(r, lv):
+    a = r.randint(12, 99); b = r.randint(11, 89); c = 100 - b
+    return dict(en='Calculate quickly: \\(%d\\cdot %d+%d\\cdot %d\\).' % (a, b, a, c), vi='Tính nhanh: \\(%d\\cdot %d+%d\\cdot %d\\).' % (a, b, a, c), key=str(100 * a),
+                ee='\\(=%d(%d+%d)=%d\\cdot100=%d\\).' % (a, b, c, a, 100 * a), ev='\\(=%d(%d+%d)=%d\\cdot100=%d\\).' % (a, b, c, a, 100 * a))
+
+def b9_d1_gcf(r, lv):
+    while True:
+        g = r.randint(2, 6); e1, e2 = rexp(r, 2, 1, 3), rexp(r, 2, 1, 3); m = tuple(min(a, b) for a, b in zip(e1, e2)); c1, c2 = r.randint(1, 5), -r.randint(1, 5)
+        if gcd(c1, -c2) == 1 and e1 != e2: break
+    P = M(g * c1, e1) + M(g * c2, e2); k = M(g, m)
+    bads = [M(g * c1 * -c2, m), M(g, e1), M(1, m)]
+    return dict(en='What is the greatest common factor of the terms of \\(%s\\)?' % P.tex(), vi='Nhân tử chung của các hạng tử trong đa thức \\(%s\\) là' % P.tex(),
+                opts=tpoly(r, k, bads, lambda t: M(g + t + 1, m)), ans=0, ee='GCF of the coefficients: %d; lowest powers: \\(%s\\).' % (g, vpart(m)), ev='ƯCLN của các hệ số là %d; mỗi biến lấy số mũ nhỏ nhất: \\(%s\\).' % (g, vpart(m)))
+
+METH = [tx('taking out a common factor', 'đặt nhân tử chung'), tx('using an identity', 'dùng hằng đẳng thức'), tx('grouping terms', 'nhóm hạng tử'), tx('none: it cannot be factored', 'không phân tích được')]
+def b9_d1_method(r, lv):
+    """Chọn phương pháp; dùng lại đề của b9_common / b9_ident / b9_group."""
+    k = r.randrange(3)
+    if k == 0: q = b9_common(r, lv)
+    elif k == 1: q = b9_ident(r, lv)
+    else: q = b9_group(r, lv)
+    P = re.search(r'\\\((.*?)\\\)', q['en']).group(1)
+    o = [METH[k]] + [m for i, m in enumerate(METH) if i != k]
+    return dict(en='Which method is the most suitable to factor \\(%s\\)?' % P, vi='Phương pháp thích hợp nhất để phân tích đa thức \\(%s\\) thành nhân tử là' % P, opts=o, ans=0,
+                ee=q['ee'], ev=q['ev'])
+
+def b9_d1_def(r, lv):
+    Q = PICK(r, [('Factoring a polynomial means…', 'Phân tích đa thức thành nhân tử là'), ('What does it mean to factor a polynomial?', 'Thế nào là phân tích một đa thức thành nhân tử?'),
+                 ('Complete: to factor a polynomial is to…', 'Hoàn thành: phân tích đa thức thành nhân tử là…'), ('Which statement describes factoring a polynomial?', 'Phát biểu nào mô tả đúng việc phân tích đa thức thành nhân tử?')])
+    o = [tx('writing it as a product of polynomials', 'biến đổi đa thức đó thành một tích của những đa thức'), tx('writing it as a sum of monomials', 'biến đổi đa thức thành tổng các đơn thức'),
+         tx('finding its degree', 'tìm bậc của đa thức'), tx('finding its value', 'tính giá trị của đa thức')]
+    return dict(en=Q[0], vi=Q[1], opts=o, ans=0, ee='Example: \\(x^2-x=x(x-1)\\).', ev='Ví dụ: \\(x^2-x=x(x-1)\\).')
+
+def b9_d2_sq(r, lv):
+    a, b = r.randint(1, 4), r.randint(1, 5)
+    if gcd(a, b) > 1: raise AssertionError
+    s = r.choice([1, -1]); P = Poly.of([(a, XV), (s * b, YV)]); R = P * P
+    good = sq(P); bads = [sq(Poly.of([(a, XV), (-s * b, YV)])), '(%s)(%s)' % (Poly.of([(a, XV), (-b, YV)]).tex(), Poly.of([(a, XV), (b, YV)]).tex()), sq(Poly.of([(a * a, XV), (s * b * b, YV)])) if a > 1 or b > 1 else sq(Poly.of([(1, XV), (2 * s, YV)]))]
+    return dict(en='Factor \\(%s\\).' % R.tex(), vi='Phân tích đa thức \\(%s\\) thành nhân tử.' % R.tex(), opts=pick_opts(r, good, bads), ans=0, ee='\\(%s=%s\\).' % (R.tex(), good), ev='\\(%s=%s\\).' % (R.tex(), good))
+
+def b9_d2_cube(r, lv):
+    q = b8_fac(r, lv); q['en'] = q['en'].replace('Write', 'Factor').replace(' as a product.', '.'); q['vi'] = q['vi'].replace('Viết đa thức', 'Phân tích đa thức').replace(' dưới dạng tích.', ' thành nhân tử.'); return q
+
+def b9_d2_binom(r, lv):
+    a, b, c = r.randint(1, 9), r.randint(2, 6), r.randint(2, 9); swap = r.random() < .5
+    if swap:
+        t = '%dx(x-%d)+%d(%d-x)' % (b, a, c, a); good = '(x-%d)(%dx-%d)' % (a, b, c); bads = ['(x-%d)(%dx+%d)' % (a, b, c), '(x+%d)(%dx-%d)' % (a, b, c), '(x-%d)(%dx-%d)' % (a, b + c, 1)]
+    else:
+        t = '%dx(x-%d)-%d(x-%d)' % (b, a, c, a); good = '(x-%d)(%dx-%d)' % (a, b, c); bads = ['(x-%d)(%dx+%d)' % (a, b, c), '(x-%d)^2(%dx-%d)' % (a, b, c), '%dx(x-%d)' % (b - c, a) if b != c else '(x+%d)(%dx-%d)' % (a, b, c)]
+    return dict(en='Factor \\(%s\\).' % t, vi='Phân tích đa thức \\(%s\\) thành nhân tử.' % t, opts=pick_opts(r, good, bads), ans=0,
+                ee=('Note \\(%d(%d-x)=-%d(x-%d)\\); the common factor is \\(x-%d\\).' % (c, a, c, a, a)) if swap else 'The common factor is \\(x-%d\\).' % a,
+                ev=('Chú ý \\(%d(%d-x)=-%d(x-%d)\\); nhân tử chung là \\(x-%d\\).' % (c, a, c, a, a)) if swap else 'Nhân tử chung là \\(x-%d\\).' % a)
+
+def b9_d3_x(r, lv):
+    k = r.randint(1, 7); a = r.choice([1, 2])
+    t = '%sx^3-%dx=0' % ('' if a == 1 else a, a * k * k)
+    good = 'x\\in\\{0;\\ %d;\\ -%d\\}' % (k, k); bads = ['x\\in\\{%d;\\ -%d\\}' % (k, k), 'x\\in\\{0;\\ %d\\}' % k, 'x\\in\\{0;\\ %d;\\ -%d\\}' % (k * k, k * k)]
+    return dict(en='Find all \\(x\\) such that \\(%s\\).' % t, vi='Tìm tất cả các giá trị của \\(x\\), biết \\(%s\\).' % t, opts=pick_opts(r, good, bads), ans=0,
+                ee='\\(%sx(x-%d)(x+%d)=0\\).' % ('' if a == 1 else a, k, k), ev='\\(%sx(x-%d)(x+%d)=0\\).' % ('' if a == 1 else a, k, k))
+
+def b9_d3_comb(r, lv):
+    a = r.randint(1, 5); s = r.choice([1, -1]); P = M(1, XV) * Poly.of([(1, XV), (s * a, YV)]) * Poly.of([(1, XV), (s * a, YV)])
+    good = 'x(x%s%sy)^2' % ('+' if s > 0 else '-', '' if a == 1 else a)
+    bads = ['x(x%s%sy)^2' % ('-' if s > 0 else '+', '' if a == 1 else a), 'x(x-%sy)(x+%sy)' % ('' if a == 1 else a, '' if a == 1 else a), '(x%s%sy)^2' % ('+' if s > 0 else '-', '' if a == 1 else a)]
+    return dict(en='Factor \\(%s\\).' % P.tex(), vi='Phân tích đa thức \\(%s\\) thành nhân tử.' % P.tex(), opts=pick_opts(r, good, bads), ans=0,
+                ee='Take out \\(x\\), then use the square identity: \\(%s\\).' % good, ev='Đặt nhân tử chung \\(x\\) rồi dùng hằng đẳng thức: \\(%s\\).' % good)
+
+def b9_d3_gid(r, lv):
+    k = r.randint(1, 6); t = 'x^2-2xy+y^2-%d' % (k * k)
+    good = '(x-y-%d)(x-y+%d)' % (k, k); bads = ['(x-y-%d)^2' % k, '(x+y-%d)(x+y+%d)' % (k, k), '(x-y-%d)(x+y+%d)' % (k, k)]
+    return dict(en='Factor \\(%s\\).' % t, vi='Phân tích đa thức \\(%s\\) thành nhân tử.' % t, opts=pick_opts(r, good, bads), ans=0,
+                ee='\\((x-y)^2-%d^2=(x-y-%d)(x-y+%d)\\).' % (k, k, k), ev='\\((x-y)^2-%d^2=(x-y-%d)(x-y+%d)\\).' % (k, k, k))
+
+def b9_d4_rect(r, lv):
+    a, b = r.sample(range(1, 8), 2); a, b = min(a, b), max(a, b); x = r.randint(3, 12); S = L(1, a) * L(1, b)
+    good = '(x+%d)\\text{ m and }(x+%d)\\text{ m}' % (a, b)
+    return dict(en='A rectangular plot has area \\(%s\\) (m²). Hint: \\(%s=x^2+%dx+%dx+%d\\). Its sides are \\((x+%d)\\) m and \\((x+%d)\\) m. What is its area when \\(x=%d\\)?' % (S.tex(), S.tex(), a, b, a * b, a, b, x),
+                vi='Một mảnh đất hình chữ nhật có diện tích \\(%s\\) (m²). Gợi ý: \\(%s=x^2+%sx+%dx+%d\\). Các cạnh của mảnh đất là \\((x+%d)\\) m và \\((x+%d)\\) m. Tính diện tích khi \\(x=%d\\).' % (S.tex(), S.tex(), '' if a == 1 else a, b, a * b, a, b, x),
+                opts=nopts(r, (x + a) * (x + b), [x * x + a * b, (x + a + b) * x, (x + a) * (x + b) + a]), ans=0,
+                ee='\\((x+%d)(x+%d)=%d\\cdot%d=%d\\) m².' % (a, b, x + a, x + b, (x + a) * (x + b)), ev='\\((x+%d)(x+%d)=%d\\cdot%d=%d\\) m².' % (a, b, x + a, x + b, (x + a) * (x + b)))
+
+def b9_d4_fast(r, lv):
+    b = r.randint(2, 40); a = r.choice([k * 10 - b for k in range(7, 14) if 55 <= k * 10 - b <= 99] or [0])
+    if a <= b: raise AssertionError
+    v = a * a - b * b
+    return dict(en='Calculate quickly: \\(%d^2-%d^2\\).' % (a, b), vi='Tính nhanh: \\(%d^2-%d^2\\).' % (a, b), opts=nopts(r, v, [(a - b) ** 2, a * a + b * b, v + 100]), ans=0,
+                ee='\\(=(%d-%d)(%d+%d)=%d\\cdot%d=%d\\).' % (a, b, a, b, a - b, a + b, v), ev='\\(=(%d-%d)(%d+%d)=%d\\cdot%d=%d\\).' % (a, b, a, b, a - b, a + b, v))
+
+def b9_d4_div(r, lv):
+    k = r.randrange(3)
+    expr, fac = [('n^3-n', '(n-1)n(n+1)'), ('n^3+5n', 'n^3-n+6n=(n-1)n(n+1)+6n'), ('n^3+11n', 'n^3-n+12n=(n-1)n(n+1)+12n')][k]
+    o = [tx('6', '6'), tx('12', '12'), tx('5', '5'), tx('9', '9')]
+    return dict(en='For every integer \\(n\\), the number \\(%s\\) is always divisible by…' % expr, vi='Với mọi số nguyên \\(n\\), số \\(%s\\) luôn chia hết cho' % expr, opts=o, ans=0,
+                ee='\\(%s\\); the product of three consecutive integers is divisible by 2 and by 3, so by 6.' % fac, ev='\\(%s\\); tích ba số nguyên liên tiếp chia hết cho 2 và cho 3 nên chia hết cho 6.' % fac)
+
+L9_GROUPS = [[('mcq', b9_common), ('mcq', b9_ident), ('mcq', b9_group)], [('tf', b9_tf_fac), ('tf', b9_tf_group)], [('short', b9_short_x), ('short', b9_short_fast)],
+             [('mcq', b9_d1_gcf), ('mcq', b9_d1_method), ('mcq', b9_d1_def)], [('mcq', b9_d2_sq), ('mcq', b9_d2_cube), ('mcq', b9_d2_binom)],
+             [('mcq', b9_d3_x), ('mcq', b9_d3_comb), ('mcq', b9_d3_gid)], [('mcq', b9_d4_rect), ('mcq', b9_d4_fast), ('mcq', b9_d4_div)]]

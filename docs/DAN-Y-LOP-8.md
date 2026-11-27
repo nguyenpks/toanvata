@@ -1,6 +1,6 @@
 # DÀN Ý KHỐI LỚP 8 – Website "Toán và Tiếng Anh"
 
-> **Trạng thái: GV cho soạn (26/11/2026), các điểm Q1–Q11 chưa trả lời – tạm theo đề xuất.** Đã soạn: **Bài 1–5 (Chương I)**.
+> **Trạng thái: GV cho soạn (26/11/2026), các điểm Q1–Q11 chưa trả lời – tạm theo đề xuất.** Đã soạn: **Bài 1–14 (Chương I, II, III)**.
 > Tài liệu chuyên ngành: *Tài liệu hướng dẫn triển khai dạy học cấp THCS bằng tiếng Anh – Môn Toán – Khối 8* (Bộ GD&ĐT, Hà Nội 2026), gọi tắt **TLTA**. Số trang ghi theo mục lục TLTA.
 > Sách giáo khoa: **Toán 8 – Kết nối tri thức với cuộc sống (KNTT)**, 2 tập. Thứ tự **39 bài, 10 chương** của TLTA **trùng khớp hoàn toàn** với KNTT (đã đối chiếu tên từng bài, xem bảng ở mục 1).
 
@@ -560,10 +560,10 @@ Nguyên tắc: **kiến thức, kí hiệu theo SGK KNTT**; TLTA dùng cho tiế
 
 ## NHỮNG ĐIỂM CẦN THẦY QUYẾT ĐỊNH
 
-- **Q1 – *midsegment* hay *midline*.** TLTA 8 dùng *midsegment of a triangle*; web lớp 11 đang có *midline of a triangle*. Đề xuất: lớp 8 dùng *midsegment* (theo TLTA), ghi chú "also called *midline*".
+- **Q1 – *midsegment* hay *midline*.** TLTA 8 dùng *midsegment of a triangle*; web lớp 11 đang có *midline of a triangle*. Đề xuất: lớp 8 dùng *midsegment* (theo TLTA), ghi chú "also called *midline*". **→ GV chốt (27/11/2026): để cả hai** – thuật ngữ ghi "*midsegment* (*midline*)"; trong bài dùng *midsegment* như TLTA, mục từ điển lớp 8 ghi cả hai tên.
 - **Q2 – Tên định lí Thalès.** TLTA dùng *Triangle Proportionality Theorem*; web đang có *Thales' theorem*. Đề xuất: viết "Thales' theorem (Triangle Proportionality Theorem)" ở lần đầu, sau đó dùng *Thales' theorem*.
 - **Q3 – *column chart* hay *bar chart*.** Lớp 9 trên web dùng *bar chart*. Đề xuất: lớp 8 dùng *column chart* theo TLTA, kèm "(bar chart)".
-- **Q4 – *slant height*.** Hình chóp đều: trung đoạn; hình nón (lớp 9): đường sinh. Đề xuất: giữ cả hai, tách từ khóa như D11.
+- **Q4 – *slant height*.** Hình chóp đều: trung đoạn; hình nón (lớp 9): đường sinh. Đề xuất: giữ cả hai, tách từ khóa như D11. **→ GV chốt (27/11/2026): tách ra** – hai mục từ điển riêng: "trung đoạn (hình chóp đều)" = *slant height (of a pyramid)*; "đường sinh" (lớp 9) = *slant height (of a cone)*.
 - **Q5 – *relative frequency*.** TLTA 8 dịch "tần suất". Đề xuất: dùng "tần số tương đối" cho thống nhất lớp 9.
 - **Q6 – Hai đường thẳng vuông góc (Bài 29).** TLTA có, SGK KNTT 8 không có. Đề xuất: **bỏ**.
 - **Q7 – Rút gọn căn (Bài 35).** Đề xuất: không yêu cầu rút gọn \(\sqrt{32}=4\sqrt2\) (lớp 9 mới học); đáp số chọn số đẹp hoặc làm tròn.
@@ -600,3 +600,62 @@ Nguyên tắc: **kiến thức, kí hiệu theo SGK KNTT**; TLTA dùng cho tiế
 | g8-polynomials-03 | sum; commutative / associative property of addition; remove brackets | tổng; tính chất giao hoán / kết hợp của phép cộng; bỏ dấu ngoặc |
 | g8-polynomials-04 | commutative / associative property of multiplication; independent of the variables | tính chất giao hoán / kết hợp của phép nhân; không phụ thuộc vào giá trị của biến |
 | g8-polynomials-05 | be divisible by; exact division; dividend; divisor | chia hết cho; phép chia hết; đa thức bị chia; đơn thức chia |
+
+---
+
+## Kết quả soạn Bài 6–9 (27/11/2026) – Chương II. Hằng đẳng thức đáng nhớ và ứng dụng
+
+| Bài | Mã bài | Trang | Ví dụ (NB / TH / VT / V) | A / B / C | D1–D4 | Hình / bảng | Kiểm thử |
+|---|---|---|---|---|---|---|---|
+| 6 | `g8-identities-01` | `lessons/grade8/identities/squares-identities.html` | 5 (1 / 2 / 1 / 1) | 3 / 2 / 2 | 3 / 3 / 3 / 3 | mô hình diện tích \((a+b)^2\) | đạt |
+| 7 | `g8-identities-02` | `.../cube-of-sum-difference.html` | 5 (1 / 2 / 1 / 1) | 3 / 2 / 2 | 3 / 3 / 3 / 3 | — | đạt |
+| 8 | `g8-identities-03` | `.../sum-difference-of-cubes.html` | 5 (1 / 2 / 1 / 1) | 3 / 2 / 2 | 3 / 3 / 3 / 3 | bảng 7 hằng đẳng thức | đạt |
+| 9 | `g8-identities-04` | `.../factoring-polynomials.html` | 5 (1 / 2 / 1 / 1) | 3 / 2 / 2 | 3 / 3 / 3 / 3 | — | đạt |
+
+- Kiểm đáp án độc lập (`audit8`, bổ sung quy tắc cho hằng đẳng thức, phân tích thành nhân tử, bài toán thực tế): **228/228** câu Chương II đúng; chạy lại cả Chương I: 285/285. Mức 1 không lẫn tiếng Anh, Mức 3 không lẫn tiếng Việt.
+- Câu "phân tích thành nhân tử" luôn có đáp án phân tích đến cùng (hệ số đã rút gọn, ví dụ không có \((2x+8)^2\)); phương án nhiễu đều sai về giá trị (không dùng phương án "đúng nhưng chưa phân tích hết" để tránh gây tranh cãi).
+- Ví dụ theo TLTA Lesson 6–9 (đổi số liệu): đẳng thức nào là hằng đẳng thức; khai triển \((2x+3y)^2\), \((2x-y)^3\); viết \(8x^3-12x^2+6x-1\) thành lập phương; tính \(x^3-6x^2+12x-8\) tại \(x=22\); cho \(a+b=4,\ ab=3\) tính \(a^3+b^3\); tìm \(x\) từ \(x^3-9x=0\); tách hạng tử \(x^2+5x+6\) (mức V, có gợi ý). Bài toán thực tế: mở rộng vườn vuông, khối lập phương tăng/giảm cạnh, bể nước có khối đá, hộp rỗng, mảnh đất hình chữ nhật.
+- Thứ tự bài: `lessonOrder` 60–90, `lessonNo` 6–9. Trang Bài 1–5 không thay đổi.
+
+**Thuật ngữ mới (Bài 6–9)**
+
+| Bài | Tiếng Anh | Tiếng Việt |
+|---|---|---|
+| g8-identities-01 | square; difference of two squares; square of a sum; square of a difference | bình phương; hiệu hai bình phương; bình phương của một tổng; bình phương của một hiệu |
+| g8-identities-02 | cube; cube of a sum; cube of a difference | lập phương; lập phương của một tổng; lập phương của một hiệu |
+| g8-identities-03 | sum of two cubes; difference of two cubes | tổng hai lập phương; hiệu hai lập phương |
+| g8-identities-04 | factor (a polynomial); take out a common factor; group terms | phân tích đa thức thành nhân tử; đặt nhân tử chung; nhóm hạng tử |
+
+(Đã có sẵn trên web, dùng lại: identity – hằng đẳng thức; LHS/RHS – vế trái/vế phải; expand – khai triển; common factor – nhân tử chung; product – tích.)
+
+---
+
+## Kết quả soạn Bài 10–14 (27/11/2026) – Chương III. Tứ giác
+
+| Bài | Mã bài | Trang | Ví dụ (NB / TH / VT / V) | A / B / C | D1–D4 | Hình lý thuyết | Kiểm thử |
+|---|---|---|---|---|---|---|---|
+| 10 | `g8-quadrilaterals-01` | `lessons/grade8/quadrilaterals/quadrilaterals.html` | 5 (1 / 2 / 1 / 1) | 3 / 2 / 2 | 3 / 3 / 3 / 3 | tứ giác lồi, đường chéo | đạt |
+| 11 | `g8-quadrilaterals-02` | `.../isosceles-trapezoids.html` | 5 (1 / 2 / 1 / 1) | 3 / 2 / 2 | 3 / 3 / 3 / 3 | đường cao (kí hiệu góc vuông), hai đường chéo | đạt |
+| 12 | `g8-quadrilaterals-03` | `.../parallelograms.html` | 5 (1 / 2 / 1 / 1) | 3 / 2 / 2 | 3 / 3 / 3 / 3 | hình bình hành và giao điểm hai đường chéo | đạt |
+| 13 | `g8-quadrilaterals-04` | `.../rectangles.html` | 5 (1 / 2 / 1 / 1) | 3 / 2 / 2 | 3 / 3 / 3 / 3 | hình chữ nhật; trung tuyến ứng với cạnh huyền | đạt |
+| 14 | `g8-quadrilaterals-05` | `.../rhombi-squares.html` | 5 (1 / 2 / 1 / 1) | 3 / 2 / 2 | 3 / 3 / 3 / 3 | hình thoi (đường chéo vuông góc), hình vuông | đạt |
+
+- Bộ câu hỏi riêng cho hình học: `tools/sp_g8b.py` (hình vẽ tĩnh; nhãn điểm tự tránh nét; góc vuông kí hiệu bằng ô vuông). Đã xem lại toàn bộ 38 hình của Chương III.
+- Kiểm đáp án: đọc lại từng câu của cả 5 bài (285 câu) và tính lại bằng tay. Đã sửa 3 lỗi phát hiện được:
+  - Bài 11, câu "khung cầu đi bộ": số liệu cũ không khớp với góc đáy (đáy lớn phải bằng đáy nhỏ + cạnh bên khi góc đáy \(60^\circ\)). Nay cố định góc \(60^\circ\) và tính đáy lớn theo đúng hình.
+  - Bài 12, câu "góc nào bằng \(\widehat{B}\)": một phương án nhiễu (\(\widehat{CDA}\)) thực ra chính là \(\widehat{D}\), tức cũng đúng. Đã thay bằng góc giữa cạnh và đường chéo.
+  - Bài 11, 13: sửa câu tiếng Anh chưa chuẩn ("Its all four angles…"; câu hỏi về đường chéo hình chữ nhật).
+- Ví dụ theo TLTA Lesson 10–14 (đổi số liệu): góc \((x+15)^\circ,\dots\) → \(x=50\); diều (kite); hai góc kề một cạnh \(3x+18,\ 5x-6\) → \(x=21\); chứng minh \(LQ=NP\) bằng hình bình hành; bệ nâng ô tô; trung tuyến ứng với cạnh huyền \(BC=13\) → \(6{,}5\); kiểm tra khung cửa bằng hai đường chéo; hình thoi \(3x+5=5x-9\) → cạnh 26; hình vuông \(JP=4{,}5\) → \(JL=9\); lát sân trường bằng gạch hình thoi (dự án nhỏ trong TLTA).
+- Thứ tự bài: `lessonOrder` 100–140, `lessonNo` 10–14.
+
+**Thuật ngữ mới (Bài 10–14)**
+
+| Bài | Tiếng Anh | Tiếng Việt |
+|---|---|---|
+| g8-quadrilaterals-01 | quadrilateral; convex quadrilateral; vertex; side; interior angle; opposite / adjacent vertices; opposite sides; opposite angles | tứ giác; tứ giác lồi; đỉnh; cạnh; góc trong; hai đỉnh đối nhau / kề nhau; hai cạnh đối nhau; hai góc đối nhau |
+| g8-quadrilaterals-02 | isosceles trapezoid; base; leg; height; base angles; right trapezoid | hình thang cân; đáy; cạnh bên; đường cao; góc kề một đáy; hình thang vuông |
+| g8-quadrilaterals-03 | consecutive angles; bisect each other; test (for a figure) | hai góc kề một cạnh; cắt nhau tại trung điểm của mỗi đường; dấu hiệu nhận biết |
+| g8-quadrilaterals-04 | rectangle; right angle; median | hình chữ nhật; góc vuông; đường trung tuyến |
+| g8-quadrilaterals-05 | rhombus (pl. rhombi); square; adjacent sides; angle bisector | hình thoi; hình vuông; hai cạnh kề; tia phân giác |
+
+(Đã có sẵn trên web, dùng lại: parallelogram – hình bình hành; diagonal – đường chéo; midpoint – trung điểm; hypotenuse – cạnh huyền; perpendicular – vuông góc; parallel – song song; trapezoid – hình thang.)

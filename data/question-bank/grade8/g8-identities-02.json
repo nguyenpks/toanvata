@@ -1,0 +1,1260 @@
+{
+ "lesson": "g8-identities-02",
+ "grade": 8,
+ "no": 7,
+ "title": "Lập phương của một tổng. Lập phương của một hiệu",
+ "path": "lessons/grade8/identities/cube-of-sum-difference.html",
+ "items": [
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Expand \\((#x+#)^#\\).",
+   "en": "Expand \\((2x+5)^3\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"expand\">Khai triển</b> \\((2x+5)^3\\).",
+   "options": [
+    "\\(8x^3+60x^2-150x+125\\)",
+    "\\(8x^3+20x^2+50x+125\\)",
+    "\\(8x^3+125\\)",
+    "\\(8x^3+60x^2+150x+125\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\((A+B)^3=A^3+3A^2B+3AB^2+B^3\\): \\(8x^3+60x^2+150x+125\\).",
+   "explain_vi": "Đáp án d. \\((A+B)^3=A^3+3A^2B+3AB^2+B^3\\): \\(8x^3+60x^2+150x+125\\).",
+   "images": [],
+   "id": "48ae20f2a07b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Expand \\((#x-#)^#\\).",
+   "en": "Expand \\((2x-3)^3\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"expand\">Khai triển</b> \\((2x-3)^3\\).",
+   "options": [
+    "\\(8x^3-12x^2+18x-27\\)",
+    "\\(8x^3-36x^2+54x-27\\)",
+    "\\(8x^3-27\\)",
+    "\\(8x^3-36x^2-54x-27\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\((A-B)^3=A^3-3A^2B+3AB^2-B^3\\): \\(8x^3-36x^2+54x-27\\).",
+   "explain_vi": "Đáp án b. \\((A-B)^3=A^3-3A^2B+3AB^2-B^3\\): \\(8x^3-36x^2+54x-27\\).",
+   "images": [],
+   "id": "57fd6c0ee42c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Write \\(#x^#-#x^#+#x-#\\) as a cube.",
+   "en": "Write \\(8x^3-36x^2+54x-27\\) as a cube.",
+   "vi": "Viết đa thức \\(8x^3-36x^2+54x-27\\) dưới dạng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"cube of a sum\">lập phương của một tổng</b> hoặc một hiệu.",
+   "options": [
+    "\\((2x+3)^3\\)",
+    "\\((2x-3)^3\\)",
+    "\\((2x-9)^3\\)",
+    "\\((8x-27)^3\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(8x^3-36x^2+54x-27=(2x-3)^3\\).",
+   "explain_vi": "Đáp án b. \\(8x^3-36x^2+54x-27=(2x-3)^3\\).",
+   "images": [],
+   "id": "37e75a16631c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "\\((x+#)^#=x^#+#\\).",
+   "en": "\\((x+3)^3=x^3+27\\).",
+   "vi": "\\((x+3)^3=x^3+27\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. \\((x+3)^3=x^3+9x^2+27x+27\\).",
+   "explain_vi": "Sai. \\((x+3)^3=x^3+9x^2+27x+27\\).",
+   "images": [],
+   "id": "1a597eddba3e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "\\((x-#)^#=-(#-x)^#\\) for every \\(x\\).",
+   "en": "\\((x-5)^3=-(5-x)^3\\) for every \\(x\\).",
+   "vi": "\\((x-5)^3=-(5-x)^3\\) với mọi \\(x\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. \\((A-B)^2=(B-A)^2\\) but \\((A-B)^3=-(B-A)^3\\).",
+   "explain_vi": "Đúng. \\((A-B)^2=(B-A)^2\\) nhưng \\((A-B)^3=-(B-A)^3\\).",
+   "images": [],
+   "id": "87bc1da33d3f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "Find the value of \\(x^#+#x^#+#x+#\\) at \\(x=#\\).",
+   "en": "Find the value of \\(x^3+15x^2+75x+125\\) at \\(x=15\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"evaluate\">Tính giá trị</b> của biểu thức \\(x^3+15x^2+75x+125\\) tại \\(x=15\\).",
+   "options": [],
+   "answer": "8000",
+   "explain_en": "Answer: 8000. \\(=(x+5)^3=20^3=8000\\).",
+   "explain_vi": "Đáp số: 8000. \\(=(x+5)^3=20^3=8000\\).",
+   "images": [],
+   "id": "e16fbd965603",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "In the expansion of \\((#x+#)^#\\), what is the coefficient of \\(x^#\\)?",
+   "en": "In the expansion of \\((3x+3)^3\\), what is the coefficient of \\(x^2\\)?",
+   "vi": "Trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"expand\">khai triển</b> của \\((3x+3)^3\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b> của \\(x^2\\) là bao nhiêu?",
+   "options": [],
+   "answer": "81",
+   "explain_en": "Answer: 81. \\((3x+3)^3=27x^3+81x^2+81x+27\\).",
+   "explain_vi": "Đáp số: 81. \\((3x+3)^3=27x^3+81x^2+81x+27\\).",
+   "images": [],
+   "id": "e733ccf3782d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D1",
+   "type": "mcq",
+   "form": "What is the constant term in the expansion of \\((x-#)^#\\)?",
+   "en": "What is the constant term in the expansion of \\((x-6)^3\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">Hạng tử</b> tự do (không chứa \\(x\\)) trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"expand\">khai triển</b> của \\((x-6)^3\\) là",
+   "options": [
+    "\\(-6\\)",
+    "\\(216\\)",
+    "\\(-216\\)",
+    "\\(-18\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. It is \\(B^3=(-6)^3=-216\\).",
+   "explain_vi": "Đáp án c. Đó là \\(B^3=(-6)^3=-216\\).",
+   "images": [],
+   "id": "97d99357149e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Which expression is equal to \\((A+B)^#\\)?",
+   "en": "Which expression is equal to \\((A+B)^3\\)?",
+   "vi": "Biểu thức nào bằng \\((A+B)^3\\)?",
+   "options": [
+    "\\(A^3-3A^2B+3AB^2-B^3\\)",
+    "\\(A^3+B^3\\)",
+    "\\(A^3+3AB+B^3\\)",
+    "\\(A^3+3A^2B+3AB^2+B^3\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\((A+B)^3=A^3+3A^2B+3AB^2+B^3\\).",
+   "explain_vi": "Đáp án d. \\((A+B)^3=A^3+3A^2B+3AB^2+B^3\\).",
+   "images": [],
+   "id": "64f3a5e21d70",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Write \\(#x^#+#x^#+#x+#\\) in the form \\((A+B)^#\\). Then…",
+   "en": "Write \\(8x^3+48x^2+96x+64\\) in the form \\((A+B)^3\\). Then…",
+   "vi": "Viết \\(8x^3+48x^2+96x+64\\) dưới dạng \\((A+B)^3\\). Khi đó",
+   "options": [
+    "\\(A=2x,\\ B=4\\)",
+    "\\(A=x,\\ B=4\\)",
+    "\\(A=8x,\\ B=64\\)",
+    "\\(A=2x,\\ B=64\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(A^3=8x^3\\Rightarrow A=2x\\); \\(B^3=64\\Rightarrow B=4\\).",
+   "explain_vi": "Đáp án a. \\(A^3=8x^3\\Rightarrow A=2x\\); \\(B^3=64\\Rightarrow B=4\\).",
+   "images": [],
+   "id": "daaf0a1823da",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Expand \\((#x-y)^#\\).",
+   "en": "Expand \\((3x-y)^3\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"expand\">Khai triển</b> \\((3x-y)^3\\).",
+   "options": [
+    "\\(27x^3-27x^2y-9xy^2-y^3\\)",
+    "\\(27x^3-9x^2y+3xy^2-y^3\\)",
+    "\\(27x^3-27x^2y+9xy^2-y^3\\)",
+    "\\(27x^3-y^3\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(27x^3-27x^2y+9xy^2-y^3\\).",
+   "explain_vi": "Đáp án c. \\(27x^3-27x^2y+9xy^2-y^3\\).",
+   "images": [],
+   "id": "53e7b96b9bc4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D2",
+   "type": "mcq",
+   "form": "What is the coefficient of \\(x^#\\) in the expansion of \\((#x-#)^#\\)?",
+   "en": "What is the coefficient of \\(x^2\\) in the expansion of \\((3x-3)^3\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">Hệ số</b> của \\(x^2\\) trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"expand\">khai triển</b> của \\((3x-3)^3\\) là",
+   "options": [
+    "\\(-81\\)",
+    "\\(-80\\)",
+    "\\(81\\)",
+    "\\(-27\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(3A^2B=3\\cdot(3x)^2\\cdot(-3)=-81x^2\\).",
+   "explain_vi": "Đáp án a. \\(3A^2B=3\\cdot(3x)^2\\cdot(-3)=-81x^2\\).",
+   "images": [],
+   "id": "e04f5dc9c029",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Which cube equals \\(x^#-#x^#+#x-#\\)?",
+   "en": "Which cube equals \\(x^3-6x^2+12x-8\\)?",
+   "vi": "Đa thức \\(x^3-6x^2+12x-8\\) bằng",
+   "options": [
+    "\\((x+2)^3\\)",
+    "\\((x-6)^3\\)",
+    "\\((x-2)^3\\)",
+    "\\((x-8)^3\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(x^3-6x^2+12x-8=(x-2)^3\\).",
+   "explain_vi": "Đáp án c. \\(x^3-6x^2+12x-8=(x-2)^3\\).",
+   "images": [],
+   "id": "9e97bd7338ec",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Calculate \\(#^#\\) using \\((A+B)^#\\).",
+   "en": "Calculate \\(101^3\\) using \\((A+B)^3\\).",
+   "vi": "Tính \\(101^3\\) bằng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"identity\">hằng đẳng thức</b> \\((A+B)^3\\).",
+   "options": [
+    "\\(1030301\\)",
+    "\\(1030000\\)",
+    "\\(1000001\\)",
+    "\\(1030501\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\((100+1)^3=1000000+30000+300+1=1030301\\).",
+   "explain_vi": "Đáp án a. \\((100+1)^3=1000000+30000+300+1=1030301\\).",
+   "images": [],
+   "id": "3fce90eb822a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Show that \\((x+#)^#-(x-#)^#-#x^#\\) does not depend on \\(x\\). Its value is…",
+   "en": "Show that \\((x+4)^3-(x-4)^3-24x^2\\) does not depend on \\(x\\). Its value is…",
+   "vi": "Biểu thức \\((x+4)^3-(x-4)^3-24x^2\\) không phụ thuộc vào \\(x\\) và có giá trị bằng",
+   "options": [
+    "\\(0\\)",
+    "\\(64\\)",
+    "\\(8\\)",
+    "\\(128\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\((x+4)^3-(x-4)^3=24x^2+128\\), so the expression equals \\(128\\).",
+   "explain_vi": "Đáp án d. \\((x+4)^3-(x-4)^3=24x^2+128\\) nên biểu thức bằng \\(128\\).",
+   "images": [],
+   "id": "bc22cda72f42",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Write \\(x^#-#x^#+#x-#\\) as a cube and evaluate it at \\(x=#\\).",
+   "en": "Write \\(x^3-12x^2+48x-64\\) as a cube and evaluate it at \\(x=34\\).",
+   "vi": "Viết biểu thức \\(x^3-12x^2+48x-64\\) dưới dạng lập phương rồi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"evaluate\">tính giá trị</b> tại \\(x=34\\).",
+   "options": [
+    "\\(39304\\)",
+    "\\(900\\)",
+    "\\(27001\\)",
+    "\\(27000\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\((x-4)^3=30^3=27000\\).",
+   "explain_vi": "Đáp án d. \\((x-4)^3=30^3=27000\\).",
+   "images": [],
+   "id": "2d8c7f7c3aae",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A cube has edge \\(x\\) cm. Each edge is increased by # cm. Write the increase of its volume as a polynomial and evaluate it for \\(x=#\\).",
+   "en": "A cube has edge \\(x\\) cm. Each edge is increased by 3 cm. Write the increase of its volume as a polynomial and evaluate it for \\(x=6\\).",
+   "vi": "Một khối lập phương có cạnh \\(x\\) cm. Người ta tăng mỗi cạnh thêm 3 cm. Viết đa thức biểu thị phần <b class=\"mbl-term\" tabindex=\"0\" data-en=\"volume\">thể tích</b> tăng thêm và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"evaluate\">tính giá trị</b> khi \\(x=6\\).",
+   "options": [
+    "\\(27;\\ 27\\text{ cm}^3\\)",
+    "\\(9x^2+27;\\ 351\\text{ cm}^3\\)",
+    "\\(9x^2+27x+27;\\ 513\\text{ cm}^3\\)",
+    "\\(x^3+9x^2+27x+27;\\ 729\\text{ cm}^3\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\((x+3)^3-x^3=9x^2+27x+27\\); at \\(x=6\\): \\(513\\) cm³.",
+   "explain_vi": "Đáp án c. \\((x+3)^3-x^3=9x^2+27x+27\\); khi \\(x=6\\): \\(513\\) cm³.",
+   "images": [],
+   "id": "4ea0b386a3ad",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A wooden cube has edge \\(x\\) cm. It is cut down so that each edge is # cm shorter. By how much does the volume decrease when \\(x=#\\)?",
+   "en": "A wooden cube has edge \\(x\\) cm. It is cut down so that each edge is 1 cm shorter. By how much does the volume decrease when \\(x=11\\)?",
+   "vi": "Một khối gỗ <b class=\"mbl-term\" tabindex=\"0\" data-en=\"cube\">hình lập phương</b> cạnh \\(x\\) cm được gọt bớt để mỗi cạnh ngắn đi 1 cm. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"volume\">Thể tích</b> khối gỗ giảm bao nhiêu khi \\(x=11\\)?",
+   "options": [
+    "\\(331\\text{ cm}^3\\)",
+    "\\(1\\text{ cm}^3\\)",
+    "\\(1000\\text{ cm}^3\\)",
+    "\\(363\\text{ cm}^3\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(x^3-(x-1)^3=11^3-10^3=331\\) cm³.",
+   "explain_vi": "Đáp án a. \\(x^3-(x-1)^3=11^3-10^3=331\\) cm³.",
+   "images": [],
+   "id": "410e9646440f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D4",
+   "type": "mcq",
+   "form": "Use \\((a+b)^#=a^#+b^#+#ab(a+b)\\): given \\(a+b=#\\) and \\(ab=#\\), find \\(a^#+b^#\\).",
+   "en": "Use \\((a+b)^3=a^3+b^3+3ab(a+b)\\): given \\(a+b=7\\) and \\(ab=6\\), find \\(a^3+b^3\\).",
+   "vi": "Sử dụng \\((a+b)^3=a^3+b^3+3ab(a+b)\\): cho \\(a+b=7\\) và \\(ab=6\\), tính \\(a^3+b^3\\).",
+   "options": [
+    "\\(301\\)",
+    "\\(343\\)",
+    "\\(469\\)",
+    "\\(217\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(a^3+b^3=7^3-3\\cdot6\\cdot7=217\\).",
+   "explain_vi": "Đáp án d. \\(a^3+b^3=7^3-3\\cdot6\\cdot7=217\\).",
+   "images": [],
+   "id": "9a232154c743",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Expand \\((#x+#)^#\\).",
+   "en": "Expand \\((3x+4)^3\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"expand\">Khai triển</b> \\((3x+4)^3\\).",
+   "options": [
+    "\\(27x^3+108x^2+144x+64\\)",
+    "\\(27x^3+108x^2-144x+64\\)",
+    "\\(27x^3+36x^2+48x+64\\)",
+    "\\(27x^3+64\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\((A+B)^3=A^3+3A^2B+3AB^2+B^3\\): \\(27x^3+108x^2+144x+64\\).",
+   "explain_vi": "Đáp án a. \\((A+B)^3=A^3+3A^2B+3AB^2+B^3\\): \\(27x^3+108x^2+144x+64\\).",
+   "images": [],
+   "id": "8f4bdc0c76f4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Expand \\((#x-#)^#\\).",
+   "en": "Expand \\((2x-5)^3\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"expand\">Khai triển</b> \\((2x-5)^3\\).",
+   "options": [
+    "\\(8x^3-60x^2-150x-125\\)",
+    "\\(8x^3-20x^2+50x-125\\)",
+    "\\(8x^3-60x^2+150x-125\\)",
+    "\\(8x^3-125\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\((A-B)^3=A^3-3A^2B+3AB^2-B^3\\): \\(8x^3-60x^2+150x-125\\).",
+   "explain_vi": "Đáp án c. \\((A-B)^3=A^3-3A^2B+3AB^2-B^3\\): \\(8x^3-60x^2+150x-125\\).",
+   "images": [],
+   "id": "c094ac9f5323",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Write \\(x^#+#x^#+#x+#\\) as a cube.",
+   "en": "Write \\(x^3+3x^2+3x+1\\) as a cube.",
+   "vi": "Viết đa thức \\(x^3+3x^2+3x+1\\) dưới dạng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"cube of a sum\">lập phương của một tổng</b> hoặc một hiệu.",
+   "options": [
+    "\\((x+3)^3\\)",
+    "\\((x+1)^3\\)",
+    "\\((x-1)^3\\)",
+    "\\((x+2)^3\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(x^3+3x^2+3x+1=(x+1)^3\\).",
+   "explain_vi": "Đáp án b. \\(x^3+3x^2+3x+1=(x+1)^3\\).",
+   "images": [],
+   "id": "8a46174f5b27",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "\\((x-#)^#=(#-x)^#\\) for every \\(x\\).",
+   "en": "\\((x-9)^3=(9-x)^3\\) for every \\(x\\).",
+   "vi": "\\((x-9)^3=(9-x)^3\\) với mọi \\(x\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. \\((A-B)^2=(B-A)^2\\) but \\((A-B)^3=-(B-A)^3\\).",
+   "explain_vi": "Sai. \\((A-B)^2=(B-A)^2\\) nhưng \\((A-B)^3=-(B-A)^3\\).",
+   "images": [],
+   "id": "6f7dc08dfc56",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "\\((x-#)^#=x^#-#x^#+#x-#\\).",
+   "en": "\\((x-5)^3=x^3-15x^2+75x-125\\).",
+   "vi": "\\((x-5)^3=x^3-15x^2+75x-125\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. \\((x-5)^3=x^3-15x^2+75x-125\\).",
+   "explain_vi": "Đúng. \\((x-5)^3=x^3-15x^2+75x-125\\).",
+   "images": [],
+   "id": "fcaee5adec26",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "Find the value of \\(x^#+#x^#+#x+#\\) at \\(x=#\\).",
+   "en": "Find the value of \\(x^3+12x^2+48x+64\\) at \\(x=96\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"evaluate\">Tính giá trị</b> của biểu thức \\(x^3+12x^2+48x+64\\) tại \\(x=96\\).",
+   "options": [],
+   "answer": "1000000",
+   "explain_en": "Answer: 1000000. \\(=(x+4)^3=100^3=1000000\\).",
+   "explain_vi": "Đáp số: 1000000. \\(=(x+4)^3=100^3=1000000\\).",
+   "images": [],
+   "id": "da0d589bb8b4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "In the expansion of \\((#x+#)^#\\), what is the coefficient of \\(x\\)?",
+   "en": "In the expansion of \\((2x+3)^3\\), what is the coefficient of \\(x\\)?",
+   "vi": "Trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"expand\">khai triển</b> của \\((2x+3)^3\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b> của \\(x\\) là bao nhiêu?",
+   "options": [],
+   "answer": "54",
+   "explain_en": "Answer: 54. \\((2x+3)^3=8x^3+36x^2+54x+27\\).",
+   "explain_vi": "Đáp số: 54. \\((2x+3)^3=8x^3+36x^2+54x+27\\).",
+   "images": [],
+   "id": "374faf96a73d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Complete the identity (the cube of a sum): \\((A+B)^#=\\,?\\)",
+   "en": "Complete the identity (the cube of a sum): \\((A+B)^3=\\,?\\)",
+   "vi": "Hoàn thành <b class=\"mbl-term\" tabindex=\"0\" data-en=\"identity\">hằng đẳng thức</b> (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"cube of a sum\">lập phương của một tổng</b>): \\((A+B)^3=\\,?\\)",
+   "options": [
+    "\\(A^3+3A^2B+3AB^2+B^3\\)",
+    "\\(A^3-3A^2B+3AB^2-B^3\\)",
+    "\\(A^3+B^3\\)",
+    "\\(A^3+3AB+B^3\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\((A+B)^3=A^3+3A^2B+3AB^2+B^3\\).",
+   "explain_vi": "Đáp án a. \\((A+B)^3=A^3+3A^2B+3AB^2+B^3\\).",
+   "images": [],
+   "id": "6b1ea13c67c7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D1",
+   "type": "mcq",
+   "form": "What is the constant term in the expansion of \\((x+#)^#\\)?",
+   "en": "What is the constant term in the expansion of \\((x+3)^3\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">Hạng tử</b> tự do (không chứa \\(x\\)) trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"expand\">khai triển</b> của \\((x+3)^3\\) là",
+   "options": [
+    "\\(-27\\)",
+    "\\(3\\)",
+    "\\(27\\)",
+    "\\(9\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. It is \\(B^3=(3)^3=27\\).",
+   "explain_vi": "Đáp án c. Đó là \\(B^3=(3)^3=27\\).",
+   "images": [],
+   "id": "ee1baa9df23a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Write \\(#x^#-#x^#+#x-#\\) in the form \\((A-B)^#\\). Then…",
+   "en": "Write \\(64x^3-240x^2+300x-125\\) in the form \\((A-B)^3\\). Then…",
+   "vi": "Viết \\(64x^3-240x^2+300x-125\\) dưới dạng \\((A-B)^3\\). Khi đó",
+   "options": [
+    "\\(A=4x,\\ B=125\\)",
+    "\\(A=4x,\\ B=5\\)",
+    "\\(A=64x,\\ B=125\\)",
+    "\\(A=x,\\ B=5\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(A^3=64x^3\\Rightarrow A=4x\\); \\(B^3=125\\Rightarrow B=5\\).",
+   "explain_vi": "Đáp án b. \\(A^3=64x^3\\Rightarrow A=4x\\); \\(B^3=125\\Rightarrow B=5\\).",
+   "images": [],
+   "id": "995d62be391f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Expand \\((x-y)^#\\).",
+   "en": "Expand \\((x-y)^3\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"expand\">Khai triển</b> \\((x-y)^3\\).",
+   "options": [
+    "\\(x^3-y^3\\)",
+    "\\(x^3-3x^2y-3xy^2-y^3\\)",
+    "\\(x^3-x^2y+xy^2-y^3\\)",
+    "\\(x^3-3x^2y+3xy^2-y^3\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(x^3-3x^2y+3xy^2-y^3\\).",
+   "explain_vi": "Đáp án d. \\(x^3-3x^2y+3xy^2-y^3\\).",
+   "images": [],
+   "id": "5e7ebc2fa446",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D2",
+   "type": "mcq",
+   "form": "What is the coefficient of \\(x^#\\) in the expansion of \\((#x+#)^#\\)?",
+   "en": "What is the coefficient of \\(x^2\\) in the expansion of \\((3x+4)^3\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">Hệ số</b> của \\(x^2\\) trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"expand\">khai triển</b> của \\((3x+4)^3\\) là",
+   "options": [
+    "\\(108\\)",
+    "\\(109\\)",
+    "\\(36\\)",
+    "\\(-108\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(3A^2B=3\\cdot(3x)^2\\cdot 4=108x^2\\).",
+   "explain_vi": "Đáp án a. \\(3A^2B=3\\cdot(3x)^2\\cdot 4=108x^2\\).",
+   "images": [],
+   "id": "a71cce687891",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Which cube equals \\(#x^#-#x^#+#x-#\\)?",
+   "en": "Which cube equals \\(8x^3-36x^2+54x-27\\)?",
+   "vi": "Đa thức \\(8x^3-36x^2+54x-27\\) bằng",
+   "options": [
+    "\\((2x-3)^3\\)",
+    "\\((2x-9)^3\\)",
+    "\\((8x-27)^3\\)",
+    "\\((2x+3)^3\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(8x^3-36x^2+54x-27=(2x-3)^3\\).",
+   "explain_vi": "Đáp án a. \\(8x^3-36x^2+54x-27=(2x-3)^3\\).",
+   "images": [],
+   "id": "f94dcd2e00cf",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Calculate \\(#^#\\) using \\((A+B)^#\\).",
+   "en": "Calculate \\(21^3\\) using \\((A+B)^3\\).",
+   "vi": "Tính \\(21^3\\) bằng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"identity\">hằng đẳng thức</b> \\((A+B)^3\\).",
+   "options": [
+    "\\(9200\\)",
+    "\\(8001\\)",
+    "\\(9261\\)",
+    "\\(9301\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\((20+1)^3=8000+1200+60+1=9261\\).",
+   "explain_vi": "Đáp án c. \\((20+1)^3=8000+1200+60+1=9261\\).",
+   "images": [],
+   "id": "f846abf1b5fa",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Show that \\((x+#)^#-(x-#)^#-#x^#\\) does not depend on \\(x\\). Its value is…",
+   "en": "Show that \\((x+1)^3-(x-1)^3-6x^2\\) does not depend on \\(x\\). Its value is…",
+   "vi": "Biểu thức \\((x+1)^3-(x-1)^3-6x^2\\) không phụ thuộc vào \\(x\\) và có giá trị bằng",
+   "options": [
+    "\\(1\\)",
+    "\\(3\\)",
+    "\\(2\\)",
+    "\\(0\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\((x+1)^3-(x-1)^3=6x^2+2\\), so the expression equals \\(2\\).",
+   "explain_vi": "Đáp án c. \\((x+1)^3-(x-1)^3=6x^2+2\\) nên biểu thức bằng \\(2\\).",
+   "images": [],
+   "id": "863eaee2738d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Write \\(x^#-#x^#+#x-#\\) as a cube and evaluate it at \\(x=#\\).",
+   "en": "Write \\(x^3-12x^2+48x-64\\) as a cube and evaluate it at \\(x=14\\).",
+   "vi": "Viết biểu thức \\(x^3-12x^2+48x-64\\) dưới dạng lập phương rồi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"evaluate\">tính giá trị</b> tại \\(x=14\\).",
+   "options": [
+    "\\(1000\\)",
+    "\\(100\\)",
+    "\\(1001\\)",
+    "\\(2744\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\((x-4)^3=10^3=1000\\).",
+   "explain_vi": "Đáp án a. \\((x-4)^3=10^3=1000\\).",
+   "images": [],
+   "id": "a10939e2a383",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A cube has edge \\(x\\) cm. Each edge is increased by # cm. Write the increase of its volume as a polynomial and evaluate it for \\(x=#\\).",
+   "en": "A cube has edge \\(x\\) cm. Each edge is increased by 3 cm. Write the increase of its volume as a polynomial and evaluate it for \\(x=5\\).",
+   "vi": "Một khối lập phương có cạnh \\(x\\) cm. Người ta tăng mỗi cạnh thêm 3 cm. Viết đa thức biểu thị phần <b class=\"mbl-term\" tabindex=\"0\" data-en=\"volume\">thể tích</b> tăng thêm và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"evaluate\">tính giá trị</b> khi \\(x=5\\).",
+   "options": [
+    "\\(x^3+9x^2+27x+27;\\ 512\\text{ cm}^3\\)",
+    "\\(27;\\ 27\\text{ cm}^3\\)",
+    "\\(9x^2+27x+27;\\ 387\\text{ cm}^3\\)",
+    "\\(9x^2+27;\\ 252\\text{ cm}^3\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\((x+3)^3-x^3=9x^2+27x+27\\); at \\(x=5\\): \\(387\\) cm³.",
+   "explain_vi": "Đáp án c. \\((x+3)^3-x^3=9x^2+27x+27\\); khi \\(x=5\\): \\(387\\) cm³.",
+   "images": [],
+   "id": "2b29a324709a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A wooden cube has edge \\(x\\) cm. It is cut down so that each edge is # cm shorter. By how much does the volume decrease when \\(x=#\\)?",
+   "en": "A wooden cube has edge \\(x\\) cm. It is cut down so that each edge is 1 cm shorter. By how much does the volume decrease when \\(x=8\\)?",
+   "vi": "Một khối gỗ <b class=\"mbl-term\" tabindex=\"0\" data-en=\"cube\">hình lập phương</b> cạnh \\(x\\) cm được gọt bớt để mỗi cạnh ngắn đi 1 cm. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"volume\">Thể tích</b> khối gỗ giảm bao nhiêu khi \\(x=8\\)?",
+   "options": [
+    "\\(169\\text{ cm}^3\\)",
+    "\\(192\\text{ cm}^3\\)",
+    "\\(1\\text{ cm}^3\\)",
+    "\\(343\\text{ cm}^3\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(x^3-(x-1)^3=8^3-7^3=169\\) cm³.",
+   "explain_vi": "Đáp án a. \\(x^3-(x-1)^3=8^3-7^3=169\\) cm³.",
+   "images": [],
+   "id": "775886772026",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D4",
+   "type": "mcq",
+   "form": "Use \\((a+b)^#=a^#+b^#+#ab(a+b)\\): given \\(a+b=#\\) and \\(ab=#\\), find \\(a^#+b^#\\).",
+   "en": "Use \\((a+b)^3=a^3+b^3+3ab(a+b)\\): given \\(a+b=9\\) and \\(ab=20\\), find \\(a^3+b^3\\).",
+   "vi": "Sử dụng \\((a+b)^3=a^3+b^3+3ab(a+b)\\): cho \\(a+b=9\\) và \\(ab=20\\), tính \\(a^3+b^3\\).",
+   "options": [
+    "\\(549\\)",
+    "\\(189\\)",
+    "\\(1269\\)",
+    "\\(729\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(a^3+b^3=9^3-3\\cdot20\\cdot9=189\\).",
+   "explain_vi": "Đáp án b. \\(a^3+b^3=9^3-3\\cdot20\\cdot9=189\\).",
+   "images": [],
+   "id": "9f306c6afe46",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Expand \\((#x-#)^#\\).",
+   "en": "Expand \\((2x-1)^3\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"expand\">Khai triển</b> \\((2x-1)^3\\).",
+   "options": [
+    "\\(8x^3-12x^2+6x-1\\)",
+    "\\(8x^3-1\\)",
+    "\\(8x^3-4x^2+2x-1\\)",
+    "\\(8x^3-12x^2-6x-1\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\((A-B)^3=A^3-3A^2B+3AB^2-B^3\\): \\(8x^3-12x^2+6x-1\\).",
+   "explain_vi": "Đáp án a. \\((A-B)^3=A^3-3A^2B+3AB^2-B^3\\): \\(8x^3-12x^2+6x-1\\).",
+   "images": [],
+   "id": "c927ecb5a32d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Expand \\((x+#)^#\\).",
+   "en": "Expand \\((x+5)^3\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"expand\">Khai triển</b> \\((x+5)^3\\).",
+   "options": [
+    "\\(x^3+15x^2+75x+125\\)",
+    "\\(x^3+125\\)",
+    "\\(x^3+5x^2+25x+125\\)",
+    "\\(x^3+15x^2-75x+125\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\((A+B)^3=A^3+3A^2B+3AB^2+B^3\\): \\(x^3+15x^2+75x+125\\).",
+   "explain_vi": "Đáp án a. \\((A+B)^3=A^3+3A^2B+3AB^2+B^3\\): \\(x^3+15x^2+75x+125\\).",
+   "images": [],
+   "id": "72b853802587",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Write \\(x^#+#x^#+#x+#\\) as a cube.",
+   "en": "Write \\(x^3+9x^2+27x+27\\) as a cube.",
+   "vi": "Viết đa thức \\(x^3+9x^2+27x+27\\) dưới dạng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"cube of a sum\">lập phương của một tổng</b> hoặc một hiệu.",
+   "options": [
+    "\\((x+27)^3\\)",
+    "\\((x-3)^3\\)",
+    "\\((x+3)^3\\)",
+    "\\((x+9)^3\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(x^3+9x^2+27x+27=(x+3)^3\\).",
+   "explain_vi": "Đáp án c. \\(x^3+9x^2+27x+27=(x+3)^3\\).",
+   "images": [],
+   "id": "ae4a9b82f6fa",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "\\((x-#)^#=-(#-x)^#\\) for every \\(x\\).",
+   "en": "\\((x-9)^2=-(9-x)^2\\) for every \\(x\\).",
+   "vi": "\\((x-9)^2=-(9-x)^2\\) với mọi \\(x\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. \\((A-B)^2=(B-A)^2\\) but \\((A-B)^3=-(B-A)^3\\).",
+   "explain_vi": "Sai. \\((A-B)^2=(B-A)^2\\) nhưng \\((A-B)^3=-(B-A)^3\\).",
+   "images": [],
+   "id": "6a8685918368",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "\\((x-#)^#=x^#-#\\).",
+   "en": "\\((x-3)^3=x^3-27\\).",
+   "vi": "\\((x-3)^3=x^3-27\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. \\((x-3)^3=x^3-9x^2+27x-27\\).",
+   "explain_vi": "Sai. \\((x-3)^3=x^3-9x^2+27x-27\\).",
+   "images": [],
+   "id": "8fcef240dab8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Find the value of \\(x^#+#x^#+#x+#\\) at \\(x=#\\).",
+   "en": "Find the value of \\(x^3+6x^2+12x+8\\) at \\(x=98\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"evaluate\">Tính giá trị</b> của biểu thức \\(x^3+6x^2+12x+8\\) tại \\(x=98\\).",
+   "options": [],
+   "answer": "1000000",
+   "explain_en": "Answer: 1000000. \\(=(x+2)^3=100^3=1000000\\).",
+   "explain_vi": "Đáp số: 1000000. \\(=(x+2)^3=100^3=1000000\\).",
+   "images": [],
+   "id": "6407616ea6c5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "In the expansion of \\((#x+#)^#\\), what is the coefficient of \\(x\\)?",
+   "en": "In the expansion of \\((2x+4)^3\\), what is the coefficient of \\(x\\)?",
+   "vi": "Trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"expand\">khai triển</b> của \\((2x+4)^3\\), <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b> của \\(x\\) là bao nhiêu?",
+   "options": [],
+   "answer": "96",
+   "explain_en": "Answer: 96. \\((2x+4)^3=8x^3+48x^2+96x+64\\).",
+   "explain_vi": "Đáp số: 96. \\((2x+4)^3=8x^3+48x^2+96x+64\\).",
+   "images": [],
+   "id": "3a6b1aa77bed",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D1",
+   "type": "mcq",
+   "form": "What is the constant term in the expansion of \\((x-#)^#\\)?",
+   "en": "What is the constant term in the expansion of \\((x-5)^3\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">Hạng tử</b> tự do (không chứa \\(x\\)) trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"expand\">khai triển</b> của \\((x-5)^3\\) là",
+   "options": [
+    "\\(-15\\)",
+    "\\(125\\)",
+    "\\(-5\\)",
+    "\\(-125\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. It is \\(B^3=(-5)^3=-125\\).",
+   "explain_vi": "Đáp án d. Đó là \\(B^3=(-5)^3=-125\\).",
+   "images": [],
+   "id": "b23353fb49e6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Which expression is equal to \\((A-B)^#\\)?",
+   "en": "Which expression is equal to \\((A-B)^3\\)?",
+   "vi": "Biểu thức nào bằng \\((A-B)^3\\)?",
+   "options": [
+    "\\(A^3+3A^2B+3AB^2-B^3\\)",
+    "\\(A^3-B^3\\)",
+    "\\(A^3-3A^2B-3AB^2-B^3\\)",
+    "\\(A^3-3A^2B+3AB^2-B^3\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\((A-B)^3=A^3-3A^2B+3AB^2-B^3\\).",
+   "explain_vi": "Đáp án d. \\((A-B)^3=A^3-3A^2B+3AB^2-B^3\\).",
+   "images": [],
+   "id": "f6e41332f55f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Write \\(#x^#-#x^#+#x-#\\) in the form \\((A-B)^#\\). Then…",
+   "en": "Write \\(27x^3-81x^2+81x-27\\) in the form \\((A-B)^3\\). Then…",
+   "vi": "Viết \\(27x^3-81x^2+81x-27\\) dưới dạng \\((A-B)^3\\). Khi đó",
+   "options": [
+    "\\(A=27x,\\ B=27\\)",
+    "\\(A=3x,\\ B=27\\)",
+    "\\(A=x,\\ B=3\\)",
+    "\\(A=3x,\\ B=3\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(A^3=27x^3\\Rightarrow A=3x\\); \\(B^3=27\\Rightarrow B=3\\).",
+   "explain_vi": "Đáp án d. \\(A^3=27x^3\\Rightarrow A=3x\\); \\(B^3=27\\Rightarrow B=3\\).",
+   "images": [],
+   "id": "bded29df3514",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Expand \\((#x+#y)^#\\).",
+   "en": "Expand \\((3x+3y)^3\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"expand\">Khai triển</b> \\((3x+3y)^3\\).",
+   "options": [
+    "\\(27x^3+81x^2y-81xy^2+27y^3\\)",
+    "\\(27x^3+27y^3\\)",
+    "\\(27x^3+81x^2y+81xy^2+27y^3\\)",
+    "\\(27x^3+27x^2y+27xy^2+27y^3\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(27x^3+81x^2y+81xy^2+27y^3\\).",
+   "explain_vi": "Đáp án c. \\(27x^3+81x^2y+81xy^2+27y^3\\).",
+   "images": [],
+   "id": "12bc5e78db6e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D2",
+   "type": "mcq",
+   "form": "What is the coefficient of \\(x^#\\) in the expansion of \\((#x+#)^#\\)?",
+   "en": "What is the coefficient of \\(x^2\\) in the expansion of \\((2x+1)^3\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">Hệ số</b> của \\(x^2\\) trong <b class=\"mbl-term\" tabindex=\"0\" data-en=\"expand\">khai triển</b> của \\((2x+1)^3\\) là",
+   "options": [
+    "\\(4\\)",
+    "\\(6\\)",
+    "\\(12\\)",
+    "\\(-12\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(3A^2B=3\\cdot(2x)^2\\cdot 1=12x^2\\).",
+   "explain_vi": "Đáp án c. \\(3A^2B=3\\cdot(2x)^2\\cdot 1=12x^2\\).",
+   "images": [],
+   "id": "cc82895168cb",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Which cube equals \\(x^#-#x^#+#x-#\\)?",
+   "en": "Which cube equals \\(x^3-9x^2+27x-27\\)?",
+   "vi": "Đa thức \\(x^3-9x^2+27x-27\\) bằng",
+   "options": [
+    "\\((x-27)^3\\)",
+    "\\((x-3)^3\\)",
+    "\\((x-9)^3\\)",
+    "\\((x+3)^3\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(x^3-9x^2+27x-27=(x-3)^3\\).",
+   "explain_vi": "Đáp án b. \\(x^3-9x^2+27x-27=(x-3)^3\\).",
+   "images": [],
+   "id": "c33d585593e6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Calculate \\(#^#\\) using \\((A-B)^#\\).",
+   "en": "Calculate \\(19^3\\) using \\((A-B)^3\\).",
+   "vi": "Tính \\(19^3\\) bằng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"identity\">hằng đẳng thức</b> \\((A-B)^3\\).",
+   "options": [
+    "\\(6800\\)",
+    "\\(7999\\)",
+    "\\(6899\\)",
+    "\\(6859\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\((20-1)^3=8000-1200+60-1=6859\\).",
+   "explain_vi": "Đáp án d. \\((20-1)^3=8000-1200+60-1=6859\\).",
+   "images": [],
+   "id": "cadc7675784f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Show that \\((x+#)^#-(x-#)^#-#x^#\\) does not depend on \\(x\\). Its value is…",
+   "en": "Show that \\((x+2)^3-(x-2)^3-12x^2\\) does not depend on \\(x\\). Its value is…",
+   "vi": "Biểu thức \\((x+2)^3-(x-2)^3-12x^2\\) không phụ thuộc vào \\(x\\) và có giá trị bằng",
+   "options": [
+    "\\(4\\)",
+    "\\(16\\)",
+    "\\(0\\)",
+    "\\(8\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\((x+2)^3-(x-2)^3=12x^2+16\\), so the expression equals \\(16\\).",
+   "explain_vi": "Đáp án b. \\((x+2)^3-(x-2)^3=12x^2+16\\) nên biểu thức bằng \\(16\\).",
+   "images": [],
+   "id": "0172988bb742",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Write \\(x^#+#x^#+#x+#\\) as a cube and evaluate it at \\(x=#\\).",
+   "en": "Write \\(x^3+9x^2+27x+27\\) as a cube and evaluate it at \\(x=7\\).",
+   "vi": "Viết biểu thức \\(x^3+9x^2+27x+27\\) dưới dạng lập phương rồi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"evaluate\">tính giá trị</b> tại \\(x=7\\).",
+   "options": [
+    "\\(1001\\)",
+    "\\(1000\\)",
+    "\\(100\\)",
+    "\\(343\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\((x+3)^3=10^3=1000\\).",
+   "explain_vi": "Đáp án b. \\((x+3)^3=10^3=1000\\).",
+   "images": [],
+   "id": "49f17f589ec4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A cube has edge \\(x\\) cm. Each edge is increased by # cm. Write the increase of its volume as a polynomial and evaluate it for \\(x=#\\).",
+   "en": "A cube has edge \\(x\\) cm. Each edge is increased by 2 cm. Write the increase of its volume as a polynomial and evaluate it for \\(x=4\\).",
+   "vi": "Một khối lập phương có cạnh \\(x\\) cm. Người ta tăng mỗi cạnh thêm 2 cm. Viết đa thức biểu thị phần <b class=\"mbl-term\" tabindex=\"0\" data-en=\"volume\">thể tích</b> tăng thêm và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"evaluate\">tính giá trị</b> khi \\(x=4\\).",
+   "options": [
+    "\\(8;\\ 8\\text{ cm}^3\\)",
+    "\\(x^3+6x^2+12x+8;\\ 216\\text{ cm}^3\\)",
+    "\\(6x^2+12x+8;\\ 152\\text{ cm}^3\\)",
+    "\\(6x^2+8;\\ 104\\text{ cm}^3\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\((x+2)^3-x^3=6x^2+12x+8\\); at \\(x=4\\): \\(152\\) cm³.",
+   "explain_vi": "Đáp án c. \\((x+2)^3-x^3=6x^2+12x+8\\); khi \\(x=4\\): \\(152\\) cm³.",
+   "images": [],
+   "id": "54cf1d035d10",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A wooden cube has edge \\(x\\) cm. It is cut down so that each edge is # cm shorter. By how much does the volume decrease when \\(x=#\\)?",
+   "en": "A wooden cube has edge \\(x\\) cm. It is cut down so that each edge is 3 cm shorter. By how much does the volume decrease when \\(x=11\\)?",
+   "vi": "Một khối gỗ <b class=\"mbl-term\" tabindex=\"0\" data-en=\"cube\">hình lập phương</b> cạnh \\(x\\) cm được gọt bớt để mỗi cạnh ngắn đi 3 cm. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"volume\">Thể tích</b> khối gỗ giảm bao nhiêu khi \\(x=11\\)?",
+   "options": [
+    "\\(819\\text{ cm}^3\\)",
+    "\\(512\\text{ cm}^3\\)",
+    "\\(1089\\text{ cm}^3\\)",
+    "\\(27\\text{ cm}^3\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(x^3-(x-3)^3=11^3-8^3=819\\) cm³.",
+   "explain_vi": "Đáp án a. \\(x^3-(x-3)^3=11^3-8^3=819\\) cm³.",
+   "images": [],
+   "id": "5423bd435c03",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D4",
+   "type": "mcq",
+   "form": "Use \\((a+b)^#=a^#+b^#+#ab(a+b)\\): given \\(a+b=#\\) and \\(ab=#\\), find \\(a^#+b^#\\).",
+   "en": "Use \\((a+b)^3=a^3+b^3+3ab(a+b)\\): given \\(a+b=10\\) and \\(ab=24\\), find \\(a^3+b^3\\).",
+   "vi": "Sử dụng \\((a+b)^3=a^3+b^3+3ab(a+b)\\): cho \\(a+b=10\\) và \\(ab=24\\), tính \\(a^3+b^3\\).",
+   "options": [
+    "\\(1000\\)",
+    "\\(280\\)",
+    "\\(760\\)",
+    "\\(1720\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(a^3+b^3=10^3-3\\cdot24\\cdot10=280\\).",
+   "explain_vi": "Đáp án b. \\(a^3+b^3=10^3-3\\cdot24\\cdot10=280\\).",
+   "images": [],
+   "id": "60d174392226",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  }
+ ]
+}

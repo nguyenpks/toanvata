@@ -1,0 +1,1272 @@
+{
+ "lesson": "g8-quadrilaterals-05",
+ "grade": 8,
+ "no": 14,
+ "title": "Hình thoi và hình vuông",
+ "path": "lessons/grade8/quadrilaterals/rhombi-squares.html",
+ "items": [
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Rhombus \\(EFGH\\) has perimeter # cm. Find \\(FG\\).",
+   "en": "Rhombus \\(EFGH\\) has perimeter 20 cm. Find \\(FG\\).",
+   "vi": "Hình thoi \\(EFGH\\) có chu vi 20 cm. Tính \\(FG\\).",
+   "options": [
+    "\\(20\\text{ cm}\\)",
+    "\\(10\\text{ cm}\\)",
+    "\\(5\\text{ cm}\\)",
+    "\\(7\\text{ cm}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(20:4=5\\) cm.",
+   "explain_vi": "Đáp án c. \\(20:4=5\\) cm.",
+   "images": [],
+   "id": "e4cececf56c8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Rhombus \\(IJKL\\) has \\(\\widehat{LIJ}=#^\\circ\\). Find \\(\\widehat{JIK}\\).",
+   "en": "Rhombus \\(IJKL\\) has \\(\\widehat{LIJ}=70^\\circ\\). Find \\(\\widehat{JIK}\\).<img src=\"../../../img/tex/e46f0b185fa28ee1.svg\" alt=\"Figure\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,260px);height:auto\">",
+   "vi": "Hình thoi \\(IJKL\\) có \\(\\widehat{LIJ}=70^\\circ\\). Tính \\(\\widehat{JIK}\\).<img src=\"../../../img/tex/e46f0b185fa28ee1.svg\" alt=\"Hình vẽ\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,260px);height:auto\">",
+   "options": [
+    "\\(55^\\circ\\)",
+    "\\(35^\\circ\\)",
+    "\\(70^\\circ\\)",
+    "\\(110^\\circ\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Diagonal \\(IK\\) bisects \\(\\widehat{LIJ}\\): \\(70^\\circ:2=35^\\circ\\).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">Đường chéo</b> \\(IK\\) là phân giác của \\(\\widehat{LIJ}\\): \\(70^\\circ:2=35^\\circ\\).",
+   "images": [
+    "img/tex/e46f0b185fa28ee1.svg"
+   ],
+   "id": "94c1f33079ae",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Which figure is always a rhombus?",
+   "en": "Which figure is always a rhombus?",
+   "vi": "Hình nào chắc chắn là hình thoi?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">A parallelogram with equal diagonals</span><span class=\"vi\">Hình bình hành có hai đường chéo bằng nhau</span></span>",
+    "<span class=\"txi\"><span class=\"en\">A parallelogram with two equal adjacent sides</span><span class=\"vi\">Hình bình hành có hai cạnh kề bằng nhau</span></span>",
+    "<span class=\"txi\"><span class=\"en\">A quadrilateral with two pairs of equal adjacent sides</span><span class=\"vi\">Tứ giác có hai cặp cạnh kề bằng nhau</span></span>",
+    "<span class=\"txi\"><span class=\"en\">A quadrilateral with equal diagonals</span><span class=\"vi\">Tứ giác có hai đường chéo bằng nhau</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Compare with the tests for a rhombus and for a square.",
+   "explain_vi": "Đáp án b. Đối chiếu với các dấu hiệu nhận biết hình thoi, hình vuông.",
+   "images": [],
+   "id": "59f344f1f9e2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "Every square is a rectangle.",
+   "en": "Every square is a rectangle.",
+   "vi": "Mọi hình vuông đều là hình chữ nhật.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. Recall the properties of rhombi and squares.",
+   "explain_vi": "Đúng. Nhớ lại tính chất của hình thoi, hình vuông.",
+   "images": [],
+   "id": "11b41f9c8afa",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "Square \\(MNPQ\\) has diagonals meeting at \\(O\\) and \\(OM=#\\) cm. Then \\(ON=#\\) cm.",
+   "en": "Square \\(MNPQ\\) has diagonals meeting at \\(O\\) and \\(OM=4\\) cm. Then \\(ON=4\\) cm.",
+   "vi": "Hình vuông \\(MNPQ\\) có hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersect\">cắt nhau</b> tại \\(O\\), \\(OM=4\\) cm. Khi đó \\(ON=4\\) cm.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. The diagonals of a square are equal and bisect each other: \\(ON=OM=4\\) cm.",
+   "explain_vi": "Đúng. Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b> của hình vuông bằng nhau và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersect\">cắt nhau</b> tại <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> mỗi đường: \\(ON=OM=4\\) cm.",
+   "images": [],
+   "id": "20076e89c689",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "Rhombus \\(KLMN\\) has \\(KL=#x+#\\) and \\(LM=#x-#\\) (cm). Find the length of a side (cm).",
+   "en": "Rhombus \\(KLMN\\) has \\(KL=3x+3\\) and \\(LM=5x-17\\) (cm). Find the length of a side (cm).",
+   "vi": "Hình thoi \\(KLMN\\) có \\(KL=3x+3\\) và \\(LM=5x-17\\) (cm). Tính độ dài cạnh hình thoi (cm).",
+   "options": [],
+   "answer": "33",
+   "explain_en": "Answer: 33. \\(3x+3=5x-17\\Rightarrow x=10\\); side \\(=33\\) cm.",
+   "explain_vi": "Đáp số: 33. \\(3x+3=5x-17\\Rightarrow x=10\\); cạnh \\(=33\\) cm.",
+   "images": [],
+   "id": "ed264cbbdc1d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "Square \\(IJKL\\) has diagonals meeting at \\(O\\), and \\(OI=#\\) cm. Find \\(JL\\) (cm).",
+   "en": "Square \\(IJKL\\) has diagonals meeting at \\(O\\), and \\(OI=5\\) cm. Find \\(JL\\) (cm).",
+   "vi": "Hình vuông \\(IJKL\\) có hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersect\">cắt nhau</b> tại \\(O\\), \\(OI=5\\) cm. Tính \\(JL\\) (cm).",
+   "options": [],
+   "answer": "10",
+   "explain_en": "Answer: 10. \\(JL=IK=2\\cdot5=10\\) cm.",
+   "explain_vi": "Đáp số: 10. \\(JL=IK=2\\cdot5=10\\) cm.",
+   "images": [],
+   "id": "4736b65f0f71",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D1",
+   "type": "mcq",
+   "form": "By definition, a rhombus is a quadrilateral that has…",
+   "en": "By definition, a rhombus is a quadrilateral that has…",
+   "vi": "Theo định nghĩa, hình thoi là tứ giác có",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">two equal diagonals</span><span class=\"vi\">hai đường chéo bằng nhau</span></span>",
+    "<span class=\"txi\"><span class=\"en\">four equal sides</span><span class=\"vi\">bốn cạnh bằng nhau</span></span>",
+    "<span class=\"txi\"><span class=\"en\">four right angles and four equal sides</span><span class=\"vi\">bốn góc vuông và bốn cạnh bằng nhau</span></span>",
+    "<span class=\"txi\"><span class=\"en\">four right angles</span><span class=\"vi\">bốn góc vuông</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Recall the definitions.",
+   "explain_vi": "Đáp án b. Nhớ lại định nghĩa.",
+   "images": [],
+   "id": "4e5e37821c31",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D1",
+   "type": "mcq",
+   "form": "In rhombus \\(DEFG\\), the diagonals meet at \\(O\\). Which statement is always true?",
+   "en": "In rhombus \\(DEFG\\), the diagonals meet at \\(O\\). Which statement is always true?<img src=\"../../../img/tex/ea1368a76aaa28e5.svg\" alt=\"Figure\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,260px);height:auto\">",
+   "vi": "Hình thoi \\(DEFG\\) có hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersect\">cắt nhau</b> tại \\(O\\). Khẳng định nào luôn đúng?<img src=\"../../../img/tex/ea1368a76aaa28e5.svg\" alt=\"Hình vẽ\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,260px);height:auto\">",
+   "options": [
+    "\\(DF\\perp EG\\)",
+    "\\(DF=EG\\)",
+    "\\(\\widehat{D}=90^\\circ\\)",
+    "\\(OD=OE\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. The diagonals of a rhombus are perpendicular.",
+   "explain_vi": "Đáp án a. Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b> của hình thoi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"perpendicular\">vuông góc</b> với nhau.",
+   "images": [
+    "img/tex/ea1368a76aaa28e5.svg"
+   ],
+   "id": "3bf6dbe7db43",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Square \\(IJKL\\) has diagonals meeting at \\(O\\). Find \\(\\widehat{JIK}\\).",
+   "en": "Square \\(IJKL\\) has diagonals meeting at \\(O\\). Find \\(\\widehat{JIK}\\).",
+   "vi": "Hình vuông \\(IJKL\\) có hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersect\">cắt nhau</b> tại \\(O\\). Tính \\(\\widehat{JIK}\\).",
+   "options": [
+    "\\(45^\\circ\\)",
+    "\\(30^\\circ\\)",
+    "\\(60^\\circ\\)",
+    "\\(90^\\circ\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\widehat{JIK}=45^\\circ\\).",
+   "explain_vi": "Đáp án a. \\(\\widehat{JIK}=45^\\circ\\).",
+   "images": [],
+   "id": "11b7697ff369",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Rhombus \\(EFGH\\) has \\(EF=#x+#\\) and \\(GH=#x-#\\) (cm). Find its perimeter.",
+   "en": "Rhombus \\(EFGH\\) has \\(EF=3x+6\\) and \\(GH=7x-18\\) (cm). Find its perimeter.",
+   "vi": "Hình thoi \\(EFGH\\) có \\(EF=3x+6\\) và \\(GH=7x-18\\) (cm). Tính chu vi hình thoi.",
+   "options": [
+    "\\(48\\text{ cm}\\)",
+    "\\(96\\text{ cm}\\)",
+    "\\(24\\text{ cm}\\)",
+    "\\(98\\text{ cm}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(x=6\\), side \\(24\\) cm, perimeter \\(96\\) cm.",
+   "explain_vi": "Đáp án b. \\(x=6\\), cạnh \\(24\\) cm, chu vi \\(96\\) cm.",
+   "images": [],
+   "id": "5607fc898964",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Rhombus \\(KLMN\\) has \\(\\widehat{NKL}=#^\\circ\\). Find \\(\\widehat{KLN}\\).",
+   "en": "Rhombus \\(KLMN\\) has \\(\\widehat{NKL}=96^\\circ\\). Find \\(\\widehat{KLN}\\).",
+   "vi": "Hình thoi \\(KLMN\\) có \\(\\widehat{NKL}=96^\\circ\\). Tính \\(\\widehat{KLN}\\).",
+   "options": [
+    "\\(96^\\circ\\)",
+    "\\(42^\\circ\\)",
+    "\\(84^\\circ\\)",
+    "\\(48^\\circ\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\widehat{KLM}=180^\\circ-96^\\circ=84^\\circ\\), and \\(LN\\) bisects it: \\(42^\\circ\\).",
+   "explain_vi": "Đáp án b. \\(\\widehat{KLM}=180^\\circ-96^\\circ=84^\\circ\\), mà \\(LN\\) là phân giác nên bằng \\(42^\\circ\\).",
+   "images": [],
+   "id": "767c75b9041d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Rhombus \\(KLMN\\) has diagonals # cm and # cm. Find its area.",
+   "en": "Rhombus \\(KLMN\\) has diagonals 12 cm and 14 cm. Find its area.",
+   "vi": "Hình thoi \\(KLMN\\) có hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b> dài 12 cm và 14 cm. Tính diện tích hình thoi.",
+   "options": [
+    "\\(168\\text{ cm}^2\\)",
+    "\\(84\\text{ cm}^2\\)",
+    "\\(26\\text{ cm}^2\\)",
+    "\\(52\\text{ cm}^2\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(S=\\dfrac{12\\cdot14}{2}=84\\) cm².",
+   "explain_vi": "Đáp án b. \\(S=\\dfrac{12\\cdot14}{2}=84\\) cm².",
+   "images": [],
+   "id": "beecf3a7bcdd",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Quadrilateral \\(ABCD\\) satisfies: \\(AB=BC=CD=DA\\). What is the most precise name for it?",
+   "en": "Quadrilateral \\(ABCD\\) satisfies: \\(AB=BC=CD=DA\\). What is the most precise name for it?",
+   "vi": "Tứ giác \\(ABCD\\) thỏa mãn: \\(AB=BC=CD=DA\\). Tên gọi chính xác nhất của nó là",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">a rectangle (not necessarily a square)</span><span class=\"vi\">hình chữ nhật (chưa chắc là hình vuông)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">a square</span><span class=\"vi\">hình vuông</span></span>",
+    "<span class=\"txi\"><span class=\"en\">a rhombus (not necessarily a square)</span><span class=\"vi\">hình thoi (chưa chắc là hình vuông)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">an isosceles trapezoid</span><span class=\"vi\">hình thang cân</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Use the tests for rhombi and squares.",
+   "explain_vi": "Đáp án c. Dùng các dấu hiệu nhận biết hình thoi, hình vuông.",
+   "images": [],
+   "id": "4136379b17c7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Rhombus \\(ABCD\\) has \\(\\widehat{A}=#^\\circ\\). Find the angle between diagonal \\(AC\\) and side \\(AB\\).",
+   "en": "Rhombus \\(ABCD\\) has \\(\\widehat{A}=62^\\circ\\). Find the angle between diagonal \\(AC\\) and side \\(AB\\).",
+   "vi": "Hình thoi \\(ABCD\\) có \\(\\widehat{A}=62^\\circ\\). Tính góc tạo bởi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b> \\(AC\\) và cạnh \\(AB\\).",
+   "options": [
+    "\\(59^\\circ\\)",
+    "\\(118^\\circ\\)",
+    "\\(62^\\circ\\)",
+    "\\(31^\\circ\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. The diagonal bisects \\(\\widehat{A}\\): \\(31^\\circ\\).",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">Đường chéo</b> là phân giác của \\(\\widehat{A}\\): \\(31^\\circ\\).",
+   "images": [],
+   "id": "d8be9483ac1b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Square \\(ABCD\\) has side # cm. \\(M\\) and \\(N\\) are the midpoints of \\(AB\\) and \\(CD\\). What kind of quadrilateral is \\(AMND\\) and what is its perimeter?",
+   "en": "Square \\(ABCD\\) has side 8 cm. \\(M\\) and \\(N\\) are the midpoints of \\(AB\\) and \\(CD\\). What kind of quadrilateral is \\(AMND\\) and what is its perimeter?",
+   "vi": "Hình vuông \\(ABCD\\) có cạnh 8 cm; \\(M\\), \\(N\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"respectively\">lần lượt</b> là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> của \\(AB\\), \\(CD\\). Tứ giác \\(AMND\\) là hình gì và có chu vi bằng bao nhiêu?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">A rectangle; 24 cm</span><span class=\"vi\">Hình chữ nhật; 24 cm</span></span>",
+    "<span class=\"txi\"><span class=\"en\">A rhombus; 24 cm</span><span class=\"vi\">Hình thoi; 24 cm</span></span>",
+    "<span class=\"txi\"><span class=\"en\">A rectangle; 32 cm</span><span class=\"vi\">Hình chữ nhật; 32 cm</span></span>",
+    "<span class=\"txi\"><span class=\"en\">A square; 16 cm</span><span class=\"vi\">Hình vuông; 16 cm</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Three right angles → rectangle with sides 4 cm and 8 cm: perimeter \\(2(4+8)=24\\) cm.",
+   "explain_vi": "Đáp án a. Có ba góc vuông → hình chữ nhật với hai cạnh 4 cm và 8 cm: chu vi \\(2(4+8)=24\\) cm.",
+   "images": [],
+   "id": "0e0fcd1402b9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A decorative frame is made of # rhombi with side # cm, built from separate wooden bars (no bars shared). How many centimeters of wood are needed?",
+   "en": "A decorative frame is made of 9 rhombi with side 39 cm, built from separate wooden bars (no bars shared). How many centimeters of wood are needed?",
+   "vi": "Một khung trang trí gồm 9 hình thoi cạnh 39 cm, mỗi hình làm từ các thanh gỗ riêng (không dùng chung thanh). Cần tất cả bao nhiêu xăng-ti-mét thanh gỗ?",
+   "options": [
+    "\\(351\\text{ cm}\\)",
+    "\\(156\\text{ cm}\\)",
+    "\\(702\\text{ cm}\\)",
+    "\\(1404\\text{ cm}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(9\\cdot4\\cdot39=1404\\) cm.",
+   "explain_vi": "Đáp án d. \\(9\\cdot4\\cdot39=1404\\) cm.",
+   "images": [],
+   "id": "d795f275fd79",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A floor is decorated with # rhombus-shaped tiles; each tile has diagonals # cm and # cm. What area do the tiles cover?",
+   "en": "A floor is decorated with 11 rhombus-shaped tiles; each tile has diagonals 16 cm and 30 cm. What area do the tiles cover?",
+   "vi": "Một nền nhà được lát 11 viên gạch hình thoi, mỗi viên có hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b> dài 16 cm và 30 cm. Diện tích phần nền được lát là bao nhiêu?",
+   "options": [
+    "\\(240\\text{ cm}^2\\)",
+    "\\(5280\\text{ cm}^2\\)",
+    "\\(506\\text{ cm}^2\\)",
+    "\\(2640\\text{ cm}^2\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. One tile: \\(16\\cdot30:2=240\\) cm²; total \\(11\\cdot240=2640\\) cm².",
+   "explain_vi": "Đáp án d. Một viên: \\(16\\cdot30:2=240\\) cm²; tổng \\(11\\cdot240=2640\\) cm².",
+   "images": [],
+   "id": "eeac90465a75",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A garden bed has four equal sides. What extra condition makes it a square?",
+   "en": "A garden bed has four equal sides. What extra condition makes it a square?",
+   "vi": "Một bồn hoa có bốn cạnh bằng nhau. Cần thêm điều kiện gì để nó là hình vuông?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">Each diagonal bisects two angles.</span><span class=\"vi\">Mỗi đường chéo là phân giác của hai góc.</span></span>",
+    "<span class=\"txi\"><span class=\"en\">The two diagonals are perpendicular.</span><span class=\"vi\">Hai đường chéo vuông góc.</span></span>",
+    "<span class=\"txi\"><span class=\"en\">The two diagonals are equal.</span><span class=\"vi\">Hai đường chéo bằng nhau.</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Opposite sides are parallel.</span><span class=\"vi\">Các cạnh đối song song.</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Four equal sides → rhombus (already with perpendicular diagonals); a rhombus with equal diagonals is a square.",
+   "explain_vi": "Đáp án c. Bốn cạnh bằng nhau → hình thoi (đã có hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"perpendicular\">vuông góc</b>); hình thoi có hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b> bằng nhau là hình vuông.",
+   "images": [],
+   "id": "e28236ff99d3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Rhombus \\(ABCD\\) has \\(\\widehat{DAB}=#^\\circ\\). Find \\(\\widehat{BAC}\\).",
+   "en": "Rhombus \\(ABCD\\) has \\(\\widehat{DAB}=76^\\circ\\). Find \\(\\widehat{BAC}\\).<img src=\"../../../img/tex/cd4116fbec00ac2a.svg\" alt=\"Figure\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,260px);height:auto\">",
+   "vi": "Hình thoi \\(ABCD\\) có \\(\\widehat{DAB}=76^\\circ\\). Tính \\(\\widehat{BAC}\\).<img src=\"../../../img/tex/cd4116fbec00ac2a.svg\" alt=\"Hình vẽ\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,260px);height:auto\">",
+   "options": [
+    "\\(76^\\circ\\)",
+    "\\(38^\\circ\\)",
+    "\\(104^\\circ\\)",
+    "\\(52^\\circ\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Diagonal \\(AC\\) bisects \\(\\widehat{DAB}\\): \\(76^\\circ:2=38^\\circ\\).",
+   "explain_vi": "Đáp án b. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">Đường chéo</b> \\(AC\\) là phân giác của \\(\\widehat{DAB}\\): \\(76^\\circ:2=38^\\circ\\).",
+   "images": [
+    "img/tex/cd4116fbec00ac2a.svg"
+   ],
+   "id": "52fe5b6b6e58",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Rhombus \\(MNPQ\\) has perimeter # cm. Find \\(NP\\).",
+   "en": "Rhombus \\(MNPQ\\) has perimeter 56 cm. Find \\(NP\\).",
+   "vi": "Hình thoi \\(MNPQ\\) có chu vi 56 cm. Tính \\(NP\\).",
+   "options": [
+    "\\(28\\text{ cm}\\)",
+    "\\(14\\text{ cm}\\)",
+    "\\(56\\text{ cm}\\)",
+    "\\(16\\text{ cm}\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(56:4=14\\) cm.",
+   "explain_vi": "Đáp án b. \\(56:4=14\\) cm.",
+   "images": [],
+   "id": "ce596e3732df",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Which of these is a test for a rhombus?",
+   "en": "Which of these is a test for a rhombus?",
+   "vi": "Đâu là một dấu hiệu nhận biết hình thoi?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">A parallelogram with perpendicular diagonals</span><span class=\"vi\">Hình bình hành có hai đường chéo vuông góc</span></span>",
+    "<span class=\"txi\"><span class=\"en\">A quadrilateral with two pairs of equal adjacent sides</span><span class=\"vi\">Tứ giác có hai cặp cạnh kề bằng nhau</span></span>",
+    "<span class=\"txi\"><span class=\"en\">A quadrilateral with equal diagonals</span><span class=\"vi\">Tứ giác có hai đường chéo bằng nhau</span></span>",
+    "<span class=\"txi\"><span class=\"en\">A parallelogram with equal diagonals</span><span class=\"vi\">Hình bình hành có hai đường chéo bằng nhau</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Compare with the tests for a rhombus and for a square.",
+   "explain_vi": "Đáp án a. Đối chiếu với các dấu hiệu nhận biết hình thoi, hình vuông.",
+   "images": [],
+   "id": "d4fe6cfd2557",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "Every square is a rhombus.",
+   "en": "Every square is a rhombus.",
+   "vi": "Mọi hình vuông đều là hình thoi.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. Recall the properties of rhombi and squares.",
+   "explain_vi": "Đúng. Nhớ lại tính chất của hình thoi, hình vuông.",
+   "images": [],
+   "id": "c6c67f9ebcf6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "Square \\(IJKL\\) has diagonals meeting at \\(O\\) and \\(OI=#\\) cm. Then \\(OJ=#\\) cm.",
+   "en": "Square \\(IJKL\\) has diagonals meeting at \\(O\\) and \\(OI=8\\) cm. Then \\(OJ=8\\) cm.",
+   "vi": "Hình vuông \\(IJKL\\) có hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersect\">cắt nhau</b> tại \\(O\\), \\(OI=8\\) cm. Khi đó \\(OJ=8\\) cm.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. The diagonals of a square are equal and bisect each other: \\(OJ=OI=8\\) cm.",
+   "explain_vi": "Đúng. Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b> của hình vuông bằng nhau và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersect\">cắt nhau</b> tại <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> mỗi đường: \\(OJ=OI=8\\) cm.",
+   "images": [],
+   "id": "ed592cecf7c5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "Rhombus \\(PQRS\\) has \\(PQ=#x+#\\) and \\(QR=#x-#\\) (cm). Find the length of a side (cm).",
+   "en": "Rhombus \\(PQRS\\) has \\(PQ=2x+1\\) and \\(QR=4x-11\\) (cm). Find the length of a side (cm).",
+   "vi": "Hình thoi \\(PQRS\\) có \\(PQ=2x+1\\) và \\(QR=4x-11\\) (cm). Tính độ dài cạnh hình thoi (cm).",
+   "options": [],
+   "answer": "13",
+   "explain_en": "Answer: 13. \\(2x+1=4x-11\\Rightarrow x=6\\); side \\(=13\\) cm.",
+   "explain_vi": "Đáp số: 13. \\(2x+1=4x-11\\Rightarrow x=6\\); cạnh \\(=13\\) cm.",
+   "images": [],
+   "id": "a8284dacf70f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "Square \\(MNPQ\\) has diagonals meeting at \\(O\\), and \\(OM=#\\) cm. Find \\(NQ\\) (cm).",
+   "en": "Square \\(MNPQ\\) has diagonals meeting at \\(O\\), and \\(OM=15\\) cm. Find \\(NQ\\) (cm).",
+   "vi": "Hình vuông \\(MNPQ\\) có hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersect\">cắt nhau</b> tại \\(O\\), \\(OM=15\\) cm. Tính \\(NQ\\) (cm).",
+   "options": [],
+   "answer": "30",
+   "explain_en": "Answer: 30. \\(NQ=MP=2\\cdot15=30\\) cm.",
+   "explain_vi": "Đáp số: 30. \\(NQ=MP=2\\cdot15=30\\) cm.",
+   "images": [],
+   "id": "3d9a8f70b8da",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D1",
+   "type": "mcq",
+   "form": "A square is a quadrilateral with…",
+   "en": "A square is a quadrilateral with…",
+   "vi": "Hình vuông là tứ giác có",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">four right angles and four equal sides</span><span class=\"vi\">bốn góc vuông và bốn cạnh bằng nhau</span></span>",
+    "<span class=\"txi\"><span class=\"en\">perpendicular diagonals</span><span class=\"vi\">hai đường chéo vuông góc</span></span>",
+    "<span class=\"txi\"><span class=\"en\">four right angles</span><span class=\"vi\">bốn góc vuông</span></span>",
+    "<span class=\"txi\"><span class=\"en\">four equal sides</span><span class=\"vi\">bốn cạnh bằng nhau</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Recall the definitions.",
+   "explain_vi": "Đáp án a. Nhớ lại định nghĩa.",
+   "images": [],
+   "id": "5eeda55c5ed5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D1",
+   "type": "mcq",
+   "form": "In rhombus \\(ABCD\\), the diagonals meet at \\(O\\). Which statement is always true?",
+   "en": "In rhombus \\(ABCD\\), the diagonals meet at \\(O\\). Which statement is always true?<img src=\"../../../img/tex/cd096908a8c2de59.svg\" alt=\"Figure\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,260px);height:auto\">",
+   "vi": "Hình thoi \\(ABCD\\) có hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersect\">cắt nhau</b> tại \\(O\\). Khẳng định nào luôn đúng?<img src=\"../../../img/tex/cd096908a8c2de59.svg\" alt=\"Hình vẽ\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,260px);height:auto\">",
+   "options": [
+    "\\(OA=OB\\)",
+    "\\(AC=BD\\)",
+    "\\(\\widehat{A}=90^\\circ\\)",
+    "\\(AC\\perp BD\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. The diagonals of a rhombus are perpendicular.",
+   "explain_vi": "Đáp án d. Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b> của hình thoi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"perpendicular\">vuông góc</b> với nhau.",
+   "images": [
+    "img/tex/cd096908a8c2de59.svg"
+   ],
+   "id": "0dd3c6ca9905",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Square \\(ABCD\\) has diagonals meeting at \\(O\\). Find \\(\\widehat{AOB}\\).",
+   "en": "Square \\(ABCD\\) has diagonals meeting at \\(O\\). Find \\(\\widehat{AOB}\\).",
+   "vi": "Hình vuông \\(ABCD\\) có hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersect\">cắt nhau</b> tại \\(O\\). Tính \\(\\widehat{AOB}\\).",
+   "options": [
+    "\\(90^\\circ\\)",
+    "\\(60^\\circ\\)",
+    "\\(30^\\circ\\)",
+    "\\(45^\\circ\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(\\widehat{AOB}=90^\\circ\\).",
+   "explain_vi": "Đáp án a. \\(\\widehat{AOB}=90^\\circ\\).",
+   "images": [],
+   "id": "fc1a84e19f61",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Rhombus \\(EFGH\\) has \\(\\widehat{HEF}=#^\\circ\\). Find \\(\\widehat{EFH}\\).",
+   "en": "Rhombus \\(EFGH\\) has \\(\\widehat{HEF}=86^\\circ\\). Find \\(\\widehat{EFH}\\).",
+   "vi": "Hình thoi \\(EFGH\\) có \\(\\widehat{HEF}=86^\\circ\\). Tính \\(\\widehat{EFH}\\).",
+   "options": [
+    "\\(43^\\circ\\)",
+    "\\(94^\\circ\\)",
+    "\\(86^\\circ\\)",
+    "\\(47^\\circ\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\widehat{EFG}=180^\\circ-86^\\circ=94^\\circ\\), and \\(FH\\) bisects it: \\(47^\\circ\\).",
+   "explain_vi": "Đáp án d. \\(\\widehat{EFG}=180^\\circ-86^\\circ=94^\\circ\\), mà \\(FH\\) là phân giác nên bằng \\(47^\\circ\\).",
+   "images": [],
+   "id": "dfec8616e018",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Rhombus \\(EFGH\\) has diagonals # cm and # cm. Find its area.",
+   "en": "Rhombus \\(EFGH\\) has diagonals 12 cm and 9 cm. Find its area.",
+   "vi": "Hình thoi \\(EFGH\\) có hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b> dài 12 cm và 9 cm. Tính diện tích hình thoi.",
+   "options": [
+    "\\(21\\text{ cm}^2\\)",
+    "\\(42\\text{ cm}^2\\)",
+    "\\(54\\text{ cm}^2\\)",
+    "\\(108\\text{ cm}^2\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(S=\\dfrac{12\\cdot9}{2}=54\\) cm².",
+   "explain_vi": "Đáp án c. \\(S=\\dfrac{12\\cdot9}{2}=54\\) cm².",
+   "images": [],
+   "id": "9614b9a041af",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Rhombus \\(WXYZ\\) has \\(WX=#x+#\\) and \\(YZ=#x-#\\) (cm). Find its perimeter.",
+   "en": "Rhombus \\(WXYZ\\) has \\(WX=3x+6\\) and \\(YZ=6x-6\\) (cm). Find its perimeter.",
+   "vi": "Hình thoi \\(WXYZ\\) có \\(WX=3x+6\\) và \\(YZ=6x-6\\) (cm). Tính chu vi hình thoi.",
+   "options": [
+    "\\(36\\text{ cm}\\)",
+    "\\(18\\text{ cm}\\)",
+    "\\(16\\text{ cm}\\)",
+    "\\(72\\text{ cm}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(x=4\\), side \\(18\\) cm, perimeter \\(72\\) cm.",
+   "explain_vi": "Đáp án d. \\(x=4\\), cạnh \\(18\\) cm, chu vi \\(72\\) cm.",
+   "images": [],
+   "id": "27ad96a0d08a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Quadrilateral \\(WXYZ\\) satisfies: \\(WX=XY=YZ=ZW\\) and \\(\\widehat{W}=#^\\circ\\). What is the most precise name for it?",
+   "en": "Quadrilateral \\(WXYZ\\) satisfies: \\(WX=XY=YZ=ZW\\) and \\(\\widehat{W}=90^\\circ\\). What is the most precise name for it?",
+   "vi": "Tứ giác \\(WXYZ\\) thỏa mãn: \\(WX=XY=YZ=ZW\\) và \\(\\widehat{W}=90^\\circ\\). Tên gọi chính xác nhất của nó là",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">a rectangle (not necessarily a square)</span><span class=\"vi\">hình chữ nhật (chưa chắc là hình vuông)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">an isosceles trapezoid</span><span class=\"vi\">hình thang cân</span></span>",
+    "<span class=\"txi\"><span class=\"en\">a square</span><span class=\"vi\">hình vuông</span></span>",
+    "<span class=\"txi\"><span class=\"en\">a rhombus (not necessarily a square)</span><span class=\"vi\">hình thoi (chưa chắc là hình vuông)</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Use the tests for rhombi and squares.",
+   "explain_vi": "Đáp án c. Dùng các dấu hiệu nhận biết hình thoi, hình vuông.",
+   "images": [],
+   "id": "33aca016af02",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Rhombus \\(WXYZ\\) has \\(\\widehat{W}=#^\\circ\\). Find the angle between diagonal \\(WY\\) and side \\(WX\\).",
+   "en": "Rhombus \\(WXYZ\\) has \\(\\widehat{W}=54^\\circ\\). Find the angle between diagonal \\(WY\\) and side \\(WX\\).",
+   "vi": "Hình thoi \\(WXYZ\\) có \\(\\widehat{W}=54^\\circ\\). Tính góc tạo bởi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b> \\(WY\\) và cạnh \\(WX\\).",
+   "options": [
+    "\\(27^\\circ\\)",
+    "\\(54^\\circ\\)",
+    "\\(126^\\circ\\)",
+    "\\(63^\\circ\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. The diagonal bisects \\(\\widehat{W}\\): \\(27^\\circ\\).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">Đường chéo</b> là phân giác của \\(\\widehat{W}\\): \\(27^\\circ\\).",
+   "images": [],
+   "id": "911f0de73115",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Square \\(ABCD\\) has side # cm. \\(M\\) and \\(N\\) are the midpoints of \\(AB\\) and \\(CD\\). What kind of quadrilateral is \\(AMND\\) and what is its perimeter?",
+   "en": "Square \\(ABCD\\) has side 10 cm. \\(M\\) and \\(N\\) are the midpoints of \\(AB\\) and \\(CD\\). What kind of quadrilateral is \\(AMND\\) and what is its perimeter?",
+   "vi": "Hình vuông \\(ABCD\\) có cạnh 10 cm; \\(M\\), \\(N\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"respectively\">lần lượt</b> là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> của \\(AB\\), \\(CD\\). Tứ giác \\(AMND\\) là hình gì và có chu vi bằng bao nhiêu?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">A rectangle; 30 cm</span><span class=\"vi\">Hình chữ nhật; 30 cm</span></span>",
+    "<span class=\"txi\"><span class=\"en\">A square; 20 cm</span><span class=\"vi\">Hình vuông; 20 cm</span></span>",
+    "<span class=\"txi\"><span class=\"en\">A rectangle; 40 cm</span><span class=\"vi\">Hình chữ nhật; 40 cm</span></span>",
+    "<span class=\"txi\"><span class=\"en\">A rhombus; 30 cm</span><span class=\"vi\">Hình thoi; 30 cm</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Three right angles → rectangle with sides 5 cm and 10 cm: perimeter \\(2(5+10)=30\\) cm.",
+   "explain_vi": "Đáp án a. Có ba góc vuông → hình chữ nhật với hai cạnh 5 cm và 10 cm: chu vi \\(2(5+10)=30\\) cm.",
+   "images": [],
+   "id": "174aab638467",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A decorative frame is made of # rhombi with side # cm, built from separate wooden bars (no bars shared). How many centimeters of wood are needed?",
+   "en": "A decorative frame is made of 5 rhombi with side 52 cm, built from separate wooden bars (no bars shared). How many centimeters of wood are needed?",
+   "vi": "Một khung trang trí gồm 5 hình thoi cạnh 52 cm, mỗi hình làm từ các thanh gỗ riêng (không dùng chung thanh). Cần tất cả bao nhiêu xăng-ti-mét thanh gỗ?",
+   "options": [
+    "\\(208\\text{ cm}\\)",
+    "\\(520\\text{ cm}\\)",
+    "\\(260\\text{ cm}\\)",
+    "\\(1040\\text{ cm}\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(5\\cdot4\\cdot52=1040\\) cm.",
+   "explain_vi": "Đáp án d. \\(5\\cdot4\\cdot52=1040\\) cm.",
+   "images": [],
+   "id": "bb70c08524e2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A floor is decorated with # rhombus-shaped tiles; each tile has diagonals # cm and # cm. What area do the tiles cover?",
+   "en": "A floor is decorated with 29 rhombus-shaped tiles; each tile has diagonals 18 cm and 24 cm. What area do the tiles cover?",
+   "vi": "Một nền nhà được lát 29 viên gạch hình thoi, mỗi viên có hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b> dài 18 cm và 24 cm. Diện tích phần nền được lát là bao nhiêu?",
+   "options": [
+    "\\(6264\\text{ cm}^2\\)",
+    "\\(216\\text{ cm}^2\\)",
+    "\\(12528\\text{ cm}^2\\)",
+    "\\(1218\\text{ cm}^2\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. One tile: \\(18\\cdot24:2=216\\) cm²; total \\(29\\cdot216=6264\\) cm².",
+   "explain_vi": "Đáp án a. Một viên: \\(18\\cdot24:2=216\\) cm²; tổng \\(29\\cdot216=6264\\) cm².",
+   "images": [],
+   "id": "94deb3055b13",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A window frame has four equal sides. Which extra measurement shows that it is a square?",
+   "en": "A window frame has four equal sides. Which extra measurement shows that it is a square?",
+   "vi": "Một khung cửa sổ có bốn cạnh bằng nhau. Đo thêm điều gì để biết nó là hình vuông?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">Opposite sides are parallel.</span><span class=\"vi\">Các cạnh đối song song.</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Each diagonal bisects two angles.</span><span class=\"vi\">Mỗi đường chéo là phân giác của hai góc.</span></span>",
+    "<span class=\"txi\"><span class=\"en\">The two diagonals are perpendicular.</span><span class=\"vi\">Hai đường chéo vuông góc.</span></span>",
+    "<span class=\"txi\"><span class=\"en\">The two diagonals are equal.</span><span class=\"vi\">Hai đường chéo bằng nhau.</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Four equal sides → rhombus (already with perpendicular diagonals); a rhombus with equal diagonals is a square.",
+   "explain_vi": "Đáp án d. Bốn cạnh bằng nhau → hình thoi (đã có hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"perpendicular\">vuông góc</b>); hình thoi có hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b> bằng nhau là hình vuông.",
+   "images": [],
+   "id": "ce5354fe2676",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Rhombus \\(KLMN\\) has \\(\\widehat{NKL}=#^\\circ\\). Find \\(\\widehat{KLM}\\).",
+   "en": "Rhombus \\(KLMN\\) has \\(\\widehat{NKL}=64^\\circ\\). Find \\(\\widehat{KLM}\\).<img src=\"../../../img/tex/4451d9adf9fddd35.svg\" alt=\"Figure\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,260px);height:auto\">",
+   "vi": "Hình thoi \\(KLMN\\) có \\(\\widehat{NKL}=64^\\circ\\). Tính \\(\\widehat{KLM}\\).<img src=\"../../../img/tex/4451d9adf9fddd35.svg\" alt=\"Hình vẽ\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,260px);height:auto\">",
+   "options": [
+    "\\(64^\\circ\\)",
+    "\\(90^\\circ\\)",
+    "\\(116^\\circ\\)",
+    "\\(32^\\circ\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Consecutive angles are supplementary.",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"consecutive angles\">Hai góc kề một cạnh</b> bù nhau.",
+   "images": [
+    "img/tex/4451d9adf9fddd35.svg"
+   ],
+   "id": "c6f3c4e094fa",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Rhombus \\(PQRS\\) has side \\(PQ=#\\) cm. Find its perimeter.",
+   "en": "Rhombus \\(PQRS\\) has side \\(PQ=20\\) cm. Find its perimeter.",
+   "vi": "Hình thoi \\(PQRS\\) có cạnh \\(PQ=20\\) cm. Tính chu vi của hình thoi.",
+   "options": [
+    "\\(80\\text{ cm}\\)",
+    "\\(40\\text{ cm}\\)",
+    "\\(84\\text{ cm}\\)",
+    "\\(400\\text{ cm}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Four equal sides: \\(4\\cdot20=80\\) cm.",
+   "explain_vi": "Đáp án a. Bốn cạnh bằng nhau: \\(4\\cdot20=80\\) cm.",
+   "images": [],
+   "id": "9c0489b4ba61",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Which of these is a test for a square?",
+   "en": "Which of these is a test for a square?",
+   "vi": "Đâu là một dấu hiệu nhận biết hình vuông?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">A rectangle with two equal adjacent sides</span><span class=\"vi\">Hình chữ nhật có hai cạnh kề bằng nhau</span></span>",
+    "<span class=\"txi\"><span class=\"en\">A parallelogram with perpendicular diagonals</span><span class=\"vi\">Hình bình hành có hai đường chéo vuông góc</span></span>",
+    "<span class=\"txi\"><span class=\"en\">A parallelogram with equal diagonals</span><span class=\"vi\">Hình bình hành có hai đường chéo bằng nhau</span></span>",
+    "<span class=\"txi\"><span class=\"en\">A parallelogram in which a diagonal bisects an angle</span><span class=\"vi\">Hình bình hành có một đường chéo là phân giác của một góc</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Compare with the tests for a rhombus and for a square.",
+   "explain_vi": "Đáp án a. Đối chiếu với các dấu hiệu nhận biết hình thoi, hình vuông.",
+   "images": [],
+   "id": "8064c2fa51d5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "Square \\(WXYZ\\) has diagonals meeting at \\(O\\) and \\(OW=#\\) cm. Then \\(OX=#\\) cm.",
+   "en": "Square \\(WXYZ\\) has diagonals meeting at \\(O\\) and \\(OW=3\\) cm. Then \\(OX=3\\) cm.",
+   "vi": "Hình vuông \\(WXYZ\\) có hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersect\">cắt nhau</b> tại \\(O\\), \\(OW=3\\) cm. Khi đó \\(OX=3\\) cm.",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. The diagonals of a square are equal and bisect each other: \\(OX=OW=3\\) cm.",
+   "explain_vi": "Đúng. Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b> của hình vuông bằng nhau và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersect\">cắt nhau</b> tại <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> mỗi đường: \\(OX=OW=3\\) cm.",
+   "images": [],
+   "id": "9574f529aebb",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "The diagonals of a rhombus are equal.",
+   "en": "The diagonals of a rhombus are equal.",
+   "vi": "Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b> của hình thoi bằng nhau.",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. Recall the properties of rhombi and squares.",
+   "explain_vi": "Sai. Nhớ lại tính chất của hình thoi, hình vuông.",
+   "images": [],
+   "id": "c17eefe9219b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Rhombus \\(PQRS\\) has \\(PQ=#x+#\\) and \\(QR=#x-#\\) (cm). Find the length of a side (cm).",
+   "en": "Rhombus \\(PQRS\\) has \\(PQ=2x+6\\) and \\(QR=5x-3\\) (cm). Find the length of a side (cm).",
+   "vi": "Hình thoi \\(PQRS\\) có \\(PQ=2x+6\\) và \\(QR=5x-3\\) (cm). Tính độ dài cạnh hình thoi (cm).",
+   "options": [],
+   "answer": "12",
+   "explain_en": "Answer: 12. \\(2x+6=5x-3\\Rightarrow x=3\\); side \\(=12\\) cm.",
+   "explain_vi": "Đáp số: 12. \\(2x+6=5x-3\\Rightarrow x=3\\); cạnh \\(=12\\) cm.",
+   "images": [],
+   "id": "20cbe9ce4905",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Square \\(MNPQ\\) has diagonals meeting at \\(O\\), and \\(OM=#\\) cm. Find \\(NQ\\) (cm).",
+   "en": "Square \\(MNPQ\\) has diagonals meeting at \\(O\\), and \\(OM=13\\) cm. Find \\(NQ\\) (cm).",
+   "vi": "Hình vuông \\(MNPQ\\) có hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersect\">cắt nhau</b> tại \\(O\\), \\(OM=13\\) cm. Tính \\(NQ\\) (cm).",
+   "options": [],
+   "answer": "26",
+   "explain_en": "Answer: 26. \\(NQ=MP=2\\cdot13=26\\) cm.",
+   "explain_vi": "Đáp số: 26. \\(NQ=MP=2\\cdot13=26\\) cm.",
+   "images": [],
+   "id": "8f2a90f73be9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D1",
+   "type": "mcq",
+   "form": "By definition, a square is a quadrilateral that has…",
+   "en": "By definition, a square is a quadrilateral that has…",
+   "vi": "Theo định nghĩa, hình vuông là tứ giác có",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">four equal sides</span><span class=\"vi\">bốn cạnh bằng nhau</span></span>",
+    "<span class=\"txi\"><span class=\"en\">perpendicular diagonals</span><span class=\"vi\">hai đường chéo vuông góc</span></span>",
+    "<span class=\"txi\"><span class=\"en\">four right angles</span><span class=\"vi\">bốn góc vuông</span></span>",
+    "<span class=\"txi\"><span class=\"en\">four right angles and four equal sides</span><span class=\"vi\">bốn góc vuông và bốn cạnh bằng nhau</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Recall the definitions.",
+   "explain_vi": "Đáp án d. Nhớ lại định nghĩa.",
+   "images": [],
+   "id": "de6873eba801",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D1",
+   "type": "mcq",
+   "form": "In rhombus \\(PQRS\\), the diagonals meet at \\(O\\). Which statement is always true?",
+   "en": "In rhombus \\(PQRS\\), the diagonals meet at \\(O\\). Which statement is always true?<img src=\"../../../img/tex/c1a3fef7fb888834.svg\" alt=\"Figure\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,260px);height:auto\">",
+   "vi": "Hình thoi \\(PQRS\\) có hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersect\">cắt nhau</b> tại \\(O\\). Khẳng định nào luôn đúng?<img src=\"../../../img/tex/c1a3fef7fb888834.svg\" alt=\"Hình vẽ\" loading=\"lazy\" style=\"display:block;margin:8px auto;width:min(100%,260px);height:auto\">",
+   "options": [
+    "\\(PR=QS\\)",
+    "\\(\\widehat{P}=90^\\circ\\)",
+    "\\(PR\\perp QS\\)",
+    "\\(OP=OQ\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The diagonals of a rhombus are perpendicular.",
+   "explain_vi": "Đáp án c. Hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b> của hình thoi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"perpendicular\">vuông góc</b> với nhau.",
+   "images": [
+    "img/tex/c1a3fef7fb888834.svg"
+   ],
+   "id": "9a1d95cd1317",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Square \\(PQRS\\) has diagonals meeting at \\(O\\). Find \\(\\widehat{QPR}\\).",
+   "en": "Square \\(PQRS\\) has diagonals meeting at \\(O\\). Find \\(\\widehat{QPR}\\).",
+   "vi": "Hình vuông \\(PQRS\\) có hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"intersect\">cắt nhau</b> tại \\(O\\). Tính \\(\\widehat{QPR}\\).",
+   "options": [
+    "\\(90^\\circ\\)",
+    "\\(30^\\circ\\)",
+    "\\(60^\\circ\\)",
+    "\\(45^\\circ\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(\\widehat{QPR}=45^\\circ\\).",
+   "explain_vi": "Đáp án d. \\(\\widehat{QPR}=45^\\circ\\).",
+   "images": [],
+   "id": "6370f4ec18ca",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Rhombus \\(DEFG\\) has \\(\\widehat{GDE}=#^\\circ\\). Find \\(\\widehat{DEG}\\).",
+   "en": "Rhombus \\(DEFG\\) has \\(\\widehat{GDE}=112^\\circ\\). Find \\(\\widehat{DEG}\\).",
+   "vi": "Hình thoi \\(DEFG\\) có \\(\\widehat{GDE}=112^\\circ\\). Tính \\(\\widehat{DEG}\\).",
+   "options": [
+    "\\(112^\\circ\\)",
+    "\\(34^\\circ\\)",
+    "\\(68^\\circ\\)",
+    "\\(56^\\circ\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(\\widehat{DEF}=180^\\circ-112^\\circ=68^\\circ\\), and \\(EG\\) bisects it: \\(34^\\circ\\).",
+   "explain_vi": "Đáp án b. \\(\\widehat{DEF}=180^\\circ-112^\\circ=68^\\circ\\), mà \\(EG\\) là phân giác nên bằng \\(34^\\circ\\).",
+   "images": [],
+   "id": "c601d66d6364",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Rhombus \\(EFGH\\) has diagonals # cm and # cm. Find its area.",
+   "en": "Rhombus \\(EFGH\\) has diagonals 6 cm and 8 cm. Find its area.",
+   "vi": "Hình thoi \\(EFGH\\) có hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b> dài 6 cm và 8 cm. Tính diện tích hình thoi.",
+   "options": [
+    "\\(14\\text{ cm}^2\\)",
+    "\\(48\\text{ cm}^2\\)",
+    "\\(24\\text{ cm}^2\\)",
+    "\\(28\\text{ cm}^2\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(S=\\dfrac{6\\cdot8}{2}=24\\) cm².",
+   "explain_vi": "Đáp án c. \\(S=\\dfrac{6\\cdot8}{2}=24\\) cm².",
+   "images": [],
+   "id": "c58af406fa2c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Rhombus \\(KLMN\\) has \\(KL=#x+#\\) and \\(MN=#x-#\\) (cm). Find its perimeter.",
+   "en": "Rhombus \\(KLMN\\) has \\(KL=4x+9\\) and \\(MN=7x-18\\) (cm). Find its perimeter.",
+   "vi": "Hình thoi \\(KLMN\\) có \\(KL=4x+9\\) và \\(MN=7x-18\\) (cm). Tính chu vi hình thoi.",
+   "options": [
+    "\\(180\\text{ cm}\\)",
+    "\\(45\\text{ cm}\\)",
+    "\\(90\\text{ cm}\\)",
+    "\\(36\\text{ cm}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(x=9\\), side \\(45\\) cm, perimeter \\(180\\) cm.",
+   "explain_vi": "Đáp án a. \\(x=9\\), cạnh \\(45\\) cm, chu vi \\(180\\) cm.",
+   "images": [],
+   "id": "33c5fa1d9c57",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Quadrilateral \\(ABCD\\) satisfies: \\(AB=BC=CD=DA\\) and \\(\\widehat{A}=#^\\circ\\). What is the most precise name for it?",
+   "en": "Quadrilateral \\(ABCD\\) satisfies: \\(AB=BC=CD=DA\\) and \\(\\widehat{A}=90^\\circ\\). What is the most precise name for it?",
+   "vi": "Tứ giác \\(ABCD\\) thỏa mãn: \\(AB=BC=CD=DA\\) và \\(\\widehat{A}=90^\\circ\\). Tên gọi chính xác nhất của nó là",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">an isosceles trapezoid</span><span class=\"vi\">hình thang cân</span></span>",
+    "<span class=\"txi\"><span class=\"en\">a square</span><span class=\"vi\">hình vuông</span></span>",
+    "<span class=\"txi\"><span class=\"en\">a rhombus (not necessarily a square)</span><span class=\"vi\">hình thoi (chưa chắc là hình vuông)</span></span>",
+    "<span class=\"txi\"><span class=\"en\">a rectangle (not necessarily a square)</span><span class=\"vi\">hình chữ nhật (chưa chắc là hình vuông)</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Use the tests for rhombi and squares.",
+   "explain_vi": "Đáp án b. Dùng các dấu hiệu nhận biết hình thoi, hình vuông.",
+   "images": [],
+   "id": "c51abaf223f2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Rhombus \\(MNPQ\\) has \\(\\widehat{M}=#^\\circ\\). Find the angle between diagonal \\(MP\\) and side \\(MN\\).",
+   "en": "Rhombus \\(MNPQ\\) has \\(\\widehat{M}=132^\\circ\\). Find the angle between diagonal \\(MP\\) and side \\(MN\\).",
+   "vi": "Hình thoi \\(MNPQ\\) có \\(\\widehat{M}=132^\\circ\\). Tính góc tạo bởi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b> \\(MP\\) và cạnh \\(MN\\).",
+   "options": [
+    "\\(132^\\circ\\)",
+    "\\(48^\\circ\\)",
+    "\\(66^\\circ\\)",
+    "\\(24^\\circ\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The diagonal bisects \\(\\widehat{M}\\): \\(66^\\circ\\).",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">Đường chéo</b> là phân giác của \\(\\widehat{M}\\): \\(66^\\circ\\).",
+   "images": [],
+   "id": "67e310f733d5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Square \\(ABCD\\) has side # cm. \\(M\\) and \\(N\\) are the midpoints of \\(AB\\) and \\(CD\\). What kind of quadrilateral is \\(AMND\\) and what is its perimeter?",
+   "en": "Square \\(ABCD\\) has side 4 cm. \\(M\\) and \\(N\\) are the midpoints of \\(AB\\) and \\(CD\\). What kind of quadrilateral is \\(AMND\\) and what is its perimeter?",
+   "vi": "Hình vuông \\(ABCD\\) có cạnh 4 cm; \\(M\\), \\(N\\) <b class=\"mbl-term\" tabindex=\"0\" data-en=\"respectively\">lần lượt</b> là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"midpoint\">trung điểm</b> của \\(AB\\), \\(CD\\). Tứ giác \\(AMND\\) là hình gì và có chu vi bằng bao nhiêu?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">A rectangle; 16 cm</span><span class=\"vi\">Hình chữ nhật; 16 cm</span></span>",
+    "<span class=\"txi\"><span class=\"en\">A rectangle; 12 cm</span><span class=\"vi\">Hình chữ nhật; 12 cm</span></span>",
+    "<span class=\"txi\"><span class=\"en\">A rhombus; 12 cm</span><span class=\"vi\">Hình thoi; 12 cm</span></span>",
+    "<span class=\"txi\"><span class=\"en\">A square; 8 cm</span><span class=\"vi\">Hình vuông; 8 cm</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Three right angles → rectangle with sides 2 cm and 4 cm: perimeter \\(2(2+4)=12\\) cm.",
+   "explain_vi": "Đáp án b. Có ba góc vuông → hình chữ nhật với hai cạnh 2 cm và 4 cm: chu vi \\(2(2+4)=12\\) cm.",
+   "images": [],
+   "id": "8520f95a5616",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A decorative frame is made of # rhombi with side # cm, built from separate wooden bars (no bars shared). How many centimeters of wood are needed?",
+   "en": "A decorative frame is made of 8 rhombi with side 50 cm, built from separate wooden bars (no bars shared). How many centimeters of wood are needed?",
+   "vi": "Một khung trang trí gồm 8 hình thoi cạnh 50 cm, mỗi hình làm từ các thanh gỗ riêng (không dùng chung thanh). Cần tất cả bao nhiêu xăng-ti-mét thanh gỗ?",
+   "options": [
+    "\\(1600\\text{ cm}\\)",
+    "\\(200\\text{ cm}\\)",
+    "\\(400\\text{ cm}\\)",
+    "\\(800\\text{ cm}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(8\\cdot4\\cdot50=1600\\) cm.",
+   "explain_vi": "Đáp án a. \\(8\\cdot4\\cdot50=1600\\) cm.",
+   "images": [],
+   "id": "2ee796e59342",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A floor is decorated with # rhombus-shaped tiles; each tile has diagonals # cm and # cm. What area do the tiles cover?",
+   "en": "A floor is decorated with 55 rhombus-shaped tiles; each tile has diagonals 20 cm and 30 cm. What area do the tiles cover?",
+   "vi": "Một nền nhà được lát 55 viên gạch hình thoi, mỗi viên có hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b> dài 20 cm và 30 cm. Diện tích phần nền được lát là bao nhiêu?",
+   "options": [
+    "\\(300\\text{ cm}^2\\)",
+    "\\(16500\\text{ cm}^2\\)",
+    "\\(33000\\text{ cm}^2\\)",
+    "\\(2750\\text{ cm}^2\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. One tile: \\(20\\cdot30:2=300\\) cm²; total \\(55\\cdot300=16500\\) cm².",
+   "explain_vi": "Đáp án b. Một viên: \\(20\\cdot30:2=300\\) cm²; tổng \\(55\\cdot300=16500\\) cm².",
+   "images": [],
+   "id": "0ee94d00ae82",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A tile-maker checks a tile: its four sides are equal. What else must she check to be sure it is a square?",
+   "en": "A tile-maker checks a tile: its four sides are equal. What else must she check to be sure it is a square?",
+   "vi": "Người thợ kiểm tra một viên gạch có bốn cạnh bằng nhau. Cần kiểm tra thêm điều gì để chắc chắn viên gạch là hình vuông?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">The two diagonals are perpendicular.</span><span class=\"vi\">Hai đường chéo vuông góc.</span></span>",
+    "<span class=\"txi\"><span class=\"en\">The two diagonals are equal.</span><span class=\"vi\">Hai đường chéo bằng nhau.</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Opposite sides are parallel.</span><span class=\"vi\">Các cạnh đối song song.</span></span>",
+    "<span class=\"txi\"><span class=\"en\">Each diagonal bisects two angles.</span><span class=\"vi\">Mỗi đường chéo là phân giác của hai góc.</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Four equal sides → rhombus (already with perpendicular diagonals); a rhombus with equal diagonals is a square.",
+   "explain_vi": "Đáp án b. Bốn cạnh bằng nhau → hình thoi (đã có hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b> <b class=\"mbl-term\" tabindex=\"0\" data-en=\"perpendicular\">vuông góc</b>); hình thoi có hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"diagonal\">đường chéo</b> bằng nhau là hình vuông.",
+   "images": [],
+   "id": "a8d1a003c5c7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  }
+ ]
+}

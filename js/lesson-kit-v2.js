@@ -31,8 +31,18 @@
     for (var i = 0; i < list.length; i++) {
       var m = list[i], host = m.parentElement;
       while (host && host !== document.body && getComputedStyle(host).display.indexOf('inline') === 0) host = host.parentElement;
-      if (host && m.offsetWidth > host.clientWidth && host.clientWidth > 0) m.classList.add('mbl-wide-inline');
+      if (!host || host.clientWidth <= 0) continue;                 // đang ẩn (mức khác, lời giải đóng): xét lại khi hiện ra
+      var had = m.classList.contains('mbl-wide-inline');
+      if (had) m.classList.remove('mbl-wide-inline');               // đo lại kích thước thật (xoay màn hình, đổi mức)
+      if (m.offsetWidth > host.clientWidth) m.classList.add('mbl-wide-inline');
     }
+  }
+  /* Gọi lại wrapWide mỗi khi bố cục đổi (đổi Mức 1/2/3, mở lời giải, xoay màn hình): công thức đang ẩn lúc tải trang
+     có độ rộng 0 nên trước đây không được kiểm tra, khi hiện ra vẫn tràn ngang. */
+  var wideTimer = null;
+  function wrapWideSoon() {
+    if (wideTimer) clearTimeout(wideTimer);
+    wideTimer = setTimeout(function () { wideTimer = null; try { wrapWide(); } catch (e) {} }, 120);
   }
   function typeset(el) {
     var MJ = window.MathJax;
@@ -40,6 +50,7 @@
     var base = mjQueue || (MJ.startup && MJ.startup.promise) || Promise.resolve();
     mjQueue = base.then(function () {
       if (MJ.typesetClear && el) MJ.typesetClear([el]);
+      if (window.mbSplitMath) { try { window.mbSplitMath(el || document.body); } catch (e) {} }   // nội dung mới: tách công thức dài
       return MJ.typesetPromise(el ? [el] : undefined);
     }).then(function () { wrapWide(); fit(); }).catch(function (e) {
       if (window.console) console.warn('[MathJax]', e && e.message ? e.message : e);
@@ -47,7 +58,9 @@
     });
   }
   window.mbTypeset = typeset;   // cho nội dung động (lời giải mở ra) và kiểm thử
-  if (window.ResizeObserver) new ResizeObserver(fit).observe(document.body);
+  if (window.ResizeObserver) new ResizeObserver(function () { fit(); wrapWideSoon(); }).observe(document.body);
+  window.addEventListener('resize', wrapWideSoon);
+  document.addEventListener('click', wrapWideSoon, true);   // nút chọn mức / mở lời giải có thể làm hiện công thức đang ẩn
   window.addEventListener('load', function () {
     fit();
     if (window.MathJax && window.MathJax.startup && window.MathJax.startup.promise) {

@@ -95,6 +95,175 @@
     "no": 5
   },
   {
+    "id": "g8-identities-01",
+    "grade": 8,
+    "category": "Hằng đẳng thức đáng nhớ và ứng dụng",
+    "title": "Hiệu hai bình phương. Bình phương của một tổng hay một hiệu",
+    "description": "Bài 6 – Hằng đẳng thức; hiệu hai bình phương; bình phương của một tổng, một hiệu; tính nhanh.",
+    "level": "Beginner",
+    "estimatedMinutes": 60,
+    "prerequisites": [
+      "g8-polynomials-04"
+    ],
+    "path": "lessons/grade8/identities/squares-identities.html",
+    "tags": [
+      "hằng đẳng thức",
+      "hiệu hai bình phương",
+      "bình phương của một tổng"
+    ],
+    "no": 6
+  },
+  {
+    "id": "g8-identities-02",
+    "grade": 8,
+    "category": "Hằng đẳng thức đáng nhớ và ứng dụng",
+    "title": "Lập phương của một tổng. Lập phương của một hiệu",
+    "description": "Bài 7 – Lập phương của một tổng, lập phương của một hiệu; khai triển, viết thành lập phương, tính nhanh.",
+    "level": "Intermediate",
+    "estimatedMinutes": 45,
+    "prerequisites": [
+      "g8-identities-01"
+    ],
+    "path": "lessons/grade8/identities/cube-of-sum-difference.html",
+    "tags": [
+      "lập phương của một tổng",
+      "lập phương của một hiệu",
+      "hằng đẳng thức"
+    ],
+    "no": 7
+  },
+  {
+    "id": "g8-identities-03",
+    "grade": 8,
+    "category": "Hằng đẳng thức đáng nhớ và ứng dụng",
+    "title": "Tổng và hiệu hai lập phương",
+    "description": "Bài 8 – Tổng hai lập phương, hiệu hai lập phương; bảng bảy hằng đẳng thức đáng nhớ.",
+    "level": "Intermediate",
+    "estimatedMinutes": 45,
+    "prerequisites": [
+      "g8-identities-02"
+    ],
+    "path": "lessons/grade8/identities/sum-difference-of-cubes.html",
+    "tags": [
+      "tổng hai lập phương",
+      "hiệu hai lập phương",
+      "bảy hằng đẳng thức"
+    ],
+    "no": 8
+  },
+  {
+    "id": "g8-identities-04",
+    "grade": 8,
+    "category": "Hằng đẳng thức đáng nhớ và ứng dụng",
+    "title": "Phân tích đa thức thành nhân tử",
+    "description": "Bài 9 – Phân tích đa thức thành nhân tử: đặt nhân tử chung, dùng hằng đẳng thức, nhóm hạng tử; tìm x.",
+    "level": "Intermediate",
+    "estimatedMinutes": 60,
+    "prerequisites": [
+      "g8-identities-03"
+    ],
+    "path": "lessons/grade8/identities/factoring-polynomials.html",
+    "tags": [
+      "phân tích đa thức thành nhân tử",
+      "nhân tử chung",
+      "nhóm hạng tử"
+    ],
+    "no": 9
+  },
+  {
+    "id": "g8-quadrilaterals-01",
+    "grade": 8,
+    "category": "Tứ giác",
+    "title": "Tứ giác",
+    "description": "Bài 10 – Tứ giác, tứ giác lồi; đỉnh, cạnh, đường chéo, góc; định lí tổng các góc của tứ giác.",
+    "level": "Beginner",
+    "estimatedMinutes": 45,
+    "prerequisites": [],
+    "path": "lessons/grade8/quadrilaterals/quadrilaterals.html",
+    "tags": [
+      "tứ giác",
+      "tứ giác lồi",
+      "tổng các góc của tứ giác"
+    ],
+    "no": 10
+  },
+  {
+    "id": "g8-quadrilaterals-02",
+    "grade": 8,
+    "category": "Tứ giác",
+    "title": "Hình thang cân",
+    "description": "Bài 11 – Hình thang, hình thang cân: định nghĩa, tính chất (cạnh bên, đường chéo, góc kề một đáy), dấu hiệu nhận biết.",
+    "level": "Beginner",
+    "estimatedMinutes": 45,
+    "prerequisites": [
+      "g8-quadrilaterals-01"
+    ],
+    "path": "lessons/grade8/quadrilaterals/isosceles-trapezoids.html",
+    "tags": [
+      "hình thang",
+      "hình thang cân",
+      "đường cao"
+    ],
+    "no": 11
+  },
+  {
+    "id": "g8-quadrilaterals-03",
+    "grade": 8,
+    "category": "Tứ giác",
+    "title": "Hình bình hành",
+    "description": "Bài 12 – Hình bình hành: định nghĩa, tính chất (cạnh, góc, đường chéo), dấu hiệu nhận biết.",
+    "level": "Intermediate",
+    "estimatedMinutes": 60,
+    "prerequisites": [
+      "g8-quadrilaterals-02"
+    ],
+    "path": "lessons/grade8/quadrilaterals/parallelograms.html",
+    "tags": [
+      "hình bình hành",
+      "dấu hiệu nhận biết",
+      "đường chéo"
+    ],
+    "no": 12
+  },
+  {
+    "id": "g8-quadrilaterals-04",
+    "grade": 8,
+    "category": "Tứ giác",
+    "title": "Hình chữ nhật",
+    "description": "Bài 13 – Hình chữ nhật: định nghĩa, tính chất, dấu hiệu nhận biết; đường trung tuyến ứng với cạnh huyền.",
+    "level": "Intermediate",
+    "estimatedMinutes": 45,
+    "prerequisites": [
+      "g8-quadrilaterals-03"
+    ],
+    "path": "lessons/grade8/quadrilaterals/rectangles.html",
+    "tags": [
+      "hình chữ nhật",
+      "dấu hiệu nhận biết",
+      "trung tuyến"
+    ],
+    "no": 13
+  },
+  {
+    "id": "g8-quadrilaterals-05",
+    "grade": 8,
+    "category": "Tứ giác",
+    "title": "Hình thoi và hình vuông",
+    "description": "Bài 14 – Hình thoi, hình vuông: định nghĩa, tính chất, dấu hiệu nhận biết.",
+    "level": "Intermediate",
+    "estimatedMinutes": 60,
+    "prerequisites": [
+      "g8-quadrilaterals-04"
+    ],
+    "path": "lessons/grade8/quadrilaterals/rhombi-squares.html",
+    "tags": [
+      "hình thoi",
+      "hình vuông",
+      "dấu hiệu nhận biết"
+    ],
+    "no": 14
+  },
+  {
     "id": "g9-systems-01",
     "grade": 9,
     "category": "Phương trình và hệ hai phương trình bậc nhất hai ẩn",

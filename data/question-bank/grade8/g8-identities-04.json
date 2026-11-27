@@ -1,0 +1,1260 @@
+{
+ "lesson": "g8-identities-04",
+ "grade": 8,
+ "no": 9,
+ "title": "Phân tích đa thức thành nhân tử",
+ "path": "lessons/grade8/identities/factoring-polynomials.html",
+ "items": [
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Factor \\(#x^#-#\\) using an identity.",
+   "en": "Factor \\(25x^2-36\\) using an identity.",
+   "vi": "Phân tích đa thức \\(25x^2-36\\) thành nhân tử bằng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"identity\">hằng đẳng thức</b>.",
+   "options": [
+    "\\((5x-6)^2\\)",
+    "\\((5x+6)^2\\)",
+    "\\((5x-6)(5x+6)\\)",
+    "\\((5x-6)(-5x-6)\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(25x^2-36=(5x-6)(5x+6)\\).",
+   "explain_vi": "Đáp án c. \\(25x^2-36=(5x-6)(5x+6)\\).",
+   "images": [],
+   "id": "748a49e8ed37",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Factor \\(#x^#-#xy+x-#y\\) by grouping terms.",
+   "en": "Factor \\(2x^2-10xy+x-5y\\) by grouping terms.",
+   "vi": "Phân tích đa thức \\(2x^2-10xy+x-5y\\) thành nhân tử bằng cách <b class=\"mbl-term\" tabindex=\"0\" data-en=\"group terms\">nhóm hạng tử</b>.",
+   "options": [
+    "\\((x+5y)(2x+1)\\)",
+    "\\((x-5y)(2x-1)\\)",
+    "\\((x-5)(2x+y)\\)",
+    "\\((x-5y)(2x+1)\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Group the first two and the last two terms: \\((x-5y)(2x+1)\\).",
+   "explain_vi": "Đáp án d. Nhóm hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b> đầu và hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b> cuối: \\((x-5y)(2x+1)\\).",
+   "images": [],
+   "id": "50a2bef74825",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Factor \\(-#x^#y^#+#xy\\) by taking out the common factor.",
+   "en": "Factor \\(-25x^2y^3+10xy\\) by taking out the common factor.",
+   "vi": "Phân tích đa thức \\(-25x^2y^3+10xy\\) thành nhân tử bằng cách đặt <b class=\"mbl-term\" tabindex=\"0\" data-en=\"common factor\">nhân tử chung</b>.",
+   "options": [
+    "\\(5xy(-5xy^2+2)\\)",
+    "\\(5xy(-5xy^2-2)\\)",
+    "\\(5xy(-5xy^2+3)\\)",
+    "\\(5xy(5xy^2+2)\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. The greatest common factor is \\(5xy\\): \\(5xy(-5xy^2+2)\\).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"common factor\">Nhân tử chung</b> là \\(5xy\\): \\(5xy(-5xy^2+2)\\).",
+   "images": [],
+   "id": "527703e0fac2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(x^#+#x-#x-#=(x+#)(x-#)\\).",
+   "en": "\\(x^2+1x-8x-8=(x+1)(x-8)\\).",
+   "vi": "\\(x^2+1x-8x-8=(x+1)(x-8)\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. \\(x(x+1)-8(x+1)=(x+1)(x-8)\\).",
+   "explain_vi": "Đúng. \\(x(x+1)-8(x+1)=(x+1)(x-8)\\).",
+   "images": [],
+   "id": "60372e3f8f67",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(x^#-#=(x-#)(x+#)\\).",
+   "en": "\\(x^2-64=(x-8)(x+8)\\).",
+   "vi": "\\(x^2-64=(x-8)(x+8)\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. \\(x^2-64=(x-8)(x+8)\\).",
+   "explain_vi": "Đúng. \\(x^2-64=(x-8)(x+8)\\).",
+   "images": [],
+   "id": "d275e6b47b5f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "Calculate quickly: \\(#\\cdot #+#\\cdot #\\).",
+   "en": "Calculate quickly: \\(54\\cdot 36+54\\cdot 64\\).",
+   "vi": "Tính nhanh: \\(54\\cdot 36+54\\cdot 64\\).",
+   "options": [],
+   "answer": "5400",
+   "explain_en": "Answer: 5400. \\(=54(36+64)=54\\cdot100=5400\\).",
+   "explain_vi": "Đáp số: 5400. \\(=54(36+64)=54\\cdot100=5400\\).",
+   "images": [],
+   "id": "f080829489ef",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "Find the nonzero value of \\(x\\) such that \\(#x^#+#x=#\\).",
+   "en": "Find the nonzero value of \\(x\\) such that \\(6x^2+42x=0\\).",
+   "vi": "Tìm giá trị \\(x\\) khác 0 thỏa mãn \\(6x^2+42x=0\\).",
+   "options": [],
+   "answer": "-7",
+   "explain_en": "Answer: -7. \\(6x(x+7)=0\\Rightarrow x=0\\) or \\(x=-7\\).",
+   "explain_vi": "Đáp số: -7. \\(6x(x+7)=0\\Rightarrow x=0\\) hoặc \\(x=-7\\).",
+   "images": [],
+   "id": "f3ededc1ad31",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Factoring a polynomial means…",
+   "en": "Factoring a polynomial means…",
+   "vi": "Phân tích đa thức thành nhân tử là",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">finding its degree</span><span class=\"vi\">tìm bậc của đa thức</span></span>",
+    "<span class=\"txi\"><span class=\"en\">finding its value</span><span class=\"vi\">tính giá trị của đa thức</span></span>",
+    "<span class=\"txi\"><span class=\"en\">writing it as a sum of monomials</span><span class=\"vi\">biến đổi đa thức thành tổng các đơn thức</span></span>",
+    "<span class=\"txi\"><span class=\"en\">writing it as a product of polynomials</span><span class=\"vi\">biến đổi đa thức đó thành một tích của những đa thức</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Example: \\(x^2-x=x(x-1)\\).",
+   "explain_vi": "Đáp án d. Ví dụ: \\(x^2-x=x(x-1)\\).",
+   "images": [],
+   "id": "0065fc548162",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D1",
+   "type": "mcq",
+   "form": "What is the greatest common factor of the terms of \\(#x^#y^#-#xy^#\\)?",
+   "en": "What is the greatest common factor of the terms of \\(15x^3y^3-12xy^2\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"common factor\">Nhân tử chung</b> của các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b> trong đa thức \\(15x^3y^3-12xy^2\\) là",
+   "options": [
+    "\\(xy^2\\)",
+    "\\(3xy^2\\)",
+    "\\(60xy^2\\)",
+    "\\(3x^3y^3\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. GCF of the coefficients: 3; lowest powers: \\(xy^2\\).",
+   "explain_vi": "Đáp án b. ƯCLN của các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b> là 3; mỗi biến lấy <b class=\"mbl-term\" tabindex=\"0\" data-en=\"exponent\">số mũ</b> nhỏ nhất: \\(xy^2\\).",
+   "images": [],
+   "id": "d0dd37132e18",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Which method is the most suitable to factor \\(#xy^#+#xy\\)?",
+   "en": "Which method is the most suitable to factor \\(3xy^3+9xy\\)?",
+   "vi": "Phương pháp thích hợp nhất để phân tích đa thức \\(3xy^3+9xy\\) thành nhân tử là",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">taking out a common factor</span><span class=\"vi\">đặt nhân tử chung</span></span>",
+    "<span class=\"txi\"><span class=\"en\">grouping terms</span><span class=\"vi\">nhóm hạng tử</span></span>",
+    "<span class=\"txi\"><span class=\"en\">none: it cannot be factored</span><span class=\"vi\">không phân tích được</span></span>",
+    "<span class=\"txi\"><span class=\"en\">using an identity</span><span class=\"vi\">dùng hằng đẳng thức</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. The greatest common factor is \\(3xy\\): \\(3xy(y^2+3)\\).",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"common factor\">Nhân tử chung</b> là \\(3xy\\): \\(3xy(y^2+3)\\).",
+   "images": [],
+   "id": "e2b53f3a9884",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Factor \\(#x(x-#)-#(x-#)\\).",
+   "en": "Factor \\(2x(x-5)-4(x-5)\\).",
+   "vi": "Phân tích đa thức \\(2x(x-5)-4(x-5)\\) thành nhân tử.",
+   "options": [
+    "\\(-2x(x-5)\\)",
+    "\\((x-5)^2(2x-4)\\)",
+    "\\((x-5)(2x+4)\\)",
+    "\\((x-5)(2x-4)\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. The common factor is \\(x-5\\).",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"common factor\">Nhân tử chung</b> là \\(x-5\\).",
+   "images": [],
+   "id": "3cfae81cef73",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Factor \\(#x^#-#\\).",
+   "en": "Factor \\(27x^3-1\\).",
+   "vi": "Phân tích đa thức \\(27x^3-1\\) thành nhân tử.",
+   "options": [
+    "\\((3x-1)(9x^2-3x+1)\\)",
+    "\\((3x-1)(9x^2+1)\\)",
+    "\\((3x-1)(9x^2+3x+1)\\)",
+    "\\((3x+1)(9x^2+3x+1)\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(A^3-B^3=(A-B)(A^2+AB+B^2)\\) with \\(A=3x,\\ B=1\\).",
+   "explain_vi": "Đáp án c. \\(A^3-B^3=(A-B)(A^2+AB+B^2)\\) với \\(A=3x,\\ B=1\\).",
+   "images": [],
+   "id": "66a6290befd9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Factor \\(x^#-#xy+y^#\\).",
+   "en": "Factor \\(x^2-2xy+y^2\\).",
+   "vi": "Phân tích đa thức \\(x^2-2xy+y^2\\) thành nhân tử.",
+   "options": [
+    "\\((x-2y)^2\\)",
+    "\\((x-y)(x+y)\\)",
+    "\\((x+y)^2\\)",
+    "\\((x-y)^2\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(x^2-2xy+y^2=(x-y)^2\\).",
+   "explain_vi": "Đáp án d. \\(x^2-2xy+y^2=(x-y)^2\\).",
+   "images": [],
+   "id": "9509c2bf0fbf",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Factor \\(x^#-#x^#y+#xy^#\\).",
+   "en": "Factor \\(x^3-6x^2y+9xy^2\\).",
+   "vi": "Phân tích đa thức \\(x^3-6x^2y+9xy^2\\) thành nhân tử.",
+   "options": [
+    "\\(x(x-3y)^2\\)",
+    "\\((x-3y)^2\\)",
+    "\\(x(x-3y)(x+3y)\\)",
+    "\\(x(x+3y)^2\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Take out \\(x\\), then use the square identity: \\(x(x-3y)^2\\).",
+   "explain_vi": "Đáp án a. Đặt <b class=\"mbl-term\" tabindex=\"0\" data-en=\"common factor\">nhân tử chung</b> \\(x\\) rồi dùng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"identity\">hằng đẳng thức</b>: \\(x(x-3y)^2\\).",
+   "images": [],
+   "id": "f5675561c3d2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Factor \\(x^#-#xy+y^#-#\\).",
+   "en": "Factor \\(x^2-2xy+y^2-4\\).",
+   "vi": "Phân tích đa thức \\(x^2-2xy+y^2-4\\) thành nhân tử.",
+   "options": [
+    "\\((x-y-2)(x-y+2)\\)",
+    "\\((x-y-2)(x+y+2)\\)",
+    "\\((x+y-2)(x+y+2)\\)",
+    "\\((x-y-2)^2\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\((x-y)^2-2^2=(x-y-2)(x-y+2)\\).",
+   "explain_vi": "Đáp án a. \\((x-y)^2-2^2=(x-y-2)(x-y+2)\\).",
+   "images": [],
+   "id": "74ddd1b2bdf8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Find all \\(x\\) such that \\(x^#-#x=#\\).",
+   "en": "Find all \\(x\\) such that \\(x^3-16x=0\\).",
+   "vi": "Tìm tất cả các giá trị của \\(x\\), biết \\(x^3-16x=0\\).",
+   "options": [
+    "\\(x\\in\\{0;\\ 4;\\ -4\\}\\)",
+    "\\(x\\in\\{4;\\ -4\\}\\)",
+    "\\(x\\in\\{0;\\ 4\\}\\)",
+    "\\(x\\in\\{0;\\ 16;\\ -16\\}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(x(x-4)(x+4)=0\\).",
+   "explain_vi": "Đáp án a. \\(x(x-4)(x+4)=0\\).",
+   "images": [],
+   "id": "08f28d24bfe0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A rectangular plot has area \\(x^#+#x+#\\) (m²). Hint: \\(x^#+#x+#=x^#+#x+#x+#\\). Its sides are \\((x+#)\\) m and \\((x+#)\\) m. What is its area when \\(x=#\\)?",
+   "en": "A rectangular plot has area \\(x^2+11x+28\\) (m²). Hint: \\(x^2+11x+28=x^2+4x+7x+28\\). Its sides are \\((x+4)\\) m and \\((x+7)\\) m. What is its area when \\(x=12\\)?",
+   "vi": "Một mảnh đất hình chữ nhật có diện tích \\(x^2+11x+28\\) (m²). Gợi ý: \\(x^2+11x+28=x^2+4x+7x+28\\). Các cạnh của mảnh đất là \\((x+4)\\) m và \\((x+7)\\) m. Tính diện tích khi \\(x=12\\).",
+   "options": [
+    "\\(276\\)",
+    "\\(308\\)",
+    "\\(172\\)",
+    "\\(304\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\((x+4)(x+7)=16\\cdot19=304\\) m².",
+   "explain_vi": "Đáp án d. \\((x+4)(x+7)=16\\cdot19=304\\) m².",
+   "images": [],
+   "id": "d12fb041d325",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D4",
+   "type": "mcq",
+   "form": "Calculate quickly: \\(#^#-#^#\\).",
+   "en": "Calculate quickly: \\(64^2-6^2\\).",
+   "vi": "Tính nhanh: \\(64^2-6^2\\).",
+   "options": [
+    "\\(3364\\)",
+    "\\(4060\\)",
+    "\\(4160\\)",
+    "\\(4132\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(=(64-6)(64+6)=58\\cdot70=4060\\).",
+   "explain_vi": "Đáp án b. \\(=(64-6)(64+6)=58\\cdot70=4060\\).",
+   "images": [],
+   "id": "d80752b02031",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D4",
+   "type": "mcq",
+   "form": "For every integer \\(n\\), the number \\(n^#+#n\\) is always divisible by…",
+   "en": "For every integer \\(n\\), the number \\(n^3+11n\\) is always divisible by…",
+   "vi": "Với mọi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"integers\">số nguyên</b> \\(n\\), số \\(n^3+11n\\) luôn chia hết cho",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">6</span><span class=\"vi\">6</span></span>",
+    "<span class=\"txi\"><span class=\"en\">5</span><span class=\"vi\">5</span></span>",
+    "<span class=\"txi\"><span class=\"en\">9</span><span class=\"vi\">9</span></span>",
+    "<span class=\"txi\"><span class=\"en\">12</span><span class=\"vi\">12</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(n^3-n+12n=(n-1)n(n+1)+12n\\); the product of three consecutive integers is divisible by 2 and by 3, so by 6.",
+   "explain_vi": "Đáp án a. \\(n^3-n+12n=(n-1)n(n+1)+12n\\); tích ba <b class=\"mbl-term\" tabindex=\"0\" data-en=\"integers\">số nguyên</b> liên tiếp chia hết cho 2 và cho 3 nên chia hết cho 6.",
+   "images": [],
+   "id": "388a80eedf01",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Factor \\(#x^#+#xy+#x+#y\\) by grouping terms.",
+   "en": "Factor \\(4x^2+16xy+6x+24y\\) by grouping terms.",
+   "vi": "Phân tích đa thức \\(4x^2+16xy+6x+24y\\) thành nhân tử bằng cách <b class=\"mbl-term\" tabindex=\"0\" data-en=\"group terms\">nhóm hạng tử</b>.",
+   "options": [
+    "\\((x-4y)(4x+6)\\)",
+    "\\((x+4)(4x+6y)\\)",
+    "\\((x+4y)(4x-6)\\)",
+    "\\((x+4y)(4x+6)\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Group the first two and the last two terms: \\((x+4y)(4x+6)\\).",
+   "explain_vi": "Đáp án d. Nhóm hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b> đầu và hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b> cuối: \\((x+4y)(4x+6)\\).",
+   "images": [],
+   "id": "c234c5e251aa",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Factor \\(#x^#-#\\) using an identity.",
+   "en": "Factor \\(25x^2-81\\) using an identity.",
+   "vi": "Phân tích đa thức \\(25x^2-81\\) thành nhân tử bằng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"identity\">hằng đẳng thức</b>.",
+   "options": [
+    "\\((5x-9)^2\\)",
+    "\\((5x-9)(5x+9)\\)",
+    "\\((5x-9)(-5x-9)\\)",
+    "\\((5x+9)^2\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(25x^2-81=(5x-9)(5x+9)\\).",
+   "explain_vi": "Đáp án b. \\(25x^2-81=(5x-9)(5x+9)\\).",
+   "images": [],
+   "id": "c0334641135d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Factor \\(#x^#y^#+#x^#y\\) by taking out the common factor.",
+   "en": "Factor \\(6x^2y^3+3x^3y\\) by taking out the common factor.",
+   "vi": "Phân tích đa thức \\(6x^2y^3+3x^3y\\) thành nhân tử bằng cách đặt <b class=\"mbl-term\" tabindex=\"0\" data-en=\"common factor\">nhân tử chung</b>.",
+   "options": [
+    "\\(3x^2y(2y^2+x+1)\\)",
+    "\\(3x^2y(2y^2-x)\\)",
+    "\\(3x^2y(2y^2+x)\\)",
+    "\\(3x^2y(-2y^2+x)\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The greatest common factor is \\(3x^2y\\): \\(3x^2y(2y^2+x)\\).",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"common factor\">Nhân tử chung</b> là \\(3x^2y\\): \\(3x^2y(2y^2+x)\\).",
+   "images": [],
+   "id": "5362d597ba8d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(x^#+#x-x-#=(x-#)(x+#)\\).",
+   "en": "\\(x^2+9x-x-9=(x-9)(x+1)\\).",
+   "vi": "\\(x^2+9x-x-9=(x-9)(x+1)\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. \\(x(x+9)-1(x+9)=(x+9)(x-1)\\).",
+   "explain_vi": "Sai. \\(x(x+9)-1(x+9)=(x+9)(x-1)\\).",
+   "images": [],
+   "id": "f11bf7c16d5e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(x^#-#=(x-#)^#\\).",
+   "en": "\\(x^2-4=(x-2)^2\\).",
+   "vi": "\\(x^2-4=(x-2)^2\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. \\(x^2-4=(x-2)(x+2)\\).",
+   "explain_vi": "Sai. \\(x^2-4=(x-2)(x+2)\\).",
+   "images": [],
+   "id": "0130590c9769",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "Calculate quickly: \\(#\\cdot #+#\\cdot #\\).",
+   "en": "Calculate quickly: \\(12\\cdot 21+12\\cdot 79\\).",
+   "vi": "Tính nhanh: \\(12\\cdot 21+12\\cdot 79\\).",
+   "options": [],
+   "answer": "1200",
+   "explain_en": "Answer: 1200. \\(=12(21+79)=12\\cdot100=1200\\).",
+   "explain_vi": "Đáp số: 1200. \\(=12(21+79)=12\\cdot100=1200\\).",
+   "images": [],
+   "id": "0cff9f3a6ad8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "Find the nonzero value of \\(x\\) such that \\(#x^#+#x=#\\).",
+   "en": "Find the nonzero value of \\(x\\) such that \\(2x^2+4x=0\\).",
+   "vi": "Tìm giá trị \\(x\\) khác 0 thỏa mãn \\(2x^2+4x=0\\).",
+   "options": [],
+   "answer": "-2",
+   "explain_en": "Answer: -2. \\(2x(x+2)=0\\Rightarrow x=0\\) or \\(x=-2\\).",
+   "explain_vi": "Đáp số: -2. \\(2x(x+2)=0\\Rightarrow x=0\\) hoặc \\(x=-2\\).",
+   "images": [],
+   "id": "07435fd74fe4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D1",
+   "type": "mcq",
+   "form": "What is the greatest common factor of the terms of \\(#x^#y^#-#x^#y\\)?",
+   "en": "What is the greatest common factor of the terms of \\(2x^3y^2-4x^2y\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"common factor\">Nhân tử chung</b> của các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b> trong đa thức \\(2x^3y^2-4x^2y\\) là",
+   "options": [
+    "\\(x^2y\\)",
+    "\\(2x^3y^2\\)",
+    "\\(4x^2y\\)",
+    "\\(2x^2y\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. GCF of the coefficients: 2; lowest powers: \\(x^2y\\).",
+   "explain_vi": "Đáp án d. ƯCLN của các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b> là 2; mỗi biến lấy <b class=\"mbl-term\" tabindex=\"0\" data-en=\"exponent\">số mũ</b> nhỏ nhất: \\(x^2y\\).",
+   "images": [],
+   "id": "821199ea0a6d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Which method is the most suitable to factor \\(-#x^#y-#xy\\)?",
+   "en": "Which method is the most suitable to factor \\(-9x^3y-15xy\\)?",
+   "vi": "Phương pháp thích hợp nhất để phân tích đa thức \\(-9x^3y-15xy\\) thành nhân tử là",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">none: it cannot be factored</span><span class=\"vi\">không phân tích được</span></span>",
+    "<span class=\"txi\"><span class=\"en\">using an identity</span><span class=\"vi\">dùng hằng đẳng thức</span></span>",
+    "<span class=\"txi\"><span class=\"en\">grouping terms</span><span class=\"vi\">nhóm hạng tử</span></span>",
+    "<span class=\"txi\"><span class=\"en\">taking out a common factor</span><span class=\"vi\">đặt nhân tử chung</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. The greatest common factor is \\(3xy\\): \\(3xy(-3x^2-5)\\).",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"common factor\">Nhân tử chung</b> là \\(3xy\\): \\(3xy(-3x^2-5)\\).",
+   "images": [],
+   "id": "bb0d6f2207f2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Which statement describes factoring a polynomial?",
+   "en": "Which statement describes factoring a polynomial?",
+   "vi": "Phát biểu nào mô tả đúng việc phân tích đa thức thành nhân tử?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">writing it as a product of polynomials</span><span class=\"vi\">biến đổi đa thức đó thành một tích của những đa thức</span></span>",
+    "<span class=\"txi\"><span class=\"en\">finding its degree</span><span class=\"vi\">tìm bậc của đa thức</span></span>",
+    "<span class=\"txi\"><span class=\"en\">finding its value</span><span class=\"vi\">tính giá trị của đa thức</span></span>",
+    "<span class=\"txi\"><span class=\"en\">writing it as a sum of monomials</span><span class=\"vi\">biến đổi đa thức thành tổng các đơn thức</span></span>"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Example: \\(x^2-x=x(x-1)\\).",
+   "explain_vi": "Đáp án a. Ví dụ: \\(x^2-x=x(x-1)\\).",
+   "images": [],
+   "id": "9ff8a65e9e1f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Factor \\(#x(x-#)+#(#-x)\\).",
+   "en": "Factor \\(5x(x-4)+4(4-x)\\).",
+   "vi": "Phân tích đa thức \\(5x(x-4)+4(4-x)\\) thành nhân tử.",
+   "options": [
+    "\\((x-4)(9x-1)\\)",
+    "\\((x+4)(5x-4)\\)",
+    "\\((x-4)(5x-4)\\)",
+    "\\((x-4)(5x+4)\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. Note \\(4(4-x)=-4(x-4)\\); the common factor is \\(x-4\\).",
+   "explain_vi": "Đáp án c. Chú ý \\(4(4-x)=-4(x-4)\\); <b class=\"mbl-term\" tabindex=\"0\" data-en=\"common factor\">nhân tử chung</b> là \\(x-4\\).",
+   "images": [],
+   "id": "c0db92248669",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Factor \\(#x^#+#\\).",
+   "en": "Factor \\(8x^3+27\\).",
+   "vi": "Phân tích đa thức \\(8x^3+27\\) thành nhân tử.",
+   "options": [
+    "\\((2x+3)(4x^2+6x+9)\\)",
+    "\\((2x-3)(4x^2-6x+9)\\)",
+    "\\((2x+3)(4x^2-6x+9)\\)",
+    "\\((2x+3)(4x^2+9)\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(A^3+B^3=(A+B)(A^2-AB+B^2)\\) with \\(A=2x,\\ B=3\\).",
+   "explain_vi": "Đáp án c. \\(A^3+B^3=(A+B)(A^2-AB+B^2)\\) với \\(A=2x,\\ B=3\\).",
+   "images": [],
+   "id": "772e3e7f1e97",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Factor \\(x^#+#xy+#y^#\\).",
+   "en": "Factor \\(x^2+4xy+4y^2\\).",
+   "vi": "Phân tích đa thức \\(x^2+4xy+4y^2\\) thành nhân tử.",
+   "options": [
+    "\\((x-2y)(x+2y)\\)",
+    "\\((x+4y)^2\\)",
+    "\\((x+2y)^2\\)",
+    "\\((x-2y)^2\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(x^2+4xy+4y^2=(x+2y)^2\\).",
+   "explain_vi": "Đáp án c. \\(x^2+4xy+4y^2=(x+2y)^2\\).",
+   "images": [],
+   "id": "7262b060e7bd",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Factor \\(x^#+#x^#y+#xy^#\\).",
+   "en": "Factor \\(x^3+8x^2y+16xy^2\\).",
+   "vi": "Phân tích đa thức \\(x^3+8x^2y+16xy^2\\) thành nhân tử.",
+   "options": [
+    "\\(x(x-4y)(x+4y)\\)",
+    "\\((x+4y)^2\\)",
+    "\\(x(x-4y)^2\\)",
+    "\\(x(x+4y)^2\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. Take out \\(x\\), then use the square identity: \\(x(x+4y)^2\\).",
+   "explain_vi": "Đáp án d. Đặt <b class=\"mbl-term\" tabindex=\"0\" data-en=\"common factor\">nhân tử chung</b> \\(x\\) rồi dùng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"identity\">hằng đẳng thức</b>: \\(x(x+4y)^2\\).",
+   "images": [],
+   "id": "177eb7795cbe",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Factor \\(x^#-#xy+y^#-#\\).",
+   "en": "Factor \\(x^2-2xy+y^2-9\\).",
+   "vi": "Phân tích đa thức \\(x^2-2xy+y^2-9\\) thành nhân tử.",
+   "options": [
+    "\\((x+y-3)(x+y+3)\\)",
+    "\\((x-y-3)^2\\)",
+    "\\((x-y-3)(x+y+3)\\)",
+    "\\((x-y-3)(x-y+3)\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\((x-y)^2-3^2=(x-y-3)(x-y+3)\\).",
+   "explain_vi": "Đáp án d. \\((x-y)^2-3^2=(x-y-3)(x-y+3)\\).",
+   "images": [],
+   "id": "5ba8821f2816",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Find all \\(x\\) such that \\(#x^#-#x=#\\).",
+   "en": "Find all \\(x\\) such that \\(2x^3-18x=0\\).",
+   "vi": "Tìm tất cả các giá trị của \\(x\\), biết \\(2x^3-18x=0\\).",
+   "options": [
+    "\\(x\\in\\{0;\\ 3\\}\\)",
+    "\\(x\\in\\{0;\\ 9;\\ -9\\}\\)",
+    "\\(x\\in\\{0;\\ 3;\\ -3\\}\\)",
+    "\\(x\\in\\{3;\\ -3\\}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(2x(x-3)(x+3)=0\\).",
+   "explain_vi": "Đáp án c. \\(2x(x-3)(x+3)=0\\).",
+   "images": [],
+   "id": "c43865fca490",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A rectangular plot has area \\(x^#+#x+#\\) (m²). Hint: \\(x^#+#x+#=x^#+#x+#x+#\\). Its sides are \\((x+#)\\) m and \\((x+#)\\) m. What is its area when \\(x=#\\)?",
+   "en": "A rectangular plot has area \\(x^2+11x+30\\) (m²). Hint: \\(x^2+11x+30=x^2+5x+6x+30\\). Its sides are \\((x+5)\\) m and \\((x+6)\\) m. What is its area when \\(x=10\\)?",
+   "vi": "Một mảnh đất hình chữ nhật có diện tích \\(x^2+11x+30\\) (m²). Gợi ý: \\(x^2+11x+30=x^2+5x+6x+30\\). Các cạnh của mảnh đất là \\((x+5)\\) m và \\((x+6)\\) m. Tính diện tích khi \\(x=10\\).",
+   "options": [
+    "\\(240\\)",
+    "\\(245\\)",
+    "\\(130\\)",
+    "\\(210\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\((x+5)(x+6)=15\\cdot16=240\\) m².",
+   "explain_vi": "Đáp án a. \\((x+5)(x+6)=15\\cdot16=240\\) m².",
+   "images": [],
+   "id": "bacdeecc7129",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D4",
+   "type": "mcq",
+   "form": "Calculate quickly: \\(#^#-#^#\\).",
+   "en": "Calculate quickly: \\(67^2-13^2\\).",
+   "vi": "Tính nhanh: \\(67^2-13^2\\).",
+   "options": [
+    "\\(4420\\)",
+    "\\(4320\\)",
+    "\\(2916\\)",
+    "\\(4658\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(=(67-13)(67+13)=54\\cdot80=4320\\).",
+   "explain_vi": "Đáp án b. \\(=(67-13)(67+13)=54\\cdot80=4320\\).",
+   "images": [],
+   "id": "d3c8d89ed23d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D4",
+   "type": "mcq",
+   "form": "For every integer \\(n\\), the number \\(n^#-n\\) is always divisible by…",
+   "en": "For every integer \\(n\\), the number \\(n^3-n\\) is always divisible by…",
+   "vi": "Với mọi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"integers\">số nguyên</b> \\(n\\), số \\(n^3-n\\) luôn chia hết cho",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">5</span><span class=\"vi\">5</span></span>",
+    "<span class=\"txi\"><span class=\"en\">6</span><span class=\"vi\">6</span></span>",
+    "<span class=\"txi\"><span class=\"en\">9</span><span class=\"vi\">9</span></span>",
+    "<span class=\"txi\"><span class=\"en\">12</span><span class=\"vi\">12</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\((n-1)n(n+1)\\); the product of three consecutive integers is divisible by 2 and by 3, so by 6.",
+   "explain_vi": "Đáp án b. \\((n-1)n(n+1)\\); tích ba <b class=\"mbl-term\" tabindex=\"0\" data-en=\"integers\">số nguyên</b> liên tiếp chia hết cho 2 và cho 3 nên chia hết cho 6.",
+   "images": [],
+   "id": "7e6de7f37f2a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Factor \\(#x^#-#xy+#x-#y\\) by grouping terms.",
+   "en": "Factor \\(4x^2-16xy+2x-8y\\) by grouping terms.",
+   "vi": "Phân tích đa thức \\(4x^2-16xy+2x-8y\\) thành nhân tử bằng cách <b class=\"mbl-term\" tabindex=\"0\" data-en=\"group terms\">nhóm hạng tử</b>.",
+   "options": [
+    "\\((x-4)(4x+2y)\\)",
+    "\\((x-4y)(4x+2)\\)",
+    "\\((x+4y)(4x+2)\\)",
+    "\\((x-4y)(4x-2)\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Group the first two and the last two terms: \\((x-4y)(4x+2)\\).",
+   "explain_vi": "Đáp án b. Nhóm hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b> đầu và hai <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b> cuối: \\((x-4y)(4x+2)\\).",
+   "images": [],
+   "id": "f284c6e2ecc1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Factor \\(#x^#y^#+#x^#y\\) by taking out the common factor.",
+   "en": "Factor \\(30x^3y^2+12x^2y\\) by taking out the common factor.",
+   "vi": "Phân tích đa thức \\(30x^3y^2+12x^2y\\) thành nhân tử bằng cách đặt <b class=\"mbl-term\" tabindex=\"0\" data-en=\"common factor\">nhân tử chung</b>.",
+   "options": [
+    "\\(6x^2y(-5xy+2)\\)",
+    "\\(6x^2y(5xy+3)\\)",
+    "\\(6x^2y(5xy-2)\\)",
+    "\\(6x^2y(5xy+2)\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. The greatest common factor is \\(6x^2y\\): \\(6x^2y(5xy+2)\\).",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"common factor\">Nhân tử chung</b> là \\(6x^2y\\): \\(6x^2y(5xy+2)\\).",
+   "images": [],
+   "id": "a9d27b276903",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Factor \\(x^#-#\\) using an identity.",
+   "en": "Factor \\(x^2-36\\) using an identity.",
+   "vi": "Phân tích đa thức \\(x^2-36\\) thành nhân tử bằng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"identity\">hằng đẳng thức</b>.",
+   "options": [
+    "\\((x-6)(x+6)\\)",
+    "\\((x+6)^2\\)",
+    "\\((x-6)^2\\)",
+    "\\((x-6)(-x-6)\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(x^2-36=(x-6)(x+6)\\).",
+   "explain_vi": "Đáp án a. \\(x^2-36=(x-6)(x+6)\\).",
+   "images": [],
+   "id": "61757390f0bb",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(x^#+#x-#x-#=(x+#)(x-#)\\).",
+   "en": "\\(x^2+8x-3x-24=(x+8)(x-3)\\).",
+   "vi": "\\(x^2+8x-3x-24=(x+8)(x-3)\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. \\(x(x+8)-3(x+8)=(x+8)(x-3)\\).",
+   "explain_vi": "Đúng. \\(x(x+8)-3(x+8)=(x+8)(x-3)\\).",
+   "images": [],
+   "id": "9e4ac707aad6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(x^#-#=(x-#)(x+#)\\).",
+   "en": "\\(x^2-25=(x-25)(x+1)\\).",
+   "vi": "\\(x^2-25=(x-25)(x+1)\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. \\(x^2-25=(x-5)(x+5)\\).",
+   "explain_vi": "Sai. \\(x^2-25=(x-5)(x+5)\\).",
+   "images": [],
+   "id": "2c3d49b017cf",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Calculate quickly: \\(#\\cdot #+#\\cdot #\\).",
+   "en": "Calculate quickly: \\(32\\cdot 25+32\\cdot 75\\).",
+   "vi": "Tính nhanh: \\(32\\cdot 25+32\\cdot 75\\).",
+   "options": [],
+   "answer": "3200",
+   "explain_en": "Answer: 3200. \\(=32(25+75)=32\\cdot100=3200\\).",
+   "explain_vi": "Đáp số: 3200. \\(=32(25+75)=32\\cdot100=3200\\).",
+   "images": [],
+   "id": "f4c345a89c11",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Find the nonzero value of \\(x\\) such that \\(#x^#+#x=#\\).",
+   "en": "Find the nonzero value of \\(x\\) such that \\(6x^2+6x=0\\).",
+   "vi": "Tìm giá trị \\(x\\) khác 0 thỏa mãn \\(6x^2+6x=0\\).",
+   "options": [],
+   "answer": "-1",
+   "explain_en": "Answer: -1. \\(6x(x+1)=0\\Rightarrow x=0\\) or \\(x=-1\\).",
+   "explain_vi": "Đáp số: -1. \\(6x(x+1)=0\\Rightarrow x=0\\) hoặc \\(x=-1\\).",
+   "images": [],
+   "id": "c8663815734b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D1",
+   "type": "mcq",
+   "form": "What does it mean to factor a polynomial?",
+   "en": "What does it mean to factor a polynomial?",
+   "vi": "Thế nào là phân tích một đa thức thành nhân tử?",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">finding its degree</span><span class=\"vi\">tìm bậc của đa thức</span></span>",
+    "<span class=\"txi\"><span class=\"en\">writing it as a product of polynomials</span><span class=\"vi\">biến đổi đa thức đó thành một tích của những đa thức</span></span>",
+    "<span class=\"txi\"><span class=\"en\">finding its value</span><span class=\"vi\">tính giá trị của đa thức</span></span>",
+    "<span class=\"txi\"><span class=\"en\">writing it as a sum of monomials</span><span class=\"vi\">biến đổi đa thức thành tổng các đơn thức</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. Example: \\(x^2-x=x(x-1)\\).",
+   "explain_vi": "Đáp án b. Ví dụ: \\(x^2-x=x(x-1)\\).",
+   "images": [],
+   "id": "2e8bc8e0f1ea",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D1",
+   "type": "mcq",
+   "form": "What is the greatest common factor of the terms of \\(-#x^#y^#+#x^#y\\)?",
+   "en": "What is the greatest common factor of the terms of \\(-6x^3y^2+4x^2y\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"common factor\">Nhân tử chung</b> của các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b> trong đa thức \\(-6x^3y^2+4x^2y\\) là",
+   "options": [
+    "\\(2x^2y\\)",
+    "\\(4x^2y\\)",
+    "\\(x^2y\\)",
+    "\\(12x^2y\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. GCF of the coefficients: 2; lowest powers: \\(x^2y\\).",
+   "explain_vi": "Đáp án a. ƯCLN của các <b class=\"mbl-term\" tabindex=\"0\" data-en=\"coefficient\">hệ số</b> là 2; mỗi biến lấy <b class=\"mbl-term\" tabindex=\"0\" data-en=\"exponent\">số mũ</b> nhỏ nhất: \\(x^2y\\).",
+   "images": [],
+   "id": "2f9a8a4fad51",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Which method is the most suitable to factor \\(#x^#-#\\)?",
+   "en": "Which method is the most suitable to factor \\(9x^2-25\\)?",
+   "vi": "Phương pháp thích hợp nhất để phân tích đa thức \\(9x^2-25\\) thành nhân tử là",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">grouping terms</span><span class=\"vi\">nhóm hạng tử</span></span>",
+    "<span class=\"txi\"><span class=\"en\">taking out a common factor</span><span class=\"vi\">đặt nhân tử chung</span></span>",
+    "<span class=\"txi\"><span class=\"en\">using an identity</span><span class=\"vi\">dùng hằng đẳng thức</span></span>",
+    "<span class=\"txi\"><span class=\"en\">none: it cannot be factored</span><span class=\"vi\">không phân tích được</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(9x^2-25=(3x-5)(3x+5)\\).",
+   "explain_vi": "Đáp án c. \\(9x^2-25=(3x-5)(3x+5)\\).",
+   "images": [],
+   "id": "8f02c2965aab",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Factor \\(#x(x-#)-#(x-#)\\).",
+   "en": "Factor \\(4x(x-7)-2(x-7)\\).",
+   "vi": "Phân tích đa thức \\(4x(x-7)-2(x-7)\\) thành nhân tử.",
+   "options": [
+    "\\((x-7)(4x+2)\\)",
+    "\\((x-7)^2(4x-2)\\)",
+    "\\((x-7)(4x-2)\\)",
+    "\\(2x(x-7)\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The common factor is \\(x-7\\).",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"common factor\">Nhân tử chung</b> là \\(x-7\\).",
+   "images": [],
+   "id": "76ff138845d1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Factor \\(#x^#+y^#\\).",
+   "en": "Factor \\(27x^3+y^3\\).",
+   "vi": "Phân tích đa thức \\(27x^3+y^3\\) thành nhân tử.",
+   "options": [
+    "\\((3x+y)(9x^2-3xy+y^2)\\)",
+    "\\((3x+y)(9x^2+3xy+y^2)\\)",
+    "\\((3x+y)(9x^2+y^2)\\)",
+    "\\((3x-y)(9x^2-3xy+y^2)\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(A^3+B^3=(A+B)(A^2-AB+B^2)\\) with \\(A=3x,\\ B=y\\).",
+   "explain_vi": "Đáp án a. \\(A^3+B^3=(A+B)(A^2-AB+B^2)\\) với \\(A=3x,\\ B=y\\).",
+   "images": [],
+   "id": "94a86e14d263",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Factor \\(x^#+#xy+#y^#\\).",
+   "en": "Factor \\(x^2+8xy+16y^2\\).",
+   "vi": "Phân tích đa thức \\(x^2+8xy+16y^2\\) thành nhân tử.",
+   "options": [
+    "\\((x+16y)^2\\)",
+    "\\((x-4y)^2\\)",
+    "\\((x-4y)(x+4y)\\)",
+    "\\((x+4y)^2\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(x^2+8xy+16y^2=(x+4y)^2\\).",
+   "explain_vi": "Đáp án d. \\(x^2+8xy+16y^2=(x+4y)^2\\).",
+   "images": [],
+   "id": "84b6e9c771c9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Factor \\(x^#-#x^#y+#xy^#\\).",
+   "en": "Factor \\(x^3-8x^2y+16xy^2\\).",
+   "vi": "Phân tích đa thức \\(x^3-8x^2y+16xy^2\\) thành nhân tử.",
+   "options": [
+    "\\(x(x-4y)^2\\)",
+    "\\((x-4y)^2\\)",
+    "\\(x(x+4y)^2\\)",
+    "\\(x(x-4y)(x+4y)\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. Take out \\(x\\), then use the square identity: \\(x(x-4y)^2\\).",
+   "explain_vi": "Đáp án a. Đặt <b class=\"mbl-term\" tabindex=\"0\" data-en=\"common factor\">nhân tử chung</b> \\(x\\) rồi dùng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"identity\">hằng đẳng thức</b>: \\(x(x-4y)^2\\).",
+   "images": [],
+   "id": "c106ee7c5eff",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Factor \\(x^#-#xy+y^#-#\\).",
+   "en": "Factor \\(x^2-2xy+y^2-1\\).",
+   "vi": "Phân tích đa thức \\(x^2-2xy+y^2-1\\) thành nhân tử.",
+   "options": [
+    "\\((x-y-1)(x-y+1)\\)",
+    "\\((x+y-1)(x+y+1)\\)",
+    "\\((x-y-1)^2\\)",
+    "\\((x-y-1)(x+y+1)\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\((x-y)^2-1^2=(x-y-1)(x-y+1)\\).",
+   "explain_vi": "Đáp án a. \\((x-y)^2-1^2=(x-y-1)(x-y+1)\\).",
+   "images": [],
+   "id": "70e656b4b8bd",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Find all \\(x\\) such that \\(x^#-#x=#\\).",
+   "en": "Find all \\(x\\) such that \\(x^3-4x=0\\).",
+   "vi": "Tìm tất cả các giá trị của \\(x\\), biết \\(x^3-4x=0\\).",
+   "options": [
+    "\\(x\\in\\{0;\\ 4;\\ -4\\}\\)",
+    "\\(x\\in\\{2;\\ -2\\}\\)",
+    "\\(x\\in\\{0;\\ 2;\\ -2\\}\\)",
+    "\\(x\\in\\{0;\\ 2\\}\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(x(x-2)(x+2)=0\\).",
+   "explain_vi": "Đáp án c. \\(x(x-2)(x+2)=0\\).",
+   "images": [],
+   "id": "843120f728a3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A rectangular plot has area \\(x^#+#x+#\\) (m²). Hint: \\(x^#+#x+#=x^#+#x+#x+#\\). Its sides are \\((x+#)\\) m and \\((x+#)\\) m. What is its area when \\(x=#\\)?",
+   "en": "A rectangular plot has area \\(x^2+3x+2\\) (m²). Hint: \\(x^2+3x+2=x^2+1x+2x+2\\). Its sides are \\((x+1)\\) m and \\((x+2)\\) m. What is its area when \\(x=10\\)?",
+   "vi": "Một mảnh đất hình chữ nhật có diện tích \\(x^2+3x+2\\) (m²). Gợi ý: \\(x^2+3x+2=x^2+x+2x+2\\). Các cạnh của mảnh đất là \\((x+1)\\) m và \\((x+2)\\) m. Tính diện tích khi \\(x=10\\).",
+   "options": [
+    "\\(132\\)",
+    "\\(130\\)",
+    "\\(133\\)",
+    "\\(102\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\((x+1)(x+2)=11\\cdot12=132\\) m².",
+   "explain_vi": "Đáp án a. \\((x+1)(x+2)=11\\cdot12=132\\) m².",
+   "images": [],
+   "id": "a55cfb1dab0c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D4",
+   "type": "mcq",
+   "form": "Calculate quickly: \\(#^#-#^#\\).",
+   "en": "Calculate quickly: \\(58^2-32^2\\).",
+   "vi": "Tính nhanh: \\(58^2-32^2\\).",
+   "options": [
+    "\\(676\\)",
+    "\\(2340\\)",
+    "\\(2440\\)",
+    "\\(4388\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(=(58-32)(58+32)=26\\cdot90=2340\\).",
+   "explain_vi": "Đáp án b. \\(=(58-32)(58+32)=26\\cdot90=2340\\).",
+   "images": [],
+   "id": "0d27b05464f3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D4",
+   "type": "mcq",
+   "form": "For every integer \\(n\\), the number \\(n^#+#n\\) is always divisible by…",
+   "en": "For every integer \\(n\\), the number \\(n^3+5n\\) is always divisible by…",
+   "vi": "Với mọi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"integers\">số nguyên</b> \\(n\\), số \\(n^3+5n\\) luôn chia hết cho",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">9</span><span class=\"vi\">9</span></span>",
+    "<span class=\"txi\"><span class=\"en\">6</span><span class=\"vi\">6</span></span>",
+    "<span class=\"txi\"><span class=\"en\">5</span><span class=\"vi\">5</span></span>",
+    "<span class=\"txi\"><span class=\"en\">12</span><span class=\"vi\">12</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(n^3-n+6n=(n-1)n(n+1)+6n\\); the product of three consecutive integers is divisible by 2 and by 3, so by 6.",
+   "explain_vi": "Đáp án b. \\(n^3-n+6n=(n-1)n(n+1)+6n\\); tích ba <b class=\"mbl-term\" tabindex=\"0\" data-en=\"integers\">số nguyên</b> liên tiếp chia hết cho 2 và cho 3 nên chia hết cho 6.",
+   "images": [],
+   "id": "03b690d6e9b6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  }
+ ]
+}

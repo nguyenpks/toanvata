@@ -1,0 +1,1260 @@
+{
+ "lesson": "g8-identities-01",
+ "grade": 8,
+ "no": 6,
+ "title": "Hiệu hai bình phương. Bình phương của một tổng hay một hiệu",
+ "path": "lessons/grade8/identities/squares-identities.html",
+ "items": [
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Choose the identity.",
+   "en": "Choose the identity.",
+   "vi": "Chọn <b class=\"mbl-term\" tabindex=\"0\" data-en=\"identity\">đẳng thức</b> là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"identity\">hằng đẳng thức</b>.",
+   "options": [
+    "\\(3x+4=7x\\)",
+    "\\((x-4)^2=x^2-16\\)",
+    "\\((x+4)^2=x^2+8x+16\\)",
+    "\\((x+4)^2=x^2+16\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. An identity is an equality that is true for all values of the variables.",
+   "explain_vi": "Đáp án c. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"identity\">Hằng đẳng thức</b> là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"identity\">đẳng thức</b> mà hai vế luôn nhận cùng một giá trị với mọi giá trị của biến.",
+   "images": [],
+   "id": "59dee9882e9a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Expand \\((#x+#)^#\\).",
+   "en": "Expand \\((4x+1)^2\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"expand\">Khai triển</b> \\((4x+1)^2\\).",
+   "options": [
+    "\\(16x^2+4x+1\\)",
+    "\\(16x^2-8x+1\\)",
+    "\\(16x^2+8x+1\\)",
+    "\\(16x^2+1\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\((A+B)^2=A^2+2AB+B^2\\) with \\(A=4x,\\ B=1\\): \\(16x^2+8x+1\\).",
+   "explain_vi": "Đáp án c. \\((A+B)^2=A^2+2AB+B^2\\) với \\(A=4x,\\ B=1\\): \\(16x^2+8x+1\\).",
+   "images": [],
+   "id": "dcb801f82180",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Write \\(x^#-#\\) as a product.",
+   "en": "Write \\(x^2-4\\) as a product.",
+   "vi": "Viết đa thức \\(x^2-4\\) dưới dạng tích.",
+   "options": [
+    "\\((x-2)(x+2)\\)",
+    "\\((x-4)(x+4)\\)",
+    "\\((x+2)^2\\)",
+    "\\((x-2)^2\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(A^2-B^2=(A-B)(A+B)\\) with \\(A=x,\\ B=2\\).",
+   "explain_vi": "Đáp án a. \\(A^2-B^2=(A-B)(A+B)\\) với \\(A=x,\\ B=2\\).",
+   "images": [],
+   "id": "bd2ae0339b1e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(#x^#-#=(#x-#)(-#x+#)\\).",
+   "en": "\\(4x^2-16=(2x-4)(-2x+4)\\).",
+   "vi": "\\(4x^2-16=(2x-4)(-2x+4)\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. \\(4x^2-16=(2x-4)(2x+4)\\).",
+   "explain_vi": "Sai. \\(4x^2-16=(2x-4)(2x+4)\\).",
+   "images": [],
+   "id": "d3e28139de16",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "\\((x-#)^#=x^#-#\\).",
+   "en": "\\((x-2)^2=x^2-4\\).",
+   "vi": "\\((x-2)^2=x^2-4\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. \\((x-2)^2=x^2-4x+4\\): do not forget the middle term \\(-4x\\).",
+   "explain_vi": "Sai. \\((x-2)^2=x^2-4x+4\\): không được quên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b> \\(-4x\\).",
+   "images": [],
+   "id": "b9e74030fe23",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "Calculate \\(#\\cdot #\\) quickly using an identity.",
+   "en": "Calculate \\(66\\cdot 74\\) quickly using an identity.",
+   "vi": "Tính nhanh \\(66\\cdot 74\\) bằng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"identity\">hằng đẳng thức</b>.",
+   "options": [],
+   "answer": "4884",
+   "explain_en": "Answer: 4884. \\((70-4)(70+4)=70^2-4^2=4884\\).",
+   "explain_vi": "Đáp số: 4884. \\((70-4)(70+4)=70^2-4^2=4884\\).",
+   "images": [],
+   "id": "9c45ecd100ce",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "Find the positive number in the box: \\(x^#+\\square\\, x+#=(x+#)^#\\).",
+   "en": "Find the positive number in the box: \\(x^2+\\square\\, x+36=(x+6)^2\\).",
+   "vi": "Tìm số dương thích hợp điền vào ô trống: \\(x^2+\\square\\, x+36=(x+6)^2\\).",
+   "options": [],
+   "answer": "12",
+   "explain_en": "Answer: 12. The middle term is \\(2\\cdot x\\cdot 6=12x\\).",
+   "explain_vi": "Đáp số: 12. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">Hạng tử</b> giữa là \\(2\\cdot x\\cdot 6=12x\\).",
+   "images": [],
+   "id": "00d357b511c1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Complete the identity (the square of a difference): \\((A-B)^#=\\,?\\)",
+   "en": "Complete the identity (the square of a difference): \\((A-B)^2=\\,?\\)",
+   "vi": "Hoàn thành <b class=\"mbl-term\" tabindex=\"0\" data-en=\"identity\">hằng đẳng thức</b> (bình phương của một hiệu): \\((A-B)^2=\\,?\\)",
+   "options": [
+    "\\(A^2-2AB+B^2\\)",
+    "\\(A^2+2AB-B^2\\)",
+    "\\(A^2-B^2\\)",
+    "\\(A^2-AB+B^2\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\((A-B)^2=A^2-2AB+B^2\\).",
+   "explain_vi": "Đáp án a. \\((A-B)^2=A^2-2AB+B^2\\).",
+   "images": [],
+   "id": "f1116099d6c9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D1",
+   "type": "mcq",
+   "form": "How do we read \\((A-B)^#\\)?",
+   "en": "How do we read \\((A-B)^2\\)?",
+   "vi": "Biểu thức \\((A-B)^2\\) được gọi là",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">the difference of two squares</span><span class=\"vi\">hiệu hai bình phương</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the sum of two squares</span><span class=\"vi\">tổng hai bình phương</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the square of a difference</span><span class=\"vi\">bình phương của một hiệu</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the square of a sum</span><span class=\"vi\">bình phương của một tổng</span></span>"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\((A-B)^2\\) is the square of a difference.",
+   "explain_vi": "Đáp án c. \\((A-B)^2\\) là bình phương của một hiệu.",
+   "images": [],
+   "id": "799d84bf5d7a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Write \\(#x^#+#x+#\\) in the form \\((A+B)^#\\). Then…",
+   "en": "Write \\(4x^2+28x+49\\) in the form \\((A+B)^2\\). Then…",
+   "vi": "Viết \\(4x^2+28x+49\\) dưới dạng \\((A+B)^2\\). Khi đó",
+   "options": [
+    "\\(A=2x,\\ B=7\\)",
+    "\\(A=4x,\\ B=49\\)",
+    "\\(A=2x,\\ B=49\\)",
+    "\\(A=x,\\ B=7\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(4x^2+28x+49=(2x)^2+2\\cdot2x\\cdot7+7^2\\).",
+   "explain_vi": "Đáp án a. \\(4x^2+28x+49=(2x)^2+2\\cdot2x\\cdot7+7^2\\).",
+   "images": [],
+   "id": "0959f85db9f3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Expand \\((x-#y)^#\\).",
+   "en": "Expand \\((x-9y)^2\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"expand\">Khai triển</b> \\((x-9y)^2\\).",
+   "options": [
+    "\\(x^2-18xy+81y^2\\)",
+    "\\(x^2-81y^2\\)",
+    "\\(x^2-9xy+81y^2\\)",
+    "\\(x^2+18xy+81y^2\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(x^2-18xy+81y^2\\).",
+   "explain_vi": "Đáp án a. \\(x^2-18xy+81y^2\\).",
+   "images": [],
+   "id": "232fdb42cc67",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Find the product \\((#x-#y)(#x+#y)\\).",
+   "en": "Find the product \\((5x-7y)(5x+7y)\\).",
+   "vi": "Tính \\((5x-7y)(5x+7y)\\).",
+   "options": [
+    "\\(25x^2-70xy+49y^2\\)",
+    "\\(25x^2-49y^2\\)",
+    "\\(5x^2-7y^2\\)",
+    "\\(25x^2+49y^2\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\((A-B)(A+B)=A^2-B^2=25x^2-49y^2\\).",
+   "explain_vi": "Đáp án b. \\((A-B)(A+B)=A^2-B^2=25x^2-49y^2\\).",
+   "images": [],
+   "id": "432b1d850e06",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Write \\(x^#+#x+#\\) as the square of a binomial.",
+   "en": "Write \\(x^2+8x+16\\) as the square of a binomial.",
+   "vi": "Viết đa thức \\(x^2+8x+16\\) dưới dạng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"square of a sum\">bình phương của một tổng</b> hoặc một hiệu.",
+   "options": [
+    "\\((x-4)^2\\)",
+    "\\((x-4)(x+4)\\)",
+    "\\((x+8)^2\\)",
+    "\\((x+4)^2\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(x^2+8x+16=(x+4)^2\\).",
+   "explain_vi": "Đáp án d. \\(x^2+8x+16=(x+4)^2\\).",
+   "images": [],
+   "id": "8d947cab64da",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Calculate quickly: \\(#\\cdot #\\).",
+   "en": "Calculate quickly: \\(24\\cdot 36\\).",
+   "vi": "Tính nhanh: \\(24\\cdot 36\\).",
+   "options": [
+    "\\(936\\)",
+    "\\(900\\)",
+    "\\(854\\)",
+    "\\(864\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(=30^2-6^2=900-36=864\\).",
+   "explain_vi": "Đáp án d. \\(=30^2-6^2=900-36=864\\).",
+   "images": [],
+   "id": "6e63d41d65f9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Find the value of \\(x^#-#xy+y^#\\) at \\(x=#,\\ y=#\\).",
+   "en": "Find the value of \\(x^2-2xy+y^2\\) at \\(x=103,\\ y=3\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"evaluate\">Tính giá trị</b> của biểu thức \\(x^2-2xy+y^2\\) tại \\(x=103,\\ y=3\\).",
+   "options": [
+    "\\(10000\\)",
+    "\\(10100\\)",
+    "\\(11236\\)",
+    "\\(10618\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(x^2-2xy+y^2=(x-y)^2=100^2=10000\\).",
+   "explain_vi": "Đáp án a. \\(x^2-2xy+y^2=(x-y)^2=100^2=10000\\).",
+   "images": [],
+   "id": "19b52aff73f2",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Simplify \\((x+#)^#+(x-#)^#\\).",
+   "en": "Simplify \\((x+4)^2+(x-4)^2\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"simplify an expression\">Rút gọn biểu thức</b> \\((x+4)^2+(x-4)^2\\).",
+   "options": [
+    "\\(2x^2\\)",
+    "\\(8x\\)",
+    "\\(16x\\)",
+    "\\(2x^2+32\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(=2x^2+32\\).",
+   "explain_vi": "Đáp án d. \\(=2x^2+32\\).",
+   "images": [],
+   "id": "53b9e40228bf",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A square garden has side \\(x\\) m. Each side is increased by # m, and the area increases by # m². Find \\(x\\).",
+   "en": "A square garden has side \\(x\\) m. Each side is increased by 4 m, and the area increases by 104 m². Find \\(x\\).",
+   "vi": "Một mảnh vườn hình vuông cạnh \\(x\\) m. Người ta mở rộng mỗi cạnh thêm 4 m thì diện tích tăng thêm 104 m². Tìm \\(x\\).",
+   "options": [
+    "\\(11\\)",
+    "\\(13\\)",
+    "\\(22\\)",
+    "\\(15\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\((x+4)^2-x^2=8x+16=104\\Rightarrow x=11\\).",
+   "explain_vi": "Đáp án a. \\((x+4)^2-x^2=8x+16=104\\Rightarrow x=11\\).",
+   "images": [],
+   "id": "5c43043e9385",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D4",
+   "type": "mcq",
+   "form": "Find the smallest value of \\(P=x^#-#x+#\\).",
+   "en": "Find the smallest value of \\(P=x^2-18x+87\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"minimum value\">giá trị nhỏ nhất</b> của biểu thức \\(P=x^2-18x+87\\).",
+   "options": [
+    "\\(-6\\)",
+    "\\(6\\)",
+    "\\(87\\)",
+    "\\(9\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(P=(x-9)^2+6\\ge 6\\); equality at \\(x=9\\).",
+   "explain_vi": "Đáp án b. \\(P=(x-9)^2+6\\ge 6\\); dấu bằng xảy ra khi \\(x=9\\).",
+   "images": [],
+   "id": "6a722c2d8581",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D4",
+   "type": "mcq",
+   "form": "Given \\(a>b>#\\), \\(a^#+b^#=#\\) and \\(ab=#\\). Find \\(a-b\\).",
+   "en": "Given \\(a>b>0\\), \\(a^2+b^2=37\\) and \\(ab=6\\). Find \\(a-b\\).",
+   "vi": "Cho \\(a>b>0\\) thỏa mãn \\(a^2+b^2=37\\) và \\(ab=6\\). Tính \\(a-b\\).",
+   "options": [
+    "\\(25\\)",
+    "\\(5\\)",
+    "\\(7\\)",
+    "\\(6\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\((a-b)^2=a^2+b^2-2ab=25\\) and \\(a-b>0\\), so \\(a-b=5\\).",
+   "explain_vi": "Đáp án b. \\((a-b)^2=a^2+b^2-2ab=25\\) mà \\(a-b>0\\) nên \\(a-b=5\\).",
+   "images": [],
+   "id": "eb6169f9dc7b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Expand \\((#x+#)^#\\).",
+   "en": "Expand \\((2x+9)^2\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"expand\">Khai triển</b> \\((2x+9)^2\\).",
+   "options": [
+    "\\(4x^2-36x+81\\)",
+    "\\(4x^2+18x+81\\)",
+    "\\(4x^2+36x+81\\)",
+    "\\(4x^2+81\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\((A+B)^2=A^2+2AB+B^2\\) with \\(A=2x,\\ B=9\\): \\(4x^2+36x+81\\).",
+   "explain_vi": "Đáp án c. \\((A+B)^2=A^2+2AB+B^2\\) với \\(A=2x,\\ B=9\\): \\(4x^2+36x+81\\).",
+   "images": [],
+   "id": "4ef4bd8edac0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Which equality is true for every value of \\(x\\)?",
+   "en": "Which equality is true for every value of \\(x\\)?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"identity\">Đẳng thức</b> nào đúng với mọi giá trị của \\(x\\)?",
+   "options": [
+    "\\((x+2)^2=x^2+4x+4\\)",
+    "\\((x+2)^2=x^2+4\\)",
+    "\\(5x+2=7x\\)",
+    "\\((x-2)^2=x^2-4\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. An identity is an equality that is true for all values of the variables.",
+   "explain_vi": "Đáp án a. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"identity\">Hằng đẳng thức</b> là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"identity\">đẳng thức</b> mà hai vế luôn nhận cùng một giá trị với mọi giá trị của biến.",
+   "images": [],
+   "id": "134f03ff3723",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Write \\(#x^#-#y^#\\) as a product.",
+   "en": "Write \\(9x^2-64y^2\\) as a product.",
+   "vi": "Viết đa thức \\(9x^2-64y^2\\) dưới dạng tích.",
+   "options": [
+    "\\((3x-16y)(3x+16y)\\)",
+    "\\((3x-8y)^2\\)",
+    "\\((3x-8y)(3x+8y)\\)",
+    "\\((3x+8y)^2\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(A^2-B^2=(A-B)(A+B)\\) with \\(A=3x,\\ B=8y\\).",
+   "explain_vi": "Đáp án c. \\(A^2-B^2=(A-B)(A+B)\\) với \\(A=3x,\\ B=8y\\).",
+   "images": [],
+   "id": "442a6bba13a9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(#x^#-#=(#x-#)(#x+#)\\).",
+   "en": "\\(9x^2-1=(3x-1)(3x+1)\\).",
+   "vi": "\\(9x^2-1=(3x-1)(3x+1)\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. \\(9x^2-1=(3x-1)(3x+1)\\).",
+   "explain_vi": "Đúng. \\(9x^2-1=(3x-1)(3x+1)\\).",
+   "images": [],
+   "id": "3a481510f161",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "\\((x-#)^#=x^#-#x+#\\).",
+   "en": "\\((x-8)^2=x^2-16x+64\\).",
+   "vi": "\\((x-8)^2=x^2-16x+64\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. \\((x-8)^2=x^2-16x+64\\): do not forget the middle term \\(-16x\\).",
+   "explain_vi": "Đúng. \\((x-8)^2=x^2-16x+64\\): không được quên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b> \\(-16x\\).",
+   "images": [],
+   "id": "015ee9b74bbe",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "Calculate \\(#\\cdot #\\) quickly using an identity.",
+   "en": "Calculate \\(18\\cdot 22\\) quickly using an identity.",
+   "vi": "Tính nhanh \\(18\\cdot 22\\) bằng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"identity\">hằng đẳng thức</b>.",
+   "options": [],
+   "answer": "396",
+   "explain_en": "Answer: 396. \\((20-2)(20+2)=20^2-2^2=396\\).",
+   "explain_vi": "Đáp số: 396. \\((20-2)(20+2)=20^2-2^2=396\\).",
+   "images": [],
+   "id": "66936b54e4dc",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "Find the positive number in the box: \\(#x^#+\\square\\, x+#=(#x+#)^#\\).",
+   "en": "Find the positive number in the box: \\(4x^2+\\square\\, x+64=(2x+8)^2\\).",
+   "vi": "Tìm số dương thích hợp điền vào ô trống: \\(4x^2+\\square\\, x+64=(2x+8)^2\\).",
+   "options": [],
+   "answer": "32",
+   "explain_en": "Answer: 32. The middle term is \\(2\\cdot 2x\\cdot 8=32x\\).",
+   "explain_vi": "Đáp số: 32. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">Hạng tử</b> giữa là \\(2\\cdot 2x\\cdot 8=32x\\).",
+   "images": [],
+   "id": "582cd4efba04",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Complete the identity (the square of a sum): \\((A+B)^#=\\,?\\)",
+   "en": "Complete the identity (the square of a sum): \\((A+B)^2=\\,?\\)",
+   "vi": "Hoàn thành <b class=\"mbl-term\" tabindex=\"0\" data-en=\"identity\">hằng đẳng thức</b> (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"square of a sum\">bình phương của một tổng</b>): \\((A+B)^2=\\,?\\)",
+   "options": [
+    "\\(A^2+B^2\\)",
+    "\\(A^2+2AB+B^2\\)",
+    "\\(A^2-2AB+B^2\\)",
+    "\\(A^2+AB+B^2\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\((A+B)^2=A^2+2AB+B^2\\).",
+   "explain_vi": "Đáp án b. \\((A+B)^2=A^2+2AB+B^2\\).",
+   "images": [],
+   "id": "69d93f502d62",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D1",
+   "type": "mcq",
+   "form": "How do we read \\((A+B)^#\\)?",
+   "en": "How do we read \\((A+B)^2\\)?",
+   "vi": "Biểu thức \\((A+B)^2\\) được gọi là",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">the square of a difference</span><span class=\"vi\">bình phương của một hiệu</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the sum of two squares</span><span class=\"vi\">tổng hai bình phương</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the difference of two squares</span><span class=\"vi\">hiệu hai bình phương</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the square of a sum</span><span class=\"vi\">bình phương của một tổng</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\((A+B)^2\\) is the square of a sum.",
+   "explain_vi": "Đáp án d. \\((A+B)^2\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"square of a sum\">bình phương của một tổng</b>.",
+   "images": [],
+   "id": "674e85e2d566",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Write \\(#x^#+#x+#\\) in the form \\((A+B)^#\\). Then…",
+   "en": "Write \\(16x^2+72x+81\\) in the form \\((A+B)^2\\). Then…",
+   "vi": "Viết \\(16x^2+72x+81\\) dưới dạng \\((A+B)^2\\). Khi đó",
+   "options": [
+    "\\(A=16x,\\ B=81\\)",
+    "\\(A=4x,\\ B=81\\)",
+    "\\(A=x,\\ B=9\\)",
+    "\\(A=4x,\\ B=9\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(16x^2+72x+81=(4x)^2+2\\cdot4x\\cdot9+9^2\\).",
+   "explain_vi": "Đáp án d. \\(16x^2+72x+81=(4x)^2+2\\cdot4x\\cdot9+9^2\\).",
+   "images": [],
+   "id": "78311eccc1bd",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Expand \\((#x-#y)^#\\).",
+   "en": "Expand \\((5x-8y)^2\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"expand\">Khai triển</b> \\((5x-8y)^2\\).",
+   "options": [
+    "\\(25x^2-64y^2\\)",
+    "\\(25x^2-80xy+64y^2\\)",
+    "\\(25x^2-40xy+64y^2\\)",
+    "\\(25x^2+80xy+64y^2\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(25x^2-80xy+64y^2\\).",
+   "explain_vi": "Đáp án b. \\(25x^2-80xy+64y^2\\).",
+   "images": [],
+   "id": "4b9f8f9bbc14",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Find the product \\((#x-#y)(#x+#y)\\).",
+   "en": "Find the product \\((4x-4y)(4x+4y)\\).",
+   "vi": "Tính \\((4x-4y)(4x+4y)\\).",
+   "options": [
+    "\\(4x^2-4y^2\\)",
+    "\\(16x^2-16y^2\\)",
+    "\\(16x^2-32xy+16y^2\\)",
+    "\\(16x^2+16y^2\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\((A-B)(A+B)=A^2-B^2=16x^2-16y^2\\).",
+   "explain_vi": "Đáp án b. \\((A-B)(A+B)=A^2-B^2=16x^2-16y^2\\).",
+   "images": [],
+   "id": "a5d6057860c6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Write \\(x^#-#x+#\\) as the square of a binomial.",
+   "en": "Write \\(x^2-18x+81\\) as the square of a binomial.",
+   "vi": "Viết đa thức \\(x^2-18x+81\\) dưới dạng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"square of a sum\">bình phương của một tổng</b> hoặc một hiệu.",
+   "options": [
+    "\\((x-9)(x+9)\\)",
+    "\\((x+9)^2\\)",
+    "\\((x-9)^2\\)",
+    "\\((x-18)^2\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(x^2-18x+81=(x-9)^2\\).",
+   "explain_vi": "Đáp án c. \\(x^2-18x+81=(x-9)^2\\).",
+   "images": [],
+   "id": "6c179db9a2ae",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Calculate quickly: \\(#\\cdot #\\).",
+   "en": "Calculate quickly: \\(68\\cdot 72\\).",
+   "vi": "Tính nhanh: \\(68\\cdot 72\\).",
+   "options": [
+    "\\(4900\\)",
+    "\\(4904\\)",
+    "\\(4896\\)",
+    "\\(4886\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(=70^2-2^2=4900-4=4896\\).",
+   "explain_vi": "Đáp án c. \\(=70^2-2^2=4900-4=4896\\).",
+   "images": [],
+   "id": "27f2ab714929",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Find the value of \\(x^#-#xy+y^#\\) at \\(x=#,\\ y=#\\).",
+   "en": "Find the value of \\(x^2-2xy+y^2\\) at \\(x=53,\\ y=3\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"evaluate\">Tính giá trị</b> của biểu thức \\(x^2-2xy+y^2\\) tại \\(x=53,\\ y=3\\).",
+   "options": [
+    "\\(2600\\)",
+    "\\(3136\\)",
+    "\\(2500\\)",
+    "\\(2818\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(x^2-2xy+y^2=(x-y)^2=50^2=2500\\).",
+   "explain_vi": "Đáp án c. \\(x^2-2xy+y^2=(x-y)^2=50^2=2500\\).",
+   "images": [],
+   "id": "5b5eb3c9f4af",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Simplify \\((x+#)^#+(x-#)^#\\).",
+   "en": "Simplify \\((x+7)^2+(x-7)^2\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"simplify an expression\">Rút gọn biểu thức</b> \\((x+7)^2+(x-7)^2\\).",
+   "options": [
+    "\\(28x\\)",
+    "\\(2x^2\\)",
+    "\\(14x\\)",
+    "\\(2x^2+98\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(=2x^2+98\\).",
+   "explain_vi": "Đáp án d. \\(=2x^2+98\\).",
+   "images": [],
+   "id": "fb359258e4d5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A square garden has side \\(x\\) m. Each side is increased by # m, and the area increases by # m². Find \\(x\\).",
+   "en": "A square garden has side \\(x\\) m. Each side is increased by 3 m, and the area increases by 63 m². Find \\(x\\).",
+   "vi": "Một mảnh vườn hình vuông cạnh \\(x\\) m. Người ta mở rộng mỗi cạnh thêm 3 m thì diện tích tăng thêm 63 m². Tìm \\(x\\).",
+   "options": [
+    "\\(18\\)",
+    "\\(\\dfrac{21}{2}\\)",
+    "\\(9\\)",
+    "\\(12\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\((x+3)^2-x^2=6x+9=63\\Rightarrow x=9\\).",
+   "explain_vi": "Đáp án c. \\((x+3)^2-x^2=6x+9=63\\Rightarrow x=9\\).",
+   "images": [],
+   "id": "cb71bd851aa8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D4",
+   "type": "mcq",
+   "form": "Find the smallest value of \\(P=x^#-#x+#\\).",
+   "en": "Find the smallest value of \\(P=x^2-2x+13\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"minimum value\">giá trị nhỏ nhất</b> của biểu thức \\(P=x^2-2x+13\\).",
+   "options": [
+    "\\(12\\)",
+    "\\(1\\)",
+    "\\(13\\)",
+    "\\(-12\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(P=(x-1)^2+12\\ge 12\\); equality at \\(x=1\\).",
+   "explain_vi": "Đáp án a. \\(P=(x-1)^2+12\\ge 12\\); dấu bằng xảy ra khi \\(x=1\\).",
+   "images": [],
+   "id": "c8ea55586895",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D4",
+   "type": "mcq",
+   "form": "Given \\(a>b>#\\), \\(a^#+b^#=#\\) and \\(ab=#\\). Find \\(a-b\\).",
+   "en": "Given \\(a>b>0\\), \\(a^2+b^2=25\\) and \\(ab=12\\). Find \\(a-b\\).",
+   "vi": "Cho \\(a>b>0\\) thỏa mãn \\(a^2+b^2=25\\) và \\(ab=12\\). Tính \\(a-b\\).",
+   "options": [
+    "\\(-1\\)",
+    "\\(1\\)",
+    "\\(7\\)",
+    "\\(2\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\((a-b)^2=a^2+b^2-2ab=1\\) and \\(a-b>0\\), so \\(a-b=1\\).",
+   "explain_vi": "Đáp án b. \\((a-b)^2=a^2+b^2-2ab=1\\) mà \\(a-b>0\\) nên \\(a-b=1\\).",
+   "images": [],
+   "id": "11cc4d2bb87c",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Expand \\((#x-#)^#\\).",
+   "en": "Expand \\((3x-9)^2\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"expand\">Khai triển</b> \\((3x-9)^2\\).",
+   "options": [
+    "\\(9x^2-81\\)",
+    "\\(9x^2-54x+81\\)",
+    "\\(9x^2+54x+81\\)",
+    "\\(9x^2-27x+81\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\((A-B)^2=A^2-2AB+B^2\\) with \\(A=3x,\\ B=9\\): \\(9x^2-54x+81\\).",
+   "explain_vi": "Đáp án b. \\((A-B)^2=A^2-2AB+B^2\\) với \\(A=3x,\\ B=9\\): \\(9x^2-54x+81\\).",
+   "images": [],
+   "id": "b0cb8cd48161",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Only one of these equalities is an identity. Which one?",
+   "en": "Only one of these equalities is an identity. Which one?",
+   "vi": "Chỉ có một <b class=\"mbl-term\" tabindex=\"0\" data-en=\"identity\">đẳng thức</b> là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"identity\">hằng đẳng thức</b>. Đó là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"identity\">đẳng thức</b> nào?",
+   "options": [
+    "\\((x+3)^2=x^2+9\\)",
+    "\\(x^2-9=0\\)",
+    "\\((x-3)^2=x^2-9\\)",
+    "\\((x+3)^2=x^2+6x+9\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. An identity is an equality that is true for all values of the variables.",
+   "explain_vi": "Đáp án d. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"identity\">Hằng đẳng thức</b> là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"identity\">đẳng thức</b> mà hai vế luôn nhận cùng một giá trị với mọi giá trị của biến.",
+   "images": [],
+   "id": "a4cb95b494b9",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Write \\(#x^#-#y^#\\) as a product.",
+   "en": "Write \\(25x^2-16y^2\\) as a product.",
+   "vi": "Viết đa thức \\(25x^2-16y^2\\) dưới dạng tích.",
+   "options": [
+    "\\((5x+4y)^2\\)",
+    "\\((5x-4y)^2\\)",
+    "\\((5x-8y)(5x+8y)\\)",
+    "\\((5x-4y)(5x+4y)\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(A^2-B^2=(A-B)(A+B)\\) with \\(A=5x,\\ B=4y\\).",
+   "explain_vi": "Đáp án d. \\(A^2-B^2=(A-B)(A+B)\\) với \\(A=5x,\\ B=4y\\).",
+   "images": [],
+   "id": "546d6eaba1fb",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(#x^#-#=(#x-#)(#x+#)\\).",
+   "en": "\\(16x^2-4=(4x-2)(4x+2)\\).",
+   "vi": "\\(16x^2-4=(4x-2)(4x+2)\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. \\(16x^2-4=(4x-2)(4x+2)\\).",
+   "explain_vi": "Đúng. \\(16x^2-4=(4x-2)(4x+2)\\).",
+   "images": [],
+   "id": "d212f7a9db46",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "\\((x+#)^#=x^#+#\\).",
+   "en": "\\((x+6)^2=x^2+36\\).",
+   "vi": "\\((x+6)^2=x^2+36\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. \\((x+6)^2=x^2+12x+36\\): do not forget the middle term \\(12x\\).",
+   "explain_vi": "Sai. \\((x+6)^2=x^2+12x+36\\): không được quên <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">hạng tử</b> \\(12x\\).",
+   "images": [],
+   "id": "ce39ba797780",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Calculate \\(#^#\\) quickly using an identity.",
+   "en": "Calculate \\(68^2\\) quickly using an identity.",
+   "vi": "Tính nhanh \\(68^2\\) bằng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"identity\">hằng đẳng thức</b>.",
+   "options": [],
+   "answer": "4624",
+   "explain_en": "Answer: 4624. \\(68^2=(70-2)^2=4900-280+4=4624\\).",
+   "explain_vi": "Đáp số: 4624. \\(68^2=(70-2)^2=4900-280+4=4624\\).",
+   "images": [],
+   "id": "39c31dae9b2d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Find the positive number in the box: \\(#x^#+\\square\\, x+#=(#x+#)^#\\).",
+   "en": "Find the positive number in the box: \\(25x^2+\\square\\, x+1=(5x+1)^2\\).",
+   "vi": "Tìm số dương thích hợp điền vào ô trống: \\(25x^2+\\square\\, x+1=(5x+1)^2\\).",
+   "options": [],
+   "answer": "10",
+   "explain_en": "Answer: 10. The middle term is \\(2\\cdot 5x\\cdot 1=10x\\).",
+   "explain_vi": "Đáp số: 10. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"term\">Hạng tử</b> giữa là \\(2\\cdot 5x\\cdot 1=10x\\).",
+   "images": [],
+   "id": "1a327efb0b81",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Complete the identity (the difference of two squares): \\(A^#-B^#=\\,?\\)",
+   "en": "Complete the identity (the difference of two squares): \\(A^2-B^2=\\,?\\)",
+   "vi": "Hoàn thành <b class=\"mbl-term\" tabindex=\"0\" data-en=\"identity\">hằng đẳng thức</b> (hiệu hai bình phương): \\(A^2-B^2=\\,?\\)",
+   "options": [
+    "\\((A-B)(A+B)\\)",
+    "\\((A+B)^2\\)",
+    "\\((A-B)^2\\)",
+    "\\((B-A)(A+B)\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(A^2-B^2=(A-B)(A+B)\\).",
+   "explain_vi": "Đáp án a. \\(A^2-B^2=(A-B)(A+B)\\).",
+   "images": [],
+   "id": "3ef91b1af360",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D1",
+   "type": "mcq",
+   "form": "How do we read \\(A^#-B^#\\)?",
+   "en": "How do we read \\(A^2-B^2\\)?",
+   "vi": "Biểu thức \\(A^2-B^2\\) được gọi là",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">the sum of two squares</span><span class=\"vi\">tổng hai bình phương</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the difference of two squares</span><span class=\"vi\">hiệu hai bình phương</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the square of a difference</span><span class=\"vi\">bình phương của một hiệu</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the square of a sum</span><span class=\"vi\">bình phương của một tổng</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(A^2-B^2\\) is the difference of two squares.",
+   "explain_vi": "Đáp án b. \\(A^2-B^2\\) là hiệu hai bình phương.",
+   "images": [],
+   "id": "56d17aa2d043",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Write \\(#x^#+#x+#\\) in the form \\((A+B)^#\\). Then…",
+   "en": "Write \\(16x^2+16x+4\\) in the form \\((A+B)^2\\). Then…",
+   "vi": "Viết \\(16x^2+16x+4\\) dưới dạng \\((A+B)^2\\). Khi đó",
+   "options": [
+    "\\(A=16x,\\ B=4\\)",
+    "\\(A=x,\\ B=2\\)",
+    "\\(A=4x,\\ B=2\\)",
+    "\\(A=4x,\\ B=4\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(16x^2+16x+4=(4x)^2+2\\cdot4x\\cdot2+2^2\\).",
+   "explain_vi": "Đáp án c. \\(16x^2+16x+4=(4x)^2+2\\cdot4x\\cdot2+2^2\\).",
+   "images": [],
+   "id": "cc31dae152e5",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Expand \\((#x-#y)^#\\).",
+   "en": "Expand \\((2x-7y)^2\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"expand\">Khai triển</b> \\((2x-7y)^2\\).",
+   "options": [
+    "\\(4x^2-28xy+49y^2\\)",
+    "\\(4x^2-49y^2\\)",
+    "\\(4x^2-14xy+49y^2\\)",
+    "\\(4x^2+28xy+49y^2\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(4x^2-28xy+49y^2\\).",
+   "explain_vi": "Đáp án a. \\(4x^2-28xy+49y^2\\).",
+   "images": [],
+   "id": "4039d70ca6e8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Find the product \\((#x-#y)(#x+#y)\\).",
+   "en": "Find the product \\((2x-8y)(2x+8y)\\).",
+   "vi": "Tính \\((2x-8y)(2x+8y)\\).",
+   "options": [
+    "\\(2x^2-8y^2\\)",
+    "\\(4x^2-64y^2\\)",
+    "\\(4x^2+64y^2\\)",
+    "\\(4x^2-32xy+64y^2\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\((A-B)(A+B)=A^2-B^2=4x^2-64y^2\\).",
+   "explain_vi": "Đáp án b. \\((A-B)(A+B)=A^2-B^2=4x^2-64y^2\\).",
+   "images": [],
+   "id": "4f1ab22e1268",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Write \\(#x^#-#x+#\\) as the square of a binomial.",
+   "en": "Write \\(16x^2-40x+25\\) as the square of a binomial.",
+   "vi": "Viết đa thức \\(16x^2-40x+25\\) dưới dạng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"square of a sum\">bình phương của một tổng</b> hoặc một hiệu.",
+   "options": [
+    "\\((4x-5)(4x+5)\\)",
+    "\\((16x-5)^2\\)",
+    "\\((4x+5)^2\\)",
+    "\\((4x-5)^2\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(16x^2-40x+25=(4x-5)^2\\).",
+   "explain_vi": "Đáp án d. \\(16x^2-40x+25=(4x-5)^2\\).",
+   "images": [],
+   "id": "7f0edd86f9f3",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Calculate quickly: \\(#\\cdot #\\).",
+   "en": "Calculate quickly: \\(77\\cdot 83\\).",
+   "vi": "Tính nhanh: \\(77\\cdot 83\\).",
+   "options": [
+    "\\(6391\\)",
+    "\\(6409\\)",
+    "\\(6400\\)",
+    "\\(6381\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(=80^2-3^2=6400-9=6391\\).",
+   "explain_vi": "Đáp án a. \\(=80^2-3^2=6400-9=6391\\).",
+   "images": [],
+   "id": "a37cc38740e7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Find the value of \\(x^#-#xy+y^#\\) at \\(x=#,\\ y=#\\).",
+   "en": "Find the value of \\(x^2-2xy+y^2\\) at \\(x=102,\\ y=2\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"evaluate\">Tính giá trị</b> của biểu thức \\(x^2-2xy+y^2\\) tại \\(x=102,\\ y=2\\).",
+   "options": [
+    "\\(10408\\)",
+    "\\(10816\\)",
+    "\\(10000\\)",
+    "\\(10100\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(x^2-2xy+y^2=(x-y)^2=100^2=10000\\).",
+   "explain_vi": "Đáp án c. \\(x^2-2xy+y^2=(x-y)^2=100^2=10000\\).",
+   "images": [],
+   "id": "2efa634521c4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Simplify \\((x+#)^#+(x-#)^#\\).",
+   "en": "Simplify \\((x+6)^2+(x-6)^2\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"simplify an expression\">Rút gọn biểu thức</b> \\((x+6)^2+(x-6)^2\\).",
+   "options": [
+    "\\(24x\\)",
+    "\\(2x^2+72\\)",
+    "\\(2x^2\\)",
+    "\\(12x\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(=2x^2+72\\).",
+   "explain_vi": "Đáp án b. \\(=2x^2+72\\).",
+   "images": [],
+   "id": "07c214b5984b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A square garden has side \\(x\\) m. Each side is increased by # m, and the area increases by # m². Find \\(x\\).",
+   "en": "A square garden has side \\(x\\) m. Each side is increased by 1 m, and the area increases by 39 m². Find \\(x\\).",
+   "vi": "Một mảnh vườn hình vuông cạnh \\(x\\) m. Người ta mở rộng mỗi cạnh thêm 1 m thì diện tích tăng thêm 39 m². Tìm \\(x\\).",
+   "options": [
+    "\\(20\\)",
+    "\\(38\\)",
+    "\\(\\dfrac{39}{2}\\)",
+    "\\(19\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\((x+1)^2-x^2=2x+1=39\\Rightarrow x=19\\).",
+   "explain_vi": "Đáp án d. \\((x+1)^2-x^2=2x+1=39\\Rightarrow x=19\\).",
+   "images": [],
+   "id": "61b1b06d719a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D4",
+   "type": "mcq",
+   "form": "Find the smallest value of \\(P=x^#-#x+#\\).",
+   "en": "Find the smallest value of \\(P=x^2-14x+58\\).",
+   "vi": "Tìm <b class=\"mbl-term\" tabindex=\"0\" data-en=\"minimum value\">giá trị nhỏ nhất</b> của biểu thức \\(P=x^2-14x+58\\).",
+   "options": [
+    "\\(9\\)",
+    "\\(58\\)",
+    "\\(-9\\)",
+    "\\(7\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(P=(x-7)^2+9\\ge 9\\); equality at \\(x=7\\).",
+   "explain_vi": "Đáp án a. \\(P=(x-7)^2+9\\ge 9\\); dấu bằng xảy ra khi \\(x=7\\).",
+   "images": [],
+   "id": "1001253f254b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D4",
+   "type": "mcq",
+   "form": "Given \\(a>b>#\\), \\(a^#+b^#=#\\) and \\(ab=#\\). Find \\(a+b\\).",
+   "en": "Given \\(a>b>0\\), \\(a^2+b^2=106\\) and \\(ab=45\\). Find \\(a+b\\).",
+   "vi": "Cho \\(a>b>0\\) thỏa mãn \\(a^2+b^2=106\\) và \\(ab=45\\). Tính \\(a+b\\).",
+   "options": [
+    "\\(4\\)",
+    "\\(196\\)",
+    "\\(15\\)",
+    "\\(14\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\((a+b)^2=a^2+b^2+2ab=196\\) and \\(a+b>0\\), so \\(a+b=14\\).",
+   "explain_vi": "Đáp án d. \\((a+b)^2=a^2+b^2+2ab=196\\) mà \\(a+b>0\\) nên \\(a+b=14\\).",
+   "images": [],
+   "id": "cf21b9cdcad0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  }
+ ]
+}

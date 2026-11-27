@@ -1,0 +1,1260 @@
+{
+ "lesson": "g8-identities-03",
+ "grade": 8,
+ "no": 8,
+ "title": "Tổng và hiệu hai lập phương",
+ "path": "lessons/grade8/identities/sum-difference-of-cubes.html",
+ "items": [
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Factor \\(x^#+#\\).",
+   "en": "Factor \\(x^3+125\\).",
+   "vi": "Phân tích đa thức \\(x^3+125\\) thành tích.",
+   "options": [
+    "\\((x+5)(x^2+25)\\)",
+    "\\((x+5)(x^2+5x+25)\\)",
+    "\\((x+5)(x^2-5x+25)\\)",
+    "\\((x-5)(x^2-5x+25)\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(A^3+B^3=(A+B)(A^2-AB+B^2)\\) with \\(A=x,\\ B=5\\).",
+   "explain_vi": "Đáp án c. \\(A^3+B^3=(A+B)(A^2-AB+B^2)\\) với \\(A=x,\\ B=5\\).",
+   "images": [],
+   "id": "2ebab1df0e08",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Find the product \\((x+#)(x^#-#x+#)\\).",
+   "en": "Find the product \\((x+4)(x^2-4x+16)\\).",
+   "vi": "Tính \\((x+4)(x^2-4x+16)\\).",
+   "options": [
+    "\\(x^3+64\\)",
+    "\\(x^3-64\\)",
+    "\\(x^3+12x^2+48x+64\\)",
+    "\\(x^3+16\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. It is the sum of two cubes: \\(x^3+64\\).",
+   "explain_vi": "Đáp án a. Đây là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sum of two cubes\">tổng hai lập phương</b>: \\(x^3+64\\).",
+   "images": [],
+   "id": "f9848fe0fb91",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "A",
+   "type": "mcq",
+   "form": "Write \\(x^#-y^#\\) as a product.",
+   "en": "Write \\(x^3-y^3\\) as a product.",
+   "vi": "Viết đa thức \\(x^3-y^3\\) dưới dạng tích.",
+   "options": [
+    "\\((x-y)(x^2-xy+y^2)\\)",
+    "\\((x-y)(x^2+xy+y^2)\\)",
+    "\\((x-y)(x^2+y^2)\\)",
+    "\\((x+y)(x^2+xy+y^2)\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(A^3-B^3=(A-B)(A^2+AB+B^2)\\) with \\(A=x,\\ B=y\\).",
+   "explain_vi": "Đáp án b. \\(A^3-B^3=(A-B)(A^2+AB+B^2)\\) với \\(A=x,\\ B=y\\).",
+   "images": [],
+   "id": "3d69c2334d91",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "\\((x-#)(x^#+#x+#)=x^#-#\\).",
+   "en": "\\((x-5)(x^2+5x+25)=x^3-125\\).",
+   "vi": "\\((x-5)(x^2+5x+25)=x^3-125\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. \\((x-5)(x^2+5x+25)=x^3-125\\).",
+   "explain_vi": "Đúng. \\((x-5)(x^2+5x+25)=x^3-125\\).",
+   "images": [],
+   "id": "f110365b97da",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(x^#+#=(x+#)^#\\).",
+   "en": "\\(x^3+1=(x+1)^3\\).",
+   "vi": "\\(x^3+1=(x+1)^3\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. \\(x^3+1=(x+1)(x^2-1x+1)\\); note \\((x+1)^3\\ne x^3+1\\).",
+   "explain_vi": "Sai. \\(x^3+1=(x+1)(x^2-1x+1)\\); chú ý \\((x+1)^3\\ne x^3+1\\).",
+   "images": [],
+   "id": "5df0305f537a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "Given \\(a+b=#\\) and \\(ab=#\\), find \\(a^#+b^#\\).",
+   "en": "Given \\(a+b=8\\) and \\(ab=15\\), find \\(a^3+b^3\\).",
+   "vi": "Cho \\(a+b=8\\) và \\(ab=15\\). Tính \\(a^3+b^3\\).",
+   "options": [],
+   "answer": "152",
+   "explain_en": "Answer: 152. \\(a^3+b^3=(a+b)^3-3ab(a+b)=152\\).",
+   "explain_vi": "Đáp số: 152. \\(a^3+b^3=(a+b)^3-3ab(a+b)=152\\).",
+   "images": [],
+   "id": "84d824ecd9a1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "C",
+   "type": "short",
+   "form": "Simplify \\((x-#)(x^#+#x+#)-x^#\\). What number do you get?",
+   "en": "Simplify \\((x-5)(x^2+5x+25)-x^3\\). What number do you get?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"simplify an expression\">Rút gọn biểu thức</b> \\((x-5)(x^2+5x+25)-x^3\\). Kết quả là số nào?",
+   "options": [],
+   "answer": "-125",
+   "explain_en": "Answer: -125. \\(=x^3-125-x^3=-125\\).",
+   "explain_vi": "Đáp số: -125. \\(=x^3-125-x^3=-125\\).",
+   "images": [],
+   "id": "9e47ae882d57",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Fill in the missing factor: \\(x^#-#=(x-#)\\cdot(\\ \\dots\\ )\\).",
+   "en": "Fill in the missing factor: \\(x^3-343=(x-7)\\cdot(\\ \\dots\\ )\\).",
+   "vi": "Điền đa thức thích hợp vào chỗ trống: \\(x^3-343=(x-7)\\cdot(\\ \\dots\\ )\\).",
+   "options": [
+    "\\(x^2-14x+49\\)",
+    "\\(x^2+49\\)",
+    "\\(x^2+7x+49\\)",
+    "\\(x^2-7x+49\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. The missing factor is \\(x^2+7x+49\\).",
+   "explain_vi": "Đáp án c. Đa thức cần điền là \\(x^2+7x+49\\).",
+   "images": [],
+   "id": "121ab8d5dc4d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D1",
+   "type": "mcq",
+   "form": "How do we read \\(A^#+B^#\\)?",
+   "en": "How do we read \\(A^3+B^3\\)?",
+   "vi": "Biểu thức \\(A^3+B^3\\) được gọi là",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">the cube of a sum</span><span class=\"vi\">lập phương của một tổng</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the difference of two cubes</span><span class=\"vi\">hiệu hai lập phương</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the cube of a difference</span><span class=\"vi\">lập phương của một hiệu</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the sum of two cubes</span><span class=\"vi\">tổng hai lập phương</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(A^3+B^3\\) is the sum of two cubes.",
+   "explain_vi": "Đáp án d. \\(A^3+B^3\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sum of two cubes\">tổng hai lập phương</b>.",
+   "images": [],
+   "id": "100d3280db7f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Which product is equal to \\(A^#-B^#\\)?",
+   "en": "Which product is equal to \\(A^3-B^3\\)?",
+   "vi": "Tích nào bằng \\(A^3-B^3\\)?",
+   "options": [
+    "\\((A-B)^3\\)",
+    "\\((A-B)(A^2-AB+B^2)\\)",
+    "\\((A-B)(A^2+AB+B^2)\\)",
+    "\\((A+B)(A^2+AB+B^2)\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(A^3-B^3=(A-B)(A^2+AB+B^2)\\).",
+   "explain_vi": "Đáp án c. \\(A^3-B^3=(A-B)(A^2+AB+B^2)\\).",
+   "images": [],
+   "id": "d9f7fabd9e15",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Expand \\((x+y)(x^#-xy+y^#)\\).",
+   "en": "Expand \\((x+y)(x^2-xy+y^2)\\).",
+   "vi": "Thực hiện phép nhân \\((x+y)(x^2-xy+y^2)\\).",
+   "options": [
+    "\\(x^3+3x^2y+3xy^2+y^3\\)",
+    "\\(x^3-y^3\\)",
+    "\\(x^3+y^3\\)",
+    "\\(x^3+y^2\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(=x^3+y^3\\).",
+   "explain_vi": "Đáp án c. \\(=x^3+y^3\\).",
+   "images": [],
+   "id": "0d84dc05995a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Factor \\(x^#-y^#\\).",
+   "en": "Factor \\(x^3-y^3\\).",
+   "vi": "Phân tích đa thức \\(x^3-y^3\\) thành nhân tử.",
+   "options": [
+    "\\((x-y)(x^2+y^2)\\)",
+    "\\((x-y)(x^2-xy+y^2)\\)",
+    "\\((x+y)(x^2+xy+y^2)\\)",
+    "\\((x-y)(x^2+xy+y^2)\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(x^3-y^3=(x-y)(x^2+xy+y^2)\\).",
+   "explain_vi": "Đáp án d. \\(x^3-y^3=(x-y)(x^2+xy+y^2)\\).",
+   "images": [],
+   "id": "a3a5f0276ffd",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Simplify \\((x+#)(x^#-#x+#)-(x-#)(x^#+#x+#)\\).",
+   "en": "Simplify \\((x+6)(x^2-6x+36)-(x-6)(x^2+6x+36)\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"simplify an expression\">Rút gọn biểu thức</b> \\((x+6)(x^2-6x+36)-(x-6)(x^2+6x+36)\\).",
+   "options": [
+    "\\(2x^3\\)",
+    "\\(432\\)",
+    "\\(216\\)",
+    "\\(-432\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\((x^3+216)-(x^3-216)=432\\).",
+   "explain_vi": "Đáp án b. \\((x^3+216)-(x^3-216)=432\\).",
+   "images": [],
+   "id": "9d56e0c59212",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Find \\(x\\), given that \\((x+#)(x^#-#x+#)-x(x^#-#)=#\\).",
+   "en": "Find \\(x\\), given that \\((x+2)(x^2-2x+4)-x(x^2-3)=23\\).",
+   "vi": "Tìm \\(x\\), biết \\((x+2)(x^2-2x+4)-x(x^2-3)=23\\).",
+   "options": [
+    "\\(-5\\)",
+    "\\(\\dfrac{23}{3}\\)",
+    "\\(\\dfrac{31}{3}\\)",
+    "\\(5\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(x^3+8-x^3+3x=23\\Rightarrow 3x=15\\Rightarrow x=5\\).",
+   "explain_vi": "Đáp án d. \\(x^3+8-x^3+3x=23\\Rightarrow 3x=15\\Rightarrow x=5\\).",
+   "images": [],
+   "id": "ad1241a0594b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Given \\(a-b=#\\) and \\(ab=#\\), find \\(a^#-b^#\\).",
+   "en": "Given \\(a-b=2\\) and \\(ab=35\\), find \\(a^3-b^3\\).",
+   "vi": "Cho \\(a-b=2\\) và \\(ab=35\\). Tính \\(a^3-b^3\\).",
+   "options": [
+    "\\(-202\\)",
+    "\\(218\\)",
+    "\\(70\\)",
+    "\\(8\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(a^3-b^3=(a-b)^3+3ab(a-b)=8+210=218\\).",
+   "explain_vi": "Đáp án b. \\(a^3-b^3=(a-b)^3+3ab(a-b)=8+210=218\\).",
+   "images": [],
+   "id": "ede99ebd1d60",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Simplify \\(A=(x-#)(x^#+#x+#)-x(x^#-#)\\), then find its value at \\(x=-#\\).",
+   "en": "Simplify \\(A=(x-3)(x^2+3x+9)-x(x^2-3)\\), then find its value at \\(x=-2\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"simplify an expression\">Rút gọn biểu thức</b> \\(A=(x-3)(x^2+3x+9)-x(x^2-3)\\) rồi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"evaluate\">tính giá trị</b> tại \\(x=-2\\).",
+   "options": [
+    "\\(33\\)",
+    "\\(-36\\)",
+    "\\(21\\)",
+    "\\(-33\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(A=3x-27\\), so \\(A=-33\\).",
+   "explain_vi": "Đáp án d. \\(A=3x-27\\) nên \\(A=-33\\).",
+   "images": [],
+   "id": "7ba261e6d02f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A cube-shaped tank has edge \\(x\\) dm. A cube-shaped stone block with edge # dm lies at the bottom. The amount of water needed to fill the tank is \\(x^#-#\\) liters. Write it as a product and find it when \\(x=#\\).",
+   "en": "A cube-shaped tank has edge \\(x\\) dm. A cube-shaped stone block with edge 1 dm lies at the bottom. The amount of water needed to fill the tank is \\(x^3-1\\) liters. Write it as a product and find it when \\(x=13\\).",
+   "vi": "Một bể nước <b class=\"mbl-term\" tabindex=\"0\" data-en=\"cube\">hình lập phương</b> cạnh \\(x\\) dm, dưới đáy có đặt một khối đá <b class=\"mbl-term\" tabindex=\"0\" data-en=\"cube\">hình lập phương</b> cạnh 1 dm. Lượng nước cần đổ để đầy bể là \\(x^3-1\\) (lít). Viết biểu thức đó dưới dạng tích và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"evaluate\">tính giá trị</b> khi \\(x=13\\).",
+   "options": [
+    "\\((x-1)(x^2-x+1);\\ 1884\\)",
+    "\\((x-1)(x^2+x+1);\\ 2198\\)",
+    "\\((x-1)^3;\\ 1728\\)",
+    "\\((x-1)(x^2+x+1);\\ 2196\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(x^3-1=(x-1)(x^2+x+1)\\); at \\(x=13\\): 2196 liters.",
+   "explain_vi": "Đáp án d. \\(x^3-1=(x-1)(x^2+x+1)\\); khi \\(x=13\\): 2196 lít.",
+   "images": [],
+   "id": "85bd41a37430",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A hollow cube box has outer edge \\((x+#)\\) cm and inner edge \\((x-#)\\) cm. The volume of its walls is \\((x+#)^#-(x-#)^#\\). Find this volume when \\(x=#\\).",
+   "en": "A hollow cube box has outer edge \\((x+1)\\) cm and inner edge \\((x-1)\\) cm. The volume of its walls is \\((x+1)^3-(x-1)^3\\). Find this volume when \\(x=5\\).",
+   "vi": "Một chiếc hộp <b class=\"mbl-term\" tabindex=\"0\" data-en=\"cube\">hình lập phương</b> rỗng có cạnh ngoài \\((x+1)\\) cm và cạnh trong \\((x-1)\\) cm. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"volume\">Thể tích</b> phần vỏ hộp là \\((x+1)^3-(x-1)^3\\). Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"volume\">thể tích</b> đó khi \\(x=5\\).",
+   "options": [
+    "\\(2\\text{ cm}^3\\)",
+    "\\(150\\text{ cm}^3\\)",
+    "\\(250\\text{ cm}^3\\)",
+    "\\(152\\text{ cm}^3\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(A^3-B^3=(A-B)(A^2+AB+B^2)=2(3x^2+1)=6x^2+2=152\\) cm³.",
+   "explain_vi": "Đáp án d. \\(A^3-B^3=(A-B)(A^2+AB+B^2)=2(3x^2+1)=6x^2+2=152\\) cm³.",
+   "images": [],
+   "id": "7935fad928d7",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 1,
+   "section": "D4",
+   "type": "mcq",
+   "form": "Two cubes have edges \\(a\\) cm and \\(b\\) cm with \\(a+b=#\\) and \\(ab=#\\). Find their total volume.",
+   "en": "Two cubes have edges \\(a\\) cm and \\(b\\) cm with \\(a+b=14\\) and \\(ab=48\\). Find their total volume.",
+   "vi": "Hai khối lập phương có cạnh \\(a\\) cm và \\(b\\) cm, biết \\(a+b=14\\) và \\(ab=48\\). Tính tổng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"volume\">thể tích</b> của hai khối.",
+   "options": [
+    "\\(4760\\text{ cm}^3\\)",
+    "\\(2072\\text{ cm}^3\\)",
+    "\\(2744\\text{ cm}^3\\)",
+    "\\(728\\text{ cm}^3\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(a^3+b^3=(a+b)^3-3ab(a+b)=728\\) cm³.",
+   "explain_vi": "Đáp án d. \\(a^3+b^3=(a+b)^3-3ab(a+b)=728\\) cm³.",
+   "images": [],
+   "id": "7972dfbefa12",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Factor \\(#x^#+#\\).",
+   "en": "Factor \\(27x^3+8\\).",
+   "vi": "Phân tích đa thức \\(27x^3+8\\) thành tích.",
+   "options": [
+    "\\((3x+2)(9x^2+4)\\)",
+    "\\((3x+2)(9x^2-6x+4)\\)",
+    "\\((3x-2)(9x^2-6x+4)\\)",
+    "\\((3x+2)(9x^2+6x+4)\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(A^3+B^3=(A+B)(A^2-AB+B^2)\\) with \\(A=3x,\\ B=2\\).",
+   "explain_vi": "Đáp án b. \\(A^3+B^3=(A+B)(A^2-AB+B^2)\\) với \\(A=3x,\\ B=2\\).",
+   "images": [],
+   "id": "3d3c2df20654",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Find the product \\((#x+#)(#x^#-#x+#)\\).",
+   "en": "Find the product \\((3x+3)(9x^2-9x+9)\\).",
+   "vi": "Tính \\((3x+3)(9x^2-9x+9)\\).",
+   "options": [
+    "\\(27x^3+27\\)",
+    "\\(27x^3-27\\)",
+    "\\(27x^3+81x^2+81x+27\\)",
+    "\\(27x^3+9\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. It is the sum of two cubes: \\(27x^3+27\\).",
+   "explain_vi": "Đáp án a. Đây là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sum of two cubes\">tổng hai lập phương</b>: \\(27x^3+27\\).",
+   "images": [],
+   "id": "82be3d833b7a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "A",
+   "type": "mcq",
+   "form": "Write \\(x^#-#\\) as a product.",
+   "en": "Write \\(x^3-125\\) as a product.",
+   "vi": "Viết đa thức \\(x^3-125\\) dưới dạng tích.",
+   "options": [
+    "\\((x-5)(x^2+5x+25)\\)",
+    "\\((x+5)(x^2+5x+25)\\)",
+    "\\((x-5)(x^2-5x+25)\\)",
+    "\\((x-5)(x^2+25)\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(A^3-B^3=(A-B)(A^2+AB+B^2)\\) with \\(A=x,\\ B=5\\).",
+   "explain_vi": "Đáp án a. \\(A^3-B^3=(A-B)(A^2+AB+B^2)\\) với \\(A=x,\\ B=5\\).",
+   "images": [],
+   "id": "d658522190e1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "\\((x-#)(x^#+#x+#)=x^#-#\\).",
+   "en": "\\((x-9)(x^2+9x+81)=x^3-729\\).",
+   "vi": "\\((x-9)(x^2+9x+81)=x^3-729\\).",
+   "options": [],
+   "answer": "true",
+   "explain_en": "True. \\((x-9)(x^2+9x+81)=x^3-729\\).",
+   "explain_vi": "Đúng. \\((x-9)(x^2+9x+81)=x^3-729\\).",
+   "images": [],
+   "id": "08638437992a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(x^#-#=(x-#)^#\\).",
+   "en": "\\(x^3-27=(x-3)^3\\).",
+   "vi": "\\(x^3-27=(x-3)^3\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. \\(x^3-27=(x-3)(x^2+3x+9)\\); note \\((x-3)^3\\ne x^3-27\\).",
+   "explain_vi": "Sai. \\(x^3-27=(x-3)(x^2+3x+9)\\); chú ý \\((x-3)^3\\ne x^3-27\\).",
+   "images": [],
+   "id": "bdeec1c7ba45",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "Given \\(a-b=#\\) and \\(ab=#\\), find \\(a^#-b^#\\).",
+   "en": "Given \\(a-b=3\\) and \\(ab=10\\), find \\(a^3-b^3\\).",
+   "vi": "Cho \\(a-b=3\\) và \\(ab=10\\). Tính \\(a^3-b^3\\).",
+   "options": [],
+   "answer": "117",
+   "explain_en": "Answer: 117. \\(a^3-b^3=(a-b)^3+3ab(a-b)=117\\).",
+   "explain_vi": "Đáp số: 117. \\(a^3-b^3=(a-b)^3+3ab(a-b)=117\\).",
+   "images": [],
+   "id": "d9a944bdc133",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "C",
+   "type": "short",
+   "form": "Simplify \\((x-#)(x^#+#x+#)-x^#\\). What number do you get?",
+   "en": "Simplify \\((x-2)(x^2+2x+4)-x^3\\). What number do you get?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"simplify an expression\">Rút gọn biểu thức</b> \\((x-2)(x^2+2x+4)-x^3\\). Kết quả là số nào?",
+   "options": [],
+   "answer": "-8",
+   "explain_en": "Answer: -8. \\(=x^3-8-x^3=-8\\).",
+   "explain_vi": "Đáp số: -8. \\(=x^3-8-x^3=-8\\).",
+   "images": [],
+   "id": "63a7fb7e2c5a",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Complete the identity (the sum of two cubes): \\(A^#+B^#=\\,?\\)",
+   "en": "Complete the identity (the sum of two cubes): \\(A^3+B^3=\\,?\\)",
+   "vi": "Hoàn thành <b class=\"mbl-term\" tabindex=\"0\" data-en=\"identity\">hằng đẳng thức</b> (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"sum of two cubes\">tổng hai lập phương</b>): \\(A^3+B^3=\\,?\\)",
+   "options": [
+    "\\((A+B)(A^2-AB+B^2)\\)",
+    "\\((A-B)(A^2-AB+B^2)\\)",
+    "\\((A+B)(A^2+AB+B^2)\\)",
+    "\\((A+B)^3\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(A^3+B^3=(A+B)(A^2-AB+B^2)\\).",
+   "explain_vi": "Đáp án a. \\(A^3+B^3=(A+B)(A^2-AB+B^2)\\).",
+   "images": [],
+   "id": "988f8d6412ba",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Fill in the missing factor: \\(x^#+#=(x+#)\\cdot(\\ \\dots\\ )\\).",
+   "en": "Fill in the missing factor: \\(x^3+512=(x+8)\\cdot(\\ \\dots\\ )\\).",
+   "vi": "Điền đa thức thích hợp vào chỗ trống: \\(x^3+512=(x+8)\\cdot(\\ \\dots\\ )\\).",
+   "options": [
+    "\\(x^2+64\\)",
+    "\\(x^2+8x+64\\)",
+    "\\(x^2+16x+64\\)",
+    "\\(x^2-8x+64\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. The missing factor is \\(x^2-8x+64\\).",
+   "explain_vi": "Đáp án d. Đa thức cần điền là \\(x^2-8x+64\\).",
+   "images": [],
+   "id": "f34af26cf499",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D1",
+   "type": "mcq",
+   "form": "How do we read \\((A-B)^#\\)?",
+   "en": "How do we read \\((A-B)^3\\)?",
+   "vi": "Biểu thức \\((A-B)^3\\) được gọi là",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">the difference of two cubes</span><span class=\"vi\">hiệu hai lập phương</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the sum of two cubes</span><span class=\"vi\">tổng hai lập phương</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the cube of a sum</span><span class=\"vi\">lập phương của một tổng</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the cube of a difference</span><span class=\"vi\">lập phương của một hiệu</span></span>"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\((A-B)^3\\) is the cube of a difference.",
+   "explain_vi": "Đáp án d. \\((A-B)^3\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"cube of a difference\">lập phương của một hiệu</b>.",
+   "images": [],
+   "id": "db820d0a9398",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Expand \\((#x+#y)(#x^#-#xy+#y^#)\\).",
+   "en": "Expand \\((3x+3y)(9x^2-9xy+9y^2)\\).",
+   "vi": "Thực hiện phép nhân \\((3x+3y)(9x^2-9xy+9y^2)\\).",
+   "options": [
+    "\\(27x^3+9y^2\\)",
+    "\\(27x^3+27y^3\\)",
+    "\\(27x^3-27y^3\\)",
+    "\\(27x^3+81x^2y+81xy^2+27y^3\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(=27x^3+27y^3\\).",
+   "explain_vi": "Đáp án b. \\(=27x^3+27y^3\\).",
+   "images": [],
+   "id": "a9f59b87be3e",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Factor \\(#x^#-#y^#\\).",
+   "en": "Factor \\(27x^3-64y^3\\).",
+   "vi": "Phân tích đa thức \\(27x^3-64y^3\\) thành nhân tử.",
+   "options": [
+    "\\((3x+4y)(9x^2+12xy+16y^2)\\)",
+    "\\((3x-4y)(9x^2+12xy+16y^2)\\)",
+    "\\((3x-4y)(9x^2+16y^2)\\)",
+    "\\((3x-4y)(9x^2-12xy+16y^2)\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(27x^3-64y^3=(3x-4y)(9x^2+12xy+16y^2)\\).",
+   "explain_vi": "Đáp án b. \\(27x^3-64y^3=(3x-4y)(9x^2+12xy+16y^2)\\).",
+   "images": [],
+   "id": "0936888d8472",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Simplify \\((x+#)(x^#-#x+#)-(x-#)(x^#+#x+#)\\).",
+   "en": "Simplify \\((x+3)(x^2-3x+9)-(x-3)(x^2+3x+9)\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"simplify an expression\">Rút gọn biểu thức</b> \\((x+3)(x^2-3x+9)-(x-3)(x^2+3x+9)\\).",
+   "options": [
+    "\\(27\\)",
+    "\\(54\\)",
+    "\\(-54\\)",
+    "\\(2x^3\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\((x^3+27)-(x^3-27)=54\\).",
+   "explain_vi": "Đáp án b. \\((x^3+27)-(x^3-27)=54\\).",
+   "images": [],
+   "id": "ea7e82b517e1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Find \\(x\\), given that \\((x+#)(x^#-#x+#)-x(x^#-#)=#\\).",
+   "en": "Find \\(x\\), given that \\((x+2)(x^2-2x+4)-x(x^2-4)=12\\).",
+   "vi": "Tìm \\(x\\), biết \\((x+2)(x^2-2x+4)-x(x^2-4)=12\\).",
+   "options": [
+    "\\(1\\)",
+    "\\(-1\\)",
+    "\\(3\\)",
+    "\\(5\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(x^3+8-x^3+4x=12\\Rightarrow 4x=4\\Rightarrow x=1\\).",
+   "explain_vi": "Đáp án a. \\(x^3+8-x^3+4x=12\\Rightarrow 4x=4\\Rightarrow x=1\\).",
+   "images": [],
+   "id": "02033ca149d1",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Given \\(a-b=#\\) and \\(ab=#\\), find \\(a^#-b^#\\).",
+   "en": "Given \\(a-b=5\\) and \\(ab=36\\), find \\(a^3-b^3\\).",
+   "vi": "Cho \\(a-b=5\\) và \\(ab=36\\). Tính \\(a^3-b^3\\).",
+   "options": [
+    "\\(-415\\)",
+    "\\(125\\)",
+    "\\(665\\)",
+    "\\(180\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(a^3-b^3=(a-b)^3+3ab(a-b)=125+540=665\\).",
+   "explain_vi": "Đáp án c. \\(a^3-b^3=(a-b)^3+3ab(a-b)=125+540=665\\).",
+   "images": [],
+   "id": "efffa9a82286",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Simplify \\(A=(x-#)(x^#+x+#)-x(x^#-#)\\), then find its value at \\(x=-#\\).",
+   "en": "Simplify \\(A=(x-1)(x^2+x+1)-x(x^2-2)\\), then find its value at \\(x=-6\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"simplify an expression\">Rút gọn biểu thức</b> \\(A=(x-1)(x^2+x+1)-x(x^2-2)\\) rồi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"evaluate\">tính giá trị</b> tại \\(x=-6\\).",
+   "options": [
+    "\\(-13\\)",
+    "\\(-11\\)",
+    "\\(13\\)",
+    "\\(-15\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(A=2x-1\\), so \\(A=-13\\).",
+   "explain_vi": "Đáp án a. \\(A=2x-1\\) nên \\(A=-13\\).",
+   "images": [],
+   "id": "eedddc656491",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A cube-shaped tank has edge \\(x\\) dm. A cube-shaped stone block with edge # dm lies at the bottom. The amount of water needed to fill the tank is \\(x^#-#\\) liters. Write it as a product and find it when \\(x=#\\).",
+   "en": "A cube-shaped tank has edge \\(x\\) dm. A cube-shaped stone block with edge 3 dm lies at the bottom. The amount of water needed to fill the tank is \\(x^3-27\\) liters. Write it as a product and find it when \\(x=15\\).",
+   "vi": "Một bể nước <b class=\"mbl-term\" tabindex=\"0\" data-en=\"cube\">hình lập phương</b> cạnh \\(x\\) dm, dưới đáy có đặt một khối đá <b class=\"mbl-term\" tabindex=\"0\" data-en=\"cube\">hình lập phương</b> cạnh 3 dm. Lượng nước cần đổ để đầy bể là \\(x^3-27\\) (lít). Viết biểu thức đó dưới dạng tích và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"evaluate\">tính giá trị</b> khi \\(x=15\\).",
+   "options": [
+    "\\((x-3)(x^2+3x+9);\\ 3402\\)",
+    "\\((x-3)(x^2-3x+9);\\ 2268\\)",
+    "\\((x-3)(x^2+3x+9);\\ 3348\\)",
+    "\\((x-3)^3;\\ 1728\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(x^3-27=(x-3)(x^2+3x+9)\\); at \\(x=15\\): 3348 liters.",
+   "explain_vi": "Đáp án c. \\(x^3-27=(x-3)(x^2+3x+9)\\); khi \\(x=15\\): 3348 lít.",
+   "images": [],
+   "id": "d45028da42d8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A hollow cube box has outer edge \\((x+#)\\) cm and inner edge \\((x-#)\\) cm. The volume of its walls is \\((x+#)^#-(x-#)^#\\). Find this volume when \\(x=#\\).",
+   "en": "A hollow cube box has outer edge \\((x+1)\\) cm and inner edge \\((x-1)\\) cm. The volume of its walls is \\((x+1)^3-(x-1)^3\\). Find this volume when \\(x=10\\).",
+   "vi": "Một chiếc hộp <b class=\"mbl-term\" tabindex=\"0\" data-en=\"cube\">hình lập phương</b> rỗng có cạnh ngoài \\((x+1)\\) cm và cạnh trong \\((x-1)\\) cm. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"volume\">Thể tích</b> phần vỏ hộp là \\((x+1)^3-(x-1)^3\\). Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"volume\">thể tích</b> đó khi \\(x=10\\).",
+   "options": [
+    "\\(2\\text{ cm}^3\\)",
+    "\\(602\\text{ cm}^3\\)",
+    "\\(600\\text{ cm}^3\\)",
+    "\\(2000\\text{ cm}^3\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(A^3-B^3=(A-B)(A^2+AB+B^2)=2(3x^2+1)=6x^2+2=602\\) cm³.",
+   "explain_vi": "Đáp án b. \\(A^3-B^3=(A-B)(A^2+AB+B^2)=2(3x^2+1)=6x^2+2=602\\) cm³.",
+   "images": [],
+   "id": "f3c298920156",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 2,
+   "section": "D4",
+   "type": "mcq",
+   "form": "Two cubes have edges \\(a\\) cm and \\(b\\) cm with \\(a+b=#\\) and \\(ab=#\\). Find their total volume.",
+   "en": "Two cubes have edges \\(a\\) cm and \\(b\\) cm with \\(a+b=7\\) and \\(ab=12\\). Find their total volume.",
+   "vi": "Hai khối lập phương có cạnh \\(a\\) cm và \\(b\\) cm, biết \\(a+b=7\\) và \\(ab=12\\). Tính tổng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"volume\">thể tích</b> của hai khối.",
+   "options": [
+    "\\(91\\text{ cm}^3\\)",
+    "\\(259\\text{ cm}^3\\)",
+    "\\(343\\text{ cm}^3\\)",
+    "\\(595\\text{ cm}^3\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(a^3+b^3=(a+b)^3-3ab(a+b)=91\\) cm³.",
+   "explain_vi": "Đáp án a. \\(a^3+b^3=(a+b)^3-3ab(a+b)=91\\) cm³.",
+   "images": [],
+   "id": "5f61504a60a4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Factor \\(x^#+#y^#\\).",
+   "en": "Factor \\(x^3+125y^3\\).",
+   "vi": "Phân tích đa thức \\(x^3+125y^3\\) thành tích.",
+   "options": [
+    "\\((x+5y)(x^2+25y^2)\\)",
+    "\\((x+5y)(x^2+5xy+25y^2)\\)",
+    "\\((x-5y)(x^2-5xy+25y^2)\\)",
+    "\\((x+5y)(x^2-5xy+25y^2)\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(A^3+B^3=(A+B)(A^2-AB+B^2)\\) with \\(A=x,\\ B=5y\\).",
+   "explain_vi": "Đáp án d. \\(A^3+B^3=(A+B)(A^2-AB+B^2)\\) với \\(A=x,\\ B=5y\\).",
+   "images": [],
+   "id": "cfbe4a85542f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Find the product \\((x+#)(x^#-#x+#)\\).",
+   "en": "Find the product \\((x+3)(x^2-3x+9)\\).",
+   "vi": "Tính \\((x+3)(x^2-3x+9)\\).",
+   "options": [
+    "\\(x^3+27\\)",
+    "\\(x^3-27\\)",
+    "\\(x^3+9\\)",
+    "\\(x^3+9x^2+27x+27\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. It is the sum of two cubes: \\(x^3+27\\).",
+   "explain_vi": "Đáp án a. Đây là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"sum of two cubes\">tổng hai lập phương</b>: \\(x^3+27\\).",
+   "images": [],
+   "id": "34a394e10585",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "A",
+   "type": "mcq",
+   "form": "Write \\(#x^#-#\\) as a product.",
+   "en": "Write \\(27x^3-125\\) as a product.",
+   "vi": "Viết đa thức \\(27x^3-125\\) dưới dạng tích.",
+   "options": [
+    "\\((3x-5)(9x^2-15x+25)\\)",
+    "\\((3x-5)(9x^2+25)\\)",
+    "\\((3x-5)(9x^2+15x+25)\\)",
+    "\\((3x+5)(9x^2+15x+25)\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(A^3-B^3=(A-B)(A^2+AB+B^2)\\) with \\(A=3x,\\ B=5\\).",
+   "explain_vi": "Đáp án c. \\(A^3-B^3=(A-B)(A^2+AB+B^2)\\) với \\(A=3x,\\ B=5\\).",
+   "images": [],
+   "id": "18dac94804b8",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "\\((x-#)(x^#-#x+#)=x^#-#\\).",
+   "en": "\\((x-2)(x^2-2x+4)=x^3-8\\).",
+   "vi": "\\((x-2)(x^2-2x+4)=x^3-8\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. \\((x-2)(x^2+2x+4)=x^3-8\\).",
+   "explain_vi": "Sai. \\((x-2)(x^2+2x+4)=x^3-8\\).",
+   "images": [],
+   "id": "d50f3fe60ae6",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "B",
+   "type": "tf",
+   "form": "\\(x^#+#=(x+#)^#\\).",
+   "en": "\\(x^3+125=(x+5)^3\\).",
+   "vi": "\\(x^3+125=(x+5)^3\\).",
+   "options": [],
+   "answer": "false",
+   "explain_en": "False. \\(x^3+125=(x+5)(x^2-5x+25)\\); note \\((x+5)^3\\ne x^3+125\\).",
+   "explain_vi": "Sai. \\(x^3+125=(x+5)(x^2-5x+25)\\); chú ý \\((x+5)^3\\ne x^3+125\\).",
+   "images": [],
+   "id": "82f6bf9c014f",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Given \\(a-b=#\\) and \\(ab=#\\), find \\(a^#-b^#\\).",
+   "en": "Given \\(a-b=2\\) and \\(ab=15\\), find \\(a^3-b^3\\).",
+   "vi": "Cho \\(a-b=2\\) và \\(ab=15\\). Tính \\(a^3-b^3\\).",
+   "options": [],
+   "answer": "98",
+   "explain_en": "Answer: 98. \\(a^3-b^3=(a-b)^3+3ab(a-b)=98\\).",
+   "explain_vi": "Đáp số: 98. \\(a^3-b^3=(a-b)^3+3ab(a-b)=98\\).",
+   "images": [],
+   "id": "c44fda86b4b0",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "C",
+   "type": "short",
+   "form": "Simplify \\((x-#)(x^#+x+#)-x^#\\). What number do you get?",
+   "en": "Simplify \\((x-1)(x^2+x+1)-x^3\\). What number do you get?",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"simplify an expression\">Rút gọn biểu thức</b> \\((x-1)(x^2+x+1)-x^3\\). Kết quả là số nào?",
+   "options": [],
+   "answer": "-1",
+   "explain_en": "Answer: -1. \\(=x^3-1-x^3=-1\\).",
+   "explain_vi": "Đáp số: -1. \\(=x^3-1-x^3=-1\\).",
+   "images": [],
+   "id": "258f74bc672d",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Complete the identity (the difference of two cubes): \\(A^#-B^#=\\,?\\)",
+   "en": "Complete the identity (the difference of two cubes): \\(A^3-B^3=\\,?\\)",
+   "vi": "Hoàn thành <b class=\"mbl-term\" tabindex=\"0\" data-en=\"identity\">hằng đẳng thức</b> (<b class=\"mbl-term\" tabindex=\"0\" data-en=\"difference of two cubes\">hiệu hai lập phương</b>): \\(A^3-B^3=\\,?\\)",
+   "options": [
+    "\\((A+B)(A^2+AB+B^2)\\)",
+    "\\((A-B)(A^2-AB+B^2)\\)",
+    "\\((A-B)(A^2+AB+B^2)\\)",
+    "\\((A-B)^3\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(A^3-B^3=(A-B)(A^2+AB+B^2)\\).",
+   "explain_vi": "Đáp án c. \\(A^3-B^3=(A-B)(A^2+AB+B^2)\\).",
+   "images": [],
+   "id": "2fd1d9615f18",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D1",
+   "type": "mcq",
+   "form": "Fill in the missing factor: \\(x^#-#=(x-#)\\cdot(\\ \\dots\\ )\\).",
+   "en": "Fill in the missing factor: \\(x^3-729=(x-9)\\cdot(\\ \\dots\\ )\\).",
+   "vi": "Điền đa thức thích hợp vào chỗ trống: \\(x^3-729=(x-9)\\cdot(\\ \\dots\\ )\\).",
+   "options": [
+    "\\(x^2+9x+81\\)",
+    "\\(x^2-18x+81\\)",
+    "\\(x^2+81\\)",
+    "\\(x^2-9x+81\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. The missing factor is \\(x^2+9x+81\\).",
+   "explain_vi": "Đáp án a. Đa thức cần điền là \\(x^2+9x+81\\).",
+   "images": [],
+   "id": "1f1570479a1b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D1",
+   "type": "mcq",
+   "form": "How do we read \\(A^#-B^#\\)?",
+   "en": "How do we read \\(A^3-B^3\\)?",
+   "vi": "Biểu thức \\(A^3-B^3\\) được gọi là",
+   "options": [
+    "<span class=\"txi\"><span class=\"en\">the cube of a difference</span><span class=\"vi\">lập phương của một hiệu</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the difference of two cubes</span><span class=\"vi\">hiệu hai lập phương</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the cube of a sum</span><span class=\"vi\">lập phương của một tổng</span></span>",
+    "<span class=\"txi\"><span class=\"en\">the sum of two cubes</span><span class=\"vi\">tổng hai lập phương</span></span>"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(A^3-B^3\\) is the difference of two cubes.",
+   "explain_vi": "Đáp án b. \\(A^3-B^3\\) là <b class=\"mbl-term\" tabindex=\"0\" data-en=\"difference of two cubes\">hiệu hai lập phương</b>.",
+   "images": [],
+   "id": "60e9b973d2cc",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Expand \\((#x-#y)(#x^#+#xy+#y^#)\\).",
+   "en": "Expand \\((2x-3y)(4x^2+6xy+9y^2)\\).",
+   "vi": "Thực hiện phép nhân \\((2x-3y)(4x^2+6xy+9y^2)\\).",
+   "options": [
+    "\\(8x^3+27y^3\\)",
+    "\\(8x^3-36x^2y+54xy^2-27y^3\\)",
+    "\\(8x^3-27y^3\\)",
+    "\\(8x^3-9y^2\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(=8x^3-27y^3\\).",
+   "explain_vi": "Đáp án c. \\(=8x^3-27y^3\\).",
+   "images": [],
+   "id": "ed8e750e6022",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Factor \\(#x^#+#y^#\\).",
+   "en": "Factor \\(27x^3+64y^3\\).",
+   "vi": "Phân tích đa thức \\(27x^3+64y^3\\) thành nhân tử.",
+   "options": [
+    "\\((3x+4y)(9x^2-12xy+16y^2)\\)",
+    "\\((3x-4y)(9x^2-12xy+16y^2)\\)",
+    "\\((3x+4y)(9x^2+12xy+16y^2)\\)",
+    "\\((3x+4y)(9x^2+16y^2)\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(27x^3+64y^3=(3x+4y)(9x^2-12xy+16y^2)\\).",
+   "explain_vi": "Đáp án a. \\(27x^3+64y^3=(3x+4y)(9x^2-12xy+16y^2)\\).",
+   "images": [],
+   "id": "26f5d6a1af00",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D2",
+   "type": "mcq",
+   "form": "Simplify \\((x+#)(x^#-#x+#)-(x-#)(x^#+#x+#)\\).",
+   "en": "Simplify \\((x+5)(x^2-5x+25)-(x-5)(x^2+5x+25)\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"simplify an expression\">Rút gọn biểu thức</b> \\((x+5)(x^2-5x+25)-(x-5)(x^2+5x+25)\\).",
+   "options": [
+    "\\(-250\\)",
+    "\\(2x^3\\)",
+    "\\(125\\)",
+    "\\(250\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\((x^3+125)-(x^3-125)=250\\).",
+   "explain_vi": "Đáp án d. \\((x^3+125)-(x^3-125)=250\\).",
+   "images": [],
+   "id": "10f04ee70c9b",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Find \\(x\\), given that \\((x+#)(x^#-x+#)-x(x^#-#)=#\\).",
+   "en": "Find \\(x\\), given that \\((x+1)(x^2-x+1)-x(x^2-4)=21\\).",
+   "vi": "Tìm \\(x\\), biết \\((x+1)(x^2-x+1)-x(x^2-4)=21\\).",
+   "options": [
+    "\\(5\\)",
+    "\\(-5\\)",
+    "\\(\\dfrac{11}{2}\\)",
+    "\\(\\dfrac{21}{4}\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(x^3+1-x^3+4x=21\\Rightarrow 4x=20\\Rightarrow x=5\\).",
+   "explain_vi": "Đáp án a. \\(x^3+1-x^3+4x=21\\Rightarrow 4x=20\\Rightarrow x=5\\).",
+   "images": [],
+   "id": "7154dc31b195",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Given \\(a-b=#\\) and \\(ab=#\\), find \\(a^#-b^#\\).",
+   "en": "Given \\(a-b=4\\) and \\(ab=12\\), find \\(a^3-b^3\\).",
+   "vi": "Cho \\(a-b=4\\) và \\(ab=12\\). Tính \\(a^3-b^3\\).",
+   "options": [
+    "\\(-80\\)",
+    "\\(64\\)",
+    "\\(208\\)",
+    "\\(48\\)"
+   ],
+   "answer": "c",
+   "explain_en": "Answer: c. \\(a^3-b^3=(a-b)^3+3ab(a-b)=64+144=208\\).",
+   "explain_vi": "Đáp án c. \\(a^3-b^3=(a-b)^3+3ab(a-b)=64+144=208\\).",
+   "images": [],
+   "id": "5b56475231b4",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D3",
+   "type": "mcq",
+   "form": "Simplify \\(A=(x-#)(x^#+#x+#)-x(x^#-#)\\), then find its value at \\(x=#\\).",
+   "en": "Simplify \\(A=(x-2)(x^2+2x+4)-x(x^2-4)\\), then find its value at \\(x=4\\).",
+   "vi": "<b class=\"mbl-term\" tabindex=\"0\" data-en=\"simplify an expression\">Rút gọn biểu thức</b> \\(A=(x-2)(x^2+2x+4)-x(x^2-4)\\) rồi <b class=\"mbl-term\" tabindex=\"0\" data-en=\"evaluate\">tính giá trị</b> tại \\(x=4\\).",
+   "options": [
+    "\\(24\\)",
+    "\\(4\\)",
+    "\\(-8\\)",
+    "\\(8\\)"
+   ],
+   "answer": "d",
+   "explain_en": "Answer: d. \\(A=4x-8\\), so \\(A=8\\).",
+   "explain_vi": "Đáp án d. \\(A=4x-8\\) nên \\(A=8\\).",
+   "images": [],
+   "id": "d26b66e71616",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A cube-shaped tank has edge \\(x\\) dm. A cube-shaped stone block with edge # dm lies at the bottom. The amount of water needed to fill the tank is \\(x^#-#\\) liters. Write it as a product and find it when \\(x=#\\).",
+   "en": "A cube-shaped tank has edge \\(x\\) dm. A cube-shaped stone block with edge 1 dm lies at the bottom. The amount of water needed to fill the tank is \\(x^3-1\\) liters. Write it as a product and find it when \\(x=9\\).",
+   "vi": "Một bể nước <b class=\"mbl-term\" tabindex=\"0\" data-en=\"cube\">hình lập phương</b> cạnh \\(x\\) dm, dưới đáy có đặt một khối đá <b class=\"mbl-term\" tabindex=\"0\" data-en=\"cube\">hình lập phương</b> cạnh 1 dm. Lượng nước cần đổ để đầy bể là \\(x^3-1\\) (lít). Viết biểu thức đó dưới dạng tích và <b class=\"mbl-term\" tabindex=\"0\" data-en=\"evaluate\">tính giá trị</b> khi \\(x=9\\).",
+   "options": [
+    "\\((x-1)(x^2+x+1);\\ 728\\)",
+    "\\((x-1)(x^2+x+1);\\ 730\\)",
+    "\\((x-1)^3;\\ 512\\)",
+    "\\((x-1)(x^2-x+1);\\ 584\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(x^3-1=(x-1)(x^2+x+1)\\); at \\(x=9\\): 728 liters.",
+   "explain_vi": "Đáp án a. \\(x^3-1=(x-1)(x^2+x+1)\\); khi \\(x=9\\): 728 lít.",
+   "images": [],
+   "id": "38f523890d71",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D4",
+   "type": "mcq",
+   "form": "A hollow cube box has outer edge \\((x+#)\\) cm and inner edge \\((x-#)\\) cm. The volume of its walls is \\((x+#)^#-(x-#)^#\\). Find this volume when \\(x=#\\).",
+   "en": "A hollow cube box has outer edge \\((x+1)\\) cm and inner edge \\((x-1)\\) cm. The volume of its walls is \\((x+1)^3-(x-1)^3\\). Find this volume when \\(x=9\\).",
+   "vi": "Một chiếc hộp <b class=\"mbl-term\" tabindex=\"0\" data-en=\"cube\">hình lập phương</b> rỗng có cạnh ngoài \\((x+1)\\) cm và cạnh trong \\((x-1)\\) cm. <b class=\"mbl-term\" tabindex=\"0\" data-en=\"volume\">Thể tích</b> phần vỏ hộp là \\((x+1)^3-(x-1)^3\\). Tính <b class=\"mbl-term\" tabindex=\"0\" data-en=\"volume\">thể tích</b> đó khi \\(x=9\\).",
+   "options": [
+    "\\(1458\\text{ cm}^3\\)",
+    "\\(488\\text{ cm}^3\\)",
+    "\\(486\\text{ cm}^3\\)",
+    "\\(2\\text{ cm}^3\\)"
+   ],
+   "answer": "b",
+   "explain_en": "Answer: b. \\(A^3-B^3=(A-B)(A^2+AB+B^2)=2(3x^2+1)=6x^2+2=488\\) cm³.",
+   "explain_vi": "Đáp án b. \\(A^3-B^3=(A-B)(A^2+AB+B^2)=2(3x^2+1)=6x^2+2=488\\) cm³.",
+   "images": [],
+   "id": "2f9e042c72ec",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  },
+  {
+   "level": 3,
+   "section": "D4",
+   "type": "mcq",
+   "form": "Two cubes have edges \\(a\\) cm and \\(b\\) cm with \\(a+b=#\\) and \\(ab=#\\). Find their total volume.",
+   "en": "Two cubes have edges \\(a\\) cm and \\(b\\) cm with \\(a+b=10\\) and \\(ab=21\\). Find their total volume.",
+   "vi": "Hai khối lập phương có cạnh \\(a\\) cm và \\(b\\) cm, biết \\(a+b=10\\) và \\(ab=21\\). Tính tổng <b class=\"mbl-term\" tabindex=\"0\" data-en=\"volume\">thể tích</b> của hai khối.",
+   "options": [
+    "\\(370\\text{ cm}^3\\)",
+    "\\(1630\\text{ cm}^3\\)",
+    "\\(790\\text{ cm}^3\\)",
+    "\\(1000\\text{ cm}^3\\)"
+   ],
+   "answer": "a",
+   "explain_en": "Answer: a. \\(a^3+b^3=(a+b)^3-3ab(a+b)=370\\) cm³.",
+   "explain_vi": "Đáp án a. \\(a^3+b^3=(a+b)^3-3ab(a+b)=370\\) cm³.",
+   "images": [],
+   "id": "dfb6409621bf",
+   "status": "đang dùng",
+   "sources": [
+    "hiện tại"
+   ]
+  }
+ ]
+}
